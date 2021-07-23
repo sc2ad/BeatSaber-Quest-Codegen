@@ -33,6 +33,14 @@ namespace System::Security {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: SecurityAttribute
     SecurityAttribute(::Il2CppString* name_ = {}, ::Il2CppString* value_ = {}) noexcept : name{name_}, value{value_} {}
+    // Get instance field: private System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: private System.String _name
+    void _set__name(::Il2CppString* value);
+    // Get instance field: private System.String _value
+    ::Il2CppString* _get__value();
+    // Set instance field: private System.String _value
+    void _set__value(::Il2CppString* value);
     // public System.String get_Name()
     // Offset: 0x1B0C6C0
     ::Il2CppString* get_Name();

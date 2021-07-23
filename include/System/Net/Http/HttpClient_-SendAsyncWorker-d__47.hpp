@@ -109,6 +109,46 @@ namespace System::Net::Http {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.Http.HttpResponseMessage> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage*> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.Http.HttpResponseMessage> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Net::Http::HttpResponseMessage*> value);
+    // Get instance field: public System.Net.Http.HttpClient <>4__this
+    System::Net::Http::HttpClient* _get_$$4__this();
+    // Set instance field: public System.Net.Http.HttpClient <>4__this
+    void _set_$$4__this(System::Net::Http::HttpClient* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: public System.Net.Http.HttpRequestMessage request
+    System::Net::Http::HttpRequestMessage* _get_request();
+    // Set instance field: public System.Net.Http.HttpRequestMessage request
+    void _set_request(System::Net::Http::HttpRequestMessage* value);
+    // Get instance field: public System.Net.Http.HttpCompletionOption completionOption
+    System::Net::Http::HttpCompletionOption _get_completionOption();
+    // Set instance field: public System.Net.Http.HttpCompletionOption completionOption
+    void _set_completionOption(System::Net::Http::HttpCompletionOption value);
+    // Get instance field: private System.Net.Http.HttpResponseMessage <response>5__1
+    System::Net::Http::HttpResponseMessage* _get_$response$5__1();
+    // Set instance field: private System.Net.Http.HttpResponseMessage <response>5__1
+    void _set_$response$5__1(System::Net::Http::HttpResponseMessage* value);
+    // Get instance field: private System.Threading.CancellationTokenSource <lcts>5__2
+    System::Threading::CancellationTokenSource* _get_$lcts$5__2();
+    // Set instance field: private System.Threading.CancellationTokenSource <lcts>5__2
+    void _set_$lcts$5__2(System::Threading::CancellationTokenSource* value);
+    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.Http.HttpResponseMessage> <>u__1
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.Http.HttpResponseMessage> <>u__1
+    void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter value);
+    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
+    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xEDC540
     void MoveNext();

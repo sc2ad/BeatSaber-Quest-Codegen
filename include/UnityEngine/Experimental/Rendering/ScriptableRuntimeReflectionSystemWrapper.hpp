@@ -38,6 +38,10 @@ namespace UnityEngine::Experimental::Rendering {
     constexpr operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() const noexcept {
       return implementation;
     }
+    // Get instance field: private UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem <implementation>k__BackingField
+    UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* _get_$implementation$k__BackingField();
+    // Set instance field: private UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem <implementation>k__BackingField
+    void _set_$implementation$k__BackingField(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
     // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem get_implementation()
     // Offset: 0x1BEA7C0
     UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();

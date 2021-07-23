@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private PreviewBeatmapLevelSO[] _beatmapLevels
+    ::Array<GlobalNamespace::PreviewBeatmapLevelSO*>* _get__beatmapLevels();
+    // Set instance field: private PreviewBeatmapLevelSO[] _beatmapLevels
+    void _set__beatmapLevels(::Array<GlobalNamespace::PreviewBeatmapLevelSO*>* value);
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
     // Offset: 0x1109EDC
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();

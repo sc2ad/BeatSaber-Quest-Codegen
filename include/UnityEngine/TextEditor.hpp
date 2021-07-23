@@ -86,6 +86,10 @@ namespace UnityEngine {
       static UnityEngine::TextEditor::DblClickSnapping _get_PARAGRAPHS();
       // Set static field: static public UnityEngine.TextEditor/UnityEngine.DblClickSnapping PARAGRAPHS
       static void _set_PARAGRAPHS(UnityEngine::TextEditor::DblClickSnapping value);
+      // Get instance field: public System.Byte value__
+      uint8_t _get_value__();
+      // Set instance field: public System.Byte value__
+      void _set_value__(uint8_t value);
     }; // UnityEngine.TextEditor/UnityEngine.DblClickSnapping
     #pragma pack(pop)
     static check_size<sizeof(TextEditor::DblClickSnapping), 0 + sizeof(uint8_t)> __UnityEngine_TextEditor_DblClickSnappingSizeCheck;
@@ -412,6 +416,10 @@ namespace UnityEngine {
       static UnityEngine::TextEditor::TextEditOp _get_ScrollPageDown();
       // Set static field: static public UnityEngine.TextEditor/UnityEngine.TextEditOp ScrollPageDown
       static void _set_ScrollPageDown(UnityEngine::TextEditor::TextEditOp value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.TextEditor/UnityEngine.TextEditOp
     #pragma pack(pop)
     static check_size<sizeof(TextEditor::TextEditOp), 0 + sizeof(int)> __UnityEngine_TextEditor_TextEditOpSizeCheck;
@@ -572,6 +580,98 @@ namespace UnityEngine {
     static System::Collections::Generic::Dictionary_2<UnityEngine::Event*, UnityEngine::TextEditor::TextEditOp>* _get_s_Keyactions();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/UnityEngine.TextEditOp> s_Keyactions
     static void _set_s_Keyactions(System::Collections::Generic::Dictionary_2<UnityEngine::Event*, UnityEngine::TextEditor::TextEditOp>* value);
+    // Get instance field: public UnityEngine.TouchScreenKeyboard keyboardOnScreen
+    UnityEngine::TouchScreenKeyboard* _get_keyboardOnScreen();
+    // Set instance field: public UnityEngine.TouchScreenKeyboard keyboardOnScreen
+    void _set_keyboardOnScreen(UnityEngine::TouchScreenKeyboard* value);
+    // Get instance field: public System.Int32 controlID
+    int _get_controlID();
+    // Set instance field: public System.Int32 controlID
+    void _set_controlID(int value);
+    // Get instance field: public UnityEngine.GUIStyle style
+    UnityEngine::GUIStyle* _get_style();
+    // Set instance field: public UnityEngine.GUIStyle style
+    void _set_style(UnityEngine::GUIStyle* value);
+    // Get instance field: public System.Boolean multiline
+    bool _get_multiline();
+    // Set instance field: public System.Boolean multiline
+    void _set_multiline(bool value);
+    // Get instance field: public System.Boolean hasHorizontalCursorPos
+    bool _get_hasHorizontalCursorPos();
+    // Set instance field: public System.Boolean hasHorizontalCursorPos
+    void _set_hasHorizontalCursorPos(bool value);
+    // Get instance field: public System.Boolean isPasswordField
+    bool _get_isPasswordField();
+    // Set instance field: public System.Boolean isPasswordField
+    void _set_isPasswordField(bool value);
+    // Get instance field: System.Boolean m_HasFocus
+    bool _get_m_HasFocus();
+    // Set instance field: System.Boolean m_HasFocus
+    void _set_m_HasFocus(bool value);
+    // Get instance field: public UnityEngine.Vector2 scrollOffset
+    UnityEngine::Vector2 _get_scrollOffset();
+    // Set instance field: public UnityEngine.Vector2 scrollOffset
+    void _set_scrollOffset(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.GUIContent m_Content
+    UnityEngine::GUIContent* _get_m_Content();
+    // Set instance field: private UnityEngine.GUIContent m_Content
+    void _set_m_Content(UnityEngine::GUIContent* value);
+    // Get instance field: private UnityEngine.Rect m_Position
+    UnityEngine::Rect _get_m_Position();
+    // Set instance field: private UnityEngine.Rect m_Position
+    void _set_m_Position(UnityEngine::Rect value);
+    // Get instance field: private System.Int32 m_CursorIndex
+    int _get_m_CursorIndex();
+    // Set instance field: private System.Int32 m_CursorIndex
+    void _set_m_CursorIndex(int value);
+    // Get instance field: private System.Int32 m_SelectIndex
+    int _get_m_SelectIndex();
+    // Set instance field: private System.Int32 m_SelectIndex
+    void _set_m_SelectIndex(int value);
+    // Get instance field: private System.Boolean m_RevealCursor
+    bool _get_m_RevealCursor();
+    // Set instance field: private System.Boolean m_RevealCursor
+    void _set_m_RevealCursor(bool value);
+    // Get instance field: public UnityEngine.Vector2 graphicalCursorPos
+    UnityEngine::Vector2 _get_graphicalCursorPos();
+    // Set instance field: public UnityEngine.Vector2 graphicalCursorPos
+    void _set_graphicalCursorPos(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 graphicalSelectCursorPos
+    UnityEngine::Vector2 _get_graphicalSelectCursorPos();
+    // Set instance field: public UnityEngine.Vector2 graphicalSelectCursorPos
+    void _set_graphicalSelectCursorPos(UnityEngine::Vector2 value);
+    // Get instance field: private System.Boolean m_MouseDragSelectsWholeWords
+    bool _get_m_MouseDragSelectsWholeWords();
+    // Set instance field: private System.Boolean m_MouseDragSelectsWholeWords
+    void _set_m_MouseDragSelectsWholeWords(bool value);
+    // Get instance field: private System.Int32 m_DblClickInitPos
+    int _get_m_DblClickInitPos();
+    // Set instance field: private System.Int32 m_DblClickInitPos
+    void _set_m_DblClickInitPos(int value);
+    // Get instance field: private UnityEngine.TextEditor/UnityEngine.DblClickSnapping m_DblClickSnap
+    UnityEngine::TextEditor::DblClickSnapping _get_m_DblClickSnap();
+    // Set instance field: private UnityEngine.TextEditor/UnityEngine.DblClickSnapping m_DblClickSnap
+    void _set_m_DblClickSnap(UnityEngine::TextEditor::DblClickSnapping value);
+    // Get instance field: private System.Boolean m_bJustSelected
+    bool _get_m_bJustSelected();
+    // Set instance field: private System.Boolean m_bJustSelected
+    void _set_m_bJustSelected(bool value);
+    // Get instance field: private System.Int32 m_iAltCursorPos
+    int _get_m_iAltCursorPos();
+    // Set instance field: private System.Int32 m_iAltCursorPos
+    void _set_m_iAltCursorPos(int value);
+    // Get instance field: private System.String oldText
+    ::Il2CppString* _get_oldText();
+    // Set instance field: private System.String oldText
+    void _set_oldText(::Il2CppString* value);
+    // Get instance field: private System.Int32 oldPos
+    int _get_oldPos();
+    // Set instance field: private System.Int32 oldPos
+    void _set_oldPos(int value);
+    // Get instance field: private System.Int32 oldSelectPos
+    int _get_oldSelectPos();
+    // Set instance field: private System.Int32 oldSelectPos
+    void _set_oldSelectPos(int value);
     // public System.String get_text()
     // Offset: 0x1A9D68C
     ::Il2CppString* get_text();

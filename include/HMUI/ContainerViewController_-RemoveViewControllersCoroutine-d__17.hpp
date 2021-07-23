@@ -119,6 +119,50 @@ namespace HMUI {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public HMUI.ContainerViewController <>4__this
+    HMUI::ContainerViewController* _get_$$4__this();
+    // Set instance field: public HMUI.ContainerViewController <>4__this
+    void _set_$$4__this(HMUI::ContainerViewController* value);
+    // Get instance field: public HMUI.ViewController[] viewControllersToRemove
+    ::Array<HMUI::ViewController*>* _get_viewControllersToRemove();
+    // Set instance field: public HMUI.ViewController[] viewControllersToRemove
+    void _set_viewControllersToRemove(::Array<HMUI::ViewController*>* value);
+    // Get instance field: public System.Boolean immediately
+    bool _get_immediately();
+    // Set instance field: public System.Boolean immediately
+    void _set_immediately(bool value);
+    // Get instance field: public System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter
+    System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* _get_animationLayouter();
+    // Set instance field: public System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter
+    void _set_animationLayouter(System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* value);
+    // Get instance field: public System.Action finishedCallback
+    System::Action* _get_finishedCallback();
+    // Set instance field: public System.Action finishedCallback
+    void _set_finishedCallback(System::Action* value);
+    // Get instance field: private HMUI.ViewController[] <viewControllers>5__2
+    ::Array<HMUI::ViewController*>* _get_$viewControllers$5__2();
+    // Set instance field: private HMUI.ViewController[] <viewControllers>5__2
+    void _set_$viewControllers$5__2(::Array<HMUI::ViewController*>* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<HMUI.ViewController> <viewControllersToRemoveSet>5__3
+    System::Collections::Generic::HashSet_1<HMUI::ViewController*>* _get_$viewControllersToRemoveSet$5__3();
+    // Set instance field: private System.Collections.Generic.HashSet`1<HMUI.ViewController> <viewControllersToRemoveSet>5__3
+    void _set_$viewControllersToRemoveSet$5__3(System::Collections::Generic::HashSet_1<HMUI::ViewController*>* value);
+    // Get instance field: private System.Single <transitionDuration>5__4
+    float _get_$transitionDuration$5__4();
+    // Set instance field: private System.Single <transitionDuration>5__4
+    void _set_$transitionDuration$5__4(float value);
+    // Get instance field: private System.Single <elapsedTime>5__5
+    float _get_$elapsedTime$5__5();
+    // Set instance field: private System.Single <elapsedTime>5__5
+    void _set_$elapsedTime$5__5(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1306D18
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

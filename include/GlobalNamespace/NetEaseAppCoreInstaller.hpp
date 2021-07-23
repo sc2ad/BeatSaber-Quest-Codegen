@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::NetEaseManager*) == 0x8);
     // Creating value type constructor for type: NetEaseAppCoreInstaller
     NetEaseAppCoreInstaller(GlobalNamespace::NetEaseManager* netEaseManagerPrefab_ = {}) noexcept : netEaseManagerPrefab{netEaseManagerPrefab_} {}
+    // Get instance field: private NetEaseManager _netEaseManagerPrefab
+    GlobalNamespace::NetEaseManager* _get__netEaseManagerPrefab();
+    // Set instance field: private NetEaseManager _netEaseManagerPrefab
+    void _set__netEaseManagerPrefab(GlobalNamespace::NetEaseManager* value);
     // public System.Void .ctor()
     // Offset: 0x100ED00
     // Implemented from: Zenject.MonoInstaller

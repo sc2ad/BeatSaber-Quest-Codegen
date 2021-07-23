@@ -41,6 +41,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator UnityEngine::ProBuilder::Face*() const noexcept {
       return face;
     }
+    // Get instance field: public UnityEngine.ProBuilder.Face face
+    UnityEngine::ProBuilder::Face* _get_face();
+    // Set instance field: public UnityEngine.ProBuilder.Face face
+    void _set_face(UnityEngine::ProBuilder::Face* value);
     // System.Boolean <GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x1523914
     bool $GetFaceLoop$b__0(UnityEngine::ProBuilder::WingedEdge* x);

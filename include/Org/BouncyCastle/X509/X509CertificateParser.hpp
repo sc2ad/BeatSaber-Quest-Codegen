@@ -74,6 +74,18 @@ namespace Org::BouncyCastle::X509 {
     static Org::BouncyCastle::X509::PemParser* _get_PemCertParser();
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCertParser
     static void _set_PemCertParser(Org::BouncyCastle::X509::PemParser* value);
+    // Get instance field: private Org.BouncyCastle.Asn1.Asn1Set sData
+    Org::BouncyCastle::Asn1::Asn1Set* _get_sData();
+    // Set instance field: private Org.BouncyCastle.Asn1.Asn1Set sData
+    void _set_sData(Org::BouncyCastle::Asn1::Asn1Set* value);
+    // Get instance field: private System.Int32 sDataObjectCount
+    int _get_sDataObjectCount();
+    // Set instance field: private System.Int32 sDataObjectCount
+    void _set_sDataObjectCount(int value);
+    // Get instance field: private System.IO.Stream currentStream
+    System::IO::Stream* _get_currentStream();
+    // Set instance field: private System.IO.Stream currentStream
+    void _set_currentStream(System::IO::Stream* value);
     // static private System.Void .cctor()
     // Offset: 0x1F80670
     static void _cctor();

@@ -71,6 +71,22 @@ namespace GlobalNamespace {
     MenuLightsManager(GlobalNamespace::MenuLightsPresetSO* defaultPreset_ = {}, float smooth_ = {}, GlobalNamespace::LightWithIdManager* lightManager_ = {}, GlobalNamespace::MenuLightsPresetSO* preset_ = {}) noexcept : defaultPreset{defaultPreset_}, smooth{smooth_}, lightManager{lightManager_}, preset{preset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MenuLightsPresetSO _defaultPreset
+    GlobalNamespace::MenuLightsPresetSO* _get__defaultPreset();
+    // Set instance field: private MenuLightsPresetSO _defaultPreset
+    void _set__defaultPreset(GlobalNamespace::MenuLightsPresetSO* value);
+    // Get instance field: private System.Single _smooth
+    float _get__smooth();
+    // Set instance field: private System.Single _smooth
+    void _set__smooth(float value);
+    // Get instance field: private LightWithIdManager _lightManager
+    GlobalNamespace::LightWithIdManager* _get__lightManager();
+    // Set instance field: private LightWithIdManager _lightManager
+    void _set__lightManager(GlobalNamespace::LightWithIdManager* value);
+    // Get instance field: private MenuLightsPresetSO _preset
+    GlobalNamespace::MenuLightsPresetSO* _get__preset();
+    // Set instance field: private MenuLightsPresetSO _preset
+    void _set__preset(GlobalNamespace::MenuLightsPresetSO* value);
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x117FF90
     System::Collections::IEnumerator* Start();

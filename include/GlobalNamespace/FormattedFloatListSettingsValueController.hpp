@@ -68,6 +68,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::FormattedFloatListSettingsValueController::ValueType _get_InvertedNormalized();
       // Set static field: static public FormattedFloatListSettingsValueController/ValueType InvertedNormalized
       static void _set_InvertedNormalized(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // FormattedFloatListSettingsValueController/ValueType
     #pragma pack(pop)
     static check_size<sizeof(FormattedFloatListSettingsValueController::ValueType), 0 + sizeof(int)> __GlobalNamespace_FormattedFloatListSettingsValueController_ValueTypeSizeCheck;
@@ -110,6 +114,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: FormattedFloatListSettingsValueController
     FormattedFloatListSettingsValueController(GlobalNamespace::FloatSO* settingsValue_ = {}, ::Array<float>* values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsValueController::ValueType valueType_ = {}, float min_ = {}, float max_ = {}) noexcept : settingsValue{settingsValue_}, values{values_}, formattingString{formattingString_}, valueType{valueType_}, min{min_}, max{max_} {}
+    // Get instance field: private FloatSO _settingsValue
+    GlobalNamespace::FloatSO* _get__settingsValue();
+    // Set instance field: private FloatSO _settingsValue
+    void _set__settingsValue(GlobalNamespace::FloatSO* value);
+    // Get instance field: private System.Single[] _values
+    ::Array<float>* _get__values();
+    // Set instance field: private System.Single[] _values
+    void _set__values(::Array<float>* value);
+    // Get instance field: private System.String _formattingString
+    ::Il2CppString* _get__formattingString();
+    // Set instance field: private System.String _formattingString
+    void _set__formattingString(::Il2CppString* value);
+    // Get instance field: private FormattedFloatListSettingsValueController/ValueType valueType
+    GlobalNamespace::FormattedFloatListSettingsValueController::ValueType _get_valueType();
+    // Set instance field: private FormattedFloatListSettingsValueController/ValueType valueType
+    void _set_valueType(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType value);
+    // Get instance field: private System.Single _min
+    float _get__min();
+    // Set instance field: private System.Single _min
+    void _set__min(float value);
+    // Get instance field: private System.Single _max
+    float _get__max();
+    // Set instance field: private System.Single _max
+    void _set__max(float value);
     // public System.Void .ctor()
     // Offset: 0x102C4A4
     // Implemented from: ListSettingsController

@@ -69,6 +69,26 @@ namespace GlobalNamespace {
     CampaignProgressModel(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* missionIds_ = {}, ::Il2CppString* finalMissionId_ = {}, bool numberOfClearedMissionsDirty_ = {}, int numberOfClearedMissions_ = {}) noexcept : playerDataModel{playerDataModel_}, missionIds{missionIds_}, finalMissionId{finalMissionId_}, numberOfClearedMissionsDirty{numberOfClearedMissionsDirty_}, numberOfClearedMissions{numberOfClearedMissions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> _missionIds
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__missionIds();
+    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _missionIds
+    void _set__missionIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field: private System.String _finalMissionId
+    ::Il2CppString* _get__finalMissionId();
+    // Set instance field: private System.String _finalMissionId
+    void _set__finalMissionId(::Il2CppString* value);
+    // Get instance field: private System.Boolean _numberOfClearedMissionsDirty
+    bool _get__numberOfClearedMissionsDirty();
+    // Set instance field: private System.Boolean _numberOfClearedMissionsDirty
+    void _set__numberOfClearedMissionsDirty(bool value);
+    // Get instance field: private System.Int32 _numberOfClearedMissions
+    int _get__numberOfClearedMissions();
+    // Set instance field: private System.Int32 _numberOfClearedMissions
+    void _set__numberOfClearedMissions(int value);
     // public System.Int32 get_numberOfClearedMissions()
     // Offset: 0x1078818
     int get_numberOfClearedMissions();

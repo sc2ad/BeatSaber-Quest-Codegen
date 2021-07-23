@@ -42,6 +42,18 @@ namespace Mono::Unity {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_read_callback read
+    Mono::Unity::UnityTls::unitytls_tlsctx_read_callback* _get_read();
+    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_read_callback read
+    void _set_read(Mono::Unity::UnityTls::unitytls_tlsctx_read_callback* value);
+    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_write_callback write
+    Mono::Unity::UnityTls::unitytls_tlsctx_write_callback* _get_write();
+    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_write_callback write
+    void _set_write(Mono::Unity::UnityTls::unitytls_tlsctx_write_callback* value);
+    // Get instance field: public System.Void* data
+    void* _get_data();
+    // Set instance field: public System.Void* data
+    void _set_data(void* value);
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_callbacks
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_tlsctx_callbacks), 16 + sizeof(void*)> __Mono_Unity_UnityTls_unitytls_tlsctx_callbacksSizeCheck;

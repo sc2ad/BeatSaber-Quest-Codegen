@@ -64,6 +64,18 @@ namespace UnityEngine::Timeline {
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
+    // Get instance field: private UnityEngine.Animations.AnimationPlayableOutput m_Output
+    UnityEngine::Animations::AnimationPlayableOutput _get_m_Output();
+    // Set instance field: private UnityEngine.Animations.AnimationPlayableOutput m_Output
+    void _set_m_Output(UnityEngine::Animations::AnimationPlayableOutput value);
+    // Get instance field: private UnityEngine.Playables.PlayableGraph m_Graph
+    UnityEngine::Playables::PlayableGraph _get_m_Graph();
+    // Set instance field: private UnityEngine.Playables.PlayableGraph m_Graph
+    void _set_m_Graph(UnityEngine::Playables::PlayableGraph value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Experimental.Animations.IAnimationWindowPreview> m_PreviewComponents
+    System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* _get_m_PreviewComponents();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Experimental.Animations.IAnimationWindowPreview> m_PreviewComponents
+    void _set_m_PreviewComponents(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* value);
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
     // Offset: 0x17DC804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -101,6 +101,42 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: IKSolver
     IKSolver(UnityEngine::Vector3 IKPosition_ = {}, float IKPositionWeight_ = {}, bool initiated_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPreInitiate_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostInitiate_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPreUpdate_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostUpdate_ = {}, bool firstInitiation_ = {}, UnityEngine::Transform* root_ = {}) noexcept : IKPosition{IKPosition_}, IKPositionWeight{IKPositionWeight_}, initiated{initiated_}, OnPreInitiate{OnPreInitiate_}, OnPostInitiate{OnPostInitiate_}, OnPreUpdate{OnPreUpdate_}, OnPostUpdate{OnPostUpdate_}, firstInitiation{firstInitiation_}, root{root_} {}
+    // Get instance field: public UnityEngine.Vector3 IKPosition
+    UnityEngine::Vector3 _get_IKPosition();
+    // Set instance field: public UnityEngine.Vector3 IKPosition
+    void _set_IKPosition(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single IKPositionWeight
+    float _get_IKPositionWeight();
+    // Set instance field: public System.Single IKPositionWeight
+    void _set_IKPositionWeight(float value);
+    // Get instance field: private System.Boolean <initiated>k__BackingField
+    bool _get_$initiated$k__BackingField();
+    // Set instance field: private System.Boolean <initiated>k__BackingField
+    void _set_$initiated$k__BackingField(bool value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreInitiate
+    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPreInitiate();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreInitiate
+    void _set_OnPreInitiate(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostInitiate
+    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPostInitiate();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostInitiate
+    void _set_OnPostInitiate(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreUpdate
+    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPreUpdate();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreUpdate
+    void _set_OnPreUpdate(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostUpdate
+    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPostUpdate();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostUpdate
+    void _set_OnPostUpdate(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
+    // Get instance field: protected System.Boolean firstInitiation
+    bool _get_firstInitiation();
+    // Set instance field: protected System.Boolean firstInitiation
+    void _set_firstInitiation(bool value);
+    // Get instance field: protected UnityEngine.Transform root
+    UnityEngine::Transform* _get_root();
+    // Set instance field: protected UnityEngine.Transform root
+    void _set_root(UnityEngine::Transform* value);
     // public System.Boolean get_initiated()
     // Offset: 0x1C9DD40
     bool get_initiated();

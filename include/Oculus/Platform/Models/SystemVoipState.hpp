@@ -37,6 +37,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::SystemVoipStatus) == 0x4);
     // Creating value type constructor for type: SystemVoipState
     SystemVoipState(Oculus::Platform::VoipMuteState MicrophoneMuted_ = {}, Oculus::Platform::SystemVoipStatus Status_ = {}) noexcept : MicrophoneMuted{MicrophoneMuted_}, Status{Status_} {}
+    // Get instance field: public readonly Oculus.Platform.VoipMuteState MicrophoneMuted
+    Oculus::Platform::VoipMuteState _get_MicrophoneMuted();
+    // Set instance field: public readonly Oculus.Platform.VoipMuteState MicrophoneMuted
+    void _set_MicrophoneMuted(Oculus::Platform::VoipMuteState value);
+    // Get instance field: public readonly Oculus.Platform.SystemVoipStatus Status
+    Oculus::Platform::SystemVoipStatus _get_Status();
+    // Set instance field: public readonly Oculus.Platform.SystemVoipStatus Status
+    void _set_Status(Oculus::Platform::SystemVoipStatus value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A84B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

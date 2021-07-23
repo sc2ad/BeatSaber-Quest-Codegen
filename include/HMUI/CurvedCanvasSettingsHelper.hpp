@@ -67,6 +67,22 @@ namespace HMUI {
     static System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* _get__curvedCanvasCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
     static void _set__curvedCanvasCache(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* value);
+    // Get instance field: private UnityEngine.Canvas _cachedCanvas
+    UnityEngine::Canvas* _get__cachedCanvas();
+    // Set instance field: private UnityEngine.Canvas _cachedCanvas
+    void _set__cachedCanvas(UnityEngine::Canvas* value);
+    // Get instance field: private System.Boolean _cachedCanvasIsRootCanvas
+    bool _get__cachedCanvasIsRootCanvas();
+    // Set instance field: private System.Boolean _cachedCanvasIsRootCanvas
+    void _set__cachedCanvasIsRootCanvas(bool value);
+    // Get instance field: private HMUI.CurvedCanvasSettings _curvedCanvasSettings
+    HMUI::CurvedCanvasSettings* _get__curvedCanvasSettings();
+    // Set instance field: private HMUI.CurvedCanvasSettings _curvedCanvasSettings
+    void _set__curvedCanvasSettings(HMUI::CurvedCanvasSettings* value);
+    // Get instance field: private System.Boolean _hasCachedData
+    bool _get__hasCachedData();
+    // Set instance field: private System.Boolean _hasCachedData
+    void _set__hasCachedData(bool value);
     // static private System.Void .cctor()
     // Offset: 0x13074F4
     static void _cctor();

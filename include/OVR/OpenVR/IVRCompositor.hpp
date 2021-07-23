@@ -370,6 +370,178 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetTrackingSpace SetTrackingSpace
+    OVR::OpenVR::IVRCompositor::_SetTrackingSpace* _get_SetTrackingSpace();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetTrackingSpace SetTrackingSpace
+    void _set_SetTrackingSpace(OVR::OpenVR::IVRCompositor::_SetTrackingSpace* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetTrackingSpace GetTrackingSpace
+    OVR::OpenVR::IVRCompositor::_GetTrackingSpace* _get_GetTrackingSpace();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetTrackingSpace GetTrackingSpace
+    void _set_GetTrackingSpace(OVR::OpenVR::IVRCompositor::_GetTrackingSpace* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._WaitGetPoses WaitGetPoses
+    OVR::OpenVR::IVRCompositor::_WaitGetPoses* _get_WaitGetPoses();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._WaitGetPoses WaitGetPoses
+    void _set_WaitGetPoses(OVR::OpenVR::IVRCompositor::_WaitGetPoses* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastPoses GetLastPoses
+    OVR::OpenVR::IVRCompositor::_GetLastPoses* _get_GetLastPoses();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastPoses GetLastPoses
+    void _set_GetLastPoses(OVR::OpenVR::IVRCompositor::_GetLastPoses* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex
+    OVR::OpenVR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex* _get_GetLastPoseForTrackedDeviceIndex();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastPoseForTrackedDeviceIndex GetLastPoseForTrackedDeviceIndex
+    void _set_GetLastPoseForTrackedDeviceIndex(OVR::OpenVR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._Submit Submit
+    OVR::OpenVR::IVRCompositor::_Submit* _get_Submit();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._Submit Submit
+    void _set_Submit(OVR::OpenVR::IVRCompositor::_Submit* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ClearLastSubmittedFrame ClearLastSubmittedFrame
+    OVR::OpenVR::IVRCompositor::_ClearLastSubmittedFrame* _get_ClearLastSubmittedFrame();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ClearLastSubmittedFrame ClearLastSubmittedFrame
+    void _set_ClearLastSubmittedFrame(OVR::OpenVR::IVRCompositor::_ClearLastSubmittedFrame* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._PostPresentHandoff PostPresentHandoff
+    OVR::OpenVR::IVRCompositor::_PostPresentHandoff* _get_PostPresentHandoff();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._PostPresentHandoff PostPresentHandoff
+    void _set_PostPresentHandoff(OVR::OpenVR::IVRCompositor::_PostPresentHandoff* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTiming GetFrameTiming
+    OVR::OpenVR::IVRCompositor::_GetFrameTiming* _get_GetFrameTiming();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTiming GetFrameTiming
+    void _set_GetFrameTiming(OVR::OpenVR::IVRCompositor::_GetFrameTiming* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimings GetFrameTimings
+    OVR::OpenVR::IVRCompositor::_GetFrameTimings* _get_GetFrameTimings();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimings GetFrameTimings
+    void _set_GetFrameTimings(OVR::OpenVR::IVRCompositor::_GetFrameTimings* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimeRemaining GetFrameTimeRemaining
+    OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining* _get_GetFrameTimeRemaining();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimeRemaining GetFrameTimeRemaining
+    void _set_GetFrameTimeRemaining(OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCumulativeStats GetCumulativeStats
+    OVR::OpenVR::IVRCompositor::_GetCumulativeStats* _get_GetCumulativeStats();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCumulativeStats GetCumulativeStats
+    void _set_GetCumulativeStats(OVR::OpenVR::IVRCompositor::_GetCumulativeStats* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeToColor FadeToColor
+    OVR::OpenVR::IVRCompositor::_FadeToColor* _get_FadeToColor();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeToColor FadeToColor
+    void _set_FadeToColor(OVR::OpenVR::IVRCompositor::_FadeToColor* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentFadeColor GetCurrentFadeColor
+    OVR::OpenVR::IVRCompositor::_GetCurrentFadeColor* _get_GetCurrentFadeColor();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentFadeColor GetCurrentFadeColor
+    void _set_GetCurrentFadeColor(OVR::OpenVR::IVRCompositor::_GetCurrentFadeColor* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeGrid FadeGrid
+    OVR::OpenVR::IVRCompositor::_FadeGrid* _get_FadeGrid();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeGrid FadeGrid
+    void _set_FadeGrid(OVR::OpenVR::IVRCompositor::_FadeGrid* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentGridAlpha GetCurrentGridAlpha
+    OVR::OpenVR::IVRCompositor::_GetCurrentGridAlpha* _get_GetCurrentGridAlpha();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentGridAlpha GetCurrentGridAlpha
+    void _set_GetCurrentGridAlpha(OVR::OpenVR::IVRCompositor::_GetCurrentGridAlpha* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetSkyboxOverride SetSkyboxOverride
+    OVR::OpenVR::IVRCompositor::_SetSkyboxOverride* _get_SetSkyboxOverride();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetSkyboxOverride SetSkyboxOverride
+    void _set_SetSkyboxOverride(OVR::OpenVR::IVRCompositor::_SetSkyboxOverride* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ClearSkyboxOverride ClearSkyboxOverride
+    OVR::OpenVR::IVRCompositor::_ClearSkyboxOverride* _get_ClearSkyboxOverride();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ClearSkyboxOverride ClearSkyboxOverride
+    void _set_ClearSkyboxOverride(OVR::OpenVR::IVRCompositor::_ClearSkyboxOverride* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorBringToFront CompositorBringToFront
+    OVR::OpenVR::IVRCompositor::_CompositorBringToFront* _get_CompositorBringToFront();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorBringToFront CompositorBringToFront
+    void _set_CompositorBringToFront(OVR::OpenVR::IVRCompositor::_CompositorBringToFront* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorGoToBack CompositorGoToBack
+    OVR::OpenVR::IVRCompositor::_CompositorGoToBack* _get_CompositorGoToBack();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorGoToBack CompositorGoToBack
+    void _set_CompositorGoToBack(OVR::OpenVR::IVRCompositor::_CompositorGoToBack* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorQuit CompositorQuit
+    OVR::OpenVR::IVRCompositor::_CompositorQuit* _get_CompositorQuit();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorQuit CompositorQuit
+    void _set_CompositorQuit(OVR::OpenVR::IVRCompositor::_CompositorQuit* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._IsFullscreen IsFullscreen
+    OVR::OpenVR::IVRCompositor::_IsFullscreen* _get_IsFullscreen();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._IsFullscreen IsFullscreen
+    void _set_IsFullscreen(OVR::OpenVR::IVRCompositor::_IsFullscreen* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess
+    OVR::OpenVR::IVRCompositor::_GetCurrentSceneFocusProcess* _get_GetCurrentSceneFocusProcess();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetCurrentSceneFocusProcess GetCurrentSceneFocusProcess
+    void _set_GetCurrentSceneFocusProcess(OVR::OpenVR::IVRCompositor::_GetCurrentSceneFocusProcess* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastFrameRenderer GetLastFrameRenderer
+    OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer* _get_GetLastFrameRenderer();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastFrameRenderer GetLastFrameRenderer
+    void _set_GetLastFrameRenderer(OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CanRenderScene CanRenderScene
+    OVR::OpenVR::IVRCompositor::_CanRenderScene* _get_CanRenderScene();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CanRenderScene CanRenderScene
+    void _set_CanRenderScene(OVR::OpenVR::IVRCompositor::_CanRenderScene* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ShowMirrorWindow ShowMirrorWindow
+    OVR::OpenVR::IVRCompositor::_ShowMirrorWindow* _get_ShowMirrorWindow();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ShowMirrorWindow ShowMirrorWindow
+    void _set_ShowMirrorWindow(OVR::OpenVR::IVRCompositor::_ShowMirrorWindow* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._HideMirrorWindow HideMirrorWindow
+    OVR::OpenVR::IVRCompositor::_HideMirrorWindow* _get_HideMirrorWindow();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._HideMirrorWindow HideMirrorWindow
+    void _set_HideMirrorWindow(OVR::OpenVR::IVRCompositor::_HideMirrorWindow* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._IsMirrorWindowVisible IsMirrorWindowVisible
+    OVR::OpenVR::IVRCompositor::_IsMirrorWindowVisible* _get_IsMirrorWindowVisible();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._IsMirrorWindowVisible IsMirrorWindowVisible
+    void _set_IsMirrorWindowVisible(OVR::OpenVR::IVRCompositor::_IsMirrorWindowVisible* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorDumpImages CompositorDumpImages
+    OVR::OpenVR::IVRCompositor::_CompositorDumpImages* _get_CompositorDumpImages();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._CompositorDumpImages CompositorDumpImages
+    void _set_CompositorDumpImages(OVR::OpenVR::IVRCompositor::_CompositorDumpImages* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources
+    OVR::OpenVR::IVRCompositor::_ShouldAppRenderWithLowResources* _get_ShouldAppRenderWithLowResources();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ShouldAppRenderWithLowResources ShouldAppRenderWithLowResources
+    void _set_ShouldAppRenderWithLowResources(OVR::OpenVR::IVRCompositor::_ShouldAppRenderWithLowResources* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn
+    OVR::OpenVR::IVRCompositor::_ForceInterleavedReprojectionOn* _get_ForceInterleavedReprojectionOn();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ForceInterleavedReprojectionOn ForceInterleavedReprojectionOn
+    void _set_ForceInterleavedReprojectionOn(OVR::OpenVR::IVRCompositor::_ForceInterleavedReprojectionOn* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ForceReconnectProcess ForceReconnectProcess
+    OVR::OpenVR::IVRCompositor::_ForceReconnectProcess* _get_ForceReconnectProcess();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ForceReconnectProcess ForceReconnectProcess
+    void _set_ForceReconnectProcess(OVR::OpenVR::IVRCompositor::_ForceReconnectProcess* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SuspendRendering SuspendRendering
+    OVR::OpenVR::IVRCompositor::_SuspendRendering* _get_SuspendRendering();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SuspendRendering SuspendRendering
+    void _set_SuspendRendering(OVR::OpenVR::IVRCompositor::_SuspendRendering* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetMirrorTextureD3D11 GetMirrorTextureD3D11
+    OVR::OpenVR::IVRCompositor::_GetMirrorTextureD3D11* _get_GetMirrorTextureD3D11();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetMirrorTextureD3D11 GetMirrorTextureD3D11
+    void _set_GetMirrorTextureD3D11(OVR::OpenVR::IVRCompositor::_GetMirrorTextureD3D11* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11
+    OVR::OpenVR::IVRCompositor::_ReleaseMirrorTextureD3D11* _get_ReleaseMirrorTextureD3D11();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ReleaseMirrorTextureD3D11 ReleaseMirrorTextureD3D11
+    void _set_ReleaseMirrorTextureD3D11(OVR::OpenVR::IVRCompositor::_ReleaseMirrorTextureD3D11* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetMirrorTextureGL GetMirrorTextureGL
+    OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL* _get_GetMirrorTextureGL();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetMirrorTextureGL GetMirrorTextureGL
+    void _set_GetMirrorTextureGL(OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ReleaseSharedGLTexture ReleaseSharedGLTexture
+    OVR::OpenVR::IVRCompositor::_ReleaseSharedGLTexture* _get_ReleaseSharedGLTexture();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._ReleaseSharedGLTexture ReleaseSharedGLTexture
+    void _set_ReleaseSharedGLTexture(OVR::OpenVR::IVRCompositor::_ReleaseSharedGLTexture* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._LockGLSharedTextureForAccess LockGLSharedTextureForAccess
+    OVR::OpenVR::IVRCompositor::_LockGLSharedTextureForAccess* _get_LockGLSharedTextureForAccess();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._LockGLSharedTextureForAccess LockGLSharedTextureForAccess
+    void _set_LockGLSharedTextureForAccess(OVR::OpenVR::IVRCompositor::_LockGLSharedTextureForAccess* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess
+    OVR::OpenVR::IVRCompositor::_UnlockGLSharedTextureForAccess* _get_UnlockGLSharedTextureForAccess();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._UnlockGLSharedTextureForAccess UnlockGLSharedTextureForAccess
+    void _set_UnlockGLSharedTextureForAccess(OVR::OpenVR::IVRCompositor::_UnlockGLSharedTextureForAccess* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired
+    OVR::OpenVR::IVRCompositor::_GetVulkanInstanceExtensionsRequired* _get_GetVulkanInstanceExtensionsRequired();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetVulkanInstanceExtensionsRequired GetVulkanInstanceExtensionsRequired
+    void _set_GetVulkanInstanceExtensionsRequired(OVR::OpenVR::IVRCompositor::_GetVulkanInstanceExtensionsRequired* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired
+    OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired* _get_GetVulkanDeviceExtensionsRequired();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetVulkanDeviceExtensionsRequired GetVulkanDeviceExtensionsRequired
+    void _set_GetVulkanDeviceExtensionsRequired(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetExplicitTimingMode SetExplicitTimingMode
+    OVR::OpenVR::IVRCompositor::_SetExplicitTimingMode* _get_SetExplicitTimingMode();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetExplicitTimingMode SetExplicitTimingMode
+    void _set_SetExplicitTimingMode(OVR::OpenVR::IVRCompositor::_SetExplicitTimingMode* value);
+    // Get instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SubmitExplicitTimingData SubmitExplicitTimingData
+    OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData* _get_SubmitExplicitTimingData();
+    // Set instance field: OVR.OpenVR.IVRCompositor/OVR.OpenVR._SubmitExplicitTimingData SubmitExplicitTimingData
+    void _set_SubmitExplicitTimingData(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData* value);
   }; // OVR.OpenVR.IVRCompositor
   #pragma pack(pop)
   static check_size<sizeof(IVRCompositor), 336 + sizeof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*)> __OVR_OpenVR_IVRCompositorSizeCheck;

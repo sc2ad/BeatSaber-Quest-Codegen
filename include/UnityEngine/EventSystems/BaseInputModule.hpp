@@ -90,6 +90,30 @@ namespace UnityEngine::EventSystems {
     BaseInputModule(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* m_RaycastResultCache_ = {}, UnityEngine::EventSystems::AxisEventData* m_AxisEventData_ = {}, UnityEngine::EventSystems::EventSystem* m_EventSystem_ = {}, UnityEngine::EventSystems::BaseEventData* m_BaseEventData_ = {}, UnityEngine::EventSystems::BaseInput* m_InputOverride_ = {}, UnityEngine::EventSystems::BaseInput* m_DefaultInput_ = {}) noexcept : m_RaycastResultCache{m_RaycastResultCache_}, m_AxisEventData{m_AxisEventData_}, m_EventSystem{m_EventSystem_}, m_BaseEventData{m_BaseEventData_}, m_InputOverride{m_InputOverride_}, m_DefaultInput{m_DefaultInput_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> m_RaycastResultCache
+    System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* _get_m_RaycastResultCache();
+    // Set instance field: protected System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> m_RaycastResultCache
+    void _set_m_RaycastResultCache(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* value);
+    // Get instance field: private UnityEngine.EventSystems.AxisEventData m_AxisEventData
+    UnityEngine::EventSystems::AxisEventData* _get_m_AxisEventData();
+    // Set instance field: private UnityEngine.EventSystems.AxisEventData m_AxisEventData
+    void _set_m_AxisEventData(UnityEngine::EventSystems::AxisEventData* value);
+    // Get instance field: private UnityEngine.EventSystems.EventSystem m_EventSystem
+    UnityEngine::EventSystems::EventSystem* _get_m_EventSystem();
+    // Set instance field: private UnityEngine.EventSystems.EventSystem m_EventSystem
+    void _set_m_EventSystem(UnityEngine::EventSystems::EventSystem* value);
+    // Get instance field: private UnityEngine.EventSystems.BaseEventData m_BaseEventData
+    UnityEngine::EventSystems::BaseEventData* _get_m_BaseEventData();
+    // Set instance field: private UnityEngine.EventSystems.BaseEventData m_BaseEventData
+    void _set_m_BaseEventData(UnityEngine::EventSystems::BaseEventData* value);
+    // Get instance field: protected UnityEngine.EventSystems.BaseInput m_InputOverride
+    UnityEngine::EventSystems::BaseInput* _get_m_InputOverride();
+    // Set instance field: protected UnityEngine.EventSystems.BaseInput m_InputOverride
+    void _set_m_InputOverride(UnityEngine::EventSystems::BaseInput* value);
+    // Get instance field: private UnityEngine.EventSystems.BaseInput m_DefaultInput
+    UnityEngine::EventSystems::BaseInput* _get_m_DefaultInput();
+    // Set instance field: private UnityEngine.EventSystems.BaseInput m_DefaultInput
+    void _set_m_DefaultInput(UnityEngine::EventSystems::BaseInput* value);
     // public UnityEngine.EventSystems.BaseInput get_input()
     // Offset: 0x1400934
     UnityEngine::EventSystems::BaseInput* get_input();

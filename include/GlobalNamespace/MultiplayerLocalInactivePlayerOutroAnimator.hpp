@@ -48,6 +48,14 @@ namespace GlobalNamespace {
     MultiplayerLocalInactivePlayerOutroAnimator(UnityEngine::Playables::PlayableDirector* outroPlayableDirector_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}) noexcept : outroPlayableDirector{outroPlayableDirector_}, multiplayerController{multiplayerController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
+    UnityEngine::Playables::PlayableDirector* _get__outroPlayableDirector();
+    // Set instance field: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
+    void _set__outroPlayableDirector(UnityEngine::Playables::PlayableDirector* value);
+    // Get instance field: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController* _get__multiplayerController();
+    // Set instance field: private readonly MultiplayerController _multiplayerController
+    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
     // protected System.Void Start()
     // Offset: 0x23D8158
     void Start();

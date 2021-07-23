@@ -90,6 +90,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::ScreenshotRecorder::RecordingType _get_ScreenshotOnPause();
       // Set static field: static public ScreenshotRecorder/RecordingType ScreenshotOnPause
       static void _set_ScreenshotOnPause(GlobalNamespace::ScreenshotRecorder::RecordingType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // ScreenshotRecorder/RecordingType
     #pragma pack(pop)
     static check_size<sizeof(ScreenshotRecorder::RecordingType), 0 + sizeof(int)> __GlobalNamespace_ScreenshotRecorder_RecordingTypeSizeCheck;
@@ -213,6 +217,78 @@ namespace GlobalNamespace {
     ScreenshotRecorder(::Il2CppString* folder_ = {}, UnityEngine::Camera* camera_ = {}, int frameRate_ = {}, bool forceFixedFramerate_ = {}, int interval_ = {}, GlobalNamespace::ScreenshotRecorder::RecordingType recordingType_ = {}, bool pauseWithPButton_ = {}, int antiAlias_ = {}, int screenshotWidth_ = {}, int screenshotHeight_ = {}, int counter_ = {}, float originalTimeScale_ = {}, bool paused_ = {}, int frameNum_ = {}, UnityEngine::RenderTexture* cubemapLeftEye_ = {}, UnityEngine::RenderTexture* cubemapRighEye_ = {}, UnityEngine::RenderTexture* equirectTexture_ = {}, UnityEngine::RenderTexture* cameraRenderTexture_ = {}) noexcept : folder{folder_}, camera{camera_}, frameRate{frameRate_}, forceFixedFramerate{forceFixedFramerate_}, interval{interval_}, recordingType{recordingType_}, pauseWithPButton{pauseWithPButton_}, antiAlias{antiAlias_}, screenshotWidth{screenshotWidth_}, screenshotHeight{screenshotHeight_}, counter{counter_}, originalTimeScale{originalTimeScale_}, paused{paused_}, frameNum{frameNum_}, cubemapLeftEye{cubemapLeftEye_}, cubemapRighEye{cubemapRighEye_}, equirectTexture{equirectTexture_}, cameraRenderTexture{cameraRenderTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _folder
+    ::Il2CppString* _get__folder();
+    // Set instance field: private System.String _folder
+    void _set__folder(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Camera _camera
+    UnityEngine::Camera* _get__camera();
+    // Set instance field: private UnityEngine.Camera _camera
+    void _set__camera(UnityEngine::Camera* value);
+    // Get instance field: private System.Int32 _frameRate
+    int _get__frameRate();
+    // Set instance field: private System.Int32 _frameRate
+    void _set__frameRate(int value);
+    // Get instance field: private System.Boolean _forceFixedFramerate
+    bool _get__forceFixedFramerate();
+    // Set instance field: private System.Boolean _forceFixedFramerate
+    void _set__forceFixedFramerate(bool value);
+    // Get instance field: private System.Int32 _interval
+    int _get__interval();
+    // Set instance field: private System.Int32 _interval
+    void _set__interval(int value);
+    // Get instance field: private ScreenshotRecorder/RecordingType _recordingType
+    GlobalNamespace::ScreenshotRecorder::RecordingType _get__recordingType();
+    // Set instance field: private ScreenshotRecorder/RecordingType _recordingType
+    void _set__recordingType(GlobalNamespace::ScreenshotRecorder::RecordingType value);
+    // Get instance field: private System.Boolean _pauseWithPButton
+    bool _get__pauseWithPButton();
+    // Set instance field: private System.Boolean _pauseWithPButton
+    void _set__pauseWithPButton(bool value);
+    // Get instance field: private System.Int32 _antiAlias
+    int _get__antiAlias();
+    // Set instance field: private System.Int32 _antiAlias
+    void _set__antiAlias(int value);
+    // Get instance field: private System.Int32 _screenshotWidth
+    int _get__screenshotWidth();
+    // Set instance field: private System.Int32 _screenshotWidth
+    void _set__screenshotWidth(int value);
+    // Get instance field: private System.Int32 _screenshotHeight
+    int _get__screenshotHeight();
+    // Set instance field: private System.Int32 _screenshotHeight
+    void _set__screenshotHeight(int value);
+    // Get instance field: private System.Int32 _counter
+    int _get__counter();
+    // Set instance field: private System.Int32 _counter
+    void _set__counter(int value);
+    // Get instance field: private System.Single _originalTimeScale
+    float _get__originalTimeScale();
+    // Set instance field: private System.Single _originalTimeScale
+    void _set__originalTimeScale(float value);
+    // Get instance field: private System.Boolean _paused
+    bool _get__paused();
+    // Set instance field: private System.Boolean _paused
+    void _set__paused(bool value);
+    // Get instance field: private System.Int32 _frameNum
+    int _get__frameNum();
+    // Set instance field: private System.Int32 _frameNum
+    void _set__frameNum(int value);
+    // Get instance field: private UnityEngine.RenderTexture _cubemapLeftEye
+    UnityEngine::RenderTexture* _get__cubemapLeftEye();
+    // Set instance field: private UnityEngine.RenderTexture _cubemapLeftEye
+    void _set__cubemapLeftEye(UnityEngine::RenderTexture* value);
+    // Get instance field: private UnityEngine.RenderTexture _cubemapRighEye
+    UnityEngine::RenderTexture* _get__cubemapRighEye();
+    // Set instance field: private UnityEngine.RenderTexture _cubemapRighEye
+    void _set__cubemapRighEye(UnityEngine::RenderTexture* value);
+    // Get instance field: private UnityEngine.RenderTexture _equirectTexture
+    UnityEngine::RenderTexture* _get__equirectTexture();
+    // Set instance field: private UnityEngine.RenderTexture _equirectTexture
+    void _set__equirectTexture(UnityEngine::RenderTexture* value);
+    // Get instance field: private UnityEngine.RenderTexture _cameraRenderTexture
+    UnityEngine::RenderTexture* _get__cameraRenderTexture();
+    // Set instance field: private UnityEngine.RenderTexture _cameraRenderTexture
+    void _set__cameraRenderTexture(UnityEngine::RenderTexture* value);
     // protected System.Void OnEnable()
     // Offset: 0x1222114
     void OnEnable();

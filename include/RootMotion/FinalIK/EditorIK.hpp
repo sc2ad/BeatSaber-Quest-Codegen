@@ -37,6 +37,10 @@ namespace RootMotion::FinalIK {
     EditorIK(RootMotion::FinalIK::IK* ik_ = {}) noexcept : ik{ik_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private RootMotion.FinalIK.IK ik
+    RootMotion::FinalIK::IK* _get_ik();
+    // Set instance field: private RootMotion.FinalIK.IK ik
+    void _set_ik(RootMotion::FinalIK::IK* value);
     // private System.Void Start()
     // Offset: 0x1CE11A4
     void Start();

@@ -39,6 +39,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ReorderableAttribute
     ReorderableAttribute(::Il2CppString* ElementHeader_ = {}, bool HeaderZeroIndex_ = {}, bool ElementSingleLine_ = {}) noexcept : ElementHeader{ElementHeader_}, HeaderZeroIndex{HeaderZeroIndex_}, ElementSingleLine{ElementSingleLine_} {}
+    // Get instance field: private System.String <ElementHeader>k__BackingField
+    ::Il2CppString* _get_$ElementHeader$k__BackingField();
+    // Set instance field: private System.String <ElementHeader>k__BackingField
+    void _set_$ElementHeader$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <HeaderZeroIndex>k__BackingField
+    bool _get_$HeaderZeroIndex$k__BackingField();
+    // Set instance field: private System.Boolean <HeaderZeroIndex>k__BackingField
+    void _set_$HeaderZeroIndex$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <ElementSingleLine>k__BackingField
+    bool _get_$ElementSingleLine$k__BackingField();
+    // Set instance field: private System.Boolean <ElementSingleLine>k__BackingField
+    void _set_$ElementSingleLine$k__BackingField(bool value);
     // public System.String get_ElementHeader()
     // Offset: 0x12217F8
     ::Il2CppString* get_ElementHeader();

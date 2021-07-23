@@ -52,6 +52,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TutorialObjectSpawnData
     TutorialObjectSpawnData(GlobalNamespace::Signal* signal_ = {}, int beatOffset_ = {}, int firstTimeBeatOffset_ = {}, int lineIndex_ = {}) noexcept : signal{signal_}, beatOffset{beatOffset_}, firstTimeBeatOffset{firstTimeBeatOffset_}, lineIndex{lineIndex_} {}
+    // Get instance field: public readonly Signal signal
+    GlobalNamespace::Signal* _get_signal();
+    // Set instance field: public readonly Signal signal
+    void _set_signal(GlobalNamespace::Signal* value);
+    // Get instance field: public readonly System.Int32 beatOffset
+    int _get_beatOffset();
+    // Set instance field: public readonly System.Int32 beatOffset
+    void _set_beatOffset(int value);
+    // Get instance field: public readonly System.Int32 firstTimeBeatOffset
+    int _get_firstTimeBeatOffset();
+    // Set instance field: public readonly System.Int32 firstTimeBeatOffset
+    void _set_firstTimeBeatOffset(int value);
+    // Get instance field: public readonly System.Int32 lineIndex
+    int _get_lineIndex();
+    // Set instance field: public readonly System.Int32 lineIndex
+    void _set_lineIndex(int value);
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex)
     // Offset: 0x1076AB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

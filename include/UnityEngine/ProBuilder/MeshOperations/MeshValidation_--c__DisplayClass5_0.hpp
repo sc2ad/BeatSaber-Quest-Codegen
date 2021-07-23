@@ -46,6 +46,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::Triangle, bool>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(UnityEngine::ProBuilder::Triangle triangle_ = {}, System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* $$9__0_ = {}) noexcept : triangle{triangle_}, $$9__0{$$9__0_} {}
+    // Get instance field: public UnityEngine.ProBuilder.Triangle triangle
+    UnityEngine::ProBuilder::Triangle _get_triangle();
+    // Set instance field: public UnityEngine.ProBuilder.Triangle triangle
+    void _set_triangle(UnityEngine::ProBuilder::Triangle value);
+    // Get instance field: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0
+    System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* _get_$$9__0();
+    // Set instance field: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0
+    void _set_$$9__0(System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* value);
     // System.Boolean <CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle x)
     // Offset: 0x16F5FF0
     bool $CollectFaceGroups$b__0(UnityEngine::ProBuilder::Triangle x);

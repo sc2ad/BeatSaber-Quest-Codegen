@@ -104,6 +104,18 @@ namespace System::Collections {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.Object key
+      ::Il2CppObject* _get_key();
+      // Set instance field: public System.Object key
+      void _set_key(::Il2CppObject* value);
+      // Get instance field: public System.Object val
+      ::Il2CppObject* _get_val();
+      // Set instance field: public System.Object val
+      void _set_val(::Il2CppObject* value);
+      // Get instance field: public System.Int32 hash_coll
+      int _get_hash_coll();
+      // Set instance field: public System.Int32 hash_coll
+      void _set_hash_coll(int value);
     }; // System.Collections.Hashtable/System.Collections.bucket
     #pragma pack(pop)
     static check_size<sizeof(Hashtable::bucket), 16 + sizeof(int)> __System_Collections_Hashtable_bucketSizeCheck;
@@ -254,6 +266,50 @@ namespace System::Collections {
     static ::Il2CppString* _get_KeyComparerName();
     // Set static field: static private System.String KeyComparerName
     static void _set_KeyComparerName(::Il2CppString* value);
+    // Get instance field: private System.Collections.Hashtable/System.Collections.bucket[] buckets
+    ::Array<System::Collections::Hashtable::bucket>* _get_buckets();
+    // Set instance field: private System.Collections.Hashtable/System.Collections.bucket[] buckets
+    void _set_buckets(::Array<System::Collections::Hashtable::bucket>* value);
+    // Get instance field: private System.Int32 count
+    int _get_count();
+    // Set instance field: private System.Int32 count
+    void _set_count(int value);
+    // Get instance field: private System.Int32 occupancy
+    int _get_occupancy();
+    // Set instance field: private System.Int32 occupancy
+    void _set_occupancy(int value);
+    // Get instance field: private System.Int32 loadsize
+    int _get_loadsize();
+    // Set instance field: private System.Int32 loadsize
+    void _set_loadsize(int value);
+    // Get instance field: private System.Single loadFactor
+    float _get_loadFactor();
+    // Set instance field: private System.Single loadFactor
+    void _set_loadFactor(float value);
+    // Get instance field: private System.Int32 version
+    int _get_version();
+    // Set instance field: private System.Int32 version
+    void _set_version(int value);
+    // Get instance field: private System.Boolean isWriterInProgress
+    bool _get_isWriterInProgress();
+    // Set instance field: private System.Boolean isWriterInProgress
+    void _set_isWriterInProgress(bool value);
+    // Get instance field: private System.Collections.ICollection keys
+    System::Collections::ICollection* _get_keys();
+    // Set instance field: private System.Collections.ICollection keys
+    void _set_keys(System::Collections::ICollection* value);
+    // Get instance field: private System.Collections.ICollection values
+    System::Collections::ICollection* _get_values();
+    // Set instance field: private System.Collections.ICollection values
+    void _set_values(System::Collections::ICollection* value);
+    // Get instance field: private System.Collections.IEqualityComparer _keycomparer
+    System::Collections::IEqualityComparer* _get__keycomparer();
+    // Set instance field: private System.Collections.IEqualityComparer _keycomparer
+    void _set__keycomparer(System::Collections::IEqualityComparer* value);
+    // Get instance field: private System.Object _syncRoot
+    ::Il2CppObject* _get__syncRoot();
+    // Set instance field: private System.Object _syncRoot
+    void _set__syncRoot(::Il2CppObject* value);
     // public System.Object get_Item(System.Object key)
     // Offset: 0x178E470
     ::Il2CppObject* get_Item(::Il2CppObject* key);

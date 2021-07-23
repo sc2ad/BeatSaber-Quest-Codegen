@@ -58,6 +58,14 @@ namespace MasterServer {
     operator MasterServer::IMasterServerUnreliableMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerUnreliableMessage*>(this);
     }
+    // Get instance field: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
+    // Set instance field: private System.String <dedicatedServerId>k__BackingField
+    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    int64_t _get_$dedicatedServerCreationTime$k__BackingField();
+    // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
     // static public PacketPool`1<MasterServer.DedicatedServerShutDownRequest> get_pool()
     // Offset: 0x12D2C18
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerShutDownRequest*>* get_pool();

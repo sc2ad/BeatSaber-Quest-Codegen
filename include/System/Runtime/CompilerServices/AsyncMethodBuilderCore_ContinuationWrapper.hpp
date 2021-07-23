@@ -51,6 +51,18 @@ namespace System::Runtime::CompilerServices {
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
     // Creating value type constructor for type: ContinuationWrapper
     ContinuationWrapper(System::Action* m_continuation_ = {}, System::Action* m_invokeAction_ = {}, System::Threading::Tasks::Task* m_innerTask_ = {}) noexcept : m_continuation{m_continuation_}, m_invokeAction{m_invokeAction_}, m_innerTask{m_innerTask_} {}
+    // Get instance field: readonly System.Action m_continuation
+    System::Action* _get_m_continuation();
+    // Set instance field: readonly System.Action m_continuation
+    void _set_m_continuation(System::Action* value);
+    // Get instance field: private readonly System.Action m_invokeAction
+    System::Action* _get_m_invokeAction();
+    // Set instance field: private readonly System.Action m_invokeAction
+    void _set_m_invokeAction(System::Action* value);
+    // Get instance field: readonly System.Threading.Tasks.Task m_innerTask
+    System::Threading::Tasks::Task* _get_m_innerTask();
+    // Set instance field: readonly System.Threading.Tasks.Task m_innerTask
+    void _set_m_innerTask(System::Threading::Tasks::Task* value);
     // System.Void .ctor(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
     // Offset: 0x13EF054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

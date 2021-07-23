@@ -52,6 +52,10 @@ namespace System::Runtime::Remoting::Messaging {
     constexpr operator ::Il2CppString*() const noexcept {
       return uri;
     }
+    // Get instance field: private System.String _uri
+    ::Il2CppString* _get__uri();
+    // Set instance field: private System.String _uri
+    void _set__uri(::Il2CppString* value);
     // public System.Int32 get_ArgCount()
     // Offset: 0x19F98B4
     int get_ArgCount();

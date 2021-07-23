@@ -89,6 +89,26 @@ namespace UnityEngine::ProBuilder {
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::WingedEdge*>* _get_k_OppositeEdgeDictionary();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.WingedEdge> k_OppositeEdgeDictionary
     static void _set_k_OppositeEdgeDictionary(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::WingedEdge*>* value);
+    // Get instance field: private UnityEngine.ProBuilder.EdgeLookup <edge>k__BackingField
+    UnityEngine::ProBuilder::EdgeLookup _get_$edge$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.EdgeLookup <edge>k__BackingField
+    void _set_$edge$k__BackingField(UnityEngine::ProBuilder::EdgeLookup value);
+    // Get instance field: private UnityEngine.ProBuilder.Face <face>k__BackingField
+    UnityEngine::ProBuilder::Face* _get_$face$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.Face <face>k__BackingField
+    void _set_$face$k__BackingField(UnityEngine::ProBuilder::Face* value);
+    // Get instance field: private UnityEngine.ProBuilder.WingedEdge <next>k__BackingField
+    UnityEngine::ProBuilder::WingedEdge* _get_$next$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.WingedEdge <next>k__BackingField
+    void _set_$next$k__BackingField(UnityEngine::ProBuilder::WingedEdge* value);
+    // Get instance field: private UnityEngine.ProBuilder.WingedEdge <previous>k__BackingField
+    UnityEngine::ProBuilder::WingedEdge* _get_$previous$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.WingedEdge <previous>k__BackingField
+    void _set_$previous$k__BackingField(UnityEngine::ProBuilder::WingedEdge* value);
+    // Get instance field: private UnityEngine.ProBuilder.WingedEdge <opposite>k__BackingField
+    UnityEngine::ProBuilder::WingedEdge* _get_$opposite$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.WingedEdge <opposite>k__BackingField
+    void _set_$opposite$k__BackingField(UnityEngine::ProBuilder::WingedEdge* value);
     // public UnityEngine.ProBuilder.EdgeLookup get_edge()
     // Offset: 0x22B2908
     UnityEngine::ProBuilder::EdgeLookup get_edge();

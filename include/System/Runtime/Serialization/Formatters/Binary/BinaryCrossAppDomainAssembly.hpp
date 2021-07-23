@@ -38,6 +38,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BinaryCrossAppDomainAssembly
     BinaryCrossAppDomainAssembly(int assemId_ = {}, int assemblyIndex_ = {}) noexcept : assemId{assemId_}, assemblyIndex{assemblyIndex_} {}
+    // Get instance field: System.Int32 assemId
+    int _get_assemId();
+    // Set instance field: System.Int32 assemId
+    void _set_assemId(int value);
+    // Get instance field: System.Int32 assemblyIndex
+    int _get_assemblyIndex();
+    // Set instance field: System.Int32 assemblyIndex
+    void _set_assemblyIndex(int value);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
     // Offset: 0x15D89DC
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);

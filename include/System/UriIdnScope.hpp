@@ -49,6 +49,10 @@ namespace System {
     static System::UriIdnScope _get_All();
     // Set static field: static public System.UriIdnScope All
     static void _set_All(System::UriIdnScope value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.UriIdnScope
   #pragma pack(pop)
   static check_size<sizeof(UriIdnScope), 0 + sizeof(int)> __System_UriIdnScopeSizeCheck;

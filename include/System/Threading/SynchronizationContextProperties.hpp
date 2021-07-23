@@ -44,6 +44,10 @@ namespace System::Threading {
     static System::Threading::SynchronizationContextProperties _get_RequireWaitNotification();
     // Set static field: static public System.Threading.SynchronizationContextProperties RequireWaitNotification
     static void _set_RequireWaitNotification(System::Threading::SynchronizationContextProperties value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Threading.SynchronizationContextProperties
   #pragma pack(pop)
   static check_size<sizeof(SynchronizationContextProperties), 0 + sizeof(int)> __System_Threading_SynchronizationContextPropertiesSizeCheck;

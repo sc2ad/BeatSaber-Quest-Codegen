@@ -68,6 +68,22 @@ namespace NetEase::Docker {
     operator NetEase::Docker::IDock() noexcept {
       return *reinterpret_cast<NetEase::Docker::IDock*>(this);
     }
+    // Get instance field: private System.Action`1<NetEase.Docker.InitializeData> OnInitFinished
+    System::Action_1<NetEase::Docker::InitializeData>* _get_OnInitFinished();
+    // Set instance field: private System.Action`1<NetEase.Docker.InitializeData> OnInitFinished
+    void _set_OnInitFinished(System::Action_1<NetEase::Docker::InitializeData>* value);
+    // Get instance field: private System.Action`1<NetEase.Docker.LoginData> OnLoginFinished
+    System::Action_1<NetEase::Docker::LoginData>* _get_OnLoginFinished();
+    // Set instance field: private System.Action`1<NetEase.Docker.LoginData> OnLoginFinished
+    void _set_OnLoginFinished(System::Action_1<NetEase::Docker::LoginData>* value);
+    // Get instance field: private System.Action`1<NetEase.Docker.LogoutData> OnLogoutFinished
+    System::Action_1<NetEase::Docker::LogoutData>* _get_OnLogoutFinished();
+    // Set instance field: private System.Action`1<NetEase.Docker.LogoutData> OnLogoutFinished
+    void _set_OnLogoutFinished(System::Action_1<NetEase::Docker::LogoutData>* value);
+    // Get instance field: private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
+    System::Action_1<NetEase::Docker::ReceivedHighscoreData>* _get_OnHighscoreReceived();
+    // Set instance field: private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
+    void _set_OnHighscoreReceived(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* value);
     // public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
     // Offset: 0x23C23E8
     void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);

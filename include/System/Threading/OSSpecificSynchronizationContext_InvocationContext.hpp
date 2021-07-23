@@ -40,6 +40,14 @@ namespace System::Threading {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: InvocationContext
     InvocationContext(System::Threading::SendOrPostCallback* m_Delegate_ = {}, ::Il2CppObject* m_State_ = {}) noexcept : m_Delegate{m_Delegate_}, m_State{m_State_} {}
+    // Get instance field: private System.Threading.SendOrPostCallback m_Delegate
+    System::Threading::SendOrPostCallback* _get_m_Delegate();
+    // Set instance field: private System.Threading.SendOrPostCallback m_Delegate
+    void _set_m_Delegate(System::Threading::SendOrPostCallback* value);
+    // Get instance field: private System.Object m_State
+    ::Il2CppObject* _get_m_State();
+    // Set instance field: private System.Object m_State
+    void _set_m_State(::Il2CppObject* value);
     // public System.Void .ctor(System.Threading.SendOrPostCallback d, System.Object state)
     // Offset: 0x18A78BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

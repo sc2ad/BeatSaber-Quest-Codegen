@@ -32,6 +32,10 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return path;
     }
+    // Get instance field: public System.String path
+    ::Il2CppString* _get_path();
+    // Set instance field: public System.String path
+    void _set_path(::Il2CppString* value);
     // System.Boolean <Load>b__0(System.String s)
     // Offset: 0x15FA198
     bool $Load$b__0(::Il2CppString* s);

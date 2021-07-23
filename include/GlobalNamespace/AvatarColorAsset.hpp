@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public AvatarColorBehaviour _template
+    GlobalNamespace::AvatarColorBehaviour* _get__template();
+    // Set instance field: public AvatarColorBehaviour _template
+    void _set__template(GlobalNamespace::AvatarColorBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x10DDA90
     UnityEngine::Timeline::ClipCaps get_clipCaps();

@@ -81,6 +81,34 @@ namespace GlobalNamespace {
     TrackLaneRingsPositionStepEffectSpawner(GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float minPositionStep_ = {}, float maxPositionStep_ = {}, float moveSpeed_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool prevWasMinStep_ = {}) noexcept : trackLaneRingsManager{trackLaneRingsManager_}, beatmapEventType{beatmapEventType_}, minPositionStep{minPositionStep_}, maxPositionStep{maxPositionStep_}, moveSpeed{moveSpeed_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, prevWasMinStep{prevWasMinStep_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TrackLaneRingsManager _trackLaneRingsManager
+    GlobalNamespace::TrackLaneRingsManager* _get__trackLaneRingsManager();
+    // Set instance field: private TrackLaneRingsManager _trackLaneRingsManager
+    void _set__trackLaneRingsManager(GlobalNamespace::TrackLaneRingsManager* value);
+    // Get instance field: private BeatmapEventType _beatmapEventType
+    GlobalNamespace::BeatmapEventType _get__beatmapEventType();
+    // Set instance field: private BeatmapEventType _beatmapEventType
+    void _set__beatmapEventType(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private System.Single _minPositionStep
+    float _get__minPositionStep();
+    // Set instance field: private System.Single _minPositionStep
+    void _set__minPositionStep(float value);
+    // Get instance field: private System.Single _maxPositionStep
+    float _get__maxPositionStep();
+    // Set instance field: private System.Single _maxPositionStep
+    void _set__maxPositionStep(float value);
+    // Get instance field: private System.Single _moveSpeed
+    float _get__moveSpeed();
+    // Set instance field: private System.Single _moveSpeed
+    void _set__moveSpeed(float value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private System.Boolean _prevWasMinStep
+    bool _get__prevWasMinStep();
+    // Set instance field: private System.Boolean _prevWasMinStep
+    void _set__prevWasMinStep(bool value);
     // protected System.Void Start()
     // Offset: 0x106FE34
     void Start();

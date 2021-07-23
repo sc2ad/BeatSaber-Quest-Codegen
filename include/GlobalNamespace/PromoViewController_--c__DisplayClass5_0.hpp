@@ -34,6 +34,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PromoViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(GlobalNamespace::PromoViewController::ButtonPromoTypePair* item_ = {}, GlobalNamespace::PromoViewController* $$4__this_ = {}) noexcept : item{item_}, $$4__this{$$4__this_} {}
+    // Get instance field: public PromoViewController/ButtonPromoTypePair item
+    GlobalNamespace::PromoViewController::ButtonPromoTypePair* _get_item();
+    // Set instance field: public PromoViewController/ButtonPromoTypePair item
+    void _set_item(GlobalNamespace::PromoViewController::ButtonPromoTypePair* value);
+    // Get instance field: public PromoViewController <>4__this
+    GlobalNamespace::PromoViewController* _get_$$4__this();
+    // Set instance field: public PromoViewController <>4__this
+    void _set_$$4__this(GlobalNamespace::PromoViewController* value);
     // System.Void <DidActivate>b__0()
     // Offset: 0x110B324
     void $DidActivate$b__0();

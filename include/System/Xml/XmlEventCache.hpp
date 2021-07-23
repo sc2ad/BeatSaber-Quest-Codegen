@@ -220,6 +220,10 @@ namespace System::Xml {
       static System::Xml::XmlEventCache::XmlEventType _get_Dispose();
       // Set static field: static public System.Xml.XmlEventCache/System.Xml.XmlEventType Dispose
       static void _set_Dispose(System::Xml::XmlEventCache::XmlEventType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Xml.XmlEventCache/System.Xml.XmlEventType
     #pragma pack(pop)
     static check_size<sizeof(XmlEventCache::XmlEventType), 0 + sizeof(int)> __System_Xml_XmlEventCache_XmlEventTypeSizeCheck;
@@ -269,6 +273,26 @@ namespace System::Xml {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: private System.Xml.XmlEventCache/System.Xml.XmlEventType eventType
+      System::Xml::XmlEventCache::XmlEventType _get_eventType();
+      // Set instance field: private System.Xml.XmlEventCache/System.Xml.XmlEventType eventType
+      void _set_eventType(System::Xml::XmlEventCache::XmlEventType value);
+      // Get instance field: private System.String s1
+      ::Il2CppString* _get_s1();
+      // Set instance field: private System.String s1
+      void _set_s1(::Il2CppString* value);
+      // Get instance field: private System.String s2
+      ::Il2CppString* _get_s2();
+      // Set instance field: private System.String s2
+      void _set_s2(::Il2CppString* value);
+      // Get instance field: private System.String s3
+      ::Il2CppString* _get_s3();
+      // Set instance field: private System.String s3
+      void _set_s3(::Il2CppString* value);
+      // Get instance field: private System.Object o
+      ::Il2CppObject* _get_o();
+      // Set instance field: private System.Object o
+      void _set_o(::Il2CppObject* value);
       // public System.Xml.XmlEventCache/System.Xml.XmlEventType get_EventType()
       // Offset: 0xEEAC34
       System::Xml::XmlEventCache::XmlEventType get_EventType();
@@ -348,6 +372,30 @@ namespace System::Xml {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: XmlEventCache
     XmlEventCache(System::Collections::Generic::List_1<::Array<System::Xml::XmlEventCache::XmlEvent>*>* pages_ = {}, ::Array<System::Xml::XmlEventCache::XmlEvent>* pageCurr_ = {}, int pageSize_ = {}, bool hasRootNode_ = {}, System::Xml::Xsl::Runtime::StringConcat singleText_ = {}, ::Il2CppString* baseUri_ = {}) noexcept : pages{pages_}, pageCurr{pageCurr_}, pageSize{pageSize_}, hasRootNode{hasRootNode_}, singleText{singleText_}, baseUri{baseUri_} {}
+    // Get instance field: private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
+    System::Collections::Generic::List_1<::Array<System::Xml::XmlEventCache::XmlEvent>*>* _get_pages();
+    // Set instance field: private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
+    void _set_pages(System::Collections::Generic::List_1<::Array<System::Xml::XmlEventCache::XmlEvent>*>* value);
+    // Get instance field: private System.Xml.XmlEventCache/System.Xml.XmlEvent[] pageCurr
+    ::Array<System::Xml::XmlEventCache::XmlEvent>* _get_pageCurr();
+    // Set instance field: private System.Xml.XmlEventCache/System.Xml.XmlEvent[] pageCurr
+    void _set_pageCurr(::Array<System::Xml::XmlEventCache::XmlEvent>* value);
+    // Get instance field: private System.Int32 pageSize
+    int _get_pageSize();
+    // Set instance field: private System.Int32 pageSize
+    void _set_pageSize(int value);
+    // Get instance field: private System.Boolean hasRootNode
+    bool _get_hasRootNode();
+    // Set instance field: private System.Boolean hasRootNode
+    void _set_hasRootNode(bool value);
+    // Get instance field: private System.Xml.Xsl.Runtime.StringConcat singleText
+    System::Xml::Xsl::Runtime::StringConcat _get_singleText();
+    // Set instance field: private System.Xml.Xsl.Runtime.StringConcat singleText
+    void _set_singleText(System::Xml::Xsl::Runtime::StringConcat value);
+    // Get instance field: private System.String baseUri
+    ::Il2CppString* _get_baseUri();
+    // Set instance field: private System.String baseUri
+    void _set_baseUri(::Il2CppString* value);
     // public System.Void .ctor(System.String baseUri, System.Boolean hasRootNode)
     // Offset: 0x1907124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

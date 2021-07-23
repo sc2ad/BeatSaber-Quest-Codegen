@@ -58,6 +58,26 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: NativeMethodAttribute
     NativeMethodAttribute(::Il2CppString* Name_ = {}, bool IsThreadSafe_ = {}, bool IsFreeFunction_ = {}, bool ThrowsException_ = {}, bool HasExplicitThis_ = {}) noexcept : Name{Name_}, IsThreadSafe{IsThreadSafe_}, IsFreeFunction{IsFreeFunction_}, ThrowsException{ThrowsException_}, HasExplicitThis{HasExplicitThis_} {}
+    // Get instance field: private System.String <Name>k__BackingField
+    ::Il2CppString* _get_$Name$k__BackingField();
+    // Set instance field: private System.String <Name>k__BackingField
+    void _set_$Name$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <IsThreadSafe>k__BackingField
+    bool _get_$IsThreadSafe$k__BackingField();
+    // Set instance field: private System.Boolean <IsThreadSafe>k__BackingField
+    void _set_$IsThreadSafe$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsFreeFunction>k__BackingField
+    bool _get_$IsFreeFunction$k__BackingField();
+    // Set instance field: private System.Boolean <IsFreeFunction>k__BackingField
+    void _set_$IsFreeFunction$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <ThrowsException>k__BackingField
+    bool _get_$ThrowsException$k__BackingField();
+    // Set instance field: private System.Boolean <ThrowsException>k__BackingField
+    void _set_$ThrowsException$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <HasExplicitThis>k__BackingField
+    bool _get_$HasExplicitThis$k__BackingField();
+    // Set instance field: private System.Boolean <HasExplicitThis>k__BackingField
+    void _set_$HasExplicitThis$k__BackingField(bool value);
     // public System.Void set_Name(System.String value)
     // Offset: 0x23C1CA0
     void set_Name(::Il2CppString* value);

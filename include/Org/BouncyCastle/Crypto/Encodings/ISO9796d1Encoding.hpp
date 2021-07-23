@@ -87,6 +87,26 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     static ::Array<uint8_t>* _get_inverse();
     // Set static field: static private readonly System.Byte[] inverse
     static void _set_inverse(::Array<uint8_t>* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
+    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* _get_engine();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
+    void _set_engine(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
+    // Get instance field: private System.Int32 bitSize
+    int _get_bitSize();
+    // Set instance field: private System.Int32 bitSize
+    void _set_bitSize(int value);
+    // Get instance field: private System.Int32 padBits
+    int _get_padBits();
+    // Set instance field: private System.Int32 padBits
+    void _set_padBits(int value);
+    // Get instance field: private Org.BouncyCastle.Math.BigInteger modulus
+    Org::BouncyCastle::Math::BigInteger* _get_modulus();
+    // Set instance field: private Org.BouncyCastle.Math.BigInteger modulus
+    void _set_modulus(Org::BouncyCastle::Math::BigInteger* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
     // Offset: 0x18DEE50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     LightmappingGameplayManager(GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
     // protected System.Void Start()
     // Offset: 0x11B8D18
     void Start();

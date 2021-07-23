@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return userId;
     }
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
     // System.Boolean <GetPlayerByUserId>b__0(IConnectedPlayer player)
     // Offset: 0x153873C
     bool $GetPlayerByUserId$b__0(GlobalNamespace::IConnectedPlayer* player);

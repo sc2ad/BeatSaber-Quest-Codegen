@@ -75,6 +75,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::KawaseBlurRendererSO::Pass _get_BlurGammaAndAdd();
     // Set static field: static public KawaseBlurRendererSO/Pass BlurGammaAndAdd
     static void _set_BlurGammaAndAdd(GlobalNamespace::KawaseBlurRendererSO::Pass value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // KawaseBlurRendererSO/Pass
   #pragma pack(pop)
   static check_size<sizeof(KawaseBlurRendererSO::Pass), 0 + sizeof(int)> __GlobalNamespace_KawaseBlurRendererSO_PassSizeCheck;

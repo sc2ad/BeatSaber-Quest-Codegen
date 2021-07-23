@@ -120,6 +120,54 @@ namespace GlobalNamespace {
     CrossFadeAudioSource(float duration_ = {}, UnityEngine::AudioSource* audioSource1_ = {}, UnityEngine::AudioSource* audioSource2_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect1_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, UnityEngine::AudioSource* activeAudioSource_ = {}, UnityEngine::AudioSource* inactiveAudioSource_ = {}, Tweening::Tween_1<float>* volumeDownTween_ = {}, Tweening::Tween_1<float>* volumeUpTween_ = {}, GlobalNamespace::AudioPitchGainEffect* activePitchGainEffect_ = {}, GlobalNamespace::AudioPitchGainEffect* inactivePitchGainEffect_ = {}) noexcept : duration{duration_}, audioSource1{audioSource1_}, audioSource2{audioSource2_}, audioPitchGainEffect1{audioPitchGainEffect1_}, audioPitchGainEffect2{audioPitchGainEffect2_}, tweeningManager{tweeningManager_}, activeAudioSource{activeAudioSource_}, inactiveAudioSource{inactiveAudioSource_}, volumeDownTween{volumeDownTween_}, volumeUpTween{volumeUpTween_}, activePitchGainEffect{activePitchGainEffect_}, inactivePitchGainEffect{inactivePitchGainEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _duration
+    float _get__duration();
+    // Set instance field: private System.Single _duration
+    void _set__duration(float value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource1
+    UnityEngine::AudioSource* _get__audioSource1();
+    // Set instance field: private UnityEngine.AudioSource _audioSource1
+    void _set__audioSource1(UnityEngine::AudioSource* value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource2
+    UnityEngine::AudioSource* _get__audioSource2();
+    // Set instance field: private UnityEngine.AudioSource _audioSource2
+    void _set__audioSource2(UnityEngine::AudioSource* value);
+    // Get instance field: private AudioPitchGainEffect _audioPitchGainEffect1
+    GlobalNamespace::AudioPitchGainEffect* _get__audioPitchGainEffect1();
+    // Set instance field: private AudioPitchGainEffect _audioPitchGainEffect1
+    void _set__audioPitchGainEffect1(GlobalNamespace::AudioPitchGainEffect* value);
+    // Get instance field: private AudioPitchGainEffect _audioPitchGainEffect2
+    GlobalNamespace::AudioPitchGainEffect* _get__audioPitchGainEffect2();
+    // Set instance field: private AudioPitchGainEffect _audioPitchGainEffect2
+    void _set__audioPitchGainEffect2(GlobalNamespace::AudioPitchGainEffect* value);
+    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager* _get__tweeningManager();
+    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
+    void _set__tweeningManager(Tweening::TweeningManager* value);
+    // Get instance field: private UnityEngine.AudioSource _activeAudioSource
+    UnityEngine::AudioSource* _get__activeAudioSource();
+    // Set instance field: private UnityEngine.AudioSource _activeAudioSource
+    void _set__activeAudioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private UnityEngine.AudioSource _inactiveAudioSource
+    UnityEngine::AudioSource* _get__inactiveAudioSource();
+    // Set instance field: private UnityEngine.AudioSource _inactiveAudioSource
+    void _set__inactiveAudioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private Tweening.Tween`1<System.Single> _volumeDownTween
+    Tweening::Tween_1<float>* _get__volumeDownTween();
+    // Set instance field: private Tweening.Tween`1<System.Single> _volumeDownTween
+    void _set__volumeDownTween(Tweening::Tween_1<float>* value);
+    // Get instance field: private Tweening.Tween`1<System.Single> _volumeUpTween
+    Tweening::Tween_1<float>* _get__volumeUpTween();
+    // Set instance field: private Tweening.Tween`1<System.Single> _volumeUpTween
+    void _set__volumeUpTween(Tweening::Tween_1<float>* value);
+    // Get instance field: private AudioPitchGainEffect _activePitchGainEffect
+    GlobalNamespace::AudioPitchGainEffect* _get__activePitchGainEffect();
+    // Set instance field: private AudioPitchGainEffect _activePitchGainEffect
+    void _set__activePitchGainEffect(GlobalNamespace::AudioPitchGainEffect* value);
+    // Get instance field: private AudioPitchGainEffect _inactivePitchGainEffect
+    GlobalNamespace::AudioPitchGainEffect* _get__inactivePitchGainEffect();
+    // Set instance field: private AudioPitchGainEffect _inactivePitchGainEffect
+    void _set__inactivePitchGainEffect(GlobalNamespace::AudioPitchGainEffect* value);
     // public UnityEngine.AudioClip get_clip()
     // Offset: 0x10838BC
     UnityEngine::AudioClip* get_clip();

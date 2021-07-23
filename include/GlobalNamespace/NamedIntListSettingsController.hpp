@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>*) == 0x8);
     // Creating value type constructor for type: NamedIntListSettingsController
     NamedIntListSettingsController(GlobalNamespace::IntSO* settingsValue_ = {}, ::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>* textValuePairs_ = {}) noexcept : settingsValue{settingsValue_}, textValuePairs{textValuePairs_} {}
+    // Get instance field: private IntSO _settingsValue
+    GlobalNamespace::IntSO* _get__settingsValue();
+    // Set instance field: private IntSO _settingsValue
+    void _set__settingsValue(GlobalNamespace::IntSO* value);
+    // Get instance field: private NamedIntListSettingsController/TextValuePair[] _textValuePairs
+    ::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>* _get__textValuePairs();
+    // Set instance field: private NamedIntListSettingsController/TextValuePair[] _textValuePairs
+    void _set__textValuePairs(::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>* value);
     // public System.Void .ctor()
     // Offset: 0x100E7D8
     // Implemented from: ListSettingsController

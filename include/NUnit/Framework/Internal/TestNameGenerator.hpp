@@ -68,6 +68,14 @@ namespace NUnit::Framework::Internal {
     static ::Il2CppString* _get_DefaultTestNamePattern();
     // Set static field: static public System.String DefaultTestNamePattern
     static void _set_DefaultTestNamePattern(::Il2CppString* value);
+    // Get instance field: private System.String _pattern
+    ::Il2CppString* _get__pattern();
+    // Set instance field: private System.String _pattern
+    void _set__pattern(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> _fragments
+    System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* _get__fragments();
+    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> _fragments
+    void _set__fragments(System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* value);
     // public System.Void .ctor(System.String pattern)
     // Offset: 0x2240340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

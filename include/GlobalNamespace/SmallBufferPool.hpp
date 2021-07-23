@@ -101,6 +101,22 @@ namespace GlobalNamespace {
     static int _get_kCacheMaxMaxCapacity();
     // Set static field: static private System.Int32 kCacheMaxMaxCapacity
     static void _set_kCacheMaxMaxCapacity(int value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
+    System::Collections::Generic::List_1<::Array<uint8_t>*>* _get__cacheSmall();
+    // Set instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
+    void _set__cacheSmall(System::Collections::Generic::List_1<::Array<uint8_t>*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMedium
+    System::Collections::Generic::List_1<::Array<uint8_t>*>* _get__cacheMedium();
+    // Set instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMedium
+    void _set__cacheMedium(System::Collections::Generic::List_1<::Array<uint8_t>*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheLarge
+    System::Collections::Generic::List_1<::Array<uint8_t>*>* _get__cacheLarge();
+    // Set instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheLarge
+    void _set__cacheLarge(System::Collections::Generic::List_1<::Array<uint8_t>*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
+    System::Collections::Generic::List_1<::Array<uint8_t>*>* _get__cacheMax();
+    // Set instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
+    void _set__cacheMax(System::Collections::Generic::List_1<::Array<uint8_t>*>* value);
     // public System.Byte[] GetBuffer(System.Int32 length)
     // Offset: 0x23105DC
     ::Array<uint8_t>* GetBuffer(int length);

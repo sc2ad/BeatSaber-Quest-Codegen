@@ -35,6 +35,14 @@ namespace RootMotion {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: TQ
     TQ(UnityEngine::Vector3 t_ = {}, UnityEngine::Quaternion q_ = {}) noexcept : t{t_}, q{q_} {}
+    // Get instance field: public UnityEngine.Vector3 t
+    UnityEngine::Vector3 _get_t();
+    // Set instance field: public UnityEngine.Vector3 t
+    void _set_t(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion q
+    UnityEngine::Quaternion _get_q();
+    // Set instance field: public UnityEngine.Quaternion q
+    void _set_q(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
     // Offset: 0x1AC8BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

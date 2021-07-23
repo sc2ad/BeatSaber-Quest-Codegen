@@ -43,6 +43,14 @@ namespace System {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     // Creating value type constructor for type: ByteMatcher
     ByteMatcher(System::Collections::Hashtable* map_ = {}, System::Collections::Hashtable* starts_ = {}) noexcept : map{map_}, starts{starts_} {}
+    // Get instance field: private System.Collections.Hashtable map
+    System::Collections::Hashtable* _get_map();
+    // Set instance field: private System.Collections.Hashtable map
+    void _set_map(System::Collections::Hashtable* value);
+    // Get instance field: private System.Collections.Hashtable starts
+    System::Collections::Hashtable* _get_starts();
+    // Set instance field: private System.Collections.Hashtable starts
+    void _set_starts(System::Collections::Hashtable* value);
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
     // Offset: 0x1784C14
     void AddMapping(System::TermInfoStrings key, ::Array<uint8_t>* val);

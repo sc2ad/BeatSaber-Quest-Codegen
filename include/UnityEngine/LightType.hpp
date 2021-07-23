@@ -67,6 +67,10 @@ namespace UnityEngine {
     static UnityEngine::LightType _get_Disc();
     // Set static field: static public UnityEngine.LightType Disc
     static void _set_Disc(UnityEngine::LightType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.LightType
   #pragma pack(pop)
   static check_size<sizeof(LightType), 0 + sizeof(int)> __UnityEngine_LightTypeSizeCheck;

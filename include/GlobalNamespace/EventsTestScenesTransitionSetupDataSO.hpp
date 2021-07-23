@@ -48,6 +48,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
     // Creating value type constructor for type: EventsTestScenesTransitionSetupDataSO
     EventsTestScenesTransitionSetupDataSO(GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::SceneInfo* eventsTestSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}) noexcept : environmentInfo{environmentInfo_}, eventsTestSceneInfo{eventsTestSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_} {}
+    // Get instance field: private EnvironmentInfoSO _environmentInfo
+    GlobalNamespace::EnvironmentInfoSO* _get__environmentInfo();
+    // Set instance field: private EnvironmentInfoSO _environmentInfo
+    void _set__environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
+    // Get instance field: private SceneInfo _eventsTestSceneInfo
+    GlobalNamespace::SceneInfo* _get__eventsTestSceneInfo();
+    // Set instance field: private SceneInfo _eventsTestSceneInfo
+    void _set__eventsTestSceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private SceneInfo _gameCoreSceneInfo
+    GlobalNamespace::SceneInfo* _get__gameCoreSceneInfo();
+    // Set instance field: private SceneInfo _gameCoreSceneInfo
+    void _set__gameCoreSceneInfo(GlobalNamespace::SceneInfo* value);
     // public System.Void Init()
     // Offset: 0x102430C
     void Init();

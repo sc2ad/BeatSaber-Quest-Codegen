@@ -62,6 +62,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>*) == 0x8);
     // Creating value type constructor for type: HitReactionVRIK
     HitReactionVRIK(::Array<UnityEngine::AnimationCurve*>* offsetCurves_ = {}, ::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>* positionOffsets_ = {}, ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>* rotationOffsets_ = {}) noexcept : offsetCurves{offsetCurves_}, positionOffsets{positionOffsets_}, rotationOffsets{rotationOffsets_} {}
+    // Get instance field: public UnityEngine.AnimationCurve[] offsetCurves
+    ::Array<UnityEngine::AnimationCurve*>* _get_offsetCurves();
+    // Set instance field: public UnityEngine.AnimationCurve[] offsetCurves
+    void _set_offsetCurves(::Array<UnityEngine::AnimationCurve*>* value);
+    // Get instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
+    ::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>* _get_positionOffsets();
+    // Set instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
+    void _set_positionOffsets(::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>* value);
+    // Get instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
+    ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>* _get_rotationOffsets();
+    // Set instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
+    void _set_rotationOffsets(::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>* value);
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
     // Offset: 0x1C9551C
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);

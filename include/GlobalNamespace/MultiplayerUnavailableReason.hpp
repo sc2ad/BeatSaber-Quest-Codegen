@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerUnavailableReason _get_MaintenanceMode();
     // Set static field: static public MultiplayerUnavailableReason MaintenanceMode
     static void _set_MaintenanceMode(GlobalNamespace::MultiplayerUnavailableReason value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // MultiplayerUnavailableReason
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerUnavailableReason), 0 + sizeof(int)> __GlobalNamespace_MultiplayerUnavailableReasonSizeCheck;

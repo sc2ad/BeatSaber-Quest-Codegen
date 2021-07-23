@@ -204,6 +204,30 @@ namespace System::Globalization {
     static bool _get_managedCollationChecked();
     // Set static field: static private System.Boolean managedCollationChecked
     static void _set_managedCollationChecked(bool value);
+    // Get instance field: private System.String m_name
+    ::Il2CppString* _get_m_name();
+    // Set instance field: private System.String m_name
+    void _set_m_name(::Il2CppString* value);
+    // Get instance field: private System.String m_sortName
+    ::Il2CppString* _get_m_sortName();
+    // Set instance field: private System.String m_sortName
+    void _set_m_sortName(::Il2CppString* value);
+    // Get instance field: private System.Int32 win32LCID
+    int _get_win32LCID();
+    // Set instance field: private System.Int32 win32LCID
+    void _set_win32LCID(int value);
+    // Get instance field: private System.Int32 culture
+    int _get_culture();
+    // Set instance field: private System.Int32 culture
+    void _set_culture(int value);
+    // Get instance field: private System.Globalization.SortVersion m_SortVersion
+    System::Globalization::SortVersion* _get_m_SortVersion();
+    // Set instance field: private System.Globalization.SortVersion m_SortVersion
+    void _set_m_SortVersion(System::Globalization::SortVersion* value);
+    // Get instance field: private Mono.Globalization.Unicode.SimpleCollator collator
+    Mono::Globalization::Unicode::SimpleCollator* _get_collator();
+    // Set instance field: private Mono.Globalization.Unicode.SimpleCollator collator
+    void _set_collator(Mono::Globalization::Unicode::SimpleCollator* value);
     // public System.String get_Name()
     // Offset: 0x17CD110
     ::Il2CppString* get_Name();

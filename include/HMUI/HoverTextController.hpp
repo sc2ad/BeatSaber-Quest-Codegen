@@ -78,6 +78,30 @@ namespace HMUI {
     HoverTextController(TMPro::TextMeshProUGUI* textMesh_ = {}, float fadeInDelay_ = {}, float fadeInSpeed_ = {}, float fadeOutSpeed_ = {}, bool isFadingOut_ = {}, bool isFadingIn_ = {}) noexcept : textMesh{textMesh_}, fadeInDelay{fadeInDelay_}, fadeInSpeed{fadeInSpeed_}, fadeOutSpeed{fadeOutSpeed_}, isFadingOut{isFadingOut_}, isFadingIn{isFadingIn_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _textMesh
+    TMPro::TextMeshProUGUI* _get__textMesh();
+    // Set instance field: private TMPro.TextMeshProUGUI _textMesh
+    void _set__textMesh(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private System.Single _fadeInDelay
+    float _get__fadeInDelay();
+    // Set instance field: private System.Single _fadeInDelay
+    void _set__fadeInDelay(float value);
+    // Get instance field: private System.Single _fadeInSpeed
+    float _get__fadeInSpeed();
+    // Set instance field: private System.Single _fadeInSpeed
+    void _set__fadeInSpeed(float value);
+    // Get instance field: private System.Single _fadeOutSpeed
+    float _get__fadeOutSpeed();
+    // Set instance field: private System.Single _fadeOutSpeed
+    void _set__fadeOutSpeed(float value);
+    // Get instance field: private System.Boolean _isFadingOut
+    bool _get__isFadingOut();
+    // Set instance field: private System.Boolean _isFadingOut
+    void _set__isFadingOut(bool value);
+    // Get instance field: private System.Boolean _isFadingIn
+    bool _get__isFadingIn();
+    // Set instance field: private System.Boolean _isFadingIn
+    void _set__isFadingIn(bool value);
     // protected System.Void Awake()
     // Offset: 0x1311148
     void Awake();

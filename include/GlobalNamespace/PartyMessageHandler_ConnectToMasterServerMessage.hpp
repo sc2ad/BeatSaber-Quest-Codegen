@@ -105,6 +105,38 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
+    // Get instance field: public System.Net.IPEndPoint endPoint
+    System::Net::IPEndPoint* _get_endPoint();
+    // Set instance field: public System.Net.IPEndPoint endPoint
+    void _set_endPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public System.String serverName
+    ::Il2CppString* _get_serverName();
+    // Set instance field: public System.String serverName
+    void _set_serverName(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
     // Offset: 0x153C658
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();

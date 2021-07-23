@@ -48,6 +48,10 @@ namespace System::Collections {
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return list;
     }
+    // Get instance field: private System.Collections.ArrayList _list
+    System::Collections::ArrayList* _get__list();
+    // Set instance field: private System.Collections.ArrayList _list
+    void _set__list(System::Collections::ArrayList* value);
     // System.Void .ctor(System.Collections.ArrayList l)
     // Offset: 0x1788DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

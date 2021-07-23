@@ -51,6 +51,18 @@ namespace LiteNetLib {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: NetPacketPool
     NetPacketPool(::Array<LiteNetLib::NetPacket*>* pool_ = {}, System::Threading::ReaderWriterLockSlim* lock_ = {}, int count_ = {}) noexcept : pool{pool_}, lock{lock_}, count{count_} {}
+    // Get instance field: private readonly LiteNetLib.NetPacket[] _pool
+    ::Array<LiteNetLib::NetPacket*>* _get__pool();
+    // Set instance field: private readonly LiteNetLib.NetPacket[] _pool
+    void _set__pool(::Array<LiteNetLib::NetPacket*>* value);
+    // Get instance field: private readonly System.Threading.ReaderWriterLockSlim _lock
+    System::Threading::ReaderWriterLockSlim* _get__lock();
+    // Set instance field: private readonly System.Threading.ReaderWriterLockSlim _lock
+    void _set__lock(System::Threading::ReaderWriterLockSlim* value);
+    // Get instance field: private System.Int32 _count
+    int _get__count();
+    // Set instance field: private System.Int32 _count
+    void _set__count(int value);
     // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x1BB6F98
     LiteNetLib::NetPacket* GetWithData(LiteNetLib::PacketProperty property, ::Array<uint8_t>* data, int start, int length);

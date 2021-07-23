@@ -61,6 +61,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Pose
     Pose(bool visualize_ = {}, ::Il2CppString* name_ = {}, UnityEngine::Vector3 direction_ = {}, float yaw_ = {}, float pitch_ = {}, float angleBuffer_ = {}) noexcept : visualize{visualize_}, name{name_}, direction{direction_}, yaw{yaw_}, pitch{pitch_}, angleBuffer{angleBuffer_} {}
+    // Get instance field: public System.Boolean visualize
+    bool _get_visualize();
+    // Set instance field: public System.Boolean visualize
+    void _set_visualize(bool value);
+    // Get instance field: public System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: public System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: public UnityEngine.Vector3 direction
+    UnityEngine::Vector3 _get_direction();
+    // Set instance field: public UnityEngine.Vector3 direction
+    void _set_direction(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single yaw
+    float _get_yaw();
+    // Set instance field: public System.Single yaw
+    void _set_yaw(float value);
+    // Get instance field: public System.Single pitch
+    float _get_pitch();
+    // Set instance field: public System.Single pitch
+    void _set_pitch(float value);
+    // Get instance field: private System.Single angleBuffer
+    float _get_angleBuffer();
+    // Set instance field: private System.Single angleBuffer
+    void _set_angleBuffer(float value);
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
     // Offset: 0x1CDE654
     bool IsInDirection(UnityEngine::Vector3 d);

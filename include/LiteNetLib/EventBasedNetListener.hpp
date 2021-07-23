@@ -122,6 +122,38 @@ namespace LiteNetLib {
     operator LiteNetLib::IDeliveryEventListener() noexcept {
       return *reinterpret_cast<LiteNetLib::IDeliveryEventListener*>(this);
     }
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerConnected PeerConnectedEvent
+    LiteNetLib::EventBasedNetListener::OnPeerConnected* _get_PeerConnectedEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerConnected PeerConnectedEvent
+    void _set_PeerConnectedEvent(LiteNetLib::EventBasedNetListener::OnPeerConnected* value);
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerDisconnected PeerDisconnectedEvent
+    LiteNetLib::EventBasedNetListener::OnPeerDisconnected* _get_PeerDisconnectedEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerDisconnected PeerDisconnectedEvent
+    void _set_PeerDisconnectedEvent(LiteNetLib::EventBasedNetListener::OnPeerDisconnected* value);
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkError NetworkErrorEvent
+    LiteNetLib::EventBasedNetListener::OnNetworkError* _get_NetworkErrorEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkError NetworkErrorEvent
+    void _set_NetworkErrorEvent(LiteNetLib::EventBasedNetListener::OnNetworkError* value);
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceive NetworkReceiveEvent
+    LiteNetLib::EventBasedNetListener::OnNetworkReceive* _get_NetworkReceiveEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceive NetworkReceiveEvent
+    void _set_NetworkReceiveEvent(LiteNetLib::EventBasedNetListener::OnNetworkReceive* value);
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceiveUnconnected NetworkReceiveUnconnectedEvent
+    LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected* _get_NetworkReceiveUnconnectedEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceiveUnconnected NetworkReceiveUnconnectedEvent
+    void _set_NetworkReceiveUnconnectedEvent(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected* value);
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkLatencyUpdate NetworkLatencyUpdateEvent
+    LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate* _get_NetworkLatencyUpdateEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkLatencyUpdate NetworkLatencyUpdateEvent
+    void _set_NetworkLatencyUpdateEvent(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate* value);
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnConnectionRequest ConnectionRequestEvent
+    LiteNetLib::EventBasedNetListener::OnConnectionRequest* _get_ConnectionRequestEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnConnectionRequest ConnectionRequestEvent
+    void _set_ConnectionRequestEvent(LiteNetLib::EventBasedNetListener::OnConnectionRequest* value);
+    // Get instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnDeliveryEvent DeliveryEvent
+    LiteNetLib::EventBasedNetListener::OnDeliveryEvent* _get_DeliveryEvent();
+    // Set instance field: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnDeliveryEvent DeliveryEvent
+    void _set_DeliveryEvent(LiteNetLib::EventBasedNetListener::OnDeliveryEvent* value);
     // public System.Void add_PeerConnectedEvent(LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerConnected value)
     // Offset: 0x1BACBD0
     void add_PeerConnectedEvent(LiteNetLib::EventBasedNetListener::OnPeerConnected* value);

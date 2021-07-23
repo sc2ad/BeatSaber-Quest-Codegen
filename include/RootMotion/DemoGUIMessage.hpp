@@ -37,6 +37,14 @@ namespace RootMotion {
     DemoGUIMessage(::Il2CppString* text_ = {}, UnityEngine::Color color_ = {}) noexcept : text{text_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.String text
+    ::Il2CppString* _get_text();
+    // Set instance field: public System.String text
+    void _set_text(::Il2CppString* value);
+    // Get instance field: public UnityEngine.Color color
+    UnityEngine::Color _get_color();
+    // Set instance field: public UnityEngine.Color color
+    void _set_color(UnityEngine::Color value);
     // private System.Void OnGUI()
     // Offset: 0x1CDC674
     void OnGUI();

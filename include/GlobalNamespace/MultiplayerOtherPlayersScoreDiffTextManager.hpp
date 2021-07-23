@@ -96,6 +96,34 @@ namespace GlobalNamespace {
     static float _get_kUpdateInterval();
     // Set static field: static private System.Single kUpdateInterval
     static void _set_kUpdateInterval(float value);
+    // Get instance field: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController* _get__multiplayerController();
+    // Set instance field: private readonly MultiplayerController _multiplayerController
+    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
+    // Get instance field: private readonly MultiplayerPlayersManager _playersManager
+    GlobalNamespace::MultiplayerPlayersManager* _get__playersManager();
+    // Set instance field: private readonly MultiplayerPlayersManager _playersManager
+    void _set__playersManager(GlobalNamespace::MultiplayerPlayersManager* value);
+    // Get instance field: private readonly MultiplayerScoreProvider _scoreProvider
+    GlobalNamespace::MultiplayerScoreProvider* _get__scoreProvider();
+    // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
+    void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
+    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
+    // Get instance field: private readonly CoreGameHUDController/InitData _initData
+    GlobalNamespace::CoreGameHUDController::InitData* _get__initData();
+    // Set instance field: private readonly CoreGameHUDController/InitData _initData
+    void _set__initData(GlobalNamespace::CoreGameHUDController::InitData* value);
+    // Get instance field: private System.Single _timeToNextUpdate
+    float _get__timeToNextUpdate();
+    // Set instance field: private System.Single _timeToNextUpdate
+    void _set__timeToNextUpdate(float value);
     // protected System.Void Start()
     // Offset: 0x23DD2C4
     void Start();

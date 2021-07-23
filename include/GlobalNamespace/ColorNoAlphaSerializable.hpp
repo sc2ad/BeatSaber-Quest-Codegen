@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     constexpr operator UnityEngine::Color() const noexcept {
       return color;
     }
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0xF0BC94
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

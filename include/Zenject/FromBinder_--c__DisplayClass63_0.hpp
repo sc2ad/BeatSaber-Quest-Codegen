@@ -50,6 +50,10 @@ namespace Zenject {
     constexpr operator System::Type*() const noexcept {
       return concreteType;
     }
+    // Get instance field: public System.Type concreteType
+    System::Type* _get_concreteType();
+    // Set instance field: public System.Type concreteType
+    void _set_concreteType(System::Type* value);
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentSibling>b__1(Zenject.InjectContext ctx)
     // Offset: 0x1622008
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentSibling$b__1(Zenject::InjectContext* ctx);

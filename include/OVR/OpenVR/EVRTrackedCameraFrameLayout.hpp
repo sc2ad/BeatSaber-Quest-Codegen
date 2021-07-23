@@ -55,6 +55,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRTrackedCameraFrameLayout _get_HorizontalLayout();
     // Set static field: static public OVR.OpenVR.EVRTrackedCameraFrameLayout HorizontalLayout
     static void _set_HorizontalLayout(OVR::OpenVR::EVRTrackedCameraFrameLayout value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRTrackedCameraFrameLayout
   #pragma pack(pop)
   static check_size<sizeof(EVRTrackedCameraFrameLayout), 0 + sizeof(int)> __OVR_OpenVR_EVRTrackedCameraFrameLayoutSizeCheck;

@@ -33,6 +33,10 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_informationalVersion;
     }
+    // Get instance field: private System.String m_informationalVersion
+    ::Il2CppString* _get_m_informationalVersion();
+    // Set instance field: private System.String m_informationalVersion
+    void _set_m_informationalVersion(::Il2CppString* value);
     // public System.Void .ctor(System.String informationalVersion)
     // Offset: 0x1CA56AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

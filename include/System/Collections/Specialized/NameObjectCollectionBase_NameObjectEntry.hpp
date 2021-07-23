@@ -33,6 +33,14 @@ namespace System::Collections::Specialized {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: NameObjectEntry
     NameObjectEntry(::Il2CppString* Key_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Key{Key_}, Value{Value_} {}
+    // Get instance field: System.String Key
+    ::Il2CppString* _get_Key();
+    // Set instance field: System.String Key
+    void _set_Key(::Il2CppString* value);
+    // Get instance field: System.Object Value
+    ::Il2CppObject* _get_Value();
+    // Set instance field: System.Object Value
+    void _set_Value(::Il2CppObject* value);
     // System.Void .ctor(System.String name, System.Object value)
     // Offset: 0x18458EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

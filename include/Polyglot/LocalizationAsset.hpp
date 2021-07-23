@@ -40,6 +40,14 @@ namespace Polyglot {
     static_assert(sizeof(Polyglot::GoogleDriveDownloadFormat) == 0x4);
     // Creating value type constructor for type: LocalizationAsset
     LocalizationAsset(UnityEngine::TextAsset* textAsset_ = {}, Polyglot::GoogleDriveDownloadFormat format_ = {}) noexcept : textAsset{textAsset_}, format{format_} {}
+    // Get instance field: private UnityEngine.TextAsset textAsset
+    UnityEngine::TextAsset* _get_textAsset();
+    // Set instance field: private UnityEngine.TextAsset textAsset
+    void _set_textAsset(UnityEngine::TextAsset* value);
+    // Get instance field: private Polyglot.GoogleDriveDownloadFormat format
+    Polyglot::GoogleDriveDownloadFormat _get_format();
+    // Set instance field: private Polyglot.GoogleDriveDownloadFormat format
+    void _set_format(Polyglot::GoogleDriveDownloadFormat value);
     // public UnityEngine.TextAsset get_TextAsset()
     // Offset: 0x232F764
     UnityEngine::TextAsset* get_TextAsset();

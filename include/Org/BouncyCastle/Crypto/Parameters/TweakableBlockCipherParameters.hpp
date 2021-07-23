@@ -40,6 +40,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Get instance field: private readonly System.Byte[] tweak
+    ::Array<uint8_t>* _get_tweak();
+    // Set instance field: private readonly System.Byte[] tweak
+    void _set_tweak(::Array<uint8_t>* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
+    Org::BouncyCastle::Crypto::Parameters::KeyParameter* _get_key();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
+    void _set_key(Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
     // Offset: 0x122DB54
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();

@@ -47,6 +47,14 @@ namespace System::Resources {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Object _value
+    ::Il2CppObject* _get__value();
+    // Set instance field: System.Object _value
+    void _set__value(::Il2CppObject* value);
+    // Get instance field: System.Int32 _dataPos
+    int _get__dataPos();
+    // Set instance field: System.Int32 _dataPos
+    void _set__dataPos(int value);
     // System.Int32 get_DataPosition()
     // Offset: 0xED5BF0
     int get_DataPosition();

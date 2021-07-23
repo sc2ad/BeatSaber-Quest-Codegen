@@ -59,6 +59,18 @@ namespace RootMotion::FinalIK {
     OffsetModifierVRIK(float weight_ = {}, RootMotion::FinalIK::VRIK* ik_ = {}, float lastTime_ = {}) noexcept : weight{weight_}, ik{ik_}, lastTime{lastTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: public RootMotion.FinalIK.VRIK ik
+    RootMotion::FinalIK::VRIK* _get_ik();
+    // Set instance field: public RootMotion.FinalIK.VRIK ik
+    void _set_ik(RootMotion::FinalIK::VRIK* value);
+    // Get instance field: private System.Single lastTime
+    float _get_lastTime();
+    // Set instance field: private System.Single lastTime
+    void _set_lastTime(float value);
     // protected System.Single get_deltaTime()
     // Offset: 0x1AB66AC
     float get_deltaTime();

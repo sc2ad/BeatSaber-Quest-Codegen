@@ -72,6 +72,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
     }
+    // Get instance field: private NoteExecutionRating _noteExecutionRating
+    GlobalNamespace::NoteExecutionRating* _get__noteExecutionRating();
+    // Set instance field: private NoteExecutionRating _noteExecutionRating
+    void _set__noteExecutionRating(GlobalNamespace::NoteExecutionRating* value);
+    // Get instance field: private ISaberSwingRatingCounter _saberSwingRatingCounter
+    GlobalNamespace::ISaberSwingRatingCounter* _get__saberSwingRatingCounter();
+    // Set instance field: private ISaberSwingRatingCounter _saberSwingRatingCounter
+    void _set__saberSwingRatingCounter(GlobalNamespace::ISaberSwingRatingCounter* value);
+    // Get instance field: private System.Single _cutDistanceToCenter
+    float _get__cutDistanceToCenter();
+    // Set instance field: private System.Single _cutDistanceToCenter
+    void _set__cutDistanceToCenter(float value);
+    // Get instance field: private readonly LazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> _didFinishEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* _get__didFinishEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> _didFinishEvent
+    void _set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* value);
     // public ILazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> get_didFinishEvent()
     // Offset: 0x109448C
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* get_didFinishEvent();

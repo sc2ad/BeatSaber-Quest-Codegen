@@ -78,6 +78,22 @@ namespace GlobalNamespace {
     static float _get_kContinuousRumbleFrameDuration();
     // Set static field: static private System.Single kContinuousRumbleFrameDuration
     static void _set_kContinuousRumbleFrameDuration(float value);
+    // Get instance field: private BoolSO _controllersRumbleEnabled
+    GlobalNamespace::BoolSO* _get__controllersRumbleEnabled();
+    // Set instance field: private BoolSO _controllersRumbleEnabled
+    void _set__controllersRumbleEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _continuousRumblePreset
+    Libraries::HM::HMLib::VR::HapticPresetSO* _get__continuousRumblePreset();
+    // Set instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _continuousRumblePreset
+    void _set__continuousRumblePreset(Libraries::HM::HMLib::VR::HapticPresetSO* value);
+    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
+    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.XR.XRNode,System.Collections.Generic.Dictionary`2<System.Object,HapticFeedbackController/RumbleData>> _rumblesByNode
+    System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>* _get__rumblesByNode();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.XR.XRNode,System.Collections.Generic.Dictionary`2<System.Object,HapticFeedbackController/RumbleData>> _rumblesByNode
+    void _set__rumblesByNode(System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>* value);
     // public Libraries.HM.HMLib.VR.HapticPresetSO get_continuousRumblePreset()
     // Offset: 0x121A51C
     Libraries::HM::HMLib::VR::HapticPresetSO* get_continuousRumblePreset();

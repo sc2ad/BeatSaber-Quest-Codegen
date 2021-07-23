@@ -69,6 +69,14 @@ namespace System::Runtime::CompilerServices {
       operator System::Runtime::CompilerServices::ICriticalNotifyCompletion() noexcept {
         return *reinterpret_cast<System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
       }
+      // Get instance field: private readonly System.Threading.Tasks.Task m_task
+      System::Threading::Tasks::Task* _get_m_task();
+      // Set instance field: private readonly System.Threading.Tasks.Task m_task
+      void _set_m_task(System::Threading::Tasks::Task* value);
+      // Get instance field: private readonly System.Boolean m_continueOnCapturedContext
+      bool _get_m_continueOnCapturedContext();
+      // Set instance field: private readonly System.Boolean m_continueOnCapturedContext
+      void _set_m_continueOnCapturedContext(bool value);
       // public System.Boolean get_IsCompleted()
       // Offset: 0xED5DC0
       bool get_IsCompleted();
@@ -105,6 +113,10 @@ namespace System::Runtime::CompilerServices {
     constexpr operator System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter() const noexcept {
       return m_configuredTaskAwaiter;
     }
+    // Get instance field: private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter m_configuredTaskAwaiter
+    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter _get_m_configuredTaskAwaiter();
+    // Set instance field: private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter m_configuredTaskAwaiter
+    void _set_m_configuredTaskAwaiter(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
     // Offset: 0xED5D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

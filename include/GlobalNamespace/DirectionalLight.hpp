@@ -69,6 +69,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::DirectionalLight* _get__mainLight();
     // Set static field: static private DirectionalLight _mainLight
     static void _set__mainLight(GlobalNamespace::DirectionalLight* value);
+    // Get instance field: public UnityEngine.Color color
+    UnityEngine::Color _get_color();
+    // Set instance field: public UnityEngine.Color color
+    void _set_color(UnityEngine::Color value);
+    // Get instance field: public System.Single intensity
+    float _get_intensity();
+    // Set instance field: public System.Single intensity
+    void _set_intensity(float value);
+    // Get instance field: public System.Single radius
+    float _get_radius();
+    // Set instance field: public System.Single radius
+    void _set_radius(float value);
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
     // Offset: 0x1DF0410
     static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* get_lights();

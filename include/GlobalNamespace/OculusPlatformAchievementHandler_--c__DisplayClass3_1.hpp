@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     constexpr operator Oculus::Platform::Models::AchievementProgress*() const noexcept {
       return achievement;
     }
+    // Get instance field: public Oculus.Platform.Models.AchievementProgress achievement
+    Oculus::Platform::Models::AchievementProgress* _get_achievement();
+    // Set instance field: public Oculus.Platform.Models.AchievementProgress achievement
+    void _set_achievement(Oculus::Platform::Models::AchievementProgress* value);
     // System.Boolean <GetUnlockedAchievements>b__1(AchievementSO x)
     // Offset: 0x11F5CE4
     bool $GetUnlockedAchievements$b__1(GlobalNamespace::AchievementSO* x);

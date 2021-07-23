@@ -60,6 +60,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>*>(this);
     }
+    // Get instance field: public MasterServerEndPoint masterServerEndPoint
+    GlobalNamespace::MasterServerEndPoint* _get_masterServerEndPoint();
+    // Set instance field: public MasterServerEndPoint masterServerEndPoint
+    void _set_masterServerEndPoint(GlobalNamespace::MasterServerEndPoint* value);
+    // Get instance field: public IAuthenticationTokenProvider authenticationTokenProvider
+    GlobalNamespace::IAuthenticationTokenProvider* _get_authenticationTokenProvider();
+    // Set instance field: public IAuthenticationTokenProvider authenticationTokenProvider
+    void _set_authenticationTokenProvider(GlobalNamespace::IAuthenticationTokenProvider* value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
     // protected System.Void .ctor()
     // Offset: 0x152E8E4
     // Implemented from: System.Object

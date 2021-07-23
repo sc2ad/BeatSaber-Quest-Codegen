@@ -147,6 +147,78 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: RemoteTestData
     RemoteTestData(::Il2CppString* id_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, int testCaseCount_ = {}, int ChildIndex_ = {}, bool hasChildren_ = {}, bool isSuite_ = {}, ::Array<::Il2CppString*>* childrenIds_ = {}, int testCaseTimeout_ = {}, ::Array<::Il2CppString*>* Categories_ = {}, bool IsTestAssembly_ = {}, NUnit::Framework::Interfaces::RunState RunState_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* SkipReason_ = {}, ::Il2CppString* ParentId_ = {}, ::Il2CppString* UniqueName_ = {}, ::Il2CppString* ParentUniqueName_ = {}, ::Il2CppString* ParentFullName_ = {}) noexcept : id{id_}, name{name_}, fullName{fullName_}, testCaseCount{testCaseCount_}, ChildIndex{ChildIndex_}, hasChildren{hasChildren_}, isSuite{isSuite_}, childrenIds{childrenIds_}, testCaseTimeout{testCaseTimeout_}, Categories{Categories_}, IsTestAssembly{IsTestAssembly_}, RunState{RunState_}, Description{Description_}, SkipReason{SkipReason_}, ParentId{ParentId_}, UniqueName{UniqueName_}, ParentUniqueName{ParentUniqueName_}, ParentFullName{ParentFullName_} {}
+    // Get instance field: public System.String id
+    ::Il2CppString* _get_id();
+    // Set instance field: public System.String id
+    void _set_id(::Il2CppString* value);
+    // Get instance field: public System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: public System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: public System.String fullName
+    ::Il2CppString* _get_fullName();
+    // Set instance field: public System.String fullName
+    void _set_fullName(::Il2CppString* value);
+    // Get instance field: public System.Int32 testCaseCount
+    int _get_testCaseCount();
+    // Set instance field: public System.Int32 testCaseCount
+    void _set_testCaseCount(int value);
+    // Get instance field: public System.Int32 ChildIndex
+    int _get_ChildIndex();
+    // Set instance field: public System.Int32 ChildIndex
+    void _set_ChildIndex(int value);
+    // Get instance field: public System.Boolean hasChildren
+    bool _get_hasChildren();
+    // Set instance field: public System.Boolean hasChildren
+    void _set_hasChildren(bool value);
+    // Get instance field: public System.Boolean isSuite
+    bool _get_isSuite();
+    // Set instance field: public System.Boolean isSuite
+    void _set_isSuite(bool value);
+    // Get instance field: public System.String[] childrenIds
+    ::Array<::Il2CppString*>* _get_childrenIds();
+    // Set instance field: public System.String[] childrenIds
+    void _set_childrenIds(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.Int32 testCaseTimeout
+    int _get_testCaseTimeout();
+    // Set instance field: public System.Int32 testCaseTimeout
+    void _set_testCaseTimeout(int value);
+    // Get instance field: public System.String[] Categories
+    ::Array<::Il2CppString*>* _get_Categories();
+    // Set instance field: public System.String[] Categories
+    void _set_Categories(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.Boolean IsTestAssembly
+    bool _get_IsTestAssembly();
+    // Set instance field: public System.Boolean IsTestAssembly
+    void _set_IsTestAssembly(bool value);
+    // Get instance field: public NUnit.Framework.Interfaces.RunState RunState
+    NUnit::Framework::Interfaces::RunState _get_RunState();
+    // Set instance field: public NUnit.Framework.Interfaces.RunState RunState
+    void _set_RunState(NUnit::Framework::Interfaces::RunState value);
+    // Get instance field: public System.String Description
+    ::Il2CppString* _get_Description();
+    // Set instance field: public System.String Description
+    void _set_Description(::Il2CppString* value);
+    // Get instance field: public System.String SkipReason
+    ::Il2CppString* _get_SkipReason();
+    // Set instance field: public System.String SkipReason
+    void _set_SkipReason(::Il2CppString* value);
+    // Get instance field: public System.String ParentId
+    ::Il2CppString* _get_ParentId();
+    // Set instance field: public System.String ParentId
+    void _set_ParentId(::Il2CppString* value);
+    // Get instance field: public System.String UniqueName
+    ::Il2CppString* _get_UniqueName();
+    // Set instance field: public System.String UniqueName
+    void _set_UniqueName(::Il2CppString* value);
+    // Get instance field: public System.String ParentUniqueName
+    ::Il2CppString* _get_ParentUniqueName();
+    // Set instance field: public System.String ParentUniqueName
+    void _set_ParentUniqueName(::Il2CppString* value);
+    // Get instance field: public System.String ParentFullName
+    ::Il2CppString* _get_ParentFullName();
+    // Set instance field: public System.String ParentFullName
+    void _set_ParentFullName(::Il2CppString* value);
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x1485244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

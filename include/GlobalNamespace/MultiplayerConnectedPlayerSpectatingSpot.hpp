@@ -98,6 +98,34 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
+    GlobalNamespace::MultiplayerSpectatingSpotManager* _get__spectatingSpotManager();
+    // Set instance field: private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
+    void _set__spectatingSpotManager(GlobalNamespace::MultiplayerSpectatingSpotManager* value);
+    // Get instance field: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
+    System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* _get_hasBeenRemovedEvent();
+    // Set instance field: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
+    void _set_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
+    // Get instance field: private System.Action`1<System.Boolean> isObservedChangedEvent
+    System::Action_1<bool>* _get_isObservedChangedEvent();
+    // Set instance field: private System.Action`1<System.Boolean> isObservedChangedEvent
+    void _set_isObservedChangedEvent(System::Action_1<bool>* value);
+    // Get instance field: private IMultiplayerObservable <observable>k__BackingField
+    GlobalNamespace::IMultiplayerObservable* _get_$observable$k__BackingField();
+    // Set instance field: private IMultiplayerObservable <observable>k__BackingField
+    void _set_$observable$k__BackingField(GlobalNamespace::IMultiplayerObservable* value);
+    // Get instance field: private System.Boolean _playerFailed
+    bool _get__playerFailed();
+    // Set instance field: private System.Boolean _playerFailed
+    void _set__playerFailed(bool value);
     // public IMultiplayerObservable get_observable()
     // Offset: 0x11A5DE0
     GlobalNamespace::IMultiplayerObservable* get_observable();

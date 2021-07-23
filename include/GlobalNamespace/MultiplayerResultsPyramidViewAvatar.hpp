@@ -306,6 +306,146 @@ namespace GlobalNamespace {
     MultiplayerResultsPyramidViewAvatar(UnityEngine::Playables::PlayableDirector* badgeDirector_ = {}, ::Il2CppString* ghostFirstTrackName_ = {}, ::Il2CppString* ghostSecondTrackName_ = {}, UnityEngine::Transform* standWithAvatarTransform_ = {}, float perPositionRotation_ = {}, UnityEngine::Color localPlayerColor_ = {}, TMPro::TextMeshProUGUI* positionText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, HMUI::ImageView* nameBackground_ = {}, UnityEngine::CanvasGroup* badgeCanvas_ = {}, ::Array<TMPro::TextMeshProUGUI*>* badgeTitles_ = {}, ::Array<HMUI::ImageView*>* badgeImages_ = {}, TMPro::TextMeshProUGUI* badgeSubtitleText_ = {}, UnityEngine::CanvasGroup* badgeSubtitleCanvas_ = {}, GlobalNamespace::GhostDuplicationEffect* ghostDuplicationEffect_ = {}, GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostAppear_ = {}, GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostReceive_ = {}, HMUI::ImageView* trophyImage_ = {}, UnityEngine::Sprite* firstPlaceTrophy_ = {}, UnityEngine::Sprite* secondPlaceTrophy_ = {}, UnityEngine::Sprite* thirdPlaceTrophy_ = {}, UnityEngine::Color firstPlaceColor_ = {}, UnityEngine::GameObject* personalBestVisual_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, Tweening::Vector3Tween* riseTween_ = {}, Tweening::Vector3Tween* avatarRiseTween_ = {}, Tweening::Vector3Tween* badgePositionTween_ = {}, Tweening::FloatTween* badgeOpacityTween_ = {}, Tweening::FloatTween* nameOpacityTween_ = {}, Tweening::Vector3Tween* namePositionTween_ = {}, Tweening::ColorTween* localGlowTween_ = {}, Tweening::Vector3Tween* titleMakingSpaceForBadgeTween_ = {}, UnityEngine::Vector3 originalBadgeLocalPos_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : badgeDirector{badgeDirector_}, ghostFirstTrackName{ghostFirstTrackName_}, ghostSecondTrackName{ghostSecondTrackName_}, standWithAvatarTransform{standWithAvatarTransform_}, perPositionRotation{perPositionRotation_}, localPlayerColor{localPlayerColor_}, positionText{positionText_}, nameText{nameText_}, nameBackground{nameBackground_}, badgeCanvas{badgeCanvas_}, badgeTitles{badgeTitles_}, badgeImages{badgeImages_}, badgeSubtitleText{badgeSubtitleText_}, badgeSubtitleCanvas{badgeSubtitleCanvas_}, ghostDuplicationEffect{ghostDuplicationEffect_}, ghostAppear{ghostAppear_}, ghostReceive{ghostReceive_}, trophyImage{trophyImage_}, firstPlaceTrophy{firstPlaceTrophy_}, secondPlaceTrophy{secondPlaceTrophy_}, thirdPlaceTrophy{thirdPlaceTrophy_}, firstPlaceColor{firstPlaceColor_}, personalBestVisual{personalBestVisual_}, playerDataModel{playerDataModel_}, difficultyBeatmap{difficultyBeatmap_}, riseTween{riseTween_}, avatarRiseTween{avatarRiseTween_}, badgePositionTween{badgePositionTween_}, badgeOpacityTween{badgeOpacityTween_}, nameOpacityTween{nameOpacityTween_}, namePositionTween{namePositionTween_}, localGlowTween{localGlowTween_}, titleMakingSpaceForBadgeTween{titleMakingSpaceForBadgeTween_}, originalBadgeLocalPos{originalBadgeLocalPos_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Playables.PlayableDirector _badgeDirector
+    UnityEngine::Playables::PlayableDirector* _get__badgeDirector();
+    // Set instance field: private UnityEngine.Playables.PlayableDirector _badgeDirector
+    void _set__badgeDirector(UnityEngine::Playables::PlayableDirector* value);
+    // Get instance field: private System.String _ghostFirstTrackName
+    ::Il2CppString* _get__ghostFirstTrackName();
+    // Set instance field: private System.String _ghostFirstTrackName
+    void _set__ghostFirstTrackName(::Il2CppString* value);
+    // Get instance field: private System.String _ghostSecondTrackName
+    ::Il2CppString* _get__ghostSecondTrackName();
+    // Set instance field: private System.String _ghostSecondTrackName
+    void _set__ghostSecondTrackName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Transform _standWithAvatarTransform
+    UnityEngine::Transform* _get__standWithAvatarTransform();
+    // Set instance field: private UnityEngine.Transform _standWithAvatarTransform
+    void _set__standWithAvatarTransform(UnityEngine::Transform* value);
+    // Get instance field: private System.Single _perPositionRotation
+    float _get__perPositionRotation();
+    // Set instance field: private System.Single _perPositionRotation
+    void _set__perPositionRotation(float value);
+    // Get instance field: private UnityEngine.Color _localPlayerColor
+    UnityEngine::Color _get__localPlayerColor();
+    // Set instance field: private UnityEngine.Color _localPlayerColor
+    void _set__localPlayerColor(UnityEngine::Color value);
+    // Get instance field: private TMPro.TextMeshProUGUI _positionText
+    TMPro::TextMeshProUGUI* _get__positionText();
+    // Set instance field: private TMPro.TextMeshProUGUI _positionText
+    void _set__positionText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI* _get__nameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _nameText
+    void _set__nameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private HMUI.ImageView _nameBackground
+    HMUI::ImageView* _get__nameBackground();
+    // Set instance field: private HMUI.ImageView _nameBackground
+    void _set__nameBackground(HMUI::ImageView* value);
+    // Get instance field: private UnityEngine.CanvasGroup _badgeCanvas
+    UnityEngine::CanvasGroup* _get__badgeCanvas();
+    // Set instance field: private UnityEngine.CanvasGroup _badgeCanvas
+    void _set__badgeCanvas(UnityEngine::CanvasGroup* value);
+    // Get instance field: private TMPro.TextMeshProUGUI[] _badgeTitles
+    ::Array<TMPro::TextMeshProUGUI*>* _get__badgeTitles();
+    // Set instance field: private TMPro.TextMeshProUGUI[] _badgeTitles
+    void _set__badgeTitles(::Array<TMPro::TextMeshProUGUI*>* value);
+    // Get instance field: private HMUI.ImageView[] _badgeImages
+    ::Array<HMUI::ImageView*>* _get__badgeImages();
+    // Set instance field: private HMUI.ImageView[] _badgeImages
+    void _set__badgeImages(::Array<HMUI::ImageView*>* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _badgeSubtitleText
+    TMPro::TextMeshProUGUI* _get__badgeSubtitleText();
+    // Set instance field: private TMPro.TextMeshProUGUI _badgeSubtitleText
+    void _set__badgeSubtitleText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.CanvasGroup _badgeSubtitleCanvas
+    UnityEngine::CanvasGroup* _get__badgeSubtitleCanvas();
+    // Set instance field: private UnityEngine.CanvasGroup _badgeSubtitleCanvas
+    void _set__badgeSubtitleCanvas(UnityEngine::CanvasGroup* value);
+    // Get instance field: private GhostDuplicationEffect _ghostDuplicationEffect
+    GlobalNamespace::GhostDuplicationEffect* _get__ghostDuplicationEffect();
+    // Set instance field: private GhostDuplicationEffect _ghostDuplicationEffect
+    void _set__ghostDuplicationEffect(GlobalNamespace::GhostDuplicationEffect* value);
+    // Get instance field: private GhostDuplicationEffect/GhostEffectParams _ghostAppear
+    GlobalNamespace::GhostDuplicationEffect::GhostEffectParams _get__ghostAppear();
+    // Set instance field: private GhostDuplicationEffect/GhostEffectParams _ghostAppear
+    void _set__ghostAppear(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams value);
+    // Get instance field: private GhostDuplicationEffect/GhostEffectParams _ghostReceive
+    GlobalNamespace::GhostDuplicationEffect::GhostEffectParams _get__ghostReceive();
+    // Set instance field: private GhostDuplicationEffect/GhostEffectParams _ghostReceive
+    void _set__ghostReceive(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams value);
+    // Get instance field: private HMUI.ImageView _trophyImage
+    HMUI::ImageView* _get__trophyImage();
+    // Set instance field: private HMUI.ImageView _trophyImage
+    void _set__trophyImage(HMUI::ImageView* value);
+    // Get instance field: private UnityEngine.Sprite _firstPlaceTrophy
+    UnityEngine::Sprite* _get__firstPlaceTrophy();
+    // Set instance field: private UnityEngine.Sprite _firstPlaceTrophy
+    void _set__firstPlaceTrophy(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _secondPlaceTrophy
+    UnityEngine::Sprite* _get__secondPlaceTrophy();
+    // Set instance field: private UnityEngine.Sprite _secondPlaceTrophy
+    void _set__secondPlaceTrophy(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _thirdPlaceTrophy
+    UnityEngine::Sprite* _get__thirdPlaceTrophy();
+    // Set instance field: private UnityEngine.Sprite _thirdPlaceTrophy
+    void _set__thirdPlaceTrophy(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Color _firstPlaceColor
+    UnityEngine::Color _get__firstPlaceColor();
+    // Set instance field: private UnityEngine.Color _firstPlaceColor
+    void _set__firstPlaceColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.GameObject _personalBestVisual
+    UnityEngine::GameObject* _get__personalBestVisual();
+    // Set instance field: private UnityEngine.GameObject _personalBestVisual
+    void _set__personalBestVisual(UnityEngine::GameObject* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private readonly IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
+    // Set instance field: private readonly IDifficultyBeatmap _difficultyBeatmap
+    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: private Tweening.Vector3Tween _riseTween
+    Tweening::Vector3Tween* _get__riseTween();
+    // Set instance field: private Tweening.Vector3Tween _riseTween
+    void _set__riseTween(Tweening::Vector3Tween* value);
+    // Get instance field: private Tweening.Vector3Tween _avatarRiseTween
+    Tweening::Vector3Tween* _get__avatarRiseTween();
+    // Set instance field: private Tweening.Vector3Tween _avatarRiseTween
+    void _set__avatarRiseTween(Tweening::Vector3Tween* value);
+    // Get instance field: private Tweening.Vector3Tween _badgePositionTween
+    Tweening::Vector3Tween* _get__badgePositionTween();
+    // Set instance field: private Tweening.Vector3Tween _badgePositionTween
+    void _set__badgePositionTween(Tweening::Vector3Tween* value);
+    // Get instance field: private Tweening.FloatTween _badgeOpacityTween
+    Tweening::FloatTween* _get__badgeOpacityTween();
+    // Set instance field: private Tweening.FloatTween _badgeOpacityTween
+    void _set__badgeOpacityTween(Tweening::FloatTween* value);
+    // Get instance field: private Tweening.FloatTween _nameOpacityTween
+    Tweening::FloatTween* _get__nameOpacityTween();
+    // Set instance field: private Tweening.FloatTween _nameOpacityTween
+    void _set__nameOpacityTween(Tweening::FloatTween* value);
+    // Get instance field: private Tweening.Vector3Tween _namePositionTween
+    Tweening::Vector3Tween* _get__namePositionTween();
+    // Set instance field: private Tweening.Vector3Tween _namePositionTween
+    void _set__namePositionTween(Tweening::Vector3Tween* value);
+    // Get instance field: private Tweening.ColorTween _localGlowTween
+    Tweening::ColorTween* _get__localGlowTween();
+    // Set instance field: private Tweening.ColorTween _localGlowTween
+    void _set__localGlowTween(Tweening::ColorTween* value);
+    // Get instance field: private Tweening.Vector3Tween _titleMakingSpaceForBadgeTween
+    Tweening::Vector3Tween* _get__titleMakingSpaceForBadgeTween();
+    // Set instance field: private Tweening.Vector3Tween _titleMakingSpaceForBadgeTween
+    void _set__titleMakingSpaceForBadgeTween(Tweening::Vector3Tween* value);
+    // Get instance field: private UnityEngine.Vector3 _originalBadgeLocalPos
+    UnityEngine::Vector3 _get__originalBadgeLocalPos();
+    // Set instance field: private UnityEngine.Vector3 _originalBadgeLocalPos
+    void _set__originalBadgeLocalPos(UnityEngine::Vector3 value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public UnityEngine.Playables.PlayableDirector get_badgeDirector()
     // Offset: 0x10061FC
     UnityEngine::Playables::PlayableDirector* get_badgeDirector();

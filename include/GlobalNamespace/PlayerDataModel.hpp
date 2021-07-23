@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     PlayerDataModel(GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager_ = {}, GlobalNamespace::PlayerData* playerData_ = {}) noexcept : playerDataFileManager{playerDataFileManager_}, playerData{playerData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private PlayerDataFileManagerSO _playerDataFileManager
+    GlobalNamespace::PlayerDataFileManagerSO* _get__playerDataFileManager();
+    // Set instance field: private PlayerDataFileManagerSO _playerDataFileManager
+    void _set__playerDataFileManager(GlobalNamespace::PlayerDataFileManagerSO* value);
+    // Get instance field: private PlayerData _playerData
+    GlobalNamespace::PlayerData* _get__playerData();
+    // Set instance field: private PlayerData _playerData
+    void _set__playerData(GlobalNamespace::PlayerData* value);
     // public PlayerData get_playerData()
     // Offset: 0x1104390
     GlobalNamespace::PlayerData* get_playerData();

@@ -50,6 +50,18 @@ namespace GlobalNamespace {
     MultipliedAndAddedColorSO(GlobalNamespace::SimpleColorSO* baseColor_ = {}, UnityEngine::Color multiplierColor_ = {}, UnityEngine::Color addColor_ = {}) noexcept : baseColor{baseColor_}, multiplierColor{multiplierColor_}, addColor{addColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private SimpleColorSO _baseColor
+    GlobalNamespace::SimpleColorSO* _get__baseColor();
+    // Set instance field: private SimpleColorSO _baseColor
+    void _set__baseColor(GlobalNamespace::SimpleColorSO* value);
+    // Get instance field: private UnityEngine.Color _multiplierColor
+    UnityEngine::Color _get__multiplierColor();
+    // Set instance field: private UnityEngine.Color _multiplierColor
+    void _set__multiplierColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _addColor
+    UnityEngine::Color _get__addColor();
+    // Set instance field: private UnityEngine.Color _addColor
+    void _set__addColor(UnityEngine::Color value);
     // public override UnityEngine.Color get_color()
     // Offset: 0x23C8250
     // Implemented from: ColorSO

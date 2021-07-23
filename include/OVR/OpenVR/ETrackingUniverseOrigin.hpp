@@ -49,6 +49,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETrackingUniverseOrigin _get_TrackingUniverseRawAndUncalibrated();
     // Set static field: static public OVR.OpenVR.ETrackingUniverseOrigin TrackingUniverseRawAndUncalibrated
     static void _set_TrackingUniverseRawAndUncalibrated(OVR::OpenVR::ETrackingUniverseOrigin value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.ETrackingUniverseOrigin
   #pragma pack(pop)
   static check_size<sizeof(ETrackingUniverseOrigin), 0 + sizeof(int)> __OVR_OpenVR_ETrackingUniverseOriginSizeCheck;

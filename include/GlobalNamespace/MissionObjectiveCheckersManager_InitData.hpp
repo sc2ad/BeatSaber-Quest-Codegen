@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::MissionObjective*>*() const noexcept {
       return missionObjectives;
     }
+    // Get instance field: public readonly MissionObjective[] missionObjectives
+    ::Array<GlobalNamespace::MissionObjective*>* _get_missionObjectives();
+    // Set instance field: public readonly MissionObjective[] missionObjectives
+    void _set_missionObjectives(::Array<GlobalNamespace::MissionObjective*>* value);
     // public System.Void .ctor(MissionObjective[] missionObjectives)
     // Offset: 0x113098C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

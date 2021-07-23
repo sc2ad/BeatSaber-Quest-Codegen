@@ -72,6 +72,22 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _fullScaleJumpPart
+    float _get__fullScaleJumpPart();
+    // Set instance field: private System.Single _fullScaleJumpPart
+    void _set__fullScaleJumpPart(float value);
+    // Get instance field: private UnityEngine.Transform _targetTransform
+    UnityEngine::Transform* _get__targetTransform();
+    // Set instance field: private UnityEngine.Transform _targetTransform
+    void _set__targetTransform(UnityEngine::Transform* value);
+    // Get instance field: private NoteController _noteController
+    GlobalNamespace::NoteController* _get__noteController();
+    // Set instance field: private NoteController _noteController
+    void _set__noteController(GlobalNamespace::NoteController* value);
+    // Get instance field: private NoteJump _noteJump
+    GlobalNamespace::NoteJump* _get__noteJump();
+    // Set instance field: private NoteJump _noteJump
+    void _set__noteJump(GlobalNamespace::NoteJump* value);
     // protected System.Void Awake()
     // Offset: 0x11E68A8
     void Awake();

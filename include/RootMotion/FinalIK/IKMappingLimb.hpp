@@ -109,6 +109,50 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKMapping::BoneMap*) == 0x8);
     // Creating value type constructor for type: IKMappingLimb
     IKMappingLimb(UnityEngine::Transform* parentBone_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, UnityEngine::Transform* bone3_ = {}, float maintainRotationWeight_ = {}, float weight_ = {}, bool updatePlaneRotations_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMapParent_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap1_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap2_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap3_ = {}) noexcept : parentBone{parentBone_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, maintainRotationWeight{maintainRotationWeight_}, weight{weight_}, updatePlaneRotations{updatePlaneRotations_}, boneMapParent{boneMapParent_}, boneMap1{boneMap1_}, boneMap2{boneMap2_}, boneMap3{boneMap3_} {}
+    // Get instance field: public UnityEngine.Transform parentBone
+    UnityEngine::Transform* _get_parentBone();
+    // Set instance field: public UnityEngine.Transform parentBone
+    void _set_parentBone(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform bone1
+    UnityEngine::Transform* _get_bone1();
+    // Set instance field: public UnityEngine.Transform bone1
+    void _set_bone1(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform bone2
+    UnityEngine::Transform* _get_bone2();
+    // Set instance field: public UnityEngine.Transform bone2
+    void _set_bone2(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform bone3
+    UnityEngine::Transform* _get_bone3();
+    // Set instance field: public UnityEngine.Transform bone3
+    void _set_bone3(UnityEngine::Transform* value);
+    // Get instance field: public System.Single maintainRotationWeight
+    float _get_maintainRotationWeight();
+    // Set instance field: public System.Single maintainRotationWeight
+    void _set_maintainRotationWeight(float value);
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: public System.Boolean updatePlaneRotations
+    bool _get_updatePlaneRotations();
+    // Set instance field: public System.Boolean updatePlaneRotations
+    void _set_updatePlaneRotations(bool value);
+    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMapParent
+    RootMotion::FinalIK::IKMapping::BoneMap* _get_boneMapParent();
+    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMapParent
+    void _set_boneMapParent(RootMotion::FinalIK::IKMapping::BoneMap* value);
+    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap1
+    RootMotion::FinalIK::IKMapping::BoneMap* _get_boneMap1();
+    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap1
+    void _set_boneMap1(RootMotion::FinalIK::IKMapping::BoneMap* value);
+    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap2
+    RootMotion::FinalIK::IKMapping::BoneMap* _get_boneMap2();
+    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap2
+    void _set_boneMap2(RootMotion::FinalIK::IKMapping::BoneMap* value);
+    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap3
+    RootMotion::FinalIK::IKMapping::BoneMap* _get_boneMap3();
+    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap3
+    void _set_boneMap3(RootMotion::FinalIK::IKMapping::BoneMap* value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform parentBone)
     // Offset: 0x1C9BCCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

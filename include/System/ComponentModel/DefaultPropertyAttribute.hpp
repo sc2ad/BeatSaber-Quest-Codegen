@@ -36,6 +36,10 @@ namespace System::ComponentModel {
     static System::ComponentModel::DefaultPropertyAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DefaultPropertyAttribute Default
     static void _set_Default(System::ComponentModel::DefaultPropertyAttribute* value);
+    // Get instance field: private readonly System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private readonly System.String name
+    void _set_name(::Il2CppString* value);
     // public System.String get_Name()
     // Offset: 0x1847E60
     ::Il2CppString* get_Name();

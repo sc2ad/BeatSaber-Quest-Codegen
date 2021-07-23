@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     Preset(GlobalNamespace::MainEffectSO* mainEffect_ = {}) noexcept : mainEffect{mainEffect_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Get instance field: public MainEffectSO mainEffect
+    GlobalNamespace::MainEffectSO* _get_mainEffect();
+    // Set instance field: public MainEffectSO mainEffect
+    void _set_mainEffect(GlobalNamespace::MainEffectSO* value);
     // public System.Void .ctor()
     // Offset: 0x1178D3C
     // Implemented from: NamedPreset

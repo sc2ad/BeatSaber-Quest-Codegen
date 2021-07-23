@@ -148,6 +148,10 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState _get_SharedTexture();
       // Set static field: static public UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.CacheValidState SharedTexture
       static void _set_SharedTexture(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState value);
+      // Get instance field: public System.Byte value__
+      uint8_t _get_value__();
+      // Set instance field: public System.Byte value__
+      void _set_value__(uint8_t value);
     }; // UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.CacheValidState
     #pragma pack(pop)
     static check_size<sizeof(ProBuilderMesh::CacheValidState), 0 + sizeof(uint8_t)> __UnityEngine_ProBuilder_ProBuilderMesh_CacheValidStateSizeCheck;
@@ -412,6 +416,126 @@ namespace UnityEngine::ProBuilder {
     static System::Collections::Generic::HashSet_1<int>* _get_s_CachedHashSet();
     // Set static field: static private System.Collections.Generic.HashSet`1<System.Int32> s_CachedHashSet
     static void _set_s_CachedHashSet(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field: private System.Int32 m_MeshFormatVersion
+    int _get_m_MeshFormatVersion();
+    // Set instance field: private System.Int32 m_MeshFormatVersion
+    void _set_m_MeshFormatVersion(int value);
+    // Get instance field: private UnityEngine.ProBuilder.Face[] m_Faces
+    ::Array<UnityEngine::ProBuilder::Face*>* _get_m_Faces();
+    // Set instance field: private UnityEngine.ProBuilder.Face[] m_Faces
+    void _set_m_Faces(::Array<UnityEngine::ProBuilder::Face*>* value);
+    // Get instance field: private UnityEngine.ProBuilder.SharedVertex[] m_SharedVertices
+    ::Array<UnityEngine::ProBuilder::SharedVertex*>* _get_m_SharedVertices();
+    // Set instance field: private UnityEngine.ProBuilder.SharedVertex[] m_SharedVertices
+    void _set_m_SharedVertices(::Array<UnityEngine::ProBuilder::SharedVertex*>* value);
+    // Get instance field: private UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.CacheValidState m_CacheValid
+    UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState _get_m_CacheValid();
+    // Set instance field: private UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.CacheValidState m_CacheValid
+    void _set_m_CacheValid(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedVertexLookup
+    System::Collections::Generic::Dictionary_2<int, int>* _get_m_SharedVertexLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedVertexLookup
+    void _set_m_SharedVertexLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
+    // Get instance field: private UnityEngine.ProBuilder.SharedVertex[] m_SharedTextures
+    ::Array<UnityEngine::ProBuilder::SharedVertex*>* _get_m_SharedTextures();
+    // Set instance field: private UnityEngine.ProBuilder.SharedVertex[] m_SharedTextures
+    void _set_m_SharedTextures(::Array<UnityEngine::ProBuilder::SharedVertex*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedTextureLookup
+    System::Collections::Generic::Dictionary_2<int, int>* _get_m_SharedTextureLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedTextureLookup
+    void _set_m_SharedTextureLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
+    // Get instance field: private UnityEngine.Vector3[] m_Positions
+    ::Array<UnityEngine::Vector3>* _get_m_Positions();
+    // Set instance field: private UnityEngine.Vector3[] m_Positions
+    void _set_m_Positions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Vector2[] m_Textures0
+    ::Array<UnityEngine::Vector2>* _get_m_Textures0();
+    // Set instance field: private UnityEngine.Vector2[] m_Textures0
+    void _set_m_Textures0(::Array<UnityEngine::Vector2>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Textures2
+    System::Collections::Generic::List_1<UnityEngine::Vector4>* _get_m_Textures2();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Textures2
+    void _set_m_Textures2(System::Collections::Generic::List_1<UnityEngine::Vector4>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Textures3
+    System::Collections::Generic::List_1<UnityEngine::Vector4>* _get_m_Textures3();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Textures3
+    void _set_m_Textures3(System::Collections::Generic::List_1<UnityEngine::Vector4>* value);
+    // Get instance field: private UnityEngine.Vector4[] m_Tangents
+    ::Array<UnityEngine::Vector4>* _get_m_Tangents();
+    // Set instance field: private UnityEngine.Vector4[] m_Tangents
+    void _set_m_Tangents(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private UnityEngine.Vector3[] m_Normals
+    ::Array<UnityEngine::Vector3>* _get_m_Normals();
+    // Set instance field: private UnityEngine.Vector3[] m_Normals
+    void _set_m_Normals(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Color[] m_Colors
+    ::Array<UnityEngine::Color>* _get_m_Colors();
+    // Set instance field: private UnityEngine.Color[] m_Colors
+    void _set_m_Colors(::Array<UnityEngine::Color>* value);
+    // Get instance field: private System.Boolean <userCollisions>k__BackingField
+    bool _get_$userCollisions$k__BackingField();
+    // Set instance field: private System.Boolean <userCollisions>k__BackingField
+    void _set_$userCollisions$k__BackingField(bool value);
+    // Get instance field: private UnityEngine.ProBuilder.UnwrapParameters m_UnwrapParameters
+    UnityEngine::ProBuilder::UnwrapParameters* _get_m_UnwrapParameters();
+    // Set instance field: private UnityEngine.ProBuilder.UnwrapParameters m_UnwrapParameters
+    void _set_m_UnwrapParameters(UnityEngine::ProBuilder::UnwrapParameters* value);
+    // Get instance field: private System.Boolean m_PreserveMeshAssetOnDestroy
+    bool _get_m_PreserveMeshAssetOnDestroy();
+    // Set instance field: private System.Boolean m_PreserveMeshAssetOnDestroy
+    void _set_m_PreserveMeshAssetOnDestroy(bool value);
+    // Get instance field: System.String assetGuid
+    ::Il2CppString* _get_assetGuid();
+    // Set instance field: System.String assetGuid
+    void _set_assetGuid(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Mesh m_Mesh
+    UnityEngine::Mesh* _get_m_Mesh();
+    // Set instance field: private UnityEngine.Mesh m_Mesh
+    void _set_m_Mesh(UnityEngine::Mesh* value);
+    // Get instance field: private UnityEngine.MeshRenderer m_MeshRenderer
+    UnityEngine::MeshRenderer* _get_m_MeshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer m_MeshRenderer
+    void _set_m_MeshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private UnityEngine.MeshFilter m_MeshFilter
+    UnityEngine::MeshFilter* _get_m_MeshFilter();
+    // Set instance field: private UnityEngine.MeshFilter m_MeshFilter
+    void _set_m_MeshFilter(UnityEngine::MeshFilter* value);
+    // Get instance field: private System.Boolean m_IsSelectable
+    bool _get_m_IsSelectable();
+    // Set instance field: private System.Boolean m_IsSelectable
+    void _set_m_IsSelectable(bool value);
+    // Get instance field: private System.Int32[] m_SelectedFaces
+    ::Array<int>* _get_m_SelectedFaces();
+    // Set instance field: private System.Int32[] m_SelectedFaces
+    void _set_m_SelectedFaces(::Array<int>* value);
+    // Get instance field: private UnityEngine.ProBuilder.Edge[] m_SelectedEdges
+    ::Array<UnityEngine::ProBuilder::Edge>* _get_m_SelectedEdges();
+    // Set instance field: private UnityEngine.ProBuilder.Edge[] m_SelectedEdges
+    void _set_m_SelectedEdges(::Array<UnityEngine::ProBuilder::Edge>* value);
+    // Get instance field: private System.Int32[] m_SelectedVertices
+    ::Array<int>* _get_m_SelectedVertices();
+    // Set instance field: private System.Int32[] m_SelectedVertices
+    void _set_m_SelectedVertices(::Array<int>* value);
+    // Get instance field: private System.Boolean m_SelectedCacheDirty
+    bool _get_m_SelectedCacheDirty();
+    // Set instance field: private System.Boolean m_SelectedCacheDirty
+    void _set_m_SelectedCacheDirty(bool value);
+    // Get instance field: private System.Int32 m_SelectedSharedVerticesCount
+    int _get_m_SelectedSharedVerticesCount();
+    // Set instance field: private System.Int32 m_SelectedSharedVerticesCount
+    void _set_m_SelectedSharedVerticesCount(int value);
+    // Get instance field: private System.Int32 m_SelectedCoincidentVertexCount
+    int _get_m_SelectedCoincidentVertexCount();
+    // Set instance field: private System.Int32 m_SelectedCoincidentVertexCount
+    void _set_m_SelectedCoincidentVertexCount(int value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<System.Int32> m_SelectedSharedVertices
+    System::Collections::Generic::HashSet_1<int>* _get_m_SelectedSharedVertices();
+    // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> m_SelectedSharedVertices
+    void _set_m_SelectedSharedVertices(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Int32> m_SelectedCoincidentVertices
+    System::Collections::Generic::List_1<int>* _get_m_SelectedCoincidentVertices();
+    // Set instance field: private System.Collections.Generic.List`1<System.Int32> m_SelectedCoincidentVertices
+    void _set_m_SelectedCoincidentVertices(System::Collections::Generic::List_1<int>* value);
     // public System.Boolean get_userCollisions()
     // Offset: 0x14AD104
     bool get_userCollisions();

@@ -79,6 +79,30 @@ namespace UnityEngine::TestTools::Utils {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public System.Int32 timeout
+    int _get_timeout();
+    // Set instance field: public System.Int32 timeout
+    void _set_timeout(int value);
+    // Get instance field: public System.Collections.IEnumerator coroutineToBeKilled
+    System::Collections::IEnumerator* _get_coroutineToBeKilled();
+    // Set instance field: public System.Collections.IEnumerator coroutineToBeKilled
+    void _set_coroutineToBeKilled(System::Collections::IEnumerator* value);
+    // Get instance field: public UnityEngine.TestTools.Utils.CoroutineRunner <>4__this
+    UnityEngine::TestTools::Utils::CoroutineRunner* _get_$$4__this();
+    // Set instance field: public UnityEngine.TestTools.Utils.CoroutineRunner <>4__this
+    void _set_$$4__this(UnityEngine::TestTools::Utils::CoroutineRunner* value);
+    // Get instance field: public System.Action onTimeout
+    System::Action* _get_onTimeout();
+    // Set instance field: public System.Action onTimeout
+    void _set_onTimeout(System::Action* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x23B5DC4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

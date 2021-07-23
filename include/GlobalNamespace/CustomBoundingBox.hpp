@@ -56,6 +56,22 @@ namespace GlobalNamespace {
     CustomBoundingBox(UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Vector3 boundingBoxCenter_ = {}, UnityEngine::Vector3 boundingBoxSize_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}) noexcept : meshFilter{meshFilter_}, boundingBoxCenter{boundingBoxCenter_}, boundingBoxSize{boundingBoxSize_}, meshRenderer{meshRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.MeshFilter _meshFilter
+    UnityEngine::MeshFilter* _get__meshFilter();
+    // Set instance field: private UnityEngine.MeshFilter _meshFilter
+    void _set__meshFilter(UnityEngine::MeshFilter* value);
+    // Get instance field: private UnityEngine.Vector3 _boundingBoxCenter
+    UnityEngine::Vector3 _get__boundingBoxCenter();
+    // Set instance field: private UnityEngine.Vector3 _boundingBoxCenter
+    void _set__boundingBoxCenter(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _boundingBoxSize
+    UnityEngine::Vector3 _get__boundingBoxSize();
+    // Set instance field: private UnityEngine.Vector3 _boundingBoxSize
+    void _set__boundingBoxSize(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer* _get__meshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
+    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
     // protected System.Void Awake()
     // Offset: 0x120FF54
     void Awake();

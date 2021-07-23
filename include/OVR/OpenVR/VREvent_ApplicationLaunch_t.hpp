@@ -33,6 +33,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt32 pid
+    uint _get_pid();
+    // Set instance field: public System.UInt32 pid
+    void _set_pid(uint value);
+    // Get instance field: public System.UInt32 unArgsHandle
+    uint _get_unArgsHandle();
+    // Set instance field: public System.UInt32 unArgsHandle
+    void _set_unArgsHandle(uint value);
   }; // OVR.OpenVR.VREvent_ApplicationLaunch_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_ApplicationLaunch_t), 4 + sizeof(uint)> __OVR_OpenVR_VREvent_ApplicationLaunch_tSizeCheck;

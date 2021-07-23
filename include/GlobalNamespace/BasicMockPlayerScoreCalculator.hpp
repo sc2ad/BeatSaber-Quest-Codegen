@@ -63,6 +63,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMockPlayerScoreCalculator*>(this);
     }
+    // Get instance field: private readonly System.Single _hitFrequency
+    float _get__hitFrequency();
+    // Set instance field: private readonly System.Single _hitFrequency
+    void _set__hitFrequency(float value);
+    // Get instance field: private readonly System.Int32 _minScore
+    int _get__minScore();
+    // Set instance field: private readonly System.Int32 _minScore
+    void _set__minScore(int value);
+    // Get instance field: private readonly System.Int32 _maxScore
+    int _get__maxScore();
+    // Set instance field: private readonly System.Int32 _maxScore
+    void _set__maxScore(int value);
+    // Get instance field: private readonly System.Random _random
+    System::Random* _get__random();
+    // Set instance field: private readonly System.Random _random
+    void _set__random(System::Random* value);
     // public System.Void .ctor(System.Single hitFrequency, System.Int32 minScore, System.Int32 maxScore)
     // Offset: 0x238BAD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

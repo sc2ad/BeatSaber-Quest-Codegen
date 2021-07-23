@@ -40,6 +40,14 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.Vector2 m_Origin
+    UnityEngine::Vector2 _get_m_Origin();
+    // Set instance field: private UnityEngine.Vector2 m_Origin
+    void _set_m_Origin(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 m_Direction
+    UnityEngine::Vector2 _get_m_Direction();
+    // Set instance field: private UnityEngine.Vector2 m_Direction
+    void _set_m_Direction(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_origin()
     // Offset: 0xEF5268
     UnityEngine::Vector2 get_origin();

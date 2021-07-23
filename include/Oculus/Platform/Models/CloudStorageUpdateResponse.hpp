@@ -49,6 +49,22 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CloudStorageUpdateResponse
     CloudStorageUpdateResponse(::Il2CppString* Bucket_ = {}, ::Il2CppString* Key_ = {}, Oculus::Platform::CloudStorageUpdateStatus Status_ = {}, ::Il2CppString* VersionHandle_ = {}) noexcept : Bucket{Bucket_}, Key{Key_}, Status{Status_}, VersionHandle{VersionHandle_} {}
+    // Get instance field: public readonly System.String Bucket
+    ::Il2CppString* _get_Bucket();
+    // Set instance field: public readonly System.String Bucket
+    void _set_Bucket(::Il2CppString* value);
+    // Get instance field: public readonly System.String Key
+    ::Il2CppString* _get_Key();
+    // Set instance field: public readonly System.String Key
+    void _set_Key(::Il2CppString* value);
+    // Get instance field: public readonly Oculus.Platform.CloudStorageUpdateStatus Status
+    Oculus::Platform::CloudStorageUpdateStatus _get_Status();
+    // Set instance field: public readonly Oculus.Platform.CloudStorageUpdateStatus Status
+    void _set_Status(Oculus::Platform::CloudStorageUpdateStatus value);
+    // Get instance field: public readonly System.String VersionHandle
+    ::Il2CppString* _get_VersionHandle();
+    // Set instance field: public readonly System.String VersionHandle
+    void _set_VersionHandle(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A1B8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

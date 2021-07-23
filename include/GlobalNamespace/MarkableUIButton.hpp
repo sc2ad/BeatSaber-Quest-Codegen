@@ -50,6 +50,18 @@ namespace GlobalNamespace {
     MarkableUIButton(UnityEngine::Animator* animator_ = {}, bool marked_ = {}, int markedTriggerId_ = {}) noexcept : animator{animator_}, marked{marked_}, markedTriggerId{markedTriggerId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Animator _animator
+    UnityEngine::Animator* _get__animator();
+    // Set instance field: private UnityEngine.Animator _animator
+    void _set__animator(UnityEngine::Animator* value);
+    // Get instance field: private System.Boolean _marked
+    bool _get__marked();
+    // Set instance field: private System.Boolean _marked
+    void _set__marked(bool value);
+    // Get instance field: private System.Int32 _markedTriggerId
+    int _get__markedTriggerId();
+    // Set instance field: private System.Int32 _markedTriggerId
+    void _set__markedTriggerId(int value);
     // public System.Boolean get_marked()
     // Offset: 0x121BDE0
     bool get_marked();

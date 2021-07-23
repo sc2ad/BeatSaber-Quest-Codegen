@@ -43,6 +43,10 @@ namespace System::IO {
     constexpr operator ::Il2CppString*() const noexcept {
       return maybeFullPath;
     }
+    // Get instance field: private System.String _maybeFullPath
+    ::Il2CppString* _get__maybeFullPath();
+    // Set instance field: private System.String _maybeFullPath
+    void _set__maybeFullPath(::Il2CppString* value);
     // public System.Void .ctor(System.String message, System.Int32 hresult)
     // Offset: 0x192628C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

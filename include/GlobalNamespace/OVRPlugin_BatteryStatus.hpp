@@ -63,6 +63,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::BatteryStatus _get_Unknown();
     // Set static field: static public OVRPlugin/BatteryStatus Unknown
     static void _set_Unknown(GlobalNamespace::OVRPlugin::BatteryStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/BatteryStatus
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BatteryStatus), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_BatteryStatusSizeCheck;

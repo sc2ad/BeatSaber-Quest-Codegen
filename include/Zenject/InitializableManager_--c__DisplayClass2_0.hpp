@@ -50,6 +50,10 @@ namespace Zenject {
     constexpr operator Zenject::IInitializable*() const noexcept {
       return initializable;
     }
+    // Get instance field: public Zenject.IInitializable initializable
+    Zenject::IInitializable* _get_initializable();
+    // Set instance field: public Zenject.IInitializable initializable
+    void _set_initializable(Zenject::IInitializable* value);
     // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x1625D18
     bool $_ctor$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

@@ -88,6 +88,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: NoteData
     NoteData(GlobalNamespace::ColorType colorType_ = {}, GlobalNamespace::NoteCutDirection cutDirection_ = {}, float timeToNextColorNote_ = {}, float timeToPrevColorNote_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}, GlobalNamespace::NoteLineLayer startNoteLineLayer_ = {}, int flipLineIndex_ = {}, float flipYSide_ = {}, float duration_ = {}) noexcept : colorType{colorType_}, cutDirection{cutDirection_}, timeToNextColorNote{timeToNextColorNote_}, timeToPrevColorNote{timeToPrevColorNote_}, noteLineLayer{noteLineLayer_}, startNoteLineLayer{startNoteLineLayer_}, flipLineIndex{flipLineIndex_}, flipYSide{flipYSide_}, duration{duration_} {}
+    // Get instance field: private ColorType <colorType>k__BackingField
+    GlobalNamespace::ColorType _get_$colorType$k__BackingField();
+    // Set instance field: private ColorType <colorType>k__BackingField
+    void _set_$colorType$k__BackingField(GlobalNamespace::ColorType value);
+    // Get instance field: private NoteCutDirection <cutDirection>k__BackingField
+    GlobalNamespace::NoteCutDirection _get_$cutDirection$k__BackingField();
+    // Set instance field: private NoteCutDirection <cutDirection>k__BackingField
+    void _set_$cutDirection$k__BackingField(GlobalNamespace::NoteCutDirection value);
+    // Get instance field: private System.Single <timeToNextColorNote>k__BackingField
+    float _get_$timeToNextColorNote$k__BackingField();
+    // Set instance field: private System.Single <timeToNextColorNote>k__BackingField
+    void _set_$timeToNextColorNote$k__BackingField(float value);
+    // Get instance field: private System.Single <timeToPrevColorNote>k__BackingField
+    float _get_$timeToPrevColorNote$k__BackingField();
+    // Set instance field: private System.Single <timeToPrevColorNote>k__BackingField
+    void _set_$timeToPrevColorNote$k__BackingField(float value);
+    // Get instance field: private NoteLineLayer <noteLineLayer>k__BackingField
+    GlobalNamespace::NoteLineLayer _get_$noteLineLayer$k__BackingField();
+    // Set instance field: private NoteLineLayer <noteLineLayer>k__BackingField
+    void _set_$noteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
+    // Get instance field: private NoteLineLayer <startNoteLineLayer>k__BackingField
+    GlobalNamespace::NoteLineLayer _get_$startNoteLineLayer$k__BackingField();
+    // Set instance field: private NoteLineLayer <startNoteLineLayer>k__BackingField
+    void _set_$startNoteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
+    // Get instance field: private System.Int32 <flipLineIndex>k__BackingField
+    int _get_$flipLineIndex$k__BackingField();
+    // Set instance field: private System.Int32 <flipLineIndex>k__BackingField
+    void _set_$flipLineIndex$k__BackingField(int value);
+    // Get instance field: private System.Single <flipYSide>k__BackingField
+    float _get_$flipYSide$k__BackingField();
+    // Set instance field: private System.Single <flipYSide>k__BackingField
+    void _set_$flipYSide$k__BackingField(float value);
+    // Get instance field: private System.Single <duration>k__BackingField
+    float _get_$duration$k__BackingField();
+    // Set instance field: private System.Single <duration>k__BackingField
+    void _set_$duration$k__BackingField(float value);
     // public ColorType get_colorType()
     // Offset: 0x23B6F1C
     GlobalNamespace::ColorType get_colorType();

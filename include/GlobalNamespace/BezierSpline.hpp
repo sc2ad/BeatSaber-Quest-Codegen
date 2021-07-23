@@ -53,6 +53,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
     // Creating value type constructor for type: BezierSpline
     BezierSpline(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* segments_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* sourceDataPoints_ = {}) noexcept : segments{segments_}, sourceDataPoints{sourceDataPoints_} {}
+    // Get instance field: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
+    System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* _get__segments();
+    // Set instance field: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
+    void _set__segments(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _sourceDataPoints
+    System::Collections::Generic::List_1<UnityEngine::Vector3>* _get__sourceDataPoints();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _sourceDataPoints
+    void _set__sourceDataPoints(System::Collections::Generic::List_1<UnityEngine::Vector3>* value);
     // public System.Collections.Generic.List`1<BezierCurve> get_segments()
     // Offset: 0x109AA98
     System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* get_segments();

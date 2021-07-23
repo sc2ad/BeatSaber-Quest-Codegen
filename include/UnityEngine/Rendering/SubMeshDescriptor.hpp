@@ -75,6 +75,34 @@ namespace UnityEngine::Rendering {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.Bounds <bounds>k__BackingField
+    UnityEngine::Bounds _get_$bounds$k__BackingField();
+    // Set instance field: private UnityEngine.Bounds <bounds>k__BackingField
+    void _set_$bounds$k__BackingField(UnityEngine::Bounds value);
+    // Get instance field: private UnityEngine.MeshTopology <topology>k__BackingField
+    UnityEngine::MeshTopology _get_$topology$k__BackingField();
+    // Set instance field: private UnityEngine.MeshTopology <topology>k__BackingField
+    void _set_$topology$k__BackingField(UnityEngine::MeshTopology value);
+    // Get instance field: private System.Int32 <indexStart>k__BackingField
+    int _get_$indexStart$k__BackingField();
+    // Set instance field: private System.Int32 <indexStart>k__BackingField
+    void _set_$indexStart$k__BackingField(int value);
+    // Get instance field: private System.Int32 <indexCount>k__BackingField
+    int _get_$indexCount$k__BackingField();
+    // Set instance field: private System.Int32 <indexCount>k__BackingField
+    void _set_$indexCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <baseVertex>k__BackingField
+    int _get_$baseVertex$k__BackingField();
+    // Set instance field: private System.Int32 <baseVertex>k__BackingField
+    void _set_$baseVertex$k__BackingField(int value);
+    // Get instance field: private System.Int32 <firstVertex>k__BackingField
+    int _get_$firstVertex$k__BackingField();
+    // Set instance field: private System.Int32 <firstVertex>k__BackingField
+    void _set_$firstVertex$k__BackingField(int value);
+    // Get instance field: private System.Int32 <vertexCount>k__BackingField
+    int _get_$vertexCount$k__BackingField();
+    // Set instance field: private System.Int32 <vertexCount>k__BackingField
+    void _set_$vertexCount$k__BackingField(int value);
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0xEF5C98
     UnityEngine::Bounds get_bounds();

@@ -77,6 +77,30 @@ namespace GlobalNamespace {
     EnvironmentColorManager(GlobalNamespace::ColorSchemeSO* defaultColorScheme_ = {}, GlobalNamespace::SimpleColorSO* environmentColor0_ = {}, GlobalNamespace::SimpleColorSO* environmentColor1_ = {}, GlobalNamespace::SimpleColorSO* environmentColor0Boost_ = {}, GlobalNamespace::SimpleColorSO* environmentColor1Boost_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : defaultColorScheme{defaultColorScheme_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, environmentColor0Boost{environmentColor0Boost_}, environmentColor1Boost{environmentColor1Boost_}, colorScheme{colorScheme_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ColorSchemeSO _defaultColorScheme
+    GlobalNamespace::ColorSchemeSO* _get__defaultColorScheme();
+    // Set instance field: private ColorSchemeSO _defaultColorScheme
+    void _set__defaultColorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // Get instance field: private SimpleColorSO _environmentColor0
+    GlobalNamespace::SimpleColorSO* _get__environmentColor0();
+    // Set instance field: private SimpleColorSO _environmentColor0
+    void _set__environmentColor0(GlobalNamespace::SimpleColorSO* value);
+    // Get instance field: private SimpleColorSO _environmentColor1
+    GlobalNamespace::SimpleColorSO* _get__environmentColor1();
+    // Set instance field: private SimpleColorSO _environmentColor1
+    void _set__environmentColor1(GlobalNamespace::SimpleColorSO* value);
+    // Get instance field: private SimpleColorSO _environmentColor0Boost
+    GlobalNamespace::SimpleColorSO* _get__environmentColor0Boost();
+    // Set instance field: private SimpleColorSO _environmentColor0Boost
+    void _set__environmentColor0Boost(GlobalNamespace::SimpleColorSO* value);
+    // Get instance field: private SimpleColorSO _environmentColor1Boost
+    GlobalNamespace::SimpleColorSO* _get__environmentColor1Boost();
+    // Set instance field: private SimpleColorSO _environmentColor1Boost
+    void _set__environmentColor1Boost(GlobalNamespace::SimpleColorSO* value);
+    // Get instance field: private ColorScheme _colorScheme
+    GlobalNamespace::ColorScheme* _get__colorScheme();
+    // Set instance field: private ColorScheme _colorScheme
+    void _set__colorScheme(GlobalNamespace::ColorScheme* value);
     // public UnityEngine.Color get_environmentColor0()
     // Offset: 0x1020A88
     UnityEngine::Color get_environmentColor0();

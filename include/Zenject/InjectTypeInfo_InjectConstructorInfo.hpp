@@ -43,6 +43,14 @@ namespace Zenject {
     static_assert(sizeof(::Array<Zenject::InjectableInfo*>*) == 0x8);
     // Creating value type constructor for type: InjectConstructorInfo
     InjectConstructorInfo(Zenject::ZenFactoryMethod* Factory_ = {}, ::Array<Zenject::InjectableInfo*>* Parameters_ = {}) noexcept : Factory{Factory_}, Parameters{Parameters_} {}
+    // Get instance field: public readonly Zenject.ZenFactoryMethod Factory
+    Zenject::ZenFactoryMethod* _get_Factory();
+    // Set instance field: public readonly Zenject.ZenFactoryMethod Factory
+    void _set_Factory(Zenject::ZenFactoryMethod* value);
+    // Get instance field: public readonly Zenject.InjectableInfo[] Parameters
+    ::Array<Zenject::InjectableInfo*>* _get_Parameters();
+    // Set instance field: public readonly Zenject.InjectableInfo[] Parameters
+    void _set_Parameters(::Array<Zenject::InjectableInfo*>* value);
     // public System.Void .ctor(Zenject.ZenFactoryMethod factory, Zenject.InjectableInfo[] parameters)
     // Offset: 0x23B2BBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

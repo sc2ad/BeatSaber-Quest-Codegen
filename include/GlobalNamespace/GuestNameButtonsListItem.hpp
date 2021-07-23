@@ -58,6 +58,18 @@ namespace GlobalNamespace {
     GuestNameButtonsListItem(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Button* button_ = {}, System::Action* buttonPressed_ = {}) noexcept : nameText{nameText_}, button{button_}, buttonPressed{buttonPressed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI* _get__nameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _nameText
+    void _set__nameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button* _get__button();
+    // Set instance field: private UnityEngine.UI.Button _button
+    void _set__button(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Action _buttonPressed
+    System::Action* _get__buttonPressed();
+    // Set instance field: private System.Action _buttonPressed
+    void _set__buttonPressed(System::Action* value);
     // public System.Void set_nameText(System.String value)
     // Offset: 0x10E7F84
     void set_nameText(::Il2CppString* value);

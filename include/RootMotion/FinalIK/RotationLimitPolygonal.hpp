@@ -68,6 +68,26 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>*) == 0x8);
     // Creating value type constructor for type: RotationLimitPolygonal
     RotationLimitPolygonal(float twistLimit_ = {}, int smoothIterations_ = {}, ::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>* points_ = {}, ::Array<UnityEngine::Vector3>* P_ = {}, ::Array<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>* reachCones_ = {}) noexcept : twistLimit{twistLimit_}, smoothIterations{smoothIterations_}, points{points_}, P{P_}, reachCones{reachCones_} {}
+    // Get instance field: public System.Single twistLimit
+    float _get_twistLimit();
+    // Set instance field: public System.Single twistLimit
+    void _set_twistLimit(float value);
+    // Get instance field: public System.Int32 smoothIterations
+    int _get_smoothIterations();
+    // Set instance field: public System.Int32 smoothIterations
+    void _set_smoothIterations(int value);
+    // Get instance field: public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.LimitPoint[] points
+    ::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>* _get_points();
+    // Set instance field: public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.LimitPoint[] points
+    void _set_points(::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>* value);
+    // Get instance field: public UnityEngine.Vector3[] P
+    ::Array<UnityEngine::Vector3>* _get_P();
+    // Set instance field: public UnityEngine.Vector3[] P
+    void _set_P(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone[] reachCones
+    ::Array<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>* _get_reachCones();
+    // Set instance field: public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone[] reachCones
+    void _set_reachCones(::Array<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>* value);
     // private System.Void OpenUserManual()
     // Offset: 0x1ABBA58
     void OpenUserManual();

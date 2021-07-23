@@ -66,6 +66,26 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 bpmChangesDataIdx
+    int _get_bpmChangesDataIdx();
+    // Set instance field: public System.Int32 bpmChangesDataIdx
+    void _set_bpmChangesDataIdx(int value);
+    // Get instance field: public System.Collections.Generic.List`1<BeatmapDataLoader/BpmChangeData> bpmChangesData
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapDataLoader::BpmChangeData>* _get_bpmChangesData();
+    // Set instance field: public System.Collections.Generic.List`1<BeatmapDataLoader/BpmChangeData> bpmChangesData
+    void _set_bpmChangesData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapDataLoader::BpmChangeData>* value);
+    // Get instance field: public BeatmapDataLoader <>4__this
+    GlobalNamespace::BeatmapDataLoader* _get_$$4__this();
+    // Set instance field: public BeatmapDataLoader <>4__this
+    void _set_$$4__this(GlobalNamespace::BeatmapDataLoader* value);
+    // Get instance field: public System.Single shuffle
+    float _get_shuffle();
+    // Set instance field: public System.Single shuffle
+    void _set_shuffle(float value);
+    // Get instance field: public System.Single shufflePeriod
+    float _get_shufflePeriod();
+    // Set instance field: public System.Single shufflePeriod
+    void _set_shufflePeriod(float value);
   }; // BeatmapDataLoader/<>c__DisplayClass2_0
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataLoader::$$c__DisplayClass2_0), 28 + sizeof(float)> __GlobalNamespace_BeatmapDataLoader_$$c__DisplayClass2_0SizeCheck;

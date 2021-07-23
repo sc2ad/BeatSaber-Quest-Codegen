@@ -45,6 +45,10 @@ namespace System::Net::Sockets {
     SocketException(System::Net::EndPoint* m_EndPoint_ = {}) noexcept : m_EndPoint{m_EndPoint_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
+    // Get instance field: private System.Net.EndPoint m_EndPoint
+    System::Net::EndPoint* _get_m_EndPoint();
+    // Set instance field: private System.Net.EndPoint m_EndPoint
+    void _set_m_EndPoint(System::Net::EndPoint* value);
     // public System.Net.Sockets.SocketError get_SocketErrorCode()
     // Offset: 0x158A238
     System::Net::Sockets::SocketError get_SocketErrorCode();

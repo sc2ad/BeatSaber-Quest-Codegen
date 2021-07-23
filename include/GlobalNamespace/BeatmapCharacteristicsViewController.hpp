@@ -62,6 +62,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BeatmapCharacteristicsViewController
     BeatmapCharacteristicsViewController(GlobalNamespace::BeatmapCharacteristicsTableView* beatmapCharacteristicsTableView_ = {}, System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* didSelectBeatmapCharacteristicEvent_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, int selectedBeatmapCharacteristicNum_ = {}) noexcept : beatmapCharacteristicsTableView{beatmapCharacteristicsTableView_}, didSelectBeatmapCharacteristicEvent{didSelectBeatmapCharacteristicEvent_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, selectedBeatmapCharacteristicNum{selectedBeatmapCharacteristicNum_} {}
+    // Get instance field: private BeatmapCharacteristicsTableView _beatmapCharacteristicsTableView
+    GlobalNamespace::BeatmapCharacteristicsTableView* _get__beatmapCharacteristicsTableView();
+    // Set instance field: private BeatmapCharacteristicsTableView _beatmapCharacteristicsTableView
+    void _set__beatmapCharacteristicsTableView(GlobalNamespace::BeatmapCharacteristicsTableView* value);
+    // Get instance field: private System.Action`1<BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
+    System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* _get_didSelectBeatmapCharacteristicEvent();
+    // Set instance field: private System.Action`1<BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
+    void _set_didSelectBeatmapCharacteristicEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
+    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
+    // Get instance field: private System.Int32 _selectedBeatmapCharacteristicNum
+    int _get__selectedBeatmapCharacteristicNum();
+    // Set instance field: private System.Int32 _selectedBeatmapCharacteristicNum
+    void _set__selectedBeatmapCharacteristicNum(int value);
     // public BeatmapCharacteristicCollectionSO get_beatmapCharacteristicCollection()
     // Offset: 0x118D040
     GlobalNamespace::BeatmapCharacteristicCollectionSO* get_beatmapCharacteristicCollection();

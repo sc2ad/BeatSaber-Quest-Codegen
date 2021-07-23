@@ -72,6 +72,26 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FaceRebuildData
     FaceRebuildData(UnityEngine::ProBuilder::Face* face_ = {}, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices_ = {}, System::Collections::Generic::List_1<int>* sharedIndexes_ = {}, System::Collections::Generic::List_1<int>* sharedIndexesUV_ = {}, int appliedOffset_ = {}) noexcept : face{face_}, vertices{vertices_}, sharedIndexes{sharedIndexes_}, sharedIndexesUV{sharedIndexesUV_}, appliedOffset{appliedOffset_} {}
+    // Get instance field: public UnityEngine.ProBuilder.Face face
+    UnityEngine::ProBuilder::Face* _get_face();
+    // Set instance field: public UnityEngine.ProBuilder.Face face
+    void _set_face(UnityEngine::ProBuilder::Face* value);
+    // Get instance field: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* _get_vertices();
+    // Set instance field: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices
+    void _set_vertices(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.Int32> sharedIndexes
+    System::Collections::Generic::List_1<int>* _get_sharedIndexes();
+    // Set instance field: public System.Collections.Generic.List`1<System.Int32> sharedIndexes
+    void _set_sharedIndexes(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.Int32> sharedIndexesUV
+    System::Collections::Generic::List_1<int>* _get_sharedIndexesUV();
+    // Set instance field: public System.Collections.Generic.List`1<System.Int32> sharedIndexesUV
+    void _set_sharedIndexesUV(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: private System.Int32 _appliedOffset
+    int _get__appliedOffset();
+    // Set instance field: private System.Int32 _appliedOffset
+    void _set__appliedOffset(int value);
     // public System.Int32 Offset()
     // Offset: 0x1AE4100
     int Offset();

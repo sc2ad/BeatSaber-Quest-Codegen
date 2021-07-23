@@ -38,6 +38,14 @@ namespace Mono::Unity {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol min
+    Mono::Unity::UnityTls::unitytls_protocol _get_min();
+    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol min
+    void _set_min(Mono::Unity::UnityTls::unitytls_protocol value);
+    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol max
+    Mono::Unity::UnityTls::unitytls_protocol _get_max();
+    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol max
+    void _set_max(Mono::Unity::UnityTls::unitytls_protocol value);
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_tlsctx_protocolrange), 4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol)> __Mono_Unity_UnityTls_unitytls_tlsctx_protocolrangeSizeCheck;

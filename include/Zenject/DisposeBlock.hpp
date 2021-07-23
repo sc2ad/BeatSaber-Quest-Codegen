@@ -98,6 +98,14 @@ namespace Zenject {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public Zenject.IMemoryPool Pool
+      Zenject::IMemoryPool* _get_Pool();
+      // Set instance field: public Zenject.IMemoryPool Pool
+      void _set_Pool(Zenject::IMemoryPool* value);
+      // Get instance field: public System.Object Object
+      ::Il2CppObject* _get_Object();
+      // Set instance field: public System.Object Object
+      void _set_Object(::Il2CppObject* value);
     }; // Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair
     #pragma pack(pop)
     static check_size<sizeof(DisposeBlock::SpawnedObjectPoolPair), 8 + sizeof(::Il2CppObject*)> __Zenject_DisposeBlock_SpawnedObjectPoolPairSizeCheck;
@@ -124,6 +132,14 @@ namespace Zenject {
     static Zenject::StaticMemoryPool_1<Zenject::DisposeBlock*>* _get__pool();
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
     static void _set__pool(Zenject::StaticMemoryPool_1<Zenject::DisposeBlock*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.IDisposable> _disposables
+    System::Collections::Generic::List_1<System::IDisposable*>* _get__disposables();
+    // Set instance field: private System.Collections.Generic.List`1<System.IDisposable> _disposables
+    void _set__disposables(System::Collections::Generic::List_1<System::IDisposable*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
+    System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>* _get__objectPoolPairs();
+    // Set instance field: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
+    void _set__objectPoolPairs(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>* value);
     // static private System.Void .cctor()
     // Offset: 0x161AFD4
     static void _cctor();

@@ -65,6 +65,34 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr ifa_next
+    System::IntPtr _get_ifa_next();
+    // Set instance field: public System.IntPtr ifa_next
+    void _set_ifa_next(System::IntPtr value);
+    // Get instance field: public System.String ifa_name
+    ::Il2CppString* _get_ifa_name();
+    // Set instance field: public System.String ifa_name
+    void _set_ifa_name(::Il2CppString* value);
+    // Get instance field: public System.UInt32 ifa_flags
+    uint _get_ifa_flags();
+    // Set instance field: public System.UInt32 ifa_flags
+    void _set_ifa_flags(uint value);
+    // Get instance field: public System.IntPtr ifa_addr
+    System::IntPtr _get_ifa_addr();
+    // Set instance field: public System.IntPtr ifa_addr
+    void _set_ifa_addr(System::IntPtr value);
+    // Get instance field: public System.IntPtr ifa_netmask
+    System::IntPtr _get_ifa_netmask();
+    // Set instance field: public System.IntPtr ifa_netmask
+    void _set_ifa_netmask(System::IntPtr value);
+    // Get instance field: public System.Net.NetworkInformation.ifa_ifu ifa_ifu
+    System::Net::NetworkInformation::ifa_ifu _get_ifa_ifu();
+    // Set instance field: public System.Net.NetworkInformation.ifa_ifu ifa_ifu
+    void _set_ifa_ifu(System::Net::NetworkInformation::ifa_ifu value);
+    // Get instance field: public System.IntPtr ifa_data
+    System::IntPtr _get_ifa_data();
+    // Set instance field: public System.IntPtr ifa_data
+    void _set_ifa_data(System::IntPtr value);
   }; // System.Net.NetworkInformation.ifaddrs
   // WARNING Not writing size check since size may be invalid!
 }

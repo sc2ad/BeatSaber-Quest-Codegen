@@ -55,6 +55,22 @@ namespace UnityEngine::ProBuilder {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_mesh();
+    // Set instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    void _set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
+    // Get instance field: public System.Int32 vertex
+    int _get_vertex();
+    // Set instance field: public System.Int32 vertex
+    void _set_vertex(int value);
+    // Get instance field: public System.Single screenDistance
+    float _get_screenDistance();
+    // Set instance field: public System.Single screenDistance
+    void _set_screenDistance(float value);
+    // Get instance field: public UnityEngine.Vector3 worldPosition
+    UnityEngine::Vector3 _get_worldPosition();
+    // Set instance field: public UnityEngine.Vector3 worldPosition
+    void _set_worldPosition(UnityEngine::Vector3 value);
   }; // UnityEngine.ProBuilder.VertexPickerEntry
   #pragma pack(pop)
   static check_size<sizeof(VertexPickerEntry), 16 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_VertexPickerEntrySizeCheck;

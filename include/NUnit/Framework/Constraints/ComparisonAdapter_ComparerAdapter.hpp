@@ -38,6 +38,10 @@ namespace NUnit::Framework::Constraints {
     constexpr operator System::Collections::IComparer*() const noexcept {
       return comparer;
     }
+    // Get instance field: private readonly System.Collections.IComparer comparer
+    System::Collections::IComparer* _get_comparer();
+    // Set instance field: private readonly System.Collections.IComparer comparer
+    void _set_comparer(System::Collections::IComparer* value);
     // public System.Void .ctor(System.Collections.IComparer comparer)
     // Offset: 0x1715C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

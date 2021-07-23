@@ -63,6 +63,22 @@ namespace NUnit::Framework::Internal {
     static ::Il2CppString* _get_TRACE_FMT();
     // Set static field: static private readonly System.String TRACE_FMT
     static void _set_TRACE_FMT(::Il2CppString* value);
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: private System.String fullname
+    ::Il2CppString* _get_fullname();
+    // Set instance field: private System.String fullname
+    void _set_fullname(::Il2CppString* value);
+    // Get instance field: private NUnit.Framework.Internal.InternalTraceLevel maxLevel
+    NUnit::Framework::Internal::InternalTraceLevel _get_maxLevel();
+    // Set instance field: private NUnit.Framework.Internal.InternalTraceLevel maxLevel
+    void _set_maxLevel(NUnit::Framework::Internal::InternalTraceLevel value);
+    // Get instance field: private System.IO.TextWriter writer
+    System::IO::TextWriter* _get_writer();
+    // Set instance field: private System.IO.TextWriter writer
+    void _set_writer(System::IO::TextWriter* value);
     // public System.Void .ctor(System.String name, NUnit.Framework.Internal.InternalTraceLevel level, System.IO.TextWriter writer)
     // Offset: 0x223A434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

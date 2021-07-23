@@ -53,6 +53,18 @@ namespace System {
     static_assert(sizeof(System::Globalization::CompareOptions) == 0x4);
     // Creating value type constructor for type: CultureAwareComparer
     CultureAwareComparer(System::Globalization::CompareInfo* compareInfo_ = {}, bool ignoreCase_ = {}, System::Globalization::CompareOptions options_ = {}) noexcept : compareInfo{compareInfo_}, ignoreCase{ignoreCase_}, options{options_} {}
+    // Get instance field: private System.Globalization.CompareInfo _compareInfo
+    System::Globalization::CompareInfo* _get__compareInfo();
+    // Set instance field: private System.Globalization.CompareInfo _compareInfo
+    void _set__compareInfo(System::Globalization::CompareInfo* value);
+    // Get instance field: private System.Boolean _ignoreCase
+    bool _get__ignoreCase();
+    // Set instance field: private System.Boolean _ignoreCase
+    void _set__ignoreCase(bool value);
+    // Get instance field: private System.Globalization.CompareOptions _options
+    System::Globalization::CompareOptions _get__options();
+    // Set instance field: private System.Globalization.CompareOptions _options
+    void _set__options(System::Globalization::CompareOptions value);
     // System.Void .ctor(System.Globalization.CultureInfo culture, System.Boolean ignoreCase)
     // Offset: 0x195998C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -122,6 +122,50 @@ namespace GlobalNamespace {
     CenterStageScreenController(GlobalNamespace::MenuLightsPresetSO* defaultMenuLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* lobbyLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset_ = {}, GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}, GlobalNamespace::CountdownController* countdownController_ = {}, GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator_ = {}, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, bool countdownShown_ = {}, float countdownEndTime_ = {}) noexcept : defaultMenuLightsPreset{defaultMenuLightsPreset_}, lobbyLightsPreset{lobbyLightsPreset_}, countdownMenuLightsPreset{countdownMenuLightsPreset_}, beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, countdownController{countdownController_}, multiplayerLobbyCenterScreenLayoutAnimator{multiplayerLobbyCenterScreenLayoutAnimator_}, lobbyPlayersDataModel{lobbyPlayersDataModel_}, menuLightsManager{menuLightsManager_}, countdownShown{countdownShown_}, countdownEndTime{countdownEndTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected MenuLightsPresetSO _defaultMenuLightsPreset
+    GlobalNamespace::MenuLightsPresetSO* _get__defaultMenuLightsPreset();
+    // Set instance field: protected MenuLightsPresetSO _defaultMenuLightsPreset
+    void _set__defaultMenuLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
+    // Get instance field: protected MenuLightsPresetSO _lobbyLightsPreset
+    GlobalNamespace::MenuLightsPresetSO* _get__lobbyLightsPreset();
+    // Set instance field: protected MenuLightsPresetSO _lobbyLightsPreset
+    void _set__lobbyLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
+    // Get instance field: protected MenuLightsPresetSO _countdownMenuLightsPreset
+    GlobalNamespace::MenuLightsPresetSO* _get__countdownMenuLightsPreset();
+    // Set instance field: protected MenuLightsPresetSO _countdownMenuLightsPreset
+    void _set__countdownMenuLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
+    // Get instance field: private BeatmapSelectionView _beatmapSelectionView
+    GlobalNamespace::BeatmapSelectionView* _get__beatmapSelectionView();
+    // Set instance field: private BeatmapSelectionView _beatmapSelectionView
+    void _set__beatmapSelectionView(GlobalNamespace::BeatmapSelectionView* value);
+    // Get instance field: private ModifiersSelectionView _modifiersSelectionView
+    GlobalNamespace::ModifiersSelectionView* _get__modifiersSelectionView();
+    // Set instance field: private ModifiersSelectionView _modifiersSelectionView
+    void _set__modifiersSelectionView(GlobalNamespace::ModifiersSelectionView* value);
+    // Get instance field: private CountdownController _countdownController
+    GlobalNamespace::CountdownController* _get__countdownController();
+    // Set instance field: private CountdownController _countdownController
+    void _set__countdownController(GlobalNamespace::CountdownController* value);
+    // Get instance field: private MultiplayerLobbyCenterScreenLayoutAnimator _multiplayerLobbyCenterScreenLayoutAnimator
+    GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* _get__multiplayerLobbyCenterScreenLayoutAnimator();
+    // Set instance field: private MultiplayerLobbyCenterScreenLayoutAnimator _multiplayerLobbyCenterScreenLayoutAnimator
+    void _set__multiplayerLobbyCenterScreenLayoutAnimator(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* value);
+    // Get instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    GlobalNamespace::ILobbyPlayersDataModel* _get__lobbyPlayersDataModel();
+    // Set instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    void _set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel* value);
+    // Get instance field: private readonly MenuLightsManager _menuLightsManager
+    GlobalNamespace::MenuLightsManager* _get__menuLightsManager();
+    // Set instance field: private readonly MenuLightsManager _menuLightsManager
+    void _set__menuLightsManager(GlobalNamespace::MenuLightsManager* value);
+    // Get instance field: private System.Boolean <countdownShown>k__BackingField
+    bool _get_$countdownShown$k__BackingField();
+    // Set instance field: private System.Boolean <countdownShown>k__BackingField
+    void _set_$countdownShown$k__BackingField(bool value);
+    // Get instance field: private System.Single _countdownEndTime
+    float _get__countdownEndTime();
+    // Set instance field: private System.Single _countdownEndTime
+    void _set__countdownEndTime(float value);
     // public System.Boolean get_countdownShown()
     // Offset: 0x1078EA8
     bool get_countdownShown();

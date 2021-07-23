@@ -64,6 +64,18 @@ namespace Zenject {
     static_assert(sizeof(System::Func_2<UnityEngine::Component*, bool>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass60_0
     $$c__DisplayClass60_0(bool includeInactive_ = {}, bool excludeSelf_ = {}, System::Func_2<UnityEngine::Component*, bool>* predicate_ = {}) noexcept : includeInactive{includeInactive_}, excludeSelf{excludeSelf_}, predicate{predicate_} {}
+    // Get instance field: public System.Boolean includeInactive
+    bool _get_includeInactive();
+    // Set instance field: public System.Boolean includeInactive
+    void _set_includeInactive(bool value);
+    // Get instance field: public System.Boolean excludeSelf
+    bool _get_excludeSelf();
+    // Set instance field: public System.Boolean excludeSelf
+    void _set_excludeSelf(bool value);
+    // Get instance field: public System.Func`2<UnityEngine.Component,System.Boolean> predicate
+    System::Func_2<UnityEngine::Component*, bool>* _get_predicate();
+    // Set instance field: public System.Func`2<UnityEngine.Component,System.Boolean> predicate
+    void _set_predicate(System::Func_2<UnityEngine::Component*, bool>* value);
     // Zenject.IProvider <FromComponentsInChildrenBase>b__0(Zenject.DiContainer container, System.Type concreteType)
     // Offset: 0x1621370
     Zenject::IProvider* $FromComponentsInChildrenBase$b__0(Zenject::DiContainer* container, System::Type* concreteType);

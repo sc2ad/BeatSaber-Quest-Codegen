@@ -63,6 +63,22 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
     // Creating value type constructor for type: CrlEntry
     CrlEntry(Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}, Org::BouncyCastle::Asn1::DerInteger* userCertificate_ = {}, Org::BouncyCastle::Asn1::X509::Time* revocationDate_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryExtensions_ = {}) noexcept : seq{seq_}, userCertificate{userCertificate_}, revocationDate{revocationDate_}, crlEntryExtensions{crlEntryExtensions_} {}
+    // Get instance field: Org.BouncyCastle.Asn1.Asn1Sequence seq
+    Org::BouncyCastle::Asn1::Asn1Sequence* _get_seq();
+    // Set instance field: Org.BouncyCastle.Asn1.Asn1Sequence seq
+    void _set_seq(Org::BouncyCastle::Asn1::Asn1Sequence* value);
+    // Get instance field: Org.BouncyCastle.Asn1.DerInteger userCertificate
+    Org::BouncyCastle::Asn1::DerInteger* _get_userCertificate();
+    // Set instance field: Org.BouncyCastle.Asn1.DerInteger userCertificate
+    void _set_userCertificate(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.Time revocationDate
+    Org::BouncyCastle::Asn1::X509::Time* _get_revocationDate();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.Time revocationDate
+    void _set_revocationDate(Org::BouncyCastle::Asn1::X509::Time* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.X509Extensions crlEntryExtensions
+    Org::BouncyCastle::Asn1::X509::X509Extensions* _get_crlEntryExtensions();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.X509Extensions crlEntryExtensions
+    void _set_crlEntryExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions* value);
     // public Org.BouncyCastle.Asn1.DerInteger get_UserCertificate()
     // Offset: 0x19D8AB0
     Org::BouncyCastle::Asn1::DerInteger* get_UserCertificate();

@@ -67,6 +67,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static UnityEngine::MonoBehaviour* _get_m_MonoBehaviourCoroutineRunner();
     // Set static field: static private UnityEngine.MonoBehaviour m_MonoBehaviourCoroutineRunner
     static void _set_m_MonoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
+    // Get instance field: private NUnit.Framework.Internal.Commands.TestCommand m_Command
+    NUnit::Framework::Internal::Commands::TestCommand* _get_m_Command();
+    // Set instance field: private NUnit.Framework.Internal.Commands.TestCommand m_Command
+    void _set_m_Command(NUnit::Framework::Internal::Commands::TestCommand* value);
     // static public UnityEngine.MonoBehaviour get_monoBehaviourCoroutineRunner()
     // Offset: 0x147D554
     static UnityEngine::MonoBehaviour* get_monoBehaviourCoroutineRunner();

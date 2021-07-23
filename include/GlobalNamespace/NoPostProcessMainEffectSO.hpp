@@ -58,6 +58,22 @@ namespace GlobalNamespace {
     NoPostProcessMainEffectSO(UnityEngine::Shader* fadeShader_ = {}, float baseColorBoost_ = {}, float baseColorBoostThreshold_ = {}, UnityEngine::Material* fadeMaterial_ = {}) noexcept : fadeShader{fadeShader_}, baseColorBoost{baseColorBoost_}, baseColorBoostThreshold{baseColorBoostThreshold_}, fadeMaterial{fadeMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Shader _fadeShader
+    UnityEngine::Shader* _get__fadeShader();
+    // Set instance field: private UnityEngine.Shader _fadeShader
+    void _set__fadeShader(UnityEngine::Shader* value);
+    // Get instance field: private System.Single _baseColorBoost
+    float _get__baseColorBoost();
+    // Set instance field: private System.Single _baseColorBoost
+    void _set__baseColorBoost(float value);
+    // Get instance field: private System.Single _baseColorBoostThreshold
+    float _get__baseColorBoostThreshold();
+    // Set instance field: private System.Single _baseColorBoostThreshold
+    void _set__baseColorBoostThreshold(float value);
+    // Get instance field: private UnityEngine.Material _fadeMaterial
+    UnityEngine::Material* _get__fadeMaterial();
+    // Set instance field: private UnityEngine.Material _fadeMaterial
+    void _set__fadeMaterial(UnityEngine::Material* value);
     // protected System.Void OnDisable()
     // Offset: 0x23414E8
     void OnDisable();

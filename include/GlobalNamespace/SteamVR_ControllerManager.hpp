@@ -120,6 +120,50 @@ namespace GlobalNamespace {
     static ::Array<::Il2CppString*>* _get_labels();
     // Set static field: static private System.String[] labels
     static void _set_labels(::Array<::Il2CppString*>* value);
+    // Get instance field: public UnityEngine.GameObject left
+    UnityEngine::GameObject* _get_left();
+    // Set instance field: public UnityEngine.GameObject left
+    void _set_left(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject right
+    UnityEngine::GameObject* _get_right();
+    // Set instance field: public UnityEngine.GameObject right
+    void _set_right(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject[] objects
+    ::Array<UnityEngine::GameObject*>* _get_objects();
+    // Set instance field: public UnityEngine.GameObject[] objects
+    void _set_objects(::Array<UnityEngine::GameObject*>* value);
+    // Get instance field: public System.Boolean assignAllBeforeIdentified
+    bool _get_assignAllBeforeIdentified();
+    // Set instance field: public System.Boolean assignAllBeforeIdentified
+    void _set_assignAllBeforeIdentified(bool value);
+    // Get instance field: private System.UInt32[] indices
+    ::Array<uint>* _get_indices();
+    // Set instance field: private System.UInt32[] indices
+    void _set_indices(::Array<uint>* value);
+    // Get instance field: private System.Boolean[] connected
+    ::Array<bool>* _get_connected();
+    // Set instance field: private System.Boolean[] connected
+    void _set_connected(::Array<bool>* value);
+    // Get instance field: private System.UInt32 leftIndex
+    uint _get_leftIndex();
+    // Set instance field: private System.UInt32 leftIndex
+    void _set_leftIndex(uint value);
+    // Get instance field: private System.UInt32 rightIndex
+    uint _get_rightIndex();
+    // Set instance field: private System.UInt32 rightIndex
+    void _set_rightIndex(uint value);
+    // Get instance field: private SteamVR_Events/Action inputFocusAction
+    GlobalNamespace::SteamVR_Events::Action* _get_inputFocusAction();
+    // Set instance field: private SteamVR_Events/Action inputFocusAction
+    void _set_inputFocusAction(GlobalNamespace::SteamVR_Events::Action* value);
+    // Get instance field: private SteamVR_Events/Action deviceConnectedAction
+    GlobalNamespace::SteamVR_Events::Action* _get_deviceConnectedAction();
+    // Set instance field: private SteamVR_Events/Action deviceConnectedAction
+    void _set_deviceConnectedAction(GlobalNamespace::SteamVR_Events::Action* value);
+    // Get instance field: private SteamVR_Events/Action trackedDeviceRoleChangedAction
+    GlobalNamespace::SteamVR_Events::Action* _get_trackedDeviceRoleChangedAction();
+    // Set instance field: private SteamVR_Events/Action trackedDeviceRoleChangedAction
+    void _set_trackedDeviceRoleChangedAction(GlobalNamespace::SteamVR_Events::Action* value);
     // private System.Void SetUniqueObject(UnityEngine.GameObject o, System.Int32 index)
     // Offset: 0x13A1DA0
     void SetUniqueObject(UnityEngine::GameObject* o, int index);

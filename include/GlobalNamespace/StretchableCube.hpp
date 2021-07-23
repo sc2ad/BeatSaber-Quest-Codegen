@@ -148,6 +148,14 @@ namespace GlobalNamespace {
     static ::Array<int>* _get_triangles();
     // Set static field: static private readonly System.Int32[] triangles
     static void _set_triangles(::Array<int>* value);
+    // Get instance field: private UnityEngine.Vector2[] _uvs
+    ::Array<UnityEngine::Vector2>* _get__uvs();
+    // Set instance field: private UnityEngine.Vector2[] _uvs
+    void _set__uvs(::Array<UnityEngine::Vector2>* value);
+    // Get instance field: private UnityEngine.Mesh _mesh
+    UnityEngine::Mesh* _get__mesh();
+    // Set instance field: private UnityEngine.Mesh _mesh
+    void _set__mesh(UnityEngine::Mesh* value);
     // protected System.Void Awake()
     // Offset: 0x1069198
     void Awake();

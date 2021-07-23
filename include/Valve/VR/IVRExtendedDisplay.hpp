@@ -50,6 +50,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVRExtendedDisplay/Valve.VR._GetWindowBounds GetWindowBounds
+    Valve::VR::IVRExtendedDisplay::_GetWindowBounds* _get_GetWindowBounds();
+    // Set instance field: Valve.VR.IVRExtendedDisplay/Valve.VR._GetWindowBounds GetWindowBounds
+    void _set_GetWindowBounds(Valve::VR::IVRExtendedDisplay::_GetWindowBounds* value);
+    // Get instance field: Valve.VR.IVRExtendedDisplay/Valve.VR._GetEyeOutputViewport GetEyeOutputViewport
+    Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport* _get_GetEyeOutputViewport();
+    // Set instance field: Valve.VR.IVRExtendedDisplay/Valve.VR._GetEyeOutputViewport GetEyeOutputViewport
+    void _set_GetEyeOutputViewport(Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport* value);
+    // Get instance field: Valve.VR.IVRExtendedDisplay/Valve.VR._GetDXGIOutputInfo GetDXGIOutputInfo
+    Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo* _get_GetDXGIOutputInfo();
+    // Set instance field: Valve.VR.IVRExtendedDisplay/Valve.VR._GetDXGIOutputInfo GetDXGIOutputInfo
+    void _set_GetDXGIOutputInfo(Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo* value);
   }; // Valve.VR.IVRExtendedDisplay
   #pragma pack(pop)
   static check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo*)> __Valve_VR_IVRExtendedDisplaySizeCheck;

@@ -58,6 +58,14 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
     // Creating value type constructor for type: SubContainerCreatorByNewGameObjectInstaller
     SubContainerCreatorByNewGameObjectInstaller(System::Type* installerType_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs_ = {}) noexcept : installerType{installerType_}, extraArgs{extraArgs_} {}
+    // Get instance field: private readonly System.Type _installerType
+    System::Type* _get__installerType();
+    // Set instance field: private readonly System.Type _installerType
+    void _set__installerType(System::Type* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get__extraArgs();
+    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
+    void _set__extraArgs(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Type installerType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
     // Offset: 0x16D10D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

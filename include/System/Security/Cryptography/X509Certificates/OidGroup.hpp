@@ -103,6 +103,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::OidGroup _get_DisableSearchDS();
     // Set static field: static public System.Security.Cryptography.X509Certificates.OidGroup DisableSearchDS
     static void _set_DisableSearchDS(System::Security::Cryptography::X509Certificates::OidGroup value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.X509Certificates.OidGroup
   #pragma pack(pop)
   static check_size<sizeof(OidGroup), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_OidGroupSizeCheck;

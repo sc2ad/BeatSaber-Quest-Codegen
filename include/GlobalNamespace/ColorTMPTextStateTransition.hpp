@@ -57,6 +57,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
     // Creating value type constructor for type: ColorTMPTextStateTransition
     ColorTMPTextStateTransition(GlobalNamespace::ColorTransitionSO* transition_ = {}, Tweening::ColorTween* colorTween_ = {}) noexcept : transition{transition_}, colorTween{colorTween_} {}
+    // Get instance field: private ColorTransitionSO _transition
+    GlobalNamespace::ColorTransitionSO* _get__transition();
+    // Set instance field: private ColorTransitionSO _transition
+    void _set__transition(GlobalNamespace::ColorTransitionSO* value);
+    // Get instance field: private Tweening.ColorTween _colorTween
+    Tweening::ColorTween* _get__colorTween();
+    // Set instance field: private Tweening.ColorTween _colorTween
+    void _set__colorTween(Tweening::ColorTween* value);
     // private System.Void StartTween(UnityEngine.Color endColor)
     // Offset: 0x107F564
     void StartTween(UnityEngine::Color endColor);

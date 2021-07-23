@@ -50,6 +50,10 @@ namespace System {
     static System::DateTimeKind _get_Local();
     // Set static field: static public System.DateTimeKind Local
     static void _set_Local(System::DateTimeKind value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.DateTimeKind
   #pragma pack(pop)
   static check_size<sizeof(DateTimeKind), 0 + sizeof(int)> __System_DateTimeKindSizeCheck;

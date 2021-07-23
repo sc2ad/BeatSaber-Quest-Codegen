@@ -72,6 +72,26 @@ namespace System::Net::Http {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: StreamContent
     StreamContent(System::IO::Stream* content_ = {}, int bufferSize_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, int64_t startPosition_ = {}, bool contentCopied_ = {}) noexcept : content{content_}, bufferSize{bufferSize_}, cancellationToken{cancellationToken_}, startPosition{startPosition_}, contentCopied{contentCopied_} {}
+    // Get instance field: private readonly System.IO.Stream content
+    System::IO::Stream* _get_content();
+    // Set instance field: private readonly System.IO.Stream content
+    void _set_content(System::IO::Stream* value);
+    // Get instance field: private readonly System.Int32 bufferSize
+    int _get_bufferSize();
+    // Set instance field: private readonly System.Int32 bufferSize
+    void _set_bufferSize(int value);
+    // Get instance field: private readonly System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: private readonly System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private readonly System.Int64 startPosition
+    int64_t _get_startPosition();
+    // Set instance field: private readonly System.Int64 startPosition
+    void _set_startPosition(int64_t value);
+    // Get instance field: private System.Boolean contentCopied
+    bool _get_contentCopied();
+    // Set instance field: private System.Boolean contentCopied
+    void _set_contentCopied(bool value);
     // public System.Void .ctor(System.IO.Stream content)
     // Offset: 0x1574304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

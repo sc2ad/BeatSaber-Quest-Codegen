@@ -106,6 +106,38 @@ namespace System {
     operator System::Runtime::Serialization::IObjectReference() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
     }
+    // Get instance field: private System.Type[] m_instantiation
+    ::Array<System::Type*>* _get_m_instantiation();
+    // Set instance field: private System.Type[] m_instantiation
+    void _set_m_instantiation(::Array<System::Type*>* value);
+    // Get instance field: private System.Int32[] m_elementTypes
+    ::Array<int>* _get_m_elementTypes();
+    // Set instance field: private System.Int32[] m_elementTypes
+    void _set_m_elementTypes(::Array<int>* value);
+    // Get instance field: private System.Int32 m_genericParameterPosition
+    int _get_m_genericParameterPosition();
+    // Set instance field: private System.Int32 m_genericParameterPosition
+    void _set_m_genericParameterPosition(int value);
+    // Get instance field: private System.Type m_declaringType
+    System::Type* _get_m_declaringType();
+    // Set instance field: private System.Type m_declaringType
+    void _set_m_declaringType(System::Type* value);
+    // Get instance field: private System.Reflection.MethodBase m_declaringMethod
+    System::Reflection::MethodBase* _get_m_declaringMethod();
+    // Set instance field: private System.Reflection.MethodBase m_declaringMethod
+    void _set_m_declaringMethod(System::Reflection::MethodBase* value);
+    // Get instance field: private System.String m_data
+    ::Il2CppString* _get_m_data();
+    // Set instance field: private System.String m_data
+    void _set_m_data(::Il2CppString* value);
+    // Get instance field: private System.String m_assemblyName
+    ::Il2CppString* _get_m_assemblyName();
+    // Set instance field: private System.String m_assemblyName
+    void _set_m_assemblyName(::Il2CppString* value);
+    // Get instance field: private System.Int32 m_unityType
+    int _get_m_unityType();
+    // Set instance field: private System.Int32 m_unityType
+    void _set_m_unityType(int value);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x22D3518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

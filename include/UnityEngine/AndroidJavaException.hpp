@@ -31,6 +31,10 @@ namespace UnityEngine {
     constexpr operator ::Il2CppString*() const noexcept {
       return mJavaStackTrace;
     }
+    // Get instance field: private System.String mJavaStackTrace
+    ::Il2CppString* _get_mJavaStackTrace();
+    // Set instance field: private System.String mJavaStackTrace
+    void _set_mJavaStackTrace(::Il2CppString* value);
     // System.Void .ctor(System.String message, System.String javaStackTrace)
     // Offset: 0x234E71C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -48,6 +48,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: StarTextSprite
     StarTextSprite(int id_ = {}, UnityEngine::Sprite* starTextSprite_ = {}, float animationLength_ = {}) noexcept : id{id_}, starTextSprite{starTextSprite_}, animationLength{animationLength_} {}
+    // Get instance field: private System.Int32 _id
+    int _get__id();
+    // Set instance field: private System.Int32 _id
+    void _set__id(int value);
+    // Get instance field: private UnityEngine.Sprite _starTextSprite
+    UnityEngine::Sprite* _get__starTextSprite();
+    // Set instance field: private UnityEngine.Sprite _starTextSprite
+    void _set__starTextSprite(UnityEngine::Sprite* value);
+    // Get instance field: private System.Single _animationLength
+    float _get__animationLength();
+    // Set instance field: private System.Single _animationLength
+    void _set__animationLength(float value);
     // public System.Int32 get_id()
     // Offset: 0x10E799C
     int get_id();

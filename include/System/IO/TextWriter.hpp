@@ -99,6 +99,14 @@ namespace System::IO {
     static System::Action_1<::Il2CppObject*>* _get__FlushDelegate();
     // Set static field: static private System.Action`1<System.Object> _FlushDelegate
     static void _set__FlushDelegate(System::Action_1<::Il2CppObject*>* value);
+    // Get instance field: protected System.Char[] CoreNewLine
+    ::Array<::Il2CppChar>* _get_CoreNewLine();
+    // Set instance field: protected System.Char[] CoreNewLine
+    void _set_CoreNewLine(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.IFormatProvider InternalFormatProvider
+    System::IFormatProvider* _get_InternalFormatProvider();
+    // Set instance field: private System.IFormatProvider InternalFormatProvider
+    void _set_InternalFormatProvider(System::IFormatProvider* value);
     // static private System.String get_InitialNewLine()
     // Offset: 0x17F3880
     static ::Il2CppString* get_InitialNewLine();

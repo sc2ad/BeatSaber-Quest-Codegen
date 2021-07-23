@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::TubeLightBehaviour::ParameterType _get_References();
     // Set static field: static public TubeLightBehaviour/ParameterType References
     static void _set_References(GlobalNamespace::TubeLightBehaviour::ParameterType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TubeLightBehaviour/ParameterType
   #pragma pack(pop)
   static check_size<sizeof(TubeLightBehaviour::ParameterType), 0 + sizeof(int)> __GlobalNamespace_TubeLightBehaviour_ParameterTypeSizeCheck;

@@ -121,6 +121,54 @@ namespace UnityEngine::UI {
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Get instance field: private UnityEngine.Font m_Font
+    UnityEngine::Font* _get_m_Font();
+    // Set instance field: private UnityEngine.Font m_Font
+    void _set_m_Font(UnityEngine::Font* value);
+    // Get instance field: private System.Int32 m_FontSize
+    int _get_m_FontSize();
+    // Set instance field: private System.Int32 m_FontSize
+    void _set_m_FontSize(int value);
+    // Get instance field: private UnityEngine.FontStyle m_FontStyle
+    UnityEngine::FontStyle _get_m_FontStyle();
+    // Set instance field: private UnityEngine.FontStyle m_FontStyle
+    void _set_m_FontStyle(UnityEngine::FontStyle value);
+    // Get instance field: private System.Boolean m_BestFit
+    bool _get_m_BestFit();
+    // Set instance field: private System.Boolean m_BestFit
+    void _set_m_BestFit(bool value);
+    // Get instance field: private System.Int32 m_MinSize
+    int _get_m_MinSize();
+    // Set instance field: private System.Int32 m_MinSize
+    void _set_m_MinSize(int value);
+    // Get instance field: private System.Int32 m_MaxSize
+    int _get_m_MaxSize();
+    // Set instance field: private System.Int32 m_MaxSize
+    void _set_m_MaxSize(int value);
+    // Get instance field: private UnityEngine.TextAnchor m_Alignment
+    UnityEngine::TextAnchor _get_m_Alignment();
+    // Set instance field: private UnityEngine.TextAnchor m_Alignment
+    void _set_m_Alignment(UnityEngine::TextAnchor value);
+    // Get instance field: private System.Boolean m_AlignByGeometry
+    bool _get_m_AlignByGeometry();
+    // Set instance field: private System.Boolean m_AlignByGeometry
+    void _set_m_AlignByGeometry(bool value);
+    // Get instance field: private System.Boolean m_RichText
+    bool _get_m_RichText();
+    // Set instance field: private System.Boolean m_RichText
+    void _set_m_RichText(bool value);
+    // Get instance field: private UnityEngine.HorizontalWrapMode m_HorizontalOverflow
+    UnityEngine::HorizontalWrapMode _get_m_HorizontalOverflow();
+    // Set instance field: private UnityEngine.HorizontalWrapMode m_HorizontalOverflow
+    void _set_m_HorizontalOverflow(UnityEngine::HorizontalWrapMode value);
+    // Get instance field: private UnityEngine.VerticalWrapMode m_VerticalOverflow
+    UnityEngine::VerticalWrapMode _get_m_VerticalOverflow();
+    // Set instance field: private UnityEngine.VerticalWrapMode m_VerticalOverflow
+    void _set_m_VerticalOverflow(UnityEngine::VerticalWrapMode value);
+    // Get instance field: private System.Single m_LineSpacing
+    float _get_m_LineSpacing();
+    // Set instance field: private System.Single m_LineSpacing
+    void _set_m_LineSpacing(float value);
     // static public UnityEngine.UI.FontData get_defaultFontData()
     // Offset: 0x18E5B84
     static UnityEngine::UI::FontData* get_defaultFontData();

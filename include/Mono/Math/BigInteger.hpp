@@ -75,6 +75,10 @@ namespace Mono::Math {
       static Mono::Math::BigInteger::Sign _get_Positive();
       // Set static field: static public Mono.Math.BigInteger/Mono.Math.Sign Positive
       static void _set_Positive(Mono::Math::BigInteger::Sign value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // Mono.Math.BigInteger/Mono.Math.Sign
     #pragma pack(pop)
     static check_size<sizeof(BigInteger::Sign), 0 + sizeof(int)> __Mono_Math_BigInteger_SignSizeCheck;
@@ -103,6 +107,14 @@ namespace Mono::Math {
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static void _set_rng(System::Security::Cryptography::RandomNumberGenerator* value);
+    // Get instance field: private System.UInt32 length
+    uint _get_length();
+    // Set instance field: private System.UInt32 length
+    void _set_length(uint value);
+    // Get instance field: private System.UInt32[] data
+    ::Array<uint>* _get_data();
+    // Set instance field: private System.UInt32[] data
+    void _set_data(::Array<uint>* value);
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()
     // Offset: 0x1DD2944
     static System::Security::Cryptography::RandomNumberGenerator* get_Rng();

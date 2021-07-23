@@ -64,6 +64,26 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVRPlugin/Bool IsValid
+    GlobalNamespace::OVRPlugin::Bool _get_IsValid();
+    // Set instance field: public OVRPlugin/Bool IsValid
+    void _set_IsValid(GlobalNamespace::OVRPlugin::Bool value);
+    // Get instance field: public System.Double LastChangedTimeSeconds
+    double _get_LastChangedTimeSeconds();
+    // Set instance field: public System.Double LastChangedTimeSeconds
+    void _set_LastChangedTimeSeconds(double value);
+    // Get instance field: public OVRPlugin/CameraStatus CameraStatusData
+    GlobalNamespace::OVRPlugin::CameraStatus _get_CameraStatusData();
+    // Set instance field: public OVRPlugin/CameraStatus CameraStatusData
+    void _set_CameraStatusData(GlobalNamespace::OVRPlugin::CameraStatus value);
+    // Get instance field: public OVRPlugin/Node AttachedToNode
+    GlobalNamespace::OVRPlugin::Node _get_AttachedToNode();
+    // Set instance field: public OVRPlugin/Node AttachedToNode
+    void _set_AttachedToNode(GlobalNamespace::OVRPlugin::Node value);
+    // Get instance field: public OVRPlugin/Posef RelativePose
+    GlobalNamespace::OVRPlugin::Posef _get_RelativePose();
+    // Set instance field: public OVRPlugin/Posef RelativePose
+    void _set_RelativePose(GlobalNamespace::OVRPlugin::Posef value);
   }; // OVRPlugin/CameraExtrinsics
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraExtrinsics), 24 + sizeof(GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_CameraExtrinsicsSizeCheck;

@@ -33,6 +33,10 @@ namespace UnityEngine::Serialization {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_oldName;
     }
+    // Get instance field: private System.String m_oldName
+    ::Il2CppString* _get_m_oldName();
+    // Set instance field: private System.String m_oldName
+    void _set_m_oldName(::Il2CppString* value);
     // public System.Void .ctor(System.String oldName)
     // Offset: 0x1C83478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -48,6 +48,18 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVRPlugin/BoundaryType BoundaryType
+    GlobalNamespace::OVRPlugin::BoundaryType _get_BoundaryType();
+    // Set instance field: public OVRPlugin/BoundaryType BoundaryType
+    void _set_BoundaryType(GlobalNamespace::OVRPlugin::BoundaryType value);
+    // Get instance field: public OVRPlugin/Vector3f[] Points
+    ::Array<GlobalNamespace::OVRPlugin::Vector3f>* _get_Points();
+    // Set instance field: public OVRPlugin/Vector3f[] Points
+    void _set_Points(::Array<GlobalNamespace::OVRPlugin::Vector3f>* value);
+    // Get instance field: public System.Int32 PointsCount
+    int _get_PointsCount();
+    // Set instance field: public System.Int32 PointsCount
+    void _set_PointsCount(int value);
   }; // OVRPlugin/BoundaryGeometry
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::BoundaryGeometry), 16 + sizeof(int)> __GlobalNamespace_OVRPlugin_BoundaryGeometrySizeCheck;

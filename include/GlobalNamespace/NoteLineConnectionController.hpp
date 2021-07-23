@@ -132,6 +132,58 @@ namespace GlobalNamespace {
     NoteLineConnectionController(UnityEngine::LineRenderer* lineRenderer_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, System::Action_1<GlobalNamespace::NoteLineConnectionController*>* didFinishEvent_ = {}, GlobalNamespace::NoteController* noteController0_ = {}, GlobalNamespace::NoteController* noteController1_ = {}, UnityEngine::Color color0_ = {}, UnityEngine::Color color1_ = {}, float fadeOutStartDistance_ = {}, float fadeOutEndDistance_ = {}, float noteTime_ = {}, bool didFinish_ = {}) noexcept : lineRenderer{lineRenderer_}, playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, colorManager{colorManager_}, didFinishEvent{didFinishEvent_}, noteController0{noteController0_}, noteController1{noteController1_}, color0{color0_}, color1{color1_}, fadeOutStartDistance{fadeOutStartDistance_}, fadeOutEndDistance{fadeOutEndDistance_}, noteTime{noteTime_}, didFinish{didFinish_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.LineRenderer _lineRenderer
+    UnityEngine::LineRenderer* _get__lineRenderer();
+    // Set instance field: private UnityEngine.LineRenderer _lineRenderer
+    void _set__lineRenderer(UnityEngine::LineRenderer* value);
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private readonly ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private System.Action`1<NoteLineConnectionController> didFinishEvent
+    System::Action_1<GlobalNamespace::NoteLineConnectionController*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`1<NoteLineConnectionController> didFinishEvent
+    void _set_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
+    // Get instance field: private NoteController _noteController0
+    GlobalNamespace::NoteController* _get__noteController0();
+    // Set instance field: private NoteController _noteController0
+    void _set__noteController0(GlobalNamespace::NoteController* value);
+    // Get instance field: private NoteController _noteController1
+    GlobalNamespace::NoteController* _get__noteController1();
+    // Set instance field: private NoteController _noteController1
+    void _set__noteController1(GlobalNamespace::NoteController* value);
+    // Get instance field: private UnityEngine.Color _color0
+    UnityEngine::Color _get__color0();
+    // Set instance field: private UnityEngine.Color _color0
+    void _set__color0(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _color1
+    UnityEngine::Color _get__color1();
+    // Set instance field: private UnityEngine.Color _color1
+    void _set__color1(UnityEngine::Color value);
+    // Get instance field: private System.Single _fadeOutStartDistance
+    float _get__fadeOutStartDistance();
+    // Set instance field: private System.Single _fadeOutStartDistance
+    void _set__fadeOutStartDistance(float value);
+    // Get instance field: private System.Single _fadeOutEndDistance
+    float _get__fadeOutEndDistance();
+    // Set instance field: private System.Single _fadeOutEndDistance
+    void _set__fadeOutEndDistance(float value);
+    // Get instance field: private System.Single _noteTime
+    float _get__noteTime();
+    // Set instance field: private System.Single _noteTime
+    void _set__noteTime(float value);
+    // Get instance field: private System.Boolean _didFinish
+    bool _get__didFinish();
+    // Set instance field: private System.Boolean _didFinish
+    void _set__didFinish(bool value);
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
     // Offset: 0x11E6D8C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);

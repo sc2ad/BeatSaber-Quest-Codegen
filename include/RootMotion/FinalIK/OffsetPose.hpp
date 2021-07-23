@@ -42,6 +42,10 @@ namespace RootMotion::FinalIK {
     OffsetPose(::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>* effectorLinks_ = {}) noexcept : effectorLinks{effectorLinks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    ::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>* _get_effectorLinks();
+    // Set instance field: public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    void _set_effectorLinks(::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>* value);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     // Offset: 0x1AB6B64
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);

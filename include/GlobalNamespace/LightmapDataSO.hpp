@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     LightmapDataSO(UnityEngine::Texture2D* lightmap1_ = {}, UnityEngine::Texture2D* lightmap2_ = {}) noexcept : lightmap1{lightmap1_}, lightmap2{lightmap2_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Texture2D _lightmap1
+    UnityEngine::Texture2D* _get__lightmap1();
+    // Set instance field: private UnityEngine.Texture2D _lightmap1
+    void _set__lightmap1(UnityEngine::Texture2D* value);
+    // Get instance field: private UnityEngine.Texture2D _lightmap2
+    UnityEngine::Texture2D* _get__lightmap2();
+    // Set instance field: private UnityEngine.Texture2D _lightmap2
+    void _set__lightmap2(UnityEngine::Texture2D* value);
     // public UnityEngine.Texture2D get_lightmap1()
     // Offset: 0x11B8CF0
     UnityEngine::Texture2D* get_lightmap1();

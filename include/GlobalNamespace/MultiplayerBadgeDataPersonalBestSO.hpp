@@ -46,6 +46,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MultiplayerBadgeDataPersonalBestSO
     MultiplayerBadgeDataPersonalBestSO(float weight_ = {}) noexcept : weight{weight_} {}
+    // Get instance field: private System.Single _weight
+    float _get__weight();
+    // Set instance field: private System.Single _weight
+    void _set__weight(float value);
     // public System.Void .ctor()
     // Offset: 0x119D1EC
     // Implemented from: MultiplayerBadgeDataSO

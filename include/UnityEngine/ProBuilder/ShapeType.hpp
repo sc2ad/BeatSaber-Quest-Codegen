@@ -109,6 +109,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ShapeType _get_Torus();
     // Set static field: static public UnityEngine.ProBuilder.ShapeType Torus
     static void _set_Torus(UnityEngine::ProBuilder::ShapeType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.ShapeType
   #pragma pack(pop)
   static check_size<sizeof(ShapeType), 0 + sizeof(int)> __UnityEngine_ProBuilder_ShapeTypeSizeCheck;

@@ -81,6 +81,26 @@ namespace GlobalNamespace {
     ScreenCaptureAfterDelay(GlobalNamespace::MainEffectController* mainEffectController_ = {}, GlobalNamespace::ScreenCaptureCache* screenCaptureCache_ = {}, GlobalNamespace::ScreenCaptureAfterDelay::InitData* initData_ = {}, UnityEngine::Texture2D* captureTexture_ = {}, UnityEngine::RenderTexture* captureRenderTexture_ = {}) noexcept : mainEffectController{mainEffectController_}, screenCaptureCache{screenCaptureCache_}, initData{initData_}, captureTexture{captureTexture_}, captureRenderTexture{captureRenderTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MainEffectController _mainEffectController
+    GlobalNamespace::MainEffectController* _get__mainEffectController();
+    // Set instance field: private MainEffectController _mainEffectController
+    void _set__mainEffectController(GlobalNamespace::MainEffectController* value);
+    // Get instance field: private ScreenCaptureCache _screenCaptureCache
+    GlobalNamespace::ScreenCaptureCache* _get__screenCaptureCache();
+    // Set instance field: private ScreenCaptureCache _screenCaptureCache
+    void _set__screenCaptureCache(GlobalNamespace::ScreenCaptureCache* value);
+    // Get instance field: private ScreenCaptureAfterDelay/InitData _initData
+    GlobalNamespace::ScreenCaptureAfterDelay::InitData* _get__initData();
+    // Set instance field: private ScreenCaptureAfterDelay/InitData _initData
+    void _set__initData(GlobalNamespace::ScreenCaptureAfterDelay::InitData* value);
+    // Get instance field: private UnityEngine.Texture2D _captureTexture
+    UnityEngine::Texture2D* _get__captureTexture();
+    // Set instance field: private UnityEngine.Texture2D _captureTexture
+    void _set__captureTexture(UnityEngine::Texture2D* value);
+    // Get instance field: private UnityEngine.RenderTexture _captureRenderTexture
+    UnityEngine::RenderTexture* _get__captureRenderTexture();
+    // Set instance field: private UnityEngine.RenderTexture _captureRenderTexture
+    void _set__captureRenderTexture(UnityEngine::RenderTexture* value);
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x2342384
     System::Collections::IEnumerator* Start();

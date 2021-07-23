@@ -34,6 +34,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt64 reserved0
+    uint64_t _get_reserved0();
+    // Set instance field: public System.UInt64 reserved0
+    void _set_reserved0(uint64_t value);
+    // Get instance field: public System.UInt64 reserved1
+    uint64_t _get_reserved1();
+    // Set instance field: public System.UInt64 reserved1
+    void _set_reserved1(uint64_t value);
   }; // Valve.VR.VREvent_Reserved_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Reserved_t), 8 + sizeof(uint64_t)> __Valve_VR_VREvent_Reserved_tSizeCheck;

@@ -32,6 +32,10 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return m_Id;
     }
+    // Get instance field: private System.Int32 m_Id
+    int _get_m_Id();
+    // Set instance field: private System.Int32 m_Id
+    void _set_m_Id(int value);
     // static public System.Int32 GetLayerValueFromID(System.Int32 id)
     // Offset: 0x1C87270
     static int GetLayerValueFromID(int id);

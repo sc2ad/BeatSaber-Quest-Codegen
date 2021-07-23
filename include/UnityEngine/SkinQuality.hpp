@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::SkinQuality _get_Bone4();
     // Set static field: static public UnityEngine.SkinQuality Bone4
     static void _set_Bone4(UnityEngine::SkinQuality value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.SkinQuality
   #pragma pack(pop)
   static check_size<sizeof(SkinQuality), 0 + sizeof(int)> __UnityEngine_SkinQualitySizeCheck;

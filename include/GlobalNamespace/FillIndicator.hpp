@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     FillIndicator(UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* image_ = {}) noexcept : bgImage{bgImage_}, image{image_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Image _bgImage
+    UnityEngine::UI::Image* _get__bgImage();
+    // Set instance field: private UnityEngine.UI.Image _bgImage
+    void _set__bgImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _image
+    UnityEngine::UI::Image* _get__image();
+    // Set instance field: private UnityEngine.UI.Image _image
+    void _set__image(UnityEngine::UI::Image* value);
     // public System.Single get_fillAmount()
     // Offset: 0x1026710
     float get_fillAmount();

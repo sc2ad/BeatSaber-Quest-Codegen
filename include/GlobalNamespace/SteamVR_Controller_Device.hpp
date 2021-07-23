@@ -105,6 +105,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Device
     Device(uint index_ = {}, bool valid_ = {}, Valve::VR::VRControllerState_t state_ = {}, Valve::VR::VRControllerState_t prevState_ = {}, Valve::VR::TrackedDevicePose_t pose_ = {}, int prevFrameCount_ = {}, float hairTriggerDelta_ = {}, float hairTriggerLimit_ = {}, bool hairTriggerState_ = {}, bool hairTriggerPrevState_ = {}) noexcept : index{index_}, valid{valid_}, state{state_}, prevState{prevState_}, pose{pose_}, prevFrameCount{prevFrameCount_}, hairTriggerDelta{hairTriggerDelta_}, hairTriggerLimit{hairTriggerLimit_}, hairTriggerState{hairTriggerState_}, hairTriggerPrevState{hairTriggerPrevState_} {}
+    // Get instance field: private System.UInt32 <index>k__BackingField
+    uint _get_$index$k__BackingField();
+    // Set instance field: private System.UInt32 <index>k__BackingField
+    void _set_$index$k__BackingField(uint value);
+    // Get instance field: private System.Boolean <valid>k__BackingField
+    bool _get_$valid$k__BackingField();
+    // Set instance field: private System.Boolean <valid>k__BackingField
+    void _set_$valid$k__BackingField(bool value);
+    // Get instance field: private Valve.VR.VRControllerState_t state
+    Valve::VR::VRControllerState_t _get_state();
+    // Set instance field: private Valve.VR.VRControllerState_t state
+    void _set_state(Valve::VR::VRControllerState_t value);
+    // Get instance field: private Valve.VR.VRControllerState_t prevState
+    Valve::VR::VRControllerState_t _get_prevState();
+    // Set instance field: private Valve.VR.VRControllerState_t prevState
+    void _set_prevState(Valve::VR::VRControllerState_t value);
+    // Get instance field: private Valve.VR.TrackedDevicePose_t pose
+    Valve::VR::TrackedDevicePose_t _get_pose();
+    // Set instance field: private Valve.VR.TrackedDevicePose_t pose
+    void _set_pose(Valve::VR::TrackedDevicePose_t value);
+    // Get instance field: private System.Int32 prevFrameCount
+    int _get_prevFrameCount();
+    // Set instance field: private System.Int32 prevFrameCount
+    void _set_prevFrameCount(int value);
+    // Get instance field: public System.Single hairTriggerDelta
+    float _get_hairTriggerDelta();
+    // Set instance field: public System.Single hairTriggerDelta
+    void _set_hairTriggerDelta(float value);
+    // Get instance field: private System.Single hairTriggerLimit
+    float _get_hairTriggerLimit();
+    // Set instance field: private System.Single hairTriggerLimit
+    void _set_hairTriggerLimit(float value);
+    // Get instance field: private System.Boolean hairTriggerState
+    bool _get_hairTriggerState();
+    // Set instance field: private System.Boolean hairTriggerState
+    void _set_hairTriggerState(bool value);
+    // Get instance field: private System.Boolean hairTriggerPrevState
+    bool _get_hairTriggerPrevState();
+    // Set instance field: private System.Boolean hairTriggerPrevState
+    void _set_hairTriggerPrevState(bool value);
     // public System.UInt32 get_index()
     // Offset: 0x13A1438
     uint get_index();

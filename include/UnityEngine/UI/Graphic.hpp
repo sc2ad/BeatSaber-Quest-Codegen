@@ -213,6 +213,74 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::VertexHelper* _get_s_VertexHelper();
     // Set static field: static private readonly UnityEngine.UI.VertexHelper s_VertexHelper
     static void _set_s_VertexHelper(UnityEngine::UI::VertexHelper* value);
+    // Get instance field: protected UnityEngine.Material m_Material
+    UnityEngine::Material* _get_m_Material();
+    // Set instance field: protected UnityEngine.Material m_Material
+    void _set_m_Material(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Color m_Color
+    UnityEngine::Color _get_m_Color();
+    // Set instance field: private UnityEngine.Color m_Color
+    void _set_m_Color(UnityEngine::Color value);
+    // Get instance field: protected System.Boolean m_SkipLayoutUpdate
+    bool _get_m_SkipLayoutUpdate();
+    // Set instance field: protected System.Boolean m_SkipLayoutUpdate
+    void _set_m_SkipLayoutUpdate(bool value);
+    // Get instance field: protected System.Boolean m_SkipMaterialUpdate
+    bool _get_m_SkipMaterialUpdate();
+    // Set instance field: protected System.Boolean m_SkipMaterialUpdate
+    void _set_m_SkipMaterialUpdate(bool value);
+    // Get instance field: private System.Boolean m_RaycastTarget
+    bool _get_m_RaycastTarget();
+    // Set instance field: private System.Boolean m_RaycastTarget
+    void _set_m_RaycastTarget(bool value);
+    // Get instance field: private UnityEngine.RectTransform m_RectTransform
+    UnityEngine::RectTransform* _get_m_RectTransform();
+    // Set instance field: private UnityEngine.RectTransform m_RectTransform
+    void _set_m_RectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.CanvasRenderer m_CanvasRenderer
+    UnityEngine::CanvasRenderer* _get_m_CanvasRenderer();
+    // Set instance field: private UnityEngine.CanvasRenderer m_CanvasRenderer
+    void _set_m_CanvasRenderer(UnityEngine::CanvasRenderer* value);
+    // Get instance field: private UnityEngine.Canvas m_Canvas
+    UnityEngine::Canvas* _get_m_Canvas();
+    // Set instance field: private UnityEngine.Canvas m_Canvas
+    void _set_m_Canvas(UnityEngine::Canvas* value);
+    // Get instance field: private System.Boolean m_VertsDirty
+    bool _get_m_VertsDirty();
+    // Set instance field: private System.Boolean m_VertsDirty
+    void _set_m_VertsDirty(bool value);
+    // Get instance field: private System.Boolean m_MaterialDirty
+    bool _get_m_MaterialDirty();
+    // Set instance field: private System.Boolean m_MaterialDirty
+    void _set_m_MaterialDirty(bool value);
+    // Get instance field: protected UnityEngine.Events.UnityAction m_OnDirtyLayoutCallback
+    UnityEngine::Events::UnityAction* _get_m_OnDirtyLayoutCallback();
+    // Set instance field: protected UnityEngine.Events.UnityAction m_OnDirtyLayoutCallback
+    void _set_m_OnDirtyLayoutCallback(UnityEngine::Events::UnityAction* value);
+    // Get instance field: protected UnityEngine.Events.UnityAction m_OnDirtyVertsCallback
+    UnityEngine::Events::UnityAction* _get_m_OnDirtyVertsCallback();
+    // Set instance field: protected UnityEngine.Events.UnityAction m_OnDirtyVertsCallback
+    void _set_m_OnDirtyVertsCallback(UnityEngine::Events::UnityAction* value);
+    // Get instance field: protected UnityEngine.Events.UnityAction m_OnDirtyMaterialCallback
+    UnityEngine::Events::UnityAction* _get_m_OnDirtyMaterialCallback();
+    // Set instance field: protected UnityEngine.Events.UnityAction m_OnDirtyMaterialCallback
+    void _set_m_OnDirtyMaterialCallback(UnityEngine::Events::UnityAction* value);
+    // Get instance field: protected UnityEngine.Mesh m_CachedMesh
+    UnityEngine::Mesh* _get_m_CachedMesh();
+    // Set instance field: protected UnityEngine.Mesh m_CachedMesh
+    void _set_m_CachedMesh(UnityEngine::Mesh* value);
+    // Get instance field: protected UnityEngine.Vector2[] m_CachedUvs
+    ::Array<UnityEngine::Vector2>* _get_m_CachedUvs();
+    // Set instance field: protected UnityEngine.Vector2[] m_CachedUvs
+    void _set_m_CachedUvs(::Array<UnityEngine::Vector2>* value);
+    // Get instance field: private readonly UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween> m_ColorTweenRunner
+    UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::ColorTween>* _get_m_ColorTweenRunner();
+    // Set instance field: private readonly UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween> m_ColorTweenRunner
+    void _set_m_ColorTweenRunner(UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::ColorTween>* value);
+    // Get instance field: private System.Boolean <useLegacyMeshGeneration>k__BackingField
+    bool _get_$useLegacyMeshGeneration$k__BackingField();
+    // Set instance field: private System.Boolean <useLegacyMeshGeneration>k__BackingField
+    void _set_$useLegacyMeshGeneration$k__BackingField(bool value);
     // static public UnityEngine.Material get_defaultGraphicMaterial()
     // Offset: 0x18E633C
     static UnityEngine::Material* get_defaultGraphicMaterial();

@@ -140,6 +140,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameplayModifierMask _get_All();
     // Set static field: static public GameplayModifierMask All
     static void _set_All(GlobalNamespace::GameplayModifierMask value);
+    // Get instance field: public System.UInt16 value__
+    uint16_t _get_value__();
+    // Set instance field: public System.UInt16 value__
+    void _set_value__(uint16_t value);
   }; // GameplayModifierMask
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifierMask), 0 + sizeof(uint16_t)> __GlobalNamespace_GameplayModifierMaskSizeCheck;

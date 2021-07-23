@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return currentBpm;
     }
+    // Get instance field: private System.Single _currentBpm
+    float _get__currentBpm();
+    // Set instance field: private System.Single _currentBpm
+    void _set__currentBpm(float value);
     // public System.Single get_currentBpm()
     // Offset: 0x127CDC4
     float get_currentBpm();

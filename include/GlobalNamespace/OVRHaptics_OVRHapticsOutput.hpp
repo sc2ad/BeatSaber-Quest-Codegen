@@ -108,6 +108,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVRHapticsClip*) == 0x8);
     // Creating value type constructor for type: OVRHapticsOutput
     OVRHapticsOutput(bool m_lowLatencyMode_ = {}, bool m_paddingEnabled_ = {}, int m_prevSamplesQueued_ = {}, float m_prevSamplesQueuedTime_ = {}, int m_numPredictionHits_ = {}, int m_numPredictionMisses_ = {}, int m_numUnderruns_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*>* m_pendingClips_ = {}, uint m_controller_ = {}, GlobalNamespace::OVRNativeBuffer* m_nativeBuffer_ = {}, GlobalNamespace::OVRHapticsClip* m_paddingClip_ = {}) noexcept : m_lowLatencyMode{m_lowLatencyMode_}, m_paddingEnabled{m_paddingEnabled_}, m_prevSamplesQueued{m_prevSamplesQueued_}, m_prevSamplesQueuedTime{m_prevSamplesQueuedTime_}, m_numPredictionHits{m_numPredictionHits_}, m_numPredictionMisses{m_numPredictionMisses_}, m_numUnderruns{m_numUnderruns_}, m_pendingClips{m_pendingClips_}, m_controller{m_controller_}, m_nativeBuffer{m_nativeBuffer_}, m_paddingClip{m_paddingClip_} {}
+    // Get instance field: private System.Boolean m_lowLatencyMode
+    bool _get_m_lowLatencyMode();
+    // Set instance field: private System.Boolean m_lowLatencyMode
+    void _set_m_lowLatencyMode(bool value);
+    // Get instance field: private System.Boolean m_paddingEnabled
+    bool _get_m_paddingEnabled();
+    // Set instance field: private System.Boolean m_paddingEnabled
+    void _set_m_paddingEnabled(bool value);
+    // Get instance field: private System.Int32 m_prevSamplesQueued
+    int _get_m_prevSamplesQueued();
+    // Set instance field: private System.Int32 m_prevSamplesQueued
+    void _set_m_prevSamplesQueued(int value);
+    // Get instance field: private System.Single m_prevSamplesQueuedTime
+    float _get_m_prevSamplesQueuedTime();
+    // Set instance field: private System.Single m_prevSamplesQueuedTime
+    void _set_m_prevSamplesQueuedTime(float value);
+    // Get instance field: private System.Int32 m_numPredictionHits
+    int _get_m_numPredictionHits();
+    // Set instance field: private System.Int32 m_numPredictionHits
+    void _set_m_numPredictionHits(int value);
+    // Get instance field: private System.Int32 m_numPredictionMisses
+    int _get_m_numPredictionMisses();
+    // Set instance field: private System.Int32 m_numPredictionMisses
+    void _set_m_numPredictionMisses(int value);
+    // Get instance field: private System.Int32 m_numUnderruns
+    int _get_m_numUnderruns();
+    // Set instance field: private System.Int32 m_numUnderruns
+    void _set_m_numUnderruns(int value);
+    // Get instance field: private System.Collections.Generic.List`1<OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker> m_pendingClips
+    System::Collections::Generic::List_1<GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*>* _get_m_pendingClips();
+    // Set instance field: private System.Collections.Generic.List`1<OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker> m_pendingClips
+    void _set_m_pendingClips(System::Collections::Generic::List_1<GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*>* value);
+    // Get instance field: private System.UInt32 m_controller
+    uint _get_m_controller();
+    // Set instance field: private System.UInt32 m_controller
+    void _set_m_controller(uint value);
+    // Get instance field: private OVRNativeBuffer m_nativeBuffer
+    GlobalNamespace::OVRNativeBuffer* _get_m_nativeBuffer();
+    // Set instance field: private OVRNativeBuffer m_nativeBuffer
+    void _set_m_nativeBuffer(GlobalNamespace::OVRNativeBuffer* value);
+    // Get instance field: private OVRHapticsClip m_paddingClip
+    GlobalNamespace::OVRHapticsClip* _get_m_paddingClip();
+    // Set instance field: private OVRHapticsClip m_paddingClip
+    void _set_m_paddingClip(GlobalNamespace::OVRHapticsClip* value);
     // public System.Void .ctor(System.UInt32 controller)
     // Offset: 0x14E3908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

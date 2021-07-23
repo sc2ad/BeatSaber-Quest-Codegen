@@ -87,6 +87,18 @@ namespace UnityEngine::Networking::PlayerConnection {
     static UnityEngine::Networking::PlayerConnection::PlayerConnection* _get_s_Instance();
     // Set static field: static private UnityEngine.Networking.PlayerConnection.PlayerConnection s_Instance
     static void _set_s_Instance(UnityEngine::Networking::PlayerConnection::PlayerConnection* value);
+    // Get instance field: private UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents
+    UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* _get_m_PlayerEditorConnectionEvents();
+    // Set instance field: private UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents
+    void _set_m_PlayerEditorConnectionEvents(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Int32> m_connectedPlayers
+    System::Collections::Generic::List_1<int>* _get_m_connectedPlayers();
+    // Set instance field: private System.Collections.Generic.List`1<System.Int32> m_connectedPlayers
+    void _set_m_connectedPlayers(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: private System.Boolean m_IsInitilized
+    bool _get_m_IsInitilized();
+    // Set instance field: private System.Boolean m_IsInitilized
+    void _set_m_IsInitilized(bool value);
     // static public UnityEngine.Networking.PlayerConnection.PlayerConnection get_instance()
     // Offset: 0x1CF9920
     static UnityEngine::Networking::PlayerConnection::PlayerConnection* get_instance();

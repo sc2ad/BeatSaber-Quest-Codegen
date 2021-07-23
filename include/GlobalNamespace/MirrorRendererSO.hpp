@@ -94,6 +94,22 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public readonly UnityEngine.Vector3 position
+      UnityEngine::Vector3 _get_position();
+      // Set instance field: public readonly UnityEngine.Vector3 position
+      void _set_position(UnityEngine::Vector3 value);
+      // Get instance field: public readonly UnityEngine.Quaternion rotation
+      UnityEngine::Quaternion _get_rotation();
+      // Set instance field: public readonly UnityEngine.Quaternion rotation
+      void _set_rotation(UnityEngine::Quaternion value);
+      // Get instance field: public readonly System.Single fov
+      float _get_fov();
+      // Set instance field: public readonly System.Single fov
+      void _set_fov(float value);
+      // Get instance field: public readonly System.Boolean stereoEnabled
+      bool _get_stereoEnabled();
+      // Set instance field: public readonly System.Boolean stereoEnabled
+      void _set_stereoEnabled(bool value);
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
       // Offset: 0xF0D0C4
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -235,6 +251,78 @@ namespace GlobalNamespace {
     static int _get_kWaterLayer();
     // Set static field: static private System.Int32 kWaterLayer
     static void _set_kWaterLayer(int value);
+    // Get instance field: private UnityEngine.LayerMask _reflectLayers
+    UnityEngine::LayerMask _get__reflectLayers();
+    // Set instance field: private UnityEngine.LayerMask _reflectLayers
+    void _set__reflectLayers(UnityEngine::LayerMask value);
+    // Get instance field: private System.Int32 _stereoTextureWidth
+    int _get__stereoTextureWidth();
+    // Set instance field: private System.Int32 _stereoTextureWidth
+    void _set__stereoTextureWidth(int value);
+    // Get instance field: private System.Int32 _stereoTextureHeight
+    int _get__stereoTextureHeight();
+    // Set instance field: private System.Int32 _stereoTextureHeight
+    void _set__stereoTextureHeight(int value);
+    // Get instance field: private System.Int32 _monoTextureWidth
+    int _get__monoTextureWidth();
+    // Set instance field: private System.Int32 _monoTextureWidth
+    void _set__monoTextureWidth(int value);
+    // Get instance field: private System.Int32 _monoTextureHeight
+    int _get__monoTextureHeight();
+    // Set instance field: private System.Int32 _monoTextureHeight
+    void _set__monoTextureHeight(int value);
+    // Get instance field: private System.Int32 _maxAntiAliasing
+    int _get__maxAntiAliasing();
+    // Set instance field: private System.Int32 _maxAntiAliasing
+    void _set__maxAntiAliasing(int value);
+    // Get instance field: private System.Boolean _disableDepthTexture
+    bool _get__disableDepthTexture();
+    // Set instance field: private System.Boolean _disableDepthTexture
+    void _set__disableDepthTexture(bool value);
+    // Get instance field: private System.Boolean _enableBloomPrePass
+    bool _get__enableBloomPrePass();
+    // Set instance field: private System.Boolean _enableBloomPrePass
+    void _set__enableBloomPrePass(bool value);
+    // Get instance field: private BloomPrePassRendererSO _bloomPrePassRenderer
+    GlobalNamespace::BloomPrePassRendererSO* _get__bloomPrePassRenderer();
+    // Set instance field: private BloomPrePassRendererSO _bloomPrePassRenderer
+    void _set__bloomPrePassRenderer(GlobalNamespace::BloomPrePassRendererSO* value);
+    // Get instance field: private BloomPrePassEffectSO _bloomPrePassEffect
+    GlobalNamespace::BloomPrePassEffectSO* _get__bloomPrePassEffect();
+    // Set instance field: private BloomPrePassEffectSO _bloomPrePassEffect
+    void _set__bloomPrePassEffect(GlobalNamespace::BloomPrePassEffectSO* value);
+    // Get instance field: private UnityEngine.Shader _clearDepthShader
+    UnityEngine::Shader* _get__clearDepthShader();
+    // Set instance field: private UnityEngine.Shader _clearDepthShader
+    void _set__clearDepthShader(UnityEngine::Shader* value);
+    // Get instance field: private UnityEngine.RenderTexture _bloomPrePassRenderTexture
+    UnityEngine::RenderTexture* _get__bloomPrePassRenderTexture();
+    // Set instance field: private UnityEngine.RenderTexture _bloomPrePassRenderTexture
+    void _set__bloomPrePassRenderTexture(UnityEngine::RenderTexture* value);
+    // Get instance field: private UnityEngine.Camera _mirrorCamera
+    UnityEngine::Camera* _get__mirrorCamera();
+    // Set instance field: private UnityEngine.Camera _mirrorCamera
+    void _set__mirrorCamera(UnityEngine::Camera* value);
+    // Get instance field: private System.Int32 _antialiasing
+    int _get__antialiasing();
+    // Set instance field: private System.Int32 _antialiasing
+    void _set__antialiasing(int value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<MirrorRendererSO/CameraTransformData,UnityEngine.RenderTexture> _renderTextures
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::MirrorRendererSO::CameraTransformData, UnityEngine::RenderTexture*>* _get__renderTextures();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<MirrorRendererSO/CameraTransformData,UnityEngine.RenderTexture> _renderTextures
+    void _set__renderTextures(System::Collections::Generic::Dictionary_2<GlobalNamespace::MirrorRendererSO::CameraTransformData, UnityEngine::RenderTexture*>* value);
+    // Get instance field: private readonly UnityEngine.Rect kLeftRect
+    UnityEngine::Rect _get_kLeftRect();
+    // Set instance field: private readonly UnityEngine.Rect kLeftRect
+    void _set_kLeftRect(UnityEngine::Rect value);
+    // Get instance field: private readonly UnityEngine.Rect kRightRect
+    UnityEngine::Rect _get_kRightRect();
+    // Set instance field: private readonly UnityEngine.Rect kRightRect
+    void _set_kRightRect(UnityEngine::Rect value);
+    // Get instance field: private readonly UnityEngine.Rect kFullRect
+    UnityEngine::Rect _get_kFullRect();
+    // Set instance field: private readonly UnityEngine.Rect kFullRect
+    void _set_kFullRect(UnityEngine::Rect value);
     // private System.Void OnValidate()
     // Offset: 0x2340474
     void OnValidate();

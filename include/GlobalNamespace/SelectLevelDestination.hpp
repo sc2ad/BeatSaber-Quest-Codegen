@@ -60,6 +60,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
     // Creating value type constructor for type: SelectLevelDestination
     SelectLevelDestination(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}) noexcept : beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_} {}
+    // Get instance field: public readonly IBeatmapLevelPack beatmapLevelPack
+    GlobalNamespace::IBeatmapLevelPack* _get_beatmapLevelPack();
+    // Set instance field: public readonly IBeatmapLevelPack beatmapLevelPack
+    void _set_beatmapLevelPack(GlobalNamespace::IBeatmapLevelPack* value);
+    // Get instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel* _get_previewBeatmapLevel();
+    // Set instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    void _set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: public readonly BeatmapDifficulty beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get_beatmapDifficulty();
+    // Set instance field: public readonly BeatmapDifficulty beatmapDifficulty
+    void _set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: public readonly BeatmapCharacteristicSO beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get_beatmapCharacteristic();
+    // Set instance field: public readonly BeatmapCharacteristicSO beatmapCharacteristic
+    void _set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0x1155584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

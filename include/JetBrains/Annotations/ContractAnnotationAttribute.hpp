@@ -34,6 +34,14 @@ namespace JetBrains::Annotations {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ContractAnnotationAttribute
     ContractAnnotationAttribute(::Il2CppString* Contract_ = {}, bool ForceFullStates_ = {}) noexcept : Contract{Contract_}, ForceFullStates{ForceFullStates_} {}
+    // Get instance field: private System.String <Contract>k__BackingField
+    ::Il2CppString* _get_$Contract$k__BackingField();
+    // Set instance field: private System.String <Contract>k__BackingField
+    void _set_$Contract$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <ForceFullStates>k__BackingField
+    bool _get_$ForceFullStates$k__BackingField();
+    // Set instance field: private System.Boolean <ForceFullStates>k__BackingField
+    void _set_$ForceFullStates$k__BackingField(bool value);
     // public System.String get_Contract()
     // Offset: 0x23B2270
     ::Il2CppString* get_Contract();

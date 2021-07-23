@@ -80,6 +80,10 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::ClipCaps _get_All();
     // Set static field: static public UnityEngine.Timeline.ClipCaps All
     static void _set_All(UnityEngine::Timeline::ClipCaps value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Timeline.ClipCaps
   #pragma pack(pop)
   static check_size<sizeof(ClipCaps), 0 + sizeof(int)> __UnityEngine_Timeline_ClipCapsSizeCheck;

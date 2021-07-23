@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     ResetLocalLeaderboardOnKey(GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel_ = {}, UnityEngine::KeyCode keyCode_ = {}) noexcept : localLeaderboardsModel{localLeaderboardsModel_}, keyCode{keyCode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private LocalLeaderboardsModel _localLeaderboardsModel
+    GlobalNamespace::LocalLeaderboardsModel* _get__localLeaderboardsModel();
+    // Set instance field: private LocalLeaderboardsModel _localLeaderboardsModel
+    void _set__localLeaderboardsModel(GlobalNamespace::LocalLeaderboardsModel* value);
+    // Get instance field: private UnityEngine.KeyCode _keyCode
+    UnityEngine::KeyCode _get__keyCode();
+    // Set instance field: private UnityEngine.KeyCode _keyCode
+    void _set__keyCode(UnityEngine::KeyCode value);
     // private System.Void Update()
     // Offset: 0x1143190
     void Update();

@@ -163,6 +163,86 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: GUILayoutGroup
     GUILayoutGroup(System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry*>* entries_ = {}, bool isVertical_ = {}, bool resetCoords_ = {}, float spacing_ = {}, bool sameSize_ = {}, bool isWindow_ = {}, int windowID_ = {}, int m_Cursor_ = {}, int m_StretchableCountX_ = {}, int m_StretchableCountY_ = {}, bool m_UserSpecifiedWidth_ = {}, bool m_UserSpecifiedHeight_ = {}, float m_ChildMinWidth_ = {}, float m_ChildMaxWidth_ = {}, float m_ChildMinHeight_ = {}, float m_ChildMaxHeight_ = {}, int m_MarginLeft_ = {}, int m_MarginRight_ = {}, int m_MarginTop_ = {}, int m_MarginBottom_ = {}) noexcept : entries{entries_}, isVertical{isVertical_}, resetCoords{resetCoords_}, spacing{spacing_}, sameSize{sameSize_}, isWindow{isWindow_}, windowID{windowID_}, m_Cursor{m_Cursor_}, m_StretchableCountX{m_StretchableCountX_}, m_StretchableCountY{m_StretchableCountY_}, m_UserSpecifiedWidth{m_UserSpecifiedWidth_}, m_UserSpecifiedHeight{m_UserSpecifiedHeight_}, m_ChildMinWidth{m_ChildMinWidth_}, m_ChildMaxWidth{m_ChildMaxWidth_}, m_ChildMinHeight{m_ChildMinHeight_}, m_ChildMaxHeight{m_ChildMaxHeight_}, m_MarginLeft{m_MarginLeft_}, m_MarginRight{m_MarginRight_}, m_MarginTop{m_MarginTop_}, m_MarginBottom{m_MarginBottom_} {}
+    // Get instance field: public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> entries
+    System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry*>* _get_entries();
+    // Set instance field: public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> entries
+    void _set_entries(System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry*>* value);
+    // Get instance field: public System.Boolean isVertical
+    bool _get_isVertical();
+    // Set instance field: public System.Boolean isVertical
+    void _set_isVertical(bool value);
+    // Get instance field: public System.Boolean resetCoords
+    bool _get_resetCoords();
+    // Set instance field: public System.Boolean resetCoords
+    void _set_resetCoords(bool value);
+    // Get instance field: public System.Single spacing
+    float _get_spacing();
+    // Set instance field: public System.Single spacing
+    void _set_spacing(float value);
+    // Get instance field: public System.Boolean sameSize
+    bool _get_sameSize();
+    // Set instance field: public System.Boolean sameSize
+    void _set_sameSize(bool value);
+    // Get instance field: public System.Boolean isWindow
+    bool _get_isWindow();
+    // Set instance field: public System.Boolean isWindow
+    void _set_isWindow(bool value);
+    // Get instance field: public System.Int32 windowID
+    int _get_windowID();
+    // Set instance field: public System.Int32 windowID
+    void _set_windowID(int value);
+    // Get instance field: private System.Int32 m_Cursor
+    int _get_m_Cursor();
+    // Set instance field: private System.Int32 m_Cursor
+    void _set_m_Cursor(int value);
+    // Get instance field: protected System.Int32 m_StretchableCountX
+    int _get_m_StretchableCountX();
+    // Set instance field: protected System.Int32 m_StretchableCountX
+    void _set_m_StretchableCountX(int value);
+    // Get instance field: protected System.Int32 m_StretchableCountY
+    int _get_m_StretchableCountY();
+    // Set instance field: protected System.Int32 m_StretchableCountY
+    void _set_m_StretchableCountY(int value);
+    // Get instance field: protected System.Boolean m_UserSpecifiedWidth
+    bool _get_m_UserSpecifiedWidth();
+    // Set instance field: protected System.Boolean m_UserSpecifiedWidth
+    void _set_m_UserSpecifiedWidth(bool value);
+    // Get instance field: protected System.Boolean m_UserSpecifiedHeight
+    bool _get_m_UserSpecifiedHeight();
+    // Set instance field: protected System.Boolean m_UserSpecifiedHeight
+    void _set_m_UserSpecifiedHeight(bool value);
+    // Get instance field: protected System.Single m_ChildMinWidth
+    float _get_m_ChildMinWidth();
+    // Set instance field: protected System.Single m_ChildMinWidth
+    void _set_m_ChildMinWidth(float value);
+    // Get instance field: protected System.Single m_ChildMaxWidth
+    float _get_m_ChildMaxWidth();
+    // Set instance field: protected System.Single m_ChildMaxWidth
+    void _set_m_ChildMaxWidth(float value);
+    // Get instance field: protected System.Single m_ChildMinHeight
+    float _get_m_ChildMinHeight();
+    // Set instance field: protected System.Single m_ChildMinHeight
+    void _set_m_ChildMinHeight(float value);
+    // Get instance field: protected System.Single m_ChildMaxHeight
+    float _get_m_ChildMaxHeight();
+    // Set instance field: protected System.Single m_ChildMaxHeight
+    void _set_m_ChildMaxHeight(float value);
+    // Get instance field: protected System.Int32 m_MarginLeft
+    int _get_m_MarginLeft();
+    // Set instance field: protected System.Int32 m_MarginLeft
+    void _set_m_MarginLeft(int value);
+    // Get instance field: protected System.Int32 m_MarginRight
+    int _get_m_MarginRight();
+    // Set instance field: protected System.Int32 m_MarginRight
+    void _set_m_MarginRight(int value);
+    // Get instance field: protected System.Int32 m_MarginTop
+    int _get_m_MarginTop();
+    // Set instance field: protected System.Int32 m_MarginTop
+    void _set_m_MarginTop(int value);
+    // Get instance field: protected System.Int32 m_MarginBottom
+    int _get_m_MarginBottom();
+    // Set instance field: protected System.Int32 m_MarginBottom
+    void _set_m_MarginBottom(int value);
     // public System.Void ResetCursor()
     // Offset: 0x1AA6138
     void ResetCursor();

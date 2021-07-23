@@ -35,6 +35,10 @@ namespace System {
     constexpr operator System::IntPtr() const noexcept {
       return args;
     }
+    // Get instance field: System.IntPtr args
+    System::IntPtr _get_args();
+    // Set instance field: System.IntPtr args
+    void _set_args(System::IntPtr value);
   }; // System.RuntimeArgumentHandle
   #pragma pack(pop)
   static check_size<sizeof(RuntimeArgumentHandle), 0 + sizeof(System::IntPtr)> __System_RuntimeArgumentHandleSizeCheck;

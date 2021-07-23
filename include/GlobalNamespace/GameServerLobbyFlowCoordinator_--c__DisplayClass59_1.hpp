@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass59_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass59_1
     $$c__DisplayClass59_1(UnityEngine::EventSystems::EventSystem* eventSystem_ = {}, GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass59_0* CS$$$8__locals1_ = {}) noexcept : eventSystem{eventSystem_}, CS$$$8__locals1{CS$$$8__locals1_} {}
+    // Get instance field: public UnityEngine.EventSystems.EventSystem eventSystem
+    UnityEngine::EventSystems::EventSystem* _get_eventSystem();
+    // Set instance field: public UnityEngine.EventSystems.EventSystem eventSystem
+    void _set_eventSystem(UnityEngine::EventSystems::EventSystem* value);
+    // Get instance field: public GameServerLobbyFlowCoordinator/<>c__DisplayClass59_0 CS$<>8__locals1
+    GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass59_0* _get_CS$$$8__locals1();
+    // Set instance field: public GameServerLobbyFlowCoordinator/<>c__DisplayClass59_0 CS$<>8__locals1
+    void _set_CS$$$8__locals1(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass59_0* value);
     // System.Void <Finish>b__0()
     // Offset: 0x10AAE80
     void $Finish$b__0();

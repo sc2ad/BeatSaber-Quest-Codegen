@@ -191,6 +191,86 @@ namespace GlobalNamespace {
     MultiplayerOutroAnimationController(UnityEngine::Playables::PlayableDirector* outroPlayableDirector_ = {}, ::Array<::Il2CppString*>* playerTimelineTrackNames_ = {}, ::Array<::Il2CppString*>* ringTimelineTrackNames_ = {}, ::Array<::Il2CppString*>* resultsTimelineTrackNames_ = {}, ::Array<UnityEngine::PropertyName>* playerTimelinePropertyNames_ = {}, ::Array<UnityEngine::PropertyName>* resultsTimelinePropertyNames_ = {}, ::Il2CppString* localPlayerTrackName_ = {}, UnityEngine::PropertyName localPlayerTimelinePropertyName_ = {}, ::Array<::Il2CppString*>* badgeTimelineTrackNames_ = {}, ::Array<UnityEngine::PropertyName>* badgeTimelinePropertyNames_ = {}, UnityEngine::Transform* badgeStartTransform_ = {}, UnityEngine::Transform* badgeMidTransform_ = {}, ::Il2CppString* songPreviewTrackName_ = {}, ::Il2CppString* resultsMocksActivationTrack_ = {}, GlobalNamespace::MultiplayerScoreRingManager* multiplayerScoreRingManager_ = {}, GlobalNamespace::MultiplayerResultsPyramidView* multiplayerResultsPyramidView_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, System::Action* onCompleted_ = {}) noexcept : outroPlayableDirector{outroPlayableDirector_}, playerTimelineTrackNames{playerTimelineTrackNames_}, ringTimelineTrackNames{ringTimelineTrackNames_}, resultsTimelineTrackNames{resultsTimelineTrackNames_}, playerTimelinePropertyNames{playerTimelinePropertyNames_}, resultsTimelinePropertyNames{resultsTimelinePropertyNames_}, localPlayerTrackName{localPlayerTrackName_}, localPlayerTimelinePropertyName{localPlayerTimelinePropertyName_}, badgeTimelineTrackNames{badgeTimelineTrackNames_}, badgeTimelinePropertyNames{badgeTimelinePropertyNames_}, badgeStartTransform{badgeStartTransform_}, badgeMidTransform{badgeMidTransform_}, songPreviewTrackName{songPreviewTrackName_}, resultsMocksActivationTrack{resultsMocksActivationTrack_}, multiplayerScoreRingManager{multiplayerScoreRingManager_}, multiplayerResultsPyramidView{multiplayerResultsPyramidView_}, multiplayerPlayersManager{multiplayerPlayersManager_}, multiplayerSessionManager{multiplayerSessionManager_}, sceneSetupData{sceneSetupData_}, onCompleted{onCompleted_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
+    UnityEngine::Playables::PlayableDirector* _get__outroPlayableDirector();
+    // Set instance field: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
+    void _set__outroPlayableDirector(UnityEngine::Playables::PlayableDirector* value);
+    // Get instance field: private System.String[] _playerTimelineTrackNames
+    ::Array<::Il2CppString*>* _get__playerTimelineTrackNames();
+    // Set instance field: private System.String[] _playerTimelineTrackNames
+    void _set__playerTimelineTrackNames(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.String[] _ringTimelineTrackNames
+    ::Array<::Il2CppString*>* _get__ringTimelineTrackNames();
+    // Set instance field: private System.String[] _ringTimelineTrackNames
+    void _set__ringTimelineTrackNames(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.String[] _resultsTimelineTrackNames
+    ::Array<::Il2CppString*>* _get__resultsTimelineTrackNames();
+    // Set instance field: private System.String[] _resultsTimelineTrackNames
+    void _set__resultsTimelineTrackNames(::Array<::Il2CppString*>* value);
+    // Get instance field: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
+    ::Array<UnityEngine::PropertyName>* _get__playerTimelinePropertyNames();
+    // Set instance field: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
+    void _set__playerTimelinePropertyNames(::Array<UnityEngine::PropertyName>* value);
+    // Get instance field: private UnityEngine.PropertyName[] _resultsTimelinePropertyNames
+    ::Array<UnityEngine::PropertyName>* _get__resultsTimelinePropertyNames();
+    // Set instance field: private UnityEngine.PropertyName[] _resultsTimelinePropertyNames
+    void _set__resultsTimelinePropertyNames(::Array<UnityEngine::PropertyName>* value);
+    // Get instance field: private System.String _localPlayerTrackName
+    ::Il2CppString* _get__localPlayerTrackName();
+    // Set instance field: private System.String _localPlayerTrackName
+    void _set__localPlayerTrackName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
+    UnityEngine::PropertyName _get__localPlayerTimelinePropertyName();
+    // Set instance field: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
+    void _set__localPlayerTimelinePropertyName(UnityEngine::PropertyName value);
+    // Get instance field: private System.String[] _badgeTimelineTrackNames
+    ::Array<::Il2CppString*>* _get__badgeTimelineTrackNames();
+    // Set instance field: private System.String[] _badgeTimelineTrackNames
+    void _set__badgeTimelineTrackNames(::Array<::Il2CppString*>* value);
+    // Get instance field: private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
+    ::Array<UnityEngine::PropertyName>* _get__badgeTimelinePropertyNames();
+    // Set instance field: private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
+    void _set__badgeTimelinePropertyNames(::Array<UnityEngine::PropertyName>* value);
+    // Get instance field: private UnityEngine.Transform _badgeStartTransform
+    UnityEngine::Transform* _get__badgeStartTransform();
+    // Set instance field: private UnityEngine.Transform _badgeStartTransform
+    void _set__badgeStartTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _badgeMidTransform
+    UnityEngine::Transform* _get__badgeMidTransform();
+    // Set instance field: private UnityEngine.Transform _badgeMidTransform
+    void _set__badgeMidTransform(UnityEngine::Transform* value);
+    // Get instance field: private System.String _songPreviewTrackName
+    ::Il2CppString* _get__songPreviewTrackName();
+    // Set instance field: private System.String _songPreviewTrackName
+    void _set__songPreviewTrackName(::Il2CppString* value);
+    // Get instance field: private System.String _resultsMocksActivationTrack
+    ::Il2CppString* _get__resultsMocksActivationTrack();
+    // Set instance field: private System.String _resultsMocksActivationTrack
+    void _set__resultsMocksActivationTrack(::Il2CppString* value);
+    // Get instance field: private MultiplayerScoreRingManager _multiplayerScoreRingManager
+    GlobalNamespace::MultiplayerScoreRingManager* _get__multiplayerScoreRingManager();
+    // Set instance field: private MultiplayerScoreRingManager _multiplayerScoreRingManager
+    void _set__multiplayerScoreRingManager(GlobalNamespace::MultiplayerScoreRingManager* value);
+    // Get instance field: private MultiplayerResultsPyramidView _multiplayerResultsPyramidView
+    GlobalNamespace::MultiplayerResultsPyramidView* _get__multiplayerResultsPyramidView();
+    // Set instance field: private MultiplayerResultsPyramidView _multiplayerResultsPyramidView
+    void _set__multiplayerResultsPyramidView(GlobalNamespace::MultiplayerResultsPyramidView* value);
+    // Get instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    GlobalNamespace::MultiplayerPlayersManager* _get__multiplayerPlayersManager();
+    // Set instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    void _set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
+    // Get instance field: private System.Action _onCompleted
+    System::Action* _get__onCompleted();
+    // Set instance field: private System.Action _onCompleted
+    void _set__onCompleted(System::Action* value);
     // protected System.Void Start()
     // Offset: 0x23DE2A4
     void Start();

@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameScenesManager::SceneDismissType _get_Deactivate();
     // Set static field: static public GameScenesManager/SceneDismissType Deactivate
     static void _set_Deactivate(GlobalNamespace::GameScenesManager::SceneDismissType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // GameScenesManager/SceneDismissType
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::SceneDismissType), 0 + sizeof(int)> __GlobalNamespace_GameScenesManager_SceneDismissTypeSizeCheck;

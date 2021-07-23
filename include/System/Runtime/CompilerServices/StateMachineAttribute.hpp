@@ -40,6 +40,10 @@ namespace System::Runtime::CompilerServices {
     constexpr operator System::Type*() const noexcept {
       return StateMachineType;
     }
+    // Get instance field: private System.Type <StateMachineType>k__BackingField
+    System::Type* _get_$StateMachineType$k__BackingField();
+    // Set instance field: private System.Type <StateMachineType>k__BackingField
+    void _set_$StateMachineType$k__BackingField(System::Type* value);
     // private System.Void set_StateMachineType(System.Type value)
     // Offset: 0x13F04BC
     void set_StateMachineType(System::Type* value);

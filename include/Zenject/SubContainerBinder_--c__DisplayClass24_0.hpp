@@ -45,6 +45,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass24_0
     $$c__DisplayClass24_0(::Il2CppString* resourcePath_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}) noexcept : resourcePath{resourcePath_}, gameObjectInfo{gameObjectInfo_} {}
+    // Get instance field: public System.String resourcePath
+    ::Il2CppString* _get_resourcePath();
+    // Set instance field: public System.String resourcePath
+    void _set_resourcePath(::Il2CppString* value);
+    // Get instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    Zenject::GameObjectCreationParameters* _get_gameObjectInfo();
+    // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
     // Zenject.ISubContainerCreator <ByNewContextPrefabResource>b__0(Zenject.DiContainer container)
     // Offset: 0x16D1588
     Zenject::ISubContainerCreator* $ByNewContextPrefabResource$b__0(Zenject::DiContainer* container);

@@ -90,6 +90,18 @@ namespace System::Net::Http {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream buffer
+    System::Net::Http::HttpContent::FixedMemoryStream* _get_buffer();
+    // Set instance field: private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream buffer
+    void _set_buffer(System::Net::Http::HttpContent::FixedMemoryStream* value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.Net.Http.Headers.HttpContentHeaders headers
+    System::Net::Http::Headers::HttpContentHeaders* _get_headers();
+    // Set instance field: private System.Net.Http.Headers.HttpContentHeaders headers
+    void _set_headers(System::Net::Http::Headers::HttpContentHeaders* value);
     // public System.Net.Http.Headers.HttpContentHeaders get_Headers()
     // Offset: 0x15713E8
     System::Net::Http::Headers::HttpContentHeaders* get_Headers();

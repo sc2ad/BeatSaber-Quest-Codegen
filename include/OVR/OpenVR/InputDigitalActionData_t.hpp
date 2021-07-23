@@ -56,6 +56,26 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Boolean bActive
+    bool _get_bActive();
+    // Set instance field: public System.Boolean bActive
+    void _set_bActive(bool value);
+    // Get instance field: public System.UInt64 activeOrigin
+    uint64_t _get_activeOrigin();
+    // Set instance field: public System.UInt64 activeOrigin
+    void _set_activeOrigin(uint64_t value);
+    // Get instance field: public System.Boolean bState
+    bool _get_bState();
+    // Set instance field: public System.Boolean bState
+    void _set_bState(bool value);
+    // Get instance field: public System.Boolean bChanged
+    bool _get_bChanged();
+    // Set instance field: public System.Boolean bChanged
+    void _set_bChanged(bool value);
+    // Get instance field: public System.Single fUpdateTime
+    float _get_fUpdateTime();
+    // Set instance field: public System.Single fUpdateTime
+    void _set_fUpdateTime(float value);
   }; // OVR.OpenVR.InputDigitalActionData_t
   #pragma pack(pop)
   static check_size<sizeof(InputDigitalActionData_t), 20 + sizeof(float)> __OVR_OpenVR_InputDigitalActionData_tSizeCheck;

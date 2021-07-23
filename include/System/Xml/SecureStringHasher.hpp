@@ -46,6 +46,10 @@ namespace System::Xml {
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* _get_hashCodeDelegate();
     // Set static field: static private System.Xml.SecureStringHasher/System.Xml.HashCodeOfStringDelegate hashCodeDelegate
     static void _set_hashCodeDelegate(System::Xml::SecureStringHasher::HashCodeOfStringDelegate* value);
+    // Get instance field: private System.Int32 hashCodeRandomizer
+    int _get_hashCodeRandomizer();
+    // Set instance field: private System.Int32 hashCodeRandomizer
+    void _set_hashCodeRandomizer(int value);
     // public System.Boolean Equals(System.String x, System.String y)
     // Offset: 0x1905AE4
     bool Equals(::Il2CppString* x, ::Il2CppString* y);

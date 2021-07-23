@@ -66,6 +66,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::PartyUpdateAction _get_Uninvite();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Uninvite
     static void _set_Uninvite(Oculus::Platform::PartyUpdateAction value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.PartyUpdateAction
   #pragma pack(pop)
   static check_size<sizeof(PartyUpdateAction), 0 + sizeof(int)> __Oculus_Platform_PartyUpdateActionSizeCheck;

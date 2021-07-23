@@ -29,6 +29,10 @@ namespace GlobalNamespace {
     AchievementSO(::Il2CppString* achievementId_ = {}) noexcept : achievementId{achievementId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _achievementId
+    ::Il2CppString* _get__achievementId();
+    // Set instance field: private System.String _achievementId
+    void _set__achievementId(::Il2CppString* value);
     // public System.String get_achievementId()
     // Offset: 0x10D4A74
     ::Il2CppString* get_achievementId();

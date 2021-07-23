@@ -48,6 +48,14 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass61_0
     $$c__DisplayClass61_0(bool includeInactive_ = {}, bool excludeSelf_ = {}) noexcept : includeInactive{includeInactive_}, excludeSelf{excludeSelf_} {}
+    // Get instance field: public System.Boolean includeInactive
+    bool _get_includeInactive();
+    // Set instance field: public System.Boolean includeInactive
+    void _set_includeInactive(bool value);
+    // Get instance field: public System.Boolean excludeSelf
+    bool _get_excludeSelf();
+    // Set instance field: public System.Boolean excludeSelf
+    void _set_excludeSelf(bool value);
     // Zenject.IProvider <FromComponentInParents>b__0(Zenject.DiContainer container, System.Type concreteType)
     // Offset: 0x1621748
     Zenject::IProvider* $FromComponentInParents$b__0(Zenject::DiContainer* container, System::Type* concreteType);

@@ -72,6 +72,26 @@ namespace System::Threading {
     static System::Threading::ContextCallback* _get_s_executionContextCallback();
     // Set static field: static private System.Threading.ContextCallback s_executionContextCallback
     static void _set_s_executionContextCallback(System::Threading::ContextCallback* value);
+    // Get instance field: readonly System.Action`1<System.Object> Callback
+    System::Action_1<::Il2CppObject*>* _get_Callback();
+    // Set instance field: readonly System.Action`1<System.Object> Callback
+    void _set_Callback(System::Action_1<::Il2CppObject*>* value);
+    // Get instance field: readonly System.Object StateForCallback
+    ::Il2CppObject* _get_StateForCallback();
+    // Set instance field: readonly System.Object StateForCallback
+    void _set_StateForCallback(::Il2CppObject* value);
+    // Get instance field: readonly System.Threading.SynchronizationContext TargetSyncContext
+    System::Threading::SynchronizationContext* _get_TargetSyncContext();
+    // Set instance field: readonly System.Threading.SynchronizationContext TargetSyncContext
+    void _set_TargetSyncContext(System::Threading::SynchronizationContext* value);
+    // Get instance field: readonly System.Threading.ExecutionContext TargetExecutionContext
+    System::Threading::ExecutionContext* _get_TargetExecutionContext();
+    // Set instance field: readonly System.Threading.ExecutionContext TargetExecutionContext
+    void _set_TargetExecutionContext(System::Threading::ExecutionContext* value);
+    // Get instance field: readonly System.Threading.CancellationTokenSource CancellationTokenSource
+    System::Threading::CancellationTokenSource* _get_CancellationTokenSource();
+    // Set instance field: readonly System.Threading.CancellationTokenSource CancellationTokenSource
+    void _set_CancellationTokenSource(System::Threading::CancellationTokenSource* value);
     // System.Void .ctor(System.Action`1<System.Object> callback, System.Object stateForCallback, System.Threading.SynchronizationContext targetSyncContext, System.Threading.ExecutionContext targetExecutionContext, System.Threading.CancellationTokenSource cancellationTokenSource)
     // Offset: 0x18A16D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -51,6 +51,14 @@ namespace System::Reflection {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Reflection.CustomAttributeTypedArgument typedArgument
+    System::Reflection::CustomAttributeTypedArgument _get_typedArgument();
+    // Set instance field: private System.Reflection.CustomAttributeTypedArgument typedArgument
+    void _set_typedArgument(System::Reflection::CustomAttributeTypedArgument value);
+    // Get instance field: private System.Reflection.MemberInfo memberInfo
+    System::Reflection::MemberInfo* _get_memberInfo();
+    // Set instance field: private System.Reflection.MemberInfo memberInfo
+    void _set_memberInfo(System::Reflection::MemberInfo* value);
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
     // Offset: 0xEF6384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

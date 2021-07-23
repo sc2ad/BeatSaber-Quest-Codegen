@@ -57,6 +57,10 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::TrackAsset::Versions _get_AnimatedTrackProperties();
     // Set static field: static public UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.Versions AnimatedTrackProperties
     static void _set_AnimatedTrackProperties(UnityEngine::Timeline::TrackAsset::Versions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.Versions
   #pragma pack(pop)
   static check_size<sizeof(TrackAsset::Versions), 0 + sizeof(int)> __UnityEngine_Timeline_TrackAsset_VersionsSizeCheck;

@@ -81,6 +81,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType _get_AfterBlur();
       // Set static field: static public BloomPrePassNonLightPass/ExecutionTimeType AfterBlur
       static void _set_AfterBlur(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // BloomPrePassNonLightPass/ExecutionTimeType
     #pragma pack(pop)
     static check_size<sizeof(BloomPrePassNonLightPass::ExecutionTimeType), 0 + sizeof(int)> __GlobalNamespace_BloomPrePassNonLightPass_ExecutionTimeTypeSizeCheck;
@@ -109,6 +113,14 @@ namespace GlobalNamespace {
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassNonLightPass*>* _get__bloomPrePassBeforeBlurList();
     // Set static field: static private System.Collections.Generic.List`1<BloomPrePassNonLightPass> _bloomPrePassBeforeBlurList
     static void _set__bloomPrePassBeforeBlurList(System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassNonLightPass*>* value);
+    // Get instance field: private BloomPrePassNonLightPass/ExecutionTimeType _executionTimeType
+    GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType _get__executionTimeType();
+    // Set instance field: private BloomPrePassNonLightPass/ExecutionTimeType _executionTimeType
+    void _set__executionTimeType(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType value);
+    // Get instance field: private BloomPrePassNonLightPass/ExecutionTimeType _registeredExecutionTimeType
+    GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType _get__registeredExecutionTimeType();
+    // Set instance field: private BloomPrePassNonLightPass/ExecutionTimeType _registeredExecutionTimeType
+    void _set__registeredExecutionTimeType(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType value);
     // public BloomPrePassNonLightPass/ExecutionTimeType get_executionTimeType()
     // Offset: 0x1DEE120
     GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType get_executionTimeType();

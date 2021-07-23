@@ -35,6 +35,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AchievementUpdate
     AchievementUpdate(bool JustUnlocked_ = {}, ::Il2CppString* Name_ = {}) noexcept : JustUnlocked{JustUnlocked_}, Name{Name_} {}
+    // Get instance field: public readonly System.Boolean JustUnlocked
+    bool _get_JustUnlocked();
+    // Set instance field: public readonly System.Boolean JustUnlocked
+    void _set_JustUnlocked(bool value);
+    // Get instance field: public readonly System.String Name
+    ::Il2CppString* _get_Name();
+    // Set instance field: public readonly System.String Name
+    void _set_Name(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x149F650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

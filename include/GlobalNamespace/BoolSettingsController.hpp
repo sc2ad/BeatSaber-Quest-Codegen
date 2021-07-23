@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
     // Creating value type constructor for type: BoolSettingsController
     BoolSettingsController(GlobalNamespace::BoolSO* settingsValue_ = {}) noexcept : settingsValue{settingsValue_} {}
+    // Get instance field: private BoolSO _settingsValue
+    GlobalNamespace::BoolSO* _get__settingsValue();
+    // Set instance field: private BoolSO _settingsValue
+    void _set__settingsValue(GlobalNamespace::BoolSO* value);
     // public System.Void .ctor()
     // Offset: 0x109EDCC
     // Implemented from: SwitchSettingsController

@@ -65,6 +65,26 @@ namespace GlobalNamespace {
     MissionStageLockView(TMPro::TMP_Text* text_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, float dstPosY_ = {}, float animationDuration_ = {}, float startAnimationTime_ = {}) noexcept : text{text_}, rectTransform{rectTransform_}, dstPosY{dstPosY_}, animationDuration{animationDuration_}, startAnimationTime{startAnimationTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TMP_Text _text
+    TMPro::TMP_Text* _get__text();
+    // Set instance field: private TMPro.TMP_Text _text
+    void _set__text(TMPro::TMP_Text* value);
+    // Get instance field: private UnityEngine.RectTransform _rectTransform
+    UnityEngine::RectTransform* _get__rectTransform();
+    // Set instance field: private UnityEngine.RectTransform _rectTransform
+    void _set__rectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private System.Single _dstPosY
+    float _get__dstPosY();
+    // Set instance field: private System.Single _dstPosY
+    void _set__dstPosY(float value);
+    // Get instance field: private System.Single _animationDuration
+    float _get__animationDuration();
+    // Set instance field: private System.Single _animationDuration
+    void _set__animationDuration(float value);
+    // Get instance field: private System.Single _startAnimationTime
+    float _get__startAnimationTime();
+    // Set instance field: private System.Single _startAnimationTime
+    void _set__startAnimationTime(float value);
     // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
     // Offset: 0x1139E20
     void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);

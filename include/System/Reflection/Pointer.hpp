@@ -55,6 +55,14 @@ namespace System::Reflection {
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Get instance field: private System.Void* _ptr
+    void* _get__ptr();
+    // Set instance field: private System.Void* _ptr
+    void _set__ptr(void* value);
+    // Get instance field: private System.RuntimeType _ptrType
+    System::RuntimeType* _get__ptrType();
+    // Set instance field: private System.RuntimeType _ptrType
+    void _set__ptrType(System::RuntimeType* value);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1CB3EC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

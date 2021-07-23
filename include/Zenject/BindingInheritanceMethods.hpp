@@ -61,6 +61,10 @@ namespace Zenject {
     static Zenject::BindingInheritanceMethods _get_MoveDirectOnly();
     // Set static field: static public Zenject.BindingInheritanceMethods MoveDirectOnly
     static void _set_MoveDirectOnly(Zenject::BindingInheritanceMethods value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Zenject.BindingInheritanceMethods
   #pragma pack(pop)
   static check_size<sizeof(BindingInheritanceMethods), 0 + sizeof(int)> __Zenject_BindingInheritanceMethodsSizeCheck;

@@ -88,6 +88,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint8_t) == 0x1);
     // Creating value type constructor for type: GUID
     GUID(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d0_ = {}, uint8_t d1_ = {}, uint8_t d2_ = {}, uint8_t d3_ = {}, uint8_t d4_ = {}, uint8_t d5_ = {}, uint8_t d6_ = {}, uint8_t d7_ = {}) noexcept : a{a_}, b{b_}, c{c_}, d0{d0_}, d1{d1_}, d2{d2_}, d3{d3_}, d4{d4_}, d5{d5_}, d6{d6_}, d7{d7_} {}
+    // Get instance field: public System.Int32 a
+    int _get_a();
+    // Set instance field: public System.Int32 a
+    void _set_a(int value);
+    // Get instance field: public System.Int16 b
+    int16_t _get_b();
+    // Set instance field: public System.Int16 b
+    void _set_b(int16_t value);
+    // Get instance field: public System.Int16 c
+    int16_t _get_c();
+    // Set instance field: public System.Int16 c
+    void _set_c(int16_t value);
+    // Get instance field: public System.Byte d0
+    uint8_t _get_d0();
+    // Set instance field: public System.Byte d0
+    void _set_d0(uint8_t value);
+    // Get instance field: public System.Byte d1
+    uint8_t _get_d1();
+    // Set instance field: public System.Byte d1
+    void _set_d1(uint8_t value);
+    // Get instance field: public System.Byte d2
+    uint8_t _get_d2();
+    // Set instance field: public System.Byte d2
+    void _set_d2(uint8_t value);
+    // Get instance field: public System.Byte d3
+    uint8_t _get_d3();
+    // Set instance field: public System.Byte d3
+    void _set_d3(uint8_t value);
+    // Get instance field: public System.Byte d4
+    uint8_t _get_d4();
+    // Set instance field: public System.Byte d4
+    void _set_d4(uint8_t value);
+    // Get instance field: public System.Byte d5
+    uint8_t _get_d5();
+    // Set instance field: public System.Byte d5
+    void _set_d5(uint8_t value);
+    // Get instance field: public System.Byte d6
+    uint8_t _get_d6();
+    // Set instance field: public System.Byte d6
+    void _set_d6(uint8_t value);
+    // Get instance field: public System.Byte d7
+    uint8_t _get_d7();
+    // Set instance field: public System.Byte d7
+    void _set_d7(uint8_t value);
     // public System.Void .ctor()
     // Offset: 0x15EB3A4
     // Implemented from: System.Object

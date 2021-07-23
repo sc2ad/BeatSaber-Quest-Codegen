@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     ResultsEnvironmentManager(::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>* resultEnvironmentControllersWithKeyword_ = {}, ::Il2CppString* currentShownKeyword_ = {}) noexcept : resultEnvironmentControllersWithKeyword{resultEnvironmentControllersWithKeyword_}, currentShownKeyword{currentShownKeyword_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
+    ::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>* _get__resultEnvironmentControllersWithKeyword();
+    // Set instance field: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
+    void _set__resultEnvironmentControllersWithKeyword(::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>* value);
+    // Get instance field: private System.String _currentShownKeyword
+    ::Il2CppString* _get__currentShownKeyword();
+    // Set instance field: private System.String _currentShownKeyword
+    void _set__currentShownKeyword(::Il2CppString* value);
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
     // Offset: 0x1143510
     GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::Il2CppString* keyword);

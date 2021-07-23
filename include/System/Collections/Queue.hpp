@@ -86,6 +86,30 @@ namespace System::Collections {
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
+    // Get instance field: private System.Object[] _array
+    ::Array<::Il2CppObject*>* _get__array();
+    // Set instance field: private System.Object[] _array
+    void _set__array(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.Int32 _head
+    int _get__head();
+    // Set instance field: private System.Int32 _head
+    void _set__head(int value);
+    // Get instance field: private System.Int32 _tail
+    int _get__tail();
+    // Set instance field: private System.Int32 _tail
+    void _set__tail(int value);
+    // Get instance field: private System.Int32 _size
+    int _get__size();
+    // Set instance field: private System.Int32 _size
+    void _set__size(int value);
+    // Get instance field: private System.Int32 _growFactor
+    int _get__growFactor();
+    // Set instance field: private System.Int32 _growFactor
+    void _set__growFactor(int value);
+    // Get instance field: private System.Int32 _version
+    int _get__version();
+    // Set instance field: private System.Int32 _version
+    void _set__version(int value);
     // public System.Int32 get_Count()
     // Offset: 0x1949094
     int get_Count();

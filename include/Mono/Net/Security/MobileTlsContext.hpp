@@ -116,6 +116,42 @@ namespace Mono::Net::Security {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private Mono.Net.Security.MobileAuthenticatedStream parent
+    Mono::Net::Security::MobileAuthenticatedStream* _get_parent();
+    // Set instance field: private Mono.Net.Security.MobileAuthenticatedStream parent
+    void _set_parent(Mono::Net::Security::MobileAuthenticatedStream* value);
+    // Get instance field: private System.Boolean serverMode
+    bool _get_serverMode();
+    // Set instance field: private System.Boolean serverMode
+    void _set_serverMode(bool value);
+    // Get instance field: private System.String targetHost
+    ::Il2CppString* _get_targetHost();
+    // Set instance field: private System.String targetHost
+    void _set_targetHost(::Il2CppString* value);
+    // Get instance field: private System.String serverName
+    ::Il2CppString* _get_serverName();
+    // Set instance field: private System.String serverName
+    void _set_serverName(::Il2CppString* value);
+    // Get instance field: private System.Security.Authentication.SslProtocols enabledProtocols
+    System::Security::Authentication::SslProtocols _get_enabledProtocols();
+    // Set instance field: private System.Security.Authentication.SslProtocols enabledProtocols
+    void _set_enabledProtocols(System::Security::Authentication::SslProtocols value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
+    System::Security::Cryptography::X509Certificates::X509Certificate* _get_serverCertificate();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
+    void _set_serverCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates
+    System::Security::Cryptography::X509Certificates::X509CertificateCollection* _get_clientCertificates();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates
+    void _set_clientCertificates(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+    // Get instance field: private System.Boolean askForClientCert
+    bool _get_askForClientCert();
+    // Set instance field: private System.Boolean askForClientCert
+    void _set_askForClientCert(bool value);
+    // Get instance field: private Mono.Security.Interface.ICertificateValidator2 certificateValidator
+    Mono::Security::Interface::ICertificateValidator2* _get_certificateValidator();
+    // Set instance field: private Mono.Security.Interface.ICertificateValidator2 certificateValidator
+    void _set_certificateValidator(Mono::Security::Interface::ICertificateValidator2* value);
     // Mono.Net.Security.MobileAuthenticatedStream get_Parent()
     // Offset: 0x15AF6F0
     Mono::Net::Security::MobileAuthenticatedStream* get_Parent();

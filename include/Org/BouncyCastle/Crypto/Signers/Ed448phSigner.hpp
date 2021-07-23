@@ -73,6 +73,26 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IXof prehash
+    Org::BouncyCastle::Crypto::IXof* _get_prehash();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IXof prehash
+    void _set_prehash(Org::BouncyCastle::Crypto::IXof* value);
+    // Get instance field: private readonly System.Byte[] context
+    ::Array<uint8_t>* _get_context();
+    // Set instance field: private readonly System.Byte[] context
+    void _set_context(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean forSigning
+    bool _get_forSigning();
+    // Set instance field: private System.Boolean forSigning
+    void _set_forSigning(bool value);
+    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters privateKey
+    Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* _get_privateKey();
+    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters privateKey
+    void _set_privateKey(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* value);
+    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters publicKey
+    Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* _get_publicKey();
+    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters publicKey
+    void _set_publicKey(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* value);
     // public System.Void .ctor(System.Byte[] context)
     // Offset: 0x1232804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

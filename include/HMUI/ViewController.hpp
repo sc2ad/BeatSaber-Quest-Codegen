@@ -165,6 +165,58 @@ namespace HMUI {
     static float _get_kTransitionMoveOffset();
     // Set static field: static private System.Single kTransitionMoveOffset
     static void _set_kTransitionMoveOffset(float value);
+    // Get instance field: private HMUI.ViewController/HMUI.DidActivateDelegate didActivateEvent
+    HMUI::ViewController::DidActivateDelegate* _get_didActivateEvent();
+    // Set instance field: private HMUI.ViewController/HMUI.DidActivateDelegate didActivateEvent
+    void _set_didActivateEvent(HMUI::ViewController::DidActivateDelegate* value);
+    // Get instance field: private HMUI.ViewController/HMUI.DidDeactivateDelegate didDeactivateEvent
+    HMUI::ViewController::DidDeactivateDelegate* _get_didDeactivateEvent();
+    // Set instance field: private HMUI.ViewController/HMUI.DidDeactivateDelegate didDeactivateEvent
+    void _set_didDeactivateEvent(HMUI::ViewController::DidDeactivateDelegate* value);
+    // Get instance field: private HMUI.ButtonBinder <buttonBinder>k__BackingField
+    HMUI::ButtonBinder* _get_$buttonBinder$k__BackingField();
+    // Set instance field: private HMUI.ButtonBinder <buttonBinder>k__BackingField
+    void _set_$buttonBinder$k__BackingField(HMUI::ButtonBinder* value);
+    // Get instance field: private HMUI.ContainerViewController _containerViewController
+    HMUI::ContainerViewController* _get__containerViewController();
+    // Set instance field: private HMUI.ContainerViewController _containerViewController
+    void _set__containerViewController(HMUI::ContainerViewController* value);
+    // Get instance field: private HMUI.ViewController _parentViewController
+    HMUI::ViewController* _get__parentViewController();
+    // Set instance field: private HMUI.ViewController _parentViewController
+    void _set__parentViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _childViewController
+    HMUI::ViewController* _get__childViewController();
+    // Set instance field: private HMUI.ViewController _childViewController
+    void _set__childViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.Screen _screen
+    HMUI::Screen* _get__screen();
+    // Set instance field: private HMUI.Screen _screen
+    void _set__screen(HMUI::Screen* value);
+    // Get instance field: private UnityEngine.RectTransform _rectTransform
+    UnityEngine::RectTransform* _get__rectTransform();
+    // Set instance field: private UnityEngine.RectTransform _rectTransform
+    void _set__rectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup* _get__canvasGroup();
+    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
+    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: private System.Boolean _wasActivatedBefore
+    bool _get__wasActivatedBefore();
+    // Set instance field: private System.Boolean _wasActivatedBefore
+    void _set__wasActivatedBefore(bool value);
+    // Get instance field: private System.Boolean _isActivated
+    bool _get__isActivated();
+    // Set instance field: private System.Boolean _isActivated
+    void _set__isActivated(bool value);
+    // Get instance field: private System.Boolean _isInTransition
+    bool _get__isInTransition();
+    // Set instance field: private System.Boolean _isInTransition
+    void _set__isInTransition(bool value);
+    // Get instance field: private UnityEngine.EventSystems.BaseRaycaster _graphicRaycaster
+    UnityEngine::EventSystems::BaseRaycaster* _get__graphicRaycaster();
+    // Set instance field: private UnityEngine.EventSystems.BaseRaycaster _graphicRaycaster
+    void _set__graphicRaycaster(UnityEngine::EventSystems::BaseRaycaster* value);
     // public HMUI.ContainerViewController get_containerViewController()
     // Offset: 0x12A42A4
     HMUI::ContainerViewController* get_containerViewController();

@@ -67,6 +67,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment _get_Production();
       // Set static field: static public PlatformUserAuthTokenData/PlatformEnviroment Production
       static void _set_Production(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
+      // Get instance field: public System.Byte value__
+      uint8_t _get_value__();
+      // Set instance field: public System.Byte value__
+      void _set_value__(uint8_t value);
     }; // PlatformUserAuthTokenData/PlatformEnviroment
     #pragma pack(pop)
     static check_size<sizeof(PlatformUserAuthTokenData::PlatformEnviroment), 0 + sizeof(uint8_t)> __GlobalNamespace_PlatformUserAuthTokenData_PlatformEnviromentSizeCheck;
@@ -85,6 +89,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
     // Creating value type constructor for type: PlatformUserAuthTokenData
     PlatformUserAuthTokenData(::Il2CppString* token_ = {}, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment_ = {}) noexcept : token{token_}, validPlatformEnvironment{validPlatformEnvironment_} {}
+    // Get instance field: private System.String <token>k__BackingField
+    ::Il2CppString* _get_$token$k__BackingField();
+    // Set instance field: private System.String <token>k__BackingField
+    void _set_$token$k__BackingField(::Il2CppString* value);
+    // Get instance field: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
+    GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment _get_$validPlatformEnvironment$k__BackingField();
+    // Set instance field: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
+    void _set_$validPlatformEnvironment$k__BackingField(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
     // public System.String get_token()
     // Offset: 0x10FEFE0
     ::Il2CppString* get_token();

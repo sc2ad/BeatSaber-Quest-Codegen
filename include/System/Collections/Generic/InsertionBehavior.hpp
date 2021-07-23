@@ -49,6 +49,10 @@ namespace System::Collections::Generic {
     static System::Collections::Generic::InsertionBehavior _get_ThrowOnExisting();
     // Set static field: static public System.Collections.Generic.InsertionBehavior ThrowOnExisting
     static void _set_ThrowOnExisting(System::Collections::Generic::InsertionBehavior value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // System.Collections.Generic.InsertionBehavior
   #pragma pack(pop)
   static check_size<sizeof(InsertionBehavior), 0 + sizeof(uint8_t)> __System_Collections_Generic_InsertionBehaviorSizeCheck;

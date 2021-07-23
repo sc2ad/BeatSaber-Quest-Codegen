@@ -60,6 +60,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
     // Creating value type constructor for type: LightmapLightWithIds
     LightmapLightWithIds(float maxTotalIntensity_ = {}, ::Array<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*>* lightIntensityData_ = {}, System::Action_1<float>* globalIntensityDidChangeEvent_ = {}) noexcept : maxTotalIntensity{maxTotalIntensity_}, lightIntensityData{lightIntensityData_}, globalIntensityDidChangeEvent{globalIntensityDidChangeEvent_} {}
+    // Get instance field: private System.Single _maxTotalIntensity
+    float _get__maxTotalIntensity();
+    // Set instance field: private System.Single _maxTotalIntensity
+    void _set__maxTotalIntensity(float value);
+    // Get instance field: private LightmapLightWithIds/LightIntensitiesData[] _lightIntensityData
+    ::Array<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*>* _get__lightIntensityData();
+    // Set instance field: private LightmapLightWithIds/LightIntensitiesData[] _lightIntensityData
+    void _set__lightIntensityData(::Array<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*>* value);
+    // Get instance field: private System.Action`1<System.Single> globalIntensityDidChangeEvent
+    System::Action_1<float>* _get_globalIntensityDidChangeEvent();
+    // Set instance field: private System.Action`1<System.Single> globalIntensityDidChangeEvent
+    void _set_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_maxTotalIntensity()
     // Offset: 0x1DF4884
     float get_maxTotalIntensity();

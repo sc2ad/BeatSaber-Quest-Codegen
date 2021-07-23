@@ -81,6 +81,22 @@ namespace Org::BouncyCastle::Crypto::Signers {
     static System::Collections::IDictionary* _get_oidMap();
     // Set static field: static private readonly System.Collections.IDictionary oidMap
     static void _set_oidMap(System::Collections::IDictionary* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher rsaEngine
+    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* _get_rsaEngine();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher rsaEngine
+    void _set_rsaEngine(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_algId();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId
+    void _set_algId(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest* _get_digest();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field: private System.Boolean forSigning
+    bool _get_forSigning();
+    // Set instance field: private System.Boolean forSigning
+    void _set_forSigning(bool value);
     // static private System.Void .cctor()
     // Offset: 0x1236388
     static void _cctor();

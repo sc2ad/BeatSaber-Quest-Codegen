@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     BetaBuildInfoText(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI* _get__text();
+    // Set instance field: private TMPro.TextMeshProUGUI _text
+    void _set__text(TMPro::TextMeshProUGUI* value);
     // protected System.Void Start()
     // Offset: 0x109AA38
     void Start();

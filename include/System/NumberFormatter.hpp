@@ -189,6 +189,78 @@ namespace System {
     static System::NumberFormatter* _get_userFormatProvider();
     // Set static field: static private System.NumberFormatter userFormatProvider
     static void _set_userFormatProvider(System::NumberFormatter* value);
+    // Get instance field: private System.Globalization.NumberFormatInfo _nfi
+    System::Globalization::NumberFormatInfo* _get__nfi();
+    // Set instance field: private System.Globalization.NumberFormatInfo _nfi
+    void _set__nfi(System::Globalization::NumberFormatInfo* value);
+    // Get instance field: private System.Char[] _cbuf
+    ::Array<::Il2CppChar>* _get__cbuf();
+    // Set instance field: private System.Char[] _cbuf
+    void _set__cbuf(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.Boolean _NaN
+    bool _get__NaN();
+    // Set instance field: private System.Boolean _NaN
+    void _set__NaN(bool value);
+    // Get instance field: private System.Boolean _infinity
+    bool _get__infinity();
+    // Set instance field: private System.Boolean _infinity
+    void _set__infinity(bool value);
+    // Get instance field: private System.Boolean _isCustomFormat
+    bool _get__isCustomFormat();
+    // Set instance field: private System.Boolean _isCustomFormat
+    void _set__isCustomFormat(bool value);
+    // Get instance field: private System.Boolean _specifierIsUpper
+    bool _get__specifierIsUpper();
+    // Set instance field: private System.Boolean _specifierIsUpper
+    void _set__specifierIsUpper(bool value);
+    // Get instance field: private System.Boolean _positive
+    bool _get__positive();
+    // Set instance field: private System.Boolean _positive
+    void _set__positive(bool value);
+    // Get instance field: private System.Char _specifier
+    ::Il2CppChar _get__specifier();
+    // Set instance field: private System.Char _specifier
+    void _set__specifier(::Il2CppChar value);
+    // Get instance field: private System.Int32 _precision
+    int _get__precision();
+    // Set instance field: private System.Int32 _precision
+    void _set__precision(int value);
+    // Get instance field: private System.Int32 _defPrecision
+    int _get__defPrecision();
+    // Set instance field: private System.Int32 _defPrecision
+    void _set__defPrecision(int value);
+    // Get instance field: private System.Int32 _digitsLen
+    int _get__digitsLen();
+    // Set instance field: private System.Int32 _digitsLen
+    void _set__digitsLen(int value);
+    // Get instance field: private System.Int32 _offset
+    int _get__offset();
+    // Set instance field: private System.Int32 _offset
+    void _set__offset(int value);
+    // Get instance field: private System.Int32 _decPointPos
+    int _get__decPointPos();
+    // Set instance field: private System.Int32 _decPointPos
+    void _set__decPointPos(int value);
+    // Get instance field: private System.UInt32 _val1
+    uint _get__val1();
+    // Set instance field: private System.UInt32 _val1
+    void _set__val1(uint value);
+    // Get instance field: private System.UInt32 _val2
+    uint _get__val2();
+    // Set instance field: private System.UInt32 _val2
+    void _set__val2(uint value);
+    // Get instance field: private System.UInt32 _val3
+    uint _get__val3();
+    // Set instance field: private System.UInt32 _val3
+    void _set__val3(uint value);
+    // Get instance field: private System.UInt32 _val4
+    uint _get__val4();
+    // Set instance field: private System.UInt32 _val4
+    void _set__val4(uint value);
+    // Get instance field: private System.Int32 _ind
+    int _get__ind();
+    // Set instance field: private System.Int32 _ind
+    void _set__ind(int value);
     // private System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
     // Offset: 0x180322C
     void set_CurrentCulture(System::Globalization::CultureInfo* value);

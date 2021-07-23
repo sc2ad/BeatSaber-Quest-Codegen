@@ -98,6 +98,50 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
+    // Get instance field: protected readonly System.Int32 c
+    int _get_c();
+    // Set instance field: protected readonly System.Int32 c
+    void _set_c(int value);
+    // Get instance field: protected readonly System.Int32 d
+    int _get_d();
+    // Set instance field: protected readonly System.Int32 d
+    void _set_d(int value);
+    // Get instance field: protected System.Int64 k0
+    int64_t _get_k0();
+    // Set instance field: protected System.Int64 k0
+    void _set_k0(int64_t value);
+    // Get instance field: protected System.Int64 k1
+    int64_t _get_k1();
+    // Set instance field: protected System.Int64 k1
+    void _set_k1(int64_t value);
+    // Get instance field: protected System.Int64 v0
+    int64_t _get_v0();
+    // Set instance field: protected System.Int64 v0
+    void _set_v0(int64_t value);
+    // Get instance field: protected System.Int64 v1
+    int64_t _get_v1();
+    // Set instance field: protected System.Int64 v1
+    void _set_v1(int64_t value);
+    // Get instance field: protected System.Int64 v2
+    int64_t _get_v2();
+    // Set instance field: protected System.Int64 v2
+    void _set_v2(int64_t value);
+    // Get instance field: protected System.Int64 v3
+    int64_t _get_v3();
+    // Set instance field: protected System.Int64 v3
+    void _set_v3(int64_t value);
+    // Get instance field: protected System.Int64 m
+    int64_t _get_m();
+    // Set instance field: protected System.Int64 m
+    void _set_m(int64_t value);
+    // Get instance field: protected System.Int32 wordPos
+    int _get_wordPos();
+    // Set instance field: protected System.Int32 wordPos
+    void _set_wordPos(int value);
+    // Get instance field: protected System.Int32 wordCount
+    int _get_wordCount();
+    // Set instance field: protected System.Int32 wordCount
+    void _set_wordCount(int value);
     // public System.Void .ctor(System.Int32 c, System.Int32 d)
     // Offset: 0x18C10DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,6 +44,10 @@ namespace System::IO {
     static System::IO::SearchOption _get_AllDirectories();
     // Set static field: static public System.IO.SearchOption AllDirectories
     static void _set_AllDirectories(System::IO::SearchOption value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IO.SearchOption
   #pragma pack(pop)
   static check_size<sizeof(SearchOption), 0 + sizeof(int)> __System_IO_SearchOptionSizeCheck;

@@ -74,6 +74,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType _get_MaxOr0();
       // Set static field: static public TrackLaneRingsRotationEffectSpawner/RotationStepType MaxOr0
       static void _set_MaxOr0(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // TrackLaneRingsRotationEffectSpawner/RotationStepType
     #pragma pack(pop)
     static check_size<sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType), 0 + sizeof(int)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawner_RotationStepTypeSizeCheck;
@@ -133,6 +137,38 @@ namespace GlobalNamespace {
     TrackLaneRingsRotationEffectSpawner(GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float rotation_ = {}, float rotationStep_ = {}, GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType rotationStepType_ = {}, int rotationPropagationSpeed_ = {}, float rotationFlexySpeed_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : trackLaneRingsRotationEffect{trackLaneRingsRotationEffect_}, beatmapEventType{beatmapEventType_}, rotation{rotation_}, rotationStep{rotationStep_}, rotationStepType{rotationStepType_}, rotationPropagationSpeed{rotationPropagationSpeed_}, rotationFlexySpeed{rotationFlexySpeed_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
+    GlobalNamespace::TrackLaneRingsRotationEffect* _get__trackLaneRingsRotationEffect();
+    // Set instance field: private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
+    void _set__trackLaneRingsRotationEffect(GlobalNamespace::TrackLaneRingsRotationEffect* value);
+    // Get instance field: private BeatmapEventType _beatmapEventType
+    GlobalNamespace::BeatmapEventType _get__beatmapEventType();
+    // Set instance field: private BeatmapEventType _beatmapEventType
+    void _set__beatmapEventType(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private System.Single _rotation
+    float _get__rotation();
+    // Set instance field: private System.Single _rotation
+    void _set__rotation(float value);
+    // Get instance field: private System.Single _rotationStep
+    float _get__rotationStep();
+    // Set instance field: private System.Single _rotationStep
+    void _set__rotationStep(float value);
+    // Get instance field: private TrackLaneRingsRotationEffectSpawner/RotationStepType _rotationStepType
+    GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType _get__rotationStepType();
+    // Set instance field: private TrackLaneRingsRotationEffectSpawner/RotationStepType _rotationStepType
+    void _set__rotationStepType(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType value);
+    // Get instance field: private System.Int32 _rotationPropagationSpeed
+    int _get__rotationPropagationSpeed();
+    // Set instance field: private System.Int32 _rotationPropagationSpeed
+    void _set__rotationPropagationSpeed(int value);
+    // Get instance field: private System.Single _rotationFlexySpeed
+    float _get__rotationFlexySpeed();
+    // Set instance field: private System.Single _rotationFlexySpeed
+    void _set__rotationFlexySpeed(float value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
     // protected System.Void Start()
     // Offset: 0x1070638
     void Start();

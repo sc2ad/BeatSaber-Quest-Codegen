@@ -45,6 +45,10 @@ namespace OVRSimpleJSON {
     constexpr operator bool() const noexcept {
       return m_Data;
     }
+    // Get instance field: private System.Boolean m_Data
+    bool _get_m_Data();
+    // Set instance field: private System.Boolean m_Data
+    void _set_m_Data(bool value);
     // public System.Void .ctor(System.Boolean aData)
     // Offset: 0x15FE3D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

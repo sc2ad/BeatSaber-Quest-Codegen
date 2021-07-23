@@ -58,6 +58,18 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(System::IO::MemoryStream*) == 0x8);
     // Creating value type constructor for type: BufferedIesCipher
     BufferedIesCipher(Org::BouncyCastle::Crypto::Engines::IesEngine* engine_ = {}, bool forEncryption_ = {}, System::IO::MemoryStream* buffer_ = {}) noexcept : engine{engine_}, forEncryption{forEncryption_}, buffer{buffer_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Engines.IesEngine engine
+    Org::BouncyCastle::Crypto::Engines::IesEngine* _get_engine();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Engines.IesEngine engine
+    void _set_engine(Org::BouncyCastle::Crypto::Engines::IesEngine* value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
+    // Get instance field: private System.IO.MemoryStream buffer
+    System::IO::MemoryStream* _get_buffer();
+    // Set instance field: private System.IO.MemoryStream buffer
+    void _set_buffer(System::IO::MemoryStream* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Engines.IesEngine engine)
     // Offset: 0x1D01D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

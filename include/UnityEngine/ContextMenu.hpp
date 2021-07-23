@@ -43,6 +43,18 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ContextMenu
     ContextMenu(::Il2CppString* menuItem_ = {}, bool validate_ = {}, int priority_ = {}) noexcept : menuItem{menuItem_}, validate{validate_}, priority{priority_} {}
+    // Get instance field: public readonly System.String menuItem
+    ::Il2CppString* _get_menuItem();
+    // Set instance field: public readonly System.String menuItem
+    void _set_menuItem(::Il2CppString* value);
+    // Get instance field: public readonly System.Boolean validate
+    bool _get_validate();
+    // Set instance field: public readonly System.Boolean validate
+    void _set_validate(bool value);
+    // Get instance field: public readonly System.Int32 priority
+    int _get_priority();
+    // Set instance field: public readonly System.Int32 priority
+    void _set_priority(int value);
     // public System.Void .ctor(System.String itemName)
     // Offset: 0x1BE34A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

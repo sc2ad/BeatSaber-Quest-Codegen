@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::EntitlementsStatus _get_Ok();
     // Set static field: static public EntitlementsStatus Ok
     static void _set_Ok(GlobalNamespace::EntitlementsStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // EntitlementsStatus
   #pragma pack(pop)
   static check_size<sizeof(EntitlementsStatus), 0 + sizeof(int)> __GlobalNamespace_EntitlementsStatusSizeCheck;

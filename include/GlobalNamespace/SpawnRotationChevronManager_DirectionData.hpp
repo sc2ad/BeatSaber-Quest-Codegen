@@ -54,6 +54,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: DirectionData
     DirectionData(GlobalNamespace::SpawnRotationChevron* chevron_ = {}, bool fullyLid_ = {}, float fadeOutStartTime_ = {}, float fadeInEndTime_ = {}) noexcept : chevron{chevron_}, fullyLid{fullyLid_}, fadeOutStartTime{fadeOutStartTime_}, fadeInEndTime{fadeInEndTime_} {}
+    // Get instance field: public SpawnRotationChevron chevron
+    GlobalNamespace::SpawnRotationChevron* _get_chevron();
+    // Set instance field: public SpawnRotationChevron chevron
+    void _set_chevron(GlobalNamespace::SpawnRotationChevron* value);
+    // Get instance field: public System.Boolean fullyLid
+    bool _get_fullyLid();
+    // Set instance field: public System.Boolean fullyLid
+    void _set_fullyLid(bool value);
+    // Get instance field: public System.Single fadeOutStartTime
+    float _get_fadeOutStartTime();
+    // Set instance field: public System.Single fadeOutStartTime
+    void _set_fadeOutStartTime(float value);
+    // Get instance field: public System.Single fadeInEndTime
+    float _get_fadeInEndTime();
+    // Set instance field: public System.Single fadeInEndTime
+    void _set_fadeInEndTime(float value);
     // public System.Void .ctor()
     // Offset: 0x105E9B0
     // Implemented from: System.Object

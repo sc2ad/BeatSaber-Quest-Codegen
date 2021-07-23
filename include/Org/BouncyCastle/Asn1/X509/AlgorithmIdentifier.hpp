@@ -46,6 +46,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
     // Creating value type constructor for type: AlgorithmIdentifier
     AlgorithmIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* parameters_ = {}) noexcept : algorithm{algorithm_}, parameters{parameters_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_algorithm();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm
+    void _set_algorithm(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Encodable parameters
+    Org::BouncyCastle::Asn1::Asn1Encodable* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Encodable parameters
+    void _set_parameters(Org::BouncyCastle::Asn1::Asn1Encodable* value);
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Algorithm()
     // Offset: 0x19D5D98
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();

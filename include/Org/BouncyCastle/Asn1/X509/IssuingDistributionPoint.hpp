@@ -88,6 +88,34 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
     // Creating value type constructor for type: IssuingDistributionPoint
     IssuingDistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint_ = {}, bool onlyContainsUserCerts_ = {}, bool onlyContainsCACerts_ = {}, Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons_ = {}, bool indirectCRL_ = {}, bool onlyContainsAttributeCerts_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}) noexcept : distributionPoint{distributionPoint_}, onlyContainsUserCerts{onlyContainsUserCerts_}, onlyContainsCACerts{onlyContainsCACerts_}, onlySomeReasons{onlySomeReasons_}, indirectCRL{indirectCRL_}, onlyContainsAttributeCerts{onlyContainsAttributeCerts_}, seq{seq_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.DistributionPointName _distributionPoint
+    Org::BouncyCastle::Asn1::X509::DistributionPointName* _get__distributionPoint();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.DistributionPointName _distributionPoint
+    void _set__distributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
+    // Get instance field: private readonly System.Boolean _onlyContainsUserCerts
+    bool _get__onlyContainsUserCerts();
+    // Set instance field: private readonly System.Boolean _onlyContainsUserCerts
+    void _set__onlyContainsUserCerts(bool value);
+    // Get instance field: private readonly System.Boolean _onlyContainsCACerts
+    bool _get__onlyContainsCACerts();
+    // Set instance field: private readonly System.Boolean _onlyContainsCACerts
+    void _set__onlyContainsCACerts(bool value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.ReasonFlags _onlySomeReasons
+    Org::BouncyCastle::Asn1::X509::ReasonFlags* _get__onlySomeReasons();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.ReasonFlags _onlySomeReasons
+    void _set__onlySomeReasons(Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
+    // Get instance field: private readonly System.Boolean _indirectCRL
+    bool _get__indirectCRL();
+    // Set instance field: private readonly System.Boolean _indirectCRL
+    void _set__indirectCRL(bool value);
+    // Get instance field: private readonly System.Boolean _onlyContainsAttributeCerts
+    bool _get__onlyContainsAttributeCerts();
+    // Set instance field: private readonly System.Boolean _onlyContainsAttributeCerts
+    void _set__onlyContainsAttributeCerts(bool value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
+    Org::BouncyCastle::Asn1::Asn1Sequence* _get_seq();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
+    void _set_seq(Org::BouncyCastle::Asn1::Asn1Sequence* value);
     // public System.Boolean get_IsIndirectCrl()
     // Offset: 0x19DB780
     bool get_IsIndirectCrl();

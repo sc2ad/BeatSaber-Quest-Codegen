@@ -123,6 +123,62 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Footstep
     Footstep(float stepSpeed_ = {}, UnityEngine::Vector3 characterSpaceOffset_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Quaternion stepToRootRot_ = {}, bool isSupportLeg_ = {}, float stepProgress_ = {}, UnityEngine::Vector3 stepFrom_ = {}, UnityEngine::Vector3 stepTo_ = {}, UnityEngine::Quaternion stepFromRot_ = {}, UnityEngine::Quaternion stepToRot_ = {}, UnityEngine::Quaternion footRelativeToRoot_ = {}, float supportLegW_ = {}, float supportLegWV_ = {}) noexcept : stepSpeed{stepSpeed_}, characterSpaceOffset{characterSpaceOffset_}, position{position_}, rotation{rotation_}, stepToRootRot{stepToRootRot_}, isSupportLeg{isSupportLeg_}, stepProgress{stepProgress_}, stepFrom{stepFrom_}, stepTo{stepTo_}, stepFromRot{stepFromRot_}, stepToRot{stepToRot_}, footRelativeToRoot{footRelativeToRoot_}, supportLegW{supportLegW_}, supportLegWV{supportLegWV_} {}
+    // Get instance field: public System.Single stepSpeed
+    float _get_stepSpeed();
+    // Set instance field: public System.Single stepSpeed
+    void _set_stepSpeed(float value);
+    // Get instance field: public UnityEngine.Vector3 characterSpaceOffset
+    UnityEngine::Vector3 _get_characterSpaceOffset();
+    // Set instance field: public UnityEngine.Vector3 characterSpaceOffset
+    void _set_characterSpaceOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 position
+    UnityEngine::Vector3 _get_position();
+    // Set instance field: public UnityEngine.Vector3 position
+    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion rotation
+    UnityEngine::Quaternion _get_rotation();
+    // Set instance field: public UnityEngine.Quaternion rotation
+    void _set_rotation(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Quaternion stepToRootRot
+    UnityEngine::Quaternion _get_stepToRootRot();
+    // Set instance field: public UnityEngine.Quaternion stepToRootRot
+    void _set_stepToRootRot(UnityEngine::Quaternion value);
+    // Get instance field: public System.Boolean isSupportLeg
+    bool _get_isSupportLeg();
+    // Set instance field: public System.Boolean isSupportLeg
+    void _set_isSupportLeg(bool value);
+    // Get instance field: private System.Single <stepProgress>k__BackingField
+    float _get_$stepProgress$k__BackingField();
+    // Set instance field: private System.Single <stepProgress>k__BackingField
+    void _set_$stepProgress$k__BackingField(float value);
+    // Get instance field: public UnityEngine.Vector3 stepFrom
+    UnityEngine::Vector3 _get_stepFrom();
+    // Set instance field: public UnityEngine.Vector3 stepFrom
+    void _set_stepFrom(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 stepTo
+    UnityEngine::Vector3 _get_stepTo();
+    // Set instance field: public UnityEngine.Vector3 stepTo
+    void _set_stepTo(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion stepFromRot
+    UnityEngine::Quaternion _get_stepFromRot();
+    // Set instance field: public UnityEngine.Quaternion stepFromRot
+    void _set_stepFromRot(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Quaternion stepToRot
+    UnityEngine::Quaternion _get_stepToRot();
+    // Set instance field: public UnityEngine.Quaternion stepToRot
+    void _set_stepToRot(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion footRelativeToRoot
+    UnityEngine::Quaternion _get_footRelativeToRoot();
+    // Set instance field: private UnityEngine.Quaternion footRelativeToRoot
+    void _set_footRelativeToRoot(UnityEngine::Quaternion value);
+    // Get instance field: private System.Single supportLegW
+    float _get_supportLegW();
+    // Set instance field: private System.Single supportLegW
+    void _set_supportLegW(float value);
+    // Get instance field: private System.Single supportLegWV
+    float _get_supportLegWV();
+    // Set instance field: private System.Single supportLegWV
+    void _set_supportLegWV(float value);
     // public System.Boolean get_isStepping()
     // Offset: 0x1E27E30
     bool get_isStepping();

@@ -94,6 +94,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: OVRControllerBase
     OVRControllerBase(GlobalNamespace::OVRInput::Controller controllerType_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* buttonMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* touchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* nearTouchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* axis1DMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* axis2DMap_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 previousState_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 currentState_ = {}, bool shouldApplyDeadzone_ = {}) noexcept : controllerType{controllerType_}, buttonMap{buttonMap_}, touchMap{touchMap_}, nearTouchMap{nearTouchMap_}, axis1DMap{axis1DMap_}, axis2DMap{axis2DMap_}, previousState{previousState_}, currentState{currentState_}, shouldApplyDeadzone{shouldApplyDeadzone_} {}
+    // Get instance field: public OVRInput/Controller controllerType
+    GlobalNamespace::OVRInput::Controller _get_controllerType();
+    // Set instance field: public OVRInput/Controller controllerType
+    void _set_controllerType(GlobalNamespace::OVRInput::Controller value);
+    // Get instance field: public OVRInput/OVRControllerBase/VirtualButtonMap buttonMap
+    GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* _get_buttonMap();
+    // Set instance field: public OVRInput/OVRControllerBase/VirtualButtonMap buttonMap
+    void _set_buttonMap(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* value);
+    // Get instance field: public OVRInput/OVRControllerBase/VirtualTouchMap touchMap
+    GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* _get_touchMap();
+    // Set instance field: public OVRInput/OVRControllerBase/VirtualTouchMap touchMap
+    void _set_touchMap(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* value);
+    // Get instance field: public OVRInput/OVRControllerBase/VirtualNearTouchMap nearTouchMap
+    GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* _get_nearTouchMap();
+    // Set instance field: public OVRInput/OVRControllerBase/VirtualNearTouchMap nearTouchMap
+    void _set_nearTouchMap(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* value);
+    // Get instance field: public OVRInput/OVRControllerBase/VirtualAxis1DMap axis1DMap
+    GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* _get_axis1DMap();
+    // Set instance field: public OVRInput/OVRControllerBase/VirtualAxis1DMap axis1DMap
+    void _set_axis1DMap(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* value);
+    // Get instance field: public OVRInput/OVRControllerBase/VirtualAxis2DMap axis2DMap
+    GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* _get_axis2DMap();
+    // Set instance field: public OVRInput/OVRControllerBase/VirtualAxis2DMap axis2DMap
+    void _set_axis2DMap(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* value);
+    // Get instance field: public OVRPlugin/ControllerState4 previousState
+    GlobalNamespace::OVRPlugin::ControllerState4 _get_previousState();
+    // Set instance field: public OVRPlugin/ControllerState4 previousState
+    void _set_previousState(GlobalNamespace::OVRPlugin::ControllerState4 value);
+    // Get instance field: public OVRPlugin/ControllerState4 currentState
+    GlobalNamespace::OVRPlugin::ControllerState4 _get_currentState();
+    // Set instance field: public OVRPlugin/ControllerState4 currentState
+    void _set_currentState(GlobalNamespace::OVRPlugin::ControllerState4 value);
+    // Get instance field: public System.Boolean shouldApplyDeadzone
+    bool _get_shouldApplyDeadzone();
+    // Set instance field: public System.Boolean shouldApplyDeadzone
+    void _set_shouldApplyDeadzone(bool value);
     // public OVRInput/Controller Update()
     // Offset: 0x14EABF8
     GlobalNamespace::OVRInput::Controller Update();

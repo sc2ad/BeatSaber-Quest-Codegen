@@ -68,6 +68,26 @@ namespace UnityEngine::TextCore::LowLevel {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt32 index
+    uint _get_index();
+    // Set instance field: public System.UInt32 index
+    void _set_index(uint value);
+    // Get instance field: public UnityEngine.TextCore.GlyphMetrics metrics
+    UnityEngine::TextCore::GlyphMetrics _get_metrics();
+    // Set instance field: public UnityEngine.TextCore.GlyphMetrics metrics
+    void _set_metrics(UnityEngine::TextCore::GlyphMetrics value);
+    // Get instance field: public UnityEngine.TextCore.GlyphRect glyphRect
+    UnityEngine::TextCore::GlyphRect _get_glyphRect();
+    // Set instance field: public UnityEngine.TextCore.GlyphRect glyphRect
+    void _set_glyphRect(UnityEngine::TextCore::GlyphRect value);
+    // Get instance field: public System.Single scale
+    float _get_scale();
+    // Set instance field: public System.Single scale
+    void _set_scale(float value);
+    // Get instance field: public System.Int32 atlasIndex
+    int _get_atlasIndex();
+    // Set instance field: public System.Int32 atlasIndex
+    void _set_atlasIndex(int value);
     // public System.Void .ctor(UnityEngine.TextCore.Glyph glyph)
     // Offset: 0xF0E018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

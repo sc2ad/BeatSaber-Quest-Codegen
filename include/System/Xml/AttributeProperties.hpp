@@ -55,6 +55,10 @@ namespace System::Xml {
     static System::Xml::AttributeProperties _get_NAME();
     // Set static field: static public System.Xml.AttributeProperties NAME
     static void _set_NAME(System::Xml::AttributeProperties value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // System.Xml.AttributeProperties
   #pragma pack(pop)
   static check_size<sizeof(AttributeProperties), 0 + sizeof(uint)> __System_Xml_AttributePropertiesSizeCheck;

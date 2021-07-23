@@ -44,6 +44,18 @@ namespace Mono::Unity {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.UInt32 magic
+    uint _get_magic();
+    // Set instance field: private System.UInt32 magic
+    void _set_magic(uint value);
+    // Get instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code code
+    Mono::Unity::UnityTls::unitytls_error_code _get_code();
+    // Set instance field: public Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code code
+    void _set_code(Mono::Unity::UnityTls::unitytls_error_code value);
+    // Get instance field: private System.UInt64 reserved
+    uint64_t _get_reserved();
+    // Set instance field: private System.UInt64 reserved
+    void _set_reserved(uint64_t value);
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_errorstate), 8 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_errorstateSizeCheck;

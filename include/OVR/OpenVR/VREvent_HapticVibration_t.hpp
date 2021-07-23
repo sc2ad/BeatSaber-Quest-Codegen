@@ -52,6 +52,26 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt64 containerHandle
+    uint64_t _get_containerHandle();
+    // Set instance field: public System.UInt64 containerHandle
+    void _set_containerHandle(uint64_t value);
+    // Get instance field: public System.UInt64 componentHandle
+    uint64_t _get_componentHandle();
+    // Set instance field: public System.UInt64 componentHandle
+    void _set_componentHandle(uint64_t value);
+    // Get instance field: public System.Single fDurationSeconds
+    float _get_fDurationSeconds();
+    // Set instance field: public System.Single fDurationSeconds
+    void _set_fDurationSeconds(float value);
+    // Get instance field: public System.Single fFrequency
+    float _get_fFrequency();
+    // Set instance field: public System.Single fFrequency
+    void _set_fFrequency(float value);
+    // Get instance field: public System.Single fAmplitude
+    float _get_fAmplitude();
+    // Set instance field: public System.Single fAmplitude
+    void _set_fAmplitude(float value);
   }; // OVR.OpenVR.VREvent_HapticVibration_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_HapticVibration_t), 24 + sizeof(float)> __OVR_OpenVR_VREvent_HapticVibration_tSizeCheck;

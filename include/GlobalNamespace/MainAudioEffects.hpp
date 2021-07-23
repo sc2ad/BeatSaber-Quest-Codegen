@@ -62,6 +62,18 @@ namespace GlobalNamespace {
     static int _get_kLowPassCutoffFrequency();
     // Set static field: static private System.Int32 kLowPassCutoffFrequency
     static void _set_kLowPassCutoffFrequency(int value);
+    // Get instance field: private UnityEngine.AudioLowPassFilter _audioLowPassFilter
+    UnityEngine::AudioLowPassFilter* _get__audioLowPassFilter();
+    // Set instance field: private UnityEngine.AudioLowPassFilter _audioLowPassFilter
+    void _set__audioLowPassFilter(UnityEngine::AudioLowPassFilter* value);
+    // Get instance field: private System.Single _smooth
+    float _get__smooth();
+    // Set instance field: private System.Single _smooth
+    void _set__smooth(float value);
+    // Get instance field: private System.Single _targetFrequency
+    float _get__targetFrequency();
+    // Set instance field: private System.Single _targetFrequency
+    void _set__targetFrequency(float value);
     // protected System.Void Start()
     // Offset: 0x1178A5C
     void Start();

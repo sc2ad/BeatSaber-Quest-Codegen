@@ -103,6 +103,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MissionNode*) == 0x8);
     // Creating value type constructor for type: MissionLevelDetailViewController
     MissionLevelDetailViewController(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, UnityEngine::UI::Button* playButton_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, GlobalNamespace::ObjectiveListItemsList* objectiveListItems_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* gameplayModifierInfoListItemsList_ = {}, UnityEngine::GameObject* modifiersPanelGO_ = {}, System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* didPressPlayButtonEvent_ = {}, GlobalNamespace::MissionNode* missionNode_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, playButton{playButton_}, levelBar{levelBar_}, objectiveListItems{objectiveListItems_}, gameplayModifierInfoListItemsList{gameplayModifierInfoListItemsList_}, modifiersPanelGO{modifiersPanelGO_}, didPressPlayButtonEvent{didPressPlayButtonEvent_}, missionNode{missionNode_} {}
+    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
+    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
+    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
+    // Get instance field: private UnityEngine.UI.Button _playButton
+    UnityEngine::UI::Button* _get__playButton();
+    // Set instance field: private UnityEngine.UI.Button _playButton
+    void _set__playButton(UnityEngine::UI::Button* value);
+    // Get instance field: private LevelBar _levelBar
+    GlobalNamespace::LevelBar* _get__levelBar();
+    // Set instance field: private LevelBar _levelBar
+    void _set__levelBar(GlobalNamespace::LevelBar* value);
+    // Get instance field: private ObjectiveListItemsList _objectiveListItems
+    GlobalNamespace::ObjectiveListItemsList* _get__objectiveListItems();
+    // Set instance field: private ObjectiveListItemsList _objectiveListItems
+    void _set__objectiveListItems(GlobalNamespace::ObjectiveListItemsList* value);
+    // Get instance field: private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
+    GlobalNamespace::GameplayModifierInfoListItemsList* _get__gameplayModifierInfoListItemsList();
+    // Set instance field: private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
+    void _set__gameplayModifierInfoListItemsList(GlobalNamespace::GameplayModifierInfoListItemsList* value);
+    // Get instance field: private UnityEngine.GameObject _modifiersPanelGO
+    UnityEngine::GameObject* _get__modifiersPanelGO();
+    // Set instance field: private UnityEngine.GameObject _modifiersPanelGO
+    void _set__modifiersPanelGO(UnityEngine::GameObject* value);
+    // Get instance field: private System.Action`1<MissionLevelDetailViewController> didPressPlayButtonEvent
+    System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* _get_didPressPlayButtonEvent();
+    // Set instance field: private System.Action`1<MissionLevelDetailViewController> didPressPlayButtonEvent
+    void _set_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
+    // Get instance field: private MissionNode _missionNode
+    GlobalNamespace::MissionNode* _get__missionNode();
+    // Set instance field: private MissionNode _missionNode
+    void _set__missionNode(GlobalNamespace::MissionNode* value);
     // public MissionNode get_missionNode()
     // Offset: 0x11313D8
     GlobalNamespace::MissionNode* get_missionNode();

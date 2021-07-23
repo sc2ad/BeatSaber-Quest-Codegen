@@ -40,6 +40,18 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int64 TotalBytes
+    int64_t _get_TotalBytes();
+    // Set instance field: public System.Int64 TotalBytes
+    void _set_TotalBytes(int64_t value);
+    // Get instance field: public System.Int64 DownloadedBytes
+    int64_t _get_DownloadedBytes();
+    // Set instance field: public System.Int64 DownloadedBytes
+    void _set_DownloadedBytes(int64_t value);
+    // Get instance field: public System.Boolean IsDone
+    bool _get_IsDone();
+    // Set instance field: public System.Boolean IsDone
+    void _set_IsDone(bool value);
     // public System.Single get_Percent()
     // Offset: 0xEEBF20
     float get_Percent();

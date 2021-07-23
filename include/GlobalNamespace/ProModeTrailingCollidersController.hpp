@@ -61,6 +61,22 @@ namespace GlobalNamespace {
     ProModeTrailingCollidersController(GlobalNamespace::BoxCuttableBySaber* mainSmallCuttableBySaber_ = {}, ::Array<GlobalNamespace::BoxCuttableBySaber*>* trailingSmallCuttableBySaberList_ = {}, GlobalNamespace::NoteMovement* noteMovement_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : mainSmallCuttableBySaber{mainSmallCuttableBySaber_}, trailingSmallCuttableBySaberList{trailingSmallCuttableBySaberList_}, noteMovement{noteMovement_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BoxCuttableBySaber _mainSmallCuttableBySaber
+    GlobalNamespace::BoxCuttableBySaber* _get__mainSmallCuttableBySaber();
+    // Set instance field: private BoxCuttableBySaber _mainSmallCuttableBySaber
+    void _set__mainSmallCuttableBySaber(GlobalNamespace::BoxCuttableBySaber* value);
+    // Get instance field: private BoxCuttableBySaber[] _trailingSmallCuttableBySaberList
+    ::Array<GlobalNamespace::BoxCuttableBySaber*>* _get__trailingSmallCuttableBySaberList();
+    // Set instance field: private BoxCuttableBySaber[] _trailingSmallCuttableBySaberList
+    void _set__trailingSmallCuttableBySaberList(::Array<GlobalNamespace::BoxCuttableBySaber*>* value);
+    // Get instance field: private NoteMovement _noteMovement
+    GlobalNamespace::NoteMovement* _get__noteMovement();
+    // Set instance field: private NoteMovement _noteMovement
+    void _set__noteMovement(GlobalNamespace::NoteMovement* value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
     // protected System.Void Start()
     // Offset: 0x110AD80
     void Start();

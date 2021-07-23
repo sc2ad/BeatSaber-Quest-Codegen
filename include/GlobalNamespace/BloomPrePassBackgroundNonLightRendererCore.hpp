@@ -57,6 +57,14 @@ namespace GlobalNamespace {
     static int _get__worldSpaceCameraPosID();
     // Set static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static void _set__worldSpaceCameraPosID(int value);
+    // Get instance field: private System.Boolean _keepDefaultRendering
+    bool _get__keepDefaultRendering();
+    // Set instance field: private System.Boolean _keepDefaultRendering
+    void _set__keepDefaultRendering(bool value);
+    // Get instance field: private UnityEngine.Rendering.CommandBuffer _commandBuffer
+    UnityEngine::Rendering::CommandBuffer* _get__commandBuffer();
+    // Set instance field: private UnityEngine.Rendering.CommandBuffer _commandBuffer
+    void _set__commandBuffer(UnityEngine::Rendering::CommandBuffer* value);
     // protected UnityEngine.Renderer get_renderer()
     // Offset: 0xFFFFFFFF
     UnityEngine::Renderer* get_renderer();

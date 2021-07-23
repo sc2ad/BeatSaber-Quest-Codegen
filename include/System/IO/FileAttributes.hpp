@@ -129,6 +129,10 @@ namespace System::IO {
     static System::IO::FileAttributes _get_NoScrubData();
     // Set static field: static public System.IO.FileAttributes NoScrubData
     static void _set_NoScrubData(System::IO::FileAttributes value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IO.FileAttributes
   #pragma pack(pop)
   static check_size<sizeof(FileAttributes), 0 + sizeof(int)> __System_IO_FileAttributesSizeCheck;

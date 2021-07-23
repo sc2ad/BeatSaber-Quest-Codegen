@@ -40,6 +40,10 @@ namespace System::Net::NetworkInformation {
     constexpr operator uint() const noexcept {
       return ifa_flags;
     }
+    // Get instance field: private System.UInt32 _ifa_flags
+    uint _get__ifa_flags();
+    // Set instance field: private System.UInt32 _ifa_flags
+    void _set__ifa_flags(uint value);
     // System.Void .ctor(System.String name, System.UInt32 ifa_flags)
     // Offset: 0x1462158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

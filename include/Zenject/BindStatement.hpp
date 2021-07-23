@@ -57,6 +57,14 @@ namespace Zenject {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private readonly System.Collections.Generic.List`1<System.IDisposable> _disposables
+    System::Collections::Generic::List_1<System::IDisposable*>* _get__disposables();
+    // Set instance field: private readonly System.Collections.Generic.List`1<System.IDisposable> _disposables
+    void _set__disposables(System::Collections::Generic::List_1<System::IDisposable*>* value);
+    // Get instance field: private Zenject.IBindingFinalizer _bindingFinalizer
+    Zenject::IBindingFinalizer* _get__bindingFinalizer();
+    // Set instance field: private Zenject.IBindingFinalizer _bindingFinalizer
+    void _set__bindingFinalizer(Zenject::IBindingFinalizer* value);
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
     // Offset: 0x13795C8
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();

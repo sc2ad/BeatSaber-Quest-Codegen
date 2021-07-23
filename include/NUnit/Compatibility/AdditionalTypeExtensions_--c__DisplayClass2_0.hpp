@@ -44,6 +44,10 @@ namespace NUnit::Compatibility {
     constexpr operator System::Type*() const noexcept {
       return to;
     }
+    // Get instance field: public System.Type to
+    System::Type* _get_to();
+    // Set instance field: public System.Type to
+    void _set_to(System::Type* value);
     // System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
     // Offset: 0x1711A1C
     bool $IsCastableFrom$b__0(System::Reflection::MethodInfo* m);

@@ -80,6 +80,26 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RuntimeTestRunnerFilter
     RuntimeTestRunnerFilter(::Array<::Il2CppString*>* assemblyNames_ = {}, ::Array<::Il2CppString*>* groupNames_ = {}, ::Array<::Il2CppString*>* categoryNames_ = {}, ::Array<::Il2CppString*>* testNames_ = {}, bool synchronousOnly_ = {}) noexcept : assemblyNames{assemblyNames_}, groupNames{groupNames_}, categoryNames{categoryNames_}, testNames{testNames_}, synchronousOnly{synchronousOnly_} {}
+    // Get instance field: public System.String[] assemblyNames
+    ::Array<::Il2CppString*>* _get_assemblyNames();
+    // Set instance field: public System.String[] assemblyNames
+    void _set_assemblyNames(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.String[] groupNames
+    ::Array<::Il2CppString*>* _get_groupNames();
+    // Set instance field: public System.String[] groupNames
+    void _set_groupNames(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.String[] categoryNames
+    ::Array<::Il2CppString*>* _get_categoryNames();
+    // Set instance field: public System.String[] categoryNames
+    void _set_categoryNames(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.String[] testNames
+    ::Array<::Il2CppString*>* _get_testNames();
+    // Set instance field: public System.String[] testNames
+    void _set_testNames(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.Boolean synchronousOnly
+    bool _get_synchronousOnly();
+    // Set instance field: public System.Boolean synchronousOnly
+    void _set_synchronousOnly(bool value);
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
     // Offset: 0x148F8F0
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();

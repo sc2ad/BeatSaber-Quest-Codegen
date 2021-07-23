@@ -89,6 +89,10 @@ namespace MasterServer {
       static MasterServer::GetPublicUserServersResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.GetPublicUserServersResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::GetPublicUserServersResponse::Result value);
+      // Get instance field: public System.Byte value__
+      uint8_t _get_value__();
+      // Set instance field: public System.Byte value__
+      void _set_value__(uint8_t value);
     }; // MasterServer.GetPublicUserServersResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(GetPublicUserServersResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_GetPublicUserServersResponse_ResultSizeCheck;
@@ -113,6 +117,14 @@ namespace MasterServer {
     operator MasterServer::IUserServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);
     }
+    // Get instance field: public MasterServer.GetPublicUserServersResponse/MasterServer.Result result
+    MasterServer::GetPublicUserServersResponse::Result _get_result();
+    // Set instance field: public MasterServer.GetPublicUserServersResponse/MasterServer.Result result
+    void _set_result(MasterServer::GetPublicUserServersResponse::Result value);
+    // Get instance field: public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
+    System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* _get_publicServers();
+    // Set instance field: public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
+    void _set_publicServers(System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* value);
     // static public IVersionedPacketPool`1<MasterServer.GetPublicUserServersResponse> get_pool()
     // Offset: 0x12D2F84
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::GetPublicUserServersResponse*>* get_pool();

@@ -79,6 +79,34 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public LeaderboardsModelLegacyWrapper <>4__this
+    GlobalNamespace::LeaderboardsModelLegacyWrapper* _get_$$4__this();
+    // Set instance field: public LeaderboardsModelLegacyWrapper <>4__this
+    void _set_$$4__this(GlobalNamespace::LeaderboardsModelLegacyWrapper* value);
+    // Get instance field: public OnlineServices.GetLeaderboardFilterData leaderboardFilterData
+    OnlineServices::GetLeaderboardFilterData _get_leaderboardFilterData();
+    // Set instance field: public OnlineServices.GetLeaderboardFilterData leaderboardFilterData
+    void _set_leaderboardFilterData(OnlineServices::GetLeaderboardFilterData value);
+    // Get instance field: public LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest
+    GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* _get_asyncRequest();
+    // Set instance field: public LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest
+    void _set_asyncRequest(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* value);
+    // Get instance field: public PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler
+    GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* _get_completionHandler();
+    // Set instance field: public PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler
+    void _set_completionHandler(GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.GetLeaderboardEntriesResult> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.GetLeaderboardEntriesResult> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult> value);
     // private System.Void MoveNext()
     // Offset: 0xED0DF8
     void MoveNext();

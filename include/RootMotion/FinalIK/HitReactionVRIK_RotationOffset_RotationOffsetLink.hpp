@@ -59,6 +59,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: RotationOffsetLink
     RotationOffsetLink(RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset_ = {}, float weight_ = {}, UnityEngine::Quaternion lastValue_ = {}, UnityEngine::Quaternion current_ = {}) noexcept : rotationOffset{rotationOffset_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
+    RootMotion::FinalIK::IKSolverVR::RotationOffset _get_rotationOffset();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
+    void _set_rotationOffset(RootMotion::FinalIK::IKSolverVR::RotationOffset value);
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: private UnityEngine.Quaternion lastValue
+    UnityEngine::Quaternion _get_lastValue();
+    // Set instance field: private UnityEngine.Quaternion lastValue
+    void _set_lastValue(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion current
+    UnityEngine::Quaternion _get_current();
+    // Set instance field: private UnityEngine.Quaternion current
+    void _set_current(UnityEngine::Quaternion value);
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Quaternion offset, System.Single crossFader)
     // Offset: 0x1C9633C
     void Apply(RootMotion::FinalIK::VRIK* ik, UnityEngine::Quaternion offset, float crossFader);

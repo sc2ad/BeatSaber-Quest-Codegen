@@ -71,6 +71,22 @@ namespace GlobalNamespace {
     HSVPanelController(GlobalNamespace::ColorSaturationValueSlider* colorSaturationValueSlider_ = {}, GlobalNamespace::ColorHueSlider* colorHueSlider_ = {}, System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent_ = {}, UnityEngine::Vector3 hsvColor_ = {}) noexcept : colorSaturationValueSlider{colorSaturationValueSlider_}, colorHueSlider{colorHueSlider_}, colorDidChangeEvent{colorDidChangeEvent_}, hsvColor{hsvColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ColorSaturationValueSlider _colorSaturationValueSlider
+    GlobalNamespace::ColorSaturationValueSlider* _get__colorSaturationValueSlider();
+    // Set instance field: private ColorSaturationValueSlider _colorSaturationValueSlider
+    void _set__colorSaturationValueSlider(GlobalNamespace::ColorSaturationValueSlider* value);
+    // Get instance field: private ColorHueSlider _colorHueSlider
+    GlobalNamespace::ColorHueSlider* _get__colorHueSlider();
+    // Set instance field: private ColorHueSlider _colorHueSlider
+    void _set__colorHueSlider(GlobalNamespace::ColorHueSlider* value);
+    // Get instance field: private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
+    System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* _get_colorDidChangeEvent();
+    // Set instance field: private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
+    void _set_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
+    // Get instance field: private UnityEngine.Vector3 _hsvColor
+    UnityEngine::Vector3 _get__hsvColor();
+    // Set instance field: private UnityEngine.Vector3 _hsvColor
+    void _set__hsvColor(UnityEngine::Vector3 value);
     // public UnityEngine.Color get_color()
     // Offset: 0x10E81F0
     UnityEngine::Color get_color();

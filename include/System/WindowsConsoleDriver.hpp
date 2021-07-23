@@ -58,6 +58,18 @@ namespace System {
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);
     }
+    // Get instance field: private System.IntPtr inputHandle
+    System::IntPtr _get_inputHandle();
+    // Set instance field: private System.IntPtr inputHandle
+    void _set_inputHandle(System::IntPtr value);
+    // Get instance field: private System.IntPtr outputHandle
+    System::IntPtr _get_outputHandle();
+    // Set instance field: private System.IntPtr outputHandle
+    void _set_outputHandle(System::IntPtr value);
+    // Get instance field: private System.Int16 defaultAttribute
+    int16_t _get_defaultAttribute();
+    // Set instance field: private System.Int16 defaultAttribute
+    void _set_defaultAttribute(int16_t value);
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
     // Offset: 0x22D6390
     System::ConsoleKeyInfo ReadKey(bool intercept);

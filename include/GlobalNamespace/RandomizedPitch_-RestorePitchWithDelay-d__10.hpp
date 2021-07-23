@@ -56,6 +56,22 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public System.Single delay
+    float _get_delay();
+    // Set instance field: public System.Single delay
+    void _set_delay(float value);
+    // Get instance field: public RandomizedPitch <>4__this
+    GlobalNamespace::RandomizedPitch* _get_$$4__this();
+    // Set instance field: public RandomizedPitch <>4__this
+    void _set_$$4__this(GlobalNamespace::RandomizedPitch* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1221358
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

@@ -53,6 +53,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVRInput::RawAxis1D) == 0x4);
     // Creating value type constructor for type: VirtualAxis1DMap
     VirtualAxis1DMap(GlobalNamespace::OVRInput::RawAxis1D None_ = {}, GlobalNamespace::OVRInput::RawAxis1D PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D PrimaryHandTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D SecondaryHandTrigger_ = {}) noexcept : None{None_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryHandTrigger{PrimaryHandTrigger_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryHandTrigger{SecondaryHandTrigger_} {}
+    // Get instance field: public OVRInput/RawAxis1D None
+    GlobalNamespace::OVRInput::RawAxis1D _get_None();
+    // Set instance field: public OVRInput/RawAxis1D None
+    void _set_None(GlobalNamespace::OVRInput::RawAxis1D value);
+    // Get instance field: public OVRInput/RawAxis1D PrimaryIndexTrigger
+    GlobalNamespace::OVRInput::RawAxis1D _get_PrimaryIndexTrigger();
+    // Set instance field: public OVRInput/RawAxis1D PrimaryIndexTrigger
+    void _set_PrimaryIndexTrigger(GlobalNamespace::OVRInput::RawAxis1D value);
+    // Get instance field: public OVRInput/RawAxis1D PrimaryHandTrigger
+    GlobalNamespace::OVRInput::RawAxis1D _get_PrimaryHandTrigger();
+    // Set instance field: public OVRInput/RawAxis1D PrimaryHandTrigger
+    void _set_PrimaryHandTrigger(GlobalNamespace::OVRInput::RawAxis1D value);
+    // Get instance field: public OVRInput/RawAxis1D SecondaryIndexTrigger
+    GlobalNamespace::OVRInput::RawAxis1D _get_SecondaryIndexTrigger();
+    // Set instance field: public OVRInput/RawAxis1D SecondaryIndexTrigger
+    void _set_SecondaryIndexTrigger(GlobalNamespace::OVRInput::RawAxis1D value);
+    // Get instance field: public OVRInput/RawAxis1D SecondaryHandTrigger
+    GlobalNamespace::OVRInput::RawAxis1D _get_SecondaryHandTrigger();
+    // Set instance field: public OVRInput/RawAxis1D SecondaryHandTrigger
+    void _set_SecondaryHandTrigger(GlobalNamespace::OVRInput::RawAxis1D value);
     // public OVRInput/RawAxis1D ToRawMask(OVRInput/Axis1D virtualMask)
     // Offset: 0x14EB9D0
     GlobalNamespace::OVRInput::RawAxis1D ToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);

@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::ThreadPriority _get_High();
     // Set static field: static public UnityEngine.ThreadPriority High
     static void _set_High(UnityEngine::ThreadPriority value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ThreadPriority
   #pragma pack(pop)
   static check_size<sizeof(ThreadPriority), 0 + sizeof(int)> __UnityEngine_ThreadPrioritySizeCheck;

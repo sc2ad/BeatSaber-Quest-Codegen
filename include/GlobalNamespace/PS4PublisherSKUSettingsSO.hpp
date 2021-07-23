@@ -55,6 +55,26 @@ namespace GlobalNamespace {
     PS4PublisherSKUSettingsSO(::Il2CppString* skuName_ = {}, ::Il2CppString* contentId_ = {}, int parentalLockLevel_ = {}, ::Il2CppString* npTitleFilenamePath_ = {}, int defaultAgeRestriction_ = {}) noexcept : skuName{skuName_}, contentId{contentId_}, parentalLockLevel{parentalLockLevel_}, npTitleFilenamePath{npTitleFilenamePath_}, defaultAgeRestriction{defaultAgeRestriction_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _skuName
+    ::Il2CppString* _get__skuName();
+    // Set instance field: private System.String _skuName
+    void _set__skuName(::Il2CppString* value);
+    // Get instance field: private System.String _contentId
+    ::Il2CppString* _get__contentId();
+    // Set instance field: private System.String _contentId
+    void _set__contentId(::Il2CppString* value);
+    // Get instance field: private System.Int32 _parentalLockLevel
+    int _get__parentalLockLevel();
+    // Set instance field: private System.Int32 _parentalLockLevel
+    void _set__parentalLockLevel(int value);
+    // Get instance field: private System.String _npTitleFilenamePath
+    ::Il2CppString* _get__npTitleFilenamePath();
+    // Set instance field: private System.String _npTitleFilenamePath
+    void _set__npTitleFilenamePath(::Il2CppString* value);
+    // Get instance field: private System.Int32 _defaultAgeRestriction
+    int _get__defaultAgeRestriction();
+    // Set instance field: private System.Int32 _defaultAgeRestriction
+    void _set__defaultAgeRestriction(int value);
     // public System.String get_skuName()
     // Offset: 0xFFDE84
     ::Il2CppString* get_skuName();

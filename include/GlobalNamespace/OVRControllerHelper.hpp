@@ -72,6 +72,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRControllerHelper::ControllerType _get_Quest2();
       // Set static field: static public OVRControllerHelper/ControllerType Quest2
       static void _set_Quest2(GlobalNamespace::OVRControllerHelper::ControllerType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRControllerHelper/ControllerType
     #pragma pack(pop)
     static check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int)> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
@@ -148,6 +152,50 @@ namespace GlobalNamespace {
     OVRControllerHelper(UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSRightController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftRightController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuest2LeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuest2RightController_ = {}, GlobalNamespace::OVRInput::Controller m_controller_ = {}, UnityEngine::Animator* m_animator_ = {}, GlobalNamespace::OVRControllerHelper::ControllerType activeControllerType_ = {}, bool m_prevControllerConnected_ = {}, bool m_prevControllerConnectedCached_ = {}) noexcept : m_modelOculusTouchQuestAndRiftSLeftController{m_modelOculusTouchQuestAndRiftSLeftController_}, m_modelOculusTouchQuestAndRiftSRightController{m_modelOculusTouchQuestAndRiftSRightController_}, m_modelOculusTouchRiftLeftController{m_modelOculusTouchRiftLeftController_}, m_modelOculusTouchRiftRightController{m_modelOculusTouchRiftRightController_}, m_modelOculusTouchQuest2LeftController{m_modelOculusTouchQuest2LeftController_}, m_modelOculusTouchQuest2RightController{m_modelOculusTouchQuest2RightController_}, m_controller{m_controller_}, m_animator{m_animator_}, activeControllerType{activeControllerType_}, m_prevControllerConnected{m_prevControllerConnected_}, m_prevControllerConnectedCached{m_prevControllerConnectedCached_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
+    UnityEngine::GameObject* _get_m_modelOculusTouchQuestAndRiftSLeftController();
+    // Set instance field: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
+    void _set_m_modelOculusTouchQuestAndRiftSLeftController(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSRightController
+    UnityEngine::GameObject* _get_m_modelOculusTouchQuestAndRiftSRightController();
+    // Set instance field: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSRightController
+    void _set_m_modelOculusTouchQuestAndRiftSRightController(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject m_modelOculusTouchRiftLeftController
+    UnityEngine::GameObject* _get_m_modelOculusTouchRiftLeftController();
+    // Set instance field: public UnityEngine.GameObject m_modelOculusTouchRiftLeftController
+    void _set_m_modelOculusTouchRiftLeftController(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject m_modelOculusTouchRiftRightController
+    UnityEngine::GameObject* _get_m_modelOculusTouchRiftRightController();
+    // Set instance field: public UnityEngine.GameObject m_modelOculusTouchRiftRightController
+    void _set_m_modelOculusTouchRiftRightController(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject m_modelOculusTouchQuest2LeftController
+    UnityEngine::GameObject* _get_m_modelOculusTouchQuest2LeftController();
+    // Set instance field: public UnityEngine.GameObject m_modelOculusTouchQuest2LeftController
+    void _set_m_modelOculusTouchQuest2LeftController(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject m_modelOculusTouchQuest2RightController
+    UnityEngine::GameObject* _get_m_modelOculusTouchQuest2RightController();
+    // Set instance field: public UnityEngine.GameObject m_modelOculusTouchQuest2RightController
+    void _set_m_modelOculusTouchQuest2RightController(UnityEngine::GameObject* value);
+    // Get instance field: public OVRInput/Controller m_controller
+    GlobalNamespace::OVRInput::Controller _get_m_controller();
+    // Set instance field: public OVRInput/Controller m_controller
+    void _set_m_controller(GlobalNamespace::OVRInput::Controller value);
+    // Get instance field: private UnityEngine.Animator m_animator
+    UnityEngine::Animator* _get_m_animator();
+    // Set instance field: private UnityEngine.Animator m_animator
+    void _set_m_animator(UnityEngine::Animator* value);
+    // Get instance field: private OVRControllerHelper/ControllerType activeControllerType
+    GlobalNamespace::OVRControllerHelper::ControllerType _get_activeControllerType();
+    // Set instance field: private OVRControllerHelper/ControllerType activeControllerType
+    void _set_activeControllerType(GlobalNamespace::OVRControllerHelper::ControllerType value);
+    // Get instance field: private System.Boolean m_prevControllerConnected
+    bool _get_m_prevControllerConnected();
+    // Set instance field: private System.Boolean m_prevControllerConnected
+    void _set_m_prevControllerConnected(bool value);
+    // Get instance field: private System.Boolean m_prevControllerConnectedCached
+    bool _get_m_prevControllerConnectedCached();
+    // Set instance field: private System.Boolean m_prevControllerConnectedCached
+    void _set_m_prevControllerConnectedCached(bool value);
     // private System.Void Start()
     // Offset: 0x124E78C
     void Start();

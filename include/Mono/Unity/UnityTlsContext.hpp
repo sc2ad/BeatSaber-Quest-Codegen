@@ -159,6 +159,74 @@ namespace Mono::Unity {
     static_assert(sizeof(System::Exception*) == 0x8);
     // Creating value type constructor for type: UnityTlsContext
     UnityTlsContext(Mono::Unity::UnityTls::unitytls_tlsctx* tlsContext_ = {}, Mono::Unity::UnityTls::unitytls_x509list* requestedClientCertChain_ = {}, Mono::Unity::UnityTls::unitytls_key* requestedClientKey_ = {}, Mono::Unity::UnityTls::unitytls_tlsctx_read_callback* readCallback_ = {}, Mono::Unity::UnityTls::unitytls_tlsctx_write_callback* writeCallback_ = {}, Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback* certificateCallback_ = {}, Mono::Unity::UnityTls::unitytls_tlsctx_x509verify_callback* verifyCallback_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate_ = {}, Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo_ = {}, bool isAuthenticated_ = {}, bool hasContext_ = {}, bool closedGraceful_ = {}, ::Array<uint8_t>* writeBuffer_ = {}, ::Array<uint8_t>* readBuffer_ = {}, System::Runtime::InteropServices::GCHandle handle_ = {}, System::Exception* lastException_ = {}) noexcept : tlsContext{tlsContext_}, requestedClientCertChain{requestedClientCertChain_}, requestedClientKey{requestedClientKey_}, readCallback{readCallback_}, writeCallback{writeCallback_}, certificateCallback{certificateCallback_}, verifyCallback{verifyCallback_}, localClientCertificate{localClientCertificate_}, remoteCertificate{remoteCertificate_}, connectioninfo{connectioninfo_}, isAuthenticated{isAuthenticated_}, hasContext{hasContext_}, closedGraceful{closedGraceful_}, writeBuffer{writeBuffer_}, readBuffer{readBuffer_}, handle{handle_}, lastException{lastException_} {}
+    // Get instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* tlsContext
+    Mono::Unity::UnityTls::unitytls_tlsctx* _get_tlsContext();
+    // Set instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* tlsContext
+    void _set_tlsContext(Mono::Unity::UnityTls::unitytls_tlsctx* value);
+    // Get instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* requestedClientCertChain
+    Mono::Unity::UnityTls::unitytls_x509list* _get_requestedClientCertChain();
+    // Set instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* requestedClientCertChain
+    void _set_requestedClientCertChain(Mono::Unity::UnityTls::unitytls_x509list* value);
+    // Get instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_key* requestedClientKey
+    Mono::Unity::UnityTls::unitytls_key* _get_requestedClientKey();
+    // Set instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_key* requestedClientKey
+    void _set_requestedClientKey(Mono::Unity::UnityTls::unitytls_key* value);
+    // Get instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_read_callback readCallback
+    Mono::Unity::UnityTls::unitytls_tlsctx_read_callback* _get_readCallback();
+    // Set instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_read_callback readCallback
+    void _set_readCallback(Mono::Unity::UnityTls::unitytls_tlsctx_read_callback* value);
+    // Get instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_write_callback writeCallback
+    Mono::Unity::UnityTls::unitytls_tlsctx_write_callback* _get_writeCallback();
+    // Set instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_write_callback writeCallback
+    void _set_writeCallback(Mono::Unity::UnityTls::unitytls_tlsctx_write_callback* value);
+    // Get instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_certificate_callback certificateCallback
+    Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback* _get_certificateCallback();
+    // Set instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_certificate_callback certificateCallback
+    void _set_certificateCallback(Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback* value);
+    // Get instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_x509verify_callback verifyCallback
+    Mono::Unity::UnityTls::unitytls_tlsctx_x509verify_callback* _get_verifyCallback();
+    // Set instance field: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_x509verify_callback verifyCallback
+    void _set_verifyCallback(Mono::Unity::UnityTls::unitytls_tlsctx_x509verify_callback* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate localClientCertificate
+    System::Security::Cryptography::X509Certificates::X509Certificate* _get_localClientCertificate();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate localClientCertificate
+    void _set_localClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate
+    System::Security::Cryptography::X509Certificates::X509Certificate* _get_remoteCertificate();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate
+    void _set_remoteCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* value);
+    // Get instance field: private Mono.Security.Interface.MonoTlsConnectionInfo connectioninfo
+    Mono::Security::Interface::MonoTlsConnectionInfo* _get_connectioninfo();
+    // Set instance field: private Mono.Security.Interface.MonoTlsConnectionInfo connectioninfo
+    void _set_connectioninfo(Mono::Security::Interface::MonoTlsConnectionInfo* value);
+    // Get instance field: private System.Boolean isAuthenticated
+    bool _get_isAuthenticated();
+    // Set instance field: private System.Boolean isAuthenticated
+    void _set_isAuthenticated(bool value);
+    // Get instance field: private System.Boolean hasContext
+    bool _get_hasContext();
+    // Set instance field: private System.Boolean hasContext
+    void _set_hasContext(bool value);
+    // Get instance field: private System.Boolean closedGraceful
+    bool _get_closedGraceful();
+    // Set instance field: private System.Boolean closedGraceful
+    void _set_closedGraceful(bool value);
+    // Get instance field: private System.Byte[] writeBuffer
+    ::Array<uint8_t>* _get_writeBuffer();
+    // Set instance field: private System.Byte[] writeBuffer
+    void _set_writeBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] readBuffer
+    ::Array<uint8_t>* _get_readBuffer();
+    // Set instance field: private System.Byte[] readBuffer
+    void _set_readBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Runtime.InteropServices.GCHandle handle
+    System::Runtime::InteropServices::GCHandle _get_handle();
+    // Set instance field: private System.Runtime.InteropServices.GCHandle handle
+    void _set_handle(System::Runtime::InteropServices::GCHandle value);
+    // Get instance field: private System.Exception lastException
+    System::Exception* _get_lastException();
+    // Set instance field: private System.Exception lastException
+    void _set_lastException(System::Exception* value);
     // static private System.Void ExtractNativeKeyAndChainFromManagedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate cert, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState, out Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* nativeCertChain, out Mono.Unity.UnityTls/Mono.Unity.unitytls_key* nativeKey)
     // Offset: 0x15B9DC8
     static void ExtractNativeKeyAndChainFromManagedCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* cert, Mono::Unity::UnityTls::unitytls_errorstate* errorState, Mono::Unity::UnityTls::unitytls_x509list*& nativeCertChain, Mono::Unity::UnityTls::unitytls_key*& nativeKey);

@@ -55,6 +55,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::HandleAxis _get_Free();
     // Set static field: static public UnityEngine.ProBuilder.HandleAxis Free
     static void _set_Free(UnityEngine::ProBuilder::HandleAxis value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.HandleAxis
   #pragma pack(pop)
   static check_size<sizeof(HandleAxis), 0 + sizeof(int)> __UnityEngine_ProBuilder_HandleAxisSizeCheck;

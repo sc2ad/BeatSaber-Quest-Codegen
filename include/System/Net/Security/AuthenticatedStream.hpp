@@ -33,6 +33,14 @@ namespace System::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: AuthenticatedStream
     AuthenticatedStream(System::IO::Stream* InnerStream_ = {}, bool LeaveStreamOpen_ = {}) noexcept : InnerStream{InnerStream_}, LeaveStreamOpen{LeaveStreamOpen_} {}
+    // Get instance field: private System.IO.Stream _InnerStream
+    System::IO::Stream* _get__InnerStream();
+    // Set instance field: private System.IO.Stream _InnerStream
+    void _set__InnerStream(System::IO::Stream* value);
+    // Get instance field: private System.Boolean _LeaveStreamOpen
+    bool _get__LeaveStreamOpen();
+    // Set instance field: private System.Boolean _LeaveStreamOpen
+    void _set__LeaveStreamOpen(bool value);
     // protected System.IO.Stream get_InnerStream()
     // Offset: 0x1467F24
     System::IO::Stream* get_InnerStream();

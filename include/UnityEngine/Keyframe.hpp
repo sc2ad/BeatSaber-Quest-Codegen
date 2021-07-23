@@ -68,6 +68,34 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Single m_Time
+    float _get_m_Time();
+    // Set instance field: private System.Single m_Time
+    void _set_m_Time(float value);
+    // Get instance field: private System.Single m_Value
+    float _get_m_Value();
+    // Set instance field: private System.Single m_Value
+    void _set_m_Value(float value);
+    // Get instance field: private System.Single m_InTangent
+    float _get_m_InTangent();
+    // Set instance field: private System.Single m_InTangent
+    void _set_m_InTangent(float value);
+    // Get instance field: private System.Single m_OutTangent
+    float _get_m_OutTangent();
+    // Set instance field: private System.Single m_OutTangent
+    void _set_m_OutTangent(float value);
+    // Get instance field: private System.Int32 m_WeightedMode
+    int _get_m_WeightedMode();
+    // Set instance field: private System.Int32 m_WeightedMode
+    void _set_m_WeightedMode(int value);
+    // Get instance field: private System.Single m_InWeight
+    float _get_m_InWeight();
+    // Set instance field: private System.Single m_InWeight
+    void _set_m_InWeight(float value);
+    // Get instance field: private System.Single m_OutWeight
+    float _get_m_OutWeight();
+    // Set instance field: private System.Single m_OutWeight
+    void _set_m_OutWeight(float value);
     // public System.Single get_time()
     // Offset: 0xEF4E14
     float get_time();

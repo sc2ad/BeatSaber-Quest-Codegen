@@ -69,6 +69,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TransformSerializable
     TransformSerializable(float xPos_ = {}, float yPos_ = {}, float zPos_ = {}, float xRot_ = {}, float yRot_ = {}, float zRot_ = {}, float wRot_ = {}, bool valid_ = {}) noexcept : xPos{xPos_}, yPos{yPos_}, zPos{zPos_}, xRot{xRot_}, yRot{yRot_}, zRot{zRot_}, wRot{wRot_}, valid{valid_} {}
+    // Get instance field: public System.Single _xPos
+    float _get__xPos();
+    // Set instance field: public System.Single _xPos
+    void _set__xPos(float value);
+    // Get instance field: public System.Single _yPos
+    float _get__yPos();
+    // Set instance field: public System.Single _yPos
+    void _set__yPos(float value);
+    // Get instance field: public System.Single _zPos
+    float _get__zPos();
+    // Set instance field: public System.Single _zPos
+    void _set__zPos(float value);
+    // Get instance field: public System.Single _xRot
+    float _get__xRot();
+    // Set instance field: public System.Single _xRot
+    void _set__xRot(float value);
+    // Get instance field: public System.Single _yRot
+    float _get__yRot();
+    // Set instance field: public System.Single _yRot
+    void _set__yRot(float value);
+    // Get instance field: public System.Single _zRot
+    float _get__zRot();
+    // Set instance field: public System.Single _zRot
+    void _set__zRot(float value);
+    // Get instance field: public System.Single _wRot
+    float _get__wRot();
+    // Set instance field: public System.Single _wRot
+    void _set__wRot(float value);
+    // Get instance field: public System.Boolean _valid
+    bool _get__valid();
+    // Set instance field: public System.Boolean _valid
+    void _set__valid(bool value);
     // public System.Void .ctor()
     // Offset: 0x127BFF0
     // Implemented from: System.Object

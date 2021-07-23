@@ -97,6 +97,34 @@ namespace Mono::Net::Security {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: AsyncProtocolRequest
     AsyncProtocolRequest(Mono::Net::Security::MobileAuthenticatedStream* Parent_ = {}, bool RunSynchronously_ = {}, int UserResult_ = {}, int Started_ = {}, int RequestedSize_ = {}, int WriteRequested_ = {}, ::Il2CppObject* locker_ = {}) noexcept : Parent{Parent_}, RunSynchronously{RunSynchronously_}, UserResult{UserResult_}, Started{Started_}, RequestedSize{RequestedSize_}, WriteRequested{WriteRequested_}, locker{locker_} {}
+    // Get instance field: private readonly Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField
+    Mono::Net::Security::MobileAuthenticatedStream* _get_$Parent$k__BackingField();
+    // Set instance field: private readonly Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField
+    void _set_$Parent$k__BackingField(Mono::Net::Security::MobileAuthenticatedStream* value);
+    // Get instance field: private readonly System.Boolean <RunSynchronously>k__BackingField
+    bool _get_$RunSynchronously$k__BackingField();
+    // Set instance field: private readonly System.Boolean <RunSynchronously>k__BackingField
+    void _set_$RunSynchronously$k__BackingField(bool value);
+    // Get instance field: private System.Int32 <UserResult>k__BackingField
+    int _get_$UserResult$k__BackingField();
+    // Set instance field: private System.Int32 <UserResult>k__BackingField
+    void _set_$UserResult$k__BackingField(int value);
+    // Get instance field: private System.Int32 Started
+    int _get_Started();
+    // Set instance field: private System.Int32 Started
+    void _set_Started(int value);
+    // Get instance field: private System.Int32 RequestedSize
+    int _get_RequestedSize();
+    // Set instance field: private System.Int32 RequestedSize
+    void _set_RequestedSize(int value);
+    // Get instance field: private System.Int32 WriteRequested
+    int _get_WriteRequested();
+    // Set instance field: private System.Int32 WriteRequested
+    void _set_WriteRequested(int value);
+    // Get instance field: private readonly System.Object locker
+    ::Il2CppObject* _get_locker();
+    // Set instance field: private readonly System.Object locker
+    void _set_locker(::Il2CppObject* value);
     // public Mono.Net.Security.MobileAuthenticatedStream get_Parent()
     // Offset: 0x15A9AB0
     Mono::Net::Security::MobileAuthenticatedStream* get_Parent();

@@ -170,6 +170,90 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Leg
     Leg(bool isGrounded_ = {}, UnityEngine::Vector3 IKPosition_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, bool initiated_ = {}, float heightFromGround_ = {}, UnityEngine::Vector3 velocity_ = {}, UnityEngine::Transform* transform_ = {}, float IKOffset_ = {}, bool invertFootCenter_ = {}, UnityEngine::RaycastHit heelHit_ = {}, UnityEngine::RaycastHit capsuleHit_ = {}, RootMotion::FinalIK::Grounding* grounding_ = {}, float lastTime_ = {}, float deltaTime_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Quaternion toHitNormal_ = {}, UnityEngine::Quaternion r_ = {}, UnityEngine::Vector3 up_ = {}, bool doOverrideFootPosition_ = {}, UnityEngine::Vector3 overrideFootPosition_ = {}, UnityEngine::Vector3 transformPosition_ = {}) noexcept : isGrounded{isGrounded_}, IKPosition{IKPosition_}, rotationOffset{rotationOffset_}, initiated{initiated_}, heightFromGround{heightFromGround_}, velocity{velocity_}, transform{transform_}, IKOffset{IKOffset_}, invertFootCenter{invertFootCenter_}, heelHit{heelHit_}, capsuleHit{capsuleHit_}, grounding{grounding_}, lastTime{lastTime_}, deltaTime{deltaTime_}, lastPosition{lastPosition_}, toHitNormal{toHitNormal_}, r{r_}, up{up_}, doOverrideFootPosition{doOverrideFootPosition_}, overrideFootPosition{overrideFootPosition_}, transformPosition{transformPosition_} {}
+    // Get instance field: private System.Boolean <isGrounded>k__BackingField
+    bool _get_$isGrounded$k__BackingField();
+    // Set instance field: private System.Boolean <isGrounded>k__BackingField
+    void _set_$isGrounded$k__BackingField(bool value);
+    // Get instance field: private UnityEngine.Vector3 <IKPosition>k__BackingField
+    UnityEngine::Vector3 _get_$IKPosition$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <IKPosition>k__BackingField
+    void _set_$IKPosition$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion rotationOffset
+    UnityEngine::Quaternion _get_rotationOffset();
+    // Set instance field: public UnityEngine.Quaternion rotationOffset
+    void _set_rotationOffset(UnityEngine::Quaternion value);
+    // Get instance field: private System.Boolean <initiated>k__BackingField
+    bool _get_$initiated$k__BackingField();
+    // Set instance field: private System.Boolean <initiated>k__BackingField
+    void _set_$initiated$k__BackingField(bool value);
+    // Get instance field: private System.Single <heightFromGround>k__BackingField
+    float _get_$heightFromGround$k__BackingField();
+    // Set instance field: private System.Single <heightFromGround>k__BackingField
+    void _set_$heightFromGround$k__BackingField(float value);
+    // Get instance field: private UnityEngine.Vector3 <velocity>k__BackingField
+    UnityEngine::Vector3 _get_$velocity$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <velocity>k__BackingField
+    void _set_$velocity$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Transform <transform>k__BackingField
+    UnityEngine::Transform* _get_$transform$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <transform>k__BackingField
+    void _set_$transform$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private System.Single <IKOffset>k__BackingField
+    float _get_$IKOffset$k__BackingField();
+    // Set instance field: private System.Single <IKOffset>k__BackingField
+    void _set_$IKOffset$k__BackingField(float value);
+    // Get instance field: public System.Boolean invertFootCenter
+    bool _get_invertFootCenter();
+    // Set instance field: public System.Boolean invertFootCenter
+    void _set_invertFootCenter(bool value);
+    // Get instance field: private UnityEngine.RaycastHit <heelHit>k__BackingField
+    UnityEngine::RaycastHit _get_$heelHit$k__BackingField();
+    // Set instance field: private UnityEngine.RaycastHit <heelHit>k__BackingField
+    void _set_$heelHit$k__BackingField(UnityEngine::RaycastHit value);
+    // Get instance field: private UnityEngine.RaycastHit <capsuleHit>k__BackingField
+    UnityEngine::RaycastHit _get_$capsuleHit$k__BackingField();
+    // Set instance field: private UnityEngine.RaycastHit <capsuleHit>k__BackingField
+    void _set_$capsuleHit$k__BackingField(UnityEngine::RaycastHit value);
+    // Get instance field: private RootMotion.FinalIK.Grounding grounding
+    RootMotion::FinalIK::Grounding* _get_grounding();
+    // Set instance field: private RootMotion.FinalIK.Grounding grounding
+    void _set_grounding(RootMotion::FinalIK::Grounding* value);
+    // Get instance field: private System.Single lastTime
+    float _get_lastTime();
+    // Set instance field: private System.Single lastTime
+    void _set_lastTime(float value);
+    // Get instance field: private System.Single deltaTime
+    float _get_deltaTime();
+    // Set instance field: private System.Single deltaTime
+    void _set_deltaTime(float value);
+    // Get instance field: private UnityEngine.Vector3 lastPosition
+    UnityEngine::Vector3 _get_lastPosition();
+    // Set instance field: private UnityEngine.Vector3 lastPosition
+    void _set_lastPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion toHitNormal
+    UnityEngine::Quaternion _get_toHitNormal();
+    // Set instance field: private UnityEngine.Quaternion toHitNormal
+    void _set_toHitNormal(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion r
+    UnityEngine::Quaternion _get_r();
+    // Set instance field: private UnityEngine.Quaternion r
+    void _set_r(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 up
+    UnityEngine::Vector3 _get_up();
+    // Set instance field: private UnityEngine.Vector3 up
+    void _set_up(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean doOverrideFootPosition
+    bool _get_doOverrideFootPosition();
+    // Set instance field: private System.Boolean doOverrideFootPosition
+    void _set_doOverrideFootPosition(bool value);
+    // Get instance field: private UnityEngine.Vector3 overrideFootPosition
+    UnityEngine::Vector3 _get_overrideFootPosition();
+    // Set instance field: private UnityEngine.Vector3 overrideFootPosition
+    void _set_overrideFootPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 transformPosition
+    UnityEngine::Vector3 _get_transformPosition();
+    // Set instance field: private UnityEngine.Vector3 transformPosition
+    void _set_transformPosition(UnityEngine::Vector3 value);
     // public System.Boolean get_isGrounded()
     // Offset: 0x1C9264C
     bool get_isGrounded();

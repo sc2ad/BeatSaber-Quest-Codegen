@@ -80,6 +80,34 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDifficultyBeatmap() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);
     }
+    // Get instance field: private IBeatmapLevel _level
+    GlobalNamespace::IBeatmapLevel* _get__level();
+    // Set instance field: private IBeatmapLevel _level
+    void _set__level(GlobalNamespace::IBeatmapLevel* value);
+    // Get instance field: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
+    GlobalNamespace::IDifficultyBeatmapSet* _get__parentDifficultyBeatmapSet();
+    // Set instance field: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
+    void _set__parentDifficultyBeatmapSet(GlobalNamespace::IDifficultyBeatmapSet* value);
+    // Get instance field: private BeatmapDifficulty _difficulty
+    GlobalNamespace::BeatmapDifficulty _get__difficulty();
+    // Set instance field: private BeatmapDifficulty _difficulty
+    void _set__difficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: private System.Int32 _difficultyRank
+    int _get__difficultyRank();
+    // Set instance field: private System.Int32 _difficultyRank
+    void _set__difficultyRank(int value);
+    // Get instance field: private System.Single _noteJumpMovementSpeed
+    float _get__noteJumpMovementSpeed();
+    // Set instance field: private System.Single _noteJumpMovementSpeed
+    void _set__noteJumpMovementSpeed(float value);
+    // Get instance field: private System.Single _noteJumpStartBeatOffset
+    float _get__noteJumpStartBeatOffset();
+    // Set instance field: private System.Single _noteJumpStartBeatOffset
+    void _set__noteJumpStartBeatOffset(float value);
+    // Get instance field: private BeatmapData _beatmapData
+    GlobalNamespace::BeatmapData* _get__beatmapData();
+    // Set instance field: private BeatmapData _beatmapData
+    void _set__beatmapData(GlobalNamespace::BeatmapData* value);
     // public IBeatmapLevel get_level()
     // Offset: 0x1084E34
     GlobalNamespace::IBeatmapLevel* get_level();

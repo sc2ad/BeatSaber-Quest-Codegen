@@ -34,6 +34,10 @@ namespace UnityEngineInternal {
     constexpr operator ::Il2CppString*() const noexcept {
       return rule;
     }
+    // Get instance field: private readonly System.String _rule
+    ::Il2CppString* _get__rule();
+    // Set instance field: private readonly System.String _rule
+    void _set__rule(::Il2CppString* value);
     // public System.Void .ctor(UnityEngineInternal.TypeInferenceRules rule)
     // Offset: 0x230A730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

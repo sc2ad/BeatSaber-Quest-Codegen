@@ -60,6 +60,10 @@ namespace MasterServer {
     constexpr operator GlobalNamespace::AuthenticationToken() const noexcept {
       return authenticationToken;
     }
+    // Get instance field: public AuthenticationToken authenticationToken
+    GlobalNamespace::AuthenticationToken _get_authenticationToken();
+    // Set instance field: public AuthenticationToken authenticationToken
+    void _set_authenticationToken(GlobalNamespace::AuthenticationToken value);
     // static public PacketPool`1<MasterServer.AuthenticateUserRequest> get_pool()
     // Offset: 0x12CB288
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateUserRequest*>* get_pool();

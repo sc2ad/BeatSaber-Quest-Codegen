@@ -43,6 +43,10 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::NetworkInterfaceComponent _get_IPv6();
     // Set static field: static public System.Net.NetworkInformation.NetworkInterfaceComponent IPv6
     static void _set_IPv6(System::Net::NetworkInformation::NetworkInterfaceComponent value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.NetworkInformation.NetworkInterfaceComponent
   #pragma pack(pop)
   static check_size<sizeof(NetworkInterfaceComponent), 0 + sizeof(int)> __System_Net_NetworkInformation_NetworkInterfaceComponentSizeCheck;

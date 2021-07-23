@@ -52,6 +52,26 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt64 ulActionSet
+    uint64_t _get_ulActionSet();
+    // Set instance field: public System.UInt64 ulActionSet
+    void _set_ulActionSet(uint64_t value);
+    // Get instance field: public System.UInt64 ulRestrictedToDevice
+    uint64_t _get_ulRestrictedToDevice();
+    // Set instance field: public System.UInt64 ulRestrictedToDevice
+    void _set_ulRestrictedToDevice(uint64_t value);
+    // Get instance field: public System.UInt64 ulSecondaryActionSet
+    uint64_t _get_ulSecondaryActionSet();
+    // Set instance field: public System.UInt64 ulSecondaryActionSet
+    void _set_ulSecondaryActionSet(uint64_t value);
+    // Get instance field: public System.UInt32 unPadding
+    uint _get_unPadding();
+    // Set instance field: public System.UInt32 unPadding
+    void _set_unPadding(uint value);
+    // Get instance field: public System.Int32 nPriority
+    int _get_nPriority();
+    // Set instance field: public System.Int32 nPriority
+    void _set_nPriority(int value);
   }; // OVR.OpenVR.VRActiveActionSet_t
   #pragma pack(pop)
   static check_size<sizeof(VRActiveActionSet_t), 28 + sizeof(int)> __OVR_OpenVR_VRActiveActionSet_tSizeCheck;

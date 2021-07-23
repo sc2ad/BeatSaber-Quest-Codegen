@@ -77,6 +77,14 @@ namespace OnlineServices::API {
     static_assert(sizeof(System::UriBuilder*) == 0x8);
     // Creating value type constructor for type: HTTPAdminLeaderboardsHelper
     HTTPAdminLeaderboardsHelper(::Il2CppString* secret_ = {}, System::UriBuilder* uriBuilder_ = {}) noexcept : secret{secret_}, uriBuilder{uriBuilder_} {}
+    // Get instance field: private System.String _secret
+    ::Il2CppString* _get__secret();
+    // Set instance field: private System.String _secret
+    void _set__secret(::Il2CppString* value);
+    // Get instance field: private System.UriBuilder _uriBuilder
+    System::UriBuilder* _get__uriBuilder();
+    // Set instance field: private System.UriBuilder _uriBuilder
+    void _set__uriBuilder(System::UriBuilder* value);
     // public System.Void .ctor(System.String uri, System.String secret)
     // Offset: 0xFF3DA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

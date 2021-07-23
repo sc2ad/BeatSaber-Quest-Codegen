@@ -53,6 +53,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TubeBloomPrePassLightWithId
     TubeBloomPrePassLightWithId(GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight_ = {}, bool setOnlyOnce_ = {}, bool setColorOnly_ = {}) noexcept : tubeBloomPrePassLight{tubeBloomPrePassLight_}, setOnlyOnce{setOnlyOnce_}, setColorOnly{setColorOnly_} {}
+    // Get instance field: private TubeBloomPrePassLight _tubeBloomPrePassLight
+    GlobalNamespace::TubeBloomPrePassLight* _get__tubeBloomPrePassLight();
+    // Set instance field: private TubeBloomPrePassLight _tubeBloomPrePassLight
+    void _set__tubeBloomPrePassLight(GlobalNamespace::TubeBloomPrePassLight* value);
+    // Get instance field: private System.Boolean _setOnlyOnce
+    bool _get__setOnlyOnce();
+    // Set instance field: private System.Boolean _setOnlyOnce
+    void _set__setOnlyOnce(bool value);
+    // Get instance field: private System.Boolean _setColorOnly
+    bool _get__setColorOnly();
+    // Set instance field: private System.Boolean _setColorOnly
+    void _set__setColorOnly(bool value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1DFACF8
     UnityEngine::Color get_color();

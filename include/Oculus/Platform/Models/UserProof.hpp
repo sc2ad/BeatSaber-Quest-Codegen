@@ -31,6 +31,10 @@ namespace Oculus::Platform::Models {
     constexpr operator ::Il2CppString*() const noexcept {
       return Value;
     }
+    // Get instance field: public readonly System.String Value
+    ::Il2CppString* _get_Value();
+    // Set instance field: public readonly System.String Value
+    void _set_Value(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A8F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

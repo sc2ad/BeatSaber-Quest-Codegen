@@ -57,6 +57,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::CameraDevice _get_ZEDCamera();
     // Set static field: static public OVRPlugin/CameraDevice ZEDCamera
     static void _set_ZEDCamera(GlobalNamespace::OVRPlugin::CameraDevice value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/CameraDevice
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraDevice), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraDeviceSizeCheck;

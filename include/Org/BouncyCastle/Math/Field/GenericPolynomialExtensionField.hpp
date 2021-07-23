@@ -50,6 +50,14 @@ namespace Org::BouncyCastle::Math::Field {
     operator Org::BouncyCastle::Math::Field::IPolynomialExtensionField() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);
     }
+    // Get instance field: protected readonly Org.BouncyCastle.Math.Field.IFiniteField subfield
+    Org::BouncyCastle::Math::Field::IFiniteField* _get_subfield();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.Field.IFiniteField subfield
+    void _set_subfield(Org::BouncyCastle::Math::Field::IFiniteField* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.Field.IPolynomial minimalPolynomial
+    Org::BouncyCastle::Math::Field::IPolynomial* _get_minimalPolynomial();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.Field.IPolynomial minimalPolynomial
+    void _set_minimalPolynomial(Org::BouncyCastle::Math::Field::IPolynomial* value);
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
     // Offset: 0x1D9F4D4
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();

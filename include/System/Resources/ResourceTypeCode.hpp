@@ -157,6 +157,10 @@ namespace System::Resources {
     static System::Resources::ResourceTypeCode _get_StartOfUserTypes();
     // Set static field: static public System.Resources.ResourceTypeCode StartOfUserTypes
     static void _set_StartOfUserTypes(System::Resources::ResourceTypeCode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Resources.ResourceTypeCode
   #pragma pack(pop)
   static check_size<sizeof(ResourceTypeCode), 0 + sizeof(int)> __System_Resources_ResourceTypeCodeSizeCheck;

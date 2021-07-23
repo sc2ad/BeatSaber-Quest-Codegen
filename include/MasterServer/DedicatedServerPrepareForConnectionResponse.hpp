@@ -84,6 +84,10 @@ namespace MasterServer {
       static MasterServer::DedicatedServerPrepareForConnectionResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::DedicatedServerPrepareForConnectionResponse::Result value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(DedicatedServerPrepareForConnectionResponse::Result), 0 + sizeof(int)> __MasterServer_DedicatedServerPrepareForConnectionResponse_ResultSizeCheck;
@@ -114,6 +118,18 @@ namespace MasterServer {
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
+    // Get instance field: public MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result
+    MasterServer::DedicatedServerPrepareForConnectionResponse::Result _get_result();
+    // Set instance field: public MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result
+    void _set_result(MasterServer::DedicatedServerPrepareForConnectionResponse::Result value);
+    // Get instance field: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
+    // Set instance field: private System.String <dedicatedServerId>k__BackingField
+    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    int64_t _get_$dedicatedServerCreationTime$k__BackingField();
+    // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
     // static public PacketPool`1<MasterServer.DedicatedServerPrepareForConnectionResponse> get_pool()
     // Offset: 0x12D29DC
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerPrepareForConnectionResponse*>* get_pool();

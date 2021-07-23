@@ -56,6 +56,14 @@ namespace System::Threading {
     operator System::IEquatable_1<System::Threading::CancellationTokenRegistration>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Threading::CancellationTokenRegistration>*>(this);
     }
+    // Get instance field: private readonly System.Threading.CancellationCallbackInfo m_callbackInfo
+    System::Threading::CancellationCallbackInfo* _get_m_callbackInfo();
+    // Set instance field: private readonly System.Threading.CancellationCallbackInfo m_callbackInfo
+    void _set_m_callbackInfo(System::Threading::CancellationCallbackInfo* value);
+    // Get instance field: private readonly System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> m_registrationInfo
+    System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> _get_m_registrationInfo();
+    // Set instance field: private readonly System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> m_registrationInfo
+    void _set_m_registrationInfo(System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> value);
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
     // Offset: 0xEEA5CC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

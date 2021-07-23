@@ -59,6 +59,18 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Submesh
     Submesh(::Array<int>* m_Indexes_ = {}, UnityEngine::MeshTopology m_Topology_ = {}, int m_SubmeshIndex_ = {}) noexcept : m_Indexes{m_Indexes_}, m_Topology{m_Topology_}, m_SubmeshIndex{m_SubmeshIndex_} {}
+    // Get instance field: System.Int32[] m_Indexes
+    ::Array<int>* _get_m_Indexes();
+    // Set instance field: System.Int32[] m_Indexes
+    void _set_m_Indexes(::Array<int>* value);
+    // Get instance field: UnityEngine.MeshTopology m_Topology
+    UnityEngine::MeshTopology _get_m_Topology();
+    // Set instance field: UnityEngine.MeshTopology m_Topology
+    void _set_m_Topology(UnityEngine::MeshTopology value);
+    // Get instance field: System.Int32 m_SubmeshIndex
+    int _get_m_SubmeshIndex();
+    // Set instance field: System.Int32 m_SubmeshIndex
+    void _set_m_SubmeshIndex(int value);
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indexes()
     // Offset: 0x22A9644
     System::Collections::Generic::IEnumerable_1<int>* get_indexes();

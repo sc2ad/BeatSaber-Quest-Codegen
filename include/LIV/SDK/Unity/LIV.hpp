@@ -65,6 +65,22 @@ namespace LIV::SDK::Unity {
     LIV(UnityEngine::Transform* TrackedSpaceOrigin_ = {}, UnityEngine::Camera* HMDCamera_ = {}, bool DisableStandardAssets_ = {}, UnityEngine::LayerMask SpectatorLayerMask_ = {}) noexcept : TrackedSpaceOrigin{TrackedSpaceOrigin_}, HMDCamera{HMDCamera_}, DisableStandardAssets{DisableStandardAssets_}, SpectatorLayerMask{SpectatorLayerMask_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Transform TrackedSpaceOrigin
+    UnityEngine::Transform* _get_TrackedSpaceOrigin();
+    // Set instance field: public UnityEngine.Transform TrackedSpaceOrigin
+    void _set_TrackedSpaceOrigin(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Camera HMDCamera
+    UnityEngine::Camera* _get_HMDCamera();
+    // Set instance field: public UnityEngine.Camera HMDCamera
+    void _set_HMDCamera(UnityEngine::Camera* value);
+    // Get instance field: public System.Boolean DisableStandardAssets
+    bool _get_DisableStandardAssets();
+    // Set instance field: public System.Boolean DisableStandardAssets
+    void _set_DisableStandardAssets(bool value);
+    // Get instance field: public UnityEngine.LayerMask SpectatorLayerMask
+    UnityEngine::LayerMask _get_SpectatorLayerMask();
+    // Set instance field: public UnityEngine.LayerMask SpectatorLayerMask
+    void _set_SpectatorLayerMask(UnityEngine::LayerMask value);
     // public System.Void .ctor()
     // Offset: 0x23CB268
     // Implemented from: UnityEngine.MonoBehaviour

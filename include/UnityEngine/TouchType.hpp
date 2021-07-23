@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::TouchType _get_Stylus();
     // Set static field: static public UnityEngine.TouchType Stylus
     static void _set_Stylus(UnityEngine::TouchType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.TouchType
   #pragma pack(pop)
   static check_size<sizeof(TouchType), 0 + sizeof(int)> __UnityEngine_TouchTypeSizeCheck;

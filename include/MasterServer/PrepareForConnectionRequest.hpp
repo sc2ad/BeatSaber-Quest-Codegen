@@ -95,6 +95,34 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
+    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint* _get_remoteEndPoint();
+    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
+    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable* _get_random();
+    // Set instance field: public readonly ByteArrayNetSerializable random
+    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable publicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_publicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable publicKey
+    void _set_publicKey(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public System.Boolean isConnectionOwner
+    bool _get_isConnectionOwner();
+    // Set instance field: public System.Boolean isConnectionOwner
+    void _set_isConnectionOwner(bool value);
+    // Get instance field: public System.Boolean isDedicatedServer
+    bool _get_isDedicatedServer();
+    // Set instance field: public System.Boolean isDedicatedServer
+    void _set_isDedicatedServer(bool value);
     // static public PacketPool`1<MasterServer.PrepareForConnectionRequest> get_pool()
     // Offset: 0x12D5400
     static GlobalNamespace::PacketPool_1<MasterServer::PrepareForConnectionRequest*>* get_pool();

@@ -41,6 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SpriteSwapTransitionSO*) == 0x8);
     // Creating value type constructor for type: SpriteSwapGraphicViewStateTransition
     SpriteSwapGraphicViewStateTransition(GlobalNamespace::SpriteSwapTransitionSO* transition_ = {}) noexcept : transition{transition_} {}
+    // Get instance field: private SpriteSwapTransitionSO _transition
+    GlobalNamespace::SpriteSwapTransitionSO* _get__transition();
+    // Set instance field: private SpriteSwapTransitionSO _transition
+    void _set__transition(GlobalNamespace::SpriteSwapTransitionSO* value);
     // protected override BaseTransitionSO get_transition()
     // Offset: 0x105EFB0
     // Implemented from: BaseStateTransition

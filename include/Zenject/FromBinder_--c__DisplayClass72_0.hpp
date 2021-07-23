@@ -46,6 +46,10 @@ namespace Zenject {
     constexpr operator ::Il2CppObject*() const noexcept {
       return instance;
     }
+    // Get instance field: public System.Object instance
+    ::Il2CppObject* _get_instance();
+    // Set instance field: public System.Object instance
+    void _set_instance(::Il2CppObject* value);
     // Zenject.IProvider <FromInstanceBase>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0x1622BF4
     Zenject::IProvider* $FromInstanceBase$b__0(Zenject::DiContainer* container, System::Type* type);

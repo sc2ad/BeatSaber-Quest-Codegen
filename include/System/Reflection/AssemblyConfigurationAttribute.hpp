@@ -33,6 +33,10 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_configuration;
     }
+    // Get instance field: private System.String m_configuration
+    ::Il2CppString* _get_m_configuration();
+    // Set instance field: private System.String m_configuration
+    void _set_m_configuration(::Il2CppString* value);
     // public System.Void .ctor(System.String configuration)
     // Offset: 0x1CA5530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

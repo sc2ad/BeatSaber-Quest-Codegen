@@ -56,6 +56,10 @@ namespace JetBrains::Annotations {
     static JetBrains::Annotations::ImplicitUseTargetFlags _get_WithMembers();
     // Set static field: static public JetBrains.Annotations.ImplicitUseTargetFlags WithMembers
     static void _set_WithMembers(JetBrains::Annotations::ImplicitUseTargetFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // JetBrains.Annotations.ImplicitUseTargetFlags
   #pragma pack(pop)
   static check_size<sizeof(ImplicitUseTargetFlags), 0 + sizeof(int)> __JetBrains_Annotations_ImplicitUseTargetFlagsSizeCheck;

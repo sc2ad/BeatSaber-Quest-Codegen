@@ -43,6 +43,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::BezierTangentDirection _get_Out();
     // Set static field: static public UnityEngine.ProBuilder.BezierTangentDirection Out
     static void _set_Out(UnityEngine::ProBuilder::BezierTangentDirection value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.BezierTangentDirection
   #pragma pack(pop)
   static check_size<sizeof(BezierTangentDirection), 0 + sizeof(int)> __UnityEngine_ProBuilder_BezierTangentDirectionSizeCheck;

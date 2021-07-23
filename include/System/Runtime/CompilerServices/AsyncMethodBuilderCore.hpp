@@ -65,6 +65,14 @@ namespace System::Runtime::CompilerServices {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
+    System::Runtime::CompilerServices::IAsyncStateMachine* _get_m_stateMachine();
+    // Set instance field: System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
+    void _set_m_stateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* value);
+    // Get instance field: System.Action m_defaultContextAction
+    System::Action* _get_m_defaultContextAction();
+    // Set instance field: System.Action m_defaultContextAction
+    void _set_m_defaultContextAction(System::Action* value);
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xED5C44
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

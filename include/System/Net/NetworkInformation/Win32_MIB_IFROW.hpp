@@ -170,6 +170,102 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Char[] Name
+    ::Array<::Il2CppChar>* _get_Name();
+    // Set instance field: public System.Char[] Name
+    void _set_Name(::Array<::Il2CppChar>* value);
+    // Get instance field: public System.Int32 Index
+    int _get_Index();
+    // Set instance field: public System.Int32 Index
+    void _set_Index(int value);
+    // Get instance field: public System.Net.NetworkInformation.NetworkInterfaceType Type
+    System::Net::NetworkInformation::NetworkInterfaceType _get_Type();
+    // Set instance field: public System.Net.NetworkInformation.NetworkInterfaceType Type
+    void _set_Type(System::Net::NetworkInformation::NetworkInterfaceType value);
+    // Get instance field: public System.Int32 Mtu
+    int _get_Mtu();
+    // Set instance field: public System.Int32 Mtu
+    void _set_Mtu(int value);
+    // Get instance field: public System.UInt32 Speed
+    uint _get_Speed();
+    // Set instance field: public System.UInt32 Speed
+    void _set_Speed(uint value);
+    // Get instance field: public System.Int32 PhysAddrLen
+    int _get_PhysAddrLen();
+    // Set instance field: public System.Int32 PhysAddrLen
+    void _set_PhysAddrLen(int value);
+    // Get instance field: public System.Byte[] PhysAddr
+    ::Array<uint8_t>* _get_PhysAddr();
+    // Set instance field: public System.Byte[] PhysAddr
+    void _set_PhysAddr(::Array<uint8_t>* value);
+    // Get instance field: public System.UInt32 AdminStatus
+    uint _get_AdminStatus();
+    // Set instance field: public System.UInt32 AdminStatus
+    void _set_AdminStatus(uint value);
+    // Get instance field: public System.UInt32 OperStatus
+    uint _get_OperStatus();
+    // Set instance field: public System.UInt32 OperStatus
+    void _set_OperStatus(uint value);
+    // Get instance field: public System.UInt32 LastChange
+    uint _get_LastChange();
+    // Set instance field: public System.UInt32 LastChange
+    void _set_LastChange(uint value);
+    // Get instance field: public System.Int32 InOctets
+    int _get_InOctets();
+    // Set instance field: public System.Int32 InOctets
+    void _set_InOctets(int value);
+    // Get instance field: public System.Int32 InUcastPkts
+    int _get_InUcastPkts();
+    // Set instance field: public System.Int32 InUcastPkts
+    void _set_InUcastPkts(int value);
+    // Get instance field: public System.Int32 InNUcastPkts
+    int _get_InNUcastPkts();
+    // Set instance field: public System.Int32 InNUcastPkts
+    void _set_InNUcastPkts(int value);
+    // Get instance field: public System.Int32 InDiscards
+    int _get_InDiscards();
+    // Set instance field: public System.Int32 InDiscards
+    void _set_InDiscards(int value);
+    // Get instance field: public System.Int32 InErrors
+    int _get_InErrors();
+    // Set instance field: public System.Int32 InErrors
+    void _set_InErrors(int value);
+    // Get instance field: public System.Int32 InUnknownProtos
+    int _get_InUnknownProtos();
+    // Set instance field: public System.Int32 InUnknownProtos
+    void _set_InUnknownProtos(int value);
+    // Get instance field: public System.Int32 OutOctets
+    int _get_OutOctets();
+    // Set instance field: public System.Int32 OutOctets
+    void _set_OutOctets(int value);
+    // Get instance field: public System.Int32 OutUcastPkts
+    int _get_OutUcastPkts();
+    // Set instance field: public System.Int32 OutUcastPkts
+    void _set_OutUcastPkts(int value);
+    // Get instance field: public System.Int32 OutNUcastPkts
+    int _get_OutNUcastPkts();
+    // Set instance field: public System.Int32 OutNUcastPkts
+    void _set_OutNUcastPkts(int value);
+    // Get instance field: public System.Int32 OutDiscards
+    int _get_OutDiscards();
+    // Set instance field: public System.Int32 OutDiscards
+    void _set_OutDiscards(int value);
+    // Get instance field: public System.Int32 OutErrors
+    int _get_OutErrors();
+    // Set instance field: public System.Int32 OutErrors
+    void _set_OutErrors(int value);
+    // Get instance field: public System.Int32 OutQLen
+    int _get_OutQLen();
+    // Set instance field: public System.Int32 OutQLen
+    void _set_OutQLen(int value);
+    // Get instance field: public System.Int32 DescrLen
+    int _get_DescrLen();
+    // Set instance field: public System.Int32 DescrLen
+    void _set_DescrLen(int value);
+    // Get instance field: public System.Byte[] Descr
+    ::Array<uint8_t>* _get_Descr();
+    // Set instance field: public System.Byte[] Descr
+    void _set_Descr(::Array<uint8_t>* value);
   }; // System.Net.NetworkInformation.Win32_MIB_IFROW
   #pragma pack(pop)
   static check_size<sizeof(Win32_MIB_IFROW), 104 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_Win32_MIB_IFROWSizeCheck;

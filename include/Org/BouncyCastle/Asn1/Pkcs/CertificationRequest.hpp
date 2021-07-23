@@ -60,6 +60,18 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     // Creating value type constructor for type: CertificationRequest
     CertificationRequest(Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* reqInfo_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId_ = {}, Org::BouncyCastle::Asn1::DerBitString* sigBits_ = {}) noexcept : reqInfo{reqInfo_}, sigAlgId{sigAlgId_}, sigBits{sigBits_} {}
+    // Get instance field: protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
+    Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* _get_reqInfo();
+    // Set instance field: protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
+    void _set_reqInfo(Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* value);
+    // Get instance field: protected Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_sigAlgId();
+    // Set instance field: protected Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId
+    void _set_sigAlgId(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field: protected Org.BouncyCastle.Asn1.DerBitString sigBits
+    Org::BouncyCastle::Asn1::DerBitString* _get_sigBits();
+    // Set instance field: protected Org.BouncyCastle.Asn1.DerBitString sigBits
+    void _set_sigBits(Org::BouncyCastle::Asn1::DerBitString* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x1760AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

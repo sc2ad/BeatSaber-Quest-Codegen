@@ -63,6 +63,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::LayerLayout _get_EnumSize();
     // Set static field: static public OVRPlugin/LayerLayout EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::LayerLayout value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/LayerLayout
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::LayerLayout), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_LayerLayoutSizeCheck;

@@ -57,6 +57,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<int>*) == 0x8);
     // Creating value type constructor for type: FABRIKChain
     FABRIKChain(RootMotion::FinalIK::FABRIK* ik_ = {}, float pull_ = {}, float pin_ = {}, ::Array<int>* children_ = {}) noexcept : ik{ik_}, pull{pull_}, pin{pin_}, children{children_} {}
+    // Get instance field: public RootMotion.FinalIK.FABRIK ik
+    RootMotion::FinalIK::FABRIK* _get_ik();
+    // Set instance field: public RootMotion.FinalIK.FABRIK ik
+    void _set_ik(RootMotion::FinalIK::FABRIK* value);
+    // Get instance field: public System.Single pull
+    float _get_pull();
+    // Set instance field: public System.Single pull
+    void _set_pull(float value);
+    // Get instance field: public System.Single pin
+    float _get_pin();
+    // Set instance field: public System.Single pin
+    void _set_pin(float value);
+    // Get instance field: public System.Int32[] children
+    ::Array<int>* _get_children();
+    // Set instance field: public System.Int32[] children
+    void _set_children(::Array<int>* value);
     // public System.Boolean IsValid(ref System.String message)
     // Offset: 0x1CE14B0
     bool IsValid(::Il2CppString*& message);

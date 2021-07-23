@@ -72,6 +72,22 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDsa dsa
+    Org::BouncyCastle::Crypto::IDsa* _get_dsa();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDsa dsa
+    void _set_dsa(Org::BouncyCastle::Crypto::IDsa* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest* _get_digest();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding
+    Org::BouncyCastle::Crypto::Signers::IDsaEncoding* _get_encoding();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding
+    void _set_encoding(Org::BouncyCastle::Crypto::Signers::IDsaEncoding* value);
+    // Get instance field: private System.Boolean forSigning
+    bool _get_forSigning();
+    // Set instance field: private System.Boolean forSigning
+    void _set_forSigning(bool value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa dsa, Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x122EA50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

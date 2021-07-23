@@ -71,6 +71,34 @@ namespace UnityEngine::UI {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HorizontalOrVerticalLayoutGroup
     HorizontalOrVerticalLayoutGroup(float m_Spacing_ = {}, bool m_ChildForceExpandWidth_ = {}, bool m_ChildForceExpandHeight_ = {}, bool m_ChildControlWidth_ = {}, bool m_ChildControlHeight_ = {}, bool m_ChildScaleWidth_ = {}, bool m_ChildScaleHeight_ = {}) noexcept : m_Spacing{m_Spacing_}, m_ChildForceExpandWidth{m_ChildForceExpandWidth_}, m_ChildForceExpandHeight{m_ChildForceExpandHeight_}, m_ChildControlWidth{m_ChildControlWidth_}, m_ChildControlHeight{m_ChildControlHeight_}, m_ChildScaleWidth{m_ChildScaleWidth_}, m_ChildScaleHeight{m_ChildScaleHeight_} {}
+    // Get instance field: protected System.Single m_Spacing
+    float _get_m_Spacing();
+    // Set instance field: protected System.Single m_Spacing
+    void _set_m_Spacing(float value);
+    // Get instance field: protected System.Boolean m_ChildForceExpandWidth
+    bool _get_m_ChildForceExpandWidth();
+    // Set instance field: protected System.Boolean m_ChildForceExpandWidth
+    void _set_m_ChildForceExpandWidth(bool value);
+    // Get instance field: protected System.Boolean m_ChildForceExpandHeight
+    bool _get_m_ChildForceExpandHeight();
+    // Set instance field: protected System.Boolean m_ChildForceExpandHeight
+    void _set_m_ChildForceExpandHeight(bool value);
+    // Get instance field: protected System.Boolean m_ChildControlWidth
+    bool _get_m_ChildControlWidth();
+    // Set instance field: protected System.Boolean m_ChildControlWidth
+    void _set_m_ChildControlWidth(bool value);
+    // Get instance field: protected System.Boolean m_ChildControlHeight
+    bool _get_m_ChildControlHeight();
+    // Set instance field: protected System.Boolean m_ChildControlHeight
+    void _set_m_ChildControlHeight(bool value);
+    // Get instance field: protected System.Boolean m_ChildScaleWidth
+    bool _get_m_ChildScaleWidth();
+    // Set instance field: protected System.Boolean m_ChildScaleWidth
+    void _set_m_ChildScaleWidth(bool value);
+    // Get instance field: protected System.Boolean m_ChildScaleHeight
+    bool _get_m_ChildScaleHeight();
+    // Set instance field: protected System.Boolean m_ChildScaleHeight
+    void _set_m_ChildScaleHeight(bool value);
     // public System.Single get_spacing()
     // Offset: 0x18EC51C
     float get_spacing();

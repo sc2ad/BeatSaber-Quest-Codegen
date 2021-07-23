@@ -57,6 +57,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::TrackingOrigin _get_Count();
     // Set static field: static public OVRPlugin/TrackingOrigin Count
     static void _set_Count(GlobalNamespace::OVRPlugin::TrackingOrigin value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/TrackingOrigin
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::TrackingOrigin), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_TrackingOriginSizeCheck;

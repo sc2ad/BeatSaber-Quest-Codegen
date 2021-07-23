@@ -92,6 +92,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509KeyUsageFlags _get_DecipherOnly();
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509KeyUsageFlags DecipherOnly
     static void _set_DecipherOnly(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
   #pragma pack(pop)
   static check_size<sizeof(X509KeyUsageFlags), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509KeyUsageFlagsSizeCheck;

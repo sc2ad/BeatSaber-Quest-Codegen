@@ -43,6 +43,10 @@ namespace Org::BouncyCastle::Asn1 {
     static ::Array<::Il2CppChar>* _get_table();
     // Set static field: static private readonly System.Char[] table
     static void _set_table(::Array<::Il2CppChar>* value);
+    // Get instance field: private readonly System.Byte[] str
+    ::Array<uint8_t>* _get_str();
+    // Set instance field: private readonly System.Byte[] str
+    void _set_str(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Byte[] str)
     // Offset: 0x16DC074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

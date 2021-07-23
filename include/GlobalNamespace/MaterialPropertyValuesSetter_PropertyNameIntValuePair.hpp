@@ -33,6 +33,10 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
+    // Get instance field: public System.Int32 value
+    int _get_value();
+    // Set instance field: public System.Int32 value
+    void _set_value(int value);
     // public System.Void .ctor()
     // Offset: 0x1DF63B0
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase

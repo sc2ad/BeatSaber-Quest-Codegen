@@ -120,6 +120,50 @@ namespace HMUI {
     operator HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);
     }
+    // Get instance field: private System.Single _iconSize
+    float _get__iconSize();
+    // Set instance field: private System.Single _iconSize
+    void _set__iconSize(float value);
+    // Get instance field: private System.Boolean _overrideCellSize
+    bool _get__overrideCellSize();
+    // Set instance field: private System.Boolean _overrideCellSize
+    void _set__overrideCellSize(bool value);
+    // Get instance field: private System.Single _padding
+    float _get__padding();
+    // Set instance field: private System.Single _padding
+    void _set__padding(float value);
+    // Get instance field: private System.Boolean _hideCellBackground
+    bool _get__hideCellBackground();
+    // Set instance field: private System.Boolean _hideCellBackground
+    void _set__hideCellBackground(bool value);
+    // Get instance field: private HMUI.IconSegmentedControlCell _firstCellPrefab
+    HMUI::IconSegmentedControlCell* _get__firstCellPrefab();
+    // Set instance field: private HMUI.IconSegmentedControlCell _firstCellPrefab
+    void _set__firstCellPrefab(HMUI::IconSegmentedControlCell* value);
+    // Get instance field: private HMUI.IconSegmentedControlCell _lastCellPrefab
+    HMUI::IconSegmentedControlCell* _get__lastCellPrefab();
+    // Set instance field: private HMUI.IconSegmentedControlCell _lastCellPrefab
+    void _set__lastCellPrefab(HMUI::IconSegmentedControlCell* value);
+    // Get instance field: private HMUI.IconSegmentedControlCell _middleCellPrefab
+    HMUI::IconSegmentedControlCell* _get__middleCellPrefab();
+    // Set instance field: private HMUI.IconSegmentedControlCell _middleCellPrefab
+    void _set__middleCellPrefab(HMUI::IconSegmentedControlCell* value);
+    // Get instance field: private HMUI.IconSegmentedControlCell _singleCellPrefab
+    HMUI::IconSegmentedControlCell* _get__singleCellPrefab();
+    // Set instance field: private HMUI.IconSegmentedControlCell _singleCellPrefab
+    void _set__singleCellPrefab(HMUI::IconSegmentedControlCell* value);
+    // Get instance field: private Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private HMUI.IconSegmentedControl/HMUI.DataItem[] _dataItems
+    ::Array<HMUI::IconSegmentedControl::DataItem*>* _get__dataItems();
+    // Set instance field: private HMUI.IconSegmentedControl/HMUI.DataItem[] _dataItems
+    void _set__dataItems(::Array<HMUI::IconSegmentedControl::DataItem*>* value);
+    // Get instance field: private System.Boolean _isInitialized
+    bool _get__isInitialized();
+    // Set instance field: private System.Boolean _isInitialized
+    void _set__isInitialized(bool value);
     // protected System.Void Init()
     // Offset: 0x131179C
     void Init();

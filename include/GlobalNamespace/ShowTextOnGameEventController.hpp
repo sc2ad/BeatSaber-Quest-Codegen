@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     ShowTextOnGameEventController(GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}, ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* eventTextBindings_ = {}) noexcept : textFadeTransitions{textFadeTransitions_}, eventTextBindings{eventTextBindings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TextFadeTransitions _textFadeTransitions
+    GlobalNamespace::TextFadeTransitions* _get__textFadeTransitions();
+    // Set instance field: private TextFadeTransitions _textFadeTransitions
+    void _set__textFadeTransitions(GlobalNamespace::TextFadeTransitions* value);
+    // Get instance field: private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
+    ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* _get__eventTextBindings();
+    // Set instance field: private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
+    void _set__eventTextBindings(::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* value);
     // protected System.Void Awake()
     // Offset: 0x10539DC
     void Awake();

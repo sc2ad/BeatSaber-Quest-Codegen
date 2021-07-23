@@ -110,6 +110,46 @@ namespace GlobalNamespace {
     PlayerHeightDetector(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, GlobalNamespace::PlayerHeightDetector::InitData* initData_ = {}, System::Action_1<float>* playerHeightDidChangeEvent_ = {}, GlobalNamespace::BeatmapObjectCallbackData* beatmapObjectCallbackData_ = {}, float noTopObstaclesStartTime_ = {}, float computedPlayerHeight_ = {}, float changeWeight_ = {}, float lastReportedHeight_ = {}) noexcept : playerTransforms{playerTransforms_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, audioTimeSyncController{audioTimeSyncController_}, initData{initData_}, playerHeightDidChangeEvent{playerHeightDidChangeEvent_}, beatmapObjectCallbackData{beatmapObjectCallbackData_}, noTopObstaclesStartTime{noTopObstaclesStartTime_}, computedPlayerHeight{computedPlayerHeight_}, changeWeight{changeWeight_}, lastReportedHeight{lastReportedHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSyncController();
+    // Set instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private readonly PlayerHeightDetector/InitData _initData
+    GlobalNamespace::PlayerHeightDetector::InitData* _get__initData();
+    // Set instance field: private readonly PlayerHeightDetector/InitData _initData
+    void _set__initData(GlobalNamespace::PlayerHeightDetector::InitData* value);
+    // Get instance field: private System.Action`1<System.Single> playerHeightDidChangeEvent
+    System::Action_1<float>* _get_playerHeightDidChangeEvent();
+    // Set instance field: private System.Action`1<System.Single> playerHeightDidChangeEvent
+    void _set_playerHeightDidChangeEvent(System::Action_1<float>* value);
+    // Get instance field: private BeatmapObjectCallbackData _beatmapObjectCallbackData
+    GlobalNamespace::BeatmapObjectCallbackData* _get__beatmapObjectCallbackData();
+    // Set instance field: private BeatmapObjectCallbackData _beatmapObjectCallbackData
+    void _set__beatmapObjectCallbackData(GlobalNamespace::BeatmapObjectCallbackData* value);
+    // Get instance field: private System.Single _noTopObstaclesStartTime
+    float _get__noTopObstaclesStartTime();
+    // Set instance field: private System.Single _noTopObstaclesStartTime
+    void _set__noTopObstaclesStartTime(float value);
+    // Get instance field: private System.Single _computedPlayerHeight
+    float _get__computedPlayerHeight();
+    // Set instance field: private System.Single _computedPlayerHeight
+    void _set__computedPlayerHeight(float value);
+    // Get instance field: private System.Single _changeWeight
+    float _get__changeWeight();
+    // Set instance field: private System.Single _changeWeight
+    void _set__changeWeight(float value);
+    // Get instance field: private System.Single _lastReportedHeight
+    float _get__lastReportedHeight();
+    // Set instance field: private System.Single _lastReportedHeight
+    void _set__lastReportedHeight(float value);
     // public System.Single get_playerHeight()
     // Offset: 0x1104CA0
     float get_playerHeight();

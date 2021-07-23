@@ -45,6 +45,10 @@ namespace UnityEngine::EventSystems {
     BaseEventData(UnityEngine::EventSystems::EventSystem* m_EventSystem_ = {}) noexcept : m_EventSystem{m_EventSystem_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
+    // Get instance field: private readonly UnityEngine.EventSystems.EventSystem m_EventSystem
+    UnityEngine::EventSystems::EventSystem* _get_m_EventSystem();
+    // Set instance field: private readonly UnityEngine.EventSystems.EventSystem m_EventSystem
+    void _set_m_EventSystem(UnityEngine::EventSystems::EventSystem* value);
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
     // Offset: 0x1400640
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();

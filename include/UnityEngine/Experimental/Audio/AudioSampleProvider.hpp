@@ -38,6 +38,14 @@ namespace UnityEngine::Experimental::Audio {
     static_assert(sizeof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*) == 0x8);
     // Creating value type constructor for type: AudioSampleProvider
     AudioSampleProvider(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesAvailable_ = {}, UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesOverflow_ = {}) noexcept : sampleFramesAvailable{sampleFramesAvailable_}, sampleFramesOverflow{sampleFramesOverflow_} {}
+    // Get instance field: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesAvailable
+    UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* _get_sampleFramesAvailable();
+    // Set instance field: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesAvailable
+    void _set_sampleFramesAvailable(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* value);
+    // Get instance field: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesOverflow
+    UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* _get_sampleFramesOverflow();
+    // Set instance field: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesOverflow
+    void _set_sampleFramesOverflow(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* value);
     // private System.Void InvokeSampleFramesAvailable(System.Int32 sampleFrameCount)
     // Offset: 0x23ABF24
     void InvokeSampleFramesAvailable(int sampleFrameCount);

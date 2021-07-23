@@ -63,6 +63,26 @@ namespace System {
     static int _get_NumberBufferBytes();
     // Set static field: static public readonly System.Int32 NumberBufferBytes
     static void _set_NumberBufferBytes(int value);
+    // Get instance field: private System.Byte* baseAddress
+    uint8_t* _get_baseAddress();
+    // Set instance field: private System.Byte* baseAddress
+    void _set_baseAddress(uint8_t* value);
+    // Get instance field: public System.Char* digits
+    ::Il2CppChar* _get_digits();
+    // Set instance field: public System.Char* digits
+    void _set_digits(::Il2CppChar* value);
+    // Get instance field: public System.Int32 precision
+    int _get_precision();
+    // Set instance field: public System.Int32 precision
+    void _set_precision(int value);
+    // Get instance field: public System.Int32 scale
+    int _get_scale();
+    // Set instance field: public System.Int32 scale
+    void _set_scale(int value);
+    // Get instance field: public System.Boolean sign
+    bool _get_sign();
+    // Set instance field: public System.Boolean sign
+    void _set_sign(bool value);
     // public System.Void .ctor(System.Byte* stackBuffer)
     // Offset: 0xEE9A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

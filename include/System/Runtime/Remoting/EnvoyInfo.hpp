@@ -42,6 +42,10 @@ namespace System::Runtime::Remoting {
     constexpr operator System::Runtime::Remoting::Messaging::IMessageSink*() const noexcept {
       return envoySinks;
     }
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
+    System::Runtime::Remoting::Messaging::IMessageSink* _get_envoySinks();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
+    void _set_envoySinks(System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
     // Offset: 0x19F0B80
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();

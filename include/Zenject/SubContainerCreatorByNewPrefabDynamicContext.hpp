@@ -52,6 +52,14 @@ namespace Zenject {
     SubContainerCreatorByNewPrefabDynamicContext(Zenject::IPrefabProvider* prefabProvider_ = {}, Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}) noexcept : prefabProvider{prefabProvider_}, gameObjectBindInfo{gameObjectBindInfo_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
+    // Get instance field: private readonly Zenject.IPrefabProvider _prefabProvider
+    Zenject::IPrefabProvider* _get__prefabProvider();
+    // Set instance field: private readonly Zenject.IPrefabProvider _prefabProvider
+    void _set__prefabProvider(Zenject::IPrefabProvider* value);
+    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
+    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo)
     // Offset: 0x16D2B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

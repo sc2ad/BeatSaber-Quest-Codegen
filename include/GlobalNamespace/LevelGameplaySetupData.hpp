@@ -62,6 +62,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ILevelGameplaySetupData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
+    // Get instance field: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
+    // Set instance field: private GameplayModifiers _gameplayModifiers
+    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field: private IPreviewBeatmapLevel <beatmapLevel>k__BackingField
+    GlobalNamespace::IPreviewBeatmapLevel* _get_$beatmapLevel$k__BackingField();
+    // Set instance field: private IPreviewBeatmapLevel <beatmapLevel>k__BackingField
+    void _set_$beatmapLevel$k__BackingField(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
+    GlobalNamespace::BeatmapCharacteristicSO* _get_$beatmapCharacteristic$k__BackingField();
+    // Set instance field: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
+    void _set_$beatmapCharacteristic$k__BackingField(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private BeatmapDifficulty <beatmapDifficulty>k__BackingField
+    GlobalNamespace::BeatmapDifficulty _get_$beatmapDifficulty$k__BackingField();
+    // Set instance field: private BeatmapDifficulty <beatmapDifficulty>k__BackingField
+    void _set_$beatmapDifficulty$k__BackingField(GlobalNamespace::BeatmapDifficulty value);
     // public IPreviewBeatmapLevel get_beatmapLevel()
     // Offset: 0x10F9850
     GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();

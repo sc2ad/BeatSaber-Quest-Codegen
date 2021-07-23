@@ -85,6 +85,38 @@ namespace GlobalNamespace {
     SimpleShadowController(UnityEngine::Transform* followTransform_ = {}, UnityEngine::SpriteRenderer* spriteRenderer_ = {}, float distanceScale_ = {}, float scale_ = {}, float alpha_ = {}, float floorYPos_ = {}, bool floorYPosLocal_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : followTransform{followTransform_}, spriteRenderer{spriteRenderer_}, distanceScale{distanceScale_}, scale{scale_}, alpha{alpha_}, floorYPos{floorYPos_}, floorYPosLocal{floorYPosLocal_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _followTransform
+    UnityEngine::Transform* _get__followTransform();
+    // Set instance field: private UnityEngine.Transform _followTransform
+    void _set__followTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.SpriteRenderer _spriteRenderer
+    UnityEngine::SpriteRenderer* _get__spriteRenderer();
+    // Set instance field: private UnityEngine.SpriteRenderer _spriteRenderer
+    void _set__spriteRenderer(UnityEngine::SpriteRenderer* value);
+    // Get instance field: private System.Single _distanceScale
+    float _get__distanceScale();
+    // Set instance field: private System.Single _distanceScale
+    void _set__distanceScale(float value);
+    // Get instance field: private System.Single _scale
+    float _get__scale();
+    // Set instance field: private System.Single _scale
+    void _set__scale(float value);
+    // Get instance field: private System.Single _alpha
+    float _get__alpha();
+    // Set instance field: private System.Single _alpha
+    void _set__alpha(float value);
+    // Get instance field: private System.Single _floorYPos
+    float _get__floorYPos();
+    // Set instance field: private System.Single _floorYPos
+    void _set__floorYPos(float value);
+    // Get instance field: private System.Boolean _floorYPosLocal
+    bool _get__floorYPosLocal();
+    // Set instance field: private System.Boolean _floorYPosLocal
+    void _set__floorYPosLocal(bool value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
     // protected System.Void Start()
     // Offset: 0x235A148
     void Start();

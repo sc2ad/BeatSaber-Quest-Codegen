@@ -59,6 +59,26 @@ namespace GlobalNamespace {
     static int64_t _get_kGranularity();
     // Set static field: static private System.Int64 kGranularity
     static void _set_kGranularity(int64_t value);
+    // Get instance field: private System.Int64 _currentTotal
+    int64_t _get__currentTotal();
+    // Set instance field: private System.Int64 _currentTotal
+    void _set__currentTotal(int64_t value);
+    // Get instance field: private System.Single _currentAverage
+    float _get__currentAverage();
+    // Set instance field: private System.Single _currentAverage
+    void _set__currentAverage(float value);
+    // Get instance field: private readonly System.Int64[] _buffer
+    ::Array<int64_t>* _get__buffer();
+    // Set instance field: private readonly System.Int64[] _buffer
+    void _set__buffer(::Array<int64_t>* value);
+    // Get instance field: private System.Int32 _index
+    int _get__index();
+    // Set instance field: private System.Int32 _index
+    void _set__index(int value);
+    // Get instance field: private System.Int32 _length
+    int _get__length();
+    // Set instance field: private System.Int32 _length
+    void _set__length(int value);
     // public System.Single get_currentAverage()
     // Offset: 0x230DFD4
     float get_currentAverage();

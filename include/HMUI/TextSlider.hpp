@@ -155,6 +155,54 @@ namespace HMUI {
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
     }
+    // Get instance field: private TMPro.TextMeshProUGUI _valueText
+    TMPro::TextMeshProUGUI* _get__valueText();
+    // Set instance field: private TMPro.TextMeshProUGUI _valueText
+    void _set__valueText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.RectTransform _handleRect
+    UnityEngine::RectTransform* _get__handleRect();
+    // Set instance field: private UnityEngine.RectTransform _handleRect
+    void _set__handleRect(UnityEngine::RectTransform* value);
+    // Get instance field: private System.Boolean _enableDragging
+    bool _get__enableDragging();
+    // Set instance field: private System.Boolean _enableDragging
+    void _set__enableDragging(bool value);
+    // Get instance field: private System.Single _handleSize
+    float _get__handleSize();
+    // Set instance field: private System.Single _handleSize
+    void _set__handleSize(float value);
+    // Get instance field: private System.Single _valueSize
+    float _get__valueSize();
+    // Set instance field: private System.Single _valueSize
+    void _set__valueSize(float value);
+    // Get instance field: private System.Single _separatorSize
+    float _get__separatorSize();
+    // Set instance field: private System.Single _separatorSize
+    void _set__separatorSize(float value);
+    // Get instance field: private System.Int32 _numberOfSteps
+    int _get__numberOfSteps();
+    // Set instance field: private System.Int32 _numberOfSteps
+    void _set__numberOfSteps(int value);
+    // Get instance field: private System.Single _normalizedValue
+    float _get__normalizedValue();
+    // Set instance field: private System.Single _normalizedValue
+    void _set__normalizedValue(float value);
+    // Get instance field: private System.Action`2<HMUI.TextSlider,System.Single> normalizedValueDidChangeEvent
+    System::Action_2<HMUI::TextSlider*, float>* _get_normalizedValueDidChangeEvent();
+    // Set instance field: private System.Action`2<HMUI.TextSlider,System.Single> normalizedValueDidChangeEvent
+    void _set_normalizedValueDidChangeEvent(System::Action_2<HMUI::TextSlider*, float>* value);
+    // Get instance field: private UnityEngine.RectTransform _containerRect
+    UnityEngine::RectTransform* _get__containerRect();
+    // Set instance field: private UnityEngine.RectTransform _containerRect
+    void _set__containerRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.UI.Graphic _handleGraphic
+    UnityEngine::UI::Graphic* _get__handleGraphic();
+    // Set instance field: private UnityEngine.UI.Graphic _handleGraphic
+    void _set__handleGraphic(UnityEngine::UI::Graphic* value);
+    // Get instance field: private UnityEngine.DrivenRectTransformTracker _tracker
+    UnityEngine::DrivenRectTransformTracker _get__tracker();
+    // Set instance field: private UnityEngine.DrivenRectTransformTracker _tracker
+    void _set__tracker(UnityEngine::DrivenRectTransformTracker value);
     // public System.Void set_valueTextColor(UnityEngine.Color value)
     // Offset: 0x12A1C80
     void set_valueTextColor(UnityEngine::Color value);

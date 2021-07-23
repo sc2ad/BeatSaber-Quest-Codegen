@@ -35,6 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: NodeInfo
     NodeInfo(UnityEngine::XR::XRNode nodeType_ = {}, int nodeIdx_ = {}) noexcept : nodeType{nodeType_}, nodeIdx{nodeIdx_} {}
+    // Get instance field: public readonly UnityEngine.XR.XRNode nodeType
+    UnityEngine::XR::XRNode _get_nodeType();
+    // Set instance field: public readonly UnityEngine.XR.XRNode nodeType
+    void _set_nodeType(UnityEngine::XR::XRNode value);
+    // Get instance field: public readonly System.Int32 nodeIdx
+    int _get_nodeIdx();
+    // Set instance field: public readonly System.Int32 nodeIdx
+    void _set_nodeIdx(int value);
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
     // Offset: 0x1279A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

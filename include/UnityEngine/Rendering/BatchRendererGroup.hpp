@@ -44,6 +44,14 @@ namespace UnityEngine::Rendering {
     static_assert(sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*) == 0x8);
     // Creating value type constructor for type: BatchRendererGroup
     BatchRendererGroup(System::IntPtr m_GroupHandle_ = {}, UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* m_PerformCulling_ = {}) noexcept : m_GroupHandle{m_GroupHandle_}, m_PerformCulling{m_PerformCulling_} {}
+    // Get instance field: private System.IntPtr m_GroupHandle
+    System::IntPtr _get_m_GroupHandle();
+    // Set instance field: private System.IntPtr m_GroupHandle
+    void _set_m_GroupHandle(System::IntPtr value);
+    // Get instance field: private UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling m_PerformCulling
+    UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* _get_m_PerformCulling();
+    // Set instance field: private UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling m_PerformCulling
+    void _set_m_PerformCulling(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* value);
     // static private System.Void InvokeOnPerformCulling(UnityEngine.Rendering.BatchRendererGroup group, ref UnityEngine.Rendering.BatchRendererCullingOutput context, ref UnityEngine.Rendering.LODParameters lodParameters)
     // Offset: 0x1C7BE68
     static void InvokeOnPerformCulling(UnityEngine::Rendering::BatchRendererGroup* group, UnityEngine::Rendering::BatchRendererCullingOutput& context, UnityEngine::Rendering::LODParameters& lodParameters);

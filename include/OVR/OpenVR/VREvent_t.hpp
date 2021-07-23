@@ -45,6 +45,22 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt32 eventType
+    uint _get_eventType();
+    // Set instance field: public System.UInt32 eventType
+    void _set_eventType(uint value);
+    // Get instance field: public System.UInt32 trackedDeviceIndex
+    uint _get_trackedDeviceIndex();
+    // Set instance field: public System.UInt32 trackedDeviceIndex
+    void _set_trackedDeviceIndex(uint value);
+    // Get instance field: public System.Single eventAgeSeconds
+    float _get_eventAgeSeconds();
+    // Set instance field: public System.Single eventAgeSeconds
+    void _set_eventAgeSeconds(float value);
+    // Get instance field: public OVR.OpenVR.VREvent_Data_t data
+    OVR::OpenVR::VREvent_Data_t _get_data();
+    // Set instance field: public OVR.OpenVR.VREvent_Data_t data
+    void _set_data(OVR::OpenVR::VREvent_Data_t value);
   }; // OVR.OpenVR.VREvent_t
   // WARNING Not writing size check since size may be invalid!
 }

@@ -147,6 +147,10 @@ namespace System::Net {
       static System::Net::HttpWebRequest::NtlmAuthState _get_Response();
       // Set static field: static public System.Net.HttpWebRequest/System.Net.NtlmAuthState Response
       static void _set_Response(System::Net::HttpWebRequest::NtlmAuthState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Net.HttpWebRequest/System.Net.NtlmAuthState
     #pragma pack(pop)
     static check_size<sizeof(HttpWebRequest::NtlmAuthState), 0 + sizeof(int)> __System_Net_HttpWebRequest_NtlmAuthStateSizeCheck;
@@ -190,6 +194,22 @@ namespace System::Net {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: private readonly System.Net.HttpWebRequest request
+      System::Net::HttpWebRequest* _get_request();
+      // Set instance field: private readonly System.Net.HttpWebRequest request
+      void _set_request(System::Net::HttpWebRequest* value);
+      // Get instance field: private readonly System.Boolean isProxy
+      bool _get_isProxy();
+      // Set instance field: private readonly System.Boolean isProxy
+      void _set_isProxy(bool value);
+      // Get instance field: private System.Boolean isCompleted
+      bool _get_isCompleted();
+      // Set instance field: private System.Boolean isCompleted
+      void _set_isCompleted(bool value);
+      // Get instance field: private System.Net.HttpWebRequest/System.Net.NtlmAuthState ntlm_auth_state
+      System::Net::HttpWebRequest::NtlmAuthState _get_ntlm_auth_state();
+      // Set instance field: private System.Net.HttpWebRequest/System.Net.NtlmAuthState ntlm_auth_state
+      void _set_ntlm_auth_state(System::Net::HttpWebRequest::NtlmAuthState value);
       // public System.Boolean get_IsCompleted()
       // Offset: 0xEE1EB4
       bool get_IsCompleted();
@@ -614,6 +634,246 @@ namespace System::Net {
     static int _get_defaultMaxResponseHeadersLength();
     // Set static field: static private System.Int32 defaultMaxResponseHeadersLength
     static void _set_defaultMaxResponseHeadersLength(int value);
+    // Get instance field: private System.Uri requestUri
+    System::Uri* _get_requestUri();
+    // Set instance field: private System.Uri requestUri
+    void _set_requestUri(System::Uri* value);
+    // Get instance field: private System.Uri actualUri
+    System::Uri* _get_actualUri();
+    // Set instance field: private System.Uri actualUri
+    void _set_actualUri(System::Uri* value);
+    // Get instance field: private System.Boolean hostChanged
+    bool _get_hostChanged();
+    // Set instance field: private System.Boolean hostChanged
+    void _set_hostChanged(bool value);
+    // Get instance field: private System.Boolean allowAutoRedirect
+    bool _get_allowAutoRedirect();
+    // Set instance field: private System.Boolean allowAutoRedirect
+    void _set_allowAutoRedirect(bool value);
+    // Get instance field: private System.Boolean allowBuffering
+    bool _get_allowBuffering();
+    // Set instance field: private System.Boolean allowBuffering
+    void _set_allowBuffering(bool value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates
+    System::Security::Cryptography::X509Certificates::X509CertificateCollection* _get_certificates();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates
+    void _set_certificates(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+    // Get instance field: private System.String connectionGroup
+    ::Il2CppString* _get_connectionGroup();
+    // Set instance field: private System.String connectionGroup
+    void _set_connectionGroup(::Il2CppString* value);
+    // Get instance field: private System.Boolean haveContentLength
+    bool _get_haveContentLength();
+    // Set instance field: private System.Boolean haveContentLength
+    void _set_haveContentLength(bool value);
+    // Get instance field: private System.Int64 contentLength
+    int64_t _get_contentLength();
+    // Set instance field: private System.Int64 contentLength
+    void _set_contentLength(int64_t value);
+    // Get instance field: private System.Net.HttpContinueDelegate continueDelegate
+    System::Net::HttpContinueDelegate* _get_continueDelegate();
+    // Set instance field: private System.Net.HttpContinueDelegate continueDelegate
+    void _set_continueDelegate(System::Net::HttpContinueDelegate* value);
+    // Get instance field: private System.Net.CookieContainer cookieContainer
+    System::Net::CookieContainer* _get_cookieContainer();
+    // Set instance field: private System.Net.CookieContainer cookieContainer
+    void _set_cookieContainer(System::Net::CookieContainer* value);
+    // Get instance field: private System.Net.ICredentials credentials
+    System::Net::ICredentials* _get_credentials();
+    // Set instance field: private System.Net.ICredentials credentials
+    void _set_credentials(System::Net::ICredentials* value);
+    // Get instance field: private System.Boolean haveResponse
+    bool _get_haveResponse();
+    // Set instance field: private System.Boolean haveResponse
+    void _set_haveResponse(bool value);
+    // Get instance field: private System.Boolean haveRequest
+    bool _get_haveRequest();
+    // Set instance field: private System.Boolean haveRequest
+    void _set_haveRequest(bool value);
+    // Get instance field: private System.Boolean requestSent
+    bool _get_requestSent();
+    // Set instance field: private System.Boolean requestSent
+    void _set_requestSent(bool value);
+    // Get instance field: private System.Net.WebHeaderCollection webHeaders
+    System::Net::WebHeaderCollection* _get_webHeaders();
+    // Set instance field: private System.Net.WebHeaderCollection webHeaders
+    void _set_webHeaders(System::Net::WebHeaderCollection* value);
+    // Get instance field: private System.Boolean keepAlive
+    bool _get_keepAlive();
+    // Set instance field: private System.Boolean keepAlive
+    void _set_keepAlive(bool value);
+    // Get instance field: private System.Int32 maxAutoRedirect
+    int _get_maxAutoRedirect();
+    // Set instance field: private System.Int32 maxAutoRedirect
+    void _set_maxAutoRedirect(int value);
+    // Get instance field: private System.String mediaType
+    ::Il2CppString* _get_mediaType();
+    // Set instance field: private System.String mediaType
+    void _set_mediaType(::Il2CppString* value);
+    // Get instance field: private System.String method
+    ::Il2CppString* _get_method();
+    // Set instance field: private System.String method
+    void _set_method(::Il2CppString* value);
+    // Get instance field: private System.String initialMethod
+    ::Il2CppString* _get_initialMethod();
+    // Set instance field: private System.String initialMethod
+    void _set_initialMethod(::Il2CppString* value);
+    // Get instance field: private System.Boolean pipelined
+    bool _get_pipelined();
+    // Set instance field: private System.Boolean pipelined
+    void _set_pipelined(bool value);
+    // Get instance field: private System.Boolean preAuthenticate
+    bool _get_preAuthenticate();
+    // Set instance field: private System.Boolean preAuthenticate
+    void _set_preAuthenticate(bool value);
+    // Get instance field: private System.Boolean usedPreAuth
+    bool _get_usedPreAuth();
+    // Set instance field: private System.Boolean usedPreAuth
+    void _set_usedPreAuth(bool value);
+    // Get instance field: private System.Version version
+    System::Version* _get_version();
+    // Set instance field: private System.Version version
+    void _set_version(System::Version* value);
+    // Get instance field: private System.Boolean force_version
+    bool _get_force_version();
+    // Set instance field: private System.Boolean force_version
+    void _set_force_version(bool value);
+    // Get instance field: private System.Version actualVersion
+    System::Version* _get_actualVersion();
+    // Set instance field: private System.Version actualVersion
+    void _set_actualVersion(System::Version* value);
+    // Get instance field: private System.Net.IWebProxy proxy
+    System::Net::IWebProxy* _get_proxy();
+    // Set instance field: private System.Net.IWebProxy proxy
+    void _set_proxy(System::Net::IWebProxy* value);
+    // Get instance field: private System.Boolean sendChunked
+    bool _get_sendChunked();
+    // Set instance field: private System.Boolean sendChunked
+    void _set_sendChunked(bool value);
+    // Get instance field: private System.Net.ServicePoint servicePoint
+    System::Net::ServicePoint* _get_servicePoint();
+    // Set instance field: private System.Net.ServicePoint servicePoint
+    void _set_servicePoint(System::Net::ServicePoint* value);
+    // Get instance field: private System.Int32 timeout
+    int _get_timeout();
+    // Set instance field: private System.Int32 timeout
+    void _set_timeout(int value);
+    // Get instance field: private System.Net.WebConnectionStream writeStream
+    System::Net::WebConnectionStream* _get_writeStream();
+    // Set instance field: private System.Net.WebConnectionStream writeStream
+    void _set_writeStream(System::Net::WebConnectionStream* value);
+    // Get instance field: private System.Net.HttpWebResponse webResponse
+    System::Net::HttpWebResponse* _get_webResponse();
+    // Set instance field: private System.Net.HttpWebResponse webResponse
+    void _set_webResponse(System::Net::HttpWebResponse* value);
+    // Get instance field: private System.Net.WebAsyncResult asyncWrite
+    System::Net::WebAsyncResult* _get_asyncWrite();
+    // Set instance field: private System.Net.WebAsyncResult asyncWrite
+    void _set_asyncWrite(System::Net::WebAsyncResult* value);
+    // Get instance field: private System.Net.WebAsyncResult asyncRead
+    System::Net::WebAsyncResult* _get_asyncRead();
+    // Set instance field: private System.Net.WebAsyncResult asyncRead
+    void _set_asyncRead(System::Net::WebAsyncResult* value);
+    // Get instance field: private System.EventHandler abortHandler
+    System::EventHandler* _get_abortHandler();
+    // Set instance field: private System.EventHandler abortHandler
+    void _set_abortHandler(System::EventHandler* value);
+    // Get instance field: private System.Int32 aborted
+    int _get_aborted();
+    // Set instance field: private System.Int32 aborted
+    void _set_aborted(int value);
+    // Get instance field: private System.Boolean gotRequestStream
+    bool _get_gotRequestStream();
+    // Set instance field: private System.Boolean gotRequestStream
+    void _set_gotRequestStream(bool value);
+    // Get instance field: private System.Int32 redirects
+    int _get_redirects();
+    // Set instance field: private System.Int32 redirects
+    void _set_redirects(int value);
+    // Get instance field: private System.Boolean expectContinue
+    bool _get_expectContinue();
+    // Set instance field: private System.Boolean expectContinue
+    void _set_expectContinue(bool value);
+    // Get instance field: private System.Byte[] bodyBuffer
+    ::Array<uint8_t>* _get_bodyBuffer();
+    // Set instance field: private System.Byte[] bodyBuffer
+    void _set_bodyBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 bodyBufferLength
+    int _get_bodyBufferLength();
+    // Set instance field: private System.Int32 bodyBufferLength
+    void _set_bodyBufferLength(int value);
+    // Get instance field: private System.Boolean getResponseCalled
+    bool _get_getResponseCalled();
+    // Set instance field: private System.Boolean getResponseCalled
+    void _set_getResponseCalled(bool value);
+    // Get instance field: private System.Exception saved_exc
+    System::Exception* _get_saved_exc();
+    // Set instance field: private System.Exception saved_exc
+    void _set_saved_exc(System::Exception* value);
+    // Get instance field: private System.Object locker
+    ::Il2CppObject* _get_locker();
+    // Set instance field: private System.Object locker
+    void _set_locker(::Il2CppObject* value);
+    // Get instance field: private System.Boolean finished_reading
+    bool _get_finished_reading();
+    // Set instance field: private System.Boolean finished_reading
+    void _set_finished_reading(bool value);
+    // Get instance field: System.Net.WebConnection WebConnection
+    System::Net::WebConnection* _get_WebConnection();
+    // Set instance field: System.Net.WebConnection WebConnection
+    void _set_WebConnection(System::Net::WebConnection* value);
+    // Get instance field: private System.Net.DecompressionMethods auto_decomp
+    System::Net::DecompressionMethods _get_auto_decomp();
+    // Set instance field: private System.Net.DecompressionMethods auto_decomp
+    void _set_auto_decomp(System::Net::DecompressionMethods value);
+    // Get instance field: private System.Int32 readWriteTimeout
+    int _get_readWriteTimeout();
+    // Set instance field: private System.Int32 readWriteTimeout
+    void _set_readWriteTimeout(int value);
+    // Get instance field: private Mono.Security.Interface.MonoTlsProvider tlsProvider
+    Mono::Security::Interface::MonoTlsProvider* _get_tlsProvider();
+    // Set instance field: private Mono.Security.Interface.MonoTlsProvider tlsProvider
+    void _set_tlsProvider(Mono::Security::Interface::MonoTlsProvider* value);
+    // Get instance field: private Mono.Security.Interface.MonoTlsSettings tlsSettings
+    Mono::Security::Interface::MonoTlsSettings* _get_tlsSettings();
+    // Set instance field: private Mono.Security.Interface.MonoTlsSettings tlsSettings
+    void _set_tlsSettings(Mono::Security::Interface::MonoTlsSettings* value);
+    // Get instance field: private System.Net.ServerCertValidationCallback certValidationCallback
+    System::Net::ServerCertValidationCallback* _get_certValidationCallback();
+    // Set instance field: private System.Net.ServerCertValidationCallback certValidationCallback
+    void _set_certValidationCallback(System::Net::ServerCertValidationCallback* value);
+    // Get instance field: private System.Net.HttpWebRequest/System.Net.AuthorizationState auth_state
+    System::Net::HttpWebRequest::AuthorizationState _get_auth_state();
+    // Set instance field: private System.Net.HttpWebRequest/System.Net.AuthorizationState auth_state
+    void _set_auth_state(System::Net::HttpWebRequest::AuthorizationState value);
+    // Get instance field: private System.Net.HttpWebRequest/System.Net.AuthorizationState proxy_auth_state
+    System::Net::HttpWebRequest::AuthorizationState _get_proxy_auth_state();
+    // Set instance field: private System.Net.HttpWebRequest/System.Net.AuthorizationState proxy_auth_state
+    void _set_proxy_auth_state(System::Net::HttpWebRequest::AuthorizationState value);
+    // Get instance field: private System.String host
+    ::Il2CppString* _get_host();
+    // Set instance field: private System.String host
+    void _set_host(::Il2CppString* value);
+    // Get instance field: System.Action`1<System.IO.Stream> ResendContentFactory
+    System::Action_1<System::IO::Stream*>* _get_ResendContentFactory();
+    // Set instance field: System.Action`1<System.IO.Stream> ResendContentFactory
+    void _set_ResendContentFactory(System::Action_1<System::IO::Stream*>* value);
+    // Get instance field: private System.Boolean <ThrowOnError>k__BackingField
+    bool _get_$ThrowOnError$k__BackingField();
+    // Set instance field: private System.Boolean <ThrowOnError>k__BackingField
+    void _set_$ThrowOnError$k__BackingField(bool value);
+    // Get instance field: private System.Boolean unsafe_auth_blah
+    bool _get_unsafe_auth_blah();
+    // Set instance field: private System.Boolean unsafe_auth_blah
+    void _set_unsafe_auth_blah(bool value);
+    // Get instance field: private System.Boolean <ReuseConnection>k__BackingField
+    bool _get_$ReuseConnection$k__BackingField();
+    // Set instance field: private System.Boolean <ReuseConnection>k__BackingField
+    void _set_$ReuseConnection$k__BackingField(bool value);
+    // Get instance field: System.Net.WebConnection StoredConnection
+    System::Net::WebConnection* _get_StoredConnection();
+    // Set instance field: System.Net.WebConnection StoredConnection
+    void _set_StoredConnection(System::Net::WebConnection* value);
     // public System.Uri get_Address()
     // Offset: 0x16398D8
     System::Uri* get_Address();

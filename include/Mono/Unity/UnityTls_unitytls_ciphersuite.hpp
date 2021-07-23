@@ -39,6 +39,10 @@ namespace Mono::Unity {
     static Mono::Unity::UnityTls::unitytls_ciphersuite _get_UNITYTLS_CIPHERSUITE_INVALID();
     // Set static field: static public Mono.Unity.UnityTls/Mono.Unity.unitytls_ciphersuite UNITYTLS_CIPHERSUITE_INVALID
     static void _set_UNITYTLS_CIPHERSUITE_INVALID(Mono::Unity::UnityTls::unitytls_ciphersuite value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_ciphersuite
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_ciphersuite), 0 + sizeof(uint)> __Mono_Unity_UnityTls_unitytls_ciphersuiteSizeCheck;

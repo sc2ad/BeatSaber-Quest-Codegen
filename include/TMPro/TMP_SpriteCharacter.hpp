@@ -40,6 +40,14 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TMP_SpriteCharacter
     TMP_SpriteCharacter(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_} {}
+    // Get instance field: private System.String m_Name
+    ::Il2CppString* _get_m_Name();
+    // Set instance field: private System.String m_Name
+    void _set_m_Name(::Il2CppString* value);
+    // Get instance field: private System.Int32 m_HashCode
+    int _get_m_HashCode();
+    // Set instance field: private System.Int32 m_HashCode
+    void _set_m_HashCode(int value);
     // public System.String get_name()
     // Offset: 0x1115D54
     ::Il2CppString* get_name();

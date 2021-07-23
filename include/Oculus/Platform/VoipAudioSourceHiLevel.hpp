@@ -75,6 +75,22 @@ namespace Oculus::Platform {
     static bool _get_verboseLogging();
     // Set static field: static private System.Boolean verboseLogging
     static void _set_verboseLogging(bool value);
+    // Get instance field: private System.Int32 initialPlaybackDelayMS
+    int _get_initialPlaybackDelayMS();
+    // Set instance field: private System.Int32 initialPlaybackDelayMS
+    void _set_initialPlaybackDelayMS(int value);
+    // Get instance field: public UnityEngine.AudioSource audioSource
+    UnityEngine::AudioSource* _get_audioSource();
+    // Set instance field: public UnityEngine.AudioSource audioSource
+    void _set_audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: public System.Single peakAmplitude
+    float _get_peakAmplitude();
+    // Set instance field: public System.Single peakAmplitude
+    void _set_peakAmplitude(float value);
+    // Get instance field: protected Oculus.Platform.IVoipPCMSource pcmSource
+    Oculus::Platform::IVoipPCMSource* _get_pcmSource();
+    // Set instance field: protected Oculus.Platform.IVoipPCMSource pcmSource
+    void _set_pcmSource(Oculus::Platform::IVoipPCMSource* value);
     // public System.Void set_senderID(System.UInt64 value)
     // Offset: 0x238A354
     void set_senderID(uint64_t value);

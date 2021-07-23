@@ -93,6 +93,34 @@ namespace UnityEngine::Timeline {
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private UnityEngine.MonoBehaviour <>2__current
+    UnityEngine::MonoBehaviour* _get_$$2__current();
+    // Set instance field: private UnityEngine.MonoBehaviour <>2__current
+    void _set_$$2__current(UnityEngine::MonoBehaviour* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: private UnityEngine.GameObject root
+    UnityEngine::GameObject* _get_root();
+    // Set instance field: private UnityEngine.GameObject root
+    void _set_root(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject <>3__root
+    UnityEngine::GameObject* _get_$$3__root();
+    // Set instance field: public UnityEngine.GameObject <>3__root
+    void _set_$$3__root(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.MonoBehaviour[] <>7__wrap1
+    ::Array<UnityEngine::MonoBehaviour*>* _get_$$7__wrap1();
+    // Set instance field: private UnityEngine.MonoBehaviour[] <>7__wrap1
+    void _set_$$7__wrap1(::Array<UnityEngine::MonoBehaviour*>* value);
+    // Get instance field: private System.Int32 <>7__wrap2
+    int _get_$$7__wrap2();
+    // Set instance field: private System.Int32 <>7__wrap2
+    void _set_$$7__wrap2(int value);
     // private UnityEngine.MonoBehaviour System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current()
     // Offset: 0x17E597C
     UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current();

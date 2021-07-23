@@ -45,6 +45,10 @@ namespace UnityEngine {
     static UnityEngine::UISystemProfilerApi::SampleType _get_Render();
     // Set static field: static public UnityEngine.UISystemProfilerApi/UnityEngine.SampleType Render
     static void _set_Render(UnityEngine::UISystemProfilerApi::SampleType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.UISystemProfilerApi/UnityEngine.SampleType
   #pragma pack(pop)
   static check_size<sizeof(UISystemProfilerApi::SampleType), 0 + sizeof(int)> __UnityEngine_UISystemProfilerApi_SampleTypeSizeCheck;

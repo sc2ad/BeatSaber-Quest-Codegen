@@ -181,6 +181,10 @@ namespace Mono::Security::Interface {
     static Mono::Security::Interface::AlertDescription _get_UnsupportedExtension();
     // Set static field: static public Mono.Security.Interface.AlertDescription UnsupportedExtension
     static void _set_UnsupportedExtension(Mono::Security::Interface::AlertDescription value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // Mono.Security.Interface.AlertDescription
   #pragma pack(pop)
   static check_size<sizeof(AlertDescription), 0 + sizeof(uint8_t)> __Mono_Security_Interface_AlertDescriptionSizeCheck;

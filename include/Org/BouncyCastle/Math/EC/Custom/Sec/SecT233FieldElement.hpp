@@ -42,6 +42,10 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     constexpr operator ::Array<uint64_t>*() const noexcept {
       return x;
     }
+    // Get instance field: protected internal readonly System.UInt64[] x
+    ::Array<uint64_t>* _get_x();
+    // Set instance field: protected internal readonly System.UInt64[] x
+    void _set_x(::Array<uint64_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x1E8BDF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

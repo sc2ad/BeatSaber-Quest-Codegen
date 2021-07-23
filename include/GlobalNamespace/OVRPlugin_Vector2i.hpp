@@ -36,6 +36,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 x
+    int _get_x();
+    // Set instance field: public System.Int32 x
+    void _set_x(int value);
+    // Get instance field: public System.Int32 y
+    int _get_y();
+    // Set instance field: public System.Int32 y
+    void _set_y(int value);
   }; // OVRPlugin/Vector2i
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Vector2i), 4 + sizeof(int)> __GlobalNamespace_OVRPlugin_Vector2iSizeCheck;

@@ -50,6 +50,14 @@ namespace TMPro {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*) == 0x8);
     // Creating value type constructor for type: FastAction
     FastAction(System::Collections::Generic::LinkedList_1<System::Action*>* delegates_ = {}, System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup_ = {}) noexcept : delegates{delegates_}, lookup{lookup_} {}
+    // Get instance field: private System.Collections.Generic.LinkedList`1<System.Action> delegates
+    System::Collections::Generic::LinkedList_1<System::Action*>* _get_delegates();
+    // Set instance field: private System.Collections.Generic.LinkedList`1<System.Action> delegates
+    void _set_delegates(System::Collections::Generic::LinkedList_1<System::Action*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
+    System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* _get_lookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
+    void _set_lookup(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* value);
     // public System.Void Add(System.Action rhs)
     // Offset: 0x10B8F5C
     void Add(System::Action* rhs);

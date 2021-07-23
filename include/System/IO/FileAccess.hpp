@@ -51,6 +51,10 @@ namespace System::IO {
     static System::IO::FileAccess _get_ReadWrite();
     // Set static field: static public System.IO.FileAccess ReadWrite
     static void _set_ReadWrite(System::IO::FileAccess value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IO.FileAccess
   #pragma pack(pop)
   static check_size<sizeof(FileAccess), 0 + sizeof(int)> __System_IO_FileAccessSizeCheck;

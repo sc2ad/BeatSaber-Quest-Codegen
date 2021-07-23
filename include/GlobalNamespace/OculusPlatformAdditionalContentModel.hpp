@@ -105,6 +105,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: OculusPlatformAdditionalContentModel
     OculusPlatformAdditionalContentModel(GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProductsModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* entitlementsSKU_ = {}, System::Threading::SemaphoreSlim* semaphoreSlim_ = {}, bool isDataValid_ = {}) noexcept : oculusLevelProductsModel{oculusLevelProductsModel_}, entitlementsSKU{entitlementsSKU_}, semaphoreSlim{semaphoreSlim_}, isDataValid{isDataValid_} {}
+    // Get instance field: private OculusLevelProductsModelSO _oculusLevelProductsModel
+    GlobalNamespace::OculusLevelProductsModelSO* _get__oculusLevelProductsModel();
+    // Set instance field: private OculusLevelProductsModelSO _oculusLevelProductsModel
+    void _set__oculusLevelProductsModel(GlobalNamespace::OculusLevelProductsModelSO* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> _entitlementsSKU
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__entitlementsSKU();
+    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _entitlementsSKU
+    void _set__entitlementsSKU(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field: private System.Threading.SemaphoreSlim _semaphoreSlim
+    System::Threading::SemaphoreSlim* _get__semaphoreSlim();
+    // Set instance field: private System.Threading.SemaphoreSlim _semaphoreSlim
+    void _set__semaphoreSlim(System::Threading::SemaphoreSlim* value);
+    // Get instance field: private System.Boolean _isDataValid
+    bool _get__isDataValid();
+    // Set instance field: private System.Boolean _isDataValid
+    void _set__isDataValid(bool value);
     // private System.Threading.Tasks.Task`1<System.Boolean> DataIsValidAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x11F5F40
     System::Threading::Tasks::Task_1<bool>* DataIsValidAsync(System::Threading::CancellationToken cancellationToken);

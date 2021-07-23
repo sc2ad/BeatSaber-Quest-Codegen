@@ -31,6 +31,10 @@ namespace OnlineServices::API {
     constexpr operator ::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>*() const noexcept {
       return leaderboardsInfos;
     }
+    // Get instance field: public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
+    ::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>* _get_leaderboardsInfos();
+    // Set instance field: public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
+    void _set_leaderboardsInfos(::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>* value);
     // public System.Void .ctor()
     // Offset: 0xFF5558
     // Implemented from: System.Object

@@ -85,6 +85,30 @@ namespace Org::BouncyCastle::X509 {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: X509Crl
     X509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c_ = {}, ::Il2CppString* sigAlgName_ = {}, ::Array<uint8_t>* sigAlgParams_ = {}, bool isIndirect_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, sigAlgName{sigAlgName_}, sigAlgParams{sigAlgParams_}, isIndirect{isIndirect_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.CertificateList c
+    Org::BouncyCastle::Asn1::X509::CertificateList* _get_c();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.CertificateList c
+    void _set_c(Org::BouncyCastle::Asn1::X509::CertificateList* value);
+    // Get instance field: private readonly System.String sigAlgName
+    ::Il2CppString* _get_sigAlgName();
+    // Set instance field: private readonly System.String sigAlgName
+    void _set_sigAlgName(::Il2CppString* value);
+    // Get instance field: private readonly System.Byte[] sigAlgParams
+    ::Array<uint8_t>* _get_sigAlgParams();
+    // Set instance field: private readonly System.Byte[] sigAlgParams
+    void _set_sigAlgParams(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Boolean isIndirect
+    bool _get_isIndirect();
+    // Set instance field: private readonly System.Boolean isIndirect
+    void _set_isIndirect(bool value);
+    // Get instance field: private System.Boolean hashValueSet
+    bool _get_hashValueSet();
+    // Set instance field: private System.Boolean hashValueSet
+    void _set_hashValueSet(bool value);
+    // Get instance field: private System.Int32 hashValue
+    int _get_hashValue();
+    // Set instance field: private System.Int32 hashValue
+    void _set_hashValue(int value);
     // public System.Int32 get_Version()
     // Offset: 0x1F808F8
     int get_Version();

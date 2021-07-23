@@ -51,6 +51,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ILobbyPlayerData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILobbyPlayerData*>(this);
     }
+    // Get instance field: private System.Boolean <isPartyOwner>k__BackingField
+    bool _get_$isPartyOwner$k__BackingField();
+    // Set instance field: private System.Boolean <isPartyOwner>k__BackingField
+    void _set_$isPartyOwner$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isActive>k__BackingField
+    bool _get_$isActive$k__BackingField();
+    // Set instance field: private System.Boolean <isActive>k__BackingField
+    void _set_$isActive$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isReady>k__BackingField
+    bool _get_$isReady$k__BackingField();
+    // Set instance field: private System.Boolean <isReady>k__BackingField
+    void _set_$isReady$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isInLobby>k__BackingField
+    bool _get_$isInLobby$k__BackingField();
+    // Set instance field: private System.Boolean <isInLobby>k__BackingField
+    void _set_$isInLobby$k__BackingField(bool value);
     // public System.Boolean get_isPartyOwner()
     // Offset: 0x11BF64C
     bool get_isPartyOwner();

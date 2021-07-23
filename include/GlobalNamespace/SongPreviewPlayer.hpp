@@ -173,6 +173,82 @@ namespace GlobalNamespace {
     SongPreviewPlayer(int channelsCount_ = {}, UnityEngine::AudioSource* audioSourcePrefab_ = {}, UnityEngine::AudioClip* defaultAudioClip_ = {}, float volume_ = {}, float crossFadeToAnotherSongSpeed_ = {}, float crossFadeToDefaultSpeed_ = {}, float fadeInSpeed_ = {}, GlobalNamespace::SongPreviewPlayer::AudioSourceParams* defaultAudioSourceParams_ = {}, GlobalNamespace::SongPreviewPlayer::AudioSourceParams* othersAudioSourceParams_ = {}, GlobalNamespace::SongPreviewPlayer::InitData* initData_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, ::Array<GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*>* audioSourceControllers_ = {}, int activeChannel_ = {}, float timeToDefaultAudioTransition_ = {}, bool transitionAfterDelay_ = {}, float volumeScale_ = {}, float fadeSpeed_ = {}, float ambientVolumeScale_ = {}, bool isActiveChannelPaused_ = {}) noexcept : channelsCount{channelsCount_}, audioSourcePrefab{audioSourcePrefab_}, defaultAudioClip{defaultAudioClip_}, volume{volume_}, crossFadeToAnotherSongSpeed{crossFadeToAnotherSongSpeed_}, crossFadeToDefaultSpeed{crossFadeToDefaultSpeed_}, fadeInSpeed{fadeInSpeed_}, defaultAudioSourceParams{defaultAudioSourceParams_}, othersAudioSourceParams{othersAudioSourceParams_}, initData{initData_}, audioManager{audioManager_}, audioSourceControllers{audioSourceControllers_}, activeChannel{activeChannel_}, timeToDefaultAudioTransition{timeToDefaultAudioTransition_}, transitionAfterDelay{transitionAfterDelay_}, volumeScale{volumeScale_}, fadeSpeed{fadeSpeed_}, ambientVolumeScale{ambientVolumeScale_}, isActiveChannelPaused{isActiveChannelPaused_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Int32 _channelsCount
+    int _get__channelsCount();
+    // Set instance field: private System.Int32 _channelsCount
+    void _set__channelsCount(int value);
+    // Get instance field: private UnityEngine.AudioSource _audioSourcePrefab
+    UnityEngine::AudioSource* _get__audioSourcePrefab();
+    // Set instance field: private UnityEngine.AudioSource _audioSourcePrefab
+    void _set__audioSourcePrefab(UnityEngine::AudioSource* value);
+    // Get instance field: private UnityEngine.AudioClip _defaultAudioClip
+    UnityEngine::AudioClip* _get__defaultAudioClip();
+    // Set instance field: private UnityEngine.AudioClip _defaultAudioClip
+    void _set__defaultAudioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private System.Single _volume
+    float _get__volume();
+    // Set instance field: private System.Single _volume
+    void _set__volume(float value);
+    // Get instance field: private System.Single _crossFadeToAnotherSongSpeed
+    float _get__crossFadeToAnotherSongSpeed();
+    // Set instance field: private System.Single _crossFadeToAnotherSongSpeed
+    void _set__crossFadeToAnotherSongSpeed(float value);
+    // Get instance field: private System.Single _crossFadeToDefaultSpeed
+    float _get__crossFadeToDefaultSpeed();
+    // Set instance field: private System.Single _crossFadeToDefaultSpeed
+    void _set__crossFadeToDefaultSpeed(float value);
+    // Get instance field: private System.Single _fadeInSpeed
+    float _get__fadeInSpeed();
+    // Set instance field: private System.Single _fadeInSpeed
+    void _set__fadeInSpeed(float value);
+    // Get instance field: private SongPreviewPlayer/AudioSourceParams _defaultAudioSourceParams
+    GlobalNamespace::SongPreviewPlayer::AudioSourceParams* _get__defaultAudioSourceParams();
+    // Set instance field: private SongPreviewPlayer/AudioSourceParams _defaultAudioSourceParams
+    void _set__defaultAudioSourceParams(GlobalNamespace::SongPreviewPlayer::AudioSourceParams* value);
+    // Get instance field: private SongPreviewPlayer/AudioSourceParams _othersAudioSourceParams
+    GlobalNamespace::SongPreviewPlayer::AudioSourceParams* _get__othersAudioSourceParams();
+    // Set instance field: private SongPreviewPlayer/AudioSourceParams _othersAudioSourceParams
+    void _set__othersAudioSourceParams(GlobalNamespace::SongPreviewPlayer::AudioSourceParams* value);
+    // Get instance field: private readonly SongPreviewPlayer/InitData _initData
+    GlobalNamespace::SongPreviewPlayer::InitData* _get__initData();
+    // Set instance field: private readonly SongPreviewPlayer/InitData _initData
+    void _set__initData(GlobalNamespace::SongPreviewPlayer::InitData* value);
+    // Get instance field: private readonly AudioManagerSO _audioManager
+    GlobalNamespace::AudioManagerSO* _get__audioManager();
+    // Set instance field: private readonly AudioManagerSO _audioManager
+    void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
+    // Get instance field: private SongPreviewPlayer/AudioSourceVolumeController[] _audioSourceControllers
+    ::Array<GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*>* _get__audioSourceControllers();
+    // Set instance field: private SongPreviewPlayer/AudioSourceVolumeController[] _audioSourceControllers
+    void _set__audioSourceControllers(::Array<GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*>* value);
+    // Get instance field: private System.Int32 _activeChannel
+    int _get__activeChannel();
+    // Set instance field: private System.Int32 _activeChannel
+    void _set__activeChannel(int value);
+    // Get instance field: private System.Single _timeToDefaultAudioTransition
+    float _get__timeToDefaultAudioTransition();
+    // Set instance field: private System.Single _timeToDefaultAudioTransition
+    void _set__timeToDefaultAudioTransition(float value);
+    // Get instance field: private System.Boolean _transitionAfterDelay
+    bool _get__transitionAfterDelay();
+    // Set instance field: private System.Boolean _transitionAfterDelay
+    void _set__transitionAfterDelay(bool value);
+    // Get instance field: private System.Single _volumeScale
+    float _get__volumeScale();
+    // Set instance field: private System.Single _volumeScale
+    void _set__volumeScale(float value);
+    // Get instance field: private System.Single _fadeSpeed
+    float _get__fadeSpeed();
+    // Set instance field: private System.Single _fadeSpeed
+    void _set__fadeSpeed(float value);
+    // Get instance field: private System.Single _ambientVolumeScale
+    float _get__ambientVolumeScale();
+    // Set instance field: private System.Single _ambientVolumeScale
+    void _set__ambientVolumeScale(float value);
+    // Get instance field: private System.Boolean _isActiveChannelPaused
+    bool _get__isActiveChannelPaused();
+    // Set instance field: private System.Boolean _isActiveChannelPaused
+    void _set__isActiveChannelPaused(bool value);
     // protected System.Void Awake()
     // Offset: 0x105B584
     void Awake();

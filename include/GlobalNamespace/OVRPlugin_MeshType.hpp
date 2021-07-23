@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::MeshType _get_HandRight();
     // Set static field: static public OVRPlugin/MeshType HandRight
     static void _set_HandRight(GlobalNamespace::OVRPlugin::MeshType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/MeshType
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::MeshType), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_MeshTypeSizeCheck;

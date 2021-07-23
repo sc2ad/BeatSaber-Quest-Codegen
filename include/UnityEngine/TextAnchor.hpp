@@ -85,6 +85,10 @@ namespace UnityEngine {
     static UnityEngine::TextAnchor _get_LowerRight();
     // Set static field: static public UnityEngine.TextAnchor LowerRight
     static void _set_LowerRight(UnityEngine::TextAnchor value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.TextAnchor
   #pragma pack(pop)
   static check_size<sizeof(TextAnchor), 0 + sizeof(int)> __UnityEngine_TextAnchorSizeCheck;

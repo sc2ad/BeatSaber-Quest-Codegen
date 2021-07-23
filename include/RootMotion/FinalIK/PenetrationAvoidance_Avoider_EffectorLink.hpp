@@ -37,6 +37,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: EffectorLink
     EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float weight_ = {}) noexcept : effector{effector_}, weight{weight_} {}
+    // Get instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
+    RootMotion::FinalIK::FullBodyBipedEffector _get_effector();
+    // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
+    void _set_effector(RootMotion::FinalIK::FullBodyBipedEffector value);
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
     // public System.Void .ctor()
     // Offset: 0x1AB772C
     // Implemented from: System.Object

@@ -91,6 +91,46 @@ namespace UnityEngine::XR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.XR.XRNode m_Type
+    UnityEngine::XR::XRNode _get_m_Type();
+    // Set instance field: private UnityEngine.XR.XRNode m_Type
+    void _set_m_Type(UnityEngine::XR::XRNode value);
+    // Get instance field: private UnityEngine.XR.AvailableTrackingData m_AvailableFields
+    UnityEngine::XR::AvailableTrackingData _get_m_AvailableFields();
+    // Set instance field: private UnityEngine.XR.AvailableTrackingData m_AvailableFields
+    void _set_m_AvailableFields(UnityEngine::XR::AvailableTrackingData value);
+    // Get instance field: private UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3 _get_m_Position();
+    // Set instance field: private UnityEngine.Vector3 m_Position
+    void _set_m_Position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion m_Rotation
+    UnityEngine::Quaternion _get_m_Rotation();
+    // Set instance field: private UnityEngine.Quaternion m_Rotation
+    void _set_m_Rotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 m_Velocity
+    UnityEngine::Vector3 _get_m_Velocity();
+    // Set instance field: private UnityEngine.Vector3 m_Velocity
+    void _set_m_Velocity(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_AngularVelocity
+    UnityEngine::Vector3 _get_m_AngularVelocity();
+    // Set instance field: private UnityEngine.Vector3 m_AngularVelocity
+    void _set_m_AngularVelocity(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_Acceleration
+    UnityEngine::Vector3 _get_m_Acceleration();
+    // Set instance field: private UnityEngine.Vector3 m_Acceleration
+    void _set_m_Acceleration(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_AngularAcceleration
+    UnityEngine::Vector3 _get_m_AngularAcceleration();
+    // Set instance field: private UnityEngine.Vector3 m_AngularAcceleration
+    void _set_m_AngularAcceleration(UnityEngine::Vector3 value);
+    // Get instance field: private System.Int32 m_Tracked
+    int _get_m_Tracked();
+    // Set instance field: private System.Int32 m_Tracked
+    void _set_m_Tracked(int value);
+    // Get instance field: private System.UInt64 m_UniqueID
+    uint64_t _get_m_UniqueID();
+    // Set instance field: private System.UInt64 m_UniqueID
+    void _set_m_UniqueID(uint64_t value);
     // public System.Void set_uniqueID(System.UInt64 value)
     // Offset: 0xF0E7D0
     void set_uniqueID(uint64_t value);

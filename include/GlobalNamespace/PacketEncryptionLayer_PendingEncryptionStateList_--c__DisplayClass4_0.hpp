@@ -42,6 +42,10 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return port;
     }
+    // Get instance field: public System.Int32 port
+    int _get_port();
+    // Set instance field: public System.Int32 port
+    void _set_port(int value);
     // System.Int32 <GetSortedEncryptionStates>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
     // Offset: 0x153C364
     int $GetSortedEncryptionStates$b__0(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);

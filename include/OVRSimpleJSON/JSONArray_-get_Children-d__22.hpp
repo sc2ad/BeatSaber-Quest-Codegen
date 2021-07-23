@@ -74,6 +74,26 @@ namespace OVRSimpleJSON {
     operator System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private OVRSimpleJSON.JSONNode <>2__current
+    OVRSimpleJSON::JSONNode* _get_$$2__current();
+    // Set instance field: private OVRSimpleJSON.JSONNode <>2__current
+    void _set_$$2__current(OVRSimpleJSON::JSONNode* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: public OVRSimpleJSON.JSONArray <>4__this
+    OVRSimpleJSON::JSONArray* _get_$$4__this();
+    // Set instance field: public OVRSimpleJSON.JSONArray <>4__this
+    void _set_$$4__this(OVRSimpleJSON::JSONArray* value);
+    // Get instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> <>7__wrap1
+    typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator _get_$$7__wrap1();
+    // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> <>7__wrap1
+    void _set_$$7__wrap1(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator value);
     // private OVRSimpleJSON.JSONNode System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current()
     // Offset: 0x15FE1D8
     OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current();

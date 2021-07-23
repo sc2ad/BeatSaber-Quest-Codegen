@@ -62,6 +62,18 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: ActivationMixerPlayable
     ActivationMixerPlayable(UnityEngine::Timeline::ActivationTrack::PostPlaybackState m_PostPlaybackState_ = {}, bool m_BoundGameObjectInitialStateIsActive_ = {}, UnityEngine::GameObject* m_BoundGameObject_ = {}) noexcept : m_PostPlaybackState{m_PostPlaybackState_}, m_BoundGameObjectInitialStateIsActive{m_BoundGameObjectInitialStateIsActive_}, m_BoundGameObject{m_BoundGameObject_} {}
+    // Get instance field: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
+    UnityEngine::Timeline::ActivationTrack::PostPlaybackState _get_m_PostPlaybackState();
+    // Set instance field: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
+    void _set_m_PostPlaybackState(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
+    // Get instance field: private System.Boolean m_BoundGameObjectInitialStateIsActive
+    bool _get_m_BoundGameObjectInitialStateIsActive();
+    // Set instance field: private System.Boolean m_BoundGameObjectInitialStateIsActive
+    void _set_m_BoundGameObjectInitialStateIsActive(bool value);
+    // Get instance field: private UnityEngine.GameObject m_BoundGameObject
+    UnityEngine::GameObject* _get_m_BoundGameObject();
+    // Set instance field: private UnityEngine.GameObject m_BoundGameObject
+    void _set_m_BoundGameObject(UnityEngine::GameObject* value);
     // public UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState get_postPlaybackState()
     // Offset: 0x17DA97C
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState get_postPlaybackState();

@@ -139,6 +139,10 @@ namespace LiteNetLib {
     static LiteNetLib::PacketProperty _get_Empty();
     // Set static field: static public LiteNetLib.PacketProperty Empty
     static void _set_Empty(LiteNetLib::PacketProperty value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // LiteNetLib.PacketProperty
   #pragma pack(pop)
   static check_size<sizeof(PacketProperty), 0 + sizeof(uint8_t)> __LiteNetLib_PacketPropertySizeCheck;

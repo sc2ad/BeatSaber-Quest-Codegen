@@ -33,6 +33,10 @@ namespace UnityEngine {
     constexpr operator float() const noexcept {
       return m_Seconds;
     }
+    // Get instance field: System.Single m_Seconds
+    float _get_m_Seconds();
+    // Set instance field: System.Single m_Seconds
+    void _set_m_Seconds(float value);
     // public System.Void .ctor(System.Single seconds)
     // Offset: 0x230A11C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

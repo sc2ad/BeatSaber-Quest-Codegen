@@ -51,6 +51,14 @@ namespace NUnit::Framework::Internal::Builders {
     static_assert(sizeof(NUnit::Framework::Internal::TestNameGenerator*) == 0x8);
     // Creating value type constructor for type: NUnitTestCaseBuilder
     NUnitTestCaseBuilder(NUnit::Framework::Internal::Randomizer* randomizer_ = {}, NUnit::Framework::Internal::TestNameGenerator* nameGenerator_ = {}) noexcept : randomizer{randomizer_}, nameGenerator{nameGenerator_} {}
+    // Get instance field: private readonly NUnit.Framework.Internal.Randomizer _randomizer
+    NUnit::Framework::Internal::Randomizer* _get__randomizer();
+    // Set instance field: private readonly NUnit.Framework.Internal.Randomizer _randomizer
+    void _set__randomizer(NUnit::Framework::Internal::Randomizer* value);
+    // Get instance field: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator
+    NUnit::Framework::Internal::TestNameGenerator* _get__nameGenerator();
+    // Set instance field: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator
+    void _set__nameGenerator(NUnit::Framework::Internal::TestNameGenerator* value);
     // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
     // Offset: 0x17143CC
     NUnit::Framework::Internal::TestMethod* BuildTestMethod(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite, NUnit::Framework::Internal::TestCaseParameters* parms);

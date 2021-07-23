@@ -42,6 +42,14 @@ namespace System::Security::Cryptography::X509Certificates {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags status
+    System::Security::Cryptography::X509Certificates::X509ChainStatusFlags _get_status();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags status
+    void _set_status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
+    // Get instance field: private System.String info
+    ::Il2CppString* _get_info();
+    // Set instance field: private System.String info
+    void _set_info(::Il2CppString* value);
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
     // Offset: 0xEE9B64
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();

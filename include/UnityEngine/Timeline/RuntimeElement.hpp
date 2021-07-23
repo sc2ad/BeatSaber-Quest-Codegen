@@ -42,6 +42,10 @@ namespace UnityEngine::Timeline {
     constexpr operator int() const noexcept {
       return intervalBit;
     }
+    // Get instance field: private System.Int32 <intervalBit>k__BackingField
+    int _get_$intervalBit$k__BackingField();
+    // Set instance field: private System.Int32 <intervalBit>k__BackingField
+    void _set_$intervalBit$k__BackingField(int value);
     // public System.Int64 get_intervalStart()
     // Offset: 0xFFFFFFFF
     int64_t get_intervalStart();

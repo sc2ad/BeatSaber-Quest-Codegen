@@ -39,6 +39,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: Gost3410PrivateKeyParameters
     Gost3410PrivateKeyParameters(Org::BouncyCastle::Math::BigInteger* x_ = {}) noexcept : x{x_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger x
+    Org::BouncyCastle::Math::BigInteger* _get_x();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger x
+    void _set_x(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_X()
     // Offset: 0x122C73C
     Org::BouncyCastle::Math::BigInteger* get_X();

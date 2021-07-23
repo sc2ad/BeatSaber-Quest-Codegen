@@ -213,6 +213,90 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*) == 0x8);
     // Creating value type constructor for type: __BinaryWriter
     __BinaryWriter(System::IO::Stream* sout_ = {}, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle_ = {}, System::Collections::Hashtable* objectMapTable_ = {}, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter_ = {}, System::IO::BinaryWriter* dataWriter_ = {}, int m_nestedObjectCount_ = {}, int nullCount_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* binaryMethodCall_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* binaryMethodReturn_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* binaryObjectWithMap_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* binaryObjectWithMapTyped_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* binaryObjectString_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryArray* binaryArray_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, int chunkSize_ = {}, System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped_ = {}, System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped_ = {}, System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull_ = {}, System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* binaryAssembly_ = {}) noexcept : sout{sout_}, formatterTypeStyle{formatterTypeStyle_}, objectMapTable{objectMapTable_}, objectWriter{objectWriter_}, dataWriter{dataWriter_}, m_nestedObjectCount{m_nestedObjectCount_}, nullCount{nullCount_}, binaryMethodCall{binaryMethodCall_}, binaryMethodReturn{binaryMethodReturn_}, binaryObject{binaryObject_}, binaryObjectWithMap{binaryObjectWithMap_}, binaryObjectWithMapTyped{binaryObjectWithMapTyped_}, binaryObjectString{binaryObjectString_}, binaryArray{binaryArray_}, byteBuffer{byteBuffer_}, chunkSize{chunkSize_}, memberPrimitiveUnTyped{memberPrimitiveUnTyped_}, memberPrimitiveTyped{memberPrimitiveTyped_}, objectNull{objectNull_}, memberReference{memberReference_}, binaryAssembly{binaryAssembly_} {}
+    // Get instance field: System.IO.Stream sout
+    System::IO::Stream* _get_sout();
+    // Set instance field: System.IO.Stream sout
+    void _set_sout(System::IO::Stream* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.FormatterTypeStyle formatterTypeStyle
+    System::Runtime::Serialization::Formatters::FormatterTypeStyle _get_formatterTypeStyle();
+    // Set instance field: System.Runtime.Serialization.Formatters.FormatterTypeStyle formatterTypeStyle
+    void _set_formatterTypeStyle(System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
+    // Get instance field: System.Collections.Hashtable objectMapTable
+    System::Collections::Hashtable* _get_objectMapTable();
+    // Set instance field: System.Collections.Hashtable objectMapTable
+    void _set_objectMapTable(System::Collections::Hashtable* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter
+    System::Runtime::Serialization::Formatters::Binary::ObjectWriter* _get_objectWriter();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter
+    void _set_objectWriter(System::Runtime::Serialization::Formatters::Binary::ObjectWriter* value);
+    // Get instance field: System.IO.BinaryWriter dataWriter
+    System::IO::BinaryWriter* _get_dataWriter();
+    // Set instance field: System.IO.BinaryWriter dataWriter
+    void _set_dataWriter(System::IO::BinaryWriter* value);
+    // Get instance field: System.Int32 m_nestedObjectCount
+    int _get_m_nestedObjectCount();
+    // Set instance field: System.Int32 m_nestedObjectCount
+    void _set_m_nestedObjectCount(int value);
+    // Get instance field: private System.Int32 nullCount
+    int _get_nullCount();
+    // Set instance field: private System.Int32 nullCount
+    void _set_nullCount(int value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall binaryMethodCall
+    System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* _get_binaryMethodCall();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall binaryMethodCall
+    void _set_binaryMethodCall(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryMethodReturn binaryMethodReturn
+    System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* _get_binaryMethodReturn();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryMethodReturn binaryMethodReturn
+    void _set_binaryMethodReturn(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObject binaryObject
+    System::Runtime::Serialization::Formatters::Binary::BinaryObject* _get_binaryObject();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObject binaryObject
+    void _set_binaryObject(System::Runtime::Serialization::Formatters::Binary::BinaryObject* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap binaryObjectWithMap
+    System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* _get_binaryObjectWithMap();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap binaryObjectWithMap
+    void _set_binaryObjectWithMap(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped binaryObjectWithMapTyped
+    System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* _get_binaryObjectWithMapTyped();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped binaryObjectWithMapTyped
+    void _set_binaryObjectWithMapTyped(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectString binaryObjectString
+    System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* _get_binaryObjectString();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectString binaryObjectString
+    void _set_binaryObjectString(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryArray binaryArray
+    System::Runtime::Serialization::Formatters::Binary::BinaryArray* _get_binaryArray();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryArray binaryArray
+    void _set_binaryArray(System::Runtime::Serialization::Formatters::Binary::BinaryArray* value);
+    // Get instance field: private System.Byte[] byteBuffer
+    ::Array<uint8_t>* _get_byteBuffer();
+    // Set instance field: private System.Byte[] byteBuffer
+    void _set_byteBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 chunkSize
+    int _get_chunkSize();
+    // Set instance field: private System.Int32 chunkSize
+    void _set_chunkSize(int value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped memberPrimitiveUnTyped
+    System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* _get_memberPrimitiveUnTyped();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped memberPrimitiveUnTyped
+    void _set_memberPrimitiveUnTyped(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped memberPrimitiveTyped
+    System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* _get_memberPrimitiveTyped();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped memberPrimitiveTyped
+    void _set_memberPrimitiveTyped(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ObjectNull objectNull
+    System::Runtime::Serialization::Formatters::Binary::ObjectNull* _get_objectNull();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ObjectNull objectNull
+    void _set_objectNull(System::Runtime::Serialization::Formatters::Binary::ObjectNull* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.MemberReference memberReference
+    System::Runtime::Serialization::Formatters::Binary::MemberReference* _get_memberReference();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.MemberReference memberReference
+    void _set_memberReference(System::Runtime::Serialization::Formatters::Binary::MemberReference* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryAssembly binaryAssembly
+    System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* _get_binaryAssembly();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryAssembly binaryAssembly
+    void _set_binaryAssembly(System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* value);
     // System.Void .ctor(System.IO.Stream sout, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, System.Runtime.Serialization.Formatters.FormatterTypeStyle formatterTypeStyle)
     // Offset: 0x1679724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

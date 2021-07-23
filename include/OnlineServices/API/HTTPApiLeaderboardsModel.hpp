@@ -86,6 +86,10 @@ namespace OnlineServices::API {
     static ::Il2CppString* _get_kGetLeaderboardEntriesPath();
     // Set static field: static private System.String kGetLeaderboardEntriesPath
     static void _set_kGetLeaderboardEntriesPath(::Il2CppString* value);
+    // Get instance field: private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
+    OnlineServices::API::HTTPLeaderboardsOathHelper* _get__httpLeaderboardsOathHelper();
+    // Set instance field: private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
+    void _set__httpLeaderboardsOathHelper(OnlineServices::API::HTTPLeaderboardsOathHelper* value);
     // public System.Void LogoutAsync()
     // Offset: 0xFF5568
     void LogoutAsync();

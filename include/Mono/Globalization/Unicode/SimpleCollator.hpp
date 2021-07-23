@@ -133,6 +133,50 @@ namespace Mono::Globalization::Unicode {
     static int _get_UnsafeFlagLength();
     // Set static field: static private System.Int32 UnsafeFlagLength
     static void _set_UnsafeFlagLength(int value);
+    // Get instance field: private readonly System.Globalization.TextInfo textInfo
+    System::Globalization::TextInfo* _get_textInfo();
+    // Set instance field: private readonly System.Globalization.TextInfo textInfo
+    void _set_textInfo(System::Globalization::TextInfo* value);
+    // Get instance field: private readonly Mono.Globalization.Unicode.CodePointIndexer cjkIndexer
+    Mono::Globalization::Unicode::CodePointIndexer* _get_cjkIndexer();
+    // Set instance field: private readonly Mono.Globalization.Unicode.CodePointIndexer cjkIndexer
+    void _set_cjkIndexer(Mono::Globalization::Unicode::CodePointIndexer* value);
+    // Get instance field: private readonly Mono.Globalization.Unicode.Contraction[] contractions
+    ::Array<Mono::Globalization::Unicode::Contraction*>* _get_contractions();
+    // Set instance field: private readonly Mono.Globalization.Unicode.Contraction[] contractions
+    void _set_contractions(::Array<Mono::Globalization::Unicode::Contraction*>* value);
+    // Get instance field: private readonly Mono.Globalization.Unicode.Level2Map[] level2Maps
+    ::Array<Mono::Globalization::Unicode::Level2Map*>* _get_level2Maps();
+    // Set instance field: private readonly Mono.Globalization.Unicode.Level2Map[] level2Maps
+    void _set_level2Maps(::Array<Mono::Globalization::Unicode::Level2Map*>* value);
+    // Get instance field: private readonly System.Byte[] unsafeFlags
+    ::Array<uint8_t>* _get_unsafeFlags();
+    // Set instance field: private readonly System.Byte[] unsafeFlags
+    void _set_unsafeFlags(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Byte* cjkCatTable
+    uint8_t* _get_cjkCatTable();
+    // Set instance field: private readonly System.Byte* cjkCatTable
+    void _set_cjkCatTable(uint8_t* value);
+    // Get instance field: private readonly System.Byte* cjkLv1Table
+    uint8_t* _get_cjkLv1Table();
+    // Set instance field: private readonly System.Byte* cjkLv1Table
+    void _set_cjkLv1Table(uint8_t* value);
+    // Get instance field: private readonly System.Byte* cjkLv2Table
+    uint8_t* _get_cjkLv2Table();
+    // Set instance field: private readonly System.Byte* cjkLv2Table
+    void _set_cjkLv2Table(uint8_t* value);
+    // Get instance field: private readonly Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer
+    Mono::Globalization::Unicode::CodePointIndexer* _get_cjkLv2Indexer();
+    // Set instance field: private readonly Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer
+    void _set_cjkLv2Indexer(Mono::Globalization::Unicode::CodePointIndexer* value);
+    // Get instance field: private readonly System.Int32 lcid
+    int _get_lcid();
+    // Set instance field: private readonly System.Int32 lcid
+    void _set_lcid(int value);
+    // Get instance field: private readonly System.Boolean frenchSort
+    bool _get_frenchSort();
+    // Set instance field: private readonly System.Boolean frenchSort
+    void _set_frenchSort(bool value);
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
     // Offset: 0x1A15D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

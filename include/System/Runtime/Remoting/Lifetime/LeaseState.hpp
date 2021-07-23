@@ -62,6 +62,10 @@ namespace System::Runtime::Remoting::Lifetime {
     static System::Runtime::Remoting::Lifetime::LeaseState _get_Expired();
     // Set static field: static public System.Runtime.Remoting.Lifetime.LeaseState Expired
     static void _set_Expired(System::Runtime::Remoting::Lifetime::LeaseState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.Remoting.Lifetime.LeaseState
   #pragma pack(pop)
   static check_size<sizeof(LeaseState), 0 + sizeof(int)> __System_Runtime_Remoting_Lifetime_LeaseStateSizeCheck;

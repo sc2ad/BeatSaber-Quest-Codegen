@@ -31,6 +31,10 @@ namespace System {
     constexpr operator int8_t() const noexcept {
       return value;
     }
+    // Get instance field: public System.SByte value__
+    int8_t _get_value__();
+    // Set instance field: public System.SByte value__
+    void _set_value__(int8_t value);
   }; // System.SByteEnum
   #pragma pack(pop)
   static check_size<sizeof(SByteEnum), 0 + sizeof(int8_t)> __System_SByteEnumSizeCheck;

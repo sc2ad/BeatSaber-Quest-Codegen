@@ -45,6 +45,10 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::RSASignaturePadding* _get_s_pss();
     // Set static field: static private readonly System.Security.Cryptography.RSASignaturePadding s_pss
     static void _set_s_pss(System::Security::Cryptography::RSASignaturePadding* value);
+    // Get instance field: private readonly System.Security.Cryptography.RSASignaturePaddingMode _mode
+    System::Security::Cryptography::RSASignaturePaddingMode _get__mode();
+    // Set instance field: private readonly System.Security.Cryptography.RSASignaturePaddingMode _mode
+    void _set__mode(System::Security::Cryptography::RSASignaturePaddingMode value);
     // static public System.Security.Cryptography.RSASignaturePadding get_Pkcs1()
     // Offset: 0x1AFB730
     static System::Security::Cryptography::RSASignaturePadding* get_Pkcs1();

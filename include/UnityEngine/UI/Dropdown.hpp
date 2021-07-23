@@ -198,6 +198,62 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Dropdown::OptionData* _get_s_NoOptionData();
     // Set static field: static private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData s_NoOptionData
     static void _set_s_NoOptionData(UnityEngine::UI::Dropdown::OptionData* value);
+    // Get instance field: private UnityEngine.RectTransform m_Template
+    UnityEngine::RectTransform* _get_m_Template();
+    // Set instance field: private UnityEngine.RectTransform m_Template
+    void _set_m_Template(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.UI.Text m_CaptionText
+    UnityEngine::UI::Text* _get_m_CaptionText();
+    // Set instance field: private UnityEngine.UI.Text m_CaptionText
+    void _set_m_CaptionText(UnityEngine::UI::Text* value);
+    // Get instance field: private UnityEngine.UI.Image m_CaptionImage
+    UnityEngine::UI::Image* _get_m_CaptionImage();
+    // Set instance field: private UnityEngine.UI.Image m_CaptionImage
+    void _set_m_CaptionImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Text m_ItemText
+    UnityEngine::UI::Text* _get_m_ItemText();
+    // Set instance field: private UnityEngine.UI.Text m_ItemText
+    void _set_m_ItemText(UnityEngine::UI::Text* value);
+    // Get instance field: private UnityEngine.UI.Image m_ItemImage
+    UnityEngine::UI::Image* _get_m_ItemImage();
+    // Set instance field: private UnityEngine.UI.Image m_ItemImage
+    void _set_m_ItemImage(UnityEngine::UI::Image* value);
+    // Get instance field: private System.Int32 m_Value
+    int _get_m_Value();
+    // Set instance field: private System.Int32 m_Value
+    void _set_m_Value(int value);
+    // Get instance field: private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionDataList m_Options
+    UnityEngine::UI::Dropdown::OptionDataList* _get_m_Options();
+    // Set instance field: private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionDataList m_Options
+    void _set_m_Options(UnityEngine::UI::Dropdown::OptionDataList* value);
+    // Get instance field: private UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownEvent m_OnValueChanged
+    UnityEngine::UI::Dropdown::DropdownEvent* _get_m_OnValueChanged();
+    // Set instance field: private UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownEvent m_OnValueChanged
+    void _set_m_OnValueChanged(UnityEngine::UI::Dropdown::DropdownEvent* value);
+    // Get instance field: private System.Single m_AlphaFadeSpeed
+    float _get_m_AlphaFadeSpeed();
+    // Set instance field: private System.Single m_AlphaFadeSpeed
+    void _set_m_AlphaFadeSpeed(float value);
+    // Get instance field: private UnityEngine.GameObject m_Dropdown
+    UnityEngine::GameObject* _get_m_Dropdown();
+    // Set instance field: private UnityEngine.GameObject m_Dropdown
+    void _set_m_Dropdown(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject m_Blocker
+    UnityEngine::GameObject* _get_m_Blocker();
+    // Set instance field: private UnityEngine.GameObject m_Blocker
+    void _set_m_Blocker(UnityEngine::GameObject* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem> m_Items
+    System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>* _get_m_Items();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem> m_Items
+    void _set_m_Items(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>* value);
+    // Get instance field: private UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween> m_AlphaTweenRunner
+    UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::FloatTween>* _get_m_AlphaTweenRunner();
+    // Set instance field: private UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween> m_AlphaTweenRunner
+    void _set_m_AlphaTweenRunner(UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::FloatTween>* value);
+    // Get instance field: private System.Boolean validTemplate
+    bool _get_validTemplate();
+    // Set instance field: private System.Boolean validTemplate
+    void _set_validTemplate(bool value);
     // public UnityEngine.RectTransform get_template()
     // Offset: 0x1413AD8
     UnityEngine::RectTransform* get_template();

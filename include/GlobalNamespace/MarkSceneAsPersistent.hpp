@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     MarkSceneAsPersistent(GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // protected System.Void Awake()
     // Offset: 0x121BD80
     void Awake();

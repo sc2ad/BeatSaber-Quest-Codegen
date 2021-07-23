@@ -88,6 +88,34 @@ namespace GlobalNamespace {
     static int _get__numberOfActiveEnvironmentSpawnRotationObjects();
     // Set static field: static private System.Int32 _numberOfActiveEnvironmentSpawnRotationObjects
     static void _set__numberOfActiveEnvironmentSpawnRotationObjects(int value);
+    // Get instance field: private System.Single _aheadTime
+    float _get__aheadTime();
+    // Set instance field: private System.Single _aheadTime
+    void _set__aheadTime(float value);
+    // Get instance field: private System.Single _smooth
+    float _get__smooth();
+    // Set instance field: private System.Single _smooth
+    void _set__smooth(float value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
+    GlobalNamespace::SpawnRotationProcessor* _get__spawnRotationProcessor();
+    // Set instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
+    void _set__spawnRotationProcessor(GlobalNamespace::SpawnRotationProcessor* value);
+    // Get instance field: private BeatmapEventCallbackData _eventCallbackData
+    GlobalNamespace::BeatmapEventCallbackData* _get__eventCallbackData();
+    // Set instance field: private BeatmapEventCallbackData _eventCallbackData
+    void _set__eventCallbackData(GlobalNamespace::BeatmapEventCallbackData* value);
+    // Get instance field: private System.Single _currentRotation
+    float _get__currentRotation();
+    // Set instance field: private System.Single _currentRotation
+    void _set__currentRotation(float value);
+    // Get instance field: private System.Single _prevRotation
+    float _get__prevRotation();
+    // Set instance field: private System.Single _prevRotation
+    void _set__prevRotation(float value);
     // public System.Single get_targetRotation()
     // Offset: 0x10228F8
     float get_targetRotation();

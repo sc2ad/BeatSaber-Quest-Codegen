@@ -66,6 +66,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
+    // Get instance field: protected System.Byte n
+    uint8_t _get_n();
+    // Set instance field: protected System.Byte n
+    void _set_n(uint8_t value);
+    // Get instance field: protected System.Byte[] P
+    ::Array<uint8_t>* _get_P();
+    // Set instance field: protected System.Byte[] P
+    void _set_P(::Array<uint8_t>* value);
+    // Get instance field: protected System.Byte s
+    uint8_t _get_s();
+    // Set instance field: protected System.Byte s
+    void _set_s(uint8_t value);
+    // Get instance field: protected System.Byte[] workingIV
+    ::Array<uint8_t>* _get_workingIV();
+    // Set instance field: protected System.Byte[] workingIV
+    void _set_workingIV(::Array<uint8_t>* value);
+    // Get instance field: protected System.Byte[] workingKey
+    ::Array<uint8_t>* _get_workingKey();
+    // Set instance field: protected System.Byte[] workingKey
+    void _set_workingKey(::Array<uint8_t>* value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0x18B68E0
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);

@@ -47,6 +47,14 @@ namespace GlobalNamespace {
     InputFieldSettingsController(HMUI::InputFieldView* inputFieldView_ = {}, GlobalNamespace::StringSO* settingsValue_ = {}) noexcept : inputFieldView{inputFieldView_}, settingsValue{settingsValue_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.InputFieldView _inputFieldView
+    HMUI::InputFieldView* _get__inputFieldView();
+    // Set instance field: private HMUI.InputFieldView _inputFieldView
+    void _set__inputFieldView(HMUI::InputFieldView* value);
+    // Get instance field: protected StringSO _settingsValue
+    GlobalNamespace::StringSO* _get__settingsValue();
+    // Set instance field: protected StringSO _settingsValue
+    void _set__settingsValue(GlobalNamespace::StringSO* value);
     // protected System.Void Awake()
     // Offset: 0x10ED0C8
     void Awake();

@@ -106,6 +106,50 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Boolean usePassword
+    bool _get_usePassword();
+    // Set instance field: public System.Boolean usePassword
+    void _set_usePassword(bool value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public System.Int32 maxPlayers
+    int _get_maxPlayers();
+    // Set instance field: public System.Int32 maxPlayers
+    void _set_maxPlayers(int value);
+    // Get instance field: public System.Boolean allowInviteOthers
+    bool _get_allowInviteOthers();
+    // Set instance field: public System.Boolean allowInviteOthers
+    void _set_allowInviteOthers(bool value);
+    // Get instance field: public System.Boolean netDiscoverable
+    bool _get_netDiscoverable();
+    // Set instance field: public System.Boolean netDiscoverable
+    void _set_netDiscoverable(bool value);
+    // Get instance field: public BeatmapDifficultyMask difficulties
+    GlobalNamespace::BeatmapDifficultyMask _get_difficulties();
+    // Set instance field: public BeatmapDifficultyMask difficulties
+    void _set_difficulties(GlobalNamespace::BeatmapDifficultyMask value);
+    // Get instance field: public GameplayModifierMask modifiers
+    GlobalNamespace::GameplayModifierMask _get_modifiers();
+    // Set instance field: public GameplayModifierMask modifiers
+    void _set_modifiers(GlobalNamespace::GameplayModifierMask value);
+    // Get instance field: public SongPackMask songPacks
+    GlobalNamespace::SongPackMask _get_songPacks();
+    // Set instance field: public SongPackMask songPacks
+    void _set_songPacks(GlobalNamespace::SongPackMask value);
+    // Get instance field: public GameplayServerMode gameplayServerMode
+    GlobalNamespace::GameplayServerMode _get_gameplayServerMode();
+    // Set instance field: public GameplayServerMode gameplayServerMode
+    void _set_gameplayServerMode(GlobalNamespace::GameplayServerMode value);
+    // Get instance field: public SongSelectionMode songSelectionMode
+    GlobalNamespace::SongSelectionMode _get_songSelectionMode();
+    // Set instance field: public SongSelectionMode songSelectionMode
+    void _set_songSelectionMode(GlobalNamespace::SongSelectionMode value);
+    // Get instance field: public GameplayServerControlSettings gameplayServerControlSettings
+    GlobalNamespace::GameplayServerControlSettings _get_gameplayServerControlSettings();
+    // Set instance field: public GameplayServerControlSettings gameplayServerControlSettings
+    void _set_gameplayServerControlSettings(GlobalNamespace::GameplayServerControlSettings value);
   }; // CreateServerFormData
   #pragma pack(pop)
   static check_size<sizeof(CreateServerFormData), 56 + sizeof(GlobalNamespace::GameplayServerControlSettings)> __GlobalNamespace_CreateServerFormDataSizeCheck;

@@ -32,6 +32,10 @@ namespace UnityEngine {
     constexpr operator ::Il2CppString*() const noexcept {
       return tooltip;
     }
+    // Get instance field: public readonly System.String tooltip
+    ::Il2CppString* _get_tooltip();
+    // Set instance field: public readonly System.String tooltip
+    void _set_tooltip(::Il2CppString* value);
     // public System.Void .ctor(System.String tooltip)
     // Offset: 0x23014F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

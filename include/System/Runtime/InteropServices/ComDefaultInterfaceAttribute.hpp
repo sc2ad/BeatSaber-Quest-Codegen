@@ -40,6 +40,10 @@ namespace System::Runtime::InteropServices {
     constexpr operator System::Type*() const noexcept {
       return val;
     }
+    // Get instance field: System.Type _val
+    System::Type* _get__val();
+    // Set instance field: System.Type _val
+    void _set__val(System::Type* value);
     // public System.Void .ctor(System.Type defaultInterface)
     // Offset: 0x13F1208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

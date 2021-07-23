@@ -50,6 +50,10 @@ namespace System::ComponentModel {
     static System::ComponentModel::DesignerSerializationVisibilityAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DesignerSerializationVisibilityAttribute Default
     static void _set_Default(System::ComponentModel::DesignerSerializationVisibilityAttribute* value);
+    // Get instance field: private System.ComponentModel.DesignerSerializationVisibility visibility
+    System::ComponentModel::DesignerSerializationVisibility _get_visibility();
+    // Set instance field: private System.ComponentModel.DesignerSerializationVisibility visibility
+    void _set_visibility(System::ComponentModel::DesignerSerializationVisibility value);
     // public System.ComponentModel.DesignerSerializationVisibility get_Visibility()
     // Offset: 0x18488DC
     System::ComponentModel::DesignerSerializationVisibility get_Visibility();

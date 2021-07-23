@@ -52,6 +52,22 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single xPlacement
+    float _get_xPlacement();
+    // Set instance field: public System.Single xPlacement
+    void _set_xPlacement(float value);
+    // Get instance field: public System.Single yPlacement
+    float _get_yPlacement();
+    // Set instance field: public System.Single yPlacement
+    void _set_yPlacement(float value);
+    // Get instance field: public System.Single xAdvance
+    float _get_xAdvance();
+    // Set instance field: public System.Single xAdvance
+    void _set_xAdvance(float value);
+    // Get instance field: public System.Single yAdvance
+    float _get_yAdvance();
+    // Set instance field: public System.Single yAdvance
+    void _set_yAdvance(float value);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
     // Offset: 0xED0994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

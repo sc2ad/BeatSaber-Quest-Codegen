@@ -31,6 +31,10 @@ namespace UnityEngine {
     Motion(bool isAnimatorMotion_ = {}) noexcept : isAnimatorMotion{isAnimatorMotion_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly System.Boolean <isAnimatorMotion>k__BackingField
+    bool _get_$isAnimatorMotion$k__BackingField();
+    // Set instance field: private readonly System.Boolean <isAnimatorMotion>k__BackingField
+    void _set_$isAnimatorMotion$k__BackingField(bool value);
     // public System.Boolean get_isLooping()
     // Offset: 0x233CB00
     bool get_isLooping();

@@ -847,6 +847,10 @@ namespace Valve::VR {
     static Valve::VR::EVREventType _get_VREvent_VendorSpecific_Reserved_End();
     // Set static field: static public Valve.VR.EVREventType VREvent_VendorSpecific_Reserved_End
     static void _set_VREvent_VendorSpecific_Reserved_End(Valve::VR::EVREventType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVREventType
   #pragma pack(pop)
   static check_size<sizeof(EVREventType), 0 + sizeof(int)> __Valve_VR_EVREventTypeSizeCheck;

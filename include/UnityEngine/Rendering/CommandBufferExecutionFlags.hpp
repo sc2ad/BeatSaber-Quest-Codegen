@@ -43,6 +43,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::CommandBufferExecutionFlags _get_AsyncCompute();
     // Set static field: static public UnityEngine.Rendering.CommandBufferExecutionFlags AsyncCompute
     static void _set_AsyncCompute(UnityEngine::Rendering::CommandBufferExecutionFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.CommandBufferExecutionFlags
   #pragma pack(pop)
   static check_size<sizeof(CommandBufferExecutionFlags), 0 + sizeof(int)> __UnityEngine_Rendering_CommandBufferExecutionFlagsSizeCheck;

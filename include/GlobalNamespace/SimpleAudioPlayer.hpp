@@ -70,6 +70,30 @@ namespace GlobalNamespace {
     SimpleAudioPlayer(UnityEngine::AudioClip* audioClip_ = {}, UnityEngine::AudioSource* audioSource_ = {}, float targetVolume_ = {}, bool loop_ = {}, float fadeSpeed_ = {}, bool fadingIn_ = {}) noexcept : audioClip{audioClip_}, audioSource{audioSource_}, targetVolume{targetVolume_}, loop{loop_}, fadeSpeed{fadeSpeed_}, fadingIn{fadingIn_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.AudioClip _audioClip
+    UnityEngine::AudioClip* _get__audioClip();
+    // Set instance field: private UnityEngine.AudioClip _audioClip
+    void _set__audioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource* _get__audioSource();
+    // Set instance field: private UnityEngine.AudioSource _audioSource
+    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private System.Single _targetVolume
+    float _get__targetVolume();
+    // Set instance field: private System.Single _targetVolume
+    void _set__targetVolume(float value);
+    // Get instance field: private System.Boolean _loop
+    bool _get__loop();
+    // Set instance field: private System.Boolean _loop
+    void _set__loop(bool value);
+    // Get instance field: private System.Single _fadeSpeed
+    float _get__fadeSpeed();
+    // Set instance field: private System.Single _fadeSpeed
+    void _set__fadeSpeed(float value);
+    // Get instance field: private System.Boolean _fadingIn
+    bool _get__fadingIn();
+    // Set instance field: private System.Boolean _fadingIn
+    void _set__fadingIn(bool value);
     // protected System.Void Start()
     // Offset: 0x1054B0C
     void Start();

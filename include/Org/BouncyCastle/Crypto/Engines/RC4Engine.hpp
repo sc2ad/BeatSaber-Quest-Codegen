@@ -60,6 +60,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_STATE_LENGTH();
     // Set static field: static private readonly System.Int32 STATE_LENGTH
     static void _set_STATE_LENGTH(int value);
+    // Get instance field: private System.Byte[] engineState
+    ::Array<uint8_t>* _get_engineState();
+    // Set instance field: private System.Byte[] engineState
+    void _set_engineState(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 x
+    int _get_x();
+    // Set instance field: private System.Int32 x
+    void _set_x(int value);
+    // Get instance field: private System.Int32 y
+    int _get_y();
+    // Set instance field: private System.Int32 y
+    void _set_y(int value);
+    // Get instance field: private System.Byte[] workingKey
+    ::Array<uint8_t>* _get_workingKey();
+    // Set instance field: private System.Byte[] workingKey
+    void _set_workingKey(::Array<uint8_t>* value);
     // static private System.Void .cctor()
     // Offset: 0x1E0D66C
     static void _cctor();

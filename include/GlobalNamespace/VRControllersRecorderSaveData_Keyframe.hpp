@@ -33,6 +33,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Keyframe
     Keyframe(::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>* positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
+    // Get instance field: public VRControllersRecorderSaveData/PositionAndRotation[] positionsAndRotations
+    ::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>* _get_positionsAndRotations();
+    // Set instance field: public VRControllersRecorderSaveData/PositionAndRotation[] positionsAndRotations
+    void _set_positionsAndRotations(::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>* value);
+    // Get instance field: public System.Single time
+    float _get_time();
+    // Set instance field: public System.Single time
+    void _set_time(float value);
     // public System.Void .ctor()
     // Offset: 0x127A38C
     // Implemented from: System.Object

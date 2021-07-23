@@ -41,6 +41,10 @@ namespace System::Threading::Tasks {
     TaskCanceledException(System::Threading::Tasks::Task* m_canceledTask_ = {}) noexcept : m_canceledTask{m_canceledTask_} {}
     // Deleting conversion operator: operator System::Threading::CancellationToken
     constexpr operator System::Threading::CancellationToken() const noexcept = delete;
+    // Get instance field: private System.Threading.Tasks.Task m_canceledTask
+    System::Threading::Tasks::Task* _get_m_canceledTask();
+    // Set instance field: private System.Threading.Tasks.Task m_canceledTask
+    void _set_m_canceledTask(System::Threading::Tasks::Task* value);
     // public System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0x18862C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

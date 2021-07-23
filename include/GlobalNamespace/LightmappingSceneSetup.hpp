@@ -66,6 +66,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INoTransitionColorSchemeProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoTransitionColorSchemeProvider*>(this);
     }
+    // Get instance field: private BeatmapLevelSO _beatmapLevel
+    GlobalNamespace::BeatmapLevelSO* _get__beatmapLevel();
+    // Set instance field: private BeatmapLevelSO _beatmapLevel
+    void _set__beatmapLevel(GlobalNamespace::BeatmapLevelSO* value);
+    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private BeatmapDifficulty _beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get__beatmapDifficulty();
+    // Set instance field: private BeatmapDifficulty _beatmapDifficulty
+    void _set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: private ColorSchemeSO _colorScheme
+    GlobalNamespace::ColorSchemeSO* _get__colorScheme();
+    // Set instance field: private ColorSchemeSO _colorScheme
+    void _set__colorScheme(GlobalNamespace::ColorSchemeSO* value);
     // public ColorSchemeSO get_colorScheme()
     // Offset: 0x11B9050
     GlobalNamespace::ColorSchemeSO* get_colorScheme();

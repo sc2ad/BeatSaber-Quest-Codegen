@@ -75,6 +75,22 @@ namespace Zenject::Internal {
     operator System::Collections::Generic::IEnumerator_1<Zenject::SceneContext*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<Zenject::SceneContext*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private Zenject.SceneContext <>2__current
+    Zenject::SceneContext* _get_$$2__current();
+    // Set instance field: private Zenject.SceneContext <>2__current
+    void _set_$$2__current(Zenject::SceneContext* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.SceneManagement.Scene> <>7__wrap1
+    System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* _get_$$7__wrap1();
+    // Set instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.SceneManagement.Scene> <>7__wrap1
+    void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* value);
     // private Zenject.SceneContext System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current()
     // Offset: 0x16C465C
     Zenject::SceneContext* System_Collections_Generic_IEnumerator$Zenject_SceneContext$_get_Current();

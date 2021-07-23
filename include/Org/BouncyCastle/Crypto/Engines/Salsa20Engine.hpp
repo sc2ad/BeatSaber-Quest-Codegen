@@ -106,6 +106,42 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint8_t>* _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
     static void _set_tau(::Array<uint8_t>* value);
+    // Get instance field: protected System.Int32 rounds
+    int _get_rounds();
+    // Set instance field: protected System.Int32 rounds
+    void _set_rounds(int value);
+    // Get instance field: private System.Int32 index
+    int _get_index();
+    // Set instance field: private System.Int32 index
+    void _set_index(int value);
+    // Get instance field: System.UInt32[] engineState
+    ::Array<uint>* _get_engineState();
+    // Set instance field: System.UInt32[] engineState
+    void _set_engineState(::Array<uint>* value);
+    // Get instance field: System.UInt32[] x
+    ::Array<uint>* _get_x();
+    // Set instance field: System.UInt32[] x
+    void _set_x(::Array<uint>* value);
+    // Get instance field: private System.Byte[] keyStream
+    ::Array<uint8_t>* _get_keyStream();
+    // Set instance field: private System.Byte[] keyStream
+    void _set_keyStream(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean initialised
+    bool _get_initialised();
+    // Set instance field: private System.Boolean initialised
+    void _set_initialised(bool value);
+    // Get instance field: private System.UInt32 cW0
+    uint _get_cW0();
+    // Set instance field: private System.UInt32 cW0
+    void _set_cW0(uint value);
+    // Get instance field: private System.UInt32 cW1
+    uint _get_cW1();
+    // Set instance field: private System.UInt32 cW1
+    void _set_cW1(uint value);
+    // Get instance field: private System.UInt32 cW2
+    uint _get_cW2();
+    // Set instance field: private System.UInt32 cW2
+    void _set_cW2(uint value);
     // protected System.Int32 get_NonceSize()
     // Offset: 0x1E54764
     int get_NonceSize();

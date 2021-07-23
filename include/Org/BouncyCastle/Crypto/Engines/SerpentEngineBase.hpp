@@ -74,6 +74,30 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_BlockSize();
     // Set static field: static protected readonly System.Int32 BlockSize
     static void _set_BlockSize(int value);
+    // Get instance field: protected System.Boolean encrypting
+    bool _get_encrypting();
+    // Set instance field: protected System.Boolean encrypting
+    void _set_encrypting(bool value);
+    // Get instance field: protected System.Int32[] wKey
+    ::Array<int>* _get_wKey();
+    // Set instance field: protected System.Int32[] wKey
+    void _set_wKey(::Array<int>* value);
+    // Get instance field: protected System.Int32 X0
+    int _get_X0();
+    // Set instance field: protected System.Int32 X0
+    void _set_X0(int value);
+    // Get instance field: protected System.Int32 X1
+    int _get_X1();
+    // Set instance field: protected System.Int32 X1
+    void _set_X1(int value);
+    // Get instance field: protected System.Int32 X2
+    int _get_X2();
+    // Set instance field: protected System.Int32 X2
+    void _set_X2(int value);
+    // Get instance field: protected System.Int32 X3
+    int _get_X3();
+    // Set instance field: protected System.Int32 X3
+    void _set_X3(int value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E5AF44
     ::Il2CppString* get_AlgorithmName();

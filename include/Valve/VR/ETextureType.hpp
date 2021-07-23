@@ -61,6 +61,10 @@ namespace Valve::VR {
     static Valve::VR::ETextureType _get_DirectX12();
     // Set static field: static public Valve.VR.ETextureType DirectX12
     static void _set_DirectX12(Valve::VR::ETextureType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.ETextureType
   #pragma pack(pop)
   static check_size<sizeof(ETextureType), 0 + sizeof(int)> __Valve_VR_ETextureTypeSizeCheck;

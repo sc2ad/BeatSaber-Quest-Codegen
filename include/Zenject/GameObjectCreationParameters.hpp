@@ -79,6 +79,30 @@ namespace Zenject {
     static Zenject::GameObjectCreationParameters* _get_Default();
     // Set static field: static public readonly Zenject.GameObjectCreationParameters Default
     static void _set_Default(Zenject::GameObjectCreationParameters* value);
+    // Get instance field: private System.String <Name>k__BackingField
+    ::Il2CppString* _get_$Name$k__BackingField();
+    // Set instance field: private System.String <Name>k__BackingField
+    void _set_$Name$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <GroupName>k__BackingField
+    ::Il2CppString* _get_$GroupName$k__BackingField();
+    // Set instance field: private System.String <GroupName>k__BackingField
+    void _set_$GroupName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Transform <ParentTransform>k__BackingField
+    UnityEngine::Transform* _get_$ParentTransform$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <ParentTransform>k__BackingField
+    void _set_$ParentTransform$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private System.Func`2<Zenject.InjectContext,UnityEngine.Transform> <ParentTransformGetter>k__BackingField
+    System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* _get_$ParentTransformGetter$k__BackingField();
+    // Set instance field: private System.Func`2<Zenject.InjectContext,UnityEngine.Transform> <ParentTransformGetter>k__BackingField
+    void _set_$ParentTransformGetter$k__BackingField(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* value);
+    // Get instance field: private System.Nullable`1<UnityEngine.Vector3> <Position>k__BackingField
+    System::Nullable_1<UnityEngine::Vector3> _get_$Position$k__BackingField();
+    // Set instance field: private System.Nullable`1<UnityEngine.Vector3> <Position>k__BackingField
+    void _set_$Position$k__BackingField(System::Nullable_1<UnityEngine::Vector3> value);
+    // Get instance field: private System.Nullable`1<UnityEngine.Quaternion> <Rotation>k__BackingField
+    System::Nullable_1<UnityEngine::Quaternion> _get_$Rotation$k__BackingField();
+    // Set instance field: private System.Nullable`1<UnityEngine.Quaternion> <Rotation>k__BackingField
+    void _set_$Rotation$k__BackingField(System::Nullable_1<UnityEngine::Quaternion> value);
     // public System.String get_Name()
     // Offset: 0x16239E0
     ::Il2CppString* get_Name();

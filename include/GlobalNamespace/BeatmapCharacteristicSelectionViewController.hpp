@@ -67,6 +67,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
     // Creating value type constructor for type: BeatmapCharacteristicSelectionViewController
     BeatmapCharacteristicSelectionViewController(HMUI::IconSegmentedControl* beatmapCharacteristicSegmentedControl_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectBeatmapCharacteristicEvent_ = {}, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic_ = {}) noexcept : beatmapCharacteristicSegmentedControl{beatmapCharacteristicSegmentedControl_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, didSelectBeatmapCharacteristicEvent{didSelectBeatmapCharacteristicEvent_}, selectedBeatmapCharacteristic{selectedBeatmapCharacteristic_} {}
+    // Get instance field: private HMUI.IconSegmentedControl _beatmapCharacteristicSegmentedControl
+    HMUI::IconSegmentedControl* _get__beatmapCharacteristicSegmentedControl();
+    // Set instance field: private HMUI.IconSegmentedControl _beatmapCharacteristicSegmentedControl
+    void _set__beatmapCharacteristicSegmentedControl(HMUI::IconSegmentedControl* value);
+    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
+    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
+    // Get instance field: private System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
+    System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* _get_didSelectBeatmapCharacteristicEvent();
+    // Set instance field: private System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
+    void _set_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field: private BeatmapCharacteristicSO _selectedBeatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__selectedBeatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _selectedBeatmapCharacteristic
+    void _set__selectedBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
     // Offset: 0x118BD64
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();

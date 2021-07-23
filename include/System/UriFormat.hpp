@@ -49,6 +49,10 @@ namespace System {
     static System::UriFormat _get_SafeUnescaped();
     // Set static field: static public System.UriFormat SafeUnescaped
     static void _set_SafeUnescaped(System::UriFormat value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.UriFormat
   #pragma pack(pop)
   static check_size<sizeof(UriFormat), 0 + sizeof(int)> __System_UriFormatSizeCheck;

@@ -64,6 +64,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.String globalPropertyName
+      ::Il2CppString* _get_globalPropertyName();
+      // Set instance field: public System.String globalPropertyName
+      void _set_globalPropertyName(::Il2CppString* value);
+      // Get instance field: public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
+      ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* _get_materialPropertyNameCouples();
+      // Set instance field: public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
+      void _set_materialPropertyNameCouples(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* value);
     }; // Noise3DTexturesGenerator/MaterialTextureParamsCouple
     #pragma pack(pop)
     static check_size<sizeof(Noise3DTexturesGenerator::MaterialTextureParamsCouple), 8 + sizeof(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>*)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialTextureParamsCoupleSizeCheck;
@@ -93,6 +101,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.String texturePropertyName
+      ::Il2CppString* _get_texturePropertyName();
+      // Set instance field: public System.String texturePropertyName
+      void _set_texturePropertyName(::Il2CppString* value);
+      // Get instance field: public UnityEngine.Material material
+      UnityEngine::Material* _get_material();
+      // Set instance field: public UnityEngine.Material material
+      void _set_material(UnityEngine::Material* value);
     }; // Noise3DTexturesGenerator/MaterialPropertyNameCouple
     #pragma pack(pop)
     static check_size<sizeof(Noise3DTexturesGenerator::MaterialPropertyNameCouple), 8 + sizeof(UnityEngine::Material*)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialPropertyNameCoupleSizeCheck;
@@ -111,6 +127,10 @@ namespace GlobalNamespace {
     static UnityEngine::Texture3D* _get__texture();
     // Set static field: static private UnityEngine.Texture3D _texture
     static void _set__texture(UnityEngine::Texture3D* value);
+    // Get instance field: private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
+    ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>* _get__data();
+    // Set instance field: private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
+    void _set__data(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>* value);
     // protected System.Void Awake()
     // Offset: 0x2341698
     void Awake();

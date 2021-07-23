@@ -79,6 +79,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*) == 0x8);
     // Creating value type constructor for type: BasicBeatmapObjectManager
     BasicBeatmapObjectManager(System::Nullable_1<float> firstBasicNoteTime_ = {}, GlobalNamespace::BasicBeatmapObjectManager::InitData* initData_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* gameNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* bombNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer_ = {}) noexcept : firstBasicNoteTime{firstBasicNoteTime_}, initData{initData_}, gameNotePoolContainer{gameNotePoolContainer_}, bombNotePoolContainer{bombNotePoolContainer_}, obstaclePoolContainer{obstaclePoolContainer_} {}
+    // Get instance field: private System.Nullable`1<System.Single> _firstBasicNoteTime
+    System::Nullable_1<float> _get__firstBasicNoteTime();
+    // Set instance field: private System.Nullable`1<System.Single> _firstBasicNoteTime
+    void _set__firstBasicNoteTime(System::Nullable_1<float> value);
+    // Get instance field: private readonly BasicBeatmapObjectManager/InitData _initData
+    GlobalNamespace::BasicBeatmapObjectManager::InitData* _get__initData();
+    // Set instance field: private readonly BasicBeatmapObjectManager/InitData _initData
+    void _set__initData(GlobalNamespace::BasicBeatmapObjectManager::InitData* value);
+    // Get instance field: private readonly MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* _get__gameNotePoolContainer();
+    // Set instance field: private readonly MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
+    void _set__gameNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* value);
+    // Get instance field: private readonly MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* _get__bombNotePoolContainer();
+    // Set instance field: private readonly MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
+    void _set__bombNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* value);
+    // Get instance field: private readonly MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* _get__obstaclePoolContainer();
+    // Set instance field: private readonly MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
+    void _set__obstaclePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* value);
     // private System.Void .ctor(BasicBeatmapObjectManager/InitData initData, GameNoteController/Pool gameNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
     // Offset: 0x1185694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

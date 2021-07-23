@@ -103,6 +103,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRCompositorError _get_InvalidBounds();
     // Set static field: static public OVR.OpenVR.EVRCompositorError InvalidBounds
     static void _set_InvalidBounds(OVR::OpenVR::EVRCompositorError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRCompositorError
   #pragma pack(pop)
   static check_size<sizeof(EVRCompositorError), 0 + sizeof(int)> __OVR_OpenVR_EVRCompositorErrorSizeCheck;

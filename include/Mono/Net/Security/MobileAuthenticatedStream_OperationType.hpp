@@ -51,6 +51,10 @@ namespace Mono::Net::Security {
     static Mono::Net::Security::MobileAuthenticatedStream::OperationType _get_Shutdown();
     // Set static field: static public Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.OperationType Shutdown
     static void _set_Shutdown(Mono::Net::Security::MobileAuthenticatedStream::OperationType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.OperationType
   #pragma pack(pop)
   static check_size<sizeof(MobileAuthenticatedStream::OperationType), 0 + sizeof(int)> __Mono_Net_Security_MobileAuthenticatedStream_OperationTypeSizeCheck;

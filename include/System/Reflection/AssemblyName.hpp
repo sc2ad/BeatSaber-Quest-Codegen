@@ -188,6 +188,70 @@ namespace System::Reflection {
     operator System::Runtime::InteropServices::_AssemblyName() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_AssemblyName*>(this);
     }
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: private System.String codebase
+    ::Il2CppString* _get_codebase();
+    // Set instance field: private System.String codebase
+    void _set_codebase(::Il2CppString* value);
+    // Get instance field: private System.Int32 major
+    int _get_major();
+    // Set instance field: private System.Int32 major
+    void _set_major(int value);
+    // Get instance field: private System.Int32 minor
+    int _get_minor();
+    // Set instance field: private System.Int32 minor
+    void _set_minor(int value);
+    // Get instance field: private System.Int32 build
+    int _get_build();
+    // Set instance field: private System.Int32 build
+    void _set_build(int value);
+    // Get instance field: private System.Int32 revision
+    int _get_revision();
+    // Set instance field: private System.Int32 revision
+    void _set_revision(int value);
+    // Get instance field: private System.Globalization.CultureInfo cultureinfo
+    System::Globalization::CultureInfo* _get_cultureinfo();
+    // Set instance field: private System.Globalization.CultureInfo cultureinfo
+    void _set_cultureinfo(System::Globalization::CultureInfo* value);
+    // Get instance field: private System.Reflection.AssemblyNameFlags flags
+    System::Reflection::AssemblyNameFlags _get_flags();
+    // Set instance field: private System.Reflection.AssemblyNameFlags flags
+    void _set_flags(System::Reflection::AssemblyNameFlags value);
+    // Get instance field: private System.Configuration.Assemblies.AssemblyHashAlgorithm hashalg
+    System::Configuration::Assemblies::AssemblyHashAlgorithm _get_hashalg();
+    // Set instance field: private System.Configuration.Assemblies.AssemblyHashAlgorithm hashalg
+    void _set_hashalg(System::Configuration::Assemblies::AssemblyHashAlgorithm value);
+    // Get instance field: private System.Reflection.StrongNameKeyPair keypair
+    System::Reflection::StrongNameKeyPair* _get_keypair();
+    // Set instance field: private System.Reflection.StrongNameKeyPair keypair
+    void _set_keypair(System::Reflection::StrongNameKeyPair* value);
+    // Get instance field: private System.Byte[] publicKey
+    ::Array<uint8_t>* _get_publicKey();
+    // Set instance field: private System.Byte[] publicKey
+    void _set_publicKey(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] keyToken
+    ::Array<uint8_t>* _get_keyToken();
+    // Set instance field: private System.Byte[] keyToken
+    void _set_keyToken(::Array<uint8_t>* value);
+    // Get instance field: private System.Configuration.Assemblies.AssemblyVersionCompatibility versioncompat
+    System::Configuration::Assemblies::AssemblyVersionCompatibility _get_versioncompat();
+    // Set instance field: private System.Configuration.Assemblies.AssemblyVersionCompatibility versioncompat
+    void _set_versioncompat(System::Configuration::Assemblies::AssemblyVersionCompatibility value);
+    // Get instance field: private System.Version version
+    System::Version* _get_version();
+    // Set instance field: private System.Version version
+    void _set_version(System::Version* value);
+    // Get instance field: private System.Reflection.ProcessorArchitecture processor_architecture
+    System::Reflection::ProcessorArchitecture _get_processor_architecture();
+    // Set instance field: private System.Reflection.ProcessorArchitecture processor_architecture
+    void _set_processor_architecture(System::Reflection::ProcessorArchitecture value);
+    // Get instance field: private System.Reflection.AssemblyContentType contentType
+    System::Reflection::AssemblyContentType _get_contentType();
+    // Set instance field: private System.Reflection.AssemblyContentType contentType
+    void _set_contentType(System::Reflection::AssemblyContentType value);
     // public System.String get_Name()
     // Offset: 0x1CA5C90
     ::Il2CppString* get_Name();

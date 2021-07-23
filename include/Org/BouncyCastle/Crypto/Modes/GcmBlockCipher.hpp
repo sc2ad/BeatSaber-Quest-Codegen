@@ -189,6 +189,102 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier multiplier
+    Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* _get_multiplier();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier multiplier
+    void _set_multiplier(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* value);
+    // Get instance field: private Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator exp
+    Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator* _get_exp();
+    // Set instance field: private Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator exp
+    void _set_exp(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator* value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
+    // Get instance field: private System.Boolean initialised
+    bool _get_initialised();
+    // Set instance field: private System.Boolean initialised
+    void _set_initialised(bool value);
+    // Get instance field: private System.Int32 macSize
+    int _get_macSize();
+    // Set instance field: private System.Int32 macSize
+    void _set_macSize(int value);
+    // Get instance field: private System.Byte[] lastKey
+    ::Array<uint8_t>* _get_lastKey();
+    // Set instance field: private System.Byte[] lastKey
+    void _set_lastKey(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] nonce
+    ::Array<uint8_t>* _get_nonce();
+    // Set instance field: private System.Byte[] nonce
+    void _set_nonce(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] initialAssociatedText
+    ::Array<uint8_t>* _get_initialAssociatedText();
+    // Set instance field: private System.Byte[] initialAssociatedText
+    void _set_initialAssociatedText(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] H
+    ::Array<uint8_t>* _get_H();
+    // Set instance field: private System.Byte[] H
+    void _set_H(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] J0
+    ::Array<uint8_t>* _get_J0();
+    // Set instance field: private System.Byte[] J0
+    void _set_J0(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] bufBlock
+    ::Array<uint8_t>* _get_bufBlock();
+    // Set instance field: private System.Byte[] bufBlock
+    void _set_bufBlock(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] macBlock
+    ::Array<uint8_t>* _get_macBlock();
+    // Set instance field: private System.Byte[] macBlock
+    void _set_macBlock(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] S
+    ::Array<uint8_t>* _get_S();
+    // Set instance field: private System.Byte[] S
+    void _set_S(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] S_at
+    ::Array<uint8_t>* _get_S_at();
+    // Set instance field: private System.Byte[] S_at
+    void _set_S_at(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] S_atPre
+    ::Array<uint8_t>* _get_S_atPre();
+    // Set instance field: private System.Byte[] S_atPre
+    void _set_S_atPre(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] counter
+    ::Array<uint8_t>* _get_counter();
+    // Set instance field: private System.Byte[] counter
+    void _set_counter(::Array<uint8_t>* value);
+    // Get instance field: private System.UInt32 blocksRemaining
+    uint _get_blocksRemaining();
+    // Set instance field: private System.UInt32 blocksRemaining
+    void _set_blocksRemaining(uint value);
+    // Get instance field: private System.Int32 bufOff
+    int _get_bufOff();
+    // Set instance field: private System.Int32 bufOff
+    void _set_bufOff(int value);
+    // Get instance field: private System.UInt64 totalLength
+    uint64_t _get_totalLength();
+    // Set instance field: private System.UInt64 totalLength
+    void _set_totalLength(uint64_t value);
+    // Get instance field: private System.Byte[] atBlock
+    ::Array<uint8_t>* _get_atBlock();
+    // Set instance field: private System.Byte[] atBlock
+    void _set_atBlock(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 atBlockPos
+    int _get_atBlockPos();
+    // Set instance field: private System.Int32 atBlockPos
+    void _set_atBlockPos(int value);
+    // Get instance field: private System.UInt64 atLength
+    uint64_t _get_atLength();
+    // Set instance field: private System.UInt64 atLength
+    void _set_atLength(uint64_t value);
+    // Get instance field: private System.UInt64 atLengthPre
+    uint64_t _get_atLengthPre();
+    // Set instance field: private System.UInt64 atLengthPre
+    void _set_atLengthPre(uint64_t value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher c)
     // Offset: 0x18CB3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

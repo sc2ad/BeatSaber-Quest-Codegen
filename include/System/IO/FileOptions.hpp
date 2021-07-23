@@ -75,6 +75,10 @@ namespace System::IO {
     static System::IO::FileOptions _get_WriteThrough();
     // Set static field: static public System.IO.FileOptions WriteThrough
     static void _set_WriteThrough(System::IO::FileOptions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IO.FileOptions
   #pragma pack(pop)
   static check_size<sizeof(FileOptions), 0 + sizeof(int)> __System_IO_FileOptionsSizeCheck;

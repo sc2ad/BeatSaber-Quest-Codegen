@@ -93,6 +93,10 @@ namespace UnityEngine::TextCore::LowLevel {
     static UnityEngine::TextCore::LowLevel::GlyphLoadFlags _get_LOAD_BITMAP_METRICS_ONLY();
     // Set static field: static public UnityEngine.TextCore.LowLevel.GlyphLoadFlags LOAD_BITMAP_METRICS_ONLY
     static void _set_LOAD_BITMAP_METRICS_ONLY(UnityEngine::TextCore::LowLevel::GlyphLoadFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.TextCore.LowLevel.GlyphLoadFlags
   #pragma pack(pop)
   static check_size<sizeof(GlyphLoadFlags), 0 + sizeof(int)> __UnityEngine_TextCore_LowLevel_GlyphLoadFlagsSizeCheck;

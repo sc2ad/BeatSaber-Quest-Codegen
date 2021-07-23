@@ -50,6 +50,18 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(NUnit::Framework::Constraints::ConstraintStatus) == 0x4);
     // Creating value type constructor for type: ConstraintResult
     ConstraintResult(NUnit::Framework::Constraints::IConstraint* constraint_ = {}, ::Il2CppObject* ActualValue_ = {}, NUnit::Framework::Constraints::ConstraintStatus Status_ = {}) noexcept : constraint{constraint_}, ActualValue{ActualValue_}, Status{Status_} {}
+    // Get instance field: private NUnit.Framework.Constraints.IConstraint _constraint
+    NUnit::Framework::Constraints::IConstraint* _get__constraint();
+    // Set instance field: private NUnit.Framework.Constraints.IConstraint _constraint
+    void _set__constraint(NUnit::Framework::Constraints::IConstraint* value);
+    // Get instance field: private System.Object <ActualValue>k__BackingField
+    ::Il2CppObject* _get_$ActualValue$k__BackingField();
+    // Set instance field: private System.Object <ActualValue>k__BackingField
+    void _set_$ActualValue$k__BackingField(::Il2CppObject* value);
+    // Get instance field: private NUnit.Framework.Constraints.ConstraintStatus <Status>k__BackingField
+    NUnit::Framework::Constraints::ConstraintStatus _get_$Status$k__BackingField();
+    // Set instance field: private NUnit.Framework.Constraints.ConstraintStatus <Status>k__BackingField
+    void _set_$Status$k__BackingField(NUnit::Framework::Constraints::ConstraintStatus value);
     // public System.Object get_ActualValue()
     // Offset: 0x1716A7C
     ::Il2CppObject* get_ActualValue();

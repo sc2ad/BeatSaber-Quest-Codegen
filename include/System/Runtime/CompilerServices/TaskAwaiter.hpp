@@ -54,6 +54,10 @@ namespace System::Runtime::CompilerServices {
     constexpr operator System::Threading::Tasks::Task*() const noexcept {
       return m_task;
     }
+    // Get instance field: private readonly System.Threading.Tasks.Task m_task
+    System::Threading::Tasks::Task* _get_m_task();
+    // Set instance field: private readonly System.Threading.Tasks.Task m_task
+    void _set_m_task(System::Threading::Tasks::Task* value);
     // public System.Boolean get_IsCompleted()
     // Offset: 0xED602C
     bool get_IsCompleted();

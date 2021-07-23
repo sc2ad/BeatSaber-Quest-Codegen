@@ -107,6 +107,34 @@ namespace HMUI {
     UIKeyboard(UnityEngine::UI::Button* okButton_ = {}, System::Action* okButtonWasPressedEvent_ = {}, System::Action_1<::Il2CppChar>* keyWasPressedEvent_ = {}, System::Action* deleteButtonWasPressedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, bool shouldCapitalize_ = {}, System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* letterBtnTexts_ = {}) noexcept : okButton{okButton_}, okButtonWasPressedEvent{okButtonWasPressedEvent_}, keyWasPressedEvent{keyWasPressedEvent_}, deleteButtonWasPressedEvent{deleteButtonWasPressedEvent_}, buttonBinder{buttonBinder_}, shouldCapitalize{shouldCapitalize_}, letterBtnTexts{letterBtnTexts_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button* _get__okButton();
+    // Set instance field: private UnityEngine.UI.Button _okButton
+    void _set__okButton(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Action okButtonWasPressedEvent
+    System::Action* _get_okButtonWasPressedEvent();
+    // Set instance field: private System.Action okButtonWasPressedEvent
+    void _set_okButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private System.Action`1<System.Char> keyWasPressedEvent
+    System::Action_1<::Il2CppChar>* _get_keyWasPressedEvent();
+    // Set instance field: private System.Action`1<System.Char> keyWasPressedEvent
+    void _set_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
+    // Get instance field: private System.Action deleteButtonWasPressedEvent
+    System::Action* _get_deleteButtonWasPressedEvent();
+    // Set instance field: private System.Action deleteButtonWasPressedEvent
+    void _set_deleteButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field: private System.Boolean _shouldCapitalize
+    bool _get__shouldCapitalize();
+    // Set instance field: private System.Boolean _shouldCapitalize
+    void _set__shouldCapitalize(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _letterBtnTexts
+    System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* _get__letterBtnTexts();
+    // Set instance field: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _letterBtnTexts
+    void _set__letterBtnTexts(System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
     // Offset: 0x12A3850
     void add_okButtonWasPressedEvent(System::Action* value);

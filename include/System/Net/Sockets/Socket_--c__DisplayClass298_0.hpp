@@ -54,6 +54,18 @@ namespace System::Net::Sockets {
     static_assert(sizeof(System::IntPtr) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass298_0
     $$c__DisplayClass298_0(System::Net::Sockets::Socket* $$4__this_ = {}, System::IOSelectorJob* job_ = {}, System::IntPtr handle_ = {}) noexcept : $$4__this{$$4__this_}, job{job_}, handle{handle_} {}
+    // Get instance field: public System.Net.Sockets.Socket <>4__this
+    System::Net::Sockets::Socket* _get_$$4__this();
+    // Set instance field: public System.Net.Sockets.Socket <>4__this
+    void _set_$$4__this(System::Net::Sockets::Socket* value);
+    // Get instance field: public System.IOSelectorJob job
+    System::IOSelectorJob* _get_job();
+    // Set instance field: public System.IOSelectorJob job
+    void _set_job(System::IOSelectorJob* value);
+    // Get instance field: public System.IntPtr handle
+    System::IntPtr _get_handle();
+    // Set instance field: public System.IntPtr handle
+    void _set_handle(System::IntPtr value);
     // System.Void <QueueIOSelectorJob>b__0(System.Threading.Tasks.Task t)
     // Offset: 0x158C034
     void $QueueIOSelectorJob$b__0(System::Threading::Tasks::Task* t);

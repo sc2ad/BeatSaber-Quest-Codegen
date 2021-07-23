@@ -70,6 +70,18 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
+    // Get instance field: protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
+    Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* _get_kCalculator();
+    // Set instance field: protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
+    void _set_kCalculator(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
+    // Get instance field: protected Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* _get_key();
+    // Set instance field: protected Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters key
+    void _set_key(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* value);
+    // Get instance field: protected Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: protected Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
     // Offset: 0x122F5D0
     Org::BouncyCastle::Math::BigInteger* get_Order();

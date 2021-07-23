@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::TouchScreenKeyboard::Status _get_LostFocus();
     // Set static field: static public UnityEngine.TouchScreenKeyboard/UnityEngine.Status LostFocus
     static void _set_LostFocus(UnityEngine::TouchScreenKeyboard::Status value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.TouchScreenKeyboard/UnityEngine.Status
   #pragma pack(pop)
   static check_size<sizeof(TouchScreenKeyboard::Status), 0 + sizeof(int)> __UnityEngine_TouchScreenKeyboard_StatusSizeCheck;

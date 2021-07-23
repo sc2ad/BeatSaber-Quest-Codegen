@@ -57,6 +57,10 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Image::Origin360 _get_Left();
     // Set static field: static public UnityEngine.UI.Image/UnityEngine.UI.Origin360 Left
     static void _set_Left(UnityEngine::UI::Image::Origin360 value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.UI.Image/UnityEngine.UI.Origin360
   #pragma pack(pop)
   static check_size<sizeof(Image::Origin360), 0 + sizeof(int)> __UnityEngine_UI_Image_Origin360SizeCheck;

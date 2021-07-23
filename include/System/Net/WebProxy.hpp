@@ -126,6 +126,42 @@ namespace System::Net {
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Get instance field: private System.Boolean _UseRegistry
+    bool _get__UseRegistry();
+    // Set instance field: private System.Boolean _UseRegistry
+    void _set__UseRegistry(bool value);
+    // Get instance field: private System.Boolean _BypassOnLocal
+    bool _get__BypassOnLocal();
+    // Set instance field: private System.Boolean _BypassOnLocal
+    void _set__BypassOnLocal(bool value);
+    // Get instance field: private System.Boolean m_EnableAutoproxy
+    bool _get_m_EnableAutoproxy();
+    // Set instance field: private System.Boolean m_EnableAutoproxy
+    void _set_m_EnableAutoproxy(bool value);
+    // Get instance field: private System.Uri _ProxyAddress
+    System::Uri* _get__ProxyAddress();
+    // Set instance field: private System.Uri _ProxyAddress
+    void _set__ProxyAddress(System::Uri* value);
+    // Get instance field: private System.Collections.ArrayList _BypassList
+    System::Collections::ArrayList* _get__BypassList();
+    // Set instance field: private System.Collections.ArrayList _BypassList
+    void _set__BypassList(System::Collections::ArrayList* value);
+    // Get instance field: private System.Net.ICredentials _Credentials
+    System::Net::ICredentials* _get__Credentials();
+    // Set instance field: private System.Net.ICredentials _Credentials
+    void _set__Credentials(System::Net::ICredentials* value);
+    // Get instance field: private System.Text.RegularExpressions.Regex[] _RegExBypassList
+    ::Array<System::Text::RegularExpressions::Regex*>* _get__RegExBypassList();
+    // Set instance field: private System.Text.RegularExpressions.Regex[] _RegExBypassList
+    void _set__RegExBypassList(::Array<System::Text::RegularExpressions::Regex*>* value);
+    // Get instance field: private System.Collections.Hashtable _ProxyHostAddresses
+    System::Collections::Hashtable* _get__ProxyHostAddresses();
+    // Set instance field: private System.Collections.Hashtable _ProxyHostAddresses
+    void _set__ProxyHostAddresses(System::Collections::Hashtable* value);
+    // Get instance field: private System.Net.AutoWebProxyScriptEngine m_ScriptEngine
+    System::Net::AutoWebProxyScriptEngine* _get_m_ScriptEngine();
+    // Set instance field: private System.Net.AutoWebProxyScriptEngine m_ScriptEngine
+    void _set_m_ScriptEngine(System::Net::AutoWebProxyScriptEngine* value);
     // public System.Net.ICredentials get_Credentials()
     // Offset: 0x159CC14
     System::Net::ICredentials* get_Credentials();

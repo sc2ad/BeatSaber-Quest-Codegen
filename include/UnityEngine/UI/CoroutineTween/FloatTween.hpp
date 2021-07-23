@@ -71,6 +71,26 @@ namespace UnityEngine::UI::CoroutineTween {
     operator UnityEngine::UI::CoroutineTween::ITweenValue() noexcept {
       return *reinterpret_cast<UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
+    // Get instance field: private UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback m_Target
+    UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback* _get_m_Target();
+    // Set instance field: private UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback m_Target
+    void _set_m_Target(UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback* value);
+    // Get instance field: private System.Single m_StartValue
+    float _get_m_StartValue();
+    // Set instance field: private System.Single m_StartValue
+    void _set_m_StartValue(float value);
+    // Get instance field: private System.Single m_TargetValue
+    float _get_m_TargetValue();
+    // Set instance field: private System.Single m_TargetValue
+    void _set_m_TargetValue(float value);
+    // Get instance field: private System.Single m_Duration
+    float _get_m_Duration();
+    // Set instance field: private System.Single m_Duration
+    void _set_m_Duration(float value);
+    // Get instance field: private System.Boolean m_IgnoreTimeScale
+    bool _get_m_IgnoreTimeScale();
+    // Set instance field: private System.Boolean m_IgnoreTimeScale
+    void _set_m_IgnoreTimeScale(bool value);
     // public System.Single get_startValue()
     // Offset: 0xED655C
     float get_startValue();

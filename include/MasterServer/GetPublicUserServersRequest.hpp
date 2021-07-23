@@ -78,6 +78,26 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
+    // Get instance field: private System.String <userId>k__BackingField
+    ::Il2CppString* _get_$userId$k__BackingField();
+    // Set instance field: private System.String <userId>k__BackingField
+    void _set_$userId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <userName>k__BackingField
+    ::Il2CppString* _get_$userName$k__BackingField();
+    // Set instance field: private System.String <userName>k__BackingField
+    void _set_$userName$k__BackingField(::Il2CppString* value);
+    // Get instance field: public System.Int32 offset
+    int _get_offset();
+    // Set instance field: public System.Int32 offset
+    void _set_offset(int value);
+    // Get instance field: public System.Int32 count
+    int _get_count();
+    // Set instance field: public System.Int32 count
+    void _set_count(int value);
+    // Get instance field: public UserServerFilter filter
+    GlobalNamespace::UserServerFilter _get_filter();
+    // Set instance field: public UserServerFilter filter
+    void _set_filter(GlobalNamespace::UserServerFilter value);
     // static public PacketPool`1<MasterServer.GetPublicUserServersRequest> get_pool()
     // Offset: 0x12D2D78
     static GlobalNamespace::PacketPool_1<MasterServer::GetPublicUserServersRequest*>* get_pool();

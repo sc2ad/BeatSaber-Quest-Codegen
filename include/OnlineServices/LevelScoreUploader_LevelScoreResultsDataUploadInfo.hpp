@@ -35,6 +35,14 @@ namespace OnlineServices {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LevelScoreResultsDataUploadInfo
     LevelScoreResultsDataUploadInfo(OnlineServices::LevelScoreResultsData levelScoreResultsData_ = {}, int uploadAttemptCountLeft_ = {}) noexcept : levelScoreResultsData{levelScoreResultsData_}, uploadAttemptCountLeft{uploadAttemptCountLeft_} {}
+    // Get instance field: public OnlineServices.LevelScoreResultsData levelScoreResultsData
+    OnlineServices::LevelScoreResultsData _get_levelScoreResultsData();
+    // Set instance field: public OnlineServices.LevelScoreResultsData levelScoreResultsData
+    void _set_levelScoreResultsData(OnlineServices::LevelScoreResultsData value);
+    // Get instance field: public System.Int32 uploadAttemptCountLeft
+    int _get_uploadAttemptCountLeft();
+    // Set instance field: public System.Int32 uploadAttemptCountLeft
+    void _set_uploadAttemptCountLeft(int value);
     // public System.Void .ctor()
     // Offset: 0xFF9308
     // Implemented from: System.Object

@@ -75,6 +75,26 @@ namespace GlobalNamespace {
     static float _get_kSmooth();
     // Set static field: static private System.Single kSmooth
     static void _set_kSmooth(float value);
+    // Get instance field: private ObstacleSaberSparkleEffectManager _obstacleSaberSparkleEffectManager
+    GlobalNamespace::ObstacleSaberSparkleEffectManager* _get__obstacleSaberSparkleEffectManager();
+    // Set instance field: private ObstacleSaberSparkleEffectManager _obstacleSaberSparkleEffectManager
+    void _set__obstacleSaberSparkleEffectManager(GlobalNamespace::ObstacleSaberSparkleEffectManager* value);
+    // Get instance field: private SaberType _saberType
+    GlobalNamespace::SaberType _get__saberType();
+    // Set instance field: private SaberType _saberType
+    void _set__saberType(GlobalNamespace::SaberType value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource* _get__audioSource();
+    // Set instance field: private UnityEngine.AudioSource _audioSource
+    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private System.Single _volume
+    float _get__volume();
+    // Set instance field: private System.Single _volume
+    void _set__volume(float value);
+    // Get instance field: private System.Single _targetVolume
+    float _get__targetVolume();
+    // Set instance field: private System.Single _targetVolume
+    void _set__targetVolume(float value);
     // protected System.Void Awake()
     // Offset: 0x11EA460
     void Awake();

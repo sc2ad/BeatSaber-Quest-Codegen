@@ -48,6 +48,14 @@ namespace System::Xml {
     static_assert(sizeof(System::Xml::IXmlNamespaceResolver*) == 0x8);
     // Creating value type constructor for type: XmlRawWriter
     XmlRawWriter(System::Xml::XmlRawWriterBase64Encoder* base64Encoder_ = {}, System::Xml::IXmlNamespaceResolver* resolver_ = {}) noexcept : base64Encoder{base64Encoder_}, resolver{resolver_} {}
+    // Get instance field: protected System.Xml.XmlRawWriterBase64Encoder base64Encoder
+    System::Xml::XmlRawWriterBase64Encoder* _get_base64Encoder();
+    // Set instance field: protected System.Xml.XmlRawWriterBase64Encoder base64Encoder
+    void _set_base64Encoder(System::Xml::XmlRawWriterBase64Encoder* value);
+    // Get instance field: protected System.Xml.IXmlNamespaceResolver resolver
+    System::Xml::IXmlNamespaceResolver* _get_resolver();
+    // Set instance field: protected System.Xml.IXmlNamespaceResolver resolver
+    void _set_resolver(System::Xml::IXmlNamespaceResolver* value);
     // System.Void set_NamespaceResolver(System.Xml.IXmlNamespaceResolver value)
     // Offset: 0x190E7F4
     void set_NamespaceResolver(System::Xml::IXmlNamespaceResolver* value);

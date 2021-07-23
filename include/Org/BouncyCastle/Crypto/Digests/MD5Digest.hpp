@@ -127,6 +127,30 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static int _get_S44();
     // Set static field: static private readonly System.Int32 S44
     static void _set_S44(int value);
+    // Get instance field: private System.UInt32 H1
+    uint _get_H1();
+    // Set instance field: private System.UInt32 H1
+    void _set_H1(uint value);
+    // Get instance field: private System.UInt32 H2
+    uint _get_H2();
+    // Set instance field: private System.UInt32 H2
+    void _set_H2(uint value);
+    // Get instance field: private System.UInt32 H3
+    uint _get_H3();
+    // Set instance field: private System.UInt32 H3
+    void _set_H3(uint value);
+    // Get instance field: private System.UInt32 H4
+    uint _get_H4();
+    // Set instance field: private System.UInt32 H4
+    void _set_H4(uint value);
+    // Get instance field: private System.UInt32[] X
+    ::Array<uint>* _get_X();
+    // Set instance field: private System.UInt32[] X
+    void _set_X(::Array<uint>* value);
+    // Get instance field: private System.Int32 xOff
+    int _get_xOff();
+    // Set instance field: private System.Int32 xOff
+    void _set_xOff(int value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.MD5Digest t)
     // Offset: 0x1D0DCE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

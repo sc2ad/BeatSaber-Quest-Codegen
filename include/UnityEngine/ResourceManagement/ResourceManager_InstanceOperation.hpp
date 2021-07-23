@@ -79,6 +79,26 @@ namespace UnityEngine::ResourceManagement {
     static_assert(sizeof(UnityEngine::SceneManagement::Scene) == 0x4);
     // Creating value type constructor for type: InstanceOperation
     InstanceOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> m_dependency_ = {}, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters m_instantiationParams_ = {}, UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_instanceProvider_ = {}, UnityEngine::GameObject* m_instance_ = {}, UnityEngine::SceneManagement::Scene m_scene_ = {}) noexcept : m_dependency{m_dependency_}, m_instantiationParams{m_instantiationParams_}, m_instanceProvider{m_instanceProvider_}, m_instance{m_instance_}, m_scene{m_scene_} {}
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> m_dependency
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> _get_m_dependency();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> m_dependency
+    void _set_m_dependency(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters m_instantiationParams
+    UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters _get_m_instantiationParams();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters m_instantiationParams
+    void _set_m_instantiationParams(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider m_instanceProvider
+    UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* _get_m_instanceProvider();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider m_instanceProvider
+    void _set_m_instanceProvider(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value);
+    // Get instance field: private UnityEngine.GameObject m_instance
+    UnityEngine::GameObject* _get_m_instance();
+    // Set instance field: private UnityEngine.GameObject m_instance
+    void _set_m_instance(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.SceneManagement.Scene m_scene
+    UnityEngine::SceneManagement::Scene _get_m_scene();
+    // Set instance field: private UnityEngine.SceneManagement.Scene m_scene
+    void _set_m_scene(UnityEngine::SceneManagement::Scene value);
     // public System.Void Init(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider instanceProvider, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiationParams, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> dependency)
     // Offset: 0x19B4884
     void Init(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* instanceProvider, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiationParams, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> dependency);

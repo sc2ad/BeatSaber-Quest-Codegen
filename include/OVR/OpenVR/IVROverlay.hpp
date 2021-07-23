@@ -682,6 +682,334 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._FindOverlay FindOverlay
+    OVR::OpenVR::IVROverlay::_FindOverlay* _get_FindOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._FindOverlay FindOverlay
+    void _set_FindOverlay(OVR::OpenVR::IVROverlay::_FindOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._CreateOverlay CreateOverlay
+    OVR::OpenVR::IVROverlay::_CreateOverlay* _get_CreateOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._CreateOverlay CreateOverlay
+    void _set_CreateOverlay(OVR::OpenVR::IVROverlay::_CreateOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._DestroyOverlay DestroyOverlay
+    OVR::OpenVR::IVROverlay::_DestroyOverlay* _get_DestroyOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._DestroyOverlay DestroyOverlay
+    void _set_DestroyOverlay(OVR::OpenVR::IVROverlay::_DestroyOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetHighQualityOverlay SetHighQualityOverlay
+    OVR::OpenVR::IVROverlay::_SetHighQualityOverlay* _get_SetHighQualityOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetHighQualityOverlay SetHighQualityOverlay
+    void _set_SetHighQualityOverlay(OVR::OpenVR::IVROverlay::_SetHighQualityOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetHighQualityOverlay GetHighQualityOverlay
+    OVR::OpenVR::IVROverlay::_GetHighQualityOverlay* _get_GetHighQualityOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetHighQualityOverlay GetHighQualityOverlay
+    void _set_GetHighQualityOverlay(OVR::OpenVR::IVROverlay::_GetHighQualityOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayKey GetOverlayKey
+    OVR::OpenVR::IVROverlay::_GetOverlayKey* _get_GetOverlayKey();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayKey GetOverlayKey
+    void _set_GetOverlayKey(OVR::OpenVR::IVROverlay::_GetOverlayKey* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayName GetOverlayName
+    OVR::OpenVR::IVROverlay::_GetOverlayName* _get_GetOverlayName();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayName GetOverlayName
+    void _set_GetOverlayName(OVR::OpenVR::IVROverlay::_GetOverlayName* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayName SetOverlayName
+    OVR::OpenVR::IVROverlay::_SetOverlayName* _get_SetOverlayName();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayName SetOverlayName
+    void _set_SetOverlayName(OVR::OpenVR::IVROverlay::_SetOverlayName* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayImageData GetOverlayImageData
+    OVR::OpenVR::IVROverlay::_GetOverlayImageData* _get_GetOverlayImageData();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayImageData GetOverlayImageData
+    void _set_GetOverlayImageData(OVR::OpenVR::IVROverlay::_GetOverlayImageData* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayErrorNameFromEnum GetOverlayErrorNameFromEnum
+    OVR::OpenVR::IVROverlay::_GetOverlayErrorNameFromEnum* _get_GetOverlayErrorNameFromEnum();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayErrorNameFromEnum GetOverlayErrorNameFromEnum
+    void _set_GetOverlayErrorNameFromEnum(OVR::OpenVR::IVROverlay::_GetOverlayErrorNameFromEnum* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayRenderingPid SetOverlayRenderingPid
+    OVR::OpenVR::IVROverlay::_SetOverlayRenderingPid* _get_SetOverlayRenderingPid();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayRenderingPid SetOverlayRenderingPid
+    void _set_SetOverlayRenderingPid(OVR::OpenVR::IVROverlay::_SetOverlayRenderingPid* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayRenderingPid GetOverlayRenderingPid
+    OVR::OpenVR::IVROverlay::_GetOverlayRenderingPid* _get_GetOverlayRenderingPid();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayRenderingPid GetOverlayRenderingPid
+    void _set_GetOverlayRenderingPid(OVR::OpenVR::IVROverlay::_GetOverlayRenderingPid* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayFlag SetOverlayFlag
+    OVR::OpenVR::IVROverlay::_SetOverlayFlag* _get_SetOverlayFlag();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayFlag SetOverlayFlag
+    void _set_SetOverlayFlag(OVR::OpenVR::IVROverlay::_SetOverlayFlag* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayFlag GetOverlayFlag
+    OVR::OpenVR::IVROverlay::_GetOverlayFlag* _get_GetOverlayFlag();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayFlag GetOverlayFlag
+    void _set_GetOverlayFlag(OVR::OpenVR::IVROverlay::_GetOverlayFlag* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayColor SetOverlayColor
+    OVR::OpenVR::IVROverlay::_SetOverlayColor* _get_SetOverlayColor();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayColor SetOverlayColor
+    void _set_SetOverlayColor(OVR::OpenVR::IVROverlay::_SetOverlayColor* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayColor GetOverlayColor
+    OVR::OpenVR::IVROverlay::_GetOverlayColor* _get_GetOverlayColor();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayColor GetOverlayColor
+    void _set_GetOverlayColor(OVR::OpenVR::IVROverlay::_GetOverlayColor* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayAlpha SetOverlayAlpha
+    OVR::OpenVR::IVROverlay::_SetOverlayAlpha* _get_SetOverlayAlpha();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayAlpha SetOverlayAlpha
+    void _set_SetOverlayAlpha(OVR::OpenVR::IVROverlay::_SetOverlayAlpha* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayAlpha GetOverlayAlpha
+    OVR::OpenVR::IVROverlay::_GetOverlayAlpha* _get_GetOverlayAlpha();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayAlpha GetOverlayAlpha
+    void _set_GetOverlayAlpha(OVR::OpenVR::IVROverlay::_GetOverlayAlpha* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTexelAspect SetOverlayTexelAspect
+    OVR::OpenVR::IVROverlay::_SetOverlayTexelAspect* _get_SetOverlayTexelAspect();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTexelAspect SetOverlayTexelAspect
+    void _set_SetOverlayTexelAspect(OVR::OpenVR::IVROverlay::_SetOverlayTexelAspect* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTexelAspect GetOverlayTexelAspect
+    OVR::OpenVR::IVROverlay::_GetOverlayTexelAspect* _get_GetOverlayTexelAspect();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTexelAspect GetOverlayTexelAspect
+    void _set_GetOverlayTexelAspect(OVR::OpenVR::IVROverlay::_GetOverlayTexelAspect* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlaySortOrder SetOverlaySortOrder
+    OVR::OpenVR::IVROverlay::_SetOverlaySortOrder* _get_SetOverlaySortOrder();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlaySortOrder SetOverlaySortOrder
+    void _set_SetOverlaySortOrder(OVR::OpenVR::IVROverlay::_SetOverlaySortOrder* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlaySortOrder GetOverlaySortOrder
+    OVR::OpenVR::IVROverlay::_GetOverlaySortOrder* _get_GetOverlaySortOrder();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlaySortOrder GetOverlaySortOrder
+    void _set_GetOverlaySortOrder(OVR::OpenVR::IVROverlay::_GetOverlaySortOrder* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayWidthInMeters SetOverlayWidthInMeters
+    OVR::OpenVR::IVROverlay::_SetOverlayWidthInMeters* _get_SetOverlayWidthInMeters();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayWidthInMeters SetOverlayWidthInMeters
+    void _set_SetOverlayWidthInMeters(OVR::OpenVR::IVROverlay::_SetOverlayWidthInMeters* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayWidthInMeters GetOverlayWidthInMeters
+    OVR::OpenVR::IVROverlay::_GetOverlayWidthInMeters* _get_GetOverlayWidthInMeters();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayWidthInMeters GetOverlayWidthInMeters
+    void _set_GetOverlayWidthInMeters(OVR::OpenVR::IVROverlay::_GetOverlayWidthInMeters* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayAutoCurveDistanceRangeInMeters SetOverlayAutoCurveDistanceRangeInMeters
+    OVR::OpenVR::IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters* _get_SetOverlayAutoCurveDistanceRangeInMeters();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayAutoCurveDistanceRangeInMeters SetOverlayAutoCurveDistanceRangeInMeters
+    void _set_SetOverlayAutoCurveDistanceRangeInMeters(OVR::OpenVR::IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayAutoCurveDistanceRangeInMeters GetOverlayAutoCurveDistanceRangeInMeters
+    OVR::OpenVR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters* _get_GetOverlayAutoCurveDistanceRangeInMeters();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayAutoCurveDistanceRangeInMeters GetOverlayAutoCurveDistanceRangeInMeters
+    void _set_GetOverlayAutoCurveDistanceRangeInMeters(OVR::OpenVR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTextureColorSpace SetOverlayTextureColorSpace
+    OVR::OpenVR::IVROverlay::_SetOverlayTextureColorSpace* _get_SetOverlayTextureColorSpace();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTextureColorSpace SetOverlayTextureColorSpace
+    void _set_SetOverlayTextureColorSpace(OVR::OpenVR::IVROverlay::_SetOverlayTextureColorSpace* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTextureColorSpace GetOverlayTextureColorSpace
+    OVR::OpenVR::IVROverlay::_GetOverlayTextureColorSpace* _get_GetOverlayTextureColorSpace();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTextureColorSpace GetOverlayTextureColorSpace
+    void _set_GetOverlayTextureColorSpace(OVR::OpenVR::IVROverlay::_GetOverlayTextureColorSpace* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTextureBounds SetOverlayTextureBounds
+    OVR::OpenVR::IVROverlay::_SetOverlayTextureBounds* _get_SetOverlayTextureBounds();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTextureBounds SetOverlayTextureBounds
+    void _set_SetOverlayTextureBounds(OVR::OpenVR::IVROverlay::_SetOverlayTextureBounds* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTextureBounds GetOverlayTextureBounds
+    OVR::OpenVR::IVROverlay::_GetOverlayTextureBounds* _get_GetOverlayTextureBounds();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTextureBounds GetOverlayTextureBounds
+    void _set_GetOverlayTextureBounds(OVR::OpenVR::IVROverlay::_GetOverlayTextureBounds* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayRenderModel GetOverlayRenderModel
+    OVR::OpenVR::IVROverlay::_GetOverlayRenderModel* _get_GetOverlayRenderModel();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayRenderModel GetOverlayRenderModel
+    void _set_GetOverlayRenderModel(OVR::OpenVR::IVROverlay::_GetOverlayRenderModel* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayRenderModel SetOverlayRenderModel
+    OVR::OpenVR::IVROverlay::_SetOverlayRenderModel* _get_SetOverlayRenderModel();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayRenderModel SetOverlayRenderModel
+    void _set_SetOverlayRenderModel(OVR::OpenVR::IVROverlay::_SetOverlayRenderModel* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformType GetOverlayTransformType
+    OVR::OpenVR::IVROverlay::_GetOverlayTransformType* _get_GetOverlayTransformType();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformType GetOverlayTransformType
+    void _set_GetOverlayTransformType(OVR::OpenVR::IVROverlay::_GetOverlayTransformType* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformAbsolute SetOverlayTransformAbsolute
+    OVR::OpenVR::IVROverlay::_SetOverlayTransformAbsolute* _get_SetOverlayTransformAbsolute();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformAbsolute SetOverlayTransformAbsolute
+    void _set_SetOverlayTransformAbsolute(OVR::OpenVR::IVROverlay::_SetOverlayTransformAbsolute* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformAbsolute GetOverlayTransformAbsolute
+    OVR::OpenVR::IVROverlay::_GetOverlayTransformAbsolute* _get_GetOverlayTransformAbsolute();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformAbsolute GetOverlayTransformAbsolute
+    void _set_GetOverlayTransformAbsolute(OVR::OpenVR::IVROverlay::_GetOverlayTransformAbsolute* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformTrackedDeviceRelative SetOverlayTransformTrackedDeviceRelative
+    OVR::OpenVR::IVROverlay::_SetOverlayTransformTrackedDeviceRelative* _get_SetOverlayTransformTrackedDeviceRelative();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformTrackedDeviceRelative SetOverlayTransformTrackedDeviceRelative
+    void _set_SetOverlayTransformTrackedDeviceRelative(OVR::OpenVR::IVROverlay::_SetOverlayTransformTrackedDeviceRelative* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformTrackedDeviceRelative GetOverlayTransformTrackedDeviceRelative
+    OVR::OpenVR::IVROverlay::_GetOverlayTransformTrackedDeviceRelative* _get_GetOverlayTransformTrackedDeviceRelative();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformTrackedDeviceRelative GetOverlayTransformTrackedDeviceRelative
+    void _set_GetOverlayTransformTrackedDeviceRelative(OVR::OpenVR::IVROverlay::_GetOverlayTransformTrackedDeviceRelative* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformTrackedDeviceComponent SetOverlayTransformTrackedDeviceComponent
+    OVR::OpenVR::IVROverlay::_SetOverlayTransformTrackedDeviceComponent* _get_SetOverlayTransformTrackedDeviceComponent();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformTrackedDeviceComponent SetOverlayTransformTrackedDeviceComponent
+    void _set_SetOverlayTransformTrackedDeviceComponent(OVR::OpenVR::IVROverlay::_SetOverlayTransformTrackedDeviceComponent* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformTrackedDeviceComponent GetOverlayTransformTrackedDeviceComponent
+    OVR::OpenVR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent* _get_GetOverlayTransformTrackedDeviceComponent();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformTrackedDeviceComponent GetOverlayTransformTrackedDeviceComponent
+    void _set_GetOverlayTransformTrackedDeviceComponent(OVR::OpenVR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformOverlayRelative GetOverlayTransformOverlayRelative
+    OVR::OpenVR::IVROverlay::_GetOverlayTransformOverlayRelative* _get_GetOverlayTransformOverlayRelative();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTransformOverlayRelative GetOverlayTransformOverlayRelative
+    void _set_GetOverlayTransformOverlayRelative(OVR::OpenVR::IVROverlay::_GetOverlayTransformOverlayRelative* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformOverlayRelative SetOverlayTransformOverlayRelative
+    OVR::OpenVR::IVROverlay::_SetOverlayTransformOverlayRelative* _get_SetOverlayTransformOverlayRelative();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTransformOverlayRelative SetOverlayTransformOverlayRelative
+    void _set_SetOverlayTransformOverlayRelative(OVR::OpenVR::IVROverlay::_SetOverlayTransformOverlayRelative* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowOverlay ShowOverlay
+    OVR::OpenVR::IVROverlay::_ShowOverlay* _get_ShowOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowOverlay ShowOverlay
+    void _set_ShowOverlay(OVR::OpenVR::IVROverlay::_ShowOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._HideOverlay HideOverlay
+    OVR::OpenVR::IVROverlay::_HideOverlay* _get_HideOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._HideOverlay HideOverlay
+    void _set_HideOverlay(OVR::OpenVR::IVROverlay::_HideOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsOverlayVisible IsOverlayVisible
+    OVR::OpenVR::IVROverlay::_IsOverlayVisible* _get_IsOverlayVisible();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsOverlayVisible IsOverlayVisible
+    void _set_IsOverlayVisible(OVR::OpenVR::IVROverlay::_IsOverlayVisible* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetTransformForOverlayCoordinates GetTransformForOverlayCoordinates
+    OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates* _get_GetTransformForOverlayCoordinates();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetTransformForOverlayCoordinates GetTransformForOverlayCoordinates
+    void _set_GetTransformForOverlayCoordinates(OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._PollNextOverlayEvent PollNextOverlayEvent
+    OVR::OpenVR::IVROverlay::_PollNextOverlayEvent* _get_PollNextOverlayEvent();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._PollNextOverlayEvent PollNextOverlayEvent
+    void _set_PollNextOverlayEvent(OVR::OpenVR::IVROverlay::_PollNextOverlayEvent* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayInputMethod GetOverlayInputMethod
+    OVR::OpenVR::IVROverlay::_GetOverlayInputMethod* _get_GetOverlayInputMethod();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayInputMethod GetOverlayInputMethod
+    void _set_GetOverlayInputMethod(OVR::OpenVR::IVROverlay::_GetOverlayInputMethod* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayInputMethod SetOverlayInputMethod
+    OVR::OpenVR::IVROverlay::_SetOverlayInputMethod* _get_SetOverlayInputMethod();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayInputMethod SetOverlayInputMethod
+    void _set_SetOverlayInputMethod(OVR::OpenVR::IVROverlay::_SetOverlayInputMethod* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayMouseScale GetOverlayMouseScale
+    OVR::OpenVR::IVROverlay::_GetOverlayMouseScale* _get_GetOverlayMouseScale();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayMouseScale GetOverlayMouseScale
+    void _set_GetOverlayMouseScale(OVR::OpenVR::IVROverlay::_GetOverlayMouseScale* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayMouseScale SetOverlayMouseScale
+    OVR::OpenVR::IVROverlay::_SetOverlayMouseScale* _get_SetOverlayMouseScale();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayMouseScale SetOverlayMouseScale
+    void _set_SetOverlayMouseScale(OVR::OpenVR::IVROverlay::_SetOverlayMouseScale* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ComputeOverlayIntersection ComputeOverlayIntersection
+    OVR::OpenVR::IVROverlay::_ComputeOverlayIntersection* _get_ComputeOverlayIntersection();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ComputeOverlayIntersection ComputeOverlayIntersection
+    void _set_ComputeOverlayIntersection(OVR::OpenVR::IVROverlay::_ComputeOverlayIntersection* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsHoverTargetOverlay IsHoverTargetOverlay
+    OVR::OpenVR::IVROverlay::_IsHoverTargetOverlay* _get_IsHoverTargetOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsHoverTargetOverlay IsHoverTargetOverlay
+    void _set_IsHoverTargetOverlay(OVR::OpenVR::IVROverlay::_IsHoverTargetOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetGamepadFocusOverlay GetGamepadFocusOverlay
+    OVR::OpenVR::IVROverlay::_GetGamepadFocusOverlay* _get_GetGamepadFocusOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetGamepadFocusOverlay GetGamepadFocusOverlay
+    void _set_GetGamepadFocusOverlay(OVR::OpenVR::IVROverlay::_GetGamepadFocusOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetGamepadFocusOverlay SetGamepadFocusOverlay
+    OVR::OpenVR::IVROverlay::_SetGamepadFocusOverlay* _get_SetGamepadFocusOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetGamepadFocusOverlay SetGamepadFocusOverlay
+    void _set_SetGamepadFocusOverlay(OVR::OpenVR::IVROverlay::_SetGamepadFocusOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayNeighbor SetOverlayNeighbor
+    OVR::OpenVR::IVROverlay::_SetOverlayNeighbor* _get_SetOverlayNeighbor();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayNeighbor SetOverlayNeighbor
+    void _set_SetOverlayNeighbor(OVR::OpenVR::IVROverlay::_SetOverlayNeighbor* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._MoveGamepadFocusToNeighbor MoveGamepadFocusToNeighbor
+    OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor* _get_MoveGamepadFocusToNeighbor();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._MoveGamepadFocusToNeighbor MoveGamepadFocusToNeighbor
+    void _set_MoveGamepadFocusToNeighbor(OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayDualAnalogTransform SetOverlayDualAnalogTransform
+    OVR::OpenVR::IVROverlay::_SetOverlayDualAnalogTransform* _get_SetOverlayDualAnalogTransform();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayDualAnalogTransform SetOverlayDualAnalogTransform
+    void _set_SetOverlayDualAnalogTransform(OVR::OpenVR::IVROverlay::_SetOverlayDualAnalogTransform* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayDualAnalogTransform GetOverlayDualAnalogTransform
+    OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform* _get_GetOverlayDualAnalogTransform();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayDualAnalogTransform GetOverlayDualAnalogTransform
+    void _set_GetOverlayDualAnalogTransform(OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTexture SetOverlayTexture
+    OVR::OpenVR::IVROverlay::_SetOverlayTexture* _get_SetOverlayTexture();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayTexture SetOverlayTexture
+    void _set_SetOverlayTexture(OVR::OpenVR::IVROverlay::_SetOverlayTexture* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ClearOverlayTexture ClearOverlayTexture
+    OVR::OpenVR::IVROverlay::_ClearOverlayTexture* _get_ClearOverlayTexture();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ClearOverlayTexture ClearOverlayTexture
+    void _set_ClearOverlayTexture(OVR::OpenVR::IVROverlay::_ClearOverlayTexture* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayRaw SetOverlayRaw
+    OVR::OpenVR::IVROverlay::_SetOverlayRaw* _get_SetOverlayRaw();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayRaw SetOverlayRaw
+    void _set_SetOverlayRaw(OVR::OpenVR::IVROverlay::_SetOverlayRaw* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayFromFile SetOverlayFromFile
+    OVR::OpenVR::IVROverlay::_SetOverlayFromFile* _get_SetOverlayFromFile();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayFromFile SetOverlayFromFile
+    void _set_SetOverlayFromFile(OVR::OpenVR::IVROverlay::_SetOverlayFromFile* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTexture GetOverlayTexture
+    OVR::OpenVR::IVROverlay::_GetOverlayTexture* _get_GetOverlayTexture();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTexture GetOverlayTexture
+    void _set_GetOverlayTexture(OVR::OpenVR::IVROverlay::_GetOverlayTexture* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ReleaseNativeOverlayHandle ReleaseNativeOverlayHandle
+    OVR::OpenVR::IVROverlay::_ReleaseNativeOverlayHandle* _get_ReleaseNativeOverlayHandle();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ReleaseNativeOverlayHandle ReleaseNativeOverlayHandle
+    void _set_ReleaseNativeOverlayHandle(OVR::OpenVR::IVROverlay::_ReleaseNativeOverlayHandle* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTextureSize GetOverlayTextureSize
+    OVR::OpenVR::IVROverlay::_GetOverlayTextureSize* _get_GetOverlayTextureSize();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTextureSize GetOverlayTextureSize
+    void _set_GetOverlayTextureSize(OVR::OpenVR::IVROverlay::_GetOverlayTextureSize* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._CreateDashboardOverlay CreateDashboardOverlay
+    OVR::OpenVR::IVROverlay::_CreateDashboardOverlay* _get_CreateDashboardOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._CreateDashboardOverlay CreateDashboardOverlay
+    void _set_CreateDashboardOverlay(OVR::OpenVR::IVROverlay::_CreateDashboardOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsDashboardVisible IsDashboardVisible
+    OVR::OpenVR::IVROverlay::_IsDashboardVisible* _get_IsDashboardVisible();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsDashboardVisible IsDashboardVisible
+    void _set_IsDashboardVisible(OVR::OpenVR::IVROverlay::_IsDashboardVisible* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsActiveDashboardOverlay IsActiveDashboardOverlay
+    OVR::OpenVR::IVROverlay::_IsActiveDashboardOverlay* _get_IsActiveDashboardOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._IsActiveDashboardOverlay IsActiveDashboardOverlay
+    void _set_IsActiveDashboardOverlay(OVR::OpenVR::IVROverlay::_IsActiveDashboardOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetDashboardOverlaySceneProcess SetDashboardOverlaySceneProcess
+    OVR::OpenVR::IVROverlay::_SetDashboardOverlaySceneProcess* _get_SetDashboardOverlaySceneProcess();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetDashboardOverlaySceneProcess SetDashboardOverlaySceneProcess
+    void _set_SetDashboardOverlaySceneProcess(OVR::OpenVR::IVROverlay::_SetDashboardOverlaySceneProcess* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetDashboardOverlaySceneProcess GetDashboardOverlaySceneProcess
+    OVR::OpenVR::IVROverlay::_GetDashboardOverlaySceneProcess* _get_GetDashboardOverlaySceneProcess();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetDashboardOverlaySceneProcess GetDashboardOverlaySceneProcess
+    void _set_GetDashboardOverlaySceneProcess(OVR::OpenVR::IVROverlay::_GetDashboardOverlaySceneProcess* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowDashboard ShowDashboard
+    OVR::OpenVR::IVROverlay::_ShowDashboard* _get_ShowDashboard();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowDashboard ShowDashboard
+    void _set_ShowDashboard(OVR::OpenVR::IVROverlay::_ShowDashboard* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetPrimaryDashboardDevice GetPrimaryDashboardDevice
+    OVR::OpenVR::IVROverlay::_GetPrimaryDashboardDevice* _get_GetPrimaryDashboardDevice();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetPrimaryDashboardDevice GetPrimaryDashboardDevice
+    void _set_GetPrimaryDashboardDevice(OVR::OpenVR::IVROverlay::_GetPrimaryDashboardDevice* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowKeyboard ShowKeyboard
+    OVR::OpenVR::IVROverlay::_ShowKeyboard* _get_ShowKeyboard();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowKeyboard ShowKeyboard
+    void _set_ShowKeyboard(OVR::OpenVR::IVROverlay::_ShowKeyboard* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowKeyboardForOverlay ShowKeyboardForOverlay
+    OVR::OpenVR::IVROverlay::_ShowKeyboardForOverlay* _get_ShowKeyboardForOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowKeyboardForOverlay ShowKeyboardForOverlay
+    void _set_ShowKeyboardForOverlay(OVR::OpenVR::IVROverlay::_ShowKeyboardForOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetKeyboardText GetKeyboardText
+    OVR::OpenVR::IVROverlay::_GetKeyboardText* _get_GetKeyboardText();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetKeyboardText GetKeyboardText
+    void _set_GetKeyboardText(OVR::OpenVR::IVROverlay::_GetKeyboardText* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._HideKeyboard HideKeyboard
+    OVR::OpenVR::IVROverlay::_HideKeyboard* _get_HideKeyboard();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._HideKeyboard HideKeyboard
+    void _set_HideKeyboard(OVR::OpenVR::IVROverlay::_HideKeyboard* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetKeyboardTransformAbsolute SetKeyboardTransformAbsolute
+    OVR::OpenVR::IVROverlay::_SetKeyboardTransformAbsolute* _get_SetKeyboardTransformAbsolute();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetKeyboardTransformAbsolute SetKeyboardTransformAbsolute
+    void _set_SetKeyboardTransformAbsolute(OVR::OpenVR::IVROverlay::_SetKeyboardTransformAbsolute* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetKeyboardPositionForOverlay SetKeyboardPositionForOverlay
+    OVR::OpenVR::IVROverlay::_SetKeyboardPositionForOverlay* _get_SetKeyboardPositionForOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetKeyboardPositionForOverlay SetKeyboardPositionForOverlay
+    void _set_SetKeyboardPositionForOverlay(OVR::OpenVR::IVROverlay::_SetKeyboardPositionForOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayIntersectionMask SetOverlayIntersectionMask
+    OVR::OpenVR::IVROverlay::_SetOverlayIntersectionMask* _get_SetOverlayIntersectionMask();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._SetOverlayIntersectionMask SetOverlayIntersectionMask
+    void _set_SetOverlayIntersectionMask(OVR::OpenVR::IVROverlay::_SetOverlayIntersectionMask* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayFlags GetOverlayFlags
+    OVR::OpenVR::IVROverlay::_GetOverlayFlags* _get_GetOverlayFlags();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayFlags GetOverlayFlags
+    void _set_GetOverlayFlags(OVR::OpenVR::IVROverlay::_GetOverlayFlags* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowMessageOverlay ShowMessageOverlay
+    OVR::OpenVR::IVROverlay::_ShowMessageOverlay* _get_ShowMessageOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowMessageOverlay ShowMessageOverlay
+    void _set_ShowMessageOverlay(OVR::OpenVR::IVROverlay::_ShowMessageOverlay* value);
+    // Get instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._CloseMessageOverlay CloseMessageOverlay
+    OVR::OpenVR::IVROverlay::_CloseMessageOverlay* _get_CloseMessageOverlay();
+    // Set instance field: OVR.OpenVR.IVROverlay/OVR.OpenVR._CloseMessageOverlay CloseMessageOverlay
+    void _set_CloseMessageOverlay(OVR::OpenVR::IVROverlay::_CloseMessageOverlay* value);
   }; // OVR.OpenVR.IVROverlay
   #pragma pack(pop)
   static check_size<sizeof(IVROverlay), 648 + sizeof(OVR::OpenVR::IVROverlay::_CloseMessageOverlay*)> __OVR_OpenVR_IVROverlaySizeCheck;

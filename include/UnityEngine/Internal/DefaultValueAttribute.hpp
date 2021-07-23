@@ -32,6 +32,10 @@ namespace UnityEngine::Internal {
     constexpr operator ::Il2CppObject*() const noexcept {
       return DefaultValue;
     }
+    // Get instance field: private System.Object DefaultValue
+    ::Il2CppObject* _get_DefaultValue();
+    // Set instance field: private System.Object DefaultValue
+    void _set_DefaultValue(::Il2CppObject* value);
     // public System.Object get_Value()
     // Offset: 0x1BEE938
     ::Il2CppObject* get_Value();

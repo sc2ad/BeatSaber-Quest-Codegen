@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     SetApplicationVersionText(TMPro::TextMeshPro* versionText_ = {}) noexcept : versionText{versionText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshPro _versionText
+    TMPro::TextMeshPro* _get__versionText();
+    // Set instance field: private TMPro.TextMeshPro _versionText
+    void _set__versionText(TMPro::TextMeshPro* value);
     // protected System.Void Start()
     // Offset: 0x105233C
     void Start();

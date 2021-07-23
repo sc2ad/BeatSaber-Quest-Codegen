@@ -96,6 +96,46 @@ namespace UnityEngine::UI {
     static_assert(sizeof(UnityEngine::Rendering::ColorWriteMask) == 0x4);
     // Creating value type constructor for type: MatEntry
     MatEntry(UnityEngine::Material* baseMat_ = {}, UnityEngine::Material* customMat_ = {}, int count_ = {}, int stencilId_ = {}, UnityEngine::Rendering::StencilOp operation_ = {}, UnityEngine::Rendering::CompareFunction compareFunction_ = {}, int readMask_ = {}, int writeMask_ = {}, bool useAlphaClip_ = {}, UnityEngine::Rendering::ColorWriteMask colorMask_ = {}) noexcept : baseMat{baseMat_}, customMat{customMat_}, count{count_}, stencilId{stencilId_}, operation{operation_}, compareFunction{compareFunction_}, readMask{readMask_}, writeMask{writeMask_}, useAlphaClip{useAlphaClip_}, colorMask{colorMask_} {}
+    // Get instance field: public UnityEngine.Material baseMat
+    UnityEngine::Material* _get_baseMat();
+    // Set instance field: public UnityEngine.Material baseMat
+    void _set_baseMat(UnityEngine::Material* value);
+    // Get instance field: public UnityEngine.Material customMat
+    UnityEngine::Material* _get_customMat();
+    // Set instance field: public UnityEngine.Material customMat
+    void _set_customMat(UnityEngine::Material* value);
+    // Get instance field: public System.Int32 count
+    int _get_count();
+    // Set instance field: public System.Int32 count
+    void _set_count(int value);
+    // Get instance field: public System.Int32 stencilId
+    int _get_stencilId();
+    // Set instance field: public System.Int32 stencilId
+    void _set_stencilId(int value);
+    // Get instance field: public UnityEngine.Rendering.StencilOp operation
+    UnityEngine::Rendering::StencilOp _get_operation();
+    // Set instance field: public UnityEngine.Rendering.StencilOp operation
+    void _set_operation(UnityEngine::Rendering::StencilOp value);
+    // Get instance field: public UnityEngine.Rendering.CompareFunction compareFunction
+    UnityEngine::Rendering::CompareFunction _get_compareFunction();
+    // Set instance field: public UnityEngine.Rendering.CompareFunction compareFunction
+    void _set_compareFunction(UnityEngine::Rendering::CompareFunction value);
+    // Get instance field: public System.Int32 readMask
+    int _get_readMask();
+    // Set instance field: public System.Int32 readMask
+    void _set_readMask(int value);
+    // Get instance field: public System.Int32 writeMask
+    int _get_writeMask();
+    // Set instance field: public System.Int32 writeMask
+    void _set_writeMask(int value);
+    // Get instance field: public System.Boolean useAlphaClip
+    bool _get_useAlphaClip();
+    // Set instance field: public System.Boolean useAlphaClip
+    void _set_useAlphaClip(bool value);
+    // Get instance field: public UnityEngine.Rendering.ColorWriteMask colorMask
+    UnityEngine::Rendering::ColorWriteMask _get_colorMask();
+    // Set instance field: public UnityEngine.Rendering.ColorWriteMask colorMask
+    void _set_colorMask(UnityEngine::Rendering::ColorWriteMask value);
     // public System.Void .ctor()
     // Offset: 0x2370F18
     // Implemented from: System.Object

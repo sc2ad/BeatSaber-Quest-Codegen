@@ -56,6 +56,14 @@ namespace NUnit::Framework::Internal {
     operator NUnit::Framework::Interfaces::IParameterInfo() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterInfo*>(this);
     }
+    // Get instance field: private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
+    NUnit::Framework::Interfaces::IMethodInfo* _get_$Method$k__BackingField();
+    // Set instance field: private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
+    void _set_$Method$k__BackingField(NUnit::Framework::Interfaces::IMethodInfo* value);
+    // Get instance field: private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
+    System::Reflection::ParameterInfo* _get_$ParameterInfo$k__BackingField();
+    // Set instance field: private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
+    void _set_$ParameterInfo$k__BackingField(System::Reflection::ParameterInfo* value);
     // public System.Boolean get_IsOptional()
     // Offset: 0x223B4D0
     bool get_IsOptional();

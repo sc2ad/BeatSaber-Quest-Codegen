@@ -105,6 +105,10 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::GraphicRaycaster::BlockingObjects _get_All();
       // Set static field: static public UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.BlockingObjects All
       static void _set_All(UnityEngine::UI::GraphicRaycaster::BlockingObjects value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.BlockingObjects
     #pragma pack(pop)
     static check_size<sizeof(GraphicRaycaster::BlockingObjects), 0 + sizeof(int)> __UnityEngine_UI_GraphicRaycaster_BlockingObjectsSizeCheck;
@@ -157,6 +161,26 @@ namespace UnityEngine::UI {
     static System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* _get_s_SortedGraphics();
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_SortedGraphics
     static void _set_s_SortedGraphics(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* value);
+    // Get instance field: private System.Boolean m_IgnoreReversedGraphics
+    bool _get_m_IgnoreReversedGraphics();
+    // Set instance field: private System.Boolean m_IgnoreReversedGraphics
+    void _set_m_IgnoreReversedGraphics(bool value);
+    // Get instance field: private UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.BlockingObjects m_BlockingObjects
+    UnityEngine::UI::GraphicRaycaster::BlockingObjects _get_m_BlockingObjects();
+    // Set instance field: private UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.BlockingObjects m_BlockingObjects
+    void _set_m_BlockingObjects(UnityEngine::UI::GraphicRaycaster::BlockingObjects value);
+    // Get instance field: protected UnityEngine.LayerMask m_BlockingMask
+    UnityEngine::LayerMask _get_m_BlockingMask();
+    // Set instance field: protected UnityEngine.LayerMask m_BlockingMask
+    void _set_m_BlockingMask(UnityEngine::LayerMask value);
+    // Get instance field: private UnityEngine.Canvas m_Canvas
+    UnityEngine::Canvas* _get_m_Canvas();
+    // Set instance field: private UnityEngine.Canvas m_Canvas
+    void _set_m_Canvas(UnityEngine::Canvas* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Graphic> m_RaycastResults
+    System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* _get_m_RaycastResults();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Graphic> m_RaycastResults
+    void _set_m_RaycastResults(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* value);
     // public System.Boolean get_ignoreReversedGraphics()
     // Offset: 0x18E9514
     bool get_ignoreReversedGraphics();

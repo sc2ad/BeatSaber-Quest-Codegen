@@ -49,6 +49,10 @@ namespace Valve::VR {
     static Valve::VR::EVRNotificationType _get_Transient_SystemWithUserValue();
     // Set static field: static public Valve.VR.EVRNotificationType Transient_SystemWithUserValue
     static void _set_Transient_SystemWithUserValue(Valve::VR::EVRNotificationType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRNotificationType
   #pragma pack(pop)
   static check_size<sizeof(EVRNotificationType), 0 + sizeof(int)> __Valve_VR_EVRNotificationTypeSizeCheck;

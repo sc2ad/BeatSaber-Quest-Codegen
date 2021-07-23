@@ -92,6 +92,34 @@ namespace UnityEngine::ProBuilder {
     static ::Il2CppString* _get_DefaultStringFormat();
     // Set static field: static public System.String DefaultStringFormat
     static void _set_DefaultStringFormat(::Il2CppString* value);
+    // Get instance field: private System.Int32 m_Major
+    int _get_m_Major();
+    // Set instance field: private System.Int32 m_Major
+    void _set_m_Major(int value);
+    // Get instance field: private System.Int32 m_Minor
+    int _get_m_Minor();
+    // Set instance field: private System.Int32 m_Minor
+    void _set_m_Minor(int value);
+    // Get instance field: private System.Int32 m_Patch
+    int _get_m_Patch();
+    // Set instance field: private System.Int32 m_Patch
+    void _set_m_Patch(int value);
+    // Get instance field: private System.Int32 m_Build
+    int _get_m_Build();
+    // Set instance field: private System.Int32 m_Build
+    void _set_m_Build(int value);
+    // Get instance field: private System.String m_Type
+    ::Il2CppString* _get_m_Type();
+    // Set instance field: private System.String m_Type
+    void _set_m_Type(::Il2CppString* value);
+    // Get instance field: private System.String m_Metadata
+    ::Il2CppString* _get_m_Metadata();
+    // Set instance field: private System.String m_Metadata
+    void _set_m_Metadata(::Il2CppString* value);
+    // Get instance field: private System.String m_Date
+    ::Il2CppString* _get_m_Date();
+    // Set instance field: private System.String m_Date
+    void _set_m_Date(::Il2CppString* value);
     // public System.Int32 get_major()
     // Offset: 0x14C0C34
     int get_major();

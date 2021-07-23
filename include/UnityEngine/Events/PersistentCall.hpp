@@ -82,6 +82,26 @@ namespace UnityEngine::Events {
     static_assert(sizeof(UnityEngine::Events::UnityEventCallState) == 0x4);
     // Creating value type constructor for type: PersistentCall
     PersistentCall(UnityEngine::Object* m_Target_ = {}, ::Il2CppString* m_MethodName_ = {}, UnityEngine::Events::PersistentListenerMode m_Mode_ = {}, UnityEngine::Events::ArgumentCache* m_Arguments_ = {}, UnityEngine::Events::UnityEventCallState m_CallState_ = {}) noexcept : m_Target{m_Target_}, m_MethodName{m_MethodName_}, m_Mode{m_Mode_}, m_Arguments{m_Arguments_}, m_CallState{m_CallState_} {}
+    // Get instance field: private UnityEngine.Object m_Target
+    UnityEngine::Object* _get_m_Target();
+    // Set instance field: private UnityEngine.Object m_Target
+    void _set_m_Target(UnityEngine::Object* value);
+    // Get instance field: private System.String m_MethodName
+    ::Il2CppString* _get_m_MethodName();
+    // Set instance field: private System.String m_MethodName
+    void _set_m_MethodName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Events.PersistentListenerMode m_Mode
+    UnityEngine::Events::PersistentListenerMode _get_m_Mode();
+    // Set instance field: private UnityEngine.Events.PersistentListenerMode m_Mode
+    void _set_m_Mode(UnityEngine::Events::PersistentListenerMode value);
+    // Get instance field: private UnityEngine.Events.ArgumentCache m_Arguments
+    UnityEngine::Events::ArgumentCache* _get_m_Arguments();
+    // Set instance field: private UnityEngine.Events.ArgumentCache m_Arguments
+    void _set_m_Arguments(UnityEngine::Events::ArgumentCache* value);
+    // Get instance field: private UnityEngine.Events.UnityEventCallState m_CallState
+    UnityEngine::Events::UnityEventCallState _get_m_CallState();
+    // Set instance field: private UnityEngine.Events.UnityEventCallState m_CallState
+    void _set_m_CallState(UnityEngine::Events::UnityEventCallState value);
     // public UnityEngine.Object get_target()
     // Offset: 0x1BE7190
     UnityEngine::Object* get_target();

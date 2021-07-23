@@ -131,6 +131,54 @@ namespace GlobalNamespace {
     PauseController(GlobalNamespace::PauseMenuManager* pauseMenuManager_ = {}, GlobalNamespace::IGamePause* gamePause_ = {}, GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::ILevelRestartController* levelRestartController_ = {}, GlobalNamespace::IReturnToMenuController* returnToMenuController_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, System::Action* didPauseEvent_ = {}, System::Action* didResumeEvent_ = {}, System::Action_1<System::Action_1<bool>*>* canPauseEvent_ = {}, System::Action* didReturnToMenuEvent_ = {}, bool paused_ = {}) noexcept : pauseMenuManager{pauseMenuManager_}, gamePause{gamePause_}, menuButtonTrigger{menuButtonTrigger_}, beatmapObjectManager{beatmapObjectManager_}, levelRestartController{levelRestartController_}, returnToMenuController{returnToMenuController_}, vrPlatformHelper{vrPlatformHelper_}, didPauseEvent{didPauseEvent_}, didResumeEvent{didResumeEvent_}, canPauseEvent{canPauseEvent_}, didReturnToMenuEvent{didReturnToMenuEvent_}, paused{paused_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly PauseMenuManager _pauseMenuManager
+    GlobalNamespace::PauseMenuManager* _get__pauseMenuManager();
+    // Set instance field: private readonly PauseMenuManager _pauseMenuManager
+    void _set__pauseMenuManager(GlobalNamespace::PauseMenuManager* value);
+    // Get instance field: private readonly IGamePause _gamePause
+    GlobalNamespace::IGamePause* _get__gamePause();
+    // Set instance field: private readonly IGamePause _gamePause
+    void _set__gamePause(GlobalNamespace::IGamePause* value);
+    // Get instance field: private readonly IMenuButtonTrigger _menuButtonTrigger
+    GlobalNamespace::IMenuButtonTrigger* _get__menuButtonTrigger();
+    // Set instance field: private readonly IMenuButtonTrigger _menuButtonTrigger
+    void _set__menuButtonTrigger(GlobalNamespace::IMenuButtonTrigger* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private readonly ILevelRestartController _levelRestartController
+    GlobalNamespace::ILevelRestartController* _get__levelRestartController();
+    // Set instance field: private readonly ILevelRestartController _levelRestartController
+    void _set__levelRestartController(GlobalNamespace::ILevelRestartController* value);
+    // Get instance field: private readonly IReturnToMenuController _returnToMenuController
+    GlobalNamespace::IReturnToMenuController* _get__returnToMenuController();
+    // Set instance field: private readonly IReturnToMenuController _returnToMenuController
+    void _set__returnToMenuController(GlobalNamespace::IReturnToMenuController* value);
+    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
+    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field: private System.Action didPauseEvent
+    System::Action* _get_didPauseEvent();
+    // Set instance field: private System.Action didPauseEvent
+    void _set_didPauseEvent(System::Action* value);
+    // Get instance field: private System.Action didResumeEvent
+    System::Action* _get_didResumeEvent();
+    // Set instance field: private System.Action didResumeEvent
+    void _set_didResumeEvent(System::Action* value);
+    // Get instance field: private System.Action`1<System.Action`1<System.Boolean>> canPauseEvent
+    System::Action_1<System::Action_1<bool>*>* _get_canPauseEvent();
+    // Set instance field: private System.Action`1<System.Action`1<System.Boolean>> canPauseEvent
+    void _set_canPauseEvent(System::Action_1<System::Action_1<bool>*>* value);
+    // Get instance field: private System.Action didReturnToMenuEvent
+    System::Action* _get_didReturnToMenuEvent();
+    // Set instance field: private System.Action didReturnToMenuEvent
+    void _set_didReturnToMenuEvent(System::Action* value);
+    // Get instance field: private System.Boolean _paused
+    bool _get__paused();
+    // Set instance field: private System.Boolean _paused
+    void _set__paused(bool value);
     // private System.Boolean get_canPause()
     // Offset: 0x1000F38
     bool get_canPause();

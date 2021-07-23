@@ -42,6 +42,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVRDriverManager/Valve.VR._GetDriverCount GetDriverCount
+    Valve::VR::IVRDriverManager::_GetDriverCount* _get_GetDriverCount();
+    // Set instance field: Valve.VR.IVRDriverManager/Valve.VR._GetDriverCount GetDriverCount
+    void _set_GetDriverCount(Valve::VR::IVRDriverManager::_GetDriverCount* value);
+    // Get instance field: Valve.VR.IVRDriverManager/Valve.VR._GetDriverName GetDriverName
+    Valve::VR::IVRDriverManager::_GetDriverName* _get_GetDriverName();
+    // Set instance field: Valve.VR.IVRDriverManager/Valve.VR._GetDriverName GetDriverName
+    void _set_GetDriverName(Valve::VR::IVRDriverManager::_GetDriverName* value);
   }; // Valve.VR.IVRDriverManager
   #pragma pack(pop)
   static check_size<sizeof(IVRDriverManager), 8 + sizeof(Valve::VR::IVRDriverManager::_GetDriverName*)> __Valve_VR_IVRDriverManagerSizeCheck;

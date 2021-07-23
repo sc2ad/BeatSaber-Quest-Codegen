@@ -307,6 +307,10 @@ namespace System {
     static System::ExceptionResource _get_Argument_InvalidRegistryViewCheck();
     // Set static field: static public System.ExceptionResource Argument_InvalidRegistryViewCheck
     static void _set_Argument_InvalidRegistryViewCheck(System::ExceptionResource value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.ExceptionResource
   #pragma pack(pop)
   static check_size<sizeof(ExceptionResource), 0 + sizeof(int)> __System_ExceptionResourceSizeCheck;

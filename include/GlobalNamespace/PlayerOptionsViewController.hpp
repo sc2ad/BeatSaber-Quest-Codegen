@@ -66,6 +66,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<HMUI::ViewController*>*) == 0x8);
     // Creating value type constructor for type: PlayerOptionsViewController
     PlayerOptionsViewController(GlobalNamespace::PlayerSettingsPanelController* playerSettingsPanelController_ = {}, UnityEngine::UI::Button* okButton_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Action_1<HMUI::ViewController*>* didFinishEvent_ = {}) noexcept : playerSettingsPanelController{playerSettingsPanelController_}, okButton{okButton_}, playerDataModel{playerDataModel_}, didFinishEvent{didFinishEvent_} {}
+    // Get instance field: private PlayerSettingsPanelController _playerSettingsPanelController
+    GlobalNamespace::PlayerSettingsPanelController* _get__playerSettingsPanelController();
+    // Set instance field: private PlayerSettingsPanelController _playerSettingsPanelController
+    void _set__playerSettingsPanelController(GlobalNamespace::PlayerSettingsPanelController* value);
+    // Get instance field: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button* _get__okButton();
+    // Set instance field: private UnityEngine.UI.Button _okButton
+    void _set__okButton(UnityEngine::UI::Button* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private System.Action`1<HMUI.ViewController> didFinishEvent
+    System::Action_1<HMUI::ViewController*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`1<HMUI.ViewController> didFinishEvent
+    void _set_didFinishEvent(System::Action_1<HMUI::ViewController*>* value);
     // public System.Void add_didFinishEvent(System.Action`1<HMUI.ViewController> value)
     // Offset: 0x110576C
     void add_didFinishEvent(System::Action_1<HMUI::ViewController*>* value);

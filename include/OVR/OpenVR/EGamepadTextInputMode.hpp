@@ -49,6 +49,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EGamepadTextInputMode _get_k_EGamepadTextInputModeSubmit();
     // Set static field: static public OVR.OpenVR.EGamepadTextInputMode k_EGamepadTextInputModeSubmit
     static void _set_k_EGamepadTextInputModeSubmit(OVR::OpenVR::EGamepadTextInputMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EGamepadTextInputMode
   #pragma pack(pop)
   static check_size<sizeof(EGamepadTextInputMode), 0 + sizeof(int)> __OVR_OpenVR_EGamepadTextInputModeSizeCheck;

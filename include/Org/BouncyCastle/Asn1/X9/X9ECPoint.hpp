@@ -55,6 +55,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
     // Creating value type constructor for type: X9ECPoint
     X9ECPoint(Org::BouncyCastle::Asn1::Asn1OctetString* encoding_ = {}, Org::BouncyCastle::Math::EC::ECCurve* c_ = {}, Org::BouncyCastle::Math::EC::ECPoint* p_ = {}) noexcept : encoding{encoding_}, c{c_}, p{p_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString encoding
+    Org::BouncyCastle::Asn1::Asn1OctetString* _get_encoding();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString encoding
+    void _set_encoding(Org::BouncyCastle::Asn1::Asn1OctetString* value);
+    // Get instance field: private Org.BouncyCastle.Math.EC.ECCurve c
+    Org::BouncyCastle::Math::EC::ECCurve* _get_c();
+    // Set instance field: private Org.BouncyCastle.Math.EC.ECCurve c
+    void _set_c(Org::BouncyCastle::Math::EC::ECCurve* value);
+    // Get instance field: private Org.BouncyCastle.Math.EC.ECPoint p
+    Org::BouncyCastle::Math::EC::ECPoint* _get_p();
+    // Set instance field: private Org.BouncyCastle.Math.EC.ECPoint p
+    void _set_p(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Point()
     // Offset: 0x19E3C5C
     Org::BouncyCastle::Math::EC::ECPoint* get_Point();

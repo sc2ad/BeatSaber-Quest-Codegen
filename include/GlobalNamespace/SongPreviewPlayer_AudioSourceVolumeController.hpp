@@ -46,6 +46,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: AudioSourceVolumeController
     AudioSourceVolumeController(UnityEngine::AudioSource* audioSource_ = {}, float maxVolume_ = {}, float volume_ = {}) noexcept : audioSource{audioSource_}, maxVolume{maxVolume_}, volume{volume_} {}
+    // Get instance field: public readonly UnityEngine.AudioSource audioSource
+    UnityEngine::AudioSource* _get_audioSource();
+    // Set instance field: public readonly UnityEngine.AudioSource audioSource
+    void _set_audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private System.Single <maxVolume>k__BackingField
+    float _get_$maxVolume$k__BackingField();
+    // Set instance field: private System.Single <maxVolume>k__BackingField
+    void _set_$maxVolume$k__BackingField(float value);
+    // Get instance field: private System.Single _volume
+    float _get__volume();
+    // Set instance field: private System.Single _volume
+    void _set__volume(float value);
     // public System.Single get_volume()
     // Offset: 0x105C40C
     float get_volume();

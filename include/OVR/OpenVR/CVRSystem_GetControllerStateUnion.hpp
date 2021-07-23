@@ -37,6 +37,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerState pGetControllerState
+    OVR::OpenVR::IVRSystem::_GetControllerState* _get_pGetControllerState();
+    // Set instance field: public OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerState pGetControllerState
+    void _set_pGetControllerState(OVR::OpenVR::IVRSystem::_GetControllerState* value);
+    // Get instance field: public OVR.OpenVR.CVRSystem/OVR.OpenVR._GetControllerStatePacked pGetControllerStatePacked
+    OVR::OpenVR::CVRSystem::_GetControllerStatePacked* _get_pGetControllerStatePacked();
+    // Set instance field: public OVR.OpenVR.CVRSystem/OVR.OpenVR._GetControllerStatePacked pGetControllerStatePacked
+    void _set_pGetControllerStatePacked(OVR::OpenVR::CVRSystem::_GetControllerStatePacked* value);
   }; // OVR.OpenVR.CVRSystem/OVR.OpenVR.GetControllerStateUnion
   // WARNING Not writing size check since size may be invalid!
 }

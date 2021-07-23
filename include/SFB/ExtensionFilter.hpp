@@ -43,6 +43,14 @@ namespace SFB {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public readonly System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: public readonly System.String _name
+    void _set__name(::Il2CppString* value);
+    // Get instance field: public readonly System.String[] _extensions
+    ::Array<::Il2CppString*>* _get__extensions();
+    // Set instance field: public readonly System.String[] _extensions
+    void _set__extensions(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
     // Offset: 0xED1380
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

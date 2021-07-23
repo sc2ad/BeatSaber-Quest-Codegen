@@ -31,6 +31,14 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AccessToken
     AccessToken(::Il2CppString* token_ = {}, ::Il2CppString* expiration_ = {}) noexcept : token{token_}, expiration{expiration_} {}
+    // Get instance field: public System.String token
+    ::Il2CppString* _get_token();
+    // Set instance field: public System.String token
+    void _set_token(::Il2CppString* value);
+    // Get instance field: public System.String expiration
+    ::Il2CppString* _get_expiration();
+    // Set instance field: public System.String expiration
+    void _set_expiration(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x11885F8
     // Implemented from: System.Object

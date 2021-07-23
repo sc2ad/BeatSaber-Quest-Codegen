@@ -44,6 +44,10 @@ namespace Zenject {
     SubContainerCreatorByNewGameObjectDynamicContext(Zenject::GameObjectCreationParameters* gameObjectBindInfo_ = {}) noexcept : gameObjectBindInfo{gameObjectBindInfo_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
+    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
+    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo)
     // Offset: 0x16D2618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

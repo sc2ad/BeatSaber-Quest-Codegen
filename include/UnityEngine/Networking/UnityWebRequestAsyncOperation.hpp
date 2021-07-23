@@ -43,6 +43,10 @@ namespace UnityEngine::Networking {
     constexpr operator UnityEngine::Networking::UnityWebRequest*() const noexcept {
       return webRequest;
     }
+    // Get instance field: private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField
+    UnityEngine::Networking::UnityWebRequest* _get_$webRequest$k__BackingField();
+    // Set instance field: private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField
+    void _set_$webRequest$k__BackingField(UnityEngine::Networking::UnityWebRequest* value);
     // public UnityEngine.Networking.UnityWebRequest get_webRequest()
     // Offset: 0x23A05D8
     UnityEngine::Networking::UnityWebRequest* get_webRequest();

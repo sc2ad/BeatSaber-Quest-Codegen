@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PointLight*) == 0x8);
     // Creating value type constructor for type: PointLightWithIds
     PointLightWithIds(GlobalNamespace::PointLight* pointLight_ = {}) noexcept : pointLight{pointLight_} {}
+    // Get instance field: private PointLight _pointLight
+    GlobalNamespace::PointLight* _get__pointLight();
+    // Set instance field: private PointLight _pointLight
+    void _set__pointLight(GlobalNamespace::PointLight* value);
     // public System.Void .ctor()
     // Offset: 0x1DF837C
     // Implemented from: RuntimeLightWithIds

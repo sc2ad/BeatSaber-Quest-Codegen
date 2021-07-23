@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*) == 0x8);
     // Creating value type constructor for type: LightsDataItem
     LightsDataItem(GlobalNamespace::BloomPrePassLightTypeSO* lightType_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights_ = {}) noexcept : lightType{lightType_}, lights{lights_} {}
+    // Get instance field: public readonly BloomPrePassLightTypeSO lightType
+    GlobalNamespace::BloomPrePassLightTypeSO* _get_lightType();
+    // Set instance field: public readonly BloomPrePassLightTypeSO lightType
+    void _set_lightType(GlobalNamespace::BloomPrePassLightTypeSO* value);
+    // Get instance field: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights
+    System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* _get_lights();
+    // Set instance field: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights
+    void _set_lights(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* value);
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
     // Offset: 0x1DEDD70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

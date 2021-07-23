@@ -56,6 +56,26 @@ namespace Oculus::Platform {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 sType
+    int _get_sType();
+    // Set instance field: public System.Int32 sType
+    void _set_sType(int value);
+    // Get instance field: public System.String email
+    ::Il2CppString* _get_email();
+    // Set instance field: public System.String email
+    void _set_email(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public System.UInt64 appId
+    uint64_t _get_appId();
+    // Set instance field: public System.UInt64 appId
+    void _set_appId(uint64_t value);
+    // Get instance field: public System.String uriPrefixOverride
+    ::Il2CppString* _get_uriPrefixOverride();
+    // Set instance field: public System.String uriPrefixOverride
+    void _set_uriPrefixOverride(::Il2CppString* value);
   }; // Oculus.Platform.CAPI/Oculus.Platform.OculusInitParams
   #pragma pack(pop)
   static check_size<sizeof(CAPI::OculusInitParams), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_CAPI_OculusInitParamsSizeCheck;

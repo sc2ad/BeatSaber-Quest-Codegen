@@ -71,6 +71,30 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<uint64_t>* _get_KeccakRoundConstants();
     // Set static field: static private readonly System.UInt64[] KeccakRoundConstants
     static void _set_KeccakRoundConstants(::Array<uint64_t>* value);
+    // Get instance field: private System.UInt64[] state
+    ::Array<uint64_t>* _get_state();
+    // Set instance field: private System.UInt64[] state
+    void _set_state(::Array<uint64_t>* value);
+    // Get instance field: protected System.Byte[] dataQueue
+    ::Array<uint8_t>* _get_dataQueue();
+    // Set instance field: protected System.Byte[] dataQueue
+    void _set_dataQueue(::Array<uint8_t>* value);
+    // Get instance field: protected System.Int32 rate
+    int _get_rate();
+    // Set instance field: protected System.Int32 rate
+    void _set_rate(int value);
+    // Get instance field: protected System.Int32 bitsInQueue
+    int _get_bitsInQueue();
+    // Set instance field: protected System.Int32 bitsInQueue
+    void _set_bitsInQueue(int value);
+    // Get instance field: protected System.Int32 fixedOutputLength
+    int _get_fixedOutputLength();
+    // Set instance field: protected System.Int32 fixedOutputLength
+    void _set_fixedOutputLength(int value);
+    // Get instance field: protected System.Boolean squeezing
+    bool _get_squeezing();
+    // Set instance field: protected System.Boolean squeezing
+    void _set_squeezing(bool value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1D0A8DC
     ::Il2CppString* get_AlgorithmName();

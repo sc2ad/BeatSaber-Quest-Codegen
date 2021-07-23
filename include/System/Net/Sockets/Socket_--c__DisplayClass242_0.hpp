@@ -39,6 +39,10 @@ namespace System::Net::Sockets {
     constexpr operator int() const noexcept {
       return sent_so_far;
     }
+    // Get instance field: public System.Int32 sent_so_far
+    int _get_sent_so_far();
+    // Set instance field: public System.Int32 sent_so_far
+    void _set_sent_so_far(int value);
     // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
     // Offset: 0x158BF84
     void $BeginSendCallback$b__0(System::IOAsyncResult* s);

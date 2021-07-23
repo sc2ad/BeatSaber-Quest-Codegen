@@ -61,6 +61,10 @@ namespace Valve::VR {
     static Valve::VR::EVRNotificationStyle _get_Contact_Active();
     // Set static field: static public Valve.VR.EVRNotificationStyle Contact_Active
     static void _set_Contact_Active(Valve::VR::EVRNotificationStyle value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRNotificationStyle
   #pragma pack(pop)
   static check_size<sizeof(EVRNotificationStyle), 0 + sizeof(int)> __Valve_VR_EVRNotificationStyleSizeCheck;

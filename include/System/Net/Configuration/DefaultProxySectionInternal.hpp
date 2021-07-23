@@ -40,6 +40,10 @@ namespace System::Net::Configuration {
     static ::Il2CppObject* _get_classSyncObject();
     // Set static field: static private System.Object classSyncObject
     static void _set_classSyncObject(::Il2CppObject* value);
+    // Get instance field: private System.Net.IWebProxy webProxy
+    System::Net::IWebProxy* _get_webProxy();
+    // Set instance field: private System.Net.IWebProxy webProxy
+    void _set_webProxy(System::Net::IWebProxy* value);
     // static System.Object get_ClassSyncObject()
     // Offset: 0x1694C7C
     static ::Il2CppObject* get_ClassSyncObject();

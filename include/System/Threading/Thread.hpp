@@ -161,6 +161,38 @@ namespace System::Threading {
     static System::Threading::Thread* _get_current_thread();
     // Set static field: static private System.Threading.Thread current_thread
     static void _set_current_thread(System::Threading::Thread* value);
+    // Get instance field: private System.Threading.InternalThread internal_thread
+    System::Threading::InternalThread* _get_internal_thread();
+    // Set instance field: private System.Threading.InternalThread internal_thread
+    void _set_internal_thread(System::Threading::InternalThread* value);
+    // Get instance field: private System.Object m_ThreadStartArg
+    ::Il2CppObject* _get_m_ThreadStartArg();
+    // Set instance field: private System.Object m_ThreadStartArg
+    void _set_m_ThreadStartArg(::Il2CppObject* value);
+    // Get instance field: private System.Object pending_exception
+    ::Il2CppObject* _get_pending_exception();
+    // Set instance field: private System.Object pending_exception
+    void _set_pending_exception(::Il2CppObject* value);
+    // Get instance field: private System.Security.Principal.IPrincipal principal
+    System::Security::Principal::IPrincipal* _get_principal();
+    // Set instance field: private System.Security.Principal.IPrincipal principal
+    void _set_principal(System::Security::Principal::IPrincipal* value);
+    // Get instance field: private System.Int32 principal_version
+    int _get_principal_version();
+    // Set instance field: private System.Int32 principal_version
+    void _set_principal_version(int value);
+    // Get instance field: private System.MulticastDelegate m_Delegate
+    System::MulticastDelegate* _get_m_Delegate();
+    // Set instance field: private System.MulticastDelegate m_Delegate
+    void _set_m_Delegate(System::MulticastDelegate* value);
+    // Get instance field: private System.Threading.ExecutionContext m_ExecutionContext
+    System::Threading::ExecutionContext* _get_m_ExecutionContext();
+    // Set instance field: private System.Threading.ExecutionContext m_ExecutionContext
+    void _set_m_ExecutionContext(System::Threading::ExecutionContext* value);
+    // Get instance field: private System.Boolean m_ExecutionContextBelongsToOuterScope
+    bool _get_m_ExecutionContextBelongsToOuterScope();
+    // Set instance field: private System.Boolean m_ExecutionContextBelongsToOuterScope
+    void _set_m_ExecutionContextBelongsToOuterScope(bool value);
     // System.Boolean get_ExecutionContextBelongsToCurrentScope()
     // Offset: 0x1889DB4
     bool get_ExecutionContextBelongsToCurrentScope();

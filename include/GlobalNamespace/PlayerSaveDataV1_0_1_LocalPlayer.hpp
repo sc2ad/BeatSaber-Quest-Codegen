@@ -91,6 +91,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*) == 0x8);
     // Creating value type constructor for type: LocalPlayer
     LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* achievementsData_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, achievementsData{achievementsData_} {}
+    // Get instance field: public System.String playerId
+    ::Il2CppString* _get_playerId();
+    // Set instance field: public System.String playerId
+    void _set_playerId(::Il2CppString* value);
+    // Get instance field: public System.String playerName
+    ::Il2CppString* _get_playerName();
+    // Set instance field: public System.String playerName
+    void _set_playerName(::Il2CppString* value);
+    // Get instance field: public System.Boolean shouldShowTutorialPrompt
+    bool _get_shouldShowTutorialPrompt();
+    // Set instance field: public System.Boolean shouldShowTutorialPrompt
+    void _set_shouldShowTutorialPrompt(bool value);
+    // Get instance field: public PlayerSaveDataV1_0_1/GameplayModifiers gameplayModifiers
+    GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers* _get_gameplayModifiers();
+    // Set instance field: public PlayerSaveDataV1_0_1/GameplayModifiers gameplayModifiers
+    void _set_gameplayModifiers(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers* value);
+    // Get instance field: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
+    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* _get_playerSpecificSettings();
+    // Set instance field: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
+    void _set_playerSpecificSettings(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* value);
+    // Get instance field: public PlayerSaveDataV1_0_1/PlayerAllOverallStatsData playerAllOverallStatsData
+    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* _get_playerAllOverallStatsData();
+    // Set instance field: public PlayerSaveDataV1_0_1/PlayerAllOverallStatsData playerAllOverallStatsData
+    void _set_playerAllOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* value);
+    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/PlayerLevelStatsData> levelsStatsData
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>* _get_levelsStatsData();
+    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/PlayerLevelStatsData> levelsStatsData
+    void _set_levelsStatsData(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/PlayerMissionStatsData> missionsStatsData
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>* _get_missionsStatsData();
+    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/PlayerMissionStatsData> missionsStatsData
+    void _set_missionsStatsData(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_showedMissionHelpIds();
+    // Set instance field: public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
+    void _set_showedMissionHelpIds(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
+    GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* _get_achievementsData();
+    // Set instance field: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
+    void _set_achievementsData(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData* value);
     // public System.Void .ctor()
     // Offset: 0x1105FB8
     // Implemented from: System.Object

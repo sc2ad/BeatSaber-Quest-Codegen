@@ -289,6 +289,114 @@ namespace System::Globalization {
     static bool _get_IsTaiwanSku();
     // Set static field: static readonly System.Boolean IsTaiwanSku
     static void _set_IsTaiwanSku(bool value);
+    // Get instance field: private System.Boolean m_isReadOnly
+    bool _get_m_isReadOnly();
+    // Set instance field: private System.Boolean m_isReadOnly
+    void _set_m_isReadOnly(bool value);
+    // Get instance field: private System.Int32 cultureID
+    int _get_cultureID();
+    // Set instance field: private System.Int32 cultureID
+    void _set_cultureID(int value);
+    // Get instance field: private System.Int32 parent_lcid
+    int _get_parent_lcid();
+    // Set instance field: private System.Int32 parent_lcid
+    void _set_parent_lcid(int value);
+    // Get instance field: private System.Int32 datetime_index
+    int _get_datetime_index();
+    // Set instance field: private System.Int32 datetime_index
+    void _set_datetime_index(int value);
+    // Get instance field: private System.Int32 number_index
+    int _get_number_index();
+    // Set instance field: private System.Int32 number_index
+    void _set_number_index(int value);
+    // Get instance field: private System.Int32 default_calendar_type
+    int _get_default_calendar_type();
+    // Set instance field: private System.Int32 default_calendar_type
+    void _set_default_calendar_type(int value);
+    // Get instance field: private System.Boolean m_useUserOverride
+    bool _get_m_useUserOverride();
+    // Set instance field: private System.Boolean m_useUserOverride
+    void _set_m_useUserOverride(bool value);
+    // Get instance field: System.Globalization.NumberFormatInfo numInfo
+    System::Globalization::NumberFormatInfo* _get_numInfo();
+    // Set instance field: System.Globalization.NumberFormatInfo numInfo
+    void _set_numInfo(System::Globalization::NumberFormatInfo* value);
+    // Get instance field: System.Globalization.DateTimeFormatInfo dateTimeInfo
+    System::Globalization::DateTimeFormatInfo* _get_dateTimeInfo();
+    // Set instance field: System.Globalization.DateTimeFormatInfo dateTimeInfo
+    void _set_dateTimeInfo(System::Globalization::DateTimeFormatInfo* value);
+    // Get instance field: private System.Globalization.TextInfo textInfo
+    System::Globalization::TextInfo* _get_textInfo();
+    // Set instance field: private System.Globalization.TextInfo textInfo
+    void _set_textInfo(System::Globalization::TextInfo* value);
+    // Get instance field: System.String m_name
+    ::Il2CppString* _get_m_name();
+    // Set instance field: System.String m_name
+    void _set_m_name(::Il2CppString* value);
+    // Get instance field: private System.String englishname
+    ::Il2CppString* _get_englishname();
+    // Set instance field: private System.String englishname
+    void _set_englishname(::Il2CppString* value);
+    // Get instance field: private System.String nativename
+    ::Il2CppString* _get_nativename();
+    // Set instance field: private System.String nativename
+    void _set_nativename(::Il2CppString* value);
+    // Get instance field: private System.String iso3lang
+    ::Il2CppString* _get_iso3lang();
+    // Set instance field: private System.String iso3lang
+    void _set_iso3lang(::Il2CppString* value);
+    // Get instance field: private System.String iso2lang
+    ::Il2CppString* _get_iso2lang();
+    // Set instance field: private System.String iso2lang
+    void _set_iso2lang(::Il2CppString* value);
+    // Get instance field: private System.String win3lang
+    ::Il2CppString* _get_win3lang();
+    // Set instance field: private System.String win3lang
+    void _set_win3lang(::Il2CppString* value);
+    // Get instance field: private System.String territory
+    ::Il2CppString* _get_territory();
+    // Set instance field: private System.String territory
+    void _set_territory(::Il2CppString* value);
+    // Get instance field: private System.String[] native_calendar_names
+    ::Array<::Il2CppString*>* _get_native_calendar_names();
+    // Set instance field: private System.String[] native_calendar_names
+    void _set_native_calendar_names(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.Globalization.CompareInfo compareInfo
+    System::Globalization::CompareInfo* _get_compareInfo();
+    // Set instance field: private System.Globalization.CompareInfo compareInfo
+    void _set_compareInfo(System::Globalization::CompareInfo* value);
+    // Get instance field: private readonly System.Void* textinfo_data
+    void* _get_textinfo_data();
+    // Set instance field: private readonly System.Void* textinfo_data
+    void _set_textinfo_data(void* value);
+    // Get instance field: private System.Int32 m_dataItem
+    int _get_m_dataItem();
+    // Set instance field: private System.Int32 m_dataItem
+    void _set_m_dataItem(int value);
+    // Get instance field: private System.Globalization.Calendar calendar
+    System::Globalization::Calendar* _get_calendar();
+    // Set instance field: private System.Globalization.Calendar calendar
+    void _set_calendar(System::Globalization::Calendar* value);
+    // Get instance field: private System.Globalization.CultureInfo parent_culture
+    System::Globalization::CultureInfo* _get_parent_culture();
+    // Set instance field: private System.Globalization.CultureInfo parent_culture
+    void _set_parent_culture(System::Globalization::CultureInfo* value);
+    // Get instance field: private System.Boolean constructed
+    bool _get_constructed();
+    // Set instance field: private System.Boolean constructed
+    void _set_constructed(bool value);
+    // Get instance field: System.Byte[] cached_serialized_form
+    ::Array<uint8_t>* _get_cached_serialized_form();
+    // Set instance field: System.Byte[] cached_serialized_form
+    void _set_cached_serialized_form(::Array<uint8_t>* value);
+    // Get instance field: System.Globalization.CultureData m_cultureData
+    System::Globalization::CultureData* _get_m_cultureData();
+    // Set instance field: System.Globalization.CultureData m_cultureData
+    void _set_m_cultureData(System::Globalization::CultureData* value);
+    // Get instance field: System.Boolean m_isInherited
+    bool _get_m_isInherited();
+    // Set instance field: System.Boolean m_isInherited
+    void _set_m_isInherited(bool value);
     // static public System.Globalization.CultureInfo get_InvariantCulture()
     // Offset: 0x17C2FB4
     static System::Globalization::CultureInfo* get_InvariantCulture();

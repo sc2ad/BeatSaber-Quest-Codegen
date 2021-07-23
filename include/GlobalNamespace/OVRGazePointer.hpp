@@ -151,6 +151,70 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRGazePointer* _get__instance();
     // Set static field: static private OVRGazePointer _instance
     static void _set__instance(GlobalNamespace::OVRGazePointer* value);
+    // Get instance field: private UnityEngine.Transform gazeIcon
+    UnityEngine::Transform* _get_gazeIcon();
+    // Set instance field: private UnityEngine.Transform gazeIcon
+    void _set_gazeIcon(UnityEngine::Transform* value);
+    // Get instance field: public System.Boolean hideByDefault
+    bool _get_hideByDefault();
+    // Set instance field: public System.Boolean hideByDefault
+    void _set_hideByDefault(bool value);
+    // Get instance field: public System.Single showTimeoutPeriod
+    float _get_showTimeoutPeriod();
+    // Set instance field: public System.Single showTimeoutPeriod
+    void _set_showTimeoutPeriod(float value);
+    // Get instance field: public System.Single hideTimeoutPeriod
+    float _get_hideTimeoutPeriod();
+    // Set instance field: public System.Single hideTimeoutPeriod
+    void _set_hideTimeoutPeriod(float value);
+    // Get instance field: public System.Boolean dimOnHideRequest
+    bool _get_dimOnHideRequest();
+    // Set instance field: public System.Boolean dimOnHideRequest
+    void _set_dimOnHideRequest(bool value);
+    // Get instance field: public System.Single depthScaleMultiplier
+    float _get_depthScaleMultiplier();
+    // Set instance field: public System.Single depthScaleMultiplier
+    void _set_depthScaleMultiplier(float value);
+    // Get instance field: public System.Boolean matchNormalOnPhysicsColliders
+    bool _get_matchNormalOnPhysicsColliders();
+    // Set instance field: public System.Boolean matchNormalOnPhysicsColliders
+    void _set_matchNormalOnPhysicsColliders(bool value);
+    // Get instance field: public UnityEngine.Transform rayTransform
+    UnityEngine::Transform* _get_rayTransform();
+    // Set instance field: public UnityEngine.Transform rayTransform
+    void _set_rayTransform(UnityEngine::Transform* value);
+    // Get instance field: private System.Boolean <hidden>k__BackingField
+    bool _get_$hidden$k__BackingField();
+    // Set instance field: private System.Boolean <hidden>k__BackingField
+    void _set_$hidden$k__BackingField(bool value);
+    // Get instance field: private System.Single <currentScale>k__BackingField
+    float _get_$currentScale$k__BackingField();
+    // Set instance field: private System.Single <currentScale>k__BackingField
+    void _set_$currentScale$k__BackingField(float value);
+    // Get instance field: private System.Single depth
+    float _get_depth();
+    // Set instance field: private System.Single depth
+    void _set_depth(float value);
+    // Get instance field: private System.Single hideUntilTime
+    float _get_hideUntilTime();
+    // Set instance field: private System.Single hideUntilTime
+    void _set_hideUntilTime(float value);
+    // Get instance field: private System.Int32 positionSetsThisFrame
+    int _get_positionSetsThisFrame();
+    // Set instance field: private System.Int32 positionSetsThisFrame
+    void _set_positionSetsThisFrame(int value);
+    // Get instance field: private System.Single lastShowRequestTime
+    float _get_lastShowRequestTime();
+    // Set instance field: private System.Single lastShowRequestTime
+    void _set_lastShowRequestTime(float value);
+    // Get instance field: private System.Single lastHideRequestTime
+    float _get_lastHideRequestTime();
+    // Set instance field: private System.Single lastHideRequestTime
+    void _set_lastHideRequestTime(float value);
+    // Get instance field: private OVRProgressIndicator progressIndicator
+    GlobalNamespace::OVRProgressIndicator* _get_progressIndicator();
+    // Set instance field: private OVRProgressIndicator progressIndicator
+    void _set_progressIndicator(GlobalNamespace::OVRProgressIndicator* value);
     // public System.Boolean get_hidden()
     // Offset: 0x1259FAC
     bool get_hidden();

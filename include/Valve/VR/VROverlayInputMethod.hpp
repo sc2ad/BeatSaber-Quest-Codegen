@@ -49,6 +49,10 @@ namespace Valve::VR {
     static Valve::VR::VROverlayInputMethod _get_DualAnalog();
     // Set static field: static public Valve.VR.VROverlayInputMethod DualAnalog
     static void _set_DualAnalog(Valve::VR::VROverlayInputMethod value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.VROverlayInputMethod
   #pragma pack(pop)
   static check_size<sizeof(VROverlayInputMethod), 0 + sizeof(int)> __Valve_VR_VROverlayInputMethodSizeCheck;

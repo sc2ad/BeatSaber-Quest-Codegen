@@ -70,6 +70,10 @@ namespace UnityEngine::ProBuilder {
     constexpr operator ::Array<int>*() const noexcept {
       return m_Vertices;
     }
+    // Get instance field: private System.Int32[] m_Vertices
+    ::Array<int>* _get_m_Vertices();
+    // Set instance field: private System.Int32[] m_Vertices
+    void _set_m_Vertices(::Array<int>* value);
     // System.Int32[] get_arrayInternal()
     // Offset: 0x22A4E2C
     ::Array<int>* get_arrayInternal();

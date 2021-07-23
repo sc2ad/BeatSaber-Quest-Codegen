@@ -42,6 +42,10 @@ namespace System::Security::Cryptography::X509Certificates {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return cachedCertificateHash;
     }
+    // Get instance field: private System.Byte[] cachedCertificateHash
+    ::Array<uint8_t>* _get_cachedCertificateHash();
+    // Set instance field: private System.Byte[] cachedCertificateHash
+    void _set_cachedCertificateHash(::Array<uint8_t>* value);
     // public System.Boolean get_IsValid()
     // Offset: 0xFFFFFFFF
     bool get_IsValid();

@@ -72,6 +72,26 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CameraPosition
     CameraPosition(UnityEngine::Collider* lookAtTarget_ = {}, UnityEngine::Vector3 direction_ = {}, float maxDistance_ = {}, float maxAngle_ = {}, bool fixYAxis_ = {}) noexcept : lookAtTarget{lookAtTarget_}, direction{direction_}, maxDistance{maxDistance_}, maxAngle{maxAngle_}, fixYAxis{fixYAxis_} {}
+    // Get instance field: public UnityEngine.Collider lookAtTarget
+    UnityEngine::Collider* _get_lookAtTarget();
+    // Set instance field: public UnityEngine.Collider lookAtTarget
+    void _set_lookAtTarget(UnityEngine::Collider* value);
+    // Get instance field: public UnityEngine.Vector3 direction
+    UnityEngine::Vector3 _get_direction();
+    // Set instance field: public UnityEngine.Vector3 direction
+    void _set_direction(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single maxDistance
+    float _get_maxDistance();
+    // Set instance field: public System.Single maxDistance
+    void _set_maxDistance(float value);
+    // Get instance field: public System.Single maxAngle
+    float _get_maxAngle();
+    // Set instance field: public System.Single maxAngle
+    void _set_maxAngle(float value);
+    // Get instance field: public System.Boolean fixYAxis
+    bool _get_fixYAxis();
+    // Set instance field: public System.Boolean fixYAxis
+    void _set_fixYAxis(bool value);
     // public UnityEngine.Quaternion GetRotation()
     // Offset: 0x1AB3DA4
     UnityEngine::Quaternion GetRotation();

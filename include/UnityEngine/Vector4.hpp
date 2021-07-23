@@ -93,6 +93,22 @@ namespace UnityEngine {
     static UnityEngine::Vector4 _get_negativeInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector4 negativeInfinityVector
     static void _set_negativeInfinityVector(UnityEngine::Vector4 value);
+    // Get instance field: public System.Single x
+    float _get_x();
+    // Set instance field: public System.Single x
+    void _set_x(float value);
+    // Get instance field: public System.Single y
+    float _get_y();
+    // Set instance field: public System.Single y
+    void _set_y(float value);
+    // Get instance field: public System.Single z
+    float _get_z();
+    // Set instance field: public System.Single z
+    void _set_z(float value);
+    // Get instance field: public System.Single w
+    float _get_w();
+    // Set instance field: public System.Single w
+    void _set_w(float value);
     // public System.Single get_Item(System.Int32 index)
     // Offset: 0xF045C0
     float get_Item(int index);

@@ -61,6 +61,10 @@ namespace Valve::VR {
     static Valve::VR::EOverlayDirection _get_Count();
     // Set static field: static public Valve.VR.EOverlayDirection Count
     static void _set_Count(Valve::VR::EOverlayDirection value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EOverlayDirection
   #pragma pack(pop)
   static check_size<sizeof(EOverlayDirection), 0 + sizeof(int)> __Valve_VR_EOverlayDirectionSizeCheck;

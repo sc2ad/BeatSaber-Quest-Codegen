@@ -38,6 +38,10 @@ namespace Oculus::Platform {
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
     }
+    // Get instance field: private System.IntPtr Handle
+    System::IntPtr _get_Handle();
+    // Set instance field: private System.IntPtr Handle
+    void _set_Handle(System::IntPtr value);
     // public System.Void SetVoipGroup(System.String value)
     // Offset: 0x14AB6C4
     void SetVoipGroup(::Il2CppString* value);

@@ -51,6 +51,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: BendBone
     BendBone(UnityEngine::Transform* transform_ = {}, float weight_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : transform{transform_}, weight{weight_}, defaultLocalRotation{defaultLocalRotation_} {}
+    // Get instance field: public UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: public UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: private UnityEngine.Quaternion defaultLocalRotation
+    UnityEngine::Quaternion _get_defaultLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion defaultLocalRotation
+    void _set_defaultLocalRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
     // Offset: 0x1CE5538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

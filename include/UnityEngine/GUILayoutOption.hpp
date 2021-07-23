@@ -127,6 +127,10 @@ namespace UnityEngine {
       static UnityEngine::GUILayoutOption::Type _get_spacing();
       // Set static field: static public UnityEngine.GUILayoutOption/UnityEngine.Type spacing
       static void _set_spacing(UnityEngine::GUILayoutOption::Type value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.GUILayoutOption/UnityEngine.Type
     #pragma pack(pop)
     static check_size<sizeof(GUILayoutOption::Type), 0 + sizeof(int)> __UnityEngine_GUILayoutOption_TypeSizeCheck;
@@ -147,6 +151,14 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: GUILayoutOption
     GUILayoutOption(UnityEngine::GUILayoutOption::Type type_ = {}, ::Il2CppObject* value_ = {}) noexcept : type{type_}, value{value_} {}
+    // Get instance field: UnityEngine.GUILayoutOption/UnityEngine.Type type
+    UnityEngine::GUILayoutOption::Type _get_type();
+    // Set instance field: UnityEngine.GUILayoutOption/UnityEngine.Type type
+    void _set_type(UnityEngine::GUILayoutOption::Type value);
+    // Get instance field: System.Object value
+    ::Il2CppObject* _get_value();
+    // Set instance field: System.Object value
+    void _set_value(::Il2CppObject* value);
     // System.Void .ctor(UnityEngine.GUILayoutOption/UnityEngine.Type type, System.Object value)
     // Offset: 0x1AA4FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

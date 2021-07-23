@@ -76,6 +76,10 @@ namespace System {
       static System::UriParser::UriQuirksVersion _get_V3();
       // Set static field: static public System.UriParser/System.UriQuirksVersion V3
       static void _set_V3(System::UriParser::UriQuirksVersion value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.UriParser/System.UriQuirksVersion
     #pragma pack(pop)
     static check_size<sizeof(UriParser::UriQuirksVersion), 0 + sizeof(int)> __System_UriParser_UriQuirksVersionSizeCheck;
@@ -198,6 +202,26 @@ namespace System {
     static System::UriSyntaxFlags _get_FileSyntaxFlags();
     // Set static field: static private readonly System.UriSyntaxFlags FileSyntaxFlags
     static void _set_FileSyntaxFlags(System::UriSyntaxFlags value);
+    // Get instance field: private System.UriSyntaxFlags m_Flags
+    System::UriSyntaxFlags _get_m_Flags();
+    // Set instance field: private System.UriSyntaxFlags m_Flags
+    void _set_m_Flags(System::UriSyntaxFlags value);
+    // Get instance field: private System.UriSyntaxFlags m_UpdatableFlags
+    System::UriSyntaxFlags _get_m_UpdatableFlags();
+    // Set instance field: private System.UriSyntaxFlags m_UpdatableFlags
+    void _set_m_UpdatableFlags(System::UriSyntaxFlags value);
+    // Get instance field: private System.Boolean m_UpdatableFlagsUsed
+    bool _get_m_UpdatableFlagsUsed();
+    // Set instance field: private System.Boolean m_UpdatableFlagsUsed
+    void _set_m_UpdatableFlagsUsed(bool value);
+    // Get instance field: private System.Int32 m_Port
+    int _get_m_Port();
+    // Set instance field: private System.Int32 m_Port
+    void _set_m_Port(int value);
+    // Get instance field: private System.String m_Scheme
+    ::Il2CppString* _get_m_Scheme();
+    // Set instance field: private System.String m_Scheme
+    void _set_m_Scheme(::Il2CppString* value);
     // System.String get_SchemeName()
     // Offset: 0x2398938
     ::Il2CppString* get_SchemeName();

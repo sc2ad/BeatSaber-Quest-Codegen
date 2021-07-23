@@ -74,6 +74,30 @@ namespace GlobalNamespace {
     CoreGameHUDController(UnityEngine::GameObject* songProgressPanelGO_ = {}, UnityEngine::GameObject* relativeScoreGO_ = {}, UnityEngine::GameObject* immediateRankGO_ = {}, UnityEngine::GameObject* energyPanelGO_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}) noexcept : songProgressPanelGO{songProgressPanelGO_}, relativeScoreGO{relativeScoreGO_}, immediateRankGO{immediateRankGO_}, energyPanelGO{energyPanelGO_}, canvasGroup{canvasGroup_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.GameObject _songProgressPanelGO
+    UnityEngine::GameObject* _get__songProgressPanelGO();
+    // Set instance field: private UnityEngine.GameObject _songProgressPanelGO
+    void _set__songProgressPanelGO(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _relativeScoreGO
+    UnityEngine::GameObject* _get__relativeScoreGO();
+    // Set instance field: private UnityEngine.GameObject _relativeScoreGO
+    void _set__relativeScoreGO(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _immediateRankGO
+    UnityEngine::GameObject* _get__immediateRankGO();
+    // Set instance field: private UnityEngine.GameObject _immediateRankGO
+    void _set__immediateRankGO(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _energyPanelGO
+    UnityEngine::GameObject* _get__energyPanelGO();
+    // Set instance field: private UnityEngine.GameObject _energyPanelGO
+    void _set__energyPanelGO(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup* _get__canvasGroup();
+    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
+    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: private readonly CoreGameHUDController/InitData _initData
+    GlobalNamespace::CoreGameHUDController::InitData* _get__initData();
+    // Set instance field: private readonly CoreGameHUDController/InitData _initData
+    void _set__initData(GlobalNamespace::CoreGameHUDController::InitData* value);
     // public System.Void set_alpha(System.Single value)
     // Offset: 0x1081ED8
     void set_alpha(float value);

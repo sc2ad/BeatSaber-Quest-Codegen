@@ -149,6 +149,38 @@ namespace GlobalNamespace {
     static float _get_kMaxTimeOutBeforeFail();
     // Set static field: static private System.Single kMaxTimeOutBeforeFail
     static void _set_kMaxTimeOutBeforeFail(float value);
+    // Get instance field: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
+    System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* _get_levelDataAssetDownloadUpdateEvent();
+    // Set instance field: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
+    void _set_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.UInt64,OculusBeatmapDataAssetFileModel/LevelDownloadingData> _assetIdToDownloadinData
+    System::Collections::Generic::Dictionary_2<uint64_t, GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*>* _get__assetIdToDownloadinData();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.UInt64,OculusBeatmapDataAssetFileModel/LevelDownloadingData> _assetIdToDownloadinData
+    void _set__assetIdToDownloadinData(System::Collections::Generic::Dictionary_2<uint64_t, GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> _downloadedAssetBundleFiles
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get__downloadedAssetBundleFiles();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> _downloadedAssetBundleFiles
+    void _set__downloadedAssetBundleFiles(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Models.AssetFileDownloadUpdate> _lastAssetFileDownloadUpdateForAssetIds
+    System::Collections::Generic::Dictionary_2<uint64_t, Oculus::Platform::Models::AssetFileDownloadUpdate*>* _get__lastAssetFileDownloadUpdateForAssetIds();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Models.AssetFileDownloadUpdate> _lastAssetFileDownloadUpdateForAssetIds
+    void _set__lastAssetFileDownloadUpdateForAssetIds(System::Collections::Generic::Dictionary_2<uint64_t, Oculus::Platform::Models::AssetFileDownloadUpdate*>* value);
+    // Get instance field: private System.Single _lastAssetFileDownloadUpdateTime
+    float _get__lastAssetFileDownloadUpdateTime();
+    // Set instance field: private System.Single _lastAssetFileDownloadUpdateTime
+    void _set__lastAssetFileDownloadUpdateTime(float value);
+    // Get instance field: private System.Threading.SemaphoreSlim _semaphoreSlim
+    System::Threading::SemaphoreSlim* _get__semaphoreSlim();
+    // Set instance field: private System.Threading.SemaphoreSlim _semaphoreSlim
+    void _set__semaphoreSlim(System::Threading::SemaphoreSlim* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,Oculus.Platform.Models.AssetDetails> _assetFileToAssetDetails
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, Oculus::Platform::Models::AssetDetails*>* _get__assetFileToAssetDetails();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,Oculus.Platform.Models.AssetDetails> _assetFileToAssetDetails
+    void _set__assetFileToAssetDetails(System::Collections::Generic::Dictionary_2<::Il2CppString*, Oculus::Platform::Models::AssetDetails*>* value);
+    // Get instance field: private OculusLevelProductsModelSO _oculusLevelProductsModel
+    GlobalNamespace::OculusLevelProductsModelSO* _get__oculusLevelProductsModel();
+    // Set instance field: private OculusLevelProductsModelSO _oculusLevelProductsModel
+    void _set__oculusLevelProductsModel(GlobalNamespace::OculusLevelProductsModelSO* value);
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
     // Offset: 0x11EC3B4
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);

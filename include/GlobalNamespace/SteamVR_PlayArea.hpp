@@ -89,6 +89,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::SteamVR_PlayArea::Size _get__200x150();
       // Set static field: static public SteamVR_PlayArea/Size _200x150
       static void _set__200x150(GlobalNamespace::SteamVR_PlayArea::Size value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // SteamVR_PlayArea/Size
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_PlayArea::Size), 0 + sizeof(int)> __GlobalNamespace_SteamVR_PlayArea_SizeSizeCheck;
@@ -141,6 +145,34 @@ namespace GlobalNamespace {
     SteamVR_PlayArea(float borderThickness_ = {}, float wireframeHeight_ = {}, bool drawWireframeWhenSelectedOnly_ = {}, bool drawInGame_ = {}, GlobalNamespace::SteamVR_PlayArea::Size size_ = {}, UnityEngine::Color color_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}) noexcept : borderThickness{borderThickness_}, wireframeHeight{wireframeHeight_}, drawWireframeWhenSelectedOnly{drawWireframeWhenSelectedOnly_}, drawInGame{drawInGame_}, size{size_}, color{color_}, vertices{vertices_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Single borderThickness
+    float _get_borderThickness();
+    // Set instance field: public System.Single borderThickness
+    void _set_borderThickness(float value);
+    // Get instance field: public System.Single wireframeHeight
+    float _get_wireframeHeight();
+    // Set instance field: public System.Single wireframeHeight
+    void _set_wireframeHeight(float value);
+    // Get instance field: public System.Boolean drawWireframeWhenSelectedOnly
+    bool _get_drawWireframeWhenSelectedOnly();
+    // Set instance field: public System.Boolean drawWireframeWhenSelectedOnly
+    void _set_drawWireframeWhenSelectedOnly(bool value);
+    // Get instance field: public System.Boolean drawInGame
+    bool _get_drawInGame();
+    // Set instance field: public System.Boolean drawInGame
+    void _set_drawInGame(bool value);
+    // Get instance field: public SteamVR_PlayArea/Size size
+    GlobalNamespace::SteamVR_PlayArea::Size _get_size();
+    // Set instance field: public SteamVR_PlayArea/Size size
+    void _set_size(GlobalNamespace::SteamVR_PlayArea::Size value);
+    // Get instance field: public UnityEngine.Color color
+    UnityEngine::Color _get_color();
+    // Set instance field: public UnityEngine.Color color
+    void _set_color(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Vector3[] vertices
+    ::Array<UnityEngine::Vector3>* _get_vertices();
+    // Set instance field: public UnityEngine.Vector3[] vertices
+    void _set_vertices(::Array<UnityEngine::Vector3>* value);
     // static public System.Boolean GetBounds(SteamVR_PlayArea/Size size, ref Valve.VR.HmdQuad_t pRect)
     // Offset: 0x13AD31C
     static bool GetBounds(GlobalNamespace::SteamVR_PlayArea::Size size, Valve::VR::HmdQuad_t& pRect);

@@ -106,6 +106,42 @@ namespace GlobalNamespace {
     MissionLevelNoTransitionInstaller(GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, ::Il2CppString* backButtonText_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, colorScheme{colorScheme_}, missionObjectives{missionObjectives_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, backButtonText{backButtonText_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BeatmapLevelSO _beatmapLevel
+    GlobalNamespace::BeatmapLevelSO* _get__beatmapLevel();
+    // Set instance field: private BeatmapLevelSO _beatmapLevel
+    void _set__beatmapLevel(GlobalNamespace::BeatmapLevelSO* value);
+    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private BeatmapDifficulty _beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get__beatmapDifficulty();
+    // Set instance field: private BeatmapDifficulty _beatmapDifficulty
+    void _set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: private ColorSchemeSO _colorScheme
+    GlobalNamespace::ColorSchemeSO* _get__colorScheme();
+    // Set instance field: private ColorSchemeSO _colorScheme
+    void _set__colorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // Get instance field: private MissionObjective[] _missionObjectives
+    ::Array<GlobalNamespace::MissionObjective*>* _get__missionObjectives();
+    // Set instance field: private MissionObjective[] _missionObjectives
+    void _set__missionObjectives(::Array<GlobalNamespace::MissionObjective*>* value);
+    // Get instance field: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
+    // Set instance field: private GameplayModifiers _gameplayModifiers
+    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field: private PlayerSpecificSettings _playerSpecificSettings
+    GlobalNamespace::PlayerSpecificSettings* _get__playerSpecificSettings();
+    // Set instance field: private PlayerSpecificSettings _playerSpecificSettings
+    void _set__playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
+    // Get instance field: private System.String _backButtonText
+    ::Il2CppString* _get__backButtonText();
+    // Set instance field: private System.String _backButtonText
+    void _set__backButtonText(::Il2CppString* value);
+    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__scenesTransitionSetupData();
+    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
+    void _set__scenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
     // Offset: 0x1133604
     // Implemented from: Zenject.NoTransitionInstaller

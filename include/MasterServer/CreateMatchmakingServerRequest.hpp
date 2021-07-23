@@ -110,6 +110,38 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
+    // Get instance field: public System.Net.IPEndPoint userEndPoint
+    System::Net::IPEndPoint* _get_userEndPoint();
+    // Set instance field: public System.Net.IPEndPoint userEndPoint
+    void _set_userEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public readonly ByteArrayNetSerializable userRandom
+    GlobalNamespace::ByteArrayNetSerializable* _get_userRandom();
+    // Set instance field: public readonly ByteArrayNetSerializable userRandom
+    void _set_userRandom(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable userPublicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_userPublicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable userPublicKey
+    void _set_userPublicKey(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public IVersionedPacketPool`1<MasterServer.CreateMatchmakingServerRequest> get_pool()
     // Offset: 0x12D0ED8
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::CreateMatchmakingServerRequest*>* get_pool();

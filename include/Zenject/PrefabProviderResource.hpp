@@ -43,6 +43,10 @@ namespace Zenject {
     constexpr operator ::Il2CppString*() const noexcept {
       return resourcePath;
     }
+    // Get instance field: private readonly System.String _resourcePath
+    ::Il2CppString* _get__resourcePath();
+    // Set instance field: private readonly System.String _resourcePath
+    void _set__resourcePath(::Il2CppString* value);
     // public System.Void .ctor(System.String resourcePath)
     // Offset: 0x16C890C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

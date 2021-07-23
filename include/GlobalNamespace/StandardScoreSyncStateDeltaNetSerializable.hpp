@@ -78,6 +78,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* _get_pool();
     // Set static field: static public readonly PacketPool`1<StandardScoreSyncStateDeltaNetSerializable> pool
     static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* value);
+    // Get instance field: private StandardScoreSyncState _delta
+    GlobalNamespace::StandardScoreSyncState _get__delta();
+    // Set instance field: private StandardScoreSyncState _delta
+    void _set__delta(GlobalNamespace::StandardScoreSyncState value);
+    // Get instance field: private SyncStateId <baseId>k__BackingField
+    GlobalNamespace::SyncStateId _get_$baseId$k__BackingField();
+    // Set instance field: private SyncStateId <baseId>k__BackingField
+    void _set_$baseId$k__BackingField(GlobalNamespace::SyncStateId value);
+    // Get instance field: private System.Int32 <timeOffsetMs>k__BackingField
+    int _get_$timeOffsetMs$k__BackingField();
+    // Set instance field: private System.Int32 <timeOffsetMs>k__BackingField
+    void _set_$timeOffsetMs$k__BackingField(int value);
     // public SyncStateId get_baseId()
     // Offset: 0x23128D4
     GlobalNamespace::SyncStateId get_baseId();

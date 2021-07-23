@@ -124,6 +124,34 @@ namespace Polyglot {
     static Polyglot::Localization* _get_instance();
     // Set static field: static private Polyglot.Localization instance
     static void _set_instance(Polyglot::Localization* value);
+    // Get instance field: private Polyglot.LocalizationDocument customDocument
+    Polyglot::LocalizationDocument* _get_customDocument();
+    // Set instance field: private Polyglot.LocalizationDocument customDocument
+    void _set_customDocument(Polyglot::LocalizationDocument* value);
+    // Get instance field: private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> inputFiles
+    System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* _get_inputFiles();
+    // Set instance field: private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> inputFiles
+    void _set_inputFiles(System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<Polyglot.Language> supportedLanguages
+    System::Collections::Generic::List_1<Polyglot::Language>* _get_supportedLanguages();
+    // Set instance field: private System.Collections.Generic.List`1<Polyglot.Language> supportedLanguages
+    void _set_supportedLanguages(System::Collections::Generic::List_1<Polyglot::Language>* value);
+    // Get instance field: private Polyglot.Language selectedLanguage
+    Polyglot::Language _get_selectedLanguage();
+    // Set instance field: private Polyglot.Language selectedLanguage
+    void _set_selectedLanguage(Polyglot::Language value);
+    // Get instance field: private Polyglot.Language fallbackLanguage
+    Polyglot::Language _get_fallbackLanguage();
+    // Set instance field: private Polyglot.Language fallbackLanguage
+    void _set_fallbackLanguage(Polyglot::Language value);
+    // Get instance field: public UnityEngine.Events.UnityEvent Localize
+    UnityEngine::Events::UnityEvent* _get_Localize();
+    // Set instance field: public UnityEngine.Events.UnityEvent Localize
+    void _set_Localize(UnityEngine::Events::UnityEvent* value);
+    // Get instance field: private System.Globalization.CultureInfo selectedCultureInfo
+    System::Globalization::CultureInfo* _get_selectedCultureInfo();
+    // Set instance field: private System.Globalization.CultureInfo selectedCultureInfo
+    void _set_selectedCultureInfo(System::Globalization::CultureInfo* value);
     // public Polyglot.LocalizationDocument get_CustomDocument()
     // Offset: 0x232E6B0
     Polyglot::LocalizationDocument* get_CustomDocument();

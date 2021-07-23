@@ -55,6 +55,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::ReflectionProbeUsage _get_Simple();
     // Set static field: static public UnityEngine.Rendering.ReflectionProbeUsage Simple
     static void _set_Simple(UnityEngine::Rendering::ReflectionProbeUsage value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.ReflectionProbeUsage
   #pragma pack(pop)
   static check_size<sizeof(ReflectionProbeUsage), 0 + sizeof(int)> __UnityEngine_Rendering_ReflectionProbeUsageSizeCheck;

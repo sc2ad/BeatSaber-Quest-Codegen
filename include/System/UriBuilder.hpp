@@ -96,6 +96,50 @@ namespace System {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: UriBuilder
     UriBuilder(bool changed_ = {}, ::Il2CppString* fragment_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* password_ = {}, ::Il2CppString* path_ = {}, int port_ = {}, ::Il2CppString* query_ = {}, ::Il2CppString* scheme_ = {}, ::Il2CppString* schemeDelimiter_ = {}, System::Uri* uri_ = {}, ::Il2CppString* username_ = {}) noexcept : changed{changed_}, fragment{fragment_}, host{host_}, password{password_}, path{path_}, port{port_}, query{query_}, scheme{scheme_}, schemeDelimiter{schemeDelimiter_}, uri{uri_}, username{username_} {}
+    // Get instance field: private System.Boolean _changed
+    bool _get__changed();
+    // Set instance field: private System.Boolean _changed
+    void _set__changed(bool value);
+    // Get instance field: private System.String _fragment
+    ::Il2CppString* _get__fragment();
+    // Set instance field: private System.String _fragment
+    void _set__fragment(::Il2CppString* value);
+    // Get instance field: private System.String _host
+    ::Il2CppString* _get__host();
+    // Set instance field: private System.String _host
+    void _set__host(::Il2CppString* value);
+    // Get instance field: private System.String _password
+    ::Il2CppString* _get__password();
+    // Set instance field: private System.String _password
+    void _set__password(::Il2CppString* value);
+    // Get instance field: private System.String _path
+    ::Il2CppString* _get__path();
+    // Set instance field: private System.String _path
+    void _set__path(::Il2CppString* value);
+    // Get instance field: private System.Int32 _port
+    int _get__port();
+    // Set instance field: private System.Int32 _port
+    void _set__port(int value);
+    // Get instance field: private System.String _query
+    ::Il2CppString* _get__query();
+    // Set instance field: private System.String _query
+    void _set__query(::Il2CppString* value);
+    // Get instance field: private System.String _scheme
+    ::Il2CppString* _get__scheme();
+    // Set instance field: private System.String _scheme
+    void _set__scheme(::Il2CppString* value);
+    // Get instance field: private System.String _schemeDelimiter
+    ::Il2CppString* _get__schemeDelimiter();
+    // Set instance field: private System.String _schemeDelimiter
+    void _set__schemeDelimiter(::Il2CppString* value);
+    // Get instance field: private System.Uri _uri
+    System::Uri* _get__uri();
+    // Set instance field: private System.Uri _uri
+    void _set__uri(System::Uri* value);
+    // Get instance field: private System.String _username
+    ::Il2CppString* _get__username();
+    // Set instance field: private System.String _username
+    void _set__username(::Il2CppString* value);
     // public System.Void set_Host(System.String value)
     // Offset: 0x23962D8
     void set_Host(::Il2CppString* value);

@@ -61,6 +61,14 @@ namespace NUnit::Framework::Internal::Commands {
     OneTimeTearDownCommand(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDownItems_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions_ = {}) noexcept : setUpTearDownItems{setUpTearDownItems_}, actions{actions_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems
+    System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* _get__setUpTearDownItems();
+    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems
+    void _set__setUpTearDownItems(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
+    System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* _get__actions();
+    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
+    void _set__actions(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDownItems, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
     // Offset: 0x17285FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

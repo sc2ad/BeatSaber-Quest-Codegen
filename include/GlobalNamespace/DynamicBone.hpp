@@ -86,6 +86,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::DynamicBone::UpdateMode _get_UnscaledTime();
       // Set static field: static public DynamicBone/UpdateMode UnscaledTime
       static void _set_UnscaledTime(GlobalNamespace::DynamicBone::UpdateMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // DynamicBone/UpdateMode
     #pragma pack(pop)
     static check_size<sizeof(DynamicBone::UpdateMode), 0 + sizeof(int)> __GlobalNamespace_DynamicBone_UpdateModeSizeCheck;
@@ -136,6 +140,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::DynamicBone::FreezeAxis _get_Z();
       // Set static field: static public DynamicBone/FreezeAxis Z
       static void _set_Z(GlobalNamespace::DynamicBone::FreezeAxis value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // DynamicBone/FreezeAxis
     #pragma pack(pop)
     static check_size<sizeof(DynamicBone::FreezeAxis), 0 + sizeof(int)> __GlobalNamespace_DynamicBone_FreezeAxisSizeCheck;
@@ -354,6 +362,134 @@ namespace GlobalNamespace {
     DynamicBone(UnityEngine::Transform* m_Root_ = {}, float m_UpdateRate_ = {}, GlobalNamespace::DynamicBone::UpdateMode m_UpdateMode_ = {}, float m_Damping_ = {}, UnityEngine::AnimationCurve* m_DampingDistrib_ = {}, float m_Elasticity_ = {}, UnityEngine::AnimationCurve* m_ElasticityDistrib_ = {}, float m_Stiffness_ = {}, UnityEngine::AnimationCurve* m_StiffnessDistrib_ = {}, float m_Inert_ = {}, UnityEngine::AnimationCurve* m_InertDistrib_ = {}, float m_Radius_ = {}, UnityEngine::AnimationCurve* m_RadiusDistrib_ = {}, float m_EndLength_ = {}, UnityEngine::Vector3 m_EndOffset_ = {}, UnityEngine::Vector3 m_Gravity_ = {}, UnityEngine::Vector3 m_Force_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DynamicBoneColliderBase*>* m_Colliders_ = {}, System::Collections::Generic::List_1<UnityEngine::Transform*>* m_Exclusions_ = {}, GlobalNamespace::DynamicBone::FreezeAxis m_FreezeAxis_ = {}, bool m_DistantDisable_ = {}, UnityEngine::Transform* m_ReferenceObject_ = {}, float m_DistanceToObject_ = {}, UnityEngine::Vector3 m_LocalGravity_ = {}, UnityEngine::Vector3 m_ObjectMove_ = {}, UnityEngine::Vector3 m_ObjectPrevPosition_ = {}, float m_BoneTotalLength_ = {}, float m_ObjectScale_ = {}, float m_Time_ = {}, float m_Weight_ = {}, bool m_DistantDisabled_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>* m_Particles_ = {}) noexcept : m_Root{m_Root_}, m_UpdateRate{m_UpdateRate_}, m_UpdateMode{m_UpdateMode_}, m_Damping{m_Damping_}, m_DampingDistrib{m_DampingDistrib_}, m_Elasticity{m_Elasticity_}, m_ElasticityDistrib{m_ElasticityDistrib_}, m_Stiffness{m_Stiffness_}, m_StiffnessDistrib{m_StiffnessDistrib_}, m_Inert{m_Inert_}, m_InertDistrib{m_InertDistrib_}, m_Radius{m_Radius_}, m_RadiusDistrib{m_RadiusDistrib_}, m_EndLength{m_EndLength_}, m_EndOffset{m_EndOffset_}, m_Gravity{m_Gravity_}, m_Force{m_Force_}, m_Colliders{m_Colliders_}, m_Exclusions{m_Exclusions_}, m_FreezeAxis{m_FreezeAxis_}, m_DistantDisable{m_DistantDisable_}, m_ReferenceObject{m_ReferenceObject_}, m_DistanceToObject{m_DistanceToObject_}, m_LocalGravity{m_LocalGravity_}, m_ObjectMove{m_ObjectMove_}, m_ObjectPrevPosition{m_ObjectPrevPosition_}, m_BoneTotalLength{m_BoneTotalLength_}, m_ObjectScale{m_ObjectScale_}, m_Time{m_Time_}, m_Weight{m_Weight_}, m_DistantDisabled{m_DistantDisabled_}, m_Particles{m_Particles_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Transform m_Root
+    UnityEngine::Transform* _get_m_Root();
+    // Set instance field: public UnityEngine.Transform m_Root
+    void _set_m_Root(UnityEngine::Transform* value);
+    // Get instance field: public System.Single m_UpdateRate
+    float _get_m_UpdateRate();
+    // Set instance field: public System.Single m_UpdateRate
+    void _set_m_UpdateRate(float value);
+    // Get instance field: public DynamicBone/UpdateMode m_UpdateMode
+    GlobalNamespace::DynamicBone::UpdateMode _get_m_UpdateMode();
+    // Set instance field: public DynamicBone/UpdateMode m_UpdateMode
+    void _set_m_UpdateMode(GlobalNamespace::DynamicBone::UpdateMode value);
+    // Get instance field: public System.Single m_Damping
+    float _get_m_Damping();
+    // Set instance field: public System.Single m_Damping
+    void _set_m_Damping(float value);
+    // Get instance field: public UnityEngine.AnimationCurve m_DampingDistrib
+    UnityEngine::AnimationCurve* _get_m_DampingDistrib();
+    // Set instance field: public UnityEngine.AnimationCurve m_DampingDistrib
+    void _set_m_DampingDistrib(UnityEngine::AnimationCurve* value);
+    // Get instance field: public System.Single m_Elasticity
+    float _get_m_Elasticity();
+    // Set instance field: public System.Single m_Elasticity
+    void _set_m_Elasticity(float value);
+    // Get instance field: public UnityEngine.AnimationCurve m_ElasticityDistrib
+    UnityEngine::AnimationCurve* _get_m_ElasticityDistrib();
+    // Set instance field: public UnityEngine.AnimationCurve m_ElasticityDistrib
+    void _set_m_ElasticityDistrib(UnityEngine::AnimationCurve* value);
+    // Get instance field: public System.Single m_Stiffness
+    float _get_m_Stiffness();
+    // Set instance field: public System.Single m_Stiffness
+    void _set_m_Stiffness(float value);
+    // Get instance field: public UnityEngine.AnimationCurve m_StiffnessDistrib
+    UnityEngine::AnimationCurve* _get_m_StiffnessDistrib();
+    // Set instance field: public UnityEngine.AnimationCurve m_StiffnessDistrib
+    void _set_m_StiffnessDistrib(UnityEngine::AnimationCurve* value);
+    // Get instance field: public System.Single m_Inert
+    float _get_m_Inert();
+    // Set instance field: public System.Single m_Inert
+    void _set_m_Inert(float value);
+    // Get instance field: public UnityEngine.AnimationCurve m_InertDistrib
+    UnityEngine::AnimationCurve* _get_m_InertDistrib();
+    // Set instance field: public UnityEngine.AnimationCurve m_InertDistrib
+    void _set_m_InertDistrib(UnityEngine::AnimationCurve* value);
+    // Get instance field: public System.Single m_Radius
+    float _get_m_Radius();
+    // Set instance field: public System.Single m_Radius
+    void _set_m_Radius(float value);
+    // Get instance field: public UnityEngine.AnimationCurve m_RadiusDistrib
+    UnityEngine::AnimationCurve* _get_m_RadiusDistrib();
+    // Set instance field: public UnityEngine.AnimationCurve m_RadiusDistrib
+    void _set_m_RadiusDistrib(UnityEngine::AnimationCurve* value);
+    // Get instance field: public System.Single m_EndLength
+    float _get_m_EndLength();
+    // Set instance field: public System.Single m_EndLength
+    void _set_m_EndLength(float value);
+    // Get instance field: public UnityEngine.Vector3 m_EndOffset
+    UnityEngine::Vector3 _get_m_EndOffset();
+    // Set instance field: public UnityEngine.Vector3 m_EndOffset
+    void _set_m_EndOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 m_Gravity
+    UnityEngine::Vector3 _get_m_Gravity();
+    // Set instance field: public UnityEngine.Vector3 m_Gravity
+    void _set_m_Gravity(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 m_Force
+    UnityEngine::Vector3 _get_m_Force();
+    // Set instance field: public UnityEngine.Vector3 m_Force
+    void _set_m_Force(UnityEngine::Vector3 value);
+    // Get instance field: public System.Collections.Generic.List`1<DynamicBoneColliderBase> m_Colliders
+    System::Collections::Generic::List_1<GlobalNamespace::DynamicBoneColliderBase*>* _get_m_Colliders();
+    // Set instance field: public System.Collections.Generic.List`1<DynamicBoneColliderBase> m_Colliders
+    void _set_m_Colliders(System::Collections::Generic::List_1<GlobalNamespace::DynamicBoneColliderBase*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<UnityEngine.Transform> m_Exclusions
+    System::Collections::Generic::List_1<UnityEngine::Transform*>* _get_m_Exclusions();
+    // Set instance field: public System.Collections.Generic.List`1<UnityEngine.Transform> m_Exclusions
+    void _set_m_Exclusions(System::Collections::Generic::List_1<UnityEngine::Transform*>* value);
+    // Get instance field: public DynamicBone/FreezeAxis m_FreezeAxis
+    GlobalNamespace::DynamicBone::FreezeAxis _get_m_FreezeAxis();
+    // Set instance field: public DynamicBone/FreezeAxis m_FreezeAxis
+    void _set_m_FreezeAxis(GlobalNamespace::DynamicBone::FreezeAxis value);
+    // Get instance field: public System.Boolean m_DistantDisable
+    bool _get_m_DistantDisable();
+    // Set instance field: public System.Boolean m_DistantDisable
+    void _set_m_DistantDisable(bool value);
+    // Get instance field: public UnityEngine.Transform m_ReferenceObject
+    UnityEngine::Transform* _get_m_ReferenceObject();
+    // Set instance field: public UnityEngine.Transform m_ReferenceObject
+    void _set_m_ReferenceObject(UnityEngine::Transform* value);
+    // Get instance field: public System.Single m_DistanceToObject
+    float _get_m_DistanceToObject();
+    // Set instance field: public System.Single m_DistanceToObject
+    void _set_m_DistanceToObject(float value);
+    // Get instance field: private UnityEngine.Vector3 m_LocalGravity
+    UnityEngine::Vector3 _get_m_LocalGravity();
+    // Set instance field: private UnityEngine.Vector3 m_LocalGravity
+    void _set_m_LocalGravity(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_ObjectMove
+    UnityEngine::Vector3 _get_m_ObjectMove();
+    // Set instance field: private UnityEngine.Vector3 m_ObjectMove
+    void _set_m_ObjectMove(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_ObjectPrevPosition
+    UnityEngine::Vector3 _get_m_ObjectPrevPosition();
+    // Set instance field: private UnityEngine.Vector3 m_ObjectPrevPosition
+    void _set_m_ObjectPrevPosition(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single m_BoneTotalLength
+    float _get_m_BoneTotalLength();
+    // Set instance field: private System.Single m_BoneTotalLength
+    void _set_m_BoneTotalLength(float value);
+    // Get instance field: private System.Single m_ObjectScale
+    float _get_m_ObjectScale();
+    // Set instance field: private System.Single m_ObjectScale
+    void _set_m_ObjectScale(float value);
+    // Get instance field: private System.Single m_Time
+    float _get_m_Time();
+    // Set instance field: private System.Single m_Time
+    void _set_m_Time(float value);
+    // Get instance field: private System.Single m_Weight
+    float _get_m_Weight();
+    // Set instance field: private System.Single m_Weight
+    void _set_m_Weight(float value);
+    // Get instance field: private System.Boolean m_DistantDisabled
+    bool _get_m_DistantDisabled();
+    // Set instance field: private System.Boolean m_DistantDisabled
+    void _set_m_DistantDisabled(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<DynamicBone/Particle> m_Particles
+    System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>* _get_m_Particles();
+    // Set instance field: private System.Collections.Generic.List`1<DynamicBone/Particle> m_Particles
+    void _set_m_Particles(System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>* value);
     // private System.Void Start()
     // Offset: 0x23A17E4
     void Start();

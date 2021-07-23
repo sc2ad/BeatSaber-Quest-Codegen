@@ -40,6 +40,10 @@ namespace UnityEngine::TestRunner {
     constexpr operator System::Type*() const noexcept {
       return m_Type;
     }
+    // Get instance field: private System.Type m_Type
+    System::Type* _get_m_Type();
+    // Set instance field: private System.Type m_Type
+    void _set_m_Type(System::Type* value);
     // UnityEngine.TestRunner.ITestRunCallback ConstructCallback()
     // Offset: 0x1486E10
     UnityEngine::TestRunner::ITestRunCallback* ConstructCallback();

@@ -57,6 +57,10 @@ namespace System::Reflection {
     static System::Reflection::ExceptionHandlingClauseOptions _get_Fault();
     // Set static field: static public System.Reflection.ExceptionHandlingClauseOptions Fault
     static void _set_Fault(System::Reflection::ExceptionHandlingClauseOptions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Reflection.ExceptionHandlingClauseOptions
   #pragma pack(pop)
   static check_size<sizeof(ExceptionHandlingClauseOptions), 0 + sizeof(int)> __System_Reflection_ExceptionHandlingClauseOptionsSizeCheck;

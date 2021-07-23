@@ -59,6 +59,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static ::Array<::Il2CppString*>* _get_algorithms();
     // Set static field: static private readonly System.String[] algorithms
     static void _set_algorithms(::Array<::Il2CppString*>* value);
+    // Get instance field: private readonly System.String algorithm
+    ::Il2CppString* _get_algorithm();
+    // Set instance field: private readonly System.String algorithm
+    void _set_algorithm(::Il2CppString* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
+    Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
+    void _set_parameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_publicKeyParamSet();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    void _set_publicKeyParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x122A308
     ::Il2CppString* get_AlgorithmName();

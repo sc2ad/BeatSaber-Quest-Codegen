@@ -131,6 +131,14 @@ namespace System::Net {
     static bool _get_s_DefaultWebProxyInitialized();
     // Set static field: static private System.Boolean s_DefaultWebProxyInitialized
     static void _set_s_DefaultWebProxyInitialized(bool value);
+    // Get instance field: private System.Net.Security.AuthenticationLevel m_AuthenticationLevel
+    System::Net::Security::AuthenticationLevel _get_m_AuthenticationLevel();
+    // Set instance field: private System.Net.Security.AuthenticationLevel m_AuthenticationLevel
+    void _set_m_AuthenticationLevel(System::Net::Security::AuthenticationLevel value);
+    // Get instance field: private System.Security.Principal.TokenImpersonationLevel m_ImpersonationLevel
+    System::Security::Principal::TokenImpersonationLevel _get_m_ImpersonationLevel();
+    // Set instance field: private System.Security.Principal.TokenImpersonationLevel m_ImpersonationLevel
+    void _set_m_ImpersonationLevel(System::Security::Principal::TokenImpersonationLevel value);
     // static private System.Object get_InternalSyncObject()
     // Offset: 0x159DEE4
     static ::Il2CppObject* get_InternalSyncObject();

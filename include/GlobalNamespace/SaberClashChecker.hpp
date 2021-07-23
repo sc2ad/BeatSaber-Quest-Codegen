@@ -74,6 +74,26 @@ namespace GlobalNamespace {
     static float _get_kIgnoredTime();
     // Set static field: static private System.Single kIgnoredTime
     static void _set_kIgnoredTime(float value);
+    // Get instance field: private System.Boolean _sabersAreClashing
+    bool _get__sabersAreClashing();
+    // Set instance field: private System.Boolean _sabersAreClashing
+    void _set__sabersAreClashing(bool value);
+    // Get instance field: private UnityEngine.Vector3 _clashingPoint
+    UnityEngine::Vector3 _get__clashingPoint();
+    // Set instance field: private UnityEngine.Vector3 _clashingPoint
+    void _set__clashingPoint(UnityEngine::Vector3 value);
+    // Get instance field: private Saber _leftSaber
+    GlobalNamespace::Saber* _get__leftSaber();
+    // Set instance field: private Saber _leftSaber
+    void _set__leftSaber(GlobalNamespace::Saber* value);
+    // Get instance field: private Saber _rightSaber
+    GlobalNamespace::Saber* _get__rightSaber();
+    // Set instance field: private Saber _rightSaber
+    void _set__rightSaber(GlobalNamespace::Saber* value);
+    // Get instance field: private System.Int32 _prevGetFrameNum
+    int _get__prevGetFrameNum();
+    // Set instance field: private System.Int32 _prevGetFrameNum
+    void _set__prevGetFrameNum(int value);
     // private System.Void Init(SaberManager saberManager)
     // Offset: 0x114ABD8
     void Init(GlobalNamespace::SaberManager* saberManager);

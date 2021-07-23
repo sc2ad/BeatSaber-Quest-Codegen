@@ -40,6 +40,10 @@ namespace NUnit::Framework::Internal {
     constexpr operator int() const noexcept {
       return maxStringLength;
     }
+    // Get instance field: private System.Int32 _maxStringLength
+    int _get__maxStringLength();
+    // Set instance field: private System.Int32 _maxStringLength
+    void _set__maxStringLength(int value);
     // public System.Void .ctor(System.Int32 maxStringLength)
     // Offset: 0x2240C80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

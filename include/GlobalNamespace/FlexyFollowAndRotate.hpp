@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     FlexyFollowAndRotate(UnityEngine::Transform* target_ = {}, float smooth_ = {}) noexcept : target{target_}, smooth{smooth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _target
+    UnityEngine::Transform* _get__target();
+    // Set instance field: private UnityEngine.Transform _target
+    void _set__target(UnityEngine::Transform* value);
+    // Get instance field: private System.Single _smooth
+    float _get__smooth();
+    // Set instance field: private System.Single _smooth
+    void _set__smooth(float value);
     // protected System.Void Update()
     // Offset: 0x12158E8
     void Update();

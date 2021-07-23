@@ -72,6 +72,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDestinationRequestManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDestinationRequestManager*>(this);
     }
+    // Get instance field: private BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
+    // Set instance field: private BeatmapLevelsModel _beatmapLevelsModel
+    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
+    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
+    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
+    // Get instance field: private System.Action`1<MenuDestination> didSendMenuDestinationRequestEvent
+    System::Action_1<GlobalNamespace::MenuDestination*>* _get_didSendMenuDestinationRequestEvent();
+    // Set instance field: private System.Action`1<MenuDestination> didSendMenuDestinationRequestEvent
+    void _set_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
+    // Get instance field: private MenuDestination _currentMenuDestinationRequest
+    GlobalNamespace::MenuDestination* _get__currentMenuDestinationRequest();
+    // Set instance field: private MenuDestination _currentMenuDestinationRequest
+    void _set__currentMenuDestinationRequest(GlobalNamespace::MenuDestination* value);
     // public MenuDestination get_currentMenuDestinationRequest()
     // Offset: 0x1088AA0
     GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();

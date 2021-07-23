@@ -68,6 +68,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::HowToPlayViewController::HowToPlayOptions _get_Credits();
       // Set static field: static public HowToPlayViewController/HowToPlayOptions Credits
       static void _set_Credits(GlobalNamespace::HowToPlayViewController::HowToPlayOptions value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // HowToPlayViewController/HowToPlayOptions
     #pragma pack(pop)
     static check_size<sizeof(HowToPlayViewController::HowToPlayOptions), 0 + sizeof(int)> __GlobalNamespace_HowToPlayViewController_HowToPlayOptionsSizeCheck;
@@ -92,6 +96,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*) == 0x8);
     // Creating value type constructor for type: HowToPlayViewController
     HowToPlayViewController(UnityEngine::UI::Button* tutorialButton_ = {}, UnityEngine::UI::Button* creditsButton_ = {}, System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* didFinishEvent_ = {}) noexcept : tutorialButton{tutorialButton_}, creditsButton{creditsButton_}, didFinishEvent{didFinishEvent_} {}
+    // Get instance field: private UnityEngine.UI.Button _tutorialButton
+    UnityEngine::UI::Button* _get__tutorialButton();
+    // Set instance field: private UnityEngine.UI.Button _tutorialButton
+    void _set__tutorialButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _creditsButton
+    UnityEngine::UI::Button* _get__creditsButton();
+    // Set instance field: private UnityEngine.UI.Button _creditsButton
+    void _set__creditsButton(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Action`1<HowToPlayViewController/HowToPlayOptions> didFinishEvent
+    System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* _get_didFinishEvent();
+    // Set instance field: private System.Action`1<HowToPlayViewController/HowToPlayOptions> didFinishEvent
+    void _set_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void add_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
     // Offset: 0x10EBE78
     void add_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);

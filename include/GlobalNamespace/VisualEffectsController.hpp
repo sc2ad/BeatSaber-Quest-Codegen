@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kDepthTextureEnabledKeyword();
     // Set static field: static private System.String kDepthTextureEnabledKeyword
     static void _set_kDepthTextureEnabledKeyword(::Il2CppString* value);
+    // Get instance field: private BoolSO _depthTextureEnabled
+    GlobalNamespace::BoolSO* _get__depthTextureEnabled();
+    // Set instance field: private BoolSO _depthTextureEnabled
+    void _set__depthTextureEnabled(GlobalNamespace::BoolSO* value);
     // protected System.Void Awake()
     // Offset: 0x234341C
     void Awake();

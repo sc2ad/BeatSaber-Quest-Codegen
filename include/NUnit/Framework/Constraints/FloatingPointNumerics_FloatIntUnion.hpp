@@ -41,6 +41,18 @@ namespace NUnit::Framework::Constraints {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single Float
+    float _get_Float();
+    // Set instance field: public System.Single Float
+    void _set_Float(float value);
+    // Get instance field: public System.Int32 Int
+    int _get_Int();
+    // Set instance field: public System.Int32 Int
+    void _set_Int(int value);
+    // Get instance field: public System.UInt32 UInt
+    uint _get_UInt();
+    // Set instance field: public System.UInt32 UInt
+    void _set_UInt(uint value);
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/NUnit.Framework.Constraints.FloatIntUnion
   // WARNING Not writing size check since size may be invalid!
 }

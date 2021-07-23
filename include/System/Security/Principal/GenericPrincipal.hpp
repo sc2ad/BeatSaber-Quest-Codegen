@@ -41,6 +41,14 @@ namespace System::Security::Principal {
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: GenericPrincipal
     GenericPrincipal(System::Security::Principal::IIdentity* m_identity_ = {}, ::Array<::Il2CppString*>* m_roles_ = {}) noexcept : m_identity{m_identity_}, m_roles{m_roles_} {}
+    // Get instance field: private System.Security.Principal.IIdentity m_identity
+    System::Security::Principal::IIdentity* _get_m_identity();
+    // Set instance field: private System.Security.Principal.IIdentity m_identity
+    void _set_m_identity(System::Security::Principal::IIdentity* value);
+    // Get instance field: private System.String[] m_roles
+    ::Array<::Il2CppString*>* _get_m_roles();
+    // Set instance field: private System.String[] m_roles
+    void _set_m_roles(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Security.Principal.IIdentity identity, System.String[] roles)
     // Offset: 0x1B0919C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

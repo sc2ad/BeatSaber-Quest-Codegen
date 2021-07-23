@@ -67,6 +67,22 @@ namespace MasterServer {
     static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass100_0
     $$c__DisplayClass100_0(MasterServer::MessageHandler* $$4__this_ = {}, uint protocolVersion_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, System::Threading::CancellationToken cancellationToken_ = {}) noexcept : $$4__this{$$4__this_}, protocolVersion{protocolVersion_}, remoteEndPoint{remoteEndPoint_}, cancellationToken{cancellationToken_} {}
+    // Get instance field: public MasterServer.MessageHandler <>4__this
+    MasterServer::MessageHandler* _get_$$4__this();
+    // Set instance field: public MasterServer.MessageHandler <>4__this
+    void _set_$$4__this(MasterServer::MessageHandler* value);
+    // Get instance field: public System.UInt32 protocolVersion
+    uint _get_protocolVersion();
+    // Set instance field: public System.UInt32 protocolVersion
+    void _set_protocolVersion(uint value);
+    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint* _get_remoteEndPoint();
+    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
+    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
     // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(MasterServer.IMasterServerReliableRequest mm)
     // Offset: 0x12D88B8
     System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(MasterServer::IMasterServerReliableRequest* mm);

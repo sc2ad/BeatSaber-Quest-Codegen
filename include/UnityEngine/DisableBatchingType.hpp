@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::DisableBatchingType _get_WhenLODFading();
     // Set static field: static public UnityEngine.DisableBatchingType WhenLODFading
     static void _set_WhenLODFading(UnityEngine::DisableBatchingType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.DisableBatchingType
   #pragma pack(pop)
   static check_size<sizeof(DisableBatchingType), 0 + sizeof(int)> __UnityEngine_DisableBatchingTypeSizeCheck;

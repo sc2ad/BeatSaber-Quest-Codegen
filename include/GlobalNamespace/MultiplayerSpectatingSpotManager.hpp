@@ -52,6 +52,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>*) == 0x8);
     // Creating value type constructor for type: MultiplayerSpectatingSpotManager
     MultiplayerSpectatingSpotManager(System::Collections::Generic::List_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpots_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>* spotIndexBySpot_ = {}) noexcept : spectatingSpots{spectatingSpots_}, spotIndexBySpot{spotIndexBySpot_} {}
+    // Get instance field: private readonly System.Collections.Generic.List`1<IMultiplayerSpectatingSpot> _spectatingSpots
+    System::Collections::Generic::List_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* _get__spectatingSpots();
+    // Set instance field: private readonly System.Collections.Generic.List`1<IMultiplayerSpectatingSpot> _spectatingSpots
+    void _set__spectatingSpots(System::Collections::Generic::List_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<IMultiplayerSpectatingSpot,System.Int32> _spotIndexBySpot
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>* _get__spotIndexBySpot();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<IMultiplayerSpectatingSpot,System.Int32> _spotIndexBySpot
+    void _set__spotIndexBySpot(System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>* value);
     // public System.Collections.Generic.IReadOnlyList`1<IMultiplayerSpectatingSpot> get_spectatingSpots()
     // Offset: 0x100B49C
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();

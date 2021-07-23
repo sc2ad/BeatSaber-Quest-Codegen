@@ -96,6 +96,30 @@ namespace GlobalNamespace {
     static float _get_kMaxPlayerHeight();
     // Set static field: static private System.Single kMaxPlayerHeight
     static void _set_kMaxPlayerHeight(float value);
+    // Get instance field: private Vector3SO _roomCenter
+    GlobalNamespace::Vector3SO* _get__roomCenter();
+    // Set instance field: private Vector3SO _roomCenter
+    void _set__roomCenter(GlobalNamespace::Vector3SO* value);
+    // Get instance field: private UnityEngine.UI.Button _yIncButton
+    UnityEngine::UI::Button* _get__yIncButton();
+    // Set instance field: private UnityEngine.UI.Button _yIncButton
+    void _set__yIncButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _yDecButton
+    UnityEngine::UI::Button* _get__yDecButton();
+    // Set instance field: private UnityEngine.UI.Button _yDecButton
+    void _set__yDecButton(UnityEngine::UI::Button* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _playerHeightText
+    TMPro::TextMeshProUGUI* _get__playerHeightText();
+    // Set instance field: private TMPro.TextMeshProUGUI _playerHeightText
+    void _set__playerHeightText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
+    // Set instance field: private IVRPlatformHelper _vrPlatformHelper
+    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field: private System.Single _playerHeight
+    float _get__playerHeight();
+    // Set instance field: private System.Single _playerHeight
+    void _set__playerHeight(float value);
     // protected System.Void Update()
     // Offset: 0x1029980
     void Update();

@@ -49,6 +49,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::BezierTangentMode _get_Mirrored();
     // Set static field: static public UnityEngine.ProBuilder.BezierTangentMode Mirrored
     static void _set_Mirrored(UnityEngine::ProBuilder::BezierTangentMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.BezierTangentMode
   #pragma pack(pop)
   static check_size<sizeof(BezierTangentMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_BezierTangentModeSizeCheck;

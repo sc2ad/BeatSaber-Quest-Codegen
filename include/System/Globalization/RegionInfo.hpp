@@ -94,6 +94,46 @@ namespace System::Globalization {
     static System::Globalization::RegionInfo* _get_currentRegion();
     // Set static field: static private System.Globalization.RegionInfo currentRegion
     static void _set_currentRegion(System::Globalization::RegionInfo* value);
+    // Get instance field: private System.Int32 regionId
+    int _get_regionId();
+    // Set instance field: private System.Int32 regionId
+    void _set_regionId(int value);
+    // Get instance field: private System.String iso2Name
+    ::Il2CppString* _get_iso2Name();
+    // Set instance field: private System.String iso2Name
+    void _set_iso2Name(::Il2CppString* value);
+    // Get instance field: private System.String iso3Name
+    ::Il2CppString* _get_iso3Name();
+    // Set instance field: private System.String iso3Name
+    void _set_iso3Name(::Il2CppString* value);
+    // Get instance field: private System.String win3Name
+    ::Il2CppString* _get_win3Name();
+    // Set instance field: private System.String win3Name
+    void _set_win3Name(::Il2CppString* value);
+    // Get instance field: private System.String englishName
+    ::Il2CppString* _get_englishName();
+    // Set instance field: private System.String englishName
+    void _set_englishName(::Il2CppString* value);
+    // Get instance field: private System.String nativeName
+    ::Il2CppString* _get_nativeName();
+    // Set instance field: private System.String nativeName
+    void _set_nativeName(::Il2CppString* value);
+    // Get instance field: private System.String currencySymbol
+    ::Il2CppString* _get_currencySymbol();
+    // Set instance field: private System.String currencySymbol
+    void _set_currencySymbol(::Il2CppString* value);
+    // Get instance field: private System.String isoCurrencySymbol
+    ::Il2CppString* _get_isoCurrencySymbol();
+    // Set instance field: private System.String isoCurrencySymbol
+    void _set_isoCurrencySymbol(::Il2CppString* value);
+    // Get instance field: private System.String currencyEnglishName
+    ::Il2CppString* _get_currencyEnglishName();
+    // Set instance field: private System.String currencyEnglishName
+    void _set_currencyEnglishName(::Il2CppString* value);
+    // Get instance field: private System.String currencyNativeName
+    ::Il2CppString* _get_currencyNativeName();
+    // Set instance field: private System.String currencyNativeName
+    void _set_currencyNativeName(::Il2CppString* value);
     // static public System.Globalization.RegionInfo get_CurrentRegion()
     // Offset: 0x19CB558
     static System::Globalization::RegionInfo* get_CurrentRegion();

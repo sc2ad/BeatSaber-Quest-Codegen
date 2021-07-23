@@ -131,6 +131,54 @@ namespace GlobalNamespace {
     static GlobalNamespace::SteamVR_Overlay* _get_$instance$k__BackingField();
     // Set static field: static private SteamVR_Overlay <instance>k__BackingField
     static void _set_$instance$k__BackingField(GlobalNamespace::SteamVR_Overlay* value);
+    // Get instance field: public UnityEngine.Texture texture
+    UnityEngine::Texture* _get_texture();
+    // Set instance field: public UnityEngine.Texture texture
+    void _set_texture(UnityEngine::Texture* value);
+    // Get instance field: public System.Boolean curved
+    bool _get_curved();
+    // Set instance field: public System.Boolean curved
+    void _set_curved(bool value);
+    // Get instance field: public System.Boolean antialias
+    bool _get_antialias();
+    // Set instance field: public System.Boolean antialias
+    void _set_antialias(bool value);
+    // Get instance field: public System.Boolean highquality
+    bool _get_highquality();
+    // Set instance field: public System.Boolean highquality
+    void _set_highquality(bool value);
+    // Get instance field: public System.Single scale
+    float _get_scale();
+    // Set instance field: public System.Single scale
+    void _set_scale(float value);
+    // Get instance field: public System.Single distance
+    float _get_distance();
+    // Set instance field: public System.Single distance
+    void _set_distance(float value);
+    // Get instance field: public System.Single alpha
+    float _get_alpha();
+    // Set instance field: public System.Single alpha
+    void _set_alpha(float value);
+    // Get instance field: public UnityEngine.Vector4 uvOffset
+    UnityEngine::Vector4 _get_uvOffset();
+    // Set instance field: public UnityEngine.Vector4 uvOffset
+    void _set_uvOffset(UnityEngine::Vector4 value);
+    // Get instance field: public UnityEngine.Vector2 mouseScale
+    UnityEngine::Vector2 _get_mouseScale();
+    // Set instance field: public UnityEngine.Vector2 mouseScale
+    void _set_mouseScale(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 curvedRange
+    UnityEngine::Vector2 _get_curvedRange();
+    // Set instance field: public UnityEngine.Vector2 curvedRange
+    void _set_curvedRange(UnityEngine::Vector2 value);
+    // Get instance field: public Valve.VR.VROverlayInputMethod inputMethod
+    Valve::VR::VROverlayInputMethod _get_inputMethod();
+    // Set instance field: public Valve.VR.VROverlayInputMethod inputMethod
+    void _set_inputMethod(Valve::VR::VROverlayInputMethod value);
+    // Get instance field: private System.UInt64 handle
+    uint64_t _get_handle();
+    // Set instance field: private System.UInt64 handle
+    void _set_handle(uint64_t value);
     // static public SteamVR_Overlay get_instance()
     // Offset: 0x13AC8A0
     static GlobalNamespace::SteamVR_Overlay* get_instance();

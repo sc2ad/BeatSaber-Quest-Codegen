@@ -52,6 +52,14 @@ namespace Zenject {
     operator Zenject::IInitializable() noexcept {
       return *reinterpret_cast<Zenject::IInitializable*>(this);
     }
+    // Get instance field: private readonly Zenject.SceneContextRegistry _registry
+    Zenject::SceneContextRegistry* _get__registry();
+    // Set instance field: private readonly Zenject.SceneContextRegistry _registry
+    void _set__registry(Zenject::SceneContextRegistry* value);
+    // Get instance field: private readonly Zenject.SceneContext _sceneContext
+    Zenject::SceneContext* _get__sceneContext();
+    // Set instance field: private readonly Zenject.SceneContext _sceneContext
+    void _set__sceneContext(Zenject::SceneContext* value);
     // public System.Void .ctor(Zenject.SceneContext sceneContext, Zenject.SceneContextRegistry registry)
     // Offset: 0x16CE894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

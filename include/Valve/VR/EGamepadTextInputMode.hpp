@@ -49,6 +49,10 @@ namespace Valve::VR {
     static Valve::VR::EGamepadTextInputMode _get_k_EGamepadTextInputModeSubmit();
     // Set static field: static public Valve.VR.EGamepadTextInputMode k_EGamepadTextInputModeSubmit
     static void _set_k_EGamepadTextInputModeSubmit(Valve::VR::EGamepadTextInputMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EGamepadTextInputMode
   #pragma pack(pop)
   static check_size<sizeof(EGamepadTextInputMode), 0 + sizeof(int)> __Valve_VR_EGamepadTextInputModeSizeCheck;

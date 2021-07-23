@@ -52,6 +52,14 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.String <Parameter>k__BackingField
+    ::Il2CppString* _get_$Parameter$k__BackingField();
+    // Set instance field: private System.String <Parameter>k__BackingField
+    void _set_$Parameter$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <Scheme>k__BackingField
+    ::Il2CppString* _get_$Scheme$k__BackingField();
+    // Set instance field: private System.String <Scheme>k__BackingField
+    void _set_$Scheme$k__BackingField(::Il2CppString* value);
     // public System.String get_Parameter()
     // Offset: 0x15604B4
     ::Il2CppString* get_Parameter();

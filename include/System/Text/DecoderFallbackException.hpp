@@ -42,6 +42,14 @@ namespace System::Text {
     DecoderFallbackException(::Array<uint8_t>* bytesUnknown_ = {}, int index_ = {}) noexcept : bytesUnknown{bytesUnknown_}, index{index_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Get instance field: private System.Byte[] bytesUnknown
+    ::Array<uint8_t>* _get_bytesUnknown();
+    // Set instance field: private System.Byte[] bytesUnknown
+    void _set_bytesUnknown(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 index
+    int _get_index();
+    // Set instance field: private System.Int32 index
+    void _set_index(int value);
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0x1BD56D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

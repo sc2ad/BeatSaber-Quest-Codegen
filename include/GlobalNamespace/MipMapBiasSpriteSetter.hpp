@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     MipMapBiasSpriteSetter(::Array<UnityEngine::Sprite*>* sprites_ = {}, float mipMapBias_ = {}) noexcept : sprites{sprites_}, mipMapBias{mipMapBias_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Sprite[] _sprites
+    ::Array<UnityEngine::Sprite*>* _get__sprites();
+    // Set instance field: private UnityEngine.Sprite[] _sprites
+    void _set__sprites(::Array<UnityEngine::Sprite*>* value);
+    // Get instance field: private System.Single _mipMapBias
+    float _get__mipMapBias();
+    // Set instance field: private System.Single _mipMapBias
+    void _set__mipMapBias(float value);
     // protected System.Void Start()
     // Offset: 0x121BE84
     void Start();

@@ -55,6 +55,10 @@ namespace LeaderboardsDTO {
       static LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope _get_Friends();
       // Set static field: static public LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope Friends
       static void _set_Friends(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope
     #pragma pack(pop)
     static check_size<sizeof(LeaderboardQueryDTO::ScoresScope), 0 + sizeof(int)> __LeaderboardsDTO_LeaderboardQueryDTO_ScoresScopeSizeCheck;
@@ -99,6 +103,30 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LeaderboardQueryDTO
     LeaderboardQueryDTO(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope scope_ = {}, ::Array<::Il2CppString*>* friendsUserIds_ = {}, bool includedScoreWithModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, includedScoreWithModifiers{includedScoreWithModifiers_} {}
+    // Get instance field: public System.String leaderboardId
+    ::Il2CppString* _get_leaderboardId();
+    // Set instance field: public System.String leaderboardId
+    void _set_leaderboardId(::Il2CppString* value);
+    // Get instance field: public System.Int32 count
+    int _get_count();
+    // Set instance field: public System.Int32 count
+    void _set_count(int value);
+    // Get instance field: public System.Int32 fromRank
+    int _get_fromRank();
+    // Set instance field: public System.Int32 fromRank
+    void _set_fromRank(int value);
+    // Get instance field: public LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope scope
+    LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope _get_scope();
+    // Set instance field: public LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope scope
+    void _set_scope(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope value);
+    // Get instance field: public System.String[] friendsUserIds
+    ::Array<::Il2CppString*>* _get_friendsUserIds();
+    // Set instance field: public System.String[] friendsUserIds
+    void _set_friendsUserIds(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.Boolean includedScoreWithModifiers
+    bool _get_includedScoreWithModifiers();
+    // Set instance field: public System.Boolean includedScoreWithModifiers
+    void _set_includedScoreWithModifiers(bool value);
     // public System.Void .ctor()
     // Offset: 0x10F079C
     // Implemented from: System.Object

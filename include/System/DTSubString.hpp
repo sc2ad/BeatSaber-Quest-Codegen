@@ -55,6 +55,26 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.String s
+    ::Il2CppString* _get_s();
+    // Set instance field: System.String s
+    void _set_s(::Il2CppString* value);
+    // Get instance field: System.Int32 index
+    int _get_index();
+    // Set instance field: System.Int32 index
+    void _set_index(int value);
+    // Get instance field: System.Int32 length
+    int _get_length();
+    // Set instance field: System.Int32 length
+    void _set_length(int value);
+    // Get instance field: System.DTSubStringType type
+    System::DTSubStringType _get_type();
+    // Set instance field: System.DTSubStringType type
+    void _set_type(System::DTSubStringType value);
+    // Get instance field: System.Int32 value
+    int _get_value();
+    // Set instance field: System.Int32 value
+    void _set_value(int value);
     // System.Char get_Item(System.Int32 relativeIndex)
     // Offset: 0xEEB4DC
     ::Il2CppChar get_Item(int relativeIndex);

@@ -313,6 +313,10 @@ namespace System::Net {
     static System::Net::HttpStatusCode _get_HttpVersionNotSupported();
     // Set static field: static public System.Net.HttpStatusCode HttpVersionNotSupported
     static void _set_HttpVersionNotSupported(System::Net::HttpStatusCode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.HttpStatusCode
   #pragma pack(pop)
   static check_size<sizeof(HttpStatusCode), 0 + sizeof(int)> __System_Net_HttpStatusCodeSizeCheck;

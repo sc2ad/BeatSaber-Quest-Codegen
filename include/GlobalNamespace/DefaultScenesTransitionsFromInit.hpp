@@ -61,6 +61,22 @@ namespace GlobalNamespace {
     DefaultScenesTransitionsFromInit(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* healthWarningScenesTransitionSetupData_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* mainMenuScenesTransitionSetupData_ = {}, GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* shaderWarmupScenesTransitionSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : healthWarningScenesTransitionSetupData{healthWarningScenesTransitionSetupData_}, mainMenuScenesTransitionSetupData{mainMenuScenesTransitionSetupData_}, shaderWarmupScenesTransitionSetupData{shaderWarmupScenesTransitionSetupData_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HealthWarningScenesTransitionSetupDataSO _healthWarningScenesTransitionSetupData
+    GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* _get__healthWarningScenesTransitionSetupData();
+    // Set instance field: private HealthWarningScenesTransitionSetupDataSO _healthWarningScenesTransitionSetupData
+    void _set__healthWarningScenesTransitionSetupData(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* value);
+    // Get instance field: private MenuScenesTransitionSetupDataSO _mainMenuScenesTransitionSetupData
+    GlobalNamespace::MenuScenesTransitionSetupDataSO* _get__mainMenuScenesTransitionSetupData();
+    // Set instance field: private MenuScenesTransitionSetupDataSO _mainMenuScenesTransitionSetupData
+    void _set__mainMenuScenesTransitionSetupData(GlobalNamespace::MenuScenesTransitionSetupDataSO* value);
+    // Get instance field: private ShaderWarmupScenesTransitionSetupDataSO _shaderWarmupScenesTransitionSetupData
+    GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* _get__shaderWarmupScenesTransitionSetupData();
+    // Set instance field: private ShaderWarmupScenesTransitionSetupDataSO _shaderWarmupScenesTransitionSetupData
+    void _set__shaderWarmupScenesTransitionSetupData(GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* value);
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
     // Offset: 0x10891C0
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();

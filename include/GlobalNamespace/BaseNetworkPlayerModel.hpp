@@ -118,6 +118,34 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModel*>(this);
     }
+    // Get instance field: private ConnectedPlayerManager _connectedPlayerManager
+    GlobalNamespace::ConnectedPlayerManager* _get__connectedPlayerManager();
+    // Set instance field: private ConnectedPlayerManager _connectedPlayerManager
+    void _set__connectedPlayerManager(GlobalNamespace::ConnectedPlayerManager* value);
+    // Get instance field: private INetworkPlayerModel _partyManager
+    GlobalNamespace::INetworkPlayerModel* _get__partyManager();
+    // Set instance field: private INetworkPlayerModel _partyManager
+    void _set__partyManager(GlobalNamespace::INetworkPlayerModel* value);
+    // Get instance field: private GameplayServerConfiguration _configuration
+    GlobalNamespace::GameplayServerConfiguration _get__configuration();
+    // Set instance field: private GameplayServerConfiguration _configuration
+    void _set__configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field: private BeatmapLevelSelectionMask _selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get__selectionMask();
+    // Set instance field: private BeatmapLevelSelectionMask _selectionMask
+    void _set__selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: private System.Boolean <discoveryEnabled>k__BackingField
+    bool _get_$discoveryEnabled$k__BackingField();
+    // Set instance field: private System.Boolean <discoveryEnabled>k__BackingField
+    void _set_$discoveryEnabled$k__BackingField(bool value);
+    // Get instance field: private System.Action`1<INetworkPlayerModel> connectedPlayerManagerCreatedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayerModel*>* _get_connectedPlayerManagerCreatedEvent();
+    // Set instance field: private System.Action`1<INetworkPlayerModel> connectedPlayerManagerCreatedEvent
+    void _set_connectedPlayerManagerCreatedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
+    // Get instance field: private System.Action`1<INetworkPlayerModel> connectedPlayerManagerDestroyedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayerModel*>* _get_connectedPlayerManagerDestroyedEvent();
+    // Set instance field: private System.Action`1<INetworkPlayerModel> connectedPlayerManagerDestroyedEvent
+    void _set_connectedPlayerManagerDestroyedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public ConnectedPlayerManager get_connectedPlayerManager()
     // Offset: 0x118431C
     GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();

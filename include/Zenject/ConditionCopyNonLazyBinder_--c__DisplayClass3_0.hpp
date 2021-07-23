@@ -44,6 +44,10 @@ namespace Zenject {
     constexpr operator ::Array<System::Type*>*() const noexcept {
       return targets;
     }
+    // Get instance field: public System.Type[] targets
+    ::Array<System::Type*>* _get_targets();
+    // Set instance field: public System.Type[] targets
+    void _set_targets(::Array<System::Type*>* value);
     // System.Boolean <WhenInjectedInto>b__0(Zenject.InjectContext r)
     // Offset: 0x137D500
     bool $WhenInjectedInto$b__0(Zenject::InjectContext* r);

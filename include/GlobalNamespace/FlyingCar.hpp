@@ -53,6 +53,26 @@ namespace GlobalNamespace {
     FlyingCar(float startZ_ = {}, float endZ_ = {}, float speed_ = {}, float progress_ = {}, UnityEngine::Vector3 pos_ = {}) noexcept : startZ{startZ_}, endZ{endZ_}, speed{speed_}, progress{progress_}, pos{pos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _startZ
+    float _get__startZ();
+    // Set instance field: private System.Single _startZ
+    void _set__startZ(float value);
+    // Get instance field: private System.Single _endZ
+    float _get__endZ();
+    // Set instance field: private System.Single _endZ
+    void _set__endZ(float value);
+    // Get instance field: private System.Single _speed
+    float _get__speed();
+    // Set instance field: private System.Single _speed
+    void _set__speed(float value);
+    // Get instance field: private System.Single _progress
+    float _get__progress();
+    // Set instance field: private System.Single _progress
+    void _set__progress(float value);
+    // Get instance field: private UnityEngine.Vector3 _pos
+    UnityEngine::Vector3 _get__pos();
+    // Set instance field: private UnityEngine.Vector3 _pos
+    void _set__pos(UnityEngine::Vector3 value);
     // protected System.Void Start()
     // Offset: 0x1029C90
     void Start();

@@ -60,6 +60,26 @@ namespace UnityEngine::Rendering {
     operator System::IEquatable_1<UnityEngine::Rendering::LODParameters>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::LODParameters>*>(this);
     }
+    // Get instance field: private System.Int32 m_IsOrthographic
+    int _get_m_IsOrthographic();
+    // Set instance field: private System.Int32 m_IsOrthographic
+    void _set_m_IsOrthographic(int value);
+    // Get instance field: private UnityEngine.Vector3 m_CameraPosition
+    UnityEngine::Vector3 _get_m_CameraPosition();
+    // Set instance field: private UnityEngine.Vector3 m_CameraPosition
+    void _set_m_CameraPosition(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single m_FieldOfView
+    float _get_m_FieldOfView();
+    // Set instance field: private System.Single m_FieldOfView
+    void _set_m_FieldOfView(float value);
+    // Get instance field: private System.Single m_OrthoSize
+    float _get_m_OrthoSize();
+    // Set instance field: private System.Single m_OrthoSize
+    void _set_m_OrthoSize(float value);
+    // Get instance field: private System.Int32 m_CameraPixelHeight
+    int _get_m_CameraPixelHeight();
+    // Set instance field: private System.Int32 m_CameraPixelHeight
+    void _set_m_CameraPixelHeight(int value);
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
     // Offset: 0xEF5994
     bool Equals(UnityEngine::Rendering::LODParameters other);

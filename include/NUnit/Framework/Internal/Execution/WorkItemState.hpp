@@ -49,6 +49,10 @@ namespace NUnit::Framework::Internal::Execution {
     static NUnit::Framework::Internal::Execution::WorkItemState _get_Complete();
     // Set static field: static public NUnit.Framework.Internal.Execution.WorkItemState Complete
     static void _set_Complete(NUnit::Framework::Internal::Execution::WorkItemState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // NUnit.Framework.Internal.Execution.WorkItemState
   #pragma pack(pop)
   static check_size<sizeof(WorkItemState), 0 + sizeof(int)> __NUnit_Framework_Internal_Execution_WorkItemStateSizeCheck;

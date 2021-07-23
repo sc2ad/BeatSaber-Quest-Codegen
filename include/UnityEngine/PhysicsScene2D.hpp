@@ -59,6 +59,10 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return m_Handle;
     }
+    // Get instance field: private System.Int32 m_Handle
+    int _get_m_Handle();
+    // Set instance field: private System.Int32 m_Handle
+    void _set_m_Handle(int value);
     // public System.Boolean Equals(UnityEngine.PhysicsScene2D other)
     // Offset: 0xF0F7A4
     bool Equals(UnityEngine::PhysicsScene2D other);

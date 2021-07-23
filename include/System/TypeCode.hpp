@@ -140,6 +140,10 @@ namespace System {
     static System::TypeCode _get_String();
     // Set static field: static public System.TypeCode String
     static void _set_String(System::TypeCode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.TypeCode
   #pragma pack(pop)
   static check_size<sizeof(TypeCode), 0 + sizeof(int)> __System_TypeCodeSizeCheck;

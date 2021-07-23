@@ -48,6 +48,14 @@ namespace GlobalNamespace {
     MainCamera(UnityEngine::Camera* camera_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : camera{camera_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Camera _camera
+    UnityEngine::Camera* _get__camera();
+    // Set instance field: private UnityEngine.Camera _camera
+    void _set__camera(UnityEngine::Camera* value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
     // public UnityEngine.Camera get_camera()
     // Offset: 0x1178C34
     UnityEngine::Camera* get_camera();

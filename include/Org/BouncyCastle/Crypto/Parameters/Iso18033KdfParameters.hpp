@@ -31,6 +31,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     constexpr operator ::Array<uint8_t>*() const noexcept {
       return seed;
     }
+    // Get instance field: private System.Byte[] seed
+    ::Array<uint8_t>* _get_seed();
+    // Set instance field: private System.Byte[] seed
+    void _set_seed(::Array<uint8_t>* value);
     // public System.Byte[] GetSeed()
     // Offset: 0x122C844
     ::Array<uint8_t>* GetSeed();

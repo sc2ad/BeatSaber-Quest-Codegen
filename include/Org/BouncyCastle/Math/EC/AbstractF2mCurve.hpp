@@ -55,6 +55,10 @@ namespace Org::BouncyCastle::Math::EC {
     constexpr operator ::Array<Org::BouncyCastle::Math::BigInteger*>*() const noexcept {
       return si;
     }
+    // Get instance field: private Org.BouncyCastle.Math.BigInteger[] si
+    ::Array<Org::BouncyCastle::Math::BigInteger*>* _get_si();
+    // Set instance field: private Org.BouncyCastle.Math.BigInteger[] si
+    void _set_si(::Array<Org::BouncyCastle::Math::BigInteger*>* value);
     // public System.Boolean get_IsKoblitz()
     // Offset: 0x1D2F1EC
     bool get_IsKoblitz();

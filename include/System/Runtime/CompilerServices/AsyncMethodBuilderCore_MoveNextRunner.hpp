@@ -51,6 +51,14 @@ namespace System::Runtime::CompilerServices {
     static System::Threading::ContextCallback* _get_s_invokeMoveNext();
     // Set static field: static private System.Threading.ContextCallback s_invokeMoveNext
     static void _set_s_invokeMoveNext(System::Threading::ContextCallback* value);
+    // Get instance field: private readonly System.Threading.ExecutionContext m_context
+    System::Threading::ExecutionContext* _get_m_context();
+    // Set instance field: private readonly System.Threading.ExecutionContext m_context
+    void _set_m_context(System::Threading::ExecutionContext* value);
+    // Get instance field: System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
+    System::Runtime::CompilerServices::IAsyncStateMachine* _get_m_stateMachine();
+    // Set instance field: System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
+    void _set_m_stateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* value);
     // System.Void .ctor(System.Threading.ExecutionContext context, System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0x13EE988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

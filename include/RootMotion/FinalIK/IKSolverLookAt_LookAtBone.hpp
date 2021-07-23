@@ -42,6 +42,10 @@ namespace RootMotion::FinalIK {
     constexpr operator UnityEngine::Vector3() const noexcept {
       return baseForwardOffsetEuler;
     }
+    // Get instance field: public UnityEngine.Vector3 baseForwardOffsetEuler
+    UnityEngine::Vector3 _get_baseForwardOffsetEuler();
+    // Set instance field: public UnityEngine.Vector3 baseForwardOffsetEuler
+    void _set_baseForwardOffsetEuler(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_forward()
     // Offset: 0x1C6BAB8
     UnityEngine::Vector3 get_forward();

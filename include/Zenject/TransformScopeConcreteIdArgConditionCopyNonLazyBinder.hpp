@@ -50,6 +50,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
     // Creating value type constructor for type: TransformScopeConcreteIdArgConditionCopyNonLazyBinder
     TransformScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::GameObjectCreationParameters* GameObjectInfo_ = {}) noexcept : GameObjectInfo{GameObjectInfo_} {}
+    // Get instance field: private Zenject.GameObjectCreationParameters <GameObjectInfo>k__BackingField
+    Zenject::GameObjectCreationParameters* _get_$GameObjectInfo$k__BackingField();
+    // Set instance field: private Zenject.GameObjectCreationParameters <GameObjectInfo>k__BackingField
+    void _set_$GameObjectInfo$k__BackingField(Zenject::GameObjectCreationParameters* value);
     // protected Zenject.GameObjectCreationParameters get_GameObjectInfo()
     // Offset: 0x16D5C18
     Zenject::GameObjectCreationParameters* get_GameObjectInfo();

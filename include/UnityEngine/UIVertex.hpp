@@ -91,6 +91,38 @@ namespace UnityEngine {
     static UnityEngine::UIVertex _get_simpleVert();
     // Set static field: static public UnityEngine.UIVertex simpleVert
     static void _set_simpleVert(UnityEngine::UIVertex value);
+    // Get instance field: public UnityEngine.Vector3 position
+    UnityEngine::Vector3 _get_position();
+    // Set instance field: public UnityEngine.Vector3 position
+    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 normal
+    UnityEngine::Vector3 _get_normal();
+    // Set instance field: public UnityEngine.Vector3 normal
+    void _set_normal(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector4 tangent
+    UnityEngine::Vector4 _get_tangent();
+    // Set instance field: public UnityEngine.Vector4 tangent
+    void _set_tangent(UnityEngine::Vector4 value);
+    // Get instance field: public UnityEngine.Color32 color
+    UnityEngine::Color32 _get_color();
+    // Set instance field: public UnityEngine.Color32 color
+    void _set_color(UnityEngine::Color32 value);
+    // Get instance field: public UnityEngine.Vector2 uv0
+    UnityEngine::Vector2 _get_uv0();
+    // Set instance field: public UnityEngine.Vector2 uv0
+    void _set_uv0(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 uv1
+    UnityEngine::Vector2 _get_uv1();
+    // Set instance field: public UnityEngine.Vector2 uv1
+    void _set_uv1(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 uv2
+    UnityEngine::Vector2 _get_uv2();
+    // Set instance field: public UnityEngine.Vector2 uv2
+    void _set_uv2(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 uv3
+    UnityEngine::Vector2 _get_uv3();
+    // Set instance field: public UnityEngine.Vector2 uv3
+    void _set_uv3(UnityEngine::Vector2 value);
     // static private System.Void .cctor()
     // Offset: 0x23BE624
     static void _cctor();

@@ -41,6 +41,18 @@ namespace System::Diagnostics {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: DebuggerDisplayAttribute
     DebuggerDisplayAttribute(::Il2CppString* name_ = {}, ::Il2CppString* value_ = {}, ::Il2CppString* type_ = {}) noexcept : name{name_}, value{value_}, type{type_} {}
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: private System.String value
+    ::Il2CppString* _get_value();
+    // Set instance field: private System.String value
+    void _set_value(::Il2CppString* value);
+    // Get instance field: private System.String type
+    ::Il2CppString* _get_type();
+    // Set instance field: private System.String type
+    void _set_type(::Il2CppString* value);
     // public System.Void .ctor(System.String value)
     // Offset: 0x1B227C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

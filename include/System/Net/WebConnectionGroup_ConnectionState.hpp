@@ -64,6 +64,22 @@ namespace System::Net {
     operator System::Net::IWebConnectionState() noexcept {
       return *reinterpret_cast<System::Net::IWebConnectionState*>(this);
     }
+    // Get instance field: private System.Net.WebConnection <Connection>k__BackingField
+    System::Net::WebConnection* _get_$Connection$k__BackingField();
+    // Set instance field: private System.Net.WebConnection <Connection>k__BackingField
+    void _set_$Connection$k__BackingField(System::Net::WebConnection* value);
+    // Get instance field: private System.Net.WebConnectionGroup <Group>k__BackingField
+    System::Net::WebConnectionGroup* _get_$Group$k__BackingField();
+    // Set instance field: private System.Net.WebConnectionGroup <Group>k__BackingField
+    void _set_$Group$k__BackingField(System::Net::WebConnectionGroup* value);
+    // Get instance field: private System.Boolean busy
+    bool _get_busy();
+    // Set instance field: private System.Boolean busy
+    void _set_busy(bool value);
+    // Get instance field: private System.DateTime idleSince
+    System::DateTime _get_idleSince();
+    // Set instance field: private System.DateTime idleSince
+    void _set_idleSince(System::DateTime value);
     // public System.Net.WebConnection get_Connection()
     // Offset: 0x1596FD4
     System::Net::WebConnection* get_Connection();

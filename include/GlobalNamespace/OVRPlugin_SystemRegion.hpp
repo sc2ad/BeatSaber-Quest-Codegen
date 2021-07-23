@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemRegion _get_China();
     // Set static field: static public OVRPlugin/SystemRegion China
     static void _set_China(GlobalNamespace::OVRPlugin::SystemRegion value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/SystemRegion
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::SystemRegion), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SystemRegionSizeCheck;

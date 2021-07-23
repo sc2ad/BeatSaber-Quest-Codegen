@@ -59,6 +59,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass26_0
     $$c__DisplayClass26_0(System::Collections::Generic::HashSet_1<int>* common_ = {}, System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__1_ = {}, System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__2_ = {}) noexcept : common{common_}, $$9__1{$$9__1_}, $$9__2{$$9__2_} {}
+    // Get instance field: public System.Collections.Generic.HashSet`1<System.Int32> common
+    System::Collections::Generic::HashSet_1<int>* _get_common();
+    // Set instance field: public System.Collections.Generic.HashSet`1<System.Int32> common
+    void _set_common(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__1
+    System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* _get_$$9__1();
+    // Set instance field: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__1
+    void _set_$$9__1(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* value);
+    // Get instance field: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__2
+    System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* _get_$$9__2();
+    // Set instance field: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__2
+    void _set_$$9__2(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* value);
     // System.Boolean <FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge w)
     // Offset: 0x1523938
     bool $FindHoles$b__1(UnityEngine::ProBuilder::WingedEdge* w);

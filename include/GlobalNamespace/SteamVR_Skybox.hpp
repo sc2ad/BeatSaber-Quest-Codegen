@@ -80,6 +80,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::SteamVR_Skybox::CellSize _get_x8();
       // Set static field: static public SteamVR_Skybox/CellSize x8
       static void _set_x8(GlobalNamespace::SteamVR_Skybox::CellSize value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // SteamVR_Skybox/CellSize
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
@@ -136,6 +140,38 @@ namespace GlobalNamespace {
     SteamVR_Skybox(UnityEngine::Texture* front_ = {}, UnityEngine::Texture* back_ = {}, UnityEngine::Texture* left_ = {}, UnityEngine::Texture* right_ = {}, UnityEngine::Texture* top_ = {}, UnityEngine::Texture* bottom_ = {}, GlobalNamespace::SteamVR_Skybox::CellSize StereoCellSize_ = {}, float StereoIpdMm_ = {}) noexcept : front{front_}, back{back_}, left{left_}, right{right_}, top{top_}, bottom{bottom_}, StereoCellSize{StereoCellSize_}, StereoIpdMm{StereoIpdMm_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Texture front
+    UnityEngine::Texture* _get_front();
+    // Set instance field: public UnityEngine.Texture front
+    void _set_front(UnityEngine::Texture* value);
+    // Get instance field: public UnityEngine.Texture back
+    UnityEngine::Texture* _get_back();
+    // Set instance field: public UnityEngine.Texture back
+    void _set_back(UnityEngine::Texture* value);
+    // Get instance field: public UnityEngine.Texture left
+    UnityEngine::Texture* _get_left();
+    // Set instance field: public UnityEngine.Texture left
+    void _set_left(UnityEngine::Texture* value);
+    // Get instance field: public UnityEngine.Texture right
+    UnityEngine::Texture* _get_right();
+    // Set instance field: public UnityEngine.Texture right
+    void _set_right(UnityEngine::Texture* value);
+    // Get instance field: public UnityEngine.Texture top
+    UnityEngine::Texture* _get_top();
+    // Set instance field: public UnityEngine.Texture top
+    void _set_top(UnityEngine::Texture* value);
+    // Get instance field: public UnityEngine.Texture bottom
+    UnityEngine::Texture* _get_bottom();
+    // Set instance field: public UnityEngine.Texture bottom
+    void _set_bottom(UnityEngine::Texture* value);
+    // Get instance field: public SteamVR_Skybox/CellSize StereoCellSize
+    GlobalNamespace::SteamVR_Skybox::CellSize _get_StereoCellSize();
+    // Set instance field: public SteamVR_Skybox/CellSize StereoCellSize
+    void _set_StereoCellSize(GlobalNamespace::SteamVR_Skybox::CellSize value);
+    // Get instance field: public System.Single StereoIpdMm
+    float _get_StereoIpdMm();
+    // Set instance field: public System.Single StereoIpdMm
+    void _set_StereoIpdMm(float value);
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
     // Offset: 0x13B34EC
     void SetTextureByIndex(int i, UnityEngine::Texture* t);

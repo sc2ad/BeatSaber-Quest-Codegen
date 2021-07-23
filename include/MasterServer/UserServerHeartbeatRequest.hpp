@@ -70,6 +70,22 @@ namespace MasterServer {
     operator MasterServer::IUserClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
     }
+    // Get instance field: private System.String <userId>k__BackingField
+    ::Il2CppString* _get_$userId$k__BackingField();
+    // Set instance field: private System.String <userId>k__BackingField
+    void _set_$userId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <userName>k__BackingField
+    ::Il2CppString* _get_$userName$k__BackingField();
+    // Set instance field: private System.String <userName>k__BackingField
+    void _set_$userName$k__BackingField(::Il2CppString* value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.Int32 currentPlayerCount
+    int _get_currentPlayerCount();
+    // Set instance field: public System.Int32 currentPlayerCount
+    void _set_currentPlayerCount(int value);
     // static public PacketPool`1<MasterServer.UserServerHeartbeatRequest> get_pool()
     // Offset: 0x152B028
     static GlobalNamespace::PacketPool_1<MasterServer::UserServerHeartbeatRequest*>* get_pool();

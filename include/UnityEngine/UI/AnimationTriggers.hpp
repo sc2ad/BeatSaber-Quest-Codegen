@@ -91,6 +91,26 @@ namespace UnityEngine::UI {
     static ::Il2CppString* _get_kDefaultDisabledAnimName();
     // Set static field: static private System.String kDefaultDisabledAnimName
     static void _set_kDefaultDisabledAnimName(::Il2CppString* value);
+    // Get instance field: private System.String m_NormalTrigger
+    ::Il2CppString* _get_m_NormalTrigger();
+    // Set instance field: private System.String m_NormalTrigger
+    void _set_m_NormalTrigger(::Il2CppString* value);
+    // Get instance field: private System.String m_HighlightedTrigger
+    ::Il2CppString* _get_m_HighlightedTrigger();
+    // Set instance field: private System.String m_HighlightedTrigger
+    void _set_m_HighlightedTrigger(::Il2CppString* value);
+    // Get instance field: private System.String m_PressedTrigger
+    ::Il2CppString* _get_m_PressedTrigger();
+    // Set instance field: private System.String m_PressedTrigger
+    void _set_m_PressedTrigger(::Il2CppString* value);
+    // Get instance field: private System.String m_SelectedTrigger
+    ::Il2CppString* _get_m_SelectedTrigger();
+    // Set instance field: private System.String m_SelectedTrigger
+    void _set_m_SelectedTrigger(::Il2CppString* value);
+    // Get instance field: private System.String m_DisabledTrigger
+    ::Il2CppString* _get_m_DisabledTrigger();
+    // Set instance field: private System.String m_DisabledTrigger
+    void _set_m_DisabledTrigger(::Il2CppString* value);
     // public System.String get_normalTrigger()
     // Offset: 0x140B59C
     ::Il2CppString* get_normalTrigger();

@@ -79,6 +79,22 @@ namespace UnityEngine::Playables {
     static double _get_DefaultDuration();
     // Set static field: static public readonly System.Double DefaultDuration
     static void _set_DefaultDuration(double value);
+    // Get instance field: private System.String m_StreamName
+    ::Il2CppString* _get_m_StreamName();
+    // Set instance field: private System.String m_StreamName
+    void _set_m_StreamName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Object m_SourceObject
+    UnityEngine::Object* _get_m_SourceObject();
+    // Set instance field: private UnityEngine.Object m_SourceObject
+    void _set_m_SourceObject(UnityEngine::Object* value);
+    // Get instance field: private System.Type m_SourceBindingType
+    System::Type* _get_m_SourceBindingType();
+    // Set instance field: private System.Type m_SourceBindingType
+    void _set_m_SourceBindingType(System::Type* value);
+    // Get instance field: private UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod m_CreateOutputMethod
+    UnityEngine::Playables::PlayableBinding::CreateOutputMethod* _get_m_CreateOutputMethod();
+    // Set instance field: private UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod m_CreateOutputMethod
+    void _set_m_CreateOutputMethod(UnityEngine::Playables::PlayableBinding::CreateOutputMethod* value);
     // public System.String get_streamName()
     // Offset: 0xEF9438
     ::Il2CppString* get_streamName();

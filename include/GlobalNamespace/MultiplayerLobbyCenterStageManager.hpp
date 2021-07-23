@@ -69,6 +69,26 @@ namespace GlobalNamespace {
     MultiplayerLobbyCenterStageManager(UnityEngine::Transform* centerObjectTransform_ = {}, GlobalNamespace::CenterStageScreenController* centerStageScreenController_ = {}, GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}) noexcept : centerObjectTransform{centerObjectTransform_}, centerStageScreenController{centerStageScreenController_}, lobbyStateDataModel{lobbyStateDataModel_}, innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _centerObjectTransform
+    UnityEngine::Transform* _get__centerObjectTransform();
+    // Set instance field: private UnityEngine.Transform _centerObjectTransform
+    void _set__centerObjectTransform(UnityEngine::Transform* value);
+    // Get instance field: private CenterStageScreenController _centerStageScreenController
+    GlobalNamespace::CenterStageScreenController* _get__centerStageScreenController();
+    // Set instance field: private CenterStageScreenController _centerStageScreenController
+    void _set__centerStageScreenController(GlobalNamespace::CenterStageScreenController* value);
+    // Get instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    GlobalNamespace::ILobbyStateDataModel* _get__lobbyStateDataModel();
+    // Set instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    void _set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel* value);
+    // Get instance field: private System.Single _innerCircleRadius
+    float _get__innerCircleRadius();
+    // Set instance field: private System.Single _innerCircleRadius
+    void _set__innerCircleRadius(float value);
+    // Get instance field: private System.Single _minOuterCircleRadius
+    float _get__minOuterCircleRadius();
+    // Set instance field: private System.Single _minOuterCircleRadius
+    void _set__minOuterCircleRadius(float value);
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
     // Offset: 0x23CF8F8
     void Init(float innerCircleRadius, float minOuterCircleRadius);

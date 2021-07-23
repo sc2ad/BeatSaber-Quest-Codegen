@@ -41,6 +41,10 @@ namespace TMPro::SpriteAssetUtilities {
     constexpr operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*() const noexcept {
       return frames;
     }
+    // Get instance field: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
+    System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* _get_frames();
+    // Set instance field: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
+    void _set_frames(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* value);
     // public System.Void .ctor()
     // Offset: 0x10BD6E4
     // Implemented from: System.Object

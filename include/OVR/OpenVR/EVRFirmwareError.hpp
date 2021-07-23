@@ -49,6 +49,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRFirmwareError _get_Fail();
     // Set static field: static public OVR.OpenVR.EVRFirmwareError Fail
     static void _set_Fail(OVR::OpenVR::EVRFirmwareError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRFirmwareError
   #pragma pack(pop)
   static check_size<sizeof(EVRFirmwareError), 0 + sizeof(int)> __OVR_OpenVR_EVRFirmwareErrorSizeCheck;

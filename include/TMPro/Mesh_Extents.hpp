@@ -40,6 +40,14 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.Vector2 min
+    UnityEngine::Vector2 _get_min();
+    // Set instance field: public UnityEngine.Vector2 min
+    void _set_min(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 max
+    UnityEngine::Vector2 _get_max();
+    // Set instance field: public UnityEngine.Vector2 max
+    void _set_max(UnityEngine::Vector2 value);
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
     // Offset: 0xED09F0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

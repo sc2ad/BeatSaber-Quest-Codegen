@@ -91,6 +91,26 @@ namespace UnityEngine::UI {
     static System::Comparison_1<UnityEngine::UI::ICanvasElement*>* _get_s_SortLayoutFunction();
     // Set static field: static private readonly System.Comparison`1<UnityEngine.UI.ICanvasElement> s_SortLayoutFunction
     static void _set_s_SortLayoutFunction(System::Comparison_1<UnityEngine::UI::ICanvasElement*>* value);
+    // Get instance field: private System.Boolean m_PerformingLayoutUpdate
+    bool _get_m_PerformingLayoutUpdate();
+    // Set instance field: private System.Boolean m_PerformingLayoutUpdate
+    void _set_m_PerformingLayoutUpdate(bool value);
+    // Get instance field: private System.Boolean m_PerformingGraphicUpdate
+    bool _get_m_PerformingGraphicUpdate();
+    // Set instance field: private System.Boolean m_PerformingGraphicUpdate
+    void _set_m_PerformingGraphicUpdate(bool value);
+    // Get instance field: private System.String[] m_CanvasUpdateProfilerStrings
+    ::Array<::Il2CppString*>* _get_m_CanvasUpdateProfilerStrings();
+    // Set instance field: private System.String[] m_CanvasUpdateProfilerStrings
+    void _set_m_CanvasUpdateProfilerStrings(::Array<::Il2CppString*>* value);
+    // Get instance field: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
+    UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* _get_m_LayoutRebuildQueue();
+    // Set instance field: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
+    void _set_m_LayoutRebuildQueue(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* value);
+    // Get instance field: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue
+    UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* _get_m_GraphicRebuildQueue();
+    // Set instance field: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue
+    void _set_m_GraphicRebuildQueue(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* value);
     // static public UnityEngine.UI.CanvasUpdateRegistry get_instance()
     // Offset: 0x140CF8C
     static UnityEngine::UI::CanvasUpdateRegistry* get_instance();

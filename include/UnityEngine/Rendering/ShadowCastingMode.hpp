@@ -55,6 +55,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::ShadowCastingMode _get_ShadowsOnly();
     // Set static field: static public UnityEngine.Rendering.ShadowCastingMode ShadowsOnly
     static void _set_ShadowsOnly(UnityEngine::Rendering::ShadowCastingMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.ShadowCastingMode
   #pragma pack(pop)
   static check_size<sizeof(ShadowCastingMode), 0 + sizeof(int)> __UnityEngine_Rendering_ShadowCastingModeSizeCheck;

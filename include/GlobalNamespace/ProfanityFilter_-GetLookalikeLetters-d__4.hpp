@@ -72,6 +72,26 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppChar>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Char <>2__current
+    ::Il2CppChar _get_$$2__current();
+    // Set instance field: private System.Char <>2__current
+    void _set_$$2__current(::Il2CppChar value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: private System.Char c
+    ::Il2CppChar _get_c();
+    // Set instance field: private System.Char c
+    void _set_c(::Il2CppChar value);
+    // Get instance field: public System.Char <>3__c
+    ::Il2CppChar _get_$$3__c();
+    // Set instance field: public System.Char <>3__c
+    void _set_$$3__c(::Il2CppChar value);
     // private System.Char System.Collections.Generic.IEnumerator<System.Char>.get_Current()
     // Offset: 0x230D9D8
     ::Il2CppChar System_Collections_Generic_IEnumerator$System_Char$_get_Current();

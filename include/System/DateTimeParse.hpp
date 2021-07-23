@@ -315,6 +315,10 @@ namespace System {
       static System::DateTimeParse::DS _get_DX_NNY();
       // Set static field: static public System.DateTimeParse/System.DS DX_NNY
       static void _set_DX_NNY(System::DateTimeParse::DS value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.DateTimeParse/System.DS
     #pragma pack(pop)
     static check_size<sizeof(DateTimeParse::DS), 0 + sizeof(int)> __System_DateTimeParse_DSSizeCheck;

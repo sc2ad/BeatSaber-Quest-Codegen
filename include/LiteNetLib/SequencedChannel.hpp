@@ -82,6 +82,38 @@ namespace LiteNetLib {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: SequencedChannel
     SequencedChannel(int localSequence_ = {}, uint16_t remoteSequence_ = {}, bool reliable_ = {}, LiteNetLib::NetPacket* lastPacket_ = {}, LiteNetLib::NetPacket* ackPacket_ = {}, bool mustSendAck_ = {}, uint8_t id_ = {}, int64_t lastPacketSendTime_ = {}) noexcept : localSequence{localSequence_}, remoteSequence{remoteSequence_}, reliable{reliable_}, lastPacket{lastPacket_}, ackPacket{ackPacket_}, mustSendAck{mustSendAck_}, id{id_}, lastPacketSendTime{lastPacketSendTime_} {}
+    // Get instance field: private System.Int32 _localSequence
+    int _get__localSequence();
+    // Set instance field: private System.Int32 _localSequence
+    void _set__localSequence(int value);
+    // Get instance field: private System.UInt16 _remoteSequence
+    uint16_t _get__remoteSequence();
+    // Set instance field: private System.UInt16 _remoteSequence
+    void _set__remoteSequence(uint16_t value);
+    // Get instance field: private readonly System.Boolean _reliable
+    bool _get__reliable();
+    // Set instance field: private readonly System.Boolean _reliable
+    void _set__reliable(bool value);
+    // Get instance field: private LiteNetLib.NetPacket _lastPacket
+    LiteNetLib::NetPacket* _get__lastPacket();
+    // Set instance field: private LiteNetLib.NetPacket _lastPacket
+    void _set__lastPacket(LiteNetLib::NetPacket* value);
+    // Get instance field: private readonly LiteNetLib.NetPacket _ackPacket
+    LiteNetLib::NetPacket* _get__ackPacket();
+    // Set instance field: private readonly LiteNetLib.NetPacket _ackPacket
+    void _set__ackPacket(LiteNetLib::NetPacket* value);
+    // Get instance field: private System.Boolean _mustSendAck
+    bool _get__mustSendAck();
+    // Set instance field: private System.Boolean _mustSendAck
+    void _set__mustSendAck(bool value);
+    // Get instance field: private readonly System.Byte _id
+    uint8_t _get__id();
+    // Set instance field: private readonly System.Byte _id
+    void _set__id(uint8_t value);
+    // Get instance field: private System.Int64 _lastPacketSendTime
+    int64_t _get__lastPacketSendTime();
+    // Set instance field: private System.Int64 _lastPacketSendTime
+    void _set__lastPacketSendTime(int64_t value);
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean reliable, System.Byte id)
     // Offset: 0x1BB9140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

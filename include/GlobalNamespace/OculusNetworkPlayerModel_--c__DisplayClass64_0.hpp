@@ -59,6 +59,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass64_0
     $$c__DisplayClass64_0(GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs_ = {}, uint64_t userId_ = {}) noexcept : $$4__this{$$4__this_}, tcs{tcs_}, userId{userId_} {}
+    // Get instance field: public OculusNetworkPlayerModel <>4__this
+    GlobalNamespace::OculusNetworkPlayerModel* _get_$$4__this();
+    // Set instance field: public OculusNetworkPlayerModel <>4__this
+    void _set_$$4__this(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs
+    System::Threading::Tasks::TaskCompletionSource_1<bool>* _get_tcs();
+    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs
+    void _set_tcs(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+    // Get instance field: public System.UInt64 userId
+    uint64_t _get_userId();
+    // Set instance field: public System.UInt64 userId
+    void _set_userId(uint64_t value);
     // System.Void <ShouldAcceptConnectionFromPlayer>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
     // Offset: 0x11F4294
     void $ShouldAcceptConnectionFromPlayer$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);

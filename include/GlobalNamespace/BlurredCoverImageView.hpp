@@ -80,6 +80,26 @@ namespace GlobalNamespace {
     BlurredCoverImageView(HMUI::ImageView* coverImage_ = {}, GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer_ = {}, ::Il2CppString* settingTextureForLevelId_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, UnityEngine::Texture2D* blurredCoverTexture_ = {}) noexcept : coverImage{coverImage_}, kawaseBlurRenderer{kawaseBlurRenderer_}, settingTextureForLevelId{settingTextureForLevelId_}, cancellationTokenSource{cancellationTokenSource_}, blurredCoverTexture{blurredCoverTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.ImageView _coverImage
+    HMUI::ImageView* _get__coverImage();
+    // Set instance field: private HMUI.ImageView _coverImage
+    void _set__coverImage(HMUI::ImageView* value);
+    // Get instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
+    GlobalNamespace::KawaseBlurRendererSO* _get__kawaseBlurRenderer();
+    // Set instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
+    void _set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO* value);
+    // Get instance field: private System.String _settingTextureForLevelId
+    ::Il2CppString* _get__settingTextureForLevelId();
+    // Set instance field: private System.String _settingTextureForLevelId
+    void _set__settingTextureForLevelId(::Il2CppString* value);
+    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
+    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field: private UnityEngine.Texture2D _blurredCoverTexture
+    UnityEngine::Texture2D* _get__blurredCoverTexture();
+    // Set instance field: private UnityEngine.Texture2D _blurredCoverTexture
+    void _set__blurredCoverTexture(UnityEngine::Texture2D* value);
     // protected System.Void OnDestroy()
     // Offset: 0x109D13C
     void OnDestroy();

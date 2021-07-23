@@ -58,6 +58,14 @@ namespace GlobalNamespace {
     NetworkPlayerEntitlementChecker(GlobalNamespace::IMenuRpcManager* rpcManager_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}) noexcept : rpcManager{rpcManager_}, additionalContentModel{additionalContentModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly IMenuRpcManager _rpcManager
+    GlobalNamespace::IMenuRpcManager* _get__rpcManager();
+    // Set instance field: private readonly IMenuRpcManager _rpcManager
+    void _set__rpcManager(GlobalNamespace::IMenuRpcManager* value);
+    // Get instance field: private readonly AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
+    // Set instance field: private readonly AdditionalContentModel _additionalContentModel
+    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
     // protected System.Void Start()
     // Offset: 0x10122D4
     void Start();

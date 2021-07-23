@@ -98,6 +98,38 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
     // Creating value type constructor for type: TbsCertificateList
     TbsCertificateList(Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}, Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* issuer_ = {}, Org::BouncyCastle::Asn1::X509::Time* thisUpdate_ = {}, Org::BouncyCastle::Asn1::X509::Time* nextUpdate_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* revokedCertificates_ = {}, Org::BouncyCastle::Asn1::X509::X509Extensions* crlExtensions_ = {}) noexcept : seq{seq_}, version{version_}, signature{signature_}, issuer{issuer_}, thisUpdate{thisUpdate_}, nextUpdate{nextUpdate_}, revokedCertificates{revokedCertificates_}, crlExtensions{crlExtensions_} {}
+    // Get instance field: Org.BouncyCastle.Asn1.Asn1Sequence seq
+    Org::BouncyCastle::Asn1::Asn1Sequence* _get_seq();
+    // Set instance field: Org.BouncyCastle.Asn1.Asn1Sequence seq
+    void _set_seq(Org::BouncyCastle::Asn1::Asn1Sequence* value);
+    // Get instance field: Org.BouncyCastle.Asn1.DerInteger version
+    Org::BouncyCastle::Asn1::DerInteger* _get_version();
+    // Set instance field: Org.BouncyCastle.Asn1.DerInteger version
+    void _set_version(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signature
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_signature();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signature
+    void _set_signature(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.X509Name issuer
+    Org::BouncyCastle::Asn1::X509::X509Name* _get_issuer();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.X509Name issuer
+    void _set_issuer(Org::BouncyCastle::Asn1::X509::X509Name* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.Time thisUpdate
+    Org::BouncyCastle::Asn1::X509::Time* _get_thisUpdate();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.Time thisUpdate
+    void _set_thisUpdate(Org::BouncyCastle::Asn1::X509::Time* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.Time nextUpdate
+    Org::BouncyCastle::Asn1::X509::Time* _get_nextUpdate();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.Time nextUpdate
+    void _set_nextUpdate(Org::BouncyCastle::Asn1::X509::Time* value);
+    // Get instance field: Org.BouncyCastle.Asn1.Asn1Sequence revokedCertificates
+    Org::BouncyCastle::Asn1::Asn1Sequence* _get_revokedCertificates();
+    // Set instance field: Org.BouncyCastle.Asn1.Asn1Sequence revokedCertificates
+    void _set_revokedCertificates(Org::BouncyCastle::Asn1::Asn1Sequence* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.X509Extensions crlExtensions
+    Org::BouncyCastle::Asn1::X509::X509Extensions* _get_crlExtensions();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.X509Extensions crlExtensions
+    void _set_crlExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions* value);
     // public System.Int32 get_Version()
     // Offset: 0x19D8150
     int get_Version();

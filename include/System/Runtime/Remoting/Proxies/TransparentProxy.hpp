@@ -59,6 +59,18 @@ namespace System::Runtime::Remoting::Proxies {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TransparentProxy
     TransparentProxy(System::Runtime::Remoting::Proxies::RealProxy* rp_ = {}, Mono::RuntimeRemoteClassHandle _class_ = {}, bool custom_type_info_ = {}) noexcept : rp{rp_}, _class{_class_}, custom_type_info{custom_type_info_} {}
+    // Get instance field: public System.Runtime.Remoting.Proxies.RealProxy _rp
+    System::Runtime::Remoting::Proxies::RealProxy* _get__rp();
+    // Set instance field: public System.Runtime.Remoting.Proxies.RealProxy _rp
+    void _set__rp(System::Runtime::Remoting::Proxies::RealProxy* value);
+    // Get instance field: private Mono.RuntimeRemoteClassHandle _class
+    Mono::RuntimeRemoteClassHandle _get__class();
+    // Set instance field: private Mono.RuntimeRemoteClassHandle _class
+    void _set__class(Mono::RuntimeRemoteClassHandle value);
+    // Get instance field: private System.Boolean _custom_type_info
+    bool _get__custom_type_info();
+    // Set instance field: private System.Boolean _custom_type_info
+    void _set__custom_type_info(bool value);
     // private System.Boolean get_IsContextBoundObject()
     // Offset: 0x1A0673C
     bool get_IsContextBoundObject();

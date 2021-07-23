@@ -48,6 +48,18 @@ namespace GlobalNamespace {
     AnimationStartParams(float timeOffset_ = {}, float speed_ = {}, UnityEngine::Animation* animation_ = {}) noexcept : timeOffset{timeOffset_}, speed{speed_}, animation{animation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _timeOffset
+    float _get__timeOffset();
+    // Set instance field: private System.Single _timeOffset
+    void _set__timeOffset(float value);
+    // Get instance field: private System.Single _speed
+    float _get__speed();
+    // Set instance field: private System.Single _speed
+    void _set__speed(float value);
+    // Get instance field: private UnityEngine.Animation _animation
+    UnityEngine::Animation* _get__animation();
+    // Set instance field: private UnityEngine.Animation _animation
+    void _set__animation(UnityEngine::Animation* value);
     // protected System.Void Start()
     // Offset: 0x120DE28
     void Start();

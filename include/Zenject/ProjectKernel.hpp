@@ -48,6 +48,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::SceneContextRegistry*) == 0x8);
     // Creating value type constructor for type: ProjectKernel
     ProjectKernel(Zenject::ZenjectSettings* settings_ = {}, Zenject::SceneContextRegistry* contextRegistry_ = {}) noexcept : settings{settings_}, contextRegistry{contextRegistry_} {}
+    // Get instance field: private Zenject.ZenjectSettings _settings
+    Zenject::ZenjectSettings* _get__settings();
+    // Set instance field: private Zenject.ZenjectSettings _settings
+    void _set__settings(Zenject::ZenjectSettings* value);
+    // Get instance field: private Zenject.SceneContextRegistry _contextRegistry
+    Zenject::SceneContextRegistry* _get__contextRegistry();
+    // Set instance field: private Zenject.SceneContextRegistry _contextRegistry
+    void _set__contextRegistry(Zenject::SceneContextRegistry* value);
     // public System.Void OnApplicationQuit()
     // Offset: 0x16CA7B4
     void OnApplicationQuit();

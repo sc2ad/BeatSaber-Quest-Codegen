@@ -50,6 +50,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: UnityLightWithId
     UnityLightWithId(UnityEngine::Light* light_ = {}, float intensity_ = {}, float minAlpha_ = {}) noexcept : light{light_}, intensity{intensity_}, minAlpha{minAlpha_} {}
+    // Get instance field: private UnityEngine.Light _light
+    UnityEngine::Light* _get__light();
+    // Set instance field: private UnityEngine.Light _light
+    void _set__light(UnityEngine::Light* value);
+    // Get instance field: private System.Single _intensity
+    float _get__intensity();
+    // Set instance field: private System.Single _intensity
+    void _set__intensity(float value);
+    // Get instance field: private System.Single _minAlpha
+    float _get__minAlpha();
+    // Set instance field: private System.Single _minAlpha
+    void _set__minAlpha(float value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1DFAD8C
     UnityEngine::Color get_color();

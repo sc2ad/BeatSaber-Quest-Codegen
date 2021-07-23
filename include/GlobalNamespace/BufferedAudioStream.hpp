@@ -90,6 +90,26 @@ namespace GlobalNamespace {
     static float _get_playbackDelayTimeSeconds();
     // Set static field: static private System.Single playbackDelayTimeSeconds
     static void _set_playbackDelayTimeSeconds(float value);
+    // Get instance field: private UnityEngine.AudioSource audio
+    UnityEngine::AudioSource* _get_audio();
+    // Set instance field: private UnityEngine.AudioSource audio
+    void _set_audio(UnityEngine::AudioSource* value);
+    // Get instance field: private System.Single[] audioBuffer
+    ::Array<float>* _get_audioBuffer();
+    // Set instance field: private System.Single[] audioBuffer
+    void _set_audioBuffer(::Array<float>* value);
+    // Get instance field: private System.Int32 writePos
+    int _get_writePos();
+    // Set instance field: private System.Int32 writePos
+    void _set_writePos(int value);
+    // Get instance field: private System.Single playbackDelayRemaining
+    float _get_playbackDelayRemaining();
+    // Set instance field: private System.Single playbackDelayRemaining
+    void _set_playbackDelayRemaining(float value);
+    // Get instance field: private System.Single remainingBufferTime
+    float _get_remainingBufferTime();
+    // Set instance field: private System.Single remainingBufferTime
+    void _set_remainingBufferTime(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audio)
     // Offset: 0x1C14F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

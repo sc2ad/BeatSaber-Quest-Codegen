@@ -59,6 +59,14 @@ namespace GlobalNamespace {
     static int _get__lightMap2PropertyId();
     // Set static field: static private readonly System.Int32 _lightMap2PropertyId
     static void _set__lightMap2PropertyId(int value);
+    // Get instance field: private LightmapDataSO _lightmapData
+    GlobalNamespace::LightmapDataSO* _get__lightmapData();
+    // Set instance field: private LightmapDataSO _lightmapData
+    void _set__lightmapData(GlobalNamespace::LightmapDataSO* value);
+    // Get instance field: private UnityEngine.Texture2D _blackTexture
+    UnityEngine::Texture2D* _get__blackTexture();
+    // Set instance field: private UnityEngine.Texture2D _blackTexture
+    void _set__blackTexture(UnityEngine::Texture2D* value);
     // public LightmapDataSO get_lightmapData()
     // Offset: 0x1182BD4
     GlobalNamespace::LightmapDataSO* get_lightmapData();

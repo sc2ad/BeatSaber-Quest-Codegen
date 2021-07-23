@@ -49,6 +49,10 @@ namespace LiteNetLib {
     static LiteNetLib::DisconnectResult _get_Disconnect();
     // Set static field: static public LiteNetLib.DisconnectResult Disconnect
     static void _set_Disconnect(LiteNetLib::DisconnectResult value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // LiteNetLib.DisconnectResult
   #pragma pack(pop)
   static check_size<sizeof(DisconnectResult), 0 + sizeof(int)> __LiteNetLib_DisconnectResultSizeCheck;

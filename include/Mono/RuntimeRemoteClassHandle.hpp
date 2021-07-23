@@ -41,6 +41,10 @@ namespace Mono {
     constexpr operator Mono::RuntimeStructs::RemoteClass*() const noexcept {
       return value;
     }
+    // Get instance field: private Mono.RuntimeStructs/Mono.RemoteClass* value
+    Mono::RuntimeStructs::RemoteClass* _get_value();
+    // Set instance field: private Mono.RuntimeStructs/Mono.RemoteClass* value
+    void _set_value(Mono::RuntimeStructs::RemoteClass* value);
     // Mono.RuntimeClassHandle get_ProxyClass()
     // Offset: 0xEECFD0
     Mono::RuntimeClassHandle get_ProxyClass();

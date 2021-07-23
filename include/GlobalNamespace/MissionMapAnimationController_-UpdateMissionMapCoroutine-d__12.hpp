@@ -72,6 +72,26 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public MissionMapAnimationController <>4__this
+    GlobalNamespace::MissionMapAnimationController* _get_$$4__this();
+    // Set instance field: public MissionMapAnimationController <>4__this
+    void _set_$$4__this(GlobalNamespace::MissionMapAnimationController* value);
+    // Get instance field: public MissionNode lastClearedMissionNode
+    GlobalNamespace::MissionNode* _get_lastClearedMissionNode();
+    // Set instance field: public MissionNode lastClearedMissionNode
+    void _set_lastClearedMissionNode(GlobalNamespace::MissionNode* value);
+    // Get instance field: public System.Action finishCallback
+    System::Action* _get_finishCallback();
+    // Set instance field: public System.Action finishCallback
+    void _set_finishCallback(System::Action* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x11343E4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

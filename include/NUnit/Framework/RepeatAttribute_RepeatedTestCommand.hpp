@@ -34,6 +34,10 @@ namespace NUnit::Framework {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RepeatedTestCommand
     RepeatedTestCommand(int repeatCount_ = {}) noexcept : repeatCount{repeatCount_} {}
+    // Get instance field: private System.Int32 repeatCount
+    int _get_repeatCount();
+    // Set instance field: private System.Int32 repeatCount
+    void _set_repeatCount(int value);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0x22473A4
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand

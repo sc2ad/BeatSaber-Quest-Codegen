@@ -43,6 +43,10 @@ namespace Polyglot {
     static Polyglot::GoogleDriveDownloadFormat _get_TSV();
     // Set static field: static public Polyglot.GoogleDriveDownloadFormat TSV
     static void _set_TSV(Polyglot::GoogleDriveDownloadFormat value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Polyglot.GoogleDriveDownloadFormat
   #pragma pack(pop)
   static check_size<sizeof(GoogleDriveDownloadFormat), 0 + sizeof(int)> __Polyglot_GoogleDriveDownloadFormatSizeCheck;

@@ -77,6 +77,22 @@ namespace GlobalNamespace {
     BeatmapCharacteristicSegmentedControlController(HMUI::IconSegmentedControl* segmentedControl_ = {}, System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectBeatmapCharacteristicEvent_ = {}, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* beatmapCharacteristics_ = {}) noexcept : segmentedControl{segmentedControl_}, didSelectBeatmapCharacteristicEvent{didSelectBeatmapCharacteristicEvent_}, selectedBeatmapCharacteristic{selectedBeatmapCharacteristic_}, beatmapCharacteristics{beatmapCharacteristics_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.IconSegmentedControl _segmentedControl
+    HMUI::IconSegmentedControl* _get__segmentedControl();
+    // Set instance field: private HMUI.IconSegmentedControl _segmentedControl
+    void _set__segmentedControl(HMUI::IconSegmentedControl* value);
+    // Get instance field: private System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
+    System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* _get_didSelectBeatmapCharacteristicEvent();
+    // Set instance field: private System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
+    void _set_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field: private BeatmapCharacteristicSO _selectedBeatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__selectedBeatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _selectedBeatmapCharacteristic
+    void _set__selectedBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private System.Collections.Generic.List`1<BeatmapCharacteristicSO> _beatmapCharacteristics
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* _get__beatmapCharacteristics();
+    // Set instance field: private System.Collections.Generic.List`1<BeatmapCharacteristicSO> _beatmapCharacteristics
+    void _set__beatmapCharacteristics(System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
     // Offset: 0x118B47C
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();

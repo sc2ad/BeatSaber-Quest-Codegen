@@ -57,6 +57,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
     // Creating value type constructor for type: StartServerParams
     StartServerParams(::Il2CppString* serverName_ = {}, ::Il2CppString* secret_ = {}, ::Il2CppString* password_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}) noexcept : serverName{serverName_}, secret{secret_}, password{password_}, selectionMask{selectionMask_}, configuration{configuration_} {}
+    // Get instance field: public System.String serverName
+    ::Il2CppString* _get_serverName();
+    // Set instance field: public System.String serverName
+    void _set_serverName(::Il2CppString* value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Void .ctor()
     // Offset: 0x152E8FC
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase

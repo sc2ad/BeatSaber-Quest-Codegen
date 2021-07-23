@@ -53,6 +53,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass14_0
     $$c__DisplayClass14_0(::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList_ = {}) noexcept : missionObjectives{missionObjectives_}, modifierParamsList{modifierParamsList_} {}
+    // Get instance field: public MissionObjective[] missionObjectives
+    ::Array<GlobalNamespace::MissionObjective*>* _get_missionObjectives();
+    // Set instance field: public MissionObjective[] missionObjectives
+    void _set_missionObjectives(::Array<GlobalNamespace::MissionObjective*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
+    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* _get_modifierParamsList();
+    // Set instance field: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
+    void _set_modifierParamsList(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* value);
     // System.Void <RefreshContent>b__0(System.Int32 idx, ObjectiveListItem objectiveListItem)
     // Offset: 0x11316D8
     void $RefreshContent$b__0(int idx, GlobalNamespace::ObjectiveListItem* objectiveListItem);

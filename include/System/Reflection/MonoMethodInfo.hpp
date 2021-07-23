@@ -74,6 +74,26 @@ namespace System::Reflection {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Type parent
+    System::Type* _get_parent();
+    // Set instance field: private System.Type parent
+    void _set_parent(System::Type* value);
+    // Get instance field: private System.Type ret
+    System::Type* _get_ret();
+    // Set instance field: private System.Type ret
+    void _set_ret(System::Type* value);
+    // Get instance field: System.Reflection.MethodAttributes attrs
+    System::Reflection::MethodAttributes _get_attrs();
+    // Set instance field: System.Reflection.MethodAttributes attrs
+    void _set_attrs(System::Reflection::MethodAttributes value);
+    // Get instance field: System.Reflection.MethodImplAttributes iattrs
+    System::Reflection::MethodImplAttributes _get_iattrs();
+    // Set instance field: System.Reflection.MethodImplAttributes iattrs
+    void _set_iattrs(System::Reflection::MethodImplAttributes value);
+    // Get instance field: private System.Reflection.CallingConventions callconv
+    System::Reflection::CallingConventions _get_callconv();
+    // Set instance field: private System.Reflection.CallingConventions callconv
+    void _set_callconv(System::Reflection::CallingConventions value);
     // static private System.Void get_method_info(System.IntPtr handle, out System.Reflection.MonoMethodInfo info)
     // Offset: 0x1CB1A54
     static void get_method_info(System::IntPtr handle, System::Reflection::MonoMethodInfo& info);

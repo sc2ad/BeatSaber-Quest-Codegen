@@ -52,6 +52,22 @@ namespace Oculus::Platform {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr dataArray
+    System::IntPtr _get_dataArray();
+    // Set instance field: public System.IntPtr dataArray
+    void _set_dataArray(System::IntPtr value);
+    // Get instance field: public System.UInt32 dataArrayCount
+    uint _get_dataArrayCount();
+    // Set instance field: public System.UInt32 dataArrayCount
+    void _set_dataArrayCount(uint value);
+    // Get instance field: public System.IntPtr criterionArray
+    System::IntPtr _get_criterionArray();
+    // Set instance field: public System.IntPtr criterionArray
+    void _set_criterionArray(System::IntPtr value);
+    // Get instance field: public System.UInt32 criterionArrayCount
+    uint _get_criterionArrayCount();
+    // Set instance field: public System.UInt32 criterionArrayCount
+    void _set_criterionArrayCount(uint value);
   }; // Oculus.Platform.CAPI/Oculus.Platform.ovrMatchmakingCustomQueryData
   #pragma pack(pop)
   static check_size<sizeof(CAPI::ovrMatchmakingCustomQueryData), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCustomQueryDataSizeCheck;

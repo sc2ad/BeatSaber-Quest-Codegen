@@ -31,6 +31,10 @@ namespace OVR::OpenVR {
     constexpr operator float() const noexcept {
       return progress;
     }
+    // Get instance field: public System.Single progress
+    float _get_progress();
+    // Set instance field: public System.Single progress
+    void _set_progress(float value);
   }; // OVR.OpenVR.VREvent_ScreenshotProgress_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_ScreenshotProgress_t), 0 + sizeof(float)> __OVR_OpenVR_VREvent_ScreenshotProgress_tSizeCheck;

@@ -50,6 +50,14 @@ namespace HMUI {
     Screen(HMUI::ViewController* rootViewController_ = {}, bool isBeingDestroyed_ = {}) noexcept : rootViewController{rootViewController_}, isBeingDestroyed{isBeingDestroyed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.ViewController _rootViewController
+    HMUI::ViewController* _get__rootViewController();
+    // Set instance field: private HMUI.ViewController _rootViewController
+    void _set__rootViewController(HMUI::ViewController* value);
+    // Get instance field: private System.Boolean _isBeingDestroyed
+    bool _get__isBeingDestroyed();
+    // Set instance field: private System.Boolean _isBeingDestroyed
+    void _set__isBeingDestroyed(bool value);
     // public System.Boolean get_isBeingDestroyed()
     // Offset: 0x1296458
     bool get_isBeingDestroyed();

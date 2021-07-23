@@ -114,6 +114,58 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: IKSolverAim
     IKSolverAim(UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 axis_ = {}, UnityEngine::Vector3 poleAxis_ = {}, UnityEngine::Vector3 polePosition_ = {}, float poleWeight_ = {}, UnityEngine::Transform* poleTarget_ = {}, float clampWeight_ = {}, int clampSmoothing_ = {}, RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}, float step_ = {}, UnityEngine::Vector3 clampedIKPosition_ = {}, RootMotion::FinalIK::RotationLimit* transformLimit_ = {}, UnityEngine::Transform* lastTransform_ = {}) noexcept : transform{transform_}, axis{axis_}, poleAxis{poleAxis_}, polePosition{polePosition_}, poleWeight{poleWeight_}, poleTarget{poleTarget_}, clampWeight{clampWeight_}, clampSmoothing{clampSmoothing_}, OnPreIteration{OnPreIteration_}, step{step_}, clampedIKPosition{clampedIKPosition_}, transformLimit{transformLimit_}, lastTransform{lastTransform_} {}
+    // Get instance field: public UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: public UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Vector3 axis
+    UnityEngine::Vector3 _get_axis();
+    // Set instance field: public UnityEngine.Vector3 axis
+    void _set_axis(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 poleAxis
+    UnityEngine::Vector3 _get_poleAxis();
+    // Set instance field: public UnityEngine.Vector3 poleAxis
+    void _set_poleAxis(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 polePosition
+    UnityEngine::Vector3 _get_polePosition();
+    // Set instance field: public UnityEngine.Vector3 polePosition
+    void _set_polePosition(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single poleWeight
+    float _get_poleWeight();
+    // Set instance field: public System.Single poleWeight
+    void _set_poleWeight(float value);
+    // Get instance field: public UnityEngine.Transform poleTarget
+    UnityEngine::Transform* _get_poleTarget();
+    // Set instance field: public UnityEngine.Transform poleTarget
+    void _set_poleTarget(UnityEngine::Transform* value);
+    // Get instance field: public System.Single clampWeight
+    float _get_clampWeight();
+    // Set instance field: public System.Single clampWeight
+    void _set_clampWeight(float value);
+    // Get instance field: public System.Int32 clampSmoothing
+    int _get_clampSmoothing();
+    // Set instance field: public System.Int32 clampSmoothing
+    void _set_clampSmoothing(int value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
+    RootMotion::FinalIK::IKSolver::IterationDelegate* _get_OnPreIteration();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
+    void _set_OnPreIteration(RootMotion::FinalIK::IKSolver::IterationDelegate* value);
+    // Get instance field: private System.Single step
+    float _get_step();
+    // Set instance field: private System.Single step
+    void _set_step(float value);
+    // Get instance field: private UnityEngine.Vector3 clampedIKPosition
+    UnityEngine::Vector3 _get_clampedIKPosition();
+    // Set instance field: private UnityEngine.Vector3 clampedIKPosition
+    void _set_clampedIKPosition(UnityEngine::Vector3 value);
+    // Get instance field: private RootMotion.FinalIK.RotationLimit transformLimit
+    RootMotion::FinalIK::RotationLimit* _get_transformLimit();
+    // Set instance field: private RootMotion.FinalIK.RotationLimit transformLimit
+    void _set_transformLimit(RootMotion::FinalIK::RotationLimit* value);
+    // Get instance field: private UnityEngine.Transform lastTransform
+    UnityEngine::Transform* _get_lastTransform();
+    // Set instance field: private UnityEngine.Transform lastTransform
+    void _set_lastTransform(UnityEngine::Transform* value);
     // public UnityEngine.Vector3 get_transformAxis()
     // Offset: 0x1C5AE00
     UnityEngine::Vector3 get_transformAxis();

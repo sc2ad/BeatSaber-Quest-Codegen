@@ -62,6 +62,26 @@ namespace Org::BouncyCastle::Crypto::Prng {
     operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
     }
+    // Get instance field: private System.Int64 stateCounter
+    int64_t _get_stateCounter();
+    // Set instance field: private System.Int64 stateCounter
+    void _set_stateCounter(int64_t value);
+    // Get instance field: private System.Int64 seedCounter
+    int64_t _get_seedCounter();
+    // Set instance field: private System.Int64 seedCounter
+    void _set_seedCounter(int64_t value);
+    // Get instance field: private Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest* _get_digest();
+    // Set instance field: private Org.BouncyCastle.Crypto.IDigest digest
+    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field: private System.Byte[] state
+    ::Array<uint8_t>* _get_state();
+    // Set instance field: private System.Byte[] state
+    void _set_state(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] seed
+    ::Array<uint8_t>* _get_seed();
+    // Set instance field: private System.Byte[] seed
+    void _set_seed(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x122E294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

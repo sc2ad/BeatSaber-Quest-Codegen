@@ -82,6 +82,34 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVRScreenshots/Valve.VR._RequestScreenshot RequestScreenshot
+    Valve::VR::IVRScreenshots::_RequestScreenshot* _get_RequestScreenshot();
+    // Set instance field: Valve.VR.IVRScreenshots/Valve.VR._RequestScreenshot RequestScreenshot
+    void _set_RequestScreenshot(Valve::VR::IVRScreenshots::_RequestScreenshot* value);
+    // Get instance field: Valve.VR.IVRScreenshots/Valve.VR._HookScreenshot HookScreenshot
+    Valve::VR::IVRScreenshots::_HookScreenshot* _get_HookScreenshot();
+    // Set instance field: Valve.VR.IVRScreenshots/Valve.VR._HookScreenshot HookScreenshot
+    void _set_HookScreenshot(Valve::VR::IVRScreenshots::_HookScreenshot* value);
+    // Get instance field: Valve.VR.IVRScreenshots/Valve.VR._GetScreenshotPropertyType GetScreenshotPropertyType
+    Valve::VR::IVRScreenshots::_GetScreenshotPropertyType* _get_GetScreenshotPropertyType();
+    // Set instance field: Valve.VR.IVRScreenshots/Valve.VR._GetScreenshotPropertyType GetScreenshotPropertyType
+    void _set_GetScreenshotPropertyType(Valve::VR::IVRScreenshots::_GetScreenshotPropertyType* value);
+    // Get instance field: Valve.VR.IVRScreenshots/Valve.VR._GetScreenshotPropertyFilename GetScreenshotPropertyFilename
+    Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename* _get_GetScreenshotPropertyFilename();
+    // Set instance field: Valve.VR.IVRScreenshots/Valve.VR._GetScreenshotPropertyFilename GetScreenshotPropertyFilename
+    void _set_GetScreenshotPropertyFilename(Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename* value);
+    // Get instance field: Valve.VR.IVRScreenshots/Valve.VR._UpdateScreenshotProgress UpdateScreenshotProgress
+    Valve::VR::IVRScreenshots::_UpdateScreenshotProgress* _get_UpdateScreenshotProgress();
+    // Set instance field: Valve.VR.IVRScreenshots/Valve.VR._UpdateScreenshotProgress UpdateScreenshotProgress
+    void _set_UpdateScreenshotProgress(Valve::VR::IVRScreenshots::_UpdateScreenshotProgress* value);
+    // Get instance field: Valve.VR.IVRScreenshots/Valve.VR._TakeStereoScreenshot TakeStereoScreenshot
+    Valve::VR::IVRScreenshots::_TakeStereoScreenshot* _get_TakeStereoScreenshot();
+    // Set instance field: Valve.VR.IVRScreenshots/Valve.VR._TakeStereoScreenshot TakeStereoScreenshot
+    void _set_TakeStereoScreenshot(Valve::VR::IVRScreenshots::_TakeStereoScreenshot* value);
+    // Get instance field: Valve.VR.IVRScreenshots/Valve.VR._SubmitScreenshot SubmitScreenshot
+    Valve::VR::IVRScreenshots::_SubmitScreenshot* _get_SubmitScreenshot();
+    // Set instance field: Valve.VR.IVRScreenshots/Valve.VR._SubmitScreenshot SubmitScreenshot
+    void _set_SubmitScreenshot(Valve::VR::IVRScreenshots::_SubmitScreenshot* value);
   }; // Valve.VR.IVRScreenshots
   #pragma pack(pop)
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(Valve::VR::IVRScreenshots::_SubmitScreenshot*)> __Valve_VR_IVRScreenshotsSizeCheck;

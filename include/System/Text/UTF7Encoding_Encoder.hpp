@@ -42,6 +42,14 @@ namespace System::Text {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Encoder
     Encoder(int bits_ = {}, int bitCount_ = {}) noexcept : bits{bits_}, bitCount{bitCount_} {}
+    // Get instance field: System.Int32 bits
+    int _get_bits();
+    // Set instance field: System.Int32 bits
+    void _set_bits(int value);
+    // Get instance field: System.Int32 bitCount
+    int _get_bitCount();
+    // Set instance field: System.Int32 bitCount
+    void _set_bitCount(int value);
     // public System.Void .ctor(System.Text.UTF7Encoding encoding)
     // Offset: 0x1D27E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

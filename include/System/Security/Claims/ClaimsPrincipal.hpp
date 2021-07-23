@@ -86,6 +86,18 @@ namespace System::Security::Claims {
     static System::Func_1<System::Security::Claims::ClaimsPrincipal*>* _get_s_principalSelector();
     // Set static field: static private System.Func`1<System.Security.Claims.ClaimsPrincipal> s_principalSelector
     static void _set_s_principalSelector(System::Func_1<System::Security::Claims::ClaimsPrincipal*>* value);
+    // Get instance field: private System.String m_version
+    ::Il2CppString* _get_m_version();
+    // Set instance field: private System.String m_version
+    void _set_m_version(::Il2CppString* value);
+    // Get instance field: private System.String m_serializedClaimsIdentities
+    ::Il2CppString* _get_m_serializedClaimsIdentities();
+    // Set instance field: private System.String m_serializedClaimsIdentities
+    void _set_m_serializedClaimsIdentities(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Security.Claims.ClaimsIdentity> m_identities
+    System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>* _get_m_identities();
+    // Set instance field: private System.Collections.Generic.List`1<System.Security.Claims.ClaimsIdentity> m_identities
+    void _set_m_identities(System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>* value);
     // static public System.Func`1<System.Security.Claims.ClaimsPrincipal> get_ClaimsPrincipalSelector()
     // Offset: 0x19345E8
     static System::Func_1<System::Security::Claims::ClaimsPrincipal*>* get_ClaimsPrincipalSelector();

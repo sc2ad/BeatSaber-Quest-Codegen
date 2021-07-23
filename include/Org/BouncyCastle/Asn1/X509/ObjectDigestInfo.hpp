@@ -67,6 +67,22 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     // Creating value type constructor for type: ObjectDigestInfo
     ObjectDigestInfo(Org::BouncyCastle::Asn1::DerEnumerated* digestedObjectType_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* otherObjectTypeID_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm_ = {}, Org::BouncyCastle::Asn1::DerBitString* objectDigest_ = {}) noexcept : digestedObjectType{digestedObjectType_}, otherObjectTypeID{otherObjectTypeID_}, digestAlgorithm{digestAlgorithm_}, objectDigest{objectDigest_} {}
+    // Get instance field: readonly Org.BouncyCastle.Asn1.DerEnumerated digestedObjectType
+    Org::BouncyCastle::Asn1::DerEnumerated* _get_digestedObjectType();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.DerEnumerated digestedObjectType
+    void _set_digestedObjectType(Org::BouncyCastle::Asn1::DerEnumerated* value);
+    // Get instance field: readonly Org.BouncyCastle.Asn1.DerObjectIdentifier otherObjectTypeID
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_otherObjectTypeID();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.DerObjectIdentifier otherObjectTypeID
+    void _set_otherObjectTypeID(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier digestAlgorithm
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_digestAlgorithm();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier digestAlgorithm
+    void _set_digestAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field: readonly Org.BouncyCastle.Asn1.DerBitString objectDigest
+    Org::BouncyCastle::Asn1::DerBitString* _get_objectDigest();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.DerBitString objectDigest
+    void _set_objectDigest(Org::BouncyCastle::Asn1::DerBitString* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x19DBECC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

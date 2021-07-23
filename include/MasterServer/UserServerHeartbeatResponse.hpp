@@ -84,6 +84,10 @@ namespace MasterServer {
       static MasterServer::UserServerHeartbeatResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.UserServerHeartbeatResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::UserServerHeartbeatResponse::Result value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MasterServer.UserServerHeartbeatResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(UserServerHeartbeatResponse::Result), 0 + sizeof(int)> __MasterServer_UserServerHeartbeatResponse_ResultSizeCheck;
@@ -108,6 +112,10 @@ namespace MasterServer {
     constexpr operator MasterServer::UserServerHeartbeatResponse::Result() const noexcept {
       return result;
     }
+    // Get instance field: public MasterServer.UserServerHeartbeatResponse/MasterServer.Result result
+    MasterServer::UserServerHeartbeatResponse::Result _get_result();
+    // Set instance field: public MasterServer.UserServerHeartbeatResponse/MasterServer.Result result
+    void _set_result(MasterServer::UserServerHeartbeatResponse::Result value);
     // static public PacketPool`1<MasterServer.UserServerHeartbeatResponse> get_pool()
     // Offset: 0x152B1D0
     static GlobalNamespace::PacketPool_1<MasterServer::UserServerHeartbeatResponse*>* get_pool();

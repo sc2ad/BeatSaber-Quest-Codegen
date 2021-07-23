@@ -91,6 +91,26 @@ namespace Zenject {
     Context(System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers_ = {}, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* monoInstallers_ = {}, System::Collections::Generic::List_1<Zenject::MonoInstaller*>* installerPrefabs_ = {}, System::Collections::Generic::List_1<Zenject::InstallerBase*>* normalInstallers_ = {}, System::Collections::Generic::List_1<System::Type*>* normalInstallerTypes_ = {}) noexcept : scriptableObjectInstallers{scriptableObjectInstallers_}, monoInstallers{monoInstallers_}, installerPrefabs{installerPrefabs_}, normalInstallers{normalInstallers_}, normalInstallerTypes{normalInstallerTypes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _scriptableObjectInstallers
+    System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* _get__scriptableObjectInstallers();
+    // Set instance field: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _scriptableObjectInstallers
+    void _set__scriptableObjectInstallers(System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _monoInstallers
+    System::Collections::Generic::List_1<Zenject::MonoInstaller*>* _get__monoInstallers();
+    // Set instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _monoInstallers
+    void _set__monoInstallers(System::Collections::Generic::List_1<Zenject::MonoInstaller*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _installerPrefabs
+    System::Collections::Generic::List_1<Zenject::MonoInstaller*>* _get__installerPrefabs();
+    // Set instance field: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _installerPrefabs
+    void _set__installerPrefabs(System::Collections::Generic::List_1<Zenject::MonoInstaller*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<Zenject.InstallerBase> _normalInstallers
+    System::Collections::Generic::List_1<Zenject::InstallerBase*>* _get__normalInstallers();
+    // Set instance field: private System.Collections.Generic.List`1<Zenject.InstallerBase> _normalInstallers
+    void _set__normalInstallers(System::Collections::Generic::List_1<Zenject::InstallerBase*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Type> _normalInstallerTypes
+    System::Collections::Generic::List_1<System::Type*>* _get__normalInstallerTypes();
+    // Set instance field: private System.Collections.Generic.List`1<System.Type> _normalInstallerTypes
+    void _set__normalInstallerTypes(System::Collections::Generic::List_1<System::Type*>* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> get_Installers()
     // Offset: 0x137D6B0
     System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* get_Installers();

@@ -32,6 +32,10 @@ namespace UnityEngine::TestTools::Utils {
     constexpr operator ::Il2CppString*() const noexcept {
       return line;
     }
+    // Get instance field: public System.String line
+    ::Il2CppString* _get_line();
+    // Set instance field: public System.String line
+    void _set_line(::Il2CppString* value);
     // System.Boolean <Filter>b__0(System.String s)
     // Offset: 0x23B6334
     bool $Filter$b__0(::Il2CppString* s);

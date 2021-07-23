@@ -46,6 +46,14 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
     // Creating value type constructor for type: DHValidationParms
     DHValidationParms(Org::BouncyCastle::Asn1::DerBitString* seed_ = {}, Org::BouncyCastle::Asn1::DerInteger* pgenCounter_ = {}) noexcept : seed{seed_}, pgenCounter{pgenCounter_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerBitString seed
+    Org::BouncyCastle::Asn1::DerBitString* _get_seed();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerBitString seed
+    void _set_seed(Org::BouncyCastle::Asn1::DerBitString* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger pgenCounter
+    Org::BouncyCastle::Asn1::DerInteger* _get_pgenCounter();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger pgenCounter
+    void _set_pgenCounter(Org::BouncyCastle::Asn1::DerInteger* value);
     // public Org.BouncyCastle.Asn1.DerBitString get_Seed()
     // Offset: 0x19E3504
     Org::BouncyCastle::Asn1::DerBitString* get_Seed();

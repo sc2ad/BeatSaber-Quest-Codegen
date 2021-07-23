@@ -48,6 +48,18 @@ namespace UnityEngine::AddressableAssets::Utility {
     static_assert(sizeof(::Array<int>*) == 0x8);
     // Creating value type constructor for type: DiagnosticInfo
     DiagnosticInfo(::Il2CppString* DisplayName_ = {}, int ObjectId_ = {}, ::Array<int>* Dependencies_ = {}) noexcept : DisplayName{DisplayName_}, ObjectId{ObjectId_}, Dependencies{Dependencies_} {}
+    // Get instance field: public System.String DisplayName
+    ::Il2CppString* _get_DisplayName();
+    // Set instance field: public System.String DisplayName
+    void _set_DisplayName(::Il2CppString* value);
+    // Get instance field: public System.Int32 ObjectId
+    int _get_ObjectId();
+    // Set instance field: public System.Int32 ObjectId
+    void _set_ObjectId(int value);
+    // Get instance field: public System.Int32[] Dependencies
+    ::Array<int>* _get_Dependencies();
+    // Set instance field: public System.Int32[] Dependencies
+    void _set_Dependencies(::Array<int>* value);
     // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
     // Offset: 0x23937AC
     UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::Il2CppString* category, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);

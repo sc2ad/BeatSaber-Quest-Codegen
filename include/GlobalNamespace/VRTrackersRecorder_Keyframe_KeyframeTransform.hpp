@@ -43,6 +43,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: KeyframeTransform
     KeyframeTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}, bool valid_ = {}) noexcept : pos{pos_}, rot{rot_}, valid{valid_} {}
+    // Get instance field: public UnityEngine.Vector3 _pos
+    UnityEngine::Vector3 _get__pos();
+    // Set instance field: public UnityEngine.Vector3 _pos
+    void _set__pos(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion _rot
+    UnityEngine::Quaternion _get__rot();
+    // Set instance field: public UnityEngine.Quaternion _rot
+    void _set__rot(UnityEngine::Quaternion value);
+    // Get instance field: public System.Boolean _valid
+    bool _get__valid();
+    // Set instance field: public System.Boolean _valid
+    void _set__valid(bool value);
     // public System.Void .ctor()
     // Offset: 0x127BB8C
     // Implemented from: System.Object

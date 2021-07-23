@@ -49,6 +49,10 @@ namespace System::Runtime::Remoting::Messaging {
     constexpr operator System::Runtime::Remoting::Contexts::Context*() const noexcept {
       return context;
     }
+    // Get instance field: private System.Runtime.Remoting.Contexts.Context _context
+    System::Runtime::Remoting::Contexts::Context* _get__context();
+    // Set instance field: private System.Runtime.Remoting.Contexts.Context _context
+    void _set__context(System::Runtime::Remoting::Contexts::Context* value);
     // public System.Void .ctor(System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x19F6EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

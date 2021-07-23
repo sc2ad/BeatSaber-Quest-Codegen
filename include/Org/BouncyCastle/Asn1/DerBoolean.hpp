@@ -48,6 +48,10 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::DerBoolean* _get_True();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerBoolean True
     static void _set_True(Org::BouncyCastle::Asn1::DerBoolean* value);
+    // Get instance field: private readonly System.Byte value
+    uint8_t _get_value();
+    // Set instance field: private readonly System.Byte value
+    void _set_value(uint8_t value);
     // public System.Boolean get_IsTrue()
     // Offset: 0x16E7C94
     bool get_IsTrue();

@@ -150,6 +150,66 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: BeatmapCallbackItemDataList
     BeatmapCallbackItemDataList(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback_ = {}, System::Action* earlyEventsWereProcessedCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectDataList_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEventDataList_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ColorType, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* notesByColorType_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* bombNotes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ObstacleData*>* obstacles_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEarlyEvents_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapLateEvents_ = {}, float maxNotesAlignmentAngle_ = {}) noexcept : spawnBasicNoteCallback{spawnBasicNoteCallback_}, spawnBombNoteCallback{spawnBombNoteCallback_}, spawnObstacleCallback{spawnObstacleCallback_}, processEarlyBeatmapEventCallback{processEarlyBeatmapEventCallback_}, processLateBeatmapEventCallback{processLateBeatmapEventCallback_}, earlyEventsWereProcessedCallback{earlyEventsWereProcessedCallback_}, getRelativeNoteOffsetCallback{getRelativeNoteOffsetCallback_}, beatmapObjectDataList{beatmapObjectDataList_}, beatmapEventDataList{beatmapEventDataList_}, notesByColorType{notesByColorType_}, bombNotes{bombNotes_}, obstacles{obstacles_}, beatmapEarlyEvents{beatmapEarlyEvents_}, beatmapLateEvents{beatmapLateEvents_}, maxNotesAlignmentAngle{maxNotesAlignmentAngle_} {}
+    // Get instance field: private readonly BeatmapCallbackItemDataList/SpawnBasicNoteCallback _spawnBasicNoteCallback
+    GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* _get__spawnBasicNoteCallback();
+    // Set instance field: private readonly BeatmapCallbackItemDataList/SpawnBasicNoteCallback _spawnBasicNoteCallback
+    void _set__spawnBasicNoteCallback(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* value);
+    // Get instance field: private readonly BeatmapCallbackItemDataList/SpawnBombNoteCallback _spawnBombNoteCallback
+    GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* _get__spawnBombNoteCallback();
+    // Set instance field: private readonly BeatmapCallbackItemDataList/SpawnBombNoteCallback _spawnBombNoteCallback
+    void _set__spawnBombNoteCallback(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* value);
+    // Get instance field: private readonly BeatmapCallbackItemDataList/SpawnObstacleCallback _spawnObstacleCallback
+    GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* _get__spawnObstacleCallback();
+    // Set instance field: private readonly BeatmapCallbackItemDataList/SpawnObstacleCallback _spawnObstacleCallback
+    void _set__spawnObstacleCallback(GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* value);
+    // Get instance field: private readonly BeatmapCallbackItemDataList/ProcessBeatmapEventCallback _processEarlyBeatmapEventCallback
+    GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* _get__processEarlyBeatmapEventCallback();
+    // Set instance field: private readonly BeatmapCallbackItemDataList/ProcessBeatmapEventCallback _processEarlyBeatmapEventCallback
+    void _set__processEarlyBeatmapEventCallback(GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* value);
+    // Get instance field: private readonly BeatmapCallbackItemDataList/ProcessBeatmapEventCallback _processLateBeatmapEventCallback
+    GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* _get__processLateBeatmapEventCallback();
+    // Set instance field: private readonly BeatmapCallbackItemDataList/ProcessBeatmapEventCallback _processLateBeatmapEventCallback
+    void _set__processLateBeatmapEventCallback(GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* value);
+    // Get instance field: private readonly System.Action _earlyEventsWereProcessedCallback
+    System::Action* _get__earlyEventsWereProcessedCallback();
+    // Set instance field: private readonly System.Action _earlyEventsWereProcessedCallback
+    void _set__earlyEventsWereProcessedCallback(System::Action* value);
+    // Get instance field: private readonly BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback _getRelativeNoteOffsetCallback
+    GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* _get__getRelativeNoteOffsetCallback();
+    // Set instance field: private readonly BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback _getRelativeNoteOffsetCallback
+    void _set__getRelativeNoteOffsetCallback(GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataList
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* _get__beatmapObjectDataList();
+    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataList
+    void _set__beatmapObjectDataList(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventDataList
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* _get__beatmapEventDataList();
+    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventDataList
+    void _set__beatmapEventDataList(System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<ColorType,System.Collections.Generic.List`1<NoteData>> _notesByColorType
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::ColorType, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* _get__notesByColorType();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<ColorType,System.Collections.Generic.List`1<NoteData>> _notesByColorType
+    void _set__notesByColorType(System::Collections::Generic::Dictionary_2<GlobalNamespace::ColorType, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<NoteData> _bombNotes
+    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* _get__bombNotes();
+    // Set instance field: private readonly System.Collections.Generic.List`1<NoteData> _bombNotes
+    void _set__bombNotes(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<ObstacleData> _obstacles
+    System::Collections::Generic::List_1<GlobalNamespace::ObstacleData*>* _get__obstacles();
+    // Set instance field: private readonly System.Collections.Generic.List`1<ObstacleData> _obstacles
+    void _set__obstacles(System::Collections::Generic::List_1<GlobalNamespace::ObstacleData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEarlyEvents
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* _get__beatmapEarlyEvents();
+    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEarlyEvents
+    void _set__beatmapEarlyEvents(System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapLateEvents
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* _get__beatmapLateEvents();
+    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapLateEvents
+    void _set__beatmapLateEvents(System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* value);
+    // Get instance field: private System.Single _maxNotesAlignmentAngle
+    float _get__maxNotesAlignmentAngle();
+    // Set instance field: private System.Single _maxNotesAlignmentAngle
+    void _set__maxNotesAlignmentAngle(float value);
     // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnBasicNoteCallback spawnBasicNoteCallback, BeatmapCallbackItemDataList/SpawnBombNoteCallback spawnBombNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
     // Offset: 0x11887BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

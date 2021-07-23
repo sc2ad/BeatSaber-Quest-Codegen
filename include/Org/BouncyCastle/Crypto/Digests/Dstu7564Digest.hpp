@@ -109,6 +109,46 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<uint8_t>* _get_S3();
     // Set static field: static private readonly System.Byte[] S3
     static void _set_S3(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 hashSize
+    int _get_hashSize();
+    // Set instance field: private System.Int32 hashSize
+    void _set_hashSize(int value);
+    // Get instance field: private System.Int32 blockSize
+    int _get_blockSize();
+    // Set instance field: private System.Int32 blockSize
+    void _set_blockSize(int value);
+    // Get instance field: private System.Int32 columns
+    int _get_columns();
+    // Set instance field: private System.Int32 columns
+    void _set_columns(int value);
+    // Get instance field: private System.Int32 rounds
+    int _get_rounds();
+    // Set instance field: private System.Int32 rounds
+    void _set_rounds(int value);
+    // Get instance field: private System.UInt64[] state
+    ::Array<uint64_t>* _get_state();
+    // Set instance field: private System.UInt64[] state
+    void _set_state(::Array<uint64_t>* value);
+    // Get instance field: private System.UInt64[] tempState1
+    ::Array<uint64_t>* _get_tempState1();
+    // Set instance field: private System.UInt64[] tempState1
+    void _set_tempState1(::Array<uint64_t>* value);
+    // Get instance field: private System.UInt64[] tempState2
+    ::Array<uint64_t>* _get_tempState2();
+    // Set instance field: private System.UInt64[] tempState2
+    void _set_tempState2(::Array<uint64_t>* value);
+    // Get instance field: private System.UInt64 inputBlocks
+    uint64_t _get_inputBlocks();
+    // Set instance field: private System.UInt64 inputBlocks
+    void _set_inputBlocks(uint64_t value);
+    // Get instance field: private System.Int32 bufOff
+    int _get_bufOff();
+    // Set instance field: private System.Int32 bufOff
+    void _set_bufOff(int value);
+    // Get instance field: private System.Byte[] buf
+    ::Array<uint8_t>* _get_buf();
+    // Set instance field: private System.Byte[] buf
+    void _set_buf(::Array<uint8_t>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1D05318
     ::Il2CppString* get_AlgorithmName();

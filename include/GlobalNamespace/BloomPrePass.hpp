@@ -69,6 +69,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::BloomPrePass::Mode _get_SetDataOnly();
       // Set static field: static public BloomPrePass/Mode SetDataOnly
       static void _set_SetDataOnly(GlobalNamespace::BloomPrePass::Mode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // BloomPrePass/Mode
     #pragma pack(pop)
     static check_size<sizeof(BloomPrePass::Mode), 0 + sizeof(int)> __GlobalNamespace_BloomPrePass_ModeSizeCheck;
@@ -111,6 +115,26 @@ namespace GlobalNamespace {
     BloomPrePass(GlobalNamespace::BloomPrePassRendererSO* bloomPrepassRenderer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::BloomPrePassRenderDataSO* bloomPrePassRenderData_ = {}, GlobalNamespace::BloomPrePass::Mode mode_ = {}, GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData_ = {}) noexcept : bloomPrepassRenderer{bloomPrepassRenderer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, bloomPrePassRenderData{bloomPrePassRenderData_}, mode{mode_}, renderData{renderData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BloomPrePassRendererSO _bloomPrepassRenderer
+    GlobalNamespace::BloomPrePassRendererSO* _get__bloomPrepassRenderer();
+    // Set instance field: private BloomPrePassRendererSO _bloomPrepassRenderer
+    void _set__bloomPrepassRenderer(GlobalNamespace::BloomPrePassRendererSO* value);
+    // Get instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
+    GlobalNamespace::BloomPrePassEffectContainerSO* _get__bloomPrePassEffectContainer();
+    // Set instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
+    void _set__bloomPrePassEffectContainer(GlobalNamespace::BloomPrePassEffectContainerSO* value);
+    // Get instance field: private BloomPrePassRenderDataSO _bloomPrePassRenderData
+    GlobalNamespace::BloomPrePassRenderDataSO* _get__bloomPrePassRenderData();
+    // Set instance field: private BloomPrePassRenderDataSO _bloomPrePassRenderData
+    void _set__bloomPrePassRenderData(GlobalNamespace::BloomPrePassRenderDataSO* value);
+    // Get instance field: private BloomPrePass/Mode _mode
+    GlobalNamespace::BloomPrePass::Mode _get__mode();
+    // Set instance field: private BloomPrePass/Mode _mode
+    void _set__mode(GlobalNamespace::BloomPrePass::Mode value);
+    // Get instance field: private BloomPrePassRenderDataSO/Data _renderData
+    GlobalNamespace::BloomPrePassRenderDataSO::Data* _get__renderData();
+    // Set instance field: private BloomPrePassRenderDataSO/Data _renderData
+    void _set__renderData(GlobalNamespace::BloomPrePassRenderDataSO::Data* value);
     // protected System.Void Awake()
     // Offset: 0x1DEB034
     void Awake();

@@ -37,6 +37,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: SdkAccount
     SdkAccount(Oculus::Platform::SdkAccountType AccountType_ = {}, uint64_t UserId_ = {}) noexcept : AccountType{AccountType_}, UserId{UserId_} {}
+    // Get instance field: public readonly Oculus.Platform.SdkAccountType AccountType
+    Oculus::Platform::SdkAccountType _get_AccountType();
+    // Set instance field: public readonly Oculus.Platform.SdkAccountType AccountType
+    void _set_AccountType(Oculus::Platform::SdkAccountType value);
+    // Get instance field: public readonly System.UInt64 UserId
+    uint64_t _get_UserId();
+    // Set instance field: public readonly System.UInt64 UserId
+    void _set_UserId(uint64_t value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14AA684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

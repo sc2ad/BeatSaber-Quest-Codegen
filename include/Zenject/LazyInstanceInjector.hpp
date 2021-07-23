@@ -48,6 +48,14 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppObject*>*) == 0x8);
     // Creating value type constructor for type: LazyInstanceInjector
     LazyInstanceInjector(Zenject::DiContainer* container_ = {}, System::Collections::Generic::HashSet_1<::Il2CppObject*>* instancesToInject_ = {}) noexcept : container{container_}, instancesToInject{instancesToInject_} {}
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject
+    System::Collections::Generic::HashSet_1<::Il2CppObject*>* _get__instancesToInject();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject
+    void _set__instancesToInject(System::Collections::Generic::HashSet_1<::Il2CppObject*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Instances()
     // Offset: 0x16C4B18
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Instances();

@@ -35,6 +35,14 @@ namespace System::IO {
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
     // Creating value type constructor for type: PinnedBufferMemoryStream
     PinnedBufferMemoryStream(::Array<uint8_t>* array_ = {}, System::Runtime::InteropServices::GCHandle pinningHandle_ = {}) noexcept : array{array_}, pinningHandle{pinningHandle_} {}
+    // Get instance field: private System.Byte[] _array
+    ::Array<uint8_t>* _get__array();
+    // Set instance field: private System.Byte[] _array
+    void _set__array(::Array<uint8_t>* value);
+    // Get instance field: private System.Runtime.InteropServices.GCHandle _pinningHandle
+    System::Runtime::InteropServices::GCHandle _get__pinningHandle();
+    // Set instance field: private System.Runtime.InteropServices.GCHandle _pinningHandle
+    void _set__pinningHandle(System::Runtime::InteropServices::GCHandle value);
     // System.Void .ctor(System.Byte[] array)
     // Offset: 0x192BC88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

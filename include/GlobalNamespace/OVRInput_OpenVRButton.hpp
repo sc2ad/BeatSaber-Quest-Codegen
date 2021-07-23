@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::OpenVRButton _get_Grip();
     // Set static field: static public OVRInput/OpenVRButton Grip
     static void _set_Grip(GlobalNamespace::OVRInput::OpenVRButton value);
+    // Get instance field: public System.UInt64 value__
+    uint64_t _get_value__();
+    // Set instance field: public System.UInt64 value__
+    void _set_value__(uint64_t value);
   }; // OVRInput/OpenVRButton
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::OpenVRButton), 0 + sizeof(uint64_t)> __GlobalNamespace_OVRInput_OpenVRButtonSizeCheck;

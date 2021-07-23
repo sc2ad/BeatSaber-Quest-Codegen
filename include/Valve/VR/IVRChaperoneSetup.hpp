@@ -186,6 +186,86 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._CommitWorkingCopy CommitWorkingCopy
+    Valve::VR::IVRChaperoneSetup::_CommitWorkingCopy* _get_CommitWorkingCopy();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._CommitWorkingCopy CommitWorkingCopy
+    void _set_CommitWorkingCopy(Valve::VR::IVRChaperoneSetup::_CommitWorkingCopy* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._RevertWorkingCopy RevertWorkingCopy
+    Valve::VR::IVRChaperoneSetup::_RevertWorkingCopy* _get_RevertWorkingCopy();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._RevertWorkingCopy RevertWorkingCopy
+    void _set_RevertWorkingCopy(Valve::VR::IVRChaperoneSetup::_RevertWorkingCopy* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingPlayAreaSize GetWorkingPlayAreaSize
+    Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaSize* _get_GetWorkingPlayAreaSize();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingPlayAreaSize GetWorkingPlayAreaSize
+    void _set_GetWorkingPlayAreaSize(Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaSize* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingPlayAreaRect GetWorkingPlayAreaRect
+    Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaRect* _get_GetWorkingPlayAreaRect();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingPlayAreaRect GetWorkingPlayAreaRect
+    void _set_GetWorkingPlayAreaRect(Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaRect* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingCollisionBoundsInfo GetWorkingCollisionBoundsInfo
+    Valve::VR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo* _get_GetWorkingCollisionBoundsInfo();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingCollisionBoundsInfo GetWorkingCollisionBoundsInfo
+    void _set_GetWorkingCollisionBoundsInfo(Valve::VR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveCollisionBoundsInfo GetLiveCollisionBoundsInfo
+    Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo* _get_GetLiveCollisionBoundsInfo();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveCollisionBoundsInfo GetLiveCollisionBoundsInfo
+    void _set_GetLiveCollisionBoundsInfo(Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingSeatedZeroPoseToRawTrackingPose GetWorkingSeatedZeroPoseToRawTrackingPose
+    Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose* _get_GetWorkingSeatedZeroPoseToRawTrackingPose();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingSeatedZeroPoseToRawTrackingPose GetWorkingSeatedZeroPoseToRawTrackingPose
+    void _set_GetWorkingSeatedZeroPoseToRawTrackingPose(Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingStandingZeroPoseToRawTrackingPose GetWorkingStandingZeroPoseToRawTrackingPose
+    Valve::VR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose* _get_GetWorkingStandingZeroPoseToRawTrackingPose();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingStandingZeroPoseToRawTrackingPose GetWorkingStandingZeroPoseToRawTrackingPose
+    void _set_GetWorkingStandingZeroPoseToRawTrackingPose(Valve::VR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingPlayAreaSize SetWorkingPlayAreaSize
+    Valve::VR::IVRChaperoneSetup::_SetWorkingPlayAreaSize* _get_SetWorkingPlayAreaSize();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingPlayAreaSize SetWorkingPlayAreaSize
+    void _set_SetWorkingPlayAreaSize(Valve::VR::IVRChaperoneSetup::_SetWorkingPlayAreaSize* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingCollisionBoundsInfo SetWorkingCollisionBoundsInfo
+    Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo* _get_SetWorkingCollisionBoundsInfo();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingCollisionBoundsInfo SetWorkingCollisionBoundsInfo
+    void _set_SetWorkingCollisionBoundsInfo(Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingSeatedZeroPoseToRawTrackingPose SetWorkingSeatedZeroPoseToRawTrackingPose
+    Valve::VR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* _get_SetWorkingSeatedZeroPoseToRawTrackingPose();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingSeatedZeroPoseToRawTrackingPose SetWorkingSeatedZeroPoseToRawTrackingPose
+    void _set_SetWorkingSeatedZeroPoseToRawTrackingPose(Valve::VR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingStandingZeroPoseToRawTrackingPose SetWorkingStandingZeroPoseToRawTrackingPose
+    Valve::VR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose* _get_SetWorkingStandingZeroPoseToRawTrackingPose();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingStandingZeroPoseToRawTrackingPose SetWorkingStandingZeroPoseToRawTrackingPose
+    void _set_SetWorkingStandingZeroPoseToRawTrackingPose(Valve::VR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._ReloadFromDisk ReloadFromDisk
+    Valve::VR::IVRChaperoneSetup::_ReloadFromDisk* _get_ReloadFromDisk();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._ReloadFromDisk ReloadFromDisk
+    void _set_ReloadFromDisk(Valve::VR::IVRChaperoneSetup::_ReloadFromDisk* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveSeatedZeroPoseToRawTrackingPose GetLiveSeatedZeroPoseToRawTrackingPose
+    Valve::VR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose* _get_GetLiveSeatedZeroPoseToRawTrackingPose();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveSeatedZeroPoseToRawTrackingPose GetLiveSeatedZeroPoseToRawTrackingPose
+    void _set_GetLiveSeatedZeroPoseToRawTrackingPose(Valve::VR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingCollisionBoundsTagsInfo SetWorkingCollisionBoundsTagsInfo
+    Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo* _get_SetWorkingCollisionBoundsTagsInfo();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingCollisionBoundsTagsInfo SetWorkingCollisionBoundsTagsInfo
+    void _set_SetWorkingCollisionBoundsTagsInfo(Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveCollisionBoundsTagsInfo GetLiveCollisionBoundsTagsInfo
+    Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo* _get_GetLiveCollisionBoundsTagsInfo();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveCollisionBoundsTagsInfo GetLiveCollisionBoundsTagsInfo
+    void _set_GetLiveCollisionBoundsTagsInfo(Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingPhysicalBoundsInfo SetWorkingPhysicalBoundsInfo
+    Valve::VR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo* _get_SetWorkingPhysicalBoundsInfo();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._SetWorkingPhysicalBoundsInfo SetWorkingPhysicalBoundsInfo
+    void _set_SetWorkingPhysicalBoundsInfo(Valve::VR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLivePhysicalBoundsInfo GetLivePhysicalBoundsInfo
+    Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* _get_GetLivePhysicalBoundsInfo();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._GetLivePhysicalBoundsInfo GetLivePhysicalBoundsInfo
+    void _set_GetLivePhysicalBoundsInfo(Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._ExportLiveToBuffer ExportLiveToBuffer
+    Valve::VR::IVRChaperoneSetup::_ExportLiveToBuffer* _get_ExportLiveToBuffer();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._ExportLiveToBuffer ExportLiveToBuffer
+    void _set_ExportLiveToBuffer(Valve::VR::IVRChaperoneSetup::_ExportLiveToBuffer* value);
+    // Get instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._ImportFromBufferToWorking ImportFromBufferToWorking
+    Valve::VR::IVRChaperoneSetup::_ImportFromBufferToWorking* _get_ImportFromBufferToWorking();
+    // Set instance field: Valve.VR.IVRChaperoneSetup/Valve.VR._ImportFromBufferToWorking ImportFromBufferToWorking
+    void _set_ImportFromBufferToWorking(Valve::VR::IVRChaperoneSetup::_ImportFromBufferToWorking* value);
   }; // Valve.VR.IVRChaperoneSetup
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperoneSetup), 152 + sizeof(Valve::VR::IVRChaperoneSetup::_ImportFromBufferToWorking*)> __Valve_VR_IVRChaperoneSetupSizeCheck;

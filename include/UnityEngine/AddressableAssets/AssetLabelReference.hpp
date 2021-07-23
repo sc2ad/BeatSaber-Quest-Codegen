@@ -36,6 +36,10 @@ namespace UnityEngine::AddressableAssets {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_LabelString;
     }
+    // Get instance field: private System.String m_LabelString
+    ::Il2CppString* _get_m_LabelString();
+    // Set instance field: private System.String m_LabelString
+    void _set_m_LabelString(::Il2CppString* value);
     // public System.String get_labelString()
     // Offset: 0x13C4674
     ::Il2CppString* get_labelString();

@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::ScaleMode _get_ScaleToFit();
     // Set static field: static public UnityEngine.ScaleMode ScaleToFit
     static void _set_ScaleToFit(UnityEngine::ScaleMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ScaleMode
   #pragma pack(pop)
   static check_size<sizeof(ScaleMode), 0 + sizeof(int)> __UnityEngine_ScaleModeSizeCheck;

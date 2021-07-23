@@ -165,6 +165,82 @@ namespace GlobalNamespace {
     WaypointsTestGameplayManager(UnityEngine::Vector3 outerCapsuleStart_ = {}, UnityEngine::Vector3 outerCapsuleEnd_ = {}, float outerCapsuleRadius_ = {}, UnityEngine::Vector3 innerSphereOffset_ = {}, float innerSphereRadius_ = {}, UnityEngine::LayerMask layersToColliderWith_ = {}, GlobalNamespace::BTSCharacterSpawnController* characterSpawnController_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* levelSceneSetupData_ = {}, UnityEngine::Transform* target_ = {}, bool firstPosSaved_ = {}, bool speedSaved_ = {}, UnityEngine::Vector3 lastFramePos_ = {}, float lastFrameSpeed_ = {}, float biggestFrameSpeed_ = {}, float biggestFrameSpeedSongTime_ = {}, float biggestAcceleration_ = {}, float biggestAccelerationSongTime_ = {}) noexcept : outerCapsuleStart{outerCapsuleStart_}, outerCapsuleEnd{outerCapsuleEnd_}, outerCapsuleRadius{outerCapsuleRadius_}, innerSphereOffset{innerSphereOffset_}, innerSphereRadius{innerSphereRadius_}, layersToColliderWith{layersToColliderWith_}, characterSpawnController{characterSpawnController_}, audioTimeSource{audioTimeSource_}, standardSceneSetupData{standardSceneSetupData_}, levelSceneSetupData{levelSceneSetupData_}, target{target_}, firstPosSaved{firstPosSaved_}, speedSaved{speedSaved_}, lastFramePos{lastFramePos_}, lastFrameSpeed{lastFrameSpeed_}, biggestFrameSpeed{biggestFrameSpeed_}, biggestFrameSpeedSongTime{biggestFrameSpeedSongTime_}, biggestAcceleration{biggestAcceleration_}, biggestAccelerationSongTime{biggestAccelerationSongTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Vector3 _outerCapsuleStart
+    UnityEngine::Vector3 _get__outerCapsuleStart();
+    // Set instance field: private UnityEngine.Vector3 _outerCapsuleStart
+    void _set__outerCapsuleStart(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _outerCapsuleEnd
+    UnityEngine::Vector3 _get__outerCapsuleEnd();
+    // Set instance field: private UnityEngine.Vector3 _outerCapsuleEnd
+    void _set__outerCapsuleEnd(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _outerCapsuleRadius
+    float _get__outerCapsuleRadius();
+    // Set instance field: private System.Single _outerCapsuleRadius
+    void _set__outerCapsuleRadius(float value);
+    // Get instance field: private UnityEngine.Vector3 _innerSphereOffset
+    UnityEngine::Vector3 _get__innerSphereOffset();
+    // Set instance field: private UnityEngine.Vector3 _innerSphereOffset
+    void _set__innerSphereOffset(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _innerSphereRadius
+    float _get__innerSphereRadius();
+    // Set instance field: private System.Single _innerSphereRadius
+    void _set__innerSphereRadius(float value);
+    // Get instance field: private UnityEngine.LayerMask _layersToColliderWith
+    UnityEngine::LayerMask _get__layersToColliderWith();
+    // Set instance field: private UnityEngine.LayerMask _layersToColliderWith
+    void _set__layersToColliderWith(UnityEngine::LayerMask value);
+    // Get instance field: private readonly BTSCharacterSpawnController _characterSpawnController
+    GlobalNamespace::BTSCharacterSpawnController* _get__characterSpawnController();
+    // Set instance field: private readonly BTSCharacterSpawnController _characterSpawnController
+    void _set__characterSpawnController(GlobalNamespace::BTSCharacterSpawnController* value);
+    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
+    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
+    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
+    GlobalNamespace::StandardGameplaySceneSetupData* _get__standardSceneSetupData();
+    // Set instance field: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
+    void _set__standardSceneSetupData(GlobalNamespace::StandardGameplaySceneSetupData* value);
+    // Get instance field: private readonly GameplayCoreSceneSetupData _levelSceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData* _get__levelSceneSetupData();
+    // Set instance field: private readonly GameplayCoreSceneSetupData _levelSceneSetupData
+    void _set__levelSceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
+    // Get instance field: private UnityEngine.Transform _target
+    UnityEngine::Transform* _get__target();
+    // Set instance field: private UnityEngine.Transform _target
+    void _set__target(UnityEngine::Transform* value);
+    // Get instance field: private System.Boolean _firstPosSaved
+    bool _get__firstPosSaved();
+    // Set instance field: private System.Boolean _firstPosSaved
+    void _set__firstPosSaved(bool value);
+    // Get instance field: private System.Boolean _speedSaved
+    bool _get__speedSaved();
+    // Set instance field: private System.Boolean _speedSaved
+    void _set__speedSaved(bool value);
+    // Get instance field: private UnityEngine.Vector3 _lastFramePos
+    UnityEngine::Vector3 _get__lastFramePos();
+    // Set instance field: private UnityEngine.Vector3 _lastFramePos
+    void _set__lastFramePos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _lastFrameSpeed
+    float _get__lastFrameSpeed();
+    // Set instance field: private System.Single _lastFrameSpeed
+    void _set__lastFrameSpeed(float value);
+    // Get instance field: private System.Single _biggestFrameSpeed
+    float _get__biggestFrameSpeed();
+    // Set instance field: private System.Single _biggestFrameSpeed
+    void _set__biggestFrameSpeed(float value);
+    // Get instance field: private System.Single _biggestFrameSpeedSongTime
+    float _get__biggestFrameSpeedSongTime();
+    // Set instance field: private System.Single _biggestFrameSpeedSongTime
+    void _set__biggestFrameSpeedSongTime(float value);
+    // Get instance field: private System.Single _biggestAcceleration
+    float _get__biggestAcceleration();
+    // Set instance field: private System.Single _biggestAcceleration
+    void _set__biggestAcceleration(float value);
+    // Get instance field: private System.Single _biggestAccelerationSongTime
+    float _get__biggestAccelerationSongTime();
+    // Set instance field: private System.Single _biggestAccelerationSongTime
+    void _set__biggestAccelerationSongTime(float value);
     // protected System.Void Start()
     // Offset: 0x127D3F8
     void Start();

@@ -46,6 +46,18 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
+    System::Net::NetworkInformation::Win32LengthFlagsUnion _get_LengthFlags();
+    // Set instance field: public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
+    void _set_LengthFlags(System::Net::NetworkInformation::Win32LengthFlagsUnion value);
+    // Get instance field: public System.IntPtr Next
+    System::IntPtr _get_Next();
+    // Set instance field: public System.IntPtr Next
+    void _set_Next(System::IntPtr value);
+    // Get instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Address
+    System::Net::NetworkInformation::Win32_SOCKET_ADDRESS _get_Address();
+    // Set instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Address
+    void _set_Address(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS value);
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_GATEWAY_ADDRESS
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_GATEWAY_ADDRESS), 16 + sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_GATEWAY_ADDRESSSizeCheck;

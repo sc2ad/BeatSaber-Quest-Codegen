@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     LevelFailedTextEffect(UnityEngine::Animator* animator_ = {}) noexcept : animator{animator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Animator _animator
+    UnityEngine::Animator* _get__animator();
+    // Set instance field: private UnityEngine.Animator _animator
+    void _set__animator(UnityEngine::Animator* value);
     // public System.Void ShowEffect()
     // Offset: 0x10F6E08
     void ShowEffect();

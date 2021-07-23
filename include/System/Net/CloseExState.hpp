@@ -50,6 +50,10 @@ namespace System::Net {
     static System::Net::CloseExState _get_Silent();
     // Set static field: static public System.Net.CloseExState Silent
     static void _set_Silent(System::Net::CloseExState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.CloseExState
   #pragma pack(pop)
   static check_size<sizeof(CloseExState), 0 + sizeof(int)> __System_Net_CloseExStateSizeCheck;

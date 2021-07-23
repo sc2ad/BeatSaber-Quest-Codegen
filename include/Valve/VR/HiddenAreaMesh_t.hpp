@@ -36,6 +36,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr pVertexData
+    System::IntPtr _get_pVertexData();
+    // Set instance field: public System.IntPtr pVertexData
+    void _set_pVertexData(System::IntPtr value);
+    // Get instance field: public System.UInt32 unTriangleCount
+    uint _get_unTriangleCount();
+    // Set instance field: public System.UInt32 unTriangleCount
+    void _set_unTriangleCount(uint value);
   }; // Valve.VR.HiddenAreaMesh_t
   #pragma pack(pop)
   static check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint)> __Valve_VR_HiddenAreaMesh_tSizeCheck;

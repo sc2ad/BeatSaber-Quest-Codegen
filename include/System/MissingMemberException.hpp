@@ -47,6 +47,18 @@ namespace System {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: MissingMemberException
     MissingMemberException(::Il2CppString* ClassName_ = {}, ::Il2CppString* MemberName_ = {}, ::Array<uint8_t>* Signature_ = {}) noexcept : ClassName{ClassName_}, MemberName{MemberName_}, Signature{Signature_} {}
+    // Get instance field: protected System.String ClassName
+    ::Il2CppString* _get_ClassName();
+    // Set instance field: protected System.String ClassName
+    void _set_ClassName(::Il2CppString* value);
+    // Get instance field: protected System.String MemberName
+    ::Il2CppString* _get_MemberName();
+    // Set instance field: protected System.String MemberName
+    void _set_MemberName(::Il2CppString* value);
+    // Get instance field: protected System.Byte[] Signature
+    ::Array<uint8_t>* _get_Signature();
+    // Set instance field: protected System.Byte[] Signature
+    void _set_Signature(::Array<uint8_t>* value);
     // static System.String FormatSignature(System.Byte[] signature)
     // Offset: 0x17FD104
     static ::Il2CppString* FormatSignature(::Array<uint8_t>* signature);

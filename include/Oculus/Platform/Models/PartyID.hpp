@@ -31,6 +31,10 @@ namespace Oculus::Platform::Models {
     constexpr operator uint64_t() const noexcept {
       return _ID;
     }
+    // Get instance field: public readonly System.UInt64 ID
+    uint64_t _get_ID();
+    // Set instance field: public readonly System.UInt64 ID
+    void _set_ID(uint64_t value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A62FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

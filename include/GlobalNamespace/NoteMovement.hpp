@@ -83,6 +83,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::NoteMovement::MovementPhase _get_Jumping();
       // Set static field: static public NoteMovement/MovementPhase Jumping
       static void _set_Jumping(GlobalNamespace::NoteMovement::MovementPhase value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // NoteMovement/MovementPhase
     #pragma pack(pop)
     static check_size<sizeof(NoteMovement::MovementPhase), 0 + sizeof(int)> __GlobalNamespace_NoteMovement_MovementPhaseSizeCheck;
@@ -184,6 +188,66 @@ namespace GlobalNamespace {
     NoteMovement(GlobalNamespace::NoteFloorMovement* floorMovement_ = {}, GlobalNamespace::NoteJump* jump_ = {}, float zOffset_ = {}, System::Action* didInitEvent_ = {}, System::Action* noteDidStartJumpEvent_ = {}, System::Action* noteDidFinishJumpEvent_ = {}, System::Action* noteDidPassMissedMarkerEvent_ = {}, System::Action* noteDidPassHalfJumpEvent_ = {}, System::Action_1<GlobalNamespace::NoteMovement*>* noteDidPassJumpThreeQuartersEvent_ = {}, System::Action* noteDidMoveInJumpPhaseEvent_ = {}, GlobalNamespace::NoteMovement::MovementPhase movementPhase_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 prevPosition_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Vector3 prevLocalPosition_ = {}) noexcept : floorMovement{floorMovement_}, jump{jump_}, zOffset{zOffset_}, didInitEvent{didInitEvent_}, noteDidStartJumpEvent{noteDidStartJumpEvent_}, noteDidFinishJumpEvent{noteDidFinishJumpEvent_}, noteDidPassMissedMarkerEvent{noteDidPassMissedMarkerEvent_}, noteDidPassHalfJumpEvent{noteDidPassHalfJumpEvent_}, noteDidPassJumpThreeQuartersEvent{noteDidPassJumpThreeQuartersEvent_}, noteDidMoveInJumpPhaseEvent{noteDidMoveInJumpPhaseEvent_}, movementPhase{movementPhase_}, position{position_}, prevPosition{prevPosition_}, localPosition{localPosition_}, prevLocalPosition{prevLocalPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private NoteFloorMovement _floorMovement
+    GlobalNamespace::NoteFloorMovement* _get__floorMovement();
+    // Set instance field: private NoteFloorMovement _floorMovement
+    void _set__floorMovement(GlobalNamespace::NoteFloorMovement* value);
+    // Get instance field: private NoteJump _jump
+    GlobalNamespace::NoteJump* _get__jump();
+    // Set instance field: private NoteJump _jump
+    void _set__jump(GlobalNamespace::NoteJump* value);
+    // Get instance field: private System.Single _zOffset
+    float _get__zOffset();
+    // Set instance field: private System.Single _zOffset
+    void _set__zOffset(float value);
+    // Get instance field: private System.Action didInitEvent
+    System::Action* _get_didInitEvent();
+    // Set instance field: private System.Action didInitEvent
+    void _set_didInitEvent(System::Action* value);
+    // Get instance field: private System.Action noteDidStartJumpEvent
+    System::Action* _get_noteDidStartJumpEvent();
+    // Set instance field: private System.Action noteDidStartJumpEvent
+    void _set_noteDidStartJumpEvent(System::Action* value);
+    // Get instance field: private System.Action noteDidFinishJumpEvent
+    System::Action* _get_noteDidFinishJumpEvent();
+    // Set instance field: private System.Action noteDidFinishJumpEvent
+    void _set_noteDidFinishJumpEvent(System::Action* value);
+    // Get instance field: private System.Action noteDidPassMissedMarkerEvent
+    System::Action* _get_noteDidPassMissedMarkerEvent();
+    // Set instance field: private System.Action noteDidPassMissedMarkerEvent
+    void _set_noteDidPassMissedMarkerEvent(System::Action* value);
+    // Get instance field: private System.Action noteDidPassHalfJumpEvent
+    System::Action* _get_noteDidPassHalfJumpEvent();
+    // Set instance field: private System.Action noteDidPassHalfJumpEvent
+    void _set_noteDidPassHalfJumpEvent(System::Action* value);
+    // Get instance field: private System.Action`1<NoteMovement> noteDidPassJumpThreeQuartersEvent
+    System::Action_1<GlobalNamespace::NoteMovement*>* _get_noteDidPassJumpThreeQuartersEvent();
+    // Set instance field: private System.Action`1<NoteMovement> noteDidPassJumpThreeQuartersEvent
+    void _set_noteDidPassJumpThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteMovement*>* value);
+    // Get instance field: private System.Action noteDidMoveInJumpPhaseEvent
+    System::Action* _get_noteDidMoveInJumpPhaseEvent();
+    // Set instance field: private System.Action noteDidMoveInJumpPhaseEvent
+    void _set_noteDidMoveInJumpPhaseEvent(System::Action* value);
+    // Get instance field: private NoteMovement/MovementPhase <movementPhase>k__BackingField
+    GlobalNamespace::NoteMovement::MovementPhase _get_$movementPhase$k__BackingField();
+    // Set instance field: private NoteMovement/MovementPhase <movementPhase>k__BackingField
+    void _set_$movementPhase$k__BackingField(GlobalNamespace::NoteMovement::MovementPhase value);
+    // Get instance field: private UnityEngine.Vector3 _position
+    UnityEngine::Vector3 _get__position();
+    // Set instance field: private UnityEngine.Vector3 _position
+    void _set__position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _prevPosition
+    UnityEngine::Vector3 _get__prevPosition();
+    // Set instance field: private UnityEngine.Vector3 _prevPosition
+    void _set__prevPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _localPosition
+    UnityEngine::Vector3 _get__localPosition();
+    // Set instance field: private UnityEngine.Vector3 _localPosition
+    void _set__localPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _prevLocalPosition
+    UnityEngine::Vector3 _get__prevLocalPosition();
+    // Set instance field: private UnityEngine.Vector3 _prevLocalPosition
+    void _set__prevLocalPosition(UnityEngine::Vector3 value);
     // public NoteMovement/MovementPhase get_movementPhase()
     // Offset: 0x11E7B50
     GlobalNamespace::NoteMovement::MovementPhase get_movementPhase();

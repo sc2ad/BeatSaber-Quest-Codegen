@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::NetworkReachability _get_ReachableViaLocalAreaNetwork();
     // Set static field: static public UnityEngine.NetworkReachability ReachableViaLocalAreaNetwork
     static void _set_ReachableViaLocalAreaNetwork(UnityEngine::NetworkReachability value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.NetworkReachability
   #pragma pack(pop)
   static check_size<sizeof(NetworkReachability), 0 + sizeof(int)> __UnityEngine_NetworkReachabilitySizeCheck;

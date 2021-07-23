@@ -92,6 +92,46 @@ namespace System::Text {
     static_assert(sizeof(System::Text::DecoderFallbackBuffer*) == 0x8);
     // Creating value type constructor for type: EncodingCharBuffer
     EncodingCharBuffer(::Il2CppChar* chars_ = {}, ::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, int charCountResult_ = {}, System::Text::Encoding* enc_ = {}, System::Text::DecoderNLS* decoder_ = {}, uint8_t* byteStart_ = {}, uint8_t* byteEnd_ = {}, uint8_t* bytes_ = {}, System::Text::DecoderFallbackBuffer* fallbackBuffer_ = {}) noexcept : chars{chars_}, charStart{charStart_}, charEnd{charEnd_}, charCountResult{charCountResult_}, enc{enc_}, decoder{decoder_}, byteStart{byteStart_}, byteEnd{byteEnd_}, bytes{bytes_}, fallbackBuffer{fallbackBuffer_} {}
+    // Get instance field: private System.Char* chars
+    ::Il2CppChar* _get_chars();
+    // Set instance field: private System.Char* chars
+    void _set_chars(::Il2CppChar* value);
+    // Get instance field: private System.Char* charStart
+    ::Il2CppChar* _get_charStart();
+    // Set instance field: private System.Char* charStart
+    void _set_charStart(::Il2CppChar* value);
+    // Get instance field: private System.Char* charEnd
+    ::Il2CppChar* _get_charEnd();
+    // Set instance field: private System.Char* charEnd
+    void _set_charEnd(::Il2CppChar* value);
+    // Get instance field: private System.Int32 charCountResult
+    int _get_charCountResult();
+    // Set instance field: private System.Int32 charCountResult
+    void _set_charCountResult(int value);
+    // Get instance field: private System.Text.Encoding enc
+    System::Text::Encoding* _get_enc();
+    // Set instance field: private System.Text.Encoding enc
+    void _set_enc(System::Text::Encoding* value);
+    // Get instance field: private System.Text.DecoderNLS decoder
+    System::Text::DecoderNLS* _get_decoder();
+    // Set instance field: private System.Text.DecoderNLS decoder
+    void _set_decoder(System::Text::DecoderNLS* value);
+    // Get instance field: private System.Byte* byteStart
+    uint8_t* _get_byteStart();
+    // Set instance field: private System.Byte* byteStart
+    void _set_byteStart(uint8_t* value);
+    // Get instance field: private System.Byte* byteEnd
+    uint8_t* _get_byteEnd();
+    // Set instance field: private System.Byte* byteEnd
+    void _set_byteEnd(uint8_t* value);
+    // Get instance field: private System.Byte* bytes
+    uint8_t* _get_bytes();
+    // Set instance field: private System.Byte* bytes
+    void _set_bytes(uint8_t* value);
+    // Get instance field: private System.Text.DecoderFallbackBuffer fallbackBuffer
+    System::Text::DecoderFallbackBuffer* _get_fallbackBuffer();
+    // Set instance field: private System.Text.DecoderFallbackBuffer fallbackBuffer
+    void _set_fallbackBuffer(System::Text::DecoderFallbackBuffer* value);
     // System.Boolean get_MoreData()
     // Offset: 0x1D1AD88
     bool get_MoreData();

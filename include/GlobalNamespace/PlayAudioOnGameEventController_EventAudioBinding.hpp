@@ -68,6 +68,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
     // Creating value type constructor for type: EventAudioBinding
     EventAudioBinding(GlobalNamespace::Signal* signal_ = {}, float delay_ = {}, ::Array<GlobalNamespace::LocalizedAudioClipSO*>* localizedAudioClips_ = {}, GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker_ = {}) noexcept : signal{signal_}, delay{delay_}, localizedAudioClips{localizedAudioClips_}, audioClipQueue{audioClipQueue_}, randomObjectPicker{randomObjectPicker_} {}
+    // Get instance field: private Signal _signal
+    GlobalNamespace::Signal* _get__signal();
+    // Set instance field: private Signal _signal
+    void _set__signal(GlobalNamespace::Signal* value);
+    // Get instance field: private System.Single _delay
+    float _get__delay();
+    // Set instance field: private System.Single _delay
+    void _set__delay(float value);
+    // Get instance field: private LocalizedAudioClipSO[] _localizedAudioClips
+    ::Array<GlobalNamespace::LocalizedAudioClipSO*>* _get__localizedAudioClips();
+    // Set instance field: private LocalizedAudioClipSO[] _localizedAudioClips
+    void _set__localizedAudioClips(::Array<GlobalNamespace::LocalizedAudioClipSO*>* value);
+    // Get instance field: private AudioClipQueue _audioClipQueue
+    GlobalNamespace::AudioClipQueue* _get__audioClipQueue();
+    // Set instance field: private AudioClipQueue _audioClipQueue
+    void _set__audioClipQueue(GlobalNamespace::AudioClipQueue* value);
+    // Get instance field: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
+    GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* _get__randomObjectPicker();
+    // Set instance field: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
+    void _set__randomObjectPicker(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* value);
     // public System.Void Init(AudioClipQueue audioClipQueue)
     // Offset: 0x10FF0B4
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);

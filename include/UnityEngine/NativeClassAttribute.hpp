@@ -37,6 +37,14 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: NativeClassAttribute
     NativeClassAttribute(::Il2CppString* QualifiedNativeName_ = {}, ::Il2CppString* Declaration_ = {}) noexcept : QualifiedNativeName{QualifiedNativeName_}, Declaration{Declaration_} {}
+    // Get instance field: private System.String <QualifiedNativeName>k__BackingField
+    ::Il2CppString* _get_$QualifiedNativeName$k__BackingField();
+    // Set instance field: private System.String <QualifiedNativeName>k__BackingField
+    void _set_$QualifiedNativeName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <Declaration>k__BackingField
+    ::Il2CppString* _get_$Declaration$k__BackingField();
+    // Set instance field: private System.String <Declaration>k__BackingField
+    void _set_$Declaration$k__BackingField(::Il2CppString* value);
     // private System.Void set_QualifiedNativeName(System.String value)
     // Offset: 0x23C21E0
     void set_QualifiedNativeName(::Il2CppString* value);

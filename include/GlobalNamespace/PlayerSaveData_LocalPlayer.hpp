@@ -161,6 +161,90 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*) == 0x8);
     // Creating value type constructor for type: LocalPlayer
     LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, bool shouldShow360Warning_ = {}, bool agreedToEula_ = {}, bool didSelectLanguage_ = {}, bool agreedToMultiplayerDisclaimer_ = {}, bool avatarCreated_ = {}, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty_ = {}, ::Il2CppString* lastSelectedBeatmapCharacteristicName_ = {}, GlobalNamespace::PlayerSaveData::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveData::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveData::PracticeSettings* practiceSettings_ = {}, GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveData::ColorSchemesSettings* colorSchemesSettings_ = {}, GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings* overrideEnvironmentSettings_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* favoritesLevelIds_ = {}, GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, shouldShow360Warning{shouldShow360Warning_}, agreedToEula{agreedToEula_}, didSelectLanguage{didSelectLanguage_}, agreedToMultiplayerDisclaimer{agreedToMultiplayerDisclaimer_}, avatarCreated{avatarCreated_}, lastSelectedBeatmapDifficulty{lastSelectedBeatmapDifficulty_}, lastSelectedBeatmapCharacteristicName{lastSelectedBeatmapCharacteristicName_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, practiceSettings{practiceSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, colorSchemesSettings{colorSchemesSettings_}, overrideEnvironmentSettings{overrideEnvironmentSettings_}, favoritesLevelIds{favoritesLevelIds_}, multiplayerModeSettings{multiplayerModeSettings_} {}
+    // Get instance field: public System.String playerId
+    ::Il2CppString* _get_playerId();
+    // Set instance field: public System.String playerId
+    void _set_playerId(::Il2CppString* value);
+    // Get instance field: public System.String playerName
+    ::Il2CppString* _get_playerName();
+    // Set instance field: public System.String playerName
+    void _set_playerName(::Il2CppString* value);
+    // Get instance field: public System.Boolean shouldShowTutorialPrompt
+    bool _get_shouldShowTutorialPrompt();
+    // Set instance field: public System.Boolean shouldShowTutorialPrompt
+    void _set_shouldShowTutorialPrompt(bool value);
+    // Get instance field: public System.Boolean shouldShow360Warning
+    bool _get_shouldShow360Warning();
+    // Set instance field: public System.Boolean shouldShow360Warning
+    void _set_shouldShow360Warning(bool value);
+    // Get instance field: public System.Boolean agreedToEula
+    bool _get_agreedToEula();
+    // Set instance field: public System.Boolean agreedToEula
+    void _set_agreedToEula(bool value);
+    // Get instance field: public System.Boolean didSelectLanguage
+    bool _get_didSelectLanguage();
+    // Set instance field: public System.Boolean didSelectLanguage
+    void _set_didSelectLanguage(bool value);
+    // Get instance field: public System.Boolean agreedToMultiplayerDisclaimer
+    bool _get_agreedToMultiplayerDisclaimer();
+    // Set instance field: public System.Boolean agreedToMultiplayerDisclaimer
+    void _set_agreedToMultiplayerDisclaimer(bool value);
+    // Get instance field: public System.Boolean avatarCreated
+    bool _get_avatarCreated();
+    // Set instance field: public System.Boolean avatarCreated
+    void _set_avatarCreated(bool value);
+    // Get instance field: public BeatmapDifficulty lastSelectedBeatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get_lastSelectedBeatmapDifficulty();
+    // Set instance field: public BeatmapDifficulty lastSelectedBeatmapDifficulty
+    void _set_lastSelectedBeatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: public System.String lastSelectedBeatmapCharacteristicName
+    ::Il2CppString* _get_lastSelectedBeatmapCharacteristicName();
+    // Set instance field: public System.String lastSelectedBeatmapCharacteristicName
+    void _set_lastSelectedBeatmapCharacteristicName(::Il2CppString* value);
+    // Get instance field: public PlayerSaveData/GameplayModifiers gameplayModifiers
+    GlobalNamespace::PlayerSaveData::GameplayModifiers* _get_gameplayModifiers();
+    // Set instance field: public PlayerSaveData/GameplayModifiers gameplayModifiers
+    void _set_gameplayModifiers(GlobalNamespace::PlayerSaveData::GameplayModifiers* value);
+    // Get instance field: public PlayerSaveData/PlayerSpecificSettings playerSpecificSettings
+    GlobalNamespace::PlayerSaveData::PlayerSpecificSettings* _get_playerSpecificSettings();
+    // Set instance field: public PlayerSaveData/PlayerSpecificSettings playerSpecificSettings
+    void _set_playerSpecificSettings(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings* value);
+    // Get instance field: public PlayerSaveData/PracticeSettings practiceSettings
+    GlobalNamespace::PlayerSaveData::PracticeSettings* _get_practiceSettings();
+    // Set instance field: public PlayerSaveData/PracticeSettings practiceSettings
+    void _set_practiceSettings(GlobalNamespace::PlayerSaveData::PracticeSettings* value);
+    // Get instance field: public PlayerSaveData/PlayerAllOverallStatsData playerAllOverallStatsData
+    GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* _get_playerAllOverallStatsData();
+    // Set instance field: public PlayerSaveData/PlayerAllOverallStatsData playerAllOverallStatsData
+    void _set_playerAllOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* value);
+    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveData/PlayerLevelStatsData> levelsStatsData
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>* _get_levelsStatsData();
+    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/PlayerLevelStatsData> levelsStatsData
+    void _set_levelsStatsData(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<PlayerSaveData/PlayerMissionStatsData> missionsStatsData
+    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>* _get_missionsStatsData();
+    // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/PlayerMissionStatsData> missionsStatsData
+    void _set_missionsStatsData(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_showedMissionHelpIds();
+    // Set instance field: public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
+    void _set_showedMissionHelpIds(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: public PlayerSaveData/ColorSchemesSettings colorSchemesSettings
+    GlobalNamespace::PlayerSaveData::ColorSchemesSettings* _get_colorSchemesSettings();
+    // Set instance field: public PlayerSaveData/ColorSchemesSettings colorSchemesSettings
+    void _set_colorSchemesSettings(GlobalNamespace::PlayerSaveData::ColorSchemesSettings* value);
+    // Get instance field: public PlayerSaveData/OverrideEnvironmentSettings overrideEnvironmentSettings
+    GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings* _get_overrideEnvironmentSettings();
+    // Set instance field: public PlayerSaveData/OverrideEnvironmentSettings overrideEnvironmentSettings
+    void _set_overrideEnvironmentSettings(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.String> favoritesLevelIds
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_favoritesLevelIds();
+    // Set instance field: public System.Collections.Generic.List`1<System.String> favoritesLevelIds
+    void _set_favoritesLevelIds(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: public PlayerSaveData/MultiplayerModeSettings multiplayerModeSettings
+    GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* _get_multiplayerModeSettings();
+    // Set instance field: public PlayerSaveData/MultiplayerModeSettings multiplayerModeSettings
+    void _set_multiplayerModeSettings(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* value);
     // public System.Void .ctor()
     // Offset: 0x1102168
     // Implemented from: System.Object

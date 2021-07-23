@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     constexpr operator Org::BouncyCastle::Asn1::Asn1Object*() const noexcept {
       return time;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Object time
+    Org::BouncyCastle::Asn1::Asn1Object* _get_time();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Object time
+    void _set_time(Org::BouncyCastle::Asn1::Asn1Object* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object time)
     // Offset: 0x19DD9E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

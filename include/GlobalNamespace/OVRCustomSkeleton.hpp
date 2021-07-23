@@ -49,6 +49,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Transform*>*) == 0x8);
     // Creating value type constructor for type: OVRCustomSkeleton
     OVRCustomSkeleton(bool applyBoneTranslations_ = {}, System::Collections::Generic::List_1<UnityEngine::Transform*>* customBones_V2_ = {}) noexcept : applyBoneTranslations{applyBoneTranslations_}, customBones_V2{customBones_V2_} {}
+    // Get instance field: private System.Boolean _applyBoneTranslations
+    bool _get__applyBoneTranslations();
+    // Set instance field: private System.Boolean _applyBoneTranslations
+    void _set__applyBoneTranslations(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Transform> _customBones_V2
+    System::Collections::Generic::List_1<UnityEngine::Transform*>* _get__customBones_V2();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Transform> _customBones_V2
+    void _set__customBones_V2(System::Collections::Generic::List_1<UnityEngine::Transform*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.Transform> get_CustomBones()
     // Offset: 0x1253308
     System::Collections::Generic::List_1<UnityEngine::Transform*>* get_CustomBones();

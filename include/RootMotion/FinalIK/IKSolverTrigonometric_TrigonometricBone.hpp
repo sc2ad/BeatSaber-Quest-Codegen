@@ -37,6 +37,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: TrigonometricBone
     TrigonometricBone(UnityEngine::Quaternion targetToLocalSpace_ = {}, UnityEngine::Vector3 defaultLocalBendNormal_ = {}) noexcept : targetToLocalSpace{targetToLocalSpace_}, defaultLocalBendNormal{defaultLocalBendNormal_} {}
+    // Get instance field: private UnityEngine.Quaternion targetToLocalSpace
+    UnityEngine::Quaternion _get_targetToLocalSpace();
+    // Set instance field: private UnityEngine.Quaternion targetToLocalSpace
+    void _set_targetToLocalSpace(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 defaultLocalBendNormal
+    UnityEngine::Vector3 _get_defaultLocalBendNormal();
+    // Set instance field: private UnityEngine.Vector3 defaultLocalBendNormal
+    void _set_defaultLocalBendNormal(UnityEngine::Vector3 value);
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
     // Offset: 0x1C6D7DC
     void Initiate(UnityEngine::Vector3 childPosition, UnityEngine::Vector3 bendNormal);

@@ -67,6 +67,18 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);
     }
+    // Get instance field: private System.Action`1<Deeplink> didReceiveDeeplinkEvent
+    System::Action_1<GlobalNamespace::Deeplink*>* _get_didReceiveDeeplinkEvent();
+    // Set instance field: private System.Action`1<Deeplink> didReceiveDeeplinkEvent
+    void _set_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // Get instance field: private Deeplink _currentDeeplink
+    GlobalNamespace::Deeplink* _get__currentDeeplink();
+    // Set instance field: private Deeplink _currentDeeplink
+    void _set__currentDeeplink(GlobalNamespace::Deeplink* value);
+    // Get instance field: private System.Boolean _oculusPlatformWasInitialized
+    bool _get__oculusPlatformWasInitialized();
+    // Set instance field: private System.Boolean _oculusPlatformWasInitialized
+    void _set__oculusPlatformWasInitialized(bool value);
     // public Deeplink get_currentDeeplink()
     // Offset: 0x11F109C
     GlobalNamespace::Deeplink* get_currentDeeplink();

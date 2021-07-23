@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
     // Creating value type constructor for type: TextInfo
     TextInfo(Polyglot::Language language_ = {}, UnityEngine::TextAsset* localizedText_ = {}) noexcept : language{language_}, localizedText{localizedText_} {}
+    // Get instance field: public Polyglot.Language language
+    Polyglot::Language _get_language();
+    // Set instance field: public Polyglot.Language language
+    void _set_language(Polyglot::Language value);
+    // Get instance field: public UnityEngine.TextAsset localizedText
+    UnityEngine::TextAsset* _get_localizedText();
+    // Set instance field: public UnityEngine.TextAsset localizedText
+    void _set_localizedText(UnityEngine::TextAsset* value);
     // public System.Void .ctor()
     // Offset: 0x1178A54
     // Implemented from: System.Object

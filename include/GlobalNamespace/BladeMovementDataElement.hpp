@@ -54,6 +54,26 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single time
+    float _get_time();
+    // Set instance field: public System.Single time
+    void _set_time(float value);
+    // Get instance field: public System.Single segmentAngle
+    float _get_segmentAngle();
+    // Set instance field: public System.Single segmentAngle
+    void _set_segmentAngle(float value);
+    // Get instance field: public UnityEngine.Vector3 topPos
+    UnityEngine::Vector3 _get_topPos();
+    // Set instance field: public UnityEngine.Vector3 topPos
+    void _set_topPos(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 bottomPos
+    UnityEngine::Vector3 _get_bottomPos();
+    // Set instance field: public UnityEngine.Vector3 bottomPos
+    void _set_bottomPos(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 segmentNormal
+    UnityEngine::Vector3 _get_segmentNormal();
+    // Set instance field: public UnityEngine.Vector3 segmentNormal
+    void _set_segmentNormal(UnityEngine::Vector3 value);
   }; // BladeMovementDataElement
   #pragma pack(pop)
   static check_size<sizeof(BladeMovementDataElement), 32 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_BladeMovementDataElementSizeCheck;

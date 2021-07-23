@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     ObstacleDissolve(GlobalNamespace::ObstacleControllerBase* obstacleController_ = {}, GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect_ = {}) noexcept : obstacleController{obstacleController_}, cutoutAnimateEffect{cutoutAnimateEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ObstacleControllerBase _obstacleController
+    GlobalNamespace::ObstacleControllerBase* _get__obstacleController();
+    // Set instance field: private ObstacleControllerBase _obstacleController
+    void _set__obstacleController(GlobalNamespace::ObstacleControllerBase* value);
+    // Get instance field: private CutoutAnimateEffect _cutoutAnimateEffect
+    GlobalNamespace::CutoutAnimateEffect* _get__cutoutAnimateEffect();
+    // Set instance field: private CutoutAnimateEffect _cutoutAnimateEffect
+    void _set__cutoutAnimateEffect(GlobalNamespace::CutoutAnimateEffect* value);
     // protected System.Void Awake()
     // Offset: 0x11EA1CC
     void Awake();

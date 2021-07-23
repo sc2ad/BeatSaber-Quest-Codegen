@@ -56,6 +56,18 @@ namespace GlobalNamespace {
     static System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* _get__lineLights();
     // Set static field: static private System.Collections.Generic.List`1<LineLight> _lineLights
     static void _set__lineLights(System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* value);
+    // Get instance field: private UnityEngine.Vector3 _p0
+    UnityEngine::Vector3 _get__p0();
+    // Set instance field: private UnityEngine.Vector3 _p0
+    void _set__p0(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _p1
+    UnityEngine::Vector3 _get__p1();
+    // Set instance field: private UnityEngine.Vector3 _p1
+    void _set__p1(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
     // public UnityEngine.Vector3 get_p0()
     // Offset: 0x1DF4DD4
     UnityEngine::Vector3 get_p0();

@@ -34,6 +34,14 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass21_0
     $$c__DisplayClass21_0(HMUI::ModalView* $$4__this_ = {}, bool prevAnimateParentCanvas_ = {}) noexcept : $$4__this{$$4__this_}, prevAnimateParentCanvas{prevAnimateParentCanvas_} {}
+    // Get instance field: public HMUI.ModalView <>4__this
+    HMUI::ModalView* _get_$$4__this();
+    // Set instance field: public HMUI.ModalView <>4__this
+    void _set_$$4__this(HMUI::ModalView* value);
+    // Get instance field: public System.Boolean prevAnimateParentCanvas
+    bool _get_prevAnimateParentCanvas();
+    // Set instance field: public System.Boolean prevAnimateParentCanvas
+    void _set_prevAnimateParentCanvas(bool value);
     // System.Void <HandleParentViewControllerDidDeactivate>b__0()
     // Offset: 0x1293E88
     void $HandleParentViewControllerDidDeactivate$b__0();

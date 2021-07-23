@@ -42,6 +42,10 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::CreditsData::RootCreditsItem*>*() const noexcept {
       return creditsItems;
     }
+    // Get instance field: public CreditsData/RootCreditsItem[] creditsItems
+    ::Array<GlobalNamespace::CreditsData::RootCreditsItem*>* _get_creditsItems();
+    // Set instance field: public CreditsData/RootCreditsItem[] creditsItems
+    void _set_creditsItems(::Array<GlobalNamespace::CreditsData::RootCreditsItem*>* value);
     // static public CreditsData Deserialize(System.String text)
     // Offset: 0x108355C
     static GlobalNamespace::CreditsData* Deserialize(::Il2CppString* text);

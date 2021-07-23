@@ -96,6 +96,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: PlayerOverallStatsData
     PlayerOverallStatsData(int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCutsCount_ = {}, int64_t totalScore_ = {}, int playedLevelsCount_ = {}, int cleardLevelsCount_ = {}, int failedLevelsCount_ = {}, int fullComboCount_ = {}, float timePlayed_ = {}, int handDistanceTravelled_ = {}, int64_t cummulativeCutScoreWithoutMultiplier_ = {}) noexcept : goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCutsCount{missedCutsCount_}, totalScore{totalScore_}, playedLevelsCount{playedLevelsCount_}, cleardLevelsCount{cleardLevelsCount_}, failedLevelsCount{failedLevelsCount_}, fullComboCount{fullComboCount_}, timePlayed{timePlayed_}, handDistanceTravelled{handDistanceTravelled_}, cummulativeCutScoreWithoutMultiplier{cummulativeCutScoreWithoutMultiplier_} {}
+    // Get instance field: private System.Int32 <goodCutsCount>k__BackingField
+    int _get_$goodCutsCount$k__BackingField();
+    // Set instance field: private System.Int32 <goodCutsCount>k__BackingField
+    void _set_$goodCutsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <badCutsCount>k__BackingField
+    int _get_$badCutsCount$k__BackingField();
+    // Set instance field: private System.Int32 <badCutsCount>k__BackingField
+    void _set_$badCutsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <missedCutsCount>k__BackingField
+    int _get_$missedCutsCount$k__BackingField();
+    // Set instance field: private System.Int32 <missedCutsCount>k__BackingField
+    void _set_$missedCutsCount$k__BackingField(int value);
+    // Get instance field: private System.Int64 <totalScore>k__BackingField
+    int64_t _get_$totalScore$k__BackingField();
+    // Set instance field: private System.Int64 <totalScore>k__BackingField
+    void _set_$totalScore$k__BackingField(int64_t value);
+    // Get instance field: private System.Int32 <playedLevelsCount>k__BackingField
+    int _get_$playedLevelsCount$k__BackingField();
+    // Set instance field: private System.Int32 <playedLevelsCount>k__BackingField
+    void _set_$playedLevelsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <cleardLevelsCount>k__BackingField
+    int _get_$cleardLevelsCount$k__BackingField();
+    // Set instance field: private System.Int32 <cleardLevelsCount>k__BackingField
+    void _set_$cleardLevelsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <failedLevelsCount>k__BackingField
+    int _get_$failedLevelsCount$k__BackingField();
+    // Set instance field: private System.Int32 <failedLevelsCount>k__BackingField
+    void _set_$failedLevelsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <fullComboCount>k__BackingField
+    int _get_$fullComboCount$k__BackingField();
+    // Set instance field: private System.Int32 <fullComboCount>k__BackingField
+    void _set_$fullComboCount$k__BackingField(int value);
+    // Get instance field: private System.Single <timePlayed>k__BackingField
+    float _get_$timePlayed$k__BackingField();
+    // Set instance field: private System.Single <timePlayed>k__BackingField
+    void _set_$timePlayed$k__BackingField(float value);
+    // Get instance field: private System.Int32 <handDistanceTravelled>k__BackingField
+    int _get_$handDistanceTravelled$k__BackingField();
+    // Set instance field: private System.Int32 <handDistanceTravelled>k__BackingField
+    void _set_$handDistanceTravelled$k__BackingField(int value);
+    // Get instance field: private System.Int64 <cummulativeCutScoreWithoutMultiplier>k__BackingField
+    int64_t _get_$cummulativeCutScoreWithoutMultiplier$k__BackingField();
+    // Set instance field: private System.Int64 <cummulativeCutScoreWithoutMultiplier>k__BackingField
+    void _set_$cummulativeCutScoreWithoutMultiplier$k__BackingField(int64_t value);
     // public System.Int32 get_goodCutsCount()
     // Offset: 0x10FFD10
     int get_goodCutsCount();

@@ -35,6 +35,10 @@ namespace System::Runtime::Remoting::Messaging {
     constexpr operator ::Il2CppString*() const noexcept {
       return logicalCallID;
     }
+    // Get instance field: private System.String _logicalCallID
+    ::Il2CppString* _get__logicalCallID();
+    // Set instance field: private System.String _logicalCallID
+    void _set__logicalCallID(::Il2CppString* value);
     // System.String get_LogicalCallID()
     // Offset: 0x19F6BD0
     ::Il2CppString* get_LogicalCallID();

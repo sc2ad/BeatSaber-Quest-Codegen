@@ -84,6 +84,22 @@ namespace System::Collections {
     static ::Array<::Il2CppObject*>* _get_emptyArray();
     // Set static field: static private readonly System.Object[] emptyArray
     static void _set_emptyArray(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.Object[] _items
+    ::Array<::Il2CppObject*>* _get__items();
+    // Set instance field: private System.Object[] _items
+    void _set__items(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.Int32 _size
+    int _get__size();
+    // Set instance field: private System.Int32 _size
+    void _set__size(int value);
+    // Get instance field: private System.Int32 _version
+    int _get__version();
+    // Set instance field: private System.Int32 _version
+    void _set__version(int value);
+    // Get instance field: private System.Object _syncRoot
+    ::Il2CppObject* _get__syncRoot();
+    // Set instance field: private System.Object _syncRoot
+    void _set__syncRoot(::Il2CppObject* value);
     // public System.Void set_Capacity(System.Int32 value)
     // Offset: 0x1787F9C
     void set_Capacity(int value);

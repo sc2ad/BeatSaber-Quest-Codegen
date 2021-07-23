@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition _get_Right();
     // Set static field: static public MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition Right
     static void _set_Right(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition), 0 + sizeof(int)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_HorizontalPositionSizeCheck;

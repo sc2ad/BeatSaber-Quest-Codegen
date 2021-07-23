@@ -34,6 +34,14 @@ namespace UnityEngine {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: RangeAttribute
     RangeAttribute(float min_ = {}, float max_ = {}) noexcept : min{min_}, max{max_} {}
+    // Get instance field: public readonly System.Single min
+    float _get_min();
+    // Set instance field: public readonly System.Single min
+    void _set_min(float value);
+    // Get instance field: public readonly System.Single max
+    float _get_max();
+    // Set instance field: public readonly System.Single max
+    void _set_max(float value);
     // public System.Void .ctor(System.Single min, System.Single max)
     // Offset: 0x1C7683C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

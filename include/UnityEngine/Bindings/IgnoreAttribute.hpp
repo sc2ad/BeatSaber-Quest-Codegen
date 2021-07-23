@@ -34,6 +34,10 @@ namespace UnityEngine::Bindings {
     constexpr operator bool() const noexcept {
       return DoesNotContributeToSize;
     }
+    // Get instance field: private System.Boolean <DoesNotContributeToSize>k__BackingField
+    bool _get_$DoesNotContributeToSize$k__BackingField();
+    // Set instance field: private System.Boolean <DoesNotContributeToSize>k__BackingField
+    void _set_$DoesNotContributeToSize$k__BackingField(bool value);
     // public System.Void set_DoesNotContributeToSize(System.Boolean value)
     // Offset: 0x23C1B44
     void set_DoesNotContributeToSize(bool value);

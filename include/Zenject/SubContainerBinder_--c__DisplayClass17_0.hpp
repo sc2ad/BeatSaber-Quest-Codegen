@@ -67,6 +67,22 @@ namespace Zenject {
     static_assert(sizeof(Zenject::SubContainerBinder*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass17_0
     $$c__DisplayClass17_0(UnityEngine::Object* prefab_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}, System::Type* installerType_ = {}, Zenject::SubContainerBinder* $$4__this_ = {}) noexcept : prefab{prefab_}, gameObjectInfo{gameObjectInfo_}, installerType{installerType_}, $$4__this{$$4__this_} {}
+    // Get instance field: public UnityEngine.Object prefab
+    UnityEngine::Object* _get_prefab();
+    // Set instance field: public UnityEngine.Object prefab
+    void _set_prefab(UnityEngine::Object* value);
+    // Get instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    Zenject::GameObjectCreationParameters* _get_gameObjectInfo();
+    // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
+    // Get instance field: public System.Type installerType
+    System::Type* _get_installerType();
+    // Set instance field: public System.Type installerType
+    void _set_installerType(System::Type* value);
+    // Get instance field: public Zenject.SubContainerBinder <>4__this
+    Zenject::SubContainerBinder* _get_$$4__this();
+    // Set instance field: public Zenject.SubContainerBinder <>4__this
+    void _set_$$4__this(Zenject::SubContainerBinder* value);
     // Zenject.ISubContainerCreator <ByNewPrefabInstaller>b__0(Zenject.DiContainer container)
     // Offset: 0x16D1198
     Zenject::ISubContainerCreator* $ByNewPrefabInstaller$b__0(Zenject::DiContainer* container);

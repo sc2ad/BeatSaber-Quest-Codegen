@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MissionResultsViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass22_0
     $$c__DisplayClass22_0(GlobalNamespace::CampaignFlowCoordinator* $$4__this_ = {}, GlobalNamespace::MissionResultsViewController* viewController_ = {}) noexcept : $$4__this{$$4__this_}, viewController{viewController_} {}
+    // Get instance field: public CampaignFlowCoordinator <>4__this
+    GlobalNamespace::CampaignFlowCoordinator* _get_$$4__this();
+    // Set instance field: public CampaignFlowCoordinator <>4__this
+    void _set_$$4__this(GlobalNamespace::CampaignFlowCoordinator* value);
+    // Get instance field: public MissionResultsViewController viewController
+    GlobalNamespace::MissionResultsViewController* _get_viewController();
+    // Set instance field: public MissionResultsViewController viewController
+    void _set_viewController(GlobalNamespace::MissionResultsViewController* value);
     // System.Void <HandleMissionResultsViewControllerRetryButtonPressed>b__0()
     // Offset: 0x10787BC
     void $HandleMissionResultsViewControllerRetryButtonPressed$b__0();

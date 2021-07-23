@@ -47,6 +47,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
     // Creating value type constructor for type: IntListSettingsController
     IntListSettingsController(int customNumberOfElements_ = {}, int customIndex_ = {}, System::Action_1<int>* valueChangedEvent_ = {}) noexcept : customNumberOfElements{customNumberOfElements_}, customIndex{customIndex_}, valueChangedEvent{valueChangedEvent_} {}
+    // Get instance field: private System.Int32 _customNumberOfElements
+    int _get__customNumberOfElements();
+    // Set instance field: private System.Int32 _customNumberOfElements
+    void _set__customNumberOfElements(int value);
+    // Get instance field: private System.Int32 _customIndex
+    int _get__customIndex();
+    // Set instance field: private System.Int32 _customIndex
+    void _set__customIndex(int value);
+    // Get instance field: private System.Action`1<System.Int32> valueChangedEvent
+    System::Action_1<int>* _get_valueChangedEvent();
+    // Set instance field: private System.Action`1<System.Int32> valueChangedEvent
+    void _set_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
     // Offset: 0x10ED474
     void add_valueChangedEvent(System::Action_1<int>* value);

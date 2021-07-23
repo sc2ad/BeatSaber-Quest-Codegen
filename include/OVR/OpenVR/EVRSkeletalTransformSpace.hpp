@@ -49,6 +49,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRSkeletalTransformSpace _get_Additive();
     // Set static field: static public OVR.OpenVR.EVRSkeletalTransformSpace Additive
     static void _set_Additive(OVR::OpenVR::EVRSkeletalTransformSpace value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRSkeletalTransformSpace
   #pragma pack(pop)
   static check_size<sizeof(EVRSkeletalTransformSpace), 0 + sizeof(int)> __OVR_OpenVR_EVRSkeletalTransformSpaceSizeCheck;

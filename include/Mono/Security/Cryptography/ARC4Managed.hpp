@@ -59,6 +59,26 @@ namespace Mono::Security::Cryptography {
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
+    // Get instance field: private System.Byte[] key
+    ::Array<uint8_t>* _get_key();
+    // Set instance field: private System.Byte[] key
+    void _set_key(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] state
+    ::Array<uint8_t>* _get_state();
+    // Set instance field: private System.Byte[] state
+    void _set_state(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte x
+    uint8_t _get_x();
+    // Set instance field: private System.Byte x
+    void _set_x(uint8_t value);
+    // Get instance field: private System.Byte y
+    uint8_t _get_y();
+    // Set instance field: private System.Byte y
+    void _set_y(uint8_t value);
+    // Get instance field: private System.Boolean m_disposed
+    bool _get_m_disposed();
+    // Set instance field: private System.Boolean m_disposed
+    void _set_m_disposed(bool value);
     // public System.Boolean get_CanTransformMultipleBlocks()
     // Offset: 0x1DD8D7C
     bool get_CanTransformMultipleBlocks();

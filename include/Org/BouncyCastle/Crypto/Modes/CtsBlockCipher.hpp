@@ -38,6 +38,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
     constexpr operator int() const noexcept {
       return blockSize;
     }
+    // Get instance field: private readonly System.Int32 blockSize
+    int _get_blockSize();
+    // Set instance field: private readonly System.Int32 blockSize
+    void _set_blockSize(int value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     // Offset: 0x18C6CF8
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher

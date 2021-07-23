@@ -74,6 +74,34 @@ namespace GlobalNamespace {
     AvatarPartsModelSO(::Array<GlobalNamespace::AvatarMeshPartSO*>* headTops_ = {}, ::Array<GlobalNamespace::AvatarSpritePartSO*>* eyes_ = {}, ::Array<GlobalNamespace::AvatarSpritePartSO*>* mouths_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* glasses_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* facialHair_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* hands_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* clothes_ = {}) noexcept : headTops{headTops_}, eyes{eyes_}, mouths{mouths_}, glasses{glasses_}, facialHair{facialHair_}, hands{hands_}, clothes{clothes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private AvatarMeshPartSO[] _headTops
+    ::Array<GlobalNamespace::AvatarMeshPartSO*>* _get__headTops();
+    // Set instance field: private AvatarMeshPartSO[] _headTops
+    void _set__headTops(::Array<GlobalNamespace::AvatarMeshPartSO*>* value);
+    // Get instance field: private AvatarSpritePartSO[] _eyes
+    ::Array<GlobalNamespace::AvatarSpritePartSO*>* _get__eyes();
+    // Set instance field: private AvatarSpritePartSO[] _eyes
+    void _set__eyes(::Array<GlobalNamespace::AvatarSpritePartSO*>* value);
+    // Get instance field: private AvatarSpritePartSO[] _mouths
+    ::Array<GlobalNamespace::AvatarSpritePartSO*>* _get__mouths();
+    // Set instance field: private AvatarSpritePartSO[] _mouths
+    void _set__mouths(::Array<GlobalNamespace::AvatarSpritePartSO*>* value);
+    // Get instance field: private AvatarMeshPartSO[] _glasses
+    ::Array<GlobalNamespace::AvatarMeshPartSO*>* _get__glasses();
+    // Set instance field: private AvatarMeshPartSO[] _glasses
+    void _set__glasses(::Array<GlobalNamespace::AvatarMeshPartSO*>* value);
+    // Get instance field: private AvatarMeshPartSO[] _facialHair
+    ::Array<GlobalNamespace::AvatarMeshPartSO*>* _get__facialHair();
+    // Set instance field: private AvatarMeshPartSO[] _facialHair
+    void _set__facialHair(::Array<GlobalNamespace::AvatarMeshPartSO*>* value);
+    // Get instance field: private AvatarMeshPartSO[] _hands
+    ::Array<GlobalNamespace::AvatarMeshPartSO*>* _get__hands();
+    // Set instance field: private AvatarMeshPartSO[] _hands
+    void _set__hands(::Array<GlobalNamespace::AvatarMeshPartSO*>* value);
+    // Get instance field: private AvatarMeshPartSO[] _clothes
+    ::Array<GlobalNamespace::AvatarMeshPartSO*>* _get__clothes();
+    // Set instance field: private AvatarMeshPartSO[] _clothes
+    void _set__clothes(::Array<GlobalNamespace::AvatarMeshPartSO*>* value);
     // public AvatarMeshPartSO[] get_headTops()
     // Offset: 0x10DF8E8
     ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_headTops();

@@ -61,6 +61,10 @@ namespace System::Threading {
     static System::Action_1<::Il2CppObject*>* _get_s_ActionToActionObjShunt();
     // Set static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt
     static void _set_s_ActionToActionObjShunt(System::Action_1<::Il2CppObject*>* value);
+    // Get instance field: private System.Threading.CancellationTokenSource m_source
+    System::Threading::CancellationTokenSource* _get_m_source();
+    // Set instance field: private System.Threading.CancellationTokenSource m_source
+    void _set_m_source(System::Threading::CancellationTokenSource* value);
     // static public System.Threading.CancellationToken get_None()
     // Offset: 0x18A199C
     static System::Threading::CancellationToken get_None();

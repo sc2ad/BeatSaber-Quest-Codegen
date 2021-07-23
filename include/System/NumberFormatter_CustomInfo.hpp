@@ -123,6 +123,62 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: CustomInfo
     CustomInfo(bool UseGroup_ = {}, int DecimalDigits_ = {}, int DecimalPointPos_ = {}, int DecimalTailSharpDigits_ = {}, int IntegerDigits_ = {}, int IntegerHeadSharpDigits_ = {}, int IntegerHeadPos_ = {}, bool UseExponent_ = {}, int ExponentDigits_ = {}, int ExponentTailSharpDigits_ = {}, bool ExponentNegativeSignOnly_ = {}, int DividePlaces_ = {}, int Percents_ = {}, int Permilles_ = {}) noexcept : UseGroup{UseGroup_}, DecimalDigits{DecimalDigits_}, DecimalPointPos{DecimalPointPos_}, DecimalTailSharpDigits{DecimalTailSharpDigits_}, IntegerDigits{IntegerDigits_}, IntegerHeadSharpDigits{IntegerHeadSharpDigits_}, IntegerHeadPos{IntegerHeadPos_}, UseExponent{UseExponent_}, ExponentDigits{ExponentDigits_}, ExponentTailSharpDigits{ExponentTailSharpDigits_}, ExponentNegativeSignOnly{ExponentNegativeSignOnly_}, DividePlaces{DividePlaces_}, Percents{Percents_}, Permilles{Permilles_} {}
+    // Get instance field: public System.Boolean UseGroup
+    bool _get_UseGroup();
+    // Set instance field: public System.Boolean UseGroup
+    void _set_UseGroup(bool value);
+    // Get instance field: public System.Int32 DecimalDigits
+    int _get_DecimalDigits();
+    // Set instance field: public System.Int32 DecimalDigits
+    void _set_DecimalDigits(int value);
+    // Get instance field: public System.Int32 DecimalPointPos
+    int _get_DecimalPointPos();
+    // Set instance field: public System.Int32 DecimalPointPos
+    void _set_DecimalPointPos(int value);
+    // Get instance field: public System.Int32 DecimalTailSharpDigits
+    int _get_DecimalTailSharpDigits();
+    // Set instance field: public System.Int32 DecimalTailSharpDigits
+    void _set_DecimalTailSharpDigits(int value);
+    // Get instance field: public System.Int32 IntegerDigits
+    int _get_IntegerDigits();
+    // Set instance field: public System.Int32 IntegerDigits
+    void _set_IntegerDigits(int value);
+    // Get instance field: public System.Int32 IntegerHeadSharpDigits
+    int _get_IntegerHeadSharpDigits();
+    // Set instance field: public System.Int32 IntegerHeadSharpDigits
+    void _set_IntegerHeadSharpDigits(int value);
+    // Get instance field: public System.Int32 IntegerHeadPos
+    int _get_IntegerHeadPos();
+    // Set instance field: public System.Int32 IntegerHeadPos
+    void _set_IntegerHeadPos(int value);
+    // Get instance field: public System.Boolean UseExponent
+    bool _get_UseExponent();
+    // Set instance field: public System.Boolean UseExponent
+    void _set_UseExponent(bool value);
+    // Get instance field: public System.Int32 ExponentDigits
+    int _get_ExponentDigits();
+    // Set instance field: public System.Int32 ExponentDigits
+    void _set_ExponentDigits(int value);
+    // Get instance field: public System.Int32 ExponentTailSharpDigits
+    int _get_ExponentTailSharpDigits();
+    // Set instance field: public System.Int32 ExponentTailSharpDigits
+    void _set_ExponentTailSharpDigits(int value);
+    // Get instance field: public System.Boolean ExponentNegativeSignOnly
+    bool _get_ExponentNegativeSignOnly();
+    // Set instance field: public System.Boolean ExponentNegativeSignOnly
+    void _set_ExponentNegativeSignOnly(bool value);
+    // Get instance field: public System.Int32 DividePlaces
+    int _get_DividePlaces();
+    // Set instance field: public System.Int32 DividePlaces
+    void _set_DividePlaces(int value);
+    // Get instance field: public System.Int32 Percents
+    int _get_Percents();
+    // Set instance field: public System.Int32 Percents
+    void _set_Percents(int value);
+    // Get instance field: public System.Int32 Permilles
+    int _get_Permilles();
+    // Set instance field: public System.Int32 Permilles
+    void _set_Permilles(int value);
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
     // Offset: 0x1806210
     static void GetActiveSection(::Il2CppString* format, bool& positive, bool zero, int& offset, int& length);

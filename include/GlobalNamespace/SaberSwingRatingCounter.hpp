@@ -174,6 +174,82 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ISaberSwingRatingCounter() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounter*>(this);
     }
+    // Get instance field: private SaberMovementData _saberMovementData
+    GlobalNamespace::SaberMovementData* _get__saberMovementData();
+    // Set instance field: private SaberMovementData _saberMovementData
+    void _set__saberMovementData(GlobalNamespace::SaberMovementData* value);
+    // Get instance field: private UnityEngine.Vector3 _cutPlaneNormal
+    UnityEngine::Vector3 _get__cutPlaneNormal();
+    // Set instance field: private UnityEngine.Vector3 _cutPlaneNormal
+    void _set__cutPlaneNormal(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _cutTime
+    float _get__cutTime();
+    // Set instance field: private System.Single _cutTime
+    void _set__cutTime(float value);
+    // Get instance field: private System.Single _afterCutRating
+    float _get__afterCutRating();
+    // Set instance field: private System.Single _afterCutRating
+    void _set__afterCutRating(float value);
+    // Get instance field: private System.Single _beforeCutRating
+    float _get__beforeCutRating();
+    // Set instance field: private System.Single _beforeCutRating
+    void _set__beforeCutRating(float value);
+    // Get instance field: private UnityEngine.Plane _notePlane
+    UnityEngine::Plane _get__notePlane();
+    // Set instance field: private UnityEngine.Plane _notePlane
+    void _set__notePlane(UnityEngine::Plane value);
+    // Get instance field: private System.Boolean _notePlaneWasCut
+    bool _get__notePlaneWasCut();
+    // Set instance field: private System.Boolean _notePlaneWasCut
+    void _set__notePlaneWasCut(bool value);
+    // Get instance field: private UnityEngine.Vector3 _noteForward
+    UnityEngine::Vector3 _get__noteForward();
+    // Set instance field: private UnityEngine.Vector3 _noteForward
+    void _set__noteForward(UnityEngine::Vector3 value);
+    // Get instance field: private readonly LazyCopyHashSet`1<ISaberSwingRatingCounterDidChangeReceiver> _didChangeReceivers
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* _get__didChangeReceivers();
+    // Set instance field: private readonly LazyCopyHashSet`1<ISaberSwingRatingCounterDidChangeReceiver> _didChangeReceivers
+    void _set__didChangeReceivers(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<ISaberSwingRatingCounterDidFinishReceiver> _didFinishReceivers
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* _get__didFinishReceivers();
+    // Set instance field: private readonly LazyCopyHashSet`1<ISaberSwingRatingCounterDidFinishReceiver> _didFinishReceivers
+    void _set__didFinishReceivers(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* value);
+    // Get instance field: private UnityEngine.Vector3 _notePlaneCenter
+    UnityEngine::Vector3 _get__notePlaneCenter();
+    // Set instance field: private UnityEngine.Vector3 _notePlaneCenter
+    void _set__notePlaneCenter(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _beforeCutTopPos
+    UnityEngine::Vector3 _get__beforeCutTopPos();
+    // Set instance field: private UnityEngine.Vector3 _beforeCutTopPos
+    void _set__beforeCutTopPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _beforeCutBottomPos
+    UnityEngine::Vector3 _get__beforeCutBottomPos();
+    // Set instance field: private UnityEngine.Vector3 _beforeCutBottomPos
+    void _set__beforeCutBottomPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _afterCutTopPos
+    UnityEngine::Vector3 _get__afterCutTopPos();
+    // Set instance field: private UnityEngine.Vector3 _afterCutTopPos
+    void _set__afterCutTopPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _afterCutBottomPos
+    UnityEngine::Vector3 _get__afterCutBottomPos();
+    // Set instance field: private UnityEngine.Vector3 _afterCutBottomPos
+    void _set__afterCutBottomPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _newPlaneNormal
+    UnityEngine::Vector3 _get__newPlaneNormal();
+    // Set instance field: private UnityEngine.Vector3 _newPlaneNormal
+    void _set__newPlaneNormal(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _cutTopPos
+    UnityEngine::Vector3 _get__cutTopPos();
+    // Set instance field: private UnityEngine.Vector3 _cutTopPos
+    void _set__cutTopPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _cutBottomPos
+    UnityEngine::Vector3 _get__cutBottomPos();
+    // Set instance field: private UnityEngine.Vector3 _cutBottomPos
+    void _set__cutBottomPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean _finished
+    bool _get__finished();
+    // Set instance field: private System.Boolean _finished
+    void _set__finished(bool value);
     // public System.Single get_beforeCutRating()
     // Offset: 0x114C9AC
     float get_beforeCutRating();

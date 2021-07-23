@@ -396,6 +396,178 @@ namespace GlobalNamespace {
     static float _get_kControllersRotationOffsetLimit();
     // Set static field: static public System.Single kControllersRotationOffsetLimit
     static void _set_kControllersRotationOffsetLimit(float value);
+    // Get instance field: public FloatSO vrResolutionScale
+    GlobalNamespace::FloatSO* _get_vrResolutionScale();
+    // Set instance field: public FloatSO vrResolutionScale
+    void _set_vrResolutionScale(GlobalNamespace::FloatSO* value);
+    // Get instance field: public FloatSO menuVRResolutionScaleMultiplier
+    GlobalNamespace::FloatSO* _get_menuVRResolutionScaleMultiplier();
+    // Set instance field: public FloatSO menuVRResolutionScaleMultiplier
+    void _set_menuVRResolutionScaleMultiplier(GlobalNamespace::FloatSO* value);
+    // Get instance field: public BoolSO useFixedFoveatedRenderingDuringGameplay
+    GlobalNamespace::BoolSO* _get_useFixedFoveatedRenderingDuringGameplay();
+    // Set instance field: public BoolSO useFixedFoveatedRenderingDuringGameplay
+    void _set_useFixedFoveatedRenderingDuringGameplay(GlobalNamespace::BoolSO* value);
+    // Get instance field: public Vector2IntSO windowResolution
+    GlobalNamespace::Vector2IntSO* _get_windowResolution();
+    // Set instance field: public Vector2IntSO windowResolution
+    void _set_windowResolution(GlobalNamespace::Vector2IntSO* value);
+    // Get instance field: public BoolSO fullscreen
+    GlobalNamespace::BoolSO* _get_fullscreen();
+    // Set instance field: public BoolSO fullscreen
+    void _set_fullscreen(GlobalNamespace::BoolSO* value);
+    // Get instance field: public IntSO antiAliasingLevel
+    GlobalNamespace::IntSO* _get_antiAliasingLevel();
+    // Set instance field: public IntSO antiAliasingLevel
+    void _set_antiAliasingLevel(GlobalNamespace::IntSO* value);
+    // Get instance field: public FloatSO volume
+    GlobalNamespace::FloatSO* _get_volume();
+    // Set instance field: public FloatSO volume
+    void _set_volume(GlobalNamespace::FloatSO* value);
+    // Get instance field: public FloatSO ambientVolumeScale
+    GlobalNamespace::FloatSO* _get_ambientVolumeScale();
+    // Set instance field: public FloatSO ambientVolumeScale
+    void _set_ambientVolumeScale(GlobalNamespace::FloatSO* value);
+    // Get instance field: public BoolSO controllersRumbleEnabled
+    GlobalNamespace::BoolSO* _get_controllersRumbleEnabled();
+    // Set instance field: public BoolSO controllersRumbleEnabled
+    void _set_controllersRumbleEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: public Vector3SO roomCenter
+    GlobalNamespace::Vector3SO* _get_roomCenter();
+    // Set instance field: public Vector3SO roomCenter
+    void _set_roomCenter(GlobalNamespace::Vector3SO* value);
+    // Get instance field: public FloatSO roomRotation
+    GlobalNamespace::FloatSO* _get_roomRotation();
+    // Set instance field: public FloatSO roomRotation
+    void _set_roomRotation(GlobalNamespace::FloatSO* value);
+    // Get instance field: public Vector3SO controllerPosition
+    GlobalNamespace::Vector3SO* _get_controllerPosition();
+    // Set instance field: public Vector3SO controllerPosition
+    void _set_controllerPosition(GlobalNamespace::Vector3SO* value);
+    // Get instance field: public Vector3SO controllerRotation
+    GlobalNamespace::Vector3SO* _get_controllerRotation();
+    // Set instance field: public Vector3SO controllerRotation
+    void _set_controllerRotation(GlobalNamespace::Vector3SO* value);
+    // Get instance field: public IntSO mirrorGraphicsSettings
+    GlobalNamespace::IntSO* _get_mirrorGraphicsSettings();
+    // Set instance field: public IntSO mirrorGraphicsSettings
+    void _set_mirrorGraphicsSettings(GlobalNamespace::IntSO* value);
+    // Get instance field: public IntSO mainEffectGraphicsSettings
+    GlobalNamespace::IntSO* _get_mainEffectGraphicsSettings();
+    // Set instance field: public IntSO mainEffectGraphicsSettings
+    void _set_mainEffectGraphicsSettings(GlobalNamespace::IntSO* value);
+    // Get instance field: public IntSO bloomPrePassGraphicsSettings
+    GlobalNamespace::IntSO* _get_bloomPrePassGraphicsSettings();
+    // Set instance field: public IntSO bloomPrePassGraphicsSettings
+    void _set_bloomPrePassGraphicsSettings(GlobalNamespace::IntSO* value);
+    // Get instance field: public BoolSO smokeGraphicsSettings
+    GlobalNamespace::BoolSO* _get_smokeGraphicsSettings();
+    // Set instance field: public BoolSO smokeGraphicsSettings
+    void _set_smokeGraphicsSettings(GlobalNamespace::BoolSO* value);
+    // Get instance field: public BoolSO enableAlphaFeatures
+    GlobalNamespace::BoolSO* _get_enableAlphaFeatures();
+    // Set instance field: public BoolSO enableAlphaFeatures
+    void _set_enableAlphaFeatures(GlobalNamespace::BoolSO* value);
+    // Get instance field: public IntSO pauseButtonPressDurationLevel
+    GlobalNamespace::IntSO* _get_pauseButtonPressDurationLevel();
+    // Set instance field: public IntSO pauseButtonPressDurationLevel
+    void _set_pauseButtonPressDurationLevel(GlobalNamespace::IntSO* value);
+    // Get instance field: public BoolSO burnMarkTrailsEnabled
+    GlobalNamespace::BoolSO* _get_burnMarkTrailsEnabled();
+    // Set instance field: public BoolSO burnMarkTrailsEnabled
+    void _set_burnMarkTrailsEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: public BoolSO screenDisplacementEffectsEnabled
+    GlobalNamespace::BoolSO* _get_screenDisplacementEffectsEnabled();
+    // Set instance field: public BoolSO screenDisplacementEffectsEnabled
+    void _set_screenDisplacementEffectsEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: public BoolSO smoothCameraEnabled
+    GlobalNamespace::BoolSO* _get_smoothCameraEnabled();
+    // Set instance field: public BoolSO smoothCameraEnabled
+    void _set_smoothCameraEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: public FloatSO smoothCameraFieldOfView
+    GlobalNamespace::FloatSO* _get_smoothCameraFieldOfView();
+    // Set instance field: public FloatSO smoothCameraFieldOfView
+    void _set_smoothCameraFieldOfView(GlobalNamespace::FloatSO* value);
+    // Get instance field: public Vector3SO smoothCameraThirdPersonPosition
+    GlobalNamespace::Vector3SO* _get_smoothCameraThirdPersonPosition();
+    // Set instance field: public Vector3SO smoothCameraThirdPersonPosition
+    void _set_smoothCameraThirdPersonPosition(GlobalNamespace::Vector3SO* value);
+    // Get instance field: public Vector3SO smoothCameraThirdPersonEulerAngles
+    GlobalNamespace::Vector3SO* _get_smoothCameraThirdPersonEulerAngles();
+    // Set instance field: public Vector3SO smoothCameraThirdPersonEulerAngles
+    void _set_smoothCameraThirdPersonEulerAngles(GlobalNamespace::Vector3SO* value);
+    // Get instance field: public BoolSO smoothCameraThirdPersonEnabled
+    GlobalNamespace::BoolSO* _get_smoothCameraThirdPersonEnabled();
+    // Set instance field: public BoolSO smoothCameraThirdPersonEnabled
+    void _set_smoothCameraThirdPersonEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: public FloatSO smoothCameraRotationSmooth
+    GlobalNamespace::FloatSO* _get_smoothCameraRotationSmooth();
+    // Set instance field: public FloatSO smoothCameraRotationSmooth
+    void _set_smoothCameraRotationSmooth(GlobalNamespace::FloatSO* value);
+    // Get instance field: public FloatSO smoothCameraPositionSmooth
+    GlobalNamespace::FloatSO* _get_smoothCameraPositionSmooth();
+    // Set instance field: public FloatSO smoothCameraPositionSmooth
+    void _set_smoothCameraPositionSmooth(GlobalNamespace::FloatSO* value);
+    // Get instance field: public BoolSO overrideAudioLatency
+    GlobalNamespace::BoolSO* _get_overrideAudioLatency();
+    // Set instance field: public BoolSO overrideAudioLatency
+    void _set_overrideAudioLatency(GlobalNamespace::BoolSO* value);
+    // Get instance field: public FloatSO audioLatency
+    GlobalNamespace::FloatSO* _get_audioLatency();
+    // Set instance field: public FloatSO audioLatency
+    void _set_audioLatency(GlobalNamespace::FloatSO* value);
+    // Get instance field: public IntSO maxShockwaveParticles
+    GlobalNamespace::IntSO* _get_maxShockwaveParticles();
+    // Set instance field: public IntSO maxShockwaveParticles
+    void _set_maxShockwaveParticles(GlobalNamespace::IntSO* value);
+    // Get instance field: public IntSO maxNumberOfCutSoundEffects
+    GlobalNamespace::IntSO* _get_maxNumberOfCutSoundEffects();
+    // Set instance field: public IntSO maxNumberOfCutSoundEffects
+    void _set_maxNumberOfCutSoundEffects(GlobalNamespace::IntSO* value);
+    // Get instance field: public BoolSO onlineServicesEnabled
+    GlobalNamespace::BoolSO* _get_onlineServicesEnabled();
+    // Set instance field: public BoolSO onlineServicesEnabled
+    void _set_onlineServicesEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: public BoolSO oculusMRCEnabled
+    GlobalNamespace::BoolSO* _get_oculusMRCEnabled();
+    // Set instance field: public BoolSO oculusMRCEnabled
+    void _set_oculusMRCEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: public BoolSO openVrThreadedHaptics
+    GlobalNamespace::BoolSO* _get_openVrThreadedHaptics();
+    // Set instance field: public BoolSO openVrThreadedHaptics
+    void _set_openVrThreadedHaptics(GlobalNamespace::BoolSO* value);
+    // Get instance field: public LanguageSO language
+    GlobalNamespace::LanguageSO* _get_language();
+    // Set instance field: public LanguageSO language
+    void _set_language(GlobalNamespace::LanguageSO* value);
+    // Get instance field: public BoolSO useCustomServerEnvironment
+    GlobalNamespace::BoolSO* _get_useCustomServerEnvironment();
+    // Set instance field: public BoolSO useCustomServerEnvironment
+    void _set_useCustomServerEnvironment(GlobalNamespace::BoolSO* value);
+    // Get instance field: public StringSO customServerHostName
+    GlobalNamespace::StringSO* _get_customServerHostName();
+    // Set instance field: public StringSO customServerHostName
+    void _set_customServerHostName(GlobalNamespace::StringSO* value);
+    // Get instance field: public BoolSO depthTextureEnabled
+    GlobalNamespace::BoolSO* _get_depthTextureEnabled();
+    // Set instance field: public BoolSO depthTextureEnabled
+    void _set_depthTextureEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: private System.Boolean <createScreenshotDuringTheGame>k__BackingField
+    bool _get_$createScreenshotDuringTheGame$k__BackingField();
+    // Set instance field: private System.Boolean <createScreenshotDuringTheGame>k__BackingField
+    void _set_$createScreenshotDuringTheGame$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <playingForTheFirstTime>k__BackingField
+    bool _get_$playingForTheFirstTime$k__BackingField();
+    // Set instance field: private System.Boolean <playingForTheFirstTime>k__BackingField
+    void _set_$playingForTheFirstTime$k__BackingField(bool value);
+    // Get instance field: private System.Boolean _playingForTheFirstTimeChecked
+    bool _get__playingForTheFirstTimeChecked();
+    // Set instance field: private System.Boolean _playingForTheFirstTimeChecked
+    void _set__playingForTheFirstTimeChecked(bool value);
+    // Get instance field: private System.Boolean _isLoaded
+    bool _get__isLoaded();
+    // Set instance field: private System.Boolean _isLoaded
+    void _set__isLoaded(bool value);
     // public System.Boolean get_createScreenshotDuringTheGame()
     // Offset: 0x117C9F4
     bool get_createScreenshotDuringTheGame();

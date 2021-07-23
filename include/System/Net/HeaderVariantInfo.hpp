@@ -40,6 +40,14 @@ namespace System::Net {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.String m_name
+    ::Il2CppString* _get_m_name();
+    // Set instance field: private System.String m_name
+    void _set_m_name(::Il2CppString* value);
+    // Get instance field: private System.Net.CookieVariant m_variant
+    System::Net::CookieVariant _get_m_variant();
+    // Set instance field: private System.Net.CookieVariant m_variant
+    void _set_m_variant(System::Net::CookieVariant value);
     // System.String get_Name()
     // Offset: 0xEE1E68
     ::Il2CppString* get_Name();

@@ -53,6 +53,22 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TypeLoadException
     TypeLoadException(::Il2CppString* ClassName_ = {}, ::Il2CppString* AssemblyName_ = {}, ::Il2CppString* MessageArg_ = {}, int ResourceId_ = {}) noexcept : ClassName{ClassName_}, AssemblyName{AssemblyName_}, MessageArg{MessageArg_}, ResourceId{ResourceId_} {}
+    // Get instance field: private System.String ClassName
+    ::Il2CppString* _get_ClassName();
+    // Set instance field: private System.String ClassName
+    void _set_ClassName(::Il2CppString* value);
+    // Get instance field: private System.String AssemblyName
+    ::Il2CppString* _get_AssemblyName();
+    // Set instance field: private System.String AssemblyName
+    void _set_AssemblyName(::Il2CppString* value);
+    // Get instance field: private System.String MessageArg
+    ::Il2CppString* _get_MessageArg();
+    // Set instance field: private System.String MessageArg
+    void _set_MessageArg(::Il2CppString* value);
+    // Get instance field: System.Int32 ResourceId
+    int _get_ResourceId();
+    // Set instance field: System.Int32 ResourceId
+    void _set_ResourceId(int value);
     // private System.Void .ctor(System.String className, System.String assemblyName)
     // Offset: 0x22CDD2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

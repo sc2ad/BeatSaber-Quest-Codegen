@@ -58,6 +58,14 @@ namespace TMPro {
     TMP_SpriteAnimator(System::Collections::Generic::Dictionary_2<int, bool>* m_animations_ = {}, TMPro::TMP_Text* m_TextComponent_ = {}) noexcept : m_animations{m_animations_}, m_TextComponent{m_TextComponent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Boolean> m_animations
+    System::Collections::Generic::Dictionary_2<int, bool>* _get_m_animations();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Boolean> m_animations
+    void _set_m_animations(System::Collections::Generic::Dictionary_2<int, bool>* value);
+    // Get instance field: private TMPro.TMP_Text m_TextComponent
+    TMPro::TMP_Text* _get_m_TextComponent();
+    // Set instance field: private TMPro.TMP_Text m_TextComponent
+    void _set_m_TextComponent(TMPro::TMP_Text* value);
     // private System.Void Awake()
     // Offset: 0x1113864
     void Awake();

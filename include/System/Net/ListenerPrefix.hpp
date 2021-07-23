@@ -66,6 +66,30 @@ namespace System::Net {
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
     // Creating value type constructor for type: ListenerPrefix
     ListenerPrefix(::Il2CppString* original_ = {}, ::Il2CppString* host_ = {}, uint16_t port_ = {}, ::Il2CppString* path_ = {}, bool secure_ = {}, System::Net::HttpListener* Listener_ = {}) noexcept : original{original_}, host{host_}, port{port_}, path{path_}, secure{secure_}, Listener{Listener_} {}
+    // Get instance field: private System.String original
+    ::Il2CppString* _get_original();
+    // Set instance field: private System.String original
+    void _set_original(::Il2CppString* value);
+    // Get instance field: private System.String host
+    ::Il2CppString* _get_host();
+    // Set instance field: private System.String host
+    void _set_host(::Il2CppString* value);
+    // Get instance field: private System.UInt16 port
+    uint16_t _get_port();
+    // Set instance field: private System.UInt16 port
+    void _set_port(uint16_t value);
+    // Get instance field: private System.String path
+    ::Il2CppString* _get_path();
+    // Set instance field: private System.String path
+    void _set_path(::Il2CppString* value);
+    // Get instance field: private System.Boolean secure
+    bool _get_secure();
+    // Set instance field: private System.Boolean secure
+    void _set_secure(bool value);
+    // Get instance field: public System.Net.HttpListener Listener
+    System::Net::HttpListener* _get_Listener();
+    // Set instance field: public System.Net.HttpListener Listener
+    void _set_Listener(System::Net::HttpListener* value);
     // public System.Boolean get_Secure()
     // Offset: 0x1642740
     bool get_Secure();

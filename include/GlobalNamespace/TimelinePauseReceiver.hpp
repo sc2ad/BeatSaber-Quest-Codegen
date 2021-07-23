@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Action timelinePauseEvent
+    System::Action* _get_timelinePauseEvent();
+    // Set instance field: private System.Action timelinePauseEvent
+    void _set_timelinePauseEvent(System::Action* value);
     // public System.Void add_timelinePauseEvent(System.Action value)
     // Offset: 0x235BBB8
     void add_timelinePauseEvent(System::Action* value);

@@ -62,6 +62,18 @@ namespace MasterServer {
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
+    // Get instance field: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable* _get_random();
+    // Set instance field: public readonly ByteArrayNetSerializable random
+    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable publicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_publicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable publicKey
+    void _set_publicKey(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable signature
+    GlobalNamespace::ByteArrayNetSerializable* _get_signature();
+    // Set instance field: public readonly ByteArrayNetSerializable signature
+    void _set_signature(GlobalNamespace::ByteArrayNetSerializable* value);
     // static public PacketPool`1<MasterServer.ServerHelloRequest> get_pool()
     // Offset: 0x12D440C
     static GlobalNamespace::PacketPool_1<MasterServer::ServerHelloRequest*>* get_pool();

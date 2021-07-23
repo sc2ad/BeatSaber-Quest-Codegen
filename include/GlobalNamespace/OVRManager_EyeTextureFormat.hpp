@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_EyeTextureFormat _get_R11G11B10_FP();
     // Set static field: static public OVRManager/EyeTextureFormat R11G11B10_FP
     static void _set_R11G11B10_FP(GlobalNamespace::OVRManager_EyeTextureFormat value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRManager/EyeTextureFormat
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_EyeTextureFormat), 0 + sizeof(int)> __GlobalNamespace_OVRManager_EyeTextureFormatSizeCheck;

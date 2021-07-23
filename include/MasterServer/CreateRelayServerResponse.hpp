@@ -86,6 +86,10 @@ namespace MasterServer {
       static MasterServer::CreateRelayServerResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.CreateRelayServerResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::CreateRelayServerResponse::Result value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MasterServer.CreateRelayServerResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(CreateRelayServerResponse::Result), 0 + sizeof(int)> __MasterServer_CreateRelayServerResponse_ResultSizeCheck;
@@ -142,6 +146,34 @@ namespace MasterServer {
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
+    // Get instance field: public MasterServer.CreateRelayServerResponse/MasterServer.Result result
+    MasterServer::CreateRelayServerResponse::Result _get_result();
+    // Set instance field: public MasterServer.CreateRelayServerResponse/MasterServer.Result result
+    void _set_result(MasterServer::CreateRelayServerResponse::Result value);
+    // Get instance field: private System.String <dedicatedServerId>k__BackingField
+    ::Il2CppString* _get_$dedicatedServerId$k__BackingField();
+    // Set instance field: private System.String <dedicatedServerId>k__BackingField
+    void _set_$dedicatedServerId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    int64_t _get_$dedicatedServerCreationTime$k__BackingField();
+    // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
+    void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
+    // Get instance field: public System.String id
+    ::Il2CppString* _get_id();
+    // Set instance field: public System.String id
+    void _set_id(::Il2CppString* value);
+    // Get instance field: public System.Int32 port
+    int _get_port();
+    // Set instance field: public System.Int32 port
+    void _set_port(int value);
+    // Get instance field: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable* _get_random();
+    // Set instance field: public readonly ByteArrayNetSerializable random
+    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable publicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_publicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable publicKey
+    void _set_publicKey(GlobalNamespace::ByteArrayNetSerializable* value);
     // static public PacketPool`1<MasterServer.CreateRelayServerResponse> get_pool()
     // Offset: 0x12D1D20
     static GlobalNamespace::PacketPool_1<MasterServer::CreateRelayServerResponse*>* get_pool();

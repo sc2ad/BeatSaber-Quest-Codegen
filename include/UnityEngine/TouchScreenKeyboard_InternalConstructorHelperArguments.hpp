@@ -57,6 +57,30 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt32 keyboardType
+    uint _get_keyboardType();
+    // Set instance field: public System.UInt32 keyboardType
+    void _set_keyboardType(uint value);
+    // Get instance field: public System.UInt32 autocorrection
+    uint _get_autocorrection();
+    // Set instance field: public System.UInt32 autocorrection
+    void _set_autocorrection(uint value);
+    // Get instance field: public System.UInt32 multiline
+    uint _get_multiline();
+    // Set instance field: public System.UInt32 multiline
+    void _set_multiline(uint value);
+    // Get instance field: public System.UInt32 secure
+    uint _get_secure();
+    // Set instance field: public System.UInt32 secure
+    void _set_secure(uint value);
+    // Get instance field: public System.UInt32 alert
+    uint _get_alert();
+    // Set instance field: public System.UInt32 alert
+    void _set_alert(uint value);
+    // Get instance field: public System.Int32 characterLimit
+    int _get_characterLimit();
+    // Set instance field: public System.Int32 characterLimit
+    void _set_characterLimit(int value);
   }; // UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
   #pragma pack(pop)
   static check_size<sizeof(TouchScreenKeyboard_InternalConstructorHelperArguments), 20 + sizeof(int)> __UnityEngine_TouchScreenKeyboard_InternalConstructorHelperArgumentsSizeCheck;

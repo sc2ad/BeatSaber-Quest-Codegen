@@ -146,6 +146,86 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Int32 controlCharacterCount
+    int _get_controlCharacterCount();
+    // Set instance field: System.Int32 controlCharacterCount
+    void _set_controlCharacterCount(int value);
+    // Get instance field: public System.Int32 characterCount
+    int _get_characterCount();
+    // Set instance field: public System.Int32 characterCount
+    void _set_characterCount(int value);
+    // Get instance field: public System.Int32 visibleCharacterCount
+    int _get_visibleCharacterCount();
+    // Set instance field: public System.Int32 visibleCharacterCount
+    void _set_visibleCharacterCount(int value);
+    // Get instance field: public System.Int32 spaceCount
+    int _get_spaceCount();
+    // Set instance field: public System.Int32 spaceCount
+    void _set_spaceCount(int value);
+    // Get instance field: public System.Int32 wordCount
+    int _get_wordCount();
+    // Set instance field: public System.Int32 wordCount
+    void _set_wordCount(int value);
+    // Get instance field: public System.Int32 firstCharacterIndex
+    int _get_firstCharacterIndex();
+    // Set instance field: public System.Int32 firstCharacterIndex
+    void _set_firstCharacterIndex(int value);
+    // Get instance field: public System.Int32 firstVisibleCharacterIndex
+    int _get_firstVisibleCharacterIndex();
+    // Set instance field: public System.Int32 firstVisibleCharacterIndex
+    void _set_firstVisibleCharacterIndex(int value);
+    // Get instance field: public System.Int32 lastCharacterIndex
+    int _get_lastCharacterIndex();
+    // Set instance field: public System.Int32 lastCharacterIndex
+    void _set_lastCharacterIndex(int value);
+    // Get instance field: public System.Int32 lastVisibleCharacterIndex
+    int _get_lastVisibleCharacterIndex();
+    // Set instance field: public System.Int32 lastVisibleCharacterIndex
+    void _set_lastVisibleCharacterIndex(int value);
+    // Get instance field: public System.Single length
+    float _get_length();
+    // Set instance field: public System.Single length
+    void _set_length(float value);
+    // Get instance field: public System.Single lineHeight
+    float _get_lineHeight();
+    // Set instance field: public System.Single lineHeight
+    void _set_lineHeight(float value);
+    // Get instance field: public System.Single ascender
+    float _get_ascender();
+    // Set instance field: public System.Single ascender
+    void _set_ascender(float value);
+    // Get instance field: public System.Single baseline
+    float _get_baseline();
+    // Set instance field: public System.Single baseline
+    void _set_baseline(float value);
+    // Get instance field: public System.Single descender
+    float _get_descender();
+    // Set instance field: public System.Single descender
+    void _set_descender(float value);
+    // Get instance field: public System.Single maxAdvance
+    float _get_maxAdvance();
+    // Set instance field: public System.Single maxAdvance
+    void _set_maxAdvance(float value);
+    // Get instance field: public System.Single width
+    float _get_width();
+    // Set instance field: public System.Single width
+    void _set_width(float value);
+    // Get instance field: public System.Single marginLeft
+    float _get_marginLeft();
+    // Set instance field: public System.Single marginLeft
+    void _set_marginLeft(float value);
+    // Get instance field: public System.Single marginRight
+    float _get_marginRight();
+    // Set instance field: public System.Single marginRight
+    void _set_marginRight(float value);
+    // Get instance field: public TMPro.TextAlignmentOptions alignment
+    TMPro::TextAlignmentOptions _get_alignment();
+    // Set instance field: public TMPro.TextAlignmentOptions alignment
+    void _set_alignment(TMPro::TextAlignmentOptions value);
+    // Get instance field: public TMPro.Extents lineExtents
+    TMPro::Extents _get_lineExtents();
+    // Set instance field: public TMPro.Extents lineExtents
+    void _set_lineExtents(TMPro::Extents value);
   }; // TMPro.TMP_LineInfo
   #pragma pack(pop)
   static check_size<sizeof(TMP_LineInfo), 76 + sizeof(TMPro::Extents)> __TMPro_TMP_LineInfoSizeCheck;

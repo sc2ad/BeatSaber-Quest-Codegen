@@ -117,6 +117,38 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::Il2CppString* value);
+    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
+    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
+    // Get instance field: private ColorSchemesListSO _defaultColorSchemes
+    GlobalNamespace::ColorSchemesListSO* _get__defaultColorSchemes();
+    // Set instance field: private ColorSchemesListSO _defaultColorSchemes
+    void _set__defaultColorSchemes(GlobalNamespace::ColorSchemesListSO* value);
+    // Get instance field: private EnvironmentsListSO _allEnvironmentInfos
+    GlobalNamespace::EnvironmentsListSO* _get__allEnvironmentInfos();
+    // Set instance field: private EnvironmentsListSO _allEnvironmentInfos
+    void _set__allEnvironmentInfos(GlobalNamespace::EnvironmentsListSO* value);
+    // Get instance field: private EnvironmentTypeSO _normalEnvironmentType
+    GlobalNamespace::EnvironmentTypeSO* _get__normalEnvironmentType();
+    // Set instance field: private EnvironmentTypeSO _normalEnvironmentType
+    void _set__normalEnvironmentType(GlobalNamespace::EnvironmentTypeSO* value);
+    // Get instance field: private EnvironmentTypeSO _a360DegreesEnvironmentType
+    GlobalNamespace::EnvironmentTypeSO* _get__a360DegreesEnvironmentType();
+    // Set instance field: private EnvironmentTypeSO _a360DegreesEnvironmentType
+    void _set__a360DegreesEnvironmentType(GlobalNamespace::EnvironmentTypeSO* value);
+    // Get instance field: private BeatmapCharacteristicSO _defaultLastSelectedBeatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__defaultLastSelectedBeatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _defaultLastSelectedBeatmapCharacteristic
+    void _set__defaultLastSelectedBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private System.String _buildInSongPackSerializedName
+    ::Il2CppString* _get__buildInSongPackSerializedName();
+    // Set instance field: private System.String _buildInSongPackSerializedName
+    void _set__buildInSongPackSerializedName(::Il2CppString* value);
+    // Get instance field: private System.String _allSongPackSerializedName
+    ::Il2CppString* _get__allSongPackSerializedName();
+    // Set instance field: private System.String _allSongPackSerializedName
+    void _set__allSongPackSerializedName(::Il2CppString* value);
     // public System.Void Save(PlayerData playerData)
     // Offset: 0x1101518
     void Save(GlobalNamespace::PlayerData* playerData);

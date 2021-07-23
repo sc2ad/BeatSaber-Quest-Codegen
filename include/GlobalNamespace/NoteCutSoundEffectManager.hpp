@@ -214,6 +214,86 @@ namespace GlobalNamespace {
     static float _get_kDenseNotesVolumeMul();
     // Set static field: static private System.Single kDenseNotesVolumeMul
     static void _set_kDenseNotesVolumeMul(float value);
+    // Get instance field: private AudioManagerSO _audioManager
+    GlobalNamespace::AudioManagerSO* _get__audioManager();
+    // Set instance field: private AudioManagerSO _audioManager
+    void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
+    // Get instance field: private System.Single _audioSamplesBeatAlignOffset
+    float _get__audioSamplesBeatAlignOffset();
+    // Set instance field: private System.Single _audioSamplesBeatAlignOffset
+    void _set__audioSamplesBeatAlignOffset(float value);
+    // Get instance field: private UnityEngine.AudioClip[] _longCutEffectsAudioClips
+    ::Array<UnityEngine::AudioClip*>* _get__longCutEffectsAudioClips();
+    // Set instance field: private UnityEngine.AudioClip[] _longCutEffectsAudioClips
+    void _set__longCutEffectsAudioClips(::Array<UnityEngine::AudioClip*>* value);
+    // Get instance field: private UnityEngine.AudioClip[] _shortCutEffectsAudioClips
+    ::Array<UnityEngine::AudioClip*>* _get__shortCutEffectsAudioClips();
+    // Set instance field: private UnityEngine.AudioClip[] _shortCutEffectsAudioClips
+    void _set__shortCutEffectsAudioClips(::Array<UnityEngine::AudioClip*>* value);
+    // Get instance field: private UnityEngine.AudioClip _testAudioClip
+    UnityEngine::AudioClip* _get__testAudioClip();
+    // Set instance field: private UnityEngine.AudioClip _testAudioClip
+    void _set__testAudioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private readonly NoteCutSoundEffectManager/InitData _initData
+    GlobalNamespace::NoteCutSoundEffectManager::InitData* _get__initData();
+    // Set instance field: private readonly NoteCutSoundEffectManager/InitData _initData
+    void _set__initData(GlobalNamespace::NoteCutSoundEffectManager::InitData* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager* _get__saberManager();
+    // Set instance field: private readonly SaberManager _saberManager
+    void _set__saberManager(GlobalNamespace::SaberManager* value);
+    // Get instance field: private readonly NoteCutSoundEffect/Pool _noteCutSoundEffectPool
+    GlobalNamespace::NoteCutSoundEffect::Pool* _get__noteCutSoundEffectPool();
+    // Set instance field: private readonly NoteCutSoundEffect/Pool _noteCutSoundEffectPool
+    void _set__noteCutSoundEffectPool(GlobalNamespace::NoteCutSoundEffect::Pool* value);
+    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private System.Boolean <handleWrongSaberTypeAsGood>k__BackingField
+    bool _get_$handleWrongSaberTypeAsGood$k__BackingField();
+    // Set instance field: private System.Boolean <handleWrongSaberTypeAsGood>k__BackingField
+    void _set_$handleWrongSaberTypeAsGood$k__BackingField(bool value);
+    // Get instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomLongCutSoundPicker
+    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* _get__randomLongCutSoundPicker();
+    // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomLongCutSoundPicker
+    void _set__randomLongCutSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
+    // Get instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomShortCutSoundPicker
+    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* _get__randomShortCutSoundPicker();
+    // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomShortCutSoundPicker
+    void _set__randomShortCutSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
+    // Get instance field: private System.Single _prevNoteATime
+    float _get__prevNoteATime();
+    // Set instance field: private System.Single _prevNoteATime
+    void _set__prevNoteATime(float value);
+    // Get instance field: private System.Single _prevNoteBTime
+    float _get__prevNoteBTime();
+    // Set instance field: private System.Single _prevNoteBTime
+    void _set__prevNoteBTime(float value);
+    // Get instance field: private NoteCutSoundEffect _prevNoteASoundEffect
+    GlobalNamespace::NoteCutSoundEffect* _get__prevNoteASoundEffect();
+    // Set instance field: private NoteCutSoundEffect _prevNoteASoundEffect
+    void _set__prevNoteASoundEffect(GlobalNamespace::NoteCutSoundEffect* value);
+    // Get instance field: private NoteCutSoundEffect _prevNoteBSoundEffect
+    GlobalNamespace::NoteCutSoundEffect* _get__prevNoteBSoundEffect();
+    // Set instance field: private NoteCutSoundEffect _prevNoteBSoundEffect
+    void _set__prevNoteBSoundEffect(GlobalNamespace::NoteCutSoundEffect* value);
+    // Get instance field: private System.Single _beatAlignOffset
+    float _get__beatAlignOffset();
+    // Set instance field: private System.Single _beatAlignOffset
+    void _set__beatAlignOffset(float value);
+    // Get instance field: private System.Boolean _useTestAudioClips
+    bool _get__useTestAudioClips();
+    // Set instance field: private System.Boolean _useTestAudioClips
+    void _set__useTestAudioClips(bool value);
+    // Get instance field: private MemoryPoolContainer`1<NoteCutSoundEffect> _noteCutSoundEffectPoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>* _get__noteCutSoundEffectPoolContainer();
+    // Set instance field: private MemoryPoolContainer`1<NoteCutSoundEffect> _noteCutSoundEffectPoolContainer
+    void _set__noteCutSoundEffectPoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>* value);
     // public System.Boolean get_handleWrongSaberTypeAsGood()
     // Offset: 0x1018EFC
     bool get_handleWrongSaberTypeAsGood();

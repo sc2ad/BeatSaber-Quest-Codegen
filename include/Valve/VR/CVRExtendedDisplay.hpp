@@ -40,6 +40,10 @@ namespace Valve::VR {
     constexpr operator Valve::VR::IVRExtendedDisplay() const noexcept {
       return FnTable;
     }
+    // Get instance field: private Valve.VR.IVRExtendedDisplay FnTable
+    Valve::VR::IVRExtendedDisplay _get_FnTable();
+    // Set instance field: private Valve.VR.IVRExtendedDisplay FnTable
+    void _set_FnTable(Valve::VR::IVRExtendedDisplay value);
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x16BC600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

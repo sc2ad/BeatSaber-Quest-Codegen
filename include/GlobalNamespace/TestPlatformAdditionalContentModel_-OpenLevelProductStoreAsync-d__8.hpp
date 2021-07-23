@@ -71,6 +71,30 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AdditionalContentModel/OpenProductStoreResult> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AdditionalContentModel/OpenProductStoreResult> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> value);
+    // Get instance field: public System.Threading.CancellationToken token
+    System::Threading::CancellationToken _get_token();
+    // Set instance field: public System.Threading.CancellationToken token
+    void _set_token(System::Threading::CancellationToken value);
+    // Get instance field: public System.String levelId
+    ::Il2CppString* _get_levelId();
+    // Set instance field: public System.String levelId
+    void _set_levelId(::Il2CppString* value);
+    // Get instance field: public TestPlatformAdditionalContentModel <>4__this
+    GlobalNamespace::TestPlatformAdditionalContentModel* _get_$$4__this();
+    // Set instance field: public TestPlatformAdditionalContentModel <>4__this
+    void _set_$$4__this(GlobalNamespace::TestPlatformAdditionalContentModel* value);
+    // Get instance field: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
+    System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xECFC44
     void MoveNext();

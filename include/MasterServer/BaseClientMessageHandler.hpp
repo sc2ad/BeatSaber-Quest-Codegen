@@ -144,6 +144,30 @@ namespace MasterServer {
     static LiteNetLib::Utils::NetDataWriter* _get__authenticationDataWriter();
     // Set static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
     static void _set__authenticationDataWriter(LiteNetLib::Utils::NetDataWriter* value);
+    // Get instance field: private readonly MasterServerEndPoint _endPoint
+    GlobalNamespace::MasterServerEndPoint* _get__endPoint();
+    // Set instance field: private readonly MasterServerEndPoint _endPoint
+    void _set__endPoint(GlobalNamespace::MasterServerEndPoint* value);
+    // Get instance field: private readonly ICertificateValidator _certificateValidator
+    GlobalNamespace::ICertificateValidator* _get__certificateValidator();
+    // Set instance field: private readonly ICertificateValidator _certificateValidator
+    void _set__certificateValidator(GlobalNamespace::ICertificateValidator* value);
+    // Get instance field: private System.Threading.Tasks.Task _authenticationTask
+    System::Threading::Tasks::Task* _get__authenticationTask();
+    // Set instance field: private System.Threading.Tasks.Task _authenticationTask
+    void _set__authenticationTask(System::Threading::Tasks::Task* value);
+    // Get instance field: private System.Security.Authentication.AuthenticationException _authenticationException
+    System::Security::Authentication::AuthenticationException* _get__authenticationException();
+    // Set instance field: private System.Security.Authentication.AuthenticationException _authenticationException
+    void _set__authenticationException(System::Security::Authentication::AuthenticationException* value);
+    // Get instance field: private System.Boolean _disposed
+    bool _get__disposed();
+    // Set instance field: private System.Boolean _disposed
+    void _set__disposed(bool value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task> _orderedRequests
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>* _get__orderedRequests();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task> _orderedRequests
+    void _set__orderedRequests(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>* value);
     // public MasterServerEndPoint get_endPoint()
     // Offset: 0x12CB588
     GlobalNamespace::MasterServerEndPoint* get_endPoint();

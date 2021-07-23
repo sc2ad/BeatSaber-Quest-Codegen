@@ -49,6 +49,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Gost3410KeyParameters(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}) noexcept : parameters{parameters_}, publicKeyParamSet{publicKeyParamSet_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters parameters
+    Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters parameters
+    void _set_parameters(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_publicKeyParamSet();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    void _set_publicKeyParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters get_Parameters()
     // Offset: 0x122C384
     Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* get_Parameters();

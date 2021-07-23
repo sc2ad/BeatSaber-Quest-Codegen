@@ -66,6 +66,18 @@ namespace System::Security::Policy {
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
+    // Get instance field: private System.Boolean _locked
+    bool _get__locked();
+    // Set instance field: private System.Boolean _locked
+    void _set__locked(bool value);
+    // Get instance field: private System.Collections.ArrayList hostEvidenceList
+    System::Collections::ArrayList* _get_hostEvidenceList();
+    // Set instance field: private System.Collections.ArrayList hostEvidenceList
+    void _set_hostEvidenceList(System::Collections::ArrayList* value);
+    // Get instance field: private System.Collections.ArrayList assemblyEvidenceList
+    System::Collections::ArrayList* _get_assemblyEvidenceList();
+    // Set instance field: private System.Collections.ArrayList assemblyEvidenceList
+    void _set_assemblyEvidenceList(System::Collections::ArrayList* value);
     // public System.Int32 get_Count()
     // Offset: 0x1B08790
     int get_Count();

@@ -45,6 +45,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::INetworkPlayerModel*) == 0x8);
     // Creating value type constructor for type: PartyConfig
     PartyConfig(GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, GlobalNamespace::INetworkPlayerModel* partyManager_ = {}) noexcept : selectionMask{selectionMask_}, configuration{configuration_}, partyManager{partyManager_} {}
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field: public INetworkPlayerModel partyManager
+    GlobalNamespace::INetworkPlayerModel* _get_partyManager();
+    // Set instance field: public INetworkPlayerModel partyManager
+    void _set_partyManager(GlobalNamespace::INetworkPlayerModel* value);
     // public System.Void .ctor()
     // Offset: 0x1184F80
     // Implemented from: System.Object

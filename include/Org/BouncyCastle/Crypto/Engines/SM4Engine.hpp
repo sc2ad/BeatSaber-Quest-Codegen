@@ -54,6 +54,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_FK();
     // Set static field: static private readonly System.UInt32[] FK
     static void _set_FK(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] rk
+    ::Array<uint>* _get_rk();
+    // Set instance field: private System.UInt32[] rk
+    void _set_rk(::Array<uint>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E53D14
     ::Il2CppString* get_AlgorithmName();

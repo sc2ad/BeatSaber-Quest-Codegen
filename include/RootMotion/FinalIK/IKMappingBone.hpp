@@ -56,6 +56,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKMapping::BoneMap*) == 0x8);
     // Creating value type constructor for type: IKMappingBone
     IKMappingBone(UnityEngine::Transform* bone_ = {}, float maintainRotationWeight_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap_ = {}) noexcept : bone{bone_}, maintainRotationWeight{maintainRotationWeight_}, boneMap{boneMap_} {}
+    // Get instance field: public UnityEngine.Transform bone
+    UnityEngine::Transform* _get_bone();
+    // Set instance field: public UnityEngine.Transform bone
+    void _set_bone(UnityEngine::Transform* value);
+    // Get instance field: public System.Single maintainRotationWeight
+    float _get_maintainRotationWeight();
+    // Set instance field: public System.Single maintainRotationWeight
+    void _set_maintainRotationWeight(float value);
+    // Get instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap
+    RootMotion::FinalIK::IKMapping::BoneMap* _get_boneMap();
+    // Set instance field: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap
+    void _set_boneMap(RootMotion::FinalIK::IKMapping::BoneMap* value);
     // public System.Void .ctor(UnityEngine.Transform bone)
     // Offset: 0x1C9B574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

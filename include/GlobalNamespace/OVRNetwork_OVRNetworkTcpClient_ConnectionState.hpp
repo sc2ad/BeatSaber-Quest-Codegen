@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState _get_Connecting();
     // Set static field: static public OVRNetwork/OVRNetworkTcpClient/ConnectionState Connecting
     static void _set_Connecting(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRNetwork/OVRNetworkTcpClient/ConnectionState
   #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClient_ConnectionStateSizeCheck;

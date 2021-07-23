@@ -47,6 +47,14 @@ namespace UnityEngine {
     static_assert(sizeof(System::Action_1<UnityEngine::AsyncOperation*>*) == 0x8);
     // Creating value type constructor for type: AsyncOperation
     AsyncOperation(System::IntPtr m_Ptr_ = {}, System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback_ = {}) noexcept : m_Ptr{m_Ptr_}, m_completeCallback{m_completeCallback_} {}
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: private System.Action`1<UnityEngine.AsyncOperation> m_completeCallback
+    System::Action_1<UnityEngine::AsyncOperation*>* _get_m_completeCallback();
+    // Set instance field: private System.Action`1<UnityEngine.AsyncOperation> m_completeCallback
+    void _set_m_completeCallback(System::Action_1<UnityEngine::AsyncOperation*>* value);
     // public System.Boolean get_isDone()
     // Offset: 0x1BDC564
     bool get_isDone();

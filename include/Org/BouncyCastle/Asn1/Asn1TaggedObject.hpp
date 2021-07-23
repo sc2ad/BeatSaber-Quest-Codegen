@@ -47,6 +47,18 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
     // Creating value type constructor for type: Asn1TaggedObject
     Asn1TaggedObject(int tagNo_ = {}, bool explicitly_ = {}, Org::BouncyCastle::Asn1::Asn1Encodable* obj_ = {}) noexcept : tagNo{tagNo_}, explicitly{explicitly_}, obj{obj_} {}
+    // Get instance field: System.Int32 tagNo
+    int _get_tagNo();
+    // Set instance field: System.Int32 tagNo
+    void _set_tagNo(int value);
+    // Get instance field: System.Boolean explicitly
+    bool _get_explicitly();
+    // Set instance field: System.Boolean explicitly
+    void _set_explicitly(bool value);
+    // Get instance field: Org.BouncyCastle.Asn1.Asn1Encodable obj
+    Org::BouncyCastle::Asn1::Asn1Encodable* _get_obj();
+    // Set instance field: Org.BouncyCastle.Asn1.Asn1Encodable obj
+    void _set_obj(Org::BouncyCastle::Asn1::Asn1Encodable* value);
     // public System.Int32 get_TagNo()
     // Offset: 0x16DF730
     int get_TagNo();

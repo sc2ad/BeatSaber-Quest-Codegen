@@ -75,6 +75,34 @@ namespace HMUI {
     InputFieldViewStaticAnimations(HMUI::InputFieldView* inputFieldView_ = {}, UnityEngine::AnimationClip* normalClip_ = {}, UnityEngine::AnimationClip* highlightedClip_ = {}, UnityEngine::AnimationClip* pressedClip_ = {}, UnityEngine::AnimationClip* disabledClip_ = {}, UnityEngine::AnimationClip* selectedClip_ = {}, bool didStart_ = {}) noexcept : inputFieldView{inputFieldView_}, normalClip{normalClip_}, highlightedClip{highlightedClip_}, pressedClip{pressedClip_}, disabledClip{disabledClip_}, selectedClip{selectedClip_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.InputFieldView _inputFieldView
+    HMUI::InputFieldView* _get__inputFieldView();
+    // Set instance field: private HMUI.InputFieldView _inputFieldView
+    void _set__inputFieldView(HMUI::InputFieldView* value);
+    // Get instance field: private UnityEngine.AnimationClip _normalClip
+    UnityEngine::AnimationClip* _get__normalClip();
+    // Set instance field: private UnityEngine.AnimationClip _normalClip
+    void _set__normalClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _highlightedClip
+    UnityEngine::AnimationClip* _get__highlightedClip();
+    // Set instance field: private UnityEngine.AnimationClip _highlightedClip
+    void _set__highlightedClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _pressedClip
+    UnityEngine::AnimationClip* _get__pressedClip();
+    // Set instance field: private UnityEngine.AnimationClip _pressedClip
+    void _set__pressedClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _disabledClip
+    UnityEngine::AnimationClip* _get__disabledClip();
+    // Set instance field: private UnityEngine.AnimationClip _disabledClip
+    void _set__disabledClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _selectedClip
+    UnityEngine::AnimationClip* _get__selectedClip();
+    // Set instance field: private UnityEngine.AnimationClip _selectedClip
+    void _set__selectedClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private System.Boolean _didStart
+    bool _get__didStart();
+    // Set instance field: private System.Boolean _didStart
+    void _set__didStart(bool value);
     // protected System.Void Awake()
     // Offset: 0x12927B4
     void Awake();

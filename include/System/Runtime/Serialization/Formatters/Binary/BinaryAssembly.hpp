@@ -42,6 +42,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: BinaryAssembly
     BinaryAssembly(int assemId_ = {}, ::Il2CppString* assemblyString_ = {}) noexcept : assemId{assemId_}, assemblyString{assemblyString_} {}
+    // Get instance field: System.Int32 assemId
+    int _get_assemId();
+    // Set instance field: System.Int32 assemId
+    void _set_assemId(int value);
+    // Get instance field: System.String assemblyString
+    ::Il2CppString* _get_assemblyString();
+    // Set instance field: System.String assemblyString
+    void _set_assemblyString(::Il2CppString* value);
     // System.Void Set(System.Int32 assemId, System.String assemblyString)
     // Offset: 0x15D74B4
     void Set(int assemId, ::Il2CppString* assemblyString);

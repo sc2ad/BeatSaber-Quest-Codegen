@@ -118,6 +118,50 @@ namespace GlobalNamespace {
     static int _get_kReceivedSequencNumBufferLength();
     // Set static field: static private System.Int32 kReceivedSequencNumBufferLength
     static void _set_kReceivedSequencNumBufferLength(int value);
+    // Get instance field: private System.Boolean _isValid
+    bool _get__isValid();
+    // Set instance field: private System.Boolean _isValid
+    void _set__isValid(bool value);
+    // Get instance field: private System.Int32 _lastSentSequenceNum
+    int _get__lastSentSequenceNum();
+    // Set instance field: private System.Int32 _lastSentSequenceNum
+    void _set__lastSentSequenceNum(int value);
+    // Get instance field: private System.Boolean _hasReceivedSequenceNum
+    bool _get__hasReceivedSequenceNum();
+    // Set instance field: private System.Boolean _hasReceivedSequenceNum
+    void _set__hasReceivedSequenceNum(bool value);
+    // Get instance field: private System.UInt32 _lastReceivedSequenceNum
+    uint _get__lastReceivedSequenceNum();
+    // Set instance field: private System.UInt32 _lastReceivedSequenceNum
+    void _set__lastReceivedSequenceNum(uint value);
+    // Get instance field: private readonly System.Boolean[] _receivedSequenceNumBuffer
+    ::Array<bool>* _get__receivedSequenceNumBuffer();
+    // Set instance field: private readonly System.Boolean[] _receivedSequenceNumBuffer
+    void _set__receivedSequenceNumBuffer(::Array<bool>* value);
+    // Get instance field: public readonly System.Byte[] sendKey
+    ::Array<uint8_t>* _get_sendKey();
+    // Set instance field: public readonly System.Byte[] sendKey
+    void _set_sendKey(::Array<uint8_t>* value);
+    // Get instance field: public readonly System.Byte[] receiveKey
+    ::Array<uint8_t>* _get_receiveKey();
+    // Set instance field: public readonly System.Byte[] receiveKey
+    void _set_receiveKey(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Byte[] _sendMacKey
+    ::Array<uint8_t>* _get__sendMacKey();
+    // Set instance field: private readonly System.Byte[] _sendMacKey
+    void _set__sendMacKey(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Byte[] _receiveMacKey
+    ::Array<uint8_t>* _get__receiveMacKey();
+    // Set instance field: private readonly System.Byte[] _receiveMacKey
+    void _set__receiveMacKey(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _sendMacQueue
+    System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* _get__sendMacQueue();
+    // Set instance field: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _sendMacQueue
+    void _set__sendMacQueue(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* value);
+    // Get instance field: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _receiveMacQueue
+    System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* _get__receiveMacQueue();
+    // Set instance field: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _receiveMacQueue
+    void _set__receiveMacQueue(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* value);
     // public System.Boolean get_isValid()
     // Offset: 0x12C3CE8
     bool get_isValid();

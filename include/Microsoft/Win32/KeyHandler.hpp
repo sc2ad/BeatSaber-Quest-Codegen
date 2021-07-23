@@ -92,6 +92,30 @@ namespace Microsoft::Win32 {
     static ::Il2CppString* _get_machine_store();
     // Set static field: static private System.String machine_store
     static void _set_machine_store(::Il2CppString* value);
+    // Get instance field: public System.String Dir
+    ::Il2CppString* _get_Dir();
+    // Set instance field: public System.String Dir
+    void _set_Dir(::Il2CppString* value);
+    // Get instance field: private System.String ActualDir
+    ::Il2CppString* _get_ActualDir();
+    // Set instance field: private System.String ActualDir
+    void _set_ActualDir(::Il2CppString* value);
+    // Get instance field: public System.Boolean IsVolatile
+    bool _get_IsVolatile();
+    // Set instance field: public System.Boolean IsVolatile
+    void _set_IsVolatile(bool value);
+    // Get instance field: private System.Collections.Hashtable values
+    System::Collections::Hashtable* _get_values();
+    // Set instance field: private System.Collections.Hashtable values
+    void _set_values(System::Collections::Hashtable* value);
+    // Get instance field: private System.String file
+    ::Il2CppString* _get_file();
+    // Set instance field: private System.String file
+    void _set_file(::Il2CppString* value);
+    // Get instance field: private System.Boolean dirty
+    bool _get_dirty();
+    // Set instance field: private System.Boolean dirty
+    void _set_dirty(bool value);
     // public System.Boolean get_IsMarkedForDeletion()
     // Offset: 0x1A0F6F4
     bool get_IsMarkedForDeletion();

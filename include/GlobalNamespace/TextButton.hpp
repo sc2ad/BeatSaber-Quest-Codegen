@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     TextButton(UnityEngine::UI::Text* text_ = {}, UnityEngine::UI::Button* button_ = {}) noexcept : text{text_}, button{button_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Text _text
+    UnityEngine::UI::Text* _get__text();
+    // Set instance field: private UnityEngine.UI.Text _text
+    void _set__text(UnityEngine::UI::Text* value);
+    // Get instance field: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button* _get__button();
+    // Set instance field: private UnityEngine.UI.Button _button
+    void _set__button(UnityEngine::UI::Button* value);
     // public UnityEngine.UI.Text get_text()
     // Offset: 0x106EE54
     UnityEngine::UI::Text* get_text();

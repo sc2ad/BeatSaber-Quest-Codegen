@@ -33,6 +33,14 @@ namespace LiteNetLib {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: NatPunchPacket
     NatPunchPacket(::Il2CppString* Token_ = {}, bool IsExternal_ = {}) noexcept : Token{Token_}, IsExternal{IsExternal_} {}
+    // Get instance field: private System.String <Token>k__BackingField
+    ::Il2CppString* _get_$Token$k__BackingField();
+    // Set instance field: private System.String <Token>k__BackingField
+    void _set_$Token$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <IsExternal>k__BackingField
+    bool _get_$IsExternal$k__BackingField();
+    // Set instance field: private System.Boolean <IsExternal>k__BackingField
+    void _set_$IsExternal$k__BackingField(bool value);
     // public System.String get_Token()
     // Offset: 0x1BB17A4
     ::Il2CppString* get_Token();

@@ -97,6 +97,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*) == 0x8);
     // Creating value type constructor for type: MultiplayerLevelSelectionFlowCoordinator
     MultiplayerLevelSelectionFlowCoordinator(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics_ = {}, GlobalNamespace::ILobbyGameStateController* lobbyGameStateController_ = {}, System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator::State*>* didSelectLevelEvent_ = {}, System::Action* didFinishedEvent_ = {}, ::Il2CppString* actionButtonText_ = {}, ::Il2CppString* titleText_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask_ = {}, GlobalNamespace::LevelSelectionFlowCoordinator::State* state_ = {}) noexcept : notAllowedCharacteristics{notAllowedCharacteristics_}, lobbyGameStateController{lobbyGameStateController_}, didSelectLevelEvent{didSelectLevelEvent_}, didFinishedEvent{didFinishedEvent_}, actionButtonText{actionButtonText_}, titleText{titleText_}, songPackMask{songPackMask_}, allowedBeatmapDifficultyMask{allowedBeatmapDifficultyMask_}, state{state_} {}
+    // Get instance field: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
+    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* _get__notAllowedCharacteristics();
+    // Set instance field: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
+    void _set__notAllowedCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field: private readonly ILobbyGameStateController _lobbyGameStateController
+    GlobalNamespace::ILobbyGameStateController* _get__lobbyGameStateController();
+    // Set instance field: private readonly ILobbyGameStateController _lobbyGameStateController
+    void _set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController* value);
+    // Get instance field: private System.Action`1<LevelSelectionFlowCoordinator/State> didSelectLevelEvent
+    System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator::State*>* _get_didSelectLevelEvent();
+    // Set instance field: private System.Action`1<LevelSelectionFlowCoordinator/State> didSelectLevelEvent
+    void _set_didSelectLevelEvent(System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator::State*>* value);
+    // Get instance field: private System.Action didFinishedEvent
+    System::Action* _get_didFinishedEvent();
+    // Set instance field: private System.Action didFinishedEvent
+    void _set_didFinishedEvent(System::Action* value);
+    // Get instance field: private System.String _actionButtonText
+    ::Il2CppString* _get__actionButtonText();
+    // Set instance field: private System.String _actionButtonText
+    void _set__actionButtonText(::Il2CppString* value);
+    // Get instance field: private System.String _titleText
+    ::Il2CppString* _get__titleText();
+    // Set instance field: private System.String _titleText
+    void _set__titleText(::Il2CppString* value);
+    // Get instance field: private SongPackMask _songPackMask
+    GlobalNamespace::SongPackMask _get__songPackMask();
+    // Set instance field: private SongPackMask _songPackMask
+    void _set__songPackMask(GlobalNamespace::SongPackMask value);
+    // Get instance field: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
+    GlobalNamespace::BeatmapDifficultyMask _get__allowedBeatmapDifficultyMask();
+    // Set instance field: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
+    void _set__allowedBeatmapDifficultyMask(GlobalNamespace::BeatmapDifficultyMask value);
+    // Get instance field: private LevelSelectionFlowCoordinator/State _state
+    GlobalNamespace::LevelSelectionFlowCoordinator::State* _get__state();
+    // Set instance field: private LevelSelectionFlowCoordinator/State _state
+    void _set__state(GlobalNamespace::LevelSelectionFlowCoordinator::State* value);
     // public System.Void add_didSelectLevelEvent(System.Action`1<LevelSelectionFlowCoordinator/State> value)
     // Offset: 0x23CC890
     void add_didSelectLevelEvent(System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator::State*>* value);

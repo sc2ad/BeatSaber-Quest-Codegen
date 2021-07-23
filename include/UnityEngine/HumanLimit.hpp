@@ -57,6 +57,26 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.Vector3 m_Min
+    UnityEngine::Vector3 _get_m_Min();
+    // Set instance field: private UnityEngine.Vector3 m_Min
+    void _set_m_Min(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_Max
+    UnityEngine::Vector3 _get_m_Max();
+    // Set instance field: private UnityEngine.Vector3 m_Max
+    void _set_m_Max(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_Center
+    UnityEngine::Vector3 _get_m_Center();
+    // Set instance field: private UnityEngine.Vector3 m_Center
+    void _set_m_Center(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single m_AxisLength
+    float _get_m_AxisLength();
+    // Set instance field: private System.Single m_AxisLength
+    void _set_m_AxisLength(float value);
+    // Get instance field: private System.Int32 m_UseDefaultValues
+    int _get_m_UseDefaultValues();
+    // Set instance field: private System.Int32 m_UseDefaultValues
+    void _set_m_UseDefaultValues(int value);
   }; // UnityEngine.HumanLimit
   #pragma pack(pop)
   static check_size<sizeof(HumanLimit), 40 + sizeof(int)> __UnityEngine_HumanLimitSizeCheck;

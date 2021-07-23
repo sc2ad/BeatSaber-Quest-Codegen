@@ -90,6 +90,38 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetCalibrationState GetCalibrationState
+    OVR::OpenVR::IVRChaperone::_GetCalibrationState* _get_GetCalibrationState();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetCalibrationState GetCalibrationState
+    void _set_GetCalibrationState(OVR::OpenVR::IVRChaperone::_GetCalibrationState* value);
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetPlayAreaSize GetPlayAreaSize
+    OVR::OpenVR::IVRChaperone::_GetPlayAreaSize* _get_GetPlayAreaSize();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetPlayAreaSize GetPlayAreaSize
+    void _set_GetPlayAreaSize(OVR::OpenVR::IVRChaperone::_GetPlayAreaSize* value);
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetPlayAreaRect GetPlayAreaRect
+    OVR::OpenVR::IVRChaperone::_GetPlayAreaRect* _get_GetPlayAreaRect();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetPlayAreaRect GetPlayAreaRect
+    void _set_GetPlayAreaRect(OVR::OpenVR::IVRChaperone::_GetPlayAreaRect* value);
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._ReloadInfo ReloadInfo
+    OVR::OpenVR::IVRChaperone::_ReloadInfo* _get_ReloadInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._ReloadInfo ReloadInfo
+    void _set_ReloadInfo(OVR::OpenVR::IVRChaperone::_ReloadInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._SetSceneColor SetSceneColor
+    OVR::OpenVR::IVRChaperone::_SetSceneColor* _get_SetSceneColor();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._SetSceneColor SetSceneColor
+    void _set_SetSceneColor(OVR::OpenVR::IVRChaperone::_SetSceneColor* value);
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetBoundsColor GetBoundsColor
+    OVR::OpenVR::IVRChaperone::_GetBoundsColor* _get_GetBoundsColor();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetBoundsColor GetBoundsColor
+    void _set_GetBoundsColor(OVR::OpenVR::IVRChaperone::_GetBoundsColor* value);
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._AreBoundsVisible AreBoundsVisible
+    OVR::OpenVR::IVRChaperone::_AreBoundsVisible* _get_AreBoundsVisible();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._AreBoundsVisible AreBoundsVisible
+    void _set_AreBoundsVisible(OVR::OpenVR::IVRChaperone::_AreBoundsVisible* value);
+    // Get instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._ForceBoundsVisible ForceBoundsVisible
+    OVR::OpenVR::IVRChaperone::_ForceBoundsVisible* _get_ForceBoundsVisible();
+    // Set instance field: OVR.OpenVR.IVRChaperone/OVR.OpenVR._ForceBoundsVisible ForceBoundsVisible
+    void _set_ForceBoundsVisible(OVR::OpenVR::IVRChaperone::_ForceBoundsVisible* value);
   }; // OVR.OpenVR.IVRChaperone
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperone), 56 + sizeof(OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*)> __OVR_OpenVR_IVRChaperoneSizeCheck;

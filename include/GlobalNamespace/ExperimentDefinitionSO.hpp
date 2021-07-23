@@ -67,6 +67,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::ExperimentDefinitionSO::Group _get_Test();
       // Set static field: static public ExperimentDefinitionSO/Group Test
       static void _set_Test(GlobalNamespace::ExperimentDefinitionSO::Group value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // ExperimentDefinitionSO/Group
     #pragma pack(pop)
     static check_size<sizeof(ExperimentDefinitionSO::Group), 0 + sizeof(int)> __GlobalNamespace_ExperimentDefinitionSO_GroupSizeCheck;
@@ -101,6 +105,22 @@ namespace GlobalNamespace {
     ExperimentDefinitionSO(::Il2CppString* experimentName_ = {}, float controlGroupSize_ = {}, ::Il2CppString* salt_ = {}, GlobalNamespace::ExperimentDefinitionSO::Group currentUserTreatmentGroup_ = {}) noexcept : experimentName{experimentName_}, controlGroupSize{controlGroupSize_}, salt{salt_}, currentUserTreatmentGroup{currentUserTreatmentGroup_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _experimentName
+    ::Il2CppString* _get__experimentName();
+    // Set instance field: private System.String _experimentName
+    void _set__experimentName(::Il2CppString* value);
+    // Get instance field: private System.Single _controlGroupSize
+    float _get__controlGroupSize();
+    // Set instance field: private System.Single _controlGroupSize
+    void _set__controlGroupSize(float value);
+    // Get instance field: private System.String _salt
+    ::Il2CppString* _get__salt();
+    // Set instance field: private System.String _salt
+    void _set__salt(::Il2CppString* value);
+    // Get instance field: private ExperimentDefinitionSO/Group _currentUserTreatmentGroup
+    GlobalNamespace::ExperimentDefinitionSO::Group _get__currentUserTreatmentGroup();
+    // Set instance field: private ExperimentDefinitionSO/Group _currentUserTreatmentGroup
+    void _set__currentUserTreatmentGroup(GlobalNamespace::ExperimentDefinitionSO::Group value);
     // public System.Single get_controlGroupSize()
     // Offset: 0x10244DC
     float get_controlGroupSize();

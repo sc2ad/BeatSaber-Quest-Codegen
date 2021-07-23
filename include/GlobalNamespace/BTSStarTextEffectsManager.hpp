@@ -59,6 +59,14 @@ namespace GlobalNamespace {
     BTSStarTextEffectsManager(GlobalNamespace::BTSStarTextEventEffect* btsStarTextEventEffect_ = {}, GlobalNamespace::BTSStarTextEffectController::Pool* btsStarTextEffectControllerPool_ = {}) noexcept : btsStarTextEventEffect{btsStarTextEventEffect_}, btsStarTextEffectControllerPool{btsStarTextEffectControllerPool_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BTSStarTextEventEffect _btsStarTextEventEffect
+    GlobalNamespace::BTSStarTextEventEffect* _get__btsStarTextEventEffect();
+    // Set instance field: private BTSStarTextEventEffect _btsStarTextEventEffect
+    void _set__btsStarTextEventEffect(GlobalNamespace::BTSStarTextEventEffect* value);
+    // Get instance field: private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
+    GlobalNamespace::BTSStarTextEffectController::Pool* _get__btsStarTextEffectControllerPool();
+    // Set instance field: private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
+    void _set__btsStarTextEffectControllerPool(GlobalNamespace::BTSStarTextEffectController::Pool* value);
     // protected System.Void Start()
     // Offset: 0x10E6F64
     void Start();

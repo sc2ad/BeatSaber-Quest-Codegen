@@ -47,6 +47,14 @@ namespace GlobalNamespace {
     CuttingManager(GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::NoteCutter* noteCutter_ = {}) noexcept : saberManager{saberManager_}, noteCutter{noteCutter_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private SaberManager _saberManager
+    GlobalNamespace::SaberManager* _get__saberManager();
+    // Set instance field: private SaberManager _saberManager
+    void _set__saberManager(GlobalNamespace::SaberManager* value);
+    // Get instance field: private readonly NoteCutter _noteCutter
+    GlobalNamespace::NoteCutter* _get__noteCutter();
+    // Set instance field: private readonly NoteCutter _noteCutter
+    void _set__noteCutter(GlobalNamespace::NoteCutter* value);
     // protected System.Void OnEnable()
     // Offset: 0x10878A8
     void OnEnable();

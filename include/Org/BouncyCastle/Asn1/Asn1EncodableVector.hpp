@@ -61,6 +61,18 @@ namespace Org::BouncyCastle::Asn1 {
     static ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* _get_EmptyElements();
     // Set static field: static readonly Org.BouncyCastle.Asn1.Asn1Encodable[] EmptyElements
     static void _set_EmptyElements(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* value);
+    // Get instance field: private Org.BouncyCastle.Asn1.Asn1Encodable[] elements
+    ::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* _get_elements();
+    // Set instance field: private Org.BouncyCastle.Asn1.Asn1Encodable[] elements
+    void _set_elements(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* value);
+    // Get instance field: private System.Int32 elementCount
+    int _get_elementCount();
+    // Set instance field: private System.Int32 elementCount
+    void _set_elementCount(int value);
+    // Get instance field: private System.Boolean copyOnWrite
+    bool _get_copyOnWrite();
+    // Set instance field: private System.Boolean copyOnWrite
+    void _set_copyOnWrite(bool value);
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
     // Offset: 0x16D84C8
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int index);

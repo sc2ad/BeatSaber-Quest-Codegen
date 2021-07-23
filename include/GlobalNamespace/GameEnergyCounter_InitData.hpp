@@ -47,6 +47,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InitData
     InitData(GlobalNamespace::GameplayModifiers::EnergyType energyType_ = {}, bool noFail_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}) noexcept : energyType{energyType_}, noFail{noFail_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_} {}
+    // Get instance field: public readonly GameplayModifiers/EnergyType energyType
+    GlobalNamespace::GameplayModifiers::EnergyType _get_energyType();
+    // Set instance field: public readonly GameplayModifiers/EnergyType energyType
+    void _set_energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
+    // Get instance field: public readonly System.Boolean noFail
+    bool _get_noFail();
+    // Set instance field: public readonly System.Boolean noFail
+    void _set_noFail(bool value);
+    // Get instance field: public readonly System.Boolean instaFail
+    bool _get_instaFail();
+    // Set instance field: public readonly System.Boolean instaFail
+    void _set_instaFail(bool value);
+    // Get instance field: public readonly System.Boolean failOnSaberClash
+    bool _get_failOnSaberClash();
+    // Set instance field: public readonly System.Boolean failOnSaberClash
+    void _set_failOnSaberClash(bool value);
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash)
     // Offset: 0x10A1BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

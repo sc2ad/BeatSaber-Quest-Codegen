@@ -55,6 +55,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE _get_Item();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE Item
     static void _set_Item(System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE
   #pragma pack(pop)
   static check_size<sizeof(InternalMemberTypeE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalMemberTypeESizeCheck;

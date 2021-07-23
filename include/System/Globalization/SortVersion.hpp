@@ -29,6 +29,14 @@ namespace System::Globalization {
     static_assert(sizeof(System::Guid) == 0x10);
     // Creating value type constructor for type: SortVersion
     SortVersion(int m_NlsVersion_ = {}, System::Guid m_SortId_ = {}) noexcept : m_NlsVersion{m_NlsVersion_}, m_SortId{m_SortId_} {}
+    // Get instance field: private System.Int32 m_NlsVersion
+    int _get_m_NlsVersion();
+    // Set instance field: private System.Int32 m_NlsVersion
+    void _set_m_NlsVersion(int value);
+    // Get instance field: private System.Guid m_SortId
+    System::Guid _get_m_SortId();
+    // Set instance field: private System.Guid m_SortId
+    void _set_m_SortId(System::Guid value);
   }; // System.Globalization.SortVersion
   #pragma pack(pop)
   static check_size<sizeof(SortVersion), 20 + sizeof(System::Guid)> __System_Globalization_SortVersionSizeCheck;

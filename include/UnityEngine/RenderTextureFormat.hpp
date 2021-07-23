@@ -199,6 +199,10 @@ namespace UnityEngine {
     static UnityEngine::RenderTextureFormat _get_R16();
     // Set static field: static public UnityEngine.RenderTextureFormat R16
     static void _set_R16(UnityEngine::RenderTextureFormat value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.RenderTextureFormat
   #pragma pack(pop)
   static check_size<sizeof(RenderTextureFormat), 0 + sizeof(int)> __UnityEngine_RenderTextureFormatSizeCheck;

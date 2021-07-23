@@ -64,6 +64,30 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: RsaPrivateCrtKeyParameters
     RsaPrivateCrtKeyParameters(Org::BouncyCastle::Math::BigInteger* e_ = {}, Org::BouncyCastle::Math::BigInteger* p_ = {}, Org::BouncyCastle::Math::BigInteger* q_ = {}, Org::BouncyCastle::Math::BigInteger* dP_ = {}, Org::BouncyCastle::Math::BigInteger* dQ_ = {}, Org::BouncyCastle::Math::BigInteger* qInv_ = {}) noexcept : e{e_}, p{p_}, q{q_}, dP{dP_}, dQ{dQ_}, qInv{qInv_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger e
+    Org::BouncyCastle::Math::BigInteger* _get_e();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger e
+    void _set_e(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger p
+    Org::BouncyCastle::Math::BigInteger* _get_p();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger p
+    void _set_p(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger q
+    Org::BouncyCastle::Math::BigInteger* _get_q();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger q
+    void _set_q(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger dP
+    Org::BouncyCastle::Math::BigInteger* _get_dP();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger dP
+    void _set_dP(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger dQ
+    Org::BouncyCastle::Math::BigInteger* _get_dQ();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger dQ
+    void _set_dQ(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger qInv
+    Org::BouncyCastle::Math::BigInteger* _get_qInv();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger qInv
+    void _set_qInv(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
     // Offset: 0x122D86C
     Org::BouncyCastle::Math::BigInteger* get_PublicExponent();

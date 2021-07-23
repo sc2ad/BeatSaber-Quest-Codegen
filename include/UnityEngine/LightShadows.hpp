@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::LightShadows _get_Soft();
     // Set static field: static public UnityEngine.LightShadows Soft
     static void _set_Soft(UnityEngine::LightShadows value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.LightShadows
   #pragma pack(pop)
   static check_size<sizeof(LightShadows), 0 + sizeof(int)> __UnityEngine_LightShadowsSizeCheck;

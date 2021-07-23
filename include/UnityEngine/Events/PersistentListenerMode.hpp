@@ -73,6 +73,10 @@ namespace UnityEngine::Events {
     static UnityEngine::Events::PersistentListenerMode _get_Bool();
     // Set static field: static public UnityEngine.Events.PersistentListenerMode Bool
     static void _set_Bool(UnityEngine::Events::PersistentListenerMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Events.PersistentListenerMode
   #pragma pack(pop)
   static check_size<sizeof(PersistentListenerMode), 0 + sizeof(int)> __UnityEngine_Events_PersistentListenerModeSizeCheck;

@@ -37,6 +37,14 @@ namespace NetEase::Docker {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Boolean <InitializeSuccessful>k__BackingField
+    bool _get_$InitializeSuccessful$k__BackingField();
+    // Set instance field: private System.Boolean <InitializeSuccessful>k__BackingField
+    void _set_$InitializeSuccessful$k__BackingField(bool value);
+    // Get instance field: private System.Int32 <InitializeCode>k__BackingField
+    int _get_$InitializeCode$k__BackingField();
+    // Set instance field: private System.Int32 <InitializeCode>k__BackingField
+    void _set_$InitializeCode$k__BackingField(int value);
     // public System.Boolean get_InitializeSuccessful()
     // Offset: 0xF0F94C
     bool get_InitializeSuccessful();

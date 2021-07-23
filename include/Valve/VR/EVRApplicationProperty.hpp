@@ -133,6 +133,10 @@ namespace Valve::VR {
     static Valve::VR::EVRApplicationProperty _get_LastLaunchTime_Uint64();
     // Set static field: static public Valve.VR.EVRApplicationProperty LastLaunchTime_Uint64
     static void _set_LastLaunchTime_Uint64(Valve::VR::EVRApplicationProperty value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRApplicationProperty
   #pragma pack(pop)
   static check_size<sizeof(EVRApplicationProperty), 0 + sizeof(int)> __Valve_VR_EVRApplicationPropertySizeCheck;

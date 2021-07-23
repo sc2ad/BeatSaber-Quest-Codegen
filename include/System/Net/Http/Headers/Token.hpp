@@ -112,6 +112,10 @@ namespace System::Net::Http::Headers {
       static System::Net::Http::Headers::Token::Type _get_OpenParens();
       // Set static field: static public System.Net.Http.Headers.Token/System.Net.Http.Headers.Type OpenParens
       static void _set_OpenParens(System::Net::Http::Headers::Token::Type value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Net.Http.Headers.Token/System.Net.Http.Headers.Type
     #pragma pack(pop)
     static check_size<sizeof(Token::Type), 0 + sizeof(int)> __System_Net_Http_Headers_Token_TypeSizeCheck;
@@ -144,6 +148,18 @@ namespace System::Net::Http::Headers {
     static System::Net::Http::Headers::Token _get_Empty();
     // Set static field: static public readonly System.Net.Http.Headers.Token Empty
     static void _set_Empty(System::Net::Http::Headers::Token value);
+    // Get instance field: private readonly System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type
+    System::Net::Http::Headers::Token::Type _get_type();
+    // Set instance field: private readonly System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type
+    void _set_type(System::Net::Http::Headers::Token::Type value);
+    // Get instance field: private System.Int32 <StartPosition>k__BackingField
+    int _get_$StartPosition$k__BackingField();
+    // Set instance field: private System.Int32 <StartPosition>k__BackingField
+    void _set_$StartPosition$k__BackingField(int value);
+    // Get instance field: private System.Int32 <EndPosition>k__BackingField
+    int _get_$EndPosition$k__BackingField();
+    // Set instance field: private System.Int32 <EndPosition>k__BackingField
+    void _set_$EndPosition$k__BackingField(int value);
     // public System.Int32 get_StartPosition()
     // Offset: 0xEDC500
     int get_StartPosition();

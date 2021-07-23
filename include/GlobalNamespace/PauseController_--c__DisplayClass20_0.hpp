@@ -32,6 +32,10 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return value;
     }
+    // Get instance field: public System.Boolean value
+    bool _get_value();
+    // Set instance field: public System.Boolean value
+    void _set_value(bool value);
     // System.Void <get_canPause>b__0(System.Boolean newValue)
     // Offset: 0x10021C4
     void $get_canPause$b__0(bool newValue);

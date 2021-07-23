@@ -43,6 +43,14 @@ namespace System::Net {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.UInt16[] address
+    ::Array<uint16_t>* _get_address();
+    // Set instance field: private System.UInt16[] address
+    void _set_address(::Array<uint16_t>* value);
+    // Get instance field: private System.Int64 scopeId
+    int64_t _get_scopeId();
+    // Set instance field: private System.Int64 scopeId
+    void _set_scopeId(int64_t value);
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
     // Offset: 0xEE1FFC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,6 +33,14 @@ namespace RootMotion {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: InspectorComment
     InspectorComment(::Il2CppString* name_ = {}, ::Il2CppString* color_ = {}) noexcept : name{name_}, color{color_} {}
+    // Get instance field: public System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: public System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: public System.String color
+    ::Il2CppString* _get_color();
+    // Set instance field: public System.String color
+    void _set_color(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
     // Offset: 0x1AC62EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,6 +65,26 @@ namespace GlobalNamespace {
     ColorSchemeView(UnityEngine::UI::Image* saberAColorImage_ = {}, UnityEngine::UI::Image* saberBColorImage_ = {}, UnityEngine::UI::Image* environment0ColorImage_ = {}, UnityEngine::UI::Image* environment1ColorImage_ = {}, UnityEngine::UI::Image* obstacleColorImage_ = {}) noexcept : saberAColorImage{saberAColorImage_}, saberBColorImage{saberBColorImage_}, environment0ColorImage{environment0ColorImage_}, environment1ColorImage{environment1ColorImage_}, obstacleColorImage{obstacleColorImage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Image _saberAColorImage
+    UnityEngine::UI::Image* _get__saberAColorImage();
+    // Set instance field: private UnityEngine.UI.Image _saberAColorImage
+    void _set__saberAColorImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _saberBColorImage
+    UnityEngine::UI::Image* _get__saberBColorImage();
+    // Set instance field: private UnityEngine.UI.Image _saberBColorImage
+    void _set__saberBColorImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _environment0ColorImage
+    UnityEngine::UI::Image* _get__environment0ColorImage();
+    // Set instance field: private UnityEngine.UI.Image _environment0ColorImage
+    void _set__environment0ColorImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _environment1ColorImage
+    UnityEngine::UI::Image* _get__environment1ColorImage();
+    // Set instance field: private UnityEngine.UI.Image _environment1ColorImage
+    void _set__environment1ColorImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _obstacleColorImage
+    UnityEngine::UI::Image* _get__obstacleColorImage();
+    // Set instance field: private UnityEngine.UI.Image _obstacleColorImage
+    void _set__obstacleColorImage(UnityEngine::UI::Image* value);
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
     // Offset: 0x107E890
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);

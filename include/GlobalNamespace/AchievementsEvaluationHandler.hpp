@@ -221,6 +221,118 @@ namespace GlobalNamespace {
     AchievementsEvaluationHandler(GlobalNamespace::AchievementsModelSO* achievementsModel_ = {}, GlobalNamespace::AchievementSO* clearedLevel100Achievement_ = {}, GlobalNamespace::AchievementSO* totalScore100MillionAchievement_ = {}, GlobalNamespace::AchievementSO* _24HoursPlayedAchievement_ = {}, GlobalNamespace::AchievementSO* kilometersTravelled100Achievement_ = {}, GlobalNamespace::AchievementSO* _15ExpertLevelsRankSAchievement_ = {}, GlobalNamespace::AchievementSO* _15ExpertLevelsFullComboAchievement_ = {}, GlobalNamespace::AchievementSO* _15HardLevelsRankSAchievement_ = {}, GlobalNamespace::AchievementSO* _15HardLevelsFullComboAchievement_ = {}, GlobalNamespace::AchievementSO* expertLevelClearedWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* fullComboExpertWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* goodCuts10000Achievement_ = {}, GlobalNamespace::AchievementSO* resultMinRankANormalWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* resultMinRankSHardWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* resultMinRankSSExpertWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* combo50NormalWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* combo100HardWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* combo500ExpertWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* clearedLevelWithoutModifiersAchievement_ = {}, GlobalNamespace::AchievementSO* clearedLevelWithSongSpeedFasterModifierAchievement_ = {}, GlobalNamespace::AchievementSO* clearedLevelWithInstaFailModifierAchievement_ = {}, GlobalNamespace::AchievementSO* clearedLevelWithDisappearingArrowsModifierAchievement_ = {}, GlobalNamespace::AchievementSO* clearedLevelWithBatteryEnergyModifierAchievement_ = {}, GlobalNamespace::AchievementSO* cleared30MissionsAchievement_ = {}, GlobalNamespace::AchievementSO* finalMissionClearedAchievement_ = {}, GlobalNamespace::AchievementSO* allMissionClearedAchievement_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}) noexcept : achievementsModel{achievementsModel_}, clearedLevel100Achievement{clearedLevel100Achievement_}, totalScore100MillionAchievement{totalScore100MillionAchievement_}, _24HoursPlayedAchievement{_24HoursPlayedAchievement_}, kilometersTravelled100Achievement{kilometersTravelled100Achievement_}, _15ExpertLevelsRankSAchievement{_15ExpertLevelsRankSAchievement_}, _15ExpertLevelsFullComboAchievement{_15ExpertLevelsFullComboAchievement_}, _15HardLevelsRankSAchievement{_15HardLevelsRankSAchievement_}, _15HardLevelsFullComboAchievement{_15HardLevelsFullComboAchievement_}, expertLevelClearedWithoutModifiersAchievement{expertLevelClearedWithoutModifiersAchievement_}, fullComboExpertWithoutModifiersAchievement{fullComboExpertWithoutModifiersAchievement_}, goodCuts10000Achievement{goodCuts10000Achievement_}, resultMinRankANormalWithoutModifiersAchievement{resultMinRankANormalWithoutModifiersAchievement_}, resultMinRankSHardWithoutModifiersAchievement{resultMinRankSHardWithoutModifiersAchievement_}, resultMinRankSSExpertWithoutModifiersAchievement{resultMinRankSSExpertWithoutModifiersAchievement_}, combo50NormalWithoutModifiersAchievement{combo50NormalWithoutModifiersAchievement_}, combo100HardWithoutModifiersAchievement{combo100HardWithoutModifiersAchievement_}, combo500ExpertWithoutModifiersAchievement{combo500ExpertWithoutModifiersAchievement_}, clearedLevelWithoutModifiersAchievement{clearedLevelWithoutModifiersAchievement_}, clearedLevelWithSongSpeedFasterModifierAchievement{clearedLevelWithSongSpeedFasterModifierAchievement_}, clearedLevelWithInstaFailModifierAchievement{clearedLevelWithInstaFailModifierAchievement_}, clearedLevelWithDisappearingArrowsModifierAchievement{clearedLevelWithDisappearingArrowsModifierAchievement_}, clearedLevelWithBatteryEnergyModifierAchievement{clearedLevelWithBatteryEnergyModifierAchievement_}, cleared30MissionsAchievement{cleared30MissionsAchievement_}, finalMissionClearedAchievement{finalMissionClearedAchievement_}, allMissionClearedAchievement{allMissionClearedAchievement_}, playerDataModel{playerDataModel_}, missionNodesManager{missionNodesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private AchievementsModelSO _achievementsModel
+    GlobalNamespace::AchievementsModelSO* _get__achievementsModel();
+    // Set instance field: private AchievementsModelSO _achievementsModel
+    void _set__achievementsModel(GlobalNamespace::AchievementsModelSO* value);
+    // Get instance field: private AchievementSO _clearedLevel100Achievement
+    GlobalNamespace::AchievementSO* _get__clearedLevel100Achievement();
+    // Set instance field: private AchievementSO _clearedLevel100Achievement
+    void _set__clearedLevel100Achievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _totalScore100MillionAchievement
+    GlobalNamespace::AchievementSO* _get__totalScore100MillionAchievement();
+    // Set instance field: private AchievementSO _totalScore100MillionAchievement
+    void _set__totalScore100MillionAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _24HoursPlayedAchievement
+    GlobalNamespace::AchievementSO* _get__24HoursPlayedAchievement();
+    // Set instance field: private AchievementSO _24HoursPlayedAchievement
+    void _set__24HoursPlayedAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _kilometersTravelled100Achievement
+    GlobalNamespace::AchievementSO* _get__kilometersTravelled100Achievement();
+    // Set instance field: private AchievementSO _kilometersTravelled100Achievement
+    void _set__kilometersTravelled100Achievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _15ExpertLevelsRankSAchievement
+    GlobalNamespace::AchievementSO* _get__15ExpertLevelsRankSAchievement();
+    // Set instance field: private AchievementSO _15ExpertLevelsRankSAchievement
+    void _set__15ExpertLevelsRankSAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _15ExpertLevelsFullComboAchievement
+    GlobalNamespace::AchievementSO* _get__15ExpertLevelsFullComboAchievement();
+    // Set instance field: private AchievementSO _15ExpertLevelsFullComboAchievement
+    void _set__15ExpertLevelsFullComboAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _15HardLevelsRankSAchievement
+    GlobalNamespace::AchievementSO* _get__15HardLevelsRankSAchievement();
+    // Set instance field: private AchievementSO _15HardLevelsRankSAchievement
+    void _set__15HardLevelsRankSAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _15HardLevelsFullComboAchievement
+    GlobalNamespace::AchievementSO* _get__15HardLevelsFullComboAchievement();
+    // Set instance field: private AchievementSO _15HardLevelsFullComboAchievement
+    void _set__15HardLevelsFullComboAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _expertLevelClearedWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__expertLevelClearedWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _expertLevelClearedWithoutModifiersAchievement
+    void _set__expertLevelClearedWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _fullComboExpertWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__fullComboExpertWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _fullComboExpertWithoutModifiersAchievement
+    void _set__fullComboExpertWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _goodCuts10000Achievement
+    GlobalNamespace::AchievementSO* _get__goodCuts10000Achievement();
+    // Set instance field: private AchievementSO _goodCuts10000Achievement
+    void _set__goodCuts10000Achievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _resultMinRankANormalWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__resultMinRankANormalWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _resultMinRankANormalWithoutModifiersAchievement
+    void _set__resultMinRankANormalWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _resultMinRankSHardWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__resultMinRankSHardWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _resultMinRankSHardWithoutModifiersAchievement
+    void _set__resultMinRankSHardWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _resultMinRankSSExpertWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__resultMinRankSSExpertWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _resultMinRankSSExpertWithoutModifiersAchievement
+    void _set__resultMinRankSSExpertWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _combo50NormalWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__combo50NormalWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _combo50NormalWithoutModifiersAchievement
+    void _set__combo50NormalWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _combo100HardWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__combo100HardWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _combo100HardWithoutModifiersAchievement
+    void _set__combo100HardWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _combo500ExpertWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__combo500ExpertWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _combo500ExpertWithoutModifiersAchievement
+    void _set__combo500ExpertWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _clearedLevelWithoutModifiersAchievement
+    GlobalNamespace::AchievementSO* _get__clearedLevelWithoutModifiersAchievement();
+    // Set instance field: private AchievementSO _clearedLevelWithoutModifiersAchievement
+    void _set__clearedLevelWithoutModifiersAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _clearedLevelWithSongSpeedFasterModifierAchievement
+    GlobalNamespace::AchievementSO* _get__clearedLevelWithSongSpeedFasterModifierAchievement();
+    // Set instance field: private AchievementSO _clearedLevelWithSongSpeedFasterModifierAchievement
+    void _set__clearedLevelWithSongSpeedFasterModifierAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _clearedLevelWithInstaFailModifierAchievement
+    GlobalNamespace::AchievementSO* _get__clearedLevelWithInstaFailModifierAchievement();
+    // Set instance field: private AchievementSO _clearedLevelWithInstaFailModifierAchievement
+    void _set__clearedLevelWithInstaFailModifierAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _clearedLevelWithDisappearingArrowsModifierAchievement
+    GlobalNamespace::AchievementSO* _get__clearedLevelWithDisappearingArrowsModifierAchievement();
+    // Set instance field: private AchievementSO _clearedLevelWithDisappearingArrowsModifierAchievement
+    void _set__clearedLevelWithDisappearingArrowsModifierAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _clearedLevelWithBatteryEnergyModifierAchievement
+    GlobalNamespace::AchievementSO* _get__clearedLevelWithBatteryEnergyModifierAchievement();
+    // Set instance field: private AchievementSO _clearedLevelWithBatteryEnergyModifierAchievement
+    void _set__clearedLevelWithBatteryEnergyModifierAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _cleared30MissionsAchievement
+    GlobalNamespace::AchievementSO* _get__cleared30MissionsAchievement();
+    // Set instance field: private AchievementSO _cleared30MissionsAchievement
+    void _set__cleared30MissionsAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _finalMissionClearedAchievement
+    GlobalNamespace::AchievementSO* _get__finalMissionClearedAchievement();
+    // Set instance field: private AchievementSO _finalMissionClearedAchievement
+    void _set__finalMissionClearedAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private AchievementSO _allMissionClearedAchievement
+    GlobalNamespace::AchievementSO* _get__allMissionClearedAchievement();
+    // Set instance field: private AchievementSO _allMissionClearedAchievement
+    void _set__allMissionClearedAchievement(GlobalNamespace::AchievementSO* value);
+    // Get instance field: private PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private MissionNodesManager _missionNodesManager
+    GlobalNamespace::MissionNodesManager* _get__missionNodesManager();
+    // Set instance field: private MissionNodesManager _missionNodesManager
+    void _set__missionNodesManager(GlobalNamespace::MissionNodesManager* value);
     // protected System.Void Start()
     // Offset: 0x10D4A84
     void Start();

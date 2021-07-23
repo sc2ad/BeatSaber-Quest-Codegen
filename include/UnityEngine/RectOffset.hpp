@@ -43,6 +43,14 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: RectOffset
     RectOffset(System::IntPtr m_Ptr_ = {}, ::Il2CppObject* m_SourceStyle_ = {}) noexcept : m_Ptr{m_Ptr_}, m_SourceStyle{m_SourceStyle_} {}
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: private readonly System.Object m_SourceStyle
+    ::Il2CppObject* _get_m_SourceStyle();
+    // Set instance field: private readonly System.Object m_SourceStyle
+    void _set_m_SourceStyle(::Il2CppObject* value);
     // public System.Int32 get_left()
     // Offset: 0x1C77B58
     int get_left();

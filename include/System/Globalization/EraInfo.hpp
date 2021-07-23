@@ -74,6 +74,38 @@ namespace System::Globalization {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: EraInfo
     EraInfo(int era_ = {}, int64_t ticks_ = {}, int yearOffset_ = {}, int minEraYear_ = {}, int maxEraYear_ = {}, ::Il2CppString* eraName_ = {}, ::Il2CppString* abbrevEraName_ = {}, ::Il2CppString* englishEraName_ = {}) noexcept : era{era_}, ticks{ticks_}, yearOffset{yearOffset_}, minEraYear{minEraYear_}, maxEraYear{maxEraYear_}, eraName{eraName_}, abbrevEraName{abbrevEraName_}, englishEraName{englishEraName_} {}
+    // Get instance field: System.Int32 era
+    int _get_era();
+    // Set instance field: System.Int32 era
+    void _set_era(int value);
+    // Get instance field: System.Int64 ticks
+    int64_t _get_ticks();
+    // Set instance field: System.Int64 ticks
+    void _set_ticks(int64_t value);
+    // Get instance field: System.Int32 yearOffset
+    int _get_yearOffset();
+    // Set instance field: System.Int32 yearOffset
+    void _set_yearOffset(int value);
+    // Get instance field: System.Int32 minEraYear
+    int _get_minEraYear();
+    // Set instance field: System.Int32 minEraYear
+    void _set_minEraYear(int value);
+    // Get instance field: System.Int32 maxEraYear
+    int _get_maxEraYear();
+    // Set instance field: System.Int32 maxEraYear
+    void _set_maxEraYear(int value);
+    // Get instance field: System.String eraName
+    ::Il2CppString* _get_eraName();
+    // Set instance field: System.String eraName
+    void _set_eraName(::Il2CppString* value);
+    // Get instance field: System.String abbrevEraName
+    ::Il2CppString* _get_abbrevEraName();
+    // Set instance field: System.String abbrevEraName
+    void _set_abbrevEraName(::Il2CppString* value);
+    // Get instance field: System.String englishEraName
+    ::Il2CppString* _get_englishEraName();
+    // Set instance field: System.String englishEraName
+    void _set_englishEraName(::Il2CppString* value);
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear)
     // Offset: 0x19C49BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

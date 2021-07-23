@@ -38,6 +38,14 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DTSweepEdgeEvent
     DTSweepEdgeEvent(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge_ = {}, bool Right_ = {}) noexcept : ConstrainedEdge{ConstrainedEdge_}, Right{Right_} {}
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint ConstrainedEdge
+    UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* _get_ConstrainedEdge();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint ConstrainedEdge
+    void _set_ConstrainedEdge(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
+    // Get instance field: public System.Boolean Right
+    bool _get_Right();
+    // Set instance field: public System.Boolean Right
+    void _set_Right(bool value);
     // public System.Void .ctor()
     // Offset: 0x236D3E8
     // Implemented from: System.Object

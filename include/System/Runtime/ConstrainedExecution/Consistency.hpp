@@ -55,6 +55,10 @@ namespace System::Runtime::ConstrainedExecution {
     static System::Runtime::ConstrainedExecution::Consistency _get_WillNotCorruptState();
     // Set static field: static public System.Runtime.ConstrainedExecution.Consistency WillNotCorruptState
     static void _set_WillNotCorruptState(System::Runtime::ConstrainedExecution::Consistency value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.ConstrainedExecution.Consistency
   #pragma pack(pop)
   static check_size<sizeof(Consistency), 0 + sizeof(int)> __System_Runtime_ConstrainedExecution_ConsistencySizeCheck;

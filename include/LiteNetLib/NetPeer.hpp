@@ -391,6 +391,190 @@ namespace LiteNetLib {
     static int _get_ShutdownDelay();
     // Set static field: static private System.Int32 ShutdownDelay
     static void _set_ShutdownDelay(int value);
+    // Get instance field: private System.Int32 _rtt
+    int _get__rtt();
+    // Set instance field: private System.Int32 _rtt
+    void _set__rtt(int value);
+    // Get instance field: private System.Int32 _avgRtt
+    int _get__avgRtt();
+    // Set instance field: private System.Int32 _avgRtt
+    void _set__avgRtt(int value);
+    // Get instance field: private System.Int32 _rttCount
+    int _get__rttCount();
+    // Set instance field: private System.Int32 _rttCount
+    void _set__rttCount(int value);
+    // Get instance field: private System.Double _resendDelay
+    double _get__resendDelay();
+    // Set instance field: private System.Double _resendDelay
+    void _set__resendDelay(double value);
+    // Get instance field: private System.Int32 _pingSendTimer
+    int _get__pingSendTimer();
+    // Set instance field: private System.Int32 _pingSendTimer
+    void _set__pingSendTimer(int value);
+    // Get instance field: private System.Int32 _rttResetTimer
+    int _get__rttResetTimer();
+    // Set instance field: private System.Int32 _rttResetTimer
+    void _set__rttResetTimer(int value);
+    // Get instance field: private readonly System.Diagnostics.Stopwatch _pingTimer
+    System::Diagnostics::Stopwatch* _get__pingTimer();
+    // Set instance field: private readonly System.Diagnostics.Stopwatch _pingTimer
+    void _set__pingTimer(System::Diagnostics::Stopwatch* value);
+    // Get instance field: private System.Int32 _timeSinceLastPacket
+    int _get__timeSinceLastPacket();
+    // Set instance field: private System.Int32 _timeSinceLastPacket
+    void _set__timeSinceLastPacket(int value);
+    // Get instance field: private System.Int64 _remoteDelta
+    int64_t _get__remoteDelta();
+    // Set instance field: private System.Int64 _remoteDelta
+    void _set__remoteDelta(int64_t value);
+    // Get instance field: private readonly LiteNetLib.NetPacketPool _packetPool
+    LiteNetLib::NetPacketPool* _get__packetPool();
+    // Set instance field: private readonly LiteNetLib.NetPacketPool _packetPool
+    void _set__packetPool(LiteNetLib::NetPacketPool* value);
+    // Get instance field: private readonly System.Object _flushLock
+    ::Il2CppObject* _get__flushLock();
+    // Set instance field: private readonly System.Object _flushLock
+    void _set__flushLock(::Il2CppObject* value);
+    // Get instance field: private readonly System.Object _sendLock
+    ::Il2CppObject* _get__sendLock();
+    // Set instance field: private readonly System.Object _sendLock
+    void _set__sendLock(::Il2CppObject* value);
+    // Get instance field: private readonly System.Object _shutdownLock
+    ::Il2CppObject* _get__shutdownLock();
+    // Set instance field: private readonly System.Object _shutdownLock
+    void _set__shutdownLock(::Il2CppObject* value);
+    // Get instance field: LiteNetLib.NetPeer NextPeer
+    LiteNetLib::NetPeer* _get_NextPeer();
+    // Set instance field: LiteNetLib.NetPeer NextPeer
+    void _set_NextPeer(LiteNetLib::NetPeer* value);
+    // Get instance field: LiteNetLib.NetPeer PrevPeer
+    LiteNetLib::NetPeer* _get_PrevPeer();
+    // Set instance field: LiteNetLib.NetPeer PrevPeer
+    void _set_PrevPeer(LiteNetLib::NetPeer* value);
+    // Get instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> _unreliableChannel
+    System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* _get__unreliableChannel();
+    // Set instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> _unreliableChannel
+    void _set__unreliableChannel(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* value);
+    // Get instance field: private readonly LiteNetLib.BaseChannel[] _channels
+    ::Array<LiteNetLib::BaseChannel*>* _get__channels();
+    // Set instance field: private readonly LiteNetLib.BaseChannel[] _channels
+    void _set__channels(::Array<LiteNetLib::BaseChannel*>* value);
+    // Get instance field: private LiteNetLib.BaseChannel _headChannel
+    LiteNetLib::BaseChannel* _get__headChannel();
+    // Set instance field: private LiteNetLib.BaseChannel _headChannel
+    void _set__headChannel(LiteNetLib::BaseChannel* value);
+    // Get instance field: private System.Int32 _mtu
+    int _get__mtu();
+    // Set instance field: private System.Int32 _mtu
+    void _set__mtu(int value);
+    // Get instance field: private System.Int32 _mtuIdx
+    int _get__mtuIdx();
+    // Set instance field: private System.Int32 _mtuIdx
+    void _set__mtuIdx(int value);
+    // Get instance field: private System.Boolean _finishMtu
+    bool _get__finishMtu();
+    // Set instance field: private System.Boolean _finishMtu
+    void _set__finishMtu(bool value);
+    // Get instance field: private System.Int32 _mtuCheckTimer
+    int _get__mtuCheckTimer();
+    // Set instance field: private System.Int32 _mtuCheckTimer
+    void _set__mtuCheckTimer(int value);
+    // Get instance field: private System.Int32 _mtuCheckAttempts
+    int _get__mtuCheckAttempts();
+    // Set instance field: private System.Int32 _mtuCheckAttempts
+    void _set__mtuCheckAttempts(int value);
+    // Get instance field: private readonly System.Object _mtuMutex
+    ::Il2CppObject* _get__mtuMutex();
+    // Set instance field: private readonly System.Object _mtuMutex
+    void _set__mtuMutex(::Il2CppObject* value);
+    // Get instance field: private System.UInt16 _fragmentId
+    uint16_t _get__fragmentId();
+    // Set instance field: private System.UInt16 _fragmentId
+    void _set__fragmentId(uint16_t value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,LiteNetLib.NetPeer/LiteNetLib.IncomingFragments> _holdedFragments
+    System::Collections::Generic::Dictionary_2<uint16_t, LiteNetLib::NetPeer::IncomingFragments*>* _get__holdedFragments();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,LiteNetLib.NetPeer/LiteNetLib.IncomingFragments> _holdedFragments
+    void _set__holdedFragments(System::Collections::Generic::Dictionary_2<uint16_t, LiteNetLib::NetPeer::IncomingFragments*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,System.UInt16> _deliveredFramgnets
+    System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* _get__deliveredFramgnets();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,System.UInt16> _deliveredFramgnets
+    void _set__deliveredFramgnets(System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* value);
+    // Get instance field: private readonly LiteNetLib.NetPacket _mergeData
+    LiteNetLib::NetPacket* _get__mergeData();
+    // Set instance field: private readonly LiteNetLib.NetPacket _mergeData
+    void _set__mergeData(LiteNetLib::NetPacket* value);
+    // Get instance field: private System.Int32 _mergePos
+    int _get__mergePos();
+    // Set instance field: private System.Int32 _mergePos
+    void _set__mergePos(int value);
+    // Get instance field: private System.Int32 _mergeCount
+    int _get__mergeCount();
+    // Set instance field: private System.Int32 _mergeCount
+    void _set__mergeCount(int value);
+    // Get instance field: private System.Int32 _connectAttempts
+    int _get__connectAttempts();
+    // Set instance field: private System.Int32 _connectAttempts
+    void _set__connectAttempts(int value);
+    // Get instance field: private System.Int32 _connectTimer
+    int _get__connectTimer();
+    // Set instance field: private System.Int32 _connectTimer
+    void _set__connectTimer(int value);
+    // Get instance field: private System.Int64 _connectTime
+    int64_t _get__connectTime();
+    // Set instance field: private System.Int64 _connectTime
+    void _set__connectTime(int64_t value);
+    // Get instance field: private System.Byte _connectNum
+    uint8_t _get__connectNum();
+    // Set instance field: private System.Byte _connectNum
+    void _set__connectNum(uint8_t value);
+    // Get instance field: private LiteNetLib.ConnectionState _connectionState
+    LiteNetLib::ConnectionState _get__connectionState();
+    // Set instance field: private LiteNetLib.ConnectionState _connectionState
+    void _set__connectionState(LiteNetLib::ConnectionState value);
+    // Get instance field: private LiteNetLib.NetPacket _shutdownPacket
+    LiteNetLib::NetPacket* _get__shutdownPacket();
+    // Set instance field: private LiteNetLib.NetPacket _shutdownPacket
+    void _set__shutdownPacket(LiteNetLib::NetPacket* value);
+    // Get instance field: private System.Int32 _shutdownTimer
+    int _get__shutdownTimer();
+    // Set instance field: private System.Int32 _shutdownTimer
+    void _set__shutdownTimer(int value);
+    // Get instance field: private readonly LiteNetLib.NetPacket _pingPacket
+    LiteNetLib::NetPacket* _get__pingPacket();
+    // Set instance field: private readonly LiteNetLib.NetPacket _pingPacket
+    void _set__pingPacket(LiteNetLib::NetPacket* value);
+    // Get instance field: private readonly LiteNetLib.NetPacket _pongPacket
+    LiteNetLib::NetPacket* _get__pongPacket();
+    // Set instance field: private readonly LiteNetLib.NetPacket _pongPacket
+    void _set__pongPacket(LiteNetLib::NetPacket* value);
+    // Get instance field: private readonly LiteNetLib.NetPacket _connectRequestPacket
+    LiteNetLib::NetPacket* _get__connectRequestPacket();
+    // Set instance field: private readonly LiteNetLib.NetPacket _connectRequestPacket
+    void _set__connectRequestPacket(LiteNetLib::NetPacket* value);
+    // Get instance field: private readonly LiteNetLib.NetPacket _connectAcceptPacket
+    LiteNetLib::NetPacket* _get__connectAcceptPacket();
+    // Set instance field: private readonly LiteNetLib.NetPacket _connectAcceptPacket
+    void _set__connectAcceptPacket(LiteNetLib::NetPacket* value);
+    // Get instance field: public readonly System.Net.IPEndPoint EndPoint
+    System::Net::IPEndPoint* _get_EndPoint();
+    // Set instance field: public readonly System.Net.IPEndPoint EndPoint
+    void _set_EndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public readonly LiteNetLib.NetManager NetManager
+    LiteNetLib::NetManager* _get_NetManager();
+    // Set instance field: public readonly LiteNetLib.NetManager NetManager
+    void _set_NetManager(LiteNetLib::NetManager* value);
+    // Get instance field: public readonly System.Int32 Id
+    int _get_Id();
+    // Set instance field: public readonly System.Int32 Id
+    void _set_Id(int value);
+    // Get instance field: public System.Object Tag
+    ::Il2CppObject* _get_Tag();
+    // Set instance field: public System.Object Tag
+    void _set_Tag(::Il2CppObject* value);
+    // Get instance field: public readonly LiteNetLib.NetStatistics Statistics
+    LiteNetLib::NetStatistics* _get_Statistics();
+    // Set instance field: public readonly LiteNetLib.NetStatistics Statistics
+    void _set_Statistics(LiteNetLib::NetStatistics* value);
     // System.Byte get_ConnectionNum()
     // Offset: 0x1BB8B80
     uint8_t get_ConnectionNum();

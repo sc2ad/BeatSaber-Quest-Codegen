@@ -41,6 +41,10 @@ namespace GlobalNamespace {
     IncDecColorController(GlobalNamespace::ColorStepValuePicker* stepValuePicker_ = {}) noexcept : stepValuePicker{stepValuePicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ColorStepValuePicker _stepValuePicker
+    GlobalNamespace::ColorStepValuePicker* _get__stepValuePicker();
+    // Set instance field: private ColorStepValuePicker _stepValuePicker
+    void _set__stepValuePicker(GlobalNamespace::ColorStepValuePicker* value);
     // protected System.Void set_enableDec(System.Boolean value)
     // Offset: 0x10ECC68
     void set_enableDec(bool value);

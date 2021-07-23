@@ -53,6 +53,10 @@ namespace System::Resources {
     constexpr operator System::Resources::ResourceManager::ResourceManagerMediator*() const noexcept {
       return mediator;
     }
+    // Get instance field: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
+    System::Resources::ResourceManager::ResourceManagerMediator* _get__mediator();
+    // Set instance field: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
+    void _set__mediator(System::Resources::ResourceManager::ResourceManagerMediator* value);
     // public System.Void .ctor(System.Resources.ResourceManager/System.Resources.ResourceManagerMediator mediator)
     // Offset: 0x13E82B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

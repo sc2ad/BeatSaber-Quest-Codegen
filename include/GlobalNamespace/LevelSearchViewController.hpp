@@ -185,6 +185,74 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
     // Creating value type constructor for type: LevelSearchViewController
     LevelSearchViewController(UnityEngine::UI::Button* searchButton_ = {}, UnityEngine::UI::Button* clearFiltersButton_ = {}, TMPro::TextMeshProUGUI* filterParamsText_ = {}, UnityEngine::GameObject* filterPlaceholder_ = {}, HMUI::InputFieldView* searchTextInputFieldView_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::SongPackMasksModel* songPackMasksModel_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* didPressSearchButtonEvent_ = {}, System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>* didFilterBeatmapLevelCollectionEvent_ = {}, System::Action_1<GlobalNamespace::LevelSearchViewController*>* didStartLoadingEvent_ = {}, GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection* beatmapLevelPackCollection_ = {}, GlobalNamespace::BeatmapCharacteristicSO* preferredBeatmapCharacteristic_ = {}, GlobalNamespace::LevelFilterParams* currentFilterParams_ = {}, bool onlyFavorites_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks_ = {}) noexcept : searchButton{searchButton_}, clearFiltersButton{clearFiltersButton_}, filterParamsText{filterParamsText_}, filterPlaceholder{filterPlaceholder_}, searchTextInputFieldView{searchTextInputFieldView_}, playerDataModel{playerDataModel_}, songPackMasksModel{songPackMasksModel_}, additionalContentModel{additionalContentModel_}, didPressSearchButtonEvent{didPressSearchButtonEvent_}, didFilterBeatmapLevelCollectionEvent{didFilterBeatmapLevelCollectionEvent_}, didStartLoadingEvent{didStartLoadingEvent_}, beatmapLevelPackCollection{beatmapLevelPackCollection_}, preferredBeatmapCharacteristic{preferredBeatmapCharacteristic_}, currentFilterParams{currentFilterParams_}, onlyFavorites{onlyFavorites_}, cancellationTokenSource{cancellationTokenSource_}, beatmapLevelPacks{beatmapLevelPacks_} {}
+    // Get instance field: private UnityEngine.UI.Button _searchButton
+    UnityEngine::UI::Button* _get__searchButton();
+    // Set instance field: private UnityEngine.UI.Button _searchButton
+    void _set__searchButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _clearFiltersButton
+    UnityEngine::UI::Button* _get__clearFiltersButton();
+    // Set instance field: private UnityEngine.UI.Button _clearFiltersButton
+    void _set__clearFiltersButton(UnityEngine::UI::Button* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _filterParamsText
+    TMPro::TextMeshProUGUI* _get__filterParamsText();
+    // Set instance field: private TMPro.TextMeshProUGUI _filterParamsText
+    void _set__filterParamsText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.GameObject _filterPlaceholder
+    UnityEngine::GameObject* _get__filterPlaceholder();
+    // Set instance field: private UnityEngine.GameObject _filterPlaceholder
+    void _set__filterPlaceholder(UnityEngine::GameObject* value);
+    // Get instance field: private HMUI.InputFieldView _searchTextInputFieldView
+    HMUI::InputFieldView* _get__searchTextInputFieldView();
+    // Set instance field: private HMUI.InputFieldView _searchTextInputFieldView
+    void _set__searchTextInputFieldView(HMUI::InputFieldView* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private readonly SongPackMasksModel _songPackMasksModel
+    GlobalNamespace::SongPackMasksModel* _get__songPackMasksModel();
+    // Set instance field: private readonly SongPackMasksModel _songPackMasksModel
+    void _set__songPackMasksModel(GlobalNamespace::SongPackMasksModel* value);
+    // Get instance field: private readonly AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
+    // Set instance field: private readonly AdditionalContentModel _additionalContentModel
+    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
+    // Get instance field: private System.Action`2<LevelSearchViewController,LevelFilterParams> didPressSearchButtonEvent
+    System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* _get_didPressSearchButtonEvent();
+    // Set instance field: private System.Action`2<LevelSearchViewController,LevelFilterParams> didPressSearchButtonEvent
+    void _set_didPressSearchButtonEvent(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* value);
+    // Get instance field: private System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> didFilterBeatmapLevelCollectionEvent
+    System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>* _get_didFilterBeatmapLevelCollectionEvent();
+    // Set instance field: private System.Action`2<IAnnotatedBeatmapLevelCollection,BeatmapCharacteristicSO> didFilterBeatmapLevelCollectionEvent
+    void _set_didFilterBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field: private System.Action`1<LevelSearchViewController> didStartLoadingEvent
+    System::Action_1<GlobalNamespace::LevelSearchViewController*>* _get_didStartLoadingEvent();
+    // Set instance field: private System.Action`1<LevelSearchViewController> didStartLoadingEvent
+    void _set_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelSearchViewController*>* value);
+    // Get instance field: private LevelSearchViewController/BeatmapLevelPackCollection _beatmapLevelPackCollection
+    GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection* _get__beatmapLevelPackCollection();
+    // Set instance field: private LevelSearchViewController/BeatmapLevelPackCollection _beatmapLevelPackCollection
+    void _set__beatmapLevelPackCollection(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection* value);
+    // Get instance field: private BeatmapCharacteristicSO _preferredBeatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__preferredBeatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _preferredBeatmapCharacteristic
+    void _set__preferredBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private LevelFilterParams _currentFilterParams
+    GlobalNamespace::LevelFilterParams* _get__currentFilterParams();
+    // Set instance field: private LevelFilterParams _currentFilterParams
+    void _set__currentFilterParams(GlobalNamespace::LevelFilterParams* value);
+    // Get instance field: private System.Boolean _onlyFavorites
+    bool _get__onlyFavorites();
+    // Set instance field: private System.Boolean _onlyFavorites
+    void _set__onlyFavorites(bool value);
+    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
+    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field: private IBeatmapLevelPack[] _beatmapLevelPacks
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>* _get__beatmapLevelPacks();
+    // Set instance field: private IBeatmapLevelPack[] _beatmapLevelPacks
+    void _set__beatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void add_didPressSearchButtonEvent(System.Action`2<LevelSearchViewController,LevelFilterParams> value)
     // Offset: 0x11B2AE8
     void add_didPressSearchButtonEvent(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* value);

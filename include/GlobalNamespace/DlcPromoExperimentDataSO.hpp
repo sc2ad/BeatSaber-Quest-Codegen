@@ -50,6 +50,18 @@ namespace GlobalNamespace {
     DlcPromoExperimentDataSO(::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* musicPackPromoInfos_ = {}, GlobalNamespace::ExperimentDefinitionSO* aaTestExperimentDefinition_ = {}, GlobalNamespace::ExperimentDefinitionSO* abTestExperimentDefinition_ = {}) noexcept : musicPackPromoInfos{musicPackPromoInfos_}, aaTestExperimentDefinition{aaTestExperimentDefinition_}, abTestExperimentDefinition{abTestExperimentDefinition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
+    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* _get__musicPackPromoInfos();
+    // Set instance field: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
+    void _set__musicPackPromoInfos(::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* value);
+    // Get instance field: private ExperimentDefinitionSO _aaTestExperimentDefinition
+    GlobalNamespace::ExperimentDefinitionSO* _get__aaTestExperimentDefinition();
+    // Set instance field: private ExperimentDefinitionSO _aaTestExperimentDefinition
+    void _set__aaTestExperimentDefinition(GlobalNamespace::ExperimentDefinitionSO* value);
+    // Get instance field: private ExperimentDefinitionSO _abTestExperimentDefinition
+    GlobalNamespace::ExperimentDefinitionSO* _get__abTestExperimentDefinition();
+    // Set instance field: private ExperimentDefinitionSO _abTestExperimentDefinition
+    void _set__abTestExperimentDefinition(GlobalNamespace::ExperimentDefinitionSO* value);
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
     // Offset: 0x108ADD0
     ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* get_musicPackPromoInfos();

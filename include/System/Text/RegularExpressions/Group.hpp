@@ -46,6 +46,18 @@ namespace System::Text::RegularExpressions {
     static System::Text::RegularExpressions::Group* _get__emptygroup();
     // Set static field: static System.Text.RegularExpressions.Group _emptygroup
     static void _set__emptygroup(System::Text::RegularExpressions::Group* value);
+    // Get instance field: System.Int32[] _caps
+    ::Array<int>* _get__caps();
+    // Set instance field: System.Int32[] _caps
+    void _set__caps(::Array<int>* value);
+    // Get instance field: System.Int32 _capcount
+    int _get__capcount();
+    // Set instance field: System.Int32 _capcount
+    void _set__capcount(int value);
+    // Get instance field: System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: System.String _name
+    void _set__name(::Il2CppString* value);
     // public System.Boolean get_Success()
     // Offset: 0x1834E4C
     bool get_Success();

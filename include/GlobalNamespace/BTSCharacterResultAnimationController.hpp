@@ -64,6 +64,22 @@ namespace GlobalNamespace {
     BTSCharacterResultAnimationController(GlobalNamespace::MaterialPropertyBlockColorSetter* rimLightColorSetter_ = {}, GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightIntensityAnimator_ = {}, GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator_ = {}, UnityEngine::GameObject* collidersGameObject_ = {}) noexcept : rimLightColorSetter{rimLightColorSetter_}, rimLightIntensityAnimator{rimLightIntensityAnimator_}, rimLightEdgeStartAnimator{rimLightEdgeStartAnimator_}, collidersGameObject{collidersGameObject_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MaterialPropertyBlockColorSetter _rimLightColorSetter
+    GlobalNamespace::MaterialPropertyBlockColorSetter* _get__rimLightColorSetter();
+    // Set instance field: private MaterialPropertyBlockColorSetter _rimLightColorSetter
+    void _set__rimLightColorSetter(GlobalNamespace::MaterialPropertyBlockColorSetter* value);
+    // Get instance field: private MaterialPropertyBlockFloatAnimator _rimLightIntensityAnimator
+    GlobalNamespace::MaterialPropertyBlockFloatAnimator* _get__rimLightIntensityAnimator();
+    // Set instance field: private MaterialPropertyBlockFloatAnimator _rimLightIntensityAnimator
+    void _set__rimLightIntensityAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator* value);
+    // Get instance field: private MaterialPropertyBlockFloatAnimator _rimLightEdgeStartAnimator
+    GlobalNamespace::MaterialPropertyBlockFloatAnimator* _get__rimLightEdgeStartAnimator();
+    // Set instance field: private MaterialPropertyBlockFloatAnimator _rimLightEdgeStartAnimator
+    void _set__rimLightEdgeStartAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator* value);
+    // Get instance field: private UnityEngine.GameObject _collidersGameObject
+    UnityEngine::GameObject* _get__collidersGameObject();
+    // Set instance field: private UnityEngine.GameObject _collidersGameObject
+    void _set__collidersGameObject(UnityEngine::GameObject* value);
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
     // Offset: 0x10E49A8
     void SetCharacter(GlobalNamespace::BTSCharacter* btsCharacter);

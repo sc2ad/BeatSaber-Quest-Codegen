@@ -146,6 +146,78 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BakerHumanoidQT
     BakerHumanoidQT(UnityEngine::Transform* transform_ = {}, ::Il2CppString* Qx_ = {}, ::Il2CppString* Qy_ = {}, ::Il2CppString* Qz_ = {}, ::Il2CppString* Qw_ = {}, ::Il2CppString* Tx_ = {}, ::Il2CppString* Ty_ = {}, ::Il2CppString* Tz_ = {}, UnityEngine::AnimationCurve* rotX_ = {}, UnityEngine::AnimationCurve* rotY_ = {}, UnityEngine::AnimationCurve* rotZ_ = {}, UnityEngine::AnimationCurve* rotW_ = {}, UnityEngine::AnimationCurve* posX_ = {}, UnityEngine::AnimationCurve* posY_ = {}, UnityEngine::AnimationCurve* posZ_ = {}, UnityEngine::AvatarIKGoal goal_ = {}, UnityEngine::Quaternion lastQ_ = {}, bool lastQSet_ = {}) noexcept : transform{transform_}, Qx{Qx_}, Qy{Qy_}, Qz{Qz_}, Qw{Qw_}, Tx{Tx_}, Ty{Ty_}, Tz{Tz_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, posX{posX_}, posY{posY_}, posZ{posZ_}, goal{goal_}, lastQ{lastQ_}, lastQSet{lastQSet_} {}
+    // Get instance field: private UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: private UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: private System.String Qx
+    ::Il2CppString* _get_Qx();
+    // Set instance field: private System.String Qx
+    void _set_Qx(::Il2CppString* value);
+    // Get instance field: private System.String Qy
+    ::Il2CppString* _get_Qy();
+    // Set instance field: private System.String Qy
+    void _set_Qy(::Il2CppString* value);
+    // Get instance field: private System.String Qz
+    ::Il2CppString* _get_Qz();
+    // Set instance field: private System.String Qz
+    void _set_Qz(::Il2CppString* value);
+    // Get instance field: private System.String Qw
+    ::Il2CppString* _get_Qw();
+    // Set instance field: private System.String Qw
+    void _set_Qw(::Il2CppString* value);
+    // Get instance field: private System.String Tx
+    ::Il2CppString* _get_Tx();
+    // Set instance field: private System.String Tx
+    void _set_Tx(::Il2CppString* value);
+    // Get instance field: private System.String Ty
+    ::Il2CppString* _get_Ty();
+    // Set instance field: private System.String Ty
+    void _set_Ty(::Il2CppString* value);
+    // Get instance field: private System.String Tz
+    ::Il2CppString* _get_Tz();
+    // Set instance field: private System.String Tz
+    void _set_Tz(::Il2CppString* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotX
+    UnityEngine::AnimationCurve* _get_rotX();
+    // Set instance field: public UnityEngine.AnimationCurve rotX
+    void _set_rotX(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotY
+    UnityEngine::AnimationCurve* _get_rotY();
+    // Set instance field: public UnityEngine.AnimationCurve rotY
+    void _set_rotY(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotZ
+    UnityEngine::AnimationCurve* _get_rotZ();
+    // Set instance field: public UnityEngine.AnimationCurve rotZ
+    void _set_rotZ(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotW
+    UnityEngine::AnimationCurve* _get_rotW();
+    // Set instance field: public UnityEngine.AnimationCurve rotW
+    void _set_rotW(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve posX
+    UnityEngine::AnimationCurve* _get_posX();
+    // Set instance field: public UnityEngine.AnimationCurve posX
+    void _set_posX(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve posY
+    UnityEngine::AnimationCurve* _get_posY();
+    // Set instance field: public UnityEngine.AnimationCurve posY
+    void _set_posY(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve posZ
+    UnityEngine::AnimationCurve* _get_posZ();
+    // Set instance field: public UnityEngine.AnimationCurve posZ
+    void _set_posZ(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AvatarIKGoal goal
+    UnityEngine::AvatarIKGoal _get_goal();
+    // Set instance field: private UnityEngine.AvatarIKGoal goal
+    void _set_goal(UnityEngine::AvatarIKGoal value);
+    // Get instance field: private UnityEngine.Quaternion lastQ
+    UnityEngine::Quaternion _get_lastQ();
+    // Set instance field: private UnityEngine.Quaternion lastQ
+    void _set_lastQ(UnityEngine::Quaternion value);
+    // Get instance field: private System.Boolean lastQSet
+    bool _get_lastQSet();
+    // Set instance field: private System.Boolean lastQSet
+    void _set_lastQSet(bool value);
     // public System.Void .ctor(System.String name)
     // Offset: 0x1CD35CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

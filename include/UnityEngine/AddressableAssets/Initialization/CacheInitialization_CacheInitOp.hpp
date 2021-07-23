@@ -48,6 +48,14 @@ namespace UnityEngine::AddressableAssets::Initialization {
     operator UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::IUpdateReceiver*>(this);
     }
+    // Get instance field: private System.Func`1<System.Boolean> m_Callback
+    System::Func_1<bool>* _get_m_Callback();
+    // Set instance field: private System.Func`1<System.Boolean> m_Callback
+    void _set_m_Callback(System::Func_1<bool>* value);
+    // Get instance field: private System.Boolean m_UpdateRequired
+    bool _get_m_UpdateRequired();
+    // Set instance field: private System.Boolean m_UpdateRequired
+    void _set_m_UpdateRequired(bool value);
     // public System.Void Init(System.Func`1<System.Boolean> callback)
     // Offset: 0x13C7994
     void Init(System::Func_1<bool>* callback);

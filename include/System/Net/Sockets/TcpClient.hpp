@@ -75,6 +75,26 @@ namespace System::Net::Sockets {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.Net.Sockets.Socket m_ClientSocket
+    System::Net::Sockets::Socket* _get_m_ClientSocket();
+    // Set instance field: private System.Net.Sockets.Socket m_ClientSocket
+    void _set_m_ClientSocket(System::Net::Sockets::Socket* value);
+    // Get instance field: private System.Boolean m_Active
+    bool _get_m_Active();
+    // Set instance field: private System.Boolean m_Active
+    void _set_m_Active(bool value);
+    // Get instance field: private System.Net.Sockets.NetworkStream m_DataStream
+    System::Net::Sockets::NetworkStream* _get_m_DataStream();
+    // Set instance field: private System.Net.Sockets.NetworkStream m_DataStream
+    void _set_m_DataStream(System::Net::Sockets::NetworkStream* value);
+    // Get instance field: private System.Net.Sockets.AddressFamily m_Family
+    System::Net::Sockets::AddressFamily _get_m_Family();
+    // Set instance field: private System.Net.Sockets.AddressFamily m_Family
+    void _set_m_Family(System::Net::Sockets::AddressFamily value);
+    // Get instance field: private System.Boolean m_CleanedUp
+    bool _get_m_CleanedUp();
+    // Set instance field: private System.Boolean m_CleanedUp
+    void _set_m_CleanedUp(bool value);
     // public System.Net.Sockets.Socket get_Client()
     // Offset: 0x158CC20
     System::Net::Sockets::Socket* get_Client();

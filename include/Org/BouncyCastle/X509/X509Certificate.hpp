@@ -105,6 +105,42 @@ namespace Org::BouncyCastle::X509 {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: X509Certificate
     X509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c_ = {}, ::Il2CppString* sigAlgName_ = {}, ::Array<uint8_t>* sigAlgParams_ = {}, Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints_ = {}, ::Array<bool>* keyUsage_ = {}, ::Il2CppObject* cacheLock_ = {}, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, sigAlgName{sigAlgName_}, sigAlgParams{sigAlgParams_}, basicConstraints{basicConstraints_}, keyUsage{keyUsage_}, cacheLock{cacheLock_}, publicKeyValue{publicKeyValue_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.X509CertificateStructure c
+    Org::BouncyCastle::Asn1::X509::X509CertificateStructure* _get_c();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.X509CertificateStructure c
+    void _set_c(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
+    // Get instance field: private readonly System.String sigAlgName
+    ::Il2CppString* _get_sigAlgName();
+    // Set instance field: private readonly System.String sigAlgName
+    void _set_sigAlgName(::Il2CppString* value);
+    // Get instance field: private readonly System.Byte[] sigAlgParams
+    ::Array<uint8_t>* _get_sigAlgParams();
+    // Set instance field: private readonly System.Byte[] sigAlgParams
+    void _set_sigAlgParams(::Array<uint8_t>* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.BasicConstraints basicConstraints
+    Org::BouncyCastle::Asn1::X509::BasicConstraints* _get_basicConstraints();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.BasicConstraints basicConstraints
+    void _set_basicConstraints(Org::BouncyCastle::Asn1::X509::BasicConstraints* value);
+    // Get instance field: private readonly System.Boolean[] keyUsage
+    ::Array<bool>* _get_keyUsage();
+    // Set instance field: private readonly System.Boolean[] keyUsage
+    void _set_keyUsage(::Array<bool>* value);
+    // Get instance field: private readonly System.Object cacheLock
+    ::Il2CppObject* _get_cacheLock();
+    // Set instance field: private readonly System.Object cacheLock
+    void _set_cacheLock(::Il2CppObject* value);
+    // Get instance field: private Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicKeyValue
+    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* _get_publicKeyValue();
+    // Set instance field: private Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicKeyValue
+    void _set_publicKeyValue(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+    // Get instance field: private System.Boolean hashValueSet
+    bool _get_hashValueSet();
+    // Set instance field: private System.Boolean hashValueSet
+    void _set_hashValueSet(bool value);
+    // Get instance field: private System.Int32 hashValue
+    int _get_hashValue();
+    // Set instance field: private System.Int32 hashValue
+    void _set_hashValue(int value);
     // public System.Int32 get_Version()
     // Offset: 0x1F7EE24
     int get_Version();

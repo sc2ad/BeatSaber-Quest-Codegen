@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     constexpr operator System::Action*() const noexcept {
       return buttonAction;
     }
+    // Get instance field: public System.Action buttonAction
+    System::Action* _get_buttonAction();
+    // Set instance field: public System.Action buttonAction
+    void _set_buttonAction(System::Action* value);
     // System.Void <Init>b__0(System.Int32 btnIdx)
     // Offset: 0x1081490
     void $Init$b__0(int btnIdx);

@@ -53,6 +53,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*) == 0x8);
     // Creating value type constructor for type: MultiplayerBigAvatarInstaller
     MultiplayerBigAvatarInstaller(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::SaberManager::InitData* saberManagerInitData_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playerSpecificSettings_ = {}) noexcept : connectedPlayer{connectedPlayer_}, saberManagerInitData{saberManagerInitData_}, playerSpecificSettings{playerSpecificSettings_} {}
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private readonly SaberManager/InitData _saberManagerInitData
+    GlobalNamespace::SaberManager::InitData* _get__saberManagerInitData();
+    // Set instance field: private readonly SaberManager/InitData _saberManagerInitData
+    void _set__saberManagerInitData(GlobalNamespace::SaberManager::InitData* value);
+    // Get instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playerSpecificSettings
+    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _get__playerSpecificSettings();
+    // Set instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playerSpecificSettings
+    void _set__playerSpecificSettings(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
     // public System.Void .ctor()
     // Offset: 0x119EDBC
     // Implemented from: Zenject.MonoInstaller

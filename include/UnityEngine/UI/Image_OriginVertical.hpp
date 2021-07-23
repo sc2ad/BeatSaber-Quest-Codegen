@@ -45,6 +45,10 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Image::OriginVertical _get_Top();
     // Set static field: static public UnityEngine.UI.Image/UnityEngine.UI.OriginVertical Top
     static void _set_Top(UnityEngine::UI::Image::OriginVertical value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.UI.Image/UnityEngine.UI.OriginVertical
   #pragma pack(pop)
   static check_size<sizeof(Image::OriginVertical), 0 + sizeof(int)> __UnityEngine_UI_Image_OriginVerticalSizeCheck;

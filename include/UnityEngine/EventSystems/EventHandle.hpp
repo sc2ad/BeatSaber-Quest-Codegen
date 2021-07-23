@@ -44,6 +44,10 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::EventHandle _get_Used();
     // Set static field: static public UnityEngine.EventSystems.EventHandle Used
     static void _set_Used(UnityEngine::EventSystems::EventHandle value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.EventSystems.EventHandle
   #pragma pack(pop)
   static check_size<sizeof(EventHandle), 0 + sizeof(int)> __UnityEngine_EventSystems_EventHandleSizeCheck;

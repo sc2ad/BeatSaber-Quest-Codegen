@@ -74,6 +74,10 @@ namespace System {
     static System::DayOfWeek _get_Saturday();
     // Set static field: static public System.DayOfWeek Saturday
     static void _set_Saturday(System::DayOfWeek value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.DayOfWeek
   #pragma pack(pop)
   static check_size<sizeof(DayOfWeek), 0 + sizeof(int)> __System_DayOfWeekSizeCheck;

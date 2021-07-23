@@ -60,6 +60,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
     // Creating value type constructor for type: ZenjectSceneLoader
     ZenjectSceneLoader(Zenject::ProjectKernel* projectKernel_ = {}, Zenject::DiContainer* sceneContainer_ = {}) noexcept : projectKernel{projectKernel_}, sceneContainer{sceneContainer_} {}
+    // Get instance field: private readonly Zenject.ProjectKernel _projectKernel
+    Zenject::ProjectKernel* _get__projectKernel();
+    // Set instance field: private readonly Zenject.ProjectKernel _projectKernel
+    void _set__projectKernel(Zenject::ProjectKernel* value);
+    // Get instance field: private readonly Zenject.DiContainer _sceneContainer
+    Zenject::DiContainer* _get__sceneContainer();
+    // Set instance field: private readonly Zenject.DiContainer _sceneContainer
+    void _set__sceneContainer(Zenject::DiContainer* value);
     // public System.Void .ctor(Zenject.SceneContext sceneRoot, Zenject.ProjectKernel projectKernel)
     // Offset: 0x2392B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,6 +45,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(::Array<int>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
     $$c__DisplayClass0_0(System::Collections::Generic::List_1<int>* sorted_ = {}, ::Array<int>* offset_ = {}) noexcept : sorted{sorted_}, offset{offset_} {}
+    // Get instance field: public System.Collections.Generic.List`1<System.Int32> sorted
+    System::Collections::Generic::List_1<int>* _get_sorted();
+    // Set instance field: public System.Collections.Generic.List`1<System.Int32> sorted
+    void _set_sorted(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: public System.Int32[] offset
+    ::Array<int>* _get_offset();
+    // Set instance field: public System.Int32[] offset
+    void _set_offset(::Array<int>* value);
     // System.Boolean <DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
     // Offset: 0x151EA18
     bool $DeleteVertices$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);

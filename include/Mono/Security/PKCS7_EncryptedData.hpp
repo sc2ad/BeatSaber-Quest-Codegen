@@ -54,6 +54,22 @@ namespace Mono::Security {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: EncryptedData
     EncryptedData(uint8_t version_ = {}, Mono::Security::PKCS7::ContentInfo* content_ = {}, Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm_ = {}, ::Array<uint8_t>* encrypted_ = {}) noexcept : version{version_}, content{content_}, encryptionAlgorithm{encryptionAlgorithm_}, encrypted{encrypted_} {}
+    // Get instance field: private System.Byte _version
+    uint8_t _get__version();
+    // Set instance field: private System.Byte _version
+    void _set__version(uint8_t value);
+    // Get instance field: private Mono.Security.PKCS7/Mono.Security.ContentInfo _content
+    Mono::Security::PKCS7::ContentInfo* _get__content();
+    // Set instance field: private Mono.Security.PKCS7/Mono.Security.ContentInfo _content
+    void _set__content(Mono::Security::PKCS7::ContentInfo* value);
+    // Get instance field: private Mono.Security.PKCS7/Mono.Security.ContentInfo _encryptionAlgorithm
+    Mono::Security::PKCS7::ContentInfo* _get__encryptionAlgorithm();
+    // Set instance field: private Mono.Security.PKCS7/Mono.Security.ContentInfo _encryptionAlgorithm
+    void _set__encryptionAlgorithm(Mono::Security::PKCS7::ContentInfo* value);
+    // Get instance field: private System.Byte[] _encrypted
+    ::Array<uint8_t>* _get__encrypted();
+    // Set instance field: private System.Byte[] _encrypted
+    void _set__encrypted(::Array<uint8_t>* value);
     // public Mono.Security.PKCS7/Mono.Security.ContentInfo get_EncryptionAlgorithm()
     // Offset: 0x1DDF54C
     Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();

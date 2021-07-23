@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::CollisionDetectionMode _get_ContinuousSpeculative();
     // Set static field: static public UnityEngine.CollisionDetectionMode ContinuousSpeculative
     static void _set_ContinuousSpeculative(UnityEngine::CollisionDetectionMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.CollisionDetectionMode
   #pragma pack(pop)
   static check_size<sizeof(CollisionDetectionMode), 0 + sizeof(int)> __UnityEngine_CollisionDetectionModeSizeCheck;

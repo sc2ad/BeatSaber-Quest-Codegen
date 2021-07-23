@@ -682,6 +682,334 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._FindOverlay FindOverlay
+    Valve::VR::IVROverlay::_FindOverlay* _get_FindOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._FindOverlay FindOverlay
+    void _set_FindOverlay(Valve::VR::IVROverlay::_FindOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._CreateOverlay CreateOverlay
+    Valve::VR::IVROverlay::_CreateOverlay* _get_CreateOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._CreateOverlay CreateOverlay
+    void _set_CreateOverlay(Valve::VR::IVROverlay::_CreateOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._DestroyOverlay DestroyOverlay
+    Valve::VR::IVROverlay::_DestroyOverlay* _get_DestroyOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._DestroyOverlay DestroyOverlay
+    void _set_DestroyOverlay(Valve::VR::IVROverlay::_DestroyOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetHighQualityOverlay SetHighQualityOverlay
+    Valve::VR::IVROverlay::_SetHighQualityOverlay* _get_SetHighQualityOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetHighQualityOverlay SetHighQualityOverlay
+    void _set_SetHighQualityOverlay(Valve::VR::IVROverlay::_SetHighQualityOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetHighQualityOverlay GetHighQualityOverlay
+    Valve::VR::IVROverlay::_GetHighQualityOverlay* _get_GetHighQualityOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetHighQualityOverlay GetHighQualityOverlay
+    void _set_GetHighQualityOverlay(Valve::VR::IVROverlay::_GetHighQualityOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayKey GetOverlayKey
+    Valve::VR::IVROverlay::_GetOverlayKey* _get_GetOverlayKey();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayKey GetOverlayKey
+    void _set_GetOverlayKey(Valve::VR::IVROverlay::_GetOverlayKey* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayName GetOverlayName
+    Valve::VR::IVROverlay::_GetOverlayName* _get_GetOverlayName();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayName GetOverlayName
+    void _set_GetOverlayName(Valve::VR::IVROverlay::_GetOverlayName* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayName SetOverlayName
+    Valve::VR::IVROverlay::_SetOverlayName* _get_SetOverlayName();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayName SetOverlayName
+    void _set_SetOverlayName(Valve::VR::IVROverlay::_SetOverlayName* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayImageData GetOverlayImageData
+    Valve::VR::IVROverlay::_GetOverlayImageData* _get_GetOverlayImageData();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayImageData GetOverlayImageData
+    void _set_GetOverlayImageData(Valve::VR::IVROverlay::_GetOverlayImageData* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayErrorNameFromEnum GetOverlayErrorNameFromEnum
+    Valve::VR::IVROverlay::_GetOverlayErrorNameFromEnum* _get_GetOverlayErrorNameFromEnum();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayErrorNameFromEnum GetOverlayErrorNameFromEnum
+    void _set_GetOverlayErrorNameFromEnum(Valve::VR::IVROverlay::_GetOverlayErrorNameFromEnum* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayRenderingPid SetOverlayRenderingPid
+    Valve::VR::IVROverlay::_SetOverlayRenderingPid* _get_SetOverlayRenderingPid();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayRenderingPid SetOverlayRenderingPid
+    void _set_SetOverlayRenderingPid(Valve::VR::IVROverlay::_SetOverlayRenderingPid* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayRenderingPid GetOverlayRenderingPid
+    Valve::VR::IVROverlay::_GetOverlayRenderingPid* _get_GetOverlayRenderingPid();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayRenderingPid GetOverlayRenderingPid
+    void _set_GetOverlayRenderingPid(Valve::VR::IVROverlay::_GetOverlayRenderingPid* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayFlag SetOverlayFlag
+    Valve::VR::IVROverlay::_SetOverlayFlag* _get_SetOverlayFlag();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayFlag SetOverlayFlag
+    void _set_SetOverlayFlag(Valve::VR::IVROverlay::_SetOverlayFlag* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayFlag GetOverlayFlag
+    Valve::VR::IVROverlay::_GetOverlayFlag* _get_GetOverlayFlag();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayFlag GetOverlayFlag
+    void _set_GetOverlayFlag(Valve::VR::IVROverlay::_GetOverlayFlag* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayColor SetOverlayColor
+    Valve::VR::IVROverlay::_SetOverlayColor* _get_SetOverlayColor();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayColor SetOverlayColor
+    void _set_SetOverlayColor(Valve::VR::IVROverlay::_SetOverlayColor* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayColor GetOverlayColor
+    Valve::VR::IVROverlay::_GetOverlayColor* _get_GetOverlayColor();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayColor GetOverlayColor
+    void _set_GetOverlayColor(Valve::VR::IVROverlay::_GetOverlayColor* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayAlpha SetOverlayAlpha
+    Valve::VR::IVROverlay::_SetOverlayAlpha* _get_SetOverlayAlpha();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayAlpha SetOverlayAlpha
+    void _set_SetOverlayAlpha(Valve::VR::IVROverlay::_SetOverlayAlpha* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayAlpha GetOverlayAlpha
+    Valve::VR::IVROverlay::_GetOverlayAlpha* _get_GetOverlayAlpha();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayAlpha GetOverlayAlpha
+    void _set_GetOverlayAlpha(Valve::VR::IVROverlay::_GetOverlayAlpha* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTexelAspect SetOverlayTexelAspect
+    Valve::VR::IVROverlay::_SetOverlayTexelAspect* _get_SetOverlayTexelAspect();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTexelAspect SetOverlayTexelAspect
+    void _set_SetOverlayTexelAspect(Valve::VR::IVROverlay::_SetOverlayTexelAspect* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTexelAspect GetOverlayTexelAspect
+    Valve::VR::IVROverlay::_GetOverlayTexelAspect* _get_GetOverlayTexelAspect();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTexelAspect GetOverlayTexelAspect
+    void _set_GetOverlayTexelAspect(Valve::VR::IVROverlay::_GetOverlayTexelAspect* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlaySortOrder SetOverlaySortOrder
+    Valve::VR::IVROverlay::_SetOverlaySortOrder* _get_SetOverlaySortOrder();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlaySortOrder SetOverlaySortOrder
+    void _set_SetOverlaySortOrder(Valve::VR::IVROverlay::_SetOverlaySortOrder* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlaySortOrder GetOverlaySortOrder
+    Valve::VR::IVROverlay::_GetOverlaySortOrder* _get_GetOverlaySortOrder();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlaySortOrder GetOverlaySortOrder
+    void _set_GetOverlaySortOrder(Valve::VR::IVROverlay::_GetOverlaySortOrder* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayWidthInMeters SetOverlayWidthInMeters
+    Valve::VR::IVROverlay::_SetOverlayWidthInMeters* _get_SetOverlayWidthInMeters();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayWidthInMeters SetOverlayWidthInMeters
+    void _set_SetOverlayWidthInMeters(Valve::VR::IVROverlay::_SetOverlayWidthInMeters* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayWidthInMeters GetOverlayWidthInMeters
+    Valve::VR::IVROverlay::_GetOverlayWidthInMeters* _get_GetOverlayWidthInMeters();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayWidthInMeters GetOverlayWidthInMeters
+    void _set_GetOverlayWidthInMeters(Valve::VR::IVROverlay::_GetOverlayWidthInMeters* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayAutoCurveDistanceRangeInMeters SetOverlayAutoCurveDistanceRangeInMeters
+    Valve::VR::IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters* _get_SetOverlayAutoCurveDistanceRangeInMeters();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayAutoCurveDistanceRangeInMeters SetOverlayAutoCurveDistanceRangeInMeters
+    void _set_SetOverlayAutoCurveDistanceRangeInMeters(Valve::VR::IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayAutoCurveDistanceRangeInMeters GetOverlayAutoCurveDistanceRangeInMeters
+    Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters* _get_GetOverlayAutoCurveDistanceRangeInMeters();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayAutoCurveDistanceRangeInMeters GetOverlayAutoCurveDistanceRangeInMeters
+    void _set_GetOverlayAutoCurveDistanceRangeInMeters(Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTextureColorSpace SetOverlayTextureColorSpace
+    Valve::VR::IVROverlay::_SetOverlayTextureColorSpace* _get_SetOverlayTextureColorSpace();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTextureColorSpace SetOverlayTextureColorSpace
+    void _set_SetOverlayTextureColorSpace(Valve::VR::IVROverlay::_SetOverlayTextureColorSpace* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureColorSpace GetOverlayTextureColorSpace
+    Valve::VR::IVROverlay::_GetOverlayTextureColorSpace* _get_GetOverlayTextureColorSpace();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureColorSpace GetOverlayTextureColorSpace
+    void _set_GetOverlayTextureColorSpace(Valve::VR::IVROverlay::_GetOverlayTextureColorSpace* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTextureBounds SetOverlayTextureBounds
+    Valve::VR::IVROverlay::_SetOverlayTextureBounds* _get_SetOverlayTextureBounds();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTextureBounds SetOverlayTextureBounds
+    void _set_SetOverlayTextureBounds(Valve::VR::IVROverlay::_SetOverlayTextureBounds* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureBounds GetOverlayTextureBounds
+    Valve::VR::IVROverlay::_GetOverlayTextureBounds* _get_GetOverlayTextureBounds();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureBounds GetOverlayTextureBounds
+    void _set_GetOverlayTextureBounds(Valve::VR::IVROverlay::_GetOverlayTextureBounds* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayRenderModel GetOverlayRenderModel
+    Valve::VR::IVROverlay::_GetOverlayRenderModel* _get_GetOverlayRenderModel();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayRenderModel GetOverlayRenderModel
+    void _set_GetOverlayRenderModel(Valve::VR::IVROverlay::_GetOverlayRenderModel* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayRenderModel SetOverlayRenderModel
+    Valve::VR::IVROverlay::_SetOverlayRenderModel* _get_SetOverlayRenderModel();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayRenderModel SetOverlayRenderModel
+    void _set_SetOverlayRenderModel(Valve::VR::IVROverlay::_SetOverlayRenderModel* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformType GetOverlayTransformType
+    Valve::VR::IVROverlay::_GetOverlayTransformType* _get_GetOverlayTransformType();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformType GetOverlayTransformType
+    void _set_GetOverlayTransformType(Valve::VR::IVROverlay::_GetOverlayTransformType* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformAbsolute SetOverlayTransformAbsolute
+    Valve::VR::IVROverlay::_SetOverlayTransformAbsolute* _get_SetOverlayTransformAbsolute();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformAbsolute SetOverlayTransformAbsolute
+    void _set_SetOverlayTransformAbsolute(Valve::VR::IVROverlay::_SetOverlayTransformAbsolute* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformAbsolute GetOverlayTransformAbsolute
+    Valve::VR::IVROverlay::_GetOverlayTransformAbsolute* _get_GetOverlayTransformAbsolute();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformAbsolute GetOverlayTransformAbsolute
+    void _set_GetOverlayTransformAbsolute(Valve::VR::IVROverlay::_GetOverlayTransformAbsolute* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformTrackedDeviceRelative SetOverlayTransformTrackedDeviceRelative
+    Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceRelative* _get_SetOverlayTransformTrackedDeviceRelative();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformTrackedDeviceRelative SetOverlayTransformTrackedDeviceRelative
+    void _set_SetOverlayTransformTrackedDeviceRelative(Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceRelative* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformTrackedDeviceRelative GetOverlayTransformTrackedDeviceRelative
+    Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceRelative* _get_GetOverlayTransformTrackedDeviceRelative();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformTrackedDeviceRelative GetOverlayTransformTrackedDeviceRelative
+    void _set_GetOverlayTransformTrackedDeviceRelative(Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceRelative* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformTrackedDeviceComponent SetOverlayTransformTrackedDeviceComponent
+    Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceComponent* _get_SetOverlayTransformTrackedDeviceComponent();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformTrackedDeviceComponent SetOverlayTransformTrackedDeviceComponent
+    void _set_SetOverlayTransformTrackedDeviceComponent(Valve::VR::IVROverlay::_SetOverlayTransformTrackedDeviceComponent* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformTrackedDeviceComponent GetOverlayTransformTrackedDeviceComponent
+    Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent* _get_GetOverlayTransformTrackedDeviceComponent();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformTrackedDeviceComponent GetOverlayTransformTrackedDeviceComponent
+    void _set_GetOverlayTransformTrackedDeviceComponent(Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformOverlayRelative GetOverlayTransformOverlayRelative
+    Valve::VR::IVROverlay::_GetOverlayTransformOverlayRelative* _get_GetOverlayTransformOverlayRelative();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformOverlayRelative GetOverlayTransformOverlayRelative
+    void _set_GetOverlayTransformOverlayRelative(Valve::VR::IVROverlay::_GetOverlayTransformOverlayRelative* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformOverlayRelative SetOverlayTransformOverlayRelative
+    Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative* _get_SetOverlayTransformOverlayRelative();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformOverlayRelative SetOverlayTransformOverlayRelative
+    void _set_SetOverlayTransformOverlayRelative(Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ShowOverlay ShowOverlay
+    Valve::VR::IVROverlay::_ShowOverlay* _get_ShowOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ShowOverlay ShowOverlay
+    void _set_ShowOverlay(Valve::VR::IVROverlay::_ShowOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._HideOverlay HideOverlay
+    Valve::VR::IVROverlay::_HideOverlay* _get_HideOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._HideOverlay HideOverlay
+    void _set_HideOverlay(Valve::VR::IVROverlay::_HideOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._IsOverlayVisible IsOverlayVisible
+    Valve::VR::IVROverlay::_IsOverlayVisible* _get_IsOverlayVisible();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._IsOverlayVisible IsOverlayVisible
+    void _set_IsOverlayVisible(Valve::VR::IVROverlay::_IsOverlayVisible* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetTransformForOverlayCoordinates GetTransformForOverlayCoordinates
+    Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates* _get_GetTransformForOverlayCoordinates();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetTransformForOverlayCoordinates GetTransformForOverlayCoordinates
+    void _set_GetTransformForOverlayCoordinates(Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent PollNextOverlayEvent
+    Valve::VR::IVROverlay::_PollNextOverlayEvent* _get_PollNextOverlayEvent();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent PollNextOverlayEvent
+    void _set_PollNextOverlayEvent(Valve::VR::IVROverlay::_PollNextOverlayEvent* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayInputMethod GetOverlayInputMethod
+    Valve::VR::IVROverlay::_GetOverlayInputMethod* _get_GetOverlayInputMethod();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayInputMethod GetOverlayInputMethod
+    void _set_GetOverlayInputMethod(Valve::VR::IVROverlay::_GetOverlayInputMethod* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayInputMethod SetOverlayInputMethod
+    Valve::VR::IVROverlay::_SetOverlayInputMethod* _get_SetOverlayInputMethod();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayInputMethod SetOverlayInputMethod
+    void _set_SetOverlayInputMethod(Valve::VR::IVROverlay::_SetOverlayInputMethod* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayMouseScale GetOverlayMouseScale
+    Valve::VR::IVROverlay::_GetOverlayMouseScale* _get_GetOverlayMouseScale();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayMouseScale GetOverlayMouseScale
+    void _set_GetOverlayMouseScale(Valve::VR::IVROverlay::_GetOverlayMouseScale* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayMouseScale SetOverlayMouseScale
+    Valve::VR::IVROverlay::_SetOverlayMouseScale* _get_SetOverlayMouseScale();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayMouseScale SetOverlayMouseScale
+    void _set_SetOverlayMouseScale(Valve::VR::IVROverlay::_SetOverlayMouseScale* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ComputeOverlayIntersection ComputeOverlayIntersection
+    Valve::VR::IVROverlay::_ComputeOverlayIntersection* _get_ComputeOverlayIntersection();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ComputeOverlayIntersection ComputeOverlayIntersection
+    void _set_ComputeOverlayIntersection(Valve::VR::IVROverlay::_ComputeOverlayIntersection* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._IsHoverTargetOverlay IsHoverTargetOverlay
+    Valve::VR::IVROverlay::_IsHoverTargetOverlay* _get_IsHoverTargetOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._IsHoverTargetOverlay IsHoverTargetOverlay
+    void _set_IsHoverTargetOverlay(Valve::VR::IVROverlay::_IsHoverTargetOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetGamepadFocusOverlay GetGamepadFocusOverlay
+    Valve::VR::IVROverlay::_GetGamepadFocusOverlay* _get_GetGamepadFocusOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetGamepadFocusOverlay GetGamepadFocusOverlay
+    void _set_GetGamepadFocusOverlay(Valve::VR::IVROverlay::_GetGamepadFocusOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetGamepadFocusOverlay SetGamepadFocusOverlay
+    Valve::VR::IVROverlay::_SetGamepadFocusOverlay* _get_SetGamepadFocusOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetGamepadFocusOverlay SetGamepadFocusOverlay
+    void _set_SetGamepadFocusOverlay(Valve::VR::IVROverlay::_SetGamepadFocusOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayNeighbor SetOverlayNeighbor
+    Valve::VR::IVROverlay::_SetOverlayNeighbor* _get_SetOverlayNeighbor();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayNeighbor SetOverlayNeighbor
+    void _set_SetOverlayNeighbor(Valve::VR::IVROverlay::_SetOverlayNeighbor* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._MoveGamepadFocusToNeighbor MoveGamepadFocusToNeighbor
+    Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor* _get_MoveGamepadFocusToNeighbor();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._MoveGamepadFocusToNeighbor MoveGamepadFocusToNeighbor
+    void _set_MoveGamepadFocusToNeighbor(Valve::VR::IVROverlay::_MoveGamepadFocusToNeighbor* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayDualAnalogTransform SetOverlayDualAnalogTransform
+    Valve::VR::IVROverlay::_SetOverlayDualAnalogTransform* _get_SetOverlayDualAnalogTransform();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayDualAnalogTransform SetOverlayDualAnalogTransform
+    void _set_SetOverlayDualAnalogTransform(Valve::VR::IVROverlay::_SetOverlayDualAnalogTransform* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayDualAnalogTransform GetOverlayDualAnalogTransform
+    Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform* _get_GetOverlayDualAnalogTransform();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayDualAnalogTransform GetOverlayDualAnalogTransform
+    void _set_GetOverlayDualAnalogTransform(Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTexture SetOverlayTexture
+    Valve::VR::IVROverlay::_SetOverlayTexture* _get_SetOverlayTexture();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayTexture SetOverlayTexture
+    void _set_SetOverlayTexture(Valve::VR::IVROverlay::_SetOverlayTexture* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ClearOverlayTexture ClearOverlayTexture
+    Valve::VR::IVROverlay::_ClearOverlayTexture* _get_ClearOverlayTexture();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ClearOverlayTexture ClearOverlayTexture
+    void _set_ClearOverlayTexture(Valve::VR::IVROverlay::_ClearOverlayTexture* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayRaw SetOverlayRaw
+    Valve::VR::IVROverlay::_SetOverlayRaw* _get_SetOverlayRaw();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayRaw SetOverlayRaw
+    void _set_SetOverlayRaw(Valve::VR::IVROverlay::_SetOverlayRaw* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayFromFile SetOverlayFromFile
+    Valve::VR::IVROverlay::_SetOverlayFromFile* _get_SetOverlayFromFile();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayFromFile SetOverlayFromFile
+    void _set_SetOverlayFromFile(Valve::VR::IVROverlay::_SetOverlayFromFile* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTexture GetOverlayTexture
+    Valve::VR::IVROverlay::_GetOverlayTexture* _get_GetOverlayTexture();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTexture GetOverlayTexture
+    void _set_GetOverlayTexture(Valve::VR::IVROverlay::_GetOverlayTexture* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ReleaseNativeOverlayHandle ReleaseNativeOverlayHandle
+    Valve::VR::IVROverlay::_ReleaseNativeOverlayHandle* _get_ReleaseNativeOverlayHandle();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ReleaseNativeOverlayHandle ReleaseNativeOverlayHandle
+    void _set_ReleaseNativeOverlayHandle(Valve::VR::IVROverlay::_ReleaseNativeOverlayHandle* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureSize GetOverlayTextureSize
+    Valve::VR::IVROverlay::_GetOverlayTextureSize* _get_GetOverlayTextureSize();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayTextureSize GetOverlayTextureSize
+    void _set_GetOverlayTextureSize(Valve::VR::IVROverlay::_GetOverlayTextureSize* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._CreateDashboardOverlay CreateDashboardOverlay
+    Valve::VR::IVROverlay::_CreateDashboardOverlay* _get_CreateDashboardOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._CreateDashboardOverlay CreateDashboardOverlay
+    void _set_CreateDashboardOverlay(Valve::VR::IVROverlay::_CreateDashboardOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._IsDashboardVisible IsDashboardVisible
+    Valve::VR::IVROverlay::_IsDashboardVisible* _get_IsDashboardVisible();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._IsDashboardVisible IsDashboardVisible
+    void _set_IsDashboardVisible(Valve::VR::IVROverlay::_IsDashboardVisible* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._IsActiveDashboardOverlay IsActiveDashboardOverlay
+    Valve::VR::IVROverlay::_IsActiveDashboardOverlay* _get_IsActiveDashboardOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._IsActiveDashboardOverlay IsActiveDashboardOverlay
+    void _set_IsActiveDashboardOverlay(Valve::VR::IVROverlay::_IsActiveDashboardOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetDashboardOverlaySceneProcess SetDashboardOverlaySceneProcess
+    Valve::VR::IVROverlay::_SetDashboardOverlaySceneProcess* _get_SetDashboardOverlaySceneProcess();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetDashboardOverlaySceneProcess SetDashboardOverlaySceneProcess
+    void _set_SetDashboardOverlaySceneProcess(Valve::VR::IVROverlay::_SetDashboardOverlaySceneProcess* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetDashboardOverlaySceneProcess GetDashboardOverlaySceneProcess
+    Valve::VR::IVROverlay::_GetDashboardOverlaySceneProcess* _get_GetDashboardOverlaySceneProcess();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetDashboardOverlaySceneProcess GetDashboardOverlaySceneProcess
+    void _set_GetDashboardOverlaySceneProcess(Valve::VR::IVROverlay::_GetDashboardOverlaySceneProcess* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ShowDashboard ShowDashboard
+    Valve::VR::IVROverlay::_ShowDashboard* _get_ShowDashboard();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ShowDashboard ShowDashboard
+    void _set_ShowDashboard(Valve::VR::IVROverlay::_ShowDashboard* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetPrimaryDashboardDevice GetPrimaryDashboardDevice
+    Valve::VR::IVROverlay::_GetPrimaryDashboardDevice* _get_GetPrimaryDashboardDevice();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetPrimaryDashboardDevice GetPrimaryDashboardDevice
+    void _set_GetPrimaryDashboardDevice(Valve::VR::IVROverlay::_GetPrimaryDashboardDevice* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ShowKeyboard ShowKeyboard
+    Valve::VR::IVROverlay::_ShowKeyboard* _get_ShowKeyboard();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ShowKeyboard ShowKeyboard
+    void _set_ShowKeyboard(Valve::VR::IVROverlay::_ShowKeyboard* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ShowKeyboardForOverlay ShowKeyboardForOverlay
+    Valve::VR::IVROverlay::_ShowKeyboardForOverlay* _get_ShowKeyboardForOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ShowKeyboardForOverlay ShowKeyboardForOverlay
+    void _set_ShowKeyboardForOverlay(Valve::VR::IVROverlay::_ShowKeyboardForOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetKeyboardText GetKeyboardText
+    Valve::VR::IVROverlay::_GetKeyboardText* _get_GetKeyboardText();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetKeyboardText GetKeyboardText
+    void _set_GetKeyboardText(Valve::VR::IVROverlay::_GetKeyboardText* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._HideKeyboard HideKeyboard
+    Valve::VR::IVROverlay::_HideKeyboard* _get_HideKeyboard();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._HideKeyboard HideKeyboard
+    void _set_HideKeyboard(Valve::VR::IVROverlay::_HideKeyboard* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetKeyboardTransformAbsolute SetKeyboardTransformAbsolute
+    Valve::VR::IVROverlay::_SetKeyboardTransformAbsolute* _get_SetKeyboardTransformAbsolute();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetKeyboardTransformAbsolute SetKeyboardTransformAbsolute
+    void _set_SetKeyboardTransformAbsolute(Valve::VR::IVROverlay::_SetKeyboardTransformAbsolute* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetKeyboardPositionForOverlay SetKeyboardPositionForOverlay
+    Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay* _get_SetKeyboardPositionForOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetKeyboardPositionForOverlay SetKeyboardPositionForOverlay
+    void _set_SetKeyboardPositionForOverlay(Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayIntersectionMask SetOverlayIntersectionMask
+    Valve::VR::IVROverlay::_SetOverlayIntersectionMask* _get_SetOverlayIntersectionMask();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._SetOverlayIntersectionMask SetOverlayIntersectionMask
+    void _set_SetOverlayIntersectionMask(Valve::VR::IVROverlay::_SetOverlayIntersectionMask* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayFlags GetOverlayFlags
+    Valve::VR::IVROverlay::_GetOverlayFlags* _get_GetOverlayFlags();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._GetOverlayFlags GetOverlayFlags
+    void _set_GetOverlayFlags(Valve::VR::IVROverlay::_GetOverlayFlags* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._ShowMessageOverlay ShowMessageOverlay
+    Valve::VR::IVROverlay::_ShowMessageOverlay* _get_ShowMessageOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._ShowMessageOverlay ShowMessageOverlay
+    void _set_ShowMessageOverlay(Valve::VR::IVROverlay::_ShowMessageOverlay* value);
+    // Get instance field: Valve.VR.IVROverlay/Valve.VR._CloseMessageOverlay CloseMessageOverlay
+    Valve::VR::IVROverlay::_CloseMessageOverlay* _get_CloseMessageOverlay();
+    // Set instance field: Valve.VR.IVROverlay/Valve.VR._CloseMessageOverlay CloseMessageOverlay
+    void _set_CloseMessageOverlay(Valve::VR::IVROverlay::_CloseMessageOverlay* value);
   }; // Valve.VR.IVROverlay
   #pragma pack(pop)
   static check_size<sizeof(IVROverlay), 648 + sizeof(Valve::VR::IVROverlay::_CloseMessageOverlay*)> __Valve_VR_IVROverlaySizeCheck;

@@ -56,6 +56,18 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW) == 0x70);
     // Creating value type constructor for type: Win32IPInterfaceProperties2
     Win32IPInterfaceProperties2(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib4_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib6_ = {}) noexcept : addr{addr_}, mib4{mib4_}, mib6{mib6_} {}
+    // Get instance field: private readonly System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
+    System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES _get_addr();
+    // Set instance field: private readonly System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
+    void _set_addr(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES value);
+    // Get instance field: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib4
+    System::Net::NetworkInformation::Win32_MIB_IFROW _get_mib4();
+    // Set instance field: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib4
+    void _set_mib4(System::Net::NetworkInformation::Win32_MIB_IFROW value);
+    // Get instance field: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib6
+    System::Net::NetworkInformation::Win32_MIB_IFROW _get_mib6();
+    // Set instance field: private readonly System.Net.NetworkInformation.Win32_MIB_IFROW mib6
+    void _set_mib6(System::Net::NetworkInformation::Win32_MIB_IFROW value);
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr, System.Net.NetworkInformation.Win32_MIB_IFROW mib4, System.Net.NetworkInformation.Win32_MIB_IFROW mib6)
     // Offset: 0x1464C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

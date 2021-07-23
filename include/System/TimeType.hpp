@@ -39,6 +39,18 @@ namespace System {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: TimeType
     TimeType(int Offset_ = {}, bool IsDst_ = {}, ::Il2CppString* Name_ = {}) noexcept : Offset{Offset_}, IsDst{IsDst_}, Name{Name_} {}
+    // Get instance field: public readonly System.Int32 Offset
+    int _get_Offset();
+    // Set instance field: public readonly System.Int32 Offset
+    void _set_Offset(int value);
+    // Get instance field: public readonly System.Boolean IsDst
+    bool _get_IsDst();
+    // Set instance field: public readonly System.Boolean IsDst
+    void _set_IsDst(bool value);
+    // Get instance field: public System.String Name
+    ::Il2CppString* _get_Name();
+    // Set instance field: public System.String Name
+    void _set_Name(::Il2CppString* value);
     // public System.Void .ctor(System.Int32 offset, System.Boolean is_dst, System.String abbrev)
     // Offset: 0x1891E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

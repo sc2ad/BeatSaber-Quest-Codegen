@@ -67,6 +67,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::StandardScoreSyncState_Score _get_Count();
     // Set static field: static public StandardScoreSyncState/Score Count
     static void _set_Count(GlobalNamespace::StandardScoreSyncState_Score value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // StandardScoreSyncState/Score
   #pragma pack(pop)
   static check_size<sizeof(StandardScoreSyncState_Score), 0 + sizeof(int)> __GlobalNamespace_StandardScoreSyncState_ScoreSizeCheck;

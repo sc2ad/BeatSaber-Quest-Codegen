@@ -38,6 +38,10 @@ namespace System::Net::NetworkInformation {
     constexpr operator System::Net::IPAddress*() const noexcept {
       return address;
     }
+    // Get instance field: private System.Net.IPAddress address
+    System::Net::IPAddress* _get_address();
+    // Set instance field: private System.Net.IPAddress address
+    void _set_address(System::Net::IPAddress* value);
     // public System.Void .ctor(System.Net.IPAddress address)
     // Offset: 0x1461E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

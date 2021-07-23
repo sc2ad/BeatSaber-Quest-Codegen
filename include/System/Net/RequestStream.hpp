@@ -73,6 +73,30 @@ namespace System::Net {
     static_assert(sizeof(System::IO::Stream*) == 0x8);
     // Creating value type constructor for type: RequestStream
     RequestStream(::Array<uint8_t>* buffer_ = {}, int offset_ = {}, int length_ = {}, int64_t remaining_body_ = {}, bool disposed_ = {}, System::IO::Stream* stream_ = {}) noexcept : buffer{buffer_}, offset{offset_}, length{length_}, remaining_body{remaining_body_}, disposed{disposed_}, stream{stream_} {}
+    // Get instance field: private System.Byte[] buffer
+    ::Array<uint8_t>* _get_buffer();
+    // Set instance field: private System.Byte[] buffer
+    void _set_buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 offset
+    int _get_offset();
+    // Set instance field: private System.Int32 offset
+    void _set_offset(int value);
+    // Get instance field: private System.Int32 length
+    int _get_length();
+    // Set instance field: private System.Int32 length
+    void _set_length(int value);
+    // Get instance field: private System.Int64 remaining_body
+    int64_t _get_remaining_body();
+    // Set instance field: private System.Int64 remaining_body
+    void _set_remaining_body(int64_t value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.IO.Stream stream
+    System::IO::Stream* _get_stream();
+    // Set instance field: private System.IO.Stream stream
+    void _set_stream(System::IO::Stream* value);
     // System.Void .ctor(System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 length)
     // Offset: 0x1465F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

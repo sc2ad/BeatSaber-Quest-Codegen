@@ -44,6 +44,18 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(::Array<int>*) == 0x8);
     // Creating value type constructor for type: ValueTypeFixupInfo
     ValueTypeFixupInfo(int64_t m_containerID_ = {}, System::Reflection::FieldInfo* m_parentField_ = {}, ::Array<int>* m_parentIndex_ = {}) noexcept : m_containerID{m_containerID_}, m_parentField{m_parentField_}, m_parentIndex{m_parentIndex_} {}
+    // Get instance field: private System.Int64 m_containerID
+    int64_t _get_m_containerID();
+    // Set instance field: private System.Int64 m_containerID
+    void _set_m_containerID(int64_t value);
+    // Get instance field: private System.Reflection.FieldInfo m_parentField
+    System::Reflection::FieldInfo* _get_m_parentField();
+    // Set instance field: private System.Reflection.FieldInfo m_parentField
+    void _set_m_parentField(System::Reflection::FieldInfo* value);
+    // Get instance field: private System.Int32[] m_parentIndex
+    ::Array<int>* _get_m_parentIndex();
+    // Set instance field: private System.Int32[] m_parentIndex
+    void _set_m_parentIndex(::Array<int>* value);
     // public System.Int64 get_ContainerID()
     // Offset: 0x1684FF8
     int64_t get_ContainerID();

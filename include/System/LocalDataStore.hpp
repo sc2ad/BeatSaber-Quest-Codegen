@@ -42,6 +42,14 @@ namespace System {
     static_assert(sizeof(System::LocalDataStoreMgr*) == 0x8);
     // Creating value type constructor for type: LocalDataStore
     LocalDataStore(::Array<System::LocalDataStoreElement*>* m_DataTable_ = {}, System::LocalDataStoreMgr* m_Manager_ = {}) noexcept : m_DataTable{m_DataTable_}, m_Manager{m_Manager_} {}
+    // Get instance field: private System.LocalDataStoreElement[] m_DataTable
+    ::Array<System::LocalDataStoreElement*>* _get_m_DataTable();
+    // Set instance field: private System.LocalDataStoreElement[] m_DataTable
+    void _set_m_DataTable(::Array<System::LocalDataStoreElement*>* value);
+    // Get instance field: private System.LocalDataStoreMgr m_Manager
+    System::LocalDataStoreMgr* _get_m_Manager();
+    // Set instance field: private System.LocalDataStoreMgr m_Manager
+    void _set_m_Manager(System::LocalDataStoreMgr* value);
     // public System.Void .ctor(System.LocalDataStoreMgr mgr, System.Int32 InitialCapacity)
     // Offset: 0x17FAFDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

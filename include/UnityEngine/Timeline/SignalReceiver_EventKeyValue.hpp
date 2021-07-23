@@ -52,6 +52,14 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>*) == 0x8);
     // Creating value type constructor for type: EventKeyValue
     EventKeyValue(System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* m_Signals_ = {}, System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events_ = {}) noexcept : m_Signals{m_Signals_}, m_Events{m_Events_} {}
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> m_Signals
+    System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* _get_m_Signals();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> m_Signals
+    void _set_m_Signals(System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
+    System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* _get_m_Events();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
+    void _set_m_Events(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
     // Offset: 0x17EC094
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* get_signals();

@@ -78,6 +78,30 @@ namespace GlobalNamespace {
     MoveBackWall(float fadeInRegion_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, float thisZ_ = {}, bool isVisible_ = {}, UnityEngine::Material* material_ = {}) noexcept : fadeInRegion{fadeInRegion_}, meshRenderer{meshRenderer_}, playerTransforms{playerTransforms_}, thisZ{thisZ_}, isVisible{isVisible_}, material{material_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _fadeInRegion
+    float _get__fadeInRegion();
+    // Set instance field: private System.Single _fadeInRegion
+    void _set__fadeInRegion(float value);
+    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer* _get__meshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
+    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private System.Single _thisZ
+    float _get__thisZ();
+    // Set instance field: private System.Single _thisZ
+    void _set__thisZ(float value);
+    // Get instance field: private System.Boolean _isVisible
+    bool _get__isVisible();
+    // Set instance field: private System.Boolean _isVisible
+    void _set__isVisible(bool value);
+    // Get instance field: private UnityEngine.Material _material
+    UnityEngine::Material* _get__material();
+    // Set instance field: private UnityEngine.Material _material
+    void _set__material(UnityEngine::Material* value);
     // protected System.Void Start()
     // Offset: 0x1199B7C
     void Start();

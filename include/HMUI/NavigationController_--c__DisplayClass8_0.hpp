@@ -53,6 +53,22 @@ namespace HMUI {
     static_assert(sizeof(::Array<float>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass8_0
     $$c__DisplayClass8_0(::Array<float>* startPositions_ = {}, HMUI::NavigationController* $$4__this_ = {}, HMUI::ViewController* viewController_ = {}, ::Array<float>* endPositions_ = {}) noexcept : startPositions{startPositions_}, $$4__this{$$4__this_}, viewController{viewController_}, endPositions{endPositions_} {}
+    // Get instance field: public System.Single[] startPositions
+    ::Array<float>* _get_startPositions();
+    // Set instance field: public System.Single[] startPositions
+    void _set_startPositions(::Array<float>* value);
+    // Get instance field: public HMUI.NavigationController <>4__this
+    HMUI::NavigationController* _get_$$4__this();
+    // Set instance field: public HMUI.NavigationController <>4__this
+    void _set_$$4__this(HMUI::NavigationController* value);
+    // Get instance field: public HMUI.ViewController viewController
+    HMUI::ViewController* _get_viewController();
+    // Set instance field: public HMUI.ViewController viewController
+    void _set_viewController(HMUI::ViewController* value);
+    // Get instance field: public System.Single[] endPositions
+    ::Array<float>* _get_endPositions();
+    // Set instance field: public System.Single[] endPositions
+    void _set_endPositions(::Array<float>* value);
     // System.Void <PushViewController>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers)
     // Offset: 0x1294B18
     void $PushViewController$g__AnimationLayouter_0(float t, ::Array<HMUI::ViewController*>* viewControllers);

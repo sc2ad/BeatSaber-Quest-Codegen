@@ -207,6 +207,114 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PerfMetrics
     PerfMetrics(int frameCount_ = {}, float frameTime_ = {}, float deltaFrameTime_ = {}, bool appCpuTime_IsValid_ = {}, float appCpuTime_ = {}, bool appGpuTime_IsValid_ = {}, float appGpuTime_ = {}, bool compositorCpuTime_IsValid_ = {}, float compositorCpuTime_ = {}, bool compositorGpuTime_IsValid_ = {}, float compositorGpuTime_ = {}, bool compositorDroppedFrameCount_IsValid_ = {}, int compositorDroppedFrameCount_ = {}, bool systemGpuUtilPercentage_IsValid_ = {}, float systemGpuUtilPercentage_ = {}, bool systemCpuUtilAveragePercentage_IsValid_ = {}, float systemCpuUtilAveragePercentage_ = {}, bool systemCpuUtilWorstPercentage_IsValid_ = {}, float systemCpuUtilWorstPercentage_ = {}, bool deviceCpuClockFrequencyInMHz_IsValid_ = {}, float deviceCpuClockFrequencyInMHz_ = {}, bool deviceGpuClockFrequencyInMHz_IsValid_ = {}, float deviceGpuClockFrequencyInMHz_ = {}, bool deviceCpuClockLevel_IsValid_ = {}, int deviceCpuClockLevel_ = {}, bool deviceGpuClockLevel_IsValid_ = {}, int deviceGpuClockLevel_ = {}) noexcept : frameCount{frameCount_}, frameTime{frameTime_}, deltaFrameTime{deltaFrameTime_}, appCpuTime_IsValid{appCpuTime_IsValid_}, appCpuTime{appCpuTime_}, appGpuTime_IsValid{appGpuTime_IsValid_}, appGpuTime{appGpuTime_}, compositorCpuTime_IsValid{compositorCpuTime_IsValid_}, compositorCpuTime{compositorCpuTime_}, compositorGpuTime_IsValid{compositorGpuTime_IsValid_}, compositorGpuTime{compositorGpuTime_}, compositorDroppedFrameCount_IsValid{compositorDroppedFrameCount_IsValid_}, compositorDroppedFrameCount{compositorDroppedFrameCount_}, systemGpuUtilPercentage_IsValid{systemGpuUtilPercentage_IsValid_}, systemGpuUtilPercentage{systemGpuUtilPercentage_}, systemCpuUtilAveragePercentage_IsValid{systemCpuUtilAveragePercentage_IsValid_}, systemCpuUtilAveragePercentage{systemCpuUtilAveragePercentage_}, systemCpuUtilWorstPercentage_IsValid{systemCpuUtilWorstPercentage_IsValid_}, systemCpuUtilWorstPercentage{systemCpuUtilWorstPercentage_}, deviceCpuClockFrequencyInMHz_IsValid{deviceCpuClockFrequencyInMHz_IsValid_}, deviceCpuClockFrequencyInMHz{deviceCpuClockFrequencyInMHz_}, deviceGpuClockFrequencyInMHz_IsValid{deviceGpuClockFrequencyInMHz_IsValid_}, deviceGpuClockFrequencyInMHz{deviceGpuClockFrequencyInMHz_}, deviceCpuClockLevel_IsValid{deviceCpuClockLevel_IsValid_}, deviceCpuClockLevel{deviceCpuClockLevel_}, deviceGpuClockLevel_IsValid{deviceGpuClockLevel_IsValid_}, deviceGpuClockLevel{deviceGpuClockLevel_} {}
+    // Get instance field: public System.Int32 frameCount
+    int _get_frameCount();
+    // Set instance field: public System.Int32 frameCount
+    void _set_frameCount(int value);
+    // Get instance field: public System.Single frameTime
+    float _get_frameTime();
+    // Set instance field: public System.Single frameTime
+    void _set_frameTime(float value);
+    // Get instance field: public System.Single deltaFrameTime
+    float _get_deltaFrameTime();
+    // Set instance field: public System.Single deltaFrameTime
+    void _set_deltaFrameTime(float value);
+    // Get instance field: public System.Boolean appCpuTime_IsValid
+    bool _get_appCpuTime_IsValid();
+    // Set instance field: public System.Boolean appCpuTime_IsValid
+    void _set_appCpuTime_IsValid(bool value);
+    // Get instance field: public System.Single appCpuTime
+    float _get_appCpuTime();
+    // Set instance field: public System.Single appCpuTime
+    void _set_appCpuTime(float value);
+    // Get instance field: public System.Boolean appGpuTime_IsValid
+    bool _get_appGpuTime_IsValid();
+    // Set instance field: public System.Boolean appGpuTime_IsValid
+    void _set_appGpuTime_IsValid(bool value);
+    // Get instance field: public System.Single appGpuTime
+    float _get_appGpuTime();
+    // Set instance field: public System.Single appGpuTime
+    void _set_appGpuTime(float value);
+    // Get instance field: public System.Boolean compositorCpuTime_IsValid
+    bool _get_compositorCpuTime_IsValid();
+    // Set instance field: public System.Boolean compositorCpuTime_IsValid
+    void _set_compositorCpuTime_IsValid(bool value);
+    // Get instance field: public System.Single compositorCpuTime
+    float _get_compositorCpuTime();
+    // Set instance field: public System.Single compositorCpuTime
+    void _set_compositorCpuTime(float value);
+    // Get instance field: public System.Boolean compositorGpuTime_IsValid
+    bool _get_compositorGpuTime_IsValid();
+    // Set instance field: public System.Boolean compositorGpuTime_IsValid
+    void _set_compositorGpuTime_IsValid(bool value);
+    // Get instance field: public System.Single compositorGpuTime
+    float _get_compositorGpuTime();
+    // Set instance field: public System.Single compositorGpuTime
+    void _set_compositorGpuTime(float value);
+    // Get instance field: public System.Boolean compositorDroppedFrameCount_IsValid
+    bool _get_compositorDroppedFrameCount_IsValid();
+    // Set instance field: public System.Boolean compositorDroppedFrameCount_IsValid
+    void _set_compositorDroppedFrameCount_IsValid(bool value);
+    // Get instance field: public System.Int32 compositorDroppedFrameCount
+    int _get_compositorDroppedFrameCount();
+    // Set instance field: public System.Int32 compositorDroppedFrameCount
+    void _set_compositorDroppedFrameCount(int value);
+    // Get instance field: public System.Boolean systemGpuUtilPercentage_IsValid
+    bool _get_systemGpuUtilPercentage_IsValid();
+    // Set instance field: public System.Boolean systemGpuUtilPercentage_IsValid
+    void _set_systemGpuUtilPercentage_IsValid(bool value);
+    // Get instance field: public System.Single systemGpuUtilPercentage
+    float _get_systemGpuUtilPercentage();
+    // Set instance field: public System.Single systemGpuUtilPercentage
+    void _set_systemGpuUtilPercentage(float value);
+    // Get instance field: public System.Boolean systemCpuUtilAveragePercentage_IsValid
+    bool _get_systemCpuUtilAveragePercentage_IsValid();
+    // Set instance field: public System.Boolean systemCpuUtilAveragePercentage_IsValid
+    void _set_systemCpuUtilAveragePercentage_IsValid(bool value);
+    // Get instance field: public System.Single systemCpuUtilAveragePercentage
+    float _get_systemCpuUtilAveragePercentage();
+    // Set instance field: public System.Single systemCpuUtilAveragePercentage
+    void _set_systemCpuUtilAveragePercentage(float value);
+    // Get instance field: public System.Boolean systemCpuUtilWorstPercentage_IsValid
+    bool _get_systemCpuUtilWorstPercentage_IsValid();
+    // Set instance field: public System.Boolean systemCpuUtilWorstPercentage_IsValid
+    void _set_systemCpuUtilWorstPercentage_IsValid(bool value);
+    // Get instance field: public System.Single systemCpuUtilWorstPercentage
+    float _get_systemCpuUtilWorstPercentage();
+    // Set instance field: public System.Single systemCpuUtilWorstPercentage
+    void _set_systemCpuUtilWorstPercentage(float value);
+    // Get instance field: public System.Boolean deviceCpuClockFrequencyInMHz_IsValid
+    bool _get_deviceCpuClockFrequencyInMHz_IsValid();
+    // Set instance field: public System.Boolean deviceCpuClockFrequencyInMHz_IsValid
+    void _set_deviceCpuClockFrequencyInMHz_IsValid(bool value);
+    // Get instance field: public System.Single deviceCpuClockFrequencyInMHz
+    float _get_deviceCpuClockFrequencyInMHz();
+    // Set instance field: public System.Single deviceCpuClockFrequencyInMHz
+    void _set_deviceCpuClockFrequencyInMHz(float value);
+    // Get instance field: public System.Boolean deviceGpuClockFrequencyInMHz_IsValid
+    bool _get_deviceGpuClockFrequencyInMHz_IsValid();
+    // Set instance field: public System.Boolean deviceGpuClockFrequencyInMHz_IsValid
+    void _set_deviceGpuClockFrequencyInMHz_IsValid(bool value);
+    // Get instance field: public System.Single deviceGpuClockFrequencyInMHz
+    float _get_deviceGpuClockFrequencyInMHz();
+    // Set instance field: public System.Single deviceGpuClockFrequencyInMHz
+    void _set_deviceGpuClockFrequencyInMHz(float value);
+    // Get instance field: public System.Boolean deviceCpuClockLevel_IsValid
+    bool _get_deviceCpuClockLevel_IsValid();
+    // Set instance field: public System.Boolean deviceCpuClockLevel_IsValid
+    void _set_deviceCpuClockLevel_IsValid(bool value);
+    // Get instance field: public System.Int32 deviceCpuClockLevel
+    int _get_deviceCpuClockLevel();
+    // Set instance field: public System.Int32 deviceCpuClockLevel
+    void _set_deviceCpuClockLevel(int value);
+    // Get instance field: public System.Boolean deviceGpuClockLevel_IsValid
+    bool _get_deviceGpuClockLevel_IsValid();
+    // Set instance field: public System.Boolean deviceGpuClockLevel_IsValid
+    void _set_deviceGpuClockLevel_IsValid(bool value);
+    // Get instance field: public System.Int32 deviceGpuClockLevel
+    int _get_deviceGpuClockLevel();
+    // Set instance field: public System.Int32 deviceGpuClockLevel
+    void _set_deviceGpuClockLevel(int value);
     // public System.String ToJSON()
     // Offset: 0x1EEFFF4
     ::Il2CppString* ToJSON();

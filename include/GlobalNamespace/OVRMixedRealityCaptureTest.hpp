@@ -70,6 +70,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode _get_ThirdPerson();
       // Set static field: static public OVRMixedRealityCaptureTest/CameraMode ThirdPerson
       static void _set_ThirdPerson(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRMixedRealityCaptureTest/CameraMode
     #pragma pack(pop)
     static check_size<sizeof(OVRMixedRealityCaptureTest::CameraMode), 0 + sizeof(int)> __GlobalNamespace_OVRMixedRealityCaptureTest_CameraModeSizeCheck;
@@ -104,6 +108,22 @@ namespace GlobalNamespace {
     OVRMixedRealityCaptureTest(bool inited_ = {}, GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode currentMode_ = {}, UnityEngine::Camera* defaultExternalCamera_ = {}, GlobalNamespace::OVRPlugin::Fovf defaultFov_ = {}) noexcept : inited{inited_}, currentMode{currentMode_}, defaultExternalCamera{defaultExternalCamera_}, defaultFov{defaultFov_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Boolean inited
+    bool _get_inited();
+    // Set instance field: private System.Boolean inited
+    void _set_inited(bool value);
+    // Get instance field: private OVRMixedRealityCaptureTest/CameraMode currentMode
+    GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode _get_currentMode();
+    // Set instance field: private OVRMixedRealityCaptureTest/CameraMode currentMode
+    void _set_currentMode(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode value);
+    // Get instance field: public UnityEngine.Camera defaultExternalCamera
+    UnityEngine::Camera* _get_defaultExternalCamera();
+    // Set instance field: public UnityEngine.Camera defaultExternalCamera
+    void _set_defaultExternalCamera(UnityEngine::Camera* value);
+    // Get instance field: private OVRPlugin/Fovf defaultFov
+    GlobalNamespace::OVRPlugin::Fovf _get_defaultFov();
+    // Set instance field: private OVRPlugin/Fovf defaultFov
+    void _set_defaultFov(GlobalNamespace::OVRPlugin::Fovf value);
     // private System.Void Start()
     // Offset: 0x12E4DC8
     void Start();

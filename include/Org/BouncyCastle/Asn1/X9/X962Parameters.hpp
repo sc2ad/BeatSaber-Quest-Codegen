@@ -44,6 +44,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     constexpr operator Org::BouncyCastle::Asn1::Asn1Object*() const noexcept {
       return params;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Object _params
+    Org::BouncyCastle::Asn1::Asn1Object* _get__params();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Object _params
+    void _set__params(Org::BouncyCastle::Asn1::Asn1Object* value);
     // public System.Boolean get_IsNamedCurve()
     // Offset: 0x19E7BEC
     bool get_IsNamedCurve();

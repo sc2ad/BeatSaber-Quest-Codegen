@@ -128,6 +128,70 @@ namespace GlobalNamespace {
     PlayerTransforms(UnityEngine::Transform* headTransform_ = {}, UnityEngine::Transform* originTransform_ = {}, UnityEngine::Transform* leftHandTransform_ = {}, UnityEngine::Transform* rightHandTransform_ = {}, bool overrideHeadPos_ = {}, UnityEngine::Vector3 overriddenHeadPos_ = {}, UnityEngine::Vector3 headWorldPos_ = {}, UnityEngine::Quaternion headWorldRot_ = {}, UnityEngine::Vector3 headPseudoLocalPos_ = {}, UnityEngine::Quaternion headPseudoLocalRot_ = {}, UnityEngine::Vector3 leftHandPseudoLocalPos_ = {}, UnityEngine::Quaternion leftHandPseudoLocalRot_ = {}, UnityEngine::Vector3 rightHandPseudoLocalPos_ = {}, UnityEngine::Quaternion rightHandPseudoLocalRot_ = {}, UnityEngine::Transform* originParentTransform_ = {}, bool useOriginParentTransformForPseudoLocalCalculations_ = {}) noexcept : headTransform{headTransform_}, originTransform{originTransform_}, leftHandTransform{leftHandTransform_}, rightHandTransform{rightHandTransform_}, overrideHeadPos{overrideHeadPos_}, overriddenHeadPos{overriddenHeadPos_}, headWorldPos{headWorldPos_}, headWorldRot{headWorldRot_}, headPseudoLocalPos{headPseudoLocalPos_}, headPseudoLocalRot{headPseudoLocalRot_}, leftHandPseudoLocalPos{leftHandPseudoLocalPos_}, leftHandPseudoLocalRot{leftHandPseudoLocalRot_}, rightHandPseudoLocalPos{rightHandPseudoLocalPos_}, rightHandPseudoLocalRot{rightHandPseudoLocalRot_}, originParentTransform{originParentTransform_}, useOriginParentTransformForPseudoLocalCalculations{useOriginParentTransformForPseudoLocalCalculations_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _headTransform
+    UnityEngine::Transform* _get__headTransform();
+    // Set instance field: private UnityEngine.Transform _headTransform
+    void _set__headTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _originTransform
+    UnityEngine::Transform* _get__originTransform();
+    // Set instance field: private UnityEngine.Transform _originTransform
+    void _set__originTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _leftHandTransform
+    UnityEngine::Transform* _get__leftHandTransform();
+    // Set instance field: private UnityEngine.Transform _leftHandTransform
+    void _set__leftHandTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _rightHandTransform
+    UnityEngine::Transform* _get__rightHandTransform();
+    // Set instance field: private UnityEngine.Transform _rightHandTransform
+    void _set__rightHandTransform(UnityEngine::Transform* value);
+    // Get instance field: private System.Boolean _overrideHeadPos
+    bool _get__overrideHeadPos();
+    // Set instance field: private System.Boolean _overrideHeadPos
+    void _set__overrideHeadPos(bool value);
+    // Get instance field: private UnityEngine.Vector3 _overriddenHeadPos
+    UnityEngine::Vector3 _get__overriddenHeadPos();
+    // Set instance field: private UnityEngine.Vector3 _overriddenHeadPos
+    void _set__overriddenHeadPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _headWorldPos
+    UnityEngine::Vector3 _get__headWorldPos();
+    // Set instance field: private UnityEngine.Vector3 _headWorldPos
+    void _set__headWorldPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion _headWorldRot
+    UnityEngine::Quaternion _get__headWorldRot();
+    // Set instance field: private UnityEngine.Quaternion _headWorldRot
+    void _set__headWorldRot(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 _headPseudoLocalPos
+    UnityEngine::Vector3 _get__headPseudoLocalPos();
+    // Set instance field: private UnityEngine.Vector3 _headPseudoLocalPos
+    void _set__headPseudoLocalPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion _headPseudoLocalRot
+    UnityEngine::Quaternion _get__headPseudoLocalRot();
+    // Set instance field: private UnityEngine.Quaternion _headPseudoLocalRot
+    void _set__headPseudoLocalRot(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 _leftHandPseudoLocalPos
+    UnityEngine::Vector3 _get__leftHandPseudoLocalPos();
+    // Set instance field: private UnityEngine.Vector3 _leftHandPseudoLocalPos
+    void _set__leftHandPseudoLocalPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion _leftHandPseudoLocalRot
+    UnityEngine::Quaternion _get__leftHandPseudoLocalRot();
+    // Set instance field: private UnityEngine.Quaternion _leftHandPseudoLocalRot
+    void _set__leftHandPseudoLocalRot(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 _rightHandPseudoLocalPos
+    UnityEngine::Vector3 _get__rightHandPseudoLocalPos();
+    // Set instance field: private UnityEngine.Vector3 _rightHandPseudoLocalPos
+    void _set__rightHandPseudoLocalPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion _rightHandPseudoLocalRot
+    UnityEngine::Quaternion _get__rightHandPseudoLocalRot();
+    // Set instance field: private UnityEngine.Quaternion _rightHandPseudoLocalRot
+    void _set__rightHandPseudoLocalRot(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Transform _originParentTransform
+    UnityEngine::Transform* _get__originParentTransform();
+    // Set instance field: private UnityEngine.Transform _originParentTransform
+    void _set__originParentTransform(UnityEngine::Transform* value);
+    // Get instance field: private System.Boolean _useOriginParentTransformForPseudoLocalCalculations
+    bool _get__useOriginParentTransformForPseudoLocalCalculations();
+    // Set instance field: private System.Boolean _useOriginParentTransformForPseudoLocalCalculations
+    void _set__useOriginParentTransformForPseudoLocalCalculations(bool value);
     // public UnityEngine.Vector3 get_headWorldPos()
     // Offset: 0x11078EC
     UnityEngine::Vector3 get_headWorldPos();

@@ -60,6 +60,22 @@ namespace HMUI {
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass39_0
     $$c__DisplayClass39_0(bool immediately_ = {}, HMUI::FlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}, HMUI::ViewController* newTopViewController_ = {}) noexcept : immediately{immediately_}, $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, newTopViewController{newTopViewController_} {}
+    // Get instance field: public System.Boolean immediately
+    bool _get_immediately();
+    // Set instance field: public System.Boolean immediately
+    void _set_immediately(bool value);
+    // Get instance field: public HMUI.FlowCoordinator <>4__this
+    HMUI::FlowCoordinator* _get_$$4__this();
+    // Set instance field: public HMUI.FlowCoordinator <>4__this
+    void _set_$$4__this(HMUI::FlowCoordinator* value);
+    // Get instance field: public System.Action finishedCallback
+    System::Action* _get_finishedCallback();
+    // Set instance field: public System.Action finishedCallback
+    void _set_finishedCallback(System::Action* value);
+    // Get instance field: public HMUI.ViewController newTopViewController
+    HMUI::ViewController* _get_newTopViewController();
+    // Set instance field: public HMUI.ViewController newTopViewController
+    void _set_newTopViewController(HMUI::ViewController* value);
     // System.Void <DismissViewController>b__0()
     // Offset: 0x130B3DC
     void $DismissViewController$b__0();

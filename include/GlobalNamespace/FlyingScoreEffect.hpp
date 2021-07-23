@@ -110,6 +110,38 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
     }
+    // Get instance field: private UnityEngine.AnimationCurve _fadeAnimationCurve
+    UnityEngine::AnimationCurve* _get__fadeAnimationCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _fadeAnimationCurve
+    void _set__fadeAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.SpriteRenderer _maxCutDistanceScoreIndicator
+    UnityEngine::SpriteRenderer* _get__maxCutDistanceScoreIndicator();
+    // Set instance field: private UnityEngine.SpriteRenderer _maxCutDistanceScoreIndicator
+    void _set__maxCutDistanceScoreIndicator(UnityEngine::SpriteRenderer* value);
+    // Get instance field: private TMPro.TextMeshPro _text
+    TMPro::TextMeshPro* _get__text();
+    // Set instance field: private TMPro.TextMeshPro _text
+    void _set__text(TMPro::TextMeshPro* value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
+    // Get instance field: private System.Single _colorAMultiplier
+    float _get__colorAMultiplier();
+    // Set instance field: private System.Single _colorAMultiplier
+    void _set__colorAMultiplier(float value);
+    // Get instance field: private ISaberSwingRatingCounter _saberSwingRatingCounter
+    GlobalNamespace::ISaberSwingRatingCounter* _get__saberSwingRatingCounter();
+    // Set instance field: private ISaberSwingRatingCounter _saberSwingRatingCounter
+    void _set__saberSwingRatingCounter(GlobalNamespace::ISaberSwingRatingCounter* value);
+    // Get instance field: private System.Single _cutDistanceToCenter
+    float _get__cutDistanceToCenter();
+    // Set instance field: private System.Single _cutDistanceToCenter
+    void _set__cutDistanceToCenter(float value);
+    // Get instance field: private System.Boolean _registeredToCallbacks
+    bool _get__registeredToCallbacks();
+    // Set instance field: private System.Boolean _registeredToCallbacks
+    void _set__registeredToCallbacks(bool value);
     // public System.Void InitAndPresent(in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
     // Offset: 0x102A850
     void InitAndPresent(GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);

@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass59_0
     $$c__DisplayClass59_0(GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this_ = {}, System::Action* finishedCallback_ = {}) noexcept : $$4__this{$$4__this_}, finishedCallback{finishedCallback_} {}
+    // Get instance field: public GameServerLobbyFlowCoordinator <>4__this
+    GlobalNamespace::GameServerLobbyFlowCoordinator* _get_$$4__this();
+    // Set instance field: public GameServerLobbyFlowCoordinator <>4__this
+    void _set_$$4__this(GlobalNamespace::GameServerLobbyFlowCoordinator* value);
+    // Get instance field: public System.Action finishedCallback
+    System::Action* _get_finishedCallback();
+    // Set instance field: public System.Action finishedCallback
+    void _set_finishedCallback(System::Action* value);
     // public System.Void .ctor()
     // Offset: 0x10A8310
     // Implemented from: System.Object

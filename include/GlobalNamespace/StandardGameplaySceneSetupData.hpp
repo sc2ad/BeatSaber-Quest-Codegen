@@ -75,6 +75,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
     // Creating value type constructor for type: StandardGameplaySceneSetupData
     StandardGameplaySceneSetupData(bool autoRestart_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::Il2CppString* backButtonText_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : autoRestart{autoRestart_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, backButtonText{backButtonText_}, gameplayModifiers{gameplayModifiers_} {}
+    // Get instance field: public readonly System.Boolean autoRestart
+    bool _get_autoRestart();
+    // Set instance field: public readonly System.Boolean autoRestart
+    void _set_autoRestart(bool value);
+    // Get instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel* _get_previewBeatmapLevel();
+    // Set instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    void _set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: public readonly BeatmapDifficulty beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get_beatmapDifficulty();
+    // Set instance field: public readonly BeatmapDifficulty beatmapDifficulty
+    void _set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: public readonly BeatmapCharacteristicSO beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get_beatmapCharacteristic();
+    // Set instance field: public readonly BeatmapCharacteristicSO beatmapCharacteristic
+    void _set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: public readonly System.String backButtonText
+    ::Il2CppString* _get_backButtonText();
+    // Set instance field: public readonly System.String backButtonText
+    void _set_backButtonText(::Il2CppString* value);
+    // Get instance field: public readonly GameplayModifiers gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get_gameplayModifiers();
+    // Set instance field: public readonly GameplayModifiers gameplayModifiers
+    void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor(System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.String backButtonText, GameplayModifiers gameplayModifiers)
     // Offset: 0x105F3B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

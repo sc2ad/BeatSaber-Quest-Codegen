@@ -59,6 +59,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::LeaderboardFilterType _get_UserIds();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType UserIds
     static void _set_UserIds(Oculus::Platform::LeaderboardFilterType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.LeaderboardFilterType
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardFilterType), 0 + sizeof(int)> __Oculus_Platform_LeaderboardFilterTypeSizeCheck;

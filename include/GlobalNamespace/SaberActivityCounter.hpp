@@ -169,6 +169,86 @@ namespace GlobalNamespace {
     SaberActivityCounter(float averageWindowDuration_ = {}, float valuesPerSecond_ = {}, float increaseSpeed_ = {}, float deceraseSpeed_ = {}, float movementSensitivityThreshold_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, System::Action_1<float>* totalDistanceDidChangeEvent_ = {}, GlobalNamespace::Saber* leftSaber_ = {}, GlobalNamespace::Saber* rightSaber_ = {}, UnityEngine::Vector3 prevLeftSaberTipPos_ = {}, UnityEngine::Vector3 prevRightSaberTipPos_ = {}, UnityEngine::Vector3 prevLeftHandPos_ = {}, UnityEngine::Vector3 prevRightHandPos_ = {}, bool hasPrevPos_ = {}, float leftSaberMovementDistance_ = {}, float rightSaberMovementDistance_ = {}, float leftHandMovementDistance_ = {}, float rightHandMovementDistance_ = {}, GlobalNamespace::MovementHistoryRecorder* saberMovementHistoryRecorder_ = {}, GlobalNamespace::MovementHistoryRecorder* handMovementHistoryRecorder_ = {}) noexcept : averageWindowDuration{averageWindowDuration_}, valuesPerSecond{valuesPerSecond_}, increaseSpeed{increaseSpeed_}, deceraseSpeed{deceraseSpeed_}, movementSensitivityThreshold{movementSensitivityThreshold_}, saberManager{saberManager_}, totalDistanceDidChangeEvent{totalDistanceDidChangeEvent_}, leftSaber{leftSaber_}, rightSaber{rightSaber_}, prevLeftSaberTipPos{prevLeftSaberTipPos_}, prevRightSaberTipPos{prevRightSaberTipPos_}, prevLeftHandPos{prevLeftHandPos_}, prevRightHandPos{prevRightHandPos_}, hasPrevPos{hasPrevPos_}, leftSaberMovementDistance{leftSaberMovementDistance_}, rightSaberMovementDistance{rightSaberMovementDistance_}, leftHandMovementDistance{leftHandMovementDistance_}, rightHandMovementDistance{rightHandMovementDistance_}, saberMovementHistoryRecorder{saberMovementHistoryRecorder_}, handMovementHistoryRecorder{handMovementHistoryRecorder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _averageWindowDuration
+    float _get__averageWindowDuration();
+    // Set instance field: private System.Single _averageWindowDuration
+    void _set__averageWindowDuration(float value);
+    // Get instance field: private System.Single _valuesPerSecond
+    float _get__valuesPerSecond();
+    // Set instance field: private System.Single _valuesPerSecond
+    void _set__valuesPerSecond(float value);
+    // Get instance field: private System.Single _increaseSpeed
+    float _get__increaseSpeed();
+    // Set instance field: private System.Single _increaseSpeed
+    void _set__increaseSpeed(float value);
+    // Get instance field: private System.Single _deceraseSpeed
+    float _get__deceraseSpeed();
+    // Set instance field: private System.Single _deceraseSpeed
+    void _set__deceraseSpeed(float value);
+    // Get instance field: private System.Single _movementSensitivityThreshold
+    float _get__movementSensitivityThreshold();
+    // Set instance field: private System.Single _movementSensitivityThreshold
+    void _set__movementSensitivityThreshold(float value);
+    // Get instance field: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager* _get__saberManager();
+    // Set instance field: private readonly SaberManager _saberManager
+    void _set__saberManager(GlobalNamespace::SaberManager* value);
+    // Get instance field: private System.Action`1<System.Single> totalDistanceDidChangeEvent
+    System::Action_1<float>* _get_totalDistanceDidChangeEvent();
+    // Set instance field: private System.Action`1<System.Single> totalDistanceDidChangeEvent
+    void _set_totalDistanceDidChangeEvent(System::Action_1<float>* value);
+    // Get instance field: private Saber _leftSaber
+    GlobalNamespace::Saber* _get__leftSaber();
+    // Set instance field: private Saber _leftSaber
+    void _set__leftSaber(GlobalNamespace::Saber* value);
+    // Get instance field: private Saber _rightSaber
+    GlobalNamespace::Saber* _get__rightSaber();
+    // Set instance field: private Saber _rightSaber
+    void _set__rightSaber(GlobalNamespace::Saber* value);
+    // Get instance field: private UnityEngine.Vector3 _prevLeftSaberTipPos
+    UnityEngine::Vector3 _get__prevLeftSaberTipPos();
+    // Set instance field: private UnityEngine.Vector3 _prevLeftSaberTipPos
+    void _set__prevLeftSaberTipPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _prevRightSaberTipPos
+    UnityEngine::Vector3 _get__prevRightSaberTipPos();
+    // Set instance field: private UnityEngine.Vector3 _prevRightSaberTipPos
+    void _set__prevRightSaberTipPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _prevLeftHandPos
+    UnityEngine::Vector3 _get__prevLeftHandPos();
+    // Set instance field: private UnityEngine.Vector3 _prevLeftHandPos
+    void _set__prevLeftHandPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _prevRightHandPos
+    UnityEngine::Vector3 _get__prevRightHandPos();
+    // Set instance field: private UnityEngine.Vector3 _prevRightHandPos
+    void _set__prevRightHandPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean _hasPrevPos
+    bool _get__hasPrevPos();
+    // Set instance field: private System.Boolean _hasPrevPos
+    void _set__hasPrevPos(bool value);
+    // Get instance field: private System.Single _leftSaberMovementDistance
+    float _get__leftSaberMovementDistance();
+    // Set instance field: private System.Single _leftSaberMovementDistance
+    void _set__leftSaberMovementDistance(float value);
+    // Get instance field: private System.Single _rightSaberMovementDistance
+    float _get__rightSaberMovementDistance();
+    // Set instance field: private System.Single _rightSaberMovementDistance
+    void _set__rightSaberMovementDistance(float value);
+    // Get instance field: private System.Single _leftHandMovementDistance
+    float _get__leftHandMovementDistance();
+    // Set instance field: private System.Single _leftHandMovementDistance
+    void _set__leftHandMovementDistance(float value);
+    // Get instance field: private System.Single _rightHandMovementDistance
+    float _get__rightHandMovementDistance();
+    // Set instance field: private System.Single _rightHandMovementDistance
+    void _set__rightHandMovementDistance(float value);
+    // Get instance field: private MovementHistoryRecorder _saberMovementHistoryRecorder
+    GlobalNamespace::MovementHistoryRecorder* _get__saberMovementHistoryRecorder();
+    // Set instance field: private MovementHistoryRecorder _saberMovementHistoryRecorder
+    void _set__saberMovementHistoryRecorder(GlobalNamespace::MovementHistoryRecorder* value);
+    // Get instance field: private MovementHistoryRecorder _handMovementHistoryRecorder
+    GlobalNamespace::MovementHistoryRecorder* _get__handMovementHistoryRecorder();
+    // Set instance field: private MovementHistoryRecorder _handMovementHistoryRecorder
+    void _set__handMovementHistoryRecorder(GlobalNamespace::MovementHistoryRecorder* value);
     // public System.Single get_leftSaberMovementDistance()
     // Offset: 0x1147FB8
     float get_leftSaberMovementDistance();

@@ -186,6 +186,86 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._CommitWorkingCopy CommitWorkingCopy
+    OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy* _get_CommitWorkingCopy();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._CommitWorkingCopy CommitWorkingCopy
+    void _set_CommitWorkingCopy(OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._RevertWorkingCopy RevertWorkingCopy
+    OVR::OpenVR::IVRChaperoneSetup::_RevertWorkingCopy* _get_RevertWorkingCopy();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._RevertWorkingCopy RevertWorkingCopy
+    void _set_RevertWorkingCopy(OVR::OpenVR::IVRChaperoneSetup::_RevertWorkingCopy* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingPlayAreaSize GetWorkingPlayAreaSize
+    OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaSize* _get_GetWorkingPlayAreaSize();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingPlayAreaSize GetWorkingPlayAreaSize
+    void _set_GetWorkingPlayAreaSize(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaSize* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingPlayAreaRect GetWorkingPlayAreaRect
+    OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaRect* _get_GetWorkingPlayAreaRect();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingPlayAreaRect GetWorkingPlayAreaRect
+    void _set_GetWorkingPlayAreaRect(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaRect* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingCollisionBoundsInfo GetWorkingCollisionBoundsInfo
+    OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo* _get_GetWorkingCollisionBoundsInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingCollisionBoundsInfo GetWorkingCollisionBoundsInfo
+    void _set_GetWorkingCollisionBoundsInfo(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveCollisionBoundsInfo GetLiveCollisionBoundsInfo
+    OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo* _get_GetLiveCollisionBoundsInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveCollisionBoundsInfo GetLiveCollisionBoundsInfo
+    void _set_GetLiveCollisionBoundsInfo(OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingSeatedZeroPoseToRawTrackingPose GetWorkingSeatedZeroPoseToRawTrackingPose
+    OVR::OpenVR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose* _get_GetWorkingSeatedZeroPoseToRawTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingSeatedZeroPoseToRawTrackingPose GetWorkingSeatedZeroPoseToRawTrackingPose
+    void _set_GetWorkingSeatedZeroPoseToRawTrackingPose(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingStandingZeroPoseToRawTrackingPose GetWorkingStandingZeroPoseToRawTrackingPose
+    OVR::OpenVR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose* _get_GetWorkingStandingZeroPoseToRawTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetWorkingStandingZeroPoseToRawTrackingPose GetWorkingStandingZeroPoseToRawTrackingPose
+    void _set_GetWorkingStandingZeroPoseToRawTrackingPose(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingPlayAreaSize SetWorkingPlayAreaSize
+    OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize* _get_SetWorkingPlayAreaSize();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingPlayAreaSize SetWorkingPlayAreaSize
+    void _set_SetWorkingPlayAreaSize(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingCollisionBoundsInfo SetWorkingCollisionBoundsInfo
+    OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo* _get_SetWorkingCollisionBoundsInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingCollisionBoundsInfo SetWorkingCollisionBoundsInfo
+    void _set_SetWorkingCollisionBoundsInfo(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingSeatedZeroPoseToRawTrackingPose SetWorkingSeatedZeroPoseToRawTrackingPose
+    OVR::OpenVR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* _get_SetWorkingSeatedZeroPoseToRawTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingSeatedZeroPoseToRawTrackingPose SetWorkingSeatedZeroPoseToRawTrackingPose
+    void _set_SetWorkingSeatedZeroPoseToRawTrackingPose(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingStandingZeroPoseToRawTrackingPose SetWorkingStandingZeroPoseToRawTrackingPose
+    OVR::OpenVR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose* _get_SetWorkingStandingZeroPoseToRawTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingStandingZeroPoseToRawTrackingPose SetWorkingStandingZeroPoseToRawTrackingPose
+    void _set_SetWorkingStandingZeroPoseToRawTrackingPose(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ReloadFromDisk ReloadFromDisk
+    OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk* _get_ReloadFromDisk();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ReloadFromDisk ReloadFromDisk
+    void _set_ReloadFromDisk(OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveSeatedZeroPoseToRawTrackingPose GetLiveSeatedZeroPoseToRawTrackingPose
+    OVR::OpenVR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose* _get_GetLiveSeatedZeroPoseToRawTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveSeatedZeroPoseToRawTrackingPose GetLiveSeatedZeroPoseToRawTrackingPose
+    void _set_GetLiveSeatedZeroPoseToRawTrackingPose(OVR::OpenVR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingCollisionBoundsTagsInfo SetWorkingCollisionBoundsTagsInfo
+    OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo* _get_SetWorkingCollisionBoundsTagsInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingCollisionBoundsTagsInfo SetWorkingCollisionBoundsTagsInfo
+    void _set_SetWorkingCollisionBoundsTagsInfo(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveCollisionBoundsTagsInfo GetLiveCollisionBoundsTagsInfo
+    OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo* _get_GetLiveCollisionBoundsTagsInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLiveCollisionBoundsTagsInfo GetLiveCollisionBoundsTagsInfo
+    void _set_GetLiveCollisionBoundsTagsInfo(OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingPhysicalBoundsInfo SetWorkingPhysicalBoundsInfo
+    OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo* _get_SetWorkingPhysicalBoundsInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingPhysicalBoundsInfo SetWorkingPhysicalBoundsInfo
+    void _set_SetWorkingPhysicalBoundsInfo(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLivePhysicalBoundsInfo GetLivePhysicalBoundsInfo
+    OVR::OpenVR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* _get_GetLivePhysicalBoundsInfo();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._GetLivePhysicalBoundsInfo GetLivePhysicalBoundsInfo
+    void _set_GetLivePhysicalBoundsInfo(OVR::OpenVR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ExportLiveToBuffer ExportLiveToBuffer
+    OVR::OpenVR::IVRChaperoneSetup::_ExportLiveToBuffer* _get_ExportLiveToBuffer();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ExportLiveToBuffer ExportLiveToBuffer
+    void _set_ExportLiveToBuffer(OVR::OpenVR::IVRChaperoneSetup::_ExportLiveToBuffer* value);
+    // Get instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ImportFromBufferToWorking ImportFromBufferToWorking
+    OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking* _get_ImportFromBufferToWorking();
+    // Set instance field: OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._ImportFromBufferToWorking ImportFromBufferToWorking
+    void _set_ImportFromBufferToWorking(OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking* value);
   }; // OVR.OpenVR.IVRChaperoneSetup
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperoneSetup), 152 + sizeof(OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking*)> __OVR_OpenVR_IVRChaperoneSetupSizeCheck;

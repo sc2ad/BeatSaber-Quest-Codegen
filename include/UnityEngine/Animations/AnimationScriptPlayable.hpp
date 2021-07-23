@@ -60,6 +60,10 @@ namespace UnityEngine::Animations {
     static UnityEngine::Animations::AnimationScriptPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationScriptPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationScriptPlayable value);
+    // Get instance field: private UnityEngine.Playables.PlayableHandle m_Handle
+    UnityEngine::Playables::PlayableHandle _get_m_Handle();
+    // Set instance field: private UnityEngine.Playables.PlayableHandle m_Handle
+    void _set_m_Handle(UnityEngine::Playables::PlayableHandle value);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xF0C794
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

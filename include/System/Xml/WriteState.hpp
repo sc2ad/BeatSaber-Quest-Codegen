@@ -73,6 +73,10 @@ namespace System::Xml {
     static System::Xml::WriteState _get_Error();
     // Set static field: static public System.Xml.WriteState Error
     static void _set_Error(System::Xml::WriteState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Xml.WriteState
   #pragma pack(pop)
   static check_size<sizeof(WriteState), 0 + sizeof(int)> __System_Xml_WriteStateSizeCheck;

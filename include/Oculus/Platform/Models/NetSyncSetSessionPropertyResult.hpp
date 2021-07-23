@@ -38,6 +38,10 @@ namespace Oculus::Platform::Models {
     constexpr operator Oculus::Platform::Models::NetSyncSession*() const noexcept {
       return Session;
     }
+    // Get instance field: public readonly Oculus.Platform.Models.NetSyncSession Session
+    Oculus::Platform::Models::NetSyncSession* _get_Session();
+    // Set instance field: public readonly Oculus.Platform.Models.NetSyncSession Session
+    void _set_Session(Oculus::Platform::Models::NetSyncSession* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A57E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

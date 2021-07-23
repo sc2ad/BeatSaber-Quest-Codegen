@@ -47,6 +47,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerGameState) == 0x4);
     // Creating value type constructor for type: LobbyGameStateModel
     LobbyGameStateModel(System::Action_1<GlobalNamespace::MultiplayerGameState>* gameStateDidChangeEvent_ = {}, System::Action_1<GlobalNamespace::MultiplayerGameState>* gameStateDidChangeAlwaysSentEvent_ = {}, GlobalNamespace::MultiplayerGameState gameState_ = {}) noexcept : gameStateDidChangeEvent{gameStateDidChangeEvent_}, gameStateDidChangeAlwaysSentEvent{gameStateDidChangeAlwaysSentEvent_}, gameState{gameState_} {}
+    // Get instance field: private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
+    System::Action_1<GlobalNamespace::MultiplayerGameState>* _get_gameStateDidChangeEvent();
+    // Set instance field: private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
+    void _set_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
+    // Get instance field: private System.Action`1<MultiplayerGameState> gameStateDidChangeAlwaysSentEvent
+    System::Action_1<GlobalNamespace::MultiplayerGameState>* _get_gameStateDidChangeAlwaysSentEvent();
+    // Set instance field: private System.Action`1<MultiplayerGameState> gameStateDidChangeAlwaysSentEvent
+    void _set_gameStateDidChangeAlwaysSentEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
+    // Get instance field: private MultiplayerGameState _gameState
+    GlobalNamespace::MultiplayerGameState _get__gameState();
+    // Set instance field: private MultiplayerGameState _gameState
+    void _set__gameState(GlobalNamespace::MultiplayerGameState value);
     // public MultiplayerGameState get_gameState()
     // Offset: 0x11BF304
     GlobalNamespace::MultiplayerGameState get_gameState();

@@ -43,6 +43,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EGamepadTextInputLineMode _get_k_EGamepadTextInputLineModeMultipleLines();
     // Set static field: static public OVR.OpenVR.EGamepadTextInputLineMode k_EGamepadTextInputLineModeMultipleLines
     static void _set_k_EGamepadTextInputLineModeMultipleLines(OVR::OpenVR::EGamepadTextInputLineMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EGamepadTextInputLineMode
   #pragma pack(pop)
   static check_size<sizeof(EGamepadTextInputLineMode), 0 + sizeof(int)> __OVR_OpenVR_EGamepadTextInputLineModeSizeCheck;

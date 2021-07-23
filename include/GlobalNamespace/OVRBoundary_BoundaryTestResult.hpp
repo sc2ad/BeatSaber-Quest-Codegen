@@ -52,6 +52,22 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Boolean IsTriggering
+    bool _get_IsTriggering();
+    // Set instance field: public System.Boolean IsTriggering
+    void _set_IsTriggering(bool value);
+    // Get instance field: public System.Single ClosestDistance
+    float _get_ClosestDistance();
+    // Set instance field: public System.Single ClosestDistance
+    void _set_ClosestDistance(float value);
+    // Get instance field: public UnityEngine.Vector3 ClosestPoint
+    UnityEngine::Vector3 _get_ClosestPoint();
+    // Set instance field: public UnityEngine.Vector3 ClosestPoint
+    void _set_ClosestPoint(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 ClosestPointNormal
+    UnityEngine::Vector3 _get_ClosestPointNormal();
+    // Set instance field: public UnityEngine.Vector3 ClosestPointNormal
+    void _set_ClosestPointNormal(UnityEngine::Vector3 value);
   }; // OVRBoundary/BoundaryTestResult
   #pragma pack(pop)
   static check_size<sizeof(OVRBoundary::BoundaryTestResult), 20 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_OVRBoundary_BoundaryTestResultSizeCheck;

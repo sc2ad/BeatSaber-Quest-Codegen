@@ -55,6 +55,18 @@ namespace NUnit::Framework::Internal::Commands {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SetUpTearDownItem
     SetUpTearDownItem(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* setUpMethods_ = {}, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* tearDownMethods_ = {}, bool setUpWasRun_ = {}) noexcept : setUpMethods{setUpMethods_}, tearDownMethods{tearDownMethods_}, setUpWasRun{setUpWasRun_} {}
+    // Get instance field: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _setUpMethods
+    System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* _get__setUpMethods();
+    // Set instance field: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _setUpMethods
+    void _set__setUpMethods(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* value);
+    // Get instance field: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _tearDownMethods
+    System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* _get__tearDownMethods();
+    // Set instance field: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _tearDownMethods
+    void _set__tearDownMethods(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* value);
+    // Get instance field: private System.Boolean _setUpWasRun
+    bool _get__setUpWasRun();
+    // Set instance field: private System.Boolean _setUpWasRun
+    void _set__setUpWasRun(bool value);
     // public System.Boolean get_HasMethods()
     // Offset: 0x1728F70
     bool get_HasMethods();

@@ -81,6 +81,34 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    Org::BouncyCastle::Crypto::IDigest* _get_digest();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest digest
+    void _set_digest(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field: private readonly System.Int32 digestSize
+    int _get_digestSize();
+    // Set instance field: private readonly System.Int32 digestSize
+    void _set_digestSize(int value);
+    // Get instance field: private readonly System.Int32 blockLength
+    int _get_blockLength();
+    // Set instance field: private readonly System.Int32 blockLength
+    void _set_blockLength(int value);
+    // Get instance field: private Org.BouncyCastle.Utilities.IMemoable ipadState
+    Org::BouncyCastle::Utilities::IMemoable* _get_ipadState();
+    // Set instance field: private Org.BouncyCastle.Utilities.IMemoable ipadState
+    void _set_ipadState(Org::BouncyCastle::Utilities::IMemoable* value);
+    // Get instance field: private Org.BouncyCastle.Utilities.IMemoable opadState
+    Org::BouncyCastle::Utilities::IMemoable* _get_opadState();
+    // Set instance field: private Org.BouncyCastle.Utilities.IMemoable opadState
+    void _set_opadState(Org::BouncyCastle::Utilities::IMemoable* value);
+    // Get instance field: private readonly System.Byte[] inputPad
+    ::Array<uint8_t>* _get_inputPad();
+    // Set instance field: private readonly System.Byte[] inputPad
+    void _set_inputPad(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Byte[] outputBuf
+    ::Array<uint8_t>* _get_outputBuf();
+    // Set instance field: private readonly System.Byte[] outputBuf
+    void _set_outputBuf(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x18BA6F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

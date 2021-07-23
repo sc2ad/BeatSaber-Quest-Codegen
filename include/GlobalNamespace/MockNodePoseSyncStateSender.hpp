@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IMultiplayerSessionManager*() const noexcept {
       return multiplayerSessionManager;
     }
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.Void .ctor(IMultiplayerSessionManager msm)
     // Offset: 0x238BC9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

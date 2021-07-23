@@ -76,6 +76,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
+    // Get instance field: public System.String serverName
+    ::Il2CppString* _get_serverName();
+    // Set instance field: public System.String serverName
+    void _set_serverName(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public PacketPool`1<PartyMessageHandler/ServerStatusUpdateMessage> get_pool()
     // Offset: 0x153C610
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>* get_pool();

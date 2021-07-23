@@ -52,6 +52,14 @@ namespace UnityEngine {
     static System::IntPtr _get_s_HashCodeMethodID();
     // Set static field: static private readonly System.IntPtr s_HashCodeMethodID
     static void _set_s_HashCodeMethodID(System::IntPtr value);
+    // Get instance field: public readonly UnityEngine.AndroidJavaClass javaInterface
+    UnityEngine::AndroidJavaClass* _get_javaInterface();
+    // Set instance field: public readonly UnityEngine.AndroidJavaClass javaInterface
+    void _set_javaInterface(UnityEngine::AndroidJavaClass* value);
+    // Get instance field: System.IntPtr proxyObject
+    System::IntPtr _get_proxyObject();
+    // Set instance field: System.IntPtr proxyObject
+    void _set_proxyObject(System::IntPtr value);
     // public System.Void .ctor(System.String javaInterface)
     // Offset: 0x2353078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

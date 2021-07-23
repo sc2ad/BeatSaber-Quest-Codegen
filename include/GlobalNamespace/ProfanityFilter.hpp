@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::ProfanityFilter::TrieNode*() const noexcept {
       return trie;
     }
+    // Get instance field: private readonly ProfanityFilter/TrieNode _trie
+    GlobalNamespace::ProfanityFilter::TrieNode* _get__trie();
+    // Set instance field: private readonly ProfanityFilter/TrieNode _trie
+    void _set__trie(GlobalNamespace::ProfanityFilter::TrieNode* value);
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> wordList)
     // Offset: 0x230CF70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

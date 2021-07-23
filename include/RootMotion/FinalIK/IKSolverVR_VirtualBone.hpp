@@ -67,6 +67,34 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: VirtualBone
     VirtualBone(UnityEngine::Vector3 readPosition_ = {}, UnityEngine::Quaternion readRotation_ = {}, UnityEngine::Vector3 solverPosition_ = {}, UnityEngine::Quaternion solverRotation_ = {}, float length_ = {}, float sqrMag_ = {}, UnityEngine::Vector3 axis_ = {}) noexcept : readPosition{readPosition_}, readRotation{readRotation_}, solverPosition{solverPosition_}, solverRotation{solverRotation_}, length{length_}, sqrMag{sqrMag_}, axis{axis_} {}
+    // Get instance field: public UnityEngine.Vector3 readPosition
+    UnityEngine::Vector3 _get_readPosition();
+    // Set instance field: public UnityEngine.Vector3 readPosition
+    void _set_readPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion readRotation
+    UnityEngine::Quaternion _get_readRotation();
+    // Set instance field: public UnityEngine.Quaternion readRotation
+    void _set_readRotation(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Vector3 solverPosition
+    UnityEngine::Vector3 _get_solverPosition();
+    // Set instance field: public UnityEngine.Vector3 solverPosition
+    void _set_solverPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion solverRotation
+    UnityEngine::Quaternion _get_solverRotation();
+    // Set instance field: public UnityEngine.Quaternion solverRotation
+    void _set_solverRotation(UnityEngine::Quaternion value);
+    // Get instance field: public System.Single length
+    float _get_length();
+    // Set instance field: public System.Single length
+    void _set_length(float value);
+    // Get instance field: public System.Single sqrMag
+    float _get_sqrMag();
+    // Set instance field: public System.Single sqrMag
+    void _set_sqrMag(float value);
+    // Get instance field: public UnityEngine.Vector3 axis
+    UnityEngine::Vector3 _get_axis();
+    // Set instance field: public UnityEngine.Vector3 axis
+    void _set_axis(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0x1E24074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

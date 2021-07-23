@@ -64,6 +64,30 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
+    OVR::OpenVR::HmdMatrix34_t _get_mDeviceToAbsoluteTracking();
+    // Set instance field: public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
+    void _set_mDeviceToAbsoluteTracking(OVR::OpenVR::HmdMatrix34_t value);
+    // Get instance field: public OVR.OpenVR.HmdVector3_t vVelocity
+    OVR::OpenVR::HmdVector3_t _get_vVelocity();
+    // Set instance field: public OVR.OpenVR.HmdVector3_t vVelocity
+    void _set_vVelocity(OVR::OpenVR::HmdVector3_t value);
+    // Get instance field: public OVR.OpenVR.HmdVector3_t vAngularVelocity
+    OVR::OpenVR::HmdVector3_t _get_vAngularVelocity();
+    // Set instance field: public OVR.OpenVR.HmdVector3_t vAngularVelocity
+    void _set_vAngularVelocity(OVR::OpenVR::HmdVector3_t value);
+    // Get instance field: public OVR.OpenVR.ETrackingResult eTrackingResult
+    OVR::OpenVR::ETrackingResult _get_eTrackingResult();
+    // Set instance field: public OVR.OpenVR.ETrackingResult eTrackingResult
+    void _set_eTrackingResult(OVR::OpenVR::ETrackingResult value);
+    // Get instance field: public System.Boolean bPoseIsValid
+    bool _get_bPoseIsValid();
+    // Set instance field: public System.Boolean bPoseIsValid
+    void _set_bPoseIsValid(bool value);
+    // Get instance field: public System.Boolean bDeviceIsConnected
+    bool _get_bDeviceIsConnected();
+    // Set instance field: public System.Boolean bDeviceIsConnected
+    void _set_bDeviceIsConnected(bool value);
   }; // OVR.OpenVR.TrackedDevicePose_t
   #pragma pack(pop)
   static check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool)> __OVR_OpenVR_TrackedDevicePose_tSizeCheck;

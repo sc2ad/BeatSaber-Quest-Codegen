@@ -57,6 +57,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
     // Creating value type constructor for type: OnlineServicesSettingsViewController
     OnlineServicesSettingsViewController(GlobalNamespace::BoolSO* onlineServicesEnabled_ = {}, UnityEngine::UI::Toggle* enableOnlineServicesToggle_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}) noexcept : onlineServicesEnabled{onlineServicesEnabled_}, enableOnlineServicesToggle{enableOnlineServicesToggle_}, toggleBinder{toggleBinder_} {}
+    // Get instance field: private BoolSO _onlineServicesEnabled
+    GlobalNamespace::BoolSO* _get__onlineServicesEnabled();
+    // Set instance field: private BoolSO _onlineServicesEnabled
+    void _set__onlineServicesEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: private UnityEngine.UI.Toggle _enableOnlineServicesToggle
+    UnityEngine::UI::Toggle* _get__enableOnlineServicesToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _enableOnlineServicesToggle
+    void _set__enableOnlineServicesToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder* _get__toggleBinder();
+    // Set instance field: private HMUI.ToggleBinder _toggleBinder
+    void _set__toggleBinder(HMUI::ToggleBinder* value);
     // private System.Void HandleEnableOnlineServicesToggleValueChanged(System.Boolean value)
     // Offset: 0xFFB424
     void HandleEnableOnlineServicesToggleValueChanged(bool value);

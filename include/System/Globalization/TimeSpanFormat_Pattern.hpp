@@ -51,6 +51,10 @@ namespace System::Globalization {
     static System::Globalization::TimeSpanFormat::Pattern _get_Full();
     // Set static field: static public System.Globalization.TimeSpanFormat/System.Globalization.Pattern Full
     static void _set_Full(System::Globalization::TimeSpanFormat::Pattern value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Globalization.TimeSpanFormat/System.Globalization.Pattern
   #pragma pack(pop)
   static check_size<sizeof(TimeSpanFormat::Pattern), 0 + sizeof(int)> __System_Globalization_TimeSpanFormat_PatternSizeCheck;

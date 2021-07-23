@@ -80,6 +80,30 @@ namespace Zenject {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass17_0
     $$c__DisplayClass17_0(Zenject::AddToGameObjectComponentProviderBase* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}, ::Il2CppObject* instance_ = {}, Zenject::InjectContext* context_ = {}, bool wasActive_ = {}, UnityEngine::GameObject* gameObj_ = {}) noexcept : $$4__this{$$4__this_}, args{args_}, instance{instance_}, context{context_}, wasActive{wasActive_}, gameObj{gameObj_} {}
+    // Get instance field: public Zenject.AddToGameObjectComponentProviderBase <>4__this
+    Zenject::AddToGameObjectComponentProviderBase* _get_$$4__this();
+    // Set instance field: public Zenject.AddToGameObjectComponentProviderBase <>4__this
+    void _set_$$4__this(Zenject::AddToGameObjectComponentProviderBase* value);
+    // Get instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_args();
+    // Set instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+    void _set_args(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
+    // Get instance field: public System.Object instance
+    ::Il2CppObject* _get_instance();
+    // Set instance field: public System.Object instance
+    void _set_instance(::Il2CppObject* value);
+    // Get instance field: public Zenject.InjectContext context
+    Zenject::InjectContext* _get_context();
+    // Set instance field: public Zenject.InjectContext context
+    void _set_context(Zenject::InjectContext* value);
+    // Get instance field: public System.Boolean wasActive
+    bool _get_wasActive();
+    // Set instance field: public System.Boolean wasActive
+    void _set_wasActive(bool value);
+    // Get instance field: public UnityEngine.GameObject gameObj
+    UnityEngine::GameObject* _get_gameObj();
+    // Set instance field: public UnityEngine.GameObject gameObj
+    void _set_gameObj(UnityEngine::GameObject* value);
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
     // Offset: 0x1378690
     void $GetAllInstancesWithInjectSplit$b__0();

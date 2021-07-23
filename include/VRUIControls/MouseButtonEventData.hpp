@@ -41,6 +41,14 @@ namespace VRUIControls {
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
     // Creating value type constructor for type: MouseButtonEventData
     MouseButtonEventData(UnityEngine::EventSystems::PointerEventData::FramePressState buttonState_ = {}, UnityEngine::EventSystems::PointerEventData* buttonData_ = {}) noexcept : buttonState{buttonState_}, buttonData{buttonData_} {}
+    // Get instance field: public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
+    UnityEngine::EventSystems::PointerEventData::FramePressState _get_buttonState();
+    // Set instance field: public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
+    void _set_buttonState(UnityEngine::EventSystems::PointerEventData::FramePressState value);
+    // Get instance field: public UnityEngine.EventSystems.PointerEventData buttonData
+    UnityEngine::EventSystems::PointerEventData* _get_buttonData();
+    // Set instance field: public UnityEngine.EventSystems.PointerEventData buttonData
+    void _set_buttonData(UnityEngine::EventSystems::PointerEventData* value);
     // public System.Boolean PressedThisFrame()
     // Offset: 0x2343574
     bool PressedThisFrame();

@@ -55,6 +55,18 @@ namespace RootMotion::FinalIK {
     IKExecutionOrder(::Array<RootMotion::FinalIK::IK*>* IKComponents_ = {}, UnityEngine::Animator* animator_ = {}, bool fixedFrame_ = {}) noexcept : IKComponents{IKComponents_}, animator{animator_}, fixedFrame{fixedFrame_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public RootMotion.FinalIK.IK[] IKComponents
+    ::Array<RootMotion::FinalIK::IK*>* _get_IKComponents();
+    // Set instance field: public RootMotion.FinalIK.IK[] IKComponents
+    void _set_IKComponents(::Array<RootMotion::FinalIK::IK*>* value);
+    // Get instance field: public UnityEngine.Animator animator
+    UnityEngine::Animator* _get_animator();
+    // Set instance field: public UnityEngine.Animator animator
+    void _set_animator(UnityEngine::Animator* value);
+    // Get instance field: private System.Boolean fixedFrame
+    bool _get_fixedFrame();
+    // Set instance field: private System.Boolean fixedFrame
+    void _set_fixedFrame(bool value);
     // private System.Boolean get_animatePhysics()
     // Offset: 0x1C99758
     bool get_animatePhysics();

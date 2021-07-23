@@ -47,6 +47,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass10_0
     $$c__DisplayClass10_0(System::Collections::Generic::List_1<::Il2CppString*>* guestPlayerNames_ = {}, GlobalNamespace::EnterPlayerGuestNameViewController* $$4__this_ = {}) noexcept : guestPlayerNames{guestPlayerNames_}, $$4__this{$$4__this_} {}
+    // Get instance field: public System.Collections.Generic.List`1<System.String> guestPlayerNames
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_guestPlayerNames();
+    // Set instance field: public System.Collections.Generic.List`1<System.String> guestPlayerNames
+    void _set_guestPlayerNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: public EnterPlayerGuestNameViewController <>4__this
+    GlobalNamespace::EnterPlayerGuestNameViewController* _get_$$4__this();
+    // Set instance field: public EnterPlayerGuestNameViewController <>4__this
+    void _set_$$4__this(GlobalNamespace::EnterPlayerGuestNameViewController* value);
     // System.Void <DidActivate>b__0(System.Int32 idx, GuestNameButtonsListItem item)
     // Offset: 0x102050C
     void $DidActivate$b__0(int idx, GlobalNamespace::GuestNameButtonsListItem* item);

@@ -93,6 +93,42 @@ namespace System::Security::Cryptography {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: protected System.Int32 BlockSizeValue
+    int _get_BlockSizeValue();
+    // Set instance field: protected System.Int32 BlockSizeValue
+    void _set_BlockSizeValue(int value);
+    // Get instance field: protected System.Int32 FeedbackSizeValue
+    int _get_FeedbackSizeValue();
+    // Set instance field: protected System.Int32 FeedbackSizeValue
+    void _set_FeedbackSizeValue(int value);
+    // Get instance field: protected System.Byte[] IVValue
+    ::Array<uint8_t>* _get_IVValue();
+    // Set instance field: protected System.Byte[] IVValue
+    void _set_IVValue(::Array<uint8_t>* value);
+    // Get instance field: protected System.Byte[] KeyValue
+    ::Array<uint8_t>* _get_KeyValue();
+    // Set instance field: protected System.Byte[] KeyValue
+    void _set_KeyValue(::Array<uint8_t>* value);
+    // Get instance field: protected System.Security.Cryptography.KeySizes[] LegalBlockSizesValue
+    ::Array<System::Security::Cryptography::KeySizes*>* _get_LegalBlockSizesValue();
+    // Set instance field: protected System.Security.Cryptography.KeySizes[] LegalBlockSizesValue
+    void _set_LegalBlockSizesValue(::Array<System::Security::Cryptography::KeySizes*>* value);
+    // Get instance field: protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
+    ::Array<System::Security::Cryptography::KeySizes*>* _get_LegalKeySizesValue();
+    // Set instance field: protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
+    void _set_LegalKeySizesValue(::Array<System::Security::Cryptography::KeySizes*>* value);
+    // Get instance field: protected System.Int32 KeySizeValue
+    int _get_KeySizeValue();
+    // Set instance field: protected System.Int32 KeySizeValue
+    void _set_KeySizeValue(int value);
+    // Get instance field: protected System.Security.Cryptography.CipherMode ModeValue
+    System::Security::Cryptography::CipherMode _get_ModeValue();
+    // Set instance field: protected System.Security.Cryptography.CipherMode ModeValue
+    void _set_ModeValue(System::Security::Cryptography::CipherMode value);
+    // Get instance field: protected System.Security.Cryptography.PaddingMode PaddingValue
+    System::Security::Cryptography::PaddingMode _get_PaddingValue();
+    // Set instance field: protected System.Security.Cryptography.PaddingMode PaddingValue
+    void _set_PaddingValue(System::Security::Cryptography::PaddingMode value);
     // public System.Int32 get_BlockSize()
     // Offset: 0x1B041D4
     int get_BlockSize();

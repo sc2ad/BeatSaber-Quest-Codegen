@@ -66,6 +66,26 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(System::Net::NetworkInformation::IPInterfaceProperties*) == 0x8);
     // Creating value type constructor for type: Win32NetworkInterface2
     Win32NetworkInterface2(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib4_ = {}, System::Net::NetworkInformation::Win32_MIB_IFROW mib6_ = {}, System::Net::NetworkInformation::Win32IPv4InterfaceStatistics* ip4stats_ = {}, System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props_ = {}) noexcept : addr{addr_}, mib4{mib4_}, mib6{mib6_}, ip4stats{ip4stats_}, ip_if_props{ip_if_props_} {}
+    // Get instance field: private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
+    System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES _get_addr();
+    // Set instance field: private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
+    void _set_addr(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES value);
+    // Get instance field: private System.Net.NetworkInformation.Win32_MIB_IFROW mib4
+    System::Net::NetworkInformation::Win32_MIB_IFROW _get_mib4();
+    // Set instance field: private System.Net.NetworkInformation.Win32_MIB_IFROW mib4
+    void _set_mib4(System::Net::NetworkInformation::Win32_MIB_IFROW value);
+    // Get instance field: private System.Net.NetworkInformation.Win32_MIB_IFROW mib6
+    System::Net::NetworkInformation::Win32_MIB_IFROW _get_mib6();
+    // Set instance field: private System.Net.NetworkInformation.Win32_MIB_IFROW mib6
+    void _set_mib6(System::Net::NetworkInformation::Win32_MIB_IFROW value);
+    // Get instance field: private System.Net.NetworkInformation.Win32IPv4InterfaceStatistics ip4stats
+    System::Net::NetworkInformation::Win32IPv4InterfaceStatistics* _get_ip4stats();
+    // Set instance field: private System.Net.NetworkInformation.Win32IPv4InterfaceStatistics ip4stats
+    void _set_ip4stats(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics* value);
+    // Get instance field: private System.Net.NetworkInformation.IPInterfaceProperties ip_if_props
+    System::Net::NetworkInformation::IPInterfaceProperties* _get_ip_if_props();
+    // Set instance field: private System.Net.NetworkInformation.IPInterfaceProperties ip_if_props
+    void _set_ip_if_props(System::Net::NetworkInformation::IPInterfaceProperties* value);
     // System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr)
     // Offset: 0x14641F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

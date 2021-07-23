@@ -44,6 +44,10 @@ namespace System::Runtime::Serialization::Formatters {
     static System::Runtime::Serialization::Formatters::FormatterAssemblyStyle _get_Full();
     // Set static field: static public System.Runtime.Serialization.Formatters.FormatterAssemblyStyle Full
     static void _set_Full(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
   #pragma pack(pop)
   static check_size<sizeof(FormatterAssemblyStyle), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_FormatterAssemblyStyleSizeCheck;

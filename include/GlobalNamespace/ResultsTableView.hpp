@@ -87,6 +87,22 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
+    // Get instance field: private HMUI.TableView _tableView
+    HMUI::TableView* _get__tableView();
+    // Set instance field: private HMUI.TableView _tableView
+    void _set__tableView(HMUI::TableView* value);
+    // Get instance field: private ResultsTableCell _cellPrefab
+    GlobalNamespace::ResultsTableCell* _get__cellPrefab();
+    // Set instance field: private ResultsTableCell _cellPrefab
+    void _set__cellPrefab(GlobalNamespace::ResultsTableCell* value);
+    // Get instance field: private System.Single _rowHeight
+    float _get__rowHeight();
+    // Set instance field: private System.Single _rowHeight
+    void _set__rowHeight(float value);
+    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* _get__dataList();
+    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
+    void _set__dataList(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* value);
     // public System.Single CellSize()
     // Offset: 0x1143B28
     float CellSize();

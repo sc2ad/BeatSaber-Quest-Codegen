@@ -72,6 +72,10 @@ namespace UnityEngine {
     static ::Il2CppString* _get_cloneDestroyedMessage();
     // Set static field: static private System.String cloneDestroyedMessage
     static void _set_cloneDestroyedMessage(::Il2CppString* value);
+    // Get instance field: private System.IntPtr m_CachedPtr
+    System::IntPtr _get_m_CachedPtr();
+    // Set instance field: private System.IntPtr m_CachedPtr
+    void _set_m_CachedPtr(System::IntPtr value);
     // public System.String get_name()
     // Offset: 0x1CF62C4
     ::Il2CppString* get_name();

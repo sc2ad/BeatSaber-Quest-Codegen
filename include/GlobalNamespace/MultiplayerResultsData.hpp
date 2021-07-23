@@ -65,6 +65,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
     // Creating value type constructor for type: MultiplayerResultsData
     MultiplayerResultsData(::Il2CppString* gameId_ = {}, GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData_ = {}) noexcept : gameId{gameId_}, localPlayerResultData{localPlayerResultData_}, otherPlayersData{otherPlayersData_}, allPlayersSortedData{allPlayersSortedData_} {}
+    // Get instance field: private readonly System.String _gameId
+    ::Il2CppString* _get__gameId();
+    // Set instance field: private readonly System.String _gameId
+    void _set__gameId(::Il2CppString* value);
+    // Get instance field: private readonly MultiplayerPlayerResultsData _localPlayerResultData
+    GlobalNamespace::MultiplayerPlayerResultsData* _get__localPlayerResultData();
+    // Set instance field: private readonly MultiplayerPlayerResultsData _localPlayerResultData
+    void _set__localPlayerResultData(GlobalNamespace::MultiplayerPlayerResultsData* value);
+    // Get instance field: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _otherPlayersData
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* _get__otherPlayersData();
+    // Set instance field: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _otherPlayersData
+    void _set__otherPlayersData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _allPlayersSortedData
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* _get__allPlayersSortedData();
+    // Set instance field: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _allPlayersSortedData
+    void _set__allPlayersSortedData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* value);
     // public System.String get_gameId()
     // Offset: 0x10049C8
     ::Il2CppString* get_gameId();

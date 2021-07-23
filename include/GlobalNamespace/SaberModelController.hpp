@@ -86,6 +86,30 @@ namespace GlobalNamespace {
     SaberModelController(GlobalNamespace::SaberTrail* saberTrail_ = {}, ::Array<GlobalNamespace::SetSaberGlowColor*>* setSaberGlowColors_ = {}, ::Array<GlobalNamespace::SetSaberFakeGlowColor*>* setSaberFakeGlowColors_ = {}, GlobalNamespace::TubeBloomPrePassLight* saberLight_ = {}, GlobalNamespace::SaberModelController::InitData* initData_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}) noexcept : saberTrail{saberTrail_}, setSaberGlowColors{setSaberGlowColors_}, setSaberFakeGlowColors{setSaberFakeGlowColors_}, saberLight{saberLight_}, initData{initData_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private SaberTrail _saberTrail
+    GlobalNamespace::SaberTrail* _get__saberTrail();
+    // Set instance field: private SaberTrail _saberTrail
+    void _set__saberTrail(GlobalNamespace::SaberTrail* value);
+    // Get instance field: private SetSaberGlowColor[] _setSaberGlowColors
+    ::Array<GlobalNamespace::SetSaberGlowColor*>* _get__setSaberGlowColors();
+    // Set instance field: private SetSaberGlowColor[] _setSaberGlowColors
+    void _set__setSaberGlowColors(::Array<GlobalNamespace::SetSaberGlowColor*>* value);
+    // Get instance field: private SetSaberFakeGlowColor[] _setSaberFakeGlowColors
+    ::Array<GlobalNamespace::SetSaberFakeGlowColor*>* _get__setSaberFakeGlowColors();
+    // Set instance field: private SetSaberFakeGlowColor[] _setSaberFakeGlowColors
+    void _set__setSaberFakeGlowColors(::Array<GlobalNamespace::SetSaberFakeGlowColor*>* value);
+    // Get instance field: private TubeBloomPrePassLight _saberLight
+    GlobalNamespace::TubeBloomPrePassLight* _get__saberLight();
+    // Set instance field: private TubeBloomPrePassLight _saberLight
+    void _set__saberLight(GlobalNamespace::TubeBloomPrePassLight* value);
+    // Get instance field: private readonly SaberModelController/InitData _initData
+    GlobalNamespace::SaberModelController::InitData* _get__initData();
+    // Set instance field: private readonly SaberModelController/InitData _initData
+    void _set__initData(GlobalNamespace::SaberModelController::InitData* value);
+    // Get instance field: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private readonly ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
     // public System.Void Init(UnityEngine.Transform parent, Saber saber)
     // Offset: 0x114BA30
     void Init(UnityEngine::Transform* parent, GlobalNamespace::Saber* saber);

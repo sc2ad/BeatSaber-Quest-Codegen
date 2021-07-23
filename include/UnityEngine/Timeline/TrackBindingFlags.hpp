@@ -50,6 +50,10 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::TrackBindingFlags _get_All();
     // Set static field: static public UnityEngine.Timeline.TrackBindingFlags All
     static void _set_All(UnityEngine::Timeline::TrackBindingFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Timeline.TrackBindingFlags
   #pragma pack(pop)
   static check_size<sizeof(TrackBindingFlags), 0 + sizeof(int)> __UnityEngine_Timeline_TrackBindingFlagsSizeCheck;

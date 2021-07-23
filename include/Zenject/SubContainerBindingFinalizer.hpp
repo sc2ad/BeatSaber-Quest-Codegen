@@ -77,6 +77,18 @@ namespace Zenject {
     SubContainerBindingFinalizer(::Il2CppObject* subIdentifier_ = {}, bool resolveAll_ = {}, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory_ = {}) noexcept : subIdentifier{subIdentifier_}, resolveAll{resolveAll_}, creatorFactory{creatorFactory_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
+    // Get instance field: private readonly System.Object _subIdentifier
+    ::Il2CppObject* _get__subIdentifier();
+    // Set instance field: private readonly System.Object _subIdentifier
+    void _set__subIdentifier(::Il2CppObject* value);
+    // Get instance field: private readonly System.Boolean _resolveAll
+    bool _get__resolveAll();
+    // Set instance field: private readonly System.Boolean _resolveAll
+    void _set__resolveAll(bool value);
+    // Get instance field: private readonly System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> _creatorFactory
+    System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* _get__creatorFactory();
+    // Set instance field: private readonly System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> _creatorFactory
+    void _set__creatorFactory(System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Object subIdentifier, System.Boolean resolveAll, System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> creatorFactory)
     // Offset: 0x16CFC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

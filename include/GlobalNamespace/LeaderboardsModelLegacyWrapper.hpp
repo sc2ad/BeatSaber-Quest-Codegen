@@ -56,6 +56,10 @@ namespace GlobalNamespace {
     constexpr operator OnlineServices::ILeaderboardsModel*() const noexcept {
       return leaderboardsModel;
     }
+    // Get instance field: private OnlineServices.ILeaderboardsModel _leaderboardsModel
+    OnlineServices::ILeaderboardsModel* _get__leaderboardsModel();
+    // Set instance field: private OnlineServices.ILeaderboardsModel _leaderboardsModel
+    void _set__leaderboardsModel(OnlineServices::ILeaderboardsModel* value);
     // private System.Void GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     // Offset: 0x10F096C
     void GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* asyncRequest, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);

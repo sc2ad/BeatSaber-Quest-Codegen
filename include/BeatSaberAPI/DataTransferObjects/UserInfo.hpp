@@ -31,6 +31,14 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: UserInfo
     UserInfo(::Il2CppString* platformUserId_ = {}, ::Il2CppString* publicPlatformDisplayName_ = {}) noexcept : platformUserId{platformUserId_}, publicPlatformDisplayName{publicPlatformDisplayName_} {}
+    // Get instance field: public System.String platformUserId
+    ::Il2CppString* _get_platformUserId();
+    // Set instance field: public System.String platformUserId
+    void _set_platformUserId(::Il2CppString* value);
+    // Get instance field: public System.String publicPlatformDisplayName
+    ::Il2CppString* _get_publicPlatformDisplayName();
+    // Set instance field: public System.String publicPlatformDisplayName
+    void _set_publicPlatformDisplayName(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1188648
     // Implemented from: System.Object

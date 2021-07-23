@@ -35,6 +35,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
     // Creating value type constructor for type: StandardGameplayInstaller
     StandardGameplayInstaller(GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData_ = {}) noexcept : standardSceneSetupData{standardSceneSetupData_} {}
+    // Get instance field: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
+    GlobalNamespace::StandardGameplaySceneSetupData* _get__standardSceneSetupData();
+    // Set instance field: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
+    void _set__standardSceneSetupData(GlobalNamespace::StandardGameplaySceneSetupData* value);
     // public System.Void .ctor()
     // Offset: 0x105F3AC
     // Implemented from: Zenject.MonoInstaller

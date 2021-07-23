@@ -75,6 +75,38 @@ namespace System::Security::Cryptography {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Byte[] P
+    ::Array<uint8_t>* _get_P();
+    // Set instance field: public System.Byte[] P
+    void _set_P(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] Q
+    ::Array<uint8_t>* _get_Q();
+    // Set instance field: public System.Byte[] Q
+    void _set_Q(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] G
+    ::Array<uint8_t>* _get_G();
+    // Set instance field: public System.Byte[] G
+    void _set_G(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] Y
+    ::Array<uint8_t>* _get_Y();
+    // Set instance field: public System.Byte[] Y
+    void _set_Y(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] J
+    ::Array<uint8_t>* _get_J();
+    // Set instance field: public System.Byte[] J
+    void _set_J(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] X
+    ::Array<uint8_t>* _get_X();
+    // Set instance field: public System.Byte[] X
+    void _set_X(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] Seed
+    ::Array<uint8_t>* _get_Seed();
+    // Set instance field: public System.Byte[] Seed
+    void _set_Seed(::Array<uint8_t>* value);
+    // Get instance field: public System.Int32 Counter
+    int _get_Counter();
+    // Set instance field: public System.Int32 Counter
+    void _set_Counter(int value);
   }; // System.Security.Cryptography.DSAParameters
   #pragma pack(pop)
   static check_size<sizeof(DSAParameters), 56 + sizeof(int)> __System_Security_Cryptography_DSAParametersSizeCheck;

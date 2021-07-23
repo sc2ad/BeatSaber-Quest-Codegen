@@ -45,6 +45,14 @@ namespace Zenject::Internal {
     static_assert(sizeof(System::Collections::Generic::HashSet_1<System::Type*>*) == 0x8);
     // Creating value type constructor for type: SingletonMarkRegistry
     SingletonMarkRegistry(System::Collections::Generic::HashSet_1<System::Type*>* boundSingletons_ = {}, System::Collections::Generic::HashSet_1<System::Type*>* boundNonSingletons_ = {}) noexcept : boundSingletons{boundSingletons_}, boundNonSingletons{boundNonSingletons_} {}
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundSingletons
+    System::Collections::Generic::HashSet_1<System::Type*>* _get__boundSingletons();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundSingletons
+    void _set__boundSingletons(System::Collections::Generic::HashSet_1<System::Type*>* value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons
+    System::Collections::Generic::HashSet_1<System::Type*>* _get__boundNonSingletons();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons
+    void _set__boundNonSingletons(System::Collections::Generic::HashSet_1<System::Type*>* value);
     // public System.Void MarkNonSingleton(System.Type type)
     // Offset: 0x162AB10
     void MarkNonSingleton(System::Type* type);

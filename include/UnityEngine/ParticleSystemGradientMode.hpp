@@ -61,6 +61,10 @@ namespace UnityEngine {
     static UnityEngine::ParticleSystemGradientMode _get_RandomColor();
     // Set static field: static public UnityEngine.ParticleSystemGradientMode RandomColor
     static void _set_RandomColor(UnityEngine::ParticleSystemGradientMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ParticleSystemGradientMode
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystemGradientMode), 0 + sizeof(int)> __UnityEngine_ParticleSystemGradientModeSizeCheck;

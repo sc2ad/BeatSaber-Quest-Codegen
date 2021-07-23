@@ -56,6 +56,26 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVRPlugin/SkeletonType Type
+    GlobalNamespace::OVRPlugin::SkeletonType _get_Type();
+    // Set instance field: public OVRPlugin/SkeletonType Type
+    void _set_Type(GlobalNamespace::OVRPlugin::SkeletonType value);
+    // Get instance field: public System.UInt32 NumBones
+    uint _get_NumBones();
+    // Set instance field: public System.UInt32 NumBones
+    void _set_NumBones(uint value);
+    // Get instance field: public System.UInt32 NumBoneCapsules
+    uint _get_NumBoneCapsules();
+    // Set instance field: public System.UInt32 NumBoneCapsules
+    void _set_NumBoneCapsules(uint value);
+    // Get instance field: public OVRPlugin/Bone[] Bones
+    ::Array<GlobalNamespace::OVRPlugin::Bone>* _get_Bones();
+    // Set instance field: public OVRPlugin/Bone[] Bones
+    void _set_Bones(::Array<GlobalNamespace::OVRPlugin::Bone>* value);
+    // Get instance field: public OVRPlugin/BoneCapsule[] BoneCapsules
+    ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* _get_BoneCapsules();
+    // Set instance field: public OVRPlugin/BoneCapsule[] BoneCapsules
+    void _set_BoneCapsules(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* value);
   }; // OVRPlugin/Skeleton2
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Skeleton2), 24 + sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*)> __GlobalNamespace_OVRPlugin_Skeleton2SizeCheck;

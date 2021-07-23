@@ -191,6 +191,82 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.TableView _tableView
+    HMUI::TableView* _get__tableView();
+    // Set instance field: private HMUI.TableView _tableView
+    void _set__tableView(HMUI::TableView* value);
+    // Get instance field: private HMUI.AlphabetScrollbar _alphabetScrollbar
+    HMUI::AlphabetScrollbar* _get__alphabetScrollbar();
+    // Set instance field: private HMUI.AlphabetScrollbar _alphabetScrollbar
+    void _set__alphabetScrollbar(HMUI::AlphabetScrollbar* value);
+    // Get instance field: private LevelListTableCell _levelCellPrefab
+    GlobalNamespace::LevelListTableCell* _get__levelCellPrefab();
+    // Set instance field: private LevelListTableCell _levelCellPrefab
+    void _set__levelCellPrefab(GlobalNamespace::LevelListTableCell* value);
+    // Get instance field: private System.String _levelCellsReuseIdentifier
+    ::Il2CppString* _get__levelCellsReuseIdentifier();
+    // Set instance field: private System.String _levelCellsReuseIdentifier
+    void _set__levelCellsReuseIdentifier(::Il2CppString* value);
+    // Get instance field: private LevelPackHeaderTableCell _packCellPrefab
+    GlobalNamespace::LevelPackHeaderTableCell* _get__packCellPrefab();
+    // Set instance field: private LevelPackHeaderTableCell _packCellPrefab
+    void _set__packCellPrefab(GlobalNamespace::LevelPackHeaderTableCell* value);
+    // Get instance field: private System.String _packCellsReuseIdentifier
+    ::Il2CppString* _get__packCellsReuseIdentifier();
+    // Set instance field: private System.String _packCellsReuseIdentifier
+    void _set__packCellsReuseIdentifier(::Il2CppString* value);
+    // Get instance field: private System.Single _cellHeight
+    float _get__cellHeight();
+    // Set instance field: private System.Single _cellHeight
+    void _set__cellHeight(float value);
+    // Get instance field: private System.Int32 _showAlphabetScrollbarLevelCountThreshold
+    int _get__showAlphabetScrollbarLevelCountThreshold();
+    // Set instance field: private System.Int32 _showAlphabetScrollbarLevelCountThreshold
+    void _set__showAlphabetScrollbarLevelCountThreshold(int value);
+    // Get instance field: private AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
+    // Set instance field: private AdditionalContentModel _additionalContentModel
+    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
+    // Get instance field: private System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> didSelectLevelEvent
+    System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* _get_didSelectLevelEvent();
+    // Set instance field: private System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> didSelectLevelEvent
+    void _set_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
+    // Get instance field: private System.Action`1<LevelCollectionTableView> didSelectHeaderEvent
+    System::Action_1<GlobalNamespace::LevelCollectionTableView*>* _get_didSelectHeaderEvent();
+    // Set instance field: private System.Action`1<LevelCollectionTableView> didSelectHeaderEvent
+    void _set_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView*>* value);
+    // Get instance field: private System.Boolean _isInitialized
+    bool _get__isInitialized();
+    // Set instance field: private System.Boolean _isInitialized
+    void _set__isInitialized(bool value);
+    // Get instance field: private IPreviewBeatmapLevel[] _previewBeatmapLevels
+    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* _get__previewBeatmapLevels();
+    // Set instance field: private IPreviewBeatmapLevel[] _previewBeatmapLevels
+    void _set__previewBeatmapLevels(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* value);
+    // Get instance field: private UnityEngine.Sprite _headerSprite
+    UnityEngine::Sprite* _get__headerSprite();
+    // Set instance field: private UnityEngine.Sprite _headerSprite
+    void _set__headerSprite(UnityEngine::Sprite* value);
+    // Get instance field: private System.String _headerText
+    ::Il2CppString* _get__headerText();
+    // Set instance field: private System.String _headerText
+    void _set__headerText(::Il2CppString* value);
+    // Get instance field: private System.Boolean _showLevelPackHeader
+    bool _get__showLevelPackHeader();
+    // Set instance field: private System.Boolean _showLevelPackHeader
+    void _set__showLevelPackHeader(bool value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> _favoriteLevelIds
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__favoriteLevelIds();
+    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _favoriteLevelIds
+    void _set__favoriteLevelIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field: private System.Int32 _selectedRow
+    int _get__selectedRow();
+    // Set instance field: private System.Int32 _selectedRow
+    void _set__selectedRow(int value);
+    // Get instance field: private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel* _get__selectedPreviewBeatmapLevel();
+    // Set instance field: private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
+    void _set__selectedPreviewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
     // Offset: 0x10F3CB0
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* value);

@@ -43,6 +43,10 @@ namespace UnityEngine::TestTools::TestRunner {
     constexpr operator UnityEngine::TestTools::Logging::LogMatch*() const noexcept {
       return LogEvent;
     }
+    // Get instance field: public UnityEngine.TestTools.Logging.LogMatch LogEvent
+    UnityEngine::TestTools::Logging::LogMatch* _get_LogEvent();
+    // Set instance field: public UnityEngine.TestTools.Logging.LogMatch LogEvent
+    void _set_LogEvent(UnityEngine::TestTools::Logging::LogMatch* value);
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogMatch log)
     // Offset: 0x23B4F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

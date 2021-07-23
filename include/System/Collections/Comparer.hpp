@@ -66,6 +66,10 @@ namespace System::Collections {
     static System::Collections::Comparer* _get_DefaultInvariant();
     // Set static field: static public readonly System.Collections.Comparer DefaultInvariant
     static void _set_DefaultInvariant(System::Collections::Comparer* value);
+    // Get instance field: private System.Globalization.CompareInfo m_compareInfo
+    System::Globalization::CompareInfo* _get_m_compareInfo();
+    // Set instance field: private System.Globalization.CompareInfo m_compareInfo
+    void _set_m_compareInfo(System::Globalization::CompareInfo* value);
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
     // Offset: 0x178B5BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

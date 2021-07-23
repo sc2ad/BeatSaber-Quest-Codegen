@@ -48,6 +48,14 @@ namespace GlobalNamespace {
     ConnectedPlayerName(TMPro::TextMeshProUGUI* nameText_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : nameText{nameText_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI* _get__nameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _nameText
+    void _set__nameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // protected System.Void Start()
     // Offset: 0x108117C
     void Start();

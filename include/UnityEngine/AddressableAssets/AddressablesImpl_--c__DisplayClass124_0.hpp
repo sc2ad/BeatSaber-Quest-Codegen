@@ -55,6 +55,14 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass124_0
     $$c__DisplayClass124_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, bool autoReleaseHandle_ = {}) noexcept : $$4__this{$$4__this_}, autoReleaseHandle{autoReleaseHandle_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
+    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: public System.Boolean autoReleaseHandle
+    bool _get_autoReleaseHandle();
+    // Set instance field: public System.Boolean autoReleaseHandle
+    void _set_autoReleaseHandle(bool value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>> <UpdateCatalogs>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<System.String>> depOp)
     // Offset: 0x13C39D8
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> $UpdateCatalogs$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> depOp);

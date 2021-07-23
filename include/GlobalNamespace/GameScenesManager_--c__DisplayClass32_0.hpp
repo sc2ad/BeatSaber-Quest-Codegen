@@ -94,6 +94,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass32_0
     $$c__DisplayClass32_0(GlobalNamespace::GameScenesManager* $$4__this_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* newSceneNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* emptyTransitionSceneNameList_ = {}, GlobalNamespace::GameScenesManager::ScenesStackData* scenesStackData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}, System::Action_1<Zenject::DiContainer*>* finishCallback_ = {}, System::Action_1<Zenject::DiContainer*>* $$9__1_ = {}, System::Action_1<Zenject::DiContainer*>* $$9__2_ = {}) noexcept : $$4__this{$$4__this_}, newSceneNames{newSceneNames_}, emptyTransitionSceneNameList{emptyTransitionSceneNameList_}, scenesStackData{scenesStackData_}, scenesTransitionSetupData{scenesTransitionSetupData_}, finishCallback{finishCallback_}, $$9__1{$$9__1_}, $$9__2{$$9__2_} {}
+    // Get instance field: public GameScenesManager <>4__this
+    GlobalNamespace::GameScenesManager* _get_$$4__this();
+    // Set instance field: public GameScenesManager <>4__this
+    void _set_$$4__this(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.String> newSceneNames
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_newSceneNames();
+    // Set instance field: public System.Collections.Generic.List`1<System.String> newSceneNames
+    void _set_newSceneNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_emptyTransitionSceneNameList();
+    // Set instance field: public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
+    void _set_emptyTransitionSceneNameList(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: public GameScenesManager/ScenesStackData scenesStackData
+    GlobalNamespace::GameScenesManager::ScenesStackData* _get_scenesStackData();
+    // Set instance field: public GameScenesManager/ScenesStackData scenesStackData
+    void _set_scenesStackData(GlobalNamespace::GameScenesManager::ScenesStackData* value);
+    // Get instance field: public ScenesTransitionSetupDataSO scenesTransitionSetupData
+    GlobalNamespace::ScenesTransitionSetupDataSO* _get_scenesTransitionSetupData();
+    // Set instance field: public ScenesTransitionSetupDataSO scenesTransitionSetupData
+    void _set_scenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
+    // Get instance field: public System.Action`1<Zenject.DiContainer> finishCallback
+    System::Action_1<Zenject::DiContainer*>* _get_finishCallback();
+    // Set instance field: public System.Action`1<Zenject.DiContainer> finishCallback
+    void _set_finishCallback(System::Action_1<Zenject::DiContainer*>* value);
+    // Get instance field: public System.Action`1<Zenject.DiContainer> <>9__1
+    System::Action_1<Zenject::DiContainer*>* _get_$$9__1();
+    // Set instance field: public System.Action`1<Zenject.DiContainer> <>9__1
+    void _set_$$9__1(System::Action_1<Zenject::DiContainer*>* value);
+    // Get instance field: public System.Action`1<Zenject.DiContainer> <>9__2
+    System::Action_1<Zenject::DiContainer*>* _get_$$9__2();
+    // Set instance field: public System.Action`1<Zenject.DiContainer> <>9__2
+    void _set_$$9__2(System::Action_1<Zenject::DiContainer*>* value);
     // System.Void <ReplaceScenes>b__0(Zenject.DiContainer emptySceneContainer)
     // Offset: 0x12180F8
     void $ReplaceScenes$b__0(Zenject::DiContainer* emptySceneContainer);

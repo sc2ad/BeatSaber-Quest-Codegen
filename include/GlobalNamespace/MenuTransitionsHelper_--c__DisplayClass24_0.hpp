@@ -54,6 +54,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsData*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass24_0
     $$c__DisplayClass24_0(GlobalNamespace::MenuTransitionsHelper* $$4__this_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerResultsData* multiplayerResultsData_ = {}) noexcept : $$4__this{$$4__this_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, multiplayerResultsData{multiplayerResultsData_} {}
+    // Get instance field: public MenuTransitionsHelper <>4__this
+    GlobalNamespace::MenuTransitionsHelper* _get_$$4__this();
+    // Set instance field: public MenuTransitionsHelper <>4__this
+    void _set_$$4__this(GlobalNamespace::MenuTransitionsHelper* value);
+    // Get instance field: public MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData
+    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _get_multiplayerLevelScenesTransitionSetupData();
+    // Set instance field: public MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData
+    void _set_multiplayerLevelScenesTransitionSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: public MultiplayerResultsData multiplayerResultsData
+    GlobalNamespace::MultiplayerResultsData* _get_multiplayerResultsData();
+    // Set instance field: public MultiplayerResultsData multiplayerResultsData
+    void _set_multiplayerResultsData(GlobalNamespace::MultiplayerResultsData* value);
     // System.Void <HandleMultiplayerLevelDidFinish>b__0(Zenject.DiContainer container)
     // Offset: 0x1181A40
     void $HandleMultiplayerLevelDidFinish$b__0(Zenject::DiContainer* container);

@@ -43,6 +43,10 @@ namespace TMPro::SpriteAssetUtilities {
     static TMPro::SpriteAssetUtilities::SpriteAssetImportFormats _get_TexturePacker();
     // Set static field: static public TMPro.SpriteAssetUtilities.SpriteAssetImportFormats TexturePacker
     static void _set_TexturePacker(TMPro::SpriteAssetUtilities::SpriteAssetImportFormats value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.SpriteAssetUtilities.SpriteAssetImportFormats
   #pragma pack(pop)
   static check_size<sizeof(SpriteAssetImportFormats), 0 + sizeof(int)> __TMPro_SpriteAssetUtilities_SpriteAssetImportFormatsSizeCheck;

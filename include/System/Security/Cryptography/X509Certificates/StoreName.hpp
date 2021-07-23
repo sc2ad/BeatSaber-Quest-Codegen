@@ -79,6 +79,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::StoreName _get_TrustedPublisher();
     // Set static field: static public System.Security.Cryptography.X509Certificates.StoreName TrustedPublisher
     static void _set_TrustedPublisher(System::Security::Cryptography::X509Certificates::StoreName value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.X509Certificates.StoreName
   #pragma pack(pop)
   static check_size<sizeof(StoreName), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_StoreNameSizeCheck;

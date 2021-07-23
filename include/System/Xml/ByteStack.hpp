@@ -43,6 +43,22 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ByteStack
     ByteStack(::Array<uint8_t>* stack_ = {}, int growthRate_ = {}, int top_ = {}, int size_ = {}) noexcept : stack{stack_}, growthRate{growthRate_}, top{top_}, size{size_} {}
+    // Get instance field: private System.Byte[] stack
+    ::Array<uint8_t>* _get_stack();
+    // Set instance field: private System.Byte[] stack
+    void _set_stack(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 growthRate
+    int _get_growthRate();
+    // Set instance field: private System.Int32 growthRate
+    void _set_growthRate(int value);
+    // Get instance field: private System.Int32 top
+    int _get_top();
+    // Set instance field: private System.Int32 top
+    void _set_top(int value);
+    // Get instance field: private System.Int32 size
+    int _get_size();
+    // Set instance field: private System.Int32 size
+    void _set_size(int value);
     // public System.Void .ctor(System.Int32 growthRate)
     // Offset: 0x18FE190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

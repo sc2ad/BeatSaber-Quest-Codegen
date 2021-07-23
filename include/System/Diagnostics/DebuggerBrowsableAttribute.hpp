@@ -35,6 +35,10 @@ namespace System::Diagnostics {
     constexpr operator System::Diagnostics::DebuggerBrowsableState() const noexcept {
       return state;
     }
+    // Get instance field: private System.Diagnostics.DebuggerBrowsableState state
+    System::Diagnostics::DebuggerBrowsableState _get_state();
+    // Set instance field: private System.Diagnostics.DebuggerBrowsableState state
+    void _set_state(System::Diagnostics::DebuggerBrowsableState value);
     // public System.Void .ctor(System.Diagnostics.DebuggerBrowsableState state)
     // Offset: 0x1B22728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

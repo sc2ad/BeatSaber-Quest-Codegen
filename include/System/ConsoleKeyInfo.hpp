@@ -50,6 +50,18 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Char _keyChar
+    ::Il2CppChar _get__keyChar();
+    // Set instance field: private System.Char _keyChar
+    void _set__keyChar(::Il2CppChar value);
+    // Get instance field: private System.ConsoleKey _key
+    System::ConsoleKey _get__key();
+    // Set instance field: private System.ConsoleKey _key
+    void _set__key(System::ConsoleKey value);
+    // Get instance field: private System.ConsoleModifiers _mods
+    System::ConsoleModifiers _get__mods();
+    // Set instance field: private System.ConsoleModifiers _mods
+    void _set__mods(System::ConsoleModifiers value);
     // public System.Char get_KeyChar()
     // Offset: 0xEEB3C0
     ::Il2CppChar get_KeyChar();

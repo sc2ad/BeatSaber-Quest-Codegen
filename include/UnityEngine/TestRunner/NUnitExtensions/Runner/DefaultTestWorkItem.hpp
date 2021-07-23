@@ -58,6 +58,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const noexcept {
       return command;
     }
+    // Get instance field: private NUnit.Framework.Internal.Commands.TestCommand _command
+    NUnit::Framework::Internal::Commands::TestCommand* _get__command();
+    // Set instance field: private NUnit.Framework.Internal.Commands.TestCommand _command
+    void _set__command(NUnit::Framework::Internal::Commands::TestCommand* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
     // Offset: 0x147E5D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

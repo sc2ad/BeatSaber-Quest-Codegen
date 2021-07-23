@@ -110,6 +110,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::Shape _get_Custom();
     // Set static field: static public UnityEngine.ProBuilder.Shape Custom
     static void _set_Custom(UnityEngine::ProBuilder::Shape value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.Shape
   #pragma pack(pop)
   static check_size<sizeof(Shape), 0 + sizeof(int)> __UnityEngine_ProBuilder_ShapeSizeCheck;

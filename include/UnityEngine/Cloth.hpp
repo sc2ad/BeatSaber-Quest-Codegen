@@ -42,6 +42,14 @@ namespace UnityEngine {
     Cloth(float useContinuousCollision_ = {}, bool selfCollision_ = {}) noexcept : useContinuousCollision{useContinuousCollision_}, selfCollision{selfCollision_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single <useContinuousCollision>k__BackingField
+    float _get_$useContinuousCollision$k__BackingField();
+    // Set instance field: private System.Single <useContinuousCollision>k__BackingField
+    void _set_$useContinuousCollision$k__BackingField(float value);
+    // Get instance field: private readonly System.Boolean <selfCollision>k__BackingField
+    bool _get_$selfCollision$k__BackingField();
+    // Set instance field: private readonly System.Boolean <selfCollision>k__BackingField
+    void _set_$selfCollision$k__BackingField(bool value);
     // public System.Void set_externalAcceleration(UnityEngine.Vector3 value)
     // Offset: 0x23CB194
     void set_externalAcceleration(UnityEngine::Vector3 value);

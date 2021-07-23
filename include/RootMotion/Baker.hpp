@@ -85,6 +85,10 @@ namespace RootMotion {
       static RootMotion::Baker::Mode _get_Realtime();
       // Set static field: static public RootMotion.Baker/RootMotion.Mode Realtime
       static void _set_Realtime(RootMotion::Baker::Mode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // RootMotion.Baker/RootMotion.Mode
     #pragma pack(pop)
     static check_size<sizeof(Baker::Mode), 0 + sizeof(int)> __RootMotion_Baker_ModeSizeCheck;
@@ -194,6 +198,62 @@ namespace RootMotion {
     Baker(int frameRate_ = {}, float keyReductionError_ = {}, RootMotion::Baker::Mode mode_ = {}, ::Array<UnityEngine::AnimationClip*>* animationClips_ = {}, ::Array<::Il2CppString*>* animationStates_ = {}, bool loop_ = {}, ::Il2CppString* saveToFolder_ = {}, ::Il2CppString* appendName_ = {}, ::Il2CppString* saveName_ = {}, bool isBaking_ = {}, float bakingProgress_ = {}, UnityEngine::Animator* animator_ = {}, UnityEngine::Playables::PlayableDirector* director_ = {}, float clipLength_ = {}) noexcept : frameRate{frameRate_}, keyReductionError{keyReductionError_}, mode{mode_}, animationClips{animationClips_}, animationStates{animationStates_}, loop{loop_}, saveToFolder{saveToFolder_}, appendName{appendName_}, saveName{saveName_}, isBaking{isBaking_}, bakingProgress{bakingProgress_}, animator{animator_}, director{director_}, clipLength{clipLength_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Int32 frameRate
+    int _get_frameRate();
+    // Set instance field: public System.Int32 frameRate
+    void _set_frameRate(int value);
+    // Get instance field: public System.Single keyReductionError
+    float _get_keyReductionError();
+    // Set instance field: public System.Single keyReductionError
+    void _set_keyReductionError(float value);
+    // Get instance field: public RootMotion.Baker/RootMotion.Mode mode
+    RootMotion::Baker::Mode _get_mode();
+    // Set instance field: public RootMotion.Baker/RootMotion.Mode mode
+    void _set_mode(RootMotion::Baker::Mode value);
+    // Get instance field: public UnityEngine.AnimationClip[] animationClips
+    ::Array<UnityEngine::AnimationClip*>* _get_animationClips();
+    // Set instance field: public UnityEngine.AnimationClip[] animationClips
+    void _set_animationClips(::Array<UnityEngine::AnimationClip*>* value);
+    // Get instance field: public System.String[] animationStates
+    ::Array<::Il2CppString*>* _get_animationStates();
+    // Set instance field: public System.String[] animationStates
+    void _set_animationStates(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.Boolean loop
+    bool _get_loop();
+    // Set instance field: public System.Boolean loop
+    void _set_loop(bool value);
+    // Get instance field: public System.String saveToFolder
+    ::Il2CppString* _get_saveToFolder();
+    // Set instance field: public System.String saveToFolder
+    void _set_saveToFolder(::Il2CppString* value);
+    // Get instance field: public System.String appendName
+    ::Il2CppString* _get_appendName();
+    // Set instance field: public System.String appendName
+    void _set_appendName(::Il2CppString* value);
+    // Get instance field: public System.String saveName
+    ::Il2CppString* _get_saveName();
+    // Set instance field: public System.String saveName
+    void _set_saveName(::Il2CppString* value);
+    // Get instance field: private System.Boolean <isBaking>k__BackingField
+    bool _get_$isBaking$k__BackingField();
+    // Set instance field: private System.Boolean <isBaking>k__BackingField
+    void _set_$isBaking$k__BackingField(bool value);
+    // Get instance field: private System.Single <bakingProgress>k__BackingField
+    float _get_$bakingProgress$k__BackingField();
+    // Set instance field: private System.Single <bakingProgress>k__BackingField
+    void _set_$bakingProgress$k__BackingField(float value);
+    // Get instance field: public UnityEngine.Animator animator
+    UnityEngine::Animator* _get_animator();
+    // Set instance field: public UnityEngine.Animator animator
+    void _set_animator(UnityEngine::Animator* value);
+    // Get instance field: public UnityEngine.Playables.PlayableDirector director
+    UnityEngine::Playables::PlayableDirector* _get_director();
+    // Set instance field: public UnityEngine.Playables.PlayableDirector director
+    void _set_director(UnityEngine::Playables::PlayableDirector* value);
+    // Get instance field: private System.Single <clipLength>k__BackingField
+    float _get_$clipLength$k__BackingField();
+    // Set instance field: private System.Single <clipLength>k__BackingField
+    void _set_$clipLength$k__BackingField(float value);
     // public System.Boolean get_isBaking()
     // Offset: 0x1CD34CC
     bool get_isBaking();

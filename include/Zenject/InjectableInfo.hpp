@@ -69,6 +69,30 @@ namespace Zenject {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: InjectableInfo
     InjectableInfo(bool Optional_ = {}, ::Il2CppObject* Identifier_ = {}, Zenject::InjectSources SourceType_ = {}, ::Il2CppString* MemberName_ = {}, System::Type* MemberType_ = {}, ::Il2CppObject* DefaultValue_ = {}) noexcept : Optional{Optional_}, Identifier{Identifier_}, SourceType{SourceType_}, MemberName{MemberName_}, MemberType{MemberType_}, DefaultValue{DefaultValue_} {}
+    // Get instance field: public readonly System.Boolean Optional
+    bool _get_Optional();
+    // Set instance field: public readonly System.Boolean Optional
+    void _set_Optional(bool value);
+    // Get instance field: public readonly System.Object Identifier
+    ::Il2CppObject* _get_Identifier();
+    // Set instance field: public readonly System.Object Identifier
+    void _set_Identifier(::Il2CppObject* value);
+    // Get instance field: public readonly Zenject.InjectSources SourceType
+    Zenject::InjectSources _get_SourceType();
+    // Set instance field: public readonly Zenject.InjectSources SourceType
+    void _set_SourceType(Zenject::InjectSources value);
+    // Get instance field: public readonly System.String MemberName
+    ::Il2CppString* _get_MemberName();
+    // Set instance field: public readonly System.String MemberName
+    void _set_MemberName(::Il2CppString* value);
+    // Get instance field: public readonly System.Type MemberType
+    System::Type* _get_MemberType();
+    // Set instance field: public readonly System.Type MemberType
+    void _set_MemberType(System::Type* value);
+    // Get instance field: public readonly System.Object DefaultValue
+    ::Il2CppObject* _get_DefaultValue();
+    // Set instance field: public readonly System.Object DefaultValue
+    void _set_DefaultValue(::Il2CppObject* value);
     // public System.Void .ctor(System.Boolean optional, System.Object identifier, System.String memberName, System.Type memberType, System.Object defaultValue, Zenject.InjectSources sourceType)
     // Offset: 0x23B2C6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

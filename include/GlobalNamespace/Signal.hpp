@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     Signal(System::Action* event_ = {}) noexcept : event{event_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Action _event
+    System::Action* _get__event();
+    // Set instance field: private System.Action _event
+    void _set__event(System::Action* value);
     // private System.Void add__event(System.Action value)
     // Offset: 0x2359624
     void add__event(System::Action* value);

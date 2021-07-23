@@ -94,6 +94,42 @@ namespace System::Security::Claims {
     static_assert(sizeof(System::Security::Claims::ClaimsIdentity*) == 0x8);
     // Creating value type constructor for type: Claim
     Claim(::Il2CppString* m_issuer_ = {}, ::Il2CppString* m_originalIssuer_ = {}, ::Il2CppString* m_type_ = {}, ::Il2CppString* m_value_ = {}, ::Il2CppString* m_valueType_ = {}, ::Array<uint8_t>* m_userSerializationData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* m_properties_ = {}, ::Il2CppObject* m_propertyLock_ = {}, System::Security::Claims::ClaimsIdentity* m_subject_ = {}) noexcept : m_issuer{m_issuer_}, m_originalIssuer{m_originalIssuer_}, m_type{m_type_}, m_value{m_value_}, m_valueType{m_valueType_}, m_userSerializationData{m_userSerializationData_}, m_properties{m_properties_}, m_propertyLock{m_propertyLock_}, m_subject{m_subject_} {}
+    // Get instance field: private System.String m_issuer
+    ::Il2CppString* _get_m_issuer();
+    // Set instance field: private System.String m_issuer
+    void _set_m_issuer(::Il2CppString* value);
+    // Get instance field: private System.String m_originalIssuer
+    ::Il2CppString* _get_m_originalIssuer();
+    // Set instance field: private System.String m_originalIssuer
+    void _set_m_originalIssuer(::Il2CppString* value);
+    // Get instance field: private System.String m_type
+    ::Il2CppString* _get_m_type();
+    // Set instance field: private System.String m_type
+    void _set_m_type(::Il2CppString* value);
+    // Get instance field: private System.String m_value
+    ::Il2CppString* _get_m_value();
+    // Set instance field: private System.String m_value
+    void _set_m_value(::Il2CppString* value);
+    // Get instance field: private System.String m_valueType
+    ::Il2CppString* _get_m_valueType();
+    // Set instance field: private System.String m_valueType
+    void _set_m_valueType(::Il2CppString* value);
+    // Get instance field: private System.Byte[] m_userSerializationData
+    ::Array<uint8_t>* _get_m_userSerializationData();
+    // Set instance field: private System.Byte[] m_userSerializationData
+    void _set_m_userSerializationData(::Array<uint8_t>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> m_properties
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_m_properties();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> m_properties
+    void _set_m_properties(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private System.Object m_propertyLock
+    ::Il2CppObject* _get_m_propertyLock();
+    // Set instance field: private System.Object m_propertyLock
+    void _set_m_propertyLock(::Il2CppObject* value);
+    // Get instance field: private System.Security.Claims.ClaimsIdentity m_subject
+    System::Security::Claims::ClaimsIdentity* _get_m_subject();
+    // Set instance field: private System.Security.Claims.ClaimsIdentity m_subject
+    void _set_m_subject(System::Security::Claims::ClaimsIdentity* value);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
     // Offset: 0x16908C0
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Properties();

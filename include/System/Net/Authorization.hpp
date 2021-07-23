@@ -39,6 +39,18 @@ namespace System::Net {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Authorization
     Authorization(::Il2CppString* m_Message_ = {}, bool m_Complete_ = {}, ::Il2CppString* ModuleAuthenticationType_ = {}) noexcept : m_Message{m_Message_}, m_Complete{m_Complete_}, ModuleAuthenticationType{ModuleAuthenticationType_} {}
+    // Get instance field: private System.String m_Message
+    ::Il2CppString* _get_m_Message();
+    // Set instance field: private System.String m_Message
+    void _set_m_Message(::Il2CppString* value);
+    // Get instance field: private System.Boolean m_Complete
+    bool _get_m_Complete();
+    // Set instance field: private System.Boolean m_Complete
+    void _set_m_Complete(bool value);
+    // Get instance field: System.String ModuleAuthenticationType
+    ::Il2CppString* _get_ModuleAuthenticationType();
+    // Set instance field: System.String ModuleAuthenticationType
+    void _set_ModuleAuthenticationType(::Il2CppString* value);
     // public System.String get_Message()
     // Offset: 0x1692F28
     ::Il2CppString* get_Message();

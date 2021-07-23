@@ -85,6 +85,10 @@ namespace RootMotion::FinalIK {
     static RootMotion::FinalIK::FullBodyBipedEffector _get_RightFoot();
     // Set static field: static public RootMotion.FinalIK.FullBodyBipedEffector RightFoot
     static void _set_RightFoot(RootMotion::FinalIK::FullBodyBipedEffector value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // RootMotion.FinalIK.FullBodyBipedEffector
   #pragma pack(pop)
   static check_size<sizeof(FullBodyBipedEffector), 0 + sizeof(int)> __RootMotion_FinalIK_FullBodyBipedEffectorSizeCheck;

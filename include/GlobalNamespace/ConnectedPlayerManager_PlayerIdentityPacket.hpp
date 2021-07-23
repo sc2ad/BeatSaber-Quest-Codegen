@@ -64,6 +64,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
+    // Get instance field: public PlayerStateHash playerState
+    GlobalNamespace::PlayerStateHash _get_playerState();
+    // Set instance field: public PlayerStateHash playerState
+    void _set_playerState(GlobalNamespace::PlayerStateHash value);
+    // Get instance field: public MultiplayerAvatarData playerAvatar
+    GlobalNamespace::MultiplayerAvatarData _get_playerAvatar();
+    // Set instance field: public MultiplayerAvatarData playerAvatar
+    void _set_playerAvatar(GlobalNamespace::MultiplayerAvatarData value);
     // static public PacketPool`1<ConnectedPlayerManager/PlayerIdentityPacket> get_pool()
     // Offset: 0x12BD4AC
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>* get_pool();

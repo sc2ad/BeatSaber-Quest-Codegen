@@ -44,6 +44,14 @@ namespace System::Net {
     static_assert(sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*) == 0x8);
     // Creating value type constructor for type: ServiceNameStore
     ServiceNameStore(System::Collections::Generic::List_1<::Il2CppString*>* serviceNames_ = {}, System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection_ = {}) noexcept : serviceNames{serviceNames_}, serviceNameCollection{serviceNameCollection_} {}
+    // Get instance field: private System.Collections.Generic.List`1<System.String> serviceNames
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_serviceNames();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> serviceNames
+    void _set_serviceNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
+    System::Security::Authentication::ExtendedProtection::ServiceNameCollection* _get_serviceNameCollection();
+    // Set instance field: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
+    void _set_serviceNameCollection(System::Security::Authentication::ExtendedProtection::ServiceNameCollection* value);
     // public System.Void .ctor()
     // Offset: 0x1469C9C
     // Implemented from: System.Object

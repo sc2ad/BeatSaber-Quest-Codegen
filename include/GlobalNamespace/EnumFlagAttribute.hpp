@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return enumName;
     }
+    // Get instance field: public System.String enumName
+    ::Il2CppString* _get_enumName();
+    // Set instance field: public System.String enumName
+    void _set_enumName(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
     // Offset: 0x12135CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

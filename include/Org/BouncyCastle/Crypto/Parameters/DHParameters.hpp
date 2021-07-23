@@ -79,6 +79,34 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger p
+    Org::BouncyCastle::Math::BigInteger* _get_p();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger p
+    void _set_p(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger g
+    Org::BouncyCastle::Math::BigInteger* _get_g();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger g
+    void _set_g(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger q
+    Org::BouncyCastle::Math::BigInteger* _get_q();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger q
+    void _set_q(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger j
+    Org::BouncyCastle::Math::BigInteger* _get_j();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger j
+    void _set_j(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly System.Int32 m
+    int _get_m();
+    // Set instance field: private readonly System.Int32 m
+    void _set_m(int value);
+    // Get instance field: private readonly System.Int32 l
+    int _get_l();
+    // Set instance field: private readonly System.Int32 l
+    void _set_l(int value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation
+    Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* _get_validation();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DHValidationParameters validation
+    void _set_validation(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* value);
     // public Org.BouncyCastle.Math.BigInteger get_P()
     // Offset: 0x1227114
     Org::BouncyCastle::Math::BigInteger* get_P();

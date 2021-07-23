@@ -48,6 +48,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ObstacleData
     ObstacleData(GlobalNamespace::ObstacleType obstacleType_ = {}, float duration_ = {}, int width_ = {}) noexcept : obstacleType{obstacleType_}, duration{duration_}, width{width_} {}
+    // Get instance field: private ObstacleType <obstacleType>k__BackingField
+    GlobalNamespace::ObstacleType _get_$obstacleType$k__BackingField();
+    // Set instance field: private ObstacleType <obstacleType>k__BackingField
+    void _set_$obstacleType$k__BackingField(GlobalNamespace::ObstacleType value);
+    // Get instance field: private System.Single <duration>k__BackingField
+    float _get_$duration$k__BackingField();
+    // Set instance field: private System.Single <duration>k__BackingField
+    void _set_$duration$k__BackingField(float value);
+    // Get instance field: private System.Int32 <width>k__BackingField
+    int _get_$width$k__BackingField();
+    // Set instance field: private System.Int32 <width>k__BackingField
+    void _set_$width$k__BackingField(int value);
     // public ObstacleType get_obstacleType()
     // Offset: 0x23B7A7C
     GlobalNamespace::ObstacleType get_obstacleType();

@@ -78,6 +78,10 @@ namespace UnityEngine::UI::CoroutineTween {
       static UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode _get_Alpha();
       // Set static field: static public UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode Alpha
       static void _set_Alpha(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode
     #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __UnityEngine_UI_CoroutineTween_ColorTween_ColorTweenModeSizeCheck;
@@ -128,6 +132,30 @@ namespace UnityEngine::UI::CoroutineTween {
     operator UnityEngine::UI::CoroutineTween::ITweenValue() noexcept {
       return *reinterpret_cast<UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
+    // Get instance field: private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenCallback m_Target
+    UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback* _get_m_Target();
+    // Set instance field: private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenCallback m_Target
+    void _set_m_Target(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback* value);
+    // Get instance field: private UnityEngine.Color m_StartColor
+    UnityEngine::Color _get_m_StartColor();
+    // Set instance field: private UnityEngine.Color m_StartColor
+    void _set_m_StartColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color m_TargetColor
+    UnityEngine::Color _get_m_TargetColor();
+    // Set instance field: private UnityEngine.Color m_TargetColor
+    void _set_m_TargetColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode m_TweenMode
+    UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode _get_m_TweenMode();
+    // Set instance field: private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode m_TweenMode
+    void _set_m_TweenMode(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
+    // Get instance field: private System.Single m_Duration
+    float _get_m_Duration();
+    // Set instance field: private System.Single m_Duration
+    void _set_m_Duration(float value);
+    // Get instance field: private System.Boolean m_IgnoreTimeScale
+    bool _get_m_IgnoreTimeScale();
+    // Set instance field: private System.Boolean m_IgnoreTimeScale
+    void _set_m_IgnoreTimeScale(bool value);
     // public UnityEngine.Color get_startColor()
     // Offset: 0xED648C
     UnityEngine::Color get_startColor();

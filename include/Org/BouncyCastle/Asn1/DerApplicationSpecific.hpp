@@ -50,6 +50,18 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: DerApplicationSpecific
     DerApplicationSpecific(bool isConstructed_ = {}, int tag_ = {}, ::Array<uint8_t>* octets_ = {}) noexcept : isConstructed{isConstructed_}, tag{tag_}, octets{octets_} {}
+    // Get instance field: private readonly System.Boolean isConstructed
+    bool _get_isConstructed();
+    // Set instance field: private readonly System.Boolean isConstructed
+    void _set_isConstructed(bool value);
+    // Get instance field: private readonly System.Int32 tag
+    int _get_tag();
+    // Set instance field: private readonly System.Int32 tag
+    void _set_tag(int value);
+    // Get instance field: private readonly System.Byte[] octets
+    ::Array<uint8_t>* _get_octets();
+    // Set instance field: private readonly System.Byte[] octets
+    void _set_octets(::Array<uint8_t>* value);
     // public System.Int32 get_ApplicationTag()
     // Offset: 0x16E6A14
     int get_ApplicationTag();

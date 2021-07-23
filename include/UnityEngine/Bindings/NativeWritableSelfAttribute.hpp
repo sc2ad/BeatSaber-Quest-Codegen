@@ -34,6 +34,10 @@ namespace UnityEngine::Bindings {
     constexpr operator bool() const noexcept {
       return WritableSelf;
     }
+    // Get instance field: private System.Boolean <WritableSelf>k__BackingField
+    bool _get_$WritableSelf$k__BackingField();
+    // Set instance field: private System.Boolean <WritableSelf>k__BackingField
+    void _set_$WritableSelf$k__BackingField(bool value);
     // public System.Void set_WritableSelf(System.Boolean value)
     // Offset: 0x23C20E4
     void set_WritableSelf(bool value);

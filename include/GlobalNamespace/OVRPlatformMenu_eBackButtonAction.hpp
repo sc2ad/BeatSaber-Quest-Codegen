@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlatformMenu::eBackButtonAction _get_SHORT_PRESS();
     // Set static field: static public OVRPlatformMenu/eBackButtonAction SHORT_PRESS
     static void _set_SHORT_PRESS(GlobalNamespace::OVRPlatformMenu::eBackButtonAction value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlatformMenu/eBackButtonAction
   #pragma pack(pop)
   static check_size<sizeof(OVRPlatformMenu::eBackButtonAction), 0 + sizeof(int)> __GlobalNamespace_OVRPlatformMenu_eBackButtonActionSizeCheck;

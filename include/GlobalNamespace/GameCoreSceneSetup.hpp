@@ -56,6 +56,18 @@ namespace GlobalNamespace {
     static float _get_kPauseButtonPressDurationMultiplier();
     // Set static field: static private System.Single kPauseButtonPressDurationMultiplier
     static void _set_kPauseButtonPressDurationMultiplier(float value);
+    // Get instance field: private ScreenCaptureAfterDelay _screenCaptureAfterDelayPrefab
+    GlobalNamespace::ScreenCaptureAfterDelay* _get__screenCaptureAfterDelayPrefab();
+    // Set instance field: private ScreenCaptureAfterDelay _screenCaptureAfterDelayPrefab
+    void _set__screenCaptureAfterDelayPrefab(GlobalNamespace::ScreenCaptureAfterDelay* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private BloomFogSO _bloomFog
+    GlobalNamespace::BloomFogSO* _get__bloomFog();
+    // Set instance field: private BloomFogSO _bloomFog
+    void _set__bloomFog(GlobalNamespace::BloomFogSO* value);
     // public System.Void .ctor()
     // Offset: 0x102DB88
     // Implemented from: Zenject.MonoInstaller

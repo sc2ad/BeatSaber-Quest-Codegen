@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     FollowLocalRotation(UnityEngine::Transform* target_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : target{target_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Transform _target
+    UnityEngine::Transform* _get__target();
+    // Set instance field: public UnityEngine.Transform _target
+    void _set__target(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
     // protected System.Void Awake()
     // Offset: 0x1215D6C
     void Awake();

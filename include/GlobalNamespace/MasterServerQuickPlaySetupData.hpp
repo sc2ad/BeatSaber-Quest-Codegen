@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*() const noexcept {
       return quickPlayAvailablePacksOverride;
     }
+    // Get instance field: public MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
+    GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* _get_quickPlayAvailablePacksOverride();
+    // Set instance field: public MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
+    void _set_quickPlayAvailablePacksOverride(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* value);
     // public System.Boolean get_hasOverride()
     // Offset: 0x117F40C
     bool get_hasOverride();

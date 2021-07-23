@@ -50,6 +50,14 @@ namespace UnityEngine::TestTools::Utils {
     static System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* _get_m_LoadedAssemblies();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static void _set_m_LoadedAssemblies(System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* value);
+    // Get instance field: private UnityEngine.TestTools.Utils.IAssemblyLoadProxy m_AssemblyLoadProxy
+    UnityEngine::TestTools::Utils::IAssemblyLoadProxy* _get_m_AssemblyLoadProxy();
+    // Set instance field: private UnityEngine.TestTools.Utils.IAssemblyLoadProxy m_AssemblyLoadProxy
+    void _set_m_AssemblyLoadProxy(UnityEngine::TestTools::Utils::IAssemblyLoadProxy* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<System.String> m_AssembliesToLoad
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_AssembliesToLoad();
+    // Set instance field: private readonly System.Collections.Generic.List`1<System.String> m_AssembliesToLoad
+    void _set_m_AssembliesToLoad(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // System.Void .ctor(UnityEngine.TestTools.Utils.IAssemblyLoadProxy assemblyLoadProxy, System.Collections.Generic.List`1<System.String> assembliesToLoad)
     // Offset: 0x23B5E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -123,6 +123,38 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected UnityEngine.RectOffset m_Padding
+    UnityEngine::RectOffset* _get_m_Padding();
+    // Set instance field: protected UnityEngine.RectOffset m_Padding
+    void _set_m_Padding(UnityEngine::RectOffset* value);
+    // Get instance field: protected UnityEngine.TextAnchor m_ChildAlignment
+    UnityEngine::TextAnchor _get_m_ChildAlignment();
+    // Set instance field: protected UnityEngine.TextAnchor m_ChildAlignment
+    void _set_m_ChildAlignment(UnityEngine::TextAnchor value);
+    // Get instance field: private UnityEngine.RectTransform m_Rect
+    UnityEngine::RectTransform* _get_m_Rect();
+    // Set instance field: private UnityEngine.RectTransform m_Rect
+    void _set_m_Rect(UnityEngine::RectTransform* value);
+    // Get instance field: protected UnityEngine.DrivenRectTransformTracker m_Tracker
+    UnityEngine::DrivenRectTransformTracker _get_m_Tracker();
+    // Set instance field: protected UnityEngine.DrivenRectTransformTracker m_Tracker
+    void _set_m_Tracker(UnityEngine::DrivenRectTransformTracker value);
+    // Get instance field: private UnityEngine.Vector2 m_TotalMinSize
+    UnityEngine::Vector2 _get_m_TotalMinSize();
+    // Set instance field: private UnityEngine.Vector2 m_TotalMinSize
+    void _set_m_TotalMinSize(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 m_TotalPreferredSize
+    UnityEngine::Vector2 _get_m_TotalPreferredSize();
+    // Set instance field: private UnityEngine.Vector2 m_TotalPreferredSize
+    void _set_m_TotalPreferredSize(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 m_TotalFlexibleSize
+    UnityEngine::Vector2 _get_m_TotalFlexibleSize();
+    // Set instance field: private UnityEngine.Vector2 m_TotalFlexibleSize
+    void _set_m_TotalFlexibleSize(UnityEngine::Vector2 value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.RectTransform> m_RectChildren
+    System::Collections::Generic::List_1<UnityEngine::RectTransform*>* _get_m_RectChildren();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.RectTransform> m_RectChildren
+    void _set_m_RectChildren(System::Collections::Generic::List_1<UnityEngine::RectTransform*>* value);
     // public UnityEngine.RectOffset get_padding()
     // Offset: 0x197C95C
     UnityEngine::RectOffset* get_padding();

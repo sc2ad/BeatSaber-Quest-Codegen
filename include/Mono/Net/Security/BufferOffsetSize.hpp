@@ -49,6 +49,26 @@ namespace Mono::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BufferOffsetSize
     BufferOffsetSize(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Size_ = {}, int TotalBytes_ = {}, bool Complete_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, TotalBytes{TotalBytes_}, Complete{Complete_} {}
+    // Get instance field: public System.Byte[] Buffer
+    ::Array<uint8_t>* _get_Buffer();
+    // Set instance field: public System.Byte[] Buffer
+    void _set_Buffer(::Array<uint8_t>* value);
+    // Get instance field: public System.Int32 Offset
+    int _get_Offset();
+    // Set instance field: public System.Int32 Offset
+    void _set_Offset(int value);
+    // Get instance field: public System.Int32 Size
+    int _get_Size();
+    // Set instance field: public System.Int32 Size
+    void _set_Size(int value);
+    // Get instance field: public System.Int32 TotalBytes
+    int _get_TotalBytes();
+    // Set instance field: public System.Int32 TotalBytes
+    void _set_TotalBytes(int value);
+    // Get instance field: public System.Boolean Complete
+    bool _get_Complete();
+    // Set instance field: public System.Boolean Complete
+    void _set_Complete(bool value);
     // public System.Int32 get_EndOffset()
     // Offset: 0x15AB2F4
     int get_EndOffset();

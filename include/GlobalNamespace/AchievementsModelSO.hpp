@@ -58,6 +58,18 @@ namespace GlobalNamespace {
     AchievementsModelSO(GlobalNamespace::PlatformAchievementsModelSO* platformAchievementsModel_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* unlockedAchievementIds_ = {}, bool initialized_ = {}) noexcept : platformAchievementsModel{platformAchievementsModel_}, unlockedAchievementIds{unlockedAchievementIds_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private PlatformAchievementsModelSO _platformAchievementsModel
+    GlobalNamespace::PlatformAchievementsModelSO* _get__platformAchievementsModel();
+    // Set instance field: private PlatformAchievementsModelSO _platformAchievementsModel
+    void _set__platformAchievementsModel(GlobalNamespace::PlatformAchievementsModelSO* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<System.String> _unlockedAchievementIds
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__unlockedAchievementIds();
+    // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _unlockedAchievementIds
+    void _set__unlockedAchievementIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
     // public System.Void Initialize()
     // Offset: 0x10D4BE4
     void Initialize();

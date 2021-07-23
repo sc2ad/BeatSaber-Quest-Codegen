@@ -40,6 +40,10 @@ namespace System::Text {
     constexpr operator int() const noexcept {
       return surrogateChar;
     }
+    // Get instance field: System.Int32 surrogateChar
+    int _get_surrogateChar();
+    // Set instance field: System.Int32 surrogateChar
+    void _set_surrogateChar(int value);
     // public System.Void .ctor(System.Text.UTF8Encoding encoding)
     // Offset: 0x189D0D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

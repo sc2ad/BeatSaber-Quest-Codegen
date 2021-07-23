@@ -41,6 +41,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator int() const noexcept {
       return delCount;
     }
+    // Get instance field: public System.Int32 delCount
+    int _get_delCount();
+    // Set instance field: public System.Int32 delCount
+    void _set_delCount(int value);
     // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
     // Offset: 0x1513980
     UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(UnityEngine::ProBuilder::EdgeLookup x);

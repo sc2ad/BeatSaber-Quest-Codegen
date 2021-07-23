@@ -45,6 +45,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
     // Creating value type constructor for type: MusicPackPromoInfo
     MusicPackPromoInfo(GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack_ = {}, UnityEngine::Sprite* bannerImage_ = {}) noexcept : previewBeatmapLevelPack{previewBeatmapLevelPack_}, bannerImage{bannerImage_} {}
+    // Get instance field: private PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
+    GlobalNamespace::PreviewBeatmapLevelPackSO* _get__previewBeatmapLevelPack();
+    // Set instance field: private PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
+    void _set__previewBeatmapLevelPack(GlobalNamespace::PreviewBeatmapLevelPackSO* value);
+    // Get instance field: private UnityEngine.Sprite _bannerImage
+    UnityEngine::Sprite* _get__bannerImage();
+    // Set instance field: private UnityEngine.Sprite _bannerImage
+    void _set__bannerImage(UnityEngine::Sprite* value);
     // public PreviewBeatmapLevelPackSO get_previewBeatmapLevelPack()
     // Offset: 0x108ADF0
     GlobalNamespace::PreviewBeatmapLevelPackSO* get_previewBeatmapLevelPack();

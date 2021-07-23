@@ -77,6 +77,34 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
     // Creating value type constructor for type: BinaryMethodCall
     BinaryMethodCall(::Il2CppString* methodName_ = {}, ::Il2CppString* typeName_ = {}, ::Array<::Il2CppObject*>* args_ = {}, ::Il2CppObject* callContext_ = {}, ::Array<System::Type*>* argTypes_ = {}, bool bArgsPrimitive_ = {}, System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum_ = {}) noexcept : methodName{methodName_}, typeName{typeName_}, args{args_}, callContext{callContext_}, argTypes{argTypes_}, bArgsPrimitive{bArgsPrimitive_}, messageEnum{messageEnum_} {}
+    // Get instance field: private System.String methodName
+    ::Il2CppString* _get_methodName();
+    // Set instance field: private System.String methodName
+    void _set_methodName(::Il2CppString* value);
+    // Get instance field: private System.String typeName
+    ::Il2CppString* _get_typeName();
+    // Set instance field: private System.String typeName
+    void _set_typeName(::Il2CppString* value);
+    // Get instance field: private System.Object[] args
+    ::Array<::Il2CppObject*>* _get_args();
+    // Set instance field: private System.Object[] args
+    void _set_args(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.Object callContext
+    ::Il2CppObject* _get_callContext();
+    // Set instance field: private System.Object callContext
+    void _set_callContext(::Il2CppObject* value);
+    // Get instance field: private System.Type[] argTypes
+    ::Array<System::Type*>* _get_argTypes();
+    // Set instance field: private System.Type[] argTypes
+    void _set_argTypes(::Array<System::Type*>* value);
+    // Get instance field: private System.Boolean bArgsPrimitive
+    bool _get_bArgsPrimitive();
+    // Set instance field: private System.Boolean bArgsPrimitive
+    void _set_bArgsPrimitive(bool value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
+    System::Runtime::Serialization::Formatters::Binary::MessageEnum _get_messageEnum();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
+    void _set_messageEnum(System::Runtime::Serialization::Formatters::Binary::MessageEnum value);
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x15D9C20
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);

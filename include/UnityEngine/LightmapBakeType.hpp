@@ -50,6 +50,10 @@ namespace UnityEngine {
     static UnityEngine::LightmapBakeType _get_Mixed();
     // Set static field: static public UnityEngine.LightmapBakeType Mixed
     static void _set_Mixed(UnityEngine::LightmapBakeType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.LightmapBakeType
   #pragma pack(pop)
   static check_size<sizeof(LightmapBakeType), 0 + sizeof(int)> __UnityEngine_LightmapBakeTypeSizeCheck;

@@ -138,6 +138,62 @@ namespace UnityEngine {
     static UnityEngine::GUIStyle* _get_s_None();
     // Set static field: static private UnityEngine.GUIStyle s_None
     static void _set_s_None(UnityEngine::GUIStyle* value);
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: private UnityEngine.GUIStyleState m_Normal
+    UnityEngine::GUIStyleState* _get_m_Normal();
+    // Set instance field: private UnityEngine.GUIStyleState m_Normal
+    void _set_m_Normal(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.GUIStyleState m_Hover
+    UnityEngine::GUIStyleState* _get_m_Hover();
+    // Set instance field: private UnityEngine.GUIStyleState m_Hover
+    void _set_m_Hover(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.GUIStyleState m_Active
+    UnityEngine::GUIStyleState* _get_m_Active();
+    // Set instance field: private UnityEngine.GUIStyleState m_Active
+    void _set_m_Active(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.GUIStyleState m_Focused
+    UnityEngine::GUIStyleState* _get_m_Focused();
+    // Set instance field: private UnityEngine.GUIStyleState m_Focused
+    void _set_m_Focused(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.GUIStyleState m_OnNormal
+    UnityEngine::GUIStyleState* _get_m_OnNormal();
+    // Set instance field: private UnityEngine.GUIStyleState m_OnNormal
+    void _set_m_OnNormal(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.GUIStyleState m_OnHover
+    UnityEngine::GUIStyleState* _get_m_OnHover();
+    // Set instance field: private UnityEngine.GUIStyleState m_OnHover
+    void _set_m_OnHover(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.GUIStyleState m_OnActive
+    UnityEngine::GUIStyleState* _get_m_OnActive();
+    // Set instance field: private UnityEngine.GUIStyleState m_OnActive
+    void _set_m_OnActive(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.GUIStyleState m_OnFocused
+    UnityEngine::GUIStyleState* _get_m_OnFocused();
+    // Set instance field: private UnityEngine.GUIStyleState m_OnFocused
+    void _set_m_OnFocused(UnityEngine::GUIStyleState* value);
+    // Get instance field: private UnityEngine.RectOffset m_Border
+    UnityEngine::RectOffset* _get_m_Border();
+    // Set instance field: private UnityEngine.RectOffset m_Border
+    void _set_m_Border(UnityEngine::RectOffset* value);
+    // Get instance field: private UnityEngine.RectOffset m_Padding
+    UnityEngine::RectOffset* _get_m_Padding();
+    // Set instance field: private UnityEngine.RectOffset m_Padding
+    void _set_m_Padding(UnityEngine::RectOffset* value);
+    // Get instance field: private UnityEngine.RectOffset m_Margin
+    UnityEngine::RectOffset* _get_m_Margin();
+    // Set instance field: private UnityEngine.RectOffset m_Margin
+    void _set_m_Margin(UnityEngine::RectOffset* value);
+    // Get instance field: private UnityEngine.RectOffset m_Overflow
+    UnityEngine::RectOffset* _get_m_Overflow();
+    // Set instance field: private UnityEngine.RectOffset m_Overflow
+    void _set_m_Overflow(UnityEngine::RectOffset* value);
+    // Get instance field: private System.String m_Name
+    ::Il2CppString* _get_m_Name();
+    // Set instance field: private System.String m_Name
+    void _set_m_Name(::Il2CppString* value);
     // System.String get_rawName()
     // Offset: 0x1AABAA0
     ::Il2CppString* get_rawName();

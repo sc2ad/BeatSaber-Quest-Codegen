@@ -59,6 +59,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: RuntimeLightWithIds
     RuntimeLightWithIds(::Array<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>* lightIntensityData_ = {}, float intensity_ = {}, float maxIntensity_ = {}) noexcept : lightIntensityData{lightIntensityData_}, intensity{intensity_}, maxIntensity{maxIntensity_} {}
+    // Get instance field: private RuntimeLightWithIds/LightIntensitiesData[] _lightIntensityData
+    ::Array<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>* _get__lightIntensityData();
+    // Set instance field: private RuntimeLightWithIds/LightIntensitiesData[] _lightIntensityData
+    void _set__lightIntensityData(::Array<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>* value);
+    // Get instance field: private System.Single _intensity
+    float _get__intensity();
+    // Set instance field: private System.Single _intensity
+    void _set__intensity(float value);
+    // Get instance field: private System.Single _maxIntensity
+    float _get__maxIntensity();
+    // Set instance field: private System.Single _maxIntensity
+    void _set__maxIntensity(float value);
     // protected System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFF
     void ColorWasSet(UnityEngine::Color color);

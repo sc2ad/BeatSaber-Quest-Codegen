@@ -89,6 +89,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
     // Creating value type constructor for type: BeatmapObjectAvoidancePathEvaluator
     BeatmapObjectAvoidancePathEvaluator(float jumpStartZ_ = {}, float jumpEndZ_ = {}, float zOffset_ = {}, float yOffset_ = {}, float noteJumpSpeed_ = {}, float moveToPlayerHeadTParam_ = {}, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}) noexcept : jumpStartZ{jumpStartZ_}, jumpEndZ{jumpEndZ_}, zOffset{zOffset_}, yOffset{yOffset_}, noteJumpSpeed{noteJumpSpeed_}, moveToPlayerHeadTParam{moveToPlayerHeadTParam_}, pathBezierCurveEvaluator{pathBezierCurveEvaluator_}, audioTimeSource{audioTimeSource_}, playerTransforms{playerTransforms_} {}
+    // Get instance field: private readonly System.Single _jumpStartZ
+    float _get__jumpStartZ();
+    // Set instance field: private readonly System.Single _jumpStartZ
+    void _set__jumpStartZ(float value);
+    // Get instance field: private readonly System.Single _jumpEndZ
+    float _get__jumpEndZ();
+    // Set instance field: private readonly System.Single _jumpEndZ
+    void _set__jumpEndZ(float value);
+    // Get instance field: private readonly System.Single _zOffset
+    float _get__zOffset();
+    // Set instance field: private readonly System.Single _zOffset
+    void _set__zOffset(float value);
+    // Get instance field: private readonly System.Single _yOffset
+    float _get__yOffset();
+    // Set instance field: private readonly System.Single _yOffset
+    void _set__yOffset(float value);
+    // Get instance field: private readonly System.Single _noteJumpSpeed
+    float _get__noteJumpSpeed();
+    // Set instance field: private readonly System.Single _noteJumpSpeed
+    void _set__noteJumpSpeed(float value);
+    // Get instance field: private readonly System.Single _moveToPlayerHeadTParam
+    float _get__moveToPlayerHeadTParam();
+    // Set instance field: private readonly System.Single _moveToPlayerHeadTParam
+    void _set__moveToPlayerHeadTParam(float value);
+    // Get instance field: private readonly BezierSplineEvaluator _pathBezierCurveEvaluator
+    GlobalNamespace::BezierSplineEvaluator* _get__pathBezierCurveEvaluator();
+    // Set instance field: private readonly BezierSplineEvaluator _pathBezierCurveEvaluator
+    void _set__pathBezierCurveEvaluator(GlobalNamespace::BezierSplineEvaluator* value);
+    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
+    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
+    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, PlayerTransforms playerTransforms, BezierSplineEvaluator pathBezierCurveEvaluator, System.Single jumpStartZ, System.Single jumpEndZ, System.Single yOffset, System.Single zOffset, System.Single noteJumpSeed, System.Single moveToPlayerHeadTParam)
     // Offset: 0x1090AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

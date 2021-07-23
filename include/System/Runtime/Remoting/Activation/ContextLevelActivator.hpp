@@ -44,6 +44,10 @@ namespace System::Runtime::Remoting::Activation {
     constexpr operator System::Runtime::Remoting::Activation::IActivator*() const noexcept {
       return m_NextActivator;
     }
+    // Get instance field: private System.Runtime.Remoting.Activation.IActivator m_NextActivator
+    System::Runtime::Remoting::Activation::IActivator* _get_m_NextActivator();
+    // Set instance field: private System.Runtime.Remoting.Activation.IActivator m_NextActivator
+    void _set_m_NextActivator(System::Runtime::Remoting::Activation::IActivator* value);
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
     // Offset: 0x13F50EC
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();

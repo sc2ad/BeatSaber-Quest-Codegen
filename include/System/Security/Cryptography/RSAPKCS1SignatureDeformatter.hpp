@@ -43,6 +43,14 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: RSAPKCS1SignatureDeformatter
     RSAPKCS1SignatureDeformatter(System::Security::Cryptography::RSA* rsa_ = {}, ::Il2CppString* hashName_ = {}) noexcept : rsa{rsa_}, hashName{hashName_} {}
+    // Get instance field: private System.Security.Cryptography.RSA rsa
+    System::Security::Cryptography::RSA* _get_rsa();
+    // Set instance field: private System.Security.Cryptography.RSA rsa
+    void _set_rsa(System::Security::Cryptography::RSA* value);
+    // Get instance field: private System.String hashName
+    ::Il2CppString* _get_hashName();
+    // Set instance field: private System.String hashName
+    void _set_hashName(::Il2CppString* value);
     // public System.Void .ctor(System.Security.Cryptography.AsymmetricAlgorithm key)
     // Offset: 0x1AFB410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

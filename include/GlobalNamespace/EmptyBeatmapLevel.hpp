@@ -152,6 +152,70 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Get instance field: private readonly System.String <levelID>k__BackingField
+    ::Il2CppString* _get_$levelID$k__BackingField();
+    // Set instance field: private readonly System.String <levelID>k__BackingField
+    void _set_$levelID$k__BackingField(::Il2CppString* value);
+    // Get instance field: private readonly System.String <songName>k__BackingField
+    ::Il2CppString* _get_$songName$k__BackingField();
+    // Set instance field: private readonly System.String <songName>k__BackingField
+    void _set_$songName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private readonly System.String <songSubName>k__BackingField
+    ::Il2CppString* _get_$songSubName$k__BackingField();
+    // Set instance field: private readonly System.String <songSubName>k__BackingField
+    void _set_$songSubName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private readonly System.String <songAuthorName>k__BackingField
+    ::Il2CppString* _get_$songAuthorName$k__BackingField();
+    // Set instance field: private readonly System.String <songAuthorName>k__BackingField
+    void _set_$songAuthorName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private readonly System.String <levelAuthorName>k__BackingField
+    ::Il2CppString* _get_$levelAuthorName$k__BackingField();
+    // Set instance field: private readonly System.String <levelAuthorName>k__BackingField
+    void _set_$levelAuthorName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private readonly System.Single <beatsPerMinute>k__BackingField
+    float _get_$beatsPerMinute$k__BackingField();
+    // Set instance field: private readonly System.Single <beatsPerMinute>k__BackingField
+    void _set_$beatsPerMinute$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <songTimeOffset>k__BackingField
+    float _get_$songTimeOffset$k__BackingField();
+    // Set instance field: private readonly System.Single <songTimeOffset>k__BackingField
+    void _set_$songTimeOffset$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <shuffle>k__BackingField
+    float _get_$shuffle$k__BackingField();
+    // Set instance field: private readonly System.Single <shuffle>k__BackingField
+    void _set_$shuffle$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <shufflePeriod>k__BackingField
+    float _get_$shufflePeriod$k__BackingField();
+    // Set instance field: private readonly System.Single <shufflePeriod>k__BackingField
+    void _set_$shufflePeriod$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <previewStartTime>k__BackingField
+    float _get_$previewStartTime$k__BackingField();
+    // Set instance field: private readonly System.Single <previewStartTime>k__BackingField
+    void _set_$previewStartTime$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <previewDuration>k__BackingField
+    float _get_$previewDuration$k__BackingField();
+    // Set instance field: private readonly System.Single <previewDuration>k__BackingField
+    void _set_$previewDuration$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <songDuration>k__BackingField
+    float _get_$songDuration$k__BackingField();
+    // Set instance field: private readonly System.Single <songDuration>k__BackingField
+    void _set_$songDuration$k__BackingField(float value);
+    // Get instance field: private readonly EnvironmentInfoSO <environmentInfo>k__BackingField
+    GlobalNamespace::EnvironmentInfoSO* _get_$environmentInfo$k__BackingField();
+    // Set instance field: private readonly EnvironmentInfoSO <environmentInfo>k__BackingField
+    void _set_$environmentInfo$k__BackingField(GlobalNamespace::EnvironmentInfoSO* value);
+    // Get instance field: private readonly EnvironmentInfoSO <allDirectionsEnvironmentInfo>k__BackingField
+    GlobalNamespace::EnvironmentInfoSO* _get_$allDirectionsEnvironmentInfo$k__BackingField();
+    // Set instance field: private readonly EnvironmentInfoSO <allDirectionsEnvironmentInfo>k__BackingField
+    void _set_$allDirectionsEnvironmentInfo$k__BackingField(GlobalNamespace::EnvironmentInfoSO* value);
+    // Get instance field: private readonly PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
+    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* _get_$previewDifficultyBeatmapSets$k__BackingField();
+    // Set instance field: private readonly PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
+    void _set_$previewDifficultyBeatmapSets$k__BackingField(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* value);
+    // Get instance field: private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
+    GlobalNamespace::IBeatmapLevelData* _get_$beatmapLevelData$k__BackingField();
+    // Set instance field: private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
+    void _set_$beatmapLevelData$k__BackingField(GlobalNamespace::IBeatmapLevelData* value);
     // public System.String get_levelID()
     // Offset: 0x101F4F8
     ::Il2CppString* get_levelID();

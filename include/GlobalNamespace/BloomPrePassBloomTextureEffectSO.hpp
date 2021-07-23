@@ -112,6 +112,54 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO*) == 0x8);
     // Creating value type constructor for type: BloomPrePassBloomTextureEffectSO
     BloomPrePassBloomTextureEffectSO(float radius_ = {}, float intensity_ = {}, float downBloomIntensityOffset_ = {}, bool uniformPyramidWeights_ = {}, float pyramidWeightsParam_ = {}, float firstUpsampleBrightness_ = {}, float finalUpsampleBrightness_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass prefilterPass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass_ = {}, GlobalNamespace::PyramidBloomRendererSO* bloomRenderer_ = {}) noexcept : radius{radius_}, intensity{intensity_}, downBloomIntensityOffset{downBloomIntensityOffset_}, uniformPyramidWeights{uniformPyramidWeights_}, pyramidWeightsParam{pyramidWeightsParam_}, firstUpsampleBrightness{firstUpsampleBrightness_}, finalUpsampleBrightness{finalUpsampleBrightness_}, prefilterPass{prefilterPass_}, downsamplePass{downsamplePass_}, upsamplePass{upsamplePass_}, finalUpsamplePass{finalUpsamplePass_}, bloomRenderer{bloomRenderer_} {}
+    // Get instance field: private System.Single _radius
+    float _get__radius();
+    // Set instance field: private System.Single _radius
+    void _set__radius(float value);
+    // Get instance field: private System.Single _intensity
+    float _get__intensity();
+    // Set instance field: private System.Single _intensity
+    void _set__intensity(float value);
+    // Get instance field: private System.Single _downBloomIntensityOffset
+    float _get__downBloomIntensityOffset();
+    // Set instance field: private System.Single _downBloomIntensityOffset
+    void _set__downBloomIntensityOffset(float value);
+    // Get instance field: private System.Boolean _uniformPyramidWeights
+    bool _get__uniformPyramidWeights();
+    // Set instance field: private System.Boolean _uniformPyramidWeights
+    void _set__uniformPyramidWeights(bool value);
+    // Get instance field: private System.Single _pyramidWeightsParam
+    float _get__pyramidWeightsParam();
+    // Set instance field: private System.Single _pyramidWeightsParam
+    void _set__pyramidWeightsParam(float value);
+    // Get instance field: private System.Single _firstUpsampleBrightness
+    float _get__firstUpsampleBrightness();
+    // Set instance field: private System.Single _firstUpsampleBrightness
+    void _set__firstUpsampleBrightness(float value);
+    // Get instance field: private System.Single _finalUpsampleBrightness
+    float _get__finalUpsampleBrightness();
+    // Set instance field: private System.Single _finalUpsampleBrightness
+    void _set__finalUpsampleBrightness(float value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _prefilterPass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__prefilterPass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _prefilterPass
+    void _set__prefilterPass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _downsamplePass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__downsamplePass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _downsamplePass
+    void _set__downsamplePass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _upsamplePass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__upsamplePass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _upsamplePass
+    void _set__upsamplePass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _finalUpsamplePass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__finalUpsamplePass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _finalUpsamplePass
+    void _set__finalUpsamplePass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private PyramidBloomRendererSO _bloomRenderer
+    GlobalNamespace::PyramidBloomRendererSO* _get__bloomRenderer();
+    // Set instance field: private PyramidBloomRendererSO _bloomRenderer
+    void _set__bloomRenderer(GlobalNamespace::PyramidBloomRendererSO* value);
     // public override ToneMapping get_toneMapping()
     // Offset: 0x233CEA8
     // Implemented from: BloomPrePassEffectSO

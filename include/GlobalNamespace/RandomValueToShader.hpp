@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID
     static void _set__randomValueID(int value);
+    // Get instance field: private System.Int32 _lastFrameNum
+    int _get__lastFrameNum();
+    // Set instance field: private System.Int32 _lastFrameNum
+    void _set__lastFrameNum(int value);
     // public System.Void SetRandomValueToShaders()
     // Offset: 0x1DEF9C0
     void SetRandomValueToShaders();

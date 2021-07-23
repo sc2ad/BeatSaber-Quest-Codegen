@@ -28,6 +28,10 @@ namespace UnityEngine::TestTools {
     constexpr operator bool() const noexcept {
       return MustExpect;
     }
+    // Get instance field: private readonly System.Boolean <MustExpect>k__BackingField
+    bool _get_$MustExpect$k__BackingField();
+    // Set instance field: private readonly System.Boolean <MustExpect>k__BackingField
+    void _set_$MustExpect$k__BackingField(bool value);
     // public System.Boolean get_MustExpect()
     // Offset: 0x148D838
     bool get_MustExpect();

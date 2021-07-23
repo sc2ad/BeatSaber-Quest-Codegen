@@ -92,6 +92,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::PatternFightSongController::GameplayPhase _get_ReplayThisPlayerPattern();
       // Set static field: static public PatternFightSongController/GameplayPhase ReplayThisPlayerPattern
       static void _set_ReplayThisPlayerPattern(GlobalNamespace::PatternFightSongController::GameplayPhase value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // PatternFightSongController/GameplayPhase
     #pragma pack(pop)
     static check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int)> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
@@ -161,6 +165,38 @@ namespace GlobalNamespace {
     static float _get_kPhaseLengthInBeats();
     // Set static field: static private System.Single kPhaseLengthInBeats
     static void _set_kPhaseLengthInBeats(float value);
+    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private BeatmapData _beatmapData
+    GlobalNamespace::BeatmapData* _get__beatmapData();
+    // Set instance field: private BeatmapData _beatmapData
+    void _set__beatmapData(GlobalNamespace::BeatmapData* value);
+    // Get instance field: private PatternFightSongController/GameplayPhase _gameplayPhase
+    GlobalNamespace::PatternFightSongController::GameplayPhase _get__gameplayPhase();
+    // Set instance field: private PatternFightSongController/GameplayPhase _gameplayPhase
+    void _set__gameplayPhase(GlobalNamespace::PatternFightSongController::GameplayPhase value);
+    // Get instance field: private System.Int32 _gameplayPhaseNumber
+    int _get__gameplayPhaseNumber();
+    // Set instance field: private System.Int32 _gameplayPhaseNumber
+    void _set__gameplayPhaseNumber(int value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<NoteData> _thisPlayerSourcePatternNoteData
+    System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* _get__thisPlayerSourcePatternNoteData();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<NoteData> _thisPlayerSourcePatternNoteData
+    void _set__thisPlayerSourcePatternNoteData(System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<NoteData> _thisPlayerDefinedPatternNoteData
+    System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* _get__thisPlayerDefinedPatternNoteData();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<NoteData> _thisPlayerDefinedPatternNoteData
+    void _set__thisPlayerDefinedPatternNoteData(System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* value);
     // protected System.Void Start()
     // Offset: 0xFFFCC0
     void Start();

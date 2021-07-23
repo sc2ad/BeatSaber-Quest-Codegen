@@ -56,6 +56,18 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::FpPoint*) == 0x8);
     // Creating value type constructor for type: FpCurve
     FpCurve(Org::BouncyCastle::Math::BigInteger* m_q_ = {}, Org::BouncyCastle::Math::BigInteger* m_r_ = {}, Org::BouncyCastle::Math::EC::FpPoint* m_infinity_ = {}) noexcept : m_q{m_q_}, m_r{m_r_}, m_infinity{m_infinity_} {}
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_q
+    Org::BouncyCastle::Math::BigInteger* _get_m_q();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_q
+    void _set_m_q(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_r
+    Org::BouncyCastle::Math::BigInteger* _get_m_r();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_r
+    void _set_m_r(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.FpPoint m_infinity
+    Org::BouncyCastle::Math::EC::FpPoint* _get_m_infinity();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.FpPoint m_infinity
+    void _set_m_infinity(Org::BouncyCastle::Math::EC::FpPoint* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a, Org.BouncyCastle.Math.BigInteger b, Org.BouncyCastle.Math.BigInteger order, Org.BouncyCastle.Math.BigInteger cofactor)
     // Offset: 0x20EE1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

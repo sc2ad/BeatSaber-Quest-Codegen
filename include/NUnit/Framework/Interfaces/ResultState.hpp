@@ -98,6 +98,18 @@ namespace NUnit::Framework::Interfaces {
     static NUnit::Framework::Interfaces::ResultState* _get_TearDownError();
     // Set static field: static public readonly NUnit.Framework.Interfaces.ResultState TearDownError
     static void _set_TearDownError(NUnit::Framework::Interfaces::ResultState* value);
+    // Get instance field: private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField
+    NUnit::Framework::Interfaces::TestStatus _get_$Status$k__BackingField();
+    // Set instance field: private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField
+    void _set_$Status$k__BackingField(NUnit::Framework::Interfaces::TestStatus value);
+    // Get instance field: private System.String <Label>k__BackingField
+    ::Il2CppString* _get_$Label$k__BackingField();
+    // Set instance field: private System.String <Label>k__BackingField
+    void _set_$Label$k__BackingField(::Il2CppString* value);
+    // Get instance field: private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
+    NUnit::Framework::Interfaces::FailureSite _get_$Site$k__BackingField();
+    // Set instance field: private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
+    void _set_$Site$k__BackingField(NUnit::Framework::Interfaces::FailureSite value);
     // public NUnit.Framework.Interfaces.TestStatus get_Status()
     // Offset: 0x1720E84
     NUnit::Framework::Interfaces::TestStatus get_Status();

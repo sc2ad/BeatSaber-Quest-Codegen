@@ -45,6 +45,10 @@ namespace HMUI {
     static HMUI::ViewController::AnimationDirection _get_Vertical();
     // Set static field: static public HMUI.ViewController/HMUI.AnimationDirection Vertical
     static void _set_Vertical(HMUI::ViewController::AnimationDirection value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // HMUI.ViewController/HMUI.AnimationDirection
   #pragma pack(pop)
   static check_size<sizeof(ViewController::AnimationDirection), 0 + sizeof(int)> __HMUI_ViewController_AnimationDirectionSizeCheck;

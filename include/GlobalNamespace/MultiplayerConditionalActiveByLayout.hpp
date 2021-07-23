@@ -64,6 +64,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition _get_HideIf();
       // Set static field: static public MultiplayerConditionalActiveByLayout/Condition HideIf
       static void _set_HideIf(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MultiplayerConditionalActiveByLayout/Condition
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConditionalActiveByLayout::Condition), 0 + sizeof(int)> __GlobalNamespace_MultiplayerConditionalActiveByLayout_ConditionSizeCheck;
@@ -91,6 +95,18 @@ namespace GlobalNamespace {
     MultiplayerConditionalActiveByLayout(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition condition_ = {}, GlobalNamespace::MultiplayerPlayerLayout layout_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}) noexcept : condition{condition_}, layout{layout_}, layoutProvider{layoutProvider_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MultiplayerConditionalActiveByLayout/Condition _condition
+    GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition _get__condition();
+    // Set instance field: private MultiplayerConditionalActiveByLayout/Condition _condition
+    void _set__condition(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition value);
+    // Get instance field: private MultiplayerPlayerLayout _layout
+    GlobalNamespace::MultiplayerPlayerLayout _get__layout();
+    // Set instance field: private MultiplayerPlayerLayout _layout
+    void _set__layout(GlobalNamespace::MultiplayerPlayerLayout value);
+    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
+    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
     // private System.Void Start()
     // Offset: 0x119FBE0
     void Start();

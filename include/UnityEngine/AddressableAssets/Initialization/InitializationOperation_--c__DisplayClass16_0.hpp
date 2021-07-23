@@ -54,6 +54,14 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass16_0
     $$c__DisplayClass16_0(UnityEngine::AddressableAssets::AddressablesImpl* addressables_ = {}, ::Il2CppString* providerSuffix_ = {}) noexcept : addressables{addressables_}, providerSuffix{providerSuffix_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl addressables
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_addressables();
+    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl addressables
+    void _set_addressables(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: public System.String providerSuffix
+    ::Il2CppString* _get_providerSuffix();
+    // Set instance field: public System.String providerSuffix
+    void _set_providerSuffix(::Il2CppString* value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <LoadContentCatalog>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> res)
     // Offset: 0x13CA450
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> $LoadContentCatalog$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);

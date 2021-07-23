@@ -39,6 +39,10 @@ namespace Polyglot {
     constexpr operator Polyglot::Localization*() const noexcept {
       return settings;
     }
+    // Get instance field: public Polyglot.Localization settings
+    Polyglot::Localization* _get_settings();
+    // Set instance field: public Polyglot.Localization settings
+    void _set_settings(Polyglot::Localization* value);
     // System.Void <ImportFromGoogle>b__0(System.String s)
     // Offset: 0x2330B20
     void $ImportFromGoogle$b__0(::Il2CppString* s);

@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return version;
     }
+    // Get instance field: private System.String _version
+    ::Il2CppString* _get__version();
+    // Set instance field: private System.String _version
+    void _set__version(::Il2CppString* value);
     // public System.String get_version()
     // Offset: 0x1065F88
     ::Il2CppString* get_version();

@@ -68,6 +68,30 @@ namespace HMUI {
     VerticalScrollIndicator(UnityEngine::RectTransform* handle_ = {}, UnityEngine::AnimationClip* normalAnimationClip_ = {}, UnityEngine::AnimationClip* disabledAnimationClip_ = {}, float padding_ = {}, float progress_ = {}, float normalizedPageHeight_ = {}) noexcept : handle{handle_}, normalAnimationClip{normalAnimationClip_}, disabledAnimationClip{disabledAnimationClip_}, padding{padding_}, progress{progress_}, normalizedPageHeight{normalizedPageHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.RectTransform _handle
+    UnityEngine::RectTransform* _get__handle();
+    // Set instance field: private UnityEngine.RectTransform _handle
+    void _set__handle(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.AnimationClip _normalAnimationClip
+    UnityEngine::AnimationClip* _get__normalAnimationClip();
+    // Set instance field: private UnityEngine.AnimationClip _normalAnimationClip
+    void _set__normalAnimationClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _disabledAnimationClip
+    UnityEngine::AnimationClip* _get__disabledAnimationClip();
+    // Set instance field: private UnityEngine.AnimationClip _disabledAnimationClip
+    void _set__disabledAnimationClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private System.Single _padding
+    float _get__padding();
+    // Set instance field: private System.Single _padding
+    void _set__padding(float value);
+    // Get instance field: private System.Single _progress
+    float _get__progress();
+    // Set instance field: private System.Single _progress
+    void _set__progress(float value);
+    // Get instance field: private System.Single _normalizedPageHeight
+    float _get__normalizedPageHeight();
+    // Set instance field: private System.Single _normalizedPageHeight
+    void _set__normalizedPageHeight(float value);
     // public System.Single get_progress()
     // Offset: 0x12A4234
     float get_progress();

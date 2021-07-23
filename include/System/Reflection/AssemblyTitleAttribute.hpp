@@ -33,6 +33,10 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_title;
     }
+    // Get instance field: private System.String m_title
+    ::Il2CppString* _get_m_title();
+    // Set instance field: private System.String m_title
+    void _set_m_title(::Il2CppString* value);
     // public System.Void .ctor(System.String title)
     // Offset: 0x1CA67FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

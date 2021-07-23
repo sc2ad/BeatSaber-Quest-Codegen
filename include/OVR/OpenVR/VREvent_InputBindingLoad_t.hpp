@@ -46,6 +46,22 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt64 ulAppContainer
+    uint64_t _get_ulAppContainer();
+    // Set instance field: public System.UInt64 ulAppContainer
+    void _set_ulAppContainer(uint64_t value);
+    // Get instance field: public System.UInt64 pathMessage
+    uint64_t _get_pathMessage();
+    // Set instance field: public System.UInt64 pathMessage
+    void _set_pathMessage(uint64_t value);
+    // Get instance field: public System.UInt64 pathUrl
+    uint64_t _get_pathUrl();
+    // Set instance field: public System.UInt64 pathUrl
+    void _set_pathUrl(uint64_t value);
+    // Get instance field: public System.UInt64 pathControllerType
+    uint64_t _get_pathControllerType();
+    // Set instance field: public System.UInt64 pathControllerType
+    void _set_pathControllerType(uint64_t value);
   }; // OVR.OpenVR.VREvent_InputBindingLoad_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_InputBindingLoad_t), 24 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_InputBindingLoad_tSizeCheck;

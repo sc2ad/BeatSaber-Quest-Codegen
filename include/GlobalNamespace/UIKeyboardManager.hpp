@@ -91,6 +91,30 @@ namespace GlobalNamespace {
     static float _get_kKeyboardTopOffset();
     // Set static field: static private System.Single kKeyboardTopOffset
     static void _set_kKeyboardTopOffset(float value);
+    // Get instance field: private HMUI.UIKeyboard _uiKeyboard
+    HMUI::UIKeyboard* _get__uiKeyboard();
+    // Set instance field: private HMUI.UIKeyboard _uiKeyboard
+    void _set__uiKeyboard(HMUI::UIKeyboard* value);
+    // Get instance field: private HMUI.ModalView _keyboardModalView
+    HMUI::ModalView* _get__keyboardModalView();
+    // Set instance field: private HMUI.ModalView _keyboardModalView
+    void _set__keyboardModalView(HMUI::ModalView* value);
+    // Get instance field: private UnityEngine.RectTransform _keyboardContainerTransform
+    UnityEngine::RectTransform* _get__keyboardContainerTransform();
+    // Set instance field: private UnityEngine.RectTransform _keyboardContainerTransform
+    void _set__keyboardContainerTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.Transform _parentContainerTransform
+    UnityEngine::Transform* _get__parentContainerTransform();
+    // Set instance field: private UnityEngine.Transform _parentContainerTransform
+    void _set__parentContainerTransform(UnityEngine::Transform* value);
+    // Get instance field: private readonly VRUIControls.VRInputModule _vrInputModule
+    VRUIControls::VRInputModule* _get__vrInputModule();
+    // Set instance field: private readonly VRUIControls.VRInputModule _vrInputModule
+    void _set__vrInputModule(VRUIControls::VRInputModule* value);
+    // Get instance field: private HMUI.InputFieldView _selectedInput
+    HMUI::InputFieldView* _get__selectedInput();
+    // Set instance field: private HMUI.InputFieldView _selectedInput
+    void _set__selectedInput(HMUI::InputFieldView* value);
     // public HMUI.UIKeyboard get_keyboard()
     // Offset: 0x126FE4C
     HMUI::UIKeyboard* get_keyboard();

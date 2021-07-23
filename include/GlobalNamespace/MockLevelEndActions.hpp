@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelEndActions*>(this);
     }
+    // Get instance field: private System.Action levelFailedEvent
+    System::Action* _get_levelFailedEvent();
+    // Set instance field: private System.Action levelFailedEvent
+    void _set_levelFailedEvent(System::Action* value);
+    // Get instance field: private System.Action levelFinishedEvent
+    System::Action* _get_levelFinishedEvent();
+    // Set instance field: private System.Action levelFinishedEvent
+    void _set_levelFinishedEvent(System::Action* value);
     // public System.Void add_levelFailedEvent(System.Action value)
     // Offset: 0x113BFC8
     void add_levelFailedEvent(System::Action* value);

@@ -42,6 +42,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRNotifications/OVR.OpenVR._CreateNotification CreateNotification
+    OVR::OpenVR::IVRNotifications::_CreateNotification* _get_CreateNotification();
+    // Set instance field: OVR.OpenVR.IVRNotifications/OVR.OpenVR._CreateNotification CreateNotification
+    void _set_CreateNotification(OVR::OpenVR::IVRNotifications::_CreateNotification* value);
+    // Get instance field: OVR.OpenVR.IVRNotifications/OVR.OpenVR._RemoveNotification RemoveNotification
+    OVR::OpenVR::IVRNotifications::_RemoveNotification* _get_RemoveNotification();
+    // Set instance field: OVR.OpenVR.IVRNotifications/OVR.OpenVR._RemoveNotification RemoveNotification
+    void _set_RemoveNotification(OVR::OpenVR::IVRNotifications::_RemoveNotification* value);
   }; // OVR.OpenVR.IVRNotifications
   #pragma pack(pop)
   static check_size<sizeof(IVRNotifications), 8 + sizeof(OVR::OpenVR::IVRNotifications::_RemoveNotification*)> __OVR_OpenVR_IVRNotificationsSizeCheck;

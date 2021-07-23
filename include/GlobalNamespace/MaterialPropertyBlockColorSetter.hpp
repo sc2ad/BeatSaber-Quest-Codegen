@@ -74,6 +74,30 @@ namespace GlobalNamespace {
     MaterialPropertyBlockColorSetter(bool useTestColor_ = {}, UnityEngine::Color testColor_ = {}, ::Il2CppString* property_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, int propertyId_ = {}, bool isInitialized_ = {}) noexcept : useTestColor{useTestColor_}, testColor{testColor_}, property{property_}, materialPropertyBlockController{materialPropertyBlockController_}, propertyId{propertyId_}, isInitialized{isInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Boolean _useTestColor
+    bool _get__useTestColor();
+    // Set instance field: private System.Boolean _useTestColor
+    void _set__useTestColor(bool value);
+    // Get instance field: private UnityEngine.Color _testColor
+    UnityEngine::Color _get__testColor();
+    // Set instance field: private UnityEngine.Color _testColor
+    void _set__testColor(UnityEngine::Color value);
+    // Get instance field: private System.String _property
+    ::Il2CppString* _get__property();
+    // Set instance field: private System.String _property
+    void _set__property(::Il2CppString* value);
+    // Get instance field: protected MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
+    // Set instance field: protected MaterialPropertyBlockController _materialPropertyBlockController
+    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
+    // Get instance field: private System.Int32 _propertyId
+    int _get__propertyId();
+    // Set instance field: private System.Int32 _propertyId
+    void _set__propertyId(int value);
+    // Get instance field: private System.Boolean _isInitialized
+    bool _get__isInitialized();
+    // Set instance field: private System.Boolean _isInitialized
+    void _set__isInitialized(bool value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1DF5C14
     UnityEngine::Color get_color();

@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     SongController(System::Action* songDidFinishEvent_ = {}) noexcept : songDidFinishEvent{songDidFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Action songDidFinishEvent
+    System::Action* _get_songDidFinishEvent();
+    // Set instance field: private System.Action songDidFinishEvent
+    void _set_songDidFinishEvent(System::Action* value);
     // public System.Void add_songDidFinishEvent(System.Action value)
     // Offset: 0x1059A9C
     void add_songDidFinishEvent(System::Action* value);

@@ -35,6 +35,10 @@ namespace GlobalNamespace {
     constexpr operator UnityEngine::Vector4() const noexcept {
       return vector;
     }
+    // Get instance field: public UnityEngine.Vector4 vector
+    UnityEngine::Vector4 _get_vector();
+    // Set instance field: public UnityEngine.Vector4 vector
+    void _set_vector(UnityEngine::Vector4 value);
     // public System.Void .ctor()
     // Offset: 0x1DF63E4
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase

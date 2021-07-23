@@ -59,6 +59,22 @@ namespace Mono::Security::X509 {
     static ::Array<uint8_t>* _get_macDiversifier();
     // Set static field: static private System.Byte[] macDiversifier
     static void _set_macDiversifier(::Array<uint8_t>* value);
+    // Get instance field: private System.String _hashName
+    ::Il2CppString* _get__hashName();
+    // Set instance field: private System.String _hashName
+    void _set__hashName(::Il2CppString* value);
+    // Get instance field: private System.Int32 _iterations
+    int _get__iterations();
+    // Set instance field: private System.Int32 _iterations
+    void _set__iterations(int value);
+    // Get instance field: private System.Byte[] _password
+    ::Array<uint8_t>* _get__password();
+    // Set instance field: private System.Byte[] _password
+    void _set__password(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] _salt
+    ::Array<uint8_t>* _get__salt();
+    // Set instance field: private System.Byte[] _salt
+    void _set__salt(::Array<uint8_t>* value);
     // public System.Void set_HashName(System.String value)
     // Offset: 0x237D010
     void set_HashName(::Il2CppString* value);

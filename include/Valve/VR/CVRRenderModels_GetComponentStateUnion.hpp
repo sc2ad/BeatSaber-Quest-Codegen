@@ -37,6 +37,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Valve.VR.IVRRenderModels/Valve.VR._GetComponentState pGetComponentState
+    Valve::VR::IVRRenderModels::_GetComponentState* _get_pGetComponentState();
+    // Set instance field: public Valve.VR.IVRRenderModels/Valve.VR._GetComponentState pGetComponentState
+    void _set_pGetComponentState(Valve::VR::IVRRenderModels::_GetComponentState* value);
+    // Get instance field: public Valve.VR.CVRRenderModels/Valve.VR._GetComponentStatePacked pGetComponentStatePacked
+    Valve::VR::CVRRenderModels::_GetComponentStatePacked* _get_pGetComponentStatePacked();
+    // Set instance field: public Valve.VR.CVRRenderModels/Valve.VR._GetComponentStatePacked pGetComponentStatePacked
+    void _set_pGetComponentStatePacked(Valve::VR::CVRRenderModels::_GetComponentStatePacked* value);
   }; // Valve.VR.CVRRenderModels/Valve.VR.GetComponentStateUnion
   // WARNING Not writing size check since size may be invalid!
 }

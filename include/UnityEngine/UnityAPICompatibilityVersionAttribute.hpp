@@ -34,6 +34,14 @@ namespace UnityEngine {
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: UnityAPICompatibilityVersionAttribute
     UnityAPICompatibilityVersionAttribute(::Il2CppString* version_ = {}, ::Array<::Il2CppString*>* configurationAssembliesHashes_ = {}) noexcept : version{version_}, configurationAssembliesHashes{configurationAssembliesHashes_} {}
+    // Get instance field: private System.String _version
+    ::Il2CppString* _get__version();
+    // Set instance field: private System.String _version
+    void _set__version(::Il2CppString* value);
+    // Get instance field: private System.String[] _configurationAssembliesHashes
+    ::Array<::Il2CppString*>* _get__configurationAssembliesHashes();
+    // Set instance field: private System.String[] _configurationAssembliesHashes
+    void _set__configurationAssembliesHashes(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.String version, System.String[] configurationAssembliesHashes)
     // Offset: 0x23056D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

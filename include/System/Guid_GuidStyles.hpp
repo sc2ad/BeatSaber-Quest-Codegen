@@ -124,6 +124,10 @@ namespace System {
     static System::Guid::GuidStyles _get_Any();
     // Set static field: static public System.Guid/System.GuidStyles Any
     static void _set_Any(System::Guid::GuidStyles value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Guid/System.GuidStyles
   #pragma pack(pop)
   static check_size<sizeof(Guid::GuidStyles), 0 + sizeof(int)> __System_Guid_GuidStylesSizeCheck;

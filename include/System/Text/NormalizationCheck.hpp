@@ -49,6 +49,10 @@ namespace System::Text {
     static System::Text::NormalizationCheck _get_Maybe();
     // Set static field: static public System.Text.NormalizationCheck Maybe
     static void _set_Maybe(System::Text::NormalizationCheck value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Text.NormalizationCheck
   #pragma pack(pop)
   static check_size<sizeof(NormalizationCheck), 0 + sizeof(int)> __System_Text_NormalizationCheckSizeCheck;

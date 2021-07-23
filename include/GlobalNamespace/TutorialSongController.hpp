@@ -234,6 +234,102 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>*) == 0x8);
     // Creating value type constructor for type: TutorialSongController
     TutorialSongController(GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, int startWaitTimeInBeats_ = {}, int numberOfBeatsToSnap_ = {}, int obstacleDurationInBeats_ = {}, GlobalNamespace::Signal* noteCuttingTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* noteCuttingInAnyDirectionDidStartSignal_ = {}, GlobalNamespace::Signal* bombCuttingTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* leftObstacleTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* rightObstacleTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* topObstacleTutorialPartDidStartSignal_ = {}, GlobalNamespace::Signal* noteWasCutOKSignal_ = {}, GlobalNamespace::Signal* noteWasCutTooSoonSignal_ = {}, GlobalNamespace::Signal* noteWasCutWithWrongColorSignal_ = {}, GlobalNamespace::Signal* noteWasCutFromDifferentDirectionSignal_ = {}, GlobalNamespace::Signal* noteWasCutWithSlowSpeedSignal_ = {}, GlobalNamespace::Signal* bombWasCutSignal_ = {}, GlobalNamespace::TutorialSongController::InitData* initData_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, int tutorialBeatmapObjectIndex_ = {}, int prevSpawnedBeatmapObjectIndex_ = {}, float songBpm_ = {}, GlobalNamespace::BeatmapData* beatmapData_ = {}, ::Array<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>* normalModeTutorialObjectsSpawnData_ = {}) noexcept : audioTimeSyncController{audioTimeSyncController_}, startWaitTimeInBeats{startWaitTimeInBeats_}, numberOfBeatsToSnap{numberOfBeatsToSnap_}, obstacleDurationInBeats{obstacleDurationInBeats_}, noteCuttingTutorialPartDidStartSignal{noteCuttingTutorialPartDidStartSignal_}, noteCuttingInAnyDirectionDidStartSignal{noteCuttingInAnyDirectionDidStartSignal_}, bombCuttingTutorialPartDidStartSignal{bombCuttingTutorialPartDidStartSignal_}, leftObstacleTutorialPartDidStartSignal{leftObstacleTutorialPartDidStartSignal_}, rightObstacleTutorialPartDidStartSignal{rightObstacleTutorialPartDidStartSignal_}, topObstacleTutorialPartDidStartSignal{topObstacleTutorialPartDidStartSignal_}, noteWasCutOKSignal{noteWasCutOKSignal_}, noteWasCutTooSoonSignal{noteWasCutTooSoonSignal_}, noteWasCutWithWrongColorSignal{noteWasCutWithWrongColorSignal_}, noteWasCutFromDifferentDirectionSignal{noteWasCutFromDifferentDirectionSignal_}, noteWasCutWithSlowSpeedSignal{noteWasCutWithSlowSpeedSignal_}, bombWasCutSignal{bombWasCutSignal_}, initData{initData_}, beatmapObjectManager{beatmapObjectManager_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, tutorialBeatmapObjectIndex{tutorialBeatmapObjectIndex_}, prevSpawnedBeatmapObjectIndex{prevSpawnedBeatmapObjectIndex_}, songBpm{songBpm_}, beatmapData{beatmapData_}, normalModeTutorialObjectsSpawnData{normalModeTutorialObjectsSpawnData_} {}
+    // Get instance field: private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private System.Int32 _startWaitTimeInBeats
+    int _get__startWaitTimeInBeats();
+    // Set instance field: private System.Int32 _startWaitTimeInBeats
+    void _set__startWaitTimeInBeats(int value);
+    // Get instance field: private System.Int32 _numberOfBeatsToSnap
+    int _get__numberOfBeatsToSnap();
+    // Set instance field: private System.Int32 _numberOfBeatsToSnap
+    void _set__numberOfBeatsToSnap(int value);
+    // Get instance field: private System.Int32 _obstacleDurationInBeats
+    int _get__obstacleDurationInBeats();
+    // Set instance field: private System.Int32 _obstacleDurationInBeats
+    void _set__obstacleDurationInBeats(int value);
+    // Get instance field: private Signal _noteCuttingTutorialPartDidStartSignal
+    GlobalNamespace::Signal* _get__noteCuttingTutorialPartDidStartSignal();
+    // Set instance field: private Signal _noteCuttingTutorialPartDidStartSignal
+    void _set__noteCuttingTutorialPartDidStartSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _noteCuttingInAnyDirectionDidStartSignal
+    GlobalNamespace::Signal* _get__noteCuttingInAnyDirectionDidStartSignal();
+    // Set instance field: private Signal _noteCuttingInAnyDirectionDidStartSignal
+    void _set__noteCuttingInAnyDirectionDidStartSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _bombCuttingTutorialPartDidStartSignal
+    GlobalNamespace::Signal* _get__bombCuttingTutorialPartDidStartSignal();
+    // Set instance field: private Signal _bombCuttingTutorialPartDidStartSignal
+    void _set__bombCuttingTutorialPartDidStartSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _leftObstacleTutorialPartDidStartSignal
+    GlobalNamespace::Signal* _get__leftObstacleTutorialPartDidStartSignal();
+    // Set instance field: private Signal _leftObstacleTutorialPartDidStartSignal
+    void _set__leftObstacleTutorialPartDidStartSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _rightObstacleTutorialPartDidStartSignal
+    GlobalNamespace::Signal* _get__rightObstacleTutorialPartDidStartSignal();
+    // Set instance field: private Signal _rightObstacleTutorialPartDidStartSignal
+    void _set__rightObstacleTutorialPartDidStartSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _topObstacleTutorialPartDidStartSignal
+    GlobalNamespace::Signal* _get__topObstacleTutorialPartDidStartSignal();
+    // Set instance field: private Signal _topObstacleTutorialPartDidStartSignal
+    void _set__topObstacleTutorialPartDidStartSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _noteWasCutOKSignal
+    GlobalNamespace::Signal* _get__noteWasCutOKSignal();
+    // Set instance field: private Signal _noteWasCutOKSignal
+    void _set__noteWasCutOKSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _noteWasCutTooSoonSignal
+    GlobalNamespace::Signal* _get__noteWasCutTooSoonSignal();
+    // Set instance field: private Signal _noteWasCutTooSoonSignal
+    void _set__noteWasCutTooSoonSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _noteWasCutWithWrongColorSignal
+    GlobalNamespace::Signal* _get__noteWasCutWithWrongColorSignal();
+    // Set instance field: private Signal _noteWasCutWithWrongColorSignal
+    void _set__noteWasCutWithWrongColorSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _noteWasCutFromDifferentDirectionSignal
+    GlobalNamespace::Signal* _get__noteWasCutFromDifferentDirectionSignal();
+    // Set instance field: private Signal _noteWasCutFromDifferentDirectionSignal
+    void _set__noteWasCutFromDifferentDirectionSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _noteWasCutWithSlowSpeedSignal
+    GlobalNamespace::Signal* _get__noteWasCutWithSlowSpeedSignal();
+    // Set instance field: private Signal _noteWasCutWithSlowSpeedSignal
+    void _set__noteWasCutWithSlowSpeedSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _bombWasCutSignal
+    GlobalNamespace::Signal* _get__bombWasCutSignal();
+    // Set instance field: private Signal _bombWasCutSignal
+    void _set__bombWasCutSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private readonly TutorialSongController/InitData _initData
+    GlobalNamespace::TutorialSongController::InitData* _get__initData();
+    // Set instance field: private readonly TutorialSongController/InitData _initData
+    void _set__initData(GlobalNamespace::TutorialSongController::InitData* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private System.Int32 _tutorialBeatmapObjectIndex
+    int _get__tutorialBeatmapObjectIndex();
+    // Set instance field: private System.Int32 _tutorialBeatmapObjectIndex
+    void _set__tutorialBeatmapObjectIndex(int value);
+    // Get instance field: private System.Int32 _prevSpawnedBeatmapObjectIndex
+    int _get__prevSpawnedBeatmapObjectIndex();
+    // Set instance field: private System.Int32 _prevSpawnedBeatmapObjectIndex
+    void _set__prevSpawnedBeatmapObjectIndex(int value);
+    // Get instance field: private System.Single _songBpm
+    float _get__songBpm();
+    // Set instance field: private System.Single _songBpm
+    void _set__songBpm(float value);
+    // Get instance field: private BeatmapData _beatmapData
+    GlobalNamespace::BeatmapData* _get__beatmapData();
+    // Set instance field: private BeatmapData _beatmapData
+    void _set__beatmapData(GlobalNamespace::BeatmapData* value);
+    // Get instance field: private TutorialSongController/TutorialObjectSpawnData[] _normalModeTutorialObjectsSpawnData
+    ::Array<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>* _get__normalModeTutorialObjectsSpawnData();
+    // Set instance field: private TutorialSongController/TutorialObjectSpawnData[] _normalModeTutorialObjectsSpawnData
+    void _set__normalModeTutorialObjectsSpawnData(::Array<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>* value);
     // protected System.Void Awake()
     // Offset: 0x1075BB8
     void Awake();

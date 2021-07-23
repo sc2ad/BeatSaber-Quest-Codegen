@@ -53,6 +53,14 @@ namespace System::Collections {
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
+    // Get instance field: private System.Collections.ListDictionaryInternal list
+    System::Collections::ListDictionaryInternal* _get_list();
+    // Set instance field: private System.Collections.ListDictionaryInternal list
+    void _set_list(System::Collections::ListDictionaryInternal* value);
+    // Get instance field: private System.Boolean isKeys
+    bool _get_isKeys();
+    // Set instance field: private System.Boolean isKeys
+    void _set_isKeys(bool value);
     // private System.Int32 System.Collections.ICollection.get_Count()
     // Offset: 0x19486B4
     int System_Collections_ICollection_get_Count();

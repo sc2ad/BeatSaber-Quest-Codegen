@@ -58,6 +58,22 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromDescriptor CreateSpatialAnchorFromDescriptor
+    OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor* _get_CreateSpatialAnchorFromDescriptor();
+    // Set instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromDescriptor CreateSpatialAnchorFromDescriptor
+    void _set_CreateSpatialAnchorFromDescriptor(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor* value);
+    // Get instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromPose CreateSpatialAnchorFromPose
+    OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose* _get_CreateSpatialAnchorFromPose();
+    // Set instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromPose CreateSpatialAnchorFromPose
+    void _set_CreateSpatialAnchorFromPose(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose* value);
+    // Get instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._GetSpatialAnchorPose GetSpatialAnchorPose
+    OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose* _get_GetSpatialAnchorPose();
+    // Set instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._GetSpatialAnchorPose GetSpatialAnchorPose
+    void _set_GetSpatialAnchorPose(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose* value);
+    // Get instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._GetSpatialAnchorDescriptor GetSpatialAnchorDescriptor
+    OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* _get_GetSpatialAnchorDescriptor();
+    // Set instance field: OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._GetSpatialAnchorDescriptor GetSpatialAnchorDescriptor
+    void _set_GetSpatialAnchorDescriptor(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* value);
   }; // OVR.OpenVR.IVRSpatialAnchors
   #pragma pack(pop)
   static check_size<sizeof(IVRSpatialAnchors), 24 + sizeof(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*)> __OVR_OpenVR_IVRSpatialAnchorsSizeCheck;

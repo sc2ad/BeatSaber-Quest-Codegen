@@ -40,6 +40,14 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     // Creating value type constructor for type: TypeInfo
     TypeInfo(System::Collections::Hashtable* Attributes_ = {}, System::Collections::Hashtable* Elements_ = {}) noexcept : Attributes{Attributes_}, Elements{Elements_} {}
+    // Get instance field: public System.Collections.Hashtable Attributes
+    System::Collections::Hashtable* _get_Attributes();
+    // Set instance field: public System.Collections.Hashtable Attributes
+    void _set_Attributes(System::Collections::Hashtable* value);
+    // Get instance field: public System.Collections.Hashtable Elements
+    System::Collections::Hashtable* _get_Elements();
+    // Set instance field: public System.Collections.Hashtable Elements
+    void _set_Elements(System::Collections::Hashtable* value);
     // public System.Void .ctor()
     // Offset: 0x15D3460
     // Implemented from: System.Object

@@ -42,6 +42,10 @@ namespace System {
     constexpr operator System::TimeZoneInfo*() const noexcept {
       return LocalTimeZone;
     }
+    // Get instance field: private readonly System.TimeZoneInfo LocalTimeZone
+    System::TimeZoneInfo* _get_LocalTimeZone();
+    // Set instance field: private readonly System.TimeZoneInfo LocalTimeZone
+    void _set_LocalTimeZone(System::TimeZoneInfo* value);
     // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
     // Offset: 0x1959DCC
     static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::Il2CppString*>*& names, bool& daylight_inverted);

@@ -114,6 +114,42 @@ namespace GlobalNamespace {
     StandardLevelFailedController(GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::StandardLevelFailedController::InitData* initData_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}) noexcept : levelFailedTextEffect{levelFailedTextEffect_}, standardLevelSceneSetupData{standardLevelSceneSetupData_}, prepareLevelCompletionResults{prepareLevelCompletionResults_}, initData{initData_}, gameplayManager{gameplayManager_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, gameSongController{gameSongController_}, environmentSpawnRotation{environmentSpawnRotation_}, beatmapObjectManager{beatmapObjectManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private LevelFailedTextEffect _levelFailedTextEffect
+    GlobalNamespace::LevelFailedTextEffect* _get__levelFailedTextEffect();
+    // Set instance field: private LevelFailedTextEffect _levelFailedTextEffect
+    void _set__levelFailedTextEffect(GlobalNamespace::LevelFailedTextEffect* value);
+    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelSceneSetupData();
+    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
+    void _set__standardLevelSceneSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    GlobalNamespace::PrepareLevelCompletionResults* _get__prepareLevelCompletionResults();
+    // Set instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
+    // Get instance field: private readonly StandardLevelFailedController/InitData _initData
+    GlobalNamespace::StandardLevelFailedController::InitData* _get__initData();
+    // Set instance field: private readonly StandardLevelFailedController/InitData _initData
+    void _set__initData(GlobalNamespace::StandardLevelFailedController::InitData* value);
+    // Get instance field: private readonly ILevelEndActions _gameplayManager
+    GlobalNamespace::ILevelEndActions* _get__gameplayManager();
+    // Set instance field: private readonly ILevelEndActions _gameplayManager
+    void _set__gameplayManager(GlobalNamespace::ILevelEndActions* value);
+    // Get instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::BeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
+    // Set instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    void _set__beatmapObjectSpawnController(GlobalNamespace::BeatmapObjectSpawnController* value);
+    // Get instance field: private readonly GameSongController _gameSongController
+    GlobalNamespace::GameSongController* _get__gameSongController();
+    // Set instance field: private readonly GameSongController _gameSongController
+    void _set__gameSongController(GlobalNamespace::GameSongController* value);
+    // Get instance field: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
+    GlobalNamespace::EnvironmentSpawnRotation* _get__environmentSpawnRotation();
+    // Set instance field: private readonly EnvironmentSpawnRotation _environmentSpawnRotation
+    void _set__environmentSpawnRotation(GlobalNamespace::EnvironmentSpawnRotation* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
     // protected System.Void Start()
     // Offset: 0x1064768
     void Start();

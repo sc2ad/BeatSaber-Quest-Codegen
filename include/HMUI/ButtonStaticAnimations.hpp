@@ -69,6 +69,30 @@ namespace HMUI {
     ButtonStaticAnimations(HMUI::NoTransitionsButton* button_ = {}, UnityEngine::AnimationClip* normalClip_ = {}, UnityEngine::AnimationClip* highlightedClip_ = {}, UnityEngine::AnimationClip* pressedClip_ = {}, UnityEngine::AnimationClip* disabledClip_ = {}, bool didStart_ = {}) noexcept : button{button_}, normalClip{normalClip_}, highlightedClip{highlightedClip_}, pressedClip{pressedClip_}, disabledClip{disabledClip_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.NoTransitionsButton _button
+    HMUI::NoTransitionsButton* _get__button();
+    // Set instance field: private HMUI.NoTransitionsButton _button
+    void _set__button(HMUI::NoTransitionsButton* value);
+    // Get instance field: private UnityEngine.AnimationClip _normalClip
+    UnityEngine::AnimationClip* _get__normalClip();
+    // Set instance field: private UnityEngine.AnimationClip _normalClip
+    void _set__normalClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _highlightedClip
+    UnityEngine::AnimationClip* _get__highlightedClip();
+    // Set instance field: private UnityEngine.AnimationClip _highlightedClip
+    void _set__highlightedClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _pressedClip
+    UnityEngine::AnimationClip* _get__pressedClip();
+    // Set instance field: private UnityEngine.AnimationClip _pressedClip
+    void _set__pressedClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _disabledClip
+    UnityEngine::AnimationClip* _get__disabledClip();
+    // Set instance field: private UnityEngine.AnimationClip _disabledClip
+    void _set__disabledClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private System.Boolean _didStart
+    bool _get__didStart();
+    // Set instance field: private System.Boolean _didStart
+    void _set__didStart(bool value);
     // protected System.Void Awake()
     // Offset: 0x1303E58
     void Awake();

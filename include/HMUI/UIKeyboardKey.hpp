@@ -58,6 +58,22 @@ namespace HMUI {
     UIKeyboardKey(UnityEngine::KeyCode keyCode_ = {}, TMPro::TextMeshProUGUI* text_ = {}, ::Il2CppString* overrideText_ = {}, bool canBeUppercase_ = {}) noexcept : keyCode{keyCode_}, text{text_}, overrideText{overrideText_}, canBeUppercase{canBeUppercase_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.KeyCode _keyCode
+    UnityEngine::KeyCode _get__keyCode();
+    // Set instance field: private UnityEngine.KeyCode _keyCode
+    void _set__keyCode(UnityEngine::KeyCode value);
+    // Get instance field: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI* _get__text();
+    // Set instance field: private TMPro.TextMeshProUGUI _text
+    void _set__text(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private System.String _overrideText
+    ::Il2CppString* _get__overrideText();
+    // Set instance field: private System.String _overrideText
+    void _set__overrideText(::Il2CppString* value);
+    // Get instance field: private System.Boolean _canBeUppercase
+    bool _get__canBeUppercase();
+    // Set instance field: private System.Boolean _canBeUppercase
+    void _set__canBeUppercase(bool value);
     // public UnityEngine.KeyCode get_keyCode()
     // Offset: 0x12A3F34
     UnityEngine::KeyCode get_keyCode();

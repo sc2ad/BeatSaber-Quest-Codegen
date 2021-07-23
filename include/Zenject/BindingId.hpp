@@ -52,6 +52,14 @@ namespace Zenject {
     operator System::IEquatable_1<Zenject::BindingId>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<Zenject::BindingId>*>(this);
     }
+    // Get instance field: private System.Type _type
+    System::Type* _get__type();
+    // Set instance field: private System.Type _type
+    void _set__type(System::Type* value);
+    // Get instance field: private System.Object _identifier
+    ::Il2CppObject* _get__identifier();
+    // Set instance field: private System.Object _identifier
+    void _set__identifier(::Il2CppObject* value);
     // public System.Type get_Type()
     // Offset: 0xED3E44
     System::Type* get_Type();

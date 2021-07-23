@@ -51,6 +51,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::UnifiedNetworkPlayerModel*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass92_0
     $$c__DisplayClass92_0(bool clearCurrentList_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel* $$4__this_ = {}) noexcept : clearCurrentList{clearCurrentList_}, $$4__this{$$4__this_} {}
+    // Get instance field: public System.Boolean clearCurrentList
+    bool _get_clearCurrentList();
+    // Set instance field: public System.Boolean clearCurrentList
+    void _set_clearCurrentList(bool value);
+    // Get instance field: public UnifiedNetworkPlayerModel <>4__this
+    GlobalNamespace::UnifiedNetworkPlayerModel* _get_$$4__this();
+    // Set instance field: public UnifiedNetworkPlayerModel <>4__this
+    void _set_$$4__this(GlobalNamespace::UnifiedNetworkPlayerModel* value);
     // System.Void <Refresh>b__0(System.Collections.Generic.IReadOnlyList`1<PublicServerInfo> servers)
     // Offset: 0x1273508
     void $Refresh$b__0(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>* servers);

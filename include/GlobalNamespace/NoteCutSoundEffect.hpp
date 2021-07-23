@@ -220,6 +220,102 @@ namespace GlobalNamespace {
     static float _get_kEndFadeLength();
     // Set static field: static private System.Single kEndFadeLength
     static void _set_kEndFadeLength(float value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource* _get__audioSource();
+    // Set instance field: private UnityEngine.AudioSource _audioSource
+    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private UnityEngine.AnimationCurve _speedToVolumeCurve
+    UnityEngine::AnimationCurve* _get__speedToVolumeCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _speedToVolumeCurve
+    void _set__speedToVolumeCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AudioClip[] _badCutSoundEffectAudioClips
+    ::Array<UnityEngine::AudioClip*>* _get__badCutSoundEffectAudioClips();
+    // Set instance field: private UnityEngine.AudioClip[] _badCutSoundEffectAudioClips
+    void _set__badCutSoundEffectAudioClips(::Array<UnityEngine::AudioClip*>* value);
+    // Get instance field: private System.Single _badCutVolume
+    float _get__badCutVolume();
+    // Set instance field: private System.Single _badCutVolume
+    void _set__badCutVolume(float value);
+    // Get instance field: private System.Single _goodCutVolume
+    float _get__goodCutVolume();
+    // Set instance field: private System.Single _goodCutVolume
+    void _set__goodCutVolume(float value);
+    // Get instance field: private Saber _saber
+    GlobalNamespace::Saber* _get__saber();
+    // Set instance field: private Saber _saber
+    void _set__saber(GlobalNamespace::Saber* value);
+    // Get instance field: private NoteController _noteController
+    GlobalNamespace::NoteController* _get__noteController();
+    // Set instance field: private NoteController _noteController
+    void _set__noteController(GlobalNamespace::NoteController* value);
+    // Get instance field: private System.Boolean _isPlaying
+    bool _get__isPlaying();
+    // Set instance field: private System.Boolean _isPlaying
+    void _set__isPlaying(bool value);
+    // Get instance field: private System.Single _volumeMultiplier
+    float _get__volumeMultiplier();
+    // Set instance field: private System.Single _volumeMultiplier
+    void _set__volumeMultiplier(float value);
+    // Get instance field: private System.Boolean _noteWasCut
+    bool _get__noteWasCut();
+    // Set instance field: private System.Boolean _noteWasCut
+    void _set__noteWasCut(bool value);
+    // Get instance field: private System.Single _aheadTime
+    float _get__aheadTime();
+    // Set instance field: private System.Single _aheadTime
+    void _set__aheadTime(float value);
+    // Get instance field: private System.Single _timeToNextNote
+    float _get__timeToNextNote();
+    // Set instance field: private System.Single _timeToNextNote
+    void _set__timeToNextNote(float value);
+    // Get instance field: private System.Single _timeToPrevNote
+    float _get__timeToPrevNote();
+    // Set instance field: private System.Single _timeToPrevNote
+    void _set__timeToPrevNote(float value);
+    // Get instance field: private System.Double _startDSPTime
+    double _get__startDSPTime();
+    // Set instance field: private System.Double _startDSPTime
+    void _set__startDSPTime(double value);
+    // Get instance field: private System.Double _endDSPtime
+    double _get__endDSPtime();
+    // Set instance field: private System.Double _endDSPtime
+    void _set__endDSPtime(double value);
+    // Get instance field: private System.Double _fadeOutStartDSPtime
+    double _get__fadeOutStartDSPtime();
+    // Set instance field: private System.Double _fadeOutStartDSPtime
+    void _set__fadeOutStartDSPtime(double value);
+    // Get instance field: private System.Single _noteMissedTimeOffset
+    float _get__noteMissedTimeOffset();
+    // Set instance field: private System.Single _noteMissedTimeOffset
+    void _set__noteMissedTimeOffset(float value);
+    // Get instance field: private System.Single _beforeCutVolume
+    float _get__beforeCutVolume();
+    // Set instance field: private System.Single _beforeCutVolume
+    void _set__beforeCutVolume(float value);
+    // Get instance field: private System.Boolean _goodCut
+    bool _get__goodCut();
+    // Set instance field: private System.Boolean _goodCut
+    void _set__goodCut(bool value);
+    // Get instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _badCutRandomSoundPicker
+    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* _get__badCutRandomSoundPicker();
+    // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _badCutRandomSoundPicker
+    void _set__badCutRandomSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
+    // Get instance field: private System.Boolean _handleWrongSaberTypeAsGood
+    bool _get__handleWrongSaberTypeAsGood();
+    // Set instance field: private System.Boolean _handleWrongSaberTypeAsGood
+    void _set__handleWrongSaberTypeAsGood(bool value);
+    // Get instance field: private System.Boolean _ignoreSaberSpeed
+    bool _get__ignoreSaberSpeed();
+    // Set instance field: private System.Boolean _ignoreSaberSpeed
+    void _set__ignoreSaberSpeed(bool value);
+    // Get instance field: private System.Boolean _ignoreBadCuts
+    bool _get__ignoreBadCuts();
+    // Set instance field: private System.Boolean _ignoreBadCuts
+    void _set__ignoreBadCuts(bool value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> _didFinishEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* _get__didFinishEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> _didFinishEvent
+    void _set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* value);
     // public ILazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> get_didFinishEvent()
     // Offset: 0x10184DC
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();

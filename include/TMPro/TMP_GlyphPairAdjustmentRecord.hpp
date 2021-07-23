@@ -43,6 +43,18 @@ namespace TMPro {
     static_assert(sizeof(TMPro::FontFeatureLookupFlags) == 0x4);
     // Creating value type constructor for type: TMP_GlyphPairAdjustmentRecord
     TMP_GlyphPairAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord_ = {}, TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord_ = {}, TMPro::FontFeatureLookupFlags m_FeatureLookupFlags_ = {}) noexcept : m_FirstAdjustmentRecord{m_FirstAdjustmentRecord_}, m_SecondAdjustmentRecord{m_SecondAdjustmentRecord_}, m_FeatureLookupFlags{m_FeatureLookupFlags_} {}
+    // Get instance field: private TMPro.TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord
+    TMPro::TMP_GlyphAdjustmentRecord _get_m_FirstAdjustmentRecord();
+    // Set instance field: private TMPro.TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord
+    void _set_m_FirstAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
+    // Get instance field: private TMPro.TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord
+    TMPro::TMP_GlyphAdjustmentRecord _get_m_SecondAdjustmentRecord();
+    // Set instance field: private TMPro.TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord
+    void _set_m_SecondAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
+    // Get instance field: private TMPro.FontFeatureLookupFlags m_FeatureLookupFlags
+    TMPro::FontFeatureLookupFlags _get_m_FeatureLookupFlags();
+    // Set instance field: private TMPro.FontFeatureLookupFlags m_FeatureLookupFlags
+    void _set_m_FeatureLookupFlags(TMPro::FontFeatureLookupFlags value);
     // public TMPro.TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord()
     // Offset: 0x10C948C
     TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();

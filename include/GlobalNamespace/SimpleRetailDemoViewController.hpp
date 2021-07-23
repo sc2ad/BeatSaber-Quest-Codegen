@@ -84,6 +84,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::SimpleRetailDemoViewController::MenuButton _get_Exit();
       // Set static field: static public SimpleRetailDemoViewController/MenuButton Exit
       static void _set_Exit(GlobalNamespace::SimpleRetailDemoViewController::MenuButton value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // SimpleRetailDemoViewController/MenuButton
     #pragma pack(pop)
     static check_size<sizeof(SimpleRetailDemoViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_SimpleRetailDemoViewController_MenuButtonSizeCheck;
@@ -120,6 +124,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>*) == 0x8);
     // Creating value type constructor for type: SimpleRetailDemoViewController
     SimpleRetailDemoViewController(UnityEngine::UI::Button* tutorialButton_ = {}, UnityEngine::UI::Button* playLevel1Button_ = {}, UnityEngine::UI::Button* playLevel2Button_ = {}, UnityEngine::UI::Button* exitButton_ = {}, System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* didFinishEvent_ = {}) noexcept : tutorialButton{tutorialButton_}, playLevel1Button{playLevel1Button_}, playLevel2Button{playLevel2Button_}, exitButton{exitButton_}, didFinishEvent{didFinishEvent_} {}
+    // Get instance field: private UnityEngine.UI.Button _tutorialButton
+    UnityEngine::UI::Button* _get__tutorialButton();
+    // Set instance field: private UnityEngine.UI.Button _tutorialButton
+    void _set__tutorialButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _playLevel1Button
+    UnityEngine::UI::Button* _get__playLevel1Button();
+    // Set instance field: private UnityEngine.UI.Button _playLevel1Button
+    void _set__playLevel1Button(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _playLevel2Button
+    UnityEngine::UI::Button* _get__playLevel2Button();
+    // Set instance field: private UnityEngine.UI.Button _playLevel2Button
+    void _set__playLevel2Button(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _exitButton
+    UnityEngine::UI::Button* _get__exitButton();
+    // Set instance field: private UnityEngine.UI.Button _exitButton
+    void _set__exitButton(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> didFinishEvent
+    System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* _get_didFinishEvent();
+    // Set instance field: private System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> didFinishEvent
+    void _set_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);
     // public System.Void add_didFinishEvent(System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> value)
     // Offset: 0x1055920
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);

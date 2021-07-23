@@ -40,6 +40,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
     // Creating value type constructor for type: SongPackMasksModel
     SongPackMasksModel(GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, GlobalNamespace::SongPackMask allSongPackMask_ = {}) noexcept : songPackMaskModel{songPackMaskModel_}, allSongPackMask{allSongPackMask_} {}
+    // Get instance field: private readonly SongPackMaskModelSO _songPackMaskModel
+    GlobalNamespace::SongPackMaskModelSO* _get__songPackMaskModel();
+    // Set instance field: private readonly SongPackMaskModelSO _songPackMaskModel
+    void _set__songPackMaskModel(GlobalNamespace::SongPackMaskModelSO* value);
+    // Get instance field: private readonly SongPackMask _allSongPackMask
+    GlobalNamespace::SongPackMask _get__allSongPackMask();
+    // Set instance field: private readonly SongPackMask _allSongPackMask
+    void _set__allSongPackMask(GlobalNamespace::SongPackMask value);
     // public System.Void .ctor(SongPackMaskModelSO songPackMasks)
     // Offset: 0x105AC90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

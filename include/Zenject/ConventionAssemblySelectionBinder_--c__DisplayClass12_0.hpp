@@ -45,6 +45,10 @@ namespace Zenject {
     constexpr operator System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>*() const noexcept {
       return assemblies;
     }
+    // Get instance field: public System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies
+    System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* _get_assemblies();
+    // Set instance field: public System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies
+    void _set_assemblies(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* value);
     // System.Boolean <FromAssemblies>b__0(System.Reflection.Assembly assembly)
     // Offset: 0x137F6F4
     bool $FromAssemblies$b__0(System::Reflection::Assembly* assembly);

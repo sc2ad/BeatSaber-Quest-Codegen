@@ -35,6 +35,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static int _get_KeySize();
     // Set static field: static public readonly System.Int32 KeySize
     static void _set_KeySize(int value);
+    // Get instance field: private readonly System.Byte[] data
+    ::Array<uint8_t>* _get_data();
+    // Set instance field: private readonly System.Byte[] data
+    void _set_data(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
     // Offset: 0x122AE8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

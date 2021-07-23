@@ -104,6 +104,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState _get_WaitingForCountdown();
       // Set static field: static public MultiplayerLevelLoader/MultiplayerBeatmapLoaderState WaitingForCountdown
       static void _set_WaitingForCountdown(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MultiplayerLevelLoader/MultiplayerBeatmapLoaderState
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
@@ -202,6 +206,62 @@ namespace GlobalNamespace {
     operator Zenject::ITickable() noexcept {
       return *reinterpret_cast<Zenject::ITickable*>(this);
     }
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
+    // Set instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
+    // Get instance field: private System.Action stillDownloadingSongEvent
+    System::Action* _get_stillDownloadingSongEvent();
+    // Set instance field: private System.Action stillDownloadingSongEvent
+    void _set_stillDownloadingSongEvent(System::Action* value);
+    // Get instance field: private System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> countdownFinishedEvent
+    System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* _get_countdownFinishedEvent();
+    // Set instance field: private System.Action`5<IPreviewBeatmapLevel,BeatmapDifficulty,BeatmapCharacteristicSO,IDifficultyBeatmap,GameplayModifiers> countdownFinishedEvent
+    void _set_countdownFinishedEvent(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>* value);
+    // Get instance field: private MultiplayerLevelLoader/MultiplayerBeatmapLoaderState _loaderState
+    GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState _get__loaderState();
+    // Set instance field: private MultiplayerLevelLoader/MultiplayerBeatmapLoaderState _loaderState
+    void _set__loaderState(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState value);
+    // Get instance field: private System.Threading.CancellationTokenSource _getBeatmapCancellationTokenSource
+    System::Threading::CancellationTokenSource* _get__getBeatmapCancellationTokenSource();
+    // Set instance field: private System.Threading.CancellationTokenSource _getBeatmapCancellationTokenSource
+    void _set__getBeatmapCancellationTokenSource(System::Threading::CancellationTokenSource* value);
+    // Get instance field: private System.Threading.Tasks.Task`1<BeatmapLevelsModel/GetBeatmapLevelResult> _getBeatmapLevelResultTask
+    System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* _get__getBeatmapLevelResultTask();
+    // Set instance field: private System.Threading.Tasks.Task`1<BeatmapLevelsModel/GetBeatmapLevelResult> _getBeatmapLevelResultTask
+    void _set__getBeatmapLevelResultTask(System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* value);
+    // Get instance field: private BeatmapIdentifierNetSerializable _beatmapId
+    GlobalNamespace::BeatmapIdentifierNetSerializable* _get__beatmapId();
+    // Set instance field: private BeatmapIdentifierNetSerializable _beatmapId
+    void _set__beatmapId(GlobalNamespace::BeatmapIdentifierNetSerializable* value);
+    // Get instance field: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
+    // Set instance field: private GameplayModifiers _gameplayModifiers
+    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field: private IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
+    // Set instance field: private IDifficultyBeatmap _difficultyBeatmap
+    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private IPreviewBeatmapLevel _previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel* _get__previewBeatmapLevel();
+    // Set instance field: private IPreviewBeatmapLevel _previewBeatmapLevel
+    void _set__previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: private System.Single _startTime
+    float _get__startTime();
+    // Set instance field: private System.Single _startTime
+    void _set__startTime(float value);
+    // Get instance field: private System.Boolean _stillDownloadingCalled
+    bool _get__stillDownloadingCalled();
+    // Set instance field: private System.Boolean _stillDownloadingCalled
+    void _set__stillDownloadingCalled(bool value);
     // public System.Void add_stillDownloadingSongEvent(System.Action value)
     // Offset: 0x23CB9A0
     void add_stillDownloadingSongEvent(System::Action* value);

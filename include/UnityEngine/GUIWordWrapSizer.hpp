@@ -50,6 +50,18 @@ namespace UnityEngine {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: GUIWordWrapSizer
     GUIWordWrapSizer(UnityEngine::GUIContent* m_Content_ = {}, float m_ForcedMinHeight_ = {}, float m_ForcedMaxHeight_ = {}) noexcept : m_Content{m_Content_}, m_ForcedMinHeight{m_ForcedMinHeight_}, m_ForcedMaxHeight{m_ForcedMaxHeight_} {}
+    // Get instance field: private readonly UnityEngine.GUIContent m_Content
+    UnityEngine::GUIContent* _get_m_Content();
+    // Set instance field: private readonly UnityEngine.GUIContent m_Content
+    void _set_m_Content(UnityEngine::GUIContent* value);
+    // Get instance field: private readonly System.Single m_ForcedMinHeight
+    float _get_m_ForcedMinHeight();
+    // Set instance field: private readonly System.Single m_ForcedMinHeight
+    void _set_m_ForcedMinHeight(float value);
+    // Get instance field: private readonly System.Single m_ForcedMaxHeight
+    float _get_m_ForcedMaxHeight();
+    // Set instance field: private readonly System.Single m_ForcedMaxHeight
+    void _set_m_ForcedMaxHeight(float value);
     // public System.Void .ctor(UnityEngine.GUIStyle style, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1AA980C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

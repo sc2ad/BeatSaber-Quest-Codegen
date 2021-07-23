@@ -33,6 +33,14 @@ namespace System {
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: ValuesAndNames
     ValuesAndNames(::Array<uint64_t>* Values_ = {}, ::Array<::Il2CppString*>* Names_ = {}) noexcept : Values{Values_}, Names{Names_} {}
+    // Get instance field: public System.UInt64[] Values
+    ::Array<uint64_t>* _get_Values();
+    // Set instance field: public System.UInt64[] Values
+    void _set_Values(::Array<uint64_t>* value);
+    // Get instance field: public System.String[] Names
+    ::Array<::Il2CppString*>* _get_Names();
+    // Set instance field: public System.String[] Names
+    void _set_Names(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
     // Offset: 0x17C25F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

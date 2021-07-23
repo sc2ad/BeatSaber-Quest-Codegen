@@ -52,6 +52,18 @@ namespace UnityEngine::ResourceManagement {
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
     // Creating value type constructor for type: WebRequestQueueOperation
     WebRequestQueueOperation(UnityEngine::Networking::UnityWebRequestAsyncOperation* Result_ = {}, System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete_ = {}, UnityEngine::Networking::UnityWebRequest* m_WebRequest_ = {}) noexcept : Result{Result_}, OnComplete{OnComplete_}, m_WebRequest{m_WebRequest_} {}
+    // Get instance field: public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
+    UnityEngine::Networking::UnityWebRequestAsyncOperation* _get_Result();
+    // Set instance field: public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
+    void _set_Result(UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
+    // Get instance field: public System.Action`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> OnComplete
+    System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>* _get_OnComplete();
+    // Set instance field: public System.Action`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> OnComplete
+    void _set_OnComplete(System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>* value);
+    // Get instance field: UnityEngine.Networking.UnityWebRequest m_WebRequest
+    UnityEngine::Networking::UnityWebRequest* _get_m_WebRequest();
+    // Set instance field: UnityEngine.Networking.UnityWebRequest m_WebRequest
+    void _set_m_WebRequest(UnityEngine::Networking::UnityWebRequest* value);
     // public System.Boolean get_IsDone()
     // Offset: 0x19B7684
     bool get_IsDone();

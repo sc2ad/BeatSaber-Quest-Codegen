@@ -101,6 +101,46 @@ namespace GlobalNamespace {
     SafeAreaRectChecker(float minAngleX_ = {}, float maxAngleX_ = {}, float minAngleY_ = {}, float maxAngleY_ = {}, UnityEngine::GameObject* activeObjectWhenInsideSafeArea_ = {}, UnityEngine::GameObject* activeObjectWhenNotInsideSafeArea_ = {}, UnityEngine::RectTransform* rectTransformToCheck_ = {}, ::Array<UnityEngine::Vector3>* corners_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, GlobalNamespace::SafeAreaRectChecker::InitData* initData_ = {}) noexcept : minAngleX{minAngleX_}, maxAngleX{maxAngleX_}, minAngleY{minAngleY_}, maxAngleY{maxAngleY_}, activeObjectWhenInsideSafeArea{activeObjectWhenInsideSafeArea_}, activeObjectWhenNotInsideSafeArea{activeObjectWhenNotInsideSafeArea_}, rectTransformToCheck{rectTransformToCheck_}, corners{corners_}, mainCamera{mainCamera_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _minAngleX
+    float _get__minAngleX();
+    // Set instance field: private System.Single _minAngleX
+    void _set__minAngleX(float value);
+    // Get instance field: private System.Single _maxAngleX
+    float _get__maxAngleX();
+    // Set instance field: private System.Single _maxAngleX
+    void _set__maxAngleX(float value);
+    // Get instance field: private System.Single _minAngleY
+    float _get__minAngleY();
+    // Set instance field: private System.Single _minAngleY
+    void _set__minAngleY(float value);
+    // Get instance field: private System.Single _maxAngleY
+    float _get__maxAngleY();
+    // Set instance field: private System.Single _maxAngleY
+    void _set__maxAngleY(float value);
+    // Get instance field: private UnityEngine.GameObject _activeObjectWhenInsideSafeArea
+    UnityEngine::GameObject* _get__activeObjectWhenInsideSafeArea();
+    // Set instance field: private UnityEngine.GameObject _activeObjectWhenInsideSafeArea
+    void _set__activeObjectWhenInsideSafeArea(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _activeObjectWhenNotInsideSafeArea
+    UnityEngine::GameObject* _get__activeObjectWhenNotInsideSafeArea();
+    // Set instance field: private UnityEngine.GameObject _activeObjectWhenNotInsideSafeArea
+    void _set__activeObjectWhenNotInsideSafeArea(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.RectTransform _rectTransformToCheck
+    UnityEngine::RectTransform* _get__rectTransformToCheck();
+    // Set instance field: private UnityEngine.RectTransform _rectTransformToCheck
+    void _set__rectTransformToCheck(UnityEngine::RectTransform* value);
+    // Get instance field: private readonly UnityEngine.Vector3[] _corners
+    ::Array<UnityEngine::Vector3>* _get__corners();
+    // Set instance field: private readonly UnityEngine.Vector3[] _corners
+    void _set__corners(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private readonly MainCamera _mainCamera
+    GlobalNamespace::MainCamera* _get__mainCamera();
+    // Set instance field: private readonly MainCamera _mainCamera
+    void _set__mainCamera(GlobalNamespace::MainCamera* value);
+    // Get instance field: private readonly SafeAreaRectChecker/InitData _initData
+    GlobalNamespace::SafeAreaRectChecker::InitData* _get__initData();
+    // Set instance field: private readonly SafeAreaRectChecker/InitData _initData
+    void _set__initData(GlobalNamespace::SafeAreaRectChecker::InitData* value);
     // public System.Void Start()
     // Offset: 0x114F178
     void Start();

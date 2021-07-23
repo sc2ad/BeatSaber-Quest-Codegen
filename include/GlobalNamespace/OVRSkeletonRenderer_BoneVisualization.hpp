@@ -70,6 +70,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
     // Creating value type constructor for type: BoneVisualization
     BoneVisualization(UnityEngine::GameObject* BoneGO_ = {}, UnityEngine::Transform* BoneBegin_ = {}, UnityEngine::Transform* BoneEnd_ = {}, UnityEngine::LineRenderer* Line_ = {}, UnityEngine::Material* RenderMaterial_ = {}, UnityEngine::Material* SystemGestureMaterial_ = {}) noexcept : BoneGO{BoneGO_}, BoneBegin{BoneBegin_}, BoneEnd{BoneEnd_}, Line{Line_}, RenderMaterial{RenderMaterial_}, SystemGestureMaterial{SystemGestureMaterial_} {}
+    // Get instance field: private UnityEngine.GameObject BoneGO
+    UnityEngine::GameObject* _get_BoneGO();
+    // Set instance field: private UnityEngine.GameObject BoneGO
+    void _set_BoneGO(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.Transform BoneBegin
+    UnityEngine::Transform* _get_BoneBegin();
+    // Set instance field: private UnityEngine.Transform BoneBegin
+    void _set_BoneBegin(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform BoneEnd
+    UnityEngine::Transform* _get_BoneEnd();
+    // Set instance field: private UnityEngine.Transform BoneEnd
+    void _set_BoneEnd(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.LineRenderer Line
+    UnityEngine::LineRenderer* _get_Line();
+    // Set instance field: private UnityEngine.LineRenderer Line
+    void _set_Line(UnityEngine::LineRenderer* value);
+    // Get instance field: private UnityEngine.Material RenderMaterial
+    UnityEngine::Material* _get_RenderMaterial();
+    // Set instance field: private UnityEngine.Material RenderMaterial
+    void _set_RenderMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material SystemGestureMaterial
+    UnityEngine::Material* _get_SystemGestureMaterial();
+    // Set instance field: private UnityEngine.Material SystemGestureMaterial
+    void _set_SystemGestureMaterial(UnityEngine::Material* value);
     // public System.Void .ctor(UnityEngine.GameObject rootGO, UnityEngine.Material renderMat, UnityEngine.Material systemGestureMat, System.Single scale, UnityEngine.Transform begin, UnityEngine.Transform end)
     // Offset: 0x1EEEE94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

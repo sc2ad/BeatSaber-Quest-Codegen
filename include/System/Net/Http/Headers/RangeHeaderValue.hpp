@@ -53,6 +53,14 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.RangeItemHeaderValue> ranges
+    System::Collections::Generic::List_1<System::Net::Http::Headers::RangeItemHeaderValue*>* _get_ranges();
+    // Set instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.RangeItemHeaderValue> ranges
+    void _set_ranges(System::Collections::Generic::List_1<System::Net::Http::Headers::RangeItemHeaderValue*>* value);
+    // Get instance field: private System.String unit
+    ::Il2CppString* _get_unit();
+    // Set instance field: private System.String unit
+    void _set_unit(::Il2CppString* value);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.RangeItemHeaderValue> get_Ranges()
     // Offset: 0x156BDB4
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();

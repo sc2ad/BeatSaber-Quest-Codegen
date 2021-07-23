@@ -42,6 +42,14 @@ namespace UnityEngine::SceneManagement {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.SceneManagement.LoadSceneMode m_LoadSceneMode
+    UnityEngine::SceneManagement::LoadSceneMode _get_m_LoadSceneMode();
+    // Set instance field: private UnityEngine.SceneManagement.LoadSceneMode m_LoadSceneMode
+    void _set_m_LoadSceneMode(UnityEngine::SceneManagement::LoadSceneMode value);
+    // Get instance field: private UnityEngine.SceneManagement.LocalPhysicsMode m_LocalPhysicsMode
+    UnityEngine::SceneManagement::LocalPhysicsMode _get_m_LocalPhysicsMode();
+    // Set instance field: private UnityEngine.SceneManagement.LocalPhysicsMode m_LocalPhysicsMode
+    void _set_m_LocalPhysicsMode(UnityEngine::SceneManagement::LocalPhysicsMode value);
     // public System.Void set_loadSceneMode(UnityEngine.SceneManagement.LoadSceneMode value)
     // Offset: 0xEF5DD4
     void set_loadSceneMode(UnityEngine::SceneManagement::LoadSceneMode value);

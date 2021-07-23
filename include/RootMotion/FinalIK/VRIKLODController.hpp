@@ -61,6 +61,22 @@ namespace RootMotion::FinalIK {
     VRIKLODController(UnityEngine::Renderer* LODRenderer_ = {}, float LODDistance_ = {}, bool allowCulled_ = {}, RootMotion::FinalIK::VRIK* ik_ = {}) noexcept : LODRenderer{LODRenderer_}, LODDistance{LODDistance_}, allowCulled{allowCulled_}, ik{ik_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Renderer LODRenderer
+    UnityEngine::Renderer* _get_LODRenderer();
+    // Set instance field: public UnityEngine.Renderer LODRenderer
+    void _set_LODRenderer(UnityEngine::Renderer* value);
+    // Get instance field: public System.Single LODDistance
+    float _get_LODDistance();
+    // Set instance field: public System.Single LODDistance
+    void _set_LODDistance(float value);
+    // Get instance field: public System.Boolean allowCulled
+    bool _get_allowCulled();
+    // Set instance field: public System.Boolean allowCulled
+    void _set_allowCulled(bool value);
+    // Get instance field: private RootMotion.FinalIK.VRIK ik
+    RootMotion::FinalIK::VRIK* _get_ik();
+    // Set instance field: private RootMotion.FinalIK.VRIK ik
+    void _set_ik(RootMotion::FinalIK::VRIK* value);
     // private System.Void Start()
     // Offset: 0x1AC37D0
     void Start();

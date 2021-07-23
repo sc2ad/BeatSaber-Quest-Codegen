@@ -48,6 +48,18 @@ namespace UnityEngine::TextCore::LowLevel {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord
+    UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord _get_m_FirstAdjustmentRecord();
+    // Set instance field: private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord
+    void _set_m_FirstAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value);
+    // Get instance field: private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_SecondAdjustmentRecord
+    UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord _get_m_SecondAdjustmentRecord();
+    // Set instance field: private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_SecondAdjustmentRecord
+    void _set_m_SecondAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value);
+    // Get instance field: private UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags m_FeatureLookupFlags
+    UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags _get_m_FeatureLookupFlags();
+    // Set instance field: private UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags m_FeatureLookupFlags
+    void _set_m_FeatureLookupFlags(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags value);
     // public UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord get_firstAdjustmentRecord()
     // Offset: 0xF0E020
     UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord();

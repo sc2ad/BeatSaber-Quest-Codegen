@@ -67,6 +67,10 @@ namespace Valve::VR {
     static Valve::VR::ETrackedDeviceClass _get_DisplayRedirect();
     // Set static field: static public Valve.VR.ETrackedDeviceClass DisplayRedirect
     static void _set_DisplayRedirect(Valve::VR::ETrackedDeviceClass value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.ETrackedDeviceClass
   #pragma pack(pop)
   static check_size<sizeof(ETrackedDeviceClass), 0 + sizeof(int)> __Valve_VR_ETrackedDeviceClassSizeCheck;

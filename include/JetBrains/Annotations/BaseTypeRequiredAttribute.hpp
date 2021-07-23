@@ -40,6 +40,10 @@ namespace JetBrains::Annotations {
     constexpr operator System::Type*() const noexcept {
       return BaseType;
     }
+    // Get instance field: private System.Type <BaseType>k__BackingField
+    System::Type* _get_$BaseType$k__BackingField();
+    // Set instance field: private System.Type <BaseType>k__BackingField
+    void _set_$BaseType$k__BackingField(System::Type* value);
     // public System.Type get_BaseType()
     // Offset: 0x23B21A4
     System::Type* get_BaseType();

@@ -62,6 +62,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
     // Creating value type constructor for type: TestFlowCoordinator
     TestFlowCoordinator(HMUI::ViewController* viewController_ = {}, HMUI::ViewController* leftViewController_ = {}, HMUI::ViewController* rightViewController_ = {}, HMUI::ViewController* bottomScreenViewController_ = {}, HMUI::ViewController* topScreenViewController_ = {}) noexcept : viewController{viewController_}, leftViewController{leftViewController_}, rightViewController{rightViewController_}, bottomScreenViewController{bottomScreenViewController_}, topScreenViewController{topScreenViewController_} {}
+    // Get instance field: private HMUI.ViewController _viewController
+    HMUI::ViewController* _get__viewController();
+    // Set instance field: private HMUI.ViewController _viewController
+    void _set__viewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _leftViewController
+    HMUI::ViewController* _get__leftViewController();
+    // Set instance field: private HMUI.ViewController _leftViewController
+    void _set__leftViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _rightViewController
+    HMUI::ViewController* _get__rightViewController();
+    // Set instance field: private HMUI.ViewController _rightViewController
+    void _set__rightViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _bottomScreenViewController
+    HMUI::ViewController* _get__bottomScreenViewController();
+    // Set instance field: private HMUI.ViewController _bottomScreenViewController
+    void _set__bottomScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _topScreenViewController
+    HMUI::ViewController* _get__topScreenViewController();
+    // Set instance field: private HMUI.ViewController _topScreenViewController
+    void _set__topScreenViewController(HMUI::ViewController* value);
     // public System.Void .ctor()
     // Offset: 0x106C0B4
     // Implemented from: HMUI.FlowCoordinator

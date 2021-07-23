@@ -107,6 +107,22 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SubContainerBinder
     SubContainerBinder(Zenject::BindInfo* bindInfo_ = {}, Zenject::BindStatement* bindStatement_ = {}, ::Il2CppObject* subIdentifier_ = {}, bool resolveAll_ = {}) noexcept : bindInfo{bindInfo_}, bindStatement{bindStatement_}, subIdentifier{subIdentifier_}, resolveAll{resolveAll_} {}
+    // Get instance field: private readonly Zenject.BindInfo _bindInfo
+    Zenject::BindInfo* _get__bindInfo();
+    // Set instance field: private readonly Zenject.BindInfo _bindInfo
+    void _set__bindInfo(Zenject::BindInfo* value);
+    // Get instance field: private readonly Zenject.BindStatement _bindStatement
+    Zenject::BindStatement* _get__bindStatement();
+    // Set instance field: private readonly Zenject.BindStatement _bindStatement
+    void _set__bindStatement(Zenject::BindStatement* value);
+    // Get instance field: private readonly System.Object _subIdentifier
+    ::Il2CppObject* _get__subIdentifier();
+    // Set instance field: private readonly System.Object _subIdentifier
+    void _set__subIdentifier(::Il2CppObject* value);
+    // Get instance field: private readonly System.Boolean _resolveAll
+    bool _get__resolveAll();
+    // Set instance field: private readonly System.Boolean _resolveAll
+    void _set__resolveAll(bool value);
     // protected System.Void set_SubFinalizer(Zenject.IBindingFinalizer value)
     // Offset: 0x16CFAE0
     void set_SubFinalizer(Zenject::IBindingFinalizer* value);

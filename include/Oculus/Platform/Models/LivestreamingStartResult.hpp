@@ -33,6 +33,10 @@ namespace Oculus::Platform::Models {
     constexpr operator Oculus::Platform::LivestreamingStartStatus() const noexcept {
       return StreamingResult;
     }
+    // Get instance field: public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
+    Oculus::Platform::LivestreamingStartStatus _get_StreamingResult();
+    // Set instance field: public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
+    void _set_StreamingResult(Oculus::Platform::LivestreamingStartStatus value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A3E88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

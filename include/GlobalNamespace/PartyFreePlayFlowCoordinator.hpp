@@ -94,6 +94,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController*) == 0x8);
     // Creating value type constructor for type: PartyFreePlayFlowCoordinator
     PartyFreePlayFlowCoordinator(GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsClearedLightsPreset_ = {}, GlobalNamespace::MenuLightsPresetSO* resultsFailedLightsPreset_ = {}, GlobalNamespace::MenuLightsManager* menuLightsManager_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}, GlobalNamespace::LocalLeaderboardViewController* localLeaderboardViewController_ = {}, GlobalNamespace::EnterPlayerGuestNameViewController* enterNameViewController_ = {}) noexcept : defaultLightsPreset{defaultLightsPreset_}, resultsClearedLightsPreset{resultsClearedLightsPreset_}, resultsFailedLightsPreset{resultsFailedLightsPreset_}, menuLightsManager{menuLightsManager_}, resultsViewController{resultsViewController_}, localLeaderboardViewController{localLeaderboardViewController_}, enterNameViewController{enterNameViewController_} {}
+    // Get instance field: private MenuLightsPresetSO _defaultLightsPreset
+    GlobalNamespace::MenuLightsPresetSO* _get__defaultLightsPreset();
+    // Set instance field: private MenuLightsPresetSO _defaultLightsPreset
+    void _set__defaultLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
+    // Get instance field: private MenuLightsPresetSO _resultsClearedLightsPreset
+    GlobalNamespace::MenuLightsPresetSO* _get__resultsClearedLightsPreset();
+    // Set instance field: private MenuLightsPresetSO _resultsClearedLightsPreset
+    void _set__resultsClearedLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
+    // Get instance field: private MenuLightsPresetSO _resultsFailedLightsPreset
+    GlobalNamespace::MenuLightsPresetSO* _get__resultsFailedLightsPreset();
+    // Set instance field: private MenuLightsPresetSO _resultsFailedLightsPreset
+    void _set__resultsFailedLightsPreset(GlobalNamespace::MenuLightsPresetSO* value);
+    // Get instance field: private readonly MenuLightsManager _menuLightsManager
+    GlobalNamespace::MenuLightsManager* _get__menuLightsManager();
+    // Set instance field: private readonly MenuLightsManager _menuLightsManager
+    void _set__menuLightsManager(GlobalNamespace::MenuLightsManager* value);
+    // Get instance field: private readonly ResultsViewController _resultsViewController
+    GlobalNamespace::ResultsViewController* _get__resultsViewController();
+    // Set instance field: private readonly ResultsViewController _resultsViewController
+    void _set__resultsViewController(GlobalNamespace::ResultsViewController* value);
+    // Get instance field: private readonly LocalLeaderboardViewController _localLeaderboardViewController
+    GlobalNamespace::LocalLeaderboardViewController* _get__localLeaderboardViewController();
+    // Set instance field: private readonly LocalLeaderboardViewController _localLeaderboardViewController
+    void _set__localLeaderboardViewController(GlobalNamespace::LocalLeaderboardViewController* value);
+    // Get instance field: private readonly EnterPlayerGuestNameViewController _enterNameViewController
+    GlobalNamespace::EnterPlayerGuestNameViewController* _get__enterNameViewController();
+    // Set instance field: private readonly EnterPlayerGuestNameViewController _enterNameViewController
+    void _set__enterNameViewController(GlobalNamespace::EnterPlayerGuestNameViewController* value);
     // private System.Boolean WillScoreGoToLeaderboard(LevelCompletionResults levelCompletionResults, System.String leaderboardId, System.Boolean practice)
     // Offset: 0xFFECE8
     bool WillScoreGoToLeaderboard(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Il2CppString* leaderboardId, bool practice);

@@ -40,6 +40,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*) == 0x8);
     // Creating value type constructor for type: MissionCompletionResults
     MissionCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults_ = {}) noexcept : levelCompletionResults{levelCompletionResults_}, missionObjectiveResults{missionObjectiveResults_} {}
+    // Get instance field: public readonly LevelCompletionResults levelCompletionResults
+    GlobalNamespace::LevelCompletionResults* _get_levelCompletionResults();
+    // Set instance field: public readonly LevelCompletionResults levelCompletionResults
+    void _set_levelCompletionResults(GlobalNamespace::LevelCompletionResults* value);
+    // Get instance field: public readonly MissionObjectiveResult[] missionObjectiveResults
+    ::Array<GlobalNamespace::MissionObjectiveResult*>* _get_missionObjectiveResults();
+    // Set instance field: public readonly MissionObjectiveResult[] missionObjectiveResults
+    void _set_missionObjectiveResults(::Array<GlobalNamespace::MissionObjectiveResult*>* value);
     // public System.Boolean get_IsMissionComplete()
     // Offset: 0x112FD74
     bool get_IsMissionComplete();

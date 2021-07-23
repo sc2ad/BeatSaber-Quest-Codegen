@@ -40,6 +40,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BinaryObject
     BinaryObject(int objectId_ = {}, int mapId_ = {}) noexcept : objectId{objectId_}, mapId{mapId_} {}
+    // Get instance field: System.Int32 objectId
+    int _get_objectId();
+    // Set instance field: System.Int32 objectId
+    void _set_objectId(int value);
+    // Get instance field: System.Int32 mapId
+    int _get_mapId();
+    // Set instance field: System.Int32 mapId
+    void _set_mapId(int value);
     // System.Void Set(System.Int32 objectId, System.Int32 mapId)
     // Offset: 0x15DA110
     void Set(int objectId, int mapId);

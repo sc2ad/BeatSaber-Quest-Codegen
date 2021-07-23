@@ -44,6 +44,18 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt16 unWidth
+    uint16_t _get_unWidth();
+    // Set instance field: public System.UInt16 unWidth
+    void _set_unWidth(uint16_t value);
+    // Get instance field: public System.UInt16 unHeight
+    uint16_t _get_unHeight();
+    // Set instance field: public System.UInt16 unHeight
+    void _set_unHeight(uint16_t value);
+    // Get instance field: public System.IntPtr rubTextureMapData
+    System::IntPtr _get_rubTextureMapData();
+    // Set instance field: public System.IntPtr rubTextureMapData
+    void _set_rubTextureMapData(System::IntPtr value);
   }; // OVR.OpenVR.RenderModel_TextureMap_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(System::IntPtr)> __OVR_OpenVR_RenderModel_TextureMap_tSizeCheck;

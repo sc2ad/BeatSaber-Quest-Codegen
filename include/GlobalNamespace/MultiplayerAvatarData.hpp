@@ -154,6 +154,70 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::MultiplayerAvatarData>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MultiplayerAvatarData>*>(this);
     }
+    // Get instance field: public readonly System.String headTopId
+    ::Il2CppString* _get_headTopId();
+    // Set instance field: public readonly System.String headTopId
+    void _set_headTopId(::Il2CppString* value);
+    // Get instance field: public readonly UnityEngine.Color32 headTopPrimaryColor
+    UnityEngine::Color32 _get_headTopPrimaryColor();
+    // Set instance field: public readonly UnityEngine.Color32 headTopPrimaryColor
+    void _set_headTopPrimaryColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly UnityEngine.Color32 headTopSecondaryColor
+    UnityEngine::Color32 _get_headTopSecondaryColor();
+    // Set instance field: public readonly UnityEngine.Color32 headTopSecondaryColor
+    void _set_headTopSecondaryColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly System.String glassesId
+    ::Il2CppString* _get_glassesId();
+    // Set instance field: public readonly System.String glassesId
+    void _set_glassesId(::Il2CppString* value);
+    // Get instance field: public readonly UnityEngine.Color32 glassesColor
+    UnityEngine::Color32 _get_glassesColor();
+    // Set instance field: public readonly UnityEngine.Color32 glassesColor
+    void _set_glassesColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly System.String facialHairId
+    ::Il2CppString* _get_facialHairId();
+    // Set instance field: public readonly System.String facialHairId
+    void _set_facialHairId(::Il2CppString* value);
+    // Get instance field: public readonly UnityEngine.Color32 facialHairColor
+    UnityEngine::Color32 _get_facialHairColor();
+    // Set instance field: public readonly UnityEngine.Color32 facialHairColor
+    void _set_facialHairColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly System.String handsId
+    ::Il2CppString* _get_handsId();
+    // Set instance field: public readonly System.String handsId
+    void _set_handsId(::Il2CppString* value);
+    // Get instance field: public readonly UnityEngine.Color32 handsColor
+    UnityEngine::Color32 _get_handsColor();
+    // Set instance field: public readonly UnityEngine.Color32 handsColor
+    void _set_handsColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly System.String clothesId
+    ::Il2CppString* _get_clothesId();
+    // Set instance field: public readonly System.String clothesId
+    void _set_clothesId(::Il2CppString* value);
+    // Get instance field: public readonly UnityEngine.Color32 clothesPrimaryColor
+    UnityEngine::Color32 _get_clothesPrimaryColor();
+    // Set instance field: public readonly UnityEngine.Color32 clothesPrimaryColor
+    void _set_clothesPrimaryColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly UnityEngine.Color32 clothesSecondaryColor
+    UnityEngine::Color32 _get_clothesSecondaryColor();
+    // Set instance field: public readonly UnityEngine.Color32 clothesSecondaryColor
+    void _set_clothesSecondaryColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly UnityEngine.Color32 clothesDetailColor
+    UnityEngine::Color32 _get_clothesDetailColor();
+    // Set instance field: public readonly UnityEngine.Color32 clothesDetailColor
+    void _set_clothesDetailColor(UnityEngine::Color32 value);
+    // Get instance field: public readonly System.String skinColorId
+    ::Il2CppString* _get_skinColorId();
+    // Set instance field: public readonly System.String skinColorId
+    void _set_skinColorId(::Il2CppString* value);
+    // Get instance field: public readonly System.String eyesId
+    ::Il2CppString* _get_eyesId();
+    // Set instance field: public readonly System.String eyesId
+    void _set_eyesId(::Il2CppString* value);
+    // Get instance field: public readonly System.String mouthId
+    ::Il2CppString* _get_mouthId();
+    // Set instance field: public readonly System.String mouthId
+    void _set_mouthId(::Il2CppString* value);
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color32 headTopPrimaryColor, UnityEngine.Color32 headTopSecondaryColor, System.String glassesId, UnityEngine.Color32 glassesColor, System.String facialHairId, UnityEngine.Color32 facialHairColor, System.String handsId, UnityEngine.Color32 handsColor, System.String clothesId, UnityEngine.Color32 clothesPrimaryColor, UnityEngine.Color32 clothesSecondaryColor, UnityEngine.Color32 clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
     // Offset: 0xF0BF18
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

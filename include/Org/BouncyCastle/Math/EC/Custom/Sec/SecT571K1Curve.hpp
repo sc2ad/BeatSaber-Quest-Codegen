@@ -62,6 +62,10 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* _get_SECT571K1_AFFINE_ZS();
     // Set static field: static private readonly Org.BouncyCastle.Math.EC.ECFieldElement[] SECT571K1_AFFINE_ZS
     static void _set_SECT571K1_AFFINE_ZS(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT571K1Point m_infinity
+    Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Point* _get_m_infinity();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT571K1Point m_infinity
+    void _set_m_infinity(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Point* value);
     // static private System.Void .cctor()
     // Offset: 0x20E1A24
     static void _cctor();

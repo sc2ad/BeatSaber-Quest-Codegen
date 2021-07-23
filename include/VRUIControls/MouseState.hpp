@@ -44,6 +44,10 @@ namespace VRUIControls {
     constexpr operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*() const noexcept {
       return trackedButtons;
     }
+    // Get instance field: private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
+    System::Collections::Generic::List_1<VRUIControls::ButtonState*>* _get__trackedButtons();
+    // Set instance field: private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
+    void _set__trackedButtons(System::Collections::Generic::List_1<VRUIControls::ButtonState*>* value);
     // public System.Boolean AnyPressesThisFrame()
     // Offset: 0x23435A4
     bool AnyPressesThisFrame();

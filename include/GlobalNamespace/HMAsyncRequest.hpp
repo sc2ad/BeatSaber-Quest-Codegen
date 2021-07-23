@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     HMAsyncRequest(bool cancelled_ = {}, GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander_ = {}) noexcept : cancelled{cancelled_}, cancelHander{cancelHander_} {}
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
+    // Get instance field: private System.Boolean _cancelled
+    bool _get__cancelled();
+    // Set instance field: private System.Boolean _cancelled
+    void _set__cancelled(bool value);
+    // Get instance field: private HMAsyncRequest/CancelHander _cancelHander
+    GlobalNamespace::HMAsyncRequest::CancelHander* _get__cancelHander();
+    // Set instance field: private HMAsyncRequest/CancelHander _cancelHander
+    void _set__cancelHander(GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public HMAsyncRequest/CancelHander get_CancelHandler()
     // Offset: 0x1219664
     GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();

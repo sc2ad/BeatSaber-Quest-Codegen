@@ -34,6 +34,10 @@ namespace UnityEngine::Scripting::APIUpdating {
     constexpr operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData() const noexcept {
       return data;
     }
+    // Get instance field: UnityEngine.Scripting.APIUpdating.MovedFromAttributeData data
+    UnityEngine::Scripting::APIUpdating::MovedFromAttributeData _get_data();
+    // Set instance field: UnityEngine.Scripting.APIUpdating.MovedFromAttributeData data
+    void _set_data(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
     // public System.Void .ctor(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
     // Offset: 0x1C83234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

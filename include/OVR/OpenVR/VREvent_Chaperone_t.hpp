@@ -34,6 +34,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt64 m_nPreviousUniverse
+    uint64_t _get_m_nPreviousUniverse();
+    // Set instance field: public System.UInt64 m_nPreviousUniverse
+    void _set_m_nPreviousUniverse(uint64_t value);
+    // Get instance field: public System.UInt64 m_nCurrentUniverse
+    uint64_t _get_m_nCurrentUniverse();
+    // Set instance field: public System.UInt64 m_nCurrentUniverse
+    void _set_m_nCurrentUniverse(uint64_t value);
   }; // OVR.OpenVR.VREvent_Chaperone_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Chaperone_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Chaperone_tSizeCheck;

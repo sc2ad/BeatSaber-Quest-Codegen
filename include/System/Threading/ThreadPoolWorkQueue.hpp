@@ -57,6 +57,18 @@ namespace System::Threading {
     static System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* _get_allThreadQueues();
     // Set static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
     static void _set_allThreadQueues(System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* value);
+    // Get instance field: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
+    System::Threading::ThreadPoolWorkQueue::QueueSegment* _get_queueHead();
+    // Set instance field: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
+    void _set_queueHead(System::Threading::ThreadPoolWorkQueue::QueueSegment* value);
+    // Get instance field: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueTail
+    System::Threading::ThreadPoolWorkQueue::QueueSegment* _get_queueTail();
+    // Set instance field: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueTail
+    void _set_queueTail(System::Threading::ThreadPoolWorkQueue::QueueSegment* value);
+    // Get instance field: private System.Int32 numOutstandingThreadRequests
+    int _get_numOutstandingThreadRequests();
+    // Set instance field: private System.Int32 numOutstandingThreadRequests
+    void _set_numOutstandingThreadRequests(int value);
     // static private System.Void .cctor()
     // Offset: 0x188D02C
     static void _cctor();

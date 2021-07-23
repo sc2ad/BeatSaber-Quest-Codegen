@@ -43,6 +43,10 @@ namespace System {
     static System::IOOperation _get_Write();
     // Set static field: static public System.IOOperation Write
     static void _set_Write(System::IOOperation value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IOOperation
   #pragma pack(pop)
   static check_size<sizeof(IOOperation), 0 + sizeof(int)> __System_IOOperationSizeCheck;

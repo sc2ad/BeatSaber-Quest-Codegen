@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return enableOculusMRC;
     }
+    // Get instance field: public readonly System.Boolean enableOculusMRC
+    bool _get_enableOculusMRC();
+    // Set instance field: public readonly System.Boolean enableOculusMRC
+    void _set_enableOculusMRC(bool value);
     // public System.Void .ctor(System.Boolean enableOculusMRC)
     // Offset: 0x233E114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

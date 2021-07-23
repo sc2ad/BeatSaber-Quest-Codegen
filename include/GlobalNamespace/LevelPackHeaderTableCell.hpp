@@ -66,6 +66,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: LevelPackHeaderTableCell
     LevelPackHeaderTableCell(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::Color highlightBackgroundColor_ = {}, UnityEngine::Color selectedBackgroundColor_ = {}, UnityEngine::Color selectedAndHighlightedBackgroundColor_ = {}) noexcept : nameText{nameText_}, backgroundImage{backgroundImage_}, highlightBackgroundColor{highlightBackgroundColor_}, selectedBackgroundColor{selectedBackgroundColor_}, selectedAndHighlightedBackgroundColor{selectedAndHighlightedBackgroundColor_} {}
+    // Get instance field: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI* _get__nameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _nameText
+    void _set__nameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Image _backgroundImage
+    UnityEngine::UI::Image* _get__backgroundImage();
+    // Set instance field: private UnityEngine.UI.Image _backgroundImage
+    void _set__backgroundImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.Color _highlightBackgroundColor
+    UnityEngine::Color _get__highlightBackgroundColor();
+    // Set instance field: private UnityEngine.Color _highlightBackgroundColor
+    void _set__highlightBackgroundColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _selectedBackgroundColor
+    UnityEngine::Color _get__selectedBackgroundColor();
+    // Set instance field: private UnityEngine.Color _selectedBackgroundColor
+    void _set__selectedBackgroundColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
+    UnityEngine::Color _get__selectedAndHighlightedBackgroundColor();
+    // Set instance field: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
+    void _set__selectedAndHighlightedBackgroundColor(UnityEngine::Color value);
     // public System.Void SetData(System.String headerText)
     // Offset: 0x11B28C0
     void SetData(::Il2CppString* headerText);

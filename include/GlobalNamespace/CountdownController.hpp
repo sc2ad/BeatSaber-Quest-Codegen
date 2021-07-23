@@ -100,6 +100,38 @@ namespace GlobalNamespace {
     static float _get_kGongTime();
     // Set static field: static private System.Single kGongTime
     static void _set_kGongTime(float value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource* _get__audioSource();
+    // Set instance field: private UnityEngine.AudioSource _audioSource
+    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private CountdownElementController[] _countdownElementControllers
+    ::Array<GlobalNamespace::CountdownElementController*>* _get__countdownElementControllers();
+    // Set instance field: private CountdownElementController[] _countdownElementControllers
+    void _set__countdownElementControllers(::Array<GlobalNamespace::CountdownElementController*>* value);
+    // Get instance field: private readonly ITimeProvider _timeProvider
+    GlobalNamespace::ITimeProvider* _get__timeProvider();
+    // Set instance field: private readonly ITimeProvider _timeProvider
+    void _set__timeProvider(GlobalNamespace::ITimeProvider* value);
+    // Get instance field: private System.Single _countdownEndTime
+    float _get__countdownEndTime();
+    // Set instance field: private System.Single _countdownEndTime
+    void _set__countdownEndTime(float value);
+    // Get instance field: private System.Int32 _currentRemainingSecond
+    int _get__currentRemainingSecond();
+    // Set instance field: private System.Int32 _currentRemainingSecond
+    void _set__currentRemainingSecond(int value);
+    // Get instance field: private System.Boolean _gongSounded
+    bool _get__gongSounded();
+    // Set instance field: private System.Boolean _gongSounded
+    void _set__gongSounded(bool value);
+    // Get instance field: private System.Boolean _countdownRunning
+    bool _get__countdownRunning();
+    // Set instance field: private System.Boolean _countdownRunning
+    void _set__countdownRunning(bool value);
+    // Get instance field: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
+    System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* _get__countdownElementControllerQueue();
+    // Set instance field: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
+    void _set__countdownElementControllerQueue(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* value);
     // protected System.Void Awake()
     // Offset: 0x1081FF8
     void Awake();

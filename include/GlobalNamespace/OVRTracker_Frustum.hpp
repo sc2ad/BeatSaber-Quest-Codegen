@@ -44,6 +44,18 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single nearZ
+    float _get_nearZ();
+    // Set instance field: public System.Single nearZ
+    void _set_nearZ(float value);
+    // Get instance field: public System.Single farZ
+    float _get_farZ();
+    // Set instance field: public System.Single farZ
+    void _set_farZ(float value);
+    // Get instance field: public UnityEngine.Vector2 fov
+    UnityEngine::Vector2 _get_fov();
+    // Set instance field: public UnityEngine.Vector2 fov
+    void _set_fov(UnityEngine::Vector2 value);
   }; // OVRTracker/Frustum
   #pragma pack(pop)
   static check_size<sizeof(OVRTracker::Frustum), 8 + sizeof(UnityEngine::Vector2)> __GlobalNamespace_OVRTracker_FrustumSizeCheck;

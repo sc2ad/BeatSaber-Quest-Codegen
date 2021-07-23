@@ -76,6 +76,34 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: ResourceLocationData
     ResourceLocationData(::Array<::Il2CppString*>* m_Keys_ = {}, ::Il2CppString* m_InternalId_ = {}, ::Il2CppString* m_Provider_ = {}, ::Array<::Il2CppString*>* m_Dependencies_ = {}, UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType_ = {}, ::Array<uint8_t>* SerializedData_ = {}, ::Il2CppObject* Data_ = {}) noexcept : m_Keys{m_Keys_}, m_InternalId{m_InternalId_}, m_Provider{m_Provider_}, m_Dependencies{m_Dependencies_}, m_ResourceType{m_ResourceType_}, SerializedData{SerializedData_}, Data{Data_} {}
+    // Get instance field: private System.String[] m_Keys
+    ::Array<::Il2CppString*>* _get_m_Keys();
+    // Set instance field: private System.String[] m_Keys
+    void _set_m_Keys(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.String m_InternalId
+    ::Il2CppString* _get_m_InternalId();
+    // Set instance field: private System.String m_InternalId
+    void _set_m_InternalId(::Il2CppString* value);
+    // Get instance field: private System.String m_Provider
+    ::Il2CppString* _get_m_Provider();
+    // Set instance field: private System.String m_Provider
+    void _set_m_Provider(::Il2CppString* value);
+    // Get instance field: private System.String[] m_Dependencies
+    ::Array<::Il2CppString*>* _get_m_Dependencies();
+    // Set instance field: private System.String[] m_Dependencies
+    void _set_m_Dependencies(::Array<::Il2CppString*>* value);
+    // Get instance field: private UnityEngine.ResourceManagement.Util.SerializedType m_ResourceType
+    UnityEngine::ResourceManagement::Util::SerializedType _get_m_ResourceType();
+    // Set instance field: private UnityEngine.ResourceManagement.Util.SerializedType m_ResourceType
+    void _set_m_ResourceType(UnityEngine::ResourceManagement::Util::SerializedType value);
+    // Get instance field: private System.Byte[] SerializedData
+    ::Array<uint8_t>* _get_SerializedData();
+    // Set instance field: private System.Byte[] SerializedData
+    void _set_SerializedData(::Array<uint8_t>* value);
+    // Get instance field: private System.Object _Data
+    ::Il2CppObject* _get__Data();
+    // Set instance field: private System.Object _Data
+    void _set__Data(::Il2CppObject* value);
     // public System.String[] get_Keys()
     // Offset: 0x13CBF90
     ::Array<::Il2CppString*>* get_Keys();

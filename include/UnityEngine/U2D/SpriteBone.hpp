@@ -66,6 +66,26 @@ namespace UnityEngine::U2D {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.String m_Name
+    ::Il2CppString* _get_m_Name();
+    // Set instance field: private System.String m_Name
+    void _set_m_Name(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3 _get_m_Position();
+    // Set instance field: private UnityEngine.Vector3 m_Position
+    void _set_m_Position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion m_Rotation
+    UnityEngine::Quaternion _get_m_Rotation();
+    // Set instance field: private UnityEngine.Quaternion m_Rotation
+    void _set_m_Rotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Single m_Length
+    float _get_m_Length();
+    // Set instance field: private System.Single m_Length
+    void _set_m_Length(float value);
+    // Get instance field: private System.Int32 m_ParentId
+    int _get_m_ParentId();
+    // Set instance field: private System.Int32 m_ParentId
+    void _set_m_ParentId(int value);
   }; // UnityEngine.U2D.SpriteBone
   #pragma pack(pop)
   static check_size<sizeof(SpriteBone), 40 + sizeof(int)> __UnityEngine_U2D_SpriteBoneSizeCheck;

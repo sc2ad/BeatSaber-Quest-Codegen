@@ -90,6 +90,38 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState GetCalibrationState
+    Valve::VR::IVRChaperone::_GetCalibrationState* _get_GetCalibrationState();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState GetCalibrationState
+    void _set_GetCalibrationState(Valve::VR::IVRChaperone::_GetCalibrationState* value);
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._GetPlayAreaSize GetPlayAreaSize
+    Valve::VR::IVRChaperone::_GetPlayAreaSize* _get_GetPlayAreaSize();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._GetPlayAreaSize GetPlayAreaSize
+    void _set_GetPlayAreaSize(Valve::VR::IVRChaperone::_GetPlayAreaSize* value);
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._GetPlayAreaRect GetPlayAreaRect
+    Valve::VR::IVRChaperone::_GetPlayAreaRect* _get_GetPlayAreaRect();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._GetPlayAreaRect GetPlayAreaRect
+    void _set_GetPlayAreaRect(Valve::VR::IVRChaperone::_GetPlayAreaRect* value);
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._ReloadInfo ReloadInfo
+    Valve::VR::IVRChaperone::_ReloadInfo* _get_ReloadInfo();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._ReloadInfo ReloadInfo
+    void _set_ReloadInfo(Valve::VR::IVRChaperone::_ReloadInfo* value);
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._SetSceneColor SetSceneColor
+    Valve::VR::IVRChaperone::_SetSceneColor* _get_SetSceneColor();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._SetSceneColor SetSceneColor
+    void _set_SetSceneColor(Valve::VR::IVRChaperone::_SetSceneColor* value);
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._GetBoundsColor GetBoundsColor
+    Valve::VR::IVRChaperone::_GetBoundsColor* _get_GetBoundsColor();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._GetBoundsColor GetBoundsColor
+    void _set_GetBoundsColor(Valve::VR::IVRChaperone::_GetBoundsColor* value);
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._AreBoundsVisible AreBoundsVisible
+    Valve::VR::IVRChaperone::_AreBoundsVisible* _get_AreBoundsVisible();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._AreBoundsVisible AreBoundsVisible
+    void _set_AreBoundsVisible(Valve::VR::IVRChaperone::_AreBoundsVisible* value);
+    // Get instance field: Valve.VR.IVRChaperone/Valve.VR._ForceBoundsVisible ForceBoundsVisible
+    Valve::VR::IVRChaperone::_ForceBoundsVisible* _get_ForceBoundsVisible();
+    // Set instance field: Valve.VR.IVRChaperone/Valve.VR._ForceBoundsVisible ForceBoundsVisible
+    void _set_ForceBoundsVisible(Valve::VR::IVRChaperone::_ForceBoundsVisible* value);
   }; // Valve.VR.IVRChaperone
   #pragma pack(pop)
   static check_size<sizeof(IVRChaperone), 56 + sizeof(Valve::VR::IVRChaperone::_ForceBoundsVisible*)> __Valve_VR_IVRChaperoneSizeCheck;

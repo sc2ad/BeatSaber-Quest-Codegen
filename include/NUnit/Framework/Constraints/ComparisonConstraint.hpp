@@ -62,6 +62,26 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(NUnit::Framework::Constraints::ComparisonAdapter*) == 0x8);
     // Creating value type constructor for type: ComparisonConstraint
     ComparisonConstraint(::Il2CppObject* expected_ = {}, bool lessComparisonResult_ = {}, bool equalComparisonResult_ = {}, bool greaterComparisonResult_ = {}, NUnit::Framework::Constraints::ComparisonAdapter* comparer_ = {}) noexcept : expected{expected_}, lessComparisonResult{lessComparisonResult_}, equalComparisonResult{equalComparisonResult_}, greaterComparisonResult{greaterComparisonResult_}, comparer{comparer_} {}
+    // Get instance field: protected System.Object expected
+    ::Il2CppObject* _get_expected();
+    // Set instance field: protected System.Object expected
+    void _set_expected(::Il2CppObject* value);
+    // Get instance field: protected System.Boolean lessComparisonResult
+    bool _get_lessComparisonResult();
+    // Set instance field: protected System.Boolean lessComparisonResult
+    void _set_lessComparisonResult(bool value);
+    // Get instance field: protected System.Boolean equalComparisonResult
+    bool _get_equalComparisonResult();
+    // Set instance field: protected System.Boolean equalComparisonResult
+    void _set_equalComparisonResult(bool value);
+    // Get instance field: protected System.Boolean greaterComparisonResult
+    bool _get_greaterComparisonResult();
+    // Set instance field: protected System.Boolean greaterComparisonResult
+    void _set_greaterComparisonResult(bool value);
+    // Get instance field: private NUnit.Framework.Constraints.ComparisonAdapter comparer
+    NUnit::Framework::Constraints::ComparisonAdapter* _get_comparer();
+    // Set instance field: private NUnit.Framework.Constraints.ComparisonAdapter comparer
+    void _set_comparer(NUnit::Framework::Constraints::ComparisonAdapter* value);
     // protected System.Void .ctor(System.Object value, System.Boolean lessComparisonResult, System.Boolean equalComparisonResult, System.Boolean greaterComparisonResult, System.String predicate)
     // Offset: 0x1715D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

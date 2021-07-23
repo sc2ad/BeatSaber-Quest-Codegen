@@ -32,6 +32,10 @@ namespace System::Security::Cryptography {
     constexpr operator ::Il2CppString*() const noexcept {
       return oid;
     }
+    // Get instance field: private System.String _oid
+    ::Il2CppString* _get__oid();
+    // Set instance field: private System.String _oid
+    void _set__oid(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x19377B8
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureFormatter

@@ -42,6 +42,14 @@ namespace System::Globalization {
     CultureNotFoundException(::Il2CppString* m_invalidCultureName_ = {}, System::Nullable_1<int> m_invalidCultureId_ = {}) noexcept : m_invalidCultureName{m_invalidCultureName_}, m_invalidCultureId{m_invalidCultureId_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Get instance field: private System.String m_invalidCultureName
+    ::Il2CppString* _get_m_invalidCultureName();
+    // Set instance field: private System.String m_invalidCultureName
+    void _set_m_invalidCultureName(::Il2CppString* value);
+    // Get instance field: private System.Nullable`1<System.Int32> m_invalidCultureId
+    System::Nullable_1<int> _get_m_invalidCultureId();
+    // Set instance field: private System.Nullable`1<System.Int32> m_invalidCultureId
+    void _set_m_invalidCultureId(System::Nullable_1<int> value);
     // public System.Nullable`1<System.Int32> get_InvalidCultureId()
     // Offset: 0x17D3EE4
     System::Nullable_1<int> get_InvalidCultureId();

@@ -29,6 +29,10 @@ namespace System::IO {
     SyncTextReader(System::IO::TextReader* in_ = {}) noexcept : in{in_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
+    // Get instance field: System.IO.TextReader _in
+    System::IO::TextReader* _get__in();
+    // Set instance field: System.IO.TextReader _in
+    void _set__in(System::IO::TextReader* value);
     // System.Void .ctor(System.IO.TextReader t)
     // Offset: 0x17F3310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

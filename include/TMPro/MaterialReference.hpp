@@ -107,6 +107,42 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 index
+    int _get_index();
+    // Set instance field: public System.Int32 index
+    void _set_index(int value);
+    // Get instance field: public TMPro.TMP_FontAsset fontAsset
+    TMPro::TMP_FontAsset* _get_fontAsset();
+    // Set instance field: public TMPro.TMP_FontAsset fontAsset
+    void _set_fontAsset(TMPro::TMP_FontAsset* value);
+    // Get instance field: public TMPro.TMP_SpriteAsset spriteAsset
+    TMPro::TMP_SpriteAsset* _get_spriteAsset();
+    // Set instance field: public TMPro.TMP_SpriteAsset spriteAsset
+    void _set_spriteAsset(TMPro::TMP_SpriteAsset* value);
+    // Get instance field: public UnityEngine.Material material
+    UnityEngine::Material* _get_material();
+    // Set instance field: public UnityEngine.Material material
+    void _set_material(UnityEngine::Material* value);
+    // Get instance field: public System.Boolean isDefaultMaterial
+    bool _get_isDefaultMaterial();
+    // Set instance field: public System.Boolean isDefaultMaterial
+    void _set_isDefaultMaterial(bool value);
+    // Get instance field: public System.Boolean isFallbackMaterial
+    bool _get_isFallbackMaterial();
+    // Set instance field: public System.Boolean isFallbackMaterial
+    void _set_isFallbackMaterial(bool value);
+    // Get instance field: public UnityEngine.Material fallbackMaterial
+    UnityEngine::Material* _get_fallbackMaterial();
+    // Set instance field: public UnityEngine.Material fallbackMaterial
+    void _set_fallbackMaterial(UnityEngine::Material* value);
+    // Get instance field: public System.Single padding
+    float _get_padding();
+    // Set instance field: public System.Single padding
+    void _set_padding(float value);
+    // Get instance field: public System.Int32 referenceCount
+    int _get_referenceCount();
+    // Set instance field: public System.Int32 referenceCount
+    void _set_referenceCount(int value);
     // public System.Void .ctor(System.Int32 index, TMPro.TMP_FontAsset fontAsset, TMPro.TMP_SpriteAsset spriteAsset, UnityEngine.Material material, System.Single padding)
     // Offset: 0xED09E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

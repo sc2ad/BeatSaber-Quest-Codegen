@@ -57,6 +57,18 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters) == 0x2A);
     // Creating value type constructor for type: $$c__DisplayClass105_0
     $$c__DisplayClass105_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppObject* key_ = {}, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters_ = {}) noexcept : $$4__this{$$4__this_}, key{key_}, instantiateParameters{instantiateParameters_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
+    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: public System.Object key
+    ::Il2CppObject* _get_key();
+    // Set instance field: public System.Object key
+    void _set_key(::Il2CppObject* value);
+    // Get instance field: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
+    UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters _get_instantiateParameters();
+    // Set instance field: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
+    void _set_instantiateParameters(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> <InstantiateWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
     // Offset: 0x13C3804
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> $InstantiateWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);

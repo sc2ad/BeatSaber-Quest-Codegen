@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return showDebris;
     }
+    // Get instance field: public readonly System.Boolean showDebris
+    bool _get_showDebris();
+    // Set instance field: public readonly System.Boolean showDebris
+    void _set_showDebris(bool value);
     // public System.Void .ctor(System.Boolean showDebris)
     // Offset: 0x233EE20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

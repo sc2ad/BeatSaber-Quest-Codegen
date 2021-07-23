@@ -55,6 +55,14 @@ namespace Zenject {
     static_assert(sizeof(System::Func_2<Zenject::SceneContext*, int>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass4_0
     $$c__DisplayClass4_0(System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>* sceneOrder_ = {}, System::Func_2<Zenject::SceneContext*, int>* $$9__0_ = {}) noexcept : sceneOrder{sceneOrder_}, $$9__0{$$9__0_} {}
+    // Get instance field: public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
+    System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>* _get_sceneOrder();
+    // Set instance field: public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
+    void _set_sceneOrder(System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>* value);
+    // Get instance field: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0
+    System::Func_2<Zenject::SceneContext*, int>* _get_$$9__0();
+    // Set instance field: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0
+    void _set_$$9__0(System::Func_2<Zenject::SceneContext*, int>* value);
     // System.Int32 <ForceUnloadAllScenes>b__0(Zenject.SceneContext x)
     // Offset: 0x16CABC4
     int $ForceUnloadAllScenes$b__0(Zenject::SceneContext* x);

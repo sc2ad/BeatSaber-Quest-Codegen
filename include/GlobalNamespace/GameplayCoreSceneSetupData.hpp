@@ -91,6 +91,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
     // Creating value type constructor for type: GameplayCoreSceneSetupData
     GameplayCoreSceneSetupData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PracticeSettings* practiceSettings_ = {}, bool useTestNoteCutSoundEffects_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : difficultyBeatmap{difficultyBeatmap_}, previewBeatmapLevel{previewBeatmapLevel_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, practiceSettings{practiceSettings_}, useTestNoteCutSoundEffects{useTestNoteCutSoundEffects_}, environmentInfo{environmentInfo_}, colorScheme{colorScheme_} {}
+    // Get instance field: public readonly IDifficultyBeatmap difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap* _get_difficultyBeatmap();
+    // Set instance field: public readonly IDifficultyBeatmap difficultyBeatmap
+    void _set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel* _get_previewBeatmapLevel();
+    // Set instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    void _set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: public readonly GameplayModifiers gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get_gameplayModifiers();
+    // Set instance field: public readonly GameplayModifiers gameplayModifiers
+    void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field: public readonly PlayerSpecificSettings playerSpecificSettings
+    GlobalNamespace::PlayerSpecificSettings* _get_playerSpecificSettings();
+    // Set instance field: public readonly PlayerSpecificSettings playerSpecificSettings
+    void _set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
+    // Get instance field: public readonly PracticeSettings practiceSettings
+    GlobalNamespace::PracticeSettings* _get_practiceSettings();
+    // Set instance field: public readonly PracticeSettings practiceSettings
+    void _set_practiceSettings(GlobalNamespace::PracticeSettings* value);
+    // Get instance field: public readonly System.Boolean useTestNoteCutSoundEffects
+    bool _get_useTestNoteCutSoundEffects();
+    // Set instance field: public readonly System.Boolean useTestNoteCutSoundEffects
+    void _set_useTestNoteCutSoundEffects(bool value);
+    // Get instance field: public readonly EnvironmentInfoSO environmentInfo
+    GlobalNamespace::EnvironmentInfoSO* _get_environmentInfo();
+    // Set instance field: public readonly EnvironmentInfoSO environmentInfo
+    void _set_environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
+    // Get instance field: public readonly ColorScheme colorScheme
+    GlobalNamespace::ColorScheme* _get_colorScheme();
+    // Set instance field: public readonly ColorScheme colorScheme
+    void _set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects, EnvironmentInfoSO environmentInfo, ColorScheme colorScheme)
     // Offset: 0x10B0B58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,6 +52,18 @@ namespace GlobalNamespace {
     SetBlocksBladeSaberGlowColor(GlobalNamespace::SaberTypeObject* saber_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::BlocksBlade* blocksBlade_ = {}) noexcept : saber{saber_}, colorManager{colorManager_}, blocksBlade{blocksBlade_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private SaberTypeObject _saber
+    GlobalNamespace::SaberTypeObject* _get__saber();
+    // Set instance field: private SaberTypeObject _saber
+    void _set__saber(GlobalNamespace::SaberTypeObject* value);
+    // Get instance field: private ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private BlocksBlade _blocksBlade
+    GlobalNamespace::BlocksBlade* _get__blocksBlade();
+    // Set instance field: private BlocksBlade _blocksBlade
+    void _set__blocksBlade(GlobalNamespace::BlocksBlade* value);
     // protected System.Void Start()
     // Offset: 0x105237C
     void Start();

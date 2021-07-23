@@ -98,6 +98,42 @@ namespace OnlineServices {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public OnlineServices.LevelScoreUploader <>4__this
+    OnlineServices::LevelScoreUploader* _get_$$4__this();
+    // Set instance field: public OnlineServices.LevelScoreUploader <>4__this
+    void _set_$$4__this(OnlineServices::LevelScoreUploader* value);
+    // Get instance field: private System.Threading.CancellationToken <cancellationToken>5__2
+    System::Threading::CancellationToken _get_$cancellationToken$5__2();
+    // Set instance field: private System.Threading.CancellationToken <cancellationToken>5__2
+    void _set_$cancellationToken$5__2(System::Threading::CancellationToken value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.PlatformServicesAvailabilityInfo> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.PlatformServicesAvailabilityInfo> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> value);
+    // Get instance field: private OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo <levelScoreResultsDataUploadInfo>5__3
+    OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo* _get_$levelScoreResultsDataUploadInfo$5__3();
+    // Set instance field: private OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo <levelScoreResultsDataUploadInfo>5__3
+    void _set_$levelScoreResultsDataUploadInfo$5__3(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo* value);
+    // Get instance field: private OnlineServices.LevelScoreResultsData <levelScoreResultToUpload>5__4
+    OnlineServices::LevelScoreResultsData _get_$levelScoreResultToUpload$5__4();
+    // Set instance field: private OnlineServices.LevelScoreResultsData <levelScoreResultToUpload>5__4
+    void _set_$levelScoreResultToUpload$5__4(OnlineServices::LevelScoreResultsData value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult> _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult> value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__3();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
+    void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xECF9D8
     void MoveNext();

@@ -45,6 +45,14 @@ namespace UnityEngine::Timeline {
     static float _get_kDefaultFps();
     // Set static field: static readonly System.Single kDefaultFps
     static void _set_kDefaultFps(float value);
+    // Get instance field: private System.Single m_Framerate
+    float _get_m_Framerate();
+    // Set instance field: private System.Single m_Framerate
+    void _set_m_Framerate(float value);
+    // Get instance field: private System.Boolean m_ScenePreview
+    bool _get_m_ScenePreview();
+    // Set instance field: private System.Boolean m_ScenePreview
+    void _set_m_ScenePreview(bool value);
     // public System.Single get_fps()
     // Offset: 0x2316030
     float get_fps();

@@ -144,6 +144,70 @@ namespace RootMotion {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: HumanoidBaker
     HumanoidBaker(bool bakeHandIK_ = {}, float IKKeyReductionError_ = {}, int muscleFrameRateDiv_ = {}, ::Array<RootMotion::BakerMuscle*>* bakerMuscles_ = {}, RootMotion::BakerHumanoidQT* rootQT_ = {}, RootMotion::BakerHumanoidQT* leftFootQT_ = {}, RootMotion::BakerHumanoidQT* rightFootQT_ = {}, RootMotion::BakerHumanoidQT* leftHandQT_ = {}, RootMotion::BakerHumanoidQT* rightHandQT_ = {}, ::Array<float>* muscles_ = {}, UnityEngine::HumanPose pose_ = {}, UnityEngine::HumanPoseHandler* handler_ = {}, UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, int mN_ = {}, UnityEngine::Quaternion lastBodyRotation_ = {}) noexcept : bakeHandIK{bakeHandIK_}, IKKeyReductionError{IKKeyReductionError_}, muscleFrameRateDiv{muscleFrameRateDiv_}, bakerMuscles{bakerMuscles_}, rootQT{rootQT_}, leftFootQT{leftFootQT_}, rightFootQT{rightFootQT_}, leftHandQT{leftHandQT_}, rightHandQT{rightHandQT_}, muscles{muscles_}, pose{pose_}, handler{handler_}, bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, mN{mN_}, lastBodyRotation{lastBodyRotation_} {}
+    // Get instance field: public System.Boolean bakeHandIK
+    bool _get_bakeHandIK();
+    // Set instance field: public System.Boolean bakeHandIK
+    void _set_bakeHandIK(bool value);
+    // Get instance field: public System.Single IKKeyReductionError
+    float _get_IKKeyReductionError();
+    // Set instance field: public System.Single IKKeyReductionError
+    void _set_IKKeyReductionError(float value);
+    // Get instance field: public System.Int32 muscleFrameRateDiv
+    int _get_muscleFrameRateDiv();
+    // Set instance field: public System.Int32 muscleFrameRateDiv
+    void _set_muscleFrameRateDiv(int value);
+    // Get instance field: private RootMotion.BakerMuscle[] bakerMuscles
+    ::Array<RootMotion::BakerMuscle*>* _get_bakerMuscles();
+    // Set instance field: private RootMotion.BakerMuscle[] bakerMuscles
+    void _set_bakerMuscles(::Array<RootMotion::BakerMuscle*>* value);
+    // Get instance field: private RootMotion.BakerHumanoidQT rootQT
+    RootMotion::BakerHumanoidQT* _get_rootQT();
+    // Set instance field: private RootMotion.BakerHumanoidQT rootQT
+    void _set_rootQT(RootMotion::BakerHumanoidQT* value);
+    // Get instance field: private RootMotion.BakerHumanoidQT leftFootQT
+    RootMotion::BakerHumanoidQT* _get_leftFootQT();
+    // Set instance field: private RootMotion.BakerHumanoidQT leftFootQT
+    void _set_leftFootQT(RootMotion::BakerHumanoidQT* value);
+    // Get instance field: private RootMotion.BakerHumanoidQT rightFootQT
+    RootMotion::BakerHumanoidQT* _get_rightFootQT();
+    // Set instance field: private RootMotion.BakerHumanoidQT rightFootQT
+    void _set_rightFootQT(RootMotion::BakerHumanoidQT* value);
+    // Get instance field: private RootMotion.BakerHumanoidQT leftHandQT
+    RootMotion::BakerHumanoidQT* _get_leftHandQT();
+    // Set instance field: private RootMotion.BakerHumanoidQT leftHandQT
+    void _set_leftHandQT(RootMotion::BakerHumanoidQT* value);
+    // Get instance field: private RootMotion.BakerHumanoidQT rightHandQT
+    RootMotion::BakerHumanoidQT* _get_rightHandQT();
+    // Set instance field: private RootMotion.BakerHumanoidQT rightHandQT
+    void _set_rightHandQT(RootMotion::BakerHumanoidQT* value);
+    // Get instance field: private System.Single[] muscles
+    ::Array<float>* _get_muscles();
+    // Set instance field: private System.Single[] muscles
+    void _set_muscles(::Array<float>* value);
+    // Get instance field: private UnityEngine.HumanPose pose
+    UnityEngine::HumanPose _get_pose();
+    // Set instance field: private UnityEngine.HumanPose pose
+    void _set_pose(UnityEngine::HumanPose value);
+    // Get instance field: private UnityEngine.HumanPoseHandler handler
+    UnityEngine::HumanPoseHandler* _get_handler();
+    // Set instance field: private UnityEngine.HumanPoseHandler handler
+    void _set_handler(UnityEngine::HumanPoseHandler* value);
+    // Get instance field: private UnityEngine.Vector3 bodyPosition
+    UnityEngine::Vector3 _get_bodyPosition();
+    // Set instance field: private UnityEngine.Vector3 bodyPosition
+    void _set_bodyPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion bodyRotation
+    UnityEngine::Quaternion _get_bodyRotation();
+    // Set instance field: private UnityEngine.Quaternion bodyRotation
+    void _set_bodyRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Int32 mN
+    int _get_mN();
+    // Set instance field: private System.Int32 mN
+    void _set_mN(int value);
+    // Get instance field: private UnityEngine.Quaternion lastBodyRotation
+    UnityEngine::Quaternion _get_lastBodyRotation();
+    // Set instance field: private UnityEngine.Quaternion lastBodyRotation
+    void _set_lastBodyRotation(UnityEngine::Quaternion value);
     // private System.Void Awake()
     // Offset: 0x1AC5620
     void Awake();

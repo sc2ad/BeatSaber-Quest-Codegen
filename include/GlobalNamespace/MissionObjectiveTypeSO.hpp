@@ -51,6 +51,18 @@ namespace GlobalNamespace {
     MissionObjectiveTypeSO(::Il2CppString* objectiveName_ = {}, bool noConditionValue_ = {}, GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater_ = {}) noexcept : objectiveName{objectiveName_}, noConditionValue{noConditionValue_}, objectiveValueFormater{objectiveValueFormater_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _objectiveName
+    ::Il2CppString* _get__objectiveName();
+    // Set instance field: private System.String _objectiveName
+    void _set__objectiveName(::Il2CppString* value);
+    // Get instance field: private System.Boolean _noConditionValue
+    bool _get__noConditionValue();
+    // Set instance field: private System.Boolean _noConditionValue
+    void _set__noConditionValue(bool value);
+    // Get instance field: private ObjectiveValueFormatterSO _objectiveValueFormater
+    GlobalNamespace::ObjectiveValueFormatterSO* _get__objectiveValueFormater();
+    // Set instance field: private ObjectiveValueFormatterSO _objectiveValueFormater
+    void _set__objectiveValueFormater(GlobalNamespace::ObjectiveValueFormatterSO* value);
     // public System.String get_objectiveName()
     // Offset: 0x113806C
     ::Il2CppString* get_objectiveName();

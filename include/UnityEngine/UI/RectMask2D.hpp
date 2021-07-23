@@ -153,6 +153,54 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly UnityEngine.UI.RectangularVertexClipper m_VertexClipper
+    UnityEngine::UI::RectangularVertexClipper* _get_m_VertexClipper();
+    // Set instance field: private readonly UnityEngine.UI.RectangularVertexClipper m_VertexClipper
+    void _set_m_VertexClipper(UnityEngine::UI::RectangularVertexClipper* value);
+    // Get instance field: private UnityEngine.RectTransform m_RectTransform
+    UnityEngine::RectTransform* _get_m_RectTransform();
+    // Set instance field: private UnityEngine.RectTransform m_RectTransform
+    void _set_m_RectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic> m_MaskableTargets
+    System::Collections::Generic::HashSet_1<UnityEngine::UI::MaskableGraphic*>* _get_m_MaskableTargets();
+    // Set instance field: private System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic> m_MaskableTargets
+    void _set_m_MaskableTargets(System::Collections::Generic::HashSet_1<UnityEngine::UI::MaskableGraphic*>* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable> m_ClipTargets
+    System::Collections::Generic::HashSet_1<UnityEngine::UI::IClippable*>* _get_m_ClipTargets();
+    // Set instance field: private System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable> m_ClipTargets
+    void _set_m_ClipTargets(System::Collections::Generic::HashSet_1<UnityEngine::UI::IClippable*>* value);
+    // Get instance field: private System.Boolean m_ShouldRecalculateClipRects
+    bool _get_m_ShouldRecalculateClipRects();
+    // Set instance field: private System.Boolean m_ShouldRecalculateClipRects
+    void _set_m_ShouldRecalculateClipRects(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> m_Clippers
+    System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* _get_m_Clippers();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> m_Clippers
+    void _set_m_Clippers(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* value);
+    // Get instance field: private UnityEngine.Rect m_LastClipRectCanvasSpace
+    UnityEngine::Rect _get_m_LastClipRectCanvasSpace();
+    // Set instance field: private UnityEngine.Rect m_LastClipRectCanvasSpace
+    void _set_m_LastClipRectCanvasSpace(UnityEngine::Rect value);
+    // Get instance field: private System.Boolean m_ForceClip
+    bool _get_m_ForceClip();
+    // Set instance field: private System.Boolean m_ForceClip
+    void _set_m_ForceClip(bool value);
+    // Get instance field: private UnityEngine.Vector4 m_Padding
+    UnityEngine::Vector4 _get_m_Padding();
+    // Set instance field: private UnityEngine.Vector4 m_Padding
+    void _set_m_Padding(UnityEngine::Vector4 value);
+    // Get instance field: private UnityEngine.Vector2Int m_Softness
+    UnityEngine::Vector2Int _get_m_Softness();
+    // Set instance field: private UnityEngine.Vector2Int m_Softness
+    void _set_m_Softness(UnityEngine::Vector2Int value);
+    // Get instance field: private UnityEngine.Canvas m_Canvas
+    UnityEngine::Canvas* _get_m_Canvas();
+    // Set instance field: private UnityEngine.Canvas m_Canvas
+    void _set_m_Canvas(UnityEngine::Canvas* value);
+    // Get instance field: private UnityEngine.Vector3[] m_Corners
+    ::Array<UnityEngine::Vector3>* _get_m_Corners();
+    // Set instance field: private UnityEngine.Vector3[] m_Corners
+    void _set_m_Corners(::Array<UnityEngine::Vector3>* value);
     // public UnityEngine.Vector4 get_padding()
     // Offset: 0x1983E48
     UnityEngine::Vector4 get_padding();

@@ -42,6 +42,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVRNotifications/Valve.VR._CreateNotification CreateNotification
+    Valve::VR::IVRNotifications::_CreateNotification* _get_CreateNotification();
+    // Set instance field: Valve.VR.IVRNotifications/Valve.VR._CreateNotification CreateNotification
+    void _set_CreateNotification(Valve::VR::IVRNotifications::_CreateNotification* value);
+    // Get instance field: Valve.VR.IVRNotifications/Valve.VR._RemoveNotification RemoveNotification
+    Valve::VR::IVRNotifications::_RemoveNotification* _get_RemoveNotification();
+    // Set instance field: Valve.VR.IVRNotifications/Valve.VR._RemoveNotification RemoveNotification
+    void _set_RemoveNotification(Valve::VR::IVRNotifications::_RemoveNotification* value);
   }; // Valve.VR.IVRNotifications
   #pragma pack(pop)
   static check_size<sizeof(IVRNotifications), 8 + sizeof(Valve::VR::IVRNotifications::_RemoveNotification*)> __Valve_VR_IVRNotificationsSizeCheck;

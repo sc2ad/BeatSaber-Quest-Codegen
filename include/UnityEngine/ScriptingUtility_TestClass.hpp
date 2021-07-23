@@ -34,6 +34,10 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return value;
     }
+    // Get instance field: public System.Int32 value
+    int _get_value();
+    // Set instance field: public System.Int32 value
+    void _set_value(int value);
   }; // UnityEngine.ScriptingUtility/UnityEngine.TestClass
   #pragma pack(pop)
   static check_size<sizeof(ScriptingUtility::TestClass), 0 + sizeof(int)> __UnityEngine_ScriptingUtility_TestClassSizeCheck;

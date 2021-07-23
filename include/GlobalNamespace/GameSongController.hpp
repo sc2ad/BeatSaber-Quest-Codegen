@@ -68,6 +68,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);
     }
+    // Get instance field: private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private AudioPitchGainEffect _failAudioPitchGainEffect
+    GlobalNamespace::AudioPitchGainEffect* _get__failAudioPitchGainEffect();
+    // Set instance field: private AudioPitchGainEffect _failAudioPitchGainEffect
+    void _set__failAudioPitchGainEffect(GlobalNamespace::AudioPitchGainEffect* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private System.Boolean _songDidFinish
+    bool _get__songDidFinish();
+    // Set instance field: private System.Boolean _songDidFinish
+    void _set__songDidFinish(bool value);
     // public System.Single get_songLength()
     // Offset: 0x10AEFBC
     float get_songLength();

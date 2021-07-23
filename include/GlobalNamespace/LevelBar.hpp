@@ -115,6 +115,42 @@ namespace GlobalNamespace {
     LevelBar(HMUI::ImageView* songArtworkImageView_ = {}, TMPro::TextMeshProUGUI* songNameText_ = {}, TMPro::TextMeshProUGUI* authorNameText_ = {}, bool showDifficultyAndCharacteristic_ = {}, TMPro::TextMeshProUGUI* difficultyText_ = {}, HMUI::ImageView* characteristicIconImageView_ = {}, bool useArtworkBackground_ = {}, HMUI::ImageView* artworkBackgroundImage_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : songArtworkImageView{songArtworkImageView_}, songNameText{songNameText_}, authorNameText{authorNameText_}, showDifficultyAndCharacteristic{showDifficultyAndCharacteristic_}, difficultyText{difficultyText_}, characteristicIconImageView{characteristicIconImageView_}, useArtworkBackground{useArtworkBackground_}, artworkBackgroundImage{artworkBackgroundImage_}, cancellationTokenSource{cancellationTokenSource_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.ImageView _songArtworkImageView
+    HMUI::ImageView* _get__songArtworkImageView();
+    // Set instance field: private HMUI.ImageView _songArtworkImageView
+    void _set__songArtworkImageView(HMUI::ImageView* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _songNameText
+    TMPro::TextMeshProUGUI* _get__songNameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _songNameText
+    void _set__songNameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _authorNameText
+    TMPro::TextMeshProUGUI* _get__authorNameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _authorNameText
+    void _set__authorNameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private System.Boolean _showDifficultyAndCharacteristic
+    bool _get__showDifficultyAndCharacteristic();
+    // Set instance field: private System.Boolean _showDifficultyAndCharacteristic
+    void _set__showDifficultyAndCharacteristic(bool value);
+    // Get instance field: private TMPro.TextMeshProUGUI _difficultyText
+    TMPro::TextMeshProUGUI* _get__difficultyText();
+    // Set instance field: private TMPro.TextMeshProUGUI _difficultyText
+    void _set__difficultyText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private HMUI.ImageView _characteristicIconImageView
+    HMUI::ImageView* _get__characteristicIconImageView();
+    // Set instance field: private HMUI.ImageView _characteristicIconImageView
+    void _set__characteristicIconImageView(HMUI::ImageView* value);
+    // Get instance field: private System.Boolean _useArtworkBackground
+    bool _get__useArtworkBackground();
+    // Set instance field: private System.Boolean _useArtworkBackground
+    void _set__useArtworkBackground(bool value);
+    // Get instance field: private HMUI.ImageView _artworkBackgroundImage
+    HMUI::ImageView* _get__artworkBackgroundImage();
+    // Set instance field: private HMUI.ImageView _artworkBackgroundImage
+    void _set__artworkBackgroundImage(HMUI::ImageView* value);
+    // Get instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    System::Threading::CancellationTokenSource* _get__cancellationTokenSource();
+    // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
+    void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x10F14A0
     void set_hide(bool value);

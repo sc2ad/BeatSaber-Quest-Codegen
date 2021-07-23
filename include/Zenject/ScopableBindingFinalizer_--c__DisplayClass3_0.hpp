@@ -48,6 +48,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_0
     $$c__DisplayClass3_0(Zenject::ScopableBindingFinalizer* $$4__this_ = {}, Zenject::DiContainer* container_ = {}) noexcept : $$4__this{$$4__this_}, container{container_} {}
+    // Get instance field: public Zenject.ScopableBindingFinalizer <>4__this
+    Zenject::ScopableBindingFinalizer* _get_$$4__this();
+    // Set instance field: public Zenject.ScopableBindingFinalizer <>4__this
+    void _set_$$4__this(Zenject::ScopableBindingFinalizer* value);
+    // Get instance field: public Zenject.DiContainer container
+    Zenject::DiContainer* _get_container();
+    // Set instance field: public Zenject.DiContainer container
+    void _set_container(Zenject::DiContainer* value);
     // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
     // Offset: 0x16CEF54
     Zenject::IProvider* $FinalizeBindingConcrete$b__0(Zenject::DiContainer* _, System::Type* concreteType);

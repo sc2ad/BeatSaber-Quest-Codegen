@@ -50,6 +50,14 @@ namespace GlobalNamespace {
     PatternFightNoTransitionInstaller(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PatternFightScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : playerSpecificSettings{playerSpecificSettings_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private PlayerSpecificSettings _playerSpecificSettings
+    GlobalNamespace::PlayerSpecificSettings* _get__playerSpecificSettings();
+    // Set instance field: private PlayerSpecificSettings _playerSpecificSettings
+    void _set__playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
+    // Get instance field: private PatternFightScenesTransitionSetupDataSO _scenesTransitionSetupData
+    GlobalNamespace::PatternFightScenesTransitionSetupDataSO* _get__scenesTransitionSetupData();
+    // Set instance field: private PatternFightScenesTransitionSetupDataSO _scenesTransitionSetupData
+    void _set__scenesTransitionSetupData(GlobalNamespace::PatternFightScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
     // Offset: 0xFFF2E4
     // Implemented from: Zenject.NoTransitionInstaller

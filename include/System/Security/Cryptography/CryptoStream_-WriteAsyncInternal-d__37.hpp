@@ -120,6 +120,58 @@ namespace System::Security::Cryptography {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
+    // Get instance field: public System.Security.Cryptography.CryptoStream <>4__this
+    System::Security::Cryptography::CryptoStream* _get_$$4__this();
+    // Set instance field: public System.Security.Cryptography.CryptoStream <>4__this
+    void _set_$$4__this(System::Security::Cryptography::CryptoStream* value);
+    // Get instance field: public System.Int32 count
+    int _get_count();
+    // Set instance field: public System.Int32 count
+    void _set_count(int value);
+    // Get instance field: public System.Int32 offset
+    int _get_offset();
+    // Set instance field: public System.Int32 offset
+    void _set_offset(int value);
+    // Get instance field: public System.Byte[] buffer
+    ::Array<uint8_t>* _get_buffer();
+    // Set instance field: public System.Byte[] buffer
+    void _set_buffer(::Array<uint8_t>* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private System.Int32 <bytesToWrite>5__1
+    int _get_$bytesToWrite$5__1();
+    // Set instance field: private System.Int32 <bytesToWrite>5__1
+    void _set_$bytesToWrite$5__1(int value);
+    // Get instance field: private System.Int32 <currentInputIndex>5__2
+    int _get_$currentInputIndex$5__2();
+    // Set instance field: private System.Int32 <currentInputIndex>5__2
+    void _set_$currentInputIndex$5__2(int value);
+    // Get instance field: private System.Int32 <numWholeBlocksInBytes>5__3
+    int _get_$numWholeBlocksInBytes$5__3();
+    // Set instance field: private System.Int32 <numWholeBlocksInBytes>5__3
+    void _set_$numWholeBlocksInBytes$5__3(int value);
+    // Get instance field: private System.Threading.SemaphoreSlim <sem>5__4
+    System::Threading::SemaphoreSlim* _get_$sem$5__4();
+    // Set instance field: private System.Threading.SemaphoreSlim <sem>5__4
+    void _set_$sem$5__4(System::Threading::SemaphoreSlim* value);
+    // Get instance field: private System.Security.Cryptography.CryptoStream/System.Security.Cryptography.HopToThreadPoolAwaitable <>u__1
+    System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable _get_$$u__1();
+    // Set instance field: private System.Security.Cryptography.CryptoStream/System.Security.Cryptography.HopToThreadPoolAwaitable <>u__1
+    void _set_$$u__1(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable value);
+    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
+    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xEEAE2C
     void MoveNext();

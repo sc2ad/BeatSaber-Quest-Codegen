@@ -75,6 +75,22 @@ namespace GlobalNamespace {
     BeatmapDifficultySegmentedControlController(HMUI::TextSegmentedControl* difficultySegmentedControl_ = {}, System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* didSelectDifficultyEvent_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>* difficulties_ = {}, GlobalNamespace::BeatmapDifficulty selectedDifficulty_ = {}) noexcept : difficultySegmentedControl{difficultySegmentedControl_}, didSelectDifficultyEvent{didSelectDifficultyEvent_}, difficulties{difficulties_}, selectedDifficulty{selectedDifficulty_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.TextSegmentedControl _difficultySegmentedControl
+    HMUI::TextSegmentedControl* _get__difficultySegmentedControl();
+    // Set instance field: private HMUI.TextSegmentedControl _difficultySegmentedControl
+    void _set__difficultySegmentedControl(HMUI::TextSegmentedControl* value);
+    // Get instance field: private System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> didSelectDifficultyEvent
+    System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* _get_didSelectDifficultyEvent();
+    // Set instance field: private System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> didSelectDifficultyEvent
+    void _set_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
+    // Get instance field: private System.Collections.Generic.List`1<BeatmapDifficulty> _difficulties
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>* _get__difficulties();
+    // Set instance field: private System.Collections.Generic.List`1<BeatmapDifficulty> _difficulties
+    void _set__difficulties(System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>* value);
+    // Get instance field: private BeatmapDifficulty _selectedDifficulty
+    GlobalNamespace::BeatmapDifficulty _get__selectedDifficulty();
+    // Set instance field: private BeatmapDifficulty _selectedDifficulty
+    void _set__selectedDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public BeatmapDifficulty get_selectedDifficulty()
     // Offset: 0x1193C58
     GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();

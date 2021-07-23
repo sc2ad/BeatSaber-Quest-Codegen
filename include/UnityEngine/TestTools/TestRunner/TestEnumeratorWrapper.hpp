@@ -43,6 +43,10 @@ namespace UnityEngine::TestTools::TestRunner {
     constexpr operator NUnit::Framework::Internal::TestMethod*() const noexcept {
       return m_TestMethod;
     }
+    // Get instance field: private readonly NUnit.Framework.Internal.TestMethod m_TestMethod
+    NUnit::Framework::Internal::TestMethod* _get_m_TestMethod();
+    // Set instance field: private readonly NUnit.Framework.Internal.TestMethod m_TestMethod
+    void _set_m_TestMethod(NUnit::Framework::Internal::TestMethod* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x1489F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -107,6 +107,50 @@ namespace GlobalNamespace {
     OVRGridCube(UnityEngine::KeyCode GridKey_ = {}, UnityEngine::GameObject* CubeGrid_ = {}, bool CubeGridOn_ = {}, bool CubeSwitchColorOld_ = {}, bool CubeSwitchColor_ = {}, int gridSizeX_ = {}, int gridSizeY_ = {}, int gridSizeZ_ = {}, float gridScale_ = {}, float cubeScale_ = {}, GlobalNamespace::OVRCameraRig* CameraController_ = {}) noexcept : GridKey{GridKey_}, CubeGrid{CubeGrid_}, CubeGridOn{CubeGridOn_}, CubeSwitchColorOld{CubeSwitchColorOld_}, CubeSwitchColor{CubeSwitchColor_}, gridSizeX{gridSizeX_}, gridSizeY{gridSizeY_}, gridSizeZ{gridSizeZ_}, gridScale{gridScale_}, cubeScale{cubeScale_}, CameraController{CameraController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.KeyCode GridKey
+    UnityEngine::KeyCode _get_GridKey();
+    // Set instance field: public UnityEngine.KeyCode GridKey
+    void _set_GridKey(UnityEngine::KeyCode value);
+    // Get instance field: private UnityEngine.GameObject CubeGrid
+    UnityEngine::GameObject* _get_CubeGrid();
+    // Set instance field: private UnityEngine.GameObject CubeGrid
+    void _set_CubeGrid(UnityEngine::GameObject* value);
+    // Get instance field: private System.Boolean CubeGridOn
+    bool _get_CubeGridOn();
+    // Set instance field: private System.Boolean CubeGridOn
+    void _set_CubeGridOn(bool value);
+    // Get instance field: private System.Boolean CubeSwitchColorOld
+    bool _get_CubeSwitchColorOld();
+    // Set instance field: private System.Boolean CubeSwitchColorOld
+    void _set_CubeSwitchColorOld(bool value);
+    // Get instance field: private System.Boolean CubeSwitchColor
+    bool _get_CubeSwitchColor();
+    // Set instance field: private System.Boolean CubeSwitchColor
+    void _set_CubeSwitchColor(bool value);
+    // Get instance field: private System.Int32 gridSizeX
+    int _get_gridSizeX();
+    // Set instance field: private System.Int32 gridSizeX
+    void _set_gridSizeX(int value);
+    // Get instance field: private System.Int32 gridSizeY
+    int _get_gridSizeY();
+    // Set instance field: private System.Int32 gridSizeY
+    void _set_gridSizeY(int value);
+    // Get instance field: private System.Int32 gridSizeZ
+    int _get_gridSizeZ();
+    // Set instance field: private System.Int32 gridSizeZ
+    void _set_gridSizeZ(int value);
+    // Get instance field: private System.Single gridScale
+    float _get_gridScale();
+    // Set instance field: private System.Single gridScale
+    void _set_gridScale(float value);
+    // Get instance field: private System.Single cubeScale
+    float _get_cubeScale();
+    // Set instance field: private System.Single cubeScale
+    void _set_cubeScale(float value);
+    // Get instance field: private OVRCameraRig CameraController
+    GlobalNamespace::OVRCameraRig* _get_CameraController();
+    // Set instance field: private OVRCameraRig CameraController
+    void _set_CameraController(GlobalNamespace::OVRCameraRig* value);
     // private System.Void Update()
     // Offset: 0x14E0FB0
     void Update();

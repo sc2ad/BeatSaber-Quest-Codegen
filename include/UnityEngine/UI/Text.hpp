@@ -102,6 +102,30 @@ namespace UnityEngine::UI {
     static UnityEngine::Material* _get_s_DefaultText();
     // Set static field: static protected UnityEngine.Material s_DefaultText
     static void _set_s_DefaultText(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.UI.FontData m_FontData
+    UnityEngine::UI::FontData* _get_m_FontData();
+    // Set instance field: private UnityEngine.UI.FontData m_FontData
+    void _set_m_FontData(UnityEngine::UI::FontData* value);
+    // Get instance field: protected System.String m_Text
+    ::Il2CppString* _get_m_Text();
+    // Set instance field: protected System.String m_Text
+    void _set_m_Text(::Il2CppString* value);
+    // Get instance field: private UnityEngine.TextGenerator m_TextCache
+    UnityEngine::TextGenerator* _get_m_TextCache();
+    // Set instance field: private UnityEngine.TextGenerator m_TextCache
+    void _set_m_TextCache(UnityEngine::TextGenerator* value);
+    // Get instance field: private UnityEngine.TextGenerator m_TextCacheForLayout
+    UnityEngine::TextGenerator* _get_m_TextCacheForLayout();
+    // Set instance field: private UnityEngine.TextGenerator m_TextCacheForLayout
+    void _set_m_TextCacheForLayout(UnityEngine::TextGenerator* value);
+    // Get instance field: protected System.Boolean m_DisableFontTextureRebuiltCallback
+    bool _get_m_DisableFontTextureRebuiltCallback();
+    // Set instance field: protected System.Boolean m_DisableFontTextureRebuiltCallback
+    void _set_m_DisableFontTextureRebuiltCallback(bool value);
+    // Get instance field: private readonly UnityEngine.UIVertex[] m_TempVerts
+    ::Array<UnityEngine::UIVertex>* _get_m_TempVerts();
+    // Set instance field: private readonly UnityEngine.UIVertex[] m_TempVerts
+    void _set_m_TempVerts(::Array<UnityEngine::UIVertex>* value);
     // public UnityEngine.TextGenerator get_cachedTextGenerator()
     // Offset: 0x23712F8
     UnityEngine::TextGenerator* get_cachedTextGenerator();

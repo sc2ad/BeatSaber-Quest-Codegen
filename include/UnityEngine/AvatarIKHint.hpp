@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::AvatarIKHint _get_RightElbow();
     // Set static field: static public UnityEngine.AvatarIKHint RightElbow
     static void _set_RightElbow(UnityEngine::AvatarIKHint value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.AvatarIKHint
   #pragma pack(pop)
   static check_size<sizeof(AvatarIKHint), 0 + sizeof(int)> __UnityEngine_AvatarIKHintSizeCheck;

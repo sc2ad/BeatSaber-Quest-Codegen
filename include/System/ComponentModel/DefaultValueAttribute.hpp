@@ -32,6 +32,10 @@ namespace System::ComponentModel {
     constexpr operator ::Il2CppObject*() const noexcept {
       return value;
     }
+    // Get instance field: private System.Object value
+    ::Il2CppObject* _get_value();
+    // Set instance field: private System.Object value
+    void _set_value(::Il2CppObject* value);
     // public System.Object get_Value()
     // Offset: 0x1848038
     ::Il2CppObject* get_Value();

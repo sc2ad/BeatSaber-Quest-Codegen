@@ -46,6 +46,10 @@ namespace Zenject {
     constexpr operator bool() const noexcept {
       return includeInactive;
     }
+    // Get instance field: public System.Boolean includeInactive
+    bool _get_includeInactive();
+    // Set instance field: public System.Boolean includeInactive
+    void _set_includeInactive(bool value);
     // Zenject.IProvider <FromComponentInChildren>b__0(Zenject.DiContainer container, System.Type concreteType)
     // Offset: 0x1621040
     Zenject::IProvider* $FromComponentInChildren$b__0(Zenject::DiContainer* container, System::Type* concreteType);

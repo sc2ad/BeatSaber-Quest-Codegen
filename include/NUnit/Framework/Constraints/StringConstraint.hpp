@@ -48,6 +48,18 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: StringConstraint
     StringConstraint(::Il2CppString* expected_ = {}, bool caseInsensitive_ = {}, ::Il2CppString* descriptionText_ = {}) noexcept : expected{expected_}, caseInsensitive{caseInsensitive_}, descriptionText{descriptionText_} {}
+    // Get instance field: protected System.String expected
+    ::Il2CppString* _get_expected();
+    // Set instance field: protected System.String expected
+    void _set_expected(::Il2CppString* value);
+    // Get instance field: protected System.Boolean caseInsensitive
+    bool _get_caseInsensitive();
+    // Set instance field: protected System.Boolean caseInsensitive
+    void _set_caseInsensitive(bool value);
+    // Get instance field: protected System.String descriptionText
+    ::Il2CppString* _get_descriptionText();
+    // Set instance field: protected System.String descriptionText
+    void _set_descriptionText(::Il2CppString* value);
     // protected System.Void .ctor(System.String expected)
     // Offset: 0x1720060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

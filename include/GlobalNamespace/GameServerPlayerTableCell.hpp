@@ -222,6 +222,94 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
     // Creating value type constructor for type: GameServerPlayerTableCell
     GameServerPlayerTableCell(HMUI::CurvedTextMeshPro* playerNameText_ = {}, UnityEngine::UI::Image* localPlayerBackgroundImage_ = {}, HMUI::CurvedTextMeshPro* suggestedLevelText_ = {}, HMUI::ImageView* suggestedCharacteristicIcon_ = {}, TMPro::TextMeshProUGUI* suggestedDifficultyText_ = {}, HMUI::CurvedTextMeshPro* emptySuggestedLevelText_ = {}, GlobalNamespace::GameplayModifierInfoListItemsList* suggestedModifiersList_ = {}, HMUI::CurvedTextMeshPro* emptySuggestedModifiersText_ = {}, UnityEngine::UI::Button* kickPlayerButton_ = {}, UnityEngine::UI::Button* useBeatmapButton_ = {}, UnityEngine::UI::Button* useModifiersButton_ = {}, HMUI::HoverHint* useBeatmapButtonHoverHint_ = {}, HMUI::ImageView* statusImageView_ = {}, UnityEngine::Sprite* readyIcon_ = {}, UnityEngine::Sprite* spectatingIcon_ = {}, UnityEngine::Sprite* hostIcon_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiers_ = {}, System::Action_1<int>* kickPlayerEvent_ = {}, System::Action_1<int>* useBeatmapEvent_ = {}, System::Action_1<int>* useModifiersEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, System::Threading::CancellationTokenSource* getLevelEntitlementCancellationTokenSource_ = {}) noexcept : playerNameText{playerNameText_}, localPlayerBackgroundImage{localPlayerBackgroundImage_}, suggestedLevelText{suggestedLevelText_}, suggestedCharacteristicIcon{suggestedCharacteristicIcon_}, suggestedDifficultyText{suggestedDifficultyText_}, emptySuggestedLevelText{emptySuggestedLevelText_}, suggestedModifiersList{suggestedModifiersList_}, emptySuggestedModifiersText{emptySuggestedModifiersText_}, kickPlayerButton{kickPlayerButton_}, useBeatmapButton{useBeatmapButton_}, useModifiersButton{useModifiersButton_}, useBeatmapButtonHoverHint{useBeatmapButtonHoverHint_}, statusImageView{statusImageView_}, readyIcon{readyIcon_}, spectatingIcon{spectatingIcon_}, hostIcon{hostIcon_}, gameplayModifiers{gameplayModifiers_}, kickPlayerEvent{kickPlayerEvent_}, useBeatmapEvent{useBeatmapEvent_}, useModifiersEvent{useModifiersEvent_}, buttonBinder{buttonBinder_}, getLevelEntitlementCancellationTokenSource{getLevelEntitlementCancellationTokenSource_} {}
+    // Get instance field: private HMUI.CurvedTextMeshPro _playerNameText
+    HMUI::CurvedTextMeshPro* _get__playerNameText();
+    // Set instance field: private HMUI.CurvedTextMeshPro _playerNameText
+    void _set__playerNameText(HMUI::CurvedTextMeshPro* value);
+    // Get instance field: private UnityEngine.UI.Image _localPlayerBackgroundImage
+    UnityEngine::UI::Image* _get__localPlayerBackgroundImage();
+    // Set instance field: private UnityEngine.UI.Image _localPlayerBackgroundImage
+    void _set__localPlayerBackgroundImage(UnityEngine::UI::Image* value);
+    // Get instance field: private HMUI.CurvedTextMeshPro _suggestedLevelText
+    HMUI::CurvedTextMeshPro* _get__suggestedLevelText();
+    // Set instance field: private HMUI.CurvedTextMeshPro _suggestedLevelText
+    void _set__suggestedLevelText(HMUI::CurvedTextMeshPro* value);
+    // Get instance field: private HMUI.ImageView _suggestedCharacteristicIcon
+    HMUI::ImageView* _get__suggestedCharacteristicIcon();
+    // Set instance field: private HMUI.ImageView _suggestedCharacteristicIcon
+    void _set__suggestedCharacteristicIcon(HMUI::ImageView* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _suggestedDifficultyText
+    TMPro::TextMeshProUGUI* _get__suggestedDifficultyText();
+    // Set instance field: private TMPro.TextMeshProUGUI _suggestedDifficultyText
+    void _set__suggestedDifficultyText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private HMUI.CurvedTextMeshPro _emptySuggestedLevelText
+    HMUI::CurvedTextMeshPro* _get__emptySuggestedLevelText();
+    // Set instance field: private HMUI.CurvedTextMeshPro _emptySuggestedLevelText
+    void _set__emptySuggestedLevelText(HMUI::CurvedTextMeshPro* value);
+    // Get instance field: private GameplayModifierInfoListItemsList _suggestedModifiersList
+    GlobalNamespace::GameplayModifierInfoListItemsList* _get__suggestedModifiersList();
+    // Set instance field: private GameplayModifierInfoListItemsList _suggestedModifiersList
+    void _set__suggestedModifiersList(GlobalNamespace::GameplayModifierInfoListItemsList* value);
+    // Get instance field: private HMUI.CurvedTextMeshPro _emptySuggestedModifiersText
+    HMUI::CurvedTextMeshPro* _get__emptySuggestedModifiersText();
+    // Set instance field: private HMUI.CurvedTextMeshPro _emptySuggestedModifiersText
+    void _set__emptySuggestedModifiersText(HMUI::CurvedTextMeshPro* value);
+    // Get instance field: private UnityEngine.UI.Button _kickPlayerButton
+    UnityEngine::UI::Button* _get__kickPlayerButton();
+    // Set instance field: private UnityEngine.UI.Button _kickPlayerButton
+    void _set__kickPlayerButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _useBeatmapButton
+    UnityEngine::UI::Button* _get__useBeatmapButton();
+    // Set instance field: private UnityEngine.UI.Button _useBeatmapButton
+    void _set__useBeatmapButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _useModifiersButton
+    UnityEngine::UI::Button* _get__useModifiersButton();
+    // Set instance field: private UnityEngine.UI.Button _useModifiersButton
+    void _set__useModifiersButton(UnityEngine::UI::Button* value);
+    // Get instance field: private HMUI.HoverHint _useBeatmapButtonHoverHint
+    HMUI::HoverHint* _get__useBeatmapButtonHoverHint();
+    // Set instance field: private HMUI.HoverHint _useBeatmapButtonHoverHint
+    void _set__useBeatmapButtonHoverHint(HMUI::HoverHint* value);
+    // Get instance field: private HMUI.ImageView _statusImageView
+    HMUI::ImageView* _get__statusImageView();
+    // Set instance field: private HMUI.ImageView _statusImageView
+    void _set__statusImageView(HMUI::ImageView* value);
+    // Get instance field: private UnityEngine.Sprite _readyIcon
+    UnityEngine::Sprite* _get__readyIcon();
+    // Set instance field: private UnityEngine.Sprite _readyIcon
+    void _set__readyIcon(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _spectatingIcon
+    UnityEngine::Sprite* _get__spectatingIcon();
+    // Set instance field: private UnityEngine.Sprite _spectatingIcon
+    void _set__spectatingIcon(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _hostIcon
+    UnityEngine::Sprite* _get__hostIcon();
+    // Set instance field: private UnityEngine.Sprite _hostIcon
+    void _set__hostIcon(UnityEngine::Sprite* value);
+    // Get instance field: private GameplayModifiersModelSO _gameplayModifiers
+    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiers();
+    // Set instance field: private GameplayModifiersModelSO _gameplayModifiers
+    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiersModelSO* value);
+    // Get instance field: private System.Action`1<System.Int32> kickPlayerEvent
+    System::Action_1<int>* _get_kickPlayerEvent();
+    // Set instance field: private System.Action`1<System.Int32> kickPlayerEvent
+    void _set_kickPlayerEvent(System::Action_1<int>* value);
+    // Get instance field: private System.Action`1<System.Int32> useBeatmapEvent
+    System::Action_1<int>* _get_useBeatmapEvent();
+    // Set instance field: private System.Action`1<System.Int32> useBeatmapEvent
+    void _set_useBeatmapEvent(System::Action_1<int>* value);
+    // Get instance field: private System.Action`1<System.Int32> useModifiersEvent
+    System::Action_1<int>* _get_useModifiersEvent();
+    // Set instance field: private System.Action`1<System.Int32> useModifiersEvent
+    void _set_useModifiersEvent(System::Action_1<int>* value);
+    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field: private System.Threading.CancellationTokenSource _getLevelEntitlementCancellationTokenSource
+    System::Threading::CancellationTokenSource* _get__getLevelEntitlementCancellationTokenSource();
+    // Set instance field: private System.Threading.CancellationTokenSource _getLevelEntitlementCancellationTokenSource
+    void _set__getLevelEntitlementCancellationTokenSource(System::Threading::CancellationTokenSource* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.Int32> value)
     // Offset: 0x10AAFF8
     void add_kickPlayerEvent(System::Action_1<int>* value);

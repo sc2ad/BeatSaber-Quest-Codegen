@@ -59,6 +59,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
     $$c__DisplayClass0_0(bool searchByText_ = {}, ::Array<::Il2CppString*>* searchTexts_ = {}, GlobalNamespace::LevelFilterParams* levelFilterParams_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}) noexcept : searchByText{searchByText_}, searchTexts{searchTexts_}, levelFilterParams{levelFilterParams_}, playerDataModel{playerDataModel_} {}
+    // Get instance field: public System.Boolean searchByText
+    bool _get_searchByText();
+    // Set instance field: public System.Boolean searchByText
+    void _set_searchByText(bool value);
+    // Get instance field: public System.String[] searchTexts
+    ::Array<::Il2CppString*>* _get_searchTexts();
+    // Set instance field: public System.String[] searchTexts
+    void _set_searchTexts(::Array<::Il2CppString*>* value);
+    // Get instance field: public LevelFilterParams levelFilterParams
+    GlobalNamespace::LevelFilterParams* _get_levelFilterParams();
+    // Set instance field: public LevelFilterParams levelFilterParams
+    void _set_levelFilterParams(GlobalNamespace::LevelFilterParams* value);
+    // Get instance field: public PlayerDataModel playerDataModel
+    GlobalNamespace::PlayerDataModel* _get_playerDataModel();
+    // Set instance field: public PlayerDataModel playerDataModel
+    void _set_playerDataModel(GlobalNamespace::PlayerDataModel* value);
     // System.Boolean <FilerBeatmapLevelPackCollectionAsync>b__0(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x11986EC
     bool $FilerBeatmapLevelPackCollectionAsync$b__0(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);

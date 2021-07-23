@@ -412,6 +412,10 @@ namespace System {
       static System::Uri::Flags _get_CompressedSlashes();
       // Set static field: static public System.Uri/System.Flags CompressedSlashes
       static void _set_CompressedSlashes(System::Uri::Flags value);
+      // Get instance field: public System.UInt64 value__
+      uint64_t _get_value__();
+      // Set instance field: public System.UInt64 value__
+      void _set_value__(uint64_t value);
     }; // System.Uri/System.Flags
     #pragma pack(pop)
     static check_size<sizeof(Uri::Flags), 0 + sizeof(uint64_t)> __System_Uri_FlagsSizeCheck;
@@ -552,6 +556,34 @@ namespace System {
     static ::Array<::Il2CppChar>* _get__WSchars();
     // Set static field: static private readonly System.Char[] _WSchars
     static void _set__WSchars(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.String m_String
+    ::Il2CppString* _get_m_String();
+    // Set instance field: private System.String m_String
+    void _set_m_String(::Il2CppString* value);
+    // Get instance field: private System.String m_originalUnicodeString
+    ::Il2CppString* _get_m_originalUnicodeString();
+    // Set instance field: private System.String m_originalUnicodeString
+    void _set_m_originalUnicodeString(::Il2CppString* value);
+    // Get instance field: private System.UriParser m_Syntax
+    System::UriParser* _get_m_Syntax();
+    // Set instance field: private System.UriParser m_Syntax
+    void _set_m_Syntax(System::UriParser* value);
+    // Get instance field: private System.String m_DnsSafeHost
+    ::Il2CppString* _get_m_DnsSafeHost();
+    // Set instance field: private System.String m_DnsSafeHost
+    void _set_m_DnsSafeHost(::Il2CppString* value);
+    // Get instance field: private System.Uri/System.Flags m_Flags
+    System::Uri::Flags _get_m_Flags();
+    // Set instance field: private System.Uri/System.Flags m_Flags
+    void _set_m_Flags(System::Uri::Flags value);
+    // Get instance field: private System.Uri/System.UriInfo m_Info
+    System::Uri::UriInfo* _get_m_Info();
+    // Set instance field: private System.Uri/System.UriInfo m_Info
+    void _set_m_Info(System::Uri::UriInfo* value);
+    // Get instance field: private System.Boolean m_iriParsing
+    bool _get_m_iriParsing();
+    // Set instance field: private System.Boolean m_iriParsing
+    void _set_m_iriParsing(bool value);
     // private System.Boolean get_IsImplicitFile()
     // Offset: 0x196DD74
     bool get_IsImplicitFile();

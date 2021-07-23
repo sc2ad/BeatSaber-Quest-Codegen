@@ -95,6 +95,38 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _duration
+    float _get__duration();
+    // Set instance field: private System.Single _duration
+    void _set__duration(float value);
+    // Get instance field: private System.Single _xSpread
+    float _get__xSpread();
+    // Set instance field: private System.Single _xSpread
+    void _set__xSpread(float value);
+    // Get instance field: private System.Single _targetYPos
+    float _get__targetYPos();
+    // Set instance field: private System.Single _targetYPos
+    void _set__targetYPos(float value);
+    // Get instance field: private System.Single _targetZPos
+    float _get__targetZPos();
+    // Set instance field: private System.Single _targetZPos
+    void _set__targetZPos(float value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
+    // Get instance field: private System.Single _fontSize
+    float _get__fontSize();
+    // Set instance field: private System.Single _fontSize
+    void _set__fontSize(float value);
+    // Get instance field: private System.Boolean _shake
+    bool _get__shake();
+    // Set instance field: private System.Boolean _shake
+    void _set__shake(bool value);
+    // Get instance field: private readonly FlyingTextEffect/Pool _flyingTextEffectPool
+    GlobalNamespace::FlyingTextEffect::Pool* _get__flyingTextEffectPool();
+    // Set instance field: private readonly FlyingTextEffect/Pool _flyingTextEffectPool
+    void _set__flyingTextEffectPool(GlobalNamespace::FlyingTextEffect::Pool* value);
     // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
     // Offset: 0x102B97C
     void SpawnText(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, ::Il2CppString* text);

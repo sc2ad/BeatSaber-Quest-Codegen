@@ -58,6 +58,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::NoteLineConnectionController*) == 0x8);
     // Creating value type constructor for type: TutorialBeatmapObjectPoolsInstaller
     TutorialBeatmapObjectPoolsInstaller(GlobalNamespace::TutorialNoteController* basicNotePrefab_ = {}, GlobalNamespace::BombNoteController* bombNotePrefab_ = {}, GlobalNamespace::ObstacleController* obstaclePrefab_ = {}, GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab_ = {}) noexcept : basicNotePrefab{basicNotePrefab_}, bombNotePrefab{bombNotePrefab_}, obstaclePrefab{obstaclePrefab_}, noteLineConnectionControllerPrefab{noteLineConnectionControllerPrefab_} {}
+    // Get instance field: private TutorialNoteController _basicNotePrefab
+    GlobalNamespace::TutorialNoteController* _get__basicNotePrefab();
+    // Set instance field: private TutorialNoteController _basicNotePrefab
+    void _set__basicNotePrefab(GlobalNamespace::TutorialNoteController* value);
+    // Get instance field: private BombNoteController _bombNotePrefab
+    GlobalNamespace::BombNoteController* _get__bombNotePrefab();
+    // Set instance field: private BombNoteController _bombNotePrefab
+    void _set__bombNotePrefab(GlobalNamespace::BombNoteController* value);
+    // Get instance field: private ObstacleController _obstaclePrefab
+    GlobalNamespace::ObstacleController* _get__obstaclePrefab();
+    // Set instance field: private ObstacleController _obstaclePrefab
+    void _set__obstaclePrefab(GlobalNamespace::ObstacleController* value);
+    // Get instance field: private NoteLineConnectionController _noteLineConnectionControllerPrefab
+    GlobalNamespace::NoteLineConnectionController* _get__noteLineConnectionControllerPrefab();
+    // Set instance field: private NoteLineConnectionController _noteLineConnectionControllerPrefab
+    void _set__noteLineConnectionControllerPrefab(GlobalNamespace::NoteLineConnectionController* value);
     // public System.Void .ctor()
     // Offset: 0x1073674
     // Implemented from: Zenject.MonoInstaller

@@ -50,6 +50,10 @@ namespace Zenject {
     constexpr operator Zenject::ILateDisposable*() const noexcept {
       return lateDisposable;
     }
+    // Get instance field: public Zenject.ILateDisposable lateDisposable
+    Zenject::ILateDisposable* _get_lateDisposable();
+    // Set instance field: public Zenject.ILateDisposable lateDisposable
+    void _set_lateDisposable(Zenject::ILateDisposable* value);
     // System.Boolean <.ctor>b__2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x161A9EC
     bool $_ctor$b__2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);

@@ -41,6 +41,14 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(int left_ = {}, int right_ = {}) noexcept : left{left_}, right{right_} {}
+    // Get instance field: public System.Int32 left
+    int _get_left();
+    // Set instance field: public System.Int32 left
+    void _set_left(int value);
+    // Get instance field: public System.Int32 right
+    int _get_right();
+    // Set instance field: public System.Int32 right
+    void _set_right(int value);
     // System.Boolean <RemoveKerningPair>b__0(TMPro.KerningPair item)
     // Offset: 0x10BA010
     bool $RemoveKerningPair$b__0(TMPro::KerningPair* item);

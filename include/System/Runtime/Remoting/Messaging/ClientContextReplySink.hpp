@@ -51,6 +51,14 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink _replySink
+    System::Runtime::Remoting::Messaging::IMessageSink* _get__replySink();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink _replySink
+    void _set__replySink(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    // Get instance field: private System.Runtime.Remoting.Contexts.Context _context
+    System::Runtime::Remoting::Contexts::Context* _get__context();
+    // Set instance field: private System.Runtime.Remoting.Contexts.Context _context
+    void _set__context(System::Runtime::Remoting::Contexts::Context* value);
     // public System.Void .ctor(System.Runtime.Remoting.Contexts.Context ctx, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     // Offset: 0x19F6CF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -36,6 +36,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass4_0
     $$c__DisplayClass4_0(GlobalNamespace::AchievementsModelSO* $$4__this_ = {}, ::Il2CppString* achievementId_ = {}) noexcept : $$4__this{$$4__this_}, achievementId{achievementId_} {}
+    // Get instance field: public AchievementsModelSO <>4__this
+    GlobalNamespace::AchievementsModelSO* _get_$$4__this();
+    // Set instance field: public AchievementsModelSO <>4__this
+    void _set_$$4__this(GlobalNamespace::AchievementsModelSO* value);
+    // Get instance field: public System.String achievementId
+    ::Il2CppString* _get_achievementId();
+    // Set instance field: public System.String achievementId
+    void _set_achievementId(::Il2CppString* value);
     // System.Void <UnlockAchievement>b__0(PlatformAchievementsModelSO/UnlockAchievementResult result)
     // Offset: 0x10D5D9C
     void $UnlockAchievement$b__0(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);

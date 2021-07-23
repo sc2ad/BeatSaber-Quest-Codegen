@@ -49,6 +49,10 @@ namespace System::Net {
     operator System::Net::ICloseEx() noexcept {
       return *reinterpret_cast<System::Net::ICloseEx*>(this);
     }
+    // Get instance field: private System.Net.FileWebRequest m_request
+    System::Net::FileWebRequest* _get_m_request();
+    // Set instance field: private System.Net.FileWebRequest m_request
+    void _set_m_request(System::Net::FileWebRequest* value);
     // public System.Void .ctor(System.Net.FileWebRequest request, System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare sharing)
     // Offset: 0x16A44E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

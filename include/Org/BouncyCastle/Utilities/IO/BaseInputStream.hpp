@@ -34,6 +34,10 @@ namespace Org::BouncyCastle::Utilities::IO {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BaseInputStream
     BaseInputStream(bool closed_ = {}) noexcept : closed{closed_} {}
+    // Get instance field: private System.Boolean closed
+    bool _get_closed();
+    // Set instance field: private System.Boolean closed
+    void _set_closed(bool value);
     // public override System.Boolean get_CanRead()
     // Offset: 0x1F7C348
     // Implemented from: System.IO.Stream

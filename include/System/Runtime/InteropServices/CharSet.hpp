@@ -56,6 +56,10 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::CharSet _get_Auto();
     // Set static field: static public System.Runtime.InteropServices.CharSet Auto
     static void _set_Auto(System::Runtime::InteropServices::CharSet value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.InteropServices.CharSet
   #pragma pack(pop)
   static check_size<sizeof(CharSet), 0 + sizeof(int)> __System_Runtime_InteropServices_CharSetSizeCheck;

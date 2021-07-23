@@ -52,6 +52,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: Target
     Target(bool used_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localRotation_ = {}) noexcept : used{used_}, localPosition{localPosition_}, localRotation{localRotation_} {}
+    // Get instance field: public System.Boolean used
+    bool _get_used();
+    // Set instance field: public System.Boolean used
+    void _set_used(bool value);
+    // Get instance field: public UnityEngine.Vector3 localPosition
+    UnityEngine::Vector3 _get_localPosition();
+    // Set instance field: public UnityEngine.Vector3 localPosition
+    void _set_localPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion localRotation
+    UnityEngine::Quaternion _get_localRotation();
+    // Set instance field: public UnityEngine.Quaternion localRotation
+    void _set_localRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform t)
     // Offset: 0x1AC2784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -107,6 +107,38 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _effectDuration
+    float _get__effectDuration();
+    // Set instance field: private System.Single _effectDuration
+    void _set__effectDuration(float value);
+    // Get instance field: private UnityEngine.Color _bombColorEffect
+    UnityEngine::Color _get__bombColorEffect();
+    // Set instance field: private UnityEngine.Color _bombColorEffect
+    void _set__bombColorEffect(UnityEngine::Color value);
+    // Get instance field: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private readonly ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private readonly BeatEffectSpawner/InitData _initData
+    GlobalNamespace::BeatEffectSpawner::InitData* _get__initData();
+    // Set instance field: private readonly BeatEffectSpawner/InitData _initData
+    void _set__initData(GlobalNamespace::BeatEffectSpawner::InitData* value);
+    // Get instance field: private SongController _songController
+    GlobalNamespace::SongController* _get__songController();
+    // Set instance field: private SongController _songController
+    void _set__songController(GlobalNamespace::SongController* value);
+    // Get instance field: private MemoryPoolContainer`1<BeatEffect> _beatEffectPoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>* _get__beatEffectPoolContainer();
+    // Set instance field: private MemoryPoolContainer`1<BeatEffect> _beatEffectPoolContainer
+    void _set__beatEffectPoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>* value);
     // private System.Void Init(BeatEffect/Pool beatEffectPool)
     // Offset: 0x118726C
     void Init(GlobalNamespace::BeatEffect::Pool* beatEffectPool);

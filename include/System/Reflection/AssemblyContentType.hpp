@@ -44,6 +44,10 @@ namespace System::Reflection {
     static System::Reflection::AssemblyContentType _get_WindowsRuntime();
     // Set static field: static public System.Reflection.AssemblyContentType WindowsRuntime
     static void _set_WindowsRuntime(System::Reflection::AssemblyContentType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Reflection.AssemblyContentType
   #pragma pack(pop)
   static check_size<sizeof(AssemblyContentType), 0 + sizeof(int)> __System_Reflection_AssemblyContentTypeSizeCheck;

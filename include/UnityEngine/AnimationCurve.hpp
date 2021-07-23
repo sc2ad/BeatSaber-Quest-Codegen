@@ -44,6 +44,10 @@ namespace UnityEngine {
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
     // public UnityEngine.Keyframe[] get_keys()
     // Offset: 0x1BD98C0
     ::Array<UnityEngine::Keyframe>* get_keys();

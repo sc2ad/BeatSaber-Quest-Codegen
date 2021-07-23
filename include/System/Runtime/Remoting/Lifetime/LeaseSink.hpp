@@ -44,6 +44,10 @@ namespace System::Runtime::Remoting::Lifetime {
     constexpr operator System::Runtime::Remoting::Messaging::IMessageSink*() const noexcept {
       return nextSink;
     }
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink _nextSink
+    System::Runtime::Remoting::Messaging::IMessageSink* _get__nextSink();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink _nextSink
+    void _set__nextSink(System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
     // Offset: 0x19F2674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

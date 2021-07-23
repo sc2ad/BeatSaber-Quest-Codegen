@@ -94,6 +94,10 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::ActivationTrack::PostPlaybackState _get_LeaveAsIs();
       // Set static field: static public UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState LeaveAsIs
       static void _set_LeaveAsIs(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState
     #pragma pack(pop)
     static check_size<sizeof(ActivationTrack::PostPlaybackState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationTrack_PostPlaybackStateSizeCheck;
@@ -112,6 +116,14 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(UnityEngine::Timeline::ActivationMixerPlayable*) == 0x8);
     // Creating value type constructor for type: ActivationTrack
     ActivationTrack(UnityEngine::Timeline::ActivationTrack::PostPlaybackState m_PostPlaybackState_ = {}, UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer_ = {}) noexcept : m_PostPlaybackState{m_PostPlaybackState_}, m_ActivationMixer{m_ActivationMixer_} {}
+    // Get instance field: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
+    UnityEngine::Timeline::ActivationTrack::PostPlaybackState _get_m_PostPlaybackState();
+    // Set instance field: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
+    void _set_m_PostPlaybackState(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
+    // Get instance field: private UnityEngine.Timeline.ActivationMixerPlayable m_ActivationMixer
+    UnityEngine::Timeline::ActivationMixerPlayable* _get_m_ActivationMixer();
+    // Set instance field: private UnityEngine.Timeline.ActivationMixerPlayable m_ActivationMixer
+    void _set_m_ActivationMixer(UnityEngine::Timeline::ActivationMixerPlayable* value);
     // public UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState get_postPlaybackState()
     // Offset: 0x17DACE8
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState get_postPlaybackState();

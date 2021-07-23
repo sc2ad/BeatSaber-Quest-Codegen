@@ -65,6 +65,22 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
     // Creating value type constructor for type: CertificationRequestInfo
     CertificationRequestInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::X509Name* subject_ = {}, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* subjectPKInfo_ = {}, Org::BouncyCastle::Asn1::Asn1Set* attributes_ = {}) noexcept : version{version_}, subject{subject_}, subjectPKInfo{subjectPKInfo_}, attributes{attributes_} {}
+    // Get instance field: Org.BouncyCastle.Asn1.DerInteger version
+    Org::BouncyCastle::Asn1::DerInteger* _get_version();
+    // Set instance field: Org.BouncyCastle.Asn1.DerInteger version
+    void _set_version(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.X509Name subject
+    Org::BouncyCastle::Asn1::X509::X509Name* _get_subject();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.X509Name subject
+    void _set_subject(Org::BouncyCastle::Asn1::X509::X509Name* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo subjectPKInfo
+    Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* _get_subjectPKInfo();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo subjectPKInfo
+    void _set_subjectPKInfo(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
+    // Get instance field: Org.BouncyCastle.Asn1.Asn1Set attributes
+    Org::BouncyCastle::Asn1::Asn1Set* _get_attributes();
+    // Set instance field: Org.BouncyCastle.Asn1.Asn1Set attributes
+    void _set_attributes(Org::BouncyCastle::Asn1::Asn1Set* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x1760DC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

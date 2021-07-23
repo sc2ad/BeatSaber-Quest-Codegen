@@ -64,6 +64,22 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.String <Comment>k__BackingField
+    ::Il2CppString* _get_$Comment$k__BackingField();
+    // Set instance field: private System.String <Comment>k__BackingField
+    void _set_$Comment$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <ProtocolName>k__BackingField
+    ::Il2CppString* _get_$ProtocolName$k__BackingField();
+    // Set instance field: private System.String <ProtocolName>k__BackingField
+    void _set_$ProtocolName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <ProtocolVersion>k__BackingField
+    ::Il2CppString* _get_$ProtocolVersion$k__BackingField();
+    // Set instance field: private System.String <ProtocolVersion>k__BackingField
+    void _set_$ProtocolVersion$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <ReceivedBy>k__BackingField
+    ::Il2CppString* _get_$ReceivedBy$k__BackingField();
+    // Set instance field: private System.String <ReceivedBy>k__BackingField
+    void _set_$ReceivedBy$k__BackingField(::Il2CppString* value);
     // public System.String get_Comment()
     // Offset: 0x156E04C
     ::Il2CppString* get_Comment();

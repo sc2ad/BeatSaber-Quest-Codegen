@@ -59,6 +59,22 @@ namespace System::Net {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SocketAddress
     SocketAddress(int m_Size_ = {}, ::Array<uint8_t>* m_Buffer_ = {}, bool m_changed_ = {}, int m_hash_ = {}) noexcept : m_Size{m_Size_}, m_Buffer{m_Buffer_}, m_changed{m_changed_}, m_hash{m_hash_} {}
+    // Get instance field: System.Int32 m_Size
+    int _get_m_Size();
+    // Set instance field: System.Int32 m_Size
+    void _set_m_Size(int value);
+    // Get instance field: System.Byte[] m_Buffer
+    ::Array<uint8_t>* _get_m_Buffer();
+    // Set instance field: System.Byte[] m_Buffer
+    void _set_m_Buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean m_changed
+    bool _get_m_changed();
+    // Set instance field: private System.Boolean m_changed
+    void _set_m_changed(bool value);
+    // Get instance field: private System.Int32 m_hash
+    int _get_m_hash();
+    // Set instance field: private System.Int32 m_hash
+    void _set_m_hash(int value);
     // public System.Net.Sockets.AddressFamily get_Family()
     // Offset: 0x146D1F0
     System::Net::Sockets::AddressFamily get_Family();

@@ -112,6 +112,54 @@ namespace UnityEngine::TestTools {
     BeforeAfterTestCommandState(int NextBeforeStepIndex_ = {}, int NextBeforeStepPc_ = {}, int NextAfterStepIndex_ = {}, int NextAfterStepPc_ = {}, bool TestHasRun_ = {}, NUnit::Framework::Interfaces::TestStatus CurrentTestResultStatus_ = {}, ::Il2CppString* CurrentTestResultLabel_ = {}, NUnit::Framework::Interfaces::FailureSite CurrentTestResultSite_ = {}, ::Il2CppString* CurrentTestMessage_ = {}, ::Il2CppString* CurrentTestStrackTrace_ = {}, bool TestAfterStarted_ = {}, int64_t Timestamp_ = {}) noexcept : NextBeforeStepIndex{NextBeforeStepIndex_}, NextBeforeStepPc{NextBeforeStepPc_}, NextAfterStepIndex{NextAfterStepIndex_}, NextAfterStepPc{NextAfterStepPc_}, TestHasRun{TestHasRun_}, CurrentTestResultStatus{CurrentTestResultStatus_}, CurrentTestResultLabel{CurrentTestResultLabel_}, CurrentTestResultSite{CurrentTestResultSite_}, CurrentTestMessage{CurrentTestMessage_}, CurrentTestStrackTrace{CurrentTestStrackTrace_}, TestAfterStarted{TestAfterStarted_}, Timestamp{Timestamp_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Int32 NextBeforeStepIndex
+    int _get_NextBeforeStepIndex();
+    // Set instance field: public System.Int32 NextBeforeStepIndex
+    void _set_NextBeforeStepIndex(int value);
+    // Get instance field: public System.Int32 NextBeforeStepPc
+    int _get_NextBeforeStepPc();
+    // Set instance field: public System.Int32 NextBeforeStepPc
+    void _set_NextBeforeStepPc(int value);
+    // Get instance field: public System.Int32 NextAfterStepIndex
+    int _get_NextAfterStepIndex();
+    // Set instance field: public System.Int32 NextAfterStepIndex
+    void _set_NextAfterStepIndex(int value);
+    // Get instance field: public System.Int32 NextAfterStepPc
+    int _get_NextAfterStepPc();
+    // Set instance field: public System.Int32 NextAfterStepPc
+    void _set_NextAfterStepPc(int value);
+    // Get instance field: public System.Boolean TestHasRun
+    bool _get_TestHasRun();
+    // Set instance field: public System.Boolean TestHasRun
+    void _set_TestHasRun(bool value);
+    // Get instance field: public NUnit.Framework.Interfaces.TestStatus CurrentTestResultStatus
+    NUnit::Framework::Interfaces::TestStatus _get_CurrentTestResultStatus();
+    // Set instance field: public NUnit.Framework.Interfaces.TestStatus CurrentTestResultStatus
+    void _set_CurrentTestResultStatus(NUnit::Framework::Interfaces::TestStatus value);
+    // Get instance field: public System.String CurrentTestResultLabel
+    ::Il2CppString* _get_CurrentTestResultLabel();
+    // Set instance field: public System.String CurrentTestResultLabel
+    void _set_CurrentTestResultLabel(::Il2CppString* value);
+    // Get instance field: public NUnit.Framework.Interfaces.FailureSite CurrentTestResultSite
+    NUnit::Framework::Interfaces::FailureSite _get_CurrentTestResultSite();
+    // Set instance field: public NUnit.Framework.Interfaces.FailureSite CurrentTestResultSite
+    void _set_CurrentTestResultSite(NUnit::Framework::Interfaces::FailureSite value);
+    // Get instance field: public System.String CurrentTestMessage
+    ::Il2CppString* _get_CurrentTestMessage();
+    // Set instance field: public System.String CurrentTestMessage
+    void _set_CurrentTestMessage(::Il2CppString* value);
+    // Get instance field: public System.String CurrentTestStrackTrace
+    ::Il2CppString* _get_CurrentTestStrackTrace();
+    // Set instance field: public System.String CurrentTestStrackTrace
+    void _set_CurrentTestStrackTrace(::Il2CppString* value);
+    // Get instance field: public System.Boolean TestAfterStarted
+    bool _get_TestAfterStarted();
+    // Set instance field: public System.Boolean TestAfterStarted
+    void _set_TestAfterStarted(bool value);
+    // Get instance field: public System.Int64 Timestamp
+    int64_t _get_Timestamp();
+    // Set instance field: public System.Int64 Timestamp
+    void _set_Timestamp(int64_t value);
     // public System.Void Reset()
     // Offset: 0x1487B04
     void Reset();

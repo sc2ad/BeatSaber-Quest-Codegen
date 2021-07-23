@@ -74,6 +74,18 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ISyncStateSerializable_1<GlobalNamespace::StandardScoreSyncState>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISyncStateSerializable_1<GlobalNamespace::StandardScoreSyncState>*>(this);
     }
+    // Get instance field: private StandardScoreSyncState _state
+    GlobalNamespace::StandardScoreSyncState _get__state();
+    // Set instance field: private StandardScoreSyncState _state
+    void _set__state(GlobalNamespace::StandardScoreSyncState value);
+    // Get instance field: private SyncStateId <id>k__BackingField
+    GlobalNamespace::SyncStateId _get_$id$k__BackingField();
+    // Set instance field: private SyncStateId <id>k__BackingField
+    void _set_$id$k__BackingField(GlobalNamespace::SyncStateId value);
+    // Get instance field: private System.Single <time>k__BackingField
+    float _get_$time$k__BackingField();
+    // Set instance field: private System.Single <time>k__BackingField
+    void _set_$time$k__BackingField(float value);
     // static public PacketPool`1<StandardScoreSyncStateNetSerializable> get_pool()
     // Offset: 0x2312C24
     static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();

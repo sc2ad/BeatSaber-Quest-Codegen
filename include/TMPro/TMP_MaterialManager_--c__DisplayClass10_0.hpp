@@ -39,6 +39,10 @@ namespace TMPro {
     constexpr operator UnityEngine::Material*() const noexcept {
       return stencilMaterial;
     }
+    // Get instance field: public UnityEngine.Material stencilMaterial
+    UnityEngine::Material* _get_stencilMaterial();
+    // Set instance field: public UnityEngine.Material stencilMaterial
+    void _set_stencilMaterial(UnityEngine::Material* value);
     // System.Boolean <GetBaseMaterial>b__0(TMPro.TMP_MaterialManager/TMPro.MaskingMaterial item)
     // Offset: 0x110FFD8
     bool $GetBaseMaterial$b__0(TMPro::TMP_MaterialManager::MaskingMaterial* item);

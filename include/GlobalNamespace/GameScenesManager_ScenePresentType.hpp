@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameScenesManager::ScenePresentType _get_Activate();
     // Set static field: static public GameScenesManager/ScenePresentType Activate
     static void _set_Activate(GlobalNamespace::GameScenesManager::ScenePresentType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // GameScenesManager/ScenePresentType
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager::ScenePresentType), 0 + sizeof(int)> __GlobalNamespace_GameScenesManager_ScenePresentTypeSizeCheck;

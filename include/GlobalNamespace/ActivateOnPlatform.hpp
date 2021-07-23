@@ -47,6 +47,14 @@ namespace GlobalNamespace {
     ActivateOnPlatform(GlobalNamespace::VRPlatformSDK vrPlatformSdk_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : vrPlatformSdk{vrPlatformSdk_}, vrPlatformHelper{vrPlatformHelper_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private VRPlatformSDK _vrPlatformSdk
+    GlobalNamespace::VRPlatformSDK _get__vrPlatformSdk();
+    // Set instance field: private VRPlatformSDK _vrPlatformSdk
+    void _set__vrPlatformSdk(GlobalNamespace::VRPlatformSDK value);
+    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
+    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
     // private System.Void Awake()
     // Offset: 0x120DB9C
     void Awake();

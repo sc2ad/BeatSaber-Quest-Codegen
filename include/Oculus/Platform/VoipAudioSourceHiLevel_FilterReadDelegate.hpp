@@ -37,6 +37,14 @@ namespace Oculus::Platform {
     FilterReadDelegate(Oculus::Platform::VoipAudioSourceHiLevel* parent_ = {}, ::Array<float>* scratchBuffer_ = {}) noexcept : parent{parent_}, scratchBuffer{scratchBuffer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public Oculus.Platform.VoipAudioSourceHiLevel parent
+    Oculus::Platform::VoipAudioSourceHiLevel* _get_parent();
+    // Set instance field: public Oculus.Platform.VoipAudioSourceHiLevel parent
+    void _set_parent(Oculus::Platform::VoipAudioSourceHiLevel* value);
+    // Get instance field: private System.Single[] scratchBuffer
+    ::Array<float>* _get_scratchBuffer();
+    // Set instance field: private System.Single[] scratchBuffer
+    void _set_scratchBuffer(::Array<float>* value);
     // private System.Void Awake()
     // Offset: 0x238AAF0
     void Awake();

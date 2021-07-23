@@ -120,6 +120,50 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRScreenFade* _get_$instance$k__BackingField();
     // Set static field: static private OVRScreenFade <instance>k__BackingField
     static void _set_$instance$k__BackingField(GlobalNamespace::OVRScreenFade* value);
+    // Get instance field: public System.Single fadeTime
+    float _get_fadeTime();
+    // Set instance field: public System.Single fadeTime
+    void _set_fadeTime(float value);
+    // Get instance field: public UnityEngine.Color fadeColor
+    UnityEngine::Color _get_fadeColor();
+    // Set instance field: public UnityEngine.Color fadeColor
+    void _set_fadeColor(UnityEngine::Color value);
+    // Get instance field: public System.Boolean fadeOnStart
+    bool _get_fadeOnStart();
+    // Set instance field: public System.Boolean fadeOnStart
+    void _set_fadeOnStart(bool value);
+    // Get instance field: public System.Int32 renderQueue
+    int _get_renderQueue();
+    // Set instance field: public System.Int32 renderQueue
+    void _set_renderQueue(int value);
+    // Get instance field: private System.Single explicitFadeAlpha
+    float _get_explicitFadeAlpha();
+    // Set instance field: private System.Single explicitFadeAlpha
+    void _set_explicitFadeAlpha(float value);
+    // Get instance field: private System.Single animatedFadeAlpha
+    float _get_animatedFadeAlpha();
+    // Set instance field: private System.Single animatedFadeAlpha
+    void _set_animatedFadeAlpha(float value);
+    // Get instance field: private System.Single uiFadeAlpha
+    float _get_uiFadeAlpha();
+    // Set instance field: private System.Single uiFadeAlpha
+    void _set_uiFadeAlpha(float value);
+    // Get instance field: private UnityEngine.MeshRenderer fadeRenderer
+    UnityEngine::MeshRenderer* _get_fadeRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer fadeRenderer
+    void _set_fadeRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private UnityEngine.MeshFilter fadeMesh
+    UnityEngine::MeshFilter* _get_fadeMesh();
+    // Set instance field: private UnityEngine.MeshFilter fadeMesh
+    void _set_fadeMesh(UnityEngine::MeshFilter* value);
+    // Get instance field: private UnityEngine.Material fadeMaterial
+    UnityEngine::Material* _get_fadeMaterial();
+    // Set instance field: private UnityEngine.Material fadeMaterial
+    void _set_fadeMaterial(UnityEngine::Material* value);
+    // Get instance field: private System.Boolean isFading
+    bool _get_isFading();
+    // Set instance field: private System.Boolean isFading
+    void _set_isFading(bool value);
     // static public OVRScreenFade get_instance()
     // Offset: 0x15FC134
     static GlobalNamespace::OVRScreenFade* get_instance();

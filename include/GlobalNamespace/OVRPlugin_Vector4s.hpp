@@ -52,6 +52,22 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Vector4s _get_zero();
     // Set static field: static public readonly OVRPlugin/Vector4s zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Vector4s value);
+    // Get instance field: public System.Int16 x
+    int16_t _get_x();
+    // Set instance field: public System.Int16 x
+    void _set_x(int16_t value);
+    // Get instance field: public System.Int16 y
+    int16_t _get_y();
+    // Set instance field: public System.Int16 y
+    void _set_y(int16_t value);
+    // Get instance field: public System.Int16 z
+    int16_t _get_z();
+    // Set instance field: public System.Int16 z
+    void _set_z(int16_t value);
+    // Get instance field: public System.Int16 w
+    int16_t _get_w();
+    // Set instance field: public System.Int16 w
+    void _set_w(int16_t value);
     // static private System.Void .cctor()
     // Offset: 0x15F7A8C
     static void _cctor();

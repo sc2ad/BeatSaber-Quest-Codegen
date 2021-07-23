@@ -55,6 +55,10 @@ namespace System {
     static System::TypeNameKind _get_FullName();
     // Set static field: static public System.TypeNameKind FullName
     static void _set_FullName(System::TypeNameKind value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.TypeNameKind
   #pragma pack(pop)
   static check_size<sizeof(TypeNameKind), 0 + sizeof(int)> __System_TypeNameKindSizeCheck;

@@ -151,6 +151,46 @@ namespace HMUI {
     operator UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
+    // Get instance field: private HMUI.TableView _tableView
+    HMUI::TableView* _get__tableView();
+    // Set instance field: private HMUI.TableView _tableView
+    void _set__tableView(HMUI::TableView* value);
+    // Get instance field: private System.Single _characterHeight
+    float _get__characterHeight();
+    // Set instance field: private System.Single _characterHeight
+    void _set__characterHeight(float value);
+    // Get instance field: private UnityEngine.Color _normalColor
+    UnityEngine::Color _get__normalColor();
+    // Set instance field: private UnityEngine.Color _normalColor
+    void _set__normalColor(UnityEngine::Color value);
+    // Get instance field: private TMPro.TextMeshProUGUI _textPrefab
+    TMPro::TextMeshProUGUI* _get__textPrefab();
+    // Set instance field: private TMPro.TextMeshProUGUI _textPrefab
+    void _set__textPrefab(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI[] _prealocatedTexts
+    ::Array<TMPro::TextMeshProUGUI*>* _get__prealocatedTexts();
+    // Set instance field: private TMPro.TextMeshProUGUI[] _prealocatedTexts
+    void _set__prealocatedTexts(::Array<TMPro::TextMeshProUGUI*>* value);
+    // Get instance field: private UnityEngine.UI.Image _highlightImage
+    UnityEngine::UI::Image* _get__highlightImage();
+    // Set instance field: private UnityEngine.UI.Image _highlightImage
+    void _set__highlightImage(UnityEngine::UI::Image* value);
+    // Get instance field: private AlphabetScrollInfo/Data[] _characterScrollData
+    ::Array<GlobalNamespace::AlphabetScrollInfo::Data*>* _get__characterScrollData();
+    // Set instance field: private AlphabetScrollInfo/Data[] _characterScrollData
+    void _set__characterScrollData(::Array<GlobalNamespace::AlphabetScrollInfo::Data*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _texts
+    System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* _get__texts();
+    // Set instance field: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _texts
+    void _set__texts(System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* value);
+    // Get instance field: private System.Int32 _highlightedCharactedIndex
+    int _get__highlightedCharactedIndex();
+    // Set instance field: private System.Int32 _highlightedCharactedIndex
+    void _set__highlightedCharactedIndex(int value);
+    // Get instance field: private System.Boolean _pointerIsDown
+    bool _get__pointerIsDown();
+    // Set instance field: private System.Boolean _pointerIsDown
+    void _set__pointerIsDown(bool value);
     // protected System.Void Awake()
     // Offset: 0x13013B4
     void Awake();

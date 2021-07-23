@@ -167,6 +167,46 @@ namespace GlobalNamespace {
     static int _get__tempTexture1ID();
     // Set static field: static private readonly System.Int32 _tempTexture1ID
     static void _set__tempTexture1ID(int value);
+    // Get instance field: private UnityEngine.Shader _kawaseBlurShader
+    UnityEngine::Shader* _get__kawaseBlurShader();
+    // Set instance field: private UnityEngine.Shader _kawaseBlurShader
+    void _set__kawaseBlurShader(UnityEngine::Shader* value);
+    // Get instance field: private UnityEngine.Shader _additiveShader
+    UnityEngine::Shader* _get__additiveShader();
+    // Set instance field: private UnityEngine.Shader _additiveShader
+    void _set__additiveShader(UnityEngine::Shader* value);
+    // Get instance field: private UnityEngine.Shader _tintShader
+    UnityEngine::Shader* _get__tintShader();
+    // Set instance field: private UnityEngine.Shader _tintShader
+    void _set__tintShader(UnityEngine::Shader* value);
+    // Get instance field: private UnityEngine.Material _kawaseBlurMaterial
+    UnityEngine::Material* _get__kawaseBlurMaterial();
+    // Set instance field: private UnityEngine.Material _kawaseBlurMaterial
+    void _set__kawaseBlurMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material _additiveMaterial
+    UnityEngine::Material* _get__additiveMaterial();
+    // Set instance field: private UnityEngine.Material _additiveMaterial
+    void _set__additiveMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material _tintMaterial
+    UnityEngine::Material* _get__tintMaterial();
+    // Set instance field: private UnityEngine.Material _tintMaterial
+    void _set__tintMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material _commandBuffersMaterial
+    UnityEngine::Material* _get__commandBuffersMaterial();
+    // Set instance field: private UnityEngine.Material _commandBuffersMaterial
+    void _set__commandBuffersMaterial(UnityEngine::Material* value);
+    // Get instance field: private System.Int32[][] _kernels
+    ::Array<::Array<int>*>* _get__kernels();
+    // Set instance field: private System.Int32[][] _kernels
+    void _set__kernels(::Array<::Array<int>*>* value);
+    // Get instance field: private KawaseBlurRendererSO/BloomKernel[] _bloomKernels
+    ::Array<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>* _get__bloomKernels();
+    // Set instance field: private KawaseBlurRendererSO/BloomKernel[] _bloomKernels
+    void _set__bloomKernels(::Array<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>* value);
+    // Get instance field: private UnityEngine.RenderTexture[] _blurTextures
+    ::Array<UnityEngine::RenderTexture*>* _get__blurTextures();
+    // Set instance field: private UnityEngine.RenderTexture[] _blurTextures
+    void _set__blurTextures(::Array<UnityEngine::RenderTexture*>* value);
     // public System.Int32[] GetBlurKernel(KawaseBlurRendererSO/KernelSize kernelSize)
     // Offset: 0x1DF0CF0
     ::Array<int>* GetBlurKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize);

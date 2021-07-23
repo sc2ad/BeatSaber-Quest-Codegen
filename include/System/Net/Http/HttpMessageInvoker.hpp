@@ -59,6 +59,14 @@ namespace System::Net::Http {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.Net.Http.HttpMessageHandler handler
+    System::Net::Http::HttpMessageHandler* _get_handler();
+    // Set instance field: private System.Net.Http.HttpMessageHandler handler
+    void _set_handler(System::Net::Http::HttpMessageHandler* value);
+    // Get instance field: private readonly System.Boolean disposeHandler
+    bool _get_disposeHandler();
+    // Set instance field: private readonly System.Boolean disposeHandler
+    void _set_disposeHandler(bool value);
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
     // Offset: 0x156F170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

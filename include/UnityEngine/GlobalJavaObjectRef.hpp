@@ -35,6 +35,14 @@ namespace UnityEngine {
     static_assert(sizeof(System::IntPtr) == 0x8);
     // Creating value type constructor for type: GlobalJavaObjectRef
     GlobalJavaObjectRef(bool m_disposed_ = {}, System::IntPtr m_jobject_ = {}) noexcept : m_disposed{m_disposed_}, m_jobject{m_jobject_} {}
+    // Get instance field: private System.Boolean m_disposed
+    bool _get_m_disposed();
+    // Set instance field: private System.Boolean m_disposed
+    void _set_m_disposed(bool value);
+    // Get instance field: protected System.IntPtr m_jobject
+    System::IntPtr _get_m_jobject();
+    // Set instance field: protected System.IntPtr m_jobject
+    void _set_m_jobject(System::IntPtr value);
     // public System.Void .ctor(System.IntPtr jobject)
     // Offset: 0x2351EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

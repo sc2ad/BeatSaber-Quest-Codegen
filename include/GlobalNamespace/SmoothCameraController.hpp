@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     SmoothCameraController(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::SmoothCamera* smoothCamera_ = {}, LIV::SDK::Unity::LIV* liv_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, smoothCamera{smoothCamera_}, liv{liv_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private SmoothCamera _smoothCamera
+    GlobalNamespace::SmoothCamera* _get__smoothCamera();
+    // Set instance field: private SmoothCamera _smoothCamera
+    void _set__smoothCamera(GlobalNamespace::SmoothCamera* value);
+    // Get instance field: private LIV.SDK.Unity.LIV _liv
+    LIV::SDK::Unity::LIV* _get__liv();
+    // Set instance field: private LIV.SDK.Unity.LIV _liv
+    void _set__liv(LIV::SDK::Unity::LIV* value);
     // protected System.Void Start()
     // Offset: 0x1058BF0
     void Start();

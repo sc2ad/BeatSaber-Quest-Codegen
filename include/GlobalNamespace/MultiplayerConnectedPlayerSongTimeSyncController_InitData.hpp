@@ -39,6 +39,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: InitData
     InitData(float startSongTime_ = {}, float songTimeOffset_ = {}, float timeScale_ = {}) noexcept : startSongTime{startSongTime_}, songTimeOffset{songTimeOffset_}, timeScale{timeScale_} {}
+    // Get instance field: public readonly System.Single startSongTime
+    float _get_startSongTime();
+    // Set instance field: public readonly System.Single startSongTime
+    void _set_startSongTime(float value);
+    // Get instance field: public readonly System.Single songTimeOffset
+    float _get_songTimeOffset();
+    // Set instance field: public readonly System.Single songTimeOffset
+    void _set_songTimeOffset(float value);
+    // Get instance field: public readonly System.Single timeScale
+    float _get_timeScale();
+    // Set instance field: public readonly System.Single timeScale
+    void _set_timeScale(float value);
     // public System.Void .ctor(System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
     // Offset: 0x11A39AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

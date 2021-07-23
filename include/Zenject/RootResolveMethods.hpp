@@ -43,6 +43,10 @@ namespace Zenject {
     static Zenject::RootResolveMethods _get_All();
     // Set static field: static public Zenject.RootResolveMethods All
     static void _set_All(Zenject::RootResolveMethods value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Zenject.RootResolveMethods
   #pragma pack(pop)
   static check_size<sizeof(RootResolveMethods), 0 + sizeof(int)> __Zenject_RootResolveMethodsSizeCheck;

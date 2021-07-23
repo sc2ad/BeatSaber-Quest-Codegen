@@ -35,6 +35,14 @@ namespace System::Text::RegularExpressions {
     static System::Text::RegularExpressions::RegexPrefix* _get__empty();
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty
     static void _set__empty(System::Text::RegularExpressions::RegexPrefix* value);
+    // Get instance field: System.String _prefix
+    ::Il2CppString* _get__prefix();
+    // Set instance field: System.String _prefix
+    void _set__prefix(::Il2CppString* value);
+    // Get instance field: System.Boolean _caseInsensitive
+    bool _get__caseInsensitive();
+    // Set instance field: System.Boolean _caseInsensitive
+    void _set__caseInsensitive(bool value);
     // System.String get_Prefix()
     // Offset: 0x196BA00
     ::Il2CppString* get_Prefix();

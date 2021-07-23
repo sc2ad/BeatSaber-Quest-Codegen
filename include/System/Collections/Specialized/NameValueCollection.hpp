@@ -55,6 +55,14 @@ namespace System::Collections::Specialized {
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: NameValueCollection
     NameValueCollection(::Array<::Il2CppString*>* all_ = {}, ::Array<::Il2CppString*>* allKeys_ = {}) noexcept : all{all_}, allKeys{allKeys_} {}
+    // Get instance field: private System.String[] _all
+    ::Array<::Il2CppString*>* _get__all();
+    // Set instance field: private System.String[] _all
+    void _set__all(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.String[] _allKeys
+    ::Array<::Il2CppString*>* _get__allKeys();
+    // Set instance field: private System.String[] _allKeys
+    void _set__allKeys(::Array<::Il2CppString*>* value);
     // public System.String get_Item(System.String name)
     // Offset: 0x1846C88
     ::Il2CppString* get_Item(::Il2CppString* name);

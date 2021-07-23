@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: TableCellWithSeparator
     TableCellWithSeparator(UnityEngine::GameObject* separator_ = {}) noexcept : separator{separator_} {}
+    // Get instance field: private UnityEngine.GameObject _separator
+    UnityEngine::GameObject* _get__separator();
+    // Set instance field: private UnityEngine.GameObject _separator
+    void _set__separator(UnityEngine::GameObject* value);
     // public System.Void .ctor()
     // Offset: 0x23586A8
     // Implemented from: HMUI.TableCell

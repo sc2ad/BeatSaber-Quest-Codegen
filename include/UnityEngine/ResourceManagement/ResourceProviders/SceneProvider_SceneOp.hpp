@@ -105,6 +105,34 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::IUpdateReceiver*>(this);
     }
+    // Get instance field: private System.Boolean m_ActivateOnLoad
+    bool _get_m_ActivateOnLoad();
+    // Set instance field: private System.Boolean m_ActivateOnLoad
+    void _set_m_ActivateOnLoad(bool value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Inst
+    UnityEngine::ResourceManagement::ResourceProviders::SceneInstance _get_m_Inst();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Inst
+    void _set_m_Inst(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation m_Location
+    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _get_m_Location();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation m_Location
+    void _set_m_Location(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+    // Get instance field: private UnityEngine.SceneManagement.LoadSceneMode m_LoadMode
+    UnityEngine::SceneManagement::LoadSceneMode _get_m_LoadMode();
+    // Set instance field: private UnityEngine.SceneManagement.LoadSceneMode m_LoadMode
+    void _set_m_LoadMode(UnityEngine::SceneManagement::LoadSceneMode value);
+    // Get instance field: private System.Int32 m_Priority
+    int _get_m_Priority();
+    // Set instance field: private System.Int32 m_Priority
+    void _set_m_Priority(int value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> _get_m_DepOp();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
+    void _set_m_DepOp(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
+    UnityEngine::ResourceManagement::ResourceManager* _get_m_ResourceManager();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
+    void _set_m_ResourceManager(UnityEngine::ResourceManagement::ResourceManager* value);
     // public System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager rm)
     // Offset: 0x19BA394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

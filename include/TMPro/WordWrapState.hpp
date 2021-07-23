@@ -357,6 +357,226 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 previous_WordBreak
+    int _get_previous_WordBreak();
+    // Set instance field: public System.Int32 previous_WordBreak
+    void _set_previous_WordBreak(int value);
+    // Get instance field: public System.Int32 total_CharacterCount
+    int _get_total_CharacterCount();
+    // Set instance field: public System.Int32 total_CharacterCount
+    void _set_total_CharacterCount(int value);
+    // Get instance field: public System.Int32 visible_CharacterCount
+    int _get_visible_CharacterCount();
+    // Set instance field: public System.Int32 visible_CharacterCount
+    void _set_visible_CharacterCount(int value);
+    // Get instance field: public System.Int32 visible_SpriteCount
+    int _get_visible_SpriteCount();
+    // Set instance field: public System.Int32 visible_SpriteCount
+    void _set_visible_SpriteCount(int value);
+    // Get instance field: public System.Int32 visible_LinkCount
+    int _get_visible_LinkCount();
+    // Set instance field: public System.Int32 visible_LinkCount
+    void _set_visible_LinkCount(int value);
+    // Get instance field: public System.Int32 firstCharacterIndex
+    int _get_firstCharacterIndex();
+    // Set instance field: public System.Int32 firstCharacterIndex
+    void _set_firstCharacterIndex(int value);
+    // Get instance field: public System.Int32 firstVisibleCharacterIndex
+    int _get_firstVisibleCharacterIndex();
+    // Set instance field: public System.Int32 firstVisibleCharacterIndex
+    void _set_firstVisibleCharacterIndex(int value);
+    // Get instance field: public System.Int32 lastCharacterIndex
+    int _get_lastCharacterIndex();
+    // Set instance field: public System.Int32 lastCharacterIndex
+    void _set_lastCharacterIndex(int value);
+    // Get instance field: public System.Int32 lastVisibleCharIndex
+    int _get_lastVisibleCharIndex();
+    // Set instance field: public System.Int32 lastVisibleCharIndex
+    void _set_lastVisibleCharIndex(int value);
+    // Get instance field: public System.Int32 lineNumber
+    int _get_lineNumber();
+    // Set instance field: public System.Int32 lineNumber
+    void _set_lineNumber(int value);
+    // Get instance field: public System.Single maxCapHeight
+    float _get_maxCapHeight();
+    // Set instance field: public System.Single maxCapHeight
+    void _set_maxCapHeight(float value);
+    // Get instance field: public System.Single maxAscender
+    float _get_maxAscender();
+    // Set instance field: public System.Single maxAscender
+    void _set_maxAscender(float value);
+    // Get instance field: public System.Single maxDescender
+    float _get_maxDescender();
+    // Set instance field: public System.Single maxDescender
+    void _set_maxDescender(float value);
+    // Get instance field: public System.Single maxLineAscender
+    float _get_maxLineAscender();
+    // Set instance field: public System.Single maxLineAscender
+    void _set_maxLineAscender(float value);
+    // Get instance field: public System.Single maxLineDescender
+    float _get_maxLineDescender();
+    // Set instance field: public System.Single maxLineDescender
+    void _set_maxLineDescender(float value);
+    // Get instance field: public System.Single previousLineAscender
+    float _get_previousLineAscender();
+    // Set instance field: public System.Single previousLineAscender
+    void _set_previousLineAscender(float value);
+    // Get instance field: public System.Single xAdvance
+    float _get_xAdvance();
+    // Set instance field: public System.Single xAdvance
+    void _set_xAdvance(float value);
+    // Get instance field: public System.Single preferredWidth
+    float _get_preferredWidth();
+    // Set instance field: public System.Single preferredWidth
+    void _set_preferredWidth(float value);
+    // Get instance field: public System.Single preferredHeight
+    float _get_preferredHeight();
+    // Set instance field: public System.Single preferredHeight
+    void _set_preferredHeight(float value);
+    // Get instance field: public System.Single previousLineScale
+    float _get_previousLineScale();
+    // Set instance field: public System.Single previousLineScale
+    void _set_previousLineScale(float value);
+    // Get instance field: public System.Int32 wordCount
+    int _get_wordCount();
+    // Set instance field: public System.Int32 wordCount
+    void _set_wordCount(int value);
+    // Get instance field: public TMPro.FontStyles fontStyle
+    TMPro::FontStyles _get_fontStyle();
+    // Set instance field: public TMPro.FontStyles fontStyle
+    void _set_fontStyle(TMPro::FontStyles value);
+    // Get instance field: public System.Single fontScale
+    float _get_fontScale();
+    // Set instance field: public System.Single fontScale
+    void _set_fontScale(float value);
+    // Get instance field: public System.Single fontScaleMultiplier
+    float _get_fontScaleMultiplier();
+    // Set instance field: public System.Single fontScaleMultiplier
+    void _set_fontScaleMultiplier(float value);
+    // Get instance field: public System.Single currentFontSize
+    float _get_currentFontSize();
+    // Set instance field: public System.Single currentFontSize
+    void _set_currentFontSize(float value);
+    // Get instance field: public System.Single baselineOffset
+    float _get_baselineOffset();
+    // Set instance field: public System.Single baselineOffset
+    void _set_baselineOffset(float value);
+    // Get instance field: public System.Single lineOffset
+    float _get_lineOffset();
+    // Set instance field: public System.Single lineOffset
+    void _set_lineOffset(float value);
+    // Get instance field: public TMPro.TMP_TextInfo textInfo
+    TMPro::TMP_TextInfo* _get_textInfo();
+    // Set instance field: public TMPro.TMP_TextInfo textInfo
+    void _set_textInfo(TMPro::TMP_TextInfo* value);
+    // Get instance field: public TMPro.TMP_LineInfo lineInfo
+    TMPro::TMP_LineInfo _get_lineInfo();
+    // Set instance field: public TMPro.TMP_LineInfo lineInfo
+    void _set_lineInfo(TMPro::TMP_LineInfo value);
+    // Get instance field: public UnityEngine.Color32 vertexColor
+    UnityEngine::Color32 _get_vertexColor();
+    // Set instance field: public UnityEngine.Color32 vertexColor
+    void _set_vertexColor(UnityEngine::Color32 value);
+    // Get instance field: public UnityEngine.Color32 underlineColor
+    UnityEngine::Color32 _get_underlineColor();
+    // Set instance field: public UnityEngine.Color32 underlineColor
+    void _set_underlineColor(UnityEngine::Color32 value);
+    // Get instance field: public UnityEngine.Color32 strikethroughColor
+    UnityEngine::Color32 _get_strikethroughColor();
+    // Set instance field: public UnityEngine.Color32 strikethroughColor
+    void _set_strikethroughColor(UnityEngine::Color32 value);
+    // Get instance field: public UnityEngine.Color32 highlightColor
+    UnityEngine::Color32 _get_highlightColor();
+    // Set instance field: public UnityEngine.Color32 highlightColor
+    void _set_highlightColor(UnityEngine::Color32 value);
+    // Get instance field: public TMPro.TMP_FontStyleStack basicStyleStack
+    TMPro::TMP_FontStyleStack _get_basicStyleStack();
+    // Set instance field: public TMPro.TMP_FontStyleStack basicStyleStack
+    void _set_basicStyleStack(TMPro::TMP_FontStyleStack value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> colorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_colorStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> colorStack
+    void _set_colorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> underlineColorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_underlineColorStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> underlineColorStack
+    void _set_underlineColorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> strikethroughColorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_strikethroughColorStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> strikethroughColorStack
+    void _set_strikethroughColorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> highlightColorStack
+    TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> _get_highlightColorStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<UnityEngine.Color32> highlightColorStack
+    void _set_highlightColorStack(TMPro::TMP_RichTextTagStack_1<UnityEngine::Color32> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.TMP_ColorGradient> colorGradientStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::TMP_ColorGradient*> _get_colorGradientStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.TMP_ColorGradient> colorGradientStack
+    void _set_colorGradientStack(TMPro::TMP_RichTextTagStack_1<TMPro::TMP_ColorGradient*> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<System.Single> sizeStack
+    TMPro::TMP_RichTextTagStack_1<float> _get_sizeStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<System.Single> sizeStack
+    void _set_sizeStack(TMPro::TMP_RichTextTagStack_1<float> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<System.Single> indentStack
+    TMPro::TMP_RichTextTagStack_1<float> _get_indentStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<System.Single> indentStack
+    void _set_indentStack(TMPro::TMP_RichTextTagStack_1<float> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.FontWeight> fontWeightStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::FontWeight> _get_fontWeightStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.FontWeight> fontWeightStack
+    void _set_fontWeightStack(TMPro::TMP_RichTextTagStack_1<TMPro::FontWeight> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<System.Int32> styleStack
+    TMPro::TMP_RichTextTagStack_1<int> _get_styleStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<System.Int32> styleStack
+    void _set_styleStack(TMPro::TMP_RichTextTagStack_1<int> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<System.Single> baselineStack
+    TMPro::TMP_RichTextTagStack_1<float> _get_baselineStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<System.Single> baselineStack
+    void _set_baselineStack(TMPro::TMP_RichTextTagStack_1<float> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<System.Int32> actionStack
+    TMPro::TMP_RichTextTagStack_1<int> _get_actionStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<System.Int32> actionStack
+    void _set_actionStack(TMPro::TMP_RichTextTagStack_1<int> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> materialReferenceStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::MaterialReference> _get_materialReferenceStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> materialReferenceStack
+    void _set_materialReferenceStack(TMPro::TMP_RichTextTagStack_1<TMPro::MaterialReference> value);
+    // Get instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> lineJustificationStack
+    TMPro::TMP_RichTextTagStack_1<TMPro::TextAlignmentOptions> _get_lineJustificationStack();
+    // Set instance field: public TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> lineJustificationStack
+    void _set_lineJustificationStack(TMPro::TMP_RichTextTagStack_1<TMPro::TextAlignmentOptions> value);
+    // Get instance field: public System.Int32 spriteAnimationID
+    int _get_spriteAnimationID();
+    // Set instance field: public System.Int32 spriteAnimationID
+    void _set_spriteAnimationID(int value);
+    // Get instance field: public TMPro.TMP_FontAsset currentFontAsset
+    TMPro::TMP_FontAsset* _get_currentFontAsset();
+    // Set instance field: public TMPro.TMP_FontAsset currentFontAsset
+    void _set_currentFontAsset(TMPro::TMP_FontAsset* value);
+    // Get instance field: public TMPro.TMP_SpriteAsset currentSpriteAsset
+    TMPro::TMP_SpriteAsset* _get_currentSpriteAsset();
+    // Set instance field: public TMPro.TMP_SpriteAsset currentSpriteAsset
+    void _set_currentSpriteAsset(TMPro::TMP_SpriteAsset* value);
+    // Get instance field: public UnityEngine.Material currentMaterial
+    UnityEngine::Material* _get_currentMaterial();
+    // Set instance field: public UnityEngine.Material currentMaterial
+    void _set_currentMaterial(UnityEngine::Material* value);
+    // Get instance field: public System.Int32 currentMaterialIndex
+    int _get_currentMaterialIndex();
+    // Set instance field: public System.Int32 currentMaterialIndex
+    void _set_currentMaterialIndex(int value);
+    // Get instance field: public TMPro.Extents meshExtents
+    TMPro::Extents _get_meshExtents();
+    // Set instance field: public TMPro.Extents meshExtents
+    void _set_meshExtents(TMPro::Extents value);
+    // Get instance field: public System.Boolean tagNoParsing
+    bool _get_tagNoParsing();
+    // Set instance field: public System.Boolean tagNoParsing
+    void _set_tagNoParsing(bool value);
+    // Get instance field: public System.Boolean isNonBreakingSpace
+    bool _get_isNonBreakingSpace();
+    // Set instance field: public System.Boolean isNonBreakingSpace
+    void _set_isNonBreakingSpace(bool value);
   }; // TMPro.WordWrapState
   // WARNING Not writing size check since size may be invalid!
 }

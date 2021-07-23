@@ -36,6 +36,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     constexpr operator System::Guid() const noexcept {
       return messageId;
     }
+    // Get instance field: public System.Guid messageId
+    System::Guid _get_messageId();
+    // Set instance field: public System.Guid messageId
+    void _set_messageId(System::Guid value);
     // System.Boolean <Register>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers x)
     // Offset: 0x1CFB2A0
     bool $Register$b__0(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers* x);

@@ -71,6 +71,26 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3 _get_m_Position();
+    // Set instance field: private UnityEngine.Vector3 m_Position
+    void _set_m_Position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion m_Rotation
+    UnityEngine::Quaternion _get_m_Rotation();
+    // Set instance field: private UnityEngine.Quaternion m_Rotation
+    void _set_m_Rotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Transform m_Parent
+    UnityEngine::Transform* _get_m_Parent();
+    // Set instance field: private UnityEngine.Transform m_Parent
+    void _set_m_Parent(UnityEngine::Transform* value);
+    // Get instance field: private System.Boolean m_InstantiateInWorldPosition
+    bool _get_m_InstantiateInWorldPosition();
+    // Set instance field: private System.Boolean m_InstantiateInWorldPosition
+    void _set_m_InstantiateInWorldPosition(bool value);
+    // Get instance field: private System.Boolean m_SetPositionRotation
+    bool _get_m_SetPositionRotation();
+    // Set instance field: private System.Boolean m_SetPositionRotation
+    void _set_m_SetPositionRotation(bool value);
     // public UnityEngine.Vector3 get_Position()
     // Offset: 0xEEC1E0
     UnityEngine::Vector3 get_Position();

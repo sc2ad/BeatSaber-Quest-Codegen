@@ -36,6 +36,10 @@ namespace UnityEngine::Bindings {
     constexpr operator UnityEngine::Bindings::TargetType() const noexcept {
       return TargetType;
     }
+    // Get instance field: private UnityEngine.Bindings.TargetType <TargetType>k__BackingField
+    UnityEngine::Bindings::TargetType _get_$TargetType$k__BackingField();
+    // Set instance field: private UnityEngine.Bindings.TargetType <TargetType>k__BackingField
+    void _set_$TargetType$k__BackingField(UnityEngine::Bindings::TargetType value);
     // public System.Void set_TargetType(UnityEngine.Bindings.TargetType value)
     // Offset: 0x23C1EC0
     void set_TargetType(UnityEngine::Bindings::TargetType value);

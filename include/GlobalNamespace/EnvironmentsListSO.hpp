@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     EnvironmentsListSO(::Array<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos_ = {}) noexcept : environmentInfos{environmentInfos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private EnvironmentInfoSO[] _environmentInfos
+    ::Array<GlobalNamespace::EnvironmentInfoSO*>* _get__environmentInfos();
+    // Set instance field: private EnvironmentInfoSO[] _environmentInfos
+    void _set__environmentInfos(::Array<GlobalNamespace::EnvironmentInfoSO*>* value);
     // public EnvironmentInfoSO[] get_environmentInfos()
     // Offset: 0x1023130
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();

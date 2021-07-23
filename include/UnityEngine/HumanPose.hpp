@@ -46,6 +46,18 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.Vector3 bodyPosition
+    UnityEngine::Vector3 _get_bodyPosition();
+    // Set instance field: public UnityEngine.Vector3 bodyPosition
+    void _set_bodyPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion bodyRotation
+    UnityEngine::Quaternion _get_bodyRotation();
+    // Set instance field: public UnityEngine.Quaternion bodyRotation
+    void _set_bodyRotation(UnityEngine::Quaternion value);
+    // Get instance field: public System.Single[] muscles
+    ::Array<float>* _get_muscles();
+    // Set instance field: public System.Single[] muscles
+    void _set_muscles(::Array<float>* value);
     // System.Void Init()
     // Offset: 0xF0D058
     void Init();

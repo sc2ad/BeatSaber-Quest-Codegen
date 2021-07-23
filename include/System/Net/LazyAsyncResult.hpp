@@ -94,6 +94,34 @@ namespace System::Net {
     static System::Net::LazyAsyncResult::ThreadContext* _get_t_ThreadContext();
     // Set static field: static private System.Net.LazyAsyncResult/System.Net.ThreadContext t_ThreadContext
     static void _set_t_ThreadContext(System::Net::LazyAsyncResult::ThreadContext* value);
+    // Get instance field: private System.Object m_AsyncObject
+    ::Il2CppObject* _get_m_AsyncObject();
+    // Set instance field: private System.Object m_AsyncObject
+    void _set_m_AsyncObject(::Il2CppObject* value);
+    // Get instance field: private System.Object m_AsyncState
+    ::Il2CppObject* _get_m_AsyncState();
+    // Set instance field: private System.Object m_AsyncState
+    void _set_m_AsyncState(::Il2CppObject* value);
+    // Get instance field: private System.AsyncCallback m_AsyncCallback
+    System::AsyncCallback* _get_m_AsyncCallback();
+    // Set instance field: private System.AsyncCallback m_AsyncCallback
+    void _set_m_AsyncCallback(System::AsyncCallback* value);
+    // Get instance field: private System.Object m_Result
+    ::Il2CppObject* _get_m_Result();
+    // Set instance field: private System.Object m_Result
+    void _set_m_Result(::Il2CppObject* value);
+    // Get instance field: private System.Int32 m_IntCompleted
+    int _get_m_IntCompleted();
+    // Set instance field: private System.Int32 m_IntCompleted
+    void _set_m_IntCompleted(int value);
+    // Get instance field: private System.Boolean m_UserEvent
+    bool _get_m_UserEvent();
+    // Set instance field: private System.Boolean m_UserEvent
+    void _set_m_UserEvent(bool value);
+    // Get instance field: private System.Object m_Event
+    ::Il2CppObject* _get_m_Event();
+    // Set instance field: private System.Object m_Event
+    void _set_m_Event(::Il2CppObject* value);
     // static private System.Net.LazyAsyncResult/System.Net.ThreadContext get_CurrentThreadContext()
     // Offset: 0x1641798
     static System::Net::LazyAsyncResult::ThreadContext* get_CurrentThreadContext();

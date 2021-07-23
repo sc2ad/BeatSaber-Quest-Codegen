@@ -40,6 +40,10 @@ namespace RootMotion::FinalIK {
     constexpr operator UnityEngine::Quaternion() const noexcept {
       return rotation;
     }
+    // Get instance field: public UnityEngine.Quaternion rotation
+    UnityEngine::Quaternion _get_rotation();
+    // Set instance field: public UnityEngine.Quaternion rotation
+    void _set_rotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform transform)
     // Offset: 0x1CE0E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

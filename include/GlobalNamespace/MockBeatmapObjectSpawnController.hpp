@@ -104,6 +104,46 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapObjectSpawnController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapObjectSpawnController*>(this);
     }
+    // Get instance field: private System.Single <jumpOffsetY>k__BackingField
+    float _get_$jumpOffsetY$k__BackingField();
+    // Set instance field: private System.Single <jumpOffsetY>k__BackingField
+    void _set_$jumpOffsetY$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <currentBpm>k__BackingField
+    float _get_$currentBpm$k__BackingField();
+    // Set instance field: private readonly System.Single <currentBpm>k__BackingField
+    void _set_$currentBpm$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <moveDuration>k__BackingField
+    float _get_$moveDuration$k__BackingField();
+    // Set instance field: private readonly System.Single <moveDuration>k__BackingField
+    void _set_$moveDuration$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <jumpDuration>k__BackingField
+    float _get_$jumpDuration$k__BackingField();
+    // Set instance field: private readonly System.Single <jumpDuration>k__BackingField
+    void _set_$jumpDuration$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <jumpDistance>k__BackingField
+    float _get_$jumpDistance$k__BackingField();
+    // Set instance field: private readonly System.Single <jumpDistance>k__BackingField
+    void _set_$jumpDistance$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <verticalLayerDistance>k__BackingField
+    float _get_$verticalLayerDistance$k__BackingField();
+    // Set instance field: private readonly System.Single <verticalLayerDistance>k__BackingField
+    void _set_$verticalLayerDistance$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <noteJumpMovementSpeed>k__BackingField
+    float _get_$noteJumpMovementSpeed$k__BackingField();
+    // Set instance field: private readonly System.Single <noteJumpMovementSpeed>k__BackingField
+    void _set_$noteJumpMovementSpeed$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <noteLinesDistance>k__BackingField
+    float _get_$noteLinesDistance$k__BackingField();
+    // Set instance field: private readonly System.Single <noteLinesDistance>k__BackingField
+    void _set_$noteLinesDistance$k__BackingField(float value);
+    // Get instance field: private readonly BeatmapObjectSpawnMovementData <beatmapObjectSpawnMovementData>k__BackingField
+    GlobalNamespace::BeatmapObjectSpawnMovementData* _get_$beatmapObjectSpawnMovementData$k__BackingField();
+    // Set instance field: private readonly BeatmapObjectSpawnMovementData <beatmapObjectSpawnMovementData>k__BackingField
+    void _set_$beatmapObjectSpawnMovementData$k__BackingField(GlobalNamespace::BeatmapObjectSpawnMovementData* value);
+    // Get instance field: private System.Action didInitEvent
+    System::Action* _get_didInitEvent();
+    // Set instance field: private System.Action didInitEvent
+    void _set_didInitEvent(System::Action* value);
     // public System.Single get_jumpOffsetY()
     // Offset: 0x113BD2C
     float get_jumpOffsetY();

@@ -66,6 +66,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ConstraintRotationOffset
     ConstraintRotationOffset(UnityEngine::Quaternion offset_ = {}, UnityEngine::Quaternion defaultRotation_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, UnityEngine::Quaternion lastLocalRotation_ = {}, UnityEngine::Quaternion defaultTargetLocalRotation_ = {}, bool initiated_ = {}) noexcept : offset{offset_}, defaultRotation{defaultRotation_}, defaultLocalRotation{defaultLocalRotation_}, lastLocalRotation{lastLocalRotation_}, defaultTargetLocalRotation{defaultTargetLocalRotation_}, initiated{initiated_} {}
+    // Get instance field: public UnityEngine.Quaternion offset
+    UnityEngine::Quaternion _get_offset();
+    // Set instance field: public UnityEngine.Quaternion offset
+    void _set_offset(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion defaultRotation
+    UnityEngine::Quaternion _get_defaultRotation();
+    // Set instance field: private UnityEngine.Quaternion defaultRotation
+    void _set_defaultRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion defaultLocalRotation
+    UnityEngine::Quaternion _get_defaultLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion defaultLocalRotation
+    void _set_defaultLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion lastLocalRotation
+    UnityEngine::Quaternion _get_lastLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion lastLocalRotation
+    void _set_lastLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion defaultTargetLocalRotation
+    UnityEngine::Quaternion _get_defaultTargetLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion defaultTargetLocalRotation
+    void _set_defaultTargetLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Boolean initiated
+    bool _get_initiated();
+    // Set instance field: private System.Boolean initiated
+    void _set_initiated(bool value);
     // private System.Boolean get_rotationChanged()
     // Offset: 0x1CE1030
     bool get_rotationChanged();

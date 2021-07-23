@@ -118,6 +118,34 @@ namespace HMUI {
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
     }
+    // Get instance field: private UnityEngine.RectTransform _handleRect
+    UnityEngine::RectTransform* _get__handleRect();
+    // Set instance field: private UnityEngine.RectTransform _handleRect
+    void _set__handleRect(UnityEngine::RectTransform* value);
+    // Get instance field: private System.Single _cursorRadius
+    float _get__cursorRadius();
+    // Set instance field: private System.Single _cursorRadius
+    void _set__cursorRadius(float value);
+    // Get instance field: private System.Single _normalizedValue
+    float _get__normalizedValue();
+    // Set instance field: private System.Single _normalizedValue
+    void _set__normalizedValue(float value);
+    // Get instance field: private System.Action`2<HMUI.CircleSlider,System.Single> normalizedValueDidChangeEvent
+    System::Action_2<HMUI::CircleSlider*, float>* _get_normalizedValueDidChangeEvent();
+    // Set instance field: private System.Action`2<HMUI.CircleSlider,System.Single> normalizedValueDidChangeEvent
+    void _set_normalizedValueDidChangeEvent(System::Action_2<HMUI::CircleSlider*, float>* value);
+    // Get instance field: private UnityEngine.RectTransform _containerRect
+    UnityEngine::RectTransform* _get__containerRect();
+    // Set instance field: private UnityEngine.RectTransform _containerRect
+    void _set__containerRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.UI.Graphic _handleGraphic
+    UnityEngine::UI::Graphic* _get__handleGraphic();
+    // Set instance field: private UnityEngine.UI.Graphic _handleGraphic
+    void _set__handleGraphic(UnityEngine::UI::Graphic* value);
+    // Get instance field: private UnityEngine.DrivenRectTransformTracker _tracker
+    UnityEngine::DrivenRectTransformTracker _get__tracker();
+    // Set instance field: private UnityEngine.DrivenRectTransformTracker _tracker
+    void _set__tracker(UnityEngine::DrivenRectTransformTracker value);
     // public UnityEngine.RectTransform get_handleRect()
     // Offset: 0x1304120
     UnityEngine::RectTransform* get_handleRect();

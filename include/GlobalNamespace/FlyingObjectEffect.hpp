@@ -123,6 +123,58 @@ namespace GlobalNamespace {
     FlyingObjectEffect(UnityEngine::AnimationCurve* moveAnimationCurve_ = {}, float shakeFrequency_ = {}, float shakeStrength_ = {}, UnityEngine::AnimationCurve* shakeStrengthAnimationCurve_ = {}, bool initialized_ = {}, UnityEngine::Quaternion shakeRotation_ = {}, UnityEngine::Quaternion rotation_ = {}, float elapsedTime_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Vector3 targetPos_ = {}, float duration_ = {}, bool shake_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* didFinishEvent_ = {}) noexcept : moveAnimationCurve{moveAnimationCurve_}, shakeFrequency{shakeFrequency_}, shakeStrength{shakeStrength_}, shakeStrengthAnimationCurve{shakeStrengthAnimationCurve_}, initialized{initialized_}, shakeRotation{shakeRotation_}, rotation{rotation_}, elapsedTime{elapsedTime_}, startPos{startPos_}, targetPos{targetPos_}, duration{duration_}, shake{shake_}, didFinishEvent{didFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.AnimationCurve _moveAnimationCurve
+    UnityEngine::AnimationCurve* _get__moveAnimationCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _moveAnimationCurve
+    void _set__moveAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private System.Single _shakeFrequency
+    float _get__shakeFrequency();
+    // Set instance field: private System.Single _shakeFrequency
+    void _set__shakeFrequency(float value);
+    // Get instance field: private System.Single _shakeStrength
+    float _get__shakeStrength();
+    // Set instance field: private System.Single _shakeStrength
+    void _set__shakeStrength(float value);
+    // Get instance field: private UnityEngine.AnimationCurve _shakeStrengthAnimationCurve
+    UnityEngine::AnimationCurve* _get__shakeStrengthAnimationCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _shakeStrengthAnimationCurve
+    void _set__shakeStrengthAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
+    // Get instance field: private UnityEngine.Quaternion _shakeRotation
+    UnityEngine::Quaternion _get__shakeRotation();
+    // Set instance field: private UnityEngine.Quaternion _shakeRotation
+    void _set__shakeRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion _rotation
+    UnityEngine::Quaternion _get__rotation();
+    // Set instance field: private UnityEngine.Quaternion _rotation
+    void _set__rotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Single _elapsedTime
+    float _get__elapsedTime();
+    // Set instance field: private System.Single _elapsedTime
+    void _set__elapsedTime(float value);
+    // Get instance field: private UnityEngine.Vector3 _startPos
+    UnityEngine::Vector3 _get__startPos();
+    // Set instance field: private UnityEngine.Vector3 _startPos
+    void _set__startPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _targetPos
+    UnityEngine::Vector3 _get__targetPos();
+    // Set instance field: private UnityEngine.Vector3 _targetPos
+    void _set__targetPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _duration
+    float _get__duration();
+    // Set instance field: private System.Single _duration
+    void _set__duration(float value);
+    // Get instance field: private System.Boolean _shake
+    bool _get__shake();
+    // Set instance field: private System.Boolean _shake
+    void _set__shake(bool value);
+    // Get instance field: private readonly LazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> _didFinishEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* _get__didFinishEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> _didFinishEvent
+    void _set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* value);
     // public ILazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> get_didFinishEvent()
     // Offset: 0x102A308
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();

@@ -50,6 +50,10 @@ namespace System::Collections {
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return list;
     }
+    // Get instance field: private System.Collections.ArrayList list
+    System::Collections::ArrayList* _get_list();
+    // Set instance field: private System.Collections.ArrayList list
+    void _set_list(System::Collections::ArrayList* value);
     // protected System.Collections.ArrayList get_InnerList()
     // Offset: 0x178A898
     System::Collections::ArrayList* get_InnerList();

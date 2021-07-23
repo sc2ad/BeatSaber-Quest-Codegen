@@ -39,6 +39,14 @@ namespace System::Net {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private readonly System.Int32 m_StartTimeMilliseconds
+    int _get_m_StartTimeMilliseconds();
+    // Set instance field: private readonly System.Int32 m_StartTimeMilliseconds
+    void _set_m_StartTimeMilliseconds(int value);
+    // Get instance field: private readonly System.Int32 m_DurationMilliseconds
+    int _get_m_DurationMilliseconds();
+    // Set instance field: private readonly System.Int32 m_DurationMilliseconds
+    void _set_m_DurationMilliseconds(int value);
     // System.Void .ctor(System.Int32 durationMilliseconds)
     // Offset: 0x158E2F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

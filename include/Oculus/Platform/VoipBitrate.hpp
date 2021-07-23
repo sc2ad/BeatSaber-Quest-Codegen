@@ -80,6 +80,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::VoipBitrate _get_B128000();
     // Set static field: static public Oculus.Platform.VoipBitrate B128000
     static void _set_B128000(Oculus::Platform::VoipBitrate value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.VoipBitrate
   #pragma pack(pop)
   static check_size<sizeof(VoipBitrate), 0 + sizeof(int)> __Oculus_Platform_VoipBitrateSizeCheck;

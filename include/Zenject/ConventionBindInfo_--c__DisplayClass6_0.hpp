@@ -45,6 +45,10 @@ namespace Zenject {
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return assembly;
     }
+    // Get instance field: public System.Reflection.Assembly assembly
+    System::Reflection::Assembly* _get_assembly();
+    // Set instance field: public System.Reflection.Assembly assembly
+    void _set_assembly(System::Reflection::Assembly* value);
     // System.Boolean <ShouldIncludeAssembly>b__0(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
     // Offset: 0x137FAE8
     bool $ShouldIncludeAssembly$b__0(System::Func_2<System::Reflection::Assembly*, bool>* predicate);

@@ -78,6 +78,30 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public readonly System.String serverName
+    ::Il2CppString* _get_serverName();
+    // Set instance field: public readonly System.String serverName
+    void _set_serverName(::Il2CppString* value);
+    // Get instance field: public readonly System.String code
+    ::Il2CppString* _get_code();
+    // Set instance field: public readonly System.String code
+    void _set_code(::Il2CppString* value);
+    // Get instance field: public readonly System.Int32 currentPlayerCount
+    int _get_currentPlayerCount();
+    // Set instance field: public readonly System.Int32 currentPlayerCount
+    void _set_currentPlayerCount(int value);
+    // Get instance field: public readonly System.Boolean hasPassword
+    bool _get_hasPassword();
+    // Set instance field: public readonly System.Boolean hasPassword
+    void _set_hasPassword(bool value);
+    // Get instance field: public readonly BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public readonly BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public readonly GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public readonly GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Void .ctor(System.String serverName, System.String code, System.Int32 currentPlayerCount, System.Boolean hasPassword, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
     // Offset: 0xF0B428
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

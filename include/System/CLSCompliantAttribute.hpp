@@ -33,6 +33,10 @@ namespace System {
     constexpr operator bool() const noexcept {
       return m_compliant;
     }
+    // Get instance field: private System.Boolean m_compliant
+    bool _get_m_compliant();
+    // Set instance field: private System.Boolean m_compliant
+    void _set_m_compliant(bool value);
     // public System.Void .ctor(System.Boolean isCompliant)
     // Offset: 0x1785294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -194,6 +194,90 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
+    // Get instance field: private readonly System.Boolean <isMe>k__BackingField
+    bool _get_$isMe$k__BackingField();
+    // Set instance field: private readonly System.Boolean <isMe>k__BackingField
+    void _set_$isMe$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isConnected>k__BackingField
+    bool _get_$isConnected$k__BackingField();
+    // Set instance field: private System.Boolean <isConnected>k__BackingField
+    void _set_$isConnected$k__BackingField(bool value);
+    // Get instance field: private MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
+    GlobalNamespace::MultiplayerAvatarData _get_$multiplayerAvatarData$k__BackingField();
+    // Set instance field: private MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
+    void _set_$multiplayerAvatarData$k__BackingField(GlobalNamespace::MultiplayerAvatarData value);
+    // Get instance field: private System.Boolean <isConnectionOwner>k__BackingField
+    bool _get_$isConnectionOwner$k__BackingField();
+    // Set instance field: private System.Boolean <isConnectionOwner>k__BackingField
+    void _set_$isConnectionOwner$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isKicked>k__BackingField
+    bool _get_$isKicked$k__BackingField();
+    // Set instance field: private System.Boolean <isKicked>k__BackingField
+    void _set_$isKicked$k__BackingField(bool value);
+    // Get instance field: private System.Int32 <currentPartySize>k__BackingField
+    int _get_$currentPartySize$k__BackingField();
+    // Set instance field: private System.Int32 <currentPartySize>k__BackingField
+    void _set_$currentPartySize$k__BackingField(int value);
+    // Get instance field: private BeatmapLevelSelectionMask <selectionMask>k__BackingField
+    GlobalNamespace::BeatmapLevelSelectionMask _get_$selectionMask$k__BackingField();
+    // Set instance field: private BeatmapLevelSelectionMask <selectionMask>k__BackingField
+    void _set_$selectionMask$k__BackingField(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: private GameplayServerConfiguration <configuration>k__BackingField
+    GlobalNamespace::GameplayServerConfiguration _get_$configuration$k__BackingField();
+    // Set instance field: private GameplayServerConfiguration <configuration>k__BackingField
+    void _set_$configuration$k__BackingField(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field: private System.Boolean <isMyPartyOwner>k__BackingField
+    bool _get_$isMyPartyOwner$k__BackingField();
+    // Set instance field: private System.Boolean <isMyPartyOwner>k__BackingField
+    void _set_$isMyPartyOwner$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <requiresPassword>k__BackingField
+    bool _get_$requiresPassword$k__BackingField();
+    // Set instance field: private System.Boolean <requiresPassword>k__BackingField
+    void _set_$requiresPassword$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isWaitingOnJoin>k__BackingField
+    bool _get_$isWaitingOnJoin$k__BackingField();
+    // Set instance field: private System.Boolean <isWaitingOnJoin>k__BackingField
+    void _set_$isWaitingOnJoin$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <canInvite>k__BackingField
+    bool _get_$canInvite$k__BackingField();
+    // Set instance field: private System.Boolean <canInvite>k__BackingField
+    void _set_$canInvite$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isWaitingOnInvite>k__BackingField
+    bool _get_$isWaitingOnInvite$k__BackingField();
+    // Set instance field: private System.Boolean <isWaitingOnInvite>k__BackingField
+    void _set_$isWaitingOnInvite$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <canKick>k__BackingField
+    bool _get_$canKick$k__BackingField();
+    // Set instance field: private System.Boolean <canKick>k__BackingField
+    void _set_$canKick$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <canLeave>k__BackingField
+    bool _get_$canLeave$k__BackingField();
+    // Set instance field: private System.Boolean <canLeave>k__BackingField
+    void _set_$canLeave$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <canBlock>k__BackingField
+    bool _get_$canBlock$k__BackingField();
+    // Set instance field: private System.Boolean <canBlock>k__BackingField
+    void _set_$canBlock$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <canUnblock>k__BackingField
+    bool _get_$canUnblock$k__BackingField();
+    // Set instance field: private System.Boolean <canUnblock>k__BackingField
+    void _set_$canUnblock$k__BackingField(bool value);
+    // Get instance field: private System.Boolean _isReady
+    bool _get__isReady();
+    // Set instance field: private System.Boolean _isReady
+    void _set__isReady(bool value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _playerState
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__playerState();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _playerState
+    void _set__playerState(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field: private readonly MockPlayerSettings _settings
+    GlobalNamespace::MockPlayerSettings* _get__settings();
+    // Set instance field: private readonly MockPlayerSettings _settings
+    void _set__settings(GlobalNamespace::MockPlayerSettings* value);
+    // Get instance field: private MockPlayerFiniteStateMachine _fsm
+    GlobalNamespace::MockPlayerFiniteStateMachine* _get__fsm();
+    // Set instance field: private MockPlayerFiniteStateMachine _fsm
+    void _set__fsm(GlobalNamespace::MockPlayerFiniteStateMachine* value);
     // public System.Boolean get_isReady()
     // Offset: 0x113C858
     bool get_isReady();

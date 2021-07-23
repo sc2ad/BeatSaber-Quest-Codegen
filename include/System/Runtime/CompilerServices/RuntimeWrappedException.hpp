@@ -38,6 +38,10 @@ namespace System::Runtime::CompilerServices {
     constexpr operator ::Il2CppObject*() const noexcept {
       return m_wrappedException;
     }
+    // Get instance field: private System.Object m_wrappedException
+    ::Il2CppObject* _get_m_wrappedException();
+    // Set instance field: private System.Object m_wrappedException
+    void _set_m_wrappedException(::Il2CppObject* value);
     // private System.Void .ctor(System.Object thrownObject)
     // Offset: 0x13F01CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

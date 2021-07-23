@@ -61,6 +61,10 @@ namespace System::IO {
     static System::IO::FileAction _get_RenamedNewName();
     // Set static field: static public System.IO.FileAction RenamedNewName
     static void _set_RenamedNewName(System::IO::FileAction value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IO.FileAction
   #pragma pack(pop)
   static check_size<sizeof(FileAction), 0 + sizeof(int)> __System_IO_FileActionSizeCheck;

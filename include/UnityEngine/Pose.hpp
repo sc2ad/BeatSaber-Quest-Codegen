@@ -52,6 +52,14 @@ namespace UnityEngine {
     static UnityEngine::Pose _get_k_Identity();
     // Set static field: static private readonly UnityEngine.Pose k_Identity
     static void _set_k_Identity(UnityEngine::Pose value);
+    // Get instance field: public UnityEngine.Vector3 position
+    UnityEngine::Vector3 _get_position();
+    // Set instance field: public UnityEngine.Vector3 position
+    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion rotation
+    UnityEngine::Quaternion _get_rotation();
+    // Set instance field: public UnityEngine.Quaternion rotation
+    void _set_rotation(UnityEngine::Quaternion value);
     // public UnityEngine.Vector3 get_forward()
     // Offset: 0xEF5018
     UnityEngine::Vector3 get_forward();

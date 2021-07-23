@@ -56,6 +56,18 @@ namespace GlobalNamespace {
     SaberModelContainer(GlobalNamespace::Saber* saber_ = {}, GlobalNamespace::SaberModelController* saberModelControllerPrefab_ = {}, Zenject::DiContainer* container_ = {}) noexcept : saber{saber_}, saberModelControllerPrefab{saberModelControllerPrefab_}, container{container_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Saber _saber
+    GlobalNamespace::Saber* _get__saber();
+    // Set instance field: private Saber _saber
+    void _set__saber(GlobalNamespace::Saber* value);
+    // Get instance field: private SaberModelController _saberModelControllerPrefab
+    GlobalNamespace::SaberModelController* _get__saberModelControllerPrefab();
+    // Set instance field: private SaberModelController _saberModelControllerPrefab
+    void _set__saberModelControllerPrefab(GlobalNamespace::SaberModelController* value);
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
     // protected System.Void Start()
     // Offset: 0x114B9A4
     void Start();

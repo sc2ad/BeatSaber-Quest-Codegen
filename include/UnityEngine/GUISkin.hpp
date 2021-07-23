@@ -218,6 +218,110 @@ namespace UnityEngine {
     static UnityEngine::GUISkin* _get_current();
     // Set static field: static UnityEngine.GUISkin current
     static void _set_current(UnityEngine::GUISkin* value);
+    // Get instance field: private UnityEngine.Font m_Font
+    UnityEngine::Font* _get_m_Font();
+    // Set instance field: private UnityEngine.Font m_Font
+    void _set_m_Font(UnityEngine::Font* value);
+    // Get instance field: private UnityEngine.GUIStyle m_box
+    UnityEngine::GUIStyle* _get_m_box();
+    // Set instance field: private UnityEngine.GUIStyle m_box
+    void _set_m_box(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_button
+    UnityEngine::GUIStyle* _get_m_button();
+    // Set instance field: private UnityEngine.GUIStyle m_button
+    void _set_m_button(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_toggle
+    UnityEngine::GUIStyle* _get_m_toggle();
+    // Set instance field: private UnityEngine.GUIStyle m_toggle
+    void _set_m_toggle(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_label
+    UnityEngine::GUIStyle* _get_m_label();
+    // Set instance field: private UnityEngine.GUIStyle m_label
+    void _set_m_label(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_textField
+    UnityEngine::GUIStyle* _get_m_textField();
+    // Set instance field: private UnityEngine.GUIStyle m_textField
+    void _set_m_textField(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_textArea
+    UnityEngine::GUIStyle* _get_m_textArea();
+    // Set instance field: private UnityEngine.GUIStyle m_textArea
+    void _set_m_textArea(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_window
+    UnityEngine::GUIStyle* _get_m_window();
+    // Set instance field: private UnityEngine.GUIStyle m_window
+    void _set_m_window(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_horizontalSlider
+    UnityEngine::GUIStyle* _get_m_horizontalSlider();
+    // Set instance field: private UnityEngine.GUIStyle m_horizontalSlider
+    void _set_m_horizontalSlider(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_horizontalSliderThumb
+    UnityEngine::GUIStyle* _get_m_horizontalSliderThumb();
+    // Set instance field: private UnityEngine.GUIStyle m_horizontalSliderThumb
+    void _set_m_horizontalSliderThumb(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_horizontalSliderThumbExtent
+    UnityEngine::GUIStyle* _get_m_horizontalSliderThumbExtent();
+    // Set instance field: private UnityEngine.GUIStyle m_horizontalSliderThumbExtent
+    void _set_m_horizontalSliderThumbExtent(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_verticalSlider
+    UnityEngine::GUIStyle* _get_m_verticalSlider();
+    // Set instance field: private UnityEngine.GUIStyle m_verticalSlider
+    void _set_m_verticalSlider(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_verticalSliderThumb
+    UnityEngine::GUIStyle* _get_m_verticalSliderThumb();
+    // Set instance field: private UnityEngine.GUIStyle m_verticalSliderThumb
+    void _set_m_verticalSliderThumb(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_verticalSliderThumbExtent
+    UnityEngine::GUIStyle* _get_m_verticalSliderThumbExtent();
+    // Set instance field: private UnityEngine.GUIStyle m_verticalSliderThumbExtent
+    void _set_m_verticalSliderThumbExtent(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_horizontalScrollbar
+    UnityEngine::GUIStyle* _get_m_horizontalScrollbar();
+    // Set instance field: private UnityEngine.GUIStyle m_horizontalScrollbar
+    void _set_m_horizontalScrollbar(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_horizontalScrollbarThumb
+    UnityEngine::GUIStyle* _get_m_horizontalScrollbarThumb();
+    // Set instance field: private UnityEngine.GUIStyle m_horizontalScrollbarThumb
+    void _set_m_horizontalScrollbarThumb(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_horizontalScrollbarLeftButton
+    UnityEngine::GUIStyle* _get_m_horizontalScrollbarLeftButton();
+    // Set instance field: private UnityEngine.GUIStyle m_horizontalScrollbarLeftButton
+    void _set_m_horizontalScrollbarLeftButton(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_horizontalScrollbarRightButton
+    UnityEngine::GUIStyle* _get_m_horizontalScrollbarRightButton();
+    // Set instance field: private UnityEngine.GUIStyle m_horizontalScrollbarRightButton
+    void _set_m_horizontalScrollbarRightButton(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_verticalScrollbar
+    UnityEngine::GUIStyle* _get_m_verticalScrollbar();
+    // Set instance field: private UnityEngine.GUIStyle m_verticalScrollbar
+    void _set_m_verticalScrollbar(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_verticalScrollbarThumb
+    UnityEngine::GUIStyle* _get_m_verticalScrollbarThumb();
+    // Set instance field: private UnityEngine.GUIStyle m_verticalScrollbarThumb
+    void _set_m_verticalScrollbarThumb(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_verticalScrollbarUpButton
+    UnityEngine::GUIStyle* _get_m_verticalScrollbarUpButton();
+    // Set instance field: private UnityEngine.GUIStyle m_verticalScrollbarUpButton
+    void _set_m_verticalScrollbarUpButton(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_verticalScrollbarDownButton
+    UnityEngine::GUIStyle* _get_m_verticalScrollbarDownButton();
+    // Set instance field: private UnityEngine.GUIStyle m_verticalScrollbarDownButton
+    void _set_m_verticalScrollbarDownButton(UnityEngine::GUIStyle* value);
+    // Get instance field: private UnityEngine.GUIStyle m_ScrollView
+    UnityEngine::GUIStyle* _get_m_ScrollView();
+    // Set instance field: private UnityEngine.GUIStyle m_ScrollView
+    void _set_m_ScrollView(UnityEngine::GUIStyle* value);
+    // Get instance field: UnityEngine.GUIStyle[] m_CustomStyles
+    ::Array<UnityEngine::GUIStyle*>* _get_m_CustomStyles();
+    // Set instance field: UnityEngine.GUIStyle[] m_CustomStyles
+    void _set_m_CustomStyles(::Array<UnityEngine::GUIStyle*>* value);
+    // Get instance field: private UnityEngine.GUISettings m_Settings
+    UnityEngine::GUISettings* _get_m_Settings();
+    // Set instance field: private UnityEngine.GUISettings m_Settings
+    void _set_m_Settings(UnityEngine::GUISettings* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>* _get_m_Styles();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
+    void _set_m_Styles(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>* value);
     // public UnityEngine.Font get_font()
     // Offset: 0x1A9D6E8
     UnityEngine::Font* get_font();

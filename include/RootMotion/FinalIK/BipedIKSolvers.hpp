@@ -101,6 +101,46 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolver*>*) == 0x8);
     // Creating value type constructor for type: BipedIKSolvers
     BipedIKSolvers(RootMotion::FinalIK::IKSolverLimb* leftFoot_ = {}, RootMotion::FinalIK::IKSolverLimb* rightFoot_ = {}, RootMotion::FinalIK::IKSolverLimb* leftHand_ = {}, RootMotion::FinalIK::IKSolverLimb* rightHand_ = {}, RootMotion::FinalIK::IKSolverFABRIK* spine_ = {}, RootMotion::FinalIK::IKSolverLookAt* lookAt_ = {}, RootMotion::FinalIK::IKSolverAim* aim_ = {}, RootMotion::FinalIK::Constraints* pelvis_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb*>* limbs_ = {}, ::Array<RootMotion::FinalIK::IKSolver*>* ikSolvers_ = {}) noexcept : leftFoot{leftFoot_}, rightFoot{rightFoot_}, leftHand{leftHand_}, rightHand{rightHand_}, spine{spine_}, lookAt{lookAt_}, aim{aim_}, pelvis{pelvis_}, limbs{limbs_}, ikSolvers{ikSolvers_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverLimb leftFoot
+    RootMotion::FinalIK::IKSolverLimb* _get_leftFoot();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLimb leftFoot
+    void _set_leftFoot(RootMotion::FinalIK::IKSolverLimb* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverLimb rightFoot
+    RootMotion::FinalIK::IKSolverLimb* _get_rightFoot();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLimb rightFoot
+    void _set_rightFoot(RootMotion::FinalIK::IKSolverLimb* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverLimb leftHand
+    RootMotion::FinalIK::IKSolverLimb* _get_leftHand();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLimb leftHand
+    void _set_leftHand(RootMotion::FinalIK::IKSolverLimb* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverLimb rightHand
+    RootMotion::FinalIK::IKSolverLimb* _get_rightHand();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLimb rightHand
+    void _set_rightHand(RootMotion::FinalIK::IKSolverLimb* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverFABRIK spine
+    RootMotion::FinalIK::IKSolverFABRIK* _get_spine();
+    // Set instance field: public RootMotion.FinalIK.IKSolverFABRIK spine
+    void _set_spine(RootMotion::FinalIK::IKSolverFABRIK* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverLookAt lookAt
+    RootMotion::FinalIK::IKSolverLookAt* _get_lookAt();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLookAt lookAt
+    void _set_lookAt(RootMotion::FinalIK::IKSolverLookAt* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverAim aim
+    RootMotion::FinalIK::IKSolverAim* _get_aim();
+    // Set instance field: public RootMotion.FinalIK.IKSolverAim aim
+    void _set_aim(RootMotion::FinalIK::IKSolverAim* value);
+    // Get instance field: public RootMotion.FinalIK.Constraints pelvis
+    RootMotion::FinalIK::Constraints* _get_pelvis();
+    // Set instance field: public RootMotion.FinalIK.Constraints pelvis
+    void _set_pelvis(RootMotion::FinalIK::Constraints* value);
+    // Get instance field: private RootMotion.FinalIK.IKSolverLimb[] _limbs
+    ::Array<RootMotion::FinalIK::IKSolverLimb*>* _get__limbs();
+    // Set instance field: private RootMotion.FinalIK.IKSolverLimb[] _limbs
+    void _set__limbs(::Array<RootMotion::FinalIK::IKSolverLimb*>* value);
+    // Get instance field: private RootMotion.FinalIK.IKSolver[] _ikSolvers
+    ::Array<RootMotion::FinalIK::IKSolver*>* _get__ikSolvers();
+    // Set instance field: private RootMotion.FinalIK.IKSolver[] _ikSolvers
+    void _set__ikSolvers(::Array<RootMotion::FinalIK::IKSolver*>* value);
     // public RootMotion.FinalIK.IKSolverLimb[] get_limbs()
     // Offset: 0x1CDF6D8
     ::Array<RootMotion::FinalIK::IKSolverLimb*>* get_limbs();

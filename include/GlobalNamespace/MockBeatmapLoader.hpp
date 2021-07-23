@@ -63,6 +63,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::BeatmapLevelsModel*() const noexcept {
       return beatmapLevelsModel;
     }
+    // Get instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
+    // Set instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
     // public System.Void .ctor(BeatmapLevelsModel beatmapLevelsModel)
     // Offset: 0x113B39C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

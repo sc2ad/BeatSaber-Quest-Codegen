@@ -384,6 +384,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::MenuRpcManager::RpcType _get_SetIsStartButtonEnabled();
       // Set static field: static public MenuRpcManager/RpcType SetIsStartButtonEnabled
       static void _set_SetIsStartButtonEnabled(GlobalNamespace::MenuRpcManager::RpcType value);
+      // Get instance field: public System.Byte value__
+      uint8_t _get_value__();
+      // Set instance field: public System.Byte value__
+      void _set_value__(uint8_t value);
     }; // MenuRpcManager/RpcType
     #pragma pack(pop)
     static check_size<sizeof(MenuRpcManager::RpcType), 0 + sizeof(uint8_t)> __GlobalNamespace_MenuRpcManager_RpcTypeSizeCheck;
@@ -640,6 +644,166 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kMenuState();
     // Set static field: static private System.String kMenuState
     static void _set_kMenuState(::Il2CppString* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly RpcHandler`1<MenuRpcManager/RpcType> _rpcHandler
+    GlobalNamespace::RpcHandler_1<GlobalNamespace::MenuRpcManager::RpcType>* _get__rpcHandler();
+    // Set instance field: private readonly RpcHandler`1<MenuRpcManager/RpcType> _rpcHandler
+    void _set__rpcHandler(GlobalNamespace::RpcHandler_1<GlobalNamespace::MenuRpcManager::RpcType>* value);
+    // Get instance field: private System.Action`1<System.String> getPlayersPermissionConfigurationEvent
+    System::Action_1<::Il2CppString*>* _get_getPlayersPermissionConfigurationEvent();
+    // Set instance field: private System.Action`1<System.String> getPlayersPermissionConfigurationEvent
+    void _set_getPlayersPermissionConfigurationEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,PlayersLobbyPermissionConfigurationNetSerializable> setPlayersPermissionConfigurationEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* _get_setPlayersPermissionConfigurationEvent();
+    // Set instance field: private System.Action`2<System.String,PlayersLobbyPermissionConfigurationNetSerializable> setPlayersPermissionConfigurationEvent
+    void _set_setPlayersPermissionConfigurationEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
+    // Get instance field: private System.Action`2<System.String,PlayersMissingEntitlementsNetSerializable> setPlayersMissingEntitlementsToLevelEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* _get_setPlayersMissingEntitlementsToLevelEvent();
+    // Set instance field: private System.Action`2<System.String,PlayersMissingEntitlementsNetSerializable> setPlayersMissingEntitlementsToLevelEvent
+    void _set_setPlayersMissingEntitlementsToLevelEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
+    // Get instance field: private System.Action`2<System.String,System.String> getIsEntitledToLevelEvent
+    System::Action_2<::Il2CppString*, ::Il2CppString*>* _get_getIsEntitledToLevelEvent();
+    // Set instance field: private System.Action`2<System.String,System.String> getIsEntitledToLevelEvent
+    void _set_getIsEntitledToLevelEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private System.Action`3<System.String,System.String,EntitlementsStatus> setIsEntitledToLevelEvent
+    System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* _get_setIsEntitledToLevelEvent();
+    // Set instance field: private System.Action`3<System.String,System.String,EntitlementsStatus> setIsEntitledToLevelEvent
+    void _set_setIsEntitledToLevelEvent(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
+    // Get instance field: private System.Action`1<System.String> levelEntitlementStatusesInvalidatedEvent
+    System::Action_1<::Il2CppString*>* _get_levelEntitlementStatusesInvalidatedEvent();
+    // Set instance field: private System.Action`1<System.String> levelEntitlementStatusesInvalidatedEvent
+    void _set_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,System.String> selectedLevelPackEvent
+    System::Action_2<::Il2CppString*, ::Il2CppString*>* _get_selectedLevelPackEvent();
+    // Set instance field: private System.Action`2<System.String,System.String> selectedLevelPackEvent
+    void _set_selectedLevelPackEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,BeatmapIdentifierNetSerializable> setSelectedBeatmapEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* _get_setSelectedBeatmapEvent();
+    // Set instance field: private System.Action`2<System.String,BeatmapIdentifierNetSerializable> setSelectedBeatmapEvent
+    void _set_setSelectedBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    // Get instance field: private System.Action`1<System.String> getSelectedBeatmapEvent
+    System::Action_1<::Il2CppString*>* _get_getSelectedBeatmapEvent();
+    // Set instance field: private System.Action`1<System.String> getSelectedBeatmapEvent
+    void _set_getSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,BeatmapIdentifierNetSerializable> recommendBeatmapEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* _get_recommendBeatmapEvent();
+    // Set instance field: private System.Action`2<System.String,BeatmapIdentifierNetSerializable> recommendBeatmapEvent
+    void _set_recommendBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    // Get instance field: private System.Action`1<System.String> clearRecommendedBeatmapEvent
+    System::Action_1<::Il2CppString*>* _get_clearRecommendedBeatmapEvent();
+    // Set instance field: private System.Action`1<System.String> clearRecommendedBeatmapEvent
+    void _set_clearRecommendedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`1<System.String> getRecommendedBeatmapEvent
+    System::Action_1<::Il2CppString*>* _get_getRecommendedBeatmapEvent();
+    // Set instance field: private System.Action`1<System.String> getRecommendedBeatmapEvent
+    void _set_getRecommendedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,GameplayModifiers> setSelectGameplayModifiersEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* _get_setSelectGameplayModifiersEvent();
+    // Set instance field: private System.Action`2<System.String,GameplayModifiers> setSelectGameplayModifiersEvent
+    void _set_setSelectGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    // Get instance field: private System.Action`1<System.String> getSelectedGameplayModifiersEvent
+    System::Action_1<::Il2CppString*>* _get_getSelectedGameplayModifiersEvent();
+    // Set instance field: private System.Action`1<System.String> getSelectedGameplayModifiersEvent
+    void _set_getSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,GameplayModifiers> recommendGameplayModifiersEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* _get_recommendGameplayModifiersEvent();
+    // Set instance field: private System.Action`2<System.String,GameplayModifiers> recommendGameplayModifiersEvent
+    void _set_recommendGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    // Get instance field: private System.Action`1<System.String> clearRecommendedGameplayModifiersEvent
+    System::Action_1<::Il2CppString*>* _get_clearRecommendedGameplayModifiersEvent();
+    // Set instance field: private System.Action`1<System.String> clearRecommendedGameplayModifiersEvent
+    void _set_clearRecommendedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`1<System.String> getRecommendedGameplayModifiersEvent
+    System::Action_1<::Il2CppString*>* _get_getRecommendedGameplayModifiersEvent();
+    // Set instance field: private System.Action`1<System.String> getRecommendedGameplayModifiersEvent
+    void _set_getRecommendedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`1<System.String> getIsStartButtonEnabledEvent
+    System::Action_1<::Il2CppString*>* _get_getIsStartButtonEnabledEvent();
+    // Set instance field: private System.Action`1<System.String> getIsStartButtonEnabledEvent
+    void _set_getIsStartButtonEnabledEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,CannotStartGameReason> setIsStartButtonEnabledEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::CannotStartGameReason>* _get_setIsStartButtonEnabledEvent();
+    // Set instance field: private System.Action`2<System.String,CannotStartGameReason> setIsStartButtonEnabledEvent
+    void _set_setIsStartButtonEnabledEvent(System::Action_2<::Il2CppString*, GlobalNamespace::CannotStartGameReason>* value);
+    // Get instance field: private System.Action`2<System.String,System.String> levelLoadErrorEvent
+    System::Action_2<::Il2CppString*, ::Il2CppString*>* _get_levelLoadErrorEvent();
+    // Set instance field: private System.Action`2<System.String,System.String> levelLoadErrorEvent
+    void _set_levelLoadErrorEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,System.String> levelLoadSuccessEvent
+    System::Action_2<::Il2CppString*, ::Il2CppString*>* _get_levelLoadSuccessEvent();
+    // Set instance field: private System.Action`2<System.String,System.String> levelLoadSuccessEvent
+    void _set_levelLoadSuccessEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> startedLevelEvent
+    System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* _get_startedLevelEvent();
+    // Set instance field: private System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> startedLevelEvent
+    void _set_startedLevelEvent(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
+    // Get instance field: private System.Action`1<System.String> getStartedLevelEvent
+    System::Action_1<::Il2CppString*>* _get_getStartedLevelEvent();
+    // Set instance field: private System.Action`1<System.String> getStartedLevelEvent
+    void _set_getStartedLevelEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`1<System.String> getMultiplayerGameStateEvent
+    System::Action_1<::Il2CppString*>* _get_getMultiplayerGameStateEvent();
+    // Set instance field: private System.Action`1<System.String> getMultiplayerGameStateEvent
+    void _set_getMultiplayerGameStateEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,MultiplayerGameState> setMultiplayerGameStateEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* _get_setMultiplayerGameStateEvent();
+    // Set instance field: private System.Action`2<System.String,MultiplayerGameState> setMultiplayerGameStateEvent
+    void _set_setMultiplayerGameStateEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
+    // Get instance field: private System.Action`1<System.String> cancelCountdownEvent
+    System::Action_1<::Il2CppString*>* _get_cancelCountdownEvent();
+    // Set instance field: private System.Action`1<System.String> cancelCountdownEvent
+    void _set_cancelCountdownEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,System.Single> setCountdownEndTimeEvent
+    System::Action_2<::Il2CppString*, float>* _get_setCountdownEndTimeEvent();
+    // Set instance field: private System.Action`2<System.String,System.Single> setCountdownEndTimeEvent
+    void _set_setCountdownEndTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    // Get instance field: private System.Action`1<System.String> getCountdownEndTimeEvent
+    System::Action_1<::Il2CppString*>* _get_getCountdownEndTimeEvent();
+    // Set instance field: private System.Action`1<System.String> getCountdownEndTimeEvent
+    void _set_getCountdownEndTimeEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`1<System.String> cancelledLevelStartEvent
+    System::Action_1<::Il2CppString*>* _get_cancelledLevelStartEvent();
+    // Set instance field: private System.Action`1<System.String> cancelledLevelStartEvent
+    void _set_cancelledLevelStartEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`1<System.String> getIsReadyEvent
+    System::Action_1<::Il2CppString*>* _get_getIsReadyEvent();
+    // Set instance field: private System.Action`1<System.String> getIsReadyEvent
+    void _set_getIsReadyEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,System.Boolean> setIsReadyEvent
+    System::Action_2<::Il2CppString*, bool>* _get_setIsReadyEvent();
+    // Set instance field: private System.Action`2<System.String,System.Boolean> setIsReadyEvent
+    void _set_setIsReadyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    // Get instance field: private System.Action`2<System.String,System.Single> setStartGameTimeEvent
+    System::Action_2<::Il2CppString*, float>* _get_setStartGameTimeEvent();
+    // Set instance field: private System.Action`2<System.String,System.Single> setStartGameTimeEvent
+    void _set_setStartGameTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    // Get instance field: private System.Action`1<System.String> cancelStartGameTimeEvent
+    System::Action_1<::Il2CppString*>* _get_cancelStartGameTimeEvent();
+    // Set instance field: private System.Action`1<System.String> cancelStartGameTimeEvent
+    void _set_cancelStartGameTimeEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`1<System.String> getIsInLobbyEvent
+    System::Action_1<::Il2CppString*>* _get_getIsInLobbyEvent();
+    // Set instance field: private System.Action`1<System.String> getIsInLobbyEvent
+    void _set_getIsInLobbyEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,System.Boolean> setIsInLobbyEvent
+    System::Action_2<::Il2CppString*, bool>* _get_setIsInLobbyEvent();
+    // Set instance field: private System.Action`2<System.String,System.Boolean> setIsInLobbyEvent
+    void _set_setIsInLobbyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    // Get instance field: private System.Action`1<System.String> getOwnedSongPacksEvent
+    System::Action_1<::Il2CppString*>* _get_getOwnedSongPacksEvent();
+    // Set instance field: private System.Action`1<System.String> getOwnedSongPacksEvent
+    void _set_getOwnedSongPacksEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action`2<System.String,SongPackMask> setOwnedSongPacksEvent
+    System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* _get_setOwnedSongPacksEvent();
+    // Set instance field: private System.Action`2<System.String,SongPackMask> setOwnedSongPacksEvent
+    void _set_setOwnedSongPacksEvent(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
+    // Get instance field: private System.Action`2<System.String,System.String> requestedKickPlayerEvent
+    System::Action_2<::Il2CppString*, ::Il2CppString*>* _get_requestedKickPlayerEvent();
+    // Set instance field: private System.Action`2<System.String,System.String> requestedKickPlayerEvent
+    void _set_requestedKickPlayerEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public IMultiplayerSessionManager get_multiplayerSessionManager()
     // Offset: 0x152EDE8
     GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();

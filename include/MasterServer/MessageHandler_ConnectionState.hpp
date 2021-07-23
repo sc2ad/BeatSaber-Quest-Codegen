@@ -131,6 +131,50 @@ namespace MasterServer {
     static int _get_kRequestBufferLength();
     // Set static field: static private System.Int32 kRequestBufferLength
     static void _set_kRequestBufferLength(int value);
+    // Get instance field: private System.String _userId
+    ::Il2CppString* _get__userId();
+    // Set instance field: private System.String _userId
+    void _set__userId(::Il2CppString* value);
+    // Get instance field: private System.String _userName
+    ::Il2CppString* _get__userName();
+    // Set instance field: private System.String _userName
+    void _set__userName(::Il2CppString* value);
+    // Get instance field: private System.UInt32 _protocolVersion
+    uint _get__protocolVersion();
+    // Set instance field: private System.UInt32 _protocolVersion
+    void _set__protocolVersion(uint value);
+    // Get instance field: private System.Boolean _hasIdentity
+    bool _get__hasIdentity();
+    // Set instance field: private System.Boolean _hasIdentity
+    void _set__hasIdentity(bool value);
+    // Get instance field: private EncryptionUtility/IEncryptionState _encryptionState
+    GlobalNamespace::EncryptionUtility::IEncryptionState* _get__encryptionState();
+    // Set instance field: private EncryptionUtility/IEncryptionState _encryptionState
+    void _set__encryptionState(GlobalNamespace::EncryptionUtility::IEncryptionState* value);
+    // Get instance field: private System.Int32 _lastReceivedRequestIndex
+    int _get__lastReceivedRequestIndex();
+    // Set instance field: private System.Int32 _lastReceivedRequestIndex
+    void _set__lastReceivedRequestIndex(int value);
+    // Get instance field: private System.UInt32 _lastReceivedRequestId
+    uint _get__lastReceivedRequestId();
+    // Set instance field: private System.UInt32 _lastReceivedRequestId
+    void _set__lastReceivedRequestId(uint value);
+    // Get instance field: private System.Int32 _receivedRequestCount
+    int _get__receivedRequestCount();
+    // Set instance field: private System.Int32 _receivedRequestCount
+    void _set__receivedRequestCount(int value);
+    // Get instance field: private readonly System.Boolean[] _receivedRequest
+    ::Array<bool>* _get__receivedRequest();
+    // Set instance field: private readonly System.Boolean[] _receivedRequest
+    void _set__receivedRequest(::Array<bool>* value);
+    // Get instance field: private System.UInt32 _currentRequestId
+    uint _get__currentRequestId();
+    // Set instance field: private System.UInt32 _currentRequestId
+    void _set__currentRequestId(uint value);
+    // Get instance field: private System.UInt32 _currentEpoch
+    uint _get__currentEpoch();
+    // Set instance field: private System.UInt32 _currentEpoch
+    void _set__currentEpoch(uint value);
     // public System.Boolean get_isEncrypted()
     // Offset: 0x12D8744
     bool get_isEncrypted();

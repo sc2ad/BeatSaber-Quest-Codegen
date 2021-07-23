@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlayerNetworkFailReason _get_PlayerQuit();
     // Set static field: static public PlayerNetworkFailReason PlayerQuit
     static void _set_PlayerQuit(GlobalNamespace::PlayerNetworkFailReason value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // PlayerNetworkFailReason
   #pragma pack(pop)
   static check_size<sizeof(PlayerNetworkFailReason), 0 + sizeof(int)> __GlobalNamespace_PlayerNetworkFailReasonSizeCheck;

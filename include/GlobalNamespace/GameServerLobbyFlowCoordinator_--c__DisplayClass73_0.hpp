@@ -34,6 +34,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass73_0
     $$c__DisplayClass73_0(GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this_ = {}, ::Il2CppString* userId_ = {}) noexcept : $$4__this{$$4__this_}, userId{userId_} {}
+    // Get instance field: public GameServerLobbyFlowCoordinator <>4__this
+    GlobalNamespace::GameServerLobbyFlowCoordinator* _get_$$4__this();
+    // Set instance field: public GameServerLobbyFlowCoordinator <>4__this
+    void _set_$$4__this(GlobalNamespace::GameServerLobbyFlowCoordinator* value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
     // System.Void <HandleServerPlayerListViewControllerKickPlayer>b__0(System.Int32 btnId)
     // Offset: 0x10AAF08
     void $HandleServerPlayerListViewControllerKickPlayer$b__0(int btnId);

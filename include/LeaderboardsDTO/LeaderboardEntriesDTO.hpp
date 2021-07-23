@@ -42,6 +42,10 @@ namespace LeaderboardsDTO {
     constexpr operator ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*() const noexcept {
       return entries;
     }
+    // Get instance field: public LeaderboardsDTO.LeaderboardEntryDTO[] entries
+    ::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* _get_entries();
+    // Set instance field: public LeaderboardsDTO.LeaderboardEntryDTO[] entries
+    void _set_entries(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* value);
   }; // LeaderboardsDTO.LeaderboardEntriesDTO
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntriesDTO), 0 + sizeof(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>*)> __LeaderboardsDTO_LeaderboardEntriesDTOSizeCheck;

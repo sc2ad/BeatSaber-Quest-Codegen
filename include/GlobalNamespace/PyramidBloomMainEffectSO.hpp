@@ -165,6 +165,78 @@ namespace GlobalNamespace {
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
+    // Get instance field: private PyramidBloomRendererSO _bloomRenderer
+    GlobalNamespace::PyramidBloomRendererSO* _get__bloomRenderer();
+    // Set instance field: private PyramidBloomRendererSO _bloomRenderer
+    void _set__bloomRenderer(GlobalNamespace::PyramidBloomRendererSO* value);
+    // Get instance field: private UnityEngine.Shader _fadeShader
+    UnityEngine::Shader* _get__fadeShader();
+    // Set instance field: private UnityEngine.Shader _fadeShader
+    void _set__fadeShader(UnityEngine::Shader* value);
+    // Get instance field: private UnityEngine.Shader _mainEffectShader
+    UnityEngine::Shader* _get__mainEffectShader();
+    // Set instance field: private UnityEngine.Shader _mainEffectShader
+    void _set__mainEffectShader(UnityEngine::Shader* value);
+    // Get instance field: private System.Single _bloomBlendFactor
+    float _get__bloomBlendFactor();
+    // Set instance field: private System.Single _bloomBlendFactor
+    void _set__bloomBlendFactor(float value);
+    // Get instance field: private System.Single _bloomRadius
+    float _get__bloomRadius();
+    // Set instance field: private System.Single _bloomRadius
+    void _set__bloomRadius(float value);
+    // Get instance field: private System.Single _bloomIntensity
+    float _get__bloomIntensity();
+    // Set instance field: private System.Single _bloomIntensity
+    void _set__bloomIntensity(float value);
+    // Get instance field: private System.Single _downBloomIntensityOffset
+    float _get__downBloomIntensityOffset();
+    // Set instance field: private System.Single _downBloomIntensityOffset
+    void _set__downBloomIntensityOffset(float value);
+    // Get instance field: private System.Single _pyramidWeightsParam
+    float _get__pyramidWeightsParam();
+    // Set instance field: private System.Single _pyramidWeightsParam
+    void _set__pyramidWeightsParam(float value);
+    // Get instance field: private System.Single _alphaWeights
+    float _get__alphaWeights();
+    // Set instance field: private System.Single _alphaWeights
+    void _set__alphaWeights(float value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _preFilterPass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__preFilterPass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _preFilterPass
+    void _set__preFilterPass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _downsamplePass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__downsamplePass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _downsamplePass
+    void _set__downsamplePass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _upsamplePass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__upsamplePass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _upsamplePass
+    void _set__upsamplePass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private PyramidBloomRendererSO/Pass _finalUpsamplePass
+    GlobalNamespace::PyramidBloomRendererSO::Pass _get__finalUpsamplePass();
+    // Set instance field: private PyramidBloomRendererSO/Pass _finalUpsamplePass
+    void _set__finalUpsamplePass(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: private System.Int32 _bloomTextureWidth
+    int _get__bloomTextureWidth();
+    // Set instance field: private System.Int32 _bloomTextureWidth
+    void _set__bloomTextureWidth(int value);
+    // Get instance field: private System.Single _baseColorBoost
+    float _get__baseColorBoost();
+    // Set instance field: private System.Single _baseColorBoost
+    void _set__baseColorBoost(float value);
+    // Get instance field: private System.Single _baseColorBoostThreshold
+    float _get__baseColorBoostThreshold();
+    // Set instance field: private System.Single _baseColorBoostThreshold
+    void _set__baseColorBoostThreshold(float value);
+    // Get instance field: private UnityEngine.Material _fadeMaterial
+    UnityEngine::Material* _get__fadeMaterial();
+    // Set instance field: private UnityEngine.Material _fadeMaterial
+    void _set__fadeMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material _mainEffectMaterial
+    UnityEngine::Material* _get__mainEffectMaterial();
+    // Set instance field: private UnityEngine.Material _mainEffectMaterial
+    void _set__mainEffectMaterial(UnityEngine::Material* value);
     // protected System.Void OnDisable()
     // Offset: 0x2341D14
     void OnDisable();

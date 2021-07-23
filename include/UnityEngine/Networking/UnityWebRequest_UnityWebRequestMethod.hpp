@@ -63,6 +63,10 @@ namespace UnityEngine::Networking {
     static UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod _get_Custom();
     // Set static field: static public UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestMethod Custom
     static void _set_Custom(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestMethod
   #pragma pack(pop)
   static check_size<sizeof(UnityWebRequest::UnityWebRequestMethod), 0 + sizeof(int)> __UnityEngine_Networking_UnityWebRequest_UnityWebRequestMethodSizeCheck;

@@ -98,6 +98,34 @@ namespace System::Xml {
     static System::Xml::TernaryTreeReadOnly* _get_attributePropertySearch();
     // Set static field: static protected System.Xml.TernaryTreeReadOnly attributePropertySearch
     static void _set_attributePropertySearch(System::Xml::TernaryTreeReadOnly* value);
+    // Get instance field: protected System.Xml.ByteStack elementScope
+    System::Xml::ByteStack* _get_elementScope();
+    // Set instance field: protected System.Xml.ByteStack elementScope
+    void _set_elementScope(System::Xml::ByteStack* value);
+    // Get instance field: protected System.Xml.ElementProperties currentElementProperties
+    System::Xml::ElementProperties _get_currentElementProperties();
+    // Set instance field: protected System.Xml.ElementProperties currentElementProperties
+    void _set_currentElementProperties(System::Xml::ElementProperties value);
+    // Get instance field: private System.Xml.AttributeProperties currentAttributeProperties
+    System::Xml::AttributeProperties _get_currentAttributeProperties();
+    // Set instance field: private System.Xml.AttributeProperties currentAttributeProperties
+    void _set_currentAttributeProperties(System::Xml::AttributeProperties value);
+    // Get instance field: private System.Boolean endsWithAmpersand
+    bool _get_endsWithAmpersand();
+    // Set instance field: private System.Boolean endsWithAmpersand
+    void _set_endsWithAmpersand(bool value);
+    // Get instance field: private System.Byte[] uriEscapingBuffer
+    ::Array<uint8_t>* _get_uriEscapingBuffer();
+    // Set instance field: private System.Byte[] uriEscapingBuffer
+    void _set_uriEscapingBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.String mediaType
+    ::Il2CppString* _get_mediaType();
+    // Set instance field: private System.String mediaType
+    void _set_mediaType(::Il2CppString* value);
+    // Get instance field: private System.Boolean doNotEscapeUriAttributes
+    bool _get_doNotEscapeUriAttributes();
+    // Set instance field: private System.Boolean doNotEscapeUriAttributes
+    void _set_doNotEscapeUriAttributes(bool value);
     // private System.Void Init(System.Xml.XmlWriterSettings settings)
     // Offset: 0x18FEB78
     void Init(System::Xml::XmlWriterSettings* settings);

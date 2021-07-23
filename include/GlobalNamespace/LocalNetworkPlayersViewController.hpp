@@ -86,6 +86,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LocalNetworkPlayersViewController
     LocalNetworkPlayersViewController(UnityEngine::UI::Toggle* enableNetworkingToggle_ = {}, UnityEngine::UI::Toggle* enableOpenPartyToggle_ = {}, GlobalNamespace::LocalNetworkPlayerModel* localNetworkPlayerModel_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool enableBroadcasting_ = {}, bool allowAnyoneToJoin_ = {}) noexcept : enableNetworkingToggle{enableNetworkingToggle_}, enableOpenPartyToggle{enableOpenPartyToggle_}, localNetworkPlayerModel{localNetworkPlayerModel_}, networkConfig{networkConfig_}, toggleBinder{toggleBinder_}, enableBroadcasting{enableBroadcasting_}, allowAnyoneToJoin{allowAnyoneToJoin_} {}
+    // Get instance field: private UnityEngine.UI.Toggle _enableNetworkingToggle
+    UnityEngine::UI::Toggle* _get__enableNetworkingToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _enableNetworkingToggle
+    void _set__enableNetworkingToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private UnityEngine.UI.Toggle _enableOpenPartyToggle
+    UnityEngine::UI::Toggle* _get__enableOpenPartyToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _enableOpenPartyToggle
+    void _set__enableOpenPartyToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private readonly LocalNetworkPlayerModel _localNetworkPlayerModel
+    GlobalNamespace::LocalNetworkPlayerModel* _get__localNetworkPlayerModel();
+    // Set instance field: private readonly LocalNetworkPlayerModel _localNetworkPlayerModel
+    void _set__localNetworkPlayerModel(GlobalNamespace::LocalNetworkPlayerModel* value);
+    // Get instance field: private readonly INetworkConfig _networkConfig
+    GlobalNamespace::INetworkConfig* _get__networkConfig();
+    // Set instance field: private readonly INetworkConfig _networkConfig
+    void _set__networkConfig(GlobalNamespace::INetworkConfig* value);
+    // Get instance field: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder* _get__toggleBinder();
+    // Set instance field: private HMUI.ToggleBinder _toggleBinder
+    void _set__toggleBinder(HMUI::ToggleBinder* value);
+    // Get instance field: private System.Boolean _enableBroadcasting
+    bool _get__enableBroadcasting();
+    // Set instance field: private System.Boolean _enableBroadcasting
+    void _set__enableBroadcasting(bool value);
+    // Get instance field: private System.Boolean _allowAnyoneToJoin
+    bool _get__allowAnyoneToJoin();
+    // Set instance field: private System.Boolean _allowAnyoneToJoin
+    void _set__allowAnyoneToJoin(bool value);
     // private System.Void HandleNetworkingToggleChanged(System.Boolean enabled)
     // Offset: 0x117847C
     void HandleNetworkingToggleChanged(bool enabled);

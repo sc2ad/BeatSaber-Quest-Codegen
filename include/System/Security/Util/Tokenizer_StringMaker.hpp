@@ -64,6 +64,30 @@ namespace System::Security::Util {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: StringMaker
     StringMaker(::Array<::Il2CppString*>* aStrings_ = {}, uint cStringsMax_ = {}, uint cStringsUsed_ = {}, System::Text::StringBuilder* outStringBuilder_ = {}, ::Array<::Il2CppChar>* outChars_ = {}, int outIndex_ = {}) noexcept : aStrings{aStrings_}, cStringsMax{cStringsMax_}, cStringsUsed{cStringsUsed_}, outStringBuilder{outStringBuilder_}, outChars{outChars_}, outIndex{outIndex_} {}
+    // Get instance field: private System.String[] aStrings
+    ::Array<::Il2CppString*>* _get_aStrings();
+    // Set instance field: private System.String[] aStrings
+    void _set_aStrings(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.UInt32 cStringsMax
+    uint _get_cStringsMax();
+    // Set instance field: private System.UInt32 cStringsMax
+    void _set_cStringsMax(uint value);
+    // Get instance field: private System.UInt32 cStringsUsed
+    uint _get_cStringsUsed();
+    // Set instance field: private System.UInt32 cStringsUsed
+    void _set_cStringsUsed(uint value);
+    // Get instance field: public System.Text.StringBuilder _outStringBuilder
+    System::Text::StringBuilder* _get__outStringBuilder();
+    // Set instance field: public System.Text.StringBuilder _outStringBuilder
+    void _set__outStringBuilder(System::Text::StringBuilder* value);
+    // Get instance field: public System.Char[] _outChars
+    ::Array<::Il2CppChar>* _get__outChars();
+    // Set instance field: public System.Char[] _outChars
+    void _set__outChars(::Array<::Il2CppChar>* value);
+    // Get instance field: public System.Int32 _outIndex
+    int _get__outIndex();
+    // Set instance field: public System.Int32 _outIndex
+    void _set__outIndex(int value);
     // static private System.UInt32 HashString(System.String str)
     // Offset: 0x1BC38A0
     static uint HashString(::Il2CppString* str);

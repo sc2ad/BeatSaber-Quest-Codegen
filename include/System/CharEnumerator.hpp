@@ -50,6 +50,18 @@ namespace System {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.String str
+    ::Il2CppString* _get_str();
+    // Set instance field: private System.String str
+    void _set_str(::Il2CppString* value);
+    // Get instance field: private System.Int32 index
+    int _get_index();
+    // Set instance field: private System.Int32 index
+    void _set_index(int value);
+    // Get instance field: private System.Char currentElement
+    ::Il2CppChar _get_currentElement();
+    // Set instance field: private System.Char currentElement
+    void _set_currentElement(::Il2CppChar value);
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0x1787A58
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

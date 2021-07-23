@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ObstacleType) == 0x4);
     // Creating value type constructor for type: TutorialObstacleSpawnData
     TutorialObstacleSpawnData(int width_ = {}, GlobalNamespace::ObstacleType obstacleType_ = {}) noexcept : width{width_}, obstacleType{obstacleType_} {}
+    // Get instance field: public readonly System.Int32 width
+    int _get_width();
+    // Set instance field: public readonly System.Int32 width
+    void _set_width(int value);
+    // Get instance field: public readonly ObstacleType obstacleType
+    GlobalNamespace::ObstacleType _get_obstacleType();
+    // Set instance field: public readonly ObstacleType obstacleType
+    void _set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, System.Int32 width, ObstacleType obstacleType)
     // Offset: 0x1076168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,6 +33,10 @@ namespace System::Net {
     TimerQueue(System::Net::TimerThread::TimerNode* m_Timers_ = {}) noexcept : m_Timers{m_Timers_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
+    // Get instance field: private readonly System.Net.TimerThread/System.Net.TimerNode m_Timers
+    System::Net::TimerThread::TimerNode* _get_m_Timers();
+    // Set instance field: private readonly System.Net.TimerThread/System.Net.TimerNode m_Timers
+    void _set_m_Timers(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor(System.Int32 durationMilliseconds)
     // Offset: 0x158DBD0
     // Implemented from: System.Net.TimerThread/System.Net.Queue

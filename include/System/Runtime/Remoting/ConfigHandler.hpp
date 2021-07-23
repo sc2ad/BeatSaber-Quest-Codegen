@@ -95,6 +95,38 @@ namespace System::Runtime::Remoting {
     operator Mono::Xml::SmallXmlParser::IContentHandler() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IContentHandler*>(this);
     }
+    // Get instance field: private System.Collections.ArrayList typeEntries
+    System::Collections::ArrayList* _get_typeEntries();
+    // Set instance field: private System.Collections.ArrayList typeEntries
+    void _set_typeEntries(System::Collections::ArrayList* value);
+    // Get instance field: private System.Collections.ArrayList channelInstances
+    System::Collections::ArrayList* _get_channelInstances();
+    // Set instance field: private System.Collections.ArrayList channelInstances
+    void _set_channelInstances(System::Collections::ArrayList* value);
+    // Get instance field: private System.Runtime.Remoting.ChannelData currentChannel
+    System::Runtime::Remoting::ChannelData* _get_currentChannel();
+    // Set instance field: private System.Runtime.Remoting.ChannelData currentChannel
+    void _set_currentChannel(System::Runtime::Remoting::ChannelData* value);
+    // Get instance field: private System.Collections.Stack currentProviderData
+    System::Collections::Stack* _get_currentProviderData();
+    // Set instance field: private System.Collections.Stack currentProviderData
+    void _set_currentProviderData(System::Collections::Stack* value);
+    // Get instance field: private System.String currentClientUrl
+    ::Il2CppString* _get_currentClientUrl();
+    // Set instance field: private System.String currentClientUrl
+    void _set_currentClientUrl(::Il2CppString* value);
+    // Get instance field: private System.String appName
+    ::Il2CppString* _get_appName();
+    // Set instance field: private System.String appName
+    void _set_appName(::Il2CppString* value);
+    // Get instance field: private System.String currentXmlPath
+    ::Il2CppString* _get_currentXmlPath();
+    // Set instance field: private System.String currentXmlPath
+    void _set_currentXmlPath(::Il2CppString* value);
+    // Get instance field: private System.Boolean onlyDelayedChannels
+    bool _get_onlyDelayedChannels();
+    // Set instance field: private System.Boolean onlyDelayedChannels
+    void _set_onlyDelayedChannels(bool value);
     // public System.Void .ctor(System.Boolean onlyDelayedChannels)
     // Offset: 0x13FAD3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

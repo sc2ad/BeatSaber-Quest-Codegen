@@ -217,6 +217,10 @@ namespace Polyglot {
     static Polyglot::Language _get_Debug_Word_With_Max_Lenght();
     // Set static field: static public Polyglot.Language Debug_Word_With_Max_Lenght
     static void _set_Debug_Word_With_Max_Lenght(Polyglot::Language value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Polyglot.Language
   #pragma pack(pop)
   static check_size<sizeof(Language), 0 + sizeof(int)> __Polyglot_LanguageSizeCheck;

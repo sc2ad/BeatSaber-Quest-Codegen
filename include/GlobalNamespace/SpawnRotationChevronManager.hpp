@@ -177,6 +177,78 @@ namespace GlobalNamespace {
     SpawnRotationChevronManager(float fadeInTime_ = {}, float fadeOutTime_ = {}, float jumpStartOffsetTime_ = {}, float cutOffsetTime_ = {}, UnityEngine::AnimationCurve* fadeInLightAmountCurve_ = {}, UnityEngine::AnimationCurve* fadeOutLightAmountCurve_ = {}, GlobalNamespace::SpawnRotationChevron::Pool* chevronPool_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor_ = {}, GlobalNamespace::BeatmapObjectCallbackData* beatmapObjectCallbackData_ = {}, GlobalNamespace::BeatmapEventCallbackData* beatmapEventCallbackData_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::SpawnRotationChevronManager::DirectionData*>* directionToDataDictionary_ = {}, System::Collections::Generic::HashSet_1<int>* activeDirections_ = {}, System::Collections::Generic::List_1<int>* reusableDirectionsList_ = {}, float moveDuration_ = {}, float halfJumpDuration_ = {}) noexcept : fadeInTime{fadeInTime_}, fadeOutTime{fadeOutTime_}, jumpStartOffsetTime{jumpStartOffsetTime_}, cutOffsetTime{cutOffsetTime_}, fadeInLightAmountCurve{fadeInLightAmountCurve_}, fadeOutLightAmountCurve{fadeOutLightAmountCurve_}, chevronPool{chevronPool_}, audioTimeSyncController{audioTimeSyncController_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spawnRotationProcessor{spawnRotationProcessor_}, beatmapObjectCallbackData{beatmapObjectCallbackData_}, beatmapEventCallbackData{beatmapEventCallbackData_}, directionToDataDictionary{directionToDataDictionary_}, activeDirections{activeDirections_}, reusableDirectionsList{reusableDirectionsList_}, moveDuration{moveDuration_}, halfJumpDuration{halfJumpDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _fadeInTime
+    float _get__fadeInTime();
+    // Set instance field: private System.Single _fadeInTime
+    void _set__fadeInTime(float value);
+    // Get instance field: private System.Single _fadeOutTime
+    float _get__fadeOutTime();
+    // Set instance field: private System.Single _fadeOutTime
+    void _set__fadeOutTime(float value);
+    // Get instance field: private System.Single _jumpStartOffsetTime
+    float _get__jumpStartOffsetTime();
+    // Set instance field: private System.Single _jumpStartOffsetTime
+    void _set__jumpStartOffsetTime(float value);
+    // Get instance field: private System.Single _cutOffsetTime
+    float _get__cutOffsetTime();
+    // Set instance field: private System.Single _cutOffsetTime
+    void _set__cutOffsetTime(float value);
+    // Get instance field: private UnityEngine.AnimationCurve _fadeInLightAmountCurve
+    UnityEngine::AnimationCurve* _get__fadeInLightAmountCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _fadeInLightAmountCurve
+    void _set__fadeInLightAmountCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AnimationCurve _fadeOutLightAmountCurve
+    UnityEngine::AnimationCurve* _get__fadeOutLightAmountCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _fadeOutLightAmountCurve
+    void _set__fadeOutLightAmountCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private readonly SpawnRotationChevron/Pool _chevronPool
+    GlobalNamespace::SpawnRotationChevron::Pool* _get__chevronPool();
+    // Set instance field: private readonly SpawnRotationChevron/Pool _chevronPool
+    void _set__chevronPool(GlobalNamespace::SpawnRotationChevron::Pool* value);
+    // Get instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSyncController();
+    // Set instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::BeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
+    // Set instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    void _set__beatmapObjectSpawnController(GlobalNamespace::BeatmapObjectSpawnController* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
+    GlobalNamespace::SpawnRotationProcessor* _get__spawnRotationProcessor();
+    // Set instance field: private readonly SpawnRotationProcessor _spawnRotationProcessor
+    void _set__spawnRotationProcessor(GlobalNamespace::SpawnRotationProcessor* value);
+    // Get instance field: private BeatmapObjectCallbackData _beatmapObjectCallbackData
+    GlobalNamespace::BeatmapObjectCallbackData* _get__beatmapObjectCallbackData();
+    // Set instance field: private BeatmapObjectCallbackData _beatmapObjectCallbackData
+    void _set__beatmapObjectCallbackData(GlobalNamespace::BeatmapObjectCallbackData* value);
+    // Get instance field: private BeatmapEventCallbackData _beatmapEventCallbackData
+    GlobalNamespace::BeatmapEventCallbackData* _get__beatmapEventCallbackData();
+    // Set instance field: private BeatmapEventCallbackData _beatmapEventCallbackData
+    void _set__beatmapEventCallbackData(GlobalNamespace::BeatmapEventCallbackData* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,SpawnRotationChevronManager/DirectionData> _directionToDataDictionary
+    System::Collections::Generic::Dictionary_2<int, GlobalNamespace::SpawnRotationChevronManager::DirectionData*>* _get__directionToDataDictionary();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,SpawnRotationChevronManager/DirectionData> _directionToDataDictionary
+    void _set__directionToDataDictionary(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::SpawnRotationChevronManager::DirectionData*>* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<System.Int32> _activeDirections
+    System::Collections::Generic::HashSet_1<int>* _get__activeDirections();
+    // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _activeDirections
+    void _set__activeDirections(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Int32> _reusableDirectionsList
+    System::Collections::Generic::List_1<int>* _get__reusableDirectionsList();
+    // Set instance field: private System.Collections.Generic.List`1<System.Int32> _reusableDirectionsList
+    void _set__reusableDirectionsList(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: private System.Single _moveDuration
+    float _get__moveDuration();
+    // Set instance field: private System.Single _moveDuration
+    void _set__moveDuration(float value);
+    // Get instance field: private System.Single _halfJumpDuration
+    float _get__halfJumpDuration();
+    // Set instance field: private System.Single _halfJumpDuration
+    void _set__halfJumpDuration(float value);
     // protected System.Void Start()
     // Offset: 0x105D740
     void Start();

@@ -70,6 +70,26 @@ namespace GlobalNamespace {
     RGBPanelController(HMUI::ColorGradientSlider* redSlider_ = {}, HMUI::ColorGradientSlider* greenSlider_ = {}, HMUI::ColorGradientSlider* blueSlider_ = {}, System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent_ = {}, UnityEngine::Color color_ = {}) noexcept : redSlider{redSlider_}, greenSlider{greenSlider_}, blueSlider{blueSlider_}, colorDidChangeEvent{colorDidChangeEvent_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.ColorGradientSlider _redSlider
+    HMUI::ColorGradientSlider* _get__redSlider();
+    // Set instance field: private HMUI.ColorGradientSlider _redSlider
+    void _set__redSlider(HMUI::ColorGradientSlider* value);
+    // Get instance field: private HMUI.ColorGradientSlider _greenSlider
+    HMUI::ColorGradientSlider* _get__greenSlider();
+    // Set instance field: private HMUI.ColorGradientSlider _greenSlider
+    void _set__greenSlider(HMUI::ColorGradientSlider* value);
+    // Get instance field: private HMUI.ColorGradientSlider _blueSlider
+    HMUI::ColorGradientSlider* _get__blueSlider();
+    // Set instance field: private HMUI.ColorGradientSlider _blueSlider
+    void _set__blueSlider(HMUI::ColorGradientSlider* value);
+    // Get instance field: private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
+    System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* _get_colorDidChangeEvent();
+    // Set instance field: private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
+    void _set_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1142050
     UnityEngine::Color get_color();

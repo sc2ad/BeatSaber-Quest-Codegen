@@ -45,6 +45,10 @@ namespace Mono {
     constexpr operator Mono::RuntimeGPtrArrayHandle() const noexcept {
       return handle;
     }
+    // Get instance field: private Mono.RuntimeGPtrArrayHandle handle
+    Mono::RuntimeGPtrArrayHandle _get_handle();
+    // Set instance field: private Mono.RuntimeGPtrArrayHandle handle
+    void _set_handle(Mono::RuntimeGPtrArrayHandle value);
     // System.Int32 get_Length()
     // Offset: 0xEED040
     int get_Length();

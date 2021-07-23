@@ -59,6 +59,22 @@ namespace GlobalNamespace {
     StandardLevelBuyInfoView(TMPro::TextMeshProUGUI* text_ = {}, UnityEngine::UI::Button* buyLevelButton_ = {}, UnityEngine::UI::Button* openPackButton_ = {}, UnityEngine::UI::Button* buyPackButton_ = {}) noexcept : text{text_}, buyLevelButton{buyLevelButton_}, openPackButton{openPackButton_}, buyPackButton{buyPackButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI* _get__text();
+    // Set instance field: private TMPro.TextMeshProUGUI _text
+    void _set__text(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Button _buyLevelButton
+    UnityEngine::UI::Button* _get__buyLevelButton();
+    // Set instance field: private UnityEngine.UI.Button _buyLevelButton
+    void _set__buyLevelButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _openPackButton
+    UnityEngine::UI::Button* _get__openPackButton();
+    // Set instance field: private UnityEngine.UI.Button _openPackButton
+    void _set__openPackButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _buyPackButton
+    UnityEngine::UI::Button* _get__buyPackButton();
+    // Set instance field: private UnityEngine.UI.Button _buyPackButton
+    void _set__buyPackButton(UnityEngine::UI::Button* value);
     // public UnityEngine.UI.Button get_buyLevelButton()
     // Offset: 0x105FB14
     UnityEngine::UI::Button* get_buyLevelButton();

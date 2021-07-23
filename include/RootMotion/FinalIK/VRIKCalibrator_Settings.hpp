@@ -137,6 +137,70 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Settings
     Settings(float scaleMlp_ = {}, UnityEngine::Vector3 headTrackerForward_ = {}, UnityEngine::Vector3 headTrackerUp_ = {}, UnityEngine::Vector3 bodyTrackerForward_ = {}, UnityEngine::Vector3 bodyTrackerUp_ = {}, UnityEngine::Vector3 handTrackerForward_ = {}, UnityEngine::Vector3 handTrackerUp_ = {}, UnityEngine::Vector3 footTrackerForward_ = {}, UnityEngine::Vector3 footTrackerUp_ = {}, UnityEngine::Vector3 headOffset_ = {}, UnityEngine::Vector3 handOffset_ = {}, float footForwardOffset_ = {}, float footInwardOffset_ = {}, float footHeadingOffset_ = {}, float pelvisPositionWeight_ = {}, float pelvisRotationWeight_ = {}) noexcept : scaleMlp{scaleMlp_}, headTrackerForward{headTrackerForward_}, headTrackerUp{headTrackerUp_}, bodyTrackerForward{bodyTrackerForward_}, bodyTrackerUp{bodyTrackerUp_}, handTrackerForward{handTrackerForward_}, handTrackerUp{handTrackerUp_}, footTrackerForward{footTrackerForward_}, footTrackerUp{footTrackerUp_}, headOffset{headOffset_}, handOffset{handOffset_}, footForwardOffset{footForwardOffset_}, footInwardOffset{footInwardOffset_}, footHeadingOffset{footHeadingOffset_}, pelvisPositionWeight{pelvisPositionWeight_}, pelvisRotationWeight{pelvisRotationWeight_} {}
+    // Get instance field: public System.Single scaleMlp
+    float _get_scaleMlp();
+    // Set instance field: public System.Single scaleMlp
+    void _set_scaleMlp(float value);
+    // Get instance field: public UnityEngine.Vector3 headTrackerForward
+    UnityEngine::Vector3 _get_headTrackerForward();
+    // Set instance field: public UnityEngine.Vector3 headTrackerForward
+    void _set_headTrackerForward(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 headTrackerUp
+    UnityEngine::Vector3 _get_headTrackerUp();
+    // Set instance field: public UnityEngine.Vector3 headTrackerUp
+    void _set_headTrackerUp(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 bodyTrackerForward
+    UnityEngine::Vector3 _get_bodyTrackerForward();
+    // Set instance field: public UnityEngine.Vector3 bodyTrackerForward
+    void _set_bodyTrackerForward(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 bodyTrackerUp
+    UnityEngine::Vector3 _get_bodyTrackerUp();
+    // Set instance field: public UnityEngine.Vector3 bodyTrackerUp
+    void _set_bodyTrackerUp(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 handTrackerForward
+    UnityEngine::Vector3 _get_handTrackerForward();
+    // Set instance field: public UnityEngine.Vector3 handTrackerForward
+    void _set_handTrackerForward(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 handTrackerUp
+    UnityEngine::Vector3 _get_handTrackerUp();
+    // Set instance field: public UnityEngine.Vector3 handTrackerUp
+    void _set_handTrackerUp(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 footTrackerForward
+    UnityEngine::Vector3 _get_footTrackerForward();
+    // Set instance field: public UnityEngine.Vector3 footTrackerForward
+    void _set_footTrackerForward(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 footTrackerUp
+    UnityEngine::Vector3 _get_footTrackerUp();
+    // Set instance field: public UnityEngine.Vector3 footTrackerUp
+    void _set_footTrackerUp(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 headOffset
+    UnityEngine::Vector3 _get_headOffset();
+    // Set instance field: public UnityEngine.Vector3 headOffset
+    void _set_headOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 handOffset
+    UnityEngine::Vector3 _get_handOffset();
+    // Set instance field: public UnityEngine.Vector3 handOffset
+    void _set_handOffset(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single footForwardOffset
+    float _get_footForwardOffset();
+    // Set instance field: public System.Single footForwardOffset
+    void _set_footForwardOffset(float value);
+    // Get instance field: public System.Single footInwardOffset
+    float _get_footInwardOffset();
+    // Set instance field: public System.Single footInwardOffset
+    void _set_footInwardOffset(float value);
+    // Get instance field: public System.Single footHeadingOffset
+    float _get_footHeadingOffset();
+    // Set instance field: public System.Single footHeadingOffset
+    void _set_footHeadingOffset(float value);
+    // Get instance field: public System.Single pelvisPositionWeight
+    float _get_pelvisPositionWeight();
+    // Set instance field: public System.Single pelvisPositionWeight
+    void _set_pelvisPositionWeight(float value);
+    // Get instance field: public System.Single pelvisRotationWeight
+    float _get_pelvisRotationWeight();
+    // Set instance field: public System.Single pelvisRotationWeight
+    void _set_pelvisRotationWeight(float value);
     // public System.Void .ctor()
     // Offset: 0x1AC36D8
     // Implemented from: System.Object

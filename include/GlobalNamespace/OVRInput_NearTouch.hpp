@@ -70,6 +70,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::NearTouch _get_Any();
     // Set static field: static public OVRInput/NearTouch Any
     static void _set_Any(GlobalNamespace::OVRInput::NearTouch value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRInput/NearTouch
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::NearTouch), 0 + sizeof(int)> __GlobalNamespace_OVRInput_NearTouchSizeCheck;

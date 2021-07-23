@@ -273,6 +273,150 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InteractionEffector
     InteractionEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType_ = {}, bool isPaused_ = {}, RootMotion::FinalIK::InteractionObject* interactionObject_ = {}, RootMotion::FinalIK::Poser* poser_ = {}, RootMotion::FinalIK::IKEffector* effector_ = {}, float timer_ = {}, float length_ = {}, float weight_ = {}, float fadeInSpeed_ = {}, float defaultPositionWeight_ = {}, float defaultRotationWeight_ = {}, float defaultPull_ = {}, float defaultReach_ = {}, float defaultPush_ = {}, float defaultPushParent_ = {}, float defaultBendGoalWeight_ = {}, float resetTimer_ = {}, bool positionWeightUsed_ = {}, bool rotationWeightUsed_ = {}, bool pullUsed_ = {}, bool reachUsed_ = {}, bool pushUsed_ = {}, bool pushParentUsed_ = {}, bool bendGoalWeightUsed_ = {}, bool pickedUp_ = {}, bool defaults_ = {}, bool pickUpOnPostFBBIK_ = {}, UnityEngine::Vector3 pickUpPosition_ = {}, UnityEngine::Vector3 pausePositionRelative_ = {}, UnityEngine::Quaternion pickUpRotation_ = {}, UnityEngine::Quaternion pauseRotationRelative_ = {}, RootMotion::FinalIK::InteractionTarget* interactionTarget_ = {}, UnityEngine::Transform* target_ = {}, System::Collections::Generic::List_1<bool>* triggered_ = {}, RootMotion::FinalIK::InteractionSystem* interactionSystem_ = {}, bool started_ = {}) noexcept : effectorType{effectorType_}, isPaused{isPaused_}, interactionObject{interactionObject_}, poser{poser_}, effector{effector_}, timer{timer_}, length{length_}, weight{weight_}, fadeInSpeed{fadeInSpeed_}, defaultPositionWeight{defaultPositionWeight_}, defaultRotationWeight{defaultRotationWeight_}, defaultPull{defaultPull_}, defaultReach{defaultReach_}, defaultPush{defaultPush_}, defaultPushParent{defaultPushParent_}, defaultBendGoalWeight{defaultBendGoalWeight_}, resetTimer{resetTimer_}, positionWeightUsed{positionWeightUsed_}, rotationWeightUsed{rotationWeightUsed_}, pullUsed{pullUsed_}, reachUsed{reachUsed_}, pushUsed{pushUsed_}, pushParentUsed{pushParentUsed_}, bendGoalWeightUsed{bendGoalWeightUsed_}, pickedUp{pickedUp_}, defaults{defaults_}, pickUpOnPostFBBIK{pickUpOnPostFBBIK_}, pickUpPosition{pickUpPosition_}, pausePositionRelative{pausePositionRelative_}, pickUpRotation{pickUpRotation_}, pauseRotationRelative{pauseRotationRelative_}, interactionTarget{interactionTarget_}, target{target_}, triggered{triggered_}, interactionSystem{interactionSystem_}, started{started_} {}
+    // Get instance field: private RootMotion.FinalIK.FullBodyBipedEffector <effectorType>k__BackingField
+    RootMotion::FinalIK::FullBodyBipedEffector _get_$effectorType$k__BackingField();
+    // Set instance field: private RootMotion.FinalIK.FullBodyBipedEffector <effectorType>k__BackingField
+    void _set_$effectorType$k__BackingField(RootMotion::FinalIK::FullBodyBipedEffector value);
+    // Get instance field: private System.Boolean <isPaused>k__BackingField
+    bool _get_$isPaused$k__BackingField();
+    // Set instance field: private System.Boolean <isPaused>k__BackingField
+    void _set_$isPaused$k__BackingField(bool value);
+    // Get instance field: private RootMotion.FinalIK.InteractionObject <interactionObject>k__BackingField
+    RootMotion::FinalIK::InteractionObject* _get_$interactionObject$k__BackingField();
+    // Set instance field: private RootMotion.FinalIK.InteractionObject <interactionObject>k__BackingField
+    void _set_$interactionObject$k__BackingField(RootMotion::FinalIK::InteractionObject* value);
+    // Get instance field: private RootMotion.FinalIK.Poser poser
+    RootMotion::FinalIK::Poser* _get_poser();
+    // Set instance field: private RootMotion.FinalIK.Poser poser
+    void _set_poser(RootMotion::FinalIK::Poser* value);
+    // Get instance field: private RootMotion.FinalIK.IKEffector effector
+    RootMotion::FinalIK::IKEffector* _get_effector();
+    // Set instance field: private RootMotion.FinalIK.IKEffector effector
+    void _set_effector(RootMotion::FinalIK::IKEffector* value);
+    // Get instance field: private System.Single timer
+    float _get_timer();
+    // Set instance field: private System.Single timer
+    void _set_timer(float value);
+    // Get instance field: private System.Single length
+    float _get_length();
+    // Set instance field: private System.Single length
+    void _set_length(float value);
+    // Get instance field: private System.Single weight
+    float _get_weight();
+    // Set instance field: private System.Single weight
+    void _set_weight(float value);
+    // Get instance field: private System.Single fadeInSpeed
+    float _get_fadeInSpeed();
+    // Set instance field: private System.Single fadeInSpeed
+    void _set_fadeInSpeed(float value);
+    // Get instance field: private System.Single defaultPositionWeight
+    float _get_defaultPositionWeight();
+    // Set instance field: private System.Single defaultPositionWeight
+    void _set_defaultPositionWeight(float value);
+    // Get instance field: private System.Single defaultRotationWeight
+    float _get_defaultRotationWeight();
+    // Set instance field: private System.Single defaultRotationWeight
+    void _set_defaultRotationWeight(float value);
+    // Get instance field: private System.Single defaultPull
+    float _get_defaultPull();
+    // Set instance field: private System.Single defaultPull
+    void _set_defaultPull(float value);
+    // Get instance field: private System.Single defaultReach
+    float _get_defaultReach();
+    // Set instance field: private System.Single defaultReach
+    void _set_defaultReach(float value);
+    // Get instance field: private System.Single defaultPush
+    float _get_defaultPush();
+    // Set instance field: private System.Single defaultPush
+    void _set_defaultPush(float value);
+    // Get instance field: private System.Single defaultPushParent
+    float _get_defaultPushParent();
+    // Set instance field: private System.Single defaultPushParent
+    void _set_defaultPushParent(float value);
+    // Get instance field: private System.Single defaultBendGoalWeight
+    float _get_defaultBendGoalWeight();
+    // Set instance field: private System.Single defaultBendGoalWeight
+    void _set_defaultBendGoalWeight(float value);
+    // Get instance field: private System.Single resetTimer
+    float _get_resetTimer();
+    // Set instance field: private System.Single resetTimer
+    void _set_resetTimer(float value);
+    // Get instance field: private System.Boolean positionWeightUsed
+    bool _get_positionWeightUsed();
+    // Set instance field: private System.Boolean positionWeightUsed
+    void _set_positionWeightUsed(bool value);
+    // Get instance field: private System.Boolean rotationWeightUsed
+    bool _get_rotationWeightUsed();
+    // Set instance field: private System.Boolean rotationWeightUsed
+    void _set_rotationWeightUsed(bool value);
+    // Get instance field: private System.Boolean pullUsed
+    bool _get_pullUsed();
+    // Set instance field: private System.Boolean pullUsed
+    void _set_pullUsed(bool value);
+    // Get instance field: private System.Boolean reachUsed
+    bool _get_reachUsed();
+    // Set instance field: private System.Boolean reachUsed
+    void _set_reachUsed(bool value);
+    // Get instance field: private System.Boolean pushUsed
+    bool _get_pushUsed();
+    // Set instance field: private System.Boolean pushUsed
+    void _set_pushUsed(bool value);
+    // Get instance field: private System.Boolean pushParentUsed
+    bool _get_pushParentUsed();
+    // Set instance field: private System.Boolean pushParentUsed
+    void _set_pushParentUsed(bool value);
+    // Get instance field: private System.Boolean bendGoalWeightUsed
+    bool _get_bendGoalWeightUsed();
+    // Set instance field: private System.Boolean bendGoalWeightUsed
+    void _set_bendGoalWeightUsed(bool value);
+    // Get instance field: private System.Boolean pickedUp
+    bool _get_pickedUp();
+    // Set instance field: private System.Boolean pickedUp
+    void _set_pickedUp(bool value);
+    // Get instance field: private System.Boolean defaults
+    bool _get_defaults();
+    // Set instance field: private System.Boolean defaults
+    void _set_defaults(bool value);
+    // Get instance field: private System.Boolean pickUpOnPostFBBIK
+    bool _get_pickUpOnPostFBBIK();
+    // Set instance field: private System.Boolean pickUpOnPostFBBIK
+    void _set_pickUpOnPostFBBIK(bool value);
+    // Get instance field: private UnityEngine.Vector3 pickUpPosition
+    UnityEngine::Vector3 _get_pickUpPosition();
+    // Set instance field: private UnityEngine.Vector3 pickUpPosition
+    void _set_pickUpPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 pausePositionRelative
+    UnityEngine::Vector3 _get_pausePositionRelative();
+    // Set instance field: private UnityEngine.Vector3 pausePositionRelative
+    void _set_pausePositionRelative(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion pickUpRotation
+    UnityEngine::Quaternion _get_pickUpRotation();
+    // Set instance field: private UnityEngine.Quaternion pickUpRotation
+    void _set_pickUpRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion pauseRotationRelative
+    UnityEngine::Quaternion _get_pauseRotationRelative();
+    // Set instance field: private UnityEngine.Quaternion pauseRotationRelative
+    void _set_pauseRotationRelative(UnityEngine::Quaternion value);
+    // Get instance field: private RootMotion.FinalIK.InteractionTarget interactionTarget
+    RootMotion::FinalIK::InteractionTarget* _get_interactionTarget();
+    // Set instance field: private RootMotion.FinalIK.InteractionTarget interactionTarget
+    void _set_interactionTarget(RootMotion::FinalIK::InteractionTarget* value);
+    // Get instance field: private UnityEngine.Transform target
+    UnityEngine::Transform* _get_target();
+    // Set instance field: private UnityEngine.Transform target
+    void _set_target(UnityEngine::Transform* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Boolean> triggered
+    System::Collections::Generic::List_1<bool>* _get_triggered();
+    // Set instance field: private System.Collections.Generic.List`1<System.Boolean> triggered
+    void _set_triggered(System::Collections::Generic::List_1<bool>* value);
+    // Get instance field: private RootMotion.FinalIK.InteractionSystem interactionSystem
+    RootMotion::FinalIK::InteractionSystem* _get_interactionSystem();
+    // Set instance field: private RootMotion.FinalIK.InteractionSystem interactionSystem
+    void _set_interactionSystem(RootMotion::FinalIK::InteractionSystem* value);
+    // Get instance field: private System.Boolean started
+    bool _get_started();
+    // Set instance field: private System.Boolean started
+    void _set_started(bool value);
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
     // Offset: 0x1E32150
     RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();

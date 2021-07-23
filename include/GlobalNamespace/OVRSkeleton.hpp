@@ -94,6 +94,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRSkeleton::SkeletonType _get_HandRight();
       // Set static field: static public OVRSkeleton/SkeletonType HandRight
       static void _set_HandRight(GlobalNamespace::OVRSkeleton::SkeletonType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRSkeleton/SkeletonType
     #pragma pack(pop)
     static check_size<sizeof(OVRSkeleton::SkeletonType), 0 + sizeof(int)> __GlobalNamespace_OVRSkeleton_SkeletonTypeSizeCheck;
@@ -228,6 +232,86 @@ namespace GlobalNamespace {
     OVRSkeleton(GlobalNamespace::OVRSkeleton::SkeletonType skeletonType_ = {}, GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider* dataProvider_ = {}, bool updateRootPose_ = {}, bool updateRootScale_ = {}, bool enablePhysicsCapsules_ = {}, UnityEngine::GameObject* bonesGO_ = {}, UnityEngine::GameObject* bindPosesGO_ = {}, UnityEngine::GameObject* capsulesGO_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRBone*>* bones_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRBone*>* bindPoses_ = {}, System::Collections::Generic::List_1<GlobalNamespace::OVRBoneCapsule*>* capsules_ = {}, GlobalNamespace::OVRPlugin::Skeleton2 skeleton_ = {}, UnityEngine::Quaternion wristFixupRotation_ = {}, bool IsInitialized_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* Bones_ = {}, System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* BindPoses_ = {}, System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* Capsules_ = {}, int SkeletonChangedCount_ = {}) noexcept : skeletonType{skeletonType_}, dataProvider{dataProvider_}, updateRootPose{updateRootPose_}, updateRootScale{updateRootScale_}, enablePhysicsCapsules{enablePhysicsCapsules_}, bonesGO{bonesGO_}, bindPosesGO{bindPosesGO_}, capsulesGO{capsulesGO_}, bones{bones_}, bindPoses{bindPoses_}, capsules{capsules_}, skeleton{skeleton_}, wristFixupRotation{wristFixupRotation_}, IsInitialized{IsInitialized_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, Bones{Bones_}, BindPoses{BindPoses_}, Capsules{Capsules_}, SkeletonChangedCount{SkeletonChangedCount_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected OVRSkeleton/SkeletonType _skeletonType
+    GlobalNamespace::OVRSkeleton::SkeletonType _get__skeletonType();
+    // Set instance field: protected OVRSkeleton/SkeletonType _skeletonType
+    void _set__skeletonType(GlobalNamespace::OVRSkeleton::SkeletonType value);
+    // Get instance field: private OVRSkeleton/IOVRSkeletonDataProvider _dataProvider
+    GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider* _get__dataProvider();
+    // Set instance field: private OVRSkeleton/IOVRSkeletonDataProvider _dataProvider
+    void _set__dataProvider(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider* value);
+    // Get instance field: private System.Boolean _updateRootPose
+    bool _get__updateRootPose();
+    // Set instance field: private System.Boolean _updateRootPose
+    void _set__updateRootPose(bool value);
+    // Get instance field: private System.Boolean _updateRootScale
+    bool _get__updateRootScale();
+    // Set instance field: private System.Boolean _updateRootScale
+    void _set__updateRootScale(bool value);
+    // Get instance field: private System.Boolean _enablePhysicsCapsules
+    bool _get__enablePhysicsCapsules();
+    // Set instance field: private System.Boolean _enablePhysicsCapsules
+    void _set__enablePhysicsCapsules(bool value);
+    // Get instance field: private UnityEngine.GameObject _bonesGO
+    UnityEngine::GameObject* _get__bonesGO();
+    // Set instance field: private UnityEngine.GameObject _bonesGO
+    void _set__bonesGO(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _bindPosesGO
+    UnityEngine::GameObject* _get__bindPosesGO();
+    // Set instance field: private UnityEngine.GameObject _bindPosesGO
+    void _set__bindPosesGO(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _capsulesGO
+    UnityEngine::GameObject* _get__capsulesGO();
+    // Set instance field: private UnityEngine.GameObject _capsulesGO
+    void _set__capsulesGO(UnityEngine::GameObject* value);
+    // Get instance field: protected System.Collections.Generic.List`1<OVRBone> _bones
+    System::Collections::Generic::List_1<GlobalNamespace::OVRBone*>* _get__bones();
+    // Set instance field: protected System.Collections.Generic.List`1<OVRBone> _bones
+    void _set__bones(System::Collections::Generic::List_1<GlobalNamespace::OVRBone*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<OVRBone> _bindPoses
+    System::Collections::Generic::List_1<GlobalNamespace::OVRBone*>* _get__bindPoses();
+    // Set instance field: private System.Collections.Generic.List`1<OVRBone> _bindPoses
+    void _set__bindPoses(System::Collections::Generic::List_1<GlobalNamespace::OVRBone*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<OVRBoneCapsule> _capsules
+    System::Collections::Generic::List_1<GlobalNamespace::OVRBoneCapsule*>* _get__capsules();
+    // Set instance field: private System.Collections.Generic.List`1<OVRBoneCapsule> _capsules
+    void _set__capsules(System::Collections::Generic::List_1<GlobalNamespace::OVRBoneCapsule*>* value);
+    // Get instance field: protected OVRPlugin/Skeleton2 _skeleton
+    GlobalNamespace::OVRPlugin::Skeleton2 _get__skeleton();
+    // Set instance field: protected OVRPlugin/Skeleton2 _skeleton
+    void _set__skeleton(GlobalNamespace::OVRPlugin::Skeleton2 value);
+    // Get instance field: private readonly UnityEngine.Quaternion wristFixupRotation
+    UnityEngine::Quaternion _get_wristFixupRotation();
+    // Set instance field: private readonly UnityEngine.Quaternion wristFixupRotation
+    void _set_wristFixupRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Boolean <IsInitialized>k__BackingField
+    bool _get_$IsInitialized$k__BackingField();
+    // Set instance field: private System.Boolean <IsInitialized>k__BackingField
+    void _set_$IsInitialized$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsDataValid>k__BackingField
+    bool _get_$IsDataValid$k__BackingField();
+    // Set instance field: private System.Boolean <IsDataValid>k__BackingField
+    void _set_$IsDataValid$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
+    bool _get_$IsDataHighConfidence$k__BackingField();
+    // Set instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
+    void _set_$IsDataHighConfidence$k__BackingField(bool value);
+    // Get instance field: private System.Collections.Generic.IList`1<OVRBone> <Bones>k__BackingField
+    System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* _get_$Bones$k__BackingField();
+    // Set instance field: private System.Collections.Generic.IList`1<OVRBone> <Bones>k__BackingField
+    void _set_$Bones$k__BackingField(System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* value);
+    // Get instance field: private System.Collections.Generic.IList`1<OVRBone> <BindPoses>k__BackingField
+    System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* _get_$BindPoses$k__BackingField();
+    // Set instance field: private System.Collections.Generic.IList`1<OVRBone> <BindPoses>k__BackingField
+    void _set_$BindPoses$k__BackingField(System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* value);
+    // Get instance field: private System.Collections.Generic.IList`1<OVRBoneCapsule> <Capsules>k__BackingField
+    System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* _get_$Capsules$k__BackingField();
+    // Set instance field: private System.Collections.Generic.IList`1<OVRBoneCapsule> <Capsules>k__BackingField
+    void _set_$Capsules$k__BackingField(System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* value);
+    // Get instance field: private System.Int32 <SkeletonChangedCount>k__BackingField
+    int _get_$SkeletonChangedCount$k__BackingField();
+    // Set instance field: private System.Int32 <SkeletonChangedCount>k__BackingField
+    void _set_$SkeletonChangedCount$k__BackingField(int value);
     // public System.Boolean get_IsInitialized()
     // Offset: 0x1EEC93C
     bool get_IsInitialized();

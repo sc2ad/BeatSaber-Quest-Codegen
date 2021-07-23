@@ -35,6 +35,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Valve.VR.HmdVector2_t vTopLeft
+    Valve::VR::HmdVector2_t _get_vTopLeft();
+    // Set instance field: public Valve.VR.HmdVector2_t vTopLeft
+    void _set_vTopLeft(Valve::VR::HmdVector2_t value);
+    // Get instance field: public Valve.VR.HmdVector2_t vBottomRight
+    Valve::VR::HmdVector2_t _get_vBottomRight();
+    // Set instance field: public Valve.VR.HmdVector2_t vBottomRight
+    void _set_vBottomRight(Valve::VR::HmdVector2_t value);
   }; // Valve.VR.HmdRect2_t
   #pragma pack(pop)
   static check_size<sizeof(HmdRect2_t), 8 + sizeof(Valve::VR::HmdVector2_t)> __Valve_VR_HmdRect2_tSizeCheck;

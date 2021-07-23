@@ -46,6 +46,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr handle
+    System::IntPtr _get_handle();
+    // Set instance field: public System.IntPtr handle
+    void _set_handle(System::IntPtr value);
+    // Get instance field: public Valve.VR.ETextureType eType
+    Valve::VR::ETextureType _get_eType();
+    // Set instance field: public Valve.VR.ETextureType eType
+    void _set_eType(Valve::VR::ETextureType value);
+    // Get instance field: public Valve.VR.EColorSpace eColorSpace
+    Valve::VR::EColorSpace _get_eColorSpace();
+    // Set instance field: public Valve.VR.EColorSpace eColorSpace
+    void _set_eColorSpace(Valve::VR::EColorSpace value);
   }; // Valve.VR.Texture_t
   #pragma pack(pop)
   static check_size<sizeof(Texture_t), 12 + sizeof(Valve::VR::EColorSpace)> __Valve_VR_Texture_tSizeCheck;

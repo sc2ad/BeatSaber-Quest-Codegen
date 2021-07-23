@@ -371,6 +371,142 @@ namespace GlobalNamespace {
     static float _get_kMaxPredictedStartTimeDifference();
     // Set static field: static private System.Single kMaxPredictedStartTimeDifference
     static void _set_kMaxPredictedStartTimeDifference(float value);
+    // Get instance field: private HMUI.ScreenModeSO _screenMode
+    HMUI::ScreenModeSO* _get__screenMode();
+    // Set instance field: private HMUI.ScreenModeSO _screenMode
+    void _set__screenMode(HMUI::ScreenModeSO* value);
+    // Get instance field: private UnityEngine.AudioClip _ambienceAudioClip
+    UnityEngine::AudioClip* _get__ambienceAudioClip();
+    // Set instance field: private UnityEngine.AudioClip _ambienceAudioClip
+    void _set__ambienceAudioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
+    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
+    // Get instance field: private readonly ServerPlayerListViewController _serverPlayerListViewController
+    GlobalNamespace::ServerPlayerListViewController* _get__serverPlayerListViewController();
+    // Set instance field: private readonly ServerPlayerListViewController _serverPlayerListViewController
+    void _set__serverPlayerListViewController(GlobalNamespace::ServerPlayerListViewController* value);
+    // Get instance field: private readonly SelectModifiersViewController _selectModifiersViewController
+    GlobalNamespace::SelectModifiersViewController* _get__selectModifiersViewController();
+    // Set instance field: private readonly SelectModifiersViewController _selectModifiersViewController
+    void _set__selectModifiersViewController(GlobalNamespace::SelectModifiersViewController* value);
+    // Get instance field: private readonly MultiplayerLevelSelectionFlowCoordinator _multiplayerLevelSelectionFlowCoordinator
+    GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator* _get__multiplayerLevelSelectionFlowCoordinator();
+    // Set instance field: private readonly MultiplayerLevelSelectionFlowCoordinator _multiplayerLevelSelectionFlowCoordinator
+    void _set__multiplayerLevelSelectionFlowCoordinator(GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator* value);
+    // Get instance field: private readonly MultiplayerResultsViewController _multiplayerResultsViewController
+    GlobalNamespace::MultiplayerResultsViewController* _get__multiplayerResultsViewController();
+    // Set instance field: private readonly MultiplayerResultsViewController _multiplayerResultsViewController
+    void _set__multiplayerResultsViewController(GlobalNamespace::MultiplayerResultsViewController* value);
+    // Get instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    GlobalNamespace::SimpleDialogPromptViewController* _get__simpleDialogPromptViewController();
+    // Set instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    void _set__simpleDialogPromptViewController(GlobalNamespace::SimpleDialogPromptViewController* value);
+    // Get instance field: private readonly ConnectionErrorDialogViewController _connectionErrorDialogViewController
+    GlobalNamespace::ConnectionErrorDialogViewController* _get__connectionErrorDialogViewController();
+    // Set instance field: private readonly ConnectionErrorDialogViewController _connectionErrorDialogViewController
+    void _set__connectionErrorDialogViewController(GlobalNamespace::ConnectionErrorDialogViewController* value);
+    // Get instance field: private readonly MultiplayerSettingsPanelController _multiplayerSettingsPanelController
+    GlobalNamespace::MultiplayerSettingsPanelController* _get__multiplayerSettingsPanelController();
+    // Set instance field: private readonly MultiplayerSettingsPanelController _multiplayerSettingsPanelController
+    void _set__multiplayerSettingsPanelController(GlobalNamespace::MultiplayerSettingsPanelController* value);
+    // Get instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
+    GlobalNamespace::GameplaySetupViewController* _get__gameplaySetupViewController();
+    // Set instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
+    void _set__gameplaySetupViewController(GlobalNamespace::GameplaySetupViewController* value);
+    // Get instance field: private readonly MultiplayerLobbyController _multiplayerLobbyController
+    GlobalNamespace::MultiplayerLobbyController* _get__multiplayerLobbyController();
+    // Set instance field: private readonly MultiplayerLobbyController _multiplayerLobbyController
+    void _set__multiplayerLobbyController(GlobalNamespace::MultiplayerLobbyController* value);
+    // Get instance field: private readonly FadeInOutController _fadeInOutController
+    GlobalNamespace::FadeInOutController* _get__fadeInOutController();
+    // Set instance field: private readonly FadeInOutController _fadeInOutController
+    void _set__fadeInOutController(GlobalNamespace::FadeInOutController* value);
+    // Get instance field: private readonly CenterStageScreenController _centerStageScreenController
+    GlobalNamespace::CenterStageScreenController* _get__centerStageScreenController();
+    // Set instance field: private readonly CenterStageScreenController _centerStageScreenController
+    void _set__centerStageScreenController(GlobalNamespace::CenterStageScreenController* value);
+    // Get instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    GlobalNamespace::ILobbyStateDataModel* _get__lobbyStateDataModel();
+    // Set instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    void _set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel* value);
+    // Get instance field: private readonly LobbyGameStateModel _lobbyGameStateModel
+    GlobalNamespace::LobbyGameStateModel* _get__lobbyGameStateModel();
+    // Set instance field: private readonly LobbyGameStateModel _lobbyGameStateModel
+    void _set__lobbyGameStateModel(GlobalNamespace::LobbyGameStateModel* value);
+    // Get instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    GlobalNamespace::ILobbyPlayersDataModel* _get__lobbyPlayersDataModel();
+    // Set instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    void _set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel* value);
+    // Get instance field: private readonly ILobbyGameStateController _lobbyGameStateController
+    GlobalNamespace::ILobbyGameStateController* _get__lobbyGameStateController();
+    // Set instance field: private readonly ILobbyGameStateController _lobbyGameStateController
+    void _set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController* value);
+    // Get instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    GlobalNamespace::LobbyPlayerPermissionsModel* _get__lobbyPlayerPermissionsModel();
+    // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
+    // Get instance field: private readonly LobbySetupViewController _lobbySetupViewController
+    GlobalNamespace::LobbySetupViewController* _get__lobbySetupViewController();
+    // Set instance field: private readonly LobbySetupViewController _lobbySetupViewController
+    void _set__lobbySetupViewController(GlobalNamespace::LobbySetupViewController* value);
+    // Get instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
+    GlobalNamespace::IUnifiedNetworkPlayerModel* _get__unifiedNetworkPlayerModel();
+    // Set instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
+    void _set__unifiedNetworkPlayerModel(GlobalNamespace::IUnifiedNetworkPlayerModel* value);
+    // Get instance field: private readonly HMUI.ScreenModeController _screenModeController
+    HMUI::ScreenModeController* _get__screenModeController();
+    // Set instance field: private readonly HMUI.ScreenModeController _screenModeController
+    void _set__screenModeController(HMUI::ScreenModeController* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
+    GlobalNamespace::PlatformLeaderboardsModel* _get__platformLeaderboardsModel();
+    // Set instance field: private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
+    void _set__platformLeaderboardsModel(GlobalNamespace::PlatformLeaderboardsModel* value);
+    // Get instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModel();
+    // Set instance field: private readonly BeatmapLevelsModel _beatmapLevelsModel
+    void _set__beatmapLevelsModel(GlobalNamespace::BeatmapLevelsModel* value);
+    // Get instance field: private readonly SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
+    // Set instance field: private readonly SongPreviewPlayer _songPreviewPlayer
+    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
+    // Get instance field: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
+    // Set instance field: private readonly IAnalyticsModel _analyticsModel
+    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
+    // Get instance field: private LevelSelectionFlowCoordinator/State _lastSimpleLevelSelectionFlowCoordinatorState
+    GlobalNamespace::LevelSelectionFlowCoordinator::State* _get__lastSimpleLevelSelectionFlowCoordinatorState();
+    // Set instance field: private LevelSelectionFlowCoordinator/State _lastSimpleLevelSelectionFlowCoordinatorState
+    void _set__lastSimpleLevelSelectionFlowCoordinatorState(GlobalNamespace::LevelSelectionFlowCoordinator::State* value);
+    // Get instance field: private System.Boolean _isAlreadyFinishing
+    bool _get__isAlreadyFinishing();
+    // Set instance field: private System.Boolean _isAlreadyFinishing
+    void _set__isAlreadyFinishing(bool value);
+    // Get instance field: private readonly System.Text.StringBuilder _stringBuilder
+    System::Text::StringBuilder* _get__stringBuilder();
+    // Set instance field: private readonly System.Text.StringBuilder _stringBuilder
+    void _set__stringBuilder(System::Text::StringBuilder* value);
+    // Get instance field: private System.Threading.CancellationTokenSource _canStartGameCts
+    System::Threading::CancellationTokenSource* _get__canStartGameCts();
+    // Set instance field: private System.Threading.CancellationTokenSource _canStartGameCts
+    void _set__canStartGameCts(System::Threading::CancellationTokenSource* value);
+    // Get instance field: private System.Action willFinishEvent
+    System::Action* _get_willFinishEvent();
+    // Set instance field: private System.Action willFinishEvent
+    void _set_willFinishEvent(System::Action* value);
+    // Get instance field: private System.Action didFinishEvent
+    System::Action* _get_didFinishEvent();
+    // Set instance field: private System.Action didFinishEvent
+    void _set_didFinishEvent(System::Action* value);
+    // Get instance field: private System.Boolean <rejoinQuickPlay>k__BackingField
+    bool _get_$rejoinQuickPlay$k__BackingField();
+    // Set instance field: private System.Boolean <rejoinQuickPlay>k__BackingField
+    void _set_$rejoinQuickPlay$k__BackingField(bool value);
     // private System.Boolean get_isPartyOwner()
     // Offset: 0x10A4608
     bool get_isPartyOwner();

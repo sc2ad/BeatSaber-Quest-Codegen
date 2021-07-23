@@ -91,6 +91,34 @@ namespace System::Security::Claims {
     operator System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Security.Claims.Claim <>2__current
+    System::Security::Claims::Claim* _get_$$2__current();
+    // Set instance field: private System.Security.Claims.Claim <>2__current
+    void _set_$$2__current(System::Security::Claims::Claim* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: public System.Security.Claims.ClaimsIdentity <>4__this
+    System::Security::Claims::ClaimsIdentity* _get_$$4__this();
+    // Set instance field: public System.Security.Claims.ClaimsIdentity <>4__this
+    void _set_$$4__this(System::Security::Claims::ClaimsIdentity* value);
+    // Get instance field: private System.Int32 <i>5__1
+    int _get_$i$5__1();
+    // Set instance field: private System.Int32 <i>5__1
+    void _set_$i$5__1(int value);
+    // Get instance field: private System.Int32 <j>5__2
+    int _get_$j$5__2();
+    // Set instance field: private System.Int32 <j>5__2
+    void _set_$j$5__2(int value);
+    // Get instance field: private System.Collections.Generic.IEnumerator`1<System.Security.Claims.Claim> <>7__wrap1
+    System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>* _get_$$7__wrap1();
+    // Set instance field: private System.Collections.Generic.IEnumerator`1<System.Security.Claims.Claim> <>7__wrap1
+    void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>* value);
     // private System.Security.Claims.Claim System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current()
     // Offset: 0x19341E8
     System::Security::Claims::Claim* System_Collections_Generic_IEnumerator$System_Security_Claims_Claim$_get_Current();

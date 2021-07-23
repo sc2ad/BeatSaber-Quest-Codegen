@@ -114,6 +114,54 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _audioSyncLerpSpeed
+    float _get__audioSyncLerpSpeed();
+    // Set instance field: private System.Single _audioSyncLerpSpeed
+    void _set__audioSyncLerpSpeed(float value);
+    // Get instance field: private System.Single _forcedSyncDeltaTime
+    float _get__forcedSyncDeltaTime();
+    // Set instance field: private System.Single _forcedSyncDeltaTime
+    void _set__forcedSyncDeltaTime(float value);
+    // Get instance field: private System.Single _startSyncDeltaTime
+    float _get__startSyncDeltaTime();
+    // Set instance field: private System.Single _startSyncDeltaTime
+    void _set__startSyncDeltaTime(float value);
+    // Get instance field: private System.Single _stopSyncDeltaTime
+    float _get__stopSyncDeltaTime();
+    // Set instance field: private System.Single _stopSyncDeltaTime
+    void _set__stopSyncDeltaTime(float value);
+    // Get instance field: private FloatSO _audioLatency
+    GlobalNamespace::FloatSO* _get__audioLatency();
+    // Set instance field: private FloatSO _audioLatency
+    void _set__audioLatency(GlobalNamespace::FloatSO* value);
+    // Get instance field: private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
+    GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* _get__initData();
+    // Set instance field: private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
+    void _set__initData(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private System.Single <songTime>k__BackingField
+    float _get_$songTime$k__BackingField();
+    // Set instance field: private System.Single <songTime>k__BackingField
+    void _set_$songTime$k__BackingField(float value);
+    // Get instance field: private System.Single _timeScale
+    float _get__timeScale();
+    // Set instance field: private System.Single _timeScale
+    void _set__timeScale(float value);
+    // Get instance field: private System.Single _startSongSyncTime
+    float _get__startSongSyncTime();
+    // Set instance field: private System.Single _startSongSyncTime
+    void _set__startSongSyncTime(float value);
+    // Get instance field: private System.Boolean _fixingAudioSyncError
+    bool _get__fixingAudioSyncError();
+    // Set instance field: private System.Boolean _fixingAudioSyncError
+    void _set__fixingAudioSyncError(bool value);
+    // Get instance field: private System.Boolean _isReady
+    bool _get__isReady();
+    // Set instance field: private System.Boolean _isReady
+    void _set__isReady(bool value);
     // public System.Single get_songTime()
     // Offset: 0x11A5AC8
     float get_songTime();

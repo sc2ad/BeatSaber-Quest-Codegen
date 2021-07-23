@@ -61,6 +61,10 @@ namespace System {
     static System::UriHostNameType _get_IPv6();
     // Set static field: static public System.UriHostNameType IPv6
     static void _set_IPv6(System::UriHostNameType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.UriHostNameType
   #pragma pack(pop)
   static check_size<sizeof(UriHostNameType), 0 + sizeof(int)> __System_UriHostNameTypeSizeCheck;

@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Media::MrcActivationMode _get_EnumSize();
     // Set static field: static public OVRPlugin/Media/MrcActivationMode EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::Media::MrcActivationMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/Media/MrcActivationMode
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Media::MrcActivationMode), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_Media_MrcActivationModeSizeCheck;

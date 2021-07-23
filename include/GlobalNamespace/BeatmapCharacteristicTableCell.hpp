@@ -77,6 +77,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: BeatmapCharacteristicTableCell
     BeatmapCharacteristicTableCell(TMPro::TextMeshProUGUI* nameText_ = {}, UnityEngine::UI::Image* iconImage_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* selectionImage_ = {}, UnityEngine::Color bgNormalColor_ = {}, UnityEngine::Color bgHighlightColor_ = {}) noexcept : nameText{nameText_}, iconImage{iconImage_}, bgImage{bgImage_}, selectionImage{selectionImage_}, bgNormalColor{bgNormalColor_}, bgHighlightColor{bgHighlightColor_} {}
+    // Get instance field: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI* _get__nameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _nameText
+    void _set__nameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Image _iconImage
+    UnityEngine::UI::Image* _get__iconImage();
+    // Set instance field: private UnityEngine.UI.Image _iconImage
+    void _set__iconImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _bgImage
+    UnityEngine::UI::Image* _get__bgImage();
+    // Set instance field: private UnityEngine.UI.Image _bgImage
+    void _set__bgImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _selectionImage
+    UnityEngine::UI::Image* _get__selectionImage();
+    // Set instance field: private UnityEngine.UI.Image _selectionImage
+    void _set__selectionImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.Color _bgNormalColor
+    UnityEngine::Color _get__bgNormalColor();
+    // Set instance field: private UnityEngine.Color _bgNormalColor
+    void _set__bgNormalColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _bgHighlightColor
+    UnityEngine::Color _get__bgHighlightColor();
+    // Set instance field: private UnityEngine.Color _bgHighlightColor
+    void _set__bgHighlightColor(UnityEngine::Color value);
     // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0x118C0F8
     void SetData(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);

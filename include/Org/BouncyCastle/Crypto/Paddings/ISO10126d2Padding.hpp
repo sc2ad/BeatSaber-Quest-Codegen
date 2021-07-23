@@ -42,6 +42,10 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     constexpr operator Org::BouncyCastle::Security::SecureRandom*() const noexcept {
       return random;
     }
+    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
     // Offset: 0x1225264
     void Init(Org::BouncyCastle::Security::SecureRandom* random);

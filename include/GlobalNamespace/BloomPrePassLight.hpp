@@ -86,6 +86,22 @@ namespace GlobalNamespace {
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassLight::LightsDataItem*>* _get__lightsDataItems();
     // Set static field: static private readonly System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> _lightsDataItems
     static void _set__lightsDataItems(System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassLight::LightsDataItem*>* value);
+    // Get instance field: private BloomPrePassLightTypeSO _lightType
+    GlobalNamespace::BloomPrePassLightTypeSO* _get__lightType();
+    // Set instance field: private BloomPrePassLightTypeSO _lightType
+    void _set__lightType(GlobalNamespace::BloomPrePassLightTypeSO* value);
+    // Get instance field: private BloomPrePassLightTypeSO _registeredWithLightType
+    GlobalNamespace::BloomPrePassLightTypeSO* _get__registeredWithLightType();
+    // Set instance field: private BloomPrePassLightTypeSO _registeredWithLightType
+    void _set__registeredWithLightType(GlobalNamespace::BloomPrePassLightTypeSO* value);
+    // Get instance field: private System.Boolean _isRegistered
+    bool _get__isRegistered();
+    // Set instance field: private System.Boolean _isRegistered
+    void _set__isRegistered(bool value);
+    // Get instance field: private System.Boolean _isBeingDestroyed
+    bool _get__isBeingDestroyed();
+    // Set instance field: private System.Boolean _isBeingDestroyed
+    void _set__isBeingDestroyed(bool value);
     // static public System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> get_bloomLightsDict()
     // Offset: 0x1DED94C
     static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*>* get_bloomLightsDict();

@@ -51,6 +51,14 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
     // Creating value type constructor for type: Pkcs12PbeParams
     Pkcs12PbeParams(Org::BouncyCastle::Asn1::DerInteger* iterations_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* iv_ = {}) noexcept : iterations{iterations_}, iv{iv_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger iterations
+    Org::BouncyCastle::Asn1::DerInteger* _get_iterations();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger iterations
+    void _set_iterations(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString iv
+    Org::BouncyCastle::Asn1::Asn1OctetString* _get_iv();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString iv
+    void _set_iv(Org::BouncyCastle::Asn1::Asn1OctetString* value);
     // public Org.BouncyCastle.Math.BigInteger get_Iterations()
     // Offset: 0x17635BC
     Org::BouncyCastle::Math::BigInteger* get_Iterations();

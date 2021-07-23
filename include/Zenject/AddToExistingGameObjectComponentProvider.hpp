@@ -60,6 +60,10 @@ namespace Zenject {
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return gameObject;
     }
+    // Get instance field: private readonly UnityEngine.GameObject _gameObject
+    UnityEngine::GameObject* _get__gameObject();
+    // Set instance field: private readonly UnityEngine.GameObject _gameObject
+    void _set__gameObject(UnityEngine::GameObject* value);
     // public System.Void .ctor(UnityEngine.GameObject gameObject, Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
     // Offset: 0x1378250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

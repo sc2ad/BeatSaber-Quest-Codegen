@@ -55,6 +55,18 @@ namespace System::Threading {
     static System::Threading::ContextCallback* _get__ccb();
     // Set static field: static System.Threading.ContextCallback _ccb
     static void _set__ccb(System::Threading::ContextCallback* value);
+    // Get instance field: private System.Delegate _start
+    System::Delegate* _get__start();
+    // Set instance field: private System.Delegate _start
+    void _set__start(System::Delegate* value);
+    // Get instance field: private System.Object _startArg
+    ::Il2CppObject* _get__startArg();
+    // Set instance field: private System.Object _startArg
+    void _set__startArg(::Il2CppObject* value);
+    // Get instance field: private System.Threading.ExecutionContext _executionContext
+    System::Threading::ExecutionContext* _get__executionContext();
+    // Set instance field: private System.Threading.ExecutionContext _executionContext
+    void _set__executionContext(System::Threading::ExecutionContext* value);
     // static private System.Void .cctor()
     // Offset: 0x188AAF8
     static void _cctor();

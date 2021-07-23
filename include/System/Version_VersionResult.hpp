@@ -65,6 +65,26 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Version m_parsedVersion
+    System::Version* _get_m_parsedVersion();
+    // Set instance field: System.Version m_parsedVersion
+    void _set_m_parsedVersion(System::Version* value);
+    // Get instance field: System.Version/System.ParseFailureKind m_failure
+    System::Version::ParseFailureKind _get_m_failure();
+    // Set instance field: System.Version/System.ParseFailureKind m_failure
+    void _set_m_failure(System::Version::ParseFailureKind value);
+    // Get instance field: System.String m_exceptionArgument
+    ::Il2CppString* _get_m_exceptionArgument();
+    // Set instance field: System.String m_exceptionArgument
+    void _set_m_exceptionArgument(::Il2CppString* value);
+    // Get instance field: System.String m_argumentName
+    ::Il2CppString* _get_m_argumentName();
+    // Set instance field: System.String m_argumentName
+    void _set_m_argumentName(::Il2CppString* value);
+    // Get instance field: System.Boolean m_canThrow
+    bool _get_m_canThrow();
+    // Set instance field: System.Boolean m_canThrow
+    void _set_m_canThrow(bool value);
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
     // Offset: 0xF040EC
     void Init(::Il2CppString* argumentName, bool canThrow);

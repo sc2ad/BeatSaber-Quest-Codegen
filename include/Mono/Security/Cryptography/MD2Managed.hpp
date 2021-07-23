@@ -59,6 +59,26 @@ namespace Mono::Security::Cryptography {
     static ::Array<uint8_t>* _get_PI_SUBST();
     // Set static field: static private readonly System.Byte[] PI_SUBST
     static void _set_PI_SUBST(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] state
+    ::Array<uint8_t>* _get_state();
+    // Set instance field: private System.Byte[] state
+    void _set_state(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] checksum
+    ::Array<uint8_t>* _get_checksum();
+    // Set instance field: private System.Byte[] checksum
+    void _set_checksum(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] buffer
+    ::Array<uint8_t>* _get_buffer();
+    // Set instance field: private System.Byte[] buffer
+    void _set_buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 count
+    int _get_count();
+    // Set instance field: private System.Int32 count
+    void _set_count(int value);
+    // Get instance field: private System.Byte[] x
+    ::Array<uint8_t>* _get_x();
+    // Set instance field: private System.Byte[] x
+    void _set_x(::Array<uint8_t>* value);
     // static private System.Void .cctor()
     // Offset: 0x1DDA3A8
     static void _cctor();

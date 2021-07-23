@@ -97,6 +97,10 @@ namespace LiteNetLib {
     static LiteNetLib::DisconnectReason _get_PeerToPeerConnection();
     // Set static field: static public LiteNetLib.DisconnectReason PeerToPeerConnection
     static void _set_PeerToPeerConnection(LiteNetLib::DisconnectReason value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // LiteNetLib.DisconnectReason
   #pragma pack(pop)
   static check_size<sizeof(DisconnectReason), 0 + sizeof(int)> __LiteNetLib_DisconnectReasonSizeCheck;

@@ -40,6 +40,18 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt16 sin_family
+    uint16_t _get_sin_family();
+    // Set instance field: public System.UInt16 sin_family
+    void _set_sin_family(uint16_t value);
+    // Get instance field: public System.UInt16 sin_port
+    uint16_t _get_sin_port();
+    // Set instance field: public System.UInt16 sin_port
+    void _set_sin_port(uint16_t value);
+    // Get instance field: public System.UInt32 sin_addr
+    uint _get_sin_addr();
+    // Set instance field: public System.UInt32 sin_addr
+    void _set_sin_addr(uint value);
   }; // System.Net.NetworkInformation.sockaddr_in
   #pragma pack(pop)
   static check_size<sizeof(sockaddr_in), 4 + sizeof(uint)> __System_Net_NetworkInformation_sockaddr_inSizeCheck;

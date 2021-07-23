@@ -108,6 +108,62 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 HmdVsyncIndex
+    int _get_HmdVsyncIndex();
+    // Set instance field: public System.Int32 HmdVsyncIndex
+    void _set_HmdVsyncIndex(int value);
+    // Get instance field: public System.Int32 AppFrameIndex
+    int _get_AppFrameIndex();
+    // Set instance field: public System.Int32 AppFrameIndex
+    void _set_AppFrameIndex(int value);
+    // Get instance field: public System.Int32 AppDroppedFrameCount
+    int _get_AppDroppedFrameCount();
+    // Set instance field: public System.Int32 AppDroppedFrameCount
+    void _set_AppDroppedFrameCount(int value);
+    // Get instance field: public System.Single AppMotionToPhotonLatency
+    float _get_AppMotionToPhotonLatency();
+    // Set instance field: public System.Single AppMotionToPhotonLatency
+    void _set_AppMotionToPhotonLatency(float value);
+    // Get instance field: public System.Single AppQueueAheadTime
+    float _get_AppQueueAheadTime();
+    // Set instance field: public System.Single AppQueueAheadTime
+    void _set_AppQueueAheadTime(float value);
+    // Get instance field: public System.Single AppCpuElapsedTime
+    float _get_AppCpuElapsedTime();
+    // Set instance field: public System.Single AppCpuElapsedTime
+    void _set_AppCpuElapsedTime(float value);
+    // Get instance field: public System.Single AppGpuElapsedTime
+    float _get_AppGpuElapsedTime();
+    // Set instance field: public System.Single AppGpuElapsedTime
+    void _set_AppGpuElapsedTime(float value);
+    // Get instance field: public System.Int32 CompositorFrameIndex
+    int _get_CompositorFrameIndex();
+    // Set instance field: public System.Int32 CompositorFrameIndex
+    void _set_CompositorFrameIndex(int value);
+    // Get instance field: public System.Int32 CompositorDroppedFrameCount
+    int _get_CompositorDroppedFrameCount();
+    // Set instance field: public System.Int32 CompositorDroppedFrameCount
+    void _set_CompositorDroppedFrameCount(int value);
+    // Get instance field: public System.Single CompositorLatency
+    float _get_CompositorLatency();
+    // Set instance field: public System.Single CompositorLatency
+    void _set_CompositorLatency(float value);
+    // Get instance field: public System.Single CompositorCpuElapsedTime
+    float _get_CompositorCpuElapsedTime();
+    // Set instance field: public System.Single CompositorCpuElapsedTime
+    void _set_CompositorCpuElapsedTime(float value);
+    // Get instance field: public System.Single CompositorGpuElapsedTime
+    float _get_CompositorGpuElapsedTime();
+    // Set instance field: public System.Single CompositorGpuElapsedTime
+    void _set_CompositorGpuElapsedTime(float value);
+    // Get instance field: public System.Single CompositorCpuStartToGpuEndElapsedTime
+    float _get_CompositorCpuStartToGpuEndElapsedTime();
+    // Set instance field: public System.Single CompositorCpuStartToGpuEndElapsedTime
+    void _set_CompositorCpuStartToGpuEndElapsedTime(float value);
+    // Get instance field: public System.Single CompositorGpuEndToVsyncElapsedTime
+    float _get_CompositorGpuEndToVsyncElapsedTime();
+    // Set instance field: public System.Single CompositorGpuEndToVsyncElapsedTime
+    void _set_CompositorGpuEndToVsyncElapsedTime(float value);
   }; // OVRPlugin/AppPerfFrameStats
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::AppPerfFrameStats), 52 + sizeof(float)> __GlobalNamespace_OVRPlugin_AppPerfFrameStatsSizeCheck;

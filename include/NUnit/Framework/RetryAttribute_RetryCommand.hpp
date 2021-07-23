@@ -34,6 +34,10 @@ namespace NUnit::Framework {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RetryCommand
     RetryCommand(int retryCount_ = {}) noexcept : retryCount{retryCount_} {}
+    // Get instance field: private System.Int32 _retryCount
+    int _get__retryCount();
+    // Set instance field: private System.Int32 _retryCount
+    void _set__retryCount(int value);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0x22476A4
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand

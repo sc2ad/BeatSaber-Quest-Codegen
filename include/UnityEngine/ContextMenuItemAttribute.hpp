@@ -34,6 +34,14 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ContextMenuItemAttribute
     ContextMenuItemAttribute(::Il2CppString* name_ = {}, ::Il2CppString* function_ = {}) noexcept : name{name_}, function{function_} {}
+    // Get instance field: public readonly System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: public readonly System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: public readonly System.String function
+    ::Il2CppString* _get_function();
+    // Set instance field: public readonly System.String function
+    void _set_function(::Il2CppString* value);
     // public System.Void .ctor(System.String name, System.String function)
     // Offset: 0x1BE3574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

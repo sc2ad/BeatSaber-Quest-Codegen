@@ -67,6 +67,26 @@ namespace Zenject {
     MonoKernel(Zenject::TickableManager* tickableManager_ = {}, Zenject::InitializableManager* initializableManager_ = {}, Zenject::DisposableManager* disposablesManager_ = {}, bool hasInitialized_ = {}, bool isDestroyed_ = {}) noexcept : tickableManager{tickableManager_}, initializableManager{initializableManager_}, disposablesManager{disposablesManager_}, hasInitialized{hasInitialized_}, isDestroyed{isDestroyed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Zenject.TickableManager _tickableManager
+    Zenject::TickableManager* _get__tickableManager();
+    // Set instance field: private Zenject.TickableManager _tickableManager
+    void _set__tickableManager(Zenject::TickableManager* value);
+    // Get instance field: private Zenject.InitializableManager _initializableManager
+    Zenject::InitializableManager* _get__initializableManager();
+    // Set instance field: private Zenject.InitializableManager _initializableManager
+    void _set__initializableManager(Zenject::InitializableManager* value);
+    // Get instance field: private Zenject.DisposableManager _disposablesManager
+    Zenject::DisposableManager* _get__disposablesManager();
+    // Set instance field: private Zenject.DisposableManager _disposablesManager
+    void _set__disposablesManager(Zenject::DisposableManager* value);
+    // Get instance field: private System.Boolean _hasInitialized
+    bool _get__hasInitialized();
+    // Set instance field: private System.Boolean _hasInitialized
+    void _set__hasInitialized(bool value);
+    // Get instance field: private System.Boolean _isDestroyed
+    bool _get__isDestroyed();
+    // Set instance field: private System.Boolean _isDestroyed
+    void _set__isDestroyed(bool value);
     // protected System.Boolean get_IsDestroyed()
     // Offset: 0x16C573C
     bool get_IsDestroyed();

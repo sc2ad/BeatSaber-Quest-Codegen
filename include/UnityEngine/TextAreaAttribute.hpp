@@ -34,6 +34,14 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TextAreaAttribute
     TextAreaAttribute(int minLines_ = {}, int maxLines_ = {}) noexcept : minLines{minLines_}, maxLines{maxLines_} {}
+    // Get instance field: public readonly System.Int32 minLines
+    int _get_minLines();
+    // Set instance field: public readonly System.Int32 minLines
+    void _set_minLines(int value);
+    // Get instance field: public readonly System.Int32 maxLines
+    int _get_maxLines();
+    // Set instance field: public readonly System.Int32 maxLines
+    void _set_maxLines(int value);
     // public System.Void .ctor(System.Int32 minLines, System.Int32 maxLines)
     // Offset: 0x22FD000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

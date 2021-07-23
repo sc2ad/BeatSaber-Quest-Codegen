@@ -136,6 +136,78 @@ namespace Mono {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.UInt16 error_code
+    uint16_t _get_error_code();
+    // Set instance field: private System.UInt16 error_code
+    void _set_error_code(uint16_t value);
+    // Get instance field: private System.UInt16 hidden_0
+    uint16_t _get_hidden_0();
+    // Set instance field: private System.UInt16 hidden_0
+    void _set_hidden_0(uint16_t value);
+    // Get instance field: private System.IntPtr hidden_1
+    System::IntPtr _get_hidden_1();
+    // Set instance field: private System.IntPtr hidden_1
+    void _set_hidden_1(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_2
+    System::IntPtr _get_hidden_2();
+    // Set instance field: private System.IntPtr hidden_2
+    void _set_hidden_2(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_3
+    System::IntPtr _get_hidden_3();
+    // Set instance field: private System.IntPtr hidden_3
+    void _set_hidden_3(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_4
+    System::IntPtr _get_hidden_4();
+    // Set instance field: private System.IntPtr hidden_4
+    void _set_hidden_4(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_5
+    System::IntPtr _get_hidden_5();
+    // Set instance field: private System.IntPtr hidden_5
+    void _set_hidden_5(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_6
+    System::IntPtr _get_hidden_6();
+    // Set instance field: private System.IntPtr hidden_6
+    void _set_hidden_6(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_7
+    System::IntPtr _get_hidden_7();
+    // Set instance field: private System.IntPtr hidden_7
+    void _set_hidden_7(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_8
+    System::IntPtr _get_hidden_8();
+    // Set instance field: private System.IntPtr hidden_8
+    void _set_hidden_8(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_11
+    System::IntPtr _get_hidden_11();
+    // Set instance field: private System.IntPtr hidden_11
+    void _set_hidden_11(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_12
+    System::IntPtr _get_hidden_12();
+    // Set instance field: private System.IntPtr hidden_12
+    void _set_hidden_12(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_13
+    System::IntPtr _get_hidden_13();
+    // Set instance field: private System.IntPtr hidden_13
+    void _set_hidden_13(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_14
+    System::IntPtr _get_hidden_14();
+    // Set instance field: private System.IntPtr hidden_14
+    void _set_hidden_14(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_15
+    System::IntPtr _get_hidden_15();
+    // Set instance field: private System.IntPtr hidden_15
+    void _set_hidden_15(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_16
+    System::IntPtr _get_hidden_16();
+    // Set instance field: private System.IntPtr hidden_16
+    void _set_hidden_16(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_17
+    System::IntPtr _get_hidden_17();
+    // Set instance field: private System.IntPtr hidden_17
+    void _set_hidden_17(System::IntPtr value);
+    // Get instance field: private System.IntPtr hidden_18
+    System::IntPtr _get_hidden_18();
+    // Set instance field: private System.IntPtr hidden_18
+    void _set_hidden_18(System::IntPtr value);
   }; // Mono.RuntimeStructs/Mono.MonoError
   #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::MonoError), 128 + sizeof(System::IntPtr)> __Mono_RuntimeStructs_MonoErrorSizeCheck;

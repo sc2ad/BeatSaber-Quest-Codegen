@@ -47,6 +47,14 @@ namespace Zenject::Internal {
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
     // Creating value type constructor for type: InjectConstructorInfo
     InjectConstructorInfo(System::Reflection::ConstructorInfo* ConstructorInfo_ = {}, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* Parameters_ = {}) noexcept : ConstructorInfo{ConstructorInfo_}, Parameters{Parameters_} {}
+    // Get instance field: public readonly System.Reflection.ConstructorInfo ConstructorInfo
+    System::Reflection::ConstructorInfo* _get_ConstructorInfo();
+    // Set instance field: public readonly System.Reflection.ConstructorInfo ConstructorInfo
+    void _set_ConstructorInfo(System::Reflection::ConstructorInfo* value);
+    // Get instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> Parameters
+    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* _get_Parameters();
+    // Set instance field: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> Parameters
+    void _set_Parameters(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* value);
     // public System.Void .ctor(System.Reflection.ConstructorInfo constructorInfo, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> parameters)
     // Offset: 0x1629C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

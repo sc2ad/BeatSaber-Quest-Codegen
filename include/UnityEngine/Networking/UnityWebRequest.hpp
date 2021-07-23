@@ -107,6 +107,38 @@ namespace UnityEngine::Networking {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: UnityEngine.Networking.DownloadHandler m_DownloadHandler
+    UnityEngine::Networking::DownloadHandler* _get_m_DownloadHandler();
+    // Set instance field: UnityEngine.Networking.DownloadHandler m_DownloadHandler
+    void _set_m_DownloadHandler(UnityEngine::Networking::DownloadHandler* value);
+    // Get instance field: UnityEngine.Networking.UploadHandler m_UploadHandler
+    UnityEngine::Networking::UploadHandler* _get_m_UploadHandler();
+    // Set instance field: UnityEngine.Networking.UploadHandler m_UploadHandler
+    void _set_m_UploadHandler(UnityEngine::Networking::UploadHandler* value);
+    // Get instance field: UnityEngine.Networking.CertificateHandler m_CertificateHandler
+    UnityEngine::Networking::CertificateHandler* _get_m_CertificateHandler();
+    // Set instance field: UnityEngine.Networking.CertificateHandler m_CertificateHandler
+    void _set_m_CertificateHandler(UnityEngine::Networking::CertificateHandler* value);
+    // Get instance field: System.Uri m_Uri
+    System::Uri* _get_m_Uri();
+    // Set instance field: System.Uri m_Uri
+    void _set_m_Uri(System::Uri* value);
+    // Get instance field: private System.Boolean <disposeCertificateHandlerOnDispose>k__BackingField
+    bool _get_$disposeCertificateHandlerOnDispose$k__BackingField();
+    // Set instance field: private System.Boolean <disposeCertificateHandlerOnDispose>k__BackingField
+    void _set_$disposeCertificateHandlerOnDispose$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <disposeDownloadHandlerOnDispose>k__BackingField
+    bool _get_$disposeDownloadHandlerOnDispose$k__BackingField();
+    // Set instance field: private System.Boolean <disposeDownloadHandlerOnDispose>k__BackingField
+    void _set_$disposeDownloadHandlerOnDispose$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <disposeUploadHandlerOnDispose>k__BackingField
+    bool _get_$disposeUploadHandlerOnDispose$k__BackingField();
+    // Set instance field: private System.Boolean <disposeUploadHandlerOnDispose>k__BackingField
+    void _set_$disposeUploadHandlerOnDispose$k__BackingField(bool value);
     // public System.Boolean get_disposeCertificateHandlerOnDispose()
     // Offset: 0x239E6AC
     bool get_disposeCertificateHandlerOnDispose();

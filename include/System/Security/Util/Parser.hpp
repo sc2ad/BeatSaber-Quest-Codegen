@@ -47,6 +47,14 @@ namespace System::Security::Util {
     static_assert(sizeof(System::Security::Util::Tokenizer*) == 0x8);
     // Creating value type constructor for type: Parser
     Parser(System::Security::SecurityDocument* doc_ = {}, System::Security::Util::Tokenizer* t_ = {}) noexcept : doc{doc_}, t{t_} {}
+    // Get instance field: private System.Security.SecurityDocument _doc
+    System::Security::SecurityDocument* _get__doc();
+    // Set instance field: private System.Security.SecurityDocument _doc
+    void _set__doc(System::Security::SecurityDocument* value);
+    // Get instance field: private System.Security.Util.Tokenizer _t
+    System::Security::Util::Tokenizer* _get__t();
+    // Set instance field: private System.Security.Util.Tokenizer _t
+    void _set__t(System::Security::Util::Tokenizer* value);
     // private System.Void .ctor(System.Security.Util.Tokenizer t)
     // Offset: 0x1B0D484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

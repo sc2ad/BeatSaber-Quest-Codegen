@@ -62,6 +62,10 @@ namespace UnityEngine::Timeline {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue m_Events
+    UnityEngine::Timeline::SignalReceiver::EventKeyValue* _get_m_Events();
+    // Set instance field: private UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue m_Events
+    void _set_m_Events(UnityEngine::Timeline::SignalReceiver::EventKeyValue* value);
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
     // Offset: 0x17EB390
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);

@@ -85,6 +85,34 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Get instance field: public ColorNoAlphaSerializable saberAColor
+    GlobalNamespace::ColorNoAlphaSerializable _get_saberAColor();
+    // Set instance field: public ColorNoAlphaSerializable saberAColor
+    void _set_saberAColor(GlobalNamespace::ColorNoAlphaSerializable value);
+    // Get instance field: public ColorNoAlphaSerializable saberBColor
+    GlobalNamespace::ColorNoAlphaSerializable _get_saberBColor();
+    // Set instance field: public ColorNoAlphaSerializable saberBColor
+    void _set_saberBColor(GlobalNamespace::ColorNoAlphaSerializable value);
+    // Get instance field: public ColorNoAlphaSerializable obstaclesColor
+    GlobalNamespace::ColorNoAlphaSerializable _get_obstaclesColor();
+    // Set instance field: public ColorNoAlphaSerializable obstaclesColor
+    void _set_obstaclesColor(GlobalNamespace::ColorNoAlphaSerializable value);
+    // Get instance field: public ColorNoAlphaSerializable environmentColor0
+    GlobalNamespace::ColorNoAlphaSerializable _get_environmentColor0();
+    // Set instance field: public ColorNoAlphaSerializable environmentColor0
+    void _set_environmentColor0(GlobalNamespace::ColorNoAlphaSerializable value);
+    // Get instance field: public ColorNoAlphaSerializable environmentColor1
+    GlobalNamespace::ColorNoAlphaSerializable _get_environmentColor1();
+    // Set instance field: public ColorNoAlphaSerializable environmentColor1
+    void _set_environmentColor1(GlobalNamespace::ColorNoAlphaSerializable value);
+    // Get instance field: public ColorNoAlphaSerializable environmentColor0Boost
+    GlobalNamespace::ColorNoAlphaSerializable _get_environmentColor0Boost();
+    // Set instance field: public ColorNoAlphaSerializable environmentColor0Boost
+    void _set_environmentColor0Boost(GlobalNamespace::ColorNoAlphaSerializable value);
+    // Get instance field: public ColorNoAlphaSerializable environmentColor1Boost
+    GlobalNamespace::ColorNoAlphaSerializable _get_environmentColor1Boost();
+    // Set instance field: public ColorNoAlphaSerializable environmentColor1Boost
+    void _set_environmentColor1Boost(GlobalNamespace::ColorNoAlphaSerializable value);
     // public System.Void .ctor(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
     // Offset: 0xED38E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

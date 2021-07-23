@@ -101,6 +101,38 @@ namespace UnityEngine::ProBuilder {
     operator System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>*>(this);
     }
+    // Get instance field: public UnityEngine.GameObject gameObject
+    UnityEngine::GameObject* _get_gameObject();
+    // Set instance field: public UnityEngine.GameObject gameObject
+    void _set_gameObject(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_mesh();
+    // Set instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    void _set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Int32> m_Vertices
+    System::Collections::Generic::List_1<int>* _get_m_Vertices();
+    // Set instance field: private System.Collections.Generic.List`1<System.Int32> m_Vertices
+    void _set_m_Vertices(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> m_Edges
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* _get_m_Edges();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> m_Edges
+    void _set_m_Edges(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> m_Faces
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* _get_m_Faces();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> m_Faces
+    void _set_m_Faces(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* value);
+    // Get instance field: public System.Int32 vertex
+    int _get_vertex();
+    // Set instance field: public System.Int32 vertex
+    void _set_vertex(int value);
+    // Get instance field: public UnityEngine.ProBuilder.Edge edge
+    UnityEngine::ProBuilder::Edge _get_edge();
+    // Set instance field: public UnityEngine.ProBuilder.Edge edge
+    void _set_edge(UnityEngine::ProBuilder::Edge value);
+    // Get instance field: public UnityEngine.ProBuilder.Face face
+    UnityEngine::ProBuilder::Face* _get_face();
+    // Set instance field: public UnityEngine.ProBuilder.Face face
+    void _set_face(UnityEngine::ProBuilder::Face* value);
     // public System.Collections.Generic.List`1<System.Int32> get_vertexes()
     // Offset: 0x14B8EF8
     System::Collections::Generic::List_1<int>* get_vertexes();

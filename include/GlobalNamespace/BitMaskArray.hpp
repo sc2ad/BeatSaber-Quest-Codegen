@@ -54,6 +54,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBitMask_1<GlobalNamespace::BitMaskArray*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBitMask_1<GlobalNamespace::BitMaskArray*>*>(this);
     }
+    // Get instance field: private readonly System.Int32 <bitCount>k__BackingField
+    int _get_$bitCount$k__BackingField();
+    // Set instance field: private readonly System.Int32 <bitCount>k__BackingField
+    void _set_$bitCount$k__BackingField(int value);
+    // Get instance field: private readonly System.UInt64[] _data
+    ::Array<uint64_t>* _get__data();
+    // Set instance field: private readonly System.UInt64[] _data
+    void _set__data(::Array<uint64_t>* value);
     // public System.Int32 get_bitCount()
     // Offset: 0x2324C7C
     int get_bitCount();

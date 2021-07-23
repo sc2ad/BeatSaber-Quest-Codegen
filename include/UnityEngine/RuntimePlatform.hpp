@@ -264,6 +264,10 @@ namespace UnityEngine {
     static UnityEngine::RuntimePlatform _get_CloudRendering();
     // Set static field: static public UnityEngine.RuntimePlatform CloudRendering
     static void _set_CloudRendering(UnityEngine::RuntimePlatform value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.RuntimePlatform
   #pragma pack(pop)
   static check_size<sizeof(RuntimePlatform), 0 + sizeof(int)> __UnityEngine_RuntimePlatformSizeCheck;

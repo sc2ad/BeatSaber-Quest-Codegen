@@ -112,6 +112,34 @@ namespace GlobalNamespace {
     static int _get__pointLightColorsID();
     // Set static field: static private readonly System.Int32 _pointLightColorsID
     static void _set__pointLightColorsID(int value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _directionalLightDirections
+    ::Array<UnityEngine::Vector4>* _get__directionalLightDirections();
+    // Set instance field: private readonly UnityEngine.Vector4[] _directionalLightDirections
+    void _set__directionalLightDirections(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _directionalLightColors
+    ::Array<UnityEngine::Vector4>* _get__directionalLightColors();
+    // Set instance field: private readonly UnityEngine.Vector4[] _directionalLightColors
+    void _set__directionalLightColors(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _directionalLightPositions
+    ::Array<UnityEngine::Vector4>* _get__directionalLightPositions();
+    // Set instance field: private readonly UnityEngine.Vector4[] _directionalLightPositions
+    void _set__directionalLightPositions(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private readonly System.Single[] _directionalLightRadii
+    ::Array<float>* _get__directionalLightRadii();
+    // Set instance field: private readonly System.Single[] _directionalLightRadii
+    void _set__directionalLightRadii(::Array<float>* value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _pointLightPositions
+    ::Array<UnityEngine::Vector4>* _get__pointLightPositions();
+    // Set instance field: private readonly UnityEngine.Vector4[] _pointLightPositions
+    void _set__pointLightPositions(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _pointLightColors
+    ::Array<UnityEngine::Vector4>* _get__pointLightColors();
+    // Set instance field: private readonly UnityEngine.Vector4[] _pointLightColors
+    void _set__pointLightColors(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private System.Int32 lastRefreshFrameNum
+    int _get_lastRefreshFrameNum();
+    // Set instance field: private System.Int32 lastRefreshFrameNum
+    void _set_lastRefreshFrameNum(int value);
     // protected System.Void OnDisable()
     // Offset: 0x1DF2828
     void OnDisable();

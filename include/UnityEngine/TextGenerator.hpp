@@ -136,6 +136,50 @@ namespace UnityEngine {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: private System.String m_LastString
+    ::Il2CppString* _get_m_LastString();
+    // Set instance field: private System.String m_LastString
+    void _set_m_LastString(::Il2CppString* value);
+    // Get instance field: private UnityEngine.TextGenerationSettings m_LastSettings
+    UnityEngine::TextGenerationSettings _get_m_LastSettings();
+    // Set instance field: private UnityEngine.TextGenerationSettings m_LastSettings
+    void _set_m_LastSettings(UnityEngine::TextGenerationSettings value);
+    // Get instance field: private System.Boolean m_HasGenerated
+    bool _get_m_HasGenerated();
+    // Set instance field: private System.Boolean m_HasGenerated
+    void _set_m_HasGenerated(bool value);
+    // Get instance field: private UnityEngine.TextGenerationError m_LastValid
+    UnityEngine::TextGenerationError _get_m_LastValid();
+    // Set instance field: private UnityEngine.TextGenerationError m_LastValid
+    void _set_m_LastValid(UnityEngine::TextGenerationError value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UIVertex> m_Verts
+    System::Collections::Generic::List_1<UnityEngine::UIVertex>* _get_m_Verts();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UIVertex> m_Verts
+    void _set_m_Verts(System::Collections::Generic::List_1<UnityEngine::UIVertex>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UICharInfo> m_Characters
+    System::Collections::Generic::List_1<UnityEngine::UICharInfo>* _get_m_Characters();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UICharInfo> m_Characters
+    void _set_m_Characters(System::Collections::Generic::List_1<UnityEngine::UICharInfo>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UILineInfo> m_Lines
+    System::Collections::Generic::List_1<UnityEngine::UILineInfo>* _get_m_Lines();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UILineInfo> m_Lines
+    void _set_m_Lines(System::Collections::Generic::List_1<UnityEngine::UILineInfo>* value);
+    // Get instance field: private System.Boolean m_CachedVerts
+    bool _get_m_CachedVerts();
+    // Set instance field: private System.Boolean m_CachedVerts
+    void _set_m_CachedVerts(bool value);
+    // Get instance field: private System.Boolean m_CachedCharacters
+    bool _get_m_CachedCharacters();
+    // Set instance field: private System.Boolean m_CachedCharacters
+    void _set_m_CachedCharacters(bool value);
+    // Get instance field: private System.Boolean m_CachedLines
+    bool _get_m_CachedLines();
+    // Set instance field: private System.Boolean m_CachedLines
+    void _set_m_CachedLines(bool value);
     // public System.Int32 get_characterCountVisible()
     // Offset: 0x23BD4F4
     int get_characterCountVisible();

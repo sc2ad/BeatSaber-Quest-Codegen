@@ -41,6 +41,10 @@ namespace System {
     static ::Il2CppString* _get__rangeMessage();
     // Set static field: static private System.String _rangeMessage
     static void _set__rangeMessage(::Il2CppString* value);
+    // Get instance field: private System.Object m_actualValue
+    ::Il2CppObject* _get_m_actualValue();
+    // Set instance field: private System.Object m_actualValue
+    void _set_m_actualValue(::Il2CppObject* value);
     // static private System.String get_RangeMessage()
     // Offset: 0x1778C0C
     static ::Il2CppString* get_RangeMessage();

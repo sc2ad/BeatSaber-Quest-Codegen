@@ -57,6 +57,14 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: System.String value
+    ::Il2CppString* _get_value();
+    // Set instance field: System.String value
+    void _set_value(::Il2CppString* value);
+    // Get instance field: System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
+    System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* _get_parameters();
+    // Set instance field: System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
+    void _set_parameters(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* value);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
     // Offset: 0x156D9AC
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();

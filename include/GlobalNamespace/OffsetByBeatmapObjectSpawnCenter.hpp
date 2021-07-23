@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     OffsetByBeatmapObjectSpawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter_ = {}) noexcept : spawnCenter{spawnCenter_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly BeatmapObjectSpawnCenter _spawnCenter
+    GlobalNamespace::BeatmapObjectSpawnCenter* _get__spawnCenter();
+    // Set instance field: private readonly BeatmapObjectSpawnCenter _spawnCenter
+    void _set__spawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* value);
     // protected System.Void Start()
     // Offset: 0xFF3B6C
     void Start();

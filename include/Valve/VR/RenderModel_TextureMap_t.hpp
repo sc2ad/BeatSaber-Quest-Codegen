@@ -44,6 +44,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Char unWidth
+    ::Il2CppChar _get_unWidth();
+    // Set instance field: public System.Char unWidth
+    void _set_unWidth(::Il2CppChar value);
+    // Get instance field: public System.Char unHeight
+    ::Il2CppChar _get_unHeight();
+    // Set instance field: public System.Char unHeight
+    void _set_unHeight(::Il2CppChar value);
+    // Get instance field: public System.IntPtr rubTextureMapData
+    System::IntPtr _get_rubTextureMapData();
+    // Set instance field: public System.IntPtr rubTextureMapData
+    void _set_rubTextureMapData(System::IntPtr value);
   }; // Valve.VR.RenderModel_TextureMap_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(System::IntPtr)> __Valve_VR_RenderModel_TextureMap_tSizeCheck;

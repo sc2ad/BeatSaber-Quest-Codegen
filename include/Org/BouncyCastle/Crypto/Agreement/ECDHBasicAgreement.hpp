@@ -52,6 +52,10 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     constexpr operator Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*() const noexcept {
       return privKey;
     }
+    // Get instance field: protected internal Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey
+    Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* _get_privKey();
+    // Set instance field: protected internal Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey
+    void _set_privKey(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0x19EAE80
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);

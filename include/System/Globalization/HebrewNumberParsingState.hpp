@@ -55,6 +55,10 @@ namespace System::Globalization {
     static System::Globalization::HebrewNumberParsingState _get_ContinueParsing();
     // Set static field: static public System.Globalization.HebrewNumberParsingState ContinueParsing
     static void _set_ContinueParsing(System::Globalization::HebrewNumberParsingState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Globalization.HebrewNumberParsingState
   #pragma pack(pop)
   static check_size<sizeof(HebrewNumberParsingState), 0 + sizeof(int)> __System_Globalization_HebrewNumberParsingStateSizeCheck;

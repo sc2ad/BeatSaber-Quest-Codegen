@@ -65,6 +65,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
     // Creating value type constructor for type: X9Curve
     X9Curve(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, ::Array<uint8_t>* seed_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* fieldIdentifier_ = {}) noexcept : curve{curve_}, seed{seed_}, fieldIdentifier{fieldIdentifier_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECCurve curve
+    Org::BouncyCastle::Math::EC::ECCurve* _get_curve();
+    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECCurve curve
+    void _set_curve(Org::BouncyCastle::Math::EC::ECCurve* value);
+    // Get instance field: private readonly System.Byte[] seed
+    ::Array<uint8_t>* _get_seed();
+    // Set instance field: private readonly System.Byte[] seed
+    void _set_seed(::Array<uint8_t>* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier fieldIdentifier
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_fieldIdentifier();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier fieldIdentifier
+    void _set_fieldIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
     // Offset: 0x19E8590
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();

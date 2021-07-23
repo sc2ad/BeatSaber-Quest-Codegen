@@ -67,6 +67,26 @@ namespace TMPro {
     static UnityEngine::Color _get_k_DefaultColor();
     // Set static field: static private readonly UnityEngine.Color k_DefaultColor
     static void _set_k_DefaultColor(UnityEngine::Color value);
+    // Get instance field: public TMPro.ColorMode colorMode
+    TMPro::ColorMode _get_colorMode();
+    // Set instance field: public TMPro.ColorMode colorMode
+    void _set_colorMode(TMPro::ColorMode value);
+    // Get instance field: public UnityEngine.Color topLeft
+    UnityEngine::Color _get_topLeft();
+    // Set instance field: public UnityEngine.Color topLeft
+    void _set_topLeft(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color topRight
+    UnityEngine::Color _get_topRight();
+    // Set instance field: public UnityEngine.Color topRight
+    void _set_topRight(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color bottomLeft
+    UnityEngine::Color _get_bottomLeft();
+    // Set instance field: public UnityEngine.Color bottomLeft
+    void _set_bottomLeft(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color bottomRight
+    UnityEngine::Color _get_bottomRight();
+    // Set instance field: public UnityEngine.Color bottomRight
+    void _set_bottomRight(UnityEngine::Color value);
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0x10BDB68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

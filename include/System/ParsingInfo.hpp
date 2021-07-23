@@ -87,6 +87,42 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Globalization.Calendar calendar
+    System::Globalization::Calendar* _get_calendar();
+    // Set instance field: System.Globalization.Calendar calendar
+    void _set_calendar(System::Globalization::Calendar* value);
+    // Get instance field: System.Int32 dayOfWeek
+    int _get_dayOfWeek();
+    // Set instance field: System.Int32 dayOfWeek
+    void _set_dayOfWeek(int value);
+    // Get instance field: System.DateTimeParse/System.TM timeMark
+    System::DateTimeParse::TM _get_timeMark();
+    // Set instance field: System.DateTimeParse/System.TM timeMark
+    void _set_timeMark(System::DateTimeParse::TM value);
+    // Get instance field: System.Boolean fUseHour12
+    bool _get_fUseHour12();
+    // Set instance field: System.Boolean fUseHour12
+    void _set_fUseHour12(bool value);
+    // Get instance field: System.Boolean fUseTwoDigitYear
+    bool _get_fUseTwoDigitYear();
+    // Set instance field: System.Boolean fUseTwoDigitYear
+    void _set_fUseTwoDigitYear(bool value);
+    // Get instance field: System.Boolean fAllowInnerWhite
+    bool _get_fAllowInnerWhite();
+    // Set instance field: System.Boolean fAllowInnerWhite
+    void _set_fAllowInnerWhite(bool value);
+    // Get instance field: System.Boolean fAllowTrailingWhite
+    bool _get_fAllowTrailingWhite();
+    // Set instance field: System.Boolean fAllowTrailingWhite
+    void _set_fAllowTrailingWhite(bool value);
+    // Get instance field: System.Boolean fCustomNumberParser
+    bool _get_fCustomNumberParser();
+    // Set instance field: System.Boolean fCustomNumberParser
+    void _set_fCustomNumberParser(bool value);
+    // Get instance field: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
+    System::DateTimeParse::MatchNumberDelegate* _get_parseNumberDelegate();
+    // Set instance field: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
+    void _set_parseNumberDelegate(System::DateTimeParse::MatchNumberDelegate* value);
     // System.Void Init()
     // Offset: 0xEF62C4
     void Init();

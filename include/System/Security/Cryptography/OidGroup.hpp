@@ -97,6 +97,10 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::OidGroup _get_KeyDerivationFunction();
     // Set static field: static public System.Security.Cryptography.OidGroup KeyDerivationFunction
     static void _set_KeyDerivationFunction(System::Security::Cryptography::OidGroup value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.OidGroup
   #pragma pack(pop)
   static check_size<sizeof(OidGroup), 0 + sizeof(int)> __System_Security_Cryptography_OidGroupSizeCheck;

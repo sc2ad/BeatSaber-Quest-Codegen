@@ -43,6 +43,14 @@ namespace GlobalNamespace {
     VisibilityChecker(System::Action* OnBecameVisibleEvent_ = {}, System::Action* OnBecameInvisibleEvent_ = {}) noexcept : OnBecameVisibleEvent{OnBecameVisibleEvent_}, OnBecameInvisibleEvent{OnBecameInvisibleEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Action OnBecameVisibleEvent
+    System::Action* _get_OnBecameVisibleEvent();
+    // Set instance field: private System.Action OnBecameVisibleEvent
+    void _set_OnBecameVisibleEvent(System::Action* value);
+    // Get instance field: private System.Action OnBecameInvisibleEvent
+    System::Action* _get_OnBecameInvisibleEvent();
+    // Set instance field: private System.Action OnBecameInvisibleEvent
+    void _set_OnBecameInvisibleEvent(System::Action* value);
     // public System.Void add_OnBecameVisibleEvent(System.Action value)
     // Offset: 0x235E248
     void add_OnBecameVisibleEvent(System::Action* value);

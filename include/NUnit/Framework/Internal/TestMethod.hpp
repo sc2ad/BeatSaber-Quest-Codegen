@@ -56,6 +56,10 @@ namespace NUnit::Framework::Internal {
     constexpr operator NUnit::Framework::Internal::TestCaseParameters*() const noexcept {
       return parms;
     }
+    // Get instance field: public NUnit.Framework.Internal.TestCaseParameters parms
+    NUnit::Framework::Internal::TestCaseParameters* _get_parms();
+    // Set instance field: public NUnit.Framework.Internal.TestCaseParameters parms
+    void _set_parms(NUnit::Framework::Internal::TestCaseParameters* value);
     // System.Boolean get_HasExpectedResult()
     // Offset: 0x223FFF0
     bool get_HasExpectedResult();

@@ -40,6 +40,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
     // Creating value type constructor for type: VFXAnimationEvent
     VFXAnimationEvent(::Il2CppString* name_ = {}, ::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}) noexcept : name{name_}, particleSystems{particleSystems_} {}
+    // Get instance field: private System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: private System.String _name
+    void _set__name(::Il2CppString* value);
+    // Get instance field: private UnityEngine.ParticleSystem[] _particleSystems
+    ::Array<UnityEngine::ParticleSystem*>* _get__particleSystems();
+    // Set instance field: private UnityEngine.ParticleSystem[] _particleSystems
+    void _set__particleSystems(::Array<UnityEngine::ParticleSystem*>* value);
     // public System.String get_name()
     // Offset: 0x235CEAC
     ::Il2CppString* get_name();

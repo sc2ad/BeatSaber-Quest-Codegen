@@ -76,6 +76,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     operator UnityEngine::ProBuilder::Poly2Tri::Triangulatable() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);
     }
+    // Get instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> _points
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _get__points();
+    // Set instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> _points
+    void _set__points(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
+    // Get instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> _steinerPoints
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _get__steinerPoints();
+    // Set instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> _steinerPoints
+    void _set__steinerPoints(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
+    // Get instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.Polygon> _holes
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _get__holes();
+    // Set instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.Polygon> _holes
+    void _set__holes(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::Polygon*>* value);
+    // Get instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> _triangles
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _get__triangles();
+    // Set instance field: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> _triangles
+    void _set__triangles(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
     // Offset: 0x236ECA4
     UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();

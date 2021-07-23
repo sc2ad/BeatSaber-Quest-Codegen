@@ -156,6 +156,70 @@ namespace RootMotion::FinalIK {
     RagdollUtility(RootMotion::FinalIK::IK* ik_ = {}, float ragdollToAnimationTime_ = {}, bool applyIkOnRagdoll_ = {}, float applyVelocity_ = {}, float applyAngularVelocity_ = {}, UnityEngine::Animator* animator_ = {}, ::Array<RootMotion::FinalIK::RagdollUtility::Rigidbone*>* rigidbones_ = {}, ::Array<RootMotion::FinalIK::RagdollUtility::Child*>* children_ = {}, bool enableRagdollFlag_ = {}, UnityEngine::AnimatorUpdateMode animatorUpdateMode_ = {}, ::Array<RootMotion::FinalIK::IK*>* allIKComponents_ = {}, ::Array<bool>* fixTransforms_ = {}, float ragdollWeight_ = {}, float ragdollWeightV_ = {}, bool fixedFrame_ = {}, ::Array<bool>* disabledIKComponents_ = {}) noexcept : ik{ik_}, ragdollToAnimationTime{ragdollToAnimationTime_}, applyIkOnRagdoll{applyIkOnRagdoll_}, applyVelocity{applyVelocity_}, applyAngularVelocity{applyAngularVelocity_}, animator{animator_}, rigidbones{rigidbones_}, children{children_}, enableRagdollFlag{enableRagdollFlag_}, animatorUpdateMode{animatorUpdateMode_}, allIKComponents{allIKComponents_}, fixTransforms{fixTransforms_}, ragdollWeight{ragdollWeight_}, ragdollWeightV{ragdollWeightV_}, fixedFrame{fixedFrame_}, disabledIKComponents{disabledIKComponents_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public RootMotion.FinalIK.IK ik
+    RootMotion::FinalIK::IK* _get_ik();
+    // Set instance field: public RootMotion.FinalIK.IK ik
+    void _set_ik(RootMotion::FinalIK::IK* value);
+    // Get instance field: public System.Single ragdollToAnimationTime
+    float _get_ragdollToAnimationTime();
+    // Set instance field: public System.Single ragdollToAnimationTime
+    void _set_ragdollToAnimationTime(float value);
+    // Get instance field: public System.Boolean applyIkOnRagdoll
+    bool _get_applyIkOnRagdoll();
+    // Set instance field: public System.Boolean applyIkOnRagdoll
+    void _set_applyIkOnRagdoll(bool value);
+    // Get instance field: public System.Single applyVelocity
+    float _get_applyVelocity();
+    // Set instance field: public System.Single applyVelocity
+    void _set_applyVelocity(float value);
+    // Get instance field: public System.Single applyAngularVelocity
+    float _get_applyAngularVelocity();
+    // Set instance field: public System.Single applyAngularVelocity
+    void _set_applyAngularVelocity(float value);
+    // Get instance field: private UnityEngine.Animator animator
+    UnityEngine::Animator* _get_animator();
+    // Set instance field: private UnityEngine.Animator animator
+    void _set_animator(UnityEngine::Animator* value);
+    // Get instance field: private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Rigidbone[] rigidbones
+    ::Array<RootMotion::FinalIK::RagdollUtility::Rigidbone*>* _get_rigidbones();
+    // Set instance field: private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Rigidbone[] rigidbones
+    void _set_rigidbones(::Array<RootMotion::FinalIK::RagdollUtility::Rigidbone*>* value);
+    // Get instance field: private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Child[] children
+    ::Array<RootMotion::FinalIK::RagdollUtility::Child*>* _get_children();
+    // Set instance field: private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Child[] children
+    void _set_children(::Array<RootMotion::FinalIK::RagdollUtility::Child*>* value);
+    // Get instance field: private System.Boolean enableRagdollFlag
+    bool _get_enableRagdollFlag();
+    // Set instance field: private System.Boolean enableRagdollFlag
+    void _set_enableRagdollFlag(bool value);
+    // Get instance field: private UnityEngine.AnimatorUpdateMode animatorUpdateMode
+    UnityEngine::AnimatorUpdateMode _get_animatorUpdateMode();
+    // Set instance field: private UnityEngine.AnimatorUpdateMode animatorUpdateMode
+    void _set_animatorUpdateMode(UnityEngine::AnimatorUpdateMode value);
+    // Get instance field: private RootMotion.FinalIK.IK[] allIKComponents
+    ::Array<RootMotion::FinalIK::IK*>* _get_allIKComponents();
+    // Set instance field: private RootMotion.FinalIK.IK[] allIKComponents
+    void _set_allIKComponents(::Array<RootMotion::FinalIK::IK*>* value);
+    // Get instance field: private System.Boolean[] fixTransforms
+    ::Array<bool>* _get_fixTransforms();
+    // Set instance field: private System.Boolean[] fixTransforms
+    void _set_fixTransforms(::Array<bool>* value);
+    // Get instance field: private System.Single ragdollWeight
+    float _get_ragdollWeight();
+    // Set instance field: private System.Single ragdollWeight
+    void _set_ragdollWeight(float value);
+    // Get instance field: private System.Single ragdollWeightV
+    float _get_ragdollWeightV();
+    // Set instance field: private System.Single ragdollWeightV
+    void _set_ragdollWeightV(float value);
+    // Get instance field: private System.Boolean fixedFrame
+    bool _get_fixedFrame();
+    // Set instance field: private System.Boolean fixedFrame
+    void _set_fixedFrame(bool value);
+    // Get instance field: private System.Boolean[] disabledIKComponents
+    ::Array<bool>* _get_disabledIKComponents();
+    // Set instance field: private System.Boolean[] disabledIKComponents
+    void _set_disabledIKComponents(::Array<bool>* value);
     // private System.Boolean get_isRagdoll()
     // Offset: 0x1AB7848
     bool get_isRagdoll();

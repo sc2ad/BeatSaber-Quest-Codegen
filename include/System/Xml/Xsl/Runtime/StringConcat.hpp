@@ -75,6 +75,34 @@ namespace System::Xml::Xsl::Runtime {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.String s1
+    ::Il2CppString* _get_s1();
+    // Set instance field: private System.String s1
+    void _set_s1(::Il2CppString* value);
+    // Get instance field: private System.String s2
+    ::Il2CppString* _get_s2();
+    // Set instance field: private System.String s2
+    void _set_s2(::Il2CppString* value);
+    // Get instance field: private System.String s3
+    ::Il2CppString* _get_s3();
+    // Set instance field: private System.String s3
+    void _set_s3(::Il2CppString* value);
+    // Get instance field: private System.String s4
+    ::Il2CppString* _get_s4();
+    // Set instance field: private System.String s4
+    void _set_s4(::Il2CppString* value);
+    // Get instance field: private System.String delimiter
+    ::Il2CppString* _get_delimiter();
+    // Set instance field: private System.String delimiter
+    void _set_delimiter(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> strList
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_strList();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> strList
+    void _set_strList(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Int32 idxStr
+    int _get_idxStr();
+    // Set instance field: private System.Int32 idxStr
+    void _set_idxStr(int value);
     // System.Int32 get_Count()
     // Offset: 0xF0DA84
     int get_Count();

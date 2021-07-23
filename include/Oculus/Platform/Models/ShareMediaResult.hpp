@@ -33,6 +33,10 @@ namespace Oculus::Platform::Models {
     constexpr operator Oculus::Platform::ShareMediaStatus() const noexcept {
       return Status;
     }
+    // Get instance field: public readonly Oculus.Platform.ShareMediaStatus Status
+    Oculus::Platform::ShareMediaStatus _get_Status();
+    // Set instance field: public readonly Oculus.Platform.ShareMediaStatus Status
+    void _set_Status(Oculus::Platform::ShareMediaStatus value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A80C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,6 +43,18 @@ namespace System::Text {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DecoderUTF7FallbackBuffer
     DecoderUTF7FallbackBuffer(::Il2CppChar cFallback_ = {}, int iCount_ = {}, int iSize_ = {}) noexcept : cFallback{cFallback_}, iCount{iCount_}, iSize{iSize_} {}
+    // Get instance field: private System.Char cFallback
+    ::Il2CppChar _get_cFallback();
+    // Set instance field: private System.Char cFallback
+    void _set_cFallback(::Il2CppChar value);
+    // Get instance field: private System.Int32 iCount
+    int _get_iCount();
+    // Set instance field: private System.Int32 iCount
+    void _set_iCount(int value);
+    // Get instance field: private System.Int32 iSize
+    int _get_iSize();
+    // Set instance field: private System.Int32 iSize
+    void _set_iSize(int value);
     // public System.Void .ctor(System.Text.UTF7Encoding/System.Text.DecoderUTF7Fallback fallback)
     // Offset: 0x1D28358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

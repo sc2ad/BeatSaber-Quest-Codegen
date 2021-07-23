@@ -105,6 +105,42 @@ namespace UnityEngine::ProBuilder {
     operator System::IEquatable_1<UnityEngine::ProBuilder::Vertex*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::Vertex*>*>(this);
     }
+    // Get instance field: private UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3 _get_m_Position();
+    // Set instance field: private UnityEngine.Vector3 m_Position
+    void _set_m_Position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Color m_Color
+    UnityEngine::Color _get_m_Color();
+    // Set instance field: private UnityEngine.Color m_Color
+    void _set_m_Color(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Vector3 m_Normal
+    UnityEngine::Vector3 _get_m_Normal();
+    // Set instance field: private UnityEngine.Vector3 m_Normal
+    void _set_m_Normal(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector4 m_Tangent
+    UnityEngine::Vector4 _get_m_Tangent();
+    // Set instance field: private UnityEngine.Vector4 m_Tangent
+    void _set_m_Tangent(UnityEngine::Vector4 value);
+    // Get instance field: private UnityEngine.Vector2 m_UV0
+    UnityEngine::Vector2 _get_m_UV0();
+    // Set instance field: private UnityEngine.Vector2 m_UV0
+    void _set_m_UV0(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 m_UV2
+    UnityEngine::Vector2 _get_m_UV2();
+    // Set instance field: private UnityEngine.Vector2 m_UV2
+    void _set_m_UV2(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector4 m_UV3
+    UnityEngine::Vector4 _get_m_UV3();
+    // Set instance field: private UnityEngine.Vector4 m_UV3
+    void _set_m_UV3(UnityEngine::Vector4 value);
+    // Get instance field: private UnityEngine.Vector4 m_UV4
+    UnityEngine::Vector4 _get_m_UV4();
+    // Set instance field: private UnityEngine.Vector4 m_UV4
+    void _set_m_UV4(UnityEngine::Vector4 value);
+    // Get instance field: private UnityEngine.ProBuilder.MeshArrays m_Attributes
+    UnityEngine::ProBuilder::MeshArrays _get_m_Attributes();
+    // Set instance field: private UnityEngine.ProBuilder.MeshArrays m_Attributes
+    void _set_m_Attributes(UnityEngine::ProBuilder::MeshArrays value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x22ADDA0
     UnityEngine::Vector3 get_position();

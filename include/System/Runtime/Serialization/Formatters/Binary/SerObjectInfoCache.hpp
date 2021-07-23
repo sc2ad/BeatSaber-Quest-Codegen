@@ -69,6 +69,30 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
     // Creating value type constructor for type: SerObjectInfoCache
     SerObjectInfoCache(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}, ::Array<System::Reflection::MemberInfo*>* memberInfos_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Type*>* memberTypes_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_}, memberInfos{memberInfos_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
+    // Get instance field: System.String fullTypeName
+    ::Il2CppString* _get_fullTypeName();
+    // Set instance field: System.String fullTypeName
+    void _set_fullTypeName(::Il2CppString* value);
+    // Get instance field: System.String assemblyString
+    ::Il2CppString* _get_assemblyString();
+    // Set instance field: System.String assemblyString
+    void _set_assemblyString(::Il2CppString* value);
+    // Get instance field: System.Boolean hasTypeForwardedFrom
+    bool _get_hasTypeForwardedFrom();
+    // Set instance field: System.Boolean hasTypeForwardedFrom
+    void _set_hasTypeForwardedFrom(bool value);
+    // Get instance field: System.Reflection.MemberInfo[] memberInfos
+    ::Array<System::Reflection::MemberInfo*>* _get_memberInfos();
+    // Set instance field: System.Reflection.MemberInfo[] memberInfos
+    void _set_memberInfos(::Array<System::Reflection::MemberInfo*>* value);
+    // Get instance field: System.String[] memberNames
+    ::Array<::Il2CppString*>* _get_memberNames();
+    // Set instance field: System.String[] memberNames
+    void _set_memberNames(::Array<::Il2CppString*>* value);
+    // Get instance field: System.Type[] memberTypes
+    ::Array<System::Type*>* _get_memberTypes();
+    // Set instance field: System.Type[] memberTypes
+    void _set_memberTypes(::Array<System::Type*>* value);
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
     // Offset: 0x15E54C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

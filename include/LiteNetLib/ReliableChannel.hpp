@@ -65,6 +65,18 @@ namespace LiteNetLib {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: private LiteNetLib.NetPacket _packet
+      LiteNetLib::NetPacket* _get__packet();
+      // Set instance field: private LiteNetLib.NetPacket _packet
+      void _set__packet(LiteNetLib::NetPacket* value);
+      // Get instance field: private System.Int64 _timeStamp
+      int64_t _get__timeStamp();
+      // Set instance field: private System.Int64 _timeStamp
+      void _set__timeStamp(int64_t value);
+      // Get instance field: private System.Boolean _isSent
+      bool _get__isSent();
+      // Set instance field: private System.Boolean _isSent
+      void _set__isSent(bool value);
       // public System.Void Init(LiteNetLib.NetPacket packet)
       // Offset: 0xEF3E54
       void Init(LiteNetLib::NetPacket* packet);
@@ -171,6 +183,58 @@ namespace LiteNetLib {
     static int _get_BitsInByte();
     // Set static field: static private System.Int32 BitsInByte
     static void _set_BitsInByte(int value);
+    // Get instance field: private readonly LiteNetLib.NetPacket _outgoingAcks
+    LiteNetLib::NetPacket* _get__outgoingAcks();
+    // Set instance field: private readonly LiteNetLib.NetPacket _outgoingAcks
+    void _set__outgoingAcks(LiteNetLib::NetPacket* value);
+    // Get instance field: private readonly LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket[] _pendingPackets
+    ::Array<LiteNetLib::ReliableChannel::PendingPacket>* _get__pendingPackets();
+    // Set instance field: private readonly LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket[] _pendingPackets
+    void _set__pendingPackets(::Array<LiteNetLib::ReliableChannel::PendingPacket>* value);
+    // Get instance field: private readonly LiteNetLib.NetPacket[] _receivedPackets
+    ::Array<LiteNetLib::NetPacket*>* _get__receivedPackets();
+    // Set instance field: private readonly LiteNetLib.NetPacket[] _receivedPackets
+    void _set__receivedPackets(::Array<LiteNetLib::NetPacket*>* value);
+    // Get instance field: private readonly System.Boolean[] _earlyReceived
+    ::Array<bool>* _get__earlyReceived();
+    // Set instance field: private readonly System.Boolean[] _earlyReceived
+    void _set__earlyReceived(::Array<bool>* value);
+    // Get instance field: private System.Int32 _localSeqence
+    int _get__localSeqence();
+    // Set instance field: private System.Int32 _localSeqence
+    void _set__localSeqence(int value);
+    // Get instance field: private System.Int32 _remoteSequence
+    int _get__remoteSequence();
+    // Set instance field: private System.Int32 _remoteSequence
+    void _set__remoteSequence(int value);
+    // Get instance field: private System.Int32 _localWindowStart
+    int _get__localWindowStart();
+    // Set instance field: private System.Int32 _localWindowStart
+    void _set__localWindowStart(int value);
+    // Get instance field: private System.Int32 _remoteWindowStart
+    int _get__remoteWindowStart();
+    // Set instance field: private System.Int32 _remoteWindowStart
+    void _set__remoteWindowStart(int value);
+    // Get instance field: private System.Boolean _mustSendAcks
+    bool _get__mustSendAcks();
+    // Set instance field: private System.Boolean _mustSendAcks
+    void _set__mustSendAcks(bool value);
+    // Get instance field: private readonly LiteNetLib.DeliveryMethod _deliveryMethod
+    LiteNetLib::DeliveryMethod _get__deliveryMethod();
+    // Set instance field: private readonly LiteNetLib.DeliveryMethod _deliveryMethod
+    void _set__deliveryMethod(LiteNetLib::DeliveryMethod value);
+    // Get instance field: private readonly System.Boolean _ordered
+    bool _get__ordered();
+    // Set instance field: private readonly System.Boolean _ordered
+    void _set__ordered(bool value);
+    // Get instance field: private readonly System.Int32 _windowSize
+    int _get__windowSize();
+    // Set instance field: private readonly System.Int32 _windowSize
+    void _set__windowSize(int value);
+    // Get instance field: private readonly System.Byte _id
+    uint8_t _get__id();
+    // Set instance field: private readonly System.Byte _id
+    void _set__id(uint8_t value);
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean ordered, System.Byte id)
     // Offset: 0x1BB8FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

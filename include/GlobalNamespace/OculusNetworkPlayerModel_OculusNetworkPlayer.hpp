@@ -124,6 +124,58 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
+    // Get instance field: private readonly OculusNetworkPlayerModel _playerModel
+    GlobalNamespace::OculusNetworkPlayerModel* _get__playerModel();
+    // Set instance field: private readonly OculusNetworkPlayerModel _playerModel
+    void _set__playerModel(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field: private readonly System.UInt64 _id
+    uint64_t _get__id();
+    // Set instance field: private readonly System.UInt64 _id
+    void _set__id(uint64_t value);
+    // Get instance field: private readonly System.String _userId
+    ::Il2CppString* _get__userId();
+    // Set instance field: private readonly System.String _userId
+    void _set__userId(::Il2CppString* value);
+    // Get instance field: private readonly System.String _userName
+    ::Il2CppString* _get__userName();
+    // Set instance field: private readonly System.String _userName
+    void _set__userName(::Il2CppString* value);
+    // Get instance field: private readonly System.Boolean _isMe
+    bool _get__isMe();
+    // Set instance field: private readonly System.Boolean _isMe
+    void _set__isMe(bool value);
+    // Get instance field: private Oculus.Platform.Models.Room _room
+    Oculus::Platform::Models::Room* _get__room();
+    // Set instance field: private Oculus.Platform.Models.Room _room
+    void _set__room(Oculus::Platform::Models::Room* value);
+    // Get instance field: private System.Nullable`1<BeatmapLevelSelectionMask> _cachedSelectionMask
+    System::Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask> _get__cachedSelectionMask();
+    // Set instance field: private System.Nullable`1<BeatmapLevelSelectionMask> _cachedSelectionMask
+    void _set__cachedSelectionMask(System::Nullable_1<GlobalNamespace::BeatmapLevelSelectionMask> value);
+    // Get instance field: private System.Nullable`1<GameplayServerConfiguration> _cachedConfiguration
+    System::Nullable_1<GlobalNamespace::GameplayServerConfiguration> _get__cachedConfiguration();
+    // Set instance field: private System.Nullable`1<GameplayServerConfiguration> _cachedConfiguration
+    void _set__cachedConfiguration(System::Nullable_1<GlobalNamespace::GameplayServerConfiguration> value);
+    // Get instance field: public System.Boolean removed
+    bool _get_removed();
+    // Set instance field: public System.Boolean removed
+    void _set_removed(bool value);
+    // Get instance field: public System.String inviteToken
+    ::Il2CppString* _get_inviteToken();
+    // Set instance field: public System.String inviteToken
+    void _set_inviteToken(::Il2CppString* value);
+    // Get instance field: private IConnectedPlayer <connectedPlayer>k__BackingField
+    GlobalNamespace::IConnectedPlayer* _get_$connectedPlayer$k__BackingField();
+    // Set instance field: private IConnectedPlayer <connectedPlayer>k__BackingField
+    void _set_$connectedPlayer$k__BackingField(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private System.Boolean <isWaitingOnJoin>k__BackingField
+    bool _get_$isWaitingOnJoin$k__BackingField();
+    // Set instance field: private System.Boolean <isWaitingOnJoin>k__BackingField
+    void _set_$isWaitingOnJoin$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <isWaitingOnInvite>k__BackingField
+    bool _get_$isWaitingOnInvite$k__BackingField();
+    // Set instance field: private System.Boolean <isWaitingOnInvite>k__BackingField
+    void _set_$isWaitingOnInvite$k__BackingField(bool value);
     // public System.UInt64 get_id()
     // Offset: 0x11F4A7C
     uint64_t get_id();

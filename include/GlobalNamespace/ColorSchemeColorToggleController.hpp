@@ -49,6 +49,14 @@ namespace GlobalNamespace {
     ColorSchemeColorToggleController(::Array<UnityEngine::UI::Graphic*>* colorGraphics_ = {}, UnityEngine::UI::Toggle* toggle_ = {}) noexcept : colorGraphics{colorGraphics_}, toggle{toggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Graphic[] _colorGraphics
+    ::Array<UnityEngine::UI::Graphic*>* _get__colorGraphics();
+    // Set instance field: private UnityEngine.UI.Graphic[] _colorGraphics
+    void _set__colorGraphics(::Array<UnityEngine::UI::Graphic*>* value);
+    // Get instance field: private UnityEngine.UI.Toggle _toggle
+    UnityEngine::UI::Toggle* _get__toggle();
+    // Set instance field: private UnityEngine.UI.Toggle _toggle
+    void _set__toggle(UnityEngine::UI::Toggle* value);
     // public UnityEngine.UI.Toggle get_toggle()
     // Offset: 0x107D528
     UnityEngine::UI::Toggle* get_toggle();

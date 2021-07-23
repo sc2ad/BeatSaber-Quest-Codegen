@@ -93,6 +93,46 @@ namespace GlobalNamespace {
     SteamVR_IK(UnityEngine::Transform* target_ = {}, UnityEngine::Transform* start_ = {}, UnityEngine::Transform* joint_ = {}, UnityEngine::Transform* end_ = {}, UnityEngine::Transform* poleVector_ = {}, UnityEngine::Transform* upVector_ = {}, float blendPct_ = {}, UnityEngine::Transform* startXform_ = {}, UnityEngine::Transform* jointXform_ = {}, UnityEngine::Transform* endXform_ = {}) noexcept : target{target_}, start{start_}, joint{joint_}, end{end_}, poleVector{poleVector_}, upVector{upVector_}, blendPct{blendPct_}, startXform{startXform_}, jointXform{jointXform_}, endXform{endXform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Transform target
+    UnityEngine::Transform* _get_target();
+    // Set instance field: public UnityEngine.Transform target
+    void _set_target(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform start
+    UnityEngine::Transform* _get_start();
+    // Set instance field: public UnityEngine.Transform start
+    void _set_start(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform joint
+    UnityEngine::Transform* _get_joint();
+    // Set instance field: public UnityEngine.Transform joint
+    void _set_joint(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform end
+    UnityEngine::Transform* _get_end();
+    // Set instance field: public UnityEngine.Transform end
+    void _set_end(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform poleVector
+    UnityEngine::Transform* _get_poleVector();
+    // Set instance field: public UnityEngine.Transform poleVector
+    void _set_poleVector(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform upVector
+    UnityEngine::Transform* _get_upVector();
+    // Set instance field: public UnityEngine.Transform upVector
+    void _set_upVector(UnityEngine::Transform* value);
+    // Get instance field: public System.Single blendPct
+    float _get_blendPct();
+    // Set instance field: public System.Single blendPct
+    void _set_blendPct(float value);
+    // Get instance field: public UnityEngine.Transform startXform
+    UnityEngine::Transform* _get_startXform();
+    // Set instance field: public UnityEngine.Transform startXform
+    void _set_startXform(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform jointXform
+    UnityEngine::Transform* _get_jointXform();
+    // Set instance field: public UnityEngine.Transform jointXform
+    void _set_jointXform(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform endXform
+    UnityEngine::Transform* _get_endXform();
+    // Set instance field: public UnityEngine.Transform endXform
+    void _set_endXform(UnityEngine::Transform* value);
     // private System.Void LateUpdate()
     // Offset: 0x13A73F0
     void LateUpdate();

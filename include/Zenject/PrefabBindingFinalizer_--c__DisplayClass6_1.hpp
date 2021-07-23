@@ -50,6 +50,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass6_1
     $$c__DisplayClass6_1(Zenject::PrefabInstantiatorCached* prefabCreator_ = {}, Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0* CS$$$8__locals1_ = {}) noexcept : prefabCreator{prefabCreator_}, CS$$$8__locals1{CS$$$8__locals1_} {}
+    // Get instance field: public Zenject.PrefabInstantiatorCached prefabCreator
+    Zenject::PrefabInstantiatorCached* _get_prefabCreator();
+    // Set instance field: public Zenject.PrefabInstantiatorCached prefabCreator
+    void _set_prefabCreator(Zenject::PrefabInstantiatorCached* value);
+    // Get instance field: public Zenject.PrefabBindingFinalizer/Zenject.<>c__DisplayClass6_0 CS$<>8__locals1
+    Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0* _get_CS$$$8__locals1();
+    // Set instance field: public Zenject.PrefabBindingFinalizer/Zenject.<>c__DisplayClass6_0 CS$<>8__locals1
+    void _set_CS$$$8__locals1(Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0* value);
     // Zenject.IProvider <FinalizeBindingSelf>b__1(Zenject.DiContainer _, System.Type contractType)
     // Offset: 0x16C7BA0
     Zenject::IProvider* $FinalizeBindingSelf$b__1(Zenject::DiContainer* _, System::Type* contractType);

@@ -85,6 +85,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*) == 0x8);
     // Creating value type constructor for type: AnnotatedBeatmapLevelCollectionsViewController
     AnnotatedBeatmapLevelCollectionsViewController(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView* annotatedBeatmapLevelCollectionsTableView_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* didSelectAnnotatedBeatmapLevelCollectionEvent_ = {}, int selectedItemIndex_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections_ = {}) noexcept : annotatedBeatmapLevelCollectionsTableView{annotatedBeatmapLevelCollectionsTableView_}, loadingControl{loadingControl_}, additionalContentModel{additionalContentModel_}, didSelectAnnotatedBeatmapLevelCollectionEvent{didSelectAnnotatedBeatmapLevelCollectionEvent_}, selectedItemIndex{selectedItemIndex_}, annotatedBeatmapLevelCollections{annotatedBeatmapLevelCollections_} {}
+    // Get instance field: private AnnotatedBeatmapLevelCollectionsTableView _annotatedBeatmapLevelCollectionsTableView
+    GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView* _get__annotatedBeatmapLevelCollectionsTableView();
+    // Set instance field: private AnnotatedBeatmapLevelCollectionsTableView _annotatedBeatmapLevelCollectionsTableView
+    void _set__annotatedBeatmapLevelCollectionsTableView(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView* value);
+    // Get instance field: private LoadingControl _loadingControl
+    GlobalNamespace::LoadingControl* _get__loadingControl();
+    // Set instance field: private LoadingControl _loadingControl
+    void _set__loadingControl(GlobalNamespace::LoadingControl* value);
+    // Get instance field: private readonly AdditionalContentModel _additionalContentModel
+    GlobalNamespace::AdditionalContentModel* _get__additionalContentModel();
+    // Set instance field: private readonly AdditionalContentModel _additionalContentModel
+    void _set__additionalContentModel(GlobalNamespace::AdditionalContentModel* value);
+    // Get instance field: private System.Action`1<IAnnotatedBeatmapLevelCollection> didSelectAnnotatedBeatmapLevelCollectionEvent
+    System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* _get_didSelectAnnotatedBeatmapLevelCollectionEvent();
+    // Set instance field: private System.Action`1<IAnnotatedBeatmapLevelCollection> didSelectAnnotatedBeatmapLevelCollectionEvent
+    void _set_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
+    // Get instance field: private System.Int32 _selectedItemIndex
+    int _get__selectedItemIndex();
+    // Set instance field: private System.Int32 _selectedItemIndex
+    void _set__selectedItemIndex(int value);
+    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* _get__annotatedBeatmapLevelCollections();
+    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
+    void _set__annotatedBeatmapLevelCollections(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public IAnnotatedBeatmapLevelCollection get_selectedAnnotatedBeatmapLevelCollection()
     // Offset: 0x10D953C
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_selectedAnnotatedBeatmapLevelCollection();

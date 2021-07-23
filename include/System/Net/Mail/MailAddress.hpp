@@ -61,6 +61,26 @@ namespace System::Net::Mail {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MailAddress
     MailAddress(::Il2CppString* address_ = {}, ::Il2CppString* displayName_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* user_ = {}, ::Il2CppString* to_string_ = {}) noexcept : address{address_}, displayName{displayName_}, host{host_}, user{user_}, to_string{to_string_} {}
+    // Get instance field: private System.String address
+    ::Il2CppString* _get_address();
+    // Set instance field: private System.String address
+    void _set_address(::Il2CppString* value);
+    // Get instance field: private System.String displayName
+    ::Il2CppString* _get_displayName();
+    // Set instance field: private System.String displayName
+    void _set_displayName(::Il2CppString* value);
+    // Get instance field: private System.String host
+    ::Il2CppString* _get_host();
+    // Set instance field: private System.String host
+    void _set_host(::Il2CppString* value);
+    // Get instance field: private System.String user
+    ::Il2CppString* _get_user();
+    // Set instance field: private System.String user
+    void _set_user(::Il2CppString* value);
+    // Get instance field: private System.String to_string
+    ::Il2CppString* _get_to_string();
+    // Set instance field: private System.String to_string
+    void _set_to_string(::Il2CppString* value);
     // public System.String get_Address()
     // Offset: 0x1642C20
     ::Il2CppString* get_Address();

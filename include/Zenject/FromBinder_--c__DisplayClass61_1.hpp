@@ -52,6 +52,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::FromBinder::$$c__DisplayClass61_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass61_1
     $$c__DisplayClass61_1(System::Type* concreteType_ = {}, Zenject::FromBinder::$$c__DisplayClass61_0* CS$$$8__locals1_ = {}) noexcept : concreteType{concreteType_}, CS$$$8__locals1{CS$$$8__locals1_} {}
+    // Get instance field: public System.Type concreteType
+    System::Type* _get_concreteType();
+    // Set instance field: public System.Type concreteType
+    void _set_concreteType(System::Type* value);
+    // Get instance field: public Zenject.FromBinder/Zenject.<>c__DisplayClass61_0 CS$<>8__locals1
+    Zenject::FromBinder::$$c__DisplayClass61_0* _get_CS$$$8__locals1();
+    // Set instance field: public Zenject.FromBinder/Zenject.<>c__DisplayClass61_0 CS$<>8__locals1
+    void _set_CS$$$8__locals1(Zenject::FromBinder::$$c__DisplayClass61_0* value);
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentInParents>b__1(Zenject.InjectContext ctx)
     // Offset: 0x1621824
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentInParents$b__1(Zenject::InjectContext* ctx);

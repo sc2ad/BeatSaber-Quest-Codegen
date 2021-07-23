@@ -65,6 +65,18 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     // Creating value type constructor for type: X509CertificateStructure
     X509CertificateStructure(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgID_ = {}, Org::BouncyCastle::Asn1::DerBitString* sig_ = {}) noexcept : tbsCert{tbsCert_}, sigAlgID{sigAlgID_}, sig{sig_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.TbsCertificateStructure tbsCert
+    Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* _get_tbsCert();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.TbsCertificateStructure tbsCert
+    void _set_tbsCert(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgID
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_sigAlgID();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgID
+    void _set_sigAlgID(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerBitString sig
+    Org::BouncyCastle::Asn1::DerBitString* _get_sig();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerBitString sig
+    void _set_sig(Org::BouncyCastle::Asn1::DerBitString* value);
     // public Org.BouncyCastle.Asn1.X509.TbsCertificateStructure get_TbsCertificate()
     // Offset: 0x19DE308
     Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* get_TbsCertificate();

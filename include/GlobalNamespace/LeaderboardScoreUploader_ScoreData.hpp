@@ -104,6 +104,54 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ScoreData
     ScoreData(::Il2CppString* playerId_ = {}, GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, int uploadAttemptCount_ = {}, int currentUploadAttemptCount_ = {}) noexcept : playerId{playerId_}, beatmap{beatmap_}, gameplayModifiers{gameplayModifiers_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, uploadAttemptCount{uploadAttemptCount_}, currentUploadAttemptCount{currentUploadAttemptCount_} {}
+    // Get instance field: private System.String <playerId>k__BackingField
+    ::Il2CppString* _get_$playerId$k__BackingField();
+    // Set instance field: private System.String <playerId>k__BackingField
+    void _set_$playerId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private IDifficultyBeatmap <beatmap>k__BackingField
+    GlobalNamespace::IDifficultyBeatmap* _get_$beatmap$k__BackingField();
+    // Set instance field: private IDifficultyBeatmap <beatmap>k__BackingField
+    void _set_$beatmap$k__BackingField(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: private GameplayModifiers <gameplayModifiers>k__BackingField
+    GlobalNamespace::GameplayModifiers* _get_$gameplayModifiers$k__BackingField();
+    // Set instance field: private GameplayModifiers <gameplayModifiers>k__BackingField
+    void _set_$gameplayModifiers$k__BackingField(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field: private System.Int32 <rawScore>k__BackingField
+    int _get_$rawScore$k__BackingField();
+    // Set instance field: private System.Int32 <rawScore>k__BackingField
+    void _set_$rawScore$k__BackingField(int value);
+    // Get instance field: private System.Int32 <modifiedScore>k__BackingField
+    int _get_$modifiedScore$k__BackingField();
+    // Set instance field: private System.Int32 <modifiedScore>k__BackingField
+    void _set_$modifiedScore$k__BackingField(int value);
+    // Get instance field: private System.Boolean <fullCombo>k__BackingField
+    bool _get_$fullCombo$k__BackingField();
+    // Set instance field: private System.Boolean <fullCombo>k__BackingField
+    void _set_$fullCombo$k__BackingField(bool value);
+    // Get instance field: private System.Int32 <goodCutsCount>k__BackingField
+    int _get_$goodCutsCount$k__BackingField();
+    // Set instance field: private System.Int32 <goodCutsCount>k__BackingField
+    void _set_$goodCutsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <badCutsCount>k__BackingField
+    int _get_$badCutsCount$k__BackingField();
+    // Set instance field: private System.Int32 <badCutsCount>k__BackingField
+    void _set_$badCutsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <missedCount>k__BackingField
+    int _get_$missedCount$k__BackingField();
+    // Set instance field: private System.Int32 <missedCount>k__BackingField
+    void _set_$missedCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <maxCombo>k__BackingField
+    int _get_$maxCombo$k__BackingField();
+    // Set instance field: private System.Int32 <maxCombo>k__BackingField
+    void _set_$maxCombo$k__BackingField(int value);
+    // Get instance field: public System.Int32 uploadAttemptCount
+    int _get_uploadAttemptCount();
+    // Set instance field: public System.Int32 uploadAttemptCount
+    void _set_uploadAttemptCount(int value);
+    // Get instance field: public System.Int32 currentUploadAttemptCount
+    int _get_currentUploadAttemptCount();
+    // Set instance field: public System.Int32 currentUploadAttemptCount
+    void _set_currentUploadAttemptCount(int value);
     // public System.String get_playerId()
     // Offset: 0x10F000C
     ::Il2CppString* get_playerId();

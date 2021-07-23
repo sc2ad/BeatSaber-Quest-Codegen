@@ -49,6 +49,14 @@ namespace Org::BouncyCastle::Asn1 {
     static ::Array<Org::BouncyCastle::Asn1::DerEnumerated*>* _get_cache();
     // Set static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache
     static void _set_cache(::Array<Org::BouncyCastle::Asn1::DerEnumerated*>* value);
+    // Get instance field: private readonly System.Byte[] bytes
+    ::Array<uint8_t>* _get_bytes();
+    // Set instance field: private readonly System.Byte[] bytes
+    void _set_bytes(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Int32 start
+    int _get_start();
+    // Set instance field: private readonly System.Int32 start
+    void _set_start(int value);
     // public Org.BouncyCastle.Math.BigInteger get_Value()
     // Offset: 0x16E8320
     Org::BouncyCastle::Math::BigInteger* get_Value();

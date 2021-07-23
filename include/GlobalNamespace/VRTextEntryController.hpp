@@ -106,6 +106,42 @@ namespace GlobalNamespace {
     VRTextEntryController(GlobalNamespace::UIKeyboard* uiKeyboard_ = {}, TMPro::TextMeshProUGUI* text_ = {}, TMPro::TextMeshProUGUI* cursorText_ = {}, int maxLength_ = {}, bool allowBlank_ = {}, System::Action_1<::Il2CppString*>* textDidChangeEvent_ = {}, System::Action* okButtonWasPressedEvent_ = {}, System::Action* cancelButtonWasPressedEvent_ = {}, bool stopBlinkingCursor_ = {}) noexcept : uiKeyboard{uiKeyboard_}, text{text_}, cursorText{cursorText_}, maxLength{maxLength_}, allowBlank{allowBlank_}, textDidChangeEvent{textDidChangeEvent_}, okButtonWasPressedEvent{okButtonWasPressedEvent_}, cancelButtonWasPressedEvent{cancelButtonWasPressedEvent_}, stopBlinkingCursor{stopBlinkingCursor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UIKeyboard _uiKeyboard
+    GlobalNamespace::UIKeyboard* _get__uiKeyboard();
+    // Set instance field: private UIKeyboard _uiKeyboard
+    void _set__uiKeyboard(GlobalNamespace::UIKeyboard* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI* _get__text();
+    // Set instance field: private TMPro.TextMeshProUGUI _text
+    void _set__text(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _cursorText
+    TMPro::TextMeshProUGUI* _get__cursorText();
+    // Set instance field: private TMPro.TextMeshProUGUI _cursorText
+    void _set__cursorText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private System.Int32 _maxLength
+    int _get__maxLength();
+    // Set instance field: private System.Int32 _maxLength
+    void _set__maxLength(int value);
+    // Get instance field: private System.Boolean _allowBlank
+    bool _get__allowBlank();
+    // Set instance field: private System.Boolean _allowBlank
+    void _set__allowBlank(bool value);
+    // Get instance field: private System.Action`1<System.String> textDidChangeEvent
+    System::Action_1<::Il2CppString*>* _get_textDidChangeEvent();
+    // Set instance field: private System.Action`1<System.String> textDidChangeEvent
+    void _set_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private System.Action okButtonWasPressedEvent
+    System::Action* _get_okButtonWasPressedEvent();
+    // Set instance field: private System.Action okButtonWasPressedEvent
+    void _set_okButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private System.Action cancelButtonWasPressedEvent
+    System::Action* _get_cancelButtonWasPressedEvent();
+    // Set instance field: private System.Action cancelButtonWasPressedEvent
+    void _set_cancelButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private System.Boolean _stopBlinkingCursor
+    bool _get__stopBlinkingCursor();
+    // Set instance field: private System.Boolean _stopBlinkingCursor
+    void _set__stopBlinkingCursor(bool value);
     // public System.Void set_hideCancelButton(System.Boolean value)
     // Offset: 0x127A844
     void set_hideCancelButton(bool value);

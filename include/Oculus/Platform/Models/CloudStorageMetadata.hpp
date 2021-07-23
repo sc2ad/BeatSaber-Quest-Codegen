@@ -75,6 +75,38 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CloudStorageMetadata
     CloudStorageMetadata(::Il2CppString* Bucket_ = {}, int64_t Counter_ = {}, uint DataSize_ = {}, ::Il2CppString* ExtraData_ = {}, ::Il2CppString* Key_ = {}, uint64_t SaveTime_ = {}, Oculus::Platform::CloudStorageDataStatus Status_ = {}, ::Il2CppString* VersionHandle_ = {}) noexcept : Bucket{Bucket_}, Counter{Counter_}, DataSize{DataSize_}, ExtraData{ExtraData_}, Key{Key_}, SaveTime{SaveTime_}, Status{Status_}, VersionHandle{VersionHandle_} {}
+    // Get instance field: public readonly System.String Bucket
+    ::Il2CppString* _get_Bucket();
+    // Set instance field: public readonly System.String Bucket
+    void _set_Bucket(::Il2CppString* value);
+    // Get instance field: public readonly System.Int64 Counter
+    int64_t _get_Counter();
+    // Set instance field: public readonly System.Int64 Counter
+    void _set_Counter(int64_t value);
+    // Get instance field: public readonly System.UInt32 DataSize
+    uint _get_DataSize();
+    // Set instance field: public readonly System.UInt32 DataSize
+    void _set_DataSize(uint value);
+    // Get instance field: public readonly System.String ExtraData
+    ::Il2CppString* _get_ExtraData();
+    // Set instance field: public readonly System.String ExtraData
+    void _set_ExtraData(::Il2CppString* value);
+    // Get instance field: public readonly System.String Key
+    ::Il2CppString* _get_Key();
+    // Set instance field: public readonly System.String Key
+    void _set_Key(::Il2CppString* value);
+    // Get instance field: public readonly System.UInt64 SaveTime
+    uint64_t _get_SaveTime();
+    // Set instance field: public readonly System.UInt64 SaveTime
+    void _set_SaveTime(uint64_t value);
+    // Get instance field: public readonly Oculus.Platform.CloudStorageDataStatus Status
+    Oculus::Platform::CloudStorageDataStatus _get_Status();
+    // Set instance field: public readonly Oculus.Platform.CloudStorageDataStatus Status
+    void _set_Status(Oculus::Platform::CloudStorageDataStatus value);
+    // Get instance field: public readonly System.String VersionHandle
+    ::Il2CppString* _get_VersionHandle();
+    // Set instance field: public readonly System.String VersionHandle
+    void _set_VersionHandle(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A19B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

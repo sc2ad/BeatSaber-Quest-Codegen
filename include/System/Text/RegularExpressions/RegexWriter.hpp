@@ -117,6 +117,46 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     // Creating value type constructor for type: RegexWriter
     RegexWriter(::Array<int>* intStack_ = {}, int depth_ = {}, ::Array<int>* emitted_ = {}, int curpos_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* stringhash_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* stringtable_ = {}, bool counting_ = {}, int count_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}) noexcept : intStack{intStack_}, depth{depth_}, emitted{emitted_}, curpos{curpos_}, stringhash{stringhash_}, stringtable{stringtable_}, counting{counting_}, count{count_}, trackcount{trackcount_}, caps{caps_} {}
+    // Get instance field: System.Int32[] _intStack
+    ::Array<int>* _get__intStack();
+    // Set instance field: System.Int32[] _intStack
+    void _set__intStack(::Array<int>* value);
+    // Get instance field: System.Int32 _depth
+    int _get__depth();
+    // Set instance field: System.Int32 _depth
+    void _set__depth(int value);
+    // Get instance field: System.Int32[] _emitted
+    ::Array<int>* _get__emitted();
+    // Set instance field: System.Int32[] _emitted
+    void _set__emitted(::Array<int>* value);
+    // Get instance field: System.Int32 _curpos
+    int _get__curpos();
+    // Set instance field: System.Int32 _curpos
+    void _set__curpos(int value);
+    // Get instance field: System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* _get__stringhash();
+    // Set instance field: System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
+    void _set__stringhash(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* value);
+    // Get instance field: System.Collections.Generic.List`1<System.String> _stringtable
+    System::Collections::Generic::List_1<::Il2CppString*>* _get__stringtable();
+    // Set instance field: System.Collections.Generic.List`1<System.String> _stringtable
+    void _set__stringtable(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: System.Boolean _counting
+    bool _get__counting();
+    // Set instance field: System.Boolean _counting
+    void _set__counting(bool value);
+    // Get instance field: System.Int32 _count
+    int _get__count();
+    // Set instance field: System.Int32 _count
+    void _set__count(int value);
+    // Get instance field: System.Int32 _trackcount
+    int _get__trackcount();
+    // Set instance field: System.Int32 _trackcount
+    void _set__trackcount(int value);
+    // Get instance field: System.Collections.Hashtable _caps
+    System::Collections::Hashtable* _get__caps();
+    // Set instance field: System.Collections.Hashtable _caps
+    void _set__caps(System::Collections::Hashtable* value);
     // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
     // Offset: 0x196C824
     static System::Text::RegularExpressions::RegexCode* Write(System::Text::RegularExpressions::RegexTree* t);

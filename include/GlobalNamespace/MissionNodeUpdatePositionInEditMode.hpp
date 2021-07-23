@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     MissionNodeUpdatePositionInEditMode(GlobalNamespace::MissionNodeConnection* missionNodeConnection_ = {}) noexcept : missionNodeConnection{missionNodeConnection_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MissionNodeConnection _missionNodeConnection
+    GlobalNamespace::MissionNodeConnection* _get__missionNodeConnection();
+    // Set instance field: private MissionNodeConnection _missionNodeConnection
+    void _set__missionNodeConnection(GlobalNamespace::MissionNodeConnection* value);
     // public System.Void .ctor()
     // Offset: 0x11359B4
     // Implemented from: UnityEngine.MonoBehaviour

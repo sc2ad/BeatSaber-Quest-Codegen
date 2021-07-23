@@ -45,6 +45,10 @@ namespace Polyglot {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Dropdown dropdown
+    UnityEngine::UI::Dropdown* _get_dropdown();
+    // Set instance field: private UnityEngine.UI.Dropdown dropdown
+    void _set_dropdown(UnityEngine::UI::Dropdown* value);
     // public System.Void Reset()
     // Offset: 0x232D838
     void Reset();

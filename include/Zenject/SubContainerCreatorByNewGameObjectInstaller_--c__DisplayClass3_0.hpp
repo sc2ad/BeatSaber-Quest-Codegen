@@ -49,6 +49,14 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_0
     $$c__DisplayClass3_0(Zenject::SubContainerCreatorByNewGameObjectInstaller* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}) noexcept : $$4__this{$$4__this_}, args{args_} {}
+    // Get instance field: public Zenject.SubContainerCreatorByNewGameObjectInstaller <>4__this
+    Zenject::SubContainerCreatorByNewGameObjectInstaller* _get_$$4__this();
+    // Set instance field: public Zenject.SubContainerCreatorByNewGameObjectInstaller <>4__this
+    void _set_$$4__this(Zenject::SubContainerCreatorByNewGameObjectInstaller* value);
+    // Get instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_args();
+    // Set instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
+    void _set_args(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
     // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
     // Offset: 0x16D27B8
     void $AddInstallers$b__0(Zenject::DiContainer* subContainer);

@@ -112,6 +112,46 @@ namespace GlobalNamespace {
     FirstPersonFlyingController(float moveSensitivity_ = {}, UnityEngine::Camera* camera_ = {}, float cameraFov_ = {}, GlobalNamespace::VRCenterAdjust* centerAdjust_ = {}, GlobalNamespace::VRController* controller0_ = {}, GlobalNamespace::VRController* controller1_ = {}, VRUIControls::VRInputModule* vrInputModule_ = {}, ::Array<UnityEngine::GameObject*>* controllerModels_ = {}, GlobalNamespace::MouseLook* mouseLook_ = {}, UnityEngine::Transform* cameraTransform_ = {}) noexcept : moveSensitivity{moveSensitivity_}, camera{camera_}, cameraFov{cameraFov_}, centerAdjust{centerAdjust_}, controller0{controller0_}, controller1{controller1_}, vrInputModule{vrInputModule_}, controllerModels{controllerModels_}, mouseLook{mouseLook_}, cameraTransform{cameraTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _moveSensitivity
+    float _get__moveSensitivity();
+    // Set instance field: private System.Single _moveSensitivity
+    void _set__moveSensitivity(float value);
+    // Get instance field: private UnityEngine.Camera _camera
+    UnityEngine::Camera* _get__camera();
+    // Set instance field: private UnityEngine.Camera _camera
+    void _set__camera(UnityEngine::Camera* value);
+    // Get instance field: private System.Single _cameraFov
+    float _get__cameraFov();
+    // Set instance field: private System.Single _cameraFov
+    void _set__cameraFov(float value);
+    // Get instance field: private VRCenterAdjust _centerAdjust
+    GlobalNamespace::VRCenterAdjust* _get__centerAdjust();
+    // Set instance field: private VRCenterAdjust _centerAdjust
+    void _set__centerAdjust(GlobalNamespace::VRCenterAdjust* value);
+    // Get instance field: private VRController _controller0
+    GlobalNamespace::VRController* _get__controller0();
+    // Set instance field: private VRController _controller0
+    void _set__controller0(GlobalNamespace::VRController* value);
+    // Get instance field: private VRController _controller1
+    GlobalNamespace::VRController* _get__controller1();
+    // Set instance field: private VRController _controller1
+    void _set__controller1(GlobalNamespace::VRController* value);
+    // Get instance field: private VRUIControls.VRInputModule _vrInputModule
+    VRUIControls::VRInputModule* _get__vrInputModule();
+    // Set instance field: private VRUIControls.VRInputModule _vrInputModule
+    void _set__vrInputModule(VRUIControls::VRInputModule* value);
+    // Get instance field: private UnityEngine.GameObject[] _controllerModels
+    ::Array<UnityEngine::GameObject*>* _get__controllerModels();
+    // Set instance field: private UnityEngine.GameObject[] _controllerModels
+    void _set__controllerModels(::Array<UnityEngine::GameObject*>* value);
+    // Get instance field: private MouseLook _mouseLook
+    GlobalNamespace::MouseLook* _get__mouseLook();
+    // Set instance field: private MouseLook _mouseLook
+    void _set__mouseLook(GlobalNamespace::MouseLook* value);
+    // Get instance field: private UnityEngine.Transform _cameraTransform
+    UnityEngine::Transform* _get__cameraTransform();
+    // Set instance field: private UnityEngine.Transform _cameraTransform
+    void _set__cameraTransform(UnityEngine::Transform* value);
     // protected System.Void Awake()
     // Offset: 0x1028D28
     void Awake();

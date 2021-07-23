@@ -101,6 +101,38 @@ namespace GlobalNamespace {
     SongPackMaskModelSO(System::Collections::Generic::List_1<::Il2CppString*>* defaultSongPackMaskItems_ = {}, ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* customSongPackMaskItems_ = {}, GlobalNamespace::BeatmapLevelPackCollectionSO* ostAndExtrasCollection_ = {}, GlobalNamespace::BeatmapLevelPackCollectionSO* dlcCollection_ = {}, Polyglot::Language currentLocalizedLanguage_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::ValueTuple_2<::Il2CppString*, bool>>* songPackSerializedNameToLocalizedNameDict_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* songPackSerializedNameToMaskDict_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* songPackMaskToSerializedNameDict_ = {}) noexcept : defaultSongPackMaskItems{defaultSongPackMaskItems_}, customSongPackMaskItems{customSongPackMaskItems_}, ostAndExtrasCollection{ostAndExtrasCollection_}, dlcCollection{dlcCollection_}, currentLocalizedLanguage{currentLocalizedLanguage_}, songPackSerializedNameToLocalizedNameDict{songPackSerializedNameToLocalizedNameDict_}, songPackSerializedNameToMaskDict{songPackSerializedNameToMaskDict_}, songPackMaskToSerializedNameDict{songPackMaskToSerializedNameDict_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.List`1<System.String> _defaultSongPackMaskItems
+    System::Collections::Generic::List_1<::Il2CppString*>* _get__defaultSongPackMaskItems();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> _defaultSongPackMaskItems
+    void _set__defaultSongPackMaskItems(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private SongPackMaskModelSO/SongPackMaskItem[] _customSongPackMaskItems
+    ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* _get__customSongPackMaskItems();
+    // Set instance field: private SongPackMaskModelSO/SongPackMaskItem[] _customSongPackMaskItems
+    void _set__customSongPackMaskItems(::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* value);
+    // Get instance field: private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
+    GlobalNamespace::BeatmapLevelPackCollectionSO* _get__ostAndExtrasCollection();
+    // Set instance field: private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
+    void _set__ostAndExtrasCollection(GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+    // Get instance field: private BeatmapLevelPackCollectionSO _dlcCollection
+    GlobalNamespace::BeatmapLevelPackCollectionSO* _get__dlcCollection();
+    // Set instance field: private BeatmapLevelPackCollectionSO _dlcCollection
+    void _set__dlcCollection(GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+    // Get instance field: private Polyglot.Language _currentLocalizedLanguage
+    Polyglot::Language _get__currentLocalizedLanguage();
+    // Set instance field: private Polyglot.Language _currentLocalizedLanguage
+    void _set__currentLocalizedLanguage(Polyglot::Language value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.ValueTuple`2<System.String,System.Boolean>> _songPackSerializedNameToLocalizedNameDict
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::ValueTuple_2<::Il2CppString*, bool>>* _get__songPackSerializedNameToLocalizedNameDict();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.ValueTuple`2<System.String,System.Boolean>> _songPackSerializedNameToLocalizedNameDict
+    void _set__songPackSerializedNameToLocalizedNameDict(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::ValueTuple_2<::Il2CppString*, bool>>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,SongPackMask> _songPackSerializedNameToMaskDict
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* _get__songPackSerializedNameToMaskDict();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,SongPackMask> _songPackSerializedNameToMaskDict
+    void _set__songPackSerializedNameToMaskDict(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<SongPackMask,System.String> _songPackMaskToSerializedNameDict
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* _get__songPackMaskToSerializedNameDict();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<SongPackMask,System.String> _songPackMaskToSerializedNameDict
+    void _set__songPackMaskToSerializedNameDict(System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* value);
     // public System.Collections.Generic.List`1<System.String> get_defaultSongPackMaskItems()
     // Offset: 0x1059C00
     System::Collections::Generic::List_1<::Il2CppString*>* get_defaultSongPackMaskItems();

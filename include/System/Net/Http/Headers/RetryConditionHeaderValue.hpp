@@ -36,6 +36,14 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
+    System::Nullable_1<System::DateTimeOffset> _get_$Date$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
+    void _set_$Date$k__BackingField(System::Nullable_1<System::DateTimeOffset> value);
+    // Get instance field: private System.Nullable`1<System.TimeSpan> <Delta>k__BackingField
+    System::Nullable_1<System::TimeSpan> _get_$Delta$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.TimeSpan> <Delta>k__BackingField
+    void _set_$Delta$k__BackingField(System::Nullable_1<System::TimeSpan> value);
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
     // Offset: 0x156CC0C
     System::Nullable_1<System::DateTimeOffset> get_Date();

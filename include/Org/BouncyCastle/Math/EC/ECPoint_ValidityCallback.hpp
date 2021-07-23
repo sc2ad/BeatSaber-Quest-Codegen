@@ -52,6 +52,18 @@ namespace Org::BouncyCastle::Math::EC {
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
+    Org::BouncyCastle::Math::EC::ECPoint* _get_m_outer();
+    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
+    void _set_m_outer(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Get instance field: private readonly System.Boolean m_decompressed
+    bool _get_m_decompressed();
+    // Set instance field: private readonly System.Boolean m_decompressed
+    void _set_m_decompressed(bool value);
+    // Get instance field: private readonly System.Boolean m_checkOrder
+    bool _get_m_checkOrder();
+    // Set instance field: private readonly System.Boolean m_checkOrder
+    void _set_m_checkOrder(bool value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint outer, System.Boolean decompressed, System.Boolean checkOrder)
     // Offset: 0x20E8F88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,6 +44,10 @@ namespace System {
     static System::Base64FormattingOptions _get_InsertLineBreaks();
     // Set static field: static public System.Base64FormattingOptions InsertLineBreaks
     static void _set_InsertLineBreaks(System::Base64FormattingOptions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Base64FormattingOptions
   #pragma pack(pop)
   static check_size<sizeof(Base64FormattingOptions), 0 + sizeof(int)> __System_Base64FormattingOptionsSizeCheck;

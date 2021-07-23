@@ -133,6 +133,42 @@ namespace Zenject {
     static bool _get_$ValidateOnNextRun$k__BackingField();
     // Set static field: static private System.Boolean <ValidateOnNextRun>k__BackingField
     static void _set_$ValidateOnNextRun$k__BackingField(bool value);
+    // Get instance field: private System.Action PreInstall
+    System::Action* _get_PreInstall();
+    // Set instance field: private System.Action PreInstall
+    void _set_PreInstall(System::Action* value);
+    // Get instance field: private System.Action PostInstall
+    System::Action* _get_PostInstall();
+    // Set instance field: private System.Action PostInstall
+    void _set_PostInstall(System::Action* value);
+    // Get instance field: private System.Action PreResolve
+    System::Action* _get_PreResolve();
+    // Set instance field: private System.Action PreResolve
+    void _set_PreResolve(System::Action* value);
+    // Get instance field: private System.Action PostResolve
+    System::Action* _get_PostResolve();
+    // Set instance field: private System.Action PostResolve
+    void _set_PostResolve(System::Action* value);
+    // Get instance field: private System.Boolean _parentNewObjectsUnderContext
+    bool _get__parentNewObjectsUnderContext();
+    // Set instance field: private System.Boolean _parentNewObjectsUnderContext
+    void _set__parentNewObjectsUnderContext(bool value);
+    // Get instance field: private Zenject.ReflectionBakingCoverageModes _editorReflectionBakingCoverageMode
+    Zenject::ReflectionBakingCoverageModes _get__editorReflectionBakingCoverageMode();
+    // Set instance field: private Zenject.ReflectionBakingCoverageModes _editorReflectionBakingCoverageMode
+    void _set__editorReflectionBakingCoverageMode(Zenject::ReflectionBakingCoverageModes value);
+    // Get instance field: private Zenject.ReflectionBakingCoverageModes _buildsReflectionBakingCoverageMode
+    Zenject::ReflectionBakingCoverageModes _get__buildsReflectionBakingCoverageMode();
+    // Set instance field: private Zenject.ReflectionBakingCoverageModes _buildsReflectionBakingCoverageMode
+    void _set__buildsReflectionBakingCoverageMode(Zenject::ReflectionBakingCoverageModes value);
+    // Get instance field: private Zenject.ZenjectSettings _settings
+    Zenject::ZenjectSettings* _get__settings();
+    // Set instance field: private Zenject.ZenjectSettings _settings
+    void _set__settings(Zenject::ZenjectSettings* value);
+    // Get instance field: private Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
     // static public System.Boolean get_HasInstance()
     // Offset: 0x16C9984
     static bool get_HasInstance();

@@ -69,6 +69,22 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ChunkedInputStream
     ChunkedInputStream(bool disposed_ = {}, System::Net::MonoChunkStream* decoder_ = {}, System::Net::HttpListenerContext* context_ = {}, bool no_more_data_ = {}) noexcept : disposed{disposed_}, decoder{decoder_}, context{context_}, no_more_data{no_more_data_} {}
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.Net.MonoChunkStream decoder
+    System::Net::MonoChunkStream* _get_decoder();
+    // Set instance field: private System.Net.MonoChunkStream decoder
+    void _set_decoder(System::Net::MonoChunkStream* value);
+    // Get instance field: private System.Net.HttpListenerContext context
+    System::Net::HttpListenerContext* _get_context();
+    // Set instance field: private System.Net.HttpListenerContext context
+    void _set_context(System::Net::HttpListenerContext* value);
+    // Get instance field: private System.Boolean no_more_data
+    bool _get_no_more_data();
+    // Set instance field: private System.Boolean no_more_data
+    void _set_no_more_data(bool value);
     // public System.Void .ctor(System.Net.HttpListenerContext context, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 length)
     // Offset: 0x1693F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

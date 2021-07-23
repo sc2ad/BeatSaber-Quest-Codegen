@@ -62,6 +62,10 @@ namespace DataModels::Levels {
     static float _get_kPerceivedLoudnessToMaxSfxLevelDifference();
     // Set static field: static private System.Single kPerceivedLoudnessToMaxSfxLevelDifference
     static void _set_kPerceivedLoudnessToMaxSfxLevelDifference(float value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* _get__loudnessLevelPerLevelId();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
+    void _set__loudnessLevelPerLevelId(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* value);
     // public System.Void .ctor(PerceivedLoudnessPerLevelSO loudnessPerLeveData)
     // Offset: 0x1087A28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -119,6 +119,46 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
+    // Get instance field: private System.String <userId>k__BackingField
+    ::Il2CppString* _get_$userId$k__BackingField();
+    // Set instance field: private System.String <userId>k__BackingField
+    void _set_$userId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <userName>k__BackingField
+    ::Il2CppString* _get_$userName$k__BackingField();
+    // Set instance field: private System.String <userName>k__BackingField
+    void _set_$userName$k__BackingField(::Il2CppString* value);
+    // Get instance field: public System.String serverName
+    ::Il2CppString* _get_serverName();
+    // Set instance field: public System.String serverName
+    void _set_serverName(::Il2CppString* value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public System.Int32 currentPlayerCount
+    int _get_currentPlayerCount();
+    // Set instance field: public System.Int32 currentPlayerCount
+    void _set_currentPlayerCount(int value);
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable* _get_random();
+    // Set instance field: public readonly ByteArrayNetSerializable random
+    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable publicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_publicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable publicKey
+    void _set_publicKey(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public IVersionedPacketPool`1<MasterServer.UserServerStatusUpdateRequest> get_pool()
     // Offset: 0x152B464
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::UserServerStatusUpdateRequest*>* get_pool();

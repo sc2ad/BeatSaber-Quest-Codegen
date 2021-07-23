@@ -54,6 +54,18 @@ namespace GlobalNamespace {
     FeverModeUIPanel(UnityEngine::RectTransform* feverBGTextRectTransform_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, float feverTextRectWidth_ = {}) noexcept : feverBGTextRectTransform{feverBGTextRectTransform_}, scoreController{scoreController_}, feverTextRectWidth{feverTextRectWidth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.RectTransform _feverBGTextRectTransform
+    UnityEngine::RectTransform* _get__feverBGTextRectTransform();
+    // Set instance field: private UnityEngine.RectTransform _feverBGTextRectTransform
+    void _set__feverBGTextRectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private IScoreController _scoreController
+    GlobalNamespace::IScoreController* _get__scoreController();
+    // Set instance field: private IScoreController _scoreController
+    void _set__scoreController(GlobalNamespace::IScoreController* value);
+    // Get instance field: private System.Single _feverTextRectWidth
+    float _get__feverTextRectWidth();
+    // Set instance field: private System.Single _feverTextRectWidth
+    void _set__feverTextRectWidth(float value);
     // protected System.Void Start()
     // Offset: 0x102527C
     void Start();

@@ -40,6 +40,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     constexpr operator int() const noexcept {
       return nullCount;
     }
+    // Get instance field: System.Int32 nullCount
+    int _get_nullCount();
+    // Set instance field: System.Int32 nullCount
+    void _set_nullCount(int value);
     // System.Void SetNullCount(System.Int32 nullCount)
     // Offset: 0x15DDDEC
     void SetNullCount(int nullCount);

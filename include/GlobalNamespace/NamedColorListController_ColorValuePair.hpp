@@ -35,6 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ColorValuePair
     ColorValuePair(UnityEngine::Color color_ = {}, int value_ = {}) noexcept : color{color_}, value{value_} {}
+    // Get instance field: public UnityEngine.Color color
+    UnityEngine::Color _get_color();
+    // Set instance field: public UnityEngine.Color color
+    void _set_color(UnityEngine::Color value);
+    // Get instance field: public System.Int32 value
+    int _get_value();
+    // Set instance field: public System.Int32 value
+    void _set_value(int value);
     // public System.Void .ctor()
     // Offset: 0x100E320
     // Implemented from: System.Object

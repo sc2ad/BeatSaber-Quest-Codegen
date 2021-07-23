@@ -53,6 +53,22 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: Leaderboard
     Leaderboard(::Il2CppString* ApiName_ = {}, Oculus::Platform::Models::Destination* DestinationOptional_ = {}, Oculus::Platform::Models::Destination* Destination_ = {}, uint64_t _ID_ = {}) noexcept : ApiName{ApiName_}, DestinationOptional{DestinationOptional_}, Destination{Destination_}, _ID{_ID_} {}
+    // Get instance field: public readonly System.String ApiName
+    ::Il2CppString* _get_ApiName();
+    // Set instance field: public readonly System.String ApiName
+    void _set_ApiName(::Il2CppString* value);
+    // Get instance field: public readonly Oculus.Platform.Models.Destination DestinationOptional
+    Oculus::Platform::Models::Destination* _get_DestinationOptional();
+    // Set instance field: public readonly Oculus.Platform.Models.Destination DestinationOptional
+    void _set_DestinationOptional(Oculus::Platform::Models::Destination* value);
+    // Get instance field: public readonly Oculus.Platform.Models.Destination Destination
+    Oculus::Platform::Models::Destination* _get_Destination();
+    // Set instance field: public readonly Oculus.Platform.Models.Destination Destination
+    void _set_Destination(Oculus::Platform::Models::Destination* value);
+    // Get instance field: public readonly System.UInt64 ID
+    uint64_t _get_ID();
+    // Set instance field: public readonly System.UInt64 ID
+    void _set_ID(uint64_t value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A9478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

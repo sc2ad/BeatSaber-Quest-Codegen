@@ -89,6 +89,10 @@ namespace MasterServer {
       static MasterServer::UserServerStatusUpdateResponse::Result _get_UnknownError();
       // Set static field: static public MasterServer.UserServerStatusUpdateResponse/MasterServer.Result UnknownError
       static void _set_UnknownError(MasterServer::UserServerStatusUpdateResponse::Result value);
+      // Get instance field: public System.Byte value__
+      uint8_t _get_value__();
+      // Set instance field: public System.Byte value__
+      void _set_value__(uint8_t value);
     }; // MasterServer.UserServerStatusUpdateResponse/MasterServer.Result
     #pragma pack(pop)
     static check_size<sizeof(UserServerStatusUpdateResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_UserServerStatusUpdateResponse_ResultSizeCheck;
@@ -119,6 +123,18 @@ namespace MasterServer {
     operator MasterServer::IUserServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);
     }
+    // Get instance field: public MasterServer.UserServerStatusUpdateResponse/MasterServer.Result result
+    MasterServer::UserServerStatusUpdateResponse::Result _get_result();
+    // Set instance field: public MasterServer.UserServerStatusUpdateResponse/MasterServer.Result result
+    void _set_result(MasterServer::UserServerStatusUpdateResponse::Result value);
+    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint* _get_remoteEndPoint();
+    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
+    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public System.String code
+    ::Il2CppString* _get_code();
+    // Set instance field: public System.String code
+    void _set_code(::Il2CppString* value);
     // static public PacketPool`1<MasterServer.UserServerStatusUpdateResponse> get_pool()
     // Offset: 0x152BA30
     static GlobalNamespace::PacketPool_1<MasterServer::UserServerStatusUpdateResponse*>* get_pool();

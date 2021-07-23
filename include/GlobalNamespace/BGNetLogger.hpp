@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     constexpr operator ::Array<Microsoft::Extensions::Logging::ILogger*>*() const noexcept {
       return loggers;
     }
+    // Get instance field: private readonly Microsoft.Extensions.Logging.ILogger[] _loggers
+    ::Array<Microsoft::Extensions::Logging::ILogger*>* _get__loggers();
+    // Set instance field: private readonly Microsoft.Extensions.Logging.ILogger[] _loggers
+    void _set__loggers(::Array<Microsoft::Extensions::Logging::ILogger*>* value);
     // public System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)
     // Offset: 0x12B8F84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

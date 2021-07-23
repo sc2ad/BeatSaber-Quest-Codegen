@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     EnableComponentWithCommandArgument(::Il2CppString* argument_ = {}, UnityEngine::Behaviour* component_ = {}) noexcept : argument{argument_}, component{component_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _argument
+    ::Il2CppString* _get__argument();
+    // Set instance field: private System.String _argument
+    void _set__argument(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Behaviour _component
+    UnityEngine::Behaviour* _get__component();
+    // Set instance field: private UnityEngine.Behaviour _component
+    void _set__component(UnityEngine::Behaviour* value);
     // private System.Void Awake()
     // Offset: 0x1212FE0
     void Awake();

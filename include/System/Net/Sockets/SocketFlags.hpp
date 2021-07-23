@@ -92,6 +92,10 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketFlags _get_Partial();
     // Set static field: static public System.Net.Sockets.SocketFlags Partial
     static void _set_Partial(System::Net::Sockets::SocketFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Sockets.SocketFlags
   #pragma pack(pop)
   static check_size<sizeof(SocketFlags), 0 + sizeof(int)> __System_Net_Sockets_SocketFlagsSizeCheck;

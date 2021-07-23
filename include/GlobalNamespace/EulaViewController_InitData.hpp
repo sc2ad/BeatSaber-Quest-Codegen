@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return showDoNotAgreeButton;
     }
+    // Get instance field: public readonly System.Boolean showDoNotAgreeButton
+    bool _get_showDoNotAgreeButton();
+    // Set instance field: public readonly System.Boolean showDoNotAgreeButton
+    void _set_showDoNotAgreeButton(bool value);
     // public System.Void .ctor(System.Boolean showDoNotAgreeButton)
     // Offset: 0x10235A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

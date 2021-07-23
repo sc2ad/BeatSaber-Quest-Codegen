@@ -49,6 +49,10 @@ namespace HMUI {
     static HMUI::TableViewSelectionType _get_Multiple();
     // Set static field: static public HMUI.TableViewSelectionType Multiple
     static void _set_Multiple(HMUI::TableViewSelectionType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // HMUI.TableViewSelectionType
   #pragma pack(pop)
   static check_size<sizeof(TableViewSelectionType), 0 + sizeof(int)> __HMUI_TableViewSelectionTypeSizeCheck;

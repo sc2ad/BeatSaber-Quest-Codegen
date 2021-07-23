@@ -60,6 +60,26 @@ namespace TMPro {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: TMP_TextElement
     TMP_TextElement(TMPro::TextElementType m_ElementType_ = {}, uint m_Unicode_ = {}, UnityEngine::TextCore::Glyph* m_Glyph_ = {}, uint m_GlyphIndex_ = {}, float m_Scale_ = {}) noexcept : m_ElementType{m_ElementType_}, m_Unicode{m_Unicode_}, m_Glyph{m_Glyph_}, m_GlyphIndex{m_GlyphIndex_}, m_Scale{m_Scale_} {}
+    // Get instance field: protected TMPro.TextElementType m_ElementType
+    TMPro::TextElementType _get_m_ElementType();
+    // Set instance field: protected TMPro.TextElementType m_ElementType
+    void _set_m_ElementType(TMPro::TextElementType value);
+    // Get instance field: private System.UInt32 m_Unicode
+    uint _get_m_Unicode();
+    // Set instance field: private System.UInt32 m_Unicode
+    void _set_m_Unicode(uint value);
+    // Get instance field: private UnityEngine.TextCore.Glyph m_Glyph
+    UnityEngine::TextCore::Glyph* _get_m_Glyph();
+    // Set instance field: private UnityEngine.TextCore.Glyph m_Glyph
+    void _set_m_Glyph(UnityEngine::TextCore::Glyph* value);
+    // Get instance field: private System.UInt32 m_GlyphIndex
+    uint _get_m_GlyphIndex();
+    // Set instance field: private System.UInt32 m_GlyphIndex
+    void _set_m_GlyphIndex(uint value);
+    // Get instance field: private System.Single m_Scale
+    float _get_m_Scale();
+    // Set instance field: private System.Single m_Scale
+    void _set_m_Scale(float value);
     // public TMPro.TextElementType get_elementType()
     // Offset: 0x13CF564
     TMPro::TextElementType get_elementType();

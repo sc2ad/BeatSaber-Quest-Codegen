@@ -41,6 +41,14 @@ namespace System::Runtime::InteropServices {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Object m_wrapper
+    ::Il2CppObject* _get_m_wrapper();
+    // Set instance field: System.Object m_wrapper
+    void _set_m_wrapper(::Il2CppObject* value);
+    // Get instance field: System.IntPtr m_handle
+    System::IntPtr _get_m_handle();
+    // Set instance field: System.IntPtr m_handle
+    void _set_m_handle(System::IntPtr value);
     // public System.IntPtr get_Handle()
     // Offset: 0xED6168
     System::IntPtr get_Handle();

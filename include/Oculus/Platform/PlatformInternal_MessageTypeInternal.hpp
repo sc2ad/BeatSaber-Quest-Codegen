@@ -435,6 +435,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::PlatformInternal::MessageTypeInternal _get_User_TestUserCreateDeviceManifest();
     // Set static field: static public Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal User_TestUserCreateDeviceManifest
     static void _set_User_TestUserCreateDeviceManifest(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.MessageTypeInternal
   #pragma pack(pop)
   static check_size<sizeof(PlatformInternal::MessageTypeInternal), 0 + sizeof(uint)> __Oculus_Platform_PlatformInternal_MessageTypeInternalSizeCheck;

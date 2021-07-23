@@ -73,6 +73,10 @@ namespace TMPro {
     static TMPro::TMP_VertexDataUpdateFlags _get_All();
     // Set static field: static public TMPro.TMP_VertexDataUpdateFlags All
     static void _set_All(TMPro::TMP_VertexDataUpdateFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.TMP_VertexDataUpdateFlags
   #pragma pack(pop)
   static check_size<sizeof(TMP_VertexDataUpdateFlags), 0 + sizeof(int)> __TMPro_TMP_VertexDataUpdateFlagsSizeCheck;

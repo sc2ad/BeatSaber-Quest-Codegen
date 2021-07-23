@@ -43,6 +43,18 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Int32 m_Width
+    int _get_m_Width();
+    // Set instance field: private System.Int32 m_Width
+    void _set_m_Width(int value);
+    // Get instance field: private System.Int32 m_Height
+    int _get_m_Height();
+    // Set instance field: private System.Int32 m_Height
+    void _set_m_Height(int value);
+    // Get instance field: private System.Int32 m_RefreshRate
+    int _get_m_RefreshRate();
+    // Set instance field: private System.Int32 m_RefreshRate
+    void _set_m_RefreshRate(int value);
     // public System.Int32 get_width()
     // Offset: 0xEF5D80
     int get_width();

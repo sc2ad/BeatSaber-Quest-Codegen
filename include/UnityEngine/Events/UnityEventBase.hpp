@@ -76,6 +76,18 @@ namespace UnityEngine::Events {
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Get instance field: private UnityEngine.Events.InvokableCallList m_Calls
+    UnityEngine::Events::InvokableCallList* _get_m_Calls();
+    // Set instance field: private UnityEngine.Events.InvokableCallList m_Calls
+    void _set_m_Calls(UnityEngine::Events::InvokableCallList* value);
+    // Get instance field: private UnityEngine.Events.PersistentCallGroup m_PersistentCalls
+    UnityEngine::Events::PersistentCallGroup* _get_m_PersistentCalls();
+    // Set instance field: private UnityEngine.Events.PersistentCallGroup m_PersistentCalls
+    void _set_m_PersistentCalls(UnityEngine::Events::PersistentCallGroup* value);
+    // Get instance field: private System.Boolean m_CallsDirty
+    bool _get_m_CallsDirty();
+    // Set instance field: private System.Boolean m_CallsDirty
+    void _set_m_CallsDirty(bool value);
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
     // Offset: 0x1BE8234
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();

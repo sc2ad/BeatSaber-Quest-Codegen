@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::ColorScheme*() const noexcept {
       return colorScheme;
     }
+    // Get instance field: public readonly ColorScheme colorScheme
+    GlobalNamespace::ColorScheme* _get_colorScheme();
+    // Set instance field: public readonly ColorScheme colorScheme
+    void _set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void .ctor(ColorScheme colorScheme)
     // Offset: 0x1075A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

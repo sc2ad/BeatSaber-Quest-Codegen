@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public TubeLightBehaviour _template
+    GlobalNamespace::TubeLightBehaviour* _get__template();
+    // Set instance field: public TubeLightBehaviour _template
+    void _set__template(GlobalNamespace::TubeLightBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x10716A0
     UnityEngine::Timeline::ClipCaps get_clipCaps();

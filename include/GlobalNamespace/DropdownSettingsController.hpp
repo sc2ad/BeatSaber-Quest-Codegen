@@ -61,6 +61,22 @@ namespace GlobalNamespace {
     DropdownSettingsController(HMUI::SimpleTextDropdown* dropdown_ = {}, System::Action* dropDownValueDidChangeEvent_ = {}, int idx_ = {}, int numberOfElements_ = {}) noexcept : dropdown{dropdown_}, dropDownValueDidChangeEvent{dropDownValueDidChangeEvent_}, idx{idx_}, numberOfElements{numberOfElements_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.SimpleTextDropdown _dropdown
+    HMUI::SimpleTextDropdown* _get__dropdown();
+    // Set instance field: private HMUI.SimpleTextDropdown _dropdown
+    void _set__dropdown(HMUI::SimpleTextDropdown* value);
+    // Get instance field: private System.Action dropDownValueDidChangeEvent
+    System::Action* _get_dropDownValueDidChangeEvent();
+    // Set instance field: private System.Action dropDownValueDidChangeEvent
+    void _set_dropDownValueDidChangeEvent(System::Action* value);
+    // Get instance field: private System.Int32 _idx
+    int _get__idx();
+    // Set instance field: private System.Int32 _idx
+    void _set__idx(int value);
+    // Get instance field: private System.Int32 _numberOfElements
+    int _get__numberOfElements();
+    // Set instance field: private System.Int32 _numberOfElements
+    void _set__numberOfElements(int value);
     // public System.Void add_dropDownValueDidChangeEvent(System.Action value)
     // Offset: 0x101B34C
     void add_dropDownValueDidChangeEvent(System::Action* value);

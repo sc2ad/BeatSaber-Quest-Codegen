@@ -34,6 +34,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt64 ulUserValue
+    uint64_t _get_ulUserValue();
+    // Set instance field: public System.UInt64 ulUserValue
+    void _set_ulUserValue(uint64_t value);
+    // Get instance field: public System.UInt32 notificationId
+    uint _get_notificationId();
+    // Set instance field: public System.UInt32 notificationId
+    void _set_notificationId(uint value);
   }; // OVR.OpenVR.VREvent_Notification_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Notification_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_Notification_tSizeCheck;

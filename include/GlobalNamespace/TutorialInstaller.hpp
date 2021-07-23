@@ -79,6 +79,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::TutorialSceneSetupData*) == 0x8);
     // Creating value type constructor for type: TutorialInstaller
     TutorialInstaller(UnityEngine::AudioClip* audioClip_ = {}, float songBPM_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}, GlobalNamespace::TutorialSceneSetupData* sceneSetupData_ = {}) noexcept : audioClip{audioClip_}, songBPM{songBPM_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_}, sceneSetupData{sceneSetupData_} {}
+    // Get instance field: private UnityEngine.AudioClip _audioClip
+    UnityEngine::AudioClip* _get__audioClip();
+    // Set instance field: private UnityEngine.AudioClip _audioClip
+    void _set__audioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private System.Single _songBPM
+    float _get__songBPM();
+    // Set instance field: private System.Single _songBPM
+    void _set__songBPM(float value);
+    // Get instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
+    GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* _get__beatmapObjectSpawnControllerPlayerHeightSetterPrefab();
+    // Set instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
+    void _set__beatmapObjectSpawnControllerPlayerHeightSetterPrefab(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* value);
+    // Get instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
+    GlobalNamespace::PlayerHeightDetector* _get__playerHeightDetectorPrefab();
+    // Set instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
+    void _set__playerHeightDetectorPrefab(GlobalNamespace::PlayerHeightDetector* value);
+    // Get instance field: private EffectPoolsManualInstaller _effectPoolsManualInstaller
+    GlobalNamespace::EffectPoolsManualInstaller* _get__effectPoolsManualInstaller();
+    // Set instance field: private EffectPoolsManualInstaller _effectPoolsManualInstaller
+    void _set__effectPoolsManualInstaller(GlobalNamespace::EffectPoolsManualInstaller* value);
+    // Get instance field: private readonly TutorialSceneSetupData _sceneSetupData
+    GlobalNamespace::TutorialSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private readonly TutorialSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::TutorialSceneSetupData* value);
     // public System.Void .ctor()
     // Offset: 0x107479C
     // Implemented from: Zenject.MonoInstaller

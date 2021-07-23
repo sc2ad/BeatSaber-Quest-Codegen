@@ -45,6 +45,14 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: InvalidKeyException
     InvalidKeyException(::Il2CppObject* Key_ = {}, System::Type* Type_ = {}) noexcept : Key{Key_}, Type{Type_} {}
+    // Get instance field: private System.Object <Key>k__BackingField
+    ::Il2CppObject* _get_$Key$k__BackingField();
+    // Set instance field: private System.Object <Key>k__BackingField
+    void _set_$Key$k__BackingField(::Il2CppObject* value);
+    // Get instance field: private System.Type <Type>k__BackingField
+    System::Type* _get_$Type$k__BackingField();
+    // Set instance field: private System.Type <Type>k__BackingField
+    void _set_$Type$k__BackingField(System::Type* value);
     // public System.Object get_Key()
     // Offset: 0x13CA6B0
     ::Il2CppObject* get_Key();

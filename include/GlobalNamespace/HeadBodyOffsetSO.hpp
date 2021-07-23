@@ -35,6 +35,14 @@ namespace GlobalNamespace {
     HeadBodyOffsetSO(UnityEngine::Vector3 headNeckOffset_ = {}, float verticalOffset_ = {}) noexcept : headNeckOffset{headNeckOffset_}, verticalOffset{verticalOffset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Vector3 _headNeckOffset
+    UnityEngine::Vector3 _get__headNeckOffset();
+    // Set instance field: private UnityEngine.Vector3 _headNeckOffset
+    void _set__headNeckOffset(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _verticalOffset
+    float _get__verticalOffset();
+    // Set instance field: private System.Single _verticalOffset
+    void _set__verticalOffset(float value);
     // public UnityEngine.Vector3 get_headNeckOffset()
     // Offset: 0x10E9D68
     UnityEngine::Vector3 get_headNeckOffset();

@@ -47,6 +47,18 @@ namespace System {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: LocalDataStoreSlot
     LocalDataStoreSlot(System::LocalDataStoreMgr* m_mgr_ = {}, int m_slot_ = {}, int64_t m_cookie_ = {}) noexcept : m_mgr{m_mgr_}, m_slot{m_slot_}, m_cookie{m_cookie_} {}
+    // Get instance field: private System.LocalDataStoreMgr m_mgr
+    System::LocalDataStoreMgr* _get_m_mgr();
+    // Set instance field: private System.LocalDataStoreMgr m_mgr
+    void _set_m_mgr(System::LocalDataStoreMgr* value);
+    // Get instance field: private System.Int32 m_slot
+    int _get_m_slot();
+    // Set instance field: private System.Int32 m_slot
+    void _set_m_slot(int value);
+    // Get instance field: private System.Int64 m_cookie
+    int64_t _get_m_cookie();
+    // Set instance field: private System.Int64 m_cookie
+    void _set_m_cookie(int64_t value);
     // System.LocalDataStoreMgr get_Manager()
     // Offset: 0x17FC010
     System::LocalDataStoreMgr* get_Manager();

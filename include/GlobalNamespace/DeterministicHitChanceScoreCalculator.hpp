@@ -52,6 +52,14 @@ namespace GlobalNamespace {
     static int _get_kScorePerHit();
     // Set static field: static private System.Int32 kScorePerHit
     static void _set_kScorePerHit(int value);
+    // Get instance field: private readonly System.Single _hitChance
+    float _get__hitChance();
+    // Set instance field: private readonly System.Single _hitChance
+    void _set__hitChance(float value);
+    // Get instance field: private System.Single _chanceAggregated
+    float _get__chanceAggregated();
+    // Set instance field: private System.Single _chanceAggregated
+    void _set__chanceAggregated(float value);
     // public System.Void .ctor(System.Single hitChance)
     // Offset: 0x108996C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

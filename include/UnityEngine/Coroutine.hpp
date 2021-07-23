@@ -36,6 +36,10 @@ namespace UnityEngine {
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
     // static private System.Void ReleaseCoroutine(System.IntPtr ptr)
     // Offset: 0x1BE3650
     static void ReleaseCoroutine(System::IntPtr ptr);

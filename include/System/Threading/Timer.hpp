@@ -91,6 +91,30 @@ namespace System::Threading {
     static int64_t _get_MaxValue();
     // Set static field: static private System.Int64 MaxValue
     static void _set_MaxValue(int64_t value);
+    // Get instance field: private System.Threading.TimerCallback callback
+    System::Threading::TimerCallback* _get_callback();
+    // Set instance field: private System.Threading.TimerCallback callback
+    void _set_callback(System::Threading::TimerCallback* value);
+    // Get instance field: private System.Object state
+    ::Il2CppObject* _get_state();
+    // Set instance field: private System.Object state
+    void _set_state(::Il2CppObject* value);
+    // Get instance field: private System.Int64 due_time_ms
+    int64_t _get_due_time_ms();
+    // Set instance field: private System.Int64 due_time_ms
+    void _set_due_time_ms(int64_t value);
+    // Get instance field: private System.Int64 period_ms
+    int64_t _get_period_ms();
+    // Set instance field: private System.Int64 period_ms
+    void _set_period_ms(int64_t value);
+    // Get instance field: private System.Int64 next_run
+    int64_t _get_next_run();
+    // Set instance field: private System.Int64 next_run
+    void _set_next_run(int64_t value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.Int32 dueTime, System.Int32 period)
     // Offset: 0x188D764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

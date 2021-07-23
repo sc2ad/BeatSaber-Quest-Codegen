@@ -59,6 +59,18 @@ namespace System::Runtime::Remoting::Contexts {
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink _next
+    System::Runtime::Remoting::Messaging::IMessageSink* _get__next();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink _next
+    void _set__next(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    // Get instance field: private System.Runtime.Remoting.Contexts.Context _context
+    System::Runtime::Remoting::Contexts::Context* _get__context();
+    // Set instance field: private System.Runtime.Remoting.Contexts.Context _context
+    void _set__context(System::Runtime::Remoting::Contexts::Context* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessage _call
+    System::Runtime::Remoting::Messaging::IMessage* _get__call();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessage _call
+    void _set__call(System::Runtime::Remoting::Messaging::IMessage* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink next, System.Runtime.Remoting.Contexts.Context context, System.Runtime.Remoting.Messaging.IMessage call)
     // Offset: 0x19EF860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -109,6 +109,46 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: X509Crl
     X509Crl(::Il2CppString* issuer_ = {}, uint8_t version_ = {}, System::DateTime thisUpdate_ = {}, System::DateTime nextUpdate_ = {}, System::Collections::ArrayList* entries_ = {}, ::Il2CppString* signatureOID_ = {}, ::Array<uint8_t>* signature_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}, ::Array<uint8_t>* encoded_ = {}, ::Array<uint8_t>* hash_value_ = {}) noexcept : issuer{issuer_}, version{version_}, thisUpdate{thisUpdate_}, nextUpdate{nextUpdate_}, entries{entries_}, signatureOID{signatureOID_}, signature{signature_}, extensions{extensions_}, encoded{encoded_}, hash_value{hash_value_} {}
+    // Get instance field: private System.String issuer
+    ::Il2CppString* _get_issuer();
+    // Set instance field: private System.String issuer
+    void _set_issuer(::Il2CppString* value);
+    // Get instance field: private System.Byte version
+    uint8_t _get_version();
+    // Set instance field: private System.Byte version
+    void _set_version(uint8_t value);
+    // Get instance field: private System.DateTime thisUpdate
+    System::DateTime _get_thisUpdate();
+    // Set instance field: private System.DateTime thisUpdate
+    void _set_thisUpdate(System::DateTime value);
+    // Get instance field: private System.DateTime nextUpdate
+    System::DateTime _get_nextUpdate();
+    // Set instance field: private System.DateTime nextUpdate
+    void _set_nextUpdate(System::DateTime value);
+    // Get instance field: private System.Collections.ArrayList entries
+    System::Collections::ArrayList* _get_entries();
+    // Set instance field: private System.Collections.ArrayList entries
+    void _set_entries(System::Collections::ArrayList* value);
+    // Get instance field: private System.String signatureOID
+    ::Il2CppString* _get_signatureOID();
+    // Set instance field: private System.String signatureOID
+    void _set_signatureOID(::Il2CppString* value);
+    // Get instance field: private System.Byte[] signature
+    ::Array<uint8_t>* _get_signature();
+    // Set instance field: private System.Byte[] signature
+    void _set_signature(::Array<uint8_t>* value);
+    // Get instance field: private Mono.Security.X509.X509ExtensionCollection extensions
+    Mono::Security::X509::X509ExtensionCollection* _get_extensions();
+    // Set instance field: private Mono.Security.X509.X509ExtensionCollection extensions
+    void _set_extensions(Mono::Security::X509::X509ExtensionCollection* value);
+    // Get instance field: private System.Byte[] encoded
+    ::Array<uint8_t>* _get_encoded();
+    // Set instance field: private System.Byte[] encoded
+    void _set_encoded(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] hash_value
+    ::Array<uint8_t>* _get_hash_value();
+    // Set instance field: private System.Byte[] hash_value
+    void _set_hash_value(::Array<uint8_t>* value);
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
     // Offset: 0x23813B4
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();

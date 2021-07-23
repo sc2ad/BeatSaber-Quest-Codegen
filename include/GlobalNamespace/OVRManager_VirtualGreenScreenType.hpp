@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_VirtualGreenScreenType _get_PlayArea();
     // Set static field: static public OVRManager/VirtualGreenScreenType PlayArea
     static void _set_PlayArea(GlobalNamespace::OVRManager_VirtualGreenScreenType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRManager/VirtualGreenScreenType
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_VirtualGreenScreenType), 0 + sizeof(int)> __GlobalNamespace_OVRManager_VirtualGreenScreenTypeSizeCheck;

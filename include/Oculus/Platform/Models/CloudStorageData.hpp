@@ -47,6 +47,22 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CloudStorageData
     CloudStorageData(::Il2CppString* Bucket_ = {}, ::Array<uint8_t>* Data_ = {}, uint DataSize_ = {}, ::Il2CppString* Key_ = {}) noexcept : Bucket{Bucket_}, Data{Data_}, DataSize{DataSize_}, Key{Key_} {}
+    // Get instance field: public readonly System.String Bucket
+    ::Il2CppString* _get_Bucket();
+    // Set instance field: public readonly System.String Bucket
+    void _set_Bucket(::Il2CppString* value);
+    // Get instance field: public readonly System.Byte[] Data
+    ::Array<uint8_t>* _get_Data();
+    // Set instance field: public readonly System.Byte[] Data
+    void _set_Data(::Array<uint8_t>* value);
+    // Get instance field: public readonly System.UInt32 DataSize
+    uint _get_DataSize();
+    // Set instance field: public readonly System.UInt32 DataSize
+    void _set_DataSize(uint value);
+    // Get instance field: public readonly System.String Key
+    ::Il2CppString* _get_Key();
+    // Set instance field: public readonly System.String Key
+    void _set_Key(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A153C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

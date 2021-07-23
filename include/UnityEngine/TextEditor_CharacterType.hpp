@@ -57,6 +57,10 @@ namespace UnityEngine {
     static UnityEngine::TextEditor::CharacterType _get_WhiteSpace();
     // Set static field: static public UnityEngine.TextEditor/UnityEngine.CharacterType WhiteSpace
     static void _set_WhiteSpace(UnityEngine::TextEditor::CharacterType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.TextEditor/UnityEngine.CharacterType
   #pragma pack(pop)
   static check_size<sizeof(TextEditor::CharacterType), 0 + sizeof(int)> __UnityEngine_TextEditor_CharacterTypeSizeCheck;

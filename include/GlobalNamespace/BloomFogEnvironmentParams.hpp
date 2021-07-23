@@ -47,6 +47,22 @@ namespace GlobalNamespace {
     BloomFogEnvironmentParams(float attenuation_ = {}, float offset_ = {}, float heightFogStartY_ = {}, float heightFogHeight_ = {}) noexcept : attenuation{attenuation_}, offset{offset_}, heightFogStartY{heightFogStartY_}, heightFogHeight{heightFogHeight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Single attenuation
+    float _get_attenuation();
+    // Set instance field: public System.Single attenuation
+    void _set_attenuation(float value);
+    // Get instance field: public System.Single offset
+    float _get_offset();
+    // Set instance field: public System.Single offset
+    void _set_offset(float value);
+    // Get instance field: public System.Single heightFogStartY
+    float _get_heightFogStartY();
+    // Set instance field: public System.Single heightFogStartY
+    void _set_heightFogStartY(float value);
+    // Get instance field: public System.Single heightFogHeight
+    float _get_heightFogHeight();
+    // Set instance field: public System.Single heightFogHeight
+    void _set_heightFogHeight(float value);
     // public System.Void .ctor()
     // Offset: 0x1DEA9B4
     // Implemented from: PersistentScriptableObject

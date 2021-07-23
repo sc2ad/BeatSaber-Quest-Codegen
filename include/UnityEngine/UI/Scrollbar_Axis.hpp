@@ -45,6 +45,10 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Scrollbar::Axis _get_Vertical();
     // Set static field: static public UnityEngine.UI.Scrollbar/UnityEngine.UI.Axis Vertical
     static void _set_Vertical(UnityEngine::UI::Scrollbar::Axis value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.UI.Scrollbar/UnityEngine.UI.Axis
   #pragma pack(pop)
   static check_size<sizeof(Scrollbar::Axis), 0 + sizeof(int)> __UnityEngine_UI_Scrollbar_AxisSizeCheck;

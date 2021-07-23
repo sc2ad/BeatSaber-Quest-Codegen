@@ -111,6 +111,34 @@ namespace LiteNetLib {
     static bool _get_IPv6Support();
     // Set static field: static readonly System.Boolean IPv6Support
     static void _set_IPv6Support(bool value);
+    // Get instance field: private System.Net.Sockets.Socket _udpSocketv4
+    System::Net::Sockets::Socket* _get__udpSocketv4();
+    // Set instance field: private System.Net.Sockets.Socket _udpSocketv4
+    void _set__udpSocketv4(System::Net::Sockets::Socket* value);
+    // Get instance field: private System.Net.Sockets.Socket _udpSocketv6
+    System::Net::Sockets::Socket* _get__udpSocketv6();
+    // Set instance field: private System.Net.Sockets.Socket _udpSocketv6
+    void _set__udpSocketv6(System::Net::Sockets::Socket* value);
+    // Get instance field: private System.Threading.Thread _threadv4
+    System::Threading::Thread* _get__threadv4();
+    // Set instance field: private System.Threading.Thread _threadv4
+    void _set__threadv4(System::Threading::Thread* value);
+    // Get instance field: private System.Threading.Thread _threadv6
+    System::Threading::Thread* _get__threadv6();
+    // Set instance field: private System.Threading.Thread _threadv6
+    void _set__threadv6(System::Threading::Thread* value);
+    // Get instance field: private readonly LiteNetLib.INetSocketListener _listener
+    LiteNetLib::INetSocketListener* _get__listener();
+    // Set instance field: private readonly LiteNetLib.INetSocketListener _listener
+    void _set__listener(LiteNetLib::INetSocketListener* value);
+    // Get instance field: private System.Int32 <LocalPort>k__BackingField
+    int _get_$LocalPort$k__BackingField();
+    // Set instance field: private System.Int32 <LocalPort>k__BackingField
+    void _set_$LocalPort$k__BackingField(int value);
+    // Get instance field: public System.Boolean IsRunning
+    bool _get_IsRunning();
+    // Set instance field: public System.Boolean IsRunning
+    void _set_IsRunning(bool value);
     // public System.Int32 get_LocalPort()
     // Offset: 0x1BBA8E8
     int get_LocalPort();

@@ -94,6 +94,42 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IBeatmapLevel> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevel*> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<IBeatmapLevel> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevel*> value);
+    // Get instance field: public IPreviewBeatmapLevel previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel* _get_previewBeatmapLevel();
+    // Set instance field: public IPreviewBeatmapLevel previewBeatmapLevel
+    void _set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: public BeatmapLevelDataLoaderSO <>4__this
+    GlobalNamespace::BeatmapLevelDataLoaderSO* _get_$$4__this();
+    // Set instance field: public BeatmapLevelDataLoaderSO <>4__this
+    void _set_$$4__this(GlobalNamespace::BeatmapLevelDataLoaderSO* value);
+    // Get instance field: public System.String assetBundlePath
+    ::Il2CppString* _get_assetBundlePath();
+    // Set instance field: public System.String assetBundlePath
+    void _set_assetBundlePath(::Il2CppString* value);
+    // Get instance field: public System.String levelDataAssetName
+    ::Il2CppString* _get_levelDataAssetName();
+    // Set instance field: public System.String levelDataAssetName
+    void _set_levelDataAssetName(::Il2CppString* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private System.String <levelID>5__2
+    ::Il2CppString* _get_$levelID$5__2();
+    // Set instance field: private System.String <levelID>5__2
+    void _set_$levelID$5__2(::Il2CppString* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevel> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevel> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> value);
     // private System.Void MoveNext()
     // Offset: 0xED163C
     void MoveNext();

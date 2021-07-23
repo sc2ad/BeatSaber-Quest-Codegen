@@ -35,6 +35,10 @@ namespace HMUI {
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
     // Creating value type constructor for type: CurvedTextMeshPro
     CurvedTextMeshPro(HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper_ = {}) noexcept : curvedCanvasSettingsHelper{curvedCanvasSettingsHelper_} {}
+    // Get instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
+    HMUI::CurvedCanvasSettingsHelper* _get__curvedCanvasSettingsHelper();
+    // Set instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
+    void _set__curvedCanvasSettingsHelper(HMUI::CurvedCanvasSettingsHelper* value);
     // public System.Void .ctor()
     // Offset: 0x13078B0
     // Implemented from: TMPro.TextMeshProUGUI

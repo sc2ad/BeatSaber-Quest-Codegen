@@ -114,6 +114,10 @@ namespace HMUI {
       static HMUI::AnimatedSwitchView::AnimationState _get_DisablingOff();
       // Set static field: static public HMUI.AnimatedSwitchView/HMUI.AnimationState DisablingOff
       static void _set_DisablingOff(HMUI::AnimatedSwitchView::AnimationState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // HMUI.AnimatedSwitchView/HMUI.AnimationState
     #pragma pack(pop)
     static check_size<sizeof(AnimatedSwitchView::AnimationState), 0 + sizeof(int)> __HMUI_AnimatedSwitchView_AnimationStateSizeCheck;
@@ -260,6 +264,94 @@ namespace HMUI {
     AnimatedSwitchView(UnityEngine::RectTransform* knobRectTransform_ = {}, HMUI::ImageView* backgroundImage_ = {}, HMUI::ImageView* knobImage_ = {}, TMPro::TextMeshProUGUI* onText_ = {}, TMPro::TextMeshProUGUI* offText_ = {}, float switchAnimationSmooth_ = {}, float disableAnimationDuration_ = {}, float highlightAnimationDuration_ = {}, float horizontalStretchAmount_ = {}, float verticalStretchAmount_ = {}, HMUI::AnimatedSwitchView::ColorBlock* onColors_ = {}, HMUI::AnimatedSwitchView::ColorBlock* offColors_ = {}, HMUI::AnimatedSwitchView::ColorBlock* onHighlightedColors_ = {}, HMUI::AnimatedSwitchView::ColorBlock* offHighlightedColors_ = {}, HMUI::AnimatedSwitchView::ColorBlock* disabledColors_ = {}, HMUI::AnimatedSwitchView::AnimationState animationState_ = {}, float switchAmount_ = {}, float highlightAmount_ = {}, float disabledAmount_ = {}, float originalKnobWidth_ = {}, float originalKnobHeight_ = {}, HMUI::ToggleWithCallbacks* toggle_ = {}) noexcept : knobRectTransform{knobRectTransform_}, backgroundImage{backgroundImage_}, knobImage{knobImage_}, onText{onText_}, offText{offText_}, switchAnimationSmooth{switchAnimationSmooth_}, disableAnimationDuration{disableAnimationDuration_}, highlightAnimationDuration{highlightAnimationDuration_}, horizontalStretchAmount{horizontalStretchAmount_}, verticalStretchAmount{verticalStretchAmount_}, onColors{onColors_}, offColors{offColors_}, onHighlightedColors{onHighlightedColors_}, offHighlightedColors{offHighlightedColors_}, disabledColors{disabledColors_}, animationState{animationState_}, switchAmount{switchAmount_}, highlightAmount{highlightAmount_}, disabledAmount{disabledAmount_}, originalKnobWidth{originalKnobWidth_}, originalKnobHeight{originalKnobHeight_}, toggle{toggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.RectTransform _knobRectTransform
+    UnityEngine::RectTransform* _get__knobRectTransform();
+    // Set instance field: private UnityEngine.RectTransform _knobRectTransform
+    void _set__knobRectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private HMUI.ImageView _backgroundImage
+    HMUI::ImageView* _get__backgroundImage();
+    // Set instance field: private HMUI.ImageView _backgroundImage
+    void _set__backgroundImage(HMUI::ImageView* value);
+    // Get instance field: private HMUI.ImageView _knobImage
+    HMUI::ImageView* _get__knobImage();
+    // Set instance field: private HMUI.ImageView _knobImage
+    void _set__knobImage(HMUI::ImageView* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _onText
+    TMPro::TextMeshProUGUI* _get__onText();
+    // Set instance field: private TMPro.TextMeshProUGUI _onText
+    void _set__onText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _offText
+    TMPro::TextMeshProUGUI* _get__offText();
+    // Set instance field: private TMPro.TextMeshProUGUI _offText
+    void _set__offText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private System.Single _switchAnimationSmooth
+    float _get__switchAnimationSmooth();
+    // Set instance field: private System.Single _switchAnimationSmooth
+    void _set__switchAnimationSmooth(float value);
+    // Get instance field: private System.Single _disableAnimationDuration
+    float _get__disableAnimationDuration();
+    // Set instance field: private System.Single _disableAnimationDuration
+    void _set__disableAnimationDuration(float value);
+    // Get instance field: private System.Single _highlightAnimationDuration
+    float _get__highlightAnimationDuration();
+    // Set instance field: private System.Single _highlightAnimationDuration
+    void _set__highlightAnimationDuration(float value);
+    // Get instance field: private System.Single _horizontalStretchAmount
+    float _get__horizontalStretchAmount();
+    // Set instance field: private System.Single _horizontalStretchAmount
+    void _set__horizontalStretchAmount(float value);
+    // Get instance field: private System.Single _verticalStretchAmount
+    float _get__verticalStretchAmount();
+    // Set instance field: private System.Single _verticalStretchAmount
+    void _set__verticalStretchAmount(float value);
+    // Get instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _onColors
+    HMUI::AnimatedSwitchView::ColorBlock* _get__onColors();
+    // Set instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _onColors
+    void _set__onColors(HMUI::AnimatedSwitchView::ColorBlock* value);
+    // Get instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _offColors
+    HMUI::AnimatedSwitchView::ColorBlock* _get__offColors();
+    // Set instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _offColors
+    void _set__offColors(HMUI::AnimatedSwitchView::ColorBlock* value);
+    // Get instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _onHighlightedColors
+    HMUI::AnimatedSwitchView::ColorBlock* _get__onHighlightedColors();
+    // Set instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _onHighlightedColors
+    void _set__onHighlightedColors(HMUI::AnimatedSwitchView::ColorBlock* value);
+    // Get instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _offHighlightedColors
+    HMUI::AnimatedSwitchView::ColorBlock* _get__offHighlightedColors();
+    // Set instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _offHighlightedColors
+    void _set__offHighlightedColors(HMUI::AnimatedSwitchView::ColorBlock* value);
+    // Get instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _disabledColors
+    HMUI::AnimatedSwitchView::ColorBlock* _get__disabledColors();
+    // Set instance field: private HMUI.AnimatedSwitchView/HMUI.ColorBlock _disabledColors
+    void _set__disabledColors(HMUI::AnimatedSwitchView::ColorBlock* value);
+    // Get instance field: private HMUI.AnimatedSwitchView/HMUI.AnimationState _animationState
+    HMUI::AnimatedSwitchView::AnimationState _get__animationState();
+    // Set instance field: private HMUI.AnimatedSwitchView/HMUI.AnimationState _animationState
+    void _set__animationState(HMUI::AnimatedSwitchView::AnimationState value);
+    // Get instance field: private System.Single _switchAmount
+    float _get__switchAmount();
+    // Set instance field: private System.Single _switchAmount
+    void _set__switchAmount(float value);
+    // Get instance field: private System.Single _highlightAmount
+    float _get__highlightAmount();
+    // Set instance field: private System.Single _highlightAmount
+    void _set__highlightAmount(float value);
+    // Get instance field: private System.Single _disabledAmount
+    float _get__disabledAmount();
+    // Set instance field: private System.Single _disabledAmount
+    void _set__disabledAmount(float value);
+    // Get instance field: private System.Single _originalKnobWidth
+    float _get__originalKnobWidth();
+    // Set instance field: private System.Single _originalKnobWidth
+    void _set__originalKnobWidth(float value);
+    // Get instance field: private System.Single _originalKnobHeight
+    float _get__originalKnobHeight();
+    // Set instance field: private System.Single _originalKnobHeight
+    void _set__originalKnobHeight(float value);
+    // Get instance field: private HMUI.ToggleWithCallbacks _toggle
+    HMUI::ToggleWithCallbacks* _get__toggle();
+    // Set instance field: private HMUI.ToggleWithCallbacks _toggle
+    void _set__toggle(HMUI::ToggleWithCallbacks* value);
     // protected System.Void Awake()
     // Offset: 0x1301F4C
     void Awake();

@@ -61,6 +61,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: MirroredObstacleController
     MirroredObstacleController(GlobalNamespace::StretchableObstacle* stretchableObstacle_ = {}, GlobalNamespace::ObstacleController* followedObstacle_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* followedTransform_ = {}) noexcept : stretchableObstacle{stretchableObstacle_}, followedObstacle{followedObstacle_}, transform{transform_}, followedTransform{followedTransform_} {}
+    // Get instance field: private StretchableObstacle _stretchableObstacle
+    GlobalNamespace::StretchableObstacle* _get__stretchableObstacle();
+    // Set instance field: private StretchableObstacle _stretchableObstacle
+    void _set__stretchableObstacle(GlobalNamespace::StretchableObstacle* value);
+    // Get instance field: private ObstacleController _followedObstacle
+    GlobalNamespace::ObstacleController* _get__followedObstacle();
+    // Set instance field: private ObstacleController _followedObstacle
+    void _set__followedObstacle(GlobalNamespace::ObstacleController* value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _followedTransform
+    UnityEngine::Transform* _get__followedTransform();
+    // Set instance field: private UnityEngine.Transform _followedTransform
+    void _set__followedTransform(UnityEngine::Transform* value);
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x112EA88
     void set_hide(bool value);

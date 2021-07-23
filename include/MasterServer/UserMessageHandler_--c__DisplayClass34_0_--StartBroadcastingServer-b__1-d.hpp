@@ -74,6 +74,30 @@ namespace MasterServer {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
+    // Get instance field: public MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass34_0 <>4__this
+    MasterServer::UserMessageHandler::$$c__DisplayClass34_0* _get_$$4__this();
+    // Set instance field: public MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass34_0 <>4__this
+    void _set_$$4__this(MasterServer::UserMessageHandler::$$c__DisplayClass34_0* value);
+    // Get instance field: private System.Byte[] <serverRandom>5__2
+    ::Array<uint8_t>* _get_$serverRandom$5__2();
+    // Set instance field: private System.Byte[] <serverRandom>5__2
+    void _set_$serverRandom$5__2(::Array<uint8_t>* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.UserServerStatusUpdateResponse> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::UserServerStatusUpdateResponse*> _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.UserServerStatusUpdateResponse> <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::UserServerStatusUpdateResponse*> value);
     // private System.Void MoveNext()
     // Offset: 0xED3C78
     void MoveNext();

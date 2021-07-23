@@ -39,6 +39,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt32 pid
+    uint _get_pid();
+    // Set instance field: public System.UInt32 pid
+    void _set_pid(uint value);
+    // Get instance field: public System.UInt32 oldPid
+    uint _get_oldPid();
+    // Set instance field: public System.UInt32 oldPid
+    void _set_oldPid(uint value);
+    // Get instance field: public System.Boolean bForced
+    bool _get_bForced();
+    // Set instance field: public System.Boolean bForced
+    void _set_bForced(bool value);
   }; // Valve.VR.VREvent_Process_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Process_t), 8 + sizeof(bool)> __Valve_VR_VREvent_Process_tSizeCheck;

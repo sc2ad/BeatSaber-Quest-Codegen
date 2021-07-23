@@ -37,6 +37,18 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Capture
     Capture(::Il2CppString* text_ = {}, int index_ = {}, int length_ = {}) noexcept : text{text_}, index{index_}, length{length_} {}
+    // Get instance field: System.String _text
+    ::Il2CppString* _get__text();
+    // Set instance field: System.String _text
+    void _set__text(::Il2CppString* value);
+    // Get instance field: System.Int32 _index
+    int _get__index();
+    // Set instance field: System.Int32 _index
+    void _set__index(int value);
+    // Get instance field: System.Int32 _length
+    int _get__length();
+    // Set instance field: System.Int32 _length
+    void _set__length(int value);
     // public System.Int32 get_Index()
     // Offset: 0x1834BC0
     int get_Index();

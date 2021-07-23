@@ -71,6 +71,26 @@ namespace TMPro {
     operator TMPro::ITweenValue() noexcept {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
+    // Get instance field: private TMPro.FloatTween/TMPro.FloatTweenCallback m_Target
+    TMPro::FloatTween::FloatTweenCallback* _get_m_Target();
+    // Set instance field: private TMPro.FloatTween/TMPro.FloatTweenCallback m_Target
+    void _set_m_Target(TMPro::FloatTween::FloatTweenCallback* value);
+    // Get instance field: private System.Single m_StartValue
+    float _get_m_StartValue();
+    // Set instance field: private System.Single m_StartValue
+    void _set_m_StartValue(float value);
+    // Get instance field: private System.Single m_TargetValue
+    float _get_m_TargetValue();
+    // Set instance field: private System.Single m_TargetValue
+    void _set_m_TargetValue(float value);
+    // Get instance field: private System.Single m_Duration
+    float _get_m_Duration();
+    // Set instance field: private System.Single m_Duration
+    void _set_m_Duration(float value);
+    // Get instance field: private System.Boolean m_IgnoreTimeScale
+    bool _get_m_IgnoreTimeScale();
+    // Set instance field: private System.Boolean m_IgnoreTimeScale
+    void _set_m_IgnoreTimeScale(bool value);
     // public System.Single get_startValue()
     // Offset: 0xED06F8
     float get_startValue();

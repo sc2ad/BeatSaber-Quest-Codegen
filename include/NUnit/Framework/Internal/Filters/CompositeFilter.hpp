@@ -49,6 +49,10 @@ namespace NUnit::Framework::Internal::Filters {
     constexpr operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*() const noexcept {
       return Filters;
     }
+    // Get instance field: private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
+    System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* _get_$Filters$k__BackingField();
+    // Set instance field: private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
+    void _set_$Filters$k__BackingField(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* value);
     // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> get_Filters()
     // Offset: 0x172C3CC
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* get_Filters();

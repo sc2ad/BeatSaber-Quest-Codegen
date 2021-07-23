@@ -65,6 +65,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
     // Creating value type constructor for type: MissionHelpViewController
     MissionHelpViewController(UnityEngine::UI::Button* okButton_ = {}, ::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>* missionHelpGameObjectPairs_ = {}, System::Action_1<GlobalNamespace::MissionHelpViewController*>* didFinishEvent_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : okButton{okButton_}, missionHelpGameObjectPairs{missionHelpGameObjectPairs_}, didFinishEvent{didFinishEvent_}, missionHelp{missionHelp_} {}
+    // Get instance field: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button* _get__okButton();
+    // Set instance field: private UnityEngine.UI.Button _okButton
+    void _set__okButton(UnityEngine::UI::Button* value);
+    // Get instance field: private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
+    ::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>* _get__missionHelpGameObjectPairs();
+    // Set instance field: private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
+    void _set__missionHelpGameObjectPairs(::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>* value);
+    // Get instance field: private System.Action`1<MissionHelpViewController> didFinishEvent
+    System::Action_1<GlobalNamespace::MissionHelpViewController*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`1<MissionHelpViewController> didFinishEvent
+    void _set_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
+    // Get instance field: private MissionHelpSO _missionHelp
+    GlobalNamespace::MissionHelpSO* _get__missionHelp();
+    // Set instance field: private MissionHelpSO _missionHelp
+    void _set__missionHelp(GlobalNamespace::MissionHelpSO* value);
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
     // Offset: 0x1130AA4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);

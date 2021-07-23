@@ -65,6 +65,18 @@ namespace UnityEngine::ResourceManagement::Util {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.String m_Id
+    ::Il2CppString* _get_m_Id();
+    // Set instance field: private System.String m_Id
+    void _set_m_Id(::Il2CppString* value);
+    // Get instance field: private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
+    UnityEngine::ResourceManagement::Util::SerializedType _get_m_ObjectType();
+    // Set instance field: private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
+    void _set_m_ObjectType(UnityEngine::ResourceManagement::Util::SerializedType value);
+    // Get instance field: private System.String m_Data
+    ::Il2CppString* _get_m_Data();
+    // Set instance field: private System.String m_Data
+    void _set_m_Data(::Il2CppString* value);
     // public System.String get_Id()
     // Offset: 0xEEC4D8
     ::Il2CppString* get_Id();

@@ -136,6 +136,70 @@ namespace Mono::Security::Interface {
     static Mono::Security::Interface::MonoTlsSettings* _get_defaultSettings();
     // Set static field: static private Mono.Security.Interface.MonoTlsSettings defaultSettings
     static void _set_defaultSettings(Mono::Security::Interface::MonoTlsSettings* value);
+    // Get instance field: private Mono.Security.Interface.MonoRemoteCertificateValidationCallback <RemoteCertificateValidationCallback>k__BackingField
+    Mono::Security::Interface::MonoRemoteCertificateValidationCallback* _get_$RemoteCertificateValidationCallback$k__BackingField();
+    // Set instance field: private Mono.Security.Interface.MonoRemoteCertificateValidationCallback <RemoteCertificateValidationCallback>k__BackingField
+    void _set_$RemoteCertificateValidationCallback$k__BackingField(Mono::Security::Interface::MonoRemoteCertificateValidationCallback* value);
+    // Get instance field: private Mono.Security.Interface.MonoLocalCertificateSelectionCallback <ClientCertificateSelectionCallback>k__BackingField
+    Mono::Security::Interface::MonoLocalCertificateSelectionCallback* _get_$ClientCertificateSelectionCallback$k__BackingField();
+    // Set instance field: private Mono.Security.Interface.MonoLocalCertificateSelectionCallback <ClientCertificateSelectionCallback>k__BackingField
+    void _set_$ClientCertificateSelectionCallback$k__BackingField(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
+    // Get instance field: private System.Nullable`1<System.DateTime> <CertificateValidationTime>k__BackingField
+    System::Nullable_1<System::DateTime> _get_$CertificateValidationTime$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.DateTime> <CertificateValidationTime>k__BackingField
+    void _set_$CertificateValidationTime$k__BackingField(System::Nullable_1<System::DateTime> value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection <TrustAnchors>k__BackingField
+    System::Security::Cryptography::X509Certificates::X509CertificateCollection* _get_$TrustAnchors$k__BackingField();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509CertificateCollection <TrustAnchors>k__BackingField
+    void _set_$TrustAnchors$k__BackingField(System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+    // Get instance field: private System.Object <UserSettings>k__BackingField
+    ::Il2CppObject* _get_$UserSettings$k__BackingField();
+    // Set instance field: private System.Object <UserSettings>k__BackingField
+    void _set_$UserSettings$k__BackingField(::Il2CppObject* value);
+    // Get instance field: private System.String[] <CertificateSearchPaths>k__BackingField
+    ::Array<::Il2CppString*>* _get_$CertificateSearchPaths$k__BackingField();
+    // Set instance field: private System.String[] <CertificateSearchPaths>k__BackingField
+    void _set_$CertificateSearchPaths$k__BackingField(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.Boolean <SendCloseNotify>k__BackingField
+    bool _get_$SendCloseNotify$k__BackingField();
+    // Set instance field: private System.Boolean <SendCloseNotify>k__BackingField
+    void _set_$SendCloseNotify$k__BackingField(bool value);
+    // Get instance field: private System.Nullable`1<Mono.Security.Interface.TlsProtocols> <EnabledProtocols>k__BackingField
+    System::Nullable_1<Mono::Security::Interface::TlsProtocols> _get_$EnabledProtocols$k__BackingField();
+    // Set instance field: private System.Nullable`1<Mono.Security.Interface.TlsProtocols> <EnabledProtocols>k__BackingField
+    void _set_$EnabledProtocols$k__BackingField(System::Nullable_1<Mono::Security::Interface::TlsProtocols> value);
+    // Get instance field: private Mono.Security.Interface.CipherSuiteCode[] <EnabledCiphers>k__BackingField
+    ::Array<Mono::Security::Interface::CipherSuiteCode>* _get_$EnabledCiphers$k__BackingField();
+    // Set instance field: private Mono.Security.Interface.CipherSuiteCode[] <EnabledCiphers>k__BackingField
+    void _set_$EnabledCiphers$k__BackingField(::Array<Mono::Security::Interface::CipherSuiteCode>* value);
+    // Get instance field: private System.Boolean cloned
+    bool _get_cloned();
+    // Set instance field: private System.Boolean cloned
+    void _set_cloned(bool value);
+    // Get instance field: private System.Boolean checkCertName
+    bool _get_checkCertName();
+    // Set instance field: private System.Boolean checkCertName
+    void _set_checkCertName(bool value);
+    // Get instance field: private System.Boolean checkCertRevocationStatus
+    bool _get_checkCertRevocationStatus();
+    // Set instance field: private System.Boolean checkCertRevocationStatus
+    void _set_checkCertRevocationStatus(bool value);
+    // Get instance field: private System.Nullable`1<System.Boolean> useServicePointManagerCallback
+    System::Nullable_1<bool> _get_useServicePointManagerCallback();
+    // Set instance field: private System.Nullable`1<System.Boolean> useServicePointManagerCallback
+    void _set_useServicePointManagerCallback(System::Nullable_1<bool> value);
+    // Get instance field: private System.Boolean skipSystemValidators
+    bool _get_skipSystemValidators();
+    // Set instance field: private System.Boolean skipSystemValidators
+    void _set_skipSystemValidators(bool value);
+    // Get instance field: private System.Boolean callbackNeedsChain
+    bool _get_callbackNeedsChain();
+    // Set instance field: private System.Boolean callbackNeedsChain
+    void _set_callbackNeedsChain(bool value);
+    // Get instance field: private Mono.Security.Interface.ICertificateValidator certificateValidator
+    Mono::Security::Interface::ICertificateValidator* _get_certificateValidator();
+    // Set instance field: private Mono.Security.Interface.ICertificateValidator certificateValidator
+    void _set_certificateValidator(Mono::Security::Interface::ICertificateValidator* value);
     // public Mono.Security.Interface.MonoRemoteCertificateValidationCallback get_RemoteCertificateValidationCallback()
     // Offset: 0x1DDE9D8
     Mono::Security::Interface::MonoRemoteCertificateValidationCallback* get_RemoteCertificateValidationCallback();

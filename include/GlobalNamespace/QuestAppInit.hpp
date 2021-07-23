@@ -59,6 +59,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
     // Creating value type constructor for type: QuestAppInit
     QuestAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::OculusInit* oculusInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, oculusInit{oculusInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_} {}
+    // Get instance field: private MainSystemInit _mainSystemInit
+    GlobalNamespace::MainSystemInit* _get__mainSystemInit();
+    // Set instance field: private MainSystemInit _mainSystemInit
+    void _set__mainSystemInit(GlobalNamespace::MainSystemInit* value);
+    // Get instance field: private OculusInit _oculusInit
+    GlobalNamespace::OculusInit* _get__oculusInit();
+    // Set instance field: private OculusInit _oculusInit
+    void _set__oculusInit(GlobalNamespace::OculusInit* value);
+    // Get instance field: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit
+    GlobalNamespace::DefaultScenesTransitionsFromInit* _get__defaultScenesTransitionsFromInit();
+    // Set instance field: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit
+    void _set__defaultScenesTransitionsFromInit(GlobalNamespace::DefaultScenesTransitionsFromInit* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
     // public System.Void .ctor()
     // Offset: 0x110B7F4
     // Implemented from: AppInit

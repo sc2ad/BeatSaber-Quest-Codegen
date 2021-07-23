@@ -108,6 +108,42 @@ namespace GlobalNamespace {
     BeatLineManager(float linesYPosition_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::BeatLine::Pool* beatLinePool_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Collections::Generic::Dictionary_2<UnityEngine::Vector4, GlobalNamespace::BeatLine*>* activeBeatLines_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector4>* removeBeatLineKeyList_ = {}, bool isMidRotationValid_ = {}, float midRotation_ = {}, float rotationRange_ = {}) noexcept : linesYPosition{linesYPosition_}, beatmapObjectManager{beatmapObjectManager_}, beatLinePool{beatLinePool_}, audioTimeSyncController{audioTimeSyncController_}, activeBeatLines{activeBeatLines_}, removeBeatLineKeyList{removeBeatLineKeyList_}, isMidRotationValid{isMidRotationValid_}, midRotation{midRotation_}, rotationRange{rotationRange_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _linesYPosition
+    float _get__linesYPosition();
+    // Set instance field: private System.Single _linesYPosition
+    void _set__linesYPosition(float value);
+    // Get instance field: private BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private BeatLine/Pool _beatLinePool
+    GlobalNamespace::BeatLine::Pool* _get__beatLinePool();
+    // Set instance field: private BeatLine/Pool _beatLinePool
+    void _set__beatLinePool(GlobalNamespace::BeatLine::Pool* value);
+    // Get instance field: private AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.Vector4,BeatLine> _activeBeatLines
+    System::Collections::Generic::Dictionary_2<UnityEngine::Vector4, GlobalNamespace::BeatLine*>* _get__activeBeatLines();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.Vector4,BeatLine> _activeBeatLines
+    void _set__activeBeatLines(System::Collections::Generic::Dictionary_2<UnityEngine::Vector4, GlobalNamespace::BeatLine*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> _removeBeatLineKeyList
+    System::Collections::Generic::List_1<UnityEngine::Vector4>* _get__removeBeatLineKeyList();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> _removeBeatLineKeyList
+    void _set__removeBeatLineKeyList(System::Collections::Generic::List_1<UnityEngine::Vector4>* value);
+    // Get instance field: private System.Boolean _isMidRotationValid
+    bool _get__isMidRotationValid();
+    // Set instance field: private System.Boolean _isMidRotationValid
+    void _set__isMidRotationValid(bool value);
+    // Get instance field: private System.Single _midRotation
+    float _get__midRotation();
+    // Set instance field: private System.Single _midRotation
+    void _set__midRotation(float value);
+    // Get instance field: private System.Single _rotationRange
+    float _get__rotationRange();
+    // Set instance field: private System.Single _rotationRange
+    void _set__rotationRange(float value);
     // public System.Boolean get_isMidRotationValid()
     // Offset: 0x1187E68
     bool get_isMidRotationValid();

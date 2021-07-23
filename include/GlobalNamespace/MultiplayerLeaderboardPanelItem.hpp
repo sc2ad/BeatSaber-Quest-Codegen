@@ -119,6 +119,58 @@ namespace GlobalNamespace {
     MultiplayerLeaderboardPanelItem(TMPro::TextMeshProUGUI* playerNameText_ = {}, TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* positionText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::Color normalPlayerTextColor_ = {}, UnityEngine::Color failedPlayerTextColor_ = {}, UnityEngine::Color firstPlayerBackgroundColor_ = {}, UnityEngine::Color lastPlayerBackgroundColor_ = {}, int prevPosition_ = {}, ::Il2CppString* prevPlayerName_ = {}, int prevScore_ = {}, bool prevFailed_ = {}, int prevNumberOfPlayers_ = {}) noexcept : playerNameText{playerNameText_}, scoreText{scoreText_}, positionText{positionText_}, backgroundImage{backgroundImage_}, normalPlayerTextColor{normalPlayerTextColor_}, failedPlayerTextColor{failedPlayerTextColor_}, firstPlayerBackgroundColor{firstPlayerBackgroundColor_}, lastPlayerBackgroundColor{lastPlayerBackgroundColor_}, prevPosition{prevPosition_}, prevPlayerName{prevPlayerName_}, prevScore{prevScore_}, prevFailed{prevFailed_}, prevNumberOfPlayers{prevNumberOfPlayers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _playerNameText
+    TMPro::TextMeshProUGUI* _get__playerNameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _playerNameText
+    void _set__playerNameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _scoreText
+    TMPro::TextMeshProUGUI* _get__scoreText();
+    // Set instance field: private TMPro.TextMeshProUGUI _scoreText
+    void _set__scoreText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _positionText
+    TMPro::TextMeshProUGUI* _get__positionText();
+    // Set instance field: private TMPro.TextMeshProUGUI _positionText
+    void _set__positionText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Image _backgroundImage
+    UnityEngine::UI::Image* _get__backgroundImage();
+    // Set instance field: private UnityEngine.UI.Image _backgroundImage
+    void _set__backgroundImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.Color _normalPlayerTextColor
+    UnityEngine::Color _get__normalPlayerTextColor();
+    // Set instance field: private UnityEngine.Color _normalPlayerTextColor
+    void _set__normalPlayerTextColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _failedPlayerTextColor
+    UnityEngine::Color _get__failedPlayerTextColor();
+    // Set instance field: private UnityEngine.Color _failedPlayerTextColor
+    void _set__failedPlayerTextColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _firstPlayerBackgroundColor
+    UnityEngine::Color _get__firstPlayerBackgroundColor();
+    // Set instance field: private UnityEngine.Color _firstPlayerBackgroundColor
+    void _set__firstPlayerBackgroundColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _lastPlayerBackgroundColor
+    UnityEngine::Color _get__lastPlayerBackgroundColor();
+    // Set instance field: private UnityEngine.Color _lastPlayerBackgroundColor
+    void _set__lastPlayerBackgroundColor(UnityEngine::Color value);
+    // Get instance field: private System.Int32 _prevPosition
+    int _get__prevPosition();
+    // Set instance field: private System.Int32 _prevPosition
+    void _set__prevPosition(int value);
+    // Get instance field: private System.String _prevPlayerName
+    ::Il2CppString* _get__prevPlayerName();
+    // Set instance field: private System.String _prevPlayerName
+    void _set__prevPlayerName(::Il2CppString* value);
+    // Get instance field: private System.Int32 _prevScore
+    int _get__prevScore();
+    // Set instance field: private System.Int32 _prevScore
+    void _set__prevScore(int value);
+    // Get instance field: private System.Boolean _prevFailed
+    bool _get__prevFailed();
+    // Set instance field: private System.Boolean _prevFailed
+    void _set__prevFailed(bool value);
+    // Get instance field: private System.Int32 _prevNumberOfPlayers
+    int _get__prevNumberOfPlayers();
+    // Set instance field: private System.Int32 _prevNumberOfPlayers
+    void _set__prevNumberOfPlayers(int value);
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x11AE84C
     void set_hide(bool value);

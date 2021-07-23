@@ -78,6 +78,38 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Constraints
     Constraints(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Vector3 position_ = {}, float positionWeight_ = {}, UnityEngine::Vector3 rotationOffset_ = {}, UnityEngine::Vector3 rotation_ = {}, float rotationWeight_ = {}) noexcept : transform{transform_}, target{target_}, positionOffset{positionOffset_}, position{position_}, positionWeight{positionWeight_}, rotationOffset{rotationOffset_}, rotation{rotation_}, rotationWeight{rotationWeight_} {}
+    // Get instance field: public UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: public UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform target
+    UnityEngine::Transform* _get_target();
+    // Set instance field: public UnityEngine.Transform target
+    void _set_target(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Vector3 positionOffset
+    UnityEngine::Vector3 _get_positionOffset();
+    // Set instance field: public UnityEngine.Vector3 positionOffset
+    void _set_positionOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 position
+    UnityEngine::Vector3 _get_position();
+    // Set instance field: public UnityEngine.Vector3 position
+    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single positionWeight
+    float _get_positionWeight();
+    // Set instance field: public System.Single positionWeight
+    void _set_positionWeight(float value);
+    // Get instance field: public UnityEngine.Vector3 rotationOffset
+    UnityEngine::Vector3 _get_rotationOffset();
+    // Set instance field: public UnityEngine.Vector3 rotationOffset
+    void _set_rotationOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 rotation
+    UnityEngine::Vector3 _get_rotation();
+    // Set instance field: public UnityEngine.Vector3 rotation
+    void _set_rotation(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single rotationWeight
+    float _get_rotationWeight();
+    // Set instance field: public System.Single rotationWeight
+    void _set_rotationWeight(float value);
     // public System.Boolean IsValid()
     // Offset: 0x1CE1134
     bool IsValid();

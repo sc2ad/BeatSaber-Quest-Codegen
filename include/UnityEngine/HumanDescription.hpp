@@ -114,6 +114,62 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.HumanBone[] human
+    ::Array<UnityEngine::HumanBone>* _get_human();
+    // Set instance field: public UnityEngine.HumanBone[] human
+    void _set_human(::Array<UnityEngine::HumanBone>* value);
+    // Get instance field: public UnityEngine.SkeletonBone[] skeleton
+    ::Array<UnityEngine::SkeletonBone>* _get_skeleton();
+    // Set instance field: public UnityEngine.SkeletonBone[] skeleton
+    void _set_skeleton(::Array<UnityEngine::SkeletonBone>* value);
+    // Get instance field: System.Single m_ArmTwist
+    float _get_m_ArmTwist();
+    // Set instance field: System.Single m_ArmTwist
+    void _set_m_ArmTwist(float value);
+    // Get instance field: System.Single m_ForeArmTwist
+    float _get_m_ForeArmTwist();
+    // Set instance field: System.Single m_ForeArmTwist
+    void _set_m_ForeArmTwist(float value);
+    // Get instance field: System.Single m_UpperLegTwist
+    float _get_m_UpperLegTwist();
+    // Set instance field: System.Single m_UpperLegTwist
+    void _set_m_UpperLegTwist(float value);
+    // Get instance field: System.Single m_LegTwist
+    float _get_m_LegTwist();
+    // Set instance field: System.Single m_LegTwist
+    void _set_m_LegTwist(float value);
+    // Get instance field: System.Single m_ArmStretch
+    float _get_m_ArmStretch();
+    // Set instance field: System.Single m_ArmStretch
+    void _set_m_ArmStretch(float value);
+    // Get instance field: System.Single m_LegStretch
+    float _get_m_LegStretch();
+    // Set instance field: System.Single m_LegStretch
+    void _set_m_LegStretch(float value);
+    // Get instance field: System.Single m_FeetSpacing
+    float _get_m_FeetSpacing();
+    // Set instance field: System.Single m_FeetSpacing
+    void _set_m_FeetSpacing(float value);
+    // Get instance field: System.Single m_GlobalScale
+    float _get_m_GlobalScale();
+    // Set instance field: System.Single m_GlobalScale
+    void _set_m_GlobalScale(float value);
+    // Get instance field: System.String m_RootMotionBoneName
+    ::Il2CppString* _get_m_RootMotionBoneName();
+    // Set instance field: System.String m_RootMotionBoneName
+    void _set_m_RootMotionBoneName(::Il2CppString* value);
+    // Get instance field: System.Boolean m_HasTranslationDoF
+    bool _get_m_HasTranslationDoF();
+    // Set instance field: System.Boolean m_HasTranslationDoF
+    void _set_m_HasTranslationDoF(bool value);
+    // Get instance field: System.Boolean m_HasExtraRoot
+    bool _get_m_HasExtraRoot();
+    // Set instance field: System.Boolean m_HasExtraRoot
+    void _set_m_HasExtraRoot(bool value);
+    // Get instance field: System.Boolean m_SkeletonHasParents
+    bool _get_m_SkeletonHasParents();
+    // Set instance field: System.Boolean m_SkeletonHasParents
+    void _set_m_SkeletonHasParents(bool value);
   }; // UnityEngine.HumanDescription
   #pragma pack(pop)
   static check_size<sizeof(HumanDescription), 58 + sizeof(bool)> __UnityEngine_HumanDescriptionSizeCheck;

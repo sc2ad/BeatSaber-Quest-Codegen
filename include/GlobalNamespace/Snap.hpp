@@ -35,6 +35,14 @@ namespace GlobalNamespace {
     Snap(UnityEngine::Vector3 snap_ = {}, UnityEngine::Vector3 offset_ = {}) noexcept : snap{snap_}, offset{offset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Vector3 snap
+    UnityEngine::Vector3 _get_snap();
+    // Set instance field: public UnityEngine.Vector3 snap
+    void _set_snap(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 offset
+    UnityEngine::Vector3 _get_offset();
+    // Set instance field: public UnityEngine.Vector3 offset
+    void _set_offset(UnityEngine::Vector3 value);
     // public System.Void SnapPosition()
     // Offset: 0x235A42C
     void SnapPosition();

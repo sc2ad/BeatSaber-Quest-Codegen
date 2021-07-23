@@ -49,6 +49,22 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.HmdVector3_t vPoint
+    OVR::OpenVR::HmdVector3_t _get_vPoint();
+    // Set instance field: public OVR.OpenVR.HmdVector3_t vPoint
+    void _set_vPoint(OVR::OpenVR::HmdVector3_t value);
+    // Get instance field: public OVR.OpenVR.HmdVector3_t vNormal
+    OVR::OpenVR::HmdVector3_t _get_vNormal();
+    // Set instance field: public OVR.OpenVR.HmdVector3_t vNormal
+    void _set_vNormal(OVR::OpenVR::HmdVector3_t value);
+    // Get instance field: public OVR.OpenVR.HmdVector2_t vUVs
+    OVR::OpenVR::HmdVector2_t _get_vUVs();
+    // Set instance field: public OVR.OpenVR.HmdVector2_t vUVs
+    void _set_vUVs(OVR::OpenVR::HmdVector2_t value);
+    // Get instance field: public System.Single fDistance
+    float _get_fDistance();
+    // Set instance field: public System.Single fDistance
+    void _set_fDistance(float value);
   }; // OVR.OpenVR.VROverlayIntersectionResults_t
   #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float)> __OVR_OpenVR_VROverlayIntersectionResults_tSizeCheck;

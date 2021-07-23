@@ -46,6 +46,14 @@ namespace UnityEngine::XR {
     operator System::IEquatable_1<UnityEngine::XR::Eyes>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::Eyes>*>(this);
     }
+    // Get instance field: private System.UInt64 m_DeviceId
+    uint64_t _get_m_DeviceId();
+    // Set instance field: private System.UInt64 m_DeviceId
+    void _set_m_DeviceId(uint64_t value);
+    // Get instance field: private System.UInt32 m_FeatureIndex
+    uint _get_m_FeatureIndex();
+    // Set instance field: private System.UInt32 m_FeatureIndex
+    void _set_m_FeatureIndex(uint value);
     // System.UInt64 get_deviceId()
     // Offset: 0xF0E34C
     uint64_t get_deviceId();

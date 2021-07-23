@@ -42,6 +42,10 @@ namespace Org::BouncyCastle::Math::Field {
     constexpr operator Org::BouncyCastle::Math::BigInteger*() const noexcept {
       return characteristic;
     }
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger characteristic
+    Org::BouncyCastle::Math::BigInteger* _get_characteristic();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger characteristic
+    void _set_characteristic(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
     // Offset: 0x1D9F800
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();

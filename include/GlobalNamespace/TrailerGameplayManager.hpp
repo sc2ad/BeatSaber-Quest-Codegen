@@ -70,6 +70,22 @@ namespace GlobalNamespace {
     TrailerGameplayManager(bool disableMainCamera_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}) noexcept : disableMainCamera{disableMainCamera_}, gameScenesManager{gameScenesManager_}, gameSongController{gameSongController_}, mainCamera{mainCamera_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Boolean _disableMainCamera
+    bool _get__disableMainCamera();
+    // Set instance field: private System.Boolean _disableMainCamera
+    void _set__disableMainCamera(bool value);
+    // Get instance field: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private GameSongController _gameSongController
+    GlobalNamespace::GameSongController* _get__gameSongController();
+    // Set instance field: private GameSongController _gameSongController
+    void _set__gameSongController(GlobalNamespace::GameSongController* value);
+    // Get instance field: private MainCamera _mainCamera
+    GlobalNamespace::MainCamera* _get__mainCamera();
+    // Set instance field: private MainCamera _mainCamera
+    void _set__mainCamera(GlobalNamespace::MainCamera* value);
     // private System.Collections.IEnumerator Start()
     // Offset: 0x1071484
     System::Collections::IEnumerator* Start();

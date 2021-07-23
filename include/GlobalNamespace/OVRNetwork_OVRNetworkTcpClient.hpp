@@ -90,6 +90,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
     // Creating value type constructor for type: OVRNetworkTcpClient
     OVRNetworkTcpClient(System::Action* connectionStateChangedCallback_ = {}, System::Action_4<int, ::Array<uint8_t>*, int, int>* payloadReceivedCallback_ = {}, System::Net::Sockets::TcpClient* tcpClient_ = {}, ::Array<::Array<uint8_t>*>* receivedBuffers_ = {}, int receivedBufferIndex_ = {}, int receivedBufferDataSize_ = {}, System::Threading::ManualResetEvent* readyReceiveDataEvent_ = {}) noexcept : connectionStateChangedCallback{connectionStateChangedCallback_}, payloadReceivedCallback{payloadReceivedCallback_}, tcpClient{tcpClient_}, receivedBuffers{receivedBuffers_}, receivedBufferIndex{receivedBufferIndex_}, receivedBufferDataSize{receivedBufferDataSize_}, readyReceiveDataEvent{readyReceiveDataEvent_} {}
+    // Get instance field: public System.Action connectionStateChangedCallback
+    System::Action* _get_connectionStateChangedCallback();
+    // Set instance field: public System.Action connectionStateChangedCallback
+    void _set_connectionStateChangedCallback(System::Action* value);
+    // Get instance field: public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
+    System::Action_4<int, ::Array<uint8_t>*, int, int>* _get_payloadReceivedCallback();
+    // Set instance field: public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
+    void _set_payloadReceivedCallback(System::Action_4<int, ::Array<uint8_t>*, int, int>* value);
+    // Get instance field: private System.Net.Sockets.TcpClient tcpClient
+    System::Net::Sockets::TcpClient* _get_tcpClient();
+    // Set instance field: private System.Net.Sockets.TcpClient tcpClient
+    void _set_tcpClient(System::Net::Sockets::TcpClient* value);
+    // Get instance field: private System.Byte[][] receivedBuffers
+    ::Array<::Array<uint8_t>*>* _get_receivedBuffers();
+    // Set instance field: private System.Byte[][] receivedBuffers
+    void _set_receivedBuffers(::Array<::Array<uint8_t>*>* value);
+    // Get instance field: private System.Int32 receivedBufferIndex
+    int _get_receivedBufferIndex();
+    // Set instance field: private System.Int32 receivedBufferIndex
+    void _set_receivedBufferIndex(int value);
+    // Get instance field: private System.Int32 receivedBufferDataSize
+    int _get_receivedBufferDataSize();
+    // Set instance field: private System.Int32 receivedBufferDataSize
+    void _set_receivedBufferDataSize(int value);
+    // Get instance field: private System.Threading.ManualResetEvent readyReceiveDataEvent
+    System::Threading::ManualResetEvent* _get_readyReceiveDataEvent();
+    // Set instance field: private System.Threading.ManualResetEvent readyReceiveDataEvent
+    void _set_readyReceiveDataEvent(System::Threading::ManualResetEvent* value);
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
     // Offset: 0x12E7178
     GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();

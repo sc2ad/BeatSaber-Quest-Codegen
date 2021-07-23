@@ -116,6 +116,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnvironmentInfoSO*) == 0x8);
     // Creating value type constructor for type: StandardLevelScenesTransitionSetupDataSO
     StandardLevelScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* standardGameplaySceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* didFinishEvent_ = {}, ::Il2CppString* gameMode_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::PracticeSettings* practiceSettings_ = {}, bool usingOverrideColorScheme_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}, bool usingOverrideEnvironment_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}) noexcept : standardGameplaySceneInfo{standardGameplaySceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_}, gameMode{gameMode_}, difficultyBeatmap{difficultyBeatmap_}, practiceSettings{practiceSettings_}, usingOverrideColorScheme{usingOverrideColorScheme_}, colorScheme{colorScheme_}, usingOverrideEnvironment{usingOverrideEnvironment_}, environmentInfo{environmentInfo_} {}
+    // Get instance field: private SceneInfo _standardGameplaySceneInfo
+    GlobalNamespace::SceneInfo* _get__standardGameplaySceneInfo();
+    // Set instance field: private SceneInfo _standardGameplaySceneInfo
+    void _set__standardGameplaySceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private SceneInfo _gameCoreSceneInfo
+    GlobalNamespace::SceneInfo* _get__gameCoreSceneInfo();
+    // Set instance field: private SceneInfo _gameCoreSceneInfo
+    void _set__gameCoreSceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> didFinishEvent
+    System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> didFinishEvent
+    void _set_didFinishEvent(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
+    // Get instance field: private System.String <gameMode>k__BackingField
+    ::Il2CppString* _get_$gameMode$k__BackingField();
+    // Set instance field: private System.String <gameMode>k__BackingField
+    void _set_$gameMode$k__BackingField(::Il2CppString* value);
+    // Get instance field: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
+    GlobalNamespace::IDifficultyBeatmap* _get_$difficultyBeatmap$k__BackingField();
+    // Set instance field: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
+    void _set_$difficultyBeatmap$k__BackingField(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: private PracticeSettings <practiceSettings>k__BackingField
+    GlobalNamespace::PracticeSettings* _get_$practiceSettings$k__BackingField();
+    // Set instance field: private PracticeSettings <practiceSettings>k__BackingField
+    void _set_$practiceSettings$k__BackingField(GlobalNamespace::PracticeSettings* value);
+    // Get instance field: private System.Boolean <usingOverrideColorScheme>k__BackingField
+    bool _get_$usingOverrideColorScheme$k__BackingField();
+    // Set instance field: private System.Boolean <usingOverrideColorScheme>k__BackingField
+    void _set_$usingOverrideColorScheme$k__BackingField(bool value);
+    // Get instance field: private ColorScheme <colorScheme>k__BackingField
+    GlobalNamespace::ColorScheme* _get_$colorScheme$k__BackingField();
+    // Set instance field: private ColorScheme <colorScheme>k__BackingField
+    void _set_$colorScheme$k__BackingField(GlobalNamespace::ColorScheme* value);
+    // Get instance field: private System.Boolean <usingOverrideEnvironment>k__BackingField
+    bool _get_$usingOverrideEnvironment$k__BackingField();
+    // Set instance field: private System.Boolean <usingOverrideEnvironment>k__BackingField
+    void _set_$usingOverrideEnvironment$k__BackingField(bool value);
+    // Get instance field: private EnvironmentInfoSO <environmentInfo>k__BackingField
+    GlobalNamespace::EnvironmentInfoSO* _get_$environmentInfo$k__BackingField();
+    // Set instance field: private EnvironmentInfoSO <environmentInfo>k__BackingField
+    void _set_$environmentInfo$k__BackingField(GlobalNamespace::EnvironmentInfoSO* value);
     // public System.String get_gameMode()
     // Offset: 0x1066C44
     ::Il2CppString* get_gameMode();

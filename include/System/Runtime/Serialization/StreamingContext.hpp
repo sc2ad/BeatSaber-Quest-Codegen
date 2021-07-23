@@ -41,6 +41,14 @@ namespace System::Runtime::Serialization {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Object m_additionalContext
+    ::Il2CppObject* _get_m_additionalContext();
+    // Set instance field: System.Object m_additionalContext
+    void _set_m_additionalContext(::Il2CppObject* value);
+    // Get instance field: System.Runtime.Serialization.StreamingContextStates m_state
+    System::Runtime::Serialization::StreamingContextStates _get_m_state();
+    // Set instance field: System.Runtime.Serialization.StreamingContextStates m_state
+    void _set_m_state(System::Runtime::Serialization::StreamingContextStates value);
     // public System.Runtime.Serialization.StreamingContextStates get_State()
     // Offset: 0xEE2A04
     System::Runtime::Serialization::StreamingContextStates get_State();

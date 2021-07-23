@@ -49,6 +49,10 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketShutdown _get_Both();
     // Set static field: static public System.Net.Sockets.SocketShutdown Both
     static void _set_Both(System::Net::Sockets::SocketShutdown value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Sockets.SocketShutdown
   #pragma pack(pop)
   static check_size<sizeof(SocketShutdown), 0 + sizeof(int)> __System_Net_Sockets_SocketShutdownSizeCheck;

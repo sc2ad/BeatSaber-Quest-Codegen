@@ -58,6 +58,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: PositionOffsetLink
     PositionOffsetLink(RootMotion::FinalIK::IKSolverVR::PositionOffset positionOffset_ = {}, float weight_ = {}, UnityEngine::Vector3 lastValue_ = {}, UnityEngine::Vector3 current_ = {}) noexcept : positionOffset{positionOffset_}, weight{weight_}, lastValue{lastValue_}, current{current_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset positionOffset
+    RootMotion::FinalIK::IKSolverVR::PositionOffset _get_positionOffset();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset positionOffset
+    void _set_positionOffset(RootMotion::FinalIK::IKSolverVR::PositionOffset value);
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: private UnityEngine.Vector3 lastValue
+    UnityEngine::Vector3 _get_lastValue();
+    // Set instance field: private UnityEngine.Vector3 lastValue
+    void _set_lastValue(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 current
+    UnityEngine::Vector3 _get_current();
+    // Set instance field: private UnityEngine.Vector3 current
+    void _set_current(UnityEngine::Vector3 value);
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Vector3 offset, System.Single crossFader)
     // Offset: 0x1C95DB8
     void Apply(RootMotion::FinalIK::VRIK* ik, UnityEngine::Vector3 offset, float crossFader);

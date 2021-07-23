@@ -76,6 +76,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MovementData
     MovementData(bool enabled_ = {}, float speed_ = {}, UnityEngine::Vector3 startPosition_ = {}, UnityEngine::Transform* transform_ = {}, float startMovementValue_ = {}, float movementValue_ = {}, float side_ = {}) noexcept : enabled{enabled_}, speed{speed_}, startPosition{startPosition_}, transform{transform_}, startMovementValue{startMovementValue_}, movementValue{movementValue_}, side{side_} {}
+    // Get instance field: public System.Boolean enabled
+    bool _get_enabled();
+    // Set instance field: public System.Boolean enabled
+    void _set_enabled(bool value);
+    // Get instance field: public System.Single speed
+    float _get_speed();
+    // Set instance field: public System.Single speed
+    void _set_speed(float value);
+    // Get instance field: public UnityEngine.Vector3 startPosition
+    UnityEngine::Vector3 _get_startPosition();
+    // Set instance field: public UnityEngine.Vector3 startPosition
+    void _set_startPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: public UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: public System.Single startMovementValue
+    float _get_startMovementValue();
+    // Set instance field: public System.Single startMovementValue
+    void _set_startMovementValue(float value);
+    // Get instance field: public System.Single movementValue
+    float _get_movementValue();
+    // Set instance field: public System.Single movementValue
+    void _set_movementValue(float value);
+    // Get instance field: public System.Single side
+    float _get_side();
+    // Set instance field: public System.Single side
+    void _set_side(float value);
     // public System.Void .ctor()
     // Offset: 0x11B7804
     // Implemented from: System.Object

@@ -175,6 +175,70 @@ namespace GlobalNamespace {
     MultiplayerLocalInactivePlayerInGameMenuViewController(UnityEngine::UI::Button* disconnectButton_ = {}, Polyglot::LocalizedTextMeshProUGUI* disconnectButtonLocalizedText_ = {}, UnityEngine::UI::Toggle* detailsToggle_ = {}, UnityEngine::CanvasGroup* globalCanvasGroup_ = {}, UnityEngine::GameObject* mainBar_ = {}, GlobalNamespace::DisconnectPromptView* disconnectPromptView_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, UnityEngine::GameObject* dontOwnSongGameObject_ = {}, UnityEngine::GameObject* detailsGameObject_ = {}, GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData_ = {}, GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, Tweening::Tween* fadeOutTween_ = {}) noexcept : disconnectButton{disconnectButton_}, disconnectButtonLocalizedText{disconnectButtonLocalizedText_}, detailsToggle{detailsToggle_}, globalCanvasGroup{globalCanvasGroup_}, mainBar{mainBar_}, disconnectPromptView{disconnectPromptView_}, levelBar{levelBar_}, dontOwnSongGameObject{dontOwnSongGameObject_}, detailsGameObject{detailsGameObject_}, localPlayerInGameMenuInitData{localPlayerInGameMenuInitData_}, disconnectHelper{disconnectHelper_}, multiplayerController{multiplayerController_}, tweeningManager{tweeningManager_}, buttonBinder{buttonBinder_}, toggleBinder{toggleBinder_}, fadeOutTween{fadeOutTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Button _disconnectButton
+    UnityEngine::UI::Button* _get__disconnectButton();
+    // Set instance field: private UnityEngine.UI.Button _disconnectButton
+    void _set__disconnectButton(UnityEngine::UI::Button* value);
+    // Get instance field: private Polyglot.LocalizedTextMeshProUGUI _disconnectButtonLocalizedText
+    Polyglot::LocalizedTextMeshProUGUI* _get__disconnectButtonLocalizedText();
+    // Set instance field: private Polyglot.LocalizedTextMeshProUGUI _disconnectButtonLocalizedText
+    void _set__disconnectButtonLocalizedText(Polyglot::LocalizedTextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Toggle _detailsToggle
+    UnityEngine::UI::Toggle* _get__detailsToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _detailsToggle
+    void _set__detailsToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private UnityEngine.CanvasGroup _globalCanvasGroup
+    UnityEngine::CanvasGroup* _get__globalCanvasGroup();
+    // Set instance field: private UnityEngine.CanvasGroup _globalCanvasGroup
+    void _set__globalCanvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: private UnityEngine.GameObject _mainBar
+    UnityEngine::GameObject* _get__mainBar();
+    // Set instance field: private UnityEngine.GameObject _mainBar
+    void _set__mainBar(UnityEngine::GameObject* value);
+    // Get instance field: private DisconnectPromptView _disconnectPromptView
+    GlobalNamespace::DisconnectPromptView* _get__disconnectPromptView();
+    // Set instance field: private DisconnectPromptView _disconnectPromptView
+    void _set__disconnectPromptView(GlobalNamespace::DisconnectPromptView* value);
+    // Get instance field: private LevelBar _levelBar
+    GlobalNamespace::LevelBar* _get__levelBar();
+    // Set instance field: private LevelBar _levelBar
+    void _set__levelBar(GlobalNamespace::LevelBar* value);
+    // Get instance field: private UnityEngine.GameObject _dontOwnSongGameObject
+    UnityEngine::GameObject* _get__dontOwnSongGameObject();
+    // Set instance field: private UnityEngine.GameObject _dontOwnSongGameObject
+    void _set__dontOwnSongGameObject(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _detailsGameObject
+    UnityEngine::GameObject* _get__detailsGameObject();
+    // Set instance field: private UnityEngine.GameObject _detailsGameObject
+    void _set__detailsGameObject(UnityEngine::GameObject* value);
+    // Get instance field: private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
+    GlobalNamespace::LocalPlayerInGameMenuInitData* _get__localPlayerInGameMenuInitData();
+    // Set instance field: private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
+    void _set__localPlayerInGameMenuInitData(GlobalNamespace::LocalPlayerInGameMenuInitData* value);
+    // Get instance field: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
+    GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* _get__disconnectHelper();
+    // Set instance field: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
+    void _set__disconnectHelper(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* value);
+    // Get instance field: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController* _get__multiplayerController();
+    // Set instance field: private readonly MultiplayerController _multiplayerController
+    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
+    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager* _get__tweeningManager();
+    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
+    void _set__tweeningManager(Tweening::TweeningManager* value);
+    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field: private readonly HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder* _get__toggleBinder();
+    // Set instance field: private readonly HMUI.ToggleBinder _toggleBinder
+    void _set__toggleBinder(HMUI::ToggleBinder* value);
+    // Get instance field: private Tweening.Tween _fadeOutTween
+    Tweening::Tween* _get__fadeOutTween();
+    // Set instance field: private Tweening.Tween _fadeOutTween
+    void _set__fadeOutTween(Tweening::Tween* value);
     // protected System.Void OnEnable()
     // Offset: 0x23D7448
     void OnEnable();

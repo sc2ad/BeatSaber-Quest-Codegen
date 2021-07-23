@@ -54,6 +54,10 @@ namespace MasterServer {
     constexpr operator GlobalNamespace::ByteArrayNetSerializable*() const noexcept {
       return clientPublicKey;
     }
+    // Get instance field: public readonly ByteArrayNetSerializable clientPublicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_clientPublicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable clientPublicKey
+    void _set_clientPublicKey(GlobalNamespace::ByteArrayNetSerializable* value);
     // static public PacketPool`1<MasterServer.ClientKeyExchangeRequest> get_pool()
     // Offset: 0x12CE23C
     static GlobalNamespace::PacketPool_1<MasterServer::ClientKeyExchangeRequest*>* get_pool();

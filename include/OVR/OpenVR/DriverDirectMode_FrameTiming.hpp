@@ -51,6 +51,26 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt32 m_nSize
+    uint _get_m_nSize();
+    // Set instance field: public System.UInt32 m_nSize
+    void _set_m_nSize(uint value);
+    // Get instance field: public System.UInt32 m_nNumFramePresents
+    uint _get_m_nNumFramePresents();
+    // Set instance field: public System.UInt32 m_nNumFramePresents
+    void _set_m_nNumFramePresents(uint value);
+    // Get instance field: public System.UInt32 m_nNumMisPresented
+    uint _get_m_nNumMisPresented();
+    // Set instance field: public System.UInt32 m_nNumMisPresented
+    void _set_m_nNumMisPresented(uint value);
+    // Get instance field: public System.UInt32 m_nNumDroppedFrames
+    uint _get_m_nNumDroppedFrames();
+    // Set instance field: public System.UInt32 m_nNumDroppedFrames
+    void _set_m_nNumDroppedFrames(uint value);
+    // Get instance field: public System.UInt32 m_nReprojectionFlags
+    uint _get_m_nReprojectionFlags();
+    // Set instance field: public System.UInt32 m_nReprojectionFlags
+    void _set_m_nReprojectionFlags(uint value);
   }; // OVR.OpenVR.DriverDirectMode_FrameTiming
   #pragma pack(pop)
   static check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint)> __OVR_OpenVR_DriverDirectMode_FrameTimingSizeCheck;

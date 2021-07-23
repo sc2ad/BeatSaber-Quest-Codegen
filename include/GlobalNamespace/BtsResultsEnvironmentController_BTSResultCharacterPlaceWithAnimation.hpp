@@ -78,6 +78,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     // Creating value type constructor for type: BTSResultCharacterPlaceWithAnimation
     BTSResultCharacterPlaceWithAnimation(::Il2CppString* name_ = {}, UnityEngine::Transform* placeTransform_ = {}, GlobalNamespace::BTSCharacterResultAnimationController* animationController_ = {}, UnityEngine::AnimationClip* animationClip_ = {}, GlobalNamespace::BTSCharacter* btsCharacter_ = {}, UnityEngine::AddressableAssets::AssetReference* btsCharacterAssetReference_ = {}) noexcept : name{name_}, placeTransform{placeTransform_}, animationController{animationController_}, animationClip{animationClip_}, btsCharacter{btsCharacter_}, btsCharacterAssetReference{btsCharacterAssetReference_} {}
+    // Get instance field: private System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: private System.String _name
+    void _set__name(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Transform _placeTransform
+    UnityEngine::Transform* _get__placeTransform();
+    // Set instance field: private UnityEngine.Transform _placeTransform
+    void _set__placeTransform(UnityEngine::Transform* value);
+    // Get instance field: private BTSCharacterResultAnimationController _animationController
+    GlobalNamespace::BTSCharacterResultAnimationController* _get__animationController();
+    // Set instance field: private BTSCharacterResultAnimationController _animationController
+    void _set__animationController(GlobalNamespace::BTSCharacterResultAnimationController* value);
+    // Get instance field: private UnityEngine.AnimationClip _animationClip
+    UnityEngine::AnimationClip* _get__animationClip();
+    // Set instance field: private UnityEngine.AnimationClip _animationClip
+    void _set__animationClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private BTSCharacter _btsCharacter
+    GlobalNamespace::BTSCharacter* _get__btsCharacter();
+    // Set instance field: private BTSCharacter _btsCharacter
+    void _set__btsCharacter(GlobalNamespace::BTSCharacter* value);
+    // Get instance field: private UnityEngine.AddressableAssets.AssetReference _btsCharacterAssetReference
+    UnityEngine::AddressableAssets::AssetReference* _get__btsCharacterAssetReference();
+    // Set instance field: private UnityEngine.AddressableAssets.AssetReference _btsCharacterAssetReference
+    void _set__btsCharacterAssetReference(UnityEngine::AddressableAssets::AssetReference* value);
     // public System.String get_name()
     // Offset: 0x109FDDC
     ::Il2CppString* get_name();

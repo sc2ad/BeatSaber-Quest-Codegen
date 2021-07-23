@@ -34,6 +34,10 @@ namespace UnityEngine::Scripting {
     constexpr operator ::Il2CppString*() const noexcept {
       return Name;
     }
+    // Get instance field: private System.String <Name>k__BackingField
+    ::Il2CppString* _get_$Name$k__BackingField();
+    // Set instance field: private System.String <Name>k__BackingField
+    void _set_$Name$k__BackingField(::Il2CppString* value);
     // public System.Void set_Name(System.String value)
     // Offset: 0x23C2330
     void set_Name(::Il2CppString* value);

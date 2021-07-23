@@ -64,6 +64,14 @@ namespace Org::BouncyCastle::Asn1 {
     static int _get_DefaultChunkSize();
     // Set static field: static private readonly System.Int32 DefaultChunkSize
     static void _set_DefaultChunkSize(int value);
+    // Get instance field: private readonly System.Int32 chunkSize
+    int _get_chunkSize();
+    // Set instance field: private readonly System.Int32 chunkSize
+    void _set_chunkSize(int value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString[] octs
+    ::Array<Org::BouncyCastle::Asn1::Asn1OctetString*>* _get_octs();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString[] octs
+    void _set_octs(::Array<Org::BouncyCastle::Asn1::Asn1OctetString*>* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1OctetString[] octs)
     // Offset: 0x16D9620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

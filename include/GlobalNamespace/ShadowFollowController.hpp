@@ -72,6 +72,30 @@ namespace GlobalNamespace {
     ShadowFollowController(UnityEngine::Transform* shadowTransform_ = {}, UnityEngine::Transform* targetTransform_ = {}, UnityEngine::SpriteRenderer* shadowSpriteRenderer_ = {}, UnityEngine::Vector2 shadowHeightRange_ = {}, UnityEngine::Vector2 shadowSizeRange_ = {}, UnityEngine::Vector2 shadowAlphaRange_ = {}) noexcept : shadowTransform{shadowTransform_}, targetTransform{targetTransform_}, shadowSpriteRenderer{shadowSpriteRenderer_}, shadowHeightRange{shadowHeightRange_}, shadowSizeRange{shadowSizeRange_}, shadowAlphaRange{shadowAlphaRange_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _shadowTransform
+    UnityEngine::Transform* _get__shadowTransform();
+    // Set instance field: private UnityEngine.Transform _shadowTransform
+    void _set__shadowTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _targetTransform
+    UnityEngine::Transform* _get__targetTransform();
+    // Set instance field: private UnityEngine.Transform _targetTransform
+    void _set__targetTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.SpriteRenderer _shadowSpriteRenderer
+    UnityEngine::SpriteRenderer* _get__shadowSpriteRenderer();
+    // Set instance field: private UnityEngine.SpriteRenderer _shadowSpriteRenderer
+    void _set__shadowSpriteRenderer(UnityEngine::SpriteRenderer* value);
+    // Get instance field: private UnityEngine.Vector2 _shadowHeightRange
+    UnityEngine::Vector2 _get__shadowHeightRange();
+    // Set instance field: private UnityEngine.Vector2 _shadowHeightRange
+    void _set__shadowHeightRange(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 _shadowSizeRange
+    UnityEngine::Vector2 _get__shadowSizeRange();
+    // Set instance field: private UnityEngine.Vector2 _shadowSizeRange
+    void _set__shadowSizeRange(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 _shadowAlphaRange
+    UnityEngine::Vector2 _get__shadowAlphaRange();
+    // Set instance field: private UnityEngine.Vector2 _shadowAlphaRange
+    void _set__shadowAlphaRange(UnityEngine::Vector2 value);
     // public System.Void SetTargetTransform(UnityEngine.Transform target)
     // Offset: 0x105363C
     void SetTargetTransform(UnityEngine::Transform* target);

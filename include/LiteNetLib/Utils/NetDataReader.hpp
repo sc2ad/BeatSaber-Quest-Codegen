@@ -63,6 +63,22 @@ namespace LiteNetLib::Utils {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: NetDataReader
     NetDataReader(::Array<uint8_t>* data_ = {}, int position_ = {}, int dataSize_ = {}, int offset_ = {}) noexcept : data{data_}, position{position_}, dataSize{dataSize_}, offset{offset_} {}
+    // Get instance field: protected System.Byte[] _data
+    ::Array<uint8_t>* _get__data();
+    // Set instance field: protected System.Byte[] _data
+    void _set__data(::Array<uint8_t>* value);
+    // Get instance field: protected System.Int32 _position
+    int _get__position();
+    // Set instance field: protected System.Int32 _position
+    void _set__position(int value);
+    // Get instance field: protected System.Int32 _dataSize
+    int _get__dataSize();
+    // Set instance field: protected System.Int32 _dataSize
+    void _set__dataSize(int value);
+    // Get instance field: private System.Int32 _offset
+    int _get__offset();
+    // Set instance field: private System.Int32 _offset
+    void _set__offset(int value);
     // public System.Byte[] get_RawData()
     // Offset: 0x1BBDD88
     ::Array<uint8_t>* get_RawData();

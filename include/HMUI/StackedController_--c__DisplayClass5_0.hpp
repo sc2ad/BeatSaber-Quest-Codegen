@@ -45,6 +45,10 @@ namespace HMUI {
     constexpr operator int() const noexcept {
       return numberOfViewControllersToPop;
     }
+    // Get instance field: public System.Int32 numberOfViewControllersToPop
+    int _get_numberOfViewControllersToPop();
+    // Set instance field: public System.Int32 numberOfViewControllersToPop
+    void _set_numberOfViewControllersToPop(int value);
     // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
     // Offset: 0x129EF68
     void $PopViewControllers$g__AnimationLayouter_0(float t, ::Array<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);

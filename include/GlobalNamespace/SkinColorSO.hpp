@@ -37,6 +37,14 @@ namespace GlobalNamespace {
     SkinColorSO(::Il2CppString* id_ = {}, UnityEngine::Color color_ = {}) noexcept : id{id_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _id
+    ::Il2CppString* _get__id();
+    // Set instance field: private System.String _id
+    void _set__id(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
     // public System.String get_id()
     // Offset: 0x1058794
     ::Il2CppString* get_id();

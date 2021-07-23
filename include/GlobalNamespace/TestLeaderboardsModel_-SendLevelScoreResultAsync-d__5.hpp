@@ -65,6 +65,26 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<OnlineServices.SendLeaderboardEntryResult> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::SendLeaderboardEntryResult> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<OnlineServices.SendLeaderboardEntryResult> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::SendLeaderboardEntryResult> value);
+    // Get instance field: public TestLeaderboardsModel <>4__this
+    GlobalNamespace::TestLeaderboardsModel* _get_$$4__this();
+    // Set instance field: public TestLeaderboardsModel <>4__this
+    void _set_$$4__this(GlobalNamespace::TestLeaderboardsModel* value);
+    // Get instance field: public OnlineServices.LevelScoreResultsData levelScoreResult
+    OnlineServices::LevelScoreResultsData _get_levelScoreResult();
+    // Set instance field: public OnlineServices.LevelScoreResultsData levelScoreResult
+    void _set_levelScoreResult(OnlineServices::LevelScoreResultsData value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xECFBF4
     void MoveNext();

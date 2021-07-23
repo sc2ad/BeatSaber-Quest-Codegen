@@ -102,6 +102,30 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kNonSelectableCellIdentifier();
     // Set static field: static private System.String kNonSelectableCellIdentifier
     static void _set_kNonSelectableCellIdentifier(::Il2CppString* value);
+    // Get instance field: private HMUI.TableView _tableView
+    HMUI::TableView* _get__tableView();
+    // Set instance field: private HMUI.TableView _tableView
+    void _set__tableView(HMUI::TableView* value);
+    // Get instance field: private DifficultyTableCell _cellPrefab
+    GlobalNamespace::DifficultyTableCell* _get__cellPrefab();
+    // Set instance field: private DifficultyTableCell _cellPrefab
+    void _set__cellPrefab(GlobalNamespace::DifficultyTableCell* value);
+    // Get instance field: private DifficultyTableCell _nonSelectableCellPrefab
+    GlobalNamespace::DifficultyTableCell* _get__nonSelectableCellPrefab();
+    // Set instance field: private DifficultyTableCell _nonSelectableCellPrefab
+    void _set__nonSelectableCellPrefab(GlobalNamespace::DifficultyTableCell* value);
+    // Get instance field: private System.Single _cellHeight
+    float _get__cellHeight();
+    // Set instance field: private System.Single _cellHeight
+    void _set__cellHeight(float value);
+    // Get instance field: private System.Action`2<DifficultyTableView,System.Int32> didSelectRow
+    System::Action_2<GlobalNamespace::DifficultyTableView*, int>* _get_didSelectRow();
+    // Set instance field: private System.Action`2<DifficultyTableView,System.Int32> didSelectRow
+    void _set_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);
+    // Get instance field: private IDifficultyBeatmap[] _difficultyBeatmaps
+    ::Array<GlobalNamespace::IDifficultyBeatmap*>* _get__difficultyBeatmaps();
+    // Set instance field: private IDifficultyBeatmap[] _difficultyBeatmaps
+    void _set__difficultyBeatmaps(::Array<GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
     // Offset: 0x1089E5C
     void add_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);

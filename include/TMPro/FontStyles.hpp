@@ -97,6 +97,10 @@ namespace TMPro {
     static TMPro::FontStyles _get_Highlight();
     // Set static field: static public TMPro.FontStyles Highlight
     static void _set_Highlight(TMPro::FontStyles value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.FontStyles
   #pragma pack(pop)
   static check_size<sizeof(FontStyles), 0 + sizeof(int)> __TMPro_FontStylesSizeCheck;

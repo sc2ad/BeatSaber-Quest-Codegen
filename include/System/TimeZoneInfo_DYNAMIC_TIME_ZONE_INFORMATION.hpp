@@ -46,6 +46,18 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
+    System::TimeZoneInfo::TIME_ZONE_INFORMATION _get_TZI();
+    // Set instance field: System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
+    void _set_TZI(System::TimeZoneInfo::TIME_ZONE_INFORMATION value);
+    // Get instance field: System.String TimeZoneKeyName
+    ::Il2CppString* _get_TimeZoneKeyName();
+    // Set instance field: System.String TimeZoneKeyName
+    void _set_TimeZoneKeyName(::Il2CppString* value);
+    // Get instance field: System.Byte DynamicDaylightTimeDisabled
+    uint8_t _get_DynamicDaylightTimeDisabled();
+    // Set instance field: System.Byte DynamicDaylightTimeDisabled
+    void _set_DynamicDaylightTimeDisabled(uint8_t value);
   }; // System.TimeZoneInfo/System.DYNAMIC_TIME_ZONE_INFORMATION
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION), 80 + sizeof(uint8_t)> __System_TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATIONSizeCheck;

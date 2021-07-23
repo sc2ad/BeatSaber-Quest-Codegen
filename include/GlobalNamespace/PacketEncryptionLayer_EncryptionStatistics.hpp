@@ -69,6 +69,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: EncryptionStatistics
     EncryptionStatistics(int64_t packetsReceivedPlaintext_ = {}, int64_t packetsReceivedEncrypted_ = {}, int64_t packetsReceivedRejected_ = {}, int64_t packetsSentPlaintext_ = {}, int64_t packetsSentEncrypted_ = {}, int64_t packetsSentRejected_ = {}, int64_t encryptionProcessingTime_ = {}, int64_t decryptionProcessingTime_ = {}) noexcept : packetsReceivedPlaintext{packetsReceivedPlaintext_}, packetsReceivedEncrypted{packetsReceivedEncrypted_}, packetsReceivedRejected{packetsReceivedRejected_}, packetsSentPlaintext{packetsSentPlaintext_}, packetsSentEncrypted{packetsSentEncrypted_}, packetsSentRejected{packetsSentRejected_}, encryptionProcessingTime{encryptionProcessingTime_}, decryptionProcessingTime{decryptionProcessingTime_} {}
+    // Get instance field: private System.Int64 _packetsReceivedPlaintext
+    int64_t _get__packetsReceivedPlaintext();
+    // Set instance field: private System.Int64 _packetsReceivedPlaintext
+    void _set__packetsReceivedPlaintext(int64_t value);
+    // Get instance field: private System.Int64 _packetsReceivedEncrypted
+    int64_t _get__packetsReceivedEncrypted();
+    // Set instance field: private System.Int64 _packetsReceivedEncrypted
+    void _set__packetsReceivedEncrypted(int64_t value);
+    // Get instance field: private System.Int64 _packetsReceivedRejected
+    int64_t _get__packetsReceivedRejected();
+    // Set instance field: private System.Int64 _packetsReceivedRejected
+    void _set__packetsReceivedRejected(int64_t value);
+    // Get instance field: private System.Int64 _packetsSentPlaintext
+    int64_t _get__packetsSentPlaintext();
+    // Set instance field: private System.Int64 _packetsSentPlaintext
+    void _set__packetsSentPlaintext(int64_t value);
+    // Get instance field: private System.Int64 _packetsSentEncrypted
+    int64_t _get__packetsSentEncrypted();
+    // Set instance field: private System.Int64 _packetsSentEncrypted
+    void _set__packetsSentEncrypted(int64_t value);
+    // Get instance field: private System.Int64 _packetsSentRejected
+    int64_t _get__packetsSentRejected();
+    // Set instance field: private System.Int64 _packetsSentRejected
+    void _set__packetsSentRejected(int64_t value);
+    // Get instance field: private System.Int64 _encryptionProcessingTime
+    int64_t _get__encryptionProcessingTime();
+    // Set instance field: private System.Int64 _encryptionProcessingTime
+    void _set__encryptionProcessingTime(int64_t value);
+    // Get instance field: private System.Int64 _decryptionProcessingTime
+    int64_t _get__decryptionProcessingTime();
+    // Set instance field: private System.Int64 _decryptionProcessingTime
+    void _set__decryptionProcessingTime(int64_t value);
     // public System.Int64 get_packetsReceivedPlaintext()
     // Offset: 0x153BFB8
     int64_t get_packetsReceivedPlaintext();

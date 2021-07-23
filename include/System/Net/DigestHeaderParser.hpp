@@ -47,6 +47,22 @@ namespace System::Net {
     static ::Array<::Il2CppString*>* _get_keywords();
     // Set static field: static private System.String[] keywords
     static void _set_keywords(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.String header
+    ::Il2CppString* _get_header();
+    // Set instance field: private System.String header
+    void _set_header(::Il2CppString* value);
+    // Get instance field: private System.Int32 length
+    int _get_length();
+    // Set instance field: private System.Int32 length
+    void _set_length(int value);
+    // Get instance field: private System.Int32 pos
+    int _get_pos();
+    // Set instance field: private System.Int32 pos
+    void _set_pos(int value);
+    // Get instance field: private System.String[] values
+    ::Array<::Il2CppString*>* _get_values();
+    // Set instance field: private System.String[] values
+    void _set_values(::Array<::Il2CppString*>* value);
     // public System.String get_Realm()
     // Offset: 0x169E204
     ::Il2CppString* get_Realm();

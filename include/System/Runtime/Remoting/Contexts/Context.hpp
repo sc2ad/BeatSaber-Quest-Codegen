@@ -151,6 +151,46 @@ namespace System::Runtime::Remoting::Contexts {
     static System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _get_global_dynamic_properties();
     // Set static field: static private System.Runtime.Remoting.Contexts.DynamicPropertyCollection global_dynamic_properties
     static void _set_global_dynamic_properties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+    // Get instance field: private System.Int32 domain_id
+    int _get_domain_id();
+    // Set instance field: private System.Int32 domain_id
+    void _set_domain_id(int value);
+    // Get instance field: private System.Int32 context_id
+    int _get_context_id();
+    // Set instance field: private System.Int32 context_id
+    void _set_context_id(int value);
+    // Get instance field: private System.UIntPtr static_data
+    System::UIntPtr _get_static_data();
+    // Set instance field: private System.UIntPtr static_data
+    void _set_static_data(System::UIntPtr value);
+    // Get instance field: private System.UIntPtr data
+    System::UIntPtr _get_data();
+    // Set instance field: private System.UIntPtr data
+    void _set_data(System::UIntPtr value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink server_context_sink_chain
+    System::Runtime::Remoting::Messaging::IMessageSink* _get_server_context_sink_chain();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink server_context_sink_chain
+    void _set_server_context_sink_chain(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink client_context_sink_chain
+    System::Runtime::Remoting::Messaging::IMessageSink* _get_client_context_sink_chain();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink client_context_sink_chain
+    void _set_client_context_sink_chain(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Runtime.Remoting.Contexts.IContextProperty> context_properties
+    System::Collections::Generic::List_1<System::Runtime::Remoting::Contexts::IContextProperty*>* _get_context_properties();
+    // Set instance field: private System.Collections.Generic.List`1<System.Runtime.Remoting.Contexts.IContextProperty> context_properties
+    void _set_context_properties(System::Collections::Generic::List_1<System::Runtime::Remoting::Contexts::IContextProperty*>* value);
+    // Get instance field: private System.LocalDataStoreHolder _localDataStore
+    System::LocalDataStoreHolder* _get__localDataStore();
+    // Set instance field: private System.LocalDataStoreHolder _localDataStore
+    void _set__localDataStore(System::LocalDataStoreHolder* value);
+    // Get instance field: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection context_dynamic_properties
+    System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _get_context_dynamic_properties();
+    // Set instance field: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection context_dynamic_properties
+    void _set_context_dynamic_properties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+    // Get instance field: private System.Runtime.Remoting.Contexts.ContextCallbackObject callback_object
+    System::Runtime::Remoting::Contexts::ContextCallbackObject* _get_callback_object();
+    // Set instance field: private System.Runtime.Remoting.Contexts.ContextCallbackObject callback_object
+    void _set_callback_object(System::Runtime::Remoting::Contexts::ContextCallbackObject* value);
     // static public System.Runtime.Remoting.Contexts.Context get_DefaultContext()
     // Offset: 0x13FE2C4
     static System::Runtime::Remoting::Contexts::Context* get_DefaultContext();

@@ -57,6 +57,22 @@ namespace System::Threading {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Threading.ExecutionContext/System.Threading.Reader outerEC
+    System::Threading::ExecutionContext::Reader _get_outerEC();
+    // Set instance field: System.Threading.ExecutionContext/System.Threading.Reader outerEC
+    void _set_outerEC(System::Threading::ExecutionContext::Reader value);
+    // Get instance field: System.Boolean outerECBelongsToScope
+    bool _get_outerECBelongsToScope();
+    // Set instance field: System.Boolean outerECBelongsToScope
+    void _set_outerECBelongsToScope(bool value);
+    // Get instance field: System.Object hecsw
+    ::Il2CppObject* _get_hecsw();
+    // Set instance field: System.Object hecsw
+    void _set_hecsw(::Il2CppObject* value);
+    // Get instance field: System.Threading.Thread thread
+    System::Threading::Thread* _get_thread();
+    // Set instance field: System.Threading.Thread thread
+    void _set_thread(System::Threading::Thread* value);
     // System.Boolean UndoNoThrow()
     // Offset: 0xEEA790
     bool UndoNoThrow();

@@ -98,6 +98,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
     // Creating value type constructor for type: OnlineServicesInfoViewController
     OnlineServicesInfoViewController(HMUI::TextPageScrollView* textPageScrollView_ = {}, GlobalNamespace::BeatmapLevelSO* testBeatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* testBeatmapCharacteristic_ = {}, UnityEngine::UI::Button* refreshButton_ = {}, OnlineServices::ServerManager* serverManager_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, System::Text::StringBuilder* sb_ = {}) noexcept : textPageScrollView{textPageScrollView_}, testBeatmapLevel{testBeatmapLevel_}, testBeatmapCharacteristic{testBeatmapCharacteristic_}, refreshButton{refreshButton_}, serverManager{serverManager_}, platformUserModel{platformUserModel_}, sb{sb_} {}
+    // Get instance field: private HMUI.TextPageScrollView _textPageScrollView
+    HMUI::TextPageScrollView* _get__textPageScrollView();
+    // Set instance field: private HMUI.TextPageScrollView _textPageScrollView
+    void _set__textPageScrollView(HMUI::TextPageScrollView* value);
+    // Get instance field: private BeatmapLevelSO _testBeatmapLevel
+    GlobalNamespace::BeatmapLevelSO* _get__testBeatmapLevel();
+    // Set instance field: private BeatmapLevelSO _testBeatmapLevel
+    void _set__testBeatmapLevel(GlobalNamespace::BeatmapLevelSO* value);
+    // Get instance field: private BeatmapCharacteristicSO _testBeatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__testBeatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _testBeatmapCharacteristic
+    void _set__testBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private UnityEngine.UI.Button _refreshButton
+    UnityEngine::UI::Button* _get__refreshButton();
+    // Set instance field: private UnityEngine.UI.Button _refreshButton
+    void _set__refreshButton(UnityEngine::UI::Button* value);
+    // Get instance field: private readonly OnlineServices.ServerManager _serverManager
+    OnlineServices::ServerManager* _get__serverManager();
+    // Set instance field: private readonly OnlineServices.ServerManager _serverManager
+    void _set__serverManager(OnlineServices::ServerManager* value);
+    // Get instance field: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
+    // Set instance field: private readonly IPlatformUserModel _platformUserModel
+    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
+    // Get instance field: private System.Text.StringBuilder _sb
+    System::Text::StringBuilder* _get__sb();
+    // Set instance field: private System.Text.StringBuilder _sb
+    void _set__sb(System::Text::StringBuilder* value);
     // private System.Void GetServerStatus()
     // Offset: 0xFFAC2C
     void GetServerStatus();

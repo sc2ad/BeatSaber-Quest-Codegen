@@ -42,6 +42,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     constexpr operator ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*() const noexcept {
       return m_preComp;
     }
+    // Get instance field: protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
+    ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* _get_m_preComp();
+    // Set instance field: protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
+    void _set_m_preComp(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* value);
     // public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] get_PreComp()
     // Offset: 0x1D94D24
     ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* get_PreComp();

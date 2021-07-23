@@ -58,6 +58,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
     // Creating value type constructor for type: PlayersSpecificSettingsAtGameStartModel
     PlayersSpecificSettingsAtGameStartModel(GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings_ = {}, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}) noexcept : localPlayerSpecificSettings{localPlayerSpecificSettings_}, playersAtGameStartNetSerializable{playersAtGameStartNetSerializable_}, multiplayerSessionManager{multiplayerSessionManager_} {}
+    // Get instance field: private PlayerSpecificSettingsNetSerializable <localPlayerSpecificSettings>k__BackingField
+    GlobalNamespace::PlayerSpecificSettingsNetSerializable* _get_$localPlayerSpecificSettings$k__BackingField();
+    // Set instance field: private PlayerSpecificSettingsNetSerializable <localPlayerSpecificSettings>k__BackingField
+    void _set_$localPlayerSpecificSettings$k__BackingField(GlobalNamespace::PlayerSpecificSettingsNetSerializable* value);
+    // Get instance field: private PlayerSpecificSettingsAtStartNetSerializable <playersAtGameStartNetSerializable>k__BackingField
+    GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* _get_$playersAtGameStartNetSerializable$k__BackingField();
+    // Set instance field: private PlayerSpecificSettingsAtStartNetSerializable <playersAtGameStartNetSerializable>k__BackingField
+    void _set_$playersAtGameStartNetSerializable$k__BackingField(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_playersAtGameStart()
     // Offset: 0x230BEA0
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();

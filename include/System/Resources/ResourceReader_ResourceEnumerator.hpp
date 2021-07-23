@@ -60,6 +60,22 @@ namespace System::Resources {
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Get instance field: private System.Resources.ResourceReader _reader
+    System::Resources::ResourceReader* _get__reader();
+    // Set instance field: private System.Resources.ResourceReader _reader
+    void _set__reader(System::Resources::ResourceReader* value);
+    // Get instance field: private System.Boolean _currentIsValid
+    bool _get__currentIsValid();
+    // Set instance field: private System.Boolean _currentIsValid
+    void _set__currentIsValid(bool value);
+    // Get instance field: private System.Int32 _currentName
+    int _get__currentName();
+    // Set instance field: private System.Int32 _currentName
+    void _set__currentName(int value);
+    // Get instance field: private System.Int32 _dataPosition
+    int _get__dataPosition();
+    // Set instance field: private System.Int32 _dataPosition
+    void _set__dataPosition(int value);
     // public System.Object get_Key()
     // Offset: 0x13EC7F0
     ::Il2CppObject* get_Key();

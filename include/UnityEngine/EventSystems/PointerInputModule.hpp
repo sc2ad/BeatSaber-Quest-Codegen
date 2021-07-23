@@ -87,6 +87,14 @@ namespace UnityEngine::EventSystems {
     static int _get_kFakeTouchesId();
     // Set static field: static public System.Int32 kFakeTouchesId
     static void _set_kFakeTouchesId(int value);
+    // Get instance field: protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> m_PointerData
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* _get_m_PointerData();
+    // Set instance field: protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> m_PointerData
+    void _set_m_PointerData(System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* value);
+    // Get instance field: private readonly UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState m_MouseState
+    UnityEngine::EventSystems::PointerInputModule::MouseState* _get_m_MouseState();
+    // Set instance field: private readonly UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState m_MouseState
+    void _set_m_MouseState(UnityEngine::EventSystems::PointerInputModule::MouseState* value);
     // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
     // Offset: 0x1406EA0
     bool GetPointerData(int id, UnityEngine::EventSystems::PointerEventData*& data, bool create);

@@ -31,6 +31,10 @@ namespace System::Security::Cryptography {
     constexpr operator ::Il2CppString*() const noexcept {
       return hashAlgorithm;
     }
+    // Get instance field: private System.String _hashAlgorithm
+    ::Il2CppString* _get__hashAlgorithm();
+    // Set instance field: private System.String _hashAlgorithm
+    void _set__hashAlgorithm(::Il2CppString* value);
     // protected System.Void .ctor(System.String hashAlgorithm, System.String digestAlgorithm)
     // Offset: 0x1AFB268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

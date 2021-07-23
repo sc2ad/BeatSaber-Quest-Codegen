@@ -71,6 +71,10 @@ namespace UnityEngine::ProBuilder {
     static ::Il2CppString* _get_k_VersionDatePattern();
     // Set static field: static private System.String k_VersionDatePattern
     static void _set_k_VersionDatePattern(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>* _get_m_Entries();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
+    void _set_m_Entries(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>* value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
     // Offset: 0x1F33C3C
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();

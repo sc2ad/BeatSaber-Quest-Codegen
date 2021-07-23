@@ -46,6 +46,14 @@ namespace System::Runtime::Remoting::Activation {
     operator System::Runtime::Remoting::Activation::IActivator() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);
     }
+    // Get instance field: private System.String _activationUrl
+    ::Il2CppString* _get__activationUrl();
+    // Set instance field: private System.String _activationUrl
+    void _set__activationUrl(::Il2CppString* value);
+    // Get instance field: private System.Runtime.Remoting.Activation.IActivator _next
+    System::Runtime::Remoting::Activation::IActivator* _get__next();
+    // Set instance field: private System.Runtime.Remoting.Activation.IActivator _next
+    void _set__next(System::Runtime::Remoting::Activation::IActivator* value);
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
     // Offset: 0x13F4948
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();

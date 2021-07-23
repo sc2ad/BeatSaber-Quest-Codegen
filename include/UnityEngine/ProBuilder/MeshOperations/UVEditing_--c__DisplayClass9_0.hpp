@@ -43,6 +43,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass9_0
     $$c__DisplayClass9_0(UnityEngine::ProBuilder::Face* f1_ = {}, UnityEngine::ProBuilder::Face* f2_ = {}) noexcept : f1{f1_}, f2{f2_} {}
+    // Get instance field: public UnityEngine.ProBuilder.Face f1
+    UnityEngine::ProBuilder::Face* _get_f1();
+    // Set instance field: public UnityEngine.ProBuilder.Face f1
+    void _set_f1(UnityEngine::ProBuilder::Face* value);
+    // Get instance field: public UnityEngine.ProBuilder.Face f2
+    UnityEngine::ProBuilder::Face* _get_f2();
+    // Set instance field: public UnityEngine.ProBuilder.Face f2
+    void _set_f2(UnityEngine::ProBuilder::Face* value);
     // System.Boolean <AutoStitch>b__0(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x16FDD74
     bool $AutoStitch$b__0(UnityEngine::ProBuilder::WingedEdge* x);

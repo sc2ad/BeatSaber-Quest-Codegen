@@ -81,6 +81,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::LayerFlags _get_AndroidSurfaceSwapChain();
     // Set static field: static public OVRPlugin/LayerFlags AndroidSurfaceSwapChain
     static void _set_AndroidSurfaceSwapChain(GlobalNamespace::OVRPlugin::LayerFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/LayerFlags
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::LayerFlags), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_LayerFlagsSizeCheck;

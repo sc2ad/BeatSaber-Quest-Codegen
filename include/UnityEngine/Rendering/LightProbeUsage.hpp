@@ -55,6 +55,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::LightProbeUsage _get_CustomProvided();
     // Set static field: static public UnityEngine.Rendering.LightProbeUsage CustomProvided
     static void _set_CustomProvided(UnityEngine::Rendering::LightProbeUsage value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.LightProbeUsage
   #pragma pack(pop)
   static check_size<sizeof(LightProbeUsage), 0 + sizeof(int)> __UnityEngine_Rendering_LightProbeUsageSizeCheck;

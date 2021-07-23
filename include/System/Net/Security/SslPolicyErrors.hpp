@@ -56,6 +56,10 @@ namespace System::Net::Security {
     static System::Net::Security::SslPolicyErrors _get_RemoteCertificateChainErrors();
     // Set static field: static public System.Net.Security.SslPolicyErrors RemoteCertificateChainErrors
     static void _set_RemoteCertificateChainErrors(System::Net::Security::SslPolicyErrors value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Security.SslPolicyErrors
   #pragma pack(pop)
   static check_size<sizeof(SslPolicyErrors), 0 + sizeof(int)> __System_Net_Security_SslPolicyErrorsSizeCheck;

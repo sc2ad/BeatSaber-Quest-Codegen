@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     AnimatedAvatarPoseController(GlobalNamespace::AvatarPoseController* avatarPoseController_ = {}) noexcept : avatarPoseController{avatarPoseController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly AvatarPoseController _avatarPoseController
+    GlobalNamespace::AvatarPoseController* _get__avatarPoseController();
+    // Set instance field: private readonly AvatarPoseController _avatarPoseController
+    void _set__avatarPoseController(GlobalNamespace::AvatarPoseController* value);
     // protected System.Void LateUpdate()
     // Offset: 0x10D7090
     void LateUpdate();

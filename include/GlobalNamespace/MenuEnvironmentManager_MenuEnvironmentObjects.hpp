@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     // Creating value type constructor for type: MenuEnvironmentObjects
     MenuEnvironmentObjects(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType_ = {}, UnityEngine::GameObject* wrapper_ = {}) noexcept : menuEnvironmentType{menuEnvironmentType_}, wrapper{wrapper_} {}
+    // Get instance field: private MenuEnvironmentManager/MenuEnvironmentType _menuEnvironmentType
+    GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType _get__menuEnvironmentType();
+    // Set instance field: private MenuEnvironmentManager/MenuEnvironmentType _menuEnvironmentType
+    void _set__menuEnvironmentType(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType value);
+    // Get instance field: private UnityEngine.GameObject _wrapper
+    UnityEngine::GameObject* _get__wrapper();
+    // Set instance field: private UnityEngine.GameObject _wrapper
+    void _set__wrapper(UnityEngine::GameObject* value);
     // public MenuEnvironmentManager/MenuEnvironmentType get_menuEnvironmentType()
     // Offset: 0x117FF78
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType get_menuEnvironmentType();

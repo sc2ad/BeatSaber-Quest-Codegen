@@ -45,6 +45,22 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single uMin
+    float _get_uMin();
+    // Set instance field: public System.Single uMin
+    void _set_uMin(float value);
+    // Get instance field: public System.Single vMin
+    float _get_vMin();
+    // Set instance field: public System.Single vMin
+    void _set_vMin(float value);
+    // Get instance field: public System.Single uMax
+    float _get_uMax();
+    // Set instance field: public System.Single uMax
+    void _set_uMax(float value);
+    // Get instance field: public System.Single vMax
+    float _get_vMax();
+    // Set instance field: public System.Single vMax
+    void _set_vMax(float value);
   }; // Valve.VR.VRTextureBounds_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureBounds_t), 12 + sizeof(float)> __Valve_VR_VRTextureBounds_tSizeCheck;

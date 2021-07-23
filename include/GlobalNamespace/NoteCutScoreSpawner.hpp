@@ -58,6 +58,18 @@ namespace GlobalNamespace {
     NoteCutScoreSpawner(GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : flyingScoreSpawner{flyingScoreSpawner_}, beatmapObjectManager{beatmapObjectManager_}, scoreController{scoreController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private FlyingScoreSpawner _flyingScoreSpawner
+    GlobalNamespace::FlyingScoreSpawner* _get__flyingScoreSpawner();
+    // Set instance field: private FlyingScoreSpawner _flyingScoreSpawner
+    void _set__flyingScoreSpawner(GlobalNamespace::FlyingScoreSpawner* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private readonly IScoreController _scoreController
+    GlobalNamespace::IScoreController* _get__scoreController();
+    // Set instance field: private readonly IScoreController _scoreController
+    void _set__scoreController(GlobalNamespace::IScoreController* value);
     // protected System.Void Start()
     // Offset: 0x1018194
     void Start();

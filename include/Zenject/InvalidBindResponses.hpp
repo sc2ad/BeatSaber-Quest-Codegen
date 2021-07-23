@@ -43,6 +43,10 @@ namespace Zenject {
     static Zenject::InvalidBindResponses _get_Skip();
     // Set static field: static public Zenject.InvalidBindResponses Skip
     static void _set_Skip(Zenject::InvalidBindResponses value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Zenject.InvalidBindResponses
   #pragma pack(pop)
   static check_size<sizeof(InvalidBindResponses), 0 + sizeof(int)> __Zenject_InvalidBindResponsesSizeCheck;

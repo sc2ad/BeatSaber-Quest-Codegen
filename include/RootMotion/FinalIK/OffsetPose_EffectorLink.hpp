@@ -61,6 +61,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: EffectorLink
     EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 pin_ = {}, UnityEngine::Vector3 pinWeight_ = {}) noexcept : effector{effector_}, offset{offset_}, pin{pin_}, pinWeight{pinWeight_} {}
+    // Get instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
+    RootMotion::FinalIK::FullBodyBipedEffector _get_effector();
+    // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
+    void _set_effector(RootMotion::FinalIK::FullBodyBipedEffector value);
+    // Get instance field: public UnityEngine.Vector3 offset
+    UnityEngine::Vector3 _get_offset();
+    // Set instance field: public UnityEngine.Vector3 offset
+    void _set_offset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 pin
+    UnityEngine::Vector3 _get_pin();
+    // Set instance field: public UnityEngine.Vector3 pin
+    void _set_pin(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 pinWeight
+    UnityEngine::Vector3 _get_pinWeight();
+    // Set instance field: public UnityEngine.Vector3 pinWeight
+    void _set_pinWeight(UnityEngine::Vector3 value);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
     // Offset: 0x1AB6C24
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);

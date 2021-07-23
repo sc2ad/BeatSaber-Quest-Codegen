@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     MissionStage(int minimumMissionsToUnlock_ = {}, UnityEngine::RectTransform* rectTransform_ = {}) noexcept : minimumMissionsToUnlock{minimumMissionsToUnlock_}, rectTransform{rectTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Int32 _minimumMissionsToUnlock
+    int _get__minimumMissionsToUnlock();
+    // Set instance field: private System.Int32 _minimumMissionsToUnlock
+    void _set__minimumMissionsToUnlock(int value);
+    // Get instance field: private UnityEngine.RectTransform _rectTransform
+    UnityEngine::RectTransform* _get__rectTransform();
+    // Set instance field: private UnityEngine.RectTransform _rectTransform
+    void _set__rectTransform(UnityEngine::RectTransform* value);
     // public System.Int32 get_minimumMissionsToUnlock()
     // Offset: 0x1139E10
     int get_minimumMissionsToUnlock();

@@ -50,6 +50,18 @@ namespace GlobalNamespace {
     static int _get_StructSize();
     // Set static field: static public System.Int32 StructSize
     static void _set_StructSize(int value);
+    // Get instance field: public System.UInt32 protocolIdentifier
+    uint _get_protocolIdentifier();
+    // Set instance field: public System.UInt32 protocolIdentifier
+    void _set_protocolIdentifier(uint value);
+    // Get instance field: public System.Int32 payloadType
+    int _get_payloadType();
+    // Set instance field: public System.Int32 payloadType
+    void _set_payloadType(int value);
+    // Get instance field: public System.Int32 payloadLength
+    int _get_payloadLength();
+    // Set instance field: public System.Int32 payloadLength
+    void _set_payloadLength(int value);
     // public System.Byte[] ToBytes()
     // Offset: 0xED3D7C
     ::Array<uint8_t>* ToBytes();

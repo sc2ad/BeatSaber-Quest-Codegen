@@ -55,6 +55,10 @@ namespace JetBrains::Annotations {
     static JetBrains::Annotations::AssertionConditionType _get_IS_NOT_NULL();
     // Set static field: static public JetBrains.Annotations.AssertionConditionType IS_NOT_NULL
     static void _set_IS_NOT_NULL(JetBrains::Annotations::AssertionConditionType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // JetBrains.Annotations.AssertionConditionType
   #pragma pack(pop)
   static check_size<sizeof(AssertionConditionType), 0 + sizeof(int)> __JetBrains_Annotations_AssertionConditionTypeSizeCheck;

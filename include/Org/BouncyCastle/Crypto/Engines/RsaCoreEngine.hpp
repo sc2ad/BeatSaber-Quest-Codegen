@@ -62,6 +62,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IRsa() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IRsa*>(this);
     }
+    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* _get_key();
+    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
+    void _set_key(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
+    // Get instance field: private System.Int32 bitSize
+    int _get_bitSize();
+    // Set instance field: private System.Int32 bitSize
+    void _set_bitSize(int value);
     // private System.Void CheckInitialised()
     // Offset: 0x1E52D64
     void CheckInitialised();

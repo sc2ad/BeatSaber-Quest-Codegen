@@ -105,6 +105,46 @@ namespace System::IO {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.IO.Stream m_stream
+    System::IO::Stream* _get_m_stream();
+    // Set instance field: private System.IO.Stream m_stream
+    void _set_m_stream(System::IO::Stream* value);
+    // Get instance field: private System.Byte[] m_buffer
+    ::Array<uint8_t>* _get_m_buffer();
+    // Set instance field: private System.Byte[] m_buffer
+    void _set_m_buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Text.Decoder m_decoder
+    System::Text::Decoder* _get_m_decoder();
+    // Set instance field: private System.Text.Decoder m_decoder
+    void _set_m_decoder(System::Text::Decoder* value);
+    // Get instance field: private System.Byte[] m_charBytes
+    ::Array<uint8_t>* _get_m_charBytes();
+    // Set instance field: private System.Byte[] m_charBytes
+    void _set_m_charBytes(::Array<uint8_t>* value);
+    // Get instance field: private System.Char[] m_singleChar
+    ::Array<::Il2CppChar>* _get_m_singleChar();
+    // Set instance field: private System.Char[] m_singleChar
+    void _set_m_singleChar(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.Char[] m_charBuffer
+    ::Array<::Il2CppChar>* _get_m_charBuffer();
+    // Set instance field: private System.Char[] m_charBuffer
+    void _set_m_charBuffer(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.Int32 m_maxCharsSize
+    int _get_m_maxCharsSize();
+    // Set instance field: private System.Int32 m_maxCharsSize
+    void _set_m_maxCharsSize(int value);
+    // Get instance field: private System.Boolean m_2BytesPerChar
+    bool _get_m_2BytesPerChar();
+    // Set instance field: private System.Boolean m_2BytesPerChar
+    void _set_m_2BytesPerChar(bool value);
+    // Get instance field: private System.Boolean m_isMemoryStream
+    bool _get_m_isMemoryStream();
+    // Set instance field: private System.Boolean m_isMemoryStream
+    void _set_m_isMemoryStream(bool value);
+    // Get instance field: private System.Boolean m_leaveOpen
+    bool _get_m_leaveOpen();
+    // Set instance field: private System.Boolean m_leaveOpen
+    void _set_m_leaveOpen(bool value);
     // public System.IO.Stream get_BaseStream()
     // Offset: 0x19D3498
     System::IO::Stream* get_BaseStream();

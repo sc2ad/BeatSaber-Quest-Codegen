@@ -33,6 +33,14 @@ namespace DataModels::PlayerAvatar {
     static_assert(sizeof(::Array<int>*) == 0x8);
     // Creating value type constructor for type: RandomizeAvatarColorMap
     RandomizeAvatarColorMap(int totalIndices_ = {}, ::Array<int>* colorIndices_ = {}) noexcept : totalIndices{totalIndices_}, colorIndices{colorIndices_} {}
+    // Get instance field: private readonly System.Int32 <totalIndices>k__BackingField
+    int _get_$totalIndices$k__BackingField();
+    // Set instance field: private readonly System.Int32 <totalIndices>k__BackingField
+    void _set_$totalIndices$k__BackingField(int value);
+    // Get instance field: private readonly System.Int32[] <colorIndices>k__BackingField
+    ::Array<int>* _get_$colorIndices$k__BackingField();
+    // Set instance field: private readonly System.Int32[] <colorIndices>k__BackingField
+    void _set_$colorIndices$k__BackingField(::Array<int>* value);
     // public System.Int32 get_totalIndices()
     // Offset: 0x10886E0
     int get_totalIndices();

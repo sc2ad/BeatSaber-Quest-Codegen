@@ -33,6 +33,14 @@ namespace Mono::Security::Protocol::Ntlm {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Type1Message
     Type1Message(::Il2CppString* host_ = {}, ::Il2CppString* domain_ = {}) noexcept : host{host_}, domain{domain_} {}
+    // Get instance field: private System.String _host
+    ::Il2CppString* _get__host();
+    // Set instance field: private System.String _host
+    void _set__host(::Il2CppString* value);
+    // Get instance field: private System.String _domain
+    ::Il2CppString* _get__domain();
+    // Set instance field: private System.String _domain
+    void _set__domain(::Il2CppString* value);
     // public System.Void set_Domain(System.String value)
     // Offset: 0x1DE205C
     void set_Domain(::Il2CppString* value);

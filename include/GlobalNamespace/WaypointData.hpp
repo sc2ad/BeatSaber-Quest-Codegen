@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
     // Creating value type constructor for type: WaypointData
     WaypointData(GlobalNamespace::OffsetDirection offsetDirection_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}) noexcept : offsetDirection{offsetDirection_}, noteLineLayer{noteLineLayer_} {}
+    // Get instance field: private OffsetDirection <offsetDirection>k__BackingField
+    GlobalNamespace::OffsetDirection _get_$offsetDirection$k__BackingField();
+    // Set instance field: private OffsetDirection <offsetDirection>k__BackingField
+    void _set_$offsetDirection$k__BackingField(GlobalNamespace::OffsetDirection value);
+    // Get instance field: private NoteLineLayer <noteLineLayer>k__BackingField
+    GlobalNamespace::NoteLineLayer _get_$noteLineLayer$k__BackingField();
+    // Set instance field: private NoteLineLayer <noteLineLayer>k__BackingField
+    void _set_$noteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
     // public OffsetDirection get_offsetDirection()
     // Offset: 0x23B7BAC
     GlobalNamespace::OffsetDirection get_offsetDirection();

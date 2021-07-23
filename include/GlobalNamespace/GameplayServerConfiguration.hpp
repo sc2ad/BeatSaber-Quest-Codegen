@@ -96,6 +96,30 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerConfiguration>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerConfiguration>*>(this);
     }
+    // Get instance field: public readonly System.Int32 maxPlayerCount
+    int _get_maxPlayerCount();
+    // Set instance field: public readonly System.Int32 maxPlayerCount
+    void _set_maxPlayerCount(int value);
+    // Get instance field: public readonly DiscoveryPolicy discoveryPolicy
+    GlobalNamespace::DiscoveryPolicy _get_discoveryPolicy();
+    // Set instance field: public readonly DiscoveryPolicy discoveryPolicy
+    void _set_discoveryPolicy(GlobalNamespace::DiscoveryPolicy value);
+    // Get instance field: public readonly InvitePolicy invitePolicy
+    GlobalNamespace::InvitePolicy _get_invitePolicy();
+    // Set instance field: public readonly InvitePolicy invitePolicy
+    void _set_invitePolicy(GlobalNamespace::InvitePolicy value);
+    // Get instance field: public readonly GameplayServerMode gameplayServerMode
+    GlobalNamespace::GameplayServerMode _get_gameplayServerMode();
+    // Set instance field: public readonly GameplayServerMode gameplayServerMode
+    void _set_gameplayServerMode(GlobalNamespace::GameplayServerMode value);
+    // Get instance field: public readonly SongSelectionMode songSelectionMode
+    GlobalNamespace::SongSelectionMode _get_songSelectionMode();
+    // Set instance field: public readonly SongSelectionMode songSelectionMode
+    void _set_songSelectionMode(GlobalNamespace::SongSelectionMode value);
+    // Get instance field: public readonly GameplayServerControlSettings gameplayServerControlSettings
+    GlobalNamespace::GameplayServerControlSettings _get_gameplayServerControlSettings();
+    // Set instance field: public readonly GameplayServerControlSettings gameplayServerControlSettings
+    void _set_gameplayServerControlSettings(GlobalNamespace::GameplayServerControlSettings value);
     // public System.Void .ctor(System.Int32 maxPlayerCount, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, GameplayServerMode gameplayServerMode, SongSelectionMode songSelectionMode, GameplayServerControlSettings gameplayServerControlSettings)
     // Offset: 0xED3920
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

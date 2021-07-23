@@ -154,6 +154,58 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
     // Creating value type constructor for type: LocalNetworkPlayerModel
     LocalNetworkPlayerModel(GlobalNamespace::LocalNetworkDiscoveryManager* discoveryManager_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*>* partyPlayers_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*>* otherPlayers_ = {}, GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer* localPlayer_ = {}, bool networkingFailed_ = {}, bool partyEnabled_ = {}, GlobalNamespace::INetworkPlayerModel* partyManager_ = {}, System::Action_1<int>* partySizeChangedEvent_ = {}, System::Action_1<GlobalNamespace::INetworkPlayerModel*>* partyChangedEvent_ = {}, System::Action_1<GlobalNamespace::INetworkPlayer*>* joinRequestedEvent_ = {}, System::Action_1<GlobalNamespace::INetworkPlayer*>* inviteRequestedEvent_ = {}) noexcept : discoveryManager{discoveryManager_}, platformUserModel{platformUserModel_}, networkConfig{networkConfig_}, partyPlayers{partyPlayers_}, otherPlayers{otherPlayers_}, localPlayer{localPlayer_}, networkingFailed{networkingFailed_}, partyEnabled{partyEnabled_}, partyManager{partyManager_}, partySizeChangedEvent{partySizeChangedEvent_}, partyChangedEvent{partyChangedEvent_}, joinRequestedEvent{joinRequestedEvent_}, inviteRequestedEvent{inviteRequestedEvent_} {}
+    // Get instance field: private LocalNetworkDiscoveryManager _discoveryManager
+    GlobalNamespace::LocalNetworkDiscoveryManager* _get__discoveryManager();
+    // Set instance field: private LocalNetworkDiscoveryManager _discoveryManager
+    void _set__discoveryManager(GlobalNamespace::LocalNetworkDiscoveryManager* value);
+    // Get instance field: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
+    // Set instance field: private readonly IPlatformUserModel _platformUserModel
+    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
+    // Get instance field: private readonly INetworkConfig _networkConfig
+    GlobalNamespace::INetworkConfig* _get__networkConfig();
+    // Set instance field: private readonly INetworkConfig _networkConfig
+    void _set__networkConfig(GlobalNamespace::INetworkConfig* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<LocalNetworkPlayerModel/LocalNetworkPlayer> _partyPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*>* _get__partyPlayers();
+    // Set instance field: private readonly System.Collections.Generic.List`1<LocalNetworkPlayerModel/LocalNetworkPlayer> _partyPlayers
+    void _set__partyPlayers(System::Collections::Generic::List_1<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<LocalNetworkPlayerModel/LocalNetworkPlayer> _otherPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*>* _get__otherPlayers();
+    // Set instance field: private readonly System.Collections.Generic.List`1<LocalNetworkPlayerModel/LocalNetworkPlayer> _otherPlayers
+    void _set__otherPlayers(System::Collections::Generic::List_1<GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*>* value);
+    // Get instance field: private LocalNetworkPlayerModel/LocalNetworkPlayer _localPlayer
+    GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer* _get__localPlayer();
+    // Set instance field: private LocalNetworkPlayerModel/LocalNetworkPlayer _localPlayer
+    void _set__localPlayer(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer* value);
+    // Get instance field: private System.Boolean _networkingFailed
+    bool _get__networkingFailed();
+    // Set instance field: private System.Boolean _networkingFailed
+    void _set__networkingFailed(bool value);
+    // Get instance field: private System.Boolean _partyEnabled
+    bool _get__partyEnabled();
+    // Set instance field: private System.Boolean _partyEnabled
+    void _set__partyEnabled(bool value);
+    // Get instance field: private INetworkPlayerModel _partyManager
+    GlobalNamespace::INetworkPlayerModel* _get__partyManager();
+    // Set instance field: private INetworkPlayerModel _partyManager
+    void _set__partyManager(GlobalNamespace::INetworkPlayerModel* value);
+    // Get instance field: private System.Action`1<System.Int32> partySizeChangedEvent
+    System::Action_1<int>* _get_partySizeChangedEvent();
+    // Set instance field: private System.Action`1<System.Int32> partySizeChangedEvent
+    void _set_partySizeChangedEvent(System::Action_1<int>* value);
+    // Get instance field: private System.Action`1<INetworkPlayerModel> partyChangedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayerModel*>* _get_partyChangedEvent();
+    // Set instance field: private System.Action`1<INetworkPlayerModel> partyChangedEvent
+    void _set_partyChangedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
+    // Get instance field: private System.Action`1<INetworkPlayer> joinRequestedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_joinRequestedEvent();
+    // Set instance field: private System.Action`1<INetworkPlayer> joinRequestedEvent
+    void _set_joinRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
+    // Get instance field: private System.Action`1<INetworkPlayer> inviteRequestedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_inviteRequestedEvent();
+    // Set instance field: private System.Action`1<INetworkPlayer> inviteRequestedEvent
+    void _set_inviteRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // private System.Boolean get_canInvitePlayers()
     // Offset: 0x1174888
     bool get_canInvitePlayers();

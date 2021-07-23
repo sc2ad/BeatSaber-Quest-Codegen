@@ -87,6 +87,10 @@ namespace Valve::VR {
     constexpr operator Valve::VR::IVROverlay() const noexcept {
       return FnTable;
     }
+    // Get instance field: private Valve.VR.IVROverlay FnTable
+    Valve::VR::IVROverlay _get_FnTable();
+    // Set instance field: private Valve.VR.IVROverlay FnTable
+    void _set_FnTable(Valve::VR::IVROverlay value);
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x16BC8C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

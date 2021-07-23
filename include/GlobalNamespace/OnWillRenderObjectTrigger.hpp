@@ -78,6 +78,30 @@ namespace GlobalNamespace {
     OnWillRenderObjectTrigger(UnityEngine::Shader* overrideShader_ = {}, int renderQueue_ = {}, UnityEngine::Material* material_ = {}, UnityEngine::Mesh* mesh_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}) noexcept : overrideShader{overrideShader_}, renderQueue{renderQueue_}, material{material_}, mesh{mesh_}, meshFilter{meshFilter_}, meshRenderer{meshRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Shader _overrideShader
+    UnityEngine::Shader* _get__overrideShader();
+    // Set instance field: private UnityEngine.Shader _overrideShader
+    void _set__overrideShader(UnityEngine::Shader* value);
+    // Get instance field: private System.Int32 _renderQueue
+    int _get__renderQueue();
+    // Set instance field: private System.Int32 _renderQueue
+    void _set__renderQueue(int value);
+    // Get instance field: private UnityEngine.Material _material
+    UnityEngine::Material* _get__material();
+    // Set instance field: private UnityEngine.Material _material
+    void _set__material(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Mesh _mesh
+    UnityEngine::Mesh* _get__mesh();
+    // Set instance field: private UnityEngine.Mesh _mesh
+    void _set__mesh(UnityEngine::Mesh* value);
+    // Get instance field: private UnityEngine.MeshFilter _meshFilter
+    UnityEngine::MeshFilter* _get__meshFilter();
+    // Set instance field: private UnityEngine.MeshFilter _meshFilter
+    void _set__meshFilter(UnityEngine::MeshFilter* value);
+    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer* _get__meshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
+    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
     // protected System.Void OnEnable()
     // Offset: 0x1DF6428
     void OnEnable();

@@ -109,6 +109,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::ETrackedPropertyError _get_TrackedProp_CannotWriteToWildcards();
     // Set static field: static public OVR.OpenVR.ETrackedPropertyError TrackedProp_CannotWriteToWildcards
     static void _set_TrackedProp_CannotWriteToWildcards(OVR::OpenVR::ETrackedPropertyError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.ETrackedPropertyError
   #pragma pack(pop)
   static check_size<sizeof(ETrackedPropertyError), 0 + sizeof(int)> __OVR_OpenVR_ETrackedPropertyErrorSizeCheck;

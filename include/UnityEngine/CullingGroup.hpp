@@ -38,6 +38,14 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::CullingGroup::StateChanged*) == 0x8);
     // Creating value type constructor for type: CullingGroup
     CullingGroup(System::IntPtr m_Ptr_ = {}, UnityEngine::CullingGroup::StateChanged* m_OnStateChanged_ = {}) noexcept : m_Ptr{m_Ptr_}, m_OnStateChanged{m_OnStateChanged_} {}
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: private UnityEngine.CullingGroup/UnityEngine.StateChanged m_OnStateChanged
+    UnityEngine::CullingGroup::StateChanged* _get_m_OnStateChanged();
+    // Set instance field: private UnityEngine.CullingGroup/UnityEngine.StateChanged m_OnStateChanged
+    void _set_m_OnStateChanged(UnityEngine::CullingGroup::StateChanged* value);
     // static private System.Void SendEvents(UnityEngine.CullingGroup cullingGroup, System.IntPtr eventsPtr, System.Int32 count)
     // Offset: 0x1BE4500
     static void SendEvents(UnityEngine::CullingGroup* cullingGroup, System::IntPtr eventsPtr, int count);

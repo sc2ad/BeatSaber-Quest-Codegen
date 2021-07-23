@@ -63,6 +63,30 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RipeMD128Digest
     RipeMD128Digest(int H0_ = {}, int H1_ = {}, int H2_ = {}, int H3_ = {}, ::Array<int>* X_ = {}, int xOff_ = {}) noexcept : H0{H0_}, H1{H1_}, H2{H2_}, H3{H3_}, X{X_}, xOff{xOff_} {}
+    // Get instance field: private System.Int32 H0
+    int _get_H0();
+    // Set instance field: private System.Int32 H0
+    void _set_H0(int value);
+    // Get instance field: private System.Int32 H1
+    int _get_H1();
+    // Set instance field: private System.Int32 H1
+    void _set_H1(int value);
+    // Get instance field: private System.Int32 H2
+    int _get_H2();
+    // Set instance field: private System.Int32 H2
+    void _set_H2(int value);
+    // Get instance field: private System.Int32 H3
+    int _get_H3();
+    // Set instance field: private System.Int32 H3
+    void _set_H3(int value);
+    // Get instance field: private System.Int32[] X
+    ::Array<int>* _get_X();
+    // Set instance field: private System.Int32[] X
+    void _set_X(::Array<int>* value);
+    // Get instance field: private System.Int32 xOff
+    int _get_xOff();
+    // Set instance field: private System.Int32 xOff
+    void _set_xOff(int value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.RipeMD128Digest t)
     // Offset: 0x1D0F16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

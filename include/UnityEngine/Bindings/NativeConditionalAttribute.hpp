@@ -37,6 +37,14 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: NativeConditionalAttribute
     NativeConditionalAttribute(::Il2CppString* Condition_ = {}, bool Enabled_ = {}) noexcept : Condition{Condition_}, Enabled{Enabled_} {}
+    // Get instance field: private System.String <Condition>k__BackingField
+    ::Il2CppString* _get_$Condition$k__BackingField();
+    // Set instance field: private System.String <Condition>k__BackingField
+    void _set_$Condition$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <Enabled>k__BackingField
+    bool _get_$Enabled$k__BackingField();
+    // Set instance field: private System.Boolean <Enabled>k__BackingField
+    void _set_$Enabled$k__BackingField(bool value);
     // public System.Void set_Condition(System.String value)
     // Offset: 0x23C1B60
     void set_Condition(::Il2CppString* value);

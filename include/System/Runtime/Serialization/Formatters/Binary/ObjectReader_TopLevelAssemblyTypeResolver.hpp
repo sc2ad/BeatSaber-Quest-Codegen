@@ -43,6 +43,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return m_topLevelAssembly;
     }
+    // Get instance field: private System.Reflection.Assembly m_topLevelAssembly
+    System::Reflection::Assembly* _get_m_topLevelAssembly();
+    // Set instance field: private System.Reflection.Assembly m_topLevelAssembly
+    void _set_m_topLevelAssembly(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
     // Offset: 0x15E246C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -73,6 +73,18 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
+    UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference*> _get_arrayReference();
+    // Set instance field: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
+    void _set_arrayReference(UnityEngine::ExposedReference_1<GlobalNamespace::TimelineArrayReference*> value);
+    // Get instance field: public System.Single elementDelay
+    float _get_elementDelay();
+    // Set instance field: public System.Single elementDelay
+    void _set_elementDelay(float value);
+    // Get instance field: public CustomTweenBehaviour template
+    GlobalNamespace::CustomTweenBehaviour* _get_template();
+    // Set instance field: public CustomTweenBehaviour template
+    void _set_template(GlobalNamespace::CustomTweenBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x10DB018
     UnityEngine::Timeline::ClipCaps get_clipCaps();

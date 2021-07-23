@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     InstantiatePrefab(UnityEngine::GameObject* prefab_ = {}) noexcept : prefab{prefab_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.GameObject _prefab
+    UnityEngine::GameObject* _get__prefab();
+    // Set instance field: public UnityEngine.GameObject _prefab
+    void _set__prefab(UnityEngine::GameObject* value);
     // protected System.Void Awake()
     // Offset: 0x121AD44
     void Awake();

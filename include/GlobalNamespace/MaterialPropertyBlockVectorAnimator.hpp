@@ -33,6 +33,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
     // Creating value type constructor for type: MaterialPropertyBlockVectorAnimator
     MaterialPropertyBlockVectorAnimator(UnityEngine::Vector4 vector_ = {}) noexcept : vector{vector_} {}
+    // Get instance field: private UnityEngine.Vector4 _vector
+    UnityEngine::Vector4 _get__vector();
+    // Set instance field: private UnityEngine.Vector4 _vector
+    void _set__vector(UnityEngine::Vector4 value);
     // public System.Void .ctor()
     // Offset: 0x1DF5E88
     // Implemented from: MaterialPropertyBlockAnimator

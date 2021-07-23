@@ -63,6 +63,14 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> <activePlayerSpecificSettingsAtGameStart>k__BackingField
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _get_$activePlayerSpecificSettingsAtGameStart$k__BackingField();
+    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> <activePlayerSpecificSettingsAtGameStart>k__BackingField
+    void _set_$activePlayerSpecificSettingsAtGameStart$k__BackingField(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart
+    System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* _get__activePlayersAtGameStart();
+    // Set instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart
+    void _set__activePlayersAtGameStart(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_activePlayersAtGameStart()
     // Offset: 0x230B028
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_activePlayersAtGameStart();

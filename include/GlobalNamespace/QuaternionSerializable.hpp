@@ -93,6 +93,18 @@ namespace GlobalNamespace {
     static float _get_kInvScale();
     // Set static field: static private System.Single kInvScale
     static void _set_kInvScale(float value);
+    // Get instance field: private System.Int32 _a
+    int _get__a();
+    // Set instance field: private System.Int32 _a
+    void _set__a(int value);
+    // Get instance field: private System.Int32 _b
+    int _get__b();
+    // Set instance field: private System.Int32 _b
+    void _set__b(int value);
+    // Get instance field: private System.Int32 _c
+    int _get__c();
+    // Set instance field: private System.Int32 _c
+    void _set__c(int value);
     // static public QuaternionSerializable get_identity()
     // Offset: 0x2329414
     static GlobalNamespace::QuaternionSerializable get_identity();

@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IBeatmapLevelPack*() const noexcept {
       return beatmapLevelPack;
     }
+    // Get instance field: public readonly IBeatmapLevelPack beatmapLevelPack
+    GlobalNamespace::IBeatmapLevelPack* _get_beatmapLevelPack();
+    // Set instance field: public readonly IBeatmapLevelPack beatmapLevelPack
+    void _set_beatmapLevelPack(GlobalNamespace::IBeatmapLevelPack* value);
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
     // Offset: 0x11555D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

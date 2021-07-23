@@ -40,6 +40,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverTrigonometric*) == 0x8);
     // Creating value type constructor for type: TrigonometricIK
     TrigonometricIK(RootMotion::FinalIK::IKSolverTrigonometric* solver_ = {}) noexcept : solver{solver_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverTrigonometric solver
+    RootMotion::FinalIK::IKSolverTrigonometric* _get_solver();
+    // Set instance field: public RootMotion.FinalIK.IKSolverTrigonometric solver
+    void _set_solver(RootMotion::FinalIK::IKSolverTrigonometric* value);
     // private System.Void SupportGroup()
     // Offset: 0x1ABE778
     void SupportGroup();

@@ -29,6 +29,10 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return order;
     }
+    // Get instance field: private System.Int32 <order>k__BackingField
+    int _get_$order$k__BackingField();
+    // Set instance field: private System.Int32 <order>k__BackingField
+    void _set_$order$k__BackingField(int value);
     // public System.Int32 get_order()
     // Offset: 0x1BDD3E4
     int get_order();

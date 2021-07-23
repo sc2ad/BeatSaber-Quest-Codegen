@@ -136,6 +136,50 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::UserServerFilter>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::UserServerFilter>*>(this);
     }
+    // Get instance field: public readonly System.Boolean includePasswordProtected
+    bool _get_includePasswordProtected();
+    // Set instance field: public readonly System.Boolean includePasswordProtected
+    void _set_includePasswordProtected(bool value);
+    // Get instance field: public readonly System.Boolean includeEmpty
+    bool _get_includeEmpty();
+    // Set instance field: public readonly System.Boolean includeEmpty
+    void _set_includeEmpty(bool value);
+    // Get instance field: public readonly System.Boolean includeFull
+    bool _get_includeFull();
+    // Set instance field: public readonly System.Boolean includeFull
+    void _set_includeFull(bool value);
+    // Get instance field: public readonly System.Boolean filterNames
+    bool _get_filterNames();
+    // Set instance field: public readonly System.Boolean filterNames
+    void _set_filterNames(bool value);
+    // Get instance field: public readonly System.String nameFilter
+    ::Il2CppString* _get_nameFilter();
+    // Set instance field: public readonly System.String nameFilter
+    void _set_nameFilter(::Il2CppString* value);
+    // Get instance field: public readonly System.Boolean filterDifficulties
+    bool _get_filterDifficulties();
+    // Set instance field: public readonly System.Boolean filterDifficulties
+    void _set_filterDifficulties(bool value);
+    // Get instance field: public readonly BeatmapDifficultyMask difficultyFilter
+    GlobalNamespace::BeatmapDifficultyMask _get_difficultyFilter();
+    // Set instance field: public readonly BeatmapDifficultyMask difficultyFilter
+    void _set_difficultyFilter(GlobalNamespace::BeatmapDifficultyMask value);
+    // Get instance field: public readonly System.Boolean filterModifiers
+    bool _get_filterModifiers();
+    // Set instance field: public readonly System.Boolean filterModifiers
+    void _set_filterModifiers(bool value);
+    // Get instance field: public readonly GameplayModifierMask modifierFilter
+    GlobalNamespace::GameplayModifierMask _get_modifierFilter();
+    // Set instance field: public readonly GameplayModifierMask modifierFilter
+    void _set_modifierFilter(GlobalNamespace::GameplayModifierMask value);
+    // Get instance field: public readonly System.Boolean filterSongPacks
+    bool _get_filterSongPacks();
+    // Set instance field: public readonly System.Boolean filterSongPacks
+    void _set_filterSongPacks(bool value);
+    // Get instance field: public readonly SongPackMask songPackFilter
+    GlobalNamespace::SongPackMask _get_songPackFilter();
+    // Set instance field: public readonly SongPackMask songPackFilter
+    void _set_songPackFilter(GlobalNamespace::SongPackMask value);
     // static public UserServerFilter get_defaultFilter()
     // Offset: 0x2313494
     static GlobalNamespace::UserServerFilter get_defaultFilter();

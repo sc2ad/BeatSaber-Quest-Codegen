@@ -103,6 +103,50 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<UnityEngine::Quaternion>*) == 0x8);
     // Creating value type constructor for type: IKSolverLeg
     IKSolverLeg(float IKRotationWeight_ = {}, UnityEngine::Quaternion IKRotation_ = {}, RootMotion::FinalIK::IKSolver::Point* pelvis_ = {}, RootMotion::FinalIK::IKSolver::Point* thigh_ = {}, RootMotion::FinalIK::IKSolver::Point* calf_ = {}, RootMotion::FinalIK::IKSolver::Point* foot_ = {}, RootMotion::FinalIK::IKSolver::Point* toe_ = {}, RootMotion::FinalIK::IKSolverVR::Leg* leg_ = {}, UnityEngine::Vector3 heelOffset_ = {}, ::Array<UnityEngine::Vector3>* positions_ = {}, ::Array<UnityEngine::Quaternion>* rotations_ = {}) noexcept : IKRotationWeight{IKRotationWeight_}, IKRotation{IKRotation_}, pelvis{pelvis_}, thigh{thigh_}, calf{calf_}, foot{foot_}, toe{toe_}, leg{leg_}, heelOffset{heelOffset_}, positions{positions_}, rotations{rotations_} {}
+    // Get instance field: public System.Single IKRotationWeight
+    float _get_IKRotationWeight();
+    // Set instance field: public System.Single IKRotationWeight
+    void _set_IKRotationWeight(float value);
+    // Get instance field: public UnityEngine.Quaternion IKRotation
+    UnityEngine::Quaternion _get_IKRotation();
+    // Set instance field: public UnityEngine.Quaternion IKRotation
+    void _set_IKRotation(UnityEngine::Quaternion value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point pelvis
+    RootMotion::FinalIK::IKSolver::Point* _get_pelvis();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point pelvis
+    void _set_pelvis(RootMotion::FinalIK::IKSolver::Point* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point thigh
+    RootMotion::FinalIK::IKSolver::Point* _get_thigh();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point thigh
+    void _set_thigh(RootMotion::FinalIK::IKSolver::Point* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point calf
+    RootMotion::FinalIK::IKSolver::Point* _get_calf();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point calf
+    void _set_calf(RootMotion::FinalIK::IKSolver::Point* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point foot
+    RootMotion::FinalIK::IKSolver::Point* _get_foot();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point foot
+    void _set_foot(RootMotion::FinalIK::IKSolver::Point* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point toe
+    RootMotion::FinalIK::IKSolver::Point* _get_toe();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point toe
+    void _set_toe(RootMotion::FinalIK::IKSolver::Point* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leg
+    RootMotion::FinalIK::IKSolverVR::Leg* _get_leg();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leg
+    void _set_leg(RootMotion::FinalIK::IKSolverVR::Leg* value);
+    // Get instance field: public UnityEngine.Vector3 heelOffset
+    UnityEngine::Vector3 _get_heelOffset();
+    // Set instance field: public UnityEngine.Vector3 heelOffset
+    void _set_heelOffset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3[] positions
+    ::Array<UnityEngine::Vector3>* _get_positions();
+    // Set instance field: private UnityEngine.Vector3[] positions
+    void _set_positions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Quaternion[] rotations
+    ::Array<UnityEngine::Quaternion>* _get_rotations();
+    // Set instance field: private UnityEngine.Quaternion[] rotations
+    void _set_rotations(::Array<UnityEngine::Quaternion>* value);
     // public System.Boolean SetChain(UnityEngine.Transform pelvis, UnityEngine.Transform thigh, UnityEngine.Transform calf, UnityEngine.Transform foot, UnityEngine.Transform toe, UnityEngine.Transform root)
     // Offset: 0x1C67740
     bool SetChain(UnityEngine::Transform* pelvis, UnityEngine::Transform* thigh, UnityEngine::Transform* calf, UnityEngine::Transform* foot, UnityEngine::Transform* toe, UnityEngine::Transform* root);

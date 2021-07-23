@@ -156,6 +156,10 @@ namespace System::Net {
       static System::Net::FtpWebRequest::RequestState _get_Error();
       // Set static field: static public System.Net.FtpWebRequest/System.Net.RequestState Error
       static void _set_Error(System::Net::FtpWebRequest::RequestState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Net.FtpWebRequest/System.Net.RequestState
     #pragma pack(pop)
     static check_size<sizeof(FtpWebRequest::RequestState), 0 + sizeof(int)> __System_Net_FtpWebRequest_RequestStateSizeCheck;
@@ -338,6 +342,118 @@ namespace System::Net {
     static ::Array<::Il2CppString*>* _get_supportedCommands();
     // Set static field: static private readonly System.String[] supportedCommands
     static void _set_supportedCommands(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.Uri requestUri
+    System::Uri* _get_requestUri();
+    // Set instance field: private System.Uri requestUri
+    void _set_requestUri(System::Uri* value);
+    // Get instance field: private System.String file_name
+    ::Il2CppString* _get_file_name();
+    // Set instance field: private System.String file_name
+    void _set_file_name(::Il2CppString* value);
+    // Get instance field: private System.Net.ServicePoint servicePoint
+    System::Net::ServicePoint* _get_servicePoint();
+    // Set instance field: private System.Net.ServicePoint servicePoint
+    void _set_servicePoint(System::Net::ServicePoint* value);
+    // Get instance field: private System.IO.Stream origDataStream
+    System::IO::Stream* _get_origDataStream();
+    // Set instance field: private System.IO.Stream origDataStream
+    void _set_origDataStream(System::IO::Stream* value);
+    // Get instance field: private System.IO.Stream dataStream
+    System::IO::Stream* _get_dataStream();
+    // Set instance field: private System.IO.Stream dataStream
+    void _set_dataStream(System::IO::Stream* value);
+    // Get instance field: private System.IO.Stream controlStream
+    System::IO::Stream* _get_controlStream();
+    // Set instance field: private System.IO.Stream controlStream
+    void _set_controlStream(System::IO::Stream* value);
+    // Get instance field: private System.IO.StreamReader controlReader
+    System::IO::StreamReader* _get_controlReader();
+    // Set instance field: private System.IO.StreamReader controlReader
+    void _set_controlReader(System::IO::StreamReader* value);
+    // Get instance field: private System.Net.NetworkCredential credentials
+    System::Net::NetworkCredential* _get_credentials();
+    // Set instance field: private System.Net.NetworkCredential credentials
+    void _set_credentials(System::Net::NetworkCredential* value);
+    // Get instance field: private System.Net.IPHostEntry hostEntry
+    System::Net::IPHostEntry* _get_hostEntry();
+    // Set instance field: private System.Net.IPHostEntry hostEntry
+    void _set_hostEntry(System::Net::IPHostEntry* value);
+    // Get instance field: private System.Net.IPEndPoint localEndPoint
+    System::Net::IPEndPoint* _get_localEndPoint();
+    // Set instance field: private System.Net.IPEndPoint localEndPoint
+    void _set_localEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: private System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint* _get_remoteEndPoint();
+    // Set instance field: private System.Net.IPEndPoint remoteEndPoint
+    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: private System.Net.IWebProxy proxy
+    System::Net::IWebProxy* _get_proxy();
+    // Set instance field: private System.Net.IWebProxy proxy
+    void _set_proxy(System::Net::IWebProxy* value);
+    // Get instance field: private System.Int32 timeout
+    int _get_timeout();
+    // Set instance field: private System.Int32 timeout
+    void _set_timeout(int value);
+    // Get instance field: private System.Int32 rwTimeout
+    int _get_rwTimeout();
+    // Set instance field: private System.Int32 rwTimeout
+    void _set_rwTimeout(int value);
+    // Get instance field: private System.Int64 offset
+    int64_t _get_offset();
+    // Set instance field: private System.Int64 offset
+    void _set_offset(int64_t value);
+    // Get instance field: private System.Boolean binary
+    bool _get_binary();
+    // Set instance field: private System.Boolean binary
+    void _set_binary(bool value);
+    // Get instance field: private System.Boolean enableSsl
+    bool _get_enableSsl();
+    // Set instance field: private System.Boolean enableSsl
+    void _set_enableSsl(bool value);
+    // Get instance field: private System.Boolean usePassive
+    bool _get_usePassive();
+    // Set instance field: private System.Boolean usePassive
+    void _set_usePassive(bool value);
+    // Get instance field: private System.Boolean keepAlive
+    bool _get_keepAlive();
+    // Set instance field: private System.Boolean keepAlive
+    void _set_keepAlive(bool value);
+    // Get instance field: private System.String method
+    ::Il2CppString* _get_method();
+    // Set instance field: private System.String method
+    void _set_method(::Il2CppString* value);
+    // Get instance field: private System.String renameTo
+    ::Il2CppString* _get_renameTo();
+    // Set instance field: private System.String renameTo
+    void _set_renameTo(::Il2CppString* value);
+    // Get instance field: private System.Object locker
+    ::Il2CppObject* _get_locker();
+    // Set instance field: private System.Object locker
+    void _set_locker(::Il2CppObject* value);
+    // Get instance field: private System.Net.FtpWebRequest/System.Net.RequestState requestState
+    System::Net::FtpWebRequest::RequestState _get_requestState();
+    // Set instance field: private System.Net.FtpWebRequest/System.Net.RequestState requestState
+    void _set_requestState(System::Net::FtpWebRequest::RequestState value);
+    // Get instance field: private System.Net.FtpAsyncResult asyncResult
+    System::Net::FtpAsyncResult* _get_asyncResult();
+    // Set instance field: private System.Net.FtpAsyncResult asyncResult
+    void _set_asyncResult(System::Net::FtpAsyncResult* value);
+    // Get instance field: private System.Net.FtpWebResponse ftpResponse
+    System::Net::FtpWebResponse* _get_ftpResponse();
+    // Set instance field: private System.Net.FtpWebResponse ftpResponse
+    void _set_ftpResponse(System::Net::FtpWebResponse* value);
+    // Get instance field: private System.IO.Stream requestStream
+    System::IO::Stream* _get_requestStream();
+    // Set instance field: private System.IO.Stream requestStream
+    void _set_requestStream(System::IO::Stream* value);
+    // Get instance field: private System.String initial_path
+    ::Il2CppString* _get_initial_path();
+    // Set instance field: private System.String initial_path
+    void _set_initial_path(::Il2CppString* value);
+    // Get instance field: private System.Text.Encoding dataEncoding
+    System::Text::Encoding* _get_dataEncoding();
+    // Set instance field: private System.Text.Encoding dataEncoding
+    void _set_dataEncoding(System::Text::Encoding* value);
     // public System.Boolean get_EnableSsl()
     // Offset: 0x16A8394
     bool get_EnableSsl();

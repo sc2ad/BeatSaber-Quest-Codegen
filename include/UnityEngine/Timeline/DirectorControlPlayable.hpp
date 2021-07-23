@@ -57,6 +57,18 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(double) == 0x8);
     // Creating value type constructor for type: DirectorControlPlayable
     DirectorControlPlayable(UnityEngine::Playables::PlayableDirector* director_ = {}, bool m_SyncTime_ = {}, double m_AssetDuration_ = {}) noexcept : director{director_}, m_SyncTime{m_SyncTime_}, m_AssetDuration{m_AssetDuration_} {}
+    // Get instance field: public UnityEngine.Playables.PlayableDirector director
+    UnityEngine::Playables::PlayableDirector* _get_director();
+    // Set instance field: public UnityEngine.Playables.PlayableDirector director
+    void _set_director(UnityEngine::Playables::PlayableDirector* value);
+    // Get instance field: private System.Boolean m_SyncTime
+    bool _get_m_SyncTime();
+    // Set instance field: private System.Boolean m_SyncTime
+    void _set_m_SyncTime(bool value);
+    // Get instance field: private System.Double m_AssetDuration
+    double _get_m_AssetDuration();
+    // Set instance field: private System.Double m_AssetDuration
+    void _set_m_AssetDuration(double value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.DirectorControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableDirector director)
     // Offset: 0x17E3D28
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::DirectorControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::PlayableDirector* director);

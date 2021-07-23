@@ -37,6 +37,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::PermissionGrantStatus) == 0x4);
     // Creating value type constructor for type: SystemPermission
     SystemPermission(bool HasPermission_ = {}, Oculus::Platform::PermissionGrantStatus PermissionGrantStatus_ = {}) noexcept : HasPermission{HasPermission_}, PermissionGrantStatus{PermissionGrantStatus_} {}
+    // Get instance field: public readonly System.Boolean HasPermission
+    bool _get_HasPermission();
+    // Set instance field: public readonly System.Boolean HasPermission
+    void _set_HasPermission(bool value);
+    // Get instance field: public readonly Oculus.Platform.PermissionGrantStatus PermissionGrantStatus
+    Oculus::Platform::PermissionGrantStatus _get_PermissionGrantStatus();
+    // Set instance field: public readonly Oculus.Platform.PermissionGrantStatus PermissionGrantStatus
+    void _set_PermissionGrantStatus(Oculus::Platform::PermissionGrantStatus value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A8338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

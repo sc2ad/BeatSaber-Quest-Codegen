@@ -34,6 +34,10 @@ namespace UnityEngine::Bindings {
     constexpr operator bool() const noexcept {
       return ThrowsException;
     }
+    // Get instance field: private System.Boolean <ThrowsException>k__BackingField
+    bool _get_$ThrowsException$k__BackingField();
+    // Set instance field: private System.Boolean <ThrowsException>k__BackingField
+    void _set_$ThrowsException$k__BackingField(bool value);
     // public System.Void set_ThrowsException(System.Boolean value)
     // Offset: 0x23C1F10
     void set_ThrowsException(bool value);

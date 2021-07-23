@@ -63,6 +63,10 @@ namespace System::Net::Http {
     static System::Net::Http::HttpMethod* _get_trace_method();
     // Set static field: static private readonly System.Net.Http.HttpMethod trace_method
     static void _set_trace_method(System::Net::Http::HttpMethod* value);
+    // Get instance field: private readonly System.String method
+    ::Il2CppString* _get_method();
+    // Set instance field: private readonly System.String method
+    void _set_method(::Il2CppString* value);
     // static public System.Net.Http.HttpMethod get_Get()
     // Offset: 0x157376C
     static System::Net::Http::HttpMethod* get_Get();

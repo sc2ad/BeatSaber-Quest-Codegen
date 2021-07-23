@@ -66,6 +66,10 @@ namespace UnityEngine::Animations {
     static UnityEngine::Animations::AnimationMotionXToDeltaPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
+    // Get instance field: private UnityEngine.Playables.PlayableHandle m_Handle
+    UnityEngine::Playables::PlayableHandle _get_m_Handle();
+    // Set instance field: private UnityEngine.Playables.PlayableHandle m_Handle
+    void _set_m_Handle(UnityEngine::Playables::PlayableHandle value);
     // private System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xF0C674
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

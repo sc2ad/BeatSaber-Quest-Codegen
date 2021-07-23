@@ -80,6 +80,30 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public OculusNetworkPlayerModel <>4__this
+    GlobalNamespace::OculusNetworkPlayerModel* _get_$$4__this();
+    // Set instance field: public OculusNetworkPlayerModel <>4__this
+    void _set_$$4__this(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field: public Oculus.Platform.Message`1<Oculus.Platform.Models.RoomInviteNotification> message
+    Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>* _get_message();
+    // Set instance field: public Oculus.Platform.Message`1<Oculus.Platform.Models.RoomInviteNotification> message
+    void _set_message(Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>* value);
+    // Get instance field: private OculusNetworkPlayerModel/<>c__DisplayClass51_0 <>8__1
+    GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0* _get_$$8__1();
+    // Set instance field: private OculusNetworkPlayerModel/<>c__DisplayClass51_0 <>8__1
+    void _set_$$8__1(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> value);
     // private System.Void MoveNext()
     // Offset: 0xED1828
     void MoveNext();

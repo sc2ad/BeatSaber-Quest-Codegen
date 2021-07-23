@@ -50,6 +50,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::SubContainerBindingFinalizer::$$c__DisplayClass5_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_1
     $$c__DisplayClass5_1(Zenject::SubContainerCreatorCached* containerCreator_ = {}, Zenject::SubContainerBindingFinalizer::$$c__DisplayClass5_0* CS$$$8__locals1_ = {}) noexcept : containerCreator{containerCreator_}, CS$$$8__locals1{CS$$$8__locals1_} {}
+    // Get instance field: public Zenject.SubContainerCreatorCached containerCreator
+    Zenject::SubContainerCreatorCached* _get_containerCreator();
+    // Set instance field: public Zenject.SubContainerCreatorCached containerCreator
+    void _set_containerCreator(Zenject::SubContainerCreatorCached* value);
+    // Get instance field: public Zenject.SubContainerBindingFinalizer/Zenject.<>c__DisplayClass5_0 CS$<>8__locals1
+    Zenject::SubContainerBindingFinalizer::$$c__DisplayClass5_0* _get_CS$$$8__locals1();
+    // Set instance field: public Zenject.SubContainerBindingFinalizer/Zenject.<>c__DisplayClass5_0 CS$<>8__locals1
+    void _set_CS$$$8__locals1(Zenject::SubContainerBindingFinalizer::$$c__DisplayClass5_0* value);
     // Zenject.IProvider <FinalizeBindingConcrete>b__1(Zenject.DiContainer _, System.Type concreteType)
     // Offset: 0x16D1C90
     Zenject::IProvider* $FinalizeBindingConcrete$b__1(Zenject::DiContainer* _, System::Type* concreteType);

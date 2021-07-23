@@ -168,6 +168,82 @@ namespace GlobalNamespace {
     GameplayModifiersModelSO(GlobalNamespace::GameplayModifierParamsSO* batteryEnergy_ = {}, GlobalNamespace::GameplayModifierParamsSO* instaFail_ = {}, GlobalNamespace::GameplayModifierParamsSO* noObstacles_ = {}, GlobalNamespace::GameplayModifierParamsSO* noBombs_ = {}, GlobalNamespace::GameplayModifierParamsSO* fastNotes_ = {}, GlobalNamespace::GameplayModifierParamsSO* strictAngles_ = {}, GlobalNamespace::GameplayModifierParamsSO* disappearingArrows_ = {}, GlobalNamespace::GameplayModifierParamsSO* fasterSong_ = {}, GlobalNamespace::GameplayModifierParamsSO* slowerSong_ = {}, GlobalNamespace::GameplayModifierParamsSO* noArrows_ = {}, GlobalNamespace::GameplayModifierParamsSO* ghostNotes_ = {}, GlobalNamespace::GameplayModifierParamsSO* noFailOn0Energy_ = {}, GlobalNamespace::GameplayModifierParamsSO* superFastSong_ = {}, GlobalNamespace::GameplayModifierParamsSO* proMode_ = {}, GlobalNamespace::GameplayModifierParamsSO* zenMode_ = {}, GlobalNamespace::GameplayModifierParamsSO* smallCubes_ = {}, GlobalNamespace::GameplayModifierParamsSO* demoNoObstacles_ = {}, GlobalNamespace::GameplayModifierParamsSO* demoNoFail_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>* gameplayModifierGetters_ = {}) noexcept : batteryEnergy{batteryEnergy_}, instaFail{instaFail_}, noObstacles{noObstacles_}, noBombs{noBombs_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, fasterSong{fasterSong_}, slowerSong{slowerSong_}, noArrows{noArrows_}, ghostNotes{ghostNotes_}, noFailOn0Energy{noFailOn0Energy_}, superFastSong{superFastSong_}, proMode{proMode_}, zenMode{zenMode_}, smallCubes{smallCubes_}, demoNoObstacles{demoNoObstacles_}, demoNoFail{demoNoFail_}, gameplayModifierGetters{gameplayModifierGetters_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private GameplayModifierParamsSO _batteryEnergy
+    GlobalNamespace::GameplayModifierParamsSO* _get__batteryEnergy();
+    // Set instance field: private GameplayModifierParamsSO _batteryEnergy
+    void _set__batteryEnergy(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _instaFail
+    GlobalNamespace::GameplayModifierParamsSO* _get__instaFail();
+    // Set instance field: private GameplayModifierParamsSO _instaFail
+    void _set__instaFail(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _noObstacles
+    GlobalNamespace::GameplayModifierParamsSO* _get__noObstacles();
+    // Set instance field: private GameplayModifierParamsSO _noObstacles
+    void _set__noObstacles(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _noBombs
+    GlobalNamespace::GameplayModifierParamsSO* _get__noBombs();
+    // Set instance field: private GameplayModifierParamsSO _noBombs
+    void _set__noBombs(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _fastNotes
+    GlobalNamespace::GameplayModifierParamsSO* _get__fastNotes();
+    // Set instance field: private GameplayModifierParamsSO _fastNotes
+    void _set__fastNotes(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _strictAngles
+    GlobalNamespace::GameplayModifierParamsSO* _get__strictAngles();
+    // Set instance field: private GameplayModifierParamsSO _strictAngles
+    void _set__strictAngles(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _disappearingArrows
+    GlobalNamespace::GameplayModifierParamsSO* _get__disappearingArrows();
+    // Set instance field: private GameplayModifierParamsSO _disappearingArrows
+    void _set__disappearingArrows(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _fasterSong
+    GlobalNamespace::GameplayModifierParamsSO* _get__fasterSong();
+    // Set instance field: private GameplayModifierParamsSO _fasterSong
+    void _set__fasterSong(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _slowerSong
+    GlobalNamespace::GameplayModifierParamsSO* _get__slowerSong();
+    // Set instance field: private GameplayModifierParamsSO _slowerSong
+    void _set__slowerSong(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _noArrows
+    GlobalNamespace::GameplayModifierParamsSO* _get__noArrows();
+    // Set instance field: private GameplayModifierParamsSO _noArrows
+    void _set__noArrows(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _ghostNotes
+    GlobalNamespace::GameplayModifierParamsSO* _get__ghostNotes();
+    // Set instance field: private GameplayModifierParamsSO _ghostNotes
+    void _set__ghostNotes(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _noFailOn0Energy
+    GlobalNamespace::GameplayModifierParamsSO* _get__noFailOn0Energy();
+    // Set instance field: private GameplayModifierParamsSO _noFailOn0Energy
+    void _set__noFailOn0Energy(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _superFastSong
+    GlobalNamespace::GameplayModifierParamsSO* _get__superFastSong();
+    // Set instance field: private GameplayModifierParamsSO _superFastSong
+    void _set__superFastSong(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _proMode
+    GlobalNamespace::GameplayModifierParamsSO* _get__proMode();
+    // Set instance field: private GameplayModifierParamsSO _proMode
+    void _set__proMode(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _zenMode
+    GlobalNamespace::GameplayModifierParamsSO* _get__zenMode();
+    // Set instance field: private GameplayModifierParamsSO _zenMode
+    void _set__zenMode(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _smallCubes
+    GlobalNamespace::GameplayModifierParamsSO* _get__smallCubes();
+    // Set instance field: private GameplayModifierParamsSO _smallCubes
+    void _set__smallCubes(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _demoNoObstacles
+    GlobalNamespace::GameplayModifierParamsSO* _get__demoNoObstacles();
+    // Set instance field: private GameplayModifierParamsSO _demoNoObstacles
+    void _set__demoNoObstacles(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private GameplayModifierParamsSO _demoNoFail
+    GlobalNamespace::GameplayModifierParamsSO* _get__demoNoFail();
+    // Set instance field: private GameplayModifierParamsSO _demoNoFail
+    void _set__demoNoFail(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,GameplayModifiersModelSO/GameplayModifierBoolGetter> _gameplayModifierGetters
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>* _get__gameplayModifierGetters();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,GameplayModifiersModelSO/GameplayModifierBoolGetter> _gameplayModifierGetters
+    void _set__gameplayModifierGetters(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>* value);
     // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
     // Offset: 0x10B35A4
     GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);

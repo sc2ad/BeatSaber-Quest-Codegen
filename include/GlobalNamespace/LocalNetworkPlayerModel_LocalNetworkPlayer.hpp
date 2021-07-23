@@ -195,6 +195,90 @@ namespace GlobalNamespace {
     static float _get_kRequestTimeout();
     // Set static field: static private System.Single kRequestTimeout
     static void _set_kRequestTimeout(float value);
+    // Get instance field: private readonly LocalNetworkPlayerModel _playerModel
+    GlobalNamespace::LocalNetworkPlayerModel* _get__playerModel();
+    // Set instance field: private readonly LocalNetworkPlayerModel _playerModel
+    void _set__playerModel(GlobalNamespace::LocalNetworkPlayerModel* value);
+    // Get instance field: private readonly System.String _userId
+    ::Il2CppString* _get__userId();
+    // Set instance field: private readonly System.String _userId
+    void _set__userId(::Il2CppString* value);
+    // Get instance field: private readonly System.String _userName
+    ::Il2CppString* _get__userName();
+    // Set instance field: private readonly System.String _userName
+    void _set__userName(::Il2CppString* value);
+    // Get instance field: private readonly System.Net.IPAddress _ipAddress
+    System::Net::IPAddress* _get__ipAddress();
+    // Set instance field: private readonly System.Net.IPAddress _ipAddress
+    void _set__ipAddress(System::Net::IPAddress* value);
+    // Get instance field: private readonly System.Boolean _isMe
+    bool _get__isMe();
+    // Set instance field: private readonly System.Boolean _isMe
+    void _set__isMe(bool value);
+    // Get instance field: private System.Boolean _isPartyOwner
+    bool _get__isPartyOwner();
+    // Set instance field: private System.Boolean _isPartyOwner
+    void _set__isPartyOwner(bool value);
+    // Get instance field: private System.Single _joinRequestTime
+    float _get__joinRequestTime();
+    // Set instance field: private System.Single _joinRequestTime
+    void _set__joinRequestTime(float value);
+    // Get instance field: private System.Single _inviteSentTime
+    float _get__inviteSentTime();
+    // Set instance field: private System.Single _inviteSentTime
+    void _set__inviteSentTime(float value);
+    // Get instance field: private System.Boolean _isBlocked
+    bool _get__isBlocked();
+    // Set instance field: private System.Boolean _isBlocked
+    void _set__isBlocked(bool value);
+    // Get instance field: private System.Boolean _hasBlockedMe
+    bool _get__hasBlockedMe();
+    // Set instance field: private System.Boolean _hasBlockedMe
+    void _set__hasBlockedMe(bool value);
+    // Get instance field: private System.String _secret
+    ::Il2CppString* _get__secret();
+    // Set instance field: private System.String _secret
+    void _set__secret(::Il2CppString* value);
+    // Get instance field: private System.Int32 _multiplayerPort
+    int _get__multiplayerPort();
+    // Set instance field: private System.Int32 _multiplayerPort
+    void _set__multiplayerPort(int value);
+    // Get instance field: private IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private System.Single _connectingStartTime
+    float _get__connectingStartTime();
+    // Set instance field: private System.Single _connectingStartTime
+    void _set__connectingStartTime(float value);
+    // Get instance field: private System.Int32 _currentPartySize
+    int _get__currentPartySize();
+    // Set instance field: private System.Int32 _currentPartySize
+    void _set__currentPartySize(int value);
+    // Get instance field: private BeatmapLevelSelectionMask _selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get__selectionMask();
+    // Set instance field: private BeatmapLevelSelectionMask _selectionMask
+    void _set__selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: private GameplayServerConfiguration _configuration
+    GlobalNamespace::GameplayServerConfiguration _get__configuration();
+    // Set instance field: private GameplayServerConfiguration _configuration
+    void _set__configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field: private System.Single _lastUpdateTime
+    float _get__lastUpdateTime();
+    // Set instance field: private System.Single _lastUpdateTime
+    void _set__lastUpdateTime(float value);
+    // Get instance field: private System.Boolean _allowedJoinToMyParty
+    bool _get__allowedJoinToMyParty();
+    // Set instance field: private System.Boolean _allowedJoinToMyParty
+    void _set__allowedJoinToMyParty(bool value);
+    // Get instance field: private System.Boolean _requestedToJoinMyParty
+    bool _get__requestedToJoinMyParty();
+    // Set instance field: private System.Boolean _requestedToJoinMyParty
+    void _set__requestedToJoinMyParty(bool value);
+    // Get instance field: private System.Boolean _invitedMeToJoinTheirParty
+    bool _get__invitedMeToJoinTheirParty();
+    // Set instance field: private System.Boolean _invitedMeToJoinTheirParty
+    void _set__invitedMeToJoinTheirParty(bool value);
     // public System.String get_userId()
     // Offset: 0x1177A30
     ::Il2CppString* get_userId();

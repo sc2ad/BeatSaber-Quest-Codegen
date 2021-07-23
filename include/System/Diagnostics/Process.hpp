@@ -117,6 +117,10 @@ namespace System::Diagnostics {
       static System::Diagnostics::Process::StreamReadMode _get_asyncMode();
       // Set static field: static public System.Diagnostics.Process/System.Diagnostics.StreamReadMode asyncMode
       static void _set_asyncMode(System::Diagnostics::Process::StreamReadMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Diagnostics.Process/System.Diagnostics.StreamReadMode
     #pragma pack(pop)
     static check_size<sizeof(Process::StreamReadMode), 0 + sizeof(int)> __System_Diagnostics_Process_StreamReadModeSizeCheck;
@@ -331,6 +335,134 @@ namespace System::Diagnostics {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Process
     Process(bool haveProcessId_ = {}, int processId_ = {}, bool haveProcessHandle_ = {}, Microsoft::Win32::SafeHandles::SafeProcessHandle* m_processHandle_ = {}, bool isRemoteMachine_ = {}, ::Il2CppString* machineName_ = {}, int m_processAccess_ = {}, System::Diagnostics::ProcessThreadCollection* threads_ = {}, System::Diagnostics::ProcessModuleCollection* modules_ = {}, bool haveWorkingSetLimits_ = {}, bool havePriorityClass_ = {}, bool watchForExit_ = {}, bool watchingForExit_ = {}, System::EventHandler* onExited_ = {}, bool exited_ = {}, int exitCode_ = {}, bool signaled_ = {}, bool haveExitTime_ = {}, bool raisedOnExited_ = {}, System::Threading::RegisteredWaitHandle* registeredWaitHandle_ = {}, System::Threading::WaitHandle* waitHandle_ = {}, System::ComponentModel::ISynchronizeInvoke* synchronizingObject_ = {}, System::IO::StreamReader* standardOutput_ = {}, System::IO::StreamWriter* standardInput_ = {}, System::IO::StreamReader* standardError_ = {}, bool disposed_ = {}, System::Diagnostics::Process::StreamReadMode outputStreamReadMode_ = {}, System::Diagnostics::Process::StreamReadMode errorStreamReadMode_ = {}, System::Diagnostics::Process::StreamReadMode inputStreamReadMode_ = {}, System::Diagnostics::AsyncStreamReader* output_ = {}, System::Diagnostics::AsyncStreamReader* error_ = {}, ::Il2CppString* process_name_ = {}) noexcept : haveProcessId{haveProcessId_}, processId{processId_}, haveProcessHandle{haveProcessHandle_}, m_processHandle{m_processHandle_}, isRemoteMachine{isRemoteMachine_}, machineName{machineName_}, m_processAccess{m_processAccess_}, threads{threads_}, modules{modules_}, haveWorkingSetLimits{haveWorkingSetLimits_}, havePriorityClass{havePriorityClass_}, watchForExit{watchForExit_}, watchingForExit{watchingForExit_}, onExited{onExited_}, exited{exited_}, exitCode{exitCode_}, signaled{signaled_}, haveExitTime{haveExitTime_}, raisedOnExited{raisedOnExited_}, registeredWaitHandle{registeredWaitHandle_}, waitHandle{waitHandle_}, synchronizingObject{synchronizingObject_}, standardOutput{standardOutput_}, standardInput{standardInput_}, standardError{standardError_}, disposed{disposed_}, outputStreamReadMode{outputStreamReadMode_}, errorStreamReadMode{errorStreamReadMode_}, inputStreamReadMode{inputStreamReadMode_}, output{output_}, error{error_}, process_name{process_name_} {}
+    // Get instance field: private System.Boolean haveProcessId
+    bool _get_haveProcessId();
+    // Set instance field: private System.Boolean haveProcessId
+    void _set_haveProcessId(bool value);
+    // Get instance field: private System.Int32 processId
+    int _get_processId();
+    // Set instance field: private System.Int32 processId
+    void _set_processId(int value);
+    // Get instance field: private System.Boolean haveProcessHandle
+    bool _get_haveProcessHandle();
+    // Set instance field: private System.Boolean haveProcessHandle
+    void _set_haveProcessHandle(bool value);
+    // Get instance field: private Microsoft.Win32.SafeHandles.SafeProcessHandle m_processHandle
+    Microsoft::Win32::SafeHandles::SafeProcessHandle* _get_m_processHandle();
+    // Set instance field: private Microsoft.Win32.SafeHandles.SafeProcessHandle m_processHandle
+    void _set_m_processHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
+    // Get instance field: private System.Boolean isRemoteMachine
+    bool _get_isRemoteMachine();
+    // Set instance field: private System.Boolean isRemoteMachine
+    void _set_isRemoteMachine(bool value);
+    // Get instance field: private System.String machineName
+    ::Il2CppString* _get_machineName();
+    // Set instance field: private System.String machineName
+    void _set_machineName(::Il2CppString* value);
+    // Get instance field: private System.Int32 m_processAccess
+    int _get_m_processAccess();
+    // Set instance field: private System.Int32 m_processAccess
+    void _set_m_processAccess(int value);
+    // Get instance field: private System.Diagnostics.ProcessThreadCollection threads
+    System::Diagnostics::ProcessThreadCollection* _get_threads();
+    // Set instance field: private System.Diagnostics.ProcessThreadCollection threads
+    void _set_threads(System::Diagnostics::ProcessThreadCollection* value);
+    // Get instance field: private System.Diagnostics.ProcessModuleCollection modules
+    System::Diagnostics::ProcessModuleCollection* _get_modules();
+    // Set instance field: private System.Diagnostics.ProcessModuleCollection modules
+    void _set_modules(System::Diagnostics::ProcessModuleCollection* value);
+    // Get instance field: private System.Boolean haveWorkingSetLimits
+    bool _get_haveWorkingSetLimits();
+    // Set instance field: private System.Boolean haveWorkingSetLimits
+    void _set_haveWorkingSetLimits(bool value);
+    // Get instance field: private System.Boolean havePriorityClass
+    bool _get_havePriorityClass();
+    // Set instance field: private System.Boolean havePriorityClass
+    void _set_havePriorityClass(bool value);
+    // Get instance field: private System.Boolean watchForExit
+    bool _get_watchForExit();
+    // Set instance field: private System.Boolean watchForExit
+    void _set_watchForExit(bool value);
+    // Get instance field: private System.Boolean watchingForExit
+    bool _get_watchingForExit();
+    // Set instance field: private System.Boolean watchingForExit
+    void _set_watchingForExit(bool value);
+    // Get instance field: private System.EventHandler onExited
+    System::EventHandler* _get_onExited();
+    // Set instance field: private System.EventHandler onExited
+    void _set_onExited(System::EventHandler* value);
+    // Get instance field: private System.Boolean exited
+    bool _get_exited();
+    // Set instance field: private System.Boolean exited
+    void _set_exited(bool value);
+    // Get instance field: private System.Int32 exitCode
+    int _get_exitCode();
+    // Set instance field: private System.Int32 exitCode
+    void _set_exitCode(int value);
+    // Get instance field: private System.Boolean signaled
+    bool _get_signaled();
+    // Set instance field: private System.Boolean signaled
+    void _set_signaled(bool value);
+    // Get instance field: private System.Boolean haveExitTime
+    bool _get_haveExitTime();
+    // Set instance field: private System.Boolean haveExitTime
+    void _set_haveExitTime(bool value);
+    // Get instance field: private System.Boolean raisedOnExited
+    bool _get_raisedOnExited();
+    // Set instance field: private System.Boolean raisedOnExited
+    void _set_raisedOnExited(bool value);
+    // Get instance field: private System.Threading.RegisteredWaitHandle registeredWaitHandle
+    System::Threading::RegisteredWaitHandle* _get_registeredWaitHandle();
+    // Set instance field: private System.Threading.RegisteredWaitHandle registeredWaitHandle
+    void _set_registeredWaitHandle(System::Threading::RegisteredWaitHandle* value);
+    // Get instance field: private System.Threading.WaitHandle waitHandle
+    System::Threading::WaitHandle* _get_waitHandle();
+    // Set instance field: private System.Threading.WaitHandle waitHandle
+    void _set_waitHandle(System::Threading::WaitHandle* value);
+    // Get instance field: private System.ComponentModel.ISynchronizeInvoke synchronizingObject
+    System::ComponentModel::ISynchronizeInvoke* _get_synchronizingObject();
+    // Set instance field: private System.ComponentModel.ISynchronizeInvoke synchronizingObject
+    void _set_synchronizingObject(System::ComponentModel::ISynchronizeInvoke* value);
+    // Get instance field: private System.IO.StreamReader standardOutput
+    System::IO::StreamReader* _get_standardOutput();
+    // Set instance field: private System.IO.StreamReader standardOutput
+    void _set_standardOutput(System::IO::StreamReader* value);
+    // Get instance field: private System.IO.StreamWriter standardInput
+    System::IO::StreamWriter* _get_standardInput();
+    // Set instance field: private System.IO.StreamWriter standardInput
+    void _set_standardInput(System::IO::StreamWriter* value);
+    // Get instance field: private System.IO.StreamReader standardError
+    System::IO::StreamReader* _get_standardError();
+    // Set instance field: private System.IO.StreamReader standardError
+    void _set_standardError(System::IO::StreamReader* value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.Diagnostics.Process/System.Diagnostics.StreamReadMode outputStreamReadMode
+    System::Diagnostics::Process::StreamReadMode _get_outputStreamReadMode();
+    // Set instance field: private System.Diagnostics.Process/System.Diagnostics.StreamReadMode outputStreamReadMode
+    void _set_outputStreamReadMode(System::Diagnostics::Process::StreamReadMode value);
+    // Get instance field: private System.Diagnostics.Process/System.Diagnostics.StreamReadMode errorStreamReadMode
+    System::Diagnostics::Process::StreamReadMode _get_errorStreamReadMode();
+    // Set instance field: private System.Diagnostics.Process/System.Diagnostics.StreamReadMode errorStreamReadMode
+    void _set_errorStreamReadMode(System::Diagnostics::Process::StreamReadMode value);
+    // Get instance field: private System.Diagnostics.Process/System.Diagnostics.StreamReadMode inputStreamReadMode
+    System::Diagnostics::Process::StreamReadMode _get_inputStreamReadMode();
+    // Set instance field: private System.Diagnostics.Process/System.Diagnostics.StreamReadMode inputStreamReadMode
+    void _set_inputStreamReadMode(System::Diagnostics::Process::StreamReadMode value);
+    // Get instance field: System.Diagnostics.AsyncStreamReader output
+    System::Diagnostics::AsyncStreamReader* _get_output();
+    // Set instance field: System.Diagnostics.AsyncStreamReader output
+    void _set_output(System::Diagnostics::AsyncStreamReader* value);
+    // Get instance field: System.Diagnostics.AsyncStreamReader error
+    System::Diagnostics::AsyncStreamReader* _get_error();
+    // Set instance field: System.Diagnostics.AsyncStreamReader error
+    void _set_error(System::Diagnostics::AsyncStreamReader* value);
+    // Get instance field: private System.String process_name
+    ::Il2CppString* _get_process_name();
+    // Set instance field: private System.String process_name
+    void _set_process_name(::Il2CppString* value);
     // private System.Boolean get_Associated()
     // Offset: 0x184B320
     bool get_Associated();

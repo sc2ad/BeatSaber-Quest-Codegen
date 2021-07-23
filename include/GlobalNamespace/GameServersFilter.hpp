@@ -83,6 +83,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GameServersFilter
     GameServersFilter(bool filterByDifficulty_ = {}, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty_ = {}, bool filterByModifiers_ = {}, GlobalNamespace::GameplayModifierMask filteredModifiers_ = {}, bool filterBySongPacks_ = {}, GlobalNamespace::SongPackMask filteredSongPacks_ = {}, bool showFull_ = {}, bool showProtected_ = {}, bool showInternetGames_ = {}) noexcept : filterByDifficulty{filterByDifficulty_}, filteredDifficulty{filteredDifficulty_}, filterByModifiers{filterByModifiers_}, filteredModifiers{filteredModifiers_}, filterBySongPacks{filterBySongPacks_}, filteredSongPacks{filteredSongPacks_}, showFull{showFull_}, showProtected{showProtected_}, showInternetGames{showInternetGames_} {}
+    // Get instance field: public System.Boolean filterByDifficulty
+    bool _get_filterByDifficulty();
+    // Set instance field: public System.Boolean filterByDifficulty
+    void _set_filterByDifficulty(bool value);
+    // Get instance field: public BeatmapDifficultyMask filteredDifficulty
+    GlobalNamespace::BeatmapDifficultyMask _get_filteredDifficulty();
+    // Set instance field: public BeatmapDifficultyMask filteredDifficulty
+    void _set_filteredDifficulty(GlobalNamespace::BeatmapDifficultyMask value);
+    // Get instance field: public System.Boolean filterByModifiers
+    bool _get_filterByModifiers();
+    // Set instance field: public System.Boolean filterByModifiers
+    void _set_filterByModifiers(bool value);
+    // Get instance field: public GameplayModifierMask filteredModifiers
+    GlobalNamespace::GameplayModifierMask _get_filteredModifiers();
+    // Set instance field: public GameplayModifierMask filteredModifiers
+    void _set_filteredModifiers(GlobalNamespace::GameplayModifierMask value);
+    // Get instance field: public System.Boolean filterBySongPacks
+    bool _get_filterBySongPacks();
+    // Set instance field: public System.Boolean filterBySongPacks
+    void _set_filterBySongPacks(bool value);
+    // Get instance field: public SongPackMask filteredSongPacks
+    GlobalNamespace::SongPackMask _get_filteredSongPacks();
+    // Set instance field: public SongPackMask filteredSongPacks
+    void _set_filteredSongPacks(GlobalNamespace::SongPackMask value);
+    // Get instance field: public System.Boolean showFull
+    bool _get_showFull();
+    // Set instance field: public System.Boolean showFull
+    void _set_showFull(bool value);
+    // Get instance field: public System.Boolean showProtected
+    bool _get_showProtected();
+    // Set instance field: public System.Boolean showProtected
+    void _set_showProtected(bool value);
+    // Get instance field: public System.Boolean showInternetGames
+    bool _get_showInternetGames();
+    // Set instance field: public System.Boolean showInternetGames
+    void _set_showInternetGames(bool value);
     // public System.Void .ctor()
     // Offset: 0x10ADDB0
     // Implemented from: System.Object

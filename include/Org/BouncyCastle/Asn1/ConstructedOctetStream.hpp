@@ -56,6 +56,18 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(System::IO::Stream*) == 0x8);
     // Creating value type constructor for type: ConstructedOctetStream
     ConstructedOctetStream(Org::BouncyCastle::Asn1::Asn1StreamParser* parser_ = {}, bool first_ = {}, System::IO::Stream* currentStream_ = {}) noexcept : parser{parser_}, first{first_}, currentStream{currentStream_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
+    Org::BouncyCastle::Asn1::Asn1StreamParser* _get__parser();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
+    void _set__parser(Org::BouncyCastle::Asn1::Asn1StreamParser* value);
+    // Get instance field: private System.Boolean _first
+    bool _get__first();
+    // Set instance field: private System.Boolean _first
+    void _set__first(bool value);
+    // Get instance field: private System.IO.Stream _currentStream
+    System::IO::Stream* _get__currentStream();
+    // Set instance field: private System.IO.Stream _currentStream
+    void _set__currentStream(System::IO::Stream* value);
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
     // Offset: 0x16E0E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

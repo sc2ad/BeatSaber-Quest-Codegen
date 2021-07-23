@@ -46,6 +46,18 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.String m_BoneName
+    ::Il2CppString* _get_m_BoneName();
+    // Set instance field: private System.String m_BoneName
+    void _set_m_BoneName(::Il2CppString* value);
+    // Get instance field: private System.String m_HumanName
+    ::Il2CppString* _get_m_HumanName();
+    // Set instance field: private System.String m_HumanName
+    void _set_m_HumanName(::Il2CppString* value);
+    // Get instance field: public UnityEngine.HumanLimit limit
+    UnityEngine::HumanLimit _get_limit();
+    // Set instance field: public UnityEngine.HumanLimit limit
+    void _set_limit(UnityEngine::HumanLimit value);
   }; // UnityEngine.HumanBone
   #pragma pack(pop)
   static check_size<sizeof(HumanBone), 16 + sizeof(UnityEngine::HumanLimit)> __UnityEngine_HumanBoneSizeCheck;

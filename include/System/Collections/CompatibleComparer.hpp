@@ -46,6 +46,14 @@ namespace System::Collections {
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
     }
+    // Get instance field: private System.Collections.IComparer _comparer
+    System::Collections::IComparer* _get__comparer();
+    // Set instance field: private System.Collections.IComparer _comparer
+    void _set__comparer(System::Collections::IComparer* value);
+    // Get instance field: private System.Collections.IHashCodeProvider _hcp
+    System::Collections::IHashCodeProvider* _get__hcp();
+    // Set instance field: private System.Collections.IHashCodeProvider _hcp
+    void _set__hcp(System::Collections::IHashCodeProvider* value);
     // System.Collections.IComparer get_Comparer()
     // Offset: 0x178BC70
     System::Collections::IComparer* get_Comparer();

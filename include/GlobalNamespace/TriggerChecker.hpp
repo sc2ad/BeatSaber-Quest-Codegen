@@ -53,6 +53,18 @@ namespace GlobalNamespace {
     TriggerChecker(System::Action* TriggerCheckerOnEnterEvent_ = {}, System::Action* TriggerCheckerOnExitEvent_ = {}, System::Action* TriggerCheckerOnStayEvent_ = {}) noexcept : TriggerCheckerOnEnterEvent{TriggerCheckerOnEnterEvent_}, TriggerCheckerOnExitEvent{TriggerCheckerOnExitEvent_}, TriggerCheckerOnStayEvent{TriggerCheckerOnStayEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Action TriggerCheckerOnEnterEvent
+    System::Action* _get_TriggerCheckerOnEnterEvent();
+    // Set instance field: public System.Action TriggerCheckerOnEnterEvent
+    void _set_TriggerCheckerOnEnterEvent(System::Action* value);
+    // Get instance field: public System.Action TriggerCheckerOnExitEvent
+    System::Action* _get_TriggerCheckerOnExitEvent();
+    // Set instance field: public System.Action TriggerCheckerOnExitEvent
+    void _set_TriggerCheckerOnExitEvent(System::Action* value);
+    // Get instance field: public System.Action TriggerCheckerOnStayEvent
+    System::Action* _get_TriggerCheckerOnStayEvent();
+    // Set instance field: public System.Action TriggerCheckerOnStayEvent
+    void _set_TriggerCheckerOnStayEvent(System::Action* value);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
     // Offset: 0x235BE88
     void OnTriggerEnter(UnityEngine::Collider* other);

@@ -53,6 +53,14 @@ namespace LiteNetLib {
     operator LiteNetLib::INatPunchListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INatPunchListener*>(this);
     }
+    // Get instance field: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest NatIntroductionRequest
+    LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* _get_NatIntroductionRequest();
+    // Set instance field: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest NatIntroductionRequest
+    void _set_NatIntroductionRequest(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* value);
+    // Get instance field: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess NatIntroductionSuccess
+    LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* _get_NatIntroductionSuccess();
+    // Set instance field: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess NatIntroductionSuccess
+    void _set_NatIntroductionSuccess(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* value);
     // public System.Void add_NatIntroductionRequest(LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest value)
     // Offset: 0x1BABFCC
     void add_NatIntroductionRequest(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* value);

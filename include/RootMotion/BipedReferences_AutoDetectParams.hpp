@@ -40,6 +40,14 @@ namespace RootMotion {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Boolean legsParentInSpine
+    bool _get_legsParentInSpine();
+    // Set instance field: public System.Boolean legsParentInSpine
+    void _set_legsParentInSpine(bool value);
+    // Get instance field: public System.Boolean includeEyes
+    bool _get_includeEyes();
+    // Set instance field: public System.Boolean includeEyes
+    void _set_includeEyes(bool value);
     // static public RootMotion.BipedReferences/RootMotion.AutoDetectParams get_Default()
     // Offset: 0x1CDC664
     static RootMotion::BipedReferences::AutoDetectParams get_Default();

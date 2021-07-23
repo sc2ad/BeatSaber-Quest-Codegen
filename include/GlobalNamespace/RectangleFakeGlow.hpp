@@ -72,6 +72,22 @@ namespace GlobalNamespace {
     static int _get__sizeParamsID();
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
+    // Get instance field: private UnityEngine.Vector2 _size
+    UnityEngine::Vector2 _get__size();
+    // Set instance field: private UnityEngine.Vector2 _size
+    void _set__size(UnityEngine::Vector2 value);
+    // Get instance field: private System.Single _edgeSize
+    float _get__edgeSize();
+    // Set instance field: private System.Single _edgeSize
+    void _set__edgeSize(float value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
+    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
+    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1142730
     UnityEngine::Color get_color();

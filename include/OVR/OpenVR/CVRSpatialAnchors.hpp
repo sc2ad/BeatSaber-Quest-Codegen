@@ -49,6 +49,10 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVRSpatialAnchors() const noexcept {
       return FnTable;
     }
+    // Get instance field: private OVR.OpenVR.IVRSpatialAnchors FnTable
+    OVR::OpenVR::IVRSpatialAnchors _get_FnTable();
+    // Set instance field: private OVR.OpenVR.IVRSpatialAnchors FnTable
+    void _set_FnTable(OVR::OpenVR::IVRSpatialAnchors value);
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1584844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

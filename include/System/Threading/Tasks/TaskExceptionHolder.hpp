@@ -90,6 +90,22 @@ namespace System::Threading::Tasks {
     static System::EventHandler* _get_s_adUnloadEventHandler();
     // Set static field: static private System.EventHandler s_adUnloadEventHandler
     static void _set_s_adUnloadEventHandler(System::EventHandler* value);
+    // Get instance field: private readonly System.Threading.Tasks.Task m_task
+    System::Threading::Tasks::Task* _get_m_task();
+    // Set instance field: private readonly System.Threading.Tasks.Task m_task
+    void _set_m_task(System::Threading::Tasks::Task* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> m_faultExceptions
+    System::Collections::Generic::List_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* _get_m_faultExceptions();
+    // Set instance field: private System.Collections.Generic.List`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> m_faultExceptions
+    void _set_m_faultExceptions(System::Collections::Generic::List_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* value);
+    // Get instance field: private System.Runtime.ExceptionServices.ExceptionDispatchInfo m_cancellationException
+    System::Runtime::ExceptionServices::ExceptionDispatchInfo* _get_m_cancellationException();
+    // Set instance field: private System.Runtime.ExceptionServices.ExceptionDispatchInfo m_cancellationException
+    void _set_m_cancellationException(System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+    // Get instance field: private System.Boolean m_isHandled
+    bool _get_m_isHandled();
+    // Set instance field: private System.Boolean m_isHandled
+    void _set_m_isHandled(bool value);
     // System.Boolean get_ContainsFaultList()
     // Offset: 0x1887144
     bool get_ContainsFaultList();

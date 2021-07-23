@@ -51,6 +51,14 @@ namespace Zenject {
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass12_0
     $$c__DisplayClass12_0(Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}, System::Action_1<Zenject::DiContainer*>* installerMethod_ = {}) noexcept : gameObjectInfo{gameObjectInfo_}, installerMethod{installerMethod_} {}
+    // Get instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    Zenject::GameObjectCreationParameters* _get_gameObjectInfo();
+    // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
+    // Get instance field: public System.Action`1<Zenject.DiContainer> installerMethod
+    System::Action_1<Zenject::DiContainer*>* _get_installerMethod();
+    // Set instance field: public System.Action`1<Zenject.DiContainer> installerMethod
+    void _set_installerMethod(System::Action_1<Zenject::DiContainer*>* value);
     // Zenject.ISubContainerCreator <ByNewGameObjectMethod>b__0(Zenject.DiContainer container)
     // Offset: 0x16D0E88
     Zenject::ISubContainerCreator* $ByNewGameObjectMethod$b__0(Zenject::DiContainer* container);

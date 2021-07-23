@@ -41,6 +41,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
     // Creating value type constructor for type: KeyboardShortcut
     KeyboardShortcut(UnityEngine::KeyCode mainKey_ = {}, UnityEngine::KeyCode combinationKey1_ = {}, UnityEngine::KeyCode combinationKey2_ = {}) noexcept : mainKey{mainKey_}, combinationKey1{combinationKey1_}, combinationKey2{combinationKey2_} {}
+    // Get instance field: public UnityEngine.KeyCode mainKey
+    UnityEngine::KeyCode _get_mainKey();
+    // Set instance field: public UnityEngine.KeyCode mainKey
+    void _set_mainKey(UnityEngine::KeyCode value);
+    // Get instance field: public UnityEngine.KeyCode combinationKey1
+    UnityEngine::KeyCode _get_combinationKey1();
+    // Set instance field: public UnityEngine.KeyCode combinationKey1
+    void _set_combinationKey1(UnityEngine::KeyCode value);
+    // Get instance field: public UnityEngine.KeyCode combinationKey2
+    UnityEngine::KeyCode _get_combinationKey2();
+    // Set instance field: public UnityEngine.KeyCode combinationKey2
+    void _set_combinationKey2(UnityEngine::KeyCode value);
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
     // Offset: 0x121B7D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

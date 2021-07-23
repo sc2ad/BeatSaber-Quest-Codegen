@@ -34,6 +34,14 @@ namespace Mono::Net::Security {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass66_0
     $$c__DisplayClass66_0(Mono::Net::Security::MobileAuthenticatedStream* $$4__this_ = {}, int len_ = {}) noexcept : $$4__this{$$4__this_}, len{len_} {}
+    // Get instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
+    Mono::Net::Security::MobileAuthenticatedStream* _get_$$4__this();
+    // Set instance field: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
+    void _set_$$4__this(Mono::Net::Security::MobileAuthenticatedStream* value);
+    // Get instance field: public System.Int32 len
+    int _get_len();
+    // Set instance field: public System.Int32 len
+    void _set_len(int value);
     // System.Int32 <InnerRead>b__0()
     // Offset: 0x15ADF24
     int $InnerRead$b__0();

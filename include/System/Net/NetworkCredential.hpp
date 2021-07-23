@@ -55,6 +55,18 @@ namespace System::Net {
     operator System::Net::ICredentials() noexcept {
       return *reinterpret_cast<System::Net::ICredentials*>(this);
     }
+    // Get instance field: private System.String m_domain
+    ::Il2CppString* _get_m_domain();
+    // Set instance field: private System.String m_domain
+    void _set_m_domain(::Il2CppString* value);
+    // Get instance field: private System.String m_userName
+    ::Il2CppString* _get_m_userName();
+    // Set instance field: private System.String m_userName
+    void _set_m_userName(::Il2CppString* value);
+    // Get instance field: private System.Security.SecureString m_password
+    System::Security::SecureString* _get_m_password();
+    // Set instance field: private System.Security.SecureString m_password
+    void _set_m_password(System::Security::SecureString* value);
     // public System.String get_UserName()
     // Offset: 0x1644758
     ::Il2CppString* get_UserName();

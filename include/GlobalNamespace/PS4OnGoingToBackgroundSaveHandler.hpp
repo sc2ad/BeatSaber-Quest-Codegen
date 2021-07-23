@@ -53,6 +53,18 @@ namespace GlobalNamespace {
     PS4OnGoingToBackgroundSaveHandler(GlobalNamespace::LocalLeaderboardsModel* localLeaderboardModel_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}) noexcept : localLeaderboardModel{localLeaderboardModel_}, mainSettingsModel{mainSettingsModel_}, playerDataModel{playerDataModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private LocalLeaderboardsModel _localLeaderboardModel
+    GlobalNamespace::LocalLeaderboardsModel* _get__localLeaderboardModel();
+    // Set instance field: private LocalLeaderboardsModel _localLeaderboardModel
+    void _set__localLeaderboardModel(GlobalNamespace::LocalLeaderboardsModel* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
     // protected System.Void OnEnable()
     // Offset: 0xFFDA28
     void OnEnable();

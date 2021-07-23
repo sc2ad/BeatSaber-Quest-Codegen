@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::PlayerStateHash() const noexcept {
       return playerState;
     }
+    // Get instance field: public PlayerStateHash playerState
+    GlobalNamespace::PlayerStateHash _get_playerState();
+    // Set instance field: public PlayerStateHash playerState
+    void _set_playerState(GlobalNamespace::PlayerStateHash value);
     // static public PacketPool`1<ConnectedPlayerManager/PlayerStatePacket> get_pool()
     // Offset: 0x12BD65C
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>* get_pool();

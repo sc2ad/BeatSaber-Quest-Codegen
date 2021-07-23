@@ -55,6 +55,14 @@ namespace UnityEngine::TestTools::TestRunner {
     operator NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);
     }
+    // Get instance field: private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
+    UnityEngine::TestTools::TestRunner::TestFinishedEvent* _get_m_TestFinishedEvent();
+    // Set instance field: private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
+    void _set_m_TestFinishedEvent(UnityEngine::TestTools::TestRunner::TestFinishedEvent* value);
+    // Get instance field: private readonly UnityEngine.TestTools.TestRunner.TestStartedEvent m_TestStartedEvent
+    UnityEngine::TestTools::TestRunner::TestStartedEvent* _get_m_TestStartedEvent();
+    // Set instance field: private readonly UnityEngine.TestTools.TestRunner.TestStartedEvent m_TestStartedEvent
+    void _set_m_TestStartedEvent(UnityEngine::TestTools::TestRunner::TestStartedEvent* value);
     // public System.Void .ctor(UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent, UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent)
     // Offset: 0x1491B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

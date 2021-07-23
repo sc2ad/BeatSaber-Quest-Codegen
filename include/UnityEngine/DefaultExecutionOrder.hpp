@@ -33,6 +33,10 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return m_Order;
     }
+    // Get instance field: private System.Int32 m_Order
+    int _get_m_Order();
+    // Set instance field: private System.Int32 m_Order
+    void _set_m_Order(int value);
     // public System.Int32 get_order()
     // Offset: 0x1BDCFA4
     int get_order();

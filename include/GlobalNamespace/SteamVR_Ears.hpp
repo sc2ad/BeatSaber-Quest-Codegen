@@ -51,6 +51,18 @@ namespace GlobalNamespace {
     SteamVR_Ears(GlobalNamespace::SteamVR_Camera* vrcam_ = {}, bool usingSpeakers_ = {}, UnityEngine::Quaternion offset_ = {}) noexcept : vrcam{vrcam_}, usingSpeakers{usingSpeakers_}, offset{offset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public SteamVR_Camera vrcam
+    GlobalNamespace::SteamVR_Camera* _get_vrcam();
+    // Set instance field: public SteamVR_Camera vrcam
+    void _set_vrcam(GlobalNamespace::SteamVR_Camera* value);
+    // Get instance field: private System.Boolean usingSpeakers
+    bool _get_usingSpeakers();
+    // Set instance field: private System.Boolean usingSpeakers
+    void _set_usingSpeakers(bool value);
+    // Get instance field: private UnityEngine.Quaternion offset
+    UnityEngine::Quaternion _get_offset();
+    // Set instance field: private UnityEngine.Quaternion offset
+    void _set_offset(UnityEngine::Quaternion value);
     // private System.Void OnNewPosesApplied()
     // Offset: 0x13A31D0
     void OnNewPosesApplied();

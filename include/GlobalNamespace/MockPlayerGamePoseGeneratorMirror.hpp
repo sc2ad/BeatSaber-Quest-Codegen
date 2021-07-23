@@ -76,6 +76,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: MockPlayerGamePoseGeneratorMirror
     MockPlayerGamePoseGeneratorMirror(GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::IConnectedPlayer* mirroredPlayer_ = {}, System::Action* onSongFinished_ = {}) noexcept : nodePoseSyncStateManager{nodePoseSyncStateManager_}, mirroredPlayer{mirroredPlayer_}, onSongFinished{onSongFinished_} {}
+    // Get instance field: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
+    GlobalNamespace::NodePoseSyncStateManager* _get__nodePoseSyncStateManager();
+    // Set instance field: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
+    void _set__nodePoseSyncStateManager(GlobalNamespace::NodePoseSyncStateManager* value);
+    // Get instance field: private IConnectedPlayer _mirroredPlayer
+    GlobalNamespace::IConnectedPlayer* _get__mirroredPlayer();
+    // Set instance field: private IConnectedPlayer _mirroredPlayer
+    void _set__mirroredPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private System.Action _onSongFinished
+    System::Action* _get__onSongFinished();
+    // Set instance field: private System.Action _onSongFinished
+    void _set__onSongFinished(System::Action* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded, NodePoseSyncStateManager nodePoseSyncStateManager)
     // Offset: 0x113D780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

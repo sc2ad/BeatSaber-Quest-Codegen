@@ -47,6 +47,22 @@ namespace GlobalNamespace {
     AppStaticSettingsSO(bool requirePrivacyPolicy_ = {}, bool enable360DegreeLevels_ = {}, bool enableCustomLevels_ = {}, bool disableMultiplayer_ = {}) noexcept : requirePrivacyPolicy{requirePrivacyPolicy_}, enable360DegreeLevels{enable360DegreeLevels_}, enableCustomLevels{enableCustomLevels_}, disableMultiplayer{disableMultiplayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Boolean requirePrivacyPolicy
+    bool _get_requirePrivacyPolicy();
+    // Set instance field: public System.Boolean requirePrivacyPolicy
+    void _set_requirePrivacyPolicy(bool value);
+    // Get instance field: public System.Boolean enable360DegreeLevels
+    bool _get_enable360DegreeLevels();
+    // Set instance field: public System.Boolean enable360DegreeLevels
+    void _set_enable360DegreeLevels(bool value);
+    // Get instance field: public System.Boolean enableCustomLevels
+    bool _get_enableCustomLevels();
+    // Set instance field: public System.Boolean enableCustomLevels
+    void _set_enableCustomLevels(bool value);
+    // Get instance field: public System.Boolean disableMultiplayer
+    bool _get_disableMultiplayer();
+    // Set instance field: public System.Boolean disableMultiplayer
+    void _set_disableMultiplayer(bool value);
     // public System.Void .ctor()
     // Offset: 0x10DA4D0
     // Implemented from: UnityEngine.ScriptableObject

@@ -62,6 +62,10 @@ namespace NUnit::Framework::Internal {
     constexpr operator System::Type*() const noexcept {
       return Type;
     }
+    // Get instance field: private System.Type <Type>k__BackingField
+    System::Type* _get_$Type$k__BackingField();
+    // Set instance field: private System.Type <Type>k__BackingField
+    void _set_$Type$k__BackingField(System::Type* value);
     // public System.Type get_Type()
     // Offset: 0x2246A10
     System::Type* get_Type();

@@ -49,6 +49,14 @@ namespace System {
     operator System::ModifierSpec() noexcept {
       return *reinterpret_cast<System::ModifierSpec*>(this);
     }
+    // Get instance field: private System.Int32 dimensions
+    int _get_dimensions();
+    // Set instance field: private System.Int32 dimensions
+    void _set_dimensions(int value);
+    // Get instance field: private System.Boolean bound
+    bool _get_bound();
+    // Set instance field: private System.Boolean bound
+    void _set_bound(bool value);
     // System.Void .ctor(System.Int32 dimensions, System.Boolean bound)
     // Offset: 0x177F5E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

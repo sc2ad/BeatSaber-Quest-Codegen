@@ -51,6 +51,14 @@ namespace GlobalNamespace {
     operator MasterServer::IMasterServerReliableResponse() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerReliableResponse*>(this);
     }
+    // Get instance field: private System.UInt32 <requestId>k__BackingField
+    uint _get_$requestId$k__BackingField();
+    // Set instance field: private System.UInt32 <requestId>k__BackingField
+    void _set_$requestId$k__BackingField(uint value);
+    // Get instance field: private System.UInt32 <responseId>k__BackingField
+    uint _get_$responseId$k__BackingField();
+    // Set instance field: private System.UInt32 <responseId>k__BackingField
+    void _set_$responseId$k__BackingField(uint value);
     // public System.UInt32 get_requestId()
     // Offset: 0x12B94BC
     uint get_requestId();

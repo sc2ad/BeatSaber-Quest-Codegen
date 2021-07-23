@@ -64,6 +64,18 @@ namespace GlobalNamespace {
     HealthWarningSceneStart(GlobalNamespace::HealthWarningFlowCoordinator* healthWarninglowCoordinator_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, HMUI::HierarchyManager* hierarchyManager_ = {}) noexcept : healthWarninglowCoordinator{healthWarninglowCoordinator_}, gameScenesManager{gameScenesManager_}, hierarchyManager{hierarchyManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HealthWarningFlowCoordinator _healthWarninglowCoordinator
+    GlobalNamespace::HealthWarningFlowCoordinator* _get__healthWarninglowCoordinator();
+    // Set instance field: private HealthWarningFlowCoordinator _healthWarninglowCoordinator
+    void _set__healthWarninglowCoordinator(GlobalNamespace::HealthWarningFlowCoordinator* value);
+    // Get instance field: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private HMUI.HierarchyManager _hierarchyManager
+    HMUI::HierarchyManager* _get__hierarchyManager();
+    // Set instance field: private HMUI.HierarchyManager _hierarchyManager
+    void _set__hierarchyManager(HMUI::HierarchyManager* value);
     // public System.Collections.IEnumerator Start()
     // Offset: 0x10EAE14
     System::Collections::IEnumerator* Start();

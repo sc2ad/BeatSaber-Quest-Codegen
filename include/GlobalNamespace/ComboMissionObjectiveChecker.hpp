@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
     // Creating value type constructor for type: ComboMissionObjectiveChecker
     ComboMissionObjectiveChecker(GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : scoreController{scoreController_} {}
+    // Get instance field: private IScoreController _scoreController
+    GlobalNamespace::IScoreController* _get__scoreController();
+    // Set instance field: private IScoreController _scoreController
+    void _set__scoreController(GlobalNamespace::IScoreController* value);
     // protected System.Void OnDestroy()
     // Offset: 0x1080718
     void OnDestroy();

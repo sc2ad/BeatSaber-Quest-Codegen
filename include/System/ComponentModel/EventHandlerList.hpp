@@ -42,6 +42,14 @@ namespace System::ComponentModel {
     static_assert(sizeof(System::ComponentModel::Component*) == 0x8);
     // Creating value type constructor for type: EventHandlerList
     EventHandlerList(System::ComponentModel::EventHandlerList::ListEntry* head_ = {}, System::ComponentModel::Component* parent_ = {}) noexcept : head{head_}, parent{parent_} {}
+    // Get instance field: private System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry head
+    System::ComponentModel::EventHandlerList::ListEntry* _get_head();
+    // Set instance field: private System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry head
+    void _set_head(System::ComponentModel::EventHandlerList::ListEntry* value);
+    // Get instance field: private System.ComponentModel.Component parent
+    System::ComponentModel::Component* _get_parent();
+    // Set instance field: private System.ComponentModel.Component parent
+    void _set_parent(System::ComponentModel::Component* value);
     // public System.Delegate get_Item(System.Object key)
     // Offset: 0x1847968
     System::Delegate* get_Item(::Il2CppObject* key);

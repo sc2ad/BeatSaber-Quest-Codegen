@@ -141,6 +141,74 @@ namespace RootMotion {
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
     // Creating value type constructor for type: BipedReferences
     BipedReferences(UnityEngine::Transform* root_ = {}, UnityEngine::Transform* pelvis_ = {}, UnityEngine::Transform* leftThigh_ = {}, UnityEngine::Transform* leftCalf_ = {}, UnityEngine::Transform* leftFoot_ = {}, UnityEngine::Transform* rightThigh_ = {}, UnityEngine::Transform* rightCalf_ = {}, UnityEngine::Transform* rightFoot_ = {}, UnityEngine::Transform* leftUpperArm_ = {}, UnityEngine::Transform* leftForearm_ = {}, UnityEngine::Transform* leftHand_ = {}, UnityEngine::Transform* rightUpperArm_ = {}, UnityEngine::Transform* rightForearm_ = {}, UnityEngine::Transform* rightHand_ = {}, UnityEngine::Transform* head_ = {}, ::Array<UnityEngine::Transform*>* spine_ = {}, ::Array<UnityEngine::Transform*>* eyes_ = {}) noexcept : root{root_}, pelvis{pelvis_}, leftThigh{leftThigh_}, leftCalf{leftCalf_}, leftFoot{leftFoot_}, rightThigh{rightThigh_}, rightCalf{rightCalf_}, rightFoot{rightFoot_}, leftUpperArm{leftUpperArm_}, leftForearm{leftForearm_}, leftHand{leftHand_}, rightUpperArm{rightUpperArm_}, rightForearm{rightForearm_}, rightHand{rightHand_}, head{head_}, spine{spine_}, eyes{eyes_} {}
+    // Get instance field: public UnityEngine.Transform root
+    UnityEngine::Transform* _get_root();
+    // Set instance field: public UnityEngine.Transform root
+    void _set_root(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform pelvis
+    UnityEngine::Transform* _get_pelvis();
+    // Set instance field: public UnityEngine.Transform pelvis
+    void _set_pelvis(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform leftThigh
+    UnityEngine::Transform* _get_leftThigh();
+    // Set instance field: public UnityEngine.Transform leftThigh
+    void _set_leftThigh(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform leftCalf
+    UnityEngine::Transform* _get_leftCalf();
+    // Set instance field: public UnityEngine.Transform leftCalf
+    void _set_leftCalf(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform leftFoot
+    UnityEngine::Transform* _get_leftFoot();
+    // Set instance field: public UnityEngine.Transform leftFoot
+    void _set_leftFoot(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform rightThigh
+    UnityEngine::Transform* _get_rightThigh();
+    // Set instance field: public UnityEngine.Transform rightThigh
+    void _set_rightThigh(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform rightCalf
+    UnityEngine::Transform* _get_rightCalf();
+    // Set instance field: public UnityEngine.Transform rightCalf
+    void _set_rightCalf(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform rightFoot
+    UnityEngine::Transform* _get_rightFoot();
+    // Set instance field: public UnityEngine.Transform rightFoot
+    void _set_rightFoot(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform leftUpperArm
+    UnityEngine::Transform* _get_leftUpperArm();
+    // Set instance field: public UnityEngine.Transform leftUpperArm
+    void _set_leftUpperArm(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform leftForearm
+    UnityEngine::Transform* _get_leftForearm();
+    // Set instance field: public UnityEngine.Transform leftForearm
+    void _set_leftForearm(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform leftHand
+    UnityEngine::Transform* _get_leftHand();
+    // Set instance field: public UnityEngine.Transform leftHand
+    void _set_leftHand(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform rightUpperArm
+    UnityEngine::Transform* _get_rightUpperArm();
+    // Set instance field: public UnityEngine.Transform rightUpperArm
+    void _set_rightUpperArm(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform rightForearm
+    UnityEngine::Transform* _get_rightForearm();
+    // Set instance field: public UnityEngine.Transform rightForearm
+    void _set_rightForearm(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform rightHand
+    UnityEngine::Transform* _get_rightHand();
+    // Set instance field: public UnityEngine.Transform rightHand
+    void _set_rightHand(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform head
+    UnityEngine::Transform* _get_head();
+    // Set instance field: public UnityEngine.Transform head
+    void _set_head(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform[] spine
+    ::Array<UnityEngine::Transform*>* _get_spine();
+    // Set instance field: public UnityEngine.Transform[] spine
+    void _set_spine(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: public UnityEngine.Transform[] eyes
+    ::Array<UnityEngine::Transform*>* _get_eyes();
+    // Set instance field: public UnityEngine.Transform[] eyes
+    void _set_eyes(::Array<UnityEngine::Transform*>* value);
     // public System.Boolean get_isFilled()
     // Offset: 0x1CD9248
     bool get_isFilled();

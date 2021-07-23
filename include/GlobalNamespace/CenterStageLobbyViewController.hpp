@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ModifiersSelectionView*) == 0x8);
     // Creating value type constructor for type: CenterStageLobbyViewController
     CenterStageLobbyViewController(GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}) noexcept : beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_} {}
+    // Get instance field: private BeatmapSelectionView _beatmapSelectionView
+    GlobalNamespace::BeatmapSelectionView* _get__beatmapSelectionView();
+    // Set instance field: private BeatmapSelectionView _beatmapSelectionView
+    void _set__beatmapSelectionView(GlobalNamespace::BeatmapSelectionView* value);
+    // Get instance field: private ModifiersSelectionView _modifiersSelectionView
+    GlobalNamespace::ModifiersSelectionView* _get__modifiersSelectionView();
+    // Set instance field: private ModifiersSelectionView _modifiersSelectionView
+    void _set__modifiersSelectionView(GlobalNamespace::ModifiersSelectionView* value);
     // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
     // Offset: 0x1078C6C
     void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);

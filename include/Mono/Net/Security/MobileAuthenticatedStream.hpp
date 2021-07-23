@@ -210,6 +210,62 @@ namespace Mono::Net::Security {
     static int _get_nextId();
     // Set static field: static private System.Int32 nextId
     static void _set_nextId(int value);
+    // Get instance field: private Mono.Net.Security.MobileTlsContext xobileTlsContext
+    Mono::Net::Security::MobileTlsContext* _get_xobileTlsContext();
+    // Set instance field: private Mono.Net.Security.MobileTlsContext xobileTlsContext
+    void _set_xobileTlsContext(Mono::Net::Security::MobileTlsContext* value);
+    // Get instance field: private System.Runtime.ExceptionServices.ExceptionDispatchInfo lastException
+    System::Runtime::ExceptionServices::ExceptionDispatchInfo* _get_lastException();
+    // Set instance field: private System.Runtime.ExceptionServices.ExceptionDispatchInfo lastException
+    void _set_lastException(System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+    // Get instance field: private Mono.Net.Security.AsyncProtocolRequest asyncHandshakeRequest
+    Mono::Net::Security::AsyncProtocolRequest* _get_asyncHandshakeRequest();
+    // Set instance field: private Mono.Net.Security.AsyncProtocolRequest asyncHandshakeRequest
+    void _set_asyncHandshakeRequest(Mono::Net::Security::AsyncProtocolRequest* value);
+    // Get instance field: private Mono.Net.Security.AsyncProtocolRequest asyncReadRequest
+    Mono::Net::Security::AsyncProtocolRequest* _get_asyncReadRequest();
+    // Set instance field: private Mono.Net.Security.AsyncProtocolRequest asyncReadRequest
+    void _set_asyncReadRequest(Mono::Net::Security::AsyncProtocolRequest* value);
+    // Get instance field: private Mono.Net.Security.AsyncProtocolRequest asyncWriteRequest
+    Mono::Net::Security::AsyncProtocolRequest* _get_asyncWriteRequest();
+    // Set instance field: private Mono.Net.Security.AsyncProtocolRequest asyncWriteRequest
+    void _set_asyncWriteRequest(Mono::Net::Security::AsyncProtocolRequest* value);
+    // Get instance field: private Mono.Net.Security.BufferOffsetSize2 readBuffer
+    Mono::Net::Security::BufferOffsetSize2* _get_readBuffer();
+    // Set instance field: private Mono.Net.Security.BufferOffsetSize2 readBuffer
+    void _set_readBuffer(Mono::Net::Security::BufferOffsetSize2* value);
+    // Get instance field: private Mono.Net.Security.BufferOffsetSize2 writeBuffer
+    Mono::Net::Security::BufferOffsetSize2* _get_writeBuffer();
+    // Set instance field: private Mono.Net.Security.BufferOffsetSize2 writeBuffer
+    void _set_writeBuffer(Mono::Net::Security::BufferOffsetSize2* value);
+    // Get instance field: private System.Object ioLock
+    ::Il2CppObject* _get_ioLock();
+    // Set instance field: private System.Object ioLock
+    void _set_ioLock(::Il2CppObject* value);
+    // Get instance field: private System.Int32 closeRequested
+    int _get_closeRequested();
+    // Set instance field: private System.Int32 closeRequested
+    void _set_closeRequested(int value);
+    // Get instance field: private System.Boolean shutdown
+    bool _get_shutdown();
+    // Set instance field: private System.Boolean shutdown
+    void _set_shutdown(bool value);
+    // Get instance field: private readonly System.Net.Security.SslStream <SslStream>k__BackingField
+    System::Net::Security::SslStream* _get_$SslStream$k__BackingField();
+    // Set instance field: private readonly System.Net.Security.SslStream <SslStream>k__BackingField
+    void _set_$SslStream$k__BackingField(System::Net::Security::SslStream* value);
+    // Get instance field: private readonly Mono.Security.Interface.MonoTlsSettings <Settings>k__BackingField
+    Mono::Security::Interface::MonoTlsSettings* _get_$Settings$k__BackingField();
+    // Set instance field: private readonly Mono.Security.Interface.MonoTlsSettings <Settings>k__BackingField
+    void _set_$Settings$k__BackingField(Mono::Security::Interface::MonoTlsSettings* value);
+    // Get instance field: private readonly Mono.Security.Interface.MonoTlsProvider <Provider>k__BackingField
+    Mono::Security::Interface::MonoTlsProvider* _get_$Provider$k__BackingField();
+    // Set instance field: private readonly Mono.Security.Interface.MonoTlsProvider <Provider>k__BackingField
+    void _set_$Provider$k__BackingField(Mono::Security::Interface::MonoTlsProvider* value);
+    // Get instance field: readonly System.Int32 ID
+    int _get_ID();
+    // Set instance field: readonly System.Int32 ID
+    void _set_ID(int value);
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
     // Offset: 0x15AC914
     Mono::Security::Interface::MonoTlsSettings* get_Settings();

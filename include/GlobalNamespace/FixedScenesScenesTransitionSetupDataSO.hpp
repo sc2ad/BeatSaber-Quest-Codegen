@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::SceneInfo*>*) == 0x8);
     // Creating value type constructor for type: FixedScenesScenesTransitionSetupDataSO
     FixedScenesScenesTransitionSetupDataSO(::Array<GlobalNamespace::SceneInfo*>* sceneInfos_ = {}) noexcept : sceneInfos{sceneInfos_} {}
+    // Get instance field: private SceneInfo[] _sceneInfos
+    ::Array<GlobalNamespace::SceneInfo*>* _get__sceneInfos();
+    // Set instance field: private SceneInfo[] _sceneInfos
+    void _set__sceneInfos(::Array<GlobalNamespace::SceneInfo*>* value);
     // public System.Void Init()
     // Offset: 0x12155C4
     void Init();

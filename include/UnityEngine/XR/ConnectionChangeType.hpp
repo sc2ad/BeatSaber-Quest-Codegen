@@ -49,6 +49,10 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::ConnectionChangeType _get_ConfigChange();
     // Set static field: static public UnityEngine.XR.ConnectionChangeType ConfigChange
     static void _set_ConfigChange(UnityEngine::XR::ConnectionChangeType value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // UnityEngine.XR.ConnectionChangeType
   #pragma pack(pop)
   static check_size<sizeof(ConnectionChangeType), 0 + sizeof(uint)> __UnityEngine_XR_ConnectionChangeTypeSizeCheck;

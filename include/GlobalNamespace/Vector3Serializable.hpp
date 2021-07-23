@@ -67,6 +67,18 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::Vector3Serializable>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::Vector3Serializable>*>(this);
     }
+    // Get instance field: private System.Int32 _x
+    int _get__x();
+    // Set instance field: private System.Int32 _x
+    void _set__x(int value);
+    // Get instance field: private System.Int32 _y
+    int _get__y();
+    // Set instance field: private System.Int32 _y
+    void _set__y(int value);
+    // Get instance field: private System.Int32 _z
+    int _get__z();
+    // Set instance field: private System.Int32 _z
+    void _set__z(int value);
     // public System.Void .ctor(UnityEngine.Vector3 v)
     // Offset: 0xF0C3E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

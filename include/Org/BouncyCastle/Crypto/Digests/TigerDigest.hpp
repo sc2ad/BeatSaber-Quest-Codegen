@@ -97,6 +97,38 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<int64_t>* _get_t4();
     // Set static field: static private readonly System.Int64[] t4
     static void _set_t4(::Array<int64_t>* value);
+    // Get instance field: private System.Int64 a
+    int64_t _get_a();
+    // Set instance field: private System.Int64 a
+    void _set_a(int64_t value);
+    // Get instance field: private System.Int64 b
+    int64_t _get_b();
+    // Set instance field: private System.Int64 b
+    void _set_b(int64_t value);
+    // Get instance field: private System.Int64 c
+    int64_t _get_c();
+    // Set instance field: private System.Int64 c
+    void _set_c(int64_t value);
+    // Get instance field: private System.Int64 byteCount
+    int64_t _get_byteCount();
+    // Set instance field: private System.Int64 byteCount
+    void _set_byteCount(int64_t value);
+    // Get instance field: private System.Byte[] Buffer
+    ::Array<uint8_t>* _get_Buffer();
+    // Set instance field: private System.Byte[] Buffer
+    void _set_Buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 bOff
+    int _get_bOff();
+    // Set instance field: private System.Int32 bOff
+    void _set_bOff(int value);
+    // Get instance field: private System.Int64[] x
+    ::Array<int64_t>* _get_x();
+    // Set instance field: private System.Int64[] x
+    void _set_x(::Array<int64_t>* value);
+    // Get instance field: private System.Int32 xOff
+    int _get_xOff();
+    // Set instance field: private System.Int32 xOff
+    void _set_xOff(int value);
     // public System.String get_AlgorithmName()
     // Offset: 0x18D6AF8
     ::Il2CppString* get_AlgorithmName();

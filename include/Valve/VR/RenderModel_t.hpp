@@ -56,6 +56,26 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr rVertexData
+    System::IntPtr _get_rVertexData();
+    // Set instance field: public System.IntPtr rVertexData
+    void _set_rVertexData(System::IntPtr value);
+    // Get instance field: public System.UInt32 unVertexCount
+    uint _get_unVertexCount();
+    // Set instance field: public System.UInt32 unVertexCount
+    void _set_unVertexCount(uint value);
+    // Get instance field: public System.IntPtr rIndexData
+    System::IntPtr _get_rIndexData();
+    // Set instance field: public System.IntPtr rIndexData
+    void _set_rIndexData(System::IntPtr value);
+    // Get instance field: public System.UInt32 unTriangleCount
+    uint _get_unTriangleCount();
+    // Set instance field: public System.UInt32 unTriangleCount
+    void _set_unTriangleCount(uint value);
+    // Get instance field: public System.Int32 diffuseTextureId
+    int _get_diffuseTextureId();
+    // Set instance field: public System.Int32 diffuseTextureId
+    void _set_diffuseTextureId(int value);
   }; // Valve.VR.RenderModel_t
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_t), 28 + sizeof(int)> __Valve_VR_RenderModel_tSizeCheck;

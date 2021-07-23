@@ -81,6 +81,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Media::PlatformCameraMode _get_EnumSize();
     // Set static field: static public OVRPlugin/Media/PlatformCameraMode EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/Media/PlatformCameraMode
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Media::PlatformCameraMode), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_Media_PlatformCameraModeSizeCheck;

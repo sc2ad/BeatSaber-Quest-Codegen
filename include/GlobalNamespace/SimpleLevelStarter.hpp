@@ -149,6 +149,54 @@ namespace GlobalNamespace {
     SimpleLevelStarter(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, bool useTestNoteCutSoundEffects_ = {}, UnityEngine::TextAsset* recordingTextAsset_ = {}, ::Array<UnityEngine::Component*>* prefabBindings_ = {}, UnityEngine::UI::Button* button_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, useTestNoteCutSoundEffects{useTestNoteCutSoundEffects_}, recordingTextAsset{recordingTextAsset_}, prefabBindings{prefabBindings_}, button{button_}, menuTransitionsHelper{menuTransitionsHelper_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_}, buttonBinder{buttonBinder_}, gameplayModifiers{gameplayModifiers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BeatmapLevelSO _level
+    GlobalNamespace::BeatmapLevelSO* _get__level();
+    // Set instance field: private BeatmapLevelSO _level
+    void _set__level(GlobalNamespace::BeatmapLevelSO* value);
+    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private BeatmapDifficulty _beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get__beatmapDifficulty();
+    // Set instance field: private BeatmapDifficulty _beatmapDifficulty
+    void _set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: private System.Boolean _useTestNoteCutSoundEffects
+    bool _get__useTestNoteCutSoundEffects();
+    // Set instance field: private System.Boolean _useTestNoteCutSoundEffects
+    void _set__useTestNoteCutSoundEffects(bool value);
+    // Get instance field: private UnityEngine.TextAsset _recordingTextAsset
+    UnityEngine::TextAsset* _get__recordingTextAsset();
+    // Set instance field: private UnityEngine.TextAsset _recordingTextAsset
+    void _set__recordingTextAsset(UnityEngine::TextAsset* value);
+    // Get instance field: private UnityEngine.Component[] _prefabBindings
+    ::Array<UnityEngine::Component*>* _get__prefabBindings();
+    // Set instance field: private UnityEngine.Component[] _prefabBindings
+    void _set__prefabBindings(::Array<UnityEngine::Component*>* value);
+    // Get instance field: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button* _get__button();
+    // Set instance field: private UnityEngine.UI.Button _button
+    void _set__button(UnityEngine::UI::Button* value);
+    // Get instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    GlobalNamespace::MenuTransitionsHelper* _get__menuTransitionsHelper();
+    // Set instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    void _set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper* value);
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field: private readonly GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
+    // Set instance field: private readonly GameplayModifiers _gameplayModifiers
+    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // protected System.Void Awake()
     // Offset: 0x1055160
     void Awake();

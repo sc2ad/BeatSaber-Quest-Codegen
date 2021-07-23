@@ -203,6 +203,90 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
     // Creating value type constructor for type: MissionResultsViewController
     MissionResultsViewController(UnityEngine::GameObject* failedBannerGo_ = {}, UnityEngine::GameObject* clearedBannerGo_ = {}, TMPro::TextMeshProUGUI* missionNameText_ = {}, TMPro::TextMeshProUGUI* songNameText_ = {}, UnityEngine::Sprite* successIcon_ = {}, UnityEngine::Sprite* successIconGlow_ = {}, UnityEngine::Color successColor_ = {}, UnityEngine::Sprite* failIcon_ = {}, UnityEngine::Sprite* failIconGlow_ = {}, UnityEngine::Color failColor_ = {}, GlobalNamespace::ResultObjectiveListItemsList* resultObjectiveListItemList_ = {}, UnityEngine::UI::Button* continueButton_ = {}, UnityEngine::UI::Button* retryButton_ = {}, UnityEngine::AudioClip* levelClearedAudioClip_ = {}, GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, System::Action_1<GlobalNamespace::MissionResultsViewController*>* continueButtonPressedEvent_ = {}, System::Action_1<GlobalNamespace::MissionResultsViewController*>* retryButtonPressedEvent_ = {}, GlobalNamespace::MissionNode* missionNode_ = {}, GlobalNamespace::MissionCompletionResults* missionCompletionResults_ = {}, UnityEngine::Coroutine* startFireworksAfterDelayCoroutine_ = {}) noexcept : failedBannerGo{failedBannerGo_}, clearedBannerGo{clearedBannerGo_}, missionNameText{missionNameText_}, songNameText{songNameText_}, successIcon{successIcon_}, successIconGlow{successIconGlow_}, successColor{successColor_}, failIcon{failIcon_}, failIconGlow{failIconGlow_}, failColor{failColor_}, resultObjectiveListItemList{resultObjectiveListItemList_}, continueButton{continueButton_}, retryButton{retryButton_}, levelClearedAudioClip{levelClearedAudioClip_}, fireworksController{fireworksController_}, songPreviewPlayer{songPreviewPlayer_}, continueButtonPressedEvent{continueButtonPressedEvent_}, retryButtonPressedEvent{retryButtonPressedEvent_}, missionNode{missionNode_}, missionCompletionResults{missionCompletionResults_}, startFireworksAfterDelayCoroutine{startFireworksAfterDelayCoroutine_} {}
+    // Get instance field: private UnityEngine.GameObject _failedBannerGo
+    UnityEngine::GameObject* _get__failedBannerGo();
+    // Set instance field: private UnityEngine.GameObject _failedBannerGo
+    void _set__failedBannerGo(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _clearedBannerGo
+    UnityEngine::GameObject* _get__clearedBannerGo();
+    // Set instance field: private UnityEngine.GameObject _clearedBannerGo
+    void _set__clearedBannerGo(UnityEngine::GameObject* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _missionNameText
+    TMPro::TextMeshProUGUI* _get__missionNameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _missionNameText
+    void _set__missionNameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _songNameText
+    TMPro::TextMeshProUGUI* _get__songNameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _songNameText
+    void _set__songNameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.Sprite _successIcon
+    UnityEngine::Sprite* _get__successIcon();
+    // Set instance field: private UnityEngine.Sprite _successIcon
+    void _set__successIcon(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _successIconGlow
+    UnityEngine::Sprite* _get__successIconGlow();
+    // Set instance field: private UnityEngine.Sprite _successIconGlow
+    void _set__successIconGlow(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Color _successColor
+    UnityEngine::Color _get__successColor();
+    // Set instance field: private UnityEngine.Color _successColor
+    void _set__successColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Sprite _failIcon
+    UnityEngine::Sprite* _get__failIcon();
+    // Set instance field: private UnityEngine.Sprite _failIcon
+    void _set__failIcon(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _failIconGlow
+    UnityEngine::Sprite* _get__failIconGlow();
+    // Set instance field: private UnityEngine.Sprite _failIconGlow
+    void _set__failIconGlow(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Color _failColor
+    UnityEngine::Color _get__failColor();
+    // Set instance field: private UnityEngine.Color _failColor
+    void _set__failColor(UnityEngine::Color value);
+    // Get instance field: private ResultObjectiveListItemsList _resultObjectiveListItemList
+    GlobalNamespace::ResultObjectiveListItemsList* _get__resultObjectiveListItemList();
+    // Set instance field: private ResultObjectiveListItemsList _resultObjectiveListItemList
+    void _set__resultObjectiveListItemList(GlobalNamespace::ResultObjectiveListItemsList* value);
+    // Get instance field: private UnityEngine.UI.Button _continueButton
+    UnityEngine::UI::Button* _get__continueButton();
+    // Set instance field: private UnityEngine.UI.Button _continueButton
+    void _set__continueButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _retryButton
+    UnityEngine::UI::Button* _get__retryButton();
+    // Set instance field: private UnityEngine.UI.Button _retryButton
+    void _set__retryButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.AudioClip _levelClearedAudioClip
+    UnityEngine::AudioClip* _get__levelClearedAudioClip();
+    // Set instance field: private UnityEngine.AudioClip _levelClearedAudioClip
+    void _set__levelClearedAudioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private readonly FireworksController _fireworksController
+    GlobalNamespace::FireworksController* _get__fireworksController();
+    // Set instance field: private readonly FireworksController _fireworksController
+    void _set__fireworksController(GlobalNamespace::FireworksController* value);
+    // Get instance field: private readonly SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
+    // Set instance field: private readonly SongPreviewPlayer _songPreviewPlayer
+    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
+    // Get instance field: private System.Action`1<MissionResultsViewController> continueButtonPressedEvent
+    System::Action_1<GlobalNamespace::MissionResultsViewController*>* _get_continueButtonPressedEvent();
+    // Set instance field: private System.Action`1<MissionResultsViewController> continueButtonPressedEvent
+    void _set_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
+    // Get instance field: private System.Action`1<MissionResultsViewController> retryButtonPressedEvent
+    System::Action_1<GlobalNamespace::MissionResultsViewController*>* _get_retryButtonPressedEvent();
+    // Set instance field: private System.Action`1<MissionResultsViewController> retryButtonPressedEvent
+    void _set_retryButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
+    // Get instance field: private MissionNode _missionNode
+    GlobalNamespace::MissionNode* _get__missionNode();
+    // Set instance field: private MissionNode _missionNode
+    void _set__missionNode(GlobalNamespace::MissionNode* value);
+    // Get instance field: private MissionCompletionResults _missionCompletionResults
+    GlobalNamespace::MissionCompletionResults* _get__missionCompletionResults();
+    // Set instance field: private MissionCompletionResults _missionCompletionResults
+    void _set__missionCompletionResults(GlobalNamespace::MissionCompletionResults* value);
+    // Get instance field: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
+    UnityEngine::Coroutine* _get__startFireworksAfterDelayCoroutine();
+    // Set instance field: private UnityEngine.Coroutine _startFireworksAfterDelayCoroutine
+    void _set__startFireworksAfterDelayCoroutine(UnityEngine::Coroutine* value);
     // public System.Void add_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
     // Offset: 0x113853C
     void add_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);

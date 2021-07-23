@@ -44,6 +44,18 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PbeParametersGenerator
     PbeParametersGenerator(::Array<uint8_t>* mPassword_ = {}, ::Array<uint8_t>* mSalt_ = {}, int mIterationCount_ = {}) noexcept : mPassword{mPassword_}, mSalt{mSalt_}, mIterationCount{mIterationCount_} {}
+    // Get instance field: protected System.Byte[] mPassword
+    ::Array<uint8_t>* _get_mPassword();
+    // Set instance field: protected System.Byte[] mPassword
+    void _set_mPassword(::Array<uint8_t>* value);
+    // Get instance field: protected System.Byte[] mSalt
+    ::Array<uint8_t>* _get_mSalt();
+    // Set instance field: protected System.Byte[] mSalt
+    void _set_mSalt(::Array<uint8_t>* value);
+    // Get instance field: protected System.Int32 mIterationCount
+    int _get_mIterationCount();
+    // Set instance field: protected System.Int32 mIterationCount
+    void _set_mIterationCount(int value);
     // public System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
     // Offset: 0x122DFD4
     void Init(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterationCount);

@@ -35,6 +35,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
     TlsFatalAlert(uint8_t alertDescription_ = {}) noexcept : alertDescription{alertDescription_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Get instance field: private readonly System.Byte alertDescription
+    uint8_t _get_alertDescription();
+    // Set instance field: private readonly System.Byte alertDescription
+    void _set_alertDescription(uint8_t value);
     // public System.Void .ctor(System.Byte alertDescription)
     // Offset: 0x123A304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

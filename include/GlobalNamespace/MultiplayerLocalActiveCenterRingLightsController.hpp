@@ -84,6 +84,34 @@ namespace GlobalNamespace {
     MultiplayerLocalActiveCenterRingLightsController(::Array<float>* verticalLinePositions_ = {}, ::Array<UnityEngine::Transform*>* horizontalLines_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, bool edgeDistanceFromCenterCalculated_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : verticalLinePositions{verticalLinePositions_}, horizontalLines{horizontalLines_}, centerResizeController{centerResizeController_}, layoutProvider{layoutProvider_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, edgeDistanceFromCenterCalculated{edgeDistanceFromCenterCalculated_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single[] _verticalLinePositions
+    ::Array<float>* _get__verticalLinePositions();
+    // Set instance field: private System.Single[] _verticalLinePositions
+    void _set__verticalLinePositions(::Array<float>* value);
+    // Get instance field: private UnityEngine.Transform[] _horizontalLines
+    ::Array<UnityEngine::Transform*>* _get__horizontalLines();
+    // Set instance field: private UnityEngine.Transform[] _horizontalLines
+    void _set__horizontalLines(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: private readonly MultiplayerCenterResizeController _centerResizeController
+    GlobalNamespace::MultiplayerCenterResizeController* _get__centerResizeController();
+    // Set instance field: private readonly MultiplayerCenterResizeController _centerResizeController
+    void _set__centerResizeController(GlobalNamespace::MultiplayerCenterResizeController* value);
+    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
+    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
+    // Get instance field: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
+    GlobalNamespace::BeatmapObjectSpawnCenter* _get__beatmapObjectSpawnCenter();
+    // Set instance field: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
+    void _set__beatmapObjectSpawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* value);
+    // Get instance field: private System.Boolean _edgeDistanceFromCenterCalculated
+    bool _get__edgeDistanceFromCenterCalculated();
+    // Set instance field: private System.Boolean _edgeDistanceFromCenterCalculated
+    void _set__edgeDistanceFromCenterCalculated(bool value);
+    // Get instance field: private System.Boolean _spawnCenterDistanceFound
+    bool _get__spawnCenterDistanceFound();
+    // Set instance field: private System.Boolean _spawnCenterDistanceFound
+    void _set__spawnCenterDistanceFound(bool value);
     // protected System.Void Start()
     // Offset: 0x23D163C
     void Start();

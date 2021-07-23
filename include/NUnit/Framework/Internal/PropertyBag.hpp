@@ -57,6 +57,10 @@ namespace NUnit::Framework::Internal {
     constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*() const noexcept {
       return inner;
     }
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.IList> inner
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* _get_inner();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.IList> inner
+    void _set_inner(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* value);
     // public System.Collections.Generic.ICollection`1<System.String> get_Keys()
     // Offset: 0x223BF74
     System::Collections::Generic::ICollection_1<::Il2CppString*>* get_Keys();

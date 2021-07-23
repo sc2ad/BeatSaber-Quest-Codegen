@@ -34,6 +34,14 @@ namespace JetBrains::Annotations {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: RazorPageBaseTypeAttribute
     RazorPageBaseTypeAttribute(::Il2CppString* BaseType_ = {}, ::Il2CppString* PageName_ = {}) noexcept : BaseType{BaseType_}, PageName{PageName_} {}
+    // Get instance field: private System.String <BaseType>k__BackingField
+    ::Il2CppString* _get_$BaseType$k__BackingField();
+    // Set instance field: private System.String <BaseType>k__BackingField
+    void _set_$BaseType$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <PageName>k__BackingField
+    ::Il2CppString* _get_$PageName$k__BackingField();
+    // Set instance field: private System.String <PageName>k__BackingField
+    void _set_$PageName$k__BackingField(::Il2CppString* value);
     // public System.String get_BaseType()
     // Offset: 0x23B2748
     ::Il2CppString* get_BaseType();

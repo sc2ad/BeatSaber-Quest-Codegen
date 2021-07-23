@@ -44,6 +44,14 @@ namespace System::Security::Cryptography {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
+    // Get instance field: private System.Security.Cryptography.OidCollection m_oids
+    System::Security::Cryptography::OidCollection* _get_m_oids();
+    // Set instance field: private System.Security.Cryptography.OidCollection m_oids
+    void _set_m_oids(System::Security::Cryptography::OidCollection* value);
+    // Get instance field: private System.Int32 m_current
+    int _get_m_current();
+    // Set instance field: private System.Int32 m_current
+    void _set_m_current(int value);
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0x18248DC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

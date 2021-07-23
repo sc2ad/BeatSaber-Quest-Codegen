@@ -35,6 +35,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Valve.VR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
+    Valve::VR::EVROverlayIntersectionMaskPrimitiveType _get_m_nPrimitiveType();
+    // Set instance field: public Valve.VR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
+    void _set_m_nPrimitiveType(Valve::VR::EVROverlayIntersectionMaskPrimitiveType value);
+    // Get instance field: public Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive
+    Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t _get_m_Primitive();
+    // Set instance field: public Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive
+    void _set_m_Primitive(Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t value);
   }; // Valve.VR.VROverlayIntersectionMaskPrimitive_t
   // WARNING Not writing size check since size may be invalid!
 }

@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::MenuDestination*() const noexcept {
       return menuDestination;
     }
+    // Get instance field: public MenuDestination menuDestination
+    GlobalNamespace::MenuDestination* _get_menuDestination();
+    // Set instance field: public MenuDestination menuDestination
+    void _set_menuDestination(GlobalNamespace::MenuDestination* value);
     // System.Void <ProcessDestinationRequest>b__0(Zenject.DiContainer container)
     // Offset: 0x117B614
     void $ProcessDestinationRequest$b__0(Zenject::DiContainer* container);

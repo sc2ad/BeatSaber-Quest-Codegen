@@ -402,6 +402,194 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
+    OVR::OpenVR::IVRSystem::_GetRecommendedRenderTargetSize* _get_GetRecommendedRenderTargetSize();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
+    void _set_GetRecommendedRenderTargetSize(OVR::OpenVR::IVRSystem::_GetRecommendedRenderTargetSize* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetProjectionMatrix GetProjectionMatrix
+    OVR::OpenVR::IVRSystem::_GetProjectionMatrix* _get_GetProjectionMatrix();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetProjectionMatrix GetProjectionMatrix
+    void _set_GetProjectionMatrix(OVR::OpenVR::IVRSystem::_GetProjectionMatrix* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetProjectionRaw GetProjectionRaw
+    OVR::OpenVR::IVRSystem::_GetProjectionRaw* _get_GetProjectionRaw();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetProjectionRaw GetProjectionRaw
+    void _set_GetProjectionRaw(OVR::OpenVR::IVRSystem::_GetProjectionRaw* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ComputeDistortion ComputeDistortion
+    OVR::OpenVR::IVRSystem::_ComputeDistortion* _get_ComputeDistortion();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ComputeDistortion ComputeDistortion
+    void _set_ComputeDistortion(OVR::OpenVR::IVRSystem::_ComputeDistortion* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetEyeToHeadTransform GetEyeToHeadTransform
+    OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform* _get_GetEyeToHeadTransform();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetEyeToHeadTransform GetEyeToHeadTransform
+    void _set_GetEyeToHeadTransform(OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTimeSinceLastVsync GetTimeSinceLastVsync
+    OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync* _get_GetTimeSinceLastVsync();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTimeSinceLastVsync GetTimeSinceLastVsync
+    void _set_GetTimeSinceLastVsync(OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetD3D9AdapterIndex GetD3D9AdapterIndex
+    OVR::OpenVR::IVRSystem::_GetD3D9AdapterIndex* _get_GetD3D9AdapterIndex();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetD3D9AdapterIndex GetD3D9AdapterIndex
+    void _set_GetD3D9AdapterIndex(OVR::OpenVR::IVRSystem::_GetD3D9AdapterIndex* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetDXGIOutputInfo GetDXGIOutputInfo
+    OVR::OpenVR::IVRSystem::_GetDXGIOutputInfo* _get_GetDXGIOutputInfo();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetDXGIOutputInfo GetDXGIOutputInfo
+    void _set_GetDXGIOutputInfo(OVR::OpenVR::IVRSystem::_GetDXGIOutputInfo* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetOutputDevice GetOutputDevice
+    OVR::OpenVR::IVRSystem::_GetOutputDevice* _get_GetOutputDevice();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetOutputDevice GetOutputDevice
+    void _set_GetOutputDevice(OVR::OpenVR::IVRSystem::_GetOutputDevice* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsDisplayOnDesktop IsDisplayOnDesktop
+    OVR::OpenVR::IVRSystem::_IsDisplayOnDesktop* _get_IsDisplayOnDesktop();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsDisplayOnDesktop IsDisplayOnDesktop
+    void _set_IsDisplayOnDesktop(OVR::OpenVR::IVRSystem::_IsDisplayOnDesktop* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._SetDisplayVisibility SetDisplayVisibility
+    OVR::OpenVR::IVRSystem::_SetDisplayVisibility* _get_SetDisplayVisibility();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._SetDisplayVisibility SetDisplayVisibility
+    void _set_SetDisplayVisibility(OVR::OpenVR::IVRSystem::_SetDisplayVisibility* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetDeviceToAbsoluteTrackingPose GetDeviceToAbsoluteTrackingPose
+    OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose* _get_GetDeviceToAbsoluteTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetDeviceToAbsoluteTrackingPose GetDeviceToAbsoluteTrackingPose
+    void _set_GetDeviceToAbsoluteTrackingPose(OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ResetSeatedZeroPose ResetSeatedZeroPose
+    OVR::OpenVR::IVRSystem::_ResetSeatedZeroPose* _get_ResetSeatedZeroPose();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ResetSeatedZeroPose ResetSeatedZeroPose
+    void _set_ResetSeatedZeroPose(OVR::OpenVR::IVRSystem::_ResetSeatedZeroPose* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetSeatedZeroPoseToStandingAbsoluteTrackingPose GetSeatedZeroPoseToStandingAbsoluteTrackingPose
+    OVR::OpenVR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* _get_GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetSeatedZeroPoseToStandingAbsoluteTrackingPose GetSeatedZeroPoseToStandingAbsoluteTrackingPose
+    void _set_GetSeatedZeroPoseToStandingAbsoluteTrackingPose(OVR::OpenVR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRawZeroPoseToStandingAbsoluteTrackingPose GetRawZeroPoseToStandingAbsoluteTrackingPose
+    OVR::OpenVR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* _get_GetRawZeroPoseToStandingAbsoluteTrackingPose();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRawZeroPoseToStandingAbsoluteTrackingPose GetRawZeroPoseToStandingAbsoluteTrackingPose
+    void _set_GetRawZeroPoseToStandingAbsoluteTrackingPose(OVR::OpenVR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetSortedTrackedDeviceIndicesOfClass GetSortedTrackedDeviceIndicesOfClass
+    OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* _get_GetSortedTrackedDeviceIndicesOfClass();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetSortedTrackedDeviceIndicesOfClass GetSortedTrackedDeviceIndicesOfClass
+    void _set_GetSortedTrackedDeviceIndicesOfClass(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceActivityLevel GetTrackedDeviceActivityLevel
+    OVR::OpenVR::IVRSystem::_GetTrackedDeviceActivityLevel* _get_GetTrackedDeviceActivityLevel();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceActivityLevel GetTrackedDeviceActivityLevel
+    void _set_GetTrackedDeviceActivityLevel(OVR::OpenVR::IVRSystem::_GetTrackedDeviceActivityLevel* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ApplyTransform ApplyTransform
+    OVR::OpenVR::IVRSystem::_ApplyTransform* _get_ApplyTransform();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ApplyTransform ApplyTransform
+    void _set_ApplyTransform(OVR::OpenVR::IVRSystem::_ApplyTransform* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceIndexForControllerRole GetTrackedDeviceIndexForControllerRole
+    OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole* _get_GetTrackedDeviceIndexForControllerRole();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceIndexForControllerRole GetTrackedDeviceIndexForControllerRole
+    void _set_GetTrackedDeviceIndexForControllerRole(OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerRoleForTrackedDeviceIndex GetControllerRoleForTrackedDeviceIndex
+    OVR::OpenVR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex* _get_GetControllerRoleForTrackedDeviceIndex();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerRoleForTrackedDeviceIndex GetControllerRoleForTrackedDeviceIndex
+    void _set_GetControllerRoleForTrackedDeviceIndex(OVR::OpenVR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceClass GetTrackedDeviceClass
+    OVR::OpenVR::IVRSystem::_GetTrackedDeviceClass* _get_GetTrackedDeviceClass();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetTrackedDeviceClass GetTrackedDeviceClass
+    void _set_GetTrackedDeviceClass(OVR::OpenVR::IVRSystem::_GetTrackedDeviceClass* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsTrackedDeviceConnected IsTrackedDeviceConnected
+    OVR::OpenVR::IVRSystem::_IsTrackedDeviceConnected* _get_IsTrackedDeviceConnected();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsTrackedDeviceConnected IsTrackedDeviceConnected
+    void _set_IsTrackedDeviceConnected(OVR::OpenVR::IVRSystem::_IsTrackedDeviceConnected* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetBoolTrackedDeviceProperty GetBoolTrackedDeviceProperty
+    OVR::OpenVR::IVRSystem::_GetBoolTrackedDeviceProperty* _get_GetBoolTrackedDeviceProperty();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetBoolTrackedDeviceProperty GetBoolTrackedDeviceProperty
+    void _set_GetBoolTrackedDeviceProperty(OVR::OpenVR::IVRSystem::_GetBoolTrackedDeviceProperty* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetFloatTrackedDeviceProperty GetFloatTrackedDeviceProperty
+    OVR::OpenVR::IVRSystem::_GetFloatTrackedDeviceProperty* _get_GetFloatTrackedDeviceProperty();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetFloatTrackedDeviceProperty GetFloatTrackedDeviceProperty
+    void _set_GetFloatTrackedDeviceProperty(OVR::OpenVR::IVRSystem::_GetFloatTrackedDeviceProperty* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetInt32TrackedDeviceProperty GetInt32TrackedDeviceProperty
+    OVR::OpenVR::IVRSystem::_GetInt32TrackedDeviceProperty* _get_GetInt32TrackedDeviceProperty();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetInt32TrackedDeviceProperty GetInt32TrackedDeviceProperty
+    void _set_GetInt32TrackedDeviceProperty(OVR::OpenVR::IVRSystem::_GetInt32TrackedDeviceProperty* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetUint64TrackedDeviceProperty GetUint64TrackedDeviceProperty
+    OVR::OpenVR::IVRSystem::_GetUint64TrackedDeviceProperty* _get_GetUint64TrackedDeviceProperty();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetUint64TrackedDeviceProperty GetUint64TrackedDeviceProperty
+    void _set_GetUint64TrackedDeviceProperty(OVR::OpenVR::IVRSystem::_GetUint64TrackedDeviceProperty* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetMatrix34TrackedDeviceProperty GetMatrix34TrackedDeviceProperty
+    OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty* _get_GetMatrix34TrackedDeviceProperty();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetMatrix34TrackedDeviceProperty GetMatrix34TrackedDeviceProperty
+    void _set_GetMatrix34TrackedDeviceProperty(OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetArrayTrackedDeviceProperty GetArrayTrackedDeviceProperty
+    OVR::OpenVR::IVRSystem::_GetArrayTrackedDeviceProperty* _get_GetArrayTrackedDeviceProperty();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetArrayTrackedDeviceProperty GetArrayTrackedDeviceProperty
+    void _set_GetArrayTrackedDeviceProperty(OVR::OpenVR::IVRSystem::_GetArrayTrackedDeviceProperty* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetStringTrackedDeviceProperty GetStringTrackedDeviceProperty
+    OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty* _get_GetStringTrackedDeviceProperty();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetStringTrackedDeviceProperty GetStringTrackedDeviceProperty
+    void _set_GetStringTrackedDeviceProperty(OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetPropErrorNameFromEnum GetPropErrorNameFromEnum
+    OVR::OpenVR::IVRSystem::_GetPropErrorNameFromEnum* _get_GetPropErrorNameFromEnum();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetPropErrorNameFromEnum GetPropErrorNameFromEnum
+    void _set_GetPropErrorNameFromEnum(OVR::OpenVR::IVRSystem::_GetPropErrorNameFromEnum* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEvent PollNextEvent
+    OVR::OpenVR::IVRSystem::_PollNextEvent* _get_PollNextEvent();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEvent PollNextEvent
+    void _set_PollNextEvent(OVR::OpenVR::IVRSystem::_PollNextEvent* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEventWithPose PollNextEventWithPose
+    OVR::OpenVR::IVRSystem::_PollNextEventWithPose* _get_PollNextEventWithPose();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._PollNextEventWithPose PollNextEventWithPose
+    void _set_PollNextEventWithPose(OVR::OpenVR::IVRSystem::_PollNextEventWithPose* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetEventTypeNameFromEnum GetEventTypeNameFromEnum
+    OVR::OpenVR::IVRSystem::_GetEventTypeNameFromEnum* _get_GetEventTypeNameFromEnum();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetEventTypeNameFromEnum GetEventTypeNameFromEnum
+    void _set_GetEventTypeNameFromEnum(OVR::OpenVR::IVRSystem::_GetEventTypeNameFromEnum* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetHiddenAreaMesh GetHiddenAreaMesh
+    OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh* _get_GetHiddenAreaMesh();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetHiddenAreaMesh GetHiddenAreaMesh
+    void _set_GetHiddenAreaMesh(OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerState GetControllerState
+    OVR::OpenVR::IVRSystem::_GetControllerState* _get_GetControllerState();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerState GetControllerState
+    void _set_GetControllerState(OVR::OpenVR::IVRSystem::_GetControllerState* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerStateWithPose GetControllerStateWithPose
+    OVR::OpenVR::IVRSystem::_GetControllerStateWithPose* _get_GetControllerStateWithPose();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerStateWithPose GetControllerStateWithPose
+    void _set_GetControllerStateWithPose(OVR::OpenVR::IVRSystem::_GetControllerStateWithPose* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._TriggerHapticPulse TriggerHapticPulse
+    OVR::OpenVR::IVRSystem::_TriggerHapticPulse* _get_TriggerHapticPulse();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._TriggerHapticPulse TriggerHapticPulse
+    void _set_TriggerHapticPulse(OVR::OpenVR::IVRSystem::_TriggerHapticPulse* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetButtonIdNameFromEnum GetButtonIdNameFromEnum
+    OVR::OpenVR::IVRSystem::_GetButtonIdNameFromEnum* _get_GetButtonIdNameFromEnum();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetButtonIdNameFromEnum GetButtonIdNameFromEnum
+    void _set_GetButtonIdNameFromEnum(OVR::OpenVR::IVRSystem::_GetButtonIdNameFromEnum* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerAxisTypeNameFromEnum GetControllerAxisTypeNameFromEnum
+    OVR::OpenVR::IVRSystem::_GetControllerAxisTypeNameFromEnum* _get_GetControllerAxisTypeNameFromEnum();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerAxisTypeNameFromEnum GetControllerAxisTypeNameFromEnum
+    void _set_GetControllerAxisTypeNameFromEnum(OVR::OpenVR::IVRSystem::_GetControllerAxisTypeNameFromEnum* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsInputAvailable IsInputAvailable
+    OVR::OpenVR::IVRSystem::_IsInputAvailable* _get_IsInputAvailable();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsInputAvailable IsInputAvailable
+    void _set_IsInputAvailable(OVR::OpenVR::IVRSystem::_IsInputAvailable* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsSteamVRDrawingControllers IsSteamVRDrawingControllers
+    OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers* _get_IsSteamVRDrawingControllers();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._IsSteamVRDrawingControllers IsSteamVRDrawingControllers
+    void _set_IsSteamVRDrawingControllers(OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ShouldApplicationPause ShouldApplicationPause
+    OVR::OpenVR::IVRSystem::_ShouldApplicationPause* _get_ShouldApplicationPause();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ShouldApplicationPause ShouldApplicationPause
+    void _set_ShouldApplicationPause(OVR::OpenVR::IVRSystem::_ShouldApplicationPause* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ShouldApplicationReduceRenderingWork ShouldApplicationReduceRenderingWork
+    OVR::OpenVR::IVRSystem::_ShouldApplicationReduceRenderingWork* _get_ShouldApplicationReduceRenderingWork();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._ShouldApplicationReduceRenderingWork ShouldApplicationReduceRenderingWork
+    void _set_ShouldApplicationReduceRenderingWork(OVR::OpenVR::IVRSystem::_ShouldApplicationReduceRenderingWork* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._DriverDebugRequest DriverDebugRequest
+    OVR::OpenVR::IVRSystem::_DriverDebugRequest* _get_DriverDebugRequest();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._DriverDebugRequest DriverDebugRequest
+    void _set_DriverDebugRequest(OVR::OpenVR::IVRSystem::_DriverDebugRequest* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._PerformFirmwareUpdate PerformFirmwareUpdate
+    OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate* _get_PerformFirmwareUpdate();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._PerformFirmwareUpdate PerformFirmwareUpdate
+    void _set_PerformFirmwareUpdate(OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._AcknowledgeQuit_Exiting AcknowledgeQuit_Exiting
+    OVR::OpenVR::IVRSystem::_AcknowledgeQuit_Exiting* _get_AcknowledgeQuit_Exiting();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._AcknowledgeQuit_Exiting AcknowledgeQuit_Exiting
+    void _set_AcknowledgeQuit_Exiting(OVR::OpenVR::IVRSystem::_AcknowledgeQuit_Exiting* value);
+    // Get instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._AcknowledgeQuit_UserPrompt AcknowledgeQuit_UserPrompt
+    OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt* _get_AcknowledgeQuit_UserPrompt();
+    // Set instance field: OVR.OpenVR.IVRSystem/OVR.OpenVR._AcknowledgeQuit_UserPrompt AcknowledgeQuit_UserPrompt
+    void _set_AcknowledgeQuit_UserPrompt(OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt* value);
   }; // OVR.OpenVR.IVRSystem
   #pragma pack(pop)
   static check_size<sizeof(IVRSystem), 368 + sizeof(OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt*)> __OVR_OpenVR_IVRSystemSizeCheck;

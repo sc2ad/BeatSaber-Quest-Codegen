@@ -85,6 +85,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
     // Creating value type constructor for type: GameServerBrowserViewController
     GameServerBrowserViewController(UnityEngine::UI::Button* filterServersButton_ = {}, GlobalNamespace::GameServersFilterText* filterText_ = {}, UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle_ = {}, UnityEngine::UI::Button* createServerButton_ = {}, GlobalNamespace::GameServersListTableView* gameServersListTableView_ = {}, GlobalNamespace::LoadingControl* mainLoadingControl_ = {}, GlobalNamespace::LoadingControl* smallLoadingControl_ = {}) noexcept : filterServersButton{filterServersButton_}, filterText{filterText_}, canBeInvitedOnLocalNetworkToggle{canBeInvitedOnLocalNetworkToggle_}, createServerButton{createServerButton_}, gameServersListTableView{gameServersListTableView_}, mainLoadingControl{mainLoadingControl_}, smallLoadingControl{smallLoadingControl_} {}
+    // Get instance field: private UnityEngine.UI.Button _filterServersButton
+    UnityEngine::UI::Button* _get__filterServersButton();
+    // Set instance field: private UnityEngine.UI.Button _filterServersButton
+    void _set__filterServersButton(UnityEngine::UI::Button* value);
+    // Get instance field: private GameServersFilterText _filterText
+    GlobalNamespace::GameServersFilterText* _get__filterText();
+    // Set instance field: private GameServersFilterText _filterText
+    void _set__filterText(GlobalNamespace::GameServersFilterText* value);
+    // Get instance field: private UnityEngine.UI.Toggle _canBeInvitedOnLocalNetworkToggle
+    UnityEngine::UI::Toggle* _get__canBeInvitedOnLocalNetworkToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _canBeInvitedOnLocalNetworkToggle
+    void _set__canBeInvitedOnLocalNetworkToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private UnityEngine.UI.Button _createServerButton
+    UnityEngine::UI::Button* _get__createServerButton();
+    // Set instance field: private UnityEngine.UI.Button _createServerButton
+    void _set__createServerButton(UnityEngine::UI::Button* value);
+    // Get instance field: private GameServersListTableView _gameServersListTableView
+    GlobalNamespace::GameServersListTableView* _get__gameServersListTableView();
+    // Set instance field: private GameServersListTableView _gameServersListTableView
+    void _set__gameServersListTableView(GlobalNamespace::GameServersListTableView* value);
+    // Get instance field: private LoadingControl _mainLoadingControl
+    GlobalNamespace::LoadingControl* _get__mainLoadingControl();
+    // Set instance field: private LoadingControl _mainLoadingControl
+    void _set__mainLoadingControl(GlobalNamespace::LoadingControl* value);
+    // Get instance field: private LoadingControl _smallLoadingControl
+    GlobalNamespace::LoadingControl* _get__smallLoadingControl();
+    // Set instance field: private LoadingControl _smallLoadingControl
+    void _set__smallLoadingControl(GlobalNamespace::LoadingControl* value);
     // public System.Void .ctor()
     // Offset: 0x10A3FC0
     // Implemented from: HMUI.ViewController

@@ -50,6 +50,14 @@ namespace System::Threading {
     static_assert(sizeof(System::Threading::Mutex*) == 0x8);
     // Creating value type constructor for type: AbandonedMutexException
     AbandonedMutexException(int m_MutexIndex_ = {}, System::Threading::Mutex* m_Mutex_ = {}) noexcept : m_MutexIndex{m_MutexIndex_}, m_Mutex{m_Mutex_} {}
+    // Get instance field: private System.Int32 m_MutexIndex
+    int _get_m_MutexIndex();
+    // Set instance field: private System.Int32 m_MutexIndex
+    void _set_m_MutexIndex(int value);
+    // Get instance field: private System.Threading.Mutex m_Mutex
+    System::Threading::Mutex* _get_m_Mutex();
+    // Set instance field: private System.Threading.Mutex m_Mutex
+    void _set_m_Mutex(System::Threading::Mutex* value);
     // public System.Void .ctor(System.Int32 location, System.Threading.WaitHandle handle)
     // Offset: 0x18A1420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

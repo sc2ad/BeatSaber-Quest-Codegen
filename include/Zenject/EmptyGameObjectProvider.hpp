@@ -62,6 +62,14 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
+    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
     // public System.Boolean get_IsCached()
     // Offset: 0x161B0EC
     bool get_IsCached();

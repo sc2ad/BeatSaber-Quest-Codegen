@@ -43,6 +43,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass6_2
     $$c__DisplayClass6_2(UnityEngine::AssetBundleRequest* assetBundleRequest_ = {}, GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* CS$$$8__locals2_ = {}) noexcept : assetBundleRequest{assetBundleRequest_}, CS$$$8__locals2{CS$$$8__locals2_} {}
+    // Get instance field: public UnityEngine.AssetBundleRequest assetBundleRequest
+    UnityEngine::AssetBundleRequest* _get_assetBundleRequest();
+    // Set instance field: public UnityEngine.AssetBundleRequest assetBundleRequest
+    void _set_assetBundleRequest(UnityEngine::AssetBundleRequest* value);
+    // Get instance field: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1 CS$<>8__locals2
+    GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* _get_CS$$$8__locals2();
+    // Set instance field: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1 CS$<>8__locals2
+    void _set_CS$$$8__locals2(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* value);
     // System.Void <LoadBeatmalLevelDataAsync>b__1(UnityEngine.AsyncOperation asyncOperation2)
     // Offset: 0x11960D0
     void $LoadBeatmalLevelDataAsync$b__1(UnityEngine::AsyncOperation* asyncOperation2);

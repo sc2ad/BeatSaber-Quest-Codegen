@@ -74,6 +74,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public readonly System.Boolean isError
+      bool _get_isError();
+      // Set instance field: public readonly System.Boolean isError
+      void _set_isError(bool value);
+      // Get instance field: public readonly IBeatmapLevel beatmapLevel
+      GlobalNamespace::IBeatmapLevel* _get_beatmapLevel();
+      // Set instance field: public readonly IBeatmapLevel beatmapLevel
+      void _set_beatmapLevel(GlobalNamespace::IBeatmapLevel* value);
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
       // Offset: 0xECFFF8
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -96,6 +104,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IBeatmapDataAssetFileModel*) == 0x8);
     // Creating value type constructor for type: BeatmapLevelLoader
     BeatmapLevelLoader(GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader_ = {}, GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel_ = {}) noexcept : beatmapLevelDataLoader{beatmapLevelDataLoader_}, beatmapDataAssetFileModel{beatmapDataAssetFileModel_} {}
+    // Get instance field: private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
+    GlobalNamespace::BeatmapLevelDataLoaderSO* _get__beatmapLevelDataLoader();
+    // Set instance field: private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
+    void _set__beatmapLevelDataLoader(GlobalNamespace::BeatmapLevelDataLoaderSO* value);
+    // Get instance field: private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel
+    GlobalNamespace::IBeatmapDataAssetFileModel* _get__beatmapDataAssetFileModel();
+    // Set instance field: private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel
+    void _set__beatmapDataAssetFileModel(GlobalNamespace::IBeatmapDataAssetFileModel* value);
     // public System.Void .ctor(BeatmapLevelDataLoaderSO beatmapLevelDataLoader, IBeatmapDataAssetFileModel beatmapDataAssetFileModel)
     // Offset: 0x108CBC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

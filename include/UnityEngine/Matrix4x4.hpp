@@ -168,6 +168,70 @@ namespace UnityEngine {
     static UnityEngine::Matrix4x4 _get_identityMatrix();
     // Set static field: static private readonly UnityEngine.Matrix4x4 identityMatrix
     static void _set_identityMatrix(UnityEngine::Matrix4x4 value);
+    // Get instance field: public System.Single m00
+    float _get_m00();
+    // Set instance field: public System.Single m00
+    void _set_m00(float value);
+    // Get instance field: public System.Single m10
+    float _get_m10();
+    // Set instance field: public System.Single m10
+    void _set_m10(float value);
+    // Get instance field: public System.Single m20
+    float _get_m20();
+    // Set instance field: public System.Single m20
+    void _set_m20(float value);
+    // Get instance field: public System.Single m30
+    float _get_m30();
+    // Set instance field: public System.Single m30
+    void _set_m30(float value);
+    // Get instance field: public System.Single m01
+    float _get_m01();
+    // Set instance field: public System.Single m01
+    void _set_m01(float value);
+    // Get instance field: public System.Single m11
+    float _get_m11();
+    // Set instance field: public System.Single m11
+    void _set_m11(float value);
+    // Get instance field: public System.Single m21
+    float _get_m21();
+    // Set instance field: public System.Single m21
+    void _set_m21(float value);
+    // Get instance field: public System.Single m31
+    float _get_m31();
+    // Set instance field: public System.Single m31
+    void _set_m31(float value);
+    // Get instance field: public System.Single m02
+    float _get_m02();
+    // Set instance field: public System.Single m02
+    void _set_m02(float value);
+    // Get instance field: public System.Single m12
+    float _get_m12();
+    // Set instance field: public System.Single m12
+    void _set_m12(float value);
+    // Get instance field: public System.Single m22
+    float _get_m22();
+    // Set instance field: public System.Single m22
+    void _set_m22(float value);
+    // Get instance field: public System.Single m32
+    float _get_m32();
+    // Set instance field: public System.Single m32
+    void _set_m32(float value);
+    // Get instance field: public System.Single m03
+    float _get_m03();
+    // Set instance field: public System.Single m03
+    void _set_m03(float value);
+    // Get instance field: public System.Single m13
+    float _get_m13();
+    // Set instance field: public System.Single m13
+    void _set_m13(float value);
+    // Get instance field: public System.Single m23
+    float _get_m23();
+    // Set instance field: public System.Single m23
+    void _set_m23(float value);
+    // Get instance field: public System.Single m33
+    float _get_m33();
+    // Set instance field: public System.Single m33
+    void _set_m33(float value);
     // public UnityEngine.Vector3 get_lossyScale()
     // Offset: 0xEF91CC
     UnityEngine::Vector3 get_lossyScale();

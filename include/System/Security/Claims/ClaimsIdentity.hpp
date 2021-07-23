@@ -143,6 +143,58 @@ namespace System::Security::Claims {
     operator System::Security::Principal::IIdentity() noexcept {
       return *reinterpret_cast<System::Security::Principal::IIdentity*>(this);
     }
+    // Get instance field: private System.Byte[] m_userSerializationData
+    ::Array<uint8_t>* _get_m_userSerializationData();
+    // Set instance field: private System.Byte[] m_userSerializationData
+    void _set_m_userSerializationData(::Array<uint8_t>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Security.Claims.Claim> m_instanceClaims
+    System::Collections::Generic::List_1<System::Security::Claims::Claim*>* _get_m_instanceClaims();
+    // Set instance field: private System.Collections.Generic.List`1<System.Security.Claims.Claim> m_instanceClaims
+    void _set_m_instanceClaims(System::Collections::Generic::List_1<System::Security::Claims::Claim*>* value);
+    // Get instance field: private System.Collections.ObjectModel.Collection`1<System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim>> m_externalClaims
+    System::Collections::ObjectModel::Collection_1<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>*>* _get_m_externalClaims();
+    // Set instance field: private System.Collections.ObjectModel.Collection`1<System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim>> m_externalClaims
+    void _set_m_externalClaims(System::Collections::ObjectModel::Collection_1<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>*>* value);
+    // Get instance field: private System.String m_nameType
+    ::Il2CppString* _get_m_nameType();
+    // Set instance field: private System.String m_nameType
+    void _set_m_nameType(::Il2CppString* value);
+    // Get instance field: private System.String m_roleType
+    ::Il2CppString* _get_m_roleType();
+    // Set instance field: private System.String m_roleType
+    void _set_m_roleType(::Il2CppString* value);
+    // Get instance field: private System.String m_version
+    ::Il2CppString* _get_m_version();
+    // Set instance field: private System.String m_version
+    void _set_m_version(::Il2CppString* value);
+    // Get instance field: private System.Security.Claims.ClaimsIdentity m_actor
+    System::Security::Claims::ClaimsIdentity* _get_m_actor();
+    // Set instance field: private System.Security.Claims.ClaimsIdentity m_actor
+    void _set_m_actor(System::Security::Claims::ClaimsIdentity* value);
+    // Get instance field: private System.String m_authenticationType
+    ::Il2CppString* _get_m_authenticationType();
+    // Set instance field: private System.String m_authenticationType
+    void _set_m_authenticationType(::Il2CppString* value);
+    // Get instance field: private System.Object m_bootstrapContext
+    ::Il2CppObject* _get_m_bootstrapContext();
+    // Set instance field: private System.Object m_bootstrapContext
+    void _set_m_bootstrapContext(::Il2CppObject* value);
+    // Get instance field: private System.String m_label
+    ::Il2CppString* _get_m_label();
+    // Set instance field: private System.String m_label
+    void _set_m_label(::Il2CppString* value);
+    // Get instance field: private System.String m_serializedNameType
+    ::Il2CppString* _get_m_serializedNameType();
+    // Set instance field: private System.String m_serializedNameType
+    void _set_m_serializedNameType(::Il2CppString* value);
+    // Get instance field: private System.String m_serializedRoleType
+    ::Il2CppString* _get_m_serializedRoleType();
+    // Set instance field: private System.String m_serializedRoleType
+    void _set_m_serializedRoleType(::Il2CppString* value);
+    // Get instance field: private System.String m_serializedClaims
+    ::Il2CppString* _get_m_serializedClaims();
+    // Set instance field: private System.String m_serializedClaims
+    void _set_m_serializedClaims(::Il2CppString* value);
     // public System.String get_AuthenticationType()
     // Offset: 0x1932B9C
     ::Il2CppString* get_AuthenticationType();

@@ -67,6 +67,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRSubmitFlags _get_Submit_TextureWithDepth();
     // Set static field: static public OVR.OpenVR.EVRSubmitFlags Submit_TextureWithDepth
     static void _set_Submit_TextureWithDepth(OVR::OpenVR::EVRSubmitFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRSubmitFlags
   #pragma pack(pop)
   static check_size<sizeof(EVRSubmitFlags), 0 + sizeof(int)> __OVR_OpenVR_EVRSubmitFlagsSizeCheck;

@@ -76,6 +76,10 @@ namespace UnityEngine::Rendering {
       static UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes _get_Rotation();
       // Set static field: static public UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.ReflectionProbeModes Rotation
       static void _set_Rotation(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.ReflectionProbeModes
     #pragma pack(pop)
     static check_size<sizeof(SupportedRenderingFeatures::ReflectionProbeModes), 0 + sizeof(int)> __UnityEngine_Rendering_SupportedRenderingFeatures_ReflectionProbeModesSizeCheck;
@@ -127,6 +131,10 @@ namespace UnityEngine::Rendering {
       static UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes _get_Shadowmask();
       // Set static field: static public UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.LightmapMixedBakeModes Shadowmask
       static void _set_Shadowmask(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.LightmapMixedBakeModes
     #pragma pack(pop)
     static check_size<sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes), 0 + sizeof(int)> __UnityEngine_Rendering_SupportedRenderingFeatures_LightmapMixedBakeModesSizeCheck;
@@ -263,6 +271,78 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::SupportedRenderingFeatures* _get_s_Active();
     // Set static field: static private UnityEngine.Rendering.SupportedRenderingFeatures s_Active
     static void _set_s_Active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
+    // Get instance field: private UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.ReflectionProbeModes <reflectionProbeModes>k__BackingField
+    UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes _get_$reflectionProbeModes$k__BackingField();
+    // Set instance field: private UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.ReflectionProbeModes <reflectionProbeModes>k__BackingField
+    void _set_$reflectionProbeModes$k__BackingField(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes value);
+    // Get instance field: private UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.LightmapMixedBakeModes <defaultMixedLightingModes>k__BackingField
+    UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes _get_$defaultMixedLightingModes$k__BackingField();
+    // Set instance field: private UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.LightmapMixedBakeModes <defaultMixedLightingModes>k__BackingField
+    void _set_$defaultMixedLightingModes$k__BackingField(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes value);
+    // Get instance field: private UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.LightmapMixedBakeModes <mixedLightingModes>k__BackingField
+    UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes _get_$mixedLightingModes$k__BackingField();
+    // Set instance field: private UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.LightmapMixedBakeModes <mixedLightingModes>k__BackingField
+    void _set_$mixedLightingModes$k__BackingField(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes value);
+    // Get instance field: private UnityEngine.LightmapBakeType <lightmapBakeTypes>k__BackingField
+    UnityEngine::LightmapBakeType _get_$lightmapBakeTypes$k__BackingField();
+    // Set instance field: private UnityEngine.LightmapBakeType <lightmapBakeTypes>k__BackingField
+    void _set_$lightmapBakeTypes$k__BackingField(UnityEngine::LightmapBakeType value);
+    // Get instance field: private UnityEngine.LightmapsMode <lightmapsModes>k__BackingField
+    UnityEngine::LightmapsMode _get_$lightmapsModes$k__BackingField();
+    // Set instance field: private UnityEngine.LightmapsMode <lightmapsModes>k__BackingField
+    void _set_$lightmapsModes$k__BackingField(UnityEngine::LightmapsMode value);
+    // Get instance field: private System.Boolean <enlighten>k__BackingField
+    bool _get_$enlighten$k__BackingField();
+    // Set instance field: private System.Boolean <enlighten>k__BackingField
+    void _set_$enlighten$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <lightProbeProxyVolumes>k__BackingField
+    bool _get_$lightProbeProxyVolumes$k__BackingField();
+    // Set instance field: private System.Boolean <lightProbeProxyVolumes>k__BackingField
+    void _set_$lightProbeProxyVolumes$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <motionVectors>k__BackingField
+    bool _get_$motionVectors$k__BackingField();
+    // Set instance field: private System.Boolean <motionVectors>k__BackingField
+    void _set_$motionVectors$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <receiveShadows>k__BackingField
+    bool _get_$receiveShadows$k__BackingField();
+    // Set instance field: private System.Boolean <receiveShadows>k__BackingField
+    void _set_$receiveShadows$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <reflectionProbes>k__BackingField
+    bool _get_$reflectionProbes$k__BackingField();
+    // Set instance field: private System.Boolean <reflectionProbes>k__BackingField
+    void _set_$reflectionProbes$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <rendererPriority>k__BackingField
+    bool _get_$rendererPriority$k__BackingField();
+    // Set instance field: private System.Boolean <rendererPriority>k__BackingField
+    void _set_$rendererPriority$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <terrainDetailUnsupported>k__BackingField
+    bool _get_$terrainDetailUnsupported$k__BackingField();
+    // Set instance field: private System.Boolean <terrainDetailUnsupported>k__BackingField
+    void _set_$terrainDetailUnsupported$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <overridesEnvironmentLighting>k__BackingField
+    bool _get_$overridesEnvironmentLighting$k__BackingField();
+    // Set instance field: private System.Boolean <overridesEnvironmentLighting>k__BackingField
+    void _set_$overridesEnvironmentLighting$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <overridesFog>k__BackingField
+    bool _get_$overridesFog$k__BackingField();
+    // Set instance field: private System.Boolean <overridesFog>k__BackingField
+    void _set_$overridesFog$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <overridesOtherLightingSettings>k__BackingField
+    bool _get_$overridesOtherLightingSettings$k__BackingField();
+    // Set instance field: private System.Boolean <overridesOtherLightingSettings>k__BackingField
+    void _set_$overridesOtherLightingSettings$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <editableMaterialRenderQueue>k__BackingField
+    bool _get_$editableMaterialRenderQueue$k__BackingField();
+    // Set instance field: private System.Boolean <editableMaterialRenderQueue>k__BackingField
+    void _set_$editableMaterialRenderQueue$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <overridesLODBias>k__BackingField
+    bool _get_$overridesLODBias$k__BackingField();
+    // Set instance field: private System.Boolean <overridesLODBias>k__BackingField
+    void _set_$overridesLODBias$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <overridesMaximumLODLevel>k__BackingField
+    bool _get_$overridesMaximumLODLevel$k__BackingField();
+    // Set instance field: private System.Boolean <overridesMaximumLODLevel>k__BackingField
+    void _set_$overridesMaximumLODLevel$k__BackingField(bool value);
     // static public UnityEngine.Rendering.SupportedRenderingFeatures get_active()
     // Offset: 0x1C80278
     static UnityEngine::Rendering::SupportedRenderingFeatures* get_active();

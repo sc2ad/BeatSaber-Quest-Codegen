@@ -155,6 +155,74 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: OVRExternalComposition
     OVRExternalComposition(UnityEngine::GameObject* previousMainCameraObject_ = {}, UnityEngine::GameObject* foregroundCameraGameObject_ = {}, UnityEngine::Camera* foregroundCamera_ = {}, UnityEngine::GameObject* backgroundCameraGameObject_ = {}, UnityEngine::Camera* backgroundCamera_ = {}, bool renderCombinedFrame_ = {}, UnityEngine::AudioListener* audioListener_ = {}, GlobalNamespace::OVRMRAudioFilter* audioFilter_ = {}, ::Array<UnityEngine::RenderTexture*>* mrcRenderTextureArray_ = {}, int frameIndex_ = {}, int lastMrcEncodeFrameSyncId_ = {}, ::Array<UnityEngine::RenderTexture*>* mrcForegroundRenderTextureArray_ = {}, ::Array<double>* cameraPoseTimeArray_ = {}, ::Array<float>* cachedAudioDataArray_ = {}, ::Il2CppObject* audioDataLock_ = {}, System::Collections::Generic::List_1<float>* cachedAudioData_ = {}, int cachedChannels_ = {}) noexcept : previousMainCameraObject{previousMainCameraObject_}, foregroundCameraGameObject{foregroundCameraGameObject_}, foregroundCamera{foregroundCamera_}, backgroundCameraGameObject{backgroundCameraGameObject_}, backgroundCamera{backgroundCamera_}, renderCombinedFrame{renderCombinedFrame_}, audioListener{audioListener_}, audioFilter{audioFilter_}, mrcRenderTextureArray{mrcRenderTextureArray_}, frameIndex{frameIndex_}, lastMrcEncodeFrameSyncId{lastMrcEncodeFrameSyncId_}, mrcForegroundRenderTextureArray{mrcForegroundRenderTextureArray_}, cameraPoseTimeArray{cameraPoseTimeArray_}, cachedAudioDataArray{cachedAudioDataArray_}, audioDataLock{audioDataLock_}, cachedAudioData{cachedAudioData_}, cachedChannels{cachedChannels_} {}
+    // Get instance field: private UnityEngine.GameObject previousMainCameraObject
+    UnityEngine::GameObject* _get_previousMainCameraObject();
+    // Set instance field: private UnityEngine.GameObject previousMainCameraObject
+    void _set_previousMainCameraObject(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject foregroundCameraGameObject
+    UnityEngine::GameObject* _get_foregroundCameraGameObject();
+    // Set instance field: public UnityEngine.GameObject foregroundCameraGameObject
+    void _set_foregroundCameraGameObject(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.Camera foregroundCamera
+    UnityEngine::Camera* _get_foregroundCamera();
+    // Set instance field: public UnityEngine.Camera foregroundCamera
+    void _set_foregroundCamera(UnityEngine::Camera* value);
+    // Get instance field: public UnityEngine.GameObject backgroundCameraGameObject
+    UnityEngine::GameObject* _get_backgroundCameraGameObject();
+    // Set instance field: public UnityEngine.GameObject backgroundCameraGameObject
+    void _set_backgroundCameraGameObject(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.Camera backgroundCamera
+    UnityEngine::Camera* _get_backgroundCamera();
+    // Set instance field: public UnityEngine.Camera backgroundCamera
+    void _set_backgroundCamera(UnityEngine::Camera* value);
+    // Get instance field: public System.Boolean renderCombinedFrame
+    bool _get_renderCombinedFrame();
+    // Set instance field: public System.Boolean renderCombinedFrame
+    void _set_renderCombinedFrame(bool value);
+    // Get instance field: public UnityEngine.AudioListener audioListener
+    UnityEngine::AudioListener* _get_audioListener();
+    // Set instance field: public UnityEngine.AudioListener audioListener
+    void _set_audioListener(UnityEngine::AudioListener* value);
+    // Get instance field: public OVRMRAudioFilter audioFilter
+    GlobalNamespace::OVRMRAudioFilter* _get_audioFilter();
+    // Set instance field: public OVRMRAudioFilter audioFilter
+    void _set_audioFilter(GlobalNamespace::OVRMRAudioFilter* value);
+    // Get instance field: public UnityEngine.RenderTexture[] mrcRenderTextureArray
+    ::Array<UnityEngine::RenderTexture*>* _get_mrcRenderTextureArray();
+    // Set instance field: public UnityEngine.RenderTexture[] mrcRenderTextureArray
+    void _set_mrcRenderTextureArray(::Array<UnityEngine::RenderTexture*>* value);
+    // Get instance field: public System.Int32 frameIndex
+    int _get_frameIndex();
+    // Set instance field: public System.Int32 frameIndex
+    void _set_frameIndex(int value);
+    // Get instance field: public System.Int32 lastMrcEncodeFrameSyncId
+    int _get_lastMrcEncodeFrameSyncId();
+    // Set instance field: public System.Int32 lastMrcEncodeFrameSyncId
+    void _set_lastMrcEncodeFrameSyncId(int value);
+    // Get instance field: public UnityEngine.RenderTexture[] mrcForegroundRenderTextureArray
+    ::Array<UnityEngine::RenderTexture*>* _get_mrcForegroundRenderTextureArray();
+    // Set instance field: public UnityEngine.RenderTexture[] mrcForegroundRenderTextureArray
+    void _set_mrcForegroundRenderTextureArray(::Array<UnityEngine::RenderTexture*>* value);
+    // Get instance field: public System.Double[] cameraPoseTimeArray
+    ::Array<double>* _get_cameraPoseTimeArray();
+    // Set instance field: public System.Double[] cameraPoseTimeArray
+    void _set_cameraPoseTimeArray(::Array<double>* value);
+    // Get instance field: private System.Single[] cachedAudioDataArray
+    ::Array<float>* _get_cachedAudioDataArray();
+    // Set instance field: private System.Single[] cachedAudioDataArray
+    void _set_cachedAudioDataArray(::Array<float>* value);
+    // Get instance field: private readonly System.Object audioDataLock
+    ::Il2CppObject* _get_audioDataLock();
+    // Set instance field: private readonly System.Object audioDataLock
+    void _set_audioDataLock(::Il2CppObject* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Single> cachedAudioData
+    System::Collections::Generic::List_1<float>* _get_cachedAudioData();
+    // Set instance field: private System.Collections.Generic.List`1<System.Single> cachedAudioData
+    void _set_cachedAudioData(System::Collections::Generic::List_1<float>* value);
+    // Get instance field: private System.Int32 cachedChannels
+    int _get_cachedChannels();
+    // Set instance field: private System.Int32 cachedChannels
+    void _set_cachedChannels(int value);
     // private System.Void RefreshCameraObjects(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
     // Offset: 0x12574E4
     void RefreshCameraObjects(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);

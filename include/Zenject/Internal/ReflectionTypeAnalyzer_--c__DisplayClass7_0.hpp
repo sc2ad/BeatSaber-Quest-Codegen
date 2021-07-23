@@ -51,6 +51,14 @@ namespace Zenject::Internal {
     static_assert(sizeof(System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass7_0
     $$c__DisplayClass7_0(System::Type* type_ = {}, System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* $$9__2_ = {}) noexcept : type{type_}, $$9__2{$$9__2_} {}
+    // Get instance field: public System.Type type
+    System::Type* _get_type();
+    // Set instance field: public System.Type type
+    void _set_type(System::Type* value);
+    // Get instance field: public System.Func`2<System.Reflection.ParameterInfo,Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> <>9__2
+    System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* _get_$$9__2();
+    // Set instance field: public System.Func`2<System.Reflection.ParameterInfo,Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> <>9__2
+    void _set_$$9__2(System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* value);
     // Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo <GetMethodInfos>b__2(System.Reflection.ParameterInfo x)
     // Offset: 0x162A9A8
     Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* $GetMethodInfos$b__2(System::Reflection::ParameterInfo* x);

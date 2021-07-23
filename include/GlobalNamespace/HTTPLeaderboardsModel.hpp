@@ -107,6 +107,30 @@ namespace GlobalNamespace {
     operator OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::ILeaderboardsModel*>(this);
     }
+    // Get instance field: private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
+    OnlineServices::API::IUserLoginDtoDataSource* _get__userLoginDataSource();
+    // Set instance field: private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
+    void _set__userLoginDataSource(OnlineServices::API::IUserLoginDtoDataSource* value);
+    // Get instance field: private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
+    OnlineServices::API::IApiLeaderboardsModel* _get__apiLeaderboardsModel();
+    // Set instance field: private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
+    void _set__apiLeaderboardsModel(OnlineServices::API::IApiLeaderboardsModel* value);
+    // Get instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
+    System::Action_1<::Il2CppString*>* _get_scoreForLeaderboardDidUploadEvent();
+    // Set instance field: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
+    void _set_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
+    // Get instance field: private readonly System.String _guid
+    ::Il2CppString* _get__guid();
+    // Set instance field: private readonly System.String _guid
+    void _set__guid(::Il2CppString* value);
+    // Get instance field: private System.String[] _friendsUserIds
+    ::Array<::Il2CppString*>* _get__friendsUserIds();
+    // Set instance field: private System.String[] _friendsUserIds
+    void _set__friendsUserIds(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.String _platformUserId
+    ::Il2CppString* _get__platformUserId();
+    // Set instance field: private System.String _platformUserId
+    void _set__platformUserId(::Il2CppString* value);
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0x10E8630
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);

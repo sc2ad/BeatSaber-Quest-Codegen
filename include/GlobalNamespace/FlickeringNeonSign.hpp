@@ -131,6 +131,58 @@ namespace GlobalNamespace {
     FlickeringNeonSign(UnityEngine::SpriteRenderer* flickeringSprite_ = {}, GlobalNamespace::TubeBloomPrePassLight* light_ = {}, ::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}, float minOnDelay_ = {}, float maxOnDelay_ = {}, float minOffDelay_ = {}, float maxOffDelay_ = {}, UnityEngine::Color spriteOnColor_ = {}, UnityEngine::Color lightOnColor_ = {}, UnityEngine::Material* onMaterial_ = {}, UnityEngine::Material* offMaterial_ = {}, ::Array<UnityEngine::AudioClip*>* sparksAudioClips_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* sparksAudioClipPicker_ = {}) noexcept : flickeringSprite{flickeringSprite_}, light{light_}, particleSystems{particleSystems_}, minOnDelay{minOnDelay_}, maxOnDelay{maxOnDelay_}, minOffDelay{minOffDelay_}, maxOffDelay{maxOffDelay_}, spriteOnColor{spriteOnColor_}, lightOnColor{lightOnColor_}, onMaterial{onMaterial_}, offMaterial{offMaterial_}, sparksAudioClips{sparksAudioClips_}, sparksAudioClipPicker{sparksAudioClipPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.SpriteRenderer _flickeringSprite
+    UnityEngine::SpriteRenderer* _get__flickeringSprite();
+    // Set instance field: private UnityEngine.SpriteRenderer _flickeringSprite
+    void _set__flickeringSprite(UnityEngine::SpriteRenderer* value);
+    // Get instance field: private TubeBloomPrePassLight _light
+    GlobalNamespace::TubeBloomPrePassLight* _get__light();
+    // Set instance field: private TubeBloomPrePassLight _light
+    void _set__light(GlobalNamespace::TubeBloomPrePassLight* value);
+    // Get instance field: private UnityEngine.ParticleSystem[] _particleSystems
+    ::Array<UnityEngine::ParticleSystem*>* _get__particleSystems();
+    // Set instance field: private UnityEngine.ParticleSystem[] _particleSystems
+    void _set__particleSystems(::Array<UnityEngine::ParticleSystem*>* value);
+    // Get instance field: private System.Single _minOnDelay
+    float _get__minOnDelay();
+    // Set instance field: private System.Single _minOnDelay
+    void _set__minOnDelay(float value);
+    // Get instance field: private System.Single _maxOnDelay
+    float _get__maxOnDelay();
+    // Set instance field: private System.Single _maxOnDelay
+    void _set__maxOnDelay(float value);
+    // Get instance field: private System.Single _minOffDelay
+    float _get__minOffDelay();
+    // Set instance field: private System.Single _minOffDelay
+    void _set__minOffDelay(float value);
+    // Get instance field: private System.Single _maxOffDelay
+    float _get__maxOffDelay();
+    // Set instance field: private System.Single _maxOffDelay
+    void _set__maxOffDelay(float value);
+    // Get instance field: private UnityEngine.Color _spriteOnColor
+    UnityEngine::Color _get__spriteOnColor();
+    // Set instance field: private UnityEngine.Color _spriteOnColor
+    void _set__spriteOnColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _lightOnColor
+    UnityEngine::Color _get__lightOnColor();
+    // Set instance field: private UnityEngine.Color _lightOnColor
+    void _set__lightOnColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Material _onMaterial
+    UnityEngine::Material* _get__onMaterial();
+    // Set instance field: private UnityEngine.Material _onMaterial
+    void _set__onMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material _offMaterial
+    UnityEngine::Material* _get__offMaterial();
+    // Set instance field: private UnityEngine.Material _offMaterial
+    void _set__offMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.AudioClip[] _sparksAudioClips
+    ::Array<UnityEngine::AudioClip*>* _get__sparksAudioClips();
+    // Set instance field: private UnityEngine.AudioClip[] _sparksAudioClips
+    void _set__sparksAudioClips(::Array<UnityEngine::AudioClip*>* value);
+    // Get instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
+    GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* _get__sparksAudioClipPicker();
+    // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
+    void _set__sparksAudioClipPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
     // protected System.Void Awake()
     // Offset: 0x1029428
     void Awake();

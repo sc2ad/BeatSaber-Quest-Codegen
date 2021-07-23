@@ -37,6 +37,10 @@ namespace Zenject {
     constexpr operator Zenject::BindInfo*() const noexcept {
       return BindInfo;
     }
+    // Get instance field: private Zenject.BindInfo <BindInfo>k__BackingField
+    Zenject::BindInfo* _get_$BindInfo$k__BackingField();
+    // Set instance field: private Zenject.BindInfo <BindInfo>k__BackingField
+    void _set_$BindInfo$k__BackingField(Zenject::BindInfo* value);
     // public Zenject.BindInfo get_BindInfo()
     // Offset: 0x16254F4
     Zenject::BindInfo* get_BindInfo();

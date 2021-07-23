@@ -50,6 +50,14 @@ namespace Zenject {
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass22_0
     $$c__DisplayClass22_0(UnityEngine::Object* prefab_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}) noexcept : prefab{prefab_}, gameObjectInfo{gameObjectInfo_} {}
+    // Get instance field: public UnityEngine.Object prefab
+    UnityEngine::Object* _get_prefab();
+    // Set instance field: public UnityEngine.Object prefab
+    void _set_prefab(UnityEngine::Object* value);
+    // Get instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    Zenject::GameObjectCreationParameters* _get_gameObjectInfo();
+    // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
     // Zenject.ISubContainerCreator <ByNewContextPrefab>b__0(Zenject.DiContainer container)
     // Offset: 0x16D14A0
     Zenject::ISubContainerCreator* $ByNewContextPrefab$b__0(Zenject::DiContainer* container);

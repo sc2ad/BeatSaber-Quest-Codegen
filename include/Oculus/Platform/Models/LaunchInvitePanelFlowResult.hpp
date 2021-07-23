@@ -38,6 +38,10 @@ namespace Oculus::Platform::Models {
     constexpr operator Oculus::Platform::Models::UserList*() const noexcept {
       return InvitedUsers;
     }
+    // Get instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
+    Oculus::Platform::Models::UserList* _get_InvitedUsers();
+    // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
+    void _set_InvitedUsers(Oculus::Platform::Models::UserList* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A2D68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,6 +47,18 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.Int32 m_numBytes
+    int _get_m_numBytes();
+    // Set instance field: private System.Int32 m_numBytes
+    void _set_m_numBytes(int value);
+    // Get instance field: private System.IntPtr m_ptr
+    System::IntPtr _get_m_ptr();
+    // Set instance field: private System.IntPtr m_ptr
+    void _set_m_ptr(System::IntPtr value);
     // public System.Void .ctor(System.Int32 numBytes)
     // Offset: 0x12E6BE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

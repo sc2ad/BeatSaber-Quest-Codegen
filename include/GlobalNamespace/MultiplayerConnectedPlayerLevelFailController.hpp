@@ -89,6 +89,34 @@ namespace GlobalNamespace {
     MultiplayerConnectedPlayerLevelFailController(GlobalNamespace::VFXController* failVFXController_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, System::Action* playerDidFailEvent_ = {}, bool wasActive_ = {}) noexcept : failVFXController{failVFXController_}, multiplayerSessionManager{multiplayerSessionManager_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, beatmapObjectManager{beatmapObjectManager_}, connectedPlayer{connectedPlayer_}, playerDidFailEvent{playerDidFailEvent_}, wasActive{wasActive_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private VFXController _failVFXController
+    GlobalNamespace::VFXController* _get__failVFXController();
+    // Set instance field: private VFXController _failVFXController
+    void _set__failVFXController(GlobalNamespace::VFXController* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::BeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
+    // Set instance field: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
+    void _set__beatmapObjectSpawnController(GlobalNamespace::BeatmapObjectSpawnController* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private System.Action playerDidFailEvent
+    System::Action* _get_playerDidFailEvent();
+    // Set instance field: private System.Action playerDidFailEvent
+    void _set_playerDidFailEvent(System::Action* value);
+    // Get instance field: private System.Boolean _wasActive
+    bool _get__wasActive();
+    // Set instance field: private System.Boolean _wasActive
+    void _set__wasActive(bool value);
     // public System.Void add_playerDidFailEvent(System.Action value)
     // Offset: 0x11A27F4
     void add_playerDidFailEvent(System::Action* value);

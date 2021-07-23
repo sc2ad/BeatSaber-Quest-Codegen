@@ -152,6 +152,14 @@ namespace System {
     static int _get_alignConst();
     // Set static field: static private System.Int32 alignConst
     static void _set_alignConst(int value);
+    // Get instance field: private System.Int32 m_stringLength
+    int _get_m_stringLength();
+    // Set instance field: private System.Int32 m_stringLength
+    void _set_m_stringLength(int value);
+    // Get instance field: private System.Char m_firstChar
+    ::Il2CppChar _get_m_firstChar();
+    // Set instance field: private System.Char m_firstChar
+    void _set_m_firstChar(::Il2CppChar value);
     // public System.Char get_Chars(System.Int32 index)
     // Offset: 0x1BC3004
     ::Il2CppChar get_Chars(int index);

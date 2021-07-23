@@ -49,6 +49,10 @@ namespace TMPro {
     static TMPro::TagUnitType _get_Percentage();
     // Set static field: static public TMPro.TagUnitType Percentage
     static void _set_Percentage(TMPro::TagUnitType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.TagUnitType
   #pragma pack(pop)
   static check_size<sizeof(TagUnitType), 0 + sizeof(int)> __TMPro_TagUnitTypeSizeCheck;

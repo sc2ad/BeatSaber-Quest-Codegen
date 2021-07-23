@@ -84,6 +84,26 @@ namespace GlobalNamespace {
     static bool _get__initialized();
     // Set static field: static private System.Boolean _initialized
     static void _set__initialized(bool value);
+    // Get instance field: private System.Single _intensity
+    float _get__intensity();
+    // Set instance field: private System.Single _intensity
+    void _set__intensity(float value);
+    // Get instance field: private System.Single _minAlpha
+    float _get__minAlpha();
+    // Set instance field: private System.Single _minAlpha
+    void _set__minAlpha(float value);
+    // Get instance field: private System.Single _grayscaleFactor
+    float _get__grayscaleFactor();
+    // Set instance field: private System.Single _grayscaleFactor
+    void _set__grayscaleFactor(float value);
+    // Get instance field: private UnityEngine.Shader _shader
+    UnityEngine::Shader* _get__shader();
+    // Set instance field: private UnityEngine.Shader _shader
+    void _set__shader(UnityEngine::Shader* value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1DEC524
     UnityEngine::Color get_color();

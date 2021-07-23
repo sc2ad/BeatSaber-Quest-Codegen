@@ -48,6 +48,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::CapsuleCollider*) == 0x8);
     // Creating value type constructor for type: OVRBoneCapsule
     OVRBoneCapsule(int16_t BoneIndex_ = {}, UnityEngine::Rigidbody* CapsuleRigidbody_ = {}, UnityEngine::CapsuleCollider* CapsuleCollider_ = {}) noexcept : BoneIndex{BoneIndex_}, CapsuleRigidbody{CapsuleRigidbody_}, CapsuleCollider{CapsuleCollider_} {}
+    // Get instance field: private System.Int16 <BoneIndex>k__BackingField
+    int16_t _get_$BoneIndex$k__BackingField();
+    // Set instance field: private System.Int16 <BoneIndex>k__BackingField
+    void _set_$BoneIndex$k__BackingField(int16_t value);
+    // Get instance field: private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField
+    UnityEngine::Rigidbody* _get_$CapsuleRigidbody$k__BackingField();
+    // Set instance field: private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField
+    void _set_$CapsuleRigidbody$k__BackingField(UnityEngine::Rigidbody* value);
+    // Get instance field: private UnityEngine.CapsuleCollider <CapsuleCollider>k__BackingField
+    UnityEngine::CapsuleCollider* _get_$CapsuleCollider$k__BackingField();
+    // Set instance field: private UnityEngine.CapsuleCollider <CapsuleCollider>k__BackingField
+    void _set_$CapsuleCollider$k__BackingField(UnityEngine::CapsuleCollider* value);
     // public System.Int16 get_BoneIndex()
     // Offset: 0x124A7B8
     int16_t get_BoneIndex();

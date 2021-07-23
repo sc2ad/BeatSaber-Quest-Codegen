@@ -92,6 +92,30 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Boolean _preferredSpectatingSpot
+    bool _get__preferredSpectatingSpot();
+    // Set instance field: private System.Boolean _preferredSpectatingSpot
+    void _set__preferredSpectatingSpot(bool value);
+    // Get instance field: private System.Boolean _displaySpotNumber
+    bool _get__displaySpotNumber();
+    // Set instance field: private System.Boolean _displaySpotNumber
+    void _set__displaySpotNumber(bool value);
+    // Get instance field: private System.Int32 _spotNumber
+    int _get__spotNumber();
+    // Set instance field: private System.Int32 _spotNumber
+    void _set__spotNumber(int value);
+    // Get instance field: private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
+    GlobalNamespace::MultiplayerSpectatingSpotManager* _get__spectatingSpotManager();
+    // Set instance field: private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
+    void _set__spectatingSpotManager(GlobalNamespace::MultiplayerSpectatingSpotManager* value);
+    // Get instance field: private readonly MultiplayerActivePlayersTimeOffsetAverage _activePlayersTimeOffsetAverage
+    GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* _get__activePlayersTimeOffsetAverage();
+    // Set instance field: private readonly MultiplayerActivePlayersTimeOffsetAverage _activePlayersTimeOffsetAverage
+    void _set__activePlayersTimeOffsetAverage(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* value);
+    // Get instance field: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
+    System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* _get_hasBeenRemovedEvent();
+    // Set instance field: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
+    void _set_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public IMultiplayerObservable get_observable()
     // Offset: 0x11AB1AC
     GlobalNamespace::IMultiplayerObservable* get_observable();

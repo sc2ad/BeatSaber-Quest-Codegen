@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     MenuPlayerController(GlobalNamespace::VRController* leftController_ = {}, GlobalNamespace::VRController* rightController_ = {}, UnityEngine::Transform* headTransform_ = {}) noexcept : leftController{leftController_}, rightController{rightController_}, headTransform{headTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private VRController _leftController
+    GlobalNamespace::VRController* _get__leftController();
+    // Set instance field: private VRController _leftController
+    void _set__leftController(GlobalNamespace::VRController* value);
+    // Get instance field: private VRController _rightController
+    GlobalNamespace::VRController* _get__rightController();
+    // Set instance field: private VRController _rightController
+    void _set__rightController(GlobalNamespace::VRController* value);
+    // Get instance field: private UnityEngine.Transform _headTransform
+    UnityEngine::Transform* _get__headTransform();
+    // Set instance field: private UnityEngine.Transform _headTransform
+    void _set__headTransform(UnityEngine::Transform* value);
     // public VRController get_leftController()
     // Offset: 0x11806B8
     GlobalNamespace::VRController* get_leftController();

@@ -60,6 +60,30 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Byte sin6_len
+    uint8_t _get_sin6_len();
+    // Set instance field: public System.Byte sin6_len
+    void _set_sin6_len(uint8_t value);
+    // Get instance field: public System.Byte sin6_family
+    uint8_t _get_sin6_family();
+    // Set instance field: public System.Byte sin6_family
+    void _set_sin6_family(uint8_t value);
+    // Get instance field: public System.UInt16 sin6_port
+    uint16_t _get_sin6_port();
+    // Set instance field: public System.UInt16 sin6_port
+    void _set_sin6_port(uint16_t value);
+    // Get instance field: public System.UInt32 sin6_flowinfo
+    uint _get_sin6_flowinfo();
+    // Set instance field: public System.UInt32 sin6_flowinfo
+    void _set_sin6_flowinfo(uint value);
+    // Get instance field: public System.Net.NetworkInformation.MacOsStructs.in6_addr sin6_addr
+    System::Net::NetworkInformation::MacOsStructs::in6_addr _get_sin6_addr();
+    // Set instance field: public System.Net.NetworkInformation.MacOsStructs.in6_addr sin6_addr
+    void _set_sin6_addr(System::Net::NetworkInformation::MacOsStructs::in6_addr value);
+    // Get instance field: public System.UInt32 sin6_scope_id
+    uint _get_sin6_scope_id();
+    // Set instance field: public System.UInt32 sin6_scope_id
+    void _set_sin6_scope_id(uint value);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_in6
   #pragma pack(pop)
   static check_size<sizeof(sockaddr_in6), 16 + sizeof(uint)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_in6SizeCheck;

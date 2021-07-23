@@ -53,6 +53,22 @@ namespace Zenject {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass178_0
     $$c__DisplayClass178_0(Zenject::DiContainer* $$4__this_ = {}, System::Type* contractType_ = {}, ::Il2CppObject* identifier_ = {}, System::Type* concreteType_ = {}) noexcept : $$4__this{$$4__this_}, contractType{contractType_}, identifier{identifier_}, concreteType{concreteType_} {}
+    // Get instance field: public Zenject.DiContainer <>4__this
+    Zenject::DiContainer* _get_$$4__this();
+    // Set instance field: public Zenject.DiContainer <>4__this
+    void _set_$$4__this(Zenject::DiContainer* value);
+    // Get instance field: public System.Type contractType
+    System::Type* _get_contractType();
+    // Set instance field: public System.Type contractType
+    void _set_contractType(System::Type* value);
+    // Get instance field: public System.Object identifier
+    ::Il2CppObject* _get_identifier();
+    // Set instance field: public System.Object identifier
+    void _set_identifier(::Il2CppObject* value);
+    // Get instance field: public System.Type concreteType
+    System::Type* _get_concreteType();
+    // Set instance field: public System.Type concreteType
+    void _set_concreteType(System::Type* value);
     // System.Boolean <UnbindId>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
     // Offset: 0x161909C
     bool $UnbindId$b__0(Zenject::DiContainer::ProviderInfo* x);

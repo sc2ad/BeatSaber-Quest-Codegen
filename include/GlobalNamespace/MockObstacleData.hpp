@@ -51,6 +51,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MockObstacleData
     MockObstacleData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::ObstacleType obstacleType_ = {}, float duration_ = {}, int width_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, obstacleType{obstacleType_}, duration{duration_}, width{width_} {}
+    // Get instance field: private System.Single <time>k__BackingField
+    float _get_$time$k__BackingField();
+    // Set instance field: private System.Single <time>k__BackingField
+    void _set_$time$k__BackingField(float value);
+    // Get instance field: private System.Int32 <lineIndex>k__BackingField
+    int _get_$lineIndex$k__BackingField();
+    // Set instance field: private System.Int32 <lineIndex>k__BackingField
+    void _set_$lineIndex$k__BackingField(int value);
+    // Get instance field: private ObstacleType <obstacleType>k__BackingField
+    GlobalNamespace::ObstacleType _get_$obstacleType$k__BackingField();
+    // Set instance field: private ObstacleType <obstacleType>k__BackingField
+    void _set_$obstacleType$k__BackingField(GlobalNamespace::ObstacleType value);
+    // Get instance field: private System.Single <duration>k__BackingField
+    float _get_$duration$k__BackingField();
+    // Set instance field: private System.Single <duration>k__BackingField
+    void _set_$duration$k__BackingField(float value);
+    // Get instance field: private System.Int32 <width>k__BackingField
+    int _get_$width$k__BackingField();
+    // Set instance field: private System.Int32 <width>k__BackingField
+    void _set_$width$k__BackingField(int value);
     // public System.Single get_time()
     // Offset: 0x238C1BC
     float get_time();

@@ -33,6 +33,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: SupplementaryMetric
     SupplementaryMetric(uint64_t _ID_ = {}, int64_t Metric_ = {}) noexcept : _ID{_ID_}, Metric{Metric_} {}
+    // Get instance field: public readonly System.UInt64 ID
+    uint64_t _get_ID();
+    // Set instance field: public readonly System.UInt64 ID
+    void _set_ID(uint64_t value);
+    // Get instance field: public readonly System.Int64 Metric
+    int64_t _get_Metric();
+    // Set instance field: public readonly System.Int64 Metric
+    void _set_Metric(int64_t value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A9A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

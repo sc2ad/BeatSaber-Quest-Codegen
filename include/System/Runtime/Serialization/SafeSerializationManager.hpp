@@ -95,6 +95,26 @@ namespace System::Runtime::Serialization {
     static ::Il2CppString* _get_RealTypeSerializationName();
     // Set static field: static private System.String RealTypeSerializationName
     static void _set_RealTypeSerializationName(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.IList`1<System.Object> m_serializedStates
+    System::Collections::Generic::IList_1<::Il2CppObject*>* _get_m_serializedStates();
+    // Set instance field: private System.Collections.Generic.IList`1<System.Object> m_serializedStates
+    void _set_m_serializedStates(System::Collections::Generic::IList_1<::Il2CppObject*>* value);
+    // Get instance field: private System.Runtime.Serialization.SerializationInfo m_savedSerializationInfo
+    System::Runtime::Serialization::SerializationInfo* _get_m_savedSerializationInfo();
+    // Set instance field: private System.Runtime.Serialization.SerializationInfo m_savedSerializationInfo
+    void _set_m_savedSerializationInfo(System::Runtime::Serialization::SerializationInfo* value);
+    // Get instance field: private System.Object m_realObject
+    ::Il2CppObject* _get_m_realObject();
+    // Set instance field: private System.Object m_realObject
+    void _set_m_realObject(::Il2CppObject* value);
+    // Get instance field: private System.RuntimeType m_realType
+    System::RuntimeType* _get_m_realType();
+    // Set instance field: private System.RuntimeType m_realType
+    void _set_m_realType(System::RuntimeType* value);
+    // Get instance field: private System.EventHandler`1<System.Runtime.Serialization.SafeSerializationEventArgs> SerializeObjectState
+    System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>* _get_SerializeObjectState();
+    // Set instance field: private System.EventHandler`1<System.Runtime.Serialization.SafeSerializationEventArgs> SerializeObjectState
+    void _set_SerializeObjectState(System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>* value);
     // System.Boolean get_IsActive()
     // Offset: 0x168166C
     bool get_IsActive();

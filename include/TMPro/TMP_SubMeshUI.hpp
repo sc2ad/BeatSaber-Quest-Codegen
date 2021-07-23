@@ -141,6 +141,62 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TMP_SubMeshUI
     TMP_SubMeshUI(TMPro::TMP_FontAsset* m_fontAsset_ = {}, TMPro::TMP_SpriteAsset* m_spriteAsset_ = {}, UnityEngine::Material* m_material_ = {}, UnityEngine::Material* m_sharedMaterial_ = {}, UnityEngine::Material* m_fallbackMaterial_ = {}, UnityEngine::Material* m_fallbackSourceMaterial_ = {}, bool m_isDefaultMaterial_ = {}, float m_padding_ = {}, UnityEngine::CanvasRenderer* m_canvasRenderer_ = {}, UnityEngine::Mesh* m_mesh_ = {}, TMPro::TextMeshProUGUI* m_TextComponent_ = {}, bool m_isRegisteredForEvents_ = {}, bool m_materialDirty_ = {}, int m_materialReferenceIndex_ = {}) noexcept : m_fontAsset{m_fontAsset_}, m_spriteAsset{m_spriteAsset_}, m_material{m_material_}, m_sharedMaterial{m_sharedMaterial_}, m_fallbackMaterial{m_fallbackMaterial_}, m_fallbackSourceMaterial{m_fallbackSourceMaterial_}, m_isDefaultMaterial{m_isDefaultMaterial_}, m_padding{m_padding_}, m_canvasRenderer{m_canvasRenderer_}, m_mesh{m_mesh_}, m_TextComponent{m_TextComponent_}, m_isRegisteredForEvents{m_isRegisteredForEvents_}, m_materialDirty{m_materialDirty_}, m_materialReferenceIndex{m_materialReferenceIndex_} {}
+    // Get instance field: private TMPro.TMP_FontAsset m_fontAsset
+    TMPro::TMP_FontAsset* _get_m_fontAsset();
+    // Set instance field: private TMPro.TMP_FontAsset m_fontAsset
+    void _set_m_fontAsset(TMPro::TMP_FontAsset* value);
+    // Get instance field: private TMPro.TMP_SpriteAsset m_spriteAsset
+    TMPro::TMP_SpriteAsset* _get_m_spriteAsset();
+    // Set instance field: private TMPro.TMP_SpriteAsset m_spriteAsset
+    void _set_m_spriteAsset(TMPro::TMP_SpriteAsset* value);
+    // Get instance field: private UnityEngine.Material m_material
+    UnityEngine::Material* _get_m_material();
+    // Set instance field: private UnityEngine.Material m_material
+    void _set_m_material(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material m_sharedMaterial
+    UnityEngine::Material* _get_m_sharedMaterial();
+    // Set instance field: private UnityEngine.Material m_sharedMaterial
+    void _set_m_sharedMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material m_fallbackMaterial
+    UnityEngine::Material* _get_m_fallbackMaterial();
+    // Set instance field: private UnityEngine.Material m_fallbackMaterial
+    void _set_m_fallbackMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material m_fallbackSourceMaterial
+    UnityEngine::Material* _get_m_fallbackSourceMaterial();
+    // Set instance field: private UnityEngine.Material m_fallbackSourceMaterial
+    void _set_m_fallbackSourceMaterial(UnityEngine::Material* value);
+    // Get instance field: private System.Boolean m_isDefaultMaterial
+    bool _get_m_isDefaultMaterial();
+    // Set instance field: private System.Boolean m_isDefaultMaterial
+    void _set_m_isDefaultMaterial(bool value);
+    // Get instance field: private System.Single m_padding
+    float _get_m_padding();
+    // Set instance field: private System.Single m_padding
+    void _set_m_padding(float value);
+    // Get instance field: private UnityEngine.CanvasRenderer m_canvasRenderer
+    UnityEngine::CanvasRenderer* _get_m_canvasRenderer();
+    // Set instance field: private UnityEngine.CanvasRenderer m_canvasRenderer
+    void _set_m_canvasRenderer(UnityEngine::CanvasRenderer* value);
+    // Get instance field: private UnityEngine.Mesh m_mesh
+    UnityEngine::Mesh* _get_m_mesh();
+    // Set instance field: private UnityEngine.Mesh m_mesh
+    void _set_m_mesh(UnityEngine::Mesh* value);
+    // Get instance field: private TMPro.TextMeshProUGUI m_TextComponent
+    TMPro::TextMeshProUGUI* _get_m_TextComponent();
+    // Set instance field: private TMPro.TextMeshProUGUI m_TextComponent
+    void _set_m_TextComponent(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private System.Boolean m_isRegisteredForEvents
+    bool _get_m_isRegisteredForEvents();
+    // Set instance field: private System.Boolean m_isRegisteredForEvents
+    void _set_m_isRegisteredForEvents(bool value);
+    // Get instance field: private System.Boolean m_materialDirty
+    bool _get_m_materialDirty();
+    // Set instance field: private System.Boolean m_materialDirty
+    void _set_m_materialDirty(bool value);
+    // Get instance field: private System.Int32 m_materialReferenceIndex
+    int _get_m_materialReferenceIndex();
+    // Set instance field: private System.Int32 m_materialReferenceIndex
+    void _set_m_materialReferenceIndex(int value);
     // public TMPro.TMP_FontAsset get_fontAsset()
     // Offset: 0x1117790
     TMPro::TMP_FontAsset* get_fontAsset();

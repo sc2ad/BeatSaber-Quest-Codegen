@@ -31,6 +31,10 @@ namespace OnlineServices::API {
     constexpr operator ::Array<::Il2CppString*>*() const noexcept {
       return leaderboardsIds;
     }
+    // Get instance field: public System.String[] leaderboardsIds
+    ::Array<::Il2CppString*>* _get_leaderboardsIds();
+    // Set instance field: public System.String[] leaderboardsIds
+    void _set_leaderboardsIds(::Array<::Il2CppString*>* value);
     // public System.Void .ctor()
     // Offset: 0xFF470C
     // Implemented from: System.Object

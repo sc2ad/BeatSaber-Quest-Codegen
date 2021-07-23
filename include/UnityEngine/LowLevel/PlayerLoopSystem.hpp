@@ -67,6 +67,26 @@ namespace UnityEngine::LowLevel {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Type type
+    System::Type* _get_type();
+    // Set instance field: public System.Type type
+    void _set_type(System::Type* value);
+    // Get instance field: public UnityEngine.LowLevel.PlayerLoopSystem[] subSystemList
+    ::Array<UnityEngine::LowLevel::PlayerLoopSystem>* _get_subSystemList();
+    // Set instance field: public UnityEngine.LowLevel.PlayerLoopSystem[] subSystemList
+    void _set_subSystemList(::Array<UnityEngine::LowLevel::PlayerLoopSystem>* value);
+    // Get instance field: public UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction updateDelegate
+    UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* _get_updateDelegate();
+    // Set instance field: public UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction updateDelegate
+    void _set_updateDelegate(UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* value);
+    // Get instance field: public System.IntPtr updateFunction
+    System::IntPtr _get_updateFunction();
+    // Set instance field: public System.IntPtr updateFunction
+    void _set_updateFunction(System::IntPtr value);
+    // Get instance field: public System.IntPtr loopConditionFunction
+    System::IntPtr _get_loopConditionFunction();
+    // Set instance field: public System.IntPtr loopConditionFunction
+    void _set_loopConditionFunction(System::IntPtr value);
   }; // UnityEngine.LowLevel.PlayerLoopSystem
   #pragma pack(pop)
   static check_size<sizeof(PlayerLoopSystem), 32 + sizeof(System::IntPtr)> __UnityEngine_LowLevel_PlayerLoopSystemSizeCheck;

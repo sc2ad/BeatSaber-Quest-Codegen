@@ -93,6 +93,10 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::AspectRatioFitter::AspectMode _get_EnvelopeParent();
       // Set static field: static public UnityEngine.UI.AspectRatioFitter/UnityEngine.UI.AspectMode EnvelopeParent
       static void _set_EnvelopeParent(UnityEngine::UI::AspectRatioFitter::AspectMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.UI.AspectRatioFitter/UnityEngine.UI.AspectMode
     #pragma pack(pop)
     static check_size<sizeof(AspectRatioFitter::AspectMode), 0 + sizeof(int)> __UnityEngine_UI_AspectRatioFitter_AspectModeSizeCheck;
@@ -135,6 +139,26 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.AspectRatioFitter/UnityEngine.UI.AspectMode m_AspectMode
+    UnityEngine::UI::AspectRatioFitter::AspectMode _get_m_AspectMode();
+    // Set instance field: private UnityEngine.UI.AspectRatioFitter/UnityEngine.UI.AspectMode m_AspectMode
+    void _set_m_AspectMode(UnityEngine::UI::AspectRatioFitter::AspectMode value);
+    // Get instance field: private System.Single m_AspectRatio
+    float _get_m_AspectRatio();
+    // Set instance field: private System.Single m_AspectRatio
+    void _set_m_AspectRatio(float value);
+    // Get instance field: private UnityEngine.RectTransform m_Rect
+    UnityEngine::RectTransform* _get_m_Rect();
+    // Set instance field: private UnityEngine.RectTransform m_Rect
+    void _set_m_Rect(UnityEngine::RectTransform* value);
+    // Get instance field: private System.Boolean m_DelayedSetDirty
+    bool _get_m_DelayedSetDirty();
+    // Set instance field: private System.Boolean m_DelayedSetDirty
+    void _set_m_DelayedSetDirty(bool value);
+    // Get instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    UnityEngine::DrivenRectTransformTracker _get_m_Tracker();
+    // Set instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    void _set_m_Tracker(UnityEngine::DrivenRectTransformTracker value);
     // public UnityEngine.UI.AspectRatioFitter/UnityEngine.UI.AspectMode get_aspectMode()
     // Offset: 0x140B684
     UnityEngine::UI::AspectRatioFitter::AspectMode get_aspectMode();

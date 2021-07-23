@@ -88,6 +88,42 @@ namespace GlobalNamespace {
     GameplayModifierParamsSO(::Il2CppString* modifierNameLocalizationKey_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, float multiplier_ = {}, bool multiplierConditionallyValid_ = {}, UnityEngine::Sprite* icon_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* _requires_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* requiredBy_ = {}, bool isInBeta_ = {}) noexcept : modifierNameLocalizationKey{modifierNameLocalizationKey_}, descriptionLocalizationKey{descriptionLocalizationKey_}, multiplier{multiplier_}, multiplierConditionallyValid{multiplierConditionallyValid_}, icon{icon_}, mutuallyExclusives{mutuallyExclusives_}, _requires{_requires_}, requiredBy{requiredBy_}, isInBeta{isInBeta_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _modifierNameLocalizationKey
+    ::Il2CppString* _get__modifierNameLocalizationKey();
+    // Set instance field: private System.String _modifierNameLocalizationKey
+    void _set__modifierNameLocalizationKey(::Il2CppString* value);
+    // Get instance field: private System.String _descriptionLocalizationKey
+    ::Il2CppString* _get__descriptionLocalizationKey();
+    // Set instance field: private System.String _descriptionLocalizationKey
+    void _set__descriptionLocalizationKey(::Il2CppString* value);
+    // Get instance field: private System.Single _multiplier
+    float _get__multiplier();
+    // Set instance field: private System.Single _multiplier
+    void _set__multiplier(float value);
+    // Get instance field: private System.Boolean _multiplierConditionallyValid
+    bool _get__multiplierConditionallyValid();
+    // Set instance field: private System.Boolean _multiplierConditionallyValid
+    void _set__multiplierConditionallyValid(bool value);
+    // Get instance field: private UnityEngine.Sprite _icon
+    UnityEngine::Sprite* _get__icon();
+    // Set instance field: private UnityEngine.Sprite _icon
+    void _set__icon(UnityEngine::Sprite* value);
+    // Get instance field: private GameplayModifierParamsSO[] _mutuallyExclusives
+    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* _get__mutuallyExclusives();
+    // Set instance field: private GameplayModifierParamsSO[] _mutuallyExclusives
+    void _set__mutuallyExclusives(::Array<GlobalNamespace::GameplayModifierParamsSO*>* value);
+    // Get instance field: private GameplayModifierParamsSO[] _requires
+    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* _get__requires();
+    // Set instance field: private GameplayModifierParamsSO[] _requires
+    void _set__requires(::Array<GlobalNamespace::GameplayModifierParamsSO*>* value);
+    // Get instance field: private GameplayModifierParamsSO[] _requiredBy
+    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* _get__requiredBy();
+    // Set instance field: private GameplayModifierParamsSO[] _requiredBy
+    void _set__requiredBy(::Array<GlobalNamespace::GameplayModifierParamsSO*>* value);
+    // Get instance field: private System.Boolean _isInBeta
+    bool _get__isInBeta();
+    // Set instance field: private System.Boolean _isInBeta
+    void _set__isInBeta(bool value);
     // public System.String get_modifierNameLocalizationKey()
     // Offset: 0x10B1698
     ::Il2CppString* get_modifierNameLocalizationKey();

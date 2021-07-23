@@ -100,6 +100,38 @@ namespace MasterServer {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public MasterServer.MessageHandler <>4__this
+    MasterServer::MessageHandler* _get_$$4__this();
+    // Set instance field: public MasterServer.MessageHandler <>4__this
+    void _set_$$4__this(MasterServer::MessageHandler* value);
+    // Get instance field: public System.UInt32 protocolVersion
+    uint _get_protocolVersion();
+    // Set instance field: public System.UInt32 protocolVersion
+    void _set_protocolVersion(uint value);
+    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint* _get_remoteEndPoint();
+    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
+    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public MasterServer.IMasterServerReliableRequest message
+    MasterServer::IMasterServerReliableRequest* _get_message();
+    // Set instance field: public MasterServer.IMasterServerReliableRequest message
+    void _set_message(MasterServer::IMasterServerReliableRequest* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xED3B28
     void MoveNext();

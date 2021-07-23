@@ -35,6 +35,14 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr ifu_broadaddr
+    System::IntPtr _get_ifu_broadaddr();
+    // Set instance field: public System.IntPtr ifu_broadaddr
+    void _set_ifu_broadaddr(System::IntPtr value);
+    // Get instance field: public System.IntPtr ifu_dstaddr
+    System::IntPtr _get_ifu_dstaddr();
+    // Set instance field: public System.IntPtr ifu_dstaddr
+    void _set_ifu_dstaddr(System::IntPtr value);
   }; // System.Net.NetworkInformation.ifa_ifu
   // WARNING Not writing size check since size may be invalid!
 }

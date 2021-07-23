@@ -96,6 +96,46 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
+    System::Net::NetworkInformation::Win32LengthFlagsUnion _get_LengthFlags();
+    // Set instance field: public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
+    void _set_LengthFlags(System::Net::NetworkInformation::Win32LengthFlagsUnion value);
+    // Get instance field: public System.IntPtr Next
+    System::IntPtr _get_Next();
+    // Set instance field: public System.IntPtr Next
+    void _set_Next(System::IntPtr value);
+    // Get instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Address
+    System::Net::NetworkInformation::Win32_SOCKET_ADDRESS _get_Address();
+    // Set instance field: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Address
+    void _set_Address(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS value);
+    // Get instance field: public System.Net.NetworkInformation.PrefixOrigin PrefixOrigin
+    System::Net::NetworkInformation::PrefixOrigin _get_PrefixOrigin();
+    // Set instance field: public System.Net.NetworkInformation.PrefixOrigin PrefixOrigin
+    void _set_PrefixOrigin(System::Net::NetworkInformation::PrefixOrigin value);
+    // Get instance field: public System.Net.NetworkInformation.SuffixOrigin SuffixOrigin
+    System::Net::NetworkInformation::SuffixOrigin _get_SuffixOrigin();
+    // Set instance field: public System.Net.NetworkInformation.SuffixOrigin SuffixOrigin
+    void _set_SuffixOrigin(System::Net::NetworkInformation::SuffixOrigin value);
+    // Get instance field: public System.Net.NetworkInformation.DuplicateAddressDetectionState DadState
+    System::Net::NetworkInformation::DuplicateAddressDetectionState _get_DadState();
+    // Set instance field: public System.Net.NetworkInformation.DuplicateAddressDetectionState DadState
+    void _set_DadState(System::Net::NetworkInformation::DuplicateAddressDetectionState value);
+    // Get instance field: public System.UInt32 ValidLifetime
+    uint _get_ValidLifetime();
+    // Set instance field: public System.UInt32 ValidLifetime
+    void _set_ValidLifetime(uint value);
+    // Get instance field: public System.UInt32 PreferredLifetime
+    uint _get_PreferredLifetime();
+    // Set instance field: public System.UInt32 PreferredLifetime
+    void _set_PreferredLifetime(uint value);
+    // Get instance field: public System.UInt32 LeaseLifetime
+    uint _get_LeaseLifetime();
+    // Set instance field: public System.UInt32 LeaseLifetime
+    void _set_LeaseLifetime(uint value);
+    // Get instance field: public System.Byte OnLinkPrefixLength
+    uint8_t _get_OnLinkPrefixLength();
+    // Set instance field: public System.Byte OnLinkPrefixLength
+    void _set_OnLinkPrefixLength(uint8_t value);
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS), 56 + sizeof(uint8_t)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_UNICAST_ADDRESSSizeCheck;

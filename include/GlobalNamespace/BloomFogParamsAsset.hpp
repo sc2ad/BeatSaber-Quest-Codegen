@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public BloomFogParamsBehaviour _template
+    GlobalNamespace::BloomFogParamsBehaviour* _get__template();
+    // Set instance field: public BloomFogParamsBehaviour _template
+    void _set__template(GlobalNamespace::BloomFogParamsBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x109CCC4
     UnityEngine::Timeline::ClipCaps get_clipCaps();

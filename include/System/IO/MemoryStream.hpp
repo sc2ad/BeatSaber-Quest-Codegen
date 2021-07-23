@@ -104,6 +104,46 @@ namespace System::IO {
     static_assert(sizeof(System::Threading::Tasks::Task_1<int>*) == 0x8);
     // Creating value type constructor for type: MemoryStream
     MemoryStream(::Array<uint8_t>* buffer_ = {}, int origin_ = {}, int position_ = {}, int length_ = {}, int capacity_ = {}, bool expandable_ = {}, bool writable_ = {}, bool exposable_ = {}, bool isOpen_ = {}, System::Threading::Tasks::Task_1<int>* lastReadTask_ = {}) noexcept : buffer{buffer_}, origin{origin_}, position{position_}, length{length_}, capacity{capacity_}, expandable{expandable_}, writable{writable_}, exposable{exposable_}, isOpen{isOpen_}, lastReadTask{lastReadTask_} {}
+    // Get instance field: private System.Byte[] _buffer
+    ::Array<uint8_t>* _get__buffer();
+    // Set instance field: private System.Byte[] _buffer
+    void _set__buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 _origin
+    int _get__origin();
+    // Set instance field: private System.Int32 _origin
+    void _set__origin(int value);
+    // Get instance field: private System.Int32 _position
+    int _get__position();
+    // Set instance field: private System.Int32 _position
+    void _set__position(int value);
+    // Get instance field: private System.Int32 _length
+    int _get__length();
+    // Set instance field: private System.Int32 _length
+    void _set__length(int value);
+    // Get instance field: private System.Int32 _capacity
+    int _get__capacity();
+    // Set instance field: private System.Int32 _capacity
+    void _set__capacity(int value);
+    // Get instance field: private System.Boolean _expandable
+    bool _get__expandable();
+    // Set instance field: private System.Boolean _expandable
+    void _set__expandable(bool value);
+    // Get instance field: private System.Boolean _writable
+    bool _get__writable();
+    // Set instance field: private System.Boolean _writable
+    void _set__writable(bool value);
+    // Get instance field: private System.Boolean _exposable
+    bool _get__exposable();
+    // Set instance field: private System.Boolean _exposable
+    void _set__exposable(bool value);
+    // Get instance field: private System.Boolean _isOpen
+    bool _get__isOpen();
+    // Set instance field: private System.Boolean _isOpen
+    void _set__isOpen(bool value);
+    // Get instance field: private System.Threading.Tasks.Task`1<System.Int32> _lastReadTask
+    System::Threading::Tasks::Task_1<int>* _get__lastReadTask();
+    // Set instance field: private System.Threading.Tasks.Task`1<System.Int32> _lastReadTask
+    void _set__lastReadTask(System::Threading::Tasks::Task_1<int>* value);
     // public System.Int32 get_Capacity()
     // Offset: 0x1926A94
     int get_Capacity();

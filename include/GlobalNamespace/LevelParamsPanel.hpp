@@ -54,6 +54,22 @@ namespace GlobalNamespace {
     LevelParamsPanel(TMPro::TextMeshProUGUI* notesPerSecondText_ = {}, TMPro::TextMeshProUGUI* notesCountText_ = {}, TMPro::TextMeshProUGUI* obstaclesCountText_ = {}, TMPro::TextMeshProUGUI* bombsCountText_ = {}) noexcept : notesPerSecondText{notesPerSecondText_}, notesCountText{notesCountText_}, obstaclesCountText{obstaclesCountText_}, bombsCountText{bombsCountText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _notesPerSecondText
+    TMPro::TextMeshProUGUI* _get__notesPerSecondText();
+    // Set instance field: private TMPro.TextMeshProUGUI _notesPerSecondText
+    void _set__notesPerSecondText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _notesCountText
+    TMPro::TextMeshProUGUI* _get__notesCountText();
+    // Set instance field: private TMPro.TextMeshProUGUI _notesCountText
+    void _set__notesCountText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _obstaclesCountText
+    TMPro::TextMeshProUGUI* _get__obstaclesCountText();
+    // Set instance field: private TMPro.TextMeshProUGUI _obstaclesCountText
+    void _set__obstaclesCountText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _bombsCountText
+    TMPro::TextMeshProUGUI* _get__bombsCountText();
+    // Set instance field: private TMPro.TextMeshProUGUI _bombsCountText
+    void _set__bombsCountText(TMPro::TextMeshProUGUI* value);
     // public System.Void set_notesPerSecond(System.Single value)
     // Offset: 0x11B2994
     void set_notesPerSecond(float value);

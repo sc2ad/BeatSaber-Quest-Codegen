@@ -76,6 +76,34 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RegexFCD
     RegexFCD(::Array<int>* intStack_ = {}, int intDepth_ = {}, ::Array<System::Text::RegularExpressions::RegexFC*>* fcStack_ = {}, int fcDepth_ = {}, bool skipAllChildren_ = {}, bool skipchild_ = {}, bool failed_ = {}) noexcept : intStack{intStack_}, intDepth{intDepth_}, fcStack{fcStack_}, fcDepth{fcDepth_}, skipAllChildren{skipAllChildren_}, skipchild{skipchild_}, failed{failed_} {}
+    // Get instance field: private System.Int32[] _intStack
+    ::Array<int>* _get__intStack();
+    // Set instance field: private System.Int32[] _intStack
+    void _set__intStack(::Array<int>* value);
+    // Get instance field: private System.Int32 _intDepth
+    int _get__intDepth();
+    // Set instance field: private System.Int32 _intDepth
+    void _set__intDepth(int value);
+    // Get instance field: private System.Text.RegularExpressions.RegexFC[] _fcStack
+    ::Array<System::Text::RegularExpressions::RegexFC*>* _get__fcStack();
+    // Set instance field: private System.Text.RegularExpressions.RegexFC[] _fcStack
+    void _set__fcStack(::Array<System::Text::RegularExpressions::RegexFC*>* value);
+    // Get instance field: private System.Int32 _fcDepth
+    int _get__fcDepth();
+    // Set instance field: private System.Int32 _fcDepth
+    void _set__fcDepth(int value);
+    // Get instance field: private System.Boolean _skipAllChildren
+    bool _get__skipAllChildren();
+    // Set instance field: private System.Boolean _skipAllChildren
+    void _set__skipAllChildren(bool value);
+    // Get instance field: private System.Boolean _skipchild
+    bool _get__skipchild();
+    // Set instance field: private System.Boolean _skipchild
+    void _set__skipchild(bool value);
+    // Get instance field: private System.Boolean _failed
+    bool _get__failed();
+    // Set instance field: private System.Boolean _failed
+    void _set__failed(bool value);
     // static System.Text.RegularExpressions.RegexPrefix FirstChars(System.Text.RegularExpressions.RegexTree t)
     // Offset: 0x1961D0C
     static System::Text::RegularExpressions::RegexPrefix* FirstChars(System::Text::RegularExpressions::RegexTree* t);

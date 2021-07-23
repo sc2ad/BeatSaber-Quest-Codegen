@@ -44,6 +44,10 @@ namespace UnityEngine::Events {
     constexpr operator UnityEngine::Events::UnityAction*() const noexcept {
       return Delegate;
     }
+    // Get instance field: private UnityEngine.Events.UnityAction Delegate
+    UnityEngine::Events::UnityAction* _get_Delegate();
+    // Set instance field: private UnityEngine.Events.UnityAction Delegate
+    void _set_Delegate(UnityEngine::Events::UnityAction* value);
     // private System.Void add_Delegate(UnityEngine.Events.UnityAction value)
     // Offset: 0x1BE6A54
     void add_Delegate(UnityEngine::Events::UnityAction* value);

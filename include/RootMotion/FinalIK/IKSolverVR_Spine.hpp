@@ -396,6 +396,226 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Spine
     Spine(UnityEngine::Transform* headTarget_ = {}, UnityEngine::Transform* pelvisTarget_ = {}, float positionWeight_ = {}, float rotationWeight_ = {}, float pelvisPositionWeight_ = {}, float pelvisRotationWeight_ = {}, UnityEngine::Transform* chestGoal_ = {}, float chestGoalWeight_ = {}, float minHeadHeight_ = {}, float bodyPosStiffness_ = {}, float bodyRotStiffness_ = {}, float neckStiffness_ = {}, float rotateChestByHands_ = {}, float chestClampWeight_ = {}, float headClampWeight_ = {}, float moveBodyBackWhenCrouching_ = {}, float maintainPelvisPosition_ = {}, float maxRootAngle_ = {}, float rootHeadingOffset_ = {}, UnityEngine::Vector3 IKPositionHead_ = {}, UnityEngine::Quaternion IKRotationHead_ = {}, UnityEngine::Vector3 IKPositionPelvis_ = {}, UnityEngine::Quaternion IKRotationPelvis_ = {}, UnityEngine::Vector3 goalPositionChest_ = {}, UnityEngine::Vector3 pelvisPositionOffset_ = {}, UnityEngine::Vector3 chestPositionOffset_ = {}, UnityEngine::Vector3 headPositionOffset_ = {}, UnityEngine::Quaternion pelvisRotationOffset_ = {}, UnityEngine::Quaternion chestRotationOffset_ = {}, UnityEngine::Quaternion headRotationOffset_ = {}, UnityEngine::Vector3 faceDirection_ = {}, UnityEngine::Vector3 locomotionHeadPositionOffset_ = {}, UnityEngine::Vector3 headPosition_ = {}, UnityEngine::Quaternion anchorRotation_ = {}, UnityEngine::Quaternion anchorRelativeToHead_ = {}, UnityEngine::Quaternion headRotation_ = {}, UnityEngine::Quaternion pelvisRotation_ = {}, UnityEngine::Quaternion anchorRelativeToPelvis_ = {}, UnityEngine::Quaternion pelvisRelativeRotation_ = {}, UnityEngine::Quaternion chestRelativeRotation_ = {}, UnityEngine::Vector3 headDeltaPosition_ = {}, UnityEngine::Quaternion pelvisDeltaRotation_ = {}, UnityEngine::Quaternion chestTargetRotation_ = {}, int pelvisIndex_ = {}, int spineIndex_ = {}, int chestIndex_ = {}, int neckIndex_ = {}, int headIndex_ = {}, float length_ = {}, bool hasChest_ = {}, bool hasNeck_ = {}, bool hasLegs_ = {}, float headHeight_ = {}, float sizeMlp_ = {}, UnityEngine::Vector3 chestForward_ = {}) noexcept : headTarget{headTarget_}, pelvisTarget{pelvisTarget_}, positionWeight{positionWeight_}, rotationWeight{rotationWeight_}, pelvisPositionWeight{pelvisPositionWeight_}, pelvisRotationWeight{pelvisRotationWeight_}, chestGoal{chestGoal_}, chestGoalWeight{chestGoalWeight_}, minHeadHeight{minHeadHeight_}, bodyPosStiffness{bodyPosStiffness_}, bodyRotStiffness{bodyRotStiffness_}, neckStiffness{neckStiffness_}, rotateChestByHands{rotateChestByHands_}, chestClampWeight{chestClampWeight_}, headClampWeight{headClampWeight_}, moveBodyBackWhenCrouching{moveBodyBackWhenCrouching_}, maintainPelvisPosition{maintainPelvisPosition_}, maxRootAngle{maxRootAngle_}, rootHeadingOffset{rootHeadingOffset_}, IKPositionHead{IKPositionHead_}, IKRotationHead{IKRotationHead_}, IKPositionPelvis{IKPositionPelvis_}, IKRotationPelvis{IKRotationPelvis_}, goalPositionChest{goalPositionChest_}, pelvisPositionOffset{pelvisPositionOffset_}, chestPositionOffset{chestPositionOffset_}, headPositionOffset{headPositionOffset_}, pelvisRotationOffset{pelvisRotationOffset_}, chestRotationOffset{chestRotationOffset_}, headRotationOffset{headRotationOffset_}, faceDirection{faceDirection_}, locomotionHeadPositionOffset{locomotionHeadPositionOffset_}, headPosition{headPosition_}, anchorRotation{anchorRotation_}, anchorRelativeToHead{anchorRelativeToHead_}, headRotation{headRotation_}, pelvisRotation{pelvisRotation_}, anchorRelativeToPelvis{anchorRelativeToPelvis_}, pelvisRelativeRotation{pelvisRelativeRotation_}, chestRelativeRotation{chestRelativeRotation_}, headDeltaPosition{headDeltaPosition_}, pelvisDeltaRotation{pelvisDeltaRotation_}, chestTargetRotation{chestTargetRotation_}, pelvisIndex{pelvisIndex_}, spineIndex{spineIndex_}, chestIndex{chestIndex_}, neckIndex{neckIndex_}, headIndex{headIndex_}, length{length_}, hasChest{hasChest_}, hasNeck{hasNeck_}, hasLegs{hasLegs_}, headHeight{headHeight_}, sizeMlp{sizeMlp_}, chestForward{chestForward_} {}
+    // Get instance field: public UnityEngine.Transform headTarget
+    UnityEngine::Transform* _get_headTarget();
+    // Set instance field: public UnityEngine.Transform headTarget
+    void _set_headTarget(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform pelvisTarget
+    UnityEngine::Transform* _get_pelvisTarget();
+    // Set instance field: public UnityEngine.Transform pelvisTarget
+    void _set_pelvisTarget(UnityEngine::Transform* value);
+    // Get instance field: public System.Single positionWeight
+    float _get_positionWeight();
+    // Set instance field: public System.Single positionWeight
+    void _set_positionWeight(float value);
+    // Get instance field: public System.Single rotationWeight
+    float _get_rotationWeight();
+    // Set instance field: public System.Single rotationWeight
+    void _set_rotationWeight(float value);
+    // Get instance field: public System.Single pelvisPositionWeight
+    float _get_pelvisPositionWeight();
+    // Set instance field: public System.Single pelvisPositionWeight
+    void _set_pelvisPositionWeight(float value);
+    // Get instance field: public System.Single pelvisRotationWeight
+    float _get_pelvisRotationWeight();
+    // Set instance field: public System.Single pelvisRotationWeight
+    void _set_pelvisRotationWeight(float value);
+    // Get instance field: public UnityEngine.Transform chestGoal
+    UnityEngine::Transform* _get_chestGoal();
+    // Set instance field: public UnityEngine.Transform chestGoal
+    void _set_chestGoal(UnityEngine::Transform* value);
+    // Get instance field: public System.Single chestGoalWeight
+    float _get_chestGoalWeight();
+    // Set instance field: public System.Single chestGoalWeight
+    void _set_chestGoalWeight(float value);
+    // Get instance field: public System.Single minHeadHeight
+    float _get_minHeadHeight();
+    // Set instance field: public System.Single minHeadHeight
+    void _set_minHeadHeight(float value);
+    // Get instance field: public System.Single bodyPosStiffness
+    float _get_bodyPosStiffness();
+    // Set instance field: public System.Single bodyPosStiffness
+    void _set_bodyPosStiffness(float value);
+    // Get instance field: public System.Single bodyRotStiffness
+    float _get_bodyRotStiffness();
+    // Set instance field: public System.Single bodyRotStiffness
+    void _set_bodyRotStiffness(float value);
+    // Get instance field: public System.Single neckStiffness
+    float _get_neckStiffness();
+    // Set instance field: public System.Single neckStiffness
+    void _set_neckStiffness(float value);
+    // Get instance field: public System.Single rotateChestByHands
+    float _get_rotateChestByHands();
+    // Set instance field: public System.Single rotateChestByHands
+    void _set_rotateChestByHands(float value);
+    // Get instance field: public System.Single chestClampWeight
+    float _get_chestClampWeight();
+    // Set instance field: public System.Single chestClampWeight
+    void _set_chestClampWeight(float value);
+    // Get instance field: public System.Single headClampWeight
+    float _get_headClampWeight();
+    // Set instance field: public System.Single headClampWeight
+    void _set_headClampWeight(float value);
+    // Get instance field: public System.Single moveBodyBackWhenCrouching
+    float _get_moveBodyBackWhenCrouching();
+    // Set instance field: public System.Single moveBodyBackWhenCrouching
+    void _set_moveBodyBackWhenCrouching(float value);
+    // Get instance field: public System.Single maintainPelvisPosition
+    float _get_maintainPelvisPosition();
+    // Set instance field: public System.Single maintainPelvisPosition
+    void _set_maintainPelvisPosition(float value);
+    // Get instance field: public System.Single maxRootAngle
+    float _get_maxRootAngle();
+    // Set instance field: public System.Single maxRootAngle
+    void _set_maxRootAngle(float value);
+    // Get instance field: public System.Single rootHeadingOffset
+    float _get_rootHeadingOffset();
+    // Set instance field: public System.Single rootHeadingOffset
+    void _set_rootHeadingOffset(float value);
+    // Get instance field: public UnityEngine.Vector3 IKPositionHead
+    UnityEngine::Vector3 _get_IKPositionHead();
+    // Set instance field: public UnityEngine.Vector3 IKPositionHead
+    void _set_IKPositionHead(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion IKRotationHead
+    UnityEngine::Quaternion _get_IKRotationHead();
+    // Set instance field: public UnityEngine.Quaternion IKRotationHead
+    void _set_IKRotationHead(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Vector3 IKPositionPelvis
+    UnityEngine::Vector3 _get_IKPositionPelvis();
+    // Set instance field: public UnityEngine.Vector3 IKPositionPelvis
+    void _set_IKPositionPelvis(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion IKRotationPelvis
+    UnityEngine::Quaternion _get_IKRotationPelvis();
+    // Set instance field: public UnityEngine.Quaternion IKRotationPelvis
+    void _set_IKRotationPelvis(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Vector3 goalPositionChest
+    UnityEngine::Vector3 _get_goalPositionChest();
+    // Set instance field: public UnityEngine.Vector3 goalPositionChest
+    void _set_goalPositionChest(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 pelvisPositionOffset
+    UnityEngine::Vector3 _get_pelvisPositionOffset();
+    // Set instance field: public UnityEngine.Vector3 pelvisPositionOffset
+    void _set_pelvisPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 chestPositionOffset
+    UnityEngine::Vector3 _get_chestPositionOffset();
+    // Set instance field: public UnityEngine.Vector3 chestPositionOffset
+    void _set_chestPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 headPositionOffset
+    UnityEngine::Vector3 _get_headPositionOffset();
+    // Set instance field: public UnityEngine.Vector3 headPositionOffset
+    void _set_headPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion pelvisRotationOffset
+    UnityEngine::Quaternion _get_pelvisRotationOffset();
+    // Set instance field: public UnityEngine.Quaternion pelvisRotationOffset
+    void _set_pelvisRotationOffset(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Quaternion chestRotationOffset
+    UnityEngine::Quaternion _get_chestRotationOffset();
+    // Set instance field: public UnityEngine.Quaternion chestRotationOffset
+    void _set_chestRotationOffset(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Quaternion headRotationOffset
+    UnityEngine::Quaternion _get_headRotationOffset();
+    // Set instance field: public UnityEngine.Quaternion headRotationOffset
+    void _set_headRotationOffset(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Vector3 faceDirection
+    UnityEngine::Vector3 _get_faceDirection();
+    // Set instance field: public UnityEngine.Vector3 faceDirection
+    void _set_faceDirection(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 locomotionHeadPositionOffset
+    UnityEngine::Vector3 _get_locomotionHeadPositionOffset();
+    // Set instance field: public UnityEngine.Vector3 locomotionHeadPositionOffset
+    void _set_locomotionHeadPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 headPosition
+    UnityEngine::Vector3 _get_headPosition();
+    // Set instance field: public UnityEngine.Vector3 headPosition
+    void _set_headPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion <anchorRotation>k__BackingField
+    UnityEngine::Quaternion _get_$anchorRotation$k__BackingField();
+    // Set instance field: private UnityEngine.Quaternion <anchorRotation>k__BackingField
+    void _set_$anchorRotation$k__BackingField(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion <anchorRelativeToHead>k__BackingField
+    UnityEngine::Quaternion _get_$anchorRelativeToHead$k__BackingField();
+    // Set instance field: private UnityEngine.Quaternion <anchorRelativeToHead>k__BackingField
+    void _set_$anchorRelativeToHead$k__BackingField(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion headRotation
+    UnityEngine::Quaternion _get_headRotation();
+    // Set instance field: private UnityEngine.Quaternion headRotation
+    void _set_headRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion pelvisRotation
+    UnityEngine::Quaternion _get_pelvisRotation();
+    // Set instance field: private UnityEngine.Quaternion pelvisRotation
+    void _set_pelvisRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion anchorRelativeToPelvis
+    UnityEngine::Quaternion _get_anchorRelativeToPelvis();
+    // Set instance field: private UnityEngine.Quaternion anchorRelativeToPelvis
+    void _set_anchorRelativeToPelvis(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion pelvisRelativeRotation
+    UnityEngine::Quaternion _get_pelvisRelativeRotation();
+    // Set instance field: private UnityEngine.Quaternion pelvisRelativeRotation
+    void _set_pelvisRelativeRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion chestRelativeRotation
+    UnityEngine::Quaternion _get_chestRelativeRotation();
+    // Set instance field: private UnityEngine.Quaternion chestRelativeRotation
+    void _set_chestRelativeRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 headDeltaPosition
+    UnityEngine::Vector3 _get_headDeltaPosition();
+    // Set instance field: private UnityEngine.Vector3 headDeltaPosition
+    void _set_headDeltaPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion pelvisDeltaRotation
+    UnityEngine::Quaternion _get_pelvisDeltaRotation();
+    // Set instance field: private UnityEngine.Quaternion pelvisDeltaRotation
+    void _set_pelvisDeltaRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion chestTargetRotation
+    UnityEngine::Quaternion _get_chestTargetRotation();
+    // Set instance field: private UnityEngine.Quaternion chestTargetRotation
+    void _set_chestTargetRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Int32 pelvisIndex
+    int _get_pelvisIndex();
+    // Set instance field: private System.Int32 pelvisIndex
+    void _set_pelvisIndex(int value);
+    // Get instance field: private System.Int32 spineIndex
+    int _get_spineIndex();
+    // Set instance field: private System.Int32 spineIndex
+    void _set_spineIndex(int value);
+    // Get instance field: private System.Int32 chestIndex
+    int _get_chestIndex();
+    // Set instance field: private System.Int32 chestIndex
+    void _set_chestIndex(int value);
+    // Get instance field: private System.Int32 neckIndex
+    int _get_neckIndex();
+    // Set instance field: private System.Int32 neckIndex
+    void _set_neckIndex(int value);
+    // Get instance field: private System.Int32 headIndex
+    int _get_headIndex();
+    // Set instance field: private System.Int32 headIndex
+    void _set_headIndex(int value);
+    // Get instance field: private System.Single length
+    float _get_length();
+    // Set instance field: private System.Single length
+    void _set_length(float value);
+    // Get instance field: private System.Boolean hasChest
+    bool _get_hasChest();
+    // Set instance field: private System.Boolean hasChest
+    void _set_hasChest(bool value);
+    // Get instance field: private System.Boolean hasNeck
+    bool _get_hasNeck();
+    // Set instance field: private System.Boolean hasNeck
+    void _set_hasNeck(bool value);
+    // Get instance field: private System.Boolean hasLegs
+    bool _get_hasLegs();
+    // Set instance field: private System.Boolean hasLegs
+    void _set_hasLegs(bool value);
+    // Get instance field: private System.Single headHeight
+    float _get_headHeight();
+    // Set instance field: private System.Single headHeight
+    void _set_headHeight(float value);
+    // Get instance field: private System.Single sizeMlp
+    float _get_sizeMlp();
+    // Set instance field: private System.Single sizeMlp
+    void _set_sizeMlp(float value);
+    // Get instance field: private UnityEngine.Vector3 chestForward
+    UnityEngine::Vector3 _get_chestForward();
+    // Set instance field: private UnityEngine.Vector3 chestForward
+    void _set_chestForward(UnityEngine::Vector3 value);
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_pelvis()
     // Offset: 0x1E2CDE8
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_pelvis();

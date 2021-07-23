@@ -69,6 +69,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*) == 0x8);
     // Creating value type constructor for type: PlayerHeadAndObstacleInteraction
     PlayerHeadAndObstacleInteraction(GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, int lastFrameNumCheck_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles_ = {}) noexcept : playerTransforms{playerTransforms_}, beatmapObjectManager{beatmapObjectManager_}, lastFrameNumCheck{lastFrameNumCheck_}, intersectingObstacles{intersectingObstacles_} {}
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private System.Int32 _lastFrameNumCheck
+    int _get__lastFrameNumCheck();
+    // Set instance field: private System.Int32 _lastFrameNumCheck
+    void _set__lastFrameNumCheck(int value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<ObstacleController> _intersectingObstacles
+    System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* _get__intersectingObstacles();
+    // Set instance field: private readonly System.Collections.Generic.List`1<ObstacleController> _intersectingObstacles
+    void _set__intersectingObstacles(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
     // Offset: 0x11048AC
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();

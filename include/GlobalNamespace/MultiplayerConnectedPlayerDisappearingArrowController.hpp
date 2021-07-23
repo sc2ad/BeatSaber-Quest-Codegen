@@ -33,6 +33,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*) == 0x8);
     // Creating value type constructor for type: MultiplayerConnectedPlayerDisappearingArrowController
     MultiplayerConnectedPlayerDisappearingArrowController(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* gameNoteController_ = {}) noexcept : gameNoteController{gameNoteController_} {}
+    // Get instance field: private MultiplayerConnectedPlayerGameNoteController _gameNoteController
+    GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* _get__gameNoteController();
+    // Set instance field: private MultiplayerConnectedPlayerGameNoteController _gameNoteController
+    void _set__gameNoteController(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* value);
     // protected MultiplayerConnectedPlayerGameNoteController get_gameNoteController()
     // Offset: 0x11A1210
     GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* get_gameNoteController();

@@ -63,6 +63,14 @@ namespace UnityEngine::Playables {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.IntPtr m_Handle
+    System::IntPtr _get_m_Handle();
+    // Set instance field: System.IntPtr m_Handle
+    void _set_m_Handle(System::IntPtr value);
+    // Get instance field: System.UInt32 m_Version
+    uint _get_m_Version();
+    // Set instance field: System.UInt32 m_Version
+    void _set_m_Version(uint value);
     // public UnityEngine.Playables.Playable GetRootPlayable(System.Int32 index)
     // Offset: 0xEF94B4
     UnityEngine::Playables::Playable GetRootPlayable(int index);

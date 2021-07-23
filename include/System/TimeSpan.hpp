@@ -88,6 +88,10 @@ namespace System {
     static bool _get__legacyMode();
     // Set static field: static private System.Boolean _legacyMode
     static void _set__legacyMode(bool value);
+    // Get instance field: System.Int64 _ticks
+    int64_t _get__ticks();
+    // Set instance field: System.Int64 _ticks
+    void _set__ticks(int64_t value);
     // public System.Int64 get_Ticks()
     // Offset: 0xEE9FB0
     int64_t get_Ticks();

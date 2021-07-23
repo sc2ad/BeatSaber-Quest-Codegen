@@ -141,6 +141,46 @@ namespace NUnit::Framework::Internal {
     static double _get_MIN_DURATION();
     // Set static field: static System.Double MIN_DURATION
     static void _set_MIN_DURATION(double value);
+    // Get instance field: private System.Text.StringBuilder _output
+    System::Text::StringBuilder* _get__output();
+    // Set instance field: private System.Text.StringBuilder _output
+    void _set__output(System::Text::StringBuilder* value);
+    // Get instance field: private System.Double _duration
+    double _get__duration();
+    // Set instance field: private System.Double _duration
+    void _set__duration(double value);
+    // Get instance field: protected System.Int32 InternalAssertCount
+    int _get_InternalAssertCount();
+    // Set instance field: protected System.Int32 InternalAssertCount
+    void _set_InternalAssertCount(int value);
+    // Get instance field: private NUnit.Framework.Interfaces.ResultState _resultState
+    NUnit::Framework::Interfaces::ResultState* _get__resultState();
+    // Set instance field: private NUnit.Framework.Interfaces.ResultState _resultState
+    void _set__resultState(NUnit::Framework::Interfaces::ResultState* value);
+    // Get instance field: private System.String _message
+    ::Il2CppString* _get__message();
+    // Set instance field: private System.String _message
+    void _set__message(::Il2CppString* value);
+    // Get instance field: private System.String _stackTrace
+    ::Il2CppString* _get__stackTrace();
+    // Set instance field: private System.String _stackTrace
+    void _set__stackTrace(::Il2CppString* value);
+    // Get instance field: private NUnit.Framework.Interfaces.ITest <Test>k__BackingField
+    NUnit::Framework::Interfaces::ITest* _get_$Test$k__BackingField();
+    // Set instance field: private NUnit.Framework.Interfaces.ITest <Test>k__BackingField
+    void _set_$Test$k__BackingField(NUnit::Framework::Interfaces::ITest* value);
+    // Get instance field: private System.DateTime <StartTime>k__BackingField
+    System::DateTime _get_$StartTime$k__BackingField();
+    // Set instance field: private System.DateTime <StartTime>k__BackingField
+    void _set_$StartTime$k__BackingField(System::DateTime value);
+    // Get instance field: private System.DateTime <EndTime>k__BackingField
+    System::DateTime _get_$EndTime$k__BackingField();
+    // Set instance field: private System.DateTime <EndTime>k__BackingField
+    void _set_$EndTime$k__BackingField(System::DateTime value);
+    // Get instance field: private System.IO.TextWriter <OutWriter>k__BackingField
+    System::IO::TextWriter* _get_$OutWriter$k__BackingField();
+    // Set instance field: private System.IO.TextWriter <OutWriter>k__BackingField
+    void _set_$OutWriter$k__BackingField(System::IO::TextWriter* value);
     // public NUnit.Framework.Interfaces.ITest get_Test()
     // Offset: 0x2242718
     NUnit::Framework::Interfaces::ITest* get_Test();

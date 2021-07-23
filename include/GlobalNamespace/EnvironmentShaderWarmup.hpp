@@ -86,6 +86,22 @@ namespace GlobalNamespace {
     static int _get_kNumberOfRows();
     // Set static field: static private System.Int32 kNumberOfRows
     static void _set_kNumberOfRows(int value);
+    // Get instance field: private UnityEngine.Material[] _materials
+    ::Array<UnityEngine::Material*>* _get__materials();
+    // Set instance field: private UnityEngine.Material[] _materials
+    void _set__materials(::Array<UnityEngine::Material*>* value);
+    // Get instance field: private readonly MainCamera _mainCamera
+    GlobalNamespace::MainCamera* _get__mainCamera();
+    // Set instance field: private readonly MainCamera _mainCamera
+    void _set__mainCamera(GlobalNamespace::MainCamera* value);
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private UnityEngine.Transform _parentingTransform
+    UnityEngine::Transform* _get__parentingTransform();
+    // Set instance field: private UnityEngine.Transform _parentingTransform
+    void _set__parentingTransform(UnityEngine::Transform* value);
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x1022398
     System::Collections::IEnumerator* Start();

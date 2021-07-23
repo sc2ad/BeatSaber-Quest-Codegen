@@ -40,6 +40,14 @@ namespace HMUI {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: DataItem
     DataItem(UnityEngine::Sprite* icon_ = {}, ::Il2CppString* hintText_ = {}) noexcept : icon{icon_}, hintText{hintText_} {}
+    // Get instance field: private UnityEngine.Sprite <icon>k__BackingField
+    UnityEngine::Sprite* _get_$icon$k__BackingField();
+    // Set instance field: private UnityEngine.Sprite <icon>k__BackingField
+    void _set_$icon$k__BackingField(UnityEngine::Sprite* value);
+    // Get instance field: private System.String <hintText>k__BackingField
+    ::Il2CppString* _get_$hintText$k__BackingField();
+    // Set instance field: private System.String <hintText>k__BackingField
+    void _set_$hintText$k__BackingField(::Il2CppString* value);
     // public UnityEngine.Sprite get_icon()
     // Offset: 0x1311C90
     UnityEngine::Sprite* get_icon();

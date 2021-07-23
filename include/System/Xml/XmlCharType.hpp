@@ -44,6 +44,10 @@ namespace System::Xml {
     static ::Array<uint8_t>* _get_s_CharProperties();
     // Set static field: static private System.Byte[] s_CharProperties
     static void _set_s_CharProperties(::Array<uint8_t>* value);
+    // Get instance field: System.Byte[] charProperties
+    ::Array<uint8_t>* _get_charProperties();
+    // Set instance field: System.Byte[] charProperties
+    void _set_charProperties(::Array<uint8_t>* value);
     // static private System.Object get_StaticLock()
     // Offset: 0x19083B4
     static ::Il2CppObject* get_StaticLock();

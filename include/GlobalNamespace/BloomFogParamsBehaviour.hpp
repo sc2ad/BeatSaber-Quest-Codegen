@@ -77,6 +77,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BloomFogParamsBehaviour
     BloomFogParamsBehaviour(GlobalNamespace::BloomFogEnvironmentParams* bloomFogParams_ = {}, float blend_ = {}, GlobalNamespace::BloomFogSO* editorBloomFogSO_ = {}, bool initialized_ = {}, GlobalNamespace::BloomFogEnvironmentParams* originalBloomFogParams_ = {}, bool finished_ = {}) noexcept : bloomFogParams{bloomFogParams_}, blend{blend_}, editorBloomFogSO{editorBloomFogSO_}, initialized{initialized_}, originalBloomFogParams{originalBloomFogParams_}, finished{finished_} {}
+    // Get instance field: private BloomFogEnvironmentParams _bloomFogParams
+    GlobalNamespace::BloomFogEnvironmentParams* _get__bloomFogParams();
+    // Set instance field: private BloomFogEnvironmentParams _bloomFogParams
+    void _set__bloomFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
+    // Get instance field: public System.Single _blend
+    float _get__blend();
+    // Set instance field: public System.Single _blend
+    void _set__blend(float value);
+    // Get instance field: public BloomFogSO _editorBloomFogSO
+    GlobalNamespace::BloomFogSO* _get__editorBloomFogSO();
+    // Set instance field: public BloomFogSO _editorBloomFogSO
+    void _set__editorBloomFogSO(GlobalNamespace::BloomFogSO* value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
+    // Get instance field: private BloomFogEnvironmentParams _originalBloomFogParams
+    GlobalNamespace::BloomFogEnvironmentParams* _get__originalBloomFogParams();
+    // Set instance field: private BloomFogEnvironmentParams _originalBloomFogParams
+    void _set__originalBloomFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
+    // Get instance field: private System.Boolean _finished
+    bool _get__finished();
+    // Set instance field: private System.Boolean _finished
+    void _set__finished(bool value);
     // public System.Void .ctor()
     // Offset: 0x109CF20
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

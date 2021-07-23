@@ -41,6 +41,10 @@ namespace System::Security::Cryptography {
     constexpr operator System::Security::Cryptography::SHA1Internal*() const noexcept {
       return sha;
     }
+    // Get instance field: private System.Security.Cryptography.SHA1Internal sha
+    System::Security::Cryptography::SHA1Internal* _get_sha();
+    // Set instance field: private System.Security.Cryptography.SHA1Internal sha
+    void _set_sha(System::Security::Cryptography::SHA1Internal* value);
     // public System.Void .ctor()
     // Offset: 0x1AFEED0
     // Implemented from: System.Security.Cryptography.SHA1

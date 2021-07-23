@@ -193,6 +193,74 @@ namespace System::Net {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private Mono.Security.Interface.MonoTlsProvider tlsProvider
+    Mono::Security::Interface::MonoTlsProvider* _get_tlsProvider();
+    // Set instance field: private Mono.Security.Interface.MonoTlsProvider tlsProvider
+    void _set_tlsProvider(Mono::Security::Interface::MonoTlsProvider* value);
+    // Get instance field: private Mono.Security.Interface.MonoTlsSettings tlsSettings
+    Mono::Security::Interface::MonoTlsSettings* _get_tlsSettings();
+    // Set instance field: private Mono.Security.Interface.MonoTlsSettings tlsSettings
+    void _set_tlsSettings(Mono::Security::Interface::MonoTlsSettings* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate certificate
+    System::Security::Cryptography::X509Certificates::X509Certificate* _get_certificate();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate certificate
+    void _set_certificate(System::Security::Cryptography::X509Certificates::X509Certificate* value);
+    // Get instance field: private System.Net.AuthenticationSchemes auth_schemes
+    System::Net::AuthenticationSchemes _get_auth_schemes();
+    // Set instance field: private System.Net.AuthenticationSchemes auth_schemes
+    void _set_auth_schemes(System::Net::AuthenticationSchemes value);
+    // Get instance field: private System.Net.HttpListenerPrefixCollection prefixes
+    System::Net::HttpListenerPrefixCollection* _get_prefixes();
+    // Set instance field: private System.Net.HttpListenerPrefixCollection prefixes
+    void _set_prefixes(System::Net::HttpListenerPrefixCollection* value);
+    // Get instance field: private System.Net.AuthenticationSchemeSelector auth_selector
+    System::Net::AuthenticationSchemeSelector* _get_auth_selector();
+    // Set instance field: private System.Net.AuthenticationSchemeSelector auth_selector
+    void _set_auth_selector(System::Net::AuthenticationSchemeSelector* value);
+    // Get instance field: private System.String realm
+    ::Il2CppString* _get_realm();
+    // Set instance field: private System.String realm
+    void _set_realm(::Il2CppString* value);
+    // Get instance field: private System.Boolean ignore_write_exceptions
+    bool _get_ignore_write_exceptions();
+    // Set instance field: private System.Boolean ignore_write_exceptions
+    void _set_ignore_write_exceptions(bool value);
+    // Get instance field: private System.Boolean listening
+    bool _get_listening();
+    // Set instance field: private System.Boolean listening
+    void _set_listening(bool value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private readonly System.Object _internalLock
+    ::Il2CppObject* _get__internalLock();
+    // Set instance field: private readonly System.Object _internalLock
+    void _set__internalLock(::Il2CppObject* value);
+    // Get instance field: private System.Collections.Hashtable registry
+    System::Collections::Hashtable* _get_registry();
+    // Set instance field: private System.Collections.Hashtable registry
+    void _set_registry(System::Collections::Hashtable* value);
+    // Get instance field: private System.Collections.ArrayList ctx_queue
+    System::Collections::ArrayList* _get_ctx_queue();
+    // Set instance field: private System.Collections.ArrayList ctx_queue
+    void _set_ctx_queue(System::Collections::ArrayList* value);
+    // Get instance field: private System.Collections.ArrayList wait_queue
+    System::Collections::ArrayList* _get_wait_queue();
+    // Set instance field: private System.Collections.ArrayList wait_queue
+    void _set_wait_queue(System::Collections::ArrayList* value);
+    // Get instance field: private System.Collections.Hashtable connections
+    System::Collections::Hashtable* _get_connections();
+    // Set instance field: private System.Collections.Hashtable connections
+    void _set_connections(System::Collections::Hashtable* value);
+    // Get instance field: private System.Net.ServiceNameStore defaultServiceNames
+    System::Net::ServiceNameStore* _get_defaultServiceNames();
+    // Set instance field: private System.Net.ServiceNameStore defaultServiceNames
+    void _set_defaultServiceNames(System::Net::ServiceNameStore* value);
+    // Get instance field: private System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy extendedProtectionPolicy
+    System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* _get_extendedProtectionPolicy();
+    // Set instance field: private System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy extendedProtectionPolicy
+    void _set_extendedProtectionPolicy(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* value);
     // public System.Net.AuthenticationSchemes get_AuthenticationSchemes()
     // Offset: 0x163299C
     System::Net::AuthenticationSchemes get_AuthenticationSchemes();

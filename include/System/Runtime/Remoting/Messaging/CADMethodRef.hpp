@@ -68,6 +68,26 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: CADMethodRef
     CADMethodRef(bool ctor_ = {}, ::Il2CppString* typeName_ = {}, ::Il2CppString* methodName_ = {}, ::Array<::Il2CppString*>* param_names_ = {}, ::Array<::Il2CppString*>* generic_arg_names_ = {}) noexcept : ctor{ctor_}, typeName{typeName_}, methodName{methodName_}, param_names{param_names_}, generic_arg_names{generic_arg_names_} {}
+    // Get instance field: private System.Boolean ctor
+    bool _get_ctor();
+    // Set instance field: private System.Boolean ctor
+    void _set_ctor(bool value);
+    // Get instance field: private System.String typeName
+    ::Il2CppString* _get_typeName();
+    // Set instance field: private System.String typeName
+    void _set_typeName(::Il2CppString* value);
+    // Get instance field: private System.String methodName
+    ::Il2CppString* _get_methodName();
+    // Set instance field: private System.String methodName
+    void _set_methodName(::Il2CppString* value);
+    // Get instance field: private System.String[] param_names
+    ::Array<::Il2CppString*>* _get_param_names();
+    // Set instance field: private System.String[] param_names
+    void _set_param_names(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.String[] generic_arg_names
+    ::Array<::Il2CppString*>* _get_generic_arg_names();
+    // Set instance field: private System.String[] generic_arg_names
+    void _set_generic_arg_names(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
     // Offset: 0x19F39E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

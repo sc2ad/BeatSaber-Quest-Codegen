@@ -63,6 +63,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::DynamicBoneColliderBase::Direction _get_Z();
       // Set static field: static public DynamicBoneColliderBase/Direction Z
       static void _set_Z(GlobalNamespace::DynamicBoneColliderBase::Direction value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // DynamicBoneColliderBase/Direction
     #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Direction), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_DirectionSizeCheck;
@@ -101,6 +105,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::DynamicBoneColliderBase::Bound _get_Inside();
       // Set static field: static public DynamicBoneColliderBase/Bound Inside
       static void _set_Inside(GlobalNamespace::DynamicBoneColliderBase::Bound value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // DynamicBoneColliderBase/Bound
     #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Bound), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_BoundSizeCheck;
@@ -127,6 +135,18 @@ namespace GlobalNamespace {
     DynamicBoneColliderBase(GlobalNamespace::DynamicBoneColliderBase::Direction m_Direction_ = {}, UnityEngine::Vector3 m_Center_ = {}, GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound_ = {}) noexcept : m_Direction{m_Direction_}, m_Center{m_Center_}, m_Bound{m_Bound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public DynamicBoneColliderBase/Direction m_Direction
+    GlobalNamespace::DynamicBoneColliderBase::Direction _get_m_Direction();
+    // Set instance field: public DynamicBoneColliderBase/Direction m_Direction
+    void _set_m_Direction(GlobalNamespace::DynamicBoneColliderBase::Direction value);
+    // Get instance field: public UnityEngine.Vector3 m_Center
+    UnityEngine::Vector3 _get_m_Center();
+    // Set instance field: public UnityEngine.Vector3 m_Center
+    void _set_m_Center(UnityEngine::Vector3 value);
+    // Get instance field: public DynamicBoneColliderBase/Bound m_Bound
+    GlobalNamespace::DynamicBoneColliderBase::Bound _get_m_Bound();
+    // Set instance field: public DynamicBoneColliderBase/Bound m_Bound
+    void _set_m_Bound(GlobalNamespace::DynamicBoneColliderBase::Bound value);
     // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
     // Offset: 0x23A54E0
     void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);

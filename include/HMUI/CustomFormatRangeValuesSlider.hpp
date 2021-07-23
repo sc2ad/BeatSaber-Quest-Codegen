@@ -26,6 +26,10 @@ namespace HMUI {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CustomFormatRangeValuesSlider
     CustomFormatRangeValuesSlider(::Il2CppString* formatString_ = {}) noexcept : formatString{formatString_} {}
+    // Get instance field: private System.String _formatString
+    ::Il2CppString* _get__formatString();
+    // Set instance field: private System.String _formatString
+    void _set__formatString(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1307990
     // Implemented from: HMUI.RangeValuesTextSlider

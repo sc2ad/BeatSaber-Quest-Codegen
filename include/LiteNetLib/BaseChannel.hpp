@@ -52,6 +52,18 @@ namespace LiteNetLib {
     static_assert(sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*) == 0x8);
     // Creating value type constructor for type: BaseChannel
     BaseChannel(LiteNetLib::BaseChannel* Next_ = {}, LiteNetLib::NetPeer* Peer_ = {}, System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue_ = {}) noexcept : Next{Next_}, Peer{Peer_}, OutgoingQueue{OutgoingQueue_} {}
+    // Get instance field: public LiteNetLib.BaseChannel Next
+    LiteNetLib::BaseChannel* _get_Next();
+    // Set instance field: public LiteNetLib.BaseChannel Next
+    void _set_Next(LiteNetLib::BaseChannel* value);
+    // Get instance field: protected readonly LiteNetLib.NetPeer Peer
+    LiteNetLib::NetPeer* _get_Peer();
+    // Set instance field: protected readonly LiteNetLib.NetPeer Peer
+    void _set_Peer(LiteNetLib::NetPeer* value);
+    // Get instance field: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
+    System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* _get_OutgoingQueue();
+    // Set instance field: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
+    void _set_OutgoingQueue(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* value);
     // public System.Int32 get_PacketsInQueue()
     // Offset: 0x1BAB500
     int get_PacketsInQueue();

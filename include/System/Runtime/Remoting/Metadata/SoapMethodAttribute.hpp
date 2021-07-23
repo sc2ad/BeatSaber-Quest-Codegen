@@ -61,6 +61,30 @@ namespace System::Runtime::Remoting::Metadata {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: SoapMethodAttribute
     SoapMethodAttribute(::Il2CppString* responseElement_ = {}, ::Il2CppString* responseNamespace_ = {}, ::Il2CppString* returnElement_ = {}, ::Il2CppString* soapAction_ = {}, bool useAttribute_ = {}, ::Il2CppString* _namespace_ = {}) noexcept : responseElement{responseElement_}, responseNamespace{responseNamespace_}, returnElement{returnElement_}, soapAction{soapAction_}, useAttribute{useAttribute_}, _namespace{_namespace_} {}
+    // Get instance field: private System.String _responseElement
+    ::Il2CppString* _get__responseElement();
+    // Set instance field: private System.String _responseElement
+    void _set__responseElement(::Il2CppString* value);
+    // Get instance field: private System.String _responseNamespace
+    ::Il2CppString* _get__responseNamespace();
+    // Set instance field: private System.String _responseNamespace
+    void _set__responseNamespace(::Il2CppString* value);
+    // Get instance field: private System.String _returnElement
+    ::Il2CppString* _get__returnElement();
+    // Set instance field: private System.String _returnElement
+    void _set__returnElement(::Il2CppString* value);
+    // Get instance field: private System.String _soapAction
+    ::Il2CppString* _get__soapAction();
+    // Set instance field: private System.String _soapAction
+    void _set__soapAction(::Il2CppString* value);
+    // Get instance field: private System.Boolean _useAttribute
+    bool _get__useAttribute();
+    // Set instance field: private System.Boolean _useAttribute
+    void _set__useAttribute(bool value);
+    // Get instance field: private System.String _namespace
+    ::Il2CppString* _get__namespace();
+    // Set instance field: private System.String _namespace
+    void _set__namespace(::Il2CppString* value);
     // public override System.Boolean get_UseAttribute()
     // Offset: 0x1A02654
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute

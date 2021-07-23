@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     Preset(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect_ = {}) noexcept : bloomPrePassEffect{bloomPrePassEffect_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Get instance field: public BloomPrePassEffectSO bloomPrePassEffect
+    GlobalNamespace::BloomPrePassEffectSO* _get_bloomPrePassEffect();
+    // Set instance field: public BloomPrePassEffectSO bloomPrePassEffect
+    void _set_bloomPrePassEffect(GlobalNamespace::BloomPrePassEffectSO* value);
     // public System.Void .ctor()
     // Offset: 0x109D134
     // Implemented from: NamedPreset

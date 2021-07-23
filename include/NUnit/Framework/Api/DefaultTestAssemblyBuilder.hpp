@@ -75,6 +75,10 @@ namespace NUnit::Framework::Api {
     static NUnit::Framework::Internal::Logger* _get_log();
     // Set static field: static private NUnit.Framework.Internal.Logger log
     static void _set_log(NUnit::Framework::Internal::Logger* value);
+    // Get instance field: private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
+    NUnit::Framework::Interfaces::ISuiteBuilder* _get__defaultSuiteBuilder();
+    // Set instance field: private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
+    void _set__defaultSuiteBuilder(NUnit::Framework::Interfaces::ISuiteBuilder* value);
     // static private System.Void .cctor()
     // Offset: 0x171371C
     static void _cctor();

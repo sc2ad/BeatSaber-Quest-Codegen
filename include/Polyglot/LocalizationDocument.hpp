@@ -60,6 +60,26 @@ namespace Polyglot {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LocalizationDocument
     LocalizationDocument(::Il2CppString* docsId_ = {}, ::Il2CppString* sheetId_ = {}, Polyglot::GoogleDriveDownloadFormat format_ = {}, UnityEngine::TextAsset* textAsset_ = {}, bool downloadOnStart_ = {}) noexcept : docsId{docsId_}, sheetId{sheetId_}, format{format_}, textAsset{textAsset_}, downloadOnStart{downloadOnStart_} {}
+    // Get instance field: private System.String docsId
+    ::Il2CppString* _get_docsId();
+    // Set instance field: private System.String docsId
+    void _set_docsId(::Il2CppString* value);
+    // Get instance field: private System.String sheetId
+    ::Il2CppString* _get_sheetId();
+    // Set instance field: private System.String sheetId
+    void _set_sheetId(::Il2CppString* value);
+    // Get instance field: private Polyglot.GoogleDriveDownloadFormat format
+    Polyglot::GoogleDriveDownloadFormat _get_format();
+    // Set instance field: private Polyglot.GoogleDriveDownloadFormat format
+    void _set_format(Polyglot::GoogleDriveDownloadFormat value);
+    // Get instance field: private UnityEngine.TextAsset textAsset
+    UnityEngine::TextAsset* _get_textAsset();
+    // Set instance field: private UnityEngine.TextAsset textAsset
+    void _set_textAsset(UnityEngine::TextAsset* value);
+    // Get instance field: private System.Boolean downloadOnStart
+    bool _get_downloadOnStart();
+    // Set instance field: private System.Boolean downloadOnStart
+    void _set_downloadOnStart(bool value);
     // public UnityEngine.TextAsset get_TextAsset()
     // Offset: 0x232F78C
     UnityEngine::TextAsset* get_TextAsset();

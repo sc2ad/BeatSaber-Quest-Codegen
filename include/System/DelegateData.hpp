@@ -44,6 +44,18 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DelegateData
     DelegateData(System::Type* target_type_ = {}, ::Il2CppString* method_name_ = {}, bool curried_first_arg_ = {}) noexcept : target_type{target_type_}, method_name{method_name_}, curried_first_arg{curried_first_arg_} {}
+    // Get instance field: public System.Type target_type
+    System::Type* _get_target_type();
+    // Set instance field: public System.Type target_type
+    void _set_target_type(System::Type* value);
+    // Get instance field: public System.String method_name
+    ::Il2CppString* _get_method_name();
+    // Set instance field: public System.String method_name
+    void _set_method_name(::Il2CppString* value);
+    // Get instance field: public System.Boolean curried_first_arg
+    bool _get_curried_first_arg();
+    // Set instance field: public System.Boolean curried_first_arg
+    void _set_curried_first_arg(bool value);
     // public System.Void .ctor()
     // Offset: 0x1B20A84
     // Implemented from: System.Object

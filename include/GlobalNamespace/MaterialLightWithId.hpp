@@ -111,6 +111,50 @@ namespace GlobalNamespace {
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
+    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer* _get__meshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
+    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private System.Boolean _alphaIntoColor
+    bool _get__alphaIntoColor();
+    // Set instance field: private System.Boolean _alphaIntoColor
+    void _set__alphaIntoColor(bool value);
+    // Get instance field: private System.Boolean _setColorOnly
+    bool _get__setColorOnly();
+    // Set instance field: private System.Boolean _setColorOnly
+    void _set__setColorOnly(bool value);
+    // Get instance field: private System.String _colorProperty
+    ::Il2CppString* _get__colorProperty();
+    // Set instance field: private System.String _colorProperty
+    void _set__colorProperty(::Il2CppString* value);
+    // Get instance field: private System.Single _alphaIntensity
+    float _get__alphaIntensity();
+    // Set instance field: private System.Single _alphaIntensity
+    void _set__alphaIntensity(float value);
+    // Get instance field: private System.Boolean _multiplyColorWithAlpha
+    bool _get__multiplyColorWithAlpha();
+    // Set instance field: private System.Boolean _multiplyColorWithAlpha
+    void _set__multiplyColorWithAlpha(bool value);
+    // Get instance field: private System.Boolean _multiplyColor
+    bool _get__multiplyColor();
+    // Set instance field: private System.Boolean _multiplyColor
+    void _set__multiplyColor(bool value);
+    // Get instance field: private System.Single _colorMultiplier
+    float _get__colorMultiplier();
+    // Set instance field: private System.Single _colorMultiplier
+    void _set__colorMultiplier(float value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
+    // Get instance field: private System.Single _alpha
+    float _get__alpha();
+    // Set instance field: private System.Single _alpha
+    void _set__alpha(float value);
+    // Get instance field: private System.Int32 _propertyId
+    int _get__propertyId();
+    // Set instance field: private System.Int32 _propertyId
+    void _set__propertyId(int value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1DF55D4
     UnityEngine::Color get_color();

@@ -135,6 +135,66 @@ namespace TMPro {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public TMPro.TMP_SpriteAnimator <>4__this
+    TMPro::TMP_SpriteAnimator* _get_$$4__this();
+    // Set instance field: public TMPro.TMP_SpriteAnimator <>4__this
+    void _set_$$4__this(TMPro::TMP_SpriteAnimator* value);
+    // Get instance field: public System.Int32 start
+    int _get_start();
+    // Set instance field: public System.Int32 start
+    void _set_start(int value);
+    // Get instance field: public System.Int32 end
+    int _get_end();
+    // Set instance field: public System.Int32 end
+    void _set_end(int value);
+    // Get instance field: public TMPro.TMP_SpriteAsset spriteAsset
+    TMPro::TMP_SpriteAsset* _get_spriteAsset();
+    // Set instance field: public TMPro.TMP_SpriteAsset spriteAsset
+    void _set_spriteAsset(TMPro::TMP_SpriteAsset* value);
+    // Get instance field: public System.Int32 currentCharacter
+    int _get_currentCharacter();
+    // Set instance field: public System.Int32 currentCharacter
+    void _set_currentCharacter(int value);
+    // Get instance field: public System.Int32 framerate
+    int _get_framerate();
+    // Set instance field: public System.Int32 framerate
+    void _set_framerate(int value);
+    // Get instance field: private System.Int32 <currentFrame>5__2
+    int _get_$currentFrame$5__2();
+    // Set instance field: private System.Int32 <currentFrame>5__2
+    void _set_$currentFrame$5__2(int value);
+    // Get instance field: private TMPro.TMP_CharacterInfo <charInfo>5__3
+    TMPro::TMP_CharacterInfo _get_$charInfo$5__3();
+    // Set instance field: private TMPro.TMP_CharacterInfo <charInfo>5__3
+    void _set_$charInfo$5__3(TMPro::TMP_CharacterInfo value);
+    // Get instance field: private System.Int32 <materialIndex>5__4
+    int _get_$materialIndex$5__4();
+    // Set instance field: private System.Int32 <materialIndex>5__4
+    void _set_$materialIndex$5__4(int value);
+    // Get instance field: private System.Int32 <vertexIndex>5__5
+    int _get_$vertexIndex$5__5();
+    // Set instance field: private System.Int32 <vertexIndex>5__5
+    void _set_$vertexIndex$5__5(int value);
+    // Get instance field: private TMPro.TMP_MeshInfo <meshInfo>5__6
+    TMPro::TMP_MeshInfo _get_$meshInfo$5__6();
+    // Set instance field: private TMPro.TMP_MeshInfo <meshInfo>5__6
+    void _set_$meshInfo$5__6(TMPro::TMP_MeshInfo value);
+    // Get instance field: private System.Single <elapsedTime>5__7
+    float _get_$elapsedTime$5__7();
+    // Set instance field: private System.Single <elapsedTime>5__7
+    void _set_$elapsedTime$5__7(float value);
+    // Get instance field: private System.Single <targetTime>5__8
+    float _get_$targetTime$5__8();
+    // Set instance field: private System.Single <targetTime>5__8
+    void _set_$targetTime$5__8(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1114490
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

@@ -58,6 +58,18 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*>(this);
     }
+    // Get instance field: public readonly System.String hostName
+    ::Il2CppString* _get_hostName();
+    // Set instance field: public readonly System.String hostName
+    void _set_hostName(::Il2CppString* value);
+    // Get instance field: public readonly System.Int32 port
+    int _get_port();
+    // Set instance field: public readonly System.Int32 port
+    void _set_port(int value);
+    // Get instance field: private System.Threading.Tasks.Task`1<System.Net.IPEndPoint> _getEndPointTask
+    System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* _get__getEndPointTask();
+    // Set instance field: private System.Threading.Tasks.Task`1<System.Net.IPEndPoint> _getEndPointTask
+    void _set__getEndPointTask(System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* value);
     // public System.Net.IPEndPoint get_endPoint()
     // Offset: 0x152E904
     System::Net::IPEndPoint* get_endPoint();

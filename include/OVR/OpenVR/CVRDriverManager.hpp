@@ -40,6 +40,10 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVRDriverManager() const noexcept {
       return FnTable;
     }
+    // Get instance field: private OVR.OpenVR.IVRDriverManager FnTable
+    OVR::OpenVR::IVRDriverManager _get_FnTable();
+    // Set instance field: private OVR.OpenVR.IVRDriverManager FnTable
+    void _set_FnTable(OVR::OpenVR::IVRDriverManager value);
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1581ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

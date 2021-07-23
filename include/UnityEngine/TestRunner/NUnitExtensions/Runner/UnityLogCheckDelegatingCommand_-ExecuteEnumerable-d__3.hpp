@@ -108,6 +108,42 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: private NUnit.Framework.Internal.ITestExecutionContext context
+    NUnit::Framework::Internal::ITestExecutionContext* _get_context();
+    // Set instance field: private NUnit.Framework.Internal.ITestExecutionContext context
+    void _set_context(NUnit::Framework::Internal::ITestExecutionContext* value);
+    // Get instance field: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
+    NUnit::Framework::Internal::ITestExecutionContext* _get_$$3__context();
+    // Set instance field: public NUnit.Framework.Internal.ITestExecutionContext <>3__context
+    void _set_$$3__context(NUnit::Framework::Internal::ITestExecutionContext* value);
+    // Get instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand <>4__this
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand* _get_$$4__this();
+    // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand <>4__this
+    void _set_$$4__this(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand* value);
+    // Get instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_1 <>8__1
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1* _get_$$8__1();
+    // Set instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_1 <>8__1
+    void _set_$$8__1(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1* value);
+    // Get instance field: private UnityEngine.TestTools.Logging.LogScope <logScope>5__2
+    UnityEngine::TestTools::Logging::LogScope* _get_$logScope$5__2();
+    // Set instance field: private UnityEngine.TestTools.Logging.LogScope <logScope>5__2
+    void _set_$logScope$5__2(UnityEngine::TestTools::Logging::LogScope* value);
+    // Get instance field: private System.Collections.IEnumerator <>7__wrap2
+    System::Collections::IEnumerator* _get_$$7__wrap2();
+    // Set instance field: private System.Collections.IEnumerator <>7__wrap2
+    void _set_$$7__wrap2(System::Collections::IEnumerator* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1481E4C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

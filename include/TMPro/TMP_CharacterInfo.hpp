@@ -266,6 +266,150 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Char character
+    ::Il2CppChar _get_character();
+    // Set instance field: public System.Char character
+    void _set_character(::Il2CppChar value);
+    // Get instance field: public System.Int32 index
+    int _get_index();
+    // Set instance field: public System.Int32 index
+    void _set_index(int value);
+    // Get instance field: public System.Int32 stringLength
+    int _get_stringLength();
+    // Set instance field: public System.Int32 stringLength
+    void _set_stringLength(int value);
+    // Get instance field: public TMPro.TMP_TextElementType elementType
+    TMPro::TMP_TextElementType _get_elementType();
+    // Set instance field: public TMPro.TMP_TextElementType elementType
+    void _set_elementType(TMPro::TMP_TextElementType value);
+    // Get instance field: public TMPro.TMP_TextElement textElement
+    TMPro::TMP_TextElement* _get_textElement();
+    // Set instance field: public TMPro.TMP_TextElement textElement
+    void _set_textElement(TMPro::TMP_TextElement* value);
+    // Get instance field: public TMPro.TMP_FontAsset fontAsset
+    TMPro::TMP_FontAsset* _get_fontAsset();
+    // Set instance field: public TMPro.TMP_FontAsset fontAsset
+    void _set_fontAsset(TMPro::TMP_FontAsset* value);
+    // Get instance field: public TMPro.TMP_SpriteAsset spriteAsset
+    TMPro::TMP_SpriteAsset* _get_spriteAsset();
+    // Set instance field: public TMPro.TMP_SpriteAsset spriteAsset
+    void _set_spriteAsset(TMPro::TMP_SpriteAsset* value);
+    // Get instance field: public System.Int32 spriteIndex
+    int _get_spriteIndex();
+    // Set instance field: public System.Int32 spriteIndex
+    void _set_spriteIndex(int value);
+    // Get instance field: public UnityEngine.Material material
+    UnityEngine::Material* _get_material();
+    // Set instance field: public UnityEngine.Material material
+    void _set_material(UnityEngine::Material* value);
+    // Get instance field: public System.Int32 materialReferenceIndex
+    int _get_materialReferenceIndex();
+    // Set instance field: public System.Int32 materialReferenceIndex
+    void _set_materialReferenceIndex(int value);
+    // Get instance field: public System.Boolean isUsingAlternateTypeface
+    bool _get_isUsingAlternateTypeface();
+    // Set instance field: public System.Boolean isUsingAlternateTypeface
+    void _set_isUsingAlternateTypeface(bool value);
+    // Get instance field: public System.Single pointSize
+    float _get_pointSize();
+    // Set instance field: public System.Single pointSize
+    void _set_pointSize(float value);
+    // Get instance field: public System.Int32 lineNumber
+    int _get_lineNumber();
+    // Set instance field: public System.Int32 lineNumber
+    void _set_lineNumber(int value);
+    // Get instance field: public System.Int32 pageNumber
+    int _get_pageNumber();
+    // Set instance field: public System.Int32 pageNumber
+    void _set_pageNumber(int value);
+    // Get instance field: public System.Int32 vertexIndex
+    int _get_vertexIndex();
+    // Set instance field: public System.Int32 vertexIndex
+    void _set_vertexIndex(int value);
+    // Get instance field: public TMPro.TMP_Vertex vertex_BL
+    TMPro::TMP_Vertex _get_vertex_BL();
+    // Set instance field: public TMPro.TMP_Vertex vertex_BL
+    void _set_vertex_BL(TMPro::TMP_Vertex value);
+    // Get instance field: public TMPro.TMP_Vertex vertex_TL
+    TMPro::TMP_Vertex _get_vertex_TL();
+    // Set instance field: public TMPro.TMP_Vertex vertex_TL
+    void _set_vertex_TL(TMPro::TMP_Vertex value);
+    // Get instance field: public TMPro.TMP_Vertex vertex_TR
+    TMPro::TMP_Vertex _get_vertex_TR();
+    // Set instance field: public TMPro.TMP_Vertex vertex_TR
+    void _set_vertex_TR(TMPro::TMP_Vertex value);
+    // Get instance field: public TMPro.TMP_Vertex vertex_BR
+    TMPro::TMP_Vertex _get_vertex_BR();
+    // Set instance field: public TMPro.TMP_Vertex vertex_BR
+    void _set_vertex_BR(TMPro::TMP_Vertex value);
+    // Get instance field: public UnityEngine.Vector3 topLeft
+    UnityEngine::Vector3 _get_topLeft();
+    // Set instance field: public UnityEngine.Vector3 topLeft
+    void _set_topLeft(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 bottomLeft
+    UnityEngine::Vector3 _get_bottomLeft();
+    // Set instance field: public UnityEngine.Vector3 bottomLeft
+    void _set_bottomLeft(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 topRight
+    UnityEngine::Vector3 _get_topRight();
+    // Set instance field: public UnityEngine.Vector3 topRight
+    void _set_topRight(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 bottomRight
+    UnityEngine::Vector3 _get_bottomRight();
+    // Set instance field: public UnityEngine.Vector3 bottomRight
+    void _set_bottomRight(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single origin
+    float _get_origin();
+    // Set instance field: public System.Single origin
+    void _set_origin(float value);
+    // Get instance field: public System.Single ascender
+    float _get_ascender();
+    // Set instance field: public System.Single ascender
+    void _set_ascender(float value);
+    // Get instance field: public System.Single baseLine
+    float _get_baseLine();
+    // Set instance field: public System.Single baseLine
+    void _set_baseLine(float value);
+    // Get instance field: public System.Single descender
+    float _get_descender();
+    // Set instance field: public System.Single descender
+    void _set_descender(float value);
+    // Get instance field: public System.Single xAdvance
+    float _get_xAdvance();
+    // Set instance field: public System.Single xAdvance
+    void _set_xAdvance(float value);
+    // Get instance field: public System.Single aspectRatio
+    float _get_aspectRatio();
+    // Set instance field: public System.Single aspectRatio
+    void _set_aspectRatio(float value);
+    // Get instance field: public System.Single scale
+    float _get_scale();
+    // Set instance field: public System.Single scale
+    void _set_scale(float value);
+    // Get instance field: public UnityEngine.Color32 color
+    UnityEngine::Color32 _get_color();
+    // Set instance field: public UnityEngine.Color32 color
+    void _set_color(UnityEngine::Color32 value);
+    // Get instance field: public UnityEngine.Color32 underlineColor
+    UnityEngine::Color32 _get_underlineColor();
+    // Set instance field: public UnityEngine.Color32 underlineColor
+    void _set_underlineColor(UnityEngine::Color32 value);
+    // Get instance field: public UnityEngine.Color32 strikethroughColor
+    UnityEngine::Color32 _get_strikethroughColor();
+    // Set instance field: public UnityEngine.Color32 strikethroughColor
+    void _set_strikethroughColor(UnityEngine::Color32 value);
+    // Get instance field: public UnityEngine.Color32 highlightColor
+    UnityEngine::Color32 _get_highlightColor();
+    // Set instance field: public UnityEngine.Color32 highlightColor
+    void _set_highlightColor(UnityEngine::Color32 value);
+    // Get instance field: public TMPro.FontStyles style
+    TMPro::FontStyles _get_style();
+    // Set instance field: public TMPro.FontStyles style
+    void _set_style(TMPro::FontStyles value);
+    // Get instance field: public System.Boolean isVisible
+    bool _get_isVisible();
+    // Set instance field: public System.Boolean isVisible
+    void _set_isVisible(bool value);
   }; // TMPro.TMP_CharacterInfo
   #pragma pack(pop)
   static check_size<sizeof(TMP_CharacterInfo), 336 + sizeof(bool)> __TMPro_TMP_CharacterInfoSizeCheck;

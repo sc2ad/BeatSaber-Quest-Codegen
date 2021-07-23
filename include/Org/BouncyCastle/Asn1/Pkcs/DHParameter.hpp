@@ -55,6 +55,18 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
     // Creating value type constructor for type: DHParameter
     DHParameter(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}, Org::BouncyCastle::Asn1::DerInteger* l_ = {}) noexcept : p{p_}, g{g_}, l{l_} {}
+    // Get instance field: Org.BouncyCastle.Asn1.DerInteger p
+    Org::BouncyCastle::Asn1::DerInteger* _get_p();
+    // Set instance field: Org.BouncyCastle.Asn1.DerInteger p
+    void _set_p(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: Org.BouncyCastle.Asn1.DerInteger g
+    Org::BouncyCastle::Asn1::DerInteger* _get_g();
+    // Set instance field: Org.BouncyCastle.Asn1.DerInteger g
+    void _set_g(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: Org.BouncyCastle.Asn1.DerInteger l
+    Org::BouncyCastle::Asn1::DerInteger* _get_l();
+    // Set instance field: Org.BouncyCastle.Asn1.DerInteger l
+    void _set_l(Org::BouncyCastle::Asn1::DerInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_P()
     // Offset: 0x1761ABC
     Org::BouncyCastle::Math::BigInteger* get_P();

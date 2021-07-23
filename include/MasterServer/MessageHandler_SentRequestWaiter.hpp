@@ -50,6 +50,18 @@ namespace MasterServer {
     System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration;
     // Creating value type constructor for type: SentRequestWaiter
     SentRequestWaiter(System::Threading::Tasks::TaskCompletionSource_1<bool>* taskCompletionSource_ = {}, System::Threading::CancellationTokenRegistration disposedCancellationTokenRegistration_ = {}, System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration_ = {}) noexcept : taskCompletionSource{taskCompletionSource_}, disposedCancellationTokenRegistration{disposedCancellationTokenRegistration_}, requestCancellationTokenRegistration{requestCancellationTokenRegistration_} {}
+    // Get instance field: private readonly System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _taskCompletionSource
+    System::Threading::Tasks::TaskCompletionSource_1<bool>* _get__taskCompletionSource();
+    // Set instance field: private readonly System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> _taskCompletionSource
+    void _set__taskCompletionSource(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+    // Get instance field: private readonly System.Threading.CancellationTokenRegistration _disposedCancellationTokenRegistration
+    System::Threading::CancellationTokenRegistration _get__disposedCancellationTokenRegistration();
+    // Set instance field: private readonly System.Threading.CancellationTokenRegistration _disposedCancellationTokenRegistration
+    void _set__disposedCancellationTokenRegistration(System::Threading::CancellationTokenRegistration value);
+    // Get instance field: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
+    System::Threading::CancellationTokenRegistration _get__requestCancellationTokenRegistration();
+    // Set instance field: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
+    void _set__requestCancellationTokenRegistration(System::Threading::CancellationTokenRegistration value);
     // public System.Threading.Tasks.Task get_task()
     // Offset: 0x12D971C
     System::Threading::Tasks::Task* get_task();

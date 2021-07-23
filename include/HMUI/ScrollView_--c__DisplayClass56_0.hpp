@@ -32,6 +32,10 @@ namespace HMUI {
     constexpr operator float() const noexcept {
       return threshold;
     }
+    // Get instance field: public System.Single threshold
+    float _get_threshold();
+    // Set instance field: public System.Single threshold
+    void _set_threshold(float value);
     // System.Boolean <HandleJoystickWasCenteredThisFrame>b__0(System.Single pos)
     // Offset: 0x1299620
     bool $HandleJoystickWasCenteredThisFrame$b__0(float pos);

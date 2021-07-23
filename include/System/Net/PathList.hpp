@@ -46,6 +46,10 @@ namespace System::Net {
     constexpr operator System::Collections::SortedList*() const noexcept {
       return m_list;
     }
+    // Get instance field: private System.Collections.SortedList m_list
+    System::Collections::SortedList* _get_m_list();
+    // Set instance field: private System.Collections.SortedList m_list
+    void _set_m_list(System::Collections::SortedList* value);
     // public System.Int32 get_Count()
     // Offset: 0x1465844
     int get_Count();

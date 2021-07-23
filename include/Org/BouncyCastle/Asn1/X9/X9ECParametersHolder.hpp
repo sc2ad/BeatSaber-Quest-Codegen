@@ -36,6 +36,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     constexpr operator Org::BouncyCastle::Asn1::X9::X9ECParameters*() const noexcept {
       return parameters;
     }
+    // Get instance field: private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
+    Org::BouncyCastle::Asn1::X9::X9ECParameters* _get_parameters();
+    // Set instance field: private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
+    void _set_parameters(Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
     // Offset: 0x19E488C
     Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();

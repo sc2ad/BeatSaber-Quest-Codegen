@@ -68,6 +68,34 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ScalarSplitParameters
     ScalarSplitParameters(Org::BouncyCastle::Math::BigInteger* m_v1A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v1B_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2B_ = {}, Org::BouncyCastle::Math::BigInteger* m_g1_ = {}, Org::BouncyCastle::Math::BigInteger* m_g2_ = {}, int m_bits_ = {}) noexcept : m_v1A{m_v1A_}, m_v1B{m_v1B_}, m_v2A{m_v2A_}, m_v2B{m_v2B_}, m_g1{m_g1_}, m_g2{m_g2_}, m_bits{m_bits_} {}
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
+    Org::BouncyCastle::Math::BigInteger* _get_m_v1A();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
+    void _set_m_v1A(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v1B
+    Org::BouncyCastle::Math::BigInteger* _get_m_v1B();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v1B
+    void _set_m_v1B(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v2A
+    Org::BouncyCastle::Math::BigInteger* _get_m_v2A();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v2A
+    void _set_m_v2A(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v2B
+    Org::BouncyCastle::Math::BigInteger* _get_m_v2B();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_v2B
+    void _set_m_v2B(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_g1
+    Org::BouncyCastle::Math::BigInteger* _get_m_g1();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_g1
+    void _set_m_g1(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_g2
+    Org::BouncyCastle::Math::BigInteger* _get_m_g2();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.BigInteger m_g2
+    void _set_m_g2(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: protected readonly System.Int32 m_bits
+    int _get_m_bits();
+    // Set instance field: protected readonly System.Int32 m_bits
+    void _set_m_bits(int value);
     // public Org.BouncyCastle.Math.BigInteger get_V1A()
     // Offset: 0x20EA74C
     Org::BouncyCastle::Math::BigInteger* get_V1A();

@@ -32,6 +32,10 @@ namespace JetBrains::Annotations {
     constexpr operator ::Il2CppString*() const noexcept {
       return Justification;
     }
+    // Get instance field: private System.String <Justification>k__BackingField
+    ::Il2CppString* _get_$Justification$k__BackingField();
+    // Set instance field: private System.String <Justification>k__BackingField
+    void _set_$Justification$k__BackingField(::Il2CppString* value);
     // public System.String get_Justification()
     // Offset: 0x23B2500
     ::Il2CppString* get_Justification();

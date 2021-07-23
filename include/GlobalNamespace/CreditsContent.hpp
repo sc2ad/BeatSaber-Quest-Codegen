@@ -112,6 +112,54 @@ namespace GlobalNamespace {
     CreditsContent(UnityEngine::GameObject* normalTextPrefab_ = {}, UnityEngine::GameObject* normalLocalizedTextPrefab_ = {}, UnityEngine::GameObject* titleTextPrefab_ = {}, UnityEngine::GameObject* titleLocalizedTextPrefab_ = {}, UnityEngine::GameObject* headerTextPrefab_ = {}, UnityEngine::GameObject* headerLocalizedTextPrefab_ = {}, int columnCount_ = {}, float spaceHeight_ = {}, float titleHeight_ = {}, UnityEngine::Transform* contentRoot_ = {}, UnityEngine::RectTransform* rootRectTransform_ = {}, UnityEngine::TextAsset* creditsContentTextAsset_ = {}) noexcept : normalTextPrefab{normalTextPrefab_}, normalLocalizedTextPrefab{normalLocalizedTextPrefab_}, titleTextPrefab{titleTextPrefab_}, titleLocalizedTextPrefab{titleLocalizedTextPrefab_}, headerTextPrefab{headerTextPrefab_}, headerLocalizedTextPrefab{headerLocalizedTextPrefab_}, columnCount{columnCount_}, spaceHeight{spaceHeight_}, titleHeight{titleHeight_}, contentRoot{contentRoot_}, rootRectTransform{rootRectTransform_}, creditsContentTextAsset{creditsContentTextAsset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.GameObject _normalTextPrefab
+    UnityEngine::GameObject* _get__normalTextPrefab();
+    // Set instance field: private UnityEngine.GameObject _normalTextPrefab
+    void _set__normalTextPrefab(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _normalLocalizedTextPrefab
+    UnityEngine::GameObject* _get__normalLocalizedTextPrefab();
+    // Set instance field: private UnityEngine.GameObject _normalLocalizedTextPrefab
+    void _set__normalLocalizedTextPrefab(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _titleTextPrefab
+    UnityEngine::GameObject* _get__titleTextPrefab();
+    // Set instance field: private UnityEngine.GameObject _titleTextPrefab
+    void _set__titleTextPrefab(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _titleLocalizedTextPrefab
+    UnityEngine::GameObject* _get__titleLocalizedTextPrefab();
+    // Set instance field: private UnityEngine.GameObject _titleLocalizedTextPrefab
+    void _set__titleLocalizedTextPrefab(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _headerTextPrefab
+    UnityEngine::GameObject* _get__headerTextPrefab();
+    // Set instance field: private UnityEngine.GameObject _headerTextPrefab
+    void _set__headerTextPrefab(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _headerLocalizedTextPrefab
+    UnityEngine::GameObject* _get__headerLocalizedTextPrefab();
+    // Set instance field: private UnityEngine.GameObject _headerLocalizedTextPrefab
+    void _set__headerLocalizedTextPrefab(UnityEngine::GameObject* value);
+    // Get instance field: private System.Int32 _columnCount
+    int _get__columnCount();
+    // Set instance field: private System.Int32 _columnCount
+    void _set__columnCount(int value);
+    // Get instance field: private System.Single _spaceHeight
+    float _get__spaceHeight();
+    // Set instance field: private System.Single _spaceHeight
+    void _set__spaceHeight(float value);
+    // Get instance field: private System.Single _titleHeight
+    float _get__titleHeight();
+    // Set instance field: private System.Single _titleHeight
+    void _set__titleHeight(float value);
+    // Get instance field: private UnityEngine.Transform _contentRoot
+    UnityEngine::Transform* _get__contentRoot();
+    // Set instance field: private UnityEngine.Transform _contentRoot
+    void _set__contentRoot(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.RectTransform _rootRectTransform
+    UnityEngine::RectTransform* _get__rootRectTransform();
+    // Set instance field: private UnityEngine.RectTransform _rootRectTransform
+    void _set__rootRectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.TextAsset _creditsContentTextAsset
+    UnityEngine::TextAsset* _get__creditsContentTextAsset();
+    // Set instance field: private UnityEngine.TextAsset _creditsContentTextAsset
+    void _set__creditsContentTextAsset(UnityEngine::TextAsset* value);
     // public UnityEngine.GameObject get_normalTextPrefab()
     // Offset: 0x1082A64
     UnityEngine::GameObject* get_normalTextPrefab();

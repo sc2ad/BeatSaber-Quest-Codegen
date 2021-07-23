@@ -39,6 +39,18 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ButtonSpriteSwapToggle
     ButtonSpriteSwapToggle(bool resetToggleOnEnable_ = {}, bool ignoreHighlight_ = {}, bool isToggled_ = {}) noexcept : resetToggleOnEnable{resetToggleOnEnable_}, ignoreHighlight{ignoreHighlight_}, isToggled{isToggled_} {}
+    // Get instance field: private System.Boolean _resetToggleOnEnable
+    bool _get__resetToggleOnEnable();
+    // Set instance field: private System.Boolean _resetToggleOnEnable
+    void _set__resetToggleOnEnable(bool value);
+    // Get instance field: private System.Boolean _ignoreHighlight
+    bool _get__ignoreHighlight();
+    // Set instance field: private System.Boolean _ignoreHighlight
+    void _set__ignoreHighlight(bool value);
+    // Get instance field: private System.Boolean _isToggled
+    bool _get__isToggled();
+    // Set instance field: private System.Boolean _isToggled
+    void _set__isToggled(bool value);
     // public System.Void .ctor()
     // Offset: 0x1303E48
     // Implemented from: HMUI.ButtonSpriteSwap

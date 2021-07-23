@@ -45,6 +45,22 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RaycastHit
     RaycastHit(float distance_ = {}, UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, int face_ = {}) noexcept : distance{distance_}, point{point_}, normal{normal_}, face{face_} {}
+    // Get instance field: public System.Single distance
+    float _get_distance();
+    // Set instance field: public System.Single distance
+    void _set_distance(float value);
+    // Get instance field: public UnityEngine.Vector3 point
+    UnityEngine::Vector3 _get_point();
+    // Set instance field: public UnityEngine.Vector3 point
+    void _set_point(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 normal
+    UnityEngine::Vector3 _get_normal();
+    // Set instance field: public UnityEngine.Vector3 normal
+    void _set_normal(UnityEngine::Vector3 value);
+    // Get instance field: public System.Int32 face
+    int _get_face();
+    // Set instance field: public System.Int32 face
+    void _set_face(int value);
     // public System.Void .ctor(System.Single distance, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, System.Int32 face)
     // Offset: 0x14B8E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

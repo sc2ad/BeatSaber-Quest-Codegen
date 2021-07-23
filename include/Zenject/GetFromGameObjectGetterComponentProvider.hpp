@@ -72,6 +72,18 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
+    // Get instance field: private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
+    System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* _get__gameObjectGetter();
+    // Set instance field: private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
+    void _set__gameObjectGetter(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* value);
+    // Get instance field: private readonly System.Type _componentType
+    System::Type* _get__componentType();
+    // Set instance field: private readonly System.Type _componentType
+    void _set__componentType(System::Type* value);
+    // Get instance field: private readonly System.Boolean _matchSingle
+    bool _get__matchSingle();
+    // Set instance field: private readonly System.Boolean _matchSingle
+    void _set__matchSingle(bool value);
     // public System.Boolean get_IsCached()
     // Offset: 0x1623FF4
     bool get_IsCached();

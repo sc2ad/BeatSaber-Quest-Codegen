@@ -57,6 +57,18 @@ namespace GlobalNamespace {
     ExternalCamerasManager(GlobalNamespace::OculusMRCManager* oculusMRCManager_ = {}, UnityEngine::Camera* mrcBackgroundCameraPrefab_ = {}, UnityEngine::Camera* mrcForegroundCameraPrefab_ = {}) noexcept : oculusMRCManager{oculusMRCManager_}, mrcBackgroundCameraPrefab{mrcBackgroundCameraPrefab_}, mrcForegroundCameraPrefab{mrcForegroundCameraPrefab_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private OculusMRCManager _oculusMRCManager
+    GlobalNamespace::OculusMRCManager* _get__oculusMRCManager();
+    // Set instance field: private OculusMRCManager _oculusMRCManager
+    void _set__oculusMRCManager(GlobalNamespace::OculusMRCManager* value);
+    // Get instance field: private UnityEngine.Camera _mrcBackgroundCameraPrefab
+    UnityEngine::Camera* _get__mrcBackgroundCameraPrefab();
+    // Set instance field: private UnityEngine.Camera _mrcBackgroundCameraPrefab
+    void _set__mrcBackgroundCameraPrefab(UnityEngine::Camera* value);
+    // Get instance field: private UnityEngine.Camera _mrcForegroundCameraPrefab
+    UnityEngine::Camera* _get__mrcForegroundCameraPrefab();
+    // Set instance field: private UnityEngine.Camera _mrcForegroundCameraPrefab
+    void _set__mrcForegroundCameraPrefab(UnityEngine::Camera* value);
     // private System.Void Init(ExternalCamerasManager/InitData initData)
     // Offset: 0x233DF1C
     void Init(GlobalNamespace::ExternalCamerasManager::InitData* initData);

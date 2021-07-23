@@ -56,6 +56,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: Map
     Map(UnityEngine::Transform* bone_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : bone{bone_}, target{target_}, defaultLocalPosition{defaultLocalPosition_}, defaultLocalRotation{defaultLocalRotation_} {}
+    // Get instance field: public UnityEngine.Transform bone
+    UnityEngine::Transform* _get_bone();
+    // Set instance field: public UnityEngine.Transform bone
+    void _set_bone(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform target
+    UnityEngine::Transform* _get_target();
+    // Set instance field: public UnityEngine.Transform target
+    void _set_target(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Vector3 defaultLocalPosition
+    UnityEngine::Vector3 _get_defaultLocalPosition();
+    // Set instance field: private UnityEngine.Vector3 defaultLocalPosition
+    void _set_defaultLocalPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion defaultLocalRotation
+    UnityEngine::Quaternion _get_defaultLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion defaultLocalRotation
+    void _set_defaultLocalRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
     // Offset: 0x1C895D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

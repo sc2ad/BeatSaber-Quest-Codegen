@@ -153,6 +153,10 @@ namespace RootMotion::FinalIK {
         static RootMotion::FinalIK::InteractionObject::WeightCurve::Type _get_BendGoalWeight();
         // Set static field: static public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type BendGoalWeight
         static void _set_BendGoalWeight(RootMotion::FinalIK::InteractionObject::WeightCurve::Type value);
+        // Get instance field: public System.Int32 value__
+        int _get_value__();
+        // Set instance field: public System.Int32 value__
+        void _set_value__(int value);
       }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type
       #pragma pack(pop)
       static check_size<sizeof(InteractionObject::WeightCurve::Type), 0 + sizeof(int)> __RootMotion_FinalIK_InteractionObject_WeightCurve_TypeSizeCheck;
@@ -175,6 +179,14 @@ namespace RootMotion::FinalIK {
       static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
       // Creating value type constructor for type: WeightCurve
       WeightCurve(RootMotion::FinalIK::InteractionObject::WeightCurve::Type type_ = {}, UnityEngine::AnimationCurve* curve_ = {}) noexcept : type{type_}, curve{curve_} {}
+      // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type type
+      RootMotion::FinalIK::InteractionObject::WeightCurve::Type _get_type();
+      // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type type
+      void _set_type(RootMotion::FinalIK::InteractionObject::WeightCurve::Type value);
+      // Get instance field: public UnityEngine.AnimationCurve curve
+      UnityEngine::AnimationCurve* _get_curve();
+      // Set instance field: public UnityEngine.AnimationCurve curve
+      void _set_curve(UnityEngine::AnimationCurve* value);
       // public System.Single GetValue(System.Single timer)
       // Offset: 0x1E3605C
       float GetValue(float timer);
@@ -254,6 +266,42 @@ namespace RootMotion::FinalIK {
     InteractionObject(UnityEngine::Transform* otherLookAtTarget_ = {}, UnityEngine::Transform* otherTargetsRoot_ = {}, UnityEngine::Transform* positionOffsetSpace_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::WeightCurve*>* weightCurves_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::Multiplier*>* multipliers_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::InteractionEvent*>* events_ = {}, float length_ = {}, RootMotion::FinalIK::InteractionSystem* lastUsedInteractionSystem_ = {}, ::Array<RootMotion::FinalIK::InteractionTarget*>* targets_ = {}) noexcept : otherLookAtTarget{otherLookAtTarget_}, otherTargetsRoot{otherTargetsRoot_}, positionOffsetSpace{positionOffsetSpace_}, weightCurves{weightCurves_}, multipliers{multipliers_}, events{events_}, length{length_}, lastUsedInteractionSystem{lastUsedInteractionSystem_}, targets{targets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Transform otherLookAtTarget
+    UnityEngine::Transform* _get_otherLookAtTarget();
+    // Set instance field: public UnityEngine.Transform otherLookAtTarget
+    void _set_otherLookAtTarget(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform otherTargetsRoot
+    UnityEngine::Transform* _get_otherTargetsRoot();
+    // Set instance field: public UnityEngine.Transform otherTargetsRoot
+    void _set_otherTargetsRoot(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform positionOffsetSpace
+    UnityEngine::Transform* _get_positionOffsetSpace();
+    // Set instance field: public UnityEngine.Transform positionOffsetSpace
+    void _set_positionOffsetSpace(UnityEngine::Transform* value);
+    // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve[] weightCurves
+    ::Array<RootMotion::FinalIK::InteractionObject::WeightCurve*>* _get_weightCurves();
+    // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve[] weightCurves
+    void _set_weightCurves(::Array<RootMotion::FinalIK::InteractionObject::WeightCurve*>* value);
+    // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Multiplier[] multipliers
+    ::Array<RootMotion::FinalIK::InteractionObject::Multiplier*>* _get_multipliers();
+    // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Multiplier[] multipliers
+    void _set_multipliers(::Array<RootMotion::FinalIK::InteractionObject::Multiplier*>* value);
+    // Get instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent[] events
+    ::Array<RootMotion::FinalIK::InteractionObject::InteractionEvent*>* _get_events();
+    // Set instance field: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent[] events
+    void _set_events(::Array<RootMotion::FinalIK::InteractionObject::InteractionEvent*>* value);
+    // Get instance field: private System.Single <length>k__BackingField
+    float _get_$length$k__BackingField();
+    // Set instance field: private System.Single <length>k__BackingField
+    void _set_$length$k__BackingField(float value);
+    // Get instance field: private RootMotion.FinalIK.InteractionSystem <lastUsedInteractionSystem>k__BackingField
+    RootMotion::FinalIK::InteractionSystem* _get_$lastUsedInteractionSystem$k__BackingField();
+    // Set instance field: private RootMotion.FinalIK.InteractionSystem <lastUsedInteractionSystem>k__BackingField
+    void _set_$lastUsedInteractionSystem$k__BackingField(RootMotion::FinalIK::InteractionSystem* value);
+    // Get instance field: private RootMotion.FinalIK.InteractionTarget[] targets
+    ::Array<RootMotion::FinalIK::InteractionTarget*>* _get_targets();
+    // Set instance field: private RootMotion.FinalIK.InteractionTarget[] targets
+    void _set_targets(::Array<RootMotion::FinalIK::InteractionTarget*>* value);
     // public System.Single get_length()
     // Offset: 0x1E35B2C
     float get_length();

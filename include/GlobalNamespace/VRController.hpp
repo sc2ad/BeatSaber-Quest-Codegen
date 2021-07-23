@@ -79,6 +79,30 @@ namespace GlobalNamespace {
     VRController(UnityEngine::XR::XRNode node_ = {}, int nodeIdx_ = {}, GlobalNamespace::VRControllerTransformOffset* transformOffset_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, GlobalNamespace::VRControllersInputManager* vrControllersInputManager_ = {}, UnityEngine::Vector3 lastTrackedPosition_ = {}) noexcept : node{node_}, nodeIdx{nodeIdx_}, transformOffset{transformOffset_}, vrPlatformHelper{vrPlatformHelper_}, vrControllersInputManager{vrControllersInputManager_}, lastTrackedPosition{lastTrackedPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.XR.XRNode _node
+    UnityEngine::XR::XRNode _get__node();
+    // Set instance field: private UnityEngine.XR.XRNode _node
+    void _set__node(UnityEngine::XR::XRNode value);
+    // Get instance field: private System.Int32 _nodeIdx
+    int _get__nodeIdx();
+    // Set instance field: private System.Int32 _nodeIdx
+    void _set__nodeIdx(int value);
+    // Get instance field: private VRControllerTransformOffset _transformOffset
+    GlobalNamespace::VRControllerTransformOffset* _get__transformOffset();
+    // Set instance field: private VRControllerTransformOffset _transformOffset
+    void _set__transformOffset(GlobalNamespace::VRControllerTransformOffset* value);
+    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
+    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field: private readonly VRControllersInputManager _vrControllersInputManager
+    GlobalNamespace::VRControllersInputManager* _get__vrControllersInputManager();
+    // Set instance field: private readonly VRControllersInputManager _vrControllersInputManager
+    void _set__vrControllersInputManager(GlobalNamespace::VRControllersInputManager* value);
+    // Get instance field: private UnityEngine.Vector3 _lastTrackedPosition
+    UnityEngine::Vector3 _get__lastTrackedPosition();
+    // Set instance field: private UnityEngine.Vector3 _lastTrackedPosition
+    void _set__lastTrackedPosition(UnityEngine::Vector3 value);
     // public UnityEngine.XR.XRNode get_node()
     // Offset: 0x235D2FC
     UnityEngine::XR::XRNode get_node();

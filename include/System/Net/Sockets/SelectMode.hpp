@@ -49,6 +49,10 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SelectMode _get_SelectError();
     // Set static field: static public System.Net.Sockets.SelectMode SelectError
     static void _set_SelectError(System::Net::Sockets::SelectMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Sockets.SelectMode
   #pragma pack(pop)
   static check_size<sizeof(SelectMode), 0 + sizeof(int)> __System_Net_Sockets_SelectModeSizeCheck;

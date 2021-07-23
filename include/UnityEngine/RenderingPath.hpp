@@ -61,6 +61,10 @@ namespace UnityEngine {
     static UnityEngine::RenderingPath _get_DeferredShading();
     // Set static field: static public UnityEngine.RenderingPath DeferredShading
     static void _set_DeferredShading(UnityEngine::RenderingPath value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.RenderingPath
   #pragma pack(pop)
   static check_size<sizeof(RenderingPath), 0 + sizeof(int)> __UnityEngine_RenderingPathSizeCheck;

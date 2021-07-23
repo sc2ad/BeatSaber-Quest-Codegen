@@ -95,6 +95,46 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ChildConstraint
     ChildConstraint(float pushElasticity_ = {}, float pullElasticity_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, float nominalDistance_ = {}, bool isRigid_ = {}, float crossFade_ = {}, float inverseCrossFade_ = {}, int chain1Index_ = {}, int chain2Index_ = {}) noexcept : pushElasticity{pushElasticity_}, pullElasticity{pullElasticity_}, bone1{bone1_}, bone2{bone2_}, nominalDistance{nominalDistance_}, isRigid{isRigid_}, crossFade{crossFade_}, inverseCrossFade{inverseCrossFade_}, chain1Index{chain1Index_}, chain2Index{chain2Index_} {}
+    // Get instance field: public System.Single pushElasticity
+    float _get_pushElasticity();
+    // Set instance field: public System.Single pushElasticity
+    void _set_pushElasticity(float value);
+    // Get instance field: public System.Single pullElasticity
+    float _get_pullElasticity();
+    // Set instance field: public System.Single pullElasticity
+    void _set_pullElasticity(float value);
+    // Get instance field: private UnityEngine.Transform bone1
+    UnityEngine::Transform* _get_bone1();
+    // Set instance field: private UnityEngine.Transform bone1
+    void _set_bone1(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform bone2
+    UnityEngine::Transform* _get_bone2();
+    // Set instance field: private UnityEngine.Transform bone2
+    void _set_bone2(UnityEngine::Transform* value);
+    // Get instance field: private System.Single <nominalDistance>k__BackingField
+    float _get_$nominalDistance$k__BackingField();
+    // Set instance field: private System.Single <nominalDistance>k__BackingField
+    void _set_$nominalDistance$k__BackingField(float value);
+    // Get instance field: private System.Boolean <isRigid>k__BackingField
+    bool _get_$isRigid$k__BackingField();
+    // Set instance field: private System.Boolean <isRigid>k__BackingField
+    void _set_$isRigid$k__BackingField(bool value);
+    // Get instance field: private System.Single crossFade
+    float _get_crossFade();
+    // Set instance field: private System.Single crossFade
+    void _set_crossFade(float value);
+    // Get instance field: private System.Single inverseCrossFade
+    float _get_inverseCrossFade();
+    // Set instance field: private System.Single inverseCrossFade
+    void _set_inverseCrossFade(float value);
+    // Get instance field: private System.Int32 chain1Index
+    int _get_chain1Index();
+    // Set instance field: private System.Int32 chain1Index
+    void _set_chain1Index(int value);
+    // Get instance field: private System.Int32 chain2Index
+    int _get_chain2Index();
+    // Set instance field: private System.Int32 chain2Index
+    void _set_chain2Index(int value);
     // public System.Single get_nominalDistance()
     // Offset: 0x1CE83FC
     float get_nominalDistance();

@@ -164,6 +164,82 @@ namespace GlobalNamespace {
     ParticleSystemEventEffect(GlobalNamespace::ColorSO* lightColor0_ = {}, GlobalNamespace::ColorSO* lightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor0_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, bool lightOnStart_ = {}, GlobalNamespace::BeatmapEventType colorEvent_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool lightIsOn_ = {}, UnityEngine::Color offColor_ = {}, float highlightValue_ = {}, UnityEngine::Color afterHighlightColor_ = {}, UnityEngine::Color highlightColor_ = {}, float kFadeSpeed_ = {}, float particleSpeedMultiplier_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::Array<UnityEngine::ParticleSystem::Particle>* particles_ = {}, UnityEngine::Color particleColor_ = {}, float particleSpeed_ = {}) noexcept : lightColor0{lightColor0_}, lightColor1{lightColor1_}, highlightColor0{highlightColor0_}, highlightColor1{highlightColor1_}, lightOnStart{lightOnStart_}, colorEvent{colorEvent_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lightIsOn{lightIsOn_}, offColor{offColor_}, highlightValue{highlightValue_}, afterHighlightColor{afterHighlightColor_}, highlightColor{highlightColor_}, kFadeSpeed{kFadeSpeed_}, particleSpeedMultiplier{particleSpeedMultiplier_}, mainModule{mainModule_}, particles{particles_}, particleColor{particleColor_}, particleSpeed{particleSpeed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ColorSO _lightColor0
+    GlobalNamespace::ColorSO* _get__lightColor0();
+    // Set instance field: private ColorSO _lightColor0
+    void _set__lightColor0(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _lightColor1
+    GlobalNamespace::ColorSO* _get__lightColor1();
+    // Set instance field: private ColorSO _lightColor1
+    void _set__lightColor1(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _highlightColor0
+    GlobalNamespace::ColorSO* _get__highlightColor0();
+    // Set instance field: private ColorSO _highlightColor0
+    void _set__highlightColor0(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _highlightColor1
+    GlobalNamespace::ColorSO* _get__highlightColor1();
+    // Set instance field: private ColorSO _highlightColor1
+    void _set__highlightColor1(GlobalNamespace::ColorSO* value);
+    // Get instance field: private System.Boolean _lightOnStart
+    bool _get__lightOnStart();
+    // Set instance field: private System.Boolean _lightOnStart
+    void _set__lightOnStart(bool value);
+    // Get instance field: private BeatmapEventType _colorEvent
+    GlobalNamespace::BeatmapEventType _get__colorEvent();
+    // Set instance field: private BeatmapEventType _colorEvent
+    void _set__colorEvent(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem* _get__particleSystem();
+    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
+    void _set__particleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private System.Boolean _lightIsOn
+    bool _get__lightIsOn();
+    // Set instance field: private System.Boolean _lightIsOn
+    void _set__lightIsOn(bool value);
+    // Get instance field: private UnityEngine.Color _offColor
+    UnityEngine::Color _get__offColor();
+    // Set instance field: private UnityEngine.Color _offColor
+    void _set__offColor(UnityEngine::Color value);
+    // Get instance field: private System.Single _highlightValue
+    float _get__highlightValue();
+    // Set instance field: private System.Single _highlightValue
+    void _set__highlightValue(float value);
+    // Get instance field: private UnityEngine.Color _afterHighlightColor
+    UnityEngine::Color _get__afterHighlightColor();
+    // Set instance field: private UnityEngine.Color _afterHighlightColor
+    void _set__afterHighlightColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _highlightColor
+    UnityEngine::Color _get__highlightColor();
+    // Set instance field: private UnityEngine.Color _highlightColor
+    void _set__highlightColor(UnityEngine::Color value);
+    // Get instance field: private System.Single kFadeSpeed
+    float _get_kFadeSpeed();
+    // Set instance field: private System.Single kFadeSpeed
+    void _set_kFadeSpeed(float value);
+    // Get instance field: private System.Single _particleSpeedMultiplier
+    float _get__particleSpeedMultiplier();
+    // Set instance field: private System.Single _particleSpeedMultiplier
+    void _set__particleSpeedMultiplier(float value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    UnityEngine::ParticleSystem::MainModule _get__mainModule();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    void _set__mainModule(UnityEngine::ParticleSystem::MainModule value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    ::Array<UnityEngine::ParticleSystem::Particle>* _get__particles();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    void _set__particles(::Array<UnityEngine::ParticleSystem::Particle>* value);
+    // Get instance field: private UnityEngine.Color _particleColor
+    UnityEngine::Color _get__particleColor();
+    // Set instance field: private UnityEngine.Color _particleColor
+    void _set__particleColor(UnityEngine::Color value);
+    // Get instance field: private System.Single _particleSpeed
+    float _get__particleSpeed();
+    // Set instance field: private System.Single _particleSpeed
+    void _set__particleSpeed(float value);
     // protected System.Void Start()
     // Offset: 0xFFDFE0
     void Start();

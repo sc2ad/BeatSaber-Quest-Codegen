@@ -144,6 +144,54 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<::Array<uint8_t>*>* _get_shifts1();
     // Set static field: static private readonly System.Byte[][] shifts1
     static void _set_shifts1(::Array<::Array<uint8_t>*>* value);
+    // Get instance field: private System.Int32 BC
+    int _get_BC();
+    // Set instance field: private System.Int32 BC
+    void _set_BC(int value);
+    // Get instance field: private System.Int64 BC_MASK
+    int64_t _get_BC_MASK();
+    // Set instance field: private System.Int64 BC_MASK
+    void _set_BC_MASK(int64_t value);
+    // Get instance field: private System.Int32 ROUNDS
+    int _get_ROUNDS();
+    // Set instance field: private System.Int32 ROUNDS
+    void _set_ROUNDS(int value);
+    // Get instance field: private System.Int32 blockBits
+    int _get_blockBits();
+    // Set instance field: private System.Int32 blockBits
+    void _set_blockBits(int value);
+    // Get instance field: private System.Int64[][] workingKey
+    ::Array<::Array<int64_t>*>* _get_workingKey();
+    // Set instance field: private System.Int64[][] workingKey
+    void _set_workingKey(::Array<::Array<int64_t>*>* value);
+    // Get instance field: private System.Int64 A0
+    int64_t _get_A0();
+    // Set instance field: private System.Int64 A0
+    void _set_A0(int64_t value);
+    // Get instance field: private System.Int64 A1
+    int64_t _get_A1();
+    // Set instance field: private System.Int64 A1
+    void _set_A1(int64_t value);
+    // Get instance field: private System.Int64 A2
+    int64_t _get_A2();
+    // Set instance field: private System.Int64 A2
+    void _set_A2(int64_t value);
+    // Get instance field: private System.Int64 A3
+    int64_t _get_A3();
+    // Set instance field: private System.Int64 A3
+    void _set_A3(int64_t value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
+    // Get instance field: private System.Byte[] shifts0SC
+    ::Array<uint8_t>* _get_shifts0SC();
+    // Set instance field: private System.Byte[] shifts0SC
+    void _set_shifts0SC(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] shifts1SC
+    ::Array<uint8_t>* _get_shifts1SC();
+    // Set instance field: private System.Byte[] shifts1SC
+    void _set_shifts1SC(::Array<uint8_t>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E519DC
     ::Il2CppString* get_AlgorithmName();

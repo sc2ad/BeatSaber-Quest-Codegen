@@ -66,6 +66,18 @@ namespace System::Resources {
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);
     }
+    // Get instance field: protected System.Resources.IResourceReader Reader
+    System::Resources::IResourceReader* _get_Reader();
+    // Set instance field: protected System.Resources.IResourceReader Reader
+    void _set_Reader(System::Resources::IResourceReader* value);
+    // Get instance field: protected System.Collections.Hashtable Table
+    System::Collections::Hashtable* _get_Table();
+    // Set instance field: protected System.Collections.Hashtable Table
+    void _set_Table(System::Collections::Hashtable* value);
+    // Get instance field: private System.Collections.Hashtable _caseInsensitiveTable
+    System::Collections::Hashtable* _get__caseInsensitiveTable();
+    // Set instance field: private System.Collections.Hashtable _caseInsensitiveTable
+    void _set__caseInsensitiveTable(System::Collections::Hashtable* value);
     // System.Void .ctor(System.Boolean junk)
     // Offset: 0x13ECDEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

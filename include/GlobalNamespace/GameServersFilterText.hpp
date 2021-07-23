@@ -66,6 +66,18 @@ namespace GlobalNamespace {
     GameServersFilterText(HMUI::CurvedTextMeshPro* text_ = {}, GlobalNamespace::SongPackMasksModel* songPackMasksModel_ = {}, System::Text::StringBuilder* stringBuilder_ = {}) noexcept : text{text_}, songPackMasksModel{songPackMasksModel_}, stringBuilder{stringBuilder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.CurvedTextMeshPro _text
+    HMUI::CurvedTextMeshPro* _get__text();
+    // Set instance field: private HMUI.CurvedTextMeshPro _text
+    void _set__text(HMUI::CurvedTextMeshPro* value);
+    // Get instance field: private readonly SongPackMasksModel _songPackMasksModel
+    GlobalNamespace::SongPackMasksModel* _get__songPackMasksModel();
+    // Set instance field: private readonly SongPackMasksModel _songPackMasksModel
+    void _set__songPackMasksModel(GlobalNamespace::SongPackMasksModel* value);
+    // Get instance field: private readonly System.Text.StringBuilder _stringBuilder
+    System::Text::StringBuilder* _get__stringBuilder();
+    // Set instance field: private readonly System.Text.StringBuilder _stringBuilder
+    void _set__stringBuilder(System::Text::StringBuilder* value);
     // public System.Void Setup(GameServersFilter filter, System.Boolean visible)
     // Offset: 0x10ADDFC
     void Setup(GlobalNamespace::GameServersFilter* filter, bool visible);

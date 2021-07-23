@@ -142,6 +142,50 @@ namespace GlobalNamespace {
     WaypointsTestMenuViewController(UnityEngine::UI::Button* btsButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, TMPro::TextMeshProUGUI* progressText_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* waypointsTestScenesTransitionSetupData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* levels_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* characteristics_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, bool isCancelled_ = {}, bool waitingForLevelFinish_ = {}) noexcept : btsButton{btsButton_}, cancelButton{cancelButton_}, progressText{progressText_}, waypointsTestScenesTransitionSetupData{waypointsTestScenesTransitionSetupData_}, levels{levels_}, characteristics{characteristics_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_}, buttonBinder{buttonBinder_}, isCancelled{isCancelled_}, waitingForLevelFinish{waitingForLevelFinish_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Button _btsButton
+    UnityEngine::UI::Button* _get__btsButton();
+    // Set instance field: private UnityEngine.UI.Button _btsButton
+    void _set__btsButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _cancelButton
+    UnityEngine::UI::Button* _get__cancelButton();
+    // Set instance field: private UnityEngine.UI.Button _cancelButton
+    void _set__cancelButton(UnityEngine::UI::Button* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _progressText
+    TMPro::TextMeshProUGUI* _get__progressText();
+    // Set instance field: private TMPro.TextMeshProUGUI _progressText
+    void _set__progressText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__waypointsTestScenesTransitionSetupData();
+    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
+    void _set__waypointsTestScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private System.Collections.Generic.List`1<BeatmapLevelSO> _levels
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* _get__levels();
+    // Set instance field: private System.Collections.Generic.List`1<BeatmapLevelSO> _levels
+    void _set__levels(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<BeatmapCharacteristicSO> _characteristics
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* _get__characteristics();
+    // Set instance field: private System.Collections.Generic.List`1<BeatmapCharacteristicSO> _characteristics
+    void _set__characteristics(System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field: private System.Boolean _isCancelled
+    bool _get__isCancelled();
+    // Set instance field: private System.Boolean _isCancelled
+    void _set__isCancelled(bool value);
+    // Get instance field: private System.Boolean _waitingForLevelFinish
+    bool _get__waitingForLevelFinish();
+    // Set instance field: private System.Boolean _waitingForLevelFinish
+    void _set__waitingForLevelFinish(bool value);
     // private System.Void Start()
     // Offset: 0x127F1DC
     void Start();

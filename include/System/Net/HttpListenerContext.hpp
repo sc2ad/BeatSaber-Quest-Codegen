@@ -83,6 +83,34 @@ namespace System::Net {
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
     // Creating value type constructor for type: HttpListenerContext
     HttpListenerContext(System::Net::HttpListenerRequest* request_ = {}, System::Net::HttpListenerResponse* response_ = {}, System::Security::Principal::IPrincipal* user_ = {}, System::Net::HttpConnection* cnc_ = {}, ::Il2CppString* error_ = {}, int err_status_ = {}, System::Net::HttpListener* Listener_ = {}) noexcept : request{request_}, response{response_}, user{user_}, cnc{cnc_}, error{error_}, err_status{err_status_}, Listener{Listener_} {}
+    // Get instance field: private System.Net.HttpListenerRequest request
+    System::Net::HttpListenerRequest* _get_request();
+    // Set instance field: private System.Net.HttpListenerRequest request
+    void _set_request(System::Net::HttpListenerRequest* value);
+    // Get instance field: private System.Net.HttpListenerResponse response
+    System::Net::HttpListenerResponse* _get_response();
+    // Set instance field: private System.Net.HttpListenerResponse response
+    void _set_response(System::Net::HttpListenerResponse* value);
+    // Get instance field: private System.Security.Principal.IPrincipal user
+    System::Security::Principal::IPrincipal* _get_user();
+    // Set instance field: private System.Security.Principal.IPrincipal user
+    void _set_user(System::Security::Principal::IPrincipal* value);
+    // Get instance field: private System.Net.HttpConnection cnc
+    System::Net::HttpConnection* _get_cnc();
+    // Set instance field: private System.Net.HttpConnection cnc
+    void _set_cnc(System::Net::HttpConnection* value);
+    // Get instance field: private System.String error
+    ::Il2CppString* _get_error();
+    // Set instance field: private System.String error
+    void _set_error(::Il2CppString* value);
+    // Get instance field: private System.Int32 err_status
+    int _get_err_status();
+    // Set instance field: private System.Int32 err_status
+    void _set_err_status(int value);
+    // Get instance field: System.Net.HttpListener Listener
+    System::Net::HttpListener* _get_Listener();
+    // Set instance field: System.Net.HttpListener Listener
+    void _set_Listener(System::Net::HttpListener* value);
     // System.Int32 get_ErrorStatus()
     // Offset: 0x1634BBC
     int get_ErrorStatus();

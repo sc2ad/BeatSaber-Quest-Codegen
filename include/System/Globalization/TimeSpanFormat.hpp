@@ -90,6 +90,34 @@ namespace System::Globalization {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: System.String AppCompatLiteral
+      ::Il2CppString* _get_AppCompatLiteral();
+      // Set instance field: System.String AppCompatLiteral
+      void _set_AppCompatLiteral(::Il2CppString* value);
+      // Get instance field: System.Int32 dd
+      int _get_dd();
+      // Set instance field: System.Int32 dd
+      void _set_dd(int value);
+      // Get instance field: System.Int32 hh
+      int _get_hh();
+      // Set instance field: System.Int32 hh
+      void _set_hh(int value);
+      // Get instance field: System.Int32 mm
+      int _get_mm();
+      // Set instance field: System.Int32 mm
+      void _set_mm(int value);
+      // Get instance field: System.Int32 ss
+      int _get_ss();
+      // Set instance field: System.Int32 ss
+      void _set_ss(int value);
+      // Get instance field: System.Int32 ff
+      int _get_ff();
+      // Set instance field: System.Int32 ff
+      void _set_ff(int value);
+      // Get instance field: private System.String[] literals
+      ::Array<::Il2CppString*>* _get_literals();
+      // Set instance field: private System.String[] literals
+      void _set_literals(::Array<::Il2CppString*>* value);
       // System.String get_Start()
       // Offset: 0xEEC9DC
       ::Il2CppString* get_Start();

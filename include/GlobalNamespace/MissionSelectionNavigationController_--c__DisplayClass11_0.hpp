@@ -50,6 +50,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass11_0
     $$c__DisplayClass11_0(GlobalNamespace::MissionSelectionNavigationController* $$4__this_ = {}, System::Action_1<bool>* finishedCallback_ = {}, System::Action* $$9__1_ = {}) noexcept : $$4__this{$$4__this_}, finishedCallback{finishedCallback_}, $$9__1{$$9__1_} {}
+    // Get instance field: public MissionSelectionNavigationController <>4__this
+    GlobalNamespace::MissionSelectionNavigationController* _get_$$4__this();
+    // Set instance field: public MissionSelectionNavigationController <>4__this
+    void _set_$$4__this(GlobalNamespace::MissionSelectionNavigationController* value);
+    // Get instance field: public System.Action`1<System.Boolean> finishedCallback
+    System::Action_1<bool>* _get_finishedCallback();
+    // Set instance field: public System.Action`1<System.Boolean> finishedCallback
+    void _set_finishedCallback(System::Action_1<bool>* value);
+    // Get instance field: public System.Action <>9__1
+    System::Action* _get_$$9__1();
+    // Set instance field: public System.Action <>9__1
+    void _set_$$9__1(System::Action* value);
     // System.Void <PresentMissionClearedIfNeeded>b__0()
     // Offset: 0x1139CF4
     void $PresentMissionClearedIfNeeded$b__0();

@@ -70,6 +70,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InitData
     InitData(::Il2CppString* backButtonText_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, bool showRestartButton_ = {}, bool showLevelBar_ = {}) noexcept : backButtonText{backButtonText_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, showRestartButton{showRestartButton_}, showLevelBar{showLevelBar_} {}
+    // Get instance field: public readonly System.String backButtonText
+    ::Il2CppString* _get_backButtonText();
+    // Set instance field: public readonly System.String backButtonText
+    void _set_backButtonText(::Il2CppString* value);
+    // Get instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    GlobalNamespace::IPreviewBeatmapLevel* _get_previewBeatmapLevel();
+    // Set instance field: public readonly IPreviewBeatmapLevel previewBeatmapLevel
+    void _set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: public readonly BeatmapDifficulty beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get_beatmapDifficulty();
+    // Set instance field: public readonly BeatmapDifficulty beatmapDifficulty
+    void _set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: public readonly BeatmapCharacteristicSO beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get_beatmapCharacteristic();
+    // Set instance field: public readonly BeatmapCharacteristicSO beatmapCharacteristic
+    void _set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: public readonly System.Boolean showRestartButton
+    bool _get_showRestartButton();
+    // Set instance field: public readonly System.Boolean showRestartButton
+    void _set_showRestartButton(bool value);
+    // Get instance field: public readonly System.Boolean showLevelBar
+    bool _get_showLevelBar();
+    // Set instance field: public readonly System.Boolean showLevelBar
+    void _set_showLevelBar(bool value);
     // public System.Void .ctor(System.String backButtonText, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showRestartButton, System.Boolean showLevelBar)
     // Offset: 0x10FBD44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

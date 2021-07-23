@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::AppInit::AppStartType _get_MultiSceneEditor();
     // Set static field: static public AppInit/AppStartType MultiSceneEditor
     static void _set_MultiSceneEditor(GlobalNamespace::AppInit::AppStartType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // AppInit/AppStartType
   #pragma pack(pop)
   static check_size<sizeof(AppInit::AppStartType), 0 + sizeof(int)> __GlobalNamespace_AppInit_AppStartTypeSizeCheck;

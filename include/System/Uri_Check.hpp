@@ -88,6 +88,10 @@ namespace System {
     static System::Uri::Check _get_FoundNonAscii();
     // Set static field: static public System.Uri/System.Check FoundNonAscii
     static void _set_FoundNonAscii(System::Uri::Check value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Uri/System.Check
   #pragma pack(pop)
   static check_size<sizeof(Uri::Check), 0 + sizeof(int)> __System_Uri_CheckSizeCheck;

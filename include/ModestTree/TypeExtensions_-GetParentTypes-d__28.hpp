@@ -85,6 +85,30 @@ namespace ModestTree {
     operator System::Collections::Generic::IEnumerator_1<System::Type*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Type*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Type <>2__current
+    System::Type* _get_$$2__current();
+    // Set instance field: private System.Type <>2__current
+    void _set_$$2__current(System::Type* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: private System.Type type
+    System::Type* _get_type();
+    // Set instance field: private System.Type type
+    void _set_type(System::Type* value);
+    // Get instance field: public System.Type <>3__type
+    System::Type* _get_$$3__type();
+    // Set instance field: public System.Type <>3__type
+    void _set_$$3__type(System::Type* value);
+    // Get instance field: private System.Collections.Generic.IEnumerator`1<System.Type> <>7__wrap1
+    System::Collections::Generic::IEnumerator_1<System::Type*>* _get_$$7__wrap1();
+    // Set instance field: private System.Collections.Generic.IEnumerator`1<System.Type> <>7__wrap1
+    void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<System::Type*>* value);
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
     // Offset: 0x1374EE8
     System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current();

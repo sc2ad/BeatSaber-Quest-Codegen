@@ -61,6 +61,18 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Get instance field: private System.String <levelID>k__BackingField
+    ::Il2CppString* _get_$levelID$k__BackingField();
+    // Set instance field: private System.String <levelID>k__BackingField
+    void _set_$levelID$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <beatmapCharacteristicSerializedName>k__BackingField
+    ::Il2CppString* _get_$beatmapCharacteristicSerializedName$k__BackingField();
+    // Set instance field: private System.String <beatmapCharacteristicSerializedName>k__BackingField
+    void _set_$beatmapCharacteristicSerializedName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private BeatmapDifficulty <difficulty>k__BackingField
+    GlobalNamespace::BeatmapDifficulty _get_$difficulty$k__BackingField();
+    // Set instance field: private BeatmapDifficulty <difficulty>k__BackingField
+    void _set_$difficulty$k__BackingField(GlobalNamespace::BeatmapDifficulty value);
     // public System.String get_levelID()
     // Offset: 0x23235FC
     ::Il2CppString* get_levelID();

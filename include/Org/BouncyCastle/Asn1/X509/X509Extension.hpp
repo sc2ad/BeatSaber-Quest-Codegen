@@ -42,6 +42,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
     // Creating value type constructor for type: X509Extension
     X509Extension(bool critical_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* value_ = {}) noexcept : critical{critical_}, value{value_} {}
+    // Get instance field: System.Boolean critical
+    bool _get_critical();
+    // Set instance field: System.Boolean critical
+    void _set_critical(bool value);
+    // Get instance field: Org.BouncyCastle.Asn1.Asn1OctetString value
+    Org::BouncyCastle::Asn1::Asn1OctetString* _get_value();
+    // Set instance field: Org.BouncyCastle.Asn1.Asn1OctetString value
+    void _set_value(Org::BouncyCastle::Asn1::Asn1OctetString* value);
     // public System.Boolean get_IsCritical()
     // Offset: 0x19DE564
     bool get_IsCritical();

@@ -44,6 +44,14 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
     // Creating value type constructor for type: GUIStyleState
     GUIStyleState(System::IntPtr m_Ptr_ = {}, UnityEngine::GUIStyle* m_SourceStyle_ = {}) noexcept : m_Ptr{m_Ptr_}, m_SourceStyle{m_SourceStyle_} {}
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: private readonly UnityEngine.GUIStyle m_SourceStyle
+    UnityEngine::GUIStyle* _get_m_SourceStyle();
+    // Set instance field: private readonly UnityEngine.GUIStyle m_SourceStyle
+    void _set_m_SourceStyle(UnityEngine::GUIStyle* value);
     // public System.Void set_textColor(UnityEngine.Color value)
     // Offset: 0x1AAB530
     void set_textColor(UnityEngine::Color value);

@@ -75,6 +75,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
     // Creating value type constructor for type: PS4AppInit
     PS4AppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::PS4ActivePublisherSKUSettingsSO* activePublisherSKUSettingsSO_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : mainSystemInit{mainSystemInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, appInitScenesTransitionSetupDataContainer{appInitScenesTransitionSetupDataContainer_}, mainSettingsModel{mainSettingsModel_}, activePublisherSKUSettingsSO{activePublisherSKUSettingsSO_}, gameScenesManager{gameScenesManager_} {}
+    // Get instance field: private MainSystemInit _mainSystemInit
+    GlobalNamespace::MainSystemInit* _get__mainSystemInit();
+    // Set instance field: private MainSystemInit _mainSystemInit
+    void _set__mainSystemInit(GlobalNamespace::MainSystemInit* value);
+    // Get instance field: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit
+    GlobalNamespace::DefaultScenesTransitionsFromInit* _get__defaultScenesTransitionsFromInit();
+    // Set instance field: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit
+    void _set__defaultScenesTransitionsFromInit(GlobalNamespace::DefaultScenesTransitionsFromInit* value);
+    // Get instance field: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
+    GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* _get__appInitScenesTransitionSetupDataContainer();
+    // Set instance field: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
+    void _set__appInitScenesTransitionSetupDataContainer(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private PS4ActivePublisherSKUSettingsSO _activePublisherSKUSettingsSO
+    GlobalNamespace::PS4ActivePublisherSKUSettingsSO* _get__activePublisherSKUSettingsSO();
+    // Set instance field: private PS4ActivePublisherSKUSettingsSO _activePublisherSKUSettingsSO
+    void _set__activePublisherSKUSettingsSO(GlobalNamespace::PS4ActivePublisherSKUSettingsSO* value);
+    // Get instance field: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // public System.Void .ctor()
     // Offset: 0xFFC8B4
     // Implemented from: AppInit

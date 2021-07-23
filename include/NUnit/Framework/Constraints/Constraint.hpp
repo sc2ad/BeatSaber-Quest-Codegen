@@ -68,6 +68,22 @@ namespace NUnit::Framework::Constraints {
     operator NUnit::Framework::Constraints::IConstraint() noexcept {
       return *reinterpret_cast<NUnit::Framework::Constraints::IConstraint*>(this);
     }
+    // Get instance field: private System.Lazy`1<System.String> _displayName
+    System::Lazy_1<::Il2CppString*>* _get__displayName();
+    // Set instance field: private System.Lazy`1<System.String> _displayName
+    void _set__displayName(System::Lazy_1<::Il2CppString*>* value);
+    // Get instance field: private System.String <Description>k__BackingField
+    ::Il2CppString* _get_$Description$k__BackingField();
+    // Set instance field: private System.String <Description>k__BackingField
+    void _set_$Description$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Object[] <Arguments>k__BackingField
+    ::Array<::Il2CppObject*>* _get_$Arguments$k__BackingField();
+    // Set instance field: private System.Object[] <Arguments>k__BackingField
+    void _set_$Arguments$k__BackingField(::Array<::Il2CppObject*>* value);
+    // Get instance field: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
+    NUnit::Framework::Constraints::ConstraintBuilder* _get_$Builder$k__BackingField();
+    // Set instance field: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
+    void _set_$Builder$k__BackingField(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // public System.String get_DisplayName()
     // Offset: 0x17162B8
     ::Il2CppString* get_DisplayName();

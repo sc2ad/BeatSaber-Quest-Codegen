@@ -84,6 +84,46 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Int32* num
+    int* _get_num();
+    // Set instance field: private System.Int32* num
+    void _set_num(int* value);
+    // Get instance field: System.Int32 numCount
+    int _get_numCount();
+    // Set instance field: System.Int32 numCount
+    void _set_numCount(int value);
+    // Get instance field: System.Int32 month
+    int _get_month();
+    // Set instance field: System.Int32 month
+    void _set_month(int value);
+    // Get instance field: System.Int32 year
+    int _get_year();
+    // Set instance field: System.Int32 year
+    void _set_year(int value);
+    // Get instance field: System.Int32 dayOfWeek
+    int _get_dayOfWeek();
+    // Set instance field: System.Int32 dayOfWeek
+    void _set_dayOfWeek(int value);
+    // Get instance field: System.Int32 era
+    int _get_era();
+    // Set instance field: System.Int32 era
+    void _set_era(int value);
+    // Get instance field: System.DateTimeParse/System.TM timeMark
+    System::DateTimeParse::TM _get_timeMark();
+    // Set instance field: System.DateTimeParse/System.TM timeMark
+    void _set_timeMark(System::DateTimeParse::TM value);
+    // Get instance field: System.Double fraction
+    double _get_fraction();
+    // Set instance field: System.Double fraction
+    void _set_fraction(double value);
+    // Get instance field: System.Boolean hasSameDateAndTimeSeparators
+    bool _get_hasSameDateAndTimeSeparators();
+    // Set instance field: System.Boolean hasSameDateAndTimeSeparators
+    void _set_hasSameDateAndTimeSeparators(bool value);
+    // Get instance field: System.Boolean timeZone
+    bool _get_timeZone();
+    // Set instance field: System.Boolean timeZone
+    void _set_timeZone(bool value);
     // System.Void Init(System.Int32* numberBuffer)
     // Offset: 0xEEF158
     void Init(int* numberBuffer);

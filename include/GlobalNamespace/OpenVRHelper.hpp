@@ -123,6 +123,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OpenVRHelper::VRControllerManufacturerName _get_Undefined();
       // Set static field: static public OpenVRHelper/VRControllerManufacturerName Undefined
       static void _set_Undefined(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OpenVRHelper/VRControllerManufacturerName
     #pragma pack(pop)
     static check_size<sizeof(OpenVRHelper::VRControllerManufacturerName), 0 + sizeof(int)> __GlobalNamespace_OpenVRHelper_VRControllerManufacturerNameSizeCheck;
@@ -264,6 +268,74 @@ namespace GlobalNamespace {
     static float _get_kUpdateIntervalSeconds();
     // Set static field: static public System.Single kUpdateIntervalSeconds
     static void _set_kUpdateIntervalSeconds(float value);
+    // Get instance field: private readonly IOpenVRHaptics _openVrHaptics
+    GlobalNamespace::IOpenVRHaptics* _get__openVrHaptics();
+    // Set instance field: private readonly IOpenVRHaptics _openVrHaptics
+    void _set__openVrHaptics(GlobalNamespace::IOpenVRHaptics* value);
+    // Get instance field: private System.Action inputFocusWasCapturedEvent
+    System::Action* _get_inputFocusWasCapturedEvent();
+    // Set instance field: private System.Action inputFocusWasCapturedEvent
+    void _set_inputFocusWasCapturedEvent(System::Action* value);
+    // Get instance field: private System.Action inputFocusWasReleasedEvent
+    System::Action* _get_inputFocusWasReleasedEvent();
+    // Set instance field: private System.Action inputFocusWasReleasedEvent
+    void _set_inputFocusWasReleasedEvent(System::Action* value);
+    // Get instance field: private System.Action vrFocusWasCapturedEvent
+    System::Action* _get_vrFocusWasCapturedEvent();
+    // Set instance field: private System.Action vrFocusWasCapturedEvent
+    void _set_vrFocusWasCapturedEvent(System::Action* value);
+    // Get instance field: private System.Action vrFocusWasReleasedEvent
+    System::Action* _get_vrFocusWasReleasedEvent();
+    // Set instance field: private System.Action vrFocusWasReleasedEvent
+    void _set_vrFocusWasReleasedEvent(System::Action* value);
+    // Get instance field: private System.Action hmdUnmountedEvent
+    System::Action* _get_hmdUnmountedEvent();
+    // Set instance field: private System.Action hmdUnmountedEvent
+    void _set_hmdUnmountedEvent(System::Action* value);
+    // Get instance field: private System.Action hmdMountedEvent
+    System::Action* _get_hmdMountedEvent();
+    // Set instance field: private System.Action hmdMountedEvent
+    void _set_hmdMountedEvent(System::Action* value);
+    // Get instance field: private System.Action joystickWasCenteredThisFrameEvent
+    System::Action* _get_joystickWasCenteredThisFrameEvent();
+    // Set instance field: private System.Action joystickWasCenteredThisFrameEvent
+    void _set_joystickWasCenteredThisFrameEvent(System::Action* value);
+    // Get instance field: private System.Action`1<UnityEngine.Vector2> joystickWasNotCenteredThisFrameEvent
+    System::Action_1<UnityEngine::Vector2>* _get_joystickWasNotCenteredThisFrameEvent();
+    // Set instance field: private System.Action`1<UnityEngine.Vector2> joystickWasNotCenteredThisFrameEvent
+    void _set_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
+    // Get instance field: private readonly Valve.VR.TrackedDevicePose_t[] _gamePoses
+    ::Array<Valve::VR::TrackedDevicePose_t>* _get__gamePoses();
+    // Set instance field: private readonly Valve.VR.TrackedDevicePose_t[] _gamePoses
+    void _set__gamePoses(::Array<Valve::VR::TrackedDevicePose_t>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> _nodeStates
+    System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* _get__nodeStates();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> _nodeStates
+    void _set__nodeStates(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* value);
+    // Get instance field: private readonly Valve.VR.TrackedDevicePose_t[] _poses
+    ::Array<Valve::VR::TrackedDevicePose_t>* _get__poses();
+    // Set instance field: private readonly Valve.VR.TrackedDevicePose_t[] _poses
+    void _set__poses(::Array<Valve::VR::TrackedDevicePose_t>* value);
+    // Get instance field: private System.Boolean _hasInputFocus
+    bool _get__hasInputFocus();
+    // Set instance field: private System.Boolean _hasInputFocus
+    void _set__hasInputFocus(bool value);
+    // Get instance field: private System.Boolean _didGetNodeStatesThisFrame
+    bool _get__didGetNodeStatesThisFrame();
+    // Set instance field: private System.Boolean _didGetNodeStatesThisFrame
+    void _set__didGetNodeStatesThisFrame(bool value);
+    // Get instance field: private UnityEngine.EventSystems.EventSystem _disabledEventSystem
+    UnityEngine::EventSystems::EventSystem* _get__disabledEventSystem();
+    // Set instance field: private UnityEngine.EventSystems.EventSystem _disabledEventSystem
+    void _set__disabledEventSystem(UnityEngine::EventSystems::EventSystem* value);
+    // Get instance field: private OpenVRHelper/VRControllerManufacturerName _vrControllerManufacturerName
+    GlobalNamespace::OpenVRHelper::VRControllerManufacturerName _get__vrControllerManufacturerName();
+    // Set instance field: private OpenVRHelper/VRControllerManufacturerName _vrControllerManufacturerName
+    void _set__vrControllerManufacturerName(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName value);
+    // Get instance field: private System.Boolean _scrollingLastFrame
+    bool _get__scrollingLastFrame();
+    // Set instance field: private System.Boolean _scrollingLastFrame
+    void _set__scrollingLastFrame(bool value);
     // public System.Boolean get_hasInputFocus()
     // Offset: 0x121E4CC
     bool get_hasInputFocus();

@@ -45,6 +45,14 @@ namespace UnityEngine::AI {
     static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
     // Creating value type constructor for type: NavMeshPath
     NavMeshPath(System::IntPtr m_Ptr_ = {}, ::Array<UnityEngine::Vector3>* m_Corners_ = {}) noexcept : m_Ptr{m_Ptr_}, m_Corners{m_Corners_} {}
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: UnityEngine.Vector3[] m_Corners
+    ::Array<UnityEngine::Vector3>* _get_m_Corners();
+    // Set instance field: UnityEngine.Vector3[] m_Corners
+    void _set_m_Corners(::Array<UnityEngine::Vector3>* value);
     // public UnityEngine.Vector3[] get_corners()
     // Offset: 0x23C8B38
     ::Array<UnityEngine::Vector3>* get_corners();

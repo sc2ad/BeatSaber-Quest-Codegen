@@ -48,6 +48,18 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt16 unWidth
+    uint16_t _get_unWidth();
+    // Set instance field: public System.UInt16 unWidth
+    void _set_unWidth(uint16_t value);
+    // Get instance field: public System.UInt16 unHeight
+    uint16_t _get_unHeight();
+    // Set instance field: public System.UInt16 unHeight
+    void _set_unHeight(uint16_t value);
+    // Get instance field: public System.IntPtr rubTextureMapData
+    System::IntPtr _get_rubTextureMapData();
+    // Set instance field: public System.IntPtr rubTextureMapData
+    void _set_rubTextureMapData(System::IntPtr value);
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
     // Offset: 0xED1CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

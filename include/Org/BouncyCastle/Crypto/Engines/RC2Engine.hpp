@@ -48,6 +48,14 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint8_t>* _get_piTable();
     // Set static field: static private readonly System.Byte[] piTable
     static void _set_piTable(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32[] workingKey
+    ::Array<int>* _get_workingKey();
+    // Set instance field: private System.Int32[] workingKey
+    void _set_workingKey(::Array<int>* value);
+    // Get instance field: private System.Boolean encrypting
+    bool _get_encrypting();
+    // Set instance field: private System.Boolean encrypting
+    void _set_encrypting(bool value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E0C618
     ::Il2CppString* get_AlgorithmName();

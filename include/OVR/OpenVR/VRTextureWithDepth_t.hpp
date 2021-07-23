@@ -34,6 +34,10 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::VRTextureDepthInfo_t() const noexcept {
       return depth;
     }
+    // Get instance field: public OVR.OpenVR.VRTextureDepthInfo_t depth
+    OVR::OpenVR::VRTextureDepthInfo_t _get_depth();
+    // Set instance field: public OVR.OpenVR.VRTextureDepthInfo_t depth
+    void _set_depth(OVR::OpenVR::VRTextureDepthInfo_t value);
   }; // OVR.OpenVR.VRTextureWithDepth_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithDepth_t), 0 + sizeof(OVR::OpenVR::VRTextureDepthInfo_t)> __OVR_OpenVR_VRTextureWithDepth_tSizeCheck;

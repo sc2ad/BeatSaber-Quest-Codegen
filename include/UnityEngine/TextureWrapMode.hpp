@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::TextureWrapMode _get_MirrorOnce();
     // Set static field: static public UnityEngine.TextureWrapMode MirrorOnce
     static void _set_MirrorOnce(UnityEngine::TextureWrapMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.TextureWrapMode
   #pragma pack(pop)
   static check_size<sizeof(TextureWrapMode), 0 + sizeof(int)> __UnityEngine_TextureWrapModeSizeCheck;

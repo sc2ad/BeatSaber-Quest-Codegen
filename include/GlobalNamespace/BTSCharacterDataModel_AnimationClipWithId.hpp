@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     // Creating value type constructor for type: AnimationClipWithId
     AnimationClipWithId(int id_ = {}, UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference_ = {}) noexcept : id{id_}, animationClipAssetReference{animationClipAssetReference_} {}
+    // Get instance field: private System.Int32 _id
+    int _get__id();
+    // Set instance field: private System.Int32 _id
+    void _set__id(int value);
+    // Get instance field: private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference
+    UnityEngine::AddressableAssets::AssetReference* _get__animationClipAssetReference();
+    // Set instance field: private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference
+    void _set__animationClipAssetReference(UnityEngine::AddressableAssets::AssetReference* value);
     // public System.Int32 get_id()
     // Offset: 0x10E48D4
     int get_id();

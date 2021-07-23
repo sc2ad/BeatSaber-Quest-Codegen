@@ -118,6 +118,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*) == 0x8);
     // Creating value type constructor for type: SinglePlayerLevelSelectionFlowCoordinator
     SinglePlayerLevelSelectionFlowCoordinator(GlobalNamespace::BeatmapCharacteristicSO* degree360BeatmapCharacteristic_ = {}, GlobalNamespace::PracticeViewController* practiceViewController_ = {}, GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* didFinishEvent_ = {}) noexcept : degree360BeatmapCharacteristic{degree360BeatmapCharacteristic_}, practiceViewController{practiceViewController_}, gameplaySetupViewController{gameplaySetupViewController_}, menuTransitionsHelper{menuTransitionsHelper_}, vrPlatformHelper{vrPlatformHelper_}, appStaticSettings{appStaticSettings_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, didFinishEvent{didFinishEvent_} {}
+    // Get instance field: private BeatmapCharacteristicSO _degree360BeatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__degree360BeatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _degree360BeatmapCharacteristic
+    void _set__degree360BeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private readonly PracticeViewController _practiceViewController
+    GlobalNamespace::PracticeViewController* _get__practiceViewController();
+    // Set instance field: private readonly PracticeViewController _practiceViewController
+    void _set__practiceViewController(GlobalNamespace::PracticeViewController* value);
+    // Get instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
+    GlobalNamespace::GameplaySetupViewController* _get__gameplaySetupViewController();
+    // Set instance field: private readonly GameplaySetupViewController _gameplaySetupViewController
+    void _set__gameplaySetupViewController(GlobalNamespace::GameplaySetupViewController* value);
+    // Get instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    GlobalNamespace::MenuTransitionsHelper* _get__menuTransitionsHelper();
+    // Set instance field: private readonly MenuTransitionsHelper _menuTransitionsHelper
+    void _set__menuTransitionsHelper(GlobalNamespace::MenuTransitionsHelper* value);
+    // Get instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
+    // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
+    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field: private readonly AppStaticSettingsSO _appStaticSettings
+    GlobalNamespace::AppStaticSettingsSO* _get__appStaticSettings();
+    // Set instance field: private readonly AppStaticSettingsSO _appStaticSettings
+    void _set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO* value);
+    // Get instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    GlobalNamespace::SimpleDialogPromptViewController* _get__simpleDialogPromptViewController();
+    // Set instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    void _set__simpleDialogPromptViewController(GlobalNamespace::SimpleDialogPromptViewController* value);
+    // Get instance field: private System.Action`1<SinglePlayerLevelSelectionFlowCoordinator> didFinishEvent
+    System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`1<SinglePlayerLevelSelectionFlowCoordinator> didFinishEvent
+    void _set_didFinishEvent(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
     // protected System.String get_gameMode()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_gameMode();

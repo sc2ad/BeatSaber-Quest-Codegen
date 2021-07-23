@@ -150,6 +150,50 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INoteControllerNoteDidDissolveEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerNoteDidDissolveEvent*>(this);
     }
+    // Get instance field: private System.Action`1<NoteController> noteWasSpawnedEvent
+    System::Action_1<GlobalNamespace::NoteController*>* _get_noteWasSpawnedEvent();
+    // Set instance field: private System.Action`1<NoteController> noteWasSpawnedEvent
+    void _set_noteWasSpawnedEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
+    // Get instance field: private System.Action`1<NoteController> noteWasDespawnedEvent
+    System::Action_1<GlobalNamespace::NoteController*>* _get_noteWasDespawnedEvent();
+    // Set instance field: private System.Action`1<NoteController> noteWasDespawnedEvent
+    void _set_noteWasDespawnedEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
+    // Get instance field: private System.Action`1<NoteController> noteWasMissedEvent
+    System::Action_1<GlobalNamespace::NoteController*>* _get_noteWasMissedEvent();
+    // Set instance field: private System.Action`1<NoteController> noteWasMissedEvent
+    void _set_noteWasMissedEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
+    // Get instance field: private BeatmapObjectManager/NoteWasCutDelegate noteWasCutEvent
+    GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate* _get_noteWasCutEvent();
+    // Set instance field: private BeatmapObjectManager/NoteWasCutDelegate noteWasCutEvent
+    void _set_noteWasCutEvent(GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate* value);
+    // Get instance field: private System.Action`1<NoteController> noteDidStartJumpEvent
+    System::Action_1<GlobalNamespace::NoteController*>* _get_noteDidStartJumpEvent();
+    // Set instance field: private System.Action`1<NoteController> noteDidStartJumpEvent
+    void _set_noteDidStartJumpEvent(System::Action_1<GlobalNamespace::NoteController*>* value);
+    // Get instance field: private System.Action`1<ObstacleController> obstacleWasSpawnedEvent
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_obstacleWasSpawnedEvent();
+    // Set instance field: private System.Action`1<ObstacleController> obstacleWasSpawnedEvent
+    void _set_obstacleWasSpawnedEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`1<ObstacleController> obstacleWasDespawnedEvent
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_obstacleWasDespawnedEvent();
+    // Set instance field: private System.Action`1<ObstacleController> obstacleWasDespawnedEvent
+    void _set_obstacleWasDespawnedEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`1<ObstacleController> obstacleDidPassThreeQuartersOfMove2Event
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_obstacleDidPassThreeQuartersOfMove2Event();
+    // Set instance field: private System.Action`1<ObstacleController> obstacleDidPassThreeQuartersOfMove2Event
+    void _set_obstacleDidPassThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`1<ObstacleController> obstacleDidPassAvoidedMarkEvent
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_obstacleDidPassAvoidedMarkEvent();
+    // Set instance field: private System.Action`1<ObstacleController> obstacleDidPassAvoidedMarkEvent
+    void _set_obstacleDidPassAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`1<System.Boolean> didHideAllBeatmapObjectsEvent
+    System::Action_1<bool>* _get_didHideAllBeatmapObjectsEvent();
+    // Set instance field: private System.Action`1<System.Boolean> didHideAllBeatmapObjectsEvent
+    void _set_didHideAllBeatmapObjectsEvent(System::Action_1<bool>* value);
+    // Get instance field: private System.Boolean <spawnHidden>k__BackingField
+    bool _get_$spawnHidden$k__BackingField();
+    // Set instance field: private System.Boolean <spawnHidden>k__BackingField
+    void _set_$spawnHidden$k__BackingField(bool value);
     // public System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();

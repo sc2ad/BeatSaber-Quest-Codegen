@@ -86,6 +86,34 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);
     }
+    // Get instance field: private readonly TutorialSongController _tutorialSongController
+    GlobalNamespace::TutorialSongController* _get__tutorialSongController();
+    // Set instance field: private readonly TutorialSongController _tutorialSongController
+    void _set__tutorialSongController(GlobalNamespace::TutorialSongController* value);
+    // Get instance field: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager* _get__saberManager();
+    // Set instance field: private readonly SaberManager _saberManager
+    void _set__saberManager(GlobalNamespace::SaberManager* value);
+    // Get instance field: private readonly AudioListenerController _audioListenerController
+    GlobalNamespace::AudioListenerController* _get__audioListenerController();
+    // Set instance field: private readonly AudioListenerController _audioListenerController
+    void _set__audioListenerController(GlobalNamespace::AudioListenerController* value);
+    // Get instance field: private System.Action didPauseEvent
+    System::Action* _get_didPauseEvent();
+    // Set instance field: private System.Action didPauseEvent
+    void _set_didPauseEvent(System::Action* value);
+    // Get instance field: private System.Action willResumeEvent
+    System::Action* _get_willResumeEvent();
+    // Set instance field: private System.Action willResumeEvent
+    void _set_willResumeEvent(System::Action* value);
+    // Get instance field: private System.Action didResumeEvent
+    System::Action* _get_didResumeEvent();
+    // Set instance field: private System.Action didResumeEvent
+    void _set_didResumeEvent(System::Action* value);
+    // Get instance field: private System.Boolean _pause
+    bool _get__pause();
+    // Set instance field: private System.Boolean _pause
+    void _set__pause(bool value);
     // public System.Void add_didPauseEvent(System.Action value)
     // Offset: 0x1075504
     void add_didPauseEvent(System::Action* value);

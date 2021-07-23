@@ -73,6 +73,10 @@ namespace MasterServer {
     static MasterServer::AnalyticsMetricUnit _get_Bytes();
     // Set static field: static public MasterServer.AnalyticsMetricUnit Bytes
     static void _set_Bytes(MasterServer::AnalyticsMetricUnit value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // MasterServer.AnalyticsMetricUnit
   #pragma pack(pop)
   static check_size<sizeof(AnalyticsMetricUnit), 0 + sizeof(int)> __MasterServer_AnalyticsMetricUnitSizeCheck;

@@ -79,6 +79,18 @@ namespace System::Diagnostics {
     static ::Il2CppString* _get_aotid();
     // Set static field: static private System.String aotid
     static void _set_aotid(::Il2CppString* value);
+    // Get instance field: private System.Diagnostics.StackFrame[] frames
+    ::Array<System::Diagnostics::StackFrame*>* _get_frames();
+    // Set instance field: private System.Diagnostics.StackFrame[] frames
+    void _set_frames(::Array<System::Diagnostics::StackFrame*>* value);
+    // Get instance field: private readonly System.Diagnostics.StackTrace[] captured_traces
+    ::Array<System::Diagnostics::StackTrace*>* _get_captured_traces();
+    // Set instance field: private readonly System.Diagnostics.StackTrace[] captured_traces
+    void _set_captured_traces(::Array<System::Diagnostics::StackTrace*>* value);
+    // Get instance field: private System.Boolean debug_info
+    bool _get_debug_info();
+    // Set instance field: private System.Boolean debug_info
+    void _set_debug_info(bool value);
     // public System.Int32 get_FrameCount()
     // Offset: 0x1B2307C
     int get_FrameCount();

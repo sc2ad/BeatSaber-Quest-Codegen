@@ -73,6 +73,10 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::OperationalStatus _get_LowerLayerDown();
     // Set static field: static public System.Net.NetworkInformation.OperationalStatus LowerLayerDown
     static void _set_LowerLayerDown(System::Net::NetworkInformation::OperationalStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.NetworkInformation.OperationalStatus
   #pragma pack(pop)
   static check_size<sizeof(OperationalStatus), 0 + sizeof(int)> __System_Net_NetworkInformation_OperationalStatusSizeCheck;

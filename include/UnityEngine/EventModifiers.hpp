@@ -80,6 +80,10 @@ namespace UnityEngine {
     static UnityEngine::EventModifiers _get_FunctionKey();
     // Set static field: static public UnityEngine.EventModifiers FunctionKey
     static void _set_FunctionKey(UnityEngine::EventModifiers value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.EventModifiers
   #pragma pack(pop)
   static check_size<sizeof(EventModifiers), 0 + sizeof(int)> __UnityEngine_EventModifiersSizeCheck;

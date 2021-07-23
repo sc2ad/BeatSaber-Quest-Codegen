@@ -151,6 +151,10 @@ namespace System::Net {
     static System::Net::CookieToken _get_Version();
     // Set static field: static public System.Net.CookieToken Version
     static void _set_Version(System::Net::CookieToken value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.CookieToken
   #pragma pack(pop)
   static check_size<sizeof(CookieToken), 0 + sizeof(int)> __System_Net_CookieTokenSizeCheck;

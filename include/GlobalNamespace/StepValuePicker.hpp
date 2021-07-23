@@ -70,6 +70,26 @@ namespace GlobalNamespace {
     StepValuePicker(UnityEngine::UI::Button* decButton_ = {}, UnityEngine::UI::Button* incButton_ = {}, TMPro::TextMeshProUGUI* valueText_ = {}, System::Action* decButtonWasPressedEvent_ = {}, System::Action* incButtonWasPressedEvent_ = {}) noexcept : decButton{decButton_}, incButton{incButton_}, valueText{valueText_}, decButtonWasPressedEvent{decButtonWasPressedEvent_}, incButtonWasPressedEvent{incButtonWasPressedEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Button _decButton
+    UnityEngine::UI::Button* _get__decButton();
+    // Set instance field: private UnityEngine.UI.Button _decButton
+    void _set__decButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _incButton
+    UnityEngine::UI::Button* _get__incButton();
+    // Set instance field: private UnityEngine.UI.Button _incButton
+    void _set__incButton(UnityEngine::UI::Button* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _valueText
+    TMPro::TextMeshProUGUI* _get__valueText();
+    // Set instance field: private TMPro.TextMeshProUGUI _valueText
+    void _set__valueText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private System.Action decButtonWasPressedEvent
+    System::Action* _get_decButtonWasPressedEvent();
+    // Set instance field: private System.Action decButtonWasPressedEvent
+    void _set_decButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private System.Action incButtonWasPressedEvent
+    System::Action* _get_incButtonWasPressedEvent();
+    // Set instance field: private System.Action incButtonWasPressedEvent
+    void _set_incButtonWasPressedEvent(System::Action* value);
     // public System.String get_text()
     // Offset: 0x1068F40
     ::Il2CppString* get_text();

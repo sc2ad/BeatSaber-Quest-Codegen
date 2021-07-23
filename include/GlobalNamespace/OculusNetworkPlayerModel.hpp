@@ -260,6 +260,58 @@ namespace GlobalNamespace {
     static float _get_kAutoRefreshRate();
     // Set static field: static private System.Single kAutoRefreshRate
     static void _set_kAutoRefreshRate(float value);
+    // Get instance field: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
+    // Set instance field: private readonly IPlatformUserModel _platformUserModel
+    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
+    // Get instance field: private System.Single _lastRefreshTime
+    float _get__lastRefreshTime();
+    // Set instance field: private System.Single _lastRefreshTime
+    void _set__lastRefreshTime(float value);
+    // Get instance field: private System.Boolean _isRefreshing
+    bool _get__isRefreshing();
+    // Set instance field: private System.Boolean _isRefreshing
+    void _set__isRefreshing(bool value);
+    // Get instance field: private OculusNetworkPlayerModel/OculusNetworkPlayer _localPlayer
+    GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* _get__localPlayer();
+    // Set instance field: private OculusNetworkPlayerModel/OculusNetworkPlayer _localPlayer
+    void _set__localPlayer(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* value);
+    // Get instance field: private Oculus.Platform.RoomJoinPolicy _joinPolicy
+    Oculus::Platform::RoomJoinPolicy _get__joinPolicy();
+    // Set instance field: private Oculus.Platform.RoomJoinPolicy _joinPolicy
+    void _set__joinPolicy(Oculus::Platform::RoomJoinPolicy value);
+    // Get instance field: private System.Boolean _partyEnabled
+    bool _get__partyEnabled();
+    // Set instance field: private System.Boolean _partyEnabled
+    void _set__partyEnabled(bool value);
+    // Get instance field: private System.Boolean _waitingOnRoomCreate
+    bool _get__waitingOnRoomCreate();
+    // Set instance field: private System.Boolean _waitingOnRoomCreate
+    void _set__waitingOnRoomCreate(bool value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _roomDataStore
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get__roomDataStore();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _roomDataStore
+    void _set__roomDataStore(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _partyPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>* _get__partyPlayers();
+    // Set instance field: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _partyPlayers
+    void _set__partyPlayers(System::Collections::Generic::List_1<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _otherPlayers
+    System::Collections::Generic::List_1<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>* _get__otherPlayers();
+    // Set instance field: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _otherPlayers
+    void _set__otherPlayers(System::Collections::Generic::List_1<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>* value);
+    // Get instance field: private System.Action`1<System.Int32> partySizeChangedEvent
+    System::Action_1<int>* _get_partySizeChangedEvent();
+    // Set instance field: private System.Action`1<System.Int32> partySizeChangedEvent
+    void _set_partySizeChangedEvent(System::Action_1<int>* value);
+    // Get instance field: private System.Action`1<INetworkPlayerModel> partyChangedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayerModel*>* _get_partyChangedEvent();
+    // Set instance field: private System.Action`1<INetworkPlayerModel> partyChangedEvent
+    void _set_partyChangedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
+    // Get instance field: private System.Action`1<INetworkPlayer> inviteRequestedEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_inviteRequestedEvent();
+    // Set instance field: private System.Action`1<INetworkPlayer> inviteRequestedEvent
+    void _set_inviteRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public INetworkPlayer get_localPlayer()
     // Offset: 0x11F1D40
     GlobalNamespace::INetworkPlayer* get_localPlayer();

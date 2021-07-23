@@ -39,6 +39,18 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HttpTransferUpdate
     HttpTransferUpdate(uint64_t _ID_ = {}, ::Array<uint8_t>* Payload_ = {}, bool IsCompleted_ = {}) noexcept : _ID{_ID_}, Payload{Payload_}, IsCompleted{IsCompleted_} {}
+    // Get instance field: public readonly System.UInt64 ID
+    uint64_t _get_ID();
+    // Set instance field: public readonly System.UInt64 ID
+    void _set_ID(uint64_t value);
+    // Get instance field: public readonly System.Byte[] Payload
+    ::Array<uint8_t>* _get_Payload();
+    // Set instance field: public readonly System.Byte[] Payload
+    void _set_Payload(::Array<uint8_t>* value);
+    // Get instance field: public readonly System.Boolean IsCompleted
+    bool _get_IsCompleted();
+    // Set instance field: public readonly System.Boolean IsCompleted
+    void _set_IsCompleted(bool value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A2304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

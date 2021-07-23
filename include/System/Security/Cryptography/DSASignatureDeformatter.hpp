@@ -43,6 +43,14 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: DSASignatureDeformatter
     DSASignatureDeformatter(System::Security::Cryptography::DSA* dsaKey_ = {}, ::Il2CppString* oid_ = {}) noexcept : dsaKey{dsaKey_}, oid{oid_} {}
+    // Get instance field: private System.Security.Cryptography.DSA _dsaKey
+    System::Security::Cryptography::DSA* _get__dsaKey();
+    // Set instance field: private System.Security.Cryptography.DSA _dsaKey
+    void _set__dsaKey(System::Security::Cryptography::DSA* value);
+    // Get instance field: private System.String _oid
+    ::Il2CppString* _get__oid();
+    // Set instance field: private System.String _oid
+    void _set__oid(::Il2CppString* value);
     // public System.Void .ctor(System.Security.Cryptography.AsymmetricAlgorithm key)
     // Offset: 0x193E854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

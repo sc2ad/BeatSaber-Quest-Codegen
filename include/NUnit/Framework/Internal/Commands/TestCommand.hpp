@@ -41,6 +41,10 @@ namespace NUnit::Framework::Internal::Commands {
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept {
       return Test;
     }
+    // Get instance field: private NUnit.Framework.Internal.Test <Test>k__BackingField
+    NUnit::Framework::Internal::Test* _get_$Test$k__BackingField();
+    // Set instance field: private NUnit.Framework.Internal.Test <Test>k__BackingField
+    void _set_$Test$k__BackingField(NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.Test get_Test()
     // Offset: 0x17295DC
     NUnit::Framework::Internal::Test* get_Test();

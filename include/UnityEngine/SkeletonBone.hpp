@@ -64,6 +64,26 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: public System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: System.String parentName
+    ::Il2CppString* _get_parentName();
+    // Set instance field: System.String parentName
+    void _set_parentName(::Il2CppString* value);
+    // Get instance field: public UnityEngine.Vector3 position
+    UnityEngine::Vector3 _get_position();
+    // Set instance field: public UnityEngine.Vector3 position
+    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion rotation
+    UnityEngine::Quaternion _get_rotation();
+    // Set instance field: public UnityEngine.Quaternion rotation
+    void _set_rotation(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Vector3 scale
+    UnityEngine::Vector3 _get_scale();
+    // Set instance field: public UnityEngine.Vector3 scale
+    void _set_scale(UnityEngine::Vector3 value);
   }; // UnityEngine.SkeletonBone
   #pragma pack(pop)
   static check_size<sizeof(SkeletonBone), 44 + sizeof(UnityEngine::Vector3)> __UnityEngine_SkeletonBoneSizeCheck;

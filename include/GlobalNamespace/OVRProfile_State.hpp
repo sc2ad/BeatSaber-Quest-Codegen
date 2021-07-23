@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRProfile::State _get_ERROR();
     // Set static field: static public OVRProfile/State ERROR
     static void _set_ERROR(GlobalNamespace::OVRProfile::State value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRProfile/State
   #pragma pack(pop)
   static check_size<sizeof(OVRProfile::State), 0 + sizeof(int)> __GlobalNamespace_OVRProfile_StateSizeCheck;

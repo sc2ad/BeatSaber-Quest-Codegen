@@ -54,6 +54,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: LightIdColorPair
     LightIdColorPair(int lightId_ = {}, GlobalNamespace::ColorSO* baseColor_ = {}, float intensity_ = {}) noexcept : lightId{lightId_}, baseColor{baseColor_}, intensity{intensity_} {}
+    // Get instance field: public System.Int32 lightId
+    int _get_lightId();
+    // Set instance field: public System.Int32 lightId
+    void _set_lightId(int value);
+    // Get instance field: public ColorSO baseColor
+    GlobalNamespace::ColorSO* _get_baseColor();
+    // Set instance field: public ColorSO baseColor
+    void _set_baseColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: public System.Single intensity
+    float _get_intensity();
+    // Set instance field: public System.Single intensity
+    void _set_intensity(float value);
     // public UnityEngine.Color get_lightColor()
     // Offset: 0x1180340
     UnityEngine::Color get_lightColor();

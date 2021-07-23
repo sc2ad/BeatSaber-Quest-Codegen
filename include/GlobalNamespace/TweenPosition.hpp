@@ -80,6 +80,30 @@ namespace GlobalNamespace {
     TweenPosition(bool unscaledTime_ = {}, bool localPosition_ = {}, float duration_ = {}, UnityEngine::AnimationCurve* animationCurve_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 targetPos_ = {}) noexcept : unscaledTime{unscaledTime_}, localPosition{localPosition_}, duration{duration_}, animationCurve{animationCurve_}, transform{transform_}, targetPos{targetPos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Boolean _unscaledTime
+    bool _get__unscaledTime();
+    // Set instance field: public System.Boolean _unscaledTime
+    void _set__unscaledTime(bool value);
+    // Get instance field: public System.Boolean _localPosition
+    bool _get__localPosition();
+    // Set instance field: public System.Boolean _localPosition
+    void _set__localPosition(bool value);
+    // Get instance field: public System.Single _duration
+    float _get__duration();
+    // Set instance field: public System.Single _duration
+    void _set__duration(float value);
+    // Get instance field: public UnityEngine.AnimationCurve _animationCurve
+    UnityEngine::AnimationCurve* _get__animationCurve();
+    // Set instance field: public UnityEngine.AnimationCurve _animationCurve
+    void _set__animationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Vector3 _targetPos
+    UnityEngine::Vector3 _get__targetPos();
+    // Set instance field: private UnityEngine.Vector3 _targetPos
+    void _set__targetPos(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_TargetPos()
     // Offset: 0x235C05C
     UnityEngine::Vector3 get_TargetPos();

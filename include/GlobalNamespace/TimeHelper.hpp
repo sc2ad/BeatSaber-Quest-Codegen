@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static float _get_$interpolationFactor$k__BackingField();
     // Set static field: static private System.Single <interpolationFactor>k__BackingField
     static void _set_$interpolationFactor$k__BackingField(float value);
+    // Get instance field: private System.Single _accumulator
+    float _get__accumulator();
+    // Set instance field: private System.Single _accumulator
+    void _set__accumulator(float value);
     // static public System.Single get_time()
     // Offset: 0x235B5DC
     static float get_time();

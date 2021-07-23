@@ -43,6 +43,18 @@ namespace System::IO {
     static_assert(sizeof(System::IO::SearchPattern2::Op*) == 0x8);
     // Creating value type constructor for type: Op
     Op(System::IO::SearchPattern2::OpCode Code_ = {}, ::Il2CppString* Argument_ = {}, System::IO::SearchPattern2::Op* Next_ = {}) noexcept : Code{Code_}, Argument{Argument_}, Next{Next_} {}
+    // Get instance field: public System.IO.SearchPattern2/System.IO.OpCode Code
+    System::IO::SearchPattern2::OpCode _get_Code();
+    // Set instance field: public System.IO.SearchPattern2/System.IO.OpCode Code
+    void _set_Code(System::IO::SearchPattern2::OpCode value);
+    // Get instance field: public System.String Argument
+    ::Il2CppString* _get_Argument();
+    // Set instance field: public System.String Argument
+    void _set_Argument(::Il2CppString* value);
+    // Get instance field: public System.IO.SearchPattern2/System.IO.Op Next
+    System::IO::SearchPattern2::Op* _get_Next();
+    // Set instance field: public System.IO.SearchPattern2/System.IO.Op Next
+    void _set_Next(System::IO::SearchPattern2::Op* value);
     // public System.Void .ctor(System.IO.SearchPattern2/System.IO.OpCode code)
     // Offset: 0x185713C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -103,6 +103,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRVignette::MeshComplexityLevel _get_VeryDetailed();
       // Set static field: static public OVRVignette/MeshComplexityLevel VeryDetailed
       static void _set_VeryDetailed(GlobalNamespace::OVRVignette::MeshComplexityLevel value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRVignette/MeshComplexityLevel
     #pragma pack(pop)
     static check_size<sizeof(OVRVignette::MeshComplexityLevel), 0 + sizeof(int)> __GlobalNamespace_OVRVignette_MeshComplexityLevelSizeCheck;
@@ -141,6 +145,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRVignette::FalloffType _get_Quadratic();
       // Set static field: static public OVRVignette/FalloffType Quadratic
       static void _set_Quadratic(GlobalNamespace::OVRVignette::FalloffType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRVignette/FalloffType
     #pragma pack(pop)
     static check_size<sizeof(OVRVignette::FalloffType), 0 + sizeof(int)> __GlobalNamespace_OVRVignette_FalloffTypeSizeCheck;
@@ -306,6 +314,102 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_QUADRATIC_FALLOFF();
     // Set static field: static private readonly System.String QUADRATIC_FALLOFF
     static void _set_QUADRATIC_FALLOFF(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Shader VignetteShader
+    UnityEngine::Shader* _get_VignetteShader();
+    // Set instance field: private UnityEngine.Shader VignetteShader
+    void _set_VignetteShader(UnityEngine::Shader* value);
+    // Get instance field: private OVRVignette/MeshComplexityLevel MeshComplexity
+    GlobalNamespace::OVRVignette::MeshComplexityLevel _get_MeshComplexity();
+    // Set instance field: private OVRVignette/MeshComplexityLevel MeshComplexity
+    void _set_MeshComplexity(GlobalNamespace::OVRVignette::MeshComplexityLevel value);
+    // Get instance field: private OVRVignette/FalloffType Falloff
+    GlobalNamespace::OVRVignette::FalloffType _get_Falloff();
+    // Set instance field: private OVRVignette/FalloffType Falloff
+    void _set_Falloff(GlobalNamespace::OVRVignette::FalloffType value);
+    // Get instance field: public System.Single VignetteFieldOfView
+    float _get_VignetteFieldOfView();
+    // Set instance field: public System.Single VignetteFieldOfView
+    void _set_VignetteFieldOfView(float value);
+    // Get instance field: public System.Single VignetteAspectRatio
+    float _get_VignetteAspectRatio();
+    // Set instance field: public System.Single VignetteAspectRatio
+    void _set_VignetteAspectRatio(float value);
+    // Get instance field: public System.Single VignetteFalloffDegrees
+    float _get_VignetteFalloffDegrees();
+    // Set instance field: public System.Single VignetteFalloffDegrees
+    void _set_VignetteFalloffDegrees(float value);
+    // Get instance field: public UnityEngine.Color VignetteColor
+    UnityEngine::Color _get_VignetteColor();
+    // Set instance field: public UnityEngine.Color VignetteColor
+    void _set_VignetteColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Camera _Camera
+    UnityEngine::Camera* _get__Camera();
+    // Set instance field: private UnityEngine.Camera _Camera
+    void _set__Camera(UnityEngine::Camera* value);
+    // Get instance field: private UnityEngine.MeshFilter _OpaqueMeshFilter
+    UnityEngine::MeshFilter* _get__OpaqueMeshFilter();
+    // Set instance field: private UnityEngine.MeshFilter _OpaqueMeshFilter
+    void _set__OpaqueMeshFilter(UnityEngine::MeshFilter* value);
+    // Get instance field: private UnityEngine.MeshFilter _TransparentMeshFilter
+    UnityEngine::MeshFilter* _get__TransparentMeshFilter();
+    // Set instance field: private UnityEngine.MeshFilter _TransparentMeshFilter
+    void _set__TransparentMeshFilter(UnityEngine::MeshFilter* value);
+    // Get instance field: private UnityEngine.MeshRenderer _OpaqueMeshRenderer
+    UnityEngine::MeshRenderer* _get__OpaqueMeshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _OpaqueMeshRenderer
+    void _set__OpaqueMeshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private UnityEngine.MeshRenderer _TransparentMeshRenderer
+    UnityEngine::MeshRenderer* _get__TransparentMeshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _TransparentMeshRenderer
+    void _set__TransparentMeshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private UnityEngine.Mesh _OpaqueMesh
+    UnityEngine::Mesh* _get__OpaqueMesh();
+    // Set instance field: private UnityEngine.Mesh _OpaqueMesh
+    void _set__OpaqueMesh(UnityEngine::Mesh* value);
+    // Get instance field: private UnityEngine.Mesh _TransparentMesh
+    UnityEngine::Mesh* _get__TransparentMesh();
+    // Set instance field: private UnityEngine.Mesh _TransparentMesh
+    void _set__TransparentMesh(UnityEngine::Mesh* value);
+    // Get instance field: private UnityEngine.Material _OpaqueMaterial
+    UnityEngine::Material* _get__OpaqueMaterial();
+    // Set instance field: private UnityEngine.Material _OpaqueMaterial
+    void _set__OpaqueMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material _TransparentMaterial
+    UnityEngine::Material* _get__TransparentMaterial();
+    // Set instance field: private UnityEngine.Material _TransparentMaterial
+    void _set__TransparentMaterial(UnityEngine::Material* value);
+    // Get instance field: private System.Int32 _ShaderScaleAndOffset0Property
+    int _get__ShaderScaleAndOffset0Property();
+    // Set instance field: private System.Int32 _ShaderScaleAndOffset0Property
+    void _set__ShaderScaleAndOffset0Property(int value);
+    // Get instance field: private System.Int32 _ShaderScaleAndOffset1Property
+    int _get__ShaderScaleAndOffset1Property();
+    // Set instance field: private System.Int32 _ShaderScaleAndOffset1Property
+    void _set__ShaderScaleAndOffset1Property(int value);
+    // Get instance field: private UnityEngine.Vector4[] _TransparentScaleAndOffset0
+    ::Array<UnityEngine::Vector4>* _get__TransparentScaleAndOffset0();
+    // Set instance field: private UnityEngine.Vector4[] _TransparentScaleAndOffset0
+    void _set__TransparentScaleAndOffset0(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private UnityEngine.Vector4[] _TransparentScaleAndOffset1
+    ::Array<UnityEngine::Vector4>* _get__TransparentScaleAndOffset1();
+    // Set instance field: private UnityEngine.Vector4[] _TransparentScaleAndOffset1
+    void _set__TransparentScaleAndOffset1(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private UnityEngine.Vector4[] _OpaqueScaleAndOffset0
+    ::Array<UnityEngine::Vector4>* _get__OpaqueScaleAndOffset0();
+    // Set instance field: private UnityEngine.Vector4[] _OpaqueScaleAndOffset0
+    void _set__OpaqueScaleAndOffset0(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private UnityEngine.Vector4[] _OpaqueScaleAndOffset1
+    ::Array<UnityEngine::Vector4>* _get__OpaqueScaleAndOffset1();
+    // Set instance field: private UnityEngine.Vector4[] _OpaqueScaleAndOffset1
+    void _set__OpaqueScaleAndOffset1(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private System.Boolean _OpaqueVignetteVisible
+    bool _get__OpaqueVignetteVisible();
+    // Set instance field: private System.Boolean _OpaqueVignetteVisible
+    void _set__OpaqueVignetteVisible(bool value);
+    // Get instance field: private System.Boolean _TransparentVignetteVisible
+    bool _get__TransparentVignetteVisible();
+    // Set instance field: private System.Boolean _TransparentVignetteVisible
+    void _set__TransparentVignetteVisible(bool value);
     // private System.Int32 GetTriangleCount()
     // Offset: 0x1EF1604
     int GetTriangleCount();

@@ -49,6 +49,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
     // Creating value type constructor for type: SongPackMaskItem
     SongPackMaskItem(::Il2CppString* serializedName_ = {}, ::Il2CppString* localizedName_ = {}, int order_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}) noexcept : serializedName{serializedName_}, localizedName{localizedName_}, order{order_}, songPackMask{songPackMask_} {}
+    // Get instance field: public System.String serializedName
+    ::Il2CppString* _get_serializedName();
+    // Set instance field: public System.String serializedName
+    void _set_serializedName(::Il2CppString* value);
+    // Get instance field: public System.String localizedName
+    ::Il2CppString* _get_localizedName();
+    // Set instance field: public System.String localizedName
+    void _set_localizedName(::Il2CppString* value);
+    // Get instance field: public System.Int32 order
+    int _get_order();
+    // Set instance field: public System.Int32 order
+    void _set_order(int value);
+    // Get instance field: public SongPackMask songPackMask
+    GlobalNamespace::SongPackMask _get_songPackMask();
+    // Set instance field: public SongPackMask songPackMask
+    void _set_songPackMask(GlobalNamespace::SongPackMask value);
     // public System.Void .ctor()
     // Offset: 0x1141BDC
     // Implemented from: System.Object

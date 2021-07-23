@@ -34,6 +34,14 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single alpha
+    float _get_alpha();
+    // Set instance field: public System.Single alpha
+    void _set_alpha(float value);
+    // Get instance field: public System.Single time
+    float _get_time();
+    // Set instance field: public System.Single time
+    void _set_time(float value);
   }; // UnityEngine.GradientAlphaKey
   #pragma pack(pop)
   static check_size<sizeof(GradientAlphaKey), 4 + sizeof(float)> __UnityEngine_GradientAlphaKeySizeCheck;

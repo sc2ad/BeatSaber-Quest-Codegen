@@ -94,6 +94,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_SP8();
     // Set static field: static private readonly System.UInt32[] SP8
     static void _set_SP8(::Array<uint>* value);
+    // Get instance field: private System.Int32[] workingKey
+    ::Array<int>* _get_workingKey();
+    // Set instance field: private System.Int32[] workingKey
+    void _set_workingKey(::Array<int>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E06540
     ::Il2CppString* get_AlgorithmName();

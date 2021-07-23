@@ -95,6 +95,38 @@ namespace UnityEngine::ProBuilder {
     BezierShape(System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint>* points_ = {}, bool closeLoop_ = {}, float radius_ = {}, int rows_ = {}, int columns_ = {}, bool smooth_ = {}, bool m_IsEditing_ = {}, UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh_ = {}) noexcept : points{points_}, closeLoop{closeLoop_}, radius{radius_}, rows{rows_}, columns{columns_}, smooth{smooth_}, m_IsEditing{m_IsEditing_}, m_Mesh{m_Mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points
+    System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint>* _get_points();
+    // Set instance field: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points
+    void _set_points(System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint>* value);
+    // Get instance field: public System.Boolean closeLoop
+    bool _get_closeLoop();
+    // Set instance field: public System.Boolean closeLoop
+    void _set_closeLoop(bool value);
+    // Get instance field: public System.Single radius
+    float _get_radius();
+    // Set instance field: public System.Single radius
+    void _set_radius(float value);
+    // Get instance field: public System.Int32 rows
+    int _get_rows();
+    // Set instance field: public System.Int32 rows
+    void _set_rows(int value);
+    // Get instance field: public System.Int32 columns
+    int _get_columns();
+    // Set instance field: public System.Int32 columns
+    void _set_columns(int value);
+    // Get instance field: public System.Boolean smooth
+    bool _get_smooth();
+    // Set instance field: public System.Boolean smooth
+    void _set_smooth(bool value);
+    // Get instance field: private System.Boolean m_IsEditing
+    bool _get_m_IsEditing();
+    // Set instance field: private System.Boolean m_IsEditing
+    void _set_m_IsEditing(bool value);
+    // Get instance field: private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_m_Mesh();
+    // Set instance field: private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
+    void _set_m_Mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // public System.Boolean get_isEditing()
     // Offset: 0x1F2F7C4
     bool get_isEditing();

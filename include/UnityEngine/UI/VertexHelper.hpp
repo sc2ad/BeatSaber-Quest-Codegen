@@ -116,6 +116,46 @@ namespace UnityEngine::UI {
     static UnityEngine::Vector3 _get_s_DefaultNormal();
     // Set static field: static private readonly UnityEngine.Vector3 s_DefaultNormal
     static void _set_s_DefaultNormal(UnityEngine::Vector3 value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> m_Positions
+    System::Collections::Generic::List_1<UnityEngine::Vector3>* _get_m_Positions();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> m_Positions
+    void _set_m_Positions(System::Collections::Generic::List_1<UnityEngine::Vector3>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Color32> m_Colors
+    System::Collections::Generic::List_1<UnityEngine::Color32>* _get_m_Colors();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Color32> m_Colors
+    void _set_m_Colors(System::Collections::Generic::List_1<UnityEngine::Color32>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv0S
+    System::Collections::Generic::List_1<UnityEngine::Vector2>* _get_m_Uv0S();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv0S
+    void _set_m_Uv0S(System::Collections::Generic::List_1<UnityEngine::Vector2>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv1S
+    System::Collections::Generic::List_1<UnityEngine::Vector2>* _get_m_Uv1S();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv1S
+    void _set_m_Uv1S(System::Collections::Generic::List_1<UnityEngine::Vector2>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv2S
+    System::Collections::Generic::List_1<UnityEngine::Vector2>* _get_m_Uv2S();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv2S
+    void _set_m_Uv2S(System::Collections::Generic::List_1<UnityEngine::Vector2>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv3S
+    System::Collections::Generic::List_1<UnityEngine::Vector2>* _get_m_Uv3S();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector2> m_Uv3S
+    void _set_m_Uv3S(System::Collections::Generic::List_1<UnityEngine::Vector2>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> m_Normals
+    System::Collections::Generic::List_1<UnityEngine::Vector3>* _get_m_Normals();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> m_Normals
+    void _set_m_Normals(System::Collections::Generic::List_1<UnityEngine::Vector3>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Tangents
+    System::Collections::Generic::List_1<UnityEngine::Vector4>* _get_m_Tangents();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Tangents
+    void _set_m_Tangents(System::Collections::Generic::List_1<UnityEngine::Vector4>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Int32> m_Indices
+    System::Collections::Generic::List_1<int>* _get_m_Indices();
+    // Set instance field: private System.Collections.Generic.List`1<System.Int32> m_Indices
+    void _set_m_Indices(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: private System.Boolean m_ListsInitalized
+    bool _get_m_ListsInitalized();
+    // Set instance field: private System.Boolean m_ListsInitalized
+    void _set_m_ListsInitalized(bool value);
     // public System.Int32 get_currentVertCount()
     // Offset: 0x2374548
     int get_currentVertCount();

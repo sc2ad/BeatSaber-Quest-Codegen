@@ -68,6 +68,10 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* _get_SECP160R1_AFFINE_ZS();
     // Set static field: static private readonly Org.BouncyCastle.Math.EC.ECFieldElement[] SECP160R1_AFFINE_ZS
     static void _set_SECP160R1_AFFINE_ZS(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Point m_infinity
+    Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Point* _get_m_infinity();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Point m_infinity
+    void _set_m_infinity(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Point* value);
     // static private System.Void .cctor()
     // Offset: 0x1D3DEB8
     static void _cctor();

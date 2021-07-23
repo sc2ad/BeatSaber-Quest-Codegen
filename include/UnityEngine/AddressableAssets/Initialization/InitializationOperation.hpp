@@ -105,6 +105,30 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*) == 0x8);
     // Creating value type constructor for type: InitializationOperation
     InitializationOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> m_rtdOp_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> m_loadCatalogOp_ = {}, ::Il2CppString* m_ProviderSuffix_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* m_Diagnostics_ = {}, UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* m_InitGroupOps_ = {}) noexcept : m_rtdOp{m_rtdOp_}, m_loadCatalogOp{m_loadCatalogOp_}, m_ProviderSuffix{m_ProviderSuffix_}, m_Addressables{m_Addressables_}, m_Diagnostics{m_Diagnostics_}, m_InitGroupOps{m_InitGroupOps_} {}
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_rtdOp
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> _get_m_rtdOp();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_rtdOp
+    void _set_m_rtdOp(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> m_loadCatalogOp
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> _get_m_loadCatalogOp();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> m_loadCatalogOp
+    void _set_m_loadCatalogOp(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value);
+    // Get instance field: private System.String m_ProviderSuffix
+    ::Il2CppString* _get_m_ProviderSuffix();
+    // Set instance field: private System.String m_ProviderSuffix
+    void _set_m_ProviderSuffix(::Il2CppString* value);
+    // Get instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_m_Addressables();
+    // Set instance field: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
+    void _set_m_Addressables(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: private UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics m_Diagnostics
+    UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* _get_m_Diagnostics();
+    // Set instance field: private UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics m_Diagnostics
+    void _set_m_Diagnostics(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation m_InitGroupOps
+    UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* _get_m_InitGroupOps();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation m_InitGroupOps
+    void _set_m_InitGroupOps(UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* value);
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl aa)
     // Offset: 0x13C7C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -81,6 +81,30 @@ namespace System::Xml {
     static_assert(sizeof(System::Xml::ConformanceLevel) == 0x4);
     // Creating value type constructor for type: XmlEncodedRawTextWriterIndent
     XmlEncodedRawTextWriterIndent(int indentLevel_ = {}, bool newLineOnAttributes_ = {}, ::Il2CppString* indentChars_ = {}, bool mixedContent_ = {}, System::Xml::BitStack* mixedContentStack_ = {}, System::Xml::ConformanceLevel conformanceLevel_ = {}) noexcept : indentLevel{indentLevel_}, newLineOnAttributes{newLineOnAttributes_}, indentChars{indentChars_}, mixedContent{mixedContent_}, mixedContentStack{mixedContentStack_}, conformanceLevel{conformanceLevel_} {}
+    // Get instance field: protected System.Int32 indentLevel
+    int _get_indentLevel();
+    // Set instance field: protected System.Int32 indentLevel
+    void _set_indentLevel(int value);
+    // Get instance field: protected System.Boolean newLineOnAttributes
+    bool _get_newLineOnAttributes();
+    // Set instance field: protected System.Boolean newLineOnAttributes
+    void _set_newLineOnAttributes(bool value);
+    // Get instance field: protected System.String indentChars
+    ::Il2CppString* _get_indentChars();
+    // Set instance field: protected System.String indentChars
+    void _set_indentChars(::Il2CppString* value);
+    // Get instance field: protected System.Boolean mixedContent
+    bool _get_mixedContent();
+    // Set instance field: protected System.Boolean mixedContent
+    void _set_mixedContent(bool value);
+    // Get instance field: private System.Xml.BitStack mixedContentStack
+    System::Xml::BitStack* _get_mixedContentStack();
+    // Set instance field: private System.Xml.BitStack mixedContentStack
+    void _set_mixedContentStack(System::Xml::BitStack* value);
+    // Get instance field: protected System.Xml.ConformanceLevel conformanceLevel
+    System::Xml::ConformanceLevel _get_conformanceLevel();
+    // Set instance field: protected System.Xml.ConformanceLevel conformanceLevel
+    void _set_conformanceLevel(System::Xml::ConformanceLevel value);
     // private System.Void Init(System.Xml.XmlWriterSettings settings)
     // Offset: 0x190BE84
     void Init(System::Xml::XmlWriterSettings* settings);

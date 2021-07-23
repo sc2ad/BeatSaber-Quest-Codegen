@@ -248,6 +248,106 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerControllerPrefab
+    GlobalNamespace::MultiplayerLocalActivePlayerFacade* _get__activeLocalPlayerControllerPrefab();
+    // Set instance field: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerControllerPrefab
+    void _set__activeLocalPlayerControllerPrefab(GlobalNamespace::MultiplayerLocalActivePlayerFacade* value);
+    // Get instance field: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerDuelControllerPrefab
+    GlobalNamespace::MultiplayerLocalActivePlayerFacade* _get__activeLocalPlayerDuelControllerPrefab();
+    // Set instance field: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerDuelControllerPrefab
+    void _set__activeLocalPlayerDuelControllerPrefab(GlobalNamespace::MultiplayerLocalActivePlayerFacade* value);
+    // Get instance field: private MultiplayerLocalInactivePlayerFacade _inactiveLocalPlayerControllerPrefab
+    GlobalNamespace::MultiplayerLocalInactivePlayerFacade* _get__inactiveLocalPlayerControllerPrefab();
+    // Set instance field: private MultiplayerLocalInactivePlayerFacade _inactiveLocalPlayerControllerPrefab
+    void _set__inactiveLocalPlayerControllerPrefab(GlobalNamespace::MultiplayerLocalInactivePlayerFacade* value);
+    // Get instance field: private MultiplayerConnectedPlayerFacade _connectedPlayerControllerPrefab
+    GlobalNamespace::MultiplayerConnectedPlayerFacade* _get__connectedPlayerControllerPrefab();
+    // Set instance field: private MultiplayerConnectedPlayerFacade _connectedPlayerControllerPrefab
+    void _set__connectedPlayerControllerPrefab(GlobalNamespace::MultiplayerConnectedPlayerFacade* value);
+    // Get instance field: private MultiplayerConnectedPlayerFacade _connectedPlayerDuelControllerPrefab
+    GlobalNamespace::MultiplayerConnectedPlayerFacade* _get__connectedPlayerDuelControllerPrefab();
+    // Set instance field: private MultiplayerConnectedPlayerFacade _connectedPlayerDuelControllerPrefab
+    void _set__connectedPlayerDuelControllerPrefab(GlobalNamespace::MultiplayerConnectedPlayerFacade* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
+    GlobalNamespace::BeatmapObjectSpawnCenter* _get__beatmapObjectSpawnCenter();
+    // Set instance field: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
+    void _set__beatmapObjectSpawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* value);
+    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
+    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
+    // Get instance field: private readonly FadeInOutController _fadeInOutController
+    GlobalNamespace::FadeInOutController* _get__fadeInOutController();
+    // Set instance field: private readonly FadeInOutController _fadeInOutController
+    void _set__fadeInOutController(GlobalNamespace::FadeInOutController* value);
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private System.Boolean <playerSpawningFinished>k__BackingField
+    bool _get_$playerSpawningFinished$k__BackingField();
+    // Set instance field: private System.Boolean <playerSpawningFinished>k__BackingField
+    void _set_$playerSpawningFinished$k__BackingField(bool value);
+    // Get instance field: private System.Action playerSpawningDidFinishEvent
+    System::Action* _get_playerSpawningDidFinishEvent();
+    // Set instance field: private System.Action playerSpawningDidFinishEvent
+    void _set_playerSpawningDidFinishEvent(System::Action* value);
+    // Get instance field: private System.Action didSwitchPlayerToInactiveEvent
+    System::Action* _get_didSwitchPlayerToInactiveEvent();
+    // Set instance field: private System.Action didSwitchPlayerToInactiveEvent
+    void _set_didSwitchPlayerToInactiveEvent(System::Action* value);
+    // Get instance field: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
+    System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* _get_playerDidFinishEvent();
+    // Set instance field: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
+    void _set_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+    // Get instance field: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
+    System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* _get_playerNetworkDidFailedEvent();
+    // Set instance field: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
+    void _set_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
+    // Get instance field: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerFacade
+    GlobalNamespace::MultiplayerLocalActivePlayerFacade* _get__activeLocalPlayerFacade();
+    // Set instance field: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerFacade
+    void _set__activeLocalPlayerFacade(GlobalNamespace::MultiplayerLocalActivePlayerFacade* value);
+    // Get instance field: private MultiplayerLocalInactivePlayerFacade _inactiveLocalPlayerFacade
+    GlobalNamespace::MultiplayerLocalInactivePlayerFacade* _get__inactiveLocalPlayerFacade();
+    // Set instance field: private MultiplayerLocalInactivePlayerFacade _inactiveLocalPlayerFacade
+    void _set__inactiveLocalPlayerFacade(GlobalNamespace::MultiplayerLocalInactivePlayerFacade* value);
+    // Get instance field: private IMultiplayerLevelEndActionsPublisher _currentEventsPublisher
+    GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _get__currentEventsPublisher();
+    // Set instance field: private IMultiplayerLevelEndActionsPublisher _currentEventsPublisher
+    void _set__currentEventsPublisher(GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
+    // Get instance field: private IStartSeekSongControllerProvider _currentStartSeekSongControllerProvider
+    GlobalNamespace::IStartSeekSongControllerProvider* _get__currentStartSeekSongControllerProvider();
+    // Set instance field: private IStartSeekSongControllerProvider _currentStartSeekSongControllerProvider
+    void _set__currentStartSeekSongControllerProvider(GlobalNamespace::IStartSeekSongControllerProvider* value);
+    // Get instance field: private MultiplayerLocalActivePlayerFacade/Factory _activeLocalPlayerFactory
+    GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory* _get__activeLocalPlayerFactory();
+    // Set instance field: private MultiplayerLocalActivePlayerFacade/Factory _activeLocalPlayerFactory
+    void _set__activeLocalPlayerFactory(GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory* value);
+    // Get instance field: private MultiplayerLocalInactivePlayerFacade/Factory _inactiveLocalPlayerFactory
+    GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory* _get__inactiveLocalPlayerFactory();
+    // Set instance field: private MultiplayerLocalInactivePlayerFacade/Factory _inactiveLocalPlayerFactory
+    void _set__inactiveLocalPlayerFactory(GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory* value);
+    // Get instance field: private MultiplayerConnectedPlayerFacade/Factory _connectedPlayerFactory
+    GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory* _get__connectedPlayerFactory();
+    // Set instance field: private MultiplayerConnectedPlayerFacade/Factory _connectedPlayerFactory
+    void _set__connectedPlayerFactory(GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerConnectedPlayerFacade> _connectedPlayerControllersMap
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*>* _get__connectedPlayerControllersMap();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerConnectedPlayerFacade> _connectedPlayerControllersMap
+    void _set__connectedPlayerControllersMap(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _connectedPlayerCenterFacingRotationsMap
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* _get__connectedPlayerCenterFacingRotationsMap();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _connectedPlayerCenterFacingRotationsMap
+    void _set__connectedPlayerCenterFacingRotationsMap(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* value);
+    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> _allActiveAtGameStartPlayers
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* _get__allActiveAtGameStartPlayers();
+    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> _allActiveAtGameStartPlayers
+    void _set__allActiveAtGameStartPlayers(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Boolean get_playerSpawningFinished()
     // Offset: 0x23E0790
     bool get_playerSpawningFinished();

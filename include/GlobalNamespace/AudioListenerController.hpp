@@ -29,6 +29,10 @@ namespace GlobalNamespace {
     AudioListenerController(bool startAudioListenerPauseState_ = {}) noexcept : startAudioListenerPauseState{startAudioListenerPauseState_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Boolean _startAudioListenerPauseState
+    bool _get__startAudioListenerPauseState();
+    // Set instance field: private System.Boolean _startAudioListenerPauseState
+    void _set__startAudioListenerPauseState(bool value);
     // public System.Boolean get_isPaused()
     // Offset: 0x10DC01C
     bool get_isPaused();

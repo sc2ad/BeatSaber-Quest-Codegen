@@ -29,6 +29,10 @@ namespace System::Threading {
     constexpr operator int() const noexcept {
       return flag;
     }
+    // Get instance field: private System.Int32 flag
+    int _get_flag();
+    // Set instance field: private System.Int32 flag
+    void _set_flag(int value);
     // public System.Boolean TryRelaxedSet()
     // Offset: 0x18A157C
     bool TryRelaxedSet();

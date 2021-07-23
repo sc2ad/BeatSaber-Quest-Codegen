@@ -41,6 +41,18 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CalApplicationFinalized
     CalApplicationFinalized(int CountdownMS_ = {}, uint64_t _ID_ = {}, ::Il2CppString* LaunchDetails_ = {}) noexcept : CountdownMS{CountdownMS_}, _ID{_ID_}, LaunchDetails{LaunchDetails_} {}
+    // Get instance field: public readonly System.Int32 CountdownMS
+    int _get_CountdownMS();
+    // Set instance field: public readonly System.Int32 CountdownMS
+    void _set_CountdownMS(int value);
+    // Get instance field: public readonly System.UInt64 ID
+    uint64_t _get_ID();
+    // Set instance field: public readonly System.UInt64 ID
+    void _set_ID(uint64_t value);
+    // Get instance field: public readonly System.String LaunchDetails
+    ::Il2CppString* _get_LaunchDetails();
+    // Set instance field: public readonly System.String LaunchDetails
+    void _set_LaunchDetails(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A04A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

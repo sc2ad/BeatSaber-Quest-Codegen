@@ -61,6 +61,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LeaderboardPlayerInfo
     LeaderboardPlayerInfo(::Il2CppString* serverKey_ = {}, ::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, ::Il2CppString* playerKey_ = {}, ::Il2CppString* authType_ = {}, ::Il2CppString* playerFriends_ = {}, bool succeeded_ = {}) noexcept : serverKey{serverKey_}, playerId{playerId_}, playerName{playerName_}, playerKey{playerKey_}, authType{authType_}, playerFriends{playerFriends_}, succeeded{succeeded_} {}
+    // Get instance field: public System.String serverKey
+    ::Il2CppString* _get_serverKey();
+    // Set instance field: public System.String serverKey
+    void _set_serverKey(::Il2CppString* value);
+    // Get instance field: private System.String <playerId>k__BackingField
+    ::Il2CppString* _get_$playerId$k__BackingField();
+    // Set instance field: private System.String <playerId>k__BackingField
+    void _set_$playerId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <playerName>k__BackingField
+    ::Il2CppString* _get_$playerName$k__BackingField();
+    // Set instance field: private System.String <playerName>k__BackingField
+    void _set_$playerName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <playerKey>k__BackingField
+    ::Il2CppString* _get_$playerKey$k__BackingField();
+    // Set instance field: private System.String <playerKey>k__BackingField
+    void _set_$playerKey$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <authType>k__BackingField
+    ::Il2CppString* _get_$authType$k__BackingField();
+    // Set instance field: private System.String <authType>k__BackingField
+    void _set_$authType$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <playerFriends>k__BackingField
+    ::Il2CppString* _get_$playerFriends$k__BackingField();
+    // Set instance field: private System.String <playerFriends>k__BackingField
+    void _set_$playerFriends$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <succeeded>k__BackingField
+    bool _get_$succeeded$k__BackingField();
+    // Set instance field: private System.Boolean <succeeded>k__BackingField
+    void _set_$succeeded$k__BackingField(bool value);
     // public System.String get_playerId()
     // Offset: 0x10EF168
     ::Il2CppString* get_playerId();

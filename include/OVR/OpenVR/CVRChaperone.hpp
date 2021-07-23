@@ -44,6 +44,10 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVRChaperone() const noexcept {
       return FnTable;
     }
+    // Get instance field: private OVR.OpenVR.IVRChaperone FnTable
+    OVR::OpenVR::IVRChaperone _get_FnTable();
+    // Set instance field: private OVR.OpenVR.IVRChaperone FnTable
+    void _set_FnTable(OVR::OpenVR::IVRChaperone value);
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x157CB90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

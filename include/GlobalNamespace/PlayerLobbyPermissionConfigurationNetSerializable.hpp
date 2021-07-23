@@ -64,6 +64,26 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Get instance field: private System.String _userId
+    ::Il2CppString* _get__userId();
+    // Set instance field: private System.String _userId
+    void _set__userId(::Il2CppString* value);
+    // Get instance field: private System.Boolean _isServerOwner
+    bool _get__isServerOwner();
+    // Set instance field: private System.Boolean _isServerOwner
+    void _set__isServerOwner(bool value);
+    // Get instance field: private System.Boolean _hasRecommendBeatmapsPermission
+    bool _get__hasRecommendBeatmapsPermission();
+    // Set instance field: private System.Boolean _hasRecommendBeatmapsPermission
+    void _set__hasRecommendBeatmapsPermission(bool value);
+    // Get instance field: private System.Boolean _hasRecommendGameplayModifiersPermission
+    bool _get__hasRecommendGameplayModifiersPermission();
+    // Set instance field: private System.Boolean _hasRecommendGameplayModifiersPermission
+    void _set__hasRecommendGameplayModifiersPermission(bool value);
+    // Get instance field: private System.Boolean _hasKickVotePermission
+    bool _get__hasKickVotePermission();
+    // Set instance field: private System.Boolean _hasKickVotePermission
+    void _set__hasKickVotePermission(bool value);
     // public System.String get_userId()
     // Offset: 0x2328DAC
     ::Il2CppString* get_userId();

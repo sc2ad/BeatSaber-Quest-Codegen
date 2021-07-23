@@ -52,6 +52,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::ShareMediaStatus _get_Canceled();
     // Set static field: static public Oculus.Platform.ShareMediaStatus Canceled
     static void _set_Canceled(Oculus::Platform::ShareMediaStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.ShareMediaStatus
   #pragma pack(pop)
   static check_size<sizeof(ShareMediaStatus), 0 + sizeof(int)> __Oculus_Platform_ShareMediaStatusSizeCheck;

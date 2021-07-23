@@ -60,6 +60,26 @@ namespace GlobalNamespace {
     NoteDebrisSimplePhysics(UnityEngine::Vector3 currentForce_ = {}, UnityEngine::Vector3 currentTorque_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Vector3 gravity_ = {}, bool firstUpdate_ = {}) noexcept : currentForce{currentForce_}, currentTorque{currentTorque_}, transform{transform_}, gravity{gravity_}, firstUpdate{firstUpdate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Vector3 _currentForce
+    UnityEngine::Vector3 _get__currentForce();
+    // Set instance field: private UnityEngine.Vector3 _currentForce
+    void _set__currentForce(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _currentTorque
+    UnityEngine::Vector3 _get__currentTorque();
+    // Set instance field: private UnityEngine.Vector3 _currentTorque
+    void _set__currentTorque(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Vector3 _gravity
+    UnityEngine::Vector3 _get__gravity();
+    // Set instance field: private UnityEngine.Vector3 _gravity
+    void _set__gravity(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean _firstUpdate
+    bool _get__firstUpdate();
+    // Set instance field: private System.Boolean _firstUpdate
+    void _set__firstUpdate(bool value);
     // protected System.Void Start()
     // Offset: 0x11E34FC
     void Start();

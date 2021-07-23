@@ -142,6 +142,70 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
     // Creating value type constructor for type: IKSolverLookAt
     IKSolverLookAt(UnityEngine::Transform* target_ = {}, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* spine_ = {}, RootMotion::FinalIK::IKSolverLookAt::LookAtBone* head_ = {}, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* eyes_ = {}, float bodyWeight_ = {}, float headWeight_ = {}, float eyesWeight_ = {}, float clampWeight_ = {}, float clampWeightHead_ = {}, float clampWeightEyes_ = {}, int clampSmoothing_ = {}, UnityEngine::AnimationCurve* spineWeightCurve_ = {}, UnityEngine::Vector3 spineTargetOffset_ = {}, ::Array<UnityEngine::Vector3>* spineForwards_ = {}, ::Array<UnityEngine::Vector3>* headForwards_ = {}, ::Array<UnityEngine::Vector3>* eyeForward_ = {}) noexcept : target{target_}, spine{spine_}, head{head_}, eyes{eyes_}, bodyWeight{bodyWeight_}, headWeight{headWeight_}, eyesWeight{eyesWeight_}, clampWeight{clampWeight_}, clampWeightHead{clampWeightHead_}, clampWeightEyes{clampWeightEyes_}, clampSmoothing{clampSmoothing_}, spineWeightCurve{spineWeightCurve_}, spineTargetOffset{spineTargetOffset_}, spineForwards{spineForwards_}, headForwards{headForwards_}, eyeForward{eyeForward_} {}
+    // Get instance field: public UnityEngine.Transform target
+    UnityEngine::Transform* _get_target();
+    // Set instance field: public UnityEngine.Transform target
+    void _set_target(UnityEngine::Transform* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] spine
+    ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* _get_spine();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] spine
+    void _set_spine(::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone head
+    RootMotion::FinalIK::IKSolverLookAt::LookAtBone* _get_head();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone head
+    void _set_head(RootMotion::FinalIK::IKSolverLookAt::LookAtBone* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] eyes
+    ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* _get_eyes();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] eyes
+    void _set_eyes(::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* value);
+    // Get instance field: public System.Single bodyWeight
+    float _get_bodyWeight();
+    // Set instance field: public System.Single bodyWeight
+    void _set_bodyWeight(float value);
+    // Get instance field: public System.Single headWeight
+    float _get_headWeight();
+    // Set instance field: public System.Single headWeight
+    void _set_headWeight(float value);
+    // Get instance field: public System.Single eyesWeight
+    float _get_eyesWeight();
+    // Set instance field: public System.Single eyesWeight
+    void _set_eyesWeight(float value);
+    // Get instance field: public System.Single clampWeight
+    float _get_clampWeight();
+    // Set instance field: public System.Single clampWeight
+    void _set_clampWeight(float value);
+    // Get instance field: public System.Single clampWeightHead
+    float _get_clampWeightHead();
+    // Set instance field: public System.Single clampWeightHead
+    void _set_clampWeightHead(float value);
+    // Get instance field: public System.Single clampWeightEyes
+    float _get_clampWeightEyes();
+    // Set instance field: public System.Single clampWeightEyes
+    void _set_clampWeightEyes(float value);
+    // Get instance field: public System.Int32 clampSmoothing
+    int _get_clampSmoothing();
+    // Set instance field: public System.Int32 clampSmoothing
+    void _set_clampSmoothing(int value);
+    // Get instance field: public UnityEngine.AnimationCurve spineWeightCurve
+    UnityEngine::AnimationCurve* _get_spineWeightCurve();
+    // Set instance field: public UnityEngine.AnimationCurve spineWeightCurve
+    void _set_spineWeightCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.Vector3 spineTargetOffset
+    UnityEngine::Vector3 _get_spineTargetOffset();
+    // Set instance field: public UnityEngine.Vector3 spineTargetOffset
+    void _set_spineTargetOffset(UnityEngine::Vector3 value);
+    // Get instance field: protected UnityEngine.Vector3[] spineForwards
+    ::Array<UnityEngine::Vector3>* _get_spineForwards();
+    // Set instance field: protected UnityEngine.Vector3[] spineForwards
+    void _set_spineForwards(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: protected UnityEngine.Vector3[] headForwards
+    ::Array<UnityEngine::Vector3>* _get_headForwards();
+    // Set instance field: protected UnityEngine.Vector3[] headForwards
+    void _set_headForwards(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: protected UnityEngine.Vector3[] eyeForward
+    ::Array<UnityEngine::Vector3>* _get_eyeForward();
+    // Set instance field: protected UnityEngine.Vector3[] eyeForward
+    void _set_eyeForward(::Array<UnityEngine::Vector3>* value);
     // protected System.Boolean get_spineIsValid()
     // Offset: 0x1C6A3B8
     bool get_spineIsValid();

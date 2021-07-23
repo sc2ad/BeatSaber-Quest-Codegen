@@ -95,6 +95,34 @@ namespace System::IO {
     static System::Threading::ContextCallback* _get_s_invokeAsyncCallback();
     // Set static field: static private System.Threading.ContextCallback s_invokeAsyncCallback
     static void _set_s_invokeAsyncCallback(System::Threading::ContextCallback* value);
+    // Get instance field: readonly System.Boolean _isRead
+    bool _get__isRead();
+    // Set instance field: readonly System.Boolean _isRead
+    void _set__isRead(bool value);
+    // Get instance field: System.IO.Stream _stream
+    System::IO::Stream* _get__stream();
+    // Set instance field: System.IO.Stream _stream
+    void _set__stream(System::IO::Stream* value);
+    // Get instance field: System.Byte[] _buffer
+    ::Array<uint8_t>* _get__buffer();
+    // Set instance field: System.Byte[] _buffer
+    void _set__buffer(::Array<uint8_t>* value);
+    // Get instance field: System.Int32 _offset
+    int _get__offset();
+    // Set instance field: System.Int32 _offset
+    void _set__offset(int value);
+    // Get instance field: System.Int32 _count
+    int _get__count();
+    // Set instance field: System.Int32 _count
+    void _set__count(int value);
+    // Get instance field: private System.AsyncCallback _callback
+    System::AsyncCallback* _get__callback();
+    // Set instance field: private System.AsyncCallback _callback
+    void _set__callback(System::AsyncCallback* value);
+    // Get instance field: private System.Threading.ExecutionContext _context
+    System::Threading::ExecutionContext* _get__context();
+    // Set instance field: private System.Threading.ExecutionContext _context
+    void _set__context(System::Threading::ExecutionContext* value);
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
     // Offset: 0x192C63C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

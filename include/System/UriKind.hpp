@@ -49,6 +49,10 @@ namespace System {
     static System::UriKind _get_Relative();
     // Set static field: static public System.UriKind Relative
     static void _set_Relative(System::UriKind value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.UriKind
   #pragma pack(pop)
   static check_size<sizeof(UriKind), 0 + sizeof(int)> __System_UriKindSizeCheck;

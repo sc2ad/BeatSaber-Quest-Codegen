@@ -79,6 +79,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::StencilOp _get_DecrementWrap();
     // Set static field: static public UnityEngine.Rendering.StencilOp DecrementWrap
     static void _set_DecrementWrap(UnityEngine::Rendering::StencilOp value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.StencilOp
   #pragma pack(pop)
   static check_size<sizeof(StencilOp), 0 + sizeof(int)> __UnityEngine_Rendering_StencilOpSizeCheck;

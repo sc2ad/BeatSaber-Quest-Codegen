@@ -40,6 +40,10 @@ namespace UnityEngine {
     Light(int m_BakedIndex_ = {}) noexcept : m_BakedIndex{m_BakedIndex_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Int32 m_BakedIndex
+    int _get_m_BakedIndex();
+    // Set instance field: private System.Int32 m_BakedIndex
+    void _set_m_BakedIndex(int value);
     // public UnityEngine.LightType get_type()
     // Offset: 0x1BE9F84
     UnityEngine::LightType get_type();

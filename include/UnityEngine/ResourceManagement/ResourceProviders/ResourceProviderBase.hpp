@@ -77,6 +77,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator UnityEngine::ResourceManagement::Util::IInitializableObject() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
     }
+    // Get instance field: protected System.String m_ProviderId
+    ::Il2CppString* _get_m_ProviderId();
+    // Set instance field: protected System.String m_ProviderId
+    void _set_m_ProviderId(::Il2CppString* value);
+    // Get instance field: protected UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags m_BehaviourFlags
+    UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags _get_m_BehaviourFlags();
+    // Set instance field: protected UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags m_BehaviourFlags
+    void _set_m_BehaviourFlags(UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags value);
     // public System.String get_ProviderId()
     // Offset: 0x19B9AD4
     ::Il2CppString* get_ProviderId();

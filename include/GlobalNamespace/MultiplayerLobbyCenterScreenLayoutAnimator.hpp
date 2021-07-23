@@ -71,6 +71,26 @@ namespace GlobalNamespace {
     MultiplayerLobbyCenterScreenLayoutAnimator(UnityEngine::RectTransform* nextLevelTransform_ = {}, UnityEngine::RectTransform* nextLevelBasePosition_ = {}, UnityEngine::RectTransform* nextLevelCountdownPosition_ = {}, float transitionDuration_ = {}, Tweening::TweeningManager* tweeningManager_ = {}) noexcept : nextLevelTransform{nextLevelTransform_}, nextLevelBasePosition{nextLevelBasePosition_}, nextLevelCountdownPosition{nextLevelCountdownPosition_}, transitionDuration{transitionDuration_}, tweeningManager{tweeningManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.RectTransform _nextLevelTransform
+    UnityEngine::RectTransform* _get__nextLevelTransform();
+    // Set instance field: private UnityEngine.RectTransform _nextLevelTransform
+    void _set__nextLevelTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.RectTransform _nextLevelBasePosition
+    UnityEngine::RectTransform* _get__nextLevelBasePosition();
+    // Set instance field: private UnityEngine.RectTransform _nextLevelBasePosition
+    void _set__nextLevelBasePosition(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.RectTransform _nextLevelCountdownPosition
+    UnityEngine::RectTransform* _get__nextLevelCountdownPosition();
+    // Set instance field: private UnityEngine.RectTransform _nextLevelCountdownPosition
+    void _set__nextLevelCountdownPosition(UnityEngine::RectTransform* value);
+    // Get instance field: private System.Single _transitionDuration
+    float _get__transitionDuration();
+    // Set instance field: private System.Single _transitionDuration
+    void _set__transitionDuration(float value);
+    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager* _get__tweeningManager();
+    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
+    void _set__tweeningManager(Tweening::TweeningManager* value);
     // public System.Void StartCountdown()
     // Offset: 0x23CF0F0
     void StartCountdown();

@@ -129,6 +129,62 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest contentDigest1
+    Org::BouncyCastle::Crypto::IDigest* _get_contentDigest1();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest contentDigest1
+    void _set_contentDigest1(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest contentDigest2
+    Org::BouncyCastle::Crypto::IDigest* _get_contentDigest2();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest contentDigest2
+    void _set_contentDigest2(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IDigest mgfDigest
+    Org::BouncyCastle::Crypto::IDigest* _get_mgfDigest();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IDigest mgfDigest
+    void _set_mgfDigest(Org::BouncyCastle::Crypto::IDigest* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
+    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
+    // Get instance field: private System.Int32 hLen
+    int _get_hLen();
+    // Set instance field: private System.Int32 hLen
+    void _set_hLen(int value);
+    // Get instance field: private System.Int32 mgfhLen
+    int _get_mgfhLen();
+    // Set instance field: private System.Int32 mgfhLen
+    void _set_mgfhLen(int value);
+    // Get instance field: private System.Int32 sLen
+    int _get_sLen();
+    // Set instance field: private System.Int32 sLen
+    void _set_sLen(int value);
+    // Get instance field: private System.Boolean sSet
+    bool _get_sSet();
+    // Set instance field: private System.Boolean sSet
+    void _set_sSet(bool value);
+    // Get instance field: private System.Int32 emBits
+    int _get_emBits();
+    // Set instance field: private System.Int32 emBits
+    void _set_emBits(int value);
+    // Get instance field: private System.Byte[] salt
+    ::Array<uint8_t>* _get_salt();
+    // Set instance field: private System.Byte[] salt
+    void _set_salt(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] mDash
+    ::Array<uint8_t>* _get_mDash();
+    // Set instance field: private System.Byte[] mDash
+    void _set_mDash(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] block
+    ::Array<uint8_t>* _get_block();
+    // Set instance field: private System.Byte[] block
+    void _set_block(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte trailer
+    uint8_t _get_trailer();
+    // Set instance field: private System.Byte trailer
+    void _set_trailer(uint8_t value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x1235384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

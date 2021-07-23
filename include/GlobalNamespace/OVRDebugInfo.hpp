@@ -200,6 +200,118 @@ namespace GlobalNamespace {
     OVRDebugInfo(UnityEngine::GameObject* debugUIManager_ = {}, UnityEngine::GameObject* debugUIObject_ = {}, UnityEngine::GameObject* riftPresent_ = {}, UnityEngine::GameObject* fps_ = {}, UnityEngine::GameObject* ipd_ = {}, UnityEngine::GameObject* fov_ = {}, UnityEngine::GameObject* height_ = {}, UnityEngine::GameObject* depth_ = {}, UnityEngine::GameObject* resolutionEyeTexture_ = {}, UnityEngine::GameObject* latencies_ = {}, UnityEngine::GameObject* texts_ = {}, ::Il2CppString* strRiftPresent_ = {}, ::Il2CppString* strFPS_ = {}, ::Il2CppString* strIPD_ = {}, ::Il2CppString* strFOV_ = {}, ::Il2CppString* strHeight_ = {}, ::Il2CppString* strDepth_ = {}, ::Il2CppString* strResolutionEyeTexture_ = {}, ::Il2CppString* strLatencies_ = {}, float updateInterval_ = {}, float accum_ = {}, int frames_ = {}, float timeLeft_ = {}, bool initUIComponent_ = {}, bool isInited_ = {}, float offsetY_ = {}, float riftPresentTimeout_ = {}, bool showVRVars_ = {}) noexcept : debugUIManager{debugUIManager_}, debugUIObject{debugUIObject_}, riftPresent{riftPresent_}, fps{fps_}, ipd{ipd_}, fov{fov_}, height{height_}, depth{depth_}, resolutionEyeTexture{resolutionEyeTexture_}, latencies{latencies_}, texts{texts_}, strRiftPresent{strRiftPresent_}, strFPS{strFPS_}, strIPD{strIPD_}, strFOV{strFOV_}, strHeight{strHeight_}, strDepth{strDepth_}, strResolutionEyeTexture{strResolutionEyeTexture_}, strLatencies{strLatencies_}, updateInterval{updateInterval_}, accum{accum_}, frames{frames_}, timeLeft{timeLeft_}, initUIComponent{initUIComponent_}, isInited{isInited_}, offsetY{offsetY_}, riftPresentTimeout{riftPresentTimeout_}, showVRVars{showVRVars_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.GameObject debugUIManager
+    UnityEngine::GameObject* _get_debugUIManager();
+    // Set instance field: private UnityEngine.GameObject debugUIManager
+    void _set_debugUIManager(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject debugUIObject
+    UnityEngine::GameObject* _get_debugUIObject();
+    // Set instance field: private UnityEngine.GameObject debugUIObject
+    void _set_debugUIObject(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject riftPresent
+    UnityEngine::GameObject* _get_riftPresent();
+    // Set instance field: private UnityEngine.GameObject riftPresent
+    void _set_riftPresent(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject fps
+    UnityEngine::GameObject* _get_fps();
+    // Set instance field: private UnityEngine.GameObject fps
+    void _set_fps(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject ipd
+    UnityEngine::GameObject* _get_ipd();
+    // Set instance field: private UnityEngine.GameObject ipd
+    void _set_ipd(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject fov
+    UnityEngine::GameObject* _get_fov();
+    // Set instance field: private UnityEngine.GameObject fov
+    void _set_fov(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject height
+    UnityEngine::GameObject* _get_height();
+    // Set instance field: private UnityEngine.GameObject height
+    void _set_height(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject depth
+    UnityEngine::GameObject* _get_depth();
+    // Set instance field: private UnityEngine.GameObject depth
+    void _set_depth(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject resolutionEyeTexture
+    UnityEngine::GameObject* _get_resolutionEyeTexture();
+    // Set instance field: private UnityEngine.GameObject resolutionEyeTexture
+    void _set_resolutionEyeTexture(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject latencies
+    UnityEngine::GameObject* _get_latencies();
+    // Set instance field: private UnityEngine.GameObject latencies
+    void _set_latencies(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject texts
+    UnityEngine::GameObject* _get_texts();
+    // Set instance field: private UnityEngine.GameObject texts
+    void _set_texts(UnityEngine::GameObject* value);
+    // Get instance field: private System.String strRiftPresent
+    ::Il2CppString* _get_strRiftPresent();
+    // Set instance field: private System.String strRiftPresent
+    void _set_strRiftPresent(::Il2CppString* value);
+    // Get instance field: private System.String strFPS
+    ::Il2CppString* _get_strFPS();
+    // Set instance field: private System.String strFPS
+    void _set_strFPS(::Il2CppString* value);
+    // Get instance field: private System.String strIPD
+    ::Il2CppString* _get_strIPD();
+    // Set instance field: private System.String strIPD
+    void _set_strIPD(::Il2CppString* value);
+    // Get instance field: private System.String strFOV
+    ::Il2CppString* _get_strFOV();
+    // Set instance field: private System.String strFOV
+    void _set_strFOV(::Il2CppString* value);
+    // Get instance field: private System.String strHeight
+    ::Il2CppString* _get_strHeight();
+    // Set instance field: private System.String strHeight
+    void _set_strHeight(::Il2CppString* value);
+    // Get instance field: private System.String strDepth
+    ::Il2CppString* _get_strDepth();
+    // Set instance field: private System.String strDepth
+    void _set_strDepth(::Il2CppString* value);
+    // Get instance field: private System.String strResolutionEyeTexture
+    ::Il2CppString* _get_strResolutionEyeTexture();
+    // Set instance field: private System.String strResolutionEyeTexture
+    void _set_strResolutionEyeTexture(::Il2CppString* value);
+    // Get instance field: private System.String strLatencies
+    ::Il2CppString* _get_strLatencies();
+    // Set instance field: private System.String strLatencies
+    void _set_strLatencies(::Il2CppString* value);
+    // Get instance field: private System.Single updateInterval
+    float _get_updateInterval();
+    // Set instance field: private System.Single updateInterval
+    void _set_updateInterval(float value);
+    // Get instance field: private System.Single accum
+    float _get_accum();
+    // Set instance field: private System.Single accum
+    void _set_accum(float value);
+    // Get instance field: private System.Int32 frames
+    int _get_frames();
+    // Set instance field: private System.Int32 frames
+    void _set_frames(int value);
+    // Get instance field: private System.Single timeLeft
+    float _get_timeLeft();
+    // Set instance field: private System.Single timeLeft
+    void _set_timeLeft(float value);
+    // Get instance field: private System.Boolean initUIComponent
+    bool _get_initUIComponent();
+    // Set instance field: private System.Boolean initUIComponent
+    void _set_initUIComponent(bool value);
+    // Get instance field: private System.Boolean isInited
+    bool _get_isInited();
+    // Set instance field: private System.Boolean isInited
+    void _set_isInited(bool value);
+    // Get instance field: private System.Single offsetY
+    float _get_offsetY();
+    // Set instance field: private System.Single offsetY
+    void _set_offsetY(float value);
+    // Get instance field: private System.Single riftPresentTimeout
+    float _get_riftPresentTimeout();
+    // Set instance field: private System.Single riftPresentTimeout
+    void _set_riftPresentTimeout(float value);
+    // Get instance field: private System.Boolean showVRVars
+    bool _get_showVRVars();
+    // Set instance field: private System.Boolean showVRVars
+    void _set_showVRVars(bool value);
     // private System.Void Awake()
     // Offset: 0x1253D00
     void Awake();

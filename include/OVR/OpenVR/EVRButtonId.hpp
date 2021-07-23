@@ -157,6 +157,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRButtonId _get_k_EButton_Max();
     // Set static field: static public OVR.OpenVR.EVRButtonId k_EButton_Max
     static void _set_k_EButton_Max(OVR::OpenVR::EVRButtonId value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRButtonId
   #pragma pack(pop)
   static check_size<sizeof(EVRButtonId), 0 + sizeof(int)> __OVR_OpenVR_EVRButtonIdSizeCheck;

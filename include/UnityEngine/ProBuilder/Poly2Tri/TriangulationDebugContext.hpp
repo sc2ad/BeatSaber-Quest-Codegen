@@ -32,6 +32,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept {
       return tcx;
     }
+    // Get instance field: protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _get__tcx();
+    // Set instance field: protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
+    void _set__tcx(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear();

@@ -50,6 +50,18 @@ namespace TMPro {
     TMP_Asset(int hashCode_ = {}, UnityEngine::Material* material_ = {}, int materialHashCode_ = {}) noexcept : hashCode{hashCode_}, material{material_}, materialHashCode{materialHashCode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Int32 hashCode
+    int _get_hashCode();
+    // Set instance field: public System.Int32 hashCode
+    void _set_hashCode(int value);
+    // Get instance field: public UnityEngine.Material material
+    UnityEngine::Material* _get_material();
+    // Set instance field: public UnityEngine.Material material
+    void _set_material(UnityEngine::Material* value);
+    // Get instance field: public System.Int32 materialHashCode
+    int _get_materialHashCode();
+    // Set instance field: public System.Int32 materialHashCode
+    void _set_materialHashCode(int value);
     // public System.Void .ctor()
     // Offset: 0x10BD9D4
     // Implemented from: UnityEngine.ScriptableObject

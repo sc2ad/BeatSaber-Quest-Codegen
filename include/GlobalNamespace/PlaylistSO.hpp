@@ -61,6 +61,18 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _playListLocalizedName
+    ::Il2CppString* _get__playListLocalizedName();
+    // Set instance field: private System.String _playListLocalizedName
+    void _set__playListLocalizedName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Sprite _coverImage
+    UnityEngine::Sprite* _get__coverImage();
+    // Set instance field: private UnityEngine.Sprite _coverImage
+    void _set__coverImage(UnityEngine::Sprite* value);
+    // Get instance field: private BeatmapLevelCollectionSO _beatmapLevelCollection
+    GlobalNamespace::BeatmapLevelCollectionSO* _get__beatmapLevelCollection();
+    // Set instance field: private BeatmapLevelCollectionSO _beatmapLevelCollection
+    void _set__beatmapLevelCollection(GlobalNamespace::BeatmapLevelCollectionSO* value);
     // public System.String get_collectionName()
     // Offset: 0x11084D0
     ::Il2CppString* get_collectionName();

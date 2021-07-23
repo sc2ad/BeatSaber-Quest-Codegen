@@ -51,6 +51,10 @@ namespace System::Diagnostics {
     static System::Diagnostics::StackTrace::TraceFormat _get_NoResourceLookup();
     // Set static field: static public System.Diagnostics.StackTrace/System.Diagnostics.TraceFormat NoResourceLookup
     static void _set_NoResourceLookup(System::Diagnostics::StackTrace::TraceFormat value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Diagnostics.StackTrace/System.Diagnostics.TraceFormat
   #pragma pack(pop)
   static check_size<sizeof(StackTrace::TraceFormat), 0 + sizeof(int)> __System_Diagnostics_StackTrace_TraceFormatSizeCheck;

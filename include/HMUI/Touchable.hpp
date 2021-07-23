@@ -36,6 +36,10 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Touchable
     Touchable(float skew_ = {}) noexcept : skew{skew_} {}
+    // Get instance field: private System.Single _skew
+    float _get__skew();
+    // Set instance field: private System.Single _skew
+    void _set__skew(float value);
     // public System.Single get_skew()
     // Offset: 0x12A37C4
     float get_skew();

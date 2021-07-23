@@ -38,6 +38,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ElGamalKeyParameters(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters_ = {}) noexcept : parameters{parameters_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters
+    Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters
+    void _set_parameters(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* value);
     // public Org.BouncyCastle.Crypto.Parameters.ElGamalParameters get_Parameters()
     // Offset: 0x122BA38
     Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();

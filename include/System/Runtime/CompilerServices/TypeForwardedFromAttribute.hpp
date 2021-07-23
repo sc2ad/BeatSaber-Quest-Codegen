@@ -32,6 +32,10 @@ namespace System::Runtime::CompilerServices {
     constexpr operator ::Il2CppString*() const noexcept {
       return assemblyFullName;
     }
+    // Get instance field: private System.String assemblyFullName
+    ::Il2CppString* _get_assemblyFullName();
+    // Set instance field: private System.String assemblyFullName
+    void _set_assemblyFullName(::Il2CppString* value);
     // public System.String get_AssemblyFullName()
     // Offset: 0x13F08A0
     ::Il2CppString* get_AssemblyFullName();

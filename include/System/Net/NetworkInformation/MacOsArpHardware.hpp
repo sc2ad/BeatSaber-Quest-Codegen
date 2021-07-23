@@ -67,6 +67,10 @@ namespace System::Net::NetworkInformation {
     static System::Net::NetworkInformation::MacOsArpHardware _get_FDDI();
     // Set static field: static public System.Net.NetworkInformation.MacOsArpHardware FDDI
     static void _set_FDDI(System::Net::NetworkInformation::MacOsArpHardware value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.NetworkInformation.MacOsArpHardware
   #pragma pack(pop)
   static check_size<sizeof(MacOsArpHardware), 0 + sizeof(int)> __System_Net_NetworkInformation_MacOsArpHardwareSizeCheck;

@@ -115,6 +115,10 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::FormatUsage _get_StencilSampling();
     // Set static field: static public UnityEngine.Experimental.Rendering.FormatUsage StencilSampling
     static void _set_StencilSampling(UnityEngine::Experimental::Rendering::FormatUsage value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Experimental.Rendering.FormatUsage
   #pragma pack(pop)
   static check_size<sizeof(FormatUsage), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_FormatUsageSizeCheck;

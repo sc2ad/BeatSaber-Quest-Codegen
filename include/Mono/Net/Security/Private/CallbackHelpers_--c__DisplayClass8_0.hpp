@@ -46,6 +46,10 @@ namespace Mono::Net::Security::Private {
     constexpr operator Mono::Security::Interface::MonoLocalCertificateSelectionCallback*() const noexcept {
       return callback;
     }
+    // Get instance field: public Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback
+    Mono::Security::Interface::MonoLocalCertificateSelectionCallback* _get_callback();
+    // Set instance field: public Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback
+    void _set_callback(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
     // System.Security.Cryptography.X509Certificates.X509Certificate <MonoToInternal>b__0(System.String t, System.Security.Cryptography.X509Certificates.X509CertificateCollection lc, System.Security.Cryptography.X509Certificates.X509Certificate rc, System.String[] ai)
     // Offset: 0x15B1284
     System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::Il2CppString* t, System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::Array<::Il2CppString*>* ai);

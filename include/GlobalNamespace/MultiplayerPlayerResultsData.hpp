@@ -54,6 +54,18 @@ namespace GlobalNamespace {
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);
     }
+    // Get instance field: public readonly IConnectedPlayer connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get_connectedPlayer();
+    // Set instance field: public readonly IConnectedPlayer connectedPlayer
+    void _set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: public readonly MultiplayerLevelCompletionResults multiplayerLevelCompletionResults
+    GlobalNamespace::MultiplayerLevelCompletionResults* _get_multiplayerLevelCompletionResults();
+    // Set instance field: public readonly MultiplayerLevelCompletionResults multiplayerLevelCompletionResults
+    void _set_multiplayerLevelCompletionResults(GlobalNamespace::MultiplayerLevelCompletionResults* value);
+    // Get instance field: public MultiplayerBadgeAwardData badge
+    GlobalNamespace::MultiplayerBadgeAwardData* _get_badge();
+    // Set instance field: public MultiplayerBadgeAwardData badge
+    void _set_badge(GlobalNamespace::MultiplayerBadgeAwardData* value);
     // public System.Void .ctor(IConnectedPlayer connectedPlayer, MultiplayerLevelCompletionResults multiplayerLevelCompletionResults)
     // Offset: 0x23E057C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

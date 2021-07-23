@@ -56,6 +56,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: NotesInTimeRowProcessor
     NotesInTimeRowProcessor(::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* notesInColumns_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowColorNotes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowAllNotes_ = {}, float prevBasicNotesTimeRowTime_ = {}) noexcept : notesInColumns{notesInColumns_}, currentTimeRowColorNotes{currentTimeRowColorNotes_}, currentTimeRowAllNotes{currentTimeRowAllNotes_}, prevBasicNotesTimeRowTime{prevBasicNotesTimeRowTime_} {}
+    // Get instance field: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
+    ::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* _get__notesInColumns();
+    // Set instance field: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
+    void _set__notesInColumns(::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
+    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* _get__currentTimeRowColorNotes();
+    // Set instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
+    void _set__currentTimeRowColorNotes(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
+    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* _get__currentTimeRowAllNotes();
+    // Set instance field: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
+    void _set__currentTimeRowAllNotes(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* value);
+    // Get instance field: private System.Single _prevBasicNotesTimeRowTime
+    float _get__prevBasicNotesTimeRowTime();
+    // Set instance field: private System.Single _prevBasicNotesTimeRowTime
+    void _set__prevBasicNotesTimeRowTime(float value);
     // public System.Void .ctor(System.Int32 numberOfLines)
     // Offset: 0x23B73A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

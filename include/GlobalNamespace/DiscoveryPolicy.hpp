@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::DiscoveryPolicy _get_Public();
     // Set static field: static public DiscoveryPolicy Public
     static void _set_Public(GlobalNamespace::DiscoveryPolicy value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // DiscoveryPolicy
   #pragma pack(pop)
   static check_size<sizeof(DiscoveryPolicy), 0 + sizeof(uint8_t)> __GlobalNamespace_DiscoveryPolicySizeCheck;

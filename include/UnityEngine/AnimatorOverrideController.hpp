@@ -50,6 +50,10 @@ namespace UnityEngine {
     AnimatorOverrideController(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty_ = {}) noexcept : OnOverrideControllerDirty{OnOverrideControllerDirty_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty
+    UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* _get_OnOverrideControllerDirty();
+    // Set instance field: UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty
+    void _set_OnOverrideControllerDirty(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* value);
     // public System.Void .ctor(UnityEngine.RuntimeAnimatorController controller)
     // Offset: 0x233B318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

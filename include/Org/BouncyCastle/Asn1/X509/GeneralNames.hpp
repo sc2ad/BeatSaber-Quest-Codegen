@@ -47,6 +47,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     constexpr operator ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*() const noexcept {
       return names;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.GeneralName[] names
+    ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* _get_names();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.GeneralName[] names
+    void _set_names(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x19DA750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

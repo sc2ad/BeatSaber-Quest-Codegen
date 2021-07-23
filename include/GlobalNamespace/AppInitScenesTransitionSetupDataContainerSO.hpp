@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     AppInitScenesTransitionSetupDataContainerSO(GlobalNamespace::AppInitScenesTransitionSetupDataSO* appInitScenesTransitionSetupData_ = {}) noexcept : appInitScenesTransitionSetupData{appInitScenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public AppInitScenesTransitionSetupDataSO appInitScenesTransitionSetupData
+    GlobalNamespace::AppInitScenesTransitionSetupDataSO* _get_appInitScenesTransitionSetupData();
+    // Set instance field: public AppInitScenesTransitionSetupDataSO appInitScenesTransitionSetupData
+    void _set_appInitScenesTransitionSetupData(GlobalNamespace::AppInitScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
     // Offset: 0x10DA338
     // Implemented from: PersistentScriptableObject

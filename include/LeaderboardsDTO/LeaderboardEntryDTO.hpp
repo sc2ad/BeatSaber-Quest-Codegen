@@ -67,6 +67,34 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(::Array<LeaderboardsDTO::GameplayModifiersDto>*) == 0x8);
     // Creating value type constructor for type: LeaderboardEntryDTO
     LeaderboardEntryDTO(int score_ = {}, int unmodifiedScore_ = {}, int rank_ = {}, System::DateTime updated_ = {}, ::Il2CppString* userDisplayName_ = {}, ::Il2CppString* platformUserId_ = {}, ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers_ = {}) noexcept : score{score_}, unmodifiedScore{unmodifiedScore_}, rank{rank_}, updated{updated_}, userDisplayName{userDisplayName_}, platformUserId{platformUserId_}, gameplayModifiers{gameplayModifiers_} {}
+    // Get instance field: public System.Int32 score
+    int _get_score();
+    // Set instance field: public System.Int32 score
+    void _set_score(int value);
+    // Get instance field: public System.Int32 unmodifiedScore
+    int _get_unmodifiedScore();
+    // Set instance field: public System.Int32 unmodifiedScore
+    void _set_unmodifiedScore(int value);
+    // Get instance field: public System.Int32 rank
+    int _get_rank();
+    // Set instance field: public System.Int32 rank
+    void _set_rank(int value);
+    // Get instance field: public System.DateTime updated
+    System::DateTime _get_updated();
+    // Set instance field: public System.DateTime updated
+    void _set_updated(System::DateTime value);
+    // Get instance field: public System.String userDisplayName
+    ::Il2CppString* _get_userDisplayName();
+    // Set instance field: public System.String userDisplayName
+    void _set_userDisplayName(::Il2CppString* value);
+    // Get instance field: public System.String platformUserId
+    ::Il2CppString* _get_platformUserId();
+    // Set instance field: public System.String platformUserId
+    void _set_platformUserId(::Il2CppString* value);
+    // Get instance field: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
+    ::Array<LeaderboardsDTO::GameplayModifiersDto>* _get_gameplayModifiers();
+    // Set instance field: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
+    void _set_gameplayModifiers(::Array<LeaderboardsDTO::GameplayModifiersDto>* value);
     // public System.Void .ctor()
     // Offset: 0x10F0794
     // Implemented from: System.Object

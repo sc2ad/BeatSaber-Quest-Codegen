@@ -158,6 +158,82 @@ namespace UnityEngine::TextCore {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.String m_FamilyName
+    ::Il2CppString* _get_m_FamilyName();
+    // Set instance field: private System.String m_FamilyName
+    void _set_m_FamilyName(::Il2CppString* value);
+    // Get instance field: private System.String m_StyleName
+    ::Il2CppString* _get_m_StyleName();
+    // Set instance field: private System.String m_StyleName
+    void _set_m_StyleName(::Il2CppString* value);
+    // Get instance field: private System.Int32 m_PointSize
+    int _get_m_PointSize();
+    // Set instance field: private System.Int32 m_PointSize
+    void _set_m_PointSize(int value);
+    // Get instance field: private System.Single m_Scale
+    float _get_m_Scale();
+    // Set instance field: private System.Single m_Scale
+    void _set_m_Scale(float value);
+    // Get instance field: private System.Single m_LineHeight
+    float _get_m_LineHeight();
+    // Set instance field: private System.Single m_LineHeight
+    void _set_m_LineHeight(float value);
+    // Get instance field: private System.Single m_AscentLine
+    float _get_m_AscentLine();
+    // Set instance field: private System.Single m_AscentLine
+    void _set_m_AscentLine(float value);
+    // Get instance field: private System.Single m_CapLine
+    float _get_m_CapLine();
+    // Set instance field: private System.Single m_CapLine
+    void _set_m_CapLine(float value);
+    // Get instance field: private System.Single m_MeanLine
+    float _get_m_MeanLine();
+    // Set instance field: private System.Single m_MeanLine
+    void _set_m_MeanLine(float value);
+    // Get instance field: private System.Single m_Baseline
+    float _get_m_Baseline();
+    // Set instance field: private System.Single m_Baseline
+    void _set_m_Baseline(float value);
+    // Get instance field: private System.Single m_DescentLine
+    float _get_m_DescentLine();
+    // Set instance field: private System.Single m_DescentLine
+    void _set_m_DescentLine(float value);
+    // Get instance field: private System.Single m_SuperscriptOffset
+    float _get_m_SuperscriptOffset();
+    // Set instance field: private System.Single m_SuperscriptOffset
+    void _set_m_SuperscriptOffset(float value);
+    // Get instance field: private System.Single m_SuperscriptSize
+    float _get_m_SuperscriptSize();
+    // Set instance field: private System.Single m_SuperscriptSize
+    void _set_m_SuperscriptSize(float value);
+    // Get instance field: private System.Single m_SubscriptOffset
+    float _get_m_SubscriptOffset();
+    // Set instance field: private System.Single m_SubscriptOffset
+    void _set_m_SubscriptOffset(float value);
+    // Get instance field: private System.Single m_SubscriptSize
+    float _get_m_SubscriptSize();
+    // Set instance field: private System.Single m_SubscriptSize
+    void _set_m_SubscriptSize(float value);
+    // Get instance field: private System.Single m_UnderlineOffset
+    float _get_m_UnderlineOffset();
+    // Set instance field: private System.Single m_UnderlineOffset
+    void _set_m_UnderlineOffset(float value);
+    // Get instance field: private System.Single m_UnderlineThickness
+    float _get_m_UnderlineThickness();
+    // Set instance field: private System.Single m_UnderlineThickness
+    void _set_m_UnderlineThickness(float value);
+    // Get instance field: private System.Single m_StrikethroughOffset
+    float _get_m_StrikethroughOffset();
+    // Set instance field: private System.Single m_StrikethroughOffset
+    void _set_m_StrikethroughOffset(float value);
+    // Get instance field: private System.Single m_StrikethroughThickness
+    float _get_m_StrikethroughThickness();
+    // Set instance field: private System.Single m_StrikethroughThickness
+    void _set_m_StrikethroughThickness(float value);
+    // Get instance field: private System.Single m_TabWidth
+    float _get_m_TabWidth();
+    // Set instance field: private System.Single m_TabWidth
+    void _set_m_TabWidth(float value);
     // public System.Void set_familyName(System.String value)
     // Offset: 0xF0DDC4
     void set_familyName(::Il2CppString* value);

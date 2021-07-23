@@ -91,6 +91,30 @@ namespace Microsoft::Win32 {
     static Microsoft::Win32::IRegistryApi* _get_RegistryApi();
     // Set static field: static private readonly Microsoft.Win32.IRegistryApi RegistryApi
     static void _set_RegistryApi(Microsoft::Win32::IRegistryApi* value);
+    // Get instance field: private System.Object handle
+    ::Il2CppObject* _get_handle();
+    // Set instance field: private System.Object handle
+    void _set_handle(::Il2CppObject* value);
+    // Get instance field: private Microsoft.Win32.SafeHandles.SafeRegistryHandle safe_handle
+    Microsoft::Win32::SafeHandles::SafeRegistryHandle* _get_safe_handle();
+    // Set instance field: private Microsoft.Win32.SafeHandles.SafeRegistryHandle safe_handle
+    void _set_safe_handle(Microsoft::Win32::SafeHandles::SafeRegistryHandle* value);
+    // Get instance field: private System.Object hive
+    ::Il2CppObject* _get_hive();
+    // Set instance field: private System.Object hive
+    void _set_hive(::Il2CppObject* value);
+    // Get instance field: private readonly System.String qname
+    ::Il2CppString* _get_qname();
+    // Set instance field: private readonly System.String qname
+    void _set_qname(::Il2CppString* value);
+    // Get instance field: private readonly System.Boolean isRemoteRoot
+    bool _get_isRemoteRoot();
+    // Set instance field: private readonly System.Boolean isRemoteRoot
+    void _set_isRemoteRoot(bool value);
+    // Get instance field: private readonly System.Boolean isWritable
+    bool _get_isWritable();
+    // Set instance field: private readonly System.Boolean isWritable
+    void _set_isWritable(bool value);
     // public System.String get_Name()
     // Offset: 0x1A10FAC
     ::Il2CppString* get_Name();

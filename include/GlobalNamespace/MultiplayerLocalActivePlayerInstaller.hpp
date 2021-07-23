@@ -35,6 +35,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
     // Creating value type constructor for type: MultiplayerLocalActivePlayerInstaller
     MultiplayerLocalActivePlayerInstaller(GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
+    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
     // public System.Void .ctor()
     // Offset: 0x23D6C34
     // Implemented from: Zenject.MonoInstaller

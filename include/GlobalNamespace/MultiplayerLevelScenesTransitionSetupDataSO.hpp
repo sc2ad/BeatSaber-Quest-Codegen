@@ -132,6 +132,54 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
     // Creating value type constructor for type: MultiplayerLevelScenesTransitionSetupDataSO
     MultiplayerLevelScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* multiplayerLevelSceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, GlobalNamespace::EnvironmentInfoSO* multiplayerEnvironmentInfo_ = {}, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* didFinishEvent_ = {}, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* didDisconnectEvent_ = {}, ::Il2CppString* gameMode_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, bool usingOverrideColorScheme_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : multiplayerLevelSceneInfo{multiplayerLevelSceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, multiplayerEnvironmentInfo{multiplayerEnvironmentInfo_}, didFinishEvent{didFinishEvent_}, didDisconnectEvent{didDisconnectEvent_}, gameMode{gameMode_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, difficultyBeatmap{difficultyBeatmap_}, beatmapCharacteristic{beatmapCharacteristic_}, usingOverrideColorScheme{usingOverrideColorScheme_}, colorScheme{colorScheme_} {}
+    // Get instance field: private SceneInfo _multiplayerLevelSceneInfo
+    GlobalNamespace::SceneInfo* _get__multiplayerLevelSceneInfo();
+    // Set instance field: private SceneInfo _multiplayerLevelSceneInfo
+    void _set__multiplayerLevelSceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private SceneInfo _gameCoreSceneInfo
+    GlobalNamespace::SceneInfo* _get__gameCoreSceneInfo();
+    // Set instance field: private SceneInfo _gameCoreSceneInfo
+    void _set__gameCoreSceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private EnvironmentInfoSO _multiplayerEnvironmentInfo
+    GlobalNamespace::EnvironmentInfoSO* _get__multiplayerEnvironmentInfo();
+    // Set instance field: private EnvironmentInfoSO _multiplayerEnvironmentInfo
+    void _set__multiplayerEnvironmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
+    // Get instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> didFinishEvent
+    System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> didFinishEvent
+    void _set_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
+    // Get instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,DisconnectedReason> didDisconnectEvent
+    System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* _get_didDisconnectEvent();
+    // Set instance field: private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,DisconnectedReason> didDisconnectEvent
+    void _set_didDisconnectEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* value);
+    // Get instance field: private System.String <gameMode>k__BackingField
+    ::Il2CppString* _get_$gameMode$k__BackingField();
+    // Set instance field: private System.String <gameMode>k__BackingField
+    void _set_$gameMode$k__BackingField(::Il2CppString* value);
+    // Get instance field: private IPreviewBeatmapLevel <previewBeatmapLevel>k__BackingField
+    GlobalNamespace::IPreviewBeatmapLevel* _get_$previewBeatmapLevel$k__BackingField();
+    // Set instance field: private IPreviewBeatmapLevel <previewBeatmapLevel>k__BackingField
+    void _set_$previewBeatmapLevel$k__BackingField(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: private BeatmapDifficulty <beatmapDifficulty>k__BackingField
+    GlobalNamespace::BeatmapDifficulty _get_$beatmapDifficulty$k__BackingField();
+    // Set instance field: private BeatmapDifficulty <beatmapDifficulty>k__BackingField
+    void _set_$beatmapDifficulty$k__BackingField(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
+    GlobalNamespace::IDifficultyBeatmap* _get_$difficultyBeatmap$k__BackingField();
+    // Set instance field: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
+    void _set_$difficultyBeatmap$k__BackingField(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
+    GlobalNamespace::BeatmapCharacteristicSO* _get_$beatmapCharacteristic$k__BackingField();
+    // Set instance field: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
+    void _set_$beatmapCharacteristic$k__BackingField(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private System.Boolean <usingOverrideColorScheme>k__BackingField
+    bool _get_$usingOverrideColorScheme$k__BackingField();
+    // Set instance field: private System.Boolean <usingOverrideColorScheme>k__BackingField
+    void _set_$usingOverrideColorScheme$k__BackingField(bool value);
+    // Get instance field: private ColorScheme <colorScheme>k__BackingField
+    GlobalNamespace::ColorScheme* _get_$colorScheme$k__BackingField();
+    // Set instance field: private ColorScheme <colorScheme>k__BackingField
+    void _set_$colorScheme$k__BackingField(GlobalNamespace::ColorScheme* value);
     // public System.String get_gameMode()
     // Offset: 0x23CC40C
     ::Il2CppString* get_gameMode();

@@ -101,6 +101,34 @@ namespace GlobalNamespace {
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
     }
+    // Get instance field: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI* _get__text();
+    // Set instance field: private TMPro.TextMeshProUGUI _text
+    void _set__text(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private ColorSchemeView _colorSchemeView
+    GlobalNamespace::ColorSchemeView* _get__colorSchemeView();
+    // Set instance field: private ColorSchemeView _colorSchemeView
+    void _set__colorSchemeView(GlobalNamespace::ColorSchemeView* value);
+    // Get instance field: private ColorSchemeTableCell _cellPrefab
+    GlobalNamespace::ColorSchemeTableCell* _get__cellPrefab();
+    // Set instance field: private ColorSchemeTableCell _cellPrefab
+    void _set__cellPrefab(GlobalNamespace::ColorSchemeTableCell* value);
+    // Get instance field: private System.String _cellReuseIdentifier
+    ::Il2CppString* _get__cellReuseIdentifier();
+    // Set instance field: private System.String _cellReuseIdentifier
+    void _set__cellReuseIdentifier(::Il2CppString* value);
+    // Get instance field: private System.Single _cellSize
+    float _get__cellSize();
+    // Set instance field: private System.Single _cellSize
+    void _set__cellSize(float value);
+    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<ColorScheme> _colorSchemes
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>* _get__colorSchemes();
+    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<ColorScheme> _colorSchemes
+    void _set__colorSchemes(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>* value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
     // private System.Void LazyInit()
     // Offset: 0x107DEF4
     void LazyInit();

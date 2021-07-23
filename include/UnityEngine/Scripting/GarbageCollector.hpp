@@ -64,6 +64,10 @@ namespace UnityEngine::Scripting {
       static UnityEngine::Scripting::GarbageCollector::Mode _get_Enabled();
       // Set static field: static public UnityEngine.Scripting.GarbageCollector/UnityEngine.Scripting.Mode Enabled
       static void _set_Enabled(UnityEngine::Scripting::GarbageCollector::Mode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Scripting.GarbageCollector/UnityEngine.Scripting.Mode
     #pragma pack(pop)
     static check_size<sizeof(GarbageCollector::Mode), 0 + sizeof(int)> __UnityEngine_Scripting_GarbageCollector_ModeSizeCheck;

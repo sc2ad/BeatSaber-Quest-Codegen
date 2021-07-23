@@ -51,6 +51,10 @@ namespace System::IO {
     static System::IO::FileSystemWatcher::EventType _get_RenameEvent();
     // Set static field: static public System.IO.FileSystemWatcher/System.IO.EventType RenameEvent
     static void _set_RenameEvent(System::IO::FileSystemWatcher::EventType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IO.FileSystemWatcher/System.IO.EventType
   #pragma pack(pop)
   static check_size<sizeof(FileSystemWatcher::EventType), 0 + sizeof(int)> __System_IO_FileSystemWatcher_EventTypeSizeCheck;

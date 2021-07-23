@@ -49,6 +49,10 @@ namespace OVR::OpenVR {
     constexpr operator OVR::OpenVR::IVRScreenshots() const noexcept {
       return FnTable;
     }
+    // Get instance field: private OVR.OpenVR.IVRScreenshots FnTable
+    OVR::OpenVR::IVRScreenshots _get_FnTable();
+    // Set instance field: private OVR.OpenVR.IVRScreenshots FnTable
+    void _set_FnTable(OVR::OpenVR::IVRScreenshots value);
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1584384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

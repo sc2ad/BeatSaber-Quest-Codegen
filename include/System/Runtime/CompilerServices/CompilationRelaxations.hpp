@@ -39,6 +39,10 @@ namespace System::Runtime::CompilerServices {
     static System::Runtime::CompilerServices::CompilationRelaxations _get_NoStringInterning();
     // Set static field: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
     static void _set_NoStringInterning(System::Runtime::CompilerServices::CompilationRelaxations value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.CompilerServices.CompilationRelaxations
   #pragma pack(pop)
   static check_size<sizeof(CompilationRelaxations), 0 + sizeof(int)> __System_Runtime_CompilerServices_CompilationRelaxationsSizeCheck;

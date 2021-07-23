@@ -44,6 +44,10 @@ namespace NUnit::Framework::Internal {
     constexpr operator ::Array<System::Type*>*() const noexcept {
       return argTypes;
     }
+    // Get instance field: public System.Type[] argTypes
+    ::Array<System::Type*>* _get_argTypes();
+    // Set instance field: public System.Type[] argTypes
+    void _set_argTypes(::Array<System::Type*>* value);
     // System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)
     // Offset: 0x2247174
     bool $GetConstructor$b__0(System::Reflection::ConstructorInfo* c);

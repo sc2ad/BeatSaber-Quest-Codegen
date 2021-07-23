@@ -51,6 +51,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ConnectToMatchmakingParams
     ConnectToMatchmakingParams(GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, ::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}) noexcept : selectionMask{selectionMask_}, configuration{configuration_}, secret{secret_}, code{code_} {}
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.String code
+    ::Il2CppString* _get_code();
+    // Set instance field: public System.String code
+    void _set_code(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x152E87C
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase

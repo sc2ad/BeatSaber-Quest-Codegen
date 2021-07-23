@@ -26,6 +26,10 @@ namespace System::Runtime::InteropServices {
     constexpr operator int() const noexcept {
       return m_ErrorCode;
     }
+    // Get instance field: private System.Int32 m_ErrorCode
+    int _get_m_ErrorCode();
+    // Set instance field: private System.Int32 m_ErrorCode
+    void _set_m_ErrorCode(int value);
   }; // System.Runtime.InteropServices.ErrorWrapper
   #pragma pack(pop)
   static check_size<sizeof(ErrorWrapper), 16 + sizeof(int)> __System_Runtime_InteropServices_ErrorWrapperSizeCheck;

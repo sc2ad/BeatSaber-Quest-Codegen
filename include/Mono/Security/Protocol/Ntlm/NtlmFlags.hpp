@@ -92,6 +92,10 @@ namespace Mono::Security::Protocol::Ntlm {
     static Mono::Security::Protocol::Ntlm::NtlmFlags _get_Negotiate56();
     // Set static field: static public Mono.Security.Protocol.Ntlm.NtlmFlags Negotiate56
     static void _set_Negotiate56(Mono::Security::Protocol::Ntlm::NtlmFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Mono.Security.Protocol.Ntlm.NtlmFlags
   #pragma pack(pop)
   static check_size<sizeof(NtlmFlags), 0 + sizeof(int)> __Mono_Security_Protocol_Ntlm_NtlmFlagsSizeCheck;

@@ -59,6 +59,14 @@ namespace GlobalNamespace {
     OculusInit(GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}) noexcept : oculusDeeplinkManager{oculusDeeplinkManager_}, dlcPromoExperimentModel{dlcPromoExperimentModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private OculusDeeplinkManager _oculusDeeplinkManager
+    GlobalNamespace::OculusDeeplinkManager* _get__oculusDeeplinkManager();
+    // Set instance field: private OculusDeeplinkManager _oculusDeeplinkManager
+    void _set__oculusDeeplinkManager(GlobalNamespace::OculusDeeplinkManager* value);
+    // Get instance field: private DlcPromoExperimentModel _dlcPromoExperimentModel
+    GlobalNamespace::DlcPromoExperimentModel* _get__dlcPromoExperimentModel();
+    // Set instance field: private DlcPromoExperimentModel _dlcPromoExperimentModel
+    void _set__dlcPromoExperimentModel(GlobalNamespace::DlcPromoExperimentModel* value);
     // public System.Void Init()
     // Offset: 0x11F1480
     void Init();

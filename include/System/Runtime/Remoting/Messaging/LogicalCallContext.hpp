@@ -118,6 +118,34 @@ namespace System::Runtime::Remoting::Messaging {
     static ::Il2CppString* _get_s_CorrelationMgrSlotName();
     // Set static field: static private System.String s_CorrelationMgrSlotName
     static void _set_s_CorrelationMgrSlotName(::Il2CppString* value);
+    // Get instance field: private System.Collections.Hashtable m_Datastore
+    System::Collections::Hashtable* _get_m_Datastore();
+    // Set instance field: private System.Collections.Hashtable m_Datastore
+    void _set_m_Datastore(System::Collections::Hashtable* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.CallContextRemotingData m_RemotingData
+    System::Runtime::Remoting::Messaging::CallContextRemotingData* _get_m_RemotingData();
+    // Set instance field: private System.Runtime.Remoting.Messaging.CallContextRemotingData m_RemotingData
+    void _set_m_RemotingData(System::Runtime::Remoting::Messaging::CallContextRemotingData* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.CallContextSecurityData m_SecurityData
+    System::Runtime::Remoting::Messaging::CallContextSecurityData* _get_m_SecurityData();
+    // Set instance field: private System.Runtime.Remoting.Messaging.CallContextSecurityData m_SecurityData
+    void _set_m_SecurityData(System::Runtime::Remoting::Messaging::CallContextSecurityData* value);
+    // Get instance field: private System.Object m_HostContext
+    ::Il2CppObject* _get_m_HostContext();
+    // Set instance field: private System.Object m_HostContext
+    void _set_m_HostContext(::Il2CppObject* value);
+    // Get instance field: private System.Boolean m_IsCorrelationMgr
+    bool _get_m_IsCorrelationMgr();
+    // Set instance field: private System.Boolean m_IsCorrelationMgr
+    void _set_m_IsCorrelationMgr(bool value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.Header[] _sendHeaders
+    ::Array<System::Runtime::Remoting::Messaging::Header*>* _get__sendHeaders();
+    // Set instance field: private System.Runtime.Remoting.Messaging.Header[] _sendHeaders
+    void _set__sendHeaders(::Array<System::Runtime::Remoting::Messaging::Header*>* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.Header[] _recvHeaders
+    ::Array<System::Runtime::Remoting::Messaging::Header*>* _get__recvHeaders();
+    // Set instance field: private System.Runtime.Remoting.Messaging.Header[] _recvHeaders
+    void _set__recvHeaders(::Array<System::Runtime::Remoting::Messaging::Header*>* value);
     // public System.Boolean get_HasInfo()
     // Offset: 0x19F5BAC
     bool get_HasInfo();

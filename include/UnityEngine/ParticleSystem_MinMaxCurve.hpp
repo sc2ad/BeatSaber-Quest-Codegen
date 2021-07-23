@@ -74,6 +74,30 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.ParticleSystemCurveMode m_Mode
+    UnityEngine::ParticleSystemCurveMode _get_m_Mode();
+    // Set instance field: private UnityEngine.ParticleSystemCurveMode m_Mode
+    void _set_m_Mode(UnityEngine::ParticleSystemCurveMode value);
+    // Get instance field: private System.Single m_CurveMultiplier
+    float _get_m_CurveMultiplier();
+    // Set instance field: private System.Single m_CurveMultiplier
+    void _set_m_CurveMultiplier(float value);
+    // Get instance field: private UnityEngine.AnimationCurve m_CurveMin
+    UnityEngine::AnimationCurve* _get_m_CurveMin();
+    // Set instance field: private UnityEngine.AnimationCurve m_CurveMin
+    void _set_m_CurveMin(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AnimationCurve m_CurveMax
+    UnityEngine::AnimationCurve* _get_m_CurveMax();
+    // Set instance field: private UnityEngine.AnimationCurve m_CurveMax
+    void _set_m_CurveMax(UnityEngine::AnimationCurve* value);
+    // Get instance field: private System.Single m_ConstantMin
+    float _get_m_ConstantMin();
+    // Set instance field: private System.Single m_ConstantMin
+    void _set_m_ConstantMin(float value);
+    // Get instance field: private System.Single m_ConstantMax
+    float _get_m_ConstantMax();
+    // Set instance field: private System.Single m_ConstantMax
+    void _set_m_ConstantMax(float value);
     // public System.Void set_constantMax(System.Single value)
     // Offset: 0xF0F090
     void set_constantMax(float value);

@@ -32,6 +32,10 @@ namespace OVR::OpenVR {
     constexpr operator uint64_t() const noexcept {
       return webConsoleHandle;
     }
+    // Get instance field: public System.UInt64 webConsoleHandle
+    uint64_t _get_webConsoleHandle();
+    // Set instance field: public System.UInt64 webConsoleHandle
+    void _set_webConsoleHandle(uint64_t value);
   }; // OVR.OpenVR.VREvent_WebConsole_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_WebConsole_t), 0 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_WebConsole_tSizeCheck;

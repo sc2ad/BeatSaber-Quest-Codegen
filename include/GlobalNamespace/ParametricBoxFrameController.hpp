@@ -93,6 +93,34 @@ namespace GlobalNamespace {
     static int _get__sizeParamsID();
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
+    // Get instance field: public System.Single width
+    float _get_width();
+    // Set instance field: public System.Single width
+    void _set_width(float value);
+    // Get instance field: public System.Single height
+    float _get_height();
+    // Set instance field: public System.Single height
+    void _set_height(float value);
+    // Get instance field: public System.Single length
+    float _get_length();
+    // Set instance field: public System.Single length
+    void _set_length(float value);
+    // Get instance field: public System.Single edgeSize
+    float _get_edgeSize();
+    // Set instance field: public System.Single edgeSize
+    void _set_edgeSize(float value);
+    // Get instance field: public UnityEngine.Color color
+    UnityEngine::Color _get_color();
+    // Set instance field: public UnityEngine.Color color
+    void _set_color(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer* _get__meshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
+    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
+    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // public System.Void set_localPosition(UnityEngine.Vector3 value)
     // Offset: 0x1DF7B60
     void set_localPosition(UnityEngine::Vector3 value);

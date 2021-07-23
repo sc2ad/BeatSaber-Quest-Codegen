@@ -33,6 +33,10 @@ namespace Oculus::Platform::Models {
     constexpr operator Oculus::Platform::PlatformInitializeResult() const noexcept {
       return Result;
     }
+    // Get instance field: public readonly Oculus.Platform.PlatformInitializeResult Result
+    Oculus::Platform::PlatformInitializeResult _get_Result();
+    // Set instance field: public readonly Oculus.Platform.PlatformInitializeResult Result
+    void _set_Result(Oculus::Platform::PlatformInitializeResult value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A6B5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

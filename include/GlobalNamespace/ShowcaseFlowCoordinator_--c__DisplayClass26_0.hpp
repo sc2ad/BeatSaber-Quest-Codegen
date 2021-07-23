@@ -57,6 +57,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass26_0
     $$c__DisplayClass26_0(GlobalNamespace::ShowcaseFlowCoordinator* $$4__this_ = {}, GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool practice_ = {}) noexcept : $$4__this{$$4__this_}, levelCompletionResults{levelCompletionResults_}, difficultyBeatmap{difficultyBeatmap_}, practice{practice_} {}
+    // Get instance field: public ShowcaseFlowCoordinator <>4__this
+    GlobalNamespace::ShowcaseFlowCoordinator* _get_$$4__this();
+    // Set instance field: public ShowcaseFlowCoordinator <>4__this
+    void _set_$$4__this(GlobalNamespace::ShowcaseFlowCoordinator* value);
+    // Get instance field: public LevelCompletionResults levelCompletionResults
+    GlobalNamespace::LevelCompletionResults* _get_levelCompletionResults();
+    // Set instance field: public LevelCompletionResults levelCompletionResults
+    void _set_levelCompletionResults(GlobalNamespace::LevelCompletionResults* value);
+    // Get instance field: public IDifficultyBeatmap difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap* _get_difficultyBeatmap();
+    // Set instance field: public IDifficultyBeatmap difficultyBeatmap
+    void _set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: public System.Boolean practice
+    bool _get_practice();
+    // Set instance field: public System.Boolean practice
+    void _set_practice(bool value);
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
     // Offset: 0x1054A08
     void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);

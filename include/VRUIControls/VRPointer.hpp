@@ -133,6 +133,50 @@ namespace VRUIControls {
     static bool _get__leftControllerWasReleased();
     // Set static field: static private System.Boolean _leftControllerWasReleased
     static void _set__leftControllerWasReleased(bool value);
+    // Get instance field: private VRController _leftVRController
+    GlobalNamespace::VRController* _get__leftVRController();
+    // Set instance field: private VRController _leftVRController
+    void _set__leftVRController(GlobalNamespace::VRController* value);
+    // Get instance field: private VRController _rightVRController
+    GlobalNamespace::VRController* _get__rightVRController();
+    // Set instance field: private VRController _rightVRController
+    void _set__rightVRController(GlobalNamespace::VRController* value);
+    // Get instance field: private VRUIControls.VRLaserPointer _laserPointerPrefab
+    VRUIControls::VRLaserPointer* _get__laserPointerPrefab();
+    // Set instance field: private VRUIControls.VRLaserPointer _laserPointerPrefab
+    void _set__laserPointerPrefab(VRUIControls::VRLaserPointer* value);
+    // Get instance field: private UnityEngine.Transform _cursorPrefab
+    UnityEngine::Transform* _get__cursorPrefab();
+    // Set instance field: private UnityEngine.Transform _cursorPrefab
+    void _set__cursorPrefab(UnityEngine::Transform* value);
+    // Get instance field: private System.Single _defaultLaserPointerLength
+    float _get__defaultLaserPointerLength();
+    // Set instance field: private System.Single _defaultLaserPointerLength
+    void _set__defaultLaserPointerLength(float value);
+    // Get instance field: private System.Single _laserPointerWidth
+    float _get__laserPointerWidth();
+    // Set instance field: private System.Single _laserPointerWidth
+    void _set__laserPointerWidth(float value);
+    // Get instance field: private VRUIControls.VRLaserPointer _laserPointer
+    VRUIControls::VRLaserPointer* _get__laserPointer();
+    // Set instance field: private VRUIControls.VRLaserPointer _laserPointer
+    void _set__laserPointer(VRUIControls::VRLaserPointer* value);
+    // Get instance field: private UnityEngine.Transform _cursorTransform
+    UnityEngine::Transform* _get__cursorTransform();
+    // Set instance field: private UnityEngine.Transform _cursorTransform
+    void _set__cursorTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.EventSystems.EventSystem _eventSystem
+    UnityEngine::EventSystems::EventSystem* _get__eventSystem();
+    // Set instance field: private UnityEngine.EventSystems.EventSystem _eventSystem
+    void _set__eventSystem(UnityEngine::EventSystems::EventSystem* value);
+    // Get instance field: private VRController _vrController
+    GlobalNamespace::VRController* _get__vrController();
+    // Set instance field: private VRController _vrController
+    void _set__vrController(GlobalNamespace::VRController* value);
+    // Get instance field: private UnityEngine.EventSystems.PointerEventData _pointerData
+    UnityEngine::EventSystems::PointerEventData* _get__pointerData();
+    // Set instance field: private UnityEngine.EventSystems.PointerEventData _pointerData
+    void _set__pointerData(UnityEngine::EventSystems::PointerEventData* value);
     // public VRController get_vrController()
     // Offset: 0x2347CF8
     GlobalNamespace::VRController* get_vrController();

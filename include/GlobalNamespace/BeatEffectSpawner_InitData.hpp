@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return hideNoteSpawnEffect;
     }
+    // Get instance field: public readonly System.Boolean hideNoteSpawnEffect
+    bool _get_hideNoteSpawnEffect();
+    // Set instance field: public readonly System.Boolean hideNoteSpawnEffect
+    void _set_hideNoteSpawnEffect(bool value);
     // public System.Void .ctor(System.Boolean hideNoteSpawnEffect)
     // Offset: 0x11879B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

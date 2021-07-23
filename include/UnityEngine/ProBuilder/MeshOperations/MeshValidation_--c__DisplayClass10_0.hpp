@@ -41,6 +41,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const noexcept {
       return mesh;
     }
+    // Get instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_mesh();
+    // Set instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    void _set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // System.Boolean <RebuildSelectionIndexes>b__0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x16F5F84
     bool $RebuildSelectionIndexes$b__0(UnityEngine::ProBuilder::Face* x);

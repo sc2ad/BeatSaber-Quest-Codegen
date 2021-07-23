@@ -37,6 +37,14 @@ namespace GlobalNamespace {
     OVRChromaticAberration(GlobalNamespace::OVRInput::RawButton toggleButton_ = {}, bool chromatic_ = {}) noexcept : toggleButton{toggleButton_}, chromatic{chromatic_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public OVRInput/RawButton toggleButton
+    GlobalNamespace::OVRInput::RawButton _get_toggleButton();
+    // Set instance field: public OVRInput/RawButton toggleButton
+    void _set_toggleButton(GlobalNamespace::OVRInput::RawButton value);
+    // Get instance field: private System.Boolean chromatic
+    bool _get_chromatic();
+    // Set instance field: private System.Boolean chromatic
+    void _set_chromatic(bool value);
     // private System.Void Start()
     // Offset: 0x124D48C
     void Start();

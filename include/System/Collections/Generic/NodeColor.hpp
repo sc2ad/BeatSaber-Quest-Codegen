@@ -43,6 +43,10 @@ namespace System::Collections::Generic {
     static System::Collections::Generic::NodeColor _get_Red();
     // Set static field: static public System.Collections.Generic.NodeColor Red
     static void _set_Red(System::Collections::Generic::NodeColor value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // System.Collections.Generic.NodeColor
   #pragma pack(pop)
   static check_size<sizeof(NodeColor), 0 + sizeof(uint8_t)> __System_Collections_Generic_NodeColorSizeCheck;

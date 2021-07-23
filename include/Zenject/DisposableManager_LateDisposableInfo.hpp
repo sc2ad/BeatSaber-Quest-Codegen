@@ -40,6 +40,14 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LateDisposableInfo
     LateDisposableInfo(Zenject::ILateDisposable* LateDisposable_ = {}, int Priority_ = {}) noexcept : LateDisposable{LateDisposable_}, Priority{Priority_} {}
+    // Get instance field: public Zenject.ILateDisposable LateDisposable
+    Zenject::ILateDisposable* _get_LateDisposable();
+    // Set instance field: public Zenject.ILateDisposable LateDisposable
+    void _set_LateDisposable(Zenject::ILateDisposable* value);
+    // Get instance field: public System.Int32 Priority
+    int _get_Priority();
+    // Set instance field: public System.Int32 Priority
+    void _set_Priority(int value);
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
     // Offset: 0x1619E18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

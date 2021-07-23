@@ -32,6 +32,10 @@ namespace JetBrains::Annotations {
     constexpr operator ::Il2CppString*() const noexcept {
       return Attribute;
     }
+    // Get instance field: private System.String <Attribute>k__BackingField
+    ::Il2CppString* _get_$Attribute$k__BackingField();
+    // Set instance field: private System.String <Attribute>k__BackingField
+    void _set_$Attribute$k__BackingField(::Il2CppString* value);
     // public System.String get_Attribute()
     // Offset: 0x23B20E0
     ::Il2CppString* get_Attribute();

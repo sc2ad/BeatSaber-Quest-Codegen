@@ -55,6 +55,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::MeshSyncState _get_InSync();
     // Set static field: static public UnityEngine.ProBuilder.MeshSyncState InSync
     static void _set_InSync(UnityEngine::ProBuilder::MeshSyncState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.MeshSyncState
   #pragma pack(pop)
   static check_size<sizeof(MeshSyncState), 0 + sizeof(int)> __UnityEngine_ProBuilder_MeshSyncStateSizeCheck;

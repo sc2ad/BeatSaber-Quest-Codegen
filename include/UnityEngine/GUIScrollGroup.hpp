@@ -102,6 +102,54 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
     // Creating value type constructor for type: GUIScrollGroup
     GUIScrollGroup(float calcMinWidth_ = {}, float calcMaxWidth_ = {}, float calcMinHeight_ = {}, float calcMaxHeight_ = {}, float clientWidth_ = {}, float clientHeight_ = {}, bool allowHorizontalScroll_ = {}, bool allowVerticalScroll_ = {}, bool needsHorizontalScrollbar_ = {}, bool needsVerticalScrollbar_ = {}, UnityEngine::GUIStyle* horizontalScrollbar_ = {}, UnityEngine::GUIStyle* verticalScrollbar_ = {}) noexcept : calcMinWidth{calcMinWidth_}, calcMaxWidth{calcMaxWidth_}, calcMinHeight{calcMinHeight_}, calcMaxHeight{calcMaxHeight_}, clientWidth{clientWidth_}, clientHeight{clientHeight_}, allowHorizontalScroll{allowHorizontalScroll_}, allowVerticalScroll{allowVerticalScroll_}, needsHorizontalScrollbar{needsHorizontalScrollbar_}, needsVerticalScrollbar{needsVerticalScrollbar_}, horizontalScrollbar{horizontalScrollbar_}, verticalScrollbar{verticalScrollbar_} {}
+    // Get instance field: public System.Single calcMinWidth
+    float _get_calcMinWidth();
+    // Set instance field: public System.Single calcMinWidth
+    void _set_calcMinWidth(float value);
+    // Get instance field: public System.Single calcMaxWidth
+    float _get_calcMaxWidth();
+    // Set instance field: public System.Single calcMaxWidth
+    void _set_calcMaxWidth(float value);
+    // Get instance field: public System.Single calcMinHeight
+    float _get_calcMinHeight();
+    // Set instance field: public System.Single calcMinHeight
+    void _set_calcMinHeight(float value);
+    // Get instance field: public System.Single calcMaxHeight
+    float _get_calcMaxHeight();
+    // Set instance field: public System.Single calcMaxHeight
+    void _set_calcMaxHeight(float value);
+    // Get instance field: public System.Single clientWidth
+    float _get_clientWidth();
+    // Set instance field: public System.Single clientWidth
+    void _set_clientWidth(float value);
+    // Get instance field: public System.Single clientHeight
+    float _get_clientHeight();
+    // Set instance field: public System.Single clientHeight
+    void _set_clientHeight(float value);
+    // Get instance field: public System.Boolean allowHorizontalScroll
+    bool _get_allowHorizontalScroll();
+    // Set instance field: public System.Boolean allowHorizontalScroll
+    void _set_allowHorizontalScroll(bool value);
+    // Get instance field: public System.Boolean allowVerticalScroll
+    bool _get_allowVerticalScroll();
+    // Set instance field: public System.Boolean allowVerticalScroll
+    void _set_allowVerticalScroll(bool value);
+    // Get instance field: public System.Boolean needsHorizontalScrollbar
+    bool _get_needsHorizontalScrollbar();
+    // Set instance field: public System.Boolean needsHorizontalScrollbar
+    void _set_needsHorizontalScrollbar(bool value);
+    // Get instance field: public System.Boolean needsVerticalScrollbar
+    bool _get_needsVerticalScrollbar();
+    // Set instance field: public System.Boolean needsVerticalScrollbar
+    void _set_needsVerticalScrollbar(bool value);
+    // Get instance field: public UnityEngine.GUIStyle horizontalScrollbar
+    UnityEngine::GUIStyle* _get_horizontalScrollbar();
+    // Set instance field: public UnityEngine.GUIStyle horizontalScrollbar
+    void _set_horizontalScrollbar(UnityEngine::GUIStyle* value);
+    // Get instance field: public UnityEngine.GUIStyle verticalScrollbar
+    UnityEngine::GUIStyle* _get_verticalScrollbar();
+    // Set instance field: public UnityEngine.GUIStyle verticalScrollbar
+    void _set_verticalScrollbar(UnityEngine::GUIStyle* value);
     // public System.Void .ctor()
     // Offset: 0x1AA9CD0
     // Implemented from: UnityEngine.GUILayoutGroup

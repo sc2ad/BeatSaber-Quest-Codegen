@@ -76,6 +76,10 @@ namespace System::Security::Authentication {
     static System::Security::Authentication::SslProtocols _get_Default();
     // Set static field: static public System.Security.Authentication.SslProtocols Default
     static void _set_Default(System::Security::Authentication::SslProtocols value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Authentication.SslProtocols
   #pragma pack(pop)
   static check_size<sizeof(SslProtocols), 0 + sizeof(int)> __System_Security_Authentication_SslProtocolsSizeCheck;

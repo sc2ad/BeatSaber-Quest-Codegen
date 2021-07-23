@@ -39,6 +39,14 @@ namespace UnityEngine {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
+    // Get instance field: private UnityEngine.Transform outer
+    UnityEngine::Transform* _get_outer();
+    // Set instance field: private UnityEngine.Transform outer
+    void _set_outer(UnityEngine::Transform* value);
+    // Get instance field: private System.Int32 currentIndex
+    int _get_currentIndex();
+    // Set instance field: private System.Int32 currentIndex
+    void _set_currentIndex(int value);
     // public System.Object get_Current()
     // Offset: 0x2304F48
     ::Il2CppObject* get_Current();

@@ -81,6 +81,22 @@ namespace Org::BouncyCastle::Crypto::Generators {
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
     // Creating value type constructor for type: ECKeyPairGenerator
     ECKeyPairGenerator(::Il2CppString* algorithm_ = {}, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}) noexcept : algorithm{algorithm_}, parameters{parameters_}, publicKeyParamSet{publicKeyParamSet_}, random{random_} {}
+    // Get instance field: private readonly System.String algorithm
+    ::Il2CppString* _get_algorithm();
+    // Set instance field: private readonly System.String algorithm
+    void _set_algorithm(::Il2CppString* value);
+    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
+    Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get_parameters();
+    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
+    void _set_parameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+    // Get instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_publicKeyParamSet();
+    // Set instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    void _set_publicKeyParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public System.Void .ctor(System.String algorithm)
     // Offset: 0x18B83A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

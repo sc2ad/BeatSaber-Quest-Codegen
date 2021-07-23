@@ -46,6 +46,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<float>*) == 0x8);
     // Creating value type constructor for type: SmoothCameraSmoothnessSettingsController
     SmoothCameraSmoothnessSettingsController(GlobalNamespace::FloatSO* smoothCameraPositionSmooth_ = {}, GlobalNamespace::FloatSO* smoothCameraRotationSmooth_ = {}, ::Array<float>* smoothnesses_ = {}) noexcept : smoothCameraPositionSmooth{smoothCameraPositionSmooth_}, smoothCameraRotationSmooth{smoothCameraRotationSmooth_}, smoothnesses{smoothnesses_} {}
+    // Get instance field: private FloatSO _smoothCameraPositionSmooth
+    GlobalNamespace::FloatSO* _get__smoothCameraPositionSmooth();
+    // Set instance field: private FloatSO _smoothCameraPositionSmooth
+    void _set__smoothCameraPositionSmooth(GlobalNamespace::FloatSO* value);
+    // Get instance field: private FloatSO _smoothCameraRotationSmooth
+    GlobalNamespace::FloatSO* _get__smoothCameraRotationSmooth();
+    // Set instance field: private FloatSO _smoothCameraRotationSmooth
+    void _set__smoothCameraRotationSmooth(GlobalNamespace::FloatSO* value);
+    // Get instance field: private System.Single[] _smoothnesses
+    ::Array<float>* _get__smoothnesses();
+    // Set instance field: private System.Single[] _smoothnesses
+    void _set__smoothnesses(::Array<float>* value);
     // public System.Void .ctor()
     // Offset: 0x1059088
     // Implemented from: ListSettingsController

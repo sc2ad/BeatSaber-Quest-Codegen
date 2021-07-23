@@ -100,6 +100,42 @@ namespace GlobalNamespace {
     MovementBeatmapEventEffect(GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float transitionSpeed_ = {}, ::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>* movementData_ = {}, ::Array<UnityEngine::Transform*>* transforms_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, int currentMovementDataIdx_ = {}, UnityEngine::Vector3 currentPositionOffset_ = {}, UnityEngine::Vector3 prevPositionOffset_ = {}, ::Array<UnityEngine::Vector3>* startLocalPositions_ = {}) noexcept : beatmapEventType{beatmapEventType_}, transitionSpeed{transitionSpeed_}, movementData{movementData_}, transforms{transforms_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, currentMovementDataIdx{currentMovementDataIdx_}, currentPositionOffset{currentPositionOffset_}, prevPositionOffset{prevPositionOffset_}, startLocalPositions{startLocalPositions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BeatmapEventType _beatmapEventType
+    GlobalNamespace::BeatmapEventType _get__beatmapEventType();
+    // Set instance field: private BeatmapEventType _beatmapEventType
+    void _set__beatmapEventType(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private System.Single _transitionSpeed
+    float _get__transitionSpeed();
+    // Set instance field: private System.Single _transitionSpeed
+    void _set__transitionSpeed(float value);
+    // Get instance field: private MovementBeatmapEventEffect/MovementData[] _movementData
+    ::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>* _get__movementData();
+    // Set instance field: private MovementBeatmapEventEffect/MovementData[] _movementData
+    void _set__movementData(::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>* value);
+    // Get instance field: private UnityEngine.Transform[] _transforms
+    ::Array<UnityEngine::Transform*>* _get__transforms();
+    // Set instance field: private UnityEngine.Transform[] _transforms
+    void _set__transforms(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private System.Int32 _currentMovementDataIdx
+    int _get__currentMovementDataIdx();
+    // Set instance field: private System.Int32 _currentMovementDataIdx
+    void _set__currentMovementDataIdx(int value);
+    // Get instance field: private UnityEngine.Vector3 _currentPositionOffset
+    UnityEngine::Vector3 _get__currentPositionOffset();
+    // Set instance field: private UnityEngine.Vector3 _currentPositionOffset
+    void _set__currentPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _prevPositionOffset
+    UnityEngine::Vector3 _get__prevPositionOffset();
+    // Set instance field: private UnityEngine.Vector3 _prevPositionOffset
+    void _set__prevPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3[] _startLocalPositions
+    ::Array<UnityEngine::Vector3>* _get__startLocalPositions();
+    // Set instance field: private UnityEngine.Vector3[] _startLocalPositions
+    void _set__startLocalPositions(::Array<UnityEngine::Vector3>* value);
     // protected System.Void Start()
     // Offset: 0x1199D1C
     void Start();

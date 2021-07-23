@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass23_0
     $$c__DisplayClass23_0(GlobalNamespace::SimpleRetailDemoFlowCoordinator* $$4__this_ = {}, GlobalNamespace::ResultsViewController* resultsViewController_ = {}) noexcept : $$4__this{$$4__this_}, resultsViewController{resultsViewController_} {}
+    // Get instance field: public SimpleRetailDemoFlowCoordinator <>4__this
+    GlobalNamespace::SimpleRetailDemoFlowCoordinator* _get_$$4__this();
+    // Set instance field: public SimpleRetailDemoFlowCoordinator <>4__this
+    void _set_$$4__this(GlobalNamespace::SimpleRetailDemoFlowCoordinator* value);
+    // Get instance field: public ResultsViewController resultsViewController
+    GlobalNamespace::ResultsViewController* _get_resultsViewController();
+    // Set instance field: public ResultsViewController resultsViewController
+    void _set_resultsViewController(GlobalNamespace::ResultsViewController* value);
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
     // Offset: 0x1056030
     void $HandleResultsViewControllerRestartButtonPressed$b__0();

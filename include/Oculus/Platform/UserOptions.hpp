@@ -40,6 +40,10 @@ namespace Oculus::Platform {
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
     }
+    // Get instance field: private System.IntPtr Handle
+    System::IntPtr _get_Handle();
+    // Set instance field: private System.IntPtr Handle
+    void _set_Handle(System::IntPtr value);
     // public System.Void SetMaxUsers(System.UInt32 value)
     // Offset: 0x238841C
     void SetMaxUsers(uint value);

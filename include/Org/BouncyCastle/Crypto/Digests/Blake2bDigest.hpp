@@ -107,6 +107,54 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<uint8_t>* _get_blake2b_sigma();
     // Set static field: static private readonly System.Byte[,] blake2b_sigma
     static void _set_blake2b_sigma(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 digestLength
+    int _get_digestLength();
+    // Set instance field: private System.Int32 digestLength
+    void _set_digestLength(int value);
+    // Get instance field: private System.Int32 keyLength
+    int _get_keyLength();
+    // Set instance field: private System.Int32 keyLength
+    void _set_keyLength(int value);
+    // Get instance field: private System.Byte[] salt
+    ::Array<uint8_t>* _get_salt();
+    // Set instance field: private System.Byte[] salt
+    void _set_salt(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] personalization
+    ::Array<uint8_t>* _get_personalization();
+    // Set instance field: private System.Byte[] personalization
+    void _set_personalization(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] key
+    ::Array<uint8_t>* _get_key();
+    // Set instance field: private System.Byte[] key
+    void _set_key(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] buffer
+    ::Array<uint8_t>* _get_buffer();
+    // Set instance field: private System.Byte[] buffer
+    void _set_buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 bufferPos
+    int _get_bufferPos();
+    // Set instance field: private System.Int32 bufferPos
+    void _set_bufferPos(int value);
+    // Get instance field: private System.UInt64[] internalState
+    ::Array<uint64_t>* _get_internalState();
+    // Set instance field: private System.UInt64[] internalState
+    void _set_internalState(::Array<uint64_t>* value);
+    // Get instance field: private System.UInt64[] chainValue
+    ::Array<uint64_t>* _get_chainValue();
+    // Set instance field: private System.UInt64[] chainValue
+    void _set_chainValue(::Array<uint64_t>* value);
+    // Get instance field: private System.UInt64 t0
+    uint64_t _get_t0();
+    // Set instance field: private System.UInt64 t0
+    void _set_t0(uint64_t value);
+    // Get instance field: private System.UInt64 t1
+    uint64_t _get_t1();
+    // Set instance field: private System.UInt64 t1
+    void _set_t1(uint64_t value);
+    // Get instance field: private System.UInt64 f0
+    uint64_t _get_f0();
+    // Set instance field: private System.UInt64 f0
+    void _set_f0(uint64_t value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1D03CAC
     ::Il2CppString* get_AlgorithmName();

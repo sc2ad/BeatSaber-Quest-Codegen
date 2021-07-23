@@ -42,6 +42,10 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>*() const noexcept {
       return functions;
     }
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>* _get__functions();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
+    void _set__functions(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>* value);
     // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
     // Offset: 0x10FA728
     void AddFunction(::Il2CppString* name, GlobalNamespace::LevelMissionParser::ParserFunction* function);

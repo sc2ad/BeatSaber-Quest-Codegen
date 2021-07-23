@@ -46,6 +46,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallback*) == 0x8);
     // Creating value type constructor for type: BeatmapObjectCallbackData
     BeatmapObjectCallbackData(float aheadTime_ = {}, ::Array<int>* nextObjectIndexInLine_ = {}, GlobalNamespace::BeatmapObjectCallback* callback_ = {}) noexcept : aheadTime{aheadTime_}, nextObjectIndexInLine{nextObjectIndexInLine_}, callback{callback_} {}
+    // Get instance field: public System.Single aheadTime
+    float _get_aheadTime();
+    // Set instance field: public System.Single aheadTime
+    void _set_aheadTime(float value);
+    // Get instance field: public System.Int32[] nextObjectIndexInLine
+    ::Array<int>* _get_nextObjectIndexInLine();
+    // Set instance field: public System.Int32[] nextObjectIndexInLine
+    void _set_nextObjectIndexInLine(::Array<int>* value);
+    // Get instance field: public readonly BeatmapObjectCallback callback
+    GlobalNamespace::BeatmapObjectCallback* _get_callback();
+    // Set instance field: public readonly BeatmapObjectCallback callback
+    void _set_callback(GlobalNamespace::BeatmapObjectCallback* value);
     // public System.Void .ctor(BeatmapObjectCallback callback, System.Single aheadTime, System.Int32 numberOfLines)
     // Offset: 0x1093300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

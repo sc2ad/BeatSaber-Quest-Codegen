@@ -45,6 +45,10 @@ namespace Zenject {
     constexpr operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*() const noexcept {
       return parents;
     }
+    // Get instance field: public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parents
+    System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* _get_parents();
+    // Set instance field: public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parents
+    void _set_parents(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* value);
     // System.Boolean <Install>b__0(Zenject.DiContainer x)
     // Offset: 0x16CE168
     bool $Install$b__0(Zenject::DiContainer* x);

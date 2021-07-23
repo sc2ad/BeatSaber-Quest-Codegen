@@ -65,6 +65,26 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: X509Store
     X509Store(::Il2CppString* storePath_ = {}, Mono::Security::X509::X509CertificateCollection* certificates_ = {}, System::Collections::ArrayList* crls_ = {}, bool crl_ = {}, bool newFormat_ = {}) noexcept : storePath{storePath_}, certificates{certificates_}, crls{crls_}, crl{crl_}, newFormat{newFormat_} {}
+    // Get instance field: private System.String _storePath
+    ::Il2CppString* _get__storePath();
+    // Set instance field: private System.String _storePath
+    void _set__storePath(::Il2CppString* value);
+    // Get instance field: private Mono.Security.X509.X509CertificateCollection _certificates
+    Mono::Security::X509::X509CertificateCollection* _get__certificates();
+    // Set instance field: private Mono.Security.X509.X509CertificateCollection _certificates
+    void _set__certificates(Mono::Security::X509::X509CertificateCollection* value);
+    // Get instance field: private System.Collections.ArrayList _crls
+    System::Collections::ArrayList* _get__crls();
+    // Set instance field: private System.Collections.ArrayList _crls
+    void _set__crls(System::Collections::ArrayList* value);
+    // Get instance field: private System.Boolean _crl
+    bool _get__crl();
+    // Set instance field: private System.Boolean _crl
+    void _set__crl(bool value);
+    // Get instance field: private System.Boolean _newFormat
+    bool _get__newFormat();
+    // Set instance field: private System.Boolean _newFormat
+    void _set__newFormat(bool value);
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
     // Offset: 0x23828E4
     Mono::Security::X509::X509CertificateCollection* get_Certificates();

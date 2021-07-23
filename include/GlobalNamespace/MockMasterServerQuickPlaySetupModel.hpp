@@ -54,6 +54,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::MasterServerQuickPlaySetupData*() const noexcept {
       return masterServerQuickPlaySetupData;
     }
+    // Get instance field: private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
+    GlobalNamespace::MasterServerQuickPlaySetupData* _get__masterServerQuickPlaySetupData();
+    // Set instance field: private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
+    void _set__masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x113C2DC
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);

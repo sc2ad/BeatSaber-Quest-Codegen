@@ -48,6 +48,22 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr m_pImageData
+    System::IntPtr _get_m_pImageData();
+    // Set instance field: public System.IntPtr m_pImageData
+    void _set_m_pImageData(System::IntPtr value);
+    // Get instance field: public System.Int32 m_nWidth
+    int _get_m_nWidth();
+    // Set instance field: public System.Int32 m_nWidth
+    void _set_m_nWidth(int value);
+    // Get instance field: public System.Int32 m_nHeight
+    int _get_m_nHeight();
+    // Set instance field: public System.Int32 m_nHeight
+    void _set_m_nHeight(int value);
+    // Get instance field: public System.Int32 m_nBytesPerPixel
+    int _get_m_nBytesPerPixel();
+    // Set instance field: public System.Int32 m_nBytesPerPixel
+    void _set_m_nBytesPerPixel(int value);
   }; // OVR.OpenVR.NotificationBitmap_t
   #pragma pack(pop)
   static check_size<sizeof(NotificationBitmap_t), 16 + sizeof(int)> __OVR_OpenVR_NotificationBitmap_tSizeCheck;

@@ -49,6 +49,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ColliderType _get_MeshCollider();
     // Set static field: static public UnityEngine.ProBuilder.ColliderType MeshCollider
     static void _set_MeshCollider(UnityEngine::ProBuilder::ColliderType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.ColliderType
   #pragma pack(pop)
   static check_size<sizeof(ColliderType), 0 + sizeof(int)> __UnityEngine_ProBuilder_ColliderTypeSizeCheck;

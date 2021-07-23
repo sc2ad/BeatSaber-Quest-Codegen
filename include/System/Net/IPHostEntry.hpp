@@ -50,6 +50,22 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: IPHostEntry
     IPHostEntry(::Il2CppString* hostName_ = {}, ::Array<::Il2CppString*>* aliases_ = {}, ::Array<System::Net::IPAddress*>* addressList_ = {}, bool isTrustedHost_ = {}) noexcept : hostName{hostName_}, aliases{aliases_}, addressList{addressList_}, isTrustedHost{isTrustedHost_} {}
+    // Get instance field: private System.String hostName
+    ::Il2CppString* _get_hostName();
+    // Set instance field: private System.String hostName
+    void _set_hostName(::Il2CppString* value);
+    // Get instance field: private System.String[] aliases
+    ::Array<::Il2CppString*>* _get_aliases();
+    // Set instance field: private System.String[] aliases
+    void _set_aliases(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.Net.IPAddress[] addressList
+    ::Array<System::Net::IPAddress*>* _get_addressList();
+    // Set instance field: private System.Net.IPAddress[] addressList
+    void _set_addressList(::Array<System::Net::IPAddress*>* value);
+    // Get instance field: System.Boolean isTrustedHost
+    bool _get_isTrustedHost();
+    // Set instance field: System.Boolean isTrustedHost
+    void _set_isTrustedHost(bool value);
     // public System.String get_HostName()
     // Offset: 0x1641220
     ::Il2CppString* get_HostName();

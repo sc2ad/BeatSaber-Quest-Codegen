@@ -51,6 +51,10 @@ namespace NUnit::Framework::Internal::Commands {
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*) == 0x8);
     // Creating value type constructor for type: ApplyChangesToContextCommand
     ApplyChangesToContextCommand(System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* changes_ = {}) noexcept : changes{changes_} {}
+    // Get instance field: private System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> _changes
+    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* _get__changes();
+    // Set instance field: private System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> _changes
+    void _set__changes(System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)
     // Offset: 0x17278D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

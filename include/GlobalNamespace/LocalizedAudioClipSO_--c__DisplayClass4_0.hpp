@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     constexpr operator Polyglot::Language() const noexcept {
       return language;
     }
+    // Get instance field: public Polyglot.Language language
+    Polyglot::Language _get_language();
+    // Set instance field: public Polyglot.Language language
+    void _set_language(Polyglot::Language value);
     // System.Boolean <get_localizedAudioClip>b__0(LocalizedAudioClipSO/LocalizedAudioClipInfo t)
     // Offset: 0x11785FC
     bool $get_localizedAudioClip$b__0(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* t);

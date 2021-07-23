@@ -40,6 +40,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverAim*) == 0x8);
     // Creating value type constructor for type: AimIK
     AimIK(RootMotion::FinalIK::IKSolverAim* solver_ = {}) noexcept : solver{solver_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverAim solver
+    RootMotion::FinalIK::IKSolverAim* _get_solver();
+    // Set instance field: public RootMotion.FinalIK.IKSolverAim solver
+    void _set_solver(RootMotion::FinalIK::IKSolverAim* value);
     // private System.Void OpenSetupTutorial()
     // Offset: 0x1CDE424
     void OpenSetupTutorial();

@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass6_1
     $$c__DisplayClass6_1(UnityEngine::AssetBundle* assetBundle_ = {}, GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0* CS$$$8__locals1_ = {}) noexcept : assetBundle{assetBundle_}, CS$$$8__locals1{CS$$$8__locals1_} {}
+    // Get instance field: public UnityEngine.AssetBundle assetBundle
+    UnityEngine::AssetBundle* _get_assetBundle();
+    // Set instance field: public UnityEngine.AssetBundle assetBundle
+    void _set_assetBundle(UnityEngine::AssetBundle* value);
+    // Get instance field: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0 CS$<>8__locals1
+    GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0* _get_CS$$$8__locals1();
+    // Set instance field: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0 CS$<>8__locals1
+    void _set_CS$$$8__locals1(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0* value);
     // public System.Void .ctor()
     // Offset: 0x11960C0
     // Implemented from: System.Object

@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::MeshConstants _get_MaxIndices();
     // Set static field: static public OVRPlugin/MeshConstants MaxIndices
     static void _set_MaxIndices(GlobalNamespace::OVRPlugin::MeshConstants value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/MeshConstants
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::MeshConstants), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_MeshConstantsSizeCheck;

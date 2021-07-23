@@ -62,6 +62,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_TiledMultiResLevel _get_LMSHighTop();
     // Set static field: static public OVRManager/TiledMultiResLevel LMSHighTop
     static void _set_LMSHighTop(GlobalNamespace::OVRManager_TiledMultiResLevel value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRManager/TiledMultiResLevel
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_TiledMultiResLevel), 0 + sizeof(int)> __GlobalNamespace_OVRManager_TiledMultiResLevelSizeCheck;

@@ -93,6 +93,34 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<GlobalNamespace::BeatmapObjectData*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<GlobalNamespace::BeatmapObjectData*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private BeatmapObjectData <>2__current
+    GlobalNamespace::BeatmapObjectData* _get_$$2__current();
+    // Set instance field: private BeatmapObjectData <>2__current
+    void _set_$$2__current(GlobalNamespace::BeatmapObjectData* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: public BeatmapData <>4__this
+    GlobalNamespace::BeatmapData* _get_$$4__this();
+    // Set instance field: public BeatmapData <>4__this
+    void _set_$$4__this(GlobalNamespace::BeatmapData* value);
+    // Get instance field: private BeatmapLineData[] <beatmapLinesData>5__2
+    ::Array<GlobalNamespace::BeatmapLineData*>* _get_$beatmapLinesData$5__2();
+    // Set instance field: private BeatmapLineData[] <beatmapLinesData>5__2
+    void _set_$beatmapLinesData$5__2(::Array<GlobalNamespace::BeatmapLineData*>* value);
+    // Get instance field: private System.Int32[] <idxs>5__3
+    ::Array<int>* _get_$idxs$5__3();
+    // Set instance field: private System.Int32[] <idxs>5__3
+    void _set_$idxs$5__3(::Array<int>* value);
+    // Get instance field: private BeatmapObjectData <minBeatmapObjectData>5__4
+    GlobalNamespace::BeatmapObjectData* _get_$minBeatmapObjectData$5__4();
+    // Set instance field: private BeatmapObjectData <minBeatmapObjectData>5__4
+    void _set_$minBeatmapObjectData$5__4(GlobalNamespace::BeatmapObjectData* value);
     // private BeatmapObjectData System.Collections.Generic.IEnumerator<BeatmapObjectData>.get_Current()
     // Offset: 0x118F220
     GlobalNamespace::BeatmapObjectData* System_Collections_Generic_IEnumerator$BeatmapObjectData$_get_Current();

@@ -49,6 +49,10 @@ namespace RootMotion {
     static RootMotion::Axis _get_Z();
     // Set static field: static public RootMotion.Axis Z
     static void _set_Z(RootMotion::Axis value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // RootMotion.Axis
   #pragma pack(pop)
   static check_size<sizeof(Axis), 0 + sizeof(int)> __RootMotion_AxisSizeCheck;

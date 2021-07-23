@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::FakeReflectionDynamicObjectsState _get_Enabled();
     // Set static field: static public FakeReflectionDynamicObjectsState Enabled
     static void _set_Enabled(GlobalNamespace::FakeReflectionDynamicObjectsState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // FakeReflectionDynamicObjectsState
   #pragma pack(pop)
   static check_size<sizeof(FakeReflectionDynamicObjectsState), 0 + sizeof(int)> __GlobalNamespace_FakeReflectionDynamicObjectsStateSizeCheck;

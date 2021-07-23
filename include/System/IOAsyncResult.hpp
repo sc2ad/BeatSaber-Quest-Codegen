@@ -70,6 +70,26 @@ namespace System {
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
+    // Get instance field: private System.AsyncCallback async_callback
+    System::AsyncCallback* _get_async_callback();
+    // Set instance field: private System.AsyncCallback async_callback
+    void _set_async_callback(System::AsyncCallback* value);
+    // Get instance field: private System.Object async_state
+    ::Il2CppObject* _get_async_state();
+    // Set instance field: private System.Object async_state
+    void _set_async_state(::Il2CppObject* value);
+    // Get instance field: private System.Threading.ManualResetEvent wait_handle
+    System::Threading::ManualResetEvent* _get_wait_handle();
+    // Set instance field: private System.Threading.ManualResetEvent wait_handle
+    void _set_wait_handle(System::Threading::ManualResetEvent* value);
+    // Get instance field: private System.Boolean completed_synchronously
+    bool _get_completed_synchronously();
+    // Set instance field: private System.Boolean completed_synchronously
+    void _set_completed_synchronously(bool value);
+    // Get instance field: private System.Boolean completed
+    bool _get_completed();
+    // Set instance field: private System.Boolean completed
+    void _set_completed(bool value);
     // public System.AsyncCallback get_AsyncCallback()
     // Offset: 0x18576CC
     System::AsyncCallback* get_AsyncCallback();

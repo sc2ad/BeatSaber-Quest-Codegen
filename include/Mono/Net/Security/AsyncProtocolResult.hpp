@@ -40,6 +40,14 @@ namespace Mono::Net::Security {
     static_assert(sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*) == 0x8);
     // Creating value type constructor for type: AsyncProtocolResult
     AsyncProtocolResult(int UserResult_ = {}, System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error_ = {}) noexcept : UserResult{UserResult_}, Error{Error_} {}
+    // Get instance field: private readonly System.Int32 <UserResult>k__BackingField
+    int _get_$UserResult$k__BackingField();
+    // Set instance field: private readonly System.Int32 <UserResult>k__BackingField
+    void _set_$UserResult$k__BackingField(int value);
+    // Get instance field: private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField
+    System::Runtime::ExceptionServices::ExceptionDispatchInfo* _get_$Error$k__BackingField();
+    // Set instance field: private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField
+    void _set_$Error$k__BackingField(System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
     // public System.Int32 get_UserResult()
     // Offset: 0x15AADB4
     int get_UserResult();

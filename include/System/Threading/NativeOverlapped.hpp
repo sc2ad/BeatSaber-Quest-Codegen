@@ -55,6 +55,26 @@ namespace System::Threading {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr InternalLow
+    System::IntPtr _get_InternalLow();
+    // Set instance field: public System.IntPtr InternalLow
+    void _set_InternalLow(System::IntPtr value);
+    // Get instance field: public System.IntPtr InternalHigh
+    System::IntPtr _get_InternalHigh();
+    // Set instance field: public System.IntPtr InternalHigh
+    void _set_InternalHigh(System::IntPtr value);
+    // Get instance field: public System.Int32 OffsetLow
+    int _get_OffsetLow();
+    // Set instance field: public System.Int32 OffsetLow
+    void _set_OffsetLow(int value);
+    // Get instance field: public System.Int32 OffsetHigh
+    int _get_OffsetHigh();
+    // Set instance field: public System.Int32 OffsetHigh
+    void _set_OffsetHigh(int value);
+    // Get instance field: public System.IntPtr EventHandle
+    System::IntPtr _get_EventHandle();
+    // Set instance field: public System.IntPtr EventHandle
+    void _set_EventHandle(System::IntPtr value);
   }; // System.Threading.NativeOverlapped
   #pragma pack(pop)
   static check_size<sizeof(NativeOverlapped), 24 + sizeof(System::IntPtr)> __System_Threading_NativeOverlappedSizeCheck;

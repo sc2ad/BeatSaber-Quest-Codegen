@@ -79,6 +79,30 @@ namespace System::IO::Compression {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: DeflateStreamNative
     DeflateStreamNative(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite* feeder_ = {}, System::IO::Stream* base_stream_ = {}, System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* z_stream_ = {}, System::Runtime::InteropServices::GCHandle data_ = {}, bool disposed_ = {}, ::Array<uint8_t>* io_buffer_ = {}) noexcept : feeder{feeder_}, base_stream{base_stream_}, z_stream{z_stream_}, data{data_}, disposed{disposed_}, io_buffer{io_buffer_} {}
+    // Get instance field: private System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite feeder
+    System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite* _get_feeder();
+    // Set instance field: private System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite feeder
+    void _set_feeder(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite* value);
+    // Get instance field: private System.IO.Stream base_stream
+    System::IO::Stream* _get_base_stream();
+    // Set instance field: private System.IO.Stream base_stream
+    void _set_base_stream(System::IO::Stream* value);
+    // Get instance field: private System.IO.Compression.DeflateStreamNative/System.IO.Compression.SafeDeflateStreamHandle z_stream
+    System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* _get_z_stream();
+    // Set instance field: private System.IO.Compression.DeflateStreamNative/System.IO.Compression.SafeDeflateStreamHandle z_stream
+    void _set_z_stream(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* value);
+    // Get instance field: private System.Runtime.InteropServices.GCHandle data
+    System::Runtime::InteropServices::GCHandle _get_data();
+    // Set instance field: private System.Runtime.InteropServices.GCHandle data
+    void _set_data(System::Runtime::InteropServices::GCHandle value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.Byte[] io_buffer
+    ::Array<uint8_t>* _get_io_buffer();
+    // Set instance field: private System.Byte[] io_buffer
+    void _set_io_buffer(::Array<uint8_t>* value);
     // static public System.IO.Compression.DeflateStreamNative Create(System.IO.Stream compressedStream, System.IO.Compression.CompressionMode mode, System.Boolean gzip)
     // Offset: 0x184FB74
     static System::IO::Compression::DeflateStreamNative* Create(System::IO::Stream* compressedStream, System::IO::Compression::CompressionMode mode, bool gzip);

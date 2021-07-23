@@ -61,6 +61,18 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: $$c__DisplayClass99_0
     $$c__DisplayClass99_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations_ = {}, bool autoReleaseHandle_ = {}) noexcept : $$4__this{$$4__this_}, locations{locations_}, autoReleaseHandle{autoReleaseHandle_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
+    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations
+    System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* _get_locations();
+    // Set instance field: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations
+    void _set_locations(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+    // Get instance field: public System.Boolean autoReleaseHandle
+    bool _get_autoReleaseHandle();
+    // Set instance field: public System.Boolean autoReleaseHandle
+    void _set_autoReleaseHandle(bool value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> <ClearDependencyCacheAsync>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
     // Offset: 0x13C402C
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> $ClearDependencyCacheAsync$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);

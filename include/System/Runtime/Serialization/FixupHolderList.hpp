@@ -38,6 +38,14 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FixupHolderList
     FixupHolderList(::Array<System::Runtime::Serialization::FixupHolder*>* m_values_ = {}, int m_count_ = {}) noexcept : m_values{m_values_}, m_count{m_count_} {}
+    // Get instance field: System.Runtime.Serialization.FixupHolder[] m_values
+    ::Array<System::Runtime::Serialization::FixupHolder*>* _get_m_values();
+    // Set instance field: System.Runtime.Serialization.FixupHolder[] m_values
+    void _set_m_values(::Array<System::Runtime::Serialization::FixupHolder*>* value);
+    // Get instance field: System.Int32 m_count
+    int _get_m_count();
+    // Set instance field: System.Int32 m_count
+    void _set_m_count(int value);
     // System.Void .ctor(System.Int32 startingSize)
     // Offset: 0x15D4048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

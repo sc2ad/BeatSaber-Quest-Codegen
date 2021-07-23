@@ -36,6 +36,10 @@ namespace Mono::Net {
     CFString(::Il2CppString* str_ = {}) noexcept : str{str_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String str
+    ::Il2CppString* _get_str();
+    // Set instance field: private System.String str
+    void _set_str(::Il2CppString* value);
     // static private System.IntPtr CFStringCreateWithCharacters(System.IntPtr alloc, System.IntPtr chars, System.IntPtr length)
     // Offset: 0x15A94E8
     static System::IntPtr CFStringCreateWithCharacters(System::IntPtr alloc, System::IntPtr chars, System::IntPtr length);

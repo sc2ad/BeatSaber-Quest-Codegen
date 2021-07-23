@@ -109,6 +109,50 @@ namespace GlobalNamespace {
     static float _get_kBaseVolume();
     // Set static field: static private System.Single kBaseVolume
     static void _set_kBaseVolume(float value);
+    // Get instance field: private AutomaticSFXVolumeParamsSO _params
+    GlobalNamespace::AutomaticSFXVolumeParamsSO* _get__params();
+    // Set instance field: private AutomaticSFXVolumeParamsSO _params
+    void _set__params(GlobalNamespace::AutomaticSFXVolumeParamsSO* value);
+    // Get instance field: private AudioManagerSO _audioManager
+    GlobalNamespace::AudioManagerSO* _get__audioManager();
+    // Set instance field: private AudioManagerSO _audioManager
+    void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
+    // Get instance field: private AutomaticSFXVolume/InitData _initData
+    GlobalNamespace::AutomaticSFXVolume::InitData* _get__initData();
+    // Set instance field: private AutomaticSFXVolume/InitData _initData
+    void _set__initData(GlobalNamespace::AutomaticSFXVolume::InitData* value);
+    // Get instance field: private System.Single _sampleRate
+    float _get__sampleRate();
+    // Set instance field: private System.Single _sampleRate
+    void _set__sampleRate(float value);
+    // Get instance field: private System.Single _volume
+    float _get__volume();
+    // Set instance field: private System.Single _volume
+    void _set__volume(float value);
+    // Get instance field: private System.Single _envelope
+    float _get__envelope();
+    // Set instance field: private System.Single _envelope
+    void _set__envelope(float value);
+    // Get instance field: private System.Single _attackSamples
+    float _get__attackSamples();
+    // Set instance field: private System.Single _attackSamples
+    void _set__attackSamples(float value);
+    // Get instance field: private System.Single _releaseSamples
+    float _get__releaseSamples();
+    // Set instance field: private System.Single _releaseSamples
+    void _set__releaseSamples(float value);
+    // Get instance field: private System.Single _attackCoef
+    float _get__attackCoef();
+    // Set instance field: private System.Single _attackCoef
+    void _set__attackCoef(float value);
+    // Get instance field: private System.Single _releaseCoef
+    float _get__releaseCoef();
+    // Set instance field: private System.Single _releaseCoef
+    void _set__releaseCoef(float value);
+    // Get instance field: private System.Single _maxVolume
+    float _get__maxVolume();
+    // Set instance field: private System.Single _maxVolume
+    void _set__maxVolume(float value);
     // protected System.Void Start()
     // Offset: 0x10DD5C4
     void Start();

@@ -41,6 +41,10 @@ namespace UnityEngine::ProBuilder {
     constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const noexcept {
       return mesh;
     }
+    // Get instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_mesh();
+    // Set instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    void _set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
     // Offset: 0x1AE2550
     UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(UnityEngine::ProBuilder::Edge x);

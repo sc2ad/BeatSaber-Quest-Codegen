@@ -43,6 +43,10 @@ namespace TMPro {
     static TMPro::TextElementType _get_Sprite();
     // Set static field: static public TMPro.TextElementType Sprite
     static void _set_Sprite(TMPro::TextElementType value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // TMPro.TextElementType
   #pragma pack(pop)
   static check_size<sizeof(TextElementType), 0 + sizeof(uint8_t)> __TMPro_TextElementTypeSizeCheck;

@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
     // Creating value type constructor for type: MultiplayerLocalInactivePlayerInstaller
     MultiplayerLocalInactivePlayerInstaller(GlobalNamespace::AudioManagerSO* audioManager_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, DataModels::Levels::PerceivedLoudnessPerLevelModel* beatmapLoudnessModel_ = {}) noexcept : audioManager{audioManager_}, sceneSetupData{sceneSetupData_}, beatmapLoudnessModel{beatmapLoudnessModel_} {}
+    // Get instance field: private AudioManagerSO _audioManager
+    GlobalNamespace::AudioManagerSO* _get__audioManager();
+    // Set instance field: private AudioManagerSO _audioManager
+    void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
+    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
+    // Get instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
+    DataModels::Levels::PerceivedLoudnessPerLevelModel* _get__beatmapLoudnessModel();
+    // Set instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
+    void _set__beatmapLoudnessModel(DataModels::Levels::PerceivedLoudnessPerLevelModel* value);
     // public System.Void .ctor()
     // Offset: 0x23D8150
     // Implemented from: Zenject.MonoInstaller

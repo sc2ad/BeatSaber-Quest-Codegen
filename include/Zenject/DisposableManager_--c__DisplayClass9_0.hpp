@@ -39,6 +39,10 @@ namespace Zenject {
     constexpr operator System::IDisposable*() const noexcept {
       return disposable;
     }
+    // Get instance field: public System.IDisposable disposable
+    System::IDisposable* _get_disposable();
+    // Set instance field: public System.IDisposable disposable
+    void _set_disposable(System::IDisposable* value);
     // System.Boolean <Remove>b__0(Zenject.DisposableManager/Zenject.DisposableInfo x)
     // Offset: 0x161AA84
     bool $Remove$b__0(Zenject::DisposableManager::DisposableInfo x);

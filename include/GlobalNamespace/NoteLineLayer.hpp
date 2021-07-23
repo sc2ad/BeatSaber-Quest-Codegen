@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::NoteLineLayer _get_Top();
     // Set static field: static public NoteLineLayer Top
     static void _set_Top(GlobalNamespace::NoteLineLayer value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // NoteLineLayer
   #pragma pack(pop)
   static check_size<sizeof(NoteLineLayer), 0 + sizeof(int)> __GlobalNamespace_NoteLineLayerSizeCheck;

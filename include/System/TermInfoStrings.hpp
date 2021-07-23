@@ -2401,6 +2401,10 @@ namespace System {
     static System::TermInfoStrings _get_Last();
     // Set static field: static public System.TermInfoStrings Last
     static void _set_Last(System::TermInfoStrings value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.TermInfoStrings
   #pragma pack(pop)
   static check_size<sizeof(TermInfoStrings), 0 + sizeof(int)> __System_TermInfoStringsSizeCheck;

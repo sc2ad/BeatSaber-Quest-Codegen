@@ -41,6 +41,14 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TrackClipTypeAttribute
     TrackClipTypeAttribute(System::Type* inspectedType_ = {}, bool allowAutoCreate_ = {}) noexcept : inspectedType{inspectedType_}, allowAutoCreate{allowAutoCreate_} {}
+    // Get instance field: public readonly System.Type inspectedType
+    System::Type* _get_inspectedType();
+    // Set instance field: public readonly System.Type inspectedType
+    void _set_inspectedType(System::Type* value);
+    // Get instance field: public readonly System.Boolean allowAutoCreate
+    bool _get_allowAutoCreate();
+    // Set instance field: public readonly System.Boolean allowAutoCreate
+    void _set_allowAutoCreate(bool value);
     // public System.Void .ctor(System.Type clipClass)
     // Offset: 0x2322344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

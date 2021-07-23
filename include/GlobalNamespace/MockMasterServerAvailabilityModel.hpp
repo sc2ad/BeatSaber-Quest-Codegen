@@ -54,6 +54,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::MasterServerAvailabilityData*() const noexcept {
       return masterServerAvailabilityData;
     }
+    // Get instance field: private readonly MasterServerAvailabilityData _masterServerAvailabilityData
+    GlobalNamespace::MasterServerAvailabilityData* _get__masterServerAvailabilityData();
+    // Set instance field: private readonly MasterServerAvailabilityData _masterServerAvailabilityData
+    void _set__masterServerAvailabilityData(GlobalNamespace::MasterServerAvailabilityData* value);
     // public System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x113C260
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync(System::Threading::CancellationToken cancellationToken);

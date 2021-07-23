@@ -82,6 +82,30 @@ namespace GlobalNamespace {
     RandomizedPitch(UnityEngine::AudioSource* audioSource_ = {}, float minPitchMultiplier_ = {}, float maxPitchMultiplier_ = {}, bool playOnAwake_ = {}, float originalPitch_ = {}, UnityEngine::Coroutine* restoringCoroutine_ = {}) noexcept : audioSource{audioSource_}, minPitchMultiplier{minPitchMultiplier_}, maxPitchMultiplier{maxPitchMultiplier_}, playOnAwake{playOnAwake_}, originalPitch{originalPitch_}, restoringCoroutine{restoringCoroutine_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource* _get__audioSource();
+    // Set instance field: private UnityEngine.AudioSource _audioSource
+    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private System.Single _minPitchMultiplier
+    float _get__minPitchMultiplier();
+    // Set instance field: private System.Single _minPitchMultiplier
+    void _set__minPitchMultiplier(float value);
+    // Get instance field: private System.Single _maxPitchMultiplier
+    float _get__maxPitchMultiplier();
+    // Set instance field: private System.Single _maxPitchMultiplier
+    void _set__maxPitchMultiplier(float value);
+    // Get instance field: private System.Boolean _playOnAwake
+    bool _get__playOnAwake();
+    // Set instance field: private System.Boolean _playOnAwake
+    void _set__playOnAwake(bool value);
+    // Get instance field: private System.Single _originalPitch
+    float _get__originalPitch();
+    // Set instance field: private System.Single _originalPitch
+    void _set__originalPitch(float value);
+    // Get instance field: private UnityEngine.Coroutine _restoringCoroutine
+    UnityEngine::Coroutine* _get__restoringCoroutine();
+    // Set instance field: private UnityEngine.Coroutine _restoringCoroutine
+    void _set__restoringCoroutine(UnityEngine::Coroutine* value);
     // protected System.Void OnEnable()
     // Offset: 0x1220E60
     void OnEnable();

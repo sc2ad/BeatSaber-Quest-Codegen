@@ -43,6 +43,10 @@ namespace TMPro {
     static TMPro::VertexSortingOrder _get_Reverse();
     // Set static field: static public TMPro.VertexSortingOrder Reverse
     static void _set_Reverse(TMPro::VertexSortingOrder value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.VertexSortingOrder
   #pragma pack(pop)
   static check_size<sizeof(VertexSortingOrder), 0 + sizeof(int)> __TMPro_VertexSortingOrderSizeCheck;

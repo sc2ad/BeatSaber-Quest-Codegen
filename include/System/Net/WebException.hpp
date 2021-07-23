@@ -61,6 +61,18 @@ namespace System::Net {
     static_assert(sizeof(System::Net::WebExceptionInternalStatus) == 0x4);
     // Creating value type constructor for type: WebException
     WebException(System::Net::WebExceptionStatus m_Status_ = {}, System::Net::WebResponse* m_Response_ = {}, System::Net::WebExceptionInternalStatus m_InternalStatus_ = {}) noexcept : m_Status{m_Status_}, m_Response{m_Response_}, m_InternalStatus{m_InternalStatus_} {}
+    // Get instance field: private System.Net.WebExceptionStatus m_Status
+    System::Net::WebExceptionStatus _get_m_Status();
+    // Set instance field: private System.Net.WebExceptionStatus m_Status
+    void _set_m_Status(System::Net::WebExceptionStatus value);
+    // Get instance field: private System.Net.WebResponse m_Response
+    System::Net::WebResponse* _get_m_Response();
+    // Set instance field: private System.Net.WebResponse m_Response
+    void _set_m_Response(System::Net::WebResponse* value);
+    // Get instance field: private System.Net.WebExceptionInternalStatus m_InternalStatus
+    System::Net::WebExceptionInternalStatus _get_m_InternalStatus();
+    // Set instance field: private System.Net.WebExceptionInternalStatus m_InternalStatus
+    void _set_m_InternalStatus(System::Net::WebExceptionInternalStatus value);
     // public System.Net.WebExceptionStatus get_Status()
     // Offset: 0x159A540
     System::Net::WebExceptionStatus get_Status();

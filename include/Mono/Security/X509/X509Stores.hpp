@@ -38,6 +38,14 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: X509Stores
     X509Stores(::Il2CppString* storePath_ = {}, bool newFormat_ = {}) noexcept : storePath{storePath_}, newFormat{newFormat_} {}
+    // Get instance field: private System.String _storePath
+    ::Il2CppString* _get__storePath();
+    // Set instance field: private System.String _storePath
+    void _set__storePath(::Il2CppString* value);
+    // Get instance field: private System.Boolean _newFormat
+    bool _get__newFormat();
+    // Set instance field: private System.Boolean _newFormat
+    void _set__newFormat(bool value);
     // System.Void .ctor(System.String path, System.Boolean newFormat)
     // Offset: 0x238330C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

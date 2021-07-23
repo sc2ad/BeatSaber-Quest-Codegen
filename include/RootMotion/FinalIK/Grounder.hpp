@@ -71,6 +71,26 @@ namespace RootMotion::FinalIK {
     Grounder(float weight_ = {}, RootMotion::FinalIK::Grounding* solver_ = {}, RootMotion::FinalIK::Grounder::GrounderDelegate* OnPreGrounder_ = {}, RootMotion::FinalIK::Grounder::GrounderDelegate* OnPostGrounder_ = {}, bool initiated_ = {}) noexcept : weight{weight_}, solver{solver_}, OnPreGrounder{OnPreGrounder_}, OnPostGrounder{OnPostGrounder_}, initiated{initiated_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: public RootMotion.FinalIK.Grounding solver
+    RootMotion::FinalIK::Grounding* _get_solver();
+    // Set instance field: public RootMotion.FinalIK.Grounding solver
+    void _set_solver(RootMotion::FinalIK::Grounding* value);
+    // Get instance field: public RootMotion.FinalIK.Grounder/RootMotion.FinalIK.GrounderDelegate OnPreGrounder
+    RootMotion::FinalIK::Grounder::GrounderDelegate* _get_OnPreGrounder();
+    // Set instance field: public RootMotion.FinalIK.Grounder/RootMotion.FinalIK.GrounderDelegate OnPreGrounder
+    void _set_OnPreGrounder(RootMotion::FinalIK::Grounder::GrounderDelegate* value);
+    // Get instance field: public RootMotion.FinalIK.Grounder/RootMotion.FinalIK.GrounderDelegate OnPostGrounder
+    RootMotion::FinalIK::Grounder::GrounderDelegate* _get_OnPostGrounder();
+    // Set instance field: public RootMotion.FinalIK.Grounder/RootMotion.FinalIK.GrounderDelegate OnPostGrounder
+    void _set_OnPostGrounder(RootMotion::FinalIK::Grounder::GrounderDelegate* value);
+    // Get instance field: private System.Boolean <initiated>k__BackingField
+    bool _get_$initiated$k__BackingField();
+    // Set instance field: private System.Boolean <initiated>k__BackingField
+    void _set_$initiated$k__BackingField(bool value);
     // public System.Boolean get_initiated()
     // Offset: 0x1C89A2C
     bool get_initiated();

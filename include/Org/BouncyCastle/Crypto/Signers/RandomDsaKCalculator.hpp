@@ -49,6 +49,14 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::Signers::IDsaKCalculator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);
     }
+    // Get instance field: private Org.BouncyCastle.Math.BigInteger q
+    Org::BouncyCastle::Math::BigInteger* _get_q();
+    // Set instance field: private Org.BouncyCastle.Math.BigInteger q
+    void _set_q(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public System.Boolean get_IsDeterministic()
     // Offset: 0x1236250
     bool get_IsDeterministic();

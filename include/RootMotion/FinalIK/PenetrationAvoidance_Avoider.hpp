@@ -109,6 +109,46 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Avoider
     Avoider(::Array<UnityEngine::Transform*>* raycastFrom_ = {}, UnityEngine::Transform* raycastTo_ = {}, float raycastRadius_ = {}, ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>* effectors_ = {}, float smoothTimeIn_ = {}, float smoothTimeOut_ = {}, UnityEngine::LayerMask layers_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 offsetTarget_ = {}, UnityEngine::Vector3 offsetV_ = {}) noexcept : raycastFrom{raycastFrom_}, raycastTo{raycastTo_}, raycastRadius{raycastRadius_}, effectors{effectors_}, smoothTimeIn{smoothTimeIn_}, smoothTimeOut{smoothTimeOut_}, layers{layers_}, offset{offset_}, offsetTarget{offsetTarget_}, offsetV{offsetV_} {}
+    // Get instance field: public UnityEngine.Transform[] raycastFrom
+    ::Array<UnityEngine::Transform*>* _get_raycastFrom();
+    // Set instance field: public UnityEngine.Transform[] raycastFrom
+    void _set_raycastFrom(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: public UnityEngine.Transform raycastTo
+    UnityEngine::Transform* _get_raycastTo();
+    // Set instance field: public UnityEngine.Transform raycastTo
+    void _set_raycastTo(UnityEngine::Transform* value);
+    // Get instance field: public System.Single raycastRadius
+    float _get_raycastRadius();
+    // Set instance field: public System.Single raycastRadius
+    void _set_raycastRadius(float value);
+    // Get instance field: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
+    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>* _get_effectors();
+    // Set instance field: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
+    void _set_effectors(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>* value);
+    // Get instance field: public System.Single smoothTimeIn
+    float _get_smoothTimeIn();
+    // Set instance field: public System.Single smoothTimeIn
+    void _set_smoothTimeIn(float value);
+    // Get instance field: public System.Single smoothTimeOut
+    float _get_smoothTimeOut();
+    // Set instance field: public System.Single smoothTimeOut
+    void _set_smoothTimeOut(float value);
+    // Get instance field: public UnityEngine.LayerMask layers
+    UnityEngine::LayerMask _get_layers();
+    // Set instance field: public UnityEngine.LayerMask layers
+    void _set_layers(UnityEngine::LayerMask value);
+    // Get instance field: private UnityEngine.Vector3 offset
+    UnityEngine::Vector3 _get_offset();
+    // Set instance field: private UnityEngine.Vector3 offset
+    void _set_offset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 offsetTarget
+    UnityEngine::Vector3 _get_offsetTarget();
+    // Set instance field: private UnityEngine.Vector3 offsetTarget
+    void _set_offsetTarget(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 offsetV
+    UnityEngine::Vector3 _get_offsetV();
+    // Set instance field: private UnityEngine.Vector3 offsetV
+    void _set_offsetV(UnityEngine::Vector3 value);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     // Offset: 0x1AB7100
     void Solve(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);

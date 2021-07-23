@@ -64,6 +64,14 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_KC();
     // Set static field: static private readonly System.UInt32[] KC
     static void _set_KC(::Array<uint>* value);
+    // Get instance field: private System.Int32[] wKey
+    ::Array<int>* _get_wKey();
+    // Set instance field: private System.Int32[] wKey
+    void _set_wKey(::Array<int>* value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E55860
     ::Il2CppString* get_AlgorithmName();

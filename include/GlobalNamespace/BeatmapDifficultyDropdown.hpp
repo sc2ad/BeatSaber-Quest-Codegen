@@ -78,6 +78,22 @@ namespace GlobalNamespace {
     BeatmapDifficultyDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>* beatmapDifficultyData_ = {}, bool includeAllDifficulties_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, beatmapDifficultyData{beatmapDifficultyData_}, includeAllDifficulties{includeAllDifficulties_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    HMUI::SimpleTextDropdown* _get__simpleTextDropdown();
+    // Set instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    void _set__simpleTextDropdown(HMUI::SimpleTextDropdown* value);
+    // Get instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    System::Action_1<int>* _get_didSelectCellWithIdxEvent();
+    // Set instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    void _set_didSelectCellWithIdxEvent(System::Action_1<int>* value);
+    // Get instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<BeatmapDifficultyMask,System.String>> _beatmapDifficultyData
+    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>* _get__beatmapDifficultyData();
+    // Set instance field: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<BeatmapDifficultyMask,System.String>> _beatmapDifficultyData
+    void _set__beatmapDifficultyData(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>* value);
+    // Get instance field: private System.Boolean <includeAllDifficulties>k__BackingField
+    bool _get_$includeAllDifficulties$k__BackingField();
+    // Set instance field: private System.Boolean <includeAllDifficulties>k__BackingField
+    void _set_$includeAllDifficulties$k__BackingField(bool value);
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<BeatmapDifficultyMask,System.String>> get_beatmapDifficultyData()
     // Offset: 0x1193310
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*>* get_beatmapDifficultyData();

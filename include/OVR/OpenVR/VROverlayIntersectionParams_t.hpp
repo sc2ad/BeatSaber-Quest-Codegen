@@ -44,6 +44,18 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.HmdVector3_t vSource
+    OVR::OpenVR::HmdVector3_t _get_vSource();
+    // Set instance field: public OVR.OpenVR.HmdVector3_t vSource
+    void _set_vSource(OVR::OpenVR::HmdVector3_t value);
+    // Get instance field: public OVR.OpenVR.HmdVector3_t vDirection
+    OVR::OpenVR::HmdVector3_t _get_vDirection();
+    // Set instance field: public OVR.OpenVR.HmdVector3_t vDirection
+    void _set_vDirection(OVR::OpenVR::HmdVector3_t value);
+    // Get instance field: public OVR.OpenVR.ETrackingUniverseOrigin eOrigin
+    OVR::OpenVR::ETrackingUniverseOrigin _get_eOrigin();
+    // Set instance field: public OVR.OpenVR.ETrackingUniverseOrigin eOrigin
+    void _set_eOrigin(OVR::OpenVR::ETrackingUniverseOrigin value);
   }; // OVR.OpenVR.VROverlayIntersectionParams_t
   #pragma pack(pop)
   static check_size<sizeof(VROverlayIntersectionParams_t), 24 + sizeof(OVR::OpenVR::ETrackingUniverseOrigin)> __OVR_OpenVR_VROverlayIntersectionParams_tSizeCheck;

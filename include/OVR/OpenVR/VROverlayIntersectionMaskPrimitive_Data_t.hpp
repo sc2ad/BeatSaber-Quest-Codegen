@@ -36,6 +36,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.IntersectionMaskRectangle_t m_Rectangle
+    OVR::OpenVR::IntersectionMaskRectangle_t _get_m_Rectangle();
+    // Set instance field: public OVR.OpenVR.IntersectionMaskRectangle_t m_Rectangle
+    void _set_m_Rectangle(OVR::OpenVR::IntersectionMaskRectangle_t value);
+    // Get instance field: public OVR.OpenVR.IntersectionMaskCircle_t m_Circle
+    OVR::OpenVR::IntersectionMaskCircle_t _get_m_Circle();
+    // Set instance field: public OVR.OpenVR.IntersectionMaskCircle_t m_Circle
+    void _set_m_Circle(OVR::OpenVR::IntersectionMaskCircle_t value);
   }; // OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t
   // WARNING Not writing size check since size may be invalid!
 }

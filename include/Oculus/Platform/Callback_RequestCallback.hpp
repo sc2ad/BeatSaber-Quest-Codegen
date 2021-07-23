@@ -33,6 +33,10 @@ namespace Oculus::Platform {
     constexpr operator Oculus::Platform::Message::Callback*() const noexcept {
       return messageCallback;
     }
+    // Get instance field: private Oculus.Platform.Message/Oculus.Platform.Callback messageCallback
+    Oculus::Platform::Message::Callback* _get_messageCallback();
+    // Set instance field: private Oculus.Platform.Message/Oculus.Platform.Callback messageCallback
+    void _set_messageCallback(Oculus::Platform::Message::Callback* value);
     // public System.Void .ctor(Oculus.Platform.Message/Oculus.Platform.Callback callback)
     // Offset: 0x1493A38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

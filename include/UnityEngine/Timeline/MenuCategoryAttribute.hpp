@@ -32,6 +32,10 @@ namespace UnityEngine::Timeline {
     constexpr operator ::Il2CppString*() const noexcept {
       return category;
     }
+    // Get instance field: public readonly System.String category
+    ::Il2CppString* _get_category();
+    // Set instance field: public readonly System.String category
+    void _set_category(::Il2CppString* value);
     // public System.Void .ctor(System.String category)
     // Offset: 0x17E8CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

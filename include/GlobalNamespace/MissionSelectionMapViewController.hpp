@@ -98,6 +98,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MissionNode*) == 0x8);
     // Creating value type constructor for type: MissionSelectionMapViewController
     MissionSelectionMapViewController(HMUI::ScrollView* mapScrollView_ = {}, GlobalNamespace::MissionNodeSelectionManager* missionNodeSelectionManager_ = {}, GlobalNamespace::MissionMapAnimationController* missionMapAnimationController_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel_ = {}, System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* didSelectMissionLevelEvent_ = {}, GlobalNamespace::MissionNode* selectedMissionNode_ = {}) noexcept : mapScrollView{mapScrollView_}, missionNodeSelectionManager{missionNodeSelectionManager_}, missionMapAnimationController{missionMapAnimationController_}, songPreviewPlayer{songPreviewPlayer_}, perceivedLoudnessPerLevelModel{perceivedLoudnessPerLevelModel_}, didSelectMissionLevelEvent{didSelectMissionLevelEvent_}, selectedMissionNode{selectedMissionNode_} {}
+    // Get instance field: private HMUI.ScrollView _mapScrollView
+    HMUI::ScrollView* _get__mapScrollView();
+    // Set instance field: private HMUI.ScrollView _mapScrollView
+    void _set__mapScrollView(HMUI::ScrollView* value);
+    // Get instance field: private MissionNodeSelectionManager _missionNodeSelectionManager
+    GlobalNamespace::MissionNodeSelectionManager* _get__missionNodeSelectionManager();
+    // Set instance field: private MissionNodeSelectionManager _missionNodeSelectionManager
+    void _set__missionNodeSelectionManager(GlobalNamespace::MissionNodeSelectionManager* value);
+    // Get instance field: private MissionMapAnimationController _missionMapAnimationController
+    GlobalNamespace::MissionMapAnimationController* _get__missionMapAnimationController();
+    // Set instance field: private MissionMapAnimationController _missionMapAnimationController
+    void _set__missionMapAnimationController(GlobalNamespace::MissionMapAnimationController* value);
+    // Get instance field: private readonly SongPreviewPlayer _songPreviewPlayer
+    GlobalNamespace::SongPreviewPlayer* _get__songPreviewPlayer();
+    // Set instance field: private readonly SongPreviewPlayer _songPreviewPlayer
+    void _set__songPreviewPlayer(GlobalNamespace::SongPreviewPlayer* value);
+    // Get instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    DataModels::Levels::PerceivedLoudnessPerLevelModel* _get__perceivedLoudnessPerLevelModel();
+    // Set instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    void _set__perceivedLoudnessPerLevelModel(DataModels::Levels::PerceivedLoudnessPerLevelModel* value);
+    // Get instance field: private System.Action`2<MissionSelectionMapViewController,MissionNode> didSelectMissionLevelEvent
+    System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* _get_didSelectMissionLevelEvent();
+    // Set instance field: private System.Action`2<MissionSelectionMapViewController,MissionNode> didSelectMissionLevelEvent
+    void _set_didSelectMissionLevelEvent(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* value);
+    // Get instance field: private MissionNode _selectedMissionNode
+    GlobalNamespace::MissionNode* _get__selectedMissionNode();
+    // Set instance field: private MissionNode _selectedMissionNode
+    void _set__selectedMissionNode(GlobalNamespace::MissionNode* value);
     // public System.Boolean get_animatedUpdateIsRequired()
     // Offset: 0x11393D4
     bool get_animatedUpdateIsRequired();

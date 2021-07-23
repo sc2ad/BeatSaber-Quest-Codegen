@@ -50,6 +50,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
+    // Get instance field: private readonly UnifiedNetworkPlayerModel _playerModel
+    GlobalNamespace::UnifiedNetworkPlayerModel* _get__playerModel();
+    // Set instance field: private readonly UnifiedNetworkPlayerModel _playerModel
+    void _set__playerModel(GlobalNamespace::UnifiedNetworkPlayerModel* value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public System.String get_userId()
     // Offset: 0x127302C
     ::Il2CppString* get_userId();

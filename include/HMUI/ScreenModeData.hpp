@@ -67,6 +67,34 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ScreenModeData
     ScreenModeData(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 rotation_ = {}, float scale_ = {}, float radius_ = {}, bool offsetHeightByHeadPos_ = {}, float yOffsetRelativeToHead_ = {}, float minYPos_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_}, radius{radius_}, offsetHeightByHeadPos{offsetHeightByHeadPos_}, yOffsetRelativeToHead{yOffsetRelativeToHead_}, minYPos{minYPos_} {}
+    // Get instance field: public UnityEngine.Vector3 position
+    UnityEngine::Vector3 _get_position();
+    // Set instance field: public UnityEngine.Vector3 position
+    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 rotation
+    UnityEngine::Vector3 _get_rotation();
+    // Set instance field: public UnityEngine.Vector3 rotation
+    void _set_rotation(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single scale
+    float _get_scale();
+    // Set instance field: public System.Single scale
+    void _set_scale(float value);
+    // Get instance field: public System.Single radius
+    float _get_radius();
+    // Set instance field: public System.Single radius
+    void _set_radius(float value);
+    // Get instance field: public System.Boolean offsetHeightByHeadPos
+    bool _get_offsetHeightByHeadPos();
+    // Set instance field: public System.Boolean offsetHeightByHeadPos
+    void _set_offsetHeightByHeadPos(bool value);
+    // Get instance field: public System.Single yOffsetRelativeToHead
+    float _get_yOffsetRelativeToHead();
+    // Set instance field: public System.Single yOffsetRelativeToHead
+    void _set_yOffsetRelativeToHead(float value);
+    // Get instance field: public System.Single minYPos
+    float _get_minYPos();
+    // Set instance field: public System.Single minYPos
+    void _set_minYPos(float value);
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Vector3 rotation, System.Single scale, System.Single radius, System.Boolean offsetHeightByHeadPos, System.Single yOffsetRelativeToHead, System.Single minYPos)
     // Offset: 0x1296DEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -40,6 +40,14 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     static_assert(sizeof(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>*) == 0x8);
     // Creating value type constructor for type: RemoteTestResultDataWithTestData
     RemoteTestResultDataWithTestData(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* results_ = {}, ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* tests_ = {}) noexcept : results{results_}, tests{tests_} {}
+    // Get instance field: public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
+    ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* _get_results();
+    // Set instance field: public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
+    void _set_results(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* value);
+    // Get instance field: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
+    ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* _get_tests();
+    // Set instance field: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
+    void _set_tests(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* value);
     // public System.Void .ctor()
     // Offset: 0x1486B54
     // Implemented from: System.Object

@@ -43,6 +43,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRControllerEventOutputType _get_ControllerEventOutput_VREvents();
     // Set static field: static public OVR.OpenVR.EVRControllerEventOutputType ControllerEventOutput_VREvents
     static void _set_ControllerEventOutput_VREvents(OVR::OpenVR::EVRControllerEventOutputType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRControllerEventOutputType
   #pragma pack(pop)
   static check_size<sizeof(EVRControllerEventOutputType), 0 + sizeof(int)> __OVR_OpenVR_EVRControllerEventOutputTypeSizeCheck;

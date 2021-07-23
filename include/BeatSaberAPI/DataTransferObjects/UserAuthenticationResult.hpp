@@ -40,6 +40,14 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*) == 0x8);
     // Creating value type constructor for type: UserAuthenticationResult
     UserAuthenticationResult(BeatSaberAPI::DataTransferObjects::UserInfo* userInfo_ = {}, BeatSaberAPI::DataTransferObjects::AccessToken* accessToken_ = {}) noexcept : userInfo{userInfo_}, accessToken{accessToken_} {}
+    // Get instance field: public BeatSaberAPI.DataTransferObjects.UserInfo userInfo
+    BeatSaberAPI::DataTransferObjects::UserInfo* _get_userInfo();
+    // Set instance field: public BeatSaberAPI.DataTransferObjects.UserInfo userInfo
+    void _set_userInfo(BeatSaberAPI::DataTransferObjects::UserInfo* value);
+    // Get instance field: public BeatSaberAPI.DataTransferObjects.AccessToken accessToken
+    BeatSaberAPI::DataTransferObjects::AccessToken* _get_accessToken();
+    // Set instance field: public BeatSaberAPI.DataTransferObjects.AccessToken accessToken
+    void _set_accessToken(BeatSaberAPI::DataTransferObjects::AccessToken* value);
     // public System.Void .ctor()
     // Offset: 0x1188640
     // Implemented from: System.Object

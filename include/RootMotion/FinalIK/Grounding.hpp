@@ -80,6 +80,10 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::Grounding::Quality _get_Best();
       // Set static field: static public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality Best
       static void _set_Best(RootMotion::FinalIK::Grounding::Quality value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality
     #pragma pack(pop)
     static check_size<sizeof(Grounding::Quality), 0 + sizeof(int)> __RootMotion_FinalIK_Grounding_QualitySizeCheck;
@@ -257,6 +261,102 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Grounding
     Grounding(UnityEngine::LayerMask layers_ = {}, float maxStep_ = {}, float heightOffset_ = {}, float footSpeed_ = {}, float footRadius_ = {}, float footCenterOffset_ = {}, float prediction_ = {}, float footRotationWeight_ = {}, float footRotationSpeed_ = {}, float maxFootRotationAngle_ = {}, bool rotateSolver_ = {}, float pelvisSpeed_ = {}, float pelvisDamper_ = {}, float lowerPelvisWeight_ = {}, float liftPelvisWeight_ = {}, float rootSphereCastRadius_ = {}, bool overstepFallsDown_ = {}, RootMotion::FinalIK::Grounding::Quality quality_ = {}, ::Array<RootMotion::FinalIK::Grounding::Leg*>* legs_ = {}, RootMotion::FinalIK::Grounding::Pelvis* pelvis_ = {}, bool isGrounded_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::RaycastHit rootHit_ = {}, bool initiated_ = {}) noexcept : layers{layers_}, maxStep{maxStep_}, heightOffset{heightOffset_}, footSpeed{footSpeed_}, footRadius{footRadius_}, footCenterOffset{footCenterOffset_}, prediction{prediction_}, footRotationWeight{footRotationWeight_}, footRotationSpeed{footRotationSpeed_}, maxFootRotationAngle{maxFootRotationAngle_}, rotateSolver{rotateSolver_}, pelvisSpeed{pelvisSpeed_}, pelvisDamper{pelvisDamper_}, lowerPelvisWeight{lowerPelvisWeight_}, liftPelvisWeight{liftPelvisWeight_}, rootSphereCastRadius{rootSphereCastRadius_}, overstepFallsDown{overstepFallsDown_}, quality{quality_}, legs{legs_}, pelvis{pelvis_}, isGrounded{isGrounded_}, root{root_}, rootHit{rootHit_}, initiated{initiated_} {}
+    // Get instance field: public UnityEngine.LayerMask layers
+    UnityEngine::LayerMask _get_layers();
+    // Set instance field: public UnityEngine.LayerMask layers
+    void _set_layers(UnityEngine::LayerMask value);
+    // Get instance field: public System.Single maxStep
+    float _get_maxStep();
+    // Set instance field: public System.Single maxStep
+    void _set_maxStep(float value);
+    // Get instance field: public System.Single heightOffset
+    float _get_heightOffset();
+    // Set instance field: public System.Single heightOffset
+    void _set_heightOffset(float value);
+    // Get instance field: public System.Single footSpeed
+    float _get_footSpeed();
+    // Set instance field: public System.Single footSpeed
+    void _set_footSpeed(float value);
+    // Get instance field: public System.Single footRadius
+    float _get_footRadius();
+    // Set instance field: public System.Single footRadius
+    void _set_footRadius(float value);
+    // Get instance field: public System.Single footCenterOffset
+    float _get_footCenterOffset();
+    // Set instance field: public System.Single footCenterOffset
+    void _set_footCenterOffset(float value);
+    // Get instance field: public System.Single prediction
+    float _get_prediction();
+    // Set instance field: public System.Single prediction
+    void _set_prediction(float value);
+    // Get instance field: public System.Single footRotationWeight
+    float _get_footRotationWeight();
+    // Set instance field: public System.Single footRotationWeight
+    void _set_footRotationWeight(float value);
+    // Get instance field: public System.Single footRotationSpeed
+    float _get_footRotationSpeed();
+    // Set instance field: public System.Single footRotationSpeed
+    void _set_footRotationSpeed(float value);
+    // Get instance field: public System.Single maxFootRotationAngle
+    float _get_maxFootRotationAngle();
+    // Set instance field: public System.Single maxFootRotationAngle
+    void _set_maxFootRotationAngle(float value);
+    // Get instance field: public System.Boolean rotateSolver
+    bool _get_rotateSolver();
+    // Set instance field: public System.Boolean rotateSolver
+    void _set_rotateSolver(bool value);
+    // Get instance field: public System.Single pelvisSpeed
+    float _get_pelvisSpeed();
+    // Set instance field: public System.Single pelvisSpeed
+    void _set_pelvisSpeed(float value);
+    // Get instance field: public System.Single pelvisDamper
+    float _get_pelvisDamper();
+    // Set instance field: public System.Single pelvisDamper
+    void _set_pelvisDamper(float value);
+    // Get instance field: public System.Single lowerPelvisWeight
+    float _get_lowerPelvisWeight();
+    // Set instance field: public System.Single lowerPelvisWeight
+    void _set_lowerPelvisWeight(float value);
+    // Get instance field: public System.Single liftPelvisWeight
+    float _get_liftPelvisWeight();
+    // Set instance field: public System.Single liftPelvisWeight
+    void _set_liftPelvisWeight(float value);
+    // Get instance field: public System.Single rootSphereCastRadius
+    float _get_rootSphereCastRadius();
+    // Set instance field: public System.Single rootSphereCastRadius
+    void _set_rootSphereCastRadius(float value);
+    // Get instance field: public System.Boolean overstepFallsDown
+    bool _get_overstepFallsDown();
+    // Set instance field: public System.Boolean overstepFallsDown
+    void _set_overstepFallsDown(bool value);
+    // Get instance field: public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality quality
+    RootMotion::FinalIK::Grounding::Quality _get_quality();
+    // Set instance field: public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality quality
+    void _set_quality(RootMotion::FinalIK::Grounding::Quality value);
+    // Get instance field: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] <legs>k__BackingField
+    ::Array<RootMotion::FinalIK::Grounding::Leg*>* _get_$legs$k__BackingField();
+    // Set instance field: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] <legs>k__BackingField
+    void _set_$legs$k__BackingField(::Array<RootMotion::FinalIK::Grounding::Leg*>* value);
+    // Get instance field: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis <pelvis>k__BackingField
+    RootMotion::FinalIK::Grounding::Pelvis* _get_$pelvis$k__BackingField();
+    // Set instance field: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis <pelvis>k__BackingField
+    void _set_$pelvis$k__BackingField(RootMotion::FinalIK::Grounding::Pelvis* value);
+    // Get instance field: private System.Boolean <isGrounded>k__BackingField
+    bool _get_$isGrounded$k__BackingField();
+    // Set instance field: private System.Boolean <isGrounded>k__BackingField
+    void _set_$isGrounded$k__BackingField(bool value);
+    // Get instance field: private UnityEngine.Transform <root>k__BackingField
+    UnityEngine::Transform* _get_$root$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <root>k__BackingField
+    void _set_$root$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.RaycastHit <rootHit>k__BackingField
+    UnityEngine::RaycastHit _get_$rootHit$k__BackingField();
+    // Set instance field: private UnityEngine.RaycastHit <rootHit>k__BackingField
+    void _set_$rootHit$k__BackingField(UnityEngine::RaycastHit value);
+    // Get instance field: private System.Boolean initiated
+    bool _get_initiated();
+    // Set instance field: private System.Boolean initiated
+    void _set_initiated(bool value);
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] get_legs()
     // Offset: 0x1C90E34
     ::Array<RootMotion::FinalIK::Grounding::Leg*>* get_legs();

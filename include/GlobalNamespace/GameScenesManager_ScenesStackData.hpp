@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
     // Creating value type constructor for type: ScenesStackData
     ScenesStackData(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames_ = {}, Zenject::DiContainer* container_ = {}) noexcept : sceneNames{sceneNames_}, container{container_} {}
+    // Get instance field: private System.Collections.Generic.List`1<System.String> <sceneNames>k__BackingField
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_$sceneNames$k__BackingField();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> <sceneNames>k__BackingField
+    void _set_$sceneNames$k__BackingField(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private Zenject.DiContainer <container>k__BackingField
+    Zenject::DiContainer* _get_$container$k__BackingField();
+    // Set instance field: private Zenject.DiContainer <container>k__BackingField
+    void _set_$container$k__BackingField(Zenject::DiContainer* value);
     // public System.Collections.Generic.List`1<System.String> get_sceneNames()
     // Offset: 0x1219258
     System::Collections::Generic::List_1<::Il2CppString*>* get_sceneNames();

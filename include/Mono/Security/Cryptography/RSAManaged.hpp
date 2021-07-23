@@ -108,6 +108,54 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*) == 0x8);
     // Creating value type constructor for type: RSAManaged
     RSAManaged(bool isCRTpossible_ = {}, bool keypairGenerated_ = {}, bool m_disposed_ = {}, Mono::Math::BigInteger* d_ = {}, Mono::Math::BigInteger* p_ = {}, Mono::Math::BigInteger* q_ = {}, Mono::Math::BigInteger* dp_ = {}, Mono::Math::BigInteger* dq_ = {}, Mono::Math::BigInteger* qInv_ = {}, Mono::Math::BigInteger* n_ = {}, Mono::Math::BigInteger* e_ = {}, Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* KeyGenerated_ = {}) noexcept : isCRTpossible{isCRTpossible_}, keypairGenerated{keypairGenerated_}, m_disposed{m_disposed_}, d{d_}, p{p_}, q{q_}, dp{dp_}, dq{dq_}, qInv{qInv_}, n{n_}, e{e_}, KeyGenerated{KeyGenerated_} {}
+    // Get instance field: private System.Boolean isCRTpossible
+    bool _get_isCRTpossible();
+    // Set instance field: private System.Boolean isCRTpossible
+    void _set_isCRTpossible(bool value);
+    // Get instance field: private System.Boolean keypairGenerated
+    bool _get_keypairGenerated();
+    // Set instance field: private System.Boolean keypairGenerated
+    void _set_keypairGenerated(bool value);
+    // Get instance field: private System.Boolean m_disposed
+    bool _get_m_disposed();
+    // Set instance field: private System.Boolean m_disposed
+    void _set_m_disposed(bool value);
+    // Get instance field: private Mono.Math.BigInteger d
+    Mono::Math::BigInteger* _get_d();
+    // Set instance field: private Mono.Math.BigInteger d
+    void _set_d(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger p
+    Mono::Math::BigInteger* _get_p();
+    // Set instance field: private Mono.Math.BigInteger p
+    void _set_p(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger q
+    Mono::Math::BigInteger* _get_q();
+    // Set instance field: private Mono.Math.BigInteger q
+    void _set_q(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger dp
+    Mono::Math::BigInteger* _get_dp();
+    // Set instance field: private Mono.Math.BigInteger dp
+    void _set_dp(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger dq
+    Mono::Math::BigInteger* _get_dq();
+    // Set instance field: private Mono.Math.BigInteger dq
+    void _set_dq(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger qInv
+    Mono::Math::BigInteger* _get_qInv();
+    // Set instance field: private Mono.Math.BigInteger qInv
+    void _set_qInv(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger n
+    Mono::Math::BigInteger* _get_n();
+    // Set instance field: private Mono.Math.BigInteger n
+    void _set_n(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger e
+    Mono::Math::BigInteger* _get_e();
+    // Set instance field: private Mono.Math.BigInteger e
+    void _set_e(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
+    Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* _get_KeyGenerated();
+    // Set instance field: private Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
+    void _set_KeyGenerated(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* value);
     // public System.Boolean get_PublicOnly()
     // Offset: 0x1DDD2CC
     bool get_PublicOnly();

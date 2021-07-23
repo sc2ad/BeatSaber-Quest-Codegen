@@ -71,6 +71,26 @@ namespace GlobalNamespace {
     ComboUIController(TMPro::TextMeshProUGUI* comboText_ = {}, UnityEngine::Animator* animator_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, int comboLostID_ = {}, bool comboLost_ = {}) noexcept : comboText{comboText_}, animator{animator_}, scoreController{scoreController_}, comboLostID{comboLostID_}, comboLost{comboLost_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _comboText
+    TMPro::TextMeshProUGUI* _get__comboText();
+    // Set instance field: private TMPro.TextMeshProUGUI _comboText
+    void _set__comboText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.Animator _animator
+    UnityEngine::Animator* _get__animator();
+    // Set instance field: private UnityEngine.Animator _animator
+    void _set__animator(UnityEngine::Animator* value);
+    // Get instance field: private readonly IScoreController _scoreController
+    GlobalNamespace::IScoreController* _get__scoreController();
+    // Set instance field: private readonly IScoreController _scoreController
+    void _set__scoreController(GlobalNamespace::IScoreController* value);
+    // Get instance field: private System.Int32 _comboLostID
+    int _get__comboLostID();
+    // Set instance field: private System.Int32 _comboLostID
+    void _set__comboLostID(int value);
+    // Get instance field: private System.Boolean _comboLost
+    bool _get__comboLost();
+    // Set instance field: private System.Boolean _comboLost
+    void _set__comboLost(bool value);
     // protected System.Void Start()
     // Offset: 0x108085C
     void Start();

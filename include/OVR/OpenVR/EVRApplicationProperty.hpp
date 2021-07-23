@@ -133,6 +133,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRApplicationProperty _get_LastLaunchTime_Uint64();
     // Set static field: static public OVR.OpenVR.EVRApplicationProperty LastLaunchTime_Uint64
     static void _set_LastLaunchTime_Uint64(OVR::OpenVR::EVRApplicationProperty value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRApplicationProperty
   #pragma pack(pop)
   static check_size<sizeof(EVRApplicationProperty), 0 + sizeof(int)> __OVR_OpenVR_EVRApplicationPropertySizeCheck;

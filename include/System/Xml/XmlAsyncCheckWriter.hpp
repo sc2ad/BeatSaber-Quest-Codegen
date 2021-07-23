@@ -45,6 +45,14 @@ namespace System::Xml {
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
     // Creating value type constructor for type: XmlAsyncCheckWriter
     XmlAsyncCheckWriter(System::Xml::XmlWriter* coreWriter_ = {}, System::Threading::Tasks::Task* lastTask_ = {}) noexcept : coreWriter{coreWriter_}, lastTask{lastTask_} {}
+    // Get instance field: private readonly System.Xml.XmlWriter coreWriter
+    System::Xml::XmlWriter* _get_coreWriter();
+    // Set instance field: private readonly System.Xml.XmlWriter coreWriter
+    void _set_coreWriter(System::Xml::XmlWriter* value);
+    // Get instance field: private System.Threading.Tasks.Task lastTask
+    System::Threading::Tasks::Task* _get_lastTask();
+    // Set instance field: private System.Threading.Tasks.Task lastTask
+    void _set_lastTask(System::Threading::Tasks::Task* value);
     // public System.Void .ctor(System.Xml.XmlWriter writer)
     // Offset: 0x1906858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

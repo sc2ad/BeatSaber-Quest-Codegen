@@ -83,6 +83,18 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Int32 m_Version
+    int _get_m_Version();
+    // Set instance field: private System.Int32 m_Version
+    void _set_m_Version(int value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation m_InternalOp
+    UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* _get_m_InternalOp();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation m_InternalOp
+    void _set_m_InternalOp(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
+    UnityEngine::ResourceManagement::ResourceManager* _get_m_ResourceManager();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
+    void _set_m_ResourceManager(UnityEngine::ResourceManagement::ResourceManager* value);
     // private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation get_InternalOp()
     // Offset: 0xEEC280
     UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();

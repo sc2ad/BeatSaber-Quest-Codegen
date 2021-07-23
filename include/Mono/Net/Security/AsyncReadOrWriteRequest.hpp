@@ -42,6 +42,14 @@ namespace Mono::Net::Security {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AsyncReadOrWriteRequest
     AsyncReadOrWriteRequest(Mono::Net::Security::BufferOffsetSize* UserBuffer_ = {}, int CurrentSize_ = {}) noexcept : UserBuffer{UserBuffer_}, CurrentSize{CurrentSize_} {}
+    // Get instance field: private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
+    Mono::Net::Security::BufferOffsetSize* _get_$UserBuffer$k__BackingField();
+    // Set instance field: private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
+    void _set_$UserBuffer$k__BackingField(Mono::Net::Security::BufferOffsetSize* value);
+    // Get instance field: private System.Int32 <CurrentSize>k__BackingField
+    int _get_$CurrentSize$k__BackingField();
+    // Set instance field: private System.Int32 <CurrentSize>k__BackingField
+    void _set_$CurrentSize$k__BackingField(int value);
     // protected Mono.Net.Security.BufferOffsetSize get_UserBuffer()
     // Offset: 0x15AADC4
     Mono::Net::Security::BufferOffsetSize* get_UserBuffer();

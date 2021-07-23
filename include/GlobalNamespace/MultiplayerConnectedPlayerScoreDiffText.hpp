@@ -97,6 +97,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State _get_AnimatingHide();
       // Set static field: static public MultiplayerConnectedPlayerScoreDiffText/State AnimatingHide
       static void _set_AnimatingHide(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MultiplayerConnectedPlayerScoreDiffText/State
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::State), 0 + sizeof(int)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_StateSizeCheck;
@@ -177,6 +181,50 @@ namespace GlobalNamespace {
     MultiplayerConnectedPlayerScoreDiffText(UnityEngine::Color activeTextColor_ = {}, UnityEngine::Color normalBackgroundColor_ = {}, UnityEngine::Color leadingBackgroundColor_ = {}, TMPro::TextMeshPro* onPlatformText_ = {}, UnityEngine::SpriteRenderer* backgroundSpriteRenderer_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider_ = {}, UnityEngine::Color currentBackgroundColor_ = {}, GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State state_ = {}, Tweening::FloatTween* onPlatformTextAlphaTween_ = {}) noexcept : activeTextColor{activeTextColor_}, normalBackgroundColor{normalBackgroundColor_}, leadingBackgroundColor{leadingBackgroundColor_}, onPlatformText{onPlatformText_}, backgroundSpriteRenderer{backgroundSpriteRenderer_}, tweeningManager{tweeningManager_}, connectedPlayer{connectedPlayer_}, leadPlayerProvider{leadPlayerProvider_}, currentBackgroundColor{currentBackgroundColor_}, state{state_}, onPlatformTextAlphaTween{onPlatformTextAlphaTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Color _activeTextColor
+    UnityEngine::Color _get__activeTextColor();
+    // Set instance field: private UnityEngine.Color _activeTextColor
+    void _set__activeTextColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _normalBackgroundColor
+    UnityEngine::Color _get__normalBackgroundColor();
+    // Set instance field: private UnityEngine.Color _normalBackgroundColor
+    void _set__normalBackgroundColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _leadingBackgroundColor
+    UnityEngine::Color _get__leadingBackgroundColor();
+    // Set instance field: private UnityEngine.Color _leadingBackgroundColor
+    void _set__leadingBackgroundColor(UnityEngine::Color value);
+    // Get instance field: private TMPro.TextMeshPro _onPlatformText
+    TMPro::TextMeshPro* _get__onPlatformText();
+    // Set instance field: private TMPro.TextMeshPro _onPlatformText
+    void _set__onPlatformText(TMPro::TextMeshPro* value);
+    // Get instance field: private UnityEngine.SpriteRenderer _backgroundSpriteRenderer
+    UnityEngine::SpriteRenderer* _get__backgroundSpriteRenderer();
+    // Set instance field: private UnityEngine.SpriteRenderer _backgroundSpriteRenderer
+    void _set__backgroundSpriteRenderer(UnityEngine::SpriteRenderer* value);
+    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager* _get__tweeningManager();
+    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
+    void _set__tweeningManager(Tweening::TweeningManager* value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
+    GlobalNamespace::MultiplayerLeadPlayerProvider* _get__leadPlayerProvider();
+    // Set instance field: private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
+    void _set__leadPlayerProvider(GlobalNamespace::MultiplayerLeadPlayerProvider* value);
+    // Get instance field: private UnityEngine.Color _currentBackgroundColor
+    UnityEngine::Color _get__currentBackgroundColor();
+    // Set instance field: private UnityEngine.Color _currentBackgroundColor
+    void _set__currentBackgroundColor(UnityEngine::Color value);
+    // Get instance field: private MultiplayerConnectedPlayerScoreDiffText/State _state
+    GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State _get__state();
+    // Set instance field: private MultiplayerConnectedPlayerScoreDiffText/State _state
+    void _set__state(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State value);
+    // Get instance field: private Tweening.FloatTween _onPlatformTextAlphaTween
+    Tweening::FloatTween* _get__onPlatformTextAlphaTween();
+    // Set instance field: private Tweening.FloatTween _onPlatformTextAlphaTween
+    void _set__onPlatformTextAlphaTween(Tweening::FloatTween* value);
     // private System.Void Start()
     // Offset: 0x11A5128
     void Start();

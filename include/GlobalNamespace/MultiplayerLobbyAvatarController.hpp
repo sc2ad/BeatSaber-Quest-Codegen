@@ -93,6 +93,30 @@ namespace GlobalNamespace {
     MultiplayerLobbyAvatarController(UnityEngine::Playables::PlayableDirector* spawnEffect_ = {}, GlobalNamespace::VFXController* despawnVFXController_ = {}, float spawnAvatarDelay_ = {}, float despawnAvatarDelay_ = {}, float destroyAvatarDelay_ = {}, ::Array<UnityEngine::GameObject*>* visualObjects_ = {}) noexcept : spawnEffect{spawnEffect_}, despawnVFXController{despawnVFXController_}, spawnAvatarDelay{spawnAvatarDelay_}, despawnAvatarDelay{despawnAvatarDelay_}, destroyAvatarDelay{destroyAvatarDelay_}, visualObjects{visualObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Playables.PlayableDirector _spawnEffect
+    UnityEngine::Playables::PlayableDirector* _get__spawnEffect();
+    // Set instance field: private UnityEngine.Playables.PlayableDirector _spawnEffect
+    void _set__spawnEffect(UnityEngine::Playables::PlayableDirector* value);
+    // Get instance field: private VFXController _despawnVFXController
+    GlobalNamespace::VFXController* _get__despawnVFXController();
+    // Set instance field: private VFXController _despawnVFXController
+    void _set__despawnVFXController(GlobalNamespace::VFXController* value);
+    // Get instance field: private System.Single _spawnAvatarDelay
+    float _get__spawnAvatarDelay();
+    // Set instance field: private System.Single _spawnAvatarDelay
+    void _set__spawnAvatarDelay(float value);
+    // Get instance field: private System.Single _despawnAvatarDelay
+    float _get__despawnAvatarDelay();
+    // Set instance field: private System.Single _despawnAvatarDelay
+    void _set__despawnAvatarDelay(float value);
+    // Get instance field: private System.Single _destroyAvatarDelay
+    float _get__destroyAvatarDelay();
+    // Set instance field: private System.Single _destroyAvatarDelay
+    void _set__destroyAvatarDelay(float value);
+    // Get instance field: private UnityEngine.GameObject[] _visualObjects
+    ::Array<UnityEngine::GameObject*>* _get__visualObjects();
+    // Set instance field: private UnityEngine.GameObject[] _visualObjects
+    void _set__visualObjects(::Array<UnityEngine::GameObject*>* value);
     // public System.Void ShowSpawnAnimation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0x23CD128
     void ShowSpawnAnimation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);

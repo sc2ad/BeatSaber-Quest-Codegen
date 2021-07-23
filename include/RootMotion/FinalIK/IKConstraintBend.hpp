@@ -146,6 +146,78 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: IKConstraintBend
     IKConstraintBend(UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, UnityEngine::Transform* bone3_ = {}, UnityEngine::Transform* bendGoal_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, float weight_ = {}, UnityEngine::Vector3 defaultLocalDirection_ = {}, UnityEngine::Vector3 defaultChildDirection_ = {}, float clampF_ = {}, int chainIndex1_ = {}, int nodeIndex1_ = {}, int chainIndex2_ = {}, int nodeIndex2_ = {}, int chainIndex3_ = {}, int nodeIndex3_ = {}, bool initiated_ = {}, bool limbOrientationsSet_ = {}) noexcept : bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, bendGoal{bendGoal_}, direction{direction_}, rotationOffset{rotationOffset_}, weight{weight_}, defaultLocalDirection{defaultLocalDirection_}, defaultChildDirection{defaultChildDirection_}, clampF{clampF_}, chainIndex1{chainIndex1_}, nodeIndex1{nodeIndex1_}, chainIndex2{chainIndex2_}, nodeIndex2{nodeIndex2_}, chainIndex3{chainIndex3_}, nodeIndex3{nodeIndex3_}, initiated{initiated_}, limbOrientationsSet{limbOrientationsSet_} {}
+    // Get instance field: public UnityEngine.Transform bone1
+    UnityEngine::Transform* _get_bone1();
+    // Set instance field: public UnityEngine.Transform bone1
+    void _set_bone1(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform bone2
+    UnityEngine::Transform* _get_bone2();
+    // Set instance field: public UnityEngine.Transform bone2
+    void _set_bone2(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform bone3
+    UnityEngine::Transform* _get_bone3();
+    // Set instance field: public UnityEngine.Transform bone3
+    void _set_bone3(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform bendGoal
+    UnityEngine::Transform* _get_bendGoal();
+    // Set instance field: public UnityEngine.Transform bendGoal
+    void _set_bendGoal(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Vector3 direction
+    UnityEngine::Vector3 _get_direction();
+    // Set instance field: public UnityEngine.Vector3 direction
+    void _set_direction(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion rotationOffset
+    UnityEngine::Quaternion _get_rotationOffset();
+    // Set instance field: public UnityEngine.Quaternion rotationOffset
+    void _set_rotationOffset(UnityEngine::Quaternion value);
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: public UnityEngine.Vector3 defaultLocalDirection
+    UnityEngine::Vector3 _get_defaultLocalDirection();
+    // Set instance field: public UnityEngine.Vector3 defaultLocalDirection
+    void _set_defaultLocalDirection(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 defaultChildDirection
+    UnityEngine::Vector3 _get_defaultChildDirection();
+    // Set instance field: public UnityEngine.Vector3 defaultChildDirection
+    void _set_defaultChildDirection(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single clampF
+    float _get_clampF();
+    // Set instance field: public System.Single clampF
+    void _set_clampF(float value);
+    // Get instance field: private System.Int32 chainIndex1
+    int _get_chainIndex1();
+    // Set instance field: private System.Int32 chainIndex1
+    void _set_chainIndex1(int value);
+    // Get instance field: private System.Int32 nodeIndex1
+    int _get_nodeIndex1();
+    // Set instance field: private System.Int32 nodeIndex1
+    void _set_nodeIndex1(int value);
+    // Get instance field: private System.Int32 chainIndex2
+    int _get_chainIndex2();
+    // Set instance field: private System.Int32 chainIndex2
+    void _set_chainIndex2(int value);
+    // Get instance field: private System.Int32 nodeIndex2
+    int _get_nodeIndex2();
+    // Set instance field: private System.Int32 nodeIndex2
+    void _set_nodeIndex2(int value);
+    // Get instance field: private System.Int32 chainIndex3
+    int _get_chainIndex3();
+    // Set instance field: private System.Int32 chainIndex3
+    void _set_chainIndex3(int value);
+    // Get instance field: private System.Int32 nodeIndex3
+    int _get_nodeIndex3();
+    // Set instance field: private System.Int32 nodeIndex3
+    void _set_nodeIndex3(int value);
+    // Get instance field: private System.Boolean <initiated>k__BackingField
+    bool _get_$initiated$k__BackingField();
+    // Set instance field: private System.Boolean <initiated>k__BackingField
+    void _set_$initiated$k__BackingField(bool value);
+    // Get instance field: private System.Boolean limbOrientationsSet
+    bool _get_limbOrientationsSet();
+    // Set instance field: private System.Boolean limbOrientationsSet
+    void _set_limbOrientationsSet(bool value);
     // public System.Boolean get_initiated()
     // Offset: 0x1C969E0
     bool get_initiated();

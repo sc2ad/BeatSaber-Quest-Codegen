@@ -67,6 +67,10 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::AsnDecodeStatus _get_InformationNotAvailable();
     // Set static field: static public System.Security.Cryptography.AsnDecodeStatus InformationNotAvailable
     static void _set_InformationNotAvailable(System::Security::Cryptography::AsnDecodeStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.AsnDecodeStatus
   #pragma pack(pop)
   static check_size<sizeof(AsnDecodeStatus), 0 + sizeof(int)> __System_Security_Cryptography_AsnDecodeStatusSizeCheck;

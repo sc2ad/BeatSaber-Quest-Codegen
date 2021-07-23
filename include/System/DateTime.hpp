@@ -368,6 +368,10 @@ namespace System {
     static ::Il2CppString* _get_DateDataField();
     // Set static field: static private System.String DateDataField
     static void _set_DateDataField(::Il2CppString* value);
+    // Get instance field: private System.UInt64 dateData
+    uint64_t _get_dateData();
+    // Set instance field: private System.UInt64 dateData
+    void _set_dateData(uint64_t value);
     // System.Int64 get_InternalTicks()
     // Offset: 0xEEB538
     int64_t get_InternalTicks();

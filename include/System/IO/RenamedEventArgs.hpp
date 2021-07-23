@@ -33,6 +33,14 @@ namespace System::IO {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: RenamedEventArgs
     RenamedEventArgs(::Il2CppString* oldName_ = {}, ::Il2CppString* oldFullPath_ = {}) noexcept : oldName{oldName_}, oldFullPath{oldFullPath_} {}
+    // Get instance field: private System.String oldName
+    ::Il2CppString* _get_oldName();
+    // Set instance field: private System.String oldName
+    void _set_oldName(::Il2CppString* value);
+    // Get instance field: private System.String oldFullPath
+    ::Il2CppString* _get_oldFullPath();
+    // Set instance field: private System.String oldFullPath
+    void _set_oldFullPath(::Il2CppString* value);
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
     // Offset: 0x1856710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

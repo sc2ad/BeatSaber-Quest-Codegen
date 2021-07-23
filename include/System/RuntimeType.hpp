@@ -228,6 +228,18 @@ namespace System {
     static System::RuntimeType* _get_s_typedRef();
     // Set static field: static private System.RuntimeType s_typedRef
     static void _set_s_typedRef(System::RuntimeType* value);
+    // Get instance field: private System.MonoTypeInfo type_info
+    System::MonoTypeInfo* _get_type_info();
+    // Set instance field: private System.MonoTypeInfo type_info
+    void _set_type_info(System::MonoTypeInfo* value);
+    // Get instance field: System.Object GenericCache
+    ::Il2CppObject* _get_GenericCache();
+    // Set instance field: System.Object GenericCache
+    void _set_GenericCache(::Il2CppObject* value);
+    // Get instance field: private System.Reflection.RuntimeConstructorInfo m_serializationCtor
+    System::Reflection::RuntimeConstructorInfo* _get_m_serializationCtor();
+    // Set instance field: private System.Reflection.RuntimeConstructorInfo m_serializationCtor
+    void _set_m_serializationCtor(System::Reflection::RuntimeConstructorInfo* value);
     // static private System.Void ThrowIfTypeNeverValidGenericArgument(System.RuntimeType type)
     // Offset: 0x1685B00
     static void ThrowIfTypeNeverValidGenericArgument(System::RuntimeType* type);

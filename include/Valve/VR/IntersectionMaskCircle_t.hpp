@@ -39,6 +39,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single m_flCenterX
+    float _get_m_flCenterX();
+    // Set instance field: public System.Single m_flCenterX
+    void _set_m_flCenterX(float value);
+    // Get instance field: public System.Single m_flCenterY
+    float _get_m_flCenterY();
+    // Set instance field: public System.Single m_flCenterY
+    void _set_m_flCenterY(float value);
+    // Get instance field: public System.Single m_flRadius
+    float _get_m_flRadius();
+    // Set instance field: public System.Single m_flRadius
+    void _set_m_flRadius(float value);
   }; // Valve.VR.IntersectionMaskCircle_t
   #pragma pack(pop)
   static check_size<sizeof(IntersectionMaskCircle_t), 8 + sizeof(float)> __Valve_VR_IntersectionMaskCircle_tSizeCheck;

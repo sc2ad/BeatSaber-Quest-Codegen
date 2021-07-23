@@ -37,6 +37,10 @@ namespace RootMotion::FinalIK {
     constexpr operator RootMotion::FinalIK::IKSolver::IterationDelegate*() const noexcept {
       return OnPreIteration;
     }
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
+    RootMotion::FinalIK::IKSolver::IterationDelegate* _get_OnPreIteration();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
+    void _set_OnPreIteration(RootMotion::FinalIK::IKSolver::IterationDelegate* value);
     // public System.Void FadeOutBoneWeights()
     // Offset: 0x1C5D1F8
     void FadeOutBoneWeights();

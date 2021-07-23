@@ -121,6 +121,34 @@ namespace System::Collections::Specialized {
     static System::StringComparer* _get_defaultComparer();
     // Set static field: static private System.StringComparer defaultComparer
     static void _set_defaultComparer(System::StringComparer* value);
+    // Get instance field: private System.Boolean _readOnly
+    bool _get__readOnly();
+    // Set instance field: private System.Boolean _readOnly
+    void _set__readOnly(bool value);
+    // Get instance field: private System.Collections.ArrayList _entriesArray
+    System::Collections::ArrayList* _get__entriesArray();
+    // Set instance field: private System.Collections.ArrayList _entriesArray
+    void _set__entriesArray(System::Collections::ArrayList* value);
+    // Get instance field: private System.Collections.IEqualityComparer _keyComparer
+    System::Collections::IEqualityComparer* _get__keyComparer();
+    // Set instance field: private System.Collections.IEqualityComparer _keyComparer
+    void _set__keyComparer(System::Collections::IEqualityComparer* value);
+    // Get instance field: private System.Collections.Hashtable _entriesTable
+    System::Collections::Hashtable* _get__entriesTable();
+    // Set instance field: private System.Collections.Hashtable _entriesTable
+    void _set__entriesTable(System::Collections::Hashtable* value);
+    // Get instance field: private System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectEntry _nullKeyEntry
+    System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* _get__nullKeyEntry();
+    // Set instance field: private System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectEntry _nullKeyEntry
+    void _set__nullKeyEntry(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* value);
+    // Get instance field: private System.Runtime.Serialization.SerializationInfo _serializationInfo
+    System::Runtime::Serialization::SerializationInfo* _get__serializationInfo();
+    // Set instance field: private System.Runtime.Serialization.SerializationInfo _serializationInfo
+    void _set__serializationInfo(System::Runtime::Serialization::SerializationInfo* value);
+    // Get instance field: private System.Int32 _version
+    int _get__version();
+    // Set instance field: private System.Int32 _version
+    void _set__version(int value);
     // protected System.Boolean get_IsReadOnly()
     // Offset: 0x18458E4
     bool get_IsReadOnly();

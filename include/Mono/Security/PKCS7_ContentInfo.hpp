@@ -40,6 +40,14 @@ namespace Mono::Security {
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
     // Creating value type constructor for type: ContentInfo
     ContentInfo(::Il2CppString* contentType_ = {}, Mono::Security::ASN1* content_ = {}) noexcept : contentType{contentType_}, content{content_} {}
+    // Get instance field: private System.String contentType
+    ::Il2CppString* _get_contentType();
+    // Set instance field: private System.String contentType
+    void _set_contentType(::Il2CppString* value);
+    // Get instance field: private Mono.Security.ASN1 content
+    Mono::Security::ASN1* _get_content();
+    // Set instance field: private Mono.Security.ASN1 content
+    void _set_content(Mono::Security::ASN1* value);
     // public Mono.Security.ASN1 get_ASN1()
     // Offset: 0x1DDF190
     Mono::Security::ASN1* get_ASN1();

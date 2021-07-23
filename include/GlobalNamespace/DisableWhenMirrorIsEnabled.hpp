@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     DisableWhenMirrorIsEnabled(GlobalNamespace::Mirror* mirror_ = {}) noexcept : mirror{mirror_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Mirror _mirror
+    GlobalNamespace::Mirror* _get__mirror();
+    // Set instance field: private Mirror _mirror
+    void _set__mirror(GlobalNamespace::Mirror* value);
     // public Mirror get_mirror()
     // Offset: 0x108A640
     GlobalNamespace::Mirror* get_mirror();

@@ -82,6 +82,30 @@ namespace GlobalNamespace {
     SetSaberGlowColor(GlobalNamespace::SaberTypeObject* saberTypeObject_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, ::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>* propertyTintColorPairs_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, GlobalNamespace::SaberType saberType_ = {}) noexcept : saberTypeObject{saberTypeObject_}, meshRenderer{meshRenderer_}, propertyTintColorPairs{propertyTintColorPairs_}, colorManager{colorManager_}, materialPropertyBlock{materialPropertyBlock_}, saberType{saberType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private SaberTypeObject _saberTypeObject
+    GlobalNamespace::SaberTypeObject* _get__saberTypeObject();
+    // Set instance field: private SaberTypeObject _saberTypeObject
+    void _set__saberTypeObject(GlobalNamespace::SaberTypeObject* value);
+    // Get instance field: private UnityEngine.MeshRenderer _meshRenderer
+    UnityEngine::MeshRenderer* _get__meshRenderer();
+    // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
+    void _set__meshRenderer(UnityEngine::MeshRenderer* value);
+    // Get instance field: private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
+    ::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>* _get__propertyTintColorPairs();
+    // Set instance field: private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
+    void _set__propertyTintColorPairs(::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>* value);
+    // Get instance field: private ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
+    UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
+    // Set instance field: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
+    void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
+    // Get instance field: private SaberType _saberType
+    GlobalNamespace::SaberType _get__saberType();
+    // Set instance field: private SaberType _saberType
+    void _set__saberType(GlobalNamespace::SaberType value);
     // public System.Void set_saberType(SaberType value)
     // Offset: 0x105268C
     void set_saberType(GlobalNamespace::SaberType value);

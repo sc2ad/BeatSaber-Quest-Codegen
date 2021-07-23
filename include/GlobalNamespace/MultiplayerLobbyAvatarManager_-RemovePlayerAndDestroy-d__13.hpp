@@ -67,6 +67,26 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public MultiplayerLobbyAvatarManager <>4__this
+    GlobalNamespace::MultiplayerLobbyAvatarManager* _get_$$4__this();
+    // Set instance field: public MultiplayerLobbyAvatarManager <>4__this
+    void _set_$$4__this(GlobalNamespace::MultiplayerLobbyAvatarManager* value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public MultiplayerLobbyAvatarController multiplayerAvatar
+    GlobalNamespace::MultiplayerLobbyAvatarController* _get_multiplayerAvatar();
+    // Set instance field: public MultiplayerLobbyAvatarController multiplayerAvatar
+    void _set_multiplayerAvatar(GlobalNamespace::MultiplayerLobbyAvatarController* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x23CE990
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

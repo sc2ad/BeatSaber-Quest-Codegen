@@ -64,6 +64,26 @@ namespace Mono::Globalization::Unicode {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public readonly System.Int32 Start
+      int _get_Start();
+      // Set instance field: public readonly System.Int32 Start
+      void _set_Start(int value);
+      // Get instance field: public readonly System.Int32 End
+      int _get_End();
+      // Set instance field: public readonly System.Int32 End
+      void _set_End(int value);
+      // Get instance field: public readonly System.Int32 Count
+      int _get_Count();
+      // Set instance field: public readonly System.Int32 Count
+      void _set_Count(int value);
+      // Get instance field: public readonly System.Int32 IndexStart
+      int _get_IndexStart();
+      // Set instance field: public readonly System.Int32 IndexStart
+      void _set_IndexStart(int value);
+      // Get instance field: public readonly System.Int32 IndexEnd
+      int _get_IndexEnd();
+      // Set instance field: public readonly System.Int32 IndexEnd
+      void _set_IndexEnd(int value);
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
       // Offset: 0xEECD4C
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -102,6 +122,22 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: CodePointIndexer
     CodePointIndexer(::Array<Mono::Globalization::Unicode::CodePointIndexer::TableRange>* ranges_ = {}, int TotalCount_ = {}, int defaultIndex_ = {}, int defaultCP_ = {}) noexcept : ranges{ranges_}, TotalCount{TotalCount_}, defaultIndex{defaultIndex_}, defaultCP{defaultCP_} {}
+    // Get instance field: private readonly Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange[] ranges
+    ::Array<Mono::Globalization::Unicode::CodePointIndexer::TableRange>* _get_ranges();
+    // Set instance field: private readonly Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange[] ranges
+    void _set_ranges(::Array<Mono::Globalization::Unicode::CodePointIndexer::TableRange>* value);
+    // Get instance field: public readonly System.Int32 TotalCount
+    int _get_TotalCount();
+    // Set instance field: public readonly System.Int32 TotalCount
+    void _set_TotalCount(int value);
+    // Get instance field: private System.Int32 defaultIndex
+    int _get_defaultIndex();
+    // Set instance field: private System.Int32 defaultIndex
+    void _set_defaultIndex(int value);
+    // Get instance field: private System.Int32 defaultCP
+    int _get_defaultCP();
+    // Set instance field: private System.Int32 defaultCP
+    void _set_defaultCP(int value);
     // public System.Void .ctor(System.Int32[] starts, System.Int32[] ends, System.Int32 defaultIndex, System.Int32 defaultCP)
     // Offset: 0x1A134D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

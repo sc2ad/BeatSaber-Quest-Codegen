@@ -154,6 +154,10 @@ namespace UnityEngine::AddressableAssets {
       static UnityEngine::AddressableAssets::Addressables::MergeMode _get_Intersection();
       // Set static field: static public UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode Intersection
       static void _set_Intersection(UnityEngine::AddressableAssets::Addressables::MergeMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode
     #pragma pack(pop)
     static check_size<sizeof(Addressables::MergeMode), 0 + sizeof(int)> __UnityEngine_AddressableAssets_Addressables_MergeModeSizeCheck;

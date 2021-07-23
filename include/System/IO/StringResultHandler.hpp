@@ -39,6 +39,14 @@ namespace System::IO {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: StringResultHandler
     StringResultHandler(bool includeFiles_ = {}, bool includeDirs_ = {}) noexcept : includeFiles{includeFiles_}, includeDirs{includeDirs_} {}
+    // Get instance field: private System.Boolean _includeFiles
+    bool _get__includeFiles();
+    // Set instance field: private System.Boolean _includeFiles
+    void _set__includeFiles(bool value);
+    // Get instance field: private System.Boolean _includeDirs
+    bool _get__includeDirs();
+    // Set instance field: private System.Boolean _includeDirs
+    void _set__includeDirs(bool value);
     // System.Void .ctor(System.Boolean includeFiles, System.Boolean includeDirs)
     // Offset: 0x17F25CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

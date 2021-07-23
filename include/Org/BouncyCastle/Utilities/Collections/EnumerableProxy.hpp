@@ -42,6 +42,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     constexpr operator System::Collections::IEnumerable*() const noexcept {
       return inner;
     }
+    // Get instance field: private readonly System.Collections.IEnumerable inner
+    System::Collections::IEnumerable* _get_inner();
+    // Set instance field: private readonly System.Collections.IEnumerable inner
+    void _set_inner(System::Collections::IEnumerable* value);
     // public System.Void .ctor(System.Collections.IEnumerable inner)
     // Offset: 0x136FF78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

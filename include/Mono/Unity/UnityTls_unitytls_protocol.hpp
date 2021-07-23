@@ -57,6 +57,10 @@ namespace Mono::Unity {
     static Mono::Unity::UnityTls::unitytls_protocol _get_UNITYTLS_PROTOCOL_INVALID();
     // Set static field: static public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol UNITYTLS_PROTOCOL_INVALID
     static void _set_UNITYTLS_PROTOCOL_INVALID(Mono::Unity::UnityTls::unitytls_protocol value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_protocol), 0 + sizeof(uint)> __Mono_Unity_UnityTls_unitytls_protocolSizeCheck;

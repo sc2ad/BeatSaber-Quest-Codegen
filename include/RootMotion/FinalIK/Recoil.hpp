@@ -75,6 +75,10 @@ namespace RootMotion::FinalIK {
       static RootMotion::FinalIK::Recoil::Handedness _get_Left();
       // Set static field: static public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness Left
       static void _set_Left(RootMotion::FinalIK::Recoil::Handedness value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness
     #pragma pack(pop)
     static check_size<sizeof(Recoil::Handedness), 0 + sizeof(int)> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
@@ -238,6 +242,98 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Recoil
     Recoil(RootMotion::FinalIK::AimIK* aimIK_ = {}, bool aimIKSolvedLast_ = {}, RootMotion::FinalIK::Recoil::Handedness handedness_ = {}, bool twoHanded_ = {}, UnityEngine::AnimationCurve* recoilWeight_ = {}, float magnitudeRandom_ = {}, UnityEngine::Vector3 rotationRandom_ = {}, UnityEngine::Vector3 handRotationOffset_ = {}, float blendTime_ = {}, ::Array<RootMotion::FinalIK::Recoil::RecoilOffset*>* offsets_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, float magnitudeMlp_ = {}, float endTime_ = {}, UnityEngine::Quaternion handRotation_ = {}, UnityEngine::Quaternion secondaryHandRelativeRotation_ = {}, UnityEngine::Quaternion randomRotation_ = {}, float length_ = {}, bool initiated_ = {}, float blendWeight_ = {}, float w_ = {}, UnityEngine::Quaternion primaryHandRotation_ = {}, bool handRotationsSet_ = {}, UnityEngine::Vector3 aimIKAxis_ = {}) noexcept : aimIK{aimIK_}, aimIKSolvedLast{aimIKSolvedLast_}, handedness{handedness_}, twoHanded{twoHanded_}, recoilWeight{recoilWeight_}, magnitudeRandom{magnitudeRandom_}, rotationRandom{rotationRandom_}, handRotationOffset{handRotationOffset_}, blendTime{blendTime_}, offsets{offsets_}, rotationOffset{rotationOffset_}, magnitudeMlp{magnitudeMlp_}, endTime{endTime_}, handRotation{handRotation_}, secondaryHandRelativeRotation{secondaryHandRelativeRotation_}, randomRotation{randomRotation_}, length{length_}, initiated{initiated_}, blendWeight{blendWeight_}, w{w_}, primaryHandRotation{primaryHandRotation_}, handRotationsSet{handRotationsSet_}, aimIKAxis{aimIKAxis_} {}
+    // Get instance field: public RootMotion.FinalIK.AimIK aimIK
+    RootMotion::FinalIK::AimIK* _get_aimIK();
+    // Set instance field: public RootMotion.FinalIK.AimIK aimIK
+    void _set_aimIK(RootMotion::FinalIK::AimIK* value);
+    // Get instance field: public System.Boolean aimIKSolvedLast
+    bool _get_aimIKSolvedLast();
+    // Set instance field: public System.Boolean aimIKSolvedLast
+    void _set_aimIKSolvedLast(bool value);
+    // Get instance field: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness handedness
+    RootMotion::FinalIK::Recoil::Handedness _get_handedness();
+    // Set instance field: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.Handedness handedness
+    void _set_handedness(RootMotion::FinalIK::Recoil::Handedness value);
+    // Get instance field: public System.Boolean twoHanded
+    bool _get_twoHanded();
+    // Set instance field: public System.Boolean twoHanded
+    void _set_twoHanded(bool value);
+    // Get instance field: public UnityEngine.AnimationCurve recoilWeight
+    UnityEngine::AnimationCurve* _get_recoilWeight();
+    // Set instance field: public UnityEngine.AnimationCurve recoilWeight
+    void _set_recoilWeight(UnityEngine::AnimationCurve* value);
+    // Get instance field: public System.Single magnitudeRandom
+    float _get_magnitudeRandom();
+    // Set instance field: public System.Single magnitudeRandom
+    void _set_magnitudeRandom(float value);
+    // Get instance field: public UnityEngine.Vector3 rotationRandom
+    UnityEngine::Vector3 _get_rotationRandom();
+    // Set instance field: public UnityEngine.Vector3 rotationRandom
+    void _set_rotationRandom(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 handRotationOffset
+    UnityEngine::Vector3 _get_handRotationOffset();
+    // Set instance field: public UnityEngine.Vector3 handRotationOffset
+    void _set_handRotationOffset(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single blendTime
+    float _get_blendTime();
+    // Set instance field: public System.Single blendTime
+    void _set_blendTime(float value);
+    // Get instance field: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
+    ::Array<RootMotion::FinalIK::Recoil::RecoilOffset*>* _get_offsets();
+    // Set instance field: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
+    void _set_offsets(::Array<RootMotion::FinalIK::Recoil::RecoilOffset*>* value);
+    // Get instance field: public UnityEngine.Quaternion rotationOffset
+    UnityEngine::Quaternion _get_rotationOffset();
+    // Set instance field: public UnityEngine.Quaternion rotationOffset
+    void _set_rotationOffset(UnityEngine::Quaternion value);
+    // Get instance field: private System.Single magnitudeMlp
+    float _get_magnitudeMlp();
+    // Set instance field: private System.Single magnitudeMlp
+    void _set_magnitudeMlp(float value);
+    // Get instance field: private System.Single endTime
+    float _get_endTime();
+    // Set instance field: private System.Single endTime
+    void _set_endTime(float value);
+    // Get instance field: private UnityEngine.Quaternion handRotation
+    UnityEngine::Quaternion _get_handRotation();
+    // Set instance field: private UnityEngine.Quaternion handRotation
+    void _set_handRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion secondaryHandRelativeRotation
+    UnityEngine::Quaternion _get_secondaryHandRelativeRotation();
+    // Set instance field: private UnityEngine.Quaternion secondaryHandRelativeRotation
+    void _set_secondaryHandRelativeRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion randomRotation
+    UnityEngine::Quaternion _get_randomRotation();
+    // Set instance field: private UnityEngine.Quaternion randomRotation
+    void _set_randomRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Single length
+    float _get_length();
+    // Set instance field: private System.Single length
+    void _set_length(float value);
+    // Get instance field: private System.Boolean initiated
+    bool _get_initiated();
+    // Set instance field: private System.Boolean initiated
+    void _set_initiated(bool value);
+    // Get instance field: private System.Single blendWeight
+    float _get_blendWeight();
+    // Set instance field: private System.Single blendWeight
+    void _set_blendWeight(float value);
+    // Get instance field: private System.Single w
+    float _get_w();
+    // Set instance field: private System.Single w
+    void _set_w(float value);
+    // Get instance field: private UnityEngine.Quaternion primaryHandRotation
+    UnityEngine::Quaternion _get_primaryHandRotation();
+    // Set instance field: private UnityEngine.Quaternion primaryHandRotation
+    void _set_primaryHandRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Boolean handRotationsSet
+    bool _get_handRotationsSet();
+    // Set instance field: private System.Boolean handRotationsSet
+    void _set_handRotationsSet(bool value);
+    // Get instance field: private UnityEngine.Vector3 aimIKAxis
+    UnityEngine::Vector3 _get_aimIKAxis();
+    // Set instance field: private UnityEngine.Vector3 aimIKAxis
+    void _set_aimIKAxis(UnityEngine::Vector3 value);
     // public System.Boolean get_isFinished()
     // Offset: 0x1AB92CC
     bool get_isFinished();

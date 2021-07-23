@@ -56,6 +56,22 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::TextureRectMatrixf _get_zero();
     // Set static field: static public readonly OVRPlugin/TextureRectMatrixf zero
     static void _set_zero(GlobalNamespace::OVRPlugin::TextureRectMatrixf value);
+    // Get instance field: public UnityEngine.Rect leftRect
+    UnityEngine::Rect _get_leftRect();
+    // Set instance field: public UnityEngine.Rect leftRect
+    void _set_leftRect(UnityEngine::Rect value);
+    // Get instance field: public UnityEngine.Rect rightRect
+    UnityEngine::Rect _get_rightRect();
+    // Set instance field: public UnityEngine.Rect rightRect
+    void _set_rightRect(UnityEngine::Rect value);
+    // Get instance field: public UnityEngine.Vector4 leftScaleBias
+    UnityEngine::Vector4 _get_leftScaleBias();
+    // Set instance field: public UnityEngine.Vector4 leftScaleBias
+    void _set_leftScaleBias(UnityEngine::Vector4 value);
+    // Get instance field: public UnityEngine.Vector4 rightScaleBias
+    UnityEngine::Vector4 _get_rightScaleBias();
+    // Set instance field: public UnityEngine.Vector4 rightScaleBias
+    void _set_rightScaleBias(UnityEngine::Vector4 value);
     // static private System.Void .cctor()
     // Offset: 0x15F7424
     static void _cctor();

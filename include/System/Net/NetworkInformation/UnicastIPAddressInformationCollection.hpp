@@ -60,6 +60,10 @@ namespace System::Net::NetworkInformation {
     constexpr operator System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>*() const noexcept {
       return addresses;
     }
+    // Get instance field: private System.Collections.ObjectModel.Collection`1<System.Net.NetworkInformation.UnicastIPAddressInformation> addresses
+    System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>* _get_addresses();
+    // Set instance field: private System.Collections.ObjectModel.Collection`1<System.Net.NetworkInformation.UnicastIPAddressInformation> addresses
+    void _set_addresses(System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>* value);
     // public System.Int32 get_Count()
     // Offset: 0x14644F0
     int get_Count();

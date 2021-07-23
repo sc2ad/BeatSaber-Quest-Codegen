@@ -60,6 +60,26 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<UnityEngine::Quaternion>*) == 0x8);
     // Creating value type constructor for type: HandPoser
     HandPoser(::Array<UnityEngine::Transform*>* children_ = {}, UnityEngine::Transform* poseRoot_ = {}, ::Array<UnityEngine::Transform*>* poseChildren_ = {}, ::Array<UnityEngine::Vector3>* defaultLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* defaultLocalRotations_ = {}) noexcept : children{children_}, poseRoot{poseRoot_}, poseChildren{poseChildren_}, defaultLocalPositions{defaultLocalPositions_}, defaultLocalRotations{defaultLocalRotations_} {}
+    // Get instance field: protected UnityEngine.Transform[] children
+    ::Array<UnityEngine::Transform*>* _get_children();
+    // Set instance field: protected UnityEngine.Transform[] children
+    void _set_children(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: private UnityEngine.Transform _poseRoot
+    UnityEngine::Transform* _get__poseRoot();
+    // Set instance field: private UnityEngine.Transform _poseRoot
+    void _set__poseRoot(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform[] poseChildren
+    ::Array<UnityEngine::Transform*>* _get_poseChildren();
+    // Set instance field: private UnityEngine.Transform[] poseChildren
+    void _set_poseChildren(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: private UnityEngine.Vector3[] defaultLocalPositions
+    ::Array<UnityEngine::Vector3>* _get_defaultLocalPositions();
+    // Set instance field: private UnityEngine.Vector3[] defaultLocalPositions
+    void _set_defaultLocalPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Quaternion[] defaultLocalRotations
+    ::Array<UnityEngine::Quaternion>* _get_defaultLocalRotations();
+    // Set instance field: private UnityEngine.Quaternion[] defaultLocalRotations
+    void _set_defaultLocalRotations(::Array<UnityEngine::Quaternion>* value);
     // protected System.Void StoreDefaultState()
     // Offset: 0x1C93B88
     void StoreDefaultState();

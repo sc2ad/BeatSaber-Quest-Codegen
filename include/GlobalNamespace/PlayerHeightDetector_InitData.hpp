@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return headPosToPlayerHeightOffset;
     }
+    // Get instance field: public readonly System.Single headPosToPlayerHeightOffset
+    float _get_headPosToPlayerHeightOffset();
+    // Set instance field: public readonly System.Single headPosToPlayerHeightOffset
+    void _set_headPosToPlayerHeightOffset(float value);
     // public System.Void .ctor(System.Single headPosToPlayerHeightOffset)
     // Offset: 0x1105220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

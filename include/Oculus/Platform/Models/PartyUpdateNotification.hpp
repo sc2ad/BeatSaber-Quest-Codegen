@@ -67,6 +67,34 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PartyUpdateNotification
     PartyUpdateNotification(Oculus::Platform::PartyUpdateAction Action_ = {}, uint64_t PartyId_ = {}, uint64_t SenderId_ = {}, ::Il2CppString* UpdateTimestamp_ = {}, ::Il2CppString* UserAlias_ = {}, uint64_t UserId_ = {}, ::Il2CppString* UserName_ = {}) noexcept : Action{Action_}, PartyId{PartyId_}, SenderId{SenderId_}, UpdateTimestamp{UpdateTimestamp_}, UserAlias{UserAlias_}, UserId{UserId_}, UserName{UserName_} {}
+    // Get instance field: public readonly Oculus.Platform.PartyUpdateAction Action
+    Oculus::Platform::PartyUpdateAction _get_Action();
+    // Set instance field: public readonly Oculus.Platform.PartyUpdateAction Action
+    void _set_Action(Oculus::Platform::PartyUpdateAction value);
+    // Get instance field: public readonly System.UInt64 PartyId
+    uint64_t _get_PartyId();
+    // Set instance field: public readonly System.UInt64 PartyId
+    void _set_PartyId(uint64_t value);
+    // Get instance field: public readonly System.UInt64 SenderId
+    uint64_t _get_SenderId();
+    // Set instance field: public readonly System.UInt64 SenderId
+    void _set_SenderId(uint64_t value);
+    // Get instance field: public readonly System.String UpdateTimestamp
+    ::Il2CppString* _get_UpdateTimestamp();
+    // Set instance field: public readonly System.String UpdateTimestamp
+    void _set_UpdateTimestamp(::Il2CppString* value);
+    // Get instance field: public readonly System.String UserAlias
+    ::Il2CppString* _get_UserAlias();
+    // Set instance field: public readonly System.String UserAlias
+    void _set_UserAlias(::Il2CppString* value);
+    // Get instance field: public readonly System.UInt64 UserId
+    uint64_t _get_UserId();
+    // Set instance field: public readonly System.UInt64 UserId
+    void _set_UserId(uint64_t value);
+    // Get instance field: public readonly System.String UserName
+    ::Il2CppString* _get_UserName();
+    // Set instance field: public readonly System.String UserName
+    void _set_UserName(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A6544
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

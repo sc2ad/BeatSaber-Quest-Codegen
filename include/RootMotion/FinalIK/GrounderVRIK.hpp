@@ -51,6 +51,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
     // Creating value type constructor for type: GrounderVRIK
     GrounderVRIK(RootMotion::FinalIK::VRIK* ik_ = {}, ::Array<UnityEngine::Transform*>* feet_ = {}) noexcept : ik{ik_}, feet{feet_} {}
+    // Get instance field: public RootMotion.FinalIK.VRIK ik
+    RootMotion::FinalIK::VRIK* _get_ik();
+    // Set instance field: public RootMotion.FinalIK.VRIK ik
+    void _set_ik(RootMotion::FinalIK::VRIK* value);
+    // Get instance field: private UnityEngine.Transform[] feet
+    ::Array<UnityEngine::Transform*>* _get_feet();
+    // Set instance field: private UnityEngine.Transform[] feet
+    void _set_feet(::Array<UnityEngine::Transform*>* value);
     // private System.Void OpenTutorial()
     // Offset: 0x1C9015C
     void OpenTutorial();

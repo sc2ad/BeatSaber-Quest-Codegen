@@ -56,6 +56,26 @@ namespace OnlineServices {
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
     // Creating value type constructor for type: LeaderboardEntryData
     LeaderboardEntryData(int score_ = {}, int rank_ = {}, ::Il2CppString* displayName_ = {}, ::Il2CppString* playerId_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : score{score_}, rank{rank_}, displayName{displayName_}, playerId{playerId_}, gameplayModifiers{gameplayModifiers_} {}
+    // Get instance field: public readonly System.Int32 score
+    int _get_score();
+    // Set instance field: public readonly System.Int32 score
+    void _set_score(int value);
+    // Get instance field: public readonly System.Int32 rank
+    int _get_rank();
+    // Set instance field: public readonly System.Int32 rank
+    void _set_rank(int value);
+    // Get instance field: public System.String displayName
+    ::Il2CppString* _get_displayName();
+    // Set instance field: public System.String displayName
+    void _set_displayName(::Il2CppString* value);
+    // Get instance field: public readonly System.String playerId
+    ::Il2CppString* _get_playerId();
+    // Set instance field: public readonly System.String playerId
+    void _set_playerId(::Il2CppString* value);
+    // Get instance field: public readonly GameplayModifiers gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get_gameplayModifiers();
+    // Set instance field: public readonly GameplayModifiers gameplayModifiers
+    void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String displayName, System.String playerId, GameplayModifiers gameplayModifiers)
     // Offset: 0xFF8C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

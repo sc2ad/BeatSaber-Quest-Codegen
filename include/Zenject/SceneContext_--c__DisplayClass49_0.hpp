@@ -48,6 +48,14 @@ namespace Zenject {
     static_assert(sizeof(System::Func_2<::Il2CppString*, bool>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass49_0
     $$c__DisplayClass49_0(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* parentContractNames_ = {}, System::Func_2<::Il2CppString*, bool>* $$9__4_ = {}) noexcept : parentContractNames{parentContractNames_}, $$9__4{$$9__4_} {}
+    // Get instance field: public System.Collections.Generic.IEnumerable`1<System.String> parentContractNames
+    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* _get_parentContractNames();
+    // Set instance field: public System.Collections.Generic.IEnumerable`1<System.String> parentContractNames
+    void _set_parentContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
+    // Get instance field: public System.Func`2<System.String,System.Boolean> <>9__4
+    System::Func_2<::Il2CppString*, bool>* _get_$$9__4();
+    // Set instance field: public System.Func`2<System.String,System.Boolean> <>9__4
+    void _set_$$9__4(System::Func_2<::Il2CppString*, bool>* value);
     // System.Boolean <GetParentContainers>b__2(Zenject.SceneContext sceneContext)
     // Offset: 0x16CE04C
     bool $GetParentContainers$b__2(Zenject::SceneContext* sceneContext);

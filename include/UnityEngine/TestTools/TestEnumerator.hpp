@@ -50,6 +50,10 @@ namespace UnityEngine::TestTools {
     static System::Collections::IEnumerator* _get_m_TestEnumerator();
     // Set static field: static private System.Collections.IEnumerator m_TestEnumerator
     static void _set_m_TestEnumerator(System::Collections::IEnumerator* value);
+    // Get instance field: private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
+    NUnit::Framework::Internal::ITestExecutionContext* _get_m_Context();
+    // Set instance field: private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
+    void _set_m_Context(NUnit::Framework::Internal::ITestExecutionContext* value);
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
     // Offset: 0x148A508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

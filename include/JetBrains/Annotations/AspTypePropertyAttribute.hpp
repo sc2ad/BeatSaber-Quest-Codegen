@@ -32,6 +32,10 @@ namespace JetBrains::Annotations {
     constexpr operator bool() const noexcept {
       return CreateConstructorReferences;
     }
+    // Get instance field: private System.Boolean <CreateConstructorReferences>k__BackingField
+    bool _get_$CreateConstructorReferences$k__BackingField();
+    // Set instance field: private System.Boolean <CreateConstructorReferences>k__BackingField
+    void _set_$CreateConstructorReferences$k__BackingField(bool value);
     // public System.Boolean get_CreateConstructorReferences()
     // Offset: 0x23B20F0
     bool get_CreateConstructorReferences();

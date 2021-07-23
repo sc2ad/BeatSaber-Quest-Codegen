@@ -42,6 +42,18 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr m_pResource
+    System::IntPtr _get_m_pResource();
+    // Set instance field: public System.IntPtr m_pResource
+    void _set_m_pResource(System::IntPtr value);
+    // Get instance field: public System.IntPtr m_pCommandQueue
+    System::IntPtr _get_m_pCommandQueue();
+    // Set instance field: public System.IntPtr m_pCommandQueue
+    void _set_m_pCommandQueue(System::IntPtr value);
+    // Get instance field: public System.UInt32 m_nNodeMask
+    uint _get_m_nNodeMask();
+    // Set instance field: public System.UInt32 m_nNodeMask
+    void _set_m_nNodeMask(uint value);
   }; // Valve.VR.D3D12TextureData_t
   #pragma pack(pop)
   static check_size<sizeof(D3D12TextureData_t), 16 + sizeof(uint)> __Valve_VR_D3D12TextureData_tSizeCheck;

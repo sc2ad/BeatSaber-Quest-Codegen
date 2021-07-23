@@ -116,6 +116,46 @@ namespace TMPro {
     static System::Collections::Generic::List_1<int>* _get_k_searchedSpriteAssets();
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedSpriteAssets
     static void _set_k_searchedSpriteAssets(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_UnicodeLookup
+    System::Collections::Generic::Dictionary_2<uint, int>* _get_m_UnicodeLookup();
+    // Set instance field: System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_UnicodeLookup
+    void _set_m_UnicodeLookup(System::Collections::Generic::Dictionary_2<uint, int>* value);
+    // Get instance field: System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_NameLookup
+    System::Collections::Generic::Dictionary_2<int, int>* _get_m_NameLookup();
+    // Set instance field: System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_NameLookup
+    void _set_m_NameLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
+    // Get instance field: System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_GlyphIndexLookup
+    System::Collections::Generic::Dictionary_2<uint, int>* _get_m_GlyphIndexLookup();
+    // Set instance field: System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_GlyphIndexLookup
+    void _set_m_GlyphIndexLookup(System::Collections::Generic::Dictionary_2<uint, int>* value);
+    // Get instance field: private System.String m_Version
+    ::Il2CppString* _get_m_Version();
+    // Set instance field: private System.String m_Version
+    void _set_m_Version(::Il2CppString* value);
+    // Get instance field: public UnityEngine.Texture spriteSheet
+    UnityEngine::Texture* _get_spriteSheet();
+    // Set instance field: public UnityEngine.Texture spriteSheet
+    void _set_spriteSheet(UnityEngine::Texture* value);
+    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> m_SpriteCharacterTable
+    System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* _get_m_SpriteCharacterTable();
+    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> m_SpriteCharacterTable
+    void _set_m_SpriteCharacterTable(System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_SpriteGlyph> m_SpriteGlyphTable
+    System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* _get_m_SpriteGlyphTable();
+    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_SpriteGlyph> m_SpriteGlyphTable
+    void _set_m_SpriteGlyphTable(System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<TMPro.TMP_Sprite> spriteInfoList
+    System::Collections::Generic::List_1<TMPro::TMP_Sprite*>* _get_spriteInfoList();
+    // Set instance field: public System.Collections.Generic.List`1<TMPro.TMP_Sprite> spriteInfoList
+    void _set_spriteInfoList(System::Collections::Generic::List_1<TMPro::TMP_Sprite*>* value);
+    // Get instance field: public System.Collections.Generic.List`1<TMPro.TMP_SpriteAsset> fallbackSpriteAssets
+    System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* _get_fallbackSpriteAssets();
+    // Set instance field: public System.Collections.Generic.List`1<TMPro.TMP_SpriteAsset> fallbackSpriteAssets
+    void _set_fallbackSpriteAssets(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* value);
+    // Get instance field: System.Boolean m_IsSpriteAssetLookupTablesDirty
+    bool _get_m_IsSpriteAssetLookupTablesDirty();
+    // Set instance field: System.Boolean m_IsSpriteAssetLookupTablesDirty
+    void _set_m_IsSpriteAssetLookupTablesDirty(bool value);
     // public System.String get_version()
     // Offset: 0x1114500
     ::Il2CppString* get_version();

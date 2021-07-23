@@ -45,6 +45,10 @@ namespace OVRSimpleJSON {
     constexpr operator OVRSimpleJSON::JSONNode*() const noexcept {
       return aNode;
     }
+    // Get instance field: public OVRSimpleJSON.JSONNode aNode
+    OVRSimpleJSON::JSONNode* _get_aNode();
+    // Set instance field: public OVRSimpleJSON.JSONNode aNode
+    void _set_aNode(OVRSimpleJSON::JSONNode* value);
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)
     // Offset: 0x1EEC314
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> k);

@@ -116,6 +116,58 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: ColorScheme
     ColorScheme(::Il2CppString* colorSchemeId_ = {}, ::Il2CppString* colorSchemeNameLocalizationKey_ = {}, bool useNonLocalizedName_ = {}, ::Il2CppString* nonLocalizedName_ = {}, bool isEditable_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color obstaclesColor_ = {}, UnityEngine::Color environmentColor0_ = {}, UnityEngine::Color environmentColor1_ = {}, bool supportsEnvironmentColorBoost_ = {}, UnityEngine::Color environmentColor0Boost_ = {}, UnityEngine::Color environmentColor1Boost_ = {}) noexcept : colorSchemeId{colorSchemeId_}, colorSchemeNameLocalizationKey{colorSchemeNameLocalizationKey_}, useNonLocalizedName{useNonLocalizedName_}, nonLocalizedName{nonLocalizedName_}, isEditable{isEditable_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, supportsEnvironmentColorBoost{supportsEnvironmentColorBoost_}, environmentColor0Boost{environmentColor0Boost_}, environmentColor1Boost{environmentColor1Boost_} {}
+    // Get instance field: private System.String _colorSchemeId
+    ::Il2CppString* _get__colorSchemeId();
+    // Set instance field: private System.String _colorSchemeId
+    void _set__colorSchemeId(::Il2CppString* value);
+    // Get instance field: private System.String _colorSchemeNameLocalizationKey
+    ::Il2CppString* _get__colorSchemeNameLocalizationKey();
+    // Set instance field: private System.String _colorSchemeNameLocalizationKey
+    void _set__colorSchemeNameLocalizationKey(::Il2CppString* value);
+    // Get instance field: private System.Boolean _useNonLocalizedName
+    bool _get__useNonLocalizedName();
+    // Set instance field: private System.Boolean _useNonLocalizedName
+    void _set__useNonLocalizedName(bool value);
+    // Get instance field: private System.String _nonLocalizedName
+    ::Il2CppString* _get__nonLocalizedName();
+    // Set instance field: private System.String _nonLocalizedName
+    void _set__nonLocalizedName(::Il2CppString* value);
+    // Get instance field: private System.Boolean _isEditable
+    bool _get__isEditable();
+    // Set instance field: private System.Boolean _isEditable
+    void _set__isEditable(bool value);
+    // Get instance field: private UnityEngine.Color _saberAColor
+    UnityEngine::Color _get__saberAColor();
+    // Set instance field: private UnityEngine.Color _saberAColor
+    void _set__saberAColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _saberBColor
+    UnityEngine::Color _get__saberBColor();
+    // Set instance field: private UnityEngine.Color _saberBColor
+    void _set__saberBColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _obstaclesColor
+    UnityEngine::Color _get__obstaclesColor();
+    // Set instance field: private UnityEngine.Color _obstaclesColor
+    void _set__obstaclesColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _environmentColor0
+    UnityEngine::Color _get__environmentColor0();
+    // Set instance field: private UnityEngine.Color _environmentColor0
+    void _set__environmentColor0(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _environmentColor1
+    UnityEngine::Color _get__environmentColor1();
+    // Set instance field: private UnityEngine.Color _environmentColor1
+    void _set__environmentColor1(UnityEngine::Color value);
+    // Get instance field: private System.Boolean _supportsEnvironmentColorBoost
+    bool _get__supportsEnvironmentColorBoost();
+    // Set instance field: private System.Boolean _supportsEnvironmentColorBoost
+    void _set__supportsEnvironmentColorBoost(bool value);
+    // Get instance field: private UnityEngine.Color _environmentColor0Boost
+    UnityEngine::Color _get__environmentColor0Boost();
+    // Set instance field: private UnityEngine.Color _environmentColor0Boost
+    void _set__environmentColor0Boost(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _environmentColor1Boost
+    UnityEngine::Color _get__environmentColor1Boost();
+    // Set instance field: private UnityEngine.Color _environmentColor1Boost
+    void _set__environmentColor1Boost(UnityEngine::Color value);
     // public System.String get_colorSchemeId()
     // Offset: 0x23C7F30
     ::Il2CppString* get_colorSchemeId();

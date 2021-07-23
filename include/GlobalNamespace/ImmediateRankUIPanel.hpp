@@ -79,6 +79,30 @@ namespace GlobalNamespace {
     ImmediateRankUIPanel(TMPro::TextMeshProUGUI* rankText_ = {}, TMPro::TextMeshProUGUI* relativeScoreText_ = {}, GlobalNamespace::RelativeScoreAndImmediateRankCounter* relativeScoreAndImmediateRankCounter_ = {}, System::Text::StringBuilder* stringBuilder_ = {}, float prevRelativeScore_ = {}, GlobalNamespace::RankModel::Rank prevImmediateRank_ = {}) noexcept : rankText{rankText_}, relativeScoreText{relativeScoreText_}, relativeScoreAndImmediateRankCounter{relativeScoreAndImmediateRankCounter_}, stringBuilder{stringBuilder_}, prevRelativeScore{prevRelativeScore_}, prevImmediateRank{prevImmediateRank_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _rankText
+    TMPro::TextMeshProUGUI* _get__rankText();
+    // Set instance field: private TMPro.TextMeshProUGUI _rankText
+    void _set__rankText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _relativeScoreText
+    TMPro::TextMeshProUGUI* _get__relativeScoreText();
+    // Set instance field: private TMPro.TextMeshProUGUI _relativeScoreText
+    void _set__relativeScoreText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
+    GlobalNamespace::RelativeScoreAndImmediateRankCounter* _get__relativeScoreAndImmediateRankCounter();
+    // Set instance field: private RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
+    void _set__relativeScoreAndImmediateRankCounter(GlobalNamespace::RelativeScoreAndImmediateRankCounter* value);
+    // Get instance field: private System.Text.StringBuilder _stringBuilder
+    System::Text::StringBuilder* _get__stringBuilder();
+    // Set instance field: private System.Text.StringBuilder _stringBuilder
+    void _set__stringBuilder(System::Text::StringBuilder* value);
+    // Get instance field: private System.Single _prevRelativeScore
+    float _get__prevRelativeScore();
+    // Set instance field: private System.Single _prevRelativeScore
+    void _set__prevRelativeScore(float value);
+    // Get instance field: private RankModel/Rank _prevImmediateRank
+    GlobalNamespace::RankModel::Rank _get__prevImmediateRank();
+    // Set instance field: private RankModel/Rank _prevImmediateRank
+    void _set__prevImmediateRank(GlobalNamespace::RankModel::Rank value);
     // protected System.Void Start()
     // Offset: 0x10EC958
     void Start();

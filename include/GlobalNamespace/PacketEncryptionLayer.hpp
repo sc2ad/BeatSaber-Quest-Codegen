@@ -136,6 +136,30 @@ namespace GlobalNamespace {
     static System::Diagnostics::Stopwatch* _get__stopwatch();
     // Set static field: static private System.Diagnostics.Stopwatch _stopwatch
     static void _set__stopwatch(System::Diagnostics::Stopwatch* value);
+    // Get instance field: public readonly PacketEncryptionLayer/EncryptionStatistics statistics
+    GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics* _get_statistics();
+    // Set instance field: public readonly PacketEncryptionLayer/EncryptionStatistics statistics
+    void _set_statistics(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics* value);
+    // Get instance field: private readonly ExpiringDictionary`2<System.Net.IPEndPoint,EncryptionUtility/IEncryptionState> _encryptionStates
+    GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*>* _get__encryptionStates();
+    // Set instance field: private readonly ExpiringDictionary`2<System.Net.IPEndPoint,EncryptionUtility/IEncryptionState> _encryptionStates
+    void _set__encryptionStates(GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*>* value);
+    // Get instance field: private readonly ExpiringDictionary`2<System.Net.IPAddress,PacketEncryptionLayer/PendingEncryptionStateList> _pendingEncryptionStates
+    GlobalNamespace::ExpiringDictionary_2<System::Net::IPAddress*, GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*>* _get__pendingEncryptionStates();
+    // Set instance field: private readonly ExpiringDictionary`2<System.Net.IPAddress,PacketEncryptionLayer/PendingEncryptionStateList> _pendingEncryptionStates
+    void _set__pendingEncryptionStates(GlobalNamespace::ExpiringDictionary_2<System::Net::IPAddress*, GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*>* value);
+    // Get instance field: private System.Byte[] _unencryptedTrafficFilter
+    ::Array<uint8_t>* _get__unencryptedTrafficFilter();
+    // Set instance field: private System.Byte[] _unencryptedTrafficFilter
+    void _set__unencryptedTrafficFilter(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean <filterUnencryptedTraffic>k__BackingField
+    bool _get_$filterUnencryptedTraffic$k__BackingField();
+    // Set instance field: private System.Boolean <filterUnencryptedTraffic>k__BackingField
+    void _set_$filterUnencryptedTraffic$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <enableStatistics>k__BackingField
+    bool _get_$enableStatistics$k__BackingField();
+    // Set instance field: private System.Boolean <enableStatistics>k__BackingField
+    void _set_$enableStatistics$k__BackingField(bool value);
     // public System.Boolean get_filterUnencryptedTraffic()
     // Offset: 0x1539B10
     bool get_filterUnencryptedTraffic();

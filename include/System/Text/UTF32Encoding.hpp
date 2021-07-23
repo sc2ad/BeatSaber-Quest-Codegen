@@ -54,6 +54,18 @@ namespace System::Text {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: UTF32Encoding
     UTF32Encoding(bool emitUTF32ByteOrderMark_ = {}, bool isThrowException_ = {}, bool bigEndian_ = {}) noexcept : emitUTF32ByteOrderMark{emitUTF32ByteOrderMark_}, isThrowException{isThrowException_}, bigEndian{bigEndian_} {}
+    // Get instance field: private System.Boolean emitUTF32ByteOrderMark
+    bool _get_emitUTF32ByteOrderMark();
+    // Set instance field: private System.Boolean emitUTF32ByteOrderMark
+    void _set_emitUTF32ByteOrderMark(bool value);
+    // Get instance field: private System.Boolean isThrowException
+    bool _get_isThrowException();
+    // Set instance field: private System.Boolean isThrowException
+    void _set_isThrowException(bool value);
+    // Get instance field: private System.Boolean bigEndian
+    bool _get_bigEndian();
+    // Set instance field: private System.Boolean bigEndian
+    void _set_bigEndian(bool value);
     // public System.Void .ctor(System.Boolean bigEndian, System.Boolean byteOrderMark)
     // Offset: 0x1D179C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

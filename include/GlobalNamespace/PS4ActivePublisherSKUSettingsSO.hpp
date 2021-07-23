@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     PS4ActivePublisherSKUSettingsSO(GlobalNamespace::PS4PublisherSKUSettingsSO* activePublisherSKUSettings_ = {}) noexcept : activePublisherSKUSettings{activePublisherSKUSettings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public PS4PublisherSKUSettingsSO activePublisherSKUSettings
+    GlobalNamespace::PS4PublisherSKUSettingsSO* _get_activePublisherSKUSettings();
+    // Set instance field: public PS4PublisherSKUSettingsSO activePublisherSKUSettings
+    void _set_activePublisherSKUSettings(GlobalNamespace::PS4PublisherSKUSettingsSO* value);
     // public System.Void .ctor()
     // Offset: 0xFFC6D0
     // Implemented from: PersistentScriptableObject

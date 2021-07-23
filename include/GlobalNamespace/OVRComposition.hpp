@@ -69,6 +69,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OVRPose) == 0x1C);
     // Creating value type constructor for type: OVRComposition
     OVRComposition(bool cameraInTrackingSpace_ = {}, GlobalNamespace::OVRCameraRig* cameraRig_ = {}, bool usingLastAttachedNodePose_ = {}, GlobalNamespace::OVRPose lastAttachedNodePose_ = {}) noexcept : cameraInTrackingSpace{cameraInTrackingSpace_}, cameraRig{cameraRig_}, usingLastAttachedNodePose{usingLastAttachedNodePose_}, lastAttachedNodePose{lastAttachedNodePose_} {}
+    // Get instance field: public System.Boolean cameraInTrackingSpace
+    bool _get_cameraInTrackingSpace();
+    // Set instance field: public System.Boolean cameraInTrackingSpace
+    void _set_cameraInTrackingSpace(bool value);
+    // Get instance field: public OVRCameraRig cameraRig
+    GlobalNamespace::OVRCameraRig* _get_cameraRig();
+    // Set instance field: public OVRCameraRig cameraRig
+    void _set_cameraRig(GlobalNamespace::OVRCameraRig* value);
+    // Get instance field: protected System.Boolean usingLastAttachedNodePose
+    bool _get_usingLastAttachedNodePose();
+    // Set instance field: protected System.Boolean usingLastAttachedNodePose
+    void _set_usingLastAttachedNodePose(bool value);
+    // Get instance field: protected OVRPose lastAttachedNodePose
+    GlobalNamespace::OVRPose _get_lastAttachedNodePose();
+    // Set instance field: protected OVRPose lastAttachedNodePose
+    void _set_lastAttachedNodePose(GlobalNamespace::OVRPose value);
     // protected System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
     // Offset: 0x124D670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

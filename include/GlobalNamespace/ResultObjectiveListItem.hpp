@@ -72,6 +72,26 @@ namespace GlobalNamespace {
     ResultObjectiveListItem(UnityEngine::UI::Image* icon_ = {}, UnityEngine::UI::Image* iconGlow_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, TMPro::TextMeshProUGUI* conditionText_ = {}, TMPro::TextMeshProUGUI* valueText_ = {}) noexcept : icon{icon_}, iconGlow{iconGlow_}, titleText{titleText_}, conditionText{conditionText_}, valueText{valueText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Image _icon
+    UnityEngine::UI::Image* _get__icon();
+    // Set instance field: private UnityEngine.UI.Image _icon
+    void _set__icon(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _iconGlow
+    UnityEngine::UI::Image* _get__iconGlow();
+    // Set instance field: private UnityEngine.UI.Image _iconGlow
+    void _set__iconGlow(UnityEngine::UI::Image* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _titleText
+    TMPro::TextMeshProUGUI* _get__titleText();
+    // Set instance field: private TMPro.TextMeshProUGUI _titleText
+    void _set__titleText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _conditionText
+    TMPro::TextMeshProUGUI* _get__conditionText();
+    // Set instance field: private TMPro.TextMeshProUGUI _conditionText
+    void _set__conditionText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _valueText
+    TMPro::TextMeshProUGUI* _get__valueText();
+    // Set instance field: private TMPro.TextMeshProUGUI _valueText
+    void _set__valueText(TMPro::TextMeshProUGUI* value);
     // public System.Void set_iconColor(UnityEngine.Color value)
     // Offset: 0x1143388
     void set_iconColor(UnityEngine::Color value);

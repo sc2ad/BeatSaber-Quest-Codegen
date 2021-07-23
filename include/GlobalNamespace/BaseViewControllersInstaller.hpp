@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
     // Creating value type constructor for type: BaseViewControllersInstaller
     BaseViewControllersInstaller(GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewControllerPrefab_ = {}) noexcept : simpleDialogPromptViewControllerPrefab{simpleDialogPromptViewControllerPrefab_} {}
+    // Get instance field: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
+    GlobalNamespace::SimpleDialogPromptViewController* _get__simpleDialogPromptViewControllerPrefab();
+    // Set instance field: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
+    void _set__simpleDialogPromptViewControllerPrefab(GlobalNamespace::SimpleDialogPromptViewController* value);
     // public System.Void .ctor()
     // Offset: 0x1185634
     // Implemented from: Zenject.ScriptableObjectInstaller

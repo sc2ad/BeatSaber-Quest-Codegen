@@ -88,6 +88,42 @@ namespace GlobalNamespace {
     OVRDebugHeadController(bool AllowPitchLook_ = {}, bool AllowYawLook_ = {}, bool InvertPitch_ = {}, float GamePad_PitchDegreesPerSec_ = {}, float GamePad_YawDegreesPerSec_ = {}, bool AllowMovement_ = {}, float ForwardSpeed_ = {}, float StrafeSpeed_ = {}, GlobalNamespace::OVRCameraRig* CameraRig_ = {}) noexcept : AllowPitchLook{AllowPitchLook_}, AllowYawLook{AllowYawLook_}, InvertPitch{InvertPitch_}, GamePad_PitchDegreesPerSec{GamePad_PitchDegreesPerSec_}, GamePad_YawDegreesPerSec{GamePad_YawDegreesPerSec_}, AllowMovement{AllowMovement_}, ForwardSpeed{ForwardSpeed_}, StrafeSpeed{StrafeSpeed_}, CameraRig{CameraRig_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Boolean AllowPitchLook
+    bool _get_AllowPitchLook();
+    // Set instance field: public System.Boolean AllowPitchLook
+    void _set_AllowPitchLook(bool value);
+    // Get instance field: public System.Boolean AllowYawLook
+    bool _get_AllowYawLook();
+    // Set instance field: public System.Boolean AllowYawLook
+    void _set_AllowYawLook(bool value);
+    // Get instance field: public System.Boolean InvertPitch
+    bool _get_InvertPitch();
+    // Set instance field: public System.Boolean InvertPitch
+    void _set_InvertPitch(bool value);
+    // Get instance field: public System.Single GamePad_PitchDegreesPerSec
+    float _get_GamePad_PitchDegreesPerSec();
+    // Set instance field: public System.Single GamePad_PitchDegreesPerSec
+    void _set_GamePad_PitchDegreesPerSec(float value);
+    // Get instance field: public System.Single GamePad_YawDegreesPerSec
+    float _get_GamePad_YawDegreesPerSec();
+    // Set instance field: public System.Single GamePad_YawDegreesPerSec
+    void _set_GamePad_YawDegreesPerSec(float value);
+    // Get instance field: public System.Boolean AllowMovement
+    bool _get_AllowMovement();
+    // Set instance field: public System.Boolean AllowMovement
+    void _set_AllowMovement(bool value);
+    // Get instance field: public System.Single ForwardSpeed
+    float _get_ForwardSpeed();
+    // Set instance field: public System.Single ForwardSpeed
+    void _set_ForwardSpeed(float value);
+    // Get instance field: public System.Single StrafeSpeed
+    float _get_StrafeSpeed();
+    // Set instance field: public System.Single StrafeSpeed
+    void _set_StrafeSpeed(float value);
+    // Get instance field: protected OVRCameraRig CameraRig
+    GlobalNamespace::OVRCameraRig* _get_CameraRig();
+    // Set instance field: protected OVRCameraRig CameraRig
+    void _set_CameraRig(GlobalNamespace::OVRCameraRig* value);
     // private System.Void Awake()
     // Offset: 0x1253654
     void Awake();

@@ -44,6 +44,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: OVRHapticsClip
     OVRHapticsClip(int Count_ = {}, int Capacity_ = {}, ::Array<uint8_t>* Samples_ = {}) noexcept : Count{Count_}, Capacity{Capacity_}, Samples{Samples_} {}
+    // Get instance field: private System.Int32 <Count>k__BackingField
+    int _get_$Count$k__BackingField();
+    // Set instance field: private System.Int32 <Count>k__BackingField
+    void _set_$Count$k__BackingField(int value);
+    // Get instance field: private System.Int32 <Capacity>k__BackingField
+    int _get_$Capacity$k__BackingField();
+    // Set instance field: private System.Int32 <Capacity>k__BackingField
+    void _set_$Capacity$k__BackingField(int value);
+    // Get instance field: private System.Byte[] <Samples>k__BackingField
+    ::Array<uint8_t>* _get_$Samples$k__BackingField();
+    // Set instance field: private System.Byte[] <Samples>k__BackingField
+    void _set_$Samples$k__BackingField(::Array<uint8_t>* value);
     // public System.Int32 get_Count()
     // Offset: 0x14E557C
     int get_Count();

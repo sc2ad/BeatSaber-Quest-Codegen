@@ -57,6 +57,10 @@ namespace System {
     static System::RuntimeType::MemberListType _get_HandleToInfo();
     // Set static field: static public System.RuntimeType/System.MemberListType HandleToInfo
     static void _set_HandleToInfo(System::RuntimeType::MemberListType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.RuntimeType/System.MemberListType
   #pragma pack(pop)
   static check_size<sizeof(RuntimeType::MemberListType), 0 + sizeof(int)> __System_RuntimeType_MemberListTypeSizeCheck;

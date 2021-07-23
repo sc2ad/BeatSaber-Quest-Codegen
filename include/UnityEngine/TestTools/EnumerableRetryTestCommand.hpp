@@ -54,6 +54,10 @@ namespace UnityEngine::TestTools {
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
+    // Get instance field: private System.Int32 retryCount
+    int _get_retryCount();
+    // Set instance field: private System.Int32 retryCount
+    void _set_retryCount(int value);
     // public System.Void .ctor(NUnit.Framework.RetryAttribute/NUnit.Framework.RetryCommand commandToReplace)
     // Offset: 0x14805A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -35,6 +35,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
     // Creating value type constructor for type: MultiplayerResultsPyramidViewAvatarInstaller
     MultiplayerResultsPyramidViewAvatarInstaller(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : connectedPlayer{connectedPlayer_} {}
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public System.Void .ctor()
     // Offset: 0x1006324
     // Implemented from: Zenject.MonoInstaller

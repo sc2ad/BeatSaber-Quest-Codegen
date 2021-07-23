@@ -70,6 +70,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ToneMapping) == 0x4);
     // Creating value type constructor for type: Data
     Data(UnityEngine::RenderTexture* bloomPrePassRenderTexture_ = {}, UnityEngine::Vector2 textureToScreenRatio_ = {}, UnityEngine::Matrix4x4 viewMatrix_ = {}, UnityEngine::Matrix4x4 projectionMatrix_ = {}, float stereoCameraEyeOffset_ = {}, GlobalNamespace::ToneMapping toneMapping_ = {}) noexcept : bloomPrePassRenderTexture{bloomPrePassRenderTexture_}, textureToScreenRatio{textureToScreenRatio_}, viewMatrix{viewMatrix_}, projectionMatrix{projectionMatrix_}, stereoCameraEyeOffset{stereoCameraEyeOffset_}, toneMapping{toneMapping_} {}
+    // Get instance field: public UnityEngine.RenderTexture bloomPrePassRenderTexture
+    UnityEngine::RenderTexture* _get_bloomPrePassRenderTexture();
+    // Set instance field: public UnityEngine.RenderTexture bloomPrePassRenderTexture
+    void _set_bloomPrePassRenderTexture(UnityEngine::RenderTexture* value);
+    // Get instance field: public UnityEngine.Vector2 textureToScreenRatio
+    UnityEngine::Vector2 _get_textureToScreenRatio();
+    // Set instance field: public UnityEngine.Vector2 textureToScreenRatio
+    void _set_textureToScreenRatio(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Matrix4x4 viewMatrix
+    UnityEngine::Matrix4x4 _get_viewMatrix();
+    // Set instance field: public UnityEngine.Matrix4x4 viewMatrix
+    void _set_viewMatrix(UnityEngine::Matrix4x4 value);
+    // Get instance field: public UnityEngine.Matrix4x4 projectionMatrix
+    UnityEngine::Matrix4x4 _get_projectionMatrix();
+    // Set instance field: public UnityEngine.Matrix4x4 projectionMatrix
+    void _set_projectionMatrix(UnityEngine::Matrix4x4 value);
+    // Get instance field: public System.Single stereoCameraEyeOffset
+    float _get_stereoCameraEyeOffset();
+    // Set instance field: public System.Single stereoCameraEyeOffset
+    void _set_stereoCameraEyeOffset(float value);
+    // Get instance field: public ToneMapping toneMapping
+    GlobalNamespace::ToneMapping _get_toneMapping();
+    // Set instance field: public ToneMapping toneMapping
+    void _set_toneMapping(GlobalNamespace::ToneMapping value);
     // public System.Void .ctor()
     // Offset: 0x1DEB100
     // Implemented from: System.Object

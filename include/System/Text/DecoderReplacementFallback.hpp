@@ -38,6 +38,10 @@ namespace System::Text {
     DecoderReplacementFallback(::Il2CppString* strDefault_ = {}) noexcept : strDefault{strDefault_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
+    // Get instance field: private System.String strDefault
+    ::Il2CppString* _get_strDefault();
+    // Set instance field: private System.String strDefault
+    void _set_strDefault(::Il2CppString* value);
     // public System.String get_DefaultString()
     // Offset: 0x1BD6AC4
     ::Il2CppString* get_DefaultString();

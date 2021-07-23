@@ -46,6 +46,14 @@ namespace System::Security::Util {
     operator System::Security::Util::Tokenizer::ITokenReader() noexcept {
       return *reinterpret_cast<System::Security::Util::Tokenizer::ITokenReader*>(this);
     }
+    // Get instance field: System.IO.StreamReader _in
+    System::IO::StreamReader* _get__in();
+    // Set instance field: System.IO.StreamReader _in
+    void _set__in(System::IO::StreamReader* value);
+    // Get instance field: System.Int32 _numCharRead
+    int _get__numCharRead();
+    // Set instance field: System.Int32 _numCharRead
+    void _set__numCharRead(int value);
     // System.Int32 get_NumCharEncountered()
     // Offset: 0x1BC3898
     int get_NumCharEncountered();

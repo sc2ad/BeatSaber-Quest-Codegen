@@ -59,6 +59,10 @@ namespace System::Security::Cryptography::X509Certificates {
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return list;
     }
+    // Get instance field: private System.Collections.ArrayList _list
+    System::Collections::ArrayList* _get__list();
+    // Set instance field: private System.Collections.ArrayList _list
+    void _set__list(System::Collections::ArrayList* value);
     // public System.Int32 get_Count()
     // Offset: 0x182E08C
     int get_Count();

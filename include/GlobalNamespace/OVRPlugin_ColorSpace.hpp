@@ -87,6 +87,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::ColorSpace _get_Adobe_RGB();
     // Set static field: static public OVRPlugin/ColorSpace Adobe_RGB
     static void _set_Adobe_RGB(GlobalNamespace::OVRPlugin::ColorSpace value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/ColorSpace
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::ColorSpace), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_ColorSpaceSizeCheck;

@@ -54,6 +54,26 @@ namespace Mono::Net {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr Version
+    System::IntPtr _get_Version();
+    // Set instance field: public System.IntPtr Version
+    void _set_Version(System::IntPtr value);
+    // Get instance field: public System.IntPtr Info
+    System::IntPtr _get_Info();
+    // Set instance field: public System.IntPtr Info
+    void _set_Info(System::IntPtr value);
+    // Get instance field: public System.IntPtr Retain
+    System::IntPtr _get_Retain();
+    // Set instance field: public System.IntPtr Retain
+    void _set_Retain(System::IntPtr value);
+    // Get instance field: public System.IntPtr Release
+    System::IntPtr _get_Release();
+    // Set instance field: public System.IntPtr Release
+    void _set_Release(System::IntPtr value);
+    // Get instance field: public System.IntPtr CopyDescription
+    System::IntPtr _get_CopyDescription();
+    // Set instance field: public System.IntPtr CopyDescription
+    void _set_CopyDescription(System::IntPtr value);
   }; // Mono.Net.CFStreamClientContext
   #pragma pack(pop)
   static check_size<sizeof(CFStreamClientContext), 32 + sizeof(System::IntPtr)> __Mono_Net_CFStreamClientContextSizeCheck;

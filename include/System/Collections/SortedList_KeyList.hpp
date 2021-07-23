@@ -50,6 +50,10 @@ namespace System::Collections {
     constexpr operator System::Collections::SortedList*() const noexcept {
       return sortedList;
     }
+    // Get instance field: private System.Collections.SortedList sortedList
+    System::Collections::SortedList* _get_sortedList();
+    // Set instance field: private System.Collections.SortedList sortedList
+    void _set_sortedList(System::Collections::SortedList* value);
     // public System.Int32 get_Count()
     // Offset: 0x194B37C
     int get_Count();

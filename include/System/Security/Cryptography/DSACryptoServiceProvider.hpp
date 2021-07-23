@@ -83,6 +83,30 @@ namespace System::Security::Cryptography {
     static bool _get_useMachineKeyStore();
     // Set static field: static private System.Boolean useMachineKeyStore
     static void _set_useMachineKeyStore(bool value);
+    // Get instance field: private Mono.Security.Cryptography.KeyPairPersistence store
+    Mono::Security::Cryptography::KeyPairPersistence* _get_store();
+    // Set instance field: private Mono.Security.Cryptography.KeyPairPersistence store
+    void _set_store(Mono::Security::Cryptography::KeyPairPersistence* value);
+    // Get instance field: private System.Boolean persistKey
+    bool _get_persistKey();
+    // Set instance field: private System.Boolean persistKey
+    void _set_persistKey(bool value);
+    // Get instance field: private System.Boolean persisted
+    bool _get_persisted();
+    // Set instance field: private System.Boolean persisted
+    void _set_persisted(bool value);
+    // Get instance field: private System.Boolean privateKeyExportable
+    bool _get_privateKeyExportable();
+    // Set instance field: private System.Boolean privateKeyExportable
+    void _set_privateKeyExportable(bool value);
+    // Get instance field: private System.Boolean m_disposed
+    bool _get_m_disposed();
+    // Set instance field: private System.Boolean m_disposed
+    void _set_m_disposed(bool value);
+    // Get instance field: private Mono.Security.Cryptography.DSAManaged dsa
+    Mono::Security::Cryptography::DSAManaged* _get_dsa();
+    // Set instance field: private Mono.Security.Cryptography.DSAManaged dsa
+    void _set_dsa(Mono::Security::Cryptography::DSAManaged* value);
     // public System.Boolean get_PublicOnly()
     // Offset: 0x193E618
     bool get_PublicOnly();

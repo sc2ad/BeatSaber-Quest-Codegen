@@ -37,6 +37,10 @@ namespace Valve::VR {
     static Valve::VR::EChaperoneImportFlags _get_EChaperoneImport_BoundsOnly();
     // Set static field: static public Valve.VR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static void _set_EChaperoneImport_BoundsOnly(Valve::VR::EChaperoneImportFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EChaperoneImportFlags
   #pragma pack(pop)
   static check_size<sizeof(EChaperoneImportFlags), 0 + sizeof(int)> __Valve_VR_EChaperoneImportFlagsSizeCheck;

@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*) == 0x8);
     // Creating value type constructor for type: RendererMaterialsPairs
     RendererMaterialsPairs(UnityEngine::Renderer* renderer_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs_ = {}) noexcept : renderer{renderer_}, materialPairs{materialPairs_} {}
+    // Get instance field: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer* _get__renderer();
+    // Set instance field: private UnityEngine.Renderer _renderer
+    void _set__renderer(UnityEngine::Renderer* value);
+    // Get instance field: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs
+    System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* _get__materialPairs();
+    // Set instance field: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs
+    void _set__materialPairs(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* value);
     // public UnityEngine.Renderer get_renderer()
     // Offset: 0x10E4914
     UnityEngine::Renderer* get_renderer();

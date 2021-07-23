@@ -47,6 +47,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerModeSettings
     MultiplayerModeSettings(int createServerPlayersCount_ = {}, GlobalNamespace::BeatmapDifficultyMask quickPlayBeatmapDifficulty_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}, bool quickPlayEnableLevelSelection_ = {}) noexcept : createServerPlayersCount{createServerPlayersCount_}, quickPlayBeatmapDifficulty{quickPlayBeatmapDifficulty_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_}, quickPlayEnableLevelSelection{quickPlayEnableLevelSelection_} {}
+    // Get instance field: public System.Int32 createServerPlayersCount
+    int _get_createServerPlayersCount();
+    // Set instance field: public System.Int32 createServerPlayersCount
+    void _set_createServerPlayersCount(int value);
+    // Get instance field: public BeatmapDifficultyMask quickPlayBeatmapDifficulty
+    GlobalNamespace::BeatmapDifficultyMask _get_quickPlayBeatmapDifficulty();
+    // Set instance field: public BeatmapDifficultyMask quickPlayBeatmapDifficulty
+    void _set_quickPlayBeatmapDifficulty(GlobalNamespace::BeatmapDifficultyMask value);
+    // Get instance field: public System.String quickPlaySongPackMaskSerializedName
+    ::Il2CppString* _get_quickPlaySongPackMaskSerializedName();
+    // Set instance field: public System.String quickPlaySongPackMaskSerializedName
+    void _set_quickPlaySongPackMaskSerializedName(::Il2CppString* value);
+    // Get instance field: public System.Boolean quickPlayEnableLevelSelection
+    bool _get_quickPlayEnableLevelSelection();
+    // Set instance field: public System.Boolean quickPlayEnableLevelSelection
+    void _set_quickPlayEnableLevelSelection(bool value);
     // public System.Void .ctor()
     // Offset: 0x23DCDC4
     // Implemented from: System.Object

@@ -263,6 +263,126 @@ namespace System::Net {
     static ::Array<uint8_t>* _get_crlf();
     // Set static field: static private System.Byte[] crlf
     static void _set_crlf(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean isRead
+    bool _get_isRead();
+    // Set instance field: private System.Boolean isRead
+    void _set_isRead(bool value);
+    // Get instance field: private System.Net.WebConnection cnc
+    System::Net::WebConnection* _get_cnc();
+    // Set instance field: private System.Net.WebConnection cnc
+    void _set_cnc(System::Net::WebConnection* value);
+    // Get instance field: private System.Net.HttpWebRequest request
+    System::Net::HttpWebRequest* _get_request();
+    // Set instance field: private System.Net.HttpWebRequest request
+    void _set_request(System::Net::HttpWebRequest* value);
+    // Get instance field: private System.Byte[] readBuffer
+    ::Array<uint8_t>* _get_readBuffer();
+    // Set instance field: private System.Byte[] readBuffer
+    void _set_readBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 readBufferOffset
+    int _get_readBufferOffset();
+    // Set instance field: private System.Int32 readBufferOffset
+    void _set_readBufferOffset(int value);
+    // Get instance field: private System.Int32 readBufferSize
+    int _get_readBufferSize();
+    // Set instance field: private System.Int32 readBufferSize
+    void _set_readBufferSize(int value);
+    // Get instance field: private System.Int32 stream_length
+    int _get_stream_length();
+    // Set instance field: private System.Int32 stream_length
+    void _set_stream_length(int value);
+    // Get instance field: private System.Int64 contentLength
+    int64_t _get_contentLength();
+    // Set instance field: private System.Int64 contentLength
+    void _set_contentLength(int64_t value);
+    // Get instance field: private System.Int64 totalRead
+    int64_t _get_totalRead();
+    // Set instance field: private System.Int64 totalRead
+    void _set_totalRead(int64_t value);
+    // Get instance field: System.Int64 totalWritten
+    int64_t _get_totalWritten();
+    // Set instance field: System.Int64 totalWritten
+    void _set_totalWritten(int64_t value);
+    // Get instance field: private System.Boolean nextReadCalled
+    bool _get_nextReadCalled();
+    // Set instance field: private System.Boolean nextReadCalled
+    void _set_nextReadCalled(bool value);
+    // Get instance field: private System.Int32 pendingReads
+    int _get_pendingReads();
+    // Set instance field: private System.Int32 pendingReads
+    void _set_pendingReads(int value);
+    // Get instance field: private System.Int32 pendingWrites
+    int _get_pendingWrites();
+    // Set instance field: private System.Int32 pendingWrites
+    void _set_pendingWrites(int value);
+    // Get instance field: private System.Threading.ManualResetEvent pending
+    System::Threading::ManualResetEvent* _get_pending();
+    // Set instance field: private System.Threading.ManualResetEvent pending
+    void _set_pending(System::Threading::ManualResetEvent* value);
+    // Get instance field: private System.Boolean allowBuffering
+    bool _get_allowBuffering();
+    // Set instance field: private System.Boolean allowBuffering
+    void _set_allowBuffering(bool value);
+    // Get instance field: private System.Boolean sendChunked
+    bool _get_sendChunked();
+    // Set instance field: private System.Boolean sendChunked
+    void _set_sendChunked(bool value);
+    // Get instance field: private System.IO.MemoryStream writeBuffer
+    System::IO::MemoryStream* _get_writeBuffer();
+    // Set instance field: private System.IO.MemoryStream writeBuffer
+    void _set_writeBuffer(System::IO::MemoryStream* value);
+    // Get instance field: private System.Boolean requestWritten
+    bool _get_requestWritten();
+    // Set instance field: private System.Boolean requestWritten
+    void _set_requestWritten(bool value);
+    // Get instance field: private System.Byte[] headers
+    ::Array<uint8_t>* _get_headers();
+    // Set instance field: private System.Byte[] headers
+    void _set_headers(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.Boolean headersSent
+    bool _get_headersSent();
+    // Set instance field: private System.Boolean headersSent
+    void _set_headersSent(bool value);
+    // Get instance field: private System.Object locker
+    ::Il2CppObject* _get_locker();
+    // Set instance field: private System.Object locker
+    void _set_locker(::Il2CppObject* value);
+    // Get instance field: private System.Boolean initRead
+    bool _get_initRead();
+    // Set instance field: private System.Boolean initRead
+    void _set_initRead(bool value);
+    // Get instance field: private System.Boolean read_eof
+    bool _get_read_eof();
+    // Set instance field: private System.Boolean read_eof
+    void _set_read_eof(bool value);
+    // Get instance field: private System.Boolean complete_request_written
+    bool _get_complete_request_written();
+    // Set instance field: private System.Boolean complete_request_written
+    void _set_complete_request_written(bool value);
+    // Get instance field: private System.Int32 read_timeout
+    int _get_read_timeout();
+    // Set instance field: private System.Int32 read_timeout
+    void _set_read_timeout(int value);
+    // Get instance field: private System.Int32 write_timeout
+    int _get_write_timeout();
+    // Set instance field: private System.Int32 write_timeout
+    void _set_write_timeout(int value);
+    // Get instance field: private System.AsyncCallback cb_wrapper
+    System::AsyncCallback* _get_cb_wrapper();
+    // Set instance field: private System.AsyncCallback cb_wrapper
+    void _set_cb_wrapper(System::AsyncCallback* value);
+    // Get instance field: System.Boolean IgnoreIOErrors
+    bool _get_IgnoreIOErrors();
+    // Set instance field: System.Boolean IgnoreIOErrors
+    void _set_IgnoreIOErrors(bool value);
+    // Get instance field: private System.Boolean <GetResponseOnClose>k__BackingField
+    bool _get_$GetResponseOnClose$k__BackingField();
+    // Set instance field: private System.Boolean <GetResponseOnClose>k__BackingField
+    void _set_$GetResponseOnClose$k__BackingField(bool value);
     // System.Net.WebConnection get_Connection()
     // Offset: 0x1597810
     System::Net::WebConnection* get_Connection();

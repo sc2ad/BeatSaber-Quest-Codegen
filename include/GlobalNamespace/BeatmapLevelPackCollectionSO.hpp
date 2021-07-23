@@ -58,6 +58,18 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BeatmapLevelPackSO[] _beatmapLevelPacks
+    ::Array<GlobalNamespace::BeatmapLevelPackSO*>* _get__beatmapLevelPacks();
+    // Set instance field: private BeatmapLevelPackSO[] _beatmapLevelPacks
+    void _set__beatmapLevelPacks(::Array<GlobalNamespace::BeatmapLevelPackSO*>* value);
+    // Get instance field: private PreviewBeatmapLevelPackSO[] _previewBeatmapLevelPack
+    ::Array<GlobalNamespace::PreviewBeatmapLevelPackSO*>* _get__previewBeatmapLevelPack();
+    // Set instance field: private PreviewBeatmapLevelPackSO[] _previewBeatmapLevelPack
+    void _set__previewBeatmapLevelPack(::Array<GlobalNamespace::PreviewBeatmapLevelPackSO*>* value);
+    // Get instance field: private IBeatmapLevelPack[] _allBeatmapLevelPacks
+    ::Array<GlobalNamespace::IBeatmapLevelPack*>* _get__allBeatmapLevelPacks();
+    // Set instance field: private IBeatmapLevelPack[] _allBeatmapLevelPacks
+    void _set__allBeatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
     // Offset: 0x108D764
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();

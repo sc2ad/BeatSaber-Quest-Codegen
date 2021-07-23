@@ -75,6 +75,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRMesh::MeshType _get_HandRight();
       // Set static field: static public OVRMesh/MeshType HandRight
       static void _set_HandRight(GlobalNamespace::OVRMesh::MeshType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRMesh/MeshType
     #pragma pack(pop)
     static check_size<sizeof(OVRMesh::MeshType), 0 + sizeof(int)> __GlobalNamespace_OVRMesh_MeshTypeSizeCheck;
@@ -109,6 +113,22 @@ namespace GlobalNamespace {
     OVRMesh(GlobalNamespace::OVRMesh::IOVRMeshDataProvider* dataProvider_ = {}, GlobalNamespace::OVRMesh::MeshType meshType_ = {}, UnityEngine::Mesh* mesh_ = {}, bool IsInitialized_ = {}) noexcept : dataProvider{dataProvider_}, meshType{meshType_}, mesh{mesh_}, IsInitialized{IsInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private OVRMesh/IOVRMeshDataProvider _dataProvider
+    GlobalNamespace::OVRMesh::IOVRMeshDataProvider* _get__dataProvider();
+    // Set instance field: private OVRMesh/IOVRMeshDataProvider _dataProvider
+    void _set__dataProvider(GlobalNamespace::OVRMesh::IOVRMeshDataProvider* value);
+    // Get instance field: private OVRMesh/MeshType _meshType
+    GlobalNamespace::OVRMesh::MeshType _get__meshType();
+    // Set instance field: private OVRMesh/MeshType _meshType
+    void _set__meshType(GlobalNamespace::OVRMesh::MeshType value);
+    // Get instance field: private UnityEngine.Mesh _mesh
+    UnityEngine::Mesh* _get__mesh();
+    // Set instance field: private UnityEngine.Mesh _mesh
+    void _set__mesh(UnityEngine::Mesh* value);
+    // Get instance field: private System.Boolean <IsInitialized>k__BackingField
+    bool _get_$IsInitialized$k__BackingField();
+    // Set instance field: private System.Boolean <IsInitialized>k__BackingField
+    void _set_$IsInitialized$k__BackingField(bool value);
     // public System.Boolean get_IsInitialized()
     // Offset: 0x12E1538
     bool get_IsInitialized();

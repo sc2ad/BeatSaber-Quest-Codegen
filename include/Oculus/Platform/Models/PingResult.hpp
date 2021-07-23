@@ -30,6 +30,14 @@ namespace Oculus::Platform::Models {
     System::Nullable_1<uint64_t> pingTimeUsec;
     // Creating value type constructor for type: PingResult
     PingResult(uint64_t _ID_ = {}, System::Nullable_1<uint64_t> pingTimeUsec_ = {}) noexcept : _ID{_ID_}, pingTimeUsec{pingTimeUsec_} {}
+    // Get instance field: private System.UInt64 <ID>k__BackingField
+    uint64_t _get_$ID$k__BackingField();
+    // Set instance field: private System.UInt64 <ID>k__BackingField
+    void _set_$ID$k__BackingField(uint64_t value);
+    // Get instance field: private System.Nullable`1<System.UInt64> pingTimeUsec
+    System::Nullable_1<uint64_t> _get_pingTimeUsec();
+    // Set instance field: private System.Nullable`1<System.UInt64> pingTimeUsec
+    void _set_pingTimeUsec(System::Nullable_1<uint64_t> value);
     // public System.UInt64 get_ID()
     // Offset: 0x14AA338
     uint64_t get_ID();

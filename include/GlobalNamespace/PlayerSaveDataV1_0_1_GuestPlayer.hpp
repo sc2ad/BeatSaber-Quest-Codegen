@@ -33,6 +33,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*) == 0x8);
     // Creating value type constructor for type: GuestPlayer
     GuestPlayer(::Il2CppString* playerName_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}) noexcept : playerName{playerName_}, playerSpecificSettings{playerSpecificSettings_} {}
+    // Get instance field: public System.String playerName
+    ::Il2CppString* _get_playerName();
+    // Set instance field: public System.String playerName
+    void _set_playerName(::Il2CppString* value);
+    // Get instance field: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
+    GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* _get_playerSpecificSettings();
+    // Set instance field: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
+    void _set_playerSpecificSettings(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* value);
     // public System.Void .ctor()
     // Offset: 0x1105FB0
     // Implemented from: System.Object

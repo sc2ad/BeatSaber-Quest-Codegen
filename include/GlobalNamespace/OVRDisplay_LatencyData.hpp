@@ -54,6 +54,26 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single render
+    float _get_render();
+    // Set instance field: public System.Single render
+    void _set_render(float value);
+    // Get instance field: public System.Single timeWarp
+    float _get_timeWarp();
+    // Set instance field: public System.Single timeWarp
+    void _set_timeWarp(float value);
+    // Get instance field: public System.Single postPresent
+    float _get_postPresent();
+    // Set instance field: public System.Single postPresent
+    void _set_postPresent(float value);
+    // Get instance field: public System.Single renderError
+    float _get_renderError();
+    // Set instance field: public System.Single renderError
+    void _set_renderError(float value);
+    // Get instance field: public System.Single timeWarpError
+    float _get_timeWarpError();
+    // Set instance field: public System.Single timeWarpError
+    void _set_timeWarpError(float value);
   }; // OVRDisplay/LatencyData
   #pragma pack(pop)
   static check_size<sizeof(OVRDisplay::LatencyData), 16 + sizeof(float)> __GlobalNamespace_OVRDisplay_LatencyDataSizeCheck;

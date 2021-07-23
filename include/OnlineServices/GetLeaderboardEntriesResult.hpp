@@ -57,6 +57,18 @@ namespace OnlineServices {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public readonly System.Boolean isError
+    bool _get_isError();
+    // Set instance field: public readonly System.Boolean isError
+    void _set_isError(bool value);
+    // Get instance field: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
+    ::Array<OnlineServices::LeaderboardEntryData*>* _get_leaderboardEntries();
+    // Set instance field: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
+    void _set_leaderboardEntries(::Array<OnlineServices::LeaderboardEntryData*>* value);
+    // Get instance field: public readonly System.Int32 referencePlayerScoreIndex
+    int _get_referencePlayerScoreIndex();
+    // Set instance field: public readonly System.Int32 referencePlayerScoreIndex
+    void _set_referencePlayerScoreIndex(int value);
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
     // Offset: 0xFF8A00
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();

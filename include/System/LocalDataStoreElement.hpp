@@ -31,6 +31,14 @@ namespace System {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: LocalDataStoreElement
     LocalDataStoreElement(::Il2CppObject* m_value_ = {}, int64_t m_cookie_ = {}) noexcept : m_value{m_value_}, m_cookie{m_cookie_} {}
+    // Get instance field: private System.Object m_value
+    ::Il2CppObject* _get_m_value();
+    // Set instance field: private System.Object m_value
+    void _set_m_value(::Il2CppObject* value);
+    // Get instance field: private System.Int64 m_cookie
+    int64_t _get_m_cookie();
+    // Set instance field: private System.Int64 m_cookie
+    void _set_m_cookie(int64_t value);
     // public System.Object get_Value()
     // Offset: 0x17FB730
     ::Il2CppObject* get_Value();

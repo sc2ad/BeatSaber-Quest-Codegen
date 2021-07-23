@@ -144,6 +144,62 @@ namespace GlobalNamespace {
     BeatmapObjectsAvoidance(float zOffset_ = {}, float yOffset_ = {}, UnityEngine::Vector2 gravity_ = {}, UnityEngine::Transform* towardsPlayerWrapperTransform_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::IReadonlyBeatmapData* beatmapData_ = {}, GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* avoidanceYOffsetEvaluatorProvider_ = {}, GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* pathEvaluator_ = {}, GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* tiltEvaluator_ = {}, GlobalNamespace::BezierSplineEvaluator* pathBezierSplineEvaluator_ = {}, GlobalNamespace::BezierSplineEvaluator* accelerationBezierSplineEvaluator_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : zOffset{zOffset_}, yOffset{yOffset_}, gravity{gravity_}, towardsPlayerWrapperTransform{towardsPlayerWrapperTransform_}, audioTimeSource{audioTimeSource_}, beatmapData{beatmapData_}, beatmapObjectSpawnController{beatmapObjectSpawnController_}, playerTransforms{playerTransforms_}, avoidanceYOffsetEvaluatorProvider{avoidanceYOffsetEvaluatorProvider_}, pathEvaluator{pathEvaluator_}, tiltEvaluator{tiltEvaluator_}, pathBezierSplineEvaluator{pathBezierSplineEvaluator_}, accelerationBezierSplineEvaluator{accelerationBezierSplineEvaluator_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _zOffset
+    float _get__zOffset();
+    // Set instance field: private System.Single _zOffset
+    void _set__zOffset(float value);
+    // Get instance field: private System.Single _yOffset
+    float _get__yOffset();
+    // Set instance field: private System.Single _yOffset
+    void _set__yOffset(float value);
+    // Get instance field: private UnityEngine.Vector2 _gravity
+    UnityEngine::Vector2 _get__gravity();
+    // Set instance field: private UnityEngine.Vector2 _gravity
+    void _set__gravity(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Transform _towardsPlayerWrapperTransform
+    UnityEngine::Transform* _get__towardsPlayerWrapperTransform();
+    // Set instance field: private UnityEngine.Transform _towardsPlayerWrapperTransform
+    void _set__towardsPlayerWrapperTransform(UnityEngine::Transform* value);
+    // Get instance field: private readonly IAudioTimeSource _audioTimeSource
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSource();
+    // Set instance field: private readonly IAudioTimeSource _audioTimeSource
+    void _set__audioTimeSource(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private readonly IReadonlyBeatmapData _beatmapData
+    GlobalNamespace::IReadonlyBeatmapData* _get__beatmapData();
+    // Set instance field: private readonly IReadonlyBeatmapData _beatmapData
+    void _set__beatmapData(GlobalNamespace::IReadonlyBeatmapData* value);
+    // Get instance field: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
+    GlobalNamespace::IBeatmapObjectSpawnController* _get__beatmapObjectSpawnController();
+    // Set instance field: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
+    void _set__beatmapObjectSpawnController(GlobalNamespace::IBeatmapObjectSpawnController* value);
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private BeatmapObjectAvoidanceYOffsetEvaluator _avoidanceYOffsetEvaluatorProvider
+    GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* _get__avoidanceYOffsetEvaluatorProvider();
+    // Set instance field: private BeatmapObjectAvoidanceYOffsetEvaluator _avoidanceYOffsetEvaluatorProvider
+    void _set__avoidanceYOffsetEvaluatorProvider(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* value);
+    // Get instance field: private BeatmapObjectAvoidancePathEvaluator _pathEvaluator
+    GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* _get__pathEvaluator();
+    // Set instance field: private BeatmapObjectAvoidancePathEvaluator _pathEvaluator
+    void _set__pathEvaluator(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* value);
+    // Get instance field: private BeatmapObjectAvoidanceTiltEvaluator _tiltEvaluator
+    GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* _get__tiltEvaluator();
+    // Set instance field: private BeatmapObjectAvoidanceTiltEvaluator _tiltEvaluator
+    void _set__tiltEvaluator(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* value);
+    // Get instance field: private BezierSplineEvaluator _pathBezierSplineEvaluator
+    GlobalNamespace::BezierSplineEvaluator* _get__pathBezierSplineEvaluator();
+    // Set instance field: private BezierSplineEvaluator _pathBezierSplineEvaluator
+    void _set__pathBezierSplineEvaluator(GlobalNamespace::BezierSplineEvaluator* value);
+    // Get instance field: private BezierSplineEvaluator _accelerationBezierSplineEvaluator
+    GlobalNamespace::BezierSplineEvaluator* _get__accelerationBezierSplineEvaluator();
+    // Set instance field: private BezierSplineEvaluator _accelerationBezierSplineEvaluator
+    void _set__accelerationBezierSplineEvaluator(GlobalNamespace::BezierSplineEvaluator* value);
+    // Get instance field: private UnityEngine.Transform _transform
+    UnityEngine::Transform* _get__transform();
+    // Set instance field: private UnityEngine.Transform _transform
+    void _set__transform(UnityEngine::Transform* value);
     // protected System.Void Awake()
     // Offset: 0x1098794
     void Awake();

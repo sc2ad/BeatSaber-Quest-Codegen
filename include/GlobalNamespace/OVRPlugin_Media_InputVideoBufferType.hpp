@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Media::InputVideoBufferType _get_EnumSize();
     // Set static field: static public OVRPlugin/Media/InputVideoBufferType EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/Media/InputVideoBufferType
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Media::InputVideoBufferType), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_Media_InputVideoBufferTypeSizeCheck;

@@ -49,6 +49,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::OculusPlatformAchievementHandler*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_0
     $$c__DisplayClass3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler_ = {}, GlobalNamespace::OculusPlatformAchievementHandler* $$4__this_ = {}) noexcept : completionHandler{completionHandler_}, $$4__this{$$4__this_} {}
+    // Get instance field: public PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler
+    GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* _get_completionHandler();
+    // Set instance field: public PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler
+    void _set_completionHandler(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* value);
+    // Get instance field: public OculusPlatformAchievementHandler <>4__this
+    GlobalNamespace::OculusPlatformAchievementHandler* _get_$$4__this();
+    // Set instance field: public OculusPlatformAchievementHandler <>4__this
+    void _set_$$4__this(GlobalNamespace::OculusPlatformAchievementHandler* value);
     // System.Void <GetUnlockedAchievements>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementProgressList> message)
     // Offset: 0x11F5938
     void $GetUnlockedAchievements$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList*>* message);

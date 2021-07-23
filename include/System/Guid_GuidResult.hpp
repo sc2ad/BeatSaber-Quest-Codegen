@@ -77,6 +77,34 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Guid parsedGuid
+    System::Guid _get_parsedGuid();
+    // Set instance field: System.Guid parsedGuid
+    void _set_parsedGuid(System::Guid value);
+    // Get instance field: System.Guid/System.GuidParseThrowStyle throwStyle
+    System::Guid::GuidParseThrowStyle _get_throwStyle();
+    // Set instance field: System.Guid/System.GuidParseThrowStyle throwStyle
+    void _set_throwStyle(System::Guid::GuidParseThrowStyle value);
+    // Get instance field: System.Guid/System.ParseFailureKind m_failure
+    System::Guid::ParseFailureKind _get_m_failure();
+    // Set instance field: System.Guid/System.ParseFailureKind m_failure
+    void _set_m_failure(System::Guid::ParseFailureKind value);
+    // Get instance field: System.String m_failureMessageID
+    ::Il2CppString* _get_m_failureMessageID();
+    // Set instance field: System.String m_failureMessageID
+    void _set_m_failureMessageID(::Il2CppString* value);
+    // Get instance field: System.Object m_failureMessageFormatArgument
+    ::Il2CppObject* _get_m_failureMessageFormatArgument();
+    // Set instance field: System.Object m_failureMessageFormatArgument
+    void _set_m_failureMessageFormatArgument(::Il2CppObject* value);
+    // Get instance field: System.String m_failureArgumentName
+    ::Il2CppString* _get_m_failureArgumentName();
+    // Set instance field: System.String m_failureArgumentName
+    void _set_m_failureArgumentName(::Il2CppString* value);
+    // Get instance field: System.Exception m_innerException
+    System::Exception* _get_m_innerException();
+    // Set instance field: System.Exception m_innerException
+    void _set_m_innerException(System::Exception* value);
     // System.Void Init(System.Guid/System.GuidParseThrowStyle canThrow)
     // Offset: 0xEECB24
     void Init(System::Guid::GuidParseThrowStyle canThrow);

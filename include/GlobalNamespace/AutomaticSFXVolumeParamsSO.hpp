@@ -71,6 +71,38 @@ namespace GlobalNamespace {
     AutomaticSFXVolumeParamsSO(float musicVolumeMultiplier_ = {}, float threshold_ = {}, float impact_ = {}, float attackTime_ = {}, float releaseTime_ = {}, float minVolume_ = {}, float maxVolume_ = {}, float volumeSmooth_ = {}) noexcept : musicVolumeMultiplier{musicVolumeMultiplier_}, threshold{threshold_}, impact{impact_}, attackTime{attackTime_}, releaseTime{releaseTime_}, minVolume{minVolume_}, maxVolume{maxVolume_}, volumeSmooth{volumeSmooth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _musicVolumeMultiplier
+    float _get__musicVolumeMultiplier();
+    // Set instance field: private System.Single _musicVolumeMultiplier
+    void _set__musicVolumeMultiplier(float value);
+    // Get instance field: private System.Single _threshold
+    float _get__threshold();
+    // Set instance field: private System.Single _threshold
+    void _set__threshold(float value);
+    // Get instance field: private System.Single _impact
+    float _get__impact();
+    // Set instance field: private System.Single _impact
+    void _set__impact(float value);
+    // Get instance field: private System.Single _attackTime
+    float _get__attackTime();
+    // Set instance field: private System.Single _attackTime
+    void _set__attackTime(float value);
+    // Get instance field: private System.Single _releaseTime
+    float _get__releaseTime();
+    // Set instance field: private System.Single _releaseTime
+    void _set__releaseTime(float value);
+    // Get instance field: private System.Single _minVolume
+    float _get__minVolume();
+    // Set instance field: private System.Single _minVolume
+    void _set__minVolume(float value);
+    // Get instance field: private System.Single _maxVolume
+    float _get__maxVolume();
+    // Set instance field: private System.Single _maxVolume
+    void _set__maxVolume(float value);
+    // Get instance field: private System.Single _volumeSmooth
+    float _get__volumeSmooth();
+    // Set instance field: private System.Single _volumeSmooth
+    void _set__volumeSmooth(float value);
     // public System.Single get_musicVolumeMultiplier()
     // Offset: 0x10DDA30
     float get_musicVolumeMultiplier();

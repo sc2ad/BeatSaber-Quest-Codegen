@@ -81,6 +81,38 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::Text::RegularExpressions::RegexNode*) == 0x8);
     // Creating value type constructor for type: RegexNode
     RegexNode(int type_ = {}, System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>* children_ = {}, ::Il2CppString* str_ = {}, ::Il2CppChar ch_ = {}, int m_ = {}, int n_ = {}, System::Text::RegularExpressions::RegexOptions options_ = {}, System::Text::RegularExpressions::RegexNode* next_ = {}) noexcept : type{type_}, children{children_}, str{str_}, ch{ch_}, m{m_}, n{n_}, options{options_}, next{next_} {}
+    // Get instance field: System.Int32 _type
+    int _get__type();
+    // Set instance field: System.Int32 _type
+    void _set__type(int value);
+    // Get instance field: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children
+    System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>* _get__children();
+    // Set instance field: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children
+    void _set__children(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>* value);
+    // Get instance field: System.String _str
+    ::Il2CppString* _get__str();
+    // Set instance field: System.String _str
+    void _set__str(::Il2CppString* value);
+    // Get instance field: System.Char _ch
+    ::Il2CppChar _get__ch();
+    // Set instance field: System.Char _ch
+    void _set__ch(::Il2CppChar value);
+    // Get instance field: System.Int32 _m
+    int _get__m();
+    // Set instance field: System.Int32 _m
+    void _set__m(int value);
+    // Get instance field: System.Int32 _n
+    int _get__n();
+    // Set instance field: System.Int32 _n
+    void _set__n(int value);
+    // Get instance field: System.Text.RegularExpressions.RegexOptions _options
+    System::Text::RegularExpressions::RegexOptions _get__options();
+    // Set instance field: System.Text.RegularExpressions.RegexOptions _options
+    void _set__options(System::Text::RegularExpressions::RegexOptions value);
+    // Get instance field: System.Text.RegularExpressions.RegexNode _next
+    System::Text::RegularExpressions::RegexNode* _get__next();
+    // Set instance field: System.Text.RegularExpressions.RegexNode _next
+    void _set__next(System::Text::RegularExpressions::RegexNode* value);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options)
     // Offset: 0x19657AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

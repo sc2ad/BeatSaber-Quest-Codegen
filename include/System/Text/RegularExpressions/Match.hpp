@@ -88,6 +88,42 @@ namespace System::Text::RegularExpressions {
     static System::Text::RegularExpressions::Match* _get__empty();
     // Set static field: static System.Text.RegularExpressions.Match _empty
     static void _set__empty(System::Text::RegularExpressions::Match* value);
+    // Get instance field: System.Text.RegularExpressions.GroupCollection _groupcoll
+    System::Text::RegularExpressions::GroupCollection* _get__groupcoll();
+    // Set instance field: System.Text.RegularExpressions.GroupCollection _groupcoll
+    void _set__groupcoll(System::Text::RegularExpressions::GroupCollection* value);
+    // Get instance field: System.Text.RegularExpressions.Regex _regex
+    System::Text::RegularExpressions::Regex* _get__regex();
+    // Set instance field: System.Text.RegularExpressions.Regex _regex
+    void _set__regex(System::Text::RegularExpressions::Regex* value);
+    // Get instance field: System.Int32 _textbeg
+    int _get__textbeg();
+    // Set instance field: System.Int32 _textbeg
+    void _set__textbeg(int value);
+    // Get instance field: System.Int32 _textpos
+    int _get__textpos();
+    // Set instance field: System.Int32 _textpos
+    void _set__textpos(int value);
+    // Get instance field: System.Int32 _textend
+    int _get__textend();
+    // Set instance field: System.Int32 _textend
+    void _set__textend(int value);
+    // Get instance field: System.Int32 _textstart
+    int _get__textstart();
+    // Set instance field: System.Int32 _textstart
+    void _set__textstart(int value);
+    // Get instance field: System.Int32[][] _matches
+    ::Array<::Array<int>*>* _get__matches();
+    // Set instance field: System.Int32[][] _matches
+    void _set__matches(::Array<::Array<int>*>* value);
+    // Get instance field: System.Int32[] _matchcount
+    ::Array<int>* _get__matchcount();
+    // Set instance field: System.Int32[] _matchcount
+    void _set__matchcount(::Array<int>* value);
+    // Get instance field: System.Boolean _balancing
+    bool _get__balancing();
+    // Set instance field: System.Boolean _balancing
+    void _set__balancing(bool value);
     // static public System.Text.RegularExpressions.Match get_Empty()
     // Offset: 0x1835704
     static System::Text::RegularExpressions::Match* get_Empty();

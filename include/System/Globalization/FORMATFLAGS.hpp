@@ -73,6 +73,10 @@ namespace System::Globalization {
     static System::Globalization::FORMATFLAGS _get_UseDigitPrefixInTokens();
     // Set static field: static public System.Globalization.FORMATFLAGS UseDigitPrefixInTokens
     static void _set_UseDigitPrefixInTokens(System::Globalization::FORMATFLAGS value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Globalization.FORMATFLAGS
   #pragma pack(pop)
   static check_size<sizeof(FORMATFLAGS), 0 + sizeof(int)> __System_Globalization_FORMATFLAGSSizeCheck;

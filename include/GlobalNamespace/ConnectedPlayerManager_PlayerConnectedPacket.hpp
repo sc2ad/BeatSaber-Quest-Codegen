@@ -74,6 +74,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
+    // Get instance field: public System.Byte remoteConnectionId
+    uint8_t _get_remoteConnectionId();
+    // Set instance field: public System.Byte remoteConnectionId
+    void _set_remoteConnectionId(uint8_t value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
+    // Get instance field: public System.Boolean isConnectionOwner
+    bool _get_isConnectionOwner();
+    // Set instance field: public System.Boolean isConnectionOwner
+    void _set_isConnectionOwner(bool value);
     // static public PacketPool`1<ConnectedPlayerManager/PlayerConnectedPacket> get_pool()
     // Offset: 0x12BD464
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*>* get_pool();

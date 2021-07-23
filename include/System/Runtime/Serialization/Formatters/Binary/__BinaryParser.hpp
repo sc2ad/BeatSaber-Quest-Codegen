@@ -231,6 +231,98 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::MessageEnd* _get_messageEnd();
     // Set static field: static System.Runtime.Serialization.Formatters.Binary.MessageEnd messageEnd
     static void _set_messageEnd(System::Runtime::Serialization::Formatters::Binary::MessageEnd* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader
+    System::Runtime::Serialization::Formatters::Binary::ObjectReader* _get_objectReader();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader
+    void _set_objectReader(System::Runtime::Serialization::Formatters::Binary::ObjectReader* value);
+    // Get instance field: System.IO.Stream input
+    System::IO::Stream* _get_input();
+    // Set instance field: System.IO.Stream input
+    void _set_input(System::IO::Stream* value);
+    // Get instance field: System.Int64 topId
+    int64_t _get_topId();
+    // Set instance field: System.Int64 topId
+    void _set_topId(int64_t value);
+    // Get instance field: System.Int64 headerId
+    int64_t _get_headerId();
+    // Set instance field: System.Int64 headerId
+    void _set_headerId(int64_t value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SizedArray objectMapIdTable
+    System::Runtime::Serialization::Formatters::Binary::SizedArray* _get_objectMapIdTable();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SizedArray objectMapIdTable
+    void _set_objectMapIdTable(System::Runtime::Serialization::Formatters::Binary::SizedArray* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SizedArray assemIdToAssemblyTable
+    System::Runtime::Serialization::Formatters::Binary::SizedArray* _get_assemIdToAssemblyTable();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SizedArray assemIdToAssemblyTable
+    void _set_assemIdToAssemblyTable(System::Runtime::Serialization::Formatters::Binary::SizedArray* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerStack stack
+    System::Runtime::Serialization::Formatters::Binary::SerStack* _get_stack();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerStack stack
+    void _set_stack(System::Runtime::Serialization::Formatters::Binary::SerStack* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum expectedType
+    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum _get_expectedType();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum expectedType
+    void _set_expectedType(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
+    // Get instance field: System.Object expectedTypeInformation
+    ::Il2CppObject* _get_expectedTypeInformation();
+    // Set instance field: System.Object expectedTypeInformation
+    void _set_expectedTypeInformation(::Il2CppObject* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ParseRecord PRS
+    System::Runtime::Serialization::Formatters::Binary::ParseRecord* _get_PRS();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ParseRecord PRS
+    void _set_PRS(System::Runtime::Serialization::Formatters::Binary::ParseRecord* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo systemAssemblyInfo
+    System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* _get_systemAssemblyInfo();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo systemAssemblyInfo
+    void _set_systemAssemblyInfo(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* value);
+    // Get instance field: private System.IO.BinaryReader dataReader
+    System::IO::BinaryReader* _get_dataReader();
+    // Set instance field: private System.IO.BinaryReader dataReader
+    void _set_dataReader(System::IO::BinaryReader* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.SerStack opPool
+    System::Runtime::Serialization::Formatters::Binary::SerStack* _get_opPool();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.SerStack opPool
+    void _set_opPool(System::Runtime::Serialization::Formatters::Binary::SerStack* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryObject binaryObject
+    System::Runtime::Serialization::Formatters::Binary::BinaryObject* _get_binaryObject();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryObject binaryObject
+    void _set_binaryObject(System::Runtime::Serialization::Formatters::Binary::BinaryObject* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap bowm
+    System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* _get_bowm();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap bowm
+    void _set_bowm(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped bowmt
+    System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* _get_bowmt();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped bowmt
+    void _set_bowmt(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectString objectString
+    System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* _get_objectString();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryObjectString objectString
+    void _set_objectString(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainString crossAppDomainString
+    System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* _get_crossAppDomainString();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainString crossAppDomainString
+    void _set_crossAppDomainString(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped memberPrimitiveTyped
+    System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* _get_memberPrimitiveTyped();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped memberPrimitiveTyped
+    void _set_memberPrimitiveTyped(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* value);
+    // Get instance field: private System.Byte[] byteBuffer
+    ::Array<uint8_t>* _get_byteBuffer();
+    // Set instance field: private System.Byte[] byteBuffer
+    void _set_byteBuffer(::Array<uint8_t>* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped memberPrimitiveUnTyped
+    System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* _get_memberPrimitiveUnTyped();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped memberPrimitiveUnTyped
+    void _set_memberPrimitiveUnTyped(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.MemberReference memberReference
+    System::Runtime::Serialization::Formatters::Binary::MemberReference* _get_memberReference();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.MemberReference memberReference
+    void _set_memberReference(System::Runtime::Serialization::Formatters::Binary::MemberReference* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ObjectNull objectNull
+    System::Runtime::Serialization::Formatters::Binary::ObjectNull* _get_objectNull();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ObjectNull objectNull
+    void _set_objectNull(System::Runtime::Serialization::Formatters::Binary::ObjectNull* value);
     // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo get_SystemAssemblyInfo()
     // Offset: 0x15E70EC
     System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* get_SystemAssemblyInfo();

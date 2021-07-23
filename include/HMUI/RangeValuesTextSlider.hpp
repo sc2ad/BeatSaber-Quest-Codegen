@@ -76,6 +76,30 @@ namespace HMUI {
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
     // Creating value type constructor for type: RangeValuesTextSlider
     RangeValuesTextSlider(float minValue_ = {}, float maxValue_ = {}, UnityEngine::UI::Button* decButton_ = {}, UnityEngine::UI::Button* incButton_ = {}, System::Action_2<HMUI::RangeValuesTextSlider*, float>* valueDidChangeEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : minValue{minValue_}, maxValue{maxValue_}, decButton{decButton_}, incButton{incButton_}, valueDidChangeEvent{valueDidChangeEvent_}, buttonBinder{buttonBinder_} {}
+    // Get instance field: private System.Single _minValue
+    float _get__minValue();
+    // Set instance field: private System.Single _minValue
+    void _set__minValue(float value);
+    // Get instance field: private System.Single _maxValue
+    float _get__maxValue();
+    // Set instance field: private System.Single _maxValue
+    void _set__maxValue(float value);
+    // Get instance field: private UnityEngine.UI.Button _decButton
+    UnityEngine::UI::Button* _get__decButton();
+    // Set instance field: private UnityEngine.UI.Button _decButton
+    void _set__decButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _incButton
+    UnityEngine::UI::Button* _get__incButton();
+    // Set instance field: private UnityEngine.UI.Button _incButton
+    void _set__incButton(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Action`2<HMUI.RangeValuesTextSlider,System.Single> valueDidChangeEvent
+    System::Action_2<HMUI::RangeValuesTextSlider*, float>* _get_valueDidChangeEvent();
+    // Set instance field: private System.Action`2<HMUI.RangeValuesTextSlider,System.Single> valueDidChangeEvent
+    void _set_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider*, float>* value);
+    // Get instance field: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
     // public System.Single get_minValue()
     // Offset: 0x1295740
     float get_minValue();

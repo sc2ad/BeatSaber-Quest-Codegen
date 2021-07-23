@@ -55,6 +55,22 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(HMUI::ViewController* toPresentViewController_ = {}, float moveOffset_ = {}, HMUI::ViewController* toDismissViewController_ = {}, float baseCanvasGroupAlpha_ = {}) noexcept : toPresentViewController{toPresentViewController_}, moveOffset{moveOffset_}, toDismissViewController{toDismissViewController_}, baseCanvasGroupAlpha{baseCanvasGroupAlpha_} {}
+    // Get instance field: public HMUI.ViewController toPresentViewController
+    HMUI::ViewController* _get_toPresentViewController();
+    // Set instance field: public HMUI.ViewController toPresentViewController
+    void _set_toPresentViewController(HMUI::ViewController* value);
+    // Get instance field: public System.Single moveOffset
+    float _get_moveOffset();
+    // Set instance field: public System.Single moveOffset
+    void _set_moveOffset(float value);
+    // Get instance field: public HMUI.ViewController toDismissViewController
+    HMUI::ViewController* _get_toDismissViewController();
+    // Set instance field: public HMUI.ViewController toDismissViewController
+    void _set_toDismissViewController(HMUI::ViewController* value);
+    // Get instance field: public System.Single baseCanvasGroupAlpha
+    float _get_baseCanvasGroupAlpha();
+    // Set instance field: public System.Single baseCanvasGroupAlpha
+    void _set_baseCanvasGroupAlpha(float value);
     // System.Void <DoHorizontalTransition>b__0(System.Single t)
     // Offset: 0x2357880
     void $DoHorizontalTransition$b__0(float t);

@@ -33,6 +33,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LaunchUnblockFlowResult
     LaunchUnblockFlowResult(bool DidCancel_ = {}, bool DidUnblock_ = {}) noexcept : DidCancel{DidCancel_}, DidUnblock{DidUnblock_} {}
+    // Get instance field: public readonly System.Boolean DidCancel
+    bool _get_DidCancel();
+    // Set instance field: public readonly System.Boolean DidCancel
+    void _set_DidCancel(bool value);
+    // Get instance field: public readonly System.Boolean DidUnblock
+    bool _get_DidUnblock();
+    // Set instance field: public readonly System.Boolean DidUnblock
+    void _set_DidUnblock(bool value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A3130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

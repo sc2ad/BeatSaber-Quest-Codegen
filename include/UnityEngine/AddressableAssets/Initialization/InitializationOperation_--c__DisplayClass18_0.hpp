@@ -72,6 +72,22 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass18_0
     $$c__DisplayClass18_0(UnityEngine::AddressableAssets::Initialization::InitializationOperation* $$4__this_ = {}, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs_ = {}, UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap_ = {}, int index_ = {}) noexcept : $$4__this{$$4__this_}, catalogs{catalogs_}, locMap{locMap_}, index{index_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.Initialization.InitializationOperation <>4__this
+    UnityEngine::AddressableAssets::Initialization::InitializationOperation* _get_$$4__this();
+    // Set instance field: public UnityEngine.AddressableAssets.Initialization.InitializationOperation <>4__this
+    void _set_$$4__this(UnityEngine::AddressableAssets::Initialization::InitializationOperation* value);
+    // Get instance field: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> catalogs
+    System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* _get_catalogs();
+    // Set instance field: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> catalogs
+    void _set_catalogs(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+    // Get instance field: public UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap locMap
+    UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* _get_locMap();
+    // Set instance field: public UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap locMap
+    void _set_locMap(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* value);
+    // Get instance field: public System.Int32 index
+    int _get_index();
+    // Set instance field: public System.Int32 index
+    void _set_index(int value);
     // System.Void <LoadContentCatalogInternal>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> op)
     // Offset: 0x13CA488
     void $LoadContentCatalogInternal$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op);

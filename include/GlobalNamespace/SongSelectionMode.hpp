@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::SongSelectionMode _get_RandomPlayerPicks();
     // Set static field: static public SongSelectionMode RandomPlayerPicks
     static void _set_RandomPlayerPicks(GlobalNamespace::SongSelectionMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // SongSelectionMode
   #pragma pack(pop)
   static check_size<sizeof(SongSelectionMode), 0 + sizeof(int)> __GlobalNamespace_SongSelectionModeSizeCheck;

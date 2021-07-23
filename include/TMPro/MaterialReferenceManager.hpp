@@ -69,6 +69,22 @@ namespace TMPro {
     static TMPro::MaterialReferenceManager* _get_s_Instance();
     // Set static field: static private TMPro.MaterialReferenceManager s_Instance
     static void _set_s_Instance(TMPro::MaterialReferenceManager* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Material> m_FontMaterialReferenceLookup
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::Material*>* _get_m_FontMaterialReferenceLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Material> m_FontMaterialReferenceLookup
+    void _set_m_FontMaterialReferenceLookup(System::Collections::Generic::Dictionary_2<int, UnityEngine::Material*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_FontAsset> m_FontAssetReferenceLookup
+    System::Collections::Generic::Dictionary_2<int, TMPro::TMP_FontAsset*>* _get_m_FontAssetReferenceLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_FontAsset> m_FontAssetReferenceLookup
+    void _set_m_FontAssetReferenceLookup(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_FontAsset*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_SpriteAsset> m_SpriteAssetReferenceLookup
+    System::Collections::Generic::Dictionary_2<int, TMPro::TMP_SpriteAsset*>* _get_m_SpriteAssetReferenceLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_SpriteAsset> m_SpriteAssetReferenceLookup
+    void _set_m_SpriteAssetReferenceLookup(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_SpriteAsset*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_ColorGradient> m_ColorGradientReferenceLookup
+    System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>* _get_m_ColorGradientReferenceLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_ColorGradient> m_ColorGradientReferenceLookup
+    void _set_m_ColorGradientReferenceLookup(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>* value);
     // static public TMPro.MaterialReferenceManager get_instance()
     // Offset: 0x10BA528
     static TMPro::MaterialReferenceManager* get_instance();

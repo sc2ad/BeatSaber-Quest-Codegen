@@ -97,6 +97,30 @@ namespace System::Net {
     }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
+    // Get instance field: private System.Boolean m_closed
+    bool _get_m_closed();
+    // Set instance field: private System.Boolean m_closed
+    void _set_m_closed(bool value);
+    // Get instance field: private System.Int64 m_contentLength
+    int64_t _get_m_contentLength();
+    // Set instance field: private System.Int64 m_contentLength
+    void _set_m_contentLength(int64_t value);
+    // Get instance field: private System.IO.FileAccess m_fileAccess
+    System::IO::FileAccess _get_m_fileAccess();
+    // Set instance field: private System.IO.FileAccess m_fileAccess
+    void _set_m_fileAccess(System::IO::FileAccess value);
+    // Get instance field: private System.Net.WebHeaderCollection m_headers
+    System::Net::WebHeaderCollection* _get_m_headers();
+    // Set instance field: private System.Net.WebHeaderCollection m_headers
+    void _set_m_headers(System::Net::WebHeaderCollection* value);
+    // Get instance field: private System.IO.Stream m_stream
+    System::IO::Stream* _get_m_stream();
+    // Set instance field: private System.IO.Stream m_stream
+    void _set_m_stream(System::IO::Stream* value);
+    // Get instance field: private System.Uri m_uri
+    System::Uri* _get_m_uri();
+    // Set instance field: private System.Uri m_uri
+    void _set_m_uri(System::Uri* value);
     // System.Void .ctor(System.Net.FileWebRequest request, System.Uri uri, System.IO.FileAccess access, System.Boolean asyncHint)
     // Offset: 0x16A483C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

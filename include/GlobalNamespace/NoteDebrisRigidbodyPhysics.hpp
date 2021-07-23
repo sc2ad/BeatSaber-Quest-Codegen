@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     NoteDebrisRigidbodyPhysics(UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::NoteDebrisSimplePhysics* simplePhysics_ = {}, bool firstUpdate_ = {}) noexcept : rigidbody{rigidbody_}, simplePhysics{simplePhysics_}, firstUpdate{firstUpdate_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Rigidbody _rigidbody
+    UnityEngine::Rigidbody* _get__rigidbody();
+    // Set instance field: private UnityEngine.Rigidbody _rigidbody
+    void _set__rigidbody(UnityEngine::Rigidbody* value);
+    // Get instance field: private NoteDebrisSimplePhysics _simplePhysics
+    GlobalNamespace::NoteDebrisSimplePhysics* _get__simplePhysics();
+    // Set instance field: private NoteDebrisSimplePhysics _simplePhysics
+    void _set__simplePhysics(GlobalNamespace::NoteDebrisSimplePhysics* value);
+    // Get instance field: private System.Boolean _firstUpdate
+    bool _get__firstUpdate();
+    // Set instance field: private System.Boolean _firstUpdate
+    void _set__firstUpdate(bool value);
     // protected System.Void FixedUpdate()
     // Offset: 0x11E3344
     void FixedUpdate();

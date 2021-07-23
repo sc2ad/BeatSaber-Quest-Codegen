@@ -54,6 +54,14 @@ namespace GlobalNamespace {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: private System.Single <value>k__BackingField
+      float _get_$value$k__BackingField();
+      // Set instance field: private System.Single <value>k__BackingField
+      void _set_$value$k__BackingField(float value);
+      // Get instance field: private System.Single <time>k__BackingField
+      float _get_$time$k__BackingField();
+      // Set instance field: private System.Single <time>k__BackingField
+      void _set_$time$k__BackingField(float value);
       // public System.Single get_value()
       // Offset: 0xED0D74
       float get_value();
@@ -138,6 +146,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: AveragingValueRecorder
     AveragingValueRecorder(float averageWindowDuration_ = {}, float historyValuesPerSecond_ = {}, int historyValuesCount_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::AveragingValueRecorder::AverageValueData>* averageWindowValues_ = {}, System::Collections::Generic::Queue_1<float>* historyValues_ = {}, float time_ = {}, float historyTime_ = {}, float averageValue_ = {}, float averageWindowValuesDuration_ = {}, float lastValue_ = {}) noexcept : averageWindowDuration{averageWindowDuration_}, historyValuesPerSecond{historyValuesPerSecond_}, historyValuesCount{historyValuesCount_}, averageWindowValues{averageWindowValues_}, historyValues{historyValues_}, time{time_}, historyTime{historyTime_}, averageValue{averageValue_}, averageWindowValuesDuration{averageWindowValuesDuration_}, lastValue{lastValue_} {}
+    // Get instance field: private System.Single _averageWindowDuration
+    float _get__averageWindowDuration();
+    // Set instance field: private System.Single _averageWindowDuration
+    void _set__averageWindowDuration(float value);
+    // Get instance field: private System.Single _historyValuesPerSecond
+    float _get__historyValuesPerSecond();
+    // Set instance field: private System.Single _historyValuesPerSecond
+    void _set__historyValuesPerSecond(float value);
+    // Get instance field: private System.Int32 _historyValuesCount
+    int _get__historyValuesCount();
+    // Set instance field: private System.Int32 _historyValuesCount
+    void _set__historyValuesCount(int value);
+    // Get instance field: private System.Collections.Generic.Queue`1<AveragingValueRecorder/AverageValueData> _averageWindowValues
+    System::Collections::Generic::Queue_1<GlobalNamespace::AveragingValueRecorder::AverageValueData>* _get__averageWindowValues();
+    // Set instance field: private System.Collections.Generic.Queue`1<AveragingValueRecorder/AverageValueData> _averageWindowValues
+    void _set__averageWindowValues(System::Collections::Generic::Queue_1<GlobalNamespace::AveragingValueRecorder::AverageValueData>* value);
+    // Get instance field: private System.Collections.Generic.Queue`1<System.Single> _historyValues
+    System::Collections::Generic::Queue_1<float>* _get__historyValues();
+    // Set instance field: private System.Collections.Generic.Queue`1<System.Single> _historyValues
+    void _set__historyValues(System::Collections::Generic::Queue_1<float>* value);
+    // Get instance field: private System.Single _time
+    float _get__time();
+    // Set instance field: private System.Single _time
+    void _set__time(float value);
+    // Get instance field: private System.Single _historyTime
+    float _get__historyTime();
+    // Set instance field: private System.Single _historyTime
+    void _set__historyTime(float value);
+    // Get instance field: private System.Single _averageValue
+    float _get__averageValue();
+    // Set instance field: private System.Single _averageValue
+    void _set__averageValue(float value);
+    // Get instance field: private System.Single _averageWindowValuesDuration
+    float _get__averageWindowValuesDuration();
+    // Set instance field: private System.Single _averageWindowValuesDuration
+    void _set__averageWindowValuesDuration(float value);
+    // Get instance field: private System.Single _lastValue
+    float _get__lastValue();
+    // Set instance field: private System.Single _lastValue
+    void _set__lastValue(float value);
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyWindowDuration, System.Single historyValuesPerSecond)
     // Offset: 0x10E4150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

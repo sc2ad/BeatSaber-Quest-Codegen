@@ -80,6 +80,34 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDifficultyBeatmap() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);
     }
+    // Get instance field: private readonly IBeatmapLevel <level>k__BackingField
+    GlobalNamespace::IBeatmapLevel* _get_$level$k__BackingField();
+    // Set instance field: private readonly IBeatmapLevel <level>k__BackingField
+    void _set_$level$k__BackingField(GlobalNamespace::IBeatmapLevel* value);
+    // Get instance field: private readonly IDifficultyBeatmapSet <parentDifficultyBeatmapSet>k__BackingField
+    GlobalNamespace::IDifficultyBeatmapSet* _get_$parentDifficultyBeatmapSet$k__BackingField();
+    // Set instance field: private readonly IDifficultyBeatmapSet <parentDifficultyBeatmapSet>k__BackingField
+    void _set_$parentDifficultyBeatmapSet$k__BackingField(GlobalNamespace::IDifficultyBeatmapSet* value);
+    // Get instance field: private readonly BeatmapDifficulty <difficulty>k__BackingField
+    GlobalNamespace::BeatmapDifficulty _get_$difficulty$k__BackingField();
+    // Set instance field: private readonly BeatmapDifficulty <difficulty>k__BackingField
+    void _set_$difficulty$k__BackingField(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: private readonly System.Int32 <difficultyRank>k__BackingField
+    int _get_$difficultyRank$k__BackingField();
+    // Set instance field: private readonly System.Int32 <difficultyRank>k__BackingField
+    void _set_$difficultyRank$k__BackingField(int value);
+    // Get instance field: private readonly System.Single <noteJumpMovementSpeed>k__BackingField
+    float _get_$noteJumpMovementSpeed$k__BackingField();
+    // Set instance field: private readonly System.Single <noteJumpMovementSpeed>k__BackingField
+    void _set_$noteJumpMovementSpeed$k__BackingField(float value);
+    // Get instance field: private readonly System.Single <noteJumpStartBeatOffset>k__BackingField
+    float _get_$noteJumpStartBeatOffset$k__BackingField();
+    // Set instance field: private readonly System.Single <noteJumpStartBeatOffset>k__BackingField
+    void _set_$noteJumpStartBeatOffset$k__BackingField(float value);
+    // Get instance field: private readonly BeatmapData <beatmapData>k__BackingField
+    GlobalNamespace::BeatmapData* _get_$beatmapData$k__BackingField();
+    // Set instance field: private readonly BeatmapData <beatmapData>k__BackingField
+    void _set_$beatmapData$k__BackingField(GlobalNamespace::BeatmapData* value);
     // public IBeatmapLevel get_level()
     // Offset: 0x101F6BC
     GlobalNamespace::IBeatmapLevel* get_level();

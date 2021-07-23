@@ -62,6 +62,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
     // Creating value type constructor for type: ReleaseInfoViewController
     ReleaseInfoViewController(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, HMUI::TextPageScrollView* textPageScrollView_ = {}, UnityEngine::TextAsset* releaseNotesTextAsset_ = {}, UnityEngine::TextAsset* firstTextAsset_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, textPageScrollView{textPageScrollView_}, releaseNotesTextAsset{releaseNotesTextAsset_}, firstTextAsset{firstTextAsset_} {}
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private HMUI.TextPageScrollView _textPageScrollView
+    HMUI::TextPageScrollView* _get__textPageScrollView();
+    // Set instance field: private HMUI.TextPageScrollView _textPageScrollView
+    void _set__textPageScrollView(HMUI::TextPageScrollView* value);
+    // Get instance field: private UnityEngine.TextAsset _releaseNotesTextAsset
+    UnityEngine::TextAsset* _get__releaseNotesTextAsset();
+    // Set instance field: private UnityEngine.TextAsset _releaseNotesTextAsset
+    void _set__releaseNotesTextAsset(UnityEngine::TextAsset* value);
+    // Get instance field: private UnityEngine.TextAsset _firstTextAsset
+    UnityEngine::TextAsset* _get__firstTextAsset();
+    // Set instance field: private UnityEngine.TextAsset _firstTextAsset
+    void _set__firstTextAsset(UnityEngine::TextAsset* value);
     // public System.Void .ctor()
     // Offset: 0x1143188
     // Implemented from: HMUI.ViewController

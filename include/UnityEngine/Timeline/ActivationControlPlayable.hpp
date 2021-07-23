@@ -88,6 +88,10 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState _get_Revert();
       // Set static field: static public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState Revert
       static void _set_Revert(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState
     #pragma pack(pop)
     static check_size<sizeof(ActivationControlPlayable::PostPlaybackState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationControlPlayable_PostPlaybackStateSizeCheck;
@@ -132,6 +136,10 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::ActivationControlPlayable::InitialState _get_Inactive();
       // Set static field: static public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.InitialState Inactive
       static void _set_Inactive(UnityEngine::Timeline::ActivationControlPlayable::InitialState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.InitialState
     #pragma pack(pop)
     static check_size<sizeof(ActivationControlPlayable::InitialState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationControlPlayable_InitialStateSizeCheck;
@@ -156,6 +164,18 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(UnityEngine::Timeline::ActivationControlPlayable::InitialState) == 0x4);
     // Creating value type constructor for type: ActivationControlPlayable
     ActivationControlPlayable(UnityEngine::GameObject* gameObject_ = {}, UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState postPlayback_ = {}, UnityEngine::Timeline::ActivationControlPlayable::InitialState m_InitialState_ = {}) noexcept : gameObject{gameObject_}, postPlayback{postPlayback_}, m_InitialState{m_InitialState_} {}
+    // Get instance field: public UnityEngine.GameObject gameObject
+    UnityEngine::GameObject* _get_gameObject();
+    // Set instance field: public UnityEngine.GameObject gameObject
+    void _set_gameObject(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState postPlayback
+    UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState _get_postPlayback();
+    // Set instance field: public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState postPlayback
+    void _set_postPlayback(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState value);
+    // Get instance field: private UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.InitialState m_InitialState
+    UnityEngine::Timeline::ActivationControlPlayable::InitialState _get_m_InitialState();
+    // Set instance field: private UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.InitialState m_InitialState
+    void _set_m_InitialState(UnityEngine::Timeline::ActivationControlPlayable::InitialState value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.ActivationControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject gameObject, UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState postPlaybackState)
     // Offset: 0x17DA448
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ActivationControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* gameObject, UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState postPlaybackState);

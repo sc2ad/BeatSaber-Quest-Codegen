@@ -78,6 +78,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
     // Creating value type constructor for type: MissionLevelScenesTransitionSetupDataSO
     MissionLevelScenesTransitionSetupDataSO(GlobalNamespace::SceneInfo* missionGameplaySceneInfo_ = {}, GlobalNamespace::SceneInfo* gameCoreSceneInfo_ = {}, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* didFinishEvent_ = {}, ::Il2CppString* missionId_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}) noexcept : missionGameplaySceneInfo{missionGameplaySceneInfo_}, gameCoreSceneInfo{gameCoreSceneInfo_}, didFinishEvent{didFinishEvent_}, missionId{missionId_}, difficultyBeatmap{difficultyBeatmap_} {}
+    // Get instance field: private SceneInfo _missionGameplaySceneInfo
+    GlobalNamespace::SceneInfo* _get__missionGameplaySceneInfo();
+    // Set instance field: private SceneInfo _missionGameplaySceneInfo
+    void _set__missionGameplaySceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private SceneInfo _gameCoreSceneInfo
+    GlobalNamespace::SceneInfo* _get__gameCoreSceneInfo();
+    // Set instance field: private SceneInfo _gameCoreSceneInfo
+    void _set__gameCoreSceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> didFinishEvent
+    System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> didFinishEvent
+    void _set_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
+    // Get instance field: private System.String <missionId>k__BackingField
+    ::Il2CppString* _get_$missionId$k__BackingField();
+    // Set instance field: private System.String <missionId>k__BackingField
+    void _set_$missionId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
+    GlobalNamespace::IDifficultyBeatmap* _get_$difficultyBeatmap$k__BackingField();
+    // Set instance field: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
+    void _set_$difficultyBeatmap$k__BackingField(GlobalNamespace::IDifficultyBeatmap* value);
     // public System.String get_missionId()
     // Offset: 0x1133774
     ::Il2CppString* get_missionId();

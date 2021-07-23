@@ -40,6 +40,14 @@ namespace NUnit::Framework::Internal::Execution {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: EventListenerTextWriter
     EventListenerTextWriter(System::IO::TextWriter* defaultWriter_ = {}, ::Il2CppString* streamName_ = {}) noexcept : defaultWriter{defaultWriter_}, streamName{streamName_} {}
+    // Get instance field: private System.IO.TextWriter _defaultWriter
+    System::IO::TextWriter* _get__defaultWriter();
+    // Set instance field: private System.IO.TextWriter _defaultWriter
+    void _set__defaultWriter(System::IO::TextWriter* value);
+    // Get instance field: private System.String _streamName
+    ::Il2CppString* _get__streamName();
+    // Set instance field: private System.String _streamName
+    void _set__streamName(::Il2CppString* value);
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
     // Offset: 0x172B218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

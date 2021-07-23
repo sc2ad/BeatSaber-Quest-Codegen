@@ -54,6 +54,14 @@ namespace System::Collections::Specialized {
     static System::Collections::IHashCodeProvider* _get_defaultHashProvider();
     // Set static field: static private System.Collections.IHashCodeProvider defaultHashProvider
     static void _set_defaultHashProvider(System::Collections::IHashCodeProvider* value);
+    // Get instance field: private System.Collections.IComparer _comparer
+    System::Collections::IComparer* _get__comparer();
+    // Set instance field: private System.Collections.IComparer _comparer
+    void _set__comparer(System::Collections::IComparer* value);
+    // Get instance field: private System.Collections.IHashCodeProvider _hcp
+    System::Collections::IHashCodeProvider* _get__hcp();
+    // Set instance field: private System.Collections.IHashCodeProvider _hcp
+    void _set__hcp(System::Collections::IHashCodeProvider* value);
     // public System.Collections.IComparer get_Comparer()
     // Offset: 0x1842834
     System::Collections::IComparer* get_Comparer();

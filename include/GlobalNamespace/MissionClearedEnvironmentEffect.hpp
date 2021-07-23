@@ -45,6 +45,14 @@ namespace GlobalNamespace {
     MissionClearedEnvironmentEffect(GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    GlobalNamespace::MissionObjectiveCheckersManager* _get__missionObjectiveCheckersManager();
+    // Set instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    void _set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager* value);
+    // Get instance field: private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::BeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::BeatmapObjectCallbackController* value);
     // protected System.Void Awake()
     // Offset: 0x112FA98
     void Awake();

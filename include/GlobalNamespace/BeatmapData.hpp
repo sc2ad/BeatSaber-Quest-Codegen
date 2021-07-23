@@ -123,6 +123,46 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IReadonlyBeatmapData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReadonlyBeatmapData*>(this);
     }
+    // Get instance field: private System.Int32 <cuttableNotesType>k__BackingField
+    int _get_$cuttableNotesType$k__BackingField();
+    // Set instance field: private System.Int32 <cuttableNotesType>k__BackingField
+    void _set_$cuttableNotesType$k__BackingField(int value);
+    // Get instance field: private System.Int32 <obstaclesCount>k__BackingField
+    int _get_$obstaclesCount$k__BackingField();
+    // Set instance field: private System.Int32 <obstaclesCount>k__BackingField
+    void _set_$obstaclesCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <bombsCount>k__BackingField
+    int _get_$bombsCount$k__BackingField();
+    // Set instance field: private System.Int32 <bombsCount>k__BackingField
+    void _set_$bombsCount$k__BackingField(int value);
+    // Get instance field: private System.Int32 <spawnRotationEventsCount>k__BackingField
+    int _get_$spawnRotationEventsCount$k__BackingField();
+    // Set instance field: private System.Int32 <spawnRotationEventsCount>k__BackingField
+    void _set_$spawnRotationEventsCount$k__BackingField(int value);
+    // Get instance field: private readonly BeatmapLineData[] _beatmapLinesData
+    ::Array<GlobalNamespace::BeatmapLineData*>* _get__beatmapLinesData();
+    // Set instance field: private readonly BeatmapLineData[] _beatmapLinesData
+    void _set__beatmapLinesData(::Array<GlobalNamespace::BeatmapLineData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventsData
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* _get__beatmapEventsData();
+    // Set instance field: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventsData
+    void _set__beatmapEventsData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> _availableSpecialEventsPerKeywordDictionary
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* _get__availableSpecialEventsPerKeywordDictionary();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> _availableSpecialEventsPerKeywordDictionary
+    void _set__availableSpecialEventsPerKeywordDictionary(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* value);
+    // Get instance field: private readonly NotesInTimeRowProcessor _notesInTimeRowProcessor
+    GlobalNamespace::NotesInTimeRowProcessor* _get__notesInTimeRowProcessor();
+    // Set instance field: private readonly NotesInTimeRowProcessor _notesInTimeRowProcessor
+    void _set__notesInTimeRowProcessor(GlobalNamespace::NotesInTimeRowProcessor* value);
+    // Get instance field: private System.Single _prevAddedBeatmapObjectDataTime
+    float _get__prevAddedBeatmapObjectDataTime();
+    // Set instance field: private System.Single _prevAddedBeatmapObjectDataTime
+    void _set__prevAddedBeatmapObjectDataTime(float value);
+    // Get instance field: private System.Single _prevAddedBeatmapEventDataTime
+    float _get__prevAddedBeatmapEventDataTime();
+    // Set instance field: private System.Single _prevAddedBeatmapEventDataTime
+    void _set__prevAddedBeatmapEventDataTime(float value);
     // public System.Collections.Generic.IReadOnlyList`1<IReadonlyBeatmapLineData> get_beatmapLinesData()
     // Offset: 0x118D3EC
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IReadonlyBeatmapLineData*>* get_beatmapLinesData();

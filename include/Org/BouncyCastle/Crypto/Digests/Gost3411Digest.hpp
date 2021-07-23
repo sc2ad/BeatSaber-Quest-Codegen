@@ -152,6 +152,78 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static ::Array<uint8_t>* _get_C2();
     // Set static field: static private readonly System.Byte[] C2
     static void _set_C2(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] H
+    ::Array<uint8_t>* _get_H();
+    // Set instance field: private System.Byte[] H
+    void _set_H(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] L
+    ::Array<uint8_t>* _get_L();
+    // Set instance field: private System.Byte[] L
+    void _set_L(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] M
+    ::Array<uint8_t>* _get_M();
+    // Set instance field: private System.Byte[] M
+    void _set_M(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] Sum
+    ::Array<uint8_t>* _get_Sum();
+    // Set instance field: private System.Byte[] Sum
+    void _set_Sum(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[][] C
+    ::Array<::Array<uint8_t>*>* _get_C();
+    // Set instance field: private System.Byte[][] C
+    void _set_C(::Array<::Array<uint8_t>*>* value);
+    // Get instance field: private System.Byte[] xBuf
+    ::Array<uint8_t>* _get_xBuf();
+    // Set instance field: private System.Byte[] xBuf
+    void _set_xBuf(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 xBufOff
+    int _get_xBufOff();
+    // Set instance field: private System.Int32 xBufOff
+    void _set_xBufOff(int value);
+    // Get instance field: private System.UInt64 byteCount
+    uint64_t _get_byteCount();
+    // Set instance field: private System.UInt64 byteCount
+    void _set_byteCount(uint64_t value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
+    // Get instance field: private System.Byte[] sBox
+    ::Array<uint8_t>* _get_sBox();
+    // Set instance field: private System.Byte[] sBox
+    void _set_sBox(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] K
+    ::Array<uint8_t>* _get_K();
+    // Set instance field: private System.Byte[] K
+    void _set_K(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] a
+    ::Array<uint8_t>* _get_a();
+    // Set instance field: private System.Byte[] a
+    void _set_a(::Array<uint8_t>* value);
+    // Get instance field: System.Int16[] wS
+    ::Array<int16_t>* _get_wS();
+    // Set instance field: System.Int16[] wS
+    void _set_wS(::Array<int16_t>* value);
+    // Get instance field: System.Int16[] w_S
+    ::Array<int16_t>* _get_w_S();
+    // Set instance field: System.Int16[] w_S
+    void _set_w_S(::Array<int16_t>* value);
+    // Get instance field: System.Byte[] S
+    ::Array<uint8_t>* _get_S();
+    // Set instance field: System.Byte[] S
+    void _set_S(::Array<uint8_t>* value);
+    // Get instance field: System.Byte[] U
+    ::Array<uint8_t>* _get_U();
+    // Set instance field: System.Byte[] U
+    void _set_U(::Array<uint8_t>* value);
+    // Get instance field: System.Byte[] V
+    ::Array<uint8_t>* _get_V();
+    // Set instance field: System.Byte[] V
+    void _set_V(::Array<uint8_t>* value);
+    // Get instance field: System.Byte[] W
+    ::Array<uint8_t>* _get_W();
+    // Set instance field: System.Byte[] W
+    void _set_W(::Array<uint8_t>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1D072BC
     ::Il2CppString* get_AlgorithmName();

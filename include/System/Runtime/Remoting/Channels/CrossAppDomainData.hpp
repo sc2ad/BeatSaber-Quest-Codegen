@@ -39,6 +39,18 @@ namespace System::Runtime::Remoting::Channels {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CrossAppDomainData
     CrossAppDomainData(::Il2CppObject* ContextID_ = {}, int DomainID_ = {}, ::Il2CppString* processGuid_ = {}) noexcept : ContextID{ContextID_}, DomainID{DomainID_}, processGuid{processGuid_} {}
+    // Get instance field: private System.Object _ContextID
+    ::Il2CppObject* _get__ContextID();
+    // Set instance field: private System.Object _ContextID
+    void _set__ContextID(::Il2CppObject* value);
+    // Get instance field: private System.Int32 _DomainID
+    int _get__DomainID();
+    // Set instance field: private System.Int32 _DomainID
+    void _set__DomainID(int value);
+    // Get instance field: private System.String _processGuid
+    ::Il2CppString* _get__processGuid();
+    // Set instance field: private System.String _processGuid
+    void _set__processGuid(::Il2CppString* value);
     // System.Int32 get_DomainID()
     // Offset: 0x13F9D4C
     int get_DomainID();

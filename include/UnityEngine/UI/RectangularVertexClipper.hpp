@@ -44,6 +44,14 @@ namespace UnityEngine::UI {
     static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
     // Creating value type constructor for type: RectangularVertexClipper
     RectangularVertexClipper(::Array<UnityEngine::Vector3>* m_WorldCorners_ = {}, ::Array<UnityEngine::Vector3>* m_CanvasCorners_ = {}) noexcept : m_WorldCorners{m_WorldCorners_}, m_CanvasCorners{m_CanvasCorners_} {}
+    // Get instance field: private readonly UnityEngine.Vector3[] m_WorldCorners
+    ::Array<UnityEngine::Vector3>* _get_m_WorldCorners();
+    // Set instance field: private readonly UnityEngine.Vector3[] m_WorldCorners
+    void _set_m_WorldCorners(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private readonly UnityEngine.Vector3[] m_CanvasCorners
+    ::Array<UnityEngine::Vector3>* _get_m_CanvasCorners();
+    // Set instance field: private readonly UnityEngine.Vector3[] m_CanvasCorners
+    void _set_m_CanvasCorners(::Array<UnityEngine::Vector3>* value);
     // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
     // Offset: 0x1984124
     UnityEngine::Rect GetCanvasRect(UnityEngine::RectTransform* t, UnityEngine::Canvas* c);

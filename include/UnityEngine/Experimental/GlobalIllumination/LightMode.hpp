@@ -55,6 +55,10 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     static UnityEngine::Experimental::GlobalIllumination::LightMode _get_Unknown();
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.LightMode Unknown
     static void _set_Unknown(UnityEngine::Experimental::GlobalIllumination::LightMode value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // UnityEngine.Experimental.GlobalIllumination.LightMode
   #pragma pack(pop)
   static check_size<sizeof(LightMode), 0 + sizeof(uint8_t)> __UnityEngine_Experimental_GlobalIllumination_LightModeSizeCheck;

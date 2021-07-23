@@ -84,6 +84,26 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: protected readonly IMultiplayerSessionManager multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get_multiplayerSessionManager();
+    // Set instance field: protected readonly IMultiplayerSessionManager multiplayerSessionManager
+    void _set_multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: protected readonly IGameplayRpcManager gameplayRpcManager
+    GlobalNamespace::IGameplayRpcManager* _get_gameplayRpcManager();
+    // Set instance field: protected readonly IGameplayRpcManager gameplayRpcManager
+    void _set_gameplayRpcManager(GlobalNamespace::IGameplayRpcManager* value);
+    // Get instance field: protected readonly System.Boolean leftHanded
+    bool _get_leftHanded();
+    // Set instance field: protected readonly System.Boolean leftHanded
+    void _set_leftHanded(bool value);
+    // Get instance field: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
+    GlobalNamespace::MockNodePoseSyncStateSender* _get_mockNodePoseSyncStateSender();
+    // Set instance field: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
+    void _set_mockNodePoseSyncStateSender(GlobalNamespace::MockNodePoseSyncStateSender* value);
+    // Get instance field: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
+    GlobalNamespace::MockScoreSyncStateSender* _get_mockScoreSyncStateSender();
+    // Set instance field: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
+    void _set_mockScoreSyncStateSender(GlobalNamespace::MockScoreSyncStateSender* value);
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded)
     // Offset: 0x238C268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

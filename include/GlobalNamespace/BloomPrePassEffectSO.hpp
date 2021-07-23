@@ -62,6 +62,22 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Int32 _textureWidth
+    int _get__textureWidth();
+    // Set instance field: private System.Int32 _textureWidth
+    void _set__textureWidth(int value);
+    // Get instance field: private System.Int32 _textureHeight
+    int _get__textureHeight();
+    // Set instance field: private System.Int32 _textureHeight
+    void _set__textureHeight(int value);
+    // Get instance field: private UnityEngine.Vector2 _fov
+    UnityEngine::Vector2 _get__fov();
+    // Set instance field: private UnityEngine.Vector2 _fov
+    void _set__fov(UnityEngine::Vector2 value);
+    // Get instance field: private System.Single _linesWidth
+    float _get__linesWidth();
+    // Set instance field: private System.Single _linesWidth
+    void _set__linesWidth(float value);
     // public TextureEffectSO get_textureEffect()
     // Offset: 0x1DED8B8
     GlobalNamespace::TextureEffectSO* get_textureEffect();

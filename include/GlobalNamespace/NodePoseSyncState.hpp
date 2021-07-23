@@ -71,6 +71,18 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IEquatableByReference_1<GlobalNamespace::NodePoseSyncState>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IEquatableByReference_1<GlobalNamespace::NodePoseSyncState>*>(this);
     }
+    // Get instance field: private PoseSerializable _head
+    GlobalNamespace::PoseSerializable _get__head();
+    // Set instance field: private PoseSerializable _head
+    void _set__head(GlobalNamespace::PoseSerializable value);
+    // Get instance field: private PoseSerializable _leftController
+    GlobalNamespace::PoseSerializable _get__leftController();
+    // Set instance field: private PoseSerializable _leftController
+    void _set__leftController(GlobalNamespace::PoseSerializable value);
+    // Get instance field: private PoseSerializable _rightController
+    GlobalNamespace::PoseSerializable _get__rightController();
+    // Set instance field: private PoseSerializable _rightController
+    void _set__rightController(GlobalNamespace::PoseSerializable value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xEDA7B8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);

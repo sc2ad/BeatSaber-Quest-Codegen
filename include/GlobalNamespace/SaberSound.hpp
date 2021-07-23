@@ -95,6 +95,46 @@ namespace GlobalNamespace {
     SaberSound(UnityEngine::Transform* saberTop_ = {}, UnityEngine::AudioSource* audioSource_ = {}, UnityEngine::AnimationCurve* pitchBySpeedCurve_ = {}, UnityEngine::AnimationCurve* gainBySpeedCurve_ = {}, float speedMultiplier_ = {}, float upSmooth_ = {}, float downSmooth_ = {}, float noSoundTopThresholdSqr_ = {}, UnityEngine::Vector3 prevPos_ = {}, float speed_ = {}) noexcept : saberTop{saberTop_}, audioSource{audioSource_}, pitchBySpeedCurve{pitchBySpeedCurve_}, gainBySpeedCurve{gainBySpeedCurve_}, speedMultiplier{speedMultiplier_}, upSmooth{upSmooth_}, downSmooth{downSmooth_}, noSoundTopThresholdSqr{noSoundTopThresholdSqr_}, prevPos{prevPos_}, speed{speed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _saberTop
+    UnityEngine::Transform* _get__saberTop();
+    // Set instance field: private UnityEngine.Transform _saberTop
+    void _set__saberTop(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource* _get__audioSource();
+    // Set instance field: private UnityEngine.AudioSource _audioSource
+    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private UnityEngine.AnimationCurve _pitchBySpeedCurve
+    UnityEngine::AnimationCurve* _get__pitchBySpeedCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _pitchBySpeedCurve
+    void _set__pitchBySpeedCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AnimationCurve _gainBySpeedCurve
+    UnityEngine::AnimationCurve* _get__gainBySpeedCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _gainBySpeedCurve
+    void _set__gainBySpeedCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private System.Single _speedMultiplier
+    float _get__speedMultiplier();
+    // Set instance field: private System.Single _speedMultiplier
+    void _set__speedMultiplier(float value);
+    // Get instance field: private System.Single _upSmooth
+    float _get__upSmooth();
+    // Set instance field: private System.Single _upSmooth
+    void _set__upSmooth(float value);
+    // Get instance field: private System.Single _downSmooth
+    float _get__downSmooth();
+    // Set instance field: private System.Single _downSmooth
+    void _set__downSmooth(float value);
+    // Get instance field: private System.Single _noSoundTopThresholdSqr
+    float _get__noSoundTopThresholdSqr();
+    // Set instance field: private System.Single _noSoundTopThresholdSqr
+    void _set__noSoundTopThresholdSqr(float value);
+    // Get instance field: private UnityEngine.Vector3 _prevPos
+    UnityEngine::Vector3 _get__prevPos();
+    // Set instance field: private UnityEngine.Vector3 _prevPos
+    void _set__prevPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _speed
+    float _get__speed();
+    // Set instance field: private System.Single _speed
+    void _set__speed(float value);
     // protected System.Void Start()
     // Offset: 0x114C670
     void Start();

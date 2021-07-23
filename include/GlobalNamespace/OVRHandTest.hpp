@@ -136,6 +136,58 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRHandTest::BoolMonitor* _get_controllers();
     // Set static field: static private OVRHandTest/BoolMonitor controllers
     static void _set_controllers(GlobalNamespace::OVRHandTest::BoolMonitor* value);
+    // Get instance field: public UnityEngine.UI.Text uiText
+    UnityEngine::UI::Text* _get_uiText();
+    // Set instance field: public UnityEngine.UI.Text uiText
+    void _set_uiText(UnityEngine::UI::Text* value);
+    // Get instance field: private System.Collections.Generic.List`1<OVRHandTest/BoolMonitor> monitors
+    System::Collections::Generic::List_1<GlobalNamespace::OVRHandTest::BoolMonitor*>* _get_monitors();
+    // Set instance field: private System.Collections.Generic.List`1<OVRHandTest/BoolMonitor> monitors
+    void _set_monitors(System::Collections::Generic::List_1<GlobalNamespace::OVRHandTest::BoolMonitor*>* value);
+    // Get instance field: private System.Text.StringBuilder data
+    System::Text::StringBuilder* _get_data();
+    // Set instance field: private System.Text.StringBuilder data
+    void _set_data(System::Text::StringBuilder* value);
+    // Get instance field: private OVRPlugin/HandState hs_LH
+    GlobalNamespace::OVRPlugin::HandState _get_hs_LH();
+    // Set instance field: private OVRPlugin/HandState hs_LH
+    void _set_hs_LH(GlobalNamespace::OVRPlugin::HandState value);
+    // Get instance field: private OVRPlugin/HandState hs_RH
+    GlobalNamespace::OVRPlugin::HandState _get_hs_RH();
+    // Set instance field: private OVRPlugin/HandState hs_RH
+    void _set_hs_RH(GlobalNamespace::OVRPlugin::HandState value);
+    // Get instance field: private OVRPlugin/Skeleton skel_LH
+    GlobalNamespace::OVRPlugin::Skeleton _get_skel_LH();
+    // Set instance field: private OVRPlugin/Skeleton skel_LH
+    void _set_skel_LH(GlobalNamespace::OVRPlugin::Skeleton value);
+    // Get instance field: private OVRPlugin/Skeleton skel_RH
+    GlobalNamespace::OVRPlugin::Skeleton _get_skel_RH();
+    // Set instance field: private OVRPlugin/Skeleton skel_RH
+    void _set_skel_RH(GlobalNamespace::OVRPlugin::Skeleton value);
+    // Get instance field: private OVRPlugin/Mesh mesh_LH
+    GlobalNamespace::OVRPlugin::Mesh* _get_mesh_LH();
+    // Set instance field: private OVRPlugin/Mesh mesh_LH
+    void _set_mesh_LH(GlobalNamespace::OVRPlugin::Mesh* value);
+    // Get instance field: private OVRPlugin/Mesh mesh_RH
+    GlobalNamespace::OVRPlugin::Mesh* _get_mesh_RH();
+    // Set instance field: private OVRPlugin/Mesh mesh_RH
+    void _set_mesh_RH(GlobalNamespace::OVRPlugin::Mesh* value);
+    // Get instance field: private System.Boolean result_skel_LH
+    bool _get_result_skel_LH();
+    // Set instance field: private System.Boolean result_skel_LH
+    void _set_result_skel_LH(bool value);
+    // Get instance field: private System.Boolean result_skel_RH
+    bool _get_result_skel_RH();
+    // Set instance field: private System.Boolean result_skel_RH
+    void _set_result_skel_RH(bool value);
+    // Get instance field: private System.Boolean result_mesh_LH
+    bool _get_result_mesh_LH();
+    // Set instance field: private System.Boolean result_mesh_LH
+    void _set_result_mesh_LH(bool value);
+    // Get instance field: private System.Boolean result_mesh_RH
+    bool _get_result_mesh_RH();
+    // Set instance field: private System.Boolean result_mesh_RH
+    void _set_result_mesh_RH(bool value);
     // private System.Void Start()
     // Offset: 0x14E1F6C
     void Start();

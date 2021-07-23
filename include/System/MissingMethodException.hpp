@@ -39,6 +39,10 @@ namespace System {
     constexpr operator ::Il2CppString*() const noexcept {
       return signature;
     }
+    // Get instance field: private System.String signature
+    ::Il2CppString* _get_signature();
+    // Set instance field: private System.String signature
+    void _set_signature(::Il2CppString* value);
     // public System.Void .ctor(System.String className, System.String methodName)
     // Offset: 0x17FD4DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -126,6 +126,30 @@ namespace GlobalNamespace {
     static int _get__customFogTextureToScreenRatioID();
     // Set static field: static private readonly System.Int32 _customFogTextureToScreenRatioID
     static void _set__customFogTextureToScreenRatioID(int value);
+    // Get instance field: private BloomFogSO _bloomFog
+    GlobalNamespace::BloomFogSO* _get__bloomFog();
+    // Set instance field: private BloomFogSO _bloomFog
+    void _set__bloomFog(GlobalNamespace::BloomFogSO* value);
+    // Get instance field: private BloomPrePassRendererSO/PreallocationData[] _preallocationData
+    ::Array<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*>* _get__preallocationData();
+    // Set instance field: private BloomPrePassRendererSO/PreallocationData[] _preallocationData
+    void _set__preallocationData(::Array<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,BloomPrePassRendererSO/LightsRenderingData> _lightsRenderingData
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*>* _get__lightsRenderingData();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,BloomPrePassRendererSO/LightsRenderingData> _lightsRenderingData
+    void _set__lightsRenderingData(System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*>* value);
+    // Get instance field: private UnityEngine.Rendering.CommandBuffer _commandBuffer
+    UnityEngine::Rendering::CommandBuffer* _get__commandBuffer();
+    // Set instance field: private UnityEngine.Rendering.CommandBuffer _commandBuffer
+    void _set__commandBuffer(UnityEngine::Rendering::CommandBuffer* value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
+    // Get instance field: private UnityEngine.Texture2D _blackTexture
+    UnityEngine::Texture2D* _get__blackTexture();
+    // Set instance field: private UnityEngine.Texture2D _blackTexture
+    void _set__blackTexture(UnityEngine::Texture2D* value);
     // protected System.Void OnDisable()
     // Offset: 0x1DEE4E8
     void OnDisable();

@@ -62,6 +62,10 @@ namespace GlobalNamespace {
     static ::Array<float>* _get_cachedGeometryManagedBuffer();
     // Set static field: static private System.Single[] cachedGeometryManagedBuffer
     static void _set_cachedGeometryManagedBuffer(::Array<float>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
+    System::Collections::Generic::List_1<UnityEngine::Vector3>* _get_cachedGeometryList();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
+    void _set_cachedGeometryList(System::Collections::Generic::List_1<UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
     // Offset: 0x124B198
     static void _cctor();

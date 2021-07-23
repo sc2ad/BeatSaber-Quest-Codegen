@@ -74,6 +74,34 @@ namespace TMPro::SpriteAssetUtilities {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.String filename
+    ::Il2CppString* _get_filename();
+    // Set instance field: public System.String filename
+    void _set_filename(::Il2CppString* value);
+    // Get instance field: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteFrame frame
+    TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame _get_frame();
+    // Set instance field: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteFrame frame
+    void _set_frame(TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame value);
+    // Get instance field: public System.Boolean rotated
+    bool _get_rotated();
+    // Set instance field: public System.Boolean rotated
+    void _set_rotated(bool value);
+    // Get instance field: public System.Boolean trimmed
+    bool _get_trimmed();
+    // Set instance field: public System.Boolean trimmed
+    void _set_trimmed(bool value);
+    // Get instance field: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteFrame spriteSourceSize
+    TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame _get_spriteSourceSize();
+    // Set instance field: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteFrame spriteSourceSize
+    void _set_spriteSourceSize(TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame value);
+    // Get instance field: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteSize sourceSize
+    TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize _get_sourceSize();
+    // Set instance field: public TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteSize sourceSize
+    void _set_sourceSize(TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize value);
+    // Get instance field: public UnityEngine.Vector2 pivot
+    UnityEngine::Vector2 _get_pivot();
+    // Set instance field: public UnityEngine.Vector2 pivot
+    void _set_pivot(UnityEngine::Vector2 value);
   }; // TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData
   #pragma pack(pop)
   static check_size<sizeof(TexturePacker::SpriteData), 52 + sizeof(UnityEngine::Vector2)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataSizeCheck;

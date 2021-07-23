@@ -62,6 +62,18 @@ namespace System::Threading {
     static System::Threading::ContextCallback* _get_ccb();
     // Set static field: static System.Threading.ContextCallback ccb
     static void _set_ccb(System::Threading::ContextCallback* value);
+    // Get instance field: private System.Threading.WaitCallback callback
+    System::Threading::WaitCallback* _get_callback();
+    // Set instance field: private System.Threading.WaitCallback callback
+    void _set_callback(System::Threading::WaitCallback* value);
+    // Get instance field: private System.Threading.ExecutionContext context
+    System::Threading::ExecutionContext* _get_context();
+    // Set instance field: private System.Threading.ExecutionContext context
+    void _set_context(System::Threading::ExecutionContext* value);
+    // Get instance field: private System.Object state
+    ::Il2CppObject* _get_state();
+    // Set instance field: private System.Object state
+    void _set_state(::Il2CppObject* value);
     // static private System.Void .cctor()
     // Offset: 0x18A84C0
     static void _cctor();

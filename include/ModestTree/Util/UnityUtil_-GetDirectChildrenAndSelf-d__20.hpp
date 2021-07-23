@@ -85,6 +85,30 @@ namespace ModestTree::Util {
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::GameObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::GameObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private UnityEngine.GameObject <>2__current
+    UnityEngine::GameObject* _get_$$2__current();
+    // Set instance field: private UnityEngine.GameObject <>2__current
+    void _set_$$2__current(UnityEngine::GameObject* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: private UnityEngine.GameObject obj
+    UnityEngine::GameObject* _get_obj();
+    // Set instance field: private UnityEngine.GameObject obj
+    void _set_obj(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.GameObject <>3__obj
+    UnityEngine::GameObject* _get_$$3__obj();
+    // Set instance field: public UnityEngine.GameObject <>3__obj
+    void _set_$$3__obj(UnityEngine::GameObject* value);
+    // Get instance field: private System.Collections.IEnumerator <>7__wrap1
+    System::Collections::IEnumerator* _get_$$7__wrap1();
+    // Set instance field: private System.Collections.IEnumerator <>7__wrap1
+    void _set_$$7__wrap1(System::Collections::IEnumerator* value);
     // private UnityEngine.GameObject System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current()
     // Offset: 0x1376E14
     UnityEngine::GameObject* System_Collections_Generic_IEnumerator$UnityEngine_GameObject$_get_Current();

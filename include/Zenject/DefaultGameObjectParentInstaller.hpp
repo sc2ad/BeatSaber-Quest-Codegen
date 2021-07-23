@@ -35,6 +35,10 @@ namespace Zenject {
     DefaultGameObjectParentInstaller(::Il2CppString* name_ = {}) noexcept : name{name_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
+    // Get instance field: private readonly System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: private readonly System.String _name
+    void _set__name(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
     // Offset: 0x138110C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

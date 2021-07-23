@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     SkinColorSetSO(::Array<GlobalNamespace::SkinColorSO*>* colors_ = {}) noexcept : colors{colors_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private SkinColorSO[] _colors
+    ::Array<GlobalNamespace::SkinColorSO*>* _get__colors();
+    // Set instance field: private SkinColorSO[] _colors
+    void _set__colors(::Array<GlobalNamespace::SkinColorSO*>* value);
     // public SkinColorSO[] get_colors()
     // Offset: 0x10587B0
     ::Array<GlobalNamespace::SkinColorSO*>* get_colors();

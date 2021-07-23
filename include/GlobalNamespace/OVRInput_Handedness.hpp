@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::Handedness _get_RightHanded();
     // Set static field: static public OVRInput/Handedness RightHanded
     static void _set_RightHanded(GlobalNamespace::OVRInput::Handedness value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRInput/Handedness
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::Handedness), 0 + sizeof(int)> __GlobalNamespace_OVRInput_HandednessSizeCheck;

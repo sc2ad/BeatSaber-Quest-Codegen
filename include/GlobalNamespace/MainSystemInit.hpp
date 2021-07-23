@@ -506,6 +506,234 @@ namespace GlobalNamespace {
     MainSystemInit(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, GlobalNamespace::PerceivedLoudnessPerLevelSO* perceivedLoudnessPerLevel_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, GlobalNamespace::AvatarPartsModelSO* avatarPartsModel_ = {}, GlobalNamespace::SkinColorSetSO* skinColorSet_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}, GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* mainEffectGraphicsSettingsPresets_ = {}, GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* bloomPrePassGraphicsSettingsPresets_ = {}, GlobalNamespace::MirrorRendererSO* mirrorRenderer_ = {}, GlobalNamespace::MainEffectContainerSO* mainEffectContainer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::TimeHelper* timeHelperPrefab_ = {}, GlobalNamespace::PlayerDataModel* playerDataModelPrefab_ = {}, GlobalNamespace::CampaignProgressModel* campaignProgressModelPrefab_ = {}, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModelPrefab_ = {}, GlobalNamespace::CustomLevelLoader* customLevelLoaderPrefab_ = {}, GlobalNamespace::CachedMediaAsyncLoader* cachedMediaAsyncLoaderPrefab_ = {}, GlobalNamespace::ExternalCamerasManager* externalCamerasManagerPrefab_ = {}, GlobalNamespace::MultiplayerSessionManager* multiplayerSessionManagerPrefab_ = {}, GlobalNamespace::LocalNetworkPlayerModel* localNetworkPlayerModelPrefab_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel* unifiedNetworkModelPrefab_ = {}, GlobalNamespace::NetworkPlayerEntitlementChecker* networkPlayerEntitlementCheckerPrefab_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackControllerPrefab_ = {}, Tweening::TweeningManager* tweeningManagerPrefab_ = {}, GlobalNamespace::BloomPrePassLightsUpdateSystem* lightsUpdateSystemPrefab_ = {}, GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab_ = {}, GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer_ = {}, GlobalNamespace::PSVRHelper* psVRHelperPrefab_ = {}, GlobalNamespace::OculusVRHelper* oculusVRHelperPrefab_ = {}, GlobalNamespace::OpenVRHelper* openVRHelperPrefab_ = {}, GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* testPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::PS4PlatformAdditionalContentModel* ps4PlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::SteamLevelProductsModelSO* steamLevelProductsModel_ = {}, GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProducsModel_ = {}, GlobalNamespace::PS4LevelProductsModelSO* ps4LevelProductsModel_ = {}, GlobalNamespace::PS4LeaderboardIdsModelSO* ps4LeaderboardIdsModel_ = {}, OnlineServices::ServerManager* onlineServicesServerManagerPrefab_ = {}, GlobalNamespace::RichPresenceManager* richPresenceManagerPrefab_ = {}, GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData_ = {}, GlobalNamespace::NetworkConfigSO* networkConfig_ = {}, GlobalNamespace::SteamNetworkPlayerModel* steamNetworkPlayerModelPrefab_ = {}, GlobalNamespace::OculusNetworkPlayerModel* oculusNetworkPlayerModelPrefab_ = {}, GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader_ = {}, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel_ = {}, GlobalNamespace::BeatmapLevelSO* anyBeatmapLevelSO_ = {}, GlobalNamespace::MockPlayersModel* mockPlayersModel_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, audioManager{audioManager_}, perceivedLoudnessPerLevel{perceivedLoudnessPerLevel_}, avatarDataModel{avatarDataModel_}, avatarPartsModel{avatarPartsModel_}, skinColorSet{skinColorSet_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_}, mainEffectGraphicsSettingsPresets{mainEffectGraphicsSettingsPresets_}, bloomPrePassGraphicsSettingsPresets{bloomPrePassGraphicsSettingsPresets_}, mirrorRenderer{mirrorRenderer_}, mainEffectContainer{mainEffectContainer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, songPackMaskModel{songPackMaskModel_}, appStaticSettings{appStaticSettings_}, standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, timeHelperPrefab{timeHelperPrefab_}, playerDataModelPrefab{playerDataModelPrefab_}, campaignProgressModelPrefab{campaignProgressModelPrefab_}, beatmapLevelsModelPrefab{beatmapLevelsModelPrefab_}, customLevelLoaderPrefab{customLevelLoaderPrefab_}, cachedMediaAsyncLoaderPrefab{cachedMediaAsyncLoaderPrefab_}, externalCamerasManagerPrefab{externalCamerasManagerPrefab_}, multiplayerSessionManagerPrefab{multiplayerSessionManagerPrefab_}, localNetworkPlayerModelPrefab{localNetworkPlayerModelPrefab_}, unifiedNetworkModelPrefab{unifiedNetworkModelPrefab_}, networkPlayerEntitlementCheckerPrefab{networkPlayerEntitlementCheckerPrefab_}, hapticFeedbackControllerPrefab{hapticFeedbackControllerPrefab_}, tweeningManagerPrefab{tweeningManagerPrefab_}, lightsUpdateSystemPrefab{lightsUpdateSystemPrefab_}, nodePoseSyncStateManagerPrefab{nodePoseSyncStateManagerPrefab_}, alwaysOwnedContentContainer{alwaysOwnedContentContainer_}, psVRHelperPrefab{psVRHelperPrefab_}, oculusVRHelperPrefab{oculusVRHelperPrefab_}, openVRHelperPrefab{openVRHelperPrefab_}, devicelessVRHelperPrefab{devicelessVRHelperPrefab_}, testPlatformAdditionalContentModelPrefab{testPlatformAdditionalContentModelPrefab_}, ps4PlatformAdditionalContentModelPrefab{ps4PlatformAdditionalContentModelPrefab_}, oculusPlatformAdditionalContentModelPrefab{oculusPlatformAdditionalContentModelPrefab_}, steamPlatformAdditionalContentModelPrefab{steamPlatformAdditionalContentModelPrefab_}, steamLevelProductsModel{steamLevelProductsModel_}, oculusLevelProducsModel{oculusLevelProducsModel_}, ps4LevelProductsModel{ps4LevelProductsModel_}, ps4LeaderboardIdsModel{ps4LeaderboardIdsModel_}, onlineServicesServerManagerPrefab{onlineServicesServerManagerPrefab_}, richPresenceManagerPrefab{richPresenceManagerPrefab_}, dlcPromoExperimentData{dlcPromoExperimentData_}, networkConfig{networkConfig_}, steamNetworkPlayerModelPrefab{steamNetworkPlayerModelPrefab_}, oculusNetworkPlayerModelPrefab{oculusNetworkPlayerModelPrefab_}, ps4NetworkPlayerModelPrefab{ps4NetworkPlayerModelPrefab_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, leaderboardScoreUploader{leaderboardScoreUploader_}, platformLeaderboardsModel{platformLeaderboardsModel_}, anyBeatmapLevelSO{anyBeatmapLevelSO_}, mockPlayersModel{mockPlayersModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private AudioManagerSO _audioManager
+    GlobalNamespace::AudioManagerSO* _get__audioManager();
+    // Set instance field: private AudioManagerSO _audioManager
+    void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
+    // Get instance field: private PerceivedLoudnessPerLevelSO _perceivedLoudnessPerLevel
+    GlobalNamespace::PerceivedLoudnessPerLevelSO* _get__perceivedLoudnessPerLevel();
+    // Set instance field: private PerceivedLoudnessPerLevelSO _perceivedLoudnessPerLevel
+    void _set__perceivedLoudnessPerLevel(GlobalNamespace::PerceivedLoudnessPerLevelSO* value);
+    // Get instance field: private AvatarDataModel _avatarDataModel
+    GlobalNamespace::AvatarDataModel* _get__avatarDataModel();
+    // Set instance field: private AvatarDataModel _avatarDataModel
+    void _set__avatarDataModel(GlobalNamespace::AvatarDataModel* value);
+    // Get instance field: private AvatarPartsModelSO _avatarPartsModel
+    GlobalNamespace::AvatarPartsModelSO* _get__avatarPartsModel();
+    // Set instance field: private AvatarPartsModelSO _avatarPartsModel
+    void _set__avatarPartsModel(GlobalNamespace::AvatarPartsModelSO* value);
+    // Get instance field: private SkinColorSetSO _skinColorSet
+    GlobalNamespace::SkinColorSetSO* _get__skinColorSet();
+    // Set instance field: private SkinColorSetSO _skinColorSet
+    void _set__skinColorSet(GlobalNamespace::SkinColorSetSO* value);
+    // Get instance field: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
+    GlobalNamespace::MirrorRendererGraphicsSettingsPresets* _get__mirrorRendererGraphicsSettingsPresets();
+    // Set instance field: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
+    void _set__mirrorRendererGraphicsSettingsPresets(GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value);
+    // Get instance field: private MainEffectGraphicsSettingsPresetsSO _mainEffectGraphicsSettingsPresets
+    GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* _get__mainEffectGraphicsSettingsPresets();
+    // Set instance field: private MainEffectGraphicsSettingsPresetsSO _mainEffectGraphicsSettingsPresets
+    void _set__mainEffectGraphicsSettingsPresets(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* value);
+    // Get instance field: private BloomPrePassGraphicsSettingsPresetsSO _bloomPrePassGraphicsSettingsPresets
+    GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* _get__bloomPrePassGraphicsSettingsPresets();
+    // Set instance field: private BloomPrePassGraphicsSettingsPresetsSO _bloomPrePassGraphicsSettingsPresets
+    void _set__bloomPrePassGraphicsSettingsPresets(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* value);
+    // Get instance field: private MirrorRendererSO _mirrorRenderer
+    GlobalNamespace::MirrorRendererSO* _get__mirrorRenderer();
+    // Set instance field: private MirrorRendererSO _mirrorRenderer
+    void _set__mirrorRenderer(GlobalNamespace::MirrorRendererSO* value);
+    // Get instance field: private MainEffectContainerSO _mainEffectContainer
+    GlobalNamespace::MainEffectContainerSO* _get__mainEffectContainer();
+    // Set instance field: private MainEffectContainerSO _mainEffectContainer
+    void _set__mainEffectContainer(GlobalNamespace::MainEffectContainerSO* value);
+    // Get instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
+    GlobalNamespace::BloomPrePassEffectContainerSO* _get__bloomPrePassEffectContainer();
+    // Set instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
+    void _set__bloomPrePassEffectContainer(GlobalNamespace::BloomPrePassEffectContainerSO* value);
+    // Get instance field: private SongPackMaskModelSO _songPackMaskModel
+    GlobalNamespace::SongPackMaskModelSO* _get__songPackMaskModel();
+    // Set instance field: private SongPackMaskModelSO _songPackMaskModel
+    void _set__songPackMaskModel(GlobalNamespace::SongPackMaskModelSO* value);
+    // Get instance field: private AppStaticSettingsSO _appStaticSettings
+    GlobalNamespace::AppStaticSettingsSO* _get__appStaticSettings();
+    // Set instance field: private AppStaticSettingsSO _appStaticSettings
+    void _set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO* value);
+    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelScenesTransitionSetupData();
+    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    void _set__standardLevelScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelScenesTransitionSetupData();
+    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
+    void _set__missionLevelScenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _get__multiplayerLevelScenesTransitionSetupData();
+    // Set instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    void _set__multiplayerLevelScenesTransitionSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private TimeHelper _timeHelperPrefab
+    GlobalNamespace::TimeHelper* _get__timeHelperPrefab();
+    // Set instance field: private TimeHelper _timeHelperPrefab
+    void _set__timeHelperPrefab(GlobalNamespace::TimeHelper* value);
+    // Get instance field: private PlayerDataModel _playerDataModelPrefab
+    GlobalNamespace::PlayerDataModel* _get__playerDataModelPrefab();
+    // Set instance field: private PlayerDataModel _playerDataModelPrefab
+    void _set__playerDataModelPrefab(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private CampaignProgressModel _campaignProgressModelPrefab
+    GlobalNamespace::CampaignProgressModel* _get__campaignProgressModelPrefab();
+    // Set instance field: private CampaignProgressModel _campaignProgressModelPrefab
+    void _set__campaignProgressModelPrefab(GlobalNamespace::CampaignProgressModel* value);
+    // Get instance field: private BeatmapLevelsModel _beatmapLevelsModelPrefab
+    GlobalNamespace::BeatmapLevelsModel* _get__beatmapLevelsModelPrefab();
+    // Set instance field: private BeatmapLevelsModel _beatmapLevelsModelPrefab
+    void _set__beatmapLevelsModelPrefab(GlobalNamespace::BeatmapLevelsModel* value);
+    // Get instance field: private CustomLevelLoader _customLevelLoaderPrefab
+    GlobalNamespace::CustomLevelLoader* _get__customLevelLoaderPrefab();
+    // Set instance field: private CustomLevelLoader _customLevelLoaderPrefab
+    void _set__customLevelLoaderPrefab(GlobalNamespace::CustomLevelLoader* value);
+    // Get instance field: private CachedMediaAsyncLoader _cachedMediaAsyncLoaderPrefab
+    GlobalNamespace::CachedMediaAsyncLoader* _get__cachedMediaAsyncLoaderPrefab();
+    // Set instance field: private CachedMediaAsyncLoader _cachedMediaAsyncLoaderPrefab
+    void _set__cachedMediaAsyncLoaderPrefab(GlobalNamespace::CachedMediaAsyncLoader* value);
+    // Get instance field: private ExternalCamerasManager _externalCamerasManagerPrefab
+    GlobalNamespace::ExternalCamerasManager* _get__externalCamerasManagerPrefab();
+    // Set instance field: private ExternalCamerasManager _externalCamerasManagerPrefab
+    void _set__externalCamerasManagerPrefab(GlobalNamespace::ExternalCamerasManager* value);
+    // Get instance field: private MultiplayerSessionManager _multiplayerSessionManagerPrefab
+    GlobalNamespace::MultiplayerSessionManager* _get__multiplayerSessionManagerPrefab();
+    // Set instance field: private MultiplayerSessionManager _multiplayerSessionManagerPrefab
+    void _set__multiplayerSessionManagerPrefab(GlobalNamespace::MultiplayerSessionManager* value);
+    // Get instance field: private LocalNetworkPlayerModel _localNetworkPlayerModelPrefab
+    GlobalNamespace::LocalNetworkPlayerModel* _get__localNetworkPlayerModelPrefab();
+    // Set instance field: private LocalNetworkPlayerModel _localNetworkPlayerModelPrefab
+    void _set__localNetworkPlayerModelPrefab(GlobalNamespace::LocalNetworkPlayerModel* value);
+    // Get instance field: private UnifiedNetworkPlayerModel _unifiedNetworkModelPrefab
+    GlobalNamespace::UnifiedNetworkPlayerModel* _get__unifiedNetworkModelPrefab();
+    // Set instance field: private UnifiedNetworkPlayerModel _unifiedNetworkModelPrefab
+    void _set__unifiedNetworkModelPrefab(GlobalNamespace::UnifiedNetworkPlayerModel* value);
+    // Get instance field: private NetworkPlayerEntitlementChecker _networkPlayerEntitlementCheckerPrefab
+    GlobalNamespace::NetworkPlayerEntitlementChecker* _get__networkPlayerEntitlementCheckerPrefab();
+    // Set instance field: private NetworkPlayerEntitlementChecker _networkPlayerEntitlementCheckerPrefab
+    void _set__networkPlayerEntitlementCheckerPrefab(GlobalNamespace::NetworkPlayerEntitlementChecker* value);
+    // Get instance field: private HapticFeedbackController _hapticFeedbackControllerPrefab
+    GlobalNamespace::HapticFeedbackController* _get__hapticFeedbackControllerPrefab();
+    // Set instance field: private HapticFeedbackController _hapticFeedbackControllerPrefab
+    void _set__hapticFeedbackControllerPrefab(GlobalNamespace::HapticFeedbackController* value);
+    // Get instance field: private Tweening.TweeningManager _tweeningManagerPrefab
+    Tweening::TweeningManager* _get__tweeningManagerPrefab();
+    // Set instance field: private Tweening.TweeningManager _tweeningManagerPrefab
+    void _set__tweeningManagerPrefab(Tweening::TweeningManager* value);
+    // Get instance field: private BloomPrePassLightsUpdateSystem _lightsUpdateSystemPrefab
+    GlobalNamespace::BloomPrePassLightsUpdateSystem* _get__lightsUpdateSystemPrefab();
+    // Set instance field: private BloomPrePassLightsUpdateSystem _lightsUpdateSystemPrefab
+    void _set__lightsUpdateSystemPrefab(GlobalNamespace::BloomPrePassLightsUpdateSystem* value);
+    // Get instance field: private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
+    GlobalNamespace::NodePoseSyncStateManager* _get__nodePoseSyncStateManagerPrefab();
+    // Set instance field: private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
+    void _set__nodePoseSyncStateManagerPrefab(GlobalNamespace::NodePoseSyncStateManager* value);
+    // Get instance field: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
+    GlobalNamespace::AlwaysOwnedContentContainerSO* _get__alwaysOwnedContentContainer();
+    // Set instance field: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
+    void _set__alwaysOwnedContentContainer(GlobalNamespace::AlwaysOwnedContentContainerSO* value);
+    // Get instance field: private PSVRHelper _psVRHelperPrefab
+    GlobalNamespace::PSVRHelper* _get__psVRHelperPrefab();
+    // Set instance field: private PSVRHelper _psVRHelperPrefab
+    void _set__psVRHelperPrefab(GlobalNamespace::PSVRHelper* value);
+    // Get instance field: private OculusVRHelper _oculusVRHelperPrefab
+    GlobalNamespace::OculusVRHelper* _get__oculusVRHelperPrefab();
+    // Set instance field: private OculusVRHelper _oculusVRHelperPrefab
+    void _set__oculusVRHelperPrefab(GlobalNamespace::OculusVRHelper* value);
+    // Get instance field: private OpenVRHelper _openVRHelperPrefab
+    GlobalNamespace::OpenVRHelper* _get__openVRHelperPrefab();
+    // Set instance field: private OpenVRHelper _openVRHelperPrefab
+    void _set__openVRHelperPrefab(GlobalNamespace::OpenVRHelper* value);
+    // Get instance field: private DevicelessVRHelper _devicelessVRHelperPrefab
+    GlobalNamespace::DevicelessVRHelper* _get__devicelessVRHelperPrefab();
+    // Set instance field: private DevicelessVRHelper _devicelessVRHelperPrefab
+    void _set__devicelessVRHelperPrefab(GlobalNamespace::DevicelessVRHelper* value);
+    // Get instance field: private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
+    GlobalNamespace::TestPlatformAdditionalContentModel* _get__testPlatformAdditionalContentModelPrefab();
+    // Set instance field: private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
+    void _set__testPlatformAdditionalContentModelPrefab(GlobalNamespace::TestPlatformAdditionalContentModel* value);
+    // Get instance field: private PS4PlatformAdditionalContentModel _ps4PlatformAdditionalContentModelPrefab
+    GlobalNamespace::PS4PlatformAdditionalContentModel* _get__ps4PlatformAdditionalContentModelPrefab();
+    // Set instance field: private PS4PlatformAdditionalContentModel _ps4PlatformAdditionalContentModelPrefab
+    void _set__ps4PlatformAdditionalContentModelPrefab(GlobalNamespace::PS4PlatformAdditionalContentModel* value);
+    // Get instance field: private OculusPlatformAdditionalContentModel _oculusPlatformAdditionalContentModelPrefab
+    GlobalNamespace::OculusPlatformAdditionalContentModel* _get__oculusPlatformAdditionalContentModelPrefab();
+    // Set instance field: private OculusPlatformAdditionalContentModel _oculusPlatformAdditionalContentModelPrefab
+    void _set__oculusPlatformAdditionalContentModelPrefab(GlobalNamespace::OculusPlatformAdditionalContentModel* value);
+    // Get instance field: private SteamPlatformAdditionalContentModel _steamPlatformAdditionalContentModelPrefab
+    GlobalNamespace::SteamPlatformAdditionalContentModel* _get__steamPlatformAdditionalContentModelPrefab();
+    // Set instance field: private SteamPlatformAdditionalContentModel _steamPlatformAdditionalContentModelPrefab
+    void _set__steamPlatformAdditionalContentModelPrefab(GlobalNamespace::SteamPlatformAdditionalContentModel* value);
+    // Get instance field: private SteamLevelProductsModelSO _steamLevelProductsModel
+    GlobalNamespace::SteamLevelProductsModelSO* _get__steamLevelProductsModel();
+    // Set instance field: private SteamLevelProductsModelSO _steamLevelProductsModel
+    void _set__steamLevelProductsModel(GlobalNamespace::SteamLevelProductsModelSO* value);
+    // Get instance field: private OculusLevelProductsModelSO _oculusLevelProducsModel
+    GlobalNamespace::OculusLevelProductsModelSO* _get__oculusLevelProducsModel();
+    // Set instance field: private OculusLevelProductsModelSO _oculusLevelProducsModel
+    void _set__oculusLevelProducsModel(GlobalNamespace::OculusLevelProductsModelSO* value);
+    // Get instance field: private PS4LevelProductsModelSO _ps4LevelProductsModel
+    GlobalNamespace::PS4LevelProductsModelSO* _get__ps4LevelProductsModel();
+    // Set instance field: private PS4LevelProductsModelSO _ps4LevelProductsModel
+    void _set__ps4LevelProductsModel(GlobalNamespace::PS4LevelProductsModelSO* value);
+    // Get instance field: private PS4LeaderboardIdsModelSO _ps4LeaderboardIdsModel
+    GlobalNamespace::PS4LeaderboardIdsModelSO* _get__ps4LeaderboardIdsModel();
+    // Set instance field: private PS4LeaderboardIdsModelSO _ps4LeaderboardIdsModel
+    void _set__ps4LeaderboardIdsModel(GlobalNamespace::PS4LeaderboardIdsModelSO* value);
+    // Get instance field: private OnlineServices.ServerManager _onlineServicesServerManagerPrefab
+    OnlineServices::ServerManager* _get__onlineServicesServerManagerPrefab();
+    // Set instance field: private OnlineServices.ServerManager _onlineServicesServerManagerPrefab
+    void _set__onlineServicesServerManagerPrefab(OnlineServices::ServerManager* value);
+    // Get instance field: private RichPresenceManager _richPresenceManagerPrefab
+    GlobalNamespace::RichPresenceManager* _get__richPresenceManagerPrefab();
+    // Set instance field: private RichPresenceManager _richPresenceManagerPrefab
+    void _set__richPresenceManagerPrefab(GlobalNamespace::RichPresenceManager* value);
+    // Get instance field: private DlcPromoExperimentDataSO _dlcPromoExperimentData
+    GlobalNamespace::DlcPromoExperimentDataSO* _get__dlcPromoExperimentData();
+    // Set instance field: private DlcPromoExperimentDataSO _dlcPromoExperimentData
+    void _set__dlcPromoExperimentData(GlobalNamespace::DlcPromoExperimentDataSO* value);
+    // Get instance field: private NetworkConfigSO _networkConfig
+    GlobalNamespace::NetworkConfigSO* _get__networkConfig();
+    // Set instance field: private NetworkConfigSO _networkConfig
+    void _set__networkConfig(GlobalNamespace::NetworkConfigSO* value);
+    // Get instance field: private SteamNetworkPlayerModel _steamNetworkPlayerModelPrefab
+    GlobalNamespace::SteamNetworkPlayerModel* _get__steamNetworkPlayerModelPrefab();
+    // Set instance field: private SteamNetworkPlayerModel _steamNetworkPlayerModelPrefab
+    void _set__steamNetworkPlayerModelPrefab(GlobalNamespace::SteamNetworkPlayerModel* value);
+    // Get instance field: private OculusNetworkPlayerModel _oculusNetworkPlayerModelPrefab
+    GlobalNamespace::OculusNetworkPlayerModel* _get__oculusNetworkPlayerModelPrefab();
+    // Set instance field: private OculusNetworkPlayerModel _oculusNetworkPlayerModelPrefab
+    void _set__oculusNetworkPlayerModelPrefab(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field: private PS4NetworkPlayerModel _ps4NetworkPlayerModelPrefab
+    GlobalNamespace::PS4NetworkPlayerModel* _get__ps4NetworkPlayerModelPrefab();
+    // Set instance field: private PS4NetworkPlayerModel _ps4NetworkPlayerModelPrefab
+    void _set__ps4NetworkPlayerModelPrefab(GlobalNamespace::PS4NetworkPlayerModel* value);
+    // Get instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    GlobalNamespace::BeatmapCharacteristicCollectionSO* _get__beatmapCharacteristicCollection();
+    // Set instance field: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
+    void _set__beatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
+    // Get instance field: private LeaderboardScoreUploader _leaderboardScoreUploader
+    GlobalNamespace::LeaderboardScoreUploader* _get__leaderboardScoreUploader();
+    // Set instance field: private LeaderboardScoreUploader _leaderboardScoreUploader
+    void _set__leaderboardScoreUploader(GlobalNamespace::LeaderboardScoreUploader* value);
+    // Get instance field: private PlatformLeaderboardsModel _platformLeaderboardsModel
+    GlobalNamespace::PlatformLeaderboardsModel* _get__platformLeaderboardsModel();
+    // Set instance field: private PlatformLeaderboardsModel _platformLeaderboardsModel
+    void _set__platformLeaderboardsModel(GlobalNamespace::PlatformLeaderboardsModel* value);
+    // Get instance field: private BeatmapLevelSO _anyBeatmapLevelSO
+    GlobalNamespace::BeatmapLevelSO* _get__anyBeatmapLevelSO();
+    // Set instance field: private BeatmapLevelSO _anyBeatmapLevelSO
+    void _set__anyBeatmapLevelSO(GlobalNamespace::BeatmapLevelSO* value);
+    // Get instance field: private MockPlayersModel _mockPlayersModel
+    GlobalNamespace::MockPlayersModel* _get__mockPlayersModel();
+    // Set instance field: private MockPlayersModel _mockPlayersModel
+    void _set__mockPlayersModel(GlobalNamespace::MockPlayersModel* value);
     // public System.Void Init()
     // Offset: 0x117D844
     void Init();

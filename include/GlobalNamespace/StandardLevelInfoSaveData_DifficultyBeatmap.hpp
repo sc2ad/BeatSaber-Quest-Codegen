@@ -53,6 +53,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: DifficultyBeatmap
     DifficultyBeatmap(::Il2CppString* difficulty_ = {}, int difficultyRank_ = {}, ::Il2CppString* beatmapFilename_ = {}, float noteJumpMovementSpeed_ = {}, float noteJumpStartBeatOffset_ = {}) noexcept : difficulty{difficulty_}, difficultyRank{difficultyRank_}, beatmapFilename{beatmapFilename_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_} {}
+    // Get instance field: private System.String _difficulty
+    ::Il2CppString* _get__difficulty();
+    // Set instance field: private System.String _difficulty
+    void _set__difficulty(::Il2CppString* value);
+    // Get instance field: private System.Int32 _difficultyRank
+    int _get__difficultyRank();
+    // Set instance field: private System.Int32 _difficultyRank
+    void _set__difficultyRank(int value);
+    // Get instance field: private System.String _beatmapFilename
+    ::Il2CppString* _get__beatmapFilename();
+    // Set instance field: private System.String _beatmapFilename
+    void _set__beatmapFilename(::Il2CppString* value);
+    // Get instance field: private System.Single _noteJumpMovementSpeed
+    float _get__noteJumpMovementSpeed();
+    // Set instance field: private System.Single _noteJumpMovementSpeed
+    void _set__noteJumpMovementSpeed(float value);
+    // Get instance field: private System.Single _noteJumpStartBeatOffset
+    float _get__noteJumpStartBeatOffset();
+    // Set instance field: private System.Single _noteJumpStartBeatOffset
+    void _set__noteJumpStartBeatOffset(float value);
     // public System.String get_difficulty()
     // Offset: 0x1065F50
     ::Il2CppString* get_difficulty();

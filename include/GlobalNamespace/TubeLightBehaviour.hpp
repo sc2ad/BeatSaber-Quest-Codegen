@@ -110,6 +110,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: TubeLightBehaviour
     TubeLightBehaviour(bool noPredefinedStartValue_ = {}, GlobalNamespace::ColorSO* startColor_ = {}, GlobalNamespace::ColorSO* endColor_ = {}, float blend_ = {}, bool initialized_ = {}, UnityEngine::Color originalColor_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, bool started_ = {}, UnityEngine::Color firstFrameColor_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startColor{startColor_}, endColor{endColor_}, blend{blend_}, initialized{initialized_}, originalColor{originalColor_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, firstFrameColor{firstFrameColor_} {}
+    // Get instance field: public System.Boolean _noPredefinedStartValue
+    bool _get__noPredefinedStartValue();
+    // Set instance field: public System.Boolean _noPredefinedStartValue
+    void _set__noPredefinedStartValue(bool value);
+    // Get instance field: public ColorSO startColor
+    GlobalNamespace::ColorSO* _get_startColor();
+    // Set instance field: public ColorSO startColor
+    void _set_startColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: public ColorSO endColor
+    GlobalNamespace::ColorSO* _get_endColor();
+    // Set instance field: public ColorSO endColor
+    void _set_endColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: public System.Single blend
+    float _get_blend();
+    // Set instance field: public System.Single blend
+    void _set_blend(float value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
+    // Get instance field: private UnityEngine.Color _originalColor
+    UnityEngine::Color _get__originalColor();
+    // Set instance field: private UnityEngine.Color _originalColor
+    void _set__originalColor(UnityEngine::Color value);
+    // Get instance field: private TubeBloomPrePassLight[] _tubeLights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__tubeLights();
+    // Set instance field: private TubeBloomPrePassLight[] _tubeLights
+    void _set__tubeLights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
+    // Get instance field: private DirectionalLight[] _directionalLights
+    ::Array<GlobalNamespace::DirectionalLight*>* _get__directionalLights();
+    // Set instance field: private DirectionalLight[] _directionalLights
+    void _set__directionalLights(::Array<GlobalNamespace::DirectionalLight*>* value);
+    // Get instance field: private System.Boolean started
+    bool _get_started();
+    // Set instance field: private System.Boolean started
+    void _set_started(bool value);
+    // Get instance field: private UnityEngine.Color _firstFrameColor
+    UnityEngine::Color _get__firstFrameColor();
+    // Set instance field: private UnityEngine.Color _firstFrameColor
+    void _set__firstFrameColor(UnityEngine::Color value);
     // public System.Void .ctor()
     // Offset: 0x1071BD4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

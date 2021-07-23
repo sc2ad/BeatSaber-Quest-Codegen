@@ -49,6 +49,10 @@ namespace VRUIControls {
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
+    // Get instance field: private UnityEngine.MeshRenderer _renderer
+    UnityEngine::MeshRenderer* _get__renderer();
+    // Set instance field: private UnityEngine.MeshRenderer _renderer
+    void _set__renderer(UnityEngine::MeshRenderer* value);
     // public System.Void SetLocalPosition(UnityEngine.Vector3 position)
     // Offset: 0x2347AE0
     void SetLocalPosition(UnityEngine::Vector3 position);

@@ -113,6 +113,10 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::AnimationPlayableAsset::LoopMode _get_Off();
       // Set static field: static public UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.LoopMode Off
       static void _set_Off(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.LoopMode
     #pragma pack(pop)
     static check_size<sizeof(AnimationPlayableAsset::LoopMode), 0 + sizeof(int)> __UnityEngine_Timeline_AnimationPlayableAsset_LoopModeSizeCheck;
@@ -208,6 +212,50 @@ namespace UnityEngine::Timeline {
     static int _get_k_LatestVersion();
     // Set static field: static private readonly System.Int32 k_LatestVersion
     static void _set_k_LatestVersion(int value);
+    // Get instance field: private UnityEngine.AnimationClip m_Clip
+    UnityEngine::AnimationClip* _get_m_Clip();
+    // Set instance field: private UnityEngine.AnimationClip m_Clip
+    void _set_m_Clip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3 _get_m_Position();
+    // Set instance field: private UnityEngine.Vector3 m_Position
+    void _set_m_Position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_EulerAngles
+    UnityEngine::Vector3 _get_m_EulerAngles();
+    // Set instance field: private UnityEngine.Vector3 m_EulerAngles
+    void _set_m_EulerAngles(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean m_UseTrackMatchFields
+    bool _get_m_UseTrackMatchFields();
+    // Set instance field: private System.Boolean m_UseTrackMatchFields
+    void _set_m_UseTrackMatchFields(bool value);
+    // Get instance field: private UnityEngine.Timeline.MatchTargetFields m_MatchTargetFields
+    UnityEngine::Timeline::MatchTargetFields _get_m_MatchTargetFields();
+    // Set instance field: private UnityEngine.Timeline.MatchTargetFields m_MatchTargetFields
+    void _set_m_MatchTargetFields(UnityEngine::Timeline::MatchTargetFields value);
+    // Get instance field: private System.Boolean m_RemoveStartOffset
+    bool _get_m_RemoveStartOffset();
+    // Set instance field: private System.Boolean m_RemoveStartOffset
+    void _set_m_RemoveStartOffset(bool value);
+    // Get instance field: private System.Boolean m_ApplyFootIK
+    bool _get_m_ApplyFootIK();
+    // Set instance field: private System.Boolean m_ApplyFootIK
+    void _set_m_ApplyFootIK(bool value);
+    // Get instance field: private UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.LoopMode m_Loop
+    UnityEngine::Timeline::AnimationPlayableAsset::LoopMode _get_m_Loop();
+    // Set instance field: private UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.LoopMode m_Loop
+    void _set_m_Loop(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode value);
+    // Get instance field: private UnityEngine.Timeline.AppliedOffsetMode <appliedOffsetMode>k__BackingField
+    UnityEngine::Timeline::AppliedOffsetMode _get_$appliedOffsetMode$k__BackingField();
+    // Set instance field: private UnityEngine.Timeline.AppliedOffsetMode <appliedOffsetMode>k__BackingField
+    void _set_$appliedOffsetMode$k__BackingField(UnityEngine::Timeline::AppliedOffsetMode value);
+    // Get instance field: private System.Int32 m_Version
+    int _get_m_Version();
+    // Set instance field: private System.Int32 m_Version
+    void _set_m_Version(int value);
+    // Get instance field: private UnityEngine.Quaternion m_Rotation
+    UnityEngine::Quaternion _get_m_Rotation();
+    // Set instance field: private UnityEngine.Quaternion m_Rotation
+    void _set_m_Rotation(UnityEngine::Quaternion value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x17DB4FC
     UnityEngine::Vector3 get_position();

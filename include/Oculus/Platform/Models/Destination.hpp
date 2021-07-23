@@ -39,6 +39,18 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Destination
     Destination(::Il2CppString* ApiName_ = {}, ::Il2CppString* DeeplinkMessage_ = {}, ::Il2CppString* DisplayName_ = {}) noexcept : ApiName{ApiName_}, DeeplinkMessage{DeeplinkMessage_}, DisplayName{DisplayName_} {}
+    // Get instance field: public readonly System.String ApiName
+    ::Il2CppString* _get_ApiName();
+    // Set instance field: public readonly System.String ApiName
+    void _set_ApiName(::Il2CppString* value);
+    // Get instance field: public readonly System.String DeeplinkMessage
+    ::Il2CppString* _get_DeeplinkMessage();
+    // Set instance field: public readonly System.String DeeplinkMessage
+    void _set_DeeplinkMessage(::Il2CppString* value);
+    // Get instance field: public readonly System.String DisplayName
+    ::Il2CppString* _get_DisplayName();
+    // Set instance field: public readonly System.String DisplayName
+    void _set_DisplayName(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A9684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

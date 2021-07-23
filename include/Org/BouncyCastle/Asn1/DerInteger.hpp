@@ -47,6 +47,14 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DerInteger
     DerInteger(::Array<uint8_t>* bytes_ = {}, int start_ = {}) noexcept : bytes{bytes_}, start{start_} {}
+    // Get instance field: private readonly System.Byte[] bytes
+    ::Array<uint8_t>* _get_bytes();
+    // Set instance field: private readonly System.Byte[] bytes
+    void _set_bytes(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Int32 start
+    int _get_start();
+    // Set instance field: private readonly System.Int32 start
+    void _set_start(int value);
     // public Org.BouncyCastle.Math.BigInteger get_PositiveValue()
     // Offset: 0x16E5F5C
     Org::BouncyCastle::Math::BigInteger* get_PositiveValue();

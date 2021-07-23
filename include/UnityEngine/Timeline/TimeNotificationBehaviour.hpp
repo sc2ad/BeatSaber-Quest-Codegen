@@ -94,6 +94,22 @@ namespace UnityEngine::Timeline {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.Double time
+      double _get_time();
+      // Set instance field: public System.Double time
+      void _set_time(double value);
+      // Get instance field: public UnityEngine.Playables.INotification payload
+      UnityEngine::Playables::INotification* _get_payload();
+      // Set instance field: public UnityEngine.Playables.INotification payload
+      void _set_payload(UnityEngine::Playables::INotification* value);
+      // Get instance field: public System.Boolean notificationFired
+      bool _get_notificationFired();
+      // Set instance field: public System.Boolean notificationFired
+      void _set_notificationFired(bool value);
+      // Get instance field: public UnityEngine.Timeline.NotificationFlags flags
+      UnityEngine::Timeline::NotificationFlags _get_flags();
+      // Set instance field: public UnityEngine.Timeline.NotificationFlags flags
+      void _set_flags(UnityEngine::Timeline::NotificationFlags value);
       // public System.Boolean get_triggerInEditor()
       // Offset: 0xEE8E74
       bool get_triggerInEditor();
@@ -135,6 +151,22 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
     // Creating value type constructor for type: TimeNotificationBehaviour
     TimeNotificationBehaviour(System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* m_Notifications_ = {}, double m_PreviousTime_ = {}, bool m_NeedSortNotifications_ = {}, UnityEngine::Playables::Playable m_TimeSource_ = {}) noexcept : m_Notifications{m_Notifications_}, m_PreviousTime{m_PreviousTime_}, m_NeedSortNotifications{m_NeedSortNotifications_}, m_TimeSource{m_TimeSource_} {}
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> m_Notifications
+    System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* _get_m_Notifications();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> m_Notifications
+    void _set_m_Notifications(System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* value);
+    // Get instance field: private System.Double m_PreviousTime
+    double _get_m_PreviousTime();
+    // Set instance field: private System.Double m_PreviousTime
+    void _set_m_PreviousTime(double value);
+    // Get instance field: private System.Boolean m_NeedSortNotifications
+    bool _get_m_NeedSortNotifications();
+    // Set instance field: private System.Boolean m_NeedSortNotifications
+    void _set_m_NeedSortNotifications(bool value);
+    // Get instance field: private UnityEngine.Playables.Playable m_TimeSource
+    UnityEngine::Playables::Playable _get_m_TimeSource();
+    // Set instance field: private UnityEngine.Playables.Playable m_TimeSource
+    void _set_m_TimeSource(UnityEngine::Playables::Playable value);
     // public System.Void set_timeSource(UnityEngine.Playables.Playable value)
     // Offset: 0x17EC3A4
     void set_timeSource(UnityEngine::Playables::Playable value);

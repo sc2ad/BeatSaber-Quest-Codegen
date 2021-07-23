@@ -59,6 +59,14 @@ namespace HMUI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.HoverTextController _hoverTextController
+    HMUI::HoverTextController* _get__hoverTextController();
+    // Set instance field: private HMUI.HoverTextController _hoverTextController
+    void _set__hoverTextController(HMUI::HoverTextController* value);
+    // Get instance field: private System.String _text
+    ::Il2CppString* _get__text();
+    // Set instance field: private System.String _text
+    void _set__text(::Il2CppString* value);
     // public System.String get_text()
     // Offset: 0x1311734
     ::Il2CppString* get_text();

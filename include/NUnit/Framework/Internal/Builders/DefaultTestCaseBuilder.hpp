@@ -60,6 +60,10 @@ namespace NUnit::Framework::Internal::Builders {
     constexpr operator NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*() const noexcept {
       return nunitTestCaseBuilder;
     }
+    // Get instance field: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
+    NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* _get__nunitTestCaseBuilder();
+    // Set instance field: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
+    void _set__nunitTestCaseBuilder(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* value);
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
     // Offset: 0x1724074
     bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method);

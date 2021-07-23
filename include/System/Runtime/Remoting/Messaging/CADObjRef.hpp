@@ -46,6 +46,18 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: CADObjRef
     CADObjRef(System::Runtime::Remoting::ObjRef* objref_ = {}, int SourceDomain_ = {}, ::Array<uint8_t>* TypeInfo_ = {}) noexcept : objref{objref_}, SourceDomain{SourceDomain_}, TypeInfo{TypeInfo_} {}
+    // Get instance field: System.Runtime.Remoting.ObjRef objref
+    System::Runtime::Remoting::ObjRef* _get_objref();
+    // Set instance field: System.Runtime.Remoting.ObjRef objref
+    void _set_objref(System::Runtime::Remoting::ObjRef* value);
+    // Get instance field: System.Int32 SourceDomain
+    int _get_SourceDomain();
+    // Set instance field: System.Int32 SourceDomain
+    void _set_SourceDomain(int value);
+    // Get instance field: System.Byte[] TypeInfo
+    ::Array<uint8_t>* _get_TypeInfo();
+    // Set instance field: System.Byte[] TypeInfo
+    void _set_TypeInfo(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Runtime.Remoting.ObjRef o, System.Int32 sourceDomain)
     // Offset: 0x19F5034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -361,6 +361,190 @@ namespace RootMotion::FinalIK {
     FBBIKHeadEffector(RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, float positionWeight_ = {}, float bodyWeight_ = {}, float thighWeight_ = {}, bool handsPullBody_ = {}, float rotationWeight_ = {}, float bodyClampWeight_ = {}, float headClampWeight_ = {}, float bendWeight_ = {}, ::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>* bendBones_ = {}, float CCDWeight_ = {}, float roll_ = {}, float damper_ = {}, ::Array<UnityEngine::Transform*>* CCDBones_ = {}, float postStretchWeight_ = {}, float maxStretch_ = {}, float stretchDamper_ = {}, bool fixHead_ = {}, ::Array<UnityEngine::Transform*>* stretchBones_ = {}, UnityEngine::Vector3 chestDirection_ = {}, float chestDirectionWeight_ = {}, ::Array<UnityEngine::Transform*>* chestBones_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostHeadEffectorFK_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 headToBody_ = {}, UnityEngine::Vector3 shoulderCenterToHead_ = {}, UnityEngine::Vector3 headToLeftThigh_ = {}, UnityEngine::Vector3 headToRightThigh_ = {}, UnityEngine::Vector3 leftShoulderPos_ = {}, UnityEngine::Vector3 rightShoulderPos_ = {}, float shoulderDist_ = {}, float leftShoulderDist_ = {}, float rightShoulderDist_ = {}, UnityEngine::Quaternion chestRotation_ = {}, UnityEngine::Quaternion headRotationRelativeToRoot_ = {}, ::Array<UnityEngine::Quaternion>* ccdDefaultLocalRotations_ = {}, UnityEngine::Vector3 headLocalPosition_ = {}, UnityEngine::Quaternion headLocalRotation_ = {}, ::Array<UnityEngine::Vector3>* stretchLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* stretchLocalRotations_ = {}, ::Array<UnityEngine::Vector3>* chestLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* chestLocalRotations_ = {}, int bendBonesCount_ = {}, int ccdBonesCount_ = {}, int stretchBonesCount_ = {}, int chestBonesCount_ = {}) noexcept : ik{ik_}, positionWeight{positionWeight_}, bodyWeight{bodyWeight_}, thighWeight{thighWeight_}, handsPullBody{handsPullBody_}, rotationWeight{rotationWeight_}, bodyClampWeight{bodyClampWeight_}, headClampWeight{headClampWeight_}, bendWeight{bendWeight_}, bendBones{bendBones_}, CCDWeight{CCDWeight_}, roll{roll_}, damper{damper_}, CCDBones{CCDBones_}, postStretchWeight{postStretchWeight_}, maxStretch{maxStretch_}, stretchDamper{stretchDamper_}, fixHead{fixHead_}, stretchBones{stretchBones_}, chestDirection{chestDirection_}, chestDirectionWeight{chestDirectionWeight_}, chestBones{chestBones_}, OnPostHeadEffectorFK{OnPostHeadEffectorFK_}, offset{offset_}, headToBody{headToBody_}, shoulderCenterToHead{shoulderCenterToHead_}, headToLeftThigh{headToLeftThigh_}, headToRightThigh{headToRightThigh_}, leftShoulderPos{leftShoulderPos_}, rightShoulderPos{rightShoulderPos_}, shoulderDist{shoulderDist_}, leftShoulderDist{leftShoulderDist_}, rightShoulderDist{rightShoulderDist_}, chestRotation{chestRotation_}, headRotationRelativeToRoot{headRotationRelativeToRoot_}, ccdDefaultLocalRotations{ccdDefaultLocalRotations_}, headLocalPosition{headLocalPosition_}, headLocalRotation{headLocalRotation_}, stretchLocalPositions{stretchLocalPositions_}, stretchLocalRotations{stretchLocalRotations_}, chestLocalPositions{chestLocalPositions_}, chestLocalRotations{chestLocalRotations_}, bendBonesCount{bendBonesCount_}, ccdBonesCount{ccdBonesCount_}, stretchBonesCount{stretchBonesCount_}, chestBonesCount{chestBonesCount_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
+    RootMotion::FinalIK::FullBodyBipedIK* _get_ik();
+    // Set instance field: public RootMotion.FinalIK.FullBodyBipedIK ik
+    void _set_ik(RootMotion::FinalIK::FullBodyBipedIK* value);
+    // Get instance field: public System.Single positionWeight
+    float _get_positionWeight();
+    // Set instance field: public System.Single positionWeight
+    void _set_positionWeight(float value);
+    // Get instance field: public System.Single bodyWeight
+    float _get_bodyWeight();
+    // Set instance field: public System.Single bodyWeight
+    void _set_bodyWeight(float value);
+    // Get instance field: public System.Single thighWeight
+    float _get_thighWeight();
+    // Set instance field: public System.Single thighWeight
+    void _set_thighWeight(float value);
+    // Get instance field: public System.Boolean handsPullBody
+    bool _get_handsPullBody();
+    // Set instance field: public System.Boolean handsPullBody
+    void _set_handsPullBody(bool value);
+    // Get instance field: public System.Single rotationWeight
+    float _get_rotationWeight();
+    // Set instance field: public System.Single rotationWeight
+    void _set_rotationWeight(float value);
+    // Get instance field: public System.Single bodyClampWeight
+    float _get_bodyClampWeight();
+    // Set instance field: public System.Single bodyClampWeight
+    void _set_bodyClampWeight(float value);
+    // Get instance field: public System.Single headClampWeight
+    float _get_headClampWeight();
+    // Set instance field: public System.Single headClampWeight
+    void _set_headClampWeight(float value);
+    // Get instance field: public System.Single bendWeight
+    float _get_bendWeight();
+    // Set instance field: public System.Single bendWeight
+    void _set_bendWeight(float value);
+    // Get instance field: public RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone[] bendBones
+    ::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>* _get_bendBones();
+    // Set instance field: public RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone[] bendBones
+    void _set_bendBones(::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>* value);
+    // Get instance field: public System.Single CCDWeight
+    float _get_CCDWeight();
+    // Set instance field: public System.Single CCDWeight
+    void _set_CCDWeight(float value);
+    // Get instance field: public System.Single roll
+    float _get_roll();
+    // Set instance field: public System.Single roll
+    void _set_roll(float value);
+    // Get instance field: public System.Single damper
+    float _get_damper();
+    // Set instance field: public System.Single damper
+    void _set_damper(float value);
+    // Get instance field: public UnityEngine.Transform[] CCDBones
+    ::Array<UnityEngine::Transform*>* _get_CCDBones();
+    // Set instance field: public UnityEngine.Transform[] CCDBones
+    void _set_CCDBones(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: public System.Single postStretchWeight
+    float _get_postStretchWeight();
+    // Set instance field: public System.Single postStretchWeight
+    void _set_postStretchWeight(float value);
+    // Get instance field: public System.Single maxStretch
+    float _get_maxStretch();
+    // Set instance field: public System.Single maxStretch
+    void _set_maxStretch(float value);
+    // Get instance field: public System.Single stretchDamper
+    float _get_stretchDamper();
+    // Set instance field: public System.Single stretchDamper
+    void _set_stretchDamper(float value);
+    // Get instance field: public System.Boolean fixHead
+    bool _get_fixHead();
+    // Set instance field: public System.Boolean fixHead
+    void _set_fixHead(bool value);
+    // Get instance field: public UnityEngine.Transform[] stretchBones
+    ::Array<UnityEngine::Transform*>* _get_stretchBones();
+    // Set instance field: public UnityEngine.Transform[] stretchBones
+    void _set_stretchBones(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: public UnityEngine.Vector3 chestDirection
+    UnityEngine::Vector3 _get_chestDirection();
+    // Set instance field: public UnityEngine.Vector3 chestDirection
+    void _set_chestDirection(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single chestDirectionWeight
+    float _get_chestDirectionWeight();
+    // Set instance field: public System.Single chestDirectionWeight
+    void _set_chestDirectionWeight(float value);
+    // Get instance field: public UnityEngine.Transform[] chestBones
+    ::Array<UnityEngine::Transform*>* _get_chestBones();
+    // Set instance field: public UnityEngine.Transform[] chestBones
+    void _set_chestBones(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostHeadEffectorFK
+    RootMotion::FinalIK::IKSolver::UpdateDelegate* _get_OnPostHeadEffectorFK();
+    // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostHeadEffectorFK
+    void _set_OnPostHeadEffectorFK(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
+    // Get instance field: private UnityEngine.Vector3 offset
+    UnityEngine::Vector3 _get_offset();
+    // Set instance field: private UnityEngine.Vector3 offset
+    void _set_offset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 headToBody
+    UnityEngine::Vector3 _get_headToBody();
+    // Set instance field: private UnityEngine.Vector3 headToBody
+    void _set_headToBody(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 shoulderCenterToHead
+    UnityEngine::Vector3 _get_shoulderCenterToHead();
+    // Set instance field: private UnityEngine.Vector3 shoulderCenterToHead
+    void _set_shoulderCenterToHead(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 headToLeftThigh
+    UnityEngine::Vector3 _get_headToLeftThigh();
+    // Set instance field: private UnityEngine.Vector3 headToLeftThigh
+    void _set_headToLeftThigh(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 headToRightThigh
+    UnityEngine::Vector3 _get_headToRightThigh();
+    // Set instance field: private UnityEngine.Vector3 headToRightThigh
+    void _set_headToRightThigh(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 leftShoulderPos
+    UnityEngine::Vector3 _get_leftShoulderPos();
+    // Set instance field: private UnityEngine.Vector3 leftShoulderPos
+    void _set_leftShoulderPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 rightShoulderPos
+    UnityEngine::Vector3 _get_rightShoulderPos();
+    // Set instance field: private UnityEngine.Vector3 rightShoulderPos
+    void _set_rightShoulderPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single shoulderDist
+    float _get_shoulderDist();
+    // Set instance field: private System.Single shoulderDist
+    void _set_shoulderDist(float value);
+    // Get instance field: private System.Single leftShoulderDist
+    float _get_leftShoulderDist();
+    // Set instance field: private System.Single leftShoulderDist
+    void _set_leftShoulderDist(float value);
+    // Get instance field: private System.Single rightShoulderDist
+    float _get_rightShoulderDist();
+    // Set instance field: private System.Single rightShoulderDist
+    void _set_rightShoulderDist(float value);
+    // Get instance field: private UnityEngine.Quaternion chestRotation
+    UnityEngine::Quaternion _get_chestRotation();
+    // Set instance field: private UnityEngine.Quaternion chestRotation
+    void _set_chestRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion headRotationRelativeToRoot
+    UnityEngine::Quaternion _get_headRotationRelativeToRoot();
+    // Set instance field: private UnityEngine.Quaternion headRotationRelativeToRoot
+    void _set_headRotationRelativeToRoot(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion[] ccdDefaultLocalRotations
+    ::Array<UnityEngine::Quaternion>* _get_ccdDefaultLocalRotations();
+    // Set instance field: private UnityEngine.Quaternion[] ccdDefaultLocalRotations
+    void _set_ccdDefaultLocalRotations(::Array<UnityEngine::Quaternion>* value);
+    // Get instance field: private UnityEngine.Vector3 headLocalPosition
+    UnityEngine::Vector3 _get_headLocalPosition();
+    // Set instance field: private UnityEngine.Vector3 headLocalPosition
+    void _set_headLocalPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion headLocalRotation
+    UnityEngine::Quaternion _get_headLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion headLocalRotation
+    void _set_headLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3[] stretchLocalPositions
+    ::Array<UnityEngine::Vector3>* _get_stretchLocalPositions();
+    // Set instance field: private UnityEngine.Vector3[] stretchLocalPositions
+    void _set_stretchLocalPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Quaternion[] stretchLocalRotations
+    ::Array<UnityEngine::Quaternion>* _get_stretchLocalRotations();
+    // Set instance field: private UnityEngine.Quaternion[] stretchLocalRotations
+    void _set_stretchLocalRotations(::Array<UnityEngine::Quaternion>* value);
+    // Get instance field: private UnityEngine.Vector3[] chestLocalPositions
+    ::Array<UnityEngine::Vector3>* _get_chestLocalPositions();
+    // Set instance field: private UnityEngine.Vector3[] chestLocalPositions
+    void _set_chestLocalPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Quaternion[] chestLocalRotations
+    ::Array<UnityEngine::Quaternion>* _get_chestLocalRotations();
+    // Set instance field: private UnityEngine.Quaternion[] chestLocalRotations
+    void _set_chestLocalRotations(::Array<UnityEngine::Quaternion>* value);
+    // Get instance field: private System.Int32 bendBonesCount
+    int _get_bendBonesCount();
+    // Set instance field: private System.Int32 bendBonesCount
+    void _set_bendBonesCount(int value);
+    // Get instance field: private System.Int32 ccdBonesCount
+    int _get_ccdBonesCount();
+    // Set instance field: private System.Int32 ccdBonesCount
+    void _set_ccdBonesCount(int value);
+    // Get instance field: private System.Int32 stretchBonesCount
+    int _get_stretchBonesCount();
+    // Set instance field: private System.Int32 stretchBonesCount
+    void _set_stretchBonesCount(int value);
+    // Get instance field: private System.Int32 chestBonesCount
+    int _get_chestBonesCount();
+    // Set instance field: private System.Int32 chestBonesCount
+    void _set_chestBonesCount(int value);
     // private System.Void Start()
     // Offset: 0x1CE2490
     void Start();

@@ -220,6 +220,10 @@ namespace TMPro {
       static TMPro::TMP_InputField::ContentType _get_Custom();
       // Set static field: static public TMPro.TMP_InputField/TMPro.ContentType Custom
       static void _set_Custom(TMPro::TMP_InputField::ContentType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // TMPro.TMP_InputField/TMPro.ContentType
     #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::ContentType), 0 + sizeof(int)> __TMPro_TMP_InputField_ContentTypeSizeCheck;
@@ -264,6 +268,10 @@ namespace TMPro {
       static TMPro::TMP_InputField::InputType _get_Password();
       // Set static field: static public TMPro.TMP_InputField/TMPro.InputType Password
       static void _set_Password(TMPro::TMP_InputField::InputType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // TMPro.TMP_InputField/TMPro.InputType
     #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::InputType), 0 + sizeof(int)> __TMPro_TMP_InputField_InputTypeSizeCheck;
@@ -344,6 +352,10 @@ namespace TMPro {
       static TMPro::TMP_InputField::CharacterValidation _get_CustomValidator();
       // Set static field: static public TMPro.TMP_InputField/TMPro.CharacterValidation CustomValidator
       static void _set_CustomValidator(TMPro::TMP_InputField::CharacterValidation value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // TMPro.TMP_InputField/TMPro.CharacterValidation
     #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::CharacterValidation), 0 + sizeof(int)> __TMPro_TMP_InputField_CharacterValidationSizeCheck;
@@ -388,6 +400,10 @@ namespace TMPro {
       static TMPro::TMP_InputField::LineType _get_MultiLineNewline();
       // Set static field: static public TMPro.TMP_InputField/TMPro.LineType MultiLineNewline
       static void _set_MultiLineNewline(TMPro::TMP_InputField::LineType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // TMPro.TMP_InputField/TMPro.LineType
     #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::LineType), 0 + sizeof(int)> __TMPro_TMP_InputField_LineTypeSizeCheck;
@@ -989,6 +1005,342 @@ namespace TMPro {
     static ::Il2CppString* _get_kEmailSpecialCharacters();
     // Set static field: static private System.String kEmailSpecialCharacters
     static void _set_kEmailSpecialCharacters(::Il2CppString* value);
+    // Get instance field: protected UnityEngine.TouchScreenKeyboard m_SoftKeyboard
+    UnityEngine::TouchScreenKeyboard* _get_m_SoftKeyboard();
+    // Set instance field: protected UnityEngine.TouchScreenKeyboard m_SoftKeyboard
+    void _set_m_SoftKeyboard(UnityEngine::TouchScreenKeyboard* value);
+    // Get instance field: protected UnityEngine.RectTransform m_TextViewport
+    UnityEngine::RectTransform* _get_m_TextViewport();
+    // Set instance field: protected UnityEngine.RectTransform m_TextViewport
+    void _set_m_TextViewport(UnityEngine::RectTransform* value);
+    // Get instance field: protected TMPro.TMP_Text m_TextComponent
+    TMPro::TMP_Text* _get_m_TextComponent();
+    // Set instance field: protected TMPro.TMP_Text m_TextComponent
+    void _set_m_TextComponent(TMPro::TMP_Text* value);
+    // Get instance field: protected UnityEngine.RectTransform m_TextComponentRectTransform
+    UnityEngine::RectTransform* _get_m_TextComponentRectTransform();
+    // Set instance field: protected UnityEngine.RectTransform m_TextComponentRectTransform
+    void _set_m_TextComponentRectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: protected UnityEngine.UI.Graphic m_Placeholder
+    UnityEngine::UI::Graphic* _get_m_Placeholder();
+    // Set instance field: protected UnityEngine.UI.Graphic m_Placeholder
+    void _set_m_Placeholder(UnityEngine::UI::Graphic* value);
+    // Get instance field: protected UnityEngine.UI.Scrollbar m_VerticalScrollbar
+    UnityEngine::UI::Scrollbar* _get_m_VerticalScrollbar();
+    // Set instance field: protected UnityEngine.UI.Scrollbar m_VerticalScrollbar
+    void _set_m_VerticalScrollbar(UnityEngine::UI::Scrollbar* value);
+    // Get instance field: protected TMPro.TMP_ScrollbarEventHandler m_VerticalScrollbarEventHandler
+    TMPro::TMP_ScrollbarEventHandler* _get_m_VerticalScrollbarEventHandler();
+    // Set instance field: protected TMPro.TMP_ScrollbarEventHandler m_VerticalScrollbarEventHandler
+    void _set_m_VerticalScrollbarEventHandler(TMPro::TMP_ScrollbarEventHandler* value);
+    // Get instance field: private System.Boolean m_IsDrivenByLayoutComponents
+    bool _get_m_IsDrivenByLayoutComponents();
+    // Set instance field: private System.Boolean m_IsDrivenByLayoutComponents
+    void _set_m_IsDrivenByLayoutComponents(bool value);
+    // Get instance field: private System.Single m_ScrollPosition
+    float _get_m_ScrollPosition();
+    // Set instance field: private System.Single m_ScrollPosition
+    void _set_m_ScrollPosition(float value);
+    // Get instance field: protected System.Single m_ScrollSensitivity
+    float _get_m_ScrollSensitivity();
+    // Set instance field: protected System.Single m_ScrollSensitivity
+    void _set_m_ScrollSensitivity(float value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.ContentType m_ContentType
+    TMPro::TMP_InputField::ContentType _get_m_ContentType();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.ContentType m_ContentType
+    void _set_m_ContentType(TMPro::TMP_InputField::ContentType value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.InputType m_InputType
+    TMPro::TMP_InputField::InputType _get_m_InputType();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.InputType m_InputType
+    void _set_m_InputType(TMPro::TMP_InputField::InputType value);
+    // Get instance field: private System.Char m_AsteriskChar
+    ::Il2CppChar _get_m_AsteriskChar();
+    // Set instance field: private System.Char m_AsteriskChar
+    void _set_m_AsteriskChar(::Il2CppChar value);
+    // Get instance field: private UnityEngine.TouchScreenKeyboardType m_KeyboardType
+    UnityEngine::TouchScreenKeyboardType _get_m_KeyboardType();
+    // Set instance field: private UnityEngine.TouchScreenKeyboardType m_KeyboardType
+    void _set_m_KeyboardType(UnityEngine::TouchScreenKeyboardType value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.LineType m_LineType
+    TMPro::TMP_InputField::LineType _get_m_LineType();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.LineType m_LineType
+    void _set_m_LineType(TMPro::TMP_InputField::LineType value);
+    // Get instance field: private System.Boolean m_HideMobileInput
+    bool _get_m_HideMobileInput();
+    // Set instance field: private System.Boolean m_HideMobileInput
+    void _set_m_HideMobileInput(bool value);
+    // Get instance field: private System.Boolean m_HideSoftKeyboard
+    bool _get_m_HideSoftKeyboard();
+    // Set instance field: private System.Boolean m_HideSoftKeyboard
+    void _set_m_HideSoftKeyboard(bool value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.CharacterValidation m_CharacterValidation
+    TMPro::TMP_InputField::CharacterValidation _get_m_CharacterValidation();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.CharacterValidation m_CharacterValidation
+    void _set_m_CharacterValidation(TMPro::TMP_InputField::CharacterValidation value);
+    // Get instance field: private System.String m_RegexValue
+    ::Il2CppString* _get_m_RegexValue();
+    // Set instance field: private System.String m_RegexValue
+    void _set_m_RegexValue(::Il2CppString* value);
+    // Get instance field: private System.Single m_GlobalPointSize
+    float _get_m_GlobalPointSize();
+    // Set instance field: private System.Single m_GlobalPointSize
+    void _set_m_GlobalPointSize(float value);
+    // Get instance field: private System.Int32 m_CharacterLimit
+    int _get_m_CharacterLimit();
+    // Set instance field: private System.Int32 m_CharacterLimit
+    void _set_m_CharacterLimit(int value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.SubmitEvent m_OnEndEdit
+    TMPro::TMP_InputField::SubmitEvent* _get_m_OnEndEdit();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.SubmitEvent m_OnEndEdit
+    void _set_m_OnEndEdit(TMPro::TMP_InputField::SubmitEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.SubmitEvent m_OnSubmit
+    TMPro::TMP_InputField::SubmitEvent* _get_m_OnSubmit();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.SubmitEvent m_OnSubmit
+    void _set_m_OnSubmit(TMPro::TMP_InputField::SubmitEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.SelectionEvent m_OnSelect
+    TMPro::TMP_InputField::SelectionEvent* _get_m_OnSelect();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.SelectionEvent m_OnSelect
+    void _set_m_OnSelect(TMPro::TMP_InputField::SelectionEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.SelectionEvent m_OnDeselect
+    TMPro::TMP_InputField::SelectionEvent* _get_m_OnDeselect();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.SelectionEvent m_OnDeselect
+    void _set_m_OnDeselect(TMPro::TMP_InputField::SelectionEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.TextSelectionEvent m_OnTextSelection
+    TMPro::TMP_InputField::TextSelectionEvent* _get_m_OnTextSelection();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.TextSelectionEvent m_OnTextSelection
+    void _set_m_OnTextSelection(TMPro::TMP_InputField::TextSelectionEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.TextSelectionEvent m_OnEndTextSelection
+    TMPro::TMP_InputField::TextSelectionEvent* _get_m_OnEndTextSelection();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.TextSelectionEvent m_OnEndTextSelection
+    void _set_m_OnEndTextSelection(TMPro::TMP_InputField::TextSelectionEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.OnChangeEvent m_OnValueChanged
+    TMPro::TMP_InputField::OnChangeEvent* _get_m_OnValueChanged();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.OnChangeEvent m_OnValueChanged
+    void _set_m_OnValueChanged(TMPro::TMP_InputField::OnChangeEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.TouchScreenKeyboardEvent m_OnTouchScreenKeyboardStatusChanged
+    TMPro::TMP_InputField::TouchScreenKeyboardEvent* _get_m_OnTouchScreenKeyboardStatusChanged();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.TouchScreenKeyboardEvent m_OnTouchScreenKeyboardStatusChanged
+    void _set_m_OnTouchScreenKeyboardStatusChanged(TMPro::TMP_InputField::TouchScreenKeyboardEvent* value);
+    // Get instance field: private TMPro.TMP_InputField/TMPro.OnValidateInput m_OnValidateInput
+    TMPro::TMP_InputField::OnValidateInput* _get_m_OnValidateInput();
+    // Set instance field: private TMPro.TMP_InputField/TMPro.OnValidateInput m_OnValidateInput
+    void _set_m_OnValidateInput(TMPro::TMP_InputField::OnValidateInput* value);
+    // Get instance field: private UnityEngine.Color m_CaretColor
+    UnityEngine::Color _get_m_CaretColor();
+    // Set instance field: private UnityEngine.Color m_CaretColor
+    void _set_m_CaretColor(UnityEngine::Color value);
+    // Get instance field: private System.Boolean m_CustomCaretColor
+    bool _get_m_CustomCaretColor();
+    // Set instance field: private System.Boolean m_CustomCaretColor
+    void _set_m_CustomCaretColor(bool value);
+    // Get instance field: private UnityEngine.Color m_SelectionColor
+    UnityEngine::Color _get_m_SelectionColor();
+    // Set instance field: private UnityEngine.Color m_SelectionColor
+    void _set_m_SelectionColor(UnityEngine::Color value);
+    // Get instance field: protected System.String m_Text
+    ::Il2CppString* _get_m_Text();
+    // Set instance field: protected System.String m_Text
+    void _set_m_Text(::Il2CppString* value);
+    // Get instance field: private System.Single m_CaretBlinkRate
+    float _get_m_CaretBlinkRate();
+    // Set instance field: private System.Single m_CaretBlinkRate
+    void _set_m_CaretBlinkRate(float value);
+    // Get instance field: private System.Int32 m_CaretWidth
+    int _get_m_CaretWidth();
+    // Set instance field: private System.Int32 m_CaretWidth
+    void _set_m_CaretWidth(int value);
+    // Get instance field: private System.Boolean m_ReadOnly
+    bool _get_m_ReadOnly();
+    // Set instance field: private System.Boolean m_ReadOnly
+    void _set_m_ReadOnly(bool value);
+    // Get instance field: private System.Boolean m_RichText
+    bool _get_m_RichText();
+    // Set instance field: private System.Boolean m_RichText
+    void _set_m_RichText(bool value);
+    // Get instance field: protected System.Int32 m_StringPosition
+    int _get_m_StringPosition();
+    // Set instance field: protected System.Int32 m_StringPosition
+    void _set_m_StringPosition(int value);
+    // Get instance field: protected System.Int32 m_StringSelectPosition
+    int _get_m_StringSelectPosition();
+    // Set instance field: protected System.Int32 m_StringSelectPosition
+    void _set_m_StringSelectPosition(int value);
+    // Get instance field: protected System.Int32 m_CaretPosition
+    int _get_m_CaretPosition();
+    // Set instance field: protected System.Int32 m_CaretPosition
+    void _set_m_CaretPosition(int value);
+    // Get instance field: protected System.Int32 m_CaretSelectPosition
+    int _get_m_CaretSelectPosition();
+    // Set instance field: protected System.Int32 m_CaretSelectPosition
+    void _set_m_CaretSelectPosition(int value);
+    // Get instance field: private UnityEngine.RectTransform caretRectTrans
+    UnityEngine::RectTransform* _get_caretRectTrans();
+    // Set instance field: private UnityEngine.RectTransform caretRectTrans
+    void _set_caretRectTrans(UnityEngine::RectTransform* value);
+    // Get instance field: protected UnityEngine.UIVertex[] m_CursorVerts
+    ::Array<UnityEngine::UIVertex>* _get_m_CursorVerts();
+    // Set instance field: protected UnityEngine.UIVertex[] m_CursorVerts
+    void _set_m_CursorVerts(::Array<UnityEngine::UIVertex>* value);
+    // Get instance field: private UnityEngine.CanvasRenderer m_CachedInputRenderer
+    UnityEngine::CanvasRenderer* _get_m_CachedInputRenderer();
+    // Set instance field: private UnityEngine.CanvasRenderer m_CachedInputRenderer
+    void _set_m_CachedInputRenderer(UnityEngine::CanvasRenderer* value);
+    // Get instance field: private UnityEngine.Vector2 m_LastPosition
+    UnityEngine::Vector2 _get_m_LastPosition();
+    // Set instance field: private UnityEngine.Vector2 m_LastPosition
+    void _set_m_LastPosition(UnityEngine::Vector2 value);
+    // Get instance field: protected UnityEngine.Mesh m_Mesh
+    UnityEngine::Mesh* _get_m_Mesh();
+    // Set instance field: protected UnityEngine.Mesh m_Mesh
+    void _set_m_Mesh(UnityEngine::Mesh* value);
+    // Get instance field: private System.Boolean m_AllowInput
+    bool _get_m_AllowInput();
+    // Set instance field: private System.Boolean m_AllowInput
+    void _set_m_AllowInput(bool value);
+    // Get instance field: private System.Boolean m_ShouldActivateNextUpdate
+    bool _get_m_ShouldActivateNextUpdate();
+    // Set instance field: private System.Boolean m_ShouldActivateNextUpdate
+    void _set_m_ShouldActivateNextUpdate(bool value);
+    // Get instance field: private System.Boolean m_UpdateDrag
+    bool _get_m_UpdateDrag();
+    // Set instance field: private System.Boolean m_UpdateDrag
+    void _set_m_UpdateDrag(bool value);
+    // Get instance field: private System.Boolean m_DragPositionOutOfBounds
+    bool _get_m_DragPositionOutOfBounds();
+    // Set instance field: private System.Boolean m_DragPositionOutOfBounds
+    void _set_m_DragPositionOutOfBounds(bool value);
+    // Get instance field: protected System.Boolean m_CaretVisible
+    bool _get_m_CaretVisible();
+    // Set instance field: protected System.Boolean m_CaretVisible
+    void _set_m_CaretVisible(bool value);
+    // Get instance field: private UnityEngine.Coroutine m_BlinkCoroutine
+    UnityEngine::Coroutine* _get_m_BlinkCoroutine();
+    // Set instance field: private UnityEngine.Coroutine m_BlinkCoroutine
+    void _set_m_BlinkCoroutine(UnityEngine::Coroutine* value);
+    // Get instance field: private System.Single m_BlinkStartTime
+    float _get_m_BlinkStartTime();
+    // Set instance field: private System.Single m_BlinkStartTime
+    void _set_m_BlinkStartTime(float value);
+    // Get instance field: private UnityEngine.Coroutine m_DragCoroutine
+    UnityEngine::Coroutine* _get_m_DragCoroutine();
+    // Set instance field: private UnityEngine.Coroutine m_DragCoroutine
+    void _set_m_DragCoroutine(UnityEngine::Coroutine* value);
+    // Get instance field: private System.String m_OriginalText
+    ::Il2CppString* _get_m_OriginalText();
+    // Set instance field: private System.String m_OriginalText
+    void _set_m_OriginalText(::Il2CppString* value);
+    // Get instance field: private System.Boolean m_WasCanceled
+    bool _get_m_WasCanceled();
+    // Set instance field: private System.Boolean m_WasCanceled
+    void _set_m_WasCanceled(bool value);
+    // Get instance field: private System.Boolean m_HasDoneFocusTransition
+    bool _get_m_HasDoneFocusTransition();
+    // Set instance field: private System.Boolean m_HasDoneFocusTransition
+    void _set_m_HasDoneFocusTransition(bool value);
+    // Get instance field: private UnityEngine.WaitForSecondsRealtime m_WaitForSecondsRealtime
+    UnityEngine::WaitForSecondsRealtime* _get_m_WaitForSecondsRealtime();
+    // Set instance field: private UnityEngine.WaitForSecondsRealtime m_WaitForSecondsRealtime
+    void _set_m_WaitForSecondsRealtime(UnityEngine::WaitForSecondsRealtime* value);
+    // Get instance field: private System.Boolean m_PreventCallback
+    bool _get_m_PreventCallback();
+    // Set instance field: private System.Boolean m_PreventCallback
+    void _set_m_PreventCallback(bool value);
+    // Get instance field: private System.Boolean m_TouchKeyboardAllowsInPlaceEditing
+    bool _get_m_TouchKeyboardAllowsInPlaceEditing();
+    // Set instance field: private System.Boolean m_TouchKeyboardAllowsInPlaceEditing
+    void _set_m_TouchKeyboardAllowsInPlaceEditing(bool value);
+    // Get instance field: private System.Boolean m_IsTextComponentUpdateRequired
+    bool _get_m_IsTextComponentUpdateRequired();
+    // Set instance field: private System.Boolean m_IsTextComponentUpdateRequired
+    void _set_m_IsTextComponentUpdateRequired(bool value);
+    // Get instance field: private System.Boolean m_IsScrollbarUpdateRequired
+    bool _get_m_IsScrollbarUpdateRequired();
+    // Set instance field: private System.Boolean m_IsScrollbarUpdateRequired
+    void _set_m_IsScrollbarUpdateRequired(bool value);
+    // Get instance field: private System.Boolean m_IsUpdatingScrollbarValues
+    bool _get_m_IsUpdatingScrollbarValues();
+    // Set instance field: private System.Boolean m_IsUpdatingScrollbarValues
+    void _set_m_IsUpdatingScrollbarValues(bool value);
+    // Get instance field: private System.Boolean m_isLastKeyBackspace
+    bool _get_m_isLastKeyBackspace();
+    // Set instance field: private System.Boolean m_isLastKeyBackspace
+    void _set_m_isLastKeyBackspace(bool value);
+    // Get instance field: private System.Single m_PointerDownClickStartTime
+    float _get_m_PointerDownClickStartTime();
+    // Set instance field: private System.Single m_PointerDownClickStartTime
+    void _set_m_PointerDownClickStartTime(float value);
+    // Get instance field: private System.Single m_KeyDownStartTime
+    float _get_m_KeyDownStartTime();
+    // Set instance field: private System.Single m_KeyDownStartTime
+    void _set_m_KeyDownStartTime(float value);
+    // Get instance field: private System.Single m_DoubleClickDelay
+    float _get_m_DoubleClickDelay();
+    // Set instance field: private System.Single m_DoubleClickDelay
+    void _set_m_DoubleClickDelay(float value);
+    // Get instance field: protected TMPro.TMP_FontAsset m_GlobalFontAsset
+    TMPro::TMP_FontAsset* _get_m_GlobalFontAsset();
+    // Set instance field: protected TMPro.TMP_FontAsset m_GlobalFontAsset
+    void _set_m_GlobalFontAsset(TMPro::TMP_FontAsset* value);
+    // Get instance field: protected System.Boolean m_OnFocusSelectAll
+    bool _get_m_OnFocusSelectAll();
+    // Set instance field: protected System.Boolean m_OnFocusSelectAll
+    void _set_m_OnFocusSelectAll(bool value);
+    // Get instance field: protected System.Boolean m_isSelectAll
+    bool _get_m_isSelectAll();
+    // Set instance field: protected System.Boolean m_isSelectAll
+    void _set_m_isSelectAll(bool value);
+    // Get instance field: protected System.Boolean m_ResetOnDeActivation
+    bool _get_m_ResetOnDeActivation();
+    // Set instance field: protected System.Boolean m_ResetOnDeActivation
+    void _set_m_ResetOnDeActivation(bool value);
+    // Get instance field: private System.Boolean m_SelectionStillActive
+    bool _get_m_SelectionStillActive();
+    // Set instance field: private System.Boolean m_SelectionStillActive
+    void _set_m_SelectionStillActive(bool value);
+    // Get instance field: private System.Boolean m_ReleaseSelection
+    bool _get_m_ReleaseSelection();
+    // Set instance field: private System.Boolean m_ReleaseSelection
+    void _set_m_ReleaseSelection(bool value);
+    // Get instance field: private UnityEngine.GameObject m_SelectedObject
+    UnityEngine::GameObject* _get_m_SelectedObject();
+    // Set instance field: private UnityEngine.GameObject m_SelectedObject
+    void _set_m_SelectedObject(UnityEngine::GameObject* value);
+    // Get instance field: private System.Boolean m_RestoreOriginalTextOnEscape
+    bool _get_m_RestoreOriginalTextOnEscape();
+    // Set instance field: private System.Boolean m_RestoreOriginalTextOnEscape
+    void _set_m_RestoreOriginalTextOnEscape(bool value);
+    // Get instance field: protected System.Boolean m_isRichTextEditingAllowed
+    bool _get_m_isRichTextEditingAllowed();
+    // Set instance field: protected System.Boolean m_isRichTextEditingAllowed
+    void _set_m_isRichTextEditingAllowed(bool value);
+    // Get instance field: protected System.Int32 m_LineLimit
+    int _get_m_LineLimit();
+    // Set instance field: protected System.Int32 m_LineLimit
+    void _set_m_LineLimit(int value);
+    // Get instance field: protected TMPro.TMP_InputValidator m_InputValidator
+    TMPro::TMP_InputValidator* _get_m_InputValidator();
+    // Set instance field: protected TMPro.TMP_InputValidator m_InputValidator
+    void _set_m_InputValidator(TMPro::TMP_InputValidator* value);
+    // Get instance field: private System.Boolean m_isSelected
+    bool _get_m_isSelected();
+    // Set instance field: private System.Boolean m_isSelected
+    void _set_m_isSelected(bool value);
+    // Get instance field: private System.Boolean m_IsStringPositionDirty
+    bool _get_m_IsStringPositionDirty();
+    // Set instance field: private System.Boolean m_IsStringPositionDirty
+    void _set_m_IsStringPositionDirty(bool value);
+    // Get instance field: private System.Boolean m_IsCaretPositionDirty
+    bool _get_m_IsCaretPositionDirty();
+    // Set instance field: private System.Boolean m_IsCaretPositionDirty
+    void _set_m_IsCaretPositionDirty(bool value);
+    // Get instance field: private System.Boolean m_forceRectTransformAdjustment
+    bool _get_m_forceRectTransformAdjustment();
+    // Set instance field: private System.Boolean m_forceRectTransformAdjustment
+    void _set_m_forceRectTransformAdjustment(bool value);
+    // Get instance field: private UnityEngine.Event m_ProcessingEvent
+    UnityEngine::Event* _get_m_ProcessingEvent();
+    // Set instance field: private UnityEngine.Event m_ProcessingEvent
+    void _set_m_ProcessingEvent(UnityEngine::Event* value);
     // private UnityEngine.EventSystems.BaseInput get_inputSystem()
     // Offset: 0x10C954C
     UnityEngine::EventSystems::BaseInput* get_inputSystem();

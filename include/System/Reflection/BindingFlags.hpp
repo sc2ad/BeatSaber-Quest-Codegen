@@ -153,6 +153,10 @@ namespace System::Reflection {
     static System::Reflection::BindingFlags _get_IgnoreReturn();
     // Set static field: static public System.Reflection.BindingFlags IgnoreReturn
     static void _set_IgnoreReturn(System::Reflection::BindingFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Reflection.BindingFlags
   #pragma pack(pop)
   static check_size<sizeof(BindingFlags), 0 + sizeof(int)> __System_Reflection_BindingFlagsSizeCheck;

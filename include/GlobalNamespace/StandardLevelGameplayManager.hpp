@@ -105,6 +105,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::StandardLevelGameplayManager::GameState _get_Failed();
       // Set static field: static public StandardLevelGameplayManager/GameState Failed
       static void _set_Failed(GlobalNamespace::StandardLevelGameplayManager::GameState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // StandardLevelGameplayManager/GameState
     #pragma pack(pop)
     static check_size<sizeof(StandardLevelGameplayManager::GameState), 0 + sizeof(int)> __GlobalNamespace_StandardLevelGameplayManager_GameStateSizeCheck;
@@ -170,6 +174,38 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private readonly GameSongController _gameSongController
+    GlobalNamespace::GameSongController* _get__gameSongController();
+    // Set instance field: private readonly GameSongController _gameSongController
+    void _set__gameSongController(GlobalNamespace::GameSongController* value);
+    // Get instance field: private readonly GameEnergyCounter _gameEnergyCounter
+    GlobalNamespace::GameEnergyCounter* _get__gameEnergyCounter();
+    // Set instance field: private readonly GameEnergyCounter _gameEnergyCounter
+    void _set__gameEnergyCounter(GlobalNamespace::GameEnergyCounter* value);
+    // Get instance field: private readonly PauseController _pauseController
+    GlobalNamespace::PauseController* _get__pauseController();
+    // Set instance field: private readonly PauseController _pauseController
+    void _set__pauseController(GlobalNamespace::PauseController* value);
+    // Get instance field: private readonly StandardLevelGameplayManager/InitData _initData
+    GlobalNamespace::StandardLevelGameplayManager::InitData* _get__initData();
+    // Set instance field: private readonly StandardLevelGameplayManager/InitData _initData
+    void _set__initData(GlobalNamespace::StandardLevelGameplayManager::InitData* value);
+    // Get instance field: private System.Action levelFailedEvent
+    System::Action* _get_levelFailedEvent();
+    // Set instance field: private System.Action levelFailedEvent
+    void _set_levelFailedEvent(System::Action* value);
+    // Get instance field: private System.Action levelFinishedEvent
+    System::Action* _get_levelFinishedEvent();
+    // Set instance field: private System.Action levelFinishedEvent
+    void _set_levelFinishedEvent(System::Action* value);
+    // Get instance field: private StandardLevelGameplayManager/GameState _gameState
+    GlobalNamespace::StandardLevelGameplayManager::GameState _get__gameState();
+    // Set instance field: private StandardLevelGameplayManager/GameState _gameState
+    void _set__gameState(GlobalNamespace::StandardLevelGameplayManager::GameState value);
     // public System.Void add_levelFailedEvent(System.Action value)
     // Offset: 0x1064F08
     void add_levelFailedEvent(System::Action* value);

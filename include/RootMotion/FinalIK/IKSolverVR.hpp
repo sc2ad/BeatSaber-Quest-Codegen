@@ -284,6 +284,150 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: IKSolverVR
     IKSolverVR(::Array<UnityEngine::Transform*>* solverTransforms_ = {}, bool hasChest_ = {}, bool hasNeck_ = {}, bool hasShoulders_ = {}, bool hasToes_ = {}, bool hasLegs_ = {}, ::Array<UnityEngine::Vector3>* readPositions_ = {}, ::Array<UnityEngine::Quaternion>* readRotations_ = {}, ::Array<UnityEngine::Vector3>* solvedPositions_ = {}, ::Array<UnityEngine::Quaternion>* solvedRotations_ = {}, ::Array<UnityEngine::Quaternion>* defaultLocalRotations_ = {}, ::Array<UnityEngine::Vector3>* defaultLocalPositions_ = {}, UnityEngine::Vector3 rootV_ = {}, UnityEngine::Vector3 rootVelocity_ = {}, UnityEngine::Vector3 bodyOffset_ = {}, int supportLegIndex_ = {}, int lastLOD_ = {}, int LOD_ = {}, bool plantFeet_ = {}, RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone_ = {}, RootMotion::FinalIK::IKSolverVR::Spine* spine_ = {}, RootMotion::FinalIK::IKSolverVR::Arm* leftArm_ = {}, RootMotion::FinalIK::IKSolverVR::Arm* rightArm_ = {}, RootMotion::FinalIK::IKSolverVR::Leg* leftLeg_ = {}, RootMotion::FinalIK::IKSolverVR::Leg* rightLeg_ = {}, RootMotion::FinalIK::IKSolverVR::Locomotion* locomotion_ = {}, ::Array<RootMotion::FinalIK::IKSolverVR::Leg*>* legs_ = {}, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>* arms_ = {}, UnityEngine::Vector3 headPosition_ = {}, UnityEngine::Vector3 headDeltaPosition_ = {}, UnityEngine::Vector3 raycastOriginPelvis_ = {}, UnityEngine::Vector3 lastOffset_ = {}, UnityEngine::Vector3 debugPos1_ = {}, UnityEngine::Vector3 debugPos2_ = {}, UnityEngine::Vector3 debugPos3_ = {}, UnityEngine::Vector3 debugPos4_ = {}) noexcept : solverTransforms{solverTransforms_}, hasChest{hasChest_}, hasNeck{hasNeck_}, hasShoulders{hasShoulders_}, hasToes{hasToes_}, hasLegs{hasLegs_}, readPositions{readPositions_}, readRotations{readRotations_}, solvedPositions{solvedPositions_}, solvedRotations{solvedRotations_}, defaultLocalRotations{defaultLocalRotations_}, defaultLocalPositions{defaultLocalPositions_}, rootV{rootV_}, rootVelocity{rootVelocity_}, bodyOffset{bodyOffset_}, supportLegIndex{supportLegIndex_}, lastLOD{lastLOD_}, LOD{LOD_}, plantFeet{plantFeet_}, rootBone{rootBone_}, spine{spine_}, leftArm{leftArm_}, rightArm{rightArm_}, leftLeg{leftLeg_}, rightLeg{rightLeg_}, locomotion{locomotion_}, legs{legs_}, arms{arms_}, headPosition{headPosition_}, headDeltaPosition{headDeltaPosition_}, raycastOriginPelvis{raycastOriginPelvis_}, lastOffset{lastOffset_}, debugPos1{debugPos1_}, debugPos2{debugPos2_}, debugPos3{debugPos3_}, debugPos4{debugPos4_} {}
+    // Get instance field: private UnityEngine.Transform[] solverTransforms
+    ::Array<UnityEngine::Transform*>* _get_solverTransforms();
+    // Set instance field: private UnityEngine.Transform[] solverTransforms
+    void _set_solverTransforms(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: private System.Boolean hasChest
+    bool _get_hasChest();
+    // Set instance field: private System.Boolean hasChest
+    void _set_hasChest(bool value);
+    // Get instance field: private System.Boolean hasNeck
+    bool _get_hasNeck();
+    // Set instance field: private System.Boolean hasNeck
+    void _set_hasNeck(bool value);
+    // Get instance field: private System.Boolean hasShoulders
+    bool _get_hasShoulders();
+    // Set instance field: private System.Boolean hasShoulders
+    void _set_hasShoulders(bool value);
+    // Get instance field: private System.Boolean hasToes
+    bool _get_hasToes();
+    // Set instance field: private System.Boolean hasToes
+    void _set_hasToes(bool value);
+    // Get instance field: private System.Boolean hasLegs
+    bool _get_hasLegs();
+    // Set instance field: private System.Boolean hasLegs
+    void _set_hasLegs(bool value);
+    // Get instance field: private UnityEngine.Vector3[] readPositions
+    ::Array<UnityEngine::Vector3>* _get_readPositions();
+    // Set instance field: private UnityEngine.Vector3[] readPositions
+    void _set_readPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Quaternion[] readRotations
+    ::Array<UnityEngine::Quaternion>* _get_readRotations();
+    // Set instance field: private UnityEngine.Quaternion[] readRotations
+    void _set_readRotations(::Array<UnityEngine::Quaternion>* value);
+    // Get instance field: private UnityEngine.Vector3[] solvedPositions
+    ::Array<UnityEngine::Vector3>* _get_solvedPositions();
+    // Set instance field: private UnityEngine.Vector3[] solvedPositions
+    void _set_solvedPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Quaternion[] solvedRotations
+    ::Array<UnityEngine::Quaternion>* _get_solvedRotations();
+    // Set instance field: private UnityEngine.Quaternion[] solvedRotations
+    void _set_solvedRotations(::Array<UnityEngine::Quaternion>* value);
+    // Get instance field: private UnityEngine.Quaternion[] defaultLocalRotations
+    ::Array<UnityEngine::Quaternion>* _get_defaultLocalRotations();
+    // Set instance field: private UnityEngine.Quaternion[] defaultLocalRotations
+    void _set_defaultLocalRotations(::Array<UnityEngine::Quaternion>* value);
+    // Get instance field: private UnityEngine.Vector3[] defaultLocalPositions
+    ::Array<UnityEngine::Vector3>* _get_defaultLocalPositions();
+    // Set instance field: private UnityEngine.Vector3[] defaultLocalPositions
+    void _set_defaultLocalPositions(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Vector3 rootV
+    UnityEngine::Vector3 _get_rootV();
+    // Set instance field: private UnityEngine.Vector3 rootV
+    void _set_rootV(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 rootVelocity
+    UnityEngine::Vector3 _get_rootVelocity();
+    // Set instance field: private UnityEngine.Vector3 rootVelocity
+    void _set_rootVelocity(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 bodyOffset
+    UnityEngine::Vector3 _get_bodyOffset();
+    // Set instance field: private UnityEngine.Vector3 bodyOffset
+    void _set_bodyOffset(UnityEngine::Vector3 value);
+    // Get instance field: private System.Int32 supportLegIndex
+    int _get_supportLegIndex();
+    // Set instance field: private System.Int32 supportLegIndex
+    void _set_supportLegIndex(int value);
+    // Get instance field: private System.Int32 lastLOD
+    int _get_lastLOD();
+    // Set instance field: private System.Int32 lastLOD
+    void _set_lastLOD(int value);
+    // Get instance field: public System.Int32 LOD
+    int _get_LOD();
+    // Set instance field: public System.Int32 LOD
+    void _set_LOD(int value);
+    // Get instance field: public System.Boolean plantFeet
+    bool _get_plantFeet();
+    // Set instance field: public System.Boolean plantFeet
+    void _set_plantFeet(bool value);
+    // Get instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone <rootBone>k__BackingField
+    RootMotion::FinalIK::IKSolverVR::VirtualBone* _get_$rootBone$k__BackingField();
+    // Set instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone <rootBone>k__BackingField
+    void _set_$rootBone$k__BackingField(RootMotion::FinalIK::IKSolverVR::VirtualBone* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Spine spine
+    RootMotion::FinalIK::IKSolverVR::Spine* _get_spine();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Spine spine
+    void _set_spine(RootMotion::FinalIK::IKSolverVR::Spine* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm leftArm
+    RootMotion::FinalIK::IKSolverVR::Arm* _get_leftArm();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm leftArm
+    void _set_leftArm(RootMotion::FinalIK::IKSolverVR::Arm* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm rightArm
+    RootMotion::FinalIK::IKSolverVR::Arm* _get_rightArm();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm rightArm
+    void _set_rightArm(RootMotion::FinalIK::IKSolverVR::Arm* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leftLeg
+    RootMotion::FinalIK::IKSolverVR::Leg* _get_leftLeg();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leftLeg
+    void _set_leftLeg(RootMotion::FinalIK::IKSolverVR::Leg* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg rightLeg
+    RootMotion::FinalIK::IKSolverVR::Leg* _get_rightLeg();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg rightLeg
+    void _set_rightLeg(RootMotion::FinalIK::IKSolverVR::Leg* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Locomotion locomotion
+    RootMotion::FinalIK::IKSolverVR::Locomotion* _get_locomotion();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Locomotion locomotion
+    void _set_locomotion(RootMotion::FinalIK::IKSolverVR::Locomotion* value);
+    // Get instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg[] legs
+    ::Array<RootMotion::FinalIK::IKSolverVR::Leg*>* _get_legs();
+    // Set instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg[] legs
+    void _set_legs(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>* value);
+    // Get instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm[] arms
+    ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>* _get_arms();
+    // Set instance field: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm[] arms
+    void _set_arms(::Array<RootMotion::FinalIK::IKSolverVR::Arm*>* value);
+    // Get instance field: private UnityEngine.Vector3 headPosition
+    UnityEngine::Vector3 _get_headPosition();
+    // Set instance field: private UnityEngine.Vector3 headPosition
+    void _set_headPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 headDeltaPosition
+    UnityEngine::Vector3 _get_headDeltaPosition();
+    // Set instance field: private UnityEngine.Vector3 headDeltaPosition
+    void _set_headDeltaPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 raycastOriginPelvis
+    UnityEngine::Vector3 _get_raycastOriginPelvis();
+    // Set instance field: private UnityEngine.Vector3 raycastOriginPelvis
+    void _set_raycastOriginPelvis(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 lastOffset
+    UnityEngine::Vector3 _get_lastOffset();
+    // Set instance field: private UnityEngine.Vector3 lastOffset
+    void _set_lastOffset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 debugPos1
+    UnityEngine::Vector3 _get_debugPos1();
+    // Set instance field: private UnityEngine.Vector3 debugPos1
+    void _set_debugPos1(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 debugPos2
+    UnityEngine::Vector3 _get_debugPos2();
+    // Set instance field: private UnityEngine.Vector3 debugPos2
+    void _set_debugPos2(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 debugPos3
+    UnityEngine::Vector3 _get_debugPos3();
+    // Set instance field: private UnityEngine.Vector3 debugPos3
+    void _set_debugPos3(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 debugPos4
+    UnityEngine::Vector3 _get_debugPos4();
+    // Set instance field: private UnityEngine.Vector3 debugPos4
+    void _set_debugPos4(UnityEngine::Vector3 value);
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_rootBone()
     // Offset: 0x1C72C6C
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_rootBone();

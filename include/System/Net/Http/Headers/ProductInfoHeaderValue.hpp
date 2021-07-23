@@ -52,6 +52,14 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.String <Comment>k__BackingField
+    ::Il2CppString* _get_$Comment$k__BackingField();
+    // Set instance field: private System.String <Comment>k__BackingField
+    void _set_$Comment$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Net.Http.Headers.ProductHeaderValue <Product>k__BackingField
+    System::Net::Http::Headers::ProductHeaderValue* _get_$Product$k__BackingField();
+    // Set instance field: private System.Net.Http.Headers.ProductHeaderValue <Product>k__BackingField
+    void _set_$Product$k__BackingField(System::Net::Http::Headers::ProductHeaderValue* value);
     // public System.String get_Comment()
     // Offset: 0x156B0EC
     ::Il2CppString* get_Comment();

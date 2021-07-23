@@ -171,6 +171,74 @@ namespace UnityEngine {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: private UnityEngine.Vector3 m_Position
+      UnityEngine::Vector3 _get_m_Position();
+      // Set instance field: private UnityEngine.Vector3 m_Position
+      void _set_m_Position(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Vector3 m_Velocity
+      UnityEngine::Vector3 _get_m_Velocity();
+      // Set instance field: private UnityEngine.Vector3 m_Velocity
+      void _set_m_Velocity(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Vector3 m_AnimatedVelocity
+      UnityEngine::Vector3 _get_m_AnimatedVelocity();
+      // Set instance field: private UnityEngine.Vector3 m_AnimatedVelocity
+      void _set_m_AnimatedVelocity(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Vector3 m_InitialVelocity
+      UnityEngine::Vector3 _get_m_InitialVelocity();
+      // Set instance field: private UnityEngine.Vector3 m_InitialVelocity
+      void _set_m_InitialVelocity(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Vector3 m_AxisOfRotation
+      UnityEngine::Vector3 _get_m_AxisOfRotation();
+      // Set instance field: private UnityEngine.Vector3 m_AxisOfRotation
+      void _set_m_AxisOfRotation(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Vector3 m_Rotation
+      UnityEngine::Vector3 _get_m_Rotation();
+      // Set instance field: private UnityEngine.Vector3 m_Rotation
+      void _set_m_Rotation(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Vector3 m_AngularVelocity
+      UnityEngine::Vector3 _get_m_AngularVelocity();
+      // Set instance field: private UnityEngine.Vector3 m_AngularVelocity
+      void _set_m_AngularVelocity(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Vector3 m_StartSize
+      UnityEngine::Vector3 _get_m_StartSize();
+      // Set instance field: private UnityEngine.Vector3 m_StartSize
+      void _set_m_StartSize(UnityEngine::Vector3 value);
+      // Get instance field: private UnityEngine.Color32 m_StartColor
+      UnityEngine::Color32 _get_m_StartColor();
+      // Set instance field: private UnityEngine.Color32 m_StartColor
+      void _set_m_StartColor(UnityEngine::Color32 value);
+      // Get instance field: private System.UInt32 m_RandomSeed
+      uint _get_m_RandomSeed();
+      // Set instance field: private System.UInt32 m_RandomSeed
+      void _set_m_RandomSeed(uint value);
+      // Get instance field: private System.UInt32 m_ParentRandomSeed
+      uint _get_m_ParentRandomSeed();
+      // Set instance field: private System.UInt32 m_ParentRandomSeed
+      void _set_m_ParentRandomSeed(uint value);
+      // Get instance field: private System.Single m_Lifetime
+      float _get_m_Lifetime();
+      // Set instance field: private System.Single m_Lifetime
+      void _set_m_Lifetime(float value);
+      // Get instance field: private System.Single m_StartLifetime
+      float _get_m_StartLifetime();
+      // Set instance field: private System.Single m_StartLifetime
+      void _set_m_StartLifetime(float value);
+      // Get instance field: private System.Int32 m_MeshIndex
+      int _get_m_MeshIndex();
+      // Set instance field: private System.Int32 m_MeshIndex
+      void _set_m_MeshIndex(int value);
+      // Get instance field: private System.Single m_EmitAccumulator0
+      float _get_m_EmitAccumulator0();
+      // Set instance field: private System.Single m_EmitAccumulator0
+      void _set_m_EmitAccumulator0(float value);
+      // Get instance field: private System.Single m_EmitAccumulator1
+      float _get_m_EmitAccumulator1();
+      // Set instance field: private System.Single m_EmitAccumulator1
+      void _set_m_EmitAccumulator1(float value);
+      // Get instance field: private System.UInt32 m_Flags
+      uint _get_m_Flags();
+      // Set instance field: private System.UInt32 m_Flags
+      void _set_m_Flags(uint value);
       // public System.Void set_lifetime(System.Single value)
       // Offset: 0xF0F0BC
       void set_lifetime(float value);

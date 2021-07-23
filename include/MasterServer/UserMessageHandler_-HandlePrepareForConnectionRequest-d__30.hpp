@@ -77,6 +77,30 @@ namespace MasterServer {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public MasterServer.UserMessageHandler <>4__this
+    MasterServer::UserMessageHandler* _get_$$4__this();
+    // Set instance field: public MasterServer.UserMessageHandler <>4__this
+    void _set_$$4__this(MasterServer::UserMessageHandler* value);
+    // Get instance field: public MasterServer.PrepareForConnectionRequest packet
+    MasterServer::PrepareForConnectionRequest* _get_packet();
+    // Set instance field: public MasterServer.PrepareForConnectionRequest packet
+    void _set_packet(MasterServer::PrepareForConnectionRequest* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<IDiffieHellmanKeyPair> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> value);
     // private System.Void MoveNext()
     // Offset: 0xED3CC4
     void MoveNext();

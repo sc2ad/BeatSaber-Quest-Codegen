@@ -58,6 +58,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
     // Creating value type constructor for type: LightsRenderingData
     LightsRenderingData(UnityEngine::Mesh* mesh_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<UnityEngine::Color>* colors_ = {}, ::Array<UnityEngine::Vector4>* viewPos_ = {}) noexcept : mesh{mesh_}, vertices{vertices_}, colors{colors_}, viewPos{viewPos_} {}
+    // Get instance field: public UnityEngine.Mesh mesh
+    UnityEngine::Mesh* _get_mesh();
+    // Set instance field: public UnityEngine.Mesh mesh
+    void _set_mesh(UnityEngine::Mesh* value);
+    // Get instance field: public UnityEngine.Vector3[] vertices
+    ::Array<UnityEngine::Vector3>* _get_vertices();
+    // Set instance field: public UnityEngine.Vector3[] vertices
+    void _set_vertices(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: public UnityEngine.Color[] colors
+    ::Array<UnityEngine::Color>* _get_colors();
+    // Set instance field: public UnityEngine.Color[] colors
+    void _set_colors(::Array<UnityEngine::Color>* value);
+    // Get instance field: public UnityEngine.Vector4[] viewPos
+    ::Array<UnityEngine::Vector4>* _get_viewPos();
+    // Set instance field: public UnityEngine.Vector4[] viewPos
+    void _set_viewPos(::Array<UnityEngine::Vector4>* value);
     // public System.Void .ctor()
     // Offset: 0x1DEE614
     // Implemented from: System.Object

@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     TextMeshProAutosizeGroup(::Array<TMPro::TMP_Text*>* texts_ = {}) noexcept : texts{texts_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TMP_Text[] _texts
+    ::Array<TMPro::TMP_Text*>* _get__texts();
+    // Set instance field: private TMPro.TMP_Text[] _texts
+    void _set__texts(::Array<TMPro::TMP_Text*>* value);
     // protected System.Void Start()
     // Offset: 0x2358EC8
     void Start();

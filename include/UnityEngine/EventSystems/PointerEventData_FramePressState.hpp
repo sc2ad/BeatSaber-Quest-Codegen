@@ -57,6 +57,10 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::PointerEventData::FramePressState _get_NotChanged();
     // Set static field: static public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState NotChanged
     static void _set_NotChanged(UnityEngine::EventSystems::PointerEventData::FramePressState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState
   #pragma pack(pop)
   static check_size<sizeof(PointerEventData::FramePressState), 0 + sizeof(int)> __UnityEngine_EventSystems_PointerEventData_FramePressStateSizeCheck;

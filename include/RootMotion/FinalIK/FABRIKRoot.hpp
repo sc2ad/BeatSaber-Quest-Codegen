@@ -40,6 +40,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverFABRIKRoot*) == 0x8);
     // Creating value type constructor for type: FABRIKRoot
     FABRIKRoot(RootMotion::FinalIK::IKSolverFABRIKRoot* solver_ = {}) noexcept : solver{solver_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverFABRIKRoot solver
+    RootMotion::FinalIK::IKSolverFABRIKRoot* _get_solver();
+    // Set instance field: public RootMotion.FinalIK.IKSolverFABRIKRoot solver
+    void _set_solver(RootMotion::FinalIK::IKSolverFABRIKRoot* value);
     // private System.Void SupportGroup()
     // Offset: 0x1CE1B60
     void SupportGroup();

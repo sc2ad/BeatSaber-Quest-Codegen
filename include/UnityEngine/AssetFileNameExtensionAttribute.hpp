@@ -46,6 +46,14 @@ namespace UnityEngine {
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: AssetFileNameExtensionAttribute
     AssetFileNameExtensionAttribute(::Il2CppString* preferredExtension_ = {}, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* otherExtensions_ = {}) noexcept : preferredExtension{preferredExtension_}, otherExtensions{otherExtensions_} {}
+    // Get instance field: private readonly System.String <preferredExtension>k__BackingField
+    ::Il2CppString* _get_$preferredExtension$k__BackingField();
+    // Set instance field: private readonly System.String <preferredExtension>k__BackingField
+    void _set_$preferredExtension$k__BackingField(::Il2CppString* value);
+    // Get instance field: private readonly System.Collections.Generic.IEnumerable`1<System.String> <otherExtensions>k__BackingField
+    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* _get_$otherExtensions$k__BackingField();
+    // Set instance field: private readonly System.Collections.Generic.IEnumerable`1<System.String> <otherExtensions>k__BackingField
+    void _set_$otherExtensions$k__BackingField(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
     // public System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
     // Offset: 0x23C1A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

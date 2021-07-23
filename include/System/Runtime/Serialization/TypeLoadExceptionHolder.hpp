@@ -29,6 +29,10 @@ namespace System::Runtime::Serialization {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_typeName;
     }
+    // Get instance field: private System.String m_typeName
+    ::Il2CppString* _get_m_typeName();
+    // Set instance field: private System.String m_typeName
+    void _set_m_typeName(::Il2CppString* value);
     // System.String get_TypeName()
     // Offset: 0x1684FF0
     ::Il2CppString* get_TypeName();

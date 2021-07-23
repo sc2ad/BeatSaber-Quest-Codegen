@@ -40,6 +40,10 @@ namespace NUnit::Framework::Internal {
     constexpr operator ::Il2CppString*() const noexcept {
       return text;
     }
+    // Get instance field: private System.String _text
+    ::Il2CppString* _get__text();
+    // Set instance field: private System.String _text
+    void _set__text(::Il2CppString* value);
     // public System.Void .ctor(System.String text)
     // Offset: 0x2240C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

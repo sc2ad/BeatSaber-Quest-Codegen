@@ -49,6 +49,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: ScoreData
     ScoreData(int score_ = {}, ::Il2CppString* playerName_ = {}, bool fullCombo_ = {}, int64_t timestamp_ = {}) noexcept : score{score_}, playerName{playerName_}, fullCombo{fullCombo_}, timestamp{timestamp_} {}
+    // Get instance field: public System.Int32 _score
+    int _get__score();
+    // Set instance field: public System.Int32 _score
+    void _set__score(int value);
+    // Get instance field: public System.String _playerName
+    ::Il2CppString* _get__playerName();
+    // Set instance field: public System.String _playerName
+    void _set__playerName(::Il2CppString* value);
+    // Get instance field: public System.Boolean _fullCombo
+    bool _get__fullCombo();
+    // Set instance field: public System.Boolean _fullCombo
+    void _set__fullCombo(bool value);
+    // Get instance field: public System.Int64 _timestamp
+    int64_t _get__timestamp();
+    // Set instance field: public System.Int64 _timestamp
+    void _set__timestamp(int64_t value);
     // public System.Void .ctor()
     // Offset: 0x11701B0
     // Implemented from: System.Object

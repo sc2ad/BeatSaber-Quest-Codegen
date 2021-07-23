@@ -50,6 +50,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MovementHistoryRecorder
     MovementHistoryRecorder(GlobalNamespace::AveragingValueRecorder* averagingValueRecorer_ = {}, float increaseSpeed_ = {}, float decreaseSpeed_ = {}, float accum_ = {}) noexcept : averagingValueRecorer{averagingValueRecorer_}, increaseSpeed{increaseSpeed_}, decreaseSpeed{decreaseSpeed_}, accum{accum_} {}
+    // Get instance field: private AveragingValueRecorder _averagingValueRecorer
+    GlobalNamespace::AveragingValueRecorder* _get__averagingValueRecorer();
+    // Set instance field: private AveragingValueRecorder _averagingValueRecorer
+    void _set__averagingValueRecorer(GlobalNamespace::AveragingValueRecorder* value);
+    // Get instance field: private System.Single _increaseSpeed
+    float _get__increaseSpeed();
+    // Set instance field: private System.Single _increaseSpeed
+    void _set__increaseSpeed(float value);
+    // Get instance field: private System.Single _decreaseSpeed
+    float _get__decreaseSpeed();
+    // Set instance field: private System.Single _decreaseSpeed
+    void _set__decreaseSpeed(float value);
+    // Get instance field: private System.Single _accum
+    float _get__accum();
+    // Set instance field: private System.Single _accum
+    void _set__accum(float value);
     // public AveragingValueRecorder get_averagingValueRecorer()
     // Offset: 0x119A3F8
     GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();

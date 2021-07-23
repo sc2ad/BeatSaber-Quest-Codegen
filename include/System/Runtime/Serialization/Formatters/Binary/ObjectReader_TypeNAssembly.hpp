@@ -40,6 +40,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: TypeNAssembly
     TypeNAssembly(System::Type* type_ = {}, ::Il2CppString* assemblyName_ = {}) noexcept : type{type_}, assemblyName{assemblyName_} {}
+    // Get instance field: public System.Type type
+    System::Type* _get_type();
+    // Set instance field: public System.Type type
+    void _set_type(System::Type* value);
+    // Get instance field: public System.String assemblyName
+    ::Il2CppString* _get_assemblyName();
+    // Set instance field: public System.String assemblyName
+    void _set_assemblyName(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x15E2464
     // Implemented from: System.Object

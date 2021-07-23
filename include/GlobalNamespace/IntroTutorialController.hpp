@@ -138,6 +138,58 @@ namespace GlobalNamespace {
     IntroTutorialController(GlobalNamespace::IntroTutorialRing* redRing_ = {}, GlobalNamespace::IntroTutorialRing* blueRing_ = {}, UnityEngine::GameObject* redRingWrapper_ = {}, UnityEngine::GameObject* blueRingWrapper_ = {}, UnityEngine::CanvasGroup* textCanvasGroup_ = {}, UnityEngine::ParticleSystem* shockWavePS_ = {}, GlobalNamespace::BloomFogEnvironmentParams* finishForParams_ = {}, GlobalNamespace::BloomFogParamsAnimator* bloomFogAnimator_ = {}, GlobalNamespace::IGamePause* gamePause_ = {}, System::Action* introTutorialDidFinishEvent_ = {}, bool showingFinishAnimation_ = {}, bool redRingWrapperActive_ = {}, bool blueRingWrapperActive_ = {}) noexcept : redRing{redRing_}, blueRing{blueRing_}, redRingWrapper{redRingWrapper_}, blueRingWrapper{blueRingWrapper_}, textCanvasGroup{textCanvasGroup_}, shockWavePS{shockWavePS_}, finishForParams{finishForParams_}, bloomFogAnimator{bloomFogAnimator_}, gamePause{gamePause_}, introTutorialDidFinishEvent{introTutorialDidFinishEvent_}, showingFinishAnimation{showingFinishAnimation_}, redRingWrapperActive{redRingWrapperActive_}, blueRingWrapperActive{blueRingWrapperActive_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private IntroTutorialRing _redRing
+    GlobalNamespace::IntroTutorialRing* _get__redRing();
+    // Set instance field: private IntroTutorialRing _redRing
+    void _set__redRing(GlobalNamespace::IntroTutorialRing* value);
+    // Get instance field: private IntroTutorialRing _blueRing
+    GlobalNamespace::IntroTutorialRing* _get__blueRing();
+    // Set instance field: private IntroTutorialRing _blueRing
+    void _set__blueRing(GlobalNamespace::IntroTutorialRing* value);
+    // Get instance field: private UnityEngine.GameObject _redRingWrapper
+    UnityEngine::GameObject* _get__redRingWrapper();
+    // Set instance field: private UnityEngine.GameObject _redRingWrapper
+    void _set__redRingWrapper(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _blueRingWrapper
+    UnityEngine::GameObject* _get__blueRingWrapper();
+    // Set instance field: private UnityEngine.GameObject _blueRingWrapper
+    void _set__blueRingWrapper(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.CanvasGroup _textCanvasGroup
+    UnityEngine::CanvasGroup* _get__textCanvasGroup();
+    // Set instance field: private UnityEngine.CanvasGroup _textCanvasGroup
+    void _set__textCanvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: private UnityEngine.ParticleSystem _shockWavePS
+    UnityEngine::ParticleSystem* _get__shockWavePS();
+    // Set instance field: private UnityEngine.ParticleSystem _shockWavePS
+    void _set__shockWavePS(UnityEngine::ParticleSystem* value);
+    // Get instance field: private BloomFogEnvironmentParams _finishForParams
+    GlobalNamespace::BloomFogEnvironmentParams* _get__finishForParams();
+    // Set instance field: private BloomFogEnvironmentParams _finishForParams
+    void _set__finishForParams(GlobalNamespace::BloomFogEnvironmentParams* value);
+    // Get instance field: private readonly BloomFogParamsAnimator _bloomFogAnimator
+    GlobalNamespace::BloomFogParamsAnimator* _get__bloomFogAnimator();
+    // Set instance field: private readonly BloomFogParamsAnimator _bloomFogAnimator
+    void _set__bloomFogAnimator(GlobalNamespace::BloomFogParamsAnimator* value);
+    // Get instance field: private readonly IGamePause _gamePause
+    GlobalNamespace::IGamePause* _get__gamePause();
+    // Set instance field: private readonly IGamePause _gamePause
+    void _set__gamePause(GlobalNamespace::IGamePause* value);
+    // Get instance field: private System.Action introTutorialDidFinishEvent
+    System::Action* _get_introTutorialDidFinishEvent();
+    // Set instance field: private System.Action introTutorialDidFinishEvent
+    void _set_introTutorialDidFinishEvent(System::Action* value);
+    // Get instance field: private System.Boolean _showingFinishAnimation
+    bool _get__showingFinishAnimation();
+    // Set instance field: private System.Boolean _showingFinishAnimation
+    void _set__showingFinishAnimation(bool value);
+    // Get instance field: private System.Boolean _redRingWrapperActive
+    bool _get__redRingWrapperActive();
+    // Set instance field: private System.Boolean _redRingWrapperActive
+    void _set__redRingWrapperActive(bool value);
+    // Get instance field: private System.Boolean _blueRingWrapperActive
+    bool _get__blueRingWrapperActive();
+    // Set instance field: private System.Boolean _blueRingWrapperActive
+    void _set__blueRingWrapperActive(bool value);
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
     // Offset: 0x10ED714
     void add_introTutorialDidFinishEvent(System::Action* value);

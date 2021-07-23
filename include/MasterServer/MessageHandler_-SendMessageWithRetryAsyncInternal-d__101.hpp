@@ -152,6 +152,70 @@ namespace MasterServer {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
+    // Get instance field: public MasterServer.MessageHandler <>4__this
+    MasterServer::MessageHandler* _get_$$4__this();
+    // Set instance field: public MasterServer.MessageHandler <>4__this
+    void _set_$$4__this(MasterServer::MessageHandler* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint* _get_remoteEndPoint();
+    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
+    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public MasterServer.IMasterServerReliableRequest message
+    MasterServer::IMasterServerReliableRequest* _get_message();
+    // Set instance field: public MasterServer.IMasterServerReliableRequest message
+    void _set_message(MasterServer::IMasterServerReliableRequest* value);
+    // Get instance field: public System.UInt32 protocolVersion
+    uint _get_protocolVersion();
+    // Set instance field: public System.UInt32 protocolVersion
+    void _set_protocolVersion(uint value);
+    // Get instance field: public System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed
+    System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* _get_onSendFailed();
+    // Set instance field: public System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed
+    void _set_onSendFailed(System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>* value);
+    // Get instance field: private MasterServer.MessageHandler/MasterServer.SentRequestWaiter <sentRequest>5__2
+    MasterServer::MessageHandler::SentRequestWaiter* _get_$sentRequest$5__2();
+    // Set instance field: private MasterServer.MessageHandler/MasterServer.SentRequestWaiter <sentRequest>5__2
+    void _set_$sentRequest$5__2(MasterServer::MessageHandler::SentRequestWaiter* value);
+    // Get instance field: private MasterServer.MessageHandler/MasterServer.RequestWaiterId <waiterId>5__3
+    MasterServer::MessageHandler::RequestWaiterId _get_$waiterId$5__3();
+    // Set instance field: private MasterServer.MessageHandler/MasterServer.RequestWaiterId <waiterId>5__3
+    void _set_$waiterId$5__3(MasterServer::MessageHandler::RequestWaiterId value);
+    // Get instance field: private System.Boolean <shouldReleaseMessage>5__4
+    bool _get_$shouldReleaseMessage$5__4();
+    // Set instance field: private System.Boolean <shouldReleaseMessage>5__4
+    void _set_$shouldReleaseMessage$5__4(bool value);
+    // Get instance field: private System.Object <>7__wrap4
+    ::Il2CppObject* _get_$$7__wrap4();
+    // Set instance field: private System.Object <>7__wrap4
+    void _set_$$7__wrap4(::Il2CppObject* value);
+    // Get instance field: private System.Int32 <>7__wrap5
+    int _get_$$7__wrap5();
+    // Set instance field: private System.Int32 <>7__wrap5
+    void _set_$$7__wrap5(int value);
+    // Get instance field: private System.Int32 <i>5__7
+    int _get_$i$5__7();
+    // Set instance field: private System.Int32 <i>5__7
+    void _set_$i$5__7(int value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<System::Threading::Tasks::Task*> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.Task> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<System::Threading::Tasks::Task*> value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xED3B3C
     void MoveNext();

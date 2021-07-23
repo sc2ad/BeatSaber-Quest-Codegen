@@ -56,6 +56,14 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
+    // Get instance field: private System.MarshalByRefObject _target
+    System::MarshalByRefObject* _get__target();
+    // Set instance field: private System.MarshalByRefObject _target
+    void _set__target(System::MarshalByRefObject* value);
+    // Get instance field: private System.Runtime.Remoting.Proxies.RealProxy _rp
+    System::Runtime::Remoting::Proxies::RealProxy* _get__rp();
+    // Set instance field: private System.Runtime.Remoting.Proxies.RealProxy _rp
+    void _set__rp(System::Runtime::Remoting::Proxies::RealProxy* value);
     // public System.Void .ctor(System.MarshalByRefObject obj, System.Boolean forceInternalExecute)
     // Offset: 0x1A011B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

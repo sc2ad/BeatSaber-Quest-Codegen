@@ -54,6 +54,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SimpleTemporalFiltering
     SimpleTemporalFiltering(::Array<UnityEngine::RenderTexture*>* temporalFilteringTextures_ = {}, int prevTemporalFilteringTextureIdx_ = {}, UnityEngine::Material* temporalFilteringMaterial_ = {}, int bufferTexID_ = {}) noexcept : temporalFilteringTextures{temporalFilteringTextures_}, prevTemporalFilteringTextureIdx{prevTemporalFilteringTextureIdx_}, temporalFilteringMaterial{temporalFilteringMaterial_}, bufferTexID{bufferTexID_} {}
+    // Get instance field: private UnityEngine.RenderTexture[] _temporalFilteringTextures
+    ::Array<UnityEngine::RenderTexture*>* _get__temporalFilteringTextures();
+    // Set instance field: private UnityEngine.RenderTexture[] _temporalFilteringTextures
+    void _set__temporalFilteringTextures(::Array<UnityEngine::RenderTexture*>* value);
+    // Get instance field: private System.Int32 _prevTemporalFilteringTextureIdx
+    int _get__prevTemporalFilteringTextureIdx();
+    // Set instance field: private System.Int32 _prevTemporalFilteringTextureIdx
+    void _set__prevTemporalFilteringTextureIdx(int value);
+    // Get instance field: private UnityEngine.Material _temporalFilteringMaterial
+    UnityEngine::Material* _get__temporalFilteringMaterial();
+    // Set instance field: private UnityEngine.Material _temporalFilteringMaterial
+    void _set__temporalFilteringMaterial(UnityEngine::Material* value);
+    // Get instance field: private System.Int32 _bufferTexID
+    int _get__bufferTexID();
+    // Set instance field: private System.Int32 _bufferTexID
+    void _set__bufferTexID(int value);
     // public UnityEngine.RenderTexture FilterTexture(UnityEngine.RenderTexture src)
     // Offset: 0x2342CDC
     UnityEngine::RenderTexture* FilterTexture(UnityEngine::RenderTexture* src);

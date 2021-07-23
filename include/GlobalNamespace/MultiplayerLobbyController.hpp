@@ -82,6 +82,34 @@ namespace GlobalNamespace {
     MultiplayerLobbyController(float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}, GlobalNamespace::MultiplayerLobbyAvatarManager* multiplayerLobbyAvatarManager_ = {}, GlobalNamespace::MultiplayerLobbyCenterStageManager* multiplayerLobbyCenterStageManager_ = {}, GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* multiplayerLobbyAvatarPlaceManager_ = {}, GlobalNamespace::MenuEnvironmentManager* menuEnvironmentManager_ = {}, bool lobbyActivated_ = {}) noexcept : innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_}, multiplayerLobbyAvatarManager{multiplayerLobbyAvatarManager_}, multiplayerLobbyCenterStageManager{multiplayerLobbyCenterStageManager_}, multiplayerLobbyAvatarPlaceManager{multiplayerLobbyAvatarPlaceManager_}, menuEnvironmentManager{menuEnvironmentManager_}, lobbyActivated{lobbyActivated_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _innerCircleRadius
+    float _get__innerCircleRadius();
+    // Set instance field: private System.Single _innerCircleRadius
+    void _set__innerCircleRadius(float value);
+    // Get instance field: private System.Single _minOuterCircleRadius
+    float _get__minOuterCircleRadius();
+    // Set instance field: private System.Single _minOuterCircleRadius
+    void _set__minOuterCircleRadius(float value);
+    // Get instance field: private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
+    GlobalNamespace::MultiplayerLobbyAvatarManager* _get__multiplayerLobbyAvatarManager();
+    // Set instance field: private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
+    void _set__multiplayerLobbyAvatarManager(GlobalNamespace::MultiplayerLobbyAvatarManager* value);
+    // Get instance field: private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
+    GlobalNamespace::MultiplayerLobbyCenterStageManager* _get__multiplayerLobbyCenterStageManager();
+    // Set instance field: private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
+    void _set__multiplayerLobbyCenterStageManager(GlobalNamespace::MultiplayerLobbyCenterStageManager* value);
+    // Get instance field: private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
+    GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* _get__multiplayerLobbyAvatarPlaceManager();
+    // Set instance field: private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
+    void _set__multiplayerLobbyAvatarPlaceManager(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* value);
+    // Get instance field: private readonly MenuEnvironmentManager _menuEnvironmentManager
+    GlobalNamespace::MenuEnvironmentManager* _get__menuEnvironmentManager();
+    // Set instance field: private readonly MenuEnvironmentManager _menuEnvironmentManager
+    void _set__menuEnvironmentManager(GlobalNamespace::MenuEnvironmentManager* value);
+    // Get instance field: private System.Boolean <lobbyActivated>k__BackingField
+    bool _get_$lobbyActivated$k__BackingField();
+    // Set instance field: private System.Boolean <lobbyActivated>k__BackingField
+    void _set_$lobbyActivated$k__BackingField(bool value);
     // public System.Boolean get_lobbyActivated()
     // Offset: 0x23D1438
     bool get_lobbyActivated();

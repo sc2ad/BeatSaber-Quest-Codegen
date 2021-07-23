@@ -175,6 +175,74 @@ namespace GlobalNamespace {
     RichPresenceManager(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::ScenesTransitionSetupDataSO* tutorialScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData_ = {}, GlobalNamespace::IRichPresencePlatformHandler* richPresencePlatformHandler_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, bool menuWasLoaded_ = {}, bool isInMultiplayerLobby_ = {}, GlobalNamespace::BrowsingMenusRichPresenceData* browsingMenusRichPresenceData_ = {}, GlobalNamespace::InMultiplayerRichPresenceData* inMultiplayerRichPresenceData_ = {}, GlobalNamespace::PlayingCampaignRichPresenceData* playingCampaignRichPresenceData_ = {}, GlobalNamespace::PlayingTutorialPresenceData* playingTutorialPresenceData_ = {}, GlobalNamespace::IRichPresenceData* currentPresenceData_ = {}) noexcept : standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, tutorialScenesTransitionSetupData{tutorialScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, menuScenesTransitionSetupData{menuScenesTransitionSetupData_}, richPresencePlatformHandler{richPresencePlatformHandler_}, gameScenesManager{gameScenesManager_}, lobbyGameStateModel{lobbyGameStateModel_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, playerDataModel{playerDataModel_}, menuWasLoaded{menuWasLoaded_}, isInMultiplayerLobby{isInMultiplayerLobby_}, browsingMenusRichPresenceData{browsingMenusRichPresenceData_}, inMultiplayerRichPresenceData{inMultiplayerRichPresenceData_}, playingCampaignRichPresenceData{playingCampaignRichPresenceData_}, playingTutorialPresenceData{playingTutorialPresenceData_}, currentPresenceData{currentPresenceData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelScenesTransitionSetupData();
+    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
+    void _set__standardLevelScenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private ScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
+    GlobalNamespace::ScenesTransitionSetupDataSO* _get__tutorialScenesTransitionSetupData();
+    // Set instance field: private ScenesTransitionSetupDataSO _tutorialScenesTransitionSetupData
+    void _set__tutorialScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
+    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelScenesTransitionSetupData();
+    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
+    void _set__missionLevelScenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _get__multiplayerLevelScenesTransitionSetupData();
+    // Set instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    void _set__multiplayerLevelScenesTransitionSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
+    GlobalNamespace::MenuScenesTransitionSetupDataSO* _get__menuScenesTransitionSetupData();
+    // Set instance field: private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
+    void _set__menuScenesTransitionSetupData(GlobalNamespace::MenuScenesTransitionSetupDataSO* value);
+    // Get instance field: private readonly IRichPresencePlatformHandler _richPresencePlatformHandler
+    GlobalNamespace::IRichPresencePlatformHandler* _get__richPresencePlatformHandler();
+    // Set instance field: private readonly IRichPresencePlatformHandler _richPresencePlatformHandler
+    void _set__richPresencePlatformHandler(GlobalNamespace::IRichPresencePlatformHandler* value);
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private readonly LobbyGameStateModel _lobbyGameStateModel
+    GlobalNamespace::LobbyGameStateModel* _get__lobbyGameStateModel();
+    // Set instance field: private readonly LobbyGameStateModel _lobbyGameStateModel
+    void _set__lobbyGameStateModel(GlobalNamespace::LobbyGameStateModel* value);
+    // Get instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
+    GlobalNamespace::IUnifiedNetworkPlayerModel* _get__unifiedNetworkPlayerModel();
+    // Set instance field: private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
+    void _set__unifiedNetworkPlayerModel(GlobalNamespace::IUnifiedNetworkPlayerModel* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private System.Boolean _menuWasLoaded
+    bool _get__menuWasLoaded();
+    // Set instance field: private System.Boolean _menuWasLoaded
+    void _set__menuWasLoaded(bool value);
+    // Get instance field: private System.Boolean _isInMultiplayerLobby
+    bool _get__isInMultiplayerLobby();
+    // Set instance field: private System.Boolean _isInMultiplayerLobby
+    void _set__isInMultiplayerLobby(bool value);
+    // Get instance field: private BrowsingMenusRichPresenceData _browsingMenusRichPresenceData
+    GlobalNamespace::BrowsingMenusRichPresenceData* _get__browsingMenusRichPresenceData();
+    // Set instance field: private BrowsingMenusRichPresenceData _browsingMenusRichPresenceData
+    void _set__browsingMenusRichPresenceData(GlobalNamespace::BrowsingMenusRichPresenceData* value);
+    // Get instance field: private InMultiplayerRichPresenceData _inMultiplayerRichPresenceData
+    GlobalNamespace::InMultiplayerRichPresenceData* _get__inMultiplayerRichPresenceData();
+    // Set instance field: private InMultiplayerRichPresenceData _inMultiplayerRichPresenceData
+    void _set__inMultiplayerRichPresenceData(GlobalNamespace::InMultiplayerRichPresenceData* value);
+    // Get instance field: private PlayingCampaignRichPresenceData _playingCampaignRichPresenceData
+    GlobalNamespace::PlayingCampaignRichPresenceData* _get__playingCampaignRichPresenceData();
+    // Set instance field: private PlayingCampaignRichPresenceData _playingCampaignRichPresenceData
+    void _set__playingCampaignRichPresenceData(GlobalNamespace::PlayingCampaignRichPresenceData* value);
+    // Get instance field: private PlayingTutorialPresenceData _playingTutorialPresenceData
+    GlobalNamespace::PlayingTutorialPresenceData* _get__playingTutorialPresenceData();
+    // Set instance field: private PlayingTutorialPresenceData _playingTutorialPresenceData
+    void _set__playingTutorialPresenceData(GlobalNamespace::PlayingTutorialPresenceData* value);
+    // Get instance field: private IRichPresenceData _currentPresenceData
+    GlobalNamespace::IRichPresenceData* _get__currentPresenceData();
+    // Set instance field: private IRichPresenceData _currentPresenceData
+    void _set__currentPresenceData(GlobalNamespace::IRichPresenceData* value);
     // protected System.Void Awake()
     // Offset: 0x114518C
     void Awake();

@@ -108,6 +108,62 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Single fx
+    float _get_fx();
+    // Set instance field: private System.Single fx
+    void _set_fx(float value);
+    // Get instance field: private System.Single fy
+    float _get_fy();
+    // Set instance field: private System.Single fy
+    void _set_fy(float value);
+    // Get instance field: private System.Single cx
+    float _get_cx();
+    // Set instance field: private System.Single cx
+    void _set_cx(float value);
+    // Get instance field: private System.Single cy
+    float _get_cy();
+    // Set instance field: private System.Single cy
+    void _set_cy(float value);
+    // Get instance field: private System.Double disto0
+    double _get_disto0();
+    // Set instance field: private System.Double disto0
+    void _set_disto0(double value);
+    // Get instance field: private System.Double disto1
+    double _get_disto1();
+    // Set instance field: private System.Double disto1
+    void _set_disto1(double value);
+    // Get instance field: private System.Double disto2
+    double _get_disto2();
+    // Set instance field: private System.Double disto2
+    void _set_disto2(double value);
+    // Get instance field: private System.Double disto3
+    double _get_disto3();
+    // Set instance field: private System.Double disto3
+    void _set_disto3(double value);
+    // Get instance field: private System.Double disto4
+    double _get_disto4();
+    // Set instance field: private System.Double disto4
+    void _set_disto4(double value);
+    // Get instance field: private System.Single v_fov
+    float _get_v_fov();
+    // Set instance field: private System.Single v_fov
+    void _set_v_fov(float value);
+    // Get instance field: private System.Single h_fov
+    float _get_h_fov();
+    // Set instance field: private System.Single h_fov
+    void _set_h_fov(float value);
+    // Get instance field: private System.Single d_fov
+    float _get_d_fov();
+    // Set instance field: private System.Single d_fov
+    void _set_d_fov(float value);
+    // Get instance field: private System.Int32 w
+    int _get_w();
+    // Set instance field: private System.Int32 w
+    void _set_w(int value);
+    // Get instance field: private System.Int32 h
+    int _get_h();
+    // Set instance field: private System.Int32 h
+    void _set_h(int value);
   }; // OVRPlugin/CameraDeviceIntrinsicsParameters
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraDeviceIntrinsicsParameters), 72 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraDeviceIntrinsicsParametersSizeCheck;

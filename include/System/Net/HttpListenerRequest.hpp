@@ -161,6 +161,74 @@ namespace System::Net {
     static ::Array<::Il2CppChar>* _get_separators();
     // Set static field: static private System.Char[] separators
     static void _set_separators(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.String[] accept_types
+    ::Array<::Il2CppString*>* _get_accept_types();
+    // Set instance field: private System.String[] accept_types
+    void _set_accept_types(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.Int64 content_length
+    int64_t _get_content_length();
+    // Set instance field: private System.Int64 content_length
+    void _set_content_length(int64_t value);
+    // Get instance field: private System.Boolean cl_set
+    bool _get_cl_set();
+    // Set instance field: private System.Boolean cl_set
+    void _set_cl_set(bool value);
+    // Get instance field: private System.Net.CookieCollection cookies
+    System::Net::CookieCollection* _get_cookies();
+    // Set instance field: private System.Net.CookieCollection cookies
+    void _set_cookies(System::Net::CookieCollection* value);
+    // Get instance field: private System.Net.WebHeaderCollection headers
+    System::Net::WebHeaderCollection* _get_headers();
+    // Set instance field: private System.Net.WebHeaderCollection headers
+    void _set_headers(System::Net::WebHeaderCollection* value);
+    // Get instance field: private System.String method
+    ::Il2CppString* _get_method();
+    // Set instance field: private System.String method
+    void _set_method(::Il2CppString* value);
+    // Get instance field: private System.IO.Stream input_stream
+    System::IO::Stream* _get_input_stream();
+    // Set instance field: private System.IO.Stream input_stream
+    void _set_input_stream(System::IO::Stream* value);
+    // Get instance field: private System.Version version
+    System::Version* _get_version();
+    // Set instance field: private System.Version version
+    void _set_version(System::Version* value);
+    // Get instance field: private System.Collections.Specialized.NameValueCollection query_string
+    System::Collections::Specialized::NameValueCollection* _get_query_string();
+    // Set instance field: private System.Collections.Specialized.NameValueCollection query_string
+    void _set_query_string(System::Collections::Specialized::NameValueCollection* value);
+    // Get instance field: private System.String raw_url
+    ::Il2CppString* _get_raw_url();
+    // Set instance field: private System.String raw_url
+    void _set_raw_url(::Il2CppString* value);
+    // Get instance field: private System.Uri url
+    System::Uri* _get_url();
+    // Set instance field: private System.Uri url
+    void _set_url(System::Uri* value);
+    // Get instance field: private System.Uri referrer
+    System::Uri* _get_referrer();
+    // Set instance field: private System.Uri referrer
+    void _set_referrer(System::Uri* value);
+    // Get instance field: private System.String[] user_languages
+    ::Array<::Il2CppString*>* _get_user_languages();
+    // Set instance field: private System.String[] user_languages
+    void _set_user_languages(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.Net.HttpListenerContext context
+    System::Net::HttpListenerContext* _get_context();
+    // Set instance field: private System.Net.HttpListenerContext context
+    void _set_context(System::Net::HttpListenerContext* value);
+    // Get instance field: private System.Boolean is_chunked
+    bool _get_is_chunked();
+    // Set instance field: private System.Boolean is_chunked
+    void _set_is_chunked(bool value);
+    // Get instance field: private System.Boolean ka_set
+    bool _get_ka_set();
+    // Set instance field: private System.Boolean ka_set
+    void _set_ka_set(bool value);
+    // Get instance field: private System.Boolean keep_alive
+    bool _get_keep_alive();
+    // Set instance field: private System.Boolean keep_alive
+    void _set_keep_alive(bool value);
     // public System.Boolean get_HasEntityBody()
     // Offset: 0x1635DD8
     bool get_HasEntityBody();

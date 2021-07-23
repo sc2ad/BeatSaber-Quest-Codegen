@@ -78,6 +78,30 @@ namespace GlobalNamespace {
     ConditionalSpriteSwitcher(UnityEngine::Sprite* sprite0_ = {}, UnityEngine::Material* material0_ = {}, UnityEngine::Sprite* sprite1_ = {}, UnityEngine::Material* material1_ = {}, GlobalNamespace::BoolSO* value_ = {}, UnityEngine::SpriteRenderer* spriteRenderer_ = {}) noexcept : sprite0{sprite0_}, material0{material0_}, sprite1{sprite1_}, material1{material1_}, value{value_}, spriteRenderer{spriteRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Sprite _sprite0
+    UnityEngine::Sprite* _get__sprite0();
+    // Set instance field: private UnityEngine.Sprite _sprite0
+    void _set__sprite0(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Material _material0
+    UnityEngine::Material* _get__material0();
+    // Set instance field: private UnityEngine.Material _material0
+    void _set__material0(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Sprite _sprite1
+    UnityEngine::Sprite* _get__sprite1();
+    // Set instance field: private UnityEngine.Sprite _sprite1
+    void _set__sprite1(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Material _material1
+    UnityEngine::Material* _get__material1();
+    // Set instance field: private UnityEngine.Material _material1
+    void _set__material1(UnityEngine::Material* value);
+    // Get instance field: private BoolSO _value
+    GlobalNamespace::BoolSO* _get__value();
+    // Set instance field: private BoolSO _value
+    void _set__value(GlobalNamespace::BoolSO* value);
+    // Get instance field: private UnityEngine.SpriteRenderer _spriteRenderer
+    UnityEngine::SpriteRenderer* _get__spriteRenderer();
+    // Set instance field: private UnityEngine.SpriteRenderer _spriteRenderer
+    void _set__spriteRenderer(UnityEngine::SpriteRenderer* value);
     // public UnityEngine.Sprite get_falseSprite()
     // Offset: 0x10810A8
     UnityEngine::Sprite* get_falseSprite();

@@ -221,6 +221,106 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.VREvent_Reserved_t reserved
+    OVR::OpenVR::VREvent_Reserved_t _get_reserved();
+    // Set instance field: public OVR.OpenVR.VREvent_Reserved_t reserved
+    void _set_reserved(OVR::OpenVR::VREvent_Reserved_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Controller_t controller
+    OVR::OpenVR::VREvent_Controller_t _get_controller();
+    // Set instance field: public OVR.OpenVR.VREvent_Controller_t controller
+    void _set_controller(OVR::OpenVR::VREvent_Controller_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Mouse_t mouse
+    OVR::OpenVR::VREvent_Mouse_t _get_mouse();
+    // Set instance field: public OVR.OpenVR.VREvent_Mouse_t mouse
+    void _set_mouse(OVR::OpenVR::VREvent_Mouse_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Scroll_t scroll
+    OVR::OpenVR::VREvent_Scroll_t _get_scroll();
+    // Set instance field: public OVR.OpenVR.VREvent_Scroll_t scroll
+    void _set_scroll(OVR::OpenVR::VREvent_Scroll_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Process_t process
+    OVR::OpenVR::VREvent_Process_t _get_process();
+    // Set instance field: public OVR.OpenVR.VREvent_Process_t process
+    void _set_process(OVR::OpenVR::VREvent_Process_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Notification_t notification
+    OVR::OpenVR::VREvent_Notification_t _get_notification();
+    // Set instance field: public OVR.OpenVR.VREvent_Notification_t notification
+    void _set_notification(OVR::OpenVR::VREvent_Notification_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Overlay_t overlay
+    OVR::OpenVR::VREvent_Overlay_t _get_overlay();
+    // Set instance field: public OVR.OpenVR.VREvent_Overlay_t overlay
+    void _set_overlay(OVR::OpenVR::VREvent_Overlay_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Status_t status
+    OVR::OpenVR::VREvent_Status_t _get_status();
+    // Set instance field: public OVR.OpenVR.VREvent_Status_t status
+    void _set_status(OVR::OpenVR::VREvent_Status_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Ipd_t ipd
+    OVR::OpenVR::VREvent_Ipd_t _get_ipd();
+    // Set instance field: public OVR.OpenVR.VREvent_Ipd_t ipd
+    void _set_ipd(OVR::OpenVR::VREvent_Ipd_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Chaperone_t chaperone
+    OVR::OpenVR::VREvent_Chaperone_t _get_chaperone();
+    // Set instance field: public OVR.OpenVR.VREvent_Chaperone_t chaperone
+    void _set_chaperone(OVR::OpenVR::VREvent_Chaperone_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_PerformanceTest_t performanceTest
+    OVR::OpenVR::VREvent_PerformanceTest_t _get_performanceTest();
+    // Set instance field: public OVR.OpenVR.VREvent_PerformanceTest_t performanceTest
+    void _set_performanceTest(OVR::OpenVR::VREvent_PerformanceTest_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_TouchPadMove_t touchPadMove
+    OVR::OpenVR::VREvent_TouchPadMove_t _get_touchPadMove();
+    // Set instance field: public OVR.OpenVR.VREvent_TouchPadMove_t touchPadMove
+    void _set_touchPadMove(OVR::OpenVR::VREvent_TouchPadMove_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset
+    OVR::OpenVR::VREvent_SeatedZeroPoseReset_t _get_seatedZeroPoseReset();
+    // Set instance field: public OVR.OpenVR.VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset
+    void _set_seatedZeroPoseReset(OVR::OpenVR::VREvent_SeatedZeroPoseReset_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Screenshot_t screenshot
+    OVR::OpenVR::VREvent_Screenshot_t _get_screenshot();
+    // Set instance field: public OVR.OpenVR.VREvent_Screenshot_t screenshot
+    void _set_screenshot(OVR::OpenVR::VREvent_Screenshot_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_ScreenshotProgress_t screenshotProgress
+    OVR::OpenVR::VREvent_ScreenshotProgress_t _get_screenshotProgress();
+    // Set instance field: public OVR.OpenVR.VREvent_ScreenshotProgress_t screenshotProgress
+    void _set_screenshotProgress(OVR::OpenVR::VREvent_ScreenshotProgress_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_ApplicationLaunch_t applicationLaunch
+    OVR::OpenVR::VREvent_ApplicationLaunch_t _get_applicationLaunch();
+    // Set instance field: public OVR.OpenVR.VREvent_ApplicationLaunch_t applicationLaunch
+    void _set_applicationLaunch(OVR::OpenVR::VREvent_ApplicationLaunch_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_EditingCameraSurface_t cameraSurface
+    OVR::OpenVR::VREvent_EditingCameraSurface_t _get_cameraSurface();
+    // Set instance field: public OVR.OpenVR.VREvent_EditingCameraSurface_t cameraSurface
+    void _set_cameraSurface(OVR::OpenVR::VREvent_EditingCameraSurface_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_MessageOverlay_t messageOverlay
+    OVR::OpenVR::VREvent_MessageOverlay_t _get_messageOverlay();
+    // Set instance field: public OVR.OpenVR.VREvent_MessageOverlay_t messageOverlay
+    void _set_messageOverlay(OVR::OpenVR::VREvent_MessageOverlay_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Property_t property
+    OVR::OpenVR::VREvent_Property_t _get_property();
+    // Set instance field: public OVR.OpenVR.VREvent_Property_t property
+    void _set_property(OVR::OpenVR::VREvent_Property_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_DualAnalog_t dualAnalog
+    OVR::OpenVR::VREvent_DualAnalog_t _get_dualAnalog();
+    // Set instance field: public OVR.OpenVR.VREvent_DualAnalog_t dualAnalog
+    void _set_dualAnalog(OVR::OpenVR::VREvent_DualAnalog_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_HapticVibration_t hapticVibration
+    OVR::OpenVR::VREvent_HapticVibration_t _get_hapticVibration();
+    // Set instance field: public OVR.OpenVR.VREvent_HapticVibration_t hapticVibration
+    void _set_hapticVibration(OVR::OpenVR::VREvent_HapticVibration_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_WebConsole_t webConsole
+    OVR::OpenVR::VREvent_WebConsole_t _get_webConsole();
+    // Set instance field: public OVR.OpenVR.VREvent_WebConsole_t webConsole
+    void _set_webConsole(OVR::OpenVR::VREvent_WebConsole_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_InputBindingLoad_t inputBinding
+    OVR::OpenVR::VREvent_InputBindingLoad_t _get_inputBinding();
+    // Set instance field: public OVR.OpenVR.VREvent_InputBindingLoad_t inputBinding
+    void _set_inputBinding(OVR::OpenVR::VREvent_InputBindingLoad_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_SpatialAnchor_t spatialAnchor
+    OVR::OpenVR::VREvent_SpatialAnchor_t _get_spatialAnchor();
+    // Set instance field: public OVR.OpenVR.VREvent_SpatialAnchor_t spatialAnchor
+    void _set_spatialAnchor(OVR::OpenVR::VREvent_SpatialAnchor_t value);
+    // Get instance field: public OVR.OpenVR.VREvent_Keyboard_t keyboard
+    OVR::OpenVR::VREvent_Keyboard_t _get_keyboard();
+    // Set instance field: public OVR.OpenVR.VREvent_Keyboard_t keyboard
+    void _set_keyboard(OVR::OpenVR::VREvent_Keyboard_t value);
   }; // OVR.OpenVR.VREvent_Data_t
   // WARNING Not writing size check since size may be invalid!
 }

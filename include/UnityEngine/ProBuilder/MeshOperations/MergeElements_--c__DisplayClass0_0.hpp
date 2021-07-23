@@ -45,6 +45,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*() const noexcept {
       return remove;
     }
+    // Get instance field: public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
+    System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* _get_remove();
+    // Set instance field: public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
+    void _set_remove(System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* value);
     // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x16F13C8
     bool $MergePairs$b__0(UnityEngine::ProBuilder::Face* x);

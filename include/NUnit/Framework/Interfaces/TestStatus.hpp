@@ -55,6 +55,10 @@ namespace NUnit::Framework::Interfaces {
     static NUnit::Framework::Interfaces::TestStatus _get_Failed();
     // Set static field: static public NUnit.Framework.Interfaces.TestStatus Failed
     static void _set_Failed(NUnit::Framework::Interfaces::TestStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // NUnit.Framework.Interfaces.TestStatus
   #pragma pack(pop)
   static check_size<sizeof(TestStatus), 0 + sizeof(int)> __NUnit_Framework_Interfaces_TestStatusSizeCheck;

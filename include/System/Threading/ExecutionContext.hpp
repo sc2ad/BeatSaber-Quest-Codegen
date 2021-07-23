@@ -113,6 +113,10 @@ namespace System::Threading {
       static System::Threading::ExecutionContext::Flags _get_IsPreAllocatedDefault();
       // Set static field: static public System.Threading.ExecutionContext/System.Threading.Flags IsPreAllocatedDefault
       static void _set_IsPreAllocatedDefault(System::Threading::ExecutionContext::Flags value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Threading.ExecutionContext/System.Threading.Flags
     #pragma pack(pop)
     static check_size<sizeof(ExecutionContext::Flags), 0 + sizeof(int)> __System_Threading_ExecutionContext_FlagsSizeCheck;
@@ -175,6 +179,34 @@ namespace System::Threading {
     static System::Threading::ExecutionContext* _get_s_dummyDefaultEC();
     // Set static field: static private readonly System.Threading.ExecutionContext s_dummyDefaultEC
     static void _set_s_dummyDefaultEC(System::Threading::ExecutionContext* value);
+    // Get instance field: private System.Threading.SynchronizationContext _syncContext
+    System::Threading::SynchronizationContext* _get__syncContext();
+    // Set instance field: private System.Threading.SynchronizationContext _syncContext
+    void _set__syncContext(System::Threading::SynchronizationContext* value);
+    // Get instance field: private System.Threading.SynchronizationContext _syncContextNoFlow
+    System::Threading::SynchronizationContext* _get__syncContextNoFlow();
+    // Set instance field: private System.Threading.SynchronizationContext _syncContextNoFlow
+    void _set__syncContextNoFlow(System::Threading::SynchronizationContext* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext _logicalCallContext
+    System::Runtime::Remoting::Messaging::LogicalCallContext* _get__logicalCallContext();
+    // Set instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext _logicalCallContext
+    void _set__logicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.IllogicalCallContext _illogicalCallContext
+    System::Runtime::Remoting::Messaging::IllogicalCallContext* _get__illogicalCallContext();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IllogicalCallContext _illogicalCallContext
+    void _set__illogicalCallContext(System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
+    // Get instance field: private System.Threading.ExecutionContext/System.Threading.Flags _flags
+    System::Threading::ExecutionContext::Flags _get__flags();
+    // Set instance field: private System.Threading.ExecutionContext/System.Threading.Flags _flags
+    void _set__flags(System::Threading::ExecutionContext::Flags value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Threading.IAsyncLocal,System.Object> _localValues
+    System::Collections::Generic::Dictionary_2<System::Threading::IAsyncLocal*, ::Il2CppObject*>* _get__localValues();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Threading.IAsyncLocal,System.Object> _localValues
+    void _set__localValues(System::Collections::Generic::Dictionary_2<System::Threading::IAsyncLocal*, ::Il2CppObject*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Threading.IAsyncLocal> _localChangeNotifications
+    System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>* _get__localChangeNotifications();
+    // Set instance field: private System.Collections.Generic.List`1<System.Threading.IAsyncLocal> _localChangeNotifications
+    void _set__localChangeNotifications(System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>* value);
     // System.Boolean get_isNewCapture()
     // Offset: 0x18A4778
     bool get_isNewCapture();

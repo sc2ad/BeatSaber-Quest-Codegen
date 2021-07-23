@@ -58,6 +58,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>*) == 0x8);
     // Creating value type constructor for type: HitPointEffector
     HitPointEffector(UnityEngine::AnimationCurve* offsetInForceDirection_ = {}, UnityEngine::AnimationCurve* offsetInUpDirection_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>* effectorLinks_ = {}) noexcept : offsetInForceDirection{offsetInForceDirection_}, offsetInUpDirection{offsetInUpDirection_}, effectorLinks{effectorLinks_} {}
+    // Get instance field: public UnityEngine.AnimationCurve offsetInForceDirection
+    UnityEngine::AnimationCurve* _get_offsetInForceDirection();
+    // Set instance field: public UnityEngine.AnimationCurve offsetInForceDirection
+    void _set_offsetInForceDirection(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve offsetInUpDirection
+    UnityEngine::AnimationCurve* _get_offsetInUpDirection();
+    // Set instance field: public UnityEngine.AnimationCurve offsetInUpDirection
+    void _set_offsetInUpDirection(UnityEngine::AnimationCurve* value);
+    // Get instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>* _get_effectorLinks();
+    // Set instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    void _set_effectorLinks(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>* value);
     // public System.Void .ctor()
     // Offset: 0x1C952E0
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint

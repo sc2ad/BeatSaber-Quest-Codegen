@@ -176,6 +176,66 @@ namespace System {
     static int _get__COMPlusExceptionCode();
     // Set static field: static private System.Int32 _COMPlusExceptionCode
     static void _set__COMPlusExceptionCode(int value);
+    // Get instance field: private System.String _className
+    ::Il2CppString* _get__className();
+    // Set instance field: private System.String _className
+    void _set__className(::Il2CppString* value);
+    // Get instance field: System.String _message
+    ::Il2CppString* _get__message();
+    // Set instance field: System.String _message
+    void _set__message(::Il2CppString* value);
+    // Get instance field: private System.Collections.IDictionary _data
+    System::Collections::IDictionary* _get__data();
+    // Set instance field: private System.Collections.IDictionary _data
+    void _set__data(System::Collections::IDictionary* value);
+    // Get instance field: private System.Exception _innerException
+    System::Exception* _get__innerException();
+    // Set instance field: private System.Exception _innerException
+    void _set__innerException(System::Exception* value);
+    // Get instance field: private System.String _helpURL
+    ::Il2CppString* _get__helpURL();
+    // Set instance field: private System.String _helpURL
+    void _set__helpURL(::Il2CppString* value);
+    // Get instance field: private System.Object _stackTrace
+    ::Il2CppObject* _get__stackTrace();
+    // Set instance field: private System.Object _stackTrace
+    void _set__stackTrace(::Il2CppObject* value);
+    // Get instance field: private System.String _stackTraceString
+    ::Il2CppString* _get__stackTraceString();
+    // Set instance field: private System.String _stackTraceString
+    void _set__stackTraceString(::Il2CppString* value);
+    // Get instance field: private System.String _remoteStackTraceString
+    ::Il2CppString* _get__remoteStackTraceString();
+    // Set instance field: private System.String _remoteStackTraceString
+    void _set__remoteStackTraceString(::Il2CppString* value);
+    // Get instance field: private System.Int32 _remoteStackIndex
+    int _get__remoteStackIndex();
+    // Set instance field: private System.Int32 _remoteStackIndex
+    void _set__remoteStackIndex(int value);
+    // Get instance field: private System.Object _dynamicMethods
+    ::Il2CppObject* _get__dynamicMethods();
+    // Set instance field: private System.Object _dynamicMethods
+    void _set__dynamicMethods(::Il2CppObject* value);
+    // Get instance field: System.Int32 _HResult
+    int _get__HResult();
+    // Set instance field: System.Int32 _HResult
+    void _set__HResult(int value);
+    // Get instance field: private System.String _source
+    ::Il2CppString* _get__source();
+    // Set instance field: private System.String _source
+    void _set__source(::Il2CppString* value);
+    // Get instance field: private System.Runtime.Serialization.SafeSerializationManager _safeSerializationManager
+    System::Runtime::Serialization::SafeSerializationManager* _get__safeSerializationManager();
+    // Set instance field: private System.Runtime.Serialization.SafeSerializationManager _safeSerializationManager
+    void _set__safeSerializationManager(System::Runtime::Serialization::SafeSerializationManager* value);
+    // Get instance field: System.Diagnostics.StackTrace[] captured_traces
+    ::Array<System::Diagnostics::StackTrace*>* _get_captured_traces();
+    // Set instance field: System.Diagnostics.StackTrace[] captured_traces
+    void _set_captured_traces(::Array<System::Diagnostics::StackTrace*>* value);
+    // Get instance field: private System.IntPtr[] native_trace_ips
+    ::Array<System::IntPtr>* _get_native_trace_ips();
+    // Set instance field: private System.IntPtr[] native_trace_ips
+    void _set_native_trace_ips(::Array<System::IntPtr>* value);
     // public System.String get_Message()
     // Offset: 0x17C87DC
     ::Il2CppString* get_Message();

@@ -49,6 +49,14 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(System::Net::IPAddress*) == 0x8);
     // Creating value type constructor for type: Win32UnicastIPAddressInformation
     Win32UnicastIPAddressInformation(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS info_ = {}, System::Net::IPAddress* ipv4Mask_ = {}) noexcept : info{info_}, ipv4Mask{ipv4Mask_} {}
+    // Get instance field: private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
+    System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS _get_info();
+    // Set instance field: private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
+    void _set_info(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS value);
+    // Get instance field: private System.Net.IPAddress ipv4Mask
+    System::Net::IPAddress* _get_ipv4Mask();
+    // Set instance field: private System.Net.IPAddress ipv4Mask
+    void _set_ipv4Mask(System::Net::IPAddress* value);
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info)
     // Offset: 0x14652B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

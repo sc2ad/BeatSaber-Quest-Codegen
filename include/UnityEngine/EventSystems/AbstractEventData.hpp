@@ -29,6 +29,10 @@ namespace UnityEngine::EventSystems {
     constexpr operator bool() const noexcept {
       return m_Used;
     }
+    // Get instance field: protected System.Boolean m_Used
+    bool _get_m_Used();
+    // Set instance field: protected System.Boolean m_Used
+    void _set_m_Used(bool value);
     // public System.Boolean get_used()
     // Offset: 0x1400554
     bool get_used();

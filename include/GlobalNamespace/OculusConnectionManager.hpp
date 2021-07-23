@@ -123,6 +123,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OculusConnectionManager::NetworkMode _get_Server();
       // Set static field: static public OculusConnectionManager/NetworkMode Server
       static void _set_Server(GlobalNamespace::OculusConnectionManager::NetworkMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OculusConnectionManager/NetworkMode
     #pragma pack(pop)
     static check_size<sizeof(OculusConnectionManager::NetworkMode), 0 + sizeof(int)> __GlobalNamespace_OculusConnectionManager_NetworkModeSizeCheck;
@@ -233,6 +237,66 @@ namespace GlobalNamespace {
     static float _get_kPingFrequency();
     // Set static field: static private System.Single kPingFrequency
     static void _set_kPingFrequency(float value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<OculusConnectionManager/OculusConnection> _connections
+    System::Collections::Generic::List_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>* _get__connections();
+    // Set instance field: private readonly System.Collections.Generic.List`1<OculusConnectionManager/OculusConnection> _connections
+    void _set__connections(System::Collections::Generic::List_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>* value);
+    // Get instance field: private readonly LiteNetLib.Utils.NetDataReader _dataReader
+    LiteNetLib::Utils::NetDataReader* _get__dataReader();
+    // Set instance field: private readonly LiteNetLib.Utils.NetDataReader _dataReader
+    void _set__dataReader(LiteNetLib::Utils::NetDataReader* value);
+    // Get instance field: private OculusNetworkPlayerModel _oculusNetworkPlayerModel
+    GlobalNamespace::OculusNetworkPlayerModel* _get__oculusNetworkPlayerModel();
+    // Set instance field: private OculusNetworkPlayerModel _oculusNetworkPlayerModel
+    void _set__oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field: private OculusConnectionManager/NetworkMode _mode
+    GlobalNamespace::OculusConnectionManager::NetworkMode _get__mode();
+    // Set instance field: private OculusConnectionManager/NetworkMode _mode
+    void _set__mode(GlobalNamespace::OculusConnectionManager::NetworkMode value);
+    // Get instance field: private System.Single _lastPingTime
+    float _get__lastPingTime();
+    // Set instance field: private System.Single _lastPingTime
+    void _set__lastPingTime(float value);
+    // Get instance field: private System.Boolean _connectionEstablished
+    bool _get__connectionEstablished();
+    // Set instance field: private System.Boolean _connectionEstablished
+    void _set__connectionEstablished(bool value);
+    // Get instance field: private System.Action onConnectedEvent
+    System::Action* _get_onConnectedEvent();
+    // Set instance field: private System.Action onConnectedEvent
+    void _set_onConnectedEvent(System::Action* value);
+    // Get instance field: private System.Action`1<DisconnectedReason> onDisconnectedEvent
+    System::Action_1<GlobalNamespace::DisconnectedReason>* _get_onDisconnectedEvent();
+    // Set instance field: private System.Action`1<DisconnectedReason> onDisconnectedEvent
+    void _set_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    // Get instance field: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_onConnectionFailedEvent();
+    // Set instance field: private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
+    void _set_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // Get instance field: private System.Action`1<IConnection> onConnectionConnectedEvent
+    System::Action_1<GlobalNamespace::IConnection*>* _get_onConnectionConnectedEvent();
+    // Set instance field: private System.Action`1<IConnection> onConnectionConnectedEvent
+    void _set_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
+    // Get instance field: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
+    System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* _get_onConnectionDisconnectedEvent();
+    // Set instance field: private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
+    void _set_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
+    // Get instance field: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
+    System::Action_2<GlobalNamespace::IConnection*, float>* _get_onLatencyUpdatedEvent();
+    // Set instance field: private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
+    void _set_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
+    // Get instance field: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
+    System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* _get_onReceivedDataEvent();
+    // Set instance field: private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
+    void _set_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
+    // Get instance field: private System.Boolean <isDisconnecting>k__BackingField
+    bool _get_$isDisconnecting$k__BackingField();
+    // Set instance field: private System.Boolean <isDisconnecting>k__BackingField
+    void _set_$isDisconnecting$k__BackingField(bool value);
+    // Get instance field: private System.Byte[] _buffer
+    ::Array<uint8_t>* _get__buffer();
+    // Set instance field: private System.Byte[] _buffer
+    void _set__buffer(::Array<uint8_t>* value);
     // public System.String get_userId()
     // Offset: 0x11EF694
     ::Il2CppString* get_userId();

@@ -178,6 +178,82 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _levelID
+    ::Il2CppString* _get__levelID();
+    // Set instance field: private System.String _levelID
+    void _set__levelID(::Il2CppString* value);
+    // Get instance field: private System.String _songName
+    ::Il2CppString* _get__songName();
+    // Set instance field: private System.String _songName
+    void _set__songName(::Il2CppString* value);
+    // Get instance field: private System.String _songSubName
+    ::Il2CppString* _get__songSubName();
+    // Set instance field: private System.String _songSubName
+    void _set__songSubName(::Il2CppString* value);
+    // Get instance field: private System.String _songAuthorName
+    ::Il2CppString* _get__songAuthorName();
+    // Set instance field: private System.String _songAuthorName
+    void _set__songAuthorName(::Il2CppString* value);
+    // Get instance field: private System.String _levelAuthorName
+    ::Il2CppString* _get__levelAuthorName();
+    // Set instance field: private System.String _levelAuthorName
+    void _set__levelAuthorName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.AudioClip _previewAudioClip
+    UnityEngine::AudioClip* _get__previewAudioClip();
+    // Set instance field: private UnityEngine.AudioClip _previewAudioClip
+    void _set__previewAudioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private System.Single _beatsPerMinute
+    float _get__beatsPerMinute();
+    // Set instance field: private System.Single _beatsPerMinute
+    void _set__beatsPerMinute(float value);
+    // Get instance field: private System.Single _songTimeOffset
+    float _get__songTimeOffset();
+    // Set instance field: private System.Single _songTimeOffset
+    void _set__songTimeOffset(float value);
+    // Get instance field: private System.Single _shuffle
+    float _get__shuffle();
+    // Set instance field: private System.Single _shuffle
+    void _set__shuffle(float value);
+    // Get instance field: private System.Single _shufflePeriod
+    float _get__shufflePeriod();
+    // Set instance field: private System.Single _shufflePeriod
+    void _set__shufflePeriod(float value);
+    // Get instance field: private System.Single _previewStartTime
+    float _get__previewStartTime();
+    // Set instance field: private System.Single _previewStartTime
+    void _set__previewStartTime(float value);
+    // Get instance field: private System.Single _previewDuration
+    float _get__previewDuration();
+    // Set instance field: private System.Single _previewDuration
+    void _set__previewDuration(float value);
+    // Get instance field: private System.Single _songDuration
+    float _get__songDuration();
+    // Set instance field: private System.Single _songDuration
+    void _set__songDuration(float value);
+    // Get instance field: private UnityEngine.Sprite _coverImage
+    UnityEngine::Sprite* _get__coverImage();
+    // Set instance field: private UnityEngine.Sprite _coverImage
+    void _set__coverImage(UnityEngine::Sprite* value);
+    // Get instance field: private EnvironmentInfoSO _environmentInfo
+    GlobalNamespace::EnvironmentInfoSO* _get__environmentInfo();
+    // Set instance field: private EnvironmentInfoSO _environmentInfo
+    void _set__environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
+    // Get instance field: private EnvironmentInfoSO _allDirectionsEnvironmentInfo
+    GlobalNamespace::EnvironmentInfoSO* _get__allDirectionsEnvironmentInfo();
+    // Set instance field: private EnvironmentInfoSO _allDirectionsEnvironmentInfo
+    void _set__allDirectionsEnvironmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
+    // Get instance field: private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
+    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* _get__previewDifficultyBeatmapSets();
+    // Set instance field: private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
+    void _set__previewDifficultyBeatmapSets(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* value);
+    // Get instance field: public System.Boolean _ignore360MovementBeatmaps
+    bool _get__ignore360MovementBeatmaps();
+    // Set instance field: public System.Boolean _ignore360MovementBeatmaps
+    void _set__ignore360MovementBeatmaps(bool value);
+    // Get instance field: private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
+    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* _get__no360MovementPreviewDifficultyBeatmapSets();
+    // Set instance field: private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
+    void _set__no360MovementPreviewDifficultyBeatmapSets(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* value);
     // public System.String get_levelID()
     // Offset: 0x1109F24
     ::Il2CppString* get_levelID();

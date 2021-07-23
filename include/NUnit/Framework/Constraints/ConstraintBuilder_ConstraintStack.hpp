@@ -40,6 +40,10 @@ namespace NUnit::Framework::Constraints {
     constexpr operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::IConstraint*>*() const noexcept {
       return stack;
     }
+    // Get instance field: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.IConstraint> stack
+    System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::IConstraint*>* _get_stack();
+    // Set instance field: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.IConstraint> stack
+    void _set_stack(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::IConstraint*>* value);
     // public NUnit.Framework.Constraints.IConstraint Pop()
     // Offset: 0x171696C
     NUnit::Framework::Constraints::IConstraint* Pop();

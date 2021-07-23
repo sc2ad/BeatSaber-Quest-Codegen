@@ -37,6 +37,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
     // Creating value type constructor for type: InitData
     InitData(bool oneSaberMode_ = {}, GlobalNamespace::SaberType oneSaberType_ = {}) noexcept : oneSaberMode{oneSaberMode_}, oneSaberType{oneSaberType_} {}
+    // Get instance field: public readonly System.Boolean oneSaberMode
+    bool _get_oneSaberMode();
+    // Set instance field: public readonly System.Boolean oneSaberMode
+    void _set_oneSaberMode(bool value);
+    // Get instance field: public readonly SaberType oneSaberType
+    GlobalNamespace::SaberType _get_oneSaberType();
+    // Set instance field: public readonly SaberType oneSaberType
+    void _set_oneSaberType(GlobalNamespace::SaberType value);
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
     // Offset: 0x114B964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

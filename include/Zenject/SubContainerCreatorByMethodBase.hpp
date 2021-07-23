@@ -55,6 +55,14 @@ namespace Zenject {
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);
     }
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
+    Zenject::SubContainerCreatorBindInfo* _get__containerBindInfo();
+    // Set instance field: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
+    void _set__containerBindInfo(Zenject::SubContainerCreatorBindInfo* value);
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo)
     // Offset: 0x16D24F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

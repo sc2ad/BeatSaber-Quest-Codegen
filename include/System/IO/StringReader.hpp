@@ -42,6 +42,18 @@ namespace System::IO {
     StringReader(::Il2CppString* s_ = {}, int pos_ = {}, int length_ = {}) noexcept : s{s_}, pos{pos_}, length{length_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
+    // Get instance field: private System.String _s
+    ::Il2CppString* _get__s();
+    // Set instance field: private System.String _s
+    void _set__s(::Il2CppString* value);
+    // Get instance field: private System.Int32 _pos
+    int _get__pos();
+    // Set instance field: private System.Int32 _pos
+    void _set__pos(int value);
+    // Get instance field: private System.Int32 _length
+    int _get__length();
+    // Set instance field: private System.Int32 _length
+    void _set__length(int value);
     // public System.Void .ctor(System.String s)
     // Offset: 0x17F2090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

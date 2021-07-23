@@ -99,6 +99,42 @@ namespace GlobalNamespace {
     UIKeyboard(GlobalNamespace::TextMeshProButton* keyButtonPrefab_ = {}, System::Action_1<::Il2CppChar>* textKeyWasPressedEvent_ = {}, System::Action* deleteButtonWasPressedEvent_ = {}, System::Action* okButtonWasPressedEvent_ = {}, System::Action* cancelButtonWasPressedEvent_ = {}, UnityEngine::UI::Button* okButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, bool okButtonInteractivity_ = {}, bool hideCancelButton_ = {}) noexcept : keyButtonPrefab{keyButtonPrefab_}, textKeyWasPressedEvent{textKeyWasPressedEvent_}, deleteButtonWasPressedEvent{deleteButtonWasPressedEvent_}, okButtonWasPressedEvent{okButtonWasPressedEvent_}, cancelButtonWasPressedEvent{cancelButtonWasPressedEvent_}, okButton{okButton_}, cancelButton{cancelButton_}, okButtonInteractivity{okButtonInteractivity_}, hideCancelButton{hideCancelButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TextMeshProButton _keyButtonPrefab
+    GlobalNamespace::TextMeshProButton* _get__keyButtonPrefab();
+    // Set instance field: private TextMeshProButton _keyButtonPrefab
+    void _set__keyButtonPrefab(GlobalNamespace::TextMeshProButton* value);
+    // Get instance field: private System.Action`1<System.Char> textKeyWasPressedEvent
+    System::Action_1<::Il2CppChar>* _get_textKeyWasPressedEvent();
+    // Set instance field: private System.Action`1<System.Char> textKeyWasPressedEvent
+    void _set_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
+    // Get instance field: private System.Action deleteButtonWasPressedEvent
+    System::Action* _get_deleteButtonWasPressedEvent();
+    // Set instance field: private System.Action deleteButtonWasPressedEvent
+    void _set_deleteButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private System.Action okButtonWasPressedEvent
+    System::Action* _get_okButtonWasPressedEvent();
+    // Set instance field: private System.Action okButtonWasPressedEvent
+    void _set_okButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private System.Action cancelButtonWasPressedEvent
+    System::Action* _get_cancelButtonWasPressedEvent();
+    // Set instance field: private System.Action cancelButtonWasPressedEvent
+    void _set_cancelButtonWasPressedEvent(System::Action* value);
+    // Get instance field: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button* _get__okButton();
+    // Set instance field: private UnityEngine.UI.Button _okButton
+    void _set__okButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _cancelButton
+    UnityEngine::UI::Button* _get__cancelButton();
+    // Set instance field: private UnityEngine.UI.Button _cancelButton
+    void _set__cancelButton(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Boolean _okButtonInteractivity
+    bool _get__okButtonInteractivity();
+    // Set instance field: private System.Boolean _okButtonInteractivity
+    void _set__okButtonInteractivity(bool value);
+    // Get instance field: private System.Boolean _hideCancelButton
+    bool _get__hideCancelButton();
+    // Set instance field: private System.Boolean _hideCancelButton
+    void _set__hideCancelButton(bool value);
     // public System.Void set_enableOkButtonInteractivity(System.Boolean value)
     // Offset: 0x126F0D4
     void set_enableOkButtonInteractivity(bool value);

@@ -265,6 +265,130 @@ namespace GlobalNamespace {
     static float _get_kAvoidMarkTimeOffset();
     // Set static field: static public System.Single kAvoidMarkTimeOffset
     static void _set_kAvoidMarkTimeOffset(float value);
+    // Get instance field: private StretchableObstacle _stretchableObstacle
+    GlobalNamespace::StretchableObstacle* _get__stretchableObstacle();
+    // Set instance field: private StretchableObstacle _stretchableObstacle
+    void _set__stretchableObstacle(GlobalNamespace::StretchableObstacle* value);
+    // Get instance field: private System.Single _endDistanceOffset
+    float _get__endDistanceOffset();
+    // Set instance field: private System.Single _endDistanceOffset
+    void _set__endDistanceOffset(float value);
+    // Get instance field: private UnityEngine.GameObject[] _visualWrappers
+    ::Array<UnityEngine::GameObject*>* _get__visualWrappers();
+    // Set instance field: private UnityEngine.GameObject[] _visualWrappers
+    void _set__visualWrappers(::Array<UnityEngine::GameObject*>* value);
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSyncController();
+    // Set instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private readonly ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private System.Action`1<ObstacleController> finishedMovementEvent
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_finishedMovementEvent();
+    // Set instance field: private System.Action`1<ObstacleController> finishedMovementEvent
+    void _set_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`1<ObstacleController> passedThreeQuartersOfMove2Event
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_passedThreeQuartersOfMove2Event();
+    // Set instance field: private System.Action`1<ObstacleController> passedThreeQuartersOfMove2Event
+    void _set_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`1<ObstacleController> passedAvoidedMarkEvent
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_passedAvoidedMarkEvent();
+    // Set instance field: private System.Action`1<ObstacleController> passedAvoidedMarkEvent
+    void _set_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`1<ObstacleController> didDissolveEvent
+    System::Action_1<GlobalNamespace::ObstacleController*>* _get_didDissolveEvent();
+    // Set instance field: private System.Action`1<ObstacleController> didDissolveEvent
+    void _set_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private System.Action`2<ObstacleController,System.Single> didUpdateProgress
+    System::Action_2<GlobalNamespace::ObstacleController*, float>* _get_didUpdateProgress();
+    // Set instance field: private System.Action`2<ObstacleController,System.Single> didUpdateProgress
+    void _set_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController*, float>* value);
+    // Get instance field: private System.Single _width
+    float _get__width();
+    // Set instance field: private System.Single _width
+    void _set__width(float value);
+    // Get instance field: private System.Single _height
+    float _get__height();
+    // Set instance field: private System.Single _height
+    void _set__height(float value);
+    // Get instance field: private System.Single _length
+    float _get__length();
+    // Set instance field: private System.Single _length
+    void _set__length(float value);
+    // Get instance field: private UnityEngine.Vector3 _startPos
+    UnityEngine::Vector3 _get__startPos();
+    // Set instance field: private UnityEngine.Vector3 _startPos
+    void _set__startPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _midPos
+    UnityEngine::Vector3 _get__midPos();
+    // Set instance field: private UnityEngine.Vector3 _midPos
+    void _set__midPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _endPos
+    UnityEngine::Vector3 _get__endPos();
+    // Set instance field: private UnityEngine.Vector3 _endPos
+    void _set__endPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _move1Duration
+    float _get__move1Duration();
+    // Set instance field: private System.Single _move1Duration
+    void _set__move1Duration(float value);
+    // Get instance field: private System.Single _move2Duration
+    float _get__move2Duration();
+    // Set instance field: private System.Single _move2Duration
+    void _set__move2Duration(float value);
+    // Get instance field: private System.Single _startTimeOffset
+    float _get__startTimeOffset();
+    // Set instance field: private System.Single _startTimeOffset
+    void _set__startTimeOffset(float value);
+    // Get instance field: private System.Single _obstacleDuration
+    float _get__obstacleDuration();
+    // Set instance field: private System.Single _obstacleDuration
+    void _set__obstacleDuration(float value);
+    // Get instance field: private System.Boolean _passedThreeQuartersOfMove2Reported
+    bool _get__passedThreeQuartersOfMove2Reported();
+    // Set instance field: private System.Boolean _passedThreeQuartersOfMove2Reported
+    void _set__passedThreeQuartersOfMove2Reported(bool value);
+    // Get instance field: private System.Boolean _passedAvoidedMarkReported
+    bool _get__passedAvoidedMarkReported();
+    // Set instance field: private System.Boolean _passedAvoidedMarkReported
+    void _set__passedAvoidedMarkReported(bool value);
+    // Get instance field: private System.Single _passedAvoidedMarkTime
+    float _get__passedAvoidedMarkTime();
+    // Set instance field: private System.Single _passedAvoidedMarkTime
+    void _set__passedAvoidedMarkTime(float value);
+    // Get instance field: private System.Single _finishMovementTime
+    float _get__finishMovementTime();
+    // Set instance field: private System.Single _finishMovementTime
+    void _set__finishMovementTime(float value);
+    // Get instance field: private UnityEngine.Bounds _bounds
+    UnityEngine::Bounds _get__bounds();
+    // Set instance field: private UnityEngine.Bounds _bounds
+    void _set__bounds(UnityEngine::Bounds value);
+    // Get instance field: private System.Boolean _dissolving
+    bool _get__dissolving();
+    // Set instance field: private System.Boolean _dissolving
+    void _set__dissolving(bool value);
+    // Get instance field: private ObstacleData _obstacleData
+    GlobalNamespace::ObstacleData* _get__obstacleData();
+    // Set instance field: private ObstacleData _obstacleData
+    void _set__obstacleData(GlobalNamespace::ObstacleData* value);
+    // Get instance field: private UnityEngine.Color _color
+    UnityEngine::Color _get__color();
+    // Set instance field: private UnityEngine.Color _color
+    void _set__color(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Quaternion _worldRotation
+    UnityEngine::Quaternion _get__worldRotation();
+    // Set instance field: private UnityEngine.Quaternion _worldRotation
+    void _set__worldRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion _inverseWorldRotation
+    UnityEngine::Quaternion _get__inverseWorldRotation();
+    // Set instance field: private UnityEngine.Quaternion _inverseWorldRotation
+    void _set__inverseWorldRotation(UnityEngine::Quaternion value);
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x11E93B8
     void set_hide(bool value);

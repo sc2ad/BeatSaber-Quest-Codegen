@@ -50,6 +50,14 @@ namespace HMUI {
     RaycastUITopLevelChecker(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* results_ = {}, UnityEngine::Canvas* canvas_ = {}) noexcept : results{results_}, canvas{canvas_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> results
+    System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* _get_results();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> results
+    void _set_results(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* value);
+    // Get instance field: private UnityEngine.Canvas _canvas
+    UnityEngine::Canvas* _get__canvas();
+    // Set instance field: private UnityEngine.Canvas _canvas
+    void _set__canvas(UnityEngine::Canvas* value);
     // public System.Boolean get_isOnTop()
     // Offset: 0x12961C8
     bool get_isOnTop();

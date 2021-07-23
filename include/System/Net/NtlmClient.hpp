@@ -46,6 +46,10 @@ namespace System::Net {
     constexpr operator System::Net::IAuthenticationModule*() const noexcept {
       return authObject;
     }
+    // Get instance field: private System.Net.IAuthenticationModule authObject
+    System::Net::IAuthenticationModule* _get_authObject();
+    // Set instance field: private System.Net.IAuthenticationModule authObject
+    void _set_authObject(System::Net::IAuthenticationModule* value);
     // public System.String get_AuthenticationType()
     // Offset: 0x1465738
     ::Il2CppString* get_AuthenticationType();

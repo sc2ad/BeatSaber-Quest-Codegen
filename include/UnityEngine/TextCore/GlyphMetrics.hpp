@@ -68,6 +68,26 @@ namespace UnityEngine::TextCore {
     operator System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>*>(this);
     }
+    // Get instance field: private System.Single m_Width
+    float _get_m_Width();
+    // Set instance field: private System.Single m_Width
+    void _set_m_Width(float value);
+    // Get instance field: private System.Single m_Height
+    float _get_m_Height();
+    // Set instance field: private System.Single m_Height
+    void _set_m_Height(float value);
+    // Get instance field: private System.Single m_HorizontalBearingX
+    float _get_m_HorizontalBearingX();
+    // Set instance field: private System.Single m_HorizontalBearingX
+    void _set_m_HorizontalBearingX(float value);
+    // Get instance field: private System.Single m_HorizontalBearingY
+    float _get_m_HorizontalBearingY();
+    // Set instance field: private System.Single m_HorizontalBearingY
+    void _set_m_HorizontalBearingY(float value);
+    // Get instance field: private System.Single m_HorizontalAdvance
+    float _get_m_HorizontalAdvance();
+    // Set instance field: private System.Single m_HorizontalAdvance
+    void _set_m_HorizontalAdvance(float value);
     // public System.Single get_width()
     // Offset: 0xF0DF40
     float get_width();

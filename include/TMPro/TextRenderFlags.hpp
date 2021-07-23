@@ -43,6 +43,10 @@ namespace TMPro {
     static TMPro::TextRenderFlags _get_Render();
     // Set static field: static public TMPro.TextRenderFlags Render
     static void _set_Render(TMPro::TextRenderFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.TextRenderFlags
   #pragma pack(pop)
   static check_size<sizeof(TextRenderFlags), 0 + sizeof(int)> __TMPro_TextRenderFlagsSizeCheck;

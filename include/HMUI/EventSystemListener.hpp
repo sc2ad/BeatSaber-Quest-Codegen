@@ -61,6 +61,14 @@ namespace HMUI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Action`1<UnityEngine.EventSystems.PointerEventData> pointerDidEnterEvent
+    System::Action_1<UnityEngine::EventSystems::PointerEventData*>* _get_pointerDidEnterEvent();
+    // Set instance field: private System.Action`1<UnityEngine.EventSystems.PointerEventData> pointerDidEnterEvent
+    void _set_pointerDidEnterEvent(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* value);
+    // Get instance field: private System.Action`1<UnityEngine.EventSystems.PointerEventData> pointerDidExitEvent
+    System::Action_1<UnityEngine::EventSystems::PointerEventData*>* _get_pointerDidExitEvent();
+    // Set instance field: private System.Action`1<UnityEngine.EventSystems.PointerEventData> pointerDidExitEvent
+    void _set_pointerDidExitEvent(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* value);
     // public System.Void add_pointerDidEnterEvent(System.Action`1<UnityEngine.EventSystems.PointerEventData> value)
     // Offset: 0x1308968
     void add_pointerDidEnterEvent(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* value);

@@ -99,6 +99,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Result _get_Failure_DeprecatedOperation();
     // Set static field: static public OVRPlugin/Result Failure_DeprecatedOperation
     static void _set_Failure_DeprecatedOperation(GlobalNamespace::OVRPlugin::Result value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/Result
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Result), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_ResultSizeCheck;

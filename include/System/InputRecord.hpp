@@ -78,6 +78,42 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int16 EventType
+    int16_t _get_EventType();
+    // Set instance field: public System.Int16 EventType
+    void _set_EventType(int16_t value);
+    // Get instance field: public System.Boolean KeyDown
+    bool _get_KeyDown();
+    // Set instance field: public System.Boolean KeyDown
+    void _set_KeyDown(bool value);
+    // Get instance field: public System.Int16 RepeatCount
+    int16_t _get_RepeatCount();
+    // Set instance field: public System.Int16 RepeatCount
+    void _set_RepeatCount(int16_t value);
+    // Get instance field: public System.Int16 VirtualKeyCode
+    int16_t _get_VirtualKeyCode();
+    // Set instance field: public System.Int16 VirtualKeyCode
+    void _set_VirtualKeyCode(int16_t value);
+    // Get instance field: public System.Int16 VirtualScanCode
+    int16_t _get_VirtualScanCode();
+    // Set instance field: public System.Int16 VirtualScanCode
+    void _set_VirtualScanCode(int16_t value);
+    // Get instance field: public System.Char Character
+    ::Il2CppChar _get_Character();
+    // Set instance field: public System.Char Character
+    void _set_Character(::Il2CppChar value);
+    // Get instance field: public System.Int32 ControlKeyState
+    int _get_ControlKeyState();
+    // Set instance field: public System.Int32 ControlKeyState
+    void _set_ControlKeyState(int value);
+    // Get instance field: private System.Int32 pad1
+    int _get_pad1();
+    // Set instance field: private System.Int32 pad1
+    void _set_pad1(int value);
+    // Get instance field: private System.Boolean pad2
+    bool _get_pad2();
+    // Set instance field: private System.Boolean pad2
+    void _set_pad2(bool value);
   }; // System.InputRecord
   #pragma pack(pop)
   static check_size<sizeof(InputRecord), 20 + sizeof(bool)> __System_InputRecordSizeCheck;

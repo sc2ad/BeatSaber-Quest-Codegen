@@ -88,6 +88,18 @@ namespace Zenject {
     operator Zenject::IFixedTickable() noexcept {
       return *reinterpret_cast<Zenject::IFixedTickable*>(this);
     }
+    // Get instance field: private Zenject.TickableManager _tickableManager
+    Zenject::TickableManager* _get__tickableManager();
+    // Set instance field: private Zenject.TickableManager _tickableManager
+    void _set__tickableManager(Zenject::TickableManager* value);
+    // Get instance field: private Zenject.InitializableManager _initializableManager
+    Zenject::InitializableManager* _get__initializableManager();
+    // Set instance field: private Zenject.InitializableManager _initializableManager
+    void _set__initializableManager(Zenject::InitializableManager* value);
+    // Get instance field: private Zenject.DisposableManager _disposablesManager
+    Zenject::DisposableManager* _get__disposablesManager();
+    // Set instance field: private Zenject.DisposableManager _disposablesManager
+    void _set__disposablesManager(Zenject::DisposableManager* value);
     // public System.Void Initialize()
     // Offset: 0x16C4768
     void Initialize();

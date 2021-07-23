@@ -59,6 +59,30 @@ namespace RootMotion::FinalIK {
     RotationLimit(UnityEngine::Vector3 axis_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, bool defaultLocalRotationOverride_ = {}, bool initiated_ = {}, bool applicationQuit_ = {}, bool defaultLocalRotationSet_ = {}) noexcept : axis{axis_}, defaultLocalRotation{defaultLocalRotation_}, defaultLocalRotationOverride{defaultLocalRotationOverride_}, initiated{initiated_}, applicationQuit{applicationQuit_}, defaultLocalRotationSet{defaultLocalRotationSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Vector3 axis
+    UnityEngine::Vector3 _get_axis();
+    // Set instance field: public UnityEngine.Vector3 axis
+    void _set_axis(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion defaultLocalRotation
+    UnityEngine::Quaternion _get_defaultLocalRotation();
+    // Set instance field: public UnityEngine.Quaternion defaultLocalRotation
+    void _set_defaultLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Boolean <defaultLocalRotationOverride>k__BackingField
+    bool _get_$defaultLocalRotationOverride$k__BackingField();
+    // Set instance field: private System.Boolean <defaultLocalRotationOverride>k__BackingField
+    void _set_$defaultLocalRotationOverride$k__BackingField(bool value);
+    // Get instance field: private System.Boolean initiated
+    bool _get_initiated();
+    // Set instance field: private System.Boolean initiated
+    void _set_initiated(bool value);
+    // Get instance field: private System.Boolean applicationQuit
+    bool _get_applicationQuit();
+    // Set instance field: private System.Boolean applicationQuit
+    void _set_applicationQuit(bool value);
+    // Get instance field: private System.Boolean defaultLocalRotationSet
+    bool _get_defaultLocalRotationSet();
+    // Set instance field: private System.Boolean defaultLocalRotationSet
+    void _set_defaultLocalRotationSet(bool value);
     // public UnityEngine.Vector3 get_secondaryAxis()
     // Offset: 0x1ABAB50
     UnityEngine::Vector3 get_secondaryAxis();

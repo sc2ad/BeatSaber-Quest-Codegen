@@ -90,6 +90,22 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static int _get_k_aliveMessageFrequency();
     // Set static field: static private System.Int32 k_aliveMessageFrequency
     static void _set_k_aliveMessageFrequency(int value);
+    // Get instance field: private System.Single m_NextliveMessage
+    float _get_m_NextliveMessage();
+    // Set instance field: private System.Single m_NextliveMessage
+    void _set_m_NextliveMessage(float value);
+    // Get instance field: private readonly System.Collections.Generic.Queue`1<UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/UnityEngine.TestTools.TestRunner.Callbacks.QueueData> m_SendQueue
+    System::Collections::Generic::Queue_1<UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*>* _get_m_SendQueue();
+    // Set instance field: private readonly System.Collections.Generic.Queue`1<UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/UnityEngine.TestTools.TestRunner.Callbacks.QueueData> m_SendQueue
+    void _set_m_SendQueue(System::Collections::Generic::Queue_1<UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*>* value);
+    // Get instance field: private readonly System.Object m_LockQueue
+    ::Il2CppObject* _get_m_LockQueue();
+    // Set instance field: private readonly System.Object m_LockQueue
+    void _set_m_LockQueue(::Il2CppObject* value);
+    // Get instance field: private readonly UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory m_TestResultDataFactory
+    UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* _get_m_TestResultDataFactory();
+    // Set instance field: private readonly UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory m_TestResultDataFactory
+    void _set_m_TestResultDataFactory(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* value);
     // public System.Void Start()
     // Offset: 0x148E1AC
     void Start();

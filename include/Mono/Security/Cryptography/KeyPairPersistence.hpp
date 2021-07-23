@@ -70,6 +70,22 @@ namespace Mono::Security::Cryptography {
     static ::Il2CppObject* _get_lockobj();
     // Set static field: static private System.Object lockobj
     static void _set_lockobj(::Il2CppObject* value);
+    // Get instance field: private System.Security.Cryptography.CspParameters _params
+    System::Security::Cryptography::CspParameters* _get__params();
+    // Set instance field: private System.Security.Cryptography.CspParameters _params
+    void _set__params(System::Security::Cryptography::CspParameters* value);
+    // Get instance field: private System.String _keyvalue
+    ::Il2CppString* _get__keyvalue();
+    // Set instance field: private System.String _keyvalue
+    void _set__keyvalue(::Il2CppString* value);
+    // Get instance field: private System.String _filename
+    ::Il2CppString* _get__filename();
+    // Set instance field: private System.String _filename
+    void _set__filename(::Il2CppString* value);
+    // Get instance field: private System.String _container
+    ::Il2CppString* _get__container();
+    // Set instance field: private System.String _container
+    void _set__container(::Il2CppString* value);
     // public System.String get_Filename()
     // Offset: 0x1A40B08
     ::Il2CppString* get_Filename();

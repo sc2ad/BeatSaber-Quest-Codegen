@@ -37,6 +37,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.HmdVector4_t position
+    OVR::OpenVR::HmdVector4_t _get_position();
+    // Set instance field: public OVR.OpenVR.HmdVector4_t position
+    void _set_position(OVR::OpenVR::HmdVector4_t value);
+    // Get instance field: public OVR.OpenVR.HmdQuaternionf_t orientation
+    OVR::OpenVR::HmdQuaternionf_t _get_orientation();
+    // Set instance field: public OVR.OpenVR.HmdQuaternionf_t orientation
+    void _set_orientation(OVR::OpenVR::HmdQuaternionf_t value);
   }; // OVR.OpenVR.VRBoneTransform_t
   #pragma pack(pop)
   static check_size<sizeof(VRBoneTransform_t), 16 + sizeof(OVR::OpenVR::HmdQuaternionf_t)> __OVR_OpenVR_VRBoneTransform_tSizeCheck;

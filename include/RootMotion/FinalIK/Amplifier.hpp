@@ -37,6 +37,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::Amplifier::Body*>*) == 0x8);
     // Creating value type constructor for type: Amplifier
     Amplifier(::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies_ = {}) noexcept : bodies{bodies_} {}
+    // Get instance field: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
+    ::Array<RootMotion::FinalIK::Amplifier::Body*>* _get_bodies();
+    // Set instance field: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
+    void _set_bodies(::Array<RootMotion::FinalIK::Amplifier::Body*>* value);
     // public System.Void .ctor()
     // Offset: 0x1CDEF88
     // Implemented from: RootMotion.FinalIK.OffsetModifier

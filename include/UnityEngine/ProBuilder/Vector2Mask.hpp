@@ -63,6 +63,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::Vector2Mask _get_XY();
     // Set static field: static public readonly UnityEngine.ProBuilder.Vector2Mask XY
     static void _set_XY(UnityEngine::ProBuilder::Vector2Mask value);
+    // Get instance field: private System.Byte m_Mask
+    uint8_t _get_m_Mask();
+    // Set instance field: private System.Byte m_Mask
+    void _set_m_Mask(uint8_t value);
     // public System.Single get_x()
     // Offset: 0xF03870
     float get_x();

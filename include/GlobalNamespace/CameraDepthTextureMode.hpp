@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     CameraDepthTextureMode(UnityEngine::DepthTextureMode depthTextureMode_ = {}) noexcept : depthTextureMode{depthTextureMode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.DepthTextureMode _depthTextureMode
+    UnityEngine::DepthTextureMode _get__depthTextureMode();
+    // Set instance field: private UnityEngine.DepthTextureMode _depthTextureMode
+    void _set__depthTextureMode(UnityEngine::DepthTextureMode value);
     // protected System.Void Awake()
     // Offset: 0x120E778
     void Awake();

@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*) == 0x8);
     // Creating value type constructor for type: MultiplayerDuelConnectedPlayerGameplayAnimator
     MultiplayerDuelConnectedPlayerGameplayAnimator(GlobalNamespace::ScaleAnimator* avatarScaleAnimator_ = {}, GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController_ = {}) noexcept : avatarScaleAnimator{avatarScaleAnimator_}, failController{failController_} {}
+    // Get instance field: private ScaleAnimator _avatarScaleAnimator
+    GlobalNamespace::ScaleAnimator* _get__avatarScaleAnimator();
+    // Set instance field: private ScaleAnimator _avatarScaleAnimator
+    void _set__avatarScaleAnimator(GlobalNamespace::ScaleAnimator* value);
+    // Get instance field: private readonly MultiplayerConnectedPlayerLevelFailController _failController
+    GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* _get__failController();
+    // Set instance field: private readonly MultiplayerConnectedPlayerLevelFailController _failController
+    void _set__failController(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* value);
     // private System.Void TransitionIntoFailedState()
     // Offset: 0x11AA4F4
     void TransitionIntoFailedState();

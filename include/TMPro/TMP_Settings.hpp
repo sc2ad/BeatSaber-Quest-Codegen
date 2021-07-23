@@ -228,6 +228,114 @@ namespace TMPro {
     static TMPro::TMP_Settings* _get_s_Instance();
     // Set static field: static private TMPro.TMP_Settings s_Instance
     static void _set_s_Instance(TMPro::TMP_Settings* value);
+    // Get instance field: private System.Boolean m_enableWordWrapping
+    bool _get_m_enableWordWrapping();
+    // Set instance field: private System.Boolean m_enableWordWrapping
+    void _set_m_enableWordWrapping(bool value);
+    // Get instance field: private System.Boolean m_enableKerning
+    bool _get_m_enableKerning();
+    // Set instance field: private System.Boolean m_enableKerning
+    void _set_m_enableKerning(bool value);
+    // Get instance field: private System.Boolean m_enableExtraPadding
+    bool _get_m_enableExtraPadding();
+    // Set instance field: private System.Boolean m_enableExtraPadding
+    void _set_m_enableExtraPadding(bool value);
+    // Get instance field: private System.Boolean m_enableTintAllSprites
+    bool _get_m_enableTintAllSprites();
+    // Set instance field: private System.Boolean m_enableTintAllSprites
+    void _set_m_enableTintAllSprites(bool value);
+    // Get instance field: private System.Boolean m_enableParseEscapeCharacters
+    bool _get_m_enableParseEscapeCharacters();
+    // Set instance field: private System.Boolean m_enableParseEscapeCharacters
+    void _set_m_enableParseEscapeCharacters(bool value);
+    // Get instance field: private System.Boolean m_EnableRaycastTarget
+    bool _get_m_EnableRaycastTarget();
+    // Set instance field: private System.Boolean m_EnableRaycastTarget
+    void _set_m_EnableRaycastTarget(bool value);
+    // Get instance field: private System.Boolean m_GetFontFeaturesAtRuntime
+    bool _get_m_GetFontFeaturesAtRuntime();
+    // Set instance field: private System.Boolean m_GetFontFeaturesAtRuntime
+    void _set_m_GetFontFeaturesAtRuntime(bool value);
+    // Get instance field: private System.Int32 m_missingGlyphCharacter
+    int _get_m_missingGlyphCharacter();
+    // Set instance field: private System.Int32 m_missingGlyphCharacter
+    void _set_m_missingGlyphCharacter(int value);
+    // Get instance field: private System.Boolean m_warningsDisabled
+    bool _get_m_warningsDisabled();
+    // Set instance field: private System.Boolean m_warningsDisabled
+    void _set_m_warningsDisabled(bool value);
+    // Get instance field: private TMPro.TMP_FontAsset m_defaultFontAsset
+    TMPro::TMP_FontAsset* _get_m_defaultFontAsset();
+    // Set instance field: private TMPro.TMP_FontAsset m_defaultFontAsset
+    void _set_m_defaultFontAsset(TMPro::TMP_FontAsset* value);
+    // Get instance field: private System.String m_defaultFontAssetPath
+    ::Il2CppString* _get_m_defaultFontAssetPath();
+    // Set instance field: private System.String m_defaultFontAssetPath
+    void _set_m_defaultFontAssetPath(::Il2CppString* value);
+    // Get instance field: private System.Single m_defaultFontSize
+    float _get_m_defaultFontSize();
+    // Set instance field: private System.Single m_defaultFontSize
+    void _set_m_defaultFontSize(float value);
+    // Get instance field: private System.Single m_defaultAutoSizeMinRatio
+    float _get_m_defaultAutoSizeMinRatio();
+    // Set instance field: private System.Single m_defaultAutoSizeMinRatio
+    void _set_m_defaultAutoSizeMinRatio(float value);
+    // Get instance field: private System.Single m_defaultAutoSizeMaxRatio
+    float _get_m_defaultAutoSizeMaxRatio();
+    // Set instance field: private System.Single m_defaultAutoSizeMaxRatio
+    void _set_m_defaultAutoSizeMaxRatio(float value);
+    // Get instance field: private UnityEngine.Vector2 m_defaultTextMeshProTextContainerSize
+    UnityEngine::Vector2 _get_m_defaultTextMeshProTextContainerSize();
+    // Set instance field: private UnityEngine.Vector2 m_defaultTextMeshProTextContainerSize
+    void _set_m_defaultTextMeshProTextContainerSize(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 m_defaultTextMeshProUITextContainerSize
+    UnityEngine::Vector2 _get_m_defaultTextMeshProUITextContainerSize();
+    // Set instance field: private UnityEngine.Vector2 m_defaultTextMeshProUITextContainerSize
+    void _set_m_defaultTextMeshProUITextContainerSize(UnityEngine::Vector2 value);
+    // Get instance field: private System.Boolean m_autoSizeTextContainer
+    bool _get_m_autoSizeTextContainer();
+    // Set instance field: private System.Boolean m_autoSizeTextContainer
+    void _set_m_autoSizeTextContainer(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_fallbackFontAssets
+    System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* _get_m_fallbackFontAssets();
+    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_fallbackFontAssets
+    void _set_m_fallbackFontAssets(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* value);
+    // Get instance field: private System.Boolean m_matchMaterialPreset
+    bool _get_m_matchMaterialPreset();
+    // Set instance field: private System.Boolean m_matchMaterialPreset
+    void _set_m_matchMaterialPreset(bool value);
+    // Get instance field: private TMPro.TMP_SpriteAsset m_defaultSpriteAsset
+    TMPro::TMP_SpriteAsset* _get_m_defaultSpriteAsset();
+    // Set instance field: private TMPro.TMP_SpriteAsset m_defaultSpriteAsset
+    void _set_m_defaultSpriteAsset(TMPro::TMP_SpriteAsset* value);
+    // Get instance field: private System.String m_defaultSpriteAssetPath
+    ::Il2CppString* _get_m_defaultSpriteAssetPath();
+    // Set instance field: private System.String m_defaultSpriteAssetPath
+    void _set_m_defaultSpriteAssetPath(::Il2CppString* value);
+    // Get instance field: private System.String m_defaultColorGradientPresetsPath
+    ::Il2CppString* _get_m_defaultColorGradientPresetsPath();
+    // Set instance field: private System.String m_defaultColorGradientPresetsPath
+    void _set_m_defaultColorGradientPresetsPath(::Il2CppString* value);
+    // Get instance field: private System.Boolean m_enableEmojiSupport
+    bool _get_m_enableEmojiSupport();
+    // Set instance field: private System.Boolean m_enableEmojiSupport
+    void _set_m_enableEmojiSupport(bool value);
+    // Get instance field: private TMPro.TMP_StyleSheet m_defaultStyleSheet
+    TMPro::TMP_StyleSheet* _get_m_defaultStyleSheet();
+    // Set instance field: private TMPro.TMP_StyleSheet m_defaultStyleSheet
+    void _set_m_defaultStyleSheet(TMPro::TMP_StyleSheet* value);
+    // Get instance field: private UnityEngine.TextAsset m_leadingCharacters
+    UnityEngine::TextAsset* _get_m_leadingCharacters();
+    // Set instance field: private UnityEngine.TextAsset m_leadingCharacters
+    void _set_m_leadingCharacters(UnityEngine::TextAsset* value);
+    // Get instance field: private UnityEngine.TextAsset m_followingCharacters
+    UnityEngine::TextAsset* _get_m_followingCharacters();
+    // Set instance field: private UnityEngine.TextAsset m_followingCharacters
+    void _set_m_followingCharacters(UnityEngine::TextAsset* value);
+    // Get instance field: private TMPro.TMP_Settings/TMPro.LineBreakingTable m_linebreakingRules
+    TMPro::TMP_Settings::LineBreakingTable* _get_m_linebreakingRules();
+    // Set instance field: private TMPro.TMP_Settings/TMPro.LineBreakingTable m_linebreakingRules
+    void _set_m_linebreakingRules(TMPro::TMP_Settings::LineBreakingTable* value);
     // static public System.String get_version()
     // Offset: 0x1112E1C
     static ::Il2CppString* get_version();

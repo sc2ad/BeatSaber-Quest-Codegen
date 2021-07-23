@@ -93,6 +93,26 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
+    // Get instance field: private HMUI.TableView _tableView
+    HMUI::TableView* _get__tableView();
+    // Set instance field: private HMUI.TableView _tableView
+    void _set__tableView(HMUI::TableView* value);
+    // Get instance field: private LeaderboardTableCell _cellPrefab
+    GlobalNamespace::LeaderboardTableCell* _get__cellPrefab();
+    // Set instance field: private LeaderboardTableCell _cellPrefab
+    void _set__cellPrefab(GlobalNamespace::LeaderboardTableCell* value);
+    // Get instance field: private System.Single _rowHeight
+    float _get__rowHeight();
+    // Set instance field: private System.Single _rowHeight
+    void _set__rowHeight(float value);
+    // Get instance field: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
+    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* _get__scores();
+    // Set instance field: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
+    void _set__scores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* value);
+    // Get instance field: private System.Int32 _specialScorePos
+    int _get__specialScorePos();
+    // Set instance field: private System.Int32 _specialScorePos
+    void _set__specialScorePos(int value);
     // public System.Single CellSize()
     // Offset: 0x10F03E4
     float CellSize();

@@ -100,6 +100,46 @@ namespace System::Net {
     static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
     // Creating value type constructor for type: WebAsyncResult
     WebAsyncResult(int nbytes_ = {}, System::IAsyncResult* innerAsyncResult_ = {}, System::Net::HttpWebResponse* response_ = {}, System::IO::Stream* writeStream_ = {}, ::Array<uint8_t>* buffer_ = {}, int offset_ = {}, int size_ = {}, bool EndCalled_ = {}, bool AsyncWriteAll_ = {}, System::Net::HttpWebRequest* AsyncObject_ = {}) noexcept : nbytes{nbytes_}, innerAsyncResult{innerAsyncResult_}, response{response_}, writeStream{writeStream_}, buffer{buffer_}, offset{offset_}, size{size_}, EndCalled{EndCalled_}, AsyncWriteAll{AsyncWriteAll_}, AsyncObject{AsyncObject_} {}
+    // Get instance field: private System.Int32 nbytes
+    int _get_nbytes();
+    // Set instance field: private System.Int32 nbytes
+    void _set_nbytes(int value);
+    // Get instance field: private System.IAsyncResult innerAsyncResult
+    System::IAsyncResult* _get_innerAsyncResult();
+    // Set instance field: private System.IAsyncResult innerAsyncResult
+    void _set_innerAsyncResult(System::IAsyncResult* value);
+    // Get instance field: private System.Net.HttpWebResponse response
+    System::Net::HttpWebResponse* _get_response();
+    // Set instance field: private System.Net.HttpWebResponse response
+    void _set_response(System::Net::HttpWebResponse* value);
+    // Get instance field: private System.IO.Stream writeStream
+    System::IO::Stream* _get_writeStream();
+    // Set instance field: private System.IO.Stream writeStream
+    void _set_writeStream(System::IO::Stream* value);
+    // Get instance field: private System.Byte[] buffer
+    ::Array<uint8_t>* _get_buffer();
+    // Set instance field: private System.Byte[] buffer
+    void _set_buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 offset
+    int _get_offset();
+    // Set instance field: private System.Int32 offset
+    void _set_offset(int value);
+    // Get instance field: private System.Int32 size
+    int _get_size();
+    // Set instance field: private System.Int32 size
+    void _set_size(int value);
+    // Get instance field: public System.Boolean EndCalled
+    bool _get_EndCalled();
+    // Set instance field: public System.Boolean EndCalled
+    void _set_EndCalled(bool value);
+    // Get instance field: public System.Boolean AsyncWriteAll
+    bool _get_AsyncWriteAll();
+    // Set instance field: public System.Boolean AsyncWriteAll
+    void _set_AsyncWriteAll(bool value);
+    // Get instance field: public System.Net.HttpWebRequest AsyncObject
+    System::Net::HttpWebRequest* _get_AsyncObject();
+    // Set instance field: public System.Net.HttpWebRequest AsyncObject
+    void _set_AsyncObject(System::Net::HttpWebRequest* value);
     // System.Int32 get_NBytes()
     // Offset: 0x158F898
     int get_NBytes();

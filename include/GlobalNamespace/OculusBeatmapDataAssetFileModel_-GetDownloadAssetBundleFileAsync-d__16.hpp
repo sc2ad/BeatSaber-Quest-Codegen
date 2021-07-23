@@ -74,6 +74,30 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<GetAssetBundleFileResult> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<GetAssetBundleFileResult> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::GetAssetBundleFileResult> value);
+    // Get instance field: public OculusBeatmapDataAssetFileModel <>4__this
+    GlobalNamespace::OculusBeatmapDataAssetFileModel* _get_$$4__this();
+    // Set instance field: public OculusBeatmapDataAssetFileModel <>4__this
+    void _set_$$4__this(GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
+    // Get instance field: public Oculus.Platform.Models.AssetDetails assetDetails
+    Oculus::Platform::Models::AssetDetails* _get_assetDetails();
+    // Set instance field: public Oculus.Platform.Models.AssetDetails assetDetails
+    void _set_assetDetails(Oculus::Platform::Models::AssetDetails* value);
+    // Get instance field: public System.String levelId
+    ::Il2CppString* _get_levelId();
+    // Set instance field: public System.String levelId
+    void _set_levelId(::Il2CppString* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> value);
     // private System.Void MoveNext()
     // Offset: 0xED17E4
     void MoveNext();

@@ -178,6 +178,82 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadRenderModel_Async LoadRenderModel_Async
+    OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async* _get_LoadRenderModel_Async();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadRenderModel_Async LoadRenderModel_Async
+    void _set_LoadRenderModel_Async(OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeRenderModel FreeRenderModel
+    OVR::OpenVR::IVRRenderModels::_FreeRenderModel* _get_FreeRenderModel();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeRenderModel FreeRenderModel
+    void _set_FreeRenderModel(OVR::OpenVR::IVRRenderModels::_FreeRenderModel* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadTexture_Async LoadTexture_Async
+    OVR::OpenVR::IVRRenderModels::_LoadTexture_Async* _get_LoadTexture_Async();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadTexture_Async LoadTexture_Async
+    void _set_LoadTexture_Async(OVR::OpenVR::IVRRenderModels::_LoadTexture_Async* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeTexture FreeTexture
+    OVR::OpenVR::IVRRenderModels::_FreeTexture* _get_FreeTexture();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeTexture FreeTexture
+    void _set_FreeTexture(OVR::OpenVR::IVRRenderModels::_FreeTexture* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadTextureD3D11_Async LoadTextureD3D11_Async
+    OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async* _get_LoadTextureD3D11_Async();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadTextureD3D11_Async LoadTextureD3D11_Async
+    void _set_LoadTextureD3D11_Async(OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async
+    OVR::OpenVR::IVRRenderModels::_LoadIntoTextureD3D11_Async* _get_LoadIntoTextureD3D11_Async();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadIntoTextureD3D11_Async LoadIntoTextureD3D11_Async
+    void _set_LoadIntoTextureD3D11_Async(OVR::OpenVR::IVRRenderModels::_LoadIntoTextureD3D11_Async* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeTextureD3D11 FreeTextureD3D11
+    OVR::OpenVR::IVRRenderModels::_FreeTextureD3D11* _get_FreeTextureD3D11();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._FreeTextureD3D11 FreeTextureD3D11
+    void _set_FreeTextureD3D11(OVR::OpenVR::IVRRenderModels::_FreeTextureD3D11* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelName GetRenderModelName
+    OVR::OpenVR::IVRRenderModels::_GetRenderModelName* _get_GetRenderModelName();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelName GetRenderModelName
+    void _set_GetRenderModelName(OVR::OpenVR::IVRRenderModels::_GetRenderModelName* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelCount GetRenderModelCount
+    OVR::OpenVR::IVRRenderModels::_GetRenderModelCount* _get_GetRenderModelCount();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelCount GetRenderModelCount
+    void _set_GetRenderModelCount(OVR::OpenVR::IVRRenderModels::_GetRenderModelCount* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentCount GetComponentCount
+    OVR::OpenVR::IVRRenderModels::_GetComponentCount* _get_GetComponentCount();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentCount GetComponentCount
+    void _set_GetComponentCount(OVR::OpenVR::IVRRenderModels::_GetComponentCount* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentName GetComponentName
+    OVR::OpenVR::IVRRenderModels::_GetComponentName* _get_GetComponentName();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentName GetComponentName
+    void _set_GetComponentName(OVR::OpenVR::IVRRenderModels::_GetComponentName* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentButtonMask GetComponentButtonMask
+    OVR::OpenVR::IVRRenderModels::_GetComponentButtonMask* _get_GetComponentButtonMask();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentButtonMask GetComponentButtonMask
+    void _set_GetComponentButtonMask(OVR::OpenVR::IVRRenderModels::_GetComponentButtonMask* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentRenderModelName GetComponentRenderModelName
+    OVR::OpenVR::IVRRenderModels::_GetComponentRenderModelName* _get_GetComponentRenderModelName();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentRenderModelName GetComponentRenderModelName
+    void _set_GetComponentRenderModelName(OVR::OpenVR::IVRRenderModels::_GetComponentRenderModelName* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentStateForDevicePath GetComponentStateForDevicePath
+    OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath* _get_GetComponentStateForDevicePath();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentStateForDevicePath GetComponentStateForDevicePath
+    void _set_GetComponentStateForDevicePath(OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentState GetComponentState
+    OVR::OpenVR::IVRRenderModels::_GetComponentState* _get_GetComponentState();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentState GetComponentState
+    void _set_GetComponentState(OVR::OpenVR::IVRRenderModels::_GetComponentState* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._RenderModelHasComponent RenderModelHasComponent
+    OVR::OpenVR::IVRRenderModels::_RenderModelHasComponent* _get_RenderModelHasComponent();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._RenderModelHasComponent RenderModelHasComponent
+    void _set_RenderModelHasComponent(OVR::OpenVR::IVRRenderModels::_RenderModelHasComponent* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelThumbnailURL GetRenderModelThumbnailURL
+    OVR::OpenVR::IVRRenderModels::_GetRenderModelThumbnailURL* _get_GetRenderModelThumbnailURL();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelThumbnailURL GetRenderModelThumbnailURL
+    void _set_GetRenderModelThumbnailURL(OVR::OpenVR::IVRRenderModels::_GetRenderModelThumbnailURL* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelOriginalPath GetRenderModelOriginalPath
+    OVR::OpenVR::IVRRenderModels::_GetRenderModelOriginalPath* _get_GetRenderModelOriginalPath();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelOriginalPath GetRenderModelOriginalPath
+    void _set_GetRenderModelOriginalPath(OVR::OpenVR::IVRRenderModels::_GetRenderModelOriginalPath* value);
+    // Get instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum
+    OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* _get_GetRenderModelErrorNameFromEnum();
+    // Set instance field: OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelErrorNameFromEnum GetRenderModelErrorNameFromEnum
+    void _set_GetRenderModelErrorNameFromEnum(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* value);
   }; // OVR.OpenVR.IVRRenderModels
   #pragma pack(pop)
   static check_size<sizeof(IVRRenderModels), 144 + sizeof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*)> __OVR_OpenVR_IVRRenderModelsSizeCheck;

@@ -57,6 +57,14 @@ namespace System::Net {
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
     // Creating value type constructor for type: ServerCertValidationCallback
     ServerCertValidationCallback(System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback_ = {}, System::Threading::ExecutionContext* m_Context_ = {}) noexcept : m_ValidationCallback{m_ValidationCallback_}, m_Context{m_Context_} {}
+    // Get instance field: private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
+    System::Net::Security::RemoteCertificateValidationCallback* _get_m_ValidationCallback();
+    // Set instance field: private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
+    void _set_m_ValidationCallback(System::Net::Security::RemoteCertificateValidationCallback* value);
+    // Get instance field: private readonly System.Threading.ExecutionContext m_Context
+    System::Threading::ExecutionContext* _get_m_Context();
+    // Set instance field: private readonly System.Threading.ExecutionContext m_Context
+    void _set_m_Context(System::Threading::ExecutionContext* value);
     // System.Void .ctor(System.Net.Security.RemoteCertificateValidationCallback validationCallback)
     // Offset: 0x14699D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

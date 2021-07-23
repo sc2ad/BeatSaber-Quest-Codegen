@@ -62,6 +62,22 @@ namespace GlobalNamespace {
     OculusLevelProductsModelSO(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* levelPackProductsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* assetFileToSku_ = {}) noexcept : levelPackProductsData{levelPackProductsData_}, levelIdToProductData{levelIdToProductData_}, levelPackIdToProductData{levelPackIdToProductData_}, assetFileToSku{assetFileToSku_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private OculusLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
+    ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* _get__levelPackProductsData();
+    // Set instance field: private OculusLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
+    void _set__levelPackProductsData(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelProductData> _levelIdToProductData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* _get__levelIdToProductData();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelProductData> _levelIdToProductData
+    void _set__levelIdToProductData(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* _get__levelPackIdToProductData();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
+    void _set__levelPackIdToProductData(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get__assetFileToSku();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
+    void _set__assetFileToSku(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0x11F1948
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();

@@ -67,6 +67,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::VRsenalLogger*) == 0x8);
     // Creating value type constructor for type: PCArcadeAppInit
     PCArcadeAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::SteamInit* steamInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::VRsenalLogger* vrsenalLoggerPrefab_ = {}) noexcept : mainSystemInit{mainSystemInit_}, steamInit{steamInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_}, vrsenalLoggerPrefab{vrsenalLoggerPrefab_} {}
+    // Get instance field: private MainSystemInit _mainSystemInit
+    GlobalNamespace::MainSystemInit* _get__mainSystemInit();
+    // Set instance field: private MainSystemInit _mainSystemInit
+    void _set__mainSystemInit(GlobalNamespace::MainSystemInit* value);
+    // Get instance field: private SteamInit _steamInit
+    GlobalNamespace::SteamInit* _get__steamInit();
+    // Set instance field: private SteamInit _steamInit
+    void _set__steamInit(GlobalNamespace::SteamInit* value);
+    // Get instance field: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit
+    GlobalNamespace::DefaultScenesTransitionsFromInit* _get__defaultScenesTransitionsFromInit();
+    // Set instance field: private DefaultScenesTransitionsFromInit _defaultScenesTransitionsFromInit
+    void _set__defaultScenesTransitionsFromInit(GlobalNamespace::DefaultScenesTransitionsFromInit* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private VRsenalLogger _vrsenalLoggerPrefab
+    GlobalNamespace::VRsenalLogger* _get__vrsenalLoggerPrefab();
+    // Set instance field: private VRsenalLogger _vrsenalLoggerPrefab
+    void _set__vrsenalLoggerPrefab(GlobalNamespace::VRsenalLogger* value);
     // public System.Void .ctor()
     // Offset: 0xFFC33C
     // Implemented from: AppInit

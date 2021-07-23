@@ -39,6 +39,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BeatmapEventData
     BeatmapEventData(GlobalNamespace::BeatmapEventType type_ = {}, float time_ = {}, int value_ = {}) noexcept : type{type_}, time{time_}, value{value_} {}
+    // Get instance field: public readonly BeatmapEventType type
+    GlobalNamespace::BeatmapEventType _get_type();
+    // Set instance field: public readonly BeatmapEventType type
+    void _set_type(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: public readonly System.Single time
+    float _get_time();
+    // Set instance field: public readonly System.Single time
+    void _set_time(float value);
+    // Get instance field: public readonly System.Int32 value
+    int _get_value();
+    // Set instance field: public readonly System.Int32 value
+    void _set_value(int value);
     // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value)
     // Offset: 0x23B6798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

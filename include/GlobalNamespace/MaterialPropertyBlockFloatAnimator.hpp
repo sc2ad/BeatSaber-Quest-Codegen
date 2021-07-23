@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MaterialPropertyBlockFloatAnimator
     MaterialPropertyBlockFloatAnimator(float value_ = {}) noexcept : value{value_} {}
+    // Get instance field: private System.Single _value
+    float _get__value();
+    // Set instance field: private System.Single _value
+    void _set__value(float value);
     // public System.Void .ctor()
     // Offset: 0x1DF5E40
     // Implemented from: MaterialPropertyBlockAnimator

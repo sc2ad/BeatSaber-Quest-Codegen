@@ -43,6 +43,10 @@ namespace TMPro {
     static TMPro::Compute_DistanceTransform_EventTypes _get_Completed();
     // Set static field: static public TMPro.Compute_DistanceTransform_EventTypes Completed
     static void _set_Completed(TMPro::Compute_DistanceTransform_EventTypes value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.Compute_DistanceTransform_EventTypes
   #pragma pack(pop)
   static check_size<sizeof(Compute_DistanceTransform_EventTypes), 0 + sizeof(int)> __TMPro_Compute_DistanceTransform_EventTypesSizeCheck;

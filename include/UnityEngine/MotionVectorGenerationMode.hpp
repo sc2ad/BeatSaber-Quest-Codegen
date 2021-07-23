@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::MotionVectorGenerationMode _get_ForceNoMotion();
     // Set static field: static public UnityEngine.MotionVectorGenerationMode ForceNoMotion
     static void _set_ForceNoMotion(UnityEngine::MotionVectorGenerationMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.MotionVectorGenerationMode
   #pragma pack(pop)
   static check_size<sizeof(MotionVectorGenerationMode), 0 + sizeof(int)> __UnityEngine_MotionVectorGenerationModeSizeCheck;

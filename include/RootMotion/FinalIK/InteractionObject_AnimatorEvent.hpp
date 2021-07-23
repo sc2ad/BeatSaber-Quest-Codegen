@@ -83,6 +83,30 @@ namespace RootMotion::FinalIK {
     static ::Il2CppString* _get_empty();
     // Set static field: static private System.String empty
     static void _set_empty(::Il2CppString* value);
+    // Get instance field: public UnityEngine.Animator animator
+    UnityEngine::Animator* _get_animator();
+    // Set instance field: public UnityEngine.Animator animator
+    void _set_animator(UnityEngine::Animator* value);
+    // Get instance field: public UnityEngine.Animation animation
+    UnityEngine::Animation* _get_animation();
+    // Set instance field: public UnityEngine.Animation animation
+    void _set_animation(UnityEngine::Animation* value);
+    // Get instance field: public System.String animationState
+    ::Il2CppString* _get_animationState();
+    // Set instance field: public System.String animationState
+    void _set_animationState(::Il2CppString* value);
+    // Get instance field: public System.Single crossfadeTime
+    float _get_crossfadeTime();
+    // Set instance field: public System.Single crossfadeTime
+    void _set_crossfadeTime(float value);
+    // Get instance field: public System.Int32 layer
+    int _get_layer();
+    // Set instance field: public System.Int32 layer
+    void _set_layer(int value);
+    // Get instance field: public System.Boolean resetNormalizedTime
+    bool _get_resetNormalizedTime();
+    // Set instance field: public System.Boolean resetNormalizedTime
+    void _set_resetNormalizedTime(bool value);
     // public System.Void Activate(System.Boolean pickUp)
     // Offset: 0x1E36844
     void Activate(bool pickUp);

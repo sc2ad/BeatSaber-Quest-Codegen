@@ -40,6 +40,14 @@ namespace UnityEngine::ProBuilder {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 begin
+    int _get_begin();
+    // Set instance field: public System.Int32 begin
+    void _set_begin(int value);
+    // Get instance field: public System.Int32 end
+    int _get_end();
+    // Set instance field: public System.Int32 end
+    void _set_end(int value);
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
     // Offset: 0xEFD008
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -49,6 +49,18 @@ namespace System::Net {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: WebRequestPrefixElement
     WebRequestPrefixElement(::Il2CppString* Prefix_ = {}, System::Net::IWebRequestCreate* creator_ = {}, System::Type* creatorType_ = {}) noexcept : Prefix{Prefix_}, creator{creator_}, creatorType{creatorType_} {}
+    // Get instance field: public System.String Prefix
+    ::Il2CppString* _get_Prefix();
+    // Set instance field: public System.String Prefix
+    void _set_Prefix(::Il2CppString* value);
+    // Get instance field: System.Net.IWebRequestCreate creator
+    System::Net::IWebRequestCreate* _get_creator();
+    // Set instance field: System.Net.IWebRequestCreate creator
+    void _set_creator(System::Net::IWebRequestCreate* value);
+    // Get instance field: System.Type creatorType
+    System::Type* _get_creatorType();
+    // Set instance field: System.Type creatorType
+    void _set_creatorType(System::Type* value);
     // public System.Net.IWebRequestCreate get_Creator()
     // Offset: 0x159E3B0
     System::Net::IWebRequestCreate* get_Creator();

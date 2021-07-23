@@ -50,6 +50,10 @@ namespace LiteNetLib {
     static LiteNetLib::LocalAddrType _get_All();
     // Set static field: static public LiteNetLib.LocalAddrType All
     static void _set_All(LiteNetLib::LocalAddrType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // LiteNetLib.LocalAddrType
   #pragma pack(pop)
   static check_size<sizeof(LocalAddrType), 0 + sizeof(int)> __LiteNetLib_LocalAddrTypeSizeCheck;

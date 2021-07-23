@@ -119,6 +119,10 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Scrollbar::Direction _get_TopToBottom();
       // Set static field: static public UnityEngine.UI.Scrollbar/UnityEngine.UI.Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Scrollbar::Direction value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.UI.Scrollbar/UnityEngine.UI.Direction
     #pragma pack(pop)
     static check_size<sizeof(Scrollbar::Direction), 0 + sizeof(int)> __UnityEngine_UI_Scrollbar_DirectionSizeCheck;
@@ -219,6 +223,54 @@ namespace UnityEngine::UI {
     operator UnityEngine::EventSystems::IInitializePotentialDragHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
     }
+    // Get instance field: private UnityEngine.RectTransform m_HandleRect
+    UnityEngine::RectTransform* _get_m_HandleRect();
+    // Set instance field: private UnityEngine.RectTransform m_HandleRect
+    void _set_m_HandleRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.UI.Scrollbar/UnityEngine.UI.Direction m_Direction
+    UnityEngine::UI::Scrollbar::Direction _get_m_Direction();
+    // Set instance field: private UnityEngine.UI.Scrollbar/UnityEngine.UI.Direction m_Direction
+    void _set_m_Direction(UnityEngine::UI::Scrollbar::Direction value);
+    // Get instance field: private System.Single m_Value
+    float _get_m_Value();
+    // Set instance field: private System.Single m_Value
+    void _set_m_Value(float value);
+    // Get instance field: private System.Single m_Size
+    float _get_m_Size();
+    // Set instance field: private System.Single m_Size
+    void _set_m_Size(float value);
+    // Get instance field: private System.Int32 m_NumberOfSteps
+    int _get_m_NumberOfSteps();
+    // Set instance field: private System.Int32 m_NumberOfSteps
+    void _set_m_NumberOfSteps(int value);
+    // Get instance field: private UnityEngine.UI.Scrollbar/UnityEngine.UI.ScrollEvent m_OnValueChanged
+    UnityEngine::UI::Scrollbar::ScrollEvent* _get_m_OnValueChanged();
+    // Set instance field: private UnityEngine.UI.Scrollbar/UnityEngine.UI.ScrollEvent m_OnValueChanged
+    void _set_m_OnValueChanged(UnityEngine::UI::Scrollbar::ScrollEvent* value);
+    // Get instance field: private UnityEngine.RectTransform m_ContainerRect
+    UnityEngine::RectTransform* _get_m_ContainerRect();
+    // Set instance field: private UnityEngine.RectTransform m_ContainerRect
+    void _set_m_ContainerRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.Vector2 m_Offset
+    UnityEngine::Vector2 _get_m_Offset();
+    // Set instance field: private UnityEngine.Vector2 m_Offset
+    void _set_m_Offset(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    UnityEngine::DrivenRectTransformTracker _get_m_Tracker();
+    // Set instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    void _set_m_Tracker(UnityEngine::DrivenRectTransformTracker value);
+    // Get instance field: private UnityEngine.Coroutine m_PointerDownRepeat
+    UnityEngine::Coroutine* _get_m_PointerDownRepeat();
+    // Set instance field: private UnityEngine.Coroutine m_PointerDownRepeat
+    void _set_m_PointerDownRepeat(UnityEngine::Coroutine* value);
+    // Get instance field: private System.Boolean isPointerDownAndNotDragging
+    bool _get_isPointerDownAndNotDragging();
+    // Set instance field: private System.Boolean isPointerDownAndNotDragging
+    void _set_isPointerDownAndNotDragging(bool value);
+    // Get instance field: private System.Boolean m_DelayedUpdateVisuals
+    bool _get_m_DelayedUpdateVisuals();
+    // Set instance field: private System.Boolean m_DelayedUpdateVisuals
+    void _set_m_DelayedUpdateVisuals(bool value);
     // public UnityEngine.RectTransform get_handleRect()
     // Offset: 0x198BAD8
     UnityEngine::RectTransform* get_handleRect();

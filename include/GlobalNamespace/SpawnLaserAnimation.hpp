@@ -90,6 +90,42 @@ namespace GlobalNamespace {
     SpawnLaserAnimation(UnityEngine::Transform* centerThresholdTransform_ = {}, UnityEngine::Transform* horizontalLasersTransform_ = {}, GlobalNamespace::TubeBloomPrePassLight* leftHorizontalLaser_ = {}, GlobalNamespace::TubeBloomPrePassLight* rightHorizontalLaser_ = {}, float normalizedDistance_ = {}, float alphaMultiplier_ = {}, float laserLength_ = {}, float centerDistance_ = {}, bool initialized_ = {}) noexcept : centerThresholdTransform{centerThresholdTransform_}, horizontalLasersTransform{horizontalLasersTransform_}, leftHorizontalLaser{leftHorizontalLaser_}, rightHorizontalLaser{rightHorizontalLaser_}, normalizedDistance{normalizedDistance_}, alphaMultiplier{alphaMultiplier_}, laserLength{laserLength_}, centerDistance{centerDistance_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _centerThresholdTransform
+    UnityEngine::Transform* _get__centerThresholdTransform();
+    // Set instance field: private UnityEngine.Transform _centerThresholdTransform
+    void _set__centerThresholdTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _horizontalLasersTransform
+    UnityEngine::Transform* _get__horizontalLasersTransform();
+    // Set instance field: private UnityEngine.Transform _horizontalLasersTransform
+    void _set__horizontalLasersTransform(UnityEngine::Transform* value);
+    // Get instance field: private TubeBloomPrePassLight _leftHorizontalLaser
+    GlobalNamespace::TubeBloomPrePassLight* _get__leftHorizontalLaser();
+    // Set instance field: private TubeBloomPrePassLight _leftHorizontalLaser
+    void _set__leftHorizontalLaser(GlobalNamespace::TubeBloomPrePassLight* value);
+    // Get instance field: private TubeBloomPrePassLight _rightHorizontalLaser
+    GlobalNamespace::TubeBloomPrePassLight* _get__rightHorizontalLaser();
+    // Set instance field: private TubeBloomPrePassLight _rightHorizontalLaser
+    void _set__rightHorizontalLaser(GlobalNamespace::TubeBloomPrePassLight* value);
+    // Get instance field: public System.Single _normalizedDistance
+    float _get__normalizedDistance();
+    // Set instance field: public System.Single _normalizedDistance
+    void _set__normalizedDistance(float value);
+    // Get instance field: public System.Single _alphaMultiplier
+    float _get__alphaMultiplier();
+    // Set instance field: public System.Single _alphaMultiplier
+    void _set__alphaMultiplier(float value);
+    // Get instance field: public System.Single _laserLength
+    float _get__laserLength();
+    // Set instance field: public System.Single _laserLength
+    void _set__laserLength(float value);
+    // Get instance field: private System.Single _centerDistance
+    float _get__centerDistance();
+    // Set instance field: private System.Single _centerDistance
+    void _set__centerDistance(float value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
     // private System.Void InitIfNeeded()
     // Offset: 0x105D3F0
     void InitIfNeeded();

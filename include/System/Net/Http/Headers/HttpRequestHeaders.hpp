@@ -40,6 +40,10 @@ namespace System::Net::Http::Headers {
     constexpr operator System::Nullable_1<bool>() const noexcept {
       return expectContinue;
     }
+    // Get instance field: private System.Nullable`1<System.Boolean> expectContinue
+    System::Nullable_1<bool> _get_expectContinue();
+    // Set instance field: private System.Nullable`1<System.Boolean> expectContinue
+    void _set_expectContinue(System::Nullable_1<bool> value);
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> get_Connection()
     // Offset: 0x15678AC
     System::Net::Http::Headers::HttpHeaderValueCollection_1<::Il2CppString*>* get_Connection();

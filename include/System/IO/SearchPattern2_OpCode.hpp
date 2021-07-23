@@ -63,6 +63,10 @@ namespace System::IO {
     static System::IO::SearchPattern2::OpCode _get_True();
     // Set static field: static public System.IO.SearchPattern2/System.IO.OpCode True
     static void _set_True(System::IO::SearchPattern2::OpCode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.IO.SearchPattern2/System.IO.OpCode
   #pragma pack(pop)
   static check_size<sizeof(SearchPattern2::OpCode), 0 + sizeof(int)> __System_IO_SearchPattern2_OpCodeSizeCheck;

@@ -72,6 +72,34 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public readonly UnityEngine.Vector3 moveStartPos
+    UnityEngine::Vector3 _get_moveStartPos();
+    // Set instance field: public readonly UnityEngine.Vector3 moveStartPos
+    void _set_moveStartPos(UnityEngine::Vector3 value);
+    // Get instance field: public readonly UnityEngine.Vector3 moveEndPos
+    UnityEngine::Vector3 _get_moveEndPos();
+    // Set instance field: public readonly UnityEngine.Vector3 moveEndPos
+    void _set_moveEndPos(UnityEngine::Vector3 value);
+    // Get instance field: public readonly UnityEngine.Vector3 jumpEndPos
+    UnityEngine::Vector3 _get_jumpEndPos();
+    // Set instance field: public readonly UnityEngine.Vector3 jumpEndPos
+    void _set_jumpEndPos(UnityEngine::Vector3 value);
+    // Get instance field: public readonly System.Single obstacleHeight
+    float _get_obstacleHeight();
+    // Set instance field: public readonly System.Single obstacleHeight
+    void _set_obstacleHeight(float value);
+    // Get instance field: public readonly System.Single moveDuration
+    float _get_moveDuration();
+    // Set instance field: public readonly System.Single moveDuration
+    void _set_moveDuration(float value);
+    // Get instance field: public readonly System.Single jumpDuration
+    float _get_jumpDuration();
+    // Set instance field: public readonly System.Single jumpDuration
+    void _set_jumpDuration(float value);
+    // Get instance field: public readonly System.Single noteLinesDistance
+    float _get_noteLinesDistance();
+    // Set instance field: public readonly System.Single noteLinesDistance
+    void _set_noteLinesDistance(float value);
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance)
     // Offset: 0xED01E4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

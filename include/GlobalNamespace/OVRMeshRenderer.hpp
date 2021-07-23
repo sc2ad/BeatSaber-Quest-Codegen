@@ -77,6 +77,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior _get_ToggleRenderer();
       // Set static field: static public OVRMeshRenderer/ConfidenceBehavior ToggleRenderer
       static void _set_ToggleRenderer(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRMeshRenderer/ConfidenceBehavior
     #pragma pack(pop)
     static check_size<sizeof(OVRMeshRenderer::ConfidenceBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRMeshRenderer_ConfidenceBehaviorSizeCheck;
@@ -115,6 +119,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior _get_SwapMaterial();
       // Set static field: static public OVRMeshRenderer/SystemGestureBehavior SwapMaterial
       static void _set_SwapMaterial(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OVRMeshRenderer/SystemGestureBehavior
     #pragma pack(pop)
     static check_size<sizeof(OVRMeshRenderer::SystemGestureBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRMeshRenderer_SystemGestureBehaviorSizeCheck;
@@ -195,6 +203,54 @@ namespace GlobalNamespace {
     OVRMeshRenderer(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider* dataProvider_ = {}, GlobalNamespace::OVRMesh* ovrMesh_ = {}, GlobalNamespace::OVRSkeleton* ovrSkeleton_ = {}, GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior confidenceBehavior_ = {}, GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior systemGestureBehavior_ = {}, UnityEngine::Material* systemGestureMaterial_ = {}, UnityEngine::Material* originalMaterial_ = {}, UnityEngine::SkinnedMeshRenderer* skinnedMeshRenderer_ = {}, bool IsInitialized_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) noexcept : dataProvider{dataProvider_}, ovrMesh{ovrMesh_}, ovrSkeleton{ovrSkeleton_}, confidenceBehavior{confidenceBehavior_}, systemGestureBehavior{systemGestureBehavior_}, systemGestureMaterial{systemGestureMaterial_}, originalMaterial{originalMaterial_}, skinnedMeshRenderer{skinnedMeshRenderer_}, IsInitialized{IsInitialized_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider
+    GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider* _get__dataProvider();
+    // Set instance field: private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider
+    void _set__dataProvider(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider* value);
+    // Get instance field: private OVRMesh _ovrMesh
+    GlobalNamespace::OVRMesh* _get__ovrMesh();
+    // Set instance field: private OVRMesh _ovrMesh
+    void _set__ovrMesh(GlobalNamespace::OVRMesh* value);
+    // Get instance field: private OVRSkeleton _ovrSkeleton
+    GlobalNamespace::OVRSkeleton* _get__ovrSkeleton();
+    // Set instance field: private OVRSkeleton _ovrSkeleton
+    void _set__ovrSkeleton(GlobalNamespace::OVRSkeleton* value);
+    // Get instance field: private OVRMeshRenderer/ConfidenceBehavior _confidenceBehavior
+    GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior _get__confidenceBehavior();
+    // Set instance field: private OVRMeshRenderer/ConfidenceBehavior _confidenceBehavior
+    void _set__confidenceBehavior(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior value);
+    // Get instance field: private OVRMeshRenderer/SystemGestureBehavior _systemGestureBehavior
+    GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior _get__systemGestureBehavior();
+    // Set instance field: private OVRMeshRenderer/SystemGestureBehavior _systemGestureBehavior
+    void _set__systemGestureBehavior(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior value);
+    // Get instance field: private UnityEngine.Material _systemGestureMaterial
+    UnityEngine::Material* _get__systemGestureMaterial();
+    // Set instance field: private UnityEngine.Material _systemGestureMaterial
+    void _set__systemGestureMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material _originalMaterial
+    UnityEngine::Material* _get__originalMaterial();
+    // Set instance field: private UnityEngine.Material _originalMaterial
+    void _set__originalMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.SkinnedMeshRenderer _skinnedMeshRenderer
+    UnityEngine::SkinnedMeshRenderer* _get__skinnedMeshRenderer();
+    // Set instance field: private UnityEngine.SkinnedMeshRenderer _skinnedMeshRenderer
+    void _set__skinnedMeshRenderer(UnityEngine::SkinnedMeshRenderer* value);
+    // Get instance field: private System.Boolean <IsInitialized>k__BackingField
+    bool _get_$IsInitialized$k__BackingField();
+    // Set instance field: private System.Boolean <IsInitialized>k__BackingField
+    void _set_$IsInitialized$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsDataValid>k__BackingField
+    bool _get_$IsDataValid$k__BackingField();
+    // Set instance field: private System.Boolean <IsDataValid>k__BackingField
+    void _set_$IsDataValid$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
+    bool _get_$IsDataHighConfidence$k__BackingField();
+    // Set instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
+    void _set_$IsDataHighConfidence$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
+    bool _get_$ShouldUseSystemGestureMaterial$k__BackingField();
+    // Set instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
+    void _set_$ShouldUseSystemGestureMaterial$k__BackingField(bool value);
     // public System.Boolean get_IsInitialized()
     // Offset: 0x12E1D48
     bool get_IsInitialized();

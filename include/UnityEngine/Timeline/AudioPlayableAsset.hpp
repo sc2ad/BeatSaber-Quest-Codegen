@@ -86,6 +86,22 @@ namespace UnityEngine::Timeline {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.AudioClip m_Clip
+    UnityEngine::AudioClip* _get_m_Clip();
+    // Set instance field: private UnityEngine.AudioClip m_Clip
+    void _set_m_Clip(UnityEngine::AudioClip* value);
+    // Get instance field: private System.Boolean m_Loop
+    bool _get_m_Loop();
+    // Set instance field: private System.Boolean m_Loop
+    void _set_m_Loop(bool value);
+    // Get instance field: private System.Single m_bufferingTime
+    float _get_m_bufferingTime();
+    // Set instance field: private System.Single m_bufferingTime
+    void _set_m_bufferingTime(float value);
+    // Get instance field: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
+    UnityEngine::Timeline::AudioClipProperties* _get_m_ClipProperties();
+    // Set instance field: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
+    void _set_m_ClipProperties(UnityEngine::Timeline::AudioClipProperties* value);
     // System.Single get_bufferingTime()
     // Offset: 0x17E0820
     float get_bufferingTime();

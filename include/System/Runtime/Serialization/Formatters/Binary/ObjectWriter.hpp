@@ -209,6 +209,90 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*) == 0x8);
     // Creating value type constructor for type: ObjectWriter
     ObjectWriter(System::Collections::Queue* m_objectQueue_ = {}, System::Runtime::Serialization::ObjectIDGenerator* m_idGenerator_ = {}, int m_currentId_ = {}, System::Runtime::Serialization::ISurrogateSelector* m_surrogates_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* serWriter_ = {}, System::Runtime::Serialization::SerializationObjectManager* m_objectManager_ = {}, int64_t topId_ = {}, ::Il2CppString* topName_ = {}, ::Array<System::Runtime::Remoting::Messaging::Header*>* headers_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums_ = {}, System::Runtime::Serialization::SerializationBinder* m_binder_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit_ = {}, System::Runtime::Serialization::IFormatterConverter* m_formatterConverter_ = {}, ::Array<::Il2CppObject*>* crossAppDomainArray_ = {}, ::Il2CppObject* previousObj_ = {}, int64_t previousId_ = {}, System::Type* previousType_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE previousCode_ = {}, System::Collections::Hashtable* assemblyToIdTable_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* niPool_ = {}) noexcept : m_objectQueue{m_objectQueue_}, m_idGenerator{m_idGenerator_}, m_currentId{m_currentId_}, m_surrogates{m_surrogates_}, m_context{m_context_}, serWriter{serWriter_}, m_objectManager{m_objectManager_}, topId{topId_}, topName{topName_}, headers{headers_}, formatterEnums{formatterEnums_}, m_binder{m_binder_}, serObjectInfoInit{serObjectInfoInit_}, m_formatterConverter{m_formatterConverter_}, crossAppDomainArray{crossAppDomainArray_}, previousObj{previousObj_}, previousId{previousId_}, previousType{previousType_}, previousCode{previousCode_}, assemblyToIdTable{assemblyToIdTable_}, niPool{niPool_} {}
+    // Get instance field: private System.Collections.Queue m_objectQueue
+    System::Collections::Queue* _get_m_objectQueue();
+    // Set instance field: private System.Collections.Queue m_objectQueue
+    void _set_m_objectQueue(System::Collections::Queue* value);
+    // Get instance field: private System.Runtime.Serialization.ObjectIDGenerator m_idGenerator
+    System::Runtime::Serialization::ObjectIDGenerator* _get_m_idGenerator();
+    // Set instance field: private System.Runtime.Serialization.ObjectIDGenerator m_idGenerator
+    void _set_m_idGenerator(System::Runtime::Serialization::ObjectIDGenerator* value);
+    // Get instance field: private System.Int32 m_currentId
+    int _get_m_currentId();
+    // Set instance field: private System.Int32 m_currentId
+    void _set_m_currentId(int value);
+    // Get instance field: private System.Runtime.Serialization.ISurrogateSelector m_surrogates
+    System::Runtime::Serialization::ISurrogateSelector* _get_m_surrogates();
+    // Set instance field: private System.Runtime.Serialization.ISurrogateSelector m_surrogates
+    void _set_m_surrogates(System::Runtime::Serialization::ISurrogateSelector* value);
+    // Get instance field: private System.Runtime.Serialization.StreamingContext m_context
+    System::Runtime::Serialization::StreamingContext _get_m_context();
+    // Set instance field: private System.Runtime.Serialization.StreamingContext m_context
+    void _set_m_context(System::Runtime::Serialization::StreamingContext value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.__BinaryWriter serWriter
+    System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* _get_serWriter();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.__BinaryWriter serWriter
+    void _set_serWriter(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* value);
+    // Get instance field: private System.Runtime.Serialization.SerializationObjectManager m_objectManager
+    System::Runtime::Serialization::SerializationObjectManager* _get_m_objectManager();
+    // Set instance field: private System.Runtime.Serialization.SerializationObjectManager m_objectManager
+    void _set_m_objectManager(System::Runtime::Serialization::SerializationObjectManager* value);
+    // Get instance field: private System.Int64 topId
+    int64_t _get_topId();
+    // Set instance field: private System.Int64 topId
+    void _set_topId(int64_t value);
+    // Get instance field: private System.String topName
+    ::Il2CppString* _get_topName();
+    // Set instance field: private System.String topName
+    void _set_topName(::Il2CppString* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.Header[] headers
+    ::Array<System::Runtime::Remoting::Messaging::Header*>* _get_headers();
+    // Set instance field: private System.Runtime.Remoting.Messaging.Header[] headers
+    void _set_headers(::Array<System::Runtime::Remoting::Messaging::Header*>* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums
+    System::Runtime::Serialization::Formatters::Binary::InternalFE* _get_formatterEnums();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums
+    void _set_formatterEnums(System::Runtime::Serialization::Formatters::Binary::InternalFE* value);
+    // Get instance field: private System.Runtime.Serialization.SerializationBinder m_binder
+    System::Runtime::Serialization::SerializationBinder* _get_m_binder();
+    // Set instance field: private System.Runtime.Serialization.SerializationBinder m_binder
+    void _set_m_binder(System::Runtime::Serialization::SerializationBinder* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
+    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* _get_serObjectInfoInit();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
+    void _set_serObjectInfoInit(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* value);
+    // Get instance field: private System.Runtime.Serialization.IFormatterConverter m_formatterConverter
+    System::Runtime::Serialization::IFormatterConverter* _get_m_formatterConverter();
+    // Set instance field: private System.Runtime.Serialization.IFormatterConverter m_formatterConverter
+    void _set_m_formatterConverter(System::Runtime::Serialization::IFormatterConverter* value);
+    // Get instance field: System.Object[] crossAppDomainArray
+    ::Array<::Il2CppObject*>* _get_crossAppDomainArray();
+    // Set instance field: System.Object[] crossAppDomainArray
+    void _set_crossAppDomainArray(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.Object previousObj
+    ::Il2CppObject* _get_previousObj();
+    // Set instance field: private System.Object previousObj
+    void _set_previousObj(::Il2CppObject* value);
+    // Get instance field: private System.Int64 previousId
+    int64_t _get_previousId();
+    // Set instance field: private System.Int64 previousId
+    void _set_previousId(int64_t value);
+    // Get instance field: private System.Type previousType
+    System::Type* _get_previousType();
+    // Set instance field: private System.Type previousType
+    void _set_previousType(System::Type* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE previousCode
+    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE _get_previousCode();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE previousCode
+    void _set_previousCode(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+    // Get instance field: private System.Collections.Hashtable assemblyToIdTable
+    System::Collections::Hashtable* _get_assemblyToIdTable();
+    // Set instance field: private System.Collections.Hashtable assemblyToIdTable
+    void _set_assemblyToIdTable(System::Collections::Hashtable* value);
+    // Get instance field: private System.Runtime.Serialization.Formatters.Binary.SerStack niPool
+    System::Runtime::Serialization::Formatters::Binary::SerStack* _get_niPool();
+    // Set instance field: private System.Runtime.Serialization.Formatters.Binary.SerStack niPool
+    void _set_niPool(System::Runtime::Serialization::Formatters::Binary::SerStack* value);
     // System.Runtime.Serialization.SerializationObjectManager get_ObjectManager()
     // Offset: 0x15E2E44
     System::Runtime::Serialization::SerializationObjectManager* get_ObjectManager();

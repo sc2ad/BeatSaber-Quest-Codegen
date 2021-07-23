@@ -72,6 +72,22 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_algid_hmacWithSHA1();
     // Set static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1
     static void _set_algid_hmacWithSHA1(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString octStr
+    Org::BouncyCastle::Asn1::Asn1OctetString* _get_octStr();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString octStr
+    void _set_octStr(Org::BouncyCastle::Asn1::Asn1OctetString* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
+    Org::BouncyCastle::Asn1::DerInteger* _get_iterationCount();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
+    void _set_iterationCount(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger keyLength
+    Org::BouncyCastle::Asn1::DerInteger* _get_keyLength();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger keyLength
+    void _set_keyLength(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier prf
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_prf();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier prf
+    void _set_prf(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
     // Offset: 0x1762FB0
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();

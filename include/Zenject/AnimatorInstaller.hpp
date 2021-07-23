@@ -35,6 +35,10 @@ namespace Zenject {
     AnimatorInstaller(UnityEngine::Animator* animator_ = {}) noexcept : animator{animator_} {}
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
+    // Get instance field: private readonly UnityEngine.Animator _animator
+    UnityEngine::Animator* _get__animator();
+    // Set instance field: private readonly UnityEngine.Animator _animator
+    void _set__animator(UnityEngine::Animator* value);
     // public System.Void .ctor(UnityEngine.Animator animator)
     // Offset: 0x1378BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

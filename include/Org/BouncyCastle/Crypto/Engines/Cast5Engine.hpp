@@ -104,6 +104,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_RED_ROUNDS();
     // Set static field: static readonly System.Int32 RED_ROUNDS
     static void _set_RED_ROUNDS(int value);
+    // Get instance field: private System.Int32[] _Kr
+    ::Array<int>* _get__Kr();
+    // Set instance field: private System.Int32[] _Kr
+    void _set__Kr(::Array<int>* value);
+    // Get instance field: private System.UInt32[] _Km
+    ::Array<uint>* _get__Km();
+    // Set instance field: private System.UInt32[] _Km
+    void _set__Km(::Array<uint>* value);
+    // Get instance field: private System.Boolean _encrypting
+    bool _get__encrypting();
+    // Set instance field: private System.Boolean _encrypting
+    void _set__encrypting(bool value);
+    // Get instance field: private System.Byte[] _workingKey
+    ::Array<uint8_t>* _get__workingKey();
+    // Set instance field: private System.Byte[] _workingKey
+    void _set__workingKey(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 _rounds
+    int _get__rounds();
+    // Set instance field: private System.Int32 _rounds
+    void _set__rounds(int value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1DFE8F0
     ::Il2CppString* get_AlgorithmName();

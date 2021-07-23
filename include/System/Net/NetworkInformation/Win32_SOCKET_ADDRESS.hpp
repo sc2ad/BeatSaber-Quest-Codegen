@@ -43,6 +43,14 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr Sockaddr
+    System::IntPtr _get_Sockaddr();
+    // Set instance field: public System.IntPtr Sockaddr
+    void _set_Sockaddr(System::IntPtr value);
+    // Get instance field: public System.Int32 SockaddrLength
+    int _get_SockaddrLength();
+    // Set instance field: public System.Int32 SockaddrLength
+    void _set_SockaddrLength(int value);
     // public System.Net.IPAddress GetIPAddress()
     // Offset: 0xED9C34
     System::Net::IPAddress* GetIPAddress();

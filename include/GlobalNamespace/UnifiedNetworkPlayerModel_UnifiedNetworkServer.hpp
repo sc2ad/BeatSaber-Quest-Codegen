@@ -88,6 +88,38 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);
     }
+    // Get instance field: private readonly UnifiedNetworkPlayerModel _playerModel
+    GlobalNamespace::UnifiedNetworkPlayerModel* _get__playerModel();
+    // Set instance field: private readonly UnifiedNetworkPlayerModel _playerModel
+    void _set__playerModel(GlobalNamespace::UnifiedNetworkPlayerModel* value);
+    // Get instance field: private readonly System.String _code
+    ::Il2CppString* _get__code();
+    // Set instance field: private readonly System.String _code
+    void _set__code(::Il2CppString* value);
+    // Get instance field: private System.String _serverName
+    ::Il2CppString* _get__serverName();
+    // Set instance field: private System.String _serverName
+    void _set__serverName(::Il2CppString* value);
+    // Get instance field: private System.Boolean _hasPassword
+    bool _get__hasPassword();
+    // Set instance field: private System.Boolean _hasPassword
+    void _set__hasPassword(bool value);
+    // Get instance field: private System.Int32 _currentPlayerCount
+    int _get__currentPlayerCount();
+    // Set instance field: private System.Int32 _currentPlayerCount
+    void _set__currentPlayerCount(int value);
+    // Get instance field: private BeatmapLevelSelectionMask _selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get__selectionMask();
+    // Set instance field: private BeatmapLevelSelectionMask _selectionMask
+    void _set__selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: private GameplayServerConfiguration _configuration
+    GlobalNamespace::GameplayServerConfiguration _get__configuration();
+    // Set instance field: private GameplayServerConfiguration _configuration
+    void _set__configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field: private System.Single _lastUpdateTime
+    float _get__lastUpdateTime();
+    // Set instance field: private System.Single _lastUpdateTime
+    void _set__lastUpdateTime(float value);
     // private System.String INetworkPlayer.get_userId()
     // Offset: 0x12757C8
     ::Il2CppString* INetworkPlayer_get_userId();

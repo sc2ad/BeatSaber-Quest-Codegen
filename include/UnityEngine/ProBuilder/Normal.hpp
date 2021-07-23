@@ -50,6 +50,18 @@ namespace UnityEngine::ProBuilder {
     operator System::IEquatable_1<UnityEngine::ProBuilder::Normal>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::Normal>*>(this);
     }
+    // Get instance field: private UnityEngine.Vector3 <normal>k__BackingField
+    UnityEngine::Vector3 _get_$normal$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <normal>k__BackingField
+    void _set_$normal$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector4 <tangent>k__BackingField
+    UnityEngine::Vector4 _get_$tangent$k__BackingField();
+    // Set instance field: private UnityEngine.Vector4 <tangent>k__BackingField
+    void _set_$tangent$k__BackingField(UnityEngine::Vector4 value);
+    // Get instance field: private UnityEngine.Vector3 <bitangent>k__BackingField
+    UnityEngine::Vector3 _get_$bitangent$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <bitangent>k__BackingField
+    void _set_$bitangent$k__BackingField(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
     // Offset: 0xEE4930
     UnityEngine::Vector3 get_normal();

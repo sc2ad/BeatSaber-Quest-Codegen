@@ -61,6 +61,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRNotificationError _get_SystemWithUserValueAlreadyExists();
     // Set static field: static public OVR.OpenVR.EVRNotificationError SystemWithUserValueAlreadyExists
     static void _set_SystemWithUserValueAlreadyExists(OVR::OpenVR::EVRNotificationError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRNotificationError
   #pragma pack(pop)
   static check_size<sizeof(EVRNotificationError), 0 + sizeof(int)> __OVR_OpenVR_EVRNotificationErrorSizeCheck;

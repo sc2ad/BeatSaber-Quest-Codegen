@@ -42,6 +42,14 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AssetReferenceUILabelRestriction
     AssetReferenceUILabelRestriction(::Array<::Il2CppString*>* m_AllowedLabels_ = {}, ::Il2CppString* m_CachedToString_ = {}) noexcept : m_AllowedLabels{m_AllowedLabels_}, m_CachedToString{m_CachedToString_} {}
+    // Get instance field: public System.String[] m_AllowedLabels
+    ::Array<::Il2CppString*>* _get_m_AllowedLabels();
+    // Set instance field: public System.String[] m_AllowedLabels
+    void _set_m_AllowedLabels(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.String m_CachedToString
+    ::Il2CppString* _get_m_CachedToString();
+    // Set instance field: public System.String m_CachedToString
+    void _set_m_CachedToString(::Il2CppString* value);
     // public System.Void .ctor(params System.String[] allowedLabels)
     // Offset: 0x2394EC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

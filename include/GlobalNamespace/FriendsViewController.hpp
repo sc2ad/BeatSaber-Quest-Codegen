@@ -74,6 +74,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FriendsViewController
     FriendsViewController(UnityEngine::UI::Toggle* enableOpenPartyToggle_ = {}, GlobalNamespace::PlatformNetworkPlayerModel* networkPlayerModel_ = {}, GlobalNamespace::INetworkConfig* networkConfig_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, bool allowAnyoneToJoin_ = {}) noexcept : enableOpenPartyToggle{enableOpenPartyToggle_}, networkPlayerModel{networkPlayerModel_}, networkConfig{networkConfig_}, toggleBinder{toggleBinder_}, allowAnyoneToJoin{allowAnyoneToJoin_} {}
+    // Get instance field: private UnityEngine.UI.Toggle _enableOpenPartyToggle
+    UnityEngine::UI::Toggle* _get__enableOpenPartyToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _enableOpenPartyToggle
+    void _set__enableOpenPartyToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private readonly PlatformNetworkPlayerModel _networkPlayerModel
+    GlobalNamespace::PlatformNetworkPlayerModel* _get__networkPlayerModel();
+    // Set instance field: private readonly PlatformNetworkPlayerModel _networkPlayerModel
+    void _set__networkPlayerModel(GlobalNamespace::PlatformNetworkPlayerModel* value);
+    // Get instance field: private readonly INetworkConfig _networkConfig
+    GlobalNamespace::INetworkConfig* _get__networkConfig();
+    // Set instance field: private readonly INetworkConfig _networkConfig
+    void _set__networkConfig(GlobalNamespace::INetworkConfig* value);
+    // Get instance field: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder* _get__toggleBinder();
+    // Set instance field: private HMUI.ToggleBinder _toggleBinder
+    void _set__toggleBinder(HMUI::ToggleBinder* value);
+    // Get instance field: private System.Boolean _allowAnyoneToJoin
+    bool _get__allowAnyoneToJoin();
+    // Set instance field: private System.Boolean _allowAnyoneToJoin
+    void _set__allowAnyoneToJoin(bool value);
     // private System.Void HandleOpenPartyToggleChanged(System.Boolean openParty)
     // Offset: 0x102C8B4
     void HandleOpenPartyToggleChanged(bool openParty);

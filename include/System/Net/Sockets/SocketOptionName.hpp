@@ -307,6 +307,10 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketOptionName _get_UpdateConnectContext();
     // Set static field: static public System.Net.Sockets.SocketOptionName UpdateConnectContext
     static void _set_UpdateConnectContext(System::Net::Sockets::SocketOptionName value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Sockets.SocketOptionName
   #pragma pack(pop)
   static check_size<sizeof(SocketOptionName), 0 + sizeof(int)> __System_Net_Sockets_SocketOptionNameSizeCheck;

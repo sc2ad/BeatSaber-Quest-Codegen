@@ -100,6 +100,34 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private readonly System.Type _resourceType
+    System::Type* _get__resourceType();
+    // Set instance field: private readonly System.Type _resourceType
+    void _set__resourceType(System::Type* value);
+    // Get instance field: private readonly System.String _resourcePath
+    ::Il2CppString* _get__resourcePath();
+    // Set instance field: private readonly System.String _resourcePath
+    void _set__resourcePath(::Il2CppString* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
+    System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get__extraArguments();
+    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
+    void _set__extraArguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
+    // Get instance field: private readonly System.Boolean _createNew
+    bool _get__createNew();
+    // Set instance field: private readonly System.Boolean _createNew
+    void _set__createNew(bool value);
+    // Get instance field: private readonly System.Object _concreteIdentifier
+    ::Il2CppObject* _get__concreteIdentifier();
+    // Set instance field: private readonly System.Object _concreteIdentifier
+    void _set__concreteIdentifier(::Il2CppObject* value);
+    // Get instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
+    System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* _get__instantiateCallback();
+    // Set instance field: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
+    void _set__instantiateCallback(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
     // public System.Boolean get_IsCached()
     // Offset: 0x16CF56C
     bool get_IsCached();

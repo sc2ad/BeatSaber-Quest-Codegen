@@ -119,6 +119,50 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.String ownerUserId
+    ::Il2CppString* _get_ownerUserId();
+    // Set instance field: public System.String ownerUserId
+    void _set_ownerUserId(::Il2CppString* value);
+    // Get instance field: public System.String ownerUserName
+    ::Il2CppString* _get_ownerUserName();
+    // Set instance field: public System.String ownerUserName
+    void _set_ownerUserName(::Il2CppString* value);
+    // Get instance field: public System.Net.IPEndPoint ownerEndPoint
+    System::Net::IPEndPoint* _get_ownerEndPoint();
+    // Set instance field: public System.Net.IPEndPoint ownerEndPoint
+    void _set_ownerEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public readonly ByteArrayNetSerializable ownerRandom
+    GlobalNamespace::ByteArrayNetSerializable* _get_ownerRandom();
+    // Set instance field: public readonly ByteArrayNetSerializable ownerRandom
+    void _set_ownerRandom(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable ownerPublicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_ownerPublicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable ownerPublicKey
+    void _set_ownerPublicKey(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public System.String clientUserId
+    ::Il2CppString* _get_clientUserId();
+    // Set instance field: public System.String clientUserId
+    void _set_clientUserId(::Il2CppString* value);
+    // Get instance field: public System.String clientUserName
+    ::Il2CppString* _get_clientUserName();
+    // Set instance field: public System.String clientUserName
+    void _set_clientUserName(::Il2CppString* value);
+    // Get instance field: public System.Net.IPEndPoint clientEndPoint
+    System::Net::IPEndPoint* _get_clientEndPoint();
+    // Set instance field: public System.Net.IPEndPoint clientEndPoint
+    void _set_clientEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public readonly ByteArrayNetSerializable clientRandom
+    GlobalNamespace::ByteArrayNetSerializable* _get_clientRandom();
+    // Set instance field: public readonly ByteArrayNetSerializable clientRandom
+    void _set_clientRandom(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable clientPublicKey
+    GlobalNamespace::ByteArrayNetSerializable* _get_clientPublicKey();
+    // Set instance field: public readonly ByteArrayNetSerializable clientPublicKey
+    void _set_clientPublicKey(GlobalNamespace::ByteArrayNetSerializable* value);
     // static public PacketPool`1<MasterServer.CreateRelayServerRequest> get_pool()
     // Offset: 0x12D1880
     static GlobalNamespace::PacketPool_1<MasterServer::CreateRelayServerRequest*>* get_pool();

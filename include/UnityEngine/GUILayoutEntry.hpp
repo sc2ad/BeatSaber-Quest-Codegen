@@ -95,6 +95,42 @@ namespace UnityEngine {
     static int _get_indent();
     // Set static field: static protected System.Int32 indent
     static void _set_indent(int value);
+    // Get instance field: public System.Single minWidth
+    float _get_minWidth();
+    // Set instance field: public System.Single minWidth
+    void _set_minWidth(float value);
+    // Get instance field: public System.Single maxWidth
+    float _get_maxWidth();
+    // Set instance field: public System.Single maxWidth
+    void _set_maxWidth(float value);
+    // Get instance field: public System.Single minHeight
+    float _get_minHeight();
+    // Set instance field: public System.Single minHeight
+    void _set_minHeight(float value);
+    // Get instance field: public System.Single maxHeight
+    float _get_maxHeight();
+    // Set instance field: public System.Single maxHeight
+    void _set_maxHeight(float value);
+    // Get instance field: public UnityEngine.Rect rect
+    UnityEngine::Rect _get_rect();
+    // Set instance field: public UnityEngine.Rect rect
+    void _set_rect(UnityEngine::Rect value);
+    // Get instance field: public System.Int32 stretchWidth
+    int _get_stretchWidth();
+    // Set instance field: public System.Int32 stretchWidth
+    void _set_stretchWidth(int value);
+    // Get instance field: public System.Int32 stretchHeight
+    int _get_stretchHeight();
+    // Set instance field: public System.Int32 stretchHeight
+    void _set_stretchHeight(int value);
+    // Get instance field: public System.Boolean consideredForMargin
+    bool _get_consideredForMargin();
+    // Set instance field: public System.Boolean consideredForMargin
+    void _set_consideredForMargin(bool value);
+    // Get instance field: private UnityEngine.GUIStyle m_Style
+    UnityEngine::GUIStyle* _get_m_Style();
+    // Set instance field: private UnityEngine.GUIStyle m_Style
+    void _set_m_Style(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_style()
     // Offset: 0x1AA4FF4
     UnityEngine::GUIStyle* get_style();

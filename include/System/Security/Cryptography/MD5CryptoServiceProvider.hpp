@@ -58,6 +58,26 @@ namespace System::Security::Cryptography {
     static ::Array<uint>* _get_K();
     // Set static field: static private readonly System.UInt32[] K
     static void _set_K(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] _H
+    ::Array<uint>* _get__H();
+    // Set instance field: private System.UInt32[] _H
+    void _set__H(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] buff
+    ::Array<uint>* _get_buff();
+    // Set instance field: private System.UInt32[] buff
+    void _set_buff(::Array<uint>* value);
+    // Get instance field: private System.UInt64 count
+    uint64_t _get_count();
+    // Set instance field: private System.UInt64 count
+    void _set_count(uint64_t value);
+    // Get instance field: private System.Byte[] _ProcessingBuffer
+    ::Array<uint8_t>* _get__ProcessingBuffer();
+    // Set instance field: private System.Byte[] _ProcessingBuffer
+    void _set__ProcessingBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 _ProcessingBufferCount
+    int _get__ProcessingBufferCount();
+    // Set instance field: private System.Int32 _ProcessingBufferCount
+    void _set__ProcessingBufferCount(int value);
     // static private System.Void .cctor()
     // Offset: 0x1941E38
     static void _cctor();

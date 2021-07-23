@@ -114,6 +114,34 @@ namespace System::Reflection {
     operator System::Runtime::InteropServices::_ParameterInfo() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_ParameterInfo*>(this);
     }
+    // Get instance field: protected System.Type ClassImpl
+    System::Type* _get_ClassImpl();
+    // Set instance field: protected System.Type ClassImpl
+    void _set_ClassImpl(System::Type* value);
+    // Get instance field: protected System.Object DefaultValueImpl
+    ::Il2CppObject* _get_DefaultValueImpl();
+    // Set instance field: protected System.Object DefaultValueImpl
+    void _set_DefaultValueImpl(::Il2CppObject* value);
+    // Get instance field: protected System.Reflection.MemberInfo MemberImpl
+    System::Reflection::MemberInfo* _get_MemberImpl();
+    // Set instance field: protected System.Reflection.MemberInfo MemberImpl
+    void _set_MemberImpl(System::Reflection::MemberInfo* value);
+    // Get instance field: protected System.String NameImpl
+    ::Il2CppString* _get_NameImpl();
+    // Set instance field: protected System.String NameImpl
+    void _set_NameImpl(::Il2CppString* value);
+    // Get instance field: protected System.Int32 PositionImpl
+    int _get_PositionImpl();
+    // Set instance field: protected System.Int32 PositionImpl
+    void _set_PositionImpl(int value);
+    // Get instance field: protected System.Reflection.ParameterAttributes AttrsImpl
+    System::Reflection::ParameterAttributes _get_AttrsImpl();
+    // Set instance field: protected System.Reflection.ParameterAttributes AttrsImpl
+    void _set_AttrsImpl(System::Reflection::ParameterAttributes value);
+    // Get instance field: System.Runtime.InteropServices.MarshalAsAttribute marshalAs
+    System::Runtime::InteropServices::MarshalAsAttribute* _get_marshalAs();
+    // Set instance field: System.Runtime.InteropServices.MarshalAsAttribute marshalAs
+    void _set_marshalAs(System::Runtime::InteropServices::MarshalAsAttribute* value);
     // public System.Type get_ParameterType()
     // Offset: 0x1CB3AD0
     System::Type* get_ParameterType();

@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     ReflectionProbeDataSO(UnityEngine::Cubemap* reflectionProbeCubemap1_ = {}, UnityEngine::Cubemap* reflectionProbeCubemap2_ = {}) noexcept : reflectionProbeCubemap1{reflectionProbeCubemap1_}, reflectionProbeCubemap2{reflectionProbeCubemap2_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Cubemap _reflectionProbeCubemap1
+    UnityEngine::Cubemap* _get__reflectionProbeCubemap1();
+    // Set instance field: private UnityEngine.Cubemap _reflectionProbeCubemap1
+    void _set__reflectionProbeCubemap1(UnityEngine::Cubemap* value);
+    // Get instance field: private UnityEngine.Cubemap _reflectionProbeCubemap2
+    UnityEngine::Cubemap* _get__reflectionProbeCubemap2();
+    // Set instance field: private UnityEngine.Cubemap _reflectionProbeCubemap2
+    void _set__reflectionProbeCubemap2(UnityEngine::Cubemap* value);
     // public UnityEngine.Cubemap get_reflectionProbeCubemap1()
     // Offset: 0x1142B70
     UnityEngine::Cubemap* get_reflectionProbeCubemap1();

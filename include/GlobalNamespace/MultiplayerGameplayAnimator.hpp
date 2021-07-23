@@ -111,6 +111,46 @@ namespace GlobalNamespace {
     MultiplayerGameplayAnimator(GlobalNamespace::ColorSO* activeLightsColor_ = {}, GlobalNamespace::ColorSO* leadingLightsColor_ = {}, GlobalNamespace::ColorSO* failedLightsColor_ = {}, float leadingSwitchCrossFadeDuration_ = {}, ::Array<GlobalNamespace::LightsAnimator*>* gameplayLightsAnimators_ = {}, ::Array<GlobalNamespace::LightsAnimator*>* allLightsAnimators_ = {}, GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : activeLightsColor{activeLightsColor_}, leadingLightsColor{leadingLightsColor_}, failedLightsColor{failedLightsColor_}, leadingSwitchCrossFadeDuration{leadingSwitchCrossFadeDuration_}, gameplayLightsAnimators{gameplayLightsAnimators_}, allLightsAnimators{allLightsAnimators_}, leadPlayerProvider{leadPlayerProvider_}, multiplayerController{multiplayerController_}, tweeningManager{tweeningManager_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected ColorSO _activeLightsColor
+    GlobalNamespace::ColorSO* _get__activeLightsColor();
+    // Set instance field: protected ColorSO _activeLightsColor
+    void _set__activeLightsColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: protected ColorSO _leadingLightsColor
+    GlobalNamespace::ColorSO* _get__leadingLightsColor();
+    // Set instance field: protected ColorSO _leadingLightsColor
+    void _set__leadingLightsColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: protected ColorSO _failedLightsColor
+    GlobalNamespace::ColorSO* _get__failedLightsColor();
+    // Set instance field: protected ColorSO _failedLightsColor
+    void _set__failedLightsColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: protected System.Single _leadingSwitchCrossFadeDuration
+    float _get__leadingSwitchCrossFadeDuration();
+    // Set instance field: protected System.Single _leadingSwitchCrossFadeDuration
+    void _set__leadingSwitchCrossFadeDuration(float value);
+    // Get instance field: protected LightsAnimator[] _gameplayLightsAnimators
+    ::Array<GlobalNamespace::LightsAnimator*>* _get__gameplayLightsAnimators();
+    // Set instance field: protected LightsAnimator[] _gameplayLightsAnimators
+    void _set__gameplayLightsAnimators(::Array<GlobalNamespace::LightsAnimator*>* value);
+    // Get instance field: protected LightsAnimator[] _allLightsAnimators
+    ::Array<GlobalNamespace::LightsAnimator*>* _get__allLightsAnimators();
+    // Set instance field: protected LightsAnimator[] _allLightsAnimators
+    void _set__allLightsAnimators(::Array<GlobalNamespace::LightsAnimator*>* value);
+    // Get instance field: private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
+    GlobalNamespace::MultiplayerLeadPlayerProvider* _get__leadPlayerProvider();
+    // Set instance field: private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
+    void _set__leadPlayerProvider(GlobalNamespace::MultiplayerLeadPlayerProvider* value);
+    // Get instance field: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController* _get__multiplayerController();
+    // Set instance field: private readonly MultiplayerController _multiplayerController
+    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
+    // Get instance field: protected readonly Tweening.TweeningManager tweeningManager
+    Tweening::TweeningManager* _get_tweeningManager();
+    // Set instance field: protected readonly Tweening.TweeningManager tweeningManager
+    void _set_tweeningManager(Tweening::TweeningManager* value);
+    // Get instance field: protected readonly IConnectedPlayer connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get_connectedPlayer();
+    // Set instance field: protected readonly IConnectedPlayer connectedPlayer
+    void _set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // protected System.Void Start()
     // Offset: 0x11A1D38
     void Start();

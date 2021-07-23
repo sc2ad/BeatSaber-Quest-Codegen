@@ -35,6 +35,10 @@ namespace GlobalNamespace {
     operator UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);
     }
+    // Get instance field: private readonly UnityEngine.PropertyName <id>k__BackingField
+    UnityEngine::PropertyName _get_$id$k__BackingField();
+    // Set instance field: private readonly UnityEngine.PropertyName <id>k__BackingField
+    void _set_$id$k__BackingField(UnityEngine::PropertyName value);
     // public UnityEngine.PropertyName get_id()
     // Offset: 0x235BBA8
     UnityEngine::PropertyName get_id();

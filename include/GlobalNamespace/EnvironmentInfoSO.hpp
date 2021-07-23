@@ -95,6 +95,38 @@ namespace GlobalNamespace {
     EnvironmentInfoSO(::Il2CppString* environmentName_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}, GlobalNamespace::SceneInfo* sceneInfo_ = {}, ::Il2CppString* serializedName_ = {}, GlobalNamespace::EnvironmentTypeSO* environmentType_ = {}, GlobalNamespace::EnvironmentSizeData* environmentSizeData_ = {}, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* environmentKeywords_ = {}) noexcept : environmentName{environmentName_}, colorScheme{colorScheme_}, sceneInfo{sceneInfo_}, serializedName{serializedName_}, environmentType{environmentType_}, environmentSizeData{environmentSizeData_}, environmentIntensityReductionOptions{environmentIntensityReductionOptions_}, environmentKeywords{environmentKeywords_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _environmentName
+    ::Il2CppString* _get__environmentName();
+    // Set instance field: private System.String _environmentName
+    void _set__environmentName(::Il2CppString* value);
+    // Get instance field: private ColorSchemeSO _colorScheme
+    GlobalNamespace::ColorSchemeSO* _get__colorScheme();
+    // Set instance field: private ColorSchemeSO _colorScheme
+    void _set__colorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // Get instance field: private SceneInfo _sceneInfo
+    GlobalNamespace::SceneInfo* _get__sceneInfo();
+    // Set instance field: private SceneInfo _sceneInfo
+    void _set__sceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private System.String _serializedName
+    ::Il2CppString* _get__serializedName();
+    // Set instance field: private System.String _serializedName
+    void _set__serializedName(::Il2CppString* value);
+    // Get instance field: private EnvironmentTypeSO _environmentType
+    GlobalNamespace::EnvironmentTypeSO* _get__environmentType();
+    // Set instance field: private EnvironmentTypeSO _environmentType
+    void _set__environmentType(GlobalNamespace::EnvironmentTypeSO* value);
+    // Get instance field: private EnvironmentSizeData _environmentSizeData
+    GlobalNamespace::EnvironmentSizeData* _get__environmentSizeData();
+    // Set instance field: private EnvironmentSizeData _environmentSizeData
+    void _set__environmentSizeData(GlobalNamespace::EnvironmentSizeData* value);
+    // Get instance field: private EnvironmentIntensityReductionOptions _environmentIntensityReductionOptions
+    GlobalNamespace::EnvironmentIntensityReductionOptions* _get__environmentIntensityReductionOptions();
+    // Set instance field: private EnvironmentIntensityReductionOptions _environmentIntensityReductionOptions
+    void _set__environmentIntensityReductionOptions(GlobalNamespace::EnvironmentIntensityReductionOptions* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> _environmentKeywords
+    System::Collections::Generic::List_1<::Il2CppString*>* _get__environmentKeywords();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> _environmentKeywords
+    void _set__environmentKeywords(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public SceneInfo get_sceneInfo()
     // Offset: 0x1021540
     GlobalNamespace::SceneInfo* get_sceneInfo();

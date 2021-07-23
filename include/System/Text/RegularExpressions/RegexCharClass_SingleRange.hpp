@@ -33,6 +33,14 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Creating value type constructor for type: SingleRange
     SingleRange(::Il2CppChar first_ = {}, ::Il2CppChar last_ = {}) noexcept : first{first_}, last{last_} {}
+    // Get instance field: System.Char _first
+    ::Il2CppChar _get__first();
+    // Set instance field: System.Char _first
+    void _set__first(::Il2CppChar value);
+    // Get instance field: System.Char _last
+    ::Il2CppChar _get__last();
+    // Set instance field: System.Char _last
+    void _set__last(::Il2CppChar value);
     // System.Void .ctor(System.Char first, System.Char last)
     // Offset: 0x1961844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

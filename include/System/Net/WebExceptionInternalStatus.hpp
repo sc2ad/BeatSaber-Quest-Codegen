@@ -55,6 +55,10 @@ namespace System::Net {
     static System::Net::WebExceptionInternalStatus _get_Isolated();
     // Set static field: static public System.Net.WebExceptionInternalStatus Isolated
     static void _set_Isolated(System::Net::WebExceptionInternalStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.WebExceptionInternalStatus
   #pragma pack(pop)
   static check_size<sizeof(WebExceptionInternalStatus), 0 + sizeof(int)> __System_Net_WebExceptionInternalStatusSizeCheck;

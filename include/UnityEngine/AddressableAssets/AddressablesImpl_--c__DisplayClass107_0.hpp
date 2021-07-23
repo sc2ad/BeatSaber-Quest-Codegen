@@ -62,6 +62,18 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters) == 0x2A);
     // Creating value type constructor for type: $$c__DisplayClass107_0
     $$c__DisplayClass107_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location_ = {}, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters_ = {}) noexcept : $$4__this{$$4__this_}, location{location_}, instantiateParameters{instantiateParameters_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
+    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location
+    UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _get_location();
+    // Set instance field: public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location
+    void _set_location(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+    // Get instance field: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
+    UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters _get_instantiateParameters();
+    // Set instance field: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
+    void _set_instantiateParameters(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> <InstantiateWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
     // Offset: 0x13C385C
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> $InstantiateWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);

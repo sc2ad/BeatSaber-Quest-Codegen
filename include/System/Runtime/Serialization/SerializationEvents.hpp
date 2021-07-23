@@ -68,6 +68,22 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*) == 0x8);
     // Creating value type constructor for type: SerializationEvents
     SerializationEvents(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnSerializingMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnSerializedMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializingMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializedMethods_ = {}) noexcept : m_OnSerializingMethods{m_OnSerializingMethods_}, m_OnSerializedMethods{m_OnSerializedMethods_}, m_OnDeserializingMethods{m_OnDeserializingMethods_}, m_OnDeserializedMethods{m_OnDeserializedMethods_} {}
+    // Get instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
+    System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* _get_m_OnSerializingMethods();
+    // Set instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
+    void _set_m_OnSerializingMethods(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializedMethods
+    System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* _get_m_OnSerializedMethods();
+    // Set instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializedMethods
+    void _set_m_OnSerializedMethods(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnDeserializingMethods
+    System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* _get_m_OnDeserializingMethods();
+    // Set instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnDeserializingMethods
+    void _set_m_OnDeserializingMethods(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnDeserializedMethods
+    System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* _get_m_OnDeserializedMethods();
+    // Set instance field: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnDeserializedMethods
+    void _set_m_OnDeserializedMethods(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* value);
     // System.Boolean get_HasOnSerializingEvents()
     // Offset: 0x16824D4
     bool get_HasOnSerializingEvents();

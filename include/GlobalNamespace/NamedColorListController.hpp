@@ -65,6 +65,18 @@ namespace GlobalNamespace {
     operator HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
+    // Get instance field: private NamedColorListController/ColorValuePair[] _textValuePairs
+    ::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* _get__textValuePairs();
+    // Set instance field: private NamedColorListController/ColorValuePair[] _textValuePairs
+    void _set__textValuePairs(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* value);
+    // Get instance field: private System.Int32 _value
+    int _get__value();
+    // Set instance field: private System.Int32 _value
+    void _set__value(int value);
+    // Get instance field: private System.Action`1<System.Int32> valueChangedEvent
+    System::Action_1<int>* _get_valueChangedEvent();
+    // Set instance field: private System.Action`1<System.Int32> valueChangedEvent
+    void _set_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
     // Offset: 0x100E050
     void add_valueChangedEvent(System::Action_1<int>* value);

@@ -71,6 +71,18 @@ namespace Oculus::Platform {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.String key
+      ::Il2CppString* _get_key();
+      // Set instance field: public System.String key
+      void _set_key(::Il2CppString* value);
+      // Get instance field: public Oculus.Platform.MatchmakingCriterionImportance importance
+      Oculus::Platform::MatchmakingCriterionImportance _get_importance();
+      // Set instance field: public Oculus.Platform.MatchmakingCriterionImportance importance
+      void _set_importance(Oculus::Platform::MatchmakingCriterionImportance value);
+      // Get instance field: public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
+      System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_parameters();
+      // Set instance field: public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
+      void _set_parameters(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
       // Offset: 0xEDA3A8
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,6 +109,14 @@ namespace Oculus::Platform {
     static_assert(sizeof(::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>*) == 0x8);
     // Creating value type constructor for type: CustomQuery
     CustomQuery(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* data_ = {}, ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* criteria_ = {}) noexcept : data{data_}, criteria{criteria_} {}
+    // Get instance field: public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_data();
+    // Set instance field: public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
+    void _set_data(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    // Get instance field: public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
+    ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* _get_criteria();
+    // Set instance field: public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
+    void _set_criteria(::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* value);
     // public System.IntPtr ToUnmanaged()
     // Offset: 0x149970C
     System::IntPtr ToUnmanaged();

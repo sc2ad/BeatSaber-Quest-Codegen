@@ -82,6 +82,34 @@ namespace UnityEngine::Rendering {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Unity.Jobs.JobHandle cullingJobsFence
+    Unity::Jobs::JobHandle _get_cullingJobsFence();
+    // Set instance field: public Unity.Jobs.JobHandle cullingJobsFence
+    void _set_cullingJobsFence(Unity::Jobs::JobHandle value);
+    // Get instance field: public UnityEngine.Plane* cullingPlanes
+    UnityEngine::Plane* _get_cullingPlanes();
+    // Set instance field: public UnityEngine.Plane* cullingPlanes
+    void _set_cullingPlanes(UnityEngine::Plane* value);
+    // Get instance field: public UnityEngine.Rendering.BatchVisibility* batchVisibility
+    UnityEngine::Rendering::BatchVisibility* _get_batchVisibility();
+    // Set instance field: public UnityEngine.Rendering.BatchVisibility* batchVisibility
+    void _set_batchVisibility(UnityEngine::Rendering::BatchVisibility* value);
+    // Get instance field: public System.Int32* visibleIndices
+    int* _get_visibleIndices();
+    // Set instance field: public System.Int32* visibleIndices
+    void _set_visibleIndices(int* value);
+    // Get instance field: public System.Int32 cullingPlanesCount
+    int _get_cullingPlanesCount();
+    // Set instance field: public System.Int32 cullingPlanesCount
+    void _set_cullingPlanesCount(int value);
+    // Get instance field: public System.Int32 batchVisibilityCount
+    int _get_batchVisibilityCount();
+    // Set instance field: public System.Int32 batchVisibilityCount
+    void _set_batchVisibilityCount(int value);
+    // Get instance field: public System.Int32 visibleIndicesCount
+    int _get_visibleIndicesCount();
+    // Set instance field: public System.Int32 visibleIndicesCount
+    void _set_visibleIndicesCount(int value);
   }; // UnityEngine.Rendering.BatchRendererCullingOutput
   #pragma pack(pop)
   static check_size<sizeof(BatchRendererCullingOutput), 48 + sizeof(int)> __UnityEngine_Rendering_BatchRendererCullingOutputSizeCheck;

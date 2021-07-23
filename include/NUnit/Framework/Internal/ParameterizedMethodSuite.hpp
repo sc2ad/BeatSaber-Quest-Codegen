@@ -38,6 +38,10 @@ namespace NUnit::Framework::Internal {
     constexpr operator bool() const noexcept {
       return isTheory;
     }
+    // Get instance field: private System.Boolean _isTheory
+    bool _get__isTheory();
+    // Set instance field: private System.Boolean _isTheory
+    void _set__isTheory(bool value);
     // public override System.String get_TestType()
     // Offset: 0x223BA30
     // Implemented from: NUnit.Framework.Internal.Test

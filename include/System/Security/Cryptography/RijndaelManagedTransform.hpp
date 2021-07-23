@@ -168,6 +168,78 @@ namespace System::Security::Cryptography {
     static ::Array<int>* _get_s_iTF();
     // Set static field: static private readonly System.Int32[] s_iTF
     static void _set_s_iTF(::Array<int>* value);
+    // Get instance field: private System.Security.Cryptography.CipherMode m_cipherMode
+    System::Security::Cryptography::CipherMode _get_m_cipherMode();
+    // Set instance field: private System.Security.Cryptography.CipherMode m_cipherMode
+    void _set_m_cipherMode(System::Security::Cryptography::CipherMode value);
+    // Get instance field: private System.Security.Cryptography.PaddingMode m_paddingValue
+    System::Security::Cryptography::PaddingMode _get_m_paddingValue();
+    // Set instance field: private System.Security.Cryptography.PaddingMode m_paddingValue
+    void _set_m_paddingValue(System::Security::Cryptography::PaddingMode value);
+    // Get instance field: private System.Security.Cryptography.RijndaelManagedTransformMode m_transformMode
+    System::Security::Cryptography::RijndaelManagedTransformMode _get_m_transformMode();
+    // Set instance field: private System.Security.Cryptography.RijndaelManagedTransformMode m_transformMode
+    void _set_m_transformMode(System::Security::Cryptography::RijndaelManagedTransformMode value);
+    // Get instance field: private System.Int32 m_blockSizeBits
+    int _get_m_blockSizeBits();
+    // Set instance field: private System.Int32 m_blockSizeBits
+    void _set_m_blockSizeBits(int value);
+    // Get instance field: private System.Int32 m_blockSizeBytes
+    int _get_m_blockSizeBytes();
+    // Set instance field: private System.Int32 m_blockSizeBytes
+    void _set_m_blockSizeBytes(int value);
+    // Get instance field: private System.Int32 m_inputBlockSize
+    int _get_m_inputBlockSize();
+    // Set instance field: private System.Int32 m_inputBlockSize
+    void _set_m_inputBlockSize(int value);
+    // Get instance field: private System.Int32 m_outputBlockSize
+    int _get_m_outputBlockSize();
+    // Set instance field: private System.Int32 m_outputBlockSize
+    void _set_m_outputBlockSize(int value);
+    // Get instance field: private System.Int32[] m_encryptKeyExpansion
+    ::Array<int>* _get_m_encryptKeyExpansion();
+    // Set instance field: private System.Int32[] m_encryptKeyExpansion
+    void _set_m_encryptKeyExpansion(::Array<int>* value);
+    // Get instance field: private System.Int32[] m_decryptKeyExpansion
+    ::Array<int>* _get_m_decryptKeyExpansion();
+    // Set instance field: private System.Int32[] m_decryptKeyExpansion
+    void _set_m_decryptKeyExpansion(::Array<int>* value);
+    // Get instance field: private System.Int32 m_Nr
+    int _get_m_Nr();
+    // Set instance field: private System.Int32 m_Nr
+    void _set_m_Nr(int value);
+    // Get instance field: private System.Int32 m_Nb
+    int _get_m_Nb();
+    // Set instance field: private System.Int32 m_Nb
+    void _set_m_Nb(int value);
+    // Get instance field: private System.Int32 m_Nk
+    int _get_m_Nk();
+    // Set instance field: private System.Int32 m_Nk
+    void _set_m_Nk(int value);
+    // Get instance field: private System.Int32[] m_encryptindex
+    ::Array<int>* _get_m_encryptindex();
+    // Set instance field: private System.Int32[] m_encryptindex
+    void _set_m_encryptindex(::Array<int>* value);
+    // Get instance field: private System.Int32[] m_decryptindex
+    ::Array<int>* _get_m_decryptindex();
+    // Set instance field: private System.Int32[] m_decryptindex
+    void _set_m_decryptindex(::Array<int>* value);
+    // Get instance field: private System.Int32[] m_IV
+    ::Array<int>* _get_m_IV();
+    // Set instance field: private System.Int32[] m_IV
+    void _set_m_IV(::Array<int>* value);
+    // Get instance field: private System.Int32[] m_lastBlockBuffer
+    ::Array<int>* _get_m_lastBlockBuffer();
+    // Set instance field: private System.Int32[] m_lastBlockBuffer
+    void _set_m_lastBlockBuffer(::Array<int>* value);
+    // Get instance field: private System.Byte[] m_depadBuffer
+    ::Array<uint8_t>* _get_m_depadBuffer();
+    // Set instance field: private System.Byte[] m_depadBuffer
+    void _set_m_depadBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] m_shiftRegister
+    ::Array<uint8_t>* _get_m_shiftRegister();
+    // Set instance field: private System.Byte[] m_shiftRegister
+    void _set_m_shiftRegister(::Array<uint8_t>* value);
     // public System.Int32 get_InputBlockSize()
     // Offset: 0x1AFCC5C
     int get_InputBlockSize();

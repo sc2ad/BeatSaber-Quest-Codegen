@@ -61,6 +61,10 @@ namespace UnityEngine {
     static UnityEngine::CameraClearFlags _get_Nothing();
     // Set static field: static public UnityEngine.CameraClearFlags Nothing
     static void _set_Nothing(UnityEngine::CameraClearFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.CameraClearFlags
   #pragma pack(pop)
   static check_size<sizeof(CameraClearFlags), 0 + sizeof(int)> __UnityEngine_CameraClearFlagsSizeCheck;

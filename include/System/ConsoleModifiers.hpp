@@ -50,6 +50,10 @@ namespace System {
     static System::ConsoleModifiers _get_Control();
     // Set static field: static public System.ConsoleModifiers Control
     static void _set_Control(System::ConsoleModifiers value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.ConsoleModifiers
   #pragma pack(pop)
   static check_size<sizeof(ConsoleModifiers), 0 + sizeof(int)> __System_ConsoleModifiersSizeCheck;

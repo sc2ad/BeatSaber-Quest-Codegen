@@ -62,6 +62,18 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::GeneralNames*) == 0x8);
     // Creating value type constructor for type: DistributionPoint
     DistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint_ = {}, Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons_ = {}, Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer_ = {}) noexcept : distributionPoint{distributionPoint_}, reasons{reasons_}, cRLIssuer{cRLIssuer_} {}
+    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.DistributionPointName distributionPoint
+    Org::BouncyCastle::Asn1::X509::DistributionPointName* _get_distributionPoint();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.DistributionPointName distributionPoint
+    void _set_distributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
+    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.ReasonFlags reasons
+    Org::BouncyCastle::Asn1::X509::ReasonFlags* _get_reasons();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.ReasonFlags reasons
+    void _set_reasons(Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
+    // Get instance field: readonly Org.BouncyCastle.Asn1.X509.GeneralNames cRLIssuer
+    Org::BouncyCastle::Asn1::X509::GeneralNames* _get_cRLIssuer();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.X509.GeneralNames cRLIssuer
+    void _set_cRLIssuer(Org::BouncyCastle::Asn1::X509::GeneralNames* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x19D9160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

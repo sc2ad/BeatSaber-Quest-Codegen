@@ -250,6 +250,14 @@ namespace MasterServer {
       operator System::IEquatable_1<MasterServer::MessageHandler::RequestWaiterId>() noexcept {
         return *reinterpret_cast<System::IEquatable_1<MasterServer::MessageHandler::RequestWaiterId>*>(this);
       }
+      // Get instance field: public readonly System.Net.IPEndPoint endPoint
+      System::Net::IPEndPoint* _get_endPoint();
+      // Set instance field: public readonly System.Net.IPEndPoint endPoint
+      void _set_endPoint(System::Net::IPEndPoint* value);
+      // Get instance field: public readonly System.UInt32 requestId
+      uint _get_requestId();
+      // Set instance field: public readonly System.UInt32 requestId
+      void _set_requestId(uint value);
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
       // Offset: 0xED3BE8
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -297,6 +305,14 @@ namespace MasterServer {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public readonly System.Net.IPEndPoint endPoint
+      System::Net::IPEndPoint* _get_endPoint();
+      // Set instance field: public readonly System.Net.IPEndPoint endPoint
+      void _set_endPoint(System::Net::IPEndPoint* value);
+      // Get instance field: public readonly System.UInt32 protocolVersion
+      uint _get_protocolVersion();
+      // Set instance field: public readonly System.UInt32 protocolVersion
+      void _set_protocolVersion(uint value);
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 protocolVersion)
       // Offset: 0xED3BA0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -387,6 +403,10 @@ namespace MasterServer {
       static MasterServer::MessageHandler::HandshakeMessageType _get_MultipartMessage();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.HandshakeMessageType MultipartMessage
       static void _set_MultipartMessage(MasterServer::MessageHandler::HandshakeMessageType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MasterServer.MessageHandler/MasterServer.HandshakeMessageType
     #pragma pack(pop)
     static check_size<sizeof(MessageHandler::HandshakeMessageType), 0 + sizeof(int)> __MasterServer_MessageHandler_HandshakeMessageTypeSizeCheck;
@@ -509,6 +529,10 @@ namespace MasterServer {
       static MasterServer::MessageHandler::UserMessageType _get_SessionKeepaliveMessage();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.UserMessageType SessionKeepaliveMessage
       static void _set_SessionKeepaliveMessage(MasterServer::MessageHandler::UserMessageType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MasterServer.MessageHandler/MasterServer.UserMessageType
     #pragma pack(pop)
     static check_size<sizeof(MessageHandler::UserMessageType), 0 + sizeof(int)> __MasterServer_MessageHandler_UserMessageTypeSizeCheck;
@@ -631,6 +655,10 @@ namespace MasterServer {
       static MasterServer::MessageHandler::DedicatedServerMessageType _get_DedicatedServerPrepareForConnectionResponse();
       // Set static field: static public MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType DedicatedServerPrepareForConnectionResponse
       static void _set_DedicatedServerPrepareForConnectionResponse(MasterServer::MessageHandler::DedicatedServerMessageType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType
     #pragma pack(pop)
     static check_size<sizeof(MessageHandler::DedicatedServerMessageType), 0 + sizeof(int)> __MasterServer_MessageHandler_DedicatedServerMessageTypeSizeCheck;
@@ -827,6 +855,62 @@ namespace MasterServer {
     static int64_t _get_kMultipartMessageTimeoutMs();
     // Set static field: static private System.Int64 kMultipartMessageTimeoutMs
     static void _set_kMultipartMessageTimeoutMs(int64_t value);
+    // Get instance field: private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/MasterServer.HandshakeMessageType,MasterServer.MessageHandler/MasterServer.MessageOrigin> _handshakeMessageSerializer
+    GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::HandshakeMessageType, MasterServer::MessageHandler::MessageOrigin>* _get__handshakeMessageSerializer();
+    // Set instance field: private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/MasterServer.HandshakeMessageType,MasterServer.MessageHandler/MasterServer.MessageOrigin> _handshakeMessageSerializer
+    void _set__handshakeMessageSerializer(GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::HandshakeMessageType, MasterServer::MessageHandler::MessageOrigin>* value);
+    // Get instance field: private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/MasterServer.UserMessageType,MasterServer.MessageHandler/MasterServer.MessageOrigin> _userMessageSerializer
+    GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::UserMessageType, MasterServer::MessageHandler::MessageOrigin>* _get__userMessageSerializer();
+    // Set instance field: private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/MasterServer.UserMessageType,MasterServer.MessageHandler/MasterServer.MessageOrigin> _userMessageSerializer
+    void _set__userMessageSerializer(GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::UserMessageType, MasterServer::MessageHandler::MessageOrigin>* value);
+    // Get instance field: private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType,MasterServer.MessageHandler/MasterServer.MessageOrigin> _dedicatedServerMessageSerializer
+    GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::DedicatedServerMessageType, MasterServer::MessageHandler::MessageOrigin>* _get__dedicatedServerMessageSerializer();
+    // Set instance field: private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/MasterServer.DedicatedServerMessageType,MasterServer.MessageHandler/MasterServer.MessageOrigin> _dedicatedServerMessageSerializer
+    void _set__dedicatedServerMessageSerializer(GlobalNamespace::NetworkPacketSerializer_2<MasterServer::MessageHandler::DedicatedServerMessageType, MasterServer::MessageHandler::MessageOrigin>* value);
+    // Get instance field: private readonly LiteNetLib.Utils.NetDataWriter _dataWriter
+    LiteNetLib::Utils::NetDataWriter* _get__dataWriter();
+    // Set instance field: private readonly LiteNetLib.Utils.NetDataWriter _dataWriter
+    void _set__dataWriter(LiteNetLib::Utils::NetDataWriter* value);
+    // Get instance field: private readonly LiteNetLib.Utils.NetDataReader _multipartReader
+    LiteNetLib::Utils::NetDataReader* _get__multipartReader();
+    // Set instance field: private readonly LiteNetLib.Utils.NetDataReader _multipartReader
+    void _set__multipartReader(LiteNetLib::Utils::NetDataReader* value);
+    // Get instance field: private readonly IUnconnectedSenderReceiver _sender
+    GlobalNamespace::IUnconnectedSenderReceiver* _get__sender();
+    // Set instance field: private readonly IUnconnectedSenderReceiver _sender
+    void _set__sender(GlobalNamespace::IUnconnectedSenderReceiver* value);
+    // Get instance field: protected readonly MasterServer.IAnalyticsManager analytics
+    MasterServer::IAnalyticsManager* _get_analytics();
+    // Set instance field: protected readonly MasterServer.IAnalyticsManager analytics
+    void _set_analytics(MasterServer::IAnalyticsManager* value);
+    // Get instance field: private readonly MasterServer.ITimeProvider _timeProvider
+    MasterServer::ITimeProvider* _get__timeProvider();
+    // Set instance field: private readonly MasterServer.ITimeProvider _timeProvider
+    void _set__timeProvider(MasterServer::ITimeProvider* value);
+    // Get instance field: private readonly ExpiringDictionary`2<MasterServer.MessageHandler/MasterServer.RequestWaiterId,MasterServer.MessageHandler/MasterServer.SentRequestWaiter> _sentRequestWaiters
+    GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::SentRequestWaiter*>* _get__sentRequestWaiters();
+    // Set instance field: private readonly ExpiringDictionary`2<MasterServer.MessageHandler/MasterServer.RequestWaiterId,MasterServer.MessageHandler/MasterServer.SentRequestWaiter> _sentRequestWaiters
+    void _set__sentRequestWaiters(GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::SentRequestWaiter*>* value);
+    // Get instance field: private readonly ExpiringDictionary`2<MasterServer.MessageHandler/MasterServer.RequestWaiterId,MasterServer.MessageHandler/MasterServer.RequestResponseWaiter> _requestResponseWaiters
+    GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::RequestResponseWaiter*>* _get__requestResponseWaiters();
+    // Set instance field: private readonly ExpiringDictionary`2<MasterServer.MessageHandler/MasterServer.RequestWaiterId,MasterServer.MessageHandler/MasterServer.RequestResponseWaiter> _requestResponseWaiters
+    void _set__requestResponseWaiters(GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::RequestResponseWaiter*>* value);
+    // Get instance field: private readonly ExpiringDictionary`2<System.Net.IPEndPoint,MasterServer.MessageHandler/MasterServer.ConnectionState> _connectionStates
+    GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, MasterServer::MessageHandler::ConnectionState*>* _get__connectionStates();
+    // Set instance field: private readonly ExpiringDictionary`2<System.Net.IPEndPoint,MasterServer.MessageHandler/MasterServer.ConnectionState> _connectionStates
+    void _set__connectionStates(GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, MasterServer::MessageHandler::ConnectionState*>* value);
+    // Get instance field: private readonly ExpiringDictionary`2<MasterServer.MessageHandler/MasterServer.RequestWaiterId,MasterServer.MessageHandler/MasterServer.MultipartMessageWaiter> _multipartMessageBuffer
+    GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::MultipartMessageWaiter*>* _get__multipartMessageBuffer();
+    // Set instance field: private readonly ExpiringDictionary`2<MasterServer.MessageHandler/MasterServer.RequestWaiterId,MasterServer.MessageHandler/MasterServer.MultipartMessageWaiter> _multipartMessageBuffer
+    void _set__multipartMessageBuffer(GlobalNamespace::ExpiringDictionary_2<MasterServer::MessageHandler::RequestWaiterId, MasterServer::MessageHandler::MultipartMessageWaiter*>* value);
+    // Get instance field: private readonly SmallBufferPool _bufferPool
+    GlobalNamespace::SmallBufferPool* _get__bufferPool();
+    // Set instance field: private readonly SmallBufferPool _bufferPool
+    void _set__bufferPool(GlobalNamespace::SmallBufferPool* value);
+    // Get instance field: private readonly System.Threading.CancellationTokenSource _disposedTokenSource
+    System::Threading::CancellationTokenSource* _get__disposedTokenSource();
+    // Set instance field: private readonly System.Threading.CancellationTokenSource _disposedTokenSource
+    void _set__disposedTokenSource(System::Threading::CancellationTokenSource* value);
     // protected PacketEncryptionLayer get_encryptionLayer()
     // Offset: 0x12CE2B8
     GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();

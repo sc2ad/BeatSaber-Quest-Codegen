@@ -54,6 +54,26 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: CspParameters
     CspParameters(int ProviderType_ = {}, ::Il2CppString* ProviderName_ = {}, ::Il2CppString* KeyContainerName_ = {}, int KeyNumber_ = {}, int m_flags_ = {}) noexcept : ProviderType{ProviderType_}, ProviderName{ProviderName_}, KeyContainerName{KeyContainerName_}, KeyNumber{KeyNumber_}, m_flags{m_flags_} {}
+    // Get instance field: public System.Int32 ProviderType
+    int _get_ProviderType();
+    // Set instance field: public System.Int32 ProviderType
+    void _set_ProviderType(int value);
+    // Get instance field: public System.String ProviderName
+    ::Il2CppString* _get_ProviderName();
+    // Set instance field: public System.String ProviderName
+    void _set_ProviderName(::Il2CppString* value);
+    // Get instance field: public System.String KeyContainerName
+    ::Il2CppString* _get_KeyContainerName();
+    // Set instance field: public System.String KeyContainerName
+    void _set_KeyContainerName(::Il2CppString* value);
+    // Get instance field: public System.Int32 KeyNumber
+    int _get_KeyNumber();
+    // Set instance field: public System.Int32 KeyNumber
+    void _set_KeyNumber(int value);
+    // Get instance field: private System.Int32 m_flags
+    int _get_m_flags();
+    // Set instance field: private System.Int32 m_flags
+    void _set_m_flags(int value);
     // public System.Security.Cryptography.CspProviderFlags get_Flags()
     // Offset: 0x193B790
     System::Security::Cryptography::CspProviderFlags get_Flags();

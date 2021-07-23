@@ -48,6 +48,22 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::Array<uint>*) == 0x8);
     // Creating value type constructor for type: SHA1Managed
     SHA1Managed(::Array<uint8_t>* buffer_ = {}, int64_t count_ = {}, ::Array<uint>* stateSHA1_ = {}, ::Array<uint>* expandedBuffer_ = {}) noexcept : buffer{buffer_}, count{count_}, stateSHA1{stateSHA1_}, expandedBuffer{expandedBuffer_} {}
+    // Get instance field: private System.Byte[] _buffer
+    ::Array<uint8_t>* _get__buffer();
+    // Set instance field: private System.Byte[] _buffer
+    void _set__buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int64 _count
+    int64_t _get__count();
+    // Set instance field: private System.Int64 _count
+    void _set__count(int64_t value);
+    // Get instance field: private System.UInt32[] _stateSHA1
+    ::Array<uint>* _get__stateSHA1();
+    // Set instance field: private System.UInt32[] _stateSHA1
+    void _set__stateSHA1(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] _expandedBuffer
+    ::Array<uint>* _get__expandedBuffer();
+    // Set instance field: private System.UInt32[] _expandedBuffer
+    void _set__expandedBuffer(::Array<uint>* value);
     // private System.Void InitializeState()
     // Offset: 0x1B00560
     void InitializeState();

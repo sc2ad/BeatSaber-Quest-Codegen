@@ -119,6 +119,10 @@ namespace LiteNetLib {
       static LiteNetLib::NetEvent::EType _get_MessageDelivered();
       // Set static field: static public LiteNetLib.NetEvent/LiteNetLib.EType MessageDelivered
       static void _set_MessageDelivered(LiteNetLib::NetEvent::EType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // LiteNetLib.NetEvent/LiteNetLib.EType
     #pragma pack(pop)
     static check_size<sizeof(NetEvent::EType), 0 + sizeof(int)> __LiteNetLib_NetEvent_ETypeSizeCheck;
@@ -191,6 +195,46 @@ namespace LiteNetLib {
     static_assert(sizeof(LiteNetLib::NetPacketReader*) == 0x8);
     // Creating value type constructor for type: NetEvent
     NetEvent(LiteNetLib::NetEvent::EType Type_ = {}, LiteNetLib::NetPeer* Peer_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}, ::Il2CppObject* UserData_ = {}, int Latency_ = {}, System::Net::Sockets::SocketError ErrorCode_ = {}, LiteNetLib::DisconnectReason DisconnectReason_ = {}, LiteNetLib::ConnectionRequest* ConnectionRequest_ = {}, LiteNetLib::DeliveryMethod DeliveryMethod_ = {}, LiteNetLib::NetPacketReader* DataReader_ = {}) noexcept : Type{Type_}, Peer{Peer_}, RemoteEndPoint{RemoteEndPoint_}, UserData{UserData_}, Latency{Latency_}, ErrorCode{ErrorCode_}, DisconnectReason{DisconnectReason_}, ConnectionRequest{ConnectionRequest_}, DeliveryMethod{DeliveryMethod_}, DataReader{DataReader_} {}
+    // Get instance field: public LiteNetLib.NetEvent/LiteNetLib.EType Type
+    LiteNetLib::NetEvent::EType _get_Type();
+    // Set instance field: public LiteNetLib.NetEvent/LiteNetLib.EType Type
+    void _set_Type(LiteNetLib::NetEvent::EType value);
+    // Get instance field: public LiteNetLib.NetPeer Peer
+    LiteNetLib::NetPeer* _get_Peer();
+    // Set instance field: public LiteNetLib.NetPeer Peer
+    void _set_Peer(LiteNetLib::NetPeer* value);
+    // Get instance field: public System.Net.IPEndPoint RemoteEndPoint
+    System::Net::IPEndPoint* _get_RemoteEndPoint();
+    // Set instance field: public System.Net.IPEndPoint RemoteEndPoint
+    void _set_RemoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public System.Object UserData
+    ::Il2CppObject* _get_UserData();
+    // Set instance field: public System.Object UserData
+    void _set_UserData(::Il2CppObject* value);
+    // Get instance field: public System.Int32 Latency
+    int _get_Latency();
+    // Set instance field: public System.Int32 Latency
+    void _set_Latency(int value);
+    // Get instance field: public System.Net.Sockets.SocketError ErrorCode
+    System::Net::Sockets::SocketError _get_ErrorCode();
+    // Set instance field: public System.Net.Sockets.SocketError ErrorCode
+    void _set_ErrorCode(System::Net::Sockets::SocketError value);
+    // Get instance field: public LiteNetLib.DisconnectReason DisconnectReason
+    LiteNetLib::DisconnectReason _get_DisconnectReason();
+    // Set instance field: public LiteNetLib.DisconnectReason DisconnectReason
+    void _set_DisconnectReason(LiteNetLib::DisconnectReason value);
+    // Get instance field: public LiteNetLib.ConnectionRequest ConnectionRequest
+    LiteNetLib::ConnectionRequest* _get_ConnectionRequest();
+    // Set instance field: public LiteNetLib.ConnectionRequest ConnectionRequest
+    void _set_ConnectionRequest(LiteNetLib::ConnectionRequest* value);
+    // Get instance field: public LiteNetLib.DeliveryMethod DeliveryMethod
+    LiteNetLib::DeliveryMethod _get_DeliveryMethod();
+    // Set instance field: public LiteNetLib.DeliveryMethod DeliveryMethod
+    void _set_DeliveryMethod(LiteNetLib::DeliveryMethod value);
+    // Get instance field: public readonly LiteNetLib.NetPacketReader DataReader
+    LiteNetLib::NetPacketReader* _get_DataReader();
+    // Set instance field: public readonly LiteNetLib.NetPacketReader DataReader
+    void _set_DataReader(LiteNetLib::NetPacketReader* value);
     // public System.Void .ctor(LiteNetLib.NetManager manager)
     // Offset: 0x1BB2418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

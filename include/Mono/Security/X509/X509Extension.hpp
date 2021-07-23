@@ -51,6 +51,18 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
     // Creating value type constructor for type: X509Extension
     X509Extension(::Il2CppString* extnOid_ = {}, bool extnCritical_ = {}, Mono::Security::ASN1* extnValue_ = {}) noexcept : extnOid{extnOid_}, extnCritical{extnCritical_}, extnValue{extnValue_} {}
+    // Get instance field: protected System.String extnOid
+    ::Il2CppString* _get_extnOid();
+    // Set instance field: protected System.String extnOid
+    void _set_extnOid(::Il2CppString* value);
+    // Get instance field: protected System.Boolean extnCritical
+    bool _get_extnCritical();
+    // Set instance field: protected System.Boolean extnCritical
+    void _set_extnCritical(bool value);
+    // Get instance field: protected Mono.Security.ASN1 extnValue
+    Mono::Security::ASN1* _get_extnValue();
+    // Set instance field: protected Mono.Security.ASN1 extnValue
+    void _set_extnValue(Mono::Security::ASN1* value);
     // public System.String get_Oid()
     // Offset: 0x23821B4
     ::Il2CppString* get_Oid();

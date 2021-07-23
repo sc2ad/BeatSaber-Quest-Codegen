@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::CreditsData::TextStyle _get_Header();
     // Set static field: static public CreditsData/TextStyle Header
     static void _set_Header(GlobalNamespace::CreditsData::TextStyle value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // CreditsData/TextStyle
   #pragma pack(pop)
   static check_size<sizeof(CreditsData::TextStyle), 0 + sizeof(int)> __GlobalNamespace_CreditsData_TextStyleSizeCheck;

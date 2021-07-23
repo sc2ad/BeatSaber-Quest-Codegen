@@ -35,6 +35,14 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ConsoleCancelEventArgs
     ConsoleCancelEventArgs(System::ConsoleSpecialKey type_ = {}, bool cancel_ = {}) noexcept : type{type_}, cancel{cancel_} {}
+    // Get instance field: private System.ConsoleSpecialKey _type
+    System::ConsoleSpecialKey _get__type();
+    // Set instance field: private System.ConsoleSpecialKey _type
+    void _set__type(System::ConsoleSpecialKey value);
+    // Get instance field: private System.Boolean _cancel
+    bool _get__cancel();
+    // Set instance field: private System.Boolean _cancel
+    void _set__cancel(bool value);
     // public System.Boolean get_Cancel()
     // Offset: 0x194F8B8
     bool get_Cancel();

@@ -79,6 +79,34 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public System.String renderModelName
+    ::Il2CppString* _get_renderModelName();
+    // Set instance field: public System.String renderModelName
+    void _set_renderModelName(::Il2CppString* value);
+    // Get instance field: public SteamVR_RenderModel <>4__this
+    GlobalNamespace::SteamVR_RenderModel* _get_$$4__this();
+    // Set instance field: public SteamVR_RenderModel <>4__this
+    void _set_$$4__this(GlobalNamespace::SteamVR_RenderModel* value);
+    // Get instance field: private SteamVR_RenderModel/RenderModelInterfaceHolder <holder>5__2
+    GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* _get_$holder$5__2();
+    // Set instance field: private SteamVR_RenderModel/RenderModelInterfaceHolder <holder>5__2
+    void _set_$holder$5__2(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* value);
+    // Get instance field: private Valve.VR.CVRRenderModels <renderModels>5__3
+    Valve::VR::CVRRenderModels* _get_$renderModels$5__3();
+    // Set instance field: private Valve.VR.CVRRenderModels <renderModels>5__3
+    void _set_$renderModels$5__3(Valve::VR::CVRRenderModels* value);
+    // Get instance field: private System.String[] <renderModelNames>5__4
+    ::Array<::Il2CppString*>* _get_$renderModelNames$5__4();
+    // Set instance field: private System.String[] <renderModelNames>5__4
+    void _set_$renderModelNames$5__4(::Array<::Il2CppString*>* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x13B33E4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

@@ -36,6 +36,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 SamplesAvailable
+    int _get_SamplesAvailable();
+    // Set instance field: public System.Int32 SamplesAvailable
+    void _set_SamplesAvailable(int value);
+    // Get instance field: public System.Int32 SamplesQueued
+    int _get_SamplesQueued();
+    // Set instance field: public System.Int32 SamplesQueued
+    void _set_SamplesQueued(int value);
   }; // OVRPlugin/HapticsState
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::HapticsState), 4 + sizeof(int)> __GlobalNamespace_OVRPlugin_HapticsStateSizeCheck;

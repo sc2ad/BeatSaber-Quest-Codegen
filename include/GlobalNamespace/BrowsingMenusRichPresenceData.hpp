@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kBrowsingMenusRichPresenceLocalizationKey();
     // Set static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static void _set_kBrowsingMenusRichPresenceLocalizationKey(::Il2CppString* value);
+    // Get instance field: private System.String <localizedDescription>k__BackingField
+    ::Il2CppString* _get_$localizedDescription$k__BackingField();
+    // Set instance field: private System.String <localizedDescription>k__BackingField
+    void _set_$localizedDescription$k__BackingField(::Il2CppString* value);
     // public System.String get_apiName()
     // Offset: 0x109F01C
     ::Il2CppString* get_apiName();

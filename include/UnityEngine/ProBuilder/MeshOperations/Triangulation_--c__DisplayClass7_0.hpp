@@ -46,6 +46,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator int() const noexcept {
       return index;
     }
+    // Get instance field: public System.Int32 index
+    int _get_index();
+    // Set instance field: public System.Int32 index
+    void _set_index(int value);
     // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Triangulate>b__0(UnityEngine.Vector2 x)
     // Offset: 0x16F9710
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* $Triangulate$b__0(UnityEngine::Vector2 x);

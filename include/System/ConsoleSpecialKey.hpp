@@ -43,6 +43,10 @@ namespace System {
     static System::ConsoleSpecialKey _get_ControlBreak();
     // Set static field: static public System.ConsoleSpecialKey ControlBreak
     static void _set_ControlBreak(System::ConsoleSpecialKey value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.ConsoleSpecialKey
   #pragma pack(pop)
   static check_size<sizeof(ConsoleSpecialKey), 0 + sizeof(int)> __System_ConsoleSpecialKeySizeCheck;

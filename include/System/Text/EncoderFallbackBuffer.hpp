@@ -70,6 +70,34 @@ namespace System::Text {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: EncoderFallbackBuffer
     EncoderFallbackBuffer(::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, System::Text::EncoderNLS* encoder_ = {}, bool setEncoder_ = {}, bool bUsedEncoder_ = {}, bool bFallingBack_ = {}, int iRecursionCount_ = {}) noexcept : charStart{charStart_}, charEnd{charEnd_}, encoder{encoder_}, setEncoder{setEncoder_}, bUsedEncoder{bUsedEncoder_}, bFallingBack{bFallingBack_}, iRecursionCount{iRecursionCount_} {}
+    // Get instance field: System.Char* charStart
+    ::Il2CppChar* _get_charStart();
+    // Set instance field: System.Char* charStart
+    void _set_charStart(::Il2CppChar* value);
+    // Get instance field: System.Char* charEnd
+    ::Il2CppChar* _get_charEnd();
+    // Set instance field: System.Char* charEnd
+    void _set_charEnd(::Il2CppChar* value);
+    // Get instance field: System.Text.EncoderNLS encoder
+    System::Text::EncoderNLS* _get_encoder();
+    // Set instance field: System.Text.EncoderNLS encoder
+    void _set_encoder(System::Text::EncoderNLS* value);
+    // Get instance field: System.Boolean setEncoder
+    bool _get_setEncoder();
+    // Set instance field: System.Boolean setEncoder
+    void _set_setEncoder(bool value);
+    // Get instance field: System.Boolean bUsedEncoder
+    bool _get_bUsedEncoder();
+    // Set instance field: System.Boolean bUsedEncoder
+    void _set_bUsedEncoder(bool value);
+    // Get instance field: System.Boolean bFallingBack
+    bool _get_bFallingBack();
+    // Set instance field: System.Boolean bFallingBack
+    void _set_bFallingBack(bool value);
+    // Get instance field: System.Int32 iRecursionCount
+    int _get_iRecursionCount();
+    // Set instance field: System.Int32 iRecursionCount
+    void _set_iRecursionCount(int value);
     // public System.Int32 get_Remaining()
     // Offset: 0xFFFFFFFF
     int get_Remaining();

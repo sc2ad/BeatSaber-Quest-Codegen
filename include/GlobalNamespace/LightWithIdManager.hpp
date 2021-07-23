@@ -92,6 +92,30 @@ namespace GlobalNamespace {
     static int _get_kMaxLightId();
     // Set static field: static private System.Int32 kMaxLightId
     static void _set_kMaxLightId(int value);
+    // Get instance field: private System.Action didChangeSomeColorsThisFrameEvent
+    System::Action* _get_didChangeSomeColorsThisFrameEvent();
+    // Set instance field: private System.Action didChangeSomeColorsThisFrameEvent
+    void _set_didChangeSomeColorsThisFrameEvent(System::Action* value);
+    // Get instance field: private System.Action`2<System.Int32,UnityEngine.Color> didSetColorForIdEvent
+    System::Action_2<int, UnityEngine::Color>* _get_didSetColorForIdEvent();
+    // Set instance field: private System.Action`2<System.Int32,UnityEngine.Color> didSetColorForIdEvent
+    void _set_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<ILightWithId>[] _lights
+    ::Array<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>* _get__lights();
+    // Set instance field: private readonly System.Collections.Generic.List`1<ILightWithId>[] _lights
+    void _set__lights(::Array<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>* value);
+    // Get instance field: private readonly System.Nullable`1<UnityEngine.Color>[] _colors
+    ::Array<System::Nullable_1<UnityEngine::Color>>* _get__colors();
+    // Set instance field: private readonly System.Nullable`1<UnityEngine.Color>[] _colors
+    void _set__colors(::Array<System::Nullable_1<UnityEngine::Color>>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<ILightWithId> _lightsToUnregister
+    System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>* _get__lightsToUnregister();
+    // Set instance field: private readonly System.Collections.Generic.List`1<ILightWithId> _lightsToUnregister
+    void _set__lightsToUnregister(System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>* value);
+    // Get instance field: private System.Boolean _didChangeSomeColorsThisFrame
+    bool _get__didChangeSomeColorsThisFrame();
+    // Set instance field: private System.Boolean _didChangeSomeColorsThisFrame
+    void _set__didChangeSomeColorsThisFrame(bool value);
     // public System.Nullable`1<UnityEngine.Color>[] get_colors()
     // Offset: 0x1DF3518
     ::Array<System::Nullable_1<UnityEngine::Color>>* get_colors();

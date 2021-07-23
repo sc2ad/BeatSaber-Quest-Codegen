@@ -70,6 +70,18 @@ namespace GlobalNamespace {
     operator System::IEquatable_1<GlobalNamespace::BeatmapLevelSelectionMask>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::BeatmapLevelSelectionMask>*>(this);
     }
+    // Get instance field: public readonly BeatmapDifficultyMask difficulties
+    GlobalNamespace::BeatmapDifficultyMask _get_difficulties();
+    // Set instance field: public readonly BeatmapDifficultyMask difficulties
+    void _set_difficulties(GlobalNamespace::BeatmapDifficultyMask value);
+    // Get instance field: public readonly GameplayModifierMask modifiers
+    GlobalNamespace::GameplayModifierMask _get_modifiers();
+    // Set instance field: public readonly GameplayModifierMask modifiers
+    void _set_modifiers(GlobalNamespace::GameplayModifierMask value);
+    // Get instance field: public readonly SongPackMask songPacks
+    GlobalNamespace::SongPackMask _get_songPacks();
+    // Set instance field: public readonly SongPackMask songPacks
+    void _set_songPacks(GlobalNamespace::SongPackMask value);
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
     // Offset: 0xED385C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,6 +33,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::CreditsData::Text*) == 0x8);
     // Creating value type constructor for type: ChildCreditsItem
     ChildCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}) noexcept : title{title_}, text{text_} {}
+    // Get instance field: public CreditsData/Text title
+    GlobalNamespace::CreditsData::Text* _get_title();
+    // Set instance field: public CreditsData/Text title
+    void _set_title(GlobalNamespace::CreditsData::Text* value);
+    // Get instance field: public CreditsData/Text text
+    GlobalNamespace::CreditsData::Text* _get_text();
+    // Set instance field: public CreditsData/Text text
+    void _set_text(GlobalNamespace::CreditsData::Text* value);
     // public System.Boolean HasTitle()
     // Offset: 0x1083628
     bool HasTitle();

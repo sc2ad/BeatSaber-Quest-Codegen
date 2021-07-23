@@ -50,6 +50,18 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
     // Creating value type constructor for type: Gost3410PublicKeyAlgParameters
     Gost3410PublicKeyAlgParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet_ = {}) noexcept : publicKeyParamSet{publicKeyParamSet_}, digestParamSet{digestParamSet_}, encryptionParamSet{encryptionParamSet_} {}
+    // Get instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_publicKeyParamSet();
+    // Set instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
+    void _set_publicKeyParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_digestParamSet();
+    // Set instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet
+    void _set_digestParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_encryptionParamSet();
+    // Set instance field: private Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet
+    void _set_encryptionParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
     // Offset: 0x16E6400
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();

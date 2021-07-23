@@ -70,6 +70,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: BodyTilt
     BodyTilt(float tiltSpeed_ = {}, float tiltSensitivity_ = {}, RootMotion::FinalIK::OffsetPose* poseLeft_ = {}, RootMotion::FinalIK::OffsetPose* poseRight_ = {}, float tiltAngle_ = {}, UnityEngine::Vector3 lastForward_ = {}) noexcept : tiltSpeed{tiltSpeed_}, tiltSensitivity{tiltSensitivity_}, poseLeft{poseLeft_}, poseRight{poseRight_}, tiltAngle{tiltAngle_}, lastForward{lastForward_} {}
+    // Get instance field: public System.Single tiltSpeed
+    float _get_tiltSpeed();
+    // Set instance field: public System.Single tiltSpeed
+    void _set_tiltSpeed(float value);
+    // Get instance field: public System.Single tiltSensitivity
+    float _get_tiltSensitivity();
+    // Set instance field: public System.Single tiltSensitivity
+    void _set_tiltSensitivity(float value);
+    // Get instance field: public RootMotion.FinalIK.OffsetPose poseLeft
+    RootMotion::FinalIK::OffsetPose* _get_poseLeft();
+    // Set instance field: public RootMotion.FinalIK.OffsetPose poseLeft
+    void _set_poseLeft(RootMotion::FinalIK::OffsetPose* value);
+    // Get instance field: public RootMotion.FinalIK.OffsetPose poseRight
+    RootMotion::FinalIK::OffsetPose* _get_poseRight();
+    // Set instance field: public RootMotion.FinalIK.OffsetPose poseRight
+    void _set_poseRight(RootMotion::FinalIK::OffsetPose* value);
+    // Get instance field: private System.Single tiltAngle
+    float _get_tiltAngle();
+    // Set instance field: private System.Single tiltAngle
+    void _set_tiltAngle(float value);
+    // Get instance field: private UnityEngine.Vector3 lastForward
+    UnityEngine::Vector3 _get_lastForward();
+    // Set instance field: private UnityEngine.Vector3 lastForward
+    void _set_lastForward(UnityEngine::Vector3 value);
     // public System.Void .ctor()
     // Offset: 0x1CE073C
     // Implemented from: RootMotion.FinalIK.OffsetModifier

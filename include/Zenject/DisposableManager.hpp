@@ -82,6 +82,14 @@ namespace Zenject {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.IDisposable Disposable
+      System::IDisposable* _get_Disposable();
+      // Set instance field: public System.IDisposable Disposable
+      void _set_Disposable(System::IDisposable* value);
+      // Get instance field: public System.Int32 Priority
+      int _get_Priority();
+      // Set instance field: public System.Int32 Priority
+      void _set_Priority(int value);
       // public System.Void .ctor(System.IDisposable disposable, System.Int32 priority)
       // Offset: 0xEE1CA0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -120,6 +128,22 @@ namespace Zenject {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/Zenject.DisposableInfo> _disposables
+    System::Collections::Generic::List_1<Zenject::DisposableManager::DisposableInfo>* _get__disposables();
+    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/Zenject.DisposableInfo> _disposables
+    void _set__disposables(System::Collections::Generic::List_1<Zenject::DisposableManager::DisposableInfo>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/Zenject.LateDisposableInfo> _lateDisposables
+    System::Collections::Generic::List_1<Zenject::DisposableManager::LateDisposableInfo*>* _get__lateDisposables();
+    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/Zenject.LateDisposableInfo> _lateDisposables
+    void _set__lateDisposables(System::Collections::Generic::List_1<Zenject::DisposableManager::LateDisposableInfo*>* value);
+    // Get instance field: private System.Boolean _disposed
+    bool _get__disposed();
+    // Set instance field: private System.Boolean _disposed
+    void _set__disposed(bool value);
+    // Get instance field: private System.Boolean _lateDisposed
+    bool _get__lateDisposed();
+    // Set instance field: private System.Boolean _lateDisposed
+    void _set__lateDisposed(bool value);
     // public System.Void .ctor(System.Collections.Generic.List`1<System.IDisposable> disposables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities, System.Collections.Generic.List`1<Zenject.ILateDisposable> lateDisposables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> latePriorities)
     // Offset: 0x161985C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

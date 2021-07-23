@@ -110,6 +110,10 @@ namespace UnityEngine::UI {
       static UnityEngine::UI::Slider::Direction _get_TopToBottom();
       // Set static field: static public UnityEngine.UI.Slider/UnityEngine.UI.Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Slider::Direction value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.UI.Slider/UnityEngine.UI.Direction
     #pragma pack(pop)
     static check_size<sizeof(Slider::Direction), 0 + sizeof(int)> __UnityEngine_UI_Slider_DirectionSizeCheck;
@@ -230,6 +234,70 @@ namespace UnityEngine::UI {
     operator UnityEngine::EventSystems::IInitializePotentialDragHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
     }
+    // Get instance field: private UnityEngine.RectTransform m_FillRect
+    UnityEngine::RectTransform* _get_m_FillRect();
+    // Set instance field: private UnityEngine.RectTransform m_FillRect
+    void _set_m_FillRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.RectTransform m_HandleRect
+    UnityEngine::RectTransform* _get_m_HandleRect();
+    // Set instance field: private UnityEngine.RectTransform m_HandleRect
+    void _set_m_HandleRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.UI.Slider/UnityEngine.UI.Direction m_Direction
+    UnityEngine::UI::Slider::Direction _get_m_Direction();
+    // Set instance field: private UnityEngine.UI.Slider/UnityEngine.UI.Direction m_Direction
+    void _set_m_Direction(UnityEngine::UI::Slider::Direction value);
+    // Get instance field: private System.Single m_MinValue
+    float _get_m_MinValue();
+    // Set instance field: private System.Single m_MinValue
+    void _set_m_MinValue(float value);
+    // Get instance field: private System.Single m_MaxValue
+    float _get_m_MaxValue();
+    // Set instance field: private System.Single m_MaxValue
+    void _set_m_MaxValue(float value);
+    // Get instance field: private System.Boolean m_WholeNumbers
+    bool _get_m_WholeNumbers();
+    // Set instance field: private System.Boolean m_WholeNumbers
+    void _set_m_WholeNumbers(bool value);
+    // Get instance field: protected System.Single m_Value
+    float _get_m_Value();
+    // Set instance field: protected System.Single m_Value
+    void _set_m_Value(float value);
+    // Get instance field: private UnityEngine.UI.Slider/UnityEngine.UI.SliderEvent m_OnValueChanged
+    UnityEngine::UI::Slider::SliderEvent* _get_m_OnValueChanged();
+    // Set instance field: private UnityEngine.UI.Slider/UnityEngine.UI.SliderEvent m_OnValueChanged
+    void _set_m_OnValueChanged(UnityEngine::UI::Slider::SliderEvent* value);
+    // Get instance field: private UnityEngine.UI.Image m_FillImage
+    UnityEngine::UI::Image* _get_m_FillImage();
+    // Set instance field: private UnityEngine.UI.Image m_FillImage
+    void _set_m_FillImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.Transform m_FillTransform
+    UnityEngine::Transform* _get_m_FillTransform();
+    // Set instance field: private UnityEngine.Transform m_FillTransform
+    void _set_m_FillTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.RectTransform m_FillContainerRect
+    UnityEngine::RectTransform* _get_m_FillContainerRect();
+    // Set instance field: private UnityEngine.RectTransform m_FillContainerRect
+    void _set_m_FillContainerRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.Transform m_HandleTransform
+    UnityEngine::Transform* _get_m_HandleTransform();
+    // Set instance field: private UnityEngine.Transform m_HandleTransform
+    void _set_m_HandleTransform(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.RectTransform m_HandleContainerRect
+    UnityEngine::RectTransform* _get_m_HandleContainerRect();
+    // Set instance field: private UnityEngine.RectTransform m_HandleContainerRect
+    void _set_m_HandleContainerRect(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.Vector2 m_Offset
+    UnityEngine::Vector2 _get_m_Offset();
+    // Set instance field: private UnityEngine.Vector2 m_Offset
+    void _set_m_Offset(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    UnityEngine::DrivenRectTransformTracker _get_m_Tracker();
+    // Set instance field: private UnityEngine.DrivenRectTransformTracker m_Tracker
+    void _set_m_Tracker(UnityEngine::DrivenRectTransformTracker value);
+    // Get instance field: private System.Boolean m_DelayedUpdateVisuals
+    bool _get_m_DelayedUpdateVisuals();
+    // Set instance field: private System.Boolean m_DelayedUpdateVisuals
+    void _set_m_DelayedUpdateVisuals(bool value);
     // public UnityEngine.RectTransform get_fillRect()
     // Offset: 0x198FF44
     UnityEngine::RectTransform* get_fillRect();

@@ -112,6 +112,58 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: NameInfo
     NameInfo(::Il2CppString* NIFullName_ = {}, int64_t NIobjectId_ = {}, int64_t NIassemId_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum_ = {}, System::Type* NItype_ = {}, bool NIisSealed_ = {}, bool NIisArray_ = {}, bool NIisArrayItem_ = {}, bool NItransmitTypeOnObject_ = {}, bool NItransmitTypeOnMember_ = {}, bool NIisParentTypeOnObject_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum_ = {}, bool NIsealedStatusChecked_ = {}) noexcept : NIFullName{NIFullName_}, NIobjectId{NIobjectId_}, NIassemId{NIassemId_}, NIprimitiveTypeEnum{NIprimitiveTypeEnum_}, NItype{NItype_}, NIisSealed{NIisSealed_}, NIisArray{NIisArray_}, NIisArrayItem{NIisArrayItem_}, NItransmitTypeOnObject{NItransmitTypeOnObject_}, NItransmitTypeOnMember{NItransmitTypeOnMember_}, NIisParentTypeOnObject{NIisParentTypeOnObject_}, NIarrayEnum{NIarrayEnum_}, NIsealedStatusChecked{NIsealedStatusChecked_} {}
+    // Get instance field: System.String NIFullName
+    ::Il2CppString* _get_NIFullName();
+    // Set instance field: System.String NIFullName
+    void _set_NIFullName(::Il2CppString* value);
+    // Get instance field: System.Int64 NIobjectId
+    int64_t _get_NIobjectId();
+    // Set instance field: System.Int64 NIobjectId
+    void _set_NIobjectId(int64_t value);
+    // Get instance field: System.Int64 NIassemId
+    int64_t _get_NIassemId();
+    // Set instance field: System.Int64 NIassemId
+    void _set_NIassemId(int64_t value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE NIprimitiveTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE _get_NIprimitiveTypeEnum();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE NIprimitiveTypeEnum
+    void _set_NIprimitiveTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+    // Get instance field: System.Type NItype
+    System::Type* _get_NItype();
+    // Set instance field: System.Type NItype
+    void _set_NItype(System::Type* value);
+    // Get instance field: System.Boolean NIisSealed
+    bool _get_NIisSealed();
+    // Set instance field: System.Boolean NIisSealed
+    void _set_NIisSealed(bool value);
+    // Get instance field: System.Boolean NIisArray
+    bool _get_NIisArray();
+    // Set instance field: System.Boolean NIisArray
+    void _set_NIisArray(bool value);
+    // Get instance field: System.Boolean NIisArrayItem
+    bool _get_NIisArrayItem();
+    // Set instance field: System.Boolean NIisArrayItem
+    void _set_NIisArrayItem(bool value);
+    // Get instance field: System.Boolean NItransmitTypeOnObject
+    bool _get_NItransmitTypeOnObject();
+    // Set instance field: System.Boolean NItransmitTypeOnObject
+    void _set_NItransmitTypeOnObject(bool value);
+    // Get instance field: System.Boolean NItransmitTypeOnMember
+    bool _get_NItransmitTypeOnMember();
+    // Set instance field: System.Boolean NItransmitTypeOnMember
+    void _set_NItransmitTypeOnMember(bool value);
+    // Get instance field: System.Boolean NIisParentTypeOnObject
+    bool _get_NIisParentTypeOnObject();
+    // Set instance field: System.Boolean NIisParentTypeOnObject
+    void _set_NIisParentTypeOnObject(bool value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE NIarrayEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE _get_NIarrayEnum();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE NIarrayEnum
+    void _set_NIarrayEnum(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE value);
+    // Get instance field: private System.Boolean NIsealedStatusChecked
+    bool _get_NIsealedStatusChecked();
+    // Set instance field: private System.Boolean NIsealedStatusChecked
+    void _set_NIsealedStatusChecked(bool value);
     // public System.Boolean get_IsSealed()
     // Offset: 0x15DCEB4
     bool get_IsSealed();

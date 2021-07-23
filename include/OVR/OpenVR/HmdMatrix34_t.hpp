@@ -93,6 +93,54 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single m0
+    float _get_m0();
+    // Set instance field: public System.Single m0
+    void _set_m0(float value);
+    // Get instance field: public System.Single m1
+    float _get_m1();
+    // Set instance field: public System.Single m1
+    void _set_m1(float value);
+    // Get instance field: public System.Single m2
+    float _get_m2();
+    // Set instance field: public System.Single m2
+    void _set_m2(float value);
+    // Get instance field: public System.Single m3
+    float _get_m3();
+    // Set instance field: public System.Single m3
+    void _set_m3(float value);
+    // Get instance field: public System.Single m4
+    float _get_m4();
+    // Set instance field: public System.Single m4
+    void _set_m4(float value);
+    // Get instance field: public System.Single m5
+    float _get_m5();
+    // Set instance field: public System.Single m5
+    void _set_m5(float value);
+    // Get instance field: public System.Single m6
+    float _get_m6();
+    // Set instance field: public System.Single m6
+    void _set_m6(float value);
+    // Get instance field: public System.Single m7
+    float _get_m7();
+    // Set instance field: public System.Single m7
+    void _set_m7(float value);
+    // Get instance field: public System.Single m8
+    float _get_m8();
+    // Set instance field: public System.Single m8
+    void _set_m8(float value);
+    // Get instance field: public System.Single m9
+    float _get_m9();
+    // Set instance field: public System.Single m9
+    void _set_m9(float value);
+    // Get instance field: public System.Single m10
+    float _get_m10();
+    // Set instance field: public System.Single m10
+    void _set_m10(float value);
+    // Get instance field: public System.Single m11
+    float _get_m11();
+    // Set instance field: public System.Single m11
+    void _set_m11(float value);
   }; // OVR.OpenVR.HmdMatrix34_t
   #pragma pack(pop)
   static check_size<sizeof(HmdMatrix34_t), 44 + sizeof(float)> __OVR_OpenVR_HmdMatrix34_tSizeCheck;

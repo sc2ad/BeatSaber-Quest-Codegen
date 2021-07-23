@@ -231,6 +231,78 @@ namespace GlobalNamespace {
     static bool _get_kDefaultScreenDisplacementEffectsEnabled();
     // Set static field: static private System.Boolean kDefaultScreenDisplacementEffectsEnabled
     static void _set_kDefaultScreenDisplacementEffectsEnabled(bool value);
+    // Get instance field: private System.Int32 _reflectionsCount
+    int _get__reflectionsCount();
+    // Set instance field: private System.Int32 _reflectionsCount
+    void _set__reflectionsCount(int value);
+    // Get instance field: private BloomPrePassEffectSO _bloomPrePassEffectToneMappingOff
+    GlobalNamespace::BloomPrePassEffectSO* _get__bloomPrePassEffectToneMappingOff();
+    // Set instance field: private BloomPrePassEffectSO _bloomPrePassEffectToneMappingOff
+    void _set__bloomPrePassEffectToneMappingOff(GlobalNamespace::BloomPrePassEffectSO* value);
+    // Get instance field: private MainEffectSO _mainEffectForBaking
+    GlobalNamespace::MainEffectSO* _get__mainEffectForBaking();
+    // Set instance field: private MainEffectSO _mainEffectForBaking
+    void _set__mainEffectForBaking(GlobalNamespace::MainEffectSO* value);
+    // Get instance field: private System.Single _colorFromSchemeAlpha
+    float _get__colorFromSchemeAlpha();
+    // Set instance field: private System.Single _colorFromSchemeAlpha
+    void _set__colorFromSchemeAlpha(float value);
+    // Get instance field: private UnityEngine.Color[] _bakedLightEditorColors
+    ::Array<UnityEngine::Color>* _get__bakedLightEditorColors();
+    // Set instance field: private UnityEngine.Color[] _bakedLightEditorColors
+    void _set__bakedLightEditorColors(::Array<UnityEngine::Color>* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
+    GlobalNamespace::MirrorRendererGraphicsSettingsPresets* _get__mirrorRendererGraphicsSettingsPresets();
+    // Set instance field: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
+    void _set__mirrorRendererGraphicsSettingsPresets(GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value);
+    // Get instance field: private MainEffectGraphicsSettingsPresetsSO _mainEffectGraphicsSettingsPresets
+    GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* _get__mainEffectGraphicsSettingsPresets();
+    // Set instance field: private MainEffectGraphicsSettingsPresetsSO _mainEffectGraphicsSettingsPresets
+    void _set__mainEffectGraphicsSettingsPresets(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* value);
+    // Get instance field: private BloomPrePassGraphicsSettingsPresetsSO _bloomPrePassGraphicsSettingsPresets
+    GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* _get__bloomPrePassGraphicsSettingsPresets();
+    // Set instance field: private BloomPrePassGraphicsSettingsPresetsSO _bloomPrePassGraphicsSettingsPresets
+    void _set__bloomPrePassGraphicsSettingsPresets(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* value);
+    // Get instance field: private MirrorRendererSO _mirrorRenderer
+    GlobalNamespace::MirrorRendererSO* _get__mirrorRenderer();
+    // Set instance field: private MirrorRendererSO _mirrorRenderer
+    void _set__mirrorRenderer(GlobalNamespace::MirrorRendererSO* value);
+    // Get instance field: private MainEffectContainerSO _mainEffectContainer
+    GlobalNamespace::MainEffectContainerSO* _get__mainEffectContainer();
+    // Set instance field: private MainEffectContainerSO _mainEffectContainer
+    void _set__mainEffectContainer(GlobalNamespace::MainEffectContainerSO* value);
+    // Get instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
+    GlobalNamespace::BloomPrePassEffectContainerSO* _get__bloomPrePassEffectContainer();
+    // Set instance field: private BloomPrePassEffectContainerSO _bloomPrePassEffectContainer
+    void _set__bloomPrePassEffectContainer(GlobalNamespace::BloomPrePassEffectContainerSO* value);
+    // Get instance field: private BakedLightDataLoader _bakedLightDataLoaderPrefab
+    GlobalNamespace::BakedLightDataLoader* _get__bakedLightDataLoaderPrefab();
+    // Set instance field: private BakedLightDataLoader _bakedLightDataLoaderPrefab
+    void _set__bakedLightDataLoaderPrefab(GlobalNamespace::BakedLightDataLoader* value);
+    // Get instance field: private BakedReflectionProbe _bakedReflectionProbePrefab
+    GlobalNamespace::BakedReflectionProbe* _get__bakedReflectionProbePrefab();
+    // Set instance field: private BakedReflectionProbe _bakedReflectionProbePrefab
+    void _set__bakedReflectionProbePrefab(GlobalNamespace::BakedReflectionProbe* value);
+    // Get instance field: private LightmapLightWithIds _lightmapLightWithIds
+    GlobalNamespace::LightmapLightWithIds* _get__lightmapLightWithIds();
+    // Set instance field: private LightmapLightWithIds _lightmapLightWithIds
+    void _set__lightmapLightWithIds(GlobalNamespace::LightmapLightWithIds* value);
+    // Get instance field: private FakeMirrorObjectsInstaller _fakeMirrorObjectsInstallerPrefab
+    GlobalNamespace::FakeMirrorObjectsInstaller* _get__fakeMirrorObjectsInstallerPrefab();
+    // Set instance field: private FakeMirrorObjectsInstaller _fakeMirrorObjectsInstallerPrefab
+    void _set__fakeMirrorObjectsInstallerPrefab(GlobalNamespace::FakeMirrorObjectsInstaller* value);
+    // Get instance field: private FakeMirrorSettings _fakeMirrorSettingsPrefab
+    GlobalNamespace::FakeMirrorSettings* _get__fakeMirrorSettingsPrefab();
+    // Set instance field: private FakeMirrorSettings _fakeMirrorSettingsPrefab
+    void _set__fakeMirrorSettingsPrefab(GlobalNamespace::FakeMirrorSettings* value);
+    // Get instance field: private UnityEngine.Material _defaultDepthOnlyWriteMaterialForFakeMirror
+    UnityEngine::Material* _get__defaultDepthOnlyWriteMaterialForFakeMirror();
+    // Set instance field: private UnityEngine.Material _defaultDepthOnlyWriteMaterialForFakeMirror
+    void _set__defaultDepthOnlyWriteMaterialForFakeMirror(UnityEngine::Material* value);
     // public System.Int32 get_reflectionsCount()
     // Offset: 0x11B5FE8
     int get_reflectionsCount();

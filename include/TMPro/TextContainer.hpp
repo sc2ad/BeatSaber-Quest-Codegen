@@ -125,6 +125,54 @@ namespace TMPro {
     static UnityEngine::Vector2 _get_k_defaultSize();
     // Set static field: static private UnityEngine.Vector2 k_defaultSize
     static void _set_k_defaultSize(UnityEngine::Vector2 value);
+    // Get instance field: private System.Boolean m_hasChanged
+    bool _get_m_hasChanged();
+    // Set instance field: private System.Boolean m_hasChanged
+    void _set_m_hasChanged(bool value);
+    // Get instance field: private UnityEngine.Vector2 m_pivot
+    UnityEngine::Vector2 _get_m_pivot();
+    // Set instance field: private UnityEngine.Vector2 m_pivot
+    void _set_m_pivot(UnityEngine::Vector2 value);
+    // Get instance field: private TMPro.TextContainerAnchors m_anchorPosition
+    TMPro::TextContainerAnchors _get_m_anchorPosition();
+    // Set instance field: private TMPro.TextContainerAnchors m_anchorPosition
+    void _set_m_anchorPosition(TMPro::TextContainerAnchors value);
+    // Get instance field: private UnityEngine.Rect m_rect
+    UnityEngine::Rect _get_m_rect();
+    // Set instance field: private UnityEngine.Rect m_rect
+    void _set_m_rect(UnityEngine::Rect value);
+    // Get instance field: private System.Boolean m_isDefaultWidth
+    bool _get_m_isDefaultWidth();
+    // Set instance field: private System.Boolean m_isDefaultWidth
+    void _set_m_isDefaultWidth(bool value);
+    // Get instance field: private System.Boolean m_isDefaultHeight
+    bool _get_m_isDefaultHeight();
+    // Set instance field: private System.Boolean m_isDefaultHeight
+    void _set_m_isDefaultHeight(bool value);
+    // Get instance field: private System.Boolean m_isAutoFitting
+    bool _get_m_isAutoFitting();
+    // Set instance field: private System.Boolean m_isAutoFitting
+    void _set_m_isAutoFitting(bool value);
+    // Get instance field: private UnityEngine.Vector3[] m_corners
+    ::Array<UnityEngine::Vector3>* _get_m_corners();
+    // Set instance field: private UnityEngine.Vector3[] m_corners
+    void _set_m_corners(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Vector3[] m_worldCorners
+    ::Array<UnityEngine::Vector3>* _get_m_worldCorners();
+    // Set instance field: private UnityEngine.Vector3[] m_worldCorners
+    void _set_m_worldCorners(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private UnityEngine.Vector4 m_margins
+    UnityEngine::Vector4 _get_m_margins();
+    // Set instance field: private UnityEngine.Vector4 m_margins
+    void _set_m_margins(UnityEngine::Vector4 value);
+    // Get instance field: private UnityEngine.RectTransform m_rectTransform
+    UnityEngine::RectTransform* _get_m_rectTransform();
+    // Set instance field: private UnityEngine.RectTransform m_rectTransform
+    void _set_m_rectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private TMPro.TextMeshPro m_textMeshPro
+    TMPro::TextMeshPro* _get_m_textMeshPro();
+    // Set instance field: private TMPro.TextMeshPro m_textMeshPro
+    void _set_m_textMeshPro(TMPro::TextMeshPro* value);
     // public System.Boolean get_hasChanged()
     // Offset: 0x13D6624
     bool get_hasChanged();

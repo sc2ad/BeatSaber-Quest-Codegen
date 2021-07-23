@@ -59,6 +59,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::CloudStorageUpdateStatus _get_ManualMergeRequired();
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus ManualMergeRequired
     static void _set_ManualMergeRequired(Oculus::Platform::CloudStorageUpdateStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.CloudStorageUpdateStatus
   #pragma pack(pop)
   static check_size<sizeof(CloudStorageUpdateStatus), 0 + sizeof(int)> __Oculus_Platform_CloudStorageUpdateStatusSizeCheck;

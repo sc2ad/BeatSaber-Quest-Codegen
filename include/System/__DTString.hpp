@@ -84,6 +84,30 @@ namespace System {
     static ::Array<::Il2CppChar>* _get_WhiteSpaceChecks();
     // Set static field: static private System.Char[] WhiteSpaceChecks
     static void _set_WhiteSpaceChecks(::Array<::Il2CppChar>* value);
+    // Get instance field: System.String Value
+    ::Il2CppString* _get_Value();
+    // Set instance field: System.String Value
+    void _set_Value(::Il2CppString* value);
+    // Get instance field: System.Int32 Index
+    int _get_Index();
+    // Set instance field: System.Int32 Index
+    void _set_Index(int value);
+    // Get instance field: System.Int32 len
+    int _get_len();
+    // Set instance field: System.Int32 len
+    void _set_len(int value);
+    // Get instance field: System.Char m_current
+    ::Il2CppChar _get_m_current();
+    // Set instance field: System.Char m_current
+    void _set_m_current(::Il2CppChar value);
+    // Get instance field: private System.Globalization.CompareInfo m_info
+    System::Globalization::CompareInfo* _get_m_info();
+    // Set instance field: private System.Globalization.CompareInfo m_info
+    void _set_m_info(System::Globalization::CompareInfo* value);
+    // Get instance field: private System.Boolean m_checkDigitToken
+    bool _get_m_checkDigitToken();
+    // Set instance field: private System.Boolean m_checkDigitToken
+    void _set_m_checkDigitToken(bool value);
     // System.Globalization.CompareInfo get_CompareInfo()
     // Offset: 0xF04188
     System::Globalization::CompareInfo* get_CompareInfo();

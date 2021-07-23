@@ -64,6 +64,18 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
+    // Get instance field: private readonly System.Type _resourceType
+    System::Type* _get__resourceType();
+    // Set instance field: private readonly System.Type _resourceType
+    void _set__resourceType(System::Type* value);
+    // Get instance field: private readonly System.String _resourcePath
+    ::Il2CppString* _get__resourcePath();
+    // Set instance field: private readonly System.String _resourcePath
+    void _set__resourcePath(::Il2CppString* value);
+    // Get instance field: private readonly System.Boolean _matchSingle
+    bool _get__matchSingle();
+    // Set instance field: private readonly System.Boolean _matchSingle
+    void _set__matchSingle(bool value);
     // public System.Boolean get_IsCached()
     // Offset: 0x16CBCF4
     bool get_IsCached();

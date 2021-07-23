@@ -39,6 +39,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: SettingsSubMenuInfo
     SettingsSubMenuInfo(HMUI::ViewController* viewController_ = {}, ::Il2CppString* menuName_ = {}) noexcept : viewController{viewController_}, menuName{menuName_} {}
+    // Get instance field: private HMUI.ViewController _viewController
+    HMUI::ViewController* _get__viewController();
+    // Set instance field: private HMUI.ViewController _viewController
+    void _set__viewController(HMUI::ViewController* value);
+    // Get instance field: private System.String _menuName
+    ::Il2CppString* _get__menuName();
+    // Set instance field: private System.String _menuName
+    void _set__menuName(::Il2CppString* value);
     // public HMUI.ViewController get_viewController()
     // Offset: 0x1053374
     HMUI::ViewController* get_viewController();

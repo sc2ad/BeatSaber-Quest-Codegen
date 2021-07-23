@@ -196,6 +196,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::ConnectedPlayerManager::InternalMessageType _get_PlayerAvatarUpdate();
       // Set static field: static public ConnectedPlayerManager/InternalMessageType PlayerAvatarUpdate
       static void _set_PlayerAvatarUpdate(GlobalNamespace::ConnectedPlayerManager::InternalMessageType value);
+      // Get instance field: public System.Byte value__
+      uint8_t _get_value__();
+      // Set instance field: public System.Byte value__
+      void _set_value__(uint8_t value);
     }; // ConnectedPlayerManager/InternalMessageType
     #pragma pack(pop)
     static check_size<sizeof(ConnectedPlayerManager::InternalMessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_ConnectedPlayerManager_InternalMessageTypeSizeCheck;
@@ -398,6 +402,106 @@ namespace GlobalNamespace {
     static int _get_kMaxUnreliableMessageLength();
     // Set static field: static private System.Int32 kMaxUnreliableMessageLength
     static void _set_kMaxUnreliableMessageLength(int value);
+    // Get instance field: private System.Action connectedEvent
+    System::Action* _get_connectedEvent();
+    // Set instance field: private System.Action connectedEvent
+    void _set_connectedEvent(System::Action* value);
+    // Get instance field: private System.Action reinitializedEvent
+    System::Action* _get_reinitializedEvent();
+    // Set instance field: private System.Action reinitializedEvent
+    void _set_reinitializedEvent(System::Action* value);
+    // Get instance field: private System.Action`1<DisconnectedReason> disconnectedEvent
+    System::Action_1<GlobalNamespace::DisconnectedReason>* _get_disconnectedEvent();
+    // Set instance field: private System.Action`1<DisconnectedReason> disconnectedEvent
+    void _set_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    // Get instance field: private System.Action`1<ConnectionFailedReason> connectionFailedEvent
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_connectionFailedEvent();
+    // Set instance field: private System.Action`1<ConnectionFailedReason> connectionFailedEvent
+    void _set_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // Get instance field: private System.Action`1<IConnectedPlayer> playerConnectedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerConnectedEvent();
+    // Set instance field: private System.Action`1<IConnectedPlayer> playerConnectedEvent
+    void _set_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // Get instance field: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerDisconnectedEvent();
+    // Set instance field: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
+    void _set_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // Get instance field: private System.Action`1<IConnectedPlayer> playerStateChangedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerStateChangedEvent();
+    // Set instance field: private System.Action`1<IConnectedPlayer> playerStateChangedEvent
+    void _set_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // Get instance field: private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerAvatarChangedEvent();
+    // Set instance field: private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
+    void _set_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // Get instance field: private System.Action`1<IConnectedPlayer> playerOrderChangedEvent
+    System::Action_1<GlobalNamespace::IConnectedPlayer*>* _get_playerOrderChangedEvent();
+    // Set instance field: private System.Action`1<IConnectedPlayer> playerOrderChangedEvent
+    void _set_playerOrderChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // Get instance field: private System.Action syncTimeInitializedEvent
+    System::Action* _get_syncTimeInitializedEvent();
+    // Set instance field: private System.Action syncTimeInitializedEvent
+    void _set_syncTimeInitializedEvent(System::Action* value);
+    // Get instance field: private readonly System.Int64 _startTicks
+    int64_t _get__startTicks();
+    // Set instance field: private readonly System.Int64 _startTicks
+    void _set__startTicks(int64_t value);
+    // Get instance field: private readonly RollingAverage _syncTimeOffset
+    GlobalNamespace::RollingAverage* _get__syncTimeOffset();
+    // Set instance field: private readonly RollingAverage _syncTimeOffset
+    void _set__syncTimeOffset(GlobalNamespace::RollingAverage* value);
+    // Get instance field: private System.Single _syncTimeDelay
+    float _get__syncTimeDelay();
+    // Set instance field: private System.Single _syncTimeDelay
+    void _set__syncTimeDelay(float value);
+    // Get instance field: private readonly IConnectionManager _connectionManager
+    GlobalNamespace::IConnectionManager* _get__connectionManager();
+    // Set instance field: private readonly IConnectionManager _connectionManager
+    void _set__connectionManager(GlobalNamespace::IConnectionManager* value);
+    // Get instance field: private readonly LiteNetLib.Utils.NetDataWriter _temporaryDataWriter
+    LiteNetLib::Utils::NetDataWriter* _get__temporaryDataWriter();
+    // Set instance field: private readonly LiteNetLib.Utils.NetDataWriter _temporaryDataWriter
+    void _set__temporaryDataWriter(LiteNetLib::Utils::NetDataWriter* value);
+    // Get instance field: private readonly LiteNetLib.Utils.NetDataWriter _reliableDataWriter
+    LiteNetLib::Utils::NetDataWriter* _get__reliableDataWriter();
+    // Set instance field: private readonly LiteNetLib.Utils.NetDataWriter _reliableDataWriter
+    void _set__reliableDataWriter(LiteNetLib::Utils::NetDataWriter* value);
+    // Get instance field: private readonly LiteNetLib.Utils.NetDataWriter _unreliableDataWriter
+    LiteNetLib::Utils::NetDataWriter* _get__unreliableDataWriter();
+    // Set instance field: private readonly LiteNetLib.Utils.NetDataWriter _unreliableDataWriter
+    void _set__unreliableDataWriter(LiteNetLib::Utils::NetDataWriter* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<ConnectedPlayerManager/ConnectedPlayer> _players
+    System::Collections::Generic::List_1<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*>* _get__players();
+    // Set instance field: private readonly System.Collections.Generic.List`1<ConnectedPlayerManager/ConnectedPlayer> _players
+    void _set__players(System::Collections::Generic::List_1<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*>* value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _localPlayerState
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__localPlayerState();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _localPlayerState
+    void _set__localPlayerState(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
+    // Get instance field: private MultiplayerAvatarData _localPlayerAvatar
+    GlobalNamespace::MultiplayerAvatarData _get__localPlayerAvatar();
+    // Set instance field: private MultiplayerAvatarData _localPlayerAvatar
+    void _set__localPlayerAvatar(GlobalNamespace::MultiplayerAvatarData value);
+    // Get instance field: private ConnectedPlayerManager/ConnectedPlayer _localPlayer
+    GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* _get__localPlayer();
+    // Set instance field: private ConnectedPlayerManager/ConnectedPlayer _localPlayer
+    void _set__localPlayer(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* value);
+    // Get instance field: private System.Byte _lastConnectionId
+    uint8_t _get__lastConnectionId();
+    // Set instance field: private System.Byte _lastConnectionId
+    void _set__lastConnectionId(uint8_t value);
+    // Get instance field: private System.Single _lastSyncTimeUpdate
+    float _get__lastSyncTimeUpdate();
+    // Set instance field: private System.Single _lastSyncTimeUpdate
+    void _set__lastSyncTimeUpdate(float value);
+    // Get instance field: private System.Single _lastPollTime
+    float _get__lastPollTime();
+    // Set instance field: private System.Single _lastPollTime
+    void _set__lastPollTime(float value);
+    // Get instance field: private readonly NetworkPacketSerializer`2<ConnectedPlayerManager/InternalMessageType,IConnectedPlayer> _messageSerializer
+    GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>* _get__messageSerializer();
+    // Set instance field: private readonly NetworkPacketSerializer`2<ConnectedPlayerManager/InternalMessageType,IConnectedPlayer> _messageSerializer
+    void _set__messageSerializer(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Boolean get_isConnectionOwner()
     // Offset: 0x12BAF78
     bool get_isConnectionOwner();

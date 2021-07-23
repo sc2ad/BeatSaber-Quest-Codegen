@@ -72,6 +72,22 @@ namespace UnityEngine {
     operator System::IEquatable_1<UnityEngine::Rect>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rect>*>(this);
     }
+    // Get instance field: private System.Single m_XMin
+    float _get_m_XMin();
+    // Set instance field: private System.Single m_XMin
+    void _set_m_XMin(float value);
+    // Get instance field: private System.Single m_YMin
+    float _get_m_YMin();
+    // Set instance field: private System.Single m_YMin
+    void _set_m_YMin(float value);
+    // Get instance field: private System.Single m_Width
+    float _get_m_Width();
+    // Set instance field: private System.Single m_Width
+    void _set_m_Width(float value);
+    // Get instance field: private System.Single m_Height
+    float _get_m_Height();
+    // Set instance field: private System.Single m_Height
+    void _set_m_Height(float value);
     // static public UnityEngine.Rect get_zero()
     // Offset: 0x1C76D64
     static UnityEngine::Rect get_zero();

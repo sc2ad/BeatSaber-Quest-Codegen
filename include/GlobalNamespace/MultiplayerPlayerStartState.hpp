@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerPlayerStartState _get_Late();
     // Set static field: static public MultiplayerPlayerStartState Late
     static void _set_Late(GlobalNamespace::MultiplayerPlayerStartState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // MultiplayerPlayerStartState
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerPlayerStartState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerPlayerStartStateSizeCheck;

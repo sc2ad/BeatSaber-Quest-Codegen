@@ -53,6 +53,18 @@ namespace GlobalNamespace {
     BeatmapLevelDataSO(UnityEngine::AudioClip* audioClip_ = {}, ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* difficultyBeatmapSets_ = {}, ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* no360MovementDifficultyBeatmapSets_ = {}) noexcept : audioClip{audioClip_}, difficultyBeatmapSets{difficultyBeatmapSets_}, no360MovementDifficultyBeatmapSets{no360MovementDifficultyBeatmapSets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.AudioClip _audioClip
+    UnityEngine::AudioClip* _get__audioClip();
+    // Set instance field: private UnityEngine.AudioClip _audioClip
+    void _set__audioClip(UnityEngine::AudioClip* value);
+    // Get instance field: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _difficultyBeatmapSets
+    ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* _get__difficultyBeatmapSets();
+    // Set instance field: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _difficultyBeatmapSets
+    void _set__difficultyBeatmapSets(::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* value);
+    // Get instance field: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
+    ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* _get__no360MovementDifficultyBeatmapSets();
+    // Set instance field: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
+    void _set__no360MovementDifficultyBeatmapSets(::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* value);
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x11981A8
     UnityEngine::AudioClip* get_audioClip();

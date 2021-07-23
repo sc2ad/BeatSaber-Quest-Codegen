@@ -349,6 +349,10 @@ namespace TMPro {
     static TMPro::RichTextTag _get_DEFAULT();
     // Set static field: static public TMPro.RichTextTag DEFAULT
     static void _set_DEFAULT(TMPro::RichTextTag value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // TMPro.RichTextTag
   #pragma pack(pop)
   static check_size<sizeof(RichTextTag), 0 + sizeof(uint)> __TMPro_RichTextTagSizeCheck;

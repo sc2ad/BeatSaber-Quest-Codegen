@@ -107,6 +107,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::GameplaySetupViewController::GameplayMode _get_MultiplayerPrivate();
       // Set static field: static public GameplaySetupViewController/GameplayMode MultiplayerPrivate
       static void _set_MultiplayerPrivate(GlobalNamespace::GameplaySetupViewController::GameplayMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // GameplaySetupViewController/GameplayMode
     #pragma pack(pop)
     static check_size<sizeof(GameplaySetupViewController::GameplayMode), 0 + sizeof(int)> __GlobalNamespace_GameplaySetupViewController_GameplayModeSizeCheck;
@@ -212,6 +216,70 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplaySetupViewController::GameplayMode) == 0x4);
     // Creating value type constructor for type: GameplaySetupViewController
     GameplaySetupViewController(HMUI::TextSegmentedControl* selectionSegmentedControl_ = {}, GlobalNamespace::PlayerSettingsPanelController* playerSettingsPanelController_ = {}, GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController_ = {}, GlobalNamespace::EnvironmentOverrideSettingsPanelController* environmentOverrideSettingsPanelController_ = {}, GlobalNamespace::ColorsOverrideSettingsPanelController* colorsOverrideSettingsPanelController_ = {}, GlobalNamespace::MultiplayerSettingsPanelController* multiplayerSettingsPanelController_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Action* didChangeGameplayModifiersEvent_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameplaySetupViewController::Panel*>* panels_ = {}, int activePanelIdx_ = {}, bool showModifiers_ = {}, bool showEnvironmentOverrideSettings_ = {}, bool showColorSchemesSettings_ = {}, bool shouldRefreshContent_ = {}, bool isInitialized_ = {}, GlobalNamespace::GameplaySetupViewController::GameplayMode gameplayMode_ = {}) noexcept : selectionSegmentedControl{selectionSegmentedControl_}, playerSettingsPanelController{playerSettingsPanelController_}, gameplayModifiersPanelController{gameplayModifiersPanelController_}, environmentOverrideSettingsPanelController{environmentOverrideSettingsPanelController_}, colorsOverrideSettingsPanelController{colorsOverrideSettingsPanelController_}, multiplayerSettingsPanelController{multiplayerSettingsPanelController_}, playerDataModel{playerDataModel_}, didChangeGameplayModifiersEvent{didChangeGameplayModifiersEvent_}, panels{panels_}, activePanelIdx{activePanelIdx_}, showModifiers{showModifiers_}, showEnvironmentOverrideSettings{showEnvironmentOverrideSettings_}, showColorSchemesSettings{showColorSchemesSettings_}, shouldRefreshContent{shouldRefreshContent_}, isInitialized{isInitialized_}, gameplayMode{gameplayMode_} {}
+    // Get instance field: private HMUI.TextSegmentedControl _selectionSegmentedControl
+    HMUI::TextSegmentedControl* _get__selectionSegmentedControl();
+    // Set instance field: private HMUI.TextSegmentedControl _selectionSegmentedControl
+    void _set__selectionSegmentedControl(HMUI::TextSegmentedControl* value);
+    // Get instance field: private PlayerSettingsPanelController _playerSettingsPanelController
+    GlobalNamespace::PlayerSettingsPanelController* _get__playerSettingsPanelController();
+    // Set instance field: private PlayerSettingsPanelController _playerSettingsPanelController
+    void _set__playerSettingsPanelController(GlobalNamespace::PlayerSettingsPanelController* value);
+    // Get instance field: private GameplayModifiersPanelController _gameplayModifiersPanelController
+    GlobalNamespace::GameplayModifiersPanelController* _get__gameplayModifiersPanelController();
+    // Set instance field: private GameplayModifiersPanelController _gameplayModifiersPanelController
+    void _set__gameplayModifiersPanelController(GlobalNamespace::GameplayModifiersPanelController* value);
+    // Get instance field: private EnvironmentOverrideSettingsPanelController _environmentOverrideSettingsPanelController
+    GlobalNamespace::EnvironmentOverrideSettingsPanelController* _get__environmentOverrideSettingsPanelController();
+    // Set instance field: private EnvironmentOverrideSettingsPanelController _environmentOverrideSettingsPanelController
+    void _set__environmentOverrideSettingsPanelController(GlobalNamespace::EnvironmentOverrideSettingsPanelController* value);
+    // Get instance field: private ColorsOverrideSettingsPanelController _colorsOverrideSettingsPanelController
+    GlobalNamespace::ColorsOverrideSettingsPanelController* _get__colorsOverrideSettingsPanelController();
+    // Set instance field: private ColorsOverrideSettingsPanelController _colorsOverrideSettingsPanelController
+    void _set__colorsOverrideSettingsPanelController(GlobalNamespace::ColorsOverrideSettingsPanelController* value);
+    // Get instance field: private MultiplayerSettingsPanelController _multiplayerSettingsPanelController
+    GlobalNamespace::MultiplayerSettingsPanelController* _get__multiplayerSettingsPanelController();
+    // Set instance field: private MultiplayerSettingsPanelController _multiplayerSettingsPanelController
+    void _set__multiplayerSettingsPanelController(GlobalNamespace::MultiplayerSettingsPanelController* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private System.Action didChangeGameplayModifiersEvent
+    System::Action* _get_didChangeGameplayModifiersEvent();
+    // Set instance field: private System.Action didChangeGameplayModifiersEvent
+    void _set_didChangeGameplayModifiersEvent(System::Action* value);
+    // Get instance field: private System.Collections.Generic.List`1<GameplaySetupViewController/Panel> _panels
+    System::Collections::Generic::List_1<GlobalNamespace::GameplaySetupViewController::Panel*>* _get__panels();
+    // Set instance field: private System.Collections.Generic.List`1<GameplaySetupViewController/Panel> _panels
+    void _set__panels(System::Collections::Generic::List_1<GlobalNamespace::GameplaySetupViewController::Panel*>* value);
+    // Get instance field: private System.Int32 _activePanelIdx
+    int _get__activePanelIdx();
+    // Set instance field: private System.Int32 _activePanelIdx
+    void _set__activePanelIdx(int value);
+    // Get instance field: private System.Boolean _showModifiers
+    bool _get__showModifiers();
+    // Set instance field: private System.Boolean _showModifiers
+    void _set__showModifiers(bool value);
+    // Get instance field: private System.Boolean _showEnvironmentOverrideSettings
+    bool _get__showEnvironmentOverrideSettings();
+    // Set instance field: private System.Boolean _showEnvironmentOverrideSettings
+    void _set__showEnvironmentOverrideSettings(bool value);
+    // Get instance field: private System.Boolean _showColorSchemesSettings
+    bool _get__showColorSchemesSettings();
+    // Set instance field: private System.Boolean _showColorSchemesSettings
+    void _set__showColorSchemesSettings(bool value);
+    // Get instance field: private System.Boolean _shouldRefreshContent
+    bool _get__shouldRefreshContent();
+    // Set instance field: private System.Boolean _shouldRefreshContent
+    void _set__shouldRefreshContent(bool value);
+    // Get instance field: private System.Boolean _isInitialized
+    bool _get__isInitialized();
+    // Set instance field: private System.Boolean _isInitialized
+    void _set__isInitialized(bool value);
+    // Get instance field: private GameplaySetupViewController/GameplayMode _gameplayMode
+    GlobalNamespace::GameplaySetupViewController::GameplayMode _get__gameplayMode();
+    // Set instance field: private GameplaySetupViewController/GameplayMode _gameplayMode
+    void _set__gameplayMode(GlobalNamespace::GameplaySetupViewController::GameplayMode value);
     // public PlayerSpecificSettings get_playerSettings()
     // Offset: 0x10B4C2C
     GlobalNamespace::PlayerSpecificSettings* get_playerSettings();

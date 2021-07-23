@@ -57,6 +57,14 @@ namespace UnityEngine {
     static bool _get_enableDebugPrints();
     // Set static field: static private System.Boolean enableDebugPrints
     static void _set_enableDebugPrints(bool value);
+    // Get instance field: UnityEngine.GlobalJavaObjectRef m_jobject
+    UnityEngine::GlobalJavaObjectRef* _get_m_jobject();
+    // Set instance field: UnityEngine.GlobalJavaObjectRef m_jobject
+    void _set_m_jobject(UnityEngine::GlobalJavaObjectRef* value);
+    // Get instance field: UnityEngine.GlobalJavaObjectRef m_jclass
+    UnityEngine::GlobalJavaObjectRef* _get_m_jclass();
+    // Set instance field: UnityEngine.GlobalJavaObjectRef m_jclass
+    void _set_m_jclass(UnityEngine::GlobalJavaObjectRef* value);
     // public System.Void .ctor(System.String className, System.String[] args)
     // Offset: 0x23520B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -91,6 +91,30 @@ namespace Org::BouncyCastle::Math::EC {
     static ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* _get_EMPTY_ZS();
     // Set static field: static protected Org.BouncyCastle.Math.EC.ECFieldElement[] EMPTY_ZS
     static void _set_EMPTY_ZS(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* value);
+    // Get instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
+    Org::BouncyCastle::Math::EC::ECCurve* _get_m_curve();
+    // Set instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
+    void _set_m_curve(Org::BouncyCastle::Math::EC::ECCurve* value);
+    // Get instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement m_x
+    Org::BouncyCastle::Math::EC::ECFieldElement* _get_m_x();
+    // Set instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement m_x
+    void _set_m_x(Org::BouncyCastle::Math::EC::ECFieldElement* value);
+    // Get instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement m_y
+    Org::BouncyCastle::Math::EC::ECFieldElement* _get_m_y();
+    // Set instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement m_y
+    void _set_m_y(Org::BouncyCastle::Math::EC::ECFieldElement* value);
+    // Get instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement[] m_zs
+    ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* _get_m_zs();
+    // Set instance field: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement[] m_zs
+    void _set_m_zs(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* value);
+    // Get instance field: protected internal readonly System.Boolean m_withCompression
+    bool _get_m_withCompression();
+    // Set instance field: protected internal readonly System.Boolean m_withCompression
+    void _set_m_withCompression(bool value);
+    // Get instance field: protected internal System.Collections.IDictionary m_preCompTable
+    System::Collections::IDictionary* _get_m_preCompTable();
+    // Set instance field: protected internal System.Collections.IDictionary m_preCompTable
+    void _set_m_preCompTable(System::Collections::IDictionary* value);
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
     // Offset: 0x20E8A0C
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();

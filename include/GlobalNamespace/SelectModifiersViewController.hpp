@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayModifiersPanelController*) == 0x8);
     // Creating value type constructor for type: SelectModifiersViewController
     SelectModifiersViewController(GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController_ = {}) noexcept : gameplayModifiersPanelController{gameplayModifiersPanelController_} {}
+    // Get instance field: private GameplayModifiersPanelController _gameplayModifiersPanelController
+    GlobalNamespace::GameplayModifiersPanelController* _get__gameplayModifiersPanelController();
+    // Set instance field: private GameplayModifiersPanelController _gameplayModifiersPanelController
+    void _set__gameplayModifiersPanelController(GlobalNamespace::GameplayModifiersPanelController* value);
     // public GameplayModifiers get_gameplayModifiers()
     // Offset: 0x1155600
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();

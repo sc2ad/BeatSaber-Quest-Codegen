@@ -37,6 +37,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent pPollNextOverlayEvent
+    Valve::VR::IVROverlay::_PollNextOverlayEvent* _get_pPollNextOverlayEvent();
+    // Set instance field: public Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent pPollNextOverlayEvent
+    void _set_pPollNextOverlayEvent(Valve::VR::IVROverlay::_PollNextOverlayEvent* value);
+    // Get instance field: public Valve.VR.CVROverlay/Valve.VR._PollNextOverlayEventPacked pPollNextOverlayEventPacked
+    Valve::VR::CVROverlay::_PollNextOverlayEventPacked* _get_pPollNextOverlayEventPacked();
+    // Set instance field: public Valve.VR.CVROverlay/Valve.VR._PollNextOverlayEventPacked pPollNextOverlayEventPacked
+    void _set_pPollNextOverlayEventPacked(Valve::VR::CVROverlay::_PollNextOverlayEventPacked* value);
   }; // Valve.VR.CVROverlay/Valve.VR.PollNextOverlayEventUnion
   // WARNING Not writing size check since size may be invalid!
 }

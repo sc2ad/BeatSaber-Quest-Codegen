@@ -41,6 +41,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::GenericPoser::Map*>*) == 0x8);
     // Creating value type constructor for type: GenericPoser
     GenericPoser(::Array<RootMotion::FinalIK::GenericPoser::Map*>* maps_ = {}) noexcept : maps{maps_} {}
+    // Get instance field: public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
+    ::Array<RootMotion::FinalIK::GenericPoser::Map*>* _get_maps();
+    // Set instance field: public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
+    void _set_maps(::Array<RootMotion::FinalIK::GenericPoser::Map*>* value);
     // private System.Void StoreDefaultState()
     // Offset: 0x1C8960C
     void StoreDefaultState();

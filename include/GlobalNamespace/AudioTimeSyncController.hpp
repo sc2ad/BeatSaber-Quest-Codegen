@@ -80,6 +80,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::AudioTimeSyncController::State _get_Stopped();
       // Set static field: static public AudioTimeSyncController/State Stopped
       static void _set_Stopped(GlobalNamespace::AudioTimeSyncController::State value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // AudioTimeSyncController/State
     #pragma pack(pop)
     static check_size<sizeof(AudioTimeSyncController::State), 0 + sizeof(int)> __GlobalNamespace_AudioTimeSyncController_StateSizeCheck;
@@ -227,6 +231,90 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _audioSyncLerpSpeed
+    float _get__audioSyncLerpSpeed();
+    // Set instance field: private System.Single _audioSyncLerpSpeed
+    void _set__audioSyncLerpSpeed(float value);
+    // Get instance field: private System.Single _forcedSyncDeltaTime
+    float _get__forcedSyncDeltaTime();
+    // Set instance field: private System.Single _forcedSyncDeltaTime
+    void _set__forcedSyncDeltaTime(float value);
+    // Get instance field: private System.Single _startSyncDeltaTime
+    float _get__startSyncDeltaTime();
+    // Set instance field: private System.Single _startSyncDeltaTime
+    void _set__startSyncDeltaTime(float value);
+    // Get instance field: private System.Single _stopSyncDeltaTime
+    float _get__stopSyncDeltaTime();
+    // Set instance field: private System.Single _stopSyncDeltaTime
+    void _set__stopSyncDeltaTime(float value);
+    // Get instance field: private UnityEngine.AudioSource _audioSource
+    UnityEngine::AudioSource* _get__audioSource();
+    // Set instance field: private UnityEngine.AudioSource _audioSource
+    void _set__audioSource(UnityEngine::AudioSource* value);
+    // Get instance field: private FloatSO _audioLatency
+    GlobalNamespace::FloatSO* _get__audioLatency();
+    // Set instance field: private FloatSO _audioLatency
+    void _set__audioLatency(GlobalNamespace::FloatSO* value);
+    // Get instance field: private readonly AudioTimeSyncController/InitData _initData
+    GlobalNamespace::AudioTimeSyncController::InitData* _get__initData();
+    // Set instance field: private readonly AudioTimeSyncController/InitData _initData
+    void _set__initData(GlobalNamespace::AudioTimeSyncController::InitData* value);
+    // Get instance field: public System.Boolean forcedNoAudioSync
+    bool _get_forcedNoAudioSync();
+    // Set instance field: public System.Boolean forcedNoAudioSync
+    void _set_forcedNoAudioSync(bool value);
+    // Get instance field: private System.Boolean _fixingAudioSyncError
+    bool _get__fixingAudioSyncError();
+    // Set instance field: private System.Boolean _fixingAudioSyncError
+    void _set__fixingAudioSyncError(bool value);
+    // Get instance field: private System.Single _audioStartTimeOffsetSinceStart
+    float _get__audioStartTimeOffsetSinceStart();
+    // Set instance field: private System.Single _audioStartTimeOffsetSinceStart
+    void _set__audioStartTimeOffsetSinceStart(float value);
+    // Get instance field: private System.Int32 _playbackLoopIndex
+    int _get__playbackLoopIndex();
+    // Set instance field: private System.Int32 _playbackLoopIndex
+    void _set__playbackLoopIndex(int value);
+    // Get instance field: private System.Int32 _prevAudioSamplePos
+    int _get__prevAudioSamplePos();
+    // Set instance field: private System.Int32 _prevAudioSamplePos
+    void _set__prevAudioSamplePos(int value);
+    // Get instance field: private System.Single _startSongTime
+    float _get__startSongTime();
+    // Set instance field: private System.Single _startSongTime
+    void _set__startSongTime(float value);
+    // Get instance field: private System.Single _songTimeOffset
+    float _get__songTimeOffset();
+    // Set instance field: private System.Single _songTimeOffset
+    void _set__songTimeOffset(float value);
+    // Get instance field: private System.Boolean _audioStarted
+    bool _get__audioStarted();
+    // Set instance field: private System.Boolean _audioStarted
+    void _set__audioStarted(bool value);
+    // Get instance field: private System.Single _timeScale
+    float _get__timeScale();
+    // Set instance field: private System.Single _timeScale
+    void _set__timeScale(float value);
+    // Get instance field: private System.Single _songTime
+    float _get__songTime();
+    // Set instance field: private System.Single _songTime
+    void _set__songTime(float value);
+    // Get instance field: private System.Double _dspTimeOffset
+    double _get__dspTimeOffset();
+    // Set instance field: private System.Double _dspTimeOffset
+    void _set__dspTimeOffset(double value);
+    // Get instance field: private AudioTimeSyncController/State _state
+    GlobalNamespace::AudioTimeSyncController::State _get__state();
+    // Set instance field: private AudioTimeSyncController/State _state
+    void _set__state(GlobalNamespace::AudioTimeSyncController::State value);
+    // Get instance field: private System.Boolean _canStartSong
+    bool _get__canStartSong();
+    // Set instance field: private System.Boolean _canStartSong
+    void _set__canStartSong(bool value);
+    // Get instance field: private System.Boolean _isReady
+    bool _get__isReady();
+    // Set instance field: private System.Boolean _isReady
+    void _set__isReady(bool value);
     // public AudioTimeSyncController/State get_state()
     // Offset: 0x10DC79C
     GlobalNamespace::AudioTimeSyncController::State get_state();

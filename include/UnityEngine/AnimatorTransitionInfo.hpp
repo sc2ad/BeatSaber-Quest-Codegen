@@ -83,6 +83,38 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Int32 m_FullPath
+    int _get_m_FullPath();
+    // Set instance field: private System.Int32 m_FullPath
+    void _set_m_FullPath(int value);
+    // Get instance field: private System.Int32 m_UserName
+    int _get_m_UserName();
+    // Set instance field: private System.Int32 m_UserName
+    void _set_m_UserName(int value);
+    // Get instance field: private System.Int32 m_Name
+    int _get_m_Name();
+    // Set instance field: private System.Int32 m_Name
+    void _set_m_Name(int value);
+    // Get instance field: private System.Boolean m_HasFixedDuration
+    bool _get_m_HasFixedDuration();
+    // Set instance field: private System.Boolean m_HasFixedDuration
+    void _set_m_HasFixedDuration(bool value);
+    // Get instance field: private System.Single m_Duration
+    float _get_m_Duration();
+    // Set instance field: private System.Single m_Duration
+    void _set_m_Duration(float value);
+    // Get instance field: private System.Single m_NormalizedTime
+    float _get_m_NormalizedTime();
+    // Set instance field: private System.Single m_NormalizedTime
+    void _set_m_NormalizedTime(float value);
+    // Get instance field: private System.Boolean m_AnyState
+    bool _get_m_AnyState();
+    // Set instance field: private System.Boolean m_AnyState
+    void _set_m_AnyState(bool value);
+    // Get instance field: private System.Int32 m_TransitionType
+    int _get_m_TransitionType();
+    // Set instance field: private System.Int32 m_TransitionType
+    void _set_m_TransitionType(int value);
   }; // UnityEngine.AnimatorTransitionInfo
   #pragma pack(pop)
   static check_size<sizeof(AnimatorTransitionInfo), 28 + sizeof(int)> __UnityEngine_AnimatorTransitionInfoSizeCheck;

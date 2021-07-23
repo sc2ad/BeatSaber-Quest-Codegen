@@ -66,6 +66,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ConnectToServerParams
     ConnectToServerParams(::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}, ::Il2CppString* password_ = {}, System::Net::IPEndPoint* endPoint_ = {}, ::Il2CppString* serverUserId_ = {}, ::Il2CppString* serverUserName_ = {}) noexcept : secret{secret_}, code{code_}, password{password_}, endPoint{endPoint_}, serverUserId{serverUserId_}, serverUserName{serverUserName_} {}
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.String code
+    ::Il2CppString* _get_code();
+    // Set instance field: public System.String code
+    void _set_code(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public System.Net.IPEndPoint endPoint
+    System::Net::IPEndPoint* _get_endPoint();
+    // Set instance field: public System.Net.IPEndPoint endPoint
+    void _set_endPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public System.String serverUserId
+    ::Il2CppString* _get_serverUserId();
+    // Set instance field: public System.String serverUserId
+    void _set_serverUserId(::Il2CppString* value);
+    // Get instance field: public System.String serverUserName
+    ::Il2CppString* _get_serverUserName();
+    // Set instance field: public System.String serverUserName
+    void _set_serverUserName(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x152E8EC
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase

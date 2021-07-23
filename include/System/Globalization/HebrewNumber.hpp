@@ -166,6 +166,10 @@ namespace System::Globalization {
       static System::Globalization::HebrewNumber::HS _get_END();
       // Set static field: static public System.Globalization.HebrewNumber/System.Globalization.HS END
       static void _set_END(System::Globalization::HebrewNumber::HS value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Globalization.HebrewNumber/System.Globalization.HS
     #pragma pack(pop)
     static check_size<sizeof(HebrewNumber::HS), 0 + sizeof(int)> __System_Globalization_HebrewNumber_HSSizeCheck;

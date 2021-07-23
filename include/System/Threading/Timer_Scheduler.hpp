@@ -55,6 +55,14 @@ namespace System::Threading {
     static System::Threading::Timer::Scheduler* _get_instance();
     // Set static field: static private System.Threading.Timer/System.Threading.Scheduler instance
     static void _set_instance(System::Threading::Timer::Scheduler* value);
+    // Get instance field: private System.Collections.SortedList list
+    System::Collections::SortedList* _get_list();
+    // Set instance field: private System.Collections.SortedList list
+    void _set_list(System::Collections::SortedList* value);
+    // Get instance field: private System.Threading.ManualResetEvent changed
+    System::Threading::ManualResetEvent* _get_changed();
+    // Set instance field: private System.Threading.ManualResetEvent changed
+    void _set_changed(System::Threading::ManualResetEvent* value);
     // static public System.Threading.Timer/System.Threading.Scheduler get_Instance()
     // Offset: 0x188E024
     static System::Threading::Timer::Scheduler* get_Instance();

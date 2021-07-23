@@ -62,6 +62,10 @@ namespace LiteNetLib {
     static LiteNetLib::ConnectionState _get_Any();
     // Set static field: static public LiteNetLib.ConnectionState Any
     static void _set_Any(LiteNetLib::ConnectionState value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // LiteNetLib.ConnectionState
   #pragma pack(pop)
   static check_size<sizeof(ConnectionState), 0 + sizeof(uint8_t)> __LiteNetLib_ConnectionStateSizeCheck;

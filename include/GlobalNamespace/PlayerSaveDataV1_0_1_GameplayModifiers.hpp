@@ -67,6 +67,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType _get_None();
       // Set static field: static public PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType None
       static void _set_None(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiers_EnabledObstacleTypeSizeCheck;
@@ -105,6 +109,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType _get_Battery();
       // Set static field: static public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType Battery
       static void _set_Battery(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiers_EnergyTypeSizeCheck;
@@ -149,6 +157,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed _get_Slower();
       // Set static field: static public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed Slower
       static void _set_Slower(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiers_SongSpeedSizeCheck;
@@ -217,6 +229,46 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed) == 0x4);
     // Creating value type constructor for type: GameplayModifiers
     GameplayModifiers(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType energyType_ = {}, bool noFail_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType enabledObstacleType_ = {}, bool fastNotes_ = {}, bool strictAngles_ = {}, bool disappearingArrows_ = {}, bool noBombs_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed songSpeed_ = {}) noexcept : energyType{energyType_}, noFail{noFail_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_}, enabledObstacleType{enabledObstacleType_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, noBombs{noBombs_}, songSpeed{songSpeed_} {}
+    // Get instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType energyType
+    GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType _get_energyType();
+    // Set instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType energyType
+    void _set_energyType(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType value);
+    // Get instance field: public System.Boolean noFail
+    bool _get_noFail();
+    // Set instance field: public System.Boolean noFail
+    void _set_noFail(bool value);
+    // Get instance field: public System.Boolean instaFail
+    bool _get_instaFail();
+    // Set instance field: public System.Boolean instaFail
+    void _set_instaFail(bool value);
+    // Get instance field: public System.Boolean failOnSaberClash
+    bool _get_failOnSaberClash();
+    // Set instance field: public System.Boolean failOnSaberClash
+    void _set_failOnSaberClash(bool value);
+    // Get instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType enabledObstacleType
+    GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType _get_enabledObstacleType();
+    // Set instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType enabledObstacleType
+    void _set_enabledObstacleType(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType value);
+    // Get instance field: public System.Boolean fastNotes
+    bool _get_fastNotes();
+    // Set instance field: public System.Boolean fastNotes
+    void _set_fastNotes(bool value);
+    // Get instance field: public System.Boolean strictAngles
+    bool _get_strictAngles();
+    // Set instance field: public System.Boolean strictAngles
+    void _set_strictAngles(bool value);
+    // Get instance field: public System.Boolean disappearingArrows
+    bool _get_disappearingArrows();
+    // Set instance field: public System.Boolean disappearingArrows
+    void _set_disappearingArrows(bool value);
+    // Get instance field: public System.Boolean noBombs
+    bool _get_noBombs();
+    // Set instance field: public System.Boolean noBombs
+    void _set_noBombs(bool value);
+    // Get instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed songSpeed
+    GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed _get_songSpeed();
+    // Set instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed songSpeed
+    void _set_songSpeed(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed value);
     // public System.Void .ctor()
     // Offset: 0x1105FA8
     // Implemented from: System.Object

@@ -39,6 +39,10 @@ namespace UnityEngine::ProBuilder {
     constexpr operator int() const noexcept {
       return i;
     }
+    // Get instance field: public System.Int32 i
+    int _get_i();
+    // Set instance field: public System.Int32 i
+    void _set_i(int value);
     // System.Boolean <GetUnusedTextureGroup>b__0(UnityEngine.ProBuilder.Face element)
     // Offset: 0x14B53BC
     bool $GetUnusedTextureGroup$b__0(UnityEngine::ProBuilder::Face* element);

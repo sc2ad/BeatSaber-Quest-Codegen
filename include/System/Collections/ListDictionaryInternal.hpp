@@ -65,6 +65,18 @@ namespace System::Collections {
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
     }
+    // Get instance field: private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode head
+    System::Collections::ListDictionaryInternal::DictionaryNode* _get_head();
+    // Set instance field: private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode head
+    void _set_head(System::Collections::ListDictionaryInternal::DictionaryNode* value);
+    // Get instance field: private System.Int32 version
+    int _get_version();
+    // Set instance field: private System.Int32 version
+    void _set_version(int value);
+    // Get instance field: private System.Int32 count
+    int _get_count();
+    // Set instance field: private System.Int32 count
+    void _set_count(int value);
     // public System.Object get_Item(System.Object key)
     // Offset: 0x194764C
     ::Il2CppObject* get_Item(::Il2CppObject* key);

@@ -56,6 +56,18 @@ namespace GlobalNamespace {
     PS4LevelProductsModelSO(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackProductsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData_ = {}) noexcept : levelPackProductsData{levelPackProductsData_}, levelIdToProductData{levelIdToProductData_}, levelPackIdToProductData{levelPackIdToProductData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private PS4LevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
+    ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* _get__levelPackProductsData();
+    // Set instance field: private PS4LevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
+    void _set__levelPackProductsData(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelProductData> _levelIdToProductData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* _get__levelIdToProductData();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelProductData> _levelIdToProductData
+    void _set__levelIdToProductData(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* _get__levelPackIdToProductData();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
+    void _set__levelPackIdToProductData(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* value);
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0xFFD668
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();

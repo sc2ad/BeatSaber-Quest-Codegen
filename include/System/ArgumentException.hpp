@@ -43,6 +43,10 @@ namespace System {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_paramName;
     }
+    // Get instance field: private System.String m_paramName
+    ::Il2CppString* _get_m_paramName();
+    // Set instance field: private System.String m_paramName
+    void _set_m_paramName(::Il2CppString* value);
     // public System.Void .ctor(System.String message, System.String paramName)
     // Offset: 0x177883C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

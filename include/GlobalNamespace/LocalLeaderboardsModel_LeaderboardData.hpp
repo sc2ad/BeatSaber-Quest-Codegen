@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*) == 0x8);
     // Creating value type constructor for type: LeaderboardData
     LeaderboardData(::Il2CppString* leaderboardId_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores_ = {}) noexcept : leaderboardId{leaderboardId_}, scores{scores_} {}
+    // Get instance field: public System.String _leaderboardId
+    ::Il2CppString* _get__leaderboardId();
+    // Set instance field: public System.String _leaderboardId
+    void _set__leaderboardId(::Il2CppString* value);
+    // Get instance field: public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores
+    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* _get__scores();
+    // Set instance field: public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores
+    void _set__scores(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* value);
     // public System.Void .ctor()
     // Offset: 0x11701A8
     // Implemented from: System.Object

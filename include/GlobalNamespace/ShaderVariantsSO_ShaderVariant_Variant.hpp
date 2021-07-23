@@ -37,6 +37,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Variant
     Variant(UnityEngine::Rendering::PassType passType_ = {}, ::Il2CppString* keywords_ = {}) noexcept : passType{passType_}, keywords{keywords_} {}
+    // Get instance field: private UnityEngine.Rendering.PassType _passType
+    UnityEngine::Rendering::PassType _get__passType();
+    // Set instance field: private UnityEngine.Rendering.PassType _passType
+    void _set__passType(UnityEngine::Rendering::PassType value);
+    // Get instance field: private System.String _keywords
+    ::Il2CppString* _get__keywords();
+    // Set instance field: private System.String _keywords
+    void _set__keywords(::Il2CppString* value);
     // public UnityEngine.Rendering.PassType get_passType()
     // Offset: 0x2342BDC
     UnityEngine::Rendering::PassType get_passType();

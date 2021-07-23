@@ -111,6 +111,42 @@ namespace GlobalNamespace {
     TutorialController(GlobalNamespace::TutorialSongController* tutorialSongController_ = {}, GlobalNamespace::IntroTutorialController* introTutorialController_ = {}, GlobalNamespace::AudioFading* audioFading_ = {}, GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData_ = {}, GlobalNamespace::Signal* tutorialIntroStartedSignal_ = {}, GlobalNamespace::Signal* tutorialFinishedSignal_ = {}, GlobalNamespace::PauseController* pauseController_ = {}, bool paused_ = {}, bool doingOutroTransition_ = {}) noexcept : tutorialSongController{tutorialSongController_}, introTutorialController{introTutorialController_}, audioFading{audioFading_}, tutorialSceneSetupData{tutorialSceneSetupData_}, tutorialIntroStartedSignal{tutorialIntroStartedSignal_}, tutorialFinishedSignal{tutorialFinishedSignal_}, pauseController{pauseController_}, paused{paused_}, doingOutroTransition{doingOutroTransition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TutorialSongController _tutorialSongController
+    GlobalNamespace::TutorialSongController* _get__tutorialSongController();
+    // Set instance field: private TutorialSongController _tutorialSongController
+    void _set__tutorialSongController(GlobalNamespace::TutorialSongController* value);
+    // Get instance field: private IntroTutorialController _introTutorialController
+    GlobalNamespace::IntroTutorialController* _get__introTutorialController();
+    // Set instance field: private IntroTutorialController _introTutorialController
+    void _set__introTutorialController(GlobalNamespace::IntroTutorialController* value);
+    // Get instance field: private AudioFading _audioFading
+    GlobalNamespace::AudioFading* _get__audioFading();
+    // Set instance field: private AudioFading _audioFading
+    void _set__audioFading(GlobalNamespace::AudioFading* value);
+    // Get instance field: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
+    GlobalNamespace::TutorialScenesTransitionSetupDataSO* _get__tutorialSceneSetupData();
+    // Set instance field: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
+    void _set__tutorialSceneSetupData(GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
+    // Get instance field: private Signal _tutorialIntroStartedSignal
+    GlobalNamespace::Signal* _get__tutorialIntroStartedSignal();
+    // Set instance field: private Signal _tutorialIntroStartedSignal
+    void _set__tutorialIntroStartedSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private Signal _tutorialFinishedSignal
+    GlobalNamespace::Signal* _get__tutorialFinishedSignal();
+    // Set instance field: private Signal _tutorialFinishedSignal
+    void _set__tutorialFinishedSignal(GlobalNamespace::Signal* value);
+    // Get instance field: private PauseController _pauseController
+    GlobalNamespace::PauseController* _get__pauseController();
+    // Set instance field: private PauseController _pauseController
+    void _set__pauseController(GlobalNamespace::PauseController* value);
+    // Get instance field: private System.Boolean _paused
+    bool _get__paused();
+    // Set instance field: private System.Boolean _paused
+    void _set__paused(bool value);
+    // Get instance field: private System.Boolean _doingOutroTransition
+    bool _get__doingOutroTransition();
+    // Set instance field: private System.Boolean _doingOutroTransition
+    void _set__doingOutroTransition(bool value);
     // protected System.Void Start()
     // Offset: 0x107367C
     void Start();

@@ -93,6 +93,22 @@ namespace GlobalNamespace {
     static int _get_kRequestTimeoutSeconds();
     // Set static field: static private System.Int32 kRequestTimeoutSeconds
     static void _set_kRequestTimeoutSeconds(int value);
+    // Get instance field: private readonly INetworkConfig _networkConfig
+    GlobalNamespace::INetworkConfig* _get__networkConfig();
+    // Set instance field: private readonly INetworkConfig _networkConfig
+    void _set__networkConfig(GlobalNamespace::INetworkConfig* value);
+    // Get instance field: private System.Net.Http.HttpClient _client
+    System::Net::Http::HttpClient* _get__client();
+    // Set instance field: private System.Net.Http.HttpClient _client
+    void _set__client(System::Net::Http::HttpClient* value);
+    // Get instance field: private System.Threading.Tasks.Task`1<MasterServerAvailabilityData> _request
+    System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* _get__request();
+    // Set instance field: private System.Threading.Tasks.Task`1<MasterServerAvailabilityData> _request
+    void _set__request(System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* value);
+    // Get instance field: private System.DateTime _lastRequestTime
+    System::DateTime _get__lastRequestTime();
+    // Set instance field: private System.DateTime _lastRequestTime
+    void _set__lastRequestTime(System::DateTime value);
     // private System.Void Init()
     // Offset: 0x117ED90
     void Init();

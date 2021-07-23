@@ -53,6 +53,18 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
     // Creating value type constructor for type: MatchmakingEnqueuedUser
     MatchmakingEnqueuedUser(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* CustomData_ = {}, Oculus::Platform::Models::User* UserOptional_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : CustomData{CustomData_}, UserOptional{UserOptional_}, User{User_} {}
+    // Get instance field: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_CustomData();
+    // Set instance field: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
+    void _set_CustomData(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: public readonly Oculus.Platform.Models.User UserOptional
+    Oculus::Platform::Models::User* _get_UserOptional();
+    // Set instance field: public readonly Oculus.Platform.Models.User UserOptional
+    void _set_UserOptional(Oculus::Platform::Models::User* value);
+    // Get instance field: public readonly Oculus.Platform.Models.User User
+    Oculus::Platform::Models::User* _get_User();
+    // Set instance field: public readonly Oculus.Platform.Models.User User
+    void _set_User(Oculus::Platform::Models::User* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A9E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -50,6 +50,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverVR*) == 0x8);
     // Creating value type constructor for type: VRIK
     VRIK(RootMotion::FinalIK::VRIK::References* references_ = {}, RootMotion::FinalIK::IKSolverVR* solver_ = {}) noexcept : references{references_}, solver{solver_} {}
+    // Get instance field: public RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references
+    RootMotion::FinalIK::VRIK::References* _get_references();
+    // Set instance field: public RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references
+    void _set_references(RootMotion::FinalIK::VRIK::References* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverVR solver
+    RootMotion::FinalIK::IKSolverVR* _get_solver();
+    // Set instance field: public RootMotion.FinalIK.IKSolverVR solver
+    void _set_solver(RootMotion::FinalIK::IKSolverVR* value);
     // private System.Void OpenSetupTutorial()
     // Offset: 0x1ABF414
     void OpenSetupTutorial();

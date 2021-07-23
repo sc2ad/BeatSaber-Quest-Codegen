@@ -57,6 +57,10 @@ namespace UnityEngine {
     static UnityEngine::Event* _get_s_MasterEvent();
     // Set static field: static private UnityEngine.Event s_MasterEvent
     static void _set_s_MasterEvent(UnityEngine::Event* value);
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
     // public UnityEngine.EventType get_rawType()
     // Offset: 0x1A95DA0
     UnityEngine::EventType get_rawType();

@@ -67,6 +67,10 @@ namespace Valve::VR {
     static Valve::VR::ECollisionBoundsStyle _get_COLLISION_BOUNDS_STYLE_COUNT();
     // Set static field: static public Valve.VR.ECollisionBoundsStyle COLLISION_BOUNDS_STYLE_COUNT
     static void _set_COLLISION_BOUNDS_STYLE_COUNT(Valve::VR::ECollisionBoundsStyle value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.ECollisionBoundsStyle
   #pragma pack(pop)
   static check_size<sizeof(ECollisionBoundsStyle), 0 + sizeof(int)> __Valve_VR_ECollisionBoundsStyleSizeCheck;

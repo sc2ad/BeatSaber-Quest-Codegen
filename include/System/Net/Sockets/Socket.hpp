@@ -324,6 +324,70 @@ namespace System::Net::Sockets {
     static System::AsyncCallback* _get_SendToAsyncCallback();
     // Set static field: static private System.AsyncCallback SendToAsyncCallback
     static void _set_SendToAsyncCallback(System::AsyncCallback* value);
+    // Get instance field: private System.Boolean is_closed
+    bool _get_is_closed();
+    // Set instance field: private System.Boolean is_closed
+    void _set_is_closed(bool value);
+    // Get instance field: private System.Boolean is_listening
+    bool _get_is_listening();
+    // Set instance field: private System.Boolean is_listening
+    void _set_is_listening(bool value);
+    // Get instance field: private System.Boolean useOverlappedIO
+    bool _get_useOverlappedIO();
+    // Set instance field: private System.Boolean useOverlappedIO
+    void _set_useOverlappedIO(bool value);
+    // Get instance field: private System.Int32 linger_timeout
+    int _get_linger_timeout();
+    // Set instance field: private System.Int32 linger_timeout
+    void _set_linger_timeout(int value);
+    // Get instance field: private System.Net.Sockets.AddressFamily addressFamily
+    System::Net::Sockets::AddressFamily _get_addressFamily();
+    // Set instance field: private System.Net.Sockets.AddressFamily addressFamily
+    void _set_addressFamily(System::Net::Sockets::AddressFamily value);
+    // Get instance field: private System.Net.Sockets.SocketType socketType
+    System::Net::Sockets::SocketType _get_socketType();
+    // Set instance field: private System.Net.Sockets.SocketType socketType
+    void _set_socketType(System::Net::Sockets::SocketType value);
+    // Get instance field: private System.Net.Sockets.ProtocolType protocolType
+    System::Net::Sockets::ProtocolType _get_protocolType();
+    // Set instance field: private System.Net.Sockets.ProtocolType protocolType
+    void _set_protocolType(System::Net::Sockets::ProtocolType value);
+    // Get instance field: System.Net.Sockets.SafeSocketHandle m_Handle
+    System::Net::Sockets::SafeSocketHandle* _get_m_Handle();
+    // Set instance field: System.Net.Sockets.SafeSocketHandle m_Handle
+    void _set_m_Handle(System::Net::Sockets::SafeSocketHandle* value);
+    // Get instance field: System.Net.EndPoint seed_endpoint
+    System::Net::EndPoint* _get_seed_endpoint();
+    // Set instance field: System.Net.EndPoint seed_endpoint
+    void _set_seed_endpoint(System::Net::EndPoint* value);
+    // Get instance field: System.Threading.SemaphoreSlim ReadSem
+    System::Threading::SemaphoreSlim* _get_ReadSem();
+    // Set instance field: System.Threading.SemaphoreSlim ReadSem
+    void _set_ReadSem(System::Threading::SemaphoreSlim* value);
+    // Get instance field: System.Threading.SemaphoreSlim WriteSem
+    System::Threading::SemaphoreSlim* _get_WriteSem();
+    // Set instance field: System.Threading.SemaphoreSlim WriteSem
+    void _set_WriteSem(System::Threading::SemaphoreSlim* value);
+    // Get instance field: System.Boolean is_blocking
+    bool _get_is_blocking();
+    // Set instance field: System.Boolean is_blocking
+    void _set_is_blocking(bool value);
+    // Get instance field: System.Boolean is_bound
+    bool _get_is_bound();
+    // Set instance field: System.Boolean is_bound
+    void _set_is_bound(bool value);
+    // Get instance field: System.Boolean is_connected
+    bool _get_is_connected();
+    // Set instance field: System.Boolean is_connected
+    void _set_is_connected(bool value);
+    // Get instance field: private System.Int32 m_IntCleanedUp
+    int _get_m_IntCleanedUp();
+    // Set instance field: private System.Int32 m_IntCleanedUp
+    void _set_m_IntCleanedUp(int value);
+    // Get instance field: System.Boolean connect_in_progress
+    bool _get_connect_in_progress();
+    // Set instance field: System.Boolean connect_in_progress
+    void _set_connect_in_progress(bool value);
     // static public System.Boolean get_SupportsIPv4()
     // Offset: 0x1471674
     static bool get_SupportsIPv4();

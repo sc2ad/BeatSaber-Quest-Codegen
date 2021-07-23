@@ -49,6 +49,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::PivotPoint _get_ActiveElement();
     // Set static field: static public UnityEngine.ProBuilder.PivotPoint ActiveElement
     static void _set_ActiveElement(UnityEngine::ProBuilder::PivotPoint value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.PivotPoint
   #pragma pack(pop)
   static check_size<sizeof(PivotPoint), 0 + sizeof(int)> __UnityEngine_ProBuilder_PivotPointSizeCheck;

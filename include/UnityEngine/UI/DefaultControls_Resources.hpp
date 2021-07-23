@@ -73,6 +73,34 @@ namespace UnityEngine::UI {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.Sprite standard
+    UnityEngine::Sprite* _get_standard();
+    // Set instance field: public UnityEngine.Sprite standard
+    void _set_standard(UnityEngine::Sprite* value);
+    // Get instance field: public UnityEngine.Sprite background
+    UnityEngine::Sprite* _get_background();
+    // Set instance field: public UnityEngine.Sprite background
+    void _set_background(UnityEngine::Sprite* value);
+    // Get instance field: public UnityEngine.Sprite inputField
+    UnityEngine::Sprite* _get_inputField();
+    // Set instance field: public UnityEngine.Sprite inputField
+    void _set_inputField(UnityEngine::Sprite* value);
+    // Get instance field: public UnityEngine.Sprite knob
+    UnityEngine::Sprite* _get_knob();
+    // Set instance field: public UnityEngine.Sprite knob
+    void _set_knob(UnityEngine::Sprite* value);
+    // Get instance field: public UnityEngine.Sprite checkmark
+    UnityEngine::Sprite* _get_checkmark();
+    // Set instance field: public UnityEngine.Sprite checkmark
+    void _set_checkmark(UnityEngine::Sprite* value);
+    // Get instance field: public UnityEngine.Sprite dropdown
+    UnityEngine::Sprite* _get_dropdown();
+    // Set instance field: public UnityEngine.Sprite dropdown
+    void _set_dropdown(UnityEngine::Sprite* value);
+    // Get instance field: public UnityEngine.Sprite mask
+    UnityEngine::Sprite* _get_mask();
+    // Set instance field: public UnityEngine.Sprite mask
+    void _set_mask(UnityEngine::Sprite* value);
   }; // UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources
   #pragma pack(pop)
   static check_size<sizeof(DefaultControls::Resources), 48 + sizeof(UnityEngine::Sprite*)> __UnityEngine_UI_DefaultControls_ResourcesSizeCheck;

@@ -64,6 +64,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
     // Creating value type constructor for type: NetworkPlayersViewController
     NetworkPlayersViewController(GlobalNamespace::NetworkPlayersTableView* networkPlayersTableView_ = {}, bool refreshIsNeeded_ = {}, System::Action_1<GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent_ = {}, System::Action_1<GlobalNamespace::INetworkPlayer*>* onInviteRequestEvent_ = {}) noexcept : networkPlayersTableView{networkPlayersTableView_}, refreshIsNeeded{refreshIsNeeded_}, onJoinRequestEvent{onJoinRequestEvent_}, onInviteRequestEvent{onInviteRequestEvent_} {}
+    // Get instance field: private NetworkPlayersTableView _networkPlayersTableView
+    GlobalNamespace::NetworkPlayersTableView* _get__networkPlayersTableView();
+    // Set instance field: private NetworkPlayersTableView _networkPlayersTableView
+    void _set__networkPlayersTableView(GlobalNamespace::NetworkPlayersTableView* value);
+    // Get instance field: private System.Boolean _refreshIsNeeded
+    bool _get__refreshIsNeeded();
+    // Set instance field: private System.Boolean _refreshIsNeeded
+    void _set__refreshIsNeeded(bool value);
+    // Get instance field: private System.Action`1<INetworkPlayer> onJoinRequestEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_onJoinRequestEvent();
+    // Set instance field: private System.Action`1<INetworkPlayer> onJoinRequestEvent
+    void _set_onJoinRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
+    // Get instance field: private System.Action`1<INetworkPlayer> onInviteRequestEvent
+    System::Action_1<GlobalNamespace::INetworkPlayer*>* _get_onInviteRequestEvent();
+    // Set instance field: private System.Action`1<INetworkPlayer> onInviteRequestEvent
+    void _set_onInviteRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.String get_myPartyTitle()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_myPartyTitle();

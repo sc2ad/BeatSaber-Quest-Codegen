@@ -57,6 +57,22 @@ namespace System::Collections {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
+    // Get instance field: private System.Collections.Queue _q
+    System::Collections::Queue* _get__q();
+    // Set instance field: private System.Collections.Queue _q
+    void _set__q(System::Collections::Queue* value);
+    // Get instance field: private System.Int32 _index
+    int _get__index();
+    // Set instance field: private System.Int32 _index
+    void _set__index(int value);
+    // Get instance field: private System.Int32 _version
+    int _get__version();
+    // Set instance field: private System.Int32 _version
+    void _set__version(int value);
+    // Get instance field: private System.Object currentElement
+    ::Il2CppObject* _get_currentElement();
+    // Set instance field: private System.Object currentElement
+    void _set_currentElement(::Il2CppObject* value);
     // public System.Object get_Current()
     // Offset: 0x1949A9C
     ::Il2CppObject* get_Current();

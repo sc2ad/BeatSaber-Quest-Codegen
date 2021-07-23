@@ -73,6 +73,30 @@ namespace UnityEngine::Events {
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Get instance field: private UnityEngine.Object m_ObjectArgument
+    UnityEngine::Object* _get_m_ObjectArgument();
+    // Set instance field: private UnityEngine.Object m_ObjectArgument
+    void _set_m_ObjectArgument(UnityEngine::Object* value);
+    // Get instance field: private System.String m_ObjectArgumentAssemblyTypeName
+    ::Il2CppString* _get_m_ObjectArgumentAssemblyTypeName();
+    // Set instance field: private System.String m_ObjectArgumentAssemblyTypeName
+    void _set_m_ObjectArgumentAssemblyTypeName(::Il2CppString* value);
+    // Get instance field: private System.Int32 m_IntArgument
+    int _get_m_IntArgument();
+    // Set instance field: private System.Int32 m_IntArgument
+    void _set_m_IntArgument(int value);
+    // Get instance field: private System.Single m_FloatArgument
+    float _get_m_FloatArgument();
+    // Set instance field: private System.Single m_FloatArgument
+    void _set_m_FloatArgument(float value);
+    // Get instance field: private System.String m_StringArgument
+    ::Il2CppString* _get_m_StringArgument();
+    // Set instance field: private System.String m_StringArgument
+    void _set_m_StringArgument(::Il2CppString* value);
+    // Get instance field: private System.Boolean m_BoolArgument
+    bool _get_m_BoolArgument();
+    // Set instance field: private System.Boolean m_BoolArgument
+    void _set_m_BoolArgument(bool value);
     // public UnityEngine.Object get_unityObjectArgument()
     // Offset: 0x1BE6684
     UnityEngine::Object* get_unityObjectArgument();

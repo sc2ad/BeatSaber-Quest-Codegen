@@ -47,6 +47,14 @@ namespace GlobalNamespace {
     MultiplayerLevelAnalytics(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}) noexcept : multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, analyticsModel{analyticsModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _get__multiplayerLevelScenesTransitionSetupData();
+    // Set instance field: private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
+    void _set__multiplayerLevelScenesTransitionSetupData(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private readonly IAnalyticsModel _analyticsModel
+    GlobalNamespace::IAnalyticsModel* _get__analyticsModel();
+    // Set instance field: private readonly IAnalyticsModel _analyticsModel
+    void _set__analyticsModel(GlobalNamespace::IAnalyticsModel* value);
     // protected System.Void Start()
     // Offset: 0x11AEE34
     void Start();

@@ -90,6 +90,38 @@ namespace RootMotion {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: GenericBaker
     GenericBaker(bool markAsLegacy_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::Transform* rootNode_ = {}, ::Array<UnityEngine::Transform*>* ignoreList_ = {}, ::Array<UnityEngine::Transform*>* bakePositionList_ = {}, ::Array<RootMotion::BakerTransform*>* children_ = {}, RootMotion::BakerTransform* rootChild_ = {}, int rootChildIndex_ = {}) noexcept : markAsLegacy{markAsLegacy_}, root{root_}, rootNode{rootNode_}, ignoreList{ignoreList_}, bakePositionList{bakePositionList_}, children{children_}, rootChild{rootChild_}, rootChildIndex{rootChildIndex_} {}
+    // Get instance field: public System.Boolean markAsLegacy
+    bool _get_markAsLegacy();
+    // Set instance field: public System.Boolean markAsLegacy
+    void _set_markAsLegacy(bool value);
+    // Get instance field: public UnityEngine.Transform root
+    UnityEngine::Transform* _get_root();
+    // Set instance field: public UnityEngine.Transform root
+    void _set_root(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform rootNode
+    UnityEngine::Transform* _get_rootNode();
+    // Set instance field: public UnityEngine.Transform rootNode
+    void _set_rootNode(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform[] ignoreList
+    ::Array<UnityEngine::Transform*>* _get_ignoreList();
+    // Set instance field: public UnityEngine.Transform[] ignoreList
+    void _set_ignoreList(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: public UnityEngine.Transform[] bakePositionList
+    ::Array<UnityEngine::Transform*>* _get_bakePositionList();
+    // Set instance field: public UnityEngine.Transform[] bakePositionList
+    void _set_bakePositionList(::Array<UnityEngine::Transform*>* value);
+    // Get instance field: private RootMotion.BakerTransform[] children
+    ::Array<RootMotion::BakerTransform*>* _get_children();
+    // Set instance field: private RootMotion.BakerTransform[] children
+    void _set_children(::Array<RootMotion::BakerTransform*>* value);
+    // Get instance field: private RootMotion.BakerTransform rootChild
+    RootMotion::BakerTransform* _get_rootChild();
+    // Set instance field: private RootMotion.BakerTransform rootChild
+    void _set_rootChild(RootMotion::BakerTransform* value);
+    // Get instance field: private System.Int32 rootChildIndex
+    int _get_rootChildIndex();
+    // Set instance field: private System.Int32 rootChildIndex
+    void _set_rootChildIndex(int value);
     // private System.Void Awake()
     // Offset: 0x1AC4090
     void Awake();

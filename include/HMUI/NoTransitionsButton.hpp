@@ -79,6 +79,10 @@ namespace HMUI {
       static HMUI::NoTransitionsButton::SelectionState _get_Disabled();
       // Set static field: static public HMUI.NoTransitionsButton/HMUI.SelectionState Disabled
       static void _set_Disabled(HMUI::NoTransitionsButton::SelectionState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // HMUI.NoTransitionsButton/HMUI.SelectionState
     #pragma pack(pop)
     static check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
@@ -97,6 +101,14 @@ namespace HMUI {
     static_assert(sizeof(HMUI::NoTransitionsButton::SelectionState) == 0x4);
     // Creating value type constructor for type: NoTransitionsButton
     NoTransitionsButton(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* selectionStateDidChangeEvent_ = {}, HMUI::NoTransitionsButton::SelectionState selectionState_ = {}) noexcept : selectionStateDidChangeEvent{selectionStateDidChangeEvent_}, selectionState{selectionState_} {}
+    // Get instance field: private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
+    System::Action_1<HMUI::NoTransitionsButton::SelectionState>* _get_selectionStateDidChangeEvent();
+    // Set instance field: private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
+    void _set_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
+    // Get instance field: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState
+    HMUI::NoTransitionsButton::SelectionState _get__selectionState();
+    // Set instance field: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState
+    void _set__selectionState(HMUI::NoTransitionsButton::SelectionState value);
     // public HMUI.NoTransitionsButton/HMUI.SelectionState get_selectionState()
     // Offset: 0x1294E00
     HMUI::NoTransitionsButton::SelectionState get_selectionState();

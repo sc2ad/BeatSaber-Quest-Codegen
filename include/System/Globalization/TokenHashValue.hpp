@@ -39,6 +39,18 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TokenHashValue
     TokenHashValue(::Il2CppString* tokenString_ = {}, System::TokenType tokenType_ = {}, int tokenValue_ = {}) noexcept : tokenString{tokenString_}, tokenType{tokenType_}, tokenValue{tokenValue_} {}
+    // Get instance field: System.String tokenString
+    ::Il2CppString* _get_tokenString();
+    // Set instance field: System.String tokenString
+    void _set_tokenString(::Il2CppString* value);
+    // Get instance field: System.TokenType tokenType
+    System::TokenType _get_tokenType();
+    // Set instance field: System.TokenType tokenType
+    void _set_tokenType(System::TokenType value);
+    // Get instance field: System.Int32 tokenValue
+    int _get_tokenValue();
+    // Set instance field: System.Int32 tokenValue
+    void _set_tokenValue(int value);
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
     // Offset: 0x19CFE44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

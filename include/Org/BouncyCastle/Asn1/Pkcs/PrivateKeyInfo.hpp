@@ -73,6 +73,26 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
     // Creating value type constructor for type: PrivateKeyInfo
     PrivateKeyInfo(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm_ = {}, Org::BouncyCastle::Asn1::Asn1OctetString* privateKey_ = {}, Org::BouncyCastle::Asn1::Asn1Set* attributes_ = {}, Org::BouncyCastle::Asn1::DerBitString* publicKey_ = {}) noexcept : version{version_}, privateKeyAlgorithm{privateKeyAlgorithm_}, privateKey{privateKey_}, attributes{attributes_}, publicKey{publicKey_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger version
+    Org::BouncyCastle::Asn1::DerInteger* _get_version();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger version
+    void _set_version(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_privateKeyAlgorithm();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm
+    void _set_privateKeyAlgorithm(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString privateKey
+    Org::BouncyCastle::Asn1::Asn1OctetString* _get_privateKey();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1OctetString privateKey
+    void _set_privateKey(Org::BouncyCastle::Asn1::Asn1OctetString* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set attributes
+    Org::BouncyCastle::Asn1::Asn1Set* _get_attributes();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set attributes
+    void _set_attributes(Org::BouncyCastle::Asn1::Asn1Set* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerBitString publicKey
+    Org::BouncyCastle::Asn1::DerBitString* _get_publicKey();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerBitString publicKey
+    void _set_publicKey(Org::BouncyCastle::Asn1::DerBitString* value);
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_PrivateKeyAlgorithm()
     // Offset: 0x17653A4
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_PrivateKeyAlgorithm();

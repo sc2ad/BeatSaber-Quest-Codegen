@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     BloomPrePassEffectContainerSO(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect_ = {}) noexcept : bloomPrePassEffect{bloomPrePassEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BloomPrePassEffectSO _bloomPrePassEffect
+    GlobalNamespace::BloomPrePassEffectSO* _get__bloomPrePassEffect();
+    // Set instance field: private BloomPrePassEffectSO _bloomPrePassEffect
+    void _set__bloomPrePassEffect(GlobalNamespace::BloomPrePassEffectSO* value);
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
     // Offset: 0x1DED8A0
     GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();

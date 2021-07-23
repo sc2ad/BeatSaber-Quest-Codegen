@@ -32,6 +32,10 @@ namespace System::Runtime::CompilerServices {
     constexpr operator ::Il2CppString*() const noexcept {
       return typeName;
     }
+    // Get instance field: private System.String typeName
+    ::Il2CppString* _get_typeName();
+    // Set instance field: private System.String typeName
+    void _set_typeName(::Il2CppString* value);
     // public System.Void .ctor(System.String typeName)
     // Offset: 0x13F075C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

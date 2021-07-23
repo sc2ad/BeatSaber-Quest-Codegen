@@ -42,6 +42,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     constexpr operator System::IO::MemoryStream*() const noexcept {
       return bOut;
     }
+    // Get instance field: private readonly System.IO.MemoryStream bOut
+    System::IO::MemoryStream* _get_bOut();
+    // Set instance field: private readonly System.IO.MemoryStream bOut
+    void _set_bOut(System::IO::MemoryStream* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1D0EF20
     ::Il2CppString* get_AlgorithmName();

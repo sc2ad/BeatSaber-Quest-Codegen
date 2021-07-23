@@ -77,6 +77,22 @@ namespace System::Threading::Tasks {
     static_assert(sizeof(System::Threading::Tasks::TaskContinuationOptions) == 0x4);
     // Creating value type constructor for type: TaskFactory
     TaskFactory(System::Threading::CancellationToken m_defaultCancellationToken_ = {}, System::Threading::Tasks::TaskScheduler* m_defaultScheduler_ = {}, System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions_ = {}, System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions_ = {}) noexcept : m_defaultCancellationToken{m_defaultCancellationToken_}, m_defaultScheduler{m_defaultScheduler_}, m_defaultCreationOptions{m_defaultCreationOptions_}, m_defaultContinuationOptions{m_defaultContinuationOptions_} {}
+    // Get instance field: private System.Threading.CancellationToken m_defaultCancellationToken
+    System::Threading::CancellationToken _get_m_defaultCancellationToken();
+    // Set instance field: private System.Threading.CancellationToken m_defaultCancellationToken
+    void _set_m_defaultCancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private System.Threading.Tasks.TaskScheduler m_defaultScheduler
+    System::Threading::Tasks::TaskScheduler* _get_m_defaultScheduler();
+    // Set instance field: private System.Threading.Tasks.TaskScheduler m_defaultScheduler
+    void _set_m_defaultScheduler(System::Threading::Tasks::TaskScheduler* value);
+    // Get instance field: private System.Threading.Tasks.TaskCreationOptions m_defaultCreationOptions
+    System::Threading::Tasks::TaskCreationOptions _get_m_defaultCreationOptions();
+    // Set instance field: private System.Threading.Tasks.TaskCreationOptions m_defaultCreationOptions
+    void _set_m_defaultCreationOptions(System::Threading::Tasks::TaskCreationOptions value);
+    // Get instance field: private System.Threading.Tasks.TaskContinuationOptions m_defaultContinuationOptions
+    System::Threading::Tasks::TaskContinuationOptions _get_m_defaultContinuationOptions();
+    // Set instance field: private System.Threading.Tasks.TaskContinuationOptions m_defaultContinuationOptions
+    void _set_m_defaultContinuationOptions(System::Threading::Tasks::TaskContinuationOptions value);
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
     // Offset: 0x1887BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

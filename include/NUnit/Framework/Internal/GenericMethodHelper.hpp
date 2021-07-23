@@ -59,6 +59,22 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
     // Creating value type constructor for type: GenericMethodHelper
     GenericMethodHelper(System::Reflection::MethodInfo* Method_ = {}, ::Array<System::Type*>* TypeParms_ = {}, ::Array<System::Type*>* TypeArgs_ = {}, ::Array<System::Type*>* ParmTypes_ = {}) noexcept : Method{Method_}, TypeParms{TypeParms_}, TypeArgs{TypeArgs_}, ParmTypes{ParmTypes_} {}
+    // Get instance field: private System.Reflection.MethodInfo <Method>k__BackingField
+    System::Reflection::MethodInfo* _get_$Method$k__BackingField();
+    // Set instance field: private System.Reflection.MethodInfo <Method>k__BackingField
+    void _set_$Method$k__BackingField(System::Reflection::MethodInfo* value);
+    // Get instance field: private System.Type[] <TypeParms>k__BackingField
+    ::Array<System::Type*>* _get_$TypeParms$k__BackingField();
+    // Set instance field: private System.Type[] <TypeParms>k__BackingField
+    void _set_$TypeParms$k__BackingField(::Array<System::Type*>* value);
+    // Get instance field: private System.Type[] <TypeArgs>k__BackingField
+    ::Array<System::Type*>* _get_$TypeArgs$k__BackingField();
+    // Set instance field: private System.Type[] <TypeArgs>k__BackingField
+    void _set_$TypeArgs$k__BackingField(::Array<System::Type*>* value);
+    // Get instance field: private System.Type[] <ParmTypes>k__BackingField
+    ::Array<System::Type*>* _get_$ParmTypes$k__BackingField();
+    // Set instance field: private System.Type[] <ParmTypes>k__BackingField
+    void _set_$ParmTypes$k__BackingField(::Array<System::Type*>* value);
     // private System.Reflection.MethodInfo get_Method()
     // Offset: 0x223973C
     System::Reflection::MethodInfo* get_Method();

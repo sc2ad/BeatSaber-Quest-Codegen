@@ -63,6 +63,22 @@ namespace TMPro {
     static TMPro::TMP_UpdateRegistry* _get_s_Instance();
     // Set static field: static private TMPro.TMP_UpdateRegistry s_Instance
     static void _set_s_Instance(TMPro::TMP_UpdateRegistry* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
+    System::Collections::Generic::List_1<UnityEngine::UI::ICanvasElement*>* _get_m_LayoutRebuildQueue();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
+    void _set_m_LayoutRebuildQueue(System::Collections::Generic::List_1<UnityEngine::UI::ICanvasElement*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_LayoutQueueLookup
+    System::Collections::Generic::Dictionary_2<int, int>* _get_m_LayoutQueueLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_LayoutQueueLookup
+    void _set_m_LayoutQueueLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue
+    System::Collections::Generic::List_1<UnityEngine::UI::ICanvasElement*>* _get_m_GraphicRebuildQueue();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue
+    void _set_m_GraphicRebuildQueue(System::Collections::Generic::List_1<UnityEngine::UI::ICanvasElement*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_GraphicQueueLookup
+    System::Collections::Generic::Dictionary_2<int, int>* _get_m_GraphicQueueLookup();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_GraphicQueueLookup
+    void _set_m_GraphicQueueLookup(System::Collections::Generic::Dictionary_2<int, int>* value);
     // static public TMPro.TMP_UpdateRegistry get_instance()
     // Offset: 0x13D4BD4
     static TMPro::TMP_UpdateRegistry* get_instance();

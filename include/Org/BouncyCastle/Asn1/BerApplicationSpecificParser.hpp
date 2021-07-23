@@ -48,6 +48,14 @@ namespace Org::BouncyCastle::Asn1 {
     operator Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
+    // Get instance field: private readonly System.Int32 tag
+    int _get_tag();
+    // Set instance field: private readonly System.Int32 tag
+    void _set_tag(int value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser parser
+    Org::BouncyCastle::Asn1::Asn1StreamParser* _get_parser();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser parser
+    void _set_parser(Org::BouncyCastle::Asn1::Asn1StreamParser* value);
     // System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
     // Offset: 0x16DA9E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -67,6 +67,26 @@ namespace System::Xml {
     CharEntityEncoderFallback(System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer_ = {}, ::Array<int>* textContentMarks_ = {}, int endMarkPos_ = {}, int curMarkPos_ = {}, int startOffset_ = {}) noexcept : fallbackBuffer{fallbackBuffer_}, textContentMarks{textContentMarks_}, endMarkPos{endMarkPos_}, curMarkPos{curMarkPos_}, startOffset{startOffset_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
+    // Get instance field: private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer
+    System::Xml::CharEntityEncoderFallbackBuffer* _get_fallbackBuffer();
+    // Set instance field: private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer
+    void _set_fallbackBuffer(System::Xml::CharEntityEncoderFallbackBuffer* value);
+    // Get instance field: private System.Int32[] textContentMarks
+    ::Array<int>* _get_textContentMarks();
+    // Set instance field: private System.Int32[] textContentMarks
+    void _set_textContentMarks(::Array<int>* value);
+    // Get instance field: private System.Int32 endMarkPos
+    int _get_endMarkPos();
+    // Set instance field: private System.Int32 endMarkPos
+    void _set_endMarkPos(int value);
+    // Get instance field: private System.Int32 curMarkPos
+    int _get_curMarkPos();
+    // Set instance field: private System.Int32 curMarkPos
+    void _set_curMarkPos(int value);
+    // Get instance field: private System.Int32 startOffset
+    int _get_startOffset();
+    // Set instance field: private System.Int32 startOffset
+    void _set_startOffset(int value);
     // System.Void set_StartOffset(System.Int32 value)
     // Offset: 0x18FE43C
     void set_StartOffset(int value);

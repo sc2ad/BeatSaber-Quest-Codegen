@@ -47,6 +47,22 @@ namespace System::Runtime::InteropServices {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ComCompatibleVersionAttribute
     ComCompatibleVersionAttribute(int major_ = {}, int minor_ = {}, int build_ = {}, int revision_ = {}) noexcept : major{major_}, minor{minor_}, build{build_}, revision{revision_} {}
+    // Get instance field: System.Int32 _major
+    int _get__major();
+    // Set instance field: System.Int32 _major
+    void _set__major(int value);
+    // Get instance field: System.Int32 _minor
+    int _get__minor();
+    // Set instance field: System.Int32 _minor
+    void _set__minor(int value);
+    // Get instance field: System.Int32 _build
+    int _get__build();
+    // Set instance field: System.Int32 _build
+    void _set__build(int value);
+    // Get instance field: System.Int32 _revision
+    int _get__revision();
+    // Set instance field: System.Int32 _revision
+    void _set__revision(int value);
     // public System.Void .ctor(System.Int32 major, System.Int32 minor, System.Int32 build, System.Int32 revision)
     // Offset: 0x13F11BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

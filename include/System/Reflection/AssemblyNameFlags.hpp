@@ -63,6 +63,10 @@ namespace System::Reflection {
     static System::Reflection::AssemblyNameFlags _get_Retargetable();
     // Set static field: static public System.Reflection.AssemblyNameFlags Retargetable
     static void _set_Retargetable(System::Reflection::AssemblyNameFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Reflection.AssemblyNameFlags
   #pragma pack(pop)
   static check_size<sizeof(AssemblyNameFlags), 0 + sizeof(int)> __System_Reflection_AssemblyNameFlagsSizeCheck;

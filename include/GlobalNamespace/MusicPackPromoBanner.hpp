@@ -91,6 +91,26 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kGetNow();
     // Set static field: static private System.String kGetNow
     static void _set_kGetNow(::Il2CppString* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _promoText
+    TMPro::TextMeshProUGUI* _get__promoText();
+    // Set instance field: private TMPro.TextMeshProUGUI _promoText
+    void _set__promoText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Image _backgroundImage
+    UnityEngine::UI::Image* _get__backgroundImage();
+    // Set instance field: private UnityEngine.UI.Image _backgroundImage
+    void _set__backgroundImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _coverImage
+    UnityEngine::UI::Image* _get__coverImage();
+    // Set instance field: private UnityEngine.UI.Image _coverImage
+    void _set__coverImage(UnityEngine::UI::Image* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _promoButtonText
+    TMPro::TextMeshProUGUI* _get__promoButtonText();
+    // Set instance field: private TMPro.TextMeshProUGUI _promoButtonText
+    void _set__promoButtonText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private IBeatmapLevelPack _currentPromoMusicPack
+    GlobalNamespace::IBeatmapLevelPack* _get__currentPromoMusicPack();
+    // Set instance field: private IBeatmapLevelPack _currentPromoMusicPack
+    void _set__currentPromoMusicPack(GlobalNamespace::IBeatmapLevelPack* value);
     // public IBeatmapLevelPack get_currentPromoMusicPack()
     // Offset: 0x100DE5C
     GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();

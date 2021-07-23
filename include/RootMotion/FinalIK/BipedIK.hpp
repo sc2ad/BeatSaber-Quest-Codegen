@@ -58,6 +58,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::BipedIKSolvers*) == 0x8);
     // Creating value type constructor for type: BipedIK
     BipedIK(RootMotion::BipedReferences* references_ = {}, RootMotion::FinalIK::BipedIKSolvers* solvers_ = {}) noexcept : references{references_}, solvers{solvers_} {}
+    // Get instance field: public RootMotion.BipedReferences references
+    RootMotion::BipedReferences* _get_references();
+    // Set instance field: public RootMotion.BipedReferences references
+    void _set_references(RootMotion::BipedReferences* value);
+    // Get instance field: public RootMotion.FinalIK.BipedIKSolvers solvers
+    RootMotion::FinalIK::BipedIKSolvers* _get_solvers();
+    // Set instance field: public RootMotion.FinalIK.BipedIKSolvers solvers
+    void _set_solvers(RootMotion::FinalIK::BipedIKSolvers* value);
     // private System.Void OpenUserManual()
     // Offset: 0x1CDF160
     void OpenUserManual();

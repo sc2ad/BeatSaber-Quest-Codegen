@@ -67,6 +67,10 @@ namespace Valve::VR {
     static Valve::VR::EVRScreenshotError _get_ScreenshotAlreadyInProgress();
     // Set static field: static public Valve.VR.EVRScreenshotError ScreenshotAlreadyInProgress
     static void _set_ScreenshotAlreadyInProgress(Valve::VR::EVRScreenshotError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRScreenshotError
   #pragma pack(pop)
   static check_size<sizeof(EVRScreenshotError), 0 + sizeof(int)> __Valve_VR_EVRScreenshotErrorSizeCheck;

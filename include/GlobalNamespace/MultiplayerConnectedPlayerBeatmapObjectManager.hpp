@@ -99,6 +99,30 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.Nullable`1<System.Single> _firstBasicNoteTime
+    System::Nullable_1<float> _get__firstBasicNoteTime();
+    // Set instance field: private System.Nullable`1<System.Single> _firstBasicNoteTime
+    void _set__firstBasicNoteTime(System::Nullable_1<float> value);
+    // Get instance field: private readonly MemoryPoolContainer`1<MultiplayerConnectedPlayerGameNoteController> _gameNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* _get__gameNotePoolContainer();
+    // Set instance field: private readonly MemoryPoolContainer`1<MultiplayerConnectedPlayerGameNoteController> _gameNotePoolContainer
+    void _set__gameNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+    // Get instance field: private readonly MemoryPoolContainer`1<MultiplayerConnectedPlayerBombNoteController> _bombNotePoolContainer
+    GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* _get__bombNotePoolContainer();
+    // Set instance field: private readonly MemoryPoolContainer`1<MultiplayerConnectedPlayerBombNoteController> _bombNotePoolContainer
+    void _set__bombNotePoolContainer(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* value);
+    // Get instance field: private readonly MemoryPoolContainer`2<MultiplayerConnectedPlayerObstacleController,ObstacleController> _obstaclePoolContainer
+    GlobalNamespace::MemoryPoolContainer_2<GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, GlobalNamespace::ObstacleController*>* _get__obstaclePoolContainer();
+    // Set instance field: private readonly MemoryPoolContainer`2<MultiplayerConnectedPlayerObstacleController,ObstacleController> _obstaclePoolContainer
+    void _set__obstaclePoolContainer(GlobalNamespace::MemoryPoolContainer_2<GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, GlobalNamespace::ObstacleController*>* value);
+    // Get instance field: private readonly IConnectedPlayerNoteEventManager _noteEventManager
+    GlobalNamespace::IConnectedPlayerNoteEventManager* _get__noteEventManager();
+    // Set instance field: private readonly IConnectedPlayerNoteEventManager _noteEventManager
+    void _set__noteEventManager(GlobalNamespace::IConnectedPlayerNoteEventManager* value);
+    // Get instance field: private readonly MultiplayerConnectedPlayerBeatmapObjectManager/InitData _initData
+    GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* _get__initData();
+    // Set instance field: private readonly MultiplayerConnectedPlayerBeatmapObjectManager/InitData _initData
+    void _set__initData(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* value);
     // private System.Void .ctor(MultiplayerConnectedPlayerBeatmapObjectManager/InitData initData, IConnectedPlayerNoteEventManager noteEventManager, MultiplayerConnectedPlayerGameNoteController/Pool gameNotePool, MultiplayerConnectedPlayerBombNoteController/Pool bombNotePool, MultiplayerConnectedPlayerObstacleController/Pool obstaclePool)
     // Offset: 0x119FD50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

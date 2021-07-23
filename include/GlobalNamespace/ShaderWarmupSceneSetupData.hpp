@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const noexcept {
       return nextScenesTransitionSetupData;
     }
+    // Get instance field: private ScenesTransitionSetupDataSO <nextScenesTransitionSetupData>k__BackingField
+    GlobalNamespace::ScenesTransitionSetupDataSO* _get_$nextScenesTransitionSetupData$k__BackingField();
+    // Set instance field: private ScenesTransitionSetupDataSO <nextScenesTransitionSetupData>k__BackingField
+    void _set_$nextScenesTransitionSetupData$k__BackingField(GlobalNamespace::ScenesTransitionSetupDataSO* value);
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
     // Offset: 0x1053440
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();

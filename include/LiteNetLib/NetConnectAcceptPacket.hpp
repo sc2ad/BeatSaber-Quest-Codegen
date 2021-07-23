@@ -52,6 +52,18 @@ namespace LiteNetLib {
     static int _get_Size();
     // Set static field: static public System.Int32 Size
     static void _set_Size(int value);
+    // Get instance field: public readonly System.Int64 ConnectionId
+    int64_t _get_ConnectionId();
+    // Set instance field: public readonly System.Int64 ConnectionId
+    void _set_ConnectionId(int64_t value);
+    // Get instance field: public readonly System.Byte ConnectionNumber
+    uint8_t _get_ConnectionNumber();
+    // Set instance field: public readonly System.Byte ConnectionNumber
+    void _set_ConnectionNumber(uint8_t value);
+    // Get instance field: public readonly System.Boolean IsReusedPeer
+    bool _get_IsReusedPeer();
+    // Set instance field: public readonly System.Boolean IsReusedPeer
+    void _set_IsReusedPeer(bool value);
     // private System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, System.Boolean isReusedPeer)
     // Offset: 0x1BB17C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

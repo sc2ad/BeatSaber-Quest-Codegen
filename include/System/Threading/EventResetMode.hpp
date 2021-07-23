@@ -44,6 +44,10 @@ namespace System::Threading {
     static System::Threading::EventResetMode _get_ManualReset();
     // Set static field: static public System.Threading.EventResetMode ManualReset
     static void _set_ManualReset(System::Threading::EventResetMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Threading.EventResetMode
   #pragma pack(pop)
   static check_size<sizeof(EventResetMode), 0 + sizeof(int)> __System_Threading_EventResetModeSizeCheck;

@@ -67,6 +67,18 @@ namespace GlobalNamespace {
     MultiplayerBadgeDataSO(::Il2CppString* titleLocalizationKey_ = {}, ::Il2CppString* subtitleLocalizationKey_ = {}, UnityEngine::Sprite* icon_ = {}) noexcept : titleLocalizationKey{titleLocalizationKey_}, subtitleLocalizationKey{subtitleLocalizationKey_}, icon{icon_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _titleLocalizationKey
+    ::Il2CppString* _get__titleLocalizationKey();
+    // Set instance field: private System.String _titleLocalizationKey
+    void _set__titleLocalizationKey(::Il2CppString* value);
+    // Get instance field: private System.String _subtitleLocalizationKey
+    ::Il2CppString* _get__subtitleLocalizationKey();
+    // Set instance field: private System.String _subtitleLocalizationKey
+    void _set__subtitleLocalizationKey(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Sprite _icon
+    UnityEngine::Sprite* _get__icon();
+    // Set instance field: private UnityEngine.Sprite _icon
+    void _set__icon(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_icon()
     // Offset: 0x119D24C
     UnityEngine::Sprite* get_icon();

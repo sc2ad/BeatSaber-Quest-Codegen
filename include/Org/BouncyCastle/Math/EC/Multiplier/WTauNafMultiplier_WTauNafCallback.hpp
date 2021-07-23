@@ -51,6 +51,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Math.EC.AbstractF2mPoint m_p
+    Org::BouncyCastle::Math::EC::AbstractF2mPoint* _get_m_p();
+    // Set instance field: private readonly Org.BouncyCastle.Math.EC.AbstractF2mPoint m_p
+    void _set_m_p(Org::BouncyCastle::Math::EC::AbstractF2mPoint* value);
+    // Get instance field: private readonly System.SByte m_a
+    int8_t _get_m_a();
+    // Set instance field: private readonly System.SByte m_a
+    void _set_m_a(int8_t value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
     // Offset: 0x1D94B90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

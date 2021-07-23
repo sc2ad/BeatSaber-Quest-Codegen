@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     PlayerVRControllersManager(GlobalNamespace::VRController* leftHandVRController_ = {}, GlobalNamespace::VRController* rightHandVRController_ = {}) noexcept : leftHandVRController{leftHandVRController_}, rightHandVRController{rightHandVRController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private VRController _leftHandVRController
+    GlobalNamespace::VRController* _get__leftHandVRController();
+    // Set instance field: private VRController _leftHandVRController
+    void _set__leftHandVRController(GlobalNamespace::VRController* value);
+    // Get instance field: private VRController _rightHandVRController
+    GlobalNamespace::VRController* _get__rightHandVRController();
+    // Set instance field: private VRController _rightHandVRController
+    void _set__rightHandVRController(GlobalNamespace::VRController* value);
     // public System.Void DisableAllVRControllers()
     // Offset: 0x1107D9C
     void DisableAllVRControllers();

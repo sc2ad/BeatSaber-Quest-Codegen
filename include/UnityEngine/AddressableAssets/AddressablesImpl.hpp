@@ -258,6 +258,58 @@ namespace UnityEngine::AddressableAssets {
     static ::Il2CppString* _get_kCacheDataFolder();
     // Set static field: static System.String kCacheDataFolder
     static void _set_kCacheDataFolder(::Il2CppString* value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
+    UnityEngine::ResourceManagement::ResourceManager* _get_m_ResourceManager();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
+    void _set_m_ResourceManager(UnityEngine::ResourceManagement::ResourceManager* value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider m_InstanceProvider
+    UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* _get_m_InstanceProvider();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider m_InstanceProvider
+    void _set_m_InstanceProvider(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value);
+    // Get instance field: public UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider SceneProvider
+    UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* _get_SceneProvider();
+    // Set instance field: public UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider SceneProvider
+    void _set_SceneProvider(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* value);
+    // Get instance field: System.Collections.Generic.List`1<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo> m_ResourceLocators
+    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* _get_m_ResourceLocators();
+    // Set instance field: System.Collections.Generic.List`1<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo> m_ResourceLocators
+    void _set_m_ResourceLocators(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> m_InitializationOperation
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> _get_m_InitializationOperation();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> m_InitializationOperation
+    void _set_m_InitializationOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<System.String>> m_ActiveCheckUpdateOperation
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> _get_m_ActiveCheckUpdateOperation();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<System.String>> m_ActiveCheckUpdateOperation
+    void _set_m_ActiveCheckUpdateOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> value);
+    // Get instance field: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>> m_ActiveUpdateOperation
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> _get_m_ActiveUpdateOperation();
+    // Set instance field: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>> m_ActiveUpdateOperation
+    void _set_m_ActiveUpdateOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> value);
+    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_OnHandleCompleteAction
+    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get_m_OnHandleCompleteAction();
+    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_OnHandleCompleteAction
+    void _set_m_OnHandleCompleteAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_OnSceneHandleCompleteAction
+    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get_m_OnSceneHandleCompleteAction();
+    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_OnSceneHandleCompleteAction
+    void _set_m_OnSceneHandleCompleteAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    // Get instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_OnHandleDestroyedAction
+    System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get_m_OnHandleDestroyedAction();
+    // Set instance field: private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_OnHandleDestroyedAction
+    void _set_m_OnHandleDestroyedAction(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_resultToHandle
+    System::Collections::Generic::Dictionary_2<::Il2CppObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get_m_resultToHandle();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_resultToHandle
+    void _set_m_resultToHandle(System::Collections::Generic::Dictionary_2<::Il2CppObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    // Get instance field: System.Collections.Generic.HashSet`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_SceneInstances
+    System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _get_m_SceneInstances();
+    // Set instance field: System.Collections.Generic.HashSet`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_SceneInstances
+    void _set_m_SceneInstances(System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    // Get instance field: System.Boolean hasStartedInitialization
+    bool _get_hasStartedInitialization();
+    // Set instance field: System.Boolean hasStartedInitialization
+    void _set_hasStartedInitialization(bool value);
     // public UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider get_InstanceProvider()
     // Offset: 0x13BD210
     UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* get_InstanceProvider();

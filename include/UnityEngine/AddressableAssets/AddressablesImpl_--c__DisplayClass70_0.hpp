@@ -81,6 +81,22 @@ namespace UnityEngine::AddressableAssets {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass70_0
     $$c__DisplayClass70_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, System::Collections::IEnumerable* keys_ = {}, UnityEngine::AddressableAssets::Addressables::MergeMode mode_ = {}, System::Type* type_ = {}) noexcept : $$4__this{$$4__this_}, keys{keys_}, mode{mode_}, type{type_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
+    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: public System.Collections.IEnumerable keys
+    System::Collections::IEnumerable* _get_keys();
+    // Set instance field: public System.Collections.IEnumerable keys
+    void _set_keys(System::Collections::IEnumerable* value);
+    // Get instance field: public UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode
+    UnityEngine::AddressableAssets::Addressables::MergeMode _get_mode();
+    // Set instance field: public UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode
+    void _set_mode(UnityEngine::AddressableAssets::Addressables::MergeMode value);
+    // Get instance field: public System.Type type
+    System::Type* _get_type();
+    // Set instance field: public System.Type type
+    void _set_type(System::Type* value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <LoadResourceLocationsWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
     // Offset: 0x13C3BE0
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> $LoadResourceLocationsWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);

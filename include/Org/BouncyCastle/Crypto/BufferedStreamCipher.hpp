@@ -40,6 +40,10 @@ namespace Org::BouncyCastle::Crypto {
     constexpr operator Org::BouncyCastle::Crypto::IStreamCipher*() const noexcept {
       return cipher;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IStreamCipher cipher
+    Org::BouncyCastle::Crypto::IStreamCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IStreamCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IStreamCipher* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IStreamCipher cipher)
     // Offset: 0x1D02144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

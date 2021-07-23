@@ -80,6 +80,22 @@ namespace System::Reflection {
     static_assert(sizeof(System::Reflection::CustomAttributeData::LazyCAttrData*) == 0x8);
     // Creating value type constructor for type: CustomAttributeData
     CustomAttributeData(System::Reflection::ConstructorInfo* ctorInfo_ = {}, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument>* ctorArgs_ = {}, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument>* namedArgs_ = {}, System::Reflection::CustomAttributeData::LazyCAttrData* lazyData_ = {}) noexcept : ctorInfo{ctorInfo_}, ctorArgs{ctorArgs_}, namedArgs{namedArgs_}, lazyData{lazyData_} {}
+    // Get instance field: private System.Reflection.ConstructorInfo ctorInfo
+    System::Reflection::ConstructorInfo* _get_ctorInfo();
+    // Set instance field: private System.Reflection.ConstructorInfo ctorInfo
+    void _set_ctorInfo(System::Reflection::ConstructorInfo* value);
+    // Get instance field: private System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument> ctorArgs
+    System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument>* _get_ctorArgs();
+    // Set instance field: private System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument> ctorArgs
+    void _set_ctorArgs(System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument>* value);
+    // Get instance field: private System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument> namedArgs
+    System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument>* _get_namedArgs();
+    // Set instance field: private System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument> namedArgs
+    void _set_namedArgs(System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument>* value);
+    // Get instance field: private System.Reflection.CustomAttributeData/System.Reflection.LazyCAttrData lazyData
+    System::Reflection::CustomAttributeData::LazyCAttrData* _get_lazyData();
+    // Set instance field: private System.Reflection.CustomAttributeData/System.Reflection.LazyCAttrData lazyData
+    void _set_lazyData(System::Reflection::CustomAttributeData::LazyCAttrData* value);
     // public System.Reflection.ConstructorInfo get_Constructor()
     // Offset: 0x1CA6C10
     System::Reflection::ConstructorInfo* get_Constructor();

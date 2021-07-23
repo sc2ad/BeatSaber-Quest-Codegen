@@ -40,6 +40,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ListColorController
     ListColorController(int idx_ = {}, int numberOfElements_ = {}) noexcept : idx{idx_}, numberOfElements{numberOfElements_} {}
+    // Get instance field: private System.Int32 _idx
+    int _get__idx();
+    // Set instance field: private System.Int32 _idx
+    void _set__idx(int value);
+    // Get instance field: private System.Int32 _numberOfElements
+    int _get__numberOfElements();
+    // Set instance field: private System.Int32 _numberOfElements
+    void _set__numberOfElements(int value);
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFF
     bool GetInitValues(int& idx, int& numberOfElements);

@@ -67,6 +67,22 @@ namespace System {
     static ::Array<::Il2CppObject*>* _get_threeArgArray();
     // Set static field: static private readonly System.Object[] threeArgArray
     static void _set_threeArgArray(::Array<::Il2CppObject*>* value);
+    // Get instance field: private readonly System.Object arg0
+    ::Il2CppObject* _get_arg0();
+    // Set instance field: private readonly System.Object arg0
+    void _set_arg0(::Il2CppObject* value);
+    // Get instance field: private readonly System.Object arg1
+    ::Il2CppObject* _get_arg1();
+    // Set instance field: private readonly System.Object arg1
+    void _set_arg1(::Il2CppObject* value);
+    // Get instance field: private readonly System.Object arg2
+    ::Il2CppObject* _get_arg2();
+    // Set instance field: private readonly System.Object arg2
+    void _set_arg2(::Il2CppObject* value);
+    // Get instance field: private readonly System.Object[] args
+    ::Array<::Il2CppObject*>* _get_args();
+    // Set instance field: private readonly System.Object[] args
+    void _set_args(::Array<::Il2CppObject*>* value);
     // public System.Int32 get_Length()
     // Offset: 0xEF6250
     int get_Length();

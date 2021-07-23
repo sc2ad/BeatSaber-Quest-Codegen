@@ -49,6 +49,10 @@ namespace Zenject {
     SingleProviderBindingFinalizer(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory_ = {}) noexcept : providerFactory{providerFactory_} {}
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
+    // Get instance field: private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory
+    System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* _get__providerFactory();
+    // Set instance field: private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory
+    void _set__providerFactory(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFactory)
     // Offset: 0x16CF8D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -61,6 +61,10 @@ namespace Valve::VR {
     static Valve::VR::EVRNotificationError _get_SystemWithUserValueAlreadyExists();
     // Set static field: static public Valve.VR.EVRNotificationError SystemWithUserValueAlreadyExists
     static void _set_SystemWithUserValueAlreadyExists(Valve::VR::EVRNotificationError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRNotificationError
   #pragma pack(pop)
   static check_size<sizeof(EVRNotificationError), 0 + sizeof(int)> __Valve_VR_EVRNotificationErrorSizeCheck;

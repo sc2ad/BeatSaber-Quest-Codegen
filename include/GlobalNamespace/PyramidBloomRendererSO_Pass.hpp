@@ -111,6 +111,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleTentAndACESToneMapping();
     // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMapping
     static void _set_UpsampleTentAndACESToneMapping(GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // PyramidBloomRendererSO/Pass
   #pragma pack(pop)
   static check_size<sizeof(PyramidBloomRendererSO::Pass), 0 + sizeof(int)> __GlobalNamespace_PyramidBloomRendererSO_PassSizeCheck;

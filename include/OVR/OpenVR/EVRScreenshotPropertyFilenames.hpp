@@ -43,6 +43,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRScreenshotPropertyFilenames _get_VR();
     // Set static field: static public OVR.OpenVR.EVRScreenshotPropertyFilenames VR
     static void _set_VR(OVR::OpenVR::EVRScreenshotPropertyFilenames value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRScreenshotPropertyFilenames
   #pragma pack(pop)
   static check_size<sizeof(EVRScreenshotPropertyFilenames), 0 + sizeof(int)> __OVR_OpenVR_EVRScreenshotPropertyFilenamesSizeCheck;

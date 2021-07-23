@@ -51,6 +51,14 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
+    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _get__standardLevelSceneSetupData();
+    // Set instance field: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
+    void _set__standardLevelSceneSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    GlobalNamespace::PrepareLevelCompletionResults* _get__prepareLevelCompletionResults();
+    // Set instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
     // public System.Void RestartLevel()
     // Offset: 0x1066A5C
     void RestartLevel();

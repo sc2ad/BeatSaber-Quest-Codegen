@@ -377,6 +377,166 @@ namespace LiteNetLib {
     operator LiteNetLib::INetSocketListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INetSocketListener*>(this);
     }
+    // Get instance field: private readonly LiteNetLib.NetSocket _socket
+    LiteNetLib::NetSocket* _get__socket();
+    // Set instance field: private readonly LiteNetLib.NetSocket _socket
+    void _set__socket(LiteNetLib::NetSocket* value);
+    // Get instance field: private System.Threading.Thread _logicThread
+    System::Threading::Thread* _get__logicThread();
+    // Set instance field: private System.Threading.Thread _logicThread
+    void _set__logicThread(System::Threading::Thread* value);
+    // Get instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NetEvent> _netEventsQueue
+    System::Collections::Generic::Queue_1<LiteNetLib::NetEvent*>* _get__netEventsQueue();
+    // Set instance field: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NetEvent> _netEventsQueue
+    void _set__netEventsQueue(System::Collections::Generic::Queue_1<LiteNetLib::NetEvent*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Stack`1<LiteNetLib.NetEvent> _netEventsPool
+    System::Collections::Generic::Stack_1<LiteNetLib::NetEvent*>* _get__netEventsPool();
+    // Set instance field: private readonly System.Collections.Generic.Stack`1<LiteNetLib.NetEvent> _netEventsPool
+    void _set__netEventsPool(System::Collections::Generic::Stack_1<LiteNetLib::NetEvent*>* value);
+    // Get instance field: private readonly LiteNetLib.INetEventListener _netEventListener
+    LiteNetLib::INetEventListener* _get__netEventListener();
+    // Set instance field: private readonly LiteNetLib.INetEventListener _netEventListener
+    void _set__netEventListener(LiteNetLib::INetEventListener* value);
+    // Get instance field: private readonly LiteNetLib.IDeliveryEventListener _deliveryEventListener
+    LiteNetLib::IDeliveryEventListener* _get__deliveryEventListener();
+    // Set instance field: private readonly LiteNetLib.IDeliveryEventListener _deliveryEventListener
+    void _set__deliveryEventListener(LiteNetLib::IDeliveryEventListener* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Net.IPEndPoint,LiteNetLib.NetPeer> _peersDict
+    System::Collections::Generic::Dictionary_2<System::Net::IPEndPoint*, LiteNetLib::NetPeer*>* _get__peersDict();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Net.IPEndPoint,LiteNetLib.NetPeer> _peersDict
+    void _set__peersDict(System::Collections::Generic::Dictionary_2<System::Net::IPEndPoint*, LiteNetLib::NetPeer*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Net.IPEndPoint,LiteNetLib.ConnectionRequest> _requestsDict
+    System::Collections::Generic::Dictionary_2<System::Net::IPEndPoint*, LiteNetLib::ConnectionRequest*>* _get__requestsDict();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Net.IPEndPoint,LiteNetLib.ConnectionRequest> _requestsDict
+    void _set__requestsDict(System::Collections::Generic::Dictionary_2<System::Net::IPEndPoint*, LiteNetLib::ConnectionRequest*>* value);
+    // Get instance field: private readonly System.Threading.ReaderWriterLockSlim _peersLock
+    System::Threading::ReaderWriterLockSlim* _get__peersLock();
+    // Set instance field: private readonly System.Threading.ReaderWriterLockSlim _peersLock
+    void _set__peersLock(System::Threading::ReaderWriterLockSlim* value);
+    // Get instance field: private LiteNetLib.NetPeer _headPeer
+    LiteNetLib::NetPeer* _get__headPeer();
+    // Set instance field: private LiteNetLib.NetPeer _headPeer
+    void _set__headPeer(LiteNetLib::NetPeer* value);
+    // Get instance field: private System.Int32 _connectedPeersCount
+    int _get__connectedPeersCount();
+    // Set instance field: private System.Int32 _connectedPeersCount
+    void _set__connectedPeersCount(int value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<LiteNetLib.NetPeer> _connectedPeerListCache
+    System::Collections::Generic::List_1<LiteNetLib::NetPeer*>* _get__connectedPeerListCache();
+    // Set instance field: private readonly System.Collections.Generic.List`1<LiteNetLib.NetPeer> _connectedPeerListCache
+    void _set__connectedPeerListCache(System::Collections::Generic::List_1<LiteNetLib::NetPeer*>* value);
+    // Get instance field: private LiteNetLib.NetPeer[] _peersArray
+    ::Array<LiteNetLib::NetPeer*>* _get__peersArray();
+    // Set instance field: private LiteNetLib.NetPeer[] _peersArray
+    void _set__peersArray(::Array<LiteNetLib::NetPeer*>* value);
+    // Get instance field: readonly LiteNetLib.Layers.PacketLayerBase _extraPacketLayer
+    LiteNetLib::Layers::PacketLayerBase* _get__extraPacketLayer();
+    // Set instance field: readonly LiteNetLib.Layers.PacketLayerBase _extraPacketLayer
+    void _set__extraPacketLayer(LiteNetLib::Layers::PacketLayerBase* value);
+    // Get instance field: private System.Int32 _lastPeerId
+    int _get__lastPeerId();
+    // Set instance field: private System.Int32 _lastPeerId
+    void _set__lastPeerId(int value);
+    // Get instance field: private readonly System.Collections.Generic.Queue`1<System.Int32> _peerIds
+    System::Collections::Generic::Queue_1<int>* _get__peerIds();
+    // Set instance field: private readonly System.Collections.Generic.Queue`1<System.Int32> _peerIds
+    void _set__peerIds(System::Collections::Generic::Queue_1<int>* value);
+    // Get instance field: private System.Byte _channelsCount
+    uint8_t _get__channelsCount();
+    // Set instance field: private System.Byte _channelsCount
+    void _set__channelsCount(uint8_t value);
+    // Get instance field: readonly LiteNetLib.NetPacketPool NetPacketPool
+    LiteNetLib::NetPacketPool* _get_NetPacketPool();
+    // Set instance field: readonly LiteNetLib.NetPacketPool NetPacketPool
+    void _set_NetPacketPool(LiteNetLib::NetPacketPool* value);
+    // Get instance field: public System.Boolean UnconnectedMessagesEnabled
+    bool _get_UnconnectedMessagesEnabled();
+    // Set instance field: public System.Boolean UnconnectedMessagesEnabled
+    void _set_UnconnectedMessagesEnabled(bool value);
+    // Get instance field: public System.Boolean NatPunchEnabled
+    bool _get_NatPunchEnabled();
+    // Set instance field: public System.Boolean NatPunchEnabled
+    void _set_NatPunchEnabled(bool value);
+    // Get instance field: public System.Int32 UpdateTime
+    int _get_UpdateTime();
+    // Set instance field: public System.Int32 UpdateTime
+    void _set_UpdateTime(int value);
+    // Get instance field: public System.Int32 PingInterval
+    int _get_PingInterval();
+    // Set instance field: public System.Int32 PingInterval
+    void _set_PingInterval(int value);
+    // Get instance field: public System.Int32 DisconnectTimeout
+    int _get_DisconnectTimeout();
+    // Set instance field: public System.Int32 DisconnectTimeout
+    void _set_DisconnectTimeout(int value);
+    // Get instance field: public System.Boolean SimulatePacketLoss
+    bool _get_SimulatePacketLoss();
+    // Set instance field: public System.Boolean SimulatePacketLoss
+    void _set_SimulatePacketLoss(bool value);
+    // Get instance field: public System.Boolean SimulateLatency
+    bool _get_SimulateLatency();
+    // Set instance field: public System.Boolean SimulateLatency
+    void _set_SimulateLatency(bool value);
+    // Get instance field: public System.Int32 SimulationPacketLossChance
+    int _get_SimulationPacketLossChance();
+    // Set instance field: public System.Int32 SimulationPacketLossChance
+    void _set_SimulationPacketLossChance(int value);
+    // Get instance field: public System.Int32 SimulationMinLatency
+    int _get_SimulationMinLatency();
+    // Set instance field: public System.Int32 SimulationMinLatency
+    void _set_SimulationMinLatency(int value);
+    // Get instance field: public System.Int32 SimulationMaxLatency
+    int _get_SimulationMaxLatency();
+    // Set instance field: public System.Int32 SimulationMaxLatency
+    void _set_SimulationMaxLatency(int value);
+    // Get instance field: public System.Boolean UnsyncedEvents
+    bool _get_UnsyncedEvents();
+    // Set instance field: public System.Boolean UnsyncedEvents
+    void _set_UnsyncedEvents(bool value);
+    // Get instance field: public System.Boolean UnsyncedDeliveryEvent
+    bool _get_UnsyncedDeliveryEvent();
+    // Set instance field: public System.Boolean UnsyncedDeliveryEvent
+    void _set_UnsyncedDeliveryEvent(bool value);
+    // Get instance field: public System.Boolean BroadcastReceiveEnabled
+    bool _get_BroadcastReceiveEnabled();
+    // Set instance field: public System.Boolean BroadcastReceiveEnabled
+    void _set_BroadcastReceiveEnabled(bool value);
+    // Get instance field: public System.Int32 ReconnectDelay
+    int _get_ReconnectDelay();
+    // Set instance field: public System.Int32 ReconnectDelay
+    void _set_ReconnectDelay(int value);
+    // Get instance field: public System.Int32 MaxConnectAttempts
+    int _get_MaxConnectAttempts();
+    // Set instance field: public System.Int32 MaxConnectAttempts
+    void _set_MaxConnectAttempts(int value);
+    // Get instance field: public System.Boolean ReuseAddress
+    bool _get_ReuseAddress();
+    // Set instance field: public System.Boolean ReuseAddress
+    void _set_ReuseAddress(bool value);
+    // Get instance field: public readonly LiteNetLib.NetStatistics Statistics
+    LiteNetLib::NetStatistics* _get_Statistics();
+    // Set instance field: public readonly LiteNetLib.NetStatistics Statistics
+    void _set_Statistics(LiteNetLib::NetStatistics* value);
+    // Get instance field: public System.Boolean EnableStatistics
+    bool _get_EnableStatistics();
+    // Set instance field: public System.Boolean EnableStatistics
+    void _set_EnableStatistics(bool value);
+    // Get instance field: public readonly LiteNetLib.NatPunchModule NatPunchModule
+    LiteNetLib::NatPunchModule* _get_NatPunchModule();
+    // Set instance field: public readonly LiteNetLib.NatPunchModule NatPunchModule
+    void _set_NatPunchModule(LiteNetLib::NatPunchModule* value);
+    // Get instance field: public System.Boolean AutoRecycle
+    bool _get_AutoRecycle();
+    // Set instance field: public System.Boolean AutoRecycle
+    void _set_AutoRecycle(bool value);
+    // Get instance field: public System.Boolean IPv6Enabled
+    bool _get_IPv6Enabled();
+    // Set instance field: public System.Boolean IPv6Enabled
+    void _set_IPv6Enabled(bool value);
+    // Get instance field: public System.Threading.ThreadPriority ThreadPriority
+    System::Threading::ThreadPriority _get_ThreadPriority();
+    // Set instance field: public System.Threading.ThreadPriority ThreadPriority
+    void _set_ThreadPriority(System::Threading::ThreadPriority value);
     // public System.Boolean get_IsRunning()
     // Offset: 0x1BB24CC
     bool get_IsRunning();

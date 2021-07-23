@@ -291,6 +291,10 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm _get_WHIRLPOOL();
     // Set static field: static public Org.BouncyCastle.Security.DigestUtilities/Org.BouncyCastle.Security.DigestAlgorithm WHIRLPOOL
     static void _set_WHIRLPOOL(Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Org.BouncyCastle.Security.DigestUtilities/Org.BouncyCastle.Security.DigestAlgorithm
   #pragma pack(pop)
   static check_size<sizeof(DigestUtilities::DigestAlgorithm), 0 + sizeof(int)> __Org_BouncyCastle_Security_DigestUtilities_DigestAlgorithmSizeCheck;

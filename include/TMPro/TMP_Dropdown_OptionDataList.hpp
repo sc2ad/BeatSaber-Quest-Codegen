@@ -39,6 +39,10 @@ namespace TMPro {
     constexpr operator System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*() const noexcept {
       return m_Options;
     }
+    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> m_Options
+    System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* _get_m_Options();
+    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> m_Options
+    void _set_m_Options(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> get_options()
     // Offset: 0x10C2994
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* get_options();

@@ -31,6 +31,14 @@ namespace Assets::OVR::Scripts {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Record
     Record(::Il2CppString* category_ = {}, ::Il2CppString* message_ = {}) noexcept : category{category_}, message{message_} {}
+    // Get instance field: public System.String category
+    ::Il2CppString* _get_category();
+    // Set instance field: public System.String category
+    void _set_category(::Il2CppString* value);
+    // Get instance field: public System.String message
+    ::Il2CppString* _get_message();
+    // Set instance field: public System.String message
+    void _set_message(::Il2CppString* value);
     // public System.Void .ctor(System.String cat, System.String msg)
     // Offset: 0x1575B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -114,6 +114,34 @@ namespace GlobalNamespace {
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
     static void _set__colorId(int value);
+    // Get instance field: private NoteControllerBase _noteController
+    GlobalNamespace::NoteControllerBase* _get__noteController();
+    // Set instance field: private NoteControllerBase _noteController
+    void _set__noteController(GlobalNamespace::NoteControllerBase* value);
+    // Get instance field: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
+    ::Array<GlobalNamespace::MaterialPropertyBlockController*>* _get__materialPropertyBlockControllers();
+    // Set instance field: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
+    void _set__materialPropertyBlockControllers(::Array<GlobalNamespace::MaterialPropertyBlockController*>* value);
+    // Get instance field: private UnityEngine.MeshRenderer[] _arrowMeshRenderers
+    ::Array<UnityEngine::MeshRenderer*>* _get__arrowMeshRenderers();
+    // Set instance field: private UnityEngine.MeshRenderer[] _arrowMeshRenderers
+    void _set__arrowMeshRenderers(::Array<UnityEngine::MeshRenderer*>* value);
+    // Get instance field: private UnityEngine.MeshRenderer[] _circleMeshRenderers
+    ::Array<UnityEngine::MeshRenderer*>* _get__circleMeshRenderers();
+    // Set instance field: private UnityEngine.MeshRenderer[] _circleMeshRenderers
+    void _set__circleMeshRenderers(::Array<UnityEngine::MeshRenderer*>* value);
+    // Get instance field: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private readonly ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private System.Action`2<ColorNoteVisuals,NoteControllerBase> didInitEvent
+    System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* _get_didInitEvent();
+    // Set instance field: private System.Action`2<ColorNoteVisuals,NoteControllerBase> didInitEvent
+    void _set_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* value);
+    // Get instance field: private UnityEngine.Color _noteColor
+    UnityEngine::Color _get__noteColor();
+    // Set instance field: private UnityEngine.Color _noteColor
+    void _set__noteColor(UnityEngine::Color value);
     // private System.Void set_showArrow(System.Boolean value)
     // Offset: 0x107C8B8
     void set_showArrow(bool value);

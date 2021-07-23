@@ -70,6 +70,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRInput::RawAxis1D _get_Any();
     // Set static field: static public OVRInput/RawAxis1D Any
     static void _set_Any(GlobalNamespace::OVRInput::RawAxis1D value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRInput/RawAxis1D
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::RawAxis1D), 0 + sizeof(int)> __GlobalNamespace_OVRInput_RawAxis1DSizeCheck;

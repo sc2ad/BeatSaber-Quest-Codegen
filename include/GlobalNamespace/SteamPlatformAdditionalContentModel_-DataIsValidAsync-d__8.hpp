@@ -71,6 +71,30 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> value);
+    // Get instance field: public SteamPlatformAdditionalContentModel <>4__this
+    GlobalNamespace::SteamPlatformAdditionalContentModel* _get_$$4__this();
+    // Set instance field: public SteamPlatformAdditionalContentModel <>4__this
+    void _set_$$4__this(GlobalNamespace::SteamPlatformAdditionalContentModel* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/UpdateEntitlementsResult> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult> _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/UpdateEntitlementsResult> <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult> value);
     // private System.Void MoveNext()
     // Offset: 0xECFB74
     void MoveNext();

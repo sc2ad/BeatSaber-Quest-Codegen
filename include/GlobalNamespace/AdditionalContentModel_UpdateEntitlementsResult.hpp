@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult _get_Failed();
     // Set static field: static public AdditionalContentModel/UpdateEntitlementsResult Failed
     static void _set_Failed(GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // AdditionalContentModel/UpdateEntitlementsResult
   #pragma pack(pop)
   static check_size<sizeof(AdditionalContentModel::UpdateEntitlementsResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_UpdateEntitlementsResultSizeCheck;

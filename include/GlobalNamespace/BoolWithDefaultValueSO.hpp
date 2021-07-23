@@ -26,6 +26,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BoolWithDefaultValueSO
     BoolWithDefaultValueSO(bool defaultValue_ = {}) noexcept : defaultValue{defaultValue_} {}
+    // Get instance field: private System.Boolean _defaultValue
+    bool _get__defaultValue();
+    // Set instance field: private System.Boolean _defaultValue
+    void _set__defaultValue(bool value);
     // public System.Void .ctor()
     // Offset: 0x120E774
     // Implemented from: BoolSO

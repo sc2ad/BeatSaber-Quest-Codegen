@@ -267,6 +267,10 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm _get_XTEA();
     // Set static field: static public Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherAlgorithm XTEA
     static void _set_XTEA(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherAlgorithm
   #pragma pack(pop)
   static check_size<sizeof(CipherUtilities::CipherAlgorithm), 0 + sizeof(int)> __Org_BouncyCastle_Security_CipherUtilities_CipherAlgorithmSizeCheck;

@@ -43,6 +43,10 @@ namespace UnityEngine {
     static UnityEngine::Space _get_Self();
     // Set static field: static public UnityEngine.Space Self
     static void _set_Self(UnityEngine::Space value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Space
   #pragma pack(pop)
   static check_size<sizeof(Space), 0 + sizeof(int)> __UnityEngine_SpaceSizeCheck;

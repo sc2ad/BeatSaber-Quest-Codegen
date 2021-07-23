@@ -102,6 +102,42 @@ namespace GlobalNamespace {
     SaberClashEffect(UnityEngine::ParticleSystem* sparkleParticleSystem_ = {}, UnityEngine::ParticleSystem* glowParticleSystem_ = {}, Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset_ = {}, GlobalNamespace::SaberClashChecker* saberClashChecker_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackController_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmmisionModule_ = {}, UnityEngine::ParticleSystem::EmissionModule glowParticleSystemEmmisionModule_ = {}, bool sabersAreClashing_ = {}) noexcept : sparkleParticleSystem{sparkleParticleSystem_}, glowParticleSystem{glowParticleSystem_}, rumblePreset{rumblePreset_}, saberClashChecker{saberClashChecker_}, hapticFeedbackController{hapticFeedbackController_}, colorManager{colorManager_}, sparkleParticleSystemEmmisionModule{sparkleParticleSystemEmmisionModule_}, glowParticleSystemEmmisionModule{glowParticleSystemEmmisionModule_}, sabersAreClashing{sabersAreClashing_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.ParticleSystem _sparkleParticleSystem
+    UnityEngine::ParticleSystem* _get__sparkleParticleSystem();
+    // Set instance field: private UnityEngine.ParticleSystem _sparkleParticleSystem
+    void _set__sparkleParticleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field: private UnityEngine.ParticleSystem _glowParticleSystem
+    UnityEngine::ParticleSystem* _get__glowParticleSystem();
+    // Set instance field: private UnityEngine.ParticleSystem _glowParticleSystem
+    void _set__glowParticleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
+    Libraries::HM::HMLib::VR::HapticPresetSO* _get__rumblePreset();
+    // Set instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
+    void _set__rumblePreset(Libraries::HM::HMLib::VR::HapticPresetSO* value);
+    // Get instance field: private SaberClashChecker _saberClashChecker
+    GlobalNamespace::SaberClashChecker* _get__saberClashChecker();
+    // Set instance field: private SaberClashChecker _saberClashChecker
+    void _set__saberClashChecker(GlobalNamespace::SaberClashChecker* value);
+    // Get instance field: private HapticFeedbackController _hapticFeedbackController
+    GlobalNamespace::HapticFeedbackController* _get__hapticFeedbackController();
+    // Set instance field: private HapticFeedbackController _hapticFeedbackController
+    void _set__hapticFeedbackController(GlobalNamespace::HapticFeedbackController* value);
+    // Get instance field: private ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmmisionModule
+    UnityEngine::ParticleSystem::EmissionModule _get__sparkleParticleSystemEmmisionModule();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmmisionModule
+    void _set__sparkleParticleSystemEmmisionModule(UnityEngine::ParticleSystem::EmissionModule value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _glowParticleSystemEmmisionModule
+    UnityEngine::ParticleSystem::EmissionModule _get__glowParticleSystemEmmisionModule();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _glowParticleSystemEmmisionModule
+    void _set__glowParticleSystemEmmisionModule(UnityEngine::ParticleSystem::EmissionModule value);
+    // Get instance field: private System.Boolean _sabersAreClashing
+    bool _get__sabersAreClashing();
+    // Set instance field: private System.Boolean _sabersAreClashing
+    void _set__sabersAreClashing(bool value);
     // protected System.Void Start()
     // Offset: 0x114B290
     void Start();

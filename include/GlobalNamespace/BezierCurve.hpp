@@ -53,6 +53,22 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public readonly UnityEngine.Vector3 p0
+    UnityEngine::Vector3 _get_p0();
+    // Set instance field: public readonly UnityEngine.Vector3 p0
+    void _set_p0(UnityEngine::Vector3 value);
+    // Get instance field: public readonly UnityEngine.Vector3 p1
+    UnityEngine::Vector3 _get_p1();
+    // Set instance field: public readonly UnityEngine.Vector3 p1
+    void _set_p1(UnityEngine::Vector3 value);
+    // Get instance field: public readonly UnityEngine.Vector3 p2
+    UnityEngine::Vector3 _get_p2();
+    // Set instance field: public readonly UnityEngine.Vector3 p2
+    void _set_p2(UnityEngine::Vector3 value);
+    // Get instance field: public readonly UnityEngine.Vector3 p3
+    UnityEngine::Vector3 _get_p3();
+    // Set instance field: public readonly UnityEngine.Vector3 p3
+    void _set_p3(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Vector3 p3)
     // Offset: 0xED021C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -114,6 +114,50 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*) == 0x8);
     // Creating value type constructor for type: ObjectMap
     ObjectMap(::Il2CppString* objectName_ = {}, System::Type* objectType_ = {}, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA_ = {}, ::Array<::Il2CppObject*>* typeInformationA_ = {}, ::Array<System::Type*>* memberTypes_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo_ = {}, bool isInitObjectInfo_ = {}, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader_ = {}, int objectId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo_ = {}) noexcept : objectName{objectName_}, objectType{objectType_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberTypes{memberTypes_}, memberNames{memberNames_}, objectInfo{objectInfo_}, isInitObjectInfo{isInitObjectInfo_}, objectReader{objectReader_}, objectId{objectId_}, assemblyInfo{assemblyInfo_} {}
+    // Get instance field: System.String objectName
+    ::Il2CppString* _get_objectName();
+    // Set instance field: System.String objectName
+    void _set_objectName(::Il2CppString* value);
+    // Get instance field: System.Type objectType
+    System::Type* _get_objectType();
+    // Set instance field: System.Type objectType
+    void _set_objectType(System::Type* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
+    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* _get_binaryTypeEnumA();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
+    void _set_binaryTypeEnumA(::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* value);
+    // Get instance field: System.Object[] typeInformationA
+    ::Array<::Il2CppObject*>* _get_typeInformationA();
+    // Set instance field: System.Object[] typeInformationA
+    void _set_typeInformationA(::Array<::Il2CppObject*>* value);
+    // Get instance field: System.Type[] memberTypes
+    ::Array<System::Type*>* _get_memberTypes();
+    // Set instance field: System.Type[] memberTypes
+    void _set_memberTypes(::Array<System::Type*>* value);
+    // Get instance field: System.String[] memberNames
+    ::Array<::Il2CppString*>* _get_memberNames();
+    // Set instance field: System.String[] memberNames
+    void _set_memberNames(::Array<::Il2CppString*>* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo
+    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* _get_objectInfo();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo
+    void _set_objectInfo(System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value);
+    // Get instance field: System.Boolean isInitObjectInfo
+    bool _get_isInitObjectInfo();
+    // Set instance field: System.Boolean isInitObjectInfo
+    void _set_isInitObjectInfo(bool value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader
+    System::Runtime::Serialization::Formatters::Binary::ObjectReader* _get_objectReader();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader
+    void _set_objectReader(System::Runtime::Serialization::Formatters::Binary::ObjectReader* value);
+    // Get instance field: System.Int32 objectId
+    int _get_objectId();
+    // Set instance field: System.Int32 objectId
+    void _set_objectId(int value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo
+    System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* _get_assemblyInfo();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo
+    void _set_assemblyInfo(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* value);
     // System.Void .ctor(System.String objectName, System.Type objectType, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Int32 objectId, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo)
     // Offset: 0x15DCF58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

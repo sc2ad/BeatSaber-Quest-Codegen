@@ -34,6 +34,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* $$4__this_ = {}, ::Array<uint8_t>* clientPublicKey_ = {}) noexcept : $$4__this{$$4__this_}, clientPublicKey{clientPublicKey_} {}
+    // Get instance field: public DiffieHellmanUtility/ElipticalCurveKeyPair <>4__this
+    GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* _get_$$4__this();
+    // Set instance field: public DiffieHellmanUtility/ElipticalCurveKeyPair <>4__this
+    void _set_$$4__this(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* value);
+    // Get instance field: public System.Byte[] clientPublicKey
+    ::Array<uint8_t>* _get_clientPublicKey();
+    // Set instance field: public System.Byte[] clientPublicKey
+    void _set_clientPublicKey(::Array<uint8_t>* value);
     // System.Byte[] <GetPreMasterSecretAsync>b__0()
     // Offset: 0x12C1A94
     ::Array<uint8_t>* $GetPreMasterSecretAsync$b__0();

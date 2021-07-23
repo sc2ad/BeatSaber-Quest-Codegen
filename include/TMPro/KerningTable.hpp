@@ -52,6 +52,10 @@ namespace TMPro {
     constexpr operator System::Collections::Generic::List_1<TMPro::KerningPair*>*() const noexcept {
       return kerningPairs;
     }
+    // Get instance field: public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
+    System::Collections::Generic::List_1<TMPro::KerningPair*>* _get_kerningPairs();
+    // Set instance field: public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
+    void _set_kerningPairs(System::Collections::Generic::List_1<TMPro::KerningPair*>* value);
     // public System.Void AddKerningPair()
     // Offset: 0x10B97D8
     void AddKerningPair();

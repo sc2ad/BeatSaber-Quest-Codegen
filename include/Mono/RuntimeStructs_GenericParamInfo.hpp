@@ -58,6 +58,26 @@ namespace Mono {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Mono.RuntimeStructs/Mono.MonoClass* pklass
+    Mono::RuntimeStructs::MonoClass* _get_pklass();
+    // Set instance field: Mono.RuntimeStructs/Mono.MonoClass* pklass
+    void _set_pklass(Mono::RuntimeStructs::MonoClass* value);
+    // Get instance field: System.IntPtr name
+    System::IntPtr _get_name();
+    // Set instance field: System.IntPtr name
+    void _set_name(System::IntPtr value);
+    // Get instance field: System.UInt16 flags
+    uint16_t _get_flags();
+    // Set instance field: System.UInt16 flags
+    void _set_flags(uint16_t value);
+    // Get instance field: System.UInt32 token
+    uint _get_token();
+    // Set instance field: System.UInt32 token
+    void _set_token(uint value);
+    // Get instance field: Mono.RuntimeStructs/Mono.MonoClass** constraints
+    Mono::RuntimeStructs::MonoClass** _get_constraints();
+    // Set instance field: Mono.RuntimeStructs/Mono.MonoClass** constraints
+    void _set_constraints(Mono::RuntimeStructs::MonoClass** value);
   }; // Mono.RuntimeStructs/Mono.GenericParamInfo
   #pragma pack(pop)
   static check_size<sizeof(RuntimeStructs::GenericParamInfo), 24 + sizeof(Mono::RuntimeStructs::MonoClass**)> __Mono_RuntimeStructs_GenericParamInfoSizeCheck;

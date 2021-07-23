@@ -153,6 +153,50 @@ namespace System {
     static System::Security::Cryptography::RandomNumberGenerator* _get__fastRng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator _fastRng
     static void _set__fastRng(System::Security::Cryptography::RandomNumberGenerator* value);
+    // Get instance field: private System.Int32 _a
+    int _get__a();
+    // Set instance field: private System.Int32 _a
+    void _set__a(int value);
+    // Get instance field: private System.Int16 _b
+    int16_t _get__b();
+    // Set instance field: private System.Int16 _b
+    void _set__b(int16_t value);
+    // Get instance field: private System.Int16 _c
+    int16_t _get__c();
+    // Set instance field: private System.Int16 _c
+    void _set__c(int16_t value);
+    // Get instance field: private System.Byte _d
+    uint8_t _get__d();
+    // Set instance field: private System.Byte _d
+    void _set__d(uint8_t value);
+    // Get instance field: private System.Byte _e
+    uint8_t _get__e();
+    // Set instance field: private System.Byte _e
+    void _set__e(uint8_t value);
+    // Get instance field: private System.Byte _f
+    uint8_t _get__f();
+    // Set instance field: private System.Byte _f
+    void _set__f(uint8_t value);
+    // Get instance field: private System.Byte _g
+    uint8_t _get__g();
+    // Set instance field: private System.Byte _g
+    void _set__g(uint8_t value);
+    // Get instance field: private System.Byte _h
+    uint8_t _get__h();
+    // Set instance field: private System.Byte _h
+    void _set__h(uint8_t value);
+    // Get instance field: private System.Byte _i
+    uint8_t _get__i();
+    // Set instance field: private System.Byte _i
+    void _set__i(uint8_t value);
+    // Get instance field: private System.Byte _j
+    uint8_t _get__j();
+    // Set instance field: private System.Byte _j
+    void _set__j(uint8_t value);
+    // Get instance field: private System.Byte _k
+    uint8_t _get__k();
+    // Set instance field: private System.Byte _k
+    void _set__k(uint8_t value);
     // public System.Void .ctor(System.Byte[] b)
     // Offset: 0xEECA18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

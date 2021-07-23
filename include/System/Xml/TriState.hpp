@@ -49,6 +49,10 @@ namespace System::Xml {
     static System::Xml::TriState _get_True();
     // Set static field: static public System.Xml.TriState True
     static void _set_True(System::Xml::TriState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Xml.TriState
   #pragma pack(pop)
   static check_size<sizeof(TriState), 0 + sizeof(int)> __System_Xml_TriStateSizeCheck;

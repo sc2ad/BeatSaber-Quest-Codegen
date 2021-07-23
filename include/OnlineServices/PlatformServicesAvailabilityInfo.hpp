@@ -55,6 +55,10 @@ namespace OnlineServices {
       static OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability _get_Unavailable();
       // Set static field: static public OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability Unavailable
       static void _set_Unavailable(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability
     #pragma pack(pop)
     static check_size<sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability), 0 + sizeof(int)> __OnlineServices_PlatformServicesAvailabilityInfo_OnlineServicesAvailabilitySizeCheck;
@@ -75,6 +79,14 @@ namespace OnlineServices {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PlatformServicesAvailabilityInfo
     PlatformServicesAvailabilityInfo(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability_ = {}, ::Il2CppString* localizedMessage_ = {}) noexcept : availability{availability_}, localizedMessage{localizedMessage_} {}
+    // Get instance field: public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
+    OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability _get_availability();
+    // Set instance field: public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
+    void _set_availability(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability value);
+    // Get instance field: public readonly System.String localizedMessage
+    ::Il2CppString* _get_localizedMessage();
+    // Set instance field: public readonly System.String localizedMessage
+    void _set_localizedMessage(::Il2CppString* value);
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
     // Offset: 0xFF9FCC
     static OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();

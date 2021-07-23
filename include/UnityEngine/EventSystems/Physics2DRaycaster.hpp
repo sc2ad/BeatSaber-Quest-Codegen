@@ -44,6 +44,10 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(::Array<UnityEngine::RaycastHit2D>*) == 0x8);
     // Creating value type constructor for type: Physics2DRaycaster
     Physics2DRaycaster(::Array<UnityEngine::RaycastHit2D>* m_Hits_ = {}) noexcept : m_Hits{m_Hits_} {}
+    // Get instance field: private UnityEngine.RaycastHit2D[] m_Hits
+    ::Array<UnityEngine::RaycastHit2D>* _get_m_Hits();
+    // Set instance field: private UnityEngine.RaycastHit2D[] m_Hits
+    void _set_m_Hits(::Array<UnityEngine::RaycastHit2D>* value);
     // protected System.Void .ctor()
     // Offset: 0x140510C
     // Implemented from: UnityEngine.EventSystems.PhysicsRaycaster

@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
     // Creating value type constructor for type: AchievementIdData
     AchievementIdData(int trophyId_ = {}, GlobalNamespace::AchievementSO* achievement_ = {}) noexcept : trophyId{trophyId_}, achievement{achievement_} {}
+    // Get instance field: private System.Int32 _trophyId
+    int _get__trophyId();
+    // Set instance field: private System.Int32 _trophyId
+    void _set__trophyId(int value);
+    // Get instance field: private AchievementSO _achievement
+    GlobalNamespace::AchievementSO* _get__achievement();
+    // Set instance field: private AchievementSO _achievement
+    void _set__achievement(GlobalNamespace::AchievementSO* value);
     // public System.Int32 get_ps4TrophyId()
     // Offset: 0xFFC6C0
     int get_ps4TrophyId();

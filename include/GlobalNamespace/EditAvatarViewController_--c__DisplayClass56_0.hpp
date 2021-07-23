@@ -75,6 +75,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<UnityEngine::Color>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass56_0
     $$c__DisplayClass56_0(GlobalNamespace::EditAvatarViewController* $$4__this_ = {}, System::Action_1<UnityEngine::Color>* colorSetter_ = {}, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart_ = {}, System::Func_1<UnityEngine::Color>* currentColor_ = {}, int uvSegment_ = {}, System::Action_1<UnityEngine::Color>* $$9__1_ = {}) noexcept : $$4__this{$$4__this_}, colorSetter{colorSetter_}, avatarEditPart{avatarEditPart_}, currentColor{currentColor_}, uvSegment{uvSegment_}, $$9__1{$$9__1_} {}
+    // Get instance field: public EditAvatarViewController <>4__this
+    GlobalNamespace::EditAvatarViewController* _get_$$4__this();
+    // Set instance field: public EditAvatarViewController <>4__this
+    void _set_$$4__this(GlobalNamespace::EditAvatarViewController* value);
+    // Get instance field: public System.Action`1<UnityEngine.Color> colorSetter
+    System::Action_1<UnityEngine::Color>* _get_colorSetter();
+    // Set instance field: public System.Action`1<UnityEngine.Color> colorSetter
+    void _set_colorSetter(System::Action_1<UnityEngine::Color>* value);
+    // Get instance field: public EditAvatarViewController/AvatarEditPart avatarEditPart
+    GlobalNamespace::EditAvatarViewController::AvatarEditPart _get_avatarEditPart();
+    // Set instance field: public EditAvatarViewController/AvatarEditPart avatarEditPart
+    void _set_avatarEditPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart value);
+    // Get instance field: public System.Func`1<UnityEngine.Color> currentColor
+    System::Func_1<UnityEngine::Color>* _get_currentColor();
+    // Set instance field: public System.Func`1<UnityEngine.Color> currentColor
+    void _set_currentColor(System::Func_1<UnityEngine::Color>* value);
+    // Get instance field: public System.Int32 uvSegment
+    int _get_uvSegment();
+    // Set instance field: public System.Int32 uvSegment
+    void _set_uvSegment(int value);
+    // Get instance field: public System.Action`1<UnityEngine.Color> <>9__1
+    System::Action_1<UnityEngine::Color>* _get_$$9__1();
+    // Set instance field: public System.Action`1<UnityEngine.Color> <>9__1
+    void _set_$$9__1(System::Action_1<UnityEngine::Color>* value);
     // System.Void <SetupColorButton>b__0()
     // Offset: 0x101DE88
     void $SetupColorButton$b__0();

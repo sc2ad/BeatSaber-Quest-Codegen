@@ -47,6 +47,14 @@ namespace OnlineServices::API {
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass10_1
     $$c__DisplayClass10_1(System::Threading::Tasks::TaskCompletionSource_1<bool>* taskComplitionSource_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* CS$$$8__locals1_ = {}) noexcept : taskComplitionSource{taskComplitionSource_}, CS$$$8__locals1{CS$$$8__locals1_} {}
+    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskComplitionSource
+    System::Threading::Tasks::TaskCompletionSource_1<bool>* _get_taskComplitionSource();
+    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskComplitionSource
+    void _set_taskComplitionSource(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+    // Get instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1
+    OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* _get_CS$$$8__locals1();
+    // Set instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1
+    void _set_CS$$$8__locals1(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* value);
     // System.Void <SendWebRequestAsync>b__0(UnityEngine.AsyncOperation asyncOperation2)
     // Offset: 0xFF67E0
     void $SendWebRequestAsync$b__0(UnityEngine::AsyncOperation* asyncOperation2);

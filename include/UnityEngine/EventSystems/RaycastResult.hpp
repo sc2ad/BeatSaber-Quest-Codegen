@@ -104,6 +104,50 @@ namespace UnityEngine::EventSystems {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.GameObject m_GameObject
+    UnityEngine::GameObject* _get_m_GameObject();
+    // Set instance field: private UnityEngine.GameObject m_GameObject
+    void _set_m_GameObject(UnityEngine::GameObject* value);
+    // Get instance field: public UnityEngine.EventSystems.BaseRaycaster module
+    UnityEngine::EventSystems::BaseRaycaster* _get_module();
+    // Set instance field: public UnityEngine.EventSystems.BaseRaycaster module
+    void _set_module(UnityEngine::EventSystems::BaseRaycaster* value);
+    // Get instance field: public System.Single distance
+    float _get_distance();
+    // Set instance field: public System.Single distance
+    void _set_distance(float value);
+    // Get instance field: public System.Single index
+    float _get_index();
+    // Set instance field: public System.Single index
+    void _set_index(float value);
+    // Get instance field: public System.Int32 depth
+    int _get_depth();
+    // Set instance field: public System.Int32 depth
+    void _set_depth(int value);
+    // Get instance field: public System.Int32 sortingLayer
+    int _get_sortingLayer();
+    // Set instance field: public System.Int32 sortingLayer
+    void _set_sortingLayer(int value);
+    // Get instance field: public System.Int32 sortingOrder
+    int _get_sortingOrder();
+    // Set instance field: public System.Int32 sortingOrder
+    void _set_sortingOrder(int value);
+    // Get instance field: public UnityEngine.Vector3 worldPosition
+    UnityEngine::Vector3 _get_worldPosition();
+    // Set instance field: public UnityEngine.Vector3 worldPosition
+    void _set_worldPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 worldNormal
+    UnityEngine::Vector3 _get_worldNormal();
+    // Set instance field: public UnityEngine.Vector3 worldNormal
+    void _set_worldNormal(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector2 screenPosition
+    UnityEngine::Vector2 _get_screenPosition();
+    // Set instance field: public UnityEngine.Vector2 screenPosition
+    void _set_screenPosition(UnityEngine::Vector2 value);
+    // Get instance field: public System.Int32 displayIndex
+    int _get_displayIndex();
+    // Set instance field: public System.Int32 displayIndex
+    void _set_displayIndex(int value);
     // public UnityEngine.GameObject get_gameObject()
     // Offset: 0xED6340
     UnityEngine::GameObject* get_gameObject();

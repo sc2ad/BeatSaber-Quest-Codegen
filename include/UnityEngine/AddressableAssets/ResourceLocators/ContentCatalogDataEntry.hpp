@@ -71,6 +71,30 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: ContentCatalogDataEntry
     ContentCatalogDataEntry(::Il2CppString* InternalId_ = {}, ::Il2CppString* Provider_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* Keys_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* Dependencies_ = {}, ::Il2CppObject* Data_ = {}, System::Type* ResourceType_ = {}) noexcept : InternalId{InternalId_}, Provider{Provider_}, Keys{Keys_}, Dependencies{Dependencies_}, Data{Data_}, ResourceType{ResourceType_} {}
+    // Get instance field: private System.String <InternalId>k__BackingField
+    ::Il2CppString* _get_$InternalId$k__BackingField();
+    // Set instance field: private System.String <InternalId>k__BackingField
+    void _set_$InternalId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <Provider>k__BackingField
+    ::Il2CppString* _get_$Provider$k__BackingField();
+    // Set instance field: private System.String <Provider>k__BackingField
+    void _set_$Provider$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Object> <Keys>k__BackingField
+    System::Collections::Generic::List_1<::Il2CppObject*>* _get_$Keys$k__BackingField();
+    // Set instance field: private System.Collections.Generic.List`1<System.Object> <Keys>k__BackingField
+    void _set_$Keys$k__BackingField(System::Collections::Generic::List_1<::Il2CppObject*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Object> <Dependencies>k__BackingField
+    System::Collections::Generic::List_1<::Il2CppObject*>* _get_$Dependencies$k__BackingField();
+    // Set instance field: private System.Collections.Generic.List`1<System.Object> <Dependencies>k__BackingField
+    void _set_$Dependencies$k__BackingField(System::Collections::Generic::List_1<::Il2CppObject*>* value);
+    // Get instance field: private System.Object <Data>k__BackingField
+    ::Il2CppObject* _get_$Data$k__BackingField();
+    // Set instance field: private System.Object <Data>k__BackingField
+    void _set_$Data$k__BackingField(::Il2CppObject* value);
+    // Get instance field: private System.Type <ResourceType>k__BackingField
+    System::Type* _get_$ResourceType$k__BackingField();
+    // Set instance field: private System.Type <ResourceType>k__BackingField
+    void _set_$ResourceType$k__BackingField(System::Type* value);
     // public System.String get_InternalId()
     // Offset: 0x13CBB98
     ::Il2CppString* get_InternalId();

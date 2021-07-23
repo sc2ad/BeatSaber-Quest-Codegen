@@ -34,6 +34,14 @@ namespace System::Runtime::CompilerServices {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: InternalsVisibleToAttribute
     InternalsVisibleToAttribute(::Il2CppString* assemblyName_ = {}, bool allInternalsVisible_ = {}) noexcept : assemblyName{assemblyName_}, allInternalsVisible{allInternalsVisible_} {}
+    // Get instance field: private System.String _assemblyName
+    ::Il2CppString* _get__assemblyName();
+    // Set instance field: private System.String _assemblyName
+    void _set__assemblyName(::Il2CppString* value);
+    // Get instance field: private System.Boolean _allInternalsVisible
+    bool _get__allInternalsVisible();
+    // Set instance field: private System.Boolean _allInternalsVisible
+    void _set__allInternalsVisible(bool value);
     // public System.String get_AssemblyName()
     // Offset: 0x13F00B8
     ::Il2CppString* get_AssemblyName();

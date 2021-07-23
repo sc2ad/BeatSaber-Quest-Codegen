@@ -91,6 +91,30 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ICubeNoteMirrorable() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteMirrorable*>(this);
     }
+    // Get instance field: private BoxCuttableBySaber _cuttableBySaberCore
+    GlobalNamespace::BoxCuttableBySaber* _get__cuttableBySaberCore();
+    // Set instance field: private BoxCuttableBySaber _cuttableBySaberCore
+    void _set__cuttableBySaberCore(GlobalNamespace::BoxCuttableBySaber* value);
+    // Get instance field: private BoxCuttableBySaber _cuttableBySaberBeforeNote
+    GlobalNamespace::BoxCuttableBySaber* _get__cuttableBySaberBeforeNote();
+    // Set instance field: private BoxCuttableBySaber _cuttableBySaberBeforeNote
+    void _set__cuttableBySaberBeforeNote(GlobalNamespace::BoxCuttableBySaber* value);
+    // Get instance field: private UnityEngine.GameObject _wrapperGO
+    UnityEngine::GameObject* _get__wrapperGO();
+    // Set instance field: private UnityEngine.GameObject _wrapperGO
+    void _set__wrapperGO(UnityEngine::GameObject* value);
+    // Get instance field: private System.Boolean _beforeNoteCutWasOk
+    bool _get__beforeNoteCutWasOk();
+    // Set instance field: private System.Boolean _beforeNoteCutWasOk
+    void _set__beforeNoteCutWasOk(bool value);
+    // Get instance field: private System.Boolean _hidden
+    bool _get__hidden();
+    // Set instance field: private System.Boolean _hidden
+    void _set__hidden(bool value);
+    // Get instance field: private System.Single _cutAngleTolerance
+    float _get__cutAngleTolerance();
+    // Set instance field: private System.Single _cutAngleTolerance
+    void _set__cutAngleTolerance(float value);
     // public NoteMovement get_noteMovement()
     // Offset: 0x1074A8C
     GlobalNamespace::NoteMovement* get_noteMovement();

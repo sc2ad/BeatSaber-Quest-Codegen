@@ -58,6 +58,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>*) == 0x8);
     // Creating value type constructor for type: PositionOffset
     PositionOffset(int forceDirCurveIndex_ = {}, int upDirCurveIndex_ = {}, ::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>* offsetLinks_ = {}) noexcept : forceDirCurveIndex{forceDirCurveIndex_}, upDirCurveIndex{upDirCurveIndex_}, offsetLinks{offsetLinks_} {}
+    // Get instance field: public System.Int32 forceDirCurveIndex
+    int _get_forceDirCurveIndex();
+    // Set instance field: public System.Int32 forceDirCurveIndex
+    void _set_forceDirCurveIndex(int value);
+    // Get instance field: public System.Int32 upDirCurveIndex
+    int _get_upDirCurveIndex();
+    // Set instance field: public System.Int32 upDirCurveIndex
+    void _set_upDirCurveIndex(int value);
+    // Get instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset/RootMotion.FinalIK.PositionOffsetLink[] offsetLinks
+    ::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>* _get_offsetLinks();
+    // Set instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset/RootMotion.FinalIK.PositionOffsetLink[] offsetLinks
+    void _set_offsetLinks(::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>* value);
     // public System.Void .ctor()
     // Offset: 0x1C95EB8
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset

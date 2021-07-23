@@ -39,6 +39,18 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single v0
+    float _get_v0();
+    // Set instance field: public System.Single v0
+    void _set_v0(float value);
+    // Get instance field: public System.Single v1
+    float _get_v1();
+    // Set instance field: public System.Single v1
+    void _set_v1(float value);
+    // Get instance field: public System.Single v2
+    float _get_v2();
+    // Set instance field: public System.Single v2
+    void _set_v2(float value);
   }; // OVR.OpenVR.HmdVector3_t
   #pragma pack(pop)
   static check_size<sizeof(HmdVector3_t), 8 + sizeof(float)> __OVR_OpenVR_HmdVector3_tSizeCheck;

@@ -133,6 +133,10 @@ namespace Valve::VR {
     static Valve::VR::EVRTrackedCameraError _get_InvalidFrameBufferSize();
     // Set static field: static public Valve.VR.EVRTrackedCameraError InvalidFrameBufferSize
     static void _set_InvalidFrameBufferSize(Valve::VR::EVRTrackedCameraError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRTrackedCameraError
   #pragma pack(pop)
   static check_size<sizeof(EVRTrackedCameraError), 0 + sizeof(int)> __Valve_VR_EVRTrackedCameraErrorSizeCheck;

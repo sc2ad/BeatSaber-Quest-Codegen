@@ -49,6 +49,10 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::CausalitySynchronousWork _get_Execution();
     // Set static field: static public System.Threading.Tasks.CausalitySynchronousWork Execution
     static void _set_Execution(System::Threading::Tasks::CausalitySynchronousWork value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Threading.Tasks.CausalitySynchronousWork
   #pragma pack(pop)
   static check_size<sizeof(CausalitySynchronousWork), 0 + sizeof(int)> __System_Threading_Tasks_CausalitySynchronousWorkSizeCheck;

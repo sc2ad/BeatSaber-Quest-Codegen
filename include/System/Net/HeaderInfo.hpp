@@ -58,6 +58,26 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HeaderInfo
     HeaderInfo(bool IsRequestRestricted_ = {}, bool IsResponseRestricted_ = {}, System::Net::HeaderParser* Parser_ = {}, ::Il2CppString* HeaderName_ = {}, bool AllowMultiValues_ = {}) noexcept : IsRequestRestricted{IsRequestRestricted_}, IsResponseRestricted{IsResponseRestricted_}, Parser{Parser_}, HeaderName{HeaderName_}, AllowMultiValues{AllowMultiValues_} {}
+    // Get instance field: readonly System.Boolean IsRequestRestricted
+    bool _get_IsRequestRestricted();
+    // Set instance field: readonly System.Boolean IsRequestRestricted
+    void _set_IsRequestRestricted(bool value);
+    // Get instance field: readonly System.Boolean IsResponseRestricted
+    bool _get_IsResponseRestricted();
+    // Set instance field: readonly System.Boolean IsResponseRestricted
+    void _set_IsResponseRestricted(bool value);
+    // Get instance field: readonly System.Net.HeaderParser Parser
+    System::Net::HeaderParser* _get_Parser();
+    // Set instance field: readonly System.Net.HeaderParser Parser
+    void _set_Parser(System::Net::HeaderParser* value);
+    // Get instance field: readonly System.String HeaderName
+    ::Il2CppString* _get_HeaderName();
+    // Set instance field: readonly System.String HeaderName
+    void _set_HeaderName(::Il2CppString* value);
+    // Get instance field: readonly System.Boolean AllowMultiValues
+    bool _get_AllowMultiValues();
+    // Set instance field: readonly System.Boolean AllowMultiValues
+    void _set_AllowMultiValues(bool value);
     // System.Void .ctor(System.String name, System.Boolean requestRestricted, System.Boolean responseRestricted, System.Boolean multi, System.Net.HeaderParser p)
     // Offset: 0x162C9C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

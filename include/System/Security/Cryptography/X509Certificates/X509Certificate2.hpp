@@ -79,6 +79,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static ::Array<uint8_t>* _get_signedData();
     // Set static field: static private System.Byte[] signedData
     static void _set_signedData(::Array<uint8_t>* value);
+    // Get instance field: private System.String friendlyName
+    ::Il2CppString* _get_friendlyName();
+    // Set instance field: private System.String friendlyName
+    void _set_friendlyName(::Il2CppString* value);
     // System.Security.Cryptography.X509Certificates.X509Certificate2Impl get_Impl()
     // Offset: 0x1826D20
     System::Security::Cryptography::X509Certificates::X509Certificate2Impl* get_Impl();

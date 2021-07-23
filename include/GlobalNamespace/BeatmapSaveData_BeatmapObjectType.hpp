@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapSaveData::BeatmapObjectType _get_Obstacle();
     // Set static field: static public BeatmapSaveData/BeatmapObjectType Obstacle
     static void _set_Obstacle(GlobalNamespace::BeatmapSaveData::BeatmapObjectType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // BeatmapSaveData/BeatmapObjectType
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::BeatmapObjectType), 0 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_BeatmapObjectTypeSizeCheck;

@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     ToggleableCanvasGroup(UnityEngine::CanvasGroup* canvasGroup_ = {}, UnityEngine::UI::Toggle* toggle_ = {}, bool invertToggle_ = {}) noexcept : canvasGroup{canvasGroup_}, toggle{toggle_}, invertToggle{invertToggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.CanvasGroup _canvasGroup
+    UnityEngine::CanvasGroup* _get__canvasGroup();
+    // Set instance field: private UnityEngine.CanvasGroup _canvasGroup
+    void _set__canvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: private UnityEngine.UI.Toggle _toggle
+    UnityEngine::UI::Toggle* _get__toggle();
+    // Set instance field: private UnityEngine.UI.Toggle _toggle
+    void _set__toggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private System.Boolean _invertToggle
+    bool _get__invertToggle();
+    // Set instance field: private System.Boolean _invertToggle
+    void _set__invertToggle(bool value);
     // protected System.Void OnEnable()
     // Offset: 0x2359034
     void OnEnable();

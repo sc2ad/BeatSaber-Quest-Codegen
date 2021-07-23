@@ -84,6 +84,34 @@ namespace System::Collections {
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Get instance field: private System.Collections.Hashtable hashtable
+    System::Collections::Hashtable* _get_hashtable();
+    // Set instance field: private System.Collections.Hashtable hashtable
+    void _set_hashtable(System::Collections::Hashtable* value);
+    // Get instance field: private System.Int32 bucket
+    int _get_bucket();
+    // Set instance field: private System.Int32 bucket
+    void _set_bucket(int value);
+    // Get instance field: private System.Int32 version
+    int _get_version();
+    // Set instance field: private System.Int32 version
+    void _set_version(int value);
+    // Get instance field: private System.Boolean current
+    bool _get_current();
+    // Set instance field: private System.Boolean current
+    void _set_current(bool value);
+    // Get instance field: private System.Int32 getObjectRetType
+    int _get_getObjectRetType();
+    // Set instance field: private System.Int32 getObjectRetType
+    void _set_getObjectRetType(int value);
+    // Get instance field: private System.Object currentKey
+    ::Il2CppObject* _get_currentKey();
+    // Set instance field: private System.Object currentKey
+    void _set_currentKey(::Il2CppObject* value);
+    // Get instance field: private System.Object currentValue
+    ::Il2CppObject* _get_currentValue();
+    // Set instance field: private System.Object currentValue
+    void _set_currentValue(::Il2CppObject* value);
     // public System.Object get_Key()
     // Offset: 0x194615C
     ::Il2CppObject* get_Key();

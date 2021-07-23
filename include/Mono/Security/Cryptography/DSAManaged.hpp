@@ -123,6 +123,58 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*) == 0x8);
     // Creating value type constructor for type: DSAManaged
     DSAManaged(bool keypairGenerated_ = {}, bool m_disposed_ = {}, Mono::Math::BigInteger* p_ = {}, Mono::Math::BigInteger* q_ = {}, Mono::Math::BigInteger* g_ = {}, Mono::Math::BigInteger* x_ = {}, Mono::Math::BigInteger* y_ = {}, Mono::Math::BigInteger* j_ = {}, Mono::Math::BigInteger* seed_ = {}, int counter_ = {}, bool j_missing_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}, Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* KeyGenerated_ = {}) noexcept : keypairGenerated{keypairGenerated_}, m_disposed{m_disposed_}, p{p_}, q{q_}, g{g_}, x{x_}, y{y_}, j{j_}, seed{seed_}, counter{counter_}, j_missing{j_missing_}, rng{rng_}, KeyGenerated{KeyGenerated_} {}
+    // Get instance field: private System.Boolean keypairGenerated
+    bool _get_keypairGenerated();
+    // Set instance field: private System.Boolean keypairGenerated
+    void _set_keypairGenerated(bool value);
+    // Get instance field: private System.Boolean m_disposed
+    bool _get_m_disposed();
+    // Set instance field: private System.Boolean m_disposed
+    void _set_m_disposed(bool value);
+    // Get instance field: private Mono.Math.BigInteger p
+    Mono::Math::BigInteger* _get_p();
+    // Set instance field: private Mono.Math.BigInteger p
+    void _set_p(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger q
+    Mono::Math::BigInteger* _get_q();
+    // Set instance field: private Mono.Math.BigInteger q
+    void _set_q(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger g
+    Mono::Math::BigInteger* _get_g();
+    // Set instance field: private Mono.Math.BigInteger g
+    void _set_g(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger x
+    Mono::Math::BigInteger* _get_x();
+    // Set instance field: private Mono.Math.BigInteger x
+    void _set_x(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger y
+    Mono::Math::BigInteger* _get_y();
+    // Set instance field: private Mono.Math.BigInteger y
+    void _set_y(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger j
+    Mono::Math::BigInteger* _get_j();
+    // Set instance field: private Mono.Math.BigInteger j
+    void _set_j(Mono::Math::BigInteger* value);
+    // Get instance field: private Mono.Math.BigInteger seed
+    Mono::Math::BigInteger* _get_seed();
+    // Set instance field: private Mono.Math.BigInteger seed
+    void _set_seed(Mono::Math::BigInteger* value);
+    // Get instance field: private System.Int32 counter
+    int _get_counter();
+    // Set instance field: private System.Int32 counter
+    void _set_counter(int value);
+    // Get instance field: private System.Boolean j_missing
+    bool _get_j_missing();
+    // Set instance field: private System.Boolean j_missing
+    void _set_j_missing(bool value);
+    // Get instance field: private System.Security.Cryptography.RandomNumberGenerator rng
+    System::Security::Cryptography::RandomNumberGenerator* _get_rng();
+    // Set instance field: private System.Security.Cryptography.RandomNumberGenerator rng
+    void _set_rng(System::Security::Cryptography::RandomNumberGenerator* value);
+    // Get instance field: private Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
+    Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* _get_KeyGenerated();
+    // Set instance field: private Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
+    void _set_KeyGenerated(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* value);
     // private System.Security.Cryptography.RandomNumberGenerator get_Random()
     // Offset: 0x1A3F904
     System::Security::Cryptography::RandomNumberGenerator* get_Random();

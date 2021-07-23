@@ -49,6 +49,10 @@ namespace System::Net::Security {
     static System::Net::Security::AuthenticationLevel _get_MutualAuthRequired();
     // Set static field: static public System.Net.Security.AuthenticationLevel MutualAuthRequired
     static void _set_MutualAuthRequired(System::Net::Security::AuthenticationLevel value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Security.AuthenticationLevel
   #pragma pack(pop)
   static check_size<sizeof(AuthenticationLevel), 0 + sizeof(int)> __System_Net_Security_AuthenticationLevelSizeCheck;

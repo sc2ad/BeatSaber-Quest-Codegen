@@ -135,6 +135,10 @@ namespace Mono::Unity {
     static Mono::Unity::UnityTls::unitytls_error_code _get_UNITYTLS_USER_CUSTOM_ERROR_END();
     // Set static field: static public Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code UNITYTLS_USER_CUSTOM_ERROR_END
     static void _set_UNITYTLS_USER_CUSTOM_ERROR_END(Mono::Unity::UnityTls::unitytls_error_code value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code
   #pragma pack(pop)
   static check_size<sizeof(UnityTls::unitytls_error_code), 0 + sizeof(uint)> __Mono_Unity_UnityTls_unitytls_error_codeSizeCheck;

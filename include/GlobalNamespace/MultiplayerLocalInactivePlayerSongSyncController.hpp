@@ -132,6 +132,54 @@ namespace GlobalNamespace {
     static float _get_kReSyncThreshold();
     // Set static field: static private System.Single kReSyncThreshold
     static void _set_kReSyncThreshold(float value);
+    // Get instance field: private CrossFadeAudioSource _audioSource
+    GlobalNamespace::CrossFadeAudioSource* _get__audioSource();
+    // Set instance field: private CrossFadeAudioSource _audioSource
+    void _set__audioSource(GlobalNamespace::CrossFadeAudioSource* value);
+    // Get instance field: private FloatSO _audioLatency
+    GlobalNamespace::FloatSO* _get__audioLatency();
+    // Set instance field: private FloatSO _audioLatency
+    void _set__audioLatency(GlobalNamespace::FloatSO* value);
+    // Get instance field: private readonly MultiplayerLocalInactivePlayerSongSyncController/InitData _initData
+    GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData* _get__initData();
+    // Set instance field: private readonly MultiplayerLocalInactivePlayerSongSyncController/InitData _initData
+    void _set__initData(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private System.Single _timeScale
+    float _get__timeScale();
+    // Set instance field: private System.Single _timeScale
+    void _set__timeScale(float value);
+    // Get instance field: private System.Single _startSongTime
+    float _get__startSongTime();
+    // Set instance field: private System.Single _startSongTime
+    void _set__startSongTime(float value);
+    // Get instance field: private System.Single _songTimeOffset
+    float _get__songTimeOffset();
+    // Set instance field: private System.Single _songTimeOffset
+    void _set__songTimeOffset(float value);
+    // Get instance field: private System.Single _songTime
+    float _get__songTime();
+    // Set instance field: private System.Single _songTime
+    void _set__songTime(float value);
+    // Get instance field: private System.Boolean _audioStarted
+    bool _get__audioStarted();
+    // Set instance field: private System.Boolean _audioStarted
+    void _set__audioStarted(bool value);
+    // Get instance field: private System.Boolean _currentObservableIsFailed
+    bool _get__currentObservableIsFailed();
+    // Set instance field: private System.Boolean _currentObservableIsFailed
+    void _set__currentObservableIsFailed(bool value);
+    // Get instance field: private IMultiplayerObservable _observable
+    GlobalNamespace::IMultiplayerObservable* _get__observable();
+    // Set instance field: private IMultiplayerObservable _observable
+    void _set__observable(GlobalNamespace::IMultiplayerObservable* value);
+    // Get instance field: private System.Single _lastLatencyOffsetTime
+    float _get__lastLatencyOffsetTime();
+    // Set instance field: private System.Single _lastLatencyOffsetTime
+    void _set__lastLatencyOffsetTime(float value);
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
     // Offset: 0x23D81A0
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();

@@ -41,6 +41,10 @@ namespace NUnit::Framework::Internal::Filters {
     constexpr operator NUnit::Framework::Internal::TestFilter*() const noexcept {
       return BaseFilter;
     }
+    // Get instance field: private NUnit.Framework.Internal.TestFilter <BaseFilter>k__BackingField
+    NUnit::Framework::Internal::TestFilter* _get_$BaseFilter$k__BackingField();
+    // Set instance field: private NUnit.Framework.Internal.TestFilter <BaseFilter>k__BackingField
+    void _set_$BaseFilter$k__BackingField(NUnit::Framework::Internal::TestFilter* value);
     // public NUnit.Framework.Internal.TestFilter get_BaseFilter()
     // Offset: 0x172C884
     NUnit::Framework::Internal::TestFilter* get_BaseFilter();

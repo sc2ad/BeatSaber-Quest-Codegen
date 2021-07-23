@@ -210,6 +210,94 @@ namespace HMUI {
     FlowCoordinator(UnityEngine::EventSystems::BaseInputModule* baseInputModule_ = {}, HMUI::ScreenSystem* screenSystem_ = {}, HMUI::FlowCoordinator* parentFlowCoordinator_ = {}, HMUI::FlowCoordinator* childFlowCoordinator_ = {}, System::Collections::Generic::List_1<HMUI::ViewController*>* mainScreenViewControllers_ = {}, HMUI::ViewController* leftScreenViewController_ = {}, HMUI::ViewController* rightScreenViewController_ = {}, HMUI::ViewController* bottomScreenViewController_ = {}, HMUI::ViewController* topScreenViewController_ = {}, bool wasActivatedBefore_ = {}, ::Il2CppString* title_ = {}, HMUI::ViewController* providedMainViewController_ = {}, HMUI::ViewController* providedLeftScreenViewController_ = {}, HMUI::ViewController* providedRightScreenViewController_ = {}, HMUI::ViewController* providedBottomScreenViewController_ = {}, HMUI::ViewController* providedTopScreenViewController_ = {}, bool viewControllersWereProvided_ = {}, bool isInDidActivatePhase_ = {}, bool isActivated_ = {}, bool isInTransition_ = {}, bool showBackButton_ = {}, UnityEngine::EventSystems::EventSystem* prevEventSystem_ = {}) noexcept : baseInputModule{baseInputModule_}, screenSystem{screenSystem_}, parentFlowCoordinator{parentFlowCoordinator_}, childFlowCoordinator{childFlowCoordinator_}, mainScreenViewControllers{mainScreenViewControllers_}, leftScreenViewController{leftScreenViewController_}, rightScreenViewController{rightScreenViewController_}, bottomScreenViewController{bottomScreenViewController_}, topScreenViewController{topScreenViewController_}, wasActivatedBefore{wasActivatedBefore_}, title{title_}, providedMainViewController{providedMainViewController_}, providedLeftScreenViewController{providedLeftScreenViewController_}, providedRightScreenViewController{providedRightScreenViewController_}, providedBottomScreenViewController{providedBottomScreenViewController_}, providedTopScreenViewController{providedTopScreenViewController_}, viewControllersWereProvided{viewControllersWereProvided_}, isInDidActivatePhase{isInDidActivatePhase_}, isActivated{isActivated_}, isInTransition{isInTransition_}, showBackButton{showBackButton_}, prevEventSystem{prevEventSystem_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly UnityEngine.EventSystems.BaseInputModule _baseInputModule
+    UnityEngine::EventSystems::BaseInputModule* _get__baseInputModule();
+    // Set instance field: private readonly UnityEngine.EventSystems.BaseInputModule _baseInputModule
+    void _set__baseInputModule(UnityEngine::EventSystems::BaseInputModule* value);
+    // Get instance field: private HMUI.ScreenSystem _screenSystem
+    HMUI::ScreenSystem* _get__screenSystem();
+    // Set instance field: private HMUI.ScreenSystem _screenSystem
+    void _set__screenSystem(HMUI::ScreenSystem* value);
+    // Get instance field: private HMUI.FlowCoordinator _parentFlowCoordinator
+    HMUI::FlowCoordinator* _get__parentFlowCoordinator();
+    // Set instance field: private HMUI.FlowCoordinator _parentFlowCoordinator
+    void _set__parentFlowCoordinator(HMUI::FlowCoordinator* value);
+    // Get instance field: private HMUI.FlowCoordinator _childFlowCoordinator
+    HMUI::FlowCoordinator* _get__childFlowCoordinator();
+    // Set instance field: private HMUI.FlowCoordinator _childFlowCoordinator
+    void _set__childFlowCoordinator(HMUI::FlowCoordinator* value);
+    // Get instance field: private System.Collections.Generic.List`1<HMUI.ViewController> _mainScreenViewControllers
+    System::Collections::Generic::List_1<HMUI::ViewController*>* _get__mainScreenViewControllers();
+    // Set instance field: private System.Collections.Generic.List`1<HMUI.ViewController> _mainScreenViewControllers
+    void _set__mainScreenViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* value);
+    // Get instance field: private HMUI.ViewController _leftScreenViewController
+    HMUI::ViewController* _get__leftScreenViewController();
+    // Set instance field: private HMUI.ViewController _leftScreenViewController
+    void _set__leftScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _rightScreenViewController
+    HMUI::ViewController* _get__rightScreenViewController();
+    // Set instance field: private HMUI.ViewController _rightScreenViewController
+    void _set__rightScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _bottomScreenViewController
+    HMUI::ViewController* _get__bottomScreenViewController();
+    // Set instance field: private HMUI.ViewController _bottomScreenViewController
+    void _set__bottomScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _topScreenViewController
+    HMUI::ViewController* _get__topScreenViewController();
+    // Set instance field: private HMUI.ViewController _topScreenViewController
+    void _set__topScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private System.Boolean _wasActivatedBefore
+    bool _get__wasActivatedBefore();
+    // Set instance field: private System.Boolean _wasActivatedBefore
+    void _set__wasActivatedBefore(bool value);
+    // Get instance field: private System.String _title
+    ::Il2CppString* _get__title();
+    // Set instance field: private System.String _title
+    void _set__title(::Il2CppString* value);
+    // Get instance field: private HMUI.ViewController _providedMainViewController
+    HMUI::ViewController* _get__providedMainViewController();
+    // Set instance field: private HMUI.ViewController _providedMainViewController
+    void _set__providedMainViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _providedLeftScreenViewController
+    HMUI::ViewController* _get__providedLeftScreenViewController();
+    // Set instance field: private HMUI.ViewController _providedLeftScreenViewController
+    void _set__providedLeftScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _providedRightScreenViewController
+    HMUI::ViewController* _get__providedRightScreenViewController();
+    // Set instance field: private HMUI.ViewController _providedRightScreenViewController
+    void _set__providedRightScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _providedBottomScreenViewController
+    HMUI::ViewController* _get__providedBottomScreenViewController();
+    // Set instance field: private HMUI.ViewController _providedBottomScreenViewController
+    void _set__providedBottomScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private HMUI.ViewController _providedTopScreenViewController
+    HMUI::ViewController* _get__providedTopScreenViewController();
+    // Set instance field: private HMUI.ViewController _providedTopScreenViewController
+    void _set__providedTopScreenViewController(HMUI::ViewController* value);
+    // Get instance field: private System.Boolean _viewControllersWereProvided
+    bool _get__viewControllersWereProvided();
+    // Set instance field: private System.Boolean _viewControllersWereProvided
+    void _set__viewControllersWereProvided(bool value);
+    // Get instance field: private System.Boolean _isInDidActivatePhase
+    bool _get__isInDidActivatePhase();
+    // Set instance field: private System.Boolean _isInDidActivatePhase
+    void _set__isInDidActivatePhase(bool value);
+    // Get instance field: private System.Boolean _isActivated
+    bool _get__isActivated();
+    // Set instance field: private System.Boolean _isActivated
+    void _set__isActivated(bool value);
+    // Get instance field: private System.Boolean _isInTransition
+    bool _get__isInTransition();
+    // Set instance field: private System.Boolean _isInTransition
+    void _set__isInTransition(bool value);
+    // Get instance field: private System.Boolean _showBackButton
+    bool _get__showBackButton();
+    // Set instance field: private System.Boolean _showBackButton
+    void _set__showBackButton(bool value);
+    // Get instance field: private UnityEngine.EventSystems.EventSystem _prevEventSystem
+    UnityEngine::EventSystems::EventSystem* _get__prevEventSystem();
+    // Set instance field: private UnityEngine.EventSystems.EventSystem _prevEventSystem
+    void _set__prevEventSystem(UnityEngine::EventSystems::EventSystem* value);
     // public HMUI.ViewController get_topViewController()
     // Offset: 0x1308CE8
     HMUI::ViewController* get_topViewController();

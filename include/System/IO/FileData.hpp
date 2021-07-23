@@ -55,6 +55,26 @@ namespace System::IO {
     static_assert(sizeof(System::DateTime) == 0x8);
     // Creating value type constructor for type: FileData
     FileData(::Il2CppString* Directory_ = {}, System::IO::FileAttributes Attributes_ = {}, bool NotExists_ = {}, System::DateTime CreationTime_ = {}, System::DateTime LastWriteTime_ = {}) noexcept : Directory{Directory_}, Attributes{Attributes_}, NotExists{NotExists_}, CreationTime{CreationTime_}, LastWriteTime{LastWriteTime_} {}
+    // Get instance field: public System.String Directory
+    ::Il2CppString* _get_Directory();
+    // Set instance field: public System.String Directory
+    void _set_Directory(::Il2CppString* value);
+    // Get instance field: public System.IO.FileAttributes Attributes
+    System::IO::FileAttributes _get_Attributes();
+    // Set instance field: public System.IO.FileAttributes Attributes
+    void _set_Attributes(System::IO::FileAttributes value);
+    // Get instance field: public System.Boolean NotExists
+    bool _get_NotExists();
+    // Set instance field: public System.Boolean NotExists
+    void _set_NotExists(bool value);
+    // Get instance field: public System.DateTime CreationTime
+    System::DateTime _get_CreationTime();
+    // Set instance field: public System.DateTime CreationTime
+    void _set_CreationTime(System::DateTime value);
+    // Get instance field: public System.DateTime LastWriteTime
+    System::DateTime _get_LastWriteTime();
+    // Set instance field: public System.DateTime LastWriteTime
+    void _set_LastWriteTime(System::DateTime value);
     // public System.Void .ctor()
     // Offset: 0x1855304
     // Implemented from: System.Object

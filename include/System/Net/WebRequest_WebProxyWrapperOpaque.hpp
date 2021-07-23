@@ -47,6 +47,10 @@ namespace System::Net {
     constexpr operator System::Net::WebProxy*() const noexcept {
       return webProxy;
     }
+    // Get instance field: protected readonly System.Net.WebProxy webProxy
+    System::Net::WebProxy* _get_webProxy();
+    // Set instance field: protected readonly System.Net.WebProxy webProxy
+    void _set_webProxy(System::Net::WebProxy* value);
     // public System.Net.ICredentials get_Credentials()
     // Offset: 0x159FE6C
     System::Net::ICredentials* get_Credentials();

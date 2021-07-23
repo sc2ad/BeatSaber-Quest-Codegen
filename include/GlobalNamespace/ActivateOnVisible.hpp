@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     ActivateOnVisible(::Array<UnityEngine::GameObject*>* gameObjects_ = {}) noexcept : gameObjects{gameObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.GameObject[] _gameObjects
+    ::Array<UnityEngine::GameObject*>* _get__gameObjects();
+    // Set instance field: public UnityEngine.GameObject[] _gameObjects
+    void _set__gameObjects(::Array<UnityEngine::GameObject*>* value);
     // protected System.Void Awake()
     // Offset: 0x120DC8C
     void Awake();

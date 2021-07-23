@@ -118,6 +118,54 @@ namespace System::Xml {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: QueryOutputWriter
     QueryOutputWriter(System::Xml::XmlRawWriter* wrapped_ = {}, bool inCDataSection_ = {}, System::Collections::Generic::Dictionary_2<System::Xml::XmlQualifiedName*, int>* lookupCDataElems_ = {}, System::Xml::BitStack* bitsCData_ = {}, System::Xml::XmlQualifiedName* qnameCData_ = {}, bool outputDocType_ = {}, bool checkWellFormedDoc_ = {}, bool hasDocElem_ = {}, bool inAttr_ = {}, ::Il2CppString* systemId_ = {}, ::Il2CppString* publicId_ = {}, int depth_ = {}) noexcept : wrapped{wrapped_}, inCDataSection{inCDataSection_}, lookupCDataElems{lookupCDataElems_}, bitsCData{bitsCData_}, qnameCData{qnameCData_}, outputDocType{outputDocType_}, checkWellFormedDoc{checkWellFormedDoc_}, hasDocElem{hasDocElem_}, inAttr{inAttr_}, systemId{systemId_}, publicId{publicId_}, depth{depth_} {}
+    // Get instance field: private System.Xml.XmlRawWriter wrapped
+    System::Xml::XmlRawWriter* _get_wrapped();
+    // Set instance field: private System.Xml.XmlRawWriter wrapped
+    void _set_wrapped(System::Xml::XmlRawWriter* value);
+    // Get instance field: private System.Boolean inCDataSection
+    bool _get_inCDataSection();
+    // Set instance field: private System.Boolean inCDataSection
+    void _set_inCDataSection(bool value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Int32> lookupCDataElems
+    System::Collections::Generic::Dictionary_2<System::Xml::XmlQualifiedName*, int>* _get_lookupCDataElems();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Int32> lookupCDataElems
+    void _set_lookupCDataElems(System::Collections::Generic::Dictionary_2<System::Xml::XmlQualifiedName*, int>* value);
+    // Get instance field: private System.Xml.BitStack bitsCData
+    System::Xml::BitStack* _get_bitsCData();
+    // Set instance field: private System.Xml.BitStack bitsCData
+    void _set_bitsCData(System::Xml::BitStack* value);
+    // Get instance field: private System.Xml.XmlQualifiedName qnameCData
+    System::Xml::XmlQualifiedName* _get_qnameCData();
+    // Set instance field: private System.Xml.XmlQualifiedName qnameCData
+    void _set_qnameCData(System::Xml::XmlQualifiedName* value);
+    // Get instance field: private System.Boolean outputDocType
+    bool _get_outputDocType();
+    // Set instance field: private System.Boolean outputDocType
+    void _set_outputDocType(bool value);
+    // Get instance field: private System.Boolean checkWellFormedDoc
+    bool _get_checkWellFormedDoc();
+    // Set instance field: private System.Boolean checkWellFormedDoc
+    void _set_checkWellFormedDoc(bool value);
+    // Get instance field: private System.Boolean hasDocElem
+    bool _get_hasDocElem();
+    // Set instance field: private System.Boolean hasDocElem
+    void _set_hasDocElem(bool value);
+    // Get instance field: private System.Boolean inAttr
+    bool _get_inAttr();
+    // Set instance field: private System.Boolean inAttr
+    void _set_inAttr(bool value);
+    // Get instance field: private System.String systemId
+    ::Il2CppString* _get_systemId();
+    // Set instance field: private System.String systemId
+    void _set_systemId(::Il2CppString* value);
+    // Get instance field: private System.String publicId
+    ::Il2CppString* _get_publicId();
+    // Set instance field: private System.String publicId
+    void _set_publicId(::Il2CppString* value);
+    // Get instance field: private System.Int32 depth
+    int _get_depth();
+    // Set instance field: private System.Int32 depth
+    void _set_depth(int value);
     // public System.Void .ctor(System.Xml.XmlRawWriter writer, System.Xml.XmlWriterSettings settings)
     // Offset: 0x1904E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

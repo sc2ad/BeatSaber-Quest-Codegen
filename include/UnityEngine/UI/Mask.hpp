@@ -89,6 +89,26 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.RectTransform m_RectTransform
+    UnityEngine::RectTransform* _get_m_RectTransform();
+    // Set instance field: private UnityEngine.RectTransform m_RectTransform
+    void _set_m_RectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private System.Boolean m_ShowMaskGraphic
+    bool _get_m_ShowMaskGraphic();
+    // Set instance field: private System.Boolean m_ShowMaskGraphic
+    void _set_m_ShowMaskGraphic(bool value);
+    // Get instance field: private UnityEngine.UI.Graphic m_Graphic
+    UnityEngine::UI::Graphic* _get_m_Graphic();
+    // Set instance field: private UnityEngine.UI.Graphic m_Graphic
+    void _set_m_Graphic(UnityEngine::UI::Graphic* value);
+    // Get instance field: private UnityEngine.Material m_MaskMaterial
+    UnityEngine::Material* _get_m_MaskMaterial();
+    // Set instance field: private UnityEngine.Material m_MaskMaterial
+    void _set_m_MaskMaterial(UnityEngine::Material* value);
+    // Get instance field: private UnityEngine.Material m_UnmaskMaterial
+    UnityEngine::Material* _get_m_UnmaskMaterial();
+    // Set instance field: private UnityEngine.Material m_UnmaskMaterial
+    void _set_m_UnmaskMaterial(UnityEngine::Material* value);
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0x1980154
     UnityEngine::RectTransform* get_rectTransform();

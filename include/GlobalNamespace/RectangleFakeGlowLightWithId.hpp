@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::RectangleFakeGlow*) == 0x8);
     // Creating value type constructor for type: RectangleFakeGlowLightWithId
     RectangleFakeGlowLightWithId(float minAlpha_ = {}, float alphaMul_ = {}, GlobalNamespace::RectangleFakeGlow* rectangleFakeGlow_ = {}) noexcept : minAlpha{minAlpha_}, alphaMul{alphaMul_}, rectangleFakeGlow{rectangleFakeGlow_} {}
+    // Get instance field: private System.Single _minAlpha
+    float _get__minAlpha();
+    // Set instance field: private System.Single _minAlpha
+    void _set__minAlpha(float value);
+    // Get instance field: private System.Single _alphaMul
+    float _get__alphaMul();
+    // Set instance field: private System.Single _alphaMul
+    void _set__alphaMul(float value);
+    // Get instance field: private RectangleFakeGlow _rectangleFakeGlow
+    GlobalNamespace::RectangleFakeGlow* _get__rectangleFakeGlow();
+    // Set instance field: private RectangleFakeGlow _rectangleFakeGlow
+    void _set__rectangleFakeGlow(GlobalNamespace::RectangleFakeGlow* value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1142B14
     UnityEngine::Color get_color();

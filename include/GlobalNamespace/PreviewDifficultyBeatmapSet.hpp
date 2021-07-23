@@ -40,6 +40,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::BeatmapDifficulty>*) == 0x8);
     // Creating value type constructor for type: PreviewDifficultyBeatmapSet
     PreviewDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties_ = {}) noexcept : beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulties{beatmapDifficulties_} {}
+    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private BeatmapDifficulty[] _beatmapDifficulties
+    ::Array<GlobalNamespace::BeatmapDifficulty>* _get__beatmapDifficulties();
+    // Set instance field: private BeatmapDifficulty[] _beatmapDifficulties
+    void _set__beatmapDifficulties(::Array<GlobalNamespace::BeatmapDifficulty>* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0x110A81C
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();

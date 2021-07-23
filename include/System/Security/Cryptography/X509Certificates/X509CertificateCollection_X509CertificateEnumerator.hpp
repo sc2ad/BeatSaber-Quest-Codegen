@@ -44,6 +44,10 @@ namespace System::Security::Cryptography::X509Certificates {
     constexpr operator System::Collections::IEnumerator*() const noexcept {
       return enumerator;
     }
+    // Get instance field: private System.Collections.IEnumerator enumerator
+    System::Collections::IEnumerator* _get_enumerator();
+    // Set instance field: private System.Collections.IEnumerator enumerator
+    void _set_enumerator(System::Collections::IEnumerator* value);
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_Current()
     // Offset: 0x182CEDC
     System::Security::Cryptography::X509Certificates::X509Certificate* get_Current();

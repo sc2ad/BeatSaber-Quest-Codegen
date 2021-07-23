@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult _get_Failed();
     // Set static field: static public PlatformAchievementsModelSO/GetUnlockedAchievementsResult Failed
     static void _set_Failed(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // PlatformAchievementsModelSO/GetUnlockedAchievementsResult
   #pragma pack(pop)
   static check_size<sizeof(PlatformAchievementsModelSO::GetUnlockedAchievementsResult), 0 + sizeof(int)> __GlobalNamespace_PlatformAchievementsModelSO_GetUnlockedAchievementsResultSizeCheck;

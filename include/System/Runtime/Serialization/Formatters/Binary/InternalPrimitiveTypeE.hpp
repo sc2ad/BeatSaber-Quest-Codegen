@@ -145,6 +145,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE _get_String();
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE String
     static void _set_String(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
   #pragma pack(pop)
   static check_size<sizeof(InternalPrimitiveTypeE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalPrimitiveTypeESizeCheck;

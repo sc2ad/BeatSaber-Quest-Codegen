@@ -53,6 +53,14 @@ namespace LiteNetLib {
     operator System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>*>(this);
     }
+    // Get instance field: private readonly LiteNetLib.NetPeer _initialPeer
+    LiteNetLib::NetPeer* _get__initialPeer();
+    // Set instance field: private readonly LiteNetLib.NetPeer _initialPeer
+    void _set__initialPeer(LiteNetLib::NetPeer* value);
+    // Get instance field: private LiteNetLib.NetPeer _p
+    LiteNetLib::NetPeer* _get__p();
+    // Set instance field: private LiteNetLib.NetPeer _p
+    void _set__p(LiteNetLib::NetPeer* value);
     // public LiteNetLib.NetPeer get_Current()
     // Offset: 0xEF3E00
     LiteNetLib::NetPeer* get_Current();

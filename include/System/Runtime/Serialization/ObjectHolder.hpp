@@ -131,6 +131,62 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ObjectHolder
     ObjectHolder(::Il2CppObject* m_object_ = {}, int64_t m_id_ = {}, int m_missingElementsRemaining_ = {}, int m_missingDecendents_ = {}, System::Runtime::Serialization::SerializationInfo* m_serInfo_ = {}, System::Runtime::Serialization::ISerializationSurrogate* m_surrogate_ = {}, System::Runtime::Serialization::FixupHolderList* m_missingElements_ = {}, System::Runtime::Serialization::LongList* m_dependentObjects_ = {}, System::Runtime::Serialization::ObjectHolder* m_next_ = {}, int m_flags_ = {}, bool m_markForFixupWhenAvailable_ = {}, System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup_ = {}, System::Runtime::Serialization::TypeLoadExceptionHolder* m_typeLoad_ = {}, bool m_reachable_ = {}) noexcept : m_object{m_object_}, m_id{m_id_}, m_missingElementsRemaining{m_missingElementsRemaining_}, m_missingDecendents{m_missingDecendents_}, m_serInfo{m_serInfo_}, m_surrogate{m_surrogate_}, m_missingElements{m_missingElements_}, m_dependentObjects{m_dependentObjects_}, m_next{m_next_}, m_flags{m_flags_}, m_markForFixupWhenAvailable{m_markForFixupWhenAvailable_}, m_valueFixup{m_valueFixup_}, m_typeLoad{m_typeLoad_}, m_reachable{m_reachable_} {}
+    // Get instance field: private System.Object m_object
+    ::Il2CppObject* _get_m_object();
+    // Set instance field: private System.Object m_object
+    void _set_m_object(::Il2CppObject* value);
+    // Get instance field: System.Int64 m_id
+    int64_t _get_m_id();
+    // Set instance field: System.Int64 m_id
+    void _set_m_id(int64_t value);
+    // Get instance field: private System.Int32 m_missingElementsRemaining
+    int _get_m_missingElementsRemaining();
+    // Set instance field: private System.Int32 m_missingElementsRemaining
+    void _set_m_missingElementsRemaining(int value);
+    // Get instance field: private System.Int32 m_missingDecendents
+    int _get_m_missingDecendents();
+    // Set instance field: private System.Int32 m_missingDecendents
+    void _set_m_missingDecendents(int value);
+    // Get instance field: System.Runtime.Serialization.SerializationInfo m_serInfo
+    System::Runtime::Serialization::SerializationInfo* _get_m_serInfo();
+    // Set instance field: System.Runtime.Serialization.SerializationInfo m_serInfo
+    void _set_m_serInfo(System::Runtime::Serialization::SerializationInfo* value);
+    // Get instance field: System.Runtime.Serialization.ISerializationSurrogate m_surrogate
+    System::Runtime::Serialization::ISerializationSurrogate* _get_m_surrogate();
+    // Set instance field: System.Runtime.Serialization.ISerializationSurrogate m_surrogate
+    void _set_m_surrogate(System::Runtime::Serialization::ISerializationSurrogate* value);
+    // Get instance field: System.Runtime.Serialization.FixupHolderList m_missingElements
+    System::Runtime::Serialization::FixupHolderList* _get_m_missingElements();
+    // Set instance field: System.Runtime.Serialization.FixupHolderList m_missingElements
+    void _set_m_missingElements(System::Runtime::Serialization::FixupHolderList* value);
+    // Get instance field: System.Runtime.Serialization.LongList m_dependentObjects
+    System::Runtime::Serialization::LongList* _get_m_dependentObjects();
+    // Set instance field: System.Runtime.Serialization.LongList m_dependentObjects
+    void _set_m_dependentObjects(System::Runtime::Serialization::LongList* value);
+    // Get instance field: System.Runtime.Serialization.ObjectHolder m_next
+    System::Runtime::Serialization::ObjectHolder* _get_m_next();
+    // Set instance field: System.Runtime.Serialization.ObjectHolder m_next
+    void _set_m_next(System::Runtime::Serialization::ObjectHolder* value);
+    // Get instance field: System.Int32 m_flags
+    int _get_m_flags();
+    // Set instance field: System.Int32 m_flags
+    void _set_m_flags(int value);
+    // Get instance field: private System.Boolean m_markForFixupWhenAvailable
+    bool _get_m_markForFixupWhenAvailable();
+    // Set instance field: private System.Boolean m_markForFixupWhenAvailable
+    void _set_m_markForFixupWhenAvailable(bool value);
+    // Get instance field: private System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup
+    System::Runtime::Serialization::ValueTypeFixupInfo* _get_m_valueFixup();
+    // Set instance field: private System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup
+    void _set_m_valueFixup(System::Runtime::Serialization::ValueTypeFixupInfo* value);
+    // Get instance field: private System.Runtime.Serialization.TypeLoadExceptionHolder m_typeLoad
+    System::Runtime::Serialization::TypeLoadExceptionHolder* _get_m_typeLoad();
+    // Set instance field: private System.Runtime.Serialization.TypeLoadExceptionHolder m_typeLoad
+    void _set_m_typeLoad(System::Runtime::Serialization::TypeLoadExceptionHolder* value);
+    // Get instance field: private System.Boolean m_reachable
+    bool _get_m_reachable();
+    // Set instance field: private System.Boolean m_reachable
+    void _set_m_reachable(bool value);
     // System.Boolean get_IsIncompleteObjectReference()
     // Offset: 0x167C708
     bool get_IsIncompleteObjectReference();

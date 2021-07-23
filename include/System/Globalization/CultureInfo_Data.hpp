@@ -60,6 +60,30 @@ namespace System::Globalization {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 ansi
+    int _get_ansi();
+    // Set instance field: public System.Int32 ansi
+    void _set_ansi(int value);
+    // Get instance field: public System.Int32 ebcdic
+    int _get_ebcdic();
+    // Set instance field: public System.Int32 ebcdic
+    void _set_ebcdic(int value);
+    // Get instance field: public System.Int32 mac
+    int _get_mac();
+    // Set instance field: public System.Int32 mac
+    void _set_mac(int value);
+    // Get instance field: public System.Int32 oem
+    int _get_oem();
+    // Set instance field: public System.Int32 oem
+    void _set_oem(int value);
+    // Get instance field: public System.Boolean right_to_left
+    bool _get_right_to_left();
+    // Set instance field: public System.Boolean right_to_left
+    void _set_right_to_left(bool value);
+    // Get instance field: public System.Byte list_sep
+    uint8_t _get_list_sep();
+    // Set instance field: public System.Byte list_sep
+    void _set_list_sep(uint8_t value);
   }; // System.Globalization.CultureInfo/System.Globalization.Data
   #pragma pack(pop)
   static check_size<sizeof(CultureInfo::Data), 17 + sizeof(uint8_t)> __System_Globalization_CultureInfo_DataSizeCheck;

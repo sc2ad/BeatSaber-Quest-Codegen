@@ -55,6 +55,14 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.Vector3 pos
+    UnityEngine::Vector3 _get_pos();
+    // Set instance field: public UnityEngine.Vector3 pos
+    void _set_pos(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion rot
+    UnityEngine::Quaternion _get_rot();
+    // Set instance field: public UnityEngine.Quaternion rot
+    void _set_rot(UnityEngine::Quaternion value);
     // static public SteamVR_Utils/RigidTransform get_identity()
     // Offset: 0x16B1228
     static GlobalNamespace::SteamVR_Utils::RigidTransform get_identity();

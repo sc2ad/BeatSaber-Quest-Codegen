@@ -402,6 +402,194 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
+    Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize* _get_GetRecommendedRenderTargetSize();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
+    void _set_GetRecommendedRenderTargetSize(Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetProjectionMatrix GetProjectionMatrix
+    Valve::VR::IVRSystem::_GetProjectionMatrix* _get_GetProjectionMatrix();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetProjectionMatrix GetProjectionMatrix
+    void _set_GetProjectionMatrix(Valve::VR::IVRSystem::_GetProjectionMatrix* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetProjectionRaw GetProjectionRaw
+    Valve::VR::IVRSystem::_GetProjectionRaw* _get_GetProjectionRaw();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetProjectionRaw GetProjectionRaw
+    void _set_GetProjectionRaw(Valve::VR::IVRSystem::_GetProjectionRaw* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._ComputeDistortion ComputeDistortion
+    Valve::VR::IVRSystem::_ComputeDistortion* _get_ComputeDistortion();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._ComputeDistortion ComputeDistortion
+    void _set_ComputeDistortion(Valve::VR::IVRSystem::_ComputeDistortion* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetEyeToHeadTransform GetEyeToHeadTransform
+    Valve::VR::IVRSystem::_GetEyeToHeadTransform* _get_GetEyeToHeadTransform();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetEyeToHeadTransform GetEyeToHeadTransform
+    void _set_GetEyeToHeadTransform(Valve::VR::IVRSystem::_GetEyeToHeadTransform* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetTimeSinceLastVsync GetTimeSinceLastVsync
+    Valve::VR::IVRSystem::_GetTimeSinceLastVsync* _get_GetTimeSinceLastVsync();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetTimeSinceLastVsync GetTimeSinceLastVsync
+    void _set_GetTimeSinceLastVsync(Valve::VR::IVRSystem::_GetTimeSinceLastVsync* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetD3D9AdapterIndex GetD3D9AdapterIndex
+    Valve::VR::IVRSystem::_GetD3D9AdapterIndex* _get_GetD3D9AdapterIndex();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetD3D9AdapterIndex GetD3D9AdapterIndex
+    void _set_GetD3D9AdapterIndex(Valve::VR::IVRSystem::_GetD3D9AdapterIndex* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetDXGIOutputInfo GetDXGIOutputInfo
+    Valve::VR::IVRSystem::_GetDXGIOutputInfo* _get_GetDXGIOutputInfo();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetDXGIOutputInfo GetDXGIOutputInfo
+    void _set_GetDXGIOutputInfo(Valve::VR::IVRSystem::_GetDXGIOutputInfo* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetOutputDevice GetOutputDevice
+    Valve::VR::IVRSystem::_GetOutputDevice* _get_GetOutputDevice();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetOutputDevice GetOutputDevice
+    void _set_GetOutputDevice(Valve::VR::IVRSystem::_GetOutputDevice* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._IsDisplayOnDesktop IsDisplayOnDesktop
+    Valve::VR::IVRSystem::_IsDisplayOnDesktop* _get_IsDisplayOnDesktop();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._IsDisplayOnDesktop IsDisplayOnDesktop
+    void _set_IsDisplayOnDesktop(Valve::VR::IVRSystem::_IsDisplayOnDesktop* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._SetDisplayVisibility SetDisplayVisibility
+    Valve::VR::IVRSystem::_SetDisplayVisibility* _get_SetDisplayVisibility();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._SetDisplayVisibility SetDisplayVisibility
+    void _set_SetDisplayVisibility(Valve::VR::IVRSystem::_SetDisplayVisibility* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetDeviceToAbsoluteTrackingPose GetDeviceToAbsoluteTrackingPose
+    Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose* _get_GetDeviceToAbsoluteTrackingPose();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetDeviceToAbsoluteTrackingPose GetDeviceToAbsoluteTrackingPose
+    void _set_GetDeviceToAbsoluteTrackingPose(Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._ResetSeatedZeroPose ResetSeatedZeroPose
+    Valve::VR::IVRSystem::_ResetSeatedZeroPose* _get_ResetSeatedZeroPose();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._ResetSeatedZeroPose ResetSeatedZeroPose
+    void _set_ResetSeatedZeroPose(Valve::VR::IVRSystem::_ResetSeatedZeroPose* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetSeatedZeroPoseToStandingAbsoluteTrackingPose GetSeatedZeroPoseToStandingAbsoluteTrackingPose
+    Valve::VR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* _get_GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetSeatedZeroPoseToStandingAbsoluteTrackingPose GetSeatedZeroPoseToStandingAbsoluteTrackingPose
+    void _set_GetSeatedZeroPoseToStandingAbsoluteTrackingPose(Valve::VR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetRawZeroPoseToStandingAbsoluteTrackingPose GetRawZeroPoseToStandingAbsoluteTrackingPose
+    Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* _get_GetRawZeroPoseToStandingAbsoluteTrackingPose();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetRawZeroPoseToStandingAbsoluteTrackingPose GetRawZeroPoseToStandingAbsoluteTrackingPose
+    void _set_GetRawZeroPoseToStandingAbsoluteTrackingPose(Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetSortedTrackedDeviceIndicesOfClass GetSortedTrackedDeviceIndicesOfClass
+    Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* _get_GetSortedTrackedDeviceIndicesOfClass();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetSortedTrackedDeviceIndicesOfClass GetSortedTrackedDeviceIndicesOfClass
+    void _set_GetSortedTrackedDeviceIndicesOfClass(Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceActivityLevel GetTrackedDeviceActivityLevel
+    Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel* _get_GetTrackedDeviceActivityLevel();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceActivityLevel GetTrackedDeviceActivityLevel
+    void _set_GetTrackedDeviceActivityLevel(Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._ApplyTransform ApplyTransform
+    Valve::VR::IVRSystem::_ApplyTransform* _get_ApplyTransform();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._ApplyTransform ApplyTransform
+    void _set_ApplyTransform(Valve::VR::IVRSystem::_ApplyTransform* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceIndexForControllerRole GetTrackedDeviceIndexForControllerRole
+    Valve::VR::IVRSystem::_GetTrackedDeviceIndexForControllerRole* _get_GetTrackedDeviceIndexForControllerRole();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceIndexForControllerRole GetTrackedDeviceIndexForControllerRole
+    void _set_GetTrackedDeviceIndexForControllerRole(Valve::VR::IVRSystem::_GetTrackedDeviceIndexForControllerRole* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerRoleForTrackedDeviceIndex GetControllerRoleForTrackedDeviceIndex
+    Valve::VR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex* _get_GetControllerRoleForTrackedDeviceIndex();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerRoleForTrackedDeviceIndex GetControllerRoleForTrackedDeviceIndex
+    void _set_GetControllerRoleForTrackedDeviceIndex(Valve::VR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceClass GetTrackedDeviceClass
+    Valve::VR::IVRSystem::_GetTrackedDeviceClass* _get_GetTrackedDeviceClass();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetTrackedDeviceClass GetTrackedDeviceClass
+    void _set_GetTrackedDeviceClass(Valve::VR::IVRSystem::_GetTrackedDeviceClass* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._IsTrackedDeviceConnected IsTrackedDeviceConnected
+    Valve::VR::IVRSystem::_IsTrackedDeviceConnected* _get_IsTrackedDeviceConnected();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._IsTrackedDeviceConnected IsTrackedDeviceConnected
+    void _set_IsTrackedDeviceConnected(Valve::VR::IVRSystem::_IsTrackedDeviceConnected* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetBoolTrackedDeviceProperty GetBoolTrackedDeviceProperty
+    Valve::VR::IVRSystem::_GetBoolTrackedDeviceProperty* _get_GetBoolTrackedDeviceProperty();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetBoolTrackedDeviceProperty GetBoolTrackedDeviceProperty
+    void _set_GetBoolTrackedDeviceProperty(Valve::VR::IVRSystem::_GetBoolTrackedDeviceProperty* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetFloatTrackedDeviceProperty GetFloatTrackedDeviceProperty
+    Valve::VR::IVRSystem::_GetFloatTrackedDeviceProperty* _get_GetFloatTrackedDeviceProperty();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetFloatTrackedDeviceProperty GetFloatTrackedDeviceProperty
+    void _set_GetFloatTrackedDeviceProperty(Valve::VR::IVRSystem::_GetFloatTrackedDeviceProperty* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetInt32TrackedDeviceProperty GetInt32TrackedDeviceProperty
+    Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty* _get_GetInt32TrackedDeviceProperty();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetInt32TrackedDeviceProperty GetInt32TrackedDeviceProperty
+    void _set_GetInt32TrackedDeviceProperty(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetUint64TrackedDeviceProperty GetUint64TrackedDeviceProperty
+    Valve::VR::IVRSystem::_GetUint64TrackedDeviceProperty* _get_GetUint64TrackedDeviceProperty();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetUint64TrackedDeviceProperty GetUint64TrackedDeviceProperty
+    void _set_GetUint64TrackedDeviceProperty(Valve::VR::IVRSystem::_GetUint64TrackedDeviceProperty* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetMatrix34TrackedDeviceProperty GetMatrix34TrackedDeviceProperty
+    Valve::VR::IVRSystem::_GetMatrix34TrackedDeviceProperty* _get_GetMatrix34TrackedDeviceProperty();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetMatrix34TrackedDeviceProperty GetMatrix34TrackedDeviceProperty
+    void _set_GetMatrix34TrackedDeviceProperty(Valve::VR::IVRSystem::_GetMatrix34TrackedDeviceProperty* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetArrayTrackedDeviceProperty GetArrayTrackedDeviceProperty
+    Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty* _get_GetArrayTrackedDeviceProperty();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetArrayTrackedDeviceProperty GetArrayTrackedDeviceProperty
+    void _set_GetArrayTrackedDeviceProperty(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetStringTrackedDeviceProperty GetStringTrackedDeviceProperty
+    Valve::VR::IVRSystem::_GetStringTrackedDeviceProperty* _get_GetStringTrackedDeviceProperty();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetStringTrackedDeviceProperty GetStringTrackedDeviceProperty
+    void _set_GetStringTrackedDeviceProperty(Valve::VR::IVRSystem::_GetStringTrackedDeviceProperty* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetPropErrorNameFromEnum GetPropErrorNameFromEnum
+    Valve::VR::IVRSystem::_GetPropErrorNameFromEnum* _get_GetPropErrorNameFromEnum();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetPropErrorNameFromEnum GetPropErrorNameFromEnum
+    void _set_GetPropErrorNameFromEnum(Valve::VR::IVRSystem::_GetPropErrorNameFromEnum* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._PollNextEvent PollNextEvent
+    Valve::VR::IVRSystem::_PollNextEvent* _get_PollNextEvent();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._PollNextEvent PollNextEvent
+    void _set_PollNextEvent(Valve::VR::IVRSystem::_PollNextEvent* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._PollNextEventWithPose PollNextEventWithPose
+    Valve::VR::IVRSystem::_PollNextEventWithPose* _get_PollNextEventWithPose();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._PollNextEventWithPose PollNextEventWithPose
+    void _set_PollNextEventWithPose(Valve::VR::IVRSystem::_PollNextEventWithPose* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetEventTypeNameFromEnum GetEventTypeNameFromEnum
+    Valve::VR::IVRSystem::_GetEventTypeNameFromEnum* _get_GetEventTypeNameFromEnum();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetEventTypeNameFromEnum GetEventTypeNameFromEnum
+    void _set_GetEventTypeNameFromEnum(Valve::VR::IVRSystem::_GetEventTypeNameFromEnum* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetHiddenAreaMesh GetHiddenAreaMesh
+    Valve::VR::IVRSystem::_GetHiddenAreaMesh* _get_GetHiddenAreaMesh();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetHiddenAreaMesh GetHiddenAreaMesh
+    void _set_GetHiddenAreaMesh(Valve::VR::IVRSystem::_GetHiddenAreaMesh* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerState GetControllerState
+    Valve::VR::IVRSystem::_GetControllerState* _get_GetControllerState();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerState GetControllerState
+    void _set_GetControllerState(Valve::VR::IVRSystem::_GetControllerState* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerStateWithPose GetControllerStateWithPose
+    Valve::VR::IVRSystem::_GetControllerStateWithPose* _get_GetControllerStateWithPose();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerStateWithPose GetControllerStateWithPose
+    void _set_GetControllerStateWithPose(Valve::VR::IVRSystem::_GetControllerStateWithPose* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._TriggerHapticPulse TriggerHapticPulse
+    Valve::VR::IVRSystem::_TriggerHapticPulse* _get_TriggerHapticPulse();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._TriggerHapticPulse TriggerHapticPulse
+    void _set_TriggerHapticPulse(Valve::VR::IVRSystem::_TriggerHapticPulse* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetButtonIdNameFromEnum GetButtonIdNameFromEnum
+    Valve::VR::IVRSystem::_GetButtonIdNameFromEnum* _get_GetButtonIdNameFromEnum();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetButtonIdNameFromEnum GetButtonIdNameFromEnum
+    void _set_GetButtonIdNameFromEnum(Valve::VR::IVRSystem::_GetButtonIdNameFromEnum* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerAxisTypeNameFromEnum GetControllerAxisTypeNameFromEnum
+    Valve::VR::IVRSystem::_GetControllerAxisTypeNameFromEnum* _get_GetControllerAxisTypeNameFromEnum();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._GetControllerAxisTypeNameFromEnum GetControllerAxisTypeNameFromEnum
+    void _set_GetControllerAxisTypeNameFromEnum(Valve::VR::IVRSystem::_GetControllerAxisTypeNameFromEnum* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._IsInputAvailable IsInputAvailable
+    Valve::VR::IVRSystem::_IsInputAvailable* _get_IsInputAvailable();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._IsInputAvailable IsInputAvailable
+    void _set_IsInputAvailable(Valve::VR::IVRSystem::_IsInputAvailable* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._IsSteamVRDrawingControllers IsSteamVRDrawingControllers
+    Valve::VR::IVRSystem::_IsSteamVRDrawingControllers* _get_IsSteamVRDrawingControllers();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._IsSteamVRDrawingControllers IsSteamVRDrawingControllers
+    void _set_IsSteamVRDrawingControllers(Valve::VR::IVRSystem::_IsSteamVRDrawingControllers* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._ShouldApplicationPause ShouldApplicationPause
+    Valve::VR::IVRSystem::_ShouldApplicationPause* _get_ShouldApplicationPause();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._ShouldApplicationPause ShouldApplicationPause
+    void _set_ShouldApplicationPause(Valve::VR::IVRSystem::_ShouldApplicationPause* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._ShouldApplicationReduceRenderingWork ShouldApplicationReduceRenderingWork
+    Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork* _get_ShouldApplicationReduceRenderingWork();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._ShouldApplicationReduceRenderingWork ShouldApplicationReduceRenderingWork
+    void _set_ShouldApplicationReduceRenderingWork(Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._DriverDebugRequest DriverDebugRequest
+    Valve::VR::IVRSystem::_DriverDebugRequest* _get_DriverDebugRequest();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._DriverDebugRequest DriverDebugRequest
+    void _set_DriverDebugRequest(Valve::VR::IVRSystem::_DriverDebugRequest* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._PerformFirmwareUpdate PerformFirmwareUpdate
+    Valve::VR::IVRSystem::_PerformFirmwareUpdate* _get_PerformFirmwareUpdate();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._PerformFirmwareUpdate PerformFirmwareUpdate
+    void _set_PerformFirmwareUpdate(Valve::VR::IVRSystem::_PerformFirmwareUpdate* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._AcknowledgeQuit_Exiting AcknowledgeQuit_Exiting
+    Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting* _get_AcknowledgeQuit_Exiting();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._AcknowledgeQuit_Exiting AcknowledgeQuit_Exiting
+    void _set_AcknowledgeQuit_Exiting(Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting* value);
+    // Get instance field: Valve.VR.IVRSystem/Valve.VR._AcknowledgeQuit_UserPrompt AcknowledgeQuit_UserPrompt
+    Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt* _get_AcknowledgeQuit_UserPrompt();
+    // Set instance field: Valve.VR.IVRSystem/Valve.VR._AcknowledgeQuit_UserPrompt AcknowledgeQuit_UserPrompt
+    void _set_AcknowledgeQuit_UserPrompt(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt* value);
   }; // Valve.VR.IVRSystem
   #pragma pack(pop)
   static check_size<sizeof(IVRSystem), 368 + sizeof(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*)> __Valve_VR_IVRSystemSizeCheck;

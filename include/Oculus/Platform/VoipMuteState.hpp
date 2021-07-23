@@ -52,6 +52,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::VoipMuteState _get_Unmuted();
     // Set static field: static public Oculus.Platform.VoipMuteState Unmuted
     static void _set_Unmuted(Oculus::Platform::VoipMuteState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.VoipMuteState
   #pragma pack(pop)
   static check_size<sizeof(VoipMuteState), 0 + sizeof(int)> __Oculus_Platform_VoipMuteStateSizeCheck;

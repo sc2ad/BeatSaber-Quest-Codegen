@@ -100,6 +100,46 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Offset
     Offset(::Il2CppString* name_ = {}, UnityEngine::Collider* collider_ = {}, float crossFadeTime_ = {}, float crossFader_ = {}, float timer_ = {}, UnityEngine::Vector3 force_ = {}, UnityEngine::Vector3 point_ = {}, float length_ = {}, float crossFadeSpeed_ = {}, float lastTime_ = {}) noexcept : name{name_}, collider{collider_}, crossFadeTime{crossFadeTime_}, crossFader{crossFader_}, timer{timer_}, force{force_}, point{point_}, length{length_}, crossFadeSpeed{crossFadeSpeed_}, lastTime{lastTime_} {}
+    // Get instance field: public System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: public System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: public UnityEngine.Collider collider
+    UnityEngine::Collider* _get_collider();
+    // Set instance field: public UnityEngine.Collider collider
+    void _set_collider(UnityEngine::Collider* value);
+    // Get instance field: private System.Single crossFadeTime
+    float _get_crossFadeTime();
+    // Set instance field: private System.Single crossFadeTime
+    void _set_crossFadeTime(float value);
+    // Get instance field: private System.Single <crossFader>k__BackingField
+    float _get_$crossFader$k__BackingField();
+    // Set instance field: private System.Single <crossFader>k__BackingField
+    void _set_$crossFader$k__BackingField(float value);
+    // Get instance field: private System.Single <timer>k__BackingField
+    float _get_$timer$k__BackingField();
+    // Set instance field: private System.Single <timer>k__BackingField
+    void _set_$timer$k__BackingField(float value);
+    // Get instance field: private UnityEngine.Vector3 <force>k__BackingField
+    UnityEngine::Vector3 _get_$force$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <force>k__BackingField
+    void _set_$force$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 <point>k__BackingField
+    UnityEngine::Vector3 _get_$point$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <point>k__BackingField
+    void _set_$point$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single length
+    float _get_length();
+    // Set instance field: private System.Single length
+    void _set_length(float value);
+    // Get instance field: private System.Single crossFadeSpeed
+    float _get_crossFadeSpeed();
+    // Set instance field: private System.Single crossFadeSpeed
+    void _set_crossFadeSpeed(float value);
+    // Get instance field: private System.Single lastTime
+    float _get_lastTime();
+    // Set instance field: private System.Single lastTime
+    void _set_lastTime(float value);
     // protected System.Single get_crossFader()
     // Offset: 0x1C958AC
     float get_crossFader();

@@ -55,6 +55,10 @@ namespace NUnit::Framework::Constraints {
     static NUnit::Framework::Constraints::ToleranceMode _get_Ulps();
     // Set static field: static public NUnit.Framework.Constraints.ToleranceMode Ulps
     static void _set_Ulps(NUnit::Framework::Constraints::ToleranceMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // NUnit.Framework.Constraints.ToleranceMode
   #pragma pack(pop)
   static check_size<sizeof(ToleranceMode), 0 + sizeof(int)> __NUnit_Framework_Constraints_ToleranceModeSizeCheck;

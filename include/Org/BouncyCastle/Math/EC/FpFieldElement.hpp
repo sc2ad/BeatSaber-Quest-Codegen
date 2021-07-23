@@ -50,6 +50,18 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: FpFieldElement
     FpFieldElement(Org::BouncyCastle::Math::BigInteger* q_ = {}, Org::BouncyCastle::Math::BigInteger* r_ = {}, Org::BouncyCastle::Math::BigInteger* x_ = {}) noexcept : q{q_}, r{r_}, x{x_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger q
+    Org::BouncyCastle::Math::BigInteger* _get_q();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger q
+    void _set_q(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger r
+    Org::BouncyCastle::Math::BigInteger* _get_r();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger r
+    void _set_r(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger x
+    Org::BouncyCastle::Math::BigInteger* _get_x();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger x
+    void _set_x(Org::BouncyCastle::Math::BigInteger* value);
     // System.Void .ctor(Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger r, Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x20EE718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

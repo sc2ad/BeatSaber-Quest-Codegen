@@ -38,6 +38,14 @@ namespace System::Collections::Concurrent {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 Head
+    int _get_Head();
+    // Set instance field: public System.Int32 Head
+    void _set_Head(int value);
+    // Get instance field: public System.Int32 Tail
+    int _get_Tail();
+    // Set instance field: public System.Int32 Tail
+    void _set_Tail(int value);
   }; // System.Collections.Concurrent.PaddedHeadAndTail
   #pragma pack(pop)
   static check_size<sizeof(PaddedHeadAndTail), 256 + sizeof(int)> __System_Collections_Concurrent_PaddedHeadAndTailSizeCheck;

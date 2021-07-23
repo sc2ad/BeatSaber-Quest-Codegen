@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::GameNoteController_GameNoteType _get_Ghost();
     // Set static field: static public GameNoteController/GameNoteType Ghost
     static void _set_Ghost(GlobalNamespace::GameNoteController_GameNoteType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // GameNoteController/GameNoteType
   #pragma pack(pop)
   static check_size<sizeof(GameNoteController_GameNoteType), 0 + sizeof(int)> __GlobalNamespace_GameNoteController_GameNoteTypeSizeCheck;

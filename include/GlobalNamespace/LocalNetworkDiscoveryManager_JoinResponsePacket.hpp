@@ -84,6 +84,34 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.Int32 multiplayerPort
+    int _get_multiplayerPort();
+    // Set instance field: public System.Int32 multiplayerPort
+    void _set_multiplayerPort(int value);
+    // Get instance field: public System.Boolean blocked
+    bool _get_blocked();
+    // Set instance field: public System.Boolean blocked
+    void _set_blocked(bool value);
+    // Get instance field: public System.Boolean isPartyOwner
+    bool _get_isPartyOwner();
+    // Set instance field: public System.Boolean isPartyOwner
+    void _set_isPartyOwner(bool value);
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x11745F0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);

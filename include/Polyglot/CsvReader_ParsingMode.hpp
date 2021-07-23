@@ -51,6 +51,10 @@ namespace Polyglot {
     static Polyglot::CsvReader::ParsingMode _get_InQuote();
     // Set static field: static public Polyglot.CsvReader/Polyglot.ParsingMode InQuote
     static void _set_InQuote(Polyglot::CsvReader::ParsingMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Polyglot.CsvReader/Polyglot.ParsingMode
   #pragma pack(pop)
   static check_size<sizeof(CsvReader::ParsingMode), 0 + sizeof(int)> __Polyglot_CsvReader_ParsingModeSizeCheck;

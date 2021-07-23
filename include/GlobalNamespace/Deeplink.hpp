@@ -61,6 +61,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint64_t) == 0x8);
     // Creating value type constructor for type: Deeplink
     Deeplink(::Il2CppString* Destination_ = {}, ::Il2CppString* LevelID_ = {}, ::Il2CppString* PackID_ = {}, ::Il2CppString* Difficulty_ = {}, ::Il2CppString* Characteristic_ = {}, ::Il2CppString* MultiplayerLobbyCode_ = {}, uint64_t MultiplayerRoomId_ = {}) noexcept : Destination{Destination_}, LevelID{LevelID_}, PackID{PackID_}, Difficulty{Difficulty_}, Characteristic{Characteristic_}, MultiplayerLobbyCode{MultiplayerLobbyCode_}, MultiplayerRoomId{MultiplayerRoomId_} {}
+    // Get instance field: public System.String Destination
+    ::Il2CppString* _get_Destination();
+    // Set instance field: public System.String Destination
+    void _set_Destination(::Il2CppString* value);
+    // Get instance field: public System.String LevelID
+    ::Il2CppString* _get_LevelID();
+    // Set instance field: public System.String LevelID
+    void _set_LevelID(::Il2CppString* value);
+    // Get instance field: public System.String PackID
+    ::Il2CppString* _get_PackID();
+    // Set instance field: public System.String PackID
+    void _set_PackID(::Il2CppString* value);
+    // Get instance field: public System.String Difficulty
+    ::Il2CppString* _get_Difficulty();
+    // Set instance field: public System.String Difficulty
+    void _set_Difficulty(::Il2CppString* value);
+    // Get instance field: public System.String Characteristic
+    ::Il2CppString* _get_Characteristic();
+    // Set instance field: public System.String Characteristic
+    void _set_Characteristic(::Il2CppString* value);
+    // Get instance field: public System.String MultiplayerLobbyCode
+    ::Il2CppString* _get_MultiplayerLobbyCode();
+    // Set instance field: public System.String MultiplayerLobbyCode
+    void _set_MultiplayerLobbyCode(::Il2CppString* value);
+    // Get instance field: public System.UInt64 MultiplayerRoomId
+    uint64_t _get_MultiplayerRoomId();
+    // Set instance field: public System.UInt64 MultiplayerRoomId
+    void _set_MultiplayerRoomId(uint64_t value);
     // public System.Void .ctor()
     // Offset: 0x1088950
     // Implemented from: System.Object

@@ -235,6 +235,10 @@ namespace System {
     static System::TermInfoNumbers _get_Last();
     // Set static field: static public System.TermInfoNumbers Last
     static void _set_Last(System::TermInfoNumbers value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.TermInfoNumbers
   #pragma pack(pop)
   static check_size<sizeof(TermInfoNumbers), 0 + sizeof(int)> __System_TermInfoNumbersSizeCheck;

@@ -42,6 +42,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRResources/OVR.OpenVR._LoadSharedResource LoadSharedResource
+    OVR::OpenVR::IVRResources::_LoadSharedResource* _get_LoadSharedResource();
+    // Set instance field: OVR.OpenVR.IVRResources/OVR.OpenVR._LoadSharedResource LoadSharedResource
+    void _set_LoadSharedResource(OVR::OpenVR::IVRResources::_LoadSharedResource* value);
+    // Get instance field: OVR.OpenVR.IVRResources/OVR.OpenVR._GetResourceFullPath GetResourceFullPath
+    OVR::OpenVR::IVRResources::_GetResourceFullPath* _get_GetResourceFullPath();
+    // Set instance field: OVR.OpenVR.IVRResources/OVR.OpenVR._GetResourceFullPath GetResourceFullPath
+    void _set_GetResourceFullPath(OVR::OpenVR::IVRResources::_GetResourceFullPath* value);
   }; // OVR.OpenVR.IVRResources
   #pragma pack(pop)
   static check_size<sizeof(IVRResources), 8 + sizeof(OVR::OpenVR::IVRResources::_GetResourceFullPath*)> __OVR_OpenVR_IVRResourcesSizeCheck;

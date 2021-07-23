@@ -55,6 +55,10 @@ namespace System::Threading {
     static System::Threading::StackCrawlMark _get_LookForThread();
     // Set static field: static public System.Threading.StackCrawlMark LookForThread
     static void _set_LookForThread(System::Threading::StackCrawlMark value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Threading.StackCrawlMark
   #pragma pack(pop)
   static check_size<sizeof(StackCrawlMark), 0 + sizeof(int)> __System_Threading_StackCrawlMarkSizeCheck;

@@ -84,6 +84,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* _get_k_DefaultImportSettings();
     // Set static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings
     static void _set_k_DefaultImportSettings(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* value);
+    // Get instance field: private UnityEngine.Mesh m_SourceMesh
+    UnityEngine::Mesh* _get_m_SourceMesh();
+    // Set instance field: private UnityEngine.Mesh m_SourceMesh
+    void _set_m_SourceMesh(UnityEngine::Mesh* value);
+    // Get instance field: private UnityEngine.Material[] m_SourceMaterials
+    ::Array<UnityEngine::Material*>* _get_m_SourceMaterials();
+    // Set instance field: private UnityEngine.Material[] m_SourceMaterials
+    void _set_m_SourceMaterials(::Array<UnityEngine::Material*>* value);
+    // Get instance field: private UnityEngine.ProBuilder.ProBuilderMesh m_Destination
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_m_Destination();
+    // Set instance field: private UnityEngine.ProBuilder.ProBuilderMesh m_Destination
+    void _set_m_Destination(UnityEngine::ProBuilder::ProBuilderMesh* value);
+    // Get instance field: private UnityEngine.ProBuilder.Vertex[] m_Vertices
+    ::Array<UnityEngine::ProBuilder::Vertex*>* _get_m_Vertices();
+    // Set instance field: private UnityEngine.ProBuilder.Vertex[] m_Vertices
+    void _set_m_Vertices(::Array<UnityEngine::ProBuilder::Vertex*>* value);
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
     // Offset: 0x16F1554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

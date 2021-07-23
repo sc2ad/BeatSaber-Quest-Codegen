@@ -40,6 +40,18 @@ namespace NUnit::Framework::Interfaces {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: TestOutput
     TestOutput(::Il2CppString* Text_ = {}, ::Il2CppString* Stream_ = {}, ::Il2CppString* TestName_ = {}) noexcept : Text{Text_}, Stream{Stream_}, TestName{TestName_} {}
+    // Get instance field: private System.String <Text>k__BackingField
+    ::Il2CppString* _get_$Text$k__BackingField();
+    // Set instance field: private System.String <Text>k__BackingField
+    void _set_$Text$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <Stream>k__BackingField
+    ::Il2CppString* _get_$Stream$k__BackingField();
+    // Set instance field: private System.String <Stream>k__BackingField
+    void _set_$Stream$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <TestName>k__BackingField
+    ::Il2CppString* _get_$TestName$k__BackingField();
+    // Set instance field: private System.String <TestName>k__BackingField
+    void _set_$TestName$k__BackingField(::Il2CppString* value);
     // public System.String get_Text()
     // Offset: 0x1722110
     ::Il2CppString* get_Text();

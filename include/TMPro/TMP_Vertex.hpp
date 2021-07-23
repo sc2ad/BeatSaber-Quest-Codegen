@@ -58,6 +58,26 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.Vector3 position
+    UnityEngine::Vector3 _get_position();
+    // Set instance field: public UnityEngine.Vector3 position
+    void _set_position(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector2 uv
+    UnityEngine::Vector2 _get_uv();
+    // Set instance field: public UnityEngine.Vector2 uv
+    void _set_uv(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 uv2
+    UnityEngine::Vector2 _get_uv2();
+    // Set instance field: public UnityEngine.Vector2 uv2
+    void _set_uv2(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Vector2 uv4
+    UnityEngine::Vector2 _get_uv4();
+    // Set instance field: public UnityEngine.Vector2 uv4
+    void _set_uv4(UnityEngine::Vector2 value);
+    // Get instance field: public UnityEngine.Color32 color
+    UnityEngine::Color32 _get_color();
+    // Set instance field: public UnityEngine.Color32 color
+    void _set_color(UnityEngine::Color32 value);
   }; // TMPro.TMP_Vertex
   #pragma pack(pop)
   static check_size<sizeof(TMP_Vertex), 36 + sizeof(UnityEngine::Color32)> __TMPro_TMP_VertexSizeCheck;

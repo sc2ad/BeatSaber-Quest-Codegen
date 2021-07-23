@@ -58,6 +58,14 @@ namespace Org::BouncyCastle::Asn1 {
     static ::Array<Org::BouncyCastle::Asn1::DerObjectIdentifier*>* _get_cache();
     // Set static field: static private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier[] cache
     static void _set_cache(::Array<Org::BouncyCastle::Asn1::DerObjectIdentifier*>* value);
+    // Get instance field: private readonly System.String identifier
+    ::Il2CppString* _get_identifier();
+    // Set instance field: private readonly System.String identifier
+    void _set_identifier(::Il2CppString* value);
+    // Get instance field: private System.Byte[] body
+    ::Array<uint8_t>* _get_body();
+    // Set instance field: private System.Byte[] body
+    void _set_body(::Array<uint8_t>* value);
     // public System.String get_Id()
     // Offset: 0x16EB0C0
     ::Il2CppString* get_Id();

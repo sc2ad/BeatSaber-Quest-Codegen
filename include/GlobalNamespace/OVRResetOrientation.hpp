@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     OVRResetOrientation(GlobalNamespace::OVRInput::RawButton resetButton_ = {}) noexcept : resetButton{resetButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public OVRInput/RawButton resetButton
+    GlobalNamespace::OVRInput::RawButton _get_resetButton();
+    // Set instance field: public OVRInput/RawButton resetButton
+    void _set_resetButton(GlobalNamespace::OVRInput::RawButton value);
     // private System.Void Update()
     // Offset: 0x15F9E14
     void Update();

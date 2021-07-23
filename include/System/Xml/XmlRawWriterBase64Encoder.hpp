@@ -38,6 +38,10 @@ namespace System::Xml {
     constexpr operator System::Xml::XmlRawWriter*() const noexcept {
       return rawWriter;
     }
+    // Get instance field: private System.Xml.XmlRawWriter rawWriter
+    System::Xml::XmlRawWriter* _get_rawWriter();
+    // Set instance field: private System.Xml.XmlRawWriter rawWriter
+    void _set_rawWriter(System::Xml::XmlRawWriter* value);
     // System.Void .ctor(System.Xml.XmlRawWriter rawWriter)
     // Offset: 0x190E4DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

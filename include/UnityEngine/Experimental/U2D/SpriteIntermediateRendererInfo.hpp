@@ -122,6 +122,66 @@ namespace UnityEngine::Experimental::U2D {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 SpriteID
+    int _get_SpriteID();
+    // Set instance field: public System.Int32 SpriteID
+    void _set_SpriteID(int value);
+    // Get instance field: public System.Int32 TextureID
+    int _get_TextureID();
+    // Set instance field: public System.Int32 TextureID
+    void _set_TextureID(int value);
+    // Get instance field: public System.Int32 MaterialID
+    int _get_MaterialID();
+    // Set instance field: public System.Int32 MaterialID
+    void _set_MaterialID(int value);
+    // Get instance field: public UnityEngine.Color Color
+    UnityEngine::Color _get_Color();
+    // Set instance field: public UnityEngine.Color Color
+    void _set_Color(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Matrix4x4 Transform
+    UnityEngine::Matrix4x4 _get_Transform();
+    // Set instance field: public UnityEngine.Matrix4x4 Transform
+    void _set_Transform(UnityEngine::Matrix4x4 value);
+    // Get instance field: public UnityEngine.Bounds Bounds
+    UnityEngine::Bounds _get_Bounds();
+    // Set instance field: public UnityEngine.Bounds Bounds
+    void _set_Bounds(UnityEngine::Bounds value);
+    // Get instance field: public System.Int32 Layer
+    int _get_Layer();
+    // Set instance field: public System.Int32 Layer
+    void _set_Layer(int value);
+    // Get instance field: public System.Int32 SortingLayer
+    int _get_SortingLayer();
+    // Set instance field: public System.Int32 SortingLayer
+    void _set_SortingLayer(int value);
+    // Get instance field: public System.Int32 SortingOrder
+    int _get_SortingOrder();
+    // Set instance field: public System.Int32 SortingOrder
+    void _set_SortingOrder(int value);
+    // Get instance field: public System.UInt64 SceneCullingMask
+    uint64_t _get_SceneCullingMask();
+    // Set instance field: public System.UInt64 SceneCullingMask
+    void _set_SceneCullingMask(uint64_t value);
+    // Get instance field: public System.IntPtr IndexData
+    System::IntPtr _get_IndexData();
+    // Set instance field: public System.IntPtr IndexData
+    void _set_IndexData(System::IntPtr value);
+    // Get instance field: public System.IntPtr VertexData
+    System::IntPtr _get_VertexData();
+    // Set instance field: public System.IntPtr VertexData
+    void _set_VertexData(System::IntPtr value);
+    // Get instance field: public System.Int32 IndexCount
+    int _get_IndexCount();
+    // Set instance field: public System.Int32 IndexCount
+    void _set_IndexCount(int value);
+    // Get instance field: public System.Int32 VertexCount
+    int _get_VertexCount();
+    // Set instance field: public System.Int32 VertexCount
+    void _set_VertexCount(int value);
+    // Get instance field: public System.Int32 ShaderChannelMask
+    int _get_ShaderChannelMask();
+    // Set instance field: public System.Int32 ShaderChannelMask
+    void _set_ShaderChannelMask(int value);
   }; // UnityEngine.Experimental.U2D.SpriteIntermediateRendererInfo
   #pragma pack(pop)
   static check_size<sizeof(SpriteIntermediateRendererInfo), 160 + sizeof(int)> __UnityEngine_Experimental_U2D_SpriteIntermediateRendererInfoSizeCheck;

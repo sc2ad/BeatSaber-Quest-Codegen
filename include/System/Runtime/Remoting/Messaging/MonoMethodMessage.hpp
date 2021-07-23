@@ -165,6 +165,58 @@ namespace System::Runtime::Remoting::Messaging {
     static ::Il2CppString* _get_UriKey();
     // Set static field: static System.String UriKey
     static void _set_UriKey(::Il2CppString* value);
+    // Get instance field: private System.Reflection.MonoMethod method
+    System::Reflection::MonoMethod* _get_method();
+    // Set instance field: private System.Reflection.MonoMethod method
+    void _set_method(System::Reflection::MonoMethod* value);
+    // Get instance field: private System.Object[] args
+    ::Array<::Il2CppObject*>* _get_args();
+    // Set instance field: private System.Object[] args
+    void _set_args(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.String[] names
+    ::Array<::Il2CppString*>* _get_names();
+    // Set instance field: private System.String[] names
+    void _set_names(::Array<::Il2CppString*>* value);
+    // Get instance field: private System.Byte[] arg_types
+    ::Array<uint8_t>* _get_arg_types();
+    // Set instance field: private System.Byte[] arg_types
+    void _set_arg_types(::Array<uint8_t>* value);
+    // Get instance field: public System.Runtime.Remoting.Messaging.LogicalCallContext ctx
+    System::Runtime::Remoting::Messaging::LogicalCallContext* _get_ctx();
+    // Set instance field: public System.Runtime.Remoting.Messaging.LogicalCallContext ctx
+    void _set_ctx(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
+    // Get instance field: public System.Object rval
+    ::Il2CppObject* _get_rval();
+    // Set instance field: public System.Object rval
+    void _set_rval(::Il2CppObject* value);
+    // Get instance field: public System.Exception exc
+    System::Exception* _get_exc();
+    // Set instance field: public System.Exception exc
+    void _set_exc(System::Exception* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.AsyncResult asyncResult
+    System::Runtime::Remoting::Messaging::AsyncResult* _get_asyncResult();
+    // Set instance field: private System.Runtime.Remoting.Messaging.AsyncResult asyncResult
+    void _set_asyncResult(System::Runtime::Remoting::Messaging::AsyncResult* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.CallType call_type
+    System::Runtime::Remoting::Messaging::CallType _get_call_type();
+    // Set instance field: private System.Runtime.Remoting.Messaging.CallType call_type
+    void _set_call_type(System::Runtime::Remoting::Messaging::CallType value);
+    // Get instance field: private System.String uri
+    ::Il2CppString* _get_uri();
+    // Set instance field: private System.String uri
+    void _set_uri(::Il2CppString* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.MCMDictionary properties
+    System::Runtime::Remoting::Messaging::MCMDictionary* _get_properties();
+    // Set instance field: private System.Runtime.Remoting.Messaging.MCMDictionary properties
+    void _set_properties(System::Runtime::Remoting::Messaging::MCMDictionary* value);
+    // Get instance field: private System.Type[] methodSignature
+    ::Array<System::Type*>* _get_methodSignature();
+    // Set instance field: private System.Type[] methodSignature
+    void _set_methodSignature(::Array<System::Type*>* value);
+    // Get instance field: private System.Runtime.Remoting.Identity identity
+    System::Runtime::Remoting::Identity* _get_identity();
+    // Set instance field: private System.Runtime.Remoting.Identity identity
+    void _set_identity(System::Runtime::Remoting::Identity* value);
     // public System.Collections.IDictionary get_Properties()
     // Offset: 0x19FF72C
     System::Collections::IDictionary* get_Properties();

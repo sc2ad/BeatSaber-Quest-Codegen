@@ -74,6 +74,34 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
+    // Get instance field: private System.Byte[] IV
+    ::Array<uint8_t>* _get_IV();
+    // Set instance field: private System.Byte[] IV
+    void _set_IV(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] FR
+    ::Array<uint8_t>* _get_FR();
+    // Set instance field: private System.Byte[] FR
+    void _set_FR(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] FRE
+    ::Array<uint8_t>* _get_FRE();
+    // Set instance field: private System.Byte[] FRE
+    void _set_FRE(::Array<uint8_t>* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
+    // Get instance field: private readonly System.Int32 blockSize
+    int _get_blockSize();
+    // Set instance field: private readonly System.Int32 blockSize
+    void _set_blockSize(int value);
+    // Get instance field: private System.Int32 count
+    int _get_count();
+    // Set instance field: private System.Int32 count
+    void _set_count(int value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
     // public System.String get_AlgorithmName()
     // Offset: 0x12238B0
     ::Il2CppString* get_AlgorithmName();

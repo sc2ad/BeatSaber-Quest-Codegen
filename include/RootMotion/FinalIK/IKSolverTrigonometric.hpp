@@ -90,6 +90,42 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: IKSolverTrigonometric
     IKSolverTrigonometric(UnityEngine::Transform* target_ = {}, float IKRotationWeight_ = {}, UnityEngine::Quaternion IKRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone1_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone2_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone3_ = {}, UnityEngine::Vector3 weightIKPosition_ = {}, bool directHierarchy_ = {}) noexcept : target{target_}, IKRotationWeight{IKRotationWeight_}, IKRotation{IKRotation_}, bendNormal{bendNormal_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, weightIKPosition{weightIKPosition_}, directHierarchy{directHierarchy_} {}
+    // Get instance field: public UnityEngine.Transform target
+    UnityEngine::Transform* _get_target();
+    // Set instance field: public UnityEngine.Transform target
+    void _set_target(UnityEngine::Transform* value);
+    // Get instance field: public System.Single IKRotationWeight
+    float _get_IKRotationWeight();
+    // Set instance field: public System.Single IKRotationWeight
+    void _set_IKRotationWeight(float value);
+    // Get instance field: public UnityEngine.Quaternion IKRotation
+    UnityEngine::Quaternion _get_IKRotation();
+    // Set instance field: public UnityEngine.Quaternion IKRotation
+    void _set_IKRotation(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Vector3 bendNormal
+    UnityEngine::Vector3 _get_bendNormal();
+    // Set instance field: public UnityEngine.Vector3 bendNormal
+    void _set_bendNormal(UnityEngine::Vector3 value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverTrigonometric/RootMotion.FinalIK.TrigonometricBone bone1
+    RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* _get_bone1();
+    // Set instance field: public RootMotion.FinalIK.IKSolverTrigonometric/RootMotion.FinalIK.TrigonometricBone bone1
+    void _set_bone1(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverTrigonometric/RootMotion.FinalIK.TrigonometricBone bone2
+    RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* _get_bone2();
+    // Set instance field: public RootMotion.FinalIK.IKSolverTrigonometric/RootMotion.FinalIK.TrigonometricBone bone2
+    void _set_bone2(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* value);
+    // Get instance field: public RootMotion.FinalIK.IKSolverTrigonometric/RootMotion.FinalIK.TrigonometricBone bone3
+    RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* _get_bone3();
+    // Set instance field: public RootMotion.FinalIK.IKSolverTrigonometric/RootMotion.FinalIK.TrigonometricBone bone3
+    void _set_bone3(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* value);
+    // Get instance field: protected UnityEngine.Vector3 weightIKPosition
+    UnityEngine::Vector3 _get_weightIKPosition();
+    // Set instance field: protected UnityEngine.Vector3 weightIKPosition
+    void _set_weightIKPosition(UnityEngine::Vector3 value);
+    // Get instance field: protected System.Boolean directHierarchy
+    bool _get_directHierarchy();
+    // Set instance field: protected System.Boolean directHierarchy
+    void _set_directHierarchy(bool value);
     // public System.Void SetBendGoalPosition(UnityEngine.Vector3 goalPosition, System.Single weight)
     // Offset: 0x1C6C20C
     void SetBendGoalPosition(UnityEngine::Vector3 goalPosition, float weight);

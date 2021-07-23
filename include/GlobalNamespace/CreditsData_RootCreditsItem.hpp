@@ -47,6 +47,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>*) == 0x8);
     // Creating value type constructor for type: RootCreditsItem
     RootCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}, int rowCountOverride_ = {}, ::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>* creditsItems_ = {}) noexcept : title{title_}, text{text_}, rowCountOverride{rowCountOverride_}, creditsItems{creditsItems_} {}
+    // Get instance field: public CreditsData/Text title
+    GlobalNamespace::CreditsData::Text* _get_title();
+    // Set instance field: public CreditsData/Text title
+    void _set_title(GlobalNamespace::CreditsData::Text* value);
+    // Get instance field: public CreditsData/Text text
+    GlobalNamespace::CreditsData::Text* _get_text();
+    // Set instance field: public CreditsData/Text text
+    void _set_text(GlobalNamespace::CreditsData::Text* value);
+    // Get instance field: public System.Int32 rowCountOverride
+    int _get_rowCountOverride();
+    // Set instance field: public System.Int32 rowCountOverride
+    void _set_rowCountOverride(int value);
+    // Get instance field: public CreditsData/ChildCreditsItem[] creditsItems
+    ::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>* _get_creditsItems();
+    // Set instance field: public CreditsData/ChildCreditsItem[] creditsItems
+    void _set_creditsItems(::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>* value);
     // public System.Boolean HasTitle()
     // Offset: 0x1083650
     bool HasTitle();

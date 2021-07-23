@@ -61,6 +61,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapDifficulty _get_ExpertPlus();
     // Set static field: static public BeatmapDifficulty ExpertPlus
     static void _set_ExpertPlus(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // BeatmapDifficulty
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDifficulty), 0 + sizeof(int)> __GlobalNamespace_BeatmapDifficultySizeCheck;

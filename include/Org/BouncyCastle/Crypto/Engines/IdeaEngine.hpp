@@ -50,6 +50,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_BASE();
     // Set static field: static private readonly System.Int32 BASE
     static void _set_BASE(int value);
+    // Get instance field: private System.Int32[] workingKey
+    ::Array<int>* _get_workingKey();
+    // Set instance field: private System.Int32[] workingKey
+    void _set_workingKey(::Array<int>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E097B0
     ::Il2CppString* get_AlgorithmName();

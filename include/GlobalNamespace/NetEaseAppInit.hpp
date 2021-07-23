@@ -50,6 +50,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
     // Creating value type constructor for type: NetEaseAppInit
     NetEaseAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* netEaseLoginSceneTransitionSetupData_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : mainSystemInit{mainSystemInit_}, netEaseLoginSceneTransitionSetupData{netEaseLoginSceneTransitionSetupData_}, mainSettingsModel{mainSettingsModel_} {}
+    // Get instance field: private MainSystemInit _mainSystemInit
+    GlobalNamespace::MainSystemInit* _get__mainSystemInit();
+    // Set instance field: private MainSystemInit _mainSystemInit
+    void _set__mainSystemInit(GlobalNamespace::MainSystemInit* value);
+    // Get instance field: private NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO _netEaseLoginSceneTransitionSetupData
+    GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* _get__netEaseLoginSceneTransitionSetupData();
+    // Set instance field: private NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO _netEaseLoginSceneTransitionSetupData
+    void _set__netEaseLoginSceneTransitionSetupData(GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
     // public System.Void .ctor()
     // Offset: 0x100EEB0
     // Implemented from: AppInit

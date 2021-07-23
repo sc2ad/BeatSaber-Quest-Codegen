@@ -42,6 +42,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept {
       return noteLineLayer;
     }
+    // Get instance field: public readonly NoteLineLayer noteLineLayer
+    GlobalNamespace::NoteLineLayer _get_noteLineLayer();
+    // Set instance field: public readonly NoteLineLayer noteLineLayer
+    void _set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     // Offset: 0x1076A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

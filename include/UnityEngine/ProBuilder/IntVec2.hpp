@@ -44,6 +44,10 @@ namespace UnityEngine::ProBuilder {
     constexpr operator UnityEngine::Vector2() const noexcept {
       return value;
     }
+    // Get instance field: public UnityEngine.Vector2 value
+    UnityEngine::Vector2 _get_value();
+    // Set instance field: public UnityEngine.Vector2 value
+    void _set_value(UnityEngine::Vector2 value);
     // public System.Single get_x()
     // Offset: 0xEEEC68
     float get_x();

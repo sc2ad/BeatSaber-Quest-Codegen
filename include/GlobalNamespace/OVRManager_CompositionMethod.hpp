@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_CompositionMethod _get_Direct();
     // Set static field: static public OVRManager/CompositionMethod Direct
     static void _set_Direct(GlobalNamespace::OVRManager_CompositionMethod value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRManager/CompositionMethod
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_CompositionMethod), 0 + sizeof(int)> __GlobalNamespace_OVRManager_CompositionMethodSizeCheck;

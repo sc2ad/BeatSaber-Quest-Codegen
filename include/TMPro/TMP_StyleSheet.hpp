@@ -55,6 +55,14 @@ namespace TMPro {
     static TMPro::TMP_StyleSheet* _get_s_Instance();
     // Set static field: static private TMPro.TMP_StyleSheet s_Instance
     static void _set_s_Instance(TMPro::TMP_StyleSheet* value);
+    // Get instance field: private System.Collections.Generic.List`1<TMPro.TMP_Style> m_StyleList
+    System::Collections::Generic::List_1<TMPro::TMP_Style*>* _get_m_StyleList();
+    // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_Style> m_StyleList
+    void _set_m_StyleList(System::Collections::Generic::List_1<TMPro::TMP_Style*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style> m_StyleDictionary
+    System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* _get_m_StyleDictionary();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style> m_StyleDictionary
+    void _set_m_StyleDictionary(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* value);
     // static public TMPro.TMP_StyleSheet get_instance()
     // Offset: 0x1116118
     static TMPro::TMP_StyleSheet* get_instance();

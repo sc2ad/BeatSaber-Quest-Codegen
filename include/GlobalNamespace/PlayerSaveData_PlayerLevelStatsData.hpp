@@ -85,6 +85,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PlayerLevelStatsData
     PlayerLevelStatsData(::Il2CppString* levelId_ = {}, GlobalNamespace::BeatmapDifficulty difficulty_ = {}, ::Il2CppString* beatmapCharacteristicName_ = {}, int highScore_ = {}, int maxCombo_ = {}, bool fullCombo_ = {}, GlobalNamespace::RankModel::Rank maxRank_ = {}, bool validScore_ = {}, int playCount_ = {}) noexcept : levelId{levelId_}, difficulty{difficulty_}, beatmapCharacteristicName{beatmapCharacteristicName_}, highScore{highScore_}, maxCombo{maxCombo_}, fullCombo{fullCombo_}, maxRank{maxRank_}, validScore{validScore_}, playCount{playCount_} {}
+    // Get instance field: public System.String levelId
+    ::Il2CppString* _get_levelId();
+    // Set instance field: public System.String levelId
+    void _set_levelId(::Il2CppString* value);
+    // Get instance field: public BeatmapDifficulty difficulty
+    GlobalNamespace::BeatmapDifficulty _get_difficulty();
+    // Set instance field: public BeatmapDifficulty difficulty
+    void _set_difficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: public System.String beatmapCharacteristicName
+    ::Il2CppString* _get_beatmapCharacteristicName();
+    // Set instance field: public System.String beatmapCharacteristicName
+    void _set_beatmapCharacteristicName(::Il2CppString* value);
+    // Get instance field: public System.Int32 highScore
+    int _get_highScore();
+    // Set instance field: public System.Int32 highScore
+    void _set_highScore(int value);
+    // Get instance field: public System.Int32 maxCombo
+    int _get_maxCombo();
+    // Set instance field: public System.Int32 maxCombo
+    void _set_maxCombo(int value);
+    // Get instance field: public System.Boolean fullCombo
+    bool _get_fullCombo();
+    // Set instance field: public System.Boolean fullCombo
+    void _set_fullCombo(bool value);
+    // Get instance field: public RankModel/Rank maxRank
+    GlobalNamespace::RankModel::Rank _get_maxRank();
+    // Set instance field: public RankModel/Rank maxRank
+    void _set_maxRank(GlobalNamespace::RankModel::Rank value);
+    // Get instance field: public System.Boolean validScore
+    bool _get_validScore();
+    // Set instance field: public System.Boolean validScore
+    void _set_validScore(bool value);
+    // Get instance field: public System.Int32 playCount
+    int _get_playCount();
+    // Set instance field: public System.Int32 playCount
+    void _set_playCount(int value);
     // public System.Void .ctor()
     // Offset: 0x1102298
     // Implemented from: System.Object

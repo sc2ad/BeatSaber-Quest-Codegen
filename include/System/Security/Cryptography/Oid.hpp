@@ -39,6 +39,18 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(System::Security::Cryptography::OidGroup) == 0x4);
     // Creating value type constructor for type: Oid
     Oid(::Il2CppString* m_value_ = {}, ::Il2CppString* m_friendlyName_ = {}, System::Security::Cryptography::OidGroup m_group_ = {}) noexcept : m_value{m_value_}, m_friendlyName{m_friendlyName_}, m_group{m_group_} {}
+    // Get instance field: private System.String m_value
+    ::Il2CppString* _get_m_value();
+    // Set instance field: private System.String m_value
+    void _set_m_value(::Il2CppString* value);
+    // Get instance field: private System.String m_friendlyName
+    ::Il2CppString* _get_m_friendlyName();
+    // Set instance field: private System.String m_friendlyName
+    void _set_m_friendlyName(::Il2CppString* value);
+    // Get instance field: private System.Security.Cryptography.OidGroup m_group
+    System::Security::Cryptography::OidGroup _get_m_group();
+    // Set instance field: private System.Security.Cryptography.OidGroup m_group
+    void _set_m_group(System::Security::Cryptography::OidGroup value);
     // public System.String get_Value()
     // Offset: 0x18244B4
     ::Il2CppString* get_Value();

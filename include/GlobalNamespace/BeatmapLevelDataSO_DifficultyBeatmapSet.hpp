@@ -35,6 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>*) == 0x8);
     // Creating value type constructor for type: DifficultyBeatmapSet
     DifficultyBeatmapSet(::Il2CppString* beatmapCharacteristicSerializedName_ = {}, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* difficultyBeatmaps_ = {}) noexcept : beatmapCharacteristicSerializedName{beatmapCharacteristicSerializedName_}, difficultyBeatmaps{difficultyBeatmaps_} {}
+    // Get instance field: private System.String _beatmapCharacteristicSerializedName
+    ::Il2CppString* _get__beatmapCharacteristicSerializedName();
+    // Set instance field: private System.String _beatmapCharacteristicSerializedName
+    void _set__beatmapCharacteristicSerializedName(::Il2CppString* value);
+    // Get instance field: private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
+    ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* _get__difficultyBeatmaps();
+    // Set instance field: private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
+    void _set__difficultyBeatmaps(::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* value);
     // public System.String get_beatmapCharacteristicSerializedName()
     // Offset: 0x11981C0
     ::Il2CppString* get_beatmapCharacteristicSerializedName();

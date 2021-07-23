@@ -45,6 +45,10 @@ namespace System {
     static System::StringSplitOptions _get_RemoveEmptyEntries();
     // Set static field: static public System.StringSplitOptions RemoveEmptyEntries
     static void _set_RemoveEmptyEntries(System::StringSplitOptions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.StringSplitOptions
   #pragma pack(pop)
   static check_size<sizeof(StringSplitOptions), 0 + sizeof(int)> __System_StringSplitOptionsSizeCheck;

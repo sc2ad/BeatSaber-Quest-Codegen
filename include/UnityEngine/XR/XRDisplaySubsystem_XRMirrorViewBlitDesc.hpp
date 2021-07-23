@@ -53,6 +53,22 @@ namespace UnityEngine::XR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.IntPtr displaySubsystemInstance
+    System::IntPtr _get_displaySubsystemInstance();
+    // Set instance field: private System.IntPtr displaySubsystemInstance
+    void _set_displaySubsystemInstance(System::IntPtr value);
+    // Get instance field: public System.Boolean nativeBlitAvailable
+    bool _get_nativeBlitAvailable();
+    // Set instance field: public System.Boolean nativeBlitAvailable
+    void _set_nativeBlitAvailable(bool value);
+    // Get instance field: public System.Boolean nativeBlitInvalidStates
+    bool _get_nativeBlitInvalidStates();
+    // Set instance field: public System.Boolean nativeBlitInvalidStates
+    void _set_nativeBlitInvalidStates(bool value);
+    // Get instance field: public System.Int32 blitParamsCount
+    int _get_blitParamsCount();
+    // Set instance field: public System.Int32 blitParamsCount
+    void _set_blitParamsCount(int value);
   }; // UnityEngine.XR.XRDisplaySubsystem/UnityEngine.XR.XRMirrorViewBlitDesc
   #pragma pack(pop)
   static check_size<sizeof(XRDisplaySubsystem::XRMirrorViewBlitDesc), 12 + sizeof(int)> __UnityEngine_XR_XRDisplaySubsystem_XRMirrorViewBlitDescSizeCheck;

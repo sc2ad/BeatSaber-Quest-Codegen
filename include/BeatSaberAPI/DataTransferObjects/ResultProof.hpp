@@ -29,6 +29,10 @@ namespace BeatSaberAPI::DataTransferObjects {
     constexpr operator ::Il2CppString*() const noexcept {
       return proof;
     }
+    // Get instance field: private System.String <proof>k__BackingField
+    ::Il2CppString* _get_$proof$k__BackingField();
+    // Set instance field: private System.String <proof>k__BackingField
+    void _set_$proof$k__BackingField(::Il2CppString* value);
     // public System.String get_proof()
     // Offset: 0x1188620
     ::Il2CppString* get_proof();

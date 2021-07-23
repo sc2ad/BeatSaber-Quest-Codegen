@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*() const noexcept {
       return customPreviewBeatmapLevels;
     }
+    // Get instance field: private CustomPreviewBeatmapLevel[] _customPreviewBeatmapLevels
+    ::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* _get__customPreviewBeatmapLevels();
+    // Set instance field: private CustomPreviewBeatmapLevel[] _customPreviewBeatmapLevels
+    void _set__customPreviewBeatmapLevels(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* value);
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
     // Offset: 0x1084CFC
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();

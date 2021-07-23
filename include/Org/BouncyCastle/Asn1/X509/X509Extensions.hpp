@@ -186,6 +186,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_ExpiredCertsOnCrl();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ExpiredCertsOnCrl
     static void _set_ExpiredCertsOnCrl(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field: private readonly System.Collections.IDictionary extensions
+    System::Collections::IDictionary* _get_extensions();
+    // Set instance field: private readonly System.Collections.IDictionary extensions
+    void _set_extensions(System::Collections::IDictionary* value);
+    // Get instance field: private readonly System.Collections.IList ordering
+    System::Collections::IList* _get_ordering();
+    // Set instance field: private readonly System.Collections.IList ordering
+    void _set_ordering(System::Collections::IList* value);
     // public System.Collections.IEnumerable get_ExtensionOids()
     // Offset: 0x19DED88
     System::Collections::IEnumerable* get_ExtensionOids();

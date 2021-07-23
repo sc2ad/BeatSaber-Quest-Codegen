@@ -60,6 +60,22 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);
     }
+    // Get instance field: private System.String <userId>k__BackingField
+    ::Il2CppString* _get_$userId$k__BackingField();
+    // Set instance field: private System.String <userId>k__BackingField
+    void _set_$userId$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <userName>k__BackingField
+    ::Il2CppString* _get_$userName$k__BackingField();
+    // Set instance field: private System.String <userName>k__BackingField
+    void _set_$userName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private readonly System.Int32 <sortIndex>k__BackingField
+    int _get_$sortIndex$k__BackingField();
+    // Set instance field: private readonly System.Int32 <sortIndex>k__BackingField
+    void _set_$sortIndex$k__BackingField(int value);
+    // Get instance field: private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
+    GlobalNamespace::MultiplayerAvatarData _get_$multiplayerAvatarData$k__BackingField();
+    // Set instance field: private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
+    void _set_$multiplayerAvatarData$k__BackingField(GlobalNamespace::MultiplayerAvatarData value);
     // public System.Single get_offsetSyncTime()
     // Offset: 0x12C1C78
     float get_offsetSyncTime();

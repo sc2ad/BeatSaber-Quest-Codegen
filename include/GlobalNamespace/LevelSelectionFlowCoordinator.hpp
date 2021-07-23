@@ -94,6 +94,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*) == 0x8);
     // Creating value type constructor for type: LevelSelectionFlowCoordinator
     LevelSelectionFlowCoordinator(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::LevelSelectionNavigationController* levelSelectionNavigationController_ = {}, GlobalNamespace::SearchFilterParamsViewController* searchFilterParamsViewController_ = {}, GlobalNamespace::LevelSearchViewController* levelSearchViewController_ = {}, GlobalNamespace::LevelSelectionFlowCoordinator::State* startState_ = {}) noexcept : playerDataModel{playerDataModel_}, levelSelectionNavigationController{levelSelectionNavigationController_}, searchFilterParamsViewController{searchFilterParamsViewController_}, levelSearchViewController{levelSearchViewController_}, startState{startState_} {}
+    // Get instance field: protected readonly PlayerDataModel playerDataModel
+    GlobalNamespace::PlayerDataModel* _get_playerDataModel();
+    // Set instance field: protected readonly PlayerDataModel playerDataModel
+    void _set_playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: protected readonly LevelSelectionNavigationController levelSelectionNavigationController
+    GlobalNamespace::LevelSelectionNavigationController* _get_levelSelectionNavigationController();
+    // Set instance field: protected readonly LevelSelectionNavigationController levelSelectionNavigationController
+    void _set_levelSelectionNavigationController(GlobalNamespace::LevelSelectionNavigationController* value);
+    // Get instance field: private readonly SearchFilterParamsViewController _searchFilterParamsViewController
+    GlobalNamespace::SearchFilterParamsViewController* _get__searchFilterParamsViewController();
+    // Set instance field: private readonly SearchFilterParamsViewController _searchFilterParamsViewController
+    void _set__searchFilterParamsViewController(GlobalNamespace::SearchFilterParamsViewController* value);
+    // Get instance field: private readonly LevelSearchViewController _levelSearchViewController
+    GlobalNamespace::LevelSearchViewController* _get__levelSearchViewController();
+    // Set instance field: private readonly LevelSearchViewController _levelSearchViewController
+    void _set__levelSearchViewController(GlobalNamespace::LevelSearchViewController* value);
+    // Get instance field: private LevelSelectionFlowCoordinator/State _startState
+    GlobalNamespace::LevelSelectionFlowCoordinator::State* _get__startState();
+    // Set instance field: private LevelSelectionFlowCoordinator/State _startState
+    void _set__startState(GlobalNamespace::LevelSelectionFlowCoordinator::State* value);
     // protected System.Boolean get_isInRootViewController()
     // Offset: 0x11B3C74
     bool get_isInRootViewController();

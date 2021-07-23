@@ -175,6 +175,62 @@ namespace NUnit::Framework::Internal {
     static ::Il2CppString* _get_CONTEXT_KEY();
     // Set static field: static private readonly System.String CONTEXT_KEY
     static void _set_CONTEXT_KEY(::Il2CppString* value);
+    // Get instance field: private NUnit.Framework.Internal.TestExecutionContext _priorContext
+    NUnit::Framework::Internal::TestExecutionContext* _get__priorContext();
+    // Set instance field: private NUnit.Framework.Internal.TestExecutionContext _priorContext
+    void _set__priorContext(NUnit::Framework::Internal::TestExecutionContext* value);
+    // Get instance field: private NUnit.Framework.Interfaces.ITestListener _listener
+    NUnit::Framework::Interfaces::ITestListener* _get__listener();
+    // Set instance field: private NUnit.Framework.Interfaces.ITestListener _listener
+    void _set__listener(NUnit::Framework::Interfaces::ITestListener* value);
+    // Get instance field: private System.Int32 _assertCount
+    int _get__assertCount();
+    // Set instance field: private System.Int32 _assertCount
+    void _set__assertCount(int value);
+    // Get instance field: private System.Globalization.CultureInfo _currentCulture
+    System::Globalization::CultureInfo* _get__currentCulture();
+    // Set instance field: private System.Globalization.CultureInfo _currentCulture
+    void _set__currentCulture(System::Globalization::CultureInfo* value);
+    // Get instance field: private System.Globalization.CultureInfo _currentUICulture
+    System::Globalization::CultureInfo* _get__currentUICulture();
+    // Set instance field: private System.Globalization.CultureInfo _currentUICulture
+    void _set__currentUICulture(System::Globalization::CultureInfo* value);
+    // Get instance field: private NUnit.Framework.Internal.TestResult _currentResult
+    NUnit::Framework::Internal::TestResult* _get__currentResult();
+    // Set instance field: private NUnit.Framework.Internal.TestResult _currentResult
+    void _set__currentResult(NUnit::Framework::Internal::TestResult* value);
+    // Get instance field: private System.Security.Principal.IPrincipal _currentPrincipal
+    System::Security::Principal::IPrincipal* _get__currentPrincipal();
+    // Set instance field: private System.Security.Principal.IPrincipal _currentPrincipal
+    void _set__currentPrincipal(System::Security::Principal::IPrincipal* value);
+    // Get instance field: private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
+    NUnit::Framework::Internal::Test* _get_$CurrentTest$k__BackingField();
+    // Set instance field: private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
+    void _set_$CurrentTest$k__BackingField(NUnit::Framework::Internal::Test* value);
+    // Get instance field: private System.IO.TextWriter <OutWriter>k__BackingField
+    System::IO::TextWriter* _get_$OutWriter$k__BackingField();
+    // Set instance field: private System.IO.TextWriter <OutWriter>k__BackingField
+    void _set_$OutWriter$k__BackingField(System::IO::TextWriter* value);
+    // Get instance field: private System.Object <TestObject>k__BackingField
+    ::Il2CppObject* _get_$TestObject$k__BackingField();
+    // Set instance field: private System.Object <TestObject>k__BackingField
+    void _set_$TestObject$k__BackingField(::Il2CppObject* value);
+    // Get instance field: private System.Int32 <TestCaseTimeout>k__BackingField
+    int _get_$TestCaseTimeout$k__BackingField();
+    // Set instance field: private System.Int32 <TestCaseTimeout>k__BackingField
+    void _set_$TestCaseTimeout$k__BackingField(int value);
+    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
+    System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* _get_$UpstreamActions$k__BackingField();
+    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
+    void _set_$UpstreamActions$k__BackingField(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
+    // Get instance field: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
+    NUnit::Framework::Constraints::ValueFormatter* _get_$CurrentValueFormatter$k__BackingField();
+    // Set instance field: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
+    void _set_$CurrentValueFormatter$k__BackingField(NUnit::Framework::Constraints::ValueFormatter* value);
+    // Get instance field: private System.Boolean <IsSingleThreaded>k__BackingField
+    bool _get_$IsSingleThreaded$k__BackingField();
+    // Set instance field: private System.Boolean <IsSingleThreaded>k__BackingField
+    void _set_$IsSingleThreaded$k__BackingField(bool value);
     // static public NUnit.Framework.Internal.ITestExecutionContext get_CurrentContext()
     // Offset: 0x223EF50
     static NUnit::Framework::Internal::ITestExecutionContext* get_CurrentContext();

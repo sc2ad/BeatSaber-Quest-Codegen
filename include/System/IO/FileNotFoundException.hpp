@@ -43,6 +43,14 @@ namespace System::IO {
     FileNotFoundException(::Il2CppString* fileName_ = {}, ::Il2CppString* fusionLog_ = {}) noexcept : fileName{fileName_}, fusionLog{fusionLog_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Get instance field: private System.String _fileName
+    ::Il2CppString* _get__fileName();
+    // Set instance field: private System.String _fileName
+    void _set__fileName(::Il2CppString* value);
+    // Get instance field: private System.String _fusionLog
+    ::Il2CppString* _get__fusionLog();
+    // Set instance field: private System.String _fusionLog
+    void _set__fusionLog(::Il2CppString* value);
     // public System.String get_FusionLog()
     // Offset: 0x1920AE8
     ::Il2CppString* get_FusionLog();

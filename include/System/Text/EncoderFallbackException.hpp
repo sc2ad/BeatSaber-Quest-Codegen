@@ -56,6 +56,22 @@ namespace System::Text {
     EncoderFallbackException(::Il2CppChar charUnknown_ = {}, ::Il2CppChar charUnknownHigh_ = {}, ::Il2CppChar charUnknownLow_ = {}, int index_ = {}) noexcept : charUnknown{charUnknown_}, charUnknownHigh{charUnknownHigh_}, charUnknownLow{charUnknownLow_}, index{index_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Get instance field: private System.Char charUnknown
+    ::Il2CppChar _get_charUnknown();
+    // Set instance field: private System.Char charUnknown
+    void _set_charUnknown(::Il2CppChar value);
+    // Get instance field: private System.Char charUnknownHigh
+    ::Il2CppChar _get_charUnknownHigh();
+    // Set instance field: private System.Char charUnknownHigh
+    void _set_charUnknownHigh(::Il2CppChar value);
+    // Get instance field: private System.Char charUnknownLow
+    ::Il2CppChar _get_charUnknownLow();
+    // Set instance field: private System.Char charUnknownLow
+    void _set_charUnknownLow(::Il2CppChar value);
+    // Get instance field: private System.Int32 index
+    int _get_index();
+    // Set instance field: private System.Int32 index
+    void _set_index(int value);
     // System.Void .ctor(System.String message, System.Char charUnknown, System.Int32 index)
     // Offset: 0x1D14AE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

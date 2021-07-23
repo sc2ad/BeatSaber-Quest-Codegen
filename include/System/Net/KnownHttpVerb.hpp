@@ -84,6 +84,26 @@ namespace System::Net {
     static System::Net::KnownHttpVerb* _get_MkCol();
     // Set static field: static System.Net.KnownHttpVerb MkCol
     static void _set_MkCol(System::Net::KnownHttpVerb* value);
+    // Get instance field: System.String Name
+    ::Il2CppString* _get_Name();
+    // Set instance field: System.String Name
+    void _set_Name(::Il2CppString* value);
+    // Get instance field: System.Boolean RequireContentBody
+    bool _get_RequireContentBody();
+    // Set instance field: System.Boolean RequireContentBody
+    void _set_RequireContentBody(bool value);
+    // Get instance field: System.Boolean ContentBodyNotAllowed
+    bool _get_ContentBodyNotAllowed();
+    // Set instance field: System.Boolean ContentBodyNotAllowed
+    void _set_ContentBodyNotAllowed(bool value);
+    // Get instance field: System.Boolean ConnectRequest
+    bool _get_ConnectRequest();
+    // Set instance field: System.Boolean ConnectRequest
+    void _set_ConnectRequest(bool value);
+    // Get instance field: System.Boolean ExpectNoContentResponse
+    bool _get_ExpectNoContentResponse();
+    // Set instance field: System.Boolean ExpectNoContentResponse
+    void _set_ExpectNoContentResponse(bool value);
     // System.Void .ctor(System.String name, System.Boolean requireContentBody, System.Boolean contentBodyNotAllowed, System.Boolean connectRequest, System.Boolean expectNoContentResponse)
     // Offset: 0x16413A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

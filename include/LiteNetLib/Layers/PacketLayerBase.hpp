@@ -36,6 +36,10 @@ namespace LiteNetLib::Layers {
     constexpr operator int() const noexcept {
       return ExtraPacketSizeForLayer;
     }
+    // Get instance field: public readonly System.Int32 ExtraPacketSizeForLayer
+    int _get_ExtraPacketSizeForLayer();
+    // Set instance field: public readonly System.Int32 ExtraPacketSizeForLayer
+    void _set_ExtraPacketSizeForLayer(int value);
     // protected System.Void .ctor(System.Int32 extraPacketSizeForLayer)
     // Offset: 0x1BAFAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

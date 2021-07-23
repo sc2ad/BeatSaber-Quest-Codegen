@@ -45,6 +45,22 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: AssetFileDownloadCancelResult
     AssetFileDownloadCancelResult(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}, bool Success_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, Filepath{Filepath_}, Success{Success_} {}
+    // Get instance field: public readonly System.UInt64 AssetFileId
+    uint64_t _get_AssetFileId();
+    // Set instance field: public readonly System.UInt64 AssetFileId
+    void _set_AssetFileId(uint64_t value);
+    // Get instance field: public readonly System.UInt64 AssetId
+    uint64_t _get_AssetId();
+    // Set instance field: public readonly System.UInt64 AssetId
+    void _set_AssetId(uint64_t value);
+    // Get instance field: public readonly System.String Filepath
+    ::Il2CppString* _get_Filepath();
+    // Set instance field: public readonly System.String Filepath
+    void _set_Filepath(::Il2CppString* value);
+    // Get instance field: public readonly System.Boolean Success
+    bool _get_Success();
+    // Set instance field: public readonly System.Boolean Success
+    void _set_Success(bool value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x149FFE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

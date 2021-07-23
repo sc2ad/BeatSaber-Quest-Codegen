@@ -72,6 +72,38 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt16 Scheme
+    uint16_t _get_Scheme();
+    // Set instance field: public System.UInt16 Scheme
+    void _set_Scheme(uint16_t value);
+    // Get instance field: public System.UInt16 User
+    uint16_t _get_User();
+    // Set instance field: public System.UInt16 User
+    void _set_User(uint16_t value);
+    // Get instance field: public System.UInt16 Host
+    uint16_t _get_Host();
+    // Set instance field: public System.UInt16 Host
+    void _set_Host(uint16_t value);
+    // Get instance field: public System.UInt16 PortValue
+    uint16_t _get_PortValue();
+    // Set instance field: public System.UInt16 PortValue
+    void _set_PortValue(uint16_t value);
+    // Get instance field: public System.UInt16 Path
+    uint16_t _get_Path();
+    // Set instance field: public System.UInt16 Path
+    void _set_Path(uint16_t value);
+    // Get instance field: public System.UInt16 Query
+    uint16_t _get_Query();
+    // Set instance field: public System.UInt16 Query
+    void _set_Query(uint16_t value);
+    // Get instance field: public System.UInt16 Fragment
+    uint16_t _get_Fragment();
+    // Set instance field: public System.UInt16 Fragment
+    void _set_Fragment(uint16_t value);
+    // Get instance field: public System.UInt16 End
+    uint16_t _get_End();
+    // Set instance field: public System.UInt16 End
+    void _set_End(uint16_t value);
   }; // System.Uri/System.Offset
   #pragma pack(pop)
   static check_size<sizeof(Uri::Offset), 14 + sizeof(uint16_t)> __System_Uri_OffsetSizeCheck;

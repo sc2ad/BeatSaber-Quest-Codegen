@@ -74,6 +74,26 @@ namespace GlobalNamespace {
     ShowHideAnimationController(UnityEngine::Animator* animator_ = {}, bool deactivateSelfAfterDelay_ = {}, float deactivationDelay_ = {}, bool show_ = {}, int showAnimatorParam_ = {}) noexcept : animator{animator_}, deactivateSelfAfterDelay{deactivateSelfAfterDelay_}, deactivationDelay{deactivationDelay_}, show{show_}, showAnimatorParam{showAnimatorParam_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.Animator _animator
+    UnityEngine::Animator* _get__animator();
+    // Set instance field: public UnityEngine.Animator _animator
+    void _set__animator(UnityEngine::Animator* value);
+    // Get instance field: public System.Boolean _deactivateSelfAfterDelay
+    bool _get__deactivateSelfAfterDelay();
+    // Set instance field: public System.Boolean _deactivateSelfAfterDelay
+    void _set__deactivateSelfAfterDelay(bool value);
+    // Get instance field: public System.Single _deactivationDelay
+    float _get__deactivationDelay();
+    // Set instance field: public System.Single _deactivationDelay
+    void _set__deactivationDelay(float value);
+    // Get instance field: private System.Boolean _show
+    bool _get__show();
+    // Set instance field: private System.Boolean _show
+    void _set__show(bool value);
+    // Get instance field: private System.Int32 _showAnimatorParam
+    int _get__showAnimatorParam();
+    // Set instance field: private System.Int32 _showAnimatorParam
+    void _set__showAnimatorParam(int value);
     // public System.Boolean get_Show()
     // Offset: 0x23593AC
     bool get_Show();

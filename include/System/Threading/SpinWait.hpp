@@ -31,6 +31,10 @@ namespace System::Threading {
     constexpr operator int() const noexcept {
       return m_count;
     }
+    // Get instance field: private System.Int32 m_count
+    int _get_m_count();
+    // Set instance field: private System.Int32 m_count
+    void _set_m_count(int value);
     // public System.Boolean get_NextSpinWillYield()
     // Offset: 0xEEA884
     bool get_NextSpinWillYield();

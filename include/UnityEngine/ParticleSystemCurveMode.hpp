@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::ParticleSystemCurveMode _get_TwoConstants();
     // Set static field: static public UnityEngine.ParticleSystemCurveMode TwoConstants
     static void _set_TwoConstants(UnityEngine::ParticleSystemCurveMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ParticleSystemCurveMode
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystemCurveMode), 0 + sizeof(int)> __UnityEngine_ParticleSystemCurveModeSizeCheck;

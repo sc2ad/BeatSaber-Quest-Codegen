@@ -71,6 +71,38 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: PlayerSpecificSettings
     PlayerSpecificSettings(bool staticLights_ = {}, bool leftHanded_ = {}, bool swapColors_ = {}, float playerHeight_ = {}, bool disableSFX_ = {}, bool reduceDebris_ = {}, bool advancedHud_ = {}, bool noTextsAndHuds_ = {}) noexcept : staticLights{staticLights_}, leftHanded{leftHanded_}, swapColors{swapColors_}, playerHeight{playerHeight_}, disableSFX{disableSFX_}, reduceDebris{reduceDebris_}, advancedHud{advancedHud_}, noTextsAndHuds{noTextsAndHuds_} {}
+    // Get instance field: public System.Boolean staticLights
+    bool _get_staticLights();
+    // Set instance field: public System.Boolean staticLights
+    void _set_staticLights(bool value);
+    // Get instance field: public System.Boolean leftHanded
+    bool _get_leftHanded();
+    // Set instance field: public System.Boolean leftHanded
+    void _set_leftHanded(bool value);
+    // Get instance field: public System.Boolean swapColors
+    bool _get_swapColors();
+    // Set instance field: public System.Boolean swapColors
+    void _set_swapColors(bool value);
+    // Get instance field: public System.Single playerHeight
+    float _get_playerHeight();
+    // Set instance field: public System.Single playerHeight
+    void _set_playerHeight(float value);
+    // Get instance field: public System.Boolean disableSFX
+    bool _get_disableSFX();
+    // Set instance field: public System.Boolean disableSFX
+    void _set_disableSFX(bool value);
+    // Get instance field: public System.Boolean reduceDebris
+    bool _get_reduceDebris();
+    // Set instance field: public System.Boolean reduceDebris
+    void _set_reduceDebris(bool value);
+    // Get instance field: public System.Boolean advancedHud
+    bool _get_advancedHud();
+    // Set instance field: public System.Boolean advancedHud
+    void _set_advancedHud(bool value);
+    // Get instance field: public System.Boolean noTextsAndHuds
+    bool _get_noTextsAndHuds();
+    // Set instance field: public System.Boolean noTextsAndHuds
+    void _set_noTextsAndHuds(bool value);
     // public System.Void .ctor()
     // Offset: 0x110617C
     // Implemented from: System.Object

@@ -62,6 +62,30 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.EVRTrackedCameraFrameType eFrameType
+    OVR::OpenVR::EVRTrackedCameraFrameType _get_eFrameType();
+    // Set instance field: public OVR.OpenVR.EVRTrackedCameraFrameType eFrameType
+    void _set_eFrameType(OVR::OpenVR::EVRTrackedCameraFrameType value);
+    // Get instance field: public System.UInt32 nWidth
+    uint _get_nWidth();
+    // Set instance field: public System.UInt32 nWidth
+    void _set_nWidth(uint value);
+    // Get instance field: public System.UInt32 nHeight
+    uint _get_nHeight();
+    // Set instance field: public System.UInt32 nHeight
+    void _set_nHeight(uint value);
+    // Get instance field: public System.UInt32 nBytesPerPixel
+    uint _get_nBytesPerPixel();
+    // Set instance field: public System.UInt32 nBytesPerPixel
+    void _set_nBytesPerPixel(uint value);
+    // Get instance field: public System.UInt32 nFrameSequence
+    uint _get_nFrameSequence();
+    // Set instance field: public System.UInt32 nFrameSequence
+    void _set_nFrameSequence(uint value);
+    // Get instance field: public OVR.OpenVR.TrackedDevicePose_t standingTrackedDevicePose
+    OVR::OpenVR::TrackedDevicePose_t _get_standingTrackedDevicePose();
+    // Set instance field: public OVR.OpenVR.TrackedDevicePose_t standingTrackedDevicePose
+    void _set_standingTrackedDevicePose(OVR::OpenVR::TrackedDevicePose_t value);
   }; // OVR.OpenVR.CameraVideoStreamFrameHeader_t
   #pragma pack(pop)
   static check_size<sizeof(CameraVideoStreamFrameHeader_t), 20 + sizeof(OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_CameraVideoStreamFrameHeader_tSizeCheck;

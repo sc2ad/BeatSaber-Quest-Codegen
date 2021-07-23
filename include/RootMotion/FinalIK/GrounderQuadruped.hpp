@@ -79,6 +79,22 @@ namespace RootMotion::FinalIK {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public RootMotion.FinalIK.IKSolver solver
+      RootMotion::FinalIK::IKSolver* _get_solver();
+      // Set instance field: public RootMotion.FinalIK.IKSolver solver
+      void _set_solver(RootMotion::FinalIK::IKSolver* value);
+      // Get instance field: public UnityEngine.Transform transform
+      UnityEngine::Transform* _get_transform();
+      // Set instance field: public UnityEngine.Transform transform
+      void _set_transform(UnityEngine::Transform* value);
+      // Get instance field: public UnityEngine.Quaternion rotation
+      UnityEngine::Quaternion _get_rotation();
+      // Set instance field: public UnityEngine.Quaternion rotation
+      void _set_rotation(UnityEngine::Quaternion value);
+      // Get instance field: public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg leg
+      RootMotion::FinalIK::Grounding::Leg* _get_leg();
+      // Set instance field: public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg leg
+      void _set_leg(RootMotion::FinalIK::Grounding::Leg* value);
       // public System.Void .ctor(RootMotion.FinalIK.IKSolver solver, UnityEngine.Transform transform)
       // Offset: 0xEF60D0
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -293,6 +309,122 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
     // Creating value type constructor for type: GrounderQuadruped
     GrounderQuadruped(RootMotion::FinalIK::Grounding* forelegSolver_ = {}, float rootRotationWeight_ = {}, float minRootRotation_ = {}, float maxRootRotation_ = {}, float rootRotationSpeed_ = {}, float maxLegOffset_ = {}, float maxForeLegOffset_ = {}, float maintainHeadRotationWeight_ = {}, UnityEngine::Transform* characterRoot_ = {}, UnityEngine::Transform* pelvis_ = {}, UnityEngine::Transform* lastSpineBone_ = {}, UnityEngine::Transform* head_ = {}, ::Array<RootMotion::FinalIK::IK*>* legs_ = {}, ::Array<RootMotion::FinalIK::IK*>* forelegs_ = {}, UnityEngine::Vector3 gravity_ = {}, ::Array<RootMotion::FinalIK::GrounderQuadruped::Foot>* feet_ = {}, UnityEngine::Vector3 animatedPelvisLocalPosition_ = {}, UnityEngine::Quaternion animatedPelvisLocalRotation_ = {}, UnityEngine::Quaternion animatedHeadLocalRotation_ = {}, UnityEngine::Vector3 solvedPelvisLocalPosition_ = {}, UnityEngine::Quaternion solvedPelvisLocalRotation_ = {}, UnityEngine::Quaternion solvedHeadLocalRotation_ = {}, int solvedFeet_ = {}, bool solved_ = {}, float angle_ = {}, UnityEngine::Transform* forefeetRoot_ = {}, UnityEngine::Quaternion headRotation_ = {}, float lastWeight_ = {}, UnityEngine::Rigidbody* characterRootRigidbody_ = {}) noexcept : forelegSolver{forelegSolver_}, rootRotationWeight{rootRotationWeight_}, minRootRotation{minRootRotation_}, maxRootRotation{maxRootRotation_}, rootRotationSpeed{rootRotationSpeed_}, maxLegOffset{maxLegOffset_}, maxForeLegOffset{maxForeLegOffset_}, maintainHeadRotationWeight{maintainHeadRotationWeight_}, characterRoot{characterRoot_}, pelvis{pelvis_}, lastSpineBone{lastSpineBone_}, head{head_}, legs{legs_}, forelegs{forelegs_}, gravity{gravity_}, feet{feet_}, animatedPelvisLocalPosition{animatedPelvisLocalPosition_}, animatedPelvisLocalRotation{animatedPelvisLocalRotation_}, animatedHeadLocalRotation{animatedHeadLocalRotation_}, solvedPelvisLocalPosition{solvedPelvisLocalPosition_}, solvedPelvisLocalRotation{solvedPelvisLocalRotation_}, solvedHeadLocalRotation{solvedHeadLocalRotation_}, solvedFeet{solvedFeet_}, solved{solved_}, angle{angle_}, forefeetRoot{forefeetRoot_}, headRotation{headRotation_}, lastWeight{lastWeight_}, characterRootRigidbody{characterRootRigidbody_} {}
+    // Get instance field: public RootMotion.FinalIK.Grounding forelegSolver
+    RootMotion::FinalIK::Grounding* _get_forelegSolver();
+    // Set instance field: public RootMotion.FinalIK.Grounding forelegSolver
+    void _set_forelegSolver(RootMotion::FinalIK::Grounding* value);
+    // Get instance field: public System.Single rootRotationWeight
+    float _get_rootRotationWeight();
+    // Set instance field: public System.Single rootRotationWeight
+    void _set_rootRotationWeight(float value);
+    // Get instance field: public System.Single minRootRotation
+    float _get_minRootRotation();
+    // Set instance field: public System.Single minRootRotation
+    void _set_minRootRotation(float value);
+    // Get instance field: public System.Single maxRootRotation
+    float _get_maxRootRotation();
+    // Set instance field: public System.Single maxRootRotation
+    void _set_maxRootRotation(float value);
+    // Get instance field: public System.Single rootRotationSpeed
+    float _get_rootRotationSpeed();
+    // Set instance field: public System.Single rootRotationSpeed
+    void _set_rootRotationSpeed(float value);
+    // Get instance field: public System.Single maxLegOffset
+    float _get_maxLegOffset();
+    // Set instance field: public System.Single maxLegOffset
+    void _set_maxLegOffset(float value);
+    // Get instance field: public System.Single maxForeLegOffset
+    float _get_maxForeLegOffset();
+    // Set instance field: public System.Single maxForeLegOffset
+    void _set_maxForeLegOffset(float value);
+    // Get instance field: public System.Single maintainHeadRotationWeight
+    float _get_maintainHeadRotationWeight();
+    // Set instance field: public System.Single maintainHeadRotationWeight
+    void _set_maintainHeadRotationWeight(float value);
+    // Get instance field: public UnityEngine.Transform characterRoot
+    UnityEngine::Transform* _get_characterRoot();
+    // Set instance field: public UnityEngine.Transform characterRoot
+    void _set_characterRoot(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform pelvis
+    UnityEngine::Transform* _get_pelvis();
+    // Set instance field: public UnityEngine.Transform pelvis
+    void _set_pelvis(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform lastSpineBone
+    UnityEngine::Transform* _get_lastSpineBone();
+    // Set instance field: public UnityEngine.Transform lastSpineBone
+    void _set_lastSpineBone(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Transform head
+    UnityEngine::Transform* _get_head();
+    // Set instance field: public UnityEngine.Transform head
+    void _set_head(UnityEngine::Transform* value);
+    // Get instance field: public RootMotion.FinalIK.IK[] legs
+    ::Array<RootMotion::FinalIK::IK*>* _get_legs();
+    // Set instance field: public RootMotion.FinalIK.IK[] legs
+    void _set_legs(::Array<RootMotion::FinalIK::IK*>* value);
+    // Get instance field: public RootMotion.FinalIK.IK[] forelegs
+    ::Array<RootMotion::FinalIK::IK*>* _get_forelegs();
+    // Set instance field: public RootMotion.FinalIK.IK[] forelegs
+    void _set_forelegs(::Array<RootMotion::FinalIK::IK*>* value);
+    // Get instance field: public UnityEngine.Vector3 gravity
+    UnityEngine::Vector3 _get_gravity();
+    // Set instance field: public UnityEngine.Vector3 gravity
+    void _set_gravity(UnityEngine::Vector3 value);
+    // Get instance field: private RootMotion.FinalIK.GrounderQuadruped/RootMotion.FinalIK.Foot[] feet
+    ::Array<RootMotion::FinalIK::GrounderQuadruped::Foot>* _get_feet();
+    // Set instance field: private RootMotion.FinalIK.GrounderQuadruped/RootMotion.FinalIK.Foot[] feet
+    void _set_feet(::Array<RootMotion::FinalIK::GrounderQuadruped::Foot>* value);
+    // Get instance field: private UnityEngine.Vector3 animatedPelvisLocalPosition
+    UnityEngine::Vector3 _get_animatedPelvisLocalPosition();
+    // Set instance field: private UnityEngine.Vector3 animatedPelvisLocalPosition
+    void _set_animatedPelvisLocalPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion animatedPelvisLocalRotation
+    UnityEngine::Quaternion _get_animatedPelvisLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion animatedPelvisLocalRotation
+    void _set_animatedPelvisLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion animatedHeadLocalRotation
+    UnityEngine::Quaternion _get_animatedHeadLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion animatedHeadLocalRotation
+    void _set_animatedHeadLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 solvedPelvisLocalPosition
+    UnityEngine::Vector3 _get_solvedPelvisLocalPosition();
+    // Set instance field: private UnityEngine.Vector3 solvedPelvisLocalPosition
+    void _set_solvedPelvisLocalPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion solvedPelvisLocalRotation
+    UnityEngine::Quaternion _get_solvedPelvisLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion solvedPelvisLocalRotation
+    void _set_solvedPelvisLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion solvedHeadLocalRotation
+    UnityEngine::Quaternion _get_solvedHeadLocalRotation();
+    // Set instance field: private UnityEngine.Quaternion solvedHeadLocalRotation
+    void _set_solvedHeadLocalRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Int32 solvedFeet
+    int _get_solvedFeet();
+    // Set instance field: private System.Int32 solvedFeet
+    void _set_solvedFeet(int value);
+    // Get instance field: private System.Boolean solved
+    bool _get_solved();
+    // Set instance field: private System.Boolean solved
+    void _set_solved(bool value);
+    // Get instance field: private System.Single angle
+    float _get_angle();
+    // Set instance field: private System.Single angle
+    void _set_angle(float value);
+    // Get instance field: private UnityEngine.Transform forefeetRoot
+    UnityEngine::Transform* _get_forefeetRoot();
+    // Set instance field: private UnityEngine.Transform forefeetRoot
+    void _set_forefeetRoot(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Quaternion headRotation
+    UnityEngine::Quaternion _get_headRotation();
+    // Set instance field: private UnityEngine.Quaternion headRotation
+    void _set_headRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Single lastWeight
+    float _get_lastWeight();
+    // Set instance field: private System.Single lastWeight
+    void _set_lastWeight(float value);
+    // Get instance field: private UnityEngine.Rigidbody characterRootRigidbody
+    UnityEngine::Rigidbody* _get_characterRootRigidbody();
+    // Set instance field: private UnityEngine.Rigidbody characterRootRigidbody
+    void _set_characterRootRigidbody(UnityEngine::Rigidbody* value);
     // private System.Boolean IsReadyToInitiate()
     // Offset: 0x1C8DF00
     bool IsReadyToInitiate();

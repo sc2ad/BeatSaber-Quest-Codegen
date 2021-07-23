@@ -174,6 +174,38 @@ namespace System {
     static System::Collections::ObjectModel::ReadOnlyCollection_1<System::TimeZoneInfo*>* _get_systemTimeZones();
     // Set static field: static private System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo> systemTimeZones
     static void _set_systemTimeZones(System::Collections::ObjectModel::ReadOnlyCollection_1<System::TimeZoneInfo*>* value);
+    // Get instance field: private System.TimeSpan baseUtcOffset
+    System::TimeSpan _get_baseUtcOffset();
+    // Set instance field: private System.TimeSpan baseUtcOffset
+    void _set_baseUtcOffset(System::TimeSpan value);
+    // Get instance field: private System.String daylightDisplayName
+    ::Il2CppString* _get_daylightDisplayName();
+    // Set instance field: private System.String daylightDisplayName
+    void _set_daylightDisplayName(::Il2CppString* value);
+    // Get instance field: private System.String displayName
+    ::Il2CppString* _get_displayName();
+    // Set instance field: private System.String displayName
+    void _set_displayName(::Il2CppString* value);
+    // Get instance field: private System.String id
+    ::Il2CppString* _get_id();
+    // Set instance field: private System.String id
+    void _set_id(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>> transitions
+    System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* _get_transitions();
+    // Set instance field: private System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>> transitions
+    void _set_transitions(System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* value);
+    // Get instance field: private System.String standardDisplayName
+    ::Il2CppString* _get_standardDisplayName();
+    // Set instance field: private System.String standardDisplayName
+    void _set_standardDisplayName(::Il2CppString* value);
+    // Get instance field: private System.Boolean supportsDaylightSavingTime
+    bool _get_supportsDaylightSavingTime();
+    // Set instance field: private System.Boolean supportsDaylightSavingTime
+    void _set_supportsDaylightSavingTime(bool value);
+    // Get instance field: private System.TimeZoneInfo/System.AdjustmentRule[] adjustmentRules
+    ::Array<System::TimeZoneInfo::AdjustmentRule*>* _get_adjustmentRules();
+    // Set instance field: private System.TimeZoneInfo/System.AdjustmentRule[] adjustmentRules
+    void _set_adjustmentRules(::Array<System::TimeZoneInfo::AdjustmentRule*>* value);
     // public System.TimeSpan get_BaseUtcOffset()
     // Offset: 0x1894C6C
     System::TimeSpan get_BaseUtcOffset();

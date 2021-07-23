@@ -89,6 +89,14 @@ namespace GlobalNamespace {
     static int _get_kTextureWidth();
     // Set static field: static private System.Int32 kTextureWidth
     static void _set_kTextureWidth(int value);
+    // Get instance field: private UnityEngine.Texture2D _texture
+    UnityEngine::Texture2D* _get__texture();
+    // Set instance field: private UnityEngine.Texture2D _texture
+    void _set__texture(UnityEngine::Texture2D* value);
+    // Get instance field: private UnityEngine.Material _material
+    UnityEngine::Material* _get__material();
+    // Set instance field: private UnityEngine.Material _material
+    void _set__material(UnityEngine::Material* value);
     // private System.Void InitIfNeeded()
     // Offset: 0x1DED404
     void InitIfNeeded();

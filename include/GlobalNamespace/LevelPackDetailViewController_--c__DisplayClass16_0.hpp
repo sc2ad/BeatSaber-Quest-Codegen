@@ -41,6 +41,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LevelPackDetailViewController*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass16_0
     $$c__DisplayClass16_0(System::Action* handleDidPressRefreshButton_ = {}, GlobalNamespace::LevelPackDetailViewController* $$4__this_ = {}) noexcept : handleDidPressRefreshButton{handleDidPressRefreshButton_}, $$4__this{$$4__this_} {}
+    // Get instance field: public System.Action handleDidPressRefreshButton
+    System::Action* _get_handleDidPressRefreshButton();
+    // Set instance field: public System.Action handleDidPressRefreshButton
+    void _set_handleDidPressRefreshButton(System::Action* value);
+    // Get instance field: public LevelPackDetailViewController <>4__this
+    GlobalNamespace::LevelPackDetailViewController* _get_$$4__this();
+    // Set instance field: public LevelPackDetailViewController <>4__this
+    void _set_$$4__this(GlobalNamespace::LevelPackDetailViewController* value);
     // System.Void <DidActivate>b__1()
     // Offset: 0x11B1FE8
     void $DidActivate$b__1();

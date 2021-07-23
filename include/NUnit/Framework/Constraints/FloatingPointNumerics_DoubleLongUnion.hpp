@@ -41,6 +41,18 @@ namespace NUnit::Framework::Constraints {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Double Double
+    double _get_Double();
+    // Set instance field: public System.Double Double
+    void _set_Double(double value);
+    // Get instance field: public System.Int64 Long
+    int64_t _get_Long();
+    // Set instance field: public System.Int64 Long
+    void _set_Long(int64_t value);
+    // Get instance field: public System.UInt64 ULong
+    uint64_t _get_ULong();
+    // Set instance field: public System.UInt64 ULong
+    void _set_ULong(uint64_t value);
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/NUnit.Framework.Constraints.DoubleLongUnion
   // WARNING Not writing size check since size may be invalid!
 }

@@ -37,6 +37,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FileBrowserItem
     FileBrowserItem(::Il2CppString* displayName_ = {}, ::Il2CppString* fullPath_ = {}, bool isDirectory_ = {}) noexcept : displayName{displayName_}, fullPath{fullPath_}, isDirectory{isDirectory_} {}
+    // Get instance field: private System.String <displayName>k__BackingField
+    ::Il2CppString* _get_$displayName$k__BackingField();
+    // Set instance field: private System.String <displayName>k__BackingField
+    void _set_$displayName$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.String <fullPath>k__BackingField
+    ::Il2CppString* _get_$fullPath$k__BackingField();
+    // Set instance field: private System.String <fullPath>k__BackingField
+    void _set_$fullPath$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <isDirectory>k__BackingField
+    bool _get_$isDirectory$k__BackingField();
+    // Set instance field: private System.Boolean <isDirectory>k__BackingField
+    void _set_$isDirectory$k__BackingField(bool value);
     // public System.String get_displayName()
     // Offset: 0x10258D4
     ::Il2CppString* get_displayName();

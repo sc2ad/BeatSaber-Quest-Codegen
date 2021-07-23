@@ -110,6 +110,50 @@ namespace GlobalNamespace {
     NoteFloorMovement(UnityEngine::Transform* rotatedObject_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, System::Action* floorMovementDidFinishEvent_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Vector3 endPos_ = {}, float moveDuration_ = {}, float startTime_ = {}, UnityEngine::Quaternion worldRotation_ = {}, UnityEngine::Quaternion inverseWorldRotation_ = {}, UnityEngine::Vector3 localPosition_ = {}) noexcept : rotatedObject{rotatedObject_}, playerTransforms{playerTransforms_}, audioTimeSyncController{audioTimeSyncController_}, floorMovementDidFinishEvent{floorMovementDidFinishEvent_}, startPos{startPos_}, endPos{endPos_}, moveDuration{moveDuration_}, startTime{startTime_}, worldRotation{worldRotation_}, inverseWorldRotation{inverseWorldRotation_}, localPosition{localPosition_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _rotatedObject
+    UnityEngine::Transform* _get__rotatedObject();
+    // Set instance field: private UnityEngine.Transform _rotatedObject
+    void _set__rotatedObject(UnityEngine::Transform* value);
+    // Get instance field: private PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private IAudioTimeSource _audioTimeSyncController
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSyncController();
+    // Set instance field: private IAudioTimeSource _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private System.Action floorMovementDidFinishEvent
+    System::Action* _get_floorMovementDidFinishEvent();
+    // Set instance field: private System.Action floorMovementDidFinishEvent
+    void _set_floorMovementDidFinishEvent(System::Action* value);
+    // Get instance field: private UnityEngine.Vector3 _startPos
+    UnityEngine::Vector3 _get__startPos();
+    // Set instance field: private UnityEngine.Vector3 _startPos
+    void _set__startPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _endPos
+    UnityEngine::Vector3 _get__endPos();
+    // Set instance field: private UnityEngine.Vector3 _endPos
+    void _set__endPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _moveDuration
+    float _get__moveDuration();
+    // Set instance field: private System.Single _moveDuration
+    void _set__moveDuration(float value);
+    // Get instance field: private System.Single _startTime
+    float _get__startTime();
+    // Set instance field: private System.Single _startTime
+    void _set__startTime(float value);
+    // Get instance field: private UnityEngine.Quaternion _worldRotation
+    UnityEngine::Quaternion _get__worldRotation();
+    // Set instance field: private UnityEngine.Quaternion _worldRotation
+    void _set__worldRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion _inverseWorldRotation
+    UnityEngine::Quaternion _get__inverseWorldRotation();
+    // Set instance field: private UnityEngine.Quaternion _inverseWorldRotation
+    void _set__inverseWorldRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 _localPosition
+    UnityEngine::Vector3 _get__localPosition();
+    // Set instance field: private UnityEngine.Vector3 _localPosition
+    void _set__localPosition(UnityEngine::Vector3 value);
     // public System.Single get_distanceToPlayer()
     // Offset: 0x11E444C
     float get_distanceToPlayer();

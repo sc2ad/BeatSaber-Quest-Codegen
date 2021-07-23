@@ -87,6 +87,22 @@ namespace GlobalNamespace {
     static int _get__customFogHeightFogHeightID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogHeightID
     static void _set__customFogHeightFogHeightID(int value);
+    // Get instance field: private System.Boolean _bloomFogEnabled
+    bool _get__bloomFogEnabled();
+    // Set instance field: private System.Boolean _bloomFogEnabled
+    void _set__bloomFogEnabled(bool value);
+    // Get instance field: private System.Single _transition
+    float _get__transition();
+    // Set instance field: private System.Single _transition
+    void _set__transition(float value);
+    // Get instance field: private BloomFogEnvironmentParams _defaultFogParams
+    GlobalNamespace::BloomFogEnvironmentParams* _get__defaultFogParams();
+    // Set instance field: private BloomFogEnvironmentParams _defaultFogParams
+    void _set__defaultFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
+    // Get instance field: private BloomFogEnvironmentParams _transitionFogParams
+    GlobalNamespace::BloomFogEnvironmentParams* _get__transitionFogParams();
+    // Set instance field: private BloomFogEnvironmentParams _transitionFogParams
+    void _set__transitionFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
     // public System.Single get_transition()
     // Offset: 0x1DEAE40
     float get_transition();

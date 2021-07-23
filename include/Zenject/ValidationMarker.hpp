@@ -41,6 +41,14 @@ namespace Zenject {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: ValidationMarker
     ValidationMarker(bool InstantiateFailed_ = {}, System::Type* MarkedType_ = {}) noexcept : InstantiateFailed{InstantiateFailed_}, MarkedType{MarkedType_} {}
+    // Get instance field: private System.Boolean <InstantiateFailed>k__BackingField
+    bool _get_$InstantiateFailed$k__BackingField();
+    // Set instance field: private System.Boolean <InstantiateFailed>k__BackingField
+    void _set_$InstantiateFailed$k__BackingField(bool value);
+    // Get instance field: private System.Type <MarkedType>k__BackingField
+    System::Type* _get_$MarkedType$k__BackingField();
+    // Set instance field: private System.Type <MarkedType>k__BackingField
+    void _set_$MarkedType$k__BackingField(System::Type* value);
     // public System.Boolean get_InstantiateFailed()
     // Offset: 0x2392224
     bool get_InstantiateFailed();

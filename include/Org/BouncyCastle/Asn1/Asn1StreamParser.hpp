@@ -55,6 +55,18 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(::Array<::Array<uint8_t>*>*) == 0x8);
     // Creating value type constructor for type: Asn1StreamParser
     Asn1StreamParser(System::IO::Stream* in_ = {}, int limit_ = {}, ::Array<::Array<uint8_t>*>* tmpBuffers_ = {}) noexcept : in{in_}, limit{limit_}, tmpBuffers{tmpBuffers_} {}
+    // Get instance field: private readonly System.IO.Stream _in
+    System::IO::Stream* _get__in();
+    // Set instance field: private readonly System.IO.Stream _in
+    void _set__in(System::IO::Stream* value);
+    // Get instance field: private readonly System.Int32 _limit
+    int _get__limit();
+    // Set instance field: private readonly System.Int32 _limit
+    void _set__limit(int value);
+    // Get instance field: private readonly System.Byte[][] tmpBuffers
+    ::Array<::Array<uint8_t>*>* _get_tmpBuffers();
+    // Set instance field: private readonly System.Byte[][] tmpBuffers
+    void _set_tmpBuffers(::Array<::Array<uint8_t>*>* value);
     // public System.Void .ctor(System.IO.Stream inStream)
     // Offset: 0x16D93DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

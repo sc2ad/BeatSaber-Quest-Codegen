@@ -62,6 +62,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::OpenFlags _get_IncludeArchived();
     // Set static field: static public System.Security.Cryptography.X509Certificates.OpenFlags IncludeArchived
     static void _set_IncludeArchived(System::Security::Cryptography::X509Certificates::OpenFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.X509Certificates.OpenFlags
   #pragma pack(pop)
   static check_size<sizeof(OpenFlags), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_OpenFlagsSizeCheck;

@@ -60,6 +60,18 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(Zenject::PrefabResourceBindingFinalizer* $$4__this_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::List_1<System::Type*>* concreteTypes_ = {}) noexcept : $$4__this{$$4__this_}, container{container_}, concreteTypes{concreteTypes_} {}
+    // Get instance field: public Zenject.PrefabResourceBindingFinalizer <>4__this
+    Zenject::PrefabResourceBindingFinalizer* _get_$$4__this();
+    // Set instance field: public Zenject.PrefabResourceBindingFinalizer <>4__this
+    void _set_$$4__this(Zenject::PrefabResourceBindingFinalizer* value);
+    // Get instance field: public Zenject.DiContainer container
+    Zenject::DiContainer* _get_container();
+    // Set instance field: public Zenject.DiContainer container
+    void _set_container(Zenject::DiContainer* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.Type> concreteTypes
+    System::Collections::Generic::List_1<System::Type*>* _get_concreteTypes();
+    // Set instance field: public System.Collections.Generic.List`1<System.Type> concreteTypes
+    void _set_concreteTypes(System::Collections::Generic::List_1<System::Type*>* value);
     // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
     // Offset: 0x16C9050
     Zenject::IProvider* $FinalizeBindingConcrete$b__0(Zenject::DiContainer* _, System::Type* concreteType);

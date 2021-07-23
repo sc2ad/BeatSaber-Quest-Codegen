@@ -55,6 +55,14 @@ namespace GlobalNamespace {
     static GlobalNamespace::TestDeeplinkManager* _get_instance();
     // Set static field: static public TestDeeplinkManager instance
     static void _set_instance(GlobalNamespace::TestDeeplinkManager* value);
+    // Get instance field: private System.Action`1<Deeplink> didReceiveDeeplinkEvent
+    System::Action_1<GlobalNamespace::Deeplink*>* _get_didReceiveDeeplinkEvent();
+    // Set instance field: private System.Action`1<Deeplink> didReceiveDeeplinkEvent
+    void _set_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // Get instance field: private Deeplink _currentDeeplink
+    GlobalNamespace::Deeplink* _get__currentDeeplink();
+    // Set instance field: private Deeplink _currentDeeplink
+    void _set__currentDeeplink(GlobalNamespace::Deeplink* value);
     // public Deeplink get_currentDeeplink()
     // Offset: 0x106BF74
     GlobalNamespace::Deeplink* get_currentDeeplink();

@@ -55,6 +55,10 @@ namespace OnlineServices {
     constexpr operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*() const noexcept {
       return platformServicesAvailabilityInfoChangedEvent;
     }
+    // Get instance field: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
+    System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* _get_platformServicesAvailabilityInfoChangedEvent();
+    // Set instance field: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
+    void _set_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
     // Offset: 0xFF9CA0
     void add_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);

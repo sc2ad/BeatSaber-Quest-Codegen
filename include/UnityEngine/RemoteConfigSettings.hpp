@@ -42,6 +42,14 @@ namespace UnityEngine {
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
     // Creating value type constructor for type: RemoteConfigSettings
     RemoteConfigSettings(System::IntPtr m_Ptr_ = {}, System::Action_1<bool>* Updated_ = {}) noexcept : m_Ptr{m_Ptr_}, Updated{Updated_} {}
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
+    // Get instance field: private System.Action`1<System.Boolean> Updated
+    System::Action_1<bool>* _get_Updated();
+    // Set instance field: private System.Action`1<System.Boolean> Updated
+    void _set_Updated(System::Action_1<bool>* value);
     // static System.Void RemoteConfigSettingsUpdated(UnityEngine.RemoteConfigSettings rcs, System.Boolean wasLastUpdatedFromServer)
     // Offset: 0x23C7A6C
     static void RemoteConfigSettingsUpdated(UnityEngine::RemoteConfigSettings* rcs, bool wasLastUpdatedFromServer);

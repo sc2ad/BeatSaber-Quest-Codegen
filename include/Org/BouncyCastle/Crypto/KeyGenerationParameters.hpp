@@ -38,6 +38,14 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: KeyGenerationParameters
     KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom* random_ = {}, int strength_ = {}) noexcept : random{random_}, strength{strength_} {}
+    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
+    // Get instance field: private System.Int32 strength
+    int _get_strength();
+    // Set instance field: private System.Int32 strength
+    void _set_strength(int value);
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
     // Offset: 0x18BB1D0
     Org::BouncyCastle::Security::SecureRandom* get_Random();

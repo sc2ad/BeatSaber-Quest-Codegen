@@ -37,6 +37,14 @@ namespace GlobalNamespace {
     TransitionTimingSO(Tweening::EaseType easeType_ = {}, float easeDuration_ = {}) noexcept : easeType{easeType_}, easeDuration{easeDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Tweening.EaseType _easeType
+    Tweening::EaseType _get__easeType();
+    // Set instance field: private Tweening.EaseType _easeType
+    void _set__easeType(Tweening::EaseType value);
+    // Get instance field: private System.Single _easeDuration
+    float _get__easeDuration();
+    // Set instance field: private System.Single _easeDuration
+    void _set__easeDuration(float value);
     // public Tweening.EaseType get_easeType()
     // Offset: 0x1071688
     Tweening::EaseType get_easeType();

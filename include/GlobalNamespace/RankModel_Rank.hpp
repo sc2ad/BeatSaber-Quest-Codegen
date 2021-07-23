@@ -81,6 +81,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::RankModel::Rank _get_SSS();
     // Set static field: static public RankModel/Rank SSS
     static void _set_SSS(GlobalNamespace::RankModel::Rank value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // RankModel/Rank
   #pragma pack(pop)
   static check_size<sizeof(RankModel::Rank), 0 + sizeof(int)> __GlobalNamespace_RankModel_RankSizeCheck;

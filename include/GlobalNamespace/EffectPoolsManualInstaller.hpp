@@ -112,6 +112,46 @@ namespace GlobalNamespace {
     EffectPoolsManualInstaller(GlobalNamespace::FlyingTextEffect* flyingTextEffectPrefab_ = {}, GlobalNamespace::FlyingScoreEffect* flyingScoreEffectPrefab_ = {}, GlobalNamespace::BeatEffect* beatEffectPrefab_ = {}, GlobalNamespace::BeatEffect* shortBeatEffectPrefab_ = {}, GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffectPrefab_ = {}, GlobalNamespace::BombCutSoundEffect* bombCutSoundEffectPrefab_ = {}, GlobalNamespace::FlyingSpriteEffect* flyingSpriteEffectPrefab_ = {}, GlobalNamespace::BoolSO* noteDebrisHDConditionVariable_ = {}, GlobalNamespace::NoteDebris* noteDebrisHDPrefab_ = {}, GlobalNamespace::NoteDebris* noteDebrisLWPrefab_ = {}) noexcept : flyingTextEffectPrefab{flyingTextEffectPrefab_}, flyingScoreEffectPrefab{flyingScoreEffectPrefab_}, beatEffectPrefab{beatEffectPrefab_}, shortBeatEffectPrefab{shortBeatEffectPrefab_}, noteCutSoundEffectPrefab{noteCutSoundEffectPrefab_}, bombCutSoundEffectPrefab{bombCutSoundEffectPrefab_}, flyingSpriteEffectPrefab{flyingSpriteEffectPrefab_}, noteDebrisHDConditionVariable{noteDebrisHDConditionVariable_}, noteDebrisHDPrefab{noteDebrisHDPrefab_}, noteDebrisLWPrefab{noteDebrisLWPrefab_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private FlyingTextEffect _flyingTextEffectPrefab
+    GlobalNamespace::FlyingTextEffect* _get__flyingTextEffectPrefab();
+    // Set instance field: private FlyingTextEffect _flyingTextEffectPrefab
+    void _set__flyingTextEffectPrefab(GlobalNamespace::FlyingTextEffect* value);
+    // Get instance field: private FlyingScoreEffect _flyingScoreEffectPrefab
+    GlobalNamespace::FlyingScoreEffect* _get__flyingScoreEffectPrefab();
+    // Set instance field: private FlyingScoreEffect _flyingScoreEffectPrefab
+    void _set__flyingScoreEffectPrefab(GlobalNamespace::FlyingScoreEffect* value);
+    // Get instance field: private BeatEffect _beatEffectPrefab
+    GlobalNamespace::BeatEffect* _get__beatEffectPrefab();
+    // Set instance field: private BeatEffect _beatEffectPrefab
+    void _set__beatEffectPrefab(GlobalNamespace::BeatEffect* value);
+    // Get instance field: private BeatEffect _shortBeatEffectPrefab
+    GlobalNamespace::BeatEffect* _get__shortBeatEffectPrefab();
+    // Set instance field: private BeatEffect _shortBeatEffectPrefab
+    void _set__shortBeatEffectPrefab(GlobalNamespace::BeatEffect* value);
+    // Get instance field: private NoteCutSoundEffect _noteCutSoundEffectPrefab
+    GlobalNamespace::NoteCutSoundEffect* _get__noteCutSoundEffectPrefab();
+    // Set instance field: private NoteCutSoundEffect _noteCutSoundEffectPrefab
+    void _set__noteCutSoundEffectPrefab(GlobalNamespace::NoteCutSoundEffect* value);
+    // Get instance field: private BombCutSoundEffect _bombCutSoundEffectPrefab
+    GlobalNamespace::BombCutSoundEffect* _get__bombCutSoundEffectPrefab();
+    // Set instance field: private BombCutSoundEffect _bombCutSoundEffectPrefab
+    void _set__bombCutSoundEffectPrefab(GlobalNamespace::BombCutSoundEffect* value);
+    // Get instance field: private FlyingSpriteEffect _flyingSpriteEffectPrefab
+    GlobalNamespace::FlyingSpriteEffect* _get__flyingSpriteEffectPrefab();
+    // Set instance field: private FlyingSpriteEffect _flyingSpriteEffectPrefab
+    void _set__flyingSpriteEffectPrefab(GlobalNamespace::FlyingSpriteEffect* value);
+    // Get instance field: private BoolSO _noteDebrisHDConditionVariable
+    GlobalNamespace::BoolSO* _get__noteDebrisHDConditionVariable();
+    // Set instance field: private BoolSO _noteDebrisHDConditionVariable
+    void _set__noteDebrisHDConditionVariable(GlobalNamespace::BoolSO* value);
+    // Get instance field: private NoteDebris _noteDebrisHDPrefab
+    GlobalNamespace::NoteDebris* _get__noteDebrisHDPrefab();
+    // Set instance field: private NoteDebris _noteDebrisHDPrefab
+    void _set__noteDebrisHDPrefab(GlobalNamespace::NoteDebris* value);
+    // Get instance field: private NoteDebris _noteDebrisLWPrefab
+    GlobalNamespace::NoteDebris* _get__noteDebrisLWPrefab();
+    // Set instance field: private NoteDebris _noteDebrisLWPrefab
+    void _set__noteDebrisLWPrefab(GlobalNamespace::NoteDebris* value);
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
     // Offset: 0x101F294
     void ManualInstallBindings(Zenject::DiContainer* container, bool shortBeatEffect);

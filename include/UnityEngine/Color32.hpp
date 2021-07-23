@@ -65,6 +65,26 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Int32 rgba
+    int _get_rgba();
+    // Set instance field: private System.Int32 rgba
+    void _set_rgba(int value);
+    // Get instance field: public System.Byte r
+    uint8_t _get_r();
+    // Set instance field: public System.Byte r
+    void _set_r(uint8_t value);
+    // Get instance field: public System.Byte g
+    uint8_t _get_g();
+    // Set instance field: public System.Byte g
+    void _set_g(uint8_t value);
+    // Get instance field: public System.Byte b
+    uint8_t _get_b();
+    // Set instance field: public System.Byte b
+    void _set_b(uint8_t value);
+    // Get instance field: public System.Byte a
+    uint8_t _get_a();
+    // Set instance field: public System.Byte a
+    void _set_a(uint8_t value);
     // public System.Void .ctor(System.Byte r, System.Byte g, System.Byte b, System.Byte a)
     // Offset: 0xEF4744
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

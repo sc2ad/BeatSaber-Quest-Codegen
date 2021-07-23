@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     ImageEffectController(GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback_ = {}) noexcept : renderImageCallback{renderImageCallback_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ImageEffectController/RenderImageCallback _renderImageCallback
+    GlobalNamespace::ImageEffectController::RenderImageCallback* _get__renderImageCallback();
+    // Set instance field: private ImageEffectController/RenderImageCallback _renderImageCallback
+    void _set__renderImageCallback(GlobalNamespace::ImageEffectController::RenderImageCallback* value);
     // public System.Void SetCallback(ImageEffectController/RenderImageCallback renderImageCallback)
     // Offset: 0x1DF0784
     void SetCallback(GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback);

@@ -124,6 +124,50 @@ namespace GlobalNamespace {
     MultiplayerLocalActivePlayerGameplayManager(GlobalNamespace::GameSongController* gameSongController_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions_ = {}, GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::GameEnergyCounter* gameEnergyCounter_ = {}, GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* inGameMenuController_ = {}, GlobalNamespace::IVRPlatformHelper* platformHelper_ = {}, GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper_ = {}, GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData* initData_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, bool levelFinishedOrFailed_ = {}) noexcept : gameSongController{gameSongController_}, multiplayerSessionManager{multiplayerSessionManager_}, multiplayerLevelEndActions{multiplayerLevelEndActions_}, prepareLevelCompletionResults{prepareLevelCompletionResults_}, gameEnergyCounter{gameEnergyCounter_}, inGameMenuController{inGameMenuController_}, platformHelper{platformHelper_}, disconnectHelper{disconnectHelper_}, initData{initData_}, saberManager{saberManager_}, levelFinishedOrFailed{levelFinishedOrFailed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly GameSongController _gameSongController
+    GlobalNamespace::GameSongController* _get__gameSongController();
+    // Set instance field: private readonly GameSongController _gameSongController
+    void _set__gameSongController(GlobalNamespace::GameSongController* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
+    GlobalNamespace::IMultiplayerLevelEndActionsListener* _get__multiplayerLevelEndActions();
+    // Set instance field: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
+    void _set__multiplayerLevelEndActions(GlobalNamespace::IMultiplayerLevelEndActionsListener* value);
+    // Get instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    GlobalNamespace::PrepareLevelCompletionResults* _get__prepareLevelCompletionResults();
+    // Set instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
+    void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
+    // Get instance field: private readonly GameEnergyCounter _gameEnergyCounter
+    GlobalNamespace::GameEnergyCounter* _get__gameEnergyCounter();
+    // Set instance field: private readonly GameEnergyCounter _gameEnergyCounter
+    void _set__gameEnergyCounter(GlobalNamespace::GameEnergyCounter* value);
+    // Get instance field: private readonly MultiplayerLocalActivePlayerInGameMenuController _inGameMenuController
+    GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* _get__inGameMenuController();
+    // Set instance field: private readonly MultiplayerLocalActivePlayerInGameMenuController _inGameMenuController
+    void _set__inGameMenuController(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* value);
+    // Get instance field: private readonly IVRPlatformHelper _platformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__platformHelper();
+    // Set instance field: private readonly IVRPlatformHelper _platformHelper
+    void _set__platformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
+    GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* _get__disconnectHelper();
+    // Set instance field: private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
+    void _set__disconnectHelper(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* value);
+    // Get instance field: private readonly MultiplayerLocalActivePlayerGameplayManager/InitData _initData
+    GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData* _get__initData();
+    // Set instance field: private readonly MultiplayerLocalActivePlayerGameplayManager/InitData _initData
+    void _set__initData(GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData* value);
+    // Get instance field: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager* _get__saberManager();
+    // Set instance field: private readonly SaberManager _saberManager
+    void _set__saberManager(GlobalNamespace::SaberManager* value);
+    // Get instance field: private System.Boolean _levelFinishedOrFailed
+    bool _get__levelFinishedOrFailed();
+    // Set instance field: private System.Boolean _levelFinishedOrFailed
+    void _set__levelFinishedOrFailed(bool value);
     // private System.Void Start()
     // Offset: 0x23D42A4
     void Start();

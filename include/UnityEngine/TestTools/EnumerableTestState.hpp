@@ -35,6 +35,14 @@ namespace UnityEngine::TestTools {
     EnumerableTestState(int Repeat_ = {}, int Retry_ = {}) noexcept : Repeat{Repeat_}, Retry{Retry_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Int32 Repeat
+    int _get_Repeat();
+    // Set instance field: public System.Int32 Repeat
+    void _set_Repeat(int value);
+    // Get instance field: public System.Int32 Retry
+    int _get_Retry();
+    // Set instance field: public System.Int32 Retry
+    void _set_Retry(int value);
     // public System.Void .ctor()
     // Offset: 0x148AA94
     // Implemented from: UnityEngine.ScriptableObject

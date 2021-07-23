@@ -161,6 +161,78 @@ namespace UnityEngine::ProBuilder {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Boolean> m_Bool
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, bool>* _get_m_Bool();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Boolean> m_Bool
+    void _set_m_Bool(System::Collections::Generic::Dictionary_2<::Il2CppString*, bool>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_Int
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* _get_m_Int();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_Int
+    void _set_m_Int(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Single> m_Float
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* _get_m_Float();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Single> m_Float
+    void _set_m_Float(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> m_String
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_m_String();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.String> m_String
+    void _set_m_String(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Color> m_Color
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Color>* _get_m_Color();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Color> m_Color
+    void _set_m_Color(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Color>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material> m_Material
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Material*>* _get_m_Material();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material> m_Material
+    void _set_m_Material(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::Material*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_Bool_keys
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_Bool_keys();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_Bool_keys
+    void _set_m_Bool_keys(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_Int_keys
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_Int_keys();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_Int_keys
+    void _set_m_Int_keys(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_Float_keys
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_Float_keys();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_Float_keys
+    void _set_m_Float_keys(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_String_keys
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_String_keys();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_String_keys
+    void _set_m_String_keys(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_Color_keys
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_Color_keys();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_Color_keys
+    void _set_m_Color_keys(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_Material_keys
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_Material_keys();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_Material_keys
+    void _set_m_Material_keys(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Boolean> m_Bool_values
+    System::Collections::Generic::List_1<bool>* _get_m_Bool_values();
+    // Set instance field: private System.Collections.Generic.List`1<System.Boolean> m_Bool_values
+    void _set_m_Bool_values(System::Collections::Generic::List_1<bool>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Int32> m_Int_values
+    System::Collections::Generic::List_1<int>* _get_m_Int_values();
+    // Set instance field: private System.Collections.Generic.List`1<System.Int32> m_Int_values
+    void _set_m_Int_values(System::Collections::Generic::List_1<int>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Single> m_Float_values
+    System::Collections::Generic::List_1<float>* _get_m_Float_values();
+    // Set instance field: private System.Collections.Generic.List`1<System.Single> m_Float_values
+    void _set_m_Float_values(System::Collections::Generic::List_1<float>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_String_values
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_String_values();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_String_values
+    void _set_m_String_values(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Color> m_Color_values
+    System::Collections::Generic::List_1<UnityEngine::Color>* _get_m_Color_values();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Color> m_Color_values
+    void _set_m_Color_values(System::Collections::Generic::List_1<UnityEngine::Color>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Material> m_Material_values
+    System::Collections::Generic::List_1<UnityEngine::Material*>* _get_m_Material_values();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Material> m_Material_values
+    void _set_m_Material_values(System::Collections::Generic::List_1<UnityEngine::Material*>* value);
     // public System.Void OnBeforeSerialize()
     // Offset: 0x1704BD0
     void OnBeforeSerialize();

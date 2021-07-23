@@ -46,6 +46,18 @@ namespace System::IO {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Byte[] Buffer
+    ::Array<uint8_t>* _get_Buffer();
+    // Set instance field: System.Byte[] Buffer
+    void _set_Buffer(::Array<uint8_t>* value);
+    // Get instance field: System.Int32 Offset
+    int _get_Offset();
+    // Set instance field: System.Int32 Offset
+    void _set_Offset(int value);
+    // Get instance field: System.Int32 Count
+    int _get_Count();
+    // Set instance field: System.Int32 Count
+    void _set_Count(int value);
   }; // System.IO.Stream/System.IO.ReadWriteParameters
   #pragma pack(pop)
   static check_size<sizeof(Stream::ReadWriteParameters), 12 + sizeof(int)> __System_IO_Stream_ReadWriteParametersSizeCheck;

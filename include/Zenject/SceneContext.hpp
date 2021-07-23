@@ -183,6 +183,66 @@ namespace Zenject {
     static System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* _get_ParentContainers();
     // Set static field: static public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> ParentContainers
     static void _set_ParentContainers(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* value);
+    // Get instance field: private System.Action PreInstall
+    System::Action* _get_PreInstall();
+    // Set instance field: private System.Action PreInstall
+    void _set_PreInstall(System::Action* value);
+    // Get instance field: private System.Action PostInstall
+    System::Action* _get_PostInstall();
+    // Set instance field: private System.Action PostInstall
+    void _set_PostInstall(System::Action* value);
+    // Get instance field: private System.Action PreResolve
+    System::Action* _get_PreResolve();
+    // Set instance field: private System.Action PreResolve
+    void _set_PreResolve(System::Action* value);
+    // Get instance field: private System.Action PostResolve
+    System::Action* _get_PostResolve();
+    // Set instance field: private System.Action PostResolve
+    void _set_PostResolve(System::Action* value);
+    // Get instance field: public UnityEngine.Events.UnityEvent OnPreInstall
+    UnityEngine::Events::UnityEvent* _get_OnPreInstall();
+    // Set instance field: public UnityEngine.Events.UnityEvent OnPreInstall
+    void _set_OnPreInstall(UnityEngine::Events::UnityEvent* value);
+    // Get instance field: public UnityEngine.Events.UnityEvent OnPostInstall
+    UnityEngine::Events::UnityEvent* _get_OnPostInstall();
+    // Set instance field: public UnityEngine.Events.UnityEvent OnPostInstall
+    void _set_OnPostInstall(UnityEngine::Events::UnityEvent* value);
+    // Get instance field: public UnityEngine.Events.UnityEvent OnPreResolve
+    UnityEngine::Events::UnityEvent* _get_OnPreResolve();
+    // Set instance field: public UnityEngine.Events.UnityEvent OnPreResolve
+    void _set_OnPreResolve(UnityEngine::Events::UnityEvent* value);
+    // Get instance field: public UnityEngine.Events.UnityEvent OnPostResolve
+    UnityEngine::Events::UnityEvent* _get_OnPostResolve();
+    // Set instance field: public UnityEngine.Events.UnityEvent OnPostResolve
+    void _set_OnPostResolve(UnityEngine::Events::UnityEvent* value);
+    // Get instance field: private System.Boolean _parentNewObjectsUnderSceneContext
+    bool _get__parentNewObjectsUnderSceneContext();
+    // Set instance field: private System.Boolean _parentNewObjectsUnderSceneContext
+    void _set__parentNewObjectsUnderSceneContext(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> _contractNames
+    System::Collections::Generic::List_1<::Il2CppString*>* _get__contractNames();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> _contractNames
+    void _set__contractNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> _parentContractNames
+    System::Collections::Generic::List_1<::Il2CppString*>* _get__parentContractNames();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> _parentContractNames
+    void _set__parentContractNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<Zenject.SceneDecoratorContext> _decoratorContexts
+    System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* _get__decoratorContexts();
+    // Set instance field: private readonly System.Collections.Generic.List`1<Zenject.SceneDecoratorContext> _decoratorContexts
+    void _set__decoratorContexts(System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* value);
+    // Get instance field: private System.Boolean _hasInstalled
+    bool _get__hasInstalled();
+    // Set instance field: private System.Boolean _hasInstalled
+    void _set__hasInstalled(bool value);
+    // Get instance field: private System.Boolean _hasResolved
+    bool _get__hasResolved();
+    // Set instance field: private System.Boolean _hasResolved
+    void _set__hasResolved(bool value);
     // public System.Boolean get_HasResolved()
     // Offset: 0x16CC534
     bool get_HasResolved();

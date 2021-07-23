@@ -122,6 +122,46 @@ namespace System::Globalization {
     static int _get_wordSeparatorMask();
     // Set static field: static private System.Int32 wordSeparatorMask
     static void _set_wordSeparatorMask(int value);
+    // Get instance field: private System.String m_listSeparator
+    ::Il2CppString* _get_m_listSeparator();
+    // Set instance field: private System.String m_listSeparator
+    void _set_m_listSeparator(::Il2CppString* value);
+    // Get instance field: private System.Boolean m_isReadOnly
+    bool _get_m_isReadOnly();
+    // Set instance field: private System.Boolean m_isReadOnly
+    void _set_m_isReadOnly(bool value);
+    // Get instance field: private System.String m_cultureName
+    ::Il2CppString* _get_m_cultureName();
+    // Set instance field: private System.String m_cultureName
+    void _set_m_cultureName(::Il2CppString* value);
+    // Get instance field: private System.Globalization.CultureData m_cultureData
+    System::Globalization::CultureData* _get_m_cultureData();
+    // Set instance field: private System.Globalization.CultureData m_cultureData
+    void _set_m_cultureData(System::Globalization::CultureData* value);
+    // Get instance field: private System.String m_textInfoName
+    ::Il2CppString* _get_m_textInfoName();
+    // Set instance field: private System.String m_textInfoName
+    void _set_m_textInfoName(::Il2CppString* value);
+    // Get instance field: private System.Nullable`1<System.Boolean> m_IsAsciiCasingSameAsInvariant
+    System::Nullable_1<bool> _get_m_IsAsciiCasingSameAsInvariant();
+    // Set instance field: private System.Nullable`1<System.Boolean> m_IsAsciiCasingSameAsInvariant
+    void _set_m_IsAsciiCasingSameAsInvariant(System::Nullable_1<bool> value);
+    // Get instance field: private System.String customCultureName
+    ::Il2CppString* _get_customCultureName();
+    // Set instance field: private System.String customCultureName
+    void _set_customCultureName(::Il2CppString* value);
+    // Get instance field: System.Int32 m_nDataItem
+    int _get_m_nDataItem();
+    // Set instance field: System.Int32 m_nDataItem
+    void _set_m_nDataItem(int value);
+    // Get instance field: System.Boolean m_useUserOverride
+    bool _get_m_useUserOverride();
+    // Set instance field: System.Boolean m_useUserOverride
+    void _set_m_useUserOverride(bool value);
+    // Get instance field: System.Int32 m_win32LangID
+    int _get_m_win32LangID();
+    // Set instance field: System.Int32 m_win32LangID
+    void _set_m_win32LangID(int value);
     // static System.Globalization.TextInfo get_Invariant()
     // Offset: 0x19CCA60
     static System::Globalization::TextInfo* get_Invariant();

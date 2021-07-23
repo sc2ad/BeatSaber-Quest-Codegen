@@ -46,6 +46,18 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SPKey
     SPKey(System::Uri* uri_ = {}, System::Uri* proxy_ = {}, bool use_connect_ = {}) noexcept : uri{uri_}, proxy{proxy_}, use_connect{use_connect_} {}
+    // Get instance field: private System.Uri uri
+    System::Uri* _get_uri();
+    // Set instance field: private System.Uri uri
+    void _set_uri(System::Uri* value);
+    // Get instance field: private System.Uri proxy
+    System::Uri* _get_proxy();
+    // Set instance field: private System.Uri proxy
+    void _set_proxy(System::Uri* value);
+    // Get instance field: private System.Boolean use_connect
+    bool _get_use_connect();
+    // Set instance field: private System.Boolean use_connect
+    void _set_use_connect(bool value);
     // public System.Boolean get_UsesProxy()
     // Offset: 0x146C180
     bool get_UsesProxy();

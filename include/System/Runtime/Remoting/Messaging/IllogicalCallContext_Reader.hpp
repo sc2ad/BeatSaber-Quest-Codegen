@@ -38,6 +38,10 @@ namespace System::Runtime::Remoting::Messaging {
     constexpr operator System::Runtime::Remoting::Messaging::IllogicalCallContext*() const noexcept {
       return m_ctx;
     }
+    // Get instance field: private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
+    System::Runtime::Remoting::Messaging::IllogicalCallContext* _get_m_ctx();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
+    void _set_m_ctx(System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
     // public System.Boolean get_IsNull()
     // Offset: 0xEECBFC
     bool get_IsNull();

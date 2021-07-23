@@ -188,6 +188,10 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Security::Cryptography::X509Certificates::X509ChainStatusFlags _get_HasWeakSignature();
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags HasWeakSignature
     static void _set_HasWeakSignature(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
   #pragma pack(pop)
   static check_size<sizeof(X509ChainStatusFlags), 0 + sizeof(int)> __System_Security_Cryptography_X509Certificates_X509ChainStatusFlagsSizeCheck;

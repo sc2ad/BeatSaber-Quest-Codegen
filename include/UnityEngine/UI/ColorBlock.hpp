@@ -79,6 +79,34 @@ namespace UnityEngine::UI {
     operator System::IEquatable_1<UnityEngine::UI::ColorBlock>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::ColorBlock>*>(this);
     }
+    // Get instance field: private UnityEngine.Color m_NormalColor
+    UnityEngine::Color _get_m_NormalColor();
+    // Set instance field: private UnityEngine.Color m_NormalColor
+    void _set_m_NormalColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color m_HighlightedColor
+    UnityEngine::Color _get_m_HighlightedColor();
+    // Set instance field: private UnityEngine.Color m_HighlightedColor
+    void _set_m_HighlightedColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color m_PressedColor
+    UnityEngine::Color _get_m_PressedColor();
+    // Set instance field: private UnityEngine.Color m_PressedColor
+    void _set_m_PressedColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color m_SelectedColor
+    UnityEngine::Color _get_m_SelectedColor();
+    // Set instance field: private UnityEngine.Color m_SelectedColor
+    void _set_m_SelectedColor(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color m_DisabledColor
+    UnityEngine::Color _get_m_DisabledColor();
+    // Set instance field: private UnityEngine.Color m_DisabledColor
+    void _set_m_DisabledColor(UnityEngine::Color value);
+    // Get instance field: private System.Single m_ColorMultiplier
+    float _get_m_ColorMultiplier();
+    // Set instance field: private System.Single m_ColorMultiplier
+    void _set_m_ColorMultiplier(float value);
+    // Get instance field: private System.Single m_FadeDuration
+    float _get_m_FadeDuration();
+    // Set instance field: private System.Single m_FadeDuration
+    void _set_m_FadeDuration(float value);
     // public UnityEngine.Color get_normalColor()
     // Offset: 0xED6368
     UnityEngine::Color get_normalColor();

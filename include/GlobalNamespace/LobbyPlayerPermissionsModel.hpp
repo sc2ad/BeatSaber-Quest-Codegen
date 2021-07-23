@@ -81,6 +81,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: LobbyPlayerPermissionsModel
     LobbyPlayerPermissionsModel(GlobalNamespace::IMenuRpcManager* menuRpcManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, bool isPartyOwner_ = {}, bool hasRecommendBeatmapPermission_ = {}, bool hasRecommendModifiersPermission_ = {}, bool hasKickVotePermission_ = {}, System::Action* permissionsChangedEvent_ = {}) noexcept : menuRpcManager{menuRpcManager_}, multiplayerSessionManager{multiplayerSessionManager_}, isPartyOwner{isPartyOwner_}, hasRecommendBeatmapPermission{hasRecommendBeatmapPermission_}, hasRecommendModifiersPermission{hasRecommendModifiersPermission_}, hasKickVotePermission{hasKickVotePermission_}, permissionsChangedEvent{permissionsChangedEvent_} {}
+    // Get instance field: private readonly IMenuRpcManager _menuRpcManager
+    GlobalNamespace::IMenuRpcManager* _get__menuRpcManager();
+    // Set instance field: private readonly IMenuRpcManager _menuRpcManager
+    void _set__menuRpcManager(GlobalNamespace::IMenuRpcManager* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private System.Boolean <isPartyOwner>k__BackingField
+    bool _get_$isPartyOwner$k__BackingField();
+    // Set instance field: private System.Boolean <isPartyOwner>k__BackingField
+    void _set_$isPartyOwner$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <hasRecommendBeatmapPermission>k__BackingField
+    bool _get_$hasRecommendBeatmapPermission$k__BackingField();
+    // Set instance field: private System.Boolean <hasRecommendBeatmapPermission>k__BackingField
+    void _set_$hasRecommendBeatmapPermission$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <hasRecommendModifiersPermission>k__BackingField
+    bool _get_$hasRecommendModifiersPermission$k__BackingField();
+    // Set instance field: private System.Boolean <hasRecommendModifiersPermission>k__BackingField
+    void _set_$hasRecommendModifiersPermission$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <hasKickVotePermission>k__BackingField
+    bool _get_$hasKickVotePermission$k__BackingField();
+    // Set instance field: private System.Boolean <hasKickVotePermission>k__BackingField
+    void _set_$hasKickVotePermission$k__BackingField(bool value);
+    // Get instance field: private System.Action permissionsChangedEvent
+    System::Action* _get_permissionsChangedEvent();
+    // Set instance field: private System.Action permissionsChangedEvent
+    void _set_permissionsChangedEvent(System::Action* value);
     // public System.Boolean get_isPartyOwner()
     // Offset: 0x11BF6A4
     bool get_isPartyOwner();

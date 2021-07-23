@@ -79,6 +79,26 @@ namespace System::Security::Cryptography::X509Certificates {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: private System.String _name
+    void _set__name(::Il2CppString* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.StoreLocation _location
+    System::Security::Cryptography::X509Certificates::StoreLocation _get__location();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.StoreLocation _location
+    void _set__location(System::Security::Cryptography::X509Certificates::StoreLocation value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection list
+    System::Security::Cryptography::X509Certificates::X509Certificate2Collection* _get_list();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection list
+    void _set_list(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.OpenFlags _flags
+    System::Security::Cryptography::X509Certificates::OpenFlags _get__flags();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.OpenFlags _flags
+    void _set__flags(System::Security::Cryptography::X509Certificates::OpenFlags value);
+    // Get instance field: private Mono.Security.X509.X509Store store
+    Mono::Security::X509::X509Store* _get_store();
+    // Set instance field: private Mono.Security.X509.X509Store store
+    void _set_store(Mono::Security::X509::X509Store* value);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
     // Offset: 0x182F558
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();

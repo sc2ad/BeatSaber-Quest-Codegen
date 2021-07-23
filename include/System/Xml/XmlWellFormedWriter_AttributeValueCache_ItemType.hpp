@@ -87,6 +87,10 @@ namespace System::Xml {
     static System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType _get_ValueString();
     // Set static field: static public System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType ValueString
     static void _set_ValueString(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::ItemType), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemTypeSizeCheck;

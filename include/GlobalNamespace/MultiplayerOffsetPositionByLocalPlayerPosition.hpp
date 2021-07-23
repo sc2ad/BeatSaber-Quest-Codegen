@@ -61,6 +61,26 @@ namespace GlobalNamespace {
     MultiplayerOffsetPositionByLocalPlayerPosition(GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, UnityEngine::Vector3 lastParentPosition_ = {}, UnityEngine::Quaternion lastParentRotation_ = {}) noexcept : multiplayerPlayersManager{multiplayerPlayersManager_}, positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, lastParentPosition{lastParentPosition_}, lastParentRotation{lastParentRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    GlobalNamespace::MultiplayerPlayersManager* _get__multiplayerPlayersManager();
+    // Set instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    void _set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager* value);
+    // Get instance field: private UnityEngine.Vector3 _positionOffset
+    UnityEngine::Vector3 _get__positionOffset();
+    // Set instance field: private UnityEngine.Vector3 _positionOffset
+    void _set__positionOffset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion _rotationOffset
+    UnityEngine::Quaternion _get__rotationOffset();
+    // Set instance field: private UnityEngine.Quaternion _rotationOffset
+    void _set__rotationOffset(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Vector3 _lastParentPosition
+    UnityEngine::Vector3 _get__lastParentPosition();
+    // Set instance field: private UnityEngine.Vector3 _lastParentPosition
+    void _set__lastParentPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion _lastParentRotation
+    UnityEngine::Quaternion _get__lastParentRotation();
+    // Set instance field: private UnityEngine.Quaternion _lastParentRotation
+    void _set__lastParentRotation(UnityEngine::Quaternion value);
     // protected System.Void Awake()
     // Offset: 0x23DCF40
     void Awake();

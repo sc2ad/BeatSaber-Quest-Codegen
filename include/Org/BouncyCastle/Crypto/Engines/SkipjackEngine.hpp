@@ -66,6 +66,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<int16_t>* _get_ftable();
     // Set static field: static private readonly System.Int16[] ftable
     static void _set_ftable(::Array<int16_t>* value);
+    // Get instance field: private System.Int32[] key0
+    ::Array<int>* _get_key0();
+    // Set instance field: private System.Int32[] key0
+    void _set_key0(::Array<int>* value);
+    // Get instance field: private System.Int32[] key1
+    ::Array<int>* _get_key1();
+    // Set instance field: private System.Int32[] key1
+    void _set_key1(::Array<int>* value);
+    // Get instance field: private System.Int32[] key2
+    ::Array<int>* _get_key2();
+    // Set instance field: private System.Int32[] key2
+    void _set_key2(::Array<int>* value);
+    // Get instance field: private System.Int32[] key3
+    ::Array<int>* _get_key3();
+    // Set instance field: private System.Int32[] key3
+    void _set_key3(::Array<int>* value);
+    // Get instance field: private System.Boolean encrypting
+    bool _get_encrypting();
+    // Set instance field: private System.Boolean encrypting
+    void _set_encrypting(bool value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E5B524
     ::Il2CppString* get_AlgorithmName();

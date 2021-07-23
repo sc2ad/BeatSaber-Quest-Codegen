@@ -131,6 +131,54 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*) == 0x8);
     // Creating value type constructor for type: MultiplayerConnectedPlayerInstaller
     MultiplayerConnectedPlayerInstaller(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* connectedPlayerAudioTimeSyncControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* connectedPlayerNoteEventManagerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* multiplayerGameNoteControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* multiplayerBombNoteControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::BoolSO* screenDisplacementEffectsEnabled_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel_ = {}) noexcept : connectedPlayerAudioTimeSyncControllerPrefab{connectedPlayerAudioTimeSyncControllerPrefab_}, connectedPlayerNoteEventManagerPrefab{connectedPlayerNoteEventManagerPrefab_}, multiplayerGameNoteControllerPrefab{multiplayerGameNoteControllerPrefab_}, multiplayerBombNoteControllerPrefab{multiplayerBombNoteControllerPrefab_}, multiplayerObstacleControllerPrefab{multiplayerObstacleControllerPrefab_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, screenDisplacementEffectsEnabled{screenDisplacementEffectsEnabled_}, connectedPlayer{connectedPlayer_}, localPlayerStartState{localPlayerStartState_}, sceneSetupData{sceneSetupData_}, playersSpecificSettingsAtGameStartModel{playersSpecificSettingsAtGameStartModel_} {}
+    // Get instance field: private MultiplayerConnectedPlayerSongTimeSyncController _connectedPlayerAudioTimeSyncControllerPrefab
+    GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* _get__connectedPlayerAudioTimeSyncControllerPrefab();
+    // Set instance field: private MultiplayerConnectedPlayerSongTimeSyncController _connectedPlayerAudioTimeSyncControllerPrefab
+    void _set__connectedPlayerAudioTimeSyncControllerPrefab(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* value);
+    // Get instance field: private MultiplayerConnectedPlayerNoteEventManager _connectedPlayerNoteEventManagerPrefab
+    GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* _get__connectedPlayerNoteEventManagerPrefab();
+    // Set instance field: private MultiplayerConnectedPlayerNoteEventManager _connectedPlayerNoteEventManagerPrefab
+    void _set__connectedPlayerNoteEventManagerPrefab(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* value);
+    // Get instance field: private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
+    GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* _get__multiplayerGameNoteControllerPrefab();
+    // Set instance field: private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
+    void _set__multiplayerGameNoteControllerPrefab(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* value);
+    // Get instance field: private MultiplayerConnectedPlayerBombNoteController _multiplayerBombNoteControllerPrefab
+    GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* _get__multiplayerBombNoteControllerPrefab();
+    // Set instance field: private MultiplayerConnectedPlayerBombNoteController _multiplayerBombNoteControllerPrefab
+    void _set__multiplayerBombNoteControllerPrefab(GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* value);
+    // Get instance field: private MultiplayerConnectedPlayerObstacleController _multiplayerObstacleControllerPrefab
+    GlobalNamespace::MultiplayerConnectedPlayerObstacleController* _get__multiplayerObstacleControllerPrefab();
+    // Set instance field: private MultiplayerConnectedPlayerObstacleController _multiplayerObstacleControllerPrefab
+    void _set__multiplayerObstacleControllerPrefab(GlobalNamespace::MultiplayerConnectedPlayerObstacleController* value);
+    // Get instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
+    GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* _get__beatmapObjectSpawnControllerPlayerHeightSetterPrefab();
+    // Set instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
+    void _set__beatmapObjectSpawnControllerPlayerHeightSetterPrefab(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* value);
+    // Get instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
+    GlobalNamespace::PlayerHeightDetector* _get__playerHeightDetectorPrefab();
+    // Set instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
+    void _set__playerHeightDetectorPrefab(GlobalNamespace::PlayerHeightDetector* value);
+    // Get instance field: private BoolSO _screenDisplacementEffectsEnabled
+    GlobalNamespace::BoolSO* _get__screenDisplacementEffectsEnabled();
+    // Set instance field: private BoolSO _screenDisplacementEffectsEnabled
+    void _set__screenDisplacementEffectsEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
+    // Get instance field: private readonly MultiplayerPlayerStartState _localPlayerStartState
+    GlobalNamespace::MultiplayerPlayerStartState _get__localPlayerStartState();
+    // Set instance field: private readonly MultiplayerPlayerStartState _localPlayerStartState
+    void _set__localPlayerStartState(GlobalNamespace::MultiplayerPlayerStartState value);
+    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
+    // Get instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
+    GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _get__playersSpecificSettingsAtGameStartModel();
+    // Set instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
+    void _set__playersSpecificSettingsAtGameStartModel(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
     // public System.Void .ctor()
     // Offset: 0x11A39F4
     // Implemented from: Zenject.MonoInstaller

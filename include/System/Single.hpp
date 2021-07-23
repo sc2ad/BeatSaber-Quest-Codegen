@@ -115,6 +115,10 @@ namespace System {
     static float _get_NaN();
     // Set static field: static public System.Single NaN
     static void _set_NaN(float value);
+    // Get instance field: System.Single m_value
+    float _get_m_value();
+    // Set instance field: System.Single m_value
+    void _set_m_value(float value);
     // static public System.Boolean IsInfinity(System.Single f)
     // Offset: 0x1BC4184
     static bool IsInfinity(float f);

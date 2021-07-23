@@ -51,6 +51,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass8_0
     $$c__DisplayClass8_0(int index_ = {}, System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* $$9__1_ = {}) noexcept : index{index_}, $$9__1{$$9__1_} {}
+    // Get instance field: public System.Int32 index
+    int _get_index();
+    // Set instance field: public System.Int32 index
+    void _set_index(int value);
+    // Get instance field: public System.Func`2<UnityEngine.Vector2,UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> <>9__1
+    System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* _get_$$9__1();
+    // Set instance field: public System.Func`2<UnityEngine.Vector2,UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> <>9__1
+    void _set_$$9__1(System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* value);
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__0(UnityEngine.Vector2 x)
     // Offset: 0x16F9820
     UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__0(UnityEngine::Vector2 x);

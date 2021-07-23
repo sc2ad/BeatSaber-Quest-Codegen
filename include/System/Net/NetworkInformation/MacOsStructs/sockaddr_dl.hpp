@@ -81,6 +81,38 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Byte sdl_len
+    uint8_t _get_sdl_len();
+    // Set instance field: public System.Byte sdl_len
+    void _set_sdl_len(uint8_t value);
+    // Get instance field: public System.Byte sdl_family
+    uint8_t _get_sdl_family();
+    // Set instance field: public System.Byte sdl_family
+    void _set_sdl_family(uint8_t value);
+    // Get instance field: public System.UInt16 sdl_index
+    uint16_t _get_sdl_index();
+    // Set instance field: public System.UInt16 sdl_index
+    void _set_sdl_index(uint16_t value);
+    // Get instance field: public System.Byte sdl_type
+    uint8_t _get_sdl_type();
+    // Set instance field: public System.Byte sdl_type
+    void _set_sdl_type(uint8_t value);
+    // Get instance field: public System.Byte sdl_nlen
+    uint8_t _get_sdl_nlen();
+    // Set instance field: public System.Byte sdl_nlen
+    void _set_sdl_nlen(uint8_t value);
+    // Get instance field: public System.Byte sdl_alen
+    uint8_t _get_sdl_alen();
+    // Set instance field: public System.Byte sdl_alen
+    void _set_sdl_alen(uint8_t value);
+    // Get instance field: public System.Byte sdl_slen
+    uint8_t _get_sdl_slen();
+    // Set instance field: public System.Byte sdl_slen
+    void _set_sdl_slen(uint8_t value);
+    // Get instance field: public System.Byte[] sdl_data
+    ::Array<uint8_t>* _get_sdl_data();
+    // Set instance field: public System.Byte[] sdl_data
+    void _set_sdl_data(::Array<uint8_t>* value);
     // System.Void Read(System.IntPtr ptr)
     // Offset: 0xED909C
     void Read(System::IntPtr ptr);

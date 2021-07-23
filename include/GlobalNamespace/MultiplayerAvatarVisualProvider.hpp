@@ -45,6 +45,14 @@ namespace GlobalNamespace {
     MultiplayerAvatarVisualProvider(GlobalNamespace::AvatarVisualController* avatarVisualController_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : avatarVisualController{avatarVisualController_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private AvatarVisualController _avatarVisualController
+    GlobalNamespace::AvatarVisualController* _get__avatarVisualController();
+    // Set instance field: private AvatarVisualController _avatarVisualController
+    void _set__avatarVisualController(GlobalNamespace::AvatarVisualController* value);
+    // Get instance field: private readonly IConnectedPlayer _connectedPlayer
+    GlobalNamespace::IConnectedPlayer* _get__connectedPlayer();
+    // Set instance field: private readonly IConnectedPlayer _connectedPlayer
+    void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // protected System.Void Start()
     // Offset: 0x119B34C
     void Start();

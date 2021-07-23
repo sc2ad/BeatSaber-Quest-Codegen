@@ -75,6 +75,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::MissionObjective::ReferenceValueComparisonType _get_Min();
       // Set static field: static public MissionObjective/ReferenceValueComparisonType Min
       static void _set_Min(GlobalNamespace::MissionObjective::ReferenceValueComparisonType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // MissionObjective/ReferenceValueComparisonType
     #pragma pack(pop)
     static check_size<sizeof(MissionObjective::ReferenceValueComparisonType), 0 + sizeof(int)> __GlobalNamespace_MissionObjective_ReferenceValueComparisonTypeSizeCheck;
@@ -99,6 +103,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MissionObjective
     MissionObjective(GlobalNamespace::MissionObjectiveTypeSO* type_ = {}, GlobalNamespace::MissionObjective::ReferenceValueComparisonType referenceValueComparisonType_ = {}, int referenceValue_ = {}) noexcept : type{type_}, referenceValueComparisonType{referenceValueComparisonType_}, referenceValue{referenceValue_} {}
+    // Get instance field: private MissionObjectiveTypeSO _type
+    GlobalNamespace::MissionObjectiveTypeSO* _get__type();
+    // Set instance field: private MissionObjectiveTypeSO _type
+    void _set__type(GlobalNamespace::MissionObjectiveTypeSO* value);
+    // Get instance field: private MissionObjective/ReferenceValueComparisonType _referenceValueComparisonType
+    GlobalNamespace::MissionObjective::ReferenceValueComparisonType _get__referenceValueComparisonType();
+    // Set instance field: private MissionObjective/ReferenceValueComparisonType _referenceValueComparisonType
+    void _set__referenceValueComparisonType(GlobalNamespace::MissionObjective::ReferenceValueComparisonType value);
+    // Get instance field: private System.Int32 _referenceValue
+    int _get__referenceValue();
+    // Set instance field: private System.Int32 _referenceValue
+    void _set__referenceValue(int value);
     // public MissionObjectiveTypeSO get_type()
     // Offset: 0x1136C80
     GlobalNamespace::MissionObjectiveTypeSO* get_type();

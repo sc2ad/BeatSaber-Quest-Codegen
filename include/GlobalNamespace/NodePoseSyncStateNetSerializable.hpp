@@ -74,6 +74,18 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ISyncStateSerializable_1<GlobalNamespace::NodePoseSyncState>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISyncStateSerializable_1<GlobalNamespace::NodePoseSyncState>*>(this);
     }
+    // Get instance field: private NodePoseSyncState _state
+    GlobalNamespace::NodePoseSyncState _get__state();
+    // Set instance field: private NodePoseSyncState _state
+    void _set__state(GlobalNamespace::NodePoseSyncState value);
+    // Get instance field: private SyncStateId <id>k__BackingField
+    GlobalNamespace::SyncStateId _get_$id$k__BackingField();
+    // Set instance field: private SyncStateId <id>k__BackingField
+    void _set_$id$k__BackingField(GlobalNamespace::SyncStateId value);
+    // Get instance field: private System.Single <time>k__BackingField
+    float _get_$time$k__BackingField();
+    // Set instance field: private System.Single <time>k__BackingField
+    void _set_$time$k__BackingField(float value);
     // static public PacketPool`1<NodePoseSyncStateNetSerializable> get_pool()
     // Offset: 0x1539968
     static GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_pool();

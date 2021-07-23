@@ -78,6 +78,18 @@ namespace System::Net::Sockets {
     static bool _get_THROW_ON_ABORT_RETRIES();
     // Set static field: static private System.Boolean THROW_ON_ABORT_RETRIES
     static void _set_THROW_ON_ABORT_RETRIES(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Threading.Thread> blocking_threads
+    System::Collections::Generic::List_1<System::Threading::Thread*>* _get_blocking_threads();
+    // Set instance field: private System.Collections.Generic.List`1<System.Threading.Thread> blocking_threads
+    void _set_blocking_threads(System::Collections::Generic::List_1<System::Threading::Thread*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Threading.Thread,System.Diagnostics.StackTrace> threads_stacktraces
+    System::Collections::Generic::Dictionary_2<System::Threading::Thread*, System::Diagnostics::StackTrace*>* _get_threads_stacktraces();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Threading.Thread,System.Diagnostics.StackTrace> threads_stacktraces
+    void _set_threads_stacktraces(System::Collections::Generic::Dictionary_2<System::Threading::Thread*, System::Diagnostics::StackTrace*>* value);
+    // Get instance field: private System.Boolean in_cleanup
+    bool _get_in_cleanup();
+    // Set instance field: private System.Boolean in_cleanup
+    void _set_in_cleanup(bool value);
     // static private System.Void .cctor()
     // Offset: 0x1470F0C
     static void _cctor();

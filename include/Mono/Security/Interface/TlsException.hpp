@@ -40,6 +40,10 @@ namespace Mono::Security::Interface {
     constexpr operator Mono::Security::Interface::Alert*() const noexcept {
       return alert;
     }
+    // Get instance field: private Mono.Security.Interface.Alert alert
+    Mono::Security::Interface::Alert* _get_alert();
+    // Set instance field: private Mono.Security.Interface.Alert alert
+    void _set_alert(Mono::Security::Interface::Alert* value);
     // public System.Void .ctor(Mono.Security.Interface.Alert alert, System.String message)
     // Offset: 0x1DDED7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

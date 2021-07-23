@@ -34,6 +34,10 @@ namespace Valve::VR {
     constexpr operator Valve::VR::VRTextureDepthInfo_t() const noexcept {
       return depth;
     }
+    // Get instance field: public Valve.VR.VRTextureDepthInfo_t depth
+    Valve::VR::VRTextureDepthInfo_t _get_depth();
+    // Set instance field: public Valve.VR.VRTextureDepthInfo_t depth
+    void _set_depth(Valve::VR::VRTextureDepthInfo_t value);
   }; // Valve.VR.VRTextureWithPoseAndDepth_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureWithPoseAndDepth_t), 0 + sizeof(Valve::VR::VRTextureDepthInfo_t)> __Valve_VR_VRTextureWithPoseAndDepth_tSizeCheck;

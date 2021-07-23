@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
     // Creating value type constructor for type: RenderModel
     RenderModel(UnityEngine::Mesh* mesh_ = {}, UnityEngine::Material* material_ = {}) noexcept : mesh{mesh_}, material{material_} {}
+    // Get instance field: private UnityEngine.Mesh <mesh>k__BackingField
+    UnityEngine::Mesh* _get_$mesh$k__BackingField();
+    // Set instance field: private UnityEngine.Mesh <mesh>k__BackingField
+    void _set_$mesh$k__BackingField(UnityEngine::Mesh* value);
+    // Get instance field: private UnityEngine.Material <material>k__BackingField
+    UnityEngine::Material* _get_$material$k__BackingField();
+    // Set instance field: private UnityEngine.Material <material>k__BackingField
+    void _set_$material$k__BackingField(UnityEngine::Material* value);
     // public UnityEngine.Mesh get_mesh()
     // Offset: 0x13B3454
     UnityEngine::Mesh* get_mesh();

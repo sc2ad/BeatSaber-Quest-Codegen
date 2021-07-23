@@ -66,6 +66,22 @@ namespace UnityEngine::TestTools {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public System.Reflection.MethodInfo action
+    System::Reflection::MethodInfo* _get_action();
+    // Set instance field: public System.Reflection.MethodInfo action
+    void _set_action(System::Reflection::MethodInfo* value);
+    // Get instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_context();
+    // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context
+    void _set_context(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x148CC40
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

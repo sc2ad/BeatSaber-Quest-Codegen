@@ -46,6 +46,14 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::MeshId _get_s_InvalidId();
     // Set static field: static private UnityEngine.XR.MeshId s_InvalidId
     static void _set_s_InvalidId(UnityEngine::XR::MeshId value);
+    // Get instance field: private System.UInt64 m_SubId1
+    uint64_t _get_m_SubId1();
+    // Set instance field: private System.UInt64 m_SubId1
+    void _set_m_SubId1(uint64_t value);
+    // Get instance field: private System.UInt64 m_SubId2
+    uint64_t _get_m_SubId2();
+    // Set instance field: private System.UInt64 m_SubId2
+    void _set_m_SubId2(uint64_t value);
     // static private System.Void .cctor()
     // Offset: 0x23B487C
     static void _cctor();

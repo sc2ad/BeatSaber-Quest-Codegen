@@ -45,6 +45,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     constexpr operator Org::BouncyCastle::Crypto::Parameters::DHParameters*() const noexcept {
       return parameters;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
+    Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
+    void _set_parameters(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()
     // Offset: 0x122664C
     Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();

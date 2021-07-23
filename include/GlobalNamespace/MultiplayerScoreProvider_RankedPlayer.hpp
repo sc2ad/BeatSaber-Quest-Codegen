@@ -49,6 +49,14 @@ namespace GlobalNamespace {
     operator System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>() noexcept {
       return *reinterpret_cast<System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*>(this);
     }
+    // Get instance field: private readonly MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> _multiplayerSyncState
+    GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* _get__multiplayerSyncState();
+    // Set instance field: private readonly MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> _multiplayerSyncState
+    void _set__multiplayerSyncState(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>* value);
+    // Get instance field: private readonly MultiplayerScoreProvider _scoreSyncManager
+    GlobalNamespace::MultiplayerScoreProvider* _get__scoreSyncManager();
+    // Set instance field: private readonly MultiplayerScoreProvider _scoreSyncManager
+    void _set__scoreSyncManager(GlobalNamespace::MultiplayerScoreProvider* value);
     // public System.Single get_offsetSyncTime()
     // Offset: 0x1008B14
     float get_offsetSyncTime();

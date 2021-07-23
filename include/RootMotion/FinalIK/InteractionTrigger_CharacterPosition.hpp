@@ -85,6 +85,34 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CharacterPosition
     CharacterPosition(bool use_ = {}, UnityEngine::Vector2 offset_ = {}, float angleOffset_ = {}, float maxAngle_ = {}, float radius_ = {}, bool orbit_ = {}, bool fixYAxis_ = {}) noexcept : use{use_}, offset{offset_}, angleOffset{angleOffset_}, maxAngle{maxAngle_}, radius{radius_}, orbit{orbit_}, fixYAxis{fixYAxis_} {}
+    // Get instance field: public System.Boolean use
+    bool _get_use();
+    // Set instance field: public System.Boolean use
+    void _set_use(bool value);
+    // Get instance field: public UnityEngine.Vector2 offset
+    UnityEngine::Vector2 _get_offset();
+    // Set instance field: public UnityEngine.Vector2 offset
+    void _set_offset(UnityEngine::Vector2 value);
+    // Get instance field: public System.Single angleOffset
+    float _get_angleOffset();
+    // Set instance field: public System.Single angleOffset
+    void _set_angleOffset(float value);
+    // Get instance field: public System.Single maxAngle
+    float _get_maxAngle();
+    // Set instance field: public System.Single maxAngle
+    void _set_maxAngle(float value);
+    // Get instance field: public System.Single radius
+    float _get_radius();
+    // Set instance field: public System.Single radius
+    void _set_radius(float value);
+    // Get instance field: public System.Boolean orbit
+    bool _get_orbit();
+    // Set instance field: public System.Boolean orbit
+    void _set_orbit(bool value);
+    // Get instance field: public System.Boolean fixYAxis
+    bool _get_fixYAxis();
+    // Set instance field: public System.Boolean fixYAxis
+    void _set_fixYAxis(bool value);
     // public UnityEngine.Vector3 get_offset3D()
     // Offset: 0x1AB42B8
     UnityEngine::Vector3 get_offset3D();

@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::ToneMapping _get_Aces();
     // Set static field: static public ToneMapping Aces
     static void _set_Aces(GlobalNamespace::ToneMapping value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // ToneMapping
   #pragma pack(pop)
   static check_size<sizeof(ToneMapping), 0 + sizeof(int)> __GlobalNamespace_ToneMappingSizeCheck;

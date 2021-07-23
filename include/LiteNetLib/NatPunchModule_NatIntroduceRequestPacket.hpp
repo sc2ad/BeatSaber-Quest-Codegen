@@ -40,6 +40,14 @@ namespace LiteNetLib {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: NatIntroduceRequestPacket
     NatIntroduceRequestPacket(System::Net::IPEndPoint* Internal_ = {}, ::Il2CppString* Token_ = {}) noexcept : Internal{Internal_}, Token{Token_} {}
+    // Get instance field: private System.Net.IPEndPoint <Internal>k__BackingField
+    System::Net::IPEndPoint* _get_$Internal$k__BackingField();
+    // Set instance field: private System.Net.IPEndPoint <Internal>k__BackingField
+    void _set_$Internal$k__BackingField(System::Net::IPEndPoint* value);
+    // Get instance field: private System.String <Token>k__BackingField
+    ::Il2CppString* _get_$Token$k__BackingField();
+    // Set instance field: private System.String <Token>k__BackingField
+    void _set_$Token$k__BackingField(::Il2CppString* value);
     // public System.Net.IPEndPoint get_Internal()
     // Offset: 0x1BB1754
     System::Net::IPEndPoint* get_Internal();

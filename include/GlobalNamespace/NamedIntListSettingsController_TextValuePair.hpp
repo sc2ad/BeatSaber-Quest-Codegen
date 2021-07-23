@@ -33,6 +33,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TextValuePair
     TextValuePair(::Il2CppString* text_ = {}, int value_ = {}) noexcept : text{text_}, value{value_} {}
+    // Get instance field: public System.String text
+    ::Il2CppString* _get_text();
+    // Set instance field: public System.String text
+    void _set_text(::Il2CppString* value);
+    // Get instance field: public System.Int32 value
+    int _get_value();
+    // Set instance field: public System.Int32 value
+    void _set_value(int value);
     // public System.String get_localizedText()
     // Offset: 0x100E7CC
     ::Il2CppString* get_localizedText();

@@ -64,6 +64,18 @@ namespace System::Text {
     operator System::Runtime::Serialization::IObjectReference() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
     }
+    // Get instance field: private System.Text.Encoding m_encoding
+    System::Text::Encoding* _get_m_encoding();
+    // Set instance field: private System.Text.Encoding m_encoding
+    void _set_m_encoding(System::Text::Encoding* value);
+    // Get instance field: private System.Boolean m_hasInitializedEncoding
+    bool _get_m_hasInitializedEncoding();
+    // Set instance field: private System.Boolean m_hasInitializedEncoding
+    void _set_m_hasInitializedEncoding(bool value);
+    // Get instance field: System.Char charLeftOver
+    ::Il2CppChar _get_charLeftOver();
+    // Set instance field: System.Char charLeftOver
+    void _set_charLeftOver(::Il2CppChar value);
     // public System.Void .ctor(System.Text.Encoding encoding)
     // Offset: 0x1D198B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

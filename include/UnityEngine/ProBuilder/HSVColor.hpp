@@ -44,6 +44,18 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: HSVColor
     HSVColor(float h_ = {}, float s_ = {}, float v_ = {}) noexcept : h{h_}, s{s_}, v{v_} {}
+    // Get instance field: public System.Single h
+    float _get_h();
+    // Set instance field: public System.Single h
+    void _set_h(float value);
+    // Get instance field: public System.Single s
+    float _get_s();
+    // Set instance field: public System.Single s
+    void _set_s(float value);
+    // Get instance field: public System.Single v
+    float _get_v();
+    // Set instance field: public System.Single v
+    void _set_v(float value);
     // public System.Void .ctor(System.Single h, System.Single s, System.Single v)
     // Offset: 0x1AE47D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -46,6 +46,14 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: ActivatedClientTypeEntry
     ActivatedClientTypeEntry(::Il2CppString* applicationUrl_ = {}, System::Type* obj_type_ = {}) noexcept : applicationUrl{applicationUrl_}, obj_type{obj_type_} {}
+    // Get instance field: private System.String applicationUrl
+    ::Il2CppString* _get_applicationUrl();
+    // Set instance field: private System.String applicationUrl
+    void _set_applicationUrl(::Il2CppString* value);
+    // Get instance field: private System.Type obj_type
+    System::Type* _get_obj_type();
+    // Set instance field: private System.Type obj_type
+    void _set_obj_type(System::Type* value);
     // public System.String get_ApplicationUrl()
     // Offset: 0x13F31E0
     ::Il2CppString* get_ApplicationUrl();

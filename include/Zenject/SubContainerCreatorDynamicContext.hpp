@@ -58,6 +58,10 @@ namespace Zenject {
     constexpr operator Zenject::DiContainer*() const noexcept {
       return container;
     }
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
     // protected Zenject.DiContainer get_Container()
     // Offset: 0x16D37E8
     Zenject::DiContainer* get_Container();

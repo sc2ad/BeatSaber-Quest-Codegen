@@ -65,6 +65,18 @@ namespace System::Text::RegularExpressions {
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
+    // Get instance field: System.Text.RegularExpressions.Match _match
+    System::Text::RegularExpressions::Match* _get__match();
+    // Set instance field: System.Text.RegularExpressions.Match _match
+    void _set__match(System::Text::RegularExpressions::Match* value);
+    // Get instance field: System.Collections.Hashtable _captureMap
+    System::Collections::Hashtable* _get__captureMap();
+    // Set instance field: System.Collections.Hashtable _captureMap
+    void _set__captureMap(System::Collections::Hashtable* value);
+    // Get instance field: System.Text.RegularExpressions.Group[] _groups
+    ::Array<System::Text::RegularExpressions::Group*>* _get__groups();
+    // Set instance field: System.Text.RegularExpressions.Group[] _groups
+    void _set__groups(::Array<System::Text::RegularExpressions::Group*>* value);
     // public System.Int32 get_Count()
     // Offset: 0x1834F90
     int get_Count();

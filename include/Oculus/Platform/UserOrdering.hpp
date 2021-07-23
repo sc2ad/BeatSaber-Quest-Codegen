@@ -52,6 +52,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::UserOrdering _get_PresenceAlphabetical();
     // Set static field: static public Oculus.Platform.UserOrdering PresenceAlphabetical
     static void _set_PresenceAlphabetical(Oculus::Platform::UserOrdering value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.UserOrdering
   #pragma pack(pop)
   static check_size<sizeof(UserOrdering), 0 + sizeof(int)> __Oculus_Platform_UserOrderingSizeCheck;

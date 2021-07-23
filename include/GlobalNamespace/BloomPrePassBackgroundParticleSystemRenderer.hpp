@@ -43,6 +43,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
     // Creating value type constructor for type: BloomPrePassBackgroundParticleSystemRenderer
     BloomPrePassBackgroundParticleSystemRenderer(UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::Renderer* renderer_ = {}) noexcept : particleSystem{particleSystem_}, renderer{renderer_} {}
+    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem* _get__particleSystem();
+    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
+    void _set__particleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field: private UnityEngine.Renderer _renderer
+    UnityEngine::Renderer* _get__renderer();
+    // Set instance field: private UnityEngine.Renderer _renderer
+    void _set__renderer(UnityEngine::Renderer* value);
     // protected override UnityEngine.Renderer get_renderer()
     // Offset: 0x1DED334
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore

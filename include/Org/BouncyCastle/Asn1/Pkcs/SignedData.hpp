@@ -75,6 +75,30 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
     // Creating value type constructor for type: SignedData
     SignedData(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms_ = {}, Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo_ = {}, Org::BouncyCastle::Asn1::Asn1Set* certificates_ = {}, Org::BouncyCastle::Asn1::Asn1Set* crls_ = {}, Org::BouncyCastle::Asn1::Asn1Set* signerInfos_ = {}) noexcept : version{version_}, digestAlgorithms{digestAlgorithms_}, contentInfo{contentInfo_}, certificates{certificates_}, crls{crls_}, signerInfos{signerInfos_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger version
+    Org::BouncyCastle::Asn1::DerInteger* _get_version();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger version
+    void _set_version(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set digestAlgorithms
+    Org::BouncyCastle::Asn1::Asn1Set* _get_digestAlgorithms();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set digestAlgorithms
+    void _set_digestAlgorithms(Org::BouncyCastle::Asn1::Asn1Set* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Pkcs.ContentInfo contentInfo
+    Org::BouncyCastle::Asn1::Pkcs::ContentInfo* _get_contentInfo();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Pkcs.ContentInfo contentInfo
+    void _set_contentInfo(Org::BouncyCastle::Asn1::Pkcs::ContentInfo* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set certificates
+    Org::BouncyCastle::Asn1::Asn1Set* _get_certificates();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set certificates
+    void _set_certificates(Org::BouncyCastle::Asn1::Asn1Set* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set crls
+    Org::BouncyCastle::Asn1::Asn1Set* _get_crls();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set crls
+    void _set_crls(Org::BouncyCastle::Asn1::Asn1Set* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set signerInfos
+    Org::BouncyCastle::Asn1::Asn1Set* _get_signerInfos();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set signerInfos
+    void _set_signerInfos(Org::BouncyCastle::Asn1::Asn1Set* value);
     // public Org.BouncyCastle.Asn1.Asn1Set get_Certificates()
     // Offset: 0x1766EF4
     Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();

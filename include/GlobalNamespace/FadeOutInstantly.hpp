@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     FadeOutInstantly(GlobalNamespace::FadeInOutController* fadeInOut_ = {}) noexcept : fadeInOut{fadeInOut_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private FadeInOutController _fadeInOut
+    GlobalNamespace::FadeInOutController* _get__fadeInOut();
+    // Set instance field: private FadeInOutController _fadeInOut
+    void _set__fadeInOut(GlobalNamespace::FadeInOutController* value);
     // protected System.Void Start()
     // Offset: 0x233E34C
     void Start();

@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     BeatmapLevelPackCollectionContainerSO(GlobalNamespace::BeatmapLevelPackCollectionSO* beatmapLevelPackCollection_ = {}) noexcept : beatmapLevelPackCollection{beatmapLevelPackCollection_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BeatmapLevelPackCollectionSO _beatmapLevelPackCollection
+    GlobalNamespace::BeatmapLevelPackCollectionSO* _get__beatmapLevelPackCollection();
+    // Set instance field: private BeatmapLevelPackCollectionSO _beatmapLevelPackCollection
+    void _set__beatmapLevelPackCollection(GlobalNamespace::BeatmapLevelPackCollectionSO* value);
     // public BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection()
     // Offset: 0x108D754
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_beatmapLevelPackCollection();

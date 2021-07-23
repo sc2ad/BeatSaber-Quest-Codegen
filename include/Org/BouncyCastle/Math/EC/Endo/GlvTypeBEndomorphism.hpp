@@ -56,6 +56,14 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     operator Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(this);
     }
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters m_parameters
+    Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* _get_m_parameters();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters m_parameters
+    void _set_m_parameters(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
+    Org::BouncyCastle::Math::EC::ECPointMap* _get_m_pointMap();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
+    void _set_m_pointMap(Org::BouncyCastle::Math::EC::ECPointMap* value);
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
     // Offset: 0x20EA538
     Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();

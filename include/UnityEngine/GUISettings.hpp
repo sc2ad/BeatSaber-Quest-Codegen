@@ -54,6 +54,26 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: GUISettings
     GUISettings(bool m_DoubleClickSelectsWord_ = {}, bool m_TripleClickSelectsLine_ = {}, UnityEngine::Color m_CursorColor_ = {}, float m_CursorFlashSpeed_ = {}, UnityEngine::Color m_SelectionColor_ = {}) noexcept : m_DoubleClickSelectsWord{m_DoubleClickSelectsWord_}, m_TripleClickSelectsLine{m_TripleClickSelectsLine_}, m_CursorColor{m_CursorColor_}, m_CursorFlashSpeed{m_CursorFlashSpeed_}, m_SelectionColor{m_SelectionColor_} {}
+    // Get instance field: private System.Boolean m_DoubleClickSelectsWord
+    bool _get_m_DoubleClickSelectsWord();
+    // Set instance field: private System.Boolean m_DoubleClickSelectsWord
+    void _set_m_DoubleClickSelectsWord(bool value);
+    // Get instance field: private System.Boolean m_TripleClickSelectsLine
+    bool _get_m_TripleClickSelectsLine();
+    // Set instance field: private System.Boolean m_TripleClickSelectsLine
+    void _set_m_TripleClickSelectsLine(bool value);
+    // Get instance field: private UnityEngine.Color m_CursorColor
+    UnityEngine::Color _get_m_CursorColor();
+    // Set instance field: private UnityEngine.Color m_CursorColor
+    void _set_m_CursorColor(UnityEngine::Color value);
+    // Get instance field: private System.Single m_CursorFlashSpeed
+    float _get_m_CursorFlashSpeed();
+    // Set instance field: private System.Single m_CursorFlashSpeed
+    void _set_m_CursorFlashSpeed(float value);
+    // Get instance field: private UnityEngine.Color m_SelectionColor
+    UnityEngine::Color _get_m_SelectionColor();
+    // Set instance field: private UnityEngine.Color m_SelectionColor
+    void _set_m_SelectionColor(UnityEngine::Color value);
     // public System.Boolean get_doubleClickSelectsWord()
     // Offset: 0x1A9D1A0
     bool get_doubleClickSelectsWord();

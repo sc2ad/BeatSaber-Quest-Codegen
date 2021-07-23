@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerPlayerLayout _get_Duel();
     // Set static field: static public MultiplayerPlayerLayout Duel
     static void _set_Duel(GlobalNamespace::MultiplayerPlayerLayout value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // MultiplayerPlayerLayout
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerPlayerLayout), 0 + sizeof(int)> __GlobalNamespace_MultiplayerPlayerLayoutSizeCheck;

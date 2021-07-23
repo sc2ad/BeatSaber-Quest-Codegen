@@ -63,6 +63,10 @@ namespace UnityEngine::UI {
     static UnityEngine::UI::Selectable::SelectionState _get_Disabled();
     // Set static field: static public UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState Disabled
     static void _set_Disabled(UnityEngine::UI::Selectable::SelectionState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState
   #pragma pack(pop)
   static check_size<sizeof(Selectable::SelectionState), 0 + sizeof(int)> __UnityEngine_UI_Selectable_SelectionStateSizeCheck;

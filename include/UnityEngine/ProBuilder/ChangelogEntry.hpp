@@ -38,6 +38,14 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ChangelogEntry
     ChangelogEntry(UnityEngine::ProBuilder::SemVer* m_VersionInfo_ = {}, ::Il2CppString* m_ReleaseNotes_ = {}) noexcept : m_VersionInfo{m_VersionInfo_}, m_ReleaseNotes{m_ReleaseNotes_} {}
+    // Get instance field: private UnityEngine.ProBuilder.SemVer m_VersionInfo
+    UnityEngine::ProBuilder::SemVer* _get_m_VersionInfo();
+    // Set instance field: private UnityEngine.ProBuilder.SemVer m_VersionInfo
+    void _set_m_VersionInfo(UnityEngine::ProBuilder::SemVer* value);
+    // Get instance field: private System.String m_ReleaseNotes
+    ::Il2CppString* _get_m_ReleaseNotes();
+    // Set instance field: private System.String m_ReleaseNotes
+    void _set_m_ReleaseNotes(::Il2CppString* value);
     // public UnityEngine.ProBuilder.SemVer get_versionInfo()
     // Offset: 0x1F340A0
     UnityEngine::ProBuilder::SemVer* get_versionInfo();

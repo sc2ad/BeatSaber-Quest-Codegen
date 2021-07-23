@@ -62,6 +62,26 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     DTSweepDebugContext(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* primaryTriangle_ = {}, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* secondaryTriangle_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* activePoint_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* activeNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* activeConstraint_ = {}) noexcept : primaryTriangle{primaryTriangle_}, secondaryTriangle{secondaryTriangle_}, activePoint{activePoint_}, activeNode{activeNode_}, activeConstraint{activeConstraint_} {}
     // Deleting conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
     constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept = delete;
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _primaryTriangle
+    UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _get__primaryTriangle();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _primaryTriangle
+    void _set__primaryTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _secondaryTriangle
+    UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _get__secondaryTriangle();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _secondaryTriangle
+    void _set__secondaryTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint _activePoint
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get__activePoint();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint _activePoint
+    void _set__activePoint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode _activeNode
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get__activeNode();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode _activeNode
+    void _set__activeNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint _activeConstraint
+    UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* _get__activeConstraint();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint _activeConstraint
+    void _set__activeConstraint(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
     // public System.Void set_PrimaryTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle value)
     // Offset: 0x236B028
     void set_PrimaryTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);

@@ -89,6 +89,18 @@ namespace GlobalNamespace {
     static float _get_kMaxRandomMultiplierAmount();
     // Set static field: static private System.Single kMaxRandomMultiplierAmount
     static void _set_kMaxRandomMultiplierAmount(float value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private readonly IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
+    // Set instance field: private readonly IDifficultyBeatmap _difficultyBeatmap
+    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
+    GlobalNamespace::MultiplayerBadgesModelSO* _get__multiplayerBadgesModel();
+    // Set instance field: private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
+    void _set__multiplayerBadgesModel(GlobalNamespace::MultiplayerBadgesModelSO* value);
     // public System.Void SelectBadgesAndPutThemIntoResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> playerResults)
     // Offset: 0x119D2BC
     void SelectBadgesAndPutThemIntoResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);

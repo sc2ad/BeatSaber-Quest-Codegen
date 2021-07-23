@@ -53,6 +53,14 @@ namespace System::Text {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: UTF8Encoding
     UTF8Encoding(bool emitUTF8Identifier_ = {}, bool isThrowException_ = {}) noexcept : emitUTF8Identifier{emitUTF8Identifier_}, isThrowException{isThrowException_} {}
+    // Get instance field: private System.Boolean emitUTF8Identifier
+    bool _get_emitUTF8Identifier();
+    // Set instance field: private System.Boolean emitUTF8Identifier
+    void _set_emitUTF8Identifier(bool value);
+    // Get instance field: private System.Boolean isThrowException
+    bool _get_isThrowException();
+    // Set instance field: private System.Boolean isThrowException
+    void _set_isThrowException(bool value);
     // public System.Void .ctor(System.Boolean encoderShouldEmitUTF8Identifier)
     // Offset: 0x1D19A04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

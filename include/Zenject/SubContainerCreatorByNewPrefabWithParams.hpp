@@ -76,6 +76,22 @@ namespace Zenject {
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);
     }
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private readonly Zenject.IPrefabProvider _prefabProvider
+    Zenject::IPrefabProvider* _get__prefabProvider();
+    // Set instance field: private readonly Zenject.IPrefabProvider _prefabProvider
+    void _set__prefabProvider(Zenject::IPrefabProvider* value);
+    // Get instance field: private readonly System.Type _installerType
+    System::Type* _get__installerType();
+    // Set instance field: private readonly System.Type _installerType
+    void _set__installerType(System::Type* value);
+    // Get instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    Zenject::GameObjectCreationParameters* _get__gameObjectBindInfo();
+    // Set instance field: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
+    void _set__gameObjectBindInfo(Zenject::GameObjectCreationParameters* value);
     // protected Zenject.DiContainer get_Container()
     // Offset: 0x16D3070
     Zenject::DiContainer* get_Container();

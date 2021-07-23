@@ -65,6 +65,10 @@ namespace GlobalNamespace {
       constexpr operator ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>*() const noexcept {
         return keyframes;
       }
+      // Get instance field: public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
+      ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* _get_keyframes();
+      // Set instance field: public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
+      void _set_keyframes(::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* value);
       // public System.Void .ctor()
       // Offset: 0x1057624
       // Implemented from: System.Object
@@ -118,6 +122,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::SimpleVRNodeRecorder::RecordMode _get_Off();
       // Set static field: static public SimpleVRNodeRecorder/RecordMode Off
       static void _set_Off(GlobalNamespace::SimpleVRNodeRecorder::RecordMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // SimpleVRNodeRecorder/RecordMode
     #pragma pack(pop)
     static check_size<sizeof(SimpleVRNodeRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_SimpleVRNodeRecorder_RecordModeSizeCheck;
@@ -199,6 +207,54 @@ namespace GlobalNamespace {
     SimpleVRNodeRecorder(GlobalNamespace::FloatSO* songTime_ = {}, ::Il2CppString* saveFilename_ = {}, GlobalNamespace::SimpleVRNodeRecorder::RecordMode mode_ = {}, UnityEngine::XR::XRNode node_ = {}, UnityEngine::Transform* playbackTransform_ = {}, float smooth_ = {}, float forwardOffset_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, System::Collections::Generic::List_1<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* keyframes_ = {}, int keyframeIndex_ = {}, UnityEngine::Vector3 prevPos_ = {}, UnityEngine::Quaternion prevRot_ = {}) noexcept : songTime{songTime_}, saveFilename{saveFilename_}, mode{mode_}, node{node_}, playbackTransform{playbackTransform_}, smooth{smooth_}, forwardOffset{forwardOffset_}, vrPlatformHelper{vrPlatformHelper_}, keyframes{keyframes_}, keyframeIndex{keyframeIndex_}, prevPos{prevPos_}, prevRot{prevRot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private FloatSO _songTime
+    GlobalNamespace::FloatSO* _get__songTime();
+    // Set instance field: private FloatSO _songTime
+    void _set__songTime(GlobalNamespace::FloatSO* value);
+    // Get instance field: private System.String _saveFilename
+    ::Il2CppString* _get__saveFilename();
+    // Set instance field: private System.String _saveFilename
+    void _set__saveFilename(::Il2CppString* value);
+    // Get instance field: private SimpleVRNodeRecorder/RecordMode _mode
+    GlobalNamespace::SimpleVRNodeRecorder::RecordMode _get__mode();
+    // Set instance field: private SimpleVRNodeRecorder/RecordMode _mode
+    void _set__mode(GlobalNamespace::SimpleVRNodeRecorder::RecordMode value);
+    // Get instance field: private UnityEngine.XR.XRNode _node
+    UnityEngine::XR::XRNode _get__node();
+    // Set instance field: private UnityEngine.XR.XRNode _node
+    void _set__node(UnityEngine::XR::XRNode value);
+    // Get instance field: private UnityEngine.Transform _playbackTransform
+    UnityEngine::Transform* _get__playbackTransform();
+    // Set instance field: private UnityEngine.Transform _playbackTransform
+    void _set__playbackTransform(UnityEngine::Transform* value);
+    // Get instance field: private System.Single _smooth
+    float _get__smooth();
+    // Set instance field: private System.Single _smooth
+    void _set__smooth(float value);
+    // Get instance field: private System.Single _forwardOffset
+    float _get__forwardOffset();
+    // Set instance field: private System.Single _forwardOffset
+    void _set__forwardOffset(float value);
+    // Get instance field: private IVRPlatformHelper _vrPlatformHelper
+    GlobalNamespace::IVRPlatformHelper* _get__vrPlatformHelper();
+    // Set instance field: private IVRPlatformHelper _vrPlatformHelper
+    void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
+    // Get instance field: private System.Collections.Generic.List`1<SimpleVRNodeRecorder/SavedData/NodeKeyframe> _keyframes
+    System::Collections::Generic::List_1<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* _get__keyframes();
+    // Set instance field: private System.Collections.Generic.List`1<SimpleVRNodeRecorder/SavedData/NodeKeyframe> _keyframes
+    void _set__keyframes(System::Collections::Generic::List_1<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* value);
+    // Get instance field: private System.Int32 _keyframeIndex
+    int _get__keyframeIndex();
+    // Set instance field: private System.Int32 _keyframeIndex
+    void _set__keyframeIndex(int value);
+    // Get instance field: private UnityEngine.Vector3 _prevPos
+    UnityEngine::Vector3 _get__prevPos();
+    // Set instance field: private UnityEngine.Vector3 _prevPos
+    void _set__prevPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Quaternion _prevRot
+    UnityEngine::Quaternion _get__prevRot();
+    // Set instance field: private UnityEngine.Quaternion _prevRot
+    void _set__prevRot(UnityEngine::Quaternion value);
     // protected System.Void Awake()
     // Offset: 0x10569F4
     void Awake();

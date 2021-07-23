@@ -31,6 +31,14 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MetaData
     MetaData(::Il2CppString* content_ = {}, ::Il2CppString* platform_ = {}) noexcept : content{content_}, platform{platform_} {}
+    // Get instance field: public System.String content
+    ::Il2CppString* _get_content();
+    // Set instance field: public System.String content
+    void _set_content(::Il2CppString* value);
+    // Get instance field: public System.String platform
+    ::Il2CppString* _get_platform();
+    // Set instance field: public System.String platform
+    void _set_platform(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1C744EC
     // Implemented from: System.Object

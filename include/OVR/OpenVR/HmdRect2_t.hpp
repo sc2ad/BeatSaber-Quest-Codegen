@@ -35,6 +35,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVR.OpenVR.HmdVector2_t vTopLeft
+    OVR::OpenVR::HmdVector2_t _get_vTopLeft();
+    // Set instance field: public OVR.OpenVR.HmdVector2_t vTopLeft
+    void _set_vTopLeft(OVR::OpenVR::HmdVector2_t value);
+    // Get instance field: public OVR.OpenVR.HmdVector2_t vBottomRight
+    OVR::OpenVR::HmdVector2_t _get_vBottomRight();
+    // Set instance field: public OVR.OpenVR.HmdVector2_t vBottomRight
+    void _set_vBottomRight(OVR::OpenVR::HmdVector2_t value);
   }; // OVR.OpenVR.HmdRect2_t
   #pragma pack(pop)
   static check_size<sizeof(HmdRect2_t), 8 + sizeof(OVR::OpenVR::HmdVector2_t)> __OVR_OpenVR_HmdRect2_tSizeCheck;

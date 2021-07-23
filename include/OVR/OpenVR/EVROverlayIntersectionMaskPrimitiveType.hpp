@@ -43,6 +43,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType _get_OverlayIntersectionPrimitiveType_Circle();
     // Set static field: static public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType OverlayIntersectionPrimitiveType_Circle
     static void _set_OverlayIntersectionPrimitiveType_Circle(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType
   #pragma pack(pop)
   static check_size<sizeof(EVROverlayIntersectionMaskPrimitiveType), 0 + sizeof(int)> __OVR_OpenVR_EVROverlayIntersectionMaskPrimitiveTypeSizeCheck;

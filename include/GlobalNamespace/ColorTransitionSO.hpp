@@ -69,6 +69,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
     // Creating value type constructor for type: ColorTransitionSO
     ColorTransitionSO(GlobalNamespace::ColorSO* normalColor_ = {}, GlobalNamespace::ColorSO* highlightedColor_ = {}, GlobalNamespace::ColorSO* pressedColor_ = {}, GlobalNamespace::ColorSO* disabledColor_ = {}, GlobalNamespace::ColorSO* selectedColor_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor_ = {}) noexcept : normalColor{normalColor_}, highlightedColor{highlightedColor_}, pressedColor{pressedColor_}, disabledColor{disabledColor_}, selectedColor{selectedColor_}, selectedAndHighlightedColor{selectedAndHighlightedColor_} {}
+    // Get instance field: private ColorSO _normalColor
+    GlobalNamespace::ColorSO* _get__normalColor();
+    // Set instance field: private ColorSO _normalColor
+    void _set__normalColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _highlightedColor
+    GlobalNamespace::ColorSO* _get__highlightedColor();
+    // Set instance field: private ColorSO _highlightedColor
+    void _set__highlightedColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _pressedColor
+    GlobalNamespace::ColorSO* _get__pressedColor();
+    // Set instance field: private ColorSO _pressedColor
+    void _set__pressedColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _disabledColor
+    GlobalNamespace::ColorSO* _get__disabledColor();
+    // Set instance field: private ColorSO _disabledColor
+    void _set__disabledColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _selectedColor
+    GlobalNamespace::ColorSO* _get__selectedColor();
+    // Set instance field: private ColorSO _selectedColor
+    void _set__selectedColor(GlobalNamespace::ColorSO* value);
+    // Get instance field: private ColorSO _selectedAndHighlightedColor
+    GlobalNamespace::ColorSO* _get__selectedAndHighlightedColor();
+    // Set instance field: private ColorSO _selectedAndHighlightedColor
+    void _set__selectedAndHighlightedColor(GlobalNamespace::ColorSO* value);
     // public UnityEngine.Color get_normalColor()
     // Offset: 0x107BABC
     UnityEngine::Color get_normalColor();

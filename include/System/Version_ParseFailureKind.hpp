@@ -57,6 +57,10 @@ namespace System {
     static System::Version::ParseFailureKind _get_FormatException();
     // Set static field: static public System.Version/System.ParseFailureKind FormatException
     static void _set_FormatException(System::Version::ParseFailureKind value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Version/System.ParseFailureKind
   #pragma pack(pop)
   static check_size<sizeof(Version::ParseFailureKind), 0 + sizeof(int)> __System_Version_ParseFailureKindSizeCheck;

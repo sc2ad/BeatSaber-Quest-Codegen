@@ -43,6 +43,18 @@ namespace System::IO {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: FileSystemEventArgs
     FileSystemEventArgs(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* directory_ = {}, ::Il2CppString* name_ = {}) noexcept : changeType{changeType_}, directory{directory_}, name{name_} {}
+    // Get instance field: private System.IO.WatcherChangeTypes changeType
+    System::IO::WatcherChangeTypes _get_changeType();
+    // Set instance field: private System.IO.WatcherChangeTypes changeType
+    void _set_changeType(System::IO::WatcherChangeTypes value);
+    // Get instance field: private System.String directory
+    ::Il2CppString* _get_directory();
+    // Set instance field: private System.String directory
+    void _set_directory(::Il2CppString* value);
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
     // Offset: 0x18557A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

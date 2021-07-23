@@ -37,6 +37,10 @@ namespace System::Xml {
     constexpr operator System::Xml::XmlWellFormedWriter*() const noexcept {
       return wfWriter;
     }
+    // Get instance field: private System.Xml.XmlWellFormedWriter wfWriter
+    System::Xml::XmlWellFormedWriter* _get_wfWriter();
+    // Set instance field: private System.Xml.XmlWellFormedWriter wfWriter
+    void _set_wfWriter(System::Xml::XmlWellFormedWriter* value);
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
     // Offset: 0x239AC18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

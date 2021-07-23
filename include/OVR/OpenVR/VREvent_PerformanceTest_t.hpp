@@ -31,6 +31,10 @@ namespace OVR::OpenVR {
     constexpr operator uint() const noexcept {
       return m_nFidelityLevel;
     }
+    // Get instance field: public System.UInt32 m_nFidelityLevel
+    uint _get_m_nFidelityLevel();
+    // Set instance field: public System.UInt32 m_nFidelityLevel
+    void _set_m_nFidelityLevel(uint value);
   }; // OVR.OpenVR.VREvent_PerformanceTest_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_PerformanceTest_t), 0 + sizeof(uint)> __OVR_OpenVR_VREvent_PerformanceTest_tSizeCheck;

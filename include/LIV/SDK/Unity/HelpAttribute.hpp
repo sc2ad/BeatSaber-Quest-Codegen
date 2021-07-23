@@ -32,6 +32,10 @@ namespace LIV::SDK::Unity {
     constexpr operator ::Il2CppString*() const noexcept {
       return text;
     }
+    // Get instance field: public readonly System.String text
+    ::Il2CppString* _get_text();
+    // Set instance field: public readonly System.String text
+    void _set_text(::Il2CppString* value);
     // public System.Void .ctor(System.String text)
     // Offset: 0x23CB23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

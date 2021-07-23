@@ -60,6 +60,30 @@ namespace HMUI {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: ColorBlock
     ColorBlock(UnityEngine::Color knobColor_ = {}, UnityEngine::Color knobColor0_ = {}, UnityEngine::Color knobColor1_ = {}, UnityEngine::Color backgroundColor_ = {}, UnityEngine::Color backgroundColor0_ = {}, UnityEngine::Color backgroundColor1_ = {}) noexcept : knobColor{knobColor_}, knobColor0{knobColor0_}, knobColor1{knobColor1_}, backgroundColor{backgroundColor_}, backgroundColor0{backgroundColor0_}, backgroundColor1{backgroundColor1_} {}
+    // Get instance field: public UnityEngine.Color knobColor
+    UnityEngine::Color _get_knobColor();
+    // Set instance field: public UnityEngine.Color knobColor
+    void _set_knobColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color knobColor0
+    UnityEngine::Color _get_knobColor0();
+    // Set instance field: public UnityEngine.Color knobColor0
+    void _set_knobColor0(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color knobColor1
+    UnityEngine::Color _get_knobColor1();
+    // Set instance field: public UnityEngine.Color knobColor1
+    void _set_knobColor1(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color backgroundColor
+    UnityEngine::Color _get_backgroundColor();
+    // Set instance field: public UnityEngine.Color backgroundColor
+    void _set_backgroundColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color backgroundColor0
+    UnityEngine::Color _get_backgroundColor0();
+    // Set instance field: public UnityEngine.Color backgroundColor0
+    void _set_backgroundColor0(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color backgroundColor1
+    UnityEngine::Color _get_backgroundColor1();
+    // Set instance field: public UnityEngine.Color backgroundColor1
+    void _set_backgroundColor1(UnityEngine::Color value);
     // public System.Void .ctor()
     // Offset: 0x13034F4
     // Implemented from: System.Object

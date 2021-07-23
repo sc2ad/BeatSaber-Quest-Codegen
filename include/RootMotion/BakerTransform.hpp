@@ -116,6 +116,58 @@ namespace RootMotion {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: BakerTransform
     BakerTransform(UnityEngine::Transform* transform_ = {}, UnityEngine::AnimationCurve* posX_ = {}, UnityEngine::AnimationCurve* posY_ = {}, UnityEngine::AnimationCurve* posZ_ = {}, UnityEngine::AnimationCurve* rotX_ = {}, UnityEngine::AnimationCurve* rotY_ = {}, UnityEngine::AnimationCurve* rotZ_ = {}, UnityEngine::AnimationCurve* rotW_ = {}, ::Il2CppString* relativePath_ = {}, bool recordPosition_ = {}, UnityEngine::Vector3 relativePosition_ = {}, bool isRootNode_ = {}, UnityEngine::Quaternion relativeRotation_ = {}) noexcept : transform{transform_}, posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, relativePath{relativePath_}, recordPosition{recordPosition_}, relativePosition{relativePosition_}, isRootNode{isRootNode_}, relativeRotation{relativeRotation_} {}
+    // Get instance field: public UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: public UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.AnimationCurve posX
+    UnityEngine::AnimationCurve* _get_posX();
+    // Set instance field: public UnityEngine.AnimationCurve posX
+    void _set_posX(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve posY
+    UnityEngine::AnimationCurve* _get_posY();
+    // Set instance field: public UnityEngine.AnimationCurve posY
+    void _set_posY(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve posZ
+    UnityEngine::AnimationCurve* _get_posZ();
+    // Set instance field: public UnityEngine.AnimationCurve posZ
+    void _set_posZ(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotX
+    UnityEngine::AnimationCurve* _get_rotX();
+    // Set instance field: public UnityEngine.AnimationCurve rotX
+    void _set_rotX(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotY
+    UnityEngine::AnimationCurve* _get_rotY();
+    // Set instance field: public UnityEngine.AnimationCurve rotY
+    void _set_rotY(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotZ
+    UnityEngine::AnimationCurve* _get_rotZ();
+    // Set instance field: public UnityEngine.AnimationCurve rotZ
+    void _set_rotZ(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve rotW
+    UnityEngine::AnimationCurve* _get_rotW();
+    // Set instance field: public UnityEngine.AnimationCurve rotW
+    void _set_rotW(UnityEngine::AnimationCurve* value);
+    // Get instance field: private System.String relativePath
+    ::Il2CppString* _get_relativePath();
+    // Set instance field: private System.String relativePath
+    void _set_relativePath(::Il2CppString* value);
+    // Get instance field: private System.Boolean recordPosition
+    bool _get_recordPosition();
+    // Set instance field: private System.Boolean recordPosition
+    void _set_recordPosition(bool value);
+    // Get instance field: private UnityEngine.Vector3 relativePosition
+    UnityEngine::Vector3 _get_relativePosition();
+    // Set instance field: private UnityEngine.Vector3 relativePosition
+    void _set_relativePosition(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean isRootNode
+    bool _get_isRootNode();
+    // Set instance field: private System.Boolean isRootNode
+    void _set_isRootNode(bool value);
+    // Get instance field: private UnityEngine.Quaternion relativeRotation
+    UnityEngine::Quaternion _get_relativeRotation();
+    // Set instance field: private UnityEngine.Quaternion relativeRotation
+    void _set_relativeRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
     // Offset: 0x1CD4FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

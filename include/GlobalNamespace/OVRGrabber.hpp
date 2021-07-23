@@ -178,6 +178,86 @@ namespace GlobalNamespace {
     OVRGrabber(float grabBegin_ = {}, float grabEnd_ = {}, bool m_parentHeldObject_ = {}, bool m_moveHandPosition_ = {}, UnityEngine::Transform* m_gripTransform_ = {}, ::Array<UnityEngine::Collider*>* m_grabVolumes_ = {}, GlobalNamespace::OVRInput::Controller m_controller_ = {}, UnityEngine::Transform* m_parentTransform_ = {}, UnityEngine::GameObject* m_player_ = {}, bool m_grabVolumeEnabled_ = {}, UnityEngine::Vector3 m_lastPos_ = {}, UnityEngine::Quaternion m_lastRot_ = {}, UnityEngine::Quaternion m_anchorOffsetRotation_ = {}, UnityEngine::Vector3 m_anchorOffsetPosition_ = {}, float m_prevFlex_ = {}, GlobalNamespace::OVRGrabbable* m_grabbedObj_ = {}, UnityEngine::Vector3 m_grabbedObjectPosOff_ = {}, UnityEngine::Quaternion m_grabbedObjectRotOff_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGrabbable*, int>* m_grabCandidates_ = {}, bool m_operatingWithoutOVRCameraRig_ = {}) noexcept : grabBegin{grabBegin_}, grabEnd{grabEnd_}, m_parentHeldObject{m_parentHeldObject_}, m_moveHandPosition{m_moveHandPosition_}, m_gripTransform{m_gripTransform_}, m_grabVolumes{m_grabVolumes_}, m_controller{m_controller_}, m_parentTransform{m_parentTransform_}, m_player{m_player_}, m_grabVolumeEnabled{m_grabVolumeEnabled_}, m_lastPos{m_lastPos_}, m_lastRot{m_lastRot_}, m_anchorOffsetRotation{m_anchorOffsetRotation_}, m_anchorOffsetPosition{m_anchorOffsetPosition_}, m_prevFlex{m_prevFlex_}, m_grabbedObj{m_grabbedObj_}, m_grabbedObjectPosOff{m_grabbedObjectPosOff_}, m_grabbedObjectRotOff{m_grabbedObjectRotOff_}, m_grabCandidates{m_grabCandidates_}, m_operatingWithoutOVRCameraRig{m_operatingWithoutOVRCameraRig_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Single grabBegin
+    float _get_grabBegin();
+    // Set instance field: public System.Single grabBegin
+    void _set_grabBegin(float value);
+    // Get instance field: public System.Single grabEnd
+    float _get_grabEnd();
+    // Set instance field: public System.Single grabEnd
+    void _set_grabEnd(float value);
+    // Get instance field: protected System.Boolean m_parentHeldObject
+    bool _get_m_parentHeldObject();
+    // Set instance field: protected System.Boolean m_parentHeldObject
+    void _set_m_parentHeldObject(bool value);
+    // Get instance field: protected System.Boolean m_moveHandPosition
+    bool _get_m_moveHandPosition();
+    // Set instance field: protected System.Boolean m_moveHandPosition
+    void _set_m_moveHandPosition(bool value);
+    // Get instance field: protected UnityEngine.Transform m_gripTransform
+    UnityEngine::Transform* _get_m_gripTransform();
+    // Set instance field: protected UnityEngine.Transform m_gripTransform
+    void _set_m_gripTransform(UnityEngine::Transform* value);
+    // Get instance field: protected UnityEngine.Collider[] m_grabVolumes
+    ::Array<UnityEngine::Collider*>* _get_m_grabVolumes();
+    // Set instance field: protected UnityEngine.Collider[] m_grabVolumes
+    void _set_m_grabVolumes(::Array<UnityEngine::Collider*>* value);
+    // Get instance field: protected OVRInput/Controller m_controller
+    GlobalNamespace::OVRInput::Controller _get_m_controller();
+    // Set instance field: protected OVRInput/Controller m_controller
+    void _set_m_controller(GlobalNamespace::OVRInput::Controller value);
+    // Get instance field: protected UnityEngine.Transform m_parentTransform
+    UnityEngine::Transform* _get_m_parentTransform();
+    // Set instance field: protected UnityEngine.Transform m_parentTransform
+    void _set_m_parentTransform(UnityEngine::Transform* value);
+    // Get instance field: protected UnityEngine.GameObject m_player
+    UnityEngine::GameObject* _get_m_player();
+    // Set instance field: protected UnityEngine.GameObject m_player
+    void _set_m_player(UnityEngine::GameObject* value);
+    // Get instance field: protected System.Boolean m_grabVolumeEnabled
+    bool _get_m_grabVolumeEnabled();
+    // Set instance field: protected System.Boolean m_grabVolumeEnabled
+    void _set_m_grabVolumeEnabled(bool value);
+    // Get instance field: protected UnityEngine.Vector3 m_lastPos
+    UnityEngine::Vector3 _get_m_lastPos();
+    // Set instance field: protected UnityEngine.Vector3 m_lastPos
+    void _set_m_lastPos(UnityEngine::Vector3 value);
+    // Get instance field: protected UnityEngine.Quaternion m_lastRot
+    UnityEngine::Quaternion _get_m_lastRot();
+    // Set instance field: protected UnityEngine.Quaternion m_lastRot
+    void _set_m_lastRot(UnityEngine::Quaternion value);
+    // Get instance field: protected UnityEngine.Quaternion m_anchorOffsetRotation
+    UnityEngine::Quaternion _get_m_anchorOffsetRotation();
+    // Set instance field: protected UnityEngine.Quaternion m_anchorOffsetRotation
+    void _set_m_anchorOffsetRotation(UnityEngine::Quaternion value);
+    // Get instance field: protected UnityEngine.Vector3 m_anchorOffsetPosition
+    UnityEngine::Vector3 _get_m_anchorOffsetPosition();
+    // Set instance field: protected UnityEngine.Vector3 m_anchorOffsetPosition
+    void _set_m_anchorOffsetPosition(UnityEngine::Vector3 value);
+    // Get instance field: protected System.Single m_prevFlex
+    float _get_m_prevFlex();
+    // Set instance field: protected System.Single m_prevFlex
+    void _set_m_prevFlex(float value);
+    // Get instance field: protected OVRGrabbable m_grabbedObj
+    GlobalNamespace::OVRGrabbable* _get_m_grabbedObj();
+    // Set instance field: protected OVRGrabbable m_grabbedObj
+    void _set_m_grabbedObj(GlobalNamespace::OVRGrabbable* value);
+    // Get instance field: protected UnityEngine.Vector3 m_grabbedObjectPosOff
+    UnityEngine::Vector3 _get_m_grabbedObjectPosOff();
+    // Set instance field: protected UnityEngine.Vector3 m_grabbedObjectPosOff
+    void _set_m_grabbedObjectPosOff(UnityEngine::Vector3 value);
+    // Get instance field: protected UnityEngine.Quaternion m_grabbedObjectRotOff
+    UnityEngine::Quaternion _get_m_grabbedObjectRotOff();
+    // Set instance field: protected UnityEngine.Quaternion m_grabbedObjectRotOff
+    void _set_m_grabbedObjectRotOff(UnityEngine::Quaternion value);
+    // Get instance field: protected System.Collections.Generic.Dictionary`2<OVRGrabbable,System.Int32> m_grabCandidates
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGrabbable*, int>* _get_m_grabCandidates();
+    // Set instance field: protected System.Collections.Generic.Dictionary`2<OVRGrabbable,System.Int32> m_grabCandidates
+    void _set_m_grabCandidates(System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGrabbable*, int>* value);
+    // Get instance field: protected System.Boolean m_operatingWithoutOVRCameraRig
+    bool _get_m_operatingWithoutOVRCameraRig();
+    // Set instance field: protected System.Boolean m_operatingWithoutOVRCameraRig
+    void _set_m_operatingWithoutOVRCameraRig(bool value);
     // public OVRGrabbable get_grabbedObject()
     // Offset: 0x14DEC18
     GlobalNamespace::OVRGrabbable* get_grabbedObject();

@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     MultiplayerIntroCountdownTextController(::Array<TMPro::TextMeshPro*>* texts_ = {}) noexcept : texts{texts_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshPro[] _texts
+    ::Array<TMPro::TextMeshPro*>* _get__texts();
+    // Set instance field: private TMPro.TextMeshPro[] _texts
+    void _set__texts(::Array<TMPro::TextMeshPro*>* value);
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x11ACF28
     void set_hide(bool value);

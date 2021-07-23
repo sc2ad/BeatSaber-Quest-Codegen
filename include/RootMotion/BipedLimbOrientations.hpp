@@ -50,6 +50,22 @@ namespace RootMotion {
     static_assert(sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*) == 0x8);
     // Creating value type constructor for type: BipedLimbOrientations
     BipedLimbOrientations(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg_ = {}) noexcept : leftArm{leftArm_}, rightArm{rightArm_}, leftLeg{leftLeg_}, rightLeg{rightLeg_} {}
+    // Get instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
+    RootMotion::BipedLimbOrientations::LimbOrientation* _get_leftArm();
+    // Set instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
+    void _set_leftArm(RootMotion::BipedLimbOrientations::LimbOrientation* value);
+    // Get instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm
+    RootMotion::BipedLimbOrientations::LimbOrientation* _get_rightArm();
+    // Set instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm
+    void _set_rightArm(RootMotion::BipedLimbOrientations::LimbOrientation* value);
+    // Get instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftLeg
+    RootMotion::BipedLimbOrientations::LimbOrientation* _get_leftLeg();
+    // Set instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftLeg
+    void _set_leftLeg(RootMotion::BipedLimbOrientations::LimbOrientation* value);
+    // Get instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg
+    RootMotion::BipedLimbOrientations::LimbOrientation* _get_rightLeg();
+    // Set instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg
+    void _set_rightLeg(RootMotion::BipedLimbOrientations::LimbOrientation* value);
     // static public RootMotion.BipedLimbOrientations get_UMA()
     // Offset: 0x1CD5F58
     static RootMotion::BipedLimbOrientations* get_UMA();

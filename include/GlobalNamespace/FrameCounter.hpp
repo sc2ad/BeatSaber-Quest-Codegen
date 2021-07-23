@@ -29,6 +29,10 @@ namespace GlobalNamespace {
     FrameCounter(int numberOfFrames_ = {}) noexcept : numberOfFrames{numberOfFrames_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Int32 _numberOfFrames
+    int _get__numberOfFrames();
+    // Set instance field: private System.Int32 _numberOfFrames
+    void _set__numberOfFrames(int value);
     // private System.Void Update()
     // Offset: 0x1215DDC
     void Update();

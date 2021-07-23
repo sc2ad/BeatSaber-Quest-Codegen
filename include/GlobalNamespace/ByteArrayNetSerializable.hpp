@@ -66,6 +66,26 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Get instance field: private System.Byte[] _data
+    ::Array<uint8_t>* _get__data();
+    // Set instance field: private System.Byte[] _data
+    void _set__data(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.String _name
+    ::Il2CppString* _get__name();
+    // Set instance field: private readonly System.String _name
+    void _set__name(::Il2CppString* value);
+    // Get instance field: private readonly System.Boolean _allowNull
+    bool _get__allowNull();
+    // Set instance field: private readonly System.Boolean _allowNull
+    void _set__allowNull(bool value);
+    // Get instance field: private readonly System.Int32 _minLength
+    int _get__minLength();
+    // Set instance field: private readonly System.Int32 _minLength
+    void _set__minLength(int value);
+    // Get instance field: private readonly System.Int32 _maxLength
+    int _get__maxLength();
+    // Set instance field: private readonly System.Int32 _maxLength
+    void _set__maxLength(int value);
     // public System.Byte[] get_data()
     // Offset: 0x12B9A68
     ::Array<uint8_t>* get_data();

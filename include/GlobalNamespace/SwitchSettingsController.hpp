@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     SwitchSettingsController(UnityEngine::UI::Toggle* toggle_ = {}, bool on_ = {}) noexcept : toggle{toggle_}, on{on_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Toggle _toggle
+    UnityEngine::UI::Toggle* _get__toggle();
+    // Set instance field: private UnityEngine.UI.Toggle _toggle
+    void _set__toggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private System.Boolean _on
+    bool _get__on();
+    // Set instance field: private System.Boolean _on
+    void _set__on(bool value);
     // protected System.Boolean GetInitValue()
     // Offset: 0xFFFFFFFF
     bool GetInitValue();

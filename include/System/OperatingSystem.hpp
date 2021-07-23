@@ -68,6 +68,18 @@ namespace System {
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Get instance field: private System.PlatformID _platform
+    System::PlatformID _get__platform();
+    // Set instance field: private System.PlatformID _platform
+    void _set__platform(System::PlatformID value);
+    // Get instance field: private System.Version _version
+    System::Version* _get__version();
+    // Set instance field: private System.Version _version
+    void _set__version(System::Version* value);
+    // Get instance field: private System.String _servicePack
+    ::Il2CppString* _get__servicePack();
+    // Set instance field: private System.String _servicePack
+    void _set__servicePack(::Il2CppString* value);
     // public System.PlatformID get_Platform()
     // Offset: 0x1CA0E14
     System::PlatformID get_Platform();

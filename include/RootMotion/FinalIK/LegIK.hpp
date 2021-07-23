@@ -40,6 +40,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLeg*) == 0x8);
     // Creating value type constructor for type: LegIK
     LegIK(RootMotion::FinalIK::IKSolverLeg* solver_ = {}) noexcept : solver{solver_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverLeg solver
+    RootMotion::FinalIK::IKSolverLeg* _get_solver();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLeg solver
+    void _set_solver(RootMotion::FinalIK::IKSolverLeg* value);
     // private System.Void SupportGroup()
     // Offset: 0x1AB4B2C
     void SupportGroup();

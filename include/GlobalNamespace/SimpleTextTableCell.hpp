@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
     // Creating value type constructor for type: SimpleTextTableCell
     SimpleTextTableCell(TMPro::TextMeshProUGUI* text_ = {}) noexcept : text{text_} {}
+    // Get instance field: private TMPro.TextMeshProUGUI _text
+    TMPro::TextMeshProUGUI* _get__text();
+    // Set instance field: private TMPro.TextMeshProUGUI _text
+    void _set__text(TMPro::TextMeshProUGUI* value);
     // public System.String get_text()
     // Offset: 0x2358540
     ::Il2CppString* get_text();

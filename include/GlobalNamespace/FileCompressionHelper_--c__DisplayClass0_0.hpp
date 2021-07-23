@@ -56,6 +56,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
     $$c__DisplayClass0_0(bool success_ = {}, ::Il2CppString* sourceDirectoryName_ = {}, ::Il2CppString* destinationArchiveFileName_ = {}, System::Action_1<bool>* finishCallback_ = {}) noexcept : success{success_}, sourceDirectoryName{sourceDirectoryName_}, destinationArchiveFileName{destinationArchiveFileName_}, finishCallback{finishCallback_} {}
+    // Get instance field: public System.Boolean success
+    bool _get_success();
+    // Set instance field: public System.Boolean success
+    void _set_success(bool value);
+    // Get instance field: public System.String sourceDirectoryName
+    ::Il2CppString* _get_sourceDirectoryName();
+    // Set instance field: public System.String sourceDirectoryName
+    void _set_sourceDirectoryName(::Il2CppString* value);
+    // Get instance field: public System.String destinationArchiveFileName
+    ::Il2CppString* _get_destinationArchiveFileName();
+    // Set instance field: public System.String destinationArchiveFileName
+    void _set_destinationArchiveFileName(::Il2CppString* value);
+    // Get instance field: public System.Action`1<System.Boolean> finishCallback
+    System::Action_1<bool>* _get_finishCallback();
+    // Set instance field: public System.Action`1<System.Boolean> finishCallback
+    void _set_finishCallback(System::Action_1<bool>* value);
     // System.Void <CreateZipFromDirectoryAsync>b__0()
     // Offset: 0x12149CC
     void $CreateZipFromDirectoryAsync$b__0();

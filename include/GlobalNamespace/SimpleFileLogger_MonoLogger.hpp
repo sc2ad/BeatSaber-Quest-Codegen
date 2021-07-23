@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     MonoLogger(System::Collections::Generic::List_1<::Il2CppString*>* lines_ = {}) noexcept : lines{lines_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly System.Collections.Generic.List`1<System.String> _lines
+    System::Collections::Generic::List_1<::Il2CppString*>* _get__lines();
+    // Set instance field: private readonly System.Collections.Generic.List`1<System.String> _lines
+    void _set__lines(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // protected System.Void OnDestroy()
     // Offset: 0x2359F70
     void OnDestroy();

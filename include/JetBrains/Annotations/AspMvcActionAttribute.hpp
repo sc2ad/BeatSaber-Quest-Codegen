@@ -32,6 +32,10 @@ namespace JetBrains::Annotations {
     constexpr operator ::Il2CppString*() const noexcept {
       return AnonymousProperty;
     }
+    // Get instance field: private System.String <AnonymousProperty>k__BackingField
+    ::Il2CppString* _get_$AnonymousProperty$k__BackingField();
+    // Set instance field: private System.String <AnonymousProperty>k__BackingField
+    void _set_$AnonymousProperty$k__BackingField(::Il2CppString* value);
     // public System.String get_AnonymousProperty()
     // Offset: 0x23B1E5C
     ::Il2CppString* get_AnonymousProperty();

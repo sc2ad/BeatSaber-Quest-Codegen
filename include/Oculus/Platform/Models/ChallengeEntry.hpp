@@ -68,6 +68,30 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
     // Creating value type constructor for type: ChallengeEntry
     ChallengeEntry(::Il2CppString* DisplayScore_ = {}, ::Array<uint8_t>* ExtraData_ = {}, int Rank_ = {}, int64_t Score_ = {}, System::DateTime Timestamp_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : DisplayScore{DisplayScore_}, ExtraData{ExtraData_}, Rank{Rank_}, Score{Score_}, Timestamp{Timestamp_}, User{User_} {}
+    // Get instance field: public readonly System.String DisplayScore
+    ::Il2CppString* _get_DisplayScore();
+    // Set instance field: public readonly System.String DisplayScore
+    void _set_DisplayScore(::Il2CppString* value);
+    // Get instance field: public readonly System.Byte[] ExtraData
+    ::Array<uint8_t>* _get_ExtraData();
+    // Set instance field: public readonly System.Byte[] ExtraData
+    void _set_ExtraData(::Array<uint8_t>* value);
+    // Get instance field: public readonly System.Int32 Rank
+    int _get_Rank();
+    // Set instance field: public readonly System.Int32 Rank
+    void _set_Rank(int value);
+    // Get instance field: public readonly System.Int64 Score
+    int64_t _get_Score();
+    // Set instance field: public readonly System.Int64 Score
+    void _set_Score(int64_t value);
+    // Get instance field: public readonly System.DateTime Timestamp
+    System::DateTime _get_Timestamp();
+    // Set instance field: public readonly System.DateTime Timestamp
+    void _set_Timestamp(System::DateTime value);
+    // Get instance field: public readonly Oculus.Platform.Models.User User
+    Oculus::Platform::Models::User* _get_User();
+    // Set instance field: public readonly Oculus.Platform.Models.User User
+    void _set_User(Oculus::Platform::Models::User* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A9588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

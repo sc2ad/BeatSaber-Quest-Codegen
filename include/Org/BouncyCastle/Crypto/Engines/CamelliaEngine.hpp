@@ -90,6 +90,30 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_SBOX3_3033();
     // Set static field: static private readonly System.UInt32[] SBOX3_3033
     static void _set_SBOX3_3033(::Array<uint>* value);
+    // Get instance field: private System.Boolean initialised
+    bool _get_initialised();
+    // Set instance field: private System.Boolean initialised
+    void _set_initialised(bool value);
+    // Get instance field: private System.Boolean _keyIs128
+    bool _get__keyIs128();
+    // Set instance field: private System.Boolean _keyIs128
+    void _set__keyIs128(bool value);
+    // Get instance field: private System.UInt32[] subkey
+    ::Array<uint>* _get_subkey();
+    // Set instance field: private System.UInt32[] subkey
+    void _set_subkey(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] kw
+    ::Array<uint>* _get_kw();
+    // Set instance field: private System.UInt32[] kw
+    void _set_kw(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] ke
+    ::Array<uint>* _get_ke();
+    // Set instance field: private System.UInt32[] ke
+    void _set_ke(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] state
+    ::Array<uint>* _get_state();
+    // Set instance field: private System.UInt32[] state
+    void _set_state(::Array<uint>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1DFE3F4
     ::Il2CppString* get_AlgorithmName();

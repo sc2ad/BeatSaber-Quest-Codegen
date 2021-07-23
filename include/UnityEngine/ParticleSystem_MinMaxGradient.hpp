@@ -72,6 +72,26 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.ParticleSystemGradientMode m_Mode
+    UnityEngine::ParticleSystemGradientMode _get_m_Mode();
+    // Set instance field: private UnityEngine.ParticleSystemGradientMode m_Mode
+    void _set_m_Mode(UnityEngine::ParticleSystemGradientMode value);
+    // Get instance field: private UnityEngine.Gradient m_GradientMin
+    UnityEngine::Gradient* _get_m_GradientMin();
+    // Set instance field: private UnityEngine.Gradient m_GradientMin
+    void _set_m_GradientMin(UnityEngine::Gradient* value);
+    // Get instance field: private UnityEngine.Gradient m_GradientMax
+    UnityEngine::Gradient* _get_m_GradientMax();
+    // Set instance field: private UnityEngine.Gradient m_GradientMax
+    void _set_m_GradientMax(UnityEngine::Gradient* value);
+    // Get instance field: private UnityEngine.Color m_ColorMin
+    UnityEngine::Color _get_m_ColorMin();
+    // Set instance field: private UnityEngine.Color m_ColorMin
+    void _set_m_ColorMin(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color m_ColorMax
+    UnityEngine::Color _get_m_ColorMax();
+    // Set instance field: private UnityEngine.Color m_ColorMax
+    void _set_m_ColorMax(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
     // Offset: 0xF0F0B0
     UnityEngine::Color get_color();

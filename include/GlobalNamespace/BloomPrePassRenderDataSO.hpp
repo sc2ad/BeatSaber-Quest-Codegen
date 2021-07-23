@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     BloomPrePassRenderDataSO(GlobalNamespace::BloomPrePassRenderDataSO::Data* data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public readonly BloomPrePassRenderDataSO/Data data
+    GlobalNamespace::BloomPrePassRenderDataSO::Data* _get_data();
+    // Set instance field: public readonly BloomPrePassRenderDataSO/Data data
+    void _set_data(GlobalNamespace::BloomPrePassRenderDataSO::Data* value);
     // public System.Void .ctor()
     // Offset: 0x1DEE458
     // Implemented from: PersistentScriptableObject

@@ -56,6 +56,26 @@ namespace System {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Coord Size
+    System::Coord _get_Size();
+    // Set instance field: public System.Coord Size
+    void _set_Size(System::Coord value);
+    // Get instance field: public System.Coord CursorPosition
+    System::Coord _get_CursorPosition();
+    // Set instance field: public System.Coord CursorPosition
+    void _set_CursorPosition(System::Coord value);
+    // Get instance field: public System.Int16 Attribute
+    int16_t _get_Attribute();
+    // Set instance field: public System.Int16 Attribute
+    void _set_Attribute(int16_t value);
+    // Get instance field: public System.SmallRect Window
+    System::SmallRect _get_Window();
+    // Set instance field: public System.SmallRect Window
+    void _set_Window(System::SmallRect value);
+    // Get instance field: public System.Coord MaxWindowSize
+    System::Coord _get_MaxWindowSize();
+    // Set instance field: public System.Coord MaxWindowSize
+    void _set_MaxWindowSize(System::Coord value);
   }; // System.ConsoleScreenBufferInfo
   #pragma pack(pop)
   static check_size<sizeof(ConsoleScreenBufferInfo), 18 + sizeof(System::Coord)> __System_ConsoleScreenBufferInfoSizeCheck;

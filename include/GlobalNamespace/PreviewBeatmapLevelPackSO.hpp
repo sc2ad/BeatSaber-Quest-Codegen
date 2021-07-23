@@ -74,6 +74,26 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _packID
+    ::Il2CppString* _get__packID();
+    // Set instance field: private System.String _packID
+    void _set__packID(::Il2CppString* value);
+    // Get instance field: private System.String _packName
+    ::Il2CppString* _get__packName();
+    // Set instance field: private System.String _packName
+    void _set__packName(::Il2CppString* value);
+    // Get instance field: private System.String _shortPackName
+    ::Il2CppString* _get__shortPackName();
+    // Set instance field: private System.String _shortPackName
+    void _set__shortPackName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Sprite _coverImage
+    UnityEngine::Sprite* _get__coverImage();
+    // Set instance field: private UnityEngine.Sprite _coverImage
+    void _set__coverImage(UnityEngine::Sprite* value);
+    // Get instance field: private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
+    GlobalNamespace::PreviewBeatmapLevelCollectionSO* _get__previewBeatmapLevelCollection();
+    // Set instance field: private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
+    void _set__previewBeatmapLevelCollection(GlobalNamespace::PreviewBeatmapLevelCollectionSO* value);
     // public System.String get_packID()
     // Offset: 0x1109EEC
     ::Il2CppString* get_packID();

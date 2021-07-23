@@ -65,6 +65,22 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
     // Creating value type constructor for type: PrivateKeyInfo
     PrivateKeyInfo(int version_ = {}, ::Il2CppString* algorithm_ = {}, ::Array<uint8_t>* key_ = {}, System::Collections::ArrayList* list_ = {}) noexcept : version{version_}, algorithm{algorithm_}, key{key_}, list{list_} {}
+    // Get instance field: private System.Int32 _version
+    int _get__version();
+    // Set instance field: private System.Int32 _version
+    void _set__version(int value);
+    // Get instance field: private System.String _algorithm
+    ::Il2CppString* _get__algorithm();
+    // Set instance field: private System.String _algorithm
+    void _set__algorithm(::Il2CppString* value);
+    // Get instance field: private System.Byte[] _key
+    ::Array<uint8_t>* _get__key();
+    // Set instance field: private System.Byte[] _key
+    void _set__key(::Array<uint8_t>* value);
+    // Get instance field: private System.Collections.ArrayList _list
+    System::Collections::ArrayList* _get__list();
+    // Set instance field: private System.Collections.ArrayList _list
+    void _set__list(System::Collections::ArrayList* value);
     // public System.Byte[] get_PrivateKey()
     // Offset: 0x1DDC100
     ::Array<uint8_t>* get_PrivateKey();

@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     LevelStatsView(TMPro::TextMeshProUGUI* highScoreText_ = {}, TMPro::TextMeshProUGUI* maxComboText_ = {}, TMPro::TextMeshProUGUI* maxRankText_ = {}) noexcept : highScoreText{highScoreText_}, maxComboText{maxComboText_}, maxRankText{maxRankText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TMPro.TextMeshProUGUI _highScoreText
+    TMPro::TextMeshProUGUI* _get__highScoreText();
+    // Set instance field: private TMPro.TextMeshProUGUI _highScoreText
+    void _set__highScoreText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _maxComboText
+    TMPro::TextMeshProUGUI* _get__maxComboText();
+    // Set instance field: private TMPro.TextMeshProUGUI _maxComboText
+    void _set__maxComboText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _maxRankText
+    TMPro::TextMeshProUGUI* _get__maxRankText();
+    // Set instance field: private TMPro.TextMeshProUGUI _maxRankText
+    void _set__maxRankText(TMPro::TextMeshProUGUI* value);
     // public System.Void Hide()
     // Offset: 0x11B5C14
     void Hide();

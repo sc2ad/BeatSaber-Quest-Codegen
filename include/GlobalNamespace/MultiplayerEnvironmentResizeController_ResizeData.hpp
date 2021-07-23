@@ -61,6 +61,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
     // Creating value type constructor for type: ResizeData
     ResizeData(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType resizeType_ = {}, float offset_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, ::Array<UnityEngine::Transform*>* otherTransforms_ = {}) noexcept : resizeType{resizeType_}, offset{offset_}, lights{lights_}, otherTransforms{otherTransforms_} {}
+    // Get instance field: private MultiplayerEnvironmentResizeController/ResizeType _resizeType
+    GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType _get__resizeType();
+    // Set instance field: private MultiplayerEnvironmentResizeController/ResizeType _resizeType
+    void _set__resizeType(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType value);
+    // Get instance field: private System.Single _offset
+    float _get__offset();
+    // Set instance field: private System.Single _offset
+    void _set__offset(float value);
+    // Get instance field: private TubeBloomPrePassLight[] _lights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__lights();
+    // Set instance field: private TubeBloomPrePassLight[] _lights
+    void _set__lights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
+    // Get instance field: private UnityEngine.Transform[] _otherTransforms
+    ::Array<UnityEngine::Transform*>* _get__otherTransforms();
+    // Set instance field: private UnityEngine.Transform[] _otherTransforms
+    void _set__otherTransforms(::Array<UnityEngine::Transform*>* value);
     // public MultiplayerEnvironmentResizeController/ResizeType get_resizeType()
     // Offset: 0x11AB03C
     GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType get_resizeType();

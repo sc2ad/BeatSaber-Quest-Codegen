@@ -51,6 +51,26 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: AssetFileDownloadUpdate
     AssetFileDownloadUpdate(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, uint BytesTotal_ = {}, int BytesTransferred_ = {}, bool Completed_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, BytesTotal{BytesTotal_}, BytesTransferred{BytesTransferred_}, Completed{Completed_} {}
+    // Get instance field: public readonly System.UInt64 AssetFileId
+    uint64_t _get_AssetFileId();
+    // Set instance field: public readonly System.UInt64 AssetFileId
+    void _set_AssetFileId(uint64_t value);
+    // Get instance field: public readonly System.UInt64 AssetId
+    uint64_t _get_AssetId();
+    // Set instance field: public readonly System.UInt64 AssetId
+    void _set_AssetId(uint64_t value);
+    // Get instance field: public readonly System.UInt32 BytesTotal
+    uint _get_BytesTotal();
+    // Set instance field: public readonly System.UInt32 BytesTotal
+    void _set_BytesTotal(uint value);
+    // Get instance field: public readonly System.Int32 BytesTransferred
+    int _get_BytesTransferred();
+    // Set instance field: public readonly System.Int32 BytesTransferred
+    void _set_BytesTransferred(int value);
+    // Get instance field: public readonly System.Boolean Completed
+    bool _get_Completed();
+    // Set instance field: public readonly System.Boolean Completed
+    void _set_Completed(bool value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A02F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -73,6 +73,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::ServiceProvider _get_RemoteMedia();
     // Set static field: static public Oculus.Platform.ServiceProvider RemoteMedia
     static void _set_RemoteMedia(Oculus::Platform::ServiceProvider value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.ServiceProvider
   #pragma pack(pop)
   static check_size<sizeof(ServiceProvider), 0 + sizeof(int)> __Oculus_Platform_ServiceProviderSizeCheck;

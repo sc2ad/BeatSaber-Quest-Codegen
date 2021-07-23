@@ -46,6 +46,14 @@ namespace System::Net {
     static_assert(sizeof(System::Net::SimpleAsyncResult*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass76_0
     $$c__DisplayClass76_0(System::Net::WebConnectionStream* $$4__this_ = {}, System::Net::SimpleAsyncResult* result_ = {}) noexcept : $$4__this{$$4__this_}, result{result_} {}
+    // Get instance field: public System.Net.WebConnectionStream <>4__this
+    System::Net::WebConnectionStream* _get_$$4__this();
+    // Set instance field: public System.Net.WebConnectionStream <>4__this
+    void _set_$$4__this(System::Net::WebConnectionStream* value);
+    // Get instance field: public System.Net.SimpleAsyncResult result
+    System::Net::SimpleAsyncResult* _get_result();
+    // Set instance field: public System.Net.SimpleAsyncResult result
+    void _set_result(System::Net::SimpleAsyncResult* value);
     // System.Void <SetHeadersAsync>b__0(System.IAsyncResult r)
     // Offset: 0x1599E40
     void $SetHeadersAsync$b__0(System::IAsyncResult* r);

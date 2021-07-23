@@ -47,6 +47,10 @@ namespace Mono::Security::X509 {
     X509ExtensionCollection(bool readOnly_ = {}) noexcept : readOnly{readOnly_} {}
     // Deleting conversion operator: operator System::Collections::ArrayList*
     constexpr operator System::Collections::ArrayList*() const noexcept = delete;
+    // Get instance field: private System.Boolean readOnly
+    bool _get_readOnly();
+    // Set instance field: private System.Boolean readOnly
+    void _set_readOnly(bool value);
     // public Mono.Security.X509.X509Extension get_Item(System.String oid)
     // Offset: 0x23827CC
     Mono::Security::X509::X509Extension* get_Item(::Il2CppString* oid);

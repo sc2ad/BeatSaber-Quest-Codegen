@@ -56,6 +56,26 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DTSweepBasin
     DTSweepBasin(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode_ = {}, double width_ = {}, bool leftHighest_ = {}) noexcept : leftNode{leftNode_}, bottomNode{bottomNode_}, rightNode{rightNode_}, width{width_}, leftHighest{leftHighest_} {}
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_leftNode();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
+    void _set_leftNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode bottomNode
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_bottomNode();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode bottomNode
+    void _set_bottomNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode rightNode
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* _get_rightNode();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode rightNode
+    void _set_rightNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+    // Get instance field: public System.Double width
+    double _get_width();
+    // Set instance field: public System.Double width
+    void _set_width(double value);
+    // Get instance field: public System.Boolean leftHighest
+    bool _get_leftHighest();
+    // Set instance field: public System.Boolean leftHighest
+    void _set_leftHighest(bool value);
     // public System.Void .ctor()
     // Offset: 0x236D1E4
     // Implemented from: System.Object

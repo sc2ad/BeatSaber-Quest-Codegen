@@ -168,6 +168,42 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kRootContainerGOName();
     // Set static field: static private System.String kRootContainerGOName
     static void _set_kRootContainerGOName(::Il2CppString* value);
+    // Get instance field: private SceneInfo _emptyTransitionSceneInfo
+    GlobalNamespace::SceneInfo* _get__emptyTransitionSceneInfo();
+    // Set instance field: private SceneInfo _emptyTransitionSceneInfo
+    void _set__emptyTransitionSceneInfo(GlobalNamespace::SceneInfo* value);
+    // Get instance field: private readonly Zenject.ZenjectSceneLoader _zenjectSceneLoader
+    Zenject::ZenjectSceneLoader* _get__zenjectSceneLoader();
+    // Set instance field: private readonly Zenject.ZenjectSceneLoader _zenjectSceneLoader
+    void _set__zenjectSceneLoader(Zenject::ZenjectSceneLoader* value);
+    // Get instance field: private System.Action`1<System.Single> transitionDidStartEvent
+    System::Action_1<float>* _get_transitionDidStartEvent();
+    // Set instance field: private System.Action`1<System.Single> transitionDidStartEvent
+    void _set_transitionDidStartEvent(System::Action_1<float>* value);
+    // Get instance field: private System.Action beforeDismissingScenesEvent
+    System::Action* _get_beforeDismissingScenesEvent();
+    // Set instance field: private System.Action beforeDismissingScenesEvent
+    void _set_beforeDismissingScenesEvent(System::Action* value);
+    // Get instance field: private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> transitionDidFinishEvent
+    System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* _get_transitionDidFinishEvent();
+    // Set instance field: private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> transitionDidFinishEvent
+    void _set_transitionDidFinishEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
+    // Get instance field: private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> installEarlyBindingsEvent
+    System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* _get_installEarlyBindingsEvent();
+    // Set instance field: private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> installEarlyBindingsEvent
+    void _set_installEarlyBindingsEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
+    // Get instance field: private System.Boolean _inTransition
+    bool _get__inTransition();
+    // Set instance field: private System.Boolean _inTransition
+    void _set__inTransition(bool value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<GameScenesManager/ScenesStackData> _scenesStack
+    System::Collections::Generic::List_1<GlobalNamespace::GameScenesManager::ScenesStackData*>* _get__scenesStack();
+    // Set instance field: private readonly System.Collections.Generic.List`1<GameScenesManager/ScenesStackData> _scenesStack
+    void _set__scenesStack(System::Collections::Generic::List_1<GlobalNamespace::GameScenesManager::ScenesStackData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _neverUnloadScenes
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* _get__neverUnloadScenes();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _neverUnloadScenes
+    void _set__neverUnloadScenes(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
     // public Zenject.DiContainer get_currentScenesContainer()
     // Offset: 0x12163C8
     Zenject::DiContainer* get_currentScenesContainer();

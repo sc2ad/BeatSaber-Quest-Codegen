@@ -62,6 +62,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>*) == 0x8);
     // Creating value type constructor for type: MissionSelectionNavigationController
     MissionSelectionNavigationController(GlobalNamespace::MissionSelectionMapViewController* missionSelectionMapViewController_ = {}, GlobalNamespace::MissionLevelDetailViewController* missionLevelDetailViewController_ = {}, System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* didPressPlayButtonEvent_ = {}) noexcept : missionSelectionMapViewController{missionSelectionMapViewController_}, missionLevelDetailViewController{missionLevelDetailViewController_}, didPressPlayButtonEvent{didPressPlayButtonEvent_} {}
+    // Get instance field: private MissionSelectionMapViewController _missionSelectionMapViewController
+    GlobalNamespace::MissionSelectionMapViewController* _get__missionSelectionMapViewController();
+    // Set instance field: private MissionSelectionMapViewController _missionSelectionMapViewController
+    void _set__missionSelectionMapViewController(GlobalNamespace::MissionSelectionMapViewController* value);
+    // Get instance field: private MissionLevelDetailViewController _missionLevelDetailViewController
+    GlobalNamespace::MissionLevelDetailViewController* _get__missionLevelDetailViewController();
+    // Set instance field: private MissionLevelDetailViewController _missionLevelDetailViewController
+    void _set__missionLevelDetailViewController(GlobalNamespace::MissionLevelDetailViewController* value);
+    // Get instance field: private System.Action`1<MissionSelectionNavigationController> didPressPlayButtonEvent
+    System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* _get_didPressPlayButtonEvent();
+    // Set instance field: private System.Action`1<MissionSelectionNavigationController> didPressPlayButtonEvent
+    void _set_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* value);
     // public MissionNode get_selectedMissionNode()
     // Offset: 0x11398A0
     GlobalNamespace::MissionNode* get_selectedMissionNode();

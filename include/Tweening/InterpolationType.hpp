@@ -43,6 +43,10 @@ namespace Tweening {
     static Tweening::InterpolationType _get_AnimationCurve();
     // Set static field: static public Tweening.InterpolationType AnimationCurve
     static void _set_AnimationCurve(Tweening::InterpolationType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Tweening.InterpolationType
   #pragma pack(pop)
   static check_size<sizeof(InterpolationType), 0 + sizeof(int)> __Tweening_InterpolationTypeSizeCheck;

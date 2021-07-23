@@ -40,6 +40,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
+    Org::BouncyCastle::Crypto::ICipherParameters* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
+    void _set_parameters(Org::BouncyCastle::Crypto::ICipherParameters* value);
+    // Get instance field: private readonly Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private readonly Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
     // Offset: 0x122CA30
     Org::BouncyCastle::Security::SecureRandom* get_Random();

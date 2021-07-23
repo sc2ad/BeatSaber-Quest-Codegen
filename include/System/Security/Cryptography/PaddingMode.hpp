@@ -62,6 +62,10 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::PaddingMode _get_ISO10126();
     // Set static field: static public System.Security.Cryptography.PaddingMode ISO10126
     static void _set_ISO10126(System::Security::Cryptography::PaddingMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.PaddingMode
   #pragma pack(pop)
   static check_size<sizeof(PaddingMode), 0 + sizeof(int)> __System_Security_Cryptography_PaddingModeSizeCheck;

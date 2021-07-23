@@ -54,6 +54,18 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private System.Boolean needsShutdown
+    bool _get_needsShutdown();
+    // Set instance field: private System.Boolean needsShutdown
+    void _set_needsShutdown(bool value);
+    // Get instance field: private System.Boolean failedLoadInterface
+    bool _get_failedLoadInterface();
+    // Set instance field: private System.Boolean failedLoadInterface
+    void _set_failedLoadInterface(bool value);
+    // Get instance field: private Valve.VR.CVRRenderModels _instance
+    Valve::VR::CVRRenderModels* _get__instance();
+    // Set instance field: private Valve.VR.CVRRenderModels _instance
+    void _set__instance(Valve::VR::CVRRenderModels* value);
     // public Valve.VR.CVRRenderModels get_instance()
     // Offset: 0x13B0E1C
     Valve::VR::CVRRenderModels* get_instance();

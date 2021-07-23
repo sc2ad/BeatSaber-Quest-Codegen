@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Signal _inputFieldClickedSignal
+    GlobalNamespace::Signal* _get__inputFieldClickedSignal();
+    // Set instance field: private Signal _inputFieldClickedSignal
+    void _set__inputFieldClickedSignal(GlobalNamespace::Signal* value);
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0x23598F8
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);

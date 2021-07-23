@@ -64,6 +64,30 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
+    Valve::VR::HmdMatrix34_t _get_mDeviceToAbsoluteTracking();
+    // Set instance field: public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
+    void _set_mDeviceToAbsoluteTracking(Valve::VR::HmdMatrix34_t value);
+    // Get instance field: public Valve.VR.HmdVector3_t vVelocity
+    Valve::VR::HmdVector3_t _get_vVelocity();
+    // Set instance field: public Valve.VR.HmdVector3_t vVelocity
+    void _set_vVelocity(Valve::VR::HmdVector3_t value);
+    // Get instance field: public Valve.VR.HmdVector3_t vAngularVelocity
+    Valve::VR::HmdVector3_t _get_vAngularVelocity();
+    // Set instance field: public Valve.VR.HmdVector3_t vAngularVelocity
+    void _set_vAngularVelocity(Valve::VR::HmdVector3_t value);
+    // Get instance field: public Valve.VR.ETrackingResult eTrackingResult
+    Valve::VR::ETrackingResult _get_eTrackingResult();
+    // Set instance field: public Valve.VR.ETrackingResult eTrackingResult
+    void _set_eTrackingResult(Valve::VR::ETrackingResult value);
+    // Get instance field: public System.Boolean bPoseIsValid
+    bool _get_bPoseIsValid();
+    // Set instance field: public System.Boolean bPoseIsValid
+    void _set_bPoseIsValid(bool value);
+    // Get instance field: public System.Boolean bDeviceIsConnected
+    bool _get_bDeviceIsConnected();
+    // Set instance field: public System.Boolean bDeviceIsConnected
+    void _set_bDeviceIsConnected(bool value);
   }; // Valve.VR.TrackedDevicePose_t
   #pragma pack(pop)
   static check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool)> __Valve_VR_TrackedDevicePose_tSizeCheck;

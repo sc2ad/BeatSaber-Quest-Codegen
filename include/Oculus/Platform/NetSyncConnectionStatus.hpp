@@ -59,6 +59,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::NetSyncConnectionStatus _get_Connected();
     // Set static field: static public Oculus.Platform.NetSyncConnectionStatus Connected
     static void _set_Connected(Oculus::Platform::NetSyncConnectionStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.NetSyncConnectionStatus
   #pragma pack(pop)
   static check_size<sizeof(NetSyncConnectionStatus), 0 + sizeof(int)> __Oculus_Platform_NetSyncConnectionStatusSizeCheck;

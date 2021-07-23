@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>*) == 0x8);
     // Creating value type constructor for type: BloomPrePassBackgroundColorsGradient
     BloomPrePassBackgroundColorsGradient(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* elements_ = {}) noexcept : elements{elements_} {}
+    // Get instance field: private BloomPrePassBackgroundColorsGradient/Element[] _elements
+    ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* _get__elements();
+    // Set instance field: private BloomPrePassBackgroundColorsGradient/Element[] _elements
+    void _set__elements(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* value);
     // public BloomPrePassBackgroundColorsGradient/Element[] get_elements()
     // Offset: 0x1DEC954
     ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* get_elements();

@@ -51,6 +51,10 @@ namespace System {
     static System::Environment::SpecialFolderOption _get_Create();
     // Set static field: static public System.Environment/System.SpecialFolderOption Create
     static void _set_Create(System::Environment::SpecialFolderOption value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Environment/System.SpecialFolderOption
   #pragma pack(pop)
   static check_size<sizeof(Environment::SpecialFolderOption), 0 + sizeof(int)> __System_Environment_SpecialFolderOptionSizeCheck;

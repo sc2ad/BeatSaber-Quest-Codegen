@@ -52,6 +52,22 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Get instance field: private readonly System.Byte[] associatedText
+    ::Array<uint8_t>* _get_associatedText();
+    // Set instance field: private readonly System.Byte[] associatedText
+    void _set_associatedText(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Byte[] nonce
+    ::Array<uint8_t>* _get_nonce();
+    // Set instance field: private readonly System.Byte[] nonce
+    void _set_nonce(::Array<uint8_t>* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
+    Org::BouncyCastle::Crypto::Parameters::KeyParameter* _get_key();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
+    void _set_key(Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
+    // Get instance field: private readonly System.Int32 macSize
+    int _get_macSize();
+    // Set instance field: private readonly System.Int32 macSize
+    void _set_macSize(int value);
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
     // Offset: 0x12265AC
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();

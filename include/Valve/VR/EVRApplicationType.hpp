@@ -85,6 +85,10 @@ namespace Valve::VR {
     static Valve::VR::EVRApplicationType _get_VRApplication_Max();
     // Set static field: static public Valve.VR.EVRApplicationType VRApplication_Max
     static void _set_VRApplication_Max(Valve::VR::EVRApplicationType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRApplicationType
   #pragma pack(pop)
   static check_size<sizeof(EVRApplicationType), 0 + sizeof(int)> __Valve_VR_EVRApplicationTypeSizeCheck;

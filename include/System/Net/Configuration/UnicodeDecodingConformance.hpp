@@ -55,6 +55,10 @@ namespace System::Net::Configuration {
     static System::Net::Configuration::UnicodeDecodingConformance _get_Loose();
     // Set static field: static public System.Net.Configuration.UnicodeDecodingConformance Loose
     static void _set_Loose(System::Net::Configuration::UnicodeDecodingConformance value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Configuration.UnicodeDecodingConformance
   #pragma pack(pop)
   static check_size<sizeof(UnicodeDecodingConformance), 0 + sizeof(int)> __System_Net_Configuration_UnicodeDecodingConformanceSizeCheck;

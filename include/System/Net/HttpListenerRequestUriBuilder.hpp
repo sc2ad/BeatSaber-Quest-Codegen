@@ -116,6 +116,42 @@ namespace System::Net {
     static System::Text::Encoding* _get_ansiEncoding();
     // Set static field: static private readonly System.Text.Encoding ansiEncoding
     static void _set_ansiEncoding(System::Text::Encoding* value);
+    // Get instance field: private readonly System.String rawUri
+    ::Il2CppString* _get_rawUri();
+    // Set instance field: private readonly System.String rawUri
+    void _set_rawUri(::Il2CppString* value);
+    // Get instance field: private readonly System.String cookedUriScheme
+    ::Il2CppString* _get_cookedUriScheme();
+    // Set instance field: private readonly System.String cookedUriScheme
+    void _set_cookedUriScheme(::Il2CppString* value);
+    // Get instance field: private readonly System.String cookedUriHost
+    ::Il2CppString* _get_cookedUriHost();
+    // Set instance field: private readonly System.String cookedUriHost
+    void _set_cookedUriHost(::Il2CppString* value);
+    // Get instance field: private readonly System.String cookedUriPath
+    ::Il2CppString* _get_cookedUriPath();
+    // Set instance field: private readonly System.String cookedUriPath
+    void _set_cookedUriPath(::Il2CppString* value);
+    // Get instance field: private readonly System.String cookedUriQuery
+    ::Il2CppString* _get_cookedUriQuery();
+    // Set instance field: private readonly System.String cookedUriQuery
+    void _set_cookedUriQuery(::Il2CppString* value);
+    // Get instance field: private System.Text.StringBuilder requestUriString
+    System::Text::StringBuilder* _get_requestUriString();
+    // Set instance field: private System.Text.StringBuilder requestUriString
+    void _set_requestUriString(System::Text::StringBuilder* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Byte> rawOctets
+    System::Collections::Generic::List_1<uint8_t>* _get_rawOctets();
+    // Set instance field: private System.Collections.Generic.List`1<System.Byte> rawOctets
+    void _set_rawOctets(System::Collections::Generic::List_1<uint8_t>* value);
+    // Get instance field: private System.String rawPath
+    ::Il2CppString* _get_rawPath();
+    // Set instance field: private System.String rawPath
+    void _set_rawPath(::Il2CppString* value);
+    // Get instance field: private System.Uri requestUri
+    System::Uri* _get_requestUri();
+    // Set instance field: private System.Uri requestUri
+    void _set_requestUri(System::Uri* value);
     // static private System.Void .cctor()
     // Offset: 0x1635F84
     static void _cctor();

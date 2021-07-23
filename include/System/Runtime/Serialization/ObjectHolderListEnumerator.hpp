@@ -54,6 +54,22 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ObjectHolderListEnumerator
     ObjectHolderListEnumerator(bool m_isFixupEnumerator_ = {}, System::Runtime::Serialization::ObjectHolderList* m_list_ = {}, int m_startingVersion_ = {}, int m_currPos_ = {}) noexcept : m_isFixupEnumerator{m_isFixupEnumerator_}, m_list{m_list_}, m_startingVersion{m_startingVersion_}, m_currPos{m_currPos_} {}
+    // Get instance field: private System.Boolean m_isFixupEnumerator
+    bool _get_m_isFixupEnumerator();
+    // Set instance field: private System.Boolean m_isFixupEnumerator
+    void _set_m_isFixupEnumerator(bool value);
+    // Get instance field: private System.Runtime.Serialization.ObjectHolderList m_list
+    System::Runtime::Serialization::ObjectHolderList* _get_m_list();
+    // Set instance field: private System.Runtime.Serialization.ObjectHolderList m_list
+    void _set_m_list(System::Runtime::Serialization::ObjectHolderList* value);
+    // Get instance field: private System.Int32 m_startingVersion
+    int _get_m_startingVersion();
+    // Set instance field: private System.Int32 m_startingVersion
+    void _set_m_startingVersion(int value);
+    // Get instance field: private System.Int32 m_currPos
+    int _get_m_currPos();
+    // Set instance field: private System.Int32 m_currPos
+    void _set_m_currPos(int value);
     // System.Runtime.Serialization.ObjectHolder get_Current()
     // Offset: 0x167D290
     System::Runtime::Serialization::ObjectHolder* get_Current();

@@ -55,6 +55,10 @@ namespace RootMotion::FinalIK {
     static RootMotion::FinalIK::FullBodyBipedChain _get_RightLeg();
     // Set static field: static public RootMotion.FinalIK.FullBodyBipedChain RightLeg
     static void _set_RightLeg(RootMotion::FinalIK::FullBodyBipedChain value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // RootMotion.FinalIK.FullBodyBipedChain
   #pragma pack(pop)
   static check_size<sizeof(FullBodyBipedChain), 0 + sizeof(int)> __RootMotion_FinalIK_FullBodyBipedChainSizeCheck;

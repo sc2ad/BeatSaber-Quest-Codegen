@@ -68,6 +68,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: EnterTextViewController
     EnterTextViewController(GlobalNamespace::VRTextEntryController* textEntryController_ = {}, TMPro::TextMeshProUGUI* titleText_ = {}, UnityEngine::UI::Button* okButton_ = {}, System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent_ = {}) noexcept : textEntryController{textEntryController_}, titleText{titleText_}, okButton{okButton_}, didFinishEvent{didFinishEvent_} {}
+    // Get instance field: private VRTextEntryController _textEntryController
+    GlobalNamespace::VRTextEntryController* _get__textEntryController();
+    // Set instance field: private VRTextEntryController _textEntryController
+    void _set__textEntryController(GlobalNamespace::VRTextEntryController* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _titleText
+    TMPro::TextMeshProUGUI* _get__titleText();
+    // Set instance field: private TMPro.TextMeshProUGUI _titleText
+    void _set__titleText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.UI.Button _okButton
+    UnityEngine::UI::Button* _get__okButton();
+    // Set instance field: private UnityEngine.UI.Button _okButton
+    void _set__okButton(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Action`2<EnterTextViewController,System.String> didFinishEvent
+    System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* _get_didFinishEvent();
+    // Set instance field: private System.Action`2<EnterTextViewController,System.String> didFinishEvent
+    void _set_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
     // Offset: 0x1020690
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);

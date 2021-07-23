@@ -43,6 +43,10 @@ namespace LiteNetLib::Utils {
     static LiteNetLib::Utils::NtpMode _get_Server();
     // Set static field: static public LiteNetLib.Utils.NtpMode Server
     static void _set_Server(LiteNetLib::Utils::NtpMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // LiteNetLib.Utils.NtpMode
   #pragma pack(pop)
   static check_size<sizeof(NtpMode), 0 + sizeof(int)> __LiteNetLib_Utils_NtpModeSizeCheck;

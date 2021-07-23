@@ -289,6 +289,10 @@ namespace UnityEngine {
     static UnityEngine::SystemLanguage _get_Hungarian();
     // Set static field: static public UnityEngine.SystemLanguage Hungarian
     static void _set_Hungarian(UnityEngine::SystemLanguage value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.SystemLanguage
   #pragma pack(pop)
   static check_size<sizeof(SystemLanguage), 0 + sizeof(int)> __UnityEngine_SystemLanguageSizeCheck;

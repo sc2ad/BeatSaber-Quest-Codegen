@@ -49,6 +49,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     DHKeyParameters(Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid_ = {}) noexcept : parameters{parameters_}, algorithmOid{algorithmOid_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
+    Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
+    void _set_parameters(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_algorithmOid();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid
+    void _set_algorithmOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()
     // Offset: 0x12267BC
     Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();

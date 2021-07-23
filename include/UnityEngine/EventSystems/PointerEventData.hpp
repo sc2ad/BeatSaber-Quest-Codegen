@@ -88,6 +88,10 @@ namespace UnityEngine::EventSystems {
       static UnityEngine::EventSystems::PointerEventData::InputButton _get_Middle();
       // Set static field: static public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton Middle
       static void _set_Middle(UnityEngine::EventSystems::PointerEventData::InputButton value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton
     #pragma pack(pop)
     static check_size<sizeof(PointerEventData::InputButton), 0 + sizeof(int)> __UnityEngine_EventSystems_PointerEventData_InputButtonSizeCheck;
@@ -224,6 +228,90 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData::InputButton) == 0x4);
     // Creating value type constructor for type: PointerEventData
     PointerEventData(UnityEngine::GameObject* pointerEnter_ = {}, UnityEngine::GameObject* m_PointerPress_ = {}, UnityEngine::GameObject* lastPress_ = {}, UnityEngine::GameObject* rawPointerPress_ = {}, UnityEngine::GameObject* pointerDrag_ = {}, UnityEngine::EventSystems::RaycastResult pointerCurrentRaycast_ = {}, UnityEngine::EventSystems::RaycastResult pointerPressRaycast_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* hovered_ = {}, bool eligibleForClick_ = {}, int pointerId_ = {}, UnityEngine::Vector2 position_ = {}, UnityEngine::Vector2 delta_ = {}, UnityEngine::Vector2 pressPosition_ = {}, UnityEngine::Vector3 worldPosition_ = {}, UnityEngine::Vector3 worldNormal_ = {}, float clickTime_ = {}, int clickCount_ = {}, UnityEngine::Vector2 scrollDelta_ = {}, bool useDragThreshold_ = {}, bool dragging_ = {}, UnityEngine::EventSystems::PointerEventData::InputButton button_ = {}) noexcept : pointerEnter{pointerEnter_}, m_PointerPress{m_PointerPress_}, lastPress{lastPress_}, rawPointerPress{rawPointerPress_}, pointerDrag{pointerDrag_}, pointerCurrentRaycast{pointerCurrentRaycast_}, pointerPressRaycast{pointerPressRaycast_}, hovered{hovered_}, eligibleForClick{eligibleForClick_}, pointerId{pointerId_}, position{position_}, delta{delta_}, pressPosition{pressPosition_}, worldPosition{worldPosition_}, worldNormal{worldNormal_}, clickTime{clickTime_}, clickCount{clickCount_}, scrollDelta{scrollDelta_}, useDragThreshold{useDragThreshold_}, dragging{dragging_}, button{button_} {}
+    // Get instance field: private UnityEngine.GameObject <pointerEnter>k__BackingField
+    UnityEngine::GameObject* _get_$pointerEnter$k__BackingField();
+    // Set instance field: private UnityEngine.GameObject <pointerEnter>k__BackingField
+    void _set_$pointerEnter$k__BackingField(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject m_PointerPress
+    UnityEngine::GameObject* _get_m_PointerPress();
+    // Set instance field: private UnityEngine.GameObject m_PointerPress
+    void _set_m_PointerPress(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject <lastPress>k__BackingField
+    UnityEngine::GameObject* _get_$lastPress$k__BackingField();
+    // Set instance field: private UnityEngine.GameObject <lastPress>k__BackingField
+    void _set_$lastPress$k__BackingField(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject <rawPointerPress>k__BackingField
+    UnityEngine::GameObject* _get_$rawPointerPress$k__BackingField();
+    // Set instance field: private UnityEngine.GameObject <rawPointerPress>k__BackingField
+    void _set_$rawPointerPress$k__BackingField(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject <pointerDrag>k__BackingField
+    UnityEngine::GameObject* _get_$pointerDrag$k__BackingField();
+    // Set instance field: private UnityEngine.GameObject <pointerDrag>k__BackingField
+    void _set_$pointerDrag$k__BackingField(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.EventSystems.RaycastResult <pointerCurrentRaycast>k__BackingField
+    UnityEngine::EventSystems::RaycastResult _get_$pointerCurrentRaycast$k__BackingField();
+    // Set instance field: private UnityEngine.EventSystems.RaycastResult <pointerCurrentRaycast>k__BackingField
+    void _set_$pointerCurrentRaycast$k__BackingField(UnityEngine::EventSystems::RaycastResult value);
+    // Get instance field: private UnityEngine.EventSystems.RaycastResult <pointerPressRaycast>k__BackingField
+    UnityEngine::EventSystems::RaycastResult _get_$pointerPressRaycast$k__BackingField();
+    // Set instance field: private UnityEngine.EventSystems.RaycastResult <pointerPressRaycast>k__BackingField
+    void _set_$pointerPressRaycast$k__BackingField(UnityEngine::EventSystems::RaycastResult value);
+    // Get instance field: public System.Collections.Generic.List`1<UnityEngine.GameObject> hovered
+    System::Collections::Generic::List_1<UnityEngine::GameObject*>* _get_hovered();
+    // Set instance field: public System.Collections.Generic.List`1<UnityEngine.GameObject> hovered
+    void _set_hovered(System::Collections::Generic::List_1<UnityEngine::GameObject*>* value);
+    // Get instance field: private System.Boolean <eligibleForClick>k__BackingField
+    bool _get_$eligibleForClick$k__BackingField();
+    // Set instance field: private System.Boolean <eligibleForClick>k__BackingField
+    void _set_$eligibleForClick$k__BackingField(bool value);
+    // Get instance field: private System.Int32 <pointerId>k__BackingField
+    int _get_$pointerId$k__BackingField();
+    // Set instance field: private System.Int32 <pointerId>k__BackingField
+    void _set_$pointerId$k__BackingField(int value);
+    // Get instance field: private UnityEngine.Vector2 <position>k__BackingField
+    UnityEngine::Vector2 _get_$position$k__BackingField();
+    // Set instance field: private UnityEngine.Vector2 <position>k__BackingField
+    void _set_$position$k__BackingField(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 <delta>k__BackingField
+    UnityEngine::Vector2 _get_$delta$k__BackingField();
+    // Set instance field: private UnityEngine.Vector2 <delta>k__BackingField
+    void _set_$delta$k__BackingField(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector2 <pressPosition>k__BackingField
+    UnityEngine::Vector2 _get_$pressPosition$k__BackingField();
+    // Set instance field: private UnityEngine.Vector2 <pressPosition>k__BackingField
+    void _set_$pressPosition$k__BackingField(UnityEngine::Vector2 value);
+    // Get instance field: private UnityEngine.Vector3 <worldPosition>k__BackingField
+    UnityEngine::Vector3 _get_$worldPosition$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <worldPosition>k__BackingField
+    void _set_$worldPosition$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 <worldNormal>k__BackingField
+    UnityEngine::Vector3 _get_$worldNormal$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <worldNormal>k__BackingField
+    void _set_$worldNormal$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single <clickTime>k__BackingField
+    float _get_$clickTime$k__BackingField();
+    // Set instance field: private System.Single <clickTime>k__BackingField
+    void _set_$clickTime$k__BackingField(float value);
+    // Get instance field: private System.Int32 <clickCount>k__BackingField
+    int _get_$clickCount$k__BackingField();
+    // Set instance field: private System.Int32 <clickCount>k__BackingField
+    void _set_$clickCount$k__BackingField(int value);
+    // Get instance field: private UnityEngine.Vector2 <scrollDelta>k__BackingField
+    UnityEngine::Vector2 _get_$scrollDelta$k__BackingField();
+    // Set instance field: private UnityEngine.Vector2 <scrollDelta>k__BackingField
+    void _set_$scrollDelta$k__BackingField(UnityEngine::Vector2 value);
+    // Get instance field: private System.Boolean <useDragThreshold>k__BackingField
+    bool _get_$useDragThreshold$k__BackingField();
+    // Set instance field: private System.Boolean <useDragThreshold>k__BackingField
+    void _set_$useDragThreshold$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <dragging>k__BackingField
+    bool _get_$dragging$k__BackingField();
+    // Set instance field: private System.Boolean <dragging>k__BackingField
+    void _set_$dragging$k__BackingField(bool value);
+    // Get instance field: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton <button>k__BackingField
+    UnityEngine::EventSystems::PointerEventData::InputButton _get_$button$k__BackingField();
+    // Set instance field: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton <button>k__BackingField
+    void _set_$button$k__BackingField(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public UnityEngine.GameObject get_pointerEnter()
     // Offset: 0x14060B4
     UnityEngine::GameObject* get_pointerEnter();

@@ -67,6 +67,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
     // Creating value type constructor for type: NetworkPlayerOptionsTableCell
     NetworkPlayerOptionsTableCell(::Array<UnityEngine::UI::Button*>* buttons_ = {}, ::Array<TMPro::TextMeshProUGUI*>* buttonTexts_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}) noexcept : buttons{buttons_}, buttonTexts{buttonTexts_}, buttonBinder{buttonBinder_}, player{player_} {}
+    // Get instance field: private UnityEngine.UI.Button[] _buttons
+    ::Array<UnityEngine::UI::Button*>* _get__buttons();
+    // Set instance field: private UnityEngine.UI.Button[] _buttons
+    void _set__buttons(::Array<UnityEngine::UI::Button*>* value);
+    // Get instance field: private TMPro.TextMeshProUGUI[] _buttonTexts
+    ::Array<TMPro::TextMeshProUGUI*>* _get__buttonTexts();
+    // Set instance field: private TMPro.TextMeshProUGUI[] _buttonTexts
+    void _set__buttonTexts(::Array<TMPro::TextMeshProUGUI*>* value);
+    // Get instance field: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field: private INetworkPlayer _player
+    GlobalNamespace::INetworkPlayer* _get__player();
+    // Set instance field: private INetworkPlayer _player
+    void _set__player(GlobalNamespace::INetworkPlayer* value);
     // public INetworkPlayer get_player()
     // Offset: 0x1012C78
     GlobalNamespace::INetworkPlayer* get_player();

@@ -44,6 +44,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: MemberPrimitiveUnTyped
     MemberPrimitiveUnTyped(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation_ = {}, ::Il2CppObject* value_ = {}) noexcept : typeInformation{typeInformation_}, value{value_} {}
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation
+    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE _get_typeInformation();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation
+    void _set_typeInformation(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+    // Get instance field: System.Object value
+    ::Il2CppObject* _get_value();
+    // Set instance field: System.Object value
+    void _set_value(::Il2CppObject* value);
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation, System.Object value)
     // Offset: 0x15DCB8C
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::Il2CppObject* value);

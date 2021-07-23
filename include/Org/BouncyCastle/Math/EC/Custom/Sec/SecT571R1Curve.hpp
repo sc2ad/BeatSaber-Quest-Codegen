@@ -67,6 +67,10 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* _get_SecT571R1_B_SQRT();
     // Set static field: static readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT571FieldElement SecT571R1_B_SQRT
     static void _set_SecT571R1_B_SQRT(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT571R1Point m_infinity
+    Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Point* _get_m_infinity();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT571R1Point m_infinity
+    void _set_m_infinity(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Point* value);
     // static private System.Void .cctor()
     // Offset: 0x20E35E4
     static void _cctor();

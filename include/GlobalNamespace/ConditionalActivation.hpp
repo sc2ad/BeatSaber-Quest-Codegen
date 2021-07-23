@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     ConditionalActivation(GlobalNamespace::BoolSO* value_ = {}, bool activateOnFalse_ = {}) noexcept : value{value_}, activateOnFalse{activateOnFalse_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BoolSO _value
+    GlobalNamespace::BoolSO* _get__value();
+    // Set instance field: private BoolSO _value
+    void _set__value(GlobalNamespace::BoolSO* value);
+    // Get instance field: private System.Boolean _activateOnFalse
+    bool _get__activateOnFalse();
+    // Set instance field: private System.Boolean _activateOnFalse
+    void _set__activateOnFalse(bool value);
     // protected System.Void Awake()
     // Offset: 0x1080DD4
     void Awake();

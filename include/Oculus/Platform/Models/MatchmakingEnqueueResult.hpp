@@ -81,6 +81,38 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MatchmakingEnqueueResult
     MatchmakingEnqueueResult(Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional_ = {}, Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshot_ = {}, uint AverageWait_ = {}, uint MatchesInLastHourCount_ = {}, uint MaxExpectedWait_ = {}, ::Il2CppString* Pool_ = {}, uint RecentMatchPercentage_ = {}, ::Il2CppString* RequestHash_ = {}) noexcept : AdminSnapshotOptional{AdminSnapshotOptional_}, AdminSnapshot{AdminSnapshot_}, AverageWait{AverageWait_}, MatchesInLastHourCount{MatchesInLastHourCount_}, MaxExpectedWait{MaxExpectedWait_}, Pool{Pool_}, RecentMatchPercentage{RecentMatchPercentage_}, RequestHash{RequestHash_} {}
+    // Get instance field: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
+    Oculus::Platform::Models::MatchmakingAdminSnapshot* _get_AdminSnapshotOptional();
+    // Set instance field: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
+    void _set_AdminSnapshotOptional(Oculus::Platform::Models::MatchmakingAdminSnapshot* value);
+    // Get instance field: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
+    Oculus::Platform::Models::MatchmakingAdminSnapshot* _get_AdminSnapshot();
+    // Set instance field: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
+    void _set_AdminSnapshot(Oculus::Platform::Models::MatchmakingAdminSnapshot* value);
+    // Get instance field: public readonly System.UInt32 AverageWait
+    uint _get_AverageWait();
+    // Set instance field: public readonly System.UInt32 AverageWait
+    void _set_AverageWait(uint value);
+    // Get instance field: public readonly System.UInt32 MatchesInLastHourCount
+    uint _get_MatchesInLastHourCount();
+    // Set instance field: public readonly System.UInt32 MatchesInLastHourCount
+    void _set_MatchesInLastHourCount(uint value);
+    // Get instance field: public readonly System.UInt32 MaxExpectedWait
+    uint _get_MaxExpectedWait();
+    // Set instance field: public readonly System.UInt32 MaxExpectedWait
+    void _set_MaxExpectedWait(uint value);
+    // Get instance field: public readonly System.String Pool
+    ::Il2CppString* _get_Pool();
+    // Set instance field: public readonly System.String Pool
+    void _set_Pool(::Il2CppString* value);
+    // Get instance field: public readonly System.UInt32 RecentMatchPercentage
+    uint _get_RecentMatchPercentage();
+    // Set instance field: public readonly System.UInt32 RecentMatchPercentage
+    void _set_RecentMatchPercentage(uint value);
+    // Get instance field: public readonly System.String RequestHash
+    ::Il2CppString* _get_RequestHash();
+    // Set instance field: public readonly System.String RequestHash
+    void _set_RequestHash(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A4748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

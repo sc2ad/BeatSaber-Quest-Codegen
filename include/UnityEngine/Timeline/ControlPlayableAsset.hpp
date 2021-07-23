@@ -198,6 +198,62 @@ namespace UnityEngine::Timeline {
     static System::Collections::Generic::HashSet_1<UnityEngine::GameObject*>* _get_s_CreatedPrefabs();
     // Set static field: static private System.Collections.Generic.HashSet`1<UnityEngine.GameObject> s_CreatedPrefabs
     static void _set_s_CreatedPrefabs(System::Collections::Generic::HashSet_1<UnityEngine::GameObject*>* value);
+    // Get instance field: public UnityEngine.ExposedReference`1<UnityEngine.GameObject> sourceGameObject
+    UnityEngine::ExposedReference_1<UnityEngine::GameObject*> _get_sourceGameObject();
+    // Set instance field: public UnityEngine.ExposedReference`1<UnityEngine.GameObject> sourceGameObject
+    void _set_sourceGameObject(UnityEngine::ExposedReference_1<UnityEngine::GameObject*> value);
+    // Get instance field: public UnityEngine.GameObject prefabGameObject
+    UnityEngine::GameObject* _get_prefabGameObject();
+    // Set instance field: public UnityEngine.GameObject prefabGameObject
+    void _set_prefabGameObject(UnityEngine::GameObject* value);
+    // Get instance field: public System.Boolean updateParticle
+    bool _get_updateParticle();
+    // Set instance field: public System.Boolean updateParticle
+    void _set_updateParticle(bool value);
+    // Get instance field: public System.UInt32 particleRandomSeed
+    uint _get_particleRandomSeed();
+    // Set instance field: public System.UInt32 particleRandomSeed
+    void _set_particleRandomSeed(uint value);
+    // Get instance field: public System.Boolean updateDirector
+    bool _get_updateDirector();
+    // Set instance field: public System.Boolean updateDirector
+    void _set_updateDirector(bool value);
+    // Get instance field: public System.Boolean updateITimeControl
+    bool _get_updateITimeControl();
+    // Set instance field: public System.Boolean updateITimeControl
+    void _set_updateITimeControl(bool value);
+    // Get instance field: public System.Boolean searchHierarchy
+    bool _get_searchHierarchy();
+    // Set instance field: public System.Boolean searchHierarchy
+    void _set_searchHierarchy(bool value);
+    // Get instance field: public System.Boolean active
+    bool _get_active();
+    // Set instance field: public System.Boolean active
+    void _set_active(bool value);
+    // Get instance field: public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState postPlayback
+    UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState _get_postPlayback();
+    // Set instance field: public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState postPlayback
+    void _set_postPlayback(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState value);
+    // Get instance field: private UnityEngine.Playables.PlayableAsset m_ControlDirectorAsset
+    UnityEngine::Playables::PlayableAsset* _get_m_ControlDirectorAsset();
+    // Set instance field: private UnityEngine.Playables.PlayableAsset m_ControlDirectorAsset
+    void _set_m_ControlDirectorAsset(UnityEngine::Playables::PlayableAsset* value);
+    // Get instance field: private System.Double m_Duration
+    double _get_m_Duration();
+    // Set instance field: private System.Double m_Duration
+    void _set_m_Duration(double value);
+    // Get instance field: private System.Boolean m_SupportLoop
+    bool _get_m_SupportLoop();
+    // Set instance field: private System.Boolean m_SupportLoop
+    void _set_m_SupportLoop(bool value);
+    // Get instance field: private System.Boolean <controllingDirectors>k__BackingField
+    bool _get_$controllingDirectors$k__BackingField();
+    // Set instance field: private System.Boolean <controllingDirectors>k__BackingField
+    void _set_$controllingDirectors$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <controllingParticles>k__BackingField
+    bool _get_$controllingParticles$k__BackingField();
+    // Set instance field: private System.Boolean <controllingParticles>k__BackingField
+    void _set_$controllingParticles$k__BackingField(bool value);
     // System.Boolean get_controllingDirectors()
     // Offset: 0x17E1B30
     bool get_controllingDirectors();

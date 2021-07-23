@@ -46,6 +46,14 @@ namespace System::Runtime::CompilerServices {
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass4_0
     $$c__DisplayClass4_0(System::Threading::Tasks::Task* innerTask_ = {}, System::Action* continuation_ = {}) noexcept : innerTask{innerTask_}, continuation{continuation_} {}
+    // Get instance field: public System.Threading.Tasks.Task innerTask
+    System::Threading::Tasks::Task* _get_innerTask();
+    // Set instance field: public System.Threading.Tasks.Task innerTask
+    void _set_innerTask(System::Threading::Tasks::Task* value);
+    // Get instance field: public System.Action continuation
+    System::Action* _get_continuation();
+    // Set instance field: public System.Action continuation
+    void _set_continuation(System::Action* value);
     // System.Void <OutputAsyncCausalityEvents>b__0()
     // Offset: 0x13EF2C8
     void $OutputAsyncCausalityEvents$b__0();

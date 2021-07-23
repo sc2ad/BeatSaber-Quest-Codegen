@@ -39,6 +39,18 @@ namespace TMPro {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 spriteIndex
+    int _get_spriteIndex();
+    // Set instance field: public System.Int32 spriteIndex
+    void _set_spriteIndex(int value);
+    // Get instance field: public System.Int32 characterIndex
+    int _get_characterIndex();
+    // Set instance field: public System.Int32 characterIndex
+    void _set_characterIndex(int value);
+    // Get instance field: public System.Int32 vertexIndex
+    int _get_vertexIndex();
+    // Set instance field: public System.Int32 vertexIndex
+    void _set_vertexIndex(int value);
   }; // TMPro.TMP_SpriteInfo
   #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteInfo), 8 + sizeof(int)> __TMPro_TMP_SpriteInfoSizeCheck;

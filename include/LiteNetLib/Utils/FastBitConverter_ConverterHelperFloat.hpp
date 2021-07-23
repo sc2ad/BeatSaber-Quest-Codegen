@@ -35,6 +35,14 @@ namespace LiteNetLib::Utils {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Int32 Aint
+    int _get_Aint();
+    // Set instance field: public System.Int32 Aint
+    void _set_Aint(int value);
+    // Get instance field: public System.Single Afloat
+    float _get_Afloat();
+    // Set instance field: public System.Single Afloat
+    void _set_Afloat(float value);
   }; // LiteNetLib.Utils.FastBitConverter/LiteNetLib.Utils.ConverterHelperFloat
   // WARNING Not writing size check since size may be invalid!
 }

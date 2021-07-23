@@ -120,6 +120,58 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public System.Boolean isDedicatedServer
+    bool _get_isDedicatedServer();
+    // Set instance field: public System.Boolean isDedicatedServer
+    void _set_isDedicatedServer(bool value);
+    // Get instance field: public MasterServerConnectionManager <>4__this
+    GlobalNamespace::MasterServerConnectionManager* _get_$$4__this();
+    // Set instance field: public MasterServerConnectionManager <>4__this
+    void _set_$$4__this(GlobalNamespace::MasterServerConnectionManager* value);
+    // Get instance field: public System.Net.IPEndPoint remoteEndPoint
+    System::Net::IPEndPoint* _get_remoteEndPoint();
+    // Set instance field: public System.Net.IPEndPoint remoteEndPoint
+    void _set_remoteEndPoint(System::Net::IPEndPoint* value);
+    // Get instance field: public System.Byte[] preMasterSecret
+    ::Array<uint8_t>* _get_preMasterSecret();
+    // Set instance field: public System.Byte[] preMasterSecret
+    void _set_preMasterSecret(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] myRandom
+    ::Array<uint8_t>* _get_myRandom();
+    // Set instance field: public System.Byte[] myRandom
+    void _set_myRandom(::Array<uint8_t>* value);
+    // Get instance field: public System.Byte[] remoteRandom
+    ::Array<uint8_t>* _get_remoteRandom();
+    // Set instance field: public System.Byte[] remoteRandom
+    void _set_remoteRandom(::Array<uint8_t>* value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
+    // Get instance field: public System.Boolean remoteUserIsConnectionOwner
+    bool _get_remoteUserIsConnectionOwner();
+    // Set instance field: public System.Boolean remoteUserIsConnectionOwner
+    void _set_remoteUserIsConnectionOwner(bool value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__2
+    void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> value);
     // private System.Void MoveNext()
     // Offset: 0xEDA7A4
     void MoveNext();

@@ -42,6 +42,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
     // Creating value type constructor for type: InternalOp
     InternalOp(UnityEngine::AsyncOperation* m_RequestOperation_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle_ = {}) noexcept : m_RequestOperation{m_RequestOperation_}, m_ProvideHandle{m_ProvideHandle_} {}
+    // Get instance field: private UnityEngine.AsyncOperation m_RequestOperation
+    UnityEngine::AsyncOperation* _get_m_RequestOperation();
+    // Set instance field: private UnityEngine.AsyncOperation m_RequestOperation
+    void _set_m_RequestOperation(UnityEngine::AsyncOperation* value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
+    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle _get_m_ProvideHandle();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
+    void _set_m_ProvideHandle(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
     // Offset: 0x19B9450
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);

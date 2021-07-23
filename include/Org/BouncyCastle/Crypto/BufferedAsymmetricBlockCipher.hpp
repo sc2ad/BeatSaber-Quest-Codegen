@@ -48,6 +48,18 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BufferedAsymmetricBlockCipher
     BufferedAsymmetricBlockCipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher_ = {}, ::Array<uint8_t>* buffer_ = {}, int bufOff_ = {}) noexcept : cipher{cipher_}, buffer{buffer_}, bufOff{bufOff_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
+    Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+    // Get instance field: private System.Byte[] buffer
+    ::Array<uint8_t>* _get_buffer();
+    // Set instance field: private System.Byte[] buffer
+    void _set_buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 bufOff
+    int _get_bufOff();
+    // Set instance field: private System.Int32 bufOff
+    void _set_bufOff(int value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
     // Offset: 0x19EC7BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

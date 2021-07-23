@@ -61,6 +61,10 @@ namespace UnityEngine::EventSystems {
     static UnityEngine::EventSystems::MoveDirection _get_None();
     // Set static field: static public UnityEngine.EventSystems.MoveDirection None
     static void _set_None(UnityEngine::EventSystems::MoveDirection value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.EventSystems.MoveDirection
   #pragma pack(pop)
   static check_size<sizeof(MoveDirection), 0 + sizeof(int)> __UnityEngine_EventSystems_MoveDirectionSizeCheck;

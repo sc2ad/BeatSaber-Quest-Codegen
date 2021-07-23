@@ -73,6 +73,10 @@ namespace TMPro {
     static TMPro::TextOverflowModes _get_Linked();
     // Set static field: static public TMPro.TextOverflowModes Linked
     static void _set_Linked(TMPro::TextOverflowModes value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.TextOverflowModes
   #pragma pack(pop)
   static check_size<sizeof(TextOverflowModes), 0 + sizeof(int)> __TMPro_TextOverflowModesSizeCheck;

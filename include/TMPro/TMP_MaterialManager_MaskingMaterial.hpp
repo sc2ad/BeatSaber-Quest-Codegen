@@ -52,6 +52,22 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MaskingMaterial
     MaskingMaterial(UnityEngine::Material* baseMaterial_ = {}, UnityEngine::Material* stencilMaterial_ = {}, int count_ = {}, int stencilID_ = {}) noexcept : baseMaterial{baseMaterial_}, stencilMaterial{stencilMaterial_}, count{count_}, stencilID{stencilID_} {}
+    // Get instance field: public UnityEngine.Material baseMaterial
+    UnityEngine::Material* _get_baseMaterial();
+    // Set instance field: public UnityEngine.Material baseMaterial
+    void _set_baseMaterial(UnityEngine::Material* value);
+    // Get instance field: public UnityEngine.Material stencilMaterial
+    UnityEngine::Material* _get_stencilMaterial();
+    // Set instance field: public UnityEngine.Material stencilMaterial
+    void _set_stencilMaterial(UnityEngine::Material* value);
+    // Get instance field: public System.Int32 count
+    int _get_count();
+    // Set instance field: public System.Int32 count
+    void _set_count(int value);
+    // Get instance field: public System.Int32 stencilID
+    int _get_stencilID();
+    // Set instance field: public System.Int32 stencilID
+    void _set_stencilID(int value);
     // public System.Void .ctor()
     // Offset: 0x110DE94
     // Implemented from: System.Object

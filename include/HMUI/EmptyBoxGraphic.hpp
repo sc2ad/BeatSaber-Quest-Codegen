@@ -36,6 +36,10 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: EmptyBoxGraphic
     EmptyBoxGraphic(float depth_ = {}) noexcept : depth{depth_} {}
+    // Get instance field: private System.Single _depth
+    float _get__depth();
+    // Set instance field: private System.Single _depth
+    void _set__depth(float value);
     // protected System.Void OnDrawGizmosSelected()
     // Offset: 0x130858C
     void OnDrawGizmosSelected();

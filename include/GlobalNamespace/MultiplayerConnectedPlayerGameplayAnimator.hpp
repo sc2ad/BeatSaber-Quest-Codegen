@@ -83,6 +83,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*) == 0x8);
     // Creating value type constructor for type: MultiplayerConnectedPlayerGameplayAnimator
     MultiplayerConnectedPlayerGameplayAnimator(GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator_ = {}, GlobalNamespace::ScaleAnimator* avatarScaleAnimator_ = {}, float defaultLightsWidth_ = {}, float observedLightsWidth_ = {}, GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController_ = {}, GlobalNamespace::MultiplayerLayoutProvider* multiplayerLayoutProvider_ = {}, GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* playerSpectatingSpot_ = {}) noexcept : bigAvatarAnimator{bigAvatarAnimator_}, avatarScaleAnimator{avatarScaleAnimator_}, defaultLightsWidth{defaultLightsWidth_}, observedLightsWidth{observedLightsWidth_}, failController{failController_}, multiplayerLayoutProvider{multiplayerLayoutProvider_}, playerSpectatingSpot{playerSpectatingSpot_} {}
+    // Get instance field: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
+    GlobalNamespace::MultiplayerBigAvatarAnimator* _get__bigAvatarAnimator();
+    // Set instance field: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
+    void _set__bigAvatarAnimator(GlobalNamespace::MultiplayerBigAvatarAnimator* value);
+    // Get instance field: private ScaleAnimator _avatarScaleAnimator
+    GlobalNamespace::ScaleAnimator* _get__avatarScaleAnimator();
+    // Set instance field: private ScaleAnimator _avatarScaleAnimator
+    void _set__avatarScaleAnimator(GlobalNamespace::ScaleAnimator* value);
+    // Get instance field: private System.Single _defaultLightsWidth
+    float _get__defaultLightsWidth();
+    // Set instance field: private System.Single _defaultLightsWidth
+    void _set__defaultLightsWidth(float value);
+    // Get instance field: private System.Single _observedLightsWidth
+    float _get__observedLightsWidth();
+    // Set instance field: private System.Single _observedLightsWidth
+    void _set__observedLightsWidth(float value);
+    // Get instance field: private readonly MultiplayerConnectedPlayerLevelFailController _failController
+    GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* _get__failController();
+    // Set instance field: private readonly MultiplayerConnectedPlayerLevelFailController _failController
+    void _set__failController(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* value);
+    // Get instance field: private readonly MultiplayerLayoutProvider _multiplayerLayoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider* _get__multiplayerLayoutProvider();
+    // Set instance field: private readonly MultiplayerLayoutProvider _multiplayerLayoutProvider
+    void _set__multiplayerLayoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
+    // Get instance field: private readonly MultiplayerConnectedPlayerSpectatingSpot _playerSpectatingSpot
+    GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* _get__playerSpectatingSpot();
+    // Set instance field: private readonly MultiplayerConnectedPlayerSpectatingSpot _playerSpectatingSpot
+    void _set__playerSpectatingSpot(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* value);
     // private System.Void TransitionIntoFailedState()
     // Offset: 0x11A22B0
     void TransitionIntoFailedState();

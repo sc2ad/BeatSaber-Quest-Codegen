@@ -44,6 +44,10 @@ namespace System::IO {
     static_assert(sizeof(System::TermInfoDriver*) == 0x8);
     // Creating value type constructor for type: CStreamWriter
     CStreamWriter(System::TermInfoDriver* driver_ = {}) noexcept : driver{driver_} {}
+    // Get instance field: private System.TermInfoDriver driver
+    System::TermInfoDriver* _get_driver();
+    // Set instance field: private System.TermInfoDriver driver
+    void _set_driver(System::TermInfoDriver* value);
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean leaveOpen)
     // Offset: 0x19199C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

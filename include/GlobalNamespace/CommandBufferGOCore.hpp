@@ -69,6 +69,14 @@ namespace GlobalNamespace {
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
+    System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* _get__cameras();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
+    void _set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* value);
+    // Get instance field: private UnityEngine.Mesh _mesh
+    UnityEngine::Mesh* _get__mesh();
+    // Set instance field: private UnityEngine.Mesh _mesh
+    void _set__mesh(UnityEngine::Mesh* value);
     // protected System.Void OnEnable()
     // Offset: 0x233D1B0
     void OnEnable();

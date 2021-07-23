@@ -47,6 +47,22 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Single <RootScale>k__BackingField
+    float _get_$RootScale$k__BackingField();
+    // Set instance field: private System.Single <RootScale>k__BackingField
+    void _set_$RootScale$k__BackingField(float value);
+    // Get instance field: private System.Boolean <IsDataValid>k__BackingField
+    bool _get_$IsDataValid$k__BackingField();
+    // Set instance field: private System.Boolean <IsDataValid>k__BackingField
+    void _set_$IsDataValid$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
+    bool _get_$IsDataHighConfidence$k__BackingField();
+    // Set instance field: private System.Boolean <IsDataHighConfidence>k__BackingField
+    void _set_$IsDataHighConfidence$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
+    bool _get_$ShouldUseSystemGestureMaterial$k__BackingField();
+    // Set instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
+    void _set_$ShouldUseSystemGestureMaterial$k__BackingField(bool value);
     // public System.Single get_RootScale()
     // Offset: 0xEFAB5C
     float get_RootScale();

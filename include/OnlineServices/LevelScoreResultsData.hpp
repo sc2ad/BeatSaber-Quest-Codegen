@@ -96,6 +96,42 @@ namespace OnlineServices {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public readonly IDifficultyBeatmap difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap* _get_difficultyBeatmap();
+    // Set instance field: public readonly IDifficultyBeatmap difficultyBeatmap
+    void _set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: public readonly System.Int32 rawScore
+    int _get_rawScore();
+    // Set instance field: public readonly System.Int32 rawScore
+    void _set_rawScore(int value);
+    // Get instance field: public readonly System.Int32 modifiedScore
+    int _get_modifiedScore();
+    // Set instance field: public readonly System.Int32 modifiedScore
+    void _set_modifiedScore(int value);
+    // Get instance field: public readonly System.Boolean fullCombo
+    bool _get_fullCombo();
+    // Set instance field: public readonly System.Boolean fullCombo
+    void _set_fullCombo(bool value);
+    // Get instance field: public readonly System.Int32 goodCutsCount
+    int _get_goodCutsCount();
+    // Set instance field: public readonly System.Int32 goodCutsCount
+    void _set_goodCutsCount(int value);
+    // Get instance field: public readonly System.Int32 badCutsCount
+    int _get_badCutsCount();
+    // Set instance field: public readonly System.Int32 badCutsCount
+    void _set_badCutsCount(int value);
+    // Get instance field: public readonly System.Int32 missedCount
+    int _get_missedCount();
+    // Set instance field: public readonly System.Int32 missedCount
+    void _set_missedCount(int value);
+    // Get instance field: public readonly System.Int32 maxCombo
+    int _get_maxCombo();
+    // Set instance field: public readonly System.Int32 maxCombo
+    void _set_maxCombo(int value);
+    // Get instance field: public readonly GameplayModifiers gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get_gameplayModifiers();
+    // Set instance field: public readonly GameplayModifiers gameplayModifiers
+    void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
     // Offset: 0xECF9A8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

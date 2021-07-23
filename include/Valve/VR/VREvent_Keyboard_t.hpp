@@ -76,6 +76,42 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Byte cNewInput0
+    uint8_t _get_cNewInput0();
+    // Set instance field: public System.Byte cNewInput0
+    void _set_cNewInput0(uint8_t value);
+    // Get instance field: public System.Byte cNewInput1
+    uint8_t _get_cNewInput1();
+    // Set instance field: public System.Byte cNewInput1
+    void _set_cNewInput1(uint8_t value);
+    // Get instance field: public System.Byte cNewInput2
+    uint8_t _get_cNewInput2();
+    // Set instance field: public System.Byte cNewInput2
+    void _set_cNewInput2(uint8_t value);
+    // Get instance field: public System.Byte cNewInput3
+    uint8_t _get_cNewInput3();
+    // Set instance field: public System.Byte cNewInput3
+    void _set_cNewInput3(uint8_t value);
+    // Get instance field: public System.Byte cNewInput4
+    uint8_t _get_cNewInput4();
+    // Set instance field: public System.Byte cNewInput4
+    void _set_cNewInput4(uint8_t value);
+    // Get instance field: public System.Byte cNewInput5
+    uint8_t _get_cNewInput5();
+    // Set instance field: public System.Byte cNewInput5
+    void _set_cNewInput5(uint8_t value);
+    // Get instance field: public System.Byte cNewInput6
+    uint8_t _get_cNewInput6();
+    // Set instance field: public System.Byte cNewInput6
+    void _set_cNewInput6(uint8_t value);
+    // Get instance field: public System.Byte cNewInput7
+    uint8_t _get_cNewInput7();
+    // Set instance field: public System.Byte cNewInput7
+    void _set_cNewInput7(uint8_t value);
+    // Get instance field: public System.UInt64 uUserValue
+    uint64_t _get_uUserValue();
+    // Set instance field: public System.UInt64 uUserValue
+    void _set_uUserValue(uint64_t value);
   }; // Valve.VR.VREvent_Keyboard_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Keyboard_t), 8 + sizeof(uint64_t)> __Valve_VR_VREvent_Keyboard_tSizeCheck;

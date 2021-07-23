@@ -122,6 +122,38 @@ namespace UnityEngine::TestTools::TestRunner {
     static ::Il2CppString* _get_kPlaymodeTestControllerName();
     // Set static field: static System.String kPlaymodeTestControllerName
     static void _set_kPlaymodeTestControllerName(::Il2CppString* value);
+    // Get instance field: private System.Collections.IEnumerator m_TestSteps
+    System::Collections::IEnumerator* _get_m_TestSteps();
+    // Set instance field: private System.Collections.IEnumerator m_TestSteps
+    void _set_m_TestSteps(System::Collections::IEnumerator* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_AssembliesWithTests
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_AssembliesWithTests();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_AssembliesWithTests
+    void _set_m_AssembliesWithTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent
+    UnityEngine::TestTools::TestRunner::TestStartedEvent* _get_testStartedEvent();
+    // Set instance field: UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent
+    void _set_testStartedEvent(UnityEngine::TestTools::TestRunner::TestStartedEvent* value);
+    // Get instance field: UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent
+    UnityEngine::TestTools::TestRunner::TestFinishedEvent* _get_testFinishedEvent();
+    // Set instance field: UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent
+    void _set_testFinishedEvent(UnityEngine::TestTools::TestRunner::TestFinishedEvent* value);
+    // Get instance field: UnityEngine.TestTools.TestRunner.RunStartedEvent runStartedEvent
+    UnityEngine::TestTools::TestRunner::RunStartedEvent* _get_runStartedEvent();
+    // Set instance field: UnityEngine.TestTools.TestRunner.RunStartedEvent runStartedEvent
+    void _set_runStartedEvent(UnityEngine::TestTools::TestRunner::RunStartedEvent* value);
+    // Get instance field: UnityEngine.TestTools.TestRunner.RunFinishedEvent runFinishedEvent
+    UnityEngine::TestTools::TestRunner::RunFinishedEvent* _get_runFinishedEvent();
+    // Set instance field: UnityEngine.TestTools.TestRunner.RunFinishedEvent runFinishedEvent
+    void _set_runFinishedEvent(UnityEngine::TestTools::TestRunner::RunFinishedEvent* value);
+    // Get instance field: public UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings settings
+    UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings* _get_settings();
+    // Set instance field: public UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings settings
+    void _set_settings(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings* value);
+    // Get instance field: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestAssemblyRunner m_Runner
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* _get_m_Runner();
+    // Set instance field: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestAssemblyRunner m_Runner
+    void _set_m_Runner(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* value);
     // public System.Collections.Generic.List`1<System.String> get_AssembliesWithTests()
     // Offset: 0x1491040
     System::Collections::Generic::List_1<::Il2CppString*>* get_AssembliesWithTests();

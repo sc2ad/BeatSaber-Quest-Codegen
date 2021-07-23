@@ -82,6 +82,42 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
     // Creating value type constructor for type: RegexBoyerMoore
     RegexBoyerMoore(::Array<int>* positive_ = {}, ::Array<int>* negativeASCII_ = {}, ::Array<::Array<int>*>* negativeUnicode_ = {}, ::Il2CppString* pattern_ = {}, int lowASCII_ = {}, int highASCII_ = {}, bool rightToLeft_ = {}, bool caseInsensitive_ = {}, System::Globalization::CultureInfo* culture_ = {}) noexcept : positive{positive_}, negativeASCII{negativeASCII_}, negativeUnicode{negativeUnicode_}, pattern{pattern_}, lowASCII{lowASCII_}, highASCII{highASCII_}, rightToLeft{rightToLeft_}, caseInsensitive{caseInsensitive_}, culture{culture_} {}
+    // Get instance field: System.Int32[] _positive
+    ::Array<int>* _get__positive();
+    // Set instance field: System.Int32[] _positive
+    void _set__positive(::Array<int>* value);
+    // Get instance field: System.Int32[] _negativeASCII
+    ::Array<int>* _get__negativeASCII();
+    // Set instance field: System.Int32[] _negativeASCII
+    void _set__negativeASCII(::Array<int>* value);
+    // Get instance field: System.Int32[][] _negativeUnicode
+    ::Array<::Array<int>*>* _get__negativeUnicode();
+    // Set instance field: System.Int32[][] _negativeUnicode
+    void _set__negativeUnicode(::Array<::Array<int>*>* value);
+    // Get instance field: System.String _pattern
+    ::Il2CppString* _get__pattern();
+    // Set instance field: System.String _pattern
+    void _set__pattern(::Il2CppString* value);
+    // Get instance field: System.Int32 _lowASCII
+    int _get__lowASCII();
+    // Set instance field: System.Int32 _lowASCII
+    void _set__lowASCII(int value);
+    // Get instance field: System.Int32 _highASCII
+    int _get__highASCII();
+    // Set instance field: System.Int32 _highASCII
+    void _set__highASCII(int value);
+    // Get instance field: System.Boolean _rightToLeft
+    bool _get__rightToLeft();
+    // Set instance field: System.Boolean _rightToLeft
+    void _set__rightToLeft(bool value);
+    // Get instance field: System.Boolean _caseInsensitive
+    bool _get__caseInsensitive();
+    // Set instance field: System.Boolean _caseInsensitive
+    void _set__caseInsensitive(bool value);
+    // Get instance field: System.Globalization.CultureInfo _culture
+    System::Globalization::CultureInfo* _get__culture();
+    // Set instance field: System.Globalization.CultureInfo _culture
+    void _set__culture(System::Globalization::CultureInfo* value);
     // System.Void .ctor(System.String pattern, System.Boolean caseInsensitive, System.Boolean rightToLeft, System.Globalization.CultureInfo culture)
     // Offset: 0x18382EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

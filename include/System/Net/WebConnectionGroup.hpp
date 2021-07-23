@@ -90,6 +90,30 @@ namespace System::Net {
     static_assert(sizeof(System::EventHandler*) == 0x8);
     // Creating value type constructor for type: WebConnectionGroup
     WebConnectionGroup(System::Net::ServicePoint* sPoint_ = {}, ::Il2CppString* name_ = {}, System::Collections::Generic::LinkedList_1<System::Net::WebConnectionGroup::ConnectionState*>* connections_ = {}, System::Collections::Queue* queue_ = {}, bool closing_ = {}, System::EventHandler* ConnectionClosed_ = {}) noexcept : sPoint{sPoint_}, name{name_}, connections{connections_}, queue{queue_}, closing{closing_}, ConnectionClosed{ConnectionClosed_} {}
+    // Get instance field: private System.Net.ServicePoint sPoint
+    System::Net::ServicePoint* _get_sPoint();
+    // Set instance field: private System.Net.ServicePoint sPoint
+    void _set_sPoint(System::Net::ServicePoint* value);
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: private System.Collections.Generic.LinkedList`1<System.Net.WebConnectionGroup/System.Net.ConnectionState> connections
+    System::Collections::Generic::LinkedList_1<System::Net::WebConnectionGroup::ConnectionState*>* _get_connections();
+    // Set instance field: private System.Collections.Generic.LinkedList`1<System.Net.WebConnectionGroup/System.Net.ConnectionState> connections
+    void _set_connections(System::Collections::Generic::LinkedList_1<System::Net::WebConnectionGroup::ConnectionState*>* value);
+    // Get instance field: private System.Collections.Queue queue
+    System::Collections::Queue* _get_queue();
+    // Set instance field: private System.Collections.Queue queue
+    void _set_queue(System::Collections::Queue* value);
+    // Get instance field: private System.Boolean closing
+    bool _get_closing();
+    // Set instance field: private System.Boolean closing
+    void _set_closing(bool value);
+    // Get instance field: private System.EventHandler ConnectionClosed
+    System::EventHandler* _get_ConnectionClosed();
+    // Set instance field: private System.EventHandler ConnectionClosed
+    void _set_ConnectionClosed(System::EventHandler* value);
     // public System.String get_Name()
     // Offset: 0x1596ADC
     ::Il2CppString* get_Name();

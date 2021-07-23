@@ -157,6 +157,10 @@ namespace Valve::VR {
     static Valve::VR::EVRApplicationError _get_InvalidParameter();
     // Set static field: static public Valve.VR.EVRApplicationError InvalidParameter
     static void _set_InvalidParameter(Valve::VR::EVRApplicationError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRApplicationError
   #pragma pack(pop)
   static check_size<sizeof(EVRApplicationError), 0 + sizeof(int)> __Valve_VR_EVRApplicationErrorSizeCheck;

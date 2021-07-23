@@ -192,6 +192,98 @@ namespace System::Xml {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: XmlUtf8RawTextWriter
     XmlUtf8RawTextWriter(bool useAsync_ = {}, ::Array<uint8_t>* bufBytes_ = {}, System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Xml::XmlCharType xmlCharType_ = {}, int bufPos_ = {}, int textPos_ = {}, int contentPos_ = {}, int cdataPos_ = {}, int attrEndPos_ = {}, int bufLen_ = {}, bool writeToNull_ = {}, bool hadDoubleBracket_ = {}, bool inAttributeValue_ = {}, System::Xml::NewLineHandling newLineHandling_ = {}, bool closeOutput_ = {}, bool omitXmlDeclaration_ = {}, ::Il2CppString* newLineChars_ = {}, bool checkCharacters_ = {}, System::Xml::XmlStandalone standalone_ = {}, System::Xml::XmlOutputMethod outputMethod_ = {}, bool autoXmlDeclaration_ = {}, bool mergeCDataSections_ = {}) noexcept : useAsync{useAsync_}, bufBytes{bufBytes_}, stream{stream_}, encoding{encoding_}, xmlCharType{xmlCharType_}, bufPos{bufPos_}, textPos{textPos_}, contentPos{contentPos_}, cdataPos{cdataPos_}, attrEndPos{attrEndPos_}, bufLen{bufLen_}, writeToNull{writeToNull_}, hadDoubleBracket{hadDoubleBracket_}, inAttributeValue{inAttributeValue_}, newLineHandling{newLineHandling_}, closeOutput{closeOutput_}, omitXmlDeclaration{omitXmlDeclaration_}, newLineChars{newLineChars_}, checkCharacters{checkCharacters_}, standalone{standalone_}, outputMethod{outputMethod_}, autoXmlDeclaration{autoXmlDeclaration_}, mergeCDataSections{mergeCDataSections_} {}
+    // Get instance field: private readonly System.Boolean useAsync
+    bool _get_useAsync();
+    // Set instance field: private readonly System.Boolean useAsync
+    void _set_useAsync(bool value);
+    // Get instance field: protected System.Byte[] bufBytes
+    ::Array<uint8_t>* _get_bufBytes();
+    // Set instance field: protected System.Byte[] bufBytes
+    void _set_bufBytes(::Array<uint8_t>* value);
+    // Get instance field: protected System.IO.Stream stream
+    System::IO::Stream* _get_stream();
+    // Set instance field: protected System.IO.Stream stream
+    void _set_stream(System::IO::Stream* value);
+    // Get instance field: protected System.Text.Encoding encoding
+    System::Text::Encoding* _get_encoding();
+    // Set instance field: protected System.Text.Encoding encoding
+    void _set_encoding(System::Text::Encoding* value);
+    // Get instance field: protected System.Xml.XmlCharType xmlCharType
+    System::Xml::XmlCharType _get_xmlCharType();
+    // Set instance field: protected System.Xml.XmlCharType xmlCharType
+    void _set_xmlCharType(System::Xml::XmlCharType value);
+    // Get instance field: protected System.Int32 bufPos
+    int _get_bufPos();
+    // Set instance field: protected System.Int32 bufPos
+    void _set_bufPos(int value);
+    // Get instance field: protected System.Int32 textPos
+    int _get_textPos();
+    // Set instance field: protected System.Int32 textPos
+    void _set_textPos(int value);
+    // Get instance field: protected System.Int32 contentPos
+    int _get_contentPos();
+    // Set instance field: protected System.Int32 contentPos
+    void _set_contentPos(int value);
+    // Get instance field: protected System.Int32 cdataPos
+    int _get_cdataPos();
+    // Set instance field: protected System.Int32 cdataPos
+    void _set_cdataPos(int value);
+    // Get instance field: protected System.Int32 attrEndPos
+    int _get_attrEndPos();
+    // Set instance field: protected System.Int32 attrEndPos
+    void _set_attrEndPos(int value);
+    // Get instance field: protected System.Int32 bufLen
+    int _get_bufLen();
+    // Set instance field: protected System.Int32 bufLen
+    void _set_bufLen(int value);
+    // Get instance field: protected System.Boolean writeToNull
+    bool _get_writeToNull();
+    // Set instance field: protected System.Boolean writeToNull
+    void _set_writeToNull(bool value);
+    // Get instance field: protected System.Boolean hadDoubleBracket
+    bool _get_hadDoubleBracket();
+    // Set instance field: protected System.Boolean hadDoubleBracket
+    void _set_hadDoubleBracket(bool value);
+    // Get instance field: protected System.Boolean inAttributeValue
+    bool _get_inAttributeValue();
+    // Set instance field: protected System.Boolean inAttributeValue
+    void _set_inAttributeValue(bool value);
+    // Get instance field: protected System.Xml.NewLineHandling newLineHandling
+    System::Xml::NewLineHandling _get_newLineHandling();
+    // Set instance field: protected System.Xml.NewLineHandling newLineHandling
+    void _set_newLineHandling(System::Xml::NewLineHandling value);
+    // Get instance field: protected System.Boolean closeOutput
+    bool _get_closeOutput();
+    // Set instance field: protected System.Boolean closeOutput
+    void _set_closeOutput(bool value);
+    // Get instance field: protected System.Boolean omitXmlDeclaration
+    bool _get_omitXmlDeclaration();
+    // Set instance field: protected System.Boolean omitXmlDeclaration
+    void _set_omitXmlDeclaration(bool value);
+    // Get instance field: protected System.String newLineChars
+    ::Il2CppString* _get_newLineChars();
+    // Set instance field: protected System.String newLineChars
+    void _set_newLineChars(::Il2CppString* value);
+    // Get instance field: protected System.Boolean checkCharacters
+    bool _get_checkCharacters();
+    // Set instance field: protected System.Boolean checkCharacters
+    void _set_checkCharacters(bool value);
+    // Get instance field: protected System.Xml.XmlStandalone standalone
+    System::Xml::XmlStandalone _get_standalone();
+    // Set instance field: protected System.Xml.XmlStandalone standalone
+    void _set_standalone(System::Xml::XmlStandalone value);
+    // Get instance field: protected System.Xml.XmlOutputMethod outputMethod
+    System::Xml::XmlOutputMethod _get_outputMethod();
+    // Set instance field: protected System.Xml.XmlOutputMethod outputMethod
+    void _set_outputMethod(System::Xml::XmlOutputMethod value);
+    // Get instance field: protected System.Boolean autoXmlDeclaration
+    bool _get_autoXmlDeclaration();
+    // Set instance field: protected System.Boolean autoXmlDeclaration
+    void _set_autoXmlDeclaration(bool value);
+    // Get instance field: protected System.Boolean mergeCDataSections
+    bool _get_mergeCDataSections();
+    // Set instance field: protected System.Boolean mergeCDataSections
+    void _set_mergeCDataSections(bool value);
     // protected System.Void .ctor(System.Xml.XmlWriterSettings settings)
     // Offset: 0x190E9A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

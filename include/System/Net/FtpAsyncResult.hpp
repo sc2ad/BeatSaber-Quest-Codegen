@@ -107,6 +107,42 @@ namespace System::Net {
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
+    // Get instance field: private System.Net.FtpWebResponse response
+    System::Net::FtpWebResponse* _get_response();
+    // Set instance field: private System.Net.FtpWebResponse response
+    void _set_response(System::Net::FtpWebResponse* value);
+    // Get instance field: private System.Threading.ManualResetEvent waitHandle
+    System::Threading::ManualResetEvent* _get_waitHandle();
+    // Set instance field: private System.Threading.ManualResetEvent waitHandle
+    void _set_waitHandle(System::Threading::ManualResetEvent* value);
+    // Get instance field: private System.Exception exception
+    System::Exception* _get_exception();
+    // Set instance field: private System.Exception exception
+    void _set_exception(System::Exception* value);
+    // Get instance field: private System.AsyncCallback callback
+    System::AsyncCallback* _get_callback();
+    // Set instance field: private System.AsyncCallback callback
+    void _set_callback(System::AsyncCallback* value);
+    // Get instance field: private System.IO.Stream stream
+    System::IO::Stream* _get_stream();
+    // Set instance field: private System.IO.Stream stream
+    void _set_stream(System::IO::Stream* value);
+    // Get instance field: private System.Object state
+    ::Il2CppObject* _get_state();
+    // Set instance field: private System.Object state
+    void _set_state(::Il2CppObject* value);
+    // Get instance field: private System.Boolean completed
+    bool _get_completed();
+    // Set instance field: private System.Boolean completed
+    void _set_completed(bool value);
+    // Get instance field: private System.Boolean synch
+    bool _get_synch();
+    // Set instance field: private System.Boolean synch
+    void _set_synch(bool value);
+    // Get instance field: private System.Object locker
+    ::Il2CppObject* _get_locker();
+    // Set instance field: private System.Object locker
+    void _set_locker(::Il2CppObject* value);
     // public System.Object get_AsyncState()
     // Offset: 0x16A5FD4
     ::Il2CppObject* get_AsyncState();

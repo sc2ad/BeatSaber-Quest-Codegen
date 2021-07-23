@@ -68,6 +68,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: RotationData
     RotationData(bool enabled_ = {}, float rotationSpeed_ = {}, UnityEngine::Quaternion startRotation_ = {}, UnityEngine::Transform* transform_ = {}, float startRotationAngle_ = {}, float rotationAngle_ = {}) noexcept : enabled{enabled_}, rotationSpeed{rotationSpeed_}, startRotation{startRotation_}, transform{transform_}, startRotationAngle{startRotationAngle_}, rotationAngle{rotationAngle_} {}
+    // Get instance field: public System.Boolean enabled
+    bool _get_enabled();
+    // Set instance field: public System.Boolean enabled
+    void _set_enabled(bool value);
+    // Get instance field: public System.Single rotationSpeed
+    float _get_rotationSpeed();
+    // Set instance field: public System.Single rotationSpeed
+    void _set_rotationSpeed(float value);
+    // Get instance field: public UnityEngine.Quaternion startRotation
+    UnityEngine::Quaternion _get_startRotation();
+    // Set instance field: public UnityEngine.Quaternion startRotation
+    void _set_startRotation(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: public UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: public System.Single startRotationAngle
+    float _get_startRotationAngle();
+    // Set instance field: public System.Single startRotationAngle
+    void _set_startRotationAngle(float value);
+    // Get instance field: public System.Single rotationAngle
+    float _get_rotationAngle();
+    // Set instance field: public System.Single rotationAngle
+    void _set_rotationAngle(float value);
     // public System.Void .ctor()
     // Offset: 0x11B6B54
     // Implemented from: System.Object

@@ -57,6 +57,18 @@ namespace GlobalNamespace {
     PS4AchievementIdsModelSO(System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* achievementsIds_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* achievementIdToTrophyId_ = {}, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId_ = {}) noexcept : achievementsIds{achievementsIds_}, achievementIdToTrophyId{achievementIdToTrophyId_}, trophyIdToAchievementId{trophyIdToAchievementId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds
+    System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* _get__achievementsIds();
+    // Set instance field: private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds
+    void _set__achievementsIds(System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> _achievementIdToTrophyId
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* _get__achievementIdToTrophyId();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> _achievementIdToTrophyId
+    void _set__achievementIdToTrophyId(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
+    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* _get__trophyIdToAchievementId();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
+    void _set__trophyIdToAchievementId(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
     // Offset: 0xFFC344
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();

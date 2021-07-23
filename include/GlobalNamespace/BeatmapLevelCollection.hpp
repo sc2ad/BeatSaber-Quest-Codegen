@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     constexpr operator ::Array<GlobalNamespace::IPreviewBeatmapLevel*>*() const noexcept {
       return levels;
     }
+    // Get instance field: private IPreviewBeatmapLevel[] _levels
+    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* _get__levels();
+    // Set instance field: private IPreviewBeatmapLevel[] _levels
+    void _set__levels(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
     // Offset: 0x1195084
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();

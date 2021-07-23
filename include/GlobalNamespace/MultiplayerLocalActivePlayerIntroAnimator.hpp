@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     MultiplayerLocalActivePlayerIntroAnimator(UnityEngine::Playables::PlayableDirector* introPlayableDirector_ = {}) noexcept : introPlayableDirector{introPlayableDirector_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
+    UnityEngine::Playables::PlayableDirector* _get__introPlayableDirector();
+    // Set instance field: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
+    void _set__introPlayableDirector(UnityEngine::Playables::PlayableDirector* value);
     // public System.Void SetBeforeIntroValues()
     // Offset: 0x23D6C3C
     void SetBeforeIntroValues();

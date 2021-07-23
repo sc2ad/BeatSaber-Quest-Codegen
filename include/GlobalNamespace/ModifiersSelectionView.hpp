@@ -60,6 +60,18 @@ namespace GlobalNamespace {
     ModifiersSelectionView(GlobalNamespace::GameplayModifierInfoListItemsList* modifierInfoList_ = {}, TMPro::TextMeshProUGUI* noModifiersText_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}) noexcept : modifierInfoList{modifierInfoList_}, noModifiersText{noModifiersText_}, gameplayModifiersModel{gameplayModifiersModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private GameplayModifierInfoListItemsList _modifierInfoList
+    GlobalNamespace::GameplayModifierInfoListItemsList* _get__modifierInfoList();
+    // Set instance field: private GameplayModifierInfoListItemsList _modifierInfoList
+    void _set__modifierInfoList(GlobalNamespace::GameplayModifierInfoListItemsList* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _noModifiersText
+    TMPro::TextMeshProUGUI* _get__noModifiersText();
+    // Set instance field: private TMPro.TextMeshProUGUI _noModifiersText
+    void _set__noModifiersText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private GameplayModifiersModelSO _gameplayModifiersModel
+    GlobalNamespace::GameplayModifiersModelSO* _get__gameplayModifiersModel();
+    // Set instance field: private GameplayModifiersModelSO _gameplayModifiersModel
+    void _set__gameplayModifiersModel(GlobalNamespace::GameplayModifiersModelSO* value);
     // public System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
     // Offset: 0x113F920
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);

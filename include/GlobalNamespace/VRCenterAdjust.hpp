@@ -52,6 +52,18 @@ namespace GlobalNamespace {
     VRCenterAdjust(GlobalNamespace::Vector3SO* roomCenter_ = {}, GlobalNamespace::FloatSO* roomRotation_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}) noexcept : roomCenter{roomCenter_}, roomRotation{roomRotation_}, mainSettingsModel{mainSettingsModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Vector3SO _roomCenter
+    GlobalNamespace::Vector3SO* _get__roomCenter();
+    // Set instance field: private Vector3SO _roomCenter
+    void _set__roomCenter(GlobalNamespace::Vector3SO* value);
+    // Get instance field: private FloatSO _roomRotation
+    GlobalNamespace::FloatSO* _get__roomRotation();
+    // Set instance field: private FloatSO _roomRotation
+    void _set__roomRotation(GlobalNamespace::FloatSO* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
     // protected System.Void Awake()
     // Offset: 0x12768D4
     void Awake();

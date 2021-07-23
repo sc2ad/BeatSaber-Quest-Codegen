@@ -62,6 +62,10 @@ namespace UnityEngineInternal::Input {
     static UnityEngineInternal::Input::NativeInputUpdateType _get_IgnoreFocus();
     // Set static field: static public UnityEngineInternal.Input.NativeInputUpdateType IgnoreFocus
     static void _set_IgnoreFocus(UnityEngineInternal::Input::NativeInputUpdateType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngineInternal.Input.NativeInputUpdateType
   #pragma pack(pop)
   static check_size<sizeof(NativeInputUpdateType), 0 + sizeof(int)> __UnityEngineInternal_Input_NativeInputUpdateTypeSizeCheck;

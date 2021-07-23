@@ -109,6 +109,54 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single startAlpha
+    float _get_startAlpha();
+    // Set instance field: public System.Single startAlpha
+    void _set_startAlpha(float value);
+    // Get instance field: public UnityEngine.Vector3 startPosition
+    UnityEngine::Vector3 _get_startPosition();
+    // Set instance field: public UnityEngine.Vector3 startPosition
+    void _set_startPosition(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single startSize
+    float _get_startSize();
+    // Set instance field: public System.Single startSize
+    void _set_startSize(float value);
+    // Get instance field: public System.Single endAlpha
+    float _get_endAlpha();
+    // Set instance field: public System.Single endAlpha
+    void _set_endAlpha(float value);
+    // Get instance field: public UnityEngine.Vector3 endPosition
+    UnityEngine::Vector3 _get_endPosition();
+    // Set instance field: public UnityEngine.Vector3 endPosition
+    void _set_endPosition(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single endSize
+    float _get_endSize();
+    // Set instance field: public System.Single endSize
+    void _set_endSize(float value);
+    // Get instance field: public System.Single duration
+    float _get_duration();
+    // Set instance field: public System.Single duration
+    void _set_duration(float value);
+    // Get instance field: public System.Single delay
+    float _get_delay();
+    // Set instance field: public System.Single delay
+    void _set_delay(float value);
+    // Get instance field: public Tweening.EaseType easeType
+    Tweening::EaseType _get_easeType();
+    // Set instance field: public Tweening.EaseType easeType
+    void _set_easeType(Tweening::EaseType value);
+    // Get instance field: public UnityEngine.AnimationCurve distanceCurve
+    UnityEngine::AnimationCurve* _get_distanceCurve();
+    // Set instance field: public UnityEngine.AnimationCurve distanceCurve
+    void _set_distanceCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: public System.Single peakDistance
+    float _get_peakDistance();
+    // Set instance field: public System.Single peakDistance
+    void _set_peakDistance(float value);
+    // Get instance field: public System.Boolean lastPhase
+    bool _get_lastPhase();
+    // Set instance field: public System.Boolean lastPhase
+    void _set_lastPhase(bool value);
   }; // GhostDuplicationEffect/GhostEffectParams
   #pragma pack(pop)
   static check_size<sizeof(GhostDuplicationEffect::GhostEffectParams), 68 + sizeof(bool)> __GlobalNamespace_GhostDuplicationEffect_GhostEffectParamsSizeCheck;

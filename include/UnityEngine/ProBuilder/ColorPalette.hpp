@@ -62,6 +62,14 @@ namespace UnityEngine::ProBuilder {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Color <current>k__BackingField
+    UnityEngine::Color _get_$current$k__BackingField();
+    // Set instance field: private UnityEngine.Color <current>k__BackingField
+    void _set_$current$k__BackingField(UnityEngine::Color value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Color> m_Colors
+    System::Collections::Generic::List_1<UnityEngine::Color>* _get_m_Colors();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Color> m_Colors
+    void _set_m_Colors(System::Collections::Generic::List_1<UnityEngine::Color>* value);
     // public UnityEngine.Color get_current()
     // Offset: 0x1F34688
     UnityEngine::Color get_current();

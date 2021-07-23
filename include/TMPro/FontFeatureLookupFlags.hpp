@@ -43,6 +43,10 @@ namespace TMPro {
     static TMPro::FontFeatureLookupFlags _get_IgnoreSpacingAdjustments();
     // Set static field: static public TMPro.FontFeatureLookupFlags IgnoreSpacingAdjustments
     static void _set_IgnoreSpacingAdjustments(TMPro::FontFeatureLookupFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // TMPro.FontFeatureLookupFlags
   #pragma pack(pop)
   static check_size<sizeof(FontFeatureLookupFlags), 0 + sizeof(int)> __TMPro_FontFeatureLookupFlagsSizeCheck;

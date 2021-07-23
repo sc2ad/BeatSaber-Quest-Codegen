@@ -40,6 +40,14 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Sizef _get_zero();
     // Set static field: static public readonly OVRPlugin/Sizef zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Sizef value);
+    // Get instance field: public System.Single w
+    float _get_w();
+    // Set instance field: public System.Single w
+    void _set_w(float value);
+    // Get instance field: public System.Single h
+    float _get_h();
+    // Set instance field: public System.Single h
+    void _set_h(float value);
     // static private System.Void .cctor()
     // Offset: 0x15F719C
     static void _cctor();

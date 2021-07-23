@@ -49,6 +49,10 @@ namespace Valve::VR {
     static Valve::VR::ETrackedControllerRole _get_RightHand();
     // Set static field: static public Valve.VR.ETrackedControllerRole RightHand
     static void _set_RightHand(Valve::VR::ETrackedControllerRole value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.ETrackedControllerRole
   #pragma pack(pop)
   static check_size<sizeof(ETrackedControllerRole), 0 + sizeof(int)> __Valve_VR_ETrackedControllerRoleSizeCheck;

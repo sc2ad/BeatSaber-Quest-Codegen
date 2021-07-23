@@ -48,6 +48,14 @@ namespace Zenject {
     static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass62_2
     $$c__DisplayClass62_2(Zenject::InjectContext* ctx_ = {}, UnityEngine::MonoBehaviour* monoBehaviour_ = {}) noexcept : ctx{ctx_}, monoBehaviour{monoBehaviour_} {}
+    // Get instance field: public Zenject.InjectContext ctx
+    Zenject::InjectContext* _get_ctx();
+    // Set instance field: public Zenject.InjectContext ctx
+    void _set_ctx(Zenject::InjectContext* value);
+    // Get instance field: public UnityEngine.MonoBehaviour monoBehaviour
+    UnityEngine::MonoBehaviour* _get_monoBehaviour();
+    // Set instance field: public UnityEngine.MonoBehaviour monoBehaviour
+    void _set_monoBehaviour(UnityEngine::MonoBehaviour* value);
     // System.Boolean <FromComponentsInParents>b__2(UnityEngine.Component x)
     // Offset: 0x1621F38
     bool $FromComponentsInParents$b__2(UnityEngine::Component* x);

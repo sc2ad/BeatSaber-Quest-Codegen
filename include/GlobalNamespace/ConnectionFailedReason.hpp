@@ -109,6 +109,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::ConnectionFailedReason _get_ServerIsTerminating();
     // Set static field: static public ConnectionFailedReason ServerIsTerminating
     static void _set_ServerIsTerminating(GlobalNamespace::ConnectionFailedReason value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // ConnectionFailedReason
   #pragma pack(pop)
   static check_size<sizeof(ConnectionFailedReason), 0 + sizeof(int)> __GlobalNamespace_ConnectionFailedReasonSizeCheck;

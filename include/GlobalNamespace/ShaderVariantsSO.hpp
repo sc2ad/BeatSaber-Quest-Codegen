@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     ShaderVariantsSO(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* shaderVariants_ = {}) noexcept : shaderVariants{shaderVariants_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ShaderVariantsSO/ShaderVariant[] _shaderVariants
+    ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* _get__shaderVariants();
+    // Set instance field: private ShaderVariantsSO/ShaderVariant[] _shaderVariants
+    void _set__shaderVariants(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* value);
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
     // Offset: 0x2342B7C
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* get_shaderVariants();

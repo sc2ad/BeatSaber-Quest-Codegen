@@ -71,6 +71,10 @@ namespace System::Net {
       static System::Net::TimerThread::TimerNode::TimerState _get_Sentinel();
       // Set static field: static public System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState Sentinel
       static void _set_Sentinel(System::Net::TimerThread::TimerNode::TimerState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState
     #pragma pack(pop)
     static check_size<sizeof(TimerThread::TimerNode::TimerState), 0 + sizeof(int)> __System_Net_TimerThread_TimerNode_TimerStateSizeCheck;
@@ -115,6 +119,30 @@ namespace System::Net {
     static_assert(sizeof(System::Net::TimerThread::TimerNode*) == 0x8);
     // Creating value type constructor for type: TimerNode
     TimerNode(System::Net::TimerThread::TimerNode::TimerState m_TimerState_ = {}, System::Net::TimerThread::Callback* m_Callback_ = {}, ::Il2CppObject* m_Context_ = {}, ::Il2CppObject* m_QueueLock_ = {}, System::Net::TimerThread::TimerNode* next_ = {}, System::Net::TimerThread::TimerNode* prev_ = {}) noexcept : m_TimerState{m_TimerState_}, m_Callback{m_Callback_}, m_Context{m_Context_}, m_QueueLock{m_QueueLock_}, next{next_}, prev{prev_} {}
+    // Get instance field: private System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState m_TimerState
+    System::Net::TimerThread::TimerNode::TimerState _get_m_TimerState();
+    // Set instance field: private System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState m_TimerState
+    void _set_m_TimerState(System::Net::TimerThread::TimerNode::TimerState value);
+    // Get instance field: private System.Net.TimerThread/System.Net.Callback m_Callback
+    System::Net::TimerThread::Callback* _get_m_Callback();
+    // Set instance field: private System.Net.TimerThread/System.Net.Callback m_Callback
+    void _set_m_Callback(System::Net::TimerThread::Callback* value);
+    // Get instance field: private System.Object m_Context
+    ::Il2CppObject* _get_m_Context();
+    // Set instance field: private System.Object m_Context
+    void _set_m_Context(::Il2CppObject* value);
+    // Get instance field: private System.Object m_QueueLock
+    ::Il2CppObject* _get_m_QueueLock();
+    // Set instance field: private System.Object m_QueueLock
+    void _set_m_QueueLock(::Il2CppObject* value);
+    // Get instance field: private System.Net.TimerThread/System.Net.TimerNode next
+    System::Net::TimerThread::TimerNode* _get_next();
+    // Set instance field: private System.Net.TimerThread/System.Net.TimerNode next
+    void _set_next(System::Net::TimerThread::TimerNode* value);
+    // Get instance field: private System.Net.TimerThread/System.Net.TimerNode prev
+    System::Net::TimerThread::TimerNode* _get_prev();
+    // Set instance field: private System.Net.TimerThread/System.Net.TimerNode prev
+    void _set_prev(System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Next()
     // Offset: 0x158E378
     System::Net::TimerThread::TimerNode* get_Next();

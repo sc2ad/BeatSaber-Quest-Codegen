@@ -93,6 +93,10 @@ namespace Org::BouncyCastle::OpenSsl {
     static Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg _get_RC2_64();
     // Set static field: static public Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg RC2_64
     static void _set_RC2_64(Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg
   #pragma pack(pop)
   static check_size<sizeof(PemUtilities::PemBaseAlg), 0 + sizeof(int)> __Org_BouncyCastle_OpenSsl_PemUtilities_PemBaseAlgSizeCheck;

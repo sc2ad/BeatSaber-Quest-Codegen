@@ -42,6 +42,22 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: Header
     Header(::Il2CppString* HeaderNamespace_ = {}, bool MustUnderstand_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppObject* Value_ = {}) noexcept : HeaderNamespace{HeaderNamespace_}, MustUnderstand{MustUnderstand_}, Name{Name_}, Value{Value_} {}
+    // Get instance field: public System.String HeaderNamespace
+    ::Il2CppString* _get_HeaderNamespace();
+    // Set instance field: public System.String HeaderNamespace
+    void _set_HeaderNamespace(::Il2CppString* value);
+    // Get instance field: public System.Boolean MustUnderstand
+    bool _get_MustUnderstand();
+    // Set instance field: public System.Boolean MustUnderstand
+    void _set_MustUnderstand(bool value);
+    // Get instance field: public System.String Name
+    ::Il2CppString* _get_Name();
+    // Set instance field: public System.String Name
+    void _set_Name(::Il2CppString* value);
+    // Get instance field: public System.Object Value
+    ::Il2CppObject* _get_Value();
+    // Set instance field: public System.Object Value
+    void _set_Value(::Il2CppObject* value);
   }; // System.Runtime.Remoting.Messaging.Header
   #pragma pack(pop)
   static check_size<sizeof(Header), 40 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_Messaging_HeaderSizeCheck;

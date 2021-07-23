@@ -37,6 +37,14 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Valve.VR.IVRSystem/Valve.VR._GetControllerStateWithPose pGetControllerStateWithPose
+    Valve::VR::IVRSystem::_GetControllerStateWithPose* _get_pGetControllerStateWithPose();
+    // Set instance field: public Valve.VR.IVRSystem/Valve.VR._GetControllerStateWithPose pGetControllerStateWithPose
+    void _set_pGetControllerStateWithPose(Valve::VR::IVRSystem::_GetControllerStateWithPose* value);
+    // Get instance field: public Valve.VR.CVRSystem/Valve.VR._GetControllerStateWithPosePacked pGetControllerStateWithPosePacked
+    Valve::VR::CVRSystem::_GetControllerStateWithPosePacked* _get_pGetControllerStateWithPosePacked();
+    // Set instance field: public Valve.VR.CVRSystem/Valve.VR._GetControllerStateWithPosePacked pGetControllerStateWithPosePacked
+    void _set_pGetControllerStateWithPosePacked(Valve::VR::CVRSystem::_GetControllerStateWithPosePacked* value);
   }; // Valve.VR.CVRSystem/Valve.VR.GetControllerStateWithPoseUnion
   // WARNING Not writing size check since size may be invalid!
 }

@@ -101,6 +101,34 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<int>* _get_MOD3();
     // Set static field: static private readonly System.Int32[] MOD3
     static void _set_MOD3(::Array<int>* value);
+    // Get instance field: private readonly System.Int32 blocksizeBytes
+    int _get_blocksizeBytes();
+    // Set instance field: private readonly System.Int32 blocksizeBytes
+    void _set_blocksizeBytes(int value);
+    // Get instance field: private readonly System.Int32 blocksizeWords
+    int _get_blocksizeWords();
+    // Set instance field: private readonly System.Int32 blocksizeWords
+    void _set_blocksizeWords(int value);
+    // Get instance field: private readonly System.UInt64[] currentBlock
+    ::Array<uint64_t>* _get_currentBlock();
+    // Set instance field: private readonly System.UInt64[] currentBlock
+    void _set_currentBlock(::Array<uint64_t>* value);
+    // Get instance field: private readonly System.UInt64[] t
+    ::Array<uint64_t>* _get_t();
+    // Set instance field: private readonly System.UInt64[] t
+    void _set_t(::Array<uint64_t>* value);
+    // Get instance field: private readonly System.UInt64[] kw
+    ::Array<uint64_t>* _get_kw();
+    // Set instance field: private readonly System.UInt64[] kw
+    void _set_kw(::Array<uint64_t>* value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher cipher
+    Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher* value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E5D060
     ::Il2CppString* get_AlgorithmName();

@@ -83,6 +83,30 @@ namespace GlobalNamespace {
     PresentServerSettingsAfterNClicks(UnityEngine::UI::Button* serverSettingsButton_ = {}, HMUI::ViewController* serverSettingsViewController_ = {}, int numberOfClicksRequired_ = {}, GlobalNamespace::SettingsFlowCoordinator* settingsFlowCoordinator_ = {}, int currentNumberOfClicks_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}) noexcept : serverSettingsButton{serverSettingsButton_}, serverSettingsViewController{serverSettingsViewController_}, numberOfClicksRequired{numberOfClicksRequired_}, settingsFlowCoordinator{settingsFlowCoordinator_}, currentNumberOfClicks{currentNumberOfClicks_}, buttonBinder{buttonBinder_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Button _serverSettingsButton
+    UnityEngine::UI::Button* _get__serverSettingsButton();
+    // Set instance field: private UnityEngine.UI.Button _serverSettingsButton
+    void _set__serverSettingsButton(UnityEngine::UI::Button* value);
+    // Get instance field: private HMUI.ViewController _serverSettingsViewController
+    HMUI::ViewController* _get__serverSettingsViewController();
+    // Set instance field: private HMUI.ViewController _serverSettingsViewController
+    void _set__serverSettingsViewController(HMUI::ViewController* value);
+    // Get instance field: private System.Int32 _numberOfClicksRequired
+    int _get__numberOfClicksRequired();
+    // Set instance field: private System.Int32 _numberOfClicksRequired
+    void _set__numberOfClicksRequired(int value);
+    // Get instance field: private readonly SettingsFlowCoordinator _settingsFlowCoordinator
+    GlobalNamespace::SettingsFlowCoordinator* _get__settingsFlowCoordinator();
+    // Set instance field: private readonly SettingsFlowCoordinator _settingsFlowCoordinator
+    void _set__settingsFlowCoordinator(GlobalNamespace::SettingsFlowCoordinator* value);
+    // Get instance field: private System.Int32 _currentNumberOfClicks
+    int _get__currentNumberOfClicks();
+    // Set instance field: private System.Int32 _currentNumberOfClicks
+    void _set__currentNumberOfClicks(int value);
+    // Get instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
     // protected System.Void OnEnable()
     // Offset: 0x1109B78
     void OnEnable();

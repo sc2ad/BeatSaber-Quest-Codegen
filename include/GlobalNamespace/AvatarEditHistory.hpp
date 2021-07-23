@@ -59,6 +59,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AvatarEditHistory
     AvatarEditHistory(bool disableNextSnapshotOverride_ = {}, System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>* snapShots_ = {}, int currentDataId_ = {}) noexcept : disableNextSnapshotOverride{disableNextSnapshotOverride_}, snapShots{snapShots_}, currentDataId{currentDataId_} {}
+    // Get instance field: public System.Boolean disableNextSnapshotOverride
+    bool _get_disableNextSnapshotOverride();
+    // Set instance field: public System.Boolean disableNextSnapshotOverride
+    void _set_disableNextSnapshotOverride(bool value);
+    // Get instance field: private System.Collections.Generic.List`1<Menu.ViewControllers.EditAvatarHistorySnapshot> _snapShots
+    System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>* _get__snapShots();
+    // Set instance field: private System.Collections.Generic.List`1<Menu.ViewControllers.EditAvatarHistorySnapshot> _snapShots
+    void _set__snapShots(System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>* value);
+    // Get instance field: private System.Int32 _currentDataId
+    int _get__currentDataId();
+    // Set instance field: private System.Int32 _currentDataId
+    void _set__currentDataId(int value);
     // public System.Boolean get_undoAvailable()
     // Offset: 0x10DED8C
     bool get_undoAvailable();

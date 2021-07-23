@@ -33,6 +33,14 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: CACD
     CACD(::Il2CppObject* d_ = {}, ::Il2CppObject* c_ = {}) noexcept : d{d_}, c{c_} {}
+    // Get instance field: public System.Object d
+    ::Il2CppObject* _get_d();
+    // Set instance field: public System.Object d
+    void _set_d(::Il2CppObject* value);
+    // Get instance field: public System.Object c
+    ::Il2CppObject* _get_c();
+    // Set instance field: public System.Object c
+    void _set_c(::Il2CppObject* value);
     // public System.Void .ctor()
     // Offset: 0x15D0A04
     // Implemented from: System.Object

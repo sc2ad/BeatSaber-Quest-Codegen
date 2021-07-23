@@ -55,6 +55,26 @@ namespace UnityEngine::AI {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3 _get_m_Position();
+    // Set instance field: private UnityEngine.Vector3 m_Position
+    void _set_m_Position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_Normal
+    UnityEngine::Vector3 _get_m_Normal();
+    // Set instance field: private UnityEngine.Vector3 m_Normal
+    void _set_m_Normal(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single m_Distance
+    float _get_m_Distance();
+    // Set instance field: private System.Single m_Distance
+    void _set_m_Distance(float value);
+    // Get instance field: private System.Int32 m_Mask
+    int _get_m_Mask();
+    // Set instance field: private System.Int32 m_Mask
+    void _set_m_Mask(int value);
+    // Get instance field: private System.Int32 m_Hit
+    int _get_m_Hit();
+    // Set instance field: private System.Int32 m_Hit
+    void _set_m_Hit(int value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0xF128F4
     UnityEngine::Vector3 get_position();

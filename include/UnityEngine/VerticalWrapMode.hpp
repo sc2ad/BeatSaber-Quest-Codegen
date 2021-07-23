@@ -43,6 +43,10 @@ namespace UnityEngine {
     static UnityEngine::VerticalWrapMode _get_Overflow();
     // Set static field: static public UnityEngine.VerticalWrapMode Overflow
     static void _set_Overflow(UnityEngine::VerticalWrapMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.VerticalWrapMode
   #pragma pack(pop)
   static check_size<sizeof(VerticalWrapMode), 0 + sizeof(int)> __UnityEngine_VerticalWrapModeSizeCheck;

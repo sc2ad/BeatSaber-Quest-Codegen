@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: BoxCuttableBySaber
     BoxCuttableBySaber(UnityEngine::BoxCollider* collider_ = {}, bool canBeCut_ = {}, float radius_ = {}) noexcept : collider{collider_}, canBeCut{canBeCut_}, radius{radius_} {}
+    // Get instance field: private UnityEngine.BoxCollider _collider
+    UnityEngine::BoxCollider* _get__collider();
+    // Set instance field: private UnityEngine.BoxCollider _collider
+    void _set__collider(UnityEngine::BoxCollider* value);
+    // Get instance field: private System.Boolean _canBeCut
+    bool _get__canBeCut();
+    // Set instance field: private System.Boolean _canBeCut
+    void _set__canBeCut(bool value);
+    // Get instance field: private System.Single _radius
+    float _get__radius();
+    // Set instance field: private System.Single _radius
+    void _set__radius(float value);
     // public UnityEngine.Vector3 get_colliderSize()
     // Offset: 0x109EF34
     UnityEngine::Vector3 get_colliderSize();

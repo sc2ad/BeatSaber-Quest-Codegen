@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MockPlayersModel*) == 0x8);
     // Creating value type constructor for type: AppInitSceneSetupData
     AppInitSceneSetupData(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType_ = {}, GlobalNamespace::MockPlayersModel* overrideMockPlayersModel_ = {}) noexcept : appInitOverrideStartType{appInitOverrideStartType_}, overrideMockPlayersModel{overrideMockPlayersModel_} {}
+    // Get instance field: private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
+    GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType _get_$appInitOverrideStartType$k__BackingField();
+    // Set instance field: private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
+    void _set_$appInitOverrideStartType$k__BackingField(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
+    // Get instance field: private MockPlayersModel <overrideMockPlayersModel>k__BackingField
+    GlobalNamespace::MockPlayersModel* _get_$overrideMockPlayersModel$k__BackingField();
+    // Set instance field: private MockPlayersModel <overrideMockPlayersModel>k__BackingField
+    void _set_$overrideMockPlayersModel$k__BackingField(GlobalNamespace::MockPlayersModel* value);
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
     // Offset: 0x10DA4B0
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();

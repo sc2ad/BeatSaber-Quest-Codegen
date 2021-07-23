@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::RenderTextureReadWrite _get_sRGB();
     // Set static field: static public UnityEngine.RenderTextureReadWrite sRGB
     static void _set_sRGB(UnityEngine::RenderTextureReadWrite value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.RenderTextureReadWrite
   #pragma pack(pop)
   static check_size<sizeof(RenderTextureReadWrite), 0 + sizeof(int)> __UnityEngine_RenderTextureReadWriteSizeCheck;

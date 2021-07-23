@@ -51,6 +51,14 @@ namespace GlobalNamespace {
     PS4LeaderboardIdsModelSO(System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* leaderboardIds_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* leaderboardIdToPs4Id_ = {}) noexcept : leaderboardIds{leaderboardIds_}, leaderboardIdToPs4Id{leaderboardIdToPs4Id_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> _leaderboardIds
+    System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* _get__leaderboardIds();
+    // Set instance field: private System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> _leaderboardIds
+    void _set__leaderboardIds(System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* _get__leaderboardIdToPs4Id();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
+    void _set__leaderboardIdToPs4Id(System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* value);
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
     // Offset: 0xFFD3C4
     System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();

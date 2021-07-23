@@ -142,6 +142,58 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: HealthWarningFlowCoordinator
     HealthWarningFlowCoordinator(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}, GlobalNamespace::EulaViewController* eulaViewController_ = {}, GlobalNamespace::HealthWarningViewController* healthWarningViewController_ = {}, GlobalNamespace::PrivacyPolicyViewController* privacyPolicyViewController_ = {}, GlobalNamespace::SelectLanguageViewController* selectLanguageViewController_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, GlobalNamespace::FadeInOutController* fadeInOut_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::HealthWarningFlowCoordinator::InitData* initData_ = {}, System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles_ = {}) noexcept : playerDataModel{playerDataModel_}, dlcPromoExperimentModel{dlcPromoExperimentModel_}, eulaViewController{eulaViewController_}, healthWarningViewController{healthWarningViewController_}, privacyPolicyViewController{privacyPolicyViewController_}, selectLanguageViewController{selectLanguageViewController_}, mainSettingsModel{mainSettingsModel_}, appInitScenesTransitionSetupDataContainer{appInitScenesTransitionSetupDataContainer_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, fadeInOut{fadeInOut_}, gameScenesManager{gameScenesManager_}, initData{initData_}, viewControllerTitles{viewControllerTitles_} {}
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
+    GlobalNamespace::DlcPromoExperimentModel* _get__dlcPromoExperimentModel();
+    // Set instance field: private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
+    void _set__dlcPromoExperimentModel(GlobalNamespace::DlcPromoExperimentModel* value);
+    // Get instance field: private EulaViewController _eulaViewController
+    GlobalNamespace::EulaViewController* _get__eulaViewController();
+    // Set instance field: private EulaViewController _eulaViewController
+    void _set__eulaViewController(GlobalNamespace::EulaViewController* value);
+    // Get instance field: private HealthWarningViewController _healthWarningViewController
+    GlobalNamespace::HealthWarningViewController* _get__healthWarningViewController();
+    // Set instance field: private HealthWarningViewController _healthWarningViewController
+    void _set__healthWarningViewController(GlobalNamespace::HealthWarningViewController* value);
+    // Get instance field: private PrivacyPolicyViewController _privacyPolicyViewController
+    GlobalNamespace::PrivacyPolicyViewController* _get__privacyPolicyViewController();
+    // Set instance field: private PrivacyPolicyViewController _privacyPolicyViewController
+    void _set__privacyPolicyViewController(GlobalNamespace::PrivacyPolicyViewController* value);
+    // Get instance field: private SelectLanguageViewController _selectLanguageViewController
+    GlobalNamespace::SelectLanguageViewController* _get__selectLanguageViewController();
+    // Set instance field: private SelectLanguageViewController _selectLanguageViewController
+    void _set__selectLanguageViewController(GlobalNamespace::SelectLanguageViewController* value);
+    // Get instance field: private MainSettingsModelSO _mainSettingsModel
+    GlobalNamespace::MainSettingsModelSO* _get__mainSettingsModel();
+    // Set instance field: private MainSettingsModelSO _mainSettingsModel
+    void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
+    // Get instance field: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
+    GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* _get__appInitScenesTransitionSetupDataContainer();
+    // Set instance field: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
+    void _set__appInitScenesTransitionSetupDataContainer(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value);
+    // Get instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    GlobalNamespace::SimpleDialogPromptViewController* _get__simpleDialogPromptViewController();
+    // Set instance field: private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
+    void _set__simpleDialogPromptViewController(GlobalNamespace::SimpleDialogPromptViewController* value);
+    // Get instance field: private readonly FadeInOutController _fadeInOut
+    GlobalNamespace::FadeInOutController* _get__fadeInOut();
+    // Set instance field: private readonly FadeInOutController _fadeInOut
+    void _set__fadeInOut(GlobalNamespace::FadeInOutController* value);
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
+    // Get instance field: private readonly HealthWarningFlowCoordinator/InitData _initData
+    GlobalNamespace::HealthWarningFlowCoordinator::InitData* _get__initData();
+    // Set instance field: private readonly HealthWarningFlowCoordinator/InitData _initData
+    void _set__initData(GlobalNamespace::HealthWarningFlowCoordinator::InitData* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
+    System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* _get__viewControllerTitles();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
+    void _set__viewControllerTitles(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* value);
     // private HMUI.ViewController GetEulaOrHealthWarningViewController()
     // Offset: 0x10EA3D0
     HMUI::ViewController* GetEulaOrHealthWarningViewController();

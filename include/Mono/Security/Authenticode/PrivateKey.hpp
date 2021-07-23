@@ -54,6 +54,22 @@ namespace Mono::Security::Authenticode {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PrivateKey
     PrivateKey(bool encrypted_ = {}, System::Security::Cryptography::RSA* rsa_ = {}, bool weak_ = {}, int keyType_ = {}) noexcept : encrypted{encrypted_}, rsa{rsa_}, weak{weak_}, keyType{keyType_} {}
+    // Get instance field: private System.Boolean encrypted
+    bool _get_encrypted();
+    // Set instance field: private System.Boolean encrypted
+    void _set_encrypted(bool value);
+    // Get instance field: private System.Security.Cryptography.RSA rsa
+    System::Security::Cryptography::RSA* _get_rsa();
+    // Set instance field: private System.Security.Cryptography.RSA rsa
+    void _set_rsa(System::Security::Cryptography::RSA* value);
+    // Get instance field: private System.Boolean weak
+    bool _get_weak();
+    // Set instance field: private System.Boolean weak
+    void _set_weak(bool value);
+    // Get instance field: private System.Int32 keyType
+    int _get_keyType();
+    // Set instance field: private System.Int32 keyType
+    void _set_keyType(int value);
     // public System.Security.Cryptography.RSA get_RSA()
     // Offset: 0x1DD7E18
     System::Security::Cryptography::RSA* get_RSA();

@@ -50,6 +50,14 @@ namespace Zenject {
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass10_0
     $$c__DisplayClass10_0(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo_ = {}, System::Type* installerType_ = {}) noexcept : subContainerBindInfo{subContainerBindInfo_}, installerType{installerType_} {}
+    // Get instance field: public Zenject.SubContainerCreatorBindInfo subContainerBindInfo
+    Zenject::SubContainerCreatorBindInfo* _get_subContainerBindInfo();
+    // Set instance field: public Zenject.SubContainerCreatorBindInfo subContainerBindInfo
+    void _set_subContainerBindInfo(Zenject::SubContainerCreatorBindInfo* value);
+    // Get instance field: public System.Type installerType
+    System::Type* _get_installerType();
+    // Set instance field: public System.Type installerType
+    void _set_installerType(System::Type* value);
     // Zenject.ISubContainerCreator <ByInstaller>b__0(Zenject.DiContainer container)
     // Offset: 0x16D0CC4
     Zenject::ISubContainerCreator* $ByInstaller$b__0(Zenject::DiContainer* container);

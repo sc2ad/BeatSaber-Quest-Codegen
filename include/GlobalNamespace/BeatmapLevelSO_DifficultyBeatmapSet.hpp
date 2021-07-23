@@ -50,6 +50,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDifficultyBeatmapSet() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmapSet*>(this);
     }
+    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
+    ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* _get__difficultyBeatmaps();
+    // Set instance field: private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
+    void _set__difficultyBeatmaps(::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0x108EDE4
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();

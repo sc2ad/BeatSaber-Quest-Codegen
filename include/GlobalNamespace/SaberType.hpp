@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::SaberType _get_SaberB();
     // Set static field: static public SaberType SaberB
     static void _set_SaberB(GlobalNamespace::SaberType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // SaberType
   #pragma pack(pop)
   static check_size<sizeof(SaberType), 0 + sizeof(int)> __GlobalNamespace_SaberTypeSizeCheck;

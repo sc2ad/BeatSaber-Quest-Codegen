@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     PerceivedLoudnessPerLevelSO(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* perceivedLoudnessPerLevel_ = {}) noexcept : perceivedLoudnessPerLevel{perceivedLoudnessPerLevel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
+    ::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* _get_perceivedLoudnessPerLevel();
+    // Set instance field: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
+    void _set_perceivedLoudnessPerLevel(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* value);
     // public System.Void .ctor()
     // Offset: 0x10FBDB4
     // Implemented from: UnityEngine.ScriptableObject

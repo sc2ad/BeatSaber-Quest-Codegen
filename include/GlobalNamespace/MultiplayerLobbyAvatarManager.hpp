@@ -88,6 +88,30 @@ namespace GlobalNamespace {
     MultiplayerLobbyAvatarManager(GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::MultiplayerLobbyAvatarController::Factory* avatarControllerFactory_ = {}, float innerCircleRadius_ = {}, float minOuterCircleRadius_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*>* playerIdToAvatarMap_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>* inProgressDespawnAnimations_ = {}) noexcept : lobbyStateDataModel{lobbyStateDataModel_}, avatarControllerFactory{avatarControllerFactory_}, innerCircleRadius{innerCircleRadius_}, minOuterCircleRadius{minOuterCircleRadius_}, playerIdToAvatarMap{playerIdToAvatarMap_}, inProgressDespawnAnimations{inProgressDespawnAnimations_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    GlobalNamespace::ILobbyStateDataModel* _get__lobbyStateDataModel();
+    // Set instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    void _set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel* value);
+    // Get instance field: private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerFactory
+    GlobalNamespace::MultiplayerLobbyAvatarController::Factory* _get__avatarControllerFactory();
+    // Set instance field: private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerFactory
+    void _set__avatarControllerFactory(GlobalNamespace::MultiplayerLobbyAvatarController::Factory* value);
+    // Get instance field: private System.Single _innerCircleRadius
+    float _get__innerCircleRadius();
+    // Set instance field: private System.Single _innerCircleRadius
+    void _set__innerCircleRadius(float value);
+    // Get instance field: private System.Single _minOuterCircleRadius
+    float _get__minOuterCircleRadius();
+    // Set instance field: private System.Single _minOuterCircleRadius
+    void _set__minOuterCircleRadius(float value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerLobbyAvatarController> _playerIdToAvatarMap
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*>* _get__playerIdToAvatarMap();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerLobbyAvatarController> _playerIdToAvatarMap
+    void _set__playerIdToAvatarMap(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*>* value);
+    // Get instance field: private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
+    System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>* _get__inProgressDespawnAnimations();
+    // Set instance field: private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
+    void _set__inProgressDespawnAnimations(System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>* value);
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
     // Offset: 0x23CD8B8
     void Init(float innerCircleRadius, float minOuterCircleRadius);

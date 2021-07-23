@@ -64,6 +64,18 @@ namespace MasterServer {
     }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
+    // Get instance field: public System.UInt32 certificateResponseId
+    uint _get_certificateResponseId();
+    // Set instance field: public System.UInt32 certificateResponseId
+    void _set_certificateResponseId(uint value);
+    // Get instance field: public readonly ByteArrayNetSerializable random
+    GlobalNamespace::ByteArrayNetSerializable* _get_random();
+    // Set instance field: public readonly ByteArrayNetSerializable random
+    void _set_random(GlobalNamespace::ByteArrayNetSerializable* value);
+    // Get instance field: public readonly ByteArrayNetSerializable cookie
+    GlobalNamespace::ByteArrayNetSerializable* _get_cookie();
+    // Set instance field: public readonly ByteArrayNetSerializable cookie
+    void _set_cookie(GlobalNamespace::ByteArrayNetSerializable* value);
     // static public PacketPool`1<MasterServer.ClientHelloWithCookieRequest> get_pool()
     // Offset: 0x12CE120
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloWithCookieRequest*>* get_pool();

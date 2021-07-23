@@ -43,6 +43,14 @@ namespace NUnit::Framework::Internal::Commands {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TestActionItem
     TestActionItem(NUnit::Framework::ITestAction* action_ = {}, bool beforeTestWasRun_ = {}) noexcept : action{action_}, beforeTestWasRun{beforeTestWasRun_} {}
+    // Get instance field: private readonly NUnit.Framework.ITestAction _action
+    NUnit::Framework::ITestAction* _get__action();
+    // Set instance field: private readonly NUnit.Framework.ITestAction _action
+    void _set__action(NUnit::Framework::ITestAction* value);
+    // Get instance field: private System.Boolean _beforeTestWasRun
+    bool _get__beforeTestWasRun();
+    // Set instance field: private System.Boolean _beforeTestWasRun
+    void _set__beforeTestWasRun(bool value);
     // public System.Void .ctor(NUnit.Framework.ITestAction action)
     // Offset: 0x17295B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

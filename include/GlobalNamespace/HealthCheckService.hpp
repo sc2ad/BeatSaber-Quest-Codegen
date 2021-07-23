@@ -81,6 +81,26 @@ namespace GlobalNamespace {
     static int _get_kTimeoutLengthMs();
     // Set static field: static private System.Int32 kTimeoutLengthMs
     static void _set_kTimeoutLengthMs(int value);
+    // Get instance field: private readonly System.Int32 _port
+    int _get__port();
+    // Set instance field: private readonly System.Int32 _port
+    void _set__port(int value);
+    // Get instance field: private readonly System.Threading.Thread _runThread
+    System::Threading::Thread* _get__runThread();
+    // Set instance field: private readonly System.Threading.Thread _runThread
+    void _set__runThread(System::Threading::Thread* value);
+    // Get instance field: private System.Boolean _disposed
+    bool _get__disposed();
+    // Set instance field: private System.Boolean _disposed
+    void _set__disposed(bool value);
+    // Get instance field: private System.Threading.ManualResetEvent _manualResetEvent
+    System::Threading::ManualResetEvent* _get__manualResetEvent();
+    // Set instance field: private System.Threading.ManualResetEvent _manualResetEvent
+    void _set__manualResetEvent(System::Threading::ManualResetEvent* value);
+    // Get instance field: private System.Net.HttpListener _listener
+    System::Net::HttpListener* _get__listener();
+    // Set instance field: private System.Net.HttpListener _listener
+    void _set__listener(System::Net::HttpListener* value);
     // public System.Void .ctor(System.Int32 port)
     // Offset: 0x12C6B64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

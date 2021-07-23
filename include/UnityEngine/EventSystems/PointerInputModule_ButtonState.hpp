@@ -37,6 +37,14 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*) == 0x8);
     // Creating value type constructor for type: ButtonState
     ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton m_Button_ = {}, UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData_ = {}) noexcept : m_Button{m_Button_}, m_EventData{m_EventData_} {}
+    // Get instance field: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton m_Button
+    UnityEngine::EventSystems::PointerEventData::InputButton _get_m_Button();
+    // Set instance field: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton m_Button
+    void _set_m_Button(UnityEngine::EventSystems::PointerEventData::InputButton value);
+    // Get instance field: private UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData m_EventData
+    UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* _get_m_EventData();
+    // Set instance field: private UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData m_EventData
+    void _set_m_EventData(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData get_eventData()
     // Offset: 0x14080C4
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* get_eventData();

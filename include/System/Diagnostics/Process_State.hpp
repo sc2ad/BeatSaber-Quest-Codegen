@@ -81,6 +81,10 @@ namespace System::Diagnostics {
     static System::Diagnostics::Process::State _get_HaveNtProcessInfo();
     // Set static field: static public System.Diagnostics.Process/System.Diagnostics.State HaveNtProcessInfo
     static void _set_HaveNtProcessInfo(System::Diagnostics::Process::State value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Diagnostics.Process/System.Diagnostics.State
   #pragma pack(pop)
   static check_size<sizeof(Process::State), 0 + sizeof(int)> __System_Diagnostics_Process_StateSizeCheck;

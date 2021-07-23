@@ -74,6 +74,26 @@ namespace GlobalNamespace {
     BTSCharacter(::Il2CppString* characterName_ = {}, UnityEngine::Animator* animator_ = {}, GlobalNamespace::BTSCharacterMaterialSwitcher* btsCharacterMaterialSwitcher_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, UnityEngine::Transform* headTransform_ = {}) noexcept : characterName{characterName_}, animator{animator_}, btsCharacterMaterialSwitcher{btsCharacterMaterialSwitcher_}, materialPropertyBlockController{materialPropertyBlockController_}, headTransform{headTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _characterName
+    ::Il2CppString* _get__characterName();
+    // Set instance field: private System.String _characterName
+    void _set__characterName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Animator _animator
+    UnityEngine::Animator* _get__animator();
+    // Set instance field: private UnityEngine.Animator _animator
+    void _set__animator(UnityEngine::Animator* value);
+    // Get instance field: private BTSCharacterMaterialSwitcher _btsCharacterMaterialSwitcher
+    GlobalNamespace::BTSCharacterMaterialSwitcher* _get__btsCharacterMaterialSwitcher();
+    // Set instance field: private BTSCharacterMaterialSwitcher _btsCharacterMaterialSwitcher
+    void _set__btsCharacterMaterialSwitcher(GlobalNamespace::BTSCharacterMaterialSwitcher* value);
+    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
+    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
+    // Get instance field: private UnityEngine.Transform _headTransform
+    UnityEngine::Transform* _get__headTransform();
+    // Set instance field: private UnityEngine.Transform _headTransform
+    void _set__headTransform(UnityEngine::Transform* value);
     // public System.String get_characterName()
     // Offset: 0x10E44C8
     ::Il2CppString* get_characterName();

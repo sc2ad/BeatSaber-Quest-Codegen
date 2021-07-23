@@ -71,6 +71,18 @@ namespace GlobalNamespace {
     GhostDuplicationEffect(::Array<UnityEngine::CanvasGroup*>* canvases_ = {}, bool isInitialized_ = {}, Tweening::TweeningManager* tweeningManager_ = {}) noexcept : canvases{canvases_}, isInitialized{isInitialized_}, tweeningManager{tweeningManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.CanvasGroup[] _canvases
+    ::Array<UnityEngine::CanvasGroup*>* _get__canvases();
+    // Set instance field: private UnityEngine.CanvasGroup[] _canvases
+    void _set__canvases(::Array<UnityEngine::CanvasGroup*>* value);
+    // Get instance field: private System.Boolean isInitialized
+    bool _get_isInitialized();
+    // Set instance field: private System.Boolean isInitialized
+    void _set_isInitialized(bool value);
+    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager* _get__tweeningManager();
+    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
+    void _set__tweeningManager(Tweening::TweeningManager* value);
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x10B5E90
     void set_hide(bool value);

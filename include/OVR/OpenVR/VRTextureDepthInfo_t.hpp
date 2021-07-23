@@ -46,6 +46,18 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr handle
+    System::IntPtr _get_handle();
+    // Set instance field: public System.IntPtr handle
+    void _set_handle(System::IntPtr value);
+    // Get instance field: public OVR.OpenVR.HmdMatrix44_t mProjection
+    OVR::OpenVR::HmdMatrix44_t _get_mProjection();
+    // Set instance field: public OVR.OpenVR.HmdMatrix44_t mProjection
+    void _set_mProjection(OVR::OpenVR::HmdMatrix44_t value);
+    // Get instance field: public OVR.OpenVR.HmdVector2_t vRange
+    OVR::OpenVR::HmdVector2_t _get_vRange();
+    // Set instance field: public OVR.OpenVR.HmdVector2_t vRange
+    void _set_vRange(OVR::OpenVR::HmdVector2_t value);
   }; // OVR.OpenVR.VRTextureDepthInfo_t
   #pragma pack(pop)
   static check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(OVR::OpenVR::HmdVector2_t)> __OVR_OpenVR_VRTextureDepthInfo_tSizeCheck;

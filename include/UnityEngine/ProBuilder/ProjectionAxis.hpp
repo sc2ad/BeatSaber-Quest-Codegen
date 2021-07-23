@@ -67,6 +67,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ProjectionAxis _get_ZNegative();
     // Set static field: static public UnityEngine.ProBuilder.ProjectionAxis ZNegative
     static void _set_ZNegative(UnityEngine::ProBuilder::ProjectionAxis value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.ProjectionAxis
   #pragma pack(pop)
   static check_size<sizeof(ProjectionAxis), 0 + sizeof(int)> __UnityEngine_ProBuilder_ProjectionAxisSizeCheck;

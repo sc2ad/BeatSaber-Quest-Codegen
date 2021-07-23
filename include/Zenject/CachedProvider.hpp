@@ -64,6 +64,18 @@ namespace Zenject {
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
+    // Get instance field: private readonly Zenject.IProvider _creator
+    Zenject::IProvider* _get__creator();
+    // Set instance field: private readonly Zenject.IProvider _creator
+    void _set__creator(Zenject::IProvider* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Object> _instances
+    System::Collections::Generic::List_1<::Il2CppObject*>* _get__instances();
+    // Set instance field: private System.Collections.Generic.List`1<System.Object> _instances
+    void _set__instances(System::Collections::Generic::List_1<::Il2CppObject*>* value);
+    // Get instance field: private System.Boolean _isCreatingInstance
+    bool _get__isCreatingInstance();
+    // Set instance field: private System.Boolean _isCreatingInstance
+    void _set__isCreatingInstance(bool value);
     // public System.Boolean get_IsCached()
     // Offset: 0x137CBB0
     bool get_IsCached();

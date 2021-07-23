@@ -230,6 +230,118 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Boolean enableMixedReality
+    bool _get_enableMixedReality();
+    // Set instance field: public System.Boolean enableMixedReality
+    void _set_enableMixedReality(bool value);
+    // Get instance field: public UnityEngine.LayerMask extraHiddenLayers
+    UnityEngine::LayerMask _get_extraHiddenLayers();
+    // Set instance field: public UnityEngine.LayerMask extraHiddenLayers
+    void _set_extraHiddenLayers(UnityEngine::LayerMask value);
+    // Get instance field: public UnityEngine.LayerMask extraVisibleLayers
+    UnityEngine::LayerMask _get_extraVisibleLayers();
+    // Set instance field: public UnityEngine.LayerMask extraVisibleLayers
+    void _set_extraVisibleLayers(UnityEngine::LayerMask value);
+    // Get instance field: public System.Boolean dynamicCullingMask
+    bool _get_dynamicCullingMask();
+    // Set instance field: public System.Boolean dynamicCullingMask
+    void _set_dynamicCullingMask(bool value);
+    // Get instance field: public OVRManager/CompositionMethod compositionMethod
+    GlobalNamespace::OVRManager_CompositionMethod _get_compositionMethod();
+    // Set instance field: public OVRManager/CompositionMethod compositionMethod
+    void _set_compositionMethod(GlobalNamespace::OVRManager_CompositionMethod value);
+    // Get instance field: public UnityEngine.Color externalCompositionBackdropColorRift
+    UnityEngine::Color _get_externalCompositionBackdropColorRift();
+    // Set instance field: public UnityEngine.Color externalCompositionBackdropColorRift
+    void _set_externalCompositionBackdropColorRift(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color externalCompositionBackdropColorQuest
+    UnityEngine::Color _get_externalCompositionBackdropColorQuest();
+    // Set instance field: public UnityEngine.Color externalCompositionBackdropColorQuest
+    void _set_externalCompositionBackdropColorQuest(UnityEngine::Color value);
+    // Get instance field: public OVRManager/CameraDevice capturingCameraDevice
+    GlobalNamespace::OVRManager_CameraDevice _get_capturingCameraDevice();
+    // Set instance field: public OVRManager/CameraDevice capturingCameraDevice
+    void _set_capturingCameraDevice(GlobalNamespace::OVRManager_CameraDevice value);
+    // Get instance field: public System.Boolean flipCameraFrameHorizontally
+    bool _get_flipCameraFrameHorizontally();
+    // Set instance field: public System.Boolean flipCameraFrameHorizontally
+    void _set_flipCameraFrameHorizontally(bool value);
+    // Get instance field: public System.Boolean flipCameraFrameVertically
+    bool _get_flipCameraFrameVertically();
+    // Set instance field: public System.Boolean flipCameraFrameVertically
+    void _set_flipCameraFrameVertically(bool value);
+    // Get instance field: public System.Single handPoseStateLatency
+    float _get_handPoseStateLatency();
+    // Set instance field: public System.Single handPoseStateLatency
+    void _set_handPoseStateLatency(float value);
+    // Get instance field: public System.Single sandwichCompositionRenderLatency
+    float _get_sandwichCompositionRenderLatency();
+    // Set instance field: public System.Single sandwichCompositionRenderLatency
+    void _set_sandwichCompositionRenderLatency(float value);
+    // Get instance field: public System.Int32 sandwichCompositionBufferedFrames
+    int _get_sandwichCompositionBufferedFrames();
+    // Set instance field: public System.Int32 sandwichCompositionBufferedFrames
+    void _set_sandwichCompositionBufferedFrames(int value);
+    // Get instance field: public UnityEngine.Color chromaKeyColor
+    UnityEngine::Color _get_chromaKeyColor();
+    // Set instance field: public UnityEngine.Color chromaKeyColor
+    void _set_chromaKeyColor(UnityEngine::Color value);
+    // Get instance field: public System.Single chromaKeySimilarity
+    float _get_chromaKeySimilarity();
+    // Set instance field: public System.Single chromaKeySimilarity
+    void _set_chromaKeySimilarity(float value);
+    // Get instance field: public System.Single chromaKeySmoothRange
+    float _get_chromaKeySmoothRange();
+    // Set instance field: public System.Single chromaKeySmoothRange
+    void _set_chromaKeySmoothRange(float value);
+    // Get instance field: public System.Single chromaKeySpillRange
+    float _get_chromaKeySpillRange();
+    // Set instance field: public System.Single chromaKeySpillRange
+    void _set_chromaKeySpillRange(float value);
+    // Get instance field: public System.Boolean useDynamicLighting
+    bool _get_useDynamicLighting();
+    // Set instance field: public System.Boolean useDynamicLighting
+    void _set_useDynamicLighting(bool value);
+    // Get instance field: public OVRManager/DepthQuality depthQuality
+    GlobalNamespace::OVRManager_DepthQuality _get_depthQuality();
+    // Set instance field: public OVRManager/DepthQuality depthQuality
+    void _set_depthQuality(GlobalNamespace::OVRManager_DepthQuality value);
+    // Get instance field: public System.Single dynamicLightingSmoothFactor
+    float _get_dynamicLightingSmoothFactor();
+    // Set instance field: public System.Single dynamicLightingSmoothFactor
+    void _set_dynamicLightingSmoothFactor(float value);
+    // Get instance field: public System.Single dynamicLightingDepthVariationClampingValue
+    float _get_dynamicLightingDepthVariationClampingValue();
+    // Set instance field: public System.Single dynamicLightingDepthVariationClampingValue
+    void _set_dynamicLightingDepthVariationClampingValue(float value);
+    // Get instance field: public OVRManager/VirtualGreenScreenType virtualGreenScreenType
+    GlobalNamespace::OVRManager_VirtualGreenScreenType _get_virtualGreenScreenType();
+    // Set instance field: public OVRManager/VirtualGreenScreenType virtualGreenScreenType
+    void _set_virtualGreenScreenType(GlobalNamespace::OVRManager_VirtualGreenScreenType value);
+    // Get instance field: public System.Single virtualGreenScreenTopY
+    float _get_virtualGreenScreenTopY();
+    // Set instance field: public System.Single virtualGreenScreenTopY
+    void _set_virtualGreenScreenTopY(float value);
+    // Get instance field: public System.Single virtualGreenScreenBottomY
+    float _get_virtualGreenScreenBottomY();
+    // Set instance field: public System.Single virtualGreenScreenBottomY
+    void _set_virtualGreenScreenBottomY(float value);
+    // Get instance field: public System.Boolean virtualGreenScreenApplyDepthCulling
+    bool _get_virtualGreenScreenApplyDepthCulling();
+    // Set instance field: public System.Boolean virtualGreenScreenApplyDepthCulling
+    void _set_virtualGreenScreenApplyDepthCulling(bool value);
+    // Get instance field: public System.Single virtualGreenScreenDepthTolerance
+    float _get_virtualGreenScreenDepthTolerance();
+    // Set instance field: public System.Single virtualGreenScreenDepthTolerance
+    void _set_virtualGreenScreenDepthTolerance(float value);
+    // Get instance field: public OVRManager/MrcActivationMode mrcActivationMode
+    GlobalNamespace::OVRManager_MrcActivationMode _get_mrcActivationMode();
+    // Set instance field: public OVRManager/MrcActivationMode mrcActivationMode
+    void _set_mrcActivationMode(GlobalNamespace::OVRManager_MrcActivationMode value);
+    // Get instance field: private OVRManager/InstantiateMrcCameraDelegate <OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject>k__BackingField
+    GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* _get_$OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject$k__BackingField();
+    // Set instance field: private OVRManager/InstantiateMrcCameraDelegate <OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject>k__BackingField
+    void _set_$OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject$k__BackingField(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_enableMixedReality()
     // Offset: 0x12E4B40
     bool OVRMixedRealityCaptureConfiguration_get_enableMixedReality();

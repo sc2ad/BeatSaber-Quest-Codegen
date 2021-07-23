@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     constexpr operator System::Collections::IDictionary*() const noexcept {
       return impl;
     }
+    // Get instance field: private readonly System.Collections.IDictionary impl
+    System::Collections::IDictionary* _get_impl();
+    // Set instance field: private readonly System.Collections.IDictionary impl
+    void _set_impl(System::Collections::IDictionary* value);
     // public System.Int32 get_Count()
     // Offset: 0x1F7A7F0
     int get_Count();

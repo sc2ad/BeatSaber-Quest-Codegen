@@ -49,6 +49,14 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
     // Creating value type constructor for type: X9FieldID
     X9FieldID(Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ = {}, Org::BouncyCastle::Asn1::Asn1Object* parameters_ = {}) noexcept : id{id_}, parameters{parameters_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id
+    void _set_id(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1Object parameters
+    Org::BouncyCastle::Asn1::Asn1Object* _get_parameters();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Object parameters
+    void _set_parameters(Org::BouncyCastle::Asn1::Asn1Object* value);
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Identifier()
     // Offset: 0x19E9830
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Identifier();

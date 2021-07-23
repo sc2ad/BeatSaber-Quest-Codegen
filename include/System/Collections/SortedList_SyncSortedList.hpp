@@ -48,6 +48,14 @@ namespace System::Collections {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: SyncSortedList
     SyncSortedList(System::Collections::SortedList* list_ = {}, ::Il2CppObject* root_ = {}) noexcept : list{list_}, root{root_} {}
+    // Get instance field: private System.Collections.SortedList _list
+    System::Collections::SortedList* _get__list();
+    // Set instance field: private System.Collections.SortedList _list
+    void _set__list(System::Collections::SortedList* value);
+    // Get instance field: private System.Object _root
+    ::Il2CppObject* _get__root();
+    // Set instance field: private System.Object _root
+    void _set__root(::Il2CppObject* value);
     // System.Void .ctor(System.Collections.SortedList list)
     // Offset: 0x194B25C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

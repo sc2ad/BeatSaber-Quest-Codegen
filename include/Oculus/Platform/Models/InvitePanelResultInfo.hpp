@@ -31,6 +31,10 @@ namespace Oculus::Platform::Models {
     constexpr operator bool() const noexcept {
       return InvitesSent;
     }
+    // Get instance field: public readonly System.Boolean InvitesSent
+    bool _get_InvitesSent();
+    // Set instance field: public readonly System.Boolean InvitesSent
+    void _set_InvitesSent(bool value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A289C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

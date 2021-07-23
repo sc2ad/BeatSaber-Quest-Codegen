@@ -56,6 +56,10 @@ namespace NUnit::Framework {
     static NUnit::Framework::ParallelScope _get_Fixtures();
     // Set static field: static public NUnit.Framework.ParallelScope Fixtures
     static void _set_Fixtures(NUnit::Framework::ParallelScope value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // NUnit.Framework.ParallelScope
   #pragma pack(pop)
   static check_size<sizeof(ParallelScope), 0 + sizeof(int)> __NUnit_Framework_ParallelScopeSizeCheck;

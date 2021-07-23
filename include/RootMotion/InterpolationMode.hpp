@@ -193,6 +193,10 @@ namespace RootMotion {
     static RootMotion::InterpolationMode _get_BackInQuartic();
     // Set static field: static public RootMotion.InterpolationMode BackInQuartic
     static void _set_BackInQuartic(RootMotion::InterpolationMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // RootMotion.InterpolationMode
   #pragma pack(pop)
   static check_size<sizeof(InterpolationMode), 0 + sizeof(int)> __RootMotion_InterpolationModeSizeCheck;

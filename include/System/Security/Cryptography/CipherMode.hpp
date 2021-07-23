@@ -62,6 +62,10 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::CipherMode _get_CTS();
     // Set static field: static public System.Security.Cryptography.CipherMode CTS
     static void _set_CTS(System::Security::Cryptography::CipherMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Cryptography.CipherMode
   #pragma pack(pop)
   static check_size<sizeof(CipherMode), 0 + sizeof(int)> __System_Security_Cryptography_CipherModeSizeCheck;

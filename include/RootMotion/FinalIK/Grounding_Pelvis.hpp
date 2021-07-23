@@ -67,6 +67,34 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Pelvis
     Pelvis(UnityEngine::Vector3 IKOffset_ = {}, float heightOffset_ = {}, RootMotion::FinalIK::Grounding* grounding_ = {}, UnityEngine::Vector3 lastRootPosition_ = {}, float damperF_ = {}, bool initiated_ = {}, float lastTime_ = {}) noexcept : IKOffset{IKOffset_}, heightOffset{heightOffset_}, grounding{grounding_}, lastRootPosition{lastRootPosition_}, damperF{damperF_}, initiated{initiated_}, lastTime{lastTime_} {}
+    // Get instance field: private UnityEngine.Vector3 <IKOffset>k__BackingField
+    UnityEngine::Vector3 _get_$IKOffset$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <IKOffset>k__BackingField
+    void _set_$IKOffset$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single <heightOffset>k__BackingField
+    float _get_$heightOffset$k__BackingField();
+    // Set instance field: private System.Single <heightOffset>k__BackingField
+    void _set_$heightOffset$k__BackingField(float value);
+    // Get instance field: private RootMotion.FinalIK.Grounding grounding
+    RootMotion::FinalIK::Grounding* _get_grounding();
+    // Set instance field: private RootMotion.FinalIK.Grounding grounding
+    void _set_grounding(RootMotion::FinalIK::Grounding* value);
+    // Get instance field: private UnityEngine.Vector3 lastRootPosition
+    UnityEngine::Vector3 _get_lastRootPosition();
+    // Set instance field: private UnityEngine.Vector3 lastRootPosition
+    void _set_lastRootPosition(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single damperF
+    float _get_damperF();
+    // Set instance field: private System.Single damperF
+    void _set_damperF(float value);
+    // Get instance field: private System.Boolean initiated
+    bool _get_initiated();
+    // Set instance field: private System.Boolean initiated
+    void _set_initiated(bool value);
+    // Get instance field: private System.Single lastTime
+    float _get_lastTime();
+    // Set instance field: private System.Single lastTime
+    void _set_lastTime(float value);
     // public UnityEngine.Vector3 get_IKOffset()
     // Offset: 0x1C939F0
     UnityEngine::Vector3 get_IKOffset();

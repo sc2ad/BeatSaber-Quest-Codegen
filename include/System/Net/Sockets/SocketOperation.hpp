@@ -103,6 +103,10 @@ namespace System::Net::Sockets {
     static System::Net::Sockets::SocketOperation _get_SendGeneric();
     // Set static field: static public System.Net.Sockets.SocketOperation SendGeneric
     static void _set_SendGeneric(System::Net::Sockets::SocketOperation value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.Sockets.SocketOperation
   #pragma pack(pop)
   static check_size<sizeof(SocketOperation), 0 + sizeof(int)> __System_Net_Sockets_SocketOperationSizeCheck;

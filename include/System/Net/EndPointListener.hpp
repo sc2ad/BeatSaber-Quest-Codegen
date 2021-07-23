@@ -122,6 +122,42 @@ namespace System::Net {
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>*) == 0x8);
     // Creating value type constructor for type: EndPointListener
     EndPointListener(System::Net::HttpListener* listener_ = {}, System::Net::IPEndPoint* endpoint_ = {}, System::Net::Sockets::Socket* sock_ = {}, System::Collections::Hashtable* prefixes_ = {}, System::Collections::ArrayList* unhandled_ = {}, System::Collections::ArrayList* all_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* cert_ = {}, bool secure_ = {}, System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>* unregistered_ = {}) noexcept : listener{listener_}, endpoint{endpoint_}, sock{sock_}, prefixes{prefixes_}, unhandled{unhandled_}, all{all_}, cert{cert_}, secure{secure_}, unregistered{unregistered_} {}
+    // Get instance field: private System.Net.HttpListener listener
+    System::Net::HttpListener* _get_listener();
+    // Set instance field: private System.Net.HttpListener listener
+    void _set_listener(System::Net::HttpListener* value);
+    // Get instance field: private System.Net.IPEndPoint endpoint
+    System::Net::IPEndPoint* _get_endpoint();
+    // Set instance field: private System.Net.IPEndPoint endpoint
+    void _set_endpoint(System::Net::IPEndPoint* value);
+    // Get instance field: private System.Net.Sockets.Socket sock
+    System::Net::Sockets::Socket* _get_sock();
+    // Set instance field: private System.Net.Sockets.Socket sock
+    void _set_sock(System::Net::Sockets::Socket* value);
+    // Get instance field: private System.Collections.Hashtable prefixes
+    System::Collections::Hashtable* _get_prefixes();
+    // Set instance field: private System.Collections.Hashtable prefixes
+    void _set_prefixes(System::Collections::Hashtable* value);
+    // Get instance field: private System.Collections.ArrayList unhandled
+    System::Collections::ArrayList* _get_unhandled();
+    // Set instance field: private System.Collections.ArrayList unhandled
+    void _set_unhandled(System::Collections::ArrayList* value);
+    // Get instance field: private System.Collections.ArrayList all
+    System::Collections::ArrayList* _get_all();
+    // Set instance field: private System.Collections.ArrayList all
+    void _set_all(System::Collections::ArrayList* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509Certificate cert
+    System::Security::Cryptography::X509Certificates::X509Certificate* _get_cert();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509Certificate cert
+    void _set_cert(System::Security::Cryptography::X509Certificates::X509Certificate* value);
+    // Get instance field: private System.Boolean secure
+    bool _get_secure();
+    // Set instance field: private System.Boolean secure
+    void _set_secure(bool value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Net.HttpConnection,System.Net.HttpConnection> unregistered
+    System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>* _get_unregistered();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Net.HttpConnection,System.Net.HttpConnection> unregistered
+    void _set_unregistered(System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>* value);
     // System.Net.HttpListener get_Listener()
     // Offset: 0x169FE54
     System::Net::HttpListener* get_Listener();

@@ -37,6 +37,10 @@ namespace System::Reflection {
     constexpr operator ::Array<bool>*() const noexcept {
       return byRef;
     }
+    // Get instance field: private System.Boolean[] _byRef
+    ::Array<bool>* _get__byRef();
+    // Set instance field: private System.Boolean[] _byRef
+    void _set__byRef(::Array<bool>* value);
   }; // System.Reflection.ParameterModifier
   #pragma pack(pop)
   static check_size<sizeof(ParameterModifier), 0 + sizeof(::Array<bool>*)> __System_Reflection_ParameterModifierSizeCheck;

@@ -51,6 +51,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass55_0
     $$c__DisplayClass55_0(GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}, typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>::Callback* onGetFriends_ = {}, typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* onGetInvitable_ = {}) noexcept : $$4__this{$$4__this_}, onGetFriends{onGetFriends_}, onGetInvitable{onGetInvitable_} {}
+    // Get instance field: public OculusNetworkPlayerModel <>4__this
+    GlobalNamespace::OculusNetworkPlayerModel* _get_$$4__this();
+    // Set instance field: public OculusNetworkPlayerModel <>4__this
+    void _set_$$4__this(GlobalNamespace::OculusNetworkPlayerModel* value);
+    // Get instance field: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserAndRoomList> onGetFriends
+    typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>::Callback* _get_onGetFriends();
+    // Set instance field: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserAndRoomList> onGetFriends
+    void _set_onGetFriends(typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>::Callback* value);
+    // Get instance field: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserList> onGetInvitable
+    typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* _get_onGetInvitable();
+    // Set instance field: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserList> onGetInvitable
+    void _set_onGetInvitable(typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* value);
     // System.Void <Refresh>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserAndRoomList> result)
     // Offset: 0x11F39C8
     void $Refresh$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>* result);

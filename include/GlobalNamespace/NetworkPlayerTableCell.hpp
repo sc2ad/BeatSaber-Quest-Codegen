@@ -106,6 +106,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: NetworkPlayerTableCell
     NetworkPlayerTableCell(TMPro::TextMeshProUGUI* playerNameText_ = {}, UnityEngine::GameObject* separator_ = {}, UnityEngine::UI::Image* privateIcon_ = {}, UnityEngine::UI::Image* spectateIcon_ = {}, UnityEngine::UI::Image* partyLeaderIcon_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, UnityEngine::Color textColorNormal_ = {}, UnityEngine::Color textColorMe_ = {}, UnityEngine::Color textColorSelected_ = {}, bool isMe_ = {}) noexcept : playerNameText{playerNameText_}, separator{separator_}, privateIcon{privateIcon_}, spectateIcon{spectateIcon_}, partyLeaderIcon{partyLeaderIcon_}, bgImage{bgImage_}, highlightImage{highlightImage_}, textColorNormal{textColorNormal_}, textColorMe{textColorMe_}, textColorSelected{textColorSelected_}, isMe{isMe_} {}
+    // Get instance field: private TMPro.TextMeshProUGUI _playerNameText
+    TMPro::TextMeshProUGUI* _get__playerNameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _playerNameText
+    void _set__playerNameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.GameObject _separator
+    UnityEngine::GameObject* _get__separator();
+    // Set instance field: private UnityEngine.GameObject _separator
+    void _set__separator(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.UI.Image _privateIcon
+    UnityEngine::UI::Image* _get__privateIcon();
+    // Set instance field: private UnityEngine.UI.Image _privateIcon
+    void _set__privateIcon(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _spectateIcon
+    UnityEngine::UI::Image* _get__spectateIcon();
+    // Set instance field: private UnityEngine.UI.Image _spectateIcon
+    void _set__spectateIcon(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _partyLeaderIcon
+    UnityEngine::UI::Image* _get__partyLeaderIcon();
+    // Set instance field: private UnityEngine.UI.Image _partyLeaderIcon
+    void _set__partyLeaderIcon(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _bgImage
+    UnityEngine::UI::Image* _get__bgImage();
+    // Set instance field: private UnityEngine.UI.Image _bgImage
+    void _set__bgImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Image _highlightImage
+    UnityEngine::UI::Image* _get__highlightImage();
+    // Set instance field: private UnityEngine.UI.Image _highlightImage
+    void _set__highlightImage(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.Color _textColorNormal
+    UnityEngine::Color _get__textColorNormal();
+    // Set instance field: private UnityEngine.Color _textColorNormal
+    void _set__textColorNormal(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _textColorMe
+    UnityEngine::Color _get__textColorMe();
+    // Set instance field: private UnityEngine.Color _textColorMe
+    void _set__textColorMe(UnityEngine::Color value);
+    // Get instance field: private UnityEngine.Color _textColorSelected
+    UnityEngine::Color _get__textColorSelected();
+    // Set instance field: private UnityEngine.Color _textColorSelected
+    void _set__textColorSelected(UnityEngine::Color value);
+    // Get instance field: private System.Boolean _isMe
+    bool _get__isMe();
+    // Set instance field: private System.Boolean _isMe
+    void _set__isMe(bool value);
     // public System.Boolean get_showSeparator()
     // Offset: 0x1013C08
     bool get_showSeparator();

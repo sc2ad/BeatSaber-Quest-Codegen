@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Asn1 {
     constexpr operator Org::BouncyCastle::Asn1::DefiniteLengthInputStream*() const noexcept {
       return stream;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream
+    Org::BouncyCastle::Asn1::DefiniteLengthInputStream* _get_stream();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream
+    void _set_stream(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* value);
     // System.Void .ctor(Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream)
     // Offset: 0x16DF30C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

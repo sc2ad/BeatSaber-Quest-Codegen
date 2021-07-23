@@ -62,6 +62,10 @@ namespace System::Threading::Tasks {
     static System::Threading::ContextCallback* _get_s_postActionCallback();
     // Set static field: static private System.Threading.ContextCallback s_postActionCallback
     static void _set_s_postActionCallback(System::Threading::ContextCallback* value);
+    // Get instance field: private readonly System.Threading.SynchronizationContext m_syncContext
+    System::Threading::SynchronizationContext* _get_m_syncContext();
+    // Set instance field: private readonly System.Threading.SynchronizationContext m_syncContext
+    void _set_m_syncContext(System::Threading::SynchronizationContext* value);
     // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x18AD648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

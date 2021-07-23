@@ -96,6 +96,42 @@ namespace System::Collections {
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Get instance field: private System.Collections.SortedList sortedList
+    System::Collections::SortedList* _get_sortedList();
+    // Set instance field: private System.Collections.SortedList sortedList
+    void _set_sortedList(System::Collections::SortedList* value);
+    // Get instance field: private System.Object key
+    ::Il2CppObject* _get_key();
+    // Set instance field: private System.Object key
+    void _set_key(::Il2CppObject* value);
+    // Get instance field: private System.Object value
+    ::Il2CppObject* _get_value();
+    // Set instance field: private System.Object value
+    void _set_value(::Il2CppObject* value);
+    // Get instance field: private System.Int32 index
+    int _get_index();
+    // Set instance field: private System.Int32 index
+    void _set_index(int value);
+    // Get instance field: private System.Int32 startIndex
+    int _get_startIndex();
+    // Set instance field: private System.Int32 startIndex
+    void _set_startIndex(int value);
+    // Get instance field: private System.Int32 endIndex
+    int _get_endIndex();
+    // Set instance field: private System.Int32 endIndex
+    void _set_endIndex(int value);
+    // Get instance field: private System.Int32 version
+    int _get_version();
+    // Set instance field: private System.Int32 version
+    void _set_version(int value);
+    // Get instance field: private System.Boolean current
+    bool _get_current();
+    // Set instance field: private System.Boolean current
+    void _set_current(bool value);
+    // Get instance field: private System.Int32 getObjectRetType
+    int _get_getObjectRetType();
+    // Set instance field: private System.Int32 getObjectRetType
+    void _set_getObjectRetType(int value);
     // public System.Object get_Key()
     // Offset: 0x194B974
     ::Il2CppObject* get_Key();

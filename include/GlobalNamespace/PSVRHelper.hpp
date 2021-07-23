@@ -133,6 +133,46 @@ namespace GlobalNamespace {
     static float _get_kContinuesRumbleImpulseStrength();
     // Set static field: static private System.Single kContinuesRumbleImpulseStrength
     static void _set_kContinuesRumbleImpulseStrength(float value);
+    // Get instance field: private System.Action inputFocusWasCapturedEvent
+    System::Action* _get_inputFocusWasCapturedEvent();
+    // Set instance field: private System.Action inputFocusWasCapturedEvent
+    void _set_inputFocusWasCapturedEvent(System::Action* value);
+    // Get instance field: private System.Action inputFocusWasReleasedEvent
+    System::Action* _get_inputFocusWasReleasedEvent();
+    // Set instance field: private System.Action inputFocusWasReleasedEvent
+    void _set_inputFocusWasReleasedEvent(System::Action* value);
+    // Get instance field: private System.Action vrFocusWasCapturedEvent
+    System::Action* _get_vrFocusWasCapturedEvent();
+    // Set instance field: private System.Action vrFocusWasCapturedEvent
+    void _set_vrFocusWasCapturedEvent(System::Action* value);
+    // Get instance field: private System.Action vrFocusWasReleasedEvent
+    System::Action* _get_vrFocusWasReleasedEvent();
+    // Set instance field: private System.Action vrFocusWasReleasedEvent
+    void _set_vrFocusWasReleasedEvent(System::Action* value);
+    // Get instance field: private System.Action hmdUnmountedEvent
+    System::Action* _get_hmdUnmountedEvent();
+    // Set instance field: private System.Action hmdUnmountedEvent
+    void _set_hmdUnmountedEvent(System::Action* value);
+    // Get instance field: private System.Action hmdMountedEvent
+    System::Action* _get_hmdMountedEvent();
+    // Set instance field: private System.Action hmdMountedEvent
+    void _set_hmdMountedEvent(System::Action* value);
+    // Get instance field: private System.Action joystickWasCenteredThisFrameEvent
+    System::Action* _get_joystickWasCenteredThisFrameEvent();
+    // Set instance field: private System.Action joystickWasCenteredThisFrameEvent
+    void _set_joystickWasCenteredThisFrameEvent(System::Action* value);
+    // Get instance field: private System.Action`1<UnityEngine.Vector2> joystickWasNotCenteredThisFrameEvent
+    System::Action_1<UnityEngine::Vector2>* _get_joystickWasNotCenteredThisFrameEvent();
+    // Set instance field: private System.Action`1<UnityEngine.Vector2> joystickWasNotCenteredThisFrameEvent
+    void _set_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
+    // Get instance field: private System.Boolean _didGetNodeStatesThisFrame
+    bool _get__didGetNodeStatesThisFrame();
+    // Set instance field: private System.Boolean _didGetNodeStatesThisFrame
+    void _set__didGetNodeStatesThisFrame(bool value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> _nodeStates
+    System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* _get__nodeStates();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> _nodeStates
+    void _set__nodeStates(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* value);
     // public System.Boolean get_hasInputFocus()
     // Offset: 0x121FEC8
     bool get_hasInputFocus();

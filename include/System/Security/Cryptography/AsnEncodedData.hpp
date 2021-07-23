@@ -38,6 +38,14 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: AsnEncodedData
     AsnEncodedData(System::Security::Cryptography::Oid* oid_ = {}, ::Array<uint8_t>* raw_ = {}) noexcept : oid{oid_}, raw{raw_} {}
+    // Get instance field: System.Security.Cryptography.Oid _oid
+    System::Security::Cryptography::Oid* _get__oid();
+    // Set instance field: System.Security.Cryptography.Oid _oid
+    void _set__oid(System::Security::Cryptography::Oid* value);
+    // Get instance field: System.Byte[] _raw
+    ::Array<uint8_t>* _get__raw();
+    // Set instance field: System.Byte[] _raw
+    void _set__raw(::Array<uint8_t>* value);
     // public System.Security.Cryptography.Oid get_Oid()
     // Offset: 0x15A15EC
     System::Security::Cryptography::Oid* get_Oid();

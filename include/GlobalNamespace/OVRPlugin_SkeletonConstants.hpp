@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SkeletonConstants _get_MaxBoneCapsules();
     // Set static field: static public OVRPlugin/SkeletonConstants MaxBoneCapsules
     static void _set_MaxBoneCapsules(GlobalNamespace::OVRPlugin::SkeletonConstants value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/SkeletonConstants
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::SkeletonConstants), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_SkeletonConstantsSizeCheck;

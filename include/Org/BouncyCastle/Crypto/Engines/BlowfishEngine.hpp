@@ -108,6 +108,34 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_P_SZ();
     // Set static field: static private readonly System.Int32 P_SZ
     static void _set_P_SZ(int value);
+    // Get instance field: private readonly System.UInt32[] S0
+    ::Array<uint>* _get_S0();
+    // Set instance field: private readonly System.UInt32[] S0
+    void _set_S0(::Array<uint>* value);
+    // Get instance field: private readonly System.UInt32[] S1
+    ::Array<uint>* _get_S1();
+    // Set instance field: private readonly System.UInt32[] S1
+    void _set_S1(::Array<uint>* value);
+    // Get instance field: private readonly System.UInt32[] S2
+    ::Array<uint>* _get_S2();
+    // Set instance field: private readonly System.UInt32[] S2
+    void _set_S2(::Array<uint>* value);
+    // Get instance field: private readonly System.UInt32[] S3
+    ::Array<uint>* _get_S3();
+    // Set instance field: private readonly System.UInt32[] S3
+    void _set_S3(::Array<uint>* value);
+    // Get instance field: private readonly System.UInt32[] P
+    ::Array<uint>* _get_P();
+    // Set instance field: private readonly System.UInt32[] P
+    void _set_P(::Array<uint>* value);
+    // Get instance field: private System.Boolean encrypting
+    bool _get_encrypting();
+    // Set instance field: private System.Boolean encrypting
+    void _set_encrypting(bool value);
+    // Get instance field: private System.Byte[] workingKey
+    ::Array<uint8_t>* _get_workingKey();
+    // Set instance field: private System.Byte[] workingKey
+    void _set_workingKey(::Array<uint8_t>* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1DFB414
     ::Il2CppString* get_AlgorithmName();

@@ -33,6 +33,10 @@ namespace GlobalNamespace {
     constexpr operator UnityEngine::Color() const noexcept {
       return trailTintColor;
     }
+    // Get instance field: public readonly UnityEngine.Color trailTintColor
+    UnityEngine::Color _get_trailTintColor();
+    // Set instance field: public readonly UnityEngine.Color trailTintColor
+    void _set_trailTintColor(UnityEngine::Color value);
     // public System.Void .ctor(UnityEngine.Color trailTintColor)
     // Offset: 0x114BDA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

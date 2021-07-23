@@ -170,6 +170,78 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._SetActionManifestPath SetActionManifestPath
+    OVR::OpenVR::IVRInput::_SetActionManifestPath* _get_SetActionManifestPath();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._SetActionManifestPath SetActionManifestPath
+    void _set_SetActionManifestPath(OVR::OpenVR::IVRInput::_SetActionManifestPath* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionSetHandle GetActionSetHandle
+    OVR::OpenVR::IVRInput::_GetActionSetHandle* _get_GetActionSetHandle();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionSetHandle GetActionSetHandle
+    void _set_GetActionSetHandle(OVR::OpenVR::IVRInput::_GetActionSetHandle* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionHandle GetActionHandle
+    OVR::OpenVR::IVRInput::_GetActionHandle* _get_GetActionHandle();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionHandle GetActionHandle
+    void _set_GetActionHandle(OVR::OpenVR::IVRInput::_GetActionHandle* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetInputSourceHandle GetInputSourceHandle
+    OVR::OpenVR::IVRInput::_GetInputSourceHandle* _get_GetInputSourceHandle();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetInputSourceHandle GetInputSourceHandle
+    void _set_GetInputSourceHandle(OVR::OpenVR::IVRInput::_GetInputSourceHandle* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._UpdateActionState UpdateActionState
+    OVR::OpenVR::IVRInput::_UpdateActionState* _get_UpdateActionState();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._UpdateActionState UpdateActionState
+    void _set_UpdateActionState(OVR::OpenVR::IVRInput::_UpdateActionState* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetDigitalActionData GetDigitalActionData
+    OVR::OpenVR::IVRInput::_GetDigitalActionData* _get_GetDigitalActionData();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetDigitalActionData GetDigitalActionData
+    void _set_GetDigitalActionData(OVR::OpenVR::IVRInput::_GetDigitalActionData* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetAnalogActionData GetAnalogActionData
+    OVR::OpenVR::IVRInput::_GetAnalogActionData* _get_GetAnalogActionData();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetAnalogActionData GetAnalogActionData
+    void _set_GetAnalogActionData(OVR::OpenVR::IVRInput::_GetAnalogActionData* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetPoseActionData GetPoseActionData
+    OVR::OpenVR::IVRInput::_GetPoseActionData* _get_GetPoseActionData();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetPoseActionData GetPoseActionData
+    void _set_GetPoseActionData(OVR::OpenVR::IVRInput::_GetPoseActionData* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalActionData GetSkeletalActionData
+    OVR::OpenVR::IVRInput::_GetSkeletalActionData* _get_GetSkeletalActionData();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalActionData GetSkeletalActionData
+    void _set_GetSkeletalActionData(OVR::OpenVR::IVRInput::_GetSkeletalActionData* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalBoneData GetSkeletalBoneData
+    OVR::OpenVR::IVRInput::_GetSkeletalBoneData* _get_GetSkeletalBoneData();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalBoneData GetSkeletalBoneData
+    void _set_GetSkeletalBoneData(OVR::OpenVR::IVRInput::_GetSkeletalBoneData* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalBoneDataCompressed GetSkeletalBoneDataCompressed
+    OVR::OpenVR::IVRInput::_GetSkeletalBoneDataCompressed* _get_GetSkeletalBoneDataCompressed();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetSkeletalBoneDataCompressed GetSkeletalBoneDataCompressed
+    void _set_GetSkeletalBoneDataCompressed(OVR::OpenVR::IVRInput::_GetSkeletalBoneDataCompressed* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._DecompressSkeletalBoneData DecompressSkeletalBoneData
+    OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData* _get_DecompressSkeletalBoneData();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._DecompressSkeletalBoneData DecompressSkeletalBoneData
+    void _set_DecompressSkeletalBoneData(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._TriggerHapticVibrationAction TriggerHapticVibrationAction
+    OVR::OpenVR::IVRInput::_TriggerHapticVibrationAction* _get_TriggerHapticVibrationAction();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._TriggerHapticVibrationAction TriggerHapticVibrationAction
+    void _set_TriggerHapticVibrationAction(OVR::OpenVR::IVRInput::_TriggerHapticVibrationAction* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionOrigins GetActionOrigins
+    OVR::OpenVR::IVRInput::_GetActionOrigins* _get_GetActionOrigins();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionOrigins GetActionOrigins
+    void _set_GetActionOrigins(OVR::OpenVR::IVRInput::_GetActionOrigins* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetOriginLocalizedName GetOriginLocalizedName
+    OVR::OpenVR::IVRInput::_GetOriginLocalizedName* _get_GetOriginLocalizedName();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetOriginLocalizedName GetOriginLocalizedName
+    void _set_GetOriginLocalizedName(OVR::OpenVR::IVRInput::_GetOriginLocalizedName* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetOriginTrackedDeviceInfo GetOriginTrackedDeviceInfo
+    OVR::OpenVR::IVRInput::_GetOriginTrackedDeviceInfo* _get_GetOriginTrackedDeviceInfo();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._GetOriginTrackedDeviceInfo GetOriginTrackedDeviceInfo
+    void _set_GetOriginTrackedDeviceInfo(OVR::OpenVR::IVRInput::_GetOriginTrackedDeviceInfo* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._ShowActionOrigins ShowActionOrigins
+    OVR::OpenVR::IVRInput::_ShowActionOrigins* _get_ShowActionOrigins();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._ShowActionOrigins ShowActionOrigins
+    void _set_ShowActionOrigins(OVR::OpenVR::IVRInput::_ShowActionOrigins* value);
+    // Get instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._ShowBindingsForActionSet ShowBindingsForActionSet
+    OVR::OpenVR::IVRInput::_ShowBindingsForActionSet* _get_ShowBindingsForActionSet();
+    // Set instance field: OVR.OpenVR.IVRInput/OVR.OpenVR._ShowBindingsForActionSet ShowBindingsForActionSet
+    void _set_ShowBindingsForActionSet(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet* value);
   }; // OVR.OpenVR.IVRInput
   #pragma pack(pop)
   static check_size<sizeof(IVRInput), 136 + sizeof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*)> __OVR_OpenVR_IVRInputSizeCheck;

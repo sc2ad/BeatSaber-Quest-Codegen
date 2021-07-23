@@ -133,6 +133,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRTrackedCameraError _get_InvalidFrameBufferSize();
     // Set static field: static public OVR.OpenVR.EVRTrackedCameraError InvalidFrameBufferSize
     static void _set_InvalidFrameBufferSize(OVR::OpenVR::EVRTrackedCameraError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRTrackedCameraError
   #pragma pack(pop)
   static check_size<sizeof(EVRTrackedCameraError), 0 + sizeof(int)> __OVR_OpenVR_EVRTrackedCameraErrorSizeCheck;

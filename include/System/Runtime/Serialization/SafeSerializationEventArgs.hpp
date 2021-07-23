@@ -48,6 +48,14 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
     // Creating value type constructor for type: SafeSerializationEventArgs
     SafeSerializationEventArgs(System::Runtime::Serialization::StreamingContext m_streamingContext_ = {}, System::Collections::Generic::List_1<::Il2CppObject*>* m_serializedStates_ = {}) noexcept : m_streamingContext{m_streamingContext_}, m_serializedStates{m_serializedStates_} {}
+    // Get instance field: private System.Runtime.Serialization.StreamingContext m_streamingContext
+    System::Runtime::Serialization::StreamingContext _get_m_streamingContext();
+    // Set instance field: private System.Runtime.Serialization.StreamingContext m_streamingContext
+    void _set_m_streamingContext(System::Runtime::Serialization::StreamingContext value);
+    // Get instance field: private System.Collections.Generic.List`1<System.Object> m_serializedStates
+    System::Collections::Generic::List_1<::Il2CppObject*>* _get_m_serializedStates();
+    // Set instance field: private System.Collections.Generic.List`1<System.Object> m_serializedStates
+    void _set_m_serializedStates(System::Collections::Generic::List_1<::Il2CppObject*>* value);
     // System.Collections.Generic.IList`1<System.Object> get_SerializedStates()
     // Offset: 0x1681190
     System::Collections::Generic::IList_1<::Il2CppObject*>* get_SerializedStates();

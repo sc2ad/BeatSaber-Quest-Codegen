@@ -71,6 +71,22 @@ namespace GlobalNamespace {
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
     }
+    // Get instance field: private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
+    System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* _get_didSelectContentCellEvent();
+    // Set instance field: private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
+    void _set_didSelectContentCellEvent(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* value);
+    // Get instance field: private System.Action`2<TableViewWithDetailCell,System.Int32> didDeselectContentCellEvent
+    System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* _get_didDeselectContentCellEvent();
+    // Set instance field: private System.Action`2<TableViewWithDetailCell,System.Int32> didDeselectContentCellEvent
+    void _set_didDeselectContentCellEvent(System::Action_2<GlobalNamespace::TableViewWithDetailCell*, int>* value);
+    // Get instance field: private TableViewWithDetailCell/IDataSource _dataSource
+    GlobalNamespace::TableViewWithDetailCell::IDataSource* _get__dataSource();
+    // Set instance field: private TableViewWithDetailCell/IDataSource _dataSource
+    void _set__dataSource(GlobalNamespace::TableViewWithDetailCell::IDataSource* value);
+    // Get instance field: private System.Int32 _selectedId
+    int _get__selectedId();
+    // Set instance field: private System.Int32 _selectedId
+    void _set__selectedId(int value);
     // public TableViewWithDetailCell/IDataSource get_dataSource()
     // Offset: 0x2358940
     GlobalNamespace::TableViewWithDetailCell::IDataSource* get_dataSource();

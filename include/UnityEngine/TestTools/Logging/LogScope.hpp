@@ -130,6 +130,54 @@ namespace UnityEngine::TestTools::Logging {
     static System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogScope*>* _get_s_ActiveScopes();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogScope> s_ActiveScopes
     static void _set_s_ActiveScopes(System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogScope*>* value);
+    // Get instance field: private readonly System.Object m_Lock
+    ::Il2CppObject* _get_m_Lock();
+    // Set instance field: private readonly System.Object m_Lock
+    void _set_m_Lock(::Il2CppObject* value);
+    // Get instance field: private System.Boolean m_Disposed
+    bool _get_m_Disposed();
+    // Set instance field: private System.Boolean m_Disposed
+    void _set_m_Disposed(bool value);
+    // Get instance field: private System.Boolean m_NeedToProcessLogs
+    bool _get_m_NeedToProcessLogs();
+    // Set instance field: private System.Boolean m_NeedToProcessLogs
+    void _set_m_NeedToProcessLogs(bool value);
+    // Get instance field: private System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> <ExpectedLogs>k__BackingField
+    System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* _get_$ExpectedLogs$k__BackingField();
+    // Set instance field: private System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> <ExpectedLogs>k__BackingField
+    void _set_$ExpectedLogs$k__BackingField(System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <AllLogs>k__BackingField
+    System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* _get_$AllLogs$k__BackingField();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <AllLogs>k__BackingField
+    void _set_$AllLogs$k__BackingField(System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <FailingLogs>k__BackingField
+    System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* _get_$FailingLogs$k__BackingField();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> <FailingLogs>k__BackingField
+    void _set_$FailingLogs$k__BackingField(System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* value);
+    // Get instance field: private System.Boolean <IgnoreFailingMessages>k__BackingField
+    bool _get_$IgnoreFailingMessages$k__BackingField();
+    // Set instance field: private System.Boolean <IgnoreFailingMessages>k__BackingField
+    void _set_$IgnoreFailingMessages$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsNUnitException>k__BackingField
+    bool _get_$IsNUnitException$k__BackingField();
+    // Set instance field: private System.Boolean <IsNUnitException>k__BackingField
+    void _set_$IsNUnitException$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsNUnitSuccessException>k__BackingField
+    bool _get_$IsNUnitSuccessException$k__BackingField();
+    // Set instance field: private System.Boolean <IsNUnitSuccessException>k__BackingField
+    void _set_$IsNUnitSuccessException$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsNUnitInconclusiveException>k__BackingField
+    bool _get_$IsNUnitInconclusiveException$k__BackingField();
+    // Set instance field: private System.Boolean <IsNUnitInconclusiveException>k__BackingField
+    void _set_$IsNUnitInconclusiveException$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <IsNUnitIgnoreException>k__BackingField
+    bool _get_$IsNUnitIgnoreException$k__BackingField();
+    // Set instance field: private System.Boolean <IsNUnitIgnoreException>k__BackingField
+    void _set_$IsNUnitIgnoreException$k__BackingField(bool value);
+    // Get instance field: private System.String <NUnitExceptionMessage>k__BackingField
+    ::Il2CppString* _get_$NUnitExceptionMessage$k__BackingField();
+    // Set instance field: private System.String <NUnitExceptionMessage>k__BackingField
+    void _set_$NUnitExceptionMessage$k__BackingField(::Il2CppString* value);
     // public System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> get_ExpectedLogs()
     // Offset: 0x148B298
     System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* get_ExpectedLogs();

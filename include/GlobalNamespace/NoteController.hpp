@@ -156,6 +156,58 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected NoteMovement _noteMovement
+    GlobalNamespace::NoteMovement* _get__noteMovement();
+    // Set instance field: protected NoteMovement _noteMovement
+    void _set__noteMovement(GlobalNamespace::NoteMovement* value);
+    // Get instance field: protected UnityEngine.Transform _noteTransform
+    UnityEngine::Transform* _get__noteTransform();
+    // Set instance field: protected UnityEngine.Transform _noteTransform
+    void _set__noteTransform(UnityEngine::Transform* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerDidInitEvent> _didInitEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent*>* _get__didInitEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerDidInitEvent> _didInitEvent
+    void _set__didInitEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidStartJumpEvent> _noteDidStartJumpEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* _get__noteDidStartJumpEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidStartJumpEvent> _noteDidStartJumpEvent
+    void _set__noteDidStartJumpEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidFinishJumpEvent> _noteDidFinishJumpEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* _get__noteDidFinishJumpEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidFinishJumpEvent> _noteDidFinishJumpEvent
+    void _set__noteDidFinishJumpEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidPassJumpThreeQuartersEvent> _noteDidPassJumpThreeQuartersEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* _get__noteDidPassJumpThreeQuartersEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidPassJumpThreeQuartersEvent> _noteDidPassJumpThreeQuartersEvent
+    void _set__noteDidPassJumpThreeQuartersEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteWasCutEvent> _noteWasCutEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent*>* _get__noteWasCutEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteWasCutEvent> _noteWasCutEvent
+    void _set__noteWasCutEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteWasMissedEvent> _noteWasMissedEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent*>* _get__noteWasMissedEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteWasMissedEvent> _noteWasMissedEvent
+    void _set__noteWasMissedEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> _noteDidStartDissolvingEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* _get__noteDidStartDissolvingEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> _noteDidStartDissolvingEvent
+    void _set__noteDidStartDissolvingEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* value);
+    // Get instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidDissolveEvent> _noteDidDissolveEvent
+    GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* _get__noteDidDissolveEvent();
+    // Set instance field: private readonly LazyCopyHashSet`1<INoteControllerNoteDidDissolveEvent> _noteDidDissolveEvent
+    void _set__noteDidDissolveEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* value);
+    // Get instance field: private NoteData _noteData
+    GlobalNamespace::NoteData* _get__noteData();
+    // Set instance field: private NoteData _noteData
+    void _set__noteData(GlobalNamespace::NoteData* value);
+    // Get instance field: private System.Boolean _dissolving
+    bool _get__dissolving();
+    // Set instance field: private System.Boolean _dissolving
+    void _set__dissolving(bool value);
+    // Get instance field: private System.Single _uniformScale
+    float _get__uniformScale();
+    // Set instance field: private System.Single _uniformScale
+    void _set__uniformScale(float value);
     // public ILazyCopyHashSet`1<INoteControllerNoteDidStartJumpEvent> get_noteDidStartJumpEvent()
     // Offset: 0x1015EC4
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* get_noteDidStartJumpEvent();

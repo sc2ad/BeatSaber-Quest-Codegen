@@ -144,6 +144,38 @@ namespace VRUIControls {
     static System::Comparison_1<UnityEngine::EventSystems::RaycastResult>* _get__raycastComparer();
     // Set static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> _raycastComparer
     static void _set__raycastComparer(System::Comparison_1<UnityEngine::EventSystems::RaycastResult>* value);
+    // Get instance field: private VRUIControls.VRPointer _vrPointer
+    VRUIControls::VRPointer* _get__vrPointer();
+    // Set instance field: private VRUIControls.VRPointer _vrPointer
+    void _set__vrPointer(VRUIControls::VRPointer* value);
+    // Get instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
+    Libraries::HM::HMLib::VR::HapticPresetSO* _get__rumblePreset();
+    // Set instance field: private Libraries.HM.HMLib.VR.HapticPresetSO _rumblePreset
+    void _set__rumblePreset(Libraries::HM::HMLib::VR::HapticPresetSO* value);
+    // Get instance field: private readonly HapticFeedbackController _hapticFeedbackController
+    GlobalNamespace::HapticFeedbackController* _get__hapticFeedbackController();
+    // Set instance field: private readonly HapticFeedbackController _hapticFeedbackController
+    void _set__hapticFeedbackController(GlobalNamespace::HapticFeedbackController* value);
+    // Get instance field: private System.Boolean <useMouseForPressInput>k__BackingField
+    bool _get_$useMouseForPressInput$k__BackingField();
+    // Set instance field: private System.Boolean <useMouseForPressInput>k__BackingField
+    void _set_$useMouseForPressInput$k__BackingField(bool value);
+    // Get instance field: private System.Action`1<UnityEngine.GameObject> onProcessMousePressEvent
+    System::Action_1<UnityEngine::GameObject*>* _get_onProcessMousePressEvent();
+    // Set instance field: private System.Action`1<UnityEngine.GameObject> onProcessMousePressEvent
+    void _set_onProcessMousePressEvent(System::Action_1<UnityEngine::GameObject*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> _pointerData
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* _get__pointerData();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> _pointerData
+    void _set__pointerData(System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Component> _componentList
+    System::Collections::Generic::List_1<UnityEngine::Component*>* _get__componentList();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Component> _componentList
+    void _set__componentList(System::Collections::Generic::List_1<UnityEngine::Component*>* value);
+    // Get instance field: private readonly VRUIControls.MouseState _mouseState
+    VRUIControls::MouseState* _get__mouseState();
+    // Set instance field: private readonly VRUIControls.MouseState _mouseState
+    void _set__mouseState(VRUIControls::MouseState* value);
     // public System.Boolean get_useMouseForPressInput()
     // Offset: 0x2345224
     bool get_useMouseForPressInput();

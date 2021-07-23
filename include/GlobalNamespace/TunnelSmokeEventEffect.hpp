@@ -95,6 +95,30 @@ namespace GlobalNamespace {
     static int _get_kMaxParticles();
     // Set static field: static private System.Int32 kMaxParticles
     static void _set_kMaxParticles(int value);
+    // Get instance field: private BeatmapEventType _event
+    GlobalNamespace::BeatmapEventType _get__event();
+    // Set instance field: private BeatmapEventType _event
+    void _set__event(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private UnityEngine.ParticleSystem _particleSystem
+    UnityEngine::ParticleSystem* _get__particleSystem();
+    // Set instance field: private UnityEngine.ParticleSystem _particleSystem
+    void _set__particleSystem(UnityEngine::ParticleSystem* value);
+    // Get instance field: private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::BeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private BeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::BeatmapObjectCallbackController* value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    UnityEngine::ParticleSystem::MainModule _get__mainModule();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    void _set__mainModule(UnityEngine::ParticleSystem::MainModule value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _shapeModule
+    UnityEngine::ParticleSystem::ShapeModule _get__shapeModule();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _shapeModule
+    void _set__shapeModule(UnityEngine::ParticleSystem::ShapeModule value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    ::Array<UnityEngine::ParticleSystem::Particle>* _get__particles();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    void _set__particles(::Array<UnityEngine::ParticleSystem::Particle>* value);
     // protected System.Void Start()
     // Offset: 0x10722F8
     void Start();

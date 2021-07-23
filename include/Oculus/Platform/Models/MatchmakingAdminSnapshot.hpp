@@ -40,6 +40,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(double) == 0x8);
     // Creating value type constructor for type: MatchmakingAdminSnapshot
     MatchmakingAdminSnapshot(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* Candidates_ = {}, double MyCurrentThreshold_ = {}) noexcept : Candidates{Candidates_}, MyCurrentThreshold{MyCurrentThreshold_} {}
+    // Get instance field: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
+    Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* _get_Candidates();
+    // Set instance field: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
+    void _set_Candidates(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* value);
+    // Get instance field: public readonly System.Double MyCurrentThreshold
+    double _get_MyCurrentThreshold();
+    // Set instance field: public readonly System.Double MyCurrentThreshold
+    void _set_MyCurrentThreshold(double value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A4390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

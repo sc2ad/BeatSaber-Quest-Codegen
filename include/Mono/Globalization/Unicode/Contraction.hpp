@@ -45,6 +45,22 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: Contraction
     Contraction(int Index_ = {}, ::Array<::Il2CppChar>* Source_ = {}, ::Il2CppString* Replacement_ = {}, ::Array<uint8_t>* SortKey_ = {}) noexcept : Index{Index_}, Source{Source_}, Replacement{Replacement_}, SortKey{SortKey_} {}
+    // Get instance field: public System.Int32 Index
+    int _get_Index();
+    // Set instance field: public System.Int32 Index
+    void _set_Index(int value);
+    // Get instance field: public readonly System.Char[] Source
+    ::Array<::Il2CppChar>* _get_Source();
+    // Set instance field: public readonly System.Char[] Source
+    void _set_Source(::Array<::Il2CppChar>* value);
+    // Get instance field: public readonly System.String Replacement
+    ::Il2CppString* _get_Replacement();
+    // Set instance field: public readonly System.String Replacement
+    void _set_Replacement(::Il2CppString* value);
+    // Get instance field: public readonly System.Byte[] SortKey
+    ::Array<uint8_t>* _get_SortKey();
+    // Set instance field: public readonly System.Byte[] SortKey
+    void _set_SortKey(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
     // Offset: 0x1A136F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

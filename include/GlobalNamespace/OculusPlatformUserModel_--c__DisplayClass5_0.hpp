@@ -62,6 +62,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(int requests_ = {}, bool success_ = {}, ::Array<::Il2CppString*>* userNames_ = {}, System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* tcs_ = {}) noexcept : requests{requests_}, success{success_}, userNames{userNames_}, tcs{tcs_} {}
+    // Get instance field: public System.Int32 requests
+    int _get_requests();
+    // Set instance field: public System.Int32 requests
+    void _set_requests(int value);
+    // Get instance field: public System.Boolean success
+    bool _get_success();
+    // Set instance field: public System.Boolean success
+    void _set_success(bool value);
+    // Get instance field: public System.String[] userNames
+    ::Array<::Il2CppString*>* _get_userNames();
+    // Set instance field: public System.String[] userNames
+    void _set_userNames(::Array<::Il2CppString*>* value);
+    // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
+    System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* _get_tcs();
+    // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
+    void _set_tcs(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* value);
     // System.Void <GetUserNamesForUserIds>g__Fetch|0(System.Int32 index, System.UInt64 platformId)
     // Offset: 0xFF2778
     void $GetUserNamesForUserIds$g__Fetch_0(int index, uint64_t platformId);

@@ -62,6 +62,22 @@ namespace Zenject {
     static_assert(sizeof(Zenject::SubContainerBinder*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass20_0
     $$c__DisplayClass20_0(::Il2CppString* resourcePath_ = {}, Zenject::GameObjectCreationParameters* gameObjectInfo_ = {}, System::Type* installerType_ = {}, Zenject::SubContainerBinder* $$4__this_ = {}) noexcept : resourcePath{resourcePath_}, gameObjectInfo{gameObjectInfo_}, installerType{installerType_}, $$4__this{$$4__this_} {}
+    // Get instance field: public System.String resourcePath
+    ::Il2CppString* _get_resourcePath();
+    // Set instance field: public System.String resourcePath
+    void _set_resourcePath(::Il2CppString* value);
+    // Get instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    Zenject::GameObjectCreationParameters* _get_gameObjectInfo();
+    // Set instance field: public Zenject.GameObjectCreationParameters gameObjectInfo
+    void _set_gameObjectInfo(Zenject::GameObjectCreationParameters* value);
+    // Get instance field: public System.Type installerType
+    System::Type* _get_installerType();
+    // Set instance field: public System.Type installerType
+    void _set_installerType(System::Type* value);
+    // Get instance field: public Zenject.SubContainerBinder <>4__this
+    Zenject::SubContainerBinder* _get_$$4__this();
+    // Set instance field: public Zenject.SubContainerBinder <>4__this
+    void _set_$$4__this(Zenject::SubContainerBinder* value);
     // Zenject.ISubContainerCreator <ByNewPrefabResourceInstaller>b__0(Zenject.DiContainer container)
     // Offset: 0x16D13DC
     Zenject::ISubContainerCreator* $ByNewPrefabResourceInstaller$b__0(Zenject::DiContainer* container);

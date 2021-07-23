@@ -69,6 +69,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
     // Creating value type constructor for type: LobbyDataModelsManager
     LobbyDataModelsManager(GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel_ = {}, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel_ = {}, GlobalNamespace::ILobbyGameStateController* lobbyGameStateController_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}, GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel_ = {}) noexcept : lobbyStateDataModel{lobbyStateDataModel_}, lobbyPlayersDataModel{lobbyPlayersDataModel_}, lobbyGameStateController{lobbyGameStateController_}, nodePoseSyncStateManager{nodePoseSyncStateManager_}, lobbyPlayerPermissionsModel{lobbyPlayerPermissionsModel_} {}
+    // Get instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    GlobalNamespace::ILobbyStateDataModel* _get__lobbyStateDataModel();
+    // Set instance field: private readonly ILobbyStateDataModel _lobbyStateDataModel
+    void _set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel* value);
+    // Get instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    GlobalNamespace::ILobbyPlayersDataModel* _get__lobbyPlayersDataModel();
+    // Set instance field: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
+    void _set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel* value);
+    // Get instance field: private readonly ILobbyGameStateController _lobbyGameStateController
+    GlobalNamespace::ILobbyGameStateController* _get__lobbyGameStateController();
+    // Set instance field: private readonly ILobbyGameStateController _lobbyGameStateController
+    void _set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController* value);
+    // Get instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
+    GlobalNamespace::INodePoseSyncStateManager* _get__nodePoseSyncStateManager();
+    // Set instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
+    void _set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager* value);
+    // Get instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    GlobalNamespace::LobbyPlayerPermissionsModel* _get__lobbyPlayerPermissionsModel();
+    // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
+    void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
     // public System.Void Activate()
     // Offset: 0x11BA850
     void Activate();

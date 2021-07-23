@@ -46,6 +46,10 @@ namespace System::Collections {
     constexpr operator System::Globalization::TextInfo*() const noexcept {
       return m_text;
     }
+    // Get instance field: private System.Globalization.TextInfo m_text
+    System::Globalization::TextInfo* _get_m_text();
+    // Set instance field: private System.Globalization.TextInfo m_text
+    void _set_m_text(System::Globalization::TextInfo* value);
     // static public System.Collections.CaseInsensitiveHashCodeProvider get_Default()
     // Offset: 0x178A6D8
     static System::Collections::CaseInsensitiveHashCodeProvider* get_Default();

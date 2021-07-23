@@ -55,6 +55,10 @@ namespace System::Collections::Generic {
     static System::Collections::Generic::TreeRotation _get_RightLeft();
     // Set static field: static public System.Collections.Generic.TreeRotation RightLeft
     static void _set_RightLeft(System::Collections::Generic::TreeRotation value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // System.Collections.Generic.TreeRotation
   #pragma pack(pop)
   static check_size<sizeof(TreeRotation), 0 + sizeof(uint8_t)> __System_Collections_Generic_TreeRotationSizeCheck;

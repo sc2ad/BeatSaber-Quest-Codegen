@@ -90,6 +90,34 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*) == 0x8);
     // Creating value type constructor for type: DTSweepContext
     DTSweepContext(float ALPHA_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* Front_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Head_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Tail_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* Basin_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* EdgeEvent_ = {}, UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* comparator_ = {}) noexcept : ALPHA{ALPHA_}, Front{Front_}, Head{Head_}, Tail{Tail_}, Basin{Basin_}, EdgeEvent{EdgeEvent_}, comparator{comparator_} {}
+    // Get instance field: private readonly System.Single ALPHA
+    float _get_ALPHA();
+    // Set instance field: private readonly System.Single ALPHA
+    void _set_ALPHA(float value);
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFront Front
+    UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* _get_Front();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFront Front
+    void _set_Front(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* value);
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Head>k__BackingField
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_$Head$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Head>k__BackingField
+    void _set_$Head$k__BackingField(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Tail>k__BackingField
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_$Tail$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Tail>k__BackingField
+    void _set_$Tail$k__BackingField(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.DTSweepBasin Basin
+    UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* _get_Basin();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.DTSweepBasin Basin
+    void _set_Basin(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* value);
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.DTSweepEdgeEvent EdgeEvent
+    UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* _get_EdgeEvent();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.DTSweepEdgeEvent EdgeEvent
+    void _set_EdgeEvent(UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* value);
+    // Get instance field: private UnityEngine.ProBuilder.Poly2Tri.DTSweepPointComparator _comparator
+    UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* _get__comparator();
+    // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.DTSweepPointComparator _comparator
+    void _set__comparator(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* value);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint get_Head()
     // Offset: 0x236D308
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Head();

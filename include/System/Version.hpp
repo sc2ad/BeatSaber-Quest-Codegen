@@ -94,6 +94,22 @@ namespace System {
     static int _get_ZERO_CHAR_VALUE();
     // Set static field: static private System.Int32 ZERO_CHAR_VALUE
     static void _set_ZERO_CHAR_VALUE(int value);
+    // Get instance field: private System.Int32 _Major
+    int _get__Major();
+    // Set instance field: private System.Int32 _Major
+    void _set__Major(int value);
+    // Get instance field: private System.Int32 _Minor
+    int _get__Minor();
+    // Set instance field: private System.Int32 _Minor
+    void _set__Minor(int value);
+    // Get instance field: private System.Int32 _Build
+    int _get__Build();
+    // Set instance field: private System.Int32 _Build
+    void _set__Build(int value);
+    // Get instance field: private System.Int32 _Revision
+    int _get__Revision();
+    // Set instance field: private System.Int32 _Revision
+    void _set__Revision(int value);
     // public System.Int32 get_Major()
     // Offset: 0x22D4B48
     int get_Major();

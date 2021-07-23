@@ -111,6 +111,30 @@ namespace UnityEngine::Timeline {
     static bool _get_muteAudioScrubbing();
     // Set static field: static System.Boolean muteAudioScrubbing
     static void _set_muteAudioScrubbing(bool value);
+    // Get instance field: private UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> m_IntervalTree
+    UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* _get_m_IntervalTree();
+    // Set instance field: private UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> m_IntervalTree
+    void _set_m_IntervalTree(UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.RuntimeElement> m_ActiveClips
+    System::Collections::Generic::List_1<UnityEngine::Timeline::RuntimeElement*>* _get_m_ActiveClips();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.RuntimeElement> m_ActiveClips
+    void _set_m_ActiveClips(System::Collections::Generic::List_1<UnityEngine::Timeline::RuntimeElement*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.RuntimeElement> m_CurrentListOfActiveClips
+    System::Collections::Generic::List_1<UnityEngine::Timeline::RuntimeElement*>* _get_m_CurrentListOfActiveClips();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.RuntimeElement> m_CurrentListOfActiveClips
+    void _set_m_CurrentListOfActiveClips(System::Collections::Generic::List_1<UnityEngine::Timeline::RuntimeElement*>* value);
+    // Get instance field: private System.Int32 m_ActiveBit
+    int _get_m_ActiveBit();
+    // Set instance field: private System.Int32 m_ActiveBit
+    void _set_m_ActiveBit(int value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.ITimelineEvaluateCallback> m_EvaluateCallbacks
+    System::Collections::Generic::List_1<UnityEngine::Timeline::ITimelineEvaluateCallback*>* _get_m_EvaluateCallbacks();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Timeline.ITimelineEvaluateCallback> m_EvaluateCallbacks
+    void _set_m_EvaluateCallbacks(System::Collections::Generic::List_1<UnityEngine::Timeline::ITimelineEvaluateCallback*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.Timeline.TrackAsset,UnityEngine.Playables.Playable> m_PlayableCache
+    System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>* _get_m_PlayableCache();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<UnityEngine.Timeline.TrackAsset,UnityEngine.Playables.Playable> m_PlayableCache
+    void _set_m_PlayableCache(System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>* value);
     // static private System.Void .cctor()
     // Offset: 0x231BC98
     static void _cctor();

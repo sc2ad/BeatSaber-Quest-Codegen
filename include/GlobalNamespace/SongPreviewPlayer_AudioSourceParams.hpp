@@ -50,6 +50,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: AudioSourceParams
     AudioSourceParams(UnityEngine::Vector3 position_ = {}, float reverbZoneMix_ = {}, float spatialBlend_ = {}, float spread_ = {}) noexcept : position{position_}, reverbZoneMix{reverbZoneMix_}, spatialBlend{spatialBlend_}, spread{spread_} {}
+    // Get instance field: private UnityEngine.Vector3 _position
+    UnityEngine::Vector3 _get__position();
+    // Set instance field: private UnityEngine.Vector3 _position
+    void _set__position(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _reverbZoneMix
+    float _get__reverbZoneMix();
+    // Set instance field: private System.Single _reverbZoneMix
+    void _set__reverbZoneMix(float value);
+    // Get instance field: private System.Single _spatialBlend
+    float _get__spatialBlend();
+    // Set instance field: private System.Single _spatialBlend
+    void _set__spatialBlend(float value);
+    // Get instance field: private System.Single _spread
+    float _get__spread();
+    // Set instance field: private System.Single _spread
+    void _set__spread(float value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x105C3E0
     UnityEngine::Vector3 get_position();

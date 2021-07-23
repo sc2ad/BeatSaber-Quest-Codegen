@@ -37,6 +37,14 @@ namespace GlobalNamespace {
     OVRMonoscopic(GlobalNamespace::OVRInput::RawButton toggleButton_ = {}, bool monoscopic_ = {}) noexcept : toggleButton{toggleButton_}, monoscopic{monoscopic_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public OVRInput/RawButton toggleButton
+    GlobalNamespace::OVRInput::RawButton _get_toggleButton();
+    // Set instance field: public OVRInput/RawButton toggleButton
+    void _set_toggleButton(GlobalNamespace::OVRInput::RawButton value);
+    // Get instance field: private System.Boolean monoscopic
+    bool _get_monoscopic();
+    // Set instance field: private System.Boolean monoscopic
+    void _set_monoscopic(bool value);
     // private System.Void Update()
     // Offset: 0x12E6AC0
     void Update();

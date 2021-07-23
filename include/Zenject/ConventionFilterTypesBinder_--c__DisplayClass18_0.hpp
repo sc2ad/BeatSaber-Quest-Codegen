@@ -44,6 +44,10 @@ namespace Zenject {
     constexpr operator System::Text::RegularExpressions::Regex*() const noexcept {
       return regex;
     }
+    // Get instance field: public System.Text.RegularExpressions.Regex regex
+    System::Text::RegularExpressions::Regex* _get_regex();
+    // Set instance field: public System.Text.RegularExpressions.Regex regex
+    void _set_regex(System::Text::RegularExpressions::Regex* value);
     // System.Boolean <MatchingRegex>b__0(System.Type t)
     // Offset: 0x138063C
     bool $MatchingRegex$b__0(System::Type* t);

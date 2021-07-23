@@ -36,6 +36,10 @@ namespace GlobalNamespace {
     MissionNodeNameGenerator(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}) noexcept : missionNodesManager{missionNodesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MissionNodesManager _missionNodesManager
+    GlobalNamespace::MissionNodesManager* _get__missionNodesManager();
+    // Set instance field: private MissionNodesManager _missionNodesManager
+    void _set__missionNodesManager(GlobalNamespace::MissionNodesManager* value);
     // public System.Void .ctor()
     // Offset: 0x1135120
     // Implemented from: UnityEngine.MonoBehaviour

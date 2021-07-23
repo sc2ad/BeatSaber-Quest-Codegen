@@ -116,6 +116,38 @@ namespace GlobalNamespace {
     static float _get_kMinSceneDuration();
     // Set static field: static private System.Single kMinSceneDuration
     static void _set_kMinSceneDuration(float value);
+    // Get instance field: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
+    GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _get__levelEndActionsPublisher();
+    // Set instance field: private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
+    void _set__levelEndActionsPublisher(GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
+    // Get instance field: private readonly IGameplayRpcManager _rpcManager
+    GlobalNamespace::IGameplayRpcManager* _get__rpcManager();
+    // Set instance field: private readonly IGameplayRpcManager _rpcManager
+    void _set__rpcManager(GlobalNamespace::IGameplayRpcManager* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private System.Action`2<MultiplayerLevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults>> allResultsCollectedEvent
+    System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>* _get_allResultsCollectedEvent();
+    // Set instance field: private System.Action`2<MultiplayerLevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults>> allResultsCollectedEvent
+    void _set_allResultsCollectedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> _otherPlayersCompletionResults
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* _get__otherPlayersCompletionResults();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> _otherPlayersCompletionResults
+    void _set__otherPlayersCompletionResults(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+    // Get instance field: private MultiplayerLevelCompletionResults _localPlayerResults
+    GlobalNamespace::MultiplayerLevelCompletionResults* _get__localPlayerResults();
+    // Set instance field: private MultiplayerLevelCompletionResults _localPlayerResults
+    void _set__localPlayerResults(GlobalNamespace::MultiplayerLevelCompletionResults* value);
+    // Get instance field: private System.Boolean _gameFinishReported
+    bool _get__gameFinishReported();
+    // Set instance field: private System.Boolean _gameFinishReported
+    void _set__gameFinishReported(bool value);
+    // Get instance field: private System.Single _sceneLoadTime
+    float _get__sceneLoadTime();
+    // Set instance field: private System.Single _sceneLoadTime
+    void _set__sceneLoadTime(float value);
     // public System.Boolean get_gameResultsReady()
     // Offset: 0x11AF504
     bool get_gameResultsReady();

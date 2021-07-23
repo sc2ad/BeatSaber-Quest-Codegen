@@ -119,6 +119,10 @@ namespace HMUI {
       static HMUI::InputFieldView::SelectionState _get_Selected();
       // Set static field: static public HMUI.InputFieldView/HMUI.SelectionState Selected
       static void _set_Selected(HMUI::InputFieldView::SelectionState value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // HMUI.InputFieldView/HMUI.SelectionState
     #pragma pack(pop)
     static check_size<sizeof(InputFieldView::SelectionState), 0 + sizeof(int)> __HMUI_InputFieldView_SelectionStateSizeCheck;
@@ -246,6 +250,74 @@ namespace HMUI {
     static float _get_kBlinkingRate();
     // Set static field: static private System.Single kBlinkingRate
     static void _set_kBlinkingRate(float value);
+    // Get instance field: private TMPro.TextMeshProUGUI _textView
+    TMPro::TextMeshProUGUI* _get__textView();
+    // Set instance field: private TMPro.TextMeshProUGUI _textView
+    void _set__textView(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private UnityEngine.CanvasGroup _textViewCanvasGroup
+    UnityEngine::CanvasGroup* _get__textViewCanvasGroup();
+    // Set instance field: private UnityEngine.CanvasGroup _textViewCanvasGroup
+    void _set__textViewCanvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: private HMUI.ImageView _blinkingCaret
+    HMUI::ImageView* _get__blinkingCaret();
+    // Set instance field: private HMUI.ImageView _blinkingCaret
+    void _set__blinkingCaret(HMUI::ImageView* value);
+    // Get instance field: private UnityEngine.GameObject _placeholderText
+    UnityEngine::GameObject* _get__placeholderText();
+    // Set instance field: private UnityEngine.GameObject _placeholderText
+    void _set__placeholderText(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.UI.Button _clearSearchButton
+    UnityEngine::UI::Button* _get__clearSearchButton();
+    // Set instance field: private UnityEngine.UI.Button _clearSearchButton
+    void _set__clearSearchButton(UnityEngine::UI::Button* value);
+    // Get instance field: private System.Boolean _useGlobalKeyboard
+    bool _get__useGlobalKeyboard();
+    // Set instance field: private System.Boolean _useGlobalKeyboard
+    void _set__useGlobalKeyboard(bool value);
+    // Get instance field: private UnityEngine.Vector3 _keyboardPositionOffset
+    UnityEngine::Vector3 _get__keyboardPositionOffset();
+    // Set instance field: private UnityEngine.Vector3 _keyboardPositionOffset
+    void _set__keyboardPositionOffset(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean _useUppercase
+    bool _get__useUppercase();
+    // Set instance field: private System.Boolean _useUppercase
+    void _set__useUppercase(bool value);
+    // Get instance field: private System.Int32 _textLengthLimit
+    int _get__textLengthLimit();
+    // Set instance field: private System.Int32 _textLengthLimit
+    void _set__textLengthLimit(int value);
+    // Get instance field: private System.Single _caretOffset
+    float _get__caretOffset();
+    // Set instance field: private System.Single _caretOffset
+    void _set__caretOffset(float value);
+    // Get instance field: private System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> selectionStateDidChangeEvent
+    System::Action_1<HMUI::InputFieldView::SelectionState>* _get_selectionStateDidChangeEvent();
+    // Set instance field: private System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> selectionStateDidChangeEvent
+    void _set_selectionStateDidChangeEvent(System::Action_1<HMUI::InputFieldView::SelectionState>* value);
+    // Get instance field: private HMUI.InputFieldView/HMUI.SelectionState _selectionState
+    HMUI::InputFieldView::SelectionState _get__selectionState();
+    // Set instance field: private HMUI.InputFieldView/HMUI.SelectionState _selectionState
+    void _set__selectionState(HMUI::InputFieldView::SelectionState value);
+    // Get instance field: private System.String _text
+    ::Il2CppString* _get__text();
+    // Set instance field: private System.String _text
+    void _set__text(::Il2CppString* value);
+    // Get instance field: private System.Boolean _hasKeyboardAssigned
+    bool _get__hasKeyboardAssigned();
+    // Set instance field: private System.Boolean _hasKeyboardAssigned
+    void _set__hasKeyboardAssigned(bool value);
+    // Get instance field: private HMUI.ButtonBinder _buttonBinder
+    HMUI::ButtonBinder* _get__buttonBinder();
+    // Set instance field: private HMUI.ButtonBinder _buttonBinder
+    void _set__buttonBinder(HMUI::ButtonBinder* value);
+    // Get instance field: private HMUI.InputFieldView/HMUI.InputFieldChanged _onValueChanged
+    HMUI::InputFieldView::InputFieldChanged* _get__onValueChanged();
+    // Set instance field: private HMUI.InputFieldView/HMUI.InputFieldChanged _onValueChanged
+    void _set__onValueChanged(HMUI::InputFieldView::InputFieldChanged* value);
+    // Get instance field: private readonly UnityEngine.YieldInstruction _blinkWaitYieldInstruction
+    UnityEngine::YieldInstruction* _get__blinkWaitYieldInstruction();
+    // Set instance field: private readonly UnityEngine.YieldInstruction _blinkWaitYieldInstruction
+    void _set__blinkWaitYieldInstruction(UnityEngine::YieldInstruction* value);
     // public HMUI.InputFieldView/HMUI.SelectionState get_selectionState()
     // Offset: 0x1291004
     HMUI::InputFieldView::SelectionState get_selectionState();

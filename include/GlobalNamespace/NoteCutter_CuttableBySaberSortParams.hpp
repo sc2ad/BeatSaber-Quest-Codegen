@@ -48,6 +48,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: CuttableBySaberSortParams
     CuttableBySaberSortParams(GlobalNamespace::CuttableBySaber* cuttableBySaber_ = {}, float distance_ = {}, UnityEngine::Vector3 pos_ = {}) noexcept : cuttableBySaber{cuttableBySaber_}, distance{distance_}, pos{pos_} {}
+    // Get instance field: public CuttableBySaber cuttableBySaber
+    GlobalNamespace::CuttableBySaber* _get_cuttableBySaber();
+    // Set instance field: public CuttableBySaber cuttableBySaber
+    void _set_cuttableBySaber(GlobalNamespace::CuttableBySaber* value);
+    // Get instance field: public System.Single distance
+    float _get_distance();
+    // Set instance field: public System.Single distance
+    void _set_distance(float value);
+    // Get instance field: public UnityEngine.Vector3 pos
+    UnityEngine::Vector3 _get_pos();
+    // Set instance field: public UnityEngine.Vector3 pos
+    void _set_pos(UnityEngine::Vector3 value);
     // public System.Void .ctor()
     // Offset: 0x11E1DC8
     // Implemented from: System.Object

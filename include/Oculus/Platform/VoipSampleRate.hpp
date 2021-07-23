@@ -59,6 +59,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::VoipSampleRate _get_HZ48000();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ48000
     static void _set_HZ48000(Oculus::Platform::VoipSampleRate value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.VoipSampleRate
   #pragma pack(pop)
   static check_size<sizeof(VoipSampleRate), 0 + sizeof(int)> __Oculus_Platform_VoipSampleRateSizeCheck;

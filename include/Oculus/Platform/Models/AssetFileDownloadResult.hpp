@@ -33,6 +33,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: AssetFileDownloadResult
     AssetFileDownloadResult(uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}) noexcept : AssetId{AssetId_}, Filepath{Filepath_} {}
+    // Get instance field: public readonly System.UInt64 AssetId
+    uint64_t _get_AssetId();
+    // Set instance field: public readonly System.UInt64 AssetId
+    void _set_AssetId(uint64_t value);
+    // Get instance field: public readonly System.String Filepath
+    ::Il2CppString* _get_Filepath();
+    // Set instance field: public readonly System.String Filepath
+    void _set_Filepath(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A017C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -150,6 +150,70 @@ namespace GlobalNamespace {
     static float _get_kSpeedMultiplier();
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
+    // Get instance field: private BeatmapEventType _eventL
+    GlobalNamespace::BeatmapEventType _get__eventL();
+    // Set instance field: private BeatmapEventType _eventL
+    void _set__eventL(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private BeatmapEventType _eventR
+    GlobalNamespace::BeatmapEventType _get__eventR();
+    // Set instance field: private BeatmapEventType _eventR
+    void _set__eventR(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private BeatmapEventType _switchOverrideRandomValuesEvent
+    GlobalNamespace::BeatmapEventType _get__switchOverrideRandomValuesEvent();
+    // Set instance field: private BeatmapEventType _switchOverrideRandomValuesEvent
+    void _set__switchOverrideRandomValuesEvent(GlobalNamespace::BeatmapEventType value);
+    // Get instance field: private UnityEngine.Vector3 _rotationVector
+    UnityEngine::Vector3 _get__rotationVector();
+    // Set instance field: private UnityEngine.Vector3 _rotationVector
+    void _set__rotationVector(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean _overrideRandomValues
+    bool _get__overrideRandomValues();
+    // Set instance field: private System.Boolean _overrideRandomValues
+    void _set__overrideRandomValues(bool value);
+    // Get instance field: private System.Boolean _useZPositionForAngleOffset
+    bool _get__useZPositionForAngleOffset();
+    // Set instance field: private System.Boolean _useZPositionForAngleOffset
+    void _set__useZPositionForAngleOffset(bool value);
+    // Get instance field: private System.Single _zPositionAngleOffsetScale
+    float _get__zPositionAngleOffsetScale();
+    // Set instance field: private System.Single _zPositionAngleOffsetScale
+    void _set__zPositionAngleOffsetScale(float value);
+    // Get instance field: private System.Single _startRotation
+    float _get__startRotation();
+    // Set instance field: private System.Single _startRotation
+    void _set__startRotation(float value);
+    // Get instance field: private UnityEngine.Transform _transformL
+    UnityEngine::Transform* _get__transformL();
+    // Set instance field: private UnityEngine.Transform _transformL
+    void _set__transformL(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform _transformR
+    UnityEngine::Transform* _get__transformR();
+    // Set instance field: private UnityEngine.Transform _transformR
+    void _set__transformR(UnityEngine::Transform* value);
+    // Get instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    GlobalNamespace::IBeatmapObjectCallbackController* _get__beatmapObjectCallbackController();
+    // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
+    void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
+    // Get instance field: private LightPairRotationEventEffect/RotationData _rotationDataL
+    GlobalNamespace::LightPairRotationEventEffect::RotationData* _get__rotationDataL();
+    // Set instance field: private LightPairRotationEventEffect/RotationData _rotationDataL
+    void _set__rotationDataL(GlobalNamespace::LightPairRotationEventEffect::RotationData* value);
+    // Get instance field: private LightPairRotationEventEffect/RotationData _rotationDataR
+    GlobalNamespace::LightPairRotationEventEffect::RotationData* _get__rotationDataR();
+    // Set instance field: private LightPairRotationEventEffect/RotationData _rotationDataR
+    void _set__rotationDataR(GlobalNamespace::LightPairRotationEventEffect::RotationData* value);
+    // Get instance field: private System.Int32 _randomGenerationFrameNum
+    int _get__randomGenerationFrameNum();
+    // Set instance field: private System.Int32 _randomGenerationFrameNum
+    void _set__randomGenerationFrameNum(int value);
+    // Get instance field: private System.Single _randomStartRotation
+    float _get__randomStartRotation();
+    // Set instance field: private System.Single _randomStartRotation
+    void _set__randomStartRotation(float value);
+    // Get instance field: private System.Single _randomDirection
+    float _get__randomDirection();
+    // Set instance field: private System.Single _randomDirection
+    void _set__randomDirection(float value);
     // protected System.Void Start()
     // Offset: 0x11B6858
     void Start();

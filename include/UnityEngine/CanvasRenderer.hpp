@@ -51,6 +51,10 @@ namespace UnityEngine {
     CanvasRenderer(bool isMask_ = {}) noexcept : isMask{isMask_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Boolean <isMask>k__BackingField
+    bool _get_$isMask$k__BackingField();
+    // Set instance field: private System.Boolean <isMask>k__BackingField
+    void _set_$isMask$k__BackingField(bool value);
     // public System.Void set_hasPopInstruction(System.Boolean value)
     // Offset: 0x23BA8A4
     void set_hasPopInstruction(bool value);

@@ -72,6 +72,26 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::X9::DHValidationParms*) == 0x8);
     // Creating value type constructor for type: DHDomainParameters
     DHDomainParameters(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* j_ = {}, Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms_ = {}) noexcept : p{p_}, g{g_}, q{q_}, j{j_}, validationParms{validationParms_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger p
+    Org::BouncyCastle::Asn1::DerInteger* _get_p();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger p
+    void _set_p(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger g
+    Org::BouncyCastle::Asn1::DerInteger* _get_g();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger g
+    void _set_g(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger q
+    Org::BouncyCastle::Asn1::DerInteger* _get_q();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger q
+    void _set_q(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger j
+    Org::BouncyCastle::Asn1::DerInteger* _get_j();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger j
+    void _set_j(Org::BouncyCastle::Asn1::DerInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.X9.DHValidationParms validationParms
+    Org::BouncyCastle::Asn1::X9::DHValidationParms* _get_validationParms();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.X9.DHValidationParms validationParms
+    void _set_validationParms(Org::BouncyCastle::Asn1::X9::DHValidationParms* value);
     // public Org.BouncyCastle.Asn1.DerInteger get_P()
     // Offset: 0x19E2F80
     Org::BouncyCastle::Asn1::DerInteger* get_P();

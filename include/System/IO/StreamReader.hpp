@@ -145,6 +145,70 @@ namespace System::IO {
     static System::IO::StreamReader* _get_Null();
     // Set static field: static public readonly System.IO.StreamReader Null
     static void _set_Null(System::IO::StreamReader* value);
+    // Get instance field: private System.IO.Stream stream
+    System::IO::Stream* _get_stream();
+    // Set instance field: private System.IO.Stream stream
+    void _set_stream(System::IO::Stream* value);
+    // Get instance field: private System.Text.Encoding encoding
+    System::Text::Encoding* _get_encoding();
+    // Set instance field: private System.Text.Encoding encoding
+    void _set_encoding(System::Text::Encoding* value);
+    // Get instance field: private System.Text.Decoder decoder
+    System::Text::Decoder* _get_decoder();
+    // Set instance field: private System.Text.Decoder decoder
+    void _set_decoder(System::Text::Decoder* value);
+    // Get instance field: private System.Byte[] byteBuffer
+    ::Array<uint8_t>* _get_byteBuffer();
+    // Set instance field: private System.Byte[] byteBuffer
+    void _set_byteBuffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Char[] charBuffer
+    ::Array<::Il2CppChar>* _get_charBuffer();
+    // Set instance field: private System.Char[] charBuffer
+    void _set_charBuffer(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.Byte[] _preamble
+    ::Array<uint8_t>* _get__preamble();
+    // Set instance field: private System.Byte[] _preamble
+    void _set__preamble(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 charPos
+    int _get_charPos();
+    // Set instance field: private System.Int32 charPos
+    void _set_charPos(int value);
+    // Get instance field: private System.Int32 charLen
+    int _get_charLen();
+    // Set instance field: private System.Int32 charLen
+    void _set_charLen(int value);
+    // Get instance field: private System.Int32 byteLen
+    int _get_byteLen();
+    // Set instance field: private System.Int32 byteLen
+    void _set_byteLen(int value);
+    // Get instance field: private System.Int32 bytePos
+    int _get_bytePos();
+    // Set instance field: private System.Int32 bytePos
+    void _set_bytePos(int value);
+    // Get instance field: private System.Int32 _maxCharsPerBuffer
+    int _get__maxCharsPerBuffer();
+    // Set instance field: private System.Int32 _maxCharsPerBuffer
+    void _set__maxCharsPerBuffer(int value);
+    // Get instance field: private System.Boolean _detectEncoding
+    bool _get__detectEncoding();
+    // Set instance field: private System.Boolean _detectEncoding
+    void _set__detectEncoding(bool value);
+    // Get instance field: private System.Boolean _checkPreamble
+    bool _get__checkPreamble();
+    // Set instance field: private System.Boolean _checkPreamble
+    void _set__checkPreamble(bool value);
+    // Get instance field: private System.Boolean _isBlocked
+    bool _get__isBlocked();
+    // Set instance field: private System.Boolean _isBlocked
+    void _set__isBlocked(bool value);
+    // Get instance field: private System.Boolean _closable
+    bool _get__closable();
+    // Set instance field: private System.Boolean _closable
+    void _set__closable(bool value);
+    // Get instance field: private System.Threading.Tasks.Task _asyncReadTask
+    System::Threading::Tasks::Task* _get__asyncReadTask();
+    // Set instance field: private System.Threading.Tasks.Task _asyncReadTask
+    void _set__asyncReadTask(System::Threading::Tasks::Task* value);
     // static System.Int32 get_DefaultBufferSize()
     // Offset: 0x192E49C
     static int get_DefaultBufferSize();

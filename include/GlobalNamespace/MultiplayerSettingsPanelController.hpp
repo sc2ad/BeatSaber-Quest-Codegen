@@ -124,6 +124,46 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private ServerCodeView _serverCodeView
+    GlobalNamespace::ServerCodeView* _get__serverCodeView();
+    // Set instance field: private ServerCodeView _serverCodeView
+    void _set__serverCodeView(GlobalNamespace::ServerCodeView* value);
+    // Get instance field: private UnityEngine.UI.Toggle _spectateToggle
+    UnityEngine::UI::Toggle* _get__spectateToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _spectateToggle
+    void _set__spectateToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private UnityEngine.UI.Toggle _joinableToggle
+    UnityEngine::UI::Toggle* _get__joinableToggle();
+    // Set instance field: private UnityEngine.UI.Toggle _joinableToggle
+    void _set__joinableToggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private UnityEngine.GameObject _connectionSettingsWrapper
+    UnityEngine::GameObject* _get__connectionSettingsWrapper();
+    // Set instance field: private UnityEngine.GameObject _connectionSettingsWrapper
+    void _set__connectionSettingsWrapper(UnityEngine::GameObject* value);
+    // Get instance field: private UnityEngine.GameObject _spectateSettingsWrapper
+    UnityEngine::GameObject* _get__spectateSettingsWrapper();
+    // Set instance field: private UnityEngine.GameObject _spectateSettingsWrapper
+    void _set__spectateSettingsWrapper(UnityEngine::GameObject* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private HMUI.ToggleBinder _toggleBinder
+    HMUI::ToggleBinder* _get__toggleBinder();
+    // Set instance field: private HMUI.ToggleBinder _toggleBinder
+    void _set__toggleBinder(HMUI::ToggleBinder* value);
+    // Get instance field: private ILobbyPlayerData _lobbyPlayerData
+    GlobalNamespace::ILobbyPlayerData* _get__lobbyPlayerData();
+    // Set instance field: private ILobbyPlayerData _lobbyPlayerData
+    void _set__lobbyPlayerData(GlobalNamespace::ILobbyPlayerData* value);
+    // Get instance field: private System.Boolean _refreshed
+    bool _get__refreshed();
+    // Set instance field: private System.Boolean _refreshed
+    void _set__refreshed(bool value);
+    // Get instance field: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
+    System::Action_1<bool>* _get_playerActiveStateChangedEvent();
+    // Set instance field: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
+    void _set_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x100AFC8
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);

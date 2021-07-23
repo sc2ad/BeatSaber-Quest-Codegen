@@ -62,6 +62,18 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
     // Creating value type constructor for type: CADMethodReturnMessage
     CADMethodReturnMessage(::Il2CppObject* returnValue_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* exception_ = {}, ::Array<System::Type*>* sig_ = {}) noexcept : returnValue{returnValue_}, exception{exception_}, sig{sig_} {}
+    // Get instance field: private System.Object _returnValue
+    ::Il2CppObject* _get__returnValue();
+    // Set instance field: private System.Object _returnValue
+    void _set__returnValue(::Il2CppObject* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.CADArgHolder _exception
+    System::Runtime::Remoting::Messaging::CADArgHolder* _get__exception();
+    // Set instance field: private System.Runtime.Remoting.Messaging.CADArgHolder _exception
+    void _set__exception(System::Runtime::Remoting::Messaging::CADArgHolder* value);
+    // Get instance field: private System.Type[] _sig
+    ::Array<System::Type*>* _get__sig();
+    // Set instance field: private System.Type[] _sig
+    void _set__sig(::Array<System::Type*>* value);
     // System.Int32 get_PropertiesCount()
     // Offset: 0x19F674C
     int get_PropertiesCount();

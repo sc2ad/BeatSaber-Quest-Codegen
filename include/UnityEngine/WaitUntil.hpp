@@ -39,6 +39,10 @@ namespace UnityEngine {
     constexpr operator System::Func_1<bool>*() const noexcept {
       return m_Predicate;
     }
+    // Get instance field: private System.Func`1<System.Boolean> m_Predicate
+    System::Func_1<bool>* _get_m_Predicate();
+    // Set instance field: private System.Func`1<System.Boolean> m_Predicate
+    void _set_m_Predicate(System::Func_1<bool>* value);
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
     // Offset: 0x230A290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -63,6 +63,10 @@ namespace System::Reflection {
     static System::Reflection::CallingConventions _get_ExplicitThis();
     // Set static field: static public System.Reflection.CallingConventions ExplicitThis
     static void _set_ExplicitThis(System::Reflection::CallingConventions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Reflection.CallingConventions
   #pragma pack(pop)
   static check_size<sizeof(CallingConventions), 0 + sizeof(int)> __System_Reflection_CallingConventionsSizeCheck;

@@ -49,6 +49,10 @@ namespace System::Runtime::Remoting {
     constexpr operator System::MarshalByRefObject*() const noexcept {
       return targetThis;
     }
+    // Get instance field: private System.MarshalByRefObject _targetThis
+    System::MarshalByRefObject* _get__targetThis();
+    // Set instance field: private System.MarshalByRefObject _targetThis
+    void _set__targetThis(System::MarshalByRefObject* value);
     // public System.Void .ctor(System.String objectUri, System.Type objectType)
     // Offset: 0x13FA6E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

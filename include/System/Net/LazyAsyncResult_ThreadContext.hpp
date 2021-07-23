@@ -31,6 +31,10 @@ namespace System::Net {
     constexpr operator int() const noexcept {
       return m_NestedIOCount;
     }
+    // Get instance field: System.Int32 m_NestedIOCount
+    int _get_m_NestedIOCount();
+    // Set instance field: System.Int32 m_NestedIOCount
+    void _set_m_NestedIOCount(int value);
     // public System.Void .ctor()
     // Offset: 0x1641818
     // Implemented from: System.Object

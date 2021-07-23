@@ -61,6 +61,26 @@ namespace System::Net::Http {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value);
+    // Get instance field: public System.Net.Http.HttpContent <>4__this
+    System::Net::Http::HttpContent* _get_$$4__this();
+    // Set instance field: public System.Net.Http.HttpContent <>4__this
+    void _set_$$4__this(System::Net::Http::HttpContent* value);
+    // Get instance field: public System.Int64 maxBufferSize
+    int64_t _get_maxBufferSize();
+    // Set instance field: public System.Int64 maxBufferSize
+    void _set_maxBufferSize(int64_t value);
+    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
+    System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xEDC560
     void MoveNext();

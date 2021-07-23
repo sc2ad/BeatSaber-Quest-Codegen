@@ -45,6 +45,18 @@ namespace LiteNetLib {
     static int _get_LastProperty();
     // Set static field: static private readonly System.Int32 LastProperty
     static void _set_LastProperty(int value);
+    // Get instance field: public System.Byte[] RawData
+    ::Array<uint8_t>* _get_RawData();
+    // Set instance field: public System.Byte[] RawData
+    void _set_RawData(::Array<uint8_t>* value);
+    // Get instance field: public System.Int32 Size
+    int _get_Size();
+    // Set instance field: public System.Int32 Size
+    void _set_Size(int value);
+    // Get instance field: public System.Object UserData
+    ::Il2CppObject* _get_UserData();
+    // Set instance field: public System.Object UserData
+    void _set_UserData(::Il2CppObject* value);
     // public LiteNetLib.PacketProperty get_Property()
     // Offset: 0x1BB59C0
     LiteNetLib::PacketProperty get_Property();

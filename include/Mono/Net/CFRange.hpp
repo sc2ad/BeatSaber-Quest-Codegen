@@ -40,6 +40,14 @@ namespace Mono::Net {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr Location
+    System::IntPtr _get_Location();
+    // Set instance field: public System.IntPtr Location
+    void _set_Location(System::IntPtr value);
+    // Get instance field: public System.IntPtr Length
+    System::IntPtr _get_Length();
+    // Set instance field: public System.IntPtr Length
+    void _set_Length(System::IntPtr value);
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
     // Offset: 0xEDE920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

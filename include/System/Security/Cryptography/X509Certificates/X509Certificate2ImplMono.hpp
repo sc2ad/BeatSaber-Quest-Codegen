@@ -136,6 +136,38 @@ namespace System::Security::Cryptography::X509Certificates {
     static ::Array<uint8_t>* _get_signedData();
     // Set static field: static private System.Byte[] signedData
     static void _set_signedData(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean _archived
+    bool _get__archived();
+    // Set instance field: private System.Boolean _archived
+    void _set__archived(bool value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509ExtensionCollection _extensions
+    System::Security::Cryptography::X509Certificates::X509ExtensionCollection* _get__extensions();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509ExtensionCollection _extensions
+    void _set__extensions(System::Security::Cryptography::X509Certificates::X509ExtensionCollection* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.PublicKey _publicKey
+    System::Security::Cryptography::X509Certificates::PublicKey* _get__publicKey();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.PublicKey _publicKey
+    void _set__publicKey(System::Security::Cryptography::X509Certificates::PublicKey* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X500DistinguishedName issuer_name
+    System::Security::Cryptography::X509Certificates::X500DistinguishedName* _get_issuer_name();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X500DistinguishedName issuer_name
+    void _set_issuer_name(System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X500DistinguishedName subject_name
+    System::Security::Cryptography::X509Certificates::X500DistinguishedName* _get_subject_name();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X500DistinguishedName subject_name
+    void _set_subject_name(System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
+    // Get instance field: private System.Security.Cryptography.Oid signature_algorithm
+    System::Security::Cryptography::Oid* _get_signature_algorithm();
+    // Set instance field: private System.Security.Cryptography.Oid signature_algorithm
+    void _set_signature_algorithm(System::Security::Cryptography::Oid* value);
+    // Get instance field: private System.Security.Cryptography.X509Certificates.X509CertificateImplCollection intermediateCerts
+    System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* _get_intermediateCerts();
+    // Set instance field: private System.Security.Cryptography.X509Certificates.X509CertificateImplCollection intermediateCerts
+    void _set_intermediateCerts(System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* value);
+    // Get instance field: private Mono.Security.X509.X509Certificate _cert
+    Mono::Security::X509::X509Certificate* _get__cert();
+    // Set instance field: private Mono.Security.X509.X509Certificate _cert
+    void _set__cert(Mono::Security::X509::X509Certificate* value);
     // Mono.Security.X509.X509Certificate get_MonoCertificate()
     // Offset: 0x182C9E0
     Mono::Security::X509::X509Certificate* get_MonoCertificate();

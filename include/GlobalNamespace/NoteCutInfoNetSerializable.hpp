@@ -136,6 +136,62 @@ namespace GlobalNamespace {
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Get instance field: public System.Single saberSpeed
+    float _get_saberSpeed();
+    // Set instance field: public System.Single saberSpeed
+    void _set_saberSpeed(float value);
+    // Get instance field: public System.Boolean cutWasOk
+    bool _get_cutWasOk();
+    // Set instance field: public System.Boolean cutWasOk
+    void _set_cutWasOk(bool value);
+    // Get instance field: public Vector3Serializable saberDir
+    GlobalNamespace::Vector3Serializable _get_saberDir();
+    // Set instance field: public Vector3Serializable saberDir
+    void _set_saberDir(GlobalNamespace::Vector3Serializable value);
+    // Get instance field: public Vector3Serializable cutPoint
+    GlobalNamespace::Vector3Serializable _get_cutPoint();
+    // Set instance field: public Vector3Serializable cutPoint
+    void _set_cutPoint(GlobalNamespace::Vector3Serializable value);
+    // Get instance field: public Vector3Serializable cutNormal
+    GlobalNamespace::Vector3Serializable _get_cutNormal();
+    // Set instance field: public Vector3Serializable cutNormal
+    void _set_cutNormal(GlobalNamespace::Vector3Serializable value);
+    // Get instance field: public Vector3Serializable notePosition
+    GlobalNamespace::Vector3Serializable _get_notePosition();
+    // Set instance field: public Vector3Serializable notePosition
+    void _set_notePosition(GlobalNamespace::Vector3Serializable value);
+    // Get instance field: public Vector3Serializable noteScale
+    GlobalNamespace::Vector3Serializable _get_noteScale();
+    // Set instance field: public Vector3Serializable noteScale
+    void _set_noteScale(GlobalNamespace::Vector3Serializable value);
+    // Get instance field: public QuaternionSerializable noteRotation
+    GlobalNamespace::QuaternionSerializable _get_noteRotation();
+    // Set instance field: public QuaternionSerializable noteRotation
+    void _set_noteRotation(GlobalNamespace::QuaternionSerializable value);
+    // Get instance field: public ColorType colorType
+    GlobalNamespace::ColorType _get_colorType();
+    // Set instance field: public ColorType colorType
+    void _set_colorType(GlobalNamespace::ColorType value);
+    // Get instance field: public System.Single noteTime
+    float _get_noteTime();
+    // Set instance field: public System.Single noteTime
+    void _set_noteTime(float value);
+    // Get instance field: public System.Int32 noteLineIndex
+    int _get_noteLineIndex();
+    // Set instance field: public System.Int32 noteLineIndex
+    void _set_noteLineIndex(int value);
+    // Get instance field: public NoteLineLayer noteLineLayer
+    GlobalNamespace::NoteLineLayer _get_noteLineLayer();
+    // Set instance field: public NoteLineLayer noteLineLayer
+    void _set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
+    // Get instance field: public System.Single timeToNextColorNote
+    float _get_timeToNextColorNote();
+    // Set instance field: public System.Single timeToNextColorNote
+    void _set_timeToNextColorNote(float value);
+    // Get instance field: public Vector3Serializable moveVec
+    GlobalNamespace::Vector3Serializable _get_moveVec();
+    // Set instance field: public Vector3Serializable moveVec
+    void _set_moveVec(GlobalNamespace::Vector3Serializable value);
     // public System.Void .ctor(in NoteCutInfo noteCutInfo, NoteData noteData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 moveVec)
     // Offset: 0x2328824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

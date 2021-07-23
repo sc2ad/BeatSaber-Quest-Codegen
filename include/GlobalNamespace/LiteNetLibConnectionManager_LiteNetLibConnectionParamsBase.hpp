@@ -81,6 +81,42 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*>(this);
     }
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.Int32 port
+    int _get_port();
+    // Set instance field: public System.Int32 port
+    void _set_port(int value);
+    // Get instance field: public System.Boolean filterUnencryptedTraffic
+    bool _get_filterUnencryptedTraffic();
+    // Set instance field: public System.Boolean filterUnencryptedTraffic
+    void _set_filterUnencryptedTraffic(bool value);
+    // Get instance field: public System.Boolean enableUnconnectedMessages
+    bool _get_enableUnconnectedMessages();
+    // Set instance field: public System.Boolean enableUnconnectedMessages
+    void _set_enableUnconnectedMessages(bool value);
+    // Get instance field: public System.Boolean enableBackgroundSentry
+    bool _get_enableBackgroundSentry();
+    // Set instance field: public System.Boolean enableBackgroundSentry
+    void _set_enableBackgroundSentry(bool value);
+    // Get instance field: public System.Boolean enableStatistics
+    bool _get_enableStatistics();
+    // Set instance field: public System.Boolean enableStatistics
+    void _set_enableStatistics(bool value);
+    // Get instance field: public System.Int32 disconnectTimeoutMs
+    int _get_disconnectTimeoutMs();
+    // Set instance field: public System.Int32 disconnectTimeoutMs
+    void _set_disconnectTimeoutMs(int value);
     // protected System.Void .ctor()
     // Offset: 0x12CAA44
     // Implemented from: System.Object

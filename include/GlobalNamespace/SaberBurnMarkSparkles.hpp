@@ -120,6 +120,54 @@ namespace GlobalNamespace {
     SaberBurnMarkSparkles(UnityEngine::ParticleSystem* sparklesPS_ = {}, UnityEngine::ParticleSystem* burnMarksPSPrefab_ = {}, UnityEngine::BoxCollider* boxCollider_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, ::Array<GlobalNamespace::Saber*>* sabers_ = {}, UnityEngine::Plane plane_ = {}, ::Array<UnityEngine::Vector3>* prevBurnMarkPos_ = {}, ::Array<bool>* prevBurnMarkPosValid_ = {}, ::Array<UnityEngine::ParticleSystem*>* burnMarksPS_ = {}, ::Array<UnityEngine::ParticleSystem::EmissionModule>* burnMarksEmissionModules_ = {}, UnityEngine::ParticleSystem::EmitParams sparklesEmitParams_ = {}) noexcept : sparklesPS{sparklesPS_}, burnMarksPSPrefab{burnMarksPSPrefab_}, boxCollider{boxCollider_}, colorManager{colorManager_}, saberManager{saberManager_}, sabers{sabers_}, plane{plane_}, prevBurnMarkPos{prevBurnMarkPos_}, prevBurnMarkPosValid{prevBurnMarkPosValid_}, burnMarksPS{burnMarksPS_}, burnMarksEmissionModules{burnMarksEmissionModules_}, sparklesEmitParams{sparklesEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.ParticleSystem _sparklesPS
+    UnityEngine::ParticleSystem* _get__sparklesPS();
+    // Set instance field: private UnityEngine.ParticleSystem _sparklesPS
+    void _set__sparklesPS(UnityEngine::ParticleSystem* value);
+    // Get instance field: private UnityEngine.ParticleSystem _burnMarksPSPrefab
+    UnityEngine::ParticleSystem* _get__burnMarksPSPrefab();
+    // Set instance field: private UnityEngine.ParticleSystem _burnMarksPSPrefab
+    void _set__burnMarksPSPrefab(UnityEngine::ParticleSystem* value);
+    // Get instance field: private UnityEngine.BoxCollider _boxCollider
+    UnityEngine::BoxCollider* _get__boxCollider();
+    // Set instance field: private UnityEngine.BoxCollider _boxCollider
+    void _set__boxCollider(UnityEngine::BoxCollider* value);
+    // Get instance field: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private readonly ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private readonly SaberManager _saberManager
+    GlobalNamespace::SaberManager* _get__saberManager();
+    // Set instance field: private readonly SaberManager _saberManager
+    void _set__saberManager(GlobalNamespace::SaberManager* value);
+    // Get instance field: private Saber[] _sabers
+    ::Array<GlobalNamespace::Saber*>* _get__sabers();
+    // Set instance field: private Saber[] _sabers
+    void _set__sabers(::Array<GlobalNamespace::Saber*>* value);
+    // Get instance field: private UnityEngine.Plane _plane
+    UnityEngine::Plane _get__plane();
+    // Set instance field: private UnityEngine.Plane _plane
+    void _set__plane(UnityEngine::Plane value);
+    // Get instance field: private UnityEngine.Vector3[] _prevBurnMarkPos
+    ::Array<UnityEngine::Vector3>* _get__prevBurnMarkPos();
+    // Set instance field: private UnityEngine.Vector3[] _prevBurnMarkPos
+    void _set__prevBurnMarkPos(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private System.Boolean[] _prevBurnMarkPosValid
+    ::Array<bool>* _get__prevBurnMarkPosValid();
+    // Set instance field: private System.Boolean[] _prevBurnMarkPosValid
+    void _set__prevBurnMarkPosValid(::Array<bool>* value);
+    // Get instance field: private UnityEngine.ParticleSystem[] _burnMarksPS
+    ::Array<UnityEngine::ParticleSystem*>* _get__burnMarksPS();
+    // Set instance field: private UnityEngine.ParticleSystem[] _burnMarksPS
+    void _set__burnMarksPS(::Array<UnityEngine::ParticleSystem*>* value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
+    ::Array<UnityEngine::ParticleSystem::EmissionModule>* _get__burnMarksEmissionModules();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
+    void _set__burnMarksEmissionModules(::Array<UnityEngine::ParticleSystem::EmissionModule>* value);
+    // Get instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
+    UnityEngine::ParticleSystem::EmitParams _get__sparklesEmitParams();
+    // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
+    void _set__sparklesEmitParams(UnityEngine::ParticleSystem::EmitParams value);
     // protected System.Void Start()
     // Offset: 0x1149D34
     void Start();

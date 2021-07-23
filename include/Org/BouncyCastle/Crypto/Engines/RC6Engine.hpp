@@ -68,6 +68,14 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static int _get_LGW();
     // Set static field: static private readonly System.Int32 LGW
     static void _set_LGW(int value);
+    // Get instance field: private System.Int32[] _S
+    ::Array<int>* _get__S();
+    // Set instance field: private System.Int32[] _S
+    void _set__S(::Array<int>* value);
+    // Get instance field: private System.Boolean forEncryption
+    bool _get_forEncryption();
+    // Set instance field: private System.Boolean forEncryption
+    void _set_forEncryption(bool value);
     // public System.String get_AlgorithmName()
     // Offset: 0x1E0EC8C
     ::Il2CppString* get_AlgorithmName();

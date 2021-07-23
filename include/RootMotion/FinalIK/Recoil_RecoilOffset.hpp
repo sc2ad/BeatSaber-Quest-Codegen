@@ -80,6 +80,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: RecoilOffset
     RecoilOffset(UnityEngine::Vector3 offset_ = {}, float additivity_ = {}, float maxAdditiveOffsetMag_ = {}, ::Array<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>* effectorLinks_ = {}, UnityEngine::Vector3 additiveOffset_ = {}, UnityEngine::Vector3 lastOffset_ = {}) noexcept : offset{offset_}, additivity{additivity_}, maxAdditiveOffsetMag{maxAdditiveOffsetMag_}, effectorLinks{effectorLinks_}, additiveOffset{additiveOffset_}, lastOffset{lastOffset_} {}
+    // Get instance field: public UnityEngine.Vector3 offset
+    UnityEngine::Vector3 _get_offset();
+    // Set instance field: public UnityEngine.Vector3 offset
+    void _set_offset(UnityEngine::Vector3 value);
+    // Get instance field: public System.Single additivity
+    float _get_additivity();
+    // Set instance field: public System.Single additivity
+    void _set_additivity(float value);
+    // Get instance field: public System.Single maxAdditiveOffsetMag
+    float _get_maxAdditiveOffsetMag();
+    // Set instance field: public System.Single maxAdditiveOffsetMag
+    void _set_maxAdditiveOffsetMag(float value);
+    // Get instance field: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    ::Array<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>* _get_effectorLinks();
+    // Set instance field: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
+    void _set_effectorLinks(::Array<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>* value);
+    // Get instance field: private UnityEngine.Vector3 additiveOffset
+    UnityEngine::Vector3 _get_additiveOffset();
+    // Set instance field: private UnityEngine.Vector3 additiveOffset
+    void _set_additiveOffset(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 lastOffset
+    UnityEngine::Vector3 _get_lastOffset();
+    // Set instance field: private UnityEngine.Vector3 lastOffset
+    void _set_lastOffset(UnityEngine::Vector3 value);
     // public System.Void Start()
     // Offset: 0x1AB94F4
     void Start();

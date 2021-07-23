@@ -95,6 +95,10 @@ namespace UnityEngine::ProBuilder {
       static UnityEngine::ProBuilder::PolyShape::PolyEditMode _get_Edit();
       // Set static field: static public UnityEngine.ProBuilder.PolyShape/UnityEngine.ProBuilder.PolyEditMode Edit
       static void _set_Edit(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.ProBuilder.PolyShape/UnityEngine.ProBuilder.PolyEditMode
     #pragma pack(pop)
     static check_size<sizeof(PolyShape::PolyEditMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_PolyShape_PolyEditModeSizeCheck;
@@ -143,6 +147,30 @@ namespace UnityEngine::ProBuilder {
     PolyShape(UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh_ = {}, System::Collections::Generic::List_1<UnityEngine::Vector3>* m_Points_ = {}, float m_Extrude_ = {}, UnityEngine::ProBuilder::PolyShape::PolyEditMode m_EditMode_ = {}, bool m_FlipNormals_ = {}, bool isOnGrid_ = {}) noexcept : m_Mesh{m_Mesh_}, m_Points{m_Points_}, m_Extrude{m_Extrude_}, m_EditMode{m_EditMode_}, m_FlipNormals{m_FlipNormals_}, isOnGrid{isOnGrid_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_m_Mesh();
+    // Set instance field: private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
+    void _set_m_Mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
+    // Get instance field: System.Collections.Generic.List`1<UnityEngine.Vector3> m_Points
+    System::Collections::Generic::List_1<UnityEngine::Vector3>* _get_m_Points();
+    // Set instance field: System.Collections.Generic.List`1<UnityEngine.Vector3> m_Points
+    void _set_m_Points(System::Collections::Generic::List_1<UnityEngine::Vector3>* value);
+    // Get instance field: private System.Single m_Extrude
+    float _get_m_Extrude();
+    // Set instance field: private System.Single m_Extrude
+    void _set_m_Extrude(float value);
+    // Get instance field: private UnityEngine.ProBuilder.PolyShape/UnityEngine.ProBuilder.PolyEditMode m_EditMode
+    UnityEngine::ProBuilder::PolyShape::PolyEditMode _get_m_EditMode();
+    // Set instance field: private UnityEngine.ProBuilder.PolyShape/UnityEngine.ProBuilder.PolyEditMode m_EditMode
+    void _set_m_EditMode(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
+    // Get instance field: private System.Boolean m_FlipNormals
+    bool _get_m_FlipNormals();
+    // Set instance field: private System.Boolean m_FlipNormals
+    void _set_m_FlipNormals(bool value);
+    // Get instance field: System.Boolean isOnGrid
+    bool _get_isOnGrid();
+    // Set instance field: System.Boolean isOnGrid
+    void _set_isOnGrid(bool value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> get_controlPoints()
     // Offset: 0x17049A8
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* get_controlPoints();

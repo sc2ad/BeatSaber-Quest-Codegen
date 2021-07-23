@@ -101,6 +101,46 @@ namespace System::Threading {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: public System.Threading.SemaphoreSlim/System.Threading.TaskNode asyncWaiter
+    System::Threading::SemaphoreSlim::TaskNode* _get_asyncWaiter();
+    // Set instance field: public System.Threading.SemaphoreSlim/System.Threading.TaskNode asyncWaiter
+    void _set_asyncWaiter(System::Threading::SemaphoreSlim::TaskNode* value);
+    // Get instance field: public System.Int32 millisecondsTimeout
+    int _get_millisecondsTimeout();
+    // Set instance field: public System.Int32 millisecondsTimeout
+    void _set_millisecondsTimeout(int value);
+    // Get instance field: private System.Threading.CancellationTokenSource <cts>5__1
+    System::Threading::CancellationTokenSource* _get_$cts$5__1();
+    // Set instance field: private System.Threading.CancellationTokenSource <cts>5__1
+    void _set_$cts$5__1(System::Threading::CancellationTokenSource* value);
+    // Get instance field: public System.Threading.SemaphoreSlim <>4__this
+    System::Threading::SemaphoreSlim* _get_$$4__this();
+    // Set instance field: public System.Threading.SemaphoreSlim <>4__this
+    void _set_$$4__this(System::Threading::SemaphoreSlim* value);
+    // Get instance field: private System.Object <>7__wrap1
+    ::Il2CppObject* _get_$$7__wrap1();
+    // Set instance field: private System.Object <>7__wrap1
+    void _set_$$7__wrap1(::Il2CppObject* value);
+    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Threading.Tasks.Task> <>u__1
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Threading::Tasks::Task*>::ConfiguredTaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Threading.Tasks.Task> <>u__1
+    void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Threading::Tasks::Task*>::ConfiguredTaskAwaiter value);
+    // Get instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Boolean> <>u__2
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter _get_$$u__2();
+    // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Boolean> <>u__2
+    void _set_$$u__2(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xEEA7F8
     void MoveNext();

@@ -49,6 +49,10 @@ namespace System::Security::Authentication::ExtendedProtection {
     static System::Security::Authentication::ExtendedProtection::PolicyEnforcement _get_Always();
     // Set static field: static public System.Security.Authentication.ExtendedProtection.PolicyEnforcement Always
     static void _set_Always(System::Security::Authentication::ExtendedProtection::PolicyEnforcement value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Security.Authentication.ExtendedProtection.PolicyEnforcement
   #pragma pack(pop)
   static check_size<sizeof(PolicyEnforcement), 0 + sizeof(int)> __System_Security_Authentication_ExtendedProtection_PolicyEnforcementSizeCheck;

@@ -79,6 +79,10 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::TaskStatus _get_Faulted();
     // Set static field: static public System.Threading.Tasks.TaskStatus Faulted
     static void _set_Faulted(System::Threading::Tasks::TaskStatus value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Threading.Tasks.TaskStatus
   #pragma pack(pop)
   static check_size<sizeof(TaskStatus), 0 + sizeof(int)> __System_Threading_Tasks_TaskStatusSizeCheck;

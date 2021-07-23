@@ -58,6 +58,14 @@ namespace Zenject {
     static_assert(sizeof(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass2_0
     $$c__DisplayClass2_0(Zenject::PoolableManager* $$4__this_ = {}, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities_ = {}) noexcept : $$4__this{$$4__this_}, priorities{priorities_} {}
+    // Get instance field: public Zenject.PoolableManager <>4__this
+    Zenject::PoolableManager* _get_$$4__this();
+    // Set instance field: public Zenject.PoolableManager <>4__this
+    void _set_$$4__this(Zenject::PoolableManager* value);
+    // Get instance field: public System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities
+    System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* _get_priorities();
+    // Set instance field: public System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities
+    void _set_priorities(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* value);
     // Zenject.PoolableManager/Zenject.PoolableInfo <.ctor>b__0(Zenject.IPoolable x)
     // Offset: 0x16C6790
     Zenject::PoolableManager::PoolableInfo $_ctor$b__0(Zenject::IPoolable* x);

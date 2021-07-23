@@ -45,6 +45,10 @@ namespace Mono {
       constexpr operator uint8_t() const noexcept {
         return FixedElementField;
       }
+      // Get instance field: public System.Byte FixedElementField
+      uint8_t _get_FixedElementField();
+      // Set instance field: public System.Byte FixedElementField
+      void _set_FixedElementField(uint8_t value);
     }; // Mono.MonoAssemblyName/Mono.<public_key_token>e__FixedBuffer
     #pragma pack(pop)
     static check_size<sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer), 0 + sizeof(uint8_t)> __Mono_MonoAssemblyName_$public_key_token$e__FixedBufferSizeCheck;
@@ -136,6 +140,58 @@ namespace Mono {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.IntPtr name
+    System::IntPtr _get_name();
+    // Set instance field: System.IntPtr name
+    void _set_name(System::IntPtr value);
+    // Get instance field: System.IntPtr culture
+    System::IntPtr _get_culture();
+    // Set instance field: System.IntPtr culture
+    void _set_culture(System::IntPtr value);
+    // Get instance field: System.IntPtr hash_value
+    System::IntPtr _get_hash_value();
+    // Set instance field: System.IntPtr hash_value
+    void _set_hash_value(System::IntPtr value);
+    // Get instance field: System.IntPtr public_key
+    System::IntPtr _get_public_key();
+    // Set instance field: System.IntPtr public_key
+    void _set_public_key(System::IntPtr value);
+    // Get instance field: Mono.MonoAssemblyName/Mono.<public_key_token>e__FixedBuffer public_key_token
+    Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer _get_public_key_token();
+    // Set instance field: Mono.MonoAssemblyName/Mono.<public_key_token>e__FixedBuffer public_key_token
+    void _set_public_key_token(Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer value);
+    // Get instance field: System.UInt32 hash_alg
+    uint _get_hash_alg();
+    // Set instance field: System.UInt32 hash_alg
+    void _set_hash_alg(uint value);
+    // Get instance field: System.UInt32 hash_len
+    uint _get_hash_len();
+    // Set instance field: System.UInt32 hash_len
+    void _set_hash_len(uint value);
+    // Get instance field: System.UInt32 flags
+    uint _get_flags();
+    // Set instance field: System.UInt32 flags
+    void _set_flags(uint value);
+    // Get instance field: System.UInt16 major
+    uint16_t _get_major();
+    // Set instance field: System.UInt16 major
+    void _set_major(uint16_t value);
+    // Get instance field: System.UInt16 minor
+    uint16_t _get_minor();
+    // Set instance field: System.UInt16 minor
+    void _set_minor(uint16_t value);
+    // Get instance field: System.UInt16 build
+    uint16_t _get_build();
+    // Set instance field: System.UInt16 build
+    void _set_build(uint16_t value);
+    // Get instance field: System.UInt16 revision
+    uint16_t _get_revision();
+    // Set instance field: System.UInt16 revision
+    void _set_revision(uint16_t value);
+    // Get instance field: System.UInt16 arch
+    uint16_t _get_arch();
+    // Set instance field: System.UInt16 arch
+    void _set_arch(uint16_t value);
   }; // Mono.MonoAssemblyName
   #pragma pack(pop)
   static check_size<sizeof(MonoAssemblyName), 72 + sizeof(uint16_t)> __Mono_MonoAssemblyNameSizeCheck;

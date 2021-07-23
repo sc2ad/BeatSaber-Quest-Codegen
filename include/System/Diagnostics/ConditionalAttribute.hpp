@@ -33,6 +33,10 @@ namespace System::Diagnostics {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_conditionString;
     }
+    // Get instance field: private System.String m_conditionString
+    ::Il2CppString* _get_m_conditionString();
+    // Set instance field: private System.String m_conditionString
+    void _set_m_conditionString(::Il2CppString* value);
     // public System.Void .ctor(System.String conditionString)
     // Offset: 0x1B22608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

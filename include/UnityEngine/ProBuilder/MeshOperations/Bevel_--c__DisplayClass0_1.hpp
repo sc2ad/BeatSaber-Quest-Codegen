@@ -41,6 +41,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     constexpr operator UnityEngine::ProBuilder::EdgeLookup() const noexcept {
       return lup;
     }
+    // Get instance field: public UnityEngine.ProBuilder.EdgeLookup lup
+    UnityEngine::ProBuilder::EdgeLookup _get_lup();
+    // Set instance field: public UnityEngine.ProBuilder.EdgeLookup lup
+    void _set_lup(UnityEngine::ProBuilder::EdgeLookup value);
     // System.Boolean <BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x15169FC
     bool $BevelEdges$b__4(UnityEngine::ProBuilder::WingedEdge* x);

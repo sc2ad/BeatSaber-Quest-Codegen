@@ -547,6 +547,10 @@ namespace Valve::VR {
     static Valve::VR::EVRInitError _get_Steam_SteamInstallationNotFound();
     // Set static field: static public Valve.VR.EVRInitError Steam_SteamInstallationNotFound
     static void _set_Steam_SteamInstallationNotFound(Valve::VR::EVRInitError value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Valve.VR.EVRInitError
   #pragma pack(pop)
   static check_size<sizeof(EVRInitError), 0 + sizeof(int)> __Valve_VR_EVRInitErrorSizeCheck;

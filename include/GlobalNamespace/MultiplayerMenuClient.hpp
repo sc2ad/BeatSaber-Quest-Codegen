@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     MultiplayerMenuClient(GlobalNamespace::MenuPlayerController* menuPlayerController_ = {}, GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager_ = {}) noexcept : menuPlayerController{menuPlayerController_}, nodePoseSyncStateManager{nodePoseSyncStateManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly MenuPlayerController _menuPlayerController
+    GlobalNamespace::MenuPlayerController* _get__menuPlayerController();
+    // Set instance field: private readonly MenuPlayerController _menuPlayerController
+    void _set__menuPlayerController(GlobalNamespace::MenuPlayerController* value);
+    // Get instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
+    GlobalNamespace::INodePoseSyncStateManager* _get__nodePoseSyncStateManager();
+    // Set instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
+    void _set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager* value);
     // protected System.Void LateUpdate()
     // Offset: 0x23D8EEC
     void LateUpdate();

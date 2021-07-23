@@ -278,6 +278,158 @@ namespace GlobalNamespace {
     OVRPlayerController(float Acceleration_ = {}, float Damping_ = {}, float BackAndSideDampen_ = {}, float JumpForce_ = {}, float RotationAmount_ = {}, float RotationRatchet_ = {}, bool SnapRotation_ = {}, bool RotateAroundGuardianCenter_ = {}, int FixedSpeedSteps_ = {}, bool HmdResetsY_ = {}, bool HmdRotatesY_ = {}, float GravityModifier_ = {}, bool useProfileData_ = {}, float CameraHeight_ = {}, System::Action_1<UnityEngine::Transform*>* TransformUpdated_ = {}, bool Teleported_ = {}, System::Action* CameraUpdated_ = {}, System::Action* PreCharacterMove_ = {}, bool EnableLinearMovement_ = {}, bool EnableRotation_ = {}, bool RotationEitherThumbstick_ = {}, UnityEngine::CharacterController* Controller_ = {}, GlobalNamespace::OVRCameraRig* CameraRig_ = {}, float MoveScale_ = {}, UnityEngine::Vector3 MoveThrottle_ = {}, float FallSpeed_ = {}, System::Nullable_1<GlobalNamespace::OVRPose> InitialPose_ = {}, float InitialYRotation_ = {}, float MoveScaleMultiplier_ = {}, float RotationScaleMultiplier_ = {}, bool SkipMouseRotation_ = {}, bool HaltUpdateMovement_ = {}, bool prevHatLeft_ = {}, bool prevHatRight_ = {}, float SimulationRate_ = {}, float buttonRotation_ = {}, bool ReadyToSnapTurn_ = {}, bool playerControllerEnabled_ = {}) noexcept : Acceleration{Acceleration_}, Damping{Damping_}, BackAndSideDampen{BackAndSideDampen_}, JumpForce{JumpForce_}, RotationAmount{RotationAmount_}, RotationRatchet{RotationRatchet_}, SnapRotation{SnapRotation_}, RotateAroundGuardianCenter{RotateAroundGuardianCenter_}, FixedSpeedSteps{FixedSpeedSteps_}, HmdResetsY{HmdResetsY_}, HmdRotatesY{HmdRotatesY_}, GravityModifier{GravityModifier_}, useProfileData{useProfileData_}, CameraHeight{CameraHeight_}, TransformUpdated{TransformUpdated_}, Teleported{Teleported_}, CameraUpdated{CameraUpdated_}, PreCharacterMove{PreCharacterMove_}, EnableLinearMovement{EnableLinearMovement_}, EnableRotation{EnableRotation_}, RotationEitherThumbstick{RotationEitherThumbstick_}, Controller{Controller_}, CameraRig{CameraRig_}, MoveScale{MoveScale_}, MoveThrottle{MoveThrottle_}, FallSpeed{FallSpeed_}, InitialPose{InitialPose_}, InitialYRotation{InitialYRotation_}, MoveScaleMultiplier{MoveScaleMultiplier_}, RotationScaleMultiplier{RotationScaleMultiplier_}, SkipMouseRotation{SkipMouseRotation_}, HaltUpdateMovement{HaltUpdateMovement_}, prevHatLeft{prevHatLeft_}, prevHatRight{prevHatRight_}, SimulationRate{SimulationRate_}, buttonRotation{buttonRotation_}, ReadyToSnapTurn{ReadyToSnapTurn_}, playerControllerEnabled{playerControllerEnabled_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Single Acceleration
+    float _get_Acceleration();
+    // Set instance field: public System.Single Acceleration
+    void _set_Acceleration(float value);
+    // Get instance field: public System.Single Damping
+    float _get_Damping();
+    // Set instance field: public System.Single Damping
+    void _set_Damping(float value);
+    // Get instance field: public System.Single BackAndSideDampen
+    float _get_BackAndSideDampen();
+    // Set instance field: public System.Single BackAndSideDampen
+    void _set_BackAndSideDampen(float value);
+    // Get instance field: public System.Single JumpForce
+    float _get_JumpForce();
+    // Set instance field: public System.Single JumpForce
+    void _set_JumpForce(float value);
+    // Get instance field: public System.Single RotationAmount
+    float _get_RotationAmount();
+    // Set instance field: public System.Single RotationAmount
+    void _set_RotationAmount(float value);
+    // Get instance field: public System.Single RotationRatchet
+    float _get_RotationRatchet();
+    // Set instance field: public System.Single RotationRatchet
+    void _set_RotationRatchet(float value);
+    // Get instance field: public System.Boolean SnapRotation
+    bool _get_SnapRotation();
+    // Set instance field: public System.Boolean SnapRotation
+    void _set_SnapRotation(bool value);
+    // Get instance field: public System.Boolean RotateAroundGuardianCenter
+    bool _get_RotateAroundGuardianCenter();
+    // Set instance field: public System.Boolean RotateAroundGuardianCenter
+    void _set_RotateAroundGuardianCenter(bool value);
+    // Get instance field: public System.Int32 FixedSpeedSteps
+    int _get_FixedSpeedSteps();
+    // Set instance field: public System.Int32 FixedSpeedSteps
+    void _set_FixedSpeedSteps(int value);
+    // Get instance field: public System.Boolean HmdResetsY
+    bool _get_HmdResetsY();
+    // Set instance field: public System.Boolean HmdResetsY
+    void _set_HmdResetsY(bool value);
+    // Get instance field: public System.Boolean HmdRotatesY
+    bool _get_HmdRotatesY();
+    // Set instance field: public System.Boolean HmdRotatesY
+    void _set_HmdRotatesY(bool value);
+    // Get instance field: public System.Single GravityModifier
+    float _get_GravityModifier();
+    // Set instance field: public System.Single GravityModifier
+    void _set_GravityModifier(float value);
+    // Get instance field: public System.Boolean useProfileData
+    bool _get_useProfileData();
+    // Set instance field: public System.Boolean useProfileData
+    void _set_useProfileData(bool value);
+    // Get instance field: public System.Single CameraHeight
+    float _get_CameraHeight();
+    // Set instance field: public System.Single CameraHeight
+    void _set_CameraHeight(float value);
+    // Get instance field: private System.Action`1<UnityEngine.Transform> TransformUpdated
+    System::Action_1<UnityEngine::Transform*>* _get_TransformUpdated();
+    // Set instance field: private System.Action`1<UnityEngine.Transform> TransformUpdated
+    void _set_TransformUpdated(System::Action_1<UnityEngine::Transform*>* value);
+    // Get instance field: public System.Boolean Teleported
+    bool _get_Teleported();
+    // Set instance field: public System.Boolean Teleported
+    void _set_Teleported(bool value);
+    // Get instance field: private System.Action CameraUpdated
+    System::Action* _get_CameraUpdated();
+    // Set instance field: private System.Action CameraUpdated
+    void _set_CameraUpdated(System::Action* value);
+    // Get instance field: private System.Action PreCharacterMove
+    System::Action* _get_PreCharacterMove();
+    // Set instance field: private System.Action PreCharacterMove
+    void _set_PreCharacterMove(System::Action* value);
+    // Get instance field: public System.Boolean EnableLinearMovement
+    bool _get_EnableLinearMovement();
+    // Set instance field: public System.Boolean EnableLinearMovement
+    void _set_EnableLinearMovement(bool value);
+    // Get instance field: public System.Boolean EnableRotation
+    bool _get_EnableRotation();
+    // Set instance field: public System.Boolean EnableRotation
+    void _set_EnableRotation(bool value);
+    // Get instance field: public System.Boolean RotationEitherThumbstick
+    bool _get_RotationEitherThumbstick();
+    // Set instance field: public System.Boolean RotationEitherThumbstick
+    void _set_RotationEitherThumbstick(bool value);
+    // Get instance field: protected UnityEngine.CharacterController Controller
+    UnityEngine::CharacterController* _get_Controller();
+    // Set instance field: protected UnityEngine.CharacterController Controller
+    void _set_Controller(UnityEngine::CharacterController* value);
+    // Get instance field: protected OVRCameraRig CameraRig
+    GlobalNamespace::OVRCameraRig* _get_CameraRig();
+    // Set instance field: protected OVRCameraRig CameraRig
+    void _set_CameraRig(GlobalNamespace::OVRCameraRig* value);
+    // Get instance field: private System.Single MoveScale
+    float _get_MoveScale();
+    // Set instance field: private System.Single MoveScale
+    void _set_MoveScale(float value);
+    // Get instance field: private UnityEngine.Vector3 MoveThrottle
+    UnityEngine::Vector3 _get_MoveThrottle();
+    // Set instance field: private UnityEngine.Vector3 MoveThrottle
+    void _set_MoveThrottle(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single FallSpeed
+    float _get_FallSpeed();
+    // Set instance field: private System.Single FallSpeed
+    void _set_FallSpeed(float value);
+    // Get instance field: private System.Nullable`1<OVRPose> InitialPose
+    System::Nullable_1<GlobalNamespace::OVRPose> _get_InitialPose();
+    // Set instance field: private System.Nullable`1<OVRPose> InitialPose
+    void _set_InitialPose(System::Nullable_1<GlobalNamespace::OVRPose> value);
+    // Get instance field: private System.Single <InitialYRotation>k__BackingField
+    float _get_$InitialYRotation$k__BackingField();
+    // Set instance field: private System.Single <InitialYRotation>k__BackingField
+    void _set_$InitialYRotation$k__BackingField(float value);
+    // Get instance field: private System.Single MoveScaleMultiplier
+    float _get_MoveScaleMultiplier();
+    // Set instance field: private System.Single MoveScaleMultiplier
+    void _set_MoveScaleMultiplier(float value);
+    // Get instance field: private System.Single RotationScaleMultiplier
+    float _get_RotationScaleMultiplier();
+    // Set instance field: private System.Single RotationScaleMultiplier
+    void _set_RotationScaleMultiplier(float value);
+    // Get instance field: private System.Boolean SkipMouseRotation
+    bool _get_SkipMouseRotation();
+    // Set instance field: private System.Boolean SkipMouseRotation
+    void _set_SkipMouseRotation(bool value);
+    // Get instance field: private System.Boolean HaltUpdateMovement
+    bool _get_HaltUpdateMovement();
+    // Set instance field: private System.Boolean HaltUpdateMovement
+    void _set_HaltUpdateMovement(bool value);
+    // Get instance field: private System.Boolean prevHatLeft
+    bool _get_prevHatLeft();
+    // Set instance field: private System.Boolean prevHatLeft
+    void _set_prevHatLeft(bool value);
+    // Get instance field: private System.Boolean prevHatRight
+    bool _get_prevHatRight();
+    // Set instance field: private System.Boolean prevHatRight
+    void _set_prevHatRight(bool value);
+    // Get instance field: private System.Single SimulationRate
+    float _get_SimulationRate();
+    // Set instance field: private System.Single SimulationRate
+    void _set_SimulationRate(float value);
+    // Get instance field: private System.Single buttonRotation
+    float _get_buttonRotation();
+    // Set instance field: private System.Single buttonRotation
+    void _set_buttonRotation(float value);
+    // Get instance field: private System.Boolean ReadyToSnapTurn
+    bool _get_ReadyToSnapTurn();
+    // Set instance field: private System.Boolean ReadyToSnapTurn
+    void _set_ReadyToSnapTurn(bool value);
+    // Get instance field: private System.Boolean playerControllerEnabled
+    bool _get_playerControllerEnabled();
+    // Set instance field: private System.Boolean playerControllerEnabled
+    void _set_playerControllerEnabled(bool value);
     // public System.Single get_InitialYRotation()
     // Offset: 0x12F346C
     float get_InitialYRotation();

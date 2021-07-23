@@ -103,6 +103,46 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public AnnotatedBeatmapLevelCollectionTableCell <>4__this
+    GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell* _get_$$4__this();
+    // Set instance field: public AnnotatedBeatmapLevelCollectionTableCell <>4__this
+    void _set_$$4__this(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell* value);
+    // Get instance field: public AdditionalContentModel contentModel
+    GlobalNamespace::AdditionalContentModel* _get_contentModel();
+    // Set instance field: public AdditionalContentModel contentModel
+    void _set_contentModel(GlobalNamespace::AdditionalContentModel* value);
+    // Get instance field: private System.Threading.CancellationToken <cancellationToken>5__2
+    System::Threading::CancellationToken _get_$cancellationToken$5__2();
+    // Set instance field: private System.Threading.CancellationToken <cancellationToken>5__2
+    void _set_$cancellationToken$5__2(System::Threading::CancellationToken value);
+    // Get instance field: private System.Int32 <numberOfOwnedLevels>5__3
+    int _get_$numberOfOwnedLevels$5__3();
+    // Set instance field: private System.Int32 <numberOfOwnedLevels>5__3
+    void _set_$numberOfOwnedLevels$5__3(int value);
+    // Get instance field: private System.Boolean <error>5__4
+    bool _get_$error$5__4();
+    // Set instance field: private System.Boolean <error>5__4
+    void _set_$error$5__4(bool value);
+    // Get instance field: private IPreviewBeatmapLevel[] <>7__wrap4
+    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* _get_$$7__wrap4();
+    // Set instance field: private IPreviewBeatmapLevel[] <>7__wrap4
+    void _set_$$7__wrap4(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* value);
+    // Get instance field: private System.Int32 <>7__wrap5
+    int _get_$$7__wrap5();
+    // Set instance field: private System.Int32 <>7__wrap5
+    void _set_$$7__wrap5(int value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> value);
     // private System.Void MoveNext()
     // Offset: 0xED0CC0
     void MoveNext();

@@ -41,6 +41,14 @@ namespace System {
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
     // Creating value type constructor for type: ResolveEventArgs
     ResolveEventArgs(::Il2CppString* m_Name_ = {}, System::Reflection::Assembly* m_Requesting_ = {}) noexcept : m_Name{m_Name_}, m_Requesting{m_Requesting_} {}
+    // Get instance field: private System.String m_Name
+    ::Il2CppString* _get_m_Name();
+    // Set instance field: private System.String m_Name
+    void _set_m_Name(::Il2CppString* value);
+    // Get instance field: private System.Reflection.Assembly m_Requesting
+    System::Reflection::Assembly* _get_m_Requesting();
+    // Set instance field: private System.Reflection.Assembly m_Requesting
+    void _set_m_Requesting(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.String name)
     // Offset: 0x13E7810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

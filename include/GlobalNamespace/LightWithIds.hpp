@@ -51,6 +51,14 @@ namespace GlobalNamespace {
     LightWithIds(GlobalNamespace::LightWithIdManager* lightManager_ = {}, bool isRegistered_ = {}) noexcept : lightManager{lightManager_}, isRegistered{isRegistered_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly LightWithIdManager _lightManager
+    GlobalNamespace::LightWithIdManager* _get__lightManager();
+    // Set instance field: private readonly LightWithIdManager _lightManager
+    void _set__lightManager(GlobalNamespace::LightWithIdManager* value);
+    // Get instance field: private System.Boolean _isRegistered
+    bool _get__isRegistered();
+    // Set instance field: private System.Boolean _isRegistered
+    void _set__isRegistered(bool value);
     // protected System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> get_lightIntensityData()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();

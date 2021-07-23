@@ -46,6 +46,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
     // Creating value type constructor for type: BasicConstraints
     BasicConstraints(Org::BouncyCastle::Asn1::DerBoolean* cA_ = {}, Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint_ = {}) noexcept : cA{cA_}, pathLenConstraint{pathLenConstraint_} {}
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerBoolean cA
+    Org::BouncyCastle::Asn1::DerBoolean* _get_cA();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerBoolean cA
+    void _set_cA(Org::BouncyCastle::Asn1::DerBoolean* value);
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.DerInteger pathLenConstraint
+    Org::BouncyCastle::Asn1::DerInteger* _get_pathLenConstraint();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger pathLenConstraint
+    void _set_pathLenConstraint(Org::BouncyCastle::Asn1::DerInteger* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x19D77FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

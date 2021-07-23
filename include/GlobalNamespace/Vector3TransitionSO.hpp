@@ -57,6 +57,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Vector3TransitionSO
     Vector3TransitionSO(UnityEngine::Vector3 normalState_ = {}, UnityEngine::Vector3 highlightedState_ = {}, UnityEngine::Vector3 pressedState_ = {}, UnityEngine::Vector3 disabledState_ = {}, UnityEngine::Vector3 selectedState_ = {}, UnityEngine::Vector3 selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
+    // Get instance field: private UnityEngine.Vector3 _normalState
+    UnityEngine::Vector3 _get__normalState();
+    // Set instance field: private UnityEngine.Vector3 _normalState
+    void _set__normalState(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _highlightedState
+    UnityEngine::Vector3 _get__highlightedState();
+    // Set instance field: private UnityEngine.Vector3 _highlightedState
+    void _set__highlightedState(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _pressedState
+    UnityEngine::Vector3 _get__pressedState();
+    // Set instance field: private UnityEngine.Vector3 _pressedState
+    void _set__pressedState(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _disabledState
+    UnityEngine::Vector3 _get__disabledState();
+    // Set instance field: private UnityEngine.Vector3 _disabledState
+    void _set__disabledState(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _selectedState
+    UnityEngine::Vector3 _get__selectedState();
+    // Set instance field: private UnityEngine.Vector3 _selectedState
+    void _set__selectedState(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _selectedAndHighlightedState
+    UnityEngine::Vector3 _get__selectedAndHighlightedState();
+    // Set instance field: private UnityEngine.Vector3 _selectedAndHighlightedState
+    void _set__selectedAndHighlightedState(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normalState()
     // Offset: 0x127CE2C
     UnityEngine::Vector3 get_normalState();

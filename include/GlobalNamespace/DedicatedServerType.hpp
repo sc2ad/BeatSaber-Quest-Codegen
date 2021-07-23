@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::DedicatedServerType _get_MatchmakingServer();
     // Set static field: static public DedicatedServerType MatchmakingServer
     static void _set_MatchmakingServer(GlobalNamespace::DedicatedServerType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // DedicatedServerType
   #pragma pack(pop)
   static check_size<sizeof(DedicatedServerType), 0 + sizeof(int)> __GlobalNamespace_DedicatedServerTypeSizeCheck;

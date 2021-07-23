@@ -68,6 +68,30 @@ namespace System::Reflection {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MethodBody
     MethodBody(::Array<System::Reflection::ExceptionHandlingClause*>* clauses_ = {}, ::Array<System::Reflection::LocalVariableInfo*>* locals_ = {}, ::Array<uint8_t>* il_ = {}, bool init_locals_ = {}, int sig_token_ = {}, int max_stack_ = {}) noexcept : clauses{clauses_}, locals{locals_}, il{il_}, init_locals{init_locals_}, sig_token{sig_token_}, max_stack{max_stack_} {}
+    // Get instance field: private System.Reflection.ExceptionHandlingClause[] clauses
+    ::Array<System::Reflection::ExceptionHandlingClause*>* _get_clauses();
+    // Set instance field: private System.Reflection.ExceptionHandlingClause[] clauses
+    void _set_clauses(::Array<System::Reflection::ExceptionHandlingClause*>* value);
+    // Get instance field: private System.Reflection.LocalVariableInfo[] locals
+    ::Array<System::Reflection::LocalVariableInfo*>* _get_locals();
+    // Set instance field: private System.Reflection.LocalVariableInfo[] locals
+    void _set_locals(::Array<System::Reflection::LocalVariableInfo*>* value);
+    // Get instance field: private System.Byte[] il
+    ::Array<uint8_t>* _get_il();
+    // Set instance field: private System.Byte[] il
+    void _set_il(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean init_locals
+    bool _get_init_locals();
+    // Set instance field: private System.Boolean init_locals
+    void _set_init_locals(bool value);
+    // Get instance field: private System.Int32 sig_token
+    int _get_sig_token();
+    // Set instance field: private System.Int32 sig_token
+    void _set_sig_token(int value);
+    // Get instance field: private System.Int32 max_stack
+    int _get_max_stack();
+    // Set instance field: private System.Int32 max_stack
+    void _set_max_stack(int value);
     // protected System.Void .ctor()
     // Offset: 0x1CAE7F8
     // Implemented from: System.Object

@@ -52,6 +52,18 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
+    // Get instance field: protected Org.BouncyCastle.Math.EC.ECPoint m_offset
+    Org::BouncyCastle::Math::EC::ECPoint* _get_m_offset();
+    // Set instance field: protected Org.BouncyCastle.Math.EC.ECPoint m_offset
+    void _set_m_offset(Org::BouncyCastle::Math::EC::ECPoint* value);
+    // Get instance field: protected Org.BouncyCastle.Math.EC.ECLookupTable m_lookupTable
+    Org::BouncyCastle::Math::EC::ECLookupTable* _get_m_lookupTable();
+    // Set instance field: protected Org.BouncyCastle.Math.EC.ECLookupTable m_lookupTable
+    void _set_m_lookupTable(Org::BouncyCastle::Math::EC::ECLookupTable* value);
+    // Get instance field: protected System.Int32 m_width
+    int _get_m_width();
+    // Set instance field: protected System.Int32 m_width
+    void _set_m_width(int value);
     // public Org.BouncyCastle.Math.EC.ECLookupTable get_LookupTable()
     // Offset: 0x1D91274
     Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();

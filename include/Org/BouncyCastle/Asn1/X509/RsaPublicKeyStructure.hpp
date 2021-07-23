@@ -47,6 +47,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: RsaPublicKeyStructure
     RsaPublicKeyStructure(Org::BouncyCastle::Math::BigInteger* modulus_ = {}, Org::BouncyCastle::Math::BigInteger* publicExponent_ = {}) noexcept : modulus{modulus_}, publicExponent{publicExponent_} {}
+    // Get instance field: private Org.BouncyCastle.Math.BigInteger modulus
+    Org::BouncyCastle::Math::BigInteger* _get_modulus();
+    // Set instance field: private Org.BouncyCastle.Math.BigInteger modulus
+    void _set_modulus(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private Org.BouncyCastle.Math.BigInteger publicExponent
+    Org::BouncyCastle::Math::BigInteger* _get_publicExponent();
+    // Set instance field: private Org.BouncyCastle.Math.BigInteger publicExponent
+    void _set_publicExponent(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
     // Offset: 0x19DC58C
     Org::BouncyCastle::Math::BigInteger* get_Modulus();

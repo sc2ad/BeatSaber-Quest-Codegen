@@ -79,6 +79,10 @@ namespace TMPro {
     static TMPro::UnicodeCharacter _get_WORD_JOINER();
     // Set static field: static public TMPro.UnicodeCharacter WORD_JOINER
     static void _set_WORD_JOINER(TMPro::UnicodeCharacter value);
+    // Get instance field: public System.UInt32 value__
+    uint _get_value__();
+    // Set instance field: public System.UInt32 value__
+    void _set_value__(uint value);
   }; // TMPro.UnicodeCharacter
   #pragma pack(pop)
   static check_size<sizeof(UnicodeCharacter), 0 + sizeof(uint)> __TMPro_UnicodeCharacterSizeCheck;

@@ -119,6 +119,34 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kMusicPitchShifterWet();
     // Set static field: static private System.String kMusicPitchShifterWet
     static void _set_kMusicPitchShifterWet(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Audio.AudioMixer _audioMixer
+    UnityEngine::Audio::AudioMixer* _get__audioMixer();
+    // Set instance field: private UnityEngine.Audio.AudioMixer _audioMixer
+    void _set__audioMixer(UnityEngine::Audio::AudioMixer* value);
+    // Get instance field: private System.Single _spatializerPluginLatency
+    float _get__spatializerPluginLatency();
+    // Set instance field: private System.Single _spatializerPluginLatency
+    void _set__spatializerPluginLatency(float value);
+    // Get instance field: private System.Single _spatializerSfxVolumeOffset
+    float _get__spatializerSfxVolumeOffset();
+    // Set instance field: private System.Single _spatializerSfxVolumeOffset
+    void _set__spatializerSfxVolumeOffset(float value);
+    // Get instance field: private System.Single _musicVolumeOffset
+    float _get__musicVolumeOffset();
+    // Set instance field: private System.Single _musicVolumeOffset
+    void _set__musicVolumeOffset(float value);
+    // Get instance field: private System.Single _sfxVolumeOffset
+    float _get__sfxVolumeOffset();
+    // Set instance field: private System.Single _sfxVolumeOffset
+    void _set__sfxVolumeOffset(float value);
+    // Get instance field: private System.Single _sfxVolume
+    float _get__sfxVolume();
+    // Set instance field: private System.Single _sfxVolume
+    void _set__sfxVolume(float value);
+    // Get instance field: private System.Boolean _sfxEnabled
+    bool _get__sfxEnabled();
+    // Set instance field: private System.Boolean _sfxEnabled
+    void _set__sfxEnabled(bool value);
     // public System.Single get_sfxLatency()
     // Offset: 0x10DC07C
     float get_sfxLatency();

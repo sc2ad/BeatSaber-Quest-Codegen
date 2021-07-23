@@ -87,6 +87,30 @@ namespace System::Reflection {
     operator System::Runtime::Serialization::IObjectReference() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
     }
+    // Get instance field: private System.String m_memberName
+    ::Il2CppString* _get_m_memberName();
+    // Set instance field: private System.String m_memberName
+    void _set_m_memberName(::Il2CppString* value);
+    // Get instance field: private System.RuntimeType m_reflectedType
+    System::RuntimeType* _get_m_reflectedType();
+    // Set instance field: private System.RuntimeType m_reflectedType
+    void _set_m_reflectedType(System::RuntimeType* value);
+    // Get instance field: private System.String m_signature
+    ::Il2CppString* _get_m_signature();
+    // Set instance field: private System.String m_signature
+    void _set_m_signature(::Il2CppString* value);
+    // Get instance field: private System.String m_signature2
+    ::Il2CppString* _get_m_signature2();
+    // Set instance field: private System.String m_signature2
+    void _set_m_signature2(::Il2CppString* value);
+    // Get instance field: private System.Reflection.MemberTypes m_memberType
+    System::Reflection::MemberTypes _get_m_memberType();
+    // Set instance field: private System.Reflection.MemberTypes m_memberType
+    void _set_m_memberType(System::Reflection::MemberTypes value);
+    // Get instance field: private System.Runtime.Serialization.SerializationInfo m_info
+    System::Runtime::Serialization::SerializationInfo* _get_m_info();
+    // Set instance field: private System.Runtime.Serialization.SerializationInfo m_info
+    void _set_m_info(System::Runtime::Serialization::SerializationInfo* value);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1CAD2B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

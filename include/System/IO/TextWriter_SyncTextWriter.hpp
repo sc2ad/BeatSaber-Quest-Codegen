@@ -40,6 +40,10 @@ namespace System::IO {
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
     // Creating value type constructor for type: SyncTextWriter
     SyncTextWriter(System::IO::TextWriter* out_ = {}) noexcept : out{out_} {}
+    // Get instance field: private System.IO.TextWriter _out
+    System::IO::TextWriter* _get__out();
+    // Set instance field: private System.IO.TextWriter _out
+    void _set__out(System::IO::TextWriter* value);
     // System.Void .ctor(System.IO.TextWriter t)
     // Offset: 0x17F3AEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

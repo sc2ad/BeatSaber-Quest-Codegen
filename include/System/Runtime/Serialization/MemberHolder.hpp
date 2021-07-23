@@ -40,6 +40,14 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Creating value type constructor for type: MemberHolder
     MemberHolder(System::Type* memberType_ = {}, System::Runtime::Serialization::StreamingContext context_ = {}) noexcept : memberType{memberType_}, context{context_} {}
+    // Get instance field: System.Type memberType
+    System::Type* _get_memberType();
+    // Set instance field: System.Type memberType
+    void _set_memberType(System::Type* value);
+    // Get instance field: System.Runtime.Serialization.StreamingContext context
+    System::Runtime::Serialization::StreamingContext _get_context();
+    // Set instance field: System.Runtime.Serialization.StreamingContext context
+    void _set_context(System::Runtime::Serialization::StreamingContext value);
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x167BBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -49,6 +49,22 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ApplicationVersion
     ApplicationVersion(int CurrentCode_ = {}, ::Il2CppString* CurrentName_ = {}, int LatestCode_ = {}, ::Il2CppString* LatestName_ = {}) noexcept : CurrentCode{CurrentCode_}, CurrentName{CurrentName_}, LatestCode{LatestCode_}, LatestName{LatestName_} {}
+    // Get instance field: public readonly System.Int32 CurrentCode
+    int _get_CurrentCode();
+    // Set instance field: public readonly System.Int32 CurrentCode
+    void _set_CurrentCode(int value);
+    // Get instance field: public readonly System.String CurrentName
+    ::Il2CppString* _get_CurrentName();
+    // Set instance field: public readonly System.String CurrentName
+    void _set_CurrentName(::Il2CppString* value);
+    // Get instance field: public readonly System.Int32 LatestCode
+    int _get_LatestCode();
+    // Set instance field: public readonly System.Int32 LatestCode
+    void _set_LatestCode(int value);
+    // Get instance field: public readonly System.String LatestName
+    ::Il2CppString* _get_LatestName();
+    // Set instance field: public readonly System.String LatestName
+    void _set_LatestName(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x149F7CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

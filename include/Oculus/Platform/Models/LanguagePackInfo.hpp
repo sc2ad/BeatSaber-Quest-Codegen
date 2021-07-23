@@ -39,6 +39,18 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LanguagePackInfo
     LanguagePackInfo(::Il2CppString* EnglishName_ = {}, ::Il2CppString* NativeName_ = {}, ::Il2CppString* Tag_ = {}) noexcept : EnglishName{EnglishName_}, NativeName{NativeName_}, Tag{Tag_} {}
+    // Get instance field: public readonly System.String EnglishName
+    ::Il2CppString* _get_EnglishName();
+    // Set instance field: public readonly System.String EnglishName
+    void _set_EnglishName(::Il2CppString* value);
+    // Get instance field: public readonly System.String NativeName
+    ::Il2CppString* _get_NativeName();
+    // Set instance field: public readonly System.String NativeName
+    void _set_NativeName(::Il2CppString* value);
+    // Get instance field: public readonly System.String Tag
+    ::Il2CppString* _get_Tag();
+    // Set instance field: public readonly System.String Tag
+    void _set_Tag(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A9338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

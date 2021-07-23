@@ -103,6 +103,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::VertexAttributeFormat _get_SInt32();
     // Set static field: static public UnityEngine.Rendering.VertexAttributeFormat SInt32
     static void _set_SInt32(UnityEngine::Rendering::VertexAttributeFormat value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.VertexAttributeFormat
   #pragma pack(pop)
   static check_size<sizeof(VertexAttributeFormat), 0 + sizeof(int)> __UnityEngine_Rendering_VertexAttributeFormatSizeCheck;

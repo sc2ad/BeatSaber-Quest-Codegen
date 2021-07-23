@@ -49,6 +49,14 @@ namespace GlobalNamespace {
     ScenesTransitionSetupDataSO(::Array<GlobalNamespace::SceneInfo*>* scenes_ = {}, ::Array<GlobalNamespace::SceneSetupData*>* sceneSetupDataArray_ = {}) noexcept : scenes{scenes_}, sceneSetupDataArray{sceneSetupDataArray_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private SceneInfo[] <scenes>k__BackingField
+    ::Array<GlobalNamespace::SceneInfo*>* _get_$scenes$k__BackingField();
+    // Set instance field: private SceneInfo[] <scenes>k__BackingField
+    void _set_$scenes$k__BackingField(::Array<GlobalNamespace::SceneInfo*>* value);
+    // Get instance field: private SceneSetupData[] <sceneSetupDataArray>k__BackingField
+    ::Array<GlobalNamespace::SceneSetupData*>* _get_$sceneSetupDataArray$k__BackingField();
+    // Set instance field: private SceneSetupData[] <sceneSetupDataArray>k__BackingField
+    void _set_$sceneSetupDataArray$k__BackingField(::Array<GlobalNamespace::SceneSetupData*>* value);
     // public SceneInfo[] get_scenes()
     // Offset: 0x12220F4
     ::Array<GlobalNamespace::SceneInfo*>* get_scenes();

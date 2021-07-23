@@ -36,6 +36,10 @@ namespace HMUI {
     ScreenModeSO(HMUI::ScreenModeData* data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.ScreenModeData _data
+    HMUI::ScreenModeData* _get__data();
+    // Set instance field: private HMUI.ScreenModeData _data
+    void _set__data(HMUI::ScreenModeData* value);
     // public HMUI.ScreenModeData get_data()
     // Offset: 0x129710C
     HMUI::ScreenModeData* get_data();

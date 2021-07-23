@@ -59,6 +59,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>*) == 0x8);
     // Creating value type constructor for type: OVRNetworkTcpServer
     OVRNetworkTcpServer(System::Net::Sockets::TcpListener* tcpListener_ = {}, ::Il2CppObject* clientsLock_ = {}, System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* clients_ = {}) noexcept : tcpListener{tcpListener_}, clientsLock{clientsLock_}, clients{clients_} {}
+    // Get instance field: public System.Net.Sockets.TcpListener tcpListener
+    System::Net::Sockets::TcpListener* _get_tcpListener();
+    // Set instance field: public System.Net.Sockets.TcpListener tcpListener
+    void _set_tcpListener(System::Net::Sockets::TcpListener* value);
+    // Get instance field: private readonly System.Object clientsLock
+    ::Il2CppObject* _get_clientsLock();
+    // Set instance field: private readonly System.Object clientsLock
+    void _set_clientsLock(::Il2CppObject* value);
+    // Get instance field: public readonly System.Collections.Generic.List`1<System.Net.Sockets.TcpClient> clients
+    System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* _get_clients();
+    // Set instance field: public readonly System.Collections.Generic.List`1<System.Net.Sockets.TcpClient> clients
+    void _set_clients(System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* value);
     // public System.Void StartListening(System.Int32 listeningPort)
     // Offset: 0x12E8070
     void StartListening(int listeningPort);

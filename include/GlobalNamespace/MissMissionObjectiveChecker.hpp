@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
     // Creating value type constructor for type: MissMissionObjectiveChecker
     MissMissionObjectiveChecker(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}) noexcept : beatmapObjectManager{beatmapObjectManager_} {}
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
     // protected System.Void OnDestroy()
     // Offset: 0x112F574
     void OnDestroy();

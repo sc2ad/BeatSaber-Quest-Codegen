@@ -45,6 +45,10 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm _get_Ed448ph();
     // Set static field: static public Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm Ed448ph
     static void _set_Ed448ph(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm
   #pragma pack(pop)
   static check_size<sizeof(Ed448::Algorithm), 0 + sizeof(int)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_AlgorithmSizeCheck;

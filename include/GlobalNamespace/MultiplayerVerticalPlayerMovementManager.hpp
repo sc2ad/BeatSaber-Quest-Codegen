@@ -130,6 +130,58 @@ namespace GlobalNamespace {
     MultiplayerVerticalPlayerMovementManager(float movementRange_ = {}, float duelMovementRange_ = {}, float maxMoveSpeedMetersPerSecond_ = {}, float accelerationMetersPerSecondSquared_ = {}, float decelerationMetersPerSecondSquared_ = {}, float minScoreDifference_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* reusablePlayersList_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::MultiplayerConnectedPlayerFacade*, float>* currentSpeedsDictionary_ = {}, float lastFrameBaseScore_ = {}) noexcept : movementRange{movementRange_}, duelMovementRange{duelMovementRange_}, maxMoveSpeedMetersPerSecond{maxMoveSpeedMetersPerSecond_}, accelerationMetersPerSecondSquared{accelerationMetersPerSecondSquared_}, decelerationMetersPerSecondSquared{decelerationMetersPerSecondSquared_}, minScoreDifference{minScoreDifference_}, multiplayerPlayersManager{multiplayerPlayersManager_}, scoreProvider{scoreProvider_}, layoutProvider{layoutProvider_}, multiplayerController{multiplayerController_}, reusablePlayersList{reusablePlayersList_}, currentSpeedsDictionary{currentSpeedsDictionary_}, lastFrameBaseScore{lastFrameBaseScore_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _movementRange
+    float _get__movementRange();
+    // Set instance field: private System.Single _movementRange
+    void _set__movementRange(float value);
+    // Get instance field: private System.Single _duelMovementRange
+    float _get__duelMovementRange();
+    // Set instance field: private System.Single _duelMovementRange
+    void _set__duelMovementRange(float value);
+    // Get instance field: private System.Single _maxMoveSpeedMetersPerSecond
+    float _get__maxMoveSpeedMetersPerSecond();
+    // Set instance field: private System.Single _maxMoveSpeedMetersPerSecond
+    void _set__maxMoveSpeedMetersPerSecond(float value);
+    // Get instance field: private System.Single _accelerationMetersPerSecondSquared
+    float _get__accelerationMetersPerSecondSquared();
+    // Set instance field: private System.Single _accelerationMetersPerSecondSquared
+    void _set__accelerationMetersPerSecondSquared(float value);
+    // Get instance field: private System.Single _decelerationMetersPerSecondSquared
+    float _get__decelerationMetersPerSecondSquared();
+    // Set instance field: private System.Single _decelerationMetersPerSecondSquared
+    void _set__decelerationMetersPerSecondSquared(float value);
+    // Get instance field: private System.Single _minScoreDifference
+    float _get__minScoreDifference();
+    // Set instance field: private System.Single _minScoreDifference
+    void _set__minScoreDifference(float value);
+    // Get instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    GlobalNamespace::MultiplayerPlayersManager* _get__multiplayerPlayersManager();
+    // Set instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
+    void _set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager* value);
+    // Get instance field: private readonly MultiplayerScoreProvider _scoreProvider
+    GlobalNamespace::MultiplayerScoreProvider* _get__scoreProvider();
+    // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
+    void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
+    // Get instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    GlobalNamespace::MultiplayerLayoutProvider* _get__layoutProvider();
+    // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
+    void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
+    // Get instance field: private readonly MultiplayerController _multiplayerController
+    GlobalNamespace::MultiplayerController* _get__multiplayerController();
+    // Set instance field: private readonly MultiplayerController _multiplayerController
+    void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _reusablePlayersList
+    System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* _get__reusablePlayersList();
+    // Set instance field: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _reusablePlayersList
+    void _set__reusablePlayersList(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
+    // Get instance field: private readonly System.Collections.Generic.Dictionary`2<MultiplayerConnectedPlayerFacade,System.Single> _currentSpeedsDictionary
+    System::Collections::Generic::Dictionary_2<GlobalNamespace::MultiplayerConnectedPlayerFacade*, float>* _get__currentSpeedsDictionary();
+    // Set instance field: private readonly System.Collections.Generic.Dictionary`2<MultiplayerConnectedPlayerFacade,System.Single> _currentSpeedsDictionary
+    void _set__currentSpeedsDictionary(System::Collections::Generic::Dictionary_2<GlobalNamespace::MultiplayerConnectedPlayerFacade*, float>* value);
+    // Get instance field: private System.Single _lastFrameBaseScore
+    float _get__lastFrameBaseScore();
+    // Set instance field: private System.Single _lastFrameBaseScore
+    void _set__lastFrameBaseScore(float value);
     // protected System.Void Start()
     // Offset: 0x100D038
     void Start();

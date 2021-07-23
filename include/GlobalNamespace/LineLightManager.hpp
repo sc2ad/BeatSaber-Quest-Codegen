@@ -83,6 +83,22 @@ namespace GlobalNamespace {
     static int _get__lineLightColorsID();
     // Set static field: static private readonly System.Int32 _lineLightColorsID
     static void _set__lineLightColorsID(int value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _points
+    ::Array<UnityEngine::Vector4>* _get__points();
+    // Set instance field: private readonly UnityEngine.Vector4[] _points
+    void _set__points(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _dirs
+    ::Array<UnityEngine::Vector4>* _get__dirs();
+    // Set instance field: private readonly UnityEngine.Vector4[] _dirs
+    void _set__dirs(::Array<UnityEngine::Vector4>* value);
+    // Get instance field: private readonly System.Single[] _dirLengths
+    ::Array<float>* _get__dirLengths();
+    // Set instance field: private readonly System.Single[] _dirLengths
+    void _set__dirLengths(::Array<float>* value);
+    // Get instance field: private readonly UnityEngine.Vector4[] _colors
+    ::Array<UnityEngine::Vector4>* _get__colors();
+    // Set instance field: private readonly UnityEngine.Vector4[] _colors
+    void _set__colors(::Array<UnityEngine::Vector4>* value);
     // protected System.Void Update()
     // Offset: 0x1DF507C
     void Update();

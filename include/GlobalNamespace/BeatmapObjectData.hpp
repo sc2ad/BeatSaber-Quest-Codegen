@@ -38,6 +38,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BeatmapObjectData
     BeatmapObjectData(float time_ = {}, int lineIndex_ = {}) noexcept : time{time_}, lineIndex{lineIndex_} {}
+    // Get instance field: private System.Single <time>k__BackingField
+    float _get_$time$k__BackingField();
+    // Set instance field: private System.Single <time>k__BackingField
+    void _set_$time$k__BackingField(float value);
+    // Get instance field: private System.Int32 <lineIndex>k__BackingField
+    int _get_$lineIndex$k__BackingField();
+    // Set instance field: private System.Int32 <lineIndex>k__BackingField
+    void _set_$lineIndex$k__BackingField(int value);
     // public BeatmapObjectType get_beatmapObjectType()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();

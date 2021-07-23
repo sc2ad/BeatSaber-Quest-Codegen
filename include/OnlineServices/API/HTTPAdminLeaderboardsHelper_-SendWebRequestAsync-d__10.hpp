@@ -94,6 +94,42 @@ namespace OnlineServices::API {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> value);
+    // Get instance field: public System.String uri
+    ::Il2CppString* _get_uri();
+    // Set instance field: public System.String uri
+    void _set_uri(::Il2CppString* value);
+    // Get instance field: public System.String method
+    ::Il2CppString* _get_method();
+    // Set instance field: public System.String method
+    void _set_method(::Il2CppString* value);
+    // Get instance field: public System.String bodyData
+    ::Il2CppString* _get_bodyData();
+    // Set instance field: public System.String bodyData
+    void _set_bodyData(::Il2CppString* value);
+    // Get instance field: public OnlineServices.API.HTTPAdminLeaderboardsHelper <>4__this
+    OnlineServices::API::HTTPAdminLeaderboardsHelper* _get_$$4__this();
+    // Set instance field: public OnlineServices.API.HTTPAdminLeaderboardsHelper <>4__this
+    void _set_$$4__this(OnlineServices::API::HTTPAdminLeaderboardsHelper* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private UnityEngine.Networking.UnityWebRequest <webRequest>5__2
+    UnityEngine::Networking::UnityWebRequest* _get_$webRequest$5__2();
+    // Set instance field: private UnityEngine.Networking.UnityWebRequest <webRequest>5__2
+    void _set_$webRequest$5__2(UnityEngine::Networking::UnityWebRequest* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xECF7D8
     void MoveNext();

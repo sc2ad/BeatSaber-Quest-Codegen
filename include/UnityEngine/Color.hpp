@@ -67,6 +67,22 @@ namespace UnityEngine {
     operator System::IEquatable_1<UnityEngine::Color>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Color>*>(this);
     }
+    // Get instance field: public System.Single r
+    float _get_r();
+    // Set instance field: public System.Single r
+    void _set_r(float value);
+    // Get instance field: public System.Single g
+    float _get_g();
+    // Set instance field: public System.Single g
+    void _set_g(float value);
+    // Get instance field: public System.Single b
+    float _get_b();
+    // Set instance field: public System.Single b
+    void _set_b(float value);
+    // Get instance field: public System.Single a
+    float _get_a();
+    // Set instance field: public System.Single a
+    void _set_a(float value);
     // static public UnityEngine.Color get_red()
     // Offset: 0x1BE1E08
     static UnityEngine::Color get_red();

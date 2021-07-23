@@ -41,6 +41,18 @@ namespace RootMotion {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: LimbOrientation
     LimbOrientation(UnityEngine::Vector3 upperBoneForwardAxis_ = {}, UnityEngine::Vector3 lowerBoneForwardAxis_ = {}, UnityEngine::Vector3 lastBoneLeftAxis_ = {}) noexcept : upperBoneForwardAxis{upperBoneForwardAxis_}, lowerBoneForwardAxis{lowerBoneForwardAxis_}, lastBoneLeftAxis{lastBoneLeftAxis_} {}
+    // Get instance field: public UnityEngine.Vector3 upperBoneForwardAxis
+    UnityEngine::Vector3 _get_upperBoneForwardAxis();
+    // Set instance field: public UnityEngine.Vector3 upperBoneForwardAxis
+    void _set_upperBoneForwardAxis(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 lowerBoneForwardAxis
+    UnityEngine::Vector3 _get_lowerBoneForwardAxis();
+    // Set instance field: public UnityEngine.Vector3 lowerBoneForwardAxis
+    void _set_lowerBoneForwardAxis(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Vector3 lastBoneLeftAxis
+    UnityEngine::Vector3 _get_lastBoneLeftAxis();
+    // Set instance field: public UnityEngine.Vector3 lastBoneLeftAxis
+    void _set_lastBoneLeftAxis(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 upperBoneForwardAxis, UnityEngine.Vector3 lowerBoneForwardAxis, UnityEngine.Vector3 lastBoneLeftAxis)
     // Offset: 0x1CD61CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

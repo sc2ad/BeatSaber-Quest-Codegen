@@ -54,6 +54,22 @@ namespace OnlineServices {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LeaderboardEntriesResult
     LeaderboardEntriesResult(bool isError_ = {}, ::Il2CppString* localizedErrorMessage_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, localizedErrorMessage{localizedErrorMessage_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
+    // Get instance field: public readonly System.Boolean isError
+    bool _get_isError();
+    // Set instance field: public readonly System.Boolean isError
+    void _set_isError(bool value);
+    // Get instance field: public readonly System.String localizedErrorMessage
+    ::Il2CppString* _get_localizedErrorMessage();
+    // Set instance field: public readonly System.String localizedErrorMessage
+    void _set_localizedErrorMessage(::Il2CppString* value);
+    // Get instance field: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
+    ::Array<OnlineServices::LeaderboardEntryData*>* _get_leaderboardEntries();
+    // Set instance field: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
+    void _set_leaderboardEntries(::Array<OnlineServices::LeaderboardEntryData*>* value);
+    // Get instance field: public readonly System.Int32 referencePlayerScoreIndex
+    int _get_referencePlayerScoreIndex();
+    // Set instance field: public readonly System.Int32 referencePlayerScoreIndex
+    void _set_referencePlayerScoreIndex(int value);
     // static public OnlineServices.LeaderboardEntriesResult get_notInicializedError()
     // Offset: 0xFF8AF8
     static OnlineServices::LeaderboardEntriesResult* get_notInicializedError();

@@ -53,6 +53,22 @@ namespace System::Reflection::Emit {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LocalBuilder
     LocalBuilder(::Il2CppString* name_ = {}, System::Reflection::Emit::ILGenerator* ilgen_ = {}, int startOffset_ = {}, int endOffset_ = {}) noexcept : name{name_}, ilgen{ilgen_}, startOffset{startOffset_}, endOffset{endOffset_} {}
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: System.Reflection.Emit.ILGenerator ilgen
+    System::Reflection::Emit::ILGenerator* _get_ilgen();
+    // Set instance field: System.Reflection.Emit.ILGenerator ilgen
+    void _set_ilgen(System::Reflection::Emit::ILGenerator* value);
+    // Get instance field: private System.Int32 startOffset
+    int _get_startOffset();
+    // Set instance field: private System.Int32 startOffset
+    void _set_startOffset(int value);
+    // Get instance field: private System.Int32 endOffset
+    int _get_endOffset();
+    // Set instance field: private System.Int32 endOffset
+    void _set_endOffset(int value);
   }; // System.Reflection.Emit.LocalBuilder
   #pragma pack(pop)
   static check_size<sizeof(LocalBuilder), 52 + sizeof(int)> __System_Reflection_Emit_LocalBuilderSizeCheck;

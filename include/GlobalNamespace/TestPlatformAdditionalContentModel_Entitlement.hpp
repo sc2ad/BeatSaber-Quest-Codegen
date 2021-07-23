@@ -35,6 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus) == 0x4);
     // Creating value type constructor for type: Entitlement
     Entitlement(::Il2CppString* id_ = {}, GlobalNamespace::AdditionalContentModel::EntitlementStatus status_ = {}) noexcept : id{id_}, status{status_} {}
+    // Get instance field: public System.String id
+    ::Il2CppString* _get_id();
+    // Set instance field: public System.String id
+    void _set_id(::Il2CppString* value);
+    // Get instance field: public AdditionalContentModel/EntitlementStatus status
+    GlobalNamespace::AdditionalContentModel::EntitlementStatus _get_status();
+    // Set instance field: public AdditionalContentModel/EntitlementStatus status
+    void _set_status(GlobalNamespace::AdditionalContentModel::EntitlementStatus value);
     // public System.Void .ctor()
     // Offset: 0x106D094
     // Implemented from: System.Object

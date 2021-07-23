@@ -57,6 +57,10 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::ComInterfaceType _get_InterfaceIsIInspectable();
     // Set static field: static public System.Runtime.InteropServices.ComInterfaceType InterfaceIsIInspectable
     static void _set_InterfaceIsIInspectable(System::Runtime::InteropServices::ComInterfaceType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.InteropServices.ComInterfaceType
   #pragma pack(pop)
   static check_size<sizeof(ComInterfaceType), 0 + sizeof(int)> __System_Runtime_InteropServices_ComInterfaceTypeSizeCheck;

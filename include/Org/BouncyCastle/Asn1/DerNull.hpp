@@ -43,6 +43,10 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::DerNull* _get_Instance();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerNull Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::DerNull* value);
+    // Get instance field: private System.Byte[] zeroBytes
+    ::Array<uint8_t>* _get_zeroBytes();
+    // Set instance field: private System.Byte[] zeroBytes
+    void _set_zeroBytes(::Array<uint8_t>* value);
     // protected internal System.Void .ctor(System.Int32 dummy)
     // Offset: 0x16EA6AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

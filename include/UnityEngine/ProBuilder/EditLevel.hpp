@@ -55,6 +55,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::EditLevel _get_Plugin();
     // Set static field: static public UnityEngine.ProBuilder.EditLevel Plugin
     static void _set_Plugin(UnityEngine::ProBuilder::EditLevel value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.ProBuilder.EditLevel
   #pragma pack(pop)
   static check_size<sizeof(EditLevel), 0 + sizeof(int)> __UnityEngine_ProBuilder_EditLevelSizeCheck;

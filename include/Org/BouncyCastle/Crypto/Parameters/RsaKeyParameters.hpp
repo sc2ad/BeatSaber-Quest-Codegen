@@ -48,6 +48,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static Org::BouncyCastle::Math::BigInteger* _get_SmallPrimesProduct();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger SmallPrimesProduct
     static void _set_SmallPrimesProduct(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger modulus
+    Org::BouncyCastle::Math::BigInteger* _get_modulus();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger modulus
+    void _set_modulus(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: private readonly Org.BouncyCastle.Math.BigInteger exponent
+    Org::BouncyCastle::Math::BigInteger* _get_exponent();
+    // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger exponent
+    void _set_exponent(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
     // Offset: 0x122CECC
     Org::BouncyCastle::Math::BigInteger* get_Modulus();

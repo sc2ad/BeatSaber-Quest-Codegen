@@ -39,6 +39,18 @@ namespace System::Collections {
     static_assert(sizeof(System::Collections::ListDictionaryInternal::DictionaryNode*) == 0x8);
     // Creating value type constructor for type: DictionaryNode
     DictionaryNode(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}, System::Collections::ListDictionaryInternal::DictionaryNode* next_ = {}) noexcept : key{key_}, value{value_}, next{next_} {}
+    // Get instance field: public System.Object key
+    ::Il2CppObject* _get_key();
+    // Set instance field: public System.Object key
+    void _set_key(::Il2CppObject* value);
+    // Get instance field: public System.Object value
+    ::Il2CppObject* _get_value();
+    // Set instance field: public System.Object value
+    void _set_value(::Il2CppObject* value);
+    // Get instance field: public System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode next
+    System::Collections::ListDictionaryInternal::DictionaryNode* _get_next();
+    // Set instance field: public System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode next
+    void _set_next(System::Collections::ListDictionaryInternal::DictionaryNode* value);
     // public System.Void .ctor()
     // Offset: 0x1947950
     // Implemented from: System.Object

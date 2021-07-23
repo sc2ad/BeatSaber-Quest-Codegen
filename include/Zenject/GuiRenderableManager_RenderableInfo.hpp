@@ -40,6 +40,14 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RenderableInfo
     RenderableInfo(Zenject::IGuiRenderable* Renderable_ = {}, int Priority_ = {}) noexcept : Renderable{Renderable_}, Priority{Priority_} {}
+    // Get instance field: public Zenject.IGuiRenderable Renderable
+    Zenject::IGuiRenderable* _get_Renderable();
+    // Set instance field: public Zenject.IGuiRenderable Renderable
+    void _set_Renderable(Zenject::IGuiRenderable* value);
+    // Get instance field: public System.Int32 Priority
+    int _get_Priority();
+    // Set instance field: public System.Int32 Priority
+    void _set_Priority(int value);
     // public System.Void .ctor(Zenject.IGuiRenderable renderable, System.Int32 priority)
     // Offset: 0x16248A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

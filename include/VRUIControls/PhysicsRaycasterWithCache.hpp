@@ -79,6 +79,26 @@ namespace VRUIControls {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public readonly System.Boolean wasHit
+      bool _get_wasHit();
+      // Set instance field: public readonly System.Boolean wasHit
+      void _set_wasHit(bool value);
+      // Get instance field: public readonly UnityEngine.Ray ray
+      UnityEngine::Ray _get_ray();
+      // Set instance field: public readonly UnityEngine.Ray ray
+      void _set_ray(UnityEngine::Ray value);
+      // Get instance field: public readonly UnityEngine.RaycastHit hitInfo
+      UnityEngine::RaycastHit _get_hitInfo();
+      // Set instance field: public readonly UnityEngine.RaycastHit hitInfo
+      void _set_hitInfo(UnityEngine::RaycastHit value);
+      // Get instance field: public readonly System.Single maxDistance
+      float _get_maxDistance();
+      // Set instance field: public readonly System.Single maxDistance
+      void _set_maxDistance(float value);
+      // Get instance field: public readonly System.Int32 layerMask
+      int _get_layerMask();
+      // Set instance field: public readonly System.Int32 layerMask
+      void _set_layerMask(int value);
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
       // Offset: 0xF0D20C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,6 +121,14 @@ namespace VRUIControls {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PhysicsRaycasterWithCache
     PhysicsRaycasterWithCache(System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>* cachedRaycasts_ = {}, int lastFrameCount_ = {}) noexcept : cachedRaycasts{cachedRaycasts_}, lastFrameCount{lastFrameCount_} {}
+    // Get instance field: private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
+    System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>* _get__cachedRaycasts();
+    // Set instance field: private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
+    void _set__cachedRaycasts(System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>* value);
+    // Get instance field: private System.Int32 _lastFrameCount
+    int _get__lastFrameCount();
+    // Set instance field: private System.Int32 _lastFrameCount
+    void _set__lastFrameCount(int value);
     // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
     // Offset: 0x23438FC
     bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);

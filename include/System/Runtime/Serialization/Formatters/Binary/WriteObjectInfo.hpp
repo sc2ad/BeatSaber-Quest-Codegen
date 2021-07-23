@@ -163,6 +163,74 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: WriteObjectInfo
     WriteObjectInfo(int objectInfoId_ = {}, ::Il2CppObject* obj_ = {}, System::Type* objectType_ = {}, bool isSi_ = {}, bool isNamed_ = {}, bool isTyped_ = {}, bool isArray_ = {}, System::Runtime::Serialization::SerializationInfo* si_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache_ = {}, ::Array<::Il2CppObject*>* memberData_ = {}, System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate_ = {}, System::Runtime::Serialization::StreamingContext context_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit_ = {}, int64_t objectId_ = {}, int64_t assemId_ = {}, ::Il2CppString* binderTypeName_ = {}, ::Il2CppString* binderAssemblyString_ = {}) noexcept : objectInfoId{objectInfoId_}, obj{obj_}, objectType{objectType_}, isSi{isSi_}, isNamed{isNamed_}, isTyped{isTyped_}, isArray{isArray_}, si{si_}, cache{cache_}, memberData{memberData_}, serializationSurrogate{serializationSurrogate_}, context{context_}, serObjectInfoInit{serObjectInfoInit_}, objectId{objectId_}, assemId{assemId_}, binderTypeName{binderTypeName_}, binderAssemblyString{binderAssemblyString_} {}
+    // Get instance field: System.Int32 objectInfoId
+    int _get_objectInfoId();
+    // Set instance field: System.Int32 objectInfoId
+    void _set_objectInfoId(int value);
+    // Get instance field: System.Object obj
+    ::Il2CppObject* _get_obj();
+    // Set instance field: System.Object obj
+    void _set_obj(::Il2CppObject* value);
+    // Get instance field: System.Type objectType
+    System::Type* _get_objectType();
+    // Set instance field: System.Type objectType
+    void _set_objectType(System::Type* value);
+    // Get instance field: System.Boolean isSi
+    bool _get_isSi();
+    // Set instance field: System.Boolean isSi
+    void _set_isSi(bool value);
+    // Get instance field: System.Boolean isNamed
+    bool _get_isNamed();
+    // Set instance field: System.Boolean isNamed
+    void _set_isNamed(bool value);
+    // Get instance field: System.Boolean isTyped
+    bool _get_isTyped();
+    // Set instance field: System.Boolean isTyped
+    void _set_isTyped(bool value);
+    // Get instance field: System.Boolean isArray
+    bool _get_isArray();
+    // Set instance field: System.Boolean isArray
+    void _set_isArray(bool value);
+    // Get instance field: System.Runtime.Serialization.SerializationInfo si
+    System::Runtime::Serialization::SerializationInfo* _get_si();
+    // Set instance field: System.Runtime.Serialization.SerializationInfo si
+    void _set_si(System::Runtime::Serialization::SerializationInfo* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache
+    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* _get_cache();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache
+    void _set_cache(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* value);
+    // Get instance field: System.Object[] memberData
+    ::Array<::Il2CppObject*>* _get_memberData();
+    // Set instance field: System.Object[] memberData
+    void _set_memberData(::Array<::Il2CppObject*>* value);
+    // Get instance field: System.Runtime.Serialization.ISerializationSurrogate serializationSurrogate
+    System::Runtime::Serialization::ISerializationSurrogate* _get_serializationSurrogate();
+    // Set instance field: System.Runtime.Serialization.ISerializationSurrogate serializationSurrogate
+    void _set_serializationSurrogate(System::Runtime::Serialization::ISerializationSurrogate* value);
+    // Get instance field: System.Runtime.Serialization.StreamingContext context
+    System::Runtime::Serialization::StreamingContext _get_context();
+    // Set instance field: System.Runtime.Serialization.StreamingContext context
+    void _set_context(System::Runtime::Serialization::StreamingContext value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
+    System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* _get_serObjectInfoInit();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
+    void _set_serObjectInfoInit(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* value);
+    // Get instance field: System.Int64 objectId
+    int64_t _get_objectId();
+    // Set instance field: System.Int64 objectId
+    void _set_objectId(int64_t value);
+    // Get instance field: System.Int64 assemId
+    int64_t _get_assemId();
+    // Set instance field: System.Int64 assemId
+    void _set_assemId(int64_t value);
+    // Get instance field: private System.String binderTypeName
+    ::Il2CppString* _get_binderTypeName();
+    // Set instance field: private System.String binderTypeName
+    void _set_binderTypeName(::Il2CppString* value);
+    // Get instance field: private System.String binderAssemblyString
+    ::Il2CppString* _get_binderAssemblyString();
+    // Set instance field: private System.String binderAssemblyString
+    void _set_binderAssemblyString(::Il2CppString* value);
     // System.Void ObjectEnd()
     // Offset: 0x15E2CB8
     void ObjectEnd();

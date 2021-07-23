@@ -64,6 +64,26 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
+    // Get instance field: private System.Byte[] IV
+    ::Array<uint8_t>* _get_IV();
+    // Set instance field: private System.Byte[] IV
+    void _set_IV(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] cfbV
+    ::Array<uint8_t>* _get_cfbV();
+    // Set instance field: private System.Byte[] cfbV
+    void _set_cfbV(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] cfbOutV
+    ::Array<uint8_t>* _get_cfbOutV();
+    // Set instance field: private System.Byte[] cfbOutV
+    void _set_cfbOutV(::Array<uint8_t>* value);
+    // Get instance field: private readonly System.Int32 blockSize
+    int _get_blockSize();
+    // Set instance field: private readonly System.Int32 blockSize
+    void _set_blockSize(int value);
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
     // public System.String get_AlgorithmName()
     // Offset: 0x18C0500
     ::Il2CppString* get_AlgorithmName();

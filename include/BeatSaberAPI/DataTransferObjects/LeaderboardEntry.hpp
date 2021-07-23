@@ -71,6 +71,38 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*) == 0x8);
     // Creating value type constructor for type: LeaderboardEntry
     LeaderboardEntry(int id_ = {}, int score_ = {}, int unmodifiedScore_ = {}, int rank_ = {}, System::DateTime updated_ = {}, ::Il2CppString* userDisplayName_ = {}, ::Il2CppString* platformUserId_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}) noexcept : id{id_}, score{score_}, unmodifiedScore{unmodifiedScore_}, rank{rank_}, updated{updated_}, userDisplayName{userDisplayName_}, platformUserId{platformUserId_}, gameplayModifiers{gameplayModifiers_} {}
+    // Get instance field: public System.Int32 id
+    int _get_id();
+    // Set instance field: public System.Int32 id
+    void _set_id(int value);
+    // Get instance field: public System.Int32 score
+    int _get_score();
+    // Set instance field: public System.Int32 score
+    void _set_score(int value);
+    // Get instance field: public System.Int32 unmodifiedScore
+    int _get_unmodifiedScore();
+    // Set instance field: public System.Int32 unmodifiedScore
+    void _set_unmodifiedScore(int value);
+    // Get instance field: public System.Int32 rank
+    int _get_rank();
+    // Set instance field: public System.Int32 rank
+    void _set_rank(int value);
+    // Get instance field: public System.DateTime updated
+    System::DateTime _get_updated();
+    // Set instance field: public System.DateTime updated
+    void _set_updated(System::DateTime value);
+    // Get instance field: public System.String userDisplayName
+    ::Il2CppString* _get_userDisplayName();
+    // Set instance field: public System.String userDisplayName
+    void _set_userDisplayName(::Il2CppString* value);
+    // Get instance field: public System.String platformUserId
+    ::Il2CppString* _get_platformUserId();
+    // Set instance field: public System.String platformUserId
+    void _set_platformUserId(::Il2CppString* value);
+    // Get instance field: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
+    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* _get_gameplayModifiers();
+    // Set instance field: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
+    void _set_gameplayModifiers(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* value);
     // public System.Void .ctor()
     // Offset: 0x1188608
     // Implemented from: System.Object

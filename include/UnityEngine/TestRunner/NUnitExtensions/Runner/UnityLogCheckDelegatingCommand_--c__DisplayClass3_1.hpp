@@ -41,6 +41,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_1
     $$c__DisplayClass3_1(System::Collections::IEnumerable* executeEnumerable_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0* CS$$$8__locals1_ = {}) noexcept : executeEnumerable{executeEnumerable_}, CS$$$8__locals1{CS$$$8__locals1_} {}
+    // Get instance field: public System.Collections.IEnumerable executeEnumerable
+    System::Collections::IEnumerable* _get_executeEnumerable();
+    // Set instance field: public System.Collections.IEnumerable executeEnumerable
+    void _set_executeEnumerable(System::Collections::IEnumerable* value);
+    // Get instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_0 CS$<>8__locals1
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0* _get_CS$$$8__locals1();
+    // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_0 CS$<>8__locals1
+    void _set_CS$$$8__locals1(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0* value);
     // System.Void <ExecuteEnumerable>b__0()
     // Offset: 0x1481454
     void $ExecuteEnumerable$b__0();

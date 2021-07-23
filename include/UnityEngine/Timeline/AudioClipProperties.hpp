@@ -33,6 +33,10 @@ namespace UnityEngine::Timeline {
     constexpr operator float() const noexcept {
       return volume;
     }
+    // Get instance field: public System.Single volume
+    float _get_volume();
+    // Set instance field: public System.Single volume
+    void _set_volume(float value);
     // public System.Void .ctor()
     // Offset: 0x17E05E4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

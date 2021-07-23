@@ -60,6 +60,26 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TermInfoReader
     TermInfoReader(int16_t boolSize_ = {}, int16_t numSize_ = {}, int16_t strOffsets_ = {}, ::Array<uint8_t>* buffer_ = {}, int booleansOffset_ = {}) noexcept : boolSize{boolSize_}, numSize{numSize_}, strOffsets{strOffsets_}, buffer{buffer_}, booleansOffset{booleansOffset_} {}
+    // Get instance field: private System.Int16 boolSize
+    int16_t _get_boolSize();
+    // Set instance field: private System.Int16 boolSize
+    void _set_boolSize(int16_t value);
+    // Get instance field: private System.Int16 numSize
+    int16_t _get_numSize();
+    // Set instance field: private System.Int16 numSize
+    void _set_numSize(int16_t value);
+    // Get instance field: private System.Int16 strOffsets
+    int16_t _get_strOffsets();
+    // Set instance field: private System.Int16 strOffsets
+    void _set_strOffsets(int16_t value);
+    // Get instance field: private System.Byte[] buffer
+    ::Array<uint8_t>* _get_buffer();
+    // Set instance field: private System.Byte[] buffer
+    void _set_buffer(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 booleansOffset
+    int _get_booleansOffset();
+    // Set instance field: private System.Int32 booleansOffset
+    void _set_booleansOffset(int value);
     // public System.Void .ctor(System.String term, System.String filename)
     // Offset: 0x1BCE164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

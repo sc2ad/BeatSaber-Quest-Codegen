@@ -47,6 +47,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass2_0
     $$c__DisplayClass2_0(System::Collections::Generic::Dictionary_2<int, int>* lookup_ = {}, UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}) noexcept : lookup{lookup_}, mesh{mesh_} {}
+    // Get instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
+    System::Collections::Generic::Dictionary_2<int, int>* _get_lookup();
+    // Set instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
+    void _set_lookup(System::Collections::Generic::Dictionary_2<int, int>* value);
+    // Get instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    UnityEngine::ProBuilder::ProBuilderMesh* _get_mesh();
+    // Set instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
+    void _set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // System.Int32 <Connect>b__0(System.Int32 x)
     // Offset: 0x151DCD4
     int $Connect$b__0(int x);

@@ -89,6 +89,34 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.Texture2D> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Texture2D*> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.Texture2D> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::Texture2D*> value);
+    // Get instance field: public System.String path
+    ::Il2CppString* _get_path();
+    // Set instance field: public System.String path
+    void _set_path(::Il2CppString* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: private UnityEngine.Networking.UnityWebRequest <www>5__2
+    UnityEngine::Networking::UnityWebRequest* _get_$www$5__2();
+    // Set instance field: private UnityEngine.Networking.UnityWebRequest <www>5__2
+    void _set_$www$5__2(UnityEngine::Networking::UnityWebRequest* value);
+    // Get instance field: private UnityEngine.AsyncOperation <request>5__3
+    UnityEngine::AsyncOperation* _get_$request$5__3();
+    // Set instance field: private UnityEngine.AsyncOperation <request>5__3
+    void _set_$request$5__3(UnityEngine::AsyncOperation* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xF0DAEC
     void MoveNext();

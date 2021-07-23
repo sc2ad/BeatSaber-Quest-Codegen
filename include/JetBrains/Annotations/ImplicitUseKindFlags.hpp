@@ -62,6 +62,10 @@ namespace JetBrains::Annotations {
     static JetBrains::Annotations::ImplicitUseKindFlags _get_InstantiatedNoFixedConstructorSignature();
     // Set static field: static public JetBrains.Annotations.ImplicitUseKindFlags InstantiatedNoFixedConstructorSignature
     static void _set_InstantiatedNoFixedConstructorSignature(JetBrains::Annotations::ImplicitUseKindFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // JetBrains.Annotations.ImplicitUseKindFlags
   #pragma pack(pop)
   static check_size<sizeof(ImplicitUseKindFlags), 0 + sizeof(int)> __JetBrains_Annotations_ImplicitUseKindFlagsSizeCheck;

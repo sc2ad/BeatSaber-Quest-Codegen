@@ -59,6 +59,26 @@ namespace System::Collections::Specialized {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
+    // Get instance field: private System.Collections.Specialized.ListDictionary list
+    System::Collections::Specialized::ListDictionary* _get_list();
+    // Set instance field: private System.Collections.Specialized.ListDictionary list
+    void _set_list(System::Collections::Specialized::ListDictionary* value);
+    // Get instance field: private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode current
+    System::Collections::Specialized::ListDictionary::DictionaryNode* _get_current();
+    // Set instance field: private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode current
+    void _set_current(System::Collections::Specialized::ListDictionary::DictionaryNode* value);
+    // Get instance field: private System.Int32 version
+    int _get_version();
+    // Set instance field: private System.Int32 version
+    void _set_version(int value);
+    // Get instance field: private System.Boolean isKeys
+    bool _get_isKeys();
+    // Set instance field: private System.Boolean isKeys
+    void _set_isKeys(bool value);
+    // Get instance field: private System.Boolean start
+    bool _get_start();
+    // Set instance field: private System.Boolean start
+    void _set_start(bool value);
     // public System.Object get_Current()
     // Offset: 0x18445A4
     ::Il2CppObject* get_Current();

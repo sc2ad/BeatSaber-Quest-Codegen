@@ -69,6 +69,10 @@ namespace Zenject {
       static Zenject::ZenAutoInjecter::ContainerSources _get_SearchHierarchy();
       // Set static field: static public Zenject.ZenAutoInjecter/Zenject.ContainerSources SearchHierarchy
       static void _set_SearchHierarchy(Zenject::ZenAutoInjecter::ContainerSources value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // Zenject.ZenAutoInjecter/Zenject.ContainerSources
     #pragma pack(pop)
     static check_size<sizeof(ZenAutoInjecter::ContainerSources), 0 + sizeof(int)> __Zenject_ZenAutoInjecter_ContainerSourcesSizeCheck;
@@ -89,6 +93,14 @@ namespace Zenject {
     ZenAutoInjecter(Zenject::ZenAutoInjecter::ContainerSources containerSource_ = {}, bool hasInjected_ = {}) noexcept : containerSource{containerSource_}, hasInjected{hasInjected_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource
+    Zenject::ZenAutoInjecter::ContainerSources _get__containerSource();
+    // Set instance field: private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource
+    void _set__containerSource(Zenject::ZenAutoInjecter::ContainerSources value);
+    // Get instance field: private System.Boolean _hasInjected
+    bool _get__hasInjected();
+    // Set instance field: private System.Boolean _hasInjected
+    void _set__hasInjected(bool value);
     // public Zenject.ZenAutoInjecter/Zenject.ContainerSources get_ContainerSource()
     // Offset: 0x239249C
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();

@@ -69,6 +69,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: Point
     Point(UnityEngine::Transform* transform_ = {}, float weight_ = {}, UnityEngine::Vector3 solverPosition_ = {}, UnityEngine::Quaternion solverRotation_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : transform{transform_}, weight{weight_}, solverPosition{solverPosition_}, solverRotation{solverRotation_}, defaultLocalPosition{defaultLocalPosition_}, defaultLocalRotation{defaultLocalRotation_} {}
+    // Get instance field: public UnityEngine.Transform transform
+    UnityEngine::Transform* _get_transform();
+    // Set instance field: public UnityEngine.Transform transform
+    void _set_transform(UnityEngine::Transform* value);
+    // Get instance field: public System.Single weight
+    float _get_weight();
+    // Set instance field: public System.Single weight
+    void _set_weight(float value);
+    // Get instance field: public UnityEngine.Vector3 solverPosition
+    UnityEngine::Vector3 _get_solverPosition();
+    // Set instance field: public UnityEngine.Vector3 solverPosition
+    void _set_solverPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion solverRotation
+    UnityEngine::Quaternion _get_solverRotation();
+    // Set instance field: public UnityEngine.Quaternion solverRotation
+    void _set_solverRotation(UnityEngine::Quaternion value);
+    // Get instance field: public UnityEngine.Vector3 defaultLocalPosition
+    UnityEngine::Vector3 _get_defaultLocalPosition();
+    // Set instance field: public UnityEngine.Vector3 defaultLocalPosition
+    void _set_defaultLocalPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion defaultLocalRotation
+    UnityEngine::Quaternion _get_defaultLocalRotation();
+    // Set instance field: public UnityEngine.Quaternion defaultLocalRotation
+    void _set_defaultLocalRotation(UnityEngine::Quaternion value);
     // public System.Void StoreDefaultLocalState()
     // Offset: 0x1C9F24C
     void StoreDefaultLocalState();

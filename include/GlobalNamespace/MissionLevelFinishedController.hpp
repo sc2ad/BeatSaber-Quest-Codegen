@@ -61,6 +61,22 @@ namespace GlobalNamespace {
     MissionLevelFinishedController(GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelSceneSetupData_ = {}, GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}) noexcept : prepareLevelCompletionResults{prepareLevelCompletionResults_}, missionLevelSceneSetupData{missionLevelSceneSetupData_}, missionObjectiveCheckersManager{missionObjectiveCheckersManager_}, gameplayManager{gameplayManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private PrepareLevelCompletionResults _prepareLevelCompletionResults
+    GlobalNamespace::PrepareLevelCompletionResults* _get__prepareLevelCompletionResults();
+    // Set instance field: private PrepareLevelCompletionResults _prepareLevelCompletionResults
+    void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
+    // Get instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get__missionLevelSceneSetupData();
+    // Set instance field: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
+    void _set__missionLevelSceneSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    GlobalNamespace::MissionObjectiveCheckersManager* _get__missionObjectiveCheckersManager();
+    // Set instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
+    void _set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager* value);
+    // Get instance field: private ILevelEndActions _gameplayManager
+    GlobalNamespace::ILevelEndActions* _get__gameplayManager();
+    // Set instance field: private ILevelEndActions _gameplayManager
+    void _set__gameplayManager(GlobalNamespace::ILevelEndActions* value);
     // protected System.Void Start()
     // Offset: 0x1131FDC
     void Start();

@@ -49,6 +49,10 @@ namespace LiteNetLib {
     static LiteNetLib::ShutdownResult _get_WasConnected();
     // Set static field: static public LiteNetLib.ShutdownResult WasConnected
     static void _set_WasConnected(LiteNetLib::ShutdownResult value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // LiteNetLib.ShutdownResult
   #pragma pack(pop)
   static check_size<sizeof(ShutdownResult), 0 + sizeof(int)> __LiteNetLib_ShutdownResultSizeCheck;

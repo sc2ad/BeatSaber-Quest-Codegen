@@ -51,6 +51,10 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm _get_Ed25519ph();
     // Set static field: static public Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm Ed25519ph
     static void _set_Ed25519ph(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm
   #pragma pack(pop)
   static check_size<sizeof(Ed25519::Algorithm), 0 + sizeof(int)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_AlgorithmSizeCheck;

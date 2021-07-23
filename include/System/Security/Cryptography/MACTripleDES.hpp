@@ -68,6 +68,26 @@ namespace System::Security::Cryptography {
     MACTripleDES(System::Security::Cryptography::ICryptoTransform* m_encryptor_ = {}, System::Security::Cryptography::CryptoStream* cs_ = {}, System::Security::Cryptography::TailStream* ts_ = {}, int m_bytesPerBlock_ = {}, System::Security::Cryptography::TripleDES* des_ = {}) noexcept : m_encryptor{m_encryptor_}, cs{cs_}, ts{ts_}, m_bytesPerBlock{m_bytesPerBlock_}, des{des_} {}
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
+    // Get instance field: private System.Security.Cryptography.ICryptoTransform m_encryptor
+    System::Security::Cryptography::ICryptoTransform* _get_m_encryptor();
+    // Set instance field: private System.Security.Cryptography.ICryptoTransform m_encryptor
+    void _set_m_encryptor(System::Security::Cryptography::ICryptoTransform* value);
+    // Get instance field: private System.Security.Cryptography.CryptoStream _cs
+    System::Security::Cryptography::CryptoStream* _get__cs();
+    // Set instance field: private System.Security.Cryptography.CryptoStream _cs
+    void _set__cs(System::Security::Cryptography::CryptoStream* value);
+    // Get instance field: private System.Security.Cryptography.TailStream _ts
+    System::Security::Cryptography::TailStream* _get__ts();
+    // Set instance field: private System.Security.Cryptography.TailStream _ts
+    void _set__ts(System::Security::Cryptography::TailStream* value);
+    // Get instance field: private System.Int32 m_bytesPerBlock
+    int _get_m_bytesPerBlock();
+    // Set instance field: private System.Int32 m_bytesPerBlock
+    void _set_m_bytesPerBlock(int value);
+    // Get instance field: private System.Security.Cryptography.TripleDES des
+    System::Security::Cryptography::TripleDES* _get_des();
+    // Set instance field: private System.Security.Cryptography.TripleDES des
+    void _set_des(System::Security::Cryptography::TripleDES* value);
     // public System.Void .ctor()
     // Offset: 0x1937ABC
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm

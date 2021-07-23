@@ -85,6 +85,10 @@ namespace OVR::OpenVR {
     static OVR::OpenVR::EVRState _get_Ready_Alert_Low();
     // Set static field: static public OVR.OpenVR.EVRState Ready_Alert_Low
     static void _set_Ready_Alert_Low(OVR::OpenVR::EVRState value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVR.OpenVR.EVRState
   #pragma pack(pop)
   static check_size<sizeof(EVRState), 0 + sizeof(int)> __OVR_OpenVR_EVRStateSizeCheck;

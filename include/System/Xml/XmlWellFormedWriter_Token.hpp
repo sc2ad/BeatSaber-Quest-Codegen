@@ -123,6 +123,10 @@ namespace System::Xml {
     static System::Xml::XmlWellFormedWriter::Token _get_Whitespace();
     // Set static field: static public System.Xml.XmlWellFormedWriter/System.Xml.Token Whitespace
     static void _set_Whitespace(System::Xml::XmlWellFormedWriter::Token value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Xml.XmlWellFormedWriter/System.Xml.Token
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::Token), 0 + sizeof(int)> __System_Xml_XmlWellFormedWriter_TokenSizeCheck;

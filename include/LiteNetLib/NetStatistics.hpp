@@ -49,6 +49,26 @@ namespace LiteNetLib {
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: NetStatistics
     NetStatistics(int64_t packetsSent_ = {}, int64_t packetsReceived_ = {}, int64_t bytesSent_ = {}, int64_t bytesReceived_ = {}, int64_t packetLoss_ = {}) noexcept : packetsSent{packetsSent_}, packetsReceived{packetsReceived_}, bytesSent{bytesSent_}, bytesReceived{bytesReceived_}, packetLoss{packetLoss_} {}
+    // Get instance field: private System.Int64 _packetsSent
+    int64_t _get__packetsSent();
+    // Set instance field: private System.Int64 _packetsSent
+    void _set__packetsSent(int64_t value);
+    // Get instance field: private System.Int64 _packetsReceived
+    int64_t _get__packetsReceived();
+    // Set instance field: private System.Int64 _packetsReceived
+    void _set__packetsReceived(int64_t value);
+    // Get instance field: private System.Int64 _bytesSent
+    int64_t _get__bytesSent();
+    // Set instance field: private System.Int64 _bytesSent
+    void _set__bytesSent(int64_t value);
+    // Get instance field: private System.Int64 _bytesReceived
+    int64_t _get__bytesReceived();
+    // Set instance field: private System.Int64 _bytesReceived
+    void _set__bytesReceived(int64_t value);
+    // Get instance field: private System.Int64 _packetLoss
+    int64_t _get__packetLoss();
+    // Set instance field: private System.Int64 _packetLoss
+    void _set__packetLoss(int64_t value);
     // public System.Int64 get_PacketsSent()
     // Offset: 0x1BBB598
     int64_t get_PacketsSent();

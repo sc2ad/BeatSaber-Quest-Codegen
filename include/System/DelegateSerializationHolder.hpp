@@ -57,6 +57,10 @@ namespace System {
     constexpr operator System::Delegate*() const noexcept {
       return delegate;
     }
+    // Get instance field: private System.Delegate _delegate
+    System::Delegate* _get__delegate();
+    // Set instance field: private System.Delegate _delegate
+    void _set__delegate(System::Delegate* value);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x1B21FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -102,6 +102,14 @@ namespace System {
     static System::DateTimeOffset _get_MaxValue();
     // Set static field: static public readonly System.DateTimeOffset MaxValue
     static void _set_MaxValue(System::DateTimeOffset value);
+    // Get instance field: private System.DateTime m_dateTime
+    System::DateTime _get_m_dateTime();
+    // Set instance field: private System.DateTime m_dateTime
+    void _set_m_dateTime(System::DateTime value);
+    // Get instance field: private System.Int16 m_offsetMinutes
+    int16_t _get_m_offsetMinutes();
+    // Set instance field: private System.Int16 m_offsetMinutes
+    void _set_m_offsetMinutes(int16_t value);
     // public System.DateTime get_UtcDateTime()
     // Offset: 0xEEEF80
     System::DateTime get_UtcDateTime();

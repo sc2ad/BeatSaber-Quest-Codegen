@@ -55,6 +55,22 @@ namespace System::Diagnostics {
     }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
+    // Get instance field: private System.Int32 indentLevel
+    int _get_indentLevel();
+    // Set instance field: private System.Int32 indentLevel
+    void _set_indentLevel(int value);
+    // Get instance field: private System.Int32 indentSize
+    int _get_indentSize();
+    // Set instance field: private System.Int32 indentSize
+    void _set_indentSize(int value);
+    // Get instance field: private System.Boolean needIndent
+    bool _get_needIndent();
+    // Set instance field: private System.Boolean needIndent
+    void _set_needIndent(bool value);
+    // Get instance field: private System.String listenerName
+    ::Il2CppString* _get_listenerName();
+    // Set instance field: private System.String listenerName
+    void _set_listenerName(::Il2CppString* value);
     // public System.Boolean get_IsThreadSafe()
     // Offset: 0x184DF18
     bool get_IsThreadSafe();

@@ -55,6 +55,30 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LoginRequestDTO
     LoginRequestDTO(::Il2CppString* platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* platformEnviroment_ = {}, ::Il2CppString* publicUserDisplayName_ = {}, ::Il2CppString* buildVersion_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, platformEnviroment{platformEnviroment_}, publicUserDisplayName{publicUserDisplayName_}, buildVersion{buildVersion_} {}
+    // Get instance field: public System.String platform
+    ::Il2CppString* _get_platform();
+    // Set instance field: public System.String platform
+    void _set_platform(::Il2CppString* value);
+    // Get instance field: public System.String platformUserId
+    ::Il2CppString* _get_platformUserId();
+    // Set instance field: public System.String platformUserId
+    void _set_platformUserId(::Il2CppString* value);
+    // Get instance field: public System.String platformAuthToken
+    ::Il2CppString* _get_platformAuthToken();
+    // Set instance field: public System.String platformAuthToken
+    void _set_platformAuthToken(::Il2CppString* value);
+    // Get instance field: public System.String platformEnviroment
+    ::Il2CppString* _get_platformEnviroment();
+    // Set instance field: public System.String platformEnviroment
+    void _set_platformEnviroment(::Il2CppString* value);
+    // Get instance field: public System.String publicUserDisplayName
+    ::Il2CppString* _get_publicUserDisplayName();
+    // Set instance field: public System.String publicUserDisplayName
+    void _set_publicUserDisplayName(::Il2CppString* value);
+    // Get instance field: public System.String buildVersion
+    ::Il2CppString* _get_buildVersion();
+    // Set instance field: public System.String buildVersion
+    void _set_buildVersion(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x10F07AC
     // Implemented from: System.Object

@@ -60,6 +60,22 @@ namespace MasterServer {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ConnectToUserServerRequest
     ConnectToUserServerRequest(::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}, ::Il2CppString* password_ = {}, bool useRelay_ = {}) noexcept : secret{secret_}, code{code_}, password{password_}, useRelay{useRelay_} {}
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.String code
+    ::Il2CppString* _get_code();
+    // Set instance field: public System.String code
+    void _set_code(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public System.Boolean useRelay
+    bool _get_useRelay();
+    // Set instance field: public System.Boolean useRelay
+    void _set_useRelay(bool value);
     // static public PacketPool`1<MasterServer.ConnectToUserServerRequest> get_pool()
     // Offset: 0x12D0D38
     static GlobalNamespace::PacketPool_1<MasterServer::ConnectToUserServerRequest*>* get_pool();

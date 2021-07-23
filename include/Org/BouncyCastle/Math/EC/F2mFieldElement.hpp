@@ -58,6 +58,22 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::LongArray*) == 0x8);
     // Creating value type constructor for type: F2mFieldElement
     F2mFieldElement(int representation_ = {}, int m_ = {}, ::Array<int>* ks_ = {}, Org::BouncyCastle::Math::EC::LongArray* x_ = {}) noexcept : representation{representation_}, m{m_}, ks{ks_}, x{x_} {}
+    // Get instance field: private System.Int32 representation
+    int _get_representation();
+    // Set instance field: private System.Int32 representation
+    void _set_representation(int value);
+    // Get instance field: private System.Int32 m
+    int _get_m();
+    // Set instance field: private System.Int32 m
+    void _set_m(int value);
+    // Get instance field: private System.Int32[] ks
+    ::Array<int>* _get_ks();
+    // Set instance field: private System.Int32[] ks
+    void _set_ks(::Array<int>* value);
+    // Get instance field: Org.BouncyCastle.Math.EC.LongArray x
+    Org::BouncyCastle::Math::EC::LongArray* _get_x();
+    // Set instance field: Org.BouncyCastle.Math.EC.LongArray x
+    void _set_x(Org::BouncyCastle::Math::EC::LongArray* value);
     // public System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3, Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x20EAD54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

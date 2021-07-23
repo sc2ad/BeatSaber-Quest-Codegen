@@ -40,6 +40,10 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLookAt*) == 0x8);
     // Creating value type constructor for type: LookAtIK
     LookAtIK(RootMotion::FinalIK::IKSolverLookAt* solver_ = {}) noexcept : solver{solver_} {}
+    // Get instance field: public RootMotion.FinalIK.IKSolverLookAt solver
+    RootMotion::FinalIK::IKSolverLookAt* _get_solver();
+    // Set instance field: public RootMotion.FinalIK.IKSolverLookAt solver
+    void _set_solver(RootMotion::FinalIK::IKSolverLookAt* value);
     // private System.Void SupportGroup()
     // Offset: 0x1AB5CC0
     void SupportGroup();

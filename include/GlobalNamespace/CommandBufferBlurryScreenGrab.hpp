@@ -78,6 +78,22 @@ namespace GlobalNamespace {
     static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* _get__cameras();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static void _set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* value);
+    // Get instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
+    GlobalNamespace::KawaseBlurRendererSO* _get__kawaseBlurRenderer();
+    // Set instance field: private KawaseBlurRendererSO _kawaseBlurRenderer
+    void _set__kawaseBlurRenderer(GlobalNamespace::KawaseBlurRendererSO* value);
+    // Get instance field: private KawaseBlurRendererSO/KernelSize _kernelSize
+    GlobalNamespace::KawaseBlurRendererSO::KernelSize _get__kernelSize();
+    // Set instance field: private KawaseBlurRendererSO/KernelSize _kernelSize
+    void _set__kernelSize(GlobalNamespace::KawaseBlurRendererSO::KernelSize value);
+    // Get instance field: private UnityEngine.Rendering.CameraEvent _cameraEvent
+    UnityEngine::Rendering::CameraEvent _get__cameraEvent();
+    // Set instance field: private UnityEngine.Rendering.CameraEvent _cameraEvent
+    void _set__cameraEvent(UnityEngine::Rendering::CameraEvent value);
+    // Get instance field: private System.Int32 _downsample
+    int _get__downsample();
+    // Set instance field: private System.Int32 _downsample
+    void _set__downsample(int value);
     // public System.Void .ctor()
     // Offset: 0x233D120
     // Implemented from: CommandBufferGOCore

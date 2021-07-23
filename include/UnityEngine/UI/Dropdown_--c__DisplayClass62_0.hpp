@@ -34,6 +34,14 @@ namespace UnityEngine::UI {
     static_assert(sizeof(UnityEngine::UI::Dropdown*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass62_0
     $$c__DisplayClass62_0(UnityEngine::UI::Dropdown::DropdownItem* item_ = {}, UnityEngine::UI::Dropdown* $$4__this_ = {}) noexcept : item{item_}, $$4__this{$$4__this_} {}
+    // Get instance field: public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
+    UnityEngine::UI::Dropdown::DropdownItem* _get_item();
+    // Set instance field: public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
+    void _set_item(UnityEngine::UI::Dropdown::DropdownItem* value);
+    // Get instance field: public UnityEngine.UI.Dropdown <>4__this
+    UnityEngine::UI::Dropdown* _get_$$4__this();
+    // Set instance field: public UnityEngine.UI.Dropdown <>4__this
+    void _set_$$4__this(UnityEngine::UI::Dropdown* value);
     // System.Void <Show>b__0(System.Boolean x)
     // Offset: 0x18E56FC
     void $Show$b__0(bool x);

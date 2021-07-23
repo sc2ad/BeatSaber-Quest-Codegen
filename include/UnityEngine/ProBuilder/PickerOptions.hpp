@@ -42,6 +42,14 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::PickerOptions _get_k_Default();
     // Set static field: static private readonly UnityEngine.ProBuilder.PickerOptions k_Default
     static void _set_k_Default(UnityEngine::ProBuilder::PickerOptions value);
+    // Get instance field: private System.Boolean <depthTest>k__BackingField
+    bool _get_$depthTest$k__BackingField();
+    // Set instance field: private System.Boolean <depthTest>k__BackingField
+    void _set_$depthTest$k__BackingField(bool value);
+    // Get instance field: private UnityEngine.ProBuilder.RectSelectMode <rectSelectMode>k__BackingField
+    UnityEngine::ProBuilder::RectSelectMode _get_$rectSelectMode$k__BackingField();
+    // Set instance field: private UnityEngine.ProBuilder.RectSelectMode <rectSelectMode>k__BackingField
+    void _set_$rectSelectMode$k__BackingField(UnityEngine::ProBuilder::RectSelectMode value);
     // public System.Boolean get_depthTest()
     // Offset: 0xEE49F4
     bool get_depthTest();

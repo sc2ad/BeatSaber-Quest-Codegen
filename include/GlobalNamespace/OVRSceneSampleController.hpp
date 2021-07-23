@@ -95,6 +95,38 @@ namespace GlobalNamespace {
     OVRSceneSampleController(UnityEngine::KeyCode quitKey_ = {}, UnityEngine::Texture* fadeInTexture_ = {}, float speedRotationIncrement_ = {}, GlobalNamespace::OVRPlayerController* playerController_ = {}, GlobalNamespace::OVRCameraRig* cameraController_ = {}, ::Il2CppString* layerName_ = {}, bool visionMode_ = {}, GlobalNamespace::OVRGridCube* gridCube_ = {}) noexcept : quitKey{quitKey_}, fadeInTexture{fadeInTexture_}, speedRotationIncrement{speedRotationIncrement_}, playerController{playerController_}, cameraController{cameraController_}, layerName{layerName_}, visionMode{visionMode_}, gridCube{gridCube_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public UnityEngine.KeyCode quitKey
+    UnityEngine::KeyCode _get_quitKey();
+    // Set instance field: public UnityEngine.KeyCode quitKey
+    void _set_quitKey(UnityEngine::KeyCode value);
+    // Get instance field: public UnityEngine.Texture fadeInTexture
+    UnityEngine::Texture* _get_fadeInTexture();
+    // Set instance field: public UnityEngine.Texture fadeInTexture
+    void _set_fadeInTexture(UnityEngine::Texture* value);
+    // Get instance field: public System.Single speedRotationIncrement
+    float _get_speedRotationIncrement();
+    // Set instance field: public System.Single speedRotationIncrement
+    void _set_speedRotationIncrement(float value);
+    // Get instance field: private OVRPlayerController playerController
+    GlobalNamespace::OVRPlayerController* _get_playerController();
+    // Set instance field: private OVRPlayerController playerController
+    void _set_playerController(GlobalNamespace::OVRPlayerController* value);
+    // Get instance field: private OVRCameraRig cameraController
+    GlobalNamespace::OVRCameraRig* _get_cameraController();
+    // Set instance field: private OVRCameraRig cameraController
+    void _set_cameraController(GlobalNamespace::OVRCameraRig* value);
+    // Get instance field: public System.String layerName
+    ::Il2CppString* _get_layerName();
+    // Set instance field: public System.String layerName
+    void _set_layerName(::Il2CppString* value);
+    // Get instance field: private System.Boolean visionMode
+    bool _get_visionMode();
+    // Set instance field: private System.Boolean visionMode
+    void _set_visionMode(bool value);
+    // Get instance field: private OVRGridCube gridCube
+    GlobalNamespace::OVRGridCube* _get_gridCube();
+    // Set instance field: private OVRGridCube gridCube
+    void _set_gridCube(GlobalNamespace::OVRGridCube* value);
     // private System.Void Awake()
     // Offset: 0x15FBAB0
     void Awake();

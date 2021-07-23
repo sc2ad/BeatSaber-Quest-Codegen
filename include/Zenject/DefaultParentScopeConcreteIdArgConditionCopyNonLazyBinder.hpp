@@ -37,6 +37,10 @@ namespace Zenject {
     static_assert(sizeof(Zenject::SubContainerCreatorBindInfo*) == 0x8);
     // Creating value type constructor for type: DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
     DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::SubContainerCreatorBindInfo* SubContainerCreatorBindInfo_ = {}) noexcept : SubContainerCreatorBindInfo{SubContainerCreatorBindInfo_} {}
+    // Get instance field: private Zenject.SubContainerCreatorBindInfo <SubContainerCreatorBindInfo>k__BackingField
+    Zenject::SubContainerCreatorBindInfo* _get_$SubContainerCreatorBindInfo$k__BackingField();
+    // Set instance field: private Zenject.SubContainerCreatorBindInfo <SubContainerCreatorBindInfo>k__BackingField
+    void _set_$SubContainerCreatorBindInfo$k__BackingField(Zenject::SubContainerCreatorBindInfo* value);
     // protected Zenject.SubContainerCreatorBindInfo get_SubContainerCreatorBindInfo()
     // Offset: 0x138136C
     Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();

@@ -76,6 +76,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
     // Creating value type constructor for type: AppInit
     AppInit(UnityEngine::GameObject* cameraGO_ = {}, GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : cameraGO{cameraGO_}, multiplayerMockSettings{multiplayerMockSettings_}, sceneSetupData{sceneSetupData_}, gameScenesManager{gameScenesManager_} {}
+    // Get instance field: private UnityEngine.GameObject _cameraGO
+    UnityEngine::GameObject* _get__cameraGO();
+    // Set instance field: private UnityEngine.GameObject _cameraGO
+    void _set__cameraGO(UnityEngine::GameObject* value);
+    // Get instance field: private MultiplayerMockSettings _multiplayerMockSettings
+    GlobalNamespace::MultiplayerMockSettings* _get__multiplayerMockSettings();
+    // Set instance field: private MultiplayerMockSettings _multiplayerMockSettings
+    void _set__multiplayerMockSettings(GlobalNamespace::MultiplayerMockSettings* value);
+    // Get instance field: private AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData _sceneSetupData
+    GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* value);
+    // Get instance field: private GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // protected GameScenesManager get_gameScenesManager()
     // Offset: 0x10D9BE4
     GlobalNamespace::GameScenesManager* get_gameScenesManager();

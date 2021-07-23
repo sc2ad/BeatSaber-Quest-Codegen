@@ -59,6 +59,14 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
+    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters* _get_key();
+    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters key
+    void _set_key(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters* value);
+    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
     // Offset: 0x12336E0
     Org::BouncyCastle::Math::BigInteger* get_Order();

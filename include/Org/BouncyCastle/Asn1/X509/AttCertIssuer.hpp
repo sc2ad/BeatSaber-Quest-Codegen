@@ -53,6 +53,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
+    // Get instance field: readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
+    Org::BouncyCastle::Asn1::Asn1Encodable* _get_obj();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
+    void _set_obj(Org::BouncyCastle::Asn1::Asn1Encodable* value);
+    // Get instance field: readonly Org.BouncyCastle.Asn1.Asn1Object choiceObj
+    Org::BouncyCastle::Asn1::Asn1Object* _get_choiceObj();
+    // Set instance field: readonly Org.BouncyCastle.Asn1.Asn1Object choiceObj
+    void _set_choiceObj(Org::BouncyCastle::Asn1::Asn1Object* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.GeneralNames names)
     // Offset: 0x19D6280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

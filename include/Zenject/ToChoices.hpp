@@ -43,6 +43,10 @@ namespace Zenject {
     static Zenject::ToChoices _get_Concrete();
     // Set static field: static public Zenject.ToChoices Concrete
     static void _set_Concrete(Zenject::ToChoices value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Zenject.ToChoices
   #pragma pack(pop)
   static check_size<sizeof(ToChoices), 0 + sizeof(int)> __Zenject_ToChoicesSizeCheck;

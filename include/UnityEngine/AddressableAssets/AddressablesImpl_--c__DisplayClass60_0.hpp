@@ -62,6 +62,26 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> handle;
     // Creating value type constructor for type: $$c__DisplayClass60_0
     $$c__DisplayClass60_0(UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}, ::Il2CppString* catalogPath_ = {}, bool autoReleaseHandle_ = {}, ::Il2CppString* providerSuffix_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> handle_ = {}) noexcept : $$4__this{$$4__this_}, catalogPath{catalogPath_}, autoReleaseHandle{autoReleaseHandle_}, providerSuffix{providerSuffix_}, handle{handle_} {}
+    // Get instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    UnityEngine::AddressableAssets::AddressablesImpl* _get_$$4__this();
+    // Set instance field: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
+    void _set_$$4__this(UnityEngine::AddressableAssets::AddressablesImpl* value);
+    // Get instance field: public System.String catalogPath
+    ::Il2CppString* _get_catalogPath();
+    // Set instance field: public System.String catalogPath
+    void _set_catalogPath(::Il2CppString* value);
+    // Get instance field: public System.Boolean autoReleaseHandle
+    bool _get_autoReleaseHandle();
+    // Set instance field: public System.Boolean autoReleaseHandle
+    void _set_autoReleaseHandle(bool value);
+    // Get instance field: public System.String providerSuffix
+    ::Il2CppString* _get_providerSuffix();
+    // Set instance field: public System.String providerSuffix
+    void _set_providerSuffix(::Il2CppString* value);
+    // Get instance field: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> handle
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> _get_handle();
+    // Set instance field: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> handle
+    void _set_handle(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <LoadContentCatalogAsync>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
     // Offset: 0x13C3B30
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> $LoadContentCatalogAsync$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);

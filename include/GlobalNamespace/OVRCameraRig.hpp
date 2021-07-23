@@ -199,6 +199,110 @@ namespace GlobalNamespace {
     OVRCameraRig(UnityEngine::Transform* trackingSpace_ = {}, UnityEngine::Transform* leftEyeAnchor_ = {}, UnityEngine::Transform* centerEyeAnchor_ = {}, UnityEngine::Transform* rightEyeAnchor_ = {}, UnityEngine::Transform* leftHandAnchor_ = {}, UnityEngine::Transform* rightHandAnchor_ = {}, UnityEngine::Transform* leftControllerAnchor_ = {}, UnityEngine::Transform* rightControllerAnchor_ = {}, UnityEngine::Transform* trackerAnchor_ = {}, System::Action_1<GlobalNamespace::OVRCameraRig*>* UpdatedAnchors_ = {}, bool usePerEyeCameras_ = {}, bool useFixedUpdateForTracking_ = {}, bool disableEyeAnchorCameras_ = {}, bool skipUpdate_ = {}, ::Il2CppString* trackingSpaceName_ = {}, ::Il2CppString* trackerAnchorName_ = {}, ::Il2CppString* leftEyeAnchorName_ = {}, ::Il2CppString* centerEyeAnchorName_ = {}, ::Il2CppString* rightEyeAnchorName_ = {}, ::Il2CppString* leftHandAnchorName_ = {}, ::Il2CppString* rightHandAnchorName_ = {}, ::Il2CppString* leftControllerAnchorName_ = {}, ::Il2CppString* rightControllerAnchorName_ = {}, UnityEngine::Camera* centerEyeCamera_ = {}, UnityEngine::Camera* leftEyeCamera_ = {}, UnityEngine::Camera* rightEyeCamera_ = {}) noexcept : trackingSpace{trackingSpace_}, leftEyeAnchor{leftEyeAnchor_}, centerEyeAnchor{centerEyeAnchor_}, rightEyeAnchor{rightEyeAnchor_}, leftHandAnchor{leftHandAnchor_}, rightHandAnchor{rightHandAnchor_}, leftControllerAnchor{leftControllerAnchor_}, rightControllerAnchor{rightControllerAnchor_}, trackerAnchor{trackerAnchor_}, UpdatedAnchors{UpdatedAnchors_}, usePerEyeCameras{usePerEyeCameras_}, useFixedUpdateForTracking{useFixedUpdateForTracking_}, disableEyeAnchorCameras{disableEyeAnchorCameras_}, skipUpdate{skipUpdate_}, trackingSpaceName{trackingSpaceName_}, trackerAnchorName{trackerAnchorName_}, leftEyeAnchorName{leftEyeAnchorName_}, centerEyeAnchorName{centerEyeAnchorName_}, rightEyeAnchorName{rightEyeAnchorName_}, leftHandAnchorName{leftHandAnchorName_}, rightHandAnchorName{rightHandAnchorName_}, leftControllerAnchorName{leftControllerAnchorName_}, rightControllerAnchorName{rightControllerAnchorName_}, centerEyeCamera{centerEyeCamera_}, leftEyeCamera{leftEyeCamera_}, rightEyeCamera{rightEyeCamera_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform <trackingSpace>k__BackingField
+    UnityEngine::Transform* _get_$trackingSpace$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <trackingSpace>k__BackingField
+    void _set_$trackingSpace$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <leftEyeAnchor>k__BackingField
+    UnityEngine::Transform* _get_$leftEyeAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <leftEyeAnchor>k__BackingField
+    void _set_$leftEyeAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <centerEyeAnchor>k__BackingField
+    UnityEngine::Transform* _get_$centerEyeAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <centerEyeAnchor>k__BackingField
+    void _set_$centerEyeAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <rightEyeAnchor>k__BackingField
+    UnityEngine::Transform* _get_$rightEyeAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <rightEyeAnchor>k__BackingField
+    void _set_$rightEyeAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <leftHandAnchor>k__BackingField
+    UnityEngine::Transform* _get_$leftHandAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <leftHandAnchor>k__BackingField
+    void _set_$leftHandAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <rightHandAnchor>k__BackingField
+    UnityEngine::Transform* _get_$rightHandAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <rightHandAnchor>k__BackingField
+    void _set_$rightHandAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <leftControllerAnchor>k__BackingField
+    UnityEngine::Transform* _get_$leftControllerAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <leftControllerAnchor>k__BackingField
+    void _set_$leftControllerAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <rightControllerAnchor>k__BackingField
+    UnityEngine::Transform* _get_$rightControllerAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <rightControllerAnchor>k__BackingField
+    void _set_$rightControllerAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private UnityEngine.Transform <trackerAnchor>k__BackingField
+    UnityEngine::Transform* _get_$trackerAnchor$k__BackingField();
+    // Set instance field: private UnityEngine.Transform <trackerAnchor>k__BackingField
+    void _set_$trackerAnchor$k__BackingField(UnityEngine::Transform* value);
+    // Get instance field: private System.Action`1<OVRCameraRig> UpdatedAnchors
+    System::Action_1<GlobalNamespace::OVRCameraRig*>* _get_UpdatedAnchors();
+    // Set instance field: private System.Action`1<OVRCameraRig> UpdatedAnchors
+    void _set_UpdatedAnchors(System::Action_1<GlobalNamespace::OVRCameraRig*>* value);
+    // Get instance field: public System.Boolean usePerEyeCameras
+    bool _get_usePerEyeCameras();
+    // Set instance field: public System.Boolean usePerEyeCameras
+    void _set_usePerEyeCameras(bool value);
+    // Get instance field: public System.Boolean useFixedUpdateForTracking
+    bool _get_useFixedUpdateForTracking();
+    // Set instance field: public System.Boolean useFixedUpdateForTracking
+    void _set_useFixedUpdateForTracking(bool value);
+    // Get instance field: public System.Boolean disableEyeAnchorCameras
+    bool _get_disableEyeAnchorCameras();
+    // Set instance field: public System.Boolean disableEyeAnchorCameras
+    void _set_disableEyeAnchorCameras(bool value);
+    // Get instance field: protected System.Boolean _skipUpdate
+    bool _get__skipUpdate();
+    // Set instance field: protected System.Boolean _skipUpdate
+    void _set__skipUpdate(bool value);
+    // Get instance field: protected readonly System.String trackingSpaceName
+    ::Il2CppString* _get_trackingSpaceName();
+    // Set instance field: protected readonly System.String trackingSpaceName
+    void _set_trackingSpaceName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String trackerAnchorName
+    ::Il2CppString* _get_trackerAnchorName();
+    // Set instance field: protected readonly System.String trackerAnchorName
+    void _set_trackerAnchorName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String leftEyeAnchorName
+    ::Il2CppString* _get_leftEyeAnchorName();
+    // Set instance field: protected readonly System.String leftEyeAnchorName
+    void _set_leftEyeAnchorName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String centerEyeAnchorName
+    ::Il2CppString* _get_centerEyeAnchorName();
+    // Set instance field: protected readonly System.String centerEyeAnchorName
+    void _set_centerEyeAnchorName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String rightEyeAnchorName
+    ::Il2CppString* _get_rightEyeAnchorName();
+    // Set instance field: protected readonly System.String rightEyeAnchorName
+    void _set_rightEyeAnchorName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String leftHandAnchorName
+    ::Il2CppString* _get_leftHandAnchorName();
+    // Set instance field: protected readonly System.String leftHandAnchorName
+    void _set_leftHandAnchorName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String rightHandAnchorName
+    ::Il2CppString* _get_rightHandAnchorName();
+    // Set instance field: protected readonly System.String rightHandAnchorName
+    void _set_rightHandAnchorName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String leftControllerAnchorName
+    ::Il2CppString* _get_leftControllerAnchorName();
+    // Set instance field: protected readonly System.String leftControllerAnchorName
+    void _set_leftControllerAnchorName(::Il2CppString* value);
+    // Get instance field: protected readonly System.String rightControllerAnchorName
+    ::Il2CppString* _get_rightControllerAnchorName();
+    // Set instance field: protected readonly System.String rightControllerAnchorName
+    void _set_rightControllerAnchorName(::Il2CppString* value);
+    // Get instance field: protected UnityEngine.Camera _centerEyeCamera
+    UnityEngine::Camera* _get__centerEyeCamera();
+    // Set instance field: protected UnityEngine.Camera _centerEyeCamera
+    void _set__centerEyeCamera(UnityEngine::Camera* value);
+    // Get instance field: protected UnityEngine.Camera _leftEyeCamera
+    UnityEngine::Camera* _get__leftEyeCamera();
+    // Set instance field: protected UnityEngine.Camera _leftEyeCamera
+    void _set__leftEyeCamera(UnityEngine::Camera* value);
+    // Get instance field: protected UnityEngine.Camera _rightEyeCamera
+    UnityEngine::Camera* _get__rightEyeCamera();
+    // Set instance field: protected UnityEngine.Camera _rightEyeCamera
+    void _set__rightEyeCamera(UnityEngine::Camera* value);
     // public UnityEngine.Camera get_leftEyeCamera()
     // Offset: 0x124B2A0
     UnityEngine::Camera* get_leftEyeCamera();

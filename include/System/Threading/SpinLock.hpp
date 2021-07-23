@@ -49,6 +49,10 @@ namespace System::Threading {
     static int _get_MAXIMUM_WAITERS();
     // Set static field: static private System.Int32 MAXIMUM_WAITERS
     static void _set_MAXIMUM_WAITERS(int value);
+    // Get instance field: private System.Int32 m_owner
+    int _get_m_owner();
+    // Set instance field: private System.Int32 m_owner
+    void _set_m_owner(int value);
     // public System.Boolean get_IsHeldByCurrentThread()
     // Offset: 0xEEA854
     bool get_IsHeldByCurrentThread();

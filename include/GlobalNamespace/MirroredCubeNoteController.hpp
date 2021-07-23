@@ -85,6 +85,18 @@ namespace GlobalNamespace {
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
     static void _set__colorId(int value);
+    // Get instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    GlobalNamespace::MaterialPropertyBlockController* _get__materialPropertyBlockController();
+    // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
+    void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
+    // Get instance field: private readonly ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private readonly ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private System.Action`1<MirroredCubeNoteController> cubeNoteControllerDidInitEvent
+    System::Action_1<GlobalNamespace::MirroredCubeNoteController*>* _get_cubeNoteControllerDidInitEvent();
+    // Set instance field: private System.Action`1<MirroredCubeNoteController> cubeNoteControllerDidInitEvent
+    void _set_cubeNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>* value);
     // public NoteMovement get_noteMovement()
     // Offset: 0x112ECA8
     GlobalNamespace::NoteMovement* get_noteMovement();

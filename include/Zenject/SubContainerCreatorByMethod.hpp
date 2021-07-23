@@ -55,6 +55,10 @@ namespace Zenject {
     constexpr operator System::Action_1<Zenject::DiContainer*>*() const noexcept {
       return installMethod;
     }
+    // Get instance field: private readonly System.Action`1<Zenject.DiContainer> _installMethod
+    System::Action_1<Zenject::DiContainer*>* _get__installMethod();
+    // Set instance field: private readonly System.Action`1<Zenject.DiContainer> _installMethod
+    void _set__installMethod(System::Action_1<Zenject::DiContainer*>* value);
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Action`1<Zenject.DiContainer> installMethod)
     // Offset: 0x16D0E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

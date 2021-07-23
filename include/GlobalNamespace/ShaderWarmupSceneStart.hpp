@@ -53,6 +53,14 @@ namespace GlobalNamespace {
     ShaderWarmupSceneStart(GlobalNamespace::ShaderWarmupSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}) noexcept : sceneSetupData{sceneSetupData_}, gameScenesManager{gameScenesManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly ShaderWarmupSceneSetupData _sceneSetupData
+    GlobalNamespace::ShaderWarmupSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private readonly ShaderWarmupSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::ShaderWarmupSceneSetupData* value);
+    // Get instance field: private readonly GameScenesManager _gameScenesManager
+    GlobalNamespace::GameScenesManager* _get__gameScenesManager();
+    // Set instance field: private readonly GameScenesManager _gameScenesManager
+    void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // protected System.Collections.IEnumerator Start()
     // Offset: 0x105347C
     System::Collections::IEnumerator* Start();

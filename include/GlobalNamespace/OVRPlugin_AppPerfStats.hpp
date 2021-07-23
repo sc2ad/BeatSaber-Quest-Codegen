@@ -52,6 +52,22 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVRPlugin/AppPerfFrameStats[] FrameStats
+    ::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* _get_FrameStats();
+    // Set instance field: public OVRPlugin/AppPerfFrameStats[] FrameStats
+    void _set_FrameStats(::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* value);
+    // Get instance field: public System.Int32 FrameStatsCount
+    int _get_FrameStatsCount();
+    // Set instance field: public System.Int32 FrameStatsCount
+    void _set_FrameStatsCount(int value);
+    // Get instance field: public OVRPlugin/Bool AnyFrameStatsDropped
+    GlobalNamespace::OVRPlugin::Bool _get_AnyFrameStatsDropped();
+    // Set instance field: public OVRPlugin/Bool AnyFrameStatsDropped
+    void _set_AnyFrameStatsDropped(GlobalNamespace::OVRPlugin::Bool value);
+    // Get instance field: public System.Single AdaptiveGpuPerformanceScale
+    float _get_AdaptiveGpuPerformanceScale();
+    // Set instance field: public System.Single AdaptiveGpuPerformanceScale
+    void _set_AdaptiveGpuPerformanceScale(float value);
   }; // OVRPlugin/AppPerfStats
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::AppPerfStats), 16 + sizeof(float)> __GlobalNamespace_OVRPlugin_AppPerfStatsSizeCheck;

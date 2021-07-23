@@ -54,6 +54,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MissionCompletionResults*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass26_0
     $$c__DisplayClass26_0(GlobalNamespace::MenuTransitionsHelper* $$4__this_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MissionCompletionResults* missionCompletionResults_ = {}) noexcept : $$4__this{$$4__this_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, missionCompletionResults{missionCompletionResults_} {}
+    // Get instance field: public MenuTransitionsHelper <>4__this
+    GlobalNamespace::MenuTransitionsHelper* _get_$$4__this();
+    // Set instance field: public MenuTransitionsHelper <>4__this
+    void _set_$$4__this(GlobalNamespace::MenuTransitionsHelper* value);
+    // Get instance field: public MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData
+    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _get_missionLevelScenesTransitionSetupData();
+    // Set instance field: public MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData
+    void _set_missionLevelScenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+    // Get instance field: public MissionCompletionResults missionCompletionResults
+    GlobalNamespace::MissionCompletionResults* _get_missionCompletionResults();
+    // Set instance field: public MissionCompletionResults missionCompletionResults
+    void _set_missionCompletionResults(GlobalNamespace::MissionCompletionResults* value);
     // System.Void <HandleMissionLevelSceneDidFinish>b__0(Zenject.DiContainer container)
     // Offset: 0x1181B20
     void $HandleMissionLevelSceneDidFinish$b__0(Zenject::DiContainer* container);

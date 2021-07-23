@@ -49,6 +49,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Rendering::CommandBuffer*) == 0x8);
     // Creating value type constructor for type: CommandBufferOwners
     CommandBufferOwners(System::Collections::Generic::HashSet_1<UnityEngine::Object*>* owners_ = {}, UnityEngine::Rendering::CommandBuffer* commandBuffer_ = {}) noexcept : owners{owners_}, commandBuffer{commandBuffer_} {}
+    // Get instance field: private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
+    System::Collections::Generic::HashSet_1<UnityEngine::Object*>* _get__owners();
+    // Set instance field: private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
+    void _set__owners(System::Collections::Generic::HashSet_1<UnityEngine::Object*>* value);
+    // Get instance field: public UnityEngine.Rendering.CommandBuffer commandBuffer
+    UnityEngine::Rendering::CommandBuffer* _get_commandBuffer();
+    // Set instance field: public UnityEngine.Rendering.CommandBuffer commandBuffer
+    void _set_commandBuffer(UnityEngine::Rendering::CommandBuffer* value);
     // public System.Int32 get_NumberOfOwners()
     // Offset: 0x233D908
     int get_NumberOfOwners();

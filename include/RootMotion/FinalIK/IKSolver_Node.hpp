@@ -54,6 +54,22 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Node
     Node(float length_ = {}, float effectorPositionWeight_ = {}, float effectorRotationWeight_ = {}, UnityEngine::Vector3 offset_ = {}) noexcept : length{length_}, effectorPositionWeight{effectorPositionWeight_}, effectorRotationWeight{effectorRotationWeight_}, offset{offset_} {}
+    // Get instance field: public System.Single length
+    float _get_length();
+    // Set instance field: public System.Single length
+    void _set_length(float value);
+    // Get instance field: public System.Single effectorPositionWeight
+    float _get_effectorPositionWeight();
+    // Set instance field: public System.Single effectorPositionWeight
+    void _set_effectorPositionWeight(float value);
+    // Get instance field: public System.Single effectorRotationWeight
+    float _get_effectorRotationWeight();
+    // Set instance field: public System.Single effectorRotationWeight
+    void _set_effectorRotationWeight(float value);
+    // Get instance field: public UnityEngine.Vector3 offset
+    UnityEngine::Vector3 _get_offset();
+    // Set instance field: public UnityEngine.Vector3 offset
+    void _set_offset(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Transform transform)
     // Offset: 0x1C9F1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

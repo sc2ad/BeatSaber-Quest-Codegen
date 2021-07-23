@@ -57,6 +57,10 @@ namespace Org::BouncyCastle::OpenSsl {
     static Org::BouncyCastle::OpenSsl::PemUtilities::PemMode _get_OFB();
     // Set static field: static public Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemMode OFB
     static void _set_OFB(Org::BouncyCastle::OpenSsl::PemUtilities::PemMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemMode
   #pragma pack(pop)
   static check_size<sizeof(PemUtilities::PemMode), 0 + sizeof(int)> __Org_BouncyCastle_OpenSsl_PemUtilities_PemModeSizeCheck;

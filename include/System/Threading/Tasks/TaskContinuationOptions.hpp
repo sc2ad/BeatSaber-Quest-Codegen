@@ -122,6 +122,10 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::TaskContinuationOptions _get_ExecuteSynchronously();
     // Set static field: static public System.Threading.Tasks.TaskContinuationOptions ExecuteSynchronously
     static void _set_ExecuteSynchronously(System::Threading::Tasks::TaskContinuationOptions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Threading.Tasks.TaskContinuationOptions
   #pragma pack(pop)
   static check_size<sizeof(TaskContinuationOptions), 0 + sizeof(int)> __System_Threading_Tasks_TaskContinuationOptionsSizeCheck;

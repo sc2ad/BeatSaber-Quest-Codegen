@@ -32,6 +32,10 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return serializedName;
     }
+    // Get instance field: public System.String serializedName
+    ::Il2CppString* _get_serializedName();
+    // Set instance field: public System.String serializedName
+    void _set_serializedName(::Il2CppString* value);
     // System.Boolean <SelectCellWithSerializedName>b__0(QuickPlaySongPacksDropdown/SongPackMaskItem item)
     // Offset: 0x1141EE4
     bool $SelectCellWithSerializedName$b__0(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);

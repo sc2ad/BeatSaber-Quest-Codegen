@@ -37,6 +37,14 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private UnityEngine.Vector3 m_PositionXYZWeight
+    UnityEngine::Vector3 _get_m_PositionXYZWeight();
+    // Set instance field: private UnityEngine.Vector3 m_PositionXYZWeight
+    void _set_m_PositionXYZWeight(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single m_RotationWeight
+    float _get_m_RotationWeight();
+    // Set instance field: private System.Single m_RotationWeight
+    void _set_m_RotationWeight(float value);
   }; // UnityEngine.MatchTargetWeightMask
   #pragma pack(pop)
   static check_size<sizeof(MatchTargetWeightMask), 12 + sizeof(float)> __UnityEngine_MatchTargetWeightMaskSizeCheck;

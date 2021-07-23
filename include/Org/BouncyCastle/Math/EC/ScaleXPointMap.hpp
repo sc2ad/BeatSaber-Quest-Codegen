@@ -44,6 +44,10 @@ namespace Org::BouncyCastle::Math::EC {
     constexpr operator Org::BouncyCastle::Math::EC::ECFieldElement*() const noexcept {
       return scale;
     }
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
+    Org::BouncyCastle::Math::EC::ECFieldElement* _get_scale();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
+    void _set_scale(Org::BouncyCastle::Math::EC::ECFieldElement* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement scale)
     // Offset: 0x1D9EDC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

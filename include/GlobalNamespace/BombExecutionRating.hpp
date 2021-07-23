@@ -61,6 +61,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::BombExecutionRating::Rating _get_NotGood();
       // Set static field: static public BombExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::BombExecutionRating::Rating value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // BombExecutionRating/Rating
     #pragma pack(pop)
     static check_size<sizeof(BombExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_BombExecutionRating_RatingSizeCheck;
@@ -77,6 +81,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::BombExecutionRating::Rating() const noexcept {
       return rating;
     }
+    // Get instance field: private BombExecutionRating/Rating <rating>k__BackingField
+    GlobalNamespace::BombExecutionRating::Rating _get_$rating$k__BackingField();
+    // Set instance field: private BombExecutionRating/Rating <rating>k__BackingField
+    void _set_$rating$k__BackingField(GlobalNamespace::BombExecutionRating::Rating value);
     // public BombExecutionRating/Rating get_rating()
     // Offset: 0x109E214
     GlobalNamespace::BombExecutionRating::Rating get_rating();

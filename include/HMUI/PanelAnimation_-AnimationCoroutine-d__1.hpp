@@ -126,6 +126,58 @@ namespace HMUI {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public UnityEngine.CanvasGroup canvasGroup
+    UnityEngine::CanvasGroup* _get_canvasGroup();
+    // Set instance field: public UnityEngine.CanvasGroup canvasGroup
+    void _set_canvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: public System.Single duration
+    float _get_duration();
+    // Set instance field: public System.Single duration
+    void _set_duration(float value);
+    // Get instance field: public UnityEngine.CanvasGroup parentCanvasGroup
+    UnityEngine::CanvasGroup* _get_parentCanvasGroup();
+    // Set instance field: public UnityEngine.CanvasGroup parentCanvasGroup
+    void _set_parentCanvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: public UnityEngine.AnimationCurve parentAlphaAnimationCurve
+    UnityEngine::AnimationCurve* _get_parentAlphaAnimationCurve();
+    // Set instance field: public UnityEngine.AnimationCurve parentAlphaAnimationCurve
+    void _set_parentAlphaAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve alphaAnimationCurve
+    UnityEngine::AnimationCurve* _get_alphaAnimationCurve();
+    // Set instance field: public UnityEngine.AnimationCurve alphaAnimationCurve
+    void _set_alphaAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve scaleXAnimationCurve
+    UnityEngine::AnimationCurve* _get_scaleXAnimationCurve();
+    // Set instance field: public UnityEngine.AnimationCurve scaleXAnimationCurve
+    void _set_scaleXAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: public UnityEngine.AnimationCurve scaleYAnimationCurve
+    UnityEngine::AnimationCurve* _get_scaleYAnimationCurve();
+    // Set instance field: public UnityEngine.AnimationCurve scaleYAnimationCurve
+    void _set_scaleYAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: public HMUI.PanelAnimation <>4__this
+    HMUI::PanelAnimation* _get_$$4__this();
+    // Set instance field: public HMUI.PanelAnimation <>4__this
+    void _set_$$4__this(HMUI::PanelAnimation* value);
+    // Get instance field: public System.Action finishedCallback
+    System::Action* _get_finishedCallback();
+    // Set instance field: public System.Action finishedCallback
+    void _set_finishedCallback(System::Action* value);
+    // Get instance field: private UnityEngine.Transform <canvasTransform>5__2
+    UnityEngine::Transform* _get_$canvasTransform$5__2();
+    // Set instance field: private UnityEngine.Transform <canvasTransform>5__2
+    void _set_$canvasTransform$5__2(UnityEngine::Transform* value);
+    // Get instance field: private System.Single <elapsedTime>5__3
+    float _get_$elapsedTime$5__3();
+    // Set instance field: private System.Single <elapsedTime>5__3
+    void _set_$elapsedTime$5__3(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x129555C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

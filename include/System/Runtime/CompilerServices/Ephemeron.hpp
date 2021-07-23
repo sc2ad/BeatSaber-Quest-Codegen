@@ -36,6 +36,14 @@ namespace System::Runtime::CompilerServices {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Object key
+    ::Il2CppObject* _get_key();
+    // Set instance field: System.Object key
+    void _set_key(::Il2CppObject* value);
+    // Get instance field: System.Object value
+    ::Il2CppObject* _get_value();
+    // Set instance field: System.Object value
+    void _set_value(::Il2CppObject* value);
   }; // System.Runtime.CompilerServices.Ephemeron
   #pragma pack(pop)
   static check_size<sizeof(Ephemeron), 8 + sizeof(::Il2CppObject*)> __System_Runtime_CompilerServices_EphemeronSizeCheck;

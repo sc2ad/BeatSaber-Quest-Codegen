@@ -71,6 +71,26 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(System::Net::NetworkInformation::NetworkInterfaceType) == 0x4);
     // Creating value type constructor for type: UnixNetworkInterface
     UnixNetworkInterface(System::Net::NetworkInformation::IPInterfaceProperties* ipproperties_ = {}, ::Il2CppString* name_ = {}, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses_ = {}, ::Array<uint8_t>* macAddress_ = {}, System::Net::NetworkInformation::NetworkInterfaceType type_ = {}) noexcept : ipproperties{ipproperties_}, name{name_}, addresses{addresses_}, macAddress{macAddress_}, type{type_} {}
+    // Get instance field: protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
+    System::Net::NetworkInformation::IPInterfaceProperties* _get_ipproperties();
+    // Set instance field: protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
+    void _set_ipproperties(System::Net::NetworkInformation::IPInterfaceProperties* value);
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: protected System.Collections.Generic.List`1<System.Net.IPAddress> addresses
+    System::Collections::Generic::List_1<System::Net::IPAddress*>* _get_addresses();
+    // Set instance field: protected System.Collections.Generic.List`1<System.Net.IPAddress> addresses
+    void _set_addresses(System::Collections::Generic::List_1<System::Net::IPAddress*>* value);
+    // Get instance field: private System.Byte[] macAddress
+    ::Array<uint8_t>* _get_macAddress();
+    // Set instance field: private System.Byte[] macAddress
+    void _set_macAddress(::Array<uint8_t>* value);
+    // Get instance field: private System.Net.NetworkInformation.NetworkInterfaceType type
+    System::Net::NetworkInformation::NetworkInterfaceType _get_type();
+    // Set instance field: private System.Net.NetworkInformation.NetworkInterfaceType type
+    void _set_type(System::Net::NetworkInformation::NetworkInterfaceType value);
     // System.Void .ctor(System.String name)
     // Offset: 0x14618FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

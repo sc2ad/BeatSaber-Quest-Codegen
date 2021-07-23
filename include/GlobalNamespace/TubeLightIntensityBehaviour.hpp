@@ -145,6 +145,70 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: TubeLightIntensityBehaviour
     TubeLightIntensityBehaviour(bool noPredefinedStartValue_ = {}, float startLightIntensity_ = {}, float startLaserIntensity_ = {}, float endLightIntensity_ = {}, float endLaserIntensity_ = {}, bool disableWhenFinished_ = {}, float blend_ = {}, bool initialized_ = {}, float originalLightIntensity_ = {}, float originalLaserIntensity_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, bool started_ = {}, bool finished_ = {}, float firstFrameLightIntensity_ = {}, float firstFrameLaserIntensity_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startLightIntensity{startLightIntensity_}, startLaserIntensity{startLaserIntensity_}, endLightIntensity{endLightIntensity_}, endLaserIntensity{endLaserIntensity_}, disableWhenFinished{disableWhenFinished_}, blend{blend_}, initialized{initialized_}, originalLightIntensity{originalLightIntensity_}, originalLaserIntensity{originalLaserIntensity_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, finished{finished_}, firstFrameLightIntensity{firstFrameLightIntensity_}, firstFrameLaserIntensity{firstFrameLaserIntensity_} {}
+    // Get instance field: public System.Boolean _noPredefinedStartValue
+    bool _get__noPredefinedStartValue();
+    // Set instance field: public System.Boolean _noPredefinedStartValue
+    void _set__noPredefinedStartValue(bool value);
+    // Get instance field: public System.Single _startLightIntensity
+    float _get__startLightIntensity();
+    // Set instance field: public System.Single _startLightIntensity
+    void _set__startLightIntensity(float value);
+    // Get instance field: public System.Single _startLaserIntensity
+    float _get__startLaserIntensity();
+    // Set instance field: public System.Single _startLaserIntensity
+    void _set__startLaserIntensity(float value);
+    // Get instance field: public System.Single _endLightIntensity
+    float _get__endLightIntensity();
+    // Set instance field: public System.Single _endLightIntensity
+    void _set__endLightIntensity(float value);
+    // Get instance field: public System.Single _endLaserIntensity
+    float _get__endLaserIntensity();
+    // Set instance field: public System.Single _endLaserIntensity
+    void _set__endLaserIntensity(float value);
+    // Get instance field: public System.Boolean _disableWhenFinished
+    bool _get__disableWhenFinished();
+    // Set instance field: public System.Boolean _disableWhenFinished
+    void _set__disableWhenFinished(bool value);
+    // Get instance field: public System.Single _blend
+    float _get__blend();
+    // Set instance field: public System.Single _blend
+    void _set__blend(float value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
+    // Get instance field: private System.Single _originalLightIntensity
+    float _get__originalLightIntensity();
+    // Set instance field: private System.Single _originalLightIntensity
+    void _set__originalLightIntensity(float value);
+    // Get instance field: private System.Single _originalLaserIntensity
+    float _get__originalLaserIntensity();
+    // Set instance field: private System.Single _originalLaserIntensity
+    void _set__originalLaserIntensity(float value);
+    // Get instance field: private TubeBloomPrePassLight[] _tubeLights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__tubeLights();
+    // Set instance field: private TubeBloomPrePassLight[] _tubeLights
+    void _set__tubeLights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
+    // Get instance field: private DirectionalLight[] _directionalLights
+    ::Array<GlobalNamespace::DirectionalLight*>* _get__directionalLights();
+    // Set instance field: private DirectionalLight[] _directionalLights
+    void _set__directionalLights(::Array<GlobalNamespace::DirectionalLight*>* value);
+    // Get instance field: private System.Boolean _started
+    bool _get__started();
+    // Set instance field: private System.Boolean _started
+    void _set__started(bool value);
+    // Get instance field: private System.Boolean _finished
+    bool _get__finished();
+    // Set instance field: private System.Boolean _finished
+    void _set__finished(bool value);
+    // Get instance field: private System.Single _firstFrameLightIntensity
+    float _get__firstFrameLightIntensity();
+    // Set instance field: private System.Single _firstFrameLightIntensity
+    void _set__firstFrameLightIntensity(float value);
+    // Get instance field: private System.Single _firstFrameLaserIntensity
+    float _get__firstFrameLaserIntensity();
+    // Set instance field: private System.Single _firstFrameLaserIntensity
+    void _set__firstFrameLaserIntensity(float value);
     // private System.Void EnableObjects(System.Boolean on)
     // Offset: 0x1072044
     void EnableObjects(bool on);

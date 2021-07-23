@@ -99,6 +99,30 @@ namespace GlobalNamespace {
     static int _get__reflectionProbeTexture2PropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeTexture2PropertyId
     static void _set__reflectionProbeTexture2PropertyId(int value);
+    // Get instance field: private System.Int32 _resolutionBeforeDownsample
+    int _get__resolutionBeforeDownsample();
+    // Set instance field: private System.Int32 _resolutionBeforeDownsample
+    void _set__resolutionBeforeDownsample(int value);
+    // Get instance field: private System.Int32 _downsampleByHalfCount
+    int _get__downsampleByHalfCount();
+    // Set instance field: private System.Int32 _downsampleByHalfCount
+    void _set__downsampleByHalfCount(int value);
+    // Get instance field: private UnityEngine.Vector3 _size
+    UnityEngine::Vector3 _get__size();
+    // Set instance field: private UnityEngine.Vector3 _size
+    void _set__size(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _offset
+    UnityEngine::Vector3 _get__offset();
+    // Set instance field: private UnityEngine.Vector3 _offset
+    void _set__offset(UnityEngine::Vector3 value);
+    // Get instance field: private ReflectionProbeDataSO _reflectionProbeData
+    GlobalNamespace::ReflectionProbeDataSO* _get__reflectionProbeData();
+    // Set instance field: private ReflectionProbeDataSO _reflectionProbeData
+    void _set__reflectionProbeData(GlobalNamespace::ReflectionProbeDataSO* value);
+    // Get instance field: private UnityEngine.Cubemap _blackCubemap
+    UnityEngine::Cubemap* _get__blackCubemap();
+    // Set instance field: private UnityEngine.Cubemap _blackCubemap
+    void _set__blackCubemap(UnityEngine::Cubemap* value);
     // public ReflectionProbeDataSO get_reflectionProbeData()
     // Offset: 0x1183828
     GlobalNamespace::ReflectionProbeDataSO* get_reflectionProbeData();

@@ -71,6 +71,26 @@ namespace HMUI {
     PanelAnimationSO(float duration_ = {}, UnityEngine::AnimationCurve* scaleXAnimationCurve_ = {}, UnityEngine::AnimationCurve* scaleYAnimationCurve_ = {}, UnityEngine::AnimationCurve* alphaAnimationCurve_ = {}, UnityEngine::AnimationCurve* parentAlphaAnimationCurve_ = {}) noexcept : duration{duration_}, scaleXAnimationCurve{scaleXAnimationCurve_}, scaleYAnimationCurve{scaleYAnimationCurve_}, alphaAnimationCurve{alphaAnimationCurve_}, parentAlphaAnimationCurve{parentAlphaAnimationCurve_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Single _duration
+    float _get__duration();
+    // Set instance field: private System.Single _duration
+    void _set__duration(float value);
+    // Get instance field: private UnityEngine.AnimationCurve _scaleXAnimationCurve
+    UnityEngine::AnimationCurve* _get__scaleXAnimationCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _scaleXAnimationCurve
+    void _set__scaleXAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AnimationCurve _scaleYAnimationCurve
+    UnityEngine::AnimationCurve* _get__scaleYAnimationCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _scaleYAnimationCurve
+    void _set__scaleYAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AnimationCurve _alphaAnimationCurve
+    UnityEngine::AnimationCurve* _get__alphaAnimationCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _alphaAnimationCurve
+    void _set__alphaAnimationCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AnimationCurve _parentAlphaAnimationCurve
+    UnityEngine::AnimationCurve* _get__parentAlphaAnimationCurve();
+    // Set instance field: private UnityEngine.AnimationCurve _parentAlphaAnimationCurve
+    void _set__parentAlphaAnimationCurve(UnityEngine::AnimationCurve* value);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
     // Offset: 0x12955CC
     void ExecuteAnimation(UnityEngine::GameObject* go);

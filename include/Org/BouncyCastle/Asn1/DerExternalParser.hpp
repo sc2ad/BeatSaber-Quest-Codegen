@@ -40,6 +40,10 @@ namespace Org::BouncyCastle::Asn1 {
     constexpr operator Org::BouncyCastle::Asn1::Asn1StreamParser*() const noexcept {
       return parser;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
+    Org::BouncyCastle::Asn1::Asn1StreamParser* _get__parser();
+    // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
+    void _set__parser(Org::BouncyCastle::Asn1::Asn1StreamParser* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
     // Offset: 0x16DAEDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

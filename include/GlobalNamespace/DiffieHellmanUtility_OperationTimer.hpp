@@ -46,6 +46,14 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
+    // Get instance field: private readonly System.Diagnostics.Stopwatch _stopwatch
+    System::Diagnostics::Stopwatch* _get__stopwatch();
+    // Set instance field: private readonly System.Diagnostics.Stopwatch _stopwatch
+    void _set__stopwatch(System::Diagnostics::Stopwatch* value);
+    // Get instance field: private readonly System.String _operationName
+    ::Il2CppString* _get__operationName();
+    // Set instance field: private readonly System.String _operationName
+    void _set__operationName(::Il2CppString* value);
     // private System.Void .ctor(System.String operationName)
     // Offset: 0x12C1B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

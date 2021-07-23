@@ -36,6 +36,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     constexpr operator int() const noexcept {
       return crossAppDomainArrayIndex;
     }
+    // Get instance field: System.Int32 crossAppDomainArrayIndex
+    int _get_crossAppDomainArrayIndex();
+    // Set instance field: System.Int32 crossAppDomainArrayIndex
+    void _set_crossAppDomainArrayIndex(int value);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
     // Offset: 0x15D8A48
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);

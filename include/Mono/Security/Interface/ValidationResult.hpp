@@ -44,6 +44,22 @@ namespace Mono::Security::Interface {
     System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
     // Creating value type constructor for type: ValidationResult
     ValidationResult(bool trusted_ = {}, bool user_denied_ = {}, int error_code_ = {}, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors_ = {}) noexcept : trusted{trusted_}, user_denied{user_denied_}, error_code{error_code_}, policy_errors{policy_errors_} {}
+    // Get instance field: private System.Boolean trusted
+    bool _get_trusted();
+    // Set instance field: private System.Boolean trusted
+    void _set_trusted(bool value);
+    // Get instance field: private System.Boolean user_denied
+    bool _get_user_denied();
+    // Set instance field: private System.Boolean user_denied
+    void _set_user_denied(bool value);
+    // Get instance field: private System.Int32 error_code
+    int _get_error_code();
+    // Set instance field: private System.Int32 error_code
+    void _set_error_code(int value);
+    // Get instance field: private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
+    System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> _get_policy_errors();
+    // Set instance field: private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
+    void _set_policy_errors(System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> value);
     // public System.Boolean get_Trusted()
     // Offset: 0x1DDEED4
     bool get_Trusted();

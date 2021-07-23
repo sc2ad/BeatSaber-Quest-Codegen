@@ -63,6 +63,14 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool
+    GlobalNamespace::FlyingScoreEffect::Pool* _get__flyingScoreEffectPool();
+    // Set instance field: private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool
+    void _set__flyingScoreEffectPool(GlobalNamespace::FlyingScoreEffect::Pool* value);
+    // Get instance field: private readonly FlyingScoreSpawner/InitData _initData
+    GlobalNamespace::FlyingScoreSpawner::InitData* _get__initData();
+    // Set instance field: private readonly FlyingScoreSpawner/InitData _initData
+    void _set__initData(GlobalNamespace::FlyingScoreSpawner::InitData* value);
     // public System.Void SpawnFlyingScore(in NoteCutInfo noteCutInfo, System.Int32 noteLineIndex, System.Int32 multiplier, UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, UnityEngine.Color color)
     // Offset: 0x102AE10
     void SpawnFlyingScore(GlobalNamespace::NoteCutInfo& noteCutInfo, int noteLineIndex, int multiplier, UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, UnityEngine::Color color);

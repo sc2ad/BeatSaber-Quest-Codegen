@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     FloatSignalListener(GlobalNamespace::FloatSignal* floatSignal_ = {}, GlobalNamespace::FloatUnityEvent* unityEvent_ = {}) noexcept : floatSignal{floatSignal_}, unityEvent{unityEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private FloatSignal _floatSignal
+    GlobalNamespace::FloatSignal* _get__floatSignal();
+    // Set instance field: private FloatSignal _floatSignal
+    void _set__floatSignal(GlobalNamespace::FloatSignal* value);
+    // Get instance field: private FloatUnityEvent _unityEvent
+    GlobalNamespace::FloatUnityEvent* _get__unityEvent();
+    // Set instance field: private FloatUnityEvent _unityEvent
+    void _set__unityEvent(GlobalNamespace::FloatUnityEvent* value);
     // protected System.Void OnEnable()
     // Offset: 0x1215B74
     void OnEnable();

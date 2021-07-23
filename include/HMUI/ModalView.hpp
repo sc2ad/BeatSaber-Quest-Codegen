@@ -134,6 +134,54 @@ namespace HMUI {
     ModalView(HMUI::PanelAnimationSO* presentPanelAnimations_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, bool animateParentCanvas_ = {}, Zenject::DiContainer* container_ = {}, System::Action* blockerClickedEvent_ = {}, UnityEngine::Transform* previousParent_ = {}, bool isShown_ = {}, bool viewIsValid_ = {}, UnityEngine::Canvas* mainCanvas_ = {}, UnityEngine::CanvasGroup* parentCanvasGroup_ = {}, UnityEngine::GameObject* blockerGO_ = {}, int test_ = {}) noexcept : presentPanelAnimations{presentPanelAnimations_}, dismissPanelAnimation{dismissPanelAnimation_}, animateParentCanvas{animateParentCanvas_}, container{container_}, blockerClickedEvent{blockerClickedEvent_}, previousParent{previousParent_}, isShown{isShown_}, viewIsValid{viewIsValid_}, mainCanvas{mainCanvas_}, parentCanvasGroup{parentCanvasGroup_}, blockerGO{blockerGO_}, test{test_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.PanelAnimationSO _presentPanelAnimations
+    HMUI::PanelAnimationSO* _get__presentPanelAnimations();
+    // Set instance field: private HMUI.PanelAnimationSO _presentPanelAnimations
+    void _set__presentPanelAnimations(HMUI::PanelAnimationSO* value);
+    // Get instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
+    HMUI::PanelAnimationSO* _get__dismissPanelAnimation();
+    // Set instance field: private HMUI.PanelAnimationSO _dismissPanelAnimation
+    void _set__dismissPanelAnimation(HMUI::PanelAnimationSO* value);
+    // Get instance field: private System.Boolean _animateParentCanvas
+    bool _get__animateParentCanvas();
+    // Set instance field: private System.Boolean _animateParentCanvas
+    void _set__animateParentCanvas(bool value);
+    // Get instance field: private readonly Zenject.DiContainer _container
+    Zenject::DiContainer* _get__container();
+    // Set instance field: private readonly Zenject.DiContainer _container
+    void _set__container(Zenject::DiContainer* value);
+    // Get instance field: private System.Action blockerClickedEvent
+    System::Action* _get_blockerClickedEvent();
+    // Set instance field: private System.Action blockerClickedEvent
+    void _set_blockerClickedEvent(System::Action* value);
+    // Get instance field: private UnityEngine.Transform _previousParent
+    UnityEngine::Transform* _get__previousParent();
+    // Set instance field: private UnityEngine.Transform _previousParent
+    void _set__previousParent(UnityEngine::Transform* value);
+    // Get instance field: private System.Boolean _isShown
+    bool _get__isShown();
+    // Set instance field: private System.Boolean _isShown
+    void _set__isShown(bool value);
+    // Get instance field: private System.Boolean _viewIsValid
+    bool _get__viewIsValid();
+    // Set instance field: private System.Boolean _viewIsValid
+    void _set__viewIsValid(bool value);
+    // Get instance field: private UnityEngine.Canvas _mainCanvas
+    UnityEngine::Canvas* _get__mainCanvas();
+    // Set instance field: private UnityEngine.Canvas _mainCanvas
+    void _set__mainCanvas(UnityEngine::Canvas* value);
+    // Get instance field: private UnityEngine.CanvasGroup _parentCanvasGroup
+    UnityEngine::CanvasGroup* _get__parentCanvasGroup();
+    // Set instance field: private UnityEngine.CanvasGroup _parentCanvasGroup
+    void _set__parentCanvasGroup(UnityEngine::CanvasGroup* value);
+    // Get instance field: private UnityEngine.GameObject _blockerGO
+    UnityEngine::GameObject* _get__blockerGO();
+    // Set instance field: private UnityEngine.GameObject _blockerGO
+    void _set__blockerGO(UnityEngine::GameObject* value);
+    // Get instance field: private System.Int32 _test
+    int _get__test();
+    // Set instance field: private System.Int32 _test
+    void _set__test(int value);
     // public System.Void add_blockerClickedEvent(System.Action value)
     // Offset: 0x1292CBC
     void add_blockerClickedEvent(System::Action* value);

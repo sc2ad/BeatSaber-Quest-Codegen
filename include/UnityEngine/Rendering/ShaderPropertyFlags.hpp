@@ -92,6 +92,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::ShaderPropertyFlags _get_MainColor();
     // Set static field: static public UnityEngine.Rendering.ShaderPropertyFlags MainColor
     static void _set_MainColor(UnityEngine::Rendering::ShaderPropertyFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.ShaderPropertyFlags
   #pragma pack(pop)
   static check_size<sizeof(ShaderPropertyFlags), 0 + sizeof(int)> __UnityEngine_Rendering_ShaderPropertyFlagsSizeCheck;

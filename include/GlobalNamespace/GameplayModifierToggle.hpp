@@ -92,6 +92,34 @@ namespace GlobalNamespace {
     GameplayModifierToggle(GlobalNamespace::GameplayModifierParamsSO* gameplayModifier_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, TMPro::TextMeshProUGUI* multiplierText_ = {}, HMUI::HoverTextSetter* hoverTextSetter_ = {}, UnityEngine::UI::Image* icon_ = {}, UnityEngine::UI::Toggle* toggle_ = {}, UnityEngine::Color positiveColor_ = {}) noexcept : gameplayModifier{gameplayModifier_}, nameText{nameText_}, multiplierText{multiplierText_}, hoverTextSetter{hoverTextSetter_}, icon{icon_}, toggle{toggle_}, positiveColor{positiveColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private GameplayModifierParamsSO _gameplayModifier
+    GlobalNamespace::GameplayModifierParamsSO* _get__gameplayModifier();
+    // Set instance field: private GameplayModifierParamsSO _gameplayModifier
+    void _set__gameplayModifier(GlobalNamespace::GameplayModifierParamsSO* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _nameText
+    TMPro::TextMeshProUGUI* _get__nameText();
+    // Set instance field: private TMPro.TextMeshProUGUI _nameText
+    void _set__nameText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _multiplierText
+    TMPro::TextMeshProUGUI* _get__multiplierText();
+    // Set instance field: private TMPro.TextMeshProUGUI _multiplierText
+    void _set__multiplierText(TMPro::TextMeshProUGUI* value);
+    // Get instance field: private HMUI.HoverTextSetter _hoverTextSetter
+    HMUI::HoverTextSetter* _get__hoverTextSetter();
+    // Set instance field: private HMUI.HoverTextSetter _hoverTextSetter
+    void _set__hoverTextSetter(HMUI::HoverTextSetter* value);
+    // Get instance field: private UnityEngine.UI.Image _icon
+    UnityEngine::UI::Image* _get__icon();
+    // Set instance field: private UnityEngine.UI.Image _icon
+    void _set__icon(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.UI.Toggle _toggle
+    UnityEngine::UI::Toggle* _get__toggle();
+    // Set instance field: private UnityEngine.UI.Toggle _toggle
+    void _set__toggle(UnityEngine::UI::Toggle* value);
+    // Get instance field: private UnityEngine.Color _positiveColor
+    UnityEngine::Color _get__positiveColor();
+    // Set instance field: private UnityEngine.Color _positiveColor
+    void _set__positiveColor(UnityEngine::Color value);
     // public UnityEngine.UI.Toggle get_toggle()
     // Offset: 0x10B16E8
     UnityEngine::UI::Toggle* get_toggle();

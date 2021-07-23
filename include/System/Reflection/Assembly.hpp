@@ -134,6 +134,46 @@ namespace System::Reflection {
     operator System::Runtime::InteropServices::_Assembly() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_Assembly*>(this);
     }
+    // Get instance field: System.IntPtr _mono_assembly
+    System::IntPtr _get__mono_assembly();
+    // Set instance field: System.IntPtr _mono_assembly
+    void _set__mono_assembly(System::IntPtr value);
+    // Get instance field: private System.Reflection.Assembly/System.Reflection.ResolveEventHolder resolve_event_holder
+    System::Reflection::Assembly::ResolveEventHolder* _get_resolve_event_holder();
+    // Set instance field: private System.Reflection.Assembly/System.Reflection.ResolveEventHolder resolve_event_holder
+    void _set_resolve_event_holder(System::Reflection::Assembly::ResolveEventHolder* value);
+    // Get instance field: private System.Object _evidence
+    ::Il2CppObject* _get__evidence();
+    // Set instance field: private System.Object _evidence
+    void _set__evidence(::Il2CppObject* value);
+    // Get instance field: private System.Object _minimum
+    ::Il2CppObject* _get__minimum();
+    // Set instance field: private System.Object _minimum
+    void _set__minimum(::Il2CppObject* value);
+    // Get instance field: private System.Object _optional
+    ::Il2CppObject* _get__optional();
+    // Set instance field: private System.Object _optional
+    void _set__optional(::Il2CppObject* value);
+    // Get instance field: private System.Object _refuse
+    ::Il2CppObject* _get__refuse();
+    // Set instance field: private System.Object _refuse
+    void _set__refuse(::Il2CppObject* value);
+    // Get instance field: private System.Object _granted
+    ::Il2CppObject* _get__granted();
+    // Set instance field: private System.Object _granted
+    void _set__granted(::Il2CppObject* value);
+    // Get instance field: private System.Object _denied
+    ::Il2CppObject* _get__denied();
+    // Set instance field: private System.Object _denied
+    void _set__denied(::Il2CppObject* value);
+    // Get instance field: private System.Boolean fromByteArray
+    bool _get_fromByteArray();
+    // Set instance field: private System.Boolean fromByteArray
+    void _set_fromByteArray(bool value);
+    // Get instance field: private System.String assemblyName
+    ::Il2CppString* _get_assemblyName();
+    // Set instance field: private System.String assemblyName
+    void _set_assemblyName(::Il2CppString* value);
     // public System.String get_CodeBase()
     // Offset: 0x1CA4874
     ::Il2CppString* get_CodeBase();

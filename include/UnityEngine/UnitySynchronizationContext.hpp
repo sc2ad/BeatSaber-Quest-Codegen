@@ -69,6 +69,18 @@ namespace UnityEngine {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: private readonly System.Threading.SendOrPostCallback m_DelagateCallback
+      System::Threading::SendOrPostCallback* _get_m_DelagateCallback();
+      // Set instance field: private readonly System.Threading.SendOrPostCallback m_DelagateCallback
+      void _set_m_DelagateCallback(System::Threading::SendOrPostCallback* value);
+      // Get instance field: private readonly System.Object m_DelagateState
+      ::Il2CppObject* _get_m_DelagateState();
+      // Set instance field: private readonly System.Object m_DelagateState
+      void _set_m_DelagateState(::Il2CppObject* value);
+      // Get instance field: private readonly System.Threading.ManualResetEvent m_WaitHandle
+      System::Threading::ManualResetEvent* _get_m_WaitHandle();
+      // Set instance field: private readonly System.Threading.ManualResetEvent m_WaitHandle
+      void _set_m_WaitHandle(System::Threading::ManualResetEvent* value);
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
       // Offset: 0xF043A0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,6 +120,22 @@ namespace UnityEngine {
     UnitySynchronizationContext(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* m_AsyncWorkQueue_ = {}, System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* m_CurrentFrameWork_ = {}, int m_MainThreadID_ = {}, int m_TrackedCount_ = {}) noexcept : m_AsyncWorkQueue{m_AsyncWorkQueue_}, m_CurrentFrameWork{m_CurrentFrameWork_}, m_MainThreadID{m_MainThreadID_}, m_TrackedCount{m_TrackedCount_} {}
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
+    System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* _get_m_AsyncWorkQueue();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
+    void _set_m_AsyncWorkQueue(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_CurrentFrameWork
+    System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* _get_m_CurrentFrameWork();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_CurrentFrameWork
+    void _set_m_CurrentFrameWork(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* value);
+    // Get instance field: private readonly System.Int32 m_MainThreadID
+    int _get_m_MainThreadID();
+    // Set instance field: private readonly System.Int32 m_MainThreadID
+    void _set_m_MainThreadID(int value);
+    // Get instance field: private System.Int32 m_TrackedCount
+    int _get_m_TrackedCount();
+    // Set instance field: private System.Int32 m_TrackedCount
+    void _set_m_TrackedCount(int value);
     // private System.Void .ctor(System.Int32 mainThreadID)
     // Offset: 0x2305A88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

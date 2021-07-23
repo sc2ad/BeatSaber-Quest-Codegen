@@ -44,6 +44,10 @@ namespace UnityEngine {
     constexpr operator UnityEngine::ParticleSystem*() const noexcept {
       return m_ParticleSystem;
     }
+    // Get instance field: UnityEngine.ParticleSystem m_ParticleSystem
+    UnityEngine::ParticleSystem* _get_m_ParticleSystem();
+    // Set instance field: UnityEngine.ParticleSystem m_ParticleSystem
+    void _set_m_ParticleSystem(UnityEngine::ParticleSystem* value);
     // public System.Void set_position(UnityEngine.Vector3 value)
     // Offset: 0xF0F1A0
     void set_position(UnityEngine::Vector3 value);

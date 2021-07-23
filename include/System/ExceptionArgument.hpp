@@ -199,6 +199,10 @@ namespace System {
     static System::ExceptionArgument _get_text();
     // Set static field: static public System.ExceptionArgument text
     static void _set_text(System::ExceptionArgument value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.ExceptionArgument
   #pragma pack(pop)
   static check_size<sizeof(ExceptionArgument), 0 + sizeof(int)> __System_ExceptionArgumentSizeCheck;

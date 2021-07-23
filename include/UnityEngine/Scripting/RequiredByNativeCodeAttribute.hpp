@@ -44,6 +44,18 @@ namespace UnityEngine::Scripting {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RequiredByNativeCodeAttribute
     RequiredByNativeCodeAttribute(::Il2CppString* Name_ = {}, bool Optional_ = {}, bool GenerateProxy_ = {}) noexcept : Name{Name_}, Optional{Optional_}, GenerateProxy{GenerateProxy_} {}
+    // Get instance field: private System.String <Name>k__BackingField
+    ::Il2CppString* _get_$Name$k__BackingField();
+    // Set instance field: private System.String <Name>k__BackingField
+    void _set_$Name$k__BackingField(::Il2CppString* value);
+    // Get instance field: private System.Boolean <Optional>k__BackingField
+    bool _get_$Optional$k__BackingField();
+    // Set instance field: private System.Boolean <Optional>k__BackingField
+    void _set_$Optional$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <GenerateProxy>k__BackingField
+    bool _get_$GenerateProxy$k__BackingField();
+    // Set instance field: private System.Boolean <GenerateProxy>k__BackingField
+    void _set_$GenerateProxy$k__BackingField(bool value);
     // public System.Void set_Name(System.String value)
     // Offset: 0x23C22DC
     void set_Name(::Il2CppString* value);

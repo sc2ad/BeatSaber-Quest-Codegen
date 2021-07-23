@@ -112,6 +112,38 @@ namespace HMUI {
     SegmentedControl(UnityEngine::Transform* separatorPrefab_ = {}, System::Action_2<HMUI::SegmentedControl*, int>* didSelectCellEvent_ = {}, int numberOfCells_ = {}, System::Collections::Generic::List_1<HMUI::SegmentedControlCell*>* cells_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* separators_ = {}, HMUI::SegmentedControl::IDataSource* dataSource_ = {}, int selectedCellNumber_ = {}, System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>* callbacks_ = {}) noexcept : separatorPrefab{separatorPrefab_}, didSelectCellEvent{didSelectCellEvent_}, numberOfCells{numberOfCells_}, cells{cells_}, separators{separators_}, dataSource{dataSource_}, selectedCellNumber{selectedCellNumber_}, callbacks{callbacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _separatorPrefab
+    UnityEngine::Transform* _get__separatorPrefab();
+    // Set instance field: private UnityEngine.Transform _separatorPrefab
+    void _set__separatorPrefab(UnityEngine::Transform* value);
+    // Get instance field: private System.Action`2<HMUI.SegmentedControl,System.Int32> didSelectCellEvent
+    System::Action_2<HMUI::SegmentedControl*, int>* _get_didSelectCellEvent();
+    // Set instance field: private System.Action`2<HMUI.SegmentedControl,System.Int32> didSelectCellEvent
+    void _set_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
+    // Get instance field: private System.Int32 _numberOfCells
+    int _get__numberOfCells();
+    // Set instance field: private System.Int32 _numberOfCells
+    void _set__numberOfCells(int value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<HMUI.SegmentedControlCell> _cells
+    System::Collections::Generic::List_1<HMUI::SegmentedControlCell*>* _get__cells();
+    // Set instance field: private readonly System.Collections.Generic.List`1<HMUI.SegmentedControlCell> _cells
+    void _set__cells(System::Collections::Generic::List_1<HMUI::SegmentedControlCell*>* value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<UnityEngine.GameObject> _separators
+    System::Collections::Generic::List_1<UnityEngine::GameObject*>* _get__separators();
+    // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.GameObject> _separators
+    void _set__separators(System::Collections::Generic::List_1<UnityEngine::GameObject*>* value);
+    // Get instance field: private HMUI.SegmentedControl/HMUI.IDataSource _dataSource
+    HMUI::SegmentedControl::IDataSource* _get__dataSource();
+    // Set instance field: private HMUI.SegmentedControl/HMUI.IDataSource _dataSource
+    void _set__dataSource(HMUI::SegmentedControl::IDataSource* value);
+    // Get instance field: private System.Int32 _selectedCellNumber
+    int _get__selectedCellNumber();
+    // Set instance field: private System.Int32 _selectedCellNumber
+    void _set__selectedCellNumber(int value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
+    System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>* _get__callbacks();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
+    void _set__callbacks(System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>* value);
     // public HMUI.SegmentedControl/HMUI.IDataSource get_dataSource()
     // Offset: 0x129BA10
     HMUI::SegmentedControl::IDataSource* get_dataSource();

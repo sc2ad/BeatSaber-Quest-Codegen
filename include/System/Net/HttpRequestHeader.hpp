@@ -277,6 +277,10 @@ namespace System::Net {
     static System::Net::HttpRequestHeader _get_UserAgent();
     // Set static field: static public System.Net.HttpRequestHeader UserAgent
     static void _set_UserAgent(System::Net::HttpRequestHeader value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Net.HttpRequestHeader
   #pragma pack(pop)
   static check_size<sizeof(HttpRequestHeader), 0 + sizeof(int)> __System_Net_HttpRequestHeaderSizeCheck;

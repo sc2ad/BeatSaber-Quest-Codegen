@@ -29,6 +29,10 @@ namespace GlobalNamespace {
     DisableComponentOnNonSteam(UnityEngine::MonoBehaviour* component_ = {}) noexcept : component{component_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.MonoBehaviour _component
+    UnityEngine::MonoBehaviour* _get__component();
+    // Set instance field: private UnityEngine.MonoBehaviour _component
+    void _set__component(UnityEngine::MonoBehaviour* value);
     // private System.Void Awake()
     // Offset: 0x108A5D0
     void Awake();

@@ -73,6 +73,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSettings*) == 0x8);
     // Creating value type constructor for type: CreateServerViewController
     CreateServerViewController(UnityEngine::UI::Button* createServerButton_ = {}, UnityEngine::UI::Button* cancelCreateServerButton_ = {}, GlobalNamespace::CreateServerFormController* createServerFormController_ = {}, System::Action_2<bool, GlobalNamespace::CreateServerFormData>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : createServerButton{createServerButton_}, cancelCreateServerButton{cancelCreateServerButton_}, createServerFormController{createServerFormController_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
+    // Get instance field: private UnityEngine.UI.Button _createServerButton
+    UnityEngine::UI::Button* _get__createServerButton();
+    // Set instance field: private UnityEngine.UI.Button _createServerButton
+    void _set__createServerButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _cancelCreateServerButton
+    UnityEngine::UI::Button* _get__cancelCreateServerButton();
+    // Set instance field: private UnityEngine.UI.Button _cancelCreateServerButton
+    void _set__cancelCreateServerButton(UnityEngine::UI::Button* value);
+    // Get instance field: private CreateServerFormController _createServerFormController
+    GlobalNamespace::CreateServerFormController* _get__createServerFormController();
+    // Set instance field: private CreateServerFormController _createServerFormController
+    void _set__createServerFormController(GlobalNamespace::CreateServerFormController* value);
+    // Get instance field: private System.Action`2<System.Boolean,CreateServerFormData> didFinishEvent
+    System::Action_2<bool, GlobalNamespace::CreateServerFormData>* _get_didFinishEvent();
+    // Set instance field: private System.Action`2<System.Boolean,CreateServerFormData> didFinishEvent
+    void _set_didFinishEvent(System::Action_2<bool, GlobalNamespace::CreateServerFormData>* value);
+    // Get instance field: private MultiplayerModeSettings _multiplayerModeSettings
+    GlobalNamespace::MultiplayerModeSettings* _get__multiplayerModeSettings();
+    // Set instance field: private MultiplayerModeSettings _multiplayerModeSettings
+    void _set__multiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
     // Offset: 0x1082760
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();

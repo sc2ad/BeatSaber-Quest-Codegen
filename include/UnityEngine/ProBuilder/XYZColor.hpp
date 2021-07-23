@@ -44,6 +44,18 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: XYZColor
     XYZColor(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
+    // Get instance field: public System.Single x
+    float _get_x();
+    // Set instance field: public System.Single x
+    void _set_x(float value);
+    // Get instance field: public System.Single y
+    float _get_y();
+    // Set instance field: public System.Single y
+    void _set_y(float value);
+    // Get instance field: public System.Single z
+    float _get_z();
+    // Set instance field: public System.Single z
+    void _set_z(float value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
     // Offset: 0x22B3C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

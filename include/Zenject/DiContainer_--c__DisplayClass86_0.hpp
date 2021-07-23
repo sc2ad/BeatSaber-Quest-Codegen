@@ -44,6 +44,10 @@ namespace Zenject {
     constexpr operator Zenject::InjectContext*() const noexcept {
       return context;
     }
+    // Get instance field: public Zenject.InjectContext context
+    Zenject::InjectContext* _get_context();
+    // Set instance field: public Zenject.InjectContext context
+    void _set_context(Zenject::InjectContext* value);
     // System.Type <ResolveTypeAll>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
     // Offset: 0x1619234
     System::Type* $ResolveTypeAll$b__0(Zenject::DiContainer::ProviderInfo* x);

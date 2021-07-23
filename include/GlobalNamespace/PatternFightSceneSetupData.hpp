@@ -43,6 +43,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
     // Creating value type constructor for type: PatternFightSceneSetupData
     PatternFightSceneSetupData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::ColorScheme* colorScheme_ = {}) noexcept : playerSpecificSettings{playerSpecificSettings_}, colorScheme{colorScheme_} {}
+    // Get instance field: public readonly PlayerSpecificSettings playerSpecificSettings
+    GlobalNamespace::PlayerSpecificSettings* _get_playerSpecificSettings();
+    // Set instance field: public readonly PlayerSpecificSettings playerSpecificSettings
+    void _set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
+    // Get instance field: public readonly ColorScheme colorScheme
+    GlobalNamespace::ColorScheme* _get_colorScheme();
+    // Set instance field: public readonly ColorScheme colorScheme
+    void _set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void .ctor(PlayerSpecificSettings playerSpecificSettings, ColorScheme colorScheme)
     // Offset: 0xFFFAC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

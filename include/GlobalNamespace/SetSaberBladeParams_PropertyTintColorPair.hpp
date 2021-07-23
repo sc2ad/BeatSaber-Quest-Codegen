@@ -35,6 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PropertyTintColorPair
     PropertyTintColorPair(UnityEngine::Color tintColor_ = {}, ::Il2CppString* property_ = {}) noexcept : tintColor{tintColor_}, property{property_} {}
+    // Get instance field: public UnityEngine.Color tintColor
+    UnityEngine::Color _get_tintColor();
+    // Set instance field: public UnityEngine.Color tintColor
+    void _set_tintColor(UnityEngine::Color value);
+    // Get instance field: public System.String property
+    ::Il2CppString* _get_property();
+    // Set instance field: public System.String property
+    void _set_property(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1052580
     // Implemented from: System.Object

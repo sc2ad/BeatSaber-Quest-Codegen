@@ -47,6 +47,22 @@ namespace Libraries::HM::HMLib::VR {
     HapticPresetSO(float duration_ = {}, float strength_ = {}, float frequency_ = {}, bool continuous_ = {}) noexcept : duration{duration_}, strength{strength_}, frequency{frequency_}, continuous{continuous_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: public System.Single _duration
+    float _get__duration();
+    // Set instance field: public System.Single _duration
+    void _set__duration(float value);
+    // Get instance field: public System.Single _strength
+    float _get__strength();
+    // Set instance field: public System.Single _strength
+    void _set__strength(float value);
+    // Get instance field: public System.Single _frequency
+    float _get__frequency();
+    // Set instance field: public System.Single _frequency
+    void _set__frequency(float value);
+    // Get instance field: public System.Boolean _continuous
+    bool _get__continuous();
+    // Set instance field: public System.Boolean _continuous
+    void _set__continuous(bool value);
     // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
     // Offset: 0x121BD10
     void CopyFrom(Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);

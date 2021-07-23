@@ -55,6 +55,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass5_0
     $$c__DisplayClass5_0(GlobalNamespace::OculusPlatformLeaderboardsHandler* $$4__this_ = {}, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler_ = {}, ::Il2CppString* referencePlayerId_ = {}) noexcept : $$4__this{$$4__this_}, completionHandler{completionHandler_}, referencePlayerId{referencePlayerId_} {}
+    // Get instance field: public OculusPlatformLeaderboardsHandler <>4__this
+    GlobalNamespace::OculusPlatformLeaderboardsHandler* _get_$$4__this();
+    // Set instance field: public OculusPlatformLeaderboardsHandler <>4__this
+    void _set_$$4__this(GlobalNamespace::OculusPlatformLeaderboardsHandler* value);
+    // Get instance field: public PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler
+    GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* _get_completionHandler();
+    // Set instance field: public PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler
+    void _set_completionHandler(GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* value);
+    // Get instance field: public System.String referencePlayerId
+    ::Il2CppString* _get_referencePlayerId();
+    // Set instance field: public System.String referencePlayerId
+    void _set_referencePlayerId(::Il2CppString* value);
     // System.Void <GetScores>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
     // Offset: 0xFF1AE0
     void $GetScores$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);

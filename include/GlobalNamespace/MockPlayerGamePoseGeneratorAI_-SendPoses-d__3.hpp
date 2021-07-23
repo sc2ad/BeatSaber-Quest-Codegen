@@ -266,6 +266,142 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    System::Runtime::CompilerServices::AsyncVoidMethodBuilder _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value);
+    // Get instance field: public MockPlayerGamePoseGeneratorAI <>4__this
+    GlobalNamespace::MockPlayerGamePoseGeneratorAI* _get_$$4__this();
+    // Set instance field: public MockPlayerGamePoseGeneratorAI <>4__this
+    void _set_$$4__this(GlobalNamespace::MockPlayerGamePoseGeneratorAI* value);
+    // Get instance field: public MockBeatmapData beatmapData
+    GlobalNamespace::MockBeatmapData* _get_beatmapData();
+    // Set instance field: public MockBeatmapData beatmapData
+    void _set_beatmapData(GlobalNamespace::MockBeatmapData* value);
+    // Get instance field: public System.Single introStartTime
+    float _get_introStartTime();
+    // Set instance field: public System.Single introStartTime
+    void _set_introStartTime(float value);
+    // Get instance field: public GameplayModifiers gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get_gameplayModifiers();
+    // Set instance field: public GameplayModifiers gameplayModifiers
+    void _set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: public System.Action onSongFinished
+    System::Action* _get_onSongFinished();
+    // Set instance field: public System.Action onSongFinished
+    void _set_onSongFinished(System::Action* value);
+    // Get instance field: private System.Single <startTime>5__2
+    float _get_$startTime$5__2();
+    // Set instance field: private System.Single <startTime>5__2
+    void _set_$startTime$5__2(float value);
+    // Get instance field: private System.Single <lastEventTime>5__3
+    float _get_$lastEventTime$5__3();
+    // Set instance field: private System.Single <lastEventTime>5__3
+    void _set_$lastEventTime$5__3(float value);
+    // Get instance field: private UnityEngine.Pose <lastHeadPose>5__4
+    UnityEngine::Pose _get_$lastHeadPose$5__4();
+    // Set instance field: private UnityEngine.Pose <lastHeadPose>5__4
+    void _set_$lastHeadPose$5__4(UnityEngine::Pose value);
+    // Get instance field: private UnityEngine.Pose <lastLeftHandPose>5__5
+    UnityEngine::Pose _get_$lastLeftHandPose$5__5();
+    // Set instance field: private UnityEngine.Pose <lastLeftHandPose>5__5
+    void _set_$lastLeftHandPose$5__5(UnityEngine::Pose value);
+    // Get instance field: private UnityEngine.Pose <lastRightHandPose>5__6
+    UnityEngine::Pose _get_$lastRightHandPose$5__6();
+    // Set instance field: private UnityEngine.Pose <lastRightHandPose>5__6
+    void _set_$lastRightHandPose$5__6(UnityEngine::Pose value);
+    // Get instance field: private System.Single <timeScale>5__7
+    float _get_$timeScale$5__7();
+    // Set instance field: private System.Single <timeScale>5__7
+    void _set_$timeScale$5__7(float value);
+    // Get instance field: private System.Single <lastSongTime>5__8
+    float _get_$lastSongTime$5__8();
+    // Set instance field: private System.Single <lastSongTime>5__8
+    void _set_$lastSongTime$5__8(float value);
+    // Get instance field: private System.Int32 <lineCount>5__9
+    int _get_$lineCount$5__9();
+    // Set instance field: private System.Int32 <lineCount>5__9
+    void _set_$lineCount$5__9(int value);
+    // Get instance field: private MockNoteData[] <leftNotes>5__10
+    ::Array<GlobalNamespace::MockNoteData*>* _get_$leftNotes$5__10();
+    // Set instance field: private MockNoteData[] <leftNotes>5__10
+    void _set_$leftNotes$5__10(::Array<GlobalNamespace::MockNoteData*>* value);
+    // Get instance field: private MockNoteData[] <rightNotes>5__11
+    ::Array<GlobalNamespace::MockNoteData*>* _get_$rightNotes$5__11();
+    // Set instance field: private MockNoteData[] <rightNotes>5__11
+    void _set_$rightNotes$5__11(::Array<GlobalNamespace::MockNoteData*>* value);
+    // Get instance field: private MockNoteData[] <bombNotes>5__12
+    ::Array<GlobalNamespace::MockNoteData*>* _get_$bombNotes$5__12();
+    // Set instance field: private MockNoteData[] <bombNotes>5__12
+    void _set_$bombNotes$5__12(::Array<GlobalNamespace::MockNoteData*>* value);
+    // Get instance field: private MockObstacleData[] <obstacles>5__13
+    ::Array<GlobalNamespace::MockObstacleData*>* _get_$obstacles$5__13();
+    // Set instance field: private MockObstacleData[] <obstacles>5__13
+    void _set_$obstacles$5__13(::Array<GlobalNamespace::MockObstacleData*>* value);
+    // Get instance field: private System.Int32 <leftNoteIndex>5__14
+    int _get_$leftNoteIndex$5__14();
+    // Set instance field: private System.Int32 <leftNoteIndex>5__14
+    void _set_$leftNoteIndex$5__14(int value);
+    // Get instance field: private System.Int32 <rightNoteIndex>5__15
+    int _get_$rightNoteIndex$5__15();
+    // Set instance field: private System.Int32 <rightNoteIndex>5__15
+    void _set_$rightNoteIndex$5__15(int value);
+    // Get instance field: private System.Int32 <bombNoteIndex>5__16
+    int _get_$bombNoteIndex$5__16();
+    // Set instance field: private System.Int32 <bombNoteIndex>5__16
+    void _set_$bombNoteIndex$5__16(int value);
+    // Get instance field: private System.Int32 <obstacleIndex>5__17
+    int _get_$obstacleIndex$5__17();
+    // Set instance field: private System.Int32 <obstacleIndex>5__17
+    void _set_$obstacleIndex$5__17(int value);
+    // Get instance field: private System.Int32 <prevLeftScore>5__18
+    int _get_$prevLeftScore$5__18();
+    // Set instance field: private System.Int32 <prevLeftScore>5__18
+    void _set_$prevLeftScore$5__18(int value);
+    // Get instance field: private System.Int32 <prevRightScore>5__19
+    int _get_$prevRightScore$5__19();
+    // Set instance field: private System.Int32 <prevRightScore>5__19
+    void _set_$prevRightScore$5__19(int value);
+    // Get instance field: private System.Int32 <nextLeftHitScore>5__20
+    int _get_$nextLeftHitScore$5__20();
+    // Set instance field: private System.Int32 <nextLeftHitScore>5__20
+    void _set_$nextLeftHitScore$5__20(int value);
+    // Get instance field: private System.Int32 <nextRightHitScore>5__21
+    int _get_$nextRightHitScore$5__21();
+    // Set instance field: private System.Int32 <nextRightHitScore>5__21
+    void _set_$nextRightHitScore$5__21(int value);
+    // Get instance field: private System.Int32 <score>5__22
+    int _get_$score$5__22();
+    // Set instance field: private System.Int32 <score>5__22
+    void _set_$score$5__22(int value);
+    // Get instance field: private System.Int32 <combo>5__23
+    int _get_$combo$5__23();
+    // Set instance field: private System.Int32 <combo>5__23
+    void _set_$combo$5__23(int value);
+    // Get instance field: private System.Int32 <multiplier>5__24
+    int _get_$multiplier$5__24();
+    // Set instance field: private System.Int32 <multiplier>5__24
+    void _set_$multiplier$5__24(int value);
+    // Get instance field: private System.Boolean <fullCombo>5__25
+    bool _get_$fullCombo$5__25();
+    // Set instance field: private System.Boolean <fullCombo>5__25
+    void _set_$fullCombo$5__25(bool value);
+    // Get instance field: private System.Boolean <hasFinishedLevel>5__26
+    bool _get_$hasFinishedLevel$5__26();
+    // Set instance field: private System.Boolean <hasFinishedLevel>5__26
+    void _set_$hasFinishedLevel$5__26(bool value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
     // Offset: 0xF0D6CC
     void MoveNext();

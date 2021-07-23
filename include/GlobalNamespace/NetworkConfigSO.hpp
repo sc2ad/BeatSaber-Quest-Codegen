@@ -80,6 +80,34 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Int32 _maxPartySize
+    int _get__maxPartySize();
+    // Set instance field: private System.Int32 _maxPartySize
+    void _set__maxPartySize(int value);
+    // Get instance field: private System.Int32 _discoveryPort
+    int _get__discoveryPort();
+    // Set instance field: private System.Int32 _discoveryPort
+    void _set__discoveryPort(int value);
+    // Get instance field: private System.Int32 _partyPort
+    int _get__partyPort();
+    // Set instance field: private System.Int32 _partyPort
+    void _set__partyPort(int value);
+    // Get instance field: private System.Int32 _multiplayerPort
+    int _get__multiplayerPort();
+    // Set instance field: private System.Int32 _multiplayerPort
+    void _set__multiplayerPort(int value);
+    // Get instance field: private System.Int32 _masterServerPort
+    int _get__masterServerPort();
+    // Set instance field: private System.Int32 _masterServerPort
+    void _set__masterServerPort(int value);
+    // Get instance field: private System.String _masterServerHostName
+    ::Il2CppString* _get__masterServerHostName();
+    // Set instance field: private System.String _masterServerHostName
+    void _set__masterServerHostName(::Il2CppString* value);
+    // Get instance field: private System.String _masterServerStatusUrl
+    ::Il2CppString* _get__masterServerStatusUrl();
+    // Set instance field: private System.String _masterServerStatusUrl
+    void _set__masterServerStatusUrl(::Il2CppString* value);
     // public System.Int32 get_maxPartySize()
     // Offset: 0x10121B8
     int get_maxPartySize();

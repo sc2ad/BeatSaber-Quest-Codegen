@@ -80,6 +80,10 @@ namespace System::Globalization {
     static System::Globalization::DateTimeFormatFlags _get_NotInitialized();
     // Set static field: static public System.Globalization.DateTimeFormatFlags NotInitialized
     static void _set_NotInitialized(System::Globalization::DateTimeFormatFlags value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Globalization.DateTimeFormatFlags
   #pragma pack(pop)
   static check_size<sizeof(DateTimeFormatFlags), 0 + sizeof(int)> __System_Globalization_DateTimeFormatFlagsSizeCheck;

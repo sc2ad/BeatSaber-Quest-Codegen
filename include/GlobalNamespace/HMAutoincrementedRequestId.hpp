@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     static uint64_t _get__nextRequestId();
     // Set static field: static private System.UInt64 _nextRequestId
     static void _set__nextRequestId(uint64_t value);
+    // Get instance field: private readonly System.UInt64 _requestId
+    uint64_t _get__requestId();
+    // Set instance field: private readonly System.UInt64 _requestId
+    void _set__requestId(uint64_t value);
     // public System.UInt64 get_RequestId()
     // Offset: 0x1219B5C
     uint64_t get_RequestId();

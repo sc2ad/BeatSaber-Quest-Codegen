@@ -43,6 +43,10 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     TestResultRendererCallback(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer_ = {}) noexcept : m_ResultRenderer{m_ResultRenderer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
+    UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* _get_m_ResultRenderer();
+    // Set instance field: private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
+    void _set_m_ResultRenderer(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* value);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0x148F7E4
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);

@@ -79,6 +79,14 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Get instance field: private IPreviewBeatmapLevel _level
+    GlobalNamespace::IPreviewBeatmapLevel* _get__level();
+    // Set instance field: private IPreviewBeatmapLevel _level
+    void _set__level(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // Get instance field: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData _beatmapLevelData
+    GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData* _get__beatmapLevelData();
+    // Set instance field: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData _beatmapLevelData
+    void _set__beatmapLevelData(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData* value);
     // public System.String get_levelID()
     // Offset: 0x1196D30
     ::Il2CppString* get_levelID();

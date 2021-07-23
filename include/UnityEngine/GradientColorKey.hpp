@@ -37,6 +37,14 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.Color color
+    UnityEngine::Color _get_color();
+    // Set instance field: public UnityEngine.Color color
+    void _set_color(UnityEngine::Color value);
+    // Get instance field: public System.Single time
+    float _get_time();
+    // Set instance field: public System.Single time
+    void _set_time(float value);
   }; // UnityEngine.GradientColorKey
   #pragma pack(pop)
   static check_size<sizeof(GradientColorKey), 16 + sizeof(float)> __UnityEngine_GradientColorKeySizeCheck;

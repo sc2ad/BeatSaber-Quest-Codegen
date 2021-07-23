@@ -39,6 +39,18 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // Creating value type constructor for type: Transform2D
     Transform2D(UnityEngine::Vector2 position_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_} {}
+    // Get instance field: public UnityEngine.Vector2 position
+    UnityEngine::Vector2 _get_position();
+    // Set instance field: public UnityEngine.Vector2 position
+    void _set_position(UnityEngine::Vector2 value);
+    // Get instance field: public System.Single rotation
+    float _get_rotation();
+    // Set instance field: public System.Single rotation
+    void _set_rotation(float value);
+    // Get instance field: public UnityEngine.Vector2 scale
+    UnityEngine::Vector2 _get_scale();
+    // Set instance field: public UnityEngine.Vector2 scale
+    void _set_scale(UnityEngine::Vector2 value);
     // public System.Void .ctor(UnityEngine.Vector2 position, System.Single rotation, UnityEngine.Vector2 scale)
     // Offset: 0x22AA4C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

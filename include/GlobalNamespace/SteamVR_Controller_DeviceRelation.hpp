@@ -63,6 +63,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::SteamVR_Controller::DeviceRelation _get_FarthestRight();
     // Set static field: static public SteamVR_Controller/DeviceRelation FarthestRight
     static void _set_FarthestRight(GlobalNamespace::SteamVR_Controller::DeviceRelation value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // SteamVR_Controller/DeviceRelation
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Controller::DeviceRelation), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Controller_DeviceRelationSizeCheck;

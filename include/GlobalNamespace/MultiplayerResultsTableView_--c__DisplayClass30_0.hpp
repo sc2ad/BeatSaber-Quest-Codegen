@@ -48,6 +48,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass30_0
     $$c__DisplayClass30_0(UnityEngine::RectTransform* rectTransform_ = {}, GlobalNamespace::MultiplayerResultsTableCell* cell_ = {}) noexcept : rectTransform{rectTransform_}, cell{cell_} {}
+    // Get instance field: public UnityEngine.RectTransform rectTransform
+    UnityEngine::RectTransform* _get_rectTransform();
+    // Set instance field: public UnityEngine.RectTransform rectTransform
+    void _set_rectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: public MultiplayerResultsTableCell cell
+    GlobalNamespace::MultiplayerResultsTableCell* _get_cell();
+    // Set instance field: public MultiplayerResultsTableCell cell
+    void _set_cell(GlobalNamespace::MultiplayerResultsTableCell* value);
     // System.Void <StartAnimation>b__0(UnityEngine.Vector2 val)
     // Offset: 0x1007A88
     void $StartAnimation$b__0(UnityEngine::Vector2 val);

@@ -59,6 +59,22 @@ namespace System::Net::Http::Headers {
     operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> <>2__current
+    System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*> _get_$$2__current();
+    // Set instance field: private System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> <>2__current
+    void _set_$$2__current(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*> value);
+    // Get instance field: public System.Net.Http.Headers.HttpHeaders <>4__this
+    System::Net::Http::Headers::HttpHeaders* _get_$$4__this();
+    // Set instance field: public System.Net.Http.Headers.HttpHeaders <>4__this
+    void _set_$$4__this(System::Net::Http::Headers::HttpHeaders* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> <>7__wrap1
+    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>::Enumerator _get_$$7__wrap1();
+    // Set instance field: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> <>7__wrap1
+    void _set_$$7__wrap1(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>::Enumerator value);
     // private System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current()
     // Offset: 0x1567764
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*> System_Collections_Generic_IEnumerator$System_Collections_Generic_KeyValuePair$System_String_System_Collections_Generic_IEnumerable$System_String$$$_get_Current();

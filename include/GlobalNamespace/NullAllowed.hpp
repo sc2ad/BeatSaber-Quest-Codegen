@@ -57,6 +57,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::NullAllowed::Context _get_Prefab();
       // Set static field: static public NullAllowed/Context Prefab
       static void _set_Prefab(GlobalNamespace::NullAllowed::Context value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // NullAllowed/Context
     #pragma pack(pop)
     static check_size<sizeof(NullAllowed::Context), 0 + sizeof(int)> __GlobalNamespace_NullAllowed_ContextSizeCheck;
@@ -83,6 +87,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: NullAllowed
     NullAllowed(GlobalNamespace::NullAllowed::Context context_ = {}, ::Il2CppString* propertyName_ = {}, ::Il2CppObject* ifNotValue_ = {}) noexcept : context{context_}, propertyName{propertyName_}, ifNotValue{ifNotValue_} {}
+    // Get instance field: public readonly NullAllowed/Context context
+    GlobalNamespace::NullAllowed::Context _get_context();
+    // Set instance field: public readonly NullAllowed/Context context
+    void _set_context(GlobalNamespace::NullAllowed::Context value);
+    // Get instance field: public readonly System.String propertyName
+    ::Il2CppString* _get_propertyName();
+    // Set instance field: public readonly System.String propertyName
+    void _set_propertyName(::Il2CppString* value);
+    // Get instance field: public readonly System.Object ifNotValue
+    ::Il2CppObject* _get_ifNotValue();
+    // Set instance field: public readonly System.Object ifNotValue
+    void _set_ifNotValue(::Il2CppObject* value);
     // public System.Void .ctor(NullAllowed/Context context)
     // Offset: 0x23CB3F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -56,6 +56,10 @@ namespace Microsoft::Win32 {
     constexpr operator int() const noexcept {
       return NativeBytesPerCharacter;
     }
+    // Get instance field: private readonly System.Int32 NativeBytesPerCharacter
+    int _get_NativeBytesPerCharacter();
+    // Set instance field: private readonly System.Int32 NativeBytesPerCharacter
+    void _set_NativeBytesPerCharacter(int value);
     // static private System.Int32 RegCloseKey(System.IntPtr keyHandle)
     // Offset: 0x1A122AC
     static int RegCloseKey(System::IntPtr keyHandle);

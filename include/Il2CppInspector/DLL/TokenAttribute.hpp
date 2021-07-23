@@ -29,6 +29,10 @@ namespace Il2CppInspector::DLL {
     constexpr operator ::Il2CppString*() const noexcept {
       return Token;
     }
+    // Get instance field: public System.String Token
+    ::Il2CppString* _get_Token();
+    // Set instance field: public System.String Token
+    void _set_Token(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

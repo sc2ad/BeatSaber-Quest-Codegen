@@ -53,6 +53,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static_assert(sizeof(::Array<uint>*) == 0x8);
     // Creating value type constructor for type: Cast6Engine
     Cast6Engine(::Array<int>* Kr_ = {}, ::Array<uint>* Km_ = {}, ::Array<int>* Tr_ = {}, ::Array<uint>* Tm_ = {}, ::Array<uint>* workingKey_ = {}) noexcept : Kr{Kr_}, Km{Km_}, Tr{Tr_}, Tm{Tm_}, workingKey{workingKey_} {}
+    // Get instance field: private System.Int32[] _Kr
+    ::Array<int>* _get__Kr();
+    // Set instance field: private System.Int32[] _Kr
+    void _set__Kr(::Array<int>* value);
+    // Get instance field: private System.UInt32[] _Km
+    ::Array<uint>* _get__Km();
+    // Set instance field: private System.UInt32[] _Km
+    void _set__Km(::Array<uint>* value);
+    // Get instance field: private System.Int32[] _Tr
+    ::Array<int>* _get__Tr();
+    // Set instance field: private System.Int32[] _Tr
+    void _set__Tr(::Array<int>* value);
+    // Get instance field: private System.UInt32[] _Tm
+    ::Array<uint>* _get__Tm();
+    // Set instance field: private System.UInt32[] _Tm
+    void _set__Tm(::Array<uint>* value);
+    // Get instance field: private System.UInt32[] _workingKey
+    ::Array<uint>* _get__workingKey();
+    // Set instance field: private System.UInt32[] _workingKey
+    void _set__workingKey(::Array<uint>* value);
     // private System.Void CAST_Encipher(System.UInt32 A, System.UInt32 B, System.UInt32 C, System.UInt32 D, System.UInt32[] result)
     // Offset: 0x1E03F94
     void CAST_Encipher(uint A, uint B, uint C, uint D, ::Array<uint>* result);

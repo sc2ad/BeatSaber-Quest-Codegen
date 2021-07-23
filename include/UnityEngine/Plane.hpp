@@ -56,6 +56,14 @@ namespace UnityEngine {
     static int _get_size();
     // Set static field: static System.Int32 size
     static void _set_size(int value);
+    // Get instance field: private UnityEngine.Vector3 m_Normal
+    UnityEngine::Vector3 _get_m_Normal();
+    // Set instance field: private UnityEngine.Vector3 m_Normal
+    void _set_m_Normal(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single m_Distance
+    float _get_m_Distance();
+    // Set instance field: private System.Single m_Distance
+    void _set_m_Distance(float value);
     // public UnityEngine.Vector3 get_normal()
     // Offset: 0xEF92B0
     UnityEngine::Vector3 get_normal();

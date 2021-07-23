@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
     // Creating value type constructor for type: EnergyMissionObjectiveChecker
     EnergyMissionObjectiveChecker(GlobalNamespace::GameEnergyCounter* energyCounter_ = {}) noexcept : energyCounter{energyCounter_} {}
+    // Get instance field: private GameEnergyCounter _energyCounter
+    GlobalNamespace::GameEnergyCounter* _get__energyCounter();
+    // Set instance field: private GameEnergyCounter _energyCounter
+    void _set__energyCounter(GlobalNamespace::GameEnergyCounter* value);
     // protected System.Void OnDestroy()
     // Offset: 0x101F970
     void OnDestroy();

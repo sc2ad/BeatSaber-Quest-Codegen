@@ -171,6 +171,50 @@ namespace System::Resources {
     static int _get_DEBUG();
     // Set static field: static readonly System.Int32 DEBUG
     static void _set_DEBUG(int value);
+    // Get instance field: protected System.Collections.Hashtable ResourceSets
+    System::Collections::Hashtable* _get_ResourceSets();
+    // Set instance field: protected System.Collections.Hashtable ResourceSets
+    void _set_ResourceSets(System::Collections::Hashtable* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> _resourceSets
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* _get__resourceSets();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> _resourceSets
+    void _set__resourceSets(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* value);
+    // Get instance field: protected System.Reflection.Assembly MainAssembly
+    System::Reflection::Assembly* _get_MainAssembly();
+    // Set instance field: protected System.Reflection.Assembly MainAssembly
+    void _set_MainAssembly(System::Reflection::Assembly* value);
+    // Get instance field: private System.Globalization.CultureInfo _neutralResourcesCulture
+    System::Globalization::CultureInfo* _get__neutralResourcesCulture();
+    // Set instance field: private System.Globalization.CultureInfo _neutralResourcesCulture
+    void _set__neutralResourcesCulture(System::Globalization::CultureInfo* value);
+    // Get instance field: private System.Resources.ResourceManager/System.Resources.CultureNameResourceSetPair _lastUsedResourceCache
+    System::Resources::ResourceManager::CultureNameResourceSetPair* _get__lastUsedResourceCache();
+    // Set instance field: private System.Resources.ResourceManager/System.Resources.CultureNameResourceSetPair _lastUsedResourceCache
+    void _set__lastUsedResourceCache(System::Resources::ResourceManager::CultureNameResourceSetPair* value);
+    // Get instance field: private System.Boolean UseManifest
+    bool _get_UseManifest();
+    // Set instance field: private System.Boolean UseManifest
+    void _set_UseManifest(bool value);
+    // Get instance field: private System.Boolean UseSatelliteAssem
+    bool _get_UseSatelliteAssem();
+    // Set instance field: private System.Boolean UseSatelliteAssem
+    void _set_UseSatelliteAssem(bool value);
+    // Get instance field: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
+    System::Resources::UltimateResourceFallbackLocation _get__fallbackLoc();
+    // Set instance field: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
+    void _set__fallbackLoc(System::Resources::UltimateResourceFallbackLocation value);
+    // Get instance field: private System.Reflection.Assembly _callingAssembly
+    System::Reflection::Assembly* _get__callingAssembly();
+    // Set instance field: private System.Reflection.Assembly _callingAssembly
+    void _set__callingAssembly(System::Reflection::Assembly* value);
+    // Get instance field: private System.Reflection.RuntimeAssembly m_callingAssembly
+    System::Reflection::RuntimeAssembly* _get_m_callingAssembly();
+    // Set instance field: private System.Reflection.RuntimeAssembly m_callingAssembly
+    void _set_m_callingAssembly(System::Reflection::RuntimeAssembly* value);
+    // Get instance field: private System.Resources.IResourceGroveler resourceGroveler
+    System::Resources::IResourceGroveler* _get_resourceGroveler();
+    // Set instance field: private System.Resources.IResourceGroveler resourceGroveler
+    void _set_resourceGroveler(System::Resources::IResourceGroveler* value);
     // static private System.Void .cctor()
     // Offset: 0x13E8E08
     static void _cctor();

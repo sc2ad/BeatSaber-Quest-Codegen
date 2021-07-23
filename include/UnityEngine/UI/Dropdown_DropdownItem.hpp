@@ -84,6 +84,22 @@ namespace UnityEngine::UI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Text m_Text
+    UnityEngine::UI::Text* _get_m_Text();
+    // Set instance field: private UnityEngine.UI.Text m_Text
+    void _set_m_Text(UnityEngine::UI::Text* value);
+    // Get instance field: private UnityEngine.UI.Image m_Image
+    UnityEngine::UI::Image* _get_m_Image();
+    // Set instance field: private UnityEngine.UI.Image m_Image
+    void _set_m_Image(UnityEngine::UI::Image* value);
+    // Get instance field: private UnityEngine.RectTransform m_RectTransform
+    UnityEngine::RectTransform* _get_m_RectTransform();
+    // Set instance field: private UnityEngine.RectTransform m_RectTransform
+    void _set_m_RectTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.UI.Toggle m_Toggle
+    UnityEngine::UI::Toggle* _get_m_Toggle();
+    // Set instance field: private UnityEngine.UI.Toggle m_Toggle
+    void _set_m_Toggle(UnityEngine::UI::Toggle* value);
     // public UnityEngine.UI.Text get_text()
     // Offset: 0x18E58CC
     UnityEngine::UI::Text* get_text();

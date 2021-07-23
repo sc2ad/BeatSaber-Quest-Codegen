@@ -130,6 +130,54 @@ namespace MasterServer {
     static_assert(sizeof(System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass34_0
     $$c__DisplayClass34_0(MasterServer::UserMessageHandler* $$4__this_ = {}, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onBroadcastFailed_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Il2CppString* secret_ = {}, int currentPlayerCount_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* serverName_ = {}, ::Il2CppString* password_ = {}, GlobalNamespace::BeatmapLevelSelectionMask selectionMask_ = {}, GlobalNamespace::GameplayServerConfiguration configuration_ = {}, System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>* onSuccess_ = {}) noexcept : $$4__this{$$4__this_}, onBroadcastFailed{onBroadcastFailed_}, userId{userId_}, userName{userName_}, secret{secret_}, currentPlayerCount{currentPlayerCount_}, cancellationToken{cancellationToken_}, serverName{serverName_}, password{password_}, selectionMask{selectionMask_}, configuration{configuration_}, onSuccess{onSuccess_} {}
+    // Get instance field: public MasterServer.UserMessageHandler <>4__this
+    MasterServer::UserMessageHandler* _get_$$4__this();
+    // Set instance field: public MasterServer.UserMessageHandler <>4__this
+    void _set_$$4__this(MasterServer::UserMessageHandler* value);
+    // Get instance field: public System.Action`1<ConnectionFailedReason> onBroadcastFailed
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_onBroadcastFailed();
+    // Set instance field: public System.Action`1<ConnectionFailedReason> onBroadcastFailed
+    void _set_onBroadcastFailed(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // Get instance field: public System.String userId
+    ::Il2CppString* _get_userId();
+    // Set instance field: public System.String userId
+    void _set_userId(::Il2CppString* value);
+    // Get instance field: public System.String userName
+    ::Il2CppString* _get_userName();
+    // Set instance field: public System.String userName
+    void _set_userName(::Il2CppString* value);
+    // Get instance field: public System.String secret
+    ::Il2CppString* _get_secret();
+    // Set instance field: public System.String secret
+    void _set_secret(::Il2CppString* value);
+    // Get instance field: public System.Int32 currentPlayerCount
+    int _get_currentPlayerCount();
+    // Set instance field: public System.Int32 currentPlayerCount
+    void _set_currentPlayerCount(int value);
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: public System.String serverName
+    ::Il2CppString* _get_serverName();
+    // Set instance field: public System.String serverName
+    void _set_serverName(::Il2CppString* value);
+    // Get instance field: public System.String password
+    ::Il2CppString* _get_password();
+    // Set instance field: public System.String password
+    void _set_password(::Il2CppString* value);
+    // Get instance field: public BeatmapLevelSelectionMask selectionMask
+    GlobalNamespace::BeatmapLevelSelectionMask _get_selectionMask();
+    // Set instance field: public BeatmapLevelSelectionMask selectionMask
+    void _set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
+    // Get instance field: public GameplayServerConfiguration configuration
+    GlobalNamespace::GameplayServerConfiguration _get_configuration();
+    // Set instance field: public GameplayServerConfiguration configuration
+    void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
+    // Get instance field: public System.Action`2<System.Net.IPEndPoint,System.String> onSuccess
+    System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>* _get_onSuccess();
+    // Set instance field: public System.Action`2<System.Net.IPEndPoint,System.String> onSuccess
+    void _set_onSuccess(System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>* value);
     // System.Void <StartBroadcastingServer>b__0(ConnectionFailedReason result)
     // Offset: 0x12DD8F4
     void $StartBroadcastingServer$b__0(GlobalNamespace::ConnectionFailedReason result);

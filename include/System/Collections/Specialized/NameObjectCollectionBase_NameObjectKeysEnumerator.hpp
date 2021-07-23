@@ -47,6 +47,18 @@ namespace System::Collections::Specialized {
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
+    // Get instance field: private System.Int32 _pos
+    int _get__pos();
+    // Set instance field: private System.Int32 _pos
+    void _set__pos(int value);
+    // Get instance field: private System.Collections.Specialized.NameObjectCollectionBase _coll
+    System::Collections::Specialized::NameObjectCollectionBase* _get__coll();
+    // Set instance field: private System.Collections.Specialized.NameObjectCollectionBase _coll
+    void _set__coll(System::Collections::Specialized::NameObjectCollectionBase* value);
+    // Get instance field: private System.Int32 _version
+    int _get__version();
+    // Set instance field: private System.Int32 _version
+    void _set__version(int value);
     // public System.Object get_Current()
     // Offset: 0x184638C
     ::Il2CppObject* get_Current();

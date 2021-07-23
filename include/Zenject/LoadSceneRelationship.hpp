@@ -49,6 +49,10 @@ namespace Zenject {
     static Zenject::LoadSceneRelationship _get_Sibling();
     // Set static field: static public Zenject.LoadSceneRelationship Sibling
     static void _set_Sibling(Zenject::LoadSceneRelationship value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Zenject.LoadSceneRelationship
   #pragma pack(pop)
   static check_size<sizeof(LoadSceneRelationship), 0 + sizeof(int)> __Zenject_LoadSceneRelationshipSizeCheck;

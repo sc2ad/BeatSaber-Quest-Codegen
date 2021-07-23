@@ -92,6 +92,42 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
+    // Get instance field: private System.Byte[] ZEROES
+    ::Array<uint8_t>* _get_ZEROES();
+    // Set instance field: private System.Byte[] ZEROES
+    void _set_ZEROES(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] mac
+    ::Array<uint8_t>* _get_mac();
+    // Set instance field: private System.Byte[] mac
+    void _set_mac(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] buf
+    ::Array<uint8_t>* _get_buf();
+    // Set instance field: private System.Byte[] buf
+    void _set_buf(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 bufOff
+    int _get_bufOff();
+    // Set instance field: private System.Int32 bufOff
+    void _set_bufOff(int value);
+    // Get instance field: private Org.BouncyCastle.Crypto.IBlockCipher cipher
+    Org::BouncyCastle::Crypto::IBlockCipher* _get_cipher();
+    // Set instance field: private Org.BouncyCastle.Crypto.IBlockCipher cipher
+    void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
+    // Get instance field: private System.Int32 macSize
+    int _get_macSize();
+    // Set instance field: private System.Int32 macSize
+    void _set_macSize(int value);
+    // Get instance field: private System.Byte[] L
+    ::Array<uint8_t>* _get_L();
+    // Set instance field: private System.Byte[] L
+    void _set_L(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] Lu
+    ::Array<uint8_t>* _get_Lu();
+    // Set instance field: private System.Byte[] Lu
+    void _set_Lu(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] Lu2
+    ::Array<uint8_t>* _get_Lu2();
+    // Set instance field: private System.Byte[] Lu2
+    void _set_Lu2(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     // Offset: 0x18BB1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

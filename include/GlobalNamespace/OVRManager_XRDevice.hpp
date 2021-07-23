@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_XRDevice _get_OpenVR();
     // Set static field: static public OVRManager/XRDevice OpenVR
     static void _set_OpenVR(GlobalNamespace::OVRManager_XRDevice value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRManager/XRDevice
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_XRDevice), 0 + sizeof(int)> __GlobalNamespace_OVRManager_XRDeviceSizeCheck;

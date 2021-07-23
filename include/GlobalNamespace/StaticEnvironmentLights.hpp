@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     StaticEnvironmentLights(::Array<UnityEngine::Color>* lightColors_ = {}, ::Array<UnityEngine::Material*>* materials_ = {}) noexcept : lightColors{lightColors_}, materials{materials_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Color[] _lightColors
+    ::Array<UnityEngine::Color>* _get__lightColors();
+    // Set instance field: private UnityEngine.Color[] _lightColors
+    void _set__lightColors(::Array<UnityEngine::Color>* value);
+    // Get instance field: private UnityEngine.Material[] _materials
+    ::Array<UnityEngine::Material*>* _get__materials();
+    // Set instance field: private UnityEngine.Material[] _materials
+    void _set__materials(::Array<UnityEngine::Material*>* value);
     // protected System.Void Awake()
     // Offset: 0x1066E48
     void Awake();

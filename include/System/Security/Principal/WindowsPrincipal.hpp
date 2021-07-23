@@ -39,6 +39,10 @@ namespace System::Security::Principal {
     constexpr operator System::Security::Principal::WindowsIdentity*() const noexcept {
       return identity;
     }
+    // Get instance field: private System.Security.Principal.WindowsIdentity _identity
+    System::Security::Principal::WindowsIdentity* _get__identity();
+    // Set instance field: private System.Security.Principal.WindowsIdentity _identity
+    void _set__identity(System::Security::Principal::WindowsIdentity* value);
     // public System.Void .ctor(System.Security.Principal.WindowsIdentity ntIdentity)
     // Offset: 0x1B09CF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

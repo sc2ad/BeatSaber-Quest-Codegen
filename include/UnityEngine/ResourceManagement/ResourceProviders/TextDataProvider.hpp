@@ -46,6 +46,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     constexpr operator bool() const noexcept {
       return IgnoreFailures;
     }
+    // Get instance field: private System.Boolean <IgnoreFailures>k__BackingField
+    bool _get_$IgnoreFailures$k__BackingField();
+    // Set instance field: private System.Boolean <IgnoreFailures>k__BackingField
+    void _set_$IgnoreFailures$k__BackingField(bool value);
     // public System.Boolean get_IgnoreFailures()
     // Offset: 0x19BB50C
     bool get_IgnoreFailures();

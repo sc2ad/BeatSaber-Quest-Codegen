@@ -45,6 +45,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     constexpr operator System::Collections::IDictionary*() const noexcept {
       return d;
     }
+    // Get instance field: private readonly System.Collections.IDictionary d
+    System::Collections::IDictionary* _get_d();
+    // Set instance field: private readonly System.Collections.IDictionary d
+    void _set_d(System::Collections::IDictionary* value);
     // public System.Void .ctor(System.Collections.IDictionary d)
     // Offset: 0x1F7AAB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

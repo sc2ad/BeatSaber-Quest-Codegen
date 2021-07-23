@@ -40,6 +40,10 @@ namespace System::Text {
     constexpr operator int() const noexcept {
       return bits;
     }
+    // Get instance field: System.Int32 bits
+    int _get_bits();
+    // Set instance field: System.Int32 bits
+    void _set_bits(int value);
     // public System.Void .ctor(System.Text.UTF8Encoding encoding)
     // Offset: 0x189CCA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

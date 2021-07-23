@@ -32,6 +32,10 @@ namespace NetEase::Docker {
     constexpr operator int() const noexcept {
       return LogoutCode;
     }
+    // Get instance field: private System.Int32 <LogoutCode>k__BackingField
+    int _get_$LogoutCode$k__BackingField();
+    // Set instance field: private System.Int32 <LogoutCode>k__BackingField
+    void _set_$LogoutCode$k__BackingField(int value);
     // public System.Void set_LogoutCode(System.Int32 value)
     // Offset: 0xF0FA34
     void set_LogoutCode(int value);

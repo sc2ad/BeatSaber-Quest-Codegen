@@ -73,6 +73,22 @@ namespace System::Text {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: UTF7Encoding
     UTF7Encoding(::Array<uint8_t>* base64Bytes_ = {}, ::Array<int8_t>* base64Values_ = {}, ::Array<bool>* directEncode_ = {}, bool m_allowOptionals_ = {}) noexcept : base64Bytes{base64Bytes_}, base64Values{base64Values_}, directEncode{directEncode_}, m_allowOptionals{m_allowOptionals_} {}
+    // Get instance field: private System.Byte[] base64Bytes
+    ::Array<uint8_t>* _get_base64Bytes();
+    // Set instance field: private System.Byte[] base64Bytes
+    void _set_base64Bytes(::Array<uint8_t>* value);
+    // Get instance field: private System.SByte[] base64Values
+    ::Array<int8_t>* _get_base64Values();
+    // Set instance field: private System.SByte[] base64Values
+    void _set_base64Values(::Array<int8_t>* value);
+    // Get instance field: private System.Boolean[] directEncode
+    ::Array<bool>* _get_directEncode();
+    // Set instance field: private System.Boolean[] directEncode
+    void _set_directEncode(::Array<bool>* value);
+    // Get instance field: private System.Boolean m_allowOptionals
+    bool _get_m_allowOptionals();
+    // Set instance field: private System.Boolean m_allowOptionals
+    void _set_m_allowOptionals(bool value);
     // public System.Void .ctor(System.Boolean allowOptionals)
     // Offset: 0x1D25E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

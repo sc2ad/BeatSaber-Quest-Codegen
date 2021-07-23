@@ -151,6 +151,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRManager_SystemHeadsetType _get_PC_Placeholder_4107();
     // Set static field: static public OVRManager/SystemHeadsetType PC_Placeholder_4107
     static void _set_PC_Placeholder_4107(GlobalNamespace::OVRManager_SystemHeadsetType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRManager/SystemHeadsetType
   #pragma pack(pop)
   static check_size<sizeof(OVRManager_SystemHeadsetType), 0 + sizeof(int)> __GlobalNamespace_OVRManager_SystemHeadsetTypeSizeCheck;

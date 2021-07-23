@@ -37,6 +37,18 @@ namespace System::Xml {
     static_assert(sizeof(uint) == 0x4);
     // Creating value type constructor for type: BitStack
     BitStack(::Array<uint>* bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
+    // Get instance field: private System.UInt32[] bitStack
+    ::Array<uint>* _get_bitStack();
+    // Set instance field: private System.UInt32[] bitStack
+    void _set_bitStack(::Array<uint>* value);
+    // Get instance field: private System.Int32 stackPos
+    int _get_stackPos();
+    // Set instance field: private System.Int32 stackPos
+    void _set_stackPos(int value);
+    // Get instance field: private System.UInt32 curr
+    uint _get_curr();
+    // Set instance field: private System.UInt32 curr
+    void _set_curr(uint value);
     // public System.Void PushBit(System.Boolean bit)
     // Offset: 0x18FDFD0
     void PushBit(bool bit);

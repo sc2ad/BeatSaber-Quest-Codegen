@@ -49,6 +49,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::IBeatmapLevelCollection*() const noexcept {
       return beatmapLevelCollection;
     }
+    // Get instance field: private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
+    GlobalNamespace::IBeatmapLevelCollection* _get_$beatmapLevelCollection$k__BackingField();
+    // Set instance field: private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
+    void _set_$beatmapLevelCollection$k__BackingField(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.String get_collectionName()
     // Offset: 0x11B3C54
     ::Il2CppString* get_collectionName();

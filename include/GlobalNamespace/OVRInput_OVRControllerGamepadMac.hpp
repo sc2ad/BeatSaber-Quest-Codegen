@@ -53,6 +53,10 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_DllName();
     // Set static field: static private System.String DllName
     static void _set_DllName(::Il2CppString* value);
+    // Get instance field: private System.Boolean initialized
+    bool _get_initialized();
+    // Set instance field: private System.Boolean initialized
+    void _set_initialized(bool value);
     // static private System.Boolean OVR_GamepadController_Initialize()
     // Offset: 0x14EBE6C
     static bool OVR_GamepadController_Initialize();

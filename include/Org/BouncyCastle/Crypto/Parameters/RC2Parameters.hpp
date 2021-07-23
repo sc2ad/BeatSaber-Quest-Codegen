@@ -29,6 +29,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     RC2Parameters(int bits_ = {}) noexcept : bits{bits_} {}
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
+    // Get instance field: private readonly System.Int32 bits
+    int _get_bits();
+    // Set instance field: private readonly System.Int32 bits
+    void _set_bits(int value);
     // public System.Int32 get_EffectiveKeyBits()
     // Offset: 0x122CAEC
     int get_EffectiveKeyBits();

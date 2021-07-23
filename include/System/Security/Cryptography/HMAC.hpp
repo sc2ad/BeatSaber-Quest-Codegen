@@ -74,6 +74,34 @@ namespace System::Security::Cryptography {
     HMAC(int blockSizeValue_ = {}, ::Il2CppString* m_hashName_ = {}, System::Security::Cryptography::HashAlgorithm* m_hash1_ = {}, System::Security::Cryptography::HashAlgorithm* m_hash2_ = {}, ::Array<uint8_t>* m_inner_ = {}, ::Array<uint8_t>* m_outer_ = {}, bool m_hashing_ = {}) noexcept : blockSizeValue{blockSizeValue_}, m_hashName{m_hashName_}, m_hash1{m_hash1_}, m_hash2{m_hash2_}, m_inner{m_inner_}, m_outer{m_outer_}, m_hashing{m_hashing_} {}
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
+    // Get instance field: private System.Int32 blockSizeValue
+    int _get_blockSizeValue();
+    // Set instance field: private System.Int32 blockSizeValue
+    void _set_blockSizeValue(int value);
+    // Get instance field: System.String m_hashName
+    ::Il2CppString* _get_m_hashName();
+    // Set instance field: System.String m_hashName
+    void _set_m_hashName(::Il2CppString* value);
+    // Get instance field: System.Security.Cryptography.HashAlgorithm m_hash1
+    System::Security::Cryptography::HashAlgorithm* _get_m_hash1();
+    // Set instance field: System.Security.Cryptography.HashAlgorithm m_hash1
+    void _set_m_hash1(System::Security::Cryptography::HashAlgorithm* value);
+    // Get instance field: System.Security.Cryptography.HashAlgorithm m_hash2
+    System::Security::Cryptography::HashAlgorithm* _get_m_hash2();
+    // Set instance field: System.Security.Cryptography.HashAlgorithm m_hash2
+    void _set_m_hash2(System::Security::Cryptography::HashAlgorithm* value);
+    // Get instance field: private System.Byte[] m_inner
+    ::Array<uint8_t>* _get_m_inner();
+    // Set instance field: private System.Byte[] m_inner
+    void _set_m_inner(::Array<uint8_t>* value);
+    // Get instance field: private System.Byte[] m_outer
+    ::Array<uint8_t>* _get_m_outer();
+    // Set instance field: private System.Byte[] m_outer
+    void _set_m_outer(::Array<uint8_t>* value);
+    // Get instance field: private System.Boolean m_hashing
+    bool _get_m_hashing();
+    // Set instance field: private System.Boolean m_hashing
+    void _set_m_hashing(bool value);
     // protected System.Int32 get_BlockSizeValue()
     // Offset: 0x193EBD4
     int get_BlockSizeValue();

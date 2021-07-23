@@ -88,6 +88,42 @@ namespace GlobalNamespace {
     BeatmapCharacteristicSO(UnityEngine::Sprite* icon_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, ::Il2CppString* characteristicNameLocalizationKey_ = {}, ::Il2CppString* serializedName_ = {}, ::Il2CppString* compoundIdPartName_ = {}, int sortingOrder_ = {}, bool containsRotationEvents_ = {}, bool requires360Movement_ = {}, int numberOfColors_ = {}) noexcept : icon{icon_}, descriptionLocalizationKey{descriptionLocalizationKey_}, characteristicNameLocalizationKey{characteristicNameLocalizationKey_}, serializedName{serializedName_}, compoundIdPartName{compoundIdPartName_}, sortingOrder{sortingOrder_}, containsRotationEvents{containsRotationEvents_}, requires360Movement{requires360Movement_}, numberOfColors{numberOfColors_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Sprite _icon
+    UnityEngine::Sprite* _get__icon();
+    // Set instance field: private UnityEngine.Sprite _icon
+    void _set__icon(UnityEngine::Sprite* value);
+    // Get instance field: private System.String _descriptionLocalizationKey
+    ::Il2CppString* _get__descriptionLocalizationKey();
+    // Set instance field: private System.String _descriptionLocalizationKey
+    void _set__descriptionLocalizationKey(::Il2CppString* value);
+    // Get instance field: private System.String _characteristicNameLocalizationKey
+    ::Il2CppString* _get__characteristicNameLocalizationKey();
+    // Set instance field: private System.String _characteristicNameLocalizationKey
+    void _set__characteristicNameLocalizationKey(::Il2CppString* value);
+    // Get instance field: private System.String _serializedName
+    ::Il2CppString* _get__serializedName();
+    // Set instance field: private System.String _serializedName
+    void _set__serializedName(::Il2CppString* value);
+    // Get instance field: private System.String _compoundIdPartName
+    ::Il2CppString* _get__compoundIdPartName();
+    // Set instance field: private System.String _compoundIdPartName
+    void _set__compoundIdPartName(::Il2CppString* value);
+    // Get instance field: private System.Int32 _sortingOrder
+    int _get__sortingOrder();
+    // Set instance field: private System.Int32 _sortingOrder
+    void _set__sortingOrder(int value);
+    // Get instance field: private System.Boolean _containsRotationEvents
+    bool _get__containsRotationEvents();
+    // Set instance field: private System.Boolean _containsRotationEvents
+    void _set__containsRotationEvents(bool value);
+    // Get instance field: private System.Boolean _requires360Movement
+    bool _get__requires360Movement();
+    // Set instance field: private System.Boolean _requires360Movement
+    void _set__requires360Movement(bool value);
+    // Get instance field: private System.Int32 _numberOfColors
+    int _get__numberOfColors();
+    // Set instance field: private System.Int32 _numberOfColors
+    void _set__numberOfColors(int value);
     // public UnityEngine.Sprite get_icon()
     // Offset: 0x118B2DC
     UnityEngine::Sprite* get_icon();

@@ -145,6 +145,58 @@ namespace System::Runtime::Remoting::Messaging {
     operator System::Runtime::Remoting::Messaging::IInternalMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
     }
+    // Get instance field: private System.Object[] _outArgs
+    ::Array<::Il2CppObject*>* _get__outArgs();
+    // Set instance field: private System.Object[] _outArgs
+    void _set__outArgs(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.Object[] _args
+    ::Array<::Il2CppObject*>* _get__args();
+    // Set instance field: private System.Object[] _args
+    void _set__args(::Array<::Il2CppObject*>* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext _callCtx
+    System::Runtime::Remoting::Messaging::LogicalCallContext* _get__callCtx();
+    // Set instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext _callCtx
+    void _set__callCtx(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
+    // Get instance field: private System.Object _returnValue
+    ::Il2CppObject* _get__returnValue();
+    // Set instance field: private System.Object _returnValue
+    void _set__returnValue(::Il2CppObject* value);
+    // Get instance field: private System.String _uri
+    ::Il2CppString* _get__uri();
+    // Set instance field: private System.String _uri
+    void _set__uri(::Il2CppString* value);
+    // Get instance field: private System.Exception _exception
+    System::Exception* _get__exception();
+    // Set instance field: private System.Exception _exception
+    void _set__exception(System::Exception* value);
+    // Get instance field: private System.Reflection.MethodBase _methodBase
+    System::Reflection::MethodBase* _get__methodBase();
+    // Set instance field: private System.Reflection.MethodBase _methodBase
+    void _set__methodBase(System::Reflection::MethodBase* value);
+    // Get instance field: private System.String _methodName
+    ::Il2CppString* _get__methodName();
+    // Set instance field: private System.String _methodName
+    void _set__methodName(::Il2CppString* value);
+    // Get instance field: private System.Type[] _methodSignature
+    ::Array<System::Type*>* _get__methodSignature();
+    // Set instance field: private System.Type[] _methodSignature
+    void _set__methodSignature(::Array<System::Type*>* value);
+    // Get instance field: private System.String _typeName
+    ::Il2CppString* _get__typeName();
+    // Set instance field: private System.String _typeName
+    void _set__typeName(::Il2CppString* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.MethodReturnDictionary _properties
+    System::Runtime::Remoting::Messaging::MethodReturnDictionary* _get__properties();
+    // Set instance field: private System.Runtime.Remoting.Messaging.MethodReturnDictionary _properties
+    void _set__properties(System::Runtime::Remoting::Messaging::MethodReturnDictionary* value);
+    // Get instance field: private System.Runtime.Remoting.Identity _targetIdentity
+    System::Runtime::Remoting::Identity* _get__targetIdentity();
+    // Set instance field: private System.Runtime.Remoting.Identity _targetIdentity
+    void _set__targetIdentity(System::Runtime::Remoting::Identity* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo
+    System::Runtime::Remoting::Messaging::ArgInfo* _get__inArgInfo();
+    // Set instance field: private System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo
+    void _set__inArgInfo(System::Runtime::Remoting::Messaging::ArgInfo* value);
     // public System.Int32 get_ArgCount()
     // Offset: 0x1A006A4
     int get_ArgCount();

@@ -42,6 +42,18 @@ namespace System::Runtime::Remoting::Metadata {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: SoapAttribute
     SoapAttribute(bool useAttribute_ = {}, ::Il2CppString* ProtXmlNamespace_ = {}, ::Il2CppObject* ReflectInfo_ = {}) noexcept : useAttribute{useAttribute_}, ProtXmlNamespace{ProtXmlNamespace_}, ReflectInfo{ReflectInfo_} {}
+    // Get instance field: private System.Boolean _useAttribute
+    bool _get__useAttribute();
+    // Set instance field: private System.Boolean _useAttribute
+    void _set__useAttribute(bool value);
+    // Get instance field: protected System.String ProtXmlNamespace
+    ::Il2CppString* _get_ProtXmlNamespace();
+    // Set instance field: protected System.String ProtXmlNamespace
+    void _set_ProtXmlNamespace(::Il2CppString* value);
+    // Get instance field: protected System.Object ReflectInfo
+    ::Il2CppObject* _get_ReflectInfo();
+    // Set instance field: protected System.Object ReflectInfo
+    void _set_ReflectInfo(::Il2CppObject* value);
     // public System.Boolean get_UseAttribute()
     // Offset: 0x1A0257C
     bool get_UseAttribute();

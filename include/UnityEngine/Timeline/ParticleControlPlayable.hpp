@@ -74,6 +74,22 @@ namespace UnityEngine::Timeline {
     static float _get_kUnsetTime();
     // Set static field: static private System.Single kUnsetTime
     static void _set_kUnsetTime(float value);
+    // Get instance field: private System.Single m_LastPlayableTime
+    float _get_m_LastPlayableTime();
+    // Set instance field: private System.Single m_LastPlayableTime
+    void _set_m_LastPlayableTime(float value);
+    // Get instance field: private System.Single m_LastParticleTime
+    float _get_m_LastParticleTime();
+    // Set instance field: private System.Single m_LastParticleTime
+    void _set_m_LastParticleTime(float value);
+    // Get instance field: private System.UInt32 m_RandomSeed
+    uint _get_m_RandomSeed();
+    // Set instance field: private System.UInt32 m_RandomSeed
+    void _set_m_RandomSeed(uint value);
+    // Get instance field: private UnityEngine.ParticleSystem <particleSystem>k__BackingField
+    UnityEngine::ParticleSystem* _get_$particleSystem$k__BackingField();
+    // Set instance field: private UnityEngine.ParticleSystem <particleSystem>k__BackingField
+    void _set_$particleSystem$k__BackingField(UnityEngine::ParticleSystem* value);
     // public UnityEngine.ParticleSystem get_particleSystem()
     // Offset: 0x17E974C
     UnityEngine::ParticleSystem* get_particleSystem();

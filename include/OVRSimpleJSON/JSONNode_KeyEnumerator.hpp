@@ -37,6 +37,10 @@ namespace OVRSimpleJSON {
     constexpr operator OVRSimpleJSON::JSONNode::Enumerator() const noexcept {
       return m_Enumerator;
     }
+    // Get instance field: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
+    OVRSimpleJSON::JSONNode::Enumerator _get_m_Enumerator();
+    // Set instance field: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
+    void _set_m_Enumerator(OVRSimpleJSON::JSONNode::Enumerator value);
     // public System.String get_Current()
     // Offset: 0xEFA780
     ::Il2CppString* get_Current();

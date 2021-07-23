@@ -57,6 +57,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Eye _get_Count();
     // Set static field: static public OVRPlugin/Eye Count
     static void _set_Count(GlobalNamespace::OVRPlugin::Eye value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/Eye
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Eye), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_EyeSizeCheck;

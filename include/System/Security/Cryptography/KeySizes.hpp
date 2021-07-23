@@ -38,6 +38,18 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: KeySizes
     KeySizes(int m_minSize_ = {}, int m_maxSize_ = {}, int m_skipSize_ = {}) noexcept : m_minSize{m_minSize_}, m_maxSize{m_maxSize_}, m_skipSize{m_skipSize_} {}
+    // Get instance field: private System.Int32 m_minSize
+    int _get_m_minSize();
+    // Set instance field: private System.Int32 m_minSize
+    void _set_m_minSize(int value);
+    // Get instance field: private System.Int32 m_maxSize
+    int _get_m_maxSize();
+    // Set instance field: private System.Int32 m_maxSize
+    void _set_m_maxSize(int value);
+    // Get instance field: private System.Int32 m_skipSize
+    int _get_m_skipSize();
+    // Set instance field: private System.Int32 m_skipSize
+    void _set_m_skipSize(int value);
     // public System.Int32 get_MinSize()
     // Offset: 0x19404A0
     int get_MinSize();

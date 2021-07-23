@@ -54,6 +54,26 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Single x
+    float _get_x();
+    // Set instance field: public System.Single x
+    void _set_x(float value);
+    // Get instance field: public System.Single y
+    float _get_y();
+    // Set instance field: public System.Single y
+    void _set_y(float value);
+    // Get instance field: public System.Single transformedX
+    float _get_transformedX();
+    // Set instance field: public System.Single transformedX
+    void _set_transformedX(float value);
+    // Get instance field: public System.Single transformedY
+    float _get_transformedY();
+    // Set instance field: public System.Single transformedY
+    void _set_transformedY(float value);
+    // Get instance field: public Valve.VR.EDualAnalogWhich which
+    Valve::VR::EDualAnalogWhich _get_which();
+    // Set instance field: public Valve.VR.EDualAnalogWhich which
+    void _set_which(Valve::VR::EDualAnalogWhich value);
   }; // Valve.VR.VREvent_DualAnalog_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(Valve::VR::EDualAnalogWhich)> __Valve_VR_VREvent_DualAnalog_tSizeCheck;

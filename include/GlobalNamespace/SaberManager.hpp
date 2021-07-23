@@ -73,6 +73,26 @@ namespace GlobalNamespace {
     SaberManager(GlobalNamespace::Saber* leftSaber_ = {}, GlobalNamespace::Saber* rightSaber_ = {}, GlobalNamespace::SaberManager::InitData* initData_ = {}, bool started_ = {}, System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* didUpdateSaberPositionsEvent_ = {}) noexcept : leftSaber{leftSaber_}, rightSaber{rightSaber_}, initData{initData_}, started{started_}, didUpdateSaberPositionsEvent{didUpdateSaberPositionsEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private Saber _leftSaber
+    GlobalNamespace::Saber* _get__leftSaber();
+    // Set instance field: private Saber _leftSaber
+    void _set__leftSaber(GlobalNamespace::Saber* value);
+    // Get instance field: private Saber _rightSaber
+    GlobalNamespace::Saber* _get__rightSaber();
+    // Set instance field: private Saber _rightSaber
+    void _set__rightSaber(GlobalNamespace::Saber* value);
+    // Get instance field: private readonly SaberManager/InitData _initData
+    GlobalNamespace::SaberManager::InitData* _get__initData();
+    // Set instance field: private readonly SaberManager/InitData _initData
+    void _set__initData(GlobalNamespace::SaberManager::InitData* value);
+    // Get instance field: private System.Boolean _started
+    bool _get__started();
+    // Set instance field: private System.Boolean _started
+    void _set__started(bool value);
+    // Get instance field: private System.Action`2<Saber,Saber> didUpdateSaberPositionsEvent
+    System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* _get_didUpdateSaberPositionsEvent();
+    // Set instance field: private System.Action`2<Saber,Saber> didUpdateSaberPositionsEvent
+    void _set_didUpdateSaberPositionsEvent(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* value);
     // public Saber get_leftSaber()
     // Offset: 0x114B570
     GlobalNamespace::Saber* get_leftSaber();

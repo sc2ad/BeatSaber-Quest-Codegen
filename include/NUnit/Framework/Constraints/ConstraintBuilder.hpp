@@ -44,6 +44,18 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: ConstraintBuilder
     ConstraintBuilder(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* ops_ = {}, NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* constraints_ = {}, ::Il2CppObject* lastPushed_ = {}) noexcept : ops{ops_}, constraints{constraints_}, lastPushed{lastPushed_} {}
+    // Get instance field: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
+    NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* _get_ops();
+    // Set instance field: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
+    void _set_ops(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* value);
+    // Get instance field: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints
+    NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* _get_constraints();
+    // Set instance field: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints
+    void _set_constraints(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* value);
+    // Get instance field: private System.Object lastPushed
+    ::Il2CppObject* _get_lastPushed();
+    // Set instance field: private System.Object lastPushed
+    void _set_lastPushed(::Il2CppObject* value);
     // private System.Boolean get_IsResolvable()
     // Offset: 0x1716804
     bool get_IsResolvable();

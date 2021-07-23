@@ -64,6 +64,10 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::MeshVertexAttributes _get_Colors();
     // Set static field: static public UnityEngine.XR.MeshVertexAttributes Colors
     static void _set_Colors(UnityEngine::XR::MeshVertexAttributes value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.XR.MeshVertexAttributes
   #pragma pack(pop)
   static check_size<sizeof(MeshVertexAttributes), 0 + sizeof(int)> __UnityEngine_XR_MeshVertexAttributesSizeCheck;

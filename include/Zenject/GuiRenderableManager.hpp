@@ -59,6 +59,10 @@ namespace Zenject {
     constexpr operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*() const noexcept {
       return renderables;
     }
+    // Get instance field: private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
+    System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* _get__renderables();
+    // Set instance field: private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
+    void _set__renderables(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IGuiRenderable> renderables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
     // Offset: 0x162446C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

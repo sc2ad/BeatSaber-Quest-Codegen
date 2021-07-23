@@ -124,6 +124,54 @@ namespace Mono::Xml {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SmallXmlParser
     SmallXmlParser(Mono::Xml::SmallXmlParser::IContentHandler* handler_ = {}, System::IO::TextReader* reader_ = {}, System::Collections::Stack* elementNames_ = {}, System::Collections::Stack* xmlSpaces_ = {}, ::Il2CppString* xmlSpace_ = {}, System::Text::StringBuilder* buffer_ = {}, ::Array<::Il2CppChar>* nameBuffer_ = {}, bool isWhitespace_ = {}, Mono::Xml::SmallXmlParser::AttrListImpl* attributes_ = {}, int line_ = {}, int column_ = {}, bool resetColumn_ = {}) noexcept : handler{handler_}, reader{reader_}, elementNames{elementNames_}, xmlSpaces{xmlSpaces_}, xmlSpace{xmlSpace_}, buffer{buffer_}, nameBuffer{nameBuffer_}, isWhitespace{isWhitespace_}, attributes{attributes_}, line{line_}, column{column_}, resetColumn{resetColumn_} {}
+    // Get instance field: private Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler
+    Mono::Xml::SmallXmlParser::IContentHandler* _get_handler();
+    // Set instance field: private Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler
+    void _set_handler(Mono::Xml::SmallXmlParser::IContentHandler* value);
+    // Get instance field: private System.IO.TextReader reader
+    System::IO::TextReader* _get_reader();
+    // Set instance field: private System.IO.TextReader reader
+    void _set_reader(System::IO::TextReader* value);
+    // Get instance field: private System.Collections.Stack elementNames
+    System::Collections::Stack* _get_elementNames();
+    // Set instance field: private System.Collections.Stack elementNames
+    void _set_elementNames(System::Collections::Stack* value);
+    // Get instance field: private System.Collections.Stack xmlSpaces
+    System::Collections::Stack* _get_xmlSpaces();
+    // Set instance field: private System.Collections.Stack xmlSpaces
+    void _set_xmlSpaces(System::Collections::Stack* value);
+    // Get instance field: private System.String xmlSpace
+    ::Il2CppString* _get_xmlSpace();
+    // Set instance field: private System.String xmlSpace
+    void _set_xmlSpace(::Il2CppString* value);
+    // Get instance field: private System.Text.StringBuilder buffer
+    System::Text::StringBuilder* _get_buffer();
+    // Set instance field: private System.Text.StringBuilder buffer
+    void _set_buffer(System::Text::StringBuilder* value);
+    // Get instance field: private System.Char[] nameBuffer
+    ::Array<::Il2CppChar>* _get_nameBuffer();
+    // Set instance field: private System.Char[] nameBuffer
+    void _set_nameBuffer(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.Boolean isWhitespace
+    bool _get_isWhitespace();
+    // Set instance field: private System.Boolean isWhitespace
+    void _set_isWhitespace(bool value);
+    // Get instance field: private Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl attributes
+    Mono::Xml::SmallXmlParser::AttrListImpl* _get_attributes();
+    // Set instance field: private Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl attributes
+    void _set_attributes(Mono::Xml::SmallXmlParser::AttrListImpl* value);
+    // Get instance field: private System.Int32 line
+    int _get_line();
+    // Set instance field: private System.Int32 line
+    void _set_line(int value);
+    // Get instance field: private System.Int32 column
+    int _get_column();
+    // Set instance field: private System.Int32 column
+    void _set_column(int value);
+    // Get instance field: private System.Boolean resetColumn
+    bool _get_resetColumn();
+    // Set instance field: private System.Boolean resetColumn
+    void _set_resetColumn(bool value);
     // private System.Exception Error(System.String msg)
     // Offset: 0x1A53174
     System::Exception* Error(::Il2CppString* msg);

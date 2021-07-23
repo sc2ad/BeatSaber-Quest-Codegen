@@ -35,6 +35,10 @@ namespace Polyglot {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String preferenceKey
+    ::Il2CppString* _get_preferenceKey();
+    // Set instance field: private System.String preferenceKey
+    void _set_preferenceKey(::Il2CppString* value);
     // public System.Void Start()
     // Offset: 0x23314EC
     void Start();

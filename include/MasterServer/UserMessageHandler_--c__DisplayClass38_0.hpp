@@ -76,6 +76,26 @@ namespace MasterServer {
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass38_0
     $$c__DisplayClass38_0(System::Threading::CancellationToken cancellationToken_ = {}, MasterServer::UserMessageHandler* $$4__this_ = {}, MasterServer::BaseConnectToServerRequest* request_ = {}, MasterServer::UserMessageHandler::ConnectToServerDelegate* onSuccess_ = {}, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed_ = {}) noexcept : cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, request{request_}, onSuccess{onSuccess_}, onConnectionFailed{onConnectionFailed_} {}
+    // Get instance field: public System.Threading.CancellationToken cancellationToken
+    System::Threading::CancellationToken _get_cancellationToken();
+    // Set instance field: public System.Threading.CancellationToken cancellationToken
+    void _set_cancellationToken(System::Threading::CancellationToken value);
+    // Get instance field: public MasterServer.UserMessageHandler <>4__this
+    MasterServer::UserMessageHandler* _get_$$4__this();
+    // Set instance field: public MasterServer.UserMessageHandler <>4__this
+    void _set_$$4__this(MasterServer::UserMessageHandler* value);
+    // Get instance field: public MasterServer.BaseConnectToServerRequest request
+    MasterServer::BaseConnectToServerRequest* _get_request();
+    // Set instance field: public MasterServer.BaseConnectToServerRequest request
+    void _set_request(MasterServer::BaseConnectToServerRequest* value);
+    // Get instance field: public MasterServer.UserMessageHandler/MasterServer.ConnectToServerDelegate onSuccess
+    MasterServer::UserMessageHandler::ConnectToServerDelegate* _get_onSuccess();
+    // Set instance field: public MasterServer.UserMessageHandler/MasterServer.ConnectToServerDelegate onSuccess
+    void _set_onSuccess(MasterServer::UserMessageHandler::ConnectToServerDelegate* value);
+    // Get instance field: public System.Action`1<ConnectionFailedReason> onConnectionFailed
+    System::Action_1<GlobalNamespace::ConnectionFailedReason>* _get_onConnectionFailed();
+    // Set instance field: public System.Action`1<ConnectionFailedReason> onConnectionFailed
+    void _set_onConnectionFailed(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // System.Threading.Tasks.Task <SendConnectToServerRequest>b__0()
     // Offset: 0x12DE230
     System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();

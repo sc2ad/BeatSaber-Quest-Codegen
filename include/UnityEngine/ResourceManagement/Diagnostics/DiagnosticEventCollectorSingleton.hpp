@@ -94,6 +94,30 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     static System::Guid _get_s_editorConnectionGuid();
     // Set static field: static private System.Guid s_editorConnectionGuid
     static void _set_s_editorConnectionGuid(System::Guid value);
+    // Get instance field: System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_CreatedEvents
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* _get_m_CreatedEvents();
+    // Set instance field: System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_CreatedEvents
+    void _set_m_CreatedEvents(System::Collections::Generic::Dictionary_2<int, UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
+    // Get instance field: System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_UnhandledEvents
+    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* _get_m_UnhandledEvents();
+    // Set instance field: System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_UnhandledEvents
+    void _set_m_UnhandledEvents(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
+    // Get instance field: DelegateList`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> s_EventHandlers
+    GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* _get_s_EventHandlers();
+    // Set instance field: DelegateList`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> s_EventHandlers
+    void _set_s_EventHandlers(GlobalNamespace::DelegateList_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
+    // Get instance field: private System.Single m_lastTickSent
+    float _get_m_lastTickSent();
+    // Set instance field: private System.Single m_lastTickSent
+    void _set_m_lastTickSent(float value);
+    // Get instance field: private System.Int32 m_lastFrame
+    int _get_m_lastFrame();
+    // Set instance field: private System.Int32 m_lastFrame
+    void _set_m_lastFrame(int value);
+    // Get instance field: private System.Single fpsAvg
+    float _get_fpsAvg();
+    // Set instance field: private System.Single fpsAvg
+    void _set_fpsAvg(float value);
     // static public System.Guid get_PlayerConnectionGuid()
     // Offset: 0x19AFDD4
     static System::Guid get_PlayerConnectionGuid();

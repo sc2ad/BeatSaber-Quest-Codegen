@@ -87,6 +87,34 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     static_assert(sizeof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*) == 0x8);
     // Creating value type constructor for type: InternalOp
     InternalOp(::Il2CppString* m_LocalDataPath_ = {}, ::Il2CppString* m_RemoteHashValue_ = {}, ::Il2CppString* m_LocalHashValue_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProviderInterface_ = {}, UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_ContentCatalogData_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> m_ContentCatalogDataLoadOp_ = {}, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* m_BundledCatalog_ = {}) noexcept : m_LocalDataPath{m_LocalDataPath_}, m_RemoteHashValue{m_RemoteHashValue_}, m_LocalHashValue{m_LocalHashValue_}, m_ProviderInterface{m_ProviderInterface_}, m_ContentCatalogData{m_ContentCatalogData_}, m_ContentCatalogDataLoadOp{m_ContentCatalogDataLoadOp_}, m_BundledCatalog{m_BundledCatalog_} {}
+    // Get instance field: private System.String m_LocalDataPath
+    ::Il2CppString* _get_m_LocalDataPath();
+    // Set instance field: private System.String m_LocalDataPath
+    void _set_m_LocalDataPath(::Il2CppString* value);
+    // Get instance field: private System.String m_RemoteHashValue
+    ::Il2CppString* _get_m_RemoteHashValue();
+    // Set instance field: private System.String m_RemoteHashValue
+    void _set_m_RemoteHashValue(::Il2CppString* value);
+    // Get instance field: private System.String m_LocalHashValue
+    ::Il2CppString* _get_m_LocalHashValue();
+    // Set instance field: private System.String m_LocalHashValue
+    void _set_m_LocalHashValue(::Il2CppString* value);
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProviderInterface
+    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle _get_m_ProviderInterface();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProviderInterface
+    void _set_m_ProviderInterface(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
+    // Get instance field: UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_ContentCatalogData
+    UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* _get_m_ContentCatalogData();
+    // Set instance field: UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_ContentCatalogData
+    void _set_m_ContentCatalogData(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> m_ContentCatalogDataLoadOp
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> _get_m_ContentCatalogDataLoadOp();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> m_ContentCatalogDataLoadOp
+    void _set_m_ContentCatalogDataLoadOp(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> value);
+    // Get instance field: private UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp/UnityEngine.AddressableAssets.ResourceProviders.BundledCatalog m_BundledCatalog
+    UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* _get_m_BundledCatalog();
+    // Set instance field: private UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp/UnityEngine.AddressableAssets.ResourceProviders.BundledCatalog m_BundledCatalog
+    void _set_m_BundledCatalog(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* value);
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle providerInterface, System.Boolean disableCatalogUpdateOnStart, System.Boolean isLocalCatalogInBundle)
     // Offset: 0x13CC5C4
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);

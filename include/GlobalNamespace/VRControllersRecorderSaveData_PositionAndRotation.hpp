@@ -63,6 +63,34 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: PositionAndRotation
     PositionAndRotation(float posX_ = {}, float posY_ = {}, float posZ_ = {}, float rotX_ = {}, float rotY_ = {}, float rotZ_ = {}, float rotW_ = {}) noexcept : posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_} {}
+    // Get instance field: public System.Single posX
+    float _get_posX();
+    // Set instance field: public System.Single posX
+    void _set_posX(float value);
+    // Get instance field: public System.Single posY
+    float _get_posY();
+    // Set instance field: public System.Single posY
+    void _set_posY(float value);
+    // Get instance field: public System.Single posZ
+    float _get_posZ();
+    // Set instance field: public System.Single posZ
+    void _set_posZ(float value);
+    // Get instance field: public System.Single rotX
+    float _get_rotX();
+    // Set instance field: public System.Single rotX
+    void _set_rotX(float value);
+    // Get instance field: public System.Single rotY
+    float _get_rotY();
+    // Set instance field: public System.Single rotY
+    void _set_rotY(float value);
+    // Get instance field: public System.Single rotZ
+    float _get_rotZ();
+    // Set instance field: public System.Single rotZ
+    void _set_rotZ(float value);
+    // Get instance field: public System.Single rotW
+    float _get_rotW();
+    // Set instance field: public System.Single rotW
+    void _set_rotW(float value);
     // public System.Void .ctor()
     // Offset: 0x127A394
     // Implemented from: System.Object

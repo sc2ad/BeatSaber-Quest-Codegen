@@ -59,6 +59,18 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*) == 0x8);
     // Creating value type constructor for type: V2Form
     V2Form(Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName_ = {}, Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID_ = {}, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo_ = {}) noexcept : issuerName{issuerName_}, baseCertificateID{baseCertificateID_}, objectDigestInfo{objectDigestInfo_} {}
+    // Get instance field: Org.BouncyCastle.Asn1.X509.GeneralNames issuerName
+    Org::BouncyCastle::Asn1::X509::GeneralNames* _get_issuerName();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.GeneralNames issuerName
+    void _set_issuerName(Org::BouncyCastle::Asn1::X509::GeneralNames* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
+    Org::BouncyCastle::Asn1::X509::IssuerSerial* _get_baseCertificateID();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
+    void _set_baseCertificateID(Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
+    // Get instance field: Org.BouncyCastle.Asn1.X509.ObjectDigestInfo objectDigestInfo
+    Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* _get_objectDigestInfo();
+    // Set instance field: Org.BouncyCastle.Asn1.X509.ObjectDigestInfo objectDigestInfo
+    void _set_objectDigestInfo(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x19DDDD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,6 +33,14 @@ namespace Mono::Xml {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SmallXmlParserException
     SmallXmlParserException(int line_ = {}, int column_ = {}) noexcept : line{line_}, column{column_} {}
+    // Get instance field: private System.Int32 line
+    int _get_line();
+    // Set instance field: private System.Int32 line
+    void _set_line(int value);
+    // Get instance field: private System.Int32 column
+    int _get_column();
+    // Set instance field: private System.Int32 column
+    void _set_column(int value);
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
     // Offset: 0x1A531EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

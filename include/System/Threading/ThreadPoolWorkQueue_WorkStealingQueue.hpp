@@ -60,6 +60,26 @@ namespace System::Threading {
     static_assert(sizeof(System::Threading::SpinLock) == 0x4);
     // Creating value type constructor for type: WorkStealingQueue
     WorkStealingQueue(::Array<System::Threading::IThreadPoolWorkItem*>* m_array_ = {}, int m_mask_ = {}, int m_headIndex_ = {}, int m_tailIndex_ = {}, System::Threading::SpinLock m_foreignLock_ = {}) noexcept : m_array{m_array_}, m_mask{m_mask_}, m_headIndex{m_headIndex_}, m_tailIndex{m_tailIndex_}, m_foreignLock{m_foreignLock_} {}
+    // Get instance field: System.Threading.IThreadPoolWorkItem[] m_array
+    ::Array<System::Threading::IThreadPoolWorkItem*>* _get_m_array();
+    // Set instance field: System.Threading.IThreadPoolWorkItem[] m_array
+    void _set_m_array(::Array<System::Threading::IThreadPoolWorkItem*>* value);
+    // Get instance field: private System.Int32 m_mask
+    int _get_m_mask();
+    // Set instance field: private System.Int32 m_mask
+    void _set_m_mask(int value);
+    // Get instance field: private System.Int32 m_headIndex
+    int _get_m_headIndex();
+    // Set instance field: private System.Int32 m_headIndex
+    void _set_m_headIndex(int value);
+    // Get instance field: private System.Int32 m_tailIndex
+    int _get_m_tailIndex();
+    // Set instance field: private System.Int32 m_tailIndex
+    void _set_m_tailIndex(int value);
+    // Get instance field: private System.Threading.SpinLock m_foreignLock
+    System::Threading::SpinLock _get_m_foreignLock();
+    // Set instance field: private System.Threading.SpinLock m_foreignLock
+    void _set_m_foreignLock(System::Threading::SpinLock value);
     // public System.Void LocalPush(System.Threading.IThreadPoolWorkItem obj)
     // Offset: 0x188BD08
     void LocalPush(System::Threading::IThreadPoolWorkItem* obj);

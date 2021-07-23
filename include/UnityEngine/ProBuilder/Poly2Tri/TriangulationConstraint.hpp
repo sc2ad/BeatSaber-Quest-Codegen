@@ -38,6 +38,14 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
     // Creating value type constructor for type: TriangulationConstraint
     TriangulationConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* P_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q_ = {}) noexcept : P{P_}, Q{Q_} {}
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_P();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
+    void _set_P(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+    // Get instance field: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q
+    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _get_Q();
+    // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q
+    void _set_Q(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
     // public System.Void .ctor()
     // Offset: 0x236D268
     // Implemented from: System.Object

@@ -74,6 +74,26 @@ namespace Zenject {
     operator System::Collections::Generic::IEnumerator_1<System::Type*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Type*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Type <>2__current
+    System::Type* _get_$$2__current();
+    // Set instance field: private System.Type <>2__current
+    void _set_$$2__current(System::Type* value);
+    // Get instance field: private System.Int32 <>l__initialThreadId
+    int _get_$$l__initialThreadId();
+    // Set instance field: private System.Int32 <>l__initialThreadId
+    void _set_$$l__initialThreadId(int value);
+    // Get instance field: public Zenject.FactoryFromBinderBase <>4__this
+    Zenject::FactoryFromBinderBase* _get_$$4__this();
+    // Set instance field: public Zenject.FactoryFromBinderBase <>4__this
+    void _set_$$4__this(Zenject::FactoryFromBinderBase* value);
+    // Get instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.Type> <>7__wrap1
+    typename System::Collections::Generic::List_1<System::Type*>::Enumerator _get_$$7__wrap1();
+    // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.Type> <>7__wrap1
+    void _set_$$7__wrap1(typename System::Collections::Generic::List_1<System::Type*>::Enumerator value);
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
     // Offset: 0x161D434
     System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current();

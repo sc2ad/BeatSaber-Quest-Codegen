@@ -52,6 +52,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::AbuseReportType _get_User();
     // Set static field: static public Oculus.Platform.AbuseReportType User
     static void _set_User(Oculus::Platform::AbuseReportType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // Oculus.Platform.AbuseReportType
   #pragma pack(pop)
   static check_size<sizeof(AbuseReportType), 0 + sizeof(int)> __Oculus_Platform_AbuseReportTypeSizeCheck;

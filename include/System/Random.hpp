@@ -58,6 +58,18 @@ namespace System {
     static int _get_MZ();
     // Set static field: static private System.Int32 MZ
     static void _set_MZ(int value);
+    // Get instance field: private System.Int32 inext
+    int _get_inext();
+    // Set instance field: private System.Int32 inext
+    void _set_inext(int value);
+    // Get instance field: private System.Int32 inextp
+    int _get_inextp();
+    // Set instance field: private System.Int32 inextp
+    void _set_inextp(int value);
+    // Get instance field: private System.Int32[] SeedArray
+    ::Array<int>* _get_SeedArray();
+    // Set instance field: private System.Int32[] SeedArray
+    void _set_SeedArray(::Array<int>* value);
     // public System.Void .ctor(System.Int32 Seed)
     // Offset: 0x1CA3FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

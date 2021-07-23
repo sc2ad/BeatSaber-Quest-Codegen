@@ -50,6 +50,10 @@ namespace UnityEngine::TestTools {
     static UnityEngine::TestTools::TestPlatform _get_PlayMode();
     // Set static field: static public UnityEngine.TestTools.TestPlatform PlayMode
     static void _set_PlayMode(UnityEngine::TestTools::TestPlatform value);
+    // Get instance field: public System.Byte value__
+    uint8_t _get_value__();
+    // Set instance field: public System.Byte value__
+    void _set_value__(uint8_t value);
   }; // UnityEngine.TestTools.TestPlatform
   #pragma pack(pop)
   static check_size<sizeof(TestPlatform), 0 + sizeof(uint8_t)> __UnityEngine_TestTools_TestPlatformSizeCheck;

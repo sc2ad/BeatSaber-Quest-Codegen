@@ -51,6 +51,26 @@ namespace System::Threading {
     static_assert(sizeof(System::Threading::ReaderWriterCount*) == 0x8);
     // Creating value type constructor for type: ReaderWriterCount
     ReaderWriterCount(int64_t lockID_ = {}, int readercount_ = {}, int writercount_ = {}, int upgradecount_ = {}, System::Threading::ReaderWriterCount* next_ = {}) noexcept : lockID{lockID_}, readercount{readercount_}, writercount{writercount_}, upgradecount{upgradecount_}, next{next_} {}
+    // Get instance field: public System.Int64 lockID
+    int64_t _get_lockID();
+    // Set instance field: public System.Int64 lockID
+    void _set_lockID(int64_t value);
+    // Get instance field: public System.Int32 readercount
+    int _get_readercount();
+    // Set instance field: public System.Int32 readercount
+    void _set_readercount(int value);
+    // Get instance field: public System.Int32 writercount
+    int _get_writercount();
+    // Set instance field: public System.Int32 writercount
+    void _set_writercount(int value);
+    // Get instance field: public System.Int32 upgradecount
+    int _get_upgradecount();
+    // Set instance field: public System.Int32 upgradecount
+    void _set_upgradecount(int value);
+    // Get instance field: public System.Threading.ReaderWriterCount next
+    System::Threading::ReaderWriterCount* _get_next();
+    // Set instance field: public System.Threading.ReaderWriterCount next
+    void _set_next(System::Threading::ReaderWriterCount* value);
     // public System.Void .ctor()
     // Offset: 0x2365C7C
     // Implemented from: System.Object

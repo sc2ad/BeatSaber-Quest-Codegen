@@ -28,6 +28,10 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HMACSHA512
     HMACSHA512(bool m_useLegacyBlockSize_ = {}) noexcept : m_useLegacyBlockSize{m_useLegacyBlockSize_} {}
+    // Get instance field: private System.Boolean m_useLegacyBlockSize
+    bool _get_m_useLegacyBlockSize();
+    // Set instance field: private System.Boolean m_useLegacyBlockSize
+    void _set_m_useLegacyBlockSize(bool value);
     // private System.Int32 get_BlockSize()
     // Offset: 0x193FDE0
     int get_BlockSize();

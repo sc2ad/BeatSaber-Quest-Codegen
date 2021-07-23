@@ -111,6 +111,66 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.UInt32 m_nPid
+    uint _get_m_nPid();
+    // Set instance field: public System.UInt32 m_nPid
+    void _set_m_nPid(uint value);
+    // Get instance field: public System.UInt32 m_nNumFramePresents
+    uint _get_m_nNumFramePresents();
+    // Set instance field: public System.UInt32 m_nNumFramePresents
+    void _set_m_nNumFramePresents(uint value);
+    // Get instance field: public System.UInt32 m_nNumDroppedFrames
+    uint _get_m_nNumDroppedFrames();
+    // Set instance field: public System.UInt32 m_nNumDroppedFrames
+    void _set_m_nNumDroppedFrames(uint value);
+    // Get instance field: public System.UInt32 m_nNumReprojectedFrames
+    uint _get_m_nNumReprojectedFrames();
+    // Set instance field: public System.UInt32 m_nNumReprojectedFrames
+    void _set_m_nNumReprojectedFrames(uint value);
+    // Get instance field: public System.UInt32 m_nNumFramePresentsOnStartup
+    uint _get_m_nNumFramePresentsOnStartup();
+    // Set instance field: public System.UInt32 m_nNumFramePresentsOnStartup
+    void _set_m_nNumFramePresentsOnStartup(uint value);
+    // Get instance field: public System.UInt32 m_nNumDroppedFramesOnStartup
+    uint _get_m_nNumDroppedFramesOnStartup();
+    // Set instance field: public System.UInt32 m_nNumDroppedFramesOnStartup
+    void _set_m_nNumDroppedFramesOnStartup(uint value);
+    // Get instance field: public System.UInt32 m_nNumReprojectedFramesOnStartup
+    uint _get_m_nNumReprojectedFramesOnStartup();
+    // Set instance field: public System.UInt32 m_nNumReprojectedFramesOnStartup
+    void _set_m_nNumReprojectedFramesOnStartup(uint value);
+    // Get instance field: public System.UInt32 m_nNumLoading
+    uint _get_m_nNumLoading();
+    // Set instance field: public System.UInt32 m_nNumLoading
+    void _set_m_nNumLoading(uint value);
+    // Get instance field: public System.UInt32 m_nNumFramePresentsLoading
+    uint _get_m_nNumFramePresentsLoading();
+    // Set instance field: public System.UInt32 m_nNumFramePresentsLoading
+    void _set_m_nNumFramePresentsLoading(uint value);
+    // Get instance field: public System.UInt32 m_nNumDroppedFramesLoading
+    uint _get_m_nNumDroppedFramesLoading();
+    // Set instance field: public System.UInt32 m_nNumDroppedFramesLoading
+    void _set_m_nNumDroppedFramesLoading(uint value);
+    // Get instance field: public System.UInt32 m_nNumReprojectedFramesLoading
+    uint _get_m_nNumReprojectedFramesLoading();
+    // Set instance field: public System.UInt32 m_nNumReprojectedFramesLoading
+    void _set_m_nNumReprojectedFramesLoading(uint value);
+    // Get instance field: public System.UInt32 m_nNumTimedOut
+    uint _get_m_nNumTimedOut();
+    // Set instance field: public System.UInt32 m_nNumTimedOut
+    void _set_m_nNumTimedOut(uint value);
+    // Get instance field: public System.UInt32 m_nNumFramePresentsTimedOut
+    uint _get_m_nNumFramePresentsTimedOut();
+    // Set instance field: public System.UInt32 m_nNumFramePresentsTimedOut
+    void _set_m_nNumFramePresentsTimedOut(uint value);
+    // Get instance field: public System.UInt32 m_nNumDroppedFramesTimedOut
+    uint _get_m_nNumDroppedFramesTimedOut();
+    // Set instance field: public System.UInt32 m_nNumDroppedFramesTimedOut
+    void _set_m_nNumDroppedFramesTimedOut(uint value);
+    // Get instance field: public System.UInt32 m_nNumReprojectedFramesTimedOut
+    uint _get_m_nNumReprojectedFramesTimedOut();
+    // Set instance field: public System.UInt32 m_nNumReprojectedFramesTimedOut
+    void _set_m_nNumReprojectedFramesTimedOut(uint value);
   }; // OVR.OpenVR.Compositor_CumulativeStats
   #pragma pack(pop)
   static check_size<sizeof(Compositor_CumulativeStats), 56 + sizeof(uint)> __OVR_OpenVR_Compositor_CumulativeStatsSizeCheck;

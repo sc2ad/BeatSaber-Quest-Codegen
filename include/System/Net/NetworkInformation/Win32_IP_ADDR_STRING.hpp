@@ -48,6 +48,22 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr Next
+    System::IntPtr _get_Next();
+    // Set instance field: public System.IntPtr Next
+    void _set_Next(System::IntPtr value);
+    // Get instance field: public System.String IpAddress
+    ::Il2CppString* _get_IpAddress();
+    // Set instance field: public System.String IpAddress
+    void _set_IpAddress(::Il2CppString* value);
+    // Get instance field: public System.String IpMask
+    ::Il2CppString* _get_IpMask();
+    // Set instance field: public System.String IpMask
+    void _set_IpMask(::Il2CppString* value);
+    // Get instance field: public System.UInt32 Context
+    uint _get_Context();
+    // Set instance field: public System.UInt32 Context
+    void _set_Context(uint value);
   }; // System.Net.NetworkInformation.Win32_IP_ADDR_STRING
   #pragma pack(pop)
   static check_size<sizeof(Win32_IP_ADDR_STRING), 24 + sizeof(uint)> __System_Net_NetworkInformation_Win32_IP_ADDR_STRINGSizeCheck;

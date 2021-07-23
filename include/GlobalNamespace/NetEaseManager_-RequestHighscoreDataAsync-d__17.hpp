@@ -61,6 +61,26 @@ namespace GlobalNamespace {
     operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
+    // Get instance field: public System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: public System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<NetEase.Docker.ReceivedHighscoreData> <>t__builder
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::ReceivedHighscoreData> _get_$$t__builder();
+    // Set instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<NetEase.Docker.ReceivedHighscoreData> <>t__builder
+    void _set_$$t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::ReceivedHighscoreData> value);
+    // Get instance field: public NetEaseManager <>4__this
+    GlobalNamespace::NetEaseManager* _get_$$4__this();
+    // Set instance field: public NetEaseManager <>4__this
+    void _set_$$4__this(GlobalNamespace::NetEaseManager* value);
+    // Get instance field: public System.String leaderboardId
+    ::Il2CppString* _get_leaderboardId();
+    // Set instance field: public System.String leaderboardId
+    void _set_leaderboardId(::Il2CppString* value);
+    // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.ReceivedHighscoreData> <>u__1
+    System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData> _get_$$u__1();
+    // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.ReceivedHighscoreData> <>u__1
+    void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData> value);
     // private System.Void MoveNext()
     // Offset: 0xECFAB8
     void MoveNext();

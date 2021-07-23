@@ -62,6 +62,22 @@ namespace System::IO {
     static ::Array<::Il2CppChar>* _get_InvalidChars();
     // Set static field: static readonly System.Char[] InvalidChars
     static void _set_InvalidChars(::Array<::Il2CppChar>* value);
+    // Get instance field: private System.IO.SearchPattern2/System.IO.Op ops
+    System::IO::SearchPattern2::Op* _get_ops();
+    // Set instance field: private System.IO.SearchPattern2/System.IO.Op ops
+    void _set_ops(System::IO::SearchPattern2::Op* value);
+    // Get instance field: private System.Boolean ignore
+    bool _get_ignore();
+    // Set instance field: private System.Boolean ignore
+    void _set_ignore(bool value);
+    // Get instance field: private System.Boolean hasWildcard
+    bool _get_hasWildcard();
+    // Set instance field: private System.Boolean hasWildcard
+    void _set_hasWildcard(bool value);
+    // Get instance field: private System.String pattern
+    ::Il2CppString* _get_pattern();
+    // Set instance field: private System.String pattern
+    void _set_pattern(::Il2CppString* value);
     // public System.Boolean get_HasWildcard()
     // Offset: 0x1857134
     bool get_HasWildcard();

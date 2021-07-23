@@ -132,6 +132,70 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> extensions
+    System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* _get_extensions();
+    // Set instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> extensions
+    void _set_extensions(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> no_cache_headers
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_no_cache_headers();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> no_cache_headers
+    void _set_no_cache_headers(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> private_headers
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_private_headers();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> private_headers
+    void _set_private_headers(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private System.Nullable`1<System.TimeSpan> <MaxAge>k__BackingField
+    System::Nullable_1<System::TimeSpan> _get_$MaxAge$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.TimeSpan> <MaxAge>k__BackingField
+    void _set_$MaxAge$k__BackingField(System::Nullable_1<System::TimeSpan> value);
+    // Get instance field: private System.Boolean <MaxStale>k__BackingField
+    bool _get_$MaxStale$k__BackingField();
+    // Set instance field: private System.Boolean <MaxStale>k__BackingField
+    void _set_$MaxStale$k__BackingField(bool value);
+    // Get instance field: private System.Nullable`1<System.TimeSpan> <MaxStaleLimit>k__BackingField
+    System::Nullable_1<System::TimeSpan> _get_$MaxStaleLimit$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.TimeSpan> <MaxStaleLimit>k__BackingField
+    void _set_$MaxStaleLimit$k__BackingField(System::Nullable_1<System::TimeSpan> value);
+    // Get instance field: private System.Nullable`1<System.TimeSpan> <MinFresh>k__BackingField
+    System::Nullable_1<System::TimeSpan> _get_$MinFresh$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.TimeSpan> <MinFresh>k__BackingField
+    void _set_$MinFresh$k__BackingField(System::Nullable_1<System::TimeSpan> value);
+    // Get instance field: private System.Boolean <MustRevalidate>k__BackingField
+    bool _get_$MustRevalidate$k__BackingField();
+    // Set instance field: private System.Boolean <MustRevalidate>k__BackingField
+    void _set_$MustRevalidate$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <NoCache>k__BackingField
+    bool _get_$NoCache$k__BackingField();
+    // Set instance field: private System.Boolean <NoCache>k__BackingField
+    void _set_$NoCache$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <NoStore>k__BackingField
+    bool _get_$NoStore$k__BackingField();
+    // Set instance field: private System.Boolean <NoStore>k__BackingField
+    void _set_$NoStore$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <NoTransform>k__BackingField
+    bool _get_$NoTransform$k__BackingField();
+    // Set instance field: private System.Boolean <NoTransform>k__BackingField
+    void _set_$NoTransform$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <OnlyIfCached>k__BackingField
+    bool _get_$OnlyIfCached$k__BackingField();
+    // Set instance field: private System.Boolean <OnlyIfCached>k__BackingField
+    void _set_$OnlyIfCached$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <Private>k__BackingField
+    bool _get_$Private$k__BackingField();
+    // Set instance field: private System.Boolean <Private>k__BackingField
+    void _set_$Private$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <ProxyRevalidate>k__BackingField
+    bool _get_$ProxyRevalidate$k__BackingField();
+    // Set instance field: private System.Boolean <ProxyRevalidate>k__BackingField
+    void _set_$ProxyRevalidate$k__BackingField(bool value);
+    // Get instance field: private System.Boolean <Public>k__BackingField
+    bool _get_$Public$k__BackingField();
+    // Set instance field: private System.Boolean <Public>k__BackingField
+    void _set_$Public$k__BackingField(bool value);
+    // Get instance field: private System.Nullable`1<System.TimeSpan> <SharedMaxAge>k__BackingField
+    System::Nullable_1<System::TimeSpan> _get_$SharedMaxAge$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.TimeSpan> <SharedMaxAge>k__BackingField
+    void _set_$SharedMaxAge$k__BackingField(System::Nullable_1<System::TimeSpan> value);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Extensions()
     // Offset: 0x1560CE4
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Extensions();

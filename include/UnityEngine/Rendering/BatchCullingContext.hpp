@@ -53,6 +53,22 @@ namespace UnityEngine::Rendering {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public readonly Unity.Collections.NativeArray`1<UnityEngine.Plane> cullingPlanes
+    Unity::Collections::NativeArray_1<UnityEngine::Plane> _get_cullingPlanes();
+    // Set instance field: public readonly Unity.Collections.NativeArray`1<UnityEngine.Plane> cullingPlanes
+    void _set_cullingPlanes(Unity::Collections::NativeArray_1<UnityEngine::Plane> value);
+    // Get instance field: public Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility> batchVisibility
+    Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> _get_batchVisibility();
+    // Set instance field: public Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility> batchVisibility
+    void _set_batchVisibility(Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> value);
+    // Get instance field: public Unity.Collections.NativeArray`1<System.Int32> visibleIndices
+    Unity::Collections::NativeArray_1<int> _get_visibleIndices();
+    // Set instance field: public Unity.Collections.NativeArray`1<System.Int32> visibleIndices
+    void _set_visibleIndices(Unity::Collections::NativeArray_1<int> value);
+    // Get instance field: public readonly UnityEngine.Rendering.LODParameters lodParameters
+    UnityEngine::Rendering::LODParameters _get_lodParameters();
+    // Set instance field: public readonly UnityEngine.Rendering.LODParameters lodParameters
+    void _set_lodParameters(UnityEngine::Rendering::LODParameters value);
     // public System.Void .ctor(Unity.Collections.NativeArray`1<UnityEngine.Plane> inCullingPlanes, Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility> inOutBatchVisibility, Unity.Collections.NativeArray`1<System.Int32> outVisibleIndices, UnityEngine.Rendering.LODParameters inLodParameters)
     // Offset: 0xEF5848
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

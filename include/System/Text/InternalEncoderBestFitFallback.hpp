@@ -46,6 +46,14 @@ namespace System::Text {
     InternalEncoderBestFitFallback(System::Text::Encoding* encoding_ = {}, ::Array<::Il2CppChar>* arrayBestFit_ = {}) noexcept : encoding{encoding_}, arrayBestFit{arrayBestFit_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
+    // Get instance field: System.Text.Encoding encoding
+    System::Text::Encoding* _get_encoding();
+    // Set instance field: System.Text.Encoding encoding
+    void _set_encoding(System::Text::Encoding* value);
+    // Get instance field: System.Char[] arrayBestFit
+    ::Array<::Il2CppChar>* _get_arrayBestFit();
+    // Set instance field: System.Char[] arrayBestFit
+    void _set_arrayBestFit(::Array<::Il2CppChar>* value);
     // System.Void .ctor(System.Text.Encoding encoding)
     // Offset: 0x1D1668C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

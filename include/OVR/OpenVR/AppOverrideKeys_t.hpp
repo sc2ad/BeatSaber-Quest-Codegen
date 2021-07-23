@@ -36,6 +36,14 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.IntPtr pchKey
+    System::IntPtr _get_pchKey();
+    // Set instance field: public System.IntPtr pchKey
+    void _set_pchKey(System::IntPtr value);
+    // Get instance field: public System.IntPtr pchValue
+    System::IntPtr _get_pchValue();
+    // Set instance field: public System.IntPtr pchValue
+    void _set_pchValue(System::IntPtr value);
   }; // OVR.OpenVR.AppOverrideKeys_t
   #pragma pack(pop)
   static check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(System::IntPtr)> __OVR_OpenVR_AppOverrideKeys_tSizeCheck;

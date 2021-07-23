@@ -197,6 +197,26 @@ namespace Oculus::Platform {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.String key_
+      ::Il2CppString* _get_key_();
+      // Set instance field: public System.String key_
+      void _set_key_(::Il2CppString* value);
+      // Get instance field: private Oculus.Platform.KeyValuePairType valueType_
+      Oculus::Platform::KeyValuePairType _get_valueType_();
+      // Set instance field: private Oculus.Platform.KeyValuePairType valueType_
+      void _set_valueType_(Oculus::Platform::KeyValuePairType value);
+      // Get instance field: public System.String stringValue_
+      ::Il2CppString* _get_stringValue_();
+      // Set instance field: public System.String stringValue_
+      void _set_stringValue_(::Il2CppString* value);
+      // Get instance field: public System.Int32 intValue_
+      int _get_intValue_();
+      // Set instance field: public System.Int32 intValue_
+      void _set_intValue_(int value);
+      // Get instance field: public System.Double doubleValue_
+      double _get_doubleValue_();
+      // Set instance field: public System.Double doubleValue_
+      void _set_doubleValue_(double value);
       // public System.Void .ctor(System.String key, System.String value)
       // Offset: 0xEDA20C
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

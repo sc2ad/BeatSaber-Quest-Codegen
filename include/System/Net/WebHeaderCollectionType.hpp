@@ -97,6 +97,10 @@ namespace System::Net {
     static System::Net::WebHeaderCollectionType _get_FileWebResponse();
     // Set static field: static public System.Net.WebHeaderCollectionType FileWebResponse
     static void _set_FileWebResponse(System::Net::WebHeaderCollectionType value);
+    // Get instance field: public System.UInt16 value__
+    uint16_t _get_value__();
+    // Set instance field: public System.UInt16 value__
+    void _set_value__(uint16_t value);
   }; // System.Net.WebHeaderCollectionType
   #pragma pack(pop)
   static check_size<sizeof(WebHeaderCollectionType), 0 + sizeof(uint16_t)> __System_Net_WebHeaderCollectionTypeSizeCheck;

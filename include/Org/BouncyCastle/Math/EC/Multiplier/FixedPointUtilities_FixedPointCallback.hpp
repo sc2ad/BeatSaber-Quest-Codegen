@@ -53,6 +53,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     constexpr operator Org::BouncyCastle::Math::EC::ECPoint*() const noexcept {
       return m_p;
     }
+    // Get instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
+    Org::BouncyCastle::Math::EC::ECPoint* _get_m_p();
+    // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
+    void _set_m_p(Org::BouncyCastle::Math::EC::ECPoint* value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p)
     // Offset: 0x1D912B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,6 +34,10 @@ namespace System::Runtime::CompilerServices {
     constexpr operator System::Runtime::CompilerServices::LoadHint() const noexcept {
       return loadHint;
     }
+    // Get instance field: private System.Runtime.CompilerServices.LoadHint loadHint
+    System::Runtime::CompilerServices::LoadHint _get_loadHint();
+    // Set instance field: private System.Runtime.CompilerServices.LoadHint loadHint
+    void _set_loadHint(System::Runtime::CompilerServices::LoadHint value);
     // public System.Void .ctor(System.Runtime.CompilerServices.LoadHint loadHintArgument)
     // Offset: 0x13EFFFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

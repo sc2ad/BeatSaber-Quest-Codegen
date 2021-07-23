@@ -64,6 +64,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
     // Creating value type constructor for type: SpriteSwapTransitionSO
     SpriteSwapTransitionSO(UnityEngine::Sprite* normalSprite_ = {}, UnityEngine::Sprite* highlightedSprite_ = {}, UnityEngine::Sprite* pressedSprite_ = {}, UnityEngine::Sprite* disabledSprite_ = {}, UnityEngine::Sprite* selectedSprite_ = {}, UnityEngine::Sprite* selectedAndHighlightedSprite_ = {}) noexcept : normalSprite{normalSprite_}, highlightedSprite{highlightedSprite_}, pressedSprite{pressedSprite_}, disabledSprite{disabledSprite_}, selectedSprite{selectedSprite_}, selectedAndHighlightedSprite{selectedAndHighlightedSprite_} {}
+    // Get instance field: private UnityEngine.Sprite _normalSprite
+    UnityEngine::Sprite* _get__normalSprite();
+    // Set instance field: private UnityEngine.Sprite _normalSprite
+    void _set__normalSprite(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _highlightedSprite
+    UnityEngine::Sprite* _get__highlightedSprite();
+    // Set instance field: private UnityEngine.Sprite _highlightedSprite
+    void _set__highlightedSprite(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _pressedSprite
+    UnityEngine::Sprite* _get__pressedSprite();
+    // Set instance field: private UnityEngine.Sprite _pressedSprite
+    void _set__pressedSprite(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _disabledSprite
+    UnityEngine::Sprite* _get__disabledSprite();
+    // Set instance field: private UnityEngine.Sprite _disabledSprite
+    void _set__disabledSprite(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _selectedSprite
+    UnityEngine::Sprite* _get__selectedSprite();
+    // Set instance field: private UnityEngine.Sprite _selectedSprite
+    void _set__selectedSprite(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _selectedAndHighlightedSprite
+    UnityEngine::Sprite* _get__selectedAndHighlightedSprite();
+    // Set instance field: private UnityEngine.Sprite _selectedAndHighlightedSprite
+    void _set__selectedAndHighlightedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_normalSprite()
     // Offset: 0x105F168
     UnityEngine::Sprite* get_normalSprite();

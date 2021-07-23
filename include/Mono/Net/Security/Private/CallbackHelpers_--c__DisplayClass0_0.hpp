@@ -51,6 +51,10 @@ namespace Mono::Net::Security::Private {
     constexpr operator System::Net::Security::RemoteCertificateValidationCallback*() const noexcept {
       return callback;
     }
+    // Get instance field: public System.Net.Security.RemoteCertificateValidationCallback callback
+    System::Net::Security::RemoteCertificateValidationCallback* _get_callback();
+    // Set instance field: public System.Net.Security.RemoteCertificateValidationCallback callback
+    void _set_callback(System::Net::Security::RemoteCertificateValidationCallback* value);
     // System.Boolean <PublicToMono>b__0(System.String h, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, Mono.Security.Interface.MonoSslPolicyErrors e)
     // Offset: 0x15B1248
     bool $PublicToMono$b__0(::Il2CppString* h, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, Mono::Security::Interface::MonoSslPolicyErrors e);

@@ -41,6 +41,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> m_sceneLoadHandle;
     // Creating value type constructor for type: UnloadSceneOp
     UnloadSceneOp(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance m_Instance_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> m_sceneLoadHandle_ = {}) noexcept : m_Instance{m_Instance_}, m_sceneLoadHandle{m_sceneLoadHandle_} {}
+    // Get instance field: private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Instance
+    UnityEngine::ResourceManagement::ResourceProviders::SceneInstance _get_m_Instance();
+    // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Instance
+    void _set_m_Instance(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance value);
+    // Get instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> m_sceneLoadHandle
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _get_m_sceneLoadHandle();
+    // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> m_sceneLoadHandle
+    void _set_m_sceneLoadHandle(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
     // public System.Void Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> sceneLoadHandle)
     // Offset: 0x19BA61C
     void Init(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);

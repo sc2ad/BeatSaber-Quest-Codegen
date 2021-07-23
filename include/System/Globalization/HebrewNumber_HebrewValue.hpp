@@ -35,6 +35,14 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: HebrewValue
     HebrewValue(System::Globalization::HebrewNumber::HebrewToken token_ = {}, int value_ = {}) noexcept : token{token_}, value{value_} {}
+    // Get instance field: System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
+    System::Globalization::HebrewNumber::HebrewToken _get_token();
+    // Set instance field: System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
+    void _set_token(System::Globalization::HebrewNumber::HebrewToken value);
+    // Get instance field: System.Int32 value
+    int _get_value();
+    // Set instance field: System.Int32 value
+    void _set_value(int value);
     // System.Void .ctor(System.Globalization.HebrewNumber/System.Globalization.HebrewToken token, System.Int32 value)
     // Offset: 0x19C84E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

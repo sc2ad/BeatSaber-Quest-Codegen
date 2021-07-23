@@ -49,6 +49,14 @@ namespace UnityEngine::UI {
     static_assert(sizeof(UnityEngine::Rect) == 0x10);
     // Creating value type constructor for type: RawImage
     RawImage(UnityEngine::Texture* m_Texture_ = {}, UnityEngine::Rect m_UVRect_ = {}) noexcept : m_Texture{m_Texture_}, m_UVRect{m_UVRect_} {}
+    // Get instance field: private UnityEngine.Texture m_Texture
+    UnityEngine::Texture* _get_m_Texture();
+    // Set instance field: private UnityEngine.Texture m_Texture
+    void _set_m_Texture(UnityEngine::Texture* value);
+    // Get instance field: private UnityEngine.Rect m_UVRect
+    UnityEngine::Rect _get_m_UVRect();
+    // Set instance field: private UnityEngine.Rect m_UVRect
+    void _set_m_UVRect(UnityEngine::Rect value);
     // public UnityEngine.Texture get_texture()
     // Offset: 0x19836B0
     UnityEngine::Texture* get_texture();

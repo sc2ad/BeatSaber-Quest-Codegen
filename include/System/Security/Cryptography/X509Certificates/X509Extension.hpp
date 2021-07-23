@@ -31,6 +31,10 @@ namespace System::Security::Cryptography::X509Certificates {
     constexpr operator bool() const noexcept {
       return critical;
     }
+    // Get instance field: private System.Boolean _critical
+    bool _get__critical();
+    // Set instance field: private System.Boolean _critical
+    void _set__critical(bool value);
     // public System.Boolean get_Critical()
     // Offset: 0x1832924
     bool get_Critical();

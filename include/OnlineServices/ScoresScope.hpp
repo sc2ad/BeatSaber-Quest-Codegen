@@ -43,6 +43,10 @@ namespace OnlineServices {
     static OnlineServices::ScoresScope _get_Friends();
     // Set static field: static public OnlineServices.ScoresScope Friends
     static void _set_Friends(OnlineServices::ScoresScope value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OnlineServices.ScoresScope
   #pragma pack(pop)
   static check_size<sizeof(ScoresScope), 0 + sizeof(int)> __OnlineServices_ScoresScopeSizeCheck;

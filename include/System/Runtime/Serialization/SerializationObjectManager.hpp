@@ -51,6 +51,18 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Creating value type constructor for type: SerializationObjectManager
     SerializationObjectManager(System::Collections::Hashtable* m_objectSeenTable_ = {}, System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}) noexcept : m_objectSeenTable{m_objectSeenTable_}, m_onSerializedHandler{m_onSerializedHandler_}, m_context{m_context_} {}
+    // Get instance field: private System.Collections.Hashtable m_objectSeenTable
+    System::Collections::Hashtable* _get_m_objectSeenTable();
+    // Set instance field: private System.Collections.Hashtable m_objectSeenTable
+    void _set_m_objectSeenTable(System::Collections::Hashtable* value);
+    // Get instance field: private System.Runtime.Serialization.SerializationEventHandler m_onSerializedHandler
+    System::Runtime::Serialization::SerializationEventHandler* _get_m_onSerializedHandler();
+    // Set instance field: private System.Runtime.Serialization.SerializationEventHandler m_onSerializedHandler
+    void _set_m_onSerializedHandler(System::Runtime::Serialization::SerializationEventHandler* value);
+    // Get instance field: private System.Runtime.Serialization.StreamingContext m_context
+    System::Runtime::Serialization::StreamingContext _get_m_context();
+    // Set instance field: private System.Runtime.Serialization.StreamingContext m_context
+    void _set_m_context(System::Runtime::Serialization::StreamingContext value);
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1684C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

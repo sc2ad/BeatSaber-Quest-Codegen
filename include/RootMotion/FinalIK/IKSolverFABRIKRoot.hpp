@@ -72,6 +72,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: IKSolverFABRIKRoot
     IKSolverFABRIKRoot(int iterations_ = {}, float rootPin_ = {}, ::Array<RootMotion::FinalIK::FABRIKChain*>* chains_ = {}, bool zeroWeightApplied_ = {}, ::Array<bool>* isRoot_ = {}, UnityEngine::Vector3 rootDefaultPosition_ = {}) noexcept : iterations{iterations_}, rootPin{rootPin_}, chains{chains_}, zeroWeightApplied{zeroWeightApplied_}, isRoot{isRoot_}, rootDefaultPosition{rootDefaultPosition_} {}
+    // Get instance field: public System.Int32 iterations
+    int _get_iterations();
+    // Set instance field: public System.Int32 iterations
+    void _set_iterations(int value);
+    // Get instance field: public System.Single rootPin
+    float _get_rootPin();
+    // Set instance field: public System.Single rootPin
+    void _set_rootPin(float value);
+    // Get instance field: public RootMotion.FinalIK.FABRIKChain[] chains
+    ::Array<RootMotion::FinalIK::FABRIKChain*>* _get_chains();
+    // Set instance field: public RootMotion.FinalIK.FABRIKChain[] chains
+    void _set_chains(::Array<RootMotion::FinalIK::FABRIKChain*>* value);
+    // Get instance field: private System.Boolean zeroWeightApplied
+    bool _get_zeroWeightApplied();
+    // Set instance field: private System.Boolean zeroWeightApplied
+    void _set_zeroWeightApplied(bool value);
+    // Get instance field: private System.Boolean[] isRoot
+    ::Array<bool>* _get_isRoot();
+    // Set instance field: private System.Boolean[] isRoot
+    void _set_isRoot(::Array<bool>* value);
+    // Get instance field: private UnityEngine.Vector3 rootDefaultPosition
+    UnityEngine::Vector3 _get_rootDefaultPosition();
+    // Set instance field: private UnityEngine.Vector3 rootDefaultPosition
+    void _set_rootDefaultPosition(UnityEngine::Vector3 value);
     // private System.Boolean IsRoot(System.Int32 index)
     // Offset: 0x1C61ACC
     bool IsRoot(int index);

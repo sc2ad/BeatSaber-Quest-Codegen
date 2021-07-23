@@ -78,6 +78,22 @@ namespace GlobalNamespace {
     LightsAnimator(::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::ColorTween* tween_ = {}) noexcept : lights{lights_}, directionalLights{directionalLights_}, tweeningManager{tweeningManager_}, tween{tween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private TubeBloomPrePassLight[] _lights
+    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* _get__lights();
+    // Set instance field: private TubeBloomPrePassLight[] _lights
+    void _set__lights(::Array<GlobalNamespace::TubeBloomPrePassLight*>* value);
+    // Get instance field: private DirectionalLight[] _directionalLights
+    ::Array<GlobalNamespace::DirectionalLight*>* _get__directionalLights();
+    // Set instance field: private DirectionalLight[] _directionalLights
+    void _set__directionalLights(::Array<GlobalNamespace::DirectionalLight*>* value);
+    // Get instance field: private readonly Tweening.TweeningManager _tweeningManager
+    Tweening::TweeningManager* _get__tweeningManager();
+    // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
+    void _set__tweeningManager(Tweening::TweeningManager* value);
+    // Get instance field: private Tweening.ColorTween _tween
+    Tweening::ColorTween* _get__tween();
+    // Set instance field: private Tweening.ColorTween _tween
+    void _set__tween(Tweening::ColorTween* value);
     // protected System.Void Awake()
     // Offset: 0x11B9760
     void Awake();

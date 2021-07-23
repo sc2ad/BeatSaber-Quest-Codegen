@@ -78,6 +78,26 @@ namespace System::IO::Compression {
     static_assert(sizeof(System::IO::Compression::DeflateStreamNative*) == 0x8);
     // Creating value type constructor for type: DeflateStream
     DeflateStream(System::IO::Stream* base_stream_ = {}, System::IO::Compression::CompressionMode mode_ = {}, bool leaveOpen_ = {}, bool disposed_ = {}, System::IO::Compression::DeflateStreamNative* native_ = {}) noexcept : base_stream{base_stream_}, mode{mode_}, leaveOpen{leaveOpen_}, disposed{disposed_}, native{native_} {}
+    // Get instance field: private System.IO.Stream base_stream
+    System::IO::Stream* _get_base_stream();
+    // Set instance field: private System.IO.Stream base_stream
+    void _set_base_stream(System::IO::Stream* value);
+    // Get instance field: private System.IO.Compression.CompressionMode mode
+    System::IO::Compression::CompressionMode _get_mode();
+    // Set instance field: private System.IO.Compression.CompressionMode mode
+    void _set_mode(System::IO::Compression::CompressionMode value);
+    // Get instance field: private System.Boolean leaveOpen
+    bool _get_leaveOpen();
+    // Set instance field: private System.Boolean leaveOpen
+    void _set_leaveOpen(bool value);
+    // Get instance field: private System.Boolean disposed
+    bool _get_disposed();
+    // Set instance field: private System.Boolean disposed
+    void _set_disposed(bool value);
+    // Get instance field: private System.IO.Compression.DeflateStreamNative native
+    System::IO::Compression::DeflateStreamNative* _get_native();
+    // Set instance field: private System.IO.Compression.DeflateStreamNative native
+    void _set_native(System::IO::Compression::DeflateStreamNative* value);
     // public System.Void .ctor(System.IO.Stream stream, System.IO.Compression.CompressionMode mode)
     // Offset: 0x184FA08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

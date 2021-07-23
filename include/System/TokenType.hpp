@@ -223,6 +223,10 @@ namespace System {
     static System::TokenType _get_SeparatorTokenMask();
     // Set static field: static public System.TokenType SeparatorTokenMask
     static void _set_SeparatorTokenMask(System::TokenType value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.TokenType
   #pragma pack(pop)
   static check_size<sizeof(TokenType), 0 + sizeof(int)> __System_TokenTypeSizeCheck;

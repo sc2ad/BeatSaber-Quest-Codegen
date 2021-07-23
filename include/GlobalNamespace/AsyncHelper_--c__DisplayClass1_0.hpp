@@ -50,6 +50,10 @@ namespace GlobalNamespace {
     constexpr operator System::Func_1<System::Threading::Tasks::Task*>*() const noexcept {
       return asyncTask;
     }
+    // Get instance field: public System.Func`1<System.Threading.Tasks.Task> asyncTask
+    System::Func_1<System::Threading::Tasks::Task*>* _get_asyncTask();
+    // Set instance field: public System.Func`1<System.Threading.Tasks.Task> asyncTask
+    void _set_asyncTask(System::Func_1<System::Threading::Tasks::Task*>* value);
     // System.Threading.Tasks.Task <RunSync>b__0()
     // Offset: 0x120E184
     System::Threading::Tasks::Task* $RunSync$b__0();

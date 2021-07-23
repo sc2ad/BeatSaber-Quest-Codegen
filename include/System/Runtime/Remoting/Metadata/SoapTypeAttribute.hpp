@@ -67,6 +67,34 @@ namespace System::Runtime::Remoting::Metadata {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SoapTypeAttribute
     SoapTypeAttribute(bool useAttribute_ = {}, ::Il2CppString* xmlElementName_ = {}, ::Il2CppString* xmlNamespace_ = {}, ::Il2CppString* xmlTypeName_ = {}, ::Il2CppString* xmlTypeNamespace_ = {}, bool isType_ = {}, bool isElement_ = {}) noexcept : useAttribute{useAttribute_}, xmlElementName{xmlElementName_}, xmlNamespace{xmlNamespace_}, xmlTypeName{xmlTypeName_}, xmlTypeNamespace{xmlTypeNamespace_}, isType{isType_}, isElement{isElement_} {}
+    // Get instance field: private System.Boolean _useAttribute
+    bool _get__useAttribute();
+    // Set instance field: private System.Boolean _useAttribute
+    void _set__useAttribute(bool value);
+    // Get instance field: private System.String _xmlElementName
+    ::Il2CppString* _get__xmlElementName();
+    // Set instance field: private System.String _xmlElementName
+    void _set__xmlElementName(::Il2CppString* value);
+    // Get instance field: private System.String _xmlNamespace
+    ::Il2CppString* _get__xmlNamespace();
+    // Set instance field: private System.String _xmlNamespace
+    void _set__xmlNamespace(::Il2CppString* value);
+    // Get instance field: private System.String _xmlTypeName
+    ::Il2CppString* _get__xmlTypeName();
+    // Set instance field: private System.String _xmlTypeName
+    void _set__xmlTypeName(::Il2CppString* value);
+    // Get instance field: private System.String _xmlTypeNamespace
+    ::Il2CppString* _get__xmlTypeNamespace();
+    // Set instance field: private System.String _xmlTypeNamespace
+    void _set__xmlTypeNamespace(::Il2CppString* value);
+    // Get instance field: private System.Boolean _isType
+    bool _get__isType();
+    // Set instance field: private System.Boolean _isType
+    void _set__isType(bool value);
+    // Get instance field: private System.Boolean _isElement
+    bool _get__isElement();
+    // Set instance field: private System.Boolean _isElement
+    void _set__isElement(bool value);
     // public System.String get_XmlElementName()
     // Offset: 0x1A02824
     ::Il2CppString* get_XmlElementName();

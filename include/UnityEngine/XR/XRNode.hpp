@@ -85,6 +85,10 @@ namespace UnityEngine::XR {
     static UnityEngine::XR::XRNode _get_HardwareTracker();
     // Set static field: static public UnityEngine.XR.XRNode HardwareTracker
     static void _set_HardwareTracker(UnityEngine::XR::XRNode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.XR.XRNode
   #pragma pack(pop)
   static check_size<sizeof(XRNode), 0 + sizeof(int)> __UnityEngine_XR_XRNodeSizeCheck;

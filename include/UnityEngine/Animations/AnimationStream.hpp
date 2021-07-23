@@ -72,6 +72,34 @@ namespace UnityEngine::Animations {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.UInt32 m_AnimatorBindingsVersion
+    uint _get_m_AnimatorBindingsVersion();
+    // Set instance field: private System.UInt32 m_AnimatorBindingsVersion
+    void _set_m_AnimatorBindingsVersion(uint value);
+    // Get instance field: private System.IntPtr constant
+    System::IntPtr _get_constant();
+    // Set instance field: private System.IntPtr constant
+    void _set_constant(System::IntPtr value);
+    // Get instance field: private System.IntPtr input
+    System::IntPtr _get_input();
+    // Set instance field: private System.IntPtr input
+    void _set_input(System::IntPtr value);
+    // Get instance field: private System.IntPtr output
+    System::IntPtr _get_output();
+    // Set instance field: private System.IntPtr output
+    void _set_output(System::IntPtr value);
+    // Get instance field: private System.IntPtr workspace
+    System::IntPtr _get_workspace();
+    // Set instance field: private System.IntPtr workspace
+    void _set_workspace(System::IntPtr value);
+    // Get instance field: private System.IntPtr inputStreamAccessor
+    System::IntPtr _get_inputStreamAccessor();
+    // Set instance field: private System.IntPtr inputStreamAccessor
+    void _set_inputStreamAccessor(System::IntPtr value);
+    // Get instance field: private System.IntPtr animationHandleBinder
+    System::IntPtr _get_animationHandleBinder();
+    // Set instance field: private System.IntPtr animationHandleBinder
+    void _set_animationHandleBinder(System::IntPtr value);
   }; // UnityEngine.Animations.AnimationStream
   #pragma pack(pop)
   static check_size<sizeof(AnimationStream), 48 + sizeof(System::IntPtr)> __UnityEngine_Animations_AnimationStreamSizeCheck;

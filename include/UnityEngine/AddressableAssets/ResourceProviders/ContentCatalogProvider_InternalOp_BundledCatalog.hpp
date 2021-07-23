@@ -89,6 +89,34 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     static_assert(sizeof(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*) == 0x8);
     // Creating value type constructor for type: BundledCatalog
     BundledCatalog(::Il2CppString* m_BundlePath_ = {}, bool m_OpInProgress_ = {}, UnityEngine::AssetBundleCreateRequest* m_LoadBundleRequest_ = {}, UnityEngine::AssetBundle* m_CatalogAssetBundle_ = {}, UnityEngine::AssetBundleRequest* m_LoadTextAssetRequest_ = {}, UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_CatalogData_ = {}, System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* OnLoaded_ = {}) noexcept : m_BundlePath{m_BundlePath_}, m_OpInProgress{m_OpInProgress_}, m_LoadBundleRequest{m_LoadBundleRequest_}, m_CatalogAssetBundle{m_CatalogAssetBundle_}, m_LoadTextAssetRequest{m_LoadTextAssetRequest_}, m_CatalogData{m_CatalogData_}, OnLoaded{OnLoaded_} {}
+    // Get instance field: private readonly System.String m_BundlePath
+    ::Il2CppString* _get_m_BundlePath();
+    // Set instance field: private readonly System.String m_BundlePath
+    void _set_m_BundlePath(::Il2CppString* value);
+    // Get instance field: private System.Boolean m_OpInProgress
+    bool _get_m_OpInProgress();
+    // Set instance field: private System.Boolean m_OpInProgress
+    void _set_m_OpInProgress(bool value);
+    // Get instance field: private UnityEngine.AssetBundleCreateRequest m_LoadBundleRequest
+    UnityEngine::AssetBundleCreateRequest* _get_m_LoadBundleRequest();
+    // Set instance field: private UnityEngine.AssetBundleCreateRequest m_LoadBundleRequest
+    void _set_m_LoadBundleRequest(UnityEngine::AssetBundleCreateRequest* value);
+    // Get instance field: UnityEngine.AssetBundle m_CatalogAssetBundle
+    UnityEngine::AssetBundle* _get_m_CatalogAssetBundle();
+    // Set instance field: UnityEngine.AssetBundle m_CatalogAssetBundle
+    void _set_m_CatalogAssetBundle(UnityEngine::AssetBundle* value);
+    // Get instance field: private UnityEngine.AssetBundleRequest m_LoadTextAssetRequest
+    UnityEngine::AssetBundleRequest* _get_m_LoadTextAssetRequest();
+    // Set instance field: private UnityEngine.AssetBundleRequest m_LoadTextAssetRequest
+    void _set_m_LoadTextAssetRequest(UnityEngine::AssetBundleRequest* value);
+    // Get instance field: private UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_CatalogData
+    UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* _get_m_CatalogData();
+    // Set instance field: private UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_CatalogData
+    void _set_m_CatalogData(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* value);
+    // Get instance field: private System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> OnLoaded
+    System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* _get_OnLoaded();
+    // Set instance field: private System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> OnLoaded
+    void _set_OnLoaded(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Boolean get_OpInProgress()
     // Offset: 0x13CDA60
     bool get_OpInProgress();

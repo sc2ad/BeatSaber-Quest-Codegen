@@ -46,6 +46,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass3_0
     $$c__DisplayClass3_0(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* enumerableTestMethodCommand_ = {}, NUnit::Framework::Internal::ITestExecutionContext* context_ = {}) noexcept : enumerableTestMethodCommand{enumerableTestMethodCommand_}, context{context_} {}
+    // Get instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand enumerableTestMethodCommand
+    UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* _get_enumerableTestMethodCommand();
+    // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand enumerableTestMethodCommand
+    void _set_enumerableTestMethodCommand(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* value);
+    // Get instance field: public NUnit.Framework.Internal.ITestExecutionContext context
+    NUnit::Framework::Internal::ITestExecutionContext* _get_context();
+    // Set instance field: public NUnit.Framework.Internal.ITestExecutionContext context
+    void _set_context(NUnit::Framework::Internal::ITestExecutionContext* value);
     // public System.Void .ctor()
     // Offset: 0x1481444
     // Implemented from: System.Object

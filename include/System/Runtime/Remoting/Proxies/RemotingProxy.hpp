@@ -85,6 +85,18 @@ namespace System::Runtime::Remoting::Proxies {
     static System::Reflection::MethodInfo* _get__cache_GetHashCodeMethod();
     // Set static field: static private System.Reflection.MethodInfo _cache_GetHashCodeMethod
     static void _set__cache_GetHashCodeMethod(System::Reflection::MethodInfo* value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.IMessageSink _sink
+    System::Runtime::Remoting::Messaging::IMessageSink* _get__sink();
+    // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink _sink
+    void _set__sink(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    // Get instance field: private System.Boolean _hasEnvoySink
+    bool _get__hasEnvoySink();
+    // Set instance field: private System.Boolean _hasEnvoySink
+    void _set__hasEnvoySink(bool value);
+    // Get instance field: private System.Runtime.Remoting.Messaging.ConstructionCall _ctorCall
+    System::Runtime::Remoting::Messaging::ConstructionCall* _get__ctorCall();
+    // Set instance field: private System.Runtime.Remoting.Messaging.ConstructionCall _ctorCall
+    void _set__ctorCall(System::Runtime::Remoting::Messaging::ConstructionCall* value);
     // public System.String get_TypeName()
     // Offset: 0x1A05F90
     ::Il2CppString* get_TypeName();

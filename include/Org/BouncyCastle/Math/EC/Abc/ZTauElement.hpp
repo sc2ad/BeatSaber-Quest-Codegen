@@ -38,6 +38,14 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // Creating value type constructor for type: ZTauElement
     ZTauElement(Org::BouncyCastle::Math::BigInteger* u_ = {}, Org::BouncyCastle::Math::BigInteger* v_ = {}) noexcept : u{u_}, v{v_} {}
+    // Get instance field: public readonly Org.BouncyCastle.Math.BigInteger u
+    Org::BouncyCastle::Math::BigInteger* _get_u();
+    // Set instance field: public readonly Org.BouncyCastle.Math.BigInteger u
+    void _set_u(Org::BouncyCastle::Math::BigInteger* value);
+    // Get instance field: public readonly Org.BouncyCastle.Math.BigInteger v
+    Org::BouncyCastle::Math::BigInteger* _get_v();
+    // Set instance field: public readonly Org.BouncyCastle.Math.BigInteger v
+    void _set_v(Org::BouncyCastle::Math::BigInteger* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger u, Org.BouncyCastle.Math.BigInteger v)
     // Offset: 0x1D2CD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

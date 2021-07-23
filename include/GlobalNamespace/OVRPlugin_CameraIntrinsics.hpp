@@ -68,6 +68,30 @@ namespace GlobalNamespace {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public OVRPlugin/Bool IsValid
+    GlobalNamespace::OVRPlugin::Bool _get_IsValid();
+    // Set instance field: public OVRPlugin/Bool IsValid
+    void _set_IsValid(GlobalNamespace::OVRPlugin::Bool value);
+    // Get instance field: public System.Double LastChangedTimeSeconds
+    double _get_LastChangedTimeSeconds();
+    // Set instance field: public System.Double LastChangedTimeSeconds
+    void _set_LastChangedTimeSeconds(double value);
+    // Get instance field: public OVRPlugin/Fovf FOVPort
+    GlobalNamespace::OVRPlugin::Fovf _get_FOVPort();
+    // Set instance field: public OVRPlugin/Fovf FOVPort
+    void _set_FOVPort(GlobalNamespace::OVRPlugin::Fovf value);
+    // Get instance field: public System.Single VirtualNearPlaneDistanceMeters
+    float _get_VirtualNearPlaneDistanceMeters();
+    // Set instance field: public System.Single VirtualNearPlaneDistanceMeters
+    void _set_VirtualNearPlaneDistanceMeters(float value);
+    // Get instance field: public System.Single VirtualFarPlaneDistanceMeters
+    float _get_VirtualFarPlaneDistanceMeters();
+    // Set instance field: public System.Single VirtualFarPlaneDistanceMeters
+    void _set_VirtualFarPlaneDistanceMeters(float value);
+    // Get instance field: public OVRPlugin/Sizei ImageSensorPixelResolution
+    GlobalNamespace::OVRPlugin::Sizei _get_ImageSensorPixelResolution();
+    // Set instance field: public OVRPlugin/Sizei ImageSensorPixelResolution
+    void _set_ImageSensorPixelResolution(GlobalNamespace::OVRPlugin::Sizei value);
   }; // OVRPlugin/CameraIntrinsics
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::CameraIntrinsics), 40 + sizeof(GlobalNamespace::OVRPlugin::Sizei)> __GlobalNamespace_OVRPlugin_CameraIntrinsicsSizeCheck;

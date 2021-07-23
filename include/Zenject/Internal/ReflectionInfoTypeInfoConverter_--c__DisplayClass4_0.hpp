@@ -39,6 +39,10 @@ namespace Zenject::Internal {
     constexpr operator System::Type*() const noexcept {
       return type;
     }
+    // Get instance field: public System.Type type
+    System::Type* _get_type();
+    // Set instance field: public System.Type type
+    void _set_type(System::Type* value);
     // System.Object <TryCreateFactoryMethod>b__0(System.Object[] args)
     // Offset: 0x16289E8
     ::Il2CppObject* $TryCreateFactoryMethod$b__0(::Array<::Il2CppObject*>* args);

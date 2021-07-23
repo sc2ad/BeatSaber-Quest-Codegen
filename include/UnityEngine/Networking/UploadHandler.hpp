@@ -39,6 +39,10 @@ namespace UnityEngine::Networking {
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
     }
+    // Get instance field: System.IntPtr m_Ptr
+    System::IntPtr _get_m_Ptr();
+    // Set instance field: System.IntPtr m_Ptr
+    void _set_m_Ptr(System::IntPtr value);
     // private System.Void Release()
     // Offset: 0x23A05F0
     void Release();

@@ -33,6 +33,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Keyframe
     Keyframe(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
+    // Get instance field: public readonly VRControllersRecorderData/PositionAndRotation[] positionsAndRotations
+    ::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* _get_positionsAndRotations();
+    // Set instance field: public readonly VRControllersRecorderData/PositionAndRotation[] positionsAndRotations
+    void _set_positionsAndRotations(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* value);
+    // Get instance field: public readonly System.Single time
+    float _get_time();
+    // Set instance field: public readonly System.Single time
+    void _set_time(float value);
     // public System.Void .ctor(VRControllersRecorderData/PositionAndRotation[] positionAndRotations, System.Single time)
     // Offset: 0x1279628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

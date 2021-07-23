@@ -44,6 +44,10 @@ namespace UnityEngine::SceneManagement {
     static UnityEngine::SceneManagement::UnloadSceneOptions _get_UnloadAllEmbeddedSceneObjects();
     // Set static field: static public UnityEngine.SceneManagement.UnloadSceneOptions UnloadAllEmbeddedSceneObjects
     static void _set_UnloadAllEmbeddedSceneObjects(UnityEngine::SceneManagement::UnloadSceneOptions value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.SceneManagement.UnloadSceneOptions
   #pragma pack(pop)
   static check_size<sizeof(UnloadSceneOptions), 0 + sizeof(int)> __UnityEngine_SceneManagement_UnloadSceneOptionsSizeCheck;

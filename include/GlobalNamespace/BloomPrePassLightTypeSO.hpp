@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     BloomPrePassLightTypeSO(int renderingPriority_ = {}, UnityEngine::Material* material_ = {}) noexcept : renderingPriority{renderingPriority_}, material{material_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Int32 _renderingPriority
+    int _get__renderingPriority();
+    // Set instance field: private System.Int32 _renderingPriority
+    void _set__renderingPriority(int value);
+    // Get instance field: private UnityEngine.Material _material
+    UnityEngine::Material* _get__material();
+    // Set instance field: private UnityEngine.Material _material
+    void _set__material(UnityEngine::Material* value);
     // public System.Int32 get_renderingPriority()
     // Offset: 0x1DEDE54
     int get_renderingPriority();

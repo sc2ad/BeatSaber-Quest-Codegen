@@ -50,6 +50,18 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds GetWindowBounds
+    OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds* _get_GetWindowBounds();
+    // Set instance field: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds GetWindowBounds
+    void _set_GetWindowBounds(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds* value);
+    // Get instance field: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetEyeOutputViewport GetEyeOutputViewport
+    OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport* _get_GetEyeOutputViewport();
+    // Set instance field: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetEyeOutputViewport GetEyeOutputViewport
+    void _set_GetEyeOutputViewport(OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport* value);
+    // Get instance field: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetDXGIOutputInfo GetDXGIOutputInfo
+    OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* _get_GetDXGIOutputInfo();
+    // Set instance field: OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetDXGIOutputInfo GetDXGIOutputInfo
+    void _set_GetDXGIOutputInfo(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* value);
   }; // OVR.OpenVR.IVRExtendedDisplay
   #pragma pack(pop)
   static check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*)> __OVR_OpenVR_IVRExtendedDisplaySizeCheck;

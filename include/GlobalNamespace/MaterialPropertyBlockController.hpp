@@ -44,6 +44,14 @@ namespace GlobalNamespace {
     MaterialPropertyBlockController(::Array<UnityEngine::Renderer*>* renderers_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}) noexcept : renderers{renderers_}, materialPropertyBlock{materialPropertyBlock_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Renderer[] _renderers
+    ::Array<UnityEngine::Renderer*>* _get__renderers();
+    // Set instance field: private UnityEngine.Renderer[] _renderers
+    void _set__renderers(::Array<UnityEngine::Renderer*>* value);
+    // Get instance field: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
+    UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
+    // Set instance field: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
+    void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // public UnityEngine.Renderer[] get_renderers()
     // Offset: 0x1DF5DF4
     ::Array<UnityEngine::Renderer*>* get_renderers();

@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*() const noexcept {
       return leaderboardsData;
     }
+    // Get instance field: public System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
+    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* _get__leaderboardsData();
+    // Set instance field: public System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
+    void _set__leaderboardsData(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* value);
     // public System.Void .ctor()
     // Offset: 0x116FC74
     // Implemented from: System.Object

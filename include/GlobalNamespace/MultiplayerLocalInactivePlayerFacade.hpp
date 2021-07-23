@@ -113,6 +113,30 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private readonly MultiplayerLocalInactivePlayerSongSyncController _inactivePlayerSongSyncController
+    GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* _get__inactivePlayerSongSyncController();
+    // Set instance field: private readonly MultiplayerLocalInactivePlayerSongSyncController _inactivePlayerSongSyncController
+    void _set__inactivePlayerSongSyncController(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* value);
+    // Get instance field: private readonly MultiplayerSpectatorController _spectatorController
+    GlobalNamespace::MultiplayerSpectatorController* _get__spectatorController();
+    // Set instance field: private readonly MultiplayerSpectatorController _spectatorController
+    void _set__spectatorController(GlobalNamespace::MultiplayerSpectatorController* value);
+    // Get instance field: private UnityEngine.Playables.PlayableDirector _introAnimator
+    UnityEngine::Playables::PlayableDirector* _get__introAnimator();
+    // Set instance field: private UnityEngine.Playables.PlayableDirector _introAnimator
+    void _set__introAnimator(UnityEngine::Playables::PlayableDirector* value);
+    // Get instance field: private readonly MultiplayerLocalInactivePlayerOutroAnimator _outroAnimator
+    GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* _get__outroAnimator();
+    // Set instance field: private readonly MultiplayerLocalInactivePlayerOutroAnimator _outroAnimator
+    void _set__outroAnimator(GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* value);
+    // Get instance field: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
+    System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* _get_playerDidFinishEvent();
+    // Set instance field: private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
+    void _set_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+    // Get instance field: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
+    System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* _get_playerNetworkDidFailedEvent();
+    // Set instance field: private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
+    void _set_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public IStartSeekSongController get_songController()
     // Offset: 0x23D703C
     GlobalNamespace::IStartSeekSongController* get_songController();

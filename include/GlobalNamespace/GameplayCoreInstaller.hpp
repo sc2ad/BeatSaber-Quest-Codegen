@@ -122,6 +122,50 @@ namespace GlobalNamespace {
     static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
     // Creating value type constructor for type: GameplayCoreInstaller
     GameplayCoreInstaller(GlobalNamespace::BeatLineManager* beatLineManagerPrefab_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::NoteCutScoreSpawner* noteCutScoreSpawnerPrefab_ = {}, GlobalNamespace::BadNoteCutEffectSpawner* badNoteCutEffectSpawnerPrefab_ = {}, GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}, GlobalNamespace::BoolSO* screenDisplacementEffectsEnabled_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel_ = {}) noexcept : beatLineManagerPrefab{beatLineManagerPrefab_}, audioManager{audioManager_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, noteCutScoreSpawnerPrefab{noteCutScoreSpawnerPrefab_}, badNoteCutEffectSpawnerPrefab{badNoteCutEffectSpawnerPrefab_}, missedNoteEffectSpawnerPrefab{missedNoteEffectSpawnerPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_}, screenDisplacementEffectsEnabled{screenDisplacementEffectsEnabled_}, sceneSetupData{sceneSetupData_}, perceivedLoudnessPerLevelModel{perceivedLoudnessPerLevelModel_} {}
+    // Get instance field: private BeatLineManager _beatLineManagerPrefab
+    GlobalNamespace::BeatLineManager* _get__beatLineManagerPrefab();
+    // Set instance field: private BeatLineManager _beatLineManagerPrefab
+    void _set__beatLineManagerPrefab(GlobalNamespace::BeatLineManager* value);
+    // Get instance field: private AudioManagerSO _audioManager
+    GlobalNamespace::AudioManagerSO* _get__audioManager();
+    // Set instance field: private AudioManagerSO _audioManager
+    void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
+    // Get instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
+    GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* _get__beatmapObjectSpawnControllerPlayerHeightSetterPrefab();
+    // Set instance field: private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
+    void _set__beatmapObjectSpawnControllerPlayerHeightSetterPrefab(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* value);
+    // Get instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
+    GlobalNamespace::PlayerHeightDetector* _get__playerHeightDetectorPrefab();
+    // Set instance field: private PlayerHeightDetector _playerHeightDetectorPrefab
+    void _set__playerHeightDetectorPrefab(GlobalNamespace::PlayerHeightDetector* value);
+    // Get instance field: private NoteCutScoreSpawner _noteCutScoreSpawnerPrefab
+    GlobalNamespace::NoteCutScoreSpawner* _get__noteCutScoreSpawnerPrefab();
+    // Set instance field: private NoteCutScoreSpawner _noteCutScoreSpawnerPrefab
+    void _set__noteCutScoreSpawnerPrefab(GlobalNamespace::NoteCutScoreSpawner* value);
+    // Get instance field: private BadNoteCutEffectSpawner _badNoteCutEffectSpawnerPrefab
+    GlobalNamespace::BadNoteCutEffectSpawner* _get__badNoteCutEffectSpawnerPrefab();
+    // Set instance field: private BadNoteCutEffectSpawner _badNoteCutEffectSpawnerPrefab
+    void _set__badNoteCutEffectSpawnerPrefab(GlobalNamespace::BadNoteCutEffectSpawner* value);
+    // Get instance field: private MissedNoteEffectSpawner _missedNoteEffectSpawnerPrefab
+    GlobalNamespace::MissedNoteEffectSpawner* _get__missedNoteEffectSpawnerPrefab();
+    // Set instance field: private MissedNoteEffectSpawner _missedNoteEffectSpawnerPrefab
+    void _set__missedNoteEffectSpawnerPrefab(GlobalNamespace::MissedNoteEffectSpawner* value);
+    // Get instance field: private EffectPoolsManualInstaller _effectPoolsManualInstaller
+    GlobalNamespace::EffectPoolsManualInstaller* _get__effectPoolsManualInstaller();
+    // Set instance field: private EffectPoolsManualInstaller _effectPoolsManualInstaller
+    void _set__effectPoolsManualInstaller(GlobalNamespace::EffectPoolsManualInstaller* value);
+    // Get instance field: private BoolSO _screenDisplacementEffectsEnabled
+    GlobalNamespace::BoolSO* _get__screenDisplacementEffectsEnabled();
+    // Set instance field: private BoolSO _screenDisplacementEffectsEnabled
+    void _set__screenDisplacementEffectsEnabled(GlobalNamespace::BoolSO* value);
+    // Get instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    GlobalNamespace::GameplayCoreSceneSetupData* _get__sceneSetupData();
+    // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
+    void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
+    // Get instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    DataModels::Levels::PerceivedLoudnessPerLevelModel* _get__perceivedLoudnessPerLevelModel();
+    // Set instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    void _set__perceivedLoudnessPerLevelModel(DataModels::Levels::PerceivedLoudnessPerLevelModel* value);
     // public System.Void .ctor()
     // Offset: 0x10B0B50
     // Implemented from: Zenject.MonoInstaller

@@ -71,6 +71,26 @@ namespace GlobalNamespace {
     SetSaberFakeGlowColor(UnityEngine::Color tintColor_ = {}, GlobalNamespace::SaberTypeObject* saberTypeObject_ = {}, GlobalNamespace::Parametric3SliceSpriteController* parametric3SliceSprite_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::SaberType saberType_ = {}) noexcept : tintColor{tintColor_}, saberTypeObject{saberTypeObject_}, parametric3SliceSprite{parametric3SliceSprite_}, colorManager{colorManager_}, saberType{saberType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Color _tintColor
+    UnityEngine::Color _get__tintColor();
+    // Set instance field: private UnityEngine.Color _tintColor
+    void _set__tintColor(UnityEngine::Color value);
+    // Get instance field: private SaberTypeObject _saberTypeObject
+    GlobalNamespace::SaberTypeObject* _get__saberTypeObject();
+    // Set instance field: private SaberTypeObject _saberTypeObject
+    void _set__saberTypeObject(GlobalNamespace::SaberTypeObject* value);
+    // Get instance field: private Parametric3SliceSpriteController _parametric3SliceSprite
+    GlobalNamespace::Parametric3SliceSpriteController* _get__parametric3SliceSprite();
+    // Set instance field: private Parametric3SliceSpriteController _parametric3SliceSprite
+    void _set__parametric3SliceSprite(GlobalNamespace::Parametric3SliceSpriteController* value);
+    // Get instance field: private ColorManager _colorManager
+    GlobalNamespace::ColorManager* _get__colorManager();
+    // Set instance field: private ColorManager _colorManager
+    void _set__colorManager(GlobalNamespace::ColorManager* value);
+    // Get instance field: private SaberType _saberType
+    GlobalNamespace::SaberType _get__saberType();
+    // Set instance field: private SaberType _saberType
+    void _set__saberType(GlobalNamespace::SaberType value);
     // public System.Void set_saberType(SaberType value)
     // Offset: 0x1052588
     void set_saberType(GlobalNamespace::SaberType value);

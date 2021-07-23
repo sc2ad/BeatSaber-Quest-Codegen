@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return ambientVolumeScale;
     }
+    // Get instance field: public readonly System.Single ambientVolumeScale
+    float _get_ambientVolumeScale();
+    // Set instance field: public readonly System.Single ambientVolumeScale
+    void _set_ambientVolumeScale(float value);
     // public System.Void .ctor(System.Single ambientVolumeScale)
     // Offset: 0x105C424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,6 +47,14 @@ namespace System::Threading {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> m_currArrayFragment
+    System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* _get_m_currArrayFragment();
+    // Set instance field: System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> m_currArrayFragment
+    void _set_m_currArrayFragment(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* value);
+    // Get instance field: System.Int32 m_currArrayIndex
+    int _get_m_currArrayIndex();
+    // Set instance field: System.Int32 m_currArrayIndex
+    void _set_m_currArrayIndex(int value);
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
     // Offset: 0xEEA468
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

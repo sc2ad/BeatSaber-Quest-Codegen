@@ -151,6 +151,30 @@ namespace System::Text {
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
+    // Get instance field: System.Int32 m_codePage
+    int _get_m_codePage();
+    // Set instance field: System.Int32 m_codePage
+    void _set_m_codePage(int value);
+    // Get instance field: System.Globalization.CodePageDataItem dataItem
+    System::Globalization::CodePageDataItem* _get_dataItem();
+    // Set instance field: System.Globalization.CodePageDataItem dataItem
+    void _set_dataItem(System::Globalization::CodePageDataItem* value);
+    // Get instance field: System.Boolean m_deserializedFromEverett
+    bool _get_m_deserializedFromEverett();
+    // Set instance field: System.Boolean m_deserializedFromEverett
+    void _set_m_deserializedFromEverett(bool value);
+    // Get instance field: private System.Boolean m_isReadOnly
+    bool _get_m_isReadOnly();
+    // Set instance field: private System.Boolean m_isReadOnly
+    void _set_m_isReadOnly(bool value);
+    // Get instance field: System.Text.EncoderFallback encoderFallback
+    System::Text::EncoderFallback* _get_encoderFallback();
+    // Set instance field: System.Text.EncoderFallback encoderFallback
+    void _set_encoderFallback(System::Text::EncoderFallback* value);
+    // Get instance field: System.Text.DecoderFallback decoderFallback
+    System::Text::DecoderFallback* _get_decoderFallback();
+    // Set instance field: System.Text.DecoderFallback decoderFallback
+    void _set_decoderFallback(System::Text::DecoderFallback* value);
     // static private System.Object get_InternalSyncObject()
     // Offset: 0x1D16C28
     static ::Il2CppObject* get_InternalSyncObject();

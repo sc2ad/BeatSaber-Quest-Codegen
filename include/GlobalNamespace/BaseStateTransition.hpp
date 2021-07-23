@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     BaseStateTransition(GlobalNamespace::SelectableStateController* selectableStateController_ = {}) noexcept : selectableStateController{selectableStateController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected SelectableStateController _selectableStateController
+    GlobalNamespace::SelectableStateController* _get__selectableStateController();
+    // Set instance field: protected SelectableStateController _selectableStateController
+    void _set__selectableStateController(GlobalNamespace::SelectableStateController* value);
     // protected Tweening.TweeningManager get_tweeningManager()
     // Offset: 0x1185324
     Tweening::TweeningManager* get_tweeningManager();

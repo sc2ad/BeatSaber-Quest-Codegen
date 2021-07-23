@@ -43,6 +43,14 @@ namespace Zenject::Internal {
     static_assert(sizeof(System::Reflection::PropertyInfo*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass9_0
     $$c__DisplayClass9_0(System::Reflection::FieldInfo* fieldInfo_ = {}, System::Reflection::PropertyInfo* propInfo_ = {}) noexcept : fieldInfo{fieldInfo_}, propInfo{propInfo_} {}
+    // Get instance field: public System.Reflection.FieldInfo fieldInfo
+    System::Reflection::FieldInfo* _get_fieldInfo();
+    // Set instance field: public System.Reflection.FieldInfo fieldInfo
+    void _set_fieldInfo(System::Reflection::FieldInfo* value);
+    // Get instance field: public System.Reflection.PropertyInfo propInfo
+    System::Reflection::PropertyInfo* _get_propInfo();
+    // Set instance field: public System.Reflection.PropertyInfo propInfo
+    void _set_propInfo(System::Reflection::PropertyInfo* value);
     // System.Void <GetSetter>b__0(System.Object injectable, System.Object value)
     // Offset: 0x1628C10
     void $GetSetter$b__0(::Il2CppObject* injectable, ::Il2CppObject* value);

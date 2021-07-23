@@ -138,6 +138,18 @@ namespace UnityEngine::Timeline {
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
+      // Get instance field: public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> trackList
+      System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* _get_trackList();
+      // Set instance field: public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> trackList
+      void _set_trackList(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* value);
+      // Get instance field: public System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> clipList
+      System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* _get_clipList();
+      // Set instance field: public System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> clipList
+      void _set_clipList(System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* value);
+      // Get instance field: public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> markerList
+      System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* _get_markerList();
+      // Set instance field: public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> markerList
+      void _set_markerList(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* value);
       // static public UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.TransientBuildData Create()
       // Offset: 0x2321970
       static UnityEngine::Timeline::TrackAsset::TransientBuildData Create();
@@ -298,6 +310,74 @@ namespace UnityEngine::Timeline {
     static System::Collections::Generic::Dictionary_2<System::Type*, UnityEngine::Timeline::TrackBindingTypeAttribute*>* _get_s_TrackBindingTypeAttributeCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache
     static void _set_s_TrackBindingTypeAttributeCache(System::Collections::Generic::Dictionary_2<System::Type*, UnityEngine::Timeline::TrackBindingTypeAttribute*>* value);
+    // Get instance field: private System.Int32 m_Version
+    int _get_m_Version();
+    // Set instance field: private System.Int32 m_Version
+    void _set_m_Version(int value);
+    // Get instance field: UnityEngine.AnimationClip m_AnimClip
+    UnityEngine::AnimationClip* _get_m_AnimClip();
+    // Set instance field: UnityEngine.AnimationClip m_AnimClip
+    void _set_m_AnimClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private System.Boolean m_Locked
+    bool _get_m_Locked();
+    // Set instance field: private System.Boolean m_Locked
+    void _set_m_Locked(bool value);
+    // Get instance field: private System.Boolean m_Muted
+    bool _get_m_Muted();
+    // Set instance field: private System.Boolean m_Muted
+    void _set_m_Muted(bool value);
+    // Get instance field: private System.String m_CustomPlayableFullTypename
+    ::Il2CppString* _get_m_CustomPlayableFullTypename();
+    // Set instance field: private System.String m_CustomPlayableFullTypename
+    void _set_m_CustomPlayableFullTypename(::Il2CppString* value);
+    // Get instance field: private UnityEngine.AnimationClip m_Curves
+    UnityEngine::AnimationClip* _get_m_Curves();
+    // Set instance field: private UnityEngine.AnimationClip m_Curves
+    void _set_m_Curves(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.Playables.PlayableAsset m_Parent
+    UnityEngine::Playables::PlayableAsset* _get_m_Parent();
+    // Set instance field: private UnityEngine.Playables.PlayableAsset m_Parent
+    void _set_m_Parent(UnityEngine::Playables::PlayableAsset* value);
+    // Get instance field: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Children
+    System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* _get_m_Children();
+    // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Children
+    void _set_m_Children(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* value);
+    // Get instance field: private System.Int32 m_ItemsHash
+    int _get_m_ItemsHash();
+    // Set instance field: private System.Int32 m_ItemsHash
+    void _set_m_ItemsHash(int value);
+    // Get instance field: private UnityEngine.Timeline.TimelineClip[] m_ClipsCache
+    ::Array<UnityEngine::Timeline::TimelineClip*>* _get_m_ClipsCache();
+    // Set instance field: private UnityEngine.Timeline.TimelineClip[] m_ClipsCache
+    void _set_m_ClipsCache(::Array<UnityEngine::Timeline::TimelineClip*>* value);
+    // Get instance field: private UnityEngine.Timeline.DiscreteTime m_Start
+    UnityEngine::Timeline::DiscreteTime _get_m_Start();
+    // Set instance field: private UnityEngine.Timeline.DiscreteTime m_Start
+    void _set_m_Start(UnityEngine::Timeline::DiscreteTime value);
+    // Get instance field: private UnityEngine.Timeline.DiscreteTime m_End
+    UnityEngine::Timeline::DiscreteTime _get_m_End();
+    // Set instance field: private UnityEngine.Timeline.DiscreteTime m_End
+    void _set_m_End(UnityEngine::Timeline::DiscreteTime value);
+    // Get instance field: private System.Boolean m_CacheSorted
+    bool _get_m_CacheSorted();
+    // Set instance field: private System.Boolean m_CacheSorted
+    void _set_m_CacheSorted(bool value);
+    // Get instance field: private System.Nullable`1<System.Boolean> m_SupportsNotifications
+    System::Nullable_1<bool> _get_m_SupportsNotifications();
+    // Set instance field: private System.Nullable`1<System.Boolean> m_SupportsNotifications
+    void _set_m_SupportsNotifications(System::Nullable_1<bool> value);
+    // Get instance field: private System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> m_ChildTrackCache
+    System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* _get_m_ChildTrackCache();
+    // Set instance field: private System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> m_ChildTrackCache
+    void _set_m_ChildTrackCache(System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* value);
+    // Get instance field: protected internal System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> m_Clips
+    System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* _get_m_Clips();
+    // Set instance field: protected internal System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> m_Clips
+    void _set_m_Clips(System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* value);
+    // Get instance field: private UnityEngine.Timeline.MarkerList m_Markers
+    UnityEngine::Timeline::MarkerList _get_m_Markers();
+    // Set instance field: private UnityEngine.Timeline.MarkerList m_Markers
+    void _set_m_Markers(UnityEngine::Timeline::MarkerList value);
     // public System.Double get_start()
     // Offset: 0x231C6E4
     double get_start();

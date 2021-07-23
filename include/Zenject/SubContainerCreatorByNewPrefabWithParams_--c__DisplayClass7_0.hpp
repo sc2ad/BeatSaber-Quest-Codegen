@@ -41,6 +41,10 @@ namespace Zenject {
     constexpr operator Zenject::TypeValuePair() const noexcept {
       return argPair;
     }
+    // Get instance field: public Zenject.TypeValuePair argPair
+    Zenject::TypeValuePair _get_argPair();
+    // Set instance field: public Zenject.TypeValuePair argPair
+    void _set_argPair(Zenject::TypeValuePair value);
     // System.Boolean <CreateTempContainer>b__0(Zenject.InjectableInfo x)
     // Offset: 0x16D35E4
     bool $CreateTempContainer$b__0(Zenject::InjectableInfo* x);

@@ -79,6 +79,10 @@ namespace GlobalNamespace {
       static GlobalNamespace::OptionsViewController::OptionsButton _get_Settings();
       // Set static field: static public OptionsViewController/OptionsButton Settings
       static void _set_Settings(GlobalNamespace::OptionsViewController::OptionsButton value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // OptionsViewController/OptionsButton
     #pragma pack(pop)
     static check_size<sizeof(OptionsViewController::OptionsButton), 0 + sizeof(int)> __GlobalNamespace_OptionsViewController_OptionsButtonSizeCheck;
@@ -116,6 +120,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*) == 0x8);
     // Creating value type constructor for type: OptionsViewController
     OptionsViewController(UnityEngine::UI::Button* editAvatarButton_ = {}, UnityEngine::UI::Button* playerOptionsButton_ = {}, UnityEngine::UI::Button* settingsButton_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* didFinishEvent_ = {}) noexcept : editAvatarButton{editAvatarButton_}, playerOptionsButton{playerOptionsButton_}, settingsButton{settingsButton_}, appStaticSettings{appStaticSettings_}, didFinishEvent{didFinishEvent_} {}
+    // Get instance field: private UnityEngine.UI.Button _editAvatarButton
+    UnityEngine::UI::Button* _get__editAvatarButton();
+    // Set instance field: private UnityEngine.UI.Button _editAvatarButton
+    void _set__editAvatarButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _playerOptionsButton
+    UnityEngine::UI::Button* _get__playerOptionsButton();
+    // Set instance field: private UnityEngine.UI.Button _playerOptionsButton
+    void _set__playerOptionsButton(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Button _settingsButton
+    UnityEngine::UI::Button* _get__settingsButton();
+    // Set instance field: private UnityEngine.UI.Button _settingsButton
+    void _set__settingsButton(UnityEngine::UI::Button* value);
+    // Get instance field: private readonly AppStaticSettingsSO _appStaticSettings
+    GlobalNamespace::AppStaticSettingsSO* _get__appStaticSettings();
+    // Set instance field: private readonly AppStaticSettingsSO _appStaticSettings
+    void _set__appStaticSettings(GlobalNamespace::AppStaticSettingsSO* value);
+    // Get instance field: private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
+    System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* _get_didFinishEvent();
+    // Set instance field: private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
+    void _set_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void add_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
     // Offset: 0xFFB744
     void add_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);

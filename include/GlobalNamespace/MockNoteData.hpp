@@ -61,6 +61,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MockNoteData
     MockNoteData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::ColorType colorType_ = {}, GlobalNamespace::NoteCutDirection cutDirection_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}, float duration_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, colorType{colorType_}, cutDirection{cutDirection_}, noteLineLayer{noteLineLayer_}, duration{duration_} {}
+    // Get instance field: private System.Single <time>k__BackingField
+    float _get_$time$k__BackingField();
+    // Set instance field: private System.Single <time>k__BackingField
+    void _set_$time$k__BackingField(float value);
+    // Get instance field: private System.Int32 <lineIndex>k__BackingField
+    int _get_$lineIndex$k__BackingField();
+    // Set instance field: private System.Int32 <lineIndex>k__BackingField
+    void _set_$lineIndex$k__BackingField(int value);
+    // Get instance field: private ColorType <colorType>k__BackingField
+    GlobalNamespace::ColorType _get_$colorType$k__BackingField();
+    // Set instance field: private ColorType <colorType>k__BackingField
+    void _set_$colorType$k__BackingField(GlobalNamespace::ColorType value);
+    // Get instance field: private NoteCutDirection <cutDirection>k__BackingField
+    GlobalNamespace::NoteCutDirection _get_$cutDirection$k__BackingField();
+    // Set instance field: private NoteCutDirection <cutDirection>k__BackingField
+    void _set_$cutDirection$k__BackingField(GlobalNamespace::NoteCutDirection value);
+    // Get instance field: private NoteLineLayer <noteLineLayer>k__BackingField
+    GlobalNamespace::NoteLineLayer _get_$noteLineLayer$k__BackingField();
+    // Set instance field: private NoteLineLayer <noteLineLayer>k__BackingField
+    void _set_$noteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
+    // Get instance field: private System.Single <duration>k__BackingField
+    float _get_$duration$k__BackingField();
+    // Set instance field: private System.Single <duration>k__BackingField
+    void _set_$duration$k__BackingField(float value);
     // public System.Single get_time()
     // Offset: 0x238C0FC
     float get_time();

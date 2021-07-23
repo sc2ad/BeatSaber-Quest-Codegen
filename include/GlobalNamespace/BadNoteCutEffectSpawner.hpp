@@ -67,6 +67,22 @@ namespace GlobalNamespace {
     BadNoteCutEffectSpawner(GlobalNamespace::FlyingSpriteSpawner* failFlyingSpriteSpawner_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, GlobalNamespace::CoreGameHUDController::InitData* initData_ = {}) noexcept : failFlyingSpriteSpawner{failFlyingSpriteSpawner_}, beatmapObjectManager{beatmapObjectManager_}, audioTimeSyncController{audioTimeSyncController_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private FlyingSpriteSpawner _failFlyingSpriteSpawner
+    GlobalNamespace::FlyingSpriteSpawner* _get__failFlyingSpriteSpawner();
+    // Set instance field: private FlyingSpriteSpawner _failFlyingSpriteSpawner
+    void _set__failFlyingSpriteSpawner(GlobalNamespace::FlyingSpriteSpawner* value);
+    // Get instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    GlobalNamespace::BeatmapObjectManager* _get__beatmapObjectManager();
+    // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
+    void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
+    // Get instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    GlobalNamespace::AudioTimeSyncController* _get__audioTimeSyncController();
+    // Set instance field: private readonly AudioTimeSyncController _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
+    // Get instance field: private readonly CoreGameHUDController/InitData _initData
+    GlobalNamespace::CoreGameHUDController::InitData* _get__initData();
+    // Set instance field: private readonly CoreGameHUDController/InitData _initData
+    void _set__initData(GlobalNamespace::CoreGameHUDController::InitData* value);
     // protected System.Void Start()
     // Offset: 0x10E7C6C
     void Start();

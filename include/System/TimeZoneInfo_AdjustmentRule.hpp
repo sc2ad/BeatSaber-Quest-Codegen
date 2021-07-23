@@ -93,6 +93,30 @@ namespace System {
     operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
+    // Get instance field: private System.DateTime m_dateStart
+    System::DateTime _get_m_dateStart();
+    // Set instance field: private System.DateTime m_dateStart
+    void _set_m_dateStart(System::DateTime value);
+    // Get instance field: private System.DateTime m_dateEnd
+    System::DateTime _get_m_dateEnd();
+    // Set instance field: private System.DateTime m_dateEnd
+    void _set_m_dateEnd(System::DateTime value);
+    // Get instance field: private System.TimeSpan m_daylightDelta
+    System::TimeSpan _get_m_daylightDelta();
+    // Set instance field: private System.TimeSpan m_daylightDelta
+    void _set_m_daylightDelta(System::TimeSpan value);
+    // Get instance field: private System.TimeZoneInfo/System.TransitionTime m_daylightTransitionStart
+    System::TimeZoneInfo::TransitionTime _get_m_daylightTransitionStart();
+    // Set instance field: private System.TimeZoneInfo/System.TransitionTime m_daylightTransitionStart
+    void _set_m_daylightTransitionStart(System::TimeZoneInfo::TransitionTime value);
+    // Get instance field: private System.TimeZoneInfo/System.TransitionTime m_daylightTransitionEnd
+    System::TimeZoneInfo::TransitionTime _get_m_daylightTransitionEnd();
+    // Set instance field: private System.TimeZoneInfo/System.TransitionTime m_daylightTransitionEnd
+    void _set_m_daylightTransitionEnd(System::TimeZoneInfo::TransitionTime value);
+    // Get instance field: private System.TimeSpan m_baseUtcOffsetDelta
+    System::TimeSpan _get_m_baseUtcOffsetDelta();
+    // Set instance field: private System.TimeSpan m_baseUtcOffsetDelta
+    void _set_m_baseUtcOffsetDelta(System::TimeSpan value);
     // public System.DateTime get_DateStart()
     // Offset: 0x189AA04
     System::DateTime get_DateStart();

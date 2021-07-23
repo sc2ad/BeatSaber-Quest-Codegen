@@ -107,6 +107,10 @@ namespace HMUI {
       static HMUI::TableView::TableType _get_Horizontal();
       // Set static field: static public HMUI.TableView/HMUI.TableType Horizontal
       static void _set_Horizontal(HMUI::TableView::TableType value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // HMUI.TableView/HMUI.TableType
     #pragma pack(pop)
     static check_size<sizeof(TableView::TableType), 0 + sizeof(int)> __HMUI_TableView_TableTypeSizeCheck;
@@ -271,6 +275,102 @@ namespace HMUI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.ScrollView _scrollView
+    HMUI::ScrollView* _get__scrollView();
+    // Set instance field: private HMUI.ScrollView _scrollView
+    void _set__scrollView(HMUI::ScrollView* value);
+    // Get instance field: private System.Boolean _scrollToTopOnEnable
+    bool _get__scrollToTopOnEnable();
+    // Set instance field: private System.Boolean _scrollToTopOnEnable
+    void _set__scrollToTopOnEnable(bool value);
+    // Get instance field: private System.Boolean _alignToCenter
+    bool _get__alignToCenter();
+    // Set instance field: private System.Boolean _alignToCenter
+    void _set__alignToCenter(bool value);
+    // Get instance field: private HMUI.TableView/HMUI.TableType _tableType
+    HMUI::TableView::TableType _get__tableType();
+    // Set instance field: private HMUI.TableView/HMUI.TableType _tableType
+    void _set__tableType(HMUI::TableView::TableType value);
+    // Get instance field: private HMUI.TableViewSelectionType _selectionType
+    HMUI::TableViewSelectionType _get__selectionType();
+    // Set instance field: private HMUI.TableViewSelectionType _selectionType
+    void _set__selectionType(HMUI::TableViewSelectionType value);
+    // Get instance field: private System.Boolean _canSelectSelectedCell
+    bool _get__canSelectSelectedCell();
+    // Set instance field: private System.Boolean _canSelectSelectedCell
+    void _set__canSelectSelectedCell(bool value);
+    // Get instance field: private HMUI.TableView/HMUI.CellsGroup[] _preallocatedCells
+    ::Array<HMUI::TableView::CellsGroup*>* _get__preallocatedCells();
+    // Set instance field: private HMUI.TableView/HMUI.CellsGroup[] _preallocatedCells
+    void _set__preallocatedCells(::Array<HMUI::TableView::CellsGroup*>* value);
+    // Get instance field: private System.Action`2<HMUI.TableView,System.Int32> didSelectCellWithIdxEvent
+    System::Action_2<HMUI::TableView*, int>* _get_didSelectCellWithIdxEvent();
+    // Set instance field: private System.Action`2<HMUI.TableView,System.Int32> didSelectCellWithIdxEvent
+    void _set_didSelectCellWithIdxEvent(System::Action_2<HMUI::TableView*, int>* value);
+    // Get instance field: private System.Action`1<HMUI.TableView> didReloadDataEvent
+    System::Action_1<HMUI::TableView*>* _get_didReloadDataEvent();
+    // Set instance field: private System.Action`1<HMUI.TableView> didReloadDataEvent
+    void _set_didReloadDataEvent(System::Action_1<HMUI::TableView*>* value);
+    // Get instance field: private System.Action`1<HMUI.TableView> didInsertCellsEvent
+    System::Action_1<HMUI::TableView*>* _get_didInsertCellsEvent();
+    // Set instance field: private System.Action`1<HMUI.TableView> didInsertCellsEvent
+    void _set_didInsertCellsEvent(System::Action_1<HMUI::TableView*>* value);
+    // Get instance field: private System.Action`1<HMUI.TableView> didDeleteCellsEvent
+    System::Action_1<HMUI::TableView*>* _get_didDeleteCellsEvent();
+    // Set instance field: private System.Action`1<HMUI.TableView> didDeleteCellsEvent
+    void _set_didDeleteCellsEvent(System::Action_1<HMUI::TableView*>* value);
+    // Get instance field: private System.Action`1<HMUI.TableView> didChangeRectSizeEvent
+    System::Action_1<HMUI::TableView*>* _get_didChangeRectSizeEvent();
+    // Set instance field: private System.Action`1<HMUI.TableView> didChangeRectSizeEvent
+    void _set_didChangeRectSizeEvent(System::Action_1<HMUI::TableView*>* value);
+    // Get instance field: private UnityEngine.RectTransform _contentTransform
+    UnityEngine::RectTransform* _get__contentTransform();
+    // Set instance field: private UnityEngine.RectTransform _contentTransform
+    void _set__contentTransform(UnityEngine::RectTransform* value);
+    // Get instance field: private UnityEngine.RectTransform _viewportTransform
+    UnityEngine::RectTransform* _get__viewportTransform();
+    // Set instance field: private UnityEngine.RectTransform _viewportTransform
+    void _set__viewportTransform(UnityEngine::RectTransform* value);
+    // Get instance field: protected HMUI.TableView/HMUI.IDataSource _dataSource
+    HMUI::TableView::IDataSource* _get__dataSource();
+    // Set instance field: protected HMUI.TableView/HMUI.IDataSource _dataSource
+    void _set__dataSource(HMUI::TableView::IDataSource* value);
+    // Get instance field: private System.Int32 _numberOfCells
+    int _get__numberOfCells();
+    // Set instance field: private System.Int32 _numberOfCells
+    void _set__numberOfCells(int value);
+    // Get instance field: private System.Single _cellSize
+    float _get__cellSize();
+    // Set instance field: private System.Single _cellSize
+    void _set__cellSize(float value);
+    // Get instance field: private readonly System.Collections.Generic.List`1<HMUI.TableCell> _visibleCells
+    System::Collections::Generic::List_1<HMUI::TableCell*>* _get__visibleCells();
+    // Set instance field: private readonly System.Collections.Generic.List`1<HMUI.TableCell> _visibleCells
+    void _set__visibleCells(System::Collections::Generic::List_1<HMUI::TableCell*>* value);
+    // Get instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HMUI.TableCell>> _reusableCells
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HMUI::TableCell*>*>* _get__reusableCells();
+    // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HMUI.TableCell>> _reusableCells
+    void _set__reusableCells(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HMUI::TableCell*>*>* value);
+    // Get instance field: private System.Collections.Generic.HashSet`1<System.Int32> _selectedCellIdxs
+    System::Collections::Generic::HashSet_1<int>* _get__selectedCellIdxs();
+    // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _selectedCellIdxs
+    void _set__selectedCellIdxs(System::Collections::Generic::HashSet_1<int>* value);
+    // Get instance field: private System.Int32 _prevMinIdx
+    int _get__prevMinIdx();
+    // Set instance field: private System.Int32 _prevMinIdx
+    void _set__prevMinIdx(int value);
+    // Get instance field: private System.Int32 _prevMaxIdx
+    int _get__prevMaxIdx();
+    // Set instance field: private System.Int32 _prevMaxIdx
+    void _set__prevMaxIdx(int value);
+    // Get instance field: private System.Boolean _isInitialized
+    bool _get__isInitialized();
+    // Set instance field: private System.Boolean _isInitialized
+    void _set__isInitialized(bool value);
+    // Get instance field: private System.Boolean _refreshCellsOnEnable
+    bool _get__refreshCellsOnEnable();
+    // Set instance field: private System.Boolean _refreshCellsOnEnable
+    void _set__refreshCellsOnEnable(bool value);
     // public HMUI.TableViewSelectionType get_selectionType()
     // Offset: 0x129F764
     HMUI::TableViewSelectionType get_selectionType();

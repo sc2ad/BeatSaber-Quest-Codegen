@@ -59,6 +59,30 @@ namespace System {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MoreInfo
     MoreInfo(::Il2CppString* Path_ = {}, ::Il2CppString* Query_ = {}, ::Il2CppString* Fragment_ = {}, ::Il2CppString* AbsoluteUri_ = {}, int Hash_ = {}, ::Il2CppString* RemoteUrl_ = {}) noexcept : Path{Path_}, Query{Query_}, Fragment{Fragment_}, AbsoluteUri{AbsoluteUri_}, Hash{Hash_}, RemoteUrl{RemoteUrl_} {}
+    // Get instance field: public System.String Path
+    ::Il2CppString* _get_Path();
+    // Set instance field: public System.String Path
+    void _set_Path(::Il2CppString* value);
+    // Get instance field: public System.String Query
+    ::Il2CppString* _get_Query();
+    // Set instance field: public System.String Query
+    void _set_Query(::Il2CppString* value);
+    // Get instance field: public System.String Fragment
+    ::Il2CppString* _get_Fragment();
+    // Set instance field: public System.String Fragment
+    void _set_Fragment(::Il2CppString* value);
+    // Get instance field: public System.String AbsoluteUri
+    ::Il2CppString* _get_AbsoluteUri();
+    // Set instance field: public System.String AbsoluteUri
+    void _set_AbsoluteUri(::Il2CppString* value);
+    // Get instance field: public System.Int32 Hash
+    int _get_Hash();
+    // Set instance field: public System.Int32 Hash
+    void _set_Hash(int value);
+    // Get instance field: public System.String RemoteUrl
+    ::Il2CppString* _get_RemoteUrl();
+    // Set instance field: public System.String RemoteUrl
+    void _set_RemoteUrl(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x2395AD8
     // Implemented from: System.Object

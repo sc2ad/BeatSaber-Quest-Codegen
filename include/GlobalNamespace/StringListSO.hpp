@@ -30,6 +30,10 @@ namespace GlobalNamespace {
     StringListSO(::Array<::Il2CppString*>* strings_ = {}) noexcept : strings{strings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String[] _strings
+    ::Array<::Il2CppString*>* _get__strings();
+    // Set instance field: private System.String[] _strings
+    void _set__strings(::Array<::Il2CppString*>* value);
     // public System.String[] get_strings()
     // Offset: 0x235AC7C
     ::Array<::Il2CppString*>* get_strings();

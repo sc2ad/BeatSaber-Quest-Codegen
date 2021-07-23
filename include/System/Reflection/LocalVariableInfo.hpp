@@ -48,6 +48,18 @@ namespace System::Reflection {
     static_assert(sizeof(uint16_t) == 0x2);
     // Creating value type constructor for type: LocalVariableInfo
     LocalVariableInfo(System::Type* type_ = {}, bool is_pinned_ = {}, uint16_t position_ = {}) noexcept : type{type_}, is_pinned{is_pinned_}, position{position_} {}
+    // Get instance field: System.Type type
+    System::Type* _get_type();
+    // Set instance field: System.Type type
+    void _set_type(System::Type* value);
+    // Get instance field: System.Boolean is_pinned
+    bool _get_is_pinned();
+    // Set instance field: System.Boolean is_pinned
+    void _set_is_pinned(bool value);
+    // Get instance field: System.UInt16 position
+    uint16_t _get_position();
+    // Set instance field: System.UInt16 position
+    void _set_position(uint16_t value);
     // protected System.Void .ctor()
     // Offset: 0x1CAC6EC
     // Implemented from: System.Object

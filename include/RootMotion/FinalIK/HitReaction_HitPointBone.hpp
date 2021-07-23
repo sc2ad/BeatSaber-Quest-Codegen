@@ -59,6 +59,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
     // Creating value type constructor for type: HitPointBone
     HitPointBone(UnityEngine::AnimationCurve* aroundCenterOfMass_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>* boneLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : aroundCenterOfMass{aroundCenterOfMass_}, boneLinks{boneLinks_}, rigidbody{rigidbody_} {}
+    // Get instance field: public UnityEngine.AnimationCurve aroundCenterOfMass
+    UnityEngine::AnimationCurve* _get_aroundCenterOfMass();
+    // Set instance field: public UnityEngine.AnimationCurve aroundCenterOfMass
+    void _set_aroundCenterOfMass(UnityEngine::AnimationCurve* value);
+    // Get instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks
+    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>* _get_boneLinks();
+    // Set instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks
+    void _set_boneLinks(::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>* value);
+    // Get instance field: private UnityEngine.Rigidbody rigidbody
+    UnityEngine::Rigidbody* _get_rigidbody();
+    // Set instance field: private UnityEngine.Rigidbody rigidbody
+    void _set_rigidbody(UnityEngine::Rigidbody* value);
     // public System.Void .ctor()
     // Offset: 0x1C94D2C
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint

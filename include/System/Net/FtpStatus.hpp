@@ -35,6 +35,14 @@ namespace System::Net {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: FtpStatus
     FtpStatus(System::Net::FtpStatusCode statusCode_ = {}, ::Il2CppString* statusDescription_ = {}) noexcept : statusCode{statusCode_}, statusDescription{statusDescription_} {}
+    // Get instance field: private readonly System.Net.FtpStatusCode statusCode
+    System::Net::FtpStatusCode _get_statusCode();
+    // Set instance field: private readonly System.Net.FtpStatusCode statusCode
+    void _set_statusCode(System::Net::FtpStatusCode value);
+    // Get instance field: private readonly System.String statusDescription
+    ::Il2CppString* _get_statusDescription();
+    // Set instance field: private readonly System.String statusDescription
+    void _set_statusDescription(::Il2CppString* value);
     // public System.Net.FtpStatusCode get_StatusCode()
     // Offset: 0x16A8148
     System::Net::FtpStatusCode get_StatusCode();

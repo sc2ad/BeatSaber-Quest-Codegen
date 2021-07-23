@@ -80,6 +80,30 @@ namespace GlobalNamespace {
     MissionDataSO(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, missionObjectives{missionObjectives_}, gameplayModifiers{gameplayModifiers_}, missionHelp{missionHelp_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private BeatmapLevelSO _level
+    GlobalNamespace::BeatmapLevelSO* _get__level();
+    // Set instance field: private BeatmapLevelSO _level
+    void _set__level(GlobalNamespace::BeatmapLevelSO* value);
+    // Get instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    GlobalNamespace::BeatmapCharacteristicSO* _get__beatmapCharacteristic();
+    // Set instance field: private BeatmapCharacteristicSO _beatmapCharacteristic
+    void _set__beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // Get instance field: private BeatmapDifficulty _beatmapDifficulty
+    GlobalNamespace::BeatmapDifficulty _get__beatmapDifficulty();
+    // Set instance field: private BeatmapDifficulty _beatmapDifficulty
+    void _set__beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // Get instance field: private MissionObjective[] _missionObjectives
+    ::Array<GlobalNamespace::MissionObjective*>* _get__missionObjectives();
+    // Set instance field: private MissionObjective[] _missionObjectives
+    void _set__missionObjectives(::Array<GlobalNamespace::MissionObjective*>* value);
+    // Get instance field: private GameplayModifiers _gameplayModifiers
+    GlobalNamespace::GameplayModifiers* _get__gameplayModifiers();
+    // Set instance field: private GameplayModifiers _gameplayModifiers
+    void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    // Get instance field: private MissionHelpSO _missionHelp
+    GlobalNamespace::MissionHelpSO* _get__missionHelp();
+    // Set instance field: private MissionHelpSO _missionHelp
+    void _set__missionHelp(GlobalNamespace::MissionHelpSO* value);
     // public MissionObjective[] get_missionObjectives()
     // Offset: 0x11305CC
     ::Array<GlobalNamespace::MissionObjective*>* get_missionObjectives();

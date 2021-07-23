@@ -37,6 +37,14 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public UnityEngine.Vector2 cursorPos
+    UnityEngine::Vector2 _get_cursorPos();
+    // Set instance field: public UnityEngine.Vector2 cursorPos
+    void _set_cursorPos(UnityEngine::Vector2 value);
+    // Get instance field: public System.Single charWidth
+    float _get_charWidth();
+    // Set instance field: public System.Single charWidth
+    void _set_charWidth(float value);
   }; // UnityEngine.UICharInfo
   #pragma pack(pop)
   static check_size<sizeof(UICharInfo), 8 + sizeof(float)> __UnityEngine_UICharInfoSizeCheck;

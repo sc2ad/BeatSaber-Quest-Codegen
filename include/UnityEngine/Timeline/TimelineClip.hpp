@@ -109,6 +109,10 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::TimelineClip::ClipExtrapolation _get_Continue();
       // Set static field: static public UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation Continue
       static void _set_Continue(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation
     #pragma pack(pop)
     static check_size<sizeof(TimelineClip::ClipExtrapolation), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineClip_ClipExtrapolationSizeCheck;
@@ -147,6 +151,10 @@ namespace UnityEngine::Timeline {
       static UnityEngine::Timeline::TimelineClip::BlendCurveMode _get_Manual();
       // Set static field: static public UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode Manual
       static void _set_Manual(UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
+      // Get instance field: public System.Int32 value__
+      int _get_value__();
+      // Set instance field: public System.Int32 value__
+      void _set_value__(int value);
     }; // UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode
     #pragma pack(pop)
     static check_size<sizeof(TimelineClip::BlendCurveMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineClip_BlendCurveModeSizeCheck;
@@ -340,6 +348,98 @@ namespace UnityEngine::Timeline {
     static double _get_kMaxTimeValue();
     // Set static field: static readonly System.Double kMaxTimeValue
     static void _set_kMaxTimeValue(double value);
+    // Get instance field: private System.Int32 m_Version
+    int _get_m_Version();
+    // Set instance field: private System.Int32 m_Version
+    void _set_m_Version(int value);
+    // Get instance field: private System.Double m_Start
+    double _get_m_Start();
+    // Set instance field: private System.Double m_Start
+    void _set_m_Start(double value);
+    // Get instance field: private System.Double m_ClipIn
+    double _get_m_ClipIn();
+    // Set instance field: private System.Double m_ClipIn
+    void _set_m_ClipIn(double value);
+    // Get instance field: private UnityEngine.Object m_Asset
+    UnityEngine::Object* _get_m_Asset();
+    // Set instance field: private UnityEngine.Object m_Asset
+    void _set_m_Asset(UnityEngine::Object* value);
+    // Get instance field: private System.Double m_Duration
+    double _get_m_Duration();
+    // Set instance field: private System.Double m_Duration
+    void _set_m_Duration(double value);
+    // Get instance field: private System.Double m_TimeScale
+    double _get_m_TimeScale();
+    // Set instance field: private System.Double m_TimeScale
+    void _set_m_TimeScale(double value);
+    // Get instance field: private UnityEngine.Timeline.TrackAsset m_ParentTrack
+    UnityEngine::Timeline::TrackAsset* _get_m_ParentTrack();
+    // Set instance field: private UnityEngine.Timeline.TrackAsset m_ParentTrack
+    void _set_m_ParentTrack(UnityEngine::Timeline::TrackAsset* value);
+    // Get instance field: private System.Double m_EaseInDuration
+    double _get_m_EaseInDuration();
+    // Set instance field: private System.Double m_EaseInDuration
+    void _set_m_EaseInDuration(double value);
+    // Get instance field: private System.Double m_EaseOutDuration
+    double _get_m_EaseOutDuration();
+    // Set instance field: private System.Double m_EaseOutDuration
+    void _set_m_EaseOutDuration(double value);
+    // Get instance field: private System.Double m_BlendInDuration
+    double _get_m_BlendInDuration();
+    // Set instance field: private System.Double m_BlendInDuration
+    void _set_m_BlendInDuration(double value);
+    // Get instance field: private System.Double m_BlendOutDuration
+    double _get_m_BlendOutDuration();
+    // Set instance field: private System.Double m_BlendOutDuration
+    void _set_m_BlendOutDuration(double value);
+    // Get instance field: private UnityEngine.AnimationCurve m_MixInCurve
+    UnityEngine::AnimationCurve* _get_m_MixInCurve();
+    // Set instance field: private UnityEngine.AnimationCurve m_MixInCurve
+    void _set_m_MixInCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.AnimationCurve m_MixOutCurve
+    UnityEngine::AnimationCurve* _get_m_MixOutCurve();
+    // Set instance field: private UnityEngine.AnimationCurve m_MixOutCurve
+    void _set_m_MixOutCurve(UnityEngine::AnimationCurve* value);
+    // Get instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode m_BlendInCurveMode
+    UnityEngine::Timeline::TimelineClip::BlendCurveMode _get_m_BlendInCurveMode();
+    // Set instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode m_BlendInCurveMode
+    void _set_m_BlendInCurveMode(UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
+    // Get instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode m_BlendOutCurveMode
+    UnityEngine::Timeline::TimelineClip::BlendCurveMode _get_m_BlendOutCurveMode();
+    // Set instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode m_BlendOutCurveMode
+    void _set_m_BlendOutCurveMode(UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> m_ExposedParameterNames
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_m_ExposedParameterNames();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> m_ExposedParameterNames
+    void _set_m_ExposedParameterNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: private UnityEngine.AnimationClip m_AnimationCurves
+    UnityEngine::AnimationClip* _get_m_AnimationCurves();
+    // Set instance field: private UnityEngine.AnimationClip m_AnimationCurves
+    void _set_m_AnimationCurves(UnityEngine::AnimationClip* value);
+    // Get instance field: private System.Boolean m_Recordable
+    bool _get_m_Recordable();
+    // Set instance field: private System.Boolean m_Recordable
+    void _set_m_Recordable(bool value);
+    // Get instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_PostExtrapolationMode
+    UnityEngine::Timeline::TimelineClip::ClipExtrapolation _get_m_PostExtrapolationMode();
+    // Set instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_PostExtrapolationMode
+    void _set_m_PostExtrapolationMode(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
+    // Get instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_PreExtrapolationMode
+    UnityEngine::Timeline::TimelineClip::ClipExtrapolation _get_m_PreExtrapolationMode();
+    // Set instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_PreExtrapolationMode
+    void _set_m_PreExtrapolationMode(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
+    // Get instance field: private System.Double m_PostExtrapolationTime
+    double _get_m_PostExtrapolationTime();
+    // Set instance field: private System.Double m_PostExtrapolationTime
+    void _set_m_PostExtrapolationTime(double value);
+    // Get instance field: private System.Double m_PreExtrapolationTime
+    double _get_m_PreExtrapolationTime();
+    // Set instance field: private System.Double m_PreExtrapolationTime
+    void _set_m_PreExtrapolationTime(double value);
+    // Get instance field: private System.String m_DisplayName
+    ::Il2CppString* _get_m_DisplayName();
+    // Set instance field: private System.String m_DisplayName
+    void _set_m_DisplayName(::Il2CppString* value);
     // public System.Boolean get_hasPreExtrapolation()
     // Offset: 0x231635C
     bool get_hasPreExtrapolation();

@@ -74,6 +74,26 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IAuthenticationTokenProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
+    // Get instance field: private readonly IPlatformUserModel _platformUserModel
+    GlobalNamespace::IPlatformUserModel* _get__platformUserModel();
+    // Set instance field: private readonly IPlatformUserModel _platformUserModel
+    void _set__platformUserModel(GlobalNamespace::IPlatformUserModel* value);
+    // Get instance field: private readonly System.String _userId
+    ::Il2CppString* _get__userId();
+    // Set instance field: private readonly System.String _userId
+    void _set__userId(::Il2CppString* value);
+    // Get instance field: private readonly System.String _userName
+    ::Il2CppString* _get__userName();
+    // Set instance field: private readonly System.String _userName
+    void _set__userName(::Il2CppString* value);
+    // Get instance field: private readonly System.String _hashedUserId
+    ::Il2CppString* _get__hashedUserId();
+    // Set instance field: private readonly System.String _hashedUserId
+    void _set__hashedUserId(::Il2CppString* value);
+    // Get instance field: private readonly AuthenticationToken/Platform _platform
+    GlobalNamespace::AuthenticationToken::Platform _get__platform();
+    // Set instance field: private readonly AuthenticationToken/Platform _platform
+    void _set__platform(GlobalNamespace::AuthenticationToken::Platform value);
     // public System.String get_hashedUserId()
     // Offset: 0x10FC600
     ::Il2CppString* get_hashedUserId();

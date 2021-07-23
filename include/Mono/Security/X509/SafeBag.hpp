@@ -38,6 +38,14 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
     // Creating value type constructor for type: SafeBag
     SafeBag(::Il2CppString* bagOID_ = {}, Mono::Security::ASN1* asn1_ = {}) noexcept : bagOID{bagOID_}, asn1{asn1_} {}
+    // Get instance field: private System.String _bagOID
+    ::Il2CppString* _get__bagOID();
+    // Set instance field: private System.String _bagOID
+    void _set__bagOID(::Il2CppString* value);
+    // Get instance field: private Mono.Security.ASN1 _asn1
+    Mono::Security::ASN1* _get__asn1();
+    // Set instance field: private Mono.Security.ASN1 _asn1
+    void _set__asn1(Mono::Security::ASN1* value);
     // public System.String get_BagOID()
     // Offset: 0x237D924
     ::Il2CppString* get_BagOID();

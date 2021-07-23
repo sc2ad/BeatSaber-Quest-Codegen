@@ -39,6 +39,10 @@ namespace Zenject {
     constexpr operator System::Type*() const noexcept {
       return t;
     }
+    // Get instance field: public System.Type t
+    System::Type* _get_t();
+    // Set instance field: public System.Type t
+    void _set_t(System::Type* value);
     // System.Boolean <InNamespaces>b__1(System.String n)
     // Offset: 0x13805AC
     bool $InNamespaces$b__1(::Il2CppString* n);

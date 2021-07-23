@@ -49,6 +49,10 @@ namespace System::Xml {
     static System::Xml::ConformanceLevel _get_Document();
     // Set static field: static public System.Xml.ConformanceLevel Document
     static void _set_Document(System::Xml::ConformanceLevel value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Xml.ConformanceLevel
   #pragma pack(pop)
   static check_size<sizeof(ConformanceLevel), 0 + sizeof(int)> __System_Xml_ConformanceLevelSizeCheck;

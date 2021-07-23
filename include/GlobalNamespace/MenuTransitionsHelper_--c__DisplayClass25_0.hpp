@@ -43,6 +43,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::DisconnectedReason) == 0x4);
     // Creating value type constructor for type: $$c__DisplayClass25_0
     $$c__DisplayClass25_0(GlobalNamespace::MenuTransitionsHelper* $$4__this_ = {}, GlobalNamespace::DisconnectedReason disconnectedReason_ = {}) noexcept : $$4__this{$$4__this_}, disconnectedReason{disconnectedReason_} {}
+    // Get instance field: public MenuTransitionsHelper <>4__this
+    GlobalNamespace::MenuTransitionsHelper* _get_$$4__this();
+    // Set instance field: public MenuTransitionsHelper <>4__this
+    void _set_$$4__this(GlobalNamespace::MenuTransitionsHelper* value);
+    // Get instance field: public DisconnectedReason disconnectedReason
+    GlobalNamespace::DisconnectedReason _get_disconnectedReason();
+    // Set instance field: public DisconnectedReason disconnectedReason
+    void _set_disconnectedReason(GlobalNamespace::DisconnectedReason value);
     // System.Void <HandleMultiplayerLevelDidDisconnect>b__0(Zenject.DiContainer container)
     // Offset: 0x1181AB0
     void $HandleMultiplayerLevelDidDisconnect$b__0(Zenject::DiContainer* container);

@@ -43,6 +43,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::CreditsData::TextStyle) == 0x4);
     // Creating value type constructor for type: Text
     Text(::Il2CppString* text_ = {}, bool localized_ = {}, GlobalNamespace::CreditsData::TextStyle style_ = {}) noexcept : text{text_}, localized{localized_}, style{style_} {}
+    // Get instance field: public System.String text
+    ::Il2CppString* _get_text();
+    // Set instance field: public System.String text
+    void _set_text(::Il2CppString* value);
+    // Get instance field: public System.Boolean localized
+    bool _get_localized();
+    // Set instance field: public System.Boolean localized
+    void _set_localized(bool value);
+    // Get instance field: public CreditsData/TextStyle style
+    GlobalNamespace::CreditsData::TextStyle _get_style();
+    // Set instance field: public CreditsData/TextStyle style
+    void _set_style(GlobalNamespace::CreditsData::TextStyle value);
     // public System.Boolean IsEmpty()
     // Offset: 0x1083698
     bool IsEmpty();

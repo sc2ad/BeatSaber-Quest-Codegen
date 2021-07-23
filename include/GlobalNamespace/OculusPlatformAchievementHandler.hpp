@@ -46,6 +46,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::AchievementIdsModelSO*() const noexcept {
       return achievementIdsModel;
     }
+    // Get instance field: private readonly AchievementIdsModelSO _achievementIdsModel
+    GlobalNamespace::AchievementIdsModelSO* _get__achievementIdsModel();
+    // Set instance field: private readonly AchievementIdsModelSO _achievementIdsModel
+    void _set__achievementIdsModel(GlobalNamespace::AchievementIdsModelSO* value);
     // public System.Void .ctor(AchievementIdsModelSO achievementIdsModel)
     // Offset: 0x11F56F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,6 +33,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LaunchFriendRequestFlowResult
     LaunchFriendRequestFlowResult(bool DidCancel_ = {}, bool DidSendRequest_ = {}) noexcept : DidCancel{DidCancel_}, DidSendRequest{DidSendRequest_} {}
+    // Get instance field: public readonly System.Boolean DidCancel
+    bool _get_DidCancel();
+    // Set instance field: public readonly System.Boolean DidCancel
+    void _set_DidCancel(bool value);
+    // Get instance field: public readonly System.Boolean DidSendRequest
+    bool _get_DidSendRequest();
+    // Set instance field: public readonly System.Boolean DidSendRequest
+    void _set_DidSendRequest(bool value);
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x14A2BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

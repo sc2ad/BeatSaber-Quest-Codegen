@@ -40,6 +40,14 @@ namespace JetBrains::Annotations {
     static_assert(sizeof(JetBrains::Annotations::ImplicitUseTargetFlags) == 0x4);
     // Creating value type constructor for type: UsedImplicitlyAttribute
     UsedImplicitlyAttribute(JetBrains::Annotations::ImplicitUseKindFlags UseKindFlags_ = {}, JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags_ = {}) noexcept : UseKindFlags{UseKindFlags_}, TargetFlags{TargetFlags_} {}
+    // Get instance field: private readonly JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField
+    JetBrains::Annotations::ImplicitUseKindFlags _get_$UseKindFlags$k__BackingField();
+    // Set instance field: private readonly JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField
+    void _set_$UseKindFlags$k__BackingField(JetBrains::Annotations::ImplicitUseKindFlags value);
+    // Get instance field: private readonly JetBrains.Annotations.ImplicitUseTargetFlags <TargetFlags>k__BackingField
+    JetBrains::Annotations::ImplicitUseTargetFlags _get_$TargetFlags$k__BackingField();
+    // Set instance field: private readonly JetBrains.Annotations.ImplicitUseTargetFlags <TargetFlags>k__BackingField
+    void _set_$TargetFlags$k__BackingField(JetBrains::Annotations::ImplicitUseTargetFlags value);
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
     // Offset: 0x1BD9274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

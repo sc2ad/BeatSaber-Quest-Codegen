@@ -39,6 +39,18 @@ namespace Assets::OVR::Scripts {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: RangedRecord
     RangedRecord(float value_ = {}, float min_ = {}, float max_ = {}) noexcept : value{value_}, min{min_}, max{max_} {}
+    // Get instance field: public System.Single value
+    float _get_value();
+    // Set instance field: public System.Single value
+    void _set_value(float value);
+    // Get instance field: public System.Single min
+    float _get_min();
+    // Set instance field: public System.Single min
+    void _set_min(float value);
+    // Get instance field: public System.Single max
+    float _get_max();
+    // Set instance field: public System.Single max
+    void _set_max(float value);
     // public System.Void .ctor(System.String cat, System.String msg, System.Single val, System.Single minVal, System.Single maxVal)
     // Offset: 0x1575BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -42,6 +42,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::EncryptionUtility::IEncryptionState*() const noexcept {
       return encryptionState;
     }
+    // Get instance field: public EncryptionUtility/IEncryptionState encryptionState
+    GlobalNamespace::EncryptionUtility::IEncryptionState* _get_encryptionState();
+    // Set instance field: public EncryptionUtility/IEncryptionState encryptionState
+    void _set_encryptionState(GlobalNamespace::EncryptionUtility::IEncryptionState* value);
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
     // Offset: 0x153C3DC
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);

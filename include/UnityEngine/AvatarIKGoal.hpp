@@ -55,6 +55,10 @@ namespace UnityEngine {
     static UnityEngine::AvatarIKGoal _get_RightHand();
     // Set static field: static public UnityEngine.AvatarIKGoal RightHand
     static void _set_RightHand(UnityEngine::AvatarIKGoal value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.AvatarIKGoal
   #pragma pack(pop)
   static check_size<sizeof(AvatarIKGoal), 0 + sizeof(int)> __UnityEngine_AvatarIKGoalSizeCheck;

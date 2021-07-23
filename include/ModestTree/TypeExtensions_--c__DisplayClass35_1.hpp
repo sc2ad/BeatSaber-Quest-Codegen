@@ -41,6 +41,10 @@ namespace ModestTree {
     constexpr operator System::Attribute*() const noexcept {
       return a;
     }
+    // Get instance field: public System.Attribute a
+    System::Attribute* _get_a();
+    // Set instance field: public System.Attribute a
+    void _set_a(System::Attribute* value);
     // System.Boolean <AllAttributes>b__1(System.Type x)
     // Offset: 0x1374770
     bool $AllAttributes$b__1(System::Type* x);

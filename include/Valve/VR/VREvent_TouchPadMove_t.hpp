@@ -59,6 +59,30 @@ namespace Valve::VR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Boolean bFingerDown
+    bool _get_bFingerDown();
+    // Set instance field: public System.Boolean bFingerDown
+    void _set_bFingerDown(bool value);
+    // Get instance field: public System.Single flSecondsFingerDown
+    float _get_flSecondsFingerDown();
+    // Set instance field: public System.Single flSecondsFingerDown
+    void _set_flSecondsFingerDown(float value);
+    // Get instance field: public System.Single fValueXFirst
+    float _get_fValueXFirst();
+    // Set instance field: public System.Single fValueXFirst
+    void _set_fValueXFirst(float value);
+    // Get instance field: public System.Single fValueYFirst
+    float _get_fValueYFirst();
+    // Set instance field: public System.Single fValueYFirst
+    void _set_fValueYFirst(float value);
+    // Get instance field: public System.Single fValueXRaw
+    float _get_fValueXRaw();
+    // Set instance field: public System.Single fValueXRaw
+    void _set_fValueXRaw(float value);
+    // Get instance field: public System.Single fValueYRaw
+    float _get_fValueYRaw();
+    // Set instance field: public System.Single fValueYRaw
+    void _set_fValueYRaw(float value);
   }; // Valve.VR.VREvent_TouchPadMove_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_TouchPadMove_t), 20 + sizeof(float)> __Valve_VR_VREvent_TouchPadMove_tSizeCheck;

@@ -43,6 +43,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::InvitePolicy _get_AnyoneCanInvite();
     // Set static field: static public InvitePolicy AnyoneCanInvite
     static void _set_AnyoneCanInvite(GlobalNamespace::InvitePolicy value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // InvitePolicy
   #pragma pack(pop)
   static check_size<sizeof(InvitePolicy), 0 + sizeof(int)> __GlobalNamespace_InvitePolicySizeCheck;

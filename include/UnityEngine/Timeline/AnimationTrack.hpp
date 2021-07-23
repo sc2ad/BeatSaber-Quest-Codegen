@@ -232,6 +232,78 @@ namespace UnityEngine::Timeline {
     static System::Collections::Generic::Queue_1<UnityEngine::Transform*>* _get_s_CachedQueue();
     // Set static field: static private readonly System.Collections.Generic.Queue`1<UnityEngine.Transform> s_CachedQueue
     static void _set_s_CachedQueue(System::Collections::Generic::Queue_1<UnityEngine::Transform*>* value);
+    // Get instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_InfiniteClipPreExtrapolation
+    UnityEngine::Timeline::TimelineClip::ClipExtrapolation _get_m_InfiniteClipPreExtrapolation();
+    // Set instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_InfiniteClipPreExtrapolation
+    void _set_m_InfiniteClipPreExtrapolation(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
+    // Get instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_InfiniteClipPostExtrapolation
+    UnityEngine::Timeline::TimelineClip::ClipExtrapolation _get_m_InfiniteClipPostExtrapolation();
+    // Set instance field: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_InfiniteClipPostExtrapolation
+    void _set_m_InfiniteClipPostExtrapolation(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
+    // Get instance field: private UnityEngine.Vector3 m_InfiniteClipOffsetPosition
+    UnityEngine::Vector3 _get_m_InfiniteClipOffsetPosition();
+    // Set instance field: private UnityEngine.Vector3 m_InfiniteClipOffsetPosition
+    void _set_m_InfiniteClipOffsetPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_InfiniteClipOffsetEulerAngles
+    UnityEngine::Vector3 _get_m_InfiniteClipOffsetEulerAngles();
+    // Set instance field: private UnityEngine.Vector3 m_InfiniteClipOffsetEulerAngles
+    void _set_m_InfiniteClipOffsetEulerAngles(UnityEngine::Vector3 value);
+    // Get instance field: private System.Double m_InfiniteClipTimeOffset
+    double _get_m_InfiniteClipTimeOffset();
+    // Set instance field: private System.Double m_InfiniteClipTimeOffset
+    void _set_m_InfiniteClipTimeOffset(double value);
+    // Get instance field: private System.Boolean m_InfiniteClipRemoveOffset
+    bool _get_m_InfiniteClipRemoveOffset();
+    // Set instance field: private System.Boolean m_InfiniteClipRemoveOffset
+    void _set_m_InfiniteClipRemoveOffset(bool value);
+    // Get instance field: private System.Boolean m_InfiniteClipApplyFootIK
+    bool _get_m_InfiniteClipApplyFootIK();
+    // Set instance field: private System.Boolean m_InfiniteClipApplyFootIK
+    void _set_m_InfiniteClipApplyFootIK(bool value);
+    // Get instance field: private UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.LoopMode mInfiniteClipLoop
+    UnityEngine::Timeline::AnimationPlayableAsset::LoopMode _get_mInfiniteClipLoop();
+    // Set instance field: private UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.LoopMode mInfiniteClipLoop
+    void _set_mInfiniteClipLoop(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode value);
+    // Get instance field: private UnityEngine.Timeline.MatchTargetFields m_MatchTargetFields
+    UnityEngine::Timeline::MatchTargetFields _get_m_MatchTargetFields();
+    // Set instance field: private UnityEngine.Timeline.MatchTargetFields m_MatchTargetFields
+    void _set_m_MatchTargetFields(UnityEngine::Timeline::MatchTargetFields value);
+    // Get instance field: private UnityEngine.Vector3 m_Position
+    UnityEngine::Vector3 _get_m_Position();
+    // Set instance field: private UnityEngine.Vector3 m_Position
+    void _set_m_Position(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_EulerAngles
+    UnityEngine::Vector3 _get_m_EulerAngles();
+    // Set instance field: private UnityEngine.Vector3 m_EulerAngles
+    void _set_m_EulerAngles(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.AvatarMask m_AvatarMask
+    UnityEngine::AvatarMask* _get_m_AvatarMask();
+    // Set instance field: private UnityEngine.AvatarMask m_AvatarMask
+    void _set_m_AvatarMask(UnityEngine::AvatarMask* value);
+    // Get instance field: private System.Boolean m_ApplyAvatarMask
+    bool _get_m_ApplyAvatarMask();
+    // Set instance field: private System.Boolean m_ApplyAvatarMask
+    void _set_m_ApplyAvatarMask(bool value);
+    // Get instance field: private UnityEngine.Timeline.TrackOffset m_TrackOffset
+    UnityEngine::Timeline::TrackOffset _get_m_TrackOffset();
+    // Set instance field: private UnityEngine.Timeline.TrackOffset m_TrackOffset
+    void _set_m_TrackOffset(UnityEngine::Timeline::TrackOffset value);
+    // Get instance field: private UnityEngine.AnimationClip m_InfiniteClip
+    UnityEngine::AnimationClip* _get_m_InfiniteClip();
+    // Set instance field: private UnityEngine.AnimationClip m_InfiniteClip
+    void _set_m_InfiniteClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.Quaternion m_OpenClipOffsetRotation
+    UnityEngine::Quaternion _get_m_OpenClipOffsetRotation();
+    // Set instance field: private UnityEngine.Quaternion m_OpenClipOffsetRotation
+    void _set_m_OpenClipOffsetRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion m_Rotation
+    UnityEngine::Quaternion _get_m_Rotation();
+    // Set instance field: private UnityEngine.Quaternion m_Rotation
+    void _set_m_Rotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Boolean m_ApplyOffsets
+    bool _get_m_ApplyOffsets();
+    // Set instance field: private System.Boolean m_ApplyOffsets
+    void _set_m_ApplyOffsets(bool value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x17DCB40
     UnityEngine::Vector3 get_position();

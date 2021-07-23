@@ -57,6 +57,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: PresetsSettingsController
     PresetsSettingsController(GlobalNamespace::IntSO* settingsValue_ = {}, GlobalNamespace::NamedPresetsSO* presets_ = {}, bool limitNumberOfElements_ = {}, int numberOfElementsLimit_ = {}) noexcept : settingsValue{settingsValue_}, presets{presets_}, limitNumberOfElements{limitNumberOfElements_}, numberOfElementsLimit{numberOfElementsLimit_} {}
+    // Get instance field: private IntSO _settingsValue
+    GlobalNamespace::IntSO* _get__settingsValue();
+    // Set instance field: private IntSO _settingsValue
+    void _set__settingsValue(GlobalNamespace::IntSO* value);
+    // Get instance field: private NamedPresetsSO _presets
+    GlobalNamespace::NamedPresetsSO* _get__presets();
+    // Set instance field: private NamedPresetsSO _presets
+    void _set__presets(GlobalNamespace::NamedPresetsSO* value);
+    // Get instance field: private System.Boolean _limitNumberOfElements
+    bool _get__limitNumberOfElements();
+    // Set instance field: private System.Boolean _limitNumberOfElements
+    void _set__limitNumberOfElements(bool value);
+    // Get instance field: private System.Int32 _numberOfElementsLimit
+    int _get__numberOfElementsLimit();
+    // Set instance field: private System.Int32 _numberOfElementsLimit
+    void _set__numberOfElementsLimit(int value);
     // public System.Void .ctor()
     // Offset: 0x1109ED4
     // Implemented from: ListSettingsController

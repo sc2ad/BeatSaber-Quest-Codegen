@@ -35,6 +35,14 @@ namespace System::Runtime::Remoting::Metadata {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SoapFieldAttribute
     SoapFieldAttribute(::Il2CppString* elementName_ = {}, bool isElement_ = {}) noexcept : elementName{elementName_}, isElement{isElement_} {}
+    // Get instance field: private System.String _elementName
+    ::Il2CppString* _get__elementName();
+    // Set instance field: private System.String _elementName
+    void _set__elementName(::Il2CppString* value);
+    // Get instance field: private System.Boolean _isElement
+    bool _get__isElement();
+    // Set instance field: private System.Boolean _isElement
+    void _set__isElement(bool value);
     // public System.String get_XmlElementName()
     // Offset: 0x1A02594
     ::Il2CppString* get_XmlElementName();

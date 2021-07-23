@@ -33,6 +33,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: PerceivedLevelLoudnessPair
     PerceivedLevelLoudnessPair(::Il2CppString* levelId_ = {}, float perceivedLoudness_ = {}) noexcept : levelId{levelId_}, perceivedLoudness{perceivedLoudness_} {}
+    // Get instance field: private System.String _levelId
+    ::Il2CppString* _get__levelId();
+    // Set instance field: private System.String _levelId
+    void _set__levelId(::Il2CppString* value);
+    // Get instance field: private System.Single _perceivedLoudness
+    float _get__perceivedLoudness();
+    // Set instance field: private System.Single _perceivedLoudness
+    void _set__perceivedLoudness(float value);
     // public System.String get_levelId()
     // Offset: 0x10FBDBC
     ::Il2CppString* get_levelId();

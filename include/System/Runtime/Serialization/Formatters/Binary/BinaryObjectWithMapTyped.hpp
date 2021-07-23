@@ -88,6 +88,42 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BinaryObjectWithMapTyped
     BinaryObjectWithMapTyped(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int objectId_ = {}, ::Il2CppString* name_ = {}, int numMembers_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA_ = {}, ::Array<::Il2CppObject*>* typeInformationA_ = {}, ::Array<int>* memberAssemIds_ = {}, int assemId_ = {}) noexcept : binaryHeaderEnum{binaryHeaderEnum_}, objectId{objectId_}, name{name_}, numMembers{numMembers_}, memberNames{memberNames_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberAssemIds{memberAssemIds_}, assemId{assemId_} {}
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
+    System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum _get_binaryHeaderEnum();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
+    void _set_binaryHeaderEnum(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
+    // Get instance field: System.Int32 objectId
+    int _get_objectId();
+    // Set instance field: System.Int32 objectId
+    void _set_objectId(int value);
+    // Get instance field: System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: System.Int32 numMembers
+    int _get_numMembers();
+    // Set instance field: System.Int32 numMembers
+    void _set_numMembers(int value);
+    // Get instance field: System.String[] memberNames
+    ::Array<::Il2CppString*>* _get_memberNames();
+    // Set instance field: System.String[] memberNames
+    void _set_memberNames(::Array<::Il2CppString*>* value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
+    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* _get_binaryTypeEnumA();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
+    void _set_binaryTypeEnumA(::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* value);
+    // Get instance field: System.Object[] typeInformationA
+    ::Array<::Il2CppObject*>* _get_typeInformationA();
+    // Set instance field: System.Object[] typeInformationA
+    void _set_typeInformationA(::Array<::Il2CppObject*>* value);
+    // Get instance field: System.Int32[] memberAssemIds
+    ::Array<int>* _get_memberAssemIds();
+    // Set instance field: System.Int32[] memberAssemIds
+    void _set_memberAssemIds(::Array<int>* value);
+    // Get instance field: System.Int32 assemId
+    int _get_assemId();
+    // Set instance field: System.Int32 assemId
+    void _set_assemId(int value);
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
     // Offset: 0x15DA56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

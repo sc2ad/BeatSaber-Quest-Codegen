@@ -116,6 +116,10 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::VertexAttribute _get_BlendIndices();
     // Set static field: static public UnityEngine.Rendering.VertexAttribute BlendIndices
     static void _set_BlendIndices(UnityEngine::Rendering::VertexAttribute value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.Rendering.VertexAttribute
   #pragma pack(pop)
   static check_size<sizeof(VertexAttribute), 0 + sizeof(int)> __UnityEngine_Rendering_VertexAttributeSizeCheck;

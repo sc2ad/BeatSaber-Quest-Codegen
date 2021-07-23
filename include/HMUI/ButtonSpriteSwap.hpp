@@ -80,6 +80,34 @@ namespace HMUI {
     ButtonSpriteSwap(UnityEngine::Sprite* normalStateSprite_ = {}, UnityEngine::Sprite* highlightStateSprite_ = {}, UnityEngine::Sprite* pressedStateSprite_ = {}, UnityEngine::Sprite* disabledStateSprite_ = {}, HMUI::NoTransitionsButton* button_ = {}, ::Array<UnityEngine::UI::Image*>* images_ = {}, bool didStart_ = {}) noexcept : normalStateSprite{normalStateSprite_}, highlightStateSprite{highlightStateSprite_}, pressedStateSprite{pressedStateSprite_}, disabledStateSprite{disabledStateSprite_}, button{button_}, images{images_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: protected UnityEngine.Sprite _normalStateSprite
+    UnityEngine::Sprite* _get__normalStateSprite();
+    // Set instance field: protected UnityEngine.Sprite _normalStateSprite
+    void _set__normalStateSprite(UnityEngine::Sprite* value);
+    // Get instance field: protected UnityEngine.Sprite _highlightStateSprite
+    UnityEngine::Sprite* _get__highlightStateSprite();
+    // Set instance field: protected UnityEngine.Sprite _highlightStateSprite
+    void _set__highlightStateSprite(UnityEngine::Sprite* value);
+    // Get instance field: protected UnityEngine.Sprite _pressedStateSprite
+    UnityEngine::Sprite* _get__pressedStateSprite();
+    // Set instance field: protected UnityEngine.Sprite _pressedStateSprite
+    void _set__pressedStateSprite(UnityEngine::Sprite* value);
+    // Get instance field: protected UnityEngine.Sprite _disabledStateSprite
+    UnityEngine::Sprite* _get__disabledStateSprite();
+    // Set instance field: protected UnityEngine.Sprite _disabledStateSprite
+    void _set__disabledStateSprite(UnityEngine::Sprite* value);
+    // Get instance field: private HMUI.NoTransitionsButton _button
+    HMUI::NoTransitionsButton* _get__button();
+    // Set instance field: private HMUI.NoTransitionsButton _button
+    void _set__button(HMUI::NoTransitionsButton* value);
+    // Get instance field: protected UnityEngine.UI.Image[] _images
+    ::Array<UnityEngine::UI::Image*>* _get__images();
+    // Set instance field: protected UnityEngine.UI.Image[] _images
+    void _set__images(::Array<UnityEngine::UI::Image*>* value);
+    // Get instance field: protected System.Boolean _didStart
+    bool _get__didStart();
+    // Set instance field: protected System.Boolean _didStart
+    void _set__didStart(bool value);
     // protected System.Void Awake()
     // Offset: 0x1303A24
     void Awake();

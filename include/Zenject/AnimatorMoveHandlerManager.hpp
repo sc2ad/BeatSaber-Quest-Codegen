@@ -42,6 +42,10 @@ namespace Zenject {
     AnimatorMoveHandlerManager(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers_ = {}) noexcept : handlers{handlers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> _handlers
+    System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* _get__handlers();
+    // Set instance field: private System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> _handlers
+    void _set__handlers(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* value);
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> handlers)
     // Offset: 0x1378CFC
     void Construct(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers);

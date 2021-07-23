@@ -41,6 +41,14 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SupportsChildTracksAttribute
     SupportsChildTracksAttribute(System::Type* childType_ = {}, int levels_ = {}) noexcept : childType{childType_}, levels{levels_} {}
+    // Get instance field: public readonly System.Type childType
+    System::Type* _get_childType();
+    // Set instance field: public readonly System.Type childType
+    void _set_childType(System::Type* value);
+    // Get instance field: public readonly System.Int32 levels
+    int _get_levels();
+    // Set instance field: public readonly System.Int32 levels
+    void _set_levels(int value);
     // public System.Void .ctor(System.Type childType, System.Int32 levels)
     // Offset: 0x17EC0A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

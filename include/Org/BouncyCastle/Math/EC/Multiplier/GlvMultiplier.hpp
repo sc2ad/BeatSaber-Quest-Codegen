@@ -52,6 +52,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*) == 0x8);
     // Creating value type constructor for type: GlvMultiplier
     GlvMultiplier(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism_ = {}) noexcept : curve{curve_}, glvEndomorphism{glvEndomorphism_} {}
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.ECCurve curve
+    Org::BouncyCastle::Math::EC::ECCurve* _get_curve();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.ECCurve curve
+    void _set_curve(Org::BouncyCastle::Math::EC::ECCurve* value);
+    // Get instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism
+    Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* _get_glvEndomorphism();
+    // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism
+    void _set_glvEndomorphism(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism)
     // Offset: 0x1D91884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

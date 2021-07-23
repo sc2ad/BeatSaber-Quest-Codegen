@@ -145,6 +145,90 @@ namespace TMPro {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: FaceInfo_Legacy
     FaceInfo_Legacy(::Il2CppString* Name_ = {}, float PointSize_ = {}, float Scale_ = {}, int CharacterCount_ = {}, float LineHeight_ = {}, float Baseline_ = {}, float Ascender_ = {}, float CapHeight_ = {}, float Descender_ = {}, float CenterLine_ = {}, float SuperscriptOffset_ = {}, float SubscriptOffset_ = {}, float SubSize_ = {}, float Underline_ = {}, float UnderlineThickness_ = {}, float strikethrough_ = {}, float strikethroughThickness_ = {}, float TabWidth_ = {}, float Padding_ = {}, float AtlasWidth_ = {}, float AtlasHeight_ = {}) noexcept : Name{Name_}, PointSize{PointSize_}, Scale{Scale_}, CharacterCount{CharacterCount_}, LineHeight{LineHeight_}, Baseline{Baseline_}, Ascender{Ascender_}, CapHeight{CapHeight_}, Descender{Descender_}, CenterLine{CenterLine_}, SuperscriptOffset{SuperscriptOffset_}, SubscriptOffset{SubscriptOffset_}, SubSize{SubSize_}, Underline{Underline_}, UnderlineThickness{UnderlineThickness_}, strikethrough{strikethrough_}, strikethroughThickness{strikethroughThickness_}, TabWidth{TabWidth_}, Padding{Padding_}, AtlasWidth{AtlasWidth_}, AtlasHeight{AtlasHeight_} {}
+    // Get instance field: public System.String Name
+    ::Il2CppString* _get_Name();
+    // Set instance field: public System.String Name
+    void _set_Name(::Il2CppString* value);
+    // Get instance field: public System.Single PointSize
+    float _get_PointSize();
+    // Set instance field: public System.Single PointSize
+    void _set_PointSize(float value);
+    // Get instance field: public System.Single Scale
+    float _get_Scale();
+    // Set instance field: public System.Single Scale
+    void _set_Scale(float value);
+    // Get instance field: public System.Int32 CharacterCount
+    int _get_CharacterCount();
+    // Set instance field: public System.Int32 CharacterCount
+    void _set_CharacterCount(int value);
+    // Get instance field: public System.Single LineHeight
+    float _get_LineHeight();
+    // Set instance field: public System.Single LineHeight
+    void _set_LineHeight(float value);
+    // Get instance field: public System.Single Baseline
+    float _get_Baseline();
+    // Set instance field: public System.Single Baseline
+    void _set_Baseline(float value);
+    // Get instance field: public System.Single Ascender
+    float _get_Ascender();
+    // Set instance field: public System.Single Ascender
+    void _set_Ascender(float value);
+    // Get instance field: public System.Single CapHeight
+    float _get_CapHeight();
+    // Set instance field: public System.Single CapHeight
+    void _set_CapHeight(float value);
+    // Get instance field: public System.Single Descender
+    float _get_Descender();
+    // Set instance field: public System.Single Descender
+    void _set_Descender(float value);
+    // Get instance field: public System.Single CenterLine
+    float _get_CenterLine();
+    // Set instance field: public System.Single CenterLine
+    void _set_CenterLine(float value);
+    // Get instance field: public System.Single SuperscriptOffset
+    float _get_SuperscriptOffset();
+    // Set instance field: public System.Single SuperscriptOffset
+    void _set_SuperscriptOffset(float value);
+    // Get instance field: public System.Single SubscriptOffset
+    float _get_SubscriptOffset();
+    // Set instance field: public System.Single SubscriptOffset
+    void _set_SubscriptOffset(float value);
+    // Get instance field: public System.Single SubSize
+    float _get_SubSize();
+    // Set instance field: public System.Single SubSize
+    void _set_SubSize(float value);
+    // Get instance field: public System.Single Underline
+    float _get_Underline();
+    // Set instance field: public System.Single Underline
+    void _set_Underline(float value);
+    // Get instance field: public System.Single UnderlineThickness
+    float _get_UnderlineThickness();
+    // Set instance field: public System.Single UnderlineThickness
+    void _set_UnderlineThickness(float value);
+    // Get instance field: public System.Single strikethrough
+    float _get_strikethrough();
+    // Set instance field: public System.Single strikethrough
+    void _set_strikethrough(float value);
+    // Get instance field: public System.Single strikethroughThickness
+    float _get_strikethroughThickness();
+    // Set instance field: public System.Single strikethroughThickness
+    void _set_strikethroughThickness(float value);
+    // Get instance field: public System.Single TabWidth
+    float _get_TabWidth();
+    // Set instance field: public System.Single TabWidth
+    void _set_TabWidth(float value);
+    // Get instance field: public System.Single Padding
+    float _get_Padding();
+    // Set instance field: public System.Single Padding
+    void _set_Padding(float value);
+    // Get instance field: public System.Single AtlasWidth
+    float _get_AtlasWidth();
+    // Set instance field: public System.Single AtlasWidth
+    void _set_AtlasWidth(float value);
+    // Get instance field: public System.Single AtlasHeight
+    float _get_AtlasHeight();
+    // Set instance field: public System.Single AtlasHeight
+    void _set_AtlasHeight(float value);
     // public System.Void .ctor()
     // Offset: 0x10B8F54
     // Implemented from: System.Object

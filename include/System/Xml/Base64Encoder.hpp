@@ -39,6 +39,18 @@ namespace System::Xml {
     static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
     // Creating value type constructor for type: Base64Encoder
     Base64Encoder(::Array<uint8_t>* leftOverBytes_ = {}, int leftOverBytesCount_ = {}, ::Array<::Il2CppChar>* charsLine_ = {}) noexcept : leftOverBytes{leftOverBytes_}, leftOverBytesCount{leftOverBytesCount_}, charsLine{charsLine_} {}
+    // Get instance field: private System.Byte[] leftOverBytes
+    ::Array<uint8_t>* _get_leftOverBytes();
+    // Set instance field: private System.Byte[] leftOverBytes
+    void _set_leftOverBytes(::Array<uint8_t>* value);
+    // Get instance field: private System.Int32 leftOverBytesCount
+    int _get_leftOverBytesCount();
+    // Set instance field: private System.Int32 leftOverBytesCount
+    void _set_leftOverBytesCount(int value);
+    // Get instance field: private System.Char[] charsLine
+    ::Array<::Il2CppChar>* _get_charsLine();
+    // Set instance field: private System.Char[] charsLine
+    void _set_charsLine(::Array<::Il2CppChar>* value);
     // System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);

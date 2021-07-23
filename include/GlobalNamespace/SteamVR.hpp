@@ -140,6 +140,50 @@ namespace GlobalNamespace {
     static ::Array<bool>* _get_connected();
     // Set static field: static public System.Boolean[] connected
     static void _set_connected(::Array<bool>* value);
+    // Get instance field: private Valve.VR.CVRSystem <hmd>k__BackingField
+    Valve::VR::CVRSystem* _get_$hmd$k__BackingField();
+    // Set instance field: private Valve.VR.CVRSystem <hmd>k__BackingField
+    void _set_$hmd$k__BackingField(Valve::VR::CVRSystem* value);
+    // Get instance field: private Valve.VR.CVRCompositor <compositor>k__BackingField
+    Valve::VR::CVRCompositor* _get_$compositor$k__BackingField();
+    // Set instance field: private Valve.VR.CVRCompositor <compositor>k__BackingField
+    void _set_$compositor$k__BackingField(Valve::VR::CVRCompositor* value);
+    // Get instance field: private Valve.VR.CVROverlay <overlay>k__BackingField
+    Valve::VR::CVROverlay* _get_$overlay$k__BackingField();
+    // Set instance field: private Valve.VR.CVROverlay <overlay>k__BackingField
+    void _set_$overlay$k__BackingField(Valve::VR::CVROverlay* value);
+    // Get instance field: private System.Single <sceneWidth>k__BackingField
+    float _get_$sceneWidth$k__BackingField();
+    // Set instance field: private System.Single <sceneWidth>k__BackingField
+    void _set_$sceneWidth$k__BackingField(float value);
+    // Get instance field: private System.Single <sceneHeight>k__BackingField
+    float _get_$sceneHeight$k__BackingField();
+    // Set instance field: private System.Single <sceneHeight>k__BackingField
+    void _set_$sceneHeight$k__BackingField(float value);
+    // Get instance field: private System.Single <aspect>k__BackingField
+    float _get_$aspect$k__BackingField();
+    // Set instance field: private System.Single <aspect>k__BackingField
+    void _set_$aspect$k__BackingField(float value);
+    // Get instance field: private System.Single <fieldOfView>k__BackingField
+    float _get_$fieldOfView$k__BackingField();
+    // Set instance field: private System.Single <fieldOfView>k__BackingField
+    void _set_$fieldOfView$k__BackingField(float value);
+    // Get instance field: private UnityEngine.Vector2 <tanHalfFov>k__BackingField
+    UnityEngine::Vector2 _get_$tanHalfFov$k__BackingField();
+    // Set instance field: private UnityEngine.Vector2 <tanHalfFov>k__BackingField
+    void _set_$tanHalfFov$k__BackingField(UnityEngine::Vector2 value);
+    // Get instance field: private Valve.VR.VRTextureBounds_t[] <textureBounds>k__BackingField
+    ::Array<Valve::VR::VRTextureBounds_t>* _get_$textureBounds$k__BackingField();
+    // Set instance field: private Valve.VR.VRTextureBounds_t[] <textureBounds>k__BackingField
+    void _set_$textureBounds$k__BackingField(::Array<Valve::VR::VRTextureBounds_t>* value);
+    // Get instance field: private SteamVR_Utils/RigidTransform[] <eyes>k__BackingField
+    ::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* _get_$eyes$k__BackingField();
+    // Set instance field: private SteamVR_Utils/RigidTransform[] <eyes>k__BackingField
+    void _set_$eyes$k__BackingField(::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* value);
+    // Get instance field: public Valve.VR.ETextureType textureType
+    Valve::VR::ETextureType _get_textureType();
+    // Set instance field: public Valve.VR.ETextureType textureType
+    void _set_textureType(Valve::VR::ETextureType value);
     // static public System.Boolean get_active()
     // Offset: 0x139D3D4
     static bool get_active();

@@ -33,6 +33,14 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LowLevelStack
     LowLevelStack(::Array<System::ParameterizedStrings::FormatParam>* arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
+    // Get instance field: private System.ParameterizedStrings/System.FormatParam[] _arr
+    ::Array<System::ParameterizedStrings::FormatParam>* _get__arr();
+    // Set instance field: private System.ParameterizedStrings/System.FormatParam[] _arr
+    void _set__arr(::Array<System::ParameterizedStrings::FormatParam>* value);
+    // Get instance field: private System.Int32 _count
+    int _get__count();
+    // Set instance field: private System.Int32 _count
+    void _set__count(int value);
     // public System.ParameterizedStrings/System.FormatParam Pop()
     // Offset: 0x1CA2120
     System::ParameterizedStrings::FormatParam Pop();

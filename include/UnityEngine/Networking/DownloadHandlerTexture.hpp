@@ -59,6 +59,18 @@ namespace UnityEngine::Networking {
     DownloadHandlerTexture(UnityEngine::Texture2D* mTexture_ = {}, bool mHasTexture_ = {}, bool mNonReadable_ = {}) noexcept : mTexture{mTexture_}, mHasTexture{mHasTexture_}, mNonReadable{mNonReadable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Texture2D mTexture
+    UnityEngine::Texture2D* _get_mTexture();
+    // Set instance field: private UnityEngine.Texture2D mTexture
+    void _set_mTexture(UnityEngine::Texture2D* value);
+    // Get instance field: private System.Boolean mHasTexture
+    bool _get_mHasTexture();
+    // Set instance field: private System.Boolean mHasTexture
+    void _set_mHasTexture(bool value);
+    // Get instance field: private System.Boolean mNonReadable
+    bool _get_mNonReadable();
+    // Set instance field: private System.Boolean mNonReadable
+    void _set_mNonReadable(bool value);
     // public UnityEngine.Texture2D get_texture()
     // Offset: 0x23CA72C
     UnityEngine::Texture2D* get_texture();

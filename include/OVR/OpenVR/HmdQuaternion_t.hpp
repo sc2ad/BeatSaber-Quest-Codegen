@@ -45,6 +45,22 @@ namespace OVR::OpenVR {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.Double w
+    double _get_w();
+    // Set instance field: public System.Double w
+    void _set_w(double value);
+    // Get instance field: public System.Double x
+    double _get_x();
+    // Set instance field: public System.Double x
+    void _set_x(double value);
+    // Get instance field: public System.Double y
+    double _get_y();
+    // Set instance field: public System.Double y
+    void _set_y(double value);
+    // Get instance field: public System.Double z
+    double _get_z();
+    // Set instance field: public System.Double z
+    void _set_z(double value);
   }; // OVR.OpenVR.HmdQuaternion_t
   #pragma pack(pop)
   static check_size<sizeof(HmdQuaternion_t), 24 + sizeof(double)> __OVR_OpenVR_HmdQuaternion_tSizeCheck;

@@ -31,6 +31,14 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PemHeader
     PemHeader(::Il2CppString* name_ = {}, ::Il2CppString* val_ = {}) noexcept : name{name_}, val{val_} {}
+    // Get instance field: private System.String name
+    ::Il2CppString* _get_name();
+    // Set instance field: private System.String name
+    void _set_name(::Il2CppString* value);
+    // Get instance field: private System.String val
+    ::Il2CppString* _get_val();
+    // Set instance field: private System.String val
+    void _set_val(::Il2CppString* value);
     // public System.String get_Name()
     // Offset: 0x1F7CAD4
     ::Il2CppString* get_Name();

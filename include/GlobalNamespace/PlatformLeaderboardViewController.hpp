@@ -171,6 +171,70 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
     // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static void _set__scoresScope(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
+    // Get instance field: private LeaderboardTableView _leaderboardTableView
+    GlobalNamespace::LeaderboardTableView* _get__leaderboardTableView();
+    // Set instance field: private LeaderboardTableView _leaderboardTableView
+    void _set__leaderboardTableView(GlobalNamespace::LeaderboardTableView* value);
+    // Get instance field: private HMUI.IconSegmentedControl _scopeSegmentedControl
+    HMUI::IconSegmentedControl* _get__scopeSegmentedControl();
+    // Set instance field: private HMUI.IconSegmentedControl _scopeSegmentedControl
+    void _set__scopeSegmentedControl(HMUI::IconSegmentedControl* value);
+    // Get instance field: private LoadingControl _loadingControl
+    GlobalNamespace::LoadingControl* _get__loadingControl();
+    // Set instance field: private LoadingControl _loadingControl
+    void _set__loadingControl(GlobalNamespace::LoadingControl* value);
+    // Get instance field: private UnityEngine.Sprite _globalLeaderboardIcon
+    UnityEngine::Sprite* _get__globalLeaderboardIcon();
+    // Set instance field: private UnityEngine.Sprite _globalLeaderboardIcon
+    void _set__globalLeaderboardIcon(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _aroundPlayerLeaderboardIcon
+    UnityEngine::Sprite* _get__aroundPlayerLeaderboardIcon();
+    // Set instance field: private UnityEngine.Sprite _aroundPlayerLeaderboardIcon
+    void _set__aroundPlayerLeaderboardIcon(UnityEngine::Sprite* value);
+    // Get instance field: private UnityEngine.Sprite _friendsLeaderboardIcon
+    UnityEngine::Sprite* _get__friendsLeaderboardIcon();
+    // Set instance field: private UnityEngine.Sprite _friendsLeaderboardIcon
+    void _set__friendsLeaderboardIcon(UnityEngine::Sprite* value);
+    // Get instance field: private LevelStatsView _levelStatsView
+    GlobalNamespace::LevelStatsView* _get__levelStatsView();
+    // Set instance field: private LevelStatsView _levelStatsView
+    void _set__levelStatsView(GlobalNamespace::LevelStatsView* value);
+    // Get instance field: private readonly PlatformLeaderboardsModel _leaderboardsModel
+    GlobalNamespace::PlatformLeaderboardsModel* _get__leaderboardsModel();
+    // Set instance field: private readonly PlatformLeaderboardsModel _leaderboardsModel
+    void _set__leaderboardsModel(GlobalNamespace::PlatformLeaderboardsModel* value);
+    // Get instance field: private readonly PlayerDataModel _playerDataModel
+    GlobalNamespace::PlayerDataModel* _get__playerDataModel();
+    // Set instance field: private readonly PlayerDataModel _playerDataModel
+    void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
+    // Get instance field: private HMAsyncRequest _getScoresAsyncRequest
+    GlobalNamespace::HMAsyncRequest* _get__getScoresAsyncRequest();
+    // Set instance field: private HMAsyncRequest _getScoresAsyncRequest
+    void _set__getScoresAsyncRequest(GlobalNamespace::HMAsyncRequest* value);
+    // Get instance field: private System.Int32[] _playerScorePos
+    ::Array<int>* _get__playerScorePos();
+    // Set instance field: private System.Int32[] _playerScorePos
+    void _set__playerScorePos(::Array<int>* value);
+    // Get instance field: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
+    System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* _get__scores();
+    // Set instance field: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
+    void _set__scores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* value);
+    // Get instance field: private IDifficultyBeatmap _difficultyBeatmap
+    GlobalNamespace::IDifficultyBeatmap* _get__difficultyBeatmap();
+    // Set instance field: private IDifficultyBeatmap _difficultyBeatmap
+    void _set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // Get instance field: private System.Boolean _refreshIsNeeded
+    bool _get__refreshIsNeeded();
+    // Set instance field: private System.Boolean _refreshIsNeeded
+    void _set__refreshIsNeeded(bool value);
+    // Get instance field: private System.Boolean _hasScoresData
+    bool _get__hasScoresData();
+    // Set instance field: private System.Boolean _hasScoresData
+    void _set__hasScoresData(bool value);
+    // Get instance field: private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
+    ::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>* _get__scoreScopes();
+    // Set instance field: private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
+    void _set__scoreScopes(::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>* value);
     // public PlatformLeaderboardsModel get_leaderboardsModel()
     // Offset: 0x10FCD7C
     GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();

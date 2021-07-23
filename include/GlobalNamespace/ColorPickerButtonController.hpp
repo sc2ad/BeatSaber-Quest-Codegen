@@ -49,6 +49,14 @@ namespace GlobalNamespace {
     ColorPickerButtonController(UnityEngine::UI::Button* button_ = {}, UnityEngine::UI::Image* colorImage_ = {}) noexcept : button{button_}, colorImage{colorImage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.UI.Button _button
+    UnityEngine::UI::Button* _get__button();
+    // Set instance field: private UnityEngine.UI.Button _button
+    void _set__button(UnityEngine::UI::Button* value);
+    // Get instance field: private UnityEngine.UI.Image _colorImage
+    UnityEngine::UI::Image* _get__colorImage();
+    // Set instance field: private UnityEngine.UI.Image _colorImage
+    void _set__colorImage(UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Button get_button()
     // Offset: 0x107D03C
     UnityEngine::UI::Button* get_button();

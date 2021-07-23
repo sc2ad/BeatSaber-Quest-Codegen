@@ -47,6 +47,14 @@ namespace Zenject {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public Zenject.IPoolable Poolable
+    Zenject::IPoolable* _get_Poolable();
+    // Set instance field: public Zenject.IPoolable Poolable
+    void _set_Poolable(Zenject::IPoolable* value);
+    // Get instance field: public System.Int32 Priority
+    int _get_Priority();
+    // Set instance field: public System.Int32 Priority
+    void _set_Priority(int value);
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
     // Offset: 0xEE491C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

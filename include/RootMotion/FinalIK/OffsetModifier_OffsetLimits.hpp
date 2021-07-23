@@ -114,6 +114,50 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: OffsetLimits
     OffsetLimits(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float spring_ = {}, bool x_ = {}, bool y_ = {}, bool z_ = {}, float minX_ = {}, float maxX_ = {}, float minY_ = {}, float maxY_ = {}, float minZ_ = {}, float maxZ_ = {}) noexcept : effector{effector_}, spring{spring_}, x{x_}, y{y_}, z{z_}, minX{minX_}, maxX{maxX_}, minY{minY_}, maxY{maxY_}, minZ{minZ_}, maxZ{maxZ_} {}
+    // Get instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
+    RootMotion::FinalIK::FullBodyBipedEffector _get_effector();
+    // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector effector
+    void _set_effector(RootMotion::FinalIK::FullBodyBipedEffector value);
+    // Get instance field: public System.Single spring
+    float _get_spring();
+    // Set instance field: public System.Single spring
+    void _set_spring(float value);
+    // Get instance field: public System.Boolean x
+    bool _get_x();
+    // Set instance field: public System.Boolean x
+    void _set_x(bool value);
+    // Get instance field: public System.Boolean y
+    bool _get_y();
+    // Set instance field: public System.Boolean y
+    void _set_y(bool value);
+    // Get instance field: public System.Boolean z
+    bool _get_z();
+    // Set instance field: public System.Boolean z
+    void _set_z(bool value);
+    // Get instance field: public System.Single minX
+    float _get_minX();
+    // Set instance field: public System.Single minX
+    void _set_minX(float value);
+    // Get instance field: public System.Single maxX
+    float _get_maxX();
+    // Set instance field: public System.Single maxX
+    void _set_maxX(float value);
+    // Get instance field: public System.Single minY
+    float _get_minY();
+    // Set instance field: public System.Single minY
+    void _set_minY(float value);
+    // Get instance field: public System.Single maxY
+    float _get_maxY();
+    // Set instance field: public System.Single maxY
+    void _set_maxY(float value);
+    // Get instance field: public System.Single minZ
+    float _get_minZ();
+    // Set instance field: public System.Single minZ
+    void _set_minZ(float value);
+    // Get instance field: public System.Single maxZ
+    float _get_maxZ();
+    // Set instance field: public System.Single maxZ
+    void _set_maxZ(float value);
     // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
     // Offset: 0x1AB6084
     void Apply(RootMotion::FinalIK::IKEffector* e, UnityEngine::Quaternion rootRotation);

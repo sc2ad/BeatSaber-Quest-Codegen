@@ -96,6 +96,38 @@ namespace GlobalNamespace {
     MultiplayerEnvironmentResizeController(UnityEngine::Transform* platformEnd_ = {}, ::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>* resizeData_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, System::Action* resizingDidFinishEvent_ = {}, bool isResizingFinished_ = {}, bool edgeDistanceFromCenterFound_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : platformEnd{platformEnd_}, resizeData{resizeData_}, centerResizeController{centerResizeController_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, resizingDidFinishEvent{resizingDidFinishEvent_}, isResizingFinished{isResizingFinished_}, edgeDistanceFromCenterFound{edgeDistanceFromCenterFound_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Transform _platformEnd
+    UnityEngine::Transform* _get__platformEnd();
+    // Set instance field: private UnityEngine.Transform _platformEnd
+    void _set__platformEnd(UnityEngine::Transform* value);
+    // Get instance field: private MultiplayerEnvironmentResizeController/ResizeData[] _resizeData
+    ::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>* _get__resizeData();
+    // Set instance field: private MultiplayerEnvironmentResizeController/ResizeData[] _resizeData
+    void _set__resizeData(::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>* value);
+    // Get instance field: private readonly MultiplayerCenterResizeController _centerResizeController
+    GlobalNamespace::MultiplayerCenterResizeController* _get__centerResizeController();
+    // Set instance field: private readonly MultiplayerCenterResizeController _centerResizeController
+    void _set__centerResizeController(GlobalNamespace::MultiplayerCenterResizeController* value);
+    // Get instance field: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
+    GlobalNamespace::BeatmapObjectSpawnCenter* _get__beatmapObjectSpawnCenter();
+    // Set instance field: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
+    void _set__beatmapObjectSpawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* value);
+    // Get instance field: private System.Action resizingDidFinishEvent
+    System::Action* _get_resizingDidFinishEvent();
+    // Set instance field: private System.Action resizingDidFinishEvent
+    void _set_resizingDidFinishEvent(System::Action* value);
+    // Get instance field: private System.Boolean _isResizingFinished
+    bool _get__isResizingFinished();
+    // Set instance field: private System.Boolean _isResizingFinished
+    void _set__isResizingFinished(bool value);
+    // Get instance field: private System.Boolean _edgeDistanceFromCenterFound
+    bool _get__edgeDistanceFromCenterFound();
+    // Set instance field: private System.Boolean _edgeDistanceFromCenterFound
+    void _set__edgeDistanceFromCenterFound(bool value);
+    // Get instance field: private System.Boolean _spawnCenterDistanceFound
+    bool _get__spawnCenterDistanceFound();
+    // Set instance field: private System.Boolean _spawnCenterDistanceFound
+    void _set__spawnCenterDistanceFound(bool value);
     // public System.Boolean get_isResizingFinished()
     // Offset: 0x11AA914
     bool get_isResizingFinished();

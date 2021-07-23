@@ -85,6 +85,34 @@ namespace GlobalNamespace {
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Get instance field: private System.Int32 <>1__state
+    int _get_$$1__state();
+    // Set instance field: private System.Int32 <>1__state
+    void _set_$$1__state(int value);
+    // Get instance field: private System.Object <>2__current
+    ::Il2CppObject* _get_$$2__current();
+    // Set instance field: private System.Object <>2__current
+    void _set_$$2__current(::Il2CppObject* value);
+    // Get instance field: public SteamVR_LoadLevel <>4__this
+    GlobalNamespace::SteamVR_LoadLevel* _get_$$4__this();
+    // Set instance field: public SteamVR_LoadLevel <>4__this
+    void _set_$$4__this(GlobalNamespace::SteamVR_LoadLevel* value);
+    // Get instance field: private Valve.VR.CVROverlay <overlay>5__2
+    Valve::VR::CVROverlay* _get_$overlay$5__2();
+    // Set instance field: private Valve.VR.CVROverlay <overlay>5__2
+    void _set_$overlay$5__2(Valve::VR::CVROverlay* value);
+    // Get instance field: private System.Boolean <fadedForeground>5__3
+    bool _get_$fadedForeground$5__3();
+    // Set instance field: private System.Boolean <fadedForeground>5__3
+    void _set_$fadedForeground$5__3(bool value);
+    // Get instance field: private Valve.VR.CVRCompositor <compositor>5__4
+    Valve::VR::CVRCompositor* _get_$compositor$5__4();
+    // Set instance field: private Valve.VR.CVRCompositor <compositor>5__4
+    void _set_$compositor$5__4(Valve::VR::CVRCompositor* value);
+    // Get instance field: private SteamVR_Controller/Device <hmd>5__5
+    GlobalNamespace::SteamVR_Controller::Device* _get_$hmd$5__5();
+    // Set instance field: private SteamVR_Controller/Device <hmd>5__5
+    void _set_$hmd$5__5(GlobalNamespace::SteamVR_Controller::Device* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x13AA48C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

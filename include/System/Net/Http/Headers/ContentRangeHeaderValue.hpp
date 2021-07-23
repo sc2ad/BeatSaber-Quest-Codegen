@@ -44,6 +44,22 @@ namespace System::Net::Http::Headers {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: private System.String unit
+    ::Il2CppString* _get_unit();
+    // Set instance field: private System.String unit
+    void _set_unit(::Il2CppString* value);
+    // Get instance field: private System.Nullable`1<System.Int64> <From>k__BackingField
+    System::Nullable_1<int64_t> _get_$From$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.Int64> <From>k__BackingField
+    void _set_$From$k__BackingField(System::Nullable_1<int64_t> value);
+    // Get instance field: private System.Nullable`1<System.Int64> <Length>k__BackingField
+    System::Nullable_1<int64_t> _get_$Length$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.Int64> <Length>k__BackingField
+    void _set_$Length$k__BackingField(System::Nullable_1<int64_t> value);
+    // Get instance field: private System.Nullable`1<System.Int64> <To>k__BackingField
+    System::Nullable_1<int64_t> _get_$To$k__BackingField();
+    // Set instance field: private System.Nullable`1<System.Int64> <To>k__BackingField
+    void _set_$To$k__BackingField(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_From()
     // Offset: 0x15633E4
     System::Nullable_1<int64_t> get_From();

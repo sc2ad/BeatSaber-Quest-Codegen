@@ -35,6 +35,10 @@ namespace GlobalNamespace {
     constexpr operator UnityEngine::Color() const noexcept {
       return color;
     }
+    // Get instance field: public UnityEngine.Color color
+    UnityEngine::Color _get_color();
+    // Set instance field: public UnityEngine.Color color
+    void _set_color(UnityEngine::Color value);
     // public System.Void .ctor()
     // Offset: 0x1DF6314
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase

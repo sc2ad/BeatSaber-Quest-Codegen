@@ -294,6 +294,18 @@ namespace System::Globalization {
     static int _get_CurrentEra();
     // Set static field: static public System.Int32 CurrentEra
     static void _set_CurrentEra(int value);
+    // Get instance field: System.Int32 m_currentEraValue
+    int _get_m_currentEraValue();
+    // Set instance field: System.Int32 m_currentEraValue
+    void _set_m_currentEraValue(int value);
+    // Get instance field: private System.Boolean m_isReadOnly
+    bool _get_m_isReadOnly();
+    // Set instance field: private System.Boolean m_isReadOnly
+    void _set_m_isReadOnly(bool value);
+    // Get instance field: System.Int32 twoDigitYearMax
+    int _get_twoDigitYearMax();
+    // Set instance field: System.Int32 twoDigitYearMax
+    void _set_twoDigitYearMax(int value);
     // public System.DateTime get_MinSupportedDateTime()
     // Offset: 0x17CA068
     System::DateTime get_MinSupportedDateTime();

@@ -296,6 +296,10 @@ namespace System::Runtime::InteropServices {
     static System::Runtime::InteropServices::VarEnum _get_VT_BYREF();
     // Set static field: static public System.Runtime.InteropServices.VarEnum VT_BYREF
     static void _set_VT_BYREF(System::Runtime::InteropServices::VarEnum value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // System.Runtime.InteropServices.VarEnum
   #pragma pack(pop)
   static check_size<sizeof(VarEnum), 0 + sizeof(int)> __System_Runtime_InteropServices_VarEnumSizeCheck;

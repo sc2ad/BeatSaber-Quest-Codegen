@@ -127,6 +127,46 @@ namespace Mono::Security::X509 {
     static int _get_password_max_length();
     // Set static field: static private System.Int32 password_max_length
     static void _set_password_max_length(int value);
+    // Get instance field: private System.Byte[] _password
+    ::Array<uint8_t>* _get__password();
+    // Set instance field: private System.Byte[] _password
+    void _set__password(::Array<uint8_t>* value);
+    // Get instance field: private System.Collections.ArrayList _keyBags
+    System::Collections::ArrayList* _get__keyBags();
+    // Set instance field: private System.Collections.ArrayList _keyBags
+    void _set__keyBags(System::Collections::ArrayList* value);
+    // Get instance field: private System.Collections.ArrayList _secretBags
+    System::Collections::ArrayList* _get__secretBags();
+    // Set instance field: private System.Collections.ArrayList _secretBags
+    void _set__secretBags(System::Collections::ArrayList* value);
+    // Get instance field: private Mono.Security.X509.X509CertificateCollection _certs
+    Mono::Security::X509::X509CertificateCollection* _get__certs();
+    // Set instance field: private Mono.Security.X509.X509CertificateCollection _certs
+    void _set__certs(Mono::Security::X509::X509CertificateCollection* value);
+    // Get instance field: private System.Boolean _keyBagsChanged
+    bool _get__keyBagsChanged();
+    // Set instance field: private System.Boolean _keyBagsChanged
+    void _set__keyBagsChanged(bool value);
+    // Get instance field: private System.Boolean _secretBagsChanged
+    bool _get__secretBagsChanged();
+    // Set instance field: private System.Boolean _secretBagsChanged
+    void _set__secretBagsChanged(bool value);
+    // Get instance field: private System.Boolean _certsChanged
+    bool _get__certsChanged();
+    // Set instance field: private System.Boolean _certsChanged
+    void _set__certsChanged(bool value);
+    // Get instance field: private System.Int32 _iterations
+    int _get__iterations();
+    // Set instance field: private System.Int32 _iterations
+    void _set__iterations(int value);
+    // Get instance field: private System.Collections.ArrayList _safeBags
+    System::Collections::ArrayList* _get__safeBags();
+    // Set instance field: private System.Collections.ArrayList _safeBags
+    void _set__safeBags(System::Collections::ArrayList* value);
+    // Get instance field: private System.Security.Cryptography.RandomNumberGenerator _rng
+    System::Security::Cryptography::RandomNumberGenerator* _get__rng();
+    // Set instance field: private System.Security.Cryptography.RandomNumberGenerator _rng
+    void _set__rng(System::Security::Cryptography::RandomNumberGenerator* value);
     // public System.Void set_Password(System.String value)
     // Offset: 0x1DE3994
     void set_Password(::Il2CppString* value);

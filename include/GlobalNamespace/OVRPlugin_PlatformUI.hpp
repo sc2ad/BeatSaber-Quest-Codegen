@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::PlatformUI _get_GlobalMenuTutorial();
     // Set static field: static public OVRPlugin/PlatformUI GlobalMenuTutorial
     static void _set_GlobalMenuTutorial(GlobalNamespace::OVRPlugin::PlatformUI value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // OVRPlugin/PlatformUI
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::PlatformUI), 0 + sizeof(int)> __GlobalNamespace_OVRPlugin_PlatformUISizeCheck;

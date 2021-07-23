@@ -218,6 +218,62 @@ namespace MasterServer {
     static int64_t _get_kKeepaliveRequestIntervalMs();
     // Set static field: static private System.Int64 kKeepaliveRequestIntervalMs
     static void _set_kKeepaliveRequestIntervalMs(int64_t value);
+    // Get instance field: private MasterServer.UserMessageHandler/MasterServer.ConnectToClientDelegate connectToClientEvent
+    MasterServer::UserMessageHandler::ConnectToClientDelegate* _get_connectToClientEvent();
+    // Set instance field: private MasterServer.UserMessageHandler/MasterServer.ConnectToClientDelegate connectToClientEvent
+    void _set_connectToClientEvent(MasterServer::UserMessageHandler::ConnectToClientDelegate* value);
+    // Get instance field: private System.Action broadcastingStoppedEvent
+    System::Action* _get_broadcastingStoppedEvent();
+    // Set instance field: private System.Action broadcastingStoppedEvent
+    void _set_broadcastingStoppedEvent(System::Action* value);
+    // Get instance field: private System.Int64 _lastHeartbeatResponseTime
+    int64_t _get__lastHeartbeatResponseTime();
+    // Set instance field: private System.Int64 _lastHeartbeatResponseTime
+    void _set__lastHeartbeatResponseTime(int64_t value);
+    // Get instance field: private System.Int64 _lastHeartbeatRequestTime
+    int64_t _get__lastHeartbeatRequestTime();
+    // Set instance field: private System.Int64 _lastHeartbeatRequestTime
+    void _set__lastHeartbeatRequestTime(int64_t value);
+    // Get instance field: private System.Int64 _lastKeepaliveTime
+    int64_t _get__lastKeepaliveTime();
+    // Set instance field: private System.Int64 _lastKeepaliveTime
+    void _set__lastKeepaliveTime(int64_t value);
+    // Get instance field: private readonly IAuthenticationTokenProvider _authenticationTokenProvider
+    GlobalNamespace::IAuthenticationTokenProvider* _get__authenticationTokenProvider();
+    // Set instance field: private readonly IAuthenticationTokenProvider _authenticationTokenProvider
+    void _set__authenticationTokenProvider(GlobalNamespace::IAuthenticationTokenProvider* value);
+    // Get instance field: private System.Boolean _isServerActive
+    bool _get__isServerActive();
+    // Set instance field: private System.Boolean _isServerActive
+    void _set__isServerActive(bool value);
+    // Get instance field: private System.Boolean _isServerWaitingForBroadcastResult
+    bool _get__isServerWaitingForBroadcastResult();
+    // Set instance field: private System.Boolean _isServerWaitingForBroadcastResult
+    void _set__isServerWaitingForBroadcastResult(bool value);
+    // Get instance field: private System.String _serverUserId
+    ::Il2CppString* _get__serverUserId();
+    // Set instance field: private System.String _serverUserId
+    void _set__serverUserId(::Il2CppString* value);
+    // Get instance field: private System.String _serverUserName
+    ::Il2CppString* _get__serverUserName();
+    // Set instance field: private System.String _serverUserName
+    void _set__serverUserName(::Il2CppString* value);
+    // Get instance field: private System.String _serverSecret
+    ::Il2CppString* _get__serverSecret();
+    // Set instance field: private System.String _serverSecret
+    void _set__serverSecret(::Il2CppString* value);
+    // Get instance field: private System.Int32 _serverCurrentPlayerCount
+    int _get__serverCurrentPlayerCount();
+    // Set instance field: private System.Int32 _serverCurrentPlayerCount
+    void _set__serverCurrentPlayerCount(int value);
+    // Get instance field: private System.Byte[] _serverRandom
+    ::Array<uint8_t>* _get__serverRandom();
+    // Set instance field: private System.Byte[] _serverRandom
+    void _set__serverRandom(::Array<uint8_t>* value);
+    // Get instance field: private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> _serverKeysTask
+    System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* _get__serverKeysTask();
+    // Set instance field: private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> _serverKeysTask
+    void _set__serverKeysTask(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* value);
     // public IAuthenticationTokenProvider get_authenticationTokenProvider()
     // Offset: 0x12DC7F8
     GlobalNamespace::IAuthenticationTokenProvider* get_authenticationTokenProvider();

@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     constexpr operator GlobalNamespace::BeatmapLevelData*() const noexcept {
       return beatmapLevelData;
     }
+    // Get instance field: private BeatmapLevelData _beatmapLevelData
+    GlobalNamespace::BeatmapLevelData* _get__beatmapLevelData();
+    // Set instance field: private BeatmapLevelData _beatmapLevelData
+    void _set__beatmapLevelData(GlobalNamespace::BeatmapLevelData* value);
     // public IBeatmapLevelData get_beatmapLevelData()
     // Offset: 0x1084B2C
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

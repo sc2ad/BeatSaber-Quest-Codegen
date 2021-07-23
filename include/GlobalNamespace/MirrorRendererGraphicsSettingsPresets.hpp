@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     MirrorRendererGraphicsSettingsPresets(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* presets_ = {}) noexcept : presets{presets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
+    ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* _get__presets();
+    // Set instance field: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
+    void _set__presets(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* value);
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
     // Offset: 0x1181BBC
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* get_presets();

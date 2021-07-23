@@ -98,6 +98,30 @@ namespace GlobalNamespace {
     QuickPlaySongPacksDropdown(HMUI::SimpleTextDropdown* simpleTextDropdown_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, System::Action_1<int>* didSelectCellWithIdxEvent_ = {}, bool initialized_ = {}, GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride_ = {}, System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>* data_ = {}) noexcept : simpleTextDropdown{simpleTextDropdown_}, songPackMaskModel{songPackMaskModel_}, didSelectCellWithIdxEvent{didSelectCellWithIdxEvent_}, initialized{initialized_}, quickPlaySongPacksOverride{quickPlaySongPacksOverride_}, data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    HMUI::SimpleTextDropdown* _get__simpleTextDropdown();
+    // Set instance field: private HMUI.SimpleTextDropdown _simpleTextDropdown
+    void _set__simpleTextDropdown(HMUI::SimpleTextDropdown* value);
+    // Get instance field: private SongPackMaskModelSO _songPackMaskModel
+    GlobalNamespace::SongPackMaskModelSO* _get__songPackMaskModel();
+    // Set instance field: private SongPackMaskModelSO _songPackMaskModel
+    void _set__songPackMaskModel(GlobalNamespace::SongPackMaskModelSO* value);
+    // Get instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    System::Action_1<int>* _get_didSelectCellWithIdxEvent();
+    // Set instance field: private System.Action`1<System.Int32> didSelectCellWithIdxEvent
+    void _set_didSelectCellWithIdxEvent(System::Action_1<int>* value);
+    // Get instance field: private System.Boolean _initialized
+    bool _get__initialized();
+    // Set instance field: private System.Boolean _initialized
+    void _set__initialized(bool value);
+    // Get instance field: private MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride _quickPlaySongPacksOverride
+    GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* _get__quickPlaySongPacksOverride();
+    // Set instance field: private MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride _quickPlaySongPacksOverride
+    void _set__quickPlaySongPacksOverride(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* value);
+    // Get instance field: private System.Collections.Generic.List`1<QuickPlaySongPacksDropdown/SongPackMaskItem> _data
+    System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>* _get__data();
+    // Set instance field: private System.Collections.Generic.List`1<QuickPlaySongPacksDropdown/SongPackMaskItem> _data
+    void _set__data(System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>* value);
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
     // Offset: 0x11412E0
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);

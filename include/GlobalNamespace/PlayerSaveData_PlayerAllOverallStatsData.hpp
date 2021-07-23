@@ -45,6 +45,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
     // Creating value type constructor for type: PlayerAllOverallStatsData
     PlayerAllOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData_ = {}, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData_ = {}) noexcept : campaignOverallStatsData{campaignOverallStatsData_}, soloFreePlayOverallStatsData{soloFreePlayOverallStatsData_}, partyFreePlayOverallStatsData{partyFreePlayOverallStatsData_}, onlinePlayOverallStatsData{onlinePlayOverallStatsData_} {}
+    // Get instance field: public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
+    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* _get_campaignOverallStatsData();
+    // Set instance field: public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
+    void _set_campaignOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* value);
+    // Get instance field: public PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData
+    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* _get_soloFreePlayOverallStatsData();
+    // Set instance field: public PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData
+    void _set_soloFreePlayOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* value);
+    // Get instance field: public PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData
+    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* _get_partyFreePlayOverallStatsData();
+    // Set instance field: public PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData
+    void _set_partyFreePlayOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* value);
+    // Get instance field: public PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData
+    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* _get_onlinePlayOverallStatsData();
+    // Set instance field: public PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData
+    void _set_onlinePlayOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* value);
     // public System.Void .ctor(PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData)
     // Offset: 0x11047A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -46,6 +46,10 @@ namespace Valve::VR {
     constexpr operator Valve::VR::IVRNotifications() const noexcept {
       return FnTable;
     }
+    // Get instance field: private Valve.VR.IVRNotifications FnTable
+    Valve::VR::IVRNotifications _get_FnTable();
+    // Set instance field: private Valve.VR.IVRNotifications FnTable
+    void _set_FnTable(Valve::VR::IVRNotifications value);
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x16BC784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

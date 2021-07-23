@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     constexpr operator float() const noexcept {
       return songBpm;
     }
+    // Get instance field: public readonly System.Single songBpm
+    float _get_songBpm();
+    // Set instance field: public readonly System.Single songBpm
+    void _set_songBpm(float value);
     // public System.Void .ctor(System.Single songBpm)
     // Offset: 0x1074768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

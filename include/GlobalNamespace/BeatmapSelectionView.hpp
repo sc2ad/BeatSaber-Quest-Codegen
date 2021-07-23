@@ -53,6 +53,14 @@ namespace GlobalNamespace {
     BeatmapSelectionView(GlobalNamespace::LevelBar* levelBar_ = {}, TMPro::TextMeshProUGUI* noLevelText_ = {}) noexcept : levelBar{levelBar_}, noLevelText{noLevelText_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private LevelBar _levelBar
+    GlobalNamespace::LevelBar* _get__levelBar();
+    // Set instance field: private LevelBar _levelBar
+    void _set__levelBar(GlobalNamespace::LevelBar* value);
+    // Get instance field: private TMPro.TextMeshProUGUI _noLevelText
+    TMPro::TextMeshProUGUI* _get__noLevelText();
+    // Set instance field: private TMPro.TextMeshProUGUI _noLevelText
+    void _set__noLevelText(TMPro::TextMeshProUGUI* value);
     // public System.Void SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
     // Offset: 0x109A9A0
     void SetBeatmap(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);

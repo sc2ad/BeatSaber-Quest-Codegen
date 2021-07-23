@@ -63,6 +63,26 @@ namespace HMUI {
     SelectableCellStaticAnimations(HMUI::SelectableCell* selectableCell_ = {}, UnityEngine::AnimationClip* normalAnimationClip_ = {}, UnityEngine::AnimationClip* highlightedAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAnimationClip_ = {}, UnityEngine::AnimationClip* selectedAndHighlightedAnimationClip_ = {}) noexcept : selectableCell{selectableCell_}, normalAnimationClip{normalAnimationClip_}, highlightedAnimationClip{highlightedAnimationClip_}, selectedAnimationClip{selectedAnimationClip_}, selectedAndHighlightedAnimationClip{selectedAndHighlightedAnimationClip_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private HMUI.SelectableCell _selectableCell
+    HMUI::SelectableCell* _get__selectableCell();
+    // Set instance field: private HMUI.SelectableCell _selectableCell
+    void _set__selectableCell(HMUI::SelectableCell* value);
+    // Get instance field: private UnityEngine.AnimationClip _normalAnimationClip
+    UnityEngine::AnimationClip* _get__normalAnimationClip();
+    // Set instance field: private UnityEngine.AnimationClip _normalAnimationClip
+    void _set__normalAnimationClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _highlightedAnimationClip
+    UnityEngine::AnimationClip* _get__highlightedAnimationClip();
+    // Set instance field: private UnityEngine.AnimationClip _highlightedAnimationClip
+    void _set__highlightedAnimationClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _selectedAnimationClip
+    UnityEngine::AnimationClip* _get__selectedAnimationClip();
+    // Set instance field: private UnityEngine.AnimationClip _selectedAnimationClip
+    void _set__selectedAnimationClip(UnityEngine::AnimationClip* value);
+    // Get instance field: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
+    UnityEngine::AnimationClip* _get__selectedAndHighlightedAnimationClip();
+    // Set instance field: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
+    void _set__selectedAndHighlightedAnimationClip(UnityEngine::AnimationClip* value);
     // protected System.Void Awake()
     // Offset: 0x129CAFC
     void Awake();

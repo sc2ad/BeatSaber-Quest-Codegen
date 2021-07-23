@@ -53,6 +53,18 @@ namespace System::Net::Http::Headers {
     static_assert(sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: HeaderBucket
     HeaderBucket(::Il2CppObject* Parsed_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* values_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : Parsed{Parsed_}, values{values_}, CustomToString{CustomToString_} {}
+    // Get instance field: public System.Object Parsed
+    ::Il2CppObject* _get_Parsed();
+    // Set instance field: public System.Object Parsed
+    void _set_Parsed(::Il2CppObject* value);
+    // Get instance field: private System.Collections.Generic.List`1<System.String> values
+    System::Collections::Generic::List_1<::Il2CppString*>* _get_values();
+    // Set instance field: private System.Collections.Generic.List`1<System.String> values
+    void _set_values(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    // Get instance field: public readonly System.Func`2<System.Object,System.String> CustomToString
+    System::Func_2<::Il2CppObject*, ::Il2CppString*>* _get_CustomToString();
+    // Set instance field: public readonly System.Func`2<System.Object,System.String> CustomToString
+    void _set_CustomToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // public System.Boolean get_HasStringValues()
     // Offset: 0x1567344
     bool get_HasStringValues();

@@ -117,6 +117,70 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: AvatarSaveData
     AvatarSaveData(::Il2CppString* headTopId_ = {}, ::Il2CppString* glassesId_ = {}, ::Il2CppString* facialHairId_ = {}, ::Il2CppString* handsId_ = {}, ::Il2CppString* clothesId_ = {}, ::Il2CppString* skinColorId_ = {}, ::Il2CppString* mouthId_ = {}, ::Il2CppString* eyesId_ = {}, UnityEngine::Color headTopPrimaryColor_ = {}, UnityEngine::Color headTopSecondaryColor_ = {}, UnityEngine::Color glassesColor_ = {}, UnityEngine::Color facialHairColor_ = {}, UnityEngine::Color handsColor_ = {}, UnityEngine::Color clothesPrimaryColor_ = {}, UnityEngine::Color clothesSecondaryColor_ = {}, UnityEngine::Color clothesDetailColor_ = {}) noexcept : headTopId{headTopId_}, glassesId{glassesId_}, facialHairId{facialHairId_}, handsId{handsId_}, clothesId{clothesId_}, skinColorId{skinColorId_}, mouthId{mouthId_}, eyesId{eyesId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesColor{glassesColor_}, facialHairColor{facialHairColor_}, handsColor{handsColor_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_} {}
+    // Get instance field: public System.String headTopId
+    ::Il2CppString* _get_headTopId();
+    // Set instance field: public System.String headTopId
+    void _set_headTopId(::Il2CppString* value);
+    // Get instance field: public System.String glassesId
+    ::Il2CppString* _get_glassesId();
+    // Set instance field: public System.String glassesId
+    void _set_glassesId(::Il2CppString* value);
+    // Get instance field: public System.String facialHairId
+    ::Il2CppString* _get_facialHairId();
+    // Set instance field: public System.String facialHairId
+    void _set_facialHairId(::Il2CppString* value);
+    // Get instance field: public System.String handsId
+    ::Il2CppString* _get_handsId();
+    // Set instance field: public System.String handsId
+    void _set_handsId(::Il2CppString* value);
+    // Get instance field: public System.String clothesId
+    ::Il2CppString* _get_clothesId();
+    // Set instance field: public System.String clothesId
+    void _set_clothesId(::Il2CppString* value);
+    // Get instance field: public System.String skinColorId
+    ::Il2CppString* _get_skinColorId();
+    // Set instance field: public System.String skinColorId
+    void _set_skinColorId(::Il2CppString* value);
+    // Get instance field: public System.String mouthId
+    ::Il2CppString* _get_mouthId();
+    // Set instance field: public System.String mouthId
+    void _set_mouthId(::Il2CppString* value);
+    // Get instance field: public System.String eyesId
+    ::Il2CppString* _get_eyesId();
+    // Set instance field: public System.String eyesId
+    void _set_eyesId(::Il2CppString* value);
+    // Get instance field: public UnityEngine.Color headTopPrimaryColor
+    UnityEngine::Color _get_headTopPrimaryColor();
+    // Set instance field: public UnityEngine.Color headTopPrimaryColor
+    void _set_headTopPrimaryColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color headTopSecondaryColor
+    UnityEngine::Color _get_headTopSecondaryColor();
+    // Set instance field: public UnityEngine.Color headTopSecondaryColor
+    void _set_headTopSecondaryColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color glassesColor
+    UnityEngine::Color _get_glassesColor();
+    // Set instance field: public UnityEngine.Color glassesColor
+    void _set_glassesColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color facialHairColor
+    UnityEngine::Color _get_facialHairColor();
+    // Set instance field: public UnityEngine.Color facialHairColor
+    void _set_facialHairColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color handsColor
+    UnityEngine::Color _get_handsColor();
+    // Set instance field: public UnityEngine.Color handsColor
+    void _set_handsColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color clothesPrimaryColor
+    UnityEngine::Color _get_clothesPrimaryColor();
+    // Set instance field: public UnityEngine.Color clothesPrimaryColor
+    void _set_clothesPrimaryColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color clothesSecondaryColor
+    UnityEngine::Color _get_clothesSecondaryColor();
+    // Set instance field: public UnityEngine.Color clothesSecondaryColor
+    void _set_clothesSecondaryColor(UnityEngine::Color value);
+    // Get instance field: public UnityEngine.Color clothesDetailColor
+    UnityEngine::Color _get_clothesDetailColor();
+    // Set instance field: public UnityEngine.Color clothesDetailColor
+    void _set_clothesDetailColor(UnityEngine::Color value);
     // public System.Void .ctor()
     // Offset: 0x10DE578
     // Implemented from: System.Object

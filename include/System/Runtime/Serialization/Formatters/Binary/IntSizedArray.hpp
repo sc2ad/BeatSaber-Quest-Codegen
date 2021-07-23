@@ -38,6 +38,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
+    // Get instance field: System.Int32[] objects
+    ::Array<int>* _get_objects();
+    // Set instance field: System.Int32[] objects
+    void _set_objects(::Array<int>* value);
+    // Get instance field: System.Int32[] negObjects
+    ::Array<int>* _get_negObjects();
+    // Set instance field: System.Int32[] negObjects
+    void _set_negObjects(::Array<int>* value);
     // System.Int32 get_Item(System.Int32 index)
     // Offset: 0x15DC3DC
     int get_Item(int index);

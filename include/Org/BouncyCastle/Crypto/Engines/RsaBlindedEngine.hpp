@@ -62,6 +62,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
+    // Get instance field: private readonly Org.BouncyCastle.Crypto.IRsa core
+    Org::BouncyCastle::Crypto::IRsa* _get_core();
+    // Set instance field: private readonly Org.BouncyCastle.Crypto.IRsa core
+    void _set_core(Org::BouncyCastle::Crypto::IRsa* value);
+    // Get instance field: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
+    Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* _get_key();
+    // Set instance field: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
+    void _set_key(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+    // Get instance field: private Org.BouncyCastle.Security.SecureRandom random
+    Org::BouncyCastle::Security::SecureRandom* _get_random();
+    // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
+    void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa)
     // Offset: 0x1E52584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

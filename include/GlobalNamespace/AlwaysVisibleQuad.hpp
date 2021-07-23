@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     AlwaysVisibleQuad(UnityEngine::Mesh* mesh_ = {}) noexcept : mesh{mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Mesh _mesh
+    UnityEngine::Mesh* _get__mesh();
+    // Set instance field: private UnityEngine.Mesh _mesh
+    void _set__mesh(UnityEngine::Mesh* value);
     // protected System.Void OnEnable()
     // Offset: 0x233CBC0
     void OnEnable();

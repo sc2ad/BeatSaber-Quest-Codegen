@@ -90,6 +90,26 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
+    // Get instance field: private HMUI.TableView _tableView
+    HMUI::TableView* _get__tableView();
+    // Set instance field: private HMUI.TableView _tableView
+    void _set__tableView(HMUI::TableView* value);
+    // Get instance field: private FileBrowserTableCell _cellPrefab
+    GlobalNamespace::FileBrowserTableCell* _get__cellPrefab();
+    // Set instance field: private FileBrowserTableCell _cellPrefab
+    void _set__cellPrefab(GlobalNamespace::FileBrowserTableCell* value);
+    // Get instance field: private System.Single _cellHeight
+    float _get__cellHeight();
+    // Set instance field: private System.Single _cellHeight
+    void _set__cellHeight(float value);
+    // Get instance field: private System.Action`2<FileBrowserTableView,FileBrowserItem> didSelectRow
+    System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* _get_didSelectRow();
+    // Set instance field: private System.Action`2<FileBrowserTableView,FileBrowserItem> didSelectRow
+    void _set_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
+    // Get instance field: private FileBrowserItem[] _items
+    ::Array<GlobalNamespace::FileBrowserItem*>* _get__items();
+    // Set instance field: private FileBrowserItem[] _items
+    void _set__items(::Array<GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void add_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
     // Offset: 0x102607C
     void add_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);

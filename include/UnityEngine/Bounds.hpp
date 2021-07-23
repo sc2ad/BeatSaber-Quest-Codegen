@@ -61,6 +61,14 @@ namespace UnityEngine {
     operator System::IEquatable_1<UnityEngine::Bounds>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Bounds>*>(this);
     }
+    // Get instance field: private UnityEngine.Vector3 m_Center
+    UnityEngine::Vector3 _get_m_Center();
+    // Set instance field: private UnityEngine.Vector3 m_Center
+    void _set_m_Center(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 m_Extents
+    UnityEngine::Vector3 _get_m_Extents();
+    // Set instance field: private UnityEngine.Vector3 m_Extents
+    void _set_m_Extents(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_center()
     // Offset: 0xEF43B8
     UnityEngine::Vector3 get_center();

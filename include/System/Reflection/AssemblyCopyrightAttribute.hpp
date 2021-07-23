@@ -33,6 +33,10 @@ namespace System::Reflection {
     constexpr operator ::Il2CppString*() const noexcept {
       return m_copyright;
     }
+    // Get instance field: private System.String m_copyright
+    ::Il2CppString* _get_m_copyright();
+    // Set instance field: private System.String m_copyright
+    void _set_m_copyright(::Il2CppString* value);
     // public System.Void .ctor(System.String copyright)
     // Offset: 0x1CA555C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

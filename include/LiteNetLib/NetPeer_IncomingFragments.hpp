@@ -52,6 +52,22 @@ namespace LiteNetLib {
     static_assert(sizeof(uint8_t) == 0x1);
     // Creating value type constructor for type: IncomingFragments
     IncomingFragments(::Array<LiteNetLib::NetPacket*>* Fragments_ = {}, int ReceivedCount_ = {}, int TotalSize_ = {}, uint8_t ChannelId_ = {}) noexcept : Fragments{Fragments_}, ReceivedCount{ReceivedCount_}, TotalSize{TotalSize_}, ChannelId{ChannelId_} {}
+    // Get instance field: public LiteNetLib.NetPacket[] Fragments
+    ::Array<LiteNetLib::NetPacket*>* _get_Fragments();
+    // Set instance field: public LiteNetLib.NetPacket[] Fragments
+    void _set_Fragments(::Array<LiteNetLib::NetPacket*>* value);
+    // Get instance field: public System.Int32 ReceivedCount
+    int _get_ReceivedCount();
+    // Set instance field: public System.Int32 ReceivedCount
+    void _set_ReceivedCount(int value);
+    // Get instance field: public System.Int32 TotalSize
+    int _get_TotalSize();
+    // Set instance field: public System.Int32 TotalSize
+    void _set_TotalSize(int value);
+    // Get instance field: public System.Byte ChannelId
+    uint8_t _get_ChannelId();
+    // Set instance field: public System.Byte ChannelId
+    void _set_ChannelId(uint8_t value);
     // public System.Void .ctor()
     // Offset: 0x1BB9FB4
     // Implemented from: System.Object

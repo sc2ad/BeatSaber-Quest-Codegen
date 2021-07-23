@@ -51,6 +51,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE) == 0x4);
     // Creating value type constructor for type: InternalFE
     InternalFE(System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat_ = {}, System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat_ = {}, System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum_ = {}) noexcept : FEtypeFormat{FEtypeFormat_}, FEassemblyFormat{FEassemblyFormat_}, FEsecurityLevel{FEsecurityLevel_}, FEserializerTypeEnum{FEserializerTypeEnum_} {}
+    // Get instance field: System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
+    System::Runtime::Serialization::Formatters::FormatterTypeStyle _get_FEtypeFormat();
+    // Set instance field: System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
+    void _set_FEtypeFormat(System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
+    // Get instance field: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle FEassemblyFormat
+    System::Runtime::Serialization::Formatters::FormatterAssemblyStyle _get_FEassemblyFormat();
+    // Set instance field: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle FEassemblyFormat
+    void _set_FEassemblyFormat(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
+    // Get instance field: System.Runtime.Serialization.Formatters.TypeFilterLevel FEsecurityLevel
+    System::Runtime::Serialization::Formatters::TypeFilterLevel _get_FEsecurityLevel();
+    // Set instance field: System.Runtime.Serialization.Formatters.TypeFilterLevel FEsecurityLevel
+    void _set_FEsecurityLevel(System::Runtime::Serialization::Formatters::TypeFilterLevel value);
+    // Get instance field: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum
+    System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE _get_FEserializerTypeEnum();
+    // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum
+    void _set_FEserializerTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value);
     // public System.Void .ctor()
     // Offset: 0x15D8DF4
     // Implemented from: System.Object

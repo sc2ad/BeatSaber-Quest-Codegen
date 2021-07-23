@@ -34,6 +34,10 @@ namespace UnityEngine::Bindings {
     constexpr operator ::Il2CppString*() const noexcept {
       return Header;
     }
+    // Get instance field: private System.String <Header>k__BackingField
+    ::Il2CppString* _get_$Header$k__BackingField();
+    // Set instance field: private System.String <Header>k__BackingField
+    void _set_$Header$k__BackingField(::Il2CppString* value);
     // public System.Void set_Header(System.String value)
     // Offset: 0x23C1BA8
     void set_Header(::Il2CppString* value);

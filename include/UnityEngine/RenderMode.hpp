@@ -49,6 +49,10 @@ namespace UnityEngine {
     static UnityEngine::RenderMode _get_WorldSpace();
     // Set static field: static public UnityEngine.RenderMode WorldSpace
     static void _set_WorldSpace(UnityEngine::RenderMode value);
+    // Get instance field: public System.Int32 value__
+    int _get_value__();
+    // Set instance field: public System.Int32 value__
+    void _set_value__(int value);
   }; // UnityEngine.RenderMode
   #pragma pack(pop)
   static check_size<sizeof(RenderMode), 0 + sizeof(int)> __UnityEngine_RenderModeSizeCheck;

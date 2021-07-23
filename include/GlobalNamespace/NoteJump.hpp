@@ -256,6 +256,134 @@ namespace GlobalNamespace {
     static float _get_kMissedTimeOffset();
     // Set static field: static public System.Single kMissedTimeOffset
     static void _set_kMissedTimeOffset(float value);
+    // Get instance field: private UnityEngine.Transform _rotatedObject
+    UnityEngine::Transform* _get__rotatedObject();
+    // Set instance field: private UnityEngine.Transform _rotatedObject
+    void _set__rotatedObject(UnityEngine::Transform* value);
+    // Get instance field: private System.Single _yAvoidanceUp
+    float _get__yAvoidanceUp();
+    // Set instance field: private System.Single _yAvoidanceUp
+    void _set__yAvoidanceUp(float value);
+    // Get instance field: private System.Single _yAvoidanceDown
+    float _get__yAvoidanceDown();
+    // Set instance field: private System.Single _yAvoidanceDown
+    void _set__yAvoidanceDown(float value);
+    // Get instance field: private System.Single _endDistanceOffset
+    float _get__endDistanceOffset();
+    // Set instance field: private System.Single _endDistanceOffset
+    void _set__endDistanceOffset(float value);
+    // Get instance field: private readonly PlayerTransforms _playerTransforms
+    GlobalNamespace::PlayerTransforms* _get__playerTransforms();
+    // Set instance field: private readonly PlayerTransforms _playerTransforms
+    void _set__playerTransforms(GlobalNamespace::PlayerTransforms* value);
+    // Get instance field: private readonly PlayerSpaceConvertor _playerSpaceConvertor
+    GlobalNamespace::PlayerSpaceConvertor* _get__playerSpaceConvertor();
+    // Set instance field: private readonly PlayerSpaceConvertor _playerSpaceConvertor
+    void _set__playerSpaceConvertor(GlobalNamespace::PlayerSpaceConvertor* value);
+    // Get instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    GlobalNamespace::IAudioTimeSource* _get__audioTimeSyncController();
+    // Set instance field: private readonly IAudioTimeSource _audioTimeSyncController
+    void _set__audioTimeSyncController(GlobalNamespace::IAudioTimeSource* value);
+    // Get instance field: private System.Action noteJumpDidFinishEvent
+    System::Action* _get_noteJumpDidFinishEvent();
+    // Set instance field: private System.Action noteJumpDidFinishEvent
+    void _set_noteJumpDidFinishEvent(System::Action* value);
+    // Get instance field: private System.Action noteJumpDidPassMissedMarkerEvent
+    System::Action* _get_noteJumpDidPassMissedMarkerEvent();
+    // Set instance field: private System.Action noteJumpDidPassMissedMarkerEvent
+    void _set_noteJumpDidPassMissedMarkerEvent(System::Action* value);
+    // Get instance field: private System.Action`1<NoteJump> noteJumpDidPassThreeQuartersEvent
+    System::Action_1<GlobalNamespace::NoteJump*>* _get_noteJumpDidPassThreeQuartersEvent();
+    // Set instance field: private System.Action`1<NoteJump> noteJumpDidPassThreeQuartersEvent
+    void _set_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
+    // Get instance field: private System.Action noteJumpDidPassHalfEvent
+    System::Action* _get_noteJumpDidPassHalfEvent();
+    // Set instance field: private System.Action noteJumpDidPassHalfEvent
+    void _set_noteJumpDidPassHalfEvent(System::Action* value);
+    // Get instance field: private System.Action`1<System.Single> noteJumpDidUpdateProgressEvent
+    System::Action_1<float>* _get_noteJumpDidUpdateProgressEvent();
+    // Set instance field: private System.Action`1<System.Single> noteJumpDidUpdateProgressEvent
+    void _set_noteJumpDidUpdateProgressEvent(System::Action_1<float>* value);
+    // Get instance field: private UnityEngine.Vector3 _startPos
+    UnityEngine::Vector3 _get__startPos();
+    // Set instance field: private UnityEngine.Vector3 _startPos
+    void _set__startPos(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _endPos
+    UnityEngine::Vector3 _get__endPos();
+    // Set instance field: private UnityEngine.Vector3 _endPos
+    void _set__endPos(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _jumpDuration
+    float _get__jumpDuration();
+    // Set instance field: private System.Single _jumpDuration
+    void _set__jumpDuration(float value);
+    // Get instance field: private UnityEngine.Vector3 _moveVec
+    UnityEngine::Vector3 _get__moveVec();
+    // Set instance field: private UnityEngine.Vector3 _moveVec
+    void _set__moveVec(UnityEngine::Vector3 value);
+    // Get instance field: private System.Single _beatTime
+    float _get__beatTime();
+    // Set instance field: private System.Single _beatTime
+    void _set__beatTime(float value);
+    // Get instance field: private System.Single _startVerticalVelocity
+    float _get__startVerticalVelocity();
+    // Set instance field: private System.Single _startVerticalVelocity
+    void _set__startVerticalVelocity(float value);
+    // Get instance field: private UnityEngine.Quaternion _startRotation
+    UnityEngine::Quaternion _get__startRotation();
+    // Set instance field: private UnityEngine.Quaternion _startRotation
+    void _set__startRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion _middleRotation
+    UnityEngine::Quaternion _get__middleRotation();
+    // Set instance field: private UnityEngine.Quaternion _middleRotation
+    void _set__middleRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion _endRotation
+    UnityEngine::Quaternion _get__endRotation();
+    // Set instance field: private UnityEngine.Quaternion _endRotation
+    void _set__endRotation(UnityEngine::Quaternion value);
+    // Get instance field: private System.Single _gravity
+    float _get__gravity();
+    // Set instance field: private System.Single _gravity
+    void _set__gravity(float value);
+    // Get instance field: private System.Single _yAvoidance
+    float _get__yAvoidance();
+    // Set instance field: private System.Single _yAvoidance
+    void _set__yAvoidance(float value);
+    // Get instance field: private System.Single _missedTime
+    float _get__missedTime();
+    // Set instance field: private System.Single _missedTime
+    void _set__missedTime(float value);
+    // Get instance field: private System.Boolean _missedMarkReported
+    bool _get__missedMarkReported();
+    // Set instance field: private System.Boolean _missedMarkReported
+    void _set__missedMarkReported(bool value);
+    // Get instance field: private System.Boolean _threeQuartersMarkReported
+    bool _get__threeQuartersMarkReported();
+    // Set instance field: private System.Boolean _threeQuartersMarkReported
+    void _set__threeQuartersMarkReported(bool value);
+    // Get instance field: private System.Boolean _halfJumpMarkReported
+    bool _get__halfJumpMarkReported();
+    // Set instance field: private System.Boolean _halfJumpMarkReported
+    void _set__halfJumpMarkReported(bool value);
+    // Get instance field: private UnityEngine.Vector3 _localPosition
+    UnityEngine::Vector3 _get__localPosition();
+    // Set instance field: private UnityEngine.Vector3 _localPosition
+    void _set__localPosition(UnityEngine::Vector3 value);
+    // Get instance field: private readonly UnityEngine.Vector3[] _randomRotations
+    ::Array<UnityEngine::Vector3>* _get__randomRotations();
+    // Set instance field: private readonly UnityEngine.Vector3[] _randomRotations
+    void _set__randomRotations(::Array<UnityEngine::Vector3>* value);
+    // Get instance field: private System.Int32 _randomRotationIdx
+    int _get__randomRotationIdx();
+    // Set instance field: private System.Int32 _randomRotationIdx
+    void _set__randomRotationIdx(int value);
+    // Get instance field: private UnityEngine.Quaternion _worldRotation
+    UnityEngine::Quaternion _get__worldRotation();
+    // Set instance field: private UnityEngine.Quaternion _worldRotation
+    void _set__worldRotation(UnityEngine::Quaternion value);
+    // Get instance field: private UnityEngine.Quaternion _inverseWorldRotation
+    UnityEngine::Quaternion _get__inverseWorldRotation();
+    // Set instance field: private UnityEngine.Quaternion _inverseWorldRotation
+    void _set__inverseWorldRotation(UnityEngine::Quaternion value);
     // public System.Single get_distanceToPlayer()
     // Offset: 0x11E5000
     float get_distanceToPlayer();

@@ -93,6 +93,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: IKSolverFullBodyBiped
     IKSolverFullBodyBiped(UnityEngine::Transform* rootNode_ = {}, float spineStiffness_ = {}, float pullBodyVertical_ = {}, float pullBodyHorizontal_ = {}, UnityEngine::Vector3 pullBodyOffset_ = {}, UnityEngine::Vector3 offset_ = {}) noexcept : rootNode{rootNode_}, spineStiffness{spineStiffness_}, pullBodyVertical{pullBodyVertical_}, pullBodyHorizontal{pullBodyHorizontal_}, pullBodyOffset{pullBodyOffset_}, offset{offset_} {}
+    // Get instance field: public UnityEngine.Transform rootNode
+    UnityEngine::Transform* _get_rootNode();
+    // Set instance field: public UnityEngine.Transform rootNode
+    void _set_rootNode(UnityEngine::Transform* value);
+    // Get instance field: public System.Single spineStiffness
+    float _get_spineStiffness();
+    // Set instance field: public System.Single spineStiffness
+    void _set_spineStiffness(float value);
+    // Get instance field: public System.Single pullBodyVertical
+    float _get_pullBodyVertical();
+    // Set instance field: public System.Single pullBodyVertical
+    void _set_pullBodyVertical(float value);
+    // Get instance field: public System.Single pullBodyHorizontal
+    float _get_pullBodyHorizontal();
+    // Set instance field: public System.Single pullBodyHorizontal
+    void _set_pullBodyHorizontal(float value);
+    // Get instance field: private UnityEngine.Vector3 <pullBodyOffset>k__BackingField
+    UnityEngine::Vector3 _get_$pullBodyOffset$k__BackingField();
+    // Set instance field: private UnityEngine.Vector3 <pullBodyOffset>k__BackingField
+    void _set_$pullBodyOffset$k__BackingField(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 offset
+    UnityEngine::Vector3 _get_offset();
+    // Set instance field: private UnityEngine.Vector3 offset
+    void _set_offset(UnityEngine::Vector3 value);
     // public RootMotion.FinalIK.IKEffector get_bodyEffector()
     // Offset: 0x1C6386C
     RootMotion::FinalIK::IKEffector* get_bodyEffector();

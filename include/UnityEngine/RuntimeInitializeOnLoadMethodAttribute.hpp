@@ -35,6 +35,10 @@ namespace UnityEngine {
     constexpr operator UnityEngine::RuntimeInitializeLoadType() const noexcept {
       return m_LoadType;
     }
+    // Get instance field: private UnityEngine.RuntimeInitializeLoadType m_LoadType
+    UnityEngine::RuntimeInitializeLoadType _get_m_LoadType();
+    // Set instance field: private UnityEngine.RuntimeInitializeLoadType m_LoadType
+    void _set_m_LoadType(UnityEngine::RuntimeInitializeLoadType value);
     // private System.Void set_loadType(UnityEngine.RuntimeInitializeLoadType value)
     // Offset: 0x1C81390
     void set_loadType(UnityEngine::RuntimeInitializeLoadType value);

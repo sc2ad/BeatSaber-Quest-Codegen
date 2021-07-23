@@ -59,6 +59,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BombNoteController
     BombNoteController(GlobalNamespace::CuttableBySaber* cuttableBySaber_ = {}, UnityEngine::GameObject* wrapperGO_ = {}, bool hidden_ = {}) noexcept : cuttableBySaber{cuttableBySaber_}, wrapperGO{wrapperGO_}, hidden{hidden_} {}
+    // Get instance field: private CuttableBySaber _cuttableBySaber
+    GlobalNamespace::CuttableBySaber* _get__cuttableBySaber();
+    // Set instance field: private CuttableBySaber _cuttableBySaber
+    void _set__cuttableBySaber(GlobalNamespace::CuttableBySaber* value);
+    // Get instance field: private UnityEngine.GameObject _wrapperGO
+    UnityEngine::GameObject* _get__wrapperGO();
+    // Set instance field: private UnityEngine.GameObject _wrapperGO
+    void _set__wrapperGO(UnityEngine::GameObject* value);
+    // Get instance field: private System.Boolean _hidden
+    bool _get__hidden();
+    // Set instance field: private System.Boolean _hidden
+    void _set__hidden(bool value);
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity)
     // Offset: 0x109E394
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity);

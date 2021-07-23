@@ -41,6 +41,10 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColor*) == 0x8);
     // Creating value type constructor for type: BloomPrePassBackgroundLightWithId
     BloomPrePassBackgroundLightWithId(GlobalNamespace::BloomPrePassBackgroundColor* bloomPrePassBackgroundColor_ = {}) noexcept : bloomPrePassBackgroundColor{bloomPrePassBackgroundColor_} {}
+    // Get instance field: private BloomPrePassBackgroundColor _bloomPrePassBackgroundColor
+    GlobalNamespace::BloomPrePassBackgroundColor* _get__bloomPrePassBackgroundColor();
+    // Set instance field: private BloomPrePassBackgroundColor _bloomPrePassBackgroundColor
+    void _set__bloomPrePassBackgroundColor(GlobalNamespace::BloomPrePassBackgroundColor* value);
     // public UnityEngine.Color get_color()
     // Offset: 0x1DECF14
     UnityEngine::Color get_color();

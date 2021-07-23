@@ -71,6 +71,18 @@ namespace HMUI {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private System.String _text
+    ::Il2CppString* _get__text();
+    // Set instance field: private System.String _text
+    void _set__text(::Il2CppString* value);
+    // Get instance field: private readonly HMUI.HoverHintController _hoverHintController
+    HMUI::HoverHintController* _get__hoverHintController();
+    // Set instance field: private readonly HMUI.HoverHintController _hoverHintController
+    void _set__hoverHintController(HMUI::HoverHintController* value);
+    // Get instance field: private readonly UnityEngine.Vector3[] _worldCornersTemp
+    ::Array<UnityEngine::Vector3>* _get__worldCornersTemp();
+    // Set instance field: private readonly UnityEngine.Vector3[] _worldCornersTemp
+    void _set__worldCornersTemp(::Array<UnityEngine::Vector3>* value);
     // public System.String get_text()
     // Offset: 0x130FE90
     ::Il2CppString* get_text();

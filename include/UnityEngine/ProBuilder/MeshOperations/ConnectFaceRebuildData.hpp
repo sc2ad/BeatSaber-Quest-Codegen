@@ -44,6 +44,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
     // Creating value type constructor for type: ConnectFaceRebuildData
     ConnectFaceRebuildData(UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData_ = {}, System::Collections::Generic::List_1<int>* newVertexIndexes_ = {}) noexcept : faceRebuildData{faceRebuildData_}, newVertexIndexes{newVertexIndexes_} {}
+    // Get instance field: public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
+    UnityEngine::ProBuilder::FaceRebuildData* _get_faceRebuildData();
+    // Set instance field: public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
+    void _set_faceRebuildData(UnityEngine::ProBuilder::FaceRebuildData* value);
+    // Get instance field: public System.Collections.Generic.List`1<System.Int32> newVertexIndexes
+    System::Collections::Generic::List_1<int>* _get_newVertexIndexes();
+    // Set instance field: public System.Collections.Generic.List`1<System.Int32> newVertexIndexes
+    void _set_newVertexIndexes(System::Collections::Generic::List_1<int>* value);
     // public System.Void .ctor(UnityEngine.ProBuilder.FaceRebuildData faceRebuildData, System.Collections.Generic.List`1<System.Int32> newVertexIndexes)
     // Offset: 0x151D95C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

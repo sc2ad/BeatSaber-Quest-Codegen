@@ -42,6 +42,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<UnityEngine::Vector2Int>*) == 0x8);
     // Creating value type constructor for type: WindowResolutionSettingsController
     WindowResolutionSettingsController(GlobalNamespace::Vector2IntSO* windowResolution_ = {}, ::Array<UnityEngine::Vector2Int>* windowResolutions_ = {}) noexcept : windowResolution{windowResolution_}, windowResolutions{windowResolutions_} {}
+    // Get instance field: private Vector2IntSO _windowResolution
+    GlobalNamespace::Vector2IntSO* _get__windowResolution();
+    // Set instance field: private Vector2IntSO _windowResolution
+    void _set__windowResolution(GlobalNamespace::Vector2IntSO* value);
+    // Get instance field: private UnityEngine.Vector2Int[] _windowResolutions
+    ::Array<UnityEngine::Vector2Int>* _get__windowResolutions();
+    // Set instance field: private UnityEngine.Vector2Int[] _windowResolutions
+    void _set__windowResolutions(::Array<UnityEngine::Vector2Int>* value);
     // public System.Void .ctor()
     // Offset: 0x12803A0
     // Implemented from: ListSettingsController

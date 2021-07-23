@@ -39,6 +39,10 @@ namespace System::Runtime::Remoting {
     constexpr operator System::Type*() const noexcept {
       return obj_type;
     }
+    // Get instance field: private System.Type obj_type
+    System::Type* _get_obj_type();
+    // Set instance field: private System.Type obj_type
+    void _set_obj_type(System::Type* value);
     // public System.Type get_ObjectType()
     // Offset: 0x13F3334
     System::Type* get_ObjectType();

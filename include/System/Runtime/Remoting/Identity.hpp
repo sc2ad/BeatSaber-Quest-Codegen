@@ -85,6 +85,34 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Identity
     Identity(::Il2CppString* objectUri_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* channelSink_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* envoySink_ = {}, System::Runtime::Remoting::Contexts::DynamicPropertyCollection* clientDynamicProperties_ = {}, System::Runtime::Remoting::Contexts::DynamicPropertyCollection* serverDynamicProperties_ = {}, System::Runtime::Remoting::ObjRef* objRef_ = {}, bool disposed_ = {}) noexcept : objectUri{objectUri_}, channelSink{channelSink_}, envoySink{envoySink_}, clientDynamicProperties{clientDynamicProperties_}, serverDynamicProperties{serverDynamicProperties_}, objRef{objRef_}, disposed{disposed_} {}
+    // Get instance field: protected System.String _objectUri
+    ::Il2CppString* _get__objectUri();
+    // Set instance field: protected System.String _objectUri
+    void _set__objectUri(::Il2CppString* value);
+    // Get instance field: protected System.Runtime.Remoting.Messaging.IMessageSink _channelSink
+    System::Runtime::Remoting::Messaging::IMessageSink* _get__channelSink();
+    // Set instance field: protected System.Runtime.Remoting.Messaging.IMessageSink _channelSink
+    void _set__channelSink(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    // Get instance field: protected System.Runtime.Remoting.Messaging.IMessageSink _envoySink
+    System::Runtime::Remoting::Messaging::IMessageSink* _get__envoySink();
+    // Set instance field: protected System.Runtime.Remoting.Messaging.IMessageSink _envoySink
+    void _set__envoySink(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    // Get instance field: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _clientDynamicProperties
+    System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _get__clientDynamicProperties();
+    // Set instance field: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _clientDynamicProperties
+    void _set__clientDynamicProperties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+    // Get instance field: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _serverDynamicProperties
+    System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _get__serverDynamicProperties();
+    // Set instance field: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection _serverDynamicProperties
+    void _set__serverDynamicProperties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+    // Get instance field: protected System.Runtime.Remoting.ObjRef _objRef
+    System::Runtime::Remoting::ObjRef* _get__objRef();
+    // Set instance field: protected System.Runtime.Remoting.ObjRef _objRef
+    void _set__objRef(System::Runtime::Remoting::ObjRef* value);
+    // Get instance field: private System.Boolean _disposed
+    bool _get__disposed();
+    // Set instance field: private System.Boolean _disposed
+    void _set__disposed(bool value);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_ChannelSink()
     // Offset: 0x19F0C20
     System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();

@@ -77,6 +77,42 @@ namespace UnityEngine {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: private System.Int32 m_Name
+    int _get_m_Name();
+    // Set instance field: private System.Int32 m_Name
+    void _set_m_Name(int value);
+    // Get instance field: private System.Int32 m_Path
+    int _get_m_Path();
+    // Set instance field: private System.Int32 m_Path
+    void _set_m_Path(int value);
+    // Get instance field: private System.Int32 m_FullPath
+    int _get_m_FullPath();
+    // Set instance field: private System.Int32 m_FullPath
+    void _set_m_FullPath(int value);
+    // Get instance field: private System.Single m_NormalizedTime
+    float _get_m_NormalizedTime();
+    // Set instance field: private System.Single m_NormalizedTime
+    void _set_m_NormalizedTime(float value);
+    // Get instance field: private System.Single m_Length
+    float _get_m_Length();
+    // Set instance field: private System.Single m_Length
+    void _set_m_Length(float value);
+    // Get instance field: private System.Single m_Speed
+    float _get_m_Speed();
+    // Set instance field: private System.Single m_Speed
+    void _set_m_Speed(float value);
+    // Get instance field: private System.Single m_SpeedMultiplier
+    float _get_m_SpeedMultiplier();
+    // Set instance field: private System.Single m_SpeedMultiplier
+    void _set_m_SpeedMultiplier(float value);
+    // Get instance field: private System.Int32 m_Tag
+    int _get_m_Tag();
+    // Set instance field: private System.Int32 m_Tag
+    void _set_m_Tag(int value);
+    // Get instance field: private System.Int32 m_Loop
+    int _get_m_Loop();
+    // Set instance field: private System.Int32 m_Loop
+    void _set_m_Loop(int value);
     // public System.Single get_normalizedTime()
     // Offset: 0xF0C8A8
     float get_normalizedTime();

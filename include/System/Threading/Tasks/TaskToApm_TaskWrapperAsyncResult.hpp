@@ -57,6 +57,18 @@ namespace System::Threading::Tasks {
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
+    // Get instance field: readonly System.Threading.Tasks.Task Task
+    System::Threading::Tasks::Task* _get_Task();
+    // Set instance field: readonly System.Threading.Tasks.Task Task
+    void _set_Task(System::Threading::Tasks::Task* value);
+    // Get instance field: private readonly System.Object m_state
+    ::Il2CppObject* _get_m_state();
+    // Set instance field: private readonly System.Object m_state
+    void _set_m_state(::Il2CppObject* value);
+    // Get instance field: private readonly System.Boolean m_completedSynchronously
+    bool _get_m_completedSynchronously();
+    // Set instance field: private readonly System.Boolean m_completedSynchronously
+    void _set_m_completedSynchronously(bool value);
     // private System.Object System.IAsyncResult.get_AsyncState()
     // Offset: 0x188933C
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();

@@ -53,6 +53,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
     // Creating value type constructor for type: MultiplayerLocalPlayerInstaller
     MultiplayerLocalPlayerInstaller(GlobalNamespace::MultiplayerLevelSceneSetupData* levelSceneSetupData_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::MultiplayerPlayerStartState startState_ = {}) noexcept : levelSceneSetupData{levelSceneSetupData_}, multiplayerSessionManager{multiplayerSessionManager_}, startState{startState_} {}
+    // Get instance field: private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
+    GlobalNamespace::MultiplayerLevelSceneSetupData* _get__levelSceneSetupData();
+    // Set instance field: private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
+    void _set__levelSceneSetupData(GlobalNamespace::MultiplayerLevelSceneSetupData* value);
+    // Get instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    GlobalNamespace::IMultiplayerSessionManager* _get__multiplayerSessionManager();
+    // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
+    void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
+    // Get instance field: private readonly MultiplayerPlayerStartState _startState
+    GlobalNamespace::MultiplayerPlayerStartState _get__startState();
+    // Set instance field: private readonly MultiplayerPlayerStartState _startState
+    void _set__startState(GlobalNamespace::MultiplayerPlayerStartState value);
     // public System.Void .ctor()
     // Offset: 0x23D8EE4
     // Implemented from: Zenject.MonoInstaller

@@ -50,6 +50,18 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: Child
     Child(UnityEngine::Transform* t_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localRotation_ = {}) noexcept : t{t_}, localPosition{localPosition_}, localRotation{localRotation_} {}
+    // Get instance field: public UnityEngine.Transform t
+    UnityEngine::Transform* _get_t();
+    // Set instance field: public UnityEngine.Transform t
+    void _set_t(UnityEngine::Transform* value);
+    // Get instance field: public UnityEngine.Vector3 localPosition
+    UnityEngine::Vector3 _get_localPosition();
+    // Set instance field: public UnityEngine.Vector3 localPosition
+    void _set_localPosition(UnityEngine::Vector3 value);
+    // Get instance field: public UnityEngine.Quaternion localRotation
+    UnityEngine::Quaternion _get_localRotation();
+    // Set instance field: public UnityEngine.Quaternion localRotation
+    void _set_localRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform transform)
     // Offset: 0x1AB7EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

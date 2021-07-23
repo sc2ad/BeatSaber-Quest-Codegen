@@ -80,6 +80,34 @@ namespace GlobalNamespace {
     SmoothCamera(UnityEngine::Camera* camera_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, UnityEngine::Vector3 thirdPersonPosition_ = {}, UnityEngine::Vector3 thirdPersonEulerAngles_ = {}, bool thirdPersonEnabled_ = {}, float rotationSmooth_ = {}, float positionSmooth_ = {}) noexcept : camera{camera_}, mainCamera{mainCamera_}, thirdPersonPosition{thirdPersonPosition_}, thirdPersonEulerAngles{thirdPersonEulerAngles_}, thirdPersonEnabled{thirdPersonEnabled_}, rotationSmooth{rotationSmooth_}, positionSmooth{positionSmooth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // Get instance field: private UnityEngine.Camera _camera
+    UnityEngine::Camera* _get__camera();
+    // Set instance field: private UnityEngine.Camera _camera
+    void _set__camera(UnityEngine::Camera* value);
+    // Get instance field: private MainCamera _mainCamera
+    GlobalNamespace::MainCamera* _get__mainCamera();
+    // Set instance field: private MainCamera _mainCamera
+    void _set__mainCamera(GlobalNamespace::MainCamera* value);
+    // Get instance field: private UnityEngine.Vector3 _thirdPersonPosition
+    UnityEngine::Vector3 _get__thirdPersonPosition();
+    // Set instance field: private UnityEngine.Vector3 _thirdPersonPosition
+    void _set__thirdPersonPosition(UnityEngine::Vector3 value);
+    // Get instance field: private UnityEngine.Vector3 _thirdPersonEulerAngles
+    UnityEngine::Vector3 _get__thirdPersonEulerAngles();
+    // Set instance field: private UnityEngine.Vector3 _thirdPersonEulerAngles
+    void _set__thirdPersonEulerAngles(UnityEngine::Vector3 value);
+    // Get instance field: private System.Boolean _thirdPersonEnabled
+    bool _get__thirdPersonEnabled();
+    // Set instance field: private System.Boolean _thirdPersonEnabled
+    void _set__thirdPersonEnabled(bool value);
+    // Get instance field: private System.Single _rotationSmooth
+    float _get__rotationSmooth();
+    // Set instance field: private System.Single _rotationSmooth
+    void _set__rotationSmooth(float value);
+    // Get instance field: private System.Single _positionSmooth
+    float _get__positionSmooth();
+    // Set instance field: private System.Single _positionSmooth
+    void _set__positionSmooth(float value);
     // public System.Void Init(System.Single fieldOfView, System.Single positionSmooth, System.Single rotationSmooth, System.Boolean thirdPersonEnabled, UnityEngine.Vector3 thirdPersonPosition, UnityEngine.Vector3 thirdPersonEulerAngles)
     // Offset: 0x10587C0
     void Init(float fieldOfView, float positionSmooth, float rotationSmooth, bool thirdPersonEnabled, UnityEngine::Vector3 thirdPersonPosition, UnityEngine::Vector3 thirdPersonEulerAngles);

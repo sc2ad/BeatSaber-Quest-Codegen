@@ -137,6 +137,46 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     static int _get_k_DefaultTimeout();
     // Set static field: static protected System.Int32 k_DefaultTimeout
     static void _set_k_DefaultTimeout(int value);
+    // Get instance field: protected readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
+    UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* _get_m_Factory();
+    // Set instance field: protected readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
+    void _set_m_Factory(UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* value);
+    // Get instance field: protected System.Boolean m_ExecuteTestStartEvent
+    bool _get_m_ExecuteTestStartEvent();
+    // Set instance field: protected System.Boolean m_ExecuteTestStartEvent
+    void _set_m_ExecuteTestStartEvent(bool value);
+    // Get instance field: protected System.Boolean m_DontRunRestoringResult
+    bool _get_m_DontRunRestoringResult();
+    // Set instance field: protected System.Boolean m_DontRunRestoringResult
+    void _set_m_DontRunRestoringResult(bool value);
+    // Get instance field: private System.EventHandler Completed
+    System::EventHandler* _get_Completed();
+    // Set instance field: private System.EventHandler Completed
+    void _set_Completed(System::EventHandler* value);
+    // Get instance field: private System.Boolean <ResultedInDomainReload>k__BackingField
+    bool _get_$ResultedInDomainReload$k__BackingField();
+    // Set instance field: private System.Boolean <ResultedInDomainReload>k__BackingField
+    void _set_$ResultedInDomainReload$k__BackingField(bool value);
+    // Get instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
+    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_$Context$k__BackingField();
+    // Set instance field: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
+    void _set_$Context$k__BackingField(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
+    // Get instance field: private NUnit.Framework.Internal.Test <Test>k__BackingField
+    NUnit::Framework::Internal::Test* _get_$Test$k__BackingField();
+    // Set instance field: private NUnit.Framework.Internal.Test <Test>k__BackingField
+    void _set_$Test$k__BackingField(NUnit::Framework::Internal::Test* value);
+    // Get instance field: private NUnit.Framework.Internal.TestResult <Result>k__BackingField
+    NUnit::Framework::Internal::TestResult* _get_$Result$k__BackingField();
+    // Set instance field: private NUnit.Framework.Internal.TestResult <Result>k__BackingField
+    void _set_$Result$k__BackingField(NUnit::Framework::Internal::TestResult* value);
+    // Get instance field: private NUnit.Framework.Internal.Execution.WorkItemState <State>k__BackingField
+    NUnit::Framework::Internal::Execution::WorkItemState _get_$State$k__BackingField();
+    // Set instance field: private NUnit.Framework.Internal.Execution.WorkItemState <State>k__BackingField
+    void _set_$State$k__BackingField(NUnit::Framework::Internal::Execution::WorkItemState value);
+    // Get instance field: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <Actions>k__BackingField
+    System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* _get_$Actions$k__BackingField();
+    // Set instance field: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <Actions>k__BackingField
+    void _set_$Actions$k__BackingField(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
     // public System.Boolean get_ResultedInDomainReload()
     // Offset: 0x1482704
     bool get_ResultedInDomainReload();

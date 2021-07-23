@@ -68,6 +68,26 @@ namespace System::Net {
     static_assert(sizeof(System::AsyncCallback*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass80_0
     $$c__DisplayClass80_0(System::Net::SimpleAsyncResult* result_ = {}, System::Net::WebConnectionStream* $$4__this_ = {}, int length_ = {}, ::Array<uint8_t>* bytes_ = {}, System::AsyncCallback* $$9__1_ = {}) noexcept : result{result_}, $$4__this{$$4__this_}, length{length_}, bytes{bytes_}, $$9__1{$$9__1_} {}
+    // Get instance field: public System.Net.SimpleAsyncResult result
+    System::Net::SimpleAsyncResult* _get_result();
+    // Set instance field: public System.Net.SimpleAsyncResult result
+    void _set_result(System::Net::SimpleAsyncResult* value);
+    // Get instance field: public System.Net.WebConnectionStream <>4__this
+    System::Net::WebConnectionStream* _get_$$4__this();
+    // Set instance field: public System.Net.WebConnectionStream <>4__this
+    void _set_$$4__this(System::Net::WebConnectionStream* value);
+    // Get instance field: public System.Int32 length
+    int _get_length();
+    // Set instance field: public System.Int32 length
+    void _set_length(int value);
+    // Get instance field: public System.Byte[] bytes
+    ::Array<uint8_t>* _get_bytes();
+    // Set instance field: public System.Byte[] bytes
+    void _set_bytes(::Array<uint8_t>* value);
+    // Get instance field: public System.AsyncCallback <>9__1
+    System::AsyncCallback* _get_$$9__1();
+    // Set instance field: public System.AsyncCallback <>9__1
+    void _set_$$9__1(System::AsyncCallback* value);
     // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)
     // Offset: 0x159A06C
     void $WriteRequestAsync$b__0(System::Net::SimpleAsyncResult* inner);

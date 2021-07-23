@@ -63,6 +63,14 @@ namespace GlobalNamespace {
     static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* _get__cameras();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static void _set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* value);
+    // Get instance field: private System.String _textureName
+    ::Il2CppString* _get__textureName();
+    // Set instance field: private System.String _textureName
+    void _set__textureName(::Il2CppString* value);
+    // Get instance field: private UnityEngine.Rendering.CameraEvent _cameraEvent
+    UnityEngine::Rendering::CameraEvent _get__cameraEvent();
+    // Set instance field: private UnityEngine.Rendering.CameraEvent _cameraEvent
+    void _set__cameraEvent(UnityEngine::Rendering::CameraEvent value);
     // public System.Void .ctor()
     // Offset: 0x233DE48
     // Implemented from: CommandBufferGOCore

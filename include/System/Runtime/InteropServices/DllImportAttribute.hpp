@@ -90,6 +90,42 @@ namespace System::Runtime::InteropServices {
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DllImportAttribute
     DllImportAttribute(::Il2CppString* val_ = {}, ::Il2CppString* EntryPoint_ = {}, System::Runtime::InteropServices::CharSet CharSet_ = {}, bool SetLastError_ = {}, bool ExactSpelling_ = {}, bool PreserveSig_ = {}, System::Runtime::InteropServices::CallingConvention CallingConvention_ = {}, bool BestFitMapping_ = {}, bool ThrowOnUnmappableChar_ = {}) noexcept : val{val_}, EntryPoint{EntryPoint_}, CharSet{CharSet_}, SetLastError{SetLastError_}, ExactSpelling{ExactSpelling_}, PreserveSig{PreserveSig_}, CallingConvention{CallingConvention_}, BestFitMapping{BestFitMapping_}, ThrowOnUnmappableChar{ThrowOnUnmappableChar_} {}
+    // Get instance field: System.String _val
+    ::Il2CppString* _get__val();
+    // Set instance field: System.String _val
+    void _set__val(::Il2CppString* value);
+    // Get instance field: public System.String EntryPoint
+    ::Il2CppString* _get_EntryPoint();
+    // Set instance field: public System.String EntryPoint
+    void _set_EntryPoint(::Il2CppString* value);
+    // Get instance field: public System.Runtime.InteropServices.CharSet CharSet
+    System::Runtime::InteropServices::CharSet _get_CharSet();
+    // Set instance field: public System.Runtime.InteropServices.CharSet CharSet
+    void _set_CharSet(System::Runtime::InteropServices::CharSet value);
+    // Get instance field: public System.Boolean SetLastError
+    bool _get_SetLastError();
+    // Set instance field: public System.Boolean SetLastError
+    void _set_SetLastError(bool value);
+    // Get instance field: public System.Boolean ExactSpelling
+    bool _get_ExactSpelling();
+    // Set instance field: public System.Boolean ExactSpelling
+    void _set_ExactSpelling(bool value);
+    // Get instance field: public System.Boolean PreserveSig
+    bool _get_PreserveSig();
+    // Set instance field: public System.Boolean PreserveSig
+    void _set_PreserveSig(bool value);
+    // Get instance field: public System.Runtime.InteropServices.CallingConvention CallingConvention
+    System::Runtime::InteropServices::CallingConvention _get_CallingConvention();
+    // Set instance field: public System.Runtime.InteropServices.CallingConvention CallingConvention
+    void _set_CallingConvention(System::Runtime::InteropServices::CallingConvention value);
+    // Get instance field: public System.Boolean BestFitMapping
+    bool _get_BestFitMapping();
+    // Set instance field: public System.Boolean BestFitMapping
+    void _set_BestFitMapping(bool value);
+    // Get instance field: public System.Boolean ThrowOnUnmappableChar
+    bool _get_ThrowOnUnmappableChar();
+    // Set instance field: public System.Boolean ThrowOnUnmappableChar
+    void _set_ThrowOnUnmappableChar(bool value);
     // public System.String get_Value()
     // Offset: 0x13F15B4
     ::Il2CppString* get_Value();

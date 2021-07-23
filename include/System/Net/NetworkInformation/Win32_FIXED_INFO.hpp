@@ -86,6 +86,42 @@ namespace System::Net::NetworkInformation {
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
+    // Get instance field: public System.String HostName
+    ::Il2CppString* _get_HostName();
+    // Set instance field: public System.String HostName
+    void _set_HostName(::Il2CppString* value);
+    // Get instance field: public System.String DomainName
+    ::Il2CppString* _get_DomainName();
+    // Set instance field: public System.String DomainName
+    void _set_DomainName(::Il2CppString* value);
+    // Get instance field: public System.IntPtr CurrentDnsServer
+    System::IntPtr _get_CurrentDnsServer();
+    // Set instance field: public System.IntPtr CurrentDnsServer
+    void _set_CurrentDnsServer(System::IntPtr value);
+    // Get instance field: public System.Net.NetworkInformation.Win32_IP_ADDR_STRING DnsServerList
+    System::Net::NetworkInformation::Win32_IP_ADDR_STRING _get_DnsServerList();
+    // Set instance field: public System.Net.NetworkInformation.Win32_IP_ADDR_STRING DnsServerList
+    void _set_DnsServerList(System::Net::NetworkInformation::Win32_IP_ADDR_STRING value);
+    // Get instance field: public System.Net.NetworkInformation.NetBiosNodeType NodeType
+    System::Net::NetworkInformation::NetBiosNodeType _get_NodeType();
+    // Set instance field: public System.Net.NetworkInformation.NetBiosNodeType NodeType
+    void _set_NodeType(System::Net::NetworkInformation::NetBiosNodeType value);
+    // Get instance field: public System.String ScopeId
+    ::Il2CppString* _get_ScopeId();
+    // Set instance field: public System.String ScopeId
+    void _set_ScopeId(::Il2CppString* value);
+    // Get instance field: public System.UInt32 EnableRouting
+    uint _get_EnableRouting();
+    // Set instance field: public System.UInt32 EnableRouting
+    void _set_EnableRouting(uint value);
+    // Get instance field: public System.UInt32 EnableProxy
+    uint _get_EnableProxy();
+    // Set instance field: public System.UInt32 EnableProxy
+    void _set_EnableProxy(uint value);
+    // Get instance field: public System.UInt32 EnableDns
+    uint _get_EnableDns();
+    // Set instance field: public System.UInt32 EnableDns
+    void _set_EnableDns(uint value);
   }; // System.Net.NetworkInformation.Win32_FIXED_INFO
   #pragma pack(pop)
   static check_size<sizeof(Win32_FIXED_INFO), 80 + sizeof(uint)> __System_Net_NetworkInformation_Win32_FIXED_INFOSizeCheck;
