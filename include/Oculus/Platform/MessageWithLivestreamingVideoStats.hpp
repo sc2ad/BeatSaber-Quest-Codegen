@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLivestreamingVideoStats
     MessageWithLivestreamingVideoStats() noexcept {}
     // protected Oculus.Platform.Models.LivestreamingVideoStats GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14A416C
+    // Offset: 0x20FFFE0
     Oculus::Platform::Models::LivestreamingVideoStats* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14A40C8
+    // Offset: 0x20FFF3C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLivestreamingVideoStats*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LivestreamingVideoStats GetLivestreamingVideoStats()
-    // Offset: 0x14A4128
+    // Offset: 0x20FFF9C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LivestreamingVideoStats Message::GetLivestreamingVideoStats()
     Oculus::Platform::Models::LivestreamingVideoStats* GetLivestreamingVideoStats();

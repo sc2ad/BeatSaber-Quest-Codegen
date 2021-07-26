@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionObjectiveCheckersManager
 #include "GlobalNamespace/MissionObjectiveCheckersManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly MissionObjective[] missionObjectives
     void _set_missionObjectives(::Array<GlobalNamespace::MissionObjective*>* value);
     // public System.Void .ctor(MissionObjective[] missionObjectives)
-    // Offset: 0x113098C
+    // Offset: 0x1F613A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveCheckersManager::InitData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveCheckersManager::InitData::.ctor");

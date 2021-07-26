@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     float downSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE098D4
+    // [TooltipAttribute] Offset: 0xEB64F0
     // private System.Single _noSoundTopThresholdSqr
     // Size: 0x4
     // Offset: 0x44
@@ -136,13 +137,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _speed
     void _set__speed(float value);
     // protected System.Void Start()
-    // Offset: 0x114C670
+    // Offset: 0x1F7D084
     void Start();
     // protected System.Void Update()
-    // Offset: 0x114C6A8
+    // Offset: 0x1F7D0BC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x114C8D0
+    // Offset: 0x1F7D2E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameEnergyCounter
 #include "GlobalNamespace/GameEnergyCounter.hpp"
 // Including type: GameplayModifiers/EnergyType
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean failOnSaberClash
     void _set_failOnSaberClash(bool value);
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash)
-    // Offset: 0x10A1BA4
+    // Offset: 0x1F0EB14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyCounter::InitData* New_ctor(GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameEnergyCounter::InitData::.ctor");

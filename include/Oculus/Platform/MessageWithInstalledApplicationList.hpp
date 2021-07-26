@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithInstalledApplicationList
     MessageWithInstalledApplicationList() noexcept {}
     // protected Oculus.Platform.Models.InstalledApplicationList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14A24F0
+    // Offset: 0x20FE364
     Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14A244C
+    // Offset: 0x20FE2C0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithInstalledApplicationList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.InstalledApplicationList GetInstalledApplicationList()
-    // Offset: 0x14A24AC
+    // Offset: 0x20FE320
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.InstalledApplicationList Message::GetInstalledApplicationList()
     Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();

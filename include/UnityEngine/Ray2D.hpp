@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
@@ -49,20 +50,20 @@ namespace UnityEngine {
     // Set instance field: private UnityEngine.Vector2 m_Direction
     void _set_m_Direction(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_origin()
-    // Offset: 0xEF5268
+    // Offset: 0xF84158
     UnityEngine::Vector2 get_origin();
     // public UnityEngine.Vector2 get_direction()
-    // Offset: 0xEF5270
+    // Offset: 0xF84160
     UnityEngine::Vector2 get_direction();
     // public System.Void .ctor(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
-    // Offset: 0xEF5234
+    // Offset: 0xF84124
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction)
     // public UnityEngine.Vector2 GetPoint(System.Single distance)
-    // Offset: 0xEF5278
+    // Offset: 0xF84168
     UnityEngine::Vector2 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0xEF5280
+    // Offset: 0xF84170
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

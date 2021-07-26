@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationDebugContext.hpp"
 // Completed includes
@@ -83,22 +84,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set instance field: private UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint _activeConstraint
     void _set__activeConstraint(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
     // public System.Void set_PrimaryTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle value)
-    // Offset: 0x236B028
+    // Offset: 0x1DF2468
     void set_PrimaryTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
     // public System.Void set_SecondaryTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle value)
-    // Offset: 0x236C240
+    // Offset: 0x1DF3680
     void set_SecondaryTriangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
     // public System.Void set_ActivePoint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint value)
-    // Offset: 0x236DA98
+    // Offset: 0x1DF4ED8
     void set_ActivePoint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
     // public System.Void set_ActiveNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode value)
-    // Offset: 0x236A5E4
+    // Offset: 0x1DF1A24
     void set_ActiveNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
     // public System.Void set_ActiveConstraint(UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint value)
-    // Offset: 0x23697EC
+    // Offset: 0x1DF0C2C
     void set_ActiveConstraint(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
     // public override System.Void Clear()
-    // Offset: 0x236DAF4
+    // Offset: 0x1DF4F34
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext
     // Base method: System.Void TriangulationDebugContext::Clear()
     void Clear();

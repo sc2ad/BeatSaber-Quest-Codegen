@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightmappingGameplayManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE06248
+    // [InjectAttribute] Offset: 0xEB2E64
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x18
@@ -42,10 +43,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
     // protected System.Void Start()
-    // Offset: 0x11B8D18
+    // Offset: 0x1FE775C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x11B9048
+    // Offset: 0x1FE7A8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

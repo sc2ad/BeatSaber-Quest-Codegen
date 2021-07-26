@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,42 +32,42 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE9C8C
+    // [DescriptionAttribute] Offset: 0xE978A8
     // static field const value: static public Oculus.Platform.RichPresenceExtraContext Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RichPresenceExtraContext Unknown
     static Oculus::Platform::RichPresenceExtraContext _get_Unknown();
     // Set static field: static public Oculus.Platform.RichPresenceExtraContext Unknown
     static void _set_Unknown(Oculus::Platform::RichPresenceExtraContext value);
-    // [DescriptionAttribute] Offset: 0xDE9CC4
+    // [DescriptionAttribute] Offset: 0xE978E0
     // static field const value: static public Oculus.Platform.RichPresenceExtraContext None
     static constexpr const int None = 1;
     // Get static field: static public Oculus.Platform.RichPresenceExtraContext None
     static Oculus::Platform::RichPresenceExtraContext _get_None();
     // Set static field: static public Oculus.Platform.RichPresenceExtraContext None
     static void _set_None(Oculus::Platform::RichPresenceExtraContext value);
-    // [DescriptionAttribute] Offset: 0xDE9CFC
+    // [DescriptionAttribute] Offset: 0xE97918
     // static field const value: static public Oculus.Platform.RichPresenceExtraContext CurrentCapacity
     static constexpr const int CurrentCapacity = 2;
     // Get static field: static public Oculus.Platform.RichPresenceExtraContext CurrentCapacity
     static Oculus::Platform::RichPresenceExtraContext _get_CurrentCapacity();
     // Set static field: static public Oculus.Platform.RichPresenceExtraContext CurrentCapacity
     static void _set_CurrentCapacity(Oculus::Platform::RichPresenceExtraContext value);
-    // [DescriptionAttribute] Offset: 0xDE9D34
+    // [DescriptionAttribute] Offset: 0xE97950
     // static field const value: static public Oculus.Platform.RichPresenceExtraContext StartedAgo
     static constexpr const int StartedAgo = 3;
     // Get static field: static public Oculus.Platform.RichPresenceExtraContext StartedAgo
     static Oculus::Platform::RichPresenceExtraContext _get_StartedAgo();
     // Set static field: static public Oculus.Platform.RichPresenceExtraContext StartedAgo
     static void _set_StartedAgo(Oculus::Platform::RichPresenceExtraContext value);
-    // [DescriptionAttribute] Offset: 0xDE9D6C
+    // [DescriptionAttribute] Offset: 0xE97988
     // static field const value: static public Oculus.Platform.RichPresenceExtraContext EndingIn
     static constexpr const int EndingIn = 4;
     // Get static field: static public Oculus.Platform.RichPresenceExtraContext EndingIn
     static Oculus::Platform::RichPresenceExtraContext _get_EndingIn();
     // Set static field: static public Oculus.Platform.RichPresenceExtraContext EndingIn
     static void _set_EndingIn(Oculus::Platform::RichPresenceExtraContext value);
-    // [DescriptionAttribute] Offset: 0xDE9DA4
+    // [DescriptionAttribute] Offset: 0xE979C0
     // static field const value: static public Oculus.Platform.RichPresenceExtraContext LookingForAMatch
     static constexpr const int LookingForAMatch = 5;
     // Get static field: static public Oculus.Platform.RichPresenceExtraContext LookingForAMatch

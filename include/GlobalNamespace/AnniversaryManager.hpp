@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: MainMenuViewController
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE410
+    // [InjectAttribute] Offset: 0xEAB02C
     // private readonly MainMenuViewController _mainMenuViewController
     // Size: 0x8
     // Offset: 0x20
@@ -54,22 +55,22 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MainMenuViewController _mainMenuViewController
     void _set__mainMenuViewController(GlobalNamespace::MainMenuViewController* value);
     // protected System.Void Start()
-    // Offset: 0x10D72A4
+    // Offset: 0x1F282B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10D7360
+    // Offset: 0x1F28374
     void OnDestroy();
     // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController mainMenuViewController, MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x10D743C
+    // Offset: 0x1F28450
     void HandleMainMenuViewControllerDidFinish(GlobalNamespace::MainMenuViewController* mainMenuViewController, GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void StartFireworks()
-    // Offset: 0x10D7340
+    // Offset: 0x1F28354
     void StartFireworks();
     // private System.Void StopFireworks()
-    // Offset: 0x10D7440
+    // Offset: 0x1F28454
     void StopFireworks();
     // public System.Void .ctor()
-    // Offset: 0x10D7460
+    // Offset: 0x1F28474
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

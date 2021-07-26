@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,20 +42,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRManager_InstantiateMrcCameraDelegate
     OVRManager_InstantiateMrcCameraDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x12E106C
+    // Offset: 0x10A2FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRManager_InstantiateMrcCameraDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRManager_InstantiateMrcCameraDelegate*, creationType>(object, method)));
     }
     // public UnityEngine.GameObject Invoke(UnityEngine.GameObject mainCameraGameObject, OVRManager/MrcCameraType cameraType)
-    // Offset: 0x12E107C
+    // Offset: 0x10A2FEC
     UnityEngine::GameObject* Invoke(UnityEngine::GameObject* mainCameraGameObject, GlobalNamespace::OVRManager_MrcCameraType cameraType);
     // public System.IAsyncResult BeginInvoke(UnityEngine.GameObject mainCameraGameObject, OVRManager/MrcCameraType cameraType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x12E1490
+    // Offset: 0x10A3400
     System::IAsyncResult* BeginInvoke(UnityEngine::GameObject* mainCameraGameObject, GlobalNamespace::OVRManager_MrcCameraType cameraType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.GameObject EndInvoke(System.IAsyncResult result)
-    // Offset: 0x12E152C
+    // Offset: 0x10A349C
     UnityEngine::GameObject* EndInvoke(System::IAsyncResult* result);
   }; // OVRManager/InstantiateMrcCameraDelegate
   #pragma pack(pop)

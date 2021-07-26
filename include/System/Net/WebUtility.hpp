@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Configuration.UnicodeDecodingConformance
 #include "System/Net/Configuration/UnicodeDecodingConformance.hpp"
 // Including type: System.Net.Configuration.UnicodeEncodingConformance
@@ -49,31 +50,31 @@ namespace System::Net {
     // Set static field: static private System.Net.Configuration.UnicodeEncodingConformance _htmlEncodeConformance
     static void _set__htmlEncodeConformance(System::Net::Configuration::UnicodeEncodingConformance value);
     // static private System.Net.Configuration.UnicodeEncodingConformance get_HtmlEncodeConformance()
-    // Offset: 0x15A06D0
+    // Offset: 0x12A3CA0
     static System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
     // static private System.Void .cctor()
-    // Offset: 0x15A0DC4
+    // Offset: 0x12A4394
     static void _cctor();
     // static public System.String HtmlEncode(System.String value)
-    // Offset: 0x15A00E0
+    // Offset: 0x12A36B0
     static ::Il2CppString* HtmlEncode(::Il2CppString* value);
     // static public System.Void HtmlEncode(System.String value, System.IO.TextWriter output)
-    // Offset: 0x15A035C
+    // Offset: 0x12A392C
     static void HtmlEncode(::Il2CppString* value, System::IO::TextWriter* output);
     // static private System.Int32 IndexOfHtmlEncodingChars(System.String s, System.Int32 startPos)
-    // Offset: 0x15A0208
+    // Offset: 0x12A37D8
     static int IndexOfHtmlEncodingChars(::Il2CppString* s, int startPos);
     // static private System.String UrlDecodeInternal(System.String value, System.Text.Encoding encoding)
-    // Offset: 0x15A089C
+    // Offset: 0x12A3E6C
     static ::Il2CppString* UrlDecodeInternal(::Il2CppString* value, System::Text::Encoding* encoding);
     // static public System.String UrlDecode(System.String encodedValue)
-    // Offset: 0x15A0D3C
+    // Offset: 0x12A430C
     static ::Il2CppString* UrlDecode(::Il2CppString* encodedValue);
     // static private System.Int32 GetNextUnicodeScalarValueFromUtf16Surrogate(ref System.Char* pch, ref System.Int32 charsRemaining)
-    // Offset: 0x15A07D4
-    static int GetNextUnicodeScalarValueFromUtf16Surrogate(::Il2CppChar*& pch, int& charsRemaining);
+    // Offset: 0x12A3DA4
+    static int GetNextUnicodeScalarValueFromUtf16Surrogate(ByRef<::Il2CppChar*> pch, ByRef<int> charsRemaining);
     // static private System.Int32 HexToInt(System.Char h)
-    // Offset: 0x15A0B40
+    // Offset: 0x12A4110
     static int HexToInt(::Il2CppChar h);
   }; // System.Net.WebUtility
   #pragma pack(pop)
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate
 // Il2CppName: GetNextUnicodeScalarValueFromUtf16Surrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*&, int&)>(&System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<::Il2CppChar*>, ByRef<int>)>(&System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate)> {
   static const MethodInfo* get() {
     static auto* pch = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->this_arg;
     static auto* charsRemaining = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

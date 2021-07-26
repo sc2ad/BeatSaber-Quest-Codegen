@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,20 +37,20 @@ namespace System::Xml {
     // Creating value type constructor for type: OnRemoveWriter
     OnRemoveWriter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1904A50
+    // Offset: 0x15D5E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnRemoveWriter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::OnRemoveWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnRemoveWriter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Xml.XmlRawWriter writer)
-    // Offset: 0x1904A60
+    // Offset: 0x15D5E64
     void Invoke(System::Xml::XmlRawWriter* writer);
     // public System.IAsyncResult BeginInvoke(System.Xml.XmlRawWriter writer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1904DF4
+    // Offset: 0x15D61F8
     System::IAsyncResult* BeginInvoke(System::Xml::XmlRawWriter* writer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1904E18
+    // Offset: 0x15D621C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.OnRemoveWriter
   #pragma pack(pop)

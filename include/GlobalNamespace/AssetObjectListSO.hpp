@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -25,7 +26,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetObjectListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [ReorderableAttribute] Offset: 0xE11AE0
+    // [ReorderableAttribute] Offset: 0xEBE6FC
     // private UnityEngine.Object[] _objects
     // Size: 0x8
     // Offset: 0x18
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Object[] _objects
     void _set__objects(::Array<UnityEngine::Object*>* value);
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x10DB160
+    // Offset: 0x1F2C174
     ::Array<UnityEngine::Object*>* get_objects();
     // public System.Void .ctor()
-    // Offset: 0x10DB168
+    // Offset: 0x1F2C17C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

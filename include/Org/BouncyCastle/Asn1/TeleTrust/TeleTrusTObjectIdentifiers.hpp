@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -135,7 +136,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier BrainpoolP512T1
     static void _set_BrainpoolP512T1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x17709B8
+    // Offset: 0x1473074
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTObjectIdentifiers
   #pragma pack(pop)

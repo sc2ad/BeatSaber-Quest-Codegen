@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.ConnectToServerResponse
 #include "MasterServer/ConnectToServerResponse.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,12 +31,12 @@ namespace MasterServer {
     // Creating value type constructor for type: V4
     V4() noexcept {}
     // protected override System.UInt32 get_version()
-    // Offset: 0x12D0C64
+    // Offset: 0x208B174
     // Implemented from: MasterServer.ConnectToServerResponse
     // Base method: System.UInt32 ConnectToServerResponse::get_version()
     uint get_version();
     // public System.Void .ctor()
-    // Offset: 0x12D0D34
+    // Offset: 0x208B244
     // Implemented from: MasterServer.ConnectToServerResponse
     // Base method: System.Void ConnectToServerResponse::.ctor()
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
@@ -46,12 +47,12 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerResponse::V4*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D0C6C
+    // Offset: 0x208B17C
     // Implemented from: MasterServer.ConnectToServerResponse
     // Base method: System.Void ConnectToServerResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D0CC8
+    // Offset: 0x208B1D8
     // Implemented from: MasterServer.ConnectToServerResponse
     // Base method: System.Void ConnectToServerResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IMultiplayerObservable
 #include "GlobalNamespace/IMultiplayerObservable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerActivePlayersTimeOffsetAverage : public ::Il2CppObject/*, public GlobalNamespace::IMultiplayerObservable*/ {
     public:
-    // [InjectAttribute] Offset: 0xE07DE8
+    // [InjectAttribute] Offset: 0xEB4A04
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -64,13 +65,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _timeOfLastValidReturnedTime
     void _set__timeOfLastValidReturnedTime(float value);
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x119ABDC
+    // Offset: 0x1FB2648
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x119AE04
+    // Offset: 0x1FB2870
     bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x119AF64
+    // Offset: 0x1FB29D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

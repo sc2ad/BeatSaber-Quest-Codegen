@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,31 +66,31 @@ namespace GlobalNamespace {
     // Set instance field: private MainSettingsModelSO _mainSettingsModel
     void _set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO* value);
     // protected System.Void Awake()
-    // Offset: 0x12768D4
+    // Offset: 0x206A854
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1276938
+    // Offset: 0x206A8B8
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1276B08
+    // Offset: 0x206AA88
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1276BE0
+    // Offset: 0x206AB60
     void OnDisable();
     // private System.Void HandleRoomCenterDidChange()
-    // Offset: 0x1276CB8
+    // Offset: 0x206AC38
     void HandleRoomCenterDidChange();
     // private System.Void HandleRoomRotationDidChange()
-    // Offset: 0x1276D30
+    // Offset: 0x206ACB0
     void HandleRoomRotationDidChange();
     // protected System.Void Update()
-    // Offset: 0x1276DDC
+    // Offset: 0x206AD5C
     void Update();
     // public System.Void ResetRoom()
-    // Offset: 0x1276A5C
+    // Offset: 0x206A9DC
     void ResetRoom();
     // public System.Void .ctor()
-    // Offset: 0x1276E18
+    // Offset: 0x206AD98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.HttpClientHandler
 #include "System/Net/Http/HttpClientHandler.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,16 +47,16 @@ namespace System::Net::Http {
     // Set static field: static public System.Action`1<System.Object> <>9__64_0
     static void _set_$$9__64_0(System::Action_1<::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15716C4
+    // Offset: 0x1275C94
     static void _cctor();
     // System.Boolean <CreateWebRequest>b__61_0(System.String l)
-    // Offset: 0x1571730
+    // Offset: 0x1275D00
     bool $CreateWebRequest$b__61_0(::Il2CppString* l);
     // System.Void <SendAsync>b__64_0(System.Object l)
-    // Offset: 0x1571784
+    // Offset: 0x1275D54
     void $SendAsync$b__64_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x1571728
+    // Offset: 0x1275CF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

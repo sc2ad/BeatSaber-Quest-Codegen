@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,14 +32,14 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE92D4
+    // [DescriptionAttribute] Offset: 0xE96EF0
     // static field const value: static public Oculus.Platform.MediaContentType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.MediaContentType Unknown
     static Oculus::Platform::MediaContentType _get_Unknown();
     // Set static field: static public Oculus.Platform.MediaContentType Unknown
     static void _set_Unknown(Oculus::Platform::MediaContentType value);
-    // [DescriptionAttribute] Offset: 0xDE930C
+    // [DescriptionAttribute] Offset: 0xE96F28
     // static field const value: static public Oculus.Platform.MediaContentType Photo
     static constexpr const int Photo = 1;
     // Get static field: static public Oculus.Platform.MediaContentType Photo

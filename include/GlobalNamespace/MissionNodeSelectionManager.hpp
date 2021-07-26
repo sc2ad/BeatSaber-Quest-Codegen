@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -81,28 +82,28 @@ namespace GlobalNamespace {
     // Set instance field: private MissionNodeVisualController _selectedNode
     void _set__selectedNode(GlobalNamespace::MissionNodeVisualController* value);
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1135128
+    // Offset: 0x1F65B3C
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x11351CC
+    // Offset: 0x1F65BE0
     void remove_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x1135270
+    // Offset: 0x1F65C84
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0x113532C
+    // Offset: 0x1F65D40
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11355AC
+    // Offset: 0x1F65FC0
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0x1135858
+    // Offset: 0x1F6626C
     void HandleNodeWasSelect(GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0x113591C
+    // Offset: 0x1F66330
     void HandleNodeWasDisplayed(GlobalNamespace::MissionNodeVisualController* missionNode);
     // public System.Void .ctor()
-    // Offset: 0x11359AC
+    // Offset: 0x1F663C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.FlowCoordinator
 #include "HMUI/FlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -62,7 +63,7 @@ namespace HMUI {
     // Set instance field: public System.Action finishedCallback
     void _set_finishedCallback(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x130A458
+    // Offset: 0x10CC3C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

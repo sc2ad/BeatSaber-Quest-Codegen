@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 // Including type: MultiplayerPlayerStartState
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* connectedPlayerNoteEventManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE07348
+    // [SpaceAttribute] Offset: 0xEB3F64
     // private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -79,7 +80,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE073A0
+    // [SpaceAttribute] Offset: 0xEB3FBC
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     // Size: 0x8
     // Offset: 0x48
@@ -92,21 +93,21 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE073E8
+    // [SpaceAttribute] Offset: 0xEB4004
     // private BoolSO _screenDisplacementEffectsEnabled
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::BoolSO* screenDisplacementEffectsEnabled;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07420
+    // [InjectAttribute] Offset: 0xEB403C
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07430
+    // [InjectAttribute] Offset: 0xEB404C
     // private readonly MultiplayerPlayerStartState _localPlayerStartState
     // Size: 0x4
     // Offset: 0x68
@@ -115,14 +116,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
     // Padding between fields: localPlayerStartState and: sceneSetupData
     char __padding9[0x4] = {};
-    // [InjectAttribute] Offset: 0xE07440
+    // [InjectAttribute] Offset: 0xEB405C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07450
+    // [InjectAttribute] Offset: 0xEB406C
     // private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
     // Size: 0x8
     // Offset: 0x78
@@ -180,7 +181,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
     void _set__playersSpecificSettingsAtGameStartModel(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
     // public System.Void .ctor()
-    // Offset: 0x11A39F4
+    // Offset: 0x1FBB460
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -195,7 +196,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11A2950
+    // Offset: 0x1FBA3BC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

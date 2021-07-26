@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.BaseChannel
 #include "LiteNetLib/BaseChannel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -115,19 +116,19 @@ namespace LiteNetLib {
     // Set instance field: private System.Int64 _lastPacketSendTime
     void _set__lastPacketSendTime(int64_t value);
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean reliable, System.Byte id)
-    // Offset: 0x1BB9140
+    // Offset: 0x17AC4D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SequencedChannel* New_ctor(LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::SequencedChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SequencedChannel*, creationType>(peer, reliable, id)));
     }
     // public override System.Void SendNextPackets()
-    // Offset: 0x1BBD490
+    // Offset: 0x17B0828
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1BBD770
+    // Offset: 0x17B0B08
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);

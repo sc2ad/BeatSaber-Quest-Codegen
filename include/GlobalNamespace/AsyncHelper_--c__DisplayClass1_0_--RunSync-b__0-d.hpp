@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AsyncHelper/<>c__DisplayClass1_0
 #include "GlobalNamespace/AsyncHelper_--c__DisplayClass1_0.hpp"
 // Including type: System.ValueType
@@ -71,10 +72,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xED1928
+    // Offset: 0xF7CCC4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED1930
+    // Offset: 0xF7CCCC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d
   // WARNING Not writing size check since size may be invalid!

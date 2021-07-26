@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,7 +65,7 @@ namespace TMPro {
     // Set instance field: public System.Int64 key
     void _set_key(int64_t value);
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
-    // Offset: 0xED0954
+    // Offset: 0xD677F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
@@ -72,7 +73,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, firstGlyphIndex, secondGlyphIndex);
     }
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
-    // Offset: 0xED0968
+    // Offset: 0xD67804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");

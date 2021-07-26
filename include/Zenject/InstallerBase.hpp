@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IInstaller
 #include "Zenject/IInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstallerBase : public ::Il2CppObject/*, public Zenject::IInstaller*/ {
     public:
-    // [InjectAttribute] Offset: 0xDCB46C
+    // [InjectAttribute] Offset: 0xE78088
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -48,16 +49,16 @@ namespace Zenject {
     // Set instance field: private Zenject.DiContainer _container
     void _set__container(Zenject::DiContainer* value);
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x16278F8
+    // Offset: 0x132AEC8
     Zenject::DiContainer* get_Container();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x1627900
+    // Offset: 0x132AED0
     bool get_IsEnabled();
     // public System.Void InstallBindings()
     // Offset: 0xFFFFFFFF
     void InstallBindings();
     // protected System.Void .ctor()
-    // Offset: 0x16278F0
+    // Offset: 0x132AEC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

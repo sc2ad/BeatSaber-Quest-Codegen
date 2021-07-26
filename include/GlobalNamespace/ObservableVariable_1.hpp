@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IValue`1
 #include "GlobalNamespace/IValue_1.hpp"
 // Including type: IObservableChange

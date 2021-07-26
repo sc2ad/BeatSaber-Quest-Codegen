@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -74,7 +75,7 @@ namespace GlobalNamespace {
     System::Action_1<bool>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0EA00
+    // [InjectAttribute] Offset: 0xEBB61C
     // private EulaViewController/InitData _initData
     // Size: 0x8
     // Offset: 0x98
@@ -108,19 +109,19 @@ namespace GlobalNamespace {
     // Set instance field: private EulaViewController/InitData _initData
     void _set__initData(GlobalNamespace::EulaViewController::InitData* value);
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1023244
+    // Offset: 0x1E8DD18
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x10232E8
+    // Offset: 0x1E8DDBC
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x10234E0
+    // Offset: 0x1E8DFB4
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x1023544
+    // Offset: 0x1E8E018
     void $DidActivate$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x10234D8
+    // Offset: 0x1E8DFAC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -134,7 +135,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EulaViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x102338C
+    // Offset: 0x1E8DE60
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

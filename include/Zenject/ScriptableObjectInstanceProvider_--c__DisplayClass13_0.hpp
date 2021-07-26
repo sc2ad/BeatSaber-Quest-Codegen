@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ScriptableObjectInstanceProvider
 #include "Zenject/ScriptableObjectInstanceProvider.hpp"
 // Including type: Zenject.TypeValuePair
@@ -78,10 +79,10 @@ namespace Zenject {
     // Set instance field: public Zenject.InjectContext context
     void _set_context(Zenject::InjectContext* value);
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x16CF334
+    // Offset: 0x13D19F0
     void $GetAllInstancesWithInjectSplit$b__0();
     // public System.Void .ctor()
-    // Offset: 0x16CF32C
+    // Offset: 0x13D19E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

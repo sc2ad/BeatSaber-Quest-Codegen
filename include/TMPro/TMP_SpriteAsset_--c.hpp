@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_SpriteAsset
 #include "TMPro/TMP_SpriteAsset.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,16 +51,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_SpriteCharacter,System.UInt32> <>9__33_0
     static void _set_$$9__33_0(System::Func_2<TMPro::TMP_SpriteCharacter*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1115CB4
+    // Offset: 0x1015934
     static void _cctor();
     // System.UInt32 <SortGlyphTable>b__32_0(TMPro.TMP_SpriteGlyph item)
-    // Offset: 0x1115D20
+    // Offset: 0x10159A0
     uint $SortGlyphTable$b__32_0(TMPro::TMP_SpriteGlyph* item);
     // System.UInt32 <SortCharacterTable>b__33_0(TMPro.TMP_SpriteCharacter c)
-    // Offset: 0x1115D3C
+    // Offset: 0x10159BC
     uint $SortCharacterTable$b__33_0(TMPro::TMP_SpriteCharacter* c);
     // public System.Void .ctor()
-    // Offset: 0x1115D18
+    // Offset: 0x1015998
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

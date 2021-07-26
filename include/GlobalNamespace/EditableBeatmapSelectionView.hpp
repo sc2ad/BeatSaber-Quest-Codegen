@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapSelectionView
 #include "GlobalNamespace/BeatmapSelectionView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,7 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditableBeatmapSelectionView : public GlobalNamespace::BeatmapSelectionView {
     public:
-    // [SpaceAttribute] Offset: 0xE10F14
+    // [SpaceAttribute] Offset: 0xEBDB30
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x28
@@ -94,31 +95,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <showClearButton>k__BackingField
     void _set_$showClearButton$k__BackingField(bool value);
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x101EFF8
+    // Offset: 0x1E89ACC
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x101F000
+    // Offset: 0x1E89AD4
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x101F008
+    // Offset: 0x1E89ADC
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x101F010
+    // Offset: 0x1E89AE4
     void set_interactable(bool value);
     // public System.Boolean get_showClearButton()
-    // Offset: 0x101F07C
+    // Offset: 0x1E89B50
     bool get_showClearButton();
     // public System.Void set_showClearButton(System.Boolean value)
-    // Offset: 0x101F084
+    // Offset: 0x1E89B58
     void set_showClearButton(bool value);
     // public System.Void SetVisibility(System.Boolean visible)
-    // Offset: 0x101F090
+    // Offset: 0x1E89B64
     void SetVisibility(bool visible);
     // public System.Void Setup(System.Boolean showClearButton)
-    // Offset: 0x101F0C4
+    // Offset: 0x1E89B98
     void Setup(bool showClearButton);
     // public System.Void .ctor()
-    // Offset: 0x101F12C
+    // Offset: 0x1E89C00
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -132,7 +133,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditableBeatmapSelectionView*, creationType>()));
     }
     // public override System.Void SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x101F0D0
+    // Offset: 0x1E89BA4
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::SetBeatmap(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
     void SetBeatmap(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);

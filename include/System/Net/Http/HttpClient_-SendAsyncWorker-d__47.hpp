@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.HttpClient
 #include "System/Net/Http/HttpClient.hpp"
 // Including type: System.ValueType
@@ -150,10 +151,10 @@ namespace System::Net::Http {
     // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__2
     void _set_$$u__2(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xEDC540
+    // Offset: 0xD704F8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEDC548
+    // Offset: 0xD70500
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClient/System.Net.Http.<SendAsyncWorker>d__47
   // WARNING Not writing size check since size may be invalid!

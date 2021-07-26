@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -23,25 +24,25 @@ namespace System::Linq {
     // Creating value type constructor for type: Error
     Error() noexcept {}
     // static System.Exception ArgumentNull(System.String s)
-    // Offset: 0x235FCB8
+    // Offset: 0x1DE70F8
     static System::Exception* ArgumentNull(::Il2CppString* s);
     // static System.Exception ArgumentOutOfRange(System.String s)
-    // Offset: 0x235F8FC
+    // Offset: 0x1DE6D3C
     static System::Exception* ArgumentOutOfRange(::Il2CppString* s);
     // static System.Exception MoreThanOneElement()
-    // Offset: 0x23607CC
+    // Offset: 0x1DE7C0C
     static System::Exception* MoreThanOneElement();
     // static System.Exception MoreThanOneMatch()
-    // Offset: 0x2360834
+    // Offset: 0x1DE7C74
     static System::Exception* MoreThanOneMatch();
     // static System.Exception NoElements()
-    // Offset: 0x235FFE4
+    // Offset: 0x1DE7424
     static System::Exception* NoElements();
     // static System.Exception NoMatch()
-    // Offset: 0x236089C
+    // Offset: 0x1DE7CDC
     static System::Exception* NoMatch();
     // static System.Exception NotSupported()
-    // Offset: 0x2360904
+    // Offset: 0x1DE7D44
     static System::Exception* NotSupported();
   }; // System.Linq.Error
   #pragma pack(pop)

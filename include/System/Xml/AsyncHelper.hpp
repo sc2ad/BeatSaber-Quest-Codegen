@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -43,7 +44,7 @@ namespace System::Xml {
     // Set static field: static public readonly System.Threading.Tasks.Task`1<System.Int32> DoneTaskZero
     static void _set_DoneTaskZero(System::Threading::Tasks::Task_1<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18FD7B0
+    // Offset: 0x15CEBB4
     static void _cctor();
   }; // System.Xml.AsyncHelper
   #pragma pack(pop)

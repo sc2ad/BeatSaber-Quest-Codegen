@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
 #include "Org/BouncyCastle/Crypto/Parameters/ElGamalKeyParameters.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,25 +45,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly Org.BouncyCastle.Math.BigInteger x
     void _set_x(Org::BouncyCastle::Math::BigInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_X()
-    // Offset: 0x122BEA4
+    // Offset: 0x103617C
     Org::BouncyCastle::Math::BigInteger* get_X();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters)
-    // Offset: 0x122BDFC
+    // Offset: 0x10360D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalPrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalPrivateKeyParameters*, creationType>(x, parameters)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalPrivateKeyParameters other)
-    // Offset: 0x122BF5C
+    // Offset: 0x1036234
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x122BEAC
+    // Offset: 0x1036184
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Boolean ElGamalKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x122BFB8
+    // Offset: 0x1036290
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Int32 ElGamalKeyParameters::GetHashCode()
     int GetHashCode();

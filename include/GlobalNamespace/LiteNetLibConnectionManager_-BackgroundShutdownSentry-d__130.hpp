@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLibConnectionManager
 #include "GlobalNamespace/LiteNetLibConnectionManager.hpp"
 // Including type: System.ValueType
@@ -84,10 +85,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xED3A30
+    // Offset: 0xD698D4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED3A38
+    // Offset: 0xD698DC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LiteNetLibConnectionManager/<BackgroundShutdownSentry>d__130
   // WARNING Not writing size check since size may be invalid!

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.IEventSystemHandler
 #include "UnityEngine/EventSystems/IEventSystemHandler.hpp"
 // Completed includes

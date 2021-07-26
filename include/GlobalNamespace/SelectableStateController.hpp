@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SelectableStateController::ViewState), 0 + sizeof(int)> __GlobalNamespace_SelectableStateController_ViewStateSizeCheck;
     static_assert(sizeof(SelectableStateController::ViewState) == 0x4);
-    // [InjectAttribute] Offset: 0xE0C22C
+    // [InjectAttribute] Offset: 0xEB8E48
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x18
@@ -140,25 +141,25 @@ namespace GlobalNamespace {
     // Set instance field: private SelectableStateController/ViewState <currentViewState>k__BackingField
     void _set_$currentViewState$k__BackingField(GlobalNamespace::SelectableStateController::ViewState value);
     // public Tweening.TweeningManager get_tweeningManager()
-    // Offset: 0x1155954
+    // Offset: 0x1F86368
     Tweening::TweeningManager* get_tweeningManager();
     // private SelectableStateController/ViewState get_currentViewState()
-    // Offset: 0x115595C
+    // Offset: 0x1F86370
     GlobalNamespace::SelectableStateController::ViewState get_currentViewState();
     // private System.Void set_currentViewState(SelectableStateController/ViewState value)
-    // Offset: 0x1155964
+    // Offset: 0x1F86378
     void set_currentViewState(GlobalNamespace::SelectableStateController::ViewState value);
     // public System.Void add_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x115580C
+    // Offset: 0x1F86220
     void add_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x11558B0
+    // Offset: 0x1F862C4
     void remove_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // protected System.Void SetState(SelectableStateController/ViewState state)
-    // Offset: 0x115596C
+    // Offset: 0x1F86380
     void SetState(GlobalNamespace::SelectableStateController::ViewState state);
     // protected System.Void .ctor()
-    // Offset: 0x11559E4
+    // Offset: 0x1F863F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

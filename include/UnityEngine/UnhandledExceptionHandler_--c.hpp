@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UnhandledExceptionHandler
 #include "UnityEngine/UnhandledExceptionHandler.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,13 +41,13 @@ namespace UnityEngine {
     // Set static field: static public System.UnhandledExceptionEventHandler <>9__0_0
     static void _set_$$9__0_0(System::UnhandledExceptionEventHandler* value);
     // static private System.Void .cctor()
-    // Offset: 0x23055B0
+    // Offset: 0x1D9E0BC
     static void _cctor();
     // System.Void <RegisterUECatcher>b__0_0(System.Object sender, System.UnhandledExceptionEventArgs e)
-    // Offset: 0x230561C
+    // Offset: 0x1D9E128
     void $RegisterUECatcher$b__0_0(::Il2CppObject* sender, System::UnhandledExceptionEventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x2305614
+    // Offset: 0x1D9E120
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

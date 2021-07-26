@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NetLogLevel
 #include "LiteNetLib/NetLogLevel.hpp"
 // Completed includes

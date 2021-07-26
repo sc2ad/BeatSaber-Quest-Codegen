@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCF890
+    // [InjectAttribute] Offset: 0xE7C4AC
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -67,19 +68,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _wasEnabled
     void _set__wasEnabled(bool value);
     // protected System.Void Start()
-    // Offset: 0x121012C
+    // Offset: 0x203CA84
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1210388
+    // Offset: 0x203CCE0
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x121033C
+    // Offset: 0x203CC94
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x1210524
+    // Offset: 0x203CE7C
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x1210548
+    // Offset: 0x203CEA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

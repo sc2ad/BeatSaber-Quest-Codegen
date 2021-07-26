@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: RootMotion.FinalIK.VRIKCalibrator
@@ -89,28 +90,28 @@ namespace RootMotion::FinalIK {
     // Set instance field: private RootMotion.FinalIK.VRIK ik
     void _set_ik(RootMotion::FinalIK::VRIK* value);
     // public UnityEngine.Vector3 get_pelvisTargetRight()
-    // Offset: 0x1AC39FC
+    // Offset: 0x173B24C
     UnityEngine::Vector3 get_pelvisTargetRight();
     // private System.Void set_pelvisTargetRight(UnityEngine.Vector3 value)
-    // Offset: 0x1AC3A08
+    // Offset: 0x173B258
     void set_pelvisTargetRight(UnityEngine::Vector3 value);
     // private System.Void Awake()
-    // Offset: 0x1AC3A14
+    // Offset: 0x173B264
     void Awake();
     // public System.Void Calibrate()
-    // Offset: 0x1AC2560
+    // Offset: 0x1739DB0
     void Calibrate();
     // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData data)
-    // Offset: 0x1AC3568
+    // Offset: 0x173ADB8
     void Calibrate(RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
     // private System.Void OnPreUpdate()
-    // Offset: 0x1AC3AEC
+    // Offset: 0x173B33C
     void OnPreUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1AC3F90
+    // Offset: 0x173B7E0
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1AC4088
+    // Offset: 0x173B8D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

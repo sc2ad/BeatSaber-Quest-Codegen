@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerBadgeDataMinMaxFloatSO
 #include "GlobalNamespace/MultiplayerBadgeDataMinMaxFloatSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerBadgeDataSaberMovementSO
     MultiplayerBadgeDataSaberMovementSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x119D294
+    // Offset: 0x1FB4D00
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Void MultiplayerBadgeDataMinMaxFloatSO::.ctor()
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeDataSaberMovementSO*, creationType>()));
     }
     // protected override System.Single GetValue(MultiplayerPlayerResultsData result)
-    // Offset: 0x119D264
+    // Offset: 0x1FB4CD0
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Single MultiplayerBadgeDataMinMaxFloatSO::GetValue(MultiplayerPlayerResultsData result)
     float GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);

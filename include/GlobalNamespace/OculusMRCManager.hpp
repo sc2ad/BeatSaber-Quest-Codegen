@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,7 +40,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
-    // [InjectAttribute] Offset: 0xDD0210
+    // [InjectAttribute] Offset: 0xE7CE2C
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x18
@@ -55,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: private IVRPlatformHelper _vrPlatformHelper
     void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
     // public System.Void Init(System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x121C13C
+    // Offset: 0x2048A94
     void Init(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // public System.Void .ctor()
-    // Offset: 0x121C420
+    // Offset: 0x2048D78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

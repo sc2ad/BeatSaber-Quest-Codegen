@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
 // Completed includes
@@ -73,25 +74,25 @@ namespace Mono::Net::Security {
     // Set static field: static readonly System.Guid LegacyId
     static void _set_LegacyId(System::Guid value);
     // static private System.Void .cctor()
-    // Offset: 0x15B0900
+    // Offset: 0x12B3ED0
     static void _cctor();
     // static Mono.Security.Interface.MonoTlsProvider GetProviderInternal()
-    // Offset: 0x15AFB38
+    // Offset: 0x12B3108
     static Mono::Security::Interface::MonoTlsProvider* GetProviderInternal();
     // static System.Void InitializeInternal()
-    // Offset: 0x15AFC34
+    // Offset: 0x12B3204
     static void InitializeInternal();
     // static private Mono.Security.Interface.MonoTlsProvider LookupProvider(System.String name, System.Boolean throwOnError)
-    // Offset: 0x15B03F4
+    // Offset: 0x12B39C4
     static Mono::Security::Interface::MonoTlsProvider* LookupProvider(::Il2CppString* name, bool throwOnError);
     // static private System.Void InitializeProviderRegistration()
-    // Offset: 0x15AFF94
+    // Offset: 0x12B3564
     static void InitializeProviderRegistration();
     // static private Mono.Security.Interface.MonoTlsProvider CreateDefaultProviderImpl()
-    // Offset: 0x15B0358
+    // Offset: 0x12B3928
     static Mono::Security::Interface::MonoTlsProvider* CreateDefaultProviderImpl();
     // static Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x15AB978
+    // Offset: 0x12AEF48
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Net.Security.MonoTlsProviderFactory
   #pragma pack(pop)

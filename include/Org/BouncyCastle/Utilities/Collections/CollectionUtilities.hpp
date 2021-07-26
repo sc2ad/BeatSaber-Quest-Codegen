@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -27,13 +28,13 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Creating value type constructor for type: CollectionUtilities
     CollectionUtilities() noexcept {}
     // static public System.Collections.IDictionary ReadOnly(System.Collections.IDictionary d)
-    // Offset: 0x136F904
+    // Offset: 0x1116564
     static System::Collections::IDictionary* ReadOnly(System::Collections::IDictionary* d);
     // static public System.Object RequireNext(System.Collections.IEnumerator e)
-    // Offset: 0x136F968
+    // Offset: 0x11165C8
     static ::Il2CppObject* RequireNext(System::Collections::IEnumerator* e);
     // static public System.String ToString(System.Collections.IEnumerable c)
-    // Offset: 0x136FAAC
+    // Offset: 0x111670C
     static ::Il2CppString* ToString(System::Collections::IEnumerable* c);
   }; // Org.BouncyCastle.Utilities.Collections.CollectionUtilities
   #pragma pack(pop)

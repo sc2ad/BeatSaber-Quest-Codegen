@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -125,16 +126,16 @@ namespace GlobalNamespace {
     // Set instance field: protected OVRCameraRig CameraRig
     void _set_CameraRig(GlobalNamespace::OVRCameraRig* value);
     // private System.Void Awake()
-    // Offset: 0x1253654
+    // Offset: 0x105D92C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x125374C
+    // Offset: 0x105DA24
     void Start();
     // private System.Void Update()
-    // Offset: 0x1253750
+    // Offset: 0x105DA28
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1253CDC
+    // Offset: 0x105DFB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

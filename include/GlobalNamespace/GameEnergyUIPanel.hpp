@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,14 +60,14 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE05DE0
+    // [SpaceAttribute] Offset: 0xEB29FC
     // private UnityEngine.UI.Image _batteryLifeSegmentPrefab
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::UI::Image* batteryLifeSegmentPrefab;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE05E18
+    // [SpaceAttribute] Offset: 0xEB2A34
     // private System.Single _batterySegmentSeparatorWidth
     // Size: 0x4
     // Offset: 0x30
@@ -79,7 +80,7 @@ namespace GlobalNamespace {
     float batterySegmentHorizontalPadding;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE05E60
+    // [InjectAttribute] Offset: 0xEB2A7C
     // private readonly IGameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
@@ -147,28 +148,28 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.RectTransform _energyBarRectTransform
     void _set__energyBarRectTransform(UnityEngine::RectTransform* value);
     // protected System.Void Start()
-    // Offset: 0x10A1C04
+    // Offset: 0x1F0EB74
     void Start();
     // private System.Void Init()
-    // Offset: 0x10A1D84
+    // Offset: 0x1F0ECF4
     void Init();
     // protected System.Void OnDestroy()
-    // Offset: 0x10A2740
+    // Offset: 0x1F0F6B0
     void OnDestroy();
     // private System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0x10A212C
+    // Offset: 0x1F0F09C
     void CreateUIForBatteryEnergyType(int batteryLives);
     // private System.Void RefreshEnergyUI(System.Single energy)
-    // Offset: 0x10A241C
+    // Offset: 0x1F0F38C
     void RefreshEnergyUI(float energy);
     // private System.Void HandleGameEnergyCounterDidInit()
-    // Offset: 0x10A28E0
+    // Offset: 0x1F0F850
     void HandleGameEnergyCounterDidInit();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0x10A28E4
+    // Offset: 0x1F0F854
     void HandleGameEnergyDidChange(float energy);
     // public System.Void .ctor()
-    // Offset: 0x10A28E8
+    // Offset: 0x1F0F858
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

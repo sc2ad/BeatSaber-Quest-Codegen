@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ParticleSystem/UnityEngine.EmitParams
@@ -83,22 +84,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
     void _set__shockwavePSEmitParams(UnityEngine::ParticleSystem::EmitParams value);
     // protected System.Void Awake()
-    // Offset: 0x11808C8
+    // Offset: 0x1FB02DC
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x11808D8
+    // Offset: 0x1FB02EC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11809AC
+    // Offset: 0x1FB03C0
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x1180A80
+    // Offset: 0x1FB0494
     void HandleButtonClickEvent();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x1180AB4
+    // Offset: 0x1FB04C8
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x1180B64
+    // Offset: 0x1FB0578
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

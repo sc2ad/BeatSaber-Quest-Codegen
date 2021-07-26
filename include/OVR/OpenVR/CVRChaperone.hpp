@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVR.OpenVR.IVRChaperone
 #include "OVR/OpenVR/IVRChaperone.hpp"
 // Including type: System.IntPtr
@@ -49,35 +50,35 @@ namespace OVR::OpenVR {
     // Set instance field: private OVR.OpenVR.IVRChaperone FnTable
     void _set_FnTable(OVR::OpenVR::IVRChaperone value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x157CB90
+    // Offset: 0x1281160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRChaperone* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRChaperone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperone*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.ChaperoneCalibrationState GetCalibrationState()
-    // Offset: 0x157CC98
+    // Offset: 0x1281268
     OVR::OpenVR::ChaperoneCalibrationState GetCalibrationState();
     // public System.Boolean GetPlayAreaSize(ref System.Single pSizeX, ref System.Single pSizeZ)
-    // Offset: 0x157CEC4
-    bool GetPlayAreaSize(float& pSizeX, float& pSizeZ);
+    // Offset: 0x1281494
+    bool GetPlayAreaSize(ByRef<float> pSizeX, ByRef<float> pSizeZ);
     // public System.Boolean GetPlayAreaRect(ref OVR.OpenVR.HmdQuad_t rect)
-    // Offset: 0x157D15C
-    bool GetPlayAreaRect(OVR::OpenVR::HmdQuad_t& rect);
+    // Offset: 0x128172C
+    bool GetPlayAreaRect(ByRef<OVR::OpenVR::HmdQuad_t> rect);
     // public System.Void ReloadInfo()
-    // Offset: 0x157D3D4
+    // Offset: 0x12819A4
     void ReloadInfo();
     // public System.Void SetSceneColor(OVR.OpenVR.HmdColor_t color)
-    // Offset: 0x157D5F8
+    // Offset: 0x1281BC8
     void SetSceneColor(OVR::OpenVR::HmdColor_t color);
     // public System.Void GetBoundsColor(ref OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref OVR.OpenVR.HmdColor_t pOutputCameraColor)
-    // Offset: 0x157D8C0
-    void GetBoundsColor(OVR::OpenVR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, OVR::OpenVR::HmdColor_t& pOutputCameraColor);
+    // Offset: 0x1281E90
+    void GetBoundsColor(ByRef<OVR::OpenVR::HmdColor_t> pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, ByRef<OVR::OpenVR::HmdColor_t> pOutputCameraColor);
     // public System.Boolean AreBoundsVisible()
-    // Offset: 0x157DB88
+    // Offset: 0x1282158
     bool AreBoundsVisible();
     // public System.Void ForceBoundsVisible(System.Boolean bForce)
-    // Offset: 0x157DDB8
+    // Offset: 0x1282388
     void ForceBoundsVisible(bool bForce);
   }; // OVR.OpenVR.CVRChaperone
   #pragma pack(pop)
@@ -101,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::GetPlayAreaSize
 // Il2CppName: GetPlayAreaSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperone::*)(float&, float&)>(&OVR::OpenVR::CVRChaperone::GetPlayAreaSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperone::*)(ByRef<float>, ByRef<float>)>(&OVR::OpenVR::CVRChaperone::GetPlayAreaSize)> {
   static const MethodInfo* get() {
     static auto* pSizeX = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pSizeZ = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::GetPlayAreaRect
 // Il2CppName: GetPlayAreaRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperone::*)(OVR::OpenVR::HmdQuad_t&)>(&OVR::OpenVR::CVRChaperone::GetPlayAreaRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperone::*)(ByRef<OVR::OpenVR::HmdQuad_t>)>(&OVR::OpenVR::CVRChaperone::GetPlayAreaRect)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperone*), "GetPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
@@ -137,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::GetBoundsColor
 // Il2CppName: GetBoundsColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperone::*)(OVR::OpenVR::HmdColor_t&, int, float, OVR::OpenVR::HmdColor_t&)>(&OVR::OpenVR::CVRChaperone::GetBoundsColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperone::*)(ByRef<OVR::OpenVR::HmdColor_t>, int, float, ByRef<OVR::OpenVR::HmdColor_t>)>(&OVR::OpenVR::CVRChaperone::GetBoundsColor)> {
   static const MethodInfo* get() {
     static auto* pOutputColorArray = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdColor_t")->this_arg;
     static auto* nNumOutputColors = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

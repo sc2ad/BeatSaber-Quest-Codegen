@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,16 +45,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.UInt64 _requestId
     void _set__requestId(uint64_t value);
     // public System.UInt64 get_RequestId()
-    // Offset: 0x1219B5C
+    // Offset: 0x20464B4
     uint64_t get_RequestId();
     // static private System.Void .cctor()
-    // Offset: 0x1219C74
+    // Offset: 0x20465CC
     static void _cctor();
     // public System.Boolean Equals(HMAutoincrementedRequestId obj)
-    // Offset: 0x1219B64
+    // Offset: 0x20464BC
     bool Equals(GlobalNamespace::HMAutoincrementedRequestId* obj);
     // public System.Void .ctor()
-    // Offset: 0x1219A90
+    // Offset: 0x20463E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,12 +63,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMAutoincrementedRequestId*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1219B84
+    // Offset: 0x20464DC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1219C4C
+    // Offset: 0x20465A4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

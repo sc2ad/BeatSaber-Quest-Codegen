@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -71,46 +72,46 @@ namespace GlobalNamespace {
     // Set instance field: private System.Threading.Tasks.Task`1<System.Net.IPEndPoint> _getEndPointTask
     void _set__getEndPointTask(System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* value);
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x152E904
+    // Offset: 0x213AF68
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(System.String hostName, System.Int32 port)
-    // Offset: 0x152E97C
+    // Offset: 0x213AFE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerEndPoint* New_ctor(::Il2CppString* hostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerEndPoint*, creationType>(hostName, port)));
     }
     // public System.Void .ctor(System.Net.IPEndPoint endPoint)
-    // Offset: 0x152E9B8
+    // Offset: 0x213B01C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerEndPoint* New_ctor(System::Net::IPEndPoint* endPoint) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerEndPoint*, creationType>(endPoint)));
     }
     // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync()
-    // Offset: 0x152EA70
+    // Offset: 0x213B0D4
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* GetEndPointAsync();
     // public System.Net.IPEndPoint GetEndPoint()
-    // Offset: 0x152EB1C
+    // Offset: 0x213B180
     System::Net::IPEndPoint* GetEndPoint();
     // private System.Net.IPEndPoint GetEndPointInternal()
-    // Offset: 0x152EBB4
+    // Offset: 0x213B218
     System::Net::IPEndPoint* GetEndPointInternal();
     // public System.Boolean Equals(MasterServerEndPoint other)
-    // Offset: 0x152CCA0
+    // Offset: 0x2139304
     bool Equals(GlobalNamespace::MasterServerEndPoint* other);
     // public override System.String ToString()
-    // Offset: 0x152EC78
+    // Offset: 0x213B2DC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x152ED00
+    // Offset: 0x213B364
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x152EDB0
+    // Offset: 0x213B414
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

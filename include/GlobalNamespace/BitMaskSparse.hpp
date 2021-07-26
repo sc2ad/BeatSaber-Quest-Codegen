@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: IBitMask`1
@@ -74,32 +75,32 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.SortedSet`1<System.UInt32> _sparseSet
     void _set__sparseSet(System::Collections::Generic::SortedSet_1<uint>* value);
     // public System.Int32 get_bitCount()
-    // Offset: 0x2325340
+    // Offset: 0x23D8724
     int get_bitCount();
     // public System.Void .ctor(System.Int32 bitCount)
-    // Offset: 0x2323A14
+    // Offset: 0x23D6DF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskSparse* New_ctor(int bitCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMaskSparse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskSparse*, creationType>(bitCount)));
     }
     // public System.Boolean Equals(BitMaskSparse other)
-    // Offset: 0x2325348
+    // Offset: 0x23D872C
     bool Equals(GlobalNamespace::BitMaskSparse* other);
     // public BitMaskSparse SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x23253C8
+    // Offset: 0x23D87AC
     GlobalNamespace::BitMaskSparse* SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x2325460
+    // Offset: 0x23D8844
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2323D4C
+    // Offset: 0x23D7130
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2323EB0
+    // Offset: 0x23D7294
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.String ToString()
-    // Offset: 0x23254FC
+    // Offset: 0x23D88E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

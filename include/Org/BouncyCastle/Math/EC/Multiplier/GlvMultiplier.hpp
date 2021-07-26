@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
 #include "Org/BouncyCastle/Math/EC/Multiplier/AbstractECMultiplier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,14 +62,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism
     void _set_glvEndomorphism(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism)
-    // Offset: 0x1D91884
+    // Offset: 0x1903464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvMultiplier* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvMultiplier*, creationType>(curve, glvEndomorphism)));
     }
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1D91948
+    // Offset: 0x1903528
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);

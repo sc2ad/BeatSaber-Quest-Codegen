@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapLevelsModel
 #include "GlobalNamespace/BeatmapLevelsModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,13 +53,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.Collections.Generic.IEnumerable`1<IPreviewBeatmapLevel>> <>9__34_0
     static void _set_$$9__34_0(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IPreviewBeatmapLevel*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10901D0
+    // Offset: 0x1EE8678
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<IPreviewBeatmapLevel> <GetLevelPreviewForLevelId>b__34_0(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x109023C
+    // Offset: 0x1EE86E4
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::IPreviewBeatmapLevel*>* $GetLevelPreviewForLevelId$b__34_0(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
     // public System.Void .ctor()
-    // Offset: 0x1090234
+    // Offset: 0x1EE86DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

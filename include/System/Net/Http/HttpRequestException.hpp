@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Net::Http {
     // Creating value type constructor for type: HttpRequestException
     HttpRequestException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1573A28
+    // Offset: 0x1277FF8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,7 +33,7 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x15735A4
+    // Offset: 0x1277B74
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -41,7 +42,7 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x15729FC
+    // Offset: 0x1276FCC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

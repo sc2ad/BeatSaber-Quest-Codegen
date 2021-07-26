@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,14 +47,14 @@ namespace GlobalNamespace {
     HMUI::FlowCoordinator* rootFlowCoordinator;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE130B8
+    // [InjectAttribute] Offset: 0xEBFCD4
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE130C8
+    // [InjectAttribute] Offset: 0xEBFCE4
     // private readonly HMUI.HierarchyManager _hierarchyManager
     // Size: 0x8
     // Offset: 0x28
@@ -77,10 +78,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly HMUI.HierarchyManager _hierarchyManager
     void _set__hierarchyManager(HMUI::HierarchyManager* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1180708
+    // Offset: 0x1FB011C
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x11807A4
+    // Offset: 0x1FB01B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDataStrobeFilterTransform
 #include "GlobalNamespace/BeatmapDataStrobeFilterTransform.hpp"
 // Including type: ColorType
@@ -127,13 +128,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 originalBeatmapDataIndex
     void _set_originalBeatmapDataIndex(int value);
     // public System.Void StartPotentialStrobe(BeatmapEventData startEventData, System.Int32 originalIndex)
-    // Offset: 0x1192F18
+    // Offset: 0x1FD8F1C
     void StartPotentialStrobe(GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);
     // public System.Void AddStrobeData(BeatmapEventData startEventData, System.Int32 beatmapIndex)
-    // Offset: 0x1192D7C
+    // Offset: 0x1FD8D80
     void AddStrobeData(GlobalNamespace::BeatmapEventData* startEventData, int beatmapIndex);
     // public System.Void .ctor()
-    // Offset: 0x1192D74
+    // Offset: 0x1FD8D78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

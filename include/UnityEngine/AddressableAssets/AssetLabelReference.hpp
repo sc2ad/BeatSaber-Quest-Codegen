@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.IKeyEvaluator
 #include "UnityEngine/AddressableAssets/IKeyEvaluator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -19,7 +20,7 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetLabelReference : public ::Il2CppObject/*, public UnityEngine::AddressableAssets::IKeyEvaluator*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDEC31C
+    // [FormerlySerializedAsAttribute] Offset: 0xE99F38
     // private System.String m_LabelString
     // Size: 0x8
     // Offset: 0x10
@@ -41,19 +42,19 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: private System.String m_LabelString
     void _set_m_LabelString(::Il2CppString* value);
     // public System.String get_labelString()
-    // Offset: 0x13C4674
+    // Offset: 0x116D2D4
     ::Il2CppString* get_labelString();
     // public System.Void set_labelString(System.String value)
-    // Offset: 0x13C467C
+    // Offset: 0x116D2DC
     void set_labelString(::Il2CppString* value);
     // public System.Object get_RuntimeKey()
-    // Offset: 0x13C4684
+    // Offset: 0x116D2E4
     ::Il2CppObject* get_RuntimeKey();
     // public System.Boolean RuntimeKeyIsValid()
-    // Offset: 0x13C46E4
+    // Offset: 0x116D344
     bool RuntimeKeyIsValid();
     // public System.Void .ctor()
-    // Offset: 0x13C473C
+    // Offset: 0x116D39C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +63,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AssetLabelReference*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13C471C
+    // Offset: 0x116D37C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

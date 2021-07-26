@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,10 +52,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3[] startPositions
     void _set_startPositions(::Array<UnityEngine::Vector3>* value);
     // private System.Void OnValidate()
-    // Offset: 0x1085928
+    // Offset: 0x1F07224
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1085A0C
+    // Offset: 0x1F07308
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

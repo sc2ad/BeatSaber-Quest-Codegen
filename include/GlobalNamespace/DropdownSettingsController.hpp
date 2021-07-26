@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -78,14 +79,14 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _numberOfElements
     void _set__numberOfElements(int value);
     // public System.Void add_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x101B34C
+    // Offset: 0x1E85E20
     void add_dropDownValueDidChangeEvent(System::Action* value);
     // public System.Void remove_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x101B3F0
+    // Offset: 0x1E85EC4
     void remove_dropDownValueDidChangeEvent(System::Action* value);
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFF
-    bool GetInitValues(int& idx, int& numberOfElements);
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected System.Void ApplyValue(System.Int32 idx)
     // Offset: 0xFFFFFFFF
     void ApplyValue(int idx);
@@ -93,22 +94,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x101B494
+    // Offset: 0x1E85F68
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x101B644
+    // Offset: 0x1E86118
     void OnDisable();
     // private System.Void HandleDropdownValueDidChange(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x101B71C
+    // Offset: 0x1E861F0
     void HandleDropdownValueDidChange(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI()
-    // Offset: 0x101B55C
+    // Offset: 0x1E86030
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x101B764
+    // Offset: 0x1E86238
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x101B7C4
+    // Offset: 0x1E86298
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DropdownSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DropdownSettingsController::*)(int&, int&)>(&GlobalNamespace::DropdownSettingsController::GetInitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DropdownSettingsController::*)(ByRef<int>, ByRef<int>)>(&GlobalNamespace::DropdownSettingsController::GetInitValues)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* numberOfElements = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
@@ -38,22 +39,22 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set static field: static private UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector s_Collector
     static void _set_s_Collector(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* value);
     // static public System.Guid get_PlayerConnectionGuid()
-    // Offset: 0x19AFDD0
+    // Offset: 0x1667EC4
     static System::Guid get_PlayerConnectionGuid();
     // static public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector FindOrCreateGlobalInstance()
-    // Offset: 0x19AFEDC
+    // Offset: 0x1667FD0
     static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* FindOrCreateGlobalInstance();
     // static public System.Boolean RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler, System.Boolean register, System.Boolean create)
-    // Offset: 0x19B0070
+    // Offset: 0x1668164
     static bool RegisterEventHandler(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _register, bool create);
     // public System.Void UnregisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x19B0144
+    // Offset: 0x1668238
     void UnregisterEventHandler(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void PostEvent(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x19B0248
+    // Offset: 0x166833C
     void PostEvent(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // public System.Void .ctor()
-    // Offset: 0x19B045C
+    // Offset: 0x1668550
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp
 #include "UnityEngine/AddressableAssets/ResourceProviders/ContentCatalogProvider_InternalOp.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -118,41 +119,41 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // Set instance field: private System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> OnLoaded
     void _set_OnLoaded(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Boolean get_OpInProgress()
-    // Offset: 0x13CDA60
+    // Offset: 0x11766C0
     bool get_OpInProgress();
     // public System.Boolean get_OpIsSuccess()
-    // Offset: 0x13CDA68
+    // Offset: 0x11766C8
     bool get_OpIsSuccess();
     // public System.Void add_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> value)
-    // Offset: 0x13CD58C
+    // Offset: 0x11761EC
     void add_OnLoaded(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Void remove_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> value)
-    // Offset: 0x13CD9BC
+    // Offset: 0x117661C
     void remove_OnLoaded(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Void .ctor(System.String bundlePath)
-    // Offset: 0x13CD488
+    // Offset: 0x11760E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogProvider::InternalOp::BundledCatalog* New_ctor(::Il2CppString* bundlePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogProvider::InternalOp::BundledCatalog*, creationType>(bundlePath)));
     }
     // private System.Void Unload()
-    // Offset: 0x13CDB04
+    // Offset: 0x1176764
     void Unload();
     // public System.Void LoadCatalogFromBundleAsync()
-    // Offset: 0x13CD630
+    // Offset: 0x1176290
     void LoadCatalogFromBundleAsync();
     // private System.Void LoadTextAssetRequestComplete(UnityEngine.AsyncOperation op)
-    // Offset: 0x13CDB38
+    // Offset: 0x1176798
     void LoadTextAssetRequestComplete(UnityEngine::AsyncOperation* op);
     // public System.Boolean WaitForCompletion()
-    // Offset: 0x13CD384
+    // Offset: 0x1175FE4
     bool WaitForCompletion();
     // private System.Void <LoadCatalogFromBundleAsync>b__16_0(UnityEngine.AsyncOperation loadOp)
-    // Offset: 0x13CDCBC
+    // Offset: 0x117691C
     void $LoadCatalogFromBundleAsync$b__16_0(UnityEngine::AsyncOperation* loadOp);
     // protected override System.Void Finalize()
-    // Offset: 0x13CDA88
+    // Offset: 0x11766E8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

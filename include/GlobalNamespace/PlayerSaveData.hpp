@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VersionSaveData
 #include "GlobalNamespace/VersionSaveData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -92,7 +93,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     void _set_guestPlayers(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* value);
     // public System.Void .ctor()
-    // Offset: 0x110210C
+    // Offset: 0x1F54120
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
     // Base method: System.Void Object::.ctor()

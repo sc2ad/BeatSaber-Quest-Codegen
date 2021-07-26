@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Cryptography.PKCS8
 #include "Mono/Security/Cryptography/PKCS8.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,29 +65,29 @@ namespace Mono::Security::Cryptography {
     // Set instance field: private System.Byte[] _data
     void _set__data(::Array<uint8_t>* value);
     // public System.String get_Algorithm()
-    // Offset: 0x1DDBCE0
+    // Offset: 0x194E8C0
     ::Il2CppString* get_Algorithm();
     // public System.Byte[] get_EncryptedData()
-    // Offset: 0x1DDBCE8
+    // Offset: 0x194E8C8
     ::Array<uint8_t>* get_EncryptedData();
     // public System.Byte[] get_Salt()
-    // Offset: 0x1DDBD64
+    // Offset: 0x194E944
     ::Array<uint8_t>* get_Salt();
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1DDBE28
+    // Offset: 0x194EA08
     int get_IterationCount();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1DDBA30
+    // Offset: 0x194E610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor(::Array<uint8_t>* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1DDBA60
+    // Offset: 0x194E640
     void Decode(::Array<uint8_t>* data);
     // public System.Void .ctor()
-    // Offset: 0x1DDBA28
+    // Offset: 0x194E608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

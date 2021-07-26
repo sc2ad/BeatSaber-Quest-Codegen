@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ScriptableObjectInstallerBase
 #include "Zenject/ScriptableObjectInstallerBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Zenject {
     // Creating value type constructor for type: ScriptableObjectInstaller
     ScriptableObjectInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16CF094
+    // Offset: 0x13D1750
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

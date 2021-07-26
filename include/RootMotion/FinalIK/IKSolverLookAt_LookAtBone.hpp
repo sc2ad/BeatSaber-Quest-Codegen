@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolverLookAt
 #include "RootMotion/FinalIK/IKSolverLookAt.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
@@ -47,16 +48,16 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Vector3 baseForwardOffsetEuler
     void _set_baseForwardOffsetEuler(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x1C6BAB8
+    // Offset: 0x181EB34
     UnityEngine::Vector3 get_forward();
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x1C6AF90
+    // Offset: 0x181E00C
     void Initiate(UnityEngine::Transform* root);
     // public System.Void LookAt(UnityEngine.Vector3 direction, System.Single weight)
-    // Offset: 0x1C6BEBC
+    // Offset: 0x181EF38
     void LookAt(UnityEngine::Vector3 direction, float weight);
     // public System.Void .ctor()
-    // Offset: 0x1C6C204
+    // Offset: 0x181F280
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
@@ -67,7 +68,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt::LookAtBone*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1C6AC54
+    // Offset: 0x181DCD0
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor(UnityEngine.Transform transform)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

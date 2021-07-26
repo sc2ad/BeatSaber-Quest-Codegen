@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,7 +69,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodeVisualController* missionNodeVisualController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0D74C
+    // [SpaceAttribute] Offset: 0xEBA368
     // private MissionNode[] _childNodes
     // Size: 0x8
     // Offset: 0x40
@@ -104,34 +105,34 @@ namespace GlobalNamespace {
     // Set instance field: private MissionNode[] _childNodes
     void _set__childNodes(::Array<GlobalNamespace::MissionNode*>* value);
     // public MissionDataSO get_missionData()
-    // Offset: 0x1134CE4
+    // Offset: 0x1F656F8
     GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
-    // Offset: 0x1134CEC
+    // Offset: 0x1F65700
     ::Array<GlobalNamespace::MissionNode*>* get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
-    // Offset: 0x1134CF4
+    // Offset: 0x1F65708
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
-    // Offset: 0x1134CFC
+    // Offset: 0x1F65710
     ::Il2CppString* get_letterPartName();
     // public System.Int32 get_numberPartName()
-    // Offset: 0x1134D04
+    // Offset: 0x1F65718
     int get_numberPartName();
     // public System.String get_missionId()
-    // Offset: 0x1130508
+    // Offset: 0x1F60F1C
     ::Il2CppString* get_missionId();
     // public System.String get_formattedMissionNodeName()
-    // Offset: 0x1134D0C
+    // Offset: 0x1F65720
     ::Il2CppString* get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x1133F98
+    // Offset: 0x1F649AC
     UnityEngine::Vector2 get_position();
     // public System.Single get_radius()
-    // Offset: 0x1134D90
+    // Offset: 0x1F657A4
     float get_radius();
     // public System.Void .ctor()
-    // Offset: 0x1134DD4
+    // Offset: 0x1F657E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

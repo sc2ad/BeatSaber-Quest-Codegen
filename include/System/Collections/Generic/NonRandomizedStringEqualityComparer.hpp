@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.EqualityComparer`1
 #include "System/Collections/Generic/EqualityComparer_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,13 +22,13 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: NonRandomizedStringEqualityComparer
     NonRandomizedStringEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x178CD20
+    // Offset: 0x148E3DC
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x178CD30
+    // Offset: 0x148E3EC
     int GetHashCode(::Il2CppString* obj);
     // public System.Void .ctor()
-    // Offset: 0x178CD48
+    // Offset: 0x148E404
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()

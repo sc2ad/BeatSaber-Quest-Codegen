@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IEqualityComparer`1
 #include "System/Collections/Generic/IEqualityComparer_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,19 +52,19 @@ namespace System::Xml {
     // Set instance field: private System.Int32 hashCodeRandomizer
     void _set_hashCodeRandomizer(int value);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1905AE4
+    // Offset: 0x15D6EE8
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x1905AFC
+    // Offset: 0x15D6F00
     int GetHashCode(::Il2CppString* key);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x19060FC
+    // Offset: 0x15D7500
     static int GetHashCodeOfString(::Il2CppString* key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/System.Xml.HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x1905B94
+    // Offset: 0x15D6F98
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // public System.Void .ctor()
-    // Offset: 0x1905AB4
+    // Offset: 0x15D6EB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

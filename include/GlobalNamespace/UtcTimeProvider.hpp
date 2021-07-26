@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.ITimeProvider
 #include "MasterServer/ITimeProvider.hpp"
 // Including type: System.DateTime
@@ -39,22 +40,22 @@ namespace GlobalNamespace {
     operator MasterServer::ITimeProvider() noexcept {
       return *reinterpret_cast<MasterServer::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDDC700
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8931C
     // Get static field: static private readonly System.DateTime _epoch
     static System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(System::DateTime value);
     // static private System.Void .cctor()
-    // Offset: 0x2313FAC
+    // Offset: 0x23D5160
     static void _cctor();
     // public System.Int64 GetTimeMs()
-    // Offset: 0x2313E68
+    // Offset: 0x23D501C
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2313F2C
+    // Offset: 0x23D50E0
     System::Threading::Tasks::Task* DelayMs(int millis, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x2313FA4
+    // Offset: 0x23D5158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassLight
 #include "GlobalNamespace/BloomPrePassLight.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights
     void _set_lights(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* value);
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
-    // Offset: 0x1DEDD70
+    // Offset: 0x1960950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassLight::LightsDataItem::.ctor");

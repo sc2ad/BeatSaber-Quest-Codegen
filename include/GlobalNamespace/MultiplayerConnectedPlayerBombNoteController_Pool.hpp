@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerConnectedPlayerBombNoteController
 #include "GlobalNamespace/MultiplayerConnectedPlayerBombNoteController.hpp"
 // Including type: Zenject.MonoMemoryPool`1
@@ -23,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11A11C0
+    // Offset: 0x1FB8C2C
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

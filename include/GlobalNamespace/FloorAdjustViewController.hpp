@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0EA20
+    // [SpaceAttribute] Offset: 0xEBB63C
     // private UnityEngine.UI.Button _yIncButton
     // Size: 0x8
     // Offset: 0x78
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* playerHeightText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0EA78
+    // [InjectAttribute] Offset: 0xEBB694
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x90
@@ -121,16 +122,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _playerHeight
     void _set__playerHeight(float value);
     // protected System.Void Update()
-    // Offset: 0x1029980
+    // Offset: 0x1E94454
     void Update();
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x1029BA0
+    // Offset: 0x1E94674
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x1029C18
+    // Offset: 0x1E946EC
     void $DidActivate$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x1029B98
+    // Offset: 0x1E9466C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -144,7 +145,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FloorAdjustViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1029884
+    // Offset: 0x1E94358
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

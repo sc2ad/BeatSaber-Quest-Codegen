@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GhostDuplicationEffect
 #include "GlobalNamespace/GhostDuplicationEffect.hpp"
 // Including type: UnityEngine.Vector3
@@ -45,19 +46,19 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3 direction
     void _set_direction(UnityEngine::Vector3 value);
     // System.Void <Animate>b__0(System.Single val)
-    // Offset: 0x10B6034
+    // Offset: 0x1F22FA4
     void $Animate$b__0(float val);
     // System.Void <Animate>b__1(System.Single val)
-    // Offset: 0x10B604C
+    // Offset: 0x1F22FBC
     void $Animate$b__1(float val);
     // System.Void <Animate>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x10B60D4
+    // Offset: 0x1F23044
     void $Animate$b__2(UnityEngine::Vector3 pos);
     // System.Void <Animate>b__3(System.Single val)
-    // Offset: 0x10B6128
+    // Offset: 0x1F23098
     void $Animate$b__3(float val);
     // public System.Void .ctor()
-    // Offset: 0x10B5C74
+    // Offset: 0x1F22BE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

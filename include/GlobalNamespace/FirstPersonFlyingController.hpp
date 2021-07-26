@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -153,22 +154,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform _cameraTransform
     void _set__cameraTransform(UnityEngine::Transform* value);
     // protected System.Void Awake()
-    // Offset: 0x1028D28
+    // Offset: 0x1E937FC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1028D34
+    // Offset: 0x1E93808
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1028F50
+    // Offset: 0x1E93A24
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1028F84
+    // Offset: 0x1E93A58
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x1028FB4
+    // Offset: 0x1E93A88
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10293AC
+    // Offset: 0x1E93E80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

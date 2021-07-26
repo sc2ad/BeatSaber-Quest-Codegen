@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.SceneProvider
 #include "UnityEngine/ResourceManagement/ResourceProviders/SceneProvider.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
@@ -50,21 +51,21 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> m_sceneLoadHandle
     void _set_m_sceneLoadHandle(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
     // public System.Void Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> sceneLoadHandle)
-    // Offset: 0x19BA61C
+    // Offset: 0x1672710
     void Init(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
     // private System.Void UnloadSceneCompleted(UnityEngine.AsyncOperation obj)
-    // Offset: 0x19BB3A4
+    // Offset: 0x1673498
     void UnloadSceneCompleted(UnityEngine::AsyncOperation* obj);
     // private System.Void UnloadSceneCompletedNoRelease(UnityEngine.AsyncOperation obj)
-    // Offset: 0x19BB340
+    // Offset: 0x1673434
     void UnloadSceneCompletedNoRelease(UnityEngine::AsyncOperation* obj);
     // protected override System.Single get_Progress()
-    // Offset: 0x19BB4BC
+    // Offset: 0x16735B0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Single AsyncOperationBase_1::get_Progress()
     float get_Progress();
     // public System.Void .ctor()
-    // Offset: 0x19BA5CC
+    // Offset: 0x16726C0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -74,12 +75,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return THROW_UNLESS((::il2cpp_utils::New<SceneProvider::UnloadSceneOp*, creationType>()));
     }
     // protected override System.Void Execute()
-    // Offset: 0x19BB228
+    // Offset: 0x167331C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x19BB444
+    // Offset: 0x1673538
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();

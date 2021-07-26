@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FromBinderGeneric`1
 #include "Zenject/FromBinderGeneric_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

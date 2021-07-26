@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songBPM and: beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE0AF28
+    // [SpaceAttribute] Offset: 0xEB7B44
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0AF80
+    // [InjectAttribute] Offset: 0xEB7B9C
     // private readonly TutorialSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x48
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly TutorialSceneSetupData _sceneSetupData
     void _set__sceneSetupData(GlobalNamespace::TutorialSceneSetupData* value);
     // public System.Void .ctor()
-    // Offset: 0x107479C
+    // Offset: 0x1EE0270
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -119,7 +120,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1073E98
+    // Offset: 0x1EDF96C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

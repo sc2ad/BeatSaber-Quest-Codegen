@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IBeatmapLevelPackCollection
 #include "GlobalNamespace/IBeatmapLevelPackCollection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,10 +48,10 @@ namespace GlobalNamespace {
     // Set instance field: private IBeatmapLevelPack[] _beatmapLevelPacks
     void _set__beatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x108D720
+    // Offset: 0x1EE5BC8
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
     // public System.Void .ctor(IBeatmapLevelPack[] beatmapLevelPacks)
-    // Offset: 0x108D728
+    // Offset: 0x1EE5BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPackCollection* New_ctor(::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelPackCollection::.ctor");

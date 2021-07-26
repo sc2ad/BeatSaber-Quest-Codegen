@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -37,16 +38,16 @@ namespace System::Net {
     // Set static field: static System.String _LocalDomainName
     static void _set__LocalDomainName(::Il2CppString* value);
     // static System.Net.IPAddress[] get_LocalAddresses()
-    // Offset: 0x1643EC8
+    // Offset: 0x1346584
     static ::Array<System::Net::IPAddress*>* get_LocalAddresses();
     // static private System.Object get_LocalAddressesLock()
-    // Offset: 0x1644328
+    // Offset: 0x13469E4
     static ::Il2CppObject* get_LocalAddressesLock();
     // static System.Boolean IsAddressLocal(System.Net.IPAddress ipAddress)
-    // Offset: 0x1643E34
+    // Offset: 0x13464F0
     static bool IsAddressLocal(System::Net::IPAddress* ipAddress);
     // static private System.Net.IPHostEntry GetLocalHost()
-    // Offset: 0x164430C
+    // Offset: 0x13469C8
     static System::Net::IPHostEntry* GetLocalHost();
   }; // System.Net.NclUtilities
   #pragma pack(pop)

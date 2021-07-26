@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ParticleSystem/UnityEngine.EmissionModule
@@ -52,16 +53,16 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
     void _set__emmisionModules(::Array<UnityEngine::ParticleSystem::EmissionModule>* value);
     // protected System.Void Awake()
-    // Offset: 0x1213084
+    // Offset: 0x203F9DC
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x121317C
+    // Offset: 0x203FAD4
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1213204
+    // Offset: 0x203FB5C
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x121328C
+    // Offset: 0x203FBE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

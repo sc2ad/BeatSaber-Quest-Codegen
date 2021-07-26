@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,7 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0939C
+    // [InjectAttribute] Offset: 0xEB5FB8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x28
@@ -103,13 +104,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material _material
     void _set__material(UnityEngine::Material* value);
     // protected System.Void Start()
-    // Offset: 0x1199B7C
+    // Offset: 0x1FB15E8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1199BDC
+    // Offset: 0x1FB1648
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1199D0C
+    // Offset: 0x1FB1778
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

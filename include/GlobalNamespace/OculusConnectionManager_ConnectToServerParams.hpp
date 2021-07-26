@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusConnectionManager
 #include "GlobalNamespace/OculusConnectionManager.hpp"
 // Including type: IConnectionInitParams`1
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.UInt64 serverId
     void _set_serverId(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0x11F0C54
+    // Offset: 0x201F5AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

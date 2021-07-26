@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolableManager
 #include "Zenject/PoolableManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,10 +68,10 @@ namespace Zenject {
     // Set instance field: public System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities
     void _set_priorities(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* value);
     // Zenject.PoolableManager/Zenject.PoolableInfo <.ctor>b__0(Zenject.IPoolable x)
-    // Offset: 0x16C6790
+    // Offset: 0x13C8E4C
     Zenject::PoolableManager::PoolableInfo $_ctor$b__0(Zenject::IPoolable* x);
     // public System.Void .ctor()
-    // Offset: 0x16C62A4
+    // Offset: 0x13C8960
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

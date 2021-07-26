@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerEnumerated
 #include "Org/BouncyCastle/Asn1/DerEnumerated.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,19 +27,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static private readonly System.String[] ReasonString
     static void _set_ReasonString(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerEnumerated reason)
-    // Offset: 0x19D8BF8
+    // Offset: 0x168FCEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlReason* New_ctor(Org::BouncyCastle::Asn1::DerEnumerated* reason) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlReason::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlReason*, creationType>(reason)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19D8D50
+    // Offset: 0x168FE44
     // Implemented from: Org.BouncyCastle.Asn1.DerEnumerated
     // Base method: System.Void DerEnumerated::.cctor()
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x19D8C84
+    // Offset: 0x168FD78
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

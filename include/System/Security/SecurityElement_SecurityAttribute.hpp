@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.SecurityElement
 #include "System/Security/SecurityElement.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,13 +43,13 @@ namespace System::Security {
     // Set instance field: private System.String _value
     void _set__value(::Il2CppString* value);
     // public System.String get_Name()
-    // Offset: 0x1B0C6C0
+    // Offset: 0x176F048
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0x1B0C6C8
+    // Offset: 0x176F050
     ::Il2CppString* get_Value();
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x1B0B838
+    // Offset: 0x176E1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::SecurityAttribute::.ctor");

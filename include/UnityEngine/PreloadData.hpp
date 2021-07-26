@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
 // Completed includes
@@ -18,7 +19,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: PreloadData
     PreloadData() noexcept {}
     // System.Void PreloadDataDontStripMe()
-    // Offset: 0x1C74318
+    // Offset: 0x22AE920
     void PreloadDataDontStripMe();
   }; // UnityEngine.PreloadData
   #pragma pack(pop)

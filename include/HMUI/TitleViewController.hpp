@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,10 +40,10 @@ namespace HMUI {
     // Set instance field: private TMPro.TextMeshProUGUI _text
     void _set__text(TMPro::TextMeshProUGUI* value);
     // public System.Void SetText(System.String text)
-    // Offset: 0x12A2FB8
+    // Offset: 0x10786F4
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x12A2FD4
+    // Offset: 0x1078710
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

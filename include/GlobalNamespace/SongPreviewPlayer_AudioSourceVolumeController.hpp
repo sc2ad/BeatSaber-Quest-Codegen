@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongPreviewPlayer
 #include "GlobalNamespace/SongPreviewPlayer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,19 +60,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _volume
     void _set__volume(float value);
     // public System.Single get_volume()
-    // Offset: 0x105C40C
+    // Offset: 0x1EC6EE0
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0x105BC28
+    // Offset: 0x1EC66FC
     void set_volume(float value);
     // public System.Single get_maxVolume()
-    // Offset: 0x105C414
+    // Offset: 0x1EC6EE8
     float get_maxVolume();
     // public System.Void set_maxVolume(System.Single value)
-    // Offset: 0x105C41C
+    // Offset: 0x1EC6EF0
     void set_maxVolume(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audioSource)
-    // Offset: 0x105B758
+    // Offset: 0x1EC622C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceVolumeController* New_ctor(UnityEngine::AudioSource* audioSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::.ctor");

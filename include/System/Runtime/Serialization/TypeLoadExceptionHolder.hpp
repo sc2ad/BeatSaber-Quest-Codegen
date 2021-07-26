@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -34,10 +35,10 @@ namespace System::Runtime::Serialization {
     // Set instance field: private System.String m_typeName
     void _set_m_typeName(::Il2CppString* value);
     // System.String get_TypeName()
-    // Offset: 0x1684FF0
+    // Offset: 0x13876AC
     ::Il2CppString* get_TypeName();
     // System.Void .ctor(System.String typeName)
-    // Offset: 0x1684FC4
+    // Offset: 0x1387680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadExceptionHolder* New_ctor(::Il2CppString* typeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::TypeLoadExceptionHolder::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMAsyncRequest
 #include "GlobalNamespace/HMAsyncRequest.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CancelHander
     CancelHander() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1219B1C
+    // Offset: 0x2046474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMAsyncRequest::CancelHander* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMAsyncRequest::CancelHander::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMAsyncRequest::CancelHander*, creationType>(object, method)));
     }
     // public System.Void Invoke(HMAsyncRequest request)
-    // Offset: 0x1219698
+    // Offset: 0x2045FF0
     void Invoke(GlobalNamespace::HMAsyncRequest* request);
     // public System.IAsyncResult BeginInvoke(HMAsyncRequest request, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1219B2C
+    // Offset: 0x2046484
     System::IAsyncResult* BeginInvoke(GlobalNamespace::HMAsyncRequest* request, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1219B50
+    // Offset: 0x20464A8
     void EndInvoke(System::IAsyncResult* result);
   }; // HMAsyncRequest/CancelHander
   #pragma pack(pop)

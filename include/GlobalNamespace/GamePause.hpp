@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IGamePause
 #include "GlobalNamespace/IGamePause.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,42 +60,42 @@ namespace GlobalNamespace {
     System::Action* didResumeEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0xE064C8
+    // [InjectAttribute] Offset: 0xEB30E4
     // private GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xE064D8
+    // [InjectAttribute] Offset: 0xEB30F4
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE064E8
+    // [InjectAttribute] Offset: 0xEB3104
     // private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xE064F8
+    // [InjectAttribute] Offset: 0xEB3114
     // private SongController _songController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::SongController* songController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06508
+    // [InjectAttribute] Offset: 0xEB3124
     // private SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06518
+    // [InjectAttribute] Offset: 0xEB3134
     // private AudioListenerController _audioListenerController
     // Size: 0x8
     // Offset: 0x50
@@ -154,34 +155,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _pause
     void _set__pause(bool value);
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x10A3924
+    // Offset: 0x1F10894
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x10A39C8
+    // Offset: 0x1F10938
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x10A3A6C
+    // Offset: 0x1F109DC
     void add_willResumeEvent(System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x10A3B10
+    // Offset: 0x1F10A80
     void remove_willResumeEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x10A3BB4
+    // Offset: 0x1F10B24
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x10A3C58
+    // Offset: 0x1F10BC8
     void remove_didResumeEvent(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x10A3CFC
+    // Offset: 0x1F10C6C
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x10A3E40
+    // Offset: 0x1F10DB0
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x10A3E5C
+    // Offset: 0x1F10DCC
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x10A3F9C
+    // Offset: 0x1F10F0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

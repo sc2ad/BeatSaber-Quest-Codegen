@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider
 #include "UnityEngine/ResourceManagement/ResourceProviders/LegacyResourcesProvider.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
@@ -51,16 +52,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
     void _set_m_ProvideHandle(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x19B9450
+    // Offset: 0x1671544
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Void AsyncOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x19B96A8
+    // Offset: 0x167179C
     void AsyncOperationCompleted(UnityEngine::AsyncOperation* op);
     // public System.Single PercentComplete()
-    // Offset: 0x19B980C
+    // Offset: 0x1671900
     float PercentComplete();
     // public System.Void .ctor()
-    // Offset: 0x19B9448
+    // Offset: 0x167153C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

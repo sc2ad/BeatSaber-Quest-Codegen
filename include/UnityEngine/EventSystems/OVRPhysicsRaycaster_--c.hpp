@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.OVRPhysicsRaycaster
 #include "UnityEngine/EventSystems/OVRPhysicsRaycaster.hpp"
 // Including type: UnityEngine.RaycastHit
@@ -45,16 +46,16 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public System.Comparison`1<UnityEngine.RaycastHit> <>9__16_0
     static void _set_$$9__16_0(System::Comparison_1<UnityEngine::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1EF6CDC
+    // Offset: 0x1A0D97C
     static void _cctor();
     // System.Int32 <Raycast>b__15_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x1EF6D48
+    // Offset: 0x1A0D9E8
     int $Raycast$b__15_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // System.Int32 <Spherecast>b__16_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x1EF6D8C
+    // Offset: 0x1A0DA2C
     int $Spherecast$b__16_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // public System.Void .ctor()
-    // Offset: 0x1EF6D40
+    // Offset: 0x1A0D9E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

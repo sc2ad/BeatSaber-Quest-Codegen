@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -61,30 +62,30 @@ namespace UnityEngine {
     // Set instance field: public UnityEngine.Quaternion rotation
     void _set_rotation(UnityEngine::Quaternion value);
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0xEF5018
+    // Offset: 0xF83F08
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xEF4FFC
+    // Offset: 0xF83EEC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)
     // static private System.Void .cctor()
-    // Offset: 0x1C741E8
+    // Offset: 0x22AE7F0
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Pose other)
-    // Offset: 0xEF5028
+    // Offset: 0xF83F18
     bool Equals(UnityEngine::Pose other);
     // public override System.String ToString()
-    // Offset: 0xEF5010
+    // Offset: 0xF83F00
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEF5020
+    // Offset: 0xF83F10
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEF5060
+    // Offset: 0xF83F50
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

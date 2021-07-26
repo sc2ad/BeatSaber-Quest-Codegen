@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean hideBranding
     void _set_hideBranding(bool value);
     // public System.Void .ctor(System.Boolean hideBranding)
-    // Offset: 0x1022368
+    // Offset: 0x1E8CE3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSceneSetupData* New_ctor(bool hideBranding) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentSceneSetupData::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -67,14 +68,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: private System.Type[] memberTypes
     void _set_memberTypes(::Array<System::Type*>* value);
     // System.Void .ctor(System.Int32 objectId, System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x15DDC50
+    // Offset: 0x12E1220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectMapInfo* New_ctor(int objectId, int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectMapInfo*, creationType>(objectId, numMembers, memberNames, memberTypes)));
     }
     // System.Boolean isCompatible(System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x15DDC9C
+    // Offset: 0x12E126C
     bool isCompatible(int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
   #pragma pack(pop)

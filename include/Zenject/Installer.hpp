@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.InstallerBase
 #include "Zenject/InstallerBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Zenject {
     // Creating value type constructor for type: Installer
     Installer() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x16278E8
+    // Offset: 0x132AEB8
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::.ctor()
     // Base method: System.Void Object::.ctor()

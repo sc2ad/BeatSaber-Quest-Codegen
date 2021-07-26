@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,13 +47,13 @@ namespace GlobalNamespace {
     // Set instance field: private TransitionTimingSO _transitionTiming
     void _set__transitionTiming(GlobalNamespace::TransitionTimingSO* value);
     // public Tweening.EaseType get_easeType()
-    // Offset: 0x1185580
+    // Offset: 0x1FCB0B8
     Tweening::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x118559C
+    // Offset: 0x1FCB0D4
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x11855B8
+    // Offset: 0x1FCB0F0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -31,19 +32,19 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: RuntimeHelpers
     RuntimeHelpers() noexcept {}
     // static public System.Int32 get_OffsetToStringData()
-    // Offset: 0x13F01BC
+    // Offset: 0x1198E1C
     static int get_OffsetToStringData();
     // static private System.Void InitializeArray(System.Array array, System.IntPtr fldHandle)
-    // Offset: 0x13F011C
+    // Offset: 0x1198D7C
     static void InitializeArray(System::Array* array, System::IntPtr fldHandle);
     // static public System.Void InitializeArray(System.Array array, System.RuntimeFieldHandle fldHandle)
-    // Offset: 0x13F0120
+    // Offset: 0x1198D80
     static void InitializeArray(System::Array* array, System::RuntimeFieldHandle fldHandle);
     // static public System.Int32 GetHashCode(System.Object o)
-    // Offset: 0x13F01C0
+    // Offset: 0x1198E20
     static int GetHashCode(::Il2CppObject* o);
     // static public System.Void PrepareConstrainedRegions()
-    // Offset: 0x13F01C8
+    // Offset: 0x1198E28
     static void PrepareConstrainedRegions();
     // static public System.Boolean IsReferenceOrContainsReferences()
     // Offset: 0xFFFFFFFF

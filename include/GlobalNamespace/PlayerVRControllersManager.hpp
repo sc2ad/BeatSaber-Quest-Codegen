@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,10 +52,10 @@ namespace GlobalNamespace {
     // Set instance field: private VRController _rightHandVRController
     void _set__rightHandVRController(GlobalNamespace::VRController* value);
     // public System.Void DisableAllVRControllers()
-    // Offset: 0x1107D9C
+    // Offset: 0x1F59DB0
     void DisableAllVRControllers();
     // public System.Void .ctor()
-    // Offset: 0x1107DE0
+    // Offset: 0x1F59DF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ResultsEnvironmentManager
 #include "GlobalNamespace/ResultsEnvironmentManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.String keyword
     void _set_keyword(::Il2CppString* value);
     // System.Boolean <GetResultEnvironmentControllerForKeyword>b__0(ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword controllerWithKeyword)
-    // Offset: 0x1143744
+    // Offset: 0x1F74158
     bool $GetResultEnvironmentControllerForKeyword$b__0(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* controllerWithKeyword);
     // public System.Void .ctor()
-    // Offset: 0x11435DC
+    // Offset: 0x1F73FF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

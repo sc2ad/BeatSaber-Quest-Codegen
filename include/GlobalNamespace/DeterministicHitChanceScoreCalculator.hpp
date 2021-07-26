@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IMockPlayerScoreCalculator
 #include "GlobalNamespace/IMockPlayerScoreCalculator.hpp"
 // Including type: System.Int32
@@ -61,14 +62,14 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _chanceAggregated
     void _set__chanceAggregated(float value);
     // public System.Void .ctor(System.Single hitChance)
-    // Offset: 0x108996C
+    // Offset: 0x1F0B268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeterministicHitChanceScoreCalculator* New_ctor(float hitChance) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DeterministicHitChanceScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeterministicHitChanceScoreCalculator*, creationType>(hitChance)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x10899A0
+    // Offset: 0x1F0B29C
     int GetScoreForNote(GlobalNamespace::MockNoteData* noteData);
   }; // DeterministicHitChanceScoreCalculator
   #pragma pack(pop)

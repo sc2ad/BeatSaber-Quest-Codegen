@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRTextEntryController
 #include "GlobalNamespace/VRTextEntryController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -73,26 +74,26 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color <cursorColor>5__2
     void _set_$cursorColor$5__2(UnityEngine::Color value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x127AEB8
+    // Offset: 0x206EE38
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x127AF20
+    // Offset: 0x206EEA0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x127AB3C
+    // Offset: 0x206EABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTextEntryController::$BlinkCursor$d__23* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTextEntryController::$BlinkCursor$d__23*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x127AD50
+    // Offset: 0x206ECD0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x127AD54
+    // Offset: 0x206ECD4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x127AEC0
+    // Offset: 0x206EE40
     void System_Collections_IEnumerator_Reset();
   }; // VRTextEntryController/<BlinkCursor>d__23
   #pragma pack(pop)

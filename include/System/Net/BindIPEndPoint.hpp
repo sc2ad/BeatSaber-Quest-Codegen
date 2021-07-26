@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,20 +39,20 @@ namespace System::Net {
     // Creating value type constructor for type: BindIPEndPoint
     BindIPEndPoint() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1693470
+    // Offset: 0x1395B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindIPEndPoint* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::BindIPEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindIPEndPoint*, creationType>(object, method)));
     }
     // public System.Net.IPEndPoint Invoke(System.Net.ServicePoint servicePoint, System.Net.IPEndPoint remoteEndPoint, System.Int32 retryCount)
-    // Offset: 0x1693480
+    // Offset: 0x1395B3C
     System::Net::IPEndPoint* Invoke(System::Net::ServicePoint* servicePoint, System::Net::IPEndPoint* remoteEndPoint, int retryCount);
     // public System.IAsyncResult BeginInvoke(System.Net.ServicePoint servicePoint, System.Net.IPEndPoint remoteEndPoint, System.Int32 retryCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1693898
+    // Offset: 0x1395F54
     System::IAsyncResult* BeginInvoke(System::Net::ServicePoint* servicePoint, System::Net::IPEndPoint* remoteEndPoint, int retryCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.IPEndPoint EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1693938
+    // Offset: 0x1395FF4
     System::Net::IPEndPoint* EndInvoke(System::IAsyncResult* result);
   }; // System.Net.BindIPEndPoint
   #pragma pack(pop)

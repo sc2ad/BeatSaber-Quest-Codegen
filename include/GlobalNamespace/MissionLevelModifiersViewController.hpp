@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0F8B0
+    // [SpaceAttribute] Offset: 0xEBC4CC
     // private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
     // Size: 0x8
     // Offset: 0x78
@@ -96,13 +97,13 @@ namespace GlobalNamespace {
     // Set instance field: private GameplayModifiers _gameplayModifiers
     void _set__gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1132E28
+    // Offset: 0x1F6383C
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void RefreshContent()
-    // Offset: 0x1132E64
+    // Offset: 0x1F63878
     void RefreshContent();
     // public System.Void .ctor()
-    // Offset: 0x1132FBC
+    // Offset: 0x1F639D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -116,7 +117,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelModifiersViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1132FB0
+    // Offset: 0x1F639C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IAvatarPart
@@ -27,14 +28,14 @@ namespace GlobalNamespace {
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE02CCC
+    // [LocalizationKeyAttribute] Offset: 0xEAF8E8
     // private System.String _localizationKey
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* localizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xE02D04
+    // [NullAllowed] Offset: 0xEAF920
     // private T _partAsset
     // Size: 0xFFFFFFFF
     // Offset: 0x0

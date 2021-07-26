@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -115,45 +116,45 @@ namespace System::Net {
     // Set instance field: private System.EventHandler ConnectionClosed
     void _set_ConnectionClosed(System::EventHandler* value);
     // public System.String get_Name()
-    // Offset: 0x1596ADC
+    // Offset: 0x129A0AC
     ::Il2CppString* get_Name();
     // System.Collections.Queue get_Queue()
-    // Offset: 0x1596AE4
+    // Offset: 0x129A0B4
     System::Collections::Queue* get_Queue();
     // public System.Void add_ConnectionClosed(System.EventHandler value)
-    // Offset: 0x1595FA8
+    // Offset: 0x1299578
     void add_ConnectionClosed(System::EventHandler* value);
     // public System.Void remove_ConnectionClosed(System.EventHandler value)
-    // Offset: 0x159604C
+    // Offset: 0x129961C
     void remove_ConnectionClosed(System::EventHandler* value);
     // public System.Void .ctor(System.Net.ServicePoint sPoint, System.String name)
-    // Offset: 0x1595F00
+    // Offset: 0x12994D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup* New_ctor(System::Net::ServicePoint* sPoint, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup*, creationType>(sPoint, name)));
     }
     // private System.Void OnConnectionClosed()
-    // Offset: 0x15960F0
+    // Offset: 0x12996C0
     void OnConnectionClosed();
     // public System.Void Close()
-    // Offset: 0x159610C
+    // Offset: 0x12996DC
     void Close();
     // public System.Net.WebConnection GetConnection(System.Net.HttpWebRequest request, out System.Boolean created)
-    // Offset: 0x15963B8
-    System::Net::WebConnection* GetConnection(System::Net::HttpWebRequest* request, bool& created);
+    // Offset: 0x1299988
+    System::Net::WebConnection* GetConnection(System::Net::HttpWebRequest* request, ByRef<bool> created);
     // static private System.Void PrepareSharingNtlm(System.Net.WebConnection cnc, System.Net.HttpWebRequest request)
-    // Offset: 0x1596598
+    // Offset: 0x1299B68
     static void PrepareSharingNtlm(System::Net::WebConnection* cnc, System::Net::HttpWebRequest* request);
     // private System.Net.WebConnectionGroup/System.Net.ConnectionState FindIdleConnection()
-    // Offset: 0x15968C8
+    // Offset: 0x1299E98
     System::Net::WebConnectionGroup::ConnectionState* FindIdleConnection();
     // private System.Net.WebConnection CreateOrReuseConnection(System.Net.HttpWebRequest request, out System.Boolean created)
-    // Offset: 0x1596468
-    System::Net::WebConnection* CreateOrReuseConnection(System::Net::HttpWebRequest* request, bool& created);
+    // Offset: 0x1299A38
+    System::Net::WebConnection* CreateOrReuseConnection(System::Net::HttpWebRequest* request, ByRef<bool> created);
     // System.Boolean TryRecycle(System.TimeSpan maxIdleTime, ref System.DateTime idleSince)
-    // Offset: 0x1596AEC
-    bool TryRecycle(System::TimeSpan maxIdleTime, System::DateTime& idleSince);
+    // Offset: 0x129A0BC
+    bool TryRecycle(System::TimeSpan maxIdleTime, ByRef<System::DateTime> idleSince);
   }; // System.Net.WebConnectionGroup
   #pragma pack(pop)
   static check_size<sizeof(WebConnectionGroup), 56 + sizeof(System::EventHandler*)> __System_Net_WebConnectionGroupSizeCheck;
@@ -218,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::GetConnection
 // Il2CppName: GetConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnection* (System::Net::WebConnectionGroup::*)(System::Net::HttpWebRequest*, bool&)>(&System::Net::WebConnectionGroup::GetConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnection* (System::Net::WebConnectionGroup::*)(System::Net::HttpWebRequest*, ByRef<bool>)>(&System::Net::WebConnectionGroup::GetConnection)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* created = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -246,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::CreateOrReuseConnection
 // Il2CppName: CreateOrReuseConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnection* (System::Net::WebConnectionGroup::*)(System::Net::HttpWebRequest*, bool&)>(&System::Net::WebConnectionGroup::CreateOrReuseConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnection* (System::Net::WebConnectionGroup::*)(System::Net::HttpWebRequest*, ByRef<bool>)>(&System::Net::WebConnectionGroup::CreateOrReuseConnection)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* created = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -256,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::TryRecycle
 // Il2CppName: TryRecycle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionGroup::*)(System::TimeSpan, System::DateTime&)>(&System::Net::WebConnectionGroup::TryRecycle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionGroup::*)(System::TimeSpan, ByRef<System::DateTime>)>(&System::Net::WebConnectionGroup::TryRecycle)> {
   static const MethodInfo* get() {
     static auto* maxIdleTime = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     static auto* idleSince = &::il2cpp_utils::GetClassFromName("System", "DateTime")->this_arg;

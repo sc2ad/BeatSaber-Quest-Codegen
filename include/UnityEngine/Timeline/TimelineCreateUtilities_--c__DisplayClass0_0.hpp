@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.TimelineCreateUtilities
 #include "UnityEngine/Timeline/TimelineCreateUtilities.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace UnityEngine::Timeline {
     // Set instance field: public System.String name
     void _set_name(::Il2CppString* value);
     // System.Boolean <GenerateUniqueActorName>b__0(UnityEngine.ScriptableObject x)
-    // Offset: 0x2319C84
+    // Offset: 0x1DA8764
     bool $GenerateUniqueActorName$b__0(UnityEngine::ScriptableObject* x);
     // public System.Void .ctor()
-    // Offset: 0x231983C
+    // Offset: 0x1DA831C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

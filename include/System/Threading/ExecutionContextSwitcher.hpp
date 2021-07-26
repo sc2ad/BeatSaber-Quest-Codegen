@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Threading.ExecutionContext/System.Threading.Reader
@@ -74,10 +75,10 @@ namespace System::Threading {
     // Set instance field: System.Threading.Thread thread
     void _set_thread(System::Threading::Thread* value);
     // System.Boolean UndoNoThrow()
-    // Offset: 0xEEA790
+    // Offset: 0xD7E748
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0xEEA798
+    // Offset: 0xD7E750
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
   #pragma pack(pop)

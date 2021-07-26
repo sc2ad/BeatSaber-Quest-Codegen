@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -35,8 +36,8 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDE05D0
-    // [FormerlySerializedAsAttribute] Offset: 0xDE05D0
+    // [SpaceAttribute] Offset: 0xE8E1EC
+    // [FormerlySerializedAsAttribute] Offset: 0xE8E1EC
     // private BloomFogEnvironmentParams _fogParams
     // Size: 0x8
     // Offset: 0x20
@@ -56,13 +57,13 @@ namespace GlobalNamespace {
     // Set instance field: private BloomFogEnvironmentParams _fogParams
     void _set__fogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1DEA5F8
+    // Offset: 0x195D1D8
     void OnEnable();
     // protected System.Void OnValidate()
-    // Offset: 0x1DEA664
+    // Offset: 0x195D244
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1DEA9AC
+    // Offset: 0x195D58C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

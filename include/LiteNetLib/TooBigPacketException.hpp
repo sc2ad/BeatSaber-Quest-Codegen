@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.InvalidPacketException
 #include "LiteNetLib/InvalidPacketException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace LiteNetLib {
     // Creating value type constructor for type: TooBigPacketException
     TooBigPacketException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1BBDA94
+    // Offset: 0x17B0E2C
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor()
     // Base method: System.Void ArgumentException::.ctor()
@@ -41,7 +42,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<TooBigPacketException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1BB9A9C
+    // Offset: 0x17ACE34
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor(System.String message)
     // Base method: System.Void ArgumentException::.ctor(System.String message)
@@ -53,7 +54,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<TooBigPacketException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1BBDA9C
+    // Offset: 0x17B0E34
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void ArgumentException::.ctor(System.String message, System.Exception innerException)

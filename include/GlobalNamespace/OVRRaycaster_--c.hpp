@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRRaycaster
 #include "GlobalNamespace/OVRRaycaster.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<OVRRaycaster/RaycastHit> <>9__16_0
     static void _set_$$9__16_0(System::Comparison_1<GlobalNamespace::OVRRaycaster::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F9D50
+    // Offset: 0x12FD320
     static void _cctor();
     // System.Int32 <GraphicRaycast>b__16_0(OVRRaycaster/RaycastHit g1, OVRRaycaster/RaycastHit g2)
-    // Offset: 0x15F9DBC
+    // Offset: 0x12FD38C
     int $GraphicRaycast$b__16_0(GlobalNamespace::OVRRaycaster::RaycastHit g1, GlobalNamespace::OVRRaycaster::RaycastHit g2);
     // public System.Void .ctor()
-    // Offset: 0x15F9DB4
+    // Offset: 0x12FD384
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

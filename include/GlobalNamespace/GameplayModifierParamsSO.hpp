@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,14 +27,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifierParamsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xE00634
+    // [LocalizationKeyAttribute] Offset: 0xEAD250
     // private System.String _modifierNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* modifierNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE0066C
+    // [LocalizationKeyAttribute] Offset: 0xEAD288
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -125,34 +126,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isInBeta
     void _set__isInBeta(bool value);
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0x10B1698
+    // Offset: 0x1F1E608
     ::Il2CppString* get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x10B16A0
+    // Offset: 0x1F1E610
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0x10B16A8
+    // Offset: 0x1F1E618
     float get_multiplier();
     // public System.Boolean get_multiplierConditionallyValid()
-    // Offset: 0x10B16B0
+    // Offset: 0x1F1E620
     bool get_multiplierConditionallyValid();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x10B16B8
+    // Offset: 0x1F1E628
     UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0x10B16C0
+    // Offset: 0x1F1E630
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_mutuallyExclusives();
     // public GameplayModifierParamsSO[] get_requires()
-    // Offset: 0x10B16C8
+    // Offset: 0x1F1E638
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_requires();
     // public GameplayModifierParamsSO[] get_requiredBy()
-    // Offset: 0x10B16D0
+    // Offset: 0x1F1E640
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_requiredBy();
     // public System.Boolean get_isInBeta()
-    // Offset: 0x10B16D8
+    // Offset: 0x1F1E648
     bool get_isInBeta();
     // public System.Void .ctor()
-    // Offset: 0x10B16E0
+    // Offset: 0x1F1E650
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

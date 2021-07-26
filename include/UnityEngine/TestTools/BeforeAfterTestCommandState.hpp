@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 // Including type: NUnit.Framework.Interfaces.TestStatus
@@ -161,16 +162,16 @@ namespace UnityEngine::TestTools {
     // Set instance field: public System.Int64 Timestamp
     void _set_Timestamp(int64_t value);
     // public System.Void Reset()
-    // Offset: 0x1487B04
+    // Offset: 0x11F8B64
     void Reset();
     // public System.Void StoreTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x1487B20
+    // Offset: 0x11F8B80
     void StoreTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void ApplyTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x1487BB8
+    // Offset: 0x11F8C18
     void ApplyTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x1487C58
+    // Offset: 0x11F8CB8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

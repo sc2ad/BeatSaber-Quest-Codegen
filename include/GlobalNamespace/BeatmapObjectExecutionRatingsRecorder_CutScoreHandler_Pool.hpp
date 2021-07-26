@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
 #include "GlobalNamespace/BeatmapObjectExecutionRatingsRecorder_CutScoreHandler.hpp"
 // Including type: Zenject.MemoryPool`1
@@ -23,10 +24,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // protected System.Void OnDespawned(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler item)
-    // Offset: 0x1094758
+    // Offset: 0x1EECC00
     void OnDespawned(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* item);
     // public System.Void .ctor()
-    // Offset: 0x1094770
+    // Offset: 0x1EECC18
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()

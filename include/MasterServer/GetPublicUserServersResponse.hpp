@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableResponse
 #include "GlobalNamespace/BaseMasterServerReliableResponse.hpp"
 // Including type: MasterServer.IUserServerToClientMessage
@@ -126,29 +127,29 @@ namespace MasterServer {
     // Set instance field: public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
     void _set_publicServers(System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* value);
     // static public IVersionedPacketPool`1<MasterServer.GetPublicUserServersResponse> get_pool()
-    // Offset: 0x12D2F84
+    // Offset: 0x208D494
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::GetPublicUserServersResponse*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x12D2FCC
+    // Offset: 0x208D4DC
     uint get_version();
     // public MasterServer.GetPublicUserServersResponse InitForFailure(MasterServer.GetPublicUserServersResponse/MasterServer.Result result)
-    // Offset: 0x12D306C
+    // Offset: 0x208D57C
     MasterServer::GetPublicUserServersResponse* InitForFailure(MasterServer::GetPublicUserServersResponse::Result result);
     // public MasterServer.GetPublicUserServersResponse InitForSuccess(System.Collections.Generic.IEnumerable`1<PublicServerInfo> publicServers)
-    // Offset: 0x12D3104
+    // Offset: 0x208D614
     MasterServer::GetPublicUserServersResponse* InitForSuccess(System::Collections::Generic::IEnumerable_1<GlobalNamespace::PublicServerInfo>* publicServers);
     // public override System.Byte get_resultCode()
-    // Offset: 0x12D2FD4
+    // Offset: 0x208D4E4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x12D2FDC
+    // Offset: 0x208D4EC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x12D3508
+    // Offset: 0x208DA18
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -158,17 +159,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicUserServersResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D31D0
+    // Offset: 0x208D6E0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D3300
+    // Offset: 0x208D810
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12D3434
+    // Offset: 0x208D944
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

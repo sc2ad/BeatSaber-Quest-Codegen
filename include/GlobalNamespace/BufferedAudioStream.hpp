@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Boolean
 #include "System/Boolean.hpp"
 // Including type: System.Single
@@ -111,20 +112,20 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single remainingBufferTime
     void _set_remainingBufferTime(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audio)
-    // Offset: 0x1C14F90
+    // Offset: 0x2285F70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedAudioStream* New_ctor(UnityEngine::AudioSource* audio) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BufferedAudioStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAudioStream*, creationType>(audio)));
     }
     // public System.Void Update()
-    // Offset: 0x1C150A0
+    // Offset: 0x2286080
     void Update();
     // private System.Void Stop()
-    // Offset: 0x1C15050
+    // Offset: 0x2286030
     void Stop();
     // public System.Void AddData(System.Single[] samples)
-    // Offset: 0x1C15278
+    // Offset: 0x2286258
     void AddData(::Array<float>* samples);
   }; // BufferedAudioStream
   #pragma pack(pop)

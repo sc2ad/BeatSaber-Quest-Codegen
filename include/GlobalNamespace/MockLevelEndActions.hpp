@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ILevelEndActions
 #include "GlobalNamespace/ILevelEndActions.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,19 +54,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action levelFinishedEvent
     void _set_levelFinishedEvent(System::Action* value);
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x113BFC8
+    // Offset: 0x1F6C9DC
     void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x113C06C
+    // Offset: 0x1F6CA80
     void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x113C110
+    // Offset: 0x1F6CB24
     void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x113C1B4
+    // Offset: 0x1F6CBC8
     void remove_levelFinishedEvent(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x113C258
+    // Offset: 0x1F6CC6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

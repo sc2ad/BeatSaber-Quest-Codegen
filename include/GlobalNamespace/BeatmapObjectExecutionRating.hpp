@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -98,19 +99,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <time>k__BackingField
     void _set_$time$k__BackingField(float value);
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
-    // Offset: 0x1093674
+    // Offset: 0x1EEBB1C
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();
     // public System.Void set_beatmapObjectRatingType(BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType value)
-    // Offset: 0x109367C
+    // Offset: 0x1EEBB24
     void set_beatmapObjectRatingType(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     // public System.Single get_time()
-    // Offset: 0x1093684
+    // Offset: 0x1EEBB2C
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x109368C
+    // Offset: 0x1EEBB34
     void set_time(float value);
     // public System.Void .ctor()
-    // Offset: 0x1093694
+    // Offset: 0x1EEBB3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

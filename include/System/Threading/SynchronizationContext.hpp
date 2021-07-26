@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.SynchronizationContextProperties
 #include "System/Threading/SynchronizationContextProperties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,34 +69,34 @@ namespace System::Threading {
     // Set instance field: private System.Threading.SynchronizationContextProperties _props
     void _set__props(System::Threading::SynchronizationContextProperties value);
     // static public System.Threading.SynchronizationContext get_Current()
-    // Offset: 0x18A1DD0
+    // Offset: 0x15731D4
     static System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
-    // Offset: 0x18ABA4C
+    // Offset: 0x157CE50
     static System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x18AB90C
+    // Offset: 0x157CD10
     void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x18AB928
+    // Offset: 0x157CD2C
     void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void OperationStarted()
-    // Offset: 0x18AB9AC
+    // Offset: 0x157CDB0
     void OperationStarted();
     // public System.Void OperationCompleted()
-    // Offset: 0x18AB9B0
+    // Offset: 0x157CDB4
     void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
-    // Offset: 0x18AB9B4
+    // Offset: 0x157CDB8
     static void SetSynchronizationContext(System::Threading::SynchronizationContext* syncContext);
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
-    // Offset: 0x18AB9F0
+    // Offset: 0x157CDF4
     static System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x18ABA88
+    // Offset: 0x157CE8C
     System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x18A7554
+    // Offset: 0x1578958
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AddressablesImpl
 #include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 // Including type: UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode
@@ -81,13 +82,13 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: public UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode
     void _set_mode(UnityEngine::AddressableAssets::Addressables::MergeMode value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource>> <DownloadDependenciesAsyncWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x13C3ED0
+    // Offset: 0x116CB30
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*> $DownloadDependenciesAsyncWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // System.Void <DownloadDependenciesAsyncWithChain>b__1(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource>> op)
-    // Offset: 0x13C3F74
+    // Offset: 0x116CBD4
     void $DownloadDependenciesAsyncWithChain$b__1(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*> op);
     // public System.Void .ctor()
-    // Offset: 0x13C10E4
+    // Offset: 0x1169D44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

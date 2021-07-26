@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,40 +51,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _accumulator
     void _set__accumulator(float value);
     // static public System.Single get_time()
-    // Offset: 0x235B5DC
+    // Offset: 0x1DE3A1C
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x235B62C
+    // Offset: 0x1DE3A6C
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x235B688
+    // Offset: 0x1DE3AC8
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x235B6D8
+    // Offset: 0x1DE3B18
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x235B734
+    // Offset: 0x1DE3B74
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x235B784
+    // Offset: 0x1DE3BC4
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x235B7E0
+    // Offset: 0x1DE3C20
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x235B830
+    // Offset: 0x1DE3C70
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0x235B88C
+    // Offset: 0x1DE3CCC
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x235B93C
+    // Offset: 0x1DE3D7C
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x235B9EC
+    // Offset: 0x1DE3E2C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x235BBA0
+    // Offset: 0x1DE3FE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

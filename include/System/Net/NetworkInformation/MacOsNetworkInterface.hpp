@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.UnixNetworkInterface
 #include "System/Net/NetworkInformation/UnixNetworkInterface.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,19 +46,19 @@ namespace System::Net::NetworkInformation {
     // Set instance field: private System.UInt32 _ifa_flags
     void _set__ifa_flags(uint value);
     // System.Void .ctor(System.String name, System.UInt32 ifa_flags)
-    // Offset: 0x1462158
+    // Offset: 0x11D31B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsNetworkInterface* New_ctor(::Il2CppString* name, uint ifa_flags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsNetworkInterface*, creationType>(name, ifa_flags)));
     }
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x14621FC
+    // Offset: 0x11D325C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1462180
+    // Offset: 0x11D31E0
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();

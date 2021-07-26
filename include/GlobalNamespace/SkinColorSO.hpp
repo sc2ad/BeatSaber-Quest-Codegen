@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: UnityEngine.Color
@@ -46,13 +47,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public System.String get_id()
-    // Offset: 0x1058794
+    // Offset: 0x1EC3268
     ::Il2CppString* get_id();
     // public UnityEngine.Color get_Color()
-    // Offset: 0x105879C
+    // Offset: 0x1EC3270
     UnityEngine::Color get_Color();
     // public System.Void .ctor()
-    // Offset: 0x10587A8
+    // Offset: 0x1EC327C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

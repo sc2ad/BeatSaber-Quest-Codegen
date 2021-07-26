@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -63,33 +64,33 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: private UnityEngine.Vector3 <bitangent>k__BackingField
     void _set_$bitangent$k__BackingField(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xEE4930
+    // Offset: 0xD788E8
     UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0xEE493C
+    // Offset: 0xD788F4
     void set_normal(UnityEngine::Vector3 value);
     // public UnityEngine.Vector4 get_tangent()
-    // Offset: 0xEE4948
+    // Offset: 0xD78900
     UnityEngine::Vector4 get_tangent();
     // public System.Void set_tangent(UnityEngine.Vector4 value)
-    // Offset: 0xEE4954
+    // Offset: 0xD7890C
     void set_tangent(UnityEngine::Vector4 value);
     // public UnityEngine.Vector3 get_bitangent()
-    // Offset: 0xEE4960
+    // Offset: 0xD78918
     UnityEngine::Vector3 get_bitangent();
     // public System.Void set_bitangent(UnityEngine.Vector3 value)
-    // Offset: 0xEE496C
+    // Offset: 0xD78924
     void set_bitangent(UnityEngine::Vector3 value);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Normal other)
-    // Offset: 0xEE4988
+    // Offset: 0xD78940
     bool Equals(UnityEngine::ProBuilder::Normal other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEE4978
+    // Offset: 0xD78930
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEE4980
+    // Offset: 0xD78938
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -98,10 +99,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Normal), 28 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_NormalSizeCheck;
   static_assert(sizeof(Normal) == 0x28);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x1703268
+  // Offset: 0x1405924
   bool operator ==(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x170329C
+  // Offset: 0x1405958
   bool operator !=(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

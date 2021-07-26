@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ICPUMonitor
 #include "GlobalNamespace/ICPUMonitor.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -90,13 +91,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int64 _lastSampleValue
     void _set__lastSampleValue(int64_t value);
     // public System.Single get_utilization()
-    // Offset: 0x12BA0C0
+    // Offset: 0x108F7FC
     float get_utilization();
     // public System.Void PollUpdate()
-    // Offset: 0x12B9FB8
+    // Offset: 0x108F6F4
     void PollUpdate();
     // public System.Void .ctor()
-    // Offset: 0x12BA0E8
+    // Offset: 0x108F824
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

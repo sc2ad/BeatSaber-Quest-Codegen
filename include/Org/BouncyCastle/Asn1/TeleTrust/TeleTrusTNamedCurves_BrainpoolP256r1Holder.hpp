@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves
 #include "Org/BouncyCastle/Asn1/TeleTrust/TeleTrusTNamedCurves.hpp"
 // Including type: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
@@ -35,10 +36,10 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x176FC34
+    // Offset: 0x14722F0
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x176FAB8
+    // Offset: 0x1472174
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,7 +49,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
       return THROW_UNLESS((::il2cpp_utils::New<TeleTrusTNamedCurves::BrainpoolP256r1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x176FAC0
+    // Offset: 0x147217C
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();

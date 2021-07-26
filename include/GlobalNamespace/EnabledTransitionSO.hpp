@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseTransitionSO
 #include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -82,25 +83,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _selectedAndHighlightedState
     void _set__selectedAndHighlightedState(bool value);
     // public System.Boolean get_normalState()
-    // Offset: 0x101F780
+    // Offset: 0x1E8A254
     bool get_normalState();
     // public System.Boolean get_highlightedState()
-    // Offset: 0x101F788
+    // Offset: 0x1E8A25C
     bool get_highlightedState();
     // public System.Boolean get_pressedState()
-    // Offset: 0x101F790
+    // Offset: 0x1E8A264
     bool get_pressedState();
     // public System.Boolean get_disabledState()
-    // Offset: 0x101F798
+    // Offset: 0x1E8A26C
     bool get_disabledState();
     // public System.Boolean get_selectedState()
-    // Offset: 0x101F7A0
+    // Offset: 0x1E8A274
     bool get_selectedState();
     // public System.Boolean get_selectedAndHighlightedState()
-    // Offset: 0x101F7A8
+    // Offset: 0x1E8A27C
     bool get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x101F7B0
+    // Offset: 0x1E8A284
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

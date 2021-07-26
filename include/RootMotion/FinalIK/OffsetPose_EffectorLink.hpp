@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetPose
 #include "RootMotion/FinalIK/OffsetPose.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -78,10 +79,10 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Vector3 pinWeight
     void _set_pinWeight(UnityEngine::Vector3 value);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1AB6C24
+    // Offset: 0x172E474
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1AB7074
+    // Offset: 0x172E8C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

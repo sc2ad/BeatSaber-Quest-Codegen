@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0xE0974C
+    // [InjectAttribute] Offset: 0xEB6368
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
@@ -250,40 +251,40 @@ namespace GlobalNamespace {
     // Set instance field: private MovementHistoryRecorder _handMovementHistoryRecorder
     void _set__handMovementHistoryRecorder(GlobalNamespace::MovementHistoryRecorder* value);
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x1147FB8
+    // Offset: 0x1F789CC
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x1147FC0
+    // Offset: 0x1F789D4
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x1147FC8
+    // Offset: 0x1F789DC
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x1147FD0
+    // Offset: 0x1F789E4
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x1147FD8
+    // Offset: 0x1F789EC
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x1147FF4
+    // Offset: 0x1F78A08
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1147E70
+    // Offset: 0x1F78884
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1147F14
+    // Offset: 0x1F78928
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // protected System.Void Awake()
-    // Offset: 0x1148010
+    // Offset: 0x1F78A24
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11480D0
+    // Offset: 0x1F78AE4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11480F8
+    // Offset: 0x1F78B0C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11484A8
+    // Offset: 0x1F78EBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

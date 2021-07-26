@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersInputManager : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xDD0428
+    // [InjectAttribute] Offset: 0xE7D044
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x10
@@ -118,22 +119,22 @@ namespace GlobalNamespace {
     // Set instance field: private IVRPlatformHelper _vrPlatformHelper
     void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x235D3A8
+    // Offset: 0x1DE57E8
     float TriggerValue(UnityEngine::XR::XRNode node);
     // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x235D548
+    // Offset: 0x1DE5988
     float VerticalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x235D5E0
+    // Offset: 0x1DE5A20
     float HorizontalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Boolean MenuButtonDown()
-    // Offset: 0x235DAAC
+    // Offset: 0x1DE5EEC
     bool MenuButtonDown();
     // public System.Boolean MenuButton()
-    // Offset: 0x235DD3C
+    // Offset: 0x1DE617C
     bool MenuButton();
     // public System.Void .ctor()
-    // Offset: 0x235DFCC
+    // Offset: 0x1DE640C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

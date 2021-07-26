@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerBitString
 #include "Org/BouncyCastle/Asn1/DerBitString.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,17 +23,17 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: KeyUsage
     KeyUsage() noexcept {}
     // private System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x19DBBD4
+    // Offset: 0x1692CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyUsage* New_ctor(Org::BouncyCastle::Asn1::DerBitString* usage) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::KeyUsage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyUsage*, creationType>(usage)));
     }
     // static public Org.BouncyCastle.Asn1.X509.KeyUsage GetInstance(System.Object obj)
-    // Offset: 0x19DBABC
+    // Offset: 0x1692BB0
     static Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x19DBC80
+    // Offset: 0x1692D74
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();

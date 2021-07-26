@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0xE12318
+    // [InjectAttribute] Offset: 0xEBEF34
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -57,10 +58,10 @@ namespace GlobalNamespace {
     // Set instance field: private AudioTimeSyncController _audioTimeSyncController
     void _set__audioTimeSyncController(GlobalNamespace::AudioTimeSyncController* value);
     // protected System.Void Update()
-    // Offset: 0x10FF358
+    // Offset: 0x1F5136C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10FF3A4
+    // Offset: 0x1F513B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

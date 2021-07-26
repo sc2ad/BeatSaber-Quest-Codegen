@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,22 +46,22 @@ namespace Oculus::Platform {
     // Set instance field: private System.IntPtr Handle
     void _set_Handle(System::IntPtr value);
     // public System.Void SetMaxUsers(System.UInt32 value)
-    // Offset: 0x238841C
+    // Offset: 0x23E9E20
     void SetMaxUsers(uint value);
     // public System.Void AddServiceProvider(Oculus.Platform.ServiceProvider value)
-    // Offset: 0x238456C
+    // Offset: 0x23E5F70
     void AddServiceProvider(Oculus::Platform::ServiceProvider value);
     // public System.Void ClearServiceProviders()
-    // Offset: 0x2388498
+    // Offset: 0x23E9E9C
     void ClearServiceProviders();
     // public System.Void SetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x2388504
+    // Offset: 0x23E9F08
     void SetTimeWindow(Oculus::Platform::TimeWindow value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.UserOptions options)
-    // Offset: 0x23845E8
+    // Offset: 0x23E5FEC
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x23844F4
+    // Offset: 0x23E5EF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,7 +70,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<UserOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x2388580
+    // Offset: 0x23E9F84
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

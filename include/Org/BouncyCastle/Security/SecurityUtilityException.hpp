@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Org::BouncyCastle::Security {
     // Creating value type constructor for type: SecurityUtilityException
     SecurityUtilityException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13628A0
+    // Offset: 0x1109500
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,7 +33,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<SecurityUtilityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x134FE4C
+    // Offset: 0x10F6AAC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

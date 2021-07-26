@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Parameters.KeyParameter
 #include "Org/BouncyCastle/Crypto/Parameters/KeyParameter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,22 +27,22 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static private readonly System.Byte[] DES_weak_keys
     static void _set_DES_weak_keys(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1228B64
+    // Offset: 0x1032E3C
     static void _cctor();
     // static public System.Boolean IsWeakKey(System.Byte[] key, System.Int32 offset)
-    // Offset: 0x12285B0
+    // Offset: 0x1032888
     static bool IsWeakKey(::Array<uint8_t>* key, int offset);
     // static public System.Boolean IsWeakKey(System.Byte[] key)
-    // Offset: 0x12287E8
+    // Offset: 0x1032AC0
     static bool IsWeakKey(::Array<uint8_t>* key);
     // static public System.Byte SetOddParity(System.Byte b)
-    // Offset: 0x1228A68
+    // Offset: 0x1032D40
     static uint8_t SetOddParity(uint8_t b);
     // static public System.Void SetOddParity(System.Byte[] bytes)
-    // Offset: 0x1228A88
+    // Offset: 0x1032D60
     static void SetOddParity(::Array<uint8_t>* bytes);
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1228450
+    // Offset: 0x1032728
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,7 +51,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return THROW_UNLESS((::il2cpp_utils::New<DesParameters*, creationType>(key)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x1228850
+    // Offset: 0x1032B28
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

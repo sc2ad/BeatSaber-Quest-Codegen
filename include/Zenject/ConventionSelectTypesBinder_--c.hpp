@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ConventionSelectTypesBinder
 #include "Zenject/ConventionSelectTypesBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,22 +54,22 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1380D84
+    // Offset: 0x11279E4
     static void _cctor();
     // System.Boolean <AllClasses>b__4_0(System.Type t)
-    // Offset: 0x1380DF0
+    // Offset: 0x1127A50
     bool $AllClasses$b__4_0(System::Type* t);
     // System.Boolean <AllNonAbstractClasses>b__5_0(System.Type t)
-    // Offset: 0x1380E0C
+    // Offset: 0x1127A6C
     bool $AllNonAbstractClasses$b__5_0(System::Type* t);
     // System.Boolean <AllAbstractClasses>b__6_0(System.Type t)
-    // Offset: 0x1380E5C
+    // Offset: 0x1127ABC
     bool $AllAbstractClasses$b__6_0(System::Type* t);
     // System.Boolean <AllInterfaces>b__7_0(System.Type t)
-    // Offset: 0x1380EA8
+    // Offset: 0x1127B08
     bool $AllInterfaces$b__7_0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x1380DE8
+    // Offset: 0x1127A48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

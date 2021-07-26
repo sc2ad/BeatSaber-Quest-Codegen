@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.KerningTable
 #include "TMPro/KerningTable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace TMPro {
     // Set instance field: public System.UInt32 second
     void _set_second(uint value);
     // System.Boolean <AddKerningPair>b__0(TMPro.KerningPair item)
-    // Offset: 0x10B9F98
+    // Offset: 0xFF1A98
     bool $AddKerningPair$b__0(TMPro::KerningPair* item);
     // public System.Void .ctor()
-    // Offset: 0x10B9A38
+    // Offset: 0xFF1538
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

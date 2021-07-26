@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongController
 #include "GlobalNamespace/SongController.hpp"
 // Including type: IStartSeekSongController
@@ -49,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE09D0C
+    // [InjectAttribute] Offset: 0xEB6928
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -85,28 +86,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _songDidFinish
     void _set__songDidFinish(bool value);
     // public System.Single get_songLength()
-    // Offset: 0x10AEFBC
+    // Offset: 0x1F1BF2C
     float get_songLength();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x10AEFD8
+    // Offset: 0x1F1BF48
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // protected System.Void LateUpdate()
-    // Offset: 0x10AEFF4
+    // Offset: 0x1F1BF64
     void LateUpdate();
     // public System.Void StartSong(System.Single songTimeOffset)
-    // Offset: 0x10AF06C
+    // Offset: 0x1F1BFDC
     void StartSong(float songTimeOffset);
     // public System.Void FailStopSong()
-    // Offset: 0x10AF234
+    // Offset: 0x1F1C1A4
     void FailStopSong();
     // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0x10AF3F8
+    // Offset: 0x1F1C368
     void SeekTo(float songTime);
     // private System.Void <FailStopSong>b__13_0()
-    // Offset: 0x10AF41C
+    // Offset: 0x1F1C38C
     void $FailStopSong$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0x10AF414
+    // Offset: 0x1F1C384
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -120,17 +121,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameSongController*, creationType>()));
     }
     // public override System.Void StopSong()
-    // Offset: 0x10AF090
+    // Offset: 0x1F1C000
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0x10AF0AC
+    // Offset: 0x1F1C01C
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0x10AF170
+    // Offset: 0x1F1C0E0
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();

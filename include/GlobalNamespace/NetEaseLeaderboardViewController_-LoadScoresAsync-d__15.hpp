@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetEaseLeaderboardViewController
 #include "GlobalNamespace/NetEaseLeaderboardViewController.hpp"
 // Including type: System.ValueType
@@ -74,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.ReceivedHighscoreData> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFA60
+    // Offset: 0xF7B6A4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFA68
+    // Offset: 0xF7B6AC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseLeaderboardViewController/<LoadScoresAsync>d__15
   // WARNING Not writing size check since size may be invalid!

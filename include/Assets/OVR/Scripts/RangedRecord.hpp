@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Assets.OVR.Scripts.Record
 #include "Assets/OVR/Scripts/Record.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,7 +53,7 @@ namespace Assets::OVR::Scripts {
     // Set instance field: public System.Single max
     void _set_max(float value);
     // public System.Void .ctor(System.String cat, System.String msg, System.Single val, System.Single minVal, System.Single maxVal)
-    // Offset: 0x1575BA4
+    // Offset: 0x127A174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangedRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, float val, float minVal, float maxVal) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::RangedRecord::.ctor");

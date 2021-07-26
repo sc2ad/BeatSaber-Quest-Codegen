@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyValuesSetter
 #include "GlobalNamespace/MaterialPropertyValuesSetter.hpp"
 // Including type: MaterialPropertyValuesSetter/PropertyValuePairBase
@@ -38,7 +39,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 value
     void _set_value(int value);
     // public System.Void .ctor()
-    // Offset: 0x1DF63B0
+    // Offset: 0x1968F90
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()

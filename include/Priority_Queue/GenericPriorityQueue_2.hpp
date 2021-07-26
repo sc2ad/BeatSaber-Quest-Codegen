@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Priority_Queue.IFixedSizePriorityQueue`2
 #include "Priority_Queue/IFixedSizePriorityQueue_2.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1

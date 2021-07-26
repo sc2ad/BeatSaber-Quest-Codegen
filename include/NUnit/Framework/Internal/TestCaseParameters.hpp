@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.TestParameters
 #include "NUnit/Framework/Internal/TestParameters.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestCaseData
@@ -27,7 +28,7 @@ namespace NUnit::Framework::Internal {
     ::Il2CppObject* expectedResult;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEEECC
+    // [DebuggerBrowsableAttribute] Offset: 0xE9CAE8
     // private System.Boolean <HasExpectedResult>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -49,13 +50,13 @@ namespace NUnit::Framework::Internal {
     // Set instance field: private System.Boolean <HasExpectedResult>k__BackingField
     void _set_$HasExpectedResult$k__BackingField(bool value);
     // public System.Object get_ExpectedResult()
-    // Offset: 0x223EB24
+    // Offset: 0x1D0E998
     ::Il2CppObject* get_ExpectedResult();
     // public System.Boolean get_HasExpectedResult()
-    // Offset: 0x223EB2C
+    // Offset: 0x1D0E9A0
     bool get_HasExpectedResult();
     // public System.Void .ctor()
-    // Offset: 0x223EA24
+    // Offset: 0x1D0E898
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -65,7 +66,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>()));
     }
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x223EA98
+    // Offset: 0x1D0E90C
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusLevelProductsModelSO
 #include "GlobalNamespace/OculusLevelProductsModelSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,16 +53,16 @@ namespace GlobalNamespace {
     // Set instance field: private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
     void _set__levelProductsData(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* value);
     // public System.String get_sku()
-    // Offset: 0x11F1CA8
+    // Offset: 0x2020600
     ::Il2CppString* get_sku();
     // public System.String get_levelPackId()
-    // Offset: 0x11F1CB0
+    // Offset: 0x2020608
     ::Il2CppString* get_levelPackId();
     // public OculusLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x11F1CB8
+    // Offset: 0x2020610
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0x11F1CC0
+    // Offset: 0x2020618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -101,19 +102,19 @@ namespace GlobalNamespace {
     // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     void _set__randomSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
     // protected System.Void Start()
-    // Offset: 0x1186AA4
+    // Offset: 0x1FCC5DC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1186B3C
+    // Offset: 0x1FCC674
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1186C10
+    // Offset: 0x1FCC748
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x1186CE4
+    // Offset: 0x1FCC81C
     void HandleButtonClickEvent();
     // public System.Void .ctor()
-    // Offset: 0x1186DC4
+    // Offset: 0x1FCC8FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

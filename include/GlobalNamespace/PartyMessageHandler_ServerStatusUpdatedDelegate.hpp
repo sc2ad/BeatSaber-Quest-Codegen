@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PartyMessageHandler
 #include "GlobalNamespace/PartyMessageHandler.hpp"
 // Including type: System.MulticastDelegate
@@ -40,20 +41,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ServerStatusUpdatedDelegate
     ServerStatusUpdatedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x230A800
+    // Offset: 0x23CB9B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ServerStatusUpdatedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ServerStatusUpdatedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String serverName, System.String password, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x230A810
+    // Offset: 0x23CB9C4
     void Invoke(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.IAsyncResult BeginInvoke(System.String serverName, System.String password, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x230AF54
+    // Offset: 0x23CC108
     System::IAsyncResult* BeginInvoke(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x230B01C
+    // Offset: 0x23CC1D0
     void EndInvoke(System::IAsyncResult* result);
   }; // PartyMessageHandler/ServerStatusUpdatedDelegate
   #pragma pack(pop)

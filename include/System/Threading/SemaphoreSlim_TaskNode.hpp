@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.SemaphoreSlim
 #include "System/Threading/SemaphoreSlim.hpp"
 // Including type: System.Threading.Tasks.Task`1
@@ -50,13 +51,13 @@ namespace System::Threading {
     // Set instance field: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next
     void _set_Next(System::Threading::SemaphoreSlim::TaskNode* value);
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x18AAE64
+    // Offset: 0x157C268
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x18AAEB8
+    // Offset: 0x157C2BC
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
     // System.Void .ctor()
-    // Offset: 0x18A9C74
+    // Offset: 0x157B078
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::.ctor()
     // Base method: System.Void Task::.ctor()

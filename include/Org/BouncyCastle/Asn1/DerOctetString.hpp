@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1OctetString
 #include "Org/BouncyCastle/Asn1/Asn1OctetString.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,14 +31,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: DerOctetString
     DerOctetString() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x16EBB28
+    // Offset: 0x13EE1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOctetString* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetString*, creationType>(obj)));
     }
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x16DC00C
+    // Offset: 0x13DE6C8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1OctetString
     // Base method: System.Void Asn1OctetString::.ctor(System.Byte[] str)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +47,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetString*, creationType>(str)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16E0B90
+    // Offset: 0x13E324C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

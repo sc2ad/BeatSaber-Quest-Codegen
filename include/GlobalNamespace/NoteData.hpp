@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectData
 #include "GlobalNamespace/BeatmapObjectData.hpp"
 // Including type: ColorType
@@ -125,105 +126,105 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <duration>k__BackingField
     void _set_$duration$k__BackingField(float value);
     // public ColorType get_colorType()
-    // Offset: 0x23B6F1C
+    // Offset: 0x23EF0A4
     GlobalNamespace::ColorType get_colorType();
     // private System.Void set_colorType(ColorType value)
-    // Offset: 0x23B6F24
+    // Offset: 0x23EF0AC
     void set_colorType(GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x23B6F2C
+    // Offset: 0x23EF0B4
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // private System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x23B6F34
+    // Offset: 0x23EF0BC
     void set_cutDirection(GlobalNamespace::NoteCutDirection value);
     // public System.Single get_timeToNextColorNote()
-    // Offset: 0x23B6F3C
+    // Offset: 0x23EF0C4
     float get_timeToNextColorNote();
     // public System.Void set_timeToNextColorNote(System.Single value)
-    // Offset: 0x23B6F44
+    // Offset: 0x23EF0CC
     void set_timeToNextColorNote(float value);
     // public System.Single get_timeToPrevColorNote()
-    // Offset: 0x23B6F4C
+    // Offset: 0x23EF0D4
     float get_timeToPrevColorNote();
     // public System.Void set_timeToPrevColorNote(System.Single value)
-    // Offset: 0x23B6F54
+    // Offset: 0x23EF0DC
     void set_timeToPrevColorNote(float value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x23B6F5C
+    // Offset: 0x23EF0E4
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x23B6F64
+    // Offset: 0x23EF0EC
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public NoteLineLayer get_startNoteLineLayer()
-    // Offset: 0x23B6F6C
+    // Offset: 0x23EF0F4
     GlobalNamespace::NoteLineLayer get_startNoteLineLayer();
     // private System.Void set_startNoteLineLayer(NoteLineLayer value)
-    // Offset: 0x23B6F74
+    // Offset: 0x23EF0FC
     void set_startNoteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Int32 get_flipLineIndex()
-    // Offset: 0x23B6F7C
+    // Offset: 0x23EF104
     int get_flipLineIndex();
     // private System.Void set_flipLineIndex(System.Int32 value)
-    // Offset: 0x23B6F84
+    // Offset: 0x23EF10C
     void set_flipLineIndex(int value);
     // public System.Single get_flipYSide()
-    // Offset: 0x23B6F8C
+    // Offset: 0x23EF114
     float get_flipYSide();
     // private System.Void set_flipYSide(System.Single value)
-    // Offset: 0x23B6F94
+    // Offset: 0x23EF11C
     void set_flipYSide(float value);
     // public System.Single get_duration()
-    // Offset: 0x23B6F9C
+    // Offset: 0x23EF124
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0x23B6FA4
+    // Offset: 0x23EF12C
     void set_duration(float value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteLineLayer startNoteLineLayer, ColorType colorType, NoteCutDirection cutDirection, System.Single timeToNextColorNote, System.Single timeToPrevColorNote, System.Int32 flipLineIndex, System.Single flipYSide, System.Single duration)
-    // Offset: 0x23B704C
+    // Offset: 0x23EF1D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteLineLayer startNoteLineLayer, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection, float timeToNextColorNote, float timeToPrevColorNote, int flipLineIndex, float flipYSide, float duration) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteData*, creationType>(time, lineIndex, noteLineLayer, startNoteLineLayer, colorType, cutDirection, timeToNextColorNote, timeToPrevColorNote, flipLineIndex, flipYSide, duration)));
     }
     // static public NoteData CreateBombNoteData(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x23B70E8
+    // Offset: 0x23EF270
     static GlobalNamespace::NoteData* CreateBombNoteData(float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // static public NoteData CreateBasicNoteData(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, ColorType colorType, NoteCutDirection cutDirection)
-    // Offset: 0x23B7184
+    // Offset: 0x23EF30C
     static GlobalNamespace::NoteData* CreateBasicNoteData(float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection);
     // public System.Void SetNoteStartLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x23B722C
+    // Offset: 0x23EF3B4
     void SetNoteStartLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // public System.Void SetNoteFlipToNote(NoteData targetNote)
-    // Offset: 0x23B7234
+    // Offset: 0x23EF3BC
     void SetNoteFlipToNote(GlobalNamespace::NoteData* targetNote);
     // private System.Void SwitchNoteColorType()
-    // Offset: 0x23B72EC
+    // Offset: 0x23EF474
     void SwitchNoteColorType();
     // private System.Void MirrorTransformCutDirection()
-    // Offset: 0x23B7310
+    // Offset: 0x23EF498
     void MirrorTransformCutDirection();
     // public System.Void SetNoteToAnyCutDirection()
-    // Offset: 0x23B7334
+    // Offset: 0x23EF4BC
     void SetNoteToAnyCutDirection();
     // public System.Void ChangeNoteCutDirection(NoteCutDirection newCutDirection)
-    // Offset: 0x23B7340
+    // Offset: 0x23EF4C8
     void ChangeNoteCutDirection(GlobalNamespace::NoteCutDirection newCutDirection);
     // public System.Void TransformNoteAOrBToRandomType()
-    // Offset: 0x23B7348
+    // Offset: 0x23EF4D0
     void TransformNoteAOrBToRandomType();
     // public override BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0x23B6F14
+    // Offset: 0x23EF09C
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectType BeatmapObjectData::get_beatmapObjectType()
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0x23B6FAC
+    // Offset: 0x23EF134
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0x23B72B0
+    // Offset: 0x23EF438
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);

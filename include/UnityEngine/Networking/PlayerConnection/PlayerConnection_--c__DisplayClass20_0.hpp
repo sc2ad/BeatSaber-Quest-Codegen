@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerConnection
 #include "UnityEngine/Networking/PlayerConnection/PlayerConnection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Set instance field: public System.Boolean msgReceived
     void _set_msgReceived(bool value);
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
-    // Offset: 0x1CFB438
+    // Offset: 0x22D56CC
     void $BlockUntilRecvMsg$b__0(UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
     // public System.Void .ctor()
-    // Offset: 0x1CFAABC
+    // Offset: 0x22D4D50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

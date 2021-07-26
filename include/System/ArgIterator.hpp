@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
@@ -64,12 +65,12 @@ namespace System {
     // Set instance field: private System.Int32 num_args
     void _set_num_args(int value);
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xEE8164
+    // Offset: 0xD7C11C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEE8170
+    // Offset: 0xD7C128
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

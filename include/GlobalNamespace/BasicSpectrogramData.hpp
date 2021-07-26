@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: System.Int32
@@ -107,22 +108,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<System.Single> _processedSamples
     void _set__processedSamples(System::Collections::Generic::List_1<float>* value);
     // public System.Single[] get_Samples()
-    // Offset: 0x1186680
+    // Offset: 0x1FCC1B8
     ::Array<float>* get_Samples();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x1186728
+    // Offset: 0x1FCC260
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // protected System.Void Awake()
-    // Offset: 0x1186988
+    // Offset: 0x1FCC4C0
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0x1186A04
+    // Offset: 0x1FCC53C
     void LateUpdate();
     // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
-    // Offset: 0x118677C
+    // Offset: 0x1FCC2B4
     void ProcessSamples(::Array<float>* sourceSamples, System::Collections::Generic::List_1<float>* processedSamples);
     // public System.Void .ctor()
-    // Offset: 0x1186A0C
+    // Offset: 0x1FCC544
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

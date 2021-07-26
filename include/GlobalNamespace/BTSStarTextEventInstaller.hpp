@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,7 +40,7 @@ namespace GlobalNamespace {
     // Set instance field: private BTSStarTextEffectController _btsStarTextEffectController
     void _set__btsStarTextEffectController(GlobalNamespace::BTSStarTextEffectController* value);
     // public System.Void .ctor()
-    // Offset: 0x10E7A54
+    // Offset: 0x1F38A68
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -54,7 +55,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x10E79D4
+    // Offset: 0x1F389E8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

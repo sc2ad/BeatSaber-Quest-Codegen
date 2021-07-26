@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -16,10 +17,10 @@ namespace System::IO {
     // Creating value type constructor for type: PathInternal
     PathInternal() noexcept {}
     // static public System.Boolean IsPartiallyQualified(System.String path)
-    // Offset: 0x192BBF0
+    // Offset: 0x15FCFF4
     static bool IsPartiallyQualified(::Il2CppString* path);
     // static public System.Boolean HasIllegalCharacters(System.String path, System.Boolean checkAdditional)
-    // Offset: 0x192B8B4
+    // Offset: 0x15FCCB8
     static bool HasIllegalCharacters(::Il2CppString* path, bool checkAdditional);
   }; // System.IO.PathInternal
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusPlatformLeaderboardsHandler
 #include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 // Including type: PlatformLeaderboardsModel
@@ -53,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
     void _set_completionHandler(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* value);
     // System.Void <UploadScore>b__0(Oculus.Platform.Message`1<System.Boolean> messsage)
-    // Offset: 0xFF1DB0
+    // Offset: 0x1E45364
     void $UploadScore$b__0(Oculus::Platform::Message_1<bool>* messsage);
     // public System.Void .ctor()
-    // Offset: 0xFF19FC
+    // Offset: 0x1E44FB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

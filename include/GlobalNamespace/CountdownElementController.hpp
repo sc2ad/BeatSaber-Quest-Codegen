@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,13 +57,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Animation _animation
     void _set__animation(UnityEngine::Animation* value);
     // public System.Void SetTextAndRunAnimation(System.String text)
-    // Offset: 0x10821A8
+    // Offset: 0x1F03AA4
     void SetTextAndRunAnimation(::Il2CppString* text);
     // public System.Void StopAndHide()
-    // Offset: 0x1082208
+    // Offset: 0x1F03B04
     void StopAndHide();
     // public System.Void .ctor()
-    // Offset: 0x10822A8
+    // Offset: 0x1F03BA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

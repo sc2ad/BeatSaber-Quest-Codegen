@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -169,32 +170,32 @@ namespace RootMotion {
     // Set instance field: private UnityEngine.Quaternion relativeRotation
     void _set_relativeRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
-    // Offset: 0x1CD4FDC
+    // Offset: 0x1871D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerTransform* New_ctor(UnityEngine::Transform* transform, UnityEngine::Transform* root, bool recordPosition, bool isRootNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerTransform*, creationType>(transform, root, recordPosition, isRootNode)));
     }
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1CD5170
+    // Offset: 0x1871F10
     void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1CD5184
-    void SetCurves(UnityEngine::AnimationClip*& clip);
+    // Offset: 0x1871F24
+    void SetCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1CD5414
-    void AddRootMotionCurves(UnityEngine::AnimationClip*& clip);
+    // Offset: 0x18721B4
+    void AddRootMotionCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // public System.Void Reset()
-    // Offset: 0x1CD5078
+    // Offset: 0x1871E18
     void Reset();
     // public System.Void ReduceKeyframes(System.Single maxError)
-    // Offset: 0x1CD5660
+    // Offset: 0x1872400
     void ReduceKeyframes(float maxError);
     // public System.Void SetKeyframes(System.Single time)
-    // Offset: 0x1CD56D4
+    // Offset: 0x1872474
     void SetKeyframes(float time);
     // public System.Void AddLoopFrame(System.Single time)
-    // Offset: 0x1CD5920
+    // Offset: 0x18726C0
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
   #pragma pack(pop)
@@ -220,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerTransform::SetCurves
 // Il2CppName: SetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(UnityEngine::AnimationClip*&)>(&RootMotion::BakerTransform::SetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(ByRef<UnityEngine::AnimationClip*>)>(&RootMotion::BakerTransform::SetCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -229,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerTransform::AddRootMotionCurves
 // Il2CppName: AddRootMotionCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(UnityEngine::AnimationClip*&)>(&RootMotion::BakerTransform::AddRootMotionCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(ByRef<UnityEngine::AnimationClip*>)>(&RootMotion::BakerTransform::AddRootMotionCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "AddRootMotionCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});

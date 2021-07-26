@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE8314
+    // [DescriptionAttribute] Offset: 0xE95F30
     // static field const value: static public Oculus.Platform.AchievementType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.AchievementType Unknown
     static Oculus::Platform::AchievementType _get_Unknown();
     // Set static field: static public Oculus.Platform.AchievementType Unknown
     static void _set_Unknown(Oculus::Platform::AchievementType value);
-    // [DescriptionAttribute] Offset: 0xDE834C
+    // [DescriptionAttribute] Offset: 0xE95F68
     // static field const value: static public Oculus.Platform.AchievementType Simple
     static constexpr const int Simple = 1;
     // Get static field: static public Oculus.Platform.AchievementType Simple
     static Oculus::Platform::AchievementType _get_Simple();
     // Set static field: static public Oculus.Platform.AchievementType Simple
     static void _set_Simple(Oculus::Platform::AchievementType value);
-    // [DescriptionAttribute] Offset: 0xDE8384
+    // [DescriptionAttribute] Offset: 0xE95FA0
     // static field const value: static public Oculus.Platform.AchievementType Bitfield
     static constexpr const int Bitfield = 2;
     // Get static field: static public Oculus.Platform.AchievementType Bitfield
     static Oculus::Platform::AchievementType _get_Bitfield();
     // Set static field: static public Oculus.Platform.AchievementType Bitfield
     static void _set_Bitfield(Oculus::Platform::AchievementType value);
-    // [DescriptionAttribute] Offset: 0xDE83BC
+    // [DescriptionAttribute] Offset: 0xE95FD8
     // static field const value: static public Oculus.Platform.AchievementType Count
     static constexpr const int Count = 3;
     // Get static field: static public Oculus.Platform.AchievementType Count

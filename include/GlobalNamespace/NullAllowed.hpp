@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Including type: System.Enum
@@ -100,21 +101,21 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Object ifNotValue
     void _set_ifNotValue(::Il2CppObject* value);
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0x23CB3F0
+    // Offset: 0x1E429E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(context)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
-    // Offset: 0x23CB41C
+    // Offset: 0x1E42A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* ifNotValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(propertyName, ifNotValue)));
     }
     // public System.Void .ctor()
-    // Offset: 0x23CB3C8
+    // Offset: 0x1E429C0
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -97,38 +98,38 @@ namespace Mono::Net {
     // Set instance field: private Mono.Net.CFDictionary settings
     void _set_settings(Mono::Net::CFDictionary* value);
     // public System.IntPtr get_AutoConfigurationJavaScript()
-    // Offset: 0x15A83DC
+    // Offset: 0x12AB9AC
     System::IntPtr get_AutoConfigurationJavaScript();
     // public System.IntPtr get_AutoConfigurationUrl()
-    // Offset: 0x15A849C
+    // Offset: 0x12ABA6C
     System::IntPtr get_AutoConfigurationUrl();
     // public System.String get_HostName()
-    // Offset: 0x15A7D40
+    // Offset: 0x12AB310
     ::Il2CppString* get_HostName();
     // public System.String get_Password()
-    // Offset: 0x15A7C7C
+    // Offset: 0x12AB24C
     ::Il2CppString* get_Password();
     // public System.Int32 get_Port()
-    // Offset: 0x15A7E04
+    // Offset: 0x12AB3D4
     int get_Port();
     // public Mono.Net.CFProxyType get_ProxyType()
-    // Offset: 0x15A7AF4
+    // Offset: 0x12AB0C4
     Mono::Net::CFProxyType get_ProxyType();
     // public System.String get_Username()
-    // Offset: 0x15A7BB8
+    // Offset: 0x12AB188
     ::Il2CppString* get_Username();
     // static private System.Void .cctor()
-    // Offset: 0x15A8AE0
+    // Offset: 0x12AC0B0
     static void _cctor();
     // System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x15A67B4
+    // Offset: 0x12A9D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxy* New_ctor(Mono::Net::CFDictionary* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFProxy*, creationType>(settings)));
     }
     // static private Mono.Net.CFProxyType CFProxyTypeToEnum(System.IntPtr type)
-    // Offset: 0x15A8CDC
+    // Offset: 0x12AC2AC
     static Mono::Net::CFProxyType CFProxyTypeToEnum(System::IntPtr type);
   }; // Mono.Net.CFProxy
   #pragma pack(pop)

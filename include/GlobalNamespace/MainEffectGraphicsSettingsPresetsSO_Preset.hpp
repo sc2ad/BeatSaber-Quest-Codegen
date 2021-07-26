@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MainEffectGraphicsSettingsPresetsSO
 #include "GlobalNamespace/MainEffectGraphicsSettingsPresetsSO.hpp"
 // Including type: NamedPreset
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public MainEffectSO mainEffect
     void _set_mainEffect(GlobalNamespace::MainEffectSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1178D3C
+    // Offset: 0x1FA8750
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

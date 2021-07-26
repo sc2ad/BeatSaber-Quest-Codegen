@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -142,16 +143,16 @@ namespace RootMotion::FinalIK {
     // Set instance field: private RootMotion.FinalIK.IKSolver[] _ikSolvers
     void _set__ikSolvers(::Array<RootMotion::FinalIK::IKSolver*>* value);
     // public RootMotion.FinalIK.IKSolverLimb[] get_limbs()
-    // Offset: 0x1CDF6D8
+    // Offset: 0x187C478
     ::Array<RootMotion::FinalIK::IKSolverLimb*>* get_limbs();
     // public RootMotion.FinalIK.IKSolver[] get_ikSolvers()
-    // Offset: 0x1CE02F0
+    // Offset: 0x187D090
     ::Array<RootMotion::FinalIK::IKSolver*>* get_ikSolvers();
     // public System.Void AssignReferences(RootMotion.BipedReferences references)
-    // Offset: 0x1CDFA94
+    // Offset: 0x187C834
     void AssignReferences(RootMotion::BipedReferences* references);
     // public System.Void .ctor()
-    // Offset: 0x1CE01A8
+    // Offset: 0x187CF48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

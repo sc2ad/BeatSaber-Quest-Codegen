@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.CADMessageBase
 #include "System/Runtime/Remoting/Messaging/CADMessageBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,26 +51,26 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.String _uri
     void _set__uri(::Il2CppString* value);
     // System.String get_Uri()
-    // Offset: 0x19F5CA8
+    // Offset: 0x16ACD9C
     ::Il2CppString* get_Uri();
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x19F602C
+    // Offset: 0x16AD120
     int get_PropertiesCount();
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodCallMessage callMsg)
-    // Offset: 0x19F5D34
+    // Offset: 0x16ACE28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodCallMessage* New_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodCallMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodCallMessage*, creationType>(callMsg)));
     }
     // static System.Runtime.Remoting.Messaging.CADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x19F5CB0
+    // Offset: 0x16ACDA4
     static System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x19F5F3C
+    // Offset: 0x16AD030
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x19F601C
+    // Offset: 0x16AD110
     ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodCallMessage
   #pragma pack(pop)

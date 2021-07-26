@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PartyMessageHandler
 #include "GlobalNamespace/PartyMessageHandler.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -93,22 +94,22 @@ namespace GlobalNamespace {
     // Set instance field: public GameplayServerConfiguration configuration
     void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public PacketPool`1<PartyMessageHandler/ServerStatusUpdateMessage> get_pool()
-    // Offset: 0x153C610
+    // Offset: 0x2148C74
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*>* get_pool();
     // public PartyMessageHandler/ServerStatusUpdateMessage Init(System.String serverName, System.String password, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x153C8FC
+    // Offset: 0x2148F60
     GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage* Init(::Il2CppString* serverName, ::Il2CppString* password, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x153D804
+    // Offset: 0x2149E68
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x153D86C
+    // Offset: 0x2149ED0
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x153C99C
+    // Offset: 0x2149000
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x153D900
+    // Offset: 0x2149F64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Utilities.IO.BaseInputStream
 #include "Org/BouncyCastle/Utilities/IO/BaseInputStream.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,17 +51,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private System.Int32 _limit
     void _set__limit(int value);
     // System.Int32 get_Limit()
-    // Offset: 0x175DEC8
+    // Offset: 0x1460584
     int get_Limit();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x175D400
+    // Offset: 0x145FABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LimitedInputStream* New_ctor(System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LimitedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LimitedInputStream*, creationType>(inStream, limit)));
     }
     // protected System.Void SetParentEofDetect(System.Boolean on)
-    // Offset: 0x175DED0
+    // Offset: 0x146058C
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
   #pragma pack(pop)

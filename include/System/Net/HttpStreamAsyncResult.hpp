@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -146,25 +147,25 @@ namespace System::Net {
     // Set instance field: System.Exception Error
     void _set_Error(System::Exception* value);
     // public System.Object get_AsyncState()
-    // Offset: 0x163905C
+    // Offset: 0x133B718
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1639064
+    // Offset: 0x133B720
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1639154
+    // Offset: 0x133B810
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1639168
+    // Offset: 0x133B824
     bool get_IsCompleted();
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1638F88
+    // Offset: 0x133B644
     void Complete(System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x1638F90
+    // Offset: 0x133B64C
     void Complete();
     // public System.Void .ctor()
-    // Offset: 0x16391FC
+    // Offset: 0x133B8B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

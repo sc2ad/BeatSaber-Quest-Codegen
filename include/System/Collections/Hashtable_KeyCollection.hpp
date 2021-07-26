@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Hashtable
 #include "System/Collections/Hashtable.hpp"
 // Including type: System.Collections.ICollection
@@ -54,20 +55,20 @@ namespace System::Collections {
     // Set instance field: private System.Collections.Hashtable _hashtable
     void _set__hashtable(System::Collections::Hashtable* value);
     // public System.Int32 get_Count()
-    // Offset: 0x194687C
+    // Offset: 0x1617C80
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1946660
+    // Offset: 0x1617A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x194668C
+    // Offset: 0x1617A90
     void CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1946814
+    // Offset: 0x1617C18
     System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.KeyCollection
   #pragma pack(pop)

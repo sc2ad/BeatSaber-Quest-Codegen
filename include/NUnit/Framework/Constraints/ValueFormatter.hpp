@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,20 +32,20 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ValueFormatter
     ValueFormatter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x171958C
+    // Offset: 0x141CC48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFormatter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ValueFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFormatter*, creationType>(object, method)));
     }
     // public System.String Invoke(System.Object val)
-    // Offset: 0x1719A54
+    // Offset: 0x141D110
     ::Il2CppString* Invoke(::Il2CppObject* val);
     // public System.IAsyncResult BeginInvoke(System.Object val, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x172095C
+    // Offset: 0x1424018
     System::IAsyncResult* BeginInvoke(::Il2CppObject* val, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1720980
+    // Offset: 0x142403C
     ::Il2CppString* EndInvoke(System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatter
   #pragma pack(pop)

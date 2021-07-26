@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -32,19 +33,19 @@ namespace UnityEngineInternal {
     // Set static field: static private System.Text.RegularExpressions.Regex domainRegex
     static void _set_domainRegex(System::Text::RegularExpressions::Regex* value);
     // static private System.Void .cctor()
-    // Offset: 0x23A176C
+    // Offset: 0x1E19754
     static void _cctor();
     // static System.String RedirectTo(System.String baseUri, System.String redirectUri)
-    // Offset: 0x23A1260
+    // Offset: 0x1E19248
     static ::Il2CppString* RedirectTo(::Il2CppString* baseUri, ::Il2CppString* redirectUri);
     // static System.String MakeInitialUrl(System.String targetUrl, System.String localUrl)
-    // Offset: 0x239F6CC
+    // Offset: 0x1E176B4
     static ::Il2CppString* MakeInitialUrl(::Il2CppString* targetUrl, ::Il2CppString* localUrl);
     // static System.String MakeUriString(System.Uri targetUri, System.String targetUrl, System.Boolean prependProtocol)
-    // Offset: 0x23A1368
+    // Offset: 0x1E19350
     static ::Il2CppString* MakeUriString(System::Uri* targetUri, ::Il2CppString* targetUrl, bool prependProtocol);
     // static private System.String URLDecode(System.String encoded)
-    // Offset: 0x23A16B8
+    // Offset: 0x1E196A0
     static ::Il2CppString* URLDecode(::Il2CppString* encoded);
   }; // UnityEngineInternal.WebRequestUtils
   #pragma pack(pop)

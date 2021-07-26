@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,19 +46,19 @@ namespace Oculus::Platform {
     // Set instance field: private System.IntPtr Handle
     void _set_Handle(System::IntPtr value);
     // public System.Void SetObjectType(System.String value)
-    // Offset: 0x1C16A34
+    // Offset: 0x2287A14
     void SetObjectType(::Il2CppString* value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1C16B58
+    // Offset: 0x2287B38
     void SetReportType(Oculus::Platform::AbuseReportType value);
     // public System.Void SetVideoMode(Oculus.Platform.AbuseReportVideoMode value)
-    // Offset: 0x1C16C60
+    // Offset: 0x2287C40
     void SetVideoMode(Oculus::Platform::AbuseReportVideoMode value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.AdvancedAbuseReportOptions options)
-    // Offset: 0x1C16D68
+    // Offset: 0x2287D48
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1C1694C
+    // Offset: 0x228792C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,7 +67,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<AdvancedAbuseReportOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1C16DB8
+    // Offset: 0x2287D98
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

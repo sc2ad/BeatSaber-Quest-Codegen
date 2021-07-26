@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -105,17 +106,17 @@ namespace System::Net {
     // Set instance field: System.Boolean ExpectNoContentResponse
     void _set_ExpectNoContentResponse(bool value);
     // System.Void .ctor(System.String name, System.Boolean requireContentBody, System.Boolean contentBodyNotAllowed, System.Boolean connectRequest, System.Boolean expectNoContentResponse)
-    // Offset: 0x16413A8
+    // Offset: 0x1343A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KnownHttpVerb* New_ctor(::Il2CppString* name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::KnownHttpVerb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KnownHttpVerb*, creationType>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1641414
+    // Offset: 0x1343AD0
     static void _cctor();
     // static public System.Net.KnownHttpVerb Parse(System.String name)
-    // Offset: 0x16416C4
+    // Offset: 0x1343D80
     static System::Net::KnownHttpVerb* Parse(::Il2CppString* name);
   }; // System.Net.KnownHttpVerb
   #pragma pack(pop)

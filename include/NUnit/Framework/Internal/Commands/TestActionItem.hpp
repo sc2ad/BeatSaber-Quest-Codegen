@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -52,17 +53,17 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: private System.Boolean _beforeTestWasRun
     void _set__beforeTestWasRun(bool value);
     // public System.Void .ctor(NUnit.Framework.ITestAction action)
-    // Offset: 0x17295B0
+    // Offset: 0x142CC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionItem* New_ctor(NUnit::Framework::ITestAction* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestActionItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionItem*, creationType>(action)));
     }
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1728534
+    // Offset: 0x142BBF0
     void BeforeTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1728B38
+    // Offset: 0x142C1F4
     void AfterTest(NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Internal.Commands.TestActionItem
   #pragma pack(pop)

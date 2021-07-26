@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06BD8
+    // [InjectAttribute] Offset: 0xEB37F4
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x30
@@ -78,19 +79,19 @@ namespace GlobalNamespace {
     // Set instance field: private ILevelEndActions _gameplayManager
     void _set__gameplayManager(GlobalNamespace::ILevelEndActions* value);
     // protected System.Void Start()
-    // Offset: 0x1131FDC
+    // Offset: 0x1F629F0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11320C8
+    // Offset: 0x1F62ADC
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x11321C0
+    // Offset: 0x1F62BD4
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0x11321C4
+    // Offset: 0x1F62BD8
     void StartLevelFinished();
     // public System.Void .ctor()
-    // Offset: 0x1132270
+    // Offset: 0x1F62C84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

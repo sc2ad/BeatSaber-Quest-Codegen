@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SaberType
@@ -96,22 +97,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _targetVolume
     void _set__targetVolume(float value);
     // protected System.Void Awake()
-    // Offset: 0x11EA460
+    // Offset: 0x2018DB8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11EA69C
+    // Offset: 0x2018FF4
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x11EA900
+    // Offset: 0x2019258
     void LateUpdate();
     // private System.Void HandleSparkleEffectDidStart(SaberType saberType)
-    // Offset: 0x11EAADC
+    // Offset: 0x2019434
     void HandleSparkleEffectDidStart(GlobalNamespace::SaberType saberType);
     // private System.Void HandleSparkleEffecDidEnd(SaberType saberType)
-    // Offset: 0x11EAC14
+    // Offset: 0x201956C
     void HandleSparkleEffecDidEnd(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0x11EAC28
+    // Offset: 0x2019580
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

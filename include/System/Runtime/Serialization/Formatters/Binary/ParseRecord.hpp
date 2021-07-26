@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalParseTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE
@@ -469,13 +470,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Int32 PRnullCount
     void _set_PRnullCount(int value);
     // static private System.Void .cctor()
-    // Offset: 0x15E4920
+    // Offset: 0x12E7EF0
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x15DE01C
+    // Offset: 0x12E15EC
     void Init();
     // System.Void .ctor()
-    // Offset: 0x15DDF74
+    // Offset: 0x12E1544
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
 #include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents.hpp"
 // Including type: System.Guid
@@ -39,10 +40,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Set instance field: public System.Guid messageId
     void _set_messageId(System::Guid value);
     // System.Boolean <UnregisterManagedCallback>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers x)
-    // Offset: 0x1CFB704
+    // Offset: 0x22D5998
     bool $UnregisterManagedCallback$b__0(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers* x);
     // public System.Void .ctor()
-    // Offset: 0x1CFB544
+    // Offset: 0x22D57D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

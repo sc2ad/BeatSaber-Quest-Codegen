@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.CFNetwork
 #include "Mono/Net/CFNetwork.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace Mono::Net {
     // Creating value type constructor for type: CFProxyAutoConfigurationResultCallback
     CFProxyAutoConfigurationResultCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15A6C74
+    // Offset: 0x12AA244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFNetwork::CFProxyAutoConfigurationResultCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::CFProxyAutoConfigurationResultCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x15A75FC
+    // Offset: 0x12AABCC
     void Invoke(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error);
     // public System.IAsyncResult BeginInvoke(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15A7890
+    // Offset: 0x12AAE60
     System::IAsyncResult* BeginInvoke(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15A7948
+    // Offset: 0x12AAF18
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Net.CFNetwork/Mono.Net.CFProxyAutoConfigurationResultCallback
   #pragma pack(pop)

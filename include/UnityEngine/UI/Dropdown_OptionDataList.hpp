@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Dropdown
 #include "UnityEngine/UI/Dropdown.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace UnityEngine::UI {
     // Set instance field: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> m_Options
     void _set_m_Options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> get_options()
-    // Offset: 0x18E5B00
+    // Offset: 0x15B6F04
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> value)
-    // Offset: 0x18E5B08
+    // Offset: 0x15B6F0C
     void set_options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x18E5B10
+    // Offset: 0x15B6F14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

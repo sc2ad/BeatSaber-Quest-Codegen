@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.CookieToken
 #include "System/Net/CookieToken.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,14 +56,14 @@ namespace System::Net {
       // Set instance field: private System.Net.CookieToken m_token
       void _set_m_token(System::Net::CookieToken value);
       // System.Net.CookieToken get_Token()
-      // Offset: 0xEE2CD0
+      // Offset: 0xD76C88
       System::Net::CookieToken get_Token();
       // System.Void .ctor(System.String name, System.Net.CookieToken token)
-      // Offset: 0xEE2CC4
+      // Offset: 0xD76C7C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token)
       // System.Boolean IsEqualTo(System.String value)
-      // Offset: 0xEE2CD8
+      // Offset: 0xD76C90
       bool IsEqualTo(::Il2CppString* value);
     }; // System.Net.CookieTokenizer/System.Net.RecognizedAttribute
     #pragma pack(pop)
@@ -185,62 +186,62 @@ namespace System::Net {
     // Set instance field: private System.String m_value
     void _set_m_value(::Il2CppString* value);
     // System.Boolean get_EndOfCookie()
-    // Offset: 0x169C420
+    // Offset: 0x139EADC
     bool get_EndOfCookie();
     // System.Void set_EndOfCookie(System.Boolean value)
-    // Offset: 0x169C428
+    // Offset: 0x139EAE4
     void set_EndOfCookie(bool value);
     // System.Boolean get_Eof()
-    // Offset: 0x169C410
+    // Offset: 0x139EACC
     bool get_Eof();
     // System.String get_Name()
-    // Offset: 0x169C434
+    // Offset: 0x139EAF0
     ::Il2CppString* get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x169C43C
+    // Offset: 0x139EAF8
     void set_Name(::Il2CppString* value);
     // System.Boolean get_Quoted()
-    // Offset: 0x169C444
+    // Offset: 0x139EB00
     bool get_Quoted();
     // System.Void set_Quoted(System.Boolean value)
-    // Offset: 0x169C44C
+    // Offset: 0x139EB08
     void set_Quoted(bool value);
     // System.Net.CookieToken get_Token()
-    // Offset: 0x169C458
+    // Offset: 0x139EB14
     System::Net::CookieToken get_Token();
     // System.Void set_Token(System.Net.CookieToken value)
-    // Offset: 0x169C460
+    // Offset: 0x139EB1C
     void set_Token(System::Net::CookieToken value);
     // System.String get_Value()
-    // Offset: 0x169C468
+    // Offset: 0x139EB24
     ::Il2CppString* get_Value();
     // System.Void set_Value(System.String value)
-    // Offset: 0x169C470
+    // Offset: 0x139EB2C
     void set_Value(::Il2CppString* value);
     // System.Void .ctor(System.String tokenStream)
-    // Offset: 0x169C2D0
+    // Offset: 0x139E98C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieTokenizer* New_ctor(::Il2CppString* tokenStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieTokenizer*, creationType>(tokenStream)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x169CA6C
+    // Offset: 0x139F128
     static void _cctor();
     // System.String Extract()
-    // Offset: 0x169C478
+    // Offset: 0x139EB34
     ::Il2CppString* Extract();
     // System.Net.CookieToken FindNext(System.Boolean ignoreComma, System.Boolean ignoreEquals)
-    // Offset: 0x169C508
+    // Offset: 0x139EBC4
     System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals);
     // System.Net.CookieToken Next(System.Boolean first, System.Boolean parseResponseCookies)
-    // Offset: 0x169C30C
+    // Offset: 0x139E9C8
     System::Net::CookieToken Next(bool first, bool parseResponseCookies);
     // System.Void Reset()
-    // Offset: 0x169C7C4
+    // Offset: 0x139EE80
     void Reset();
     // System.Net.CookieToken TokenFromName(System.Boolean parseResponseCookies)
-    // Offset: 0x169C83C
+    // Offset: 0x139EEF8
     System::Net::CookieToken TokenFromName(bool parseResponseCookies);
   }; // System.Net.CookieTokenizer
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IPrefabInstantiator
 #include "Zenject/IPrefabInstantiator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,27 +77,27 @@ namespace Zenject {
     // Set instance field: private UnityEngine.GameObject _gameObject
     void _set__gameObject(UnityEngine::GameObject* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
-    // Offset: 0x16C84D8
+    // Offset: 0x13CAB94
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments();
     // public System.Type get_ArgumentTarget()
-    // Offset: 0x16C858C
+    // Offset: 0x13CAC48
     System::Type* get_ArgumentTarget();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
-    // Offset: 0x16C863C
+    // Offset: 0x13CACF8
     Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public System.Void .ctor(Zenject.IPrefabInstantiator subInstantiator)
-    // Offset: 0x16C76C0
+    // Offset: 0x13C9D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabInstantiatorCached* New_ctor(Zenject::IPrefabInstantiator* subInstantiator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabInstantiatorCached::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiatorCached*, creationType>(subInstantiator)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x16C86F0
+    // Offset: 0x13CADAC
     UnityEngine::Object* GetPrefab();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
-    // Offset: 0x16C87A4
-    UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction);
+    // Offset: 0x13CAE60
+    UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction);
   }; // Zenject.PrefabInstantiatorCached
   #pragma pack(pop)
   static check_size<sizeof(PrefabInstantiatorCached), 24 + sizeof(UnityEngine::GameObject*)> __Zenject_PrefabInstantiatorCachedSizeCheck;
@@ -143,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::PrefabInstantiatorCached::Instantiate
 // Il2CppName: Instantiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::PrefabInstantiatorCached::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&)>(&Zenject::PrefabInstantiatorCached::Instantiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::PrefabInstantiatorCached::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, ByRef<System::Action*>)>(&Zenject::PrefabInstantiatorCached::Instantiate)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ObservableVariableSO`1
 #include "GlobalNamespace/ObservableVariableSO_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoolSO
     BoolSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x120E634
+    // Offset: 0x203AF8C
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

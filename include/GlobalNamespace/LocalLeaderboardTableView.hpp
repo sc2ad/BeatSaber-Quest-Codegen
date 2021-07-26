@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LeaderboardTableView
 #include "GlobalNamespace/LeaderboardTableView.hpp"
 // Including type: LocalLeaderboardsModel
@@ -32,10 +33,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalLeaderboardTableView
     LocalLeaderboardTableView() noexcept {}
     // public System.Void SetScores(System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> scores, System.Int32 specialScorePos, System.Int32 maxNumberOfCells)
-    // Offset: 0x11C7010
+    // Offset: 0x1FF5A54
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores, int specialScorePos, int maxNumberOfCells);
     // public System.Void .ctor()
-    // Offset: 0x11C71D8
+    // Offset: 0x1FF5C1C
     // Implemented from: LeaderboardTableView
     // Base method: System.Void LeaderboardTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,13 +54,13 @@ namespace GlobalNamespace {
     // Set instance field: private BoolSO _postProcessEnabled
     void _set__postProcessEnabled(GlobalNamespace::BoolSO* value);
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x233EE50
+    // Offset: 0x1DC5290
     GlobalNamespace::MainEffectSO* get_mainEffect();
     // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x233EED8
+    // Offset: 0x1DC5318
     void Init(GlobalNamespace::MainEffectSO* mainEffect);
     // public System.Void .ctor()
-    // Offset: 0x233EF5C
+    // Offset: 0x1DC539C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectContainerSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x233EE58
+    // Offset: 0x1DC5298
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

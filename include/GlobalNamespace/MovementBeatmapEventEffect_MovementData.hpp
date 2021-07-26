@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MovementBeatmapEventEffect
 #include "GlobalNamespace/MovementBeatmapEventEffect.hpp"
 // Including type: UnityEngine.Vector3
@@ -38,10 +39,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector3 _localPositionOffset
     void _set__localPositionOffset(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_localPositionOffset()
-    // Offset: 0x119A3E4
+    // Offset: 0x1FB1E50
     UnityEngine::Vector3 get_localPositionOffset();
     // public System.Void .ctor()
-    // Offset: 0x119A3F0
+    // Offset: 0x1FB1E5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

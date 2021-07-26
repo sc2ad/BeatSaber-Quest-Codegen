@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StateBuffer`3
 #include "GlobalNamespace/StateBuffer_3.hpp"
 // Including type: System.Int32

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.StackedController
 #include "HMUI/StackedController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,13 +35,13 @@ namespace HMUI {
     // Set static field: static public readonly HMUI.StackedController/HMUI.<>c <>9
     static void _set_$$9(HMUI::StackedController::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x129EE24
+    // Offset: 0x1074560
     static void _cctor();
     // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x129EE90
+    // Offset: 0x10745CC
     void $PushViewController$g__AnimationLayouter_3_0(float t, ::Array<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x129EE88
+    // Offset: 0x10745C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

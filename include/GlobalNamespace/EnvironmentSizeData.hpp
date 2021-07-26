@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -137,13 +138,13 @@ namespace GlobalNamespace {
     // Set instance field: private EnvironmentSizeData/CeilingType _ceilingType
     void _set__ceilingType(GlobalNamespace::EnvironmentSizeData::CeilingType value);
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x10228E0
+    // Offset: 0x1E8D3B4
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x10228E8
+    // Offset: 0x1E8D3BC
     GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public System.Void .ctor()
-    // Offset: 0x10228F0
+    // Offset: 0x1E8D3C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

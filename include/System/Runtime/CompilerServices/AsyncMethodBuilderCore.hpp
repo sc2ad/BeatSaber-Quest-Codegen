@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -74,25 +75,25 @@ namespace System::Runtime::CompilerServices {
     // Set instance field: System.Action m_defaultContextAction
     void _set_m_defaultContextAction(System::Action* value);
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED5C44
+    // Offset: 0xD6B884
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // System.Action GetCompletionAction(System.Threading.Tasks.Task taskForTracing, ref System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.MoveNextRunner runnerToInitialize)
-    // Offset: 0xED5C4C
-    System::Action* GetCompletionAction(System::Threading::Tasks::Task* taskForTracing, System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*& runnerToInitialize);
+    // Offset: 0xD6B88C
+    System::Action* GetCompletionAction(System::Threading::Tasks::Task* taskForTracing, ByRef<System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*> runnerToInitialize);
     // private System.Action OutputAsyncCausalityEvents(System.Threading.Tasks.Task innerTask, System.Action continuation)
-    // Offset: 0xED5C54
+    // Offset: 0xD6B894
     System::Action* OutputAsyncCausalityEvents(System::Threading::Tasks::Task* innerTask, System::Action* continuation);
     // System.Void PostBoxInitialization(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine, System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.MoveNextRunner runner, System.Threading.Tasks.Task builtTask)
-    // Offset: 0xED5C58
+    // Offset: 0xD6B898
     void PostBoxInitialization(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine, System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner* runner, System::Threading::Tasks::Task* builtTask);
     // static System.Void ThrowAsync(System.Exception exception, System.Threading.SynchronizationContext targetContext)
-    // Offset: 0x13EECC0
+    // Offset: 0x1197920
     static void ThrowAsync(System::Exception* exception, System::Threading::SynchronizationContext* targetContext);
     // static System.Action CreateContinuationWrapper(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
-    // Offset: 0x13EEA74
+    // Offset: 0x11976D4
     static System::Action* CreateContinuationWrapper(System::Action* continuation, System::Action* invokeAction, System::Threading::Tasks::Task* innerTask);
     // static System.Threading.Tasks.Task TryGetContinuationTask(System.Action action)
-    // Offset: 0x13EF0A4
+    // Offset: 0x1197D04
     static System::Threading::Tasks::Task* TryGetContinuationTask(System::Action* action);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore
   #pragma pack(pop)
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction
 // Il2CppName: GetCompletionAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(System::Threading::Tasks::Task*, System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*&)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(System::Threading::Tasks::Task*, ByRef<System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*>)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction)> {
   static const MethodInfo* get() {
     static auto* taskForTracing = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* runnerToInitialize = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner")->this_arg;

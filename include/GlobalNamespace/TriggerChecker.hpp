@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -66,16 +67,16 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action TriggerCheckerOnStayEvent
     void _set_TriggerCheckerOnStayEvent(System::Action* value);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x235BE88
+    // Offset: 0x1DE42C8
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x235BE9C
+    // Offset: 0x1DE42DC
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x235BEB0
+    // Offset: 0x1DE42F0
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0x235BEC4
+    // Offset: 0x1DE4304
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

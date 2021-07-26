@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandardLevelDetailViewController
 #include "GlobalNamespace/StandardLevelDetailViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -85,19 +86,19 @@ namespace GlobalNamespace {
     // Set instance field: public StandardLevelDetailViewController <>4__this
     void _set_$$4__this(GlobalNamespace::StandardLevelDetailViewController* value);
     // System.Void <DidActivate>b__2()
-    // Offset: 0x106304C
+    // Offset: 0x1ECDB20
     void $DidActivate$b__2();
     // System.Void <DidActivate>b__3()
-    // Offset: 0x106307C
+    // Offset: 0x1ECDB50
     void $DidActivate$b__3();
     // System.Void <DidActivate>b__6()
-    // Offset: 0x10630AC
+    // Offset: 0x1ECDB80
     void $DidActivate$b__6();
     // System.Void <DidActivate>b__7()
-    // Offset: 0x10630F8
+    // Offset: 0x1ECDBCC
     void $DidActivate$b__7();
     // public System.Void .ctor()
-    // Offset: 0x1061C64
+    // Offset: 0x1ECC738
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

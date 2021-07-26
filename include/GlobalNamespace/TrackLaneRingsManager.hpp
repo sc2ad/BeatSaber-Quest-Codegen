@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -83,25 +84,25 @@ namespace GlobalNamespace {
     // Set instance field: private TrackLaneRing[] _rings
     void _set__rings(::Array<GlobalNamespace::TrackLaneRing*>* value);
     // public System.Single get_ringPositionStep()
-    // Offset: 0x106F5FC
+    // Offset: 0x1EDB0D0
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0x106F604
+    // Offset: 0x1EDB0D8
     ::Array<GlobalNamespace::TrackLaneRing*>* get_Rings();
     // protected System.Void Awake()
-    // Offset: 0x106F60C
+    // Offset: 0x1EDB0E0
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x106F978
+    // Offset: 0x1EDB44C
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x106FA24
+    // Offset: 0x1EDB4F8
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x106FAD0
+    // Offset: 0x1EDB5A4
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x106FE20
+    // Offset: 0x1EDB8F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

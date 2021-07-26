@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -123,56 +124,56 @@ namespace System::Net {
     // Set instance field: private System.Object m_Event
     void _set_m_Event(::Il2CppObject* value);
     // static private System.Net.LazyAsyncResult/System.Net.ThreadContext get_CurrentThreadContext()
-    // Offset: 0x1641798
+    // Offset: 0x1343E54
     static System::Net::LazyAsyncResult::ThreadContext* get_CurrentThreadContext();
     // System.Object get_AsyncObject()
-    // Offset: 0x16418C0
+    // Offset: 0x1343F7C
     ::Il2CppObject* get_AsyncObject();
     // public System.Object get_AsyncState()
-    // Offset: 0x16418C8
+    // Offset: 0x1343F84
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x16418D0
+    // Offset: 0x1343F8C
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1641B54
+    // Offset: 0x1344210
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1641B88
+    // Offset: 0x1344244
     bool get_IsCompleted();
     // System.Boolean get_InternalPeekCompleted()
-    // Offset: 0x1641B44
+    // Offset: 0x1344200
     bool get_InternalPeekCompleted();
     // System.Void .ctor(System.Object myObject, System.Object myState, System.AsyncCallback myCallBack)
-    // Offset: 0x1641820
+    // Offset: 0x1343EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyAsyncResult* New_ctor(::Il2CppObject* myObject, ::Il2CppObject* myState, System::AsyncCallback* myCallBack) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::LazyAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsyncResult*, creationType>(myObject, myState, myCallBack)));
     }
     // private System.Boolean LazilyCreateEvent(out System.Threading.ManualResetEvent waitHandle)
-    // Offset: 0x1641984
-    bool LazilyCreateEvent(System::Threading::ManualResetEvent*& waitHandle);
+    // Offset: 0x1344040
+    bool LazilyCreateEvent(ByRef<System::Threading::ManualResetEvent*> waitHandle);
     // protected System.Void ProtectedInvokeCallback(System.Object result, System.IntPtr userToken)
-    // Offset: 0x1641BBC
+    // Offset: 0x1344278
     void ProtectedInvokeCallback(::Il2CppObject* result, System::IntPtr userToken);
     // System.Void InvokeCallback(System.Object result)
-    // Offset: 0x1641D9C
+    // Offset: 0x1344458
     void InvokeCallback(::Il2CppObject* result);
     // protected System.Void Complete(System.IntPtr userToken)
-    // Offset: 0x1641DF4
+    // Offset: 0x13444B0
     void Complete(System::IntPtr userToken);
     // private System.Void WorkerThreadComplete(System.Object state)
-    // Offset: 0x1641F24
+    // Offset: 0x13445E0
     void WorkerThreadComplete(::Il2CppObject* state);
     // protected System.Void Cleanup()
-    // Offset: 0x1641F98
+    // Offset: 0x1344654
     void Cleanup();
     // System.Object InternalWaitForCompletion()
-    // Offset: 0x1641F9C
+    // Offset: 0x1344658
     ::Il2CppObject* InternalWaitForCompletion();
     // private System.Object WaitForCompletion(System.Boolean snap)
-    // Offset: 0x1641FA4
+    // Offset: 0x1344660
     ::Il2CppObject* WaitForCompletion(bool snap);
   }; // System.Net.LazyAsyncResult
   #pragma pack(pop)
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::LazyAsyncResult::LazilyCreateEvent
 // Il2CppName: LazilyCreateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::LazyAsyncResult::*)(System::Threading::ManualResetEvent*&)>(&System::Net::LazyAsyncResult::LazilyCreateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::LazyAsyncResult::*)(ByRef<System::Threading::ManualResetEvent*>)>(&System::Net::LazyAsyncResult::LazilyCreateEvent)> {
   static const MethodInfo* get() {
     static auto* waitHandle = &::il2cpp_utils::GetClassFromName("System.Threading", "ManualResetEvent")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::LazyAsyncResult*), "LazilyCreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitHandle});

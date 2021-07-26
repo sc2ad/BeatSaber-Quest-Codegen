@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Utilities.Collections.ISet
 #include "Org/BouncyCastle/Utilities/Collections/ISet.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,19 +55,19 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set instance field: private readonly System.Collections.IDictionary impl
     void _set_impl(System::Collections::IDictionary* value);
     // public System.Int32 get_Count()
-    // Offset: 0x1F7A7F0
+    // Offset: 0x1A606B0
     int get_Count();
     // public System.Void Add(System.Object o)
-    // Offset: 0x1F7A5EC
+    // Offset: 0x1A604AC
     void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1F7A6B4
+    // Offset: 0x1A60574
     void CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1F7A8A4
+    // Offset: 0x1A60764
     System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x1F7A520
+    // Offset: 0x1A603E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

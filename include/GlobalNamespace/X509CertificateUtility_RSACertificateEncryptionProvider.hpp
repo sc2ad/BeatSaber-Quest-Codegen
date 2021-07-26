@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: X509CertificateUtility
 #include "GlobalNamespace/X509CertificateUtility.hpp"
 // Including type: ICertificateEncryptionProvider
@@ -54,17 +55,17 @@ namespace GlobalNamespace {
     // Set instance field: private readonly Org.BouncyCastle.Crypto.ISigner _signer
     void _set__signer(Org::BouncyCastle::Crypto::ISigner* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters privateKey)
-    // Offset: 0x23142B0
+    // Offset: 0x23D5464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::RSACertificateEncryptionProvider* New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::RSACertificateEncryptionProvider*, creationType>(privateKey)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2315674
+    // Offset: 0x23D6828
     void Dispose();
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x2315678
+    // Offset: 0x23D682C
     ::Array<uint8_t>* SignData(::Array<uint8_t>* data, int offset, int length);
   }; // X509CertificateUtility/RSACertificateEncryptionProvider
   #pragma pack(pop)

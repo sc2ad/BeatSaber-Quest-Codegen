@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Valve.VR.IVRDriverManager
 #include "Valve/VR/IVRDriverManager.hpp"
 // Including type: System.IntPtr
@@ -45,17 +46,17 @@ namespace Valve::VR {
     // Set instance field: private Valve.VR.IVRDriverManager FnTable
     void _set_FnTable(Valve::VR::IVRDriverManager value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16BC4C8
+    // Offset: 0x13BEB84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRDriverManager* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRDriverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRDriverManager*, creationType>(pInterface)));
     }
     // public System.UInt32 GetDriverCount()
-    // Offset: 0x16BC5C8
+    // Offset: 0x13BEC84
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x16BC5E4
+    // Offset: 0x13BECA0
     uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
   }; // Valve.VR.CVRDriverManager
   #pragma pack(pop)

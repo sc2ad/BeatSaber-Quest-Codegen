@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RuntimeLightWithIds
 #include "GlobalNamespace/RuntimeLightWithIds.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: private DirectionalLight _directionalLight
     void _set__directionalLight(GlobalNamespace::DirectionalLight* value);
     // public System.Void .ctor()
-    // Offset: 0x1DF06FC
+    // Offset: 0x19632DC
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLightWithIds*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1DF06DC
+    // Offset: 0x19632BC
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

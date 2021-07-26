@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -23,13 +24,13 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: AssemblyHelper
     AssemblyHelper() noexcept {}
     // static public System.String GetAssemblyPath(System.Reflection.Assembly assembly)
-    // Offset: 0x1711D94
+    // Offset: 0x1415450
     static ::Il2CppString* GetAssemblyPath(System::Reflection::Assembly* assembly);
     // static private System.Boolean IsFileUri(System.String uri)
-    // Offset: 0x1722974
+    // Offset: 0x1426030
     static bool IsFileUri(::Il2CppString* uri);
     // static public System.String GetAssemblyPathFromCodeBase(System.String codeBase)
-    // Offset: 0x1722A08
+    // Offset: 0x14260C4
     static ::Il2CppString* GetAssemblyPathFromCodeBase(::Il2CppString* codeBase);
   }; // NUnit.Framework.Internal.AssemblyHelper
   #pragma pack(pop)

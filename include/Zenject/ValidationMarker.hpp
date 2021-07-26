@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -50,26 +51,26 @@ namespace Zenject {
     // Set instance field: private System.Type <MarkedType>k__BackingField
     void _set_$MarkedType$k__BackingField(System::Type* value);
     // public System.Boolean get_InstantiateFailed()
-    // Offset: 0x2392224
+    // Offset: 0x1E0A20C
     bool get_InstantiateFailed();
     // private System.Void set_InstantiateFailed(System.Boolean value)
-    // Offset: 0x239222C
+    // Offset: 0x1E0A214
     void set_InstantiateFailed(bool value);
     // public System.Type get_MarkedType()
-    // Offset: 0x2392238
+    // Offset: 0x1E0A220
     System::Type* get_MarkedType();
     // private System.Void set_MarkedType(System.Type value)
-    // Offset: 0x2392240
+    // Offset: 0x1E0A228
     void set_MarkedType(System::Type* value);
     // public System.Void .ctor(System.Type markedType, System.Boolean instantiateFailed)
-    // Offset: 0x23921B4
+    // Offset: 0x1E0A19C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationMarker* New_ctor(System::Type* markedType, bool instantiateFailed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ValidationMarker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationMarker*, creationType>(markedType, instantiateFailed)));
     }
     // public System.Void .ctor(System.Type markedType)
-    // Offset: 0x23921F4
+    // Offset: 0x1E0A1DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationMarker* New_ctor(System::Type* markedType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ValidationMarker::.ctor");

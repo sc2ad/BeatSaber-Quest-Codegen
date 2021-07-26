@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Parameters.KeyParameter
 #include "Org/BouncyCastle/Crypto/Parameters/KeyParameter.hpp"
 // Completed includes
@@ -30,7 +31,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly System.Int32 rounds
     void _set_rounds(int value);
     // public System.Int32 get_Rounds()
-    // Offset: 0x122CAF4
+    // Offset: 0x1036DCC
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
   #pragma pack(pop)

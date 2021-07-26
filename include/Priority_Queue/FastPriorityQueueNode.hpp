@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -40,19 +41,19 @@ namespace Priority_Queue {
     // Set instance field: private System.Int32 <QueueIndex>k__BackingField
     void _set_$QueueIndex$k__BackingField(int value);
     // public System.Single get_Priority()
-    // Offset: 0x110ACE4
+    // Offset: 0x1F5CCF8
     float get_Priority();
     // protected internal System.Void set_Priority(System.Single value)
-    // Offset: 0x110ACEC
+    // Offset: 0x1F5CD00
     void set_Priority(float value);
     // public System.Int32 get_QueueIndex()
-    // Offset: 0x110ACF4
+    // Offset: 0x1F5CD08
     int get_QueueIndex();
     // System.Void set_QueueIndex(System.Int32 value)
-    // Offset: 0x110ACFC
+    // Offset: 0x1F5CD10
     void set_QueueIndex(int value);
     // public System.Void .ctor()
-    // Offset: 0x110AD04
+    // Offset: 0x1F5CD18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

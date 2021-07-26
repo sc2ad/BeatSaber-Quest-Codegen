@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,16 +60,16 @@ namespace GlobalNamespace {
     // Set instance field: private RandomValueToShader _randomValueToShader
     void _set__randomValueToShader(GlobalNamespace::RandomValueToShader* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1DEF778
+    // Offset: 0x1962358
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DEF890
+    // Offset: 0x1962470
     void OnDisable();
     // public System.Void HandleCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1DEF954
+    // Offset: 0x1962534
     void HandleCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x1DEFA64
+    // Offset: 0x1962644
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

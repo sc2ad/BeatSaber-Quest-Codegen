@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Playables.PlayableBehaviour
 #include "UnityEngine/Playables/PlayableBehaviour.hpp"
 // Including type: UnityEngine.Playables.Playable
@@ -111,13 +112,13 @@ namespace UnityEngine::Timeline {
       // Set instance field: public UnityEngine.Timeline.NotificationFlags flags
       void _set_flags(UnityEngine::Timeline::NotificationFlags value);
       // public System.Boolean get_triggerInEditor()
-      // Offset: 0xEE8E74
+      // Offset: 0xD7CE2C
       bool get_triggerInEditor();
       // public System.Boolean get_prewarm()
-      // Offset: 0xEE8E80
+      // Offset: 0xD7CE38
       bool get_prewarm();
       // public System.Boolean get_triggerOnce()
-      // Offset: 0xEE8E8C
+      // Offset: 0xD7CE44
       bool get_triggerOnce();
     }; // UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry
     #pragma pack(pop)
@@ -168,34 +169,34 @@ namespace UnityEngine::Timeline {
     // Set instance field: private UnityEngine.Playables.Playable m_TimeSource
     void _set_m_TimeSource(UnityEngine::Playables::Playable value);
     // public System.Void set_timeSource(UnityEngine.Playables.Playable value)
-    // Offset: 0x17EC3A4
+    // Offset: 0x14BC7A8
     void set_timeSource(UnityEngine::Playables::Playable value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeNotificationBehaviour> Create(UnityEngine.Playables.PlayableGraph graph, System.Double duration, UnityEngine.Playables.DirectorWrapMode loopMode)
-    // Offset: 0x17E93AC
+    // Offset: 0x14B97B0
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> Create(UnityEngine::Playables::PlayableGraph graph, double duration, UnityEngine::Playables::DirectorWrapMode loopMode);
     // public System.Void AddNotification(System.Double time, UnityEngine.Playables.INotification payload, UnityEngine.Timeline.NotificationFlags flags)
-    // Offset: 0x17E94A0
+    // Offset: 0x14B98A4
     void AddNotification(double time, UnityEngine::Playables::INotification* payload, UnityEngine::Timeline::NotificationFlags flags);
     // private System.Void SortNotifications()
-    // Offset: 0x17EC574
+    // Offset: 0x14BC978
     void SortNotifications();
     // static private System.Boolean CanRestoreNotification(UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry e, UnityEngine.Playables.FrameData info, System.Double currentTime, System.Double previousTime)
-    // Offset: 0x17ECE74
+    // Offset: 0x14BD278
     static bool CanRestoreNotification(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry e, UnityEngine::Playables::FrameData info, double currentTime, double previousTime);
     // private System.Void TriggerNotificationsInRange(System.Double start, System.Double end, UnityEngine.Playables.FrameData info, UnityEngine.Playables.Playable playable, System.Boolean checkState)
-    // Offset: 0x17ECCB4
+    // Offset: 0x14BD0B8
     void TriggerNotificationsInRange(double start, double end, UnityEngine::Playables::FrameData info, UnityEngine::Playables::Playable playable, bool checkState);
     // private System.Void SyncDurationWithExternalSource(UnityEngine.Playables.Playable playable)
-    // Offset: 0x17ECBE4
+    // Offset: 0x14BCFE8
     void SyncDurationWithExternalSource(UnityEngine::Playables::Playable playable);
     // static private System.Void Trigger_internal(UnityEngine.Playables.Playable playable, UnityEngine.Playables.PlayableOutput output, ref UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry e)
-    // Offset: 0x17EC828
-    static void Trigger_internal(UnityEngine::Playables::Playable playable, UnityEngine::Playables::PlayableOutput output, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry& e);
+    // Offset: 0x14BCC2C
+    static void Trigger_internal(UnityEngine::Playables::Playable playable, UnityEngine::Playables::PlayableOutput output, ByRef<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry> e);
     // static private System.Void Restore_internal(ref UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry e)
-    // Offset: 0x17ECEDC
-    static void Restore_internal(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry& e);
+    // Offset: 0x14BD2E0
+    static void Restore_internal(ByRef<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry> e);
     // public System.Void .ctor()
-    // Offset: 0x17ECEFC
+    // Offset: 0x14BD300
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -205,17 +206,17 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimeNotificationBehaviour*, creationType>()));
     }
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x17EC3AC
+    // Offset: 0x14BC7B0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x17EC690
+    // Offset: 0x14BCA94
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x17EC8B8
+    // Offset: 0x14BCCBC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
@@ -303,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::Trigger_internal
 // Il2CppName: Trigger_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::Playable, UnityEngine::Playables::PlayableOutput, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&UnityEngine::Timeline::TimeNotificationBehaviour::Trigger_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::Playable, UnityEngine::Playables::PlayableOutput, ByRef<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>)>(&UnityEngine::Timeline::TimeNotificationBehaviour::Trigger_internal)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutput")->byval_arg;
@@ -314,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::Restore_internal
 // Il2CppName: Restore_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry&)>(&UnityEngine::Timeline::TimeNotificationBehaviour::Restore_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>)>(&UnityEngine::Timeline::TimeNotificationBehaviour::Restore_internal)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour*), "Restore_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});

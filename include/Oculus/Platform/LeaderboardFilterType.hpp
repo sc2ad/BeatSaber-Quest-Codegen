@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE8C7C
+    // [DescriptionAttribute] Offset: 0xE96898
     // static field const value: static public Oculus.Platform.LeaderboardFilterType None
     static constexpr const int None = 0;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType None
     static Oculus::Platform::LeaderboardFilterType _get_None();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType None
     static void _set_None(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDE8CB4
+    // [DescriptionAttribute] Offset: 0xE968D0
     // static field const value: static public Oculus.Platform.LeaderboardFilterType Friends
     static constexpr const int Friends = 1;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType Friends
     static Oculus::Platform::LeaderboardFilterType _get_Friends();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType Friends
     static void _set_Friends(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDE8CEC
+    // [DescriptionAttribute] Offset: 0xE96908
     // static field const value: static public Oculus.Platform.LeaderboardFilterType Unknown
     static constexpr const int Unknown = 2;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType Unknown
     static Oculus::Platform::LeaderboardFilterType _get_Unknown();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType Unknown
     static void _set_Unknown(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDE8D24
+    // [DescriptionAttribute] Offset: 0xE96940
     // static field const value: static public Oculus.Platform.LeaderboardFilterType UserIds
     static constexpr const int UserIds = 3;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType UserIds

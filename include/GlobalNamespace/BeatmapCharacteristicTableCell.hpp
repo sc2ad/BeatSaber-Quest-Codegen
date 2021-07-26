@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 // Including type: UnityEngine.Color
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* selectionImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0B5A8
+    // [SpaceAttribute] Offset: 0xEB81C4
     // private UnityEngine.Color _bgNormalColor
     // Size: 0x10
     // Offset: 0x70
@@ -102,13 +103,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _bgHighlightColor
     void _set__bgHighlightColor(UnityEngine::Color value);
     // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x118C0F8
+    // Offset: 0x1FD1C30
     void SetData(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void RefreshVisuals()
-    // Offset: 0x118C160
+    // Offset: 0x1FD1C98
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x118C1EC
+    // Offset: 0x1FD1D24
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -124,12 +125,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x118C15C
+    // Offset: 0x1FD1C94
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x118C1E8
+    // Offset: 0x1FD1D20
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);

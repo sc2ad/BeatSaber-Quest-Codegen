@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.RagdollUtility
 #include "RootMotion/FinalIK/RagdollUtility.hpp"
 // Including type: UnityEngine.Vector3
@@ -151,17 +152,17 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Quaternion lastRotation
     void _set_lastRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Rigidbody r)
-    // Offset: 0x1AB7D84
+    // Offset: 0x172F5D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Rigidbone* New_ctor(UnityEngine::Rigidbody* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Rigidbone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Rigidbone*, creationType>(r)));
     }
     // public System.Void RecordVelocity()
-    // Offset: 0x1AB8990
+    // Offset: 0x17301E0
     void RecordVelocity();
     // public System.Void WakeUp(System.Single velocityWeight, System.Single angularVelocityWeight)
-    // Offset: 0x1AB8774
+    // Offset: 0x172FFC4
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Rigidbone
   #pragma pack(pop)

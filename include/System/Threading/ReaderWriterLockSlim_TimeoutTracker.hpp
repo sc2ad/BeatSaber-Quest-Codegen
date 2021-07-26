@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.ReaderWriterLockSlim
 #include "System/Threading/ReaderWriterLockSlim.hpp"
 // Including type: System.ValueType
@@ -49,13 +50,13 @@ namespace System::Threading {
     // Set instance field: private System.Int32 m_start
     void _set_m_start(int value);
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0xF0D3A4
+    // Offset: 0xD92F60
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0xF0D3AC
+    // Offset: 0xD92F68
     bool get_IsExpired();
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0xF0D39C
+    // Offset: 0xD92F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeoutTracker(int millisecondsTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterLockSlim::TimeoutTracker::.ctor");

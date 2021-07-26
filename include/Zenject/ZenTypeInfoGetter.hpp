@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,20 +37,20 @@ namespace Zenject {
     // Creating value type constructor for type: ZenTypeInfoGetter
     ZenTypeInfoGetter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2392760
+    // Offset: 0x1E0A748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenTypeInfoGetter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenTypeInfoGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenTypeInfoGetter*, creationType>(object, method)));
     }
     // public Zenject.InjectTypeInfo Invoke()
-    // Offset: 0x2391BFC
+    // Offset: 0x1E09BE4
     Zenject::InjectTypeInfo* Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2392770
+    // Offset: 0x1E0A758
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Zenject.InjectTypeInfo EndInvoke(System.IAsyncResult result)
-    // Offset: 0x239279C
+    // Offset: 0x1E0A784
     Zenject::InjectTypeInfo* EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenTypeInfoGetter
   #pragma pack(pop)

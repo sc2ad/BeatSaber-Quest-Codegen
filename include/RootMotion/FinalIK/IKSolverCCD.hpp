@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolverHeuristic
 #include "RootMotion/FinalIK/IKSolverHeuristic.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,13 +43,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
     void _set_OnPreIteration(RootMotion::FinalIK::IKSolver::IterationDelegate* value);
     // public System.Void FadeOutBoneWeights()
-    // Offset: 0x1C5D1F8
+    // Offset: 0x1810274
     void FadeOutBoneWeights();
     // protected System.Void Solve(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1C5E008
+    // Offset: 0x1811084
     void Solve(UnityEngine::Vector3 targetPosition);
     // public System.Void .ctor()
-    // Offset: 0x1C5E76C
+    // Offset: 0x18117E8
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -59,12 +60,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverCCD*, creationType>()));
     }
     // protected override System.Void OnInitiate()
-    // Offset: 0x1C5D2A8
+    // Offset: 0x1810324
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1C5D8A8
+    // Offset: 0x1810924
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();

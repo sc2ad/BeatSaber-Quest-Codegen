@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.CFObject
 #include "Mono/Net/CFObject.hpp"
 // Completed includes
@@ -24,10 +25,10 @@ namespace Mono::Net {
     // Creating value type constructor for type: CFNumber
     CFNumber() noexcept {}
     // static private System.Boolean CFNumberGetValue(System.IntPtr handle, System.IntPtr type, out System.Int32 value)
-    // Offset: 0x15A8674
-    static bool CFNumberGetValue(System::IntPtr handle, System::IntPtr type, int& value);
+    // Offset: 0x12ABC44
+    static bool CFNumberGetValue(System::IntPtr handle, System::IntPtr type, ByRef<int> value);
     // static public System.Int32 AsInt32(System.IntPtr handle)
-    // Offset: 0x15A8714
+    // Offset: 0x12ABCE4
     static int AsInt32(System::IntPtr handle);
   }; // Mono.Net.CFNumber
   #pragma pack(pop)
@@ -38,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNumber*, "Mono.Net", "CFNumber");
 // Writing MetadataGetter for method: Mono::Net::CFNumber::CFNumberGetValue
 // Il2CppName: CFNumberGetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, int&)>(&Mono::Net::CFNumber::CFNumberGetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ByRef<int>)>(&Mono::Net::CFNumber::CFNumberGetValue)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

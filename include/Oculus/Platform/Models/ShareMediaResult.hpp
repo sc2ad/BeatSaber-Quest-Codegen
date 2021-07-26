@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.ShareMediaStatus
 #include "Oculus/Platform/ShareMediaStatus.hpp"
 // Including type: System.IntPtr
@@ -38,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.ShareMediaStatus Status
     void _set_Status(Oculus::Platform::ShareMediaStatus value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A80C4
+    // Offset: 0x2103F38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShareMediaResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ShareMediaResult::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0969C
+    // [InjectAttribute] Offset: 0xEB62B8
     // private readonly NoteCutter _noteCutter
     // Size: 0x8
     // Offset: 0x20
@@ -56,16 +57,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly NoteCutter _noteCutter
     void _set__noteCutter(GlobalNamespace::NoteCutter* value);
     // protected System.Void OnEnable()
-    // Offset: 0x10878A8
+    // Offset: 0x1F091A4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x108793C
+    // Offset: 0x1F09238
     void OnDisable();
     // private System.Void HandleSaberManagerDidUpdateSaberPositions(Saber leftSaber, Saber rightSaber)
-    // Offset: 0x10879D0
+    // Offset: 0x1F092CC
     void HandleSaberManagerDidUpdateSaberPositions(GlobalNamespace::Saber* leftSaber, GlobalNamespace::Saber* rightSaber);
     // public System.Void .ctor()
-    // Offset: 0x1087A20
+    // Offset: 0x1F0931C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

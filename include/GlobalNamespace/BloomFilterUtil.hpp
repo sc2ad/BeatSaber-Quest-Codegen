@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -38,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomFilterUtil
     BloomFilterUtil() noexcept {}
     // static private System.UInt32 MurmurHash2(System.String key)
-    // Offset: 0x23256A4
+    // Offset: 0x23D8A88
     static uint MurmurHash2(::Il2CppString* key);
     // static public T ToBloomFilter(System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF

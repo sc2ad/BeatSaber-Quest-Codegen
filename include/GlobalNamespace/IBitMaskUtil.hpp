@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -61,22 +62,22 @@ namespace GlobalNamespace {
     // static public System.Boolean TryParse(System.String stringSerializedMask, out T bitMask)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool TryParse(::Il2CppString* stringSerializedMask, T& bitMask) {
+    static bool TryParse(::Il2CppString* stringSerializedMask, ByRef<T> bitMask) {
       static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMaskUtil::TryParse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "IBitMaskUtil", "TryParse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stringSerializedMask), ::il2cpp_utils::ExtractIndependentType<T&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, stringSerializedMask, bitMask);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, stringSerializedMask, byref(bitMask));
     }
     // static public System.Boolean TryParse(System.String stringSerializedMask, System.Int32 offset, System.Int32 length, out T bitMask)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool TryParse(::Il2CppString* stringSerializedMask, int offset, int length, T& bitMask) {
+    static bool TryParse(::Il2CppString* stringSerializedMask, int offset, int length, ByRef<T> bitMask) {
       static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMaskUtil::TryParse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "IBitMaskUtil", "TryParse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stringSerializedMask), ::il2cpp_utils::ExtractType(offset), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractIndependentType<T&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, stringSerializedMask, offset, length, bitMask);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, stringSerializedMask, offset, length, byref(bitMask));
     }
     // static public T FromBytes(System.Byte[] bytes, System.Int32 offset)
     // Offset: 0xFFFFFFFF
@@ -89,13 +90,13 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bytes, offset);
     }
     // static private System.UInt32 GetHexDigit(System.Char c)
-    // Offset: 0x2326A74
+    // Offset: 0x23D9E58
     static uint GetHexDigit(::Il2CppChar c);
     // static private System.UInt32 GetBase64Digit(System.Char c)
-    // Offset: 0x2326AC4
+    // Offset: 0x23D9EA8
     static uint GetBase64Digit(::Il2CppChar c);
     // static private System.Char GetBase64Char(System.UInt64 digit)
-    // Offset: 0x2326B34
+    // Offset: 0x23D9F18
     static ::Il2CppChar GetBase64Char(uint64_t digit);
   }; // IBitMaskUtil
   #pragma pack(pop)

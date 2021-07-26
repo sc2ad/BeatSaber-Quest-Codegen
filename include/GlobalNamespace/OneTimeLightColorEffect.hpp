@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     int lightsId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE04D54
+    // [InjectAttribute] Offset: 0xEB1970
     // private LightWithIdManager _lightWithIdManager
     // Size: 0x8
     // Offset: 0x28
@@ -74,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: private LightWithIdManager _lightWithIdManager
     void _set__lightWithIdManager(GlobalNamespace::LightWithIdManager* value);
     // protected System.Void Update()
-    // Offset: 0xFF3D28
+    // Offset: 0x1E472DC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xFF3D98
+    // Offset: 0x1E4734C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

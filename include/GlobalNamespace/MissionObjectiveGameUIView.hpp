@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -107,7 +108,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfParticles and: nameText
     char __padding9[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE05F40
+    // [SpaceAttribute] Offset: 0xEB2B5C
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x80
@@ -193,22 +194,22 @@ namespace GlobalNamespace {
     // Set instance field: private MissionObjectiveChecker _missionObjectiveChecker
     void _set__missionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* value);
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1137C74
+    // Offset: 0x1F68688
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1138020
+    // Offset: 0x1F68A34
     void HandleMissionObjectiveStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1138024
+    // Offset: 0x1F68A38
     void HandleMissionObjectiveCheckedValueDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void RefreshIcon()
-    // Offset: 0x1137EB0
+    // Offset: 0x1F688C4
     void RefreshIcon();
     // private System.Void RefreshValue()
-    // Offset: 0x1137FC4
+    // Offset: 0x1F689D8
     void RefreshValue();
     // public System.Void .ctor()
-    // Offset: 0x1138028
+    // Offset: 0x1F68A3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

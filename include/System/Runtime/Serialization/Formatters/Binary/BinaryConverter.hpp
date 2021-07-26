@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -42,20 +43,20 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: BinaryConverter
     BinaryConverter() noexcept {}
     // static System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum GetBinaryTypeInfo(System.Type type, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.String typeName, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, out System.Object typeInformation, out System.Int32 assemId)
-    // Offset: 0x15D7728
-    static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(System::Type* type, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::Il2CppString* typeName, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ::Il2CppObject*& typeInformation, int& assemId);
+    // Offset: 0x12DACF8
+    static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(System::Type* type, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::Il2CppString* typeName, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ByRef<::Il2CppObject*> typeInformation, ByRef<int> assemId);
     // static System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum GetParserBinaryTypeInfo(System.Type type, out System.Object typeInformation)
-    // Offset: 0x15D7E7C
-    static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(System::Type* type, ::Il2CppObject*& typeInformation);
+    // Offset: 0x12DB44C
+    static System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(System::Type* type, ByRef<::Il2CppObject*> typeInformation);
     // static System.Void WriteTypeInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Int32 assemId, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x15D6CAC
+    // Offset: 0x12DA27C
     static void WriteTypeInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, int assemId, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static System.Object ReadTypeInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, out System.Int32 assemId)
-    // Offset: 0x15D72BC
-    static ::Il2CppObject* ReadTypeInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, int& assemId);
+    // Offset: 0x12DA88C
+    static ::Il2CppObject* ReadTypeInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ByRef<int> assemId);
     // static System.Void TypeFromInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, out System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum, out System.String typeString, out System.Type type, out System.Boolean isVariant)
-    // Offset: 0x15D81D8
-    static void TypeFromInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& primitiveTypeEnum, ::Il2CppString*& typeString, System::Type*& type, bool& isVariant);
+    // Offset: 0x12DB7A8
+    static void TypeFromInfo(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ByRef<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> primitiveTypeEnum, ByRef<::Il2CppString*> typeString, ByRef<System::Type*> type, ByRef<bool> isVariant);
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryConverter
   #pragma pack(pop)
 }
@@ -65,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Binar
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetBinaryTypeInfo
 // Il2CppName: GetBinaryTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum (*)(System::Type*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, ::Il2CppString*, System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, ::Il2CppObject*&, int&)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetBinaryTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum (*)(System::Type*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, ::Il2CppString*, System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, ByRef<::Il2CppObject*>, ByRef<int>)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetBinaryTypeInfo)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetParserBinaryTypeInfo
 // Il2CppName: GetParserBinaryTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum (*)(System::Type*, ::Il2CppObject*&)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetParserBinaryTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum (*)(System::Type*, ByRef<::Il2CppObject*>)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetParserBinaryTypeInfo)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeInformation = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
@@ -101,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryConverter::ReadTypeInfo
 // Il2CppName: ReadTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, int&)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::ReadTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, ByRef<int>)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::ReadTypeInfo)> {
   static const MethodInfo* get() {
     static auto* binaryTypeEnum = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum")->byval_arg;
     static auto* input = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryParser")->byval_arg;
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryConverter::TypeFromInfo
 // Il2CppName: TypeFromInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::ObjectReader*, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE&, ::Il2CppString*&, System::Type*&, bool&)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::TypeFromInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::ObjectReader*, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ByRef<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>, ByRef<::Il2CppString*>, ByRef<System::Type*>, ByRef<bool>)>(&System::Runtime::Serialization::Formatters::Binary::BinaryConverter::TypeFromInfo)> {
   static const MethodInfo* get() {
     static auto* binaryTypeEnum = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum")->byval_arg;
     static auto* typeInformation = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

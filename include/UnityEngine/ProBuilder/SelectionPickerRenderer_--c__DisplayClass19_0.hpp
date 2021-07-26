@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.SelectionPickerRenderer
 #include "UnityEngine/ProBuilder/SelectionPickerRenderer.hpp"
 // Including type: UnityEngine.Vector3
@@ -52,10 +53,10 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
     void _set_sharedVertices(::Array<UnityEngine::ProBuilder::SharedVertex*>* value);
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
-    // Offset: 0x14C0834
+    // Offset: 0x1217D84
     int $PickVerticesInRect$b__0(int x);
     // public System.Void .ctor()
-    // Offset: 0x14BE77C
+    // Offset: 0x1215CCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -23,7 +24,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Entitlements
     Entitlements() noexcept {}
     // static public Oculus.Platform.Request IsUserEntitledToApplication()
-    // Offset: 0x14974DC
+    // Offset: 0x20F3350
     static Oculus::Platform::Request* IsUserEntitledToApplication();
   }; // Oculus.Platform.Entitlements
   #pragma pack(pop)

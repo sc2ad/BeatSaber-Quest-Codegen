@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -59,16 +60,16 @@ namespace TMPro {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
     void _set_lookup(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* value);
     // public System.Void Add(System.Action rhs)
-    // Offset: 0x10B8F5C
+    // Offset: 0xFF0A5C
     void Add(System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
-    // Offset: 0x10B9018
+    // Offset: 0xFF0B18
     void Remove(System::Action* rhs);
     // public System.Void Call()
-    // Offset: 0x10B90C8
+    // Offset: 0xFF0BC8
     void Call();
     // public System.Void .ctor()
-    // Offset: 0x10B9148
+    // Offset: 0xFF0C48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

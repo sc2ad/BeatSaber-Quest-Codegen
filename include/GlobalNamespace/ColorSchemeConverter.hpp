@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,7 +26,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSchemeConverter
     ColorSchemeConverter() noexcept {}
     // static public ColorScheme FromNetSerializable(ColorSchemeNetSerializable serialized)
-    // Offset: 0x107DD84
+    // Offset: 0x1EFF680
     static GlobalNamespace::ColorScheme* FromNetSerializable(GlobalNamespace::ColorSchemeNetSerializable serialized);
   }; // ColorSchemeConverter
   #pragma pack(pop)

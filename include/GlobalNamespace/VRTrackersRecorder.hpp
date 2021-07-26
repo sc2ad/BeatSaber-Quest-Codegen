@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SteamVR_Events
@@ -202,31 +203,31 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _loadedOriginRot
     void _set__loadedOriginRot(UnityEngine::Quaternion value);
     // protected System.Void Awake()
-    // Offset: 0x127AF28
+    // Offset: 0x206EEA8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x127B5A4
+    // Offset: 0x206F524
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x127B8D8
+    // Offset: 0x206F858
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x127B8FC
+    // Offset: 0x206F87C
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x127B920
+    // Offset: 0x206F8A0
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // protected System.Void Update()
-    // Offset: 0x127BB94
+    // Offset: 0x206FB14
     void Update();
     // private System.Void Save()
-    // Offset: 0x127B5B4
+    // Offset: 0x206F534
     void Save();
     // private System.Void Load()
-    // Offset: 0x127B0C0
+    // Offset: 0x206F040
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x127BFF8
+    // Offset: 0x206FF78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

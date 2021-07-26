@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
 // Completed includes
@@ -22,21 +23,21 @@ namespace UnityEngine::Audio {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ExcludeFromObjectFactoryAttribute] Offset: FFFFFFFF
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
-  // [NativeHeaderAttribute] Offset: DA9974
-  // [NativeHeaderAttribute] Offset: DA9974
+  // [NativeHeaderAttribute] Offset: E56590
+  // [NativeHeaderAttribute] Offset: E56590
   class AudioMixer : public UnityEngine::Object {
     public:
     // Creating value type constructor for type: AudioMixer
     AudioMixer() noexcept {}
     // public System.Void set_updateMode(UnityEngine.Audio.AudioMixerUpdateMode value)
-    // Offset: 0x23A8CC4
+    // Offset: 0x1E21CAC
     void set_updateMode(UnityEngine::Audio::AudioMixerUpdateMode value);
     // public System.Boolean SetFloat(System.String name, System.Single value)
-    // Offset: 0x23A8D14
+    // Offset: 0x1E21CFC
     bool SetFloat(::Il2CppString* name, float value);
     // public System.Boolean GetFloat(System.String name, out System.Single value)
-    // Offset: 0x23A8D74
-    bool GetFloat(::Il2CppString* name, float& value);
+    // Offset: 0x1E21D5C
+    bool GetFloat(::Il2CppString* name, ByRef<float> value);
   }; // UnityEngine.Audio.AudioMixer
   #pragma pack(pop)
 }
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixer::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Audio::AudioMixer::*)(::Il2CppString*, float&)>(&UnityEngine::Audio::AudioMixer::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Audio::AudioMixer::*)(::Il2CppString*, ByRef<float>)>(&UnityEngine::Audio::AudioMixer::GetFloat)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;

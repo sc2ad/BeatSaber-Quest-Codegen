@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.FormatterTypeStyle
 #include "System/Runtime/Serialization/Formatters/FormatterTypeStyle.hpp"
 // Including type: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
@@ -68,7 +69,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum
     void _set_FEserializerTypeEnum(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value);
     // public System.Void .ctor()
-    // Offset: 0x15D8DF4
+    // Offset: 0x12DC3C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

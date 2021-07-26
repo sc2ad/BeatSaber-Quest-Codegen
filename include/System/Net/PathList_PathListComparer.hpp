@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.PathList
 #include "System/Net/PathList.hpp"
 // Including type: System.Collections.IComparer
@@ -32,13 +33,13 @@ namespace System::Net {
     // Set static field: static readonly System.Net.PathList/System.Net.PathListComparer StaticInstance
     static void _set_StaticInstance(System::Net::PathList::PathListComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1465EBC
+    // Offset: 0x11D6F1C
     static void _cctor();
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x1465D38
+    // Offset: 0x11D6D98
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x1465EB4
+    // Offset: 0x11D6F14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyValuesSetter
 #include "GlobalNamespace/MaterialPropertyValuesSetter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,16 +43,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 <propertyId>k__BackingField
     void _set_$propertyId$k__BackingField(int value);
     // public System.Int32 get_propertyId()
-    // Offset: 0x1DF6418
+    // Offset: 0x1968FF8
     int get_propertyId();
     // private System.Void set_propertyId(System.Int32 value)
-    // Offset: 0x1DF6420
+    // Offset: 0x1969000
     void set_propertyId(int value);
     // public System.Void RefreshPropertyId()
-    // Offset: 0x1DF62E0
+    // Offset: 0x1968EC0
     void RefreshPropertyId();
     // public System.Void .ctor()
-    // Offset: 0x1DF6348
+    // Offset: 0x1968F28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

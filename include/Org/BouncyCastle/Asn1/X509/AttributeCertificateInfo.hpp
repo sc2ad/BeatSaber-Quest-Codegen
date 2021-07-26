@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -138,23 +139,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: readonly Org.BouncyCastle.Asn1.X509.X509Extensions extensions
     void _set_extensions(Org::BouncyCastle::Asn1::X509::X509Extensions* value);
     // public Org.BouncyCastle.Asn1.X509.AttCertValidityPeriod get_AttrCertValidityPeriod()
-    // Offset: 0x19D7364
+    // Offset: 0x168E458
     Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* get_AttrCertValidityPeriod();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x19D736C
+    // Offset: 0x168E460
     Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19D6C1C
+    // Offset: 0x168DD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributeCertificateInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeCertificateInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo GetInstance(System.Object obj)
-    // Offset: 0x19D6970
+    // Offset: 0x168DA64
     static Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19D7374
+    // Offset: 0x168E468
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

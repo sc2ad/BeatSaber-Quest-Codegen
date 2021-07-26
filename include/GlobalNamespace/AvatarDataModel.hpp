@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarDataFileManagerSO* avatarDataFileManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarDataFileManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE02C9C
+    // [InjectAttribute] Offset: 0xEAF8B8
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x20
@@ -66,28 +67,28 @@ namespace GlobalNamespace {
     // Set instance field: private AvatarData <avatarData>k__BackingField
     void _set_$avatarData$k__BackingField(GlobalNamespace::AvatarData* value);
     // public AvatarData get_avatarData()
-    // Offset: 0x10DE7E8
+    // Offset: 0x1F2F7FC
     GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void set_avatarData(AvatarData value)
-    // Offset: 0x10DE7F0
+    // Offset: 0x1F2F804
     void set_avatarData(GlobalNamespace::AvatarData* value);
     // protected System.Void OnEnable()
-    // Offset: 0x10DE7F8
+    // Offset: 0x1F2F80C
     void OnEnable();
     // public System.Void Randomize()
-    // Offset: 0x10DE838
+    // Offset: 0x1F2F84C
     void Randomize();
     // public System.Void Save()
-    // Offset: 0x10DE95C
+    // Offset: 0x1F2F970
     void Save();
     // public System.Void Load()
-    // Offset: 0x10DE7FC
+    // Offset: 0x1F2F810
     void Load();
     // private AvatarData CreateDefaultAvatarData()
-    // Offset: 0x10DE85C
+    // Offset: 0x1F2F870
     GlobalNamespace::AvatarData* CreateDefaultAvatarData();
     // public System.Void .ctor()
-    // Offset: 0x10DE9CC
+    // Offset: 0x1F2F9E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

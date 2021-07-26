@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.UnmanagedMemoryStream
 #include "System/IO/UnmanagedMemoryStream.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
@@ -44,19 +45,19 @@ namespace System::IO {
     // Set instance field: private System.Runtime.InteropServices.GCHandle _pinningHandle
     void _set__pinningHandle(System::Runtime::InteropServices::GCHandle value);
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0x192BC88
+    // Offset: 0x15FD08C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x192BD6C
+    // Offset: 0x15FD170
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x192BDE4
+    // Offset: 0x15FD1E8
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

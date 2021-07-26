@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapCallbackItemDataList
 #include "GlobalNamespace/BeatmapCallbackItemDataList.hpp"
 // Including type: System.MulticastDelegate
@@ -38,20 +39,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpawnObstacleCallback
     SpawnObstacleCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x118B118
+    // Offset: 0x1FD0C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::SpawnObstacleCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::SpawnObstacleCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(ObstacleData obstacleData)
-    // Offset: 0x118A028
+    // Offset: 0x1FCFB60
     void Invoke(GlobalNamespace::ObstacleData* obstacleData);
     // public System.IAsyncResult BeginInvoke(ObstacleData obstacleData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x118B128
+    // Offset: 0x1FD0C60
     System::IAsyncResult* BeginInvoke(GlobalNamespace::ObstacleData* obstacleData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x118B14C
+    // Offset: 0x1FD0C84
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/SpawnObstacleCallback
   #pragma pack(pop)

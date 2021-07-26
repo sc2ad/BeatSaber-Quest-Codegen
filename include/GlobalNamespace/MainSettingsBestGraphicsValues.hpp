@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -27,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainSettingsBestGraphicsValues
     MainSettingsBestGraphicsValues() noexcept {}
     // static public System.Void ApplyValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x117C2C8
+    // Offset: 0x1FABCDC
     static void ApplyValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x117C40C
+    // Offset: 0x1FABE20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

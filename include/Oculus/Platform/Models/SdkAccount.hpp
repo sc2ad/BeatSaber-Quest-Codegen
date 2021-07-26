@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.SdkAccountType
 #include "Oculus/Platform/SdkAccountType.hpp"
 // Including type: System.IntPtr
@@ -46,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.UInt64 UserId
     void _set_UserId(uint64_t value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14AA684
+    // Offset: 0x21064F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SdkAccount* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SdkAccount::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -120,34 +121,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Security.Cryptography.AesCryptoServiceProvider _aes
     static void _set__aes(System::Security::Cryptography::AesCryptoServiceProvider* value);
     // static private System.Void .cctor()
-    // Offset: 0x12C3B54
+    // Offset: 0x1099290
     static void _cctor();
     // static public EncryptionUtility/IEncryptionState CreateEncryptionState(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x12C1D44
+    // Offset: 0x1097480
     static GlobalNamespace::EncryptionUtility::IEncryptionState* CreateEncryptionState(::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // static public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> CreateEncryptionStateAsync(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x12C2004
+    // Offset: 0x1097740
     static System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* CreateEncryptionStateAsync(::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // static public System.Boolean IsValidLength(System.Int32 length)
-    // Offset: 0x12C2100
+    // Offset: 0x109783C
     static bool IsValidLength(int length);
     // static private System.Void EncryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixedData)
-    // Offset: 0x12C2120
-    static void EncryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, int& offset, int& length, int extraPrefixedData);
+    // Offset: 0x109785C
+    static void EncryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, ByRef<int> offset, ByRef<int> length, int extraPrefixedData);
     // static private System.Boolean TryDecryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x12C2994
-    static bool TryDecryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, int& offset, int& length);
+    // Offset: 0x10980D0
+    static bool TryDecryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, ByRef<int> offset, ByRef<int> length);
     // static private System.Void FastCopyBlock(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x12C352C
+    // Offset: 0x1098C68
     static void FastCopyBlock(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static private System.Void FastCopyMac(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x12C384C
+    // Offset: 0x1098F88
     static void FastCopyMac(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static public System.Void Log(System.String message)
-    // Offset: 0x12C3A4C
+    // Offset: 0x1099188
     static void Log(::Il2CppString* message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x12C3AD0
+    // Offset: 0x109920C
     static void LogV(::Il2CppString* message);
   }; // EncryptionUtility
   #pragma pack(pop)
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptData
 // Il2CppName: EncryptData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::EncryptionUtility::EncryptionState*, ::Array<uint8_t>*, int&, int&, int)>(&GlobalNamespace::EncryptionUtility::EncryptData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::EncryptionUtility::EncryptionState*, ::Array<uint8_t>*, ByRef<int>, ByRef<int>, int)>(&GlobalNamespace::EncryptionUtility::EncryptData)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("", "EncryptionUtility/EncryptionState")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::TryDecryptData
 // Il2CppName: TryDecryptData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::EncryptionUtility::EncryptionState*, ::Array<uint8_t>*, int&, int&)>(&GlobalNamespace::EncryptionUtility::TryDecryptData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::EncryptionUtility::EncryptionState*, ::Array<uint8_t>*, ByRef<int>, ByRef<int>)>(&GlobalNamespace::EncryptionUtility::TryDecryptData)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("", "EncryptionUtility/EncryptionState")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

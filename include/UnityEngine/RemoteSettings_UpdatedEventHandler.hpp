@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.RemoteSettings
 #include "UnityEngine/RemoteSettings.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: UpdatedEventHandler
     UpdatedEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23C7E48
+    // Offset: 0x1E3F440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteSettings::UpdatedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RemoteSettings::UpdatedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteSettings::UpdatedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x23C7B48
+    // Offset: 0x1E3F140
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23C7E58
+    // Offset: 0x1E3F450
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23C7E84
+    // Offset: 0x1E3F47C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.RemoteSettings/UnityEngine.UpdatedEventHandler
   #pragma pack(pop)

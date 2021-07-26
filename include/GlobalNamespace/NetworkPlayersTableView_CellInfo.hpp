@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetworkPlayersTableView
 #include "GlobalNamespace/NetworkPlayersTableView.hpp"
 // Including type: System.Enum
@@ -123,7 +124,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean lastCellInParty
     void _set_lastCellInParty(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1014B60
+    // Offset: 0x1E68114
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

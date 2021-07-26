@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.HashAlgorithm
 #include "System/Security/Cryptography/HashAlgorithm.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,10 +23,10 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: MD2
     MD2() noexcept {}
     // static public Mono.Security.Cryptography.MD2 Create()
-    // Offset: 0x1DD9D30
+    // Offset: 0x194C910
     static Mono::Security::Cryptography::MD2* Create();
     // protected System.Void .ctor()
-    // Offset: 0x1DD9D04
+    // Offset: 0x194C8E4
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

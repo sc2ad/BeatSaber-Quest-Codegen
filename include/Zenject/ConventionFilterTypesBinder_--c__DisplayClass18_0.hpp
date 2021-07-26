@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ConventionFilterTypesBinder
 #include "Zenject/ConventionFilterTypesBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace Zenject {
     // Set instance field: public System.Text.RegularExpressions.Regex regex
     void _set_regex(System::Text::RegularExpressions::Regex* value);
     // System.Boolean <MatchingRegex>b__0(System.Type t)
-    // Offset: 0x138063C
+    // Offset: 0x112729C
     bool $MatchingRegex$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x13803FC
+    // Offset: 0x112705C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

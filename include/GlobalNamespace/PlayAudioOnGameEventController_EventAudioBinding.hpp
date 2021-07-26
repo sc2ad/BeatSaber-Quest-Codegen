@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayAudioOnGameEventController
 #include "GlobalNamespace/PlayAudioOnGameEventController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayAudioOnGameEventController::EventAudioBinding : public ::Il2CppObject {
     public:
-    // [HeaderAttribute] Offset: 0xE13B80
+    // [HeaderAttribute] Offset: 0xEC079C
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -89,16 +90,16 @@ namespace GlobalNamespace {
     // Set instance field: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
     void _set__randomObjectPicker(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* value);
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0x10FF0B4
+    // Offset: 0x1F510C8
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0x10FF1E8
+    // Offset: 0x1F511FC
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x10FF27C
+    // Offset: 0x1F51290
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0x10FF350
+    // Offset: 0x1F51364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::OpenSsl
@@ -30,16 +31,16 @@ namespace Org::BouncyCastle::OpenSsl {
     // Creating value type constructor for type: PemUtilities
     PemUtilities() noexcept {}
     // static private System.Void .cctor()
-    // Offset: 0x1342298
+    // Offset: 0x10E8EF8
     static void _cctor();
     // static private System.Void ParseDekAlgName(System.String dekAlgName, out Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg baseAlg, out Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemMode mode)
-    // Offset: 0x13423C8
-    static void ParseDekAlgName(::Il2CppString* dekAlgName, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg& baseAlg, Org::BouncyCastle::OpenSsl::PemUtilities::PemMode& mode);
+    // Offset: 0x10E9028
+    static void ParseDekAlgName(::Il2CppString* dekAlgName, ByRef<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg> baseAlg, ByRef<Org::BouncyCastle::OpenSsl::PemUtilities::PemMode> mode);
     // static System.Byte[] Crypt(System.Boolean encrypt, System.Byte[] bytes, System.Char[] password, System.String dekAlgName, System.Byte[] iv)
-    // Offset: 0x1341E08
+    // Offset: 0x10E8A68
     static ::Array<uint8_t>* Crypt(bool encrypt, ::Array<uint8_t>* bytes, ::Array<::Il2CppChar>* password, ::Il2CppString* dekAlgName, ::Array<uint8_t>* iv);
     // static private Org.BouncyCastle.Crypto.ICipherParameters GetCipherParameters(System.Char[] password, Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg baseAlg, System.Byte[] salt)
-    // Offset: 0x13442CC
+    // Offset: 0x10EAF2C
     static Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::Array<::Il2CppChar>* password, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg baseAlg, ::Array<uint8_t>* salt);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities
   #pragma pack(pop)
@@ -58,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName
 // Il2CppName: ParseDekAlgName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg&, Org::BouncyCastle::OpenSsl::PemUtilities::PemMode&)>(&Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ByRef<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg>, ByRef<Org::BouncyCastle::OpenSsl::PemUtilities::PemMode>)>(&Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName)> {
   static const MethodInfo* get() {
     static auto* dekAlgName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseAlg = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.OpenSsl", "PemUtilities/PemBaseAlg")->this_arg;

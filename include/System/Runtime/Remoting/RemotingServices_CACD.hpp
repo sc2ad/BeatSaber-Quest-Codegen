@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.RemotingServices
 #include "System/Runtime/Remoting/RemotingServices.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace System::Runtime::Remoting {
     // Set instance field: public System.Object c
     void _set_c(::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x15D0A04
+    // Offset: 0x12D3FD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

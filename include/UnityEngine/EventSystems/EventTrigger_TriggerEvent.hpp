@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.EventTrigger
 #include "UnityEngine/EventSystems/EventTrigger.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -30,7 +31,7 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: TriggerEvent
     TriggerEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14032EC
+    // Offset: 0x11ABF4C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

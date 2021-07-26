@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -47,21 +48,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: private System.Reflection.Assembly assembly
     void _set_assembly(System::Reflection::Assembly* value);
     // System.Void .ctor(System.String assemblyString)
-    // Offset: 0x15D759C
+    // Offset: 0x12DAB6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString)));
     }
     // System.Void .ctor(System.String assemblyString, System.Reflection.Assembly assembly)
-    // Offset: 0x15D75C8
+    // Offset: 0x12DAB98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString, System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString, assembly)));
     }
     // System.Reflection.Assembly GetAssembly()
-    // Offset: 0x15D7600
+    // Offset: 0x12DABD0
     System::Reflection::Assembly* GetAssembly();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo
   #pragma pack(pop)

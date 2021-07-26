@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.ArrayList
 #include "System/Collections/ArrayList.hpp"
 // Including type: System.ICloneable
@@ -88,26 +89,26 @@ namespace System::Collections {
     // Set instance field: private System.Boolean isArrayList
     void _set_isArrayList(bool value);
     // public System.Object get_Current()
-    // Offset: 0x17896E4
+    // Offset: 0x148ADA0
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x1788838
+    // Offset: 0x1489EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ArrayListEnumeratorSimple::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ArrayListEnumeratorSimple*, creationType>(list)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17898B4
+    // Offset: 0x148AF70
     static void _cctor();
     // public System.Object Clone()
-    // Offset: 0x17894E4
+    // Offset: 0x148ABA0
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x17894EC
+    // Offset: 0x148ABA8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x17897D0
+    // Offset: 0x148AE8C
     void Reset();
   }; // System.Collections.ArrayList/System.Collections.ArrayListEnumeratorSimple
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusBeatmapDataAssetFileModel
 #include "GlobalNamespace/OculusBeatmapDataAssetFileModel.hpp"
 // Including type: System.ValueType
@@ -82,10 +83,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value);
     // private System.Void MoveNext()
-    // Offset: 0xED17F4
+    // Offset: 0xF7CB90
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED17FC
+    // Offset: 0xF7CB98
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusBeatmapDataAssetFileModel/<ReloadAssetDetailsForAllLevelsAsync>d__15
   // WARNING Not writing size check since size may be invalid!

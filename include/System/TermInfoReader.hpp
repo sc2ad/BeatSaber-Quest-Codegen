@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -81,42 +82,42 @@ namespace System {
     // Set instance field: private System.Int32 booleansOffset
     void _set_booleansOffset(int value);
     // public System.Void .ctor(System.String term, System.String filename)
-    // Offset: 0x1BCE164
+    // Offset: 0x17C04FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Il2CppString* filename) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, filename)));
     }
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
-    // Offset: 0x1BCE3A0
+    // Offset: 0x17C0738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Array<uint8_t>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
     // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x1BD25C8
-    void ReadHeader(::Array<uint8_t>* buffer, int& position);
+    // Offset: 0x17C4960
+    void ReadHeader(::Array<uint8_t>* buffer, ByRef<int> position);
     // private System.Void ReadNames(System.Byte[] buffer, ref System.Int32 position)
-    // Offset: 0x1BD2724
-    void ReadNames(::Array<uint8_t>* buffer, int& position);
+    // Offset: 0x17C4ABC
+    void ReadNames(::Array<uint8_t>* buffer, ByRef<int> position);
     // public System.Int32 Get(System.TermInfoNumbers number)
-    // Offset: 0x1BCEB90
+    // Offset: 0x17C0F28
     int Get(System::TermInfoNumbers number);
     // public System.String Get(System.TermInfoStrings tstr)
-    // Offset: 0x1BCEAF8
+    // Offset: 0x17C0E90
     ::Il2CppString* Get(System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
-    // Offset: 0x1BD23A4
+    // Offset: 0x17C473C
     ::Array<uint8_t>* GetStringBytes(System::TermInfoStrings tstr);
     // private System.Int16 GetInt16(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1BD2764
+    // Offset: 0x17C4AFC
     int16_t GetInt16(::Array<uint8_t>* buffer, int offset);
     // private System.String GetString(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1BD27C0
+    // Offset: 0x17C4B58
     ::Il2CppString* GetString(::Array<uint8_t>* buffer, int offset);
     // private System.Byte[] GetStringBytes(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1BD2850
+    // Offset: 0x17C4BE8
     ::Array<uint8_t>* GetStringBytes(::Array<uint8_t>* buffer, int offset);
   }; // System.TermInfoReader
   #pragma pack(pop)
@@ -136,7 +137,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");
 // Writing MetadataGetter for method: System::TermInfoReader::ReadHeader
 // Il2CppName: ReadHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::Array<uint8_t>*, int&)>(&System::TermInfoReader::ReadHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::Array<uint8_t>*, ByRef<int>)>(&System::TermInfoReader::ReadHeader)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -146,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TermInfoReader::ReadNames
 // Il2CppName: ReadNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::Array<uint8_t>*, int&)>(&System::TermInfoReader::ReadNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::Array<uint8_t>*, ByRef<int>)>(&System::TermInfoReader::ReadNames)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

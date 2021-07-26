@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ZenUtilInternal
 #include "Zenject/Internal/ZenUtilInternal.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -92,35 +93,35 @@ namespace Zenject::Internal {
     // Set instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.SceneManagement.Scene> <>7__wrap1
     void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* value);
     // private Zenject.SceneContext System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current()
-    // Offset: 0x16C465C
+    // Offset: 0x13C6D18
     Zenject::SceneContext* System_Collections_Generic_IEnumerator$Zenject_SceneContext$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16C46C4
+    // Offset: 0x13C6D80
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x16C32E4
+    // Offset: 0x13C59A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenUtilInternal::$GetAllSceneContexts$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$GetAllSceneContexts$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16C418C
+    // Offset: 0x13C6848
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x16C4268
+    // Offset: 0x13C6924
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x16C41A8
+    // Offset: 0x13C6864
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16C4664
+    // Offset: 0x13C6D20
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<Zenject.SceneContext> System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator()
-    // Offset: 0x16C46CC
+    // Offset: 0x13C6D88
     System::Collections::Generic::IEnumerator_1<Zenject::SceneContext*>* System_Collections_Generic_IEnumerable$Zenject_SceneContext$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x16C4764
+    // Offset: 0x13C6E20
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Zenject.Internal.ZenUtilInternal/Zenject.Internal.<GetAllSceneContexts>d__3
   #pragma pack(pop)

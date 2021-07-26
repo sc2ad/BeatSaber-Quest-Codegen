@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionHelpViewController
 #include "GlobalNamespace/MissionHelpViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,7 +55,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.GameObject gameObject
     void _set_gameObject(UnityEngine::GameObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1130E28
+    // Offset: 0x1F6183C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

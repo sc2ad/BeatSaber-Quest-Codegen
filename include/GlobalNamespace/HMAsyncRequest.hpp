@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMAutoincrementedRequestId
 #include "GlobalNamespace/HMAutoincrementedRequestId.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,19 +54,19 @@ namespace GlobalNamespace {
     // Set instance field: private HMAsyncRequest/CancelHander _cancelHander
     void _set__cancelHander(GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0x1219664
+    // Offset: 0x2045FBC
     GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0x121966C
+    // Offset: 0x2045FC4
     void set_CancelHandler(GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0x1219674
+    // Offset: 0x2045FCC
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0x121967C
+    // Offset: 0x2045FD4
     void Cancel();
     // public System.Void .ctor()
-    // Offset: 0x1219A2C
+    // Offset: 0x2046384
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()

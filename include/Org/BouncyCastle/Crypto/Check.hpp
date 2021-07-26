@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
@@ -16,13 +17,13 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: Check
     Check() noexcept {}
     // static System.Void DataLength(System.Boolean condition, System.String msg)
-    // Offset: 0x1D0273C
+    // Offset: 0x1887ED0
     static void DataLength(bool condition, ::Il2CppString* msg);
     // static System.Void DataLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
-    // Offset: 0x1D027BC
+    // Offset: 0x1887F50
     static void DataLength(::Array<uint8_t>* buf, int off, int len, ::Il2CppString* msg);
     // static System.Void OutputLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
-    // Offset: 0x1D02860
+    // Offset: 0x1887FF4
     static void OutputLength(::Array<uint8_t>* buf, int off, int len, ::Il2CppString* msg);
   }; // Org.BouncyCastle.Crypto.Check
   #pragma pack(pop)

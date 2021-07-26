@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DisconnectPromptView
 #include "GlobalNamespace/DisconnectPromptView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace GlobalNamespace {
     // Set instance field: public DisconnectPromptView <>4__this
     void _set_$$4__this(GlobalNamespace::DisconnectPromptView* value);
     // System.Void <Hide>b__0()
-    // Offset: 0x108AD04
+    // Offset: 0x1F0C600
     void $Hide$b__0();
     // public System.Void .ctor()
-    // Offset: 0x108ABCC
+    // Offset: 0x1F0C4C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

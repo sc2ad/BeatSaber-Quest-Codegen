@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Installer`1
 #include "Zenject/Installer_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,7 +22,7 @@ namespace Zenject {
     // Creating value type constructor for type: ZenjectManagersInstaller
     ZenjectManagersInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2392AD8
+    // Offset: 0x1E0AAC0
     // Implemented from: Zenject.Installer`1
     // Base method: System.Void Installer_1::.ctor()
     // Base method: System.Void InstallerBase::.ctor()
@@ -32,7 +33,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectManagersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x239293C
+    // Offset: 0x1E0A924
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

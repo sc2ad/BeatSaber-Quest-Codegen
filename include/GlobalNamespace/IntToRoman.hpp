@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,7 +18,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: IntToRoman
     IntToRoman() noexcept {}
     // static public System.String Roman(System.Int32 number)
-    // Offset: 0x121AE9C
+    // Offset: 0x20477F4
     static ::Il2CppString* Roman(int number);
   }; // IntToRoman
   #pragma pack(pop)

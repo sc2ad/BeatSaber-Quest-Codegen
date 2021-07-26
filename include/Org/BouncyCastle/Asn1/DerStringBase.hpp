@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Object
 #include "Org/BouncyCastle/Asn1/Asn1Object.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1String
@@ -31,7 +32,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetString();
     // protected System.Void .ctor()
-    // Offset: 0x16E7218
+    // Offset: 0x13E98D4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -42,12 +43,12 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerStringBase*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x16EC3A0
+    // Offset: 0x13EEA5C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x16EC3AC
+    // Offset: 0x13EEA68
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

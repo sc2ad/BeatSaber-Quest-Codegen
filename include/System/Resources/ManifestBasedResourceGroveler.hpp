@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Resources.IResourceGroveler
 #include "System/Resources/IResourceGroveler.hpp"
 // Including type: System.Resources.ResourceManager
@@ -58,18 +59,18 @@ namespace System::Resources {
     // Set instance field: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     void _set__mediator(System::Resources::ResourceManager::ResourceManagerMediator* value);
     // public System.Void .ctor(System.Resources.ResourceManager/System.Resources.ResourceManagerMediator mediator)
-    // Offset: 0x13E82B0
+    // Offset: 0x1190F10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManifestBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ManifestBasedResourceGroveler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManifestBasedResourceGroveler*, creationType>(mediator)));
     }
     // static System.Globalization.CultureInfo GetNeutralResourcesLanguage(System.Reflection.Assembly a, ref System.Resources.UltimateResourceFallbackLocation fallbackLocation)
-    // Offset: 0x13E82DC
-    static System::Globalization::CultureInfo* GetNeutralResourcesLanguage(System::Reflection::Assembly* a, System::Resources::UltimateResourceFallbackLocation& fallbackLocation);
+    // Offset: 0x1190F3C
+    static System::Globalization::CultureInfo* GetNeutralResourcesLanguage(System::Reflection::Assembly* a, ByRef<System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
     // static private System.Boolean GetNeutralResourcesLanguageAttribute(System.Reflection.Assembly assembly, ref System.String cultureName, ref System.Int16 fallbackLocation)
-    // Offset: 0x13E860C
-    static bool GetNeutralResourcesLanguageAttribute(System::Reflection::Assembly* assembly, ::Il2CppString*& cultureName, int16_t& fallbackLocation);
+    // Offset: 0x119126C
+    static bool GetNeutralResourcesLanguageAttribute(System::Reflection::Assembly* assembly, ByRef<::Il2CppString*> cultureName, ByRef<int16_t> fallbackLocation);
   }; // System.Resources.ManifestBasedResourceGroveler
   #pragma pack(pop)
   static check_size<sizeof(ManifestBasedResourceGroveler), 16 + sizeof(System::Resources::ResourceManager::ResourceManagerMediator*)> __System_Resources_ManifestBasedResourceGrovelerSizeCheck;
@@ -84,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "Syste
 // Writing MetadataGetter for method: System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage
 // Il2CppName: GetNeutralResourcesLanguage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Reflection::Assembly*, System::Resources::UltimateResourceFallbackLocation&)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Reflection::Assembly*, ByRef<System::Resources::UltimateResourceFallbackLocation>)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* fallbackLocation = &::il2cpp_utils::GetClassFromName("System.Resources", "UltimateResourceFallbackLocation")->this_arg;
@@ -94,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute
 // Il2CppName: GetNeutralResourcesLanguageAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::Assembly*, ::Il2CppString*&, int16_t&)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::Assembly*, ByRef<::Il2CppString*>, ByRef<int16_t>)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* cultureName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

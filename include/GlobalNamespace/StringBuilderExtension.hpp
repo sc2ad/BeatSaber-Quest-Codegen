@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -23,22 +24,22 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: StringBuilderExtension
     StringBuilderExtension() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDCFE30
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE7CA4C
     // Get static field: static private System.Char[] charToInt
     static ::Array<::Il2CppChar>* _get_charToInt();
     // Set static field: static private System.Char[] charToInt
     static void _set_charToInt(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x235AB30
+    // Offset: 0x1DE2F70
     static void _cctor();
     // static public System.Void Swap(System.Text.StringBuilder sb, System.Int32 startIndex, System.Int32 endIndex)
-    // Offset: 0x235A804
+    // Offset: 0x1DE2C44
     static void Swap(System::Text::StringBuilder* sb, int startIndex, int endIndex);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.Int32 number)
-    // Offset: 0x235A8BC
+    // Offset: 0x1DE2CFC
     static void AppendNumber(System::Text::StringBuilder* sb, int number);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.UInt32 unumber)
-    // Offset: 0x235AA04
+    // Offset: 0x1DE2E44
     static void AppendNumber(System::Text::StringBuilder* sb, uint unumber);
   }; // StringBuilderExtension
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ScenesTransitionSetupDataSO
 #include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,10 +40,10 @@ namespace GlobalNamespace {
     // Set instance field: private SceneInfo[] _sceneInfos
     void _set__sceneInfos(::Array<GlobalNamespace::SceneInfo*>* value);
     // public System.Void Init()
-    // Offset: 0x12155C4
+    // Offset: 0x2041F1C
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x12155D8
+    // Offset: 0x2041F30
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

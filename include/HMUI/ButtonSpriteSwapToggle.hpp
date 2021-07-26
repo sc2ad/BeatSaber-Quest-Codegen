@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ButtonSpriteSwap
 #include "HMUI/ButtonSpriteSwap.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,7 +53,7 @@ namespace HMUI {
     // Set instance field: private System.Boolean _isToggled
     void _set__isToggled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1303E48
+    // Offset: 0x10C5DB8
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -66,12 +67,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ButtonSpriteSwapToggle*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1303CC4
+    // Offset: 0x10C5C34
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::OnEnable()
     void OnEnable();
     // protected override System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x1303CF4
+    // Offset: 0x10C5C64
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);

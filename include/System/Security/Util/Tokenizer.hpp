@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -274,26 +275,26 @@ namespace System::Security::Util {
     // Set instance field: private System.String _inNestedString
     void _set__inNestedString(::Il2CppString* value);
     // System.Void .ctor(System.String input)
-    // Offset: 0x1BC21F8
+    // Offset: 0x17B4590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer* New_ctor(::Il2CppString* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
     // System.Void BasicInitialization()
-    // Offset: 0x1BC1E84
+    // Offset: 0x17B421C
     void BasicInitialization();
     // public System.Void Recycle()
-    // Offset: 0x1BC2078
+    // Offset: 0x17B4410
     void Recycle();
     // System.Void ChangeFormat(System.Text.Encoding encoding)
-    // Offset: 0x1BC2244
+    // Offset: 0x17B45DC
     void ChangeFormat(System::Text::Encoding* encoding);
     // System.Void GetTokens(System.Security.Util.TokenizerStream stream, System.Int32 maxNum, System.Boolean endAfterKet)
-    // Offset: 0x1BC256C
+    // Offset: 0x17B4904
     void GetTokens(System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
-    // Offset: 0x1BC34B0
+    // Offset: 0x17B5848
     ::Il2CppString* GetStringToken();
   }; // System.Security.Util.Tokenizer
   #pragma pack(pop)

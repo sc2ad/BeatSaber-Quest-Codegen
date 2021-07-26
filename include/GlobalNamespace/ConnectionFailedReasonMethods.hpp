@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,84 +29,84 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ConnectionFailedReasonMethods
     ConnectionFailedReasonMethods() noexcept {}
-    // [LocalizationKeyAttribute] Offset: 0xE01B4C
+    // [LocalizationKeyAttribute] Offset: 0xEAE768
     // static field const value: static private System.String kConnectionFailedUnknown
     static constexpr const char* kConnectionFailedUnknown = "SERVER_CONNECTION_FAILED_TRY_AGAIN";
     // Get static field: static private System.String kConnectionFailedUnknown
     static ::Il2CppString* _get_kConnectionFailedUnknown();
     // Set static field: static private System.String kConnectionFailedUnknown
     static void _set_kConnectionFailedUnknown(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01B5C
+    // [LocalizationKeyAttribute] Offset: 0xEAE778
     // static field const value: static private System.String kConnectionFailedConnectionCanceled
     static constexpr const char* kConnectionFailedConnectionCanceled = "SERVER_CONNECTION_FAILED_TRY_AGAIN";
     // Get static field: static private System.String kConnectionFailedConnectionCanceled
     static ::Il2CppString* _get_kConnectionFailedConnectionCanceled();
     // Set static field: static private System.String kConnectionFailedConnectionCanceled
     static void _set_kConnectionFailedConnectionCanceled(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01B6C
+    // [LocalizationKeyAttribute] Offset: 0xEAE788
     // static field const value: static private System.String kConnectionFailedServerUnreachable
     static constexpr const char* kConnectionFailedServerUnreachable = "SERVER_CONNECTION_FAILED_TRY_AGAIN";
     // Get static field: static private System.String kConnectionFailedServerUnreachable
     static ::Il2CppString* _get_kConnectionFailedServerUnreachable();
     // Set static field: static private System.String kConnectionFailedServerUnreachable
     static void _set_kConnectionFailedServerUnreachable(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01B7C
+    // [LocalizationKeyAttribute] Offset: 0xEAE798
     // static field const value: static private System.String kConnectionFailedServerDoesNotExist
     static constexpr const char* kConnectionFailedServerDoesNotExist = "CONNECTION_FAILED_SERVER_DOES_NOT_EXIST";
     // Get static field: static private System.String kConnectionFailedServerDoesNotExist
     static ::Il2CppString* _get_kConnectionFailedServerDoesNotExist();
     // Set static field: static private System.String kConnectionFailedServerDoesNotExist
     static void _set_kConnectionFailedServerDoesNotExist(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01B8C
+    // [LocalizationKeyAttribute] Offset: 0xEAE7A8
     // static field const value: static private System.String kConnectionFailedServerAtCapacity
     static constexpr const char* kConnectionFailedServerAtCapacity = "CONNECTION_FAILED_SERVER_AT_CAPACITY";
     // Get static field: static private System.String kConnectionFailedServerAtCapacity
     static ::Il2CppString* _get_kConnectionFailedServerAtCapacity();
     // Set static field: static private System.String kConnectionFailedServerAtCapacity
     static void _set_kConnectionFailedServerAtCapacity(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01B9C
+    // [LocalizationKeyAttribute] Offset: 0xEAE7B8
     // static field const value: static private System.String kConnectionFailedVersionMismatch
     static constexpr const char* kConnectionFailedVersionMismatch = "CONNECTION_FAILED_VERSION_MISMATCH";
     // Get static field: static private System.String kConnectionFailedVersionMismatch
     static ::Il2CppString* _get_kConnectionFailedVersionMismatch();
     // Set static field: static private System.String kConnectionFailedVersionMismatch
     static void _set_kConnectionFailedVersionMismatch(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01BAC
+    // [LocalizationKeyAttribute] Offset: 0xEAE7C8
     // static field const value: static private System.String kConnectionFailedInvalidPassword
     static constexpr const char* kConnectionFailedInvalidPassword = "CONNECTION_FAILED_INVALID_PASSWORD";
     // Get static field: static private System.String kConnectionFailedInvalidPassword
     static ::Il2CppString* _get_kConnectionFailedInvalidPassword();
     // Set static field: static private System.String kConnectionFailedInvalidPassword
     static void _set_kConnectionFailedInvalidPassword(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01BBC
+    // [LocalizationKeyAttribute] Offset: 0xEAE7D8
     // static field const value: static private System.String kConnectionFailedMasterServerUnreachable
     static constexpr const char* kConnectionFailedMasterServerUnreachable = "SERVER_CONNECTION_FAILED_TRY_AGAIN";
     // Get static field: static private System.String kConnectionFailedMasterServerUnreachable
     static ::Il2CppString* _get_kConnectionFailedMasterServerUnreachable();
     // Set static field: static private System.String kConnectionFailedMasterServerUnreachable
     static void _set_kConnectionFailedMasterServerUnreachable(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01BCC
+    // [LocalizationKeyAttribute] Offset: 0xEAE7E8
     // static field const value: static private System.String kConnectionFailedMasterServerNotAuthenticated
     static constexpr const char* kConnectionFailedMasterServerNotAuthenticated = "SERVER_CONNECTION_FAILED_TRY_AGAIN";
     // Get static field: static private System.String kConnectionFailedMasterServerNotAuthenticated
     static ::Il2CppString* _get_kConnectionFailedMasterServerNotAuthenticated();
     // Set static field: static private System.String kConnectionFailedMasterServerNotAuthenticated
     static void _set_kConnectionFailedMasterServerNotAuthenticated(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01BDC
+    // [LocalizationKeyAttribute] Offset: 0xEAE7F8
     // static field const value: static private System.String kConnectionFailedNetworkNotConnected
     static constexpr const char* kConnectionFailedNetworkNotConnected = "CONNECTION_FAILED_NETWORK_NOT_CONNECTED";
     // Get static field: static private System.String kConnectionFailedNetworkNotConnected
     static ::Il2CppString* _get_kConnectionFailedNetworkNotConnected();
     // Set static field: static private System.String kConnectionFailedNetworkNotConnected
     static void _set_kConnectionFailedNetworkNotConnected(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01BEC
+    // [LocalizationKeyAttribute] Offset: 0xEAE808
     // static field const value: static private System.String kConnectionFailedMasterServerCertificateValidationFailed
     static constexpr const char* kConnectionFailedMasterServerCertificateValidationFailed = "CONNECTION_FAILED_NETWORK_NOT_CONNECTED";
     // Get static field: static private System.String kConnectionFailedMasterServerCertificateValidationFailed
     static ::Il2CppString* _get_kConnectionFailedMasterServerCertificateValidationFailed();
     // Set static field: static private System.String kConnectionFailedMasterServerCertificateValidationFailed
     static void _set_kConnectionFailedMasterServerCertificateValidationFailed(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE01BFC
+    // [LocalizationKeyAttribute] Offset: 0xEAE818
     // static field const value: static private System.String kConnectionFailedServerIsTerminating
     static constexpr const char* kConnectionFailedServerIsTerminating = "CONNECTION_FAILED_SERVER_DOES_NOT_EXIST";
     // Get static field: static private System.String kConnectionFailedServerIsTerminating
@@ -113,10 +114,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kConnectionFailedServerIsTerminating
     static void _set_kConnectionFailedServerIsTerminating(::Il2CppString* value);
     // static public System.String LocalizedKey(ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x10814A4
+    // Offset: 0x1F02DA0
     static ::Il2CppString* LocalizedKey(GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // static public System.String ErrorCode(ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x108150C
+    // Offset: 0x1F02E08
     static ::Il2CppString* ErrorCode(GlobalNamespace::ConnectionFailedReason connectionFailedReason);
   }; // ConnectionFailedReasonMethods
   #pragma pack(pop)

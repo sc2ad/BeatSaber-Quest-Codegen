@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
@@ -96,22 +97,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     void _set_m_ResourceManager(UnityEngine::ResourceManagement::ResourceManager* value);
     // private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation get_InternalOp()
-    // Offset: 0xEEC280
+    // Offset: 0xD80238
     UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
     // public UnityEngine.ResourceManagement.ResourceManager get_ResourceManager()
-    // Offset: 0xEEC288
+    // Offset: 0xD80240
     UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
     // public System.Type get_Type()
-    // Offset: 0xEEC290
+    // Offset: 0xD80248
     System::Type* get_Type();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-    // Offset: 0xEEC298
+    // Offset: 0xD80250
     UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
     // public System.Int32 get_DependencyCount()
-    // Offset: 0xEEC2A0
+    // Offset: 0xD80258
     int get_DependencyCount();
     // System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation op)
-    // Offset: 0xEEC278
+    // Offset: 0xD80230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ProvideHandle(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::.ctor");
@@ -128,16 +129,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return ::il2cpp_utils::RunMethodThrow<TDepObject, false>(*this, ___generic__method, index);
     }
     // public System.Void GetDependencies(System.Collections.Generic.IList`1<System.Object> list)
-    // Offset: 0xEEC2A8
+    // Offset: 0xD80260
     void GetDependencies(System::Collections::Generic::IList_1<::Il2CppObject*>* list);
     // public System.Void SetProgressCallback(System.Func`1<System.Single> callback)
-    // Offset: 0xEEC2B0
+    // Offset: 0xD80268
     void SetProgressCallback(System::Func_1<float>* callback);
     // public System.Void SetDownloadProgressCallbacks(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus> callback)
-    // Offset: 0xEEC2B8
+    // Offset: 0xD80270
     void SetDownloadProgressCallbacks(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
     // public System.Void SetWaitForCompletionCallback(System.Func`1<System.Boolean> callback)
-    // Offset: 0xEEC2C0
+    // Offset: 0xD80278
     void SetWaitForCompletionCallback(System::Func_1<bool>* callback);
     // public System.Void Complete(T result, System.Boolean status, System.Exception exception)
     // Offset: 0xFFFFFFFF

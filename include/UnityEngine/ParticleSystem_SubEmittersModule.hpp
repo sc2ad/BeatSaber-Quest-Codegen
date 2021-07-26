@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
 // Including type: System.ValueType
@@ -42,21 +43,21 @@ namespace UnityEngine {
     // Set instance field: UnityEngine.ParticleSystem m_ParticleSystem
     void _set_m_ParticleSystem(UnityEngine::ParticleSystem* value);
     // public System.Int32 get_subEmittersCount()
-    // Offset: 0xF0F1F4
+    // Offset: 0xD94D88
     int get_subEmittersCount();
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xF0F1EC
+    // Offset: 0xD94D80
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SubEmittersModule(UnityEngine::ParticleSystem* particleSystem)
     // public UnityEngine.ParticleSystem GetSubEmitterSystem(System.Int32 index)
-    // Offset: 0xF0F234
+    // Offset: 0xD94DC8
     UnityEngine::ParticleSystem* GetSubEmitterSystem(int index);
     // static private System.Int32 get_subEmittersCount_Injected(ref UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule _unity_self)
-    // Offset: 0x23BFDE4
-    static int get_subEmittersCount_Injected(UnityEngine::ParticleSystem::SubEmittersModule& _unity_self);
+    // Offset: 0x1E373DC
+    static int get_subEmittersCount_Injected(ByRef<UnityEngine::ParticleSystem::SubEmittersModule> _unity_self);
     // static private UnityEngine.ParticleSystem GetSubEmitterSystem_Injected(ref UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule _unity_self, System.Int32 index)
-    // Offset: 0x23BFE74
-    static UnityEngine::ParticleSystem* GetSubEmitterSystem_Injected(UnityEngine::ParticleSystem::SubEmittersModule& _unity_self, int index);
+    // Offset: 0x1E3746C
+    static UnityEngine::ParticleSystem* GetSubEmitterSystem_Injected(ByRef<UnityEngine::ParticleSystem::SubEmittersModule> _unity_self, int index);
   }; // UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::SubEmittersModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_SubEmittersModuleSizeCheck;
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount_Injected
 // Il2CppName: get_subEmittersCount_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ParticleSystem::SubEmittersModule&)>(&UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<UnityEngine::ParticleSystem::SubEmittersModule>)>(&UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount_Injected)> {
   static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/SubEmittersModule")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "get_subEmittersCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
@@ -97,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem_Injected
 // Il2CppName: GetSubEmitterSystem_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem* (*)(UnityEngine::ParticleSystem::SubEmittersModule&, int)>(&UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem* (*)(ByRef<UnityEngine::ParticleSystem::SubEmittersModule>, int)>(&UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem_Injected)> {
   static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/SubEmittersModule")->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

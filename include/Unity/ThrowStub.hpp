@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ObjectDisposedException
 #include "System/ObjectDisposedException.hpp"
 // Completed includes
@@ -18,7 +19,7 @@ namespace Unity {
     // Creating value type constructor for type: ThrowStub
     ThrowStub() noexcept {}
     // static public System.Void ThrowNotSupportedException()
-    // Offset: 0x22D8154
+    // Offset: 0x1D93688
     static void ThrowNotSupportedException();
   }; // Unity.ThrowStub
   #pragma pack(pop)

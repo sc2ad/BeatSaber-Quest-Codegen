@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
 // Including type: System.Collections.IEnumerator
@@ -48,20 +49,20 @@ namespace UnityEngine {
     // Set instance field: private System.Int32 currentIndex
     void _set_currentIndex(int value);
     // public System.Object get_Current()
-    // Offset: 0x2304F48
+    // Offset: 0x1D9DA54
     ::Il2CppObject* get_Current();
     // System.Void .ctor(UnityEngine.Transform outer)
-    // Offset: 0x2304B14
+    // Offset: 0x1D9D620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform::Enumerator* New_ctor(UnityEngine::Transform* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Transform::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform::Enumerator*, creationType>(outer)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x2304FA0
+    // Offset: 0x1D9DAAC
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x230500C
+    // Offset: 0x1D9DB18
     void Reset();
   }; // UnityEngine.Transform/UnityEngine.Enumerator
   #pragma pack(pop)

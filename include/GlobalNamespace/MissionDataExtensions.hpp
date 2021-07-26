@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionObjective
 #include "GlobalNamespace/MissionObjective.hpp"
 // Completed includes
@@ -19,7 +20,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionDataExtensions
     MissionDataExtensions() noexcept {}
     // static public System.String Name(MissionObjective/ReferenceValueComparisonType comparisonType)
-    // Offset: 0x1130548
+    // Offset: 0x1F60F5C
     static ::Il2CppString* Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
   }; // MissionDataExtensions
   #pragma pack(pop)

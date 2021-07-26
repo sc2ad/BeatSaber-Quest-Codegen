@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -42,8 +43,8 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinBladeSpeedForCut
     static void _set_kMinBladeSpeedForCut(float value);
     // static public System.Void GetBasicCutInfo(UnityEngine.Transform noteTransform, ColorType colorType, NoteCutDirection cutDirection, SaberType saberType, System.Single saberBladeSpeed, UnityEngine.Vector3 cutDirVec, System.Single cutAngleTolerance, out System.Boolean directionOK, out System.Boolean speedOK, out System.Boolean saberTypeOK, out System.Single cutDirDeviation, out System.Single cutDirAngle)
-    // Offset: 0x2328058
-    static void GetBasicCutInfo(UnityEngine::Transform* noteTransform, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::SaberType saberType, float saberBladeSpeed, UnityEngine::Vector3 cutDirVec, float cutAngleTolerance, bool& directionOK, bool& speedOK, bool& saberTypeOK, float& cutDirDeviation, float& cutDirAngle);
+    // Offset: 0x23DB43C
+    static void GetBasicCutInfo(UnityEngine::Transform* noteTransform, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::SaberType saberType, float saberBladeSpeed, UnityEngine::Vector3 cutDirVec, float cutAngleTolerance, ByRef<bool> directionOK, ByRef<bool> speedOK, ByRef<bool> saberTypeOK, ByRef<float> cutDirDeviation, ByRef<float> cutDirAngle);
   }; // NoteBasicCutInfoHelper
   #pragma pack(pop)
 }
@@ -53,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteBasicCutInfoHelper*, "", "NoteBasicC
 // Writing MetadataGetter for method: GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo
 // Il2CppName: GetBasicCutInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, GlobalNamespace::SaberType, float, UnityEngine::Vector3, float, bool&, bool&, bool&, float&, float&)>(&GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, GlobalNamespace::SaberType, float, UnityEngine::Vector3, float, ByRef<bool>, ByRef<bool>, ByRef<bool>, ByRef<float>, ByRef<float>)>(&GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo)> {
   static const MethodInfo* get() {
     static auto* noteTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* colorType = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;

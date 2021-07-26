@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SecureRandomProvider
 #include "GlobalNamespace/SecureRandomProvider.hpp"
 // Including type: System.Int32
@@ -77,16 +78,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _index
     void _set__index(int value);
     // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x23100F4
+    // Offset: 0x23D12A8
     void GetBytes(::Array<uint8_t>* buffer, int offset, int length);
     // public System.Byte GetByte()
-    // Offset: 0x2310228
+    // Offset: 0x23D13DC
     uint8_t GetByte();
     // private System.Void FillBuffer()
-    // Offset: 0x23104F8
+    // Offset: 0x23D16AC
     void FillBuffer();
     // public System.Void .ctor()
-    // Offset: 0x2310458
+    // Offset: 0x23D160C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

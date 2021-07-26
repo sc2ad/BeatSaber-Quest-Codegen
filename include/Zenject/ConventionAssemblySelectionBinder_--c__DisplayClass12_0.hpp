@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ConventionAssemblySelectionBinder
 #include "Zenject/ConventionAssemblySelectionBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace Zenject {
     // Set instance field: public System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies
     void _set_assemblies(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* value);
     // System.Boolean <FromAssemblies>b__0(System.Reflection.Assembly assembly)
-    // Offset: 0x137F6F4
+    // Offset: 0x1126354
     bool $FromAssemblies$b__0(System::Reflection::Assembly* assembly);
     // public System.Void .ctor()
-    // Offset: 0x137F5DC
+    // Offset: 0x112623C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

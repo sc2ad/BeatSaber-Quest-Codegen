@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: Mono.Security.PKCS7
@@ -168,99 +169,99 @@ namespace Mono::Security::X509 {
     // Set instance field: private System.Security.Cryptography.RandomNumberGenerator _rng
     void _set__rng(System::Security::Cryptography::RandomNumberGenerator* value);
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1DE3994
+    // Offset: 0x1956574
     void set_Password(::Il2CppString* value);
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1DE4AE4
+    // Offset: 0x19576C4
     int get_IterationCount();
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x1DE4AEC
+    // Offset: 0x19576CC
     void set_IterationCount(int value);
     // public System.Collections.ArrayList get_Keys()
-    // Offset: 0x1DE4AF4
+    // Offset: 0x19576D4
     System::Collections::ArrayList* get_Keys();
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x1DE52C4
+    // Offset: 0x1957EA4
     Mono::Security::X509::X509CertificateCollection* get_Certificates();
     // System.Security.Cryptography.RandomNumberGenerator get_RNG()
-    // Offset: 0x1DE5648
+    // Offset: 0x1958228
     System::Security::Cryptography::RandomNumberGenerator* get_RNG();
     // static public System.Int32 get_MaximumPasswordLength()
-    // Offset: 0x1DE953C
+    // Offset: 0x195C11C
     static int get_MaximumPasswordLength();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1DE395C
+    // Offset: 0x195653C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12* New_ctor(::Array<uint8_t>* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>(data)));
     }
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x1DE4180
+    // Offset: 0x1956D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>(data, password)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DE95A4
+    // Offset: 0x195C184
     static void _cctor();
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1DE3B74
+    // Offset: 0x1956754
     void Decode(::Array<uint8_t>* data);
     // private System.Boolean Compare(System.Byte[] expected, System.Byte[] actual)
-    // Offset: 0x1DE4318
+    // Offset: 0x1956EF8
     bool Compare(::Array<uint8_t>* expected, ::Array<uint8_t>* actual);
     // private System.Security.Cryptography.SymmetricAlgorithm GetSymmetricAlgorithm(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x1DE5674
+    // Offset: 0x1958254
     System::Security::Cryptography::SymmetricAlgorithm* GetSymmetricAlgorithm(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount);
     // public System.Byte[] Decrypt(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount, System.Byte[] encryptedData)
-    // Offset: 0x1DE513C
+    // Offset: 0x1957D1C
     ::Array<uint8_t>* Decrypt(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount, ::Array<uint8_t>* encryptedData);
     // public System.Byte[] Decrypt(Mono.Security.PKCS7/Mono.Security.EncryptedData ed)
-    // Offset: 0x1DE49C8
+    // Offset: 0x19575A8
     ::Array<uint8_t>* Decrypt(Mono::Security::PKCS7::EncryptedData* ed);
     // public System.Byte[] Encrypt(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount, System.Byte[] data)
-    // Offset: 0x1DE5B28
+    // Offset: 0x1958708
     ::Array<uint8_t>* Encrypt(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount, ::Array<uint8_t>* data);
     // private System.Security.Cryptography.DSAParameters GetExistingParameters(out System.Boolean found)
-    // Offset: 0x1DE5D04
-    System::Security::Cryptography::DSAParameters GetExistingParameters(bool& found);
+    // Offset: 0x19588E4
+    System::Security::Cryptography::DSAParameters GetExistingParameters(ByRef<bool> found);
     // private System.Void AddPrivateKey(Mono.Security.Cryptography.PKCS8/Mono.Security.Cryptography.PrivateKeyInfo pki)
-    // Offset: 0x1DE5F38
+    // Offset: 0x1958B18
     void AddPrivateKey(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo* pki);
     // private System.Void ReadSafeBag(Mono.Security.ASN1 safeBag)
-    // Offset: 0x1DE4394
+    // Offset: 0x1956F74
     void ReadSafeBag(Mono::Security::ASN1* safeBag);
     // private Mono.Security.ASN1 CertificateSafeBag(Mono.Security.X509.X509Certificate x509, System.Collections.IDictionary attributes)
-    // Offset: 0x1DE60AC
+    // Offset: 0x1958C8C
     Mono::Security::ASN1* CertificateSafeBag(Mono::Security::X509::X509Certificate* x509, System::Collections::IDictionary* attributes);
     // private System.Byte[] MAC(System.Byte[] password, System.Byte[] salt, System.Int32 iterations, System.Byte[] data)
-    // Offset: 0x1DE41C4
+    // Offset: 0x1956DA4
     ::Array<uint8_t>* MAC(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterations, ::Array<uint8_t>* data);
     // public System.Byte[] GetBytes()
-    // Offset: 0x1DE6BD4
+    // Offset: 0x19597B4
     ::Array<uint8_t>* GetBytes();
     // private Mono.Security.PKCS7/Mono.Security.ContentInfo EncryptedContentInfo(Mono.Security.ASN1 safeBags, System.String algorithmOid)
-    // Offset: 0x1DE8A80
+    // Offset: 0x195B660
     Mono::Security::PKCS7::ContentInfo* EncryptedContentInfo(Mono::Security::ASN1* safeBags, ::Il2CppString* algorithmOid);
     // public System.Void AddCertificate(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1DE8A78
+    // Offset: 0x195B658
     void AddCertificate(Mono::Security::X509::X509Certificate* cert);
     // public System.Void AddCertificate(Mono.Security.X509.X509Certificate cert, System.Collections.IDictionary attributes)
-    // Offset: 0x1DE8D60
+    // Offset: 0x195B940
     void AddCertificate(Mono::Security::X509::X509Certificate* cert, System::Collections::IDictionary* attributes);
     // public System.Void RemoveCertificate(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1DE8A70
+    // Offset: 0x195B650
     void RemoveCertificate(Mono::Security::X509::X509Certificate* cert);
     // public System.Void RemoveCertificate(Mono.Security.X509.X509Certificate cert, System.Collections.IDictionary attrs)
-    // Offset: 0x1DE8F94
+    // Offset: 0x195BB74
     void RemoveCertificate(Mono::Security::X509::X509Certificate* cert, System::Collections::IDictionary* attrs);
     // public System.Object Clone()
-    // Offset: 0x1DE9464
+    // Offset: 0x195C044
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1DE3888
+    // Offset: 0x1956468
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -269,7 +270,7 @@ namespace Mono::Security::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1DE4A64
+    // Offset: 0x1957644
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -420,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::GetExistingParameters
 // Il2CppName: GetExistingParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (Mono::Security::X509::PKCS12::*)(bool&)>(&Mono::Security::X509::PKCS12::GetExistingParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (Mono::Security::X509::PKCS12::*)(ByRef<bool>)>(&Mono::Security::X509::PKCS12::GetExistingParameters)> {
   static const MethodInfo* get() {
     static auto* found = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetExistingParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{found});

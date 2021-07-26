@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,19 +28,19 @@ namespace GlobalNamespace {
     // Set static field: static private SecureRandomProvider/SecureRandomState _secureRandomState
     static void _set__secureRandomState(GlobalNamespace::SecureRandomProvider::SecureRandomState* value);
     // static private System.Void .cctor()
-    // Offset: 0x23103F0
+    // Offset: 0x23D15A4
     static void _cctor();
     // static public System.Byte[] GetBytes(System.Int32 length)
-    // Offset: 0x2310048
+    // Offset: 0x23D11FC
     static ::Array<uint8_t>* GetBytes(int length);
     // static public System.Byte GetByte()
-    // Offset: 0x23101B8
+    // Offset: 0x23D136C
     static uint8_t GetByte();
     // static public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x23102DC
+    // Offset: 0x23D1490
     static void GetBytes(::Array<uint8_t>* buffer, int offset, int length);
     // static public System.Void GetBytes(System.Byte[] buffer)
-    // Offset: 0x231036C
+    // Offset: 0x23D1520
     static void GetBytes(::Array<uint8_t>* buffer);
   }; // SecureRandomProvider
   #pragma pack(pop)

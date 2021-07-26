@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ConnectionErrorDialogViewController
 #include "GlobalNamespace/ConnectionErrorDialogViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action buttonAction
     void _set_buttonAction(System::Action* value);
     // System.Void <Init>b__0(System.Int32 btnIdx)
-    // Offset: 0x1081490
+    // Offset: 0x1F02D8C
     void $Init$b__0(int btnIdx);
     // public System.Void .ctor()
-    // Offset: 0x108139C
+    // Offset: 0x1F02C98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

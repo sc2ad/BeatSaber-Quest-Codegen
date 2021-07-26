@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector2
@@ -100,25 +101,25 @@ namespace HMUI {
     // Set instance field: private System.Boolean <isShown>k__BackingField
     void _set_$isShown$k__BackingField(bool value);
     // public System.Boolean get_isShown()
-    // Offset: 0x1310E84
+    // Offset: 0x10D2DF4
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0x1310E8C
+    // Offset: 0x10D2DFC
     void set_isShown(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1310E98
+    // Offset: 0x10D2E08
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0x1310938
+    // Offset: 0x10D28A8
     void Show(::Il2CppString* text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
     // public System.Void Hide()
-    // Offset: 0x1310470
+    // Offset: 0x10D23E0
     void Hide();
     // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0x1310FA0
+    // Offset: 0x10D2F10
     UnityEngine::Vector2 CalculatePanelPosition(UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect, UnityEngine::Vector2 panelSize);
     // public System.Void .ctor()
-    // Offset: 0x13110CC
+    // Offset: 0x10D303C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

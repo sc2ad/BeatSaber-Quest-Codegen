@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_Asset
 #include "TMPro/TMP_Asset.hpp"
 // Including type: TMPro.AtlasPopulationMode
@@ -203,7 +204,7 @@ namespace TMPro {
     System::Collections::Generic::List_1<TMPro::TMP_Glyph*>* m_glyphInfoList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::TMP_Glyph*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDC2184
+    // [FormerlySerializedAsAttribute] Offset: 0xE6EDA0
     // TMPro.KerningTable m_KerningTable
     // Size: 0x8
     // Offset: 0x118
@@ -503,208 +504,208 @@ namespace TMPro {
     // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_Character> m_CharactersToAdd
     void _set_m_CharactersToAdd(System::Collections::Generic::List_1<TMPro::TMP_Character*>* value);
     // public System.String get_version()
-    // Offset: 0x10C29A4
+    // Offset: 0xFFA4A4
     ::Il2CppString* get_version();
     // System.Void set_version(System.String value)
-    // Offset: 0x10C29AC
+    // Offset: 0xFFA4AC
     void set_version(::Il2CppString* value);
     // public UnityEngine.Font get_sourceFontFile()
-    // Offset: 0x10C29B4
+    // Offset: 0xFFA4B4
     UnityEngine::Font* get_sourceFontFile();
     // System.Void set_sourceFontFile(UnityEngine.Font value)
-    // Offset: 0x10C29BC
+    // Offset: 0xFFA4BC
     void set_sourceFontFile(UnityEngine::Font* value);
     // public TMPro.AtlasPopulationMode get_atlasPopulationMode()
-    // Offset: 0x10C29C4
+    // Offset: 0xFFA4C4
     TMPro::AtlasPopulationMode get_atlasPopulationMode();
     // public System.Void set_atlasPopulationMode(TMPro.AtlasPopulationMode value)
-    // Offset: 0x10C29CC
+    // Offset: 0xFFA4CC
     void set_atlasPopulationMode(TMPro::AtlasPopulationMode value);
     // public UnityEngine.TextCore.FaceInfo get_faceInfo()
-    // Offset: 0x10C29D4
+    // Offset: 0xFFA4D4
     UnityEngine::TextCore::FaceInfo get_faceInfo();
     // System.Void set_faceInfo(UnityEngine.TextCore.FaceInfo value)
-    // Offset: 0x10C29E4
+    // Offset: 0xFFA4E4
     void set_faceInfo(UnityEngine::TextCore::FaceInfo value);
     // public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> get_glyphTable()
-    // Offset: 0x10C2A00
+    // Offset: 0xFFA500
     System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* get_glyphTable();
     // System.Void set_glyphTable(System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> value)
-    // Offset: 0x10C2A08
+    // Offset: 0xFFA508
     void set_glyphTable(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* value);
     // public System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> get_glyphLookupTable()
-    // Offset: 0x10C2A10
+    // Offset: 0xFFA510
     System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* get_glyphLookupTable();
     // public System.Collections.Generic.List`1<TMPro.TMP_Character> get_characterTable()
-    // Offset: 0x10C31D4
+    // Offset: 0xFFACD4
     System::Collections::Generic::List_1<TMPro::TMP_Character*>* get_characterTable();
     // System.Void set_characterTable(System.Collections.Generic.List`1<TMPro.TMP_Character> value)
-    // Offset: 0x10C31DC
+    // Offset: 0xFFACDC
     void set_characterTable(System::Collections::Generic::List_1<TMPro::TMP_Character*>* value);
     // public System.Collections.Generic.Dictionary`2<System.UInt32,TMPro.TMP_Character> get_characterLookupTable()
-    // Offset: 0x10C31E4
+    // Offset: 0xFFACE4
     System::Collections::Generic::Dictionary_2<uint, TMPro::TMP_Character*>* get_characterLookupTable();
     // public UnityEngine.Texture2D get_atlasTexture()
-    // Offset: 0x10C3214
+    // Offset: 0xFFAD14
     UnityEngine::Texture2D* get_atlasTexture();
     // public UnityEngine.Texture2D[] get_atlasTextures()
-    // Offset: 0x10C32BC
+    // Offset: 0xFFADBC
     ::Array<UnityEngine::Texture2D*>* get_atlasTextures();
     // public System.Void set_atlasTextures(UnityEngine.Texture2D[] value)
-    // Offset: 0x10C32C4
+    // Offset: 0xFFADC4
     void set_atlasTextures(::Array<UnityEngine::Texture2D*>* value);
     // System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> get_usedGlyphRects()
-    // Offset: 0x10C32CC
+    // Offset: 0xFFADCC
     System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* get_usedGlyphRects();
     // System.Void set_usedGlyphRects(System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> value)
-    // Offset: 0x10C32D4
+    // Offset: 0xFFADD4
     void set_usedGlyphRects(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* value);
     // System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> get_freeGlyphRects()
-    // Offset: 0x10C32DC
+    // Offset: 0xFFADDC
     System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* get_freeGlyphRects();
     // System.Void set_freeGlyphRects(System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> value)
-    // Offset: 0x10C32E4
+    // Offset: 0xFFADE4
     void set_freeGlyphRects(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* value);
     // public TMPro.FaceInfo_Legacy get_fontInfo()
-    // Offset: 0x10C32EC
+    // Offset: 0xFFADEC
     TMPro::FaceInfo_Legacy* get_fontInfo();
     // public System.Int32 get_atlasWidth()
-    // Offset: 0x10C32F4
+    // Offset: 0xFFADF4
     int get_atlasWidth();
     // System.Void set_atlasWidth(System.Int32 value)
-    // Offset: 0x10C32FC
+    // Offset: 0xFFADFC
     void set_atlasWidth(int value);
     // public System.Int32 get_atlasHeight()
-    // Offset: 0x10C3304
+    // Offset: 0xFFAE04
     int get_atlasHeight();
     // System.Void set_atlasHeight(System.Int32 value)
-    // Offset: 0x10C330C
+    // Offset: 0xFFAE0C
     void set_atlasHeight(int value);
     // public System.Int32 get_atlasPadding()
-    // Offset: 0x10C3314
+    // Offset: 0xFFAE14
     int get_atlasPadding();
     // System.Void set_atlasPadding(System.Int32 value)
-    // Offset: 0x10C331C
+    // Offset: 0xFFAE1C
     void set_atlasPadding(int value);
     // public UnityEngine.TextCore.LowLevel.GlyphRenderMode get_atlasRenderMode()
-    // Offset: 0x10C3324
+    // Offset: 0xFFAE24
     UnityEngine::TextCore::LowLevel::GlyphRenderMode get_atlasRenderMode();
     // System.Void set_atlasRenderMode(UnityEngine.TextCore.LowLevel.GlyphRenderMode value)
-    // Offset: 0x10C332C
+    // Offset: 0xFFAE2C
     void set_atlasRenderMode(UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
     // public TMPro.TMP_FontFeatureTable get_fontFeatureTable()
-    // Offset: 0x10C3334
+    // Offset: 0xFFAE34
     TMPro::TMP_FontFeatureTable* get_fontFeatureTable();
     // System.Void set_fontFeatureTable(TMPro.TMP_FontFeatureTable value)
-    // Offset: 0x10C333C
+    // Offset: 0xFFAE3C
     void set_fontFeatureTable(TMPro::TMP_FontFeatureTable* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> get_fallbackFontAssetTable()
-    // Offset: 0x10C3344
+    // Offset: 0xFFAE44
     System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* get_fallbackFontAssetTable();
     // public System.Void set_fallbackFontAssetTable(System.Collections.Generic.List`1<TMPro.TMP_FontAsset> value)
-    // Offset: 0x10C334C
+    // Offset: 0xFFAE4C
     void set_fallbackFontAssetTable(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* value);
     // public TMPro.FontAssetCreationSettings get_creationSettings()
-    // Offset: 0x10C3354
+    // Offset: 0xFFAE54
     TMPro::FontAssetCreationSettings get_creationSettings();
     // public System.Void set_creationSettings(TMPro.FontAssetCreationSettings value)
-    // Offset: 0x10C3364
+    // Offset: 0xFFAE64
     void set_creationSettings(TMPro::FontAssetCreationSettings value);
     // public TMPro.TMP_FontWeightPair[] get_fontWeightTable()
-    // Offset: 0x10C3380
+    // Offset: 0xFFAE80
     ::Array<TMPro::TMP_FontWeightPair>* get_fontWeightTable();
     // System.Void set_fontWeightTable(TMPro.TMP_FontWeightPair[] value)
-    // Offset: 0x10C3388
+    // Offset: 0xFFAE88
     void set_fontWeightTable(::Array<TMPro::TMP_FontWeightPair>* value);
     // static public TMPro.TMP_FontAsset CreateFontAsset(UnityEngine.Font font)
-    // Offset: 0x10C3390
+    // Offset: 0xFFAE90
     static TMPro::TMP_FontAsset* CreateFontAsset(UnityEngine::Font* font);
     // static public TMPro.TMP_FontAsset CreateFontAsset(UnityEngine.Font font, System.Int32 samplingPointSize, System.Int32 atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, System.Int32 atlasWidth, System.Int32 atlasHeight, TMPro.AtlasPopulationMode atlasPopulationMode)
-    // Offset: 0x10C340C
+    // Offset: 0xFFAF0C
     static TMPro::TMP_FontAsset* CreateFontAsset(UnityEngine::Font* font, int samplingPointSize, int atlasPadding, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int atlasWidth, int atlasHeight, TMPro::AtlasPopulationMode atlasPopulationMode);
     // private System.Void Awake()
-    // Offset: 0x10C37D8
+    // Offset: 0xFFB2D8
     void Awake();
     // System.Void InitializeDictionaryLookupTables()
-    // Offset: 0x10C41BC
+    // Offset: 0xFFBCBC
     void InitializeDictionaryLookupTables();
     // public System.Void ReadFontAssetDefinition()
-    // Offset: 0x10C2A40
+    // Offset: 0xFFA540
     void ReadFontAssetDefinition();
     // System.Void SortCharacterTable()
-    // Offset: 0x10C47D4
+    // Offset: 0xFFC2D4
     void SortCharacterTable();
     // System.Void SortGlyphTable()
-    // Offset: 0x10C48F4
+    // Offset: 0xFFC3F4
     void SortGlyphTable();
     // System.Void SortGlyphAndCharacterTables()
-    // Offset: 0x10C4A14
+    // Offset: 0xFFC514
     void SortGlyphAndCharacterTables();
     // public System.Boolean HasCharacter(System.Int32 character)
-    // Offset: 0x10C4A38
+    // Offset: 0xFFC538
     bool HasCharacter(int character);
     // public System.Boolean HasCharacter(System.Char character)
-    // Offset: 0x10C4AAC
+    // Offset: 0xFFC5AC
     bool HasCharacter(::Il2CppChar character);
     // public System.Boolean HasCharacter(System.Char character, System.Boolean searchFallbacks)
-    // Offset: 0x10C4B20
+    // Offset: 0xFFC620
     bool HasCharacter(::Il2CppChar character, bool searchFallbacks);
     // private System.Boolean HasCharacter_Internal(System.Char character, System.Boolean searchFallbacks)
-    // Offset: 0x10C54B4
+    // Offset: 0xFFCFB4
     bool HasCharacter_Internal(::Il2CppChar character, bool searchFallbacks);
     // public System.Boolean HasCharacters(System.String text, out System.Collections.Generic.List`1<System.Char> missingCharacters)
-    // Offset: 0x10C561C
-    bool HasCharacters(::Il2CppString* text, System::Collections::Generic::List_1<::Il2CppChar>*& missingCharacters);
+    // Offset: 0xFFD11C
+    bool HasCharacters(::Il2CppString* text, ByRef<System::Collections::Generic::List_1<::Il2CppChar>*> missingCharacters);
     // public System.Boolean HasCharacters(System.String text)
-    // Offset: 0x10C5758
+    // Offset: 0xFFD258
     bool HasCharacters(::Il2CppString* text);
     // static public System.String GetCharacters(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x10C581C
+    // Offset: 0xFFD31C
     static ::Il2CppString* GetCharacters(TMPro::TMP_FontAsset* fontAsset);
     // static public System.Int32[] GetCharactersArray(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x10C58FC
+    // Offset: 0xFFD3FC
     static ::Array<int>* GetCharactersArray(TMPro::TMP_FontAsset* fontAsset);
     // public System.Boolean TryAddCharacters(System.UInt32[] unicodes)
-    // Offset: 0x10C59E4
+    // Offset: 0xFFD4E4
     bool TryAddCharacters(::Array<uint>* unicodes);
     // public System.Boolean TryAddCharacters(System.UInt32[] unicodes, out System.UInt32[] missingUnicodes)
-    // Offset: 0x10C5A0C
-    bool TryAddCharacters(::Array<uint>* unicodes, ::Array<uint>*& missingUnicodes);
+    // Offset: 0xFFD50C
+    bool TryAddCharacters(::Array<uint>* unicodes, ByRef<::Array<uint>*> missingUnicodes);
     // public System.Boolean TryAddCharacters(System.String characters)
-    // Offset: 0x10C6110
+    // Offset: 0xFFDC10
     bool TryAddCharacters(::Il2CppString* characters);
     // public System.Boolean TryAddCharacters(System.String characters, out System.String missingCharacters)
-    // Offset: 0x10C6138
-    bool TryAddCharacters(::Il2CppString* characters, ::Il2CppString*& missingCharacters);
+    // Offset: 0xFFDC38
+    bool TryAddCharacters(::Il2CppString* characters, ByRef<::Il2CppString*> missingCharacters);
     // System.Boolean TryAddCharacter_Internal(System.UInt32 unicode)
-    // Offset: 0x10C6778
+    // Offset: 0xFFE278
     bool TryAddCharacter_Internal(uint unicode);
     // TMPro.TMP_Character AddCharacter_Internal(System.UInt32 unicode, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0x10C6A90
+    // Offset: 0xFFE590
     TMPro::TMP_Character* AddCharacter_Internal(uint unicode, UnityEngine::TextCore::Glyph* glyph);
     // System.Boolean TryAddCharacterInternal(System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x10C4EF0
-    bool TryAddCharacterInternal(uint unicode, TMPro::TMP_Character*& character);
+    // Offset: 0xFFC9F0
+    bool TryAddCharacterInternal(uint unicode, ByRef<TMPro::TMP_Character*> character);
     // System.UInt32 GetGlyphIndex(System.UInt32 unicode)
-    // Offset: 0x10C7468
+    // Offset: 0xFFEF68
     uint GetGlyphIndex(uint unicode);
     // System.Void UpdateAtlasTexture()
-    // Offset: 0x10C6DA8
+    // Offset: 0xFFE8A8
     void UpdateAtlasTexture();
     // System.Void UpdateGlyphAdjustmentRecords(System.UInt32 unicode, System.UInt32 glyphIndex)
-    // Offset: 0x10C7068
+    // Offset: 0xFFEB68
     void UpdateGlyphAdjustmentRecords(uint unicode, uint glyphIndex);
     // public System.Void ClearFontAssetData(System.Boolean setAtlasSizeToZero)
-    // Offset: 0x10C7688
+    // Offset: 0xFFF188
     void ClearFontAssetData(bool setAtlasSizeToZero);
     // private System.Void UpgradeFontAsset()
-    // Offset: 0x10C3870
+    // Offset: 0xFFB370
     void UpgradeFontAsset();
     // private System.Void UpgradeGlyphAdjustmentTableToFontFeatureTable()
-    // Offset: 0x10C4568
+    // Offset: 0xFFC068
     void UpgradeGlyphAdjustmentTableToFontFeatureTable();
     // public System.Void .ctor()
-    // Offset: 0x10C7BE4
+    // Offset: 0xFFF6E4
     // Implemented from: TMPro.TMP_Asset
     // Base method: System.Void TMP_Asset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -716,7 +717,7 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontAsset*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x10C7D78
+    // Offset: 0xFFF878
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -1161,7 +1162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacters
 // Il2CppName: HasCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, System::Collections::Generic::List_1<::Il2CppChar>*&)>(&TMPro::TMP_FontAsset::HasCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, ByRef<System::Collections::Generic::List_1<::Il2CppChar>*>)>(&TMPro::TMP_FontAsset::HasCharacters)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* missingCharacters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->this_arg;
@@ -1207,7 +1208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Array<uint>*, ::Array<uint>*&)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Array<uint>*, ByRef<::Array<uint>*>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
     static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* missingUnicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;
@@ -1226,7 +1227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, ::Il2CppString*&)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, ByRef<::Il2CppString*>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
     static auto* characters = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* missingCharacters = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -1255,7 +1256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacterInternal
 // Il2CppName: TryAddCharacterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(uint, TMPro::TMP_Character*&)>(&TMPro::TMP_FontAsset::TryAddCharacterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(uint, ByRef<TMPro::TMP_Character*>)>(&TMPro::TMP_FontAsset::TryAddCharacterInternal)> {
   static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* character = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Character")->this_arg;

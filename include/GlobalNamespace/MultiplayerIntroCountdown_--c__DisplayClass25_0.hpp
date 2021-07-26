@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerIntroCountdown
 #include "GlobalNamespace/MultiplayerIntroCountdown.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,22 +56,22 @@ namespace GlobalNamespace {
     // Set instance field: public MultiplayerIntroCountdown <>4__this
     void _set_$$4__this(GlobalNamespace::MultiplayerIntroCountdown* value);
     // System.Void <PhaseRoutine>b__0(System.Single val)
-    // Offset: 0x11AD3D4
+    // Offset: 0x1FC4E40
     void $PhaseRoutine$b__0(float val);
     // System.Void <PhaseRoutine>b__1(System.Single val)
-    // Offset: 0x11AD468
+    // Offset: 0x1FC4ED4
     void $PhaseRoutine$b__1(float val);
     // System.Void <PhaseRoutine>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x11AD55C
+    // Offset: 0x1FC4FC8
     void $PhaseRoutine$b__2(UnityEngine::Vector3 pos);
     // System.Void <PhaseRoutine>b__3(System.Single f)
-    // Offset: 0x11AD5B0
+    // Offset: 0x1FC501C
     void $PhaseRoutine$b__3(float f);
     // System.Void <PhaseRoutine>b__4(System.Single val)
-    // Offset: 0x11AD6A4
+    // Offset: 0x1FC5110
     void $PhaseRoutine$b__4(float val);
     // public System.Void .ctor()
-    // Offset: 0x11AD3CC
+    // Offset: 0x1FC4E38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IValidatable
 #include "Zenject/IValidatable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -138,14 +139,14 @@ namespace Zenject {
       }
     }; // Zenject.KeyedFactoryBase`2/Zenject.<>c
     // Could not write size check! Type: Zenject.KeyedFactoryBase`2/Zenject.<>c is generic, or has no fields that are valid for size checks!
-    // [InjectAttribute] Offset: 0xDCAF3C
+    // [InjectAttribute] Offset: 0xE77B58
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xDCAF4C
+    // [InjectOptionalAttribute] Offset: 0xE77B68
     // private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<TKey,System.Type>> _typePairs
     // Size: 0x8
     // Offset: 0x0
@@ -158,7 +159,7 @@ namespace Zenject {
     System::Collections::Generic::Dictionary_2<TKey, System::Type*>* typeMap;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<TKey, System::Type*>*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xDCAF5C
+    // [InjectOptionalAttribute] Offset: 0xE77B78
     // private readonly System.Type _fallbackType
     // Size: 0x8
     // Offset: 0x0

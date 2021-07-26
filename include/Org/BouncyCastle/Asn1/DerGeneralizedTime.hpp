@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Object
 #include "Org/BouncyCastle/Asn1/Asn1Object.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,51 +49,51 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private readonly System.String time
     void _set_time(::Il2CppString* value);
     // private System.Boolean get_HasFractionalSeconds()
-    // Offset: 0x16E96FC
+    // Offset: 0x13EBDB8
     bool get_HasFractionalSeconds();
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x16DBDB8
+    // Offset: 0x13DE474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerGeneralizedTime* New_ctor(::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerGeneralizedTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGeneralizedTime*, creationType>(bytes)));
     }
     // static public Org.BouncyCastle.Asn1.DerGeneralizedTime GetInstance(System.Object obj)
-    // Offset: 0x16E8D74
+    // Offset: 0x13EB430
     static Org::BouncyCastle::Asn1::DerGeneralizedTime* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
-    // Offset: 0x16E8E80
+    // Offset: 0x13EB53C
     ::Il2CppString* GetTime();
     // private System.String CalculateGmtOffset()
-    // Offset: 0x16E9188
+    // Offset: 0x13EB844
     ::Il2CppString* CalculateGmtOffset();
     // static private System.String Convert(System.Int32 time)
-    // Offset: 0x16E9664
+    // Offset: 0x13EBD20
     static ::Il2CppString* Convert(int time);
     // public System.DateTime ToDateTime()
-    // Offset: 0x16E941C
+    // Offset: 0x13EBAD8
     System::DateTime ToDateTime();
     // private System.String FString(System.Int32 count)
-    // Offset: 0x16E972C
+    // Offset: 0x13EBDE8
     ::Il2CppString* FString(int count);
     // private System.DateTime ParseDateString(System.String s, System.String format, System.Boolean makeUniversal)
-    // Offset: 0x16E97C8
+    // Offset: 0x13EBE84
     System::DateTime ParseDateString(::Il2CppString* s, ::Il2CppString* format, bool makeUniversal);
     // private System.Byte[] GetOctets()
-    // Offset: 0x16E99E8
+    // Offset: 0x13EC0A4
     ::Array<uint8_t>* GetOctets();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16E99F4
+    // Offset: 0x13EC0B0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16E9A30
+    // Offset: 0x13EC0EC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x16E9AE4
+    // Offset: 0x13EC1A0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

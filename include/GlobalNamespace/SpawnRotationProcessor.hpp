@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,16 +50,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Single[] _rotations
     void _set__rotations(::Array<float>* value);
     // public System.Single get_rotation()
-    // Offset: 0x105EB1C
+    // Offset: 0x1EC95F0
     float get_rotation();
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x105E9D0
+    // Offset: 0x1EC94A4
     bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Single RotationForEventValue(System.Int32 index)
-    // Offset: 0x105EB24
+    // Offset: 0x1EC95F8
     float RotationForEventValue(int index);
     // public System.Void .ctor()
-    // Offset: 0x105EAA4
+    // Offset: 0x1EC9578
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

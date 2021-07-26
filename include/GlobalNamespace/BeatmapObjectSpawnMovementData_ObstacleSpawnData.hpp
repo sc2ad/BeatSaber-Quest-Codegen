@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectSpawnMovementData
 #include "GlobalNamespace/BeatmapObjectSpawnMovementData.hpp"
 // Including type: System.ValueType
@@ -101,7 +102,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single noteLinesDistance
     void _set_noteLinesDistance(float value);
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance)
-    // Offset: 0xED01E4
+    // Offset: 0xF7BB58
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance)
   }; // BeatmapObjectSpawnMovementData/ObstacleSpawnData

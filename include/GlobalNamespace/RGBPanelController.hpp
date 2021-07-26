@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -91,34 +92,34 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1142050
+    // Offset: 0x1F72A64
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x114205C
+    // Offset: 0x1F72A70
     void set_color(UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x1141F08
+    // Offset: 0x1F7291C
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x1141FAC
+    // Offset: 0x1F729C0
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // protected System.Void Awake()
-    // Offset: 0x114225C
+    // Offset: 0x1F72C70
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1142360
+    // Offset: 0x1F72D74
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1142534
+    // Offset: 0x1F72F48
     void HandleSliderColorDidChange(HMUI::ColorGradientSlider* slider, UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x1142204
+    // Offset: 0x1F72C18
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x1142088
+    // Offset: 0x1F72A9C
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x11425D8
+    // Offset: 0x1F72FEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

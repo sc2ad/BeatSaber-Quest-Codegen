@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -92,40 +93,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action despawnCharacterEvent
     void _set_despawnCharacterEvent(System::Action* value);
     // public System.Void add_animationDidPauseEvent(System.Action value)
-    // Offset: 0x235C55C
+    // Offset: 0x1DE499C
     void add_animationDidPauseEvent(System::Action* value);
     // public System.Void remove_animationDidPauseEvent(System.Action value)
-    // Offset: 0x235C600
+    // Offset: 0x1DE4A40
     void remove_animationDidPauseEvent(System::Action* value);
     // public System.Void add_spawnCharacterEvent(System.Action value)
-    // Offset: 0x235C6A4
+    // Offset: 0x1DE4AE4
     void add_spawnCharacterEvent(System::Action* value);
     // public System.Void remove_spawnCharacterEvent(System.Action value)
-    // Offset: 0x235C748
+    // Offset: 0x1DE4B88
     void remove_spawnCharacterEvent(System::Action* value);
     // public System.Void add_despawnCharacterEvent(System.Action value)
-    // Offset: 0x235C7EC
+    // Offset: 0x1DE4C2C
     void add_despawnCharacterEvent(System::Action* value);
     // public System.Void remove_despawnCharacterEvent(System.Action value)
-    // Offset: 0x235C890
+    // Offset: 0x1DE4CD0
     void remove_despawnCharacterEvent(System::Action* value);
     // private System.Void PlayEvent(System.String eventName)
-    // Offset: 0x235C934
+    // Offset: 0x1DE4D74
     void PlayEvent(::Il2CppString* eventName);
     // private System.Void PauseAnimation()
-    // Offset: 0x235CA0C
+    // Offset: 0x1DE4E4C
     void PauseAnimation();
     // private System.Void SpawnCharacterEvent()
-    // Offset: 0x235CC4C
+    // Offset: 0x1DE508C
     void SpawnCharacterEvent();
     // private System.Void DeSpawnCharacterEvent()
-    // Offset: 0x235CC60
+    // Offset: 0x1DE50A0
     void DeSpawnCharacterEvent();
     // public System.Void ResumeAnimation()
-    // Offset: 0x235CC74
+    // Offset: 0x1DE50B4
     void ResumeAnimation();
     // public System.Void .ctor()
-    // Offset: 0x235CEA4
+    // Offset: 0x1DE52E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

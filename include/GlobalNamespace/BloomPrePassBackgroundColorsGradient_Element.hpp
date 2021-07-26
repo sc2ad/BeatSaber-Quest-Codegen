@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassBackgroundColorsGradient
 #include "GlobalNamespace/BloomPrePassBackgroundColorsGradient.hpp"
 // Including type: UnityEngine.Color
@@ -54,7 +55,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single exp
     void _set_exp(float value);
     // public System.Void .ctor()
-    // Offset: 0x1DECC1C
+    // Offset: 0x195F7FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

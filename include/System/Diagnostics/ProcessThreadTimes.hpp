@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -67,10 +68,10 @@ namespace System::Diagnostics {
     // Set instance field: System.Int64 user
     void _set_user(int64_t value);
     // public System.TimeSpan get_TotalProcessorTime()
-    // Offset: 0x184C23C
+    // Offset: 0x151D640
     System::TimeSpan get_TotalProcessorTime();
     // public System.Void .ctor()
-    // Offset: 0x184C028
+    // Offset: 0x151D42C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

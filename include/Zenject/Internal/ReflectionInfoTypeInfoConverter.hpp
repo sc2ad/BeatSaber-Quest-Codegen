@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.InjectTypeInfo
 #include "Zenject/InjectTypeInfo.hpp"
 // Including type: Zenject.Internal.ReflectionTypeInfo
@@ -70,37 +71,37 @@ namespace Zenject::Internal {
     // Creating value type constructor for type: ReflectionInfoTypeInfoConverter
     ReflectionInfoTypeInfoConverter() noexcept {}
     // static public Zenject.InjectTypeInfo/Zenject.InjectMethodInfo ConvertMethod(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo injectMethod)
-    // Offset: 0x1627CE8
+    // Offset: 0x132B2B8
     static Zenject::InjectTypeInfo::InjectMethodInfo* ConvertMethod(Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo* injectMethod);
     // static public Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo ConvertConstructor(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo injectConstructor, System.Type type)
-    // Offset: 0x1627EB0
+    // Offset: 0x132B480
     static Zenject::InjectTypeInfo::InjectConstructorInfo* ConvertConstructor(Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* injectConstructor, System::Type* type);
     // static public Zenject.InjectTypeInfo/Zenject.InjectMemberInfo ConvertField(System.Type parentType, Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo injectField)
-    // Offset: 0x1628194
+    // Offset: 0x132B764
     static Zenject::InjectTypeInfo::InjectMemberInfo* ConvertField(System::Type* parentType, Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* injectField);
     // static public Zenject.InjectTypeInfo/Zenject.InjectMemberInfo ConvertProperty(System.Type parentType, Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo injectProperty)
-    // Offset: 0x16283DC
+    // Offset: 0x132B9AC
     static Zenject::InjectTypeInfo::InjectMemberInfo* ConvertProperty(System::Type* parentType, Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* injectProperty);
     // static private Zenject.ZenFactoryMethod TryCreateFactoryMethod(System.Type type, Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo reflectionInfo)
-    // Offset: 0x1628008
+    // Offset: 0x132B5D8
     static Zenject::ZenFactoryMethod* TryCreateFactoryMethod(System::Type* type, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* reflectionInfo);
     // static private Zenject.ZenFactoryMethod TryCreateFactoryMethodCompiledLambdaExpression(System.Type type, System.Reflection.ConstructorInfo constructor)
-    // Offset: 0x1628478
+    // Offset: 0x132BA48
     static Zenject::ZenFactoryMethod* TryCreateFactoryMethodCompiledLambdaExpression(System::Type* type, System::Reflection::ConstructorInfo* constructor);
     // static private Zenject.ZenInjectMethod TryCreateActionForMethod(System.Reflection.MethodInfo methodInfo)
-    // Offset: 0x1627EA8
+    // Offset: 0x132B478
     static Zenject::ZenInjectMethod* TryCreateActionForMethod(System::Reflection::MethodInfo* methodInfo);
     // static private System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo> GetAllFields(System.Type t, System.Reflection.BindingFlags flags)
-    // Offset: 0x1628480
+    // Offset: 0x132BA50
     static System::Collections::Generic::IEnumerable_1<System::Reflection::FieldInfo*>* GetAllFields(System::Type* t, System::Reflection::BindingFlags flags);
     // static private Zenject.ZenMemberSetterMethod GetOnlyPropertySetter(System.Type parentType, System.String propertyName)
-    // Offset: 0x1628600
+    // Offset: 0x132BBD0
     static Zenject::ZenMemberSetterMethod* GetOnlyPropertySetter(System::Type* parentType, ::Il2CppString* propertyName);
     // static private Zenject.ZenMemberSetterMethod GetSetter(System.Type parentType, System.Reflection.MemberInfo memInfo)
-    // Offset: 0x1628228
+    // Offset: 0x132B7F8
     static Zenject::ZenMemberSetterMethod* GetSetter(System::Type* parentType, System::Reflection::MemberInfo* memInfo);
     // static private Zenject.ZenMemberSetterMethod TryGetSetterAsCompiledExpression(System.Type parentType, System.Reflection.MemberInfo memInfo)
-    // Offset: 0x1628908
+    // Offset: 0x132BED8
     static Zenject::ZenMemberSetterMethod* TryGetSetterAsCompiledExpression(System::Type* parentType, System::Reflection::MemberInfo* memInfo);
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter
   #pragma pack(pop)

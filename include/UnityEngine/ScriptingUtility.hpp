@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,7 +24,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ScriptingUtility
     ScriptingUtility() noexcept {}
     // static private System.Boolean IsManagedCodeWorking()
-    // Offset: 0x1C83468
+    // Offset: 0x22BDA70
     static bool IsManagedCodeWorking();
   }; // UnityEngine.ScriptingUtility
   #pragma pack(pop)

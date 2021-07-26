@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider
 #include "UnityEngine/ResourceManagement/ResourceProviders/TextDataProvider.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
@@ -101,25 +102,25 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private System.Boolean m_Complete
     void _set_m_Complete(bool value);
     // private System.Single GetPercentComplete()
-    // Offset: 0x19BBB74
+    // Offset: 0x1673C68
     float GetPercentComplete();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle, UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider rawProvider, System.Boolean ignoreFailures)
-    // Offset: 0x19BB5DC
+    // Offset: 0x16736D0
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider, bool ignoreFailures);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x19BBE5C
+    // Offset: 0x1673F50
     bool WaitForCompletionHandler();
     // private System.Void RequestOperation_completed(UnityEngine.AsyncOperation op)
-    // Offset: 0x19BBCB8
+    // Offset: 0x1673DAC
     void RequestOperation_completed(UnityEngine::AsyncOperation* op);
     // private System.Object ConvertText(System.String text)
-    // Offset: 0x19BBB8C
+    // Offset: 0x1673C80
     ::Il2CppObject* ConvertText(::Il2CppString* text);
     // private System.Void <Start>b__7_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOperation)
-    // Offset: 0x19BBEDC
+    // Offset: 0x1673FD0
     void $Start$b__7_0(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
     // public System.Void .ctor()
-    // Offset: 0x19BB5D4
+    // Offset: 0x16736C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

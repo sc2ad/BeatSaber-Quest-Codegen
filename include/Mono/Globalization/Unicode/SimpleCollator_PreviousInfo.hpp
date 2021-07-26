@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.ValueType
@@ -51,7 +52,7 @@ namespace Mono::Globalization::Unicode {
     // Set instance field: public System.Byte* SortKey
     void _set_SortKey(uint8_t* value);
     // public System.Void .ctor(System.Boolean dummy)
-    // Offset: 0xEECE40
+    // Offset: 0xD80DF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PreviousInfo(bool dummy) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::PreviousInfo::.ctor");

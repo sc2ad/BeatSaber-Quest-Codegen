@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamPlatformAdditionalContentModel
 #include "GlobalNamespace/SteamPlatformAdditionalContentModel.hpp"
 // Including type: System.ValueType
@@ -82,10 +83,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/OpenProductStoreResult> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFBB4
+    // Offset: 0xF7B820
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFBBC
+    // Offset: 0xF7B828
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // SteamPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__9
   // WARNING Not writing size check since size may be invalid!

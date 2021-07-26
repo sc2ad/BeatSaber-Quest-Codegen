@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IConsoleDriver
 #include "System/IConsoleDriver.hpp"
 // Including type: System.IntPtr
@@ -71,22 +72,22 @@ namespace System {
     // Set instance field: private System.Int16 defaultAttribute
     void _set_defaultAttribute(int16_t value);
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x22D6390
+    // Offset: 0x1D918C4
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x22D65F8
+    // Offset: 0x1D91B2C
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x22D6268
+    // Offset: 0x1D9179C
     static System::IntPtr GetStdHandle(System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x22D62F0
-    static bool GetConsoleScreenBufferInfo(System::IntPtr handle, System::ConsoleScreenBufferInfo& info);
+    // Offset: 0x1D91824
+    static bool GetConsoleScreenBufferInfo(System::IntPtr handle, ByRef<System::ConsoleScreenBufferInfo> info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x22D6508
-    static bool ReadConsoleInput(System::IntPtr handle, System::InputRecord& record, int length, int& nread);
+    // Offset: 0x1D91A3C
+    static bool ReadConsoleInput(System::IntPtr handle, ByRef<System::InputRecord> record, int length, ByRef<int> nread);
     // public System.Void .ctor()
-    // Offset: 0x22D6208
+    // Offset: 0x1D9173C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::GetConsoleScreenBufferInfo
 // Il2CppName: GetConsoleScreenBufferInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::ConsoleScreenBufferInfo&)>(&System::WindowsConsoleDriver::GetConsoleScreenBufferInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, ByRef<System::ConsoleScreenBufferInfo>)>(&System::WindowsConsoleDriver::GetConsoleScreenBufferInfo)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System", "ConsoleScreenBufferInfo")->this_arg;
@@ -141,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::ReadConsoleInput
 // Il2CppName: ReadConsoleInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::InputRecord&, int, int&)>(&System::WindowsConsoleDriver::ReadConsoleInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, ByRef<System::InputRecord>, int, ByRef<int>)>(&System::WindowsConsoleDriver::ReadConsoleInput)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "InputRecord")->this_arg;

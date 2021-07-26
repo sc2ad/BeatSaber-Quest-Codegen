@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.InitializableManager
 #include "Zenject/InitializableManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace Zenject {
     // Set instance field: public System.Int32 Priority
     void _set_Priority(int value);
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x16257D4
+    // Offset: 0x1328DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager::InitializableInfo* New_ctor(Zenject::IInitializable* initializable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::InitializableInfo::.ctor");

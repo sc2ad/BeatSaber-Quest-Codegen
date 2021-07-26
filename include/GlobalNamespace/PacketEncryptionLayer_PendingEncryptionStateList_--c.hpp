@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PacketEncryptionLayer/PendingEncryptionStateList
 #include "GlobalNamespace/PacketEncryptionLayer_PendingEncryptionStateList.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
@@ -43,13 +44,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState>,EncryptionUtility/IEncryptionState> <>9__4_1
     static void _set_$$9__4_1(System::Func_2<System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>, GlobalNamespace::EncryptionUtility::IEncryptionState*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x153C2B4
+    // Offset: 0x2148918
     static void _cctor();
     // EncryptionUtility/IEncryptionState <GetSortedEncryptionStates>b__4_1(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x153C320
+    // Offset: 0x2148984
     GlobalNamespace::EncryptionUtility::IEncryptionState* $GetSortedEncryptionStates$b__4_1(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x153C318
+    // Offset: 0x214897C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

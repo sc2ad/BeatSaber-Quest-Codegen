@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VFXAnimationEvents
 #include "GlobalNamespace/VFXAnimationEvents.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,13 +50,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem[] _particleSystems
     void _set__particleSystems(::Array<UnityEngine::ParticleSystem*>* value);
     // public System.String get_name()
-    // Offset: 0x235CEAC
+    // Offset: 0x1DE52EC
     ::Il2CppString* get_name();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x235CEB4
+    // Offset: 0x1DE52F4
     ::Array<UnityEngine::ParticleSystem*>* get_particleSystems();
     // public System.Void .ctor()
-    // Offset: 0x235CEBC
+    // Offset: 0x1DE52FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

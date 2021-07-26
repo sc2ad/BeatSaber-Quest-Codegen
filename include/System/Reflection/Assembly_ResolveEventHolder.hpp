@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.Assembly
 #include "System/Reflection/Assembly.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: ResolveEventHolder
     ResolveEventHolder() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1CA4854
+    // Offset: 0x18415F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

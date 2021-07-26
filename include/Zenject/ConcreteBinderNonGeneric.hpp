@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FromBinderNonGeneric
 #include "Zenject/FromBinderNonGeneric.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,7 +54,7 @@ namespace Zenject {
     // Creating value type constructor for type: ConcreteBinderNonGeneric
     ConcreteBinderNonGeneric() noexcept {}
     // public Zenject.FromBinderNonGeneric ToSelf()
-    // Offset: 0x137CCF0
+    // Offset: 0x1123950
     Zenject::FromBinderNonGeneric* ToSelf();
     // public Zenject.FromBinderNonGeneric To()
     // Offset: 0xFFFFFFFF
@@ -65,7 +66,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___generic__method);
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
-    // Offset: 0x137CE08
+    // Offset: 0x1123A68
     Zenject::FromBinderNonGeneric* To(::Array<System::Type*>* concreteTypes);
     // Creating initializer_list -> params proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     Zenject::FromBinderNonGeneric* To(std::initializer_list<System::Type*> concreteTypes);
@@ -75,16 +76,16 @@ namespace Zenject {
       return To({concreteTypes...});
     }
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
-    // Offset: 0x137CE0C
+    // Offset: 0x1123A6C
     Zenject::FromBinderNonGeneric* To(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes);
     // public Zenject.FromBinderNonGeneric To(System.Action`1<Zenject.ConventionSelectTypesBinder> generator)
-    // Offset: 0x137CEFC
+    // Offset: 0x1123B5C
     Zenject::FromBinderNonGeneric* To(System::Action_1<Zenject::ConventionSelectTypesBinder*>* generator);
     // private Zenject.IProvider <ToSelf>b__1_0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x137D230
+    // Offset: 0x1123E90
     Zenject::IProvider* $ToSelf$b__1_0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
-    // Offset: 0x137CCC8
+    // Offset: 0x1123928
     // Implemented from: Zenject.FromBinderNonGeneric
     // Base method: System.Void FromBinderNonGeneric::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)

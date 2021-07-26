@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Installer`2
 #include "Zenject/Installer_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,14 +41,14 @@ namespace Zenject {
     // Set instance field: private readonly System.String _name
     void _set__name(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x138110C
+    // Offset: 0x1127D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultGameObjectParentInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller*, creationType>(name)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1381170
+    // Offset: 0x1127DD0
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

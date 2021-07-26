@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Protocol.Ntlm.MessageBase
 #include "Mono/Security/Protocol/Ntlm/MessageBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,13 +43,13 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set instance field: private System.String _domain
     void _set__domain(::Il2CppString* value);
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x1DE205C
+    // Offset: 0x1954C3C
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Host(System.String value)
-    // Offset: 0x1DE20E4
+    // Offset: 0x1954CC4
     void set_Host(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1DE1FC8
+    // Offset: 0x1954BA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,12 +58,12 @@ namespace Mono::Security::Protocol::Ntlm {
       return THROW_UNLESS((::il2cpp_utils::New<Type1Message*, creationType>()));
     }
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1DE216C
+    // Offset: 0x1954D4C
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1DE2260
+    // Offset: 0x1954E40
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.ECCurve
 #include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,17 +77,17 @@ namespace Org::BouncyCastle::Math::EC {
     // Set instance field: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier
     void _set_multiplier(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve outer, System.Int32 coord, Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier)
-    // Offset: 0x20E6560
+    // Offset: 0x1BB63D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve::Config* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* outer, int coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECCurve::Config::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECCurve::Config*, creationType>(outer, coord, endomorphism, multiplier)));
     }
     // public Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config SetEndomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism)
-    // Offset: 0x20E7C44
+    // Offset: 0x1BB7AB8
     Org::BouncyCastle::Math::EC::ECCurve::Config* SetEndomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
     // public Org.BouncyCastle.Math.EC.ECCurve Create()
-    // Offset: 0x20E7C4C
+    // Offset: 0x1BB7AC0
     Org::BouncyCastle::Math::EC::ECCurve* Create();
   }; // Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config
   #pragma pack(pop)

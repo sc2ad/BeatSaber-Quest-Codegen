@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ScrollView
 #include "HMUI/ScrollView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,10 +40,10 @@ namespace HMUI {
     // Set instance field: private TMPro.TextMeshProUGUI _text
     void _set__text(TMPro::TextMeshProUGUI* value);
     // public System.Void SetText(System.String text)
-    // Offset: 0x12A1634
+    // Offset: 0x1076D70
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x12A1698
+    // Offset: 0x1076DD4
     // Implemented from: HMUI.ScrollView
     // Base method: System.Void ScrollView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

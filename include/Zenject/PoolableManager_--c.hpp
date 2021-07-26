@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolableManager
 #include "Zenject/PoolableManager.hpp"
 // Including type: Zenject.PoolableManager/Zenject.PoolableInfo
@@ -64,19 +65,19 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__3_1
     static void _set_$$9__3_1(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Nullable_1<int>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16C66A4
+    // Offset: 0x13C8D60
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(Zenject.PoolableManager/Zenject.PoolableInfo x)
-    // Offset: 0x16C6710
+    // Offset: 0x13C8DCC
     int $_ctor$b__2_1(Zenject::PoolableManager::PoolableInfo x);
     // Zenject.IPoolable <.ctor>b__2_2(Zenject.PoolableManager/Zenject.PoolableInfo x)
-    // Offset: 0x16C6718
+    // Offset: 0x13C8DD4
     Zenject::IPoolable* $_ctor$b__2_2(Zenject::PoolableManager::PoolableInfo x);
     // System.Nullable`1<System.Int32> <CreatePoolableInfo>b__3_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x16C6720
+    // Offset: 0x13C8DDC
     System::Nullable_1<int> $CreatePoolableInfo$b__3_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x16C6708
+    // Offset: 0x13C8DC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

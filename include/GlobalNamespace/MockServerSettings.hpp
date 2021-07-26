@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MockPlayerSettings
 #include "GlobalNamespace/MockPlayerSettings.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MockServerSettings
     MockServerSettings() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x113F918
+    // Offset: 0x1F7032C
     // Implemented from: MockPlayerSettings
     // Base method: System.Void MockPlayerSettings::.ctor()
     // Base method: System.Void Object::.ctor()

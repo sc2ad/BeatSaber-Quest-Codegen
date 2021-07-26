@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PS4LevelProductsModelSO
 #include "GlobalNamespace/PS4LevelProductsModelSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -74,22 +75,22 @@ namespace GlobalNamespace {
     // Set instance field: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
     void _set__levelProductsData(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* value);
     // public System.String get_productLabel()
-    // Offset: 0xFFD978
+    // Offset: 0x1E50F2C
     ::Il2CppString* get_productLabel();
     // public System.String get_categoryLabel()
-    // Offset: 0xFFD980
+    // Offset: 0x1E50F34
     ::Il2CppString* get_categoryLabel();
     // public System.String get_levelPackId()
-    // Offset: 0xFFD988
+    // Offset: 0x1E50F3C
     ::Il2CppString* get_levelPackId();
     // public System.Single get_packLevelPriceDiscountMul()
-    // Offset: 0xFFD990
+    // Offset: 0x1E50F44
     float get_packLevelPriceDiscountMul();
     // public PS4LevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0xFFD998
+    // Offset: 0x1E50F4C
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0xFFD9A0
+    // Offset: 0x1E50F54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

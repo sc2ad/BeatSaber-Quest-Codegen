@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,7 +74,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: animateParentCanvas and: container
     char __padding2[0x7] = {};
-    // [InjectAttribute] Offset: 0xDE3E60
+    // [InjectAttribute] Offset: 0xE91A7C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
@@ -183,40 +184,40 @@ namespace HMUI {
     // Set instance field: private System.Int32 _test
     void _set__test(int value);
     // public System.Void add_blockerClickedEvent(System.Action value)
-    // Offset: 0x1292CBC
+    // Offset: 0x10683F8
     void add_blockerClickedEvent(System::Action* value);
     // public System.Void remove_blockerClickedEvent(System.Action value)
-    // Offset: 0x1292D60
+    // Offset: 0x106849C
     void remove_blockerClickedEvent(System::Action* value);
     // private System.Void OnDisable()
-    // Offset: 0x1292E04
+    // Offset: 0x1068540
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0x1292FE4
+    // Offset: 0x1068720
     void OnDestroy();
     // private System.Void SetupView(UnityEngine.Transform screenTransform)
-    // Offset: 0x1293094
+    // Offset: 0x10687D0
     void SetupView(UnityEngine::Transform* screenTransform);
     // public System.Void Hide(System.Boolean animated, System.Action finishedCallback)
-    // Offset: 0x1292E10
+    // Offset: 0x106854C
     void Hide(bool animated, System::Action* finishedCallback);
     // public System.Void Show(System.Boolean animated, System.Boolean moveToCenter, System.Action finishedCallback)
-    // Offset: 0x1293478
+    // Offset: 0x1068BB4
     void Show(bool animated, bool moveToCenter, System::Action* finishedCallback);
     // private UnityEngine.GameObject CreateBlocker()
-    // Offset: 0x1293930
+    // Offset: 0x106906C
     UnityEngine::GameObject* CreateBlocker();
     // private System.Void HandleBlockerButtonClicked()
-    // Offset: 0x1293D18
+    // Offset: 0x1069454
     void HandleBlockerButtonClicked();
     // private System.Void HandleParentViewControllerDidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1293D2C
+    // Offset: 0x1069468
     void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // static private UnityEngine.Transform GetModalRootTransform(UnityEngine.Transform transform, out UnityEngine.Canvas canvas, out HMUI.ViewController viewController)
-    // Offset: 0x12937A0
-    static UnityEngine::Transform* GetModalRootTransform(UnityEngine::Transform* transform, UnityEngine::Canvas*& canvas, HMUI::ViewController*& viewController);
+    // Offset: 0x1068EDC
+    static UnityEngine::Transform* GetModalRootTransform(UnityEngine::Transform* transform, ByRef<UnityEngine::Canvas*> canvas, ByRef<HMUI::ViewController*> viewController);
     // public System.Void .ctor()
-    // Offset: 0x1293DF4
+    // Offset: 0x1069530
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -328,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ModalView::GetModalRootTransform
 // Il2CppName: GetModalRootTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, UnityEngine::Canvas*&, HMUI::ViewController*&)>(&HMUI::ModalView::GetModalRootTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ByRef<UnityEngine::Canvas*>, ByRef<HMUI::ViewController*>)>(&HMUI::ModalView::GetModalRootTransform)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->this_arg;

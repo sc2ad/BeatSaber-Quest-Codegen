@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.AnimatedSwitchView
 #include "HMUI/AnimatedSwitchView.hpp"
 // Including type: UnityEngine.Color
@@ -39,7 +40,7 @@ namespace HMUI {
     UnityEngine::Color knobColor1;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xDE49C8
+    // [SpaceAttribute] Offset: 0xE925E4
     // public UnityEngine.Color backgroundColor
     // Size: 0x10
     // Offset: 0x40
@@ -85,7 +86,7 @@ namespace HMUI {
     // Set instance field: public UnityEngine.Color backgroundColor1
     void _set_backgroundColor1(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x13034F4
+    // Offset: 0x10C5464
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

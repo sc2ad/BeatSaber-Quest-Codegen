@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.FlowCoordinator
 #include "HMUI/FlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -25,35 +26,35 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestFlowCoordinator : public HMUI::FlowCoordinator {
     public:
-    // [NullAllowed] Offset: 0xE0D3E4
+    // [NullAllowed] Offset: 0xEBA000
     // private HMUI.ViewController _viewController
     // Size: 0x8
     // Offset: 0xA8
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xE0D41C
+    // [NullAllowed] Offset: 0xEBA038
     // private HMUI.ViewController _leftViewController
     // Size: 0x8
     // Offset: 0xB0
     HMUI::ViewController* leftViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xE0D454
+    // [NullAllowed] Offset: 0xEBA070
     // private HMUI.ViewController _rightViewController
     // Size: 0x8
     // Offset: 0xB8
     HMUI::ViewController* rightViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xE0D48C
+    // [NullAllowed] Offset: 0xEBA0A8
     // private HMUI.ViewController _bottomScreenViewController
     // Size: 0x8
     // Offset: 0xC0
     HMUI::ViewController* bottomScreenViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0xE0D4C4
+    // [NullAllowed] Offset: 0xEBA0E0
     // private HMUI.ViewController _topScreenViewController
     // Size: 0x8
     // Offset: 0xC8
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
     // Set instance field: private HMUI.ViewController _topScreenViewController
     void _set__topScreenViewController(HMUI::ViewController* value);
     // public System.Void .ctor()
-    // Offset: 0x106C0B4
+    // Offset: 0x1ED7B88
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -97,7 +98,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x106C098
+    // Offset: 0x1ED7B6C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

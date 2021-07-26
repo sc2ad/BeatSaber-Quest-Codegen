@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BitMaskSparse
 #include "GlobalNamespace/BitMaskSparse.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.UInt32,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<uint, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2325610
+    // Offset: 0x23D89F4
     static void _cctor();
     // System.String <ToString>b__8_0(System.UInt32 i)
-    // Offset: 0x232567C
+    // Offset: 0x23D8A60
     ::Il2CppString* $ToString$b__8_0(uint i);
     // public System.Void .ctor()
-    // Offset: 0x2325674
+    // Offset: 0x23D8A58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

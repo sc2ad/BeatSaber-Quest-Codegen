@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusInit
 #include "GlobalNamespace/OculusInit.hpp"
 // Including type: Oculus.Platform.Message
@@ -33,13 +34,13 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message/Oculus.Platform.Callback <>9__3_0
     static void _set_$$9__3_0(Oculus::Platform::Message::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0x11F1800
+    // Offset: 0x2020158
     static void _cctor();
     // System.Void <InitCallback>b__3_0(Oculus.Platform.Message message)
-    // Offset: 0x11F186C
+    // Offset: 0x20201C4
     void $InitCallback$b__3_0(Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0x11F1864
+    // Offset: 0x20201BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

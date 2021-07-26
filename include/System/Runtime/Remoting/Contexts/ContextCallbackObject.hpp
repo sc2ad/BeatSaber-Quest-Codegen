@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ContextBoundObject
 #include "System/ContextBoundObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,10 +30,10 @@ namespace System::Runtime::Remoting::Contexts {
     // Creating value type constructor for type: ContextCallbackObject
     ContextCallbackObject() noexcept {}
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
-    // Offset: 0x19EEC20
+    // Offset: 0x16A5D14
     void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
     // public System.Void .ctor()
-    // Offset: 0x19EEC24
+    // Offset: 0x16A5D18
     // Implemented from: System.ContextBoundObject
     // Base method: System.Void ContextBoundObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()

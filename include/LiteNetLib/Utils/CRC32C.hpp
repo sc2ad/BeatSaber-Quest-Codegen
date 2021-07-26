@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.UInt32
@@ -36,10 +37,10 @@ namespace LiteNetLib::Utils {
     // Set static field: static private readonly System.UInt32[] Table
     static void _set_Table(::Array<uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BBDAA4
+    // Offset: 0x17B0E3C
     static void _cctor();
     // static public System.UInt32 Compute(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1BAFCD8
+    // Offset: 0x17A3070
     static uint Compute(::Array<uint8_t>* input, int offset, int length);
   }; // LiteNetLib.Utils.CRC32C
   #pragma pack(pop)

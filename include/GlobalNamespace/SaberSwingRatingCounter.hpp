@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ISaberMovementDataProcessor
 #include "GlobalNamespace/ISaberMovementDataProcessor.hpp"
 // Including type: ISaberSwingRatingCounter
@@ -251,37 +252,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _finished
     void _set__finished(bool value);
     // public System.Single get_beforeCutRating()
-    // Offset: 0x114C9AC
+    // Offset: 0x1F7D3C0
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0x114C9B4
+    // Offset: 0x1F7D3C8
     float get_afterCutRating();
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x114C9BC
+    // Offset: 0x1F7D3D0
     void RegisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x114CA24
+    // Offset: 0x1F7D438
     void RegisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x114CA8C
+    // Offset: 0x1F7D4A0
     void UnregisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x114CAF4
+    // Offset: 0x1F7D508
     void UnregisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform)
-    // Offset: 0x114CB5C
+    // Offset: 0x1F7D570
     void Init(GlobalNamespace::SaberMovementData* saberMovementData, UnityEngine::Transform* noteTransform);
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0x114CC84
+    // Offset: 0x1F7D698
     void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
     // private System.Void Finish()
-    // Offset: 0x114D180
+    // Offset: 0x1F7DB94
     void Finish();
     // public System.Void DrawGizmos()
-    // Offset: 0x114D2C8
+    // Offset: 0x1F7DCDC
     void DrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x114D5AC
+    // Offset: 0x1F7DFC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

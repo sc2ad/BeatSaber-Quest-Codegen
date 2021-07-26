@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Priority_Queue.IPriorityQueue`2
 #include "Priority_Queue/IPriorityQueue_2.hpp"
 // Including type: System.Int32
@@ -327,17 +328,17 @@ namespace Priority_Queue {
     }
     // public System.Boolean TryFirst(out TItem first)
     // Offset: 0xFFFFFFFF
-    bool TryFirst(TItem& first) {
+    bool TryFirst(ByRef<TItem> first) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::SimplePriorityQueue_2::TryFirst");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryFirst", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TItem&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, first);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(first));
     }
     // public System.Boolean TryDequeue(out TItem first)
     // Offset: 0xFFFFFFFF
-    bool TryDequeue(TItem& first) {
+    bool TryDequeue(ByRef<TItem> first) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::SimplePriorityQueue_2::TryDequeue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryDequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TItem&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, first);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(first));
     }
     // public System.Boolean TryRemove(TItem item)
     // Offset: 0xFFFFFFFF
@@ -355,10 +356,10 @@ namespace Priority_Queue {
     }
     // public System.Boolean TryGetPriority(TItem item, out TPriority priority)
     // Offset: 0xFFFFFFFF
-    bool TryGetPriority(TItem item, TPriority& priority) {
+    bool TryGetPriority(TItem item, ByRef<TPriority> priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::SimplePriorityQueue_2::TryGetPriority");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetPriority", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractIndependentType<TPriority&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item, priority);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item, byref(priority));
     }
     // public System.Collections.Generic.IEnumerator`1<TItem> GetEnumerator()
     // Offset: 0xFFFFFFFF

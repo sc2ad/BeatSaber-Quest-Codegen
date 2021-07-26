@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Modes.IAeadCipher
 #include "Org/BouncyCastle/Crypto/Modes/IAeadCipher.hpp"
 // Completed includes

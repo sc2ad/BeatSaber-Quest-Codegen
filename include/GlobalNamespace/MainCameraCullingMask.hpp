@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
     UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(UnityEngine::Camera*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xDEB594
+    // [InjectOptionalAttribute] Offset: 0xE991B0
     // private MainCameraCullingMask/InitData _initData
     // Size: 0x8
     // Offset: 0x20
@@ -57,10 +58,10 @@ namespace GlobalNamespace {
     // Set instance field: private MainCameraCullingMask/InitData _initData
     void _set__initData(GlobalNamespace::MainCameraCullingMask::InitData* value);
     // protected System.Void Start()
-    // Offset: 0x233ECC8
+    // Offset: 0x1DC5108
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x233EDB0
+    // Offset: 0x1DC51F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

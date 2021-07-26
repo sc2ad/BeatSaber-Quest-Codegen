@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Tls.TlsException
 #include "Org/BouncyCastle/Crypto/Tls/TlsException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,14 +41,14 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Set instance field: private readonly System.Byte alertDescription
     void _set_alertDescription(uint8_t value);
     // public System.Void .ctor(System.Byte alertDescription)
-    // Offset: 0x123A304
+    // Offset: 0x10445DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsFatalAlert*, creationType>(alertDescription)));
     }
     // public System.Void .ctor(System.Byte alertDescription, System.Exception alertCause)
-    // Offset: 0x123A4A4
+    // Offset: 0x104477C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription, System::Exception* alertCause) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");

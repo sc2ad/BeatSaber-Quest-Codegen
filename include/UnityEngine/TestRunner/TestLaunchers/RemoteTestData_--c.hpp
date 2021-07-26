@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestRunner.TestLaunchers.RemoteTestData
 #include "UnityEngine/TestRunner/TestLaunchers/RemoteTestData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITest,System.String> <>9__18_0
     static void _set_$$9__18_0(System::Func_2<NUnit::Framework::Interfaces::ITest*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1485C34
+    // Offset: 0x11F6C94
     static void _cctor();
     // System.String <.ctor>b__18_0(NUnit.Framework.Interfaces.ITest t)
-    // Offset: 0x1485CA0
+    // Offset: 0x11F6D00
     ::Il2CppString* $_ctor$b__18_0(NUnit::Framework::Interfaces::ITest* t);
     // public System.Void .ctor()
-    // Offset: 0x1485C98
+    // Offset: 0x11F6CF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

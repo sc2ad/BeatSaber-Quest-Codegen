@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableRequest
 #include "GlobalNamespace/BaseMasterServerReliableRequest.hpp"
 // Including type: MasterServer.IUserServerToClientMessage
@@ -124,13 +125,13 @@ namespace MasterServer {
     // Set instance field: public System.Boolean isDedicatedServer
     void _set_isDedicatedServer(bool value);
     // static public PacketPool`1<MasterServer.PrepareForConnectionRequest> get_pool()
-    // Offset: 0x12D5400
+    // Offset: 0x208F910
     static GlobalNamespace::PacketPool_1<MasterServer::PrepareForConnectionRequest*>* get_pool();
     // public MasterServer.PrepareForConnectionRequest Init(System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer)
-    // Offset: 0x12DB268
+    // Offset: 0x2095778
     MasterServer::PrepareForConnectionRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, bool isConnectionOwner, bool isDedicatedServer);
     // public System.Void .ctor()
-    // Offset: 0x12DB4AC
+    // Offset: 0x20959BC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -140,17 +141,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<PrepareForConnectionRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12DB2E0
+    // Offset: 0x20957F0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12DB388
+    // Offset: 0x2095898
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12DB430
+    // Offset: 0x2095940
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

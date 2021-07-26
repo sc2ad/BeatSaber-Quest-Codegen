@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE97B4
+    // [DescriptionAttribute] Offset: 0xE973D0
     // static field const value: static public Oculus.Platform.PeerConnectionState Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PeerConnectionState Unknown
     static Oculus::Platform::PeerConnectionState _get_Unknown();
     // Set static field: static public Oculus.Platform.PeerConnectionState Unknown
     static void _set_Unknown(Oculus::Platform::PeerConnectionState value);
-    // [DescriptionAttribute] Offset: 0xDE97EC
+    // [DescriptionAttribute] Offset: 0xE97408
     // static field const value: static public Oculus.Platform.PeerConnectionState Connected
     static constexpr const int Connected = 1;
     // Get static field: static public Oculus.Platform.PeerConnectionState Connected
     static Oculus::Platform::PeerConnectionState _get_Connected();
     // Set static field: static public Oculus.Platform.PeerConnectionState Connected
     static void _set_Connected(Oculus::Platform::PeerConnectionState value);
-    // [DescriptionAttribute] Offset: 0xDE9824
+    // [DescriptionAttribute] Offset: 0xE97440
     // static field const value: static public Oculus.Platform.PeerConnectionState Timeout
     static constexpr const int Timeout = 2;
     // Get static field: static public Oculus.Platform.PeerConnectionState Timeout
     static Oculus::Platform::PeerConnectionState _get_Timeout();
     // Set static field: static public Oculus.Platform.PeerConnectionState Timeout
     static void _set_Timeout(Oculus::Platform::PeerConnectionState value);
-    // [DescriptionAttribute] Offset: 0xDE985C
+    // [DescriptionAttribute] Offset: 0xE97478
     // static field const value: static public Oculus.Platform.PeerConnectionState Closed
     static constexpr const int Closed = 3;
     // Get static field: static public Oculus.Platform.PeerConnectionState Closed

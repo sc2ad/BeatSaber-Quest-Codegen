@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDEAB6C
+    // [DescriptionAttribute] Offset: 0xE98788
     // static field const value: static public Oculus.Platform.VoipMuteState Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipMuteState Unknown
     static Oculus::Platform::VoipMuteState _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipMuteState Unknown
     static void _set_Unknown(Oculus::Platform::VoipMuteState value);
-    // [DescriptionAttribute] Offset: 0xDEABA4
+    // [DescriptionAttribute] Offset: 0xE987C0
     // static field const value: static public Oculus.Platform.VoipMuteState Muted
     static constexpr const int Muted = 1;
     // Get static field: static public Oculus.Platform.VoipMuteState Muted
     static Oculus::Platform::VoipMuteState _get_Muted();
     // Set static field: static public Oculus.Platform.VoipMuteState Muted
     static void _set_Muted(Oculus::Platform::VoipMuteState value);
-    // [DescriptionAttribute] Offset: 0xDEABDC
+    // [DescriptionAttribute] Offset: 0xE987F8
     // static field const value: static public Oculus.Platform.VoipMuteState Unmuted
     static constexpr const int Unmuted = 2;
     // Get static field: static public Oculus.Platform.VoipMuteState Unmuted

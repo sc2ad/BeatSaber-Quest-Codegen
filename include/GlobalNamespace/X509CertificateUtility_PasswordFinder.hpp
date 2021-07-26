@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: X509CertificateUtility
 #include "GlobalNamespace/X509CertificateUtility.hpp"
 // Including type: Org.BouncyCastle.OpenSsl.IPasswordFinder
@@ -42,21 +43,21 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Char[] _password
     void _set__password(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.Byte[] password)
-    // Offset: 0x23155A4
+    // Offset: 0x23D6758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Array<uint8_t>* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Void .ctor(System.String password)
-    // Offset: 0x23140B8
+    // Offset: 0x23D526C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Char[] GetPassword()
-    // Offset: 0x231566C
+    // Offset: 0x23D6820
     ::Array<::Il2CppChar>* GetPassword();
   }; // X509CertificateUtility/PasswordFinder
   #pragma pack(pop)

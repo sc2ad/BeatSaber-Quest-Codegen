@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -94,37 +95,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _minDeltaTime
     void _set__minDeltaTime(float value);
     // public System.Int32 get_currentFPS()
-    // Offset: 0x1024714
+    // Offset: 0x1E8F1E8
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x102471C
+    // Offset: 0x1E8F1F0
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x1024724
+    // Offset: 0x1E8F1F8
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x102472C
+    // Offset: 0x1E8F200
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x1024734
+    // Offset: 0x1E8F208
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x102473C
+    // Offset: 0x1E8F210
     void set_highestFPS(int value);
     // public System.Int32 get_droppedFrames()
-    // Offset: 0x1024744
+    // Offset: 0x1E8F218
     int get_droppedFrames();
     // private System.Void set_droppedFrames(System.Int32 value)
-    // Offset: 0x102474C
+    // Offset: 0x1E8F220
     void set_droppedFrames(int value);
     // protected System.Void Awake()
-    // Offset: 0x1024754
+    // Offset: 0x1E8F228
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1024764
+    // Offset: 0x1E8F238
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10248C4
+    // Offset: 0x1E8F398
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

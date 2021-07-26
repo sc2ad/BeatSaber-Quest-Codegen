@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolver
 #include "RootMotion/FinalIK/IKSolver.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,7 +40,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverFullBody : public RootMotion::FinalIK::IKSolver {
     public:
-    // [RangeAttribute] Offset: 0xDF40A0
+    // [RangeAttribute] Offset: 0xEA0CBC
     // public System.Int32 iterations
     // Size: 0x4
     // Offset: 0x58
@@ -197,34 +198,34 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnFixTransforms
     void _set_OnFixTransforms(RootMotion::FinalIK::IKSolver::UpdateDelegate* value);
     // public RootMotion.FinalIK.IKEffector GetEffector(UnityEngine.Transform t)
-    // Offset: 0x1C623D0
+    // Offset: 0x181544C
     RootMotion::FinalIK::IKEffector* GetEffector(UnityEngine::Transform* t);
     // public RootMotion.FinalIK.FBIKChain GetChain(UnityEngine.Transform transform)
-    // Offset: 0x1C624C4
+    // Offset: 0x1815540
     RootMotion::FinalIK::FBIKChain* GetChain(UnityEngine::Transform* transform);
     // public System.Int32 GetChainIndex(UnityEngine.Transform transform)
-    // Offset: 0x1C62520
+    // Offset: 0x181559C
     int GetChainIndex(UnityEngine::Transform* transform);
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node GetNode(System.Int32 chainIndex, System.Int32 nodeIndex)
-    // Offset: 0x1C62654
+    // Offset: 0x18156D0
     RootMotion::FinalIK::IKSolver::Node* GetNode(int chainIndex, int nodeIndex);
     // public System.Void GetChainAndNodeIndexes(UnityEngine.Transform transform, out System.Int32 chainIndex, out System.Int32 nodeIndex)
-    // Offset: 0x1C626B0
-    void GetChainAndNodeIndexes(UnityEngine::Transform* transform, int& chainIndex, int& nodeIndex);
+    // Offset: 0x181572C
+    void GetChainAndNodeIndexes(UnityEngine::Transform* transform, ByRef<int> chainIndex, ByRef<int> nodeIndex);
     // protected System.Void ReadPose()
-    // Offset: 0x1C6313C
+    // Offset: 0x18161B8
     void ReadPose();
     // protected System.Void Solve()
-    // Offset: 0x1C63388
+    // Offset: 0x1816404
     void Solve();
     // protected System.Void ApplyBendConstraints()
-    // Offset: 0x1C63660
+    // Offset: 0x18166DC
     void ApplyBendConstraints();
     // protected System.Void WritePose()
-    // Offset: 0x1C636A4
+    // Offset: 0x1816720
     void WritePose();
     // public System.Void .ctor()
-    // Offset: 0x1C63794
+    // Offset: 0x1816810
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -234,37 +235,37 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFullBody*, creationType>()));
     }
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x1C62730
+    // Offset: 0x18157AC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
     ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1C628D8
+    // Offset: 0x1815954
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1C62A4C
+    // Offset: 0x1815AC8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
-    bool IsValid(::Il2CppString*& message);
+    bool IsValid(ByRef<::Il2CppString*> message);
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1C62C50
+    // Offset: 0x1815CCC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1C62D24
+    // Offset: 0x1815DA0
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // protected override System.Void OnInitiate()
-    // Offset: 0x1C62E0C
+    // Offset: 0x1815E88
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1C62F80
+    // Offset: 0x1815FFC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();
@@ -315,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBody::GetChainAndNodeIndexes
 // Il2CppName: GetChainAndNodeIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBody::*)(UnityEngine::Transform*, int&, int&)>(&RootMotion::FinalIK::IKSolverFullBody::GetChainAndNodeIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFullBody::*)(UnityEngine::Transform*, ByRef<int>, ByRef<int>)>(&RootMotion::FinalIK::IKSolverFullBody::GetChainAndNodeIndexes)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* chainIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -379,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBody::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverFullBody::*)(::Il2CppString*&)>(&RootMotion::FinalIK::IKSolverFullBody::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverFullBody::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::IKSolverFullBody::IsValid)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBody*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

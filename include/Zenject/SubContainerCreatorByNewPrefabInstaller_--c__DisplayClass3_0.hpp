@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.SubContainerCreatorByNewPrefabInstaller
 #include "Zenject/SubContainerCreatorByNewPrefabInstaller.hpp"
 // Including type: Zenject.TypeValuePair
@@ -58,10 +59,10 @@ namespace Zenject {
     // Set instance field: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
     void _set_args(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
     // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
-    // Offset: 0x16D2E24
+    // Offset: 0x13D54E0
     void $AddInstallers$b__0(Zenject::DiContainer* subContainer);
     // public System.Void .ctor()
-    // Offset: 0x16D2E1C
+    // Offset: 0x13D54D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

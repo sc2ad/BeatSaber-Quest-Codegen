@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.InternalUtility
 #include "UnityEngine/ProBuilder/InternalUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public System.String valid
     void _set_valid(::Il2CppString* value);
     // System.Boolean <TryParseColor>b__0(System.Char c)
-    // Offset: 0x1AEA098
+    // Offset: 0x174BA20
     bool $TryParseColor$b__0(::Il2CppChar c);
     // public System.Void .ctor()
-    // Offset: 0x1AE9DB0
+    // Offset: 0x174B738
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

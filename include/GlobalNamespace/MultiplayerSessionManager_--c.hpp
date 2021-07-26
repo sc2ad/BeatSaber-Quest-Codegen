@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerSessionManager
 #include "GlobalNamespace/MultiplayerSessionManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__103_0
     static void _set_$$9__103_0(System::Func_2<GlobalNamespace::IConnectedPlayer*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1538620
+    // Offset: 0x2144C84
     static void _cctor();
     // System.Int32 <TryUpdateConnectedPlayer>b__103_0(IConnectedPlayer p)
-    // Offset: 0x153868C
+    // Offset: 0x2144CF0
     int $TryUpdateConnectedPlayer$b__103_0(GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x1538684
+    // Offset: 0x2144CE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

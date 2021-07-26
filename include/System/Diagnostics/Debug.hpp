@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
@@ -16,7 +17,7 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: Debug
     Debug() noexcept {}
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0x184A5EC
+    // Offset: 0x151B9F0
     static void Assert_(bool condition);
   }; // System.Diagnostics.Debug
   #pragma pack(pop)

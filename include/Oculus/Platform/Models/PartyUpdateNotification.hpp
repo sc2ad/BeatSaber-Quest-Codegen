@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.PartyUpdateAction
 #include "Oculus/Platform/PartyUpdateAction.hpp"
 // Including type: System.IntPtr
@@ -96,7 +97,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String UserName
     void _set_UserName(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A6544
+    // Offset: 0x21023B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyUpdateNotification* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PartyUpdateNotification::.ctor");

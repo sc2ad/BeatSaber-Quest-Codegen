@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: System.Int32
@@ -50,14 +51,14 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::Material*>* materials;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Material*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFD5C4
+    // [InjectAttribute] Offset: 0xEAA1E0
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainCamera*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFD5D4
+    // [InjectAttribute] Offset: 0xEAA1F0
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x28
@@ -103,10 +104,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform _parentingTransform
     void _set__parentingTransform(UnityEngine::Transform* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1022398
+    // Offset: 0x1E8CE6C
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x1022434
+    // Offset: 0x1E8CF08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

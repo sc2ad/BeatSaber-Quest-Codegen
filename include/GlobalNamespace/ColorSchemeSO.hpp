@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private ColorScheme _colorScheme
     void _set__colorScheme(GlobalNamespace::ColorScheme* value);
     // public ColorScheme get_colorScheme()
-    // Offset: 0x23C8230
+    // Offset: 0x1E3F828
     GlobalNamespace::ColorScheme* get_colorScheme();
     // public System.Void .ctor()
-    // Offset: 0x23C8238
+    // Offset: 0x1E3F830
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

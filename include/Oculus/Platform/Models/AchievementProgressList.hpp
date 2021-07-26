@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Models.DeserializableList`1
 #include "Oculus/Platform/Models/DeserializableList_1.hpp"
 // Including type: System.IntPtr
@@ -30,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AchievementProgressList
     AchievementProgressList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x149F370
+    // Offset: 0x20FB1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementProgressList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementProgressList::.ctor");

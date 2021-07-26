@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Plane
@@ -60,14 +61,14 @@ namespace GlobalNamespace {
     UnityEngine::BoxCollider* boxCollider;
     // Field size check
     static_assert(sizeof(UnityEngine::BoxCollider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE04E14
+    // [InjectAttribute] Offset: 0xEB1A30
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE04E24
+    // [InjectAttribute] Offset: 0xEB1A40
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
@@ -169,25 +170,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
     void _set__sparklesEmitParams(UnityEngine::ParticleSystem::EmitParams value);
     // protected System.Void Start()
-    // Offset: 0x1149D34
+    // Offset: 0x1F7A748
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x114A1BC
+    // Offset: 0x1F7ABD0
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x114A2C8
+    // Offset: 0x1F7ACDC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x114A3B8
+    // Offset: 0x1F7ADCC
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x114A4A8
-    bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
+    // Offset: 0x1F7AEBC
+    bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, ByRef<UnityEngine::Vector3> burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0x114A740
+    // Offset: 0x1F7B154
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x114ABD0
+    // Offset: 0x1F7B5E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -241,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkSparkles::GetBurnMarkPos
 // Il2CppName: GetBurnMarkPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberBurnMarkSparkles::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&GlobalNamespace::SaberBurnMarkSparkles::GetBurnMarkPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberBurnMarkSparkles::*)(UnityEngine::Vector3, UnityEngine::Vector3, ByRef<UnityEngine::Vector3>)>(&GlobalNamespace::SaberBurnMarkSparkles::GetBurnMarkPos)> {
   static const MethodInfo* get() {
     static auto* bladeBottomPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* bladeTopPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

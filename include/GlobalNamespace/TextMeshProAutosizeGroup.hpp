@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TMP_Text[] _texts
     void _set__texts(::Array<TMPro::TMP_Text*>* value);
     // protected System.Void Start()
-    // Offset: 0x2358EC8
+    // Offset: 0x1DE1308
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x235902C
+    // Offset: 0x1DE146C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

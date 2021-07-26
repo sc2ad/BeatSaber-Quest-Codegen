@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -47,23 +48,23 @@ namespace System::Runtime::ExceptionServices {
     // Set instance field: private System.Object m_stackTrace
     void _set_m_stackTrace(::Il2CppObject* value);
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x13F0EFC
+    // Offset: 0x1199B5C
     ::Il2CppObject* get_BinaryStackTraceArray();
     // public System.Exception get_SourceException()
-    // Offset: 0x13F0F04
+    // Offset: 0x1199B64
     System::Exception* get_SourceException();
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x13F0DD0
+    // Offset: 0x1199A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x13EEF94
+    // Offset: 0x1197BF4
     static System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(System::Exception* source);
     // public System.Void Throw()
-    // Offset: 0x13EF208
+    // Offset: 0x1197E68
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
   #pragma pack(pop)

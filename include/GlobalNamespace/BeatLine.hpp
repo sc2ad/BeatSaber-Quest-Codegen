@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIdMonoBehaviour
 #include "GlobalNamespace/LightWithIdMonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -176,22 +177,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _rotation
     void _set__rotation(float value);
     // public System.Boolean get_isFinished()
-    // Offset: 0x11879E8
+    // Offset: 0x1FCD520
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x1187A40
+    // Offset: 0x1FCD578
     float get_rotation();
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x1187A48
+    // Offset: 0x1FCD580
     void Init(UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x1187B60
+    // Offset: 0x1FCD698
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x1187BE4
+    // Offset: 0x1FCD71C
     void ManualUpdate(float songTime);
     // public System.Void .ctor()
-    // Offset: 0x1187D58
+    // Offset: 0x1FCD890
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -205,7 +206,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatLine*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1187B54
+    // Offset: 0x1FCD68C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

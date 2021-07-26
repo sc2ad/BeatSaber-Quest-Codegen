@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,49 +43,49 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActiveClient : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE07780
+    // [InjectAttribute] Offset: 0xEB439C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07790
+    // [InjectAttribute] Offset: 0xEB43AC
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE077A0
+    // [InjectAttribute] Offset: 0xEB43BC
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE077B0
+    // [InjectAttribute] Offset: 0xEB43CC
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE077C0
+    // [InjectAttribute] Offset: 0xEB43DC
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE077D0
+    // [InjectAttribute] Offset: 0xEB43EC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE077E0
+    // [InjectAttribute] Offset: 0xEB43FC
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -124,37 +125,37 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IScoreController _scoreController
     void _set__scoreController(GlobalNamespace::IScoreController* value);
     // public BeatmapObjectManager get_beatmapObjectManager()
-    // Offset: 0x23D1CF4
+    // Offset: 0x1E747B8
     GlobalNamespace::BeatmapObjectManager* get_beatmapObjectManager();
     // protected System.Void Start()
-    // Offset: 0x23D1CFC
+    // Offset: 0x1E747C0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x23D2388
+    // Offset: 0x1E74E4C
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x23D2704
+    // Offset: 0x1E751C8
     void LateUpdate();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x23D2A8C
+    // Offset: 0x1E75550
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x23D2BA4
-    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
+    // Offset: 0x1E75668
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void ScoreControllerHandleComboDidChange(System.Int32 combo)
-    // Offset: 0x23D2D74
+    // Offset: 0x1E75838
     void ScoreControllerHandleComboDidChange(int combo);
     // private System.Void ScoreControllerHandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x23D2E5C
+    // Offset: 0x1E75920
     void ScoreControllerHandleMultiplierDidChange(int multiplier, float multiplierProgress);
     // private System.Void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(System.Int32 immediateMaxPossibleRawScore, System.Int32 immediateMaxPossibleModifiedScore)
-    // Offset: 0x23D2F44
+    // Offset: 0x1E75A08
     void ScoreControllerHandleImmediateMaxPossibleScoreDidChange(int immediateMaxPossibleRawScore, int immediateMaxPossibleModifiedScore);
     // private System.Void ScoreControllerHandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x23D302C
+    // Offset: 0x1E75AF0
     void ScoreControllerHandleScoreDidChange(int rawScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x23D31A8
+    // Offset: 0x1E75C6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -217,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveClient::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::MultiplayerLocalActiveClient::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(GlobalNamespace::NoteController*, ByRef<GlobalNamespace::NoteCutInfo>)>(&GlobalNamespace::MultiplayerLocalActiveClient::HandleNoteWasCut)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: InputFieldSettingsController
 #include "GlobalNamespace/InputFieldSettingsController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: UrlInputFieldSettingsController
     UrlInputFieldSettingsController() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1275A88
+    // Offset: 0x2069A08
     // Implemented from: InputFieldSettingsController
     // Base method: System.Void InputFieldSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<UrlInputFieldSettingsController*, creationType>()));
     }
     // protected override System.Void HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
-    // Offset: 0x12759F0
+    // Offset: 0x2069970
     // Implemented from: InputFieldSettingsController
     // Base method: System.Void InputFieldSettingsController::HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
     void HandleInputFieldDidChange(HMUI::InputFieldView* inputFieldView);

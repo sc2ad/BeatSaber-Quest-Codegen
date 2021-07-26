@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.NoTransitionsButton
@@ -34,7 +35,7 @@ namespace HMUI {
     HMUI::NoTransitionsButton* button;
     // Field size check
     static_assert(sizeof(HMUI::NoTransitionsButton*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDE39D0
+    // [SpaceAttribute] Offset: 0xE915EC
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -94,22 +95,22 @@ namespace HMUI {
     // Set instance field: private System.Boolean _didStart
     void _set__didStart(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1303E58
+    // Offset: 0x10C5DC8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1303EEC
+    // Offset: 0x10C5E5C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1304020
+    // Offset: 0x10C5F90
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x130403C
+    // Offset: 0x10C5FAC
     void OnDestroy();
     // private System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x1303F10
+    // Offset: 0x10C5E80
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x1304118
+    // Offset: 0x10C6088
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

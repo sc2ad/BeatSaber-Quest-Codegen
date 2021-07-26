@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ModalView
 #include "HMUI/ModalView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace HMUI {
     // Set instance field: public System.Action finishedCallback
     void _set_finishedCallback(System::Action* value);
     // System.Void <Hide>b__0()
-    // Offset: 0x1293E04
+    // Offset: 0x1069540
     void $Hide$b__0();
     // public System.Void .ctor()
-    // Offset: 0x129330C
+    // Offset: 0x1068A48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

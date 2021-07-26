@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: UnityEngine.LayerMask
@@ -111,16 +112,16 @@ namespace GlobalNamespace {
       // Set instance field: public readonly System.Boolean stereoEnabled
       void _set_stereoEnabled(bool value);
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
-      // Offset: 0xF0D0C4
+      // Offset: 0xD92C80
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  CameraTransformData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float fov, bool stereoEnabled)
       // public override System.Boolean Equals(System.Object obj)
-      // Offset: 0xF0D0E0
+      // Offset: 0xD92C9C
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object obj)
       bool Equals(::Il2CppObject* obj);
       // public override System.Int32 GetHashCode()
-      // Offset: 0xF0D0E8
+      // Offset: 0xD92CA4
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
@@ -178,7 +179,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableBloomPrePass and: bloomPrePassRenderer
     char __padding7[0x6] = {};
-    // [SpaceAttribute] Offset: 0xDEBAA4
+    // [SpaceAttribute] Offset: 0xE996C0
     // private BloomPrePassRendererSO _bloomPrePassRenderer
     // Size: 0x8
     // Offset: 0x38
@@ -324,43 +325,43 @@ namespace GlobalNamespace {
     // Set instance field: private readonly UnityEngine.Rect kFullRect
     void _set_kFullRect(UnityEngine::Rect value);
     // private System.Void OnValidate()
-    // Offset: 0x2340474
+    // Offset: 0x1DC68B4
     void OnValidate();
     // protected System.Void Awake()
-    // Offset: 0x2340554
+    // Offset: 0x1DC6994
     void Awake();
     // private System.Void ValidateParams()
-    // Offset: 0x2340478
+    // Offset: 0x1DC68B8
     void ValidateParams();
     // public System.Void Init(UnityEngine.LayerMask reflectLayers, System.Int32 stereoTextureWidth, System.Int32 stereoTextureHeight, System.Int32 monoTextureWidth, System.Int32 monoTextureHeight, System.Int32 maxAntiAliasing, System.Boolean enableBloomPrePass)
-    // Offset: 0x2340558
+    // Offset: 0x1DC6998
     void Init(UnityEngine::LayerMask reflectLayers, int stereoTextureWidth, int stereoTextureHeight, int monoTextureWidth, int monoTextureHeight, int maxAntiAliasing, bool enableBloomPrePass);
     // public System.Void PrepareForNextFrame()
-    // Offset: 0x233F744
+    // Offset: 0x1DC5B84
     void PrepareForNextFrame();
     // public UnityEngine.Texture GetMirrorTexture(UnityEngine.Vector3 reflectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x233FB60
+    // Offset: 0x1DC5FA0
     UnityEngine::Texture* GetMirrorTexture(UnityEngine::Vector3 reflectionPlanePos, UnityEngine::Vector3 reflectionPlaneNormal);
     // private System.Void RenderMirror(UnityEngine.Vector3 camPosition, UnityEngine.Quaternion camRotation, UnityEngine.Matrix4x4 camProjectionMatrix, UnityEngine.Rect screenRect, UnityEngine.Vector3 reclectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x2340C18
+    // Offset: 0x1DC7058
     void RenderMirror(UnityEngine::Vector3 camPosition, UnityEngine::Quaternion camRotation, UnityEngine::Matrix4x4 camProjectionMatrix, UnityEngine::Rect screenRect, UnityEngine::Vector3 reclectionPlanePos, UnityEngine::Vector3 reflectionPlaneNormal);
     // protected System.Void OnDisable()
-    // Offset: 0x2340F40
+    // Offset: 0x1DC7380
     void OnDisable();
     // private System.Void CreateOrUpdateMirrorCamera(UnityEngine.Camera currentCamera, UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x234058C
+    // Offset: 0x1DC69CC
     void CreateOrUpdateMirrorCamera(UnityEngine::Camera* currentCamera, UnityEngine::RenderTexture* renderTexture);
     // static private UnityEngine.Vector4 Plane(UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x2340820
+    // Offset: 0x1DC6C60
     static UnityEngine::Vector4 Plane(UnityEngine::Vector3 pos, UnityEngine::Vector3 normal);
     // static private UnityEngine.Vector4 CameraSpacePlane(UnityEngine.Matrix4x4 worldToCameraMatrix, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x2340E9C
+    // Offset: 0x1DC72DC
     static UnityEngine::Vector4 CameraSpacePlane(UnityEngine::Matrix4x4 worldToCameraMatrix, UnityEngine::Vector3 pos, UnityEngine::Vector3 normal);
     // static private UnityEngine.Matrix4x4 CalculateReflectionMatrix(UnityEngine.Vector4 plane)
-    // Offset: 0x23408FC
+    // Offset: 0x1DC6D3C
     static UnityEngine::Matrix4x4 CalculateReflectionMatrix(UnityEngine::Vector4 plane);
     // public System.Void .ctor()
-    // Offset: 0x23410FC
+    // Offset: 0x1DC753C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

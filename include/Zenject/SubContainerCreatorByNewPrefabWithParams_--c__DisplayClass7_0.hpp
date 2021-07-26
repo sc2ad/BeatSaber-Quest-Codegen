@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.SubContainerCreatorByNewPrefabWithParams
 #include "Zenject/SubContainerCreatorByNewPrefabWithParams.hpp"
 // Including type: Zenject.TypeValuePair
@@ -46,13 +47,13 @@ namespace Zenject {
     // Set instance field: public Zenject.TypeValuePair argPair
     void _set_argPair(Zenject::TypeValuePair value);
     // System.Boolean <CreateTempContainer>b__0(Zenject.InjectableInfo x)
-    // Offset: 0x16D35E4
+    // Offset: 0x13D5CA0
     bool $CreateTempContainer$b__0(Zenject::InjectableInfo* x);
     // System.Int32 <CreateTempContainer>b__1(Zenject.InjectableInfo x)
-    // Offset: 0x16D366C
+    // Offset: 0x13D5D28
     int $CreateTempContainer$b__1(Zenject::InjectableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x16D3448
+    // Offset: 0x13D5B04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

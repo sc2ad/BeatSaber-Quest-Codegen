@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.Initialization.InitializationOperation
 #include "UnityEngine/AddressableAssets/Initialization/InitializationOperation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -89,10 +90,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set instance field: public System.Int32 index
     void _set_index(int value);
     // System.Void <LoadContentCatalogInternal>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> op)
-    // Offset: 0x13CA488
+    // Offset: 0x11730E8
     void $LoadContentCatalogInternal$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op);
     // public System.Void .ctor()
-    // Offset: 0x13CA05C
+    // Offset: 0x1172CBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

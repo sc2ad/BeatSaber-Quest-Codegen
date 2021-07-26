@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Callback
 #include "Oculus/Platform/Callback.hpp"
 // Including type: Oculus.Platform.Message
@@ -38,17 +39,17 @@ namespace Oculus::Platform {
     // Set instance field: private Oculus.Platform.Message/Oculus.Platform.Callback messageCallback
     void _set_messageCallback(Oculus::Platform::Message::Callback* value);
     // public System.Void .ctor(Oculus.Platform.Message/Oculus.Platform.Callback callback)
-    // Offset: 0x1493A38
+    // Offset: 0x20EF8AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Callback::RequestCallback* New_ctor(Oculus::Platform::Message::Callback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Callback::RequestCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback*, creationType>(callback)));
     }
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x14941D0
+    // Offset: 0x20F0044
     void HandleMessage(Oculus::Platform::Message* msg);
     // public System.Void .ctor()
-    // Offset: 0x14941C8
+    // Offset: 0x20F003C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

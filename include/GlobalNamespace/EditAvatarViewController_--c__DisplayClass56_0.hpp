@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EditAvatarViewController
 #include "GlobalNamespace/EditAvatarViewController.hpp"
 // Including type: UnityEngine.Color
@@ -100,13 +101,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action`1<UnityEngine.Color> <>9__1
     void _set_$$9__1(System::Action_1<UnityEngine::Color>* value);
     // System.Void <SetupColorButton>b__0()
-    // Offset: 0x101DE88
+    // Offset: 0x1E8895C
     void $SetupColorButton$b__0();
     // System.Void <SetupColorButton>b__1(UnityEngine.Color c)
-    // Offset: 0x101DF68
+    // Offset: 0x1E88A3C
     void $SetupColorButton$b__1(UnityEngine::Color c);
     // public System.Void .ctor()
-    // Offset: 0x101DB90
+    // Offset: 0x1E88664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

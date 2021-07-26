@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SteamVR_Events
@@ -170,7 +171,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: origin
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDC11EC
+    // [TooltipAttribute] Offset: 0xE6DE08
     // public UnityEngine.Transform origin
     // Size: 0x8
     // Offset: 0x20
@@ -212,25 +213,25 @@ namespace GlobalNamespace {
     // Set instance field: private SteamVR_Events/Action newPosesAction
     void _set_newPosesAction(GlobalNamespace::SteamVR_Events::Action* value);
     // public System.Boolean get_isValid()
-    // Offset: 0x16AED70
+    // Offset: 0x13B142C
     bool get_isValid();
     // private System.Void set_isValid(System.Boolean value)
-    // Offset: 0x16AED78
+    // Offset: 0x13B1434
     void set_isValid(bool value);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x16AED84
+    // Offset: 0x13B1440
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // private System.Void OnEnable()
-    // Offset: 0x16AF090
+    // Offset: 0x13B174C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x16AF140
+    // Offset: 0x13B17FC
     void OnDisable();
     // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0x16AF178
+    // Offset: 0x13B1834
     void SetDeviceIndex(int index);
     // private System.Void .ctor()
-    // Offset: 0x16AEFE0
+    // Offset: 0x13B169C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

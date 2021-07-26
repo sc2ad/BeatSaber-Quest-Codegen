@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: System.Threading.CancellationToken
@@ -84,10 +85,10 @@ namespace MasterServer {
     // Set instance field: public System.Threading.CancellationToken cancellationToken
     void _set_cancellationToken(System::Threading::CancellationToken value);
     // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(MasterServer.IMasterServerReliableRequest mm)
-    // Offset: 0x12D88B8
+    // Offset: 0x2092DC8
     System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(MasterServer::IMasterServerReliableRequest* mm);
     // public System.Void .ctor()
-    // Offset: 0x12D88B0
+    // Offset: 0x2092DC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

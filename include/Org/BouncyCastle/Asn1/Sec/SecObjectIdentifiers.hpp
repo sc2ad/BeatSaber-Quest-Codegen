@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -159,7 +160,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier SecP256r1
     static void _set_SecP256r1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x176DA2C
+    // Offset: 0x14700E8
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Sec.SecObjectIdentifiers
   #pragma pack(pop)

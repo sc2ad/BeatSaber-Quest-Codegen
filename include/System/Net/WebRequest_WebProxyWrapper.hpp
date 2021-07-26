@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebRequest
 #include "System/Net/WebRequest.hpp"
 // Including type: System.Net.WebRequest/System.Net.WebProxyWrapperOpaque
@@ -27,7 +28,7 @@ namespace System::Net {
     // Creating value type constructor for type: WebProxyWrapper
     WebProxyWrapper() noexcept {}
     // System.Net.WebProxy get_WebProxy()
-    // Offset: 0x159FE34
+    // Offset: 0x12A3404
     System::Net::WebProxy* get_WebProxy();
   }; // System.Net.WebRequest/System.Net.WebProxyWrapper
   #pragma pack(pop)

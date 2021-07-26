@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatSaberAPI.DataTransferObjects.UserPlatform
 #include "BeatSaberAPI/DataTransferObjects/UserPlatform.hpp"
 // Including type: BeatSaberAPI.DataTransferObjects.PlatformEnviroment
@@ -96,7 +97,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set instance field: public System.String publicUserDisplayName
     void _set_publicUserDisplayName(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1188638
+    // Offset: 0x1FCE170
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

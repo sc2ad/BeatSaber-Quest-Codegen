@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableRequest
 #include "GlobalNamespace/BaseMasterServerReliableRequest.hpp"
 // Including type: MasterServer.IUserClientToServerMessage
@@ -160,28 +161,28 @@ namespace MasterServer {
     // Set instance field: public GameplayServerConfiguration configuration
     void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public IVersionedPacketPool`1<MasterServer.UserServerStatusUpdateRequest> get_pool()
-    // Offset: 0x152B464
+    // Offset: 0x2137AC8
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::UserServerStatusUpdateRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x152B4AC
+    // Offset: 0x2137B10
     ::Il2CppString* get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x152B4B4
+    // Offset: 0x2137B18
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x152B4BC
+    // Offset: 0x2137B20
     ::Il2CppString* get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x152B4C4
+    // Offset: 0x2137B28
     void set_userName(::Il2CppString* value);
     // protected System.UInt32 get_version()
-    // Offset: 0x152B4CC
+    // Offset: 0x2137B30
     uint get_version();
     // public MasterServer.UserServerStatusUpdateRequest Init(System.String serverName, System.String userId, System.String userName, System.String secret, System.String password, System.Byte[] random, System.Byte[] publicKey, System.Int32 currentPlayerCount, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x152B868
+    // Offset: 0x2137ECC
     MasterServer::UserServerStatusUpdateRequest* Init(::Il2CppString* serverName, ::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* password, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, int currentPlayerCount, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void .ctor()
-    // Offset: 0x152B8F4
+    // Offset: 0x2137F58
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -191,17 +192,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserServerStatusUpdateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152B4D4
+    // Offset: 0x2137B38
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152B608
+    // Offset: 0x2137C6C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x152B78C
+    // Offset: 0x2137DF0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

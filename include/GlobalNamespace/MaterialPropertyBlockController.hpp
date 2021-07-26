@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,16 +54,16 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1DF5DF4
+    // Offset: 0x19689D4
     ::Array<UnityEngine::Renderer*>* get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1DF5B74
+    // Offset: 0x1968754
     UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x1DF5A3C
+    // Offset: 0x196861C
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x1DF5DFC
+    // Offset: 0x19689DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

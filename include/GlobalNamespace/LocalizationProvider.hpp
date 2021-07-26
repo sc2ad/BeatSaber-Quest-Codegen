@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,19 +46,19 @@ namespace GlobalNamespace {
     // Set instance field: private Polyglot.Localization _localization
     void _set__localization(Polyglot::Localization* value);
     // public Polyglot.Localization get_localization()
-    // Offset: 0x232CD24
+    // Offset: 0x1DB2164
     Polyglot::Localization* get_localization();
     // static public LocalizationProvider get_Instance()
-    // Offset: 0x232CD2C
+    // Offset: 0x1DB216C
     static GlobalNamespace::LocalizationProvider* get_Instance();
     // static public System.Void set_Instance(LocalizationProvider value)
-    // Offset: 0x232CE9C
+    // Offset: 0x1DB22DC
     static void set_Instance(GlobalNamespace::LocalizationProvider* value);
     // static public System.Boolean get_HasInstance()
-    // Offset: 0x232CDB8
+    // Offset: 0x1DB21F8
     static bool get_HasInstance();
     // public System.Void .ctor()
-    // Offset: 0x232CEF0
+    // Offset: 0x1DB2330
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

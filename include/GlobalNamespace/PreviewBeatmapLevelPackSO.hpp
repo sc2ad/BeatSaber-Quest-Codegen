@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IBeatmapLevelPack
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* coverImage;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE01104
+    // [SpaceAttribute] Offset: 0xEADD20
     // private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
     // Size: 0x8
     // Offset: 0x38
@@ -95,25 +96,25 @@ namespace GlobalNamespace {
     // Set instance field: private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
     void _set__previewBeatmapLevelCollection(GlobalNamespace::PreviewBeatmapLevelCollectionSO* value);
     // public System.String get_packID()
-    // Offset: 0x1109EEC
+    // Offset: 0x1F5BF00
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x1109EF4
+    // Offset: 0x1F5BF08
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1109EFC
+    // Offset: 0x1F5BF10
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1109F04
+    // Offset: 0x1F5BF18
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1109F0C
+    // Offset: 0x1F5BF20
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1109F14
+    // Offset: 0x1F5BF28
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x1109F1C
+    // Offset: 0x1F5BF30
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

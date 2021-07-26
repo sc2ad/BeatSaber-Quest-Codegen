@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 // Completed includes
@@ -30,13 +31,13 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: ApplicationLifecycle
     ApplicationLifecycle() noexcept {}
     // static public Oculus.Platform.Models.LaunchDetails GetLaunchDetails()
-    // Offset: 0x1C17568
+    // Offset: 0x2288548
     static Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
     // static public System.Void LogDeeplinkResult(System.String trackingID, Oculus.Platform.LaunchResult result)
-    // Offset: 0x1C17668
+    // Offset: 0x2288648
     static void LogDeeplinkResult(::Il2CppString* trackingID, Oculus::Platform::LaunchResult result);
     // static public System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x1C17784
+    // Offset: 0x2288764
     static void SetLaunchIntentChangedNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
   }; // Oculus.Platform.ApplicationLifecycle
   #pragma pack(pop)

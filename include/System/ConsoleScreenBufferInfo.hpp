@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Coord

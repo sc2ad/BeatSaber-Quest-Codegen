@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewControllerTransitionHelpers
 #include "HMUI/ViewControllerTransitionHelpers.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -100,26 +101,26 @@ namespace HMUI {
     // Set instance field: private HMUI.ViewControllerTransitionHelpers/HMUI.<>c__DisplayClass6_0 <>8__1
     void _set_$$8__1(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x235829C
+    // Offset: 0x1DE06DC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2358304
+    // Offset: 0x1DE0744
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x23577A8
+    // Offset: 0x1DDFBE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers::$DoVerticalTransition$d__6* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2358120
+    // Offset: 0x1DE0560
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2358124
+    // Offset: 0x1DE0564
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x23582A4
+    // Offset: 0x1DE06E4
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ViewControllerTransitionHelpers/HMUI.<DoVerticalTransition>d__6
   #pragma pack(pop)

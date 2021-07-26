@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -264,37 +265,37 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: private Org.BouncyCastle.Asn1.Asn1Sequence seq
     void _set_seq(Org::BouncyCastle::Asn1::Asn1Sequence* value);
     // static public System.Boolean get_DefaultReverse()
-    // Offset: 0x19DF9CC
+    // Offset: 0x1696AC0
     static bool get_DefaultReverse();
     // static private System.Void .cctor()
-    // Offset: 0x19DFA54
+    // Offset: 0x1696B48
     static void _cctor();
     // protected System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19E0F48
+    // Offset: 0x169803C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Name* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509Name::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Name*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x19DA3EC
+    // Offset: 0x16914E0
     static Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(System.Object obj)
-    // Offset: 0x19DA5A8
+    // Offset: 0x169169C
     static Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Il2CppObject* obj);
     // private System.Void AppendValue(System.Text.StringBuilder buf, System.Collections.IDictionary oidSymbols, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String val)
-    // Offset: 0x19E1C3C
+    // Offset: 0x1698D30
     void AppendValue(System::Text::StringBuilder* buf, System::Collections::IDictionary* oidSymbols, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Il2CppString* val);
     // public System.String ToString(System.Boolean reverse, System.Collections.IDictionary oidSymbols)
-    // Offset: 0x19E1F00
+    // Offset: 0x1698FF4
     ::Il2CppString* ToString(bool reverse, System::Collections::IDictionary* oidSymbols);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19E17A0
+    // Offset: 0x1698894
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x19E24D8
+    // Offset: 0x16995CC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

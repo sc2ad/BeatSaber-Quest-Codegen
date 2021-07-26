@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.InteropServices.ExternalException
 #include "System/Runtime/InteropServices/ExternalException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,30 +58,30 @@ namespace System::ComponentModel {
     // Set instance field: private readonly System.Int32 nativeErrorCode
     void _set_nativeErrorCode(int value);
     // public System.Int32 get_NativeErrorCode()
-    // Offset: 0x184929C
+    // Offset: 0x151A6A0
     int get_NativeErrorCode();
     // public System.Void .ctor(System.Int32 error)
-    // Offset: 0x1849034
+    // Offset: 0x151A438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error)));
     }
     // public System.Void .ctor(System.Int32 error, System.String message)
-    // Offset: 0x18491D4
+    // Offset: 0x151A5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error, ::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error, message)));
     }
     // static System.String GetErrorMessage(System.Int32 error)
-    // Offset: 0x18490BC
+    // Offset: 0x151A4C0
     static ::Il2CppString* GetErrorMessage(int error);
     // static private System.Void InitializeErrorMessages()
-    // Offset: 0x1849370
+    // Offset: 0x151A774
     static void InitializeErrorMessages();
     // public System.Void .ctor()
-    // Offset: 0x1848FC4
+    // Offset: 0x151A3C8
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -92,7 +93,7 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1849204
+    // Offset: 0x151A608
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -103,12 +104,12 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(info, context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x184A470
+    // Offset: 0x151B874
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.cctor()
     static void _cctor();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18492A4
+    // Offset: 0x151A6A8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

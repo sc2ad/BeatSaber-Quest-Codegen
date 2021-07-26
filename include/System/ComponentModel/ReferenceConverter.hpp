@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
@@ -22,7 +23,7 @@ namespace System::ComponentModel {
     // Set static field: static private readonly System.String none
     static void _set_none(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x1848D88
+    // Offset: 0x151A18C
     static void _cctor();
   }; // System.ComponentModel.ReferenceConverter
   #pragma pack(pop)

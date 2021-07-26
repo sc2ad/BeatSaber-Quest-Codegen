@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -101,13 +102,13 @@ namespace UnityEngine::UI {
     // Set instance field: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
     void _set_getRayIntersectionAllNonAlloc(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* value);
     // static public UnityEngine.UI.ReflectionMethodsCache get_Singleton()
-    // Offset: 0x1985C5C
+    // Offset: 0x1658060
     static UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
     // static private System.Void .cctor()
-    // Offset: 0x1985D1C
+    // Offset: 0x1658120
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1985170
+    // Offset: 0x1657574
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

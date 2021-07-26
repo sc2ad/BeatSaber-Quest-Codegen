@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIds
 #include "GlobalNamespace/LightWithIds.hpp"
 // Including type: ILightWithId
@@ -60,28 +61,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isRegistered
     void _set__isRegistered(bool value);
     // public System.Int32 get_lightId()
-    // Offset: 0x1DF481C
+    // Offset: 0x19673FC
     int get_lightId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DF4824
+    // Offset: 0x1967404
     UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1DF4830
+    // Offset: 0x1967410
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1DF4838
+    // Offset: 0x1967418
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1DF4844
+    // Offset: 0x1967424
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1DF484C
+    // Offset: 0x196742C
     void ColorWasSet(UnityEngine::Color newColor);
     // protected UnityEngine.Color ProcessColor(UnityEngine.Color newColor)
     // Offset: 0xFFFFFFFF
     UnityEngine::Color ProcessColor(UnityEngine::Color newColor);
     // protected System.Void .ctor()
-    // Offset: 0x1DF487C
+    // Offset: 0x196745C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

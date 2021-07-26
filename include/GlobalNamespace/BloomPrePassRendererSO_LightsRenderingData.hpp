@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassRendererSO
 #include "GlobalNamespace/BloomPrePassRendererSO.hpp"
 // Including type: UnityEngine.Vector3
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector4[] viewPos
     void _set_viewPos(::Array<UnityEngine::Vector4>* value);
     // public System.Void .ctor()
-    // Offset: 0x1DEE614
+    // Offset: 0x19611F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

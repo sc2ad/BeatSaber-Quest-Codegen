@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -39,16 +40,16 @@ namespace UnityEngine::ResourceManagement::Util {
     // Creating value type constructor for type: ResourceManagerConfig
     ResourceManagerConfig() noexcept {}
     // static System.Boolean ExtractKeyAndSubKey(System.Object keyObj, out System.String mainKey, out System.String subKey)
-    // Offset: 0x19B7A5C
-    static bool ExtractKeyAndSubKey(::Il2CppObject* keyObj, ::Il2CppString*& mainKey, ::Il2CppString*& subKey);
+    // Offset: 0x166FB50
+    static bool ExtractKeyAndSubKey(::Il2CppObject* keyObj, ByRef<::Il2CppString*> mainKey, ByRef<::Il2CppString*> subKey);
     // static public System.Boolean IsPathRemote(System.String path)
-    // Offset: 0x19B5F5C
+    // Offset: 0x166E050
     static bool IsPathRemote(::Il2CppString* path);
     // static public System.Boolean ShouldPathUseWebRequest(System.String path)
-    // Offset: 0x19B6DC8
+    // Offset: 0x166EEBC
     static bool ShouldPathUseWebRequest(::Il2CppString* path);
     // static public System.Array CreateArrayResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x19B8834
+    // Offset: 0x1670928
     static System::Array* CreateArrayResult(System::Type* type, ::Array<UnityEngine::Object*>* allAssets);
     // static public TObject CreateArrayResult(UnityEngine.Object[] allAssets)
     // Offset: 0xFFFFFFFF
@@ -60,7 +61,7 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodThrow<TObject, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, allAssets);
     }
     // static public System.Collections.IList CreateListResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x19B8A04
+    // Offset: 0x1670AF8
     static System::Collections::IList* CreateListResult(System::Type* type, ::Array<UnityEngine::Object*>* allAssets);
     // static public TObject CreateListResult(UnityEngine.Object[] allAssets)
     // Offset: 0xFFFFFFFF
@@ -88,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ResourceManagerCon
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey
 // Il2CppName: ExtractKeyAndSubKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
   static const MethodInfo* get() {
     static auto* keyObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* mainKey = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

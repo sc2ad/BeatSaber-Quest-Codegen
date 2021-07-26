@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -49,10 +50,10 @@ namespace NUnit::Framework {
     // Set static field: static public readonly NUnit.Framework.TestParameters Parameters
     static void _set_Parameters(NUnit::Framework::TestParameters* value);
     // static public System.IO.TextWriter get_Out()
-    // Offset: 0x224789C
+    // Offset: 0x1D17710
     static System::IO::TextWriter* get_Out();
     // static private System.Void .cctor()
-    // Offset: 0x22479A0
+    // Offset: 0x1D17814
     static void _cctor();
   }; // NUnit.Framework.TestContext
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.IThreadPoolWorkItem
 #include "System/Threading/IThreadPoolWorkItem.hpp"
 // Including type: System.IOOperation
@@ -75,20 +76,20 @@ namespace System {
     // Set instance field: private System.IOAsyncResult state
     void _set_state(System::IOAsyncResult* value);
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0x1857888
+    // Offset: 0x1528C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOSelectorJob* New_ctor(System::IOOperation operation, System::IOAsyncCallback* callback, System::IOAsyncResult* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOSelectorJob::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOSelectorJob*, creationType>(operation, callback, state)));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x18578C8
+    // Offset: 0x1528CCC
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x18578E8
+    // Offset: 0x1528CEC
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
     // public System.Void MarkDisposed()
-    // Offset: 0x18578EC
+    // Offset: 0x1528CF0
     void MarkDisposed();
   }; // System.IOSelectorJob
   #pragma pack(pop)

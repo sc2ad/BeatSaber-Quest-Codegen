@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SafeAreaRectChecker
 #include "GlobalNamespace/SafeAreaRectChecker.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean checkingEnabled
     void _set_checkingEnabled(bool value);
     // public System.Void .ctor(System.Boolean checkingEnabled)
-    // Offset: 0x114F494
+    // Offset: 0x1F7FEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SafeAreaRectChecker::InitData::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IO.WatcherChangeTypes
@@ -67,13 +68,13 @@ namespace System::IO {
     // Set instance field: private System.Boolean timedOut
     void _set_timedOut(bool value);
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0xEE9D70
+    // Offset: 0xD7DD28
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0xEE9D78
+    // Offset: 0xD7DD30
     void set_Name(::Il2CppString* value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0xEE9D80
+    // Offset: 0xD7DD38
     void set_OldName(::Il2CppString* value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)

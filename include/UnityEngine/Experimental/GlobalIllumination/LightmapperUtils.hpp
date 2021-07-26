@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Experimental::GlobalIllumination
@@ -38,26 +39,26 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: LightmapperUtils
     LightmapperUtils() noexcept {}
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor ExtractIndirect(UnityEngine.Light l)
-    // Offset: 0x1BE8944
+    // Offset: 0x17DACDC
     static UnityEngine::Experimental::GlobalIllumination::LinearColor ExtractIndirect(UnityEngine::Light* l);
     // static public System.Single ExtractInnerCone(UnityEngine.Light l)
-    // Offset: 0x1BE8BCC
+    // Offset: 0x17DAF64
     static float ExtractInnerCone(UnityEngine::Light* l);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DirectionalLight dir)
-    // Offset: 0x1BE8CE0
-    static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::DirectionalLight& dir);
+    // Offset: 0x17DB078
+    static void Extract(UnityEngine::Light* l, ByRef<UnityEngine::Experimental::GlobalIllumination::DirectionalLight> dir);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.PointLight point)
-    // Offset: 0x1BE8E54
-    static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::PointLight& point);
+    // Offset: 0x17DB1EC
+    static void Extract(UnityEngine::Light* l, ByRef<UnityEngine::Experimental::GlobalIllumination::PointLight> point);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.SpotLight spot)
-    // Offset: 0x1BE8FFC
-    static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::SpotLight& spot);
+    // Offset: 0x17DB394
+    static void Extract(UnityEngine::Light* l, ByRef<UnityEngine::Experimental::GlobalIllumination::SpotLight> spot);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.RectangleLight rect)
-    // Offset: 0x1BE91E0
-    static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::RectangleLight& rect);
+    // Offset: 0x17DB578
+    static void Extract(UnityEngine::Light* l, ByRef<UnityEngine::Experimental::GlobalIllumination::RectangleLight> rect);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DiscLight disc)
-    // Offset: 0x1BE9380
-    static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::DiscLight& disc);
+    // Offset: 0x17DB718
+    static void Extract(UnityEngine::Light* l, ByRef<UnityEngine::Experimental::GlobalIllumination::DiscLight> disc);
   }; // UnityEngine.Experimental.GlobalIllumination.LightmapperUtils
   #pragma pack(pop)
 }
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DirectionalLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, ByRef<UnityEngine::Experimental::GlobalIllumination::DirectionalLight>)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine", "Light")->byval_arg;
     static auto* dir = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "DirectionalLight")->this_arg;
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::PointLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, ByRef<UnityEngine::Experimental::GlobalIllumination::PointLight>)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine", "Light")->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "PointLight")->this_arg;
@@ -105,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::SpotLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, ByRef<UnityEngine::Experimental::GlobalIllumination::SpotLight>)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine", "Light")->byval_arg;
     static auto* spot = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "SpotLight")->this_arg;
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::RectangleLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, ByRef<UnityEngine::Experimental::GlobalIllumination::RectangleLight>)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine", "Light")->byval_arg;
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "RectangleLight")->this_arg;
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract
 // Il2CppName: Extract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, UnityEngine::Experimental::GlobalIllumination::DiscLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Light*, ByRef<UnityEngine::Experimental::GlobalIllumination::DiscLight>)>(&UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Extract)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine", "Light")->byval_arg;
     static auto* disc = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "DiscLight")->this_arg;

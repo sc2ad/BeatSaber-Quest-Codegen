@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FactoryFromBinder3Extensions
 #include "Zenject/FactoryFromBinder3Extensions.hpp"
 // Including type: System.Guid

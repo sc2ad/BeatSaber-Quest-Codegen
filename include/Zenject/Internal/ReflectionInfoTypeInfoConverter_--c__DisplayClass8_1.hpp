@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ReflectionInfoTypeInfoConverter
 #include "Zenject/Internal/ReflectionInfoTypeInfoConverter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace Zenject::Internal {
     // Set instance field: public System.Object value
     void _set_value(::Il2CppObject* value);
     // System.Void <GetOnlyPropertySetter>b__3(System.Reflection.FieldInfo f)
-    // Offset: 0x1628BEC
+    // Offset: 0x132C1BC
     void $GetOnlyPropertySetter$b__3(System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0x1628BE4
+    // Offset: 0x132C1B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
@@ -19,7 +20,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Boolean CanCompare(System.Object x, System.Object y)
-    // Offset: 0x1718CF0
+    // Offset: 0x141C3AC
     bool CanCompare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // NUnit.Framework.Constraints.EqualityAdapter
   #pragma pack(pop)

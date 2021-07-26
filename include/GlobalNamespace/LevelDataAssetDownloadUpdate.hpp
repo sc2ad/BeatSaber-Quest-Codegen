@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Enum
@@ -119,7 +120,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
     void _set_assetDownloadingState(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState value);
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
-    // Offset: 0xED0EF8
+    // Offset: 0xF7C494
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState)
   }; // LevelDataAssetDownloadUpdate

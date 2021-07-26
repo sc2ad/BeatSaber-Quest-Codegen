@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -118,7 +119,7 @@ namespace UnityEngine::Rendering {
     // Set instance field: private System.Int32 m_DepthSlice
     void _set_m_DepthSlice(int value);
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0xEF59DC
+    // Offset: 0xF848CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -126,7 +127,7 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, type);
     }
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0xEF5A44
+    // Offset: 0xF84934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(int nameID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -134,7 +135,7 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, nameID);
     }
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0xEF5AAC
+    // Offset: 0xF8499C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderTargetIdentifier(UnityEngine::Texture* tex) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
@@ -142,20 +143,20 @@ namespace UnityEngine::Rendering {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, tex);
     }
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0xEF5AC4
+    // Offset: 0xF849B4
     bool Equals(UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.String ToString()
-    // Offset: 0xEF5AB4
+    // Offset: 0xF849A4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEF5ABC
+    // Offset: 0xF849AC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEF5AFC
+    // Offset: 0xF849EC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

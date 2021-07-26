@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -79,13 +80,13 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set instance field: public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
     void _set_Triangle(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
     // public System.Boolean get_HasNext()
-    // Offset: 0x2368EBC
+    // Offset: 0x1DF02FC
     bool get_HasNext();
     // public System.Boolean get_HasPrev()
-    // Offset: 0x2368ECC
+    // Offset: 0x1DF030C
     bool get_HasPrev();
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2368E80
+    // Offset: 0x1DF02C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFrontNode* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");

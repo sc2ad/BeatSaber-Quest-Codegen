@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_Asset
 #include "TMPro/TMP_Asset.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -157,73 +158,73 @@ namespace TMPro {
     // Set instance field: System.Boolean m_IsSpriteAssetLookupTablesDirty
     void _set_m_IsSpriteAssetLookupTablesDirty(bool value);
     // public System.String get_version()
-    // Offset: 0x1114500
+    // Offset: 0x1014180
     ::Il2CppString* get_version();
     // System.Void set_version(System.String value)
-    // Offset: 0x1114508
+    // Offset: 0x1014188
     void set_version(::Il2CppString* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> get_spriteCharacterTable()
-    // Offset: 0x1114460
+    // Offset: 0x10140E0
     System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* get_spriteCharacterTable();
     // System.Void set_spriteCharacterTable(System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> value)
-    // Offset: 0x11148C0
+    // Offset: 0x1014540
     void set_spriteCharacterTable(System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_SpriteGlyph> get_spriteGlyphTable()
-    // Offset: 0x11148C8
+    // Offset: 0x1014548
     System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* get_spriteGlyphTable();
     // System.Void set_spriteGlyphTable(System.Collections.Generic.List`1<TMPro.TMP_SpriteGlyph> value)
-    // Offset: 0x11148D0
+    // Offset: 0x1014550
     void set_spriteGlyphTable(System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* value);
     // private System.Void Awake()
-    // Offset: 0x11148D8
+    // Offset: 0x1014558
     void Awake();
     // private UnityEngine.Material GetDefaultSpriteMaterial()
-    // Offset: 0x1114D2C
+    // Offset: 0x10149AC
     UnityEngine::Material* GetDefaultSpriteMaterial();
     // public System.Void UpdateLookupTables()
-    // Offset: 0x1114510
+    // Offset: 0x1014190
     void UpdateLookupTables();
     // public System.Int32 GetSpriteIndexFromHashcode(System.Int32 hashCode)
-    // Offset: 0x1114E10
+    // Offset: 0x1014A90
     int GetSpriteIndexFromHashcode(int hashCode);
     // public System.Int32 GetSpriteIndexFromUnicode(System.UInt32 unicode)
-    // Offset: 0x1114EA0
+    // Offset: 0x1014B20
     int GetSpriteIndexFromUnicode(uint unicode);
     // public System.Int32 GetSpriteIndexFromName(System.String name)
-    // Offset: 0x1114F30
+    // Offset: 0x1014BB0
     int GetSpriteIndexFromName(::Il2CppString* name);
     // static public TMPro.TMP_SpriteAsset SearchForSpriteByUnicode(TMPro.TMP_SpriteAsset spriteAsset, System.UInt32 unicode, System.Boolean includeFallbacks, out System.Int32 spriteIndex)
-    // Offset: 0x1114FC0
-    static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, int& spriteIndex);
+    // Offset: 0x1014C40
+    static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, ByRef<int> spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByUnicodeInternal(System.Collections.Generic.List`1<TMPro.TMP_SpriteAsset> spriteAssets, System.UInt32 unicode, System.Boolean includeFallbacks, out System.Int32 spriteIndex)
-    // Offset: 0x11151D0
-    static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* spriteAssets, uint unicode, bool includeFallbacks, int& spriteIndex);
+    // Offset: 0x1014E50
+    static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* spriteAssets, uint unicode, bool includeFallbacks, ByRef<int> spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByUnicodeInternal(TMPro.TMP_SpriteAsset spriteAsset, System.UInt32 unicode, System.Boolean includeFallbacks, out System.Int32 spriteIndex)
-    // Offset: 0x111537C
-    static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, int& spriteIndex);
+    // Offset: 0x1014FFC
+    static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, ByRef<int> spriteIndex);
     // static public TMPro.TMP_SpriteAsset SearchForSpriteByHashCode(TMPro.TMP_SpriteAsset spriteAsset, System.Int32 hashCode, System.Boolean includeFallbacks, out System.Int32 spriteIndex)
-    // Offset: 0x1115440
-    static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCode(TMPro::TMP_SpriteAsset* spriteAsset, int hashCode, bool includeFallbacks, int& spriteIndex);
+    // Offset: 0x10150C0
+    static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCode(TMPro::TMP_SpriteAsset* spriteAsset, int hashCode, bool includeFallbacks, ByRef<int> spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByHashCodeInternal(System.Collections.Generic.List`1<TMPro.TMP_SpriteAsset> spriteAssets, System.Int32 hashCode, System.Boolean searchFallbacks, out System.Int32 spriteIndex)
-    // Offset: 0x1115650
-    static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* spriteAssets, int hashCode, bool searchFallbacks, int& spriteIndex);
+    // Offset: 0x10152D0
+    static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* spriteAssets, int hashCode, bool searchFallbacks, ByRef<int> spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByHashCodeInternal(TMPro.TMP_SpriteAsset spriteAsset, System.Int32 hashCode, System.Boolean searchFallbacks, out System.Int32 spriteIndex)
-    // Offset: 0x11157FC
-    static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(TMPro::TMP_SpriteAsset* spriteAsset, int hashCode, bool searchFallbacks, int& spriteIndex);
+    // Offset: 0x101547C
+    static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(TMPro::TMP_SpriteAsset* spriteAsset, int hashCode, bool searchFallbacks, ByRef<int> spriteIndex);
     // public System.Void SortGlyphTable()
-    // Offset: 0x11158C0
+    // Offset: 0x1015540
     void SortGlyphTable();
     // System.Void SortCharacterTable()
-    // Offset: 0x11159DC
+    // Offset: 0x101565C
     void SortCharacterTable();
     // System.Void SortGlyphAndCharacterTables()
-    // Offset: 0x1115AFC
+    // Offset: 0x101577C
     void SortGlyphAndCharacterTables();
     // private System.Void UpgradeSpriteAsset()
-    // Offset: 0x1114970
+    // Offset: 0x10145F0
     void UpgradeSpriteAsset();
     // public System.Void .ctor()
-    // Offset: 0x1115C1C
+    // Offset: 0x101589C
     // Implemented from: TMPro.TMP_Asset
     // Base method: System.Void TMP_Asset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -346,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode
 // Il2CppName: SearchForSpriteByUnicode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, ByRef<int>)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode)> {
   static const MethodInfo* get() {
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -358,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
 // Il2CppName: SearchForSpriteByUnicodeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, uint, bool, ByRef<int>)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   static const MethodInfo* get() {
     static auto* spriteAssets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")})->byval_arg;
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -370,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
 // Il2CppName: SearchForSpriteByUnicodeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, ByRef<int>)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   static const MethodInfo* get() {
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -382,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode
 // Il2CppName: SearchForSpriteByHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, ByRef<int>)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode)> {
   static const MethodInfo* get() {
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -394,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
 // Il2CppName: SearchForSpriteByHashCodeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, int, bool, ByRef<int>)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   static const MethodInfo* get() {
     static auto* spriteAssets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")})->byval_arg;
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -406,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
 // Il2CppName: SearchForSpriteByHashCodeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, ByRef<int>)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   static const MethodInfo* get() {
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

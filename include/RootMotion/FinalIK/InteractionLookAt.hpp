@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -29,21 +30,21 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionLookAt : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF45A8
+    // [TooltipAttribute] Offset: 0xEA11C4
     // public RootMotion.FinalIK.LookAtIK ik
     // Size: 0x8
     // Offset: 0x10
     RootMotion::FinalIK::LookAtIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::LookAtIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF45E0
+    // [TooltipAttribute] Offset: 0xEA11FC
     // public System.Single lerpSpeed
     // Size: 0x4
     // Offset: 0x18
     float lerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF4618
+    // [TooltipAttribute] Offset: 0xEA1234
     // public System.Single weightSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -117,22 +118,22 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean firstFBBIKSolve
     void _set_firstFBBIKSolve(bool value);
     // public System.Void Look(UnityEngine.Transform target, System.Single time)
-    // Offset: 0x1E35290
+    // Offset: 0x1996524
     void Look(UnityEngine::Transform* target, float time);
     // public System.Void OnFixTransforms()
-    // Offset: 0x1E35408
+    // Offset: 0x199669C
     void OnFixTransforms();
     // public System.Void Update()
-    // Offset: 0x1E354B0
+    // Offset: 0x1996744
     void Update();
     // public System.Void SolveSpine()
-    // Offset: 0x1E356F4
+    // Offset: 0x1996988
     void SolveSpine();
     // public System.Void SolveHead()
-    // Offset: 0x1E357EC
+    // Offset: 0x1996A80
     void SolveHead();
     // public System.Void .ctor()
-    // Offset: 0x1E358B8
+    // Offset: 0x1996B4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

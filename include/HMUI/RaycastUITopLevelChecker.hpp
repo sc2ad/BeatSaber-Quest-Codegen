@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.RaycastResult
@@ -59,13 +60,13 @@ namespace HMUI {
     // Set instance field: private UnityEngine.Canvas _canvas
     void _set__canvas(UnityEngine::Canvas* value);
     // public System.Boolean get_isOnTop()
-    // Offset: 0x12961C8
+    // Offset: 0x106B904
     bool get_isOnTop();
     // protected System.Void Awake()
-    // Offset: 0x1296144
+    // Offset: 0x106B880
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x12963E8
+    // Offset: 0x106BB24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

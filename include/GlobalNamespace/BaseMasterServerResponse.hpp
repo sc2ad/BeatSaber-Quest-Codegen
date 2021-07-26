@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerResponse
 #include "MasterServer/IMasterServerResponse.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,31 +50,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.UInt32 <responseId>k__BackingField
     void _set_$responseId$k__BackingField(uint value);
     // public System.UInt32 get_responseId()
-    // Offset: 0x12B95D8
+    // Offset: 0x108ED14
     uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x12B95E0
+    // Offset: 0x108ED1C
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x12B95E8
+    // Offset: 0x108ED24
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x12B95F0
+    // Offset: 0x108ED2C
     ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12B9390
+    // Offset: 0x108EACC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12B9400
+    // Offset: 0x108EB3C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x12B9638
+    // Offset: 0x108ED74
     MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x12B943C
+    // Offset: 0x108EB78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

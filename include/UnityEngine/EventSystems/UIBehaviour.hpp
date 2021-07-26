@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,46 +23,46 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: UIBehaviour
     UIBehaviour() noexcept {}
     // protected System.Void Awake()
-    // Offset: 0x140B50C
+    // Offset: 0x11B416C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1400BCC
+    // Offset: 0x11A982C
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x140B510
+    // Offset: 0x11B4170
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1400D34
+    // Offset: 0x11A9994
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x140B514
+    // Offset: 0x11B4174
     void OnDestroy();
     // public System.Boolean IsActive()
-    // Offset: 0x140B518
+    // Offset: 0x11B4178
     bool IsActive();
     // protected System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x140B520
+    // Offset: 0x11B4180
     void OnRectTransformDimensionsChange();
     // protected System.Void OnBeforeTransformParentChanged()
-    // Offset: 0x140B524
+    // Offset: 0x11B4184
     void OnBeforeTransformParentChanged();
     // protected System.Void OnTransformParentChanged()
-    // Offset: 0x1401EE4
+    // Offset: 0x11AAB44
     void OnTransformParentChanged();
     // protected System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x140B528
+    // Offset: 0x11B4188
     void OnDidApplyAnimationProperties();
     // protected System.Void OnCanvasGroupChanged()
-    // Offset: 0x140B52C
+    // Offset: 0x11B418C
     void OnCanvasGroupChanged();
     // protected System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x1401ED8
+    // Offset: 0x11AAB38
     void OnCanvasHierarchyChanged();
     // public System.Boolean IsDestroyed()
-    // Offset: 0x140B530
+    // Offset: 0x11B4190
     bool IsDestroyed();
     // protected System.Void .ctor()
-    // Offset: 0x140092C
+    // Offset: 0x11A958C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ListSettingsController
 #include "GlobalNamespace/ListSettingsController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,16 +61,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action`1<System.Int32> valueChangedEvent
     void _set_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10ED474
+    // Offset: 0x1F3F488
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10ED518
+    // Offset: 0x1F3F52C
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void InitValues(System.Int32 numberOfElements, System.Int32 index)
-    // Offset: 0x10ED5BC
+    // Offset: 0x1F3F5D0
     void InitValues(int numberOfElements, int index);
     // public System.Void .ctor()
-    // Offset: 0x10ED70C
+    // Offset: 0x1F3F720
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -84,17 +85,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<IntListSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x10ED654
+    // Offset: 0x1F3F668
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    bool GetInitValues(int& idx, int& numberOfElements);
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x10ED66C
+    // Offset: 0x1F3F680
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x10ED6E4
+    // Offset: 0x1F3F6F8
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IntListSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IntListSettingsController::*)(int&, int&)>(&GlobalNamespace::IntListSettingsController::GetInitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IntListSettingsController::*)(ByRef<int>, ByRef<int>)>(&GlobalNamespace::IntListSettingsController::GetInitValues)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* numberOfElements = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

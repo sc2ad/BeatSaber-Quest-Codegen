@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.NetworkInterface
 #include "System/Net/NetworkInformation/NetworkInterface.hpp"
 // Including type: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
@@ -87,32 +88,32 @@ namespace System::Net::NetworkInformation {
     // Set instance field: private System.Net.NetworkInformation.IPInterfaceProperties ip_if_props
     void _set_ip_if_props(System::Net::NetworkInformation::IPInterfaceProperties* value);
     // System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr)
-    // Offset: 0x14641F8
+    // Offset: 0x11D5258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32NetworkInterface2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32NetworkInterface2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32NetworkInterface2*, creationType>(addr)));
     }
     // static private System.Int32 GetIfEntry(ref System.Net.NetworkInformation.Win32_MIB_IFROW row)
-    // Offset: 0x14653E8
-    static int GetIfEntry(System::Net::NetworkInformation::Win32_MIB_IFROW& row);
+    // Offset: 0x11D6448
+    static int GetIfEntry(ByRef<System::Net::NetworkInformation::Win32_MIB_IFROW> row);
     // public override System.String get_Name()
-    // Offset: 0x14654CC
+    // Offset: 0x11D652C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x14654D4
+    // Offset: 0x11D6534
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x14654DC
+    // Offset: 0x11D653C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x14654C4
+    // Offset: 0x11D6524
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
@@ -130,7 +131,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface2*,
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface2::GetIfEntry
 // Il2CppName: GetIfEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::NetworkInformation::Win32_MIB_IFROW&)>(&System::Net::NetworkInformation::Win32NetworkInterface2::GetIfEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<System::Net::NetworkInformation::Win32_MIB_IFROW>)>(&System::Net::NetworkInformation::Win32NetworkInterface2::GetIfEntry)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "Win32_MIB_IFROW")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32NetworkInterface2*), "GetIfEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});

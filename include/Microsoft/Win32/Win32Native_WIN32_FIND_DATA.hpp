@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Microsoft.Win32.Win32Native
 #include "Microsoft/Win32/Win32Native.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,7 +45,7 @@ namespace Microsoft::Win32 {
     // Set instance field: System.String cFileName
     void _set_cFileName(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1A122A4
+    // Offset: 0x16C9398
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

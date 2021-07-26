@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifierVRIK
 #include "RootMotion/FinalIK/OffsetModifierVRIK.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,14 +47,14 @@ namespace RootMotion::FinalIK {
     ::Array<UnityEngine::AnimationCurve*>* offsetCurves;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::AnimationCurve*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF550C
+    // [TooltipAttribute] Offset: 0xEA2128
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
     // Size: 0x8
     // Offset: 0x38
     ::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>* positionOffsets;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF5544
+    // [TooltipAttribute] Offset: 0xEA2160
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     // Size: 0x8
     // Offset: 0x40
@@ -75,10 +76,10 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     void _set_rotationOffsets(::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>* value);
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1C9551C
+    // Offset: 0x18332BC
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x1C958A4
+    // Offset: 0x1833644
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -92,7 +93,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1C952FC
+    // Offset: 0x183309C
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::OnModifyOffset()
     void OnModifyOffset();

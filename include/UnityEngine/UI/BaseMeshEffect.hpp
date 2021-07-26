@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.UI.IMeshModifier
@@ -55,16 +56,16 @@ namespace UnityEngine::UI {
     // Set instance field: private UnityEngine.UI.Graphic m_Graphic
     void _set_m_Graphic(UnityEngine::UI::Graphic* value);
     // protected UnityEngine.UI.Graphic get_graphic()
-    // Offset: 0x140BD4C
+    // Offset: 0x11B49AC
     UnityEngine::UI::Graphic* get_graphic();
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x140BFE8
+    // Offset: 0x11B4C48
     void ModifyMesh(UnityEngine::Mesh* mesh);
     // public System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
     // Offset: 0xFFFFFFFF
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
     // protected System.Void .ctor()
-    // Offset: 0x140C124
+    // Offset: 0x11B4D84
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -78,17 +79,17 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMeshEffect*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x140BDE4
+    // Offset: 0x11B4A44
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x140BE90
+    // Offset: 0x11B4AF0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x140BF3C
+    // Offset: 0x11B4B9C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();

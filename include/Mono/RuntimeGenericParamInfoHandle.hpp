@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
@@ -57,13 +58,13 @@ namespace Mono {
     // Set instance field: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
     void _set_value(Mono::RuntimeStructs::GenericParamInfo* value);
     // System.Type[] get_Constraints()
-    // Offset: 0xEECF78
+    // Offset: 0xD80F30
     ::Array<System::Type*>* get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
-    // Offset: 0xEECF80
+    // Offset: 0xD80F38
     System::Reflection::GenericParameterAttributes get_Attributes();
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xEECF4C
+    // Offset: 0xD80F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RuntimeGenericParamInfoHandle(System::IntPtr ptr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeGenericParamInfoHandle::.ctor");
@@ -71,10 +72,10 @@ namespace Mono {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
     }
     // private System.Type[] GetConstraints()
-    // Offset: 0xEECF9C
+    // Offset: 0xD80F54
     ::Array<System::Type*>* GetConstraints();
     // private System.Int32 GetConstraintsCount()
-    // Offset: 0xEECFA4
+    // Offset: 0xD80F5C
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
   #pragma pack(pop)

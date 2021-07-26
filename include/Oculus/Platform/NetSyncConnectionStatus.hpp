@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE9354
+    // [DescriptionAttribute] Offset: 0xE96F70
     // static field const value: static public Oculus.Platform.NetSyncConnectionStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncConnectionStatus Unknown
     static Oculus::Platform::NetSyncConnectionStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncConnectionStatus Unknown
     static void _set_Unknown(Oculus::Platform::NetSyncConnectionStatus value);
-    // [DescriptionAttribute] Offset: 0xDE938C
+    // [DescriptionAttribute] Offset: 0xE96FA8
     // static field const value: static public Oculus.Platform.NetSyncConnectionStatus Connecting
     static constexpr const int Connecting = 1;
     // Get static field: static public Oculus.Platform.NetSyncConnectionStatus Connecting
     static Oculus::Platform::NetSyncConnectionStatus _get_Connecting();
     // Set static field: static public Oculus.Platform.NetSyncConnectionStatus Connecting
     static void _set_Connecting(Oculus::Platform::NetSyncConnectionStatus value);
-    // [DescriptionAttribute] Offset: 0xDE93C4
+    // [DescriptionAttribute] Offset: 0xE96FE0
     // static field const value: static public Oculus.Platform.NetSyncConnectionStatus Disconnected
     static constexpr const int Disconnected = 2;
     // Get static field: static public Oculus.Platform.NetSyncConnectionStatus Disconnected
     static Oculus::Platform::NetSyncConnectionStatus _get_Disconnected();
     // Set static field: static public Oculus.Platform.NetSyncConnectionStatus Disconnected
     static void _set_Disconnected(Oculus::Platform::NetSyncConnectionStatus value);
-    // [DescriptionAttribute] Offset: 0xDE93FC
+    // [DescriptionAttribute] Offset: 0xE97018
     // static field const value: static public Oculus.Platform.NetSyncConnectionStatus Connected
     static constexpr const int Connected = 3;
     // Get static field: static public Oculus.Platform.NetSyncConnectionStatus Connected

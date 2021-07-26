@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 // Including type: INoTransitionColorSchemeProvider
@@ -83,13 +84,13 @@ namespace GlobalNamespace {
     // Set instance field: private ColorSchemeSO _colorScheme
     void _set__colorScheme(GlobalNamespace::ColorSchemeSO* value);
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x11B9050
+    // Offset: 0x1FE7A94
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x11B9058
+    // Offset: 0x1FE7A9C
     void set_colorScheme(GlobalNamespace::ColorSchemeSO* value);
     // public System.Void .ctor()
-    // Offset: 0x11B9758
+    // Offset: 0x1FE819C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmappingSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11B9060
+    // Offset: 0x1FE7AA4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

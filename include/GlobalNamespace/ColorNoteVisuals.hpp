@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: INoteControllerDidInitEvent
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteControllerBase* noteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteControllerBase*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE036D0
+    // [SpaceAttribute] Offset: 0xEB02EC
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x20
@@ -74,7 +75,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::MeshRenderer*>* circleMeshRenderers;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::MeshRenderer*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE03728
+    // [InjectAttribute] Offset: 0xEB0344
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x38
@@ -109,7 +110,7 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE03748
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEB0364
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
@@ -143,34 +144,34 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _noteColor
     void _set__noteColor(UnityEngine::Color value);
     // private System.Void set_showArrow(System.Boolean value)
-    // Offset: 0x107C8B8
+    // Offset: 0x1EFE1B4
     void set_showArrow(bool value);
     // private System.Void set_showCircle(System.Boolean value)
-    // Offset: 0x107C934
+    // Offset: 0x1EFE230
     void set_showCircle(bool value);
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x107C770
+    // Offset: 0x1EFE06C
     void add_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x107C814
+    // Offset: 0x1EFE110
     void remove_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* value);
     // protected System.Void Awake()
-    // Offset: 0x107C9B0
+    // Offset: 0x1EFE2AC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x107CB88
+    // Offset: 0x1EFE484
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x107CDAC
+    // Offset: 0x1EFE6A8
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
-    // Offset: 0x107CF78
+    // Offset: 0x1EFE874
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x107CFA4
+    // Offset: 0x1EFE8A0
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x107CFD0
+    // Offset: 0x1EFE8CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -183,7 +184,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorNoteVisuals*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x107CFD8
+    // Offset: 0x1EFE8D4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,19 +55,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _icon
     void _set__icon(UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Image get_icon()
-    // Offset: 0x235856C
+    // Offset: 0x1DE09AC
     UnityEngine::UI::Image* get_icon();
     // public System.Void set_icon(UnityEngine.UI.Image value)
-    // Offset: 0x2358564
+    // Offset: 0x1DE09A4
     void set_icon(UnityEngine::UI::Image* value);
     // public System.String get_text()
-    // Offset: 0x2358590
+    // Offset: 0x1DE09D0
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x2358574
+    // Offset: 0x1DE09B4
     void set_text(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x23585AC
+    // Offset: 0x1DE09EC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

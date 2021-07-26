@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -40,7 +41,7 @@ namespace Assets::OVR::Scripts {
     // Set instance field: public System.String message
     void _set_message(::Il2CppString* value);
     // public System.Void .ctor(System.String cat, System.String msg)
-    // Offset: 0x1575B6C
+    // Offset: 0x127A13C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Record* New_ctor(::Il2CppString* cat, ::Il2CppString* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::Record::.ctor");

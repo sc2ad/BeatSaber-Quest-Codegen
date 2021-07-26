@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DisappearingArrowControllerBase`1
 #include "GlobalNamespace/DisappearingArrowControllerBase_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,10 +39,10 @@ namespace GlobalNamespace {
     // Set instance field: private MultiplayerConnectedPlayerGameNoteController _gameNoteController
     void _set__gameNoteController(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* value);
     // protected MultiplayerConnectedPlayerGameNoteController get_gameNoteController()
-    // Offset: 0x11A1210
+    // Offset: 0x1FB8C7C
     GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x11A1218
+    // Offset: 0x1FB8C84
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

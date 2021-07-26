@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -73,10 +74,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector4 rightScaleBias
     void _set_rightScaleBias(UnityEngine::Vector4 value);
     // static private System.Void .cctor()
-    // Offset: 0x15F7424
+    // Offset: 0x12FA9F4
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xEE13B4
+    // Offset: 0xD7536C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

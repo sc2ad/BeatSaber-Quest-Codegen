@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext
 #include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,19 +50,19 @@ namespace System::Runtime::Serialization {
     // Set instance field: System.Runtime.Serialization.StreamingContext context
     void _set_context(System::Runtime::Serialization::StreamingContext value);
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x167BBD8
+    // Offset: 0x137E294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberHolder* New_ctor(System::Type* type, System::Runtime::Serialization::StreamingContext ctx) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::MemberHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberHolder*, creationType>(type, ctx)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x167BC18
+    // Offset: 0x137E2D4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x167BC38
+    // Offset: 0x137E2F4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

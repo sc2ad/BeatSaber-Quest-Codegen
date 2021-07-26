@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace System::Threading {
     // Creating value type constructor for type: LockRecursionException
     LockRecursionException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x18A5BD8
+    // Offset: 0x1576FDC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -39,7 +40,7 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<LockRecursionException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x18A5C40
+    // Offset: 0x1577044
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,7 +49,7 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<LockRecursionException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18A5CB8
+    // Offset: 0x15770BC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

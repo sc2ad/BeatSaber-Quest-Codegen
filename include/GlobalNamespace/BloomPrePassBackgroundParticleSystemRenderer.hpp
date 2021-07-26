@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassBackgroundNonLightRendererCore
 #include "GlobalNamespace/BloomPrePassBackgroundNonLightRendererCore.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,12 +53,12 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Renderer _renderer
     void _set__renderer(UnityEngine::Renderer* value);
     // protected override UnityEngine.Renderer get_renderer()
-    // Offset: 0x1DED334
+    // Offset: 0x195FF14
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: UnityEngine.Renderer BloomPrePassBackgroundNonLightRendererCore::get_renderer()
     UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x1DED3A0
+    // Offset: 0x195FF80
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundParticleSystemRenderer*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1DED33C
+    // Offset: 0x195FF1C
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::Awake()
     void Awake();

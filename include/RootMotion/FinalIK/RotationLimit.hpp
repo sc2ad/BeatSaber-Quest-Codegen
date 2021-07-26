@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -84,55 +85,55 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean defaultLocalRotationSet
     void _set_defaultLocalRotationSet(bool value);
     // public UnityEngine.Vector3 get_secondaryAxis()
-    // Offset: 0x1ABAB50
+    // Offset: 0x17323A0
     UnityEngine::Vector3 get_secondaryAxis();
     // public UnityEngine.Vector3 get_crossAxis()
-    // Offset: 0x1ABAB8C
+    // Offset: 0x17323DC
     UnityEngine::Vector3 get_crossAxis();
     // public System.Boolean get_defaultLocalRotationOverride()
-    // Offset: 0x1ABAC5C
+    // Offset: 0x17324AC
     bool get_defaultLocalRotationOverride();
     // private System.Void set_defaultLocalRotationOverride(System.Boolean value)
-    // Offset: 0x1ABAC64
+    // Offset: 0x17324B4
     void set_defaultLocalRotationOverride(bool value);
     // public System.Void SetDefaultLocalRotation()
-    // Offset: 0x1ABA7B4
+    // Offset: 0x1732004
     void SetDefaultLocalRotation();
     // public System.Void SetDefaultLocalRotation(UnityEngine.Quaternion localRotation)
-    // Offset: 0x1ABA7FC
+    // Offset: 0x173204C
     void SetDefaultLocalRotation(UnityEngine::Quaternion localRotation);
     // public UnityEngine.Quaternion GetLimitedLocalRotation(UnityEngine.Quaternion localRotation, out System.Boolean changed)
-    // Offset: 0x1ABA814
-    UnityEngine::Quaternion GetLimitedLocalRotation(UnityEngine::Quaternion localRotation, bool& changed);
+    // Offset: 0x1732064
+    UnityEngine::Quaternion GetLimitedLocalRotation(UnityEngine::Quaternion localRotation, ByRef<bool> changed);
     // public System.Boolean Apply()
-    // Offset: 0x1ABAAA8
+    // Offset: 0x17322F8
     bool Apply();
     // public System.Void Disable()
-    // Offset: 0x1ABAB18
+    // Offset: 0x1732368
     void Disable();
     // protected UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
     // Offset: 0xFFFFFFFF
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // private System.Void Awake()
-    // Offset: 0x1ABA9B8
+    // Offset: 0x1732208
     void Awake();
     // private System.Void LateUpdate()
-    // Offset: 0x1ABAC70
+    // Offset: 0x17324C0
     void LateUpdate();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x1ABAC74
+    // Offset: 0x17324C4
     void LogWarning(::Il2CppString* message);
     // static protected UnityEngine.Quaternion Limit1DOF(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis)
-    // Offset: 0x1ABACA4
+    // Offset: 0x17324F4
     static UnityEngine::Quaternion Limit1DOF(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis);
     // static protected UnityEngine.Quaternion LimitTwist(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis, UnityEngine.Vector3 orthoAxis, System.Single twistLimit)
-    // Offset: 0x1ABAD88
+    // Offset: 0x17325D8
     static UnityEngine::Quaternion LimitTwist(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis, UnityEngine::Vector3 orthoAxis, float twistLimit);
     // static protected System.Single GetOrthogonalAngle(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, UnityEngine.Vector3 normal)
-    // Offset: 0x1ABB004
+    // Offset: 0x1732854
     static float GetOrthogonalAngle(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, UnityEngine::Vector3 normal);
     // protected System.Void .ctor()
-    // Offset: 0x1ABB0C0
+    // Offset: 0x1732910
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimit::GetLimitedLocalRotation
 // Il2CppName: GetLimitedLocalRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimit::*)(UnityEngine::Quaternion, bool&)>(&RootMotion::FinalIK::RotationLimit::GetLimitedLocalRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimit::*)(UnityEngine::Quaternion, ByRef<bool>)>(&RootMotion::FinalIK::RotationLimit::GetLimitedLocalRotation)> {
   static const MethodInfo* get() {
     static auto* localRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* changed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

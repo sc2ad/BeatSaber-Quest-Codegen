@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.MessageDictionary
 #include "System/Runtime/Remoting/Messaging/MessageDictionary.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
@@ -65,29 +66,29 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.Int32 _posMethod
     void _set__posMethod(int value);
     // public System.Object get_Current()
-    // Offset: 0x19FC28C
+    // Offset: 0x16B3380
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x19FC2F8
+    // Offset: 0x16B33EC
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x19FC6EC
+    // Offset: 0x16B37E0
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x19FC6F0
+    // Offset: 0x16B37E4
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.MessageDictionary methodDictionary)
-    // Offset: 0x19FC130
+    // Offset: 0x16B3224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageDictionary::DictionaryEnumerator* New_ctor(System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageDictionary::DictionaryEnumerator*, creationType>(methodDictionary)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x19FC46C
+    // Offset: 0x16B3560
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x19FC630
+    // Offset: 0x16B3724
     void Reset();
   }; // System.Runtime.Remoting.Messaging.MessageDictionary/System.Runtime.Remoting.Messaging.DictionaryEnumerator
   #pragma pack(pop)

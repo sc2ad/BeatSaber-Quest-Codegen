@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Constraint
 #include "RootMotion/FinalIK/Constraint.hpp"
 // Including type: UnityEngine.Vector3
@@ -45,14 +46,14 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Vector3 position
     void _set_position(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1CE0A7C
+    // Offset: 0x187D81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintPosition* New_ctor(UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPosition*, creationType>(transform)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1CE0A74
+    // Offset: 0x187D814
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -62,7 +63,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPosition*, creationType>()));
     }
     // public override System.Void UpdateConstraint()
-    // Offset: 0x1CE0968
+    // Offset: 0x187D708
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();

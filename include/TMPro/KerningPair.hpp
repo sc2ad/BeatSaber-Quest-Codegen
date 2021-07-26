@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.GlyphValueRecord_Legacy
 #include "TMPro/GlyphValueRecord_Legacy.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -19,7 +20,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class KerningPair : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDC2230
+    // [FormerlySerializedAsAttribute] Offset: 0xE6EE4C
     // private System.UInt32 m_FirstGlyph
     // Size: 0x4
     // Offset: 0x10
@@ -32,7 +33,7 @@ namespace TMPro {
     TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments;
     // Field size check
     static_assert(sizeof(TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xDC228C
+    // [FormerlySerializedAsAttribute] Offset: 0xE6EEA8
     // private System.UInt32 m_SecondGlyph
     // Size: 0x4
     // Offset: 0x24
@@ -45,7 +46,7 @@ namespace TMPro {
     TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments;
     // Field size check
     static_assert(sizeof(TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xDC22E8
+    // [FormerlySerializedAsAttribute] Offset: 0xE6EF04
     // public System.Single xOffset
     // Size: 0x4
     // Offset: 0x38
@@ -89,48 +90,48 @@ namespace TMPro {
     // Set instance field: private System.Boolean m_IgnoreSpacingAdjustments
     void _set_m_IgnoreSpacingAdjustments(bool value);
     // public System.UInt32 get_firstGlyph()
-    // Offset: 0x10B9588
+    // Offset: 0xFF1088
     uint get_firstGlyph();
     // public System.Void set_firstGlyph(System.UInt32 value)
-    // Offset: 0x10B9590
+    // Offset: 0xFF1090
     void set_firstGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_firstGlyphAdjustments()
-    // Offset: 0x10B9598
+    // Offset: 0xFF1098
     TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
     // public System.UInt32 get_secondGlyph()
-    // Offset: 0x10B95A4
+    // Offset: 0xFF10A4
     uint get_secondGlyph();
     // public System.Void set_secondGlyph(System.UInt32 value)
-    // Offset: 0x10B95AC
+    // Offset: 0xFF10AC
     void set_secondGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_secondGlyphAdjustments()
-    // Offset: 0x10B95B4
+    // Offset: 0xFF10B4
     TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
     // public System.Boolean get_ignoreSpacingAdjustments()
-    // Offset: 0x10B95C0
+    // Offset: 0xFF10C0
     bool get_ignoreSpacingAdjustments();
     // public System.Void .ctor(System.UInt32 left, System.UInt32 right, System.Single offset)
-    // Offset: 0x10B95F8
+    // Offset: 0xFF10F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint left, uint right, float offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(left, right, offset)));
     }
     // public System.Void .ctor(System.UInt32 firstGlyph, TMPro.GlyphValueRecord_Legacy firstGlyphAdjustments, System.UInt32 secondGlyph, TMPro.GlyphValueRecord_Legacy secondGlyphAdjustments)
-    // Offset: 0x10B9644
+    // Offset: 0xFF1144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x10B96DC
+    // Offset: 0xFF11DC
     static void _cctor();
     // System.Void ConvertLegacyKerningData()
-    // Offset: 0x10B96D0
+    // Offset: 0xFF11D0
     void ConvertLegacyKerningData();
     // public System.Void .ctor()
-    // Offset: 0x10B95C8
+    // Offset: 0xFF10C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

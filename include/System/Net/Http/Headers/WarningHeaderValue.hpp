@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Nullable`1
@@ -82,43 +83,43 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.String <Text>k__BackingField
     void _set_$Text$k__BackingField(::Il2CppString* value);
     // public System.String get_Agent()
-    // Offset: 0x156E748
+    // Offset: 0x1272D18
     ::Il2CppString* get_Agent();
     // private System.Void set_Agent(System.String value)
-    // Offset: 0x156E750
+    // Offset: 0x1272D20
     void set_Agent(::Il2CppString* value);
     // public System.Int32 get_Code()
-    // Offset: 0x156E758
+    // Offset: 0x1272D28
     int get_Code();
     // private System.Void set_Code(System.Int32 value)
-    // Offset: 0x156E760
+    // Offset: 0x1272D30
     void set_Code(int value);
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x156E768
+    // Offset: 0x1272D38
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x156E77C
+    // Offset: 0x1272D4C
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.String get_Text()
-    // Offset: 0x156E790
+    // Offset: 0x1272D60
     ::Il2CppString* get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x156E798
+    // Offset: 0x1272D68
     void set_Text(::Il2CppString* value);
     // static private System.Boolean IsCodeValid(System.Int32 code)
-    // Offset: 0x156E7A0
+    // Offset: 0x1272D70
     static bool IsCodeValid(int code);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x156E7AC
+    // Offset: 0x1272D7C
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.WarningHeaderValue> result)
-    // Offset: 0x156E9E0
-    static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*& result);
+    // Offset: 0x1272FB0
+    static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.WarningHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x156EA80
-    static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::WarningHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
+    // Offset: 0x1273050
+    static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::WarningHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x156E740
+    // Offset: 0x1272D10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -127,17 +128,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<WarningHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x156E7B4
+    // Offset: 0x1272D84
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x156E8F8
+    // Offset: 0x1272EC8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x156ED2C
+    // Offset: 0x12732FC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -234,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::WarningHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*&)>(&System::Net::Http::Headers::WarningHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*>)>(&System::Net::Http::Headers::WarningHeaderValue::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* minimalCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -245,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::Http::Headers::WarningHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::WarningHeaderValue*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::WarningHeaderValue::TryParseElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, ByRef<System::Net::Http::Headers::WarningHeaderValue*>, ByRef<System::Net::Http::Headers::Token>)>(&System::Net::Http::Headers::WarningHeaderValue::TryParseElement)> {
   static const MethodInfo* get() {
     static auto* lexer = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Lexer")->byval_arg;
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "WarningHeaderValue")->this_arg;

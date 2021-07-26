@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,20 +32,20 @@ namespace System::Net {
     // Creating value type constructor for type: HeaderParser
     HeaderParser() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x162E2E8
+    // Offset: 0x13309A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderParser* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderParser*, creationType>(object, method)));
     }
     // public System.String[] Invoke(System.String value)
-    // Offset: 0x162E3E8
+    // Offset: 0x1330AA4
     ::Array<::Il2CppString*>* Invoke(::Il2CppString* value);
     // public System.IAsyncResult BeginInvoke(System.String value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x162E784
+    // Offset: 0x1330E40
     System::IAsyncResult* BeginInvoke(::Il2CppString* value, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String[] EndInvoke(System.IAsyncResult result)
-    // Offset: 0x162E7A8
+    // Offset: 0x1330E64
     ::Array<::Il2CppString*>* EndInvoke(System::IAsyncResult* result);
   }; // System.Net.HeaderParser
   #pragma pack(pop)

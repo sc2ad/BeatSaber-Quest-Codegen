@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRHandTest
 #include "GlobalNamespace/OVRHandTest.hpp"
 // Including type: OVRHandTest/BoolMonitor
@@ -33,16 +34,16 @@ namespace GlobalNamespace {
     // Set static field: static public OVRHandTest/BoolMonitor/BoolGenerator <>9__14_0
     static void _set_$$9__14_0(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x14E2FC4
+    // Offset: 0x1227A60
     static void _cctor();
     // System.Boolean <Start>b__14_0()
-    // Offset: 0x14E3030
+    // Offset: 0x1227ACC
     bool $Start$b__14_0();
     // System.Boolean <.cctor>b__19_0()
-    // Offset: 0x14E310C
+    // Offset: 0x1227BA8
     bool $_cctor$b__19_0();
     // public System.Void .ctor()
-    // Offset: 0x14E3028
+    // Offset: 0x1227AC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

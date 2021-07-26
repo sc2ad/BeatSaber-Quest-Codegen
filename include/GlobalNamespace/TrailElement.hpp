@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -62,37 +63,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <time>k__BackingField
     void _set_$time$k__BackingField(float value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1070948
+    // Offset: 0x1EDC41C
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x1070954
+    // Offset: 0x1EDC428
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0x1070960
+    // Offset: 0x1EDC434
     UnityEngine::Vector3 get_normal();
     // private System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0x107096C
+    // Offset: 0x1EDC440
     void set_normal(UnityEngine::Vector3 value);
     // public System.Single get_distance()
-    // Offset: 0x1070978
+    // Offset: 0x1EDC44C
     float get_distance();
     // private System.Void set_distance(System.Single value)
-    // Offset: 0x1070980
+    // Offset: 0x1EDC454
     void set_distance(float value);
     // public System.Single get_time()
-    // Offset: 0x1070988
+    // Offset: 0x1EDC45C
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0x1070990
+    // Offset: 0x1EDC464
     void set_time(float value);
     // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x1070998
+    // Offset: 0x1EDC46C
     void SetData(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float time);
     // public System.Void SetDistance(System.Single value)
-    // Offset: 0x1070A98
+    // Offset: 0x1EDC56C
     void SetDistance(float value);
     // public System.Void .ctor()
-    // Offset: 0x1070AA0
+    // Offset: 0x1EDC574
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

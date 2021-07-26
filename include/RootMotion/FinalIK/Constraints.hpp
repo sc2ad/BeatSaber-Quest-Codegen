@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,7 +51,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xDF2878
+    // [RangeAttribute] Offset: 0xE9F494
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x38
@@ -69,7 +70,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xDF2890
+    // [RangeAttribute] Offset: 0xE9F4AC
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x54
@@ -111,16 +112,16 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single rotationWeight
     void _set_rotationWeight(float value);
     // public System.Boolean IsValid()
-    // Offset: 0x1CE1134
+    // Offset: 0x187DED4
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1CDFBB8
+    // Offset: 0x187C958
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update()
-    // Offset: 0x1CDFD94
+    // Offset: 0x187CB34
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1CE04BC
+    // Offset: 0x187D25C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

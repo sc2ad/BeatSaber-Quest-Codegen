@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,20 +39,20 @@ namespace UnityEngineInternal::Input {
     // Creating value type constructor for type: NativeUpdateCallback
     NativeUpdateCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23C9DE4
+    // Offset: 0x1E413DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeUpdateCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngineInternal::Input::NativeUpdateCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeUpdateCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer)
-    // Offset: 0x23C9A14
+    // Offset: 0x1E4100C
     void Invoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, UnityEngineInternal::Input::NativeInputEventBuffer* buffer);
     // public System.IAsyncResult BeginInvoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23C9DF4
+    // Offset: 0x1E413EC
     System::IAsyncResult* BeginInvoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, UnityEngineInternal::Input::NativeInputEventBuffer* buffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23C9E8C
+    // Offset: 0x1E41484
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngineInternal.Input.NativeUpdateCallback
   #pragma pack(pop)

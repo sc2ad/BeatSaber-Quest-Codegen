@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlatformNetworkPlayerModel
 #include "GlobalNamespace/PlatformNetworkPlayerModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamNetworkPlayerModel
     SteamNetworkPlayerModel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x10672A4
+    // Offset: 0x1ED2D78
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()

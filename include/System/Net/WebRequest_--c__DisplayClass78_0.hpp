@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebRequest
 #include "System/Net/WebRequest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,10 +62,10 @@ namespace System::Net {
     // Set instance field: public System.Net.WebRequest <>4__this
     void _set_$$4__this(System::Net::WebRequest* value);
     // System.Threading.Tasks.Task`1<System.IO.Stream> <GetRequestStreamAsync>b__1()
-    // Offset: 0x159F868
+    // Offset: 0x12A2E38
     System::Threading::Tasks::Task_1<System::IO::Stream*>* $GetRequestStreamAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x159F068
+    // Offset: 0x12A2638
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

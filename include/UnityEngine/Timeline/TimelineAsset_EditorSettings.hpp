@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.TimelineAsset
 #include "UnityEngine/Timeline/TimelineAsset.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,22 +55,22 @@ namespace UnityEngine::Timeline {
     // Set instance field: private System.Boolean m_ScenePreview
     void _set_m_ScenePreview(bool value);
     // public System.Single get_fps()
-    // Offset: 0x2316030
+    // Offset: 0x1DA4B10
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0x2316038
+    // Offset: 0x1DA4B18
     void set_fps(float value);
     // public System.Boolean get_scenePreview()
-    // Offset: 0x2316060
+    // Offset: 0x1DA4B40
     bool get_scenePreview();
     // public System.Void set_scenePreview(System.Boolean value)
-    // Offset: 0x2316068
+    // Offset: 0x1DA4B48
     void set_scenePreview(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x23160F4
+    // Offset: 0x1DA4BD4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2316074
+    // Offset: 0x1DA4B54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

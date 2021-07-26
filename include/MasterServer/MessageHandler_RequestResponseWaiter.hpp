@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: MasterServer.MessageHandler/MasterServer.RequestWaiter
@@ -74,29 +75,29 @@ namespace MasterServer {
     // Set instance field: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
     void _set__requestCancellationTokenRegistration(System::Threading::CancellationTokenRegistration value);
     // public System.Threading.Tasks.Task`1<MasterServer.IMasterServerMessage> get_task()
-    // Offset: 0x12DB028
+    // Offset: 0x2095538
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerMessage*>* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12DAEF8
+    // Offset: 0x2095408
     bool get_isWaiting();
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x12DAD00
+    // Offset: 0x2095210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::RequestResponseWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::RequestResponseWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::RequestResponseWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(MasterServer.IMasterServerMessage response)
-    // Offset: 0x12D6DC0
+    // Offset: 0x20912D0
     void Complete(MasterServer::IMasterServerMessage* response);
     // public System.Void Fail(System.Exception ex)
-    // Offset: 0x12DAF68
+    // Offset: 0x2095478
     void Fail(System::Exception* ex);
     // public System.Void Cancel()
-    // Offset: 0x12DAFD0
+    // Offset: 0x20954E0
     void Cancel();
     // public override System.Void Dispose()
-    // Offset: 0x12DAE1C
+    // Offset: 0x209532C
     // Implemented from: MasterServer.MessageHandler/MasterServer.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

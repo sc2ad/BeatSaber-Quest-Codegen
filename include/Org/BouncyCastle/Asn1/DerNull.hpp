@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Null
 #include "Org/BouncyCastle/Asn1/Asn1Null.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,27 +49,27 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private System.Byte[] zeroBytes
     void _set_zeroBytes(::Array<uint8_t>* value);
     // protected internal System.Void .ctor(System.Int32 dummy)
-    // Offset: 0x16EA6AC
+    // Offset: 0x13ECD68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerNull* New_ctor(int dummy) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerNull::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerNull*, creationType>(dummy)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16EA7B8
+    // Offset: 0x13ECE74
     static void _cctor();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16EA70C
+    // Offset: 0x13ECDC8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16EA730
+    // Offset: 0x13ECDEC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x16EA7B0
+    // Offset: 0x13ECE6C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IBeatmapLevelCollection
 #include "GlobalNamespace/IBeatmapLevelCollection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace GlobalNamespace {
     // Set instance field: private CustomPreviewBeatmapLevel[] _customPreviewBeatmapLevels
     void _set__customPreviewBeatmapLevels(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* value);
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x1084CFC
+    // Offset: 0x1F065F8
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor(CustomPreviewBeatmapLevel[] customPreviewBeatmapLevels)
-    // Offset: 0x1084D04
+    // Offset: 0x1F06600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* customPreviewBeatmapLevels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelCollection::.ctor");

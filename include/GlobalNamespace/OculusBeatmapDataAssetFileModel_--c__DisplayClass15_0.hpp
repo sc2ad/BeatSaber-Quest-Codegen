@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusBeatmapDataAssetFileModel
 #include "GlobalNamespace/OculusBeatmapDataAssetFileModel.hpp"
 // Including type: System.Threading.CancellationToken
@@ -74,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: public OculusBeatmapDataAssetFileModel <>4__this
     void _set_$$4__this(GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
     // System.Void <ReloadAssetDetailsForAllLevelsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x11ED120
+    // Offset: 0x201BA78
     void $ReloadAssetDetailsForAllLevelsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // public System.Void .ctor()
-    // Offset: 0x11ED118
+    // Offset: 0x201BA70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

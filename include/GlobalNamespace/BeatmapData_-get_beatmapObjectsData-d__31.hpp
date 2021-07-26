@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapData
 #include "GlobalNamespace/BeatmapData.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -122,32 +123,32 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapObjectData <minBeatmapObjectData>5__4
     void _set_$minBeatmapObjectData$5__4(GlobalNamespace::BeatmapObjectData* value);
     // private BeatmapObjectData System.Collections.Generic.IEnumerator<BeatmapObjectData>.get_Current()
-    // Offset: 0x118F220
+    // Offset: 0x1FD4D58
     GlobalNamespace::BeatmapObjectData* System_Collections_Generic_IEnumerator$BeatmapObjectData$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x118F288
+    // Offset: 0x1FD4DC0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x118D4E0
+    // Offset: 0x1FD3018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapData::$get_beatmapObjectsData$d__31* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapData::$get_beatmapObjectsData$d__31*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x118EF50
+    // Offset: 0x1FD4A88
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x118EF54
+    // Offset: 0x1FD4A8C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x118F228
+    // Offset: 0x1FD4D60
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<BeatmapObjectData> System.Collections.Generic.IEnumerable<BeatmapObjectData>.GetEnumerator()
-    // Offset: 0x118F290
+    // Offset: 0x1FD4DC8
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::BeatmapObjectData*>* System_Collections_Generic_IEnumerable$BeatmapObjectData$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x118F33C
+    // Offset: 0x1FD4E74
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BeatmapData/<get_beatmapObjectsData>d__31
   #pragma pack(pop)

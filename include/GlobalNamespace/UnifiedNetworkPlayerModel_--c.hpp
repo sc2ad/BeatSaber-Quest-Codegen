@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnifiedNetworkPlayerModel
 #include "GlobalNamespace/UnifiedNetworkPlayerModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> <>9__114_0
     static void _set_$$9__114_0(System::Comparison_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x127344C
+    // Offset: 0x20673CC
     static void _cctor();
     // System.Int32 <PlayerOrderChanged>b__114_0(UnifiedNetworkPlayerModel/UnifiedNetworkPlayer a, UnifiedNetworkPlayerModel/UnifiedNetworkPlayer b)
-    // Offset: 0x12734B8
+    // Offset: 0x2067438
     int $PlayerOrderChanged$b__114_0(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* a, GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* b);
     // public System.Void .ctor()
-    // Offset: 0x12734B0
+    // Offset: 0x2067430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

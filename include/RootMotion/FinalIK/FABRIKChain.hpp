@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -35,14 +36,14 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::FABRIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FABRIK*) == 0x8);
-    // [RangeAttribute] Offset: 0xDF379C
+    // [RangeAttribute] Offset: 0xEA03B8
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x18
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xDF37B4
+    // [RangeAttribute] Offset: 0xEA03D0
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x1C
@@ -74,22 +75,22 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Int32[] children
     void _set_children(::Array<int>* value);
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1CE14B0
-    bool IsValid(::Il2CppString*& message);
+    // Offset: 0x187E250
+    bool IsValid(ByRef<::Il2CppString*> message);
     // public System.Void Initiate()
-    // Offset: 0x1CE1578
+    // Offset: 0x187E318
     void Initiate();
     // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1CE1598
+    // Offset: 0x187E338
     void Stage1(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1CE1968
+    // Offset: 0x187E708
     void Stage2(UnityEngine::Vector3 rootPosition, ::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1CE166C
+    // Offset: 0x187E40C
     UnityEngine::Vector3 GetCentroid(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // public System.Void .ctor()
-    // Offset: 0x1CE1A60
+    // Offset: 0x187E800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,7 +108,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain*, "RootMotion.FinalIK", 
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FABRIKChain::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FABRIKChain::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FABRIKChain::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::FABRIKChain::IsValid)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

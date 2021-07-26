@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVR.OpenVR.IVRExtendedDisplay
 #include "OVR/OpenVR/IVRExtendedDisplay.hpp"
 // Including type: System.IntPtr
@@ -45,21 +46,21 @@ namespace OVR::OpenVR {
     // Set instance field: private OVR.OpenVR.IVRExtendedDisplay FnTable
     void _set_FnTable(OVR::OpenVR::IVRExtendedDisplay value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1582030
+    // Offset: 0x1286600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRExtendedDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRExtendedDisplay*, creationType>(pInterface)));
     }
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1582138
-    void GetWindowBounds(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight);
+    // Offset: 0x1286708
+    void GetWindowBounds(ByRef<int> pnX, ByRef<int> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetEyeOutputViewport(OVR.OpenVR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1582164
-    void GetEyeOutputViewport(OVR::OpenVR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight);
+    // Offset: 0x1286734
+    void GetEyeOutputViewport(OVR::OpenVR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
-    // Offset: 0x1582190
-    void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
+    // Offset: 0x1286760
+    void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex, ByRef<int> pnAdapterOutputIndex);
   }; // OVR.OpenVR.CVRExtendedDisplay
   #pragma pack(pop)
   static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay)> __OVR_OpenVR_CVRExtendedDisplaySizeCheck;
@@ -74,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExten
 // Writing MetadataGetter for method: OVR::OpenVR::CVRExtendedDisplay::GetWindowBounds
 // Il2CppName: GetWindowBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(int&, int&, uint&, uint&)>(&OVR::OpenVR::CVRExtendedDisplay::GetWindowBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(ByRef<int>, ByRef<int>, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVRExtendedDisplay::GetWindowBounds)> {
   static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport
 // Il2CppName: GetEyeOutputViewport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(OVR::OpenVR::EVREye, uint&, uint&, uint&, uint&)>(&OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(OVR::OpenVR::EVREye, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -99,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRExtendedDisplay::GetDXGIOutputInfo
 // Il2CppName: GetDXGIOutputInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(int&, int&)>(&OVR::OpenVR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(ByRef<int>, ByRef<int>)>(&OVR::OpenVR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
   static const MethodInfo* get() {
     static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnAdapterOutputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatLine* beatLinePrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLine*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0AA40
+    // [InjectAttribute] Offset: 0xEB765C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x50
@@ -110,7 +111,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly GameplayCoreSceneSetupData _sceneSetupData
     void _set__sceneSetupData(GlobalNamespace::GameplayCoreSceneSetupData* value);
     // public System.Void .ctor()
-    // Offset: 0x109A2B8
+    // Offset: 0x1EF2760
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -125,7 +126,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x109A114
+    // Offset: 0x1EF25BC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

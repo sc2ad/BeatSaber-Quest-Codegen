@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AlphabetScrollInfo
 #include "GlobalNamespace/AlphabetScrollInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Int32 cellIdx
     void _set_cellIdx(int value);
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
-    // Offset: 0x120DDEC
+    // Offset: 0x203A744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AlphabetScrollInfo::Data::.ctor");

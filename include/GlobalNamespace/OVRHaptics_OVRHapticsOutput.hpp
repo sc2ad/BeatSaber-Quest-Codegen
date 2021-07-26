@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRHaptics
 #include "GlobalNamespace/OVRHaptics.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -153,26 +154,26 @@ namespace GlobalNamespace {
     // Set instance field: private OVRHapticsClip m_paddingClip
     void _set_m_paddingClip(GlobalNamespace::OVRHapticsClip* value);
     // public System.Void .ctor(System.UInt32 controller)
-    // Offset: 0x14E3908
+    // Offset: 0x12283A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput* New_ctor(uint controller) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHaptics::OVRHapticsOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHaptics::OVRHapticsOutput*, creationType>(controller)));
     }
     // public System.Void Process()
-    // Offset: 0x14E3C38
+    // Offset: 0x12286D4
     void Process();
     // public System.Void Preempt(OVRHapticsClip clip)
-    // Offset: 0x14E4B20
+    // Offset: 0x12295BC
     void Preempt(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Queue(OVRHapticsClip clip)
-    // Offset: 0x14E4BDC
+    // Offset: 0x1229678
     void Queue(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Mix(OVRHapticsClip clip)
-    // Offset: 0x14E4C80
+    // Offset: 0x122971C
     void Mix(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Clear()
-    // Offset: 0x14E5168
+    // Offset: 0x1229C04
     void Clear();
   }; // OVRHaptics/OVRHapticsOutput
   #pragma pack(pop)

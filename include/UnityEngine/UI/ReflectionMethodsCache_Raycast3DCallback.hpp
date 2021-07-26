@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.ReflectionMethodsCache
 #include "UnityEngine/UI/ReflectionMethodsCache.hpp"
 // Including type: System.MulticastDelegate
@@ -40,21 +41,21 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Raycast3DCallback
     Raycast3DCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1986F10
+    // Offset: 0x1659314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::Raycast3DCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::Raycast3DCallback*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(UnityEngine.Ray r, out UnityEngine.RaycastHit hit, System.Single f, System.Int32 i)
-    // Offset: 0x1986F20
-    bool Invoke(UnityEngine::Ray r, UnityEngine::RaycastHit& hit, float f, int i);
+    // Offset: 0x1659324
+    bool Invoke(UnityEngine::Ray r, ByRef<UnityEngine::RaycastHit> hit, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, out UnityEngine.RaycastHit hit, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x198729C
-    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, UnityEngine::RaycastHit& hit, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x16596A0
+    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ByRef<UnityEngine::RaycastHit> hit, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(out UnityEngine.RaycastHit hit, System.IAsyncResult result)
-    // Offset: 0x1987390
-    bool EndInvoke(UnityEngine::RaycastHit& hit, System::IAsyncResult* result);
+    // Offset: 0x1659794
+    bool EndInvoke(ByRef<UnityEngine::RaycastHit> hit, System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback
   #pragma pack(pop)
 }
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallbac
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::*)(UnityEngine::Ray, UnityEngine::RaycastHit&, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::*)(UnityEngine::Ray, ByRef<UnityEngine::RaycastHit>, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::*)(UnityEngine::Ray, UnityEngine::RaycastHit&, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::*)(UnityEngine::Ray, ByRef<UnityEngine::RaycastHit>, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
@@ -93,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::*)(UnityEngine::RaycastHit&, System::IAsyncResult*)>(&UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::*)(ByRef<UnityEngine::RaycastHit>, System::IAsyncResult*)>(&UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::EndInvoke)> {
   static const MethodInfo* get() {
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

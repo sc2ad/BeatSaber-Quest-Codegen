@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.Baker
 #include "RootMotion/Baker.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,7 +34,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericBaker : public RootMotion::Baker {
     public:
-    // [TooltipAttribute] Offset: 0xDF24FC
+    // [TooltipAttribute] Offset: 0xE9F118
     // public System.Boolean markAsLegacy
     // Size: 0x1
     // Offset: 0x74
@@ -42,28 +43,28 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: markAsLegacy and: root
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xDF2534
+    // [TooltipAttribute] Offset: 0xE9F150
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x78
     UnityEngine::Transform* root;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF256C
+    // [TooltipAttribute] Offset: 0xE9F188
     // public UnityEngine.Transform rootNode
     // Size: 0x8
     // Offset: 0x80
     UnityEngine::Transform* rootNode;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF25A4
+    // [TooltipAttribute] Offset: 0xE9F1C0
     // public UnityEngine.Transform[] ignoreList
     // Size: 0x8
     // Offset: 0x88
     ::Array<UnityEngine::Transform*>* ignoreList;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF25DC
+    // [TooltipAttribute] Offset: 0xE9F1F8
     // public UnityEngine.Transform[] bakePositionList
     // Size: 0x8
     // Offset: 0x90
@@ -123,16 +124,16 @@ namespace RootMotion {
     // Set instance field: private System.Int32 rootChildIndex
     void _set_rootChildIndex(int value);
     // private System.Void Awake()
-    // Offset: 0x1AC4090
+    // Offset: 0x173B8E0
     void Awake();
     // private System.Boolean IsIgnored(UnityEngine.Transform t)
-    // Offset: 0x1AC42AC
+    // Offset: 0x173BAFC
     bool IsIgnored(UnityEngine::Transform* t);
     // private System.Boolean BakePosition(UnityEngine.Transform t)
-    // Offset: 0x1AC4384
+    // Offset: 0x173BBD4
     bool BakePosition(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1AC46E8
+    // Offset: 0x173BF38
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -146,27 +147,27 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<GenericBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x1AC445C
+    // Offset: 0x173BCAC
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x1AC4464
+    // Offset: 0x173BCB4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x1AC4574
+    // Offset: 0x173BDC4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1AC45F0
+    // Offset: 0x173BE40
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
-    void OnSetCurves(UnityEngine::AnimationClip*& clip);
+    void OnSetCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x1AC466C
+    // Offset: 0x173BEBC
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::GenericBaker::OnSetCurves
 // Il2CppName: OnSetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::GenericBaker::*)(UnityEngine::AnimationClip*&)>(&RootMotion::GenericBaker::OnSetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::GenericBaker::*)(ByRef<UnityEngine::AnimationClip*>)>(&RootMotion::GenericBaker::OnSetCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::GenericBaker*), "OnSetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});

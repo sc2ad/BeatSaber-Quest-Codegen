@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -87,22 +88,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<MissionNode> _missionNodes
     void _set__missionNodes(System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* value);
     // private MissionNode get__rootMissionNode()
-    // Offset: 0x112FE2C
+    // Offset: 0x1F60840
     GlobalNamespace::MissionNode* get__rootMissionNode();
     // private System.Void CreateNodeConnections()
-    // Offset: 0x112FE48
+    // Offset: 0x1F6085C
     void CreateNodeConnections();
     // private System.Void RemoveOldConnections()
-    // Offset: 0x112FED0
+    // Offset: 0x1F608E4
     void RemoveOldConnections();
     // private System.Void CreateConnections(MissionNode missionNode, System.Collections.Generic.List`1<MissionNode> visitedNodes)
-    // Offset: 0x113029C
+    // Offset: 0x1F60CB0
     void CreateConnections(GlobalNamespace::MissionNode* missionNode, System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // private MissionNodeConnection CreateConnectionBetweenNodes(MissionNode parentMissionNode, MissionNode childMissionNode)
-    // Offset: 0x1130434
+    // Offset: 0x1F60E48
     GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(GlobalNamespace::MissionNode* parentMissionNode, GlobalNamespace::MissionNode* childMissionNode);
     // public System.Void .ctor()
-    // Offset: 0x1130540
+    // Offset: 0x1F60F54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

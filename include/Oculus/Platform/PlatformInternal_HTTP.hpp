@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.PlatformInternal
 #include "Oculus/Platform/PlatformInternal.hpp"
 // Including type: Oculus.Platform.Message`1
@@ -27,7 +28,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: HTTP
     HTTP() noexcept {}
     // static public System.Void SetHttpTransferUpdateCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.HttpTransferUpdate> callback)
-    // Offset: 0x23842C0
+    // Offset: 0x23E5CC4
     static void SetHttpTransferUpdateCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*>::Callback* callback);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.HTTP
   #pragma pack(pop)

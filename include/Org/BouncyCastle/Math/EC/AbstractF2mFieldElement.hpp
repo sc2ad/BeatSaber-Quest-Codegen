@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.ECFieldElement
 #include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,16 +23,16 @@ namespace Org::BouncyCastle::Math::EC {
     // Creating value type constructor for type: AbstractF2mFieldElement
     AbstractF2mFieldElement() noexcept {}
     // public System.Boolean get_HasFastTrace()
-    // Offset: 0x1D2F3D8
+    // Offset: 0x18B4B6C
     bool get_HasFastTrace();
     // public Org.BouncyCastle.Math.EC.ECFieldElement HalfTrace()
-    // Offset: 0x1D2F280
+    // Offset: 0x18B4A14
     Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
     // public System.Int32 Trace()
-    // Offset: 0x1D2F3E0
+    // Offset: 0x18B4B74
     int Trace();
     // protected System.Void .ctor()
-    // Offset: 0x1D2F54C
+    // Offset: 0x18B4CE0
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Void ECFieldElement::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -23,16 +24,16 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ToneMappingExtensions
     ToneMappingExtensions() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE0B88
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8E7A4
     // Get static field: static private readonly System.String[] _shaderKeywordMap
     static ::Array<::Il2CppString*>* _get__shaderKeywordMap();
     // Set static field: static private readonly System.String[] _shaderKeywordMap
     static void _set__shaderKeywordMap(::Array<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DF9348
+    // Offset: 0x196BF28
     static void _cctor();
     // static public System.Void SetShaderKeyword(ToneMapping toneMapping)
-    // Offset: 0x1DEF20C
+    // Offset: 0x1961DEC
     static void SetShaderKeyword(GlobalNamespace::ToneMapping toneMapping);
   }; // ToneMappingExtensions
   #pragma pack(pop)

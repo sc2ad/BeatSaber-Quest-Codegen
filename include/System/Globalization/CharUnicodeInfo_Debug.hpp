@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Globalization.CharUnicodeInfo
 #include "System/Globalization/CharUnicodeInfo.hpp"
 // Completed includes
@@ -18,7 +19,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: Debug
     Debug() noexcept {}
     // static System.Void Assert(System.Boolean condition, System.String message)
-    // Offset: 0x17CC428
+    // Offset: 0x149D82C
     static void Assert_(bool condition, ::Il2CppString* message);
   }; // System.Globalization.CharUnicodeInfo/System.Globalization.Debug
   #pragma pack(pop)

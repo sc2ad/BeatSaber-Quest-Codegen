@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.Initialization.CacheInitialization
 #include "UnityEngine/AddressableAssets/Initialization/CacheInitialization.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
@@ -57,13 +58,13 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set instance field: private System.Boolean m_UpdateRequired
     void _set_m_UpdateRequired(bool value);
     // public System.Void Init(System.Func`1<System.Boolean> callback)
-    // Offset: 0x13C7994
+    // Offset: 0x11705F4
     void Init(System::Func_1<bool>* callback);
     // public System.Void Update(System.Single unscaledDeltaTime)
-    // Offset: 0x13C7A2C
+    // Offset: 0x117068C
     void Update(float unscaledDeltaTime);
     // public System.Void .ctor()
-    // Offset: 0x13C7884
+    // Offset: 0x11704E4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -73,12 +74,12 @@ namespace UnityEngine::AddressableAssets::Initialization {
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitialization::CacheInitOp*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x13C799C
+    // Offset: 0x11705FC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x13C7AE4
+    // Offset: 0x1170744
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuRpcManager
 #include "GlobalNamespace/MenuRpcManager.hpp"
 // Including type: RemoteProcedureCall
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ClearRecommendedBeatmapRpc
     ClearRecommendedBeatmapRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1535154
+    // Offset: 0x21417B8
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

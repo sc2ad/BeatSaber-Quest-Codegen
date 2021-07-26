@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,10 +17,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataAssetsModel
     BeatmapDataAssetsModel() noexcept {}
     // static public System.String BeatmapLevelDataAssetNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x118F340
+    // Offset: 0x1FD4E78
     static ::Il2CppString* BeatmapLevelDataAssetNameForBeatmapLevel(::Il2CppString* levelID);
     // static public System.String AssetBundleNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x118F394
+    // Offset: 0x1FD4ECC
     static ::Il2CppString* AssetBundleNameForBeatmapLevel(::Il2CppString* levelID);
   }; // BeatmapDataAssetsModel
   #pragma pack(pop)

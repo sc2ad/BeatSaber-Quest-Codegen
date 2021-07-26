@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -47,30 +48,30 @@ namespace System::Security::Cryptography {
     // Set instance field: private readonly System.String _name
     void _set__name(::Il2CppString* value);
     // static public System.Security.Cryptography.HashAlgorithmName get_SHA256()
-    // Offset: 0x1940338
+    // Offset: 0x161173C
     static System::Security::Cryptography::HashAlgorithmName get_SHA256();
     // public System.String get_Name()
-    // Offset: 0xEEB0CC
+    // Offset: 0xD7F084
     ::Il2CppString* get_Name();
     // public System.Void .ctor(System.String name)
-    // Offset: 0xEEB0C4
+    // Offset: 0xD7F07C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name)
     // public System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName other)
-    // Offset: 0xEEB138
+    // Offset: 0xD7F0F0
     bool Equals(System::Security::Cryptography::HashAlgorithmName other);
     // public override System.String ToString()
-    // Offset: 0xEEB0D4
+    // Offset: 0xD7F08C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEEB130
+    // Offset: 0xD7F0E8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEEB144
+    // Offset: 0xD7F0FC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

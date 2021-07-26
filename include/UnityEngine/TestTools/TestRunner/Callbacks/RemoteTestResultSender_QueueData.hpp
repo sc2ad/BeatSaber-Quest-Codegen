@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 #include "UnityEngine/TestTools/TestRunner/Callbacks/RemoteTestResultSender.hpp"
 // Including type: System.Guid
@@ -44,19 +45,19 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set instance field: private System.Byte[] <data>k__BackingField
     void _set_$data$k__BackingField(::Array<uint8_t>* value);
     // public System.Guid get_id()
-    // Offset: 0x148EEBC
+    // Offset: 0x11FFF1C
     System::Guid get_id();
     // public System.Void set_id(System.Guid value)
-    // Offset: 0x148EEC8
+    // Offset: 0x11FFF28
     void set_id(System::Guid value);
     // public System.Byte[] get_data()
-    // Offset: 0x148EED0
+    // Offset: 0x11FFF30
     ::Array<uint8_t>* get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x148EED8
+    // Offset: 0x11FFF38
     void set_data(::Array<uint8_t>* value);
     // public System.Void .ctor()
-    // Offset: 0x148E434
+    // Offset: 0x11FF494
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

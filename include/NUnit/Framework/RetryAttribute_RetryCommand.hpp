@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.RetryAttribute
 #include "NUnit/Framework/RetryAttribute.hpp"
 // Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
@@ -39,7 +40,7 @@ namespace NUnit::Framework {
     // Set instance field: private System.Int32 _retryCount
     void _set__retryCount(int value);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x22476A4
+    // Offset: 0x1D17518
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

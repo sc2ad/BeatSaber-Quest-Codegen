@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FPSCounterUIController
 #include "GlobalNamespace/FPSCounterUIController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -61,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public FPSCounterUIController <>4__this
     void _set_$$4__this(GlobalNamespace::FPSCounterUIController* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1024BAC
+    // Offset: 0x1E8F680
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1024C14
+    // Offset: 0x1E8F6E8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x10249AC
+    // Offset: 0x1E8F480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FPSCounterUIController::$Start$d__9* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FPSCounterUIController::$Start$d__9::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FPSCounterUIController::$Start$d__9*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1024B08
+    // Offset: 0x1E8F5DC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1024B0C
+    // Offset: 0x1E8F5E0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1024BB4
+    // Offset: 0x1E8F688
     void System_Collections_IEnumerator_Reset();
   }; // FPSCounterUIController/<Start>d__9
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -55,14 +56,14 @@ namespace UnityEngine::TestTools {
     // Set instance field: private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     void _set_m_Context(NUnit::Framework::Internal::ITestExecutionContext* value);
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x148A508
+    // Offset: 0x11FB568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumerator* New_ctor(NUnit::Framework::Internal::ITestExecutionContext* context, System::Collections::IEnumerator* testEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator*, creationType>(context, testEnumerator)));
     }
     // public System.Collections.IEnumerator Execute()
-    // Offset: 0x148A57C
+    // Offset: 0x11FB5DC
     System::Collections::IEnumerator* Execute();
   }; // UnityEngine.TestTools.TestEnumerator
   #pragma pack(pop)

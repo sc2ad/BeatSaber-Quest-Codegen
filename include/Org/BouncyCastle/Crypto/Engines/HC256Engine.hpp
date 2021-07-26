@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IStreamCipher
 #include "Org/BouncyCastle/Crypto/IStreamCipher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -117,31 +118,31 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.Int32 idx
     void _set_idx(int value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E09174
+    // Offset: 0x197CD54
     ::Il2CppString* get_AlgorithmName();
     // private System.UInt32 Step()
-    // Offset: 0x1E08B84
+    // Offset: 0x197C764
     uint Step();
     // private System.Void Init()
-    // Offset: 0x1E08DF4
+    // Offset: 0x197C9D4
     void Init();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E091BC
+    // Offset: 0x197CD9C
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Byte GetByte()
-    // Offset: 0x1E0938C
+    // Offset: 0x197CF6C
     uint8_t GetByte();
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E0940C
+    // Offset: 0x197CFEC
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E095AC
+    // Offset: 0x197D18C
     void Reset();
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1E08DEC
+    // Offset: 0x197C9CC
     static uint RotateRight(uint x, int bits);
     // public System.Void .ctor()
-    // Offset: 0x1E095B0
+    // Offset: 0x197D190
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

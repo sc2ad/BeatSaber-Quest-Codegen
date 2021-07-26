@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IDifficultyBeatmap
 #include "GlobalNamespace/IDifficultyBeatmap.hpp"
 // Including type: BeatmapDifficulty
@@ -109,28 +110,28 @@ namespace GlobalNamespace {
     // Set instance field: private readonly BeatmapData <beatmapData>k__BackingField
     void _set_$beatmapData$k__BackingField(GlobalNamespace::BeatmapData* value);
     // public IBeatmapLevel get_level()
-    // Offset: 0x101F6BC
+    // Offset: 0x1E8A190
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x101F6C4
+    // Offset: 0x1E8A198
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x101F6CC
+    // Offset: 0x1E8A1A0
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x101F6D4
+    // Offset: 0x1E8A1A8
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x101F6DC
+    // Offset: 0x1E8A1B0
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x101F6E4
+    // Offset: 0x1E8A1B8
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0x101F6EC
+    // Offset: 0x1E8A1C0
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void .ctor()
-    // Offset: 0x101F6F4
+    // Offset: 0x1E8A1C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

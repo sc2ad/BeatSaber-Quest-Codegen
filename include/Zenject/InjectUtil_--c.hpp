@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.InjectUtil
 #include "Zenject/InjectUtil.hpp"
 // Including type: Zenject.TypeValuePair
@@ -41,13 +42,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Object,Zenject.TypeValuePair> <>9__0_0
     static void _set_$$9__0_0(System::Func_2<::Il2CppObject*, Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1627828
+    // Offset: 0x132ADF8
     static void _cctor();
     // Zenject.TypeValuePair <CreateArgList>b__0_0(System.Object x)
-    // Offset: 0x1627894
+    // Offset: 0x132AE64
     Zenject::TypeValuePair $CreateArgList$b__0_0(::Il2CppObject* x);
     // public System.Void .ctor()
-    // Offset: 0x162788C
+    // Offset: 0x132AE5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

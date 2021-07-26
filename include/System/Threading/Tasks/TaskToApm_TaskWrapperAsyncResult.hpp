@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.Tasks.TaskToApm
 #include "System/Threading/Tasks/TaskToApm.hpp"
 // Including type: System.IAsyncResult
@@ -70,19 +71,19 @@ namespace System::Threading::Tasks {
     // Set instance field: private readonly System.Boolean m_completedSynchronously
     void _set_m_completedSynchronously(bool value);
     // private System.Object System.IAsyncResult.get_AsyncState()
-    // Offset: 0x188933C
+    // Offset: 0x155A740
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // private System.Boolean System.IAsyncResult.get_CompletedSynchronously()
-    // Offset: 0x1889344
+    // Offset: 0x155A748
     bool System_IAsyncResult_get_CompletedSynchronously();
     // private System.Boolean System.IAsyncResult.get_IsCompleted()
-    // Offset: 0x188934C
+    // Offset: 0x155A750
     bool System_IAsyncResult_get_IsCompleted();
     // private System.Threading.WaitHandle System.IAsyncResult.get_AsyncWaitHandle()
-    // Offset: 0x1889368
+    // Offset: 0x155A76C
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Object state, System.Boolean completedSynchronously)
-    // Offset: 0x1889124
+    // Offset: 0x155A528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskToApm::TaskWrapperAsyncResult* New_ctor(System::Threading::Tasks::Task* task, ::Il2CppObject* state, bool completedSynchronously) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::.ctor");

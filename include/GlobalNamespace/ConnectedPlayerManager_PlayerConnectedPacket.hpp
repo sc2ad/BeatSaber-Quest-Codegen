@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ConnectedPlayerManager
 #include "GlobalNamespace/ConnectedPlayerManager.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -91,22 +92,22 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean isConnectionOwner
     void _set_isConnectionOwner(bool value);
     // static public PacketPool`1<ConnectedPlayerManager/PlayerConnectedPacket> get_pool()
-    // Offset: 0x12BD464
+    // Offset: 0x1092BA0
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12C063C
+    // Offset: 0x1095D78
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12C06A0
+    // Offset: 0x1095DDC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x12BF5EC
+    // Offset: 0x1094D28
     void Release();
     // public ConnectedPlayerManager/PlayerConnectedPacket Init(System.Byte connectionId, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x12C030C
+    // Offset: 0x1095A48
     GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* Init(uint8_t connectionId, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
     // public System.Void .ctor()
-    // Offset: 0x12C070C
+    // Offset: 0x1095E48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

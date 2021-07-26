@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GenericSignal`1
 #include "GlobalNamespace/GenericSignal_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StringSignal
     StringSignal() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x235ACDC
+    // Offset: 0x1DE311C
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

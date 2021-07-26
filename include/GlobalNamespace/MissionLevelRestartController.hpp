@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: ILevelRestartController
@@ -71,10 +72,10 @@ namespace GlobalNamespace {
     // Set instance field: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     void _set__missionObjectiveCheckersManager(GlobalNamespace::MissionObjectiveCheckersManager* value);
     // public System.Void RestartLevel()
-    // Offset: 0x113360C
+    // Offset: 0x1F64020
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0x11336B8
+    // Offset: 0x1F640CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

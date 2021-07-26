@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEB0DC
+    // [ObsoleteAttribute] Offset: 0xE98CF8
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x18
@@ -62,7 +63,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.Models.User User
     void _set_User(Oculus::Platform::Models::User* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14AA7F8
+    // Offset: 0x210666C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAndRoom* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserAndRoom::.ctor");

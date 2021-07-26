@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,20 +37,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapObjectCallback
     BeatmapObjectCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10914D4
+    // Offset: 0x1EE997C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(BeatmapObjectData noteData)
-    // Offset: 0x10914E4
+    // Offset: 0x1EE998C
     void Invoke(GlobalNamespace::BeatmapObjectData* noteData);
     // public System.IAsyncResult BeginInvoke(BeatmapObjectData noteData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1091878
+    // Offset: 0x1EE9D20
     System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapObjectData* noteData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x109189C
+    // Offset: 0x1EE9D44
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapObjectCallback
   #pragma pack(pop)

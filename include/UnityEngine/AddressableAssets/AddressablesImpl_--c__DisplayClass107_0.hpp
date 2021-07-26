@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AddressablesImpl
 #include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
@@ -75,10 +76,10 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
     void _set_instantiateParameters(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> <InstantiateWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x13C385C
+    // Offset: 0x116C4BC
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> $InstantiateWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x13C1B50
+    // Offset: 0x116A7B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

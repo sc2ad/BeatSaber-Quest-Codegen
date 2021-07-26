@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ModalView
 #include "HMUI/ModalView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace HMUI {
     // Set instance field: public System.Boolean prevAnimateParentCanvas
     void _set_prevAnimateParentCanvas(bool value);
     // System.Void <HandleParentViewControllerDidDeactivate>b__0()
-    // Offset: 0x1293E88
+    // Offset: 0x10695C4
     void $HandleParentViewControllerDidDeactivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1293DEC
+    // Offset: 0x1069528
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

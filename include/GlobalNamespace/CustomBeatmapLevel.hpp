@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CustomPreviewBeatmapLevel
 #include "GlobalNamespace/CustomPreviewBeatmapLevel.hpp"
 // Including type: IBeatmapLevel
@@ -56,17 +57,17 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapLevelData _beatmapLevelData
     void _set__beatmapLevelData(GlobalNamespace::BeatmapLevelData* value);
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1084B2C
+    // Offset: 0x1F06428
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip)
-    // Offset: 0x1084B34
+    // Offset: 0x1F06430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevel*, creationType>(customPreviewBeatmapLevel, previewAudioClip)));
     }
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x1084CF4
+    // Offset: 0x1F065F0
     void SetBeatmapLevelData(GlobalNamespace::BeatmapLevelData* beatmapLevelData);
   }; // CustomBeatmapLevel
   #pragma pack(pop)

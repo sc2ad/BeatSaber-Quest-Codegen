@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.Int64 Metric
     void _set_Metric(int64_t value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A9A98
+    // Offset: 0x210590C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SupplementaryMetric* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SupplementaryMetric::.ctor");

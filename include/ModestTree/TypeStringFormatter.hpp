@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: ModestTree
@@ -39,16 +40,16 @@ namespace ModestTree {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache
     static void _set__prettyNameCache(System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13756A8
+    // Offset: 0x111C308
     static void _cctor();
     // static public System.String PrettyName(System.Type type)
-    // Offset: 0x1372F8C
+    // Offset: 0x1119BEC
     static ::Il2CppString* PrettyName(System::Type* type);
     // static private System.String PrettyNameInternal(System.Type type)
-    // Offset: 0x1375008
+    // Offset: 0x111BC68
     static ::Il2CppString* PrettyNameInternal(System::Type* type);
     // static private System.String GetCSharpTypeName(System.String typeName)
-    // Offset: 0x137543C
+    // Offset: 0x111C09C
     static ::Il2CppString* GetCSharpTypeName(::Il2CppString* typeName);
   }; // ModestTree.TypeStringFormatter
   #pragma pack(pop)

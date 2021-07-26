@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectData
 #include "GlobalNamespace/BeatmapObjectData.hpp"
 // Including type: ObstacleType
@@ -61,45 +62,45 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 <width>k__BackingField
     void _set_$width$k__BackingField(int value);
     // public ObstacleType get_obstacleType()
-    // Offset: 0x23B7A7C
+    // Offset: 0x23EFC04
     GlobalNamespace::ObstacleType get_obstacleType();
     // private System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0x23B7A84
+    // Offset: 0x23EFC0C
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0x23B7A8C
+    // Offset: 0x23EFC14
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0x23B7A94
+    // Offset: 0x23EFC1C
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x23B7A9C
+    // Offset: 0x23EFC24
     int get_width();
     // private System.Void set_width(System.Int32 value)
-    // Offset: 0x23B7AA4
+    // Offset: 0x23EFC2C
     void set_width(int value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType obstacleType, System.Single duration, System.Int32 width)
-    // Offset: 0x23B7AAC
+    // Offset: 0x23EFC34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType obstacleType, float duration, int width) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObstacleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleData*, creationType>(time, lineIndex, obstacleType, duration, width)));
     }
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0x23B7B04
+    // Offset: 0x23EFC8C
     void UpdateDuration(float duration);
     // public override BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0x23B7A74
+    // Offset: 0x23EFBFC
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectType BeatmapObjectData::get_beatmapObjectType()
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0x23B7B0C
+    // Offset: 0x23EFC94
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0x23B7B8C
+    // Offset: 0x23EFD14
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);

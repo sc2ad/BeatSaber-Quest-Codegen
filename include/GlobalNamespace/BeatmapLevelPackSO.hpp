@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IBeatmapLevelPack
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* coverImage;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE00BC4
+    // [SpaceAttribute] Offset: 0xEAD7E0
     // private BeatmapLevelCollectionSO _beatmapLevelCollection
     // Size: 0x8
     // Offset: 0x38
@@ -95,25 +96,25 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapLevelCollectionSO _beatmapLevelCollection
     void _set__beatmapLevelCollection(GlobalNamespace::BeatmapLevelCollectionSO* value);
     // public System.String get_packID()
-    // Offset: 0x108D8F0
+    // Offset: 0x1EE5D98
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x108D8F8
+    // Offset: 0x1EE5DA0
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x108D900
+    // Offset: 0x1EE5DA8
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x108D908
+    // Offset: 0x1EE5DB0
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x108D910
+    // Offset: 0x1EE5DB8
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x108D918
+    // Offset: 0x1EE5DC0
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x108D920
+    // Offset: 0x1EE5DC8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

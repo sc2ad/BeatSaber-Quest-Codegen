@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AddressablesImpl
 #include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
@@ -98,15 +99,15 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: private System.Type m_ResourceType
     void _set_m_ResourceType(System::Type* value);
     // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Collections.IEnumerable key, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mergeMode)
-    // Offset: 0x13BFCE4
+    // Offset: 0x1168944
     void Init(UnityEngine::AddressableAssets::AddressablesImpl* aa, System::Type* t, System::Collections::IEnumerable* key, UnityEngine::AddressableAssets::Addressables::MergeMode mergeMode);
     // protected override System.String get_DebugName()
-    // Offset: 0x13C41B0
+    // Offset: 0x116CE10
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::Il2CppString* get_DebugName();
     // public System.Void .ctor()
-    // Offset: 0x13BFC94
+    // Offset: 0x11688F4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -116,12 +117,12 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeysOp*, creationType>()));
     }
     // protected override System.Void Execute()
-    // Offset: 0x13C41F8
+    // Offset: 0x116CE58
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x13C42C0
+    // Offset: 0x116CF20
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();

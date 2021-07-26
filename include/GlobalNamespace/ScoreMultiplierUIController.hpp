@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* multiplierAnimator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06178
+    // [InjectAttribute] Offset: 0xEB2D94
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
@@ -117,28 +118,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _progressTarget
     void _set__progressTarget(float value);
     // protected System.Void Start()
-    // Offset: 0x11530AC
+    // Offset: 0x1F83AC0
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1153334
+    // Offset: 0x1F83D48
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1153338
+    // Offset: 0x1F83D4C
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x115318C
+    // Offset: 0x1F83BA0
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x115333C
+    // Offset: 0x1F83D50
     void UnregisterFromEvents();
     // protected System.Void Update()
-    // Offset: 0x115343C
+    // Offset: 0x1F83E50
     void Update();
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
-    // Offset: 0x1153548
+    // Offset: 0x1F83F5C
     void HandleMultiplierDidChange(int multiplier, float progress);
     // public System.Void .ctor()
-    // Offset: 0x1153628
+    // Offset: 0x1F8403C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

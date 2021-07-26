@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.ServerCertValidationCallback
 #include "System/Net/ServerCertValidationCallback.hpp"
 // Including type: System.Net.Security.SslPolicyErrors
@@ -83,7 +84,7 @@ namespace System::Net {
     // Set instance field: System.Boolean result
     void _set_result(bool value);
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1469C4C
+    // Offset: 0x11DACAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServerCertValidationCallback::CallbackContext::.ctor");

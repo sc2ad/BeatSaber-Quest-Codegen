@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Reflection.PropertyAttributes
@@ -101,13 +102,13 @@ namespace System::Reflection {
     // Set instance field: public System.Reflection.PropertyAttributes attrs
     void _set_attrs(System::Reflection::PropertyAttributes value);
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
-    // Offset: 0x1CB20E8
-    static void get_property_info(System::Reflection::MonoProperty* prop, System::Reflection::MonoPropertyInfo& info, System::Reflection::PInfo req_info);
+    // Offset: 0x184EE88
+    static void get_property_info(System::Reflection::MonoProperty* prop, ByRef<System::Reflection::MonoPropertyInfo> info, System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)
-    // Offset: 0x1CB328C
+    // Offset: 0x185002C
     static ::Array<System::Type*>* GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
-    // Offset: 0x1CB2948
+    // Offset: 0x184F6E8
     static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
   #pragma pack(pop)
@@ -120,7 +121,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection"
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::get_property_info
 // Il2CppName: get_property_info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MonoProperty*, System::Reflection::MonoPropertyInfo&, System::Reflection::PInfo)>(&System::Reflection::MonoPropertyInfo::get_property_info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MonoProperty*, ByRef<System::Reflection::MonoPropertyInfo>, System::Reflection::PInfo)>(&System::Reflection::MonoPropertyInfo::get_property_info)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoProperty")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoPropertyInfo")->this_arg;

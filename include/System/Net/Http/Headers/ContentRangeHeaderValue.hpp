@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Nullable`1
@@ -61,34 +62,34 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.Nullable`1<System.Int64> <To>k__BackingField
     void _set_$To$k__BackingField(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x15633E4
+    // Offset: 0x12679B4
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x15633F0
+    // Offset: 0x12679C0
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_Length()
-    // Offset: 0x15633F8
+    // Offset: 0x12679C8
     System::Nullable_1<int64_t> get_Length();
     // private System.Void set_Length(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1563404
+    // Offset: 0x12679D4
     void set_Length(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x156340C
+    // Offset: 0x12679DC
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1563418
+    // Offset: 0x12679E8
     void set_To(System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
-    // Offset: 0x1563420
+    // Offset: 0x12679F0
     ::Il2CppString* get_Unit();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1563428
+    // Offset: 0x12679F8
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
-    // Offset: 0x1563670
-    static bool TryParse(::Il2CppString* input, System::Net::Http::Headers::ContentRangeHeaderValue*& parsedValue);
+    // Offset: 0x1267C40
+    static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x156338C
+    // Offset: 0x126795C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,17 +98,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<ContentRangeHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1563430
+    // Offset: 0x1267A00
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1563574
+    // Offset: 0x1267B44
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1563B94
+    // Offset: 0x1268164
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -186,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::ContentRangeHeaderValue*&)>(&System::Net::Http::Headers::ContentRangeHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue*>)>(&System::Net::Http::Headers::ContentRangeHeaderValue::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "ContentRangeHeaderValue")->this_arg;

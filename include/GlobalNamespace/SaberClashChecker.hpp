@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,16 +96,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _prevGetFrameNum
     void _set__prevGetFrameNum(int value);
     // private System.Void Init(SaberManager saberManager)
-    // Offset: 0x114ABD8
+    // Offset: 0x1F7B5EC
     void Init(GlobalNamespace::SaberManager* saberManager);
     // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
-    // Offset: 0x114ABFC
-    bool AreSabersClashing(UnityEngine::Vector3& clashingPoint);
+    // Offset: 0x1F7B610
+    bool AreSabersClashing(ByRef<UnityEngine::Vector3> clashingPoint);
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0x114ADD4
-    float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, UnityEngine::Vector3& inbetweenPoint);
+    // Offset: 0x1F7B7E8
+    float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, ByRef<UnityEngine::Vector3> inbetweenPoint);
     // public System.Void .ctor()
-    // Offset: 0x114B280
+    // Offset: 0x1F7BC94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::AreSabersClashing
 // Il2CppName: AreSabersClashing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3&)>(&GlobalNamespace::SaberClashChecker::AreSabersClashing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberClashChecker::*)(ByRef<UnityEngine::Vector3>)>(&GlobalNamespace::SaberClashChecker::AreSabersClashing)> {
   static const MethodInfo* get() {
     static auto* clashingPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "AreSabersClashing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clashingPoint});
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::SegmentToSegmentDist
 // Il2CppName: SegmentToSegmentDist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&GlobalNamespace::SaberClashChecker::SegmentToSegmentDist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, ByRef<UnityEngine::Vector3>)>(&GlobalNamespace::SaberClashChecker::SegmentToSegmentDist)> {
   static const MethodInfo* get() {
     static auto* fromA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* toA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

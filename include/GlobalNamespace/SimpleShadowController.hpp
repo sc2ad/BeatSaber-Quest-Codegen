@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,7 +41,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDCFD68
+    // [SpaceAttribute] Offset: 0xE7C984
     // private System.Single _distanceScale
     // Size: 0x4
     // Offset: 0x28
@@ -53,14 +54,14 @@ namespace GlobalNamespace {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDCFDB0
+    // [SpaceAttribute] Offset: 0xE7C9CC
     // private System.Single _alpha
     // Size: 0x4
     // Offset: 0x30
     float alpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDCFDE8
+    // [SpaceAttribute] Offset: 0xE7CA04
     // private System.Single _floorYPos
     // Size: 0x4
     // Offset: 0x34
@@ -118,13 +119,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform _transform
     void _set__transform(UnityEngine::Transform* value);
     // protected System.Void Start()
-    // Offset: 0x235A148
+    // Offset: 0x1DE2588
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x235A170
+    // Offset: 0x1DE25B0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x235A2E8
+    // Offset: 0x1DE2728
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

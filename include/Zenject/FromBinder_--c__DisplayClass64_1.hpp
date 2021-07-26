@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FromBinder
 #include "Zenject/FromBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,10 +47,10 @@ namespace Zenject {
     // Set instance field: public UnityEngine.MonoBehaviour monoBehaviour
     void _set_monoBehaviour(UnityEngine::MonoBehaviour* value);
     // System.Boolean <FromComponentsSibling>b__2(UnityEngine.Component x)
-    // Offset: 0x16223D8
+    // Offset: 0x13259A8
     bool $FromComponentsSibling$b__2(UnityEngine::Component* x);
     // public System.Void .ctor()
-    // Offset: 0x16223D0
+    // Offset: 0x13259A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

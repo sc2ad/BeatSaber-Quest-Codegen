@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerBrowserViewController : public HMUI::ViewController {
     public:
-    // [HeaderAttribute] Offset: 0xE0FC70
+    // [HeaderAttribute] Offset: 0xEBC88C
     // private UnityEngine.UI.Button _filterServersButton
     // Size: 0x8
     // Offset: 0x70
@@ -56,21 +57,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE0FCDC
+    // [HeaderAttribute] Offset: 0xEBC8F8
     // private UnityEngine.UI.Button _createServerButton
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE0FD28
+    // [HeaderAttribute] Offset: 0xEBC944
     // private GameServersListTableView _gameServersListTableView
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::GameServersListTableView* gameServersListTableView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServersListTableView*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE0FD74
+    // [HeaderAttribute] Offset: 0xEBC990
     // private LoadingControl _mainLoadingControl
     // Size: 0x8
     // Offset: 0x98
@@ -114,7 +115,7 @@ namespace GlobalNamespace {
     // Set instance field: private LoadingControl _smallLoadingControl
     void _set__smallLoadingControl(GlobalNamespace::LoadingControl* value);
     // public System.Void .ctor()
-    // Offset: 0x10A3FC0
+    // Offset: 0x1F10F30
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

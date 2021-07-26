@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace System::ComponentModel {
     // Set static field: static private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
     static void _set_values(System::ComponentModel::TypeConverter::StandardValuesCollection* value);
     // public System.Void .ctor()
-    // Offset: 0x18473FC
+    // Offset: 0x1518800
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

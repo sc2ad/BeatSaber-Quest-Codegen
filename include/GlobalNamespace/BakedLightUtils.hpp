@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -34,31 +35,31 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kDepthOnlyShaderName();
     // Set static field: static private System.String kDepthOnlyShaderName
     static void _set_kDepthOnlyShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE11E04
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEA20
     // Get static field: static private readonly System.Int32 _zWritePropertyId
     static int _get__zWritePropertyId();
     // Set static field: static private readonly System.Int32 _zWritePropertyId
     static void _set__zWritePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE11E14
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEA30
     // Get static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static int _get__stencilRefValuePropertyId();
     // Set static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static void _set__stencilRefValuePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE11E24
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEA40
     // Get static field: static private readonly System.Int32 _stencilCompPropertyId
     static int _get__stencilCompPropertyId();
     // Set static field: static private readonly System.Int32 _stencilCompPropertyId
     static void _set__stencilCompPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE11E34
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEA50
     // Get static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static int _get__stencilPassOpPropertyId();
     // Set static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static void _set__stencilPassOpPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1183764
+    // Offset: 0x1FC929C
     static void _cctor();
     // static public System.Void ValidateLoadedEnvironmentScene()
-    // Offset: 0x11832D4
+    // Offset: 0x1FC8E0C
     static void ValidateLoadedEnvironmentScene();
   }; // BakedLightUtils
   #pragma pack(pop)

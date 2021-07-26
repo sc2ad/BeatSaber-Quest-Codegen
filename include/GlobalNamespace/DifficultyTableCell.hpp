@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -79,16 +80,16 @@ namespace GlobalNamespace {
     // Set instance field: private FillIndicator _fillIndicator
     void _set__fillIndicator(GlobalNamespace::FillIndicator* value);
     // public System.String get_difficultyText()
-    // Offset: 0x1089CC8
+    // Offset: 0x1F0B5C4
     ::Il2CppString* get_difficultyText();
     // public System.Void set_difficultyText(System.String value)
-    // Offset: 0x1089CAC
+    // Offset: 0x1F0B5A8
     void set_difficultyText(::Il2CppString* value);
     // public System.Void set_difficultyValue(System.Int32 value)
-    // Offset: 0x1089CE4
+    // Offset: 0x1F0B5E0
     void set_difficultyValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x1089E54
+    // Offset: 0x1F0B750
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -104,12 +105,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DifficultyTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1089D80
+    // Offset: 0x1F0B67C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1089E18
+    // Offset: 0x1F0B714
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);

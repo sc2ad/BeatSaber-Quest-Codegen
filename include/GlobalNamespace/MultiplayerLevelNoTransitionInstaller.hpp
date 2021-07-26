@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.NoTransitionInstaller
 #include "Zenject/NoTransitionInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerLevelNoTransitionInstaller
     MultiplayerLevelNoTransitionInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x23CC11C
+    // Offset: 0x1E6EBE0
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

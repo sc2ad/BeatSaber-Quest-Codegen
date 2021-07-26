@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.EventBasedNetListener
 #include "LiteNetLib/EventBasedNetListener.hpp"
 // Including type: System.MulticastDelegate
@@ -45,20 +46,20 @@ namespace LiteNetLib {
     // Creating value type constructor for type: OnNetworkReceiveUnconnected
     OnNetworkReceiveUnconnected() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BAF8F8
+    // Offset: 0x17A2C90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnNetworkReceiveUnconnected* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnNetworkReceiveUnconnected*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    // Offset: 0x1BAE670
+    // Offset: 0x17A1A08
     void Invoke(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BAF908
+    // Offset: 0x17A2CA0
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BAF9A8
+    // Offset: 0x17A2D40
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceiveUnconnected
   #pragma pack(pop)

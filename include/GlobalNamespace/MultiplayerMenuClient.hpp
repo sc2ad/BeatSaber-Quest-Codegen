@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,14 +29,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerMenuClient : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE0DF70
+    // [InjectAttribute] Offset: 0xEBAB8C
     // private readonly MenuPlayerController _menuPlayerController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MenuPlayerController* menuPlayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuPlayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0DF80
+    // [InjectAttribute] Offset: 0xEBAB9C
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -55,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     void _set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager* value);
     // protected System.Void LateUpdate()
-    // Offset: 0x23D8EEC
+    // Offset: 0x1E7B9B0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x23D9294
+    // Offset: 0x1E7BD58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

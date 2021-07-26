@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -23,16 +24,16 @@ namespace System {
     // Creating value type constructor for type: IriHelper
     IriHelper() noexcept {}
     // static System.Boolean CheckIriUnicodeRange(System.Char unicode, System.Boolean isQuery)
-    // Offset: 0x18591C4
+    // Offset: 0x152A5C8
     static bool CheckIriUnicodeRange(::Il2CppChar unicode, bool isQuery);
     // static System.Boolean CheckIriUnicodeRange(System.Char highSurr, System.Char lowSurr, ref System.Boolean surrogatePair, System.Boolean isQuery)
-    // Offset: 0x185921C
-    static bool CheckIriUnicodeRange(::Il2CppChar highSurr, ::Il2CppChar lowSurr, bool& surrogatePair, bool isQuery);
+    // Offset: 0x152A620
+    static bool CheckIriUnicodeRange(::Il2CppChar highSurr, ::Il2CppChar lowSurr, ByRef<bool> surrogatePair, bool isQuery);
     // static System.Boolean CheckIsReserved(System.Char ch, System.UriComponents component)
-    // Offset: 0x18596D8
+    // Offset: 0x152AADC
     static bool CheckIsReserved(::Il2CppChar ch, System::UriComponents component);
     // static System.String EscapeUnescapeIri(System.Char* pInput, System.Int32 start, System.Int32 end, System.UriComponents component)
-    // Offset: 0x185983C
+    // Offset: 0x152AC40
     static ::Il2CppString* EscapeUnescapeIri(::Il2CppChar* pInput, int start, int end, System::UriComponents component);
   }; // System.IriHelper
   #pragma pack(pop)
@@ -53,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IriHelper::CheckIriUnicodeRange
 // Il2CppName: CheckIriUnicodeRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppChar, bool&, bool)>(&System::IriHelper::CheckIriUnicodeRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppChar, ByRef<bool>, bool)>(&System::IriHelper::CheckIriUnicodeRange)> {
   static const MethodInfo* get() {
     static auto* highSurr = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* lowSurr = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;

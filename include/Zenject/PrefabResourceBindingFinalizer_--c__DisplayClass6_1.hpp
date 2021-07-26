@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PrefabResourceBindingFinalizer
 #include "Zenject/PrefabResourceBindingFinalizer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,10 +60,10 @@ namespace Zenject {
     // Set instance field: public Zenject.PrefabResourceBindingFinalizer/Zenject.<>c__DisplayClass6_0 CS$<>8__locals1
     void _set_CS$$$8__locals1(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_0* value);
     // Zenject.IProvider <FinalizeBindingSelf>b__1(Zenject.DiContainer _, System.Type contractType)
-    // Offset: 0x16C9300
+    // Offset: 0x13CB9BC
     Zenject::IProvider* $FinalizeBindingSelf$b__1(Zenject::DiContainer* _, System::Type* contractType);
     // public System.Void .ctor()
-    // Offset: 0x16C9048
+    // Offset: 0x13CB704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

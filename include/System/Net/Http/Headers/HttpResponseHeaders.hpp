@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.HttpHeaders
 #include "System/Net/Http/Headers/HttpHeaders.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,7 +22,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: HttpResponseHeaders
     HttpResponseHeaders() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x15682A4
+    // Offset: 0x126C874
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     // Base method: System.Void Object::.ctor()

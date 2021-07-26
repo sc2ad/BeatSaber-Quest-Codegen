@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifier
 #include "RootMotion/FinalIK/OffsetModifier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::PenetrationAvoidance::Avoider
     class Avoider;
-    // [TooltipAttribute] Offset: 0xDF59A8
+    // [TooltipAttribute] Offset: 0xEA25C4
     // public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
     // Size: 0x8
     // Offset: 0x30
@@ -42,7 +43,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
     void _set_avoiders(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1AB72FC
+    // Offset: 0x172EB4C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -56,7 +57,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1AB707C
+    // Offset: 0x172E8CC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

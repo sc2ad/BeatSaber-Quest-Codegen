@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: ICutScoreHandlerDidFinishEvent
@@ -55,35 +56,35 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectExecutionRatingsRecorder : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::ICutScoreHandlerDidFinishEvent*/ {
     public:
-    // [InjectAttribute] Offset: 0xE0325C
+    // [InjectAttribute] Offset: 0xEAFE78
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0326C
+    // [InjectAttribute] Offset: 0xEAFE88
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0327C
+    // [InjectAttribute] Offset: 0xEAFE98
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0328C
+    // [InjectAttribute] Offset: 0xEAFEA8
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0329C
+    // [InjectAttribute] Offset: 0xEAFEB8
     // private readonly BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool _cutScoreHandlerPool
     // Size: 0x8
     // Offset: 0x38
@@ -149,31 +150,31 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.List`1<ObstacleController> _prevIntersectingObstacles
     void _set__prevIntersectingObstacles(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0x109369C
+    // Offset: 0x1EEBB44
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0x10936A4
+    // Offset: 0x1EEBB4C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x109391C
+    // Offset: 0x1EEBDC4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1093BA8
+    // Offset: 0x1EEC050
     void Update();
     // public System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0x1093DC4
+    // Offset: 0x1EEC26C
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x1093EA4
-    void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier);
+    // Offset: 0x1EEC34C
+    void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0x10941E8
+    // Offset: 0x1EEC690
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x10942D0
+    // Offset: 0x1EEC778
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x10943C4
+    // Offset: 0x1EEC86C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -236,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut
 // Il2CppName: HandleScoreControllerNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, ByRef<GlobalNamespace::NoteCutInfo>, int)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;

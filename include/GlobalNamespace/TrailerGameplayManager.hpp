@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,21 +46,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disableMainCamera and: gameScenesManager
     char __padding0[0x7] = {};
-    // [InjectAttribute] Offset: 0xE06378
+    // [InjectAttribute] Offset: 0xEB2F94
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06388
+    // [InjectAttribute] Offset: 0xEB2FA4
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06398
+    // [InjectAttribute] Offset: 0xEB2FB4
     // private MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x30
@@ -87,10 +88,10 @@ namespace GlobalNamespace {
     // Set instance field: private MainCamera _mainCamera
     void _set__mainCamera(GlobalNamespace::MainCamera* value);
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1071484
+    // Offset: 0x1EDCF58
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x1071520
+    // Offset: 0x1EDCFF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

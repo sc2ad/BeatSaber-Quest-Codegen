@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -59,7 +60,7 @@ namespace UnityEngine {
     // Set instance field: public System.Single[] muscles
     void _set_muscles(::Array<float>* value);
     // System.Void Init()
-    // Offset: 0xF0D058
+    // Offset: 0xD92C14
     void Init();
   }; // UnityEngine.HumanPose
   #pragma pack(pop)

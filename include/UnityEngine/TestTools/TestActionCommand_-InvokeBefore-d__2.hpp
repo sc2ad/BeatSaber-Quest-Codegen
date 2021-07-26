@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestActionCommand
 #include "UnityEngine/TestTools/TestActionCommand.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -83,26 +84,26 @@ namespace UnityEngine::TestTools {
     // Set instance field: public NUnit.Framework.Internal.Test test
     void _set_test(NUnit::Framework::Internal::Test* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x148D2E0
+    // Offset: 0x11FE340
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x148D348
+    // Offset: 0x11FE3A8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x148CF98
+    // Offset: 0x11FDFF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionCommand::$InvokeBefore$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestActionCommand::$InvokeBefore$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionCommand::$InvokeBefore$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x148D1E4
+    // Offset: 0x11FE244
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x148D1E8
+    // Offset: 0x11FE248
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x148D2E8
+    // Offset: 0x11FE348
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.TestActionCommand/UnityEngine.TestTools.<InvokeBefore>d__2
   #pragma pack(pop)

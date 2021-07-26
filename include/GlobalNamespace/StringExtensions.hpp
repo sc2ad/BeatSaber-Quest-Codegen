@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,7 +18,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StringExtensions
     StringExtensions() noexcept {}
     // static public System.String Truncate(System.String s, System.Int32 length, System.Boolean appendEllipsis)
-    // Offset: 0x235ABAC
+    // Offset: 0x1DE2FEC
     static ::Il2CppString* Truncate(::Il2CppString* s, int length, bool appendEllipsis);
   }; // StringExtensions
   #pragma pack(pop)

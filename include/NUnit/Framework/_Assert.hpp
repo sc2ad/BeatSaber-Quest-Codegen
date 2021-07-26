@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -28,10 +29,10 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: _Assert
     _Assert() noexcept {}
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x17137AC
+    // Offset: 0x1416E68
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0x1713820
+    // Offset: 0x1416EDC
     static void IncrementAssertCount();
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -53,7 +54,7 @@ namespace NUnit::Framework {
       That<TActual>(actual, expression, message, {args...});
     }
     // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    // Offset: 0x17138F8
+    // Offset: 0x1416FB4
     static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -63,7 +64,7 @@ namespace NUnit::Framework {
       GreaterOrEqual(arg1, arg2, message, {args...});
     }
     // static public System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    // Offset: 0x1713990
+    // Offset: 0x141704C
     static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -73,7 +74,7 @@ namespace NUnit::Framework {
       LessOrEqual(arg1, arg2, message, {args...});
     }
     // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    // Offset: 0x1713A28
+    // Offset: 0x14170E4
     static void IsTrue(bool condition, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
     static void IsTrue(bool condition, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -83,7 +84,7 @@ namespace NUnit::Framework {
       IsTrue(condition, message, {args...});
     }
     // static public System.Void IsTrue(System.Boolean condition)
-    // Offset: 0x1713AA0
+    // Offset: 0x141715C
     static void IsTrue(bool condition);
   }; // NUnit.Framework.Assert
   #pragma pack(pop)

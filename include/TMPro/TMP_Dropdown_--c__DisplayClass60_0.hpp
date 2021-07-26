@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_Dropdown
 #include "TMPro/TMP_Dropdown.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace TMPro {
     // Set instance field: public TMPro.TMP_Dropdown <>4__this
     void _set_$$4__this(TMPro::TMP_Dropdown* value);
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x10C2678
+    // Offset: 0xFFA178
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x10C1AD8
+    // Offset: 0xFF95D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -34,16 +35,16 @@ namespace UnityEngine::EventSystems {
     // Set instance field: protected System.Boolean m_Used
     void _set_m_Used(bool value);
     // public System.Boolean get_used()
-    // Offset: 0x1400554
+    // Offset: 0x11A91B4
     bool get_used();
     // public System.Void Reset()
-    // Offset: 0x1400540
+    // Offset: 0x11A91A0
     void Reset();
     // public System.Void Use()
-    // Offset: 0x1400548
+    // Offset: 0x11A91A8
     void Use();
     // protected System.Void .ctor()
-    // Offset: 0x140055C
+    // Offset: 0x11A91BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

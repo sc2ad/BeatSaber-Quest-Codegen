@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper
 #include "OnlineServices/API/HTTPAdminLeaderboardsHelper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace OnlineServices::API {
     // Set instance field: public System.Boolean everythingOK
     void _set_everythingOK(bool value);
     // public System.Void .ctor()
-    // Offset: 0xFF5560
+    // Offset: 0x1E48B14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

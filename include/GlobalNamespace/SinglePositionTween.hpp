@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Playables.PlayableAsset
 #include "UnityEngine/Playables/PlayableAsset.hpp"
 // Including type: UnityEngine.Timeline.ITimelineClipAsset
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SinglePositionTween : public UnityEngine::Playables::PlayableAsset/*, public UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
-    // [NullAllowed] Offset: 0xE12D5C
+    // [NullAllowed] Offset: 0xEBF978
     // public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -76,10 +77,10 @@ namespace GlobalNamespace {
     // Set instance field: public CustomTweenBehaviour template
     void _set_template(GlobalNamespace::CustomTweenBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x10585E0
+    // Offset: 0x1EC30B4
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x105878C
+    // Offset: 0x1EC3260
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -91,7 +92,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SinglePositionTween*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x10585E8
+    // Offset: 0x1EC30BC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);

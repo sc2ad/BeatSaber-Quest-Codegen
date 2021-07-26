@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.UnsafeNclNativeMethods
 #include "System/Net/UnsafeNclNativeMethods.hpp"
 // Completed includes
@@ -25,10 +26,10 @@ namespace System::Net {
     // Creating value type constructor for type: SecureStringHelper
     SecureStringHelper() noexcept {}
     // static System.String CreateString(System.Security.SecureString secureString)
-    // Offset: 0x158F4F0
+    // Offset: 0x1292AC0
     static ::Il2CppString* CreateString(System::Security::SecureString* secureString);
     // static System.Security.SecureString CreateSecureString(System.String plainString)
-    // Offset: 0x158F61C
+    // Offset: 0x1292BEC
     static System::Security::SecureString* CreateSecureString(::Il2CppString* plainString);
   }; // System.Net.UnsafeNclNativeMethods/System.Net.SecureStringHelper
   #pragma pack(pop)

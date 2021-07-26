@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ConnectedPlayerManager
 #include "GlobalNamespace/ConnectedPlayerManager.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -65,22 +66,22 @@ namespace GlobalNamespace {
     // Set instance field: public DisconnectedReason disconnectedReason
     void _set_disconnectedReason(GlobalNamespace::DisconnectedReason value);
     // static public PacketPool`1<ConnectedPlayerManager/KickPlayerPacket> get_pool()
-    // Offset: 0x12BD5CC
+    // Offset: 0x1092D08
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* get_pool();
     // public ConnectedPlayerManager/KickPlayerPacket Init(DisconnectedReason disconnectedReason)
-    // Offset: 0x12BE4A0
+    // Offset: 0x1093BDC
     GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* Init(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12C0540
+    // Offset: 0x1095C7C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12C0554
+    // Offset: 0x1095C90
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x12BFCA8
+    // Offset: 0x10953E4
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x12C0580
+    // Offset: 0x1095CBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

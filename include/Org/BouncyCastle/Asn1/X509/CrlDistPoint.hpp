@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,25 +51,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
     void _set_seq(Org::BouncyCastle::Asn1::Asn1Sequence* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19D8398
+    // Offset: 0x168F48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlDistPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlDistPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlDistPoint*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.CrlDistPoint GetInstance(System.Object obj)
-    // Offset: 0x19D82F0
+    // Offset: 0x168F3E4
     static Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.X509.DistributionPoint[] GetDistributionPoints()
-    // Offset: 0x19D83C4
+    // Offset: 0x168F4B8
     ::Array<Org::BouncyCastle::Asn1::X509::DistributionPoint*>* GetDistributionPoints();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19D8650
+    // Offset: 0x168F744
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x19D8658
+    // Offset: 0x168F74C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

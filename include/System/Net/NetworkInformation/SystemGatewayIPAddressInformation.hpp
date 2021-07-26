@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.GatewayIPAddressInformation
 #include "System/Net/NetworkInformation/GatewayIPAddressInformation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,14 +51,14 @@ namespace System::Net::NetworkInformation {
     // Set instance field: private System.Net.IPAddress address
     void _set_address(System::Net::IPAddress* value);
     // System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x1464390
+    // Offset: 0x11D53F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemGatewayIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::SystemGatewayIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemGatewayIPAddressInformation*, creationType>(address)));
     }
     // static System.Net.NetworkInformation.GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(System.Net.NetworkInformation.IPAddressCollection addresses)
-    // Offset: 0x14615E4
+    // Offset: 0x11D2644
     static System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection* addresses);
   }; // System.Net.NetworkInformation.SystemGatewayIPAddressInformation
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IMac
 #include "Org/BouncyCastle/Crypto/IMac.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -257,34 +258,34 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Set instance field: private System.UInt32 h4
     void _set_h4(uint value);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18C0688
+    // Offset: 0x1591A8C
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void SetKey(System.Byte[] key, System.Byte[] nonce)
-    // Offset: 0x18C0804
+    // Offset: 0x1591C08
     void SetKey(::Array<uint8_t>* key, ::Array<uint8_t>* nonce);
     // public System.Int32 GetMacSize()
-    // Offset: 0x18C0B40
+    // Offset: 0x1591F44
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x18C0B48
+    // Offset: 0x1591F4C
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x18C0B88
+    // Offset: 0x1591F8C
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // private System.Void ProcessBlock()
-    // Offset: 0x18C0C80
+    // Offset: 0x1592084
     void ProcessBlock();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18C0EB8
+    // Offset: 0x15922BC
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x18C0B34
+    // Offset: 0x1591F38
     void Reset();
     // static private System.UInt64 mul32x32_64(System.UInt32 i1, System.UInt32 i2)
-    // Offset: 0x18C0EB0
+    // Offset: 0x15922B4
     static uint64_t mul32x32_64(uint i1, uint i2);
     // public System.Void .ctor()
-    // Offset: 0x18C060C
+    // Offset: 0x1591A10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

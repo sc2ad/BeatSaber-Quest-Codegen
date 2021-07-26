@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawButton
@@ -354,10 +355,10 @@ namespace GlobalNamespace {
     // Set instance field: public OVRInput/RawButton Right
     void _set_Right(GlobalNamespace::OVRInput::RawButton value);
     // public OVRInput/RawButton ToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x14EB694
+    // Offset: 0x1230130
     GlobalNamespace::OVRInput::RawButton ToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x14EABD0
+    // Offset: 0x122F66C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

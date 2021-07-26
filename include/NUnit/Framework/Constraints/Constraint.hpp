@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.IConstraint
 #include "NUnit/Framework/Constraints/IConstraint.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,21 +42,21 @@ namespace NUnit::Framework::Constraints {
     System::Lazy_1<::Il2CppString*>* displayName;
     // Field size check
     static_assert(sizeof(System::Lazy_1<::Il2CppString*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF91C
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D538
     // private System.String <Description>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Description;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF958
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D574
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<::Il2CppObject*>* Arguments;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF994
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D5B0
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -85,28 +86,28 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     void _set_$Builder$k__BackingField(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // public System.String get_DisplayName()
-    // Offset: 0x17162B8
+    // Offset: 0x1419974
     ::Il2CppString* get_DisplayName();
     // public System.String get_Description()
-    // Offset: 0x1716310
+    // Offset: 0x14199CC
     ::Il2CppString* get_Description();
     // protected System.Void set_Description(System.String value)
-    // Offset: 0x1716318
+    // Offset: 0x14199D4
     void set_Description(::Il2CppString* value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x1716320
+    // Offset: 0x14199DC
     ::Array<::Il2CppObject*>* get_Arguments();
     // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x1716328
+    // Offset: 0x14199E4
     void set_Arguments(::Array<::Il2CppObject*>* value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x1716330
+    // Offset: 0x14199EC
     NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x1716338
+    // Offset: 0x14199F4
     void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x1715EC8
+    // Offset: 0x1419584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::Array<::Il2CppObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
@@ -126,19 +127,19 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // protected System.String GetStringRepresentation()
-    // Offset: 0x17163C0
+    // Offset: 0x1419A7C
     ::Il2CppString* GetStringRepresentation();
     // static private System.String _displayable(System.Object o)
-    // Offset: 0x1716514
+    // Offset: 0x1419BD0
     static ::Il2CppString* _displayable(::Il2CppObject* o);
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x1716640
+    // Offset: 0x1419CFC
     NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
     // private System.String <.ctor>b__1_0()
-    // Offset: 0x171671C
+    // Offset: 0x1419DD8
     ::Il2CppString* $_ctor$b__1_0();
     // public override System.String ToString()
-    // Offset: 0x1716340
+    // Offset: 0x14199FC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

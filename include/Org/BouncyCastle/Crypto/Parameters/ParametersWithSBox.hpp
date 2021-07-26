@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,17 +47,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private System.Byte[] sBox
     void _set_sBox(::Array<uint8_t>* value);
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x122CA80
+    // Offset: 0x1036D58
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] sBox)
-    // Offset: 0x122CA40
+    // Offset: 0x1036D18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParametersWithSBox* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* sBox) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParametersWithSBox*, creationType>(parameters, sBox)));
     }
     // public System.Byte[] GetSBox()
-    // Offset: 0x122CA78
+    // Offset: 0x1036D50
     ::Array<uint8_t>* GetSBox();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithSBox
   #pragma pack(pop)

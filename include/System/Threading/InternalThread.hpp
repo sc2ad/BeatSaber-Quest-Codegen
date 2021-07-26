@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 #include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 // Including type: System.IntPtr
@@ -435,10 +436,10 @@ namespace System::Threading {
     // Set instance field: private System.IntPtr last
     void _set_last(System::IntPtr value);
     // private System.Void Thread_free_internal()
-    // Offset: 0x18A5B5C
+    // Offset: 0x1576F60
     void Thread_free_internal();
     // public System.Void .ctor()
-    // Offset: 0x18A5BC8
+    // Offset: 0x1576FCC
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -448,7 +449,7 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<InternalThread*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x18A5B60
+    // Offset: 0x1576F64
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();

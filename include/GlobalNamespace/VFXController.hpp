@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,14 +39,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VFXController::$MainCoroutine$d__9
     class $MainCoroutine$d__9;
-    // [NullAllowed] Offset: 0xDCFE90
+    // [NullAllowed] Offset: 0xE7CAAC
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::Array<UnityEngine::ParticleSystem*>* particleSystems;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
-    // [NullAllowed] Offset: 0xDCFEC8
+    // [NullAllowed] Offset: 0xE7CAE4
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x20
@@ -75,22 +76,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _deactivateAfterAnimationDuration
     void _set__deactivateAfterAnimationDuration(bool value);
     // public UnityEngine.Animation get_animation()
-    // Offset: 0x235CEC4
+    // Offset: 0x1DE5304
     UnityEngine::Animation* get_animation();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x235CECC
+    // Offset: 0x1DE530C
     ::Array<UnityEngine::ParticleSystem*>* get_particleSystems();
     // protected System.Void Awake()
-    // Offset: 0x235CED4
+    // Offset: 0x1DE5314
     void Awake();
     // public System.Void Play()
-    // Offset: 0x235CEFC
+    // Offset: 0x1DE533C
     void Play();
     // private System.Collections.IEnumerator MainCoroutine(System.Boolean deactivateAfterDuration, System.Single duration)
-    // Offset: 0x235D02C
+    // Offset: 0x1DE546C
     System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float duration);
     // public System.Void .ctor()
-    // Offset: 0x235D0EC
+    // Offset: 0x1DE552C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

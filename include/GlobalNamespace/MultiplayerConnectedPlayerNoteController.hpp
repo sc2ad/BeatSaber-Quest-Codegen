@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NoteController
 #include "GlobalNamespace/NoteController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,22 +50,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _hidden
     void _set__hidden(bool value);
     // public override System.Boolean get_hide()
-    // Offset: 0x11A3FE4
+    // Offset: 0x1FBBA50
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x11A3FA0
+    // Offset: 0x1FBBA0C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x11A3FEC
+    // Offset: 0x1FBBA58
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // public System.Void .ctor()
-    // Offset: 0x11A11B8
+    // Offset: 0x1FB8C24
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()

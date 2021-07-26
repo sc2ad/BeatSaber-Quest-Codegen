@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IGameEnergyCounter
@@ -82,28 +83,28 @@ namespace GlobalNamespace {
     int batteryLives;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE092BC
+    // [InjectAttribute] Offset: 0xEB5ED8
     // private readonly GameEnergyCounter/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameEnergyCounter::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE092CC
+    // [InjectAttribute] Offset: 0xEB5EE8
     // private readonly SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0xE092DC
+    // [InjectAttribute] Offset: 0xEB5EF8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE092EC
+    // [InjectAttribute] Offset: 0xEB5F08
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x48
@@ -271,82 +272,82 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _nextFrameEnergyChange
     void _set__nextFrameEnergyChange(float value);
     // public System.Boolean get_isInitialized()
-    // Offset: 0x102DE20
+    // Offset: 0x1E988F4
     bool get_isInitialized();
     // public System.Single get_energy()
-    // Offset: 0x102DE28
+    // Offset: 0x1E988FC
     float get_energy();
     // private System.Void set_energy(System.Single value)
-    // Offset: 0x102DE30
+    // Offset: 0x1E98904
     void set_energy(float value);
     // public System.Int32 get_batteryEnergy()
-    // Offset: 0x102DE38
+    // Offset: 0x1E9890C
     int get_batteryEnergy();
     // public System.Int32 get_batteryLives()
-    // Offset: 0x102DEBC
+    // Offset: 0x1E98990
     int get_batteryLives();
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x102DEC4
+    // Offset: 0x1E98998
     GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // private System.Void set_energyType(GameplayModifiers/EnergyType value)
-    // Offset: 0x102DECC
+    // Offset: 0x1E989A0
     void set_energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
     // public System.Boolean get_noFail()
-    // Offset: 0x102DED4
+    // Offset: 0x1E989A8
     bool get_noFail();
     // private System.Void set_noFail(System.Boolean value)
-    // Offset: 0x102DEDC
+    // Offset: 0x1E989B0
     void set_noFail(bool value);
     // public System.Boolean get_instaFail()
-    // Offset: 0x102DEE8
+    // Offset: 0x1E989BC
     bool get_instaFail();
     // private System.Void set_instaFail(System.Boolean value)
-    // Offset: 0x102DEF0
+    // Offset: 0x1E989C4
     void set_instaFail(bool value);
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x102DEFC
+    // Offset: 0x1E989D0
     bool get_failOnSaberClash();
     // private System.Void set_failOnSaberClash(System.Boolean value)
-    // Offset: 0x102DF04
+    // Offset: 0x1E989D8
     void set_failOnSaberClash(bool value);
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x102DB90
+    // Offset: 0x1E98664
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x102DC34
+    // Offset: 0x1E98708
     void remove_didInitEvent(System::Action* value);
     // public System.Void add_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x102DCD8
+    // Offset: 0x1E987AC
     void add_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void remove_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x102DD7C
+    // Offset: 0x1E98850
     void remove_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void add_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x101FC94
+    // Offset: 0x1E8A768
     void add_gameEnergyDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x101FA44
+    // Offset: 0x1E8A518
     void remove_gameEnergyDidChangeEvent(System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0x102DF10
+    // Offset: 0x1E989E4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x102E080
+    // Offset: 0x1E98B54
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x102E168
+    // Offset: 0x1E98C3C
     void LateUpdate();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x102E3A8
-    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
+    // Offset: 0x1E98E7C
+    void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x102E434
+    // Offset: 0x1E98F08
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void ProcessEnergyChange(System.Single energyChange)
-    // Offset: 0x102E274
+    // Offset: 0x1E98D48
     void ProcessEnergyChange(float energyChange);
     // public System.Void .ctor()
-    // Offset: 0x102E48C
+    // Offset: 0x1E98F60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -555,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::GameEnergyCounter::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(GlobalNamespace::NoteController*, ByRef<GlobalNamespace::NoteCutInfo>)>(&GlobalNamespace::GameEnergyCounter::HandleNoteWasCut)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;

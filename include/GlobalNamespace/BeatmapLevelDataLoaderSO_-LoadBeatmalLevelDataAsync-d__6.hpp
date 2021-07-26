@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapLevelDataLoaderSO
 #include "GlobalNamespace/BeatmapLevelDataLoaderSO.hpp"
 // Including type: System.ValueType
@@ -87,10 +88,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelDataSO> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*> value);
     // private System.Void MoveNext()
-    // Offset: 0xED161C
+    // Offset: 0xF7CA48
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED1624
+    // Offset: 0xF7CA50
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelDataLoaderSO/<LoadBeatmalLevelDataAsync>d__6
   // WARNING Not writing size check since size may be invalid!

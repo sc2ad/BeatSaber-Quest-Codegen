@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
 #include "Org/BouncyCastle/Crypto/AsymmetricKeyParameter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,47 +73,47 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
     void _set_publicKeyParamSet(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x122A308
+    // Offset: 0x10345E0
     ::Il2CppString* get_AlgorithmName();
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_Parameters()
-    // Offset: 0x122A310
+    // Offset: 0x10345E8
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_Parameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x122A318
+    // Offset: 0x10345F0
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // protected System.Void .ctor(System.String algorithm, System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
-    // Offset: 0x1229EF4
+    // Offset: 0x10341CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyParameters* New_ctor(::Il2CppString* algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyParameters*, creationType>(algorithm, isPrivate, parameters)));
     }
     // protected System.Void .ctor(System.String algorithm, System.Boolean isPrivate, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x122A118
+    // Offset: 0x10343F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyParameters* New_ctor(::Il2CppString* algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyParameters*, creationType>(algorithm, isPrivate, publicKeyParamSet)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x122A480
+    // Offset: 0x1034758
     static void _cctor();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ECKeyParameters other)
-    // Offset: 0x122A3D8
+    // Offset: 0x10346B0
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* other);
     // static System.String VerifyAlgorithmName(System.String algorithm)
-    // Offset: 0x1229FEC
+    // Offset: 0x10342C4
     static ::Il2CppString* VerifyAlgorithmName(::Il2CppString* algorithm);
     // static Org.BouncyCastle.Crypto.Parameters.ECDomainParameters LookupParameters(Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x122A21C
+    // Offset: 0x10344F4
     static Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* LookupParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x122A320
+    // Offset: 0x10345F8
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x122A438
+    // Offset: 0x1034710
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

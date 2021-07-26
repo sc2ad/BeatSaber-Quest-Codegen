@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.Single
@@ -69,7 +70,7 @@ namespace GlobalNamespace {
       // Set instance field: public readonly System.Single yOffset
       void _set_yOffset(float value);
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
-      // Offset: 0xED01AC
+      // Offset: 0xF7BB20
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset)
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
@@ -141,17 +142,17 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     void _set__beatmapObjectSpawnController(GlobalNamespace::IBeatmapObjectSpawnController* value);
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, IBeatmapObjectSpawnController beatmapObjectSpawnController, System.Single moveToPlayerHeadTParam, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData)
-    // Offset: 0x1090EE0
+    // Offset: 0x1EE9388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float moveToPlayerHeadTParam, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceYOffsetEvaluator*, creationType>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData)));
     }
     // public System.Void ManualUpdate()
-    // Offset: 0x1091044
+    // Offset: 0x1EE94EC
     void ManualUpdate();
     // public System.Single GetJumpOffsetYAtJumpStartSongTime(System.Single lastDeltaTime)
-    // Offset: 0x10911CC
+    // Offset: 0x1EE9674
     float GetJumpOffsetYAtJumpStartSongTime(float lastDeltaTime);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator
   #pragma pack(pop)

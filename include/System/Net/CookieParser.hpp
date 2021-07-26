@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -43,17 +44,17 @@ namespace System::Net {
     // Set instance field: private System.Net.CookieTokenizer m_tokenizer
     void _set_m_tokenizer(System::Net::CookieTokenizer* value);
     // System.Void .ctor(System.String cookieString)
-    // Offset: 0x169AC10
+    // Offset: 0x139D2CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieParser* New_ctor(::Il2CppString* cookieString) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieParser*, creationType>(cookieString)));
     }
     // System.Net.Cookie Get()
-    // Offset: 0x169AC88
+    // Offset: 0x139D344
     System::Net::Cookie* Get();
     // static System.String CheckQuoted(System.String value)
-    // Offset: 0x1696658
+    // Offset: 0x1398D14
     static ::Il2CppString* CheckQuoted(::Il2CppString* value);
   }; // System.Net.CookieParser
   #pragma pack(pop)

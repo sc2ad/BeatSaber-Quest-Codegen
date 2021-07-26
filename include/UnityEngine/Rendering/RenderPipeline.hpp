@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -25,7 +26,7 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenderPipeline : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xD822E8
+    // [DebuggerBrowsableAttribute] Offset: 0xE2EF04
     // private System.Boolean <disposed>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -43,22 +44,22 @@ namespace UnityEngine::Rendering {
     // Set instance field: private System.Boolean <disposed>k__BackingField
     void _set_$disposed$k__BackingField(bool value);
     // public System.Boolean get_disposed()
-    // Offset: 0x1C7E21C
+    // Offset: 0x22B8824
     bool get_disposed();
     // private System.Void set_disposed(System.Boolean value)
-    // Offset: 0x1C7E224
+    // Offset: 0x22B882C
     void set_disposed(bool value);
     // protected System.Void Render(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
     // Offset: 0xFFFFFFFF
     void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
     // System.Void InternalRender(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
-    // Offset: 0x1C7E15C
+    // Offset: 0x22B8764
     void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
     // System.Void Dispose()
-    // Offset: 0x1C7E230
+    // Offset: 0x22B8838
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1C7E2B8
+    // Offset: 0x22B88C0
     void Dispose(bool disposing);
   }; // UnityEngine.Rendering.RenderPipeline
   #pragma pack(pop)

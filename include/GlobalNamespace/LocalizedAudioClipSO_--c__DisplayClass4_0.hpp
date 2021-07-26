@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LocalizedAudioClipSO
 #include "GlobalNamespace/LocalizedAudioClipSO.hpp"
 // Including type: Polyglot.Language
@@ -39,10 +40,10 @@ namespace GlobalNamespace {
     // Set instance field: public Polyglot.Language language
     void _set_language(Polyglot::Language value);
     // System.Boolean <get_localizedAudioClip>b__0(LocalizedAudioClipSO/LocalizedAudioClipInfo t)
-    // Offset: 0x11785FC
+    // Offset: 0x1FA8010
     bool $get_localizedAudioClip$b__0(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x11785EC
+    // Offset: 0x1FA8000
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

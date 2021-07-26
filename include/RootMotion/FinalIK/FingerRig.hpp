@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.SolverManager
 #include "RootMotion/SolverManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,8 +34,8 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x34
     char ___base_padding[0x1] = {};
-    // [TooltipAttribute] Offset: 0xDF2AE8
-    // [RangeAttribute] Offset: 0xDF2AE8
+    // [TooltipAttribute] Offset: 0xE9F704
+    // [RangeAttribute] Offset: 0xE9F704
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x34
@@ -68,37 +69,37 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean <initiated>k__BackingField
     void _set_$initiated$k__BackingField(bool value);
     // public System.Boolean get_initiated()
-    // Offset: 0x1C88118
+    // Offset: 0x1825EB8
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1C88120
+    // Offset: 0x1825EC0
     void set_initiated(bool value);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x1C8812C
-    bool IsValid(::Il2CppString*& errorMessage);
+    // Offset: 0x1825ECC
+    bool IsValid(ByRef<::Il2CppString*> errorMessage);
     // public System.Void AutoDetect()
-    // Offset: 0x1C881B8
+    // Offset: 0x1825F58
     void AutoDetect();
     // public System.Void AddFinger(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform tip, UnityEngine.Transform target)
-    // Offset: 0x1C884D4
+    // Offset: 0x1826274
     void AddFinger(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* tip, UnityEngine::Transform* target);
     // public System.Void RemoveFinger(System.Int32 index)
-    // Offset: 0x1C88648
+    // Offset: 0x18263E8
     void RemoveFinger(int index);
     // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, ref UnityEngine.Transform[] array)
-    // Offset: 0x1C883CC
-    void AddChildrenRecursive(UnityEngine::Transform* parent, ::Array<UnityEngine::Transform*>*& array);
+    // Offset: 0x182616C
+    void AddChildrenRecursive(UnityEngine::Transform* parent, ByRef<::Array<UnityEngine::Transform*>*> array);
     // public System.Void UpdateFingerSolvers()
-    // Offset: 0x1C88878
+    // Offset: 0x1826618
     void UpdateFingerSolvers();
     // public System.Void FixFingerTransforms()
-    // Offset: 0x1C888F4
+    // Offset: 0x1826694
     void FixFingerTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1C8896C
+    // Offset: 0x182670C
     void StoreDefaultLocalState();
     // public System.Void .ctor()
-    // Offset: 0x1C889F0
+    // Offset: 0x1826790
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -112,17 +113,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FingerRig*, creationType>()));
     }
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1C887B0
+    // Offset: 0x1826550
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x1C889D8
+    // Offset: 0x1826778
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1C889DC
+    // Offset: 0x182677C
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FingerRig::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FingerRig::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FingerRig::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::FingerRig::IsValid)> {
   static const MethodInfo* get() {
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorMessage});
@@ -192,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::AddChildrenRecursive
 // Il2CppName: AddChildrenRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*&)>(&RootMotion::FinalIK::FingerRig::AddChildrenRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(UnityEngine::Transform*, ByRef<::Array<UnityEngine::Transform*>*>)>(&RootMotion::FinalIK::FingerRig::AddChildrenRecursive)> {
   static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->this_arg;

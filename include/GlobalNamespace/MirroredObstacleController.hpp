@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ObstacleControllerBase
 #include "GlobalNamespace/ObstacleControllerBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -78,31 +79,31 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform _followedTransform
     void _set__followedTransform(UnityEngine::Transform* value);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x112EA88
+    // Offset: 0x1F5F49C
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x112F15C
+    // Offset: 0x1F5FB70
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x112F184
+    // Offset: 0x1F5FB98
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x112F25C
+    // Offset: 0x1F5FC70
     void Update();
     // private System.Void RemoveListeners()
-    // Offset: 0x112F188
+    // Offset: 0x1F5FB9C
     void RemoveListeners();
     // private System.Void UpdatePositionAndRotation()
-    // Offset: 0x112F260
+    // Offset: 0x1F5FC74
     void UpdatePositionAndRotation();
     // public System.Void Mirror(ObstacleController obstacleController)
-    // Offset: 0x112E628
+    // Offset: 0x1F5F03C
     void Mirror(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidStartDissolving(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x112F388
+    // Offset: 0x1F5FD9C
     void HandleDidStartDissolving(GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x112F394
+    // Offset: 0x1F5FDA8
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

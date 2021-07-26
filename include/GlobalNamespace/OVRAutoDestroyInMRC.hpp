@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,13 +23,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRAutoDestroyInMRC
     OVRAutoDestroyInMRC() noexcept {}
     // private System.Void Start()
-    // Offset: 0x124A60C
+    // Offset: 0x10548E4
     void Start();
     // private System.Void Update()
-    // Offset: 0x124A730
+    // Offset: 0x1054A08
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x124A734
+    // Offset: 0x1054A0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

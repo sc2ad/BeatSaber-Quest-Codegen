@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.TimerThread
 #include "System/Net/TimerThread.hpp"
 // Including type: System.Net.TimerThread/System.Net.Queue
@@ -38,7 +39,7 @@ namespace System::Net {
     // Set instance field: private readonly System.Net.TimerThread/System.Net.TimerNode m_Timers
     void _set_m_Timers(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x158DBD0
+    // Offset: 0x12911A0
     // Implemented from: System.Net.TimerThread/System.Net.Queue
     // Base method: System.Void Queue::.ctor(System.Int32 durationMilliseconds)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

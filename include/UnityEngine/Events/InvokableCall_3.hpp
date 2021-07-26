@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Events.BaseInvokableCall
 #include "UnityEngine/Events/BaseInvokableCall.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -32,7 +33,7 @@ namespace UnityEngine::Events {
   template<typename T1, typename T2, typename T3>
   class InvokableCall_3 : public UnityEngine::Events::BaseInvokableCall {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xD81A64
+    // [DebuggerBrowsableAttribute] Offset: 0xE2E680
     // private UnityEngine.Events.UnityAction`3<T1,T2,T3> Delegate
     // Size: 0x8
     // Offset: 0x0

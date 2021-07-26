@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,49 +49,49 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PauseController::$$c__DisplayClass20_0
     class $$c__DisplayClass20_0;
-    // [InjectAttribute] Offset: 0xE06960
+    // [InjectAttribute] Offset: 0xEB357C
     // private readonly PauseMenuManager _pauseMenuManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PauseMenuManager* pauseMenuManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseMenuManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06970
+    // [InjectAttribute] Offset: 0xEB358C
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06980
+    // [InjectAttribute] Offset: 0xEB359C
     // private readonly IMenuButtonTrigger _menuButtonTrigger
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IMenuButtonTrigger* menuButtonTrigger;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuButtonTrigger*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06990
+    // [InjectAttribute] Offset: 0xEB35AC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE069A0
+    // [InjectAttribute] Offset: 0xEB35BC
     // private readonly ILevelRestartController _levelRestartController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::ILevelRestartController* levelRestartController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelRestartController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE069B0
+    // [InjectAttribute] Offset: 0xEB35CC
     // private readonly IReturnToMenuController _returnToMenuController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IReturnToMenuController* returnToMenuController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IReturnToMenuController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE069C0
+    // [InjectAttribute] Offset: 0xEB35DC
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x48
@@ -180,70 +181,70 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _paused
     void _set__paused(bool value);
     // private System.Boolean get_canPause()
-    // Offset: 0x1000F38
+    // Offset: 0x1E544EC
     bool get_canPause();
     // public System.Boolean get_wantsToPause()
-    // Offset: 0x1001024
+    // Offset: 0x1E545D8
     bool get_wantsToPause();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x1000A18
+    // Offset: 0x1E53FCC
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x1000ABC
+    // Offset: 0x1E54070
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x1000B60
+    // Offset: 0x1E54114
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x1000C04
+    // Offset: 0x1E541B8
     void remove_didResumeEvent(System::Action* value);
     // public System.Void add_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0x1000CA8
+    // Offset: 0x1E5425C
     void add_canPauseEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void remove_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0x1000D4C
+    // Offset: 0x1E54300
     void remove_canPauseEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void add_didReturnToMenuEvent(System.Action value)
-    // Offset: 0x1000DF0
+    // Offset: 0x1E543A4
     void add_didReturnToMenuEvent(System::Action* value);
     // public System.Void remove_didReturnToMenuEvent(System.Action value)
-    // Offset: 0x1000E94
+    // Offset: 0x1E54448
     void remove_didReturnToMenuEvent(System::Action* value);
     // private System.Void Start()
-    // Offset: 0x10010E4
+    // Offset: 0x1E54698
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1001670
+    // Offset: 0x1E54C24
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x1001C60
+    // Offset: 0x1E55214
     void OnApplicationPause(bool pauseStatus);
     // public System.Void Pause()
-    // Offset: 0x1001C6C
+    // Offset: 0x1E55220
     void Pause();
     // private System.Void HandleMenuButtonTriggered()
-    // Offset: 0x1001E2C
+    // Offset: 0x1E553E0
     void HandleMenuButtonTriggered();
     // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0x1001E30
+    // Offset: 0x1E553E4
     void HandleInputFocusWasCaptured();
     // private System.Void HandleHMDUnmounted()
-    // Offset: 0x1001E34
+    // Offset: 0x1E553E8
     void HandleHMDUnmounted();
     // private System.Void HandlePauseMenuManagerDidFinishResumeAnimation()
-    // Offset: 0x1001E38
+    // Offset: 0x1E553EC
     void HandlePauseMenuManagerDidFinishResumeAnimation();
     // private System.Void HandlePauseMenuManagerDidPressContinueButton()
-    // Offset: 0x1001F20
+    // Offset: 0x1E554D4
     void HandlePauseMenuManagerDidPressContinueButton();
     // private System.Void HandlePauseMenuManagerDidPressRestartButton()
-    // Offset: 0x100204C
+    // Offset: 0x1E55600
     void HandlePauseMenuManagerDidPressRestartButton();
     // private System.Void HandlePauseMenuManagerDidPressMenuButton()
-    // Offset: 0x10020FC
+    // Offset: 0x1E556B0
     void HandlePauseMenuManagerDidPressMenuButton();
     // public System.Void .ctor()
-    // Offset: 0x10021BC
+    // Offset: 0x1E55770
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

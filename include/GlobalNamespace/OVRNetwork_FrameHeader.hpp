@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRNetwork
 #include "GlobalNamespace/OVRNetwork.hpp"
 // Including type: System.ValueType
@@ -63,10 +64,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 payloadLength
     void _set_payloadLength(int value);
     // public System.Byte[] ToBytes()
-    // Offset: 0xED3D7C
+    // Offset: 0xD699BC
     ::Array<uint8_t>* ToBytes();
     // static public OVRNetwork/FrameHeader FromBytes(System.Byte[] arr)
-    // Offset: 0x12E704C
+    // Offset: 0x10A8FBC
     static GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::Array<uint8_t>* arr);
   }; // OVRNetwork/FrameHeader
   #pragma pack(pop)

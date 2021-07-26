@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,22 +74,22 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE09F40
-    // [SignalSenderAttribute] Offset: 0xE09F40
+    // [SpaceAttribute] Offset: 0xEB6B5C
+    // [SignalSenderAttribute] Offset: 0xEB6B5C
     // private Signal _tutorialIntroStartedSignal
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::Signal* tutorialIntroStartedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [SignalSenderAttribute] Offset: 0xE09F88
+    // [SignalSenderAttribute] Offset: 0xEB6BA4
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::Signal* tutorialFinishedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0xE09FC0
+    // [InjectAttribute] Offset: 0xEB6BDC
     // private PauseController _pauseController
     // Size: 0x8
     // Offset: 0x48
@@ -148,31 +149,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _doingOutroTransition
     void _set__doingOutroTransition(bool value);
     // protected System.Void Start()
-    // Offset: 0x107367C
+    // Offset: 0x1EDF150
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1073850
+    // Offset: 0x1EDF324
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0x1073A94
+    // Offset: 0x1EDF568
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0x1073B0C
+    // Offset: 0x1EDF5E0
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0x1073B58
+    // Offset: 0x1EDF62C
     System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1073BF4
+    // Offset: 0x1EDF6C8
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x1073C80
+    // Offset: 0x1EDF754
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x1073C8C
+    // Offset: 0x1EDF760
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x1073C94
+    // Offset: 0x1EDF768
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

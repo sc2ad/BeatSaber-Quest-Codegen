@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRPlugin/HandState
@@ -189,13 +190,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean result_mesh_RH
     void _set_result_mesh_RH(bool value);
     // private System.Void Start()
-    // Offset: 0x14E1F6C
+    // Offset: 0x1226A08
     void Start();
     // private System.Void Update()
-    // Offset: 0x14E2240
+    // Offset: 0x1226CDC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x14E2E48
+    // Offset: 0x12278E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -208,7 +209,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14E2ED0
+    // Offset: 0x122796C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

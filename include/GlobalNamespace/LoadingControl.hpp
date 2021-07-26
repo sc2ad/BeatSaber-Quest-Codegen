@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* loadingText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0BBF4
+    // [SpaceAttribute] Offset: 0xEB8810
     // private TMPro.TextMeshProUGUI _refreshText
     // Size: 0x8
     // Offset: 0x28
@@ -79,7 +80,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* refreshContainer;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0BC4C
+    // [SpaceAttribute] Offset: 0xEB8868
     // private UnityEngine.GameObject _downloadingContainer
     // Size: 0x8
     // Offset: 0x40
@@ -155,37 +156,37 @@ namespace GlobalNamespace {
     // Set instance field: private HMUI.ButtonBinder _buttonBinder
     void _set__buttonBinder(HMUI::ButtonBinder* value);
     // public System.Boolean get_isLoading()
-    // Offset: 0x11BA248
+    // Offset: 0x1FE8C8C
     bool get_isLoading();
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x11B2014
+    // Offset: 0x1FE0A58
     void add_didPressRefreshButtonEvent(System::Action* value);
     // public System.Void remove_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x11B20E4
+    // Offset: 0x1FE0B28
     void remove_didPressRefreshButtonEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x11BA264
+    // Offset: 0x1FE8CA8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11BA314
+    // Offset: 0x1FE8D58
     void OnDestroy();
     // public System.Void ShowLoading(System.String text)
-    // Offset: 0x11B1E14
+    // Offset: 0x1FE0858
     void ShowLoading(::Il2CppString* text);
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
-    // Offset: 0x11B1E9C
+    // Offset: 0x1FE08E0
     void ShowText(::Il2CppString* text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
-    // Offset: 0x11BA330
+    // Offset: 0x1FE8D74
     void ShowDownloadingProgress(::Il2CppString* text, float downloadingProgress);
     // public System.Void Hide()
-    // Offset: 0x11B1F50
+    // Offset: 0x1FE0994
     void Hide();
     // private System.Void <Awake>b__14_0()
-    // Offset: 0x11BA3E0
+    // Offset: 0x1FE8E24
     void $Awake$b__14_0();
     // public System.Void .ctor()
-    // Offset: 0x11BA3D8
+    // Offset: 0x1FE8E1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

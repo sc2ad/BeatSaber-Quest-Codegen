@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Object
 #include "Org/BouncyCastle/Asn1/Asn1Object.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -93,48 +94,48 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private Org.BouncyCastle.Asn1.Asn1Object externalContent
     void _set_externalContent(Org::BouncyCastle::Asn1::Asn1Object* value);
     // public Org.BouncyCastle.Asn1.Asn1Object get_DataValueDescriptor()
-    // Offset: 0x16E8B34
+    // Offset: 0x13EB1F0
     Org::BouncyCastle::Asn1::Asn1Object* get_DataValueDescriptor();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DirectReference()
-    // Offset: 0x16E8B3C
+    // Offset: 0x13EB1F8
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DirectReference();
     // public System.Int32 get_Encoding()
-    // Offset: 0x16E8B44
+    // Offset: 0x13EB200
     int get_Encoding();
     // public System.Void set_Encoding(System.Int32 value)
-    // Offset: 0x16E87A0
+    // Offset: 0x13EAE5C
     void set_Encoding(int value);
     // public Org.BouncyCastle.Asn1.Asn1Object get_ExternalContent()
-    // Offset: 0x16E8B4C
+    // Offset: 0x13EB208
     Org::BouncyCastle::Asn1::Asn1Object* get_ExternalContent();
     // public Org.BouncyCastle.Asn1.DerInteger get_IndirectReference()
-    // Offset: 0x16E8B54
+    // Offset: 0x13EB210
     Org::BouncyCastle::Asn1::DerInteger* get_IndirectReference();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector vector)
-    // Offset: 0x16D96A0
+    // Offset: 0x13DBD5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerExternal* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* vector) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerExternal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerExternal*, creationType>(vector)));
     }
     // static private Org.BouncyCastle.Asn1.Asn1Object GetObjFromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector v, System.Int32 index)
-    // Offset: 0x16E86E0
+    // Offset: 0x13EAD9C
     static Org::BouncyCastle::Asn1::Asn1Object* GetObjFromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int index);
     // static private System.Void WriteEncodable(System.IO.MemoryStream ms, Org.BouncyCastle.Asn1.Asn1Encodable e)
-    // Offset: 0x16E8974
+    // Offset: 0x13EB030
     static void WriteEncodable(System::IO::MemoryStream* ms, Org::BouncyCastle::Asn1::Asn1Encodable* e);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16E886C
+    // Offset: 0x13EAF28
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x16E89D0
+    // Offset: 0x13EB08C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16E8A38
+    // Offset: 0x13EB0F4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

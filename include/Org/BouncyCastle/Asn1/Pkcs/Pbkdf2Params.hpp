@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -89,35 +90,35 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier prf
     void _set_prf(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x1762FB0
+    // Offset: 0x146566C
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_KeyLength()
-    // Offset: 0x1762FCC
+    // Offset: 0x1465688
     Org::BouncyCastle::Math::BigInteger* get_KeyLength();
     // public System.Boolean get_IsDefaultPrf()
-    // Offset: 0x1762FE0
+    // Offset: 0x146569C
     bool get_IsDefaultPrf();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_Prf()
-    // Offset: 0x176306C
+    // Offset: 0x1465728
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1762CE4
+    // Offset: 0x14653A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pbkdf2Params* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pbkdf2Params*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1763264
+    // Offset: 0x1465920
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params GetInstance(System.Object obj)
-    // Offset: 0x1762A5C
+    // Offset: 0x1465118
     static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
-    // Offset: 0x1762F90
+    // Offset: 0x146564C
     ::Array<uint8_t>* GetSalt();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17630E0
+    // Offset: 0x146579C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

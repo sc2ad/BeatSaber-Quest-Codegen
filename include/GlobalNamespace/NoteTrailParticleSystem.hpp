@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ParticleSystem/UnityEngine.EmitParams
@@ -53,13 +54,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
     void _set__emitParams(UnityEngine::ParticleSystem::EmitParams value);
     // protected System.Void Awake()
-    // Offset: 0x11E8750
+    // Offset: 0x20170A8
     void Awake();
     // public System.Void Emit(UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Int32 count)
-    // Offset: 0x11E85CC
+    // Offset: 0x2016F24
     void Emit(UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, int count);
     // public System.Void .ctor()
-    // Offset: 0x11E8760
+    // Offset: 0x20170B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

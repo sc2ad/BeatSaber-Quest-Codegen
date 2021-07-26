@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.InteractionTrigger
 #include "RootMotion/FinalIK/InteractionTrigger.hpp"
 // Including type: UnityEngine.Vector3
@@ -34,36 +35,36 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::CameraPosition : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF7B18
+    // [TooltipAttribute] Offset: 0xEA4734
     // public UnityEngine.Collider lookAtTarget
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Collider* lookAtTarget;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF7B50
+    // [TooltipAttribute] Offset: 0xEA476C
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x18
     UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xDF7B88
+    // [TooltipAttribute] Offset: 0xEA47A4
     // public System.Single maxDistance
     // Size: 0x4
     // Offset: 0x24
     float maxDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF7BC0
-    // [RangeAttribute] Offset: 0xDF7BC0
+    // [TooltipAttribute] Offset: 0xEA47DC
+    // [RangeAttribute] Offset: 0xEA47DC
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x28
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF7C18
+    // [TooltipAttribute] Offset: 0xEA4834
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x2C
@@ -93,13 +94,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Boolean fixYAxis
     void _set_fixYAxis(bool value);
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x1AB3DA4
+    // Offset: 0x172B5F4
     UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1AB3F4C
-    bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, float& error);
+    // Offset: 0x172B79C
+    bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, ByRef<float> error);
     // public System.Void .ctor()
-    // Offset: 0x1AB422C
+    // Offset: 0x172BA7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::IsInRange
 // Il2CppName: IsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)(UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, float&)>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::IsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)(UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, ByRef<float>)>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::IsInRange)> {
   static const MethodInfo* get() {
     static auto* raycastFrom = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;

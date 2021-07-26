@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -129,46 +130,46 @@ namespace System {
     // Set instance field: private System.String display_fullname
     void _set_display_fullname(::Il2CppString* value);
     // System.Boolean get_HasModifiers()
-    // Offset: 0x22CEA50
+    // Offset: 0x1D89F84
     bool get_HasModifiers();
     // System.String get_DisplayFullName()
-    // Offset: 0x22CEE84
+    // Offset: 0x1D8A3B8
     ::Il2CppString* get_DisplayFullName();
     // private System.String GetDisplayFullName(System.TypeSpec/System.DisplayNameFormat flags)
-    // Offset: 0x22CEA60
+    // Offset: 0x1D89F94
     ::Il2CppString* GetDisplayFullName(System::TypeSpec::DisplayNameFormat flags);
     // private System.Text.StringBuilder GetModifierString(System.Text.StringBuilder sb)
-    // Offset: 0x22CEEB8
+    // Offset: 0x1D8A3EC
     System::Text::StringBuilder* GetModifierString(System::Text::StringBuilder* sb);
     // static System.TypeSpec Parse(System.String typeName)
-    // Offset: 0x22CE044
+    // Offset: 0x1D89578
     static System::TypeSpec* Parse(::Il2CppString* typeName);
     // static System.String UnescapeInternalName(System.String displayName)
-    // Offset: 0x22CD72C
+    // Offset: 0x1D88C60
     static ::Il2CppString* UnescapeInternalName(::Il2CppString* displayName);
     // System.Type Resolve(System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase)
-    // Offset: 0x22CE12C
+    // Offset: 0x1D89660
     System::Type* Resolve(System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>* assemblyResolver, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>* typeResolver, bool throwOnError, bool ignoreCase);
     // private System.Void AddName(System.String type_name)
-    // Offset: 0x22CFB4C
+    // Offset: 0x1D8B080
     void AddName(::Il2CppString* type_name);
     // private System.Void AddModifier(System.ModifierSpec md)
-    // Offset: 0x22CFC20
+    // Offset: 0x1D8B154
     void AddModifier(System::ModifierSpec* md);
     // static private System.Void SkipSpace(System.String name, ref System.Int32 pos)
-    // Offset: 0x22CFCB8
-    static void SkipSpace(::Il2CppString* name, int& pos);
+    // Offset: 0x1D8B1EC
+    static void SkipSpace(::Il2CppString* name, ByRef<int> pos);
     // static private System.Void BoundCheck(System.Int32 idx, System.String s)
-    // Offset: 0x22CFD80
+    // Offset: 0x1D8B2B4
     static void BoundCheck(int idx, ::Il2CppString* s);
     // static private System.TypeIdentifier ParsedTypeIdentifier(System.String displayName)
-    // Offset: 0x22CFC1C
+    // Offset: 0x1D8B150
     static System::TypeIdentifier* ParsedTypeIdentifier(::Il2CppString* displayName);
     // static private System.TypeSpec Parse(System.String name, ref System.Int32 p, System.Boolean is_recurse, System.Boolean allow_aqn)
-    // Offset: 0x22CF04C
-    static System::TypeSpec* Parse(::Il2CppString* name, int& p, bool is_recurse, bool allow_aqn);
+    // Offset: 0x1D8A580
+    static System::TypeSpec* Parse(::Il2CppString* name, ByRef<int> p, bool is_recurse, bool allow_aqn);
     // public System.Void .ctor()
-    // Offset: 0x22CFE28
+    // Offset: 0x1D8B35C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -268,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TypeSpec::SkipSpace
 // Il2CppName: SkipSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int&)>(&System::TypeSpec::SkipSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ByRef<int>)>(&System::TypeSpec::SkipSpace)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -297,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::TypeSpec::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*, int&, bool, bool)>(&System::TypeSpec::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*, ByRef<int>, bool, bool)>(&System::TypeSpec::Parse)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

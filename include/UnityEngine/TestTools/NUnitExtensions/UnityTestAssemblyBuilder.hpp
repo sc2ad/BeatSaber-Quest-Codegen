@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Api.DefaultTestAssemblyBuilder
 #include "NUnit/Framework/Api/DefaultTestAssemblyBuilder.hpp"
 // Including type: UnityEngine.TestTools.TestPlatform
@@ -65,16 +66,16 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Set instance field: private readonly System.String m_ProductName
     void _set_m_ProductName(::Il2CppString* value);
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1482324
+    // Offset: 0x11F3384
     NUnit::Framework::Interfaces::ITest* Build(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x148C048
+    // Offset: 0x11FD0A8
     System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* BuildAsync(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
-    // Offset: 0x148C104
+    // Offset: 0x11FD164
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* GetNUnitTestBuilderSettings(UnityEngine::TestTools::TestPlatform testPlatform);
     // public System.Void .ctor()
-    // Offset: 0x148BFD0
+    // Offset: 0x11FD030
     // Implemented from: NUnit.Framework.Api.DefaultTestAssemblyBuilder
     // Base method: System.Void DefaultTestAssemblyBuilder::.ctor()
     // Base method: System.Void Object::.ctor()

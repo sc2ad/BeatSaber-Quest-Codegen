@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableResponse
 #include "GlobalNamespace/BaseMasterServerReliableResponse.hpp"
 // Including type: MasterServer.IUserServerToClientMessage
@@ -136,26 +137,26 @@ namespace MasterServer {
     // Set instance field: public System.String code
     void _set_code(::Il2CppString* value);
     // static public PacketPool`1<MasterServer.UserServerStatusUpdateResponse> get_pool()
-    // Offset: 0x152BA30
+    // Offset: 0x2138094
     static GlobalNamespace::PacketPool_1<MasterServer::UserServerStatusUpdateResponse*>* get_pool();
     // public MasterServer.UserServerStatusUpdateResponse InitForFailure(MasterServer.UserServerStatusUpdateResponse/MasterServer.Result result)
-    // Offset: 0x152BB10
+    // Offset: 0x2138174
     MasterServer::UserServerStatusUpdateResponse* InitForFailure(MasterServer::UserServerStatusUpdateResponse::Result result);
     // public MasterServer.UserServerStatusUpdateResponse InitForSuccess(System.Net.IPEndPoint remoteEndPoint, System.String code)
-    // Offset: 0x152BBA8
+    // Offset: 0x213820C
     MasterServer::UserServerStatusUpdateResponse* InitForSuccess(System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* code);
     // public override System.Byte get_resultCode()
-    // Offset: 0x152BA78
+    // Offset: 0x21380DC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x152BA80
+    // Offset: 0x21380E4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x152BCE8
+    // Offset: 0x213834C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -165,17 +166,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserServerStatusUpdateResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152BBB4
+    // Offset: 0x2138218
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152BC24
+    // Offset: 0x2138288
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x152BC8C
+    // Offset: 0x21382F0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

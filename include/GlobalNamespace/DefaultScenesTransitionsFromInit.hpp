@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* shaderWarmupScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE7B4
+    // [InjectAttribute] Offset: 0xEAB3D0
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x30
@@ -78,13 +79,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly GameScenesManager _gameScenesManager
     void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
-    // Offset: 0x10891C0
+    // Offset: 0x1F0AABC
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
     // public System.Void TransitionToNextScene(System.Boolean goStraightToMenu)
-    // Offset: 0x10891C8
+    // Offset: 0x1F0AAC4
     void TransitionToNextScene(bool goStraightToMenu);
     // public System.Void .ctor()
-    // Offset: 0x10892D4
+    // Offset: 0x1F0ABD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -71,19 +72,19 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshProUGUI _bombsCountText
     void _set__bombsCountText(TMPro::TextMeshProUGUI* value);
     // public System.Void set_notesPerSecond(System.Single value)
-    // Offset: 0x11B2994
+    // Offset: 0x1FE13D8
     void set_notesPerSecond(float value);
     // public System.Void set_notesCount(System.Int32 value)
-    // Offset: 0x11B2A14
+    // Offset: 0x1FE1458
     void set_notesCount(int value);
     // public System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x11B2A58
+    // Offset: 0x1FE149C
     void set_obstaclesCount(int value);
     // public System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x11B2A9C
+    // Offset: 0x1FE14E0
     void set_bombsCount(int value);
     // public System.Void .ctor()
-    // Offset: 0x11B2AE0
+    // Offset: 0x1FE1524
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

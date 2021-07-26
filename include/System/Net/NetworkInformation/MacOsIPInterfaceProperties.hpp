@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.UnixIPInterfaceProperties
 #include "System/Net/NetworkInformation/UnixIPInterfaceProperties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,17 +43,17 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: MacOsIPInterfaceProperties
     MacOsIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.MacOsNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1461EA4
+    // Offset: 0x11D2F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::MacOsNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // static private System.Boolean ParseRouteInfo_internal(System.String iface, out System.String[] gw_addr_list)
-    // Offset: 0x1461F24
-    static bool ParseRouteInfo_internal(::Il2CppString* iface, ::Array<::Il2CppString*>*& gw_addr_list);
+    // Offset: 0x11D2F84
+    static bool ParseRouteInfo_internal(::Il2CppString* iface, ByRef<::Array<::Il2CppString*>*> gw_addr_list);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x1461F28
+    // Offset: 0x11D2F88
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
@@ -68,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsIPInterfaceProperti
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_internal
 // Il2CppName: ParseRouteInfo_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*&)>(&System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::Array<::Il2CppString*>*>)>(&System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_internal)> {
   static const MethodInfo* get() {
     static auto* iface = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* gw_addr_list = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;

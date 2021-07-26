@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: IPoolablePacket
@@ -91,40 +92,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 <timeOffsetMs>k__BackingField
     void _set_$timeOffsetMs$k__BackingField(int value);
     // public SyncStateId get_baseId()
-    // Offset: 0x153969C
+    // Offset: 0x2145D00
     GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x15396A4
+    // Offset: 0x2145D08
     void set_baseId(GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x15396AC
+    // Offset: 0x2145D10
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x15396B4
+    // Offset: 0x2145D18
     void set_timeOffsetMs(int value);
     // public NodePoseSyncState get_delta()
-    // Offset: 0x15396BC
+    // Offset: 0x2145D20
     GlobalNamespace::NodePoseSyncState get_delta();
     // public System.Void set_delta(NodePoseSyncState value)
-    // Offset: 0x15396CC
+    // Offset: 0x2145D30
     void set_delta(GlobalNamespace::NodePoseSyncState value);
     // static private System.Void .cctor()
-    // Offset: 0x15398F4
+    // Offset: 0x2145F58
     static void _cctor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x15396E8
+    // Offset: 0x2145D4C
     static void NoDomainReloadInit();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1539764
+    // Offset: 0x2145DC8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15397F4
+    // Offset: 0x2145E58
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1539868
+    // Offset: 0x2145ECC
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x15398EC
+    // Offset: 0x2145F50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

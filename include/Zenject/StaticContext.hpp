@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -27,13 +28,13 @@ namespace Zenject {
     // Set static field: static private Zenject.DiContainer _container
     static void _set__container(Zenject::DiContainer* value);
     // static public System.Boolean get_HasContainer()
-    // Offset: 0x16CFA28
+    // Offset: 0x13D20E4
     static bool get_HasContainer();
     // static public Zenject.DiContainer get_Container()
-    // Offset: 0x16CA3F4
+    // Offset: 0x13CCAB0
     static Zenject::DiContainer* get_Container();
     // static public System.Void Clear()
-    // Offset: 0x16CF9D8
+    // Offset: 0x13D2094
     static void Clear();
   }; // Zenject.StaticContext
   #pragma pack(pop)

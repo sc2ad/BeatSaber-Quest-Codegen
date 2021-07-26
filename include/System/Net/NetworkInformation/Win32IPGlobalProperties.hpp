@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.IPGlobalProperties
 #include "System/Net/NetworkInformation/IPGlobalProperties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,12 +23,12 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32IPGlobalProperties
     Win32IPGlobalProperties() noexcept {}
     // public override System.String get_DomainName()
-    // Offset: 0x1464B1C
+    // Offset: 0x11D5B7C
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x1461040
+    // Offset: 0x11D20A0
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()

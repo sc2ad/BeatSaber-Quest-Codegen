@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.HeaderInfo
 #include "System/Net/Http/Headers/HeaderInfo.hpp"
 // Including type: System.Net.Http.Headers.HeaderInfo/System.Net.Http.Headers.HeaderTypeInfo`2
@@ -113,10 +114,10 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo/System.Net.Http.Headers.HeaderTypeInfo`2
     // Base method: System.Boolean HeaderTypeInfo_2::TryParse(System.String value, out System.Object result)
-    bool TryParse(::Il2CppString* value, ::Il2CppObject*& result) {
+    bool TryParse(::Il2CppString* value, ByRef<::Il2CppObject*> result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2::TryParse");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, result);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, byref(result));
     }
   }; // System.Net.Http.Headers.HeaderInfo/System.Net.Http.Headers.CollectionHeaderTypeInfo`2
   // Could not write size check! Type: System.Net.Http.Headers.HeaderInfo/System.Net.Http.Headers.CollectionHeaderTypeInfo`2 is generic, or has no fields that are valid for size checks!

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.WingedEdge
 #include "UnityEngine/ProBuilder/WingedEdge.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
@@ -45,16 +46,16 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Edge,System.Int32> <>9__32_2
     static void _set_$$9__32_2(System::Func_2<UnityEngine::ProBuilder::Edge, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x22B3B04
+    // Offset: 0x1D84978
     static void _cctor();
     // UnityEngine.ProBuilder.Edge <SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge y)
-    // Offset: 0x22B3B70
+    // Offset: 0x1D849E4
     UnityEngine::ProBuilder::Edge $SortCommonIndexesByAdjacency$b__32_1(UnityEngine::ProBuilder::WingedEdge* y);
     // System.Int32 <SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x22B3B88
+    // Offset: 0x1D849FC
     int $SortCommonIndexesByAdjacency$b__32_2(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x22B3B68
+    // Offset: 0x1D849DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

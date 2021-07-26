@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,21 +41,21 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly System.Byte[] key
     void _set_key(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1228714
+    // Offset: 0x10329EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyParameter* New_ctor(::Array<uint8_t>* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyParameter*, creationType>(key)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x122892C
+    // Offset: 0x1032C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyParameter* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyParameter*, creationType>(key, keyOff, keyLen)));
     }
     // public System.Byte[] GetKey()
-    // Offset: 0x122C894
+    // Offset: 0x1036B6C
     ::Array<uint8_t>* GetKey();
   }; // Org.BouncyCastle.Crypto.Parameters.KeyParameter
   #pragma pack(pop)

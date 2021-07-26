@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SimpleFileLogger
 #include "GlobalNamespace/SimpleFileLogger.hpp"
 // Including type: UnityEngine.MonoBehaviour
@@ -44,16 +45,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.List`1<System.String> _lines
     void _set__lines(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // protected System.Void OnDestroy()
-    // Offset: 0x2359F70
+    // Offset: 0x1DE23B0
     void OnDestroy();
     // public System.Void Log(System.String text)
-    // Offset: 0x2359C08
+    // Offset: 0x1DE2048
     void Log(::Il2CppString* text);
     // public System.Void Clear()
-    // Offset: 0x2359EFC
+    // Offset: 0x1DE233C
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x2359FC4
+    // Offset: 0x1DE2404
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

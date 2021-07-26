@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CuttableBySaber
 #include "GlobalNamespace/CuttableBySaber.hpp"
 // Including type: System.MulticastDelegate
@@ -45,20 +46,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: WasCutBySaberDelegate
     WasCutBySaberDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10877A4
+    // Offset: 0x1F090A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CuttableBySaber::WasCutBySaberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CuttableBySaber::WasCutBySaberDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10871F0
+    // Offset: 0x1F08AEC
     void Invoke(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.IAsyncResult BeginInvoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10877B4
+    // Offset: 0x1F090B0
     System::IAsyncResult* BeginInvoke(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x108789C
+    // Offset: 0x1F09198
     void EndInvoke(System::IAsyncResult* result);
   }; // CuttableBySaber/WasCutBySaberDelegate
   #pragma pack(pop)

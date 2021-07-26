@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Dropdown
 #include "UnityEngine/UI/Dropdown.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -73,26 +74,26 @@ namespace UnityEngine::UI {
     // Set instance field: public UnityEngine.UI.Dropdown <>4__this
     void _set_$$4__this(UnityEngine::UI::Dropdown* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x18E580C
+    // Offset: 0x15B6C10
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18E5874
+    // Offset: 0x15B6C78
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x18E5728
+    // Offset: 0x15B6B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::$DelayedDestroyDropdownList$d__74* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::$DelayedDestroyDropdownList$d__74*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x18E5754
+    // Offset: 0x15B6B58
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x18E5758
+    // Offset: 0x15B6B5C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x18E5814
+    // Offset: 0x15B6C18
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.Dropdown/UnityEngine.UI.<DelayedDestroyDropdownList>d__74
   #pragma pack(pop)

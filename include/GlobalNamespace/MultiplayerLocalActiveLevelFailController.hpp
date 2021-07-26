@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,35 +52,35 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelFailedTextEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07800
+    // [InjectAttribute] Offset: 0xEB441C
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07810
+    // [InjectAttribute] Offset: 0xEB442C
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07820
+    // [InjectAttribute] Offset: 0xEB443C
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07830
+    // [InjectAttribute] Offset: 0xEB444C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07840
+    // [InjectAttribute] Offset: 0xEB445C
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
@@ -115,19 +116,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     void _set__multiplayerPlayersManager(GlobalNamespace::MultiplayerPlayersManager* value);
     // protected System.Void Start()
-    // Offset: 0x23D31B0
+    // Offset: 0x1E75C74
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x23D32A0
+    // Offset: 0x1E75D64
     void OnDestroy();
     // private System.Collections.IEnumerator PlayerFailedCoroutine()
-    // Offset: 0x23D33A0
+    // Offset: 0x1E75E64
     System::Collections::IEnumerator* PlayerFailedCoroutine();
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x23D343C
+    // Offset: 0x1E75F00
     void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x23D3490
+    // Offset: 0x1E75F54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

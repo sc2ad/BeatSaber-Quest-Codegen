@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -28,10 +29,10 @@ namespace GlobalNamespace {
     IEquatableByReference_1() noexcept {}
     // public System.Boolean Equals(in T other)
     // Offset: 0xFFFFFFFF
-    bool Equals(T& other) {
+    bool Equals(ByRef<T> other) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IEquatableByReference_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, other);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(other));
     }
   }; // IEquatableByReference`1
   // Could not write size check! Type: IEquatableByReference`1 is generic, or has no fields that are valid for size checks!

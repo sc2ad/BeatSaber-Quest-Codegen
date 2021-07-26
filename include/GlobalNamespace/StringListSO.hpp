@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -19,7 +20,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [ReorderableAttribute] Offset: 0xDD0468
+    // [ReorderableAttribute] Offset: 0xE7D084
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
@@ -35,10 +36,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.String[] _strings
     void _set__strings(::Array<::Il2CppString*>* value);
     // public System.String[] get_strings()
-    // Offset: 0x235AC7C
+    // Offset: 0x1DE30BC
     ::Array<::Il2CppString*>* get_strings();
     // public System.Void .ctor()
-    // Offset: 0x235AC84
+    // Offset: 0x1DE30C4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

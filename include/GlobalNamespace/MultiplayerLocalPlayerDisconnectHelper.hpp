@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -33,21 +34,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalPlayerDisconnectHelper : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xE07B30
+    // [InjectAttribute] Offset: 0xEB474C
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07B40
+    // [InjectAttribute] Offset: 0xEB475C
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07B50
+    // [InjectAttribute] Offset: 0xEB476C
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x20
@@ -81,13 +82,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
     // public System.Void Disconnect()
-    // Offset: 0x23D5238
+    // Offset: 0x1E77CFC
     void Disconnect();
     // public System.String ResolveDisconnectButtonString()
-    // Offset: 0x23D6824
+    // Offset: 0x1E792E8
     ::Il2CppString* ResolveDisconnectButtonString();
     // public System.Void .ctor()
-    // Offset: 0x23D8CF4
+    // Offset: 0x1E7B7B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

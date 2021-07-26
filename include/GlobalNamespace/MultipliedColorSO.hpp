@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ColorSO
 #include "GlobalNamespace/ColorSO.hpp"
 // Including type: UnityEngine.Color
@@ -53,12 +54,12 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _multiplierColor
     void _set__multiplierColor(UnityEngine::Color value);
     // public override UnityEngine.Color get_color()
-    // Offset: 0x23C82D8
+    // Offset: 0x1E3F8D0
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x23C8340
+    // Offset: 0x1E3F938
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

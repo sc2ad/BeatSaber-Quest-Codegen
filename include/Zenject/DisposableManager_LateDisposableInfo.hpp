@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.DisposableManager
 #include "Zenject/DisposableManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace Zenject {
     // Set instance field: public System.Int32 Priority
     void _set_Priority(int value);
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
-    // Offset: 0x1619E18
+    // Offset: 0x131D3E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::LateDisposableInfo::.ctor");

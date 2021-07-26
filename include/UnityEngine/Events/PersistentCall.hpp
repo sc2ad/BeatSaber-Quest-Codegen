@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Events.PersistentListenerMode
 #include "UnityEngine/Events/PersistentListenerMode.hpp"
 // Including type: UnityEngine.Events.UnityEventCallState
@@ -42,21 +43,21 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentCall : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xD81ADC
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E6F8
     // private UnityEngine.Object m_Target
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Object* m_Target;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD81B28
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E744
     // private System.String m_MethodName
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_MethodName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD81B74
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E790
     // private UnityEngine.Events.PersistentListenerMode m_Mode
     // Size: 0x4
     // Offset: 0x20
@@ -65,15 +66,15 @@ namespace UnityEngine::Events {
     static_assert(sizeof(UnityEngine::Events::PersistentListenerMode) == 0x4);
     // Padding between fields: m_Mode and: m_Arguments
     char __padding2[0x4] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xD81BC0
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E7DC
     // private UnityEngine.Events.ArgumentCache m_Arguments
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Events::ArgumentCache* m_Arguments;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::ArgumentCache*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD81C0C
-    // [FormerlySerializedAsAttribute] Offset: 0xD81C0C
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E828
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E828
     // private UnityEngine.Events.UnityEventCallState m_CallState
     // Size: 0x4
     // Offset: 0x30
@@ -103,28 +104,28 @@ namespace UnityEngine::Events {
     // Set instance field: private UnityEngine.Events.UnityEventCallState m_CallState
     void _set_m_CallState(UnityEngine::Events::UnityEventCallState value);
     // public UnityEngine.Object get_target()
-    // Offset: 0x1BE7190
+    // Offset: 0x17D9528
     UnityEngine::Object* get_target();
     // public System.String get_methodName()
-    // Offset: 0x1BE7198
+    // Offset: 0x17D9530
     ::Il2CppString* get_methodName();
     // public UnityEngine.Events.PersistentListenerMode get_mode()
-    // Offset: 0x1BE71A0
+    // Offset: 0x17D9538
     UnityEngine::Events::PersistentListenerMode get_mode();
     // public UnityEngine.Events.ArgumentCache get_arguments()
-    // Offset: 0x1BE71A8
+    // Offset: 0x17D9540
     UnityEngine::Events::ArgumentCache* get_arguments();
     // public System.Boolean IsValid()
-    // Offset: 0x1BE71B0
+    // Offset: 0x17D9548
     bool IsValid();
     // public UnityEngine.Events.BaseInvokableCall GetRuntimeCall(UnityEngine.Events.UnityEventBase theEvent)
-    // Offset: 0x1BE7244
+    // Offset: 0x17D95DC
     UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(UnityEngine::Events::UnityEventBase* theEvent);
     // static private UnityEngine.Events.BaseInvokableCall GetObjectCall(UnityEngine.Object target, System.Reflection.MethodInfo method, UnityEngine.Events.ArgumentCache arguments)
-    // Offset: 0x1BE75B4
+    // Offset: 0x17D994C
     static UnityEngine::Events::BaseInvokableCall* GetObjectCall(UnityEngine::Object* target, System::Reflection::MethodInfo* method, UnityEngine::Events::ArgumentCache* arguments);
     // public System.Void .ctor()
-    // Offset: 0x1BE79C0
+    // Offset: 0x17D9D58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

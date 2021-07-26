@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NoteJumpStartBeatOffsetDropdown
 #include "GlobalNamespace/NoteJumpStartBeatOffsetDropdown.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,13 +43,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<System.Single,System.String>,System.String> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<System::Tuple_2<float, ::Il2CppString*>*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11E67F0
+    // Offset: 0x2015148
     static void _cctor();
     // System.String <Start>b__7_0(System.Tuple`2<System.Single,System.String> x)
-    // Offset: 0x11E685C
+    // Offset: 0x20151B4
     ::Il2CppString* $Start$b__7_0(System::Tuple_2<float, ::Il2CppString*>* x);
     // public System.Void .ctor()
-    // Offset: 0x11E6854
+    // Offset: 0x20151AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

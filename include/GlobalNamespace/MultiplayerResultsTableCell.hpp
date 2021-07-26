@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 // Including type: UnityEngine.Color
@@ -97,7 +98,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsAvatarController* multiplayerResultsAvatarController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsAvatarController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE11664
+    // [SpaceAttribute] Offset: 0xEBE280
     // private System.Single _avatarScale
     // Size: 0x4
     // Offset: 0x90
@@ -193,13 +194,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _lightColor
     void _set__lightColor(UnityEngine::Color value);
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x100632C
+    // Offset: 0x1E598E0
     void set_alpha(float value);
     // public System.Void SetData(IConnectedPlayer connectedPlayer, System.Int32 position, System.String playerName, LevelCompletionResults levelCompletionResults, System.Boolean isLocalPlayer, System.Int32 numberOfPlayers)
-    // Offset: 0x10063E8
+    // Offset: 0x1E5999C
     void SetData(GlobalNamespace::IConnectedPlayer* connectedPlayer, int position, ::Il2CppString* playerName, GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool isLocalPlayer, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x1006780
+    // Offset: 0x1E59D34
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

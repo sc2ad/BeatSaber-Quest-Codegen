@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.FloatTween
 #include "TMPro/FloatTween.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -23,7 +24,7 @@ namespace TMPro {
     // Creating value type constructor for type: FloatTweenCallback
     FloatTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x10B9380
+    // Offset: 0xFF0E80
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

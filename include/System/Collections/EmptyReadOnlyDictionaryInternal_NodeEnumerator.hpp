@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.EmptyReadOnlyDictionaryInternal
 #include "System/Collections/EmptyReadOnlyDictionaryInternal.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
@@ -35,25 +36,25 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
     // public System.Object get_Current()
-    // Offset: 0x178C48C
+    // Offset: 0x148DB48
     ::Il2CppObject* get_Current();
     // public System.Object get_Key()
-    // Offset: 0x178C510
+    // Offset: 0x148DBCC
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x178C590
+    // Offset: 0x148DC4C
     ::Il2CppObject* get_Value();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x178C610
+    // Offset: 0x148DCCC
     System::Collections::DictionaryEntry get_Entry();
     // public System.Boolean MoveNext()
-    // Offset: 0x178C484
+    // Offset: 0x148DB40
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x178C50C
+    // Offset: 0x148DBC8
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x178BE30
+    // Offset: 0x148D4EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

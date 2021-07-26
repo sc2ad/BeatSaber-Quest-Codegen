@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ModifiersSelectionView
 #include "GlobalNamespace/ModifiersSelectionView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditableModifiersSelectionView : public GlobalNamespace::ModifiersSelectionView {
     public:
-    // [SpaceAttribute] Offset: 0xE10F7C
+    // [SpaceAttribute] Offset: 0xEBDB98
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x30
@@ -90,31 +91,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <showClearButton>k__BackingField
     void _set_$showClearButton$k__BackingField(bool value);
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x101F13C
+    // Offset: 0x1E89C10
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x101F144
+    // Offset: 0x1E89C18
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x101F14C
+    // Offset: 0x1E89C20
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x101F154
+    // Offset: 0x1E89C28
     void set_interactable(bool value);
     // public System.Boolean get_showClearButton()
-    // Offset: 0x101F1C0
+    // Offset: 0x1E89C94
     bool get_showClearButton();
     // public System.Void set_showClearButton(System.Boolean value)
-    // Offset: 0x101F1C8
+    // Offset: 0x1E89C9C
     void set_showClearButton(bool value);
     // public System.Void SetVisibility(System.Boolean visible)
-    // Offset: 0x101F1D4
+    // Offset: 0x1E89CA8
     void SetVisibility(bool visible);
     // public System.Void Setup(System.Boolean showClearButton)
-    // Offset: 0x101F208
+    // Offset: 0x1E89CDC
     void Setup(bool showClearButton);
     // public System.Void .ctor()
-    // Offset: 0x101F284
+    // Offset: 0x1E89D58
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -128,7 +129,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditableModifiersSelectionView*, creationType>()));
     }
     // public override System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x101F214
+    // Offset: 0x1E89CE8
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::SetGameplayModifiers(GameplayModifiers gameplayModifiers)
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);

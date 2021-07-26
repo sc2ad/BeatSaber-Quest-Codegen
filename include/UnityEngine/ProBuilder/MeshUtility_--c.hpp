@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshUtility
 #include "UnityEngine/ProBuilder/MeshUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,13 +54,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32>,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex>> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1702F08
+    // Offset: 0x14055C4
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex> <CollapseSharedVertices>b__10_0(System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32> x)
-    // Offset: 0x1702F74
+    // Offset: 0x1405630
     System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>* $CollapseSharedVertices$b__10_0(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x1702F6C
+    // Offset: 0x1405628
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

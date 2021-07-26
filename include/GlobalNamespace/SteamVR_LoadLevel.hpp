@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -389,37 +390,37 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean autoTriggerOnEnable
     void _set_autoTriggerOnEnable(bool value);
     // static public System.Boolean get_loading()
-    // Offset: 0x13A82C0
+    // Offset: 0x114FF20
     static bool get_loading();
     // static public System.Single get_progress()
-    // Offset: 0x13A8358
+    // Offset: 0x114FFB8
     static float get_progress();
     // static public UnityEngine.Texture get_progressTexture()
-    // Offset: 0x13A846C
+    // Offset: 0x11500CC
     static UnityEngine::Texture* get_progressTexture();
     // private System.Void OnEnable()
-    // Offset: 0x13A8544
+    // Offset: 0x11501A4
     void OnEnable();
     // public System.Void Trigger()
-    // Offset: 0x13A8554
+    // Offset: 0x11501B4
     void Trigger();
     // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
-    // Offset: 0x13A865C
+    // Offset: 0x11502BC
     static void Begin(::Il2CppString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
     // private System.Void OnGUI()
-    // Offset: 0x13A8768
+    // Offset: 0x11503C8
     void OnGUI();
     // private System.Void Update()
-    // Offset: 0x13A8F48
+    // Offset: 0x1150BA8
     void Update();
     // private System.Collections.IEnumerator LoadLevel()
-    // Offset: 0x13A85EC
+    // Offset: 0x115024C
     System::Collections::IEnumerator* LoadLevel();
     // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
-    // Offset: 0x13A8BAC
+    // Offset: 0x115080C
     uint64_t GetOverlayHandle(::Il2CppString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
     // public System.Void .ctor()
-    // Offset: 0x13A91C4
+    // Offset: 0x1150E24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -432,7 +433,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_LoadLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13A9228
+    // Offset: 0x1150E88
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

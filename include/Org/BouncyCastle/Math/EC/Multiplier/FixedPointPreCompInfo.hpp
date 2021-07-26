@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo
 #include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,25 +66,25 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: protected System.Int32 m_width
     void _set_m_width(int value);
     // public Org.BouncyCastle.Math.EC.ECLookupTable get_LookupTable()
-    // Offset: 0x1D91274
+    // Offset: 0x1902E54
     Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
     // public System.Void set_LookupTable(Org.BouncyCastle.Math.EC.ECLookupTable value)
-    // Offset: 0x1D9127C
+    // Offset: 0x1902E5C
     void set_LookupTable(Org::BouncyCastle::Math::EC::ECLookupTable* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Offset()
-    // Offset: 0x1D91284
+    // Offset: 0x1902E64
     Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
     // public System.Void set_Offset(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x1D9128C
+    // Offset: 0x1902E6C
     void set_Offset(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x1D91294
+    // Offset: 0x1902E74
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x1D9129C
+    // Offset: 0x1902E7C
     void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x1D912A4
+    // Offset: 0x1902E84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

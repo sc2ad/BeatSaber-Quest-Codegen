@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IMac
 #include "Org/BouncyCastle/Crypto/IMac.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -107,43 +108,43 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Set instance field: private System.Byte[] S
     void _set_S(::Array<uint8_t>* value);
     // static private System.Int32[] GenerateWorkingKey(System.Byte[] userKey)
-    // Offset: 0x18BDB70
+    // Offset: 0x158EF74
     static ::Array<int>* GenerateWorkingKey(::Array<uint8_t>* userKey);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18BDCF4
+    // Offset: 0x158F0F8
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x18BDFA4
+    // Offset: 0x158F3A8
     int GetMacSize();
     // private System.Int32 gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x18BDFAC
+    // Offset: 0x158F3B0
     int gost28147_mainStep(int n1, int key);
     // private System.Void gost28147MacFunc(System.Int32[] workingKey, System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18BE0A0
+    // Offset: 0x158F4A4
     void gost28147MacFunc(::Array<int>* workingKey, ::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x18BDC74
+    // Offset: 0x158F078
     static int bytesToint(::Array<uint8_t>* input, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18BE190
+    // Offset: 0x158F594
     static void intTobytes(int num, ::Array<uint8_t>* output, int outOff);
     // static private System.Byte[] CM5func(System.Byte[] buf, System.Int32 bufOff, System.Byte[] mac)
-    // Offset: 0x18BE21C
+    // Offset: 0x158F620
     static ::Array<uint8_t>* CM5func(::Array<uint8_t>* buf, int bufOff, ::Array<uint8_t>* mac);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x18BE310
+    // Offset: 0x158F714
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x18BE438
+    // Offset: 0x158F83C
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18BE648
+    // Offset: 0x158FA4C
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x18BDF60
+    // Offset: 0x158F364
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x18BDABC
+    // Offset: 0x158EEC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

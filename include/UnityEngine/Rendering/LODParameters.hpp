@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -81,15 +82,15 @@ namespace UnityEngine::Rendering {
     // Set instance field: private System.Int32 m_CameraPixelHeight
     void _set_m_CameraPixelHeight(int value);
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0xEF5994
+    // Offset: 0xF84884
     bool Equals(UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEF59CC
+    // Offset: 0xF848BC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEF59D4
+    // Offset: 0xF848C4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

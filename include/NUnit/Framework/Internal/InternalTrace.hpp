@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.InternalTraceLevel
 #include "NUnit/Framework/Internal/InternalTraceLevel.hpp"
 // Completed includes
@@ -40,10 +41,10 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private NUnit.Framework.Internal.InternalTraceWriter traceWriter
     static void _set_traceWriter(NUnit::Framework::Internal::InternalTraceWriter* value);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.String name)
-    // Offset: 0x223A3AC
+    // Offset: 0x1D0A220
     static NUnit::Framework::Internal::Logger* GetLogger(::Il2CppString* name);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.Type type)
-    // Offset: 0x223A4B0
+    // Offset: 0x1D0A324
     static NUnit::Framework::Internal::Logger* GetLogger(System::Type* type);
   }; // NUnit.Framework.Internal.InternalTrace
   #pragma pack(pop)

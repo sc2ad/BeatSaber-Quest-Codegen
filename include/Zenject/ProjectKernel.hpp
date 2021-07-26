@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoKernel
 #include "Zenject/MonoKernel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -32,14 +33,14 @@ namespace Zenject {
     char ___base_padding[0x6] = {};
     // Nested type: Zenject::ProjectKernel::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    // [InjectAttribute] Offset: 0xDCB79C
+    // [InjectAttribute] Offset: 0xE783B8
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x38
     Zenject::ZenjectSettings* settings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xDCB7AC
+    // [InjectAttribute] Offset: 0xE783C8
     // private Zenject.SceneContextRegistry _contextRegistry
     // Size: 0x8
     // Offset: 0x40
@@ -57,16 +58,16 @@ namespace Zenject {
     // Set instance field: private Zenject.SceneContextRegistry _contextRegistry
     void _set__contextRegistry(Zenject::SceneContextRegistry* value);
     // public System.Void OnApplicationQuit()
-    // Offset: 0x16CA7B4
+    // Offset: 0x13CCE70
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x16CA7D8
+    // Offset: 0x13CCE94
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x16CA880
+    // Offset: 0x13CCF3C
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x16CABBC
+    // Offset: 0x13CD278
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

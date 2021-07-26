@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Playables.INotificationReceiver
@@ -54,16 +55,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action timelinePauseEvent
     void _set_timelinePauseEvent(System::Action* value);
     // public System.Void add_timelinePauseEvent(System.Action value)
-    // Offset: 0x235BBB8
+    // Offset: 0x1DE3FF8
     void add_timelinePauseEvent(System::Action* value);
     // public System.Void remove_timelinePauseEvent(System.Action value)
-    // Offset: 0x235BC5C
+    // Offset: 0x1DE409C
     void remove_timelinePauseEvent(System::Action* value);
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x235BD00
+    // Offset: 0x1DE4140
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x235BDA0
+    // Offset: 0x1DE41E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

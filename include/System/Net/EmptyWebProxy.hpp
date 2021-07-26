@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.IWebProxy
 #include "System/Net/IWebProxy.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,16 +53,16 @@ namespace System::Net {
     // Set instance field: private System.Net.ICredentials m_credentials
     void _set_m_credentials(System::Net::ICredentials* value);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x169F914
+    // Offset: 0x13A1FD0
     System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x169F904
+    // Offset: 0x13A1FC0
     System::Uri* GetProxy(System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x169F90C
+    // Offset: 0x13A1FC8
     bool IsBypassed(System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x169F8FC
+    // Offset: 0x13A1FB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

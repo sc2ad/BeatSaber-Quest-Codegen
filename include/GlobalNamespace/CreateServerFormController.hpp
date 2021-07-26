@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: System.Int32
@@ -67,13 +68,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _netDiscoverable
     void _set__netDiscoverable(bool value);
     // public CreateServerFormData get_formData()
-    // Offset: 0x10824D4
+    // Offset: 0x1F03DD0
     GlobalNamespace::CreateServerFormData get_formData();
     // public System.Void Setup(System.Int32 selectedNumberOfPlayers, System.Boolean netDiscoverable)
-    // Offset: 0x10825CC
+    // Offset: 0x1F03EC8
     void Setup(int selectedNumberOfPlayers, bool netDiscoverable);
     // public System.Void .ctor()
-    // Offset: 0x1082610
+    // Offset: 0x1F03F0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

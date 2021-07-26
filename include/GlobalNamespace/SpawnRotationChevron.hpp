@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIdMonoBehaviour
 #include "GlobalNamespace/LightWithIdMonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -65,13 +66,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _lightAmount
     void _set__lightAmount(float value);
     // public System.Void SetLightAmount(System.Single amount)
-    // Offset: 0x105D6E0
+    // Offset: 0x1EC81B4
     void SetLightAmount(float amount);
     // private System.Void UpdateLights()
-    // Offset: 0x105D650
+    // Offset: 0x1EC8124
     void UpdateLights();
     // public System.Void .ctor()
-    // Offset: 0x105D6E8
+    // Offset: 0x1EC81BC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevron*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x105D644
+    // Offset: 0x1EC8118
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuTransitionsHelper
 #include "GlobalNamespace/MenuTransitionsHelper.hpp"
 // Including type: TutorialScenesTransitionSetupDataSO/TutorialEndStateType
@@ -54,10 +55,10 @@ namespace GlobalNamespace {
     // Set instance field: public MenuTransitionsHelper <>4__this
     void _set_$$4__this(GlobalNamespace::MenuTransitionsHelper* value);
     // System.Void <HandleTutorialSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x1181B90
+    // Offset: 0x1FB15A4
     void $HandleTutorialSceneDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1181750
+    // Offset: 0x1FB1164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::SceneManagement
@@ -23,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: UnityScenesHelper
     UnityScenesHelper() noexcept {}
     // static public System.Void SetActiveRootObjectsInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean active)
-    // Offset: 0x235C404
+    // Offset: 0x1DE4844
     static void SetActiveRootObjectsInScene(UnityEngine::SceneManagement::Scene scene, bool active);
   }; // UnityScenesHelper
   #pragma pack(pop)

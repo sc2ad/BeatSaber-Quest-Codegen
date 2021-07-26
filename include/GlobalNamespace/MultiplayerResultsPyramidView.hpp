@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: MultiplayerResultsPyramidViewAvatar
@@ -74,7 +75,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: evenCountOffset and: avatarsFactory
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xE08B54
+    // [InjectAttribute] Offset: 0xEB5770
     // private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
     // Size: 0x8
     // Offset: 0x38
@@ -146,19 +147,19 @@ namespace GlobalNamespace {
     // Set instance field: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
     void _set__anyResultsAvatar(GlobalNamespace::MultiplayerResultsPyramidViewAvatar* value);
     // public UnityEngine.GameObject[] get_resultAvatarDirectors()
-    // Offset: 0x1004DC8
+    // Offset: 0x1E5837C
     ::Array<UnityEngine::GameObject*>* get_resultAvatarDirectors();
     // public UnityEngine.GameObject[] get_badgeTimelines()
-    // Offset: 0x1004DD0
+    // Offset: 0x1E58384
     ::Array<UnityEngine::GameObject*>* get_badgeTimelines();
     // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
-    // Offset: 0x1004DD8
+    // Offset: 0x1E5838C
     void PrespawnAvatars(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* activePlayers);
     // public System.Void SetupResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, UnityEngine.Transform badgeStartTransform, UnityEngine.Transform badgeMidTransform)
-    // Offset: 0x1005150
+    // Offset: 0x1E58704
     void SetupResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, UnityEngine::Transform* badgeStartTransform, UnityEngine::Transform* badgeMidTransform);
     // public System.Void .ctor()
-    // Offset: 0x1006184
+    // Offset: 0x1E59738
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NoteCutter
 #include "GlobalNamespace/NoteCutter.hpp"
 // Including type: UnityEngine.Vector3
@@ -61,7 +62,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3 pos
     void _set_pos(UnityEngine::Vector3 value);
     // public System.Void .ctor()
-    // Offset: 0x11E1DC8
+    // Offset: 0x2010720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

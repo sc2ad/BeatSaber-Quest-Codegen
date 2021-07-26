@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ReflectionTypeInfo
 #include "Zenject/Internal/ReflectionTypeInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,7 +56,7 @@ namespace Zenject::Internal {
     // Set instance field: public readonly Zenject.InjectableInfo InjectableInfo
     void _set_InjectableInfo(Zenject::InjectableInfo* value);
     // public System.Void .ctor(System.Reflection.FieldInfo fieldInfo, Zenject.InjectableInfo injectableInfo)
-    // Offset: 0x162A898
+    // Offset: 0x132DE68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeInfo::InjectFieldInfo* New_ctor(System::Reflection::FieldInfo* fieldInfo, Zenject::InjectableInfo* injectableInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo::.ctor");

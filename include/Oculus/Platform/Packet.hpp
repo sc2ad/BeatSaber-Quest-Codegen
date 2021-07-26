@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
@@ -55,29 +56,29 @@ namespace Oculus::Platform {
     // Set instance field: private readonly System.IntPtr packetHandle
     void _set_packetHandle(System::IntPtr value);
     // public System.UInt64 get_SenderID()
-    // Offset: 0x14ABE30
+    // Offset: 0x2107CA4
     uint64_t get_SenderID();
     // public System.UInt64 get_Size()
-    // Offset: 0x14ABE9C
+    // Offset: 0x2107D10
     uint64_t get_Size();
     // public Oculus.Platform.SendPolicy get_Policy()
-    // Offset: 0x14ABEA4
+    // Offset: 0x2107D18
     Oculus::Platform::SendPolicy get_Policy();
     // public System.Void .ctor(System.IntPtr packetHandle)
-    // Offset: 0x14AAA2C
+    // Offset: 0x21068A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Packet* New_ctor(System::IntPtr packetHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Packet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Packet*, creationType>(packetHandle)));
     }
     // public System.UInt64 ReadBytes(System.Byte[] destination)
-    // Offset: 0x14ABCDC
+    // Offset: 0x2107B50
     uint64_t ReadBytes(::Array<uint8_t>* destination);
     // public System.Void Dispose()
-    // Offset: 0x14ABF78
+    // Offset: 0x2107DEC
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x14ABF10
+    // Offset: 0x2107D84
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

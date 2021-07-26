@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* feverBGTextRectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE05DB0
+    // [InjectAttribute] Offset: 0xEB29CC
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
@@ -67,28 +68,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _feverTextRectWidth
     void _set__feverTextRectWidth(float value);
     // protected System.Void Start()
-    // Offset: 0x102527C
+    // Offset: 0x1E8FD50
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x102552C
+    // Offset: 0x1E90000
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x102576C
+    // Offset: 0x1E90240
     void Update();
     // private System.Void SetProgress(System.Single progress)
-    // Offset: 0x10254C8
+    // Offset: 0x1E8FF9C
     void SetProgress(float progress);
     // private System.Void HandleFeverModeDidStart()
-    // Offset: 0x10258B8
+    // Offset: 0x1E9038C
     void HandleFeverModeDidStart();
     // private System.Void HandleFeverModeDidFinish()
-    // Offset: 0x10258C0
+    // Offset: 0x1E90394
     void HandleFeverModeDidFinish();
     // private System.Void HandleFeverModeChargeProgressDidChange(System.Single progress)
-    // Offset: 0x10258C8
+    // Offset: 0x1E9039C
     void HandleFeverModeChargeProgressDidChange(float progress);
     // public System.Void .ctor()
-    // Offset: 0x10258CC
+    // Offset: 0x1E903A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

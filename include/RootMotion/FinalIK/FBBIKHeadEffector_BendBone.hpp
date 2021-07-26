@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.FBBIKHeadEffector
 #include "RootMotion/FinalIK/FBBIKHeadEffector.hpp"
 // Including type: UnityEngine.Quaternion
@@ -28,15 +29,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class FBBIKHeadEffector::BendBone : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF60B0
+    // [TooltipAttribute] Offset: 0xEA2CCC
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF60E8
-    // [RangeAttribute] Offset: 0xDF60E8
+    // [TooltipAttribute] Offset: 0xEA2D04
+    // [RangeAttribute] Offset: 0xEA2D04
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -64,20 +65,20 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Quaternion defaultLocalRotation
     void _set_defaultLocalRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x1CE5538
+    // Offset: 0x18822D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector::BendBone* New_ctor(UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector::BendBone*, creationType>(transform, weight)));
     }
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1CE2C48
+    // Offset: 0x187F9E8
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x1CE304C
+    // Offset: 0x187FDEC
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1CE54B8
+    // Offset: 0x1882258
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

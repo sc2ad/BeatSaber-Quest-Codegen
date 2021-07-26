@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Specialized.ListDictionary
 #include "System/Collections/Specialized/ListDictionary.hpp"
 // Including type: System.Collections.ICollection
@@ -65,20 +66,20 @@ namespace System::Collections::Specialized {
     // Set instance field: private System.Boolean isKeys
     void _set_isKeys(bool value);
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x184449C
+    // Offset: 0x15158A0
     int System_Collections_ICollection_get_Count();
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list, System.Boolean isKeys)
-    // Offset: 0x1843EE8
+    // Offset: 0x15152EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeKeyValueCollection* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeKeyValueCollection*, creationType>(list, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x184436C
+    // Offset: 0x1515770
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x18444D4
+    // Offset: 0x15158D8
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.ListDictionary/System.Collections.Specialized.NodeKeyValueCollection
   #pragma pack(pop)

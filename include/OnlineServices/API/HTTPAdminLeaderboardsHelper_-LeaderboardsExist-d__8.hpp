@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper
 #include "OnlineServices/API/HTTPAdminLeaderboardsHelper.hpp"
 // Including type: System.ValueType
@@ -92,10 +93,10 @@ namespace OnlineServices::API {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> value);
     // private System.Void MoveNext()
-    // Offset: 0xECF7B4
+    // Offset: 0xF7B3F8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECF7BC
+    // Offset: 0xF7B400
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.<LeaderboardsExist>d__8
   // WARNING Not writing size check since size may be invalid!

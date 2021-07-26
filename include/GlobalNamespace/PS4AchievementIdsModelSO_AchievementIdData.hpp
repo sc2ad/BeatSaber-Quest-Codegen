@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PS4AchievementIdsModelSO
 #include "GlobalNamespace/PS4AchievementIdsModelSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,13 +52,13 @@ namespace GlobalNamespace {
     // Set instance field: private AchievementSO _achievement
     void _set__achievement(GlobalNamespace::AchievementSO* value);
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0xFFC6C0
+    // Offset: 0x1E4FC74
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0xFFC4F0
+    // Offset: 0x1E4FAA4
     ::Il2CppString* get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0xFFC6C8
+    // Offset: 0x1E4FC7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

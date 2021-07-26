@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 #include "Zenject/ScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,20 +43,20 @@ namespace Zenject {
     // Set instance field: private Zenject.SubContainerCreatorBindInfo <SubContainerCreatorBindInfo>k__BackingField
     void _set_$SubContainerCreatorBindInfo$k__BackingField(Zenject::SubContainerCreatorBindInfo* value);
     // protected Zenject.SubContainerCreatorBindInfo get_SubContainerCreatorBindInfo()
-    // Offset: 0x138136C
+    // Offset: 0x1127FCC
     Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
     // private System.Void set_SubContainerCreatorBindInfo(Zenject.SubContainerCreatorBindInfo value)
-    // Offset: 0x1381374
+    // Offset: 0x1127FD4
     void set_SubContainerCreatorBindInfo(Zenject::SubContainerCreatorBindInfo* value);
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x138133C
+    // Offset: 0x1127F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(subContainerBindInfo, bindInfo)));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithDefaultGameObjectParent(System.String defaultParentName)
-    // Offset: 0x138137C
+    // Offset: 0x1127FDC
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::Il2CppString* defaultParentName);
   }; // Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
   #pragma pack(pop)

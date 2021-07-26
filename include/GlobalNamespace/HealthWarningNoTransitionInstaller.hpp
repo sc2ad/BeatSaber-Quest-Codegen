@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.NoTransitionInstaller
 #include "Zenject/NoTransitionInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
     // Set instance field: private HealthWarningScenesTransitionSetupDataSO _scenesTransitionSetupData
     void _set__scenesTransitionSetupData(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
-    // Offset: 0x10EAC48
+    // Offset: 0x1F3CC5C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x10EABF8
+    // Offset: 0x1F3CC0C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

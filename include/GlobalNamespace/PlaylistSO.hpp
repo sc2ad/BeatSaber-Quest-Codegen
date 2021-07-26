@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 // Including type: IPlaylist
@@ -74,16 +75,16 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapLevelCollectionSO _beatmapLevelCollection
     void _set__beatmapLevelCollection(GlobalNamespace::BeatmapLevelCollectionSO* value);
     // public System.String get_collectionName()
-    // Offset: 0x11084D0
+    // Offset: 0x1F5A4E4
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x11084DC
+    // Offset: 0x1F5A4F0
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x11084E4
+    // Offset: 0x1F5A4F8
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x11084EC
+    // Offset: 0x1F5A500
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

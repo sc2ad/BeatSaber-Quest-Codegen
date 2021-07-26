@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: System.Int32
@@ -75,19 +76,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _targetFrequency
     void _set__targetFrequency(float value);
     // protected System.Void Start()
-    // Offset: 0x1178A5C
+    // Offset: 0x1FA8470
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x1178A9C
+    // Offset: 0x1FA84B0
     void LateUpdate();
     // public System.Void ResumeNormalSound()
-    // Offset: 0x1178BA8
+    // Offset: 0x1FA85BC
     void ResumeNormalSound();
     // public System.Void TriggerLowPass()
-    // Offset: 0x1178BDC
+    // Offset: 0x1FA85F0
     void TriggerLowPass();
     // public System.Void .ctor()
-    // Offset: 0x1178C24
+    // Offset: 0x1FA8638
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

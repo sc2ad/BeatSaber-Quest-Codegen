@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.GUISkin
 #include "UnityEngine/GUISkin.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: SkinChangedDelegate
     SkinChangedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAB8D4
+    // Offset: 0x1723124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISkin::SkinChangedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUISkin::SkinChangedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISkin::SkinChangedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1AAB618
+    // Offset: 0x1722E68
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAB8E4
+    // Offset: 0x1723134
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAB910
+    // Offset: 0x1723160
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUISkin/UnityEngine.SkinChangedDelegate
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LeaderboardScoreUploader
 #include "GlobalNamespace/LeaderboardScoreUploader.hpp"
 // Including type: PlatformLeaderboardsModel
@@ -45,10 +46,10 @@ namespace GlobalNamespace {
     // Set instance field: public LeaderboardScoreUploader <>4__this
     void _set_$$4__this(GlobalNamespace::LeaderboardScoreUploader* value);
     // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0x10EF8B8
+    // Offset: 0x1F418CC
     void $UploadScoresCoroutine$b__0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public System.Void .ctor()
-    // Offset: 0x10EF8B0
+    // Offset: 0x1F418C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

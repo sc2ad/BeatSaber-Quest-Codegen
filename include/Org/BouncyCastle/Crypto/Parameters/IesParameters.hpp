@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Completed includes
@@ -52,13 +53,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private System.Int32 macKeySize
     void _set_macKeySize(int value);
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x122C834
+    // Offset: 0x1036B0C
     int get_MacKeySize();
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x122C824
+    // Offset: 0x1036AFC
     ::Array<uint8_t>* GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x122C82C
+    // Offset: 0x1036B04
     ::Array<uint8_t>* GetEncodingV();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)

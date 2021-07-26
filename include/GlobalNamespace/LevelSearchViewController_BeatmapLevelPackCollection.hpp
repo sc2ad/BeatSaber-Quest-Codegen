@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelSearchViewController
 #include "GlobalNamespace/LevelSearchViewController.hpp"
 // Including type: IAnnotatedBeatmapLevelCollection
@@ -54,19 +55,19 @@ namespace GlobalNamespace {
     // Set instance field: private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     void _set_$beatmapLevelCollection$k__BackingField(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.String get_collectionName()
-    // Offset: 0x11B3C54
+    // Offset: 0x1FE2698
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x11B3C5C
+    // Offset: 0x1FE26A0
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x11B3C64
+    // Offset: 0x1FE26A8
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // private System.Void set_beatmapLevelCollection(IBeatmapLevelCollection value)
-    // Offset: 0x11B3C6C
+    // Offset: 0x1FE26B0
     void set_beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.Void .ctor(IBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x11B3C1C
+    // Offset: 0x1FE2660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSearchViewController::BeatmapLevelPackCollection* New_ctor(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::.ctor");

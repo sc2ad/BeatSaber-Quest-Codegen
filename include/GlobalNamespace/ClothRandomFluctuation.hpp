@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
     UnityEngine::Cloth* cloth;
     // Field size check
     static_assert(sizeof(UnityEngine::Cloth*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDFE430
+    // [HeaderAttribute] Offset: 0xEAB04C
     // private System.Boolean _useLocalExternalFluctuations
     // Size: 0x1
     // Offset: 0x20
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 externalFluctuations;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0xDFE48C
+    // [HeaderAttribute] Offset: 0xEAB0A8
     // private System.Boolean _useLocalRandomFluctuations
     // Size: 0x1
     // Offset: 0x30
@@ -130,16 +131,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _speed
     void _set__speed(float value);
     // protected System.Void Update()
-    // Offset: 0x107B5C4
+    // Offset: 0x1EFCEC0
     void Update();
     // private System.Void FluctuateCloth(UnityEngine.Cloth cloth)
-    // Offset: 0x107B5CC
+    // Offset: 0x1EFCEC8
     void FluctuateCloth(UnityEngine::Cloth* cloth);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x107B7E8
+    // Offset: 0x1EFD0E4
     float GetNoise(float time, float offset);
     // public System.Void .ctor()
-    // Offset: 0x107B934
+    // Offset: 0x1EFD230
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

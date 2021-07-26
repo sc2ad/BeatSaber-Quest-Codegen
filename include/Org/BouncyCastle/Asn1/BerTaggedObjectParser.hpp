@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1Convertible
 #include "Org/BouncyCastle/Asn1/IAsn1Convertible.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,14 +68,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     void _set__parser(Org::BouncyCastle::Asn1::Asn1StreamParser* value);
     // System.Void .ctor(System.Boolean constructed, System.Int32 tagNumber, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x16DAAA4
+    // Offset: 0x13DD160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerTaggedObjectParser* New_ctor(bool constructed, int tagNumber, Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerTaggedObjectParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerTaggedObjectParser*, creationType>(constructed, tagNumber, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16DAAEC
+    // Offset: 0x13DD1A8
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerTaggedObjectParser
   #pragma pack(pop)

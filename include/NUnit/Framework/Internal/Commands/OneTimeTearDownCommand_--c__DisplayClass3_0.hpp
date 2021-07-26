@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.Commands.OneTimeTearDownCommand
 #include "NUnit/Framework/Internal/Commands/OneTimeTearDownCommand.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: public System.IDisposable disposable
     void _set_disposable(System::IDisposable* value);
     // System.Object <Execute>b__0()
-    // Offset: 0x1728E80
+    // Offset: 0x142C53C
     ::Il2CppObject* $Execute$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1728B30
+    // Offset: 0x142C1EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

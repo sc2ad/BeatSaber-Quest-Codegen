@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.Marker
 #include "UnityEngine/Timeline/Marker.hpp"
 // Including type: UnityEngine.Playables.INotification
@@ -40,10 +41,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly UnityEngine.PropertyName <id>k__BackingField
     void _set_$id$k__BackingField(UnityEngine::PropertyName value);
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0x235BBA8
+    // Offset: 0x1DE3FE8
     UnityEngine::PropertyName get_id();
     // public System.Void .ctor()
-    // Offset: 0x235BBB0
+    // Offset: 0x1DE3FF0
     // Implemented from: UnityEngine.Timeline.Marker
     // Base method: System.Void Marker::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -67,13 +68,13 @@ namespace RootMotion {
     // Set instance field: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg
     void _set_rightLeg(RootMotion::BipedLimbOrientations::LimbOrientation* value);
     // static public RootMotion.BipedLimbOrientations get_UMA()
-    // Offset: 0x1CD5F58
+    // Offset: 0x1872CF8
     static RootMotion::BipedLimbOrientations* get_UMA();
     // static public RootMotion.BipedLimbOrientations get_MaxBiped()
-    // Offset: 0x1CD6244
+    // Offset: 0x1872FE4
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
     // public System.Void .ctor(RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftLeg, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg)
-    // Offset: 0x1CD5F0C
+    // Offset: 0x1872CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations* New_ctor(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::.ctor");

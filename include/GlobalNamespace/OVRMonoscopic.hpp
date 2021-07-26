@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/RawButton
@@ -46,10 +47,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean monoscopic
     void _set_monoscopic(bool value);
     // private System.Void Update()
-    // Offset: 0x12E6AC0
+    // Offset: 0x10A8A30
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12E6BD4
+    // Offset: 0x10A8B44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

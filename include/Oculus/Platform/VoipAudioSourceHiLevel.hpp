@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -92,31 +93,31 @@ namespace Oculus::Platform {
     // Set instance field: protected Oculus.Platform.IVoipPCMSource pcmSource
     void _set_pcmSource(Oculus::Platform::IVoipPCMSource* value);
     // public System.Void set_senderID(System.UInt64 value)
-    // Offset: 0x238A354
+    // Offset: 0x23EBD58
     void set_senderID(uint64_t value);
     // protected System.Void Stop()
-    // Offset: 0x238A418
+    // Offset: 0x23EBE1C
     void Stop();
     // private Oculus.Platform.VoipSampleRate SampleRateToEnum(System.Int32 rate)
-    // Offset: 0x238A41C
+    // Offset: 0x23EBE20
     Oculus::Platform::VoipSampleRate SampleRateToEnum(int rate);
     // protected System.Void Awake()
-    // Offset: 0x238A458
+    // Offset: 0x23EBE5C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x238A700
+    // Offset: 0x23EC104
     void Start();
     // protected System.Void CreatePCMSource()
-    // Offset: 0x238A71C
+    // Offset: 0x23EC120
     void CreatePCMSource();
     // static protected System.Int32 MSToElements(System.Int32 ms)
-    // Offset: 0x238A784
+    // Offset: 0x23EC188
     static int MSToElements(int ms);
     // private System.Void Update()
-    // Offset: 0x238A80C
+    // Offset: 0x23EC210
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x238AAE4
+    // Offset: 0x23EC4E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -129,7 +130,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x238AAEC
+    // Offset: 0x23EC4F0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

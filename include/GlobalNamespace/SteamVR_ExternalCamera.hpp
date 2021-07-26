@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Rect
@@ -382,34 +383,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single sceneResolutionScale
     void _set_sceneResolutionScale(float value);
     // public System.Void ReadConfig()
-    // Offset: 0x13A4198
+    // Offset: 0x114BDF8
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0x13A4AA0
+    // Offset: 0x114C700
     void OnChanged(::Il2CppObject* source, System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0x13A4AA4
+    // Offset: 0x114C704
     void AttachToCamera(GlobalNamespace::SteamVR_Camera* vrcam);
     // public System.Single GetTargetDistance()
-    // Offset: 0x13A5054
+    // Offset: 0x114CCB4
     float GetTargetDistance();
     // public System.Void RenderNear()
-    // Offset: 0x13A5300
+    // Offset: 0x114CF60
     void RenderNear();
     // public System.Void RenderFar()
-    // Offset: 0x13A5A58
+    // Offset: 0x114D6B8
     void RenderFar();
     // private System.Void OnGUI()
-    // Offset: 0x13A5B78
+    // Offset: 0x114D7D8
     void OnGUI();
     // private System.Void OnEnable()
-    // Offset: 0x13A5B7C
+    // Offset: 0x114D7DC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x13A5DCC
+    // Offset: 0x114DA2C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x13A5F08
+    // Offset: 0x114DB68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

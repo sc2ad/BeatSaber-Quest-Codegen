@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -51,7 +52,7 @@ namespace GlobalNamespace {
     ::Il2CppString* songSubName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE012DC
+    // [FormerlySerializedAsAttribute] Offset: 0xEADEF8
     // private System.String _songAuthorName
     // Size: 0x8
     // Offset: 0x28
@@ -100,14 +101,14 @@ namespace GlobalNamespace {
     float previewDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE01398
+    // [FormerlySerializedAsAttribute] Offset: 0xEADFB4
     // private System.String _songFilename
     // Size: 0x8
     // Offset: 0x50
     ::Il2CppString* songFilename;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE013E4
+    // [FormerlySerializedAsAttribute] Offset: 0xEAE000
     // private System.String _coverImageFilename
     // Size: 0x8
     // Offset: 0x58
@@ -211,71 +212,71 @@ namespace GlobalNamespace {
     // Set instance field: private StandardLevelInfoSaveData/DifficultyBeatmapSet[] _difficultyBeatmapSets
     void _set__difficultyBeatmapSets(::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>* value);
     // public System.String get_version()
-    // Offset: 0x1065910
+    // Offset: 0x1ED13E4
     ::Il2CppString* get_version();
     // public System.String get_songName()
-    // Offset: 0x1065918
+    // Offset: 0x1ED13EC
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x1065920
+    // Offset: 0x1ED13F4
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x1065928
+    // Offset: 0x1ED13FC
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x1065930
+    // Offset: 0x1ED1404
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x1065938
+    // Offset: 0x1ED140C
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x1065940
+    // Offset: 0x1ED1414
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0x1065948
+    // Offset: 0x1ED141C
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x1065950
+    // Offset: 0x1ED1424
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x1065958
+    // Offset: 0x1ED142C
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x1065960
+    // Offset: 0x1ED1434
     float get_previewDuration();
     // public System.String get_songFilename()
-    // Offset: 0x1065968
+    // Offset: 0x1ED143C
     ::Il2CppString* get_songFilename();
     // public System.String get_coverImageFilename()
-    // Offset: 0x1065970
+    // Offset: 0x1ED1444
     ::Il2CppString* get_coverImageFilename();
     // public System.String get_environmentName()
-    // Offset: 0x1065978
+    // Offset: 0x1ED144C
     ::Il2CppString* get_environmentName();
     // public System.String get_allDirectionsEnvironmentName()
-    // Offset: 0x1065980
+    // Offset: 0x1ED1454
     ::Il2CppString* get_allDirectionsEnvironmentName();
     // public StandardLevelInfoSaveData/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x1065988
+    // Offset: 0x1ED145C
     ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Boolean get_hasAllData()
-    // Offset: 0x1065A88
+    // Offset: 0x1ED155C
     bool get_hasAllData();
     // public System.Void .ctor(System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, System.String songFilename, System.String coverImageFilename, System.String environmentName, System.String allDirectionsEnvironmentName, StandardLevelInfoSaveData/DifficultyBeatmapSet[] difficultyBeatmapSets)
-    // Offset: 0x1065990
+    // Offset: 0x1ED1464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData* New_ctor(::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::Il2CppString* songFilename, ::Il2CppString* coverImageFilename, ::Il2CppString* environmentName, ::Il2CppString* allDirectionsEnvironmentName, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>* difficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData*, creationType>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, environmentName, allDirectionsEnvironmentName, difficultyBeatmapSets)));
     }
     // public System.Void SetSongFilename(System.String songFilename)
-    // Offset: 0x1065AEC
+    // Offset: 0x1ED15C0
     void SetSongFilename(::Il2CppString* songFilename);
     // public System.String SerializeToJSONString()
-    // Offset: 0x1065AF4
+    // Offset: 0x1ED15C8
     ::Il2CppString* SerializeToJSONString();
     // static public StandardLevelInfoSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0x1065AFC
+    // Offset: 0x1ED15D0
     static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // StandardLevelInfoSaveData
   #pragma pack(pop)

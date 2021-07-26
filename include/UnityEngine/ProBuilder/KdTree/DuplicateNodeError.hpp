@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Creating value type constructor for type: DuplicateNodeError
     DuplicateNodeError() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x23CAD64
+    // Offset: 0x1E4235C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()

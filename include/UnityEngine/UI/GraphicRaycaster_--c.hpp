@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.GraphicRaycaster
 #include "UnityEngine/UI/GraphicRaycaster.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Comparison`1<UnityEngine.UI.Graphic> <>9__24_0
     static void _set_$$9__24_0(System::Comparison_1<UnityEngine::UI::Graphic*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18EAB9C
+    // Offset: 0x15BBFA0
     static void _cctor();
     // System.Int32 <Raycast>b__24_0(UnityEngine.UI.Graphic g1, UnityEngine.UI.Graphic g2)
-    // Offset: 0x18EAC08
+    // Offset: 0x15BC00C
     int $Raycast$b__24_0(UnityEngine::UI::Graphic* g1, UnityEngine::UI::Graphic* g2);
     // public System.Void .ctor()
-    // Offset: 0x18EAC00
+    // Offset: 0x15BC004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

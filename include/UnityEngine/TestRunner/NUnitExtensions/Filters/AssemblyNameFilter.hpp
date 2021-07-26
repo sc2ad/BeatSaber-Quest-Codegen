@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.Filters.ValueMatchFilter
 #include "NUnit/Framework/Internal/Filters/ValueMatchFilter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,12 +30,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Creating value type constructor for type: AssemblyNameFilter
     AssemblyNameFilter() noexcept {}
     // protected override System.String get_ElementName()
-    // Offset: 0x1479444
+    // Offset: 0x11EA4A4
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
     ::Il2CppString* get_ElementName();
     // public System.Void .ctor(System.String assemblyName)
-    // Offset: 0x1478F4C
+    // Offset: 0x11E9FAC
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String assemblyName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -43,7 +44,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyNameFilter*, creationType>(assemblyName)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1478F54
+    // Offset: 0x11E9FB4
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);

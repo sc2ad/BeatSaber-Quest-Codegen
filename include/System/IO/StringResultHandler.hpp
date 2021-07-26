@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.SearchResultHandler`1
 #include "System/IO/SearchResultHandler_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,17 +49,17 @@ namespace System::IO {
     // Set instance field: private System.Boolean _includeDirs
     void _set__includeDirs(bool value);
     // System.Void .ctor(System.Boolean includeFiles, System.Boolean includeDirs)
-    // Offset: 0x17F25CC
+    // Offset: 0x14C29D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringResultHandler* New_ctor(bool includeFiles, bool includeDirs) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringResultHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringResultHandler*, creationType>(includeFiles, includeDirs)));
     }
     // System.String CreateObject(System.IO.SearchResult result)
-    // Offset: 0x17F26B0
+    // Offset: 0x14C2AB4
     ::Il2CppString* CreateObject(System::IO::SearchResult* result);
     // override System.Boolean IsResultIncluded(System.IO.SearchResult result)
-    // Offset: 0x17F2640
+    // Offset: 0x14C2A44
     // Implemented from: System.IO.SearchResultHandler`1
     // Base method: System.Boolean SearchResultHandler_1::IsResultIncluded(System.IO.SearchResult result)
     bool IsResultIncluded(System::IO::SearchResult* result);

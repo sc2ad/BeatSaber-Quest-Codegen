@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,28 +57,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action resumeFromPauseAnimationDidFinishEvent
     void _set_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x10006F8
+    // Offset: 0x1E53CAC
     void add_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // public System.Void remove_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x100079C
+    // Offset: 0x1E53D50
     void remove_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x1000840
+    // Offset: 0x1E53DF4
     void Awake();
     // public System.Void StartEnterPauseAnimation()
-    // Offset: 0x100087C
+    // Offset: 0x1E53E30
     void StartEnterPauseAnimation();
     // public System.Void StartResumeFromPauseAnimation()
-    // Offset: 0x10008FC
+    // Offset: 0x1E53EB0
     void StartResumeFromPauseAnimation();
     // public System.Void EnterPauseAnimationDidFinish()
-    // Offset: 0x100097C
+    // Offset: 0x1E53F30
     void EnterPauseAnimationDidFinish();
     // public System.Void ResumeFromPauseAnimationDidFinish()
-    // Offset: 0x10009B8
+    // Offset: 0x1E53F6C
     void ResumeFromPauseAnimationDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x1000A10
+    // Offset: 0x1E53FC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

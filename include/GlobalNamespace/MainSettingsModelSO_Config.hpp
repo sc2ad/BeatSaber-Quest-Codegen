@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MainSettingsModelSO
 #include "GlobalNamespace/MainSettingsModelSO.hpp"
 // Including type: MainSettingsModelSO/WindowMode
@@ -536,7 +537,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.String language
     void _set_language(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x117CE84
+    // Offset: 0x1FAC898
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

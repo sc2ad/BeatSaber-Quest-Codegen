@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LocalLeaderboardsModel
 #include "GlobalNamespace/LocalLeaderboardsModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int64 _timestamp
     void _set__timestamp(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x11701B0
+    // Offset: 0x1F9FBC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

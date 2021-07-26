@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerController
 #include "GlobalNamespace/MultiplayerController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single introAnimationStartSyncTime
     void _set_introAnimationStartSyncTime(float value);
     // System.Void <HandleSongStartSyncControllerSyncStartSuccess>b__0()
-    // Offset: 0x11A9318
+    // Offset: 0x1FC0D84
     void $HandleSongStartSyncControllerSyncStartSuccess$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11A7E94
+    // Offset: 0x1FBF900
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

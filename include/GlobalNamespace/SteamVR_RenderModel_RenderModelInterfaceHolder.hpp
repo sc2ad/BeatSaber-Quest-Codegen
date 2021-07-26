@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_RenderModel
 #include "GlobalNamespace/SteamVR_RenderModel.hpp"
 // Including type: System.IDisposable
@@ -67,13 +68,13 @@ namespace GlobalNamespace {
     // Set instance field: private Valve.VR.CVRRenderModels _instance
     void _set__instance(Valve::VR::CVRRenderModels* value);
     // public Valve.VR.CVRRenderModels get_instance()
-    // Offset: 0x13B0E1C
+    // Offset: 0x1158A7C
     Valve::VR::CVRRenderModels* get_instance();
     // public System.Void Dispose()
-    // Offset: 0x13B3474
+    // Offset: 0x115B0D4
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x13B0758
+    // Offset: 0x11583B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

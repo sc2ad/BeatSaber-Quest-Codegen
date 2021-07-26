@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,19 +30,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MainEffectSO
     MainEffectSO() noexcept {}
     // public System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x233F5C0
+    // Offset: 0x1DC5A00
     bool get_hasPostProcessEffect();
     // public System.Void PreRender()
-    // Offset: 0x233F5B4
+    // Offset: 0x1DC59F4
     void PreRender();
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x233F5B8
+    // Offset: 0x1DC59F8
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void PostRender(System.Single fade)
-    // Offset: 0x233F5BC
+    // Offset: 0x1DC59FC
     void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x233EC3C
+    // Offset: 0x1DC507C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

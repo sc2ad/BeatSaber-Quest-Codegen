@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: IBitMask`1
@@ -63,32 +64,32 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.UInt64[] _data
     void _set__data(::Array<uint64_t>* value);
     // public System.Int32 get_bitCount()
-    // Offset: 0x2324C7C
+    // Offset: 0x23D8060
     int get_bitCount();
     // public System.Void .ctor(System.Int32 bitCount)
-    // Offset: 0x2324C84
+    // Offset: 0x23D8068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskArray* New_ctor(int bitCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMaskArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskArray*, creationType>(bitCount)));
     }
     // public System.Boolean Equals(BitMaskArray other)
-    // Offset: 0x2324D08
+    // Offset: 0x23D80EC
     bool Equals(GlobalNamespace::BitMaskArray* other);
     // public BitMaskArray SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x2324D80
+    // Offset: 0x23D8164
     GlobalNamespace::BitMaskArray* SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x2324EAC
+    // Offset: 0x23D8290
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x23250E4
+    // Offset: 0x23D84C8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x232525C
+    // Offset: 0x23D8640
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.String ToString()
-    // Offset: 0x2324FD4
+    // Offset: 0x23D83B8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

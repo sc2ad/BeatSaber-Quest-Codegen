@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: QuickPlaySongPacksDropdown
 #include "GlobalNamespace/QuickPlaySongPacksDropdown.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.String serializedName
     void _set_serializedName(::Il2CppString* value);
     // System.Boolean <SelectCellWithSerializedName>b__0(QuickPlaySongPacksDropdown/SongPackMaskItem item)
-    // Offset: 0x1141EE4
+    // Offset: 0x1F728F8
     bool $SelectCellWithSerializedName$b__0(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);
     // public System.Void .ctor()
-    // Offset: 0x1141AB8
+    // Offset: 0x1F724CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

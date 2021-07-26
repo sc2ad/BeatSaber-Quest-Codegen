@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -28,7 +29,7 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCommand : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF55C
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D178
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -46,13 +47,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: private NUnit.Framework.Internal.Test <Test>k__BackingField
     void _set_$Test$k__BackingField(NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x17295DC
+    // Offset: 0x142CC98
     NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x17295E4
+    // Offset: 0x142CCA0
     void set_Test(NUnit::Framework::Internal::Test* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0x1727E88
+    // Offset: 0x142B544
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommand* New_ctor(NUnit::Framework::Internal::Test* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestCommand::.ctor");

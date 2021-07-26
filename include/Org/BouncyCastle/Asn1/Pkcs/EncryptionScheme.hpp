@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
 #include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,10 +35,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: EncryptionScheme
     EncryptionScheme() noexcept {}
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme GetInstance(System.Object obj)
-    // Offset: 0x17620E8
+    // Offset: 0x14647A4
     static Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier objectID, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x1762010
+    // Offset: 0x14646CC
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier objectID, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +47,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionScheme*, creationType>(objectID, parameters)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1762018
+    // Offset: 0x14646D4
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,7 +56,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionScheme*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1762268
+    // Offset: 0x1464924
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: Org.BouncyCastle.Asn1.Asn1Object AlgorithmIdentifier::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

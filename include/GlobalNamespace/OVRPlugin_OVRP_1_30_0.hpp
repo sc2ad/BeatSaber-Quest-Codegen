@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -29,26 +30,26 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F2FC4
+    // Offset: 0x12F6594
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetCurrentTrackingTransformPose(out OVRPlugin/Posef trackingTransformPose)
-    // Offset: 0x15F2C38
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetCurrentTrackingTransformPose(GlobalNamespace::OVRPlugin::Posef& trackingTransformPose);
+    // Offset: 0x12F6208
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetCurrentTrackingTransformPose(ByRef<GlobalNamespace::OVRPlugin::Posef> trackingTransformPose);
     // static public OVRPlugin/Result ovrp_GetTrackingTransformRawPose(out OVRPlugin/Posef trackingTransformRawPose)
-    // Offset: 0x15F2CB8
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRawPose(GlobalNamespace::OVRPlugin::Posef& trackingTransformRawPose);
+    // Offset: 0x12F6288
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRawPose(ByRef<GlobalNamespace::OVRPlugin::Posef> trackingTransformRawPose);
     // static public OVRPlugin/Result ovrp_SendEvent2(System.String name, System.String param, System.String source)
-    // Offset: 0x15F2D38
+    // Offset: 0x12F6308
     static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent2(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source);
     // static public OVRPlugin/Result ovrp_IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics, out OVRPlugin/Bool isSupported)
-    // Offset: 0x15F2E14
-    static GlobalNamespace::OVRPlugin::Result ovrp_IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, GlobalNamespace::OVRPlugin::Bool& isSupported);
+    // Offset: 0x12F63E4
+    static GlobalNamespace::OVRPlugin::Result ovrp_IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<GlobalNamespace::OVRPlugin::Bool> isSupported);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics, out System.Single value)
-    // Offset: 0x15F2EA4
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, float& value);
+    // Offset: 0x12F6474
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<float> value);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics, out System.Int32 value)
-    // Offset: 0x15F2F34
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, int& value);
+    // Offset: 0x12F6504
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<int> value);
   }; // OVRPlugin/OVRP_1_30_0
   #pragma pack(pop)
 }
@@ -66,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetCurrentTrackingTransformPose
 // Il2CppName: ovrp_GetCurrentTrackingTransformPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Posef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetCurrentTrackingTransformPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Posef>)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetCurrentTrackingTransformPose)> {
   static const MethodInfo* get() {
     static auto* trackingTransformPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_GetCurrentTrackingTransformPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingTransformPose});
@@ -75,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetTrackingTransformRawPose
 // Il2CppName: ovrp_GetTrackingTransformRawPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Posef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetTrackingTransformRawPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Posef>)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetTrackingTransformRawPose)> {
   static const MethodInfo* get() {
     static auto* trackingTransformRawPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_GetTrackingTransformRawPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingTransformRawPose});
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_IsPerfMetricsSupported
 // Il2CppName: ovrp_IsPerfMetricsSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, GlobalNamespace::OVRPlugin::Bool&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_IsPerfMetricsSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_IsPerfMetricsSupported)> {
   static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     static auto* isSupported = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
@@ -105,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsFloat
 // Il2CppName: ovrp_GetPerfMetricsFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, float&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, ByRef<float>)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsFloat)> {
   static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsInt
 // Il2CppName: ovrp_GetPerfMetricsInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsInt)> {
   static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

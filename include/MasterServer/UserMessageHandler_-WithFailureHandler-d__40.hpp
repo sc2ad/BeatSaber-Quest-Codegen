@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.UserMessageHandler
 #include "MasterServer/UserMessageHandler.hpp"
 // Including type: System.ValueType
@@ -105,10 +106,10 @@ namespace MasterServer {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xED3CD8
+    // Offset: 0xF7D460
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED3CE0
+    // Offset: 0xF7D468
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/MasterServer.<WithFailureHandler>d__40
   #pragma pack(pop)

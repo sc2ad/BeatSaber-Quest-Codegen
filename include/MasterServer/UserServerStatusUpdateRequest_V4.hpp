@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.UserServerStatusUpdateRequest
 #include "MasterServer/UserServerStatusUpdateRequest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,12 +31,12 @@ namespace MasterServer {
     // Creating value type constructor for type: V4
     V4() noexcept {}
     // protected override System.UInt32 get_version()
-    // Offset: 0x152B9A8
+    // Offset: 0x213800C
     // Implemented from: MasterServer.UserServerStatusUpdateRequest
     // Base method: System.UInt32 UserServerStatusUpdateRequest::get_version()
     uint get_version();
     // public System.Void .ctor()
-    // Offset: 0x152BA2C
+    // Offset: 0x2138090
     // Implemented from: MasterServer.UserServerStatusUpdateRequest
     // Base method: System.Void UserServerStatusUpdateRequest::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
@@ -46,12 +47,12 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserServerStatusUpdateRequest::V4*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152B9B0
+    // Offset: 0x2138014
     // Implemented from: MasterServer.UserServerStatusUpdateRequest
     // Base method: System.Void UserServerStatusUpdateRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152B9E0
+    // Offset: 0x2138044
     // Implemented from: MasterServer.UserServerStatusUpdateRequest
     // Base method: System.Void UserServerStatusUpdateRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

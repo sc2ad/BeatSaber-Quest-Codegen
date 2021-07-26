@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO
 #include "GlobalNamespace/AppInitScenesTransitionSetupDataSO.hpp"
 // Including type: SceneSetupData
@@ -55,19 +56,19 @@ namespace GlobalNamespace {
     // Set instance field: private MockPlayersModel <overrideMockPlayersModel>k__BackingField
     void _set_$overrideMockPlayersModel$k__BackingField(GlobalNamespace::MockPlayersModel* value);
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
-    // Offset: 0x10DA4B0
+    // Offset: 0x1F2B4C4
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();
     // private System.Void set_appInitOverrideStartType(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType value)
-    // Offset: 0x10DA4B8
+    // Offset: 0x1F2B4CC
     void set_appInitOverrideStartType(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
     // public MockPlayersModel get_overrideMockPlayersModel()
-    // Offset: 0x10DA4C0
+    // Offset: 0x1F2B4D4
     GlobalNamespace::MockPlayersModel* get_overrideMockPlayersModel();
     // private System.Void set_overrideMockPlayersModel(MockPlayersModel value)
-    // Offset: 0x10DA4C8
+    // Offset: 0x1F2B4DC
     void set_overrideMockPlayersModel(GlobalNamespace::MockPlayersModel* value);
     // public System.Void .ctor(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel overrideMockPlayersModel)
-    // Offset: 0x10DA024
+    // Offset: 0x1F2B038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel* overrideMockPlayersModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameplaySetupViewController
 #include "GlobalNamespace/GameplaySetupViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly UnityEngine.GameObject gameObject
     void _set_gameObject(UnityEngine::GameObject* value);
     // public System.Void .ctor(System.String title, IRefreshable refreshable, UnityEngine.GameObject gameObject)
-    // Offset: 0x10B5674
+    // Offset: 0x1F225E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplaySetupViewController::Panel* New_ctor(::Il2CppString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplaySetupViewController::Panel::.ctor");

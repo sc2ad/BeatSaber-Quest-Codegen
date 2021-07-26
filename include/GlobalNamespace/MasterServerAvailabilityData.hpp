@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -132,7 +133,7 @@ namespace GlobalNamespace {
     // Set instance field: public MasterServerAvailabilityData/UserMessage userMessage
     void _set_userMessage(GlobalNamespace::MasterServerAvailabilityData::UserMessage* value);
     // public System.Void .ctor()
-    // Offset: 0x117ED78
+    // Offset: 0x1FAE78C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

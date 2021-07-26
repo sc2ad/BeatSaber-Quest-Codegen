@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerController
 #include "GlobalNamespace/MultiplayerController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerLevelCompletionResults,System.Boolean> <>9__47_0
     static void _set_$$9__47_0(System::Func_2<GlobalNamespace::MultiplayerLevelCompletionResults*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11A928C
+    // Offset: 0x1FC0CF8
     static void _cctor();
     // System.Boolean <EndGameplay>b__47_0(MultiplayerLevelCompletionResults result)
-    // Offset: 0x11A92F8
+    // Offset: 0x1FC0D64
     bool $EndGameplay$b__47_0(GlobalNamespace::MultiplayerLevelCompletionResults* result);
     // public System.Void .ctor()
-    // Offset: 0x11A92F0
+    // Offset: 0x1FC0D5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

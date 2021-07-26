@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.HeaderVariantInfo
 #include "System/Net/HeaderVariantInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -113,43 +114,43 @@ namespace System::Net {
     // Set instance field: private System.String m_fqdnMyDomain
     void _set_m_fqdnMyDomain(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x169C1C8
+    // Offset: 0x139E884
     static void _cctor();
     // private System.Void AddRemoveDomain(System.String key, System.Net.PathList value)
-    // Offset: 0x1698648
+    // Offset: 0x139AD04
     void AddRemoveDomain(::Il2CppString* key, System::Net::PathList* value);
     // System.Void Add(System.Net.Cookie cookie, System.Boolean throwOnError)
-    // Offset: 0x1698744
+    // Offset: 0x139AE00
     void Add(System::Net::Cookie* cookie, bool throwOnError);
     // private System.Boolean AgeCookies(System.String domain)
-    // Offset: 0x1698EB4
+    // Offset: 0x139B570
     bool AgeCookies(::Il2CppString* domain);
     // private System.Int32 ExpireCollection(System.Net.CookieCollection cc)
-    // Offset: 0x169A1D0
+    // Offset: 0x139C88C
     int ExpireCollection(System::Net::CookieCollection* cc);
     // System.Boolean IsLocalDomain(System.String host)
-    // Offset: 0x169A308
+    // Offset: 0x139C9C4
     bool IsLocalDomain(::Il2CppString* host);
     // System.Net.CookieCollection CookieCutter(System.Uri uri, System.String headerName, System.String setCookieHeader, System.Boolean isThrow)
-    // Offset: 0x169A5D0
+    // Offset: 0x139CC8C
     System::Net::CookieCollection* CookieCutter(System::Uri* uri, ::Il2CppString* headerName, ::Il2CppString* setCookieHeader, bool isThrow);
     // System.Net.CookieCollection InternalGetCookies(System.Uri uri)
-    // Offset: 0x169B234
+    // Offset: 0x139D8F0
     System::Net::CookieCollection* InternalGetCookies(System::Uri* uri);
     // private System.Void BuildCookieCollectionFromDomainMatches(System.Uri uri, System.Boolean isSecure, System.Int32 port, System.Net.CookieCollection cookies, System.Collections.Generic.List`1<System.String> domainAttribute, System.Boolean matchOnlyPlainCookie)
-    // Offset: 0x169B51C
+    // Offset: 0x139DBD8
     void BuildCookieCollectionFromDomainMatches(System::Uri* uri, bool isSecure, int port, System::Net::CookieCollection* cookies, System::Collections::Generic::List_1<::Il2CppString*>* domainAttribute, bool matchOnlyPlainCookie);
     // private System.Void MergeUpdateCollections(System.Net.CookieCollection destination, System.Net.CookieCollection source, System.Int32 port, System.Boolean isSecure, System.Boolean isPlainOnly)
-    // Offset: 0x169BC20
+    // Offset: 0x139E2DC
     void MergeUpdateCollections(System::Net::CookieCollection* destination, System::Net::CookieCollection* source, int port, bool isSecure, bool isPlainOnly);
     // public System.String GetCookieHeader(System.Uri uri)
-    // Offset: 0x169BE08
+    // Offset: 0x139E4C4
     ::Il2CppString* GetCookieHeader(System::Uri* uri);
     // System.String GetCookieHeader(System.Uri uri, out System.String optCookie2)
-    // Offset: 0x169BED8
-    ::Il2CppString* GetCookieHeader(System::Uri* uri, ::Il2CppString*& optCookie2);
+    // Offset: 0x139E594
+    ::Il2CppString* GetCookieHeader(System::Uri* uri, ByRef<::Il2CppString*> optCookie2);
     // public System.Void .ctor()
-    // Offset: 0x1698568
+    // Offset: 0x139AC24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::CookieContainer::GetCookieHeader
 // Il2CppName: GetCookieHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::CookieContainer::*)(System::Uri*, ::Il2CppString*&)>(&System::Net::CookieContainer::GetCookieHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::CookieContainer::*)(System::Uri*, ByRef<::Il2CppString*>)>(&System::Net::CookieContainer::GetCookieHeader)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* optCookie2 = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

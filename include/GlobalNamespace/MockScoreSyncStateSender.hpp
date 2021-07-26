@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,20 +52,20 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.Void .ctor(IMultiplayerSessionManager msm)
-    // Offset: 0x238C31C
+    // Offset: 0x1E04304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockScoreSyncStateSender* New_ctor(GlobalNamespace::IMultiplayerSessionManager* msm) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockScoreSyncStateSender::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockScoreSyncStateSender*, creationType>(msm)));
     }
     // public System.Void Dispose()
-    // Offset: 0x238C4BC
+    // Offset: 0x1E044A4
     void Dispose();
     // public System.Void SendScore(System.Int32 modifiedScore, System.Int32 rawScore, System.Int32 immediateMaxPossibleRawScore, System.Int32 combo, System.Int32 multiplier)
-    // Offset: 0x238E93C
+    // Offset: 0x1E06924
     void SendScore(int modifiedScore, int rawScore, int immediateMaxPossibleRawScore, int combo, int multiplier);
     // private System.Void HandleScoreSyncStateUpdate(StandardScoreSyncStateNetSerializable nodePose, IConnectedPlayer connectedPlayer)
-    // Offset: 0x239113C
+    // Offset: 0x1E09124
     void HandleScoreSyncStateUpdate(GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // MockScoreSyncStateSender
   #pragma pack(pop)

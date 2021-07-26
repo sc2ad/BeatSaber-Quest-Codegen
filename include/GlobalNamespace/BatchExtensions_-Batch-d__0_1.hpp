@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BatchExtensions
 #include "GlobalNamespace/BatchExtensions.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Polyglot.LocalizationImporter
 #include "Polyglot/LocalizationImporter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace Polyglot {
     // Set instance field: public Polyglot.Localization settings
     void _set_settings(Polyglot::Localization* value);
     // System.Void <ImportFromGoogle>b__0(System.String s)
-    // Offset: 0x2330B20
+    // Offset: 0x1DB5F60
     void $ImportFromGoogle$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x232FB64
+    // Offset: 0x1DB4FA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

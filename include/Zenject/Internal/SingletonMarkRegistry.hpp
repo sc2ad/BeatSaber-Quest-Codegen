@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -54,13 +55,13 @@ namespace Zenject::Internal {
     // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons
     void _set__boundNonSingletons(System::Collections::Generic::HashSet_1<System::Type*>* value);
     // public System.Void MarkNonSingleton(System.Type type)
-    // Offset: 0x162AB10
+    // Offset: 0x132E0E0
     void MarkNonSingleton(System::Type* type);
     // public System.Void MarkSingleton(System.Type type)
-    // Offset: 0x162ABB4
+    // Offset: 0x132E184
     void MarkSingleton(System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x162AC74
+    // Offset: 0x132E244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

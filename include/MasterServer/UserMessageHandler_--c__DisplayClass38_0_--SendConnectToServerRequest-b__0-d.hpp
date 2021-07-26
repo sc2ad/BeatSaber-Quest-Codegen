@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass38_0
 #include "MasterServer/UserMessageHandler_--c__DisplayClass38_0.hpp"
 // Including type: System.ValueType
@@ -127,10 +128,10 @@ namespace MasterServer {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__3
     void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> value);
     // private System.Void MoveNext()
-    // Offset: 0xED3C8C
+    // Offset: 0xF7D414
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED3C94
+    // Offset: 0xF7D41C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/MasterServer.<>c__DisplayClass38_0/MasterServer.<<SendConnectToServerRequest>b__0>d
   // WARNING Not writing size check since size may be invalid!

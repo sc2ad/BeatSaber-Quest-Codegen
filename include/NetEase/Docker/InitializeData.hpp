@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -15,7 +16,7 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InitializeData/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDEDB68
+    // [DebuggerBrowsableAttribute] Offset: 0xE9B784
     // private System.Boolean <InitializeSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -24,7 +25,7 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: InitializeSuccessful and: InitializeCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xDEDBA4
+    // [DebuggerBrowsableAttribute] Offset: 0xE9B7C0
     // private System.Int32 <InitializeCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
@@ -46,13 +47,13 @@ namespace NetEase::Docker {
     // Set instance field: private System.Int32 <InitializeCode>k__BackingField
     void _set_$InitializeCode$k__BackingField(int value);
     // public System.Boolean get_InitializeSuccessful()
-    // Offset: 0xF0F94C
+    // Offset: 0xD954E0
     bool get_InitializeSuccessful();
     // public System.Void set_InitializeSuccessful(System.Boolean value)
-    // Offset: 0xF0F954
+    // Offset: 0xD954E8
     void set_InitializeSuccessful(bool value);
     // public System.Void set_InitializeCode(System.Int32 value)
-    // Offset: 0xF0F960
+    // Offset: 0xD954F4
     void set_InitializeCode(int value);
   }; // NetEase.Docker.InitializeData
   #pragma pack(pop)

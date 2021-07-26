@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.UserMessageHandler
 #include "MasterServer/UserMessageHandler.hpp"
 // Including type: ConnectionFailedReason
@@ -179,13 +180,13 @@ namespace MasterServer {
     // Set instance field: public System.Action`2<System.Net.IPEndPoint,System.String> onSuccess
     void _set_onSuccess(System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>* value);
     // System.Void <StartBroadcastingServer>b__0(ConnectionFailedReason result)
-    // Offset: 0x12DD8F4
+    // Offset: 0x2097E04
     void $StartBroadcastingServer$b__0(GlobalNamespace::ConnectionFailedReason result);
     // System.Threading.Tasks.Task <StartBroadcastingServer>b__1()
-    // Offset: 0x12DD984
+    // Offset: 0x2097E94
     System::Threading::Tasks::Task* $StartBroadcastingServer$b__1();
     // public System.Void .ctor()
-    // Offset: 0x12DD14C
+    // Offset: 0x209765C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

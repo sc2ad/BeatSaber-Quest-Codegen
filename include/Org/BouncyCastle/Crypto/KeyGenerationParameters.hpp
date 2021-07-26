@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -47,13 +48,13 @@ namespace Org::BouncyCastle::Crypto {
     // Set instance field: private System.Int32 strength
     void _set_strength(int value);
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x18BB1D0
+    // Offset: 0x158C5D4
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public System.Int32 get_Strength()
-    // Offset: 0x18BB1D8
+    // Offset: 0x158C5DC
     int get_Strength();
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, System.Int32 strength)
-    // Offset: 0x18BB0EC
+    // Offset: 0x158C4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, int strength) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::KeyGenerationParameters::.ctor");

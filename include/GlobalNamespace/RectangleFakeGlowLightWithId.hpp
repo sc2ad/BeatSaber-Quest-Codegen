@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIdMonoBehaviour
 #include "GlobalNamespace/LightWithIdMonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,10 +69,10 @@ namespace GlobalNamespace {
     // Set instance field: private RectangleFakeGlow _rectangleFakeGlow
     void _set__rectangleFakeGlow(GlobalNamespace::RectangleFakeGlow* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1142B14
+    // Offset: 0x1F73528
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1142B60
+    // Offset: 0x1F73574
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlowLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1142B34
+    // Offset: 0x1F73548
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

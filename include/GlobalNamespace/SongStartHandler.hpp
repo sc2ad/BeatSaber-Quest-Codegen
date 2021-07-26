@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Single
@@ -129,44 +130,44 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action`1<System.Single> setSongStartSyncTimeEvent
     void _set_setSongStartSyncTimeEvent(System::Action_1<float>* value);
     // public System.Single get_songStartSyncTime()
-    // Offset: 0x23109BC
+    // Offset: 0x23D1B70
     float get_songStartSyncTime();
     // public System.Void add_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x23109C4
+    // Offset: 0x23D1B78
     void add_setSongStartSyncTimeEvent(System::Action_1<float>* value);
     // public System.Void remove_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2310A68
+    // Offset: 0x23D1C1C
     void remove_setSongStartSyncTimeEvent(System::Action_1<float>* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x2310B0C
+    // Offset: 0x23D1CC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongStartHandler* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongStartHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongStartHandler*, creationType>(multiplayerSessionManager, gameplayRpcManager, playersAtGameStartModel)));
     }
     // public System.Void GetLevelStartTimeOffset()
-    // Offset: 0x2310BA4
+    // Offset: 0x23D1D58
     void GetLevelStartTimeOffset();
     // public System.Void Dispose()
-    // Offset: 0x23110B4
+    // Offset: 0x23D2268
     void Dispose();
     // public System.Void ForceStart(System.String sessionGameId)
-    // Offset: 0x23112E8
+    // Offset: 0x23D249C
     void ForceStart(::Il2CppString* sessionGameId);
     // private System.Void StartSong()
-    // Offset: 0x2311904
+    // Offset: 0x23D2AB8
     void StartSong();
     // private System.Void HandleSetGameplaySongReady(System.String user)
-    // Offset: 0x2311BC4
+    // Offset: 0x23D2D78
     void HandleSetGameplaySongReady(::Il2CppString* user);
     // private System.Void HandleGetGameplaySongReady(System.String user)
-    // Offset: 0x2311E84
+    // Offset: 0x23D3038
     void HandleGetGameplaySongReady(::Il2CppString* user);
     // private System.Void HandleSetSongStartTime(System.String user, System.Single time)
-    // Offset: 0x2311F38
+    // Offset: 0x23D30EC
     void HandleSetSongStartTime(::Il2CppString* user, float time);
     // private System.Void Log(System.String message)
-    // Offset: 0x2311FB8
+    // Offset: 0x23D316C
     void Log(::Il2CppString* message);
   }; // SongStartHandler
   #pragma pack(pop)

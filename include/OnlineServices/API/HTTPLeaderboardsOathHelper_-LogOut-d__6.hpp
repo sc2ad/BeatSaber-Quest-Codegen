@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.HTTPLeaderboardsOathHelper
 #include "OnlineServices/API/HTTPLeaderboardsOathHelper.hpp"
 // Including type: System.ValueType
@@ -70,10 +71,10 @@ namespace OnlineServices::API {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> value);
     // private System.Void MoveNext()
-    // Offset: 0xECF83C
+    // Offset: 0xF7B480
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECF844
+    // Offset: 0xF7B488
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<LogOut>d__6
   // WARNING Not writing size check since size may be invalid!

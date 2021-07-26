@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableRequest
 #include "GlobalNamespace/BaseMasterServerReliableRequest.hpp"
 // Including type: MasterServer.IDedicatedServerClientToServerMessage
@@ -99,25 +100,25 @@ namespace MasterServer {
     // Set instance field: public GameStateType gameState
     void _set_gameState(GlobalNamespace::GameStateType value);
     // static public PacketPool`1<MasterServer.MatchmakingServerStatusUpdateRequest> get_pool()
-    // Offset: 0x12D38B4
+    // Offset: 0x208DDC4
     static GlobalNamespace::PacketPool_1<MasterServer::MatchmakingServerStatusUpdateRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x12D38FC
+    // Offset: 0x208DE0C
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x12D3904
+    // Offset: 0x208DE14
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x12D390C
+    // Offset: 0x208DE1C
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x12D3914
+    // Offset: 0x208DE24
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.MatchmakingServerStatusUpdateRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, GameStateType gameState, System.Int32 currentPlayerCount)
-    // Offset: 0x12D3A74
+    // Offset: 0x208DF84
     MasterServer::MatchmakingServerStatusUpdateRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, GlobalNamespace::GameStateType gameState, int currentPlayerCount);
     // public System.Void .ctor()
-    // Offset: 0x12D3A84
+    // Offset: 0x208DF94
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -127,17 +128,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingServerStatusUpdateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D391C
+    // Offset: 0x208DE2C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D3998
+    // Offset: 0x208DEA8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12D3A18
+    // Offset: 0x208DF28
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

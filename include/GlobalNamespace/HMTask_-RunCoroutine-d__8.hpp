@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMTask
 #include "GlobalNamespace/HMTask.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -61,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public HMTask <>4__this
     void _set_$$4__this(GlobalNamespace::HMTask* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x121A4AC
+    // Offset: 0x2046E04
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x121A514
+    // Offset: 0x2046E6C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x121A274
+    // Offset: 0x2046BCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask::$RunCoroutine$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMTask::$RunCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask::$RunCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x121A3C4
+    // Offset: 0x2046D1C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x121A3C8
+    // Offset: 0x2046D20
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x121A4B4
+    // Offset: 0x2046E0C
     void System_Collections_IEnumerator_Reset();
   }; // HMTask/<RunCoroutine>d__8
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,7 +17,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VersionStringHelper
     VersionStringHelper() noexcept {}
     // static public System.Int32 GetMajorVersionNumber(System.String versionString)
-    // Offset: 0x235E178
+    // Offset: 0x1DE65B8
     static int GetMajorVersionNumber(::Il2CppString* versionString);
   }; // VersionStringHelper
   #pragma pack(pop)

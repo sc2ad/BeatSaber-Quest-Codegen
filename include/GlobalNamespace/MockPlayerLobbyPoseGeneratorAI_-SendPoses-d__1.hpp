@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MockPlayerLobbyPoseGeneratorAI
 #include "GlobalNamespace/MockPlayerLobbyPoseGeneratorAI.hpp"
 // Including type: System.ValueType
@@ -220,10 +221,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xF0D6E0
+    // Offset: 0xD93274
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF0D6E8
+    // Offset: 0xD9327C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MockPlayerLobbyPoseGeneratorAI/<SendPoses>d__1
   #pragma pack(pop)

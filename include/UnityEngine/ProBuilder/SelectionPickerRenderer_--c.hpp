@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.SelectionPickerRenderer
 #include "UnityEngine/ProBuilder/SelectionPickerRenderer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,13 +51,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__24_0
     static void _set_$$9__24_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14C07B0
+    // Offset: 0x1217D00
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <GenerateFacePickingObjects>b__24_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x14C081C
+    // Offset: 0x1217D6C
     System::Collections::Generic::IEnumerable_1<int>* $GenerateFacePickingObjects$b__24_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x14C0814
+    // Offset: 0x1217D64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

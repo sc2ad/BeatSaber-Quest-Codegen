@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelFilteringNavigationController
 #include "GlobalNamespace/LevelFilteringNavigationController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,19 +53,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__44_2
     static void _set_$$9__44_2(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10F8FCC
+    // Offset: 0x1F4AFE0
     static void _cctor();
     // System.String <Setup>b__31_0(IBeatmapLevelPack pack)
-    // Offset: 0x10F9038
+    // Offset: 0x1F4B04C
     ::Il2CppString* $Setup$b__31_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // System.String <SelectAnnotatedBeatmapLevelCollection>b__44_0(IBeatmapLevelPack pack)
-    // Offset: 0x10F90E4
+    // Offset: 0x1F4B0F8
     ::Il2CppString* $SelectAnnotatedBeatmapLevelCollection$b__44_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // System.String <SelectAnnotatedBeatmapLevelCollection>b__44_2(IBeatmapLevelPack pack)
-    // Offset: 0x10F9190
+    // Offset: 0x1F4B1A4
     ::Il2CppString* $SelectAnnotatedBeatmapLevelCollection$b__44_2(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x10F9030
+    // Offset: 0x1F4B044
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

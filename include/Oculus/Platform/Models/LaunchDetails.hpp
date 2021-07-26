@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.LaunchType
 #include "Oculus/Platform/LaunchType.hpp"
 // Including type: System.IntPtr
@@ -72,7 +73,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAD9C
+    // [ObsoleteAttribute] Offset: 0xE989B8
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x48
@@ -114,7 +115,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.Models.UserList Users
     void _set_Users(Oculus::Platform::Models::UserList* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A97F4
+    // Offset: 0x2105668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchDetails* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchDetails::.ctor");

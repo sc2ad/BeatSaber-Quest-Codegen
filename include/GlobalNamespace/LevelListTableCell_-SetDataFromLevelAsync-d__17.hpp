@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelListTableCell
 #include "GlobalNamespace/LevelListTableCell.hpp"
 // Including type: System.ValueType
@@ -116,10 +117,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Sprite> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*> value);
     // private System.Void MoveNext()
-    // Offset: 0xED0F30
+    // Offset: 0xF7C4CC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED0F38
+    // Offset: 0xF7C4D4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelListTableCell/<SetDataFromLevelAsync>d__17
   // WARNING Not writing size check since size may be invalid!

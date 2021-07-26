@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Utilities::Encoders
@@ -27,22 +28,22 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Set static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder
     static void _set_encoder(Org::BouncyCastle::Utilities::Encoders::HexEncoder* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F7BC08
+    // Offset: 0x1A61AC8
     static void _cctor();
     // static public System.String ToHexString(System.Byte[] data)
-    // Offset: 0x1F7B244
+    // Offset: 0x1A61104
     static ::Il2CppString* ToHexString(::Array<uint8_t>* data);
     // static public System.String ToHexString(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x1F7B2B8
+    // Offset: 0x1A61178
     static ::Il2CppString* ToHexString(::Array<uint8_t>* data, int off, int length);
     // static public System.Byte[] Encode(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x1F7B338
+    // Offset: 0x1A611F8
     static ::Array<uint8_t>* Encode(::Array<uint8_t>* data, int off, int length);
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1F7B568
+    // Offset: 0x1A61428
     static ::Array<uint8_t>* Decode(::Il2CppString* data);
     // static public System.Byte[] DecodeStrict(System.String str)
-    // Offset: 0x1F7B958
+    // Offset: 0x1A61818
     static ::Array<uint8_t>* DecodeStrict(::Il2CppString* str);
   }; // Org.BouncyCastle.Utilities.Encoders.Hex
   #pragma pack(pop)

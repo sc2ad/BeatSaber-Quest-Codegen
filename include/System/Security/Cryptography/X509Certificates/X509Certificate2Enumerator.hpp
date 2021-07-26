@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,26 +50,26 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set instance field: private System.Collections.IEnumerator enumerator
     void _set_enumerator(System::Collections::IEnumerator* value);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Current()
-    // Offset: 0x1829838
+    // Offset: 0x14FAC3C
     System::Security::Cryptography::X509Certificates::X509Certificate2* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18299DC
+    // Offset: 0x14FADE0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection)
-    // Offset: 0x18296B4
+    // Offset: 0x14FAAB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2Enumerator* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2Enumerator*, creationType>(collection)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x182992C
+    // Offset: 0x14FAD30
     bool MoveNext();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1829A90
+    // Offset: 0x14FAE94
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1829B40
+    // Offset: 0x14FAF44
     void System_Collections_IEnumerator_Reset();
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
   #pragma pack(pop)

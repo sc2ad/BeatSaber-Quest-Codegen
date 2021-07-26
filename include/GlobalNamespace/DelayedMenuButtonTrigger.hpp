@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ITickable
 #include "Zenject/ITickable.hpp"
 // Including type: IMenuButtonTrigger
@@ -39,7 +40,7 @@ namespace GlobalNamespace {
     System::Action* menuButtonTriggeredEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06538
+    // [InjectAttribute] Offset: 0xEB3154
     // private System.Single _pressDuration
     // Size: 0x4
     // Offset: 0x18
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waitingForButtonRelease and: vrControllersInputManager
     char __padding3[0x7] = {};
-    // [InjectAttribute] Offset: 0xE06548
+    // [InjectAttribute] Offset: 0xEB3164
     // private VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x28
@@ -98,16 +99,16 @@ namespace GlobalNamespace {
     // Set instance field: private VRControllersInputManager _vrControllersInputManager
     void _set__vrControllersInputManager(GlobalNamespace::VRControllersInputManager* value);
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x10892DC
+    // Offset: 0x1F0ABD8
     void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x1089380
+    // Offset: 0x1F0AC7C
     void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x1089424
+    // Offset: 0x1F0AD20
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x10894B4
+    // Offset: 0x1F0ADB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

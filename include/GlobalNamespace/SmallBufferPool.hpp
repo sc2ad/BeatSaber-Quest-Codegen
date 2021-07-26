@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -118,13 +119,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
     void _set__cacheMax(System::Collections::Generic::List_1<::Array<uint8_t>*>* value);
     // public System.Byte[] GetBuffer(System.Int32 length)
-    // Offset: 0x23105DC
+    // Offset: 0x23D1790
     ::Array<uint8_t>* GetBuffer(int length);
     // public System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x23107AC
+    // Offset: 0x23D1960
     void ReleaseBuffer(::Array<uint8_t>* buffer);
     // public System.Void .ctor()
-    // Offset: 0x23108EC
+    // Offset: 0x23D1AA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

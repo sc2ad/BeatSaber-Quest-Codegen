@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData
 #include "UnityEngine/AddressableAssets/ResourceLocators/ContentCatalogData.hpp"
 // Including type: System.ValueType

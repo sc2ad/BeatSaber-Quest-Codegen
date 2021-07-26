@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -27,13 +28,13 @@ namespace UnityEngine::TestTools {
     // Creating value type constructor for type: TestCommandPcHelper
     TestCommandPcHelper() noexcept {}
     // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
-    // Offset: 0x148D350
+    // Offset: 0x11FE3B0
     void SetEnumeratorPC(System::Collections::IEnumerator* enumerator, int pc);
     // public System.Int32 GetEnumeratorPC(System.Collections.IEnumerator enumerator)
-    // Offset: 0x148D354
+    // Offset: 0x11FE3B4
     int GetEnumeratorPC(System::Collections::IEnumerator* enumerator);
     // public System.Void .ctor()
-    // Offset: 0x148D35C
+    // Offset: 0x11FE3BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

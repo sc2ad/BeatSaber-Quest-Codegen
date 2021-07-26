@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,25 +68,25 @@ namespace TMPro {
     // Set instance field: private TMPro.TMP_Text m_TextComponent
     void _set_m_TextComponent(TMPro::TMP_Text* value);
     // private System.Void Awake()
-    // Offset: 0x1113864
+    // Offset: 0x10134E4
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0x11138BC
+    // Offset: 0x101353C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x11138C0
+    // Offset: 0x1013540
     void OnDisable();
     // public System.Void StopAllAnimations()
-    // Offset: 0x11138C4
+    // Offset: 0x1013544
     void StopAllAnimations();
     // public System.Void DoSpriteAnimation(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0x1113928
+    // Offset: 0x10135A8
     void DoSpriteAnimation(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // private System.Collections.IEnumerator DoSpriteAnimationInternal(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0x1113A0C
+    // Offset: 0x101368C
     System::Collections::IEnumerator* DoSpriteAnimationInternal(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // public System.Void .ctor()
-    // Offset: 0x1113AE0
+    // Offset: 0x1013760
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

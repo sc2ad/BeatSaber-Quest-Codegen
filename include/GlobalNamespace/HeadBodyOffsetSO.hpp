@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _verticalOffset
     void _set__verticalOffset(float value);
     // public UnityEngine.Vector3 get_headNeckOffset()
-    // Offset: 0x10E9D68
+    // Offset: 0x1F3BD7C
     UnityEngine::Vector3 get_headNeckOffset();
     // public System.Single get_verticalOffset()
-    // Offset: 0x10E9D74
+    // Offset: 0x1F3BD88
     float get_verticalOffset();
     // public System.Void .ctor()
-    // Offset: 0x10E9D7C
+    // Offset: 0x1F3BD90
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

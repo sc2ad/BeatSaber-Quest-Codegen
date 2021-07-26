@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteMovement* noteMovement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteMovement*) == 0x8);
-    // [InjectAttribute] Offset: 0xE05544
+    // [InjectAttribute] Offset: 0xEB2160
     // private NoteTrailParticleSystem _noteTrailParticleSystem
     // Size: 0x8
     // Offset: 0x28
@@ -74,22 +75,22 @@ namespace GlobalNamespace {
     // Set instance field: private NoteTrailParticleSystem _noteTrailParticleSystem
     void _set__noteTrailParticleSystem(GlobalNamespace::NoteTrailParticleSystem* value);
     // protected System.Void Awake()
-    // Offset: 0x11E8380
+    // Offset: 0x2016CD8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11E8460
+    // Offset: 0x2016DB8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x11E8568
+    // Offset: 0x2016EC0
     void Update();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0x11E8724
+    // Offset: 0x201707C
     void HandleNoteMovementDidInit();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0x11E8730
+    // Offset: 0x2017088
     void HandleNoteDidStartJump();
     // public System.Void .ctor()
-    // Offset: 0x11E873C
+    // Offset: 0x2017094
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

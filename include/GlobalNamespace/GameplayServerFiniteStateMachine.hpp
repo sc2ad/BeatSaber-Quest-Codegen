@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapLevelSelectionMask
 #include "GlobalNamespace/BeatmapLevelSelectionMask.hpp"
 // Including type: GameplayServerConfiguration
@@ -144,55 +145,55 @@ namespace GlobalNamespace {
     // Set instance field: protected System.Boolean enteringState
     void _set_enteringState(bool value);
     // public MasterServer.ITimeProvider get_timeProvider()
-    // Offset: 0x12C6830
+    // Offset: 0x109BF6C
     MasterServer::ITimeProvider* get_timeProvider();
     // private System.Void set_timeProvider(MasterServer.ITimeProvider value)
-    // Offset: 0x12C6838
+    // Offset: 0x109BF74
     void set_timeProvider(MasterServer::ITimeProvider* value);
     // public IMultiplayerSessionManager get_multiplayerSessionManager()
-    // Offset: 0x12C6840
+    // Offset: 0x109BF7C
     GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
     // private System.Void set_multiplayerSessionManager(IMultiplayerSessionManager value)
-    // Offset: 0x12C6848
+    // Offset: 0x109BF84
     void set_multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.String get_ownerUserId()
-    // Offset: 0x12C6850
+    // Offset: 0x109BF8C
     ::Il2CppString* get_ownerUserId();
     // private System.Void set_ownerUserId(System.String value)
-    // Offset: 0x12C6858
+    // Offset: 0x109BF94
     void set_ownerUserId(::Il2CppString* value);
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x12C6860
+    // Offset: 0x109BF9C
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // private System.Void set_selectionMask(BeatmapLevelSelectionMask value)
-    // Offset: 0x12C6874
+    // Offset: 0x109BFB0
     void set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x12C6888
+    // Offset: 0x109BFC4
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // private System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x12C689C
+    // Offset: 0x109BFD8
     void set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public IServerBeatmapProvider get_beatmapProvider()
-    // Offset: 0x12C68B0
+    // Offset: 0x109BFEC
     GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
     // private System.Void set_beatmapProvider(IServerBeatmapProvider value)
-    // Offset: 0x12C68B8
+    // Offset: 0x109BFF4
     void set_beatmapProvider(GlobalNamespace::IServerBeatmapProvider* value);
     // public MenuRpcManager get_menuRpcManager()
-    // Offset: 0x12C68C0
+    // Offset: 0x109BFFC
     GlobalNamespace::MenuRpcManager* get_menuRpcManager();
     // private System.Void set_menuRpcManager(MenuRpcManager value)
-    // Offset: 0x12C68C8
+    // Offset: 0x109C004
     void set_menuRpcManager(GlobalNamespace::MenuRpcManager* value);
     // public GameplayRpcManager get_gameplayRpcManager()
-    // Offset: 0x12C68D0
+    // Offset: 0x109C00C
     GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
     // private System.Void set_gameplayRpcManager(GameplayRpcManager value)
-    // Offset: 0x12C68D8
+    // Offset: 0x109C014
     void set_gameplayRpcManager(GlobalNamespace::GameplayRpcManager* value);
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x12C0A84
+    // Offset: 0x10961C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayServerFiniteStateMachine* New_ctor(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::Il2CppString* ownerUserId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");

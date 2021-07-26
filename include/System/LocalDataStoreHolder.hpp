@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -41,17 +42,17 @@ namespace System {
     // Set instance field: private System.LocalDataStore m_Store
     void _set_m_Store(System::LocalDataStore* value);
     // public System.LocalDataStore get_Store()
-    // Offset: 0x17FB7E4
+    // Offset: 0x14CBBE8
     System::LocalDataStore* get_Store();
     // public System.Void .ctor(System.LocalDataStore store)
-    // Offset: 0x17FB748
+    // Offset: 0x14CBB4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreHolder* New_ctor(System::LocalDataStore* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreHolder*, creationType>(store)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x17FB774
+    // Offset: 0x14CBB78
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

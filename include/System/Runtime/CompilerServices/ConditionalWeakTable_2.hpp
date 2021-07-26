@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.CompilerServices.Ephemeron
 #include "System/Runtime/CompilerServices/Ephemeron.hpp"
 // Including type: System.Int32
@@ -226,10 +227,10 @@ namespace System::Runtime::CompilerServices {
     }
     // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
-    bool TryGetValue(TKey key, TValue& value) {
+    bool TryGetValue(TKey key, ByRef<TValue> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::TryGetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, value);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, byref(value));
     }
     // public TValue GetValue(TKey key, System.Runtime.CompilerServices.ConditionalWeakTable`2/System.Runtime.CompilerServices.CreateValueCallback<TKey,TValue> createValueCallback)
     // Offset: 0xFFFFFFFF

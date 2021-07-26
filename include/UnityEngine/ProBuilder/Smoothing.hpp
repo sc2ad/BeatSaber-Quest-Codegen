@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: UnityEngine.Vector3
@@ -74,25 +75,25 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.Int32 hardRangeMax
     static void _set_hardRangeMax(int value);
     // static public System.Int32 GetUnusedSmoothingGroup(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x22A6808
+    // Offset: 0x1D7767C
     static int GetUnusedSmoothingGroup(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Int32 GetNextUnusedSmoothingGroup(System.Int32 start, System.Collections.Generic.HashSet`1<System.Int32> used)
-    // Offset: 0x22A69AC
+    // Offset: 0x1D77820
     static int GetNextUnusedSmoothingGroup(int start, System::Collections::Generic::HashSet_1<int>* used);
     // static public System.Boolean IsSmooth(System.Int32 index)
-    // Offset: 0x22A6A64
+    // Offset: 0x1D778D8
     static bool IsSmooth(int index);
     // static public System.Void ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single angleThreshold)
-    // Offset: 0x22A6A84
+    // Offset: 0x1D778F8
     static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold);
     // static System.Void ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single angleThreshold, UnityEngine.Vector3[] normals)
-    // Offset: 0x22A6A8C
+    // Offset: 0x1D77900
     static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold, ::Array<UnityEngine::Vector3>* normals);
     // static private System.Boolean FindSoftEdgesRecursive(UnityEngine.Vector3[] normals, UnityEngine.ProBuilder.WingedEdge wing, System.Single angleThreshold, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> processed)
-    // Offset: 0x22A7718
+    // Offset: 0x1D7858C
     static bool FindSoftEdgesRecursive(::Array<UnityEngine::Vector3>* normals, UnityEngine::ProBuilder::WingedEdge* wing, float angleThreshold, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* processed);
     // static private System.Boolean IsSoftEdge(UnityEngine.Vector3[] normals, UnityEngine.ProBuilder.EdgeLookup left, UnityEngine.ProBuilder.EdgeLookup right, System.Single threshold)
-    // Offset: 0x22A7A18
+    // Offset: 0x1D7888C
     static bool IsSoftEdge(::Array<UnityEngine::Vector3>* normals, UnityEngine::ProBuilder::EdgeLookup left, UnityEngine::ProBuilder::EdgeLookup right, float threshold);
   }; // UnityEngine.ProBuilder.Smoothing
   #pragma pack(pop)

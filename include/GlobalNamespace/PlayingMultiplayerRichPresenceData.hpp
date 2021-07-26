@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: InMultiplayerRichPresenceData
 #include "GlobalNamespace/InMultiplayerRichPresenceData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: PlayingMultiplayerRichPresenceData
     PlayingMultiplayerRichPresenceData() noexcept {}
-    // [LocalizationKeyAttribute] Offset: 0xE02EDC
+    // [LocalizationKeyAttribute] Offset: 0xEAFAF8
     // static field const value: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kPlayingMultiplayerLobbyRichPresenceLocalizationKey = "PLAYING_MULTIPLAYER_PRESENCE";
     // Get static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
@@ -41,7 +42,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static void _set_kPlayingMultiplayerLobbyRichPresenceLocalizationKey(::Il2CppString* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.String multiplayerLobbyCode)
-    // Offset: 0x1108390
+    // Offset: 0x1F5A3A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingMultiplayerRichPresenceData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::Il2CppString* multiplayerLobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayingMultiplayerRichPresenceData::.ctor");

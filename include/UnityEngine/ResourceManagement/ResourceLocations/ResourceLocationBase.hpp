@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation
 #include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -133,37 +134,37 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     // Set instance field: private System.String m_PrimaryKey
     void _set_m_PrimaryKey(::Il2CppString* value);
     // public System.String get_InternalId()
-    // Offset: 0x19B10D4
+    // Offset: 0x16691C8
     ::Il2CppString* get_InternalId();
     // public System.String get_ProviderId()
-    // Offset: 0x19B10DC
+    // Offset: 0x16691D0
     ::Il2CppString* get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
-    // Offset: 0x19B10E4
+    // Offset: 0x16691D8
     System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
     // public System.Boolean get_HasDependencies()
-    // Offset: 0x19B10EC
+    // Offset: 0x16691E0
     bool get_HasDependencies();
     // public System.Object get_Data()
-    // Offset: 0x19B1148
+    // Offset: 0x166923C
     ::Il2CppObject* get_Data();
     // public System.Void set_Data(System.Object value)
-    // Offset: 0x19B1150
+    // Offset: 0x1669244
     void set_Data(::Il2CppObject* value);
     // public System.String get_PrimaryKey()
-    // Offset: 0x19B1158
+    // Offset: 0x166924C
     ::Il2CppString* get_PrimaryKey();
     // public System.Void set_PrimaryKey(System.String value)
-    // Offset: 0x19B1160
+    // Offset: 0x1669254
     void set_PrimaryKey(::Il2CppString* value);
     // public System.Int32 get_DependencyHashCode()
-    // Offset: 0x19B1168
+    // Offset: 0x166925C
     int get_DependencyHashCode();
     // public System.Type get_ResourceType()
-    // Offset: 0x19B1170
+    // Offset: 0x1669264
     System::Type* get_ResourceType();
     // public System.Void .ctor(System.String name, System.String id, System.String providerId, System.Type t, params UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation[] dependencies)
-    // Offset: 0x19B11D8
+    // Offset: 0x16692CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationBase* New_ctor(::Il2CppString* name, ::Il2CppString* id, ::Il2CppString* providerId, System::Type* t, ::Array<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::.ctor");
@@ -180,13 +181,13 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
       return New_ctor<creationType>(name, id, providerId, t, {dependencies...});
     }
     // public System.Int32 Hash(System.Type t)
-    // Offset: 0x19B1178
+    // Offset: 0x166926C
     int Hash(System::Type* t);
     // public System.Void ComputeDependencyHash()
-    // Offset: 0x19B13D4
+    // Offset: 0x16694C8
     void ComputeDependencyHash();
     // public override System.String ToString()
-    // Offset: 0x19B11D0
+    // Offset: 0x16692C4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

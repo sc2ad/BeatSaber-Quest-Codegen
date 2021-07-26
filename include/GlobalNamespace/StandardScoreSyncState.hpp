@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -102,38 +103,38 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _multiplier
     void _set__multiplier(int value);
     // public System.Void SetState(StandardScoreSyncState/Score s, System.Int32 value)
-    // Offset: 0xF0B488
+    // Offset: 0xF8C558
     void SetState(GlobalNamespace::StandardScoreSyncState_Score s, int value);
     // public StandardScoreSyncState GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0xF0B4D0
-    GlobalNamespace::StandardScoreSyncState GetDelta(GlobalNamespace::StandardScoreSyncState& stateTable);
+    // Offset: 0xF8C5A0
+    GlobalNamespace::StandardScoreSyncState GetDelta(ByRef<GlobalNamespace::StandardScoreSyncState> stateTable);
     // public StandardScoreSyncState ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0xF0B4F4
-    GlobalNamespace::StandardScoreSyncState ApplyDelta(GlobalNamespace::StandardScoreSyncState& delta);
+    // Offset: 0xF8C5C4
+    GlobalNamespace::StandardScoreSyncState ApplyDelta(ByRef<GlobalNamespace::StandardScoreSyncState> delta);
     // public System.Int32 GetState(StandardScoreSyncState/Score s)
-    // Offset: 0xF0B518
+    // Offset: 0xF8C5E8
     int GetState(GlobalNamespace::StandardScoreSyncState_Score s);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF0B568
+    // Offset: 0xF8C638
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF0B570
+    // Offset: 0xF8C640
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(in StandardScoreSyncState other)
-    // Offset: 0xF0B578
-    bool Equals(GlobalNamespace::StandardScoreSyncState& other);
+    // Offset: 0xF8C648
+    bool Equals(ByRef<GlobalNamespace::StandardScoreSyncState> other);
     // public System.Int32 GetSize()
-    // Offset: 0xF0B580
+    // Offset: 0xF8C650
     int GetSize();
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0xF0B588
-    GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta(GlobalNamespace::StandardScoreSyncState& stateTable);
+    // Offset: 0xF8C658
+    GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta(ByRef<GlobalNamespace::StandardScoreSyncState> stateTable);
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0xF0B5AC
-    GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta(GlobalNamespace::StandardScoreSyncState& delta);
+    // Offset: 0xF8C67C
+    GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta(ByRef<GlobalNamespace::StandardScoreSyncState> delta);
     // private System.Boolean IEquatableByReference<StandardScoreSyncState>.Equals(in StandardScoreSyncState other)
-    // Offset: 0xF0B5D0
-    bool IEquatableByReference$StandardScoreSyncState$_Equals(GlobalNamespace::StandardScoreSyncState& other);
+    // Offset: 0xF8C6A0
+    bool IEquatableByReference$StandardScoreSyncState$_Equals(ByRef<GlobalNamespace::StandardScoreSyncState> other);
   }; // StandardScoreSyncState
   #pragma pack(pop)
   static check_size<sizeof(StandardScoreSyncState), 16 + sizeof(int)> __GlobalNamespace_StandardScoreSyncStateSizeCheck;
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::GetDelta
 // Il2CppName: GetDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::GetDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(ByRef<GlobalNamespace::StandardScoreSyncState>)>(&GlobalNamespace::StandardScoreSyncState::GetDelta)> {
   static const MethodInfo* get() {
     static auto* stateTable = &::il2cpp_utils::GetClassFromName("", "StandardScoreSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateTable});
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::ApplyDelta
 // Il2CppName: ApplyDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::ApplyDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(ByRef<GlobalNamespace::StandardScoreSyncState>)>(&GlobalNamespace::StandardScoreSyncState::ApplyDelta)> {
   static const MethodInfo* get() {
     static auto* delta = &::il2cpp_utils::GetClassFromName("", "StandardScoreSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delta});
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandardScoreSyncState::*)(ByRef<GlobalNamespace::StandardScoreSyncState>)>(&GlobalNamespace::StandardScoreSyncState::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("", "StandardScoreSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -217,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta
 // Il2CppName: IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(ByRef<GlobalNamespace::StandardScoreSyncState>)>(&GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta)> {
   static const MethodInfo* get() {
     static auto* stateTable = &::il2cpp_utils::GetClassFromName("", "StandardScoreSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateTable});
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta
 // Il2CppName: IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (GlobalNamespace::StandardScoreSyncState::*)(ByRef<GlobalNamespace::StandardScoreSyncState>)>(&GlobalNamespace::StandardScoreSyncState::IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta)> {
   static const MethodInfo* get() {
     static auto* delta = &::il2cpp_utils::GetClassFromName("", "StandardScoreSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delta});
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::IEquatableByReference$StandardScoreSyncState$_Equals
 // Il2CppName: IEquatableByReference<StandardScoreSyncState>.Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandardScoreSyncState::*)(GlobalNamespace::StandardScoreSyncState&)>(&GlobalNamespace::StandardScoreSyncState::IEquatableByReference$StandardScoreSyncState$_Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandardScoreSyncState::*)(ByRef<GlobalNamespace::StandardScoreSyncState>)>(&GlobalNamespace::StandardScoreSyncState::IEquatableByReference$StandardScoreSyncState$_Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("", "StandardScoreSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardScoreSyncState), "IEquatableByReference<StandardScoreSyncState>.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

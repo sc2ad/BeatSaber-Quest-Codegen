@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TrackLaneRingsRotationEffect
 #include "GlobalNamespace/TrackLaneRingsRotationEffect.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 progressPos
     void _set_progressPos(int value);
     // public System.Void .ctor()
-    // Offset: 0x10701FC
+    // Offset: 0x1EDBCD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

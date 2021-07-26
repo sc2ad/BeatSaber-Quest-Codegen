@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,20 +39,20 @@ namespace System::Net {
     // Creating value type constructor for type: AuthenticationSchemeSelector
     AuthenticationSchemeSelector() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1692A08
+    // Offset: 0x13950C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticationSchemeSelector* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::AuthenticationSchemeSelector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticationSchemeSelector*, creationType>(object, method)));
     }
     // public System.Net.AuthenticationSchemes Invoke(System.Net.HttpListenerRequest httpRequest)
-    // Offset: 0x1692A18
+    // Offset: 0x13950D4
     System::Net::AuthenticationSchemes Invoke(System::Net::HttpListenerRequest* httpRequest);
     // public System.IAsyncResult BeginInvoke(System.Net.HttpListenerRequest httpRequest, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1692DB4
+    // Offset: 0x1395470
     System::IAsyncResult* BeginInvoke(System::Net::HttpListenerRequest* httpRequest, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.AuthenticationSchemes EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1692DD8
+    // Offset: 0x1395494
     System::Net::AuthenticationSchemes EndInvoke(System::IAsyncResult* result);
   }; // System.Net.AuthenticationSchemeSelector
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EditAvatarViewController
 #include "GlobalNamespace/EditAvatarViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,31 +73,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _currentDataId
     void _set__currentDataId(int value);
     // public System.Boolean get_undoAvailable()
-    // Offset: 0x10DED8C
+    // Offset: 0x1F2FDA0
     bool get_undoAvailable();
     // public System.Boolean get_redoAvailable()
-    // Offset: 0x10DED9C
+    // Offset: 0x1F2FDB0
     bool get_redoAvailable();
     // public Menu.ViewControllers.EditAvatarHistorySnapshot get_currentSnapShot()
-    // Offset: 0x10DEDFC
+    // Offset: 0x1F2FE10
     Menu::ViewControllers::EditAvatarHistorySnapshot* get_currentSnapShot();
     // public EditAvatarViewController/AvatarEditPart get_lastEditedPart()
-    // Offset: 0x10DEE6C
+    // Offset: 0x1F2FE80
     GlobalNamespace::EditAvatarViewController::AvatarEditPart get_lastEditedPart();
     // public System.Void Clear()
-    // Offset: 0x10DEE8C
+    // Offset: 0x1F2FEA0
     void Clear();
     // public System.Void Undo()
-    // Offset: 0x10DEEEC
+    // Offset: 0x1F2FF00
     void Undo();
     // public System.Void Redo()
-    // Offset: 0x10DEF08
+    // Offset: 0x1F2FF1C
     void Redo();
     // public System.Void UpdateEditHistory(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0x10DEF78
+    // Offset: 0x1F2FF8C
     void UpdateEditHistory(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
     // public System.Void .ctor()
-    // Offset: 0x10DF0E0
+    // Offset: 0x1F300F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

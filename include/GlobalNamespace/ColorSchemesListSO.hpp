@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private ColorSchemeSO[] _colorSchemes
     void _set__colorSchemes(::Array<GlobalNamespace::ColorSchemeSO*>* value);
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x23C8240
+    // Offset: 0x1E3F838
     ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x23C8248
+    // Offset: 0x1E3F840
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

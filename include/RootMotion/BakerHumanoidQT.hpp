@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AvatarIKGoal
 #include "UnityEngine/AvatarIKGoal.hpp"
 // Including type: UnityEngine.Quaternion
@@ -219,43 +220,43 @@ namespace RootMotion {
     // Set instance field: private System.Boolean lastQSet
     void _set_lastQSet(bool value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1CD35CC
+    // Offset: 0x187036C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(name)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
-    // Offset: 0x1CD3818
+    // Offset: 0x18705B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(UnityEngine::Transform* transform, UnityEngine::AvatarIKGoal goal, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(transform, goal, name)));
     }
     // public System.Void Reset()
-    // Offset: 0x1CD36EC
+    // Offset: 0x187048C
     void Reset();
     // public System.Void SetIKKeyframes(System.Single time, UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.Vector3 bodyPosition, UnityEngine.Quaternion bodyRotation)
-    // Offset: 0x1CD3950
+    // Offset: 0x18706F0
     void SetIKKeyframes(float time, UnityEngine::Avatar* avatar, float humanScale, UnityEngine::Vector3 bodyPosition, UnityEngine::Quaternion bodyRotation);
     // public System.Void SetKeyframes(System.Single time, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1CD3DF8
+    // Offset: 0x1870B98
     void SetKeyframes(float time, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void MoveLastKeyframes(System.Single time)
-    // Offset: 0x1CD3EF4
+    // Offset: 0x1870C94
     void MoveLastKeyframes(float time);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x1CD3FF0
+    // Offset: 0x1870D90
     void SetLoopFrame(float time);
     // private System.Void MoveLastKeyframe(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x1CD3F68
+    // Offset: 0x1870D08
     void MoveLastKeyframe(float time, UnityEngine::AnimationCurve* curve);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x1CD42B0
+    // Offset: 0x1871050
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x1CD4364
-    void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
+    // Offset: 0x1871104
+    void SetCurves(ByRef<UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT
   #pragma pack(pop)
   static check_size<sizeof(BakerHumanoidQT), 156 + sizeof(bool)> __RootMotion_BakerHumanoidQTSizeCheck;
@@ -344,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::SetCurves
 // Il2CppName: SetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(UnityEngine::AnimationClip*&, float, float)>(&RootMotion::BakerHumanoidQT::SetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(ByRef<UnityEngine::AnimationClip*>, float, float)>(&RootMotion::BakerHumanoidQT::SetCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

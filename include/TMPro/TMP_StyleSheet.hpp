@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,31 +65,31 @@ namespace TMPro {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style> m_StyleDictionary
     void _set_m_StyleDictionary(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* value);
     // static public TMPro.TMP_StyleSheet get_instance()
-    // Offset: 0x1116118
+    // Offset: 0x1015D98
     static TMPro::TMP_StyleSheet* get_instance();
     // static public TMPro.TMP_StyleSheet LoadDefaultStyleSheet()
-    // Offset: 0x11163F8
+    // Offset: 0x1016078
     static TMPro::TMP_StyleSheet* LoadDefaultStyleSheet();
     // static public TMPro.TMP_Style GetStyle(System.Int32 hashCode)
-    // Offset: 0x11163FC
+    // Offset: 0x101607C
     static TMPro::TMP_Style* GetStyle(int hashCode);
     // private TMPro.TMP_Style GetStyleInternal(System.Int32 hashCode)
-    // Offset: 0x1116428
+    // Offset: 0x10160A8
     TMPro::TMP_Style* GetStyleInternal(int hashCode);
     // public System.Void UpdateStyleDictionaryKey(System.Int32 old_key, System.Int32 new_key)
-    // Offset: 0x11164A8
+    // Offset: 0x1016128
     void UpdateStyleDictionaryKey(int old_key, int new_key);
     // static public System.Void UpdateStyleSheet()
-    // Offset: 0x1116584
+    // Offset: 0x1016204
     static void UpdateStyleSheet();
     // static public System.Void RefreshStyles()
-    // Offset: 0x11165D4
+    // Offset: 0x1016254
     static void RefreshStyles();
     // private System.Void LoadStyleDictionaryInternal()
-    // Offset: 0x1116280
+    // Offset: 0x1015F00
     void LoadStyleDictionaryInternal();
     // public System.Void .ctor()
-    // Offset: 0x11165F0
+    // Offset: 0x1016270
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

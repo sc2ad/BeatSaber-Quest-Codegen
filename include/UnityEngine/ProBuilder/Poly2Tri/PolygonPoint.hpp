@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: PolygonPoint
     PolygonPoint() noexcept {}
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x236F1E0
+    // Offset: 0x1DF6620
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
     // Base method: System.Void TriangulationPoint::.ctor(System.Double x, System.Double y, System.Int32 index)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

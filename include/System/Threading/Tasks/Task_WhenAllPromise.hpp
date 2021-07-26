@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.Tasks.Task
 #include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.Tasks.Task`1
@@ -51,17 +52,17 @@ namespace System::Threading::Tasks {
     // Set instance field: private System.Int32 m_count
     void _set_m_count(int value);
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x1885D40
+    // Offset: 0x1557144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::WhenAllPromise* New_ctor(::Array<System::Threading::Tasks::Task*>* tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)
-    // Offset: 0x1885ED0
+    // Offset: 0x15572D4
     void Invoke(System::Threading::Tasks::Task* completedTask);
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x18861D4
+    // Offset: 0x15575D8
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();

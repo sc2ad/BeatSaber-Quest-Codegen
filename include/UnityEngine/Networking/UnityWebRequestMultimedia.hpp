@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking
@@ -28,7 +29,7 @@ namespace UnityEngine::Networking {
     // Creating value type constructor for type: UnityWebRequestMultimedia
     UnityWebRequestMultimedia() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetAudioClip(System.String uri, UnityEngine.AudioType audioType)
-    // Offset: 0x23C93A4
+    // Offset: 0x1E4099C
     static UnityEngine::Networking::UnityWebRequest* GetAudioClip(::Il2CppString* uri, UnityEngine::AudioType audioType);
   }; // UnityEngine.Networking.UnityWebRequestMultimedia
   #pragma pack(pop)

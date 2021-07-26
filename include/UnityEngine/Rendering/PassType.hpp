@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -49,7 +50,7 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::PassType _get_VertexLM();
     // Set static field: static public UnityEngine.Rendering.PassType VertexLM
     static void _set_VertexLM(UnityEngine::Rendering::PassType value);
-    // [ObsoleteAttribute] Offset: 0xD81E94
+    // [ObsoleteAttribute] Offset: 0xE2EAB0
     // static field const value: static public UnityEngine.Rendering.PassType VertexLMRGBM
     static constexpr const int VertexLMRGBM = 3;
     // Get static field: static public UnityEngine.Rendering.PassType VertexLMRGBM

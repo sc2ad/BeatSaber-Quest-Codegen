@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector2
@@ -202,34 +203,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _dontTickThisFrame
     void _set__dontTickThisFrame(bool value);
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0x127CE84
+    // Offset: 0x2070E04
     void set_tickerColor(UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0x127CEA8
+    // Offset: 0x2070E28
     void set_movingTickerColor(UnityEngine::Color value);
     // public System.Single get_zeroOffset()
-    // Offset: 0x127CEDC
+    // Offset: 0x2070E5C
     float get_zeroOffset();
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0x127CECC
+    // Offset: 0x2070E4C
     void set_zeroOffset(float value);
     // protected System.Void Awake()
-    // Offset: 0x127CEE4
+    // Offset: 0x2070E64
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x127CFF4
+    // Offset: 0x2070F74
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x127D048
+    // Offset: 0x2070FC8
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x127D09C
+    // Offset: 0x207101C
     void Update();
     // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0x127D260
+    // Offset: 0x20711E0
     void SetMovingTickerNormalizedPosition(float t);
     // public System.Void .ctor()
-    // Offset: 0x127D344
+    // Offset: 0x20712C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

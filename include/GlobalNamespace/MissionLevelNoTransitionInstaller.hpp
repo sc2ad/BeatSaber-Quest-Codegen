@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.NoTransitionInstaller
 #include "Zenject/NoTransitionInstaller.hpp"
 // Including type: BeatmapDifficulty
@@ -95,7 +96,7 @@ namespace GlobalNamespace {
     ::Il2CppString* backButtonText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE13178
+    // [SpaceAttribute] Offset: 0xEBFD94
     // private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x58
@@ -143,7 +144,7 @@ namespace GlobalNamespace {
     // Set instance field: private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     void _set__scenesTransitionSetupData(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1133604
+    // Offset: 0x1F64018
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -157,7 +158,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1133050
+    // Offset: 0x1F63A64
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

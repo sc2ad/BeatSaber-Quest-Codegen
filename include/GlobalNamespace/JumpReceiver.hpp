@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Playables.INotificationReceiver
@@ -49,16 +50,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <jumpToDestinationValid>k__BackingField
     void _set_$jumpToDestinationValid$k__BackingField(bool value);
     // public System.Boolean get_jumpToDestinationValid()
-    // Offset: 0x121B0AC
+    // Offset: 0x2047A04
     bool get_jumpToDestinationValid();
     // public System.Void set_jumpToDestinationValid(System.Boolean value)
-    // Offset: 0x121B0B4
+    // Offset: 0x2047A0C
     void set_jumpToDestinationValid(bool value);
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x121B0C0
+    // Offset: 0x2047A18
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x121B1F4
+    // Offset: 0x2047B4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

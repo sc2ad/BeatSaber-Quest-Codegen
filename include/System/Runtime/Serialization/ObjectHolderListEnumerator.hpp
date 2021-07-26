@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -71,17 +72,17 @@ namespace System::Runtime::Serialization {
     // Set instance field: private System.Int32 m_currPos
     void _set_m_currPos(int value);
     // System.Runtime.Serialization.ObjectHolder get_Current()
-    // Offset: 0x167D290
+    // Offset: 0x137F94C
     System::Runtime::Serialization::ObjectHolder* get_Current();
     // System.Void .ctor(System.Runtime.Serialization.ObjectHolderList list, System.Boolean isFixupEnumerator)
-    // Offset: 0x167D178
+    // Offset: 0x137F834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderListEnumerator* New_ctor(System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderListEnumerator*, creationType>(list, isFixupEnumerator)));
     }
     // System.Boolean MoveNext()
-    // Offset: 0x167D1DC
+    // Offset: 0x137F898
     bool MoveNext();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
   #pragma pack(pop)

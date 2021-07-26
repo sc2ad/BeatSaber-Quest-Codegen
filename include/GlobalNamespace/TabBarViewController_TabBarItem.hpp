@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TabBarViewController
 #include "GlobalNamespace/TabBarViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Action action
     void _set_action(System::Action* value);
     // public System.Void .ctor(System.String title, System.Action action)
-    // Offset: 0x106AD10
+    // Offset: 0x1ED67E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TabBarViewController::TabBarItem* New_ctor(::Il2CppString* title, System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TabBarViewController::TabBarItem::.ctor");

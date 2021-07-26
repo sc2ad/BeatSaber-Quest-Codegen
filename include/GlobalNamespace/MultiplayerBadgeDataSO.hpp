@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,14 +44,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeDataSO : public UnityEngine::ScriptableObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xE06F68
+    // [LocalizationKeyAttribute] Offset: 0xEB3B84
     // private System.String _titleLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* titleLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE06FA0
+    // [LocalizationKeyAttribute] Offset: 0xEB3BBC
     // private System.String _subtitleLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -80,19 +81,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Sprite _icon
     void _set__icon(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x119D24C
+    // Offset: 0x1FB4CB8
     UnityEngine::Sprite* get_icon();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x119D254
+    // Offset: 0x1FB4CC0
     ::Il2CppString* get_titleLocalizationKey();
     // public System.String get_subtitleLocalizationKey()
-    // Offset: 0x119D25C
+    // Offset: 0x1FB4CC8
     ::Il2CppString* get_subtitleLocalizationKey();
     // public MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x119BA2C
+    // Offset: 0x1FB3498
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

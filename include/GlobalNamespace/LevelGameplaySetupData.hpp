@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ILevelGameplaySetupData
 #include "GlobalNamespace/ILevelGameplaySetupData.hpp"
 // Including type: BeatmapDifficulty
@@ -79,31 +80,31 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapDifficulty <beatmapDifficulty>k__BackingField
     void _set_$beatmapDifficulty$k__BackingField(GlobalNamespace::BeatmapDifficulty value);
     // public IPreviewBeatmapLevel get_beatmapLevel()
-    // Offset: 0x10F9850
+    // Offset: 0x1F4B864
     GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void set_beatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x10F9858
+    // Offset: 0x1F4B86C
     void set_beatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x10F9860
+    // Offset: 0x1F4B874
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x10F9868
+    // Offset: 0x1F4B87C
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x10F9870
+    // Offset: 0x1F4B884
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x10F9878
+    // Offset: 0x1F4B88C
     void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x10F9880
+    // Offset: 0x1F4B894
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x10F98EC
+    // Offset: 0x1F4B900
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor()
-    // Offset: 0x10F98F4
+    // Offset: 0x1F4B908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

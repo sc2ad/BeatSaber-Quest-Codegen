@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.TimerThread
 #include "System/Net/TimerThread.hpp"
 // Including type: System.Net.TimerThread/System.Net.Timer
@@ -144,19 +145,19 @@ namespace System::Net {
     // Set instance field: private System.Net.TimerThread/System.Net.TimerNode prev
     void _set_prev(System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Next()
-    // Offset: 0x158E378
+    // Offset: 0x1291948
     System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x158E380
+    // Offset: 0x1291950
     void set_Next(System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Prev()
-    // Offset: 0x158E388
+    // Offset: 0x1291958
     System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x158E390
+    // Offset: 0x1291960
     void set_Prev(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x158E33C
+    // Offset: 0x129190C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -165,7 +166,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerNode*, creationType>()));
     }
     // override System.Boolean Cancel()
-    // Offset: 0x158E398
+    // Offset: 0x1291968
     // Implemented from: System.Net.TimerThread/System.Net.Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();

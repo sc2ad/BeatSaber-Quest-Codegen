@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities
 #include "Org/BouncyCastle/Math/EC/Multiplier/FixedPointUtilities.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
@@ -58,20 +59,20 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
     void _set_m_p(Org::BouncyCastle::Math::EC::ECPoint* value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1D912B8
+    // Offset: 0x1902E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointUtilities::FixedPointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedPointUtilities::FixedPointCallback*, creationType>(p)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1D91340
+    // Offset: 0x1902F20
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo existingFP, System.Int32 n)
-    // Offset: 0x1D91778
+    // Offset: 0x1903358
     bool CheckExisting(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* existingFP, int n);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECLookupTable table, System.Int32 n)
-    // Offset: 0x1D917BC
+    // Offset: 0x190339C
     bool CheckTable(Org::BouncyCastle::Math::EC::ECLookupTable* table, int n);
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities/Org.BouncyCastle.Math.EC.Multiplier.FixedPointCallback
   #pragma pack(pop)

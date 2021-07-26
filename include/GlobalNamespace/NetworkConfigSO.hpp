@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: INetworkConfig
@@ -109,25 +110,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _masterServerStatusUrl
     void _set__masterServerStatusUrl(::Il2CppString* value);
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x10121B8
+    // Offset: 0x1E6576C
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x10121C0
+    // Offset: 0x1E65774
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x10121C8
+    // Offset: 0x1E6577C
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x10121D0
+    // Offset: 0x1E65784
     int get_multiplayerPort();
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0x10121D8
+    // Offset: 0x1E6578C
     GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0x1012250
+    // Offset: 0x1E65804
     ::Il2CppString* get_masterServerStatusUrl();
     // public System.Void .ctor()
-    // Offset: 0x1012258
+    // Offset: 0x1E6580C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

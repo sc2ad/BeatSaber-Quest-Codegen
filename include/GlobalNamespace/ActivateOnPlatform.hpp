@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: VRPlatformSDK
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::VRPlatformSDK) == 0x4);
     // Padding between fields: vrPlatformSdk and: vrPlatformHelper
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xDCF870
+    // [InjectAttribute] Offset: 0xE7C48C
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -56,10 +57,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
     void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
     // private System.Void Awake()
-    // Offset: 0x120DB9C
+    // Offset: 0x203A4F4
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x120DC84
+    // Offset: 0x203A5DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

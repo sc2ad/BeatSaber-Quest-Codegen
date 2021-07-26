@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -91,43 +92,43 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action incButtonWasPressedEvent
     void _set_incButtonWasPressedEvent(System::Action* value);
     // public System.String get_text()
-    // Offset: 0x1068F40
+    // Offset: 0x1ED4A14
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1068F5C
+    // Offset: 0x1ED4A30
     void set_text(::Il2CppString* value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x1068F78
+    // Offset: 0x1ED4A4C
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x1068F98
+    // Offset: 0x1ED4A6C
     void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1068CB0
+    // Offset: 0x1ED4784
     void add_decButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1068D54
+    // Offset: 0x1ED4828
     void remove_decButtonWasPressedEvent(System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1068DF8
+    // Offset: 0x1ED48CC
     void add_incButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1068E9C
+    // Offset: 0x1ED4970
     void remove_incButtonWasPressedEvent(System::Action* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1068FB8
+    // Offset: 0x1ED4A8C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1069090
+    // Offset: 0x1ED4B64
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x1069168
+    // Offset: 0x1ED4C3C
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x106917C
+    // Offset: 0x1ED4C50
     void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1069190
+    // Offset: 0x1ED4C64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

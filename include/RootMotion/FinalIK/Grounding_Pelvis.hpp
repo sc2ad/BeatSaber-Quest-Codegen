@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Grounding
 #include "RootMotion/FinalIK/Grounding.hpp"
 // Including type: UnityEngine.Vector3
@@ -96,31 +97,31 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Single lastTime
     void _set_lastTime(float value);
     // public UnityEngine.Vector3 get_IKOffset()
-    // Offset: 0x1C939F0
+    // Offset: 0x1831790
     UnityEngine::Vector3 get_IKOffset();
     // private System.Void set_IKOffset(UnityEngine.Vector3 value)
-    // Offset: 0x1C939FC
+    // Offset: 0x183179C
     void set_IKOffset(UnityEngine::Vector3 value);
     // public System.Single get_heightOffset()
-    // Offset: 0x1C93A08
+    // Offset: 0x18317A8
     float get_heightOffset();
     // private System.Void set_heightOffset(System.Single value)
-    // Offset: 0x1C93A10
+    // Offset: 0x18317B0
     void set_heightOffset(float value);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding)
-    // Offset: 0x1C91554
+    // Offset: 0x182F2F4
     void Initiate(RootMotion::FinalIK::Grounding* grounding);
     // public System.Void Reset()
-    // Offset: 0x1C920BC
+    // Offset: 0x182FE5C
     void Reset();
     // public System.Void OnEnable()
-    // Offset: 0x1C93A18
+    // Offset: 0x18317B8
     void OnEnable();
     // public System.Void Process(System.Single lowestOffset, System.Single highestOffset, System.Boolean isGrounded)
-    // Offset: 0x1C91E50
+    // Offset: 0x182FBF0
     void Process(float lowestOffset, float highestOffset, bool isGrounded);
     // public System.Void .ctor()
-    // Offset: 0x1C91468
+    // Offset: 0x182F208
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

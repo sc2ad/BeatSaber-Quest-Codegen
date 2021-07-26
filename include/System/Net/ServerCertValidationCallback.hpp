@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -66,17 +67,17 @@ namespace System::Net {
     // Set instance field: private readonly System.Threading.ExecutionContext m_Context
     void _set_m_Context(System::Threading::ExecutionContext* value);
     // System.Void .ctor(System.Net.Security.RemoteCertificateValidationCallback validationCallback)
-    // Offset: 0x14699D0
+    // Offset: 0x11DAA30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback* New_ctor(System::Net::Security::RemoteCertificateValidationCallback* validationCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServerCertValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallback*, creationType>(validationCallback)));
     }
     // System.Void Callback(System.Object state)
-    // Offset: 0x1469A58
+    // Offset: 0x11DAAB8
     void Callback(::Il2CppObject* state);
     // System.Boolean Invoke(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1469B08
+    // Offset: 0x11DAB68
     bool Invoke(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback
   #pragma pack(pop)

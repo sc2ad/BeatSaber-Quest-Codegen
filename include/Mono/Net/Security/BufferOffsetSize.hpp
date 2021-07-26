@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -70,20 +71,20 @@ namespace Mono::Net::Security {
     // Set instance field: public System.Boolean Complete
     void _set_Complete(bool value);
     // public System.Int32 get_EndOffset()
-    // Offset: 0x15AB2F4
+    // Offset: 0x12AE8C4
     int get_EndOffset();
     // public System.Int32 get_Remaining()
-    // Offset: 0x15AB300
+    // Offset: 0x12AE8D0
     int get_Remaining();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15AAE80
+    // Offset: 0x12AE450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize* New_ctor(::Array<uint8_t>* buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize*, creationType>(buffer, offset, size)));
     }
     // public override System.String ToString()
-    // Offset: 0x15AB328
+    // Offset: 0x12AE8F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

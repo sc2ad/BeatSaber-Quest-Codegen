@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,22 +77,22 @@ namespace GlobalNamespace {
     // Set instance field: private Saber _saber
     void _set__saber(GlobalNamespace::Saber* value);
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x109DAF0
+    // Offset: 0x1EF5F98
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x109DB94
+    // Offset: 0x1EF603C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0x109DC38
+    // Offset: 0x1EF60E0
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::Saber* saber, float volume);
     // protected System.Void LateUpdate()
-    // Offset: 0x109DCB8
+    // Offset: 0x1EF6160
     void LateUpdate();
     // private System.Void StopPlayingAndFinish()
-    // Offset: 0x109DD4C
+    // Offset: 0x1EF61F4
     void StopPlayingAndFinish();
     // public System.Void .ctor()
-    // Offset: 0x109DDD4
+    // Offset: 0x1EF627C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

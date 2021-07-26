@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SaberManager
 #include "GlobalNamespace/SaberManager.hpp"
 // Including type: SaberType
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly SaberType oneSaberType
     void _set_oneSaberType(GlobalNamespace::SaberType value);
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
-    // Offset: 0x114B964
+    // Offset: 0x1F7C378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberManager::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberManager::InitData::.ctor");

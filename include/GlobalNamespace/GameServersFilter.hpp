@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDifficultyMask
 #include "GlobalNamespace/BeatmapDifficultyMask.hpp"
 // Including type: GameplayModifierMask
@@ -120,7 +121,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean showInternetGames
     void _set_showInternetGames(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10ADDB0
+    // Offset: 0x1F1AD20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

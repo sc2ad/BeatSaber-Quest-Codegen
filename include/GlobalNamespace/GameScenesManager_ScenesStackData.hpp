@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameScenesManager
 #include "GlobalNamespace/GameScenesManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,26 +56,26 @@ namespace GlobalNamespace {
     // Set instance field: private Zenject.DiContainer <container>k__BackingField
     void _set_$container$k__BackingField(Zenject::DiContainer* value);
     // public System.Collections.Generic.List`1<System.String> get_sceneNames()
-    // Offset: 0x1219258
+    // Offset: 0x2045BB0
     System::Collections::Generic::List_1<::Il2CppString*>* get_sceneNames();
     // private System.Void set_sceneNames(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x1219260
+    // Offset: 0x2045BB8
     void set_sceneNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public Zenject.DiContainer get_container()
-    // Offset: 0x1219268
+    // Offset: 0x2045BC0
     Zenject::DiContainer* get_container();
     // private System.Void set_container(Zenject.DiContainer value)
-    // Offset: 0x1219270
+    // Offset: 0x2045BC8
     void set_container(Zenject::DiContainer* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneNames)
-    // Offset: 0x12169D8
+    // Offset: 0x2043330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::ScenesStackData* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameScenesManager::ScenesStackData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::ScenesStackData*, creationType>(sceneNames)));
     }
     // public System.Void SetDiContainer(Zenject.DiContainer container)
-    // Offset: 0x1217E38
+    // Offset: 0x2044790
     void SetDiContainer(Zenject::DiContainer* container);
   }; // GameScenesManager/ScenesStackData
   #pragma pack(pop)

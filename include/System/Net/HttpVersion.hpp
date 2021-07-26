@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,7 +32,7 @@ namespace System::Net {
     // Set static field: static public readonly System.Version Version11
     static void _set_Version11(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1639264
+    // Offset: 0x133B920
     static void _cctor();
   }; // System.Net.HttpVersion
   #pragma pack(pop)

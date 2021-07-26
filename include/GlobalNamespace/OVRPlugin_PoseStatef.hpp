@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -93,7 +94,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Double Time
     void _set_Time(double value);
     // static private System.Void .cctor()
-    // Offset: 0x15F6CB4
+    // Offset: 0x12FA284
     static void _cctor();
   }; // OVRPlugin/PoseStatef
   #pragma pack(pop)

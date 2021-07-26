@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -69,16 +70,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _delay
     void _set__delay(float value);
     // protected System.Void Awake()
-    // Offset: 0x10DB688
+    // Offset: 0x1F2C69C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x10DB6A8
+    // Offset: 0x1F2C6BC
     void Update();
     // public System.Void PlayAudioClipWithDelay(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x10DB7D4
+    // Offset: 0x1F2C7E8
     void PlayAudioClipWithDelay(UnityEngine::AudioClip* audioClip, float delay);
     // public System.Void .ctor()
-    // Offset: 0x10DB890
+    // Offset: 0x1F2C8A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

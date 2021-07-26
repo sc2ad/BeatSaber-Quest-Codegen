@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.AddToGameObjectComponentProviderBase
 #include "Zenject/AddToGameObjectComponentProviderBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,19 +69,19 @@ namespace Zenject {
     // Set instance field: private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
     void _set__gameObjectGetter(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* value);
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter, Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x1378370
+    // Offset: 0x111EFD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToExistingGameObjectComponentProviderGetter* New_ctor(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter, Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AddToExistingGameObjectComponentProviderGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToExistingGameObjectComponentProviderGetter*, creationType>(gameObjectGetter, container, componentType, extraArguments, concreteIdentifier, instantiateCallback)));
     }
     // protected override System.Boolean get_ShouldToggleActive()
-    // Offset: 0x13783AC
+    // Offset: 0x111F00C
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: System.Boolean AddToGameObjectComponentProviderBase::get_ShouldToggleActive()
     bool get_ShouldToggleActive();
     // protected override UnityEngine.GameObject GetGameObject(Zenject.InjectContext context)
-    // Offset: 0x13783B4
+    // Offset: 0x111F014
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: UnityEngine.GameObject AddToGameObjectComponentProviderBase::GetGameObject(Zenject.InjectContext context)
     UnityEngine::GameObject* GetGameObject(Zenject::InjectContext* context);

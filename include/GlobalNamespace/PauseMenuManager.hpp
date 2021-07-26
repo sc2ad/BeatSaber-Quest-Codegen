@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,7 +66,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PauseAnimationController* pauseAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseAnimationController*) == 0x8);
-    // [NullAllowed] Offset: 0xE06A20
+    // [NullAllowed] Offset: 0xEB363C
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x20
@@ -102,21 +103,21 @@ namespace GlobalNamespace {
     UnityEngine::Transform* pauseContainerTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06AA8
+    // [InjectAttribute] Offset: 0xEB36C4
     // private readonly PauseMenuManager/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::PauseMenuManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseMenuManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06AB8
+    // [InjectAttribute] Offset: 0xEB36D4
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06AC8
+    // [InjectAttribute] Offset: 0xEB36E4
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x60
@@ -234,61 +235,61 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _disabledInteractionRemainingTime
     void _set__disabledInteractionRemainingTime(float value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x1001484
+    // Offset: 0x1E54A38
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x1001A74
+    // Offset: 0x1E55028
     void remove_didPressContinueButtonEvent(System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x10015CC
+    // Offset: 0x1E54B80
     void add_didPressMenuButtonEvent(System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x1001BBC
+    // Offset: 0x1E55170
     void remove_didPressMenuButtonEvent(System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x1001528
+    // Offset: 0x1E54ADC
     void add_didPressRestartButtonEvent(System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x1001B18
+    // Offset: 0x1E550CC
     void remove_didPressRestartButtonEvent(System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x10013E0
+    // Offset: 0x1E54994
     void add_didFinishResumeAnimationEvent(System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x10019D0
+    // Offset: 0x1E54F84
     void remove_didFinishResumeAnimationEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x10021DC
+    // Offset: 0x1E55790
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1002364
+    // Offset: 0x1E55918
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10024A4
+    // Offset: 0x1E55A58
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1002584
+    // Offset: 0x1E55B38
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0x1001D94
+    // Offset: 0x1E55348
     void ShowMenu();
     // public System.Void StartResumeAnimation()
-    // Offset: 0x1002018
+    // Offset: 0x1E555CC
     void StartResumeAnimation();
     // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0x1002710
+    // Offset: 0x1E55CC4
     void HandleResumeFromPauseAnimationDidFinish();
     // private System.Void MenuButtonPressed()
-    // Offset: 0x10026D0
+    // Offset: 0x1E55C84
     void MenuButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0x100267C
+    // Offset: 0x1E55C30
     void RestartButtonPressed();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x100263C
+    // Offset: 0x1E55BF0
     void ContinueButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1002724
+    // Offset: 0x1E55CD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

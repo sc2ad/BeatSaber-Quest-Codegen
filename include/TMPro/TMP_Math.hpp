@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Including type: System.Int32
@@ -66,10 +67,10 @@ namespace TMPro {
     // Set static field: static public UnityEngine.Vector2 MIN_16BIT
     static void _set_MIN_16BIT(UnityEngine::Vector2 value);
     // static private System.Void .cctor()
-    // Offset: 0x1110228
+    // Offset: 0x100FEA8
     static void _cctor();
     // static public System.Boolean Approximately(System.Single a, System.Single b)
-    // Offset: 0x11101F8
+    // Offset: 0x100FE78
     static bool Approximately(float a, float b);
   }; // TMPro.TMP_Math
   #pragma pack(pop)

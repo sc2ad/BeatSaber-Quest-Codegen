@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TutorialSongController
 #include "GlobalNamespace/TutorialSongController.hpp"
 // Including type: TutorialSongController/TutorialObjectSpawnData
@@ -47,7 +48,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly NoteLineLayer noteLineLayer
     void _set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1076A5C
+    // Offset: 0x1EE2530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialJumpingNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData::.ctor");

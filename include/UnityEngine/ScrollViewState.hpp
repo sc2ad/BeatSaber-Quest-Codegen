@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,7 +73,7 @@ namespace UnityEngine {
     // Set instance field: public System.Boolean apply
     void _set_apply(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1AAE888
+    // Offset: 0x17260D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

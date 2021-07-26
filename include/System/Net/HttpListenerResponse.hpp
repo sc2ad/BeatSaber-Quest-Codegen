@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -254,68 +255,68 @@ namespace System::Net {
     // Set instance field: private System.Boolean force_close_chunked
     void _set_force_close_chunked(bool value);
     // System.Boolean get_ForceCloseChunked()
-    // Offset: 0x1637C60
+    // Offset: 0x133A31C
     bool get_ForceCloseChunked();
     // public System.Text.Encoding get_ContentEncoding()
-    // Offset: 0x1631AA4
+    // Offset: 0x1334160
     System::Text::Encoding* get_ContentEncoding();
     // public System.Void set_ContentLength64(System.Int64 value)
-    // Offset: 0x1637C68
+    // Offset: 0x133A324
     void set_ContentLength64(int64_t value);
     // public System.Void set_ContentType(System.String value)
-    // Offset: 0x1631684
+    // Offset: 0x1333D40
     void set_ContentType(::Il2CppString* value);
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x1637DA8
+    // Offset: 0x133A464
     System::Net::WebHeaderCollection* get_Headers();
     // public System.IO.Stream get_OutputStream()
-    // Offset: 0x1637DB0
+    // Offset: 0x133A46C
     System::IO::Stream* get_OutputStream();
     // public System.Boolean get_SendChunked()
-    // Offset: 0x1637DF0
+    // Offset: 0x133A4AC
     bool get_SendChunked();
     // public System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x162F1B8
+    // Offset: 0x1331874
     void set_SendChunked(bool value);
     // public System.Void set_StatusCode(System.Int32 value)
-    // Offset: 0x1631544
+    // Offset: 0x1333C00
     void set_StatusCode(int value);
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x1634AD0
+    // Offset: 0x133718C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerResponse* New_ctor(System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerResponse*, creationType>(context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1638D50
+    // Offset: 0x133B40C
     static void _cctor();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1637DF8
+    // Offset: 0x133A4B4
     void System_IDisposable_Dispose();
     // private System.Void Close(System.Boolean force)
-    // Offset: 0x1637E00
+    // Offset: 0x133A4BC
     void Close(bool force);
     // public System.Void Close()
-    // Offset: 0x1637E30
+    // Offset: 0x133A4EC
     void Close();
     // public System.Void Close(System.Byte[] responseEntity, System.Boolean willBlock)
-    // Offset: 0x1631AD0
+    // Offset: 0x133418C
     void Close(::Array<uint8_t>* responseEntity, bool willBlock);
     // System.Void SendHeaders(System.Boolean closing, System.IO.MemoryStream ms)
-    // Offset: 0x1637E44
+    // Offset: 0x133A500
     void SendHeaders(bool closing, System::IO::MemoryStream* ms);
     // static private System.String FormatHeaders(System.Net.WebHeaderCollection headers)
-    // Offset: 0x1638944
+    // Offset: 0x133B000
     static ::Il2CppString* FormatHeaders(System::Net::WebHeaderCollection* headers);
     // static private System.String CookieToClientString(System.Net.Cookie cookie)
-    // Offset: 0x16386E4
+    // Offset: 0x133ADA0
     static ::Il2CppString* CookieToClientString(System::Net::Cookie* cookie);
     // static private System.String QuotedString(System.Net.Cookie cookie, System.String value)
-    // Offset: 0x1638B94
+    // Offset: 0x133B250
     static ::Il2CppString* QuotedString(System::Net::Cookie* cookie, ::Il2CppString* value);
     // static private System.Boolean IsToken(System.String value)
-    // Offset: 0x1638C68
+    // Offset: 0x133B324
     static bool IsToken(::Il2CppString* value);
   }; // System.Net.HttpListenerResponse
   #pragma pack(pop)

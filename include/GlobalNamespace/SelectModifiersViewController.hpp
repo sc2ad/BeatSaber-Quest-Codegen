@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,13 +42,13 @@ namespace GlobalNamespace {
     // Set instance field: private GameplayModifiersPanelController _gameplayModifiersPanelController
     void _set__gameplayModifiersPanelController(GlobalNamespace::GameplayModifiersPanelController* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1155600
+    // Offset: 0x1F86014
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x115561C
+    // Offset: 0x1F86030
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x11556E8
+    // Offset: 0x1F860FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -61,7 +62,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectModifiersViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1155638
+    // Offset: 0x1F8604C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

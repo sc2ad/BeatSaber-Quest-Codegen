@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayersSpecificSettingsAtGameStartModel
 #include "GlobalNamespace/PlayersSpecificSettingsAtGameStartModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace GlobalNamespace {
     // Set instance field: public IConnectedPlayer player
     void _set_player(GlobalNamespace::IConnectedPlayer* value);
     // System.Boolean <SaveFromNetSerializable>b__0(IConnectedPlayer p)
-    // Offset: 0x230C658
+    // Offset: 0x23CD80C
     bool $SaveFromNetSerializable$b__0(GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x230C650
+    // Offset: 0x23CD804
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE05984
+    // [InjectAttribute] Offset: 0xEB25A0
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
@@ -108,25 +109,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _prevRotation
     void _set__prevRotation(float value);
     // protected System.Void Awake()
-    // Offset: 0x1146534
+    // Offset: 0x1F76F48
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1146554
+    // Offset: 0x1F76F68
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11466D0
+    // Offset: 0x1F770E4
     void OnDestroy();
     // private System.Void BeatmapEventAtNoteSpawnCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0x114678C
+    // Offset: 0x1F771A0
     void BeatmapEventAtNoteSpawnCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x114689C
+    // Offset: 0x1F772B0
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1146978
+    // Offset: 0x1F7738C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1146AA8
+    // Offset: 0x1F774BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

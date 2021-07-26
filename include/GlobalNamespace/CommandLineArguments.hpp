@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,7 +17,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CommandLineArguments
     CommandLineArguments() noexcept {}
     // static public System.Boolean Contains(System.String argument)
-    // Offset: 0x120F2D8
+    // Offset: 0x203BC30
     static bool Contains(::Il2CppString* argument);
   }; // CommandLineArguments
   #pragma pack(pop)

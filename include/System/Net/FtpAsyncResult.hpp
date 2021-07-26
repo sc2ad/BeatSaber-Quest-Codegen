@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -144,53 +145,53 @@ namespace System::Net {
     // Set instance field: private System.Object locker
     void _set_locker(::Il2CppObject* value);
     // public System.Object get_AsyncState()
-    // Offset: 0x16A5FD4
+    // Offset: 0x13A8690
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x16A5FDC
+    // Offset: 0x13A8698
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x16A60C4
+    // Offset: 0x13A8780
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x16A60CC
+    // Offset: 0x13A8788
     bool get_IsCompleted();
     // System.Boolean get_GotException()
-    // Offset: 0x16A6160
+    // Offset: 0x13A881C
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x16A6170
+    // Offset: 0x13A882C
     System::Exception* get_Exception();
     // System.Net.FtpWebResponse get_Response()
-    // Offset: 0x16A6178
+    // Offset: 0x13A8834
     System::Net::FtpWebResponse* get_Response();
     // System.IO.Stream get_Stream()
-    // Offset: 0x16A6180
+    // Offset: 0x13A883C
     System::IO::Stream* get_Stream();
     // System.Void set_Stream(System.IO.Stream value)
-    // Offset: 0x16A6188
+    // Offset: 0x13A8844
     void set_Stream(System::IO::Stream* value);
     // public System.Void .ctor(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x16A5F50
+    // Offset: 0x13A860C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpAsyncResult* New_ctor(System::AsyncCallback* callback, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpAsyncResult*, creationType>(callback, state)));
     }
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x16A6190
+    // Offset: 0x13A884C
     bool WaitUntilComplete(int timeout, bool exitContext);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc, System.Net.FtpWebResponse response)
-    // Offset: 0x16A61F8
+    // Offset: 0x13A88B4
     void SetCompleted(bool synch, System::Exception* exc, System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Net.FtpWebResponse response)
-    // Offset: 0x16A637C
+    // Offset: 0x13A8A38
     void SetCompleted(bool synch, System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc)
-    // Offset: 0x16A638C
+    // Offset: 0x13A8A48
     void SetCompleted(bool synch, System::Exception* exc);
     // System.Void DoCallback()
-    // Offset: 0x16A62B4
+    // Offset: 0x13A8970
     void DoCallback();
   }; // System.Net.FtpAsyncResult
   #pragma pack(pop)

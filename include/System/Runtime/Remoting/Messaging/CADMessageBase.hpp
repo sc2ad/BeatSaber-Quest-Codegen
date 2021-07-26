@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -100,44 +101,44 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: System.Byte[] serializedMethod
     void _set_serializedMethod(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x19F3948
+    // Offset: 0x16AAA3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMessageBase* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMessageBase*, creationType>(msg)));
     }
     // System.Reflection.MethodBase GetMethod()
-    // Offset: 0x19F3CC8
+    // Offset: 0x16AADBC
     System::Reflection::MethodBase* GetMethod();
     // static protected System.Type[] GetSignature(System.Reflection.MethodBase methodBase, System.Boolean load)
-    // Offset: 0x19F416C
+    // Offset: 0x16AB260
     static ::Array<System::Type*>* GetSignature(System::Reflection::MethodBase* methodBase, bool load);
     // static System.Int32 MarshalProperties(System.Collections.IDictionary dict, ref System.Collections.ArrayList args)
-    // Offset: 0x19F431C
-    static int MarshalProperties(System::Collections::IDictionary* dict, System::Collections::ArrayList*& args);
+    // Offset: 0x16AB410
+    static int MarshalProperties(System::Collections::IDictionary* dict, ByRef<System::Collections::ArrayList*> args);
     // static System.Void UnmarshalProperties(System.Collections.IDictionary dict, System.Int32 count, System.Collections.ArrayList args)
-    // Offset: 0x19F4B58
+    // Offset: 0x16ABC4C
     static void UnmarshalProperties(System::Collections::IDictionary* dict, int count, System::Collections::ArrayList* args);
     // static private System.Boolean IsPossibleToIgnoreMarshal(System.Object obj)
-    // Offset: 0x19F4C98
+    // Offset: 0x16ABD8C
     static bool IsPossibleToIgnoreMarshal(::Il2CppObject* obj);
     // protected System.Object MarshalArgument(System.Object arg, ref System.Collections.ArrayList args)
-    // Offset: 0x19F4E24
-    ::Il2CppObject* MarshalArgument(::Il2CppObject* arg, System::Collections::ArrayList*& args);
+    // Offset: 0x16ABF18
+    ::Il2CppObject* MarshalArgument(::Il2CppObject* arg, ByRef<System::Collections::ArrayList*> args);
     // protected System.Object UnmarshalArgument(System.Object arg, System.Collections.ArrayList args)
-    // Offset: 0x19F5084
+    // Offset: 0x16AC178
     ::Il2CppObject* UnmarshalArgument(::Il2CppObject* arg, System::Collections::ArrayList* args);
     // System.Object[] MarshalArguments(System.Object[] arguments, ref System.Collections.ArrayList args)
-    // Offset: 0x19F574C
-    ::Array<::Il2CppObject*>* MarshalArguments(::Array<::Il2CppObject*>* arguments, System::Collections::ArrayList*& args);
+    // Offset: 0x16AC840
+    ::Array<::Il2CppObject*>* MarshalArguments(::Array<::Il2CppObject*>* arguments, ByRef<System::Collections::ArrayList*> args);
     // System.Object[] UnmarshalArguments(System.Object[] arguments, System.Collections.ArrayList args)
-    // Offset: 0x19F585C
+    // Offset: 0x16AC950
     ::Array<::Il2CppObject*>* UnmarshalArguments(::Array<::Il2CppObject*>* arguments, System::Collections::ArrayList* args);
     // protected System.Void SaveLogicalCallContext(System.Runtime.Remoting.Messaging.IMethodMessage msg, ref System.Collections.ArrayList serializeList)
-    // Offset: 0x19F596C
-    void SaveLogicalCallContext(System::Runtime::Remoting::Messaging::IMethodMessage* msg, System::Collections::ArrayList*& serializeList);
+    // Offset: 0x16ACA60
+    void SaveLogicalCallContext(System::Runtime::Remoting::Messaging::IMethodMessage* msg, ByRef<System::Collections::ArrayList*> serializeList);
     // System.Runtime.Remoting.Messaging.LogicalCallContext GetLogicalCallContext(System.Collections.ArrayList args)
-    // Offset: 0x19F5C10
+    // Offset: 0x16ACD04
     System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMessageBase
   #pragma pack(pop)
@@ -171,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::MarshalProperties
 // Il2CppName: MarshalProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::IDictionary*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::IDictionary*, ByRef<System::Collections::ArrayList*>)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalProperties)> {
   static const MethodInfo* get() {
     static auto* dict = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
@@ -201,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArgument
 // Il2CppName: MarshalArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Il2CppObject*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Il2CppObject*, ByRef<System::Collections::ArrayList*>)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArgument)> {
   static const MethodInfo* get() {
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArguments
 // Il2CppName: MarshalArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Array<::Il2CppObject*>*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Array<::Il2CppObject*>*, ByRef<System::Collections::ArrayList*>)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArguments)> {
   static const MethodInfo* get() {
     static auto* arguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
@@ -241,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::SaveLogicalCallContext
 // Il2CppName: SaveLogicalCallContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CADMessageBase::*)(System::Runtime::Remoting::Messaging::IMethodMessage*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::SaveLogicalCallContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CADMessageBase::*)(System::Runtime::Remoting::Messaging::IMethodMessage*, ByRef<System::Collections::ArrayList*>)>(&System::Runtime::Remoting::Messaging::CADMessageBase::SaveLogicalCallContext)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodMessage")->byval_arg;
     static auto* serializeList = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;

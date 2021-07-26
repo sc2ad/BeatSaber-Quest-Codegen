@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Polyglot.GoogleDriveDownloadFormat
 #include "Polyglot/GoogleDriveDownloadFormat.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,19 +50,19 @@ namespace Polyglot {
     // Set instance field: private Polyglot.GoogleDriveDownloadFormat format
     void _set_format(Polyglot::GoogleDriveDownloadFormat value);
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x232F764
+    // Offset: 0x1DB4BA4
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x232F76C
+    // Offset: 0x1DB4BAC
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x232F774
+    // Offset: 0x1DB4BB4
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x232F77C
+    // Offset: 0x1DB4BBC
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Void .ctor()
-    // Offset: 0x232F784
+    // Offset: 0x1DB4BC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

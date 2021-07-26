@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelPackDetailViewController
 #include "GlobalNamespace/LevelPackDetailViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,13 +51,13 @@ namespace GlobalNamespace {
     // Set instance field: public LevelPackDetailViewController <>4__this
     void _set_$$4__this(GlobalNamespace::LevelPackDetailViewController* value);
     // System.Void <DidActivate>b__1()
-    // Offset: 0x11B1FE8
+    // Offset: 0x1FE0A2C
     void $DidActivate$b__1();
     // System.Void <DidActivate>b__2()
-    // Offset: 0x11B20B8
+    // Offset: 0x1FE0AFC
     void $DidActivate$b__2();
     // public System.Void .ctor()
-    // Offset: 0x11B17E4
+    // Offset: 0x1FE0228
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

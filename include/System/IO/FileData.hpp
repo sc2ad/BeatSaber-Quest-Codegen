@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.FileAttributes
 #include "System/IO/FileAttributes.hpp"
 // Including type: System.DateTime
@@ -76,7 +77,7 @@ namespace System::IO {
     // Set instance field: public System.DateTime LastWriteTime
     void _set_LastWriteTime(System::DateTime value);
     // public System.Void .ctor()
-    // Offset: 0x1855304
+    // Offset: 0x1526708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

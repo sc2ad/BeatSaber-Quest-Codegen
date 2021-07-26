@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebUtility
 #include "System/Net/WebUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -91,23 +92,23 @@ namespace System::Net {
     // Set instance field: private System.Text.Encoding _encoding
     void _set__encoding(System::Text::Encoding* value);
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
-    // Offset: 0x15A0AC4
+    // Offset: 0x12A4094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // private System.Void FlushBytes()
-    // Offset: 0x15A0E7C
+    // Offset: 0x12A444C
     void FlushBytes();
     // System.Void AddChar(System.Char ch)
-    // Offset: 0x15A0C40
+    // Offset: 0x12A4210
     void AddChar(::Il2CppChar ch);
     // System.Void AddByte(System.Byte b)
-    // Offset: 0x15A0B90
+    // Offset: 0x12A4160
     void AddByte(uint8_t b);
     // System.String GetString()
-    // Offset: 0x15A0CAC
+    // Offset: 0x12A427C
     ::Il2CppString* GetString();
   }; // System.Net.WebUtility/System.Net.UrlDecoder
   #pragma pack(pop)

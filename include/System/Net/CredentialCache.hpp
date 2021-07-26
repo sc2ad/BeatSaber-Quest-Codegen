@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -23,7 +24,7 @@ namespace System::Net {
     // Creating value type constructor for type: CredentialCache
     CredentialCache() noexcept {}
     // static public System.Net.ICredentials get_DefaultCredentials()
-    // Offset: 0x169CCD4
+    // Offset: 0x139F390
     static System::Net::ICredentials* get_DefaultCredentials();
   }; // System.Net.CredentialCache
   #pragma pack(pop)

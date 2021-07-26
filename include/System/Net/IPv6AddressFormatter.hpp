@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,23 +53,23 @@ namespace System::Net {
     // Set instance field: private System.Int64 scopeId
     void _set_scopeId(int64_t value);
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
-    // Offset: 0xEE1FFC
+    // Offset: 0xD75FB4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IPv6AddressFormatter(::Array<uint16_t>* addr, int64_t scopeId)
     // static private System.UInt16 SwapUShort(System.UInt16 number)
-    // Offset: 0x1641258
+    // Offset: 0x1343914
     static uint16_t SwapUShort(uint16_t number);
     // private System.UInt32 AsIPv4Int()
-    // Offset: 0xEE2004
+    // Offset: 0xD75FBC
     uint AsIPv4Int();
     // private System.Boolean IsIPv4Compatible()
-    // Offset: 0xEE200C
+    // Offset: 0xD75FC4
     bool IsIPv4Compatible();
     // private System.Boolean IsIPv4Mapped()
-    // Offset: 0xEE2014
+    // Offset: 0xD75FCC
     bool IsIPv4Mapped();
     // public override System.String ToString()
-    // Offset: 0xEE201C
+    // Offset: 0xD75FD4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

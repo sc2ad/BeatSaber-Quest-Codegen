@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioTypeHelper
     AudioTypeHelper() noexcept {}
     // static public UnityEngine.AudioType GetAudioTypeFromPath(System.String path)
-    // Offset: 0x239BCCC
+    // Offset: 0x1E13CB4
     static UnityEngine::AudioType GetAudioTypeFromPath(::Il2CppString* path);
   }; // AudioTypeHelper
   #pragma pack(pop)

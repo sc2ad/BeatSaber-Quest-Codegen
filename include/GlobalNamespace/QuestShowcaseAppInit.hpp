@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AppInit
 #include "GlobalNamespace/AppInit.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,21 +55,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEEEC
+    // [SpaceAttribute] Offset: 0xEABB08
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFEF24
+    // [InjectAttribute] Offset: 0xEABB40
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFEF34
+    // [InjectAttribute] Offset: 0xEABB50
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x68
@@ -102,7 +103,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly PlayerDataModel _playerDataModel
     void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
     // public System.Void .ctor()
-    // Offset: 0x11412D8
+    // Offset: 0x1F71CEC
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -118,22 +119,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<QuestShowcaseAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1141038
+    // Offset: 0x1F71A4C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x1141054
+    // Offset: 0x1F71A68
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x11411E8
+    // Offset: 0x1F71BFC
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1141234
+    // Offset: 0x1F71C48
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.UriParser
 #include "System/UriParser.hpp"
 // Including type: System.UriSyntaxFlags
@@ -24,7 +25,7 @@ namespace System {
     // Creating value type constructor for type: BuiltInUriParser
     BuiltInUriParser() noexcept {}
     // System.Void .ctor(System.String lwrCaseScheme, System.Int32 defaultPort, System.UriSyntaxFlags syntaxFlags)
-    // Offset: 0x23994B0
+    // Offset: 0x1E11498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriParser::BuiltInUriParser* New_ctor(::Il2CppString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriParser::BuiltInUriParser::.ctor");

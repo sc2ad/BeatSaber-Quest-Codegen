@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,16 +68,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
     void _set__alwaysOwnedPacksIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
-    // Offset: 0x10D6430
+    // Offset: 0x1F27444
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
-    // Offset: 0x10D66DC
+    // Offset: 0x1F276F0
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
-    // Offset: 0x10D6C90
+    // Offset: 0x1F27CA4
     void InitAlwaysOwnedItems();
     // public System.Void .ctor()
-    // Offset: 0x10D6F54
+    // Offset: 0x1F27F68
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -88,7 +89,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AlwaysOwnedContentContainerSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x10D6F2C
+    // Offset: 0x1F27F40
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

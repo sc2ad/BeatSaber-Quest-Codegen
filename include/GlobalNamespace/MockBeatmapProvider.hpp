@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IServerBeatmapProvider
 #include "GlobalNamespace/IServerBeatmapProvider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,16 +42,16 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IServerBeatmapProvider*>(this);
     }
     // public System.Boolean VerifyBeatmapForSelectionMask(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelSelectionMask selectionMask)
-    // Offset: 0x113BF3C
+    // Offset: 0x1F6C950
     bool VerifyBeatmapForSelectionMask(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
     // public BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(System.Int32 playerCount, System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> suggestedBeatmaps, BeatmapLevelSelectionMask selectionMask, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
-    // Offset: 0x113BF44
+    // Offset: 0x1F6C958
     GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int playerCount, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* suggestedBeatmaps, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>* ownedSongPacks);
     // public System.Void Dispose()
-    // Offset: 0x113BFBC
+    // Offset: 0x1F6C9D0
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x113BFC0
+    // Offset: 0x1F6C9D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

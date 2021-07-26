@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.Field.IFiniteField
 #include "Org/BouncyCastle/Math/Field/IFiniteField.hpp"
 // Completed includes

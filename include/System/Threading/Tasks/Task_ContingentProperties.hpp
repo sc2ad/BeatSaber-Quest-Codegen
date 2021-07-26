@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.Tasks.Task
 #include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.CancellationToken
@@ -129,13 +130,13 @@ namespace System::Threading::Tasks {
     // Set instance field: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
     void _set_m_exceptionalChildren(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* value);
     // System.Void SetCompleted()
-    // Offset: 0x1885A1C
+    // Offset: 0x1556E20
     void SetCompleted();
     // System.Void DeregisterCancellationCallback()
-    // Offset: 0x1885A54
+    // Offset: 0x1556E58
     void DeregisterCancellationCallback();
     // public System.Void .ctor()
-    // Offset: 0x18855C4
+    // Offset: 0x15569C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

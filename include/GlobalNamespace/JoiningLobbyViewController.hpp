@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -79,22 +80,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action didCancelEvent
     void _set_didCancelEvent(System::Action* value);
     // public System.Void add_didCancelEvent(System.Action value)
-    // Offset: 0x10EEACC
+    // Offset: 0x1F40AE0
     void add_didCancelEvent(System::Action* value);
     // public System.Void remove_didCancelEvent(System.Action value)
-    // Offset: 0x10EEB70
+    // Offset: 0x1F40B84
     void remove_didCancelEvent(System::Action* value);
     // public System.Void Init(System.String text)
-    // Offset: 0x10EEC14
+    // Offset: 0x1F40C28
     void Init(::Il2CppString* text);
     // public System.Void HideLoading()
-    // Offset: 0x10EEC4C
+    // Offset: 0x1F40C60
     void HideLoading();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x10EED60
+    // Offset: 0x1F40D74
     void $DidActivate$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x10EED58
+    // Offset: 0x1F40D6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -108,7 +109,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<JoiningLobbyViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10EEC98
+    // Offset: 0x1F40CAC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

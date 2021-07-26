@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MeshValidation
 #include "UnityEngine/ProBuilder/MeshOperations/MeshValidation.hpp"
 // Including type: UnityEngine.ProBuilder.Triangle
@@ -55,10 +56,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0
     void _set_$$9__0(System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* value);
     // System.Boolean <CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x16F5FF0
+    // Offset: 0x13F86AC
     bool $CollectFaceGroups$b__0(UnityEngine::ProBuilder::Triangle x);
     // public System.Void .ctor()
-    // Offset: 0x16F4D84
+    // Offset: 0x13F7440
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

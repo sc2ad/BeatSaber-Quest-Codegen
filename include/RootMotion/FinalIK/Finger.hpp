@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Vector3
@@ -79,30 +80,30 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Finger::DOF), 0 + sizeof(int)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
     static_assert(sizeof(Finger::DOF) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF28A8
-    // [RangeAttribute] Offset: 0xDF28A8
+    // [TooltipAttribute] Offset: 0xE9F4C4
+    // [RangeAttribute] Offset: 0xE9F4C4
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x10
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF28FC
-    // [RangeAttribute] Offset: 0xDF28FC
+    // [TooltipAttribute] Offset: 0xE9F518
+    // [RangeAttribute] Offset: 0xE9F518
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x14
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF2950
+    // [TooltipAttribute] Offset: 0xE9F56C
     // public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
     // Size: 0x4
     // Offset: 0x18
     RootMotion::FinalIK::Finger::DOF rotationDOF;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Finger::DOF) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF2988
+    // [TooltipAttribute] Offset: 0xE9F5A4
     // public System.Boolean fixBone1Twist
     // Size: 0x1
     // Offset: 0x1C
@@ -111,35 +112,35 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixBone1Twist and: bone1
     char __padding3[0x3] = {};
-    // [TooltipAttribute] Offset: 0xDF29C0
+    // [TooltipAttribute] Offset: 0xE9F5DC
     // public UnityEngine.Transform bone1
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* bone1;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF29F8
+    // [TooltipAttribute] Offset: 0xE9F614
     // public UnityEngine.Transform bone2
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* bone2;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF2A30
+    // [TooltipAttribute] Offset: 0xE9F64C
     // public UnityEngine.Transform bone3
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::Transform* bone3;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF2A68
+    // [TooltipAttribute] Offset: 0xE9F684
     // public UnityEngine.Transform tip
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::Transform* tip;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF2AA0
+    // [TooltipAttribute] Offset: 0xE9F6BC
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x40
@@ -267,40 +268,40 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Vector3 bone1TwistAxis
     void _set_bone1TwistAxis(UnityEngine::Vector3 value);
     // public System.Boolean get_initiated()
-    // Offset: 0x1CE846C
+    // Offset: 0x188520C
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1CE8474
+    // Offset: 0x1885214
     void set_initiated(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x1CE8480
+    // Offset: 0x1885220
     UnityEngine::Vector3 get_IKPosition();
     // public System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1CE84A0
+    // Offset: 0x1885240
     void set_IKPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_IKRotation()
-    // Offset: 0x1CE84C0
+    // Offset: 0x1885260
     UnityEngine::Quaternion get_IKRotation();
     // public System.Void set_IKRotation(UnityEngine.Quaternion value)
-    // Offset: 0x1CE84E0
+    // Offset: 0x1885280
     void set_IKRotation(UnityEngine::Quaternion value);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x1CE8500
-    bool IsValid(::Il2CppString*& errorMessage);
+    // Offset: 0x18852A0
+    bool IsValid(ByRef<::Il2CppString*> errorMessage);
     // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)
-    // Offset: 0x1CE8600
+    // Offset: 0x18853A0
     void Initiate(UnityEngine::Transform* hand, int index);
     // public System.Void FixTransforms()
-    // Offset: 0x1CE8B94
+    // Offset: 0x1885934
     void FixTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1CE8C70
+    // Offset: 0x1885A10
     void StoreDefaultLocalState();
     // public System.Void Update(System.Single masterWeight)
-    // Offset: 0x1CE8D38
+    // Offset: 0x1885AD8
     void Update(float masterWeight);
     // public System.Void .ctor()
-    // Offset: 0x1CE947C
+    // Offset: 0x188621C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -370,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Finger::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::Finger::*)(::Il2CppString*&)>(&RootMotion::FinalIK::Finger::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::Finger::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::Finger::IsValid)> {
   static const MethodInfo* get() {
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorMessage});

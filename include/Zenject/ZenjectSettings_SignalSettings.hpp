@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ZenjectSettings
 #include "Zenject/ZenjectSettings.hpp"
 // Including type: Zenject.SignalDefaultSyncModes
@@ -72,29 +73,29 @@ namespace Zenject {
     // Set instance field: private System.Int32 _defaultAsyncTickPriority
     void _set__defaultAsyncTickPriority(int value);
     // public System.Int32 get_DefaultAsyncTickPriority()
-    // Offset: 0x239349C
+    // Offset: 0x1E0B484
     int get_DefaultAsyncTickPriority();
     // public Zenject.SignalDefaultSyncModes get_DefaultSyncMode()
-    // Offset: 0x23934A4
+    // Offset: 0x1E0B48C
     Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
     // public Zenject.SignalMissingHandlerResponses get_MissingHandlerDefaultResponse()
-    // Offset: 0x23934AC
+    // Offset: 0x1E0B494
     Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
     // public System.Boolean get_RequireStrictUnsubscribe()
-    // Offset: 0x23934B4
+    // Offset: 0x1E0B49C
     bool get_RequireStrictUnsubscribe();
     // public System.Void .ctor(Zenject.SignalDefaultSyncModes defaultSyncMode, Zenject.SignalMissingHandlerResponses missingHandlerDefaultResponse, System.Boolean requireStrictUnsubscribe, System.Int32 defaultAsyncTickPriority)
-    // Offset: 0x239340C
+    // Offset: 0x1E0B3F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings::SignalSettings* New_ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int defaultAsyncTickPriority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::SignalSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings::SignalSettings*, creationType>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23934BC
+    // Offset: 0x1E0B4A4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2393460
+    // Offset: 0x1E0B448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

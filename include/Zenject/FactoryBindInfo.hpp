@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.TypeValuePair
 #include "Zenject/TypeValuePair.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,25 +77,25 @@ namespace Zenject {
     // Set instance field: private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
     void _set_$Arguments$k__BackingField(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
     // public System.Type get_FactoryType()
-    // Offset: 0x161B414
+    // Offset: 0x131E9E4
     System::Type* get_FactoryType();
     // private System.Void set_FactoryType(System.Type value)
-    // Offset: 0x161B41C
+    // Offset: 0x131E9EC
     void set_FactoryType(System::Type* value);
     // public System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
-    // Offset: 0x161B424
+    // Offset: 0x131E9F4
     System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* get_ProviderFunc();
     // public System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
-    // Offset: 0x161B42C
+    // Offset: 0x131E9FC
     void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_Arguments()
-    // Offset: 0x161B434
+    // Offset: 0x131EA04
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_Arguments();
     // public System.Void set_Arguments(System.Collections.Generic.List`1<Zenject.TypeValuePair> value)
-    // Offset: 0x161B43C
+    // Offset: 0x131EA0C
     void set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
     // public System.Void .ctor(System.Type factoryType)
-    // Offset: 0x161B390
+    // Offset: 0x131E960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryBindInfo* New_ctor(System::Type* factoryType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryBindInfo::.ctor");

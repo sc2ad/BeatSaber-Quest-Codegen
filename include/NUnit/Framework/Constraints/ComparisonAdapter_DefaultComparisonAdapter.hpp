@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.ComparisonAdapter
 #include "NUnit/Framework/Constraints/ComparisonAdapter.hpp"
 // Including type: NUnit.Framework.Constraints.ComparisonAdapter/NUnit.Framework.Constraints.ComparerAdapter
@@ -24,7 +25,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: DefaultComparisonAdapter
     DefaultComparisonAdapter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1715BE8
+    // Offset: 0x14192A4
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter
     // Base method: System.Void ComparisonAdapter::.ctor()
     // Base method: System.Void Object::.ctor()

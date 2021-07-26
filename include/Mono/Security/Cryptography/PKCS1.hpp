@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -39,16 +40,16 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Byte[] emptySHA512
     static void _set_emptySHA512(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DDB914
+    // Offset: 0x194E4F4
     static void _cctor();
     // static System.String HashNameFromOid(System.String oid, System.Boolean throwOnError)
-    // Offset: 0x1DDB260
+    // Offset: 0x194DE40
     static ::Il2CppString* HashNameFromOid(::Il2CppString* oid, bool throwOnError);
     // static System.Security.Cryptography.HashAlgorithm CreateFromOid(System.String oid)
-    // Offset: 0x1DDB530
+    // Offset: 0x194E110
     static System::Security::Cryptography::HashAlgorithm* CreateFromOid(::Il2CppString* oid);
     // static System.Security.Cryptography.HashAlgorithm CreateFromName(System.String name)
-    // Offset: 0x1DDB59C
+    // Offset: 0x194E17C
     static System::Security::Cryptography::HashAlgorithm* CreateFromName(::Il2CppString* name);
   }; // Mono.Security.Cryptography.PKCS1
   #pragma pack(pop)

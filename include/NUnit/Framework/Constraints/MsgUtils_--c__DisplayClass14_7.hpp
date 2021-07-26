@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.MsgUtils
 #include "NUnit/Framework/Constraints/MsgUtils.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: public NUnit.Framework.Constraints.ValueFormatter next
     void _set_next(NUnit::Framework::Constraints::ValueFormatter* value);
     // System.String <.cctor>b__18(System.Object val)
-    // Offset: 0x171BE2C
+    // Offset: 0x141F4E8
     ::Il2CppString* $_cctor$b__18(::Il2CppObject* val);
     // public System.Void .ctor()
-    // Offset: 0x171B70C
+    // Offset: 0x141EDC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

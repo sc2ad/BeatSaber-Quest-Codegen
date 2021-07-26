@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -23,7 +24,7 @@ namespace TMPro {
     // Creating value type constructor for type: SelectionEvent
     SelectionEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x110D230
+    // Offset: 0x100CEB0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

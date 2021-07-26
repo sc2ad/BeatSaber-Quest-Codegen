@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/RawButton
@@ -123,22 +124,22 @@ namespace GlobalNamespace {
     // Set instance field: public System.Func`1<System.Boolean> OnShortPress
     void _set_OnShortPress(System::Func_1<bool>* value);
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
-    // Offset: 0x12F2BF8
+    // Offset: 0x10B4B68
     GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
     // private System.Void Awake()
-    // Offset: 0x12F2C70
+    // Offset: 0x10B4BE0
     void Awake();
     // private System.Void ShowConfirmQuitMenu()
-    // Offset: 0x12F2DD0
+    // Offset: 0x10B4D40
     void ShowConfirmQuitMenu();
     // static private System.Boolean RetreatOneLevel()
-    // Offset: 0x12F2EA4
+    // Offset: 0x10B4E14
     static bool RetreatOneLevel();
     // private System.Void Update()
-    // Offset: 0x12F2F98
+    // Offset: 0x10B4F08
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12F3010
+    // Offset: 0x10B4F80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -151,7 +152,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlatformMenu*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12F3020
+    // Offset: 0x10B4F90
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

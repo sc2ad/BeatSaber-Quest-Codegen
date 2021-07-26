@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 // Including type: UnityEngine.Color
@@ -76,16 +77,16 @@ namespace GlobalNamespace {
     // Set instance field: private HMUI.ImageView _highlightImage
     void _set__highlightImage(HMUI::ImageView* value);
     // public System.String get_text()
-    // Offset: 0x106F1F8
+    // Offset: 0x1EDACCC
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x106F214
+    // Offset: 0x1EDACE8
     void set_text(::Il2CppString* value);
     // private System.Void RefreshVisuals()
-    // Offset: 0x106F234
+    // Offset: 0x1EDAD08
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x106F300
+    // Offset: 0x1EDADD4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -101,12 +102,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TextOnlyTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x106F230
+    // Offset: 0x1EDAD04
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x106F2FC
+    // Offset: 0x1EDADD0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ISaberSwingRatingCounterDidFinishReceiver
 #include "GlobalNamespace/ISaberSwingRatingCounterDidFinishReceiver.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -89,19 +90,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly LazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> _didFinishEvent
     void _set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* value);
     // public ILazyCopyHashSet`1<ICutScoreHandlerDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x109448C
+    // Offset: 0x1EEC934
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Set(in NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x1094104
-    void Set(GlobalNamespace::NoteCutInfo& noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
+    // Offset: 0x1EEC5AC
+    void Set(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // private System.Void Reinitialize()
-    // Offset: 0x1094494
+    // Offset: 0x1EEC93C
     void Reinitialize();
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0x109449C
+    // Offset: 0x1EEC944
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // public System.Void .ctor()
-    // Offset: 0x10946E8
+    // Offset: 0x1EECB90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::*)(GlobalNamespace::NoteCutInfo&, GlobalNamespace::NoteExecutionRating*, GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::*)(ByRef<GlobalNamespace::NoteCutInfo>, GlobalNamespace::NoteExecutionRating*, GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Set)> {
   static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* noteExecutionRating = &::il2cpp_utils::GetClassFromName("", "NoteExecutionRating")->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
 #include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,10 +53,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public UnityEngine.ProBuilder.Face f2
     void _set_f2(UnityEngine::ProBuilder::Face* value);
     // System.Boolean <AutoStitch>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x16FDD74
+    // Offset: 0x1400430
     bool $AutoStitch$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x16FAA60
+    // Offset: 0x13FD11C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.X509.X509Crl
 #include "Mono/Security/X509/X509Crl.hpp"
 // Including type: System.DateTime
@@ -66,16 +67,16 @@ namespace Mono::Security::X509 {
     // Set instance field: private Mono.Security.X509.X509ExtensionCollection extensions
     void _set_extensions(Mono::Security::X509::X509ExtensionCollection* value);
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x23817D4
+    // Offset: 0x1E01D98
     ::Array<uint8_t>* get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x2381D44
+    // Offset: 0x1E02308
     System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x2381D4C
+    // Offset: 0x1E02310
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // System.Void .ctor(Mono.Security.ASN1 entry)
-    // Offset: 0x23812D0
+    // Offset: 0x1E01894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");

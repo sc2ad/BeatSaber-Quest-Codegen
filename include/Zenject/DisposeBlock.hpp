@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.ValueType
@@ -141,16 +142,16 @@ namespace Zenject {
     // Set instance field: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
     void _set__objectPoolPairs(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x161AFD4
+    // Offset: 0x131E5A4
     static void _cctor();
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0x161AA94
+    // Offset: 0x131E064
     static void OnSpawned(Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0x161AACC
+    // Offset: 0x131E09C
     static void OnDespawned(Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0x161AD30
+    // Offset: 0x131E300
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
     // Offset: 0xFFFFFFFF
@@ -163,10 +164,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, disposables);
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0x161ADC4
+    // Offset: 0x131E394
     void Add(System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0x161AE60
+    // Offset: 0x131E430
     void Remove(System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF
@@ -268,13 +269,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(this, ___generic__method);
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0x161AECC
+    // Offset: 0x131E49C
     static Zenject::DisposeBlock* Spawn();
     // public System.Void Dispose()
-    // Offset: 0x161AF48
+    // Offset: 0x131E518
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x161AFCC
+    // Offset: 0x131E59C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

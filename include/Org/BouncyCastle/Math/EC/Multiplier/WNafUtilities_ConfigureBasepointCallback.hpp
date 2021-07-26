@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities
 #include "Org/BouncyCastle/Math/EC/Multiplier/WNafUtilities.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
@@ -60,14 +61,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: private readonly System.Int32 m_confWidth
     void _set_m_confWidth(int value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, System.Int32 confWidth)
-    // Offset: 0x1D92704
+    // Offset: 0x19042E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafUtilities::ConfigureBasepointCallback* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, int confWidth) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafUtilities::ConfigureBasepointCallback*, creationType>(curve, confWidth)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1D93428
+    // Offset: 0x1905008
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/Org.BouncyCastle.Math.EC.Multiplier.ConfigureBasepointCallback
   #pragma pack(pop)

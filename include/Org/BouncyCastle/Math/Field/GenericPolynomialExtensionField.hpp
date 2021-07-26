@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.Field.IPolynomialExtensionField
 #include "Org/BouncyCastle/Math/Field/IPolynomialExtensionField.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,28 +60,28 @@ namespace Org::BouncyCastle::Math::Field {
     // Set instance field: protected readonly Org.BouncyCastle.Math.Field.IPolynomial minimalPolynomial
     void _set_minimalPolynomial(Org::BouncyCastle::Math::Field::IPolynomial* value);
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x1D9F4D4
+    // Offset: 0x19110B4
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x1D9F584
+    // Offset: 0x1911164
     int get_Dimension();
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
-    // Offset: 0x1D9F6B4
+    // Offset: 0x1911294
     Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
     // System.Void .ctor(Org.BouncyCastle.Math.Field.IFiniteField subfield, Org.BouncyCastle.Math.Field.IPolynomial polynomial)
-    // Offset: 0x1D9F014
+    // Offset: 0x1910BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPolynomialExtensionField* New_ctor(Org::BouncyCastle::Math::Field::IFiniteField* subfield, Org::BouncyCastle::Math::Field::IPolynomial* polynomial) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPolynomialExtensionField*, creationType>(subfield, polynomial)));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1D9F6BC
+    // Offset: 0x191129C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1D9F7A0
+    // Offset: 0x1911380
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

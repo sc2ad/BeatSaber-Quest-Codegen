@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.AsyncProtocolRequest
 #include "Mono/Net/Security/AsyncProtocolRequest.hpp"
 // Including type: System.ValueType
@@ -102,10 +103,10 @@ namespace Mono::Net::Security {
     // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__1
     void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xEDE960
+    // Offset: 0xD72918
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEDE968
+    // Offset: 0xD72920
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.AsyncProtocolRequest/Mono.Net.Security.<InnerRead>d__25
   // WARNING Not writing size check since size may be invalid!

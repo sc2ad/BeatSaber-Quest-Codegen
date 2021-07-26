@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -95,7 +96,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Set instance field: public System.Boolean autoUdpateAPI
     void _set_autoUdpateAPI(bool value);
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0xEF6050
+    // Offset: 0xF84F40
     void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)

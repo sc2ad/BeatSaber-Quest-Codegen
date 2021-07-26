@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
 #include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -23,7 +24,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Creating value type constructor for type: ConnectionChangeEvent
     ConnectionChangeEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1CFB54C
+    // Offset: 0x22D57E0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,14 +64,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE13320
+    // [SpaceAttribute] Offset: 0xEBFF3C
     // private AudioManagerSO _audioMixer
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::AudioManagerSO* audioMixer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE13358
+    // [InjectAttribute] Offset: 0xEBFF74
     // private PatternFightSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x48
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
     // Set instance field: private PatternFightSceneSetupData _sceneSetupData
     void _set__sceneSetupData(GlobalNamespace::PatternFightSceneSetupData* value);
     // public System.Void .ctor()
-    // Offset: 0xFFFAB0
+    // Offset: 0x1E53064
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -119,7 +120,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0xFFF2EC
+    // Offset: 0x1E528A0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

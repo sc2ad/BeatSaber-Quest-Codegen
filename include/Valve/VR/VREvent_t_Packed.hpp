@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.VREvent_Data_t
@@ -68,7 +69,7 @@ namespace Valve::VR {
     // Set instance field: public Valve.VR.VREvent_Data_t data
     void _set_data(Valve::VR::VREvent_Data_t value);
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0xF0D62C
+    // Offset: 0xD931E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VREvent_t_Packed(Valve::VR::VREvent_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VREvent_t_Packed::.ctor");
@@ -76,8 +77,8 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
-    // Offset: 0xF0D67C
-    void Unpack(Valve::VR::VREvent_t& unpacked);
+    // Offset: 0xD93238
+    void Unpack(ByRef<Valve::VR::VREvent_t> unpacked);
   }; // Valve.VR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!
 }
@@ -90,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_t_Packed, "Valve.VR", "VREvent_t_Packe
 // Writing MetadataGetter for method: Valve::VR::VREvent_t_Packed::Unpack
 // Il2CppName: Unpack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::VREvent_t_Packed::*)(Valve::VR::VREvent_t&)>(&Valve::VR::VREvent_t_Packed::Unpack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::VREvent_t_Packed::*)(ByRef<Valve::VR::VREvent_t>)>(&Valve::VR::VREvent_t_Packed::Unpack)> {
   static const MethodInfo* get() {
     static auto* unpacked = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::VREvent_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unpacked});

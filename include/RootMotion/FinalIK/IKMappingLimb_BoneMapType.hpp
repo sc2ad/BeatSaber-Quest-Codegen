@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKMappingLimb
 #include "RootMotion/FinalIK/IKMappingLimb.hpp"
 // Including type: System.Enum

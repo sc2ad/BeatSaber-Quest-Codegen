@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* resumeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE06678
+    // [SpaceAttribute] Offset: 0xEB3294
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -98,14 +99,14 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE066C0
+    // [SpaceAttribute] Offset: 0xEB32DC
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE066F8
+    // [SpaceAttribute] Offset: 0xEB3314
     // private UnityEngine.GameObject _menuWrapperGameObject
     // Size: 0x8
     // Offset: 0x50
@@ -118,28 +119,28 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* menuControllersGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06740
+    // [InjectAttribute] Offset: 0xEB335C
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06750
+    // [InjectAttribute] Offset: 0xEB336C
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06760
+    // [InjectAttribute] Offset: 0xEB337C
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06770
+    // [InjectAttribute] Offset: 0xEB338C
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x78
@@ -259,58 +260,58 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _disabledInteractionRemainingTime
     void _set__disabledInteractionRemainingTime(float value);
     // public System.Void add_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x23D5BB8
+    // Offset: 0x1E7867C
     void add_didPressDisconnectButtonEvent(System::Action* value);
     // public System.Void remove_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x23D60B4
+    // Offset: 0x1E78B78
     void remove_didPressDisconnectButtonEvent(System::Action* value);
     // public System.Void add_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x23D5D00
+    // Offset: 0x1E787C4
     void add_didPressGiveUpButtonEvent(System::Action* value);
     // public System.Void remove_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x23D61FC
+    // Offset: 0x1E78CC0
     void remove_didPressGiveUpButtonEvent(System::Action* value);
     // public System.Void add_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x23D5C5C
+    // Offset: 0x1E78720
     void add_didPressResumeButtonEvent(System::Action* value);
     // public System.Void remove_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x23D6158
+    // Offset: 0x1E78C1C
     void remove_didPressResumeButtonEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x23D6608
+    // Offset: 0x1E790CC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x23D6794
+    // Offset: 0x1E79258
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x23D6890
+    // Offset: 0x1E79354
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x23D6934
+    // Offset: 0x1E793F8
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0x23D6328
+    // Offset: 0x1E78DEC
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x23D6384
+    // Offset: 0x1E78E48
     void HideMenu();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0x23D69E4
+    // Offset: 0x1E794A8
     void DisconnectButtonPressed();
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x23D6A24
+    // Offset: 0x1E794E8
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void GiveUpButtonPressed()
-    // Offset: 0x23D6AF4
+    // Offset: 0x1E795B8
     void GiveUpButtonPressed();
     // private System.Void ResumeButtonPressed()
-    // Offset: 0x23D69A4
+    // Offset: 0x1E79468
     void ResumeButtonPressed();
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__32_0()
-    // Offset: 0x23D6B50
+    // Offset: 0x1E79614
     void $HandleDisconnectPromptViewDidViewFinish$b__32_0();
     // public System.Void .ctor()
-    // Offset: 0x23D6B48
+    // Offset: 0x1E7960C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

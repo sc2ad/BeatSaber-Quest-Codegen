@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: CoreGameHUDController
@@ -66,21 +67,21 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* firstPlayerAnimationGo;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE060B8
+    // [InjectAttribute] Offset: 0xEB2CD4
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE060C8
+    // [InjectAttribute] Offset: 0xEB2CE4
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE060D8
+    // [InjectAttribute] Offset: 0xEB2CF4
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x48
@@ -130,16 +131,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _prevPosition
     void _set__prevPosition(int value);
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x100440C
+    // Offset: 0x1E579C0
     void set_alpha(float value);
     // protected System.Void Start()
-    // Offset: 0x1004428
+    // Offset: 0x1E579DC
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1004574
+    // Offset: 0x1E57B28
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10047EC
+    // Offset: 0x1E57DA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,85 +50,85 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture2D cachedTexture
     static void _set_cachedTexture(UnityEngine::Texture2D* value);
     // static private System.Void .cctor()
-    // Offset: 0x15EE928
+    // Offset: 0x12F1EF8
     static void _cctor();
     // static public System.Boolean Initialize()
-    // Offset: 0x15EB7B8
+    // Offset: 0x12EED88
     static bool Initialize();
     // static public System.Boolean Shutdown()
-    // Offset: 0x15EB92C
+    // Offset: 0x12EEEFC
     static bool Shutdown();
     // static public System.Boolean GetInitialized()
-    // Offset: 0x15EBAA0
+    // Offset: 0x12EF070
     static bool GetInitialized();
     // static public System.Boolean Update()
-    // Offset: 0x15EBC34
+    // Offset: 0x12EF204
     static bool Update();
     // static public OVRPlugin/Media/MrcActivationMode GetMrcActivationMode()
-    // Offset: 0x15EBDA8
+    // Offset: 0x12EF378
     static GlobalNamespace::OVRPlugin::Media::MrcActivationMode GetMrcActivationMode();
     // static public System.Boolean SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode mode)
-    // Offset: 0x15EBF34
+    // Offset: 0x12EF504
     static bool SetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode mode);
     // static public System.Boolean SetPlatformInitialized()
-    // Offset: 0x15EC0BC
+    // Offset: 0x12EF68C
     static bool SetPlatformInitialized();
     // static public OVRPlugin/Media/PlatformCameraMode GetPlatformCameraMode()
-    // Offset: 0x15EC230
+    // Offset: 0x12EF800
     static GlobalNamespace::OVRPlugin::Media::PlatformCameraMode GetPlatformCameraMode();
     // static public System.Boolean SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode mode)
-    // Offset: 0x15EC3BC
+    // Offset: 0x12EF98C
     static bool SetPlatformCameraMode(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode mode);
     // static public System.Boolean IsMrcEnabled()
-    // Offset: 0x15EC544
+    // Offset: 0x12EFB14
     static bool IsMrcEnabled();
     // static public System.Boolean IsMrcActivated()
-    // Offset: 0x15EC6D4
+    // Offset: 0x12EFCA4
     static bool IsMrcActivated();
     // static public System.Boolean UseMrcDebugCamera()
-    // Offset: 0x15EC864
+    // Offset: 0x12EFE34
     static bool UseMrcDebugCamera();
     // static public System.Boolean SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType videoBufferType)
-    // Offset: 0x15EC9F4
+    // Offset: 0x12EFFC4
     static bool SetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType videoBufferType);
     // static public OVRPlugin/Media/InputVideoBufferType GetMrcInputVideoBufferType()
-    // Offset: 0x15ECB7C
+    // Offset: 0x12F014C
     static GlobalNamespace::OVRPlugin::Media::InputVideoBufferType GetMrcInputVideoBufferType();
     // static public System.Boolean SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
-    // Offset: 0x15ECD04
+    // Offset: 0x12F02D4
     static bool SetMrcFrameSize(int frameWidth, int frameHeight);
     // static public System.Void GetMrcFrameSize(out System.Int32 frameWidth, out System.Int32 frameHeight)
-    // Offset: 0x15ECEAC
-    static void GetMrcFrameSize(int& frameWidth, int& frameHeight);
+    // Offset: 0x12F047C
+    static void GetMrcFrameSize(ByRef<int> frameWidth, ByRef<int> frameHeight);
     // static public System.Boolean SetMrcAudioSampleRate(System.Int32 sampleRate)
-    // Offset: 0x15ED060
+    // Offset: 0x12F0630
     static bool SetMrcAudioSampleRate(int sampleRate);
     // static public System.Int32 GetMrcAudioSampleRate()
-    // Offset: 0x15ED1E8
+    // Offset: 0x12F07B8
     static int GetMrcAudioSampleRate();
     // static public System.Boolean SetMrcFrameImageFlipped(System.Boolean imageFlipped)
-    // Offset: 0x15ED36C
+    // Offset: 0x12F093C
     static bool SetMrcFrameImageFlipped(bool imageFlipped);
     // static public System.Boolean GetMrcFrameImageFlipped()
-    // Offset: 0x15ED4F8
+    // Offset: 0x12F0AC8
     static bool GetMrcFrameImageFlipped();
     // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.IntPtr fgTextureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x15ED684
-    static bool EncodeMrcFrame(System::IntPtr textureHandle, System::IntPtr fgTextureHandle, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, int& outSyncId);
+    // Offset: 0x12F0C54
+    static bool EncodeMrcFrame(System::IntPtr textureHandle, System::IntPtr fgTextureHandle, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x15EDDD8
-    static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, int& outSyncId);
+    // Offset: 0x12F13A8
+    static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)
-    // Offset: 0x15EE3B4
+    // Offset: 0x12F1984
     static bool SyncMrcFrame(int syncId);
     // static public System.Boolean SetAvailableQueueIndexVulkan(System.UInt32 queueIndexVk)
-    // Offset: 0x15EE53C
+    // Offset: 0x12F1B0C
     static bool SetAvailableQueueIndexVulkan(uint queueIndexVk);
     // static public System.Boolean SetMrcHeadsetControllerPose(OVRPlugin/Posef headsetPose, OVRPlugin/Posef leftControllerPose, OVRPlugin/Posef rightControllerPose)
-    // Offset: 0x15EE6C4
+    // Offset: 0x12F1C94
     static bool SetMrcHeadsetControllerPose(GlobalNamespace::OVRPlugin::Posef headsetPose, GlobalNamespace::OVRPlugin::Posef leftControllerPose, GlobalNamespace::OVRPlugin::Posef rightControllerPose);
     // public System.Void .ctor()
-    // Offset: 0x15EE920
+    // Offset: 0x12F1EF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -276,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::GetMrcFrameSize
 // Il2CppName: GetMrcFrameSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&, int&)>(&GlobalNamespace::OVRPlugin::Media::GetMrcFrameSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<int>, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::GetMrcFrameSize)> {
   static const MethodInfo* get() {
     static auto* frameWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* frameHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -320,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame
 // Il2CppName: EncodeMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ::Array<float>*, int, int, double, double, int&)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ::Array<float>*, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
   static const MethodInfo* get() {
     static auto* textureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fgTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -336,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame
 // Il2CppName: EncodeMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTexture*, ::Array<float>*, int, int, double, double, int&)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTexture*, ::Array<float>*, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
   static const MethodInfo* get() {
     static auto* frame = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;

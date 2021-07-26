@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolver
 #include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: UnityEngine.Vector3
@@ -36,7 +37,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xDF617C
+    // [RangeAttribute] Offset: 0xEA2D98
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -94,25 +95,25 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Quaternion defaultLocalRotation
     void _set_defaultLocalRotation(UnityEngine::Quaternion value);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1C9F24C
+    // Offset: 0x183CFEC
     void StoreDefaultLocalState();
     // public System.Void FixTransform()
-    // Offset: 0x1C9F29C
+    // Offset: 0x183D03C
     void FixTransform();
     // public System.Void UpdateSolverPosition()
-    // Offset: 0x1C9F424
+    // Offset: 0x183D1C4
     void UpdateSolverPosition();
     // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x1C9F45C
+    // Offset: 0x183D1FC
     void UpdateSolverLocalPosition();
     // public System.Void UpdateSolverState()
-    // Offset: 0x1C9F494
+    // Offset: 0x183D234
     void UpdateSolverState();
     // public System.Void UpdateSolverLocalState()
-    // Offset: 0x1C9F4E4
+    // Offset: 0x183D284
     void UpdateSolverLocalState();
     // public System.Void .ctor()
-    // Offset: 0x1C9ED20
+    // Offset: 0x183CAC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

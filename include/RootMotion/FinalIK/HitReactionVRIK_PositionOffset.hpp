@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.HitReactionVRIK
 #include "RootMotion/FinalIK/HitReactionVRIK.hpp"
 // Including type: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
@@ -35,21 +36,21 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink
     class PositionOffsetLink;
-    // [TooltipAttribute] Offset: 0xDF81C8
+    // [TooltipAttribute] Offset: 0xEA4DE4
     // public System.Int32 forceDirCurveIndex
     // Size: 0x4
     // Offset: 0x50
     int forceDirCurveIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF8200
+    // [TooltipAttribute] Offset: 0xEA4E1C
     // public System.Int32 upDirCurveIndex
     // Size: 0x4
     // Offset: 0x54
     int upDirCurveIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF8238
+    // [TooltipAttribute] Offset: 0xEA4E54
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset/RootMotion.FinalIK.PositionOffsetLink[] offsetLinks
     // Size: 0x8
     // Offset: 0x58
@@ -71,7 +72,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset/RootMotion.FinalIK.PositionOffsetLink[] offsetLinks
     void _set_offsetLinks(::Array<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1C95EB8
+    // Offset: 0x1833C58
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -81,17 +82,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::PositionOffset*, creationType>()));
     }
     // protected override System.Single GetLength(UnityEngine.AnimationCurve[] curves)
-    // Offset: 0x1C95910
+    // Offset: 0x18336B0
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Single Offset::GetLength(UnityEngine.AnimationCurve[] curves)
     float GetLength(::Array<UnityEngine::AnimationCurve*>* curves);
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x1C95B08
+    // Offset: 0x18338A8
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    // Offset: 0x1C95B88
+    // Offset: 0x1833928
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::OnApply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
     void OnApply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);

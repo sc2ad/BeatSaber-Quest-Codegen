@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -93,13 +94,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _currentAnimationDuration
     void _set__currentAnimationDuration(float value);
     // public System.Single get_animationDuration()
-    // Offset: 0x10E6DC4
+    // Offset: 0x1F37DD8
     float get_animationDuration();
     // private System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x10E6DCC
+    // Offset: 0x1F37DE0
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* parentTransform, float desiredAnimationLength);
     // public System.Void .ctor()
-    // Offset: 0x10E6EDC
+    // Offset: 0x1F37EF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,33 +59,33 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.DerBitString keyData
     void _set_keyData(Org::BouncyCastle::Asn1::DerBitString* value);
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_AlgorithmID()
-    // Offset: 0x19DC968
+    // Offset: 0x1693A5C
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
     // public Org.BouncyCastle.Asn1.DerBitString get_PublicKeyData()
-    // Offset: 0x19DC99C
+    // Offset: 0x1693A90
     Org::BouncyCastle::Asn1::DerBitString* get_PublicKeyData();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID, System.Byte[] publicKey)
-    // Offset: 0x19DC8E8
+    // Offset: 0x16939DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Array<uint8_t>* publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubjectPublicKeyInfo*, creationType>(algID, publicKey)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19DC77C
+    // Offset: 0x1693870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubjectPublicKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubjectPublicKeyInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x19DC6D8
+    // Offset: 0x16937CC
     static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.Asn1Object ParsePublicKey()
-    // Offset: 0x19DC970
+    // Offset: 0x1693A64
     Org::BouncyCastle::Asn1::Asn1Object* ParsePublicKey();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19DC9A4
+    // Offset: 0x1693A98
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

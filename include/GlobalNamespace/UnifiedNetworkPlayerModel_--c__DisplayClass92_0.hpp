@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnifiedNetworkPlayerModel
 #include "GlobalNamespace/UnifiedNetworkPlayerModel.hpp"
 // Including type: PublicServerInfo
@@ -60,13 +61,13 @@ namespace GlobalNamespace {
     // Set instance field: public UnifiedNetworkPlayerModel <>4__this
     void _set_$$4__this(GlobalNamespace::UnifiedNetworkPlayerModel* value);
     // System.Void <Refresh>b__0(System.Collections.Generic.IReadOnlyList`1<PublicServerInfo> servers)
-    // Offset: 0x1273508
+    // Offset: 0x2067488
     void $Refresh$b__0(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>* servers);
     // System.Void <Refresh>b__1(ConnectionFailedReason reason)
-    // Offset: 0x12738AC
+    // Offset: 0x206782C
     void $Refresh$b__1(GlobalNamespace::ConnectionFailedReason reason);
     // public System.Void .ctor()
-    // Offset: 0x1271EC0
+    // Offset: 0x2065E40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

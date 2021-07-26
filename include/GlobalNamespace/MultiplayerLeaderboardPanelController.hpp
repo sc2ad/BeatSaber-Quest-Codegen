@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>* items;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE05FE8
+    // [InjectAttribute] Offset: 0xEB2C04
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
@@ -54,13 +55,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerScoreProvider _scoreProvider
     void _set__scoreProvider(GlobalNamespace::MultiplayerScoreProvider* value);
     // protected System.Void Start()
-    // Offset: 0x11AE7E0
+    // Offset: 0x1FC624C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11AE884
+    // Offset: 0x1FC62F0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11AEE18
+    // Offset: 0x1FC6884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

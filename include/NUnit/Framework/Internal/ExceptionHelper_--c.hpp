@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.ExceptionHelper
 #include "NUnit/Framework/Internal/ExceptionHelper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,13 +35,13 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c <>9
     static void _set_$$9(NUnit::Framework::Internal::ExceptionHelper::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x172A70C
+    // Offset: 0x142DDC8
     static void _cctor();
     // System.Void <.cctor>b__1_0(System.Exception _)
-    // Offset: 0x172A778
+    // Offset: 0x142DE34
     void $_cctor$b__1_0(System::Exception* _);
     // public System.Void .ctor()
-    // Offset: 0x172A770
+    // Offset: 0x142DE2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

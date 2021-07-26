@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
@@ -78,14 +79,14 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType colorEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE055D4
+    // [SpaceAttribute] Offset: 0xEB21F0
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0560C
+    // [InjectAttribute] Offset: 0xEB2228
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x48
@@ -241,22 +242,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _particleSpeed
     void _set__particleSpeed(float value);
     // protected System.Void Start()
-    // Offset: 0xFFDFE0
+    // Offset: 0x1E51594
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xFFE2D8
+    // Offset: 0x1E5188C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xFFE3D8
+    // Offset: 0x1E5198C
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xFFE4FC
+    // Offset: 0x1E51AB0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0xFFE19C
+    // Offset: 0x1E51750
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0xFFE6E4
+    // Offset: 0x1E51C98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

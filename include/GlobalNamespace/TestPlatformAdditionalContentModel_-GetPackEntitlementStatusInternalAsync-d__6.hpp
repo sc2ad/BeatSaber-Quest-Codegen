@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TestPlatformAdditionalContentModel
 #include "GlobalNamespace/TestPlatformAdditionalContentModel.hpp"
 // Including type: System.ValueType
@@ -96,10 +97,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xECFC14
+    // Offset: 0xF7B880
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFC1C
+    // Offset: 0xF7B888
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__6
   // WARNING Not writing size check since size may be invalid!

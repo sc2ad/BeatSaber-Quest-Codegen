@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -84,34 +85,34 @@ namespace GlobalNamespace {
     // Set instance field: private INetworkPlayer _player
     void _set__player(GlobalNamespace::INetworkPlayer* value);
     // public INetworkPlayer get_player()
-    // Offset: 0x1012C78
+    // Offset: 0x1E6622C
     GlobalNamespace::INetworkPlayer* get_player();
     // public System.Void set_player(INetworkPlayer value)
-    // Offset: 0x1012C80
+    // Offset: 0x1E66234
     void set_player(GlobalNamespace::INetworkPlayer* value);
     // private System.Void Refresh()
-    // Offset: 0x1012C88
+    // Offset: 0x1E6623C
     void Refresh();
     // private System.Void Block()
-    // Offset: 0x1013798
+    // Offset: 0x1E66D4C
     void Block();
     // private System.Void Unblock()
-    // Offset: 0x1013854
+    // Offset: 0x1E66E08
     void Unblock();
     // private System.Void Join()
-    // Offset: 0x1013910
+    // Offset: 0x1E66EC4
     void Join();
     // private System.Void Invite()
-    // Offset: 0x10139CC
+    // Offset: 0x1E66F80
     void Invite();
     // private System.Void Kick()
-    // Offset: 0x1013A88
+    // Offset: 0x1E6703C
     void Kick();
     // private System.Void Leave()
-    // Offset: 0x1013B44
+    // Offset: 0x1E670F8
     void Leave();
     // public System.Void .ctor()
-    // Offset: 0x1013C00
+    // Offset: 0x1E671B4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

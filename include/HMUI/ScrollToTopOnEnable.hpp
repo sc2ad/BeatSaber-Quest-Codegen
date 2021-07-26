@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace HMUI {
     // Set instance field: private HMUI.ScrollView _scrollView
     void _set__scrollView(HMUI::ScrollView* value);
     // protected System.Void OnEnable()
-    // Offset: 0x12973B8
+    // Offset: 0x106CAF4
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1297510
+    // Offset: 0x106CC4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

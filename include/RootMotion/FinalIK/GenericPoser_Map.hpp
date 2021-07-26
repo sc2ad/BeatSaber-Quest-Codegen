@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.GenericPoser
 #include "RootMotion/FinalIK/GenericPoser.hpp"
 // Including type: UnityEngine.Vector3
@@ -73,20 +74,20 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Quaternion defaultLocalRotation
     void _set_defaultLocalRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
-    // Offset: 0x1C895D0
+    // Offset: 0x1827370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPoser::Map* New_ctor(UnityEngine::Transform* bone, UnityEngine::Transform* target) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GenericPoser::Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser::Map*, creationType>(bone, target)));
     }
     // public System.Void StoreDefaultState()
-    // Offset: 0x1C899D4
+    // Offset: 0x1827774
     void StoreDefaultState();
     // public System.Void FixTransform()
-    // Offset: 0x1C89988
+    // Offset: 0x1827728
     void FixTransform();
     // public System.Void Update(System.Single localRotationWeight, System.Single localPositionWeight)
-    // Offset: 0x1C89780
+    // Offset: 0x1827520
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map
   #pragma pack(pop)

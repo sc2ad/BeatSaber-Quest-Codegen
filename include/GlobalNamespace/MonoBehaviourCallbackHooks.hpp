@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
 #include "UnityEngine/ResourceManagement/Util/ComponentSingleton_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,16 +42,16 @@ namespace GlobalNamespace {
     // Set instance field: System.Action`1<System.Single> m_OnUpdateDelegate
     void _set_m_OnUpdateDelegate(System::Action_1<float>* value);
     // public System.Void add_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x19ACE28
+    // Offset: 0x1664F1C
     void add_OnUpdateDelegate(System::Action_1<float>* value);
     // public System.Void remove_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x19ACEA8
+    // Offset: 0x1664F9C
     void remove_OnUpdateDelegate(System::Action_1<float>* value);
     // System.Void Update()
-    // Offset: 0x19ACF70
+    // Offset: 0x1665064
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x19ACFDC
+    // Offset: 0x16650D0
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MonoBehaviourCallbackHooks*, creationType>()));
     }
     // protected override System.String GetGameObjectName()
-    // Offset: 0x19ACF28
+    // Offset: 0x166501C
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.String ComponentSingleton_1::GetGameObjectName()
     ::Il2CppString* GetGameObjectName();

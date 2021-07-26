@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,28 +54,28 @@ namespace GlobalNamespace {
     // Set instance field: private PlayerData _playerData
     void _set__playerData(GlobalNamespace::PlayerData* value);
     // public PlayerData get_playerData()
-    // Offset: 0x1104390
+    // Offset: 0x1F563A4
     GlobalNamespace::PlayerData* get_playerData();
     // protected System.Void OnEnable()
-    // Offset: 0x1104398
+    // Offset: 0x1F563AC
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x11043CC
+    // Offset: 0x1F563E0
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0x11043F8
+    // Offset: 0x1F5640C
     void OnDisable();
     // public System.Void ResetData()
-    // Offset: 0x11043FC
+    // Offset: 0x1F56410
     void ResetData();
     // public System.Void Save()
-    // Offset: 0x11043D8
+    // Offset: 0x1F563EC
     void Save();
     // public System.Void Load()
-    // Offset: 0x110439C
+    // Offset: 0x1F563B0
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x110442C
+    // Offset: 0x1F56440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,20 +50,20 @@ namespace GlobalNamespace {
     // Set instance field: private readonly ProfanityFilter/TrieNode _trie
     void _set__trie(GlobalNamespace::ProfanityFilter::TrieNode* value);
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> wordList)
-    // Offset: 0x230CF70
+    // Offset: 0x23CE124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter* New_ctor(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* wordList) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter*, creationType>(wordList)));
     }
     // public System.Boolean IsProfane(System.String word)
-    // Offset: 0x230D620
+    // Offset: 0x23CE7D4
     bool IsProfane(::Il2CppString* word);
     // static private System.Collections.Generic.IEnumerable`1<System.Char> GetLookalikeLetters(System.Char c)
-    // Offset: 0x230D814
+    // Offset: 0x23CE9C8
     static System::Collections::Generic::IEnumerable_1<::Il2CppChar>* GetLookalikeLetters(::Il2CppChar c);
     // static private System.Char GetLeetEquivalent(System.Char c)
-    // Offset: 0x230D8CC
+    // Offset: 0x23CEA80
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
   #pragma pack(pop)

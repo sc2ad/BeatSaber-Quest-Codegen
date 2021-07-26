@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.SimpleAsyncResult
 #include "System/Net/SimpleAsyncResult.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace System::Net {
     // Set instance field: public System.Net.SimpleAsyncResult <>4__this
     void _set_$$4__this(System::Net::SimpleAsyncResult* value);
     // System.Void <.ctor>b__0(System.Net.SimpleAsyncResult result)
-    // Offset: 0x146D1D4
+    // Offset: 0x11DE234
     void $_ctor$b__0(System::Net::SimpleAsyncResult* result);
     // public System.Void .ctor()
-    // Offset: 0x146C910
+    // Offset: 0x11DD970
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

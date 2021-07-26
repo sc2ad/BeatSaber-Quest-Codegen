@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,10 +35,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DeactivateAfterFirstFrame
     DeactivateAfterFirstFrame() noexcept {}
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x10887D0
+    // Offset: 0x1F0A0CC
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x108886C
+    // Offset: 0x1F0A168
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

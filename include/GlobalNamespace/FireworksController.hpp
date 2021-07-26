@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: FireworkItemController
@@ -55,8 +56,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: directionalLights
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0xE04AD8
-    // [NullAllowed] Offset: 0xE04AD8
+    // [HeaderAttribute] Offset: 0xEB16F4
+    // [NullAllowed] Offset: 0xEB16F4
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x30
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
     int currentLightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE04B44
+    // [InjectAttribute] Offset: 0xEB1760
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8
     // Offset: 0x40
@@ -115,19 +116,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly FireworkItemController/Pool _fireworkItemPool
     void _set__fireworkItemPool(GlobalNamespace::FireworkItemController::Pool* value);
     // protected System.Void OnEnable()
-    // Offset: 0x10286D8
+    // Offset: 0x1E931AC
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x1028704
+    // Offset: 0x1E931D8
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x10287A0
+    // Offset: 0x1E93274
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x102884C
+    // Offset: 0x1E93320
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x10288D0
+    // Offset: 0x1E933A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

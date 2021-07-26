@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: MultiplayerLobbyAvatarController
@@ -46,14 +47,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13
     class $RemovePlayerAndDestroy$d__13;
-    // [InjectAttribute] Offset: 0xDFFEB4
+    // [InjectAttribute] Offset: 0xEACAD0
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFFEC4
+    // [InjectAttribute] Offset: 0xEACAE0
     // private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerFactory
     // Size: 0x8
     // Offset: 0x20
@@ -113,31 +114,31 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
     void _set__inProgressDespawnAnimations(System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>* value);
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x23CD8B8
+    // Offset: 0x1E7037C
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x23CD8C0
+    // Offset: 0x1E70384
     void ActivateMultiplayerLobbyAvatarManager();
     // public System.Void DeactivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x23CDFE8
+    // Offset: 0x1E70AAC
     void DeactivateMultiplayerLobbyAvatarManager();
     // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x23CE318
+    // Offset: 0x1E70DDC
     void HandleLobbyStateDataModelPlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x23CE31C
+    // Offset: 0x1E70DE0
     void HandleLobbyStateDataModelPlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void AddPlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x23CDB60
+    // Offset: 0x1E70624
     void AddPlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void RemovePlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x23CE320
+    // Offset: 0x1E70DE4
     void RemovePlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Collections.IEnumerator RemovePlayerAndDestroy(System.String userId, MultiplayerLobbyAvatarController multiplayerAvatar)
-    // Offset: 0x23CE728
+    // Offset: 0x1E711EC
     System::Collections::IEnumerator* RemovePlayerAndDestroy(::Il2CppString* userId, GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
     // public System.Void .ctor()
-    // Offset: 0x23CE7D8
+    // Offset: 0x1E7129C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

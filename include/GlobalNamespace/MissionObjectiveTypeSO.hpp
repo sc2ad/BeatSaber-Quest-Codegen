@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveTypeSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xE01A74
+    // [LocalizationKeyAttribute] Offset: 0xEAE690
     // private System.String _objectiveName
     // Size: 0x8
     // Offset: 0x18
@@ -64,19 +65,19 @@ namespace GlobalNamespace {
     // Set instance field: private ObjectiveValueFormatterSO _objectiveValueFormater
     void _set__objectiveValueFormater(GlobalNamespace::ObjectiveValueFormatterSO* value);
     // public System.String get_objectiveName()
-    // Offset: 0x113806C
+    // Offset: 0x1F68A80
     ::Il2CppString* get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0x11318A8
+    // Offset: 0x1F622BC
     ::Il2CppString* get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0x1138074
+    // Offset: 0x1F68A88
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0x113807C
+    // Offset: 0x1F68A90
     GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0x1138084
+    // Offset: 0x1F68A98
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

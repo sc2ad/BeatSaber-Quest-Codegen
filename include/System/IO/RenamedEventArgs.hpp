@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.FileSystemEventArgs
 #include "System/IO/FileSystemEventArgs.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace System::IO {
     // Set instance field: private System.String oldFullPath
     void _set_oldFullPath(::Il2CppString* value);
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
-    // Offset: 0x1856710
+    // Offset: 0x1527B14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::RenamedEventArgs::.ctor");

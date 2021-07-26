@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
@@ -16,10 +17,10 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: NoReflectionHelper
     NoReflectionHelper() noexcept {}
     // static System.Object GetInternalValidator(System.Object provider, System.Object settings)
-    // Offset: 0x15B1080
+    // Offset: 0x12B4650
     static ::Il2CppObject* GetInternalValidator(::Il2CppObject* provider, ::Il2CppObject* settings);
     // static System.Object GetProvider()
-    // Offset: 0x15B1138
+    // Offset: 0x12B4708
     static ::Il2CppObject* GetProvider();
   }; // Mono.Net.Security.NoReflectionHelper
   #pragma pack(pop)

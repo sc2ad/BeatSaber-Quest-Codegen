@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithSystemPermission
     MessageWithSystemPermission() noexcept {}
     // protected Oculus.Platform.Models.SystemPermission GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14A829C
+    // Offset: 0x2104110
     Oculus::Platform::Models::SystemPermission* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14A81F8
+    // Offset: 0x210406C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithSystemPermission*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.SystemPermission GetSystemPermission()
-    // Offset: 0x14A8258
+    // Offset: 0x21040CC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemPermission Message::GetSystemPermission()
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();

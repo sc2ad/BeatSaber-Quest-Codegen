@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IDerivationParameters
 #include "Org/BouncyCastle/Crypto/IDerivationParameters.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,17 +47,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private System.Byte[] shared
     void _set_shared(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
-    // Offset: 0x122C84C
+    // Offset: 0x1036B24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdfParameters* New_ctor(::Array<uint8_t>* shared, ::Array<uint8_t>* iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KdfParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdfParameters*, creationType>(shared, iv)));
     }
     // public System.Byte[] GetSharedSecret()
-    // Offset: 0x122C884
+    // Offset: 0x1036B5C
     ::Array<uint8_t>* GetSharedSecret();
     // public System.Byte[] GetIV()
-    // Offset: 0x122C88C
+    // Offset: 0x1036B64
     ::Array<uint8_t>* GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
   #pragma pack(pop)

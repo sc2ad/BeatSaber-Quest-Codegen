@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -24,7 +25,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: CloudStorage2
     CloudStorage2() noexcept {}
     // static public Oculus.Platform.Request`1<System.String> GetUserDirectoryPath()
-    // Offset: 0x1496BB4
+    // Offset: 0x20F2A28
     static Oculus::Platform::Request_1<::Il2CppString*>* GetUserDirectoryPath();
   }; // Oculus.Platform.CloudStorage2
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.TaskUpdater`1
 #include "Zenject/TaskUpdater_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace Zenject {
     // Creating value type constructor for type: FixedTickablesTaskUpdater
     FixedTickablesTaskUpdater() noexcept {}
     // protected System.Void UpdateItem(Zenject.IFixedTickable task)
-    // Offset: 0x161D558
+    // Offset: 0x1320B28
     void UpdateItem(Zenject::IFixedTickable* task);
     // public System.Void .ctor()
-    // Offset: 0x161D604
+    // Offset: 0x1320BD4
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater_1::.ctor()
     // Base method: System.Void Object::.ctor()

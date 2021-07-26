@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     CommandBufferGOCore(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* cameras_ = {}, UnityEngine::Mesh* mesh_ = {}) noexcept : cameras{cameras_}, mesh{mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDEB4D4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE990F0
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
@@ -78,13 +79,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Mesh _mesh
     void _set__mesh(UnityEngine::Mesh* value);
     // protected System.Void OnEnable()
-    // Offset: 0x233D1B0
+    // Offset: 0x1DC35F0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x233D5D8
+    // Offset: 0x1DC3A18
     void OnDisable();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x233D958
+    // Offset: 0x1DC3D98
     void OnWillRenderObject();
     // protected UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
     // Offset: 0xFFFFFFFF
@@ -96,7 +97,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected System.Void .ctor()
-    // Offset: 0x233D134
+    // Offset: 0x1DC3574
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

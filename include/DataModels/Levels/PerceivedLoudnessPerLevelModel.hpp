@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,23 +68,23 @@ namespace DataModels::Levels {
     // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
     void _set__loudnessLevelPerLevelId(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* value);
     // public System.Void .ctor(PerceivedLoudnessPerLevelSO loudnessPerLeveData)
-    // Offset: 0x1087A28
+    // Offset: 0x1F09324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelModel* New_ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData) {
       static auto ___internal__logger = ::Logger::get().WithContext("DataModels::Levels::PerceivedLoudnessPerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelModel*, creationType>(loudnessPerLeveData)));
     }
     // public System.Boolean ContainsLevelId(System.String levelId)
-    // Offset: 0x1087B18
+    // Offset: 0x1F09414
     bool ContainsLevelId(::Il2CppString* levelId);
     // public System.Single GetLoudnessCorrectionByLevelId(System.String levelId)
-    // Offset: 0x1087B80
+    // Offset: 0x1F0947C
     float GetLoudnessCorrectionByLevelId(::Il2CppString* levelId);
     // public System.Single GetMaxSfxVolumeByLevelId(System.String levelId)
-    // Offset: 0x1087C98
+    // Offset: 0x1F09594
     float GetMaxSfxVolumeByLevelId(::Il2CppString* levelId);
     // private System.Single GetLoudnessByLevelId(System.String levelId)
-    // Offset: 0x1087C14
+    // Offset: 0x1F09510
     float GetLoudnessByLevelId(::Il2CppString* levelId);
   }; // DataModels.Levels.PerceivedLoudnessPerLevelModel
   #pragma pack(pop)

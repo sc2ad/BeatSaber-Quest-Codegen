@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Playables.PlayableOutput
@@ -196,31 +197,31 @@ namespace UnityEngine::Playables {
     // Set instance field: UnityEngine.Playables.PlayableOutput m_Output
     void _set_m_Output(UnityEngine::Playables::PlayableOutput value);
     // public System.Single get_deltaTime()
-    // Offset: 0xEF934C
+    // Offset: 0xF851A0
     float get_deltaTime();
     // public System.Single get_effectiveSpeed()
-    // Offset: 0xEF9358
+    // Offset: 0xF851AC
     float get_effectiveSpeed();
     // public UnityEngine.Playables.FrameData/UnityEngine.Playables.EvaluationType get_evaluationType()
-    // Offset: 0xEF9360
+    // Offset: 0xF851B4
     UnityEngine::Playables::FrameData::EvaluationType get_evaluationType();
     // public System.Boolean get_seekOccurred()
-    // Offset: 0xEF9370
+    // Offset: 0xF851C4
     bool get_seekOccurred();
     // public System.Boolean get_timeLooped()
-    // Offset: 0xEF937C
+    // Offset: 0xF851D0
     bool get_timeLooped();
     // public System.Boolean get_timeHeld()
-    // Offset: 0xEF9388
+    // Offset: 0xF851DC
     bool get_timeHeld();
     // public UnityEngine.Playables.PlayableOutput get_output()
-    // Offset: 0xEF9394
+    // Offset: 0xF851E8
     UnityEngine::Playables::PlayableOutput get_output();
     // public UnityEngine.Playables.PlayState get_effectivePlayState()
-    // Offset: 0xEF93A0
+    // Offset: 0xF851F4
     UnityEngine::Playables::PlayState get_effectivePlayState();
     // private System.Boolean HasFlags(UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags flag)
-    // Offset: 0xEF933C
+    // Offset: 0xF85190
     bool HasFlags(UnityEngine::Playables::FrameData::Flags flag);
   }; // UnityEngine.Playables.FrameData
   #pragma pack(pop)

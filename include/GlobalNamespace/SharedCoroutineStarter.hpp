@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentSingleton`1
 #include "GlobalNamespace/PersistentSingleton_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SharedCoroutineStarter
     SharedCoroutineStarter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x23591DC
+    // Offset: 0x1DE161C
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

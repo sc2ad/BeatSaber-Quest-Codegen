@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.LogicalCallContext
 #include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
 // Including type: System.ValueType
@@ -43,20 +44,20 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
     void _set_m_ctx(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
     // public System.Boolean get_IsNull()
-    // Offset: 0xEECC60
+    // Offset: 0xD80C18
     bool get_IsNull();
     // public System.Boolean get_HasInfo()
-    // Offset: 0xEECC70
+    // Offset: 0xD80C28
     bool get_HasInfo();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0xEECC58
+    // Offset: 0xD80C10
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx)
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
-    // Offset: 0xEECC80
+    // Offset: 0xD80C38
     System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
-    // Offset: 0xEECC88
+    // Offset: 0xD80C40
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

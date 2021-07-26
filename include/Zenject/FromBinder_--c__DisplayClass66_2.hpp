@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FromBinder
 #include "Zenject/FromBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace Zenject {
     // Set instance field: public Zenject.InjectContext ctx
     void _set_ctx(Zenject::InjectContext* value);
     // System.Boolean <FromComponentsInHierarchyBase>b__3(UnityEngine.Component x)
-    // Offset: 0x1622AE0
+    // Offset: 0x13260B0
     bool $FromComponentsInHierarchyBase$b__3(UnityEngine::Component* x);
     // public System.Void .ctor()
-    // Offset: 0x1622AA4
+    // Offset: 0x1326074
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

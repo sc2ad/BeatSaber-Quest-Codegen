@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.ExecuteEvents
 #include "UnityEngine/EventSystems/ExecuteEvents.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,13 +41,13 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c <>9
     static void _set_$$9(UnityEngine::EventSystems::ExecuteEvents::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1405048
+    // Offset: 0x11ADCA8
     static void _cctor();
     // System.Void <.cctor>b__79_0(System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler> l)
-    // Offset: 0x14050B4
+    // Offset: 0x11ADD14
     void $_cctor$b__79_0(System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>* l);
     // public System.Void .ctor()
-    // Offset: 0x14050AC
+    // Offset: 0x11ADD0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

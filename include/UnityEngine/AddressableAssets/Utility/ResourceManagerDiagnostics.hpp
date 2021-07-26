@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceManager
@@ -65,23 +66,23 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AddressableAssets.Utility.DiagnosticInfo> m_cachedDiagnosticInfo
     void _set_m_cachedDiagnosticInfo(System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value);
     // public System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager resourceManager)
-    // Offset: 0x23937FC
+    // Offset: 0x1E0B7E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerDiagnostics* New_ctor(UnityEngine::ResourceManagement::ResourceManager* resourceManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerDiagnostics*, creationType>(resourceManager)));
     }
     // System.Int32 SumDependencyNameHashCodes(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x23938CC
+    // Offset: 0x1E0B8B4
     int SumDependencyNameHashCodes(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // System.Int32 CalculateHashCode(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x2393A88
+    // Offset: 0x1E0BA70
     int CalculateHashCode(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // private System.Void OnResourceManagerDiagnosticEvent(UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext eventContext)
-    // Offset: 0x2393B80
+    // Offset: 0x1E0BB68
     void OnResourceManagerDiagnosticEvent(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext eventContext);
     // public System.Void Dispose()
-    // Offset: 0x2393E54
+    // Offset: 0x1E0BE3C
     void Dispose();
   }; // UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics
   #pragma pack(pop)

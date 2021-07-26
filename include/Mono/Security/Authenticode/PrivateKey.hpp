@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -71,26 +72,26 @@ namespace Mono::Security::Authenticode {
     // Set instance field: private System.Int32 keyType
     void _set_keyType(int value);
     // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x1DD7E18
+    // Offset: 0x194A9F8
     System::Security::Cryptography::RSA* get_RSA();
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x1DD78A8
+    // Offset: 0x194A488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKey* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Authenticode::PrivateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKey*, creationType>(data, password)));
     }
     // private System.Byte[] DeriveKey(System.Byte[] salt, System.String password)
-    // Offset: 0x1DD7E20
+    // Offset: 0x194AA00
     ::Array<uint8_t>* DeriveKey(::Array<uint8_t>* salt, ::Il2CppString* password);
     // private System.Boolean Decode(System.Byte[] pvk, System.String password)
-    // Offset: 0x1DD7998
+    // Offset: 0x194A578
     bool Decode(::Array<uint8_t>* pvk, ::Il2CppString* password);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename)
-    // Offset: 0x1DD8008
+    // Offset: 0x194ABE8
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename, System.String password)
-    // Offset: 0x1DD8010
+    // Offset: 0x194ABF0
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename, ::Il2CppString* password);
   }; // Mono.Security.Authenticode.PrivateKey
   #pragma pack(pop)

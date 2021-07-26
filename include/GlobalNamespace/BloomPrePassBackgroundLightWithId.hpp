@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIdMonoBehaviour
 #include "GlobalNamespace/LightWithIdMonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,10 +47,10 @@ namespace GlobalNamespace {
     // Set instance field: private BloomPrePassBackgroundColor _bloomPrePassBackgroundColor
     void _set__bloomPrePassBackgroundColor(GlobalNamespace::BloomPrePassBackgroundColor* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DECF14
+    // Offset: 0x195FAF4
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1DECF54
+    // Offset: 0x195FB34
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1DECF34
+    // Offset: 0x195FB14
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(UnityEngine::Color newColor);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo
 #include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,13 +48,13 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
     void _set_m_preComp(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* value);
     // public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] get_PreComp()
-    // Offset: 0x1D94D24
+    // Offset: 0x1906904
     ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint[] value)
-    // Offset: 0x1D94D2C
+    // Offset: 0x190690C
     void set_PreComp(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1D94D1C
+    // Offset: 0x19068FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

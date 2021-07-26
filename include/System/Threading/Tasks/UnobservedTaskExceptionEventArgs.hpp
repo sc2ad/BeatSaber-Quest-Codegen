@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace System::Threading::Tasks {
     // Set instance field: System.Boolean m_observed
     void _set_m_observed(bool value);
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0x1886FA8
+    // Offset: 0x15583AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnobservedTaskExceptionEventArgs::.ctor");

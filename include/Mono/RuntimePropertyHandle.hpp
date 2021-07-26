@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
@@ -43,19 +44,19 @@ namespace Mono {
     // Set instance field: private System.IntPtr value
     void _set_value(System::IntPtr value);
     // public System.IntPtr get_Value()
-    // Offset: 0xEECFB4
+    // Offset: 0xD80F6C
     System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xEECFAC
+    // Offset: 0xD80F64
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RuntimePropertyHandle(System::IntPtr v)
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEECFBC
+    // Offset: 0xD80F74
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEECFC4
+    // Offset: 0xD80F7C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

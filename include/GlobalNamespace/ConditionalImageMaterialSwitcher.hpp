@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,21 +37,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalImageMaterialSwitcher : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE0A560
+    // [HeaderAttribute] Offset: 0xEB717C
     // private UnityEngine.Material _material0
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE0A5AC
+    // [HeaderAttribute] Offset: 0xEB71C8
     // private UnityEngine.Material _material1
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0A5F8
+    // [SpaceAttribute] Offset: 0xEB7214
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x28
@@ -84,10 +85,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _image
     void _set__image(UnityEngine::UI::Image* value);
     // public System.Void Awake()
-    // Offset: 0x1080E68
+    // Offset: 0x1F02764
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1080EF0
+    // Offset: 0x1F027EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

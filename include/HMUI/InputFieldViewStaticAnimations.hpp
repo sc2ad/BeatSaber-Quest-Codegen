@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.InputFieldView
@@ -34,7 +35,7 @@ namespace HMUI {
     HMUI::InputFieldView* inputFieldView;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDE3DB8
+    // [SpaceAttribute] Offset: 0xE919D4
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -104,22 +105,22 @@ namespace HMUI {
     // Set instance field: private System.Boolean _didStart
     void _set__didStart(bool value);
     // protected System.Void Awake()
-    // Offset: 0x12927B4
+    // Offset: 0x1067EF0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1292844
+    // Offset: 0x1067F80
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1292980
+    // Offset: 0x10680BC
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x129299C
+    // Offset: 0x10680D8
     void OnDestroy();
     // private System.Void HandleInputFieldViewSelectionStateDidChange(HMUI.InputFieldView/HMUI.SelectionState state)
-    // Offset: 0x1292868
+    // Offset: 0x1067FA4
     void HandleInputFieldViewSelectionStateDidChange(HMUI::InputFieldView::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x1292A74
+    // Offset: 0x10681B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

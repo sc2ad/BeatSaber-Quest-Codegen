@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -94,35 +95,35 @@ namespace Org::BouncyCastle::X509 {
     // Set instance field: private System.IO.Stream currentCrlStream
     void _set_currentCrlStream(System::IO::Stream* value);
     // public System.Void .ctor(System.Boolean lazyAsn1)
-    // Offset: 0x1F82B40
+    // Offset: 0x1A68A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlParser* New_ctor(bool lazyAsn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509CrlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>(lazyAsn1)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F83284
+    // Offset: 0x1A69144
     static void _cctor();
     // private Org.BouncyCastle.X509.X509Crl ReadPemCrl(System.IO.Stream inStream)
-    // Offset: 0x1F82B70
+    // Offset: 0x1A68A30
     Org::BouncyCastle::X509::X509Crl* ReadPemCrl(System::IO::Stream* inStream);
     // private Org.BouncyCastle.X509.X509Crl ReadDerCrl(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x1F82C24
+    // Offset: 0x1A68AE4
     Org::BouncyCastle::X509::X509Crl* ReadDerCrl(Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Crl GetCrl()
-    // Offset: 0x1F82E28
+    // Offset: 0x1A68CE8
     Org::BouncyCastle::X509::X509Crl* GetCrl();
     // protected Org.BouncyCastle.X509.X509Crl CreateX509Crl(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x1F82EB0
+    // Offset: 0x1A68D70
     Org::BouncyCastle::X509::X509Crl* CreateX509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.Byte[] input)
-    // Offset: 0x1F82F10
+    // Offset: 0x1A68DD0
     Org::BouncyCastle::X509::X509Crl* ReadCrl(::Array<uint8_t>* input);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.IO.Stream inStream)
-    // Offset: 0x1F82F88
+    // Offset: 0x1A68E48
     Org::BouncyCastle::X509::X509Crl* ReadCrl(System::IO::Stream* inStream);
     // public System.Void .ctor()
-    // Offset: 0x1F82B18
+    // Offset: 0x1A689D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

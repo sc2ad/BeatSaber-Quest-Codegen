@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseTransitionSO
 #include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -89,25 +90,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Sprite _selectedAndHighlightedSprite
     void _set__selectedAndHighlightedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_normalSprite()
-    // Offset: 0x105F168
+    // Offset: 0x1EC9C3C
     UnityEngine::Sprite* get_normalSprite();
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0x105F170
+    // Offset: 0x1EC9C44
     UnityEngine::Sprite* get_highlightedSprite();
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0x105F178
+    // Offset: 0x1EC9C4C
     UnityEngine::Sprite* get_pressedSprite();
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0x105F180
+    // Offset: 0x1EC9C54
     UnityEngine::Sprite* get_disabledSprite();
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0x105F188
+    // Offset: 0x1EC9C5C
     UnityEngine::Sprite* get_selectedSprite();
     // public UnityEngine.Sprite get_selectedAndHighlightedSprite()
-    // Offset: 0x105F190
+    // Offset: 0x1EC9C64
     UnityEngine::Sprite* get_selectedAndHighlightedSprite();
     // public System.Void .ctor()
-    // Offset: 0x105F198
+    // Offset: 0x1EC9C6C
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandardLevelInfoSaveData_V100
 #include "GlobalNamespace/StandardLevelInfoSaveData_V100.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -74,22 +75,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _noteJumpStartBeatOffset
     void _set__noteJumpStartBeatOffset(int value);
     // public System.String get_difficulty()
-    // Offset: 0x10662D4
+    // Offset: 0x1ED1DA8
     ::Il2CppString* get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x10662DC
+    // Offset: 0x1ED1DB0
     int get_difficultyRank();
     // public System.String get_beatmapFilename()
-    // Offset: 0x10662E4
+    // Offset: 0x1ED1DB8
     ::Il2CppString* get_beatmapFilename();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x10662EC
+    // Offset: 0x1ED1DC0
     float get_noteJumpMovementSpeed();
     // public System.Int32 get_noteJumpStartBeatOffset()
-    // Offset: 0x10662F4
+    // Offset: 0x1ED1DC8
     int get_noteJumpStartBeatOffset();
     // public System.Void .ctor(System.String difficultyName, System.Int32 difficultyRank, System.String beatmapFilename, System.Single noteJumpMovementSpeed, System.Int32 noteJumpStartBeatOffset)
-    // Offset: 0x10662FC
+    // Offset: 0x1ED1DD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData_V100::DifficultyBeatmap* New_ctor(::Il2CppString* difficultyName, int difficultyRank, ::Il2CppString* beatmapFilename, float noteJumpMovementSpeed, int noteJumpStartBeatOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::.ctor");

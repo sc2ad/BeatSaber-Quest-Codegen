@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.CompilerServices.YieldAwaitable
 #include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
@@ -51,25 +52,25 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private readonly System.Threading.SendOrPostCallback s_sendOrPostCallbackRunAction
     static void _set_s_sendOrPostCallbackRunAction(System::Threading::SendOrPostCallback* value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xED607C
+    // Offset: 0xD6BCBC
     bool get_IsCompleted();
     // static private System.Void .cctor()
-    // Offset: 0x13F0CD4
+    // Offset: 0x1199934
     static void _cctor();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xED6084
+    // Offset: 0xD6BCC4
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xED6088
+    // Offset: 0xD6BCC8
     void UnsafeOnCompleted(System::Action* continuation);
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x13F0928
+    // Offset: 0x1199588
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x13F0C64
+    // Offset: 0x11998C4
     static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
-    // Offset: 0xED608C
+    // Offset: 0xD6BCCC
     void GetResult();
   }; // System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter
   #pragma pack(pop)

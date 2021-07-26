@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -64,14 +65,14 @@ namespace Zenject {
     // Set instance field: private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
     void _set__renderables(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IGuiRenderable> renderables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x162446C
+    // Offset: 0x1327A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>* renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GuiRenderableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager*, creationType>(renderables, priorities)));
     }
     // public System.Void OnGui()
-    // Offset: 0x16248E4
+    // Offset: 0x1327EB4
     void OnGui();
   }; // Zenject.GuiRenderableManager
   #pragma pack(pop)

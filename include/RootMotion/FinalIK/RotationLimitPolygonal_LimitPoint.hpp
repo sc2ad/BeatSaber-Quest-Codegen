@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.RotationLimitPolygonal
 #include "RootMotion/FinalIK/RotationLimitPolygonal.hpp"
 // Including type: UnityEngine.Vector3
@@ -44,7 +45,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single tangentWeight
     void _set_tangentWeight(float value);
     // public System.Void .ctor()
-    // Offset: 0x1ABCAE0
+    // Offset: 0x1734330
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

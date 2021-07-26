@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime
 #include "System/Net/Http/Headers/Parser_DateTime.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -27,13 +28,13 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c <>9
     static void _set_$$9(System::Net::Http::Headers::Parser::DateTime::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x156A378
+    // Offset: 0x126E948
     static void _cctor();
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x156A3E4
+    // Offset: 0x126E9B4
     ::Il2CppString* $_cctor$b__2_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x156A3DC
+    // Offset: 0x126E9AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

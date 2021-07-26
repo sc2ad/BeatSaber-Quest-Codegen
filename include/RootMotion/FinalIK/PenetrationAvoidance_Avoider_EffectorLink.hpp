@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider
 #include "RootMotion/FinalIK/PenetrationAvoidance_Avoider.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -21,14 +22,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class PenetrationAvoidance::Avoider::EffectorLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF9018
+    // [TooltipAttribute] Offset: 0xEA5C34
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF9050
+    // [TooltipAttribute] Offset: 0xEA5C6C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -46,7 +47,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single weight
     void _set_weight(float value);
     // public System.Void .ctor()
-    // Offset: 0x1AB772C
+    // Offset: 0x172EF7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

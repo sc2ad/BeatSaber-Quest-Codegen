@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSystemPerfMetrics
 #include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -316,13 +317,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 deviceGpuClockLevel
     void _set_deviceGpuClockLevel(int value);
     // public System.String ToJSON()
-    // Offset: 0x1EEFFF4
+    // Offset: 0x1A06C94
     ::Il2CppString* ToJSON();
     // public System.Boolean LoadFromJSON(System.String json)
-    // Offset: 0x1EF04E0
+    // Offset: 0x1A07180
     bool LoadFromJSON(::Il2CppString* json);
     // public System.Void .ctor()
-    // Offset: 0x1EF0464
+    // Offset: 0x1A07104
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

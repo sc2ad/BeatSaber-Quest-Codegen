@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,13 +54,13 @@ namespace GlobalNamespace {
     // Set instance field: private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
     void _set__eventTextBindings(::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* value);
     // protected System.Void Awake()
-    // Offset: 0x10539DC
+    // Offset: 0x1EBE4B0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1053AE8
+    // Offset: 0x1EBE5BC
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1053BDC
+    // Offset: 0x1EBE6B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

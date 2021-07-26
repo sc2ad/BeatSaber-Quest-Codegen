@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -27,7 +28,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private System.Action <RestoringTestContext>k__BackingField
     static void _set_$RestoringTestContext$k__BackingField(System::Action* value);
     // static public System.Action get_RestoringTestContext()
-    // Offset: 0x147F0C0
+    // Offset: 0x11F0120
     static System::Action* get_RestoringTestContext();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.EditModeTestCallbacks
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Versioning
 namespace System::Runtime::Versioning {
@@ -24,7 +25,7 @@ namespace System::Runtime::Versioning {
     // Set static field: static public readonly System.Boolean TargetsAtLeast_Desktop_V4_5_1
     static void _set_TargetsAtLeast_Desktop_V4_5_1(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1685010
+    // Offset: 0x13876CC
     static void _cctor();
   }; // System.Runtime.Versioning.BinaryCompatibility
   #pragma pack(pop)

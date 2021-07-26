@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -25,7 +26,7 @@ namespace System {
     // Creating value type constructor for type: IOSelector
     IOSelector() noexcept {}
     // static public System.Void Add(System.IntPtr handle, System.IOSelectorJob job)
-    // Offset: 0x1857884
+    // Offset: 0x1528C88
     static void Add(System::IntPtr handle, System::IOSelectorJob* job);
   }; // System.IOSelector
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameScenesManager
 #include "GlobalNamespace/GameScenesManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,10 +57,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action`1<Zenject.DiContainer> finishCallback
     void _set_finishCallback(System::Action_1<Zenject::DiContainer*>* value);
     // System.Void <PopScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x1218030
+    // Offset: 0x2044988
     void $PopScenes$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1216C9C
+    // Offset: 0x20435F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

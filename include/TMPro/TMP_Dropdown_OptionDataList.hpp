@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_Dropdown
 #include "TMPro/TMP_Dropdown.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace TMPro {
     // Set instance field: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> m_Options
     void _set_m_Options(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> get_options()
-    // Offset: 0x10C2994
+    // Offset: 0xFFA494
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> value)
-    // Offset: 0x10C299C
+    // Offset: 0xFFA49C
     void set_options(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x10C00F8
+    // Offset: 0xFF7BF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

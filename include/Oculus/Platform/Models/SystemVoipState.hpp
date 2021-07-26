@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.VoipMuteState
 #include "Oculus/Platform/VoipMuteState.hpp"
 // Including type: Oculus.Platform.SystemVoipStatus
@@ -46,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.SystemVoipStatus Status
     void _set_Status(Oculus::Platform::SystemVoipStatus value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A84B4
+    // Offset: 0x2104328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemVoipState* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SystemVoipState::.ctor");

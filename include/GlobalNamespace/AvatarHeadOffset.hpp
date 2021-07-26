@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: positionOffset and: avatarPoseController
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xDFF670
+    // [InjectAttribute] Offset: 0xEAC28C
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x28
@@ -54,16 +55,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly AvatarPoseController _avatarPoseController
     void _set__avatarPoseController(GlobalNamespace::AvatarPoseController* value);
     // protected System.Void Start()
-    // Offset: 0x10DF150
+    // Offset: 0x1F30164
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10DF284
+    // Offset: 0x1F30298
     void OnDestroy();
     // private System.Void HandleMultiplayerAvatarPoseControllerDidUpdatePose(UnityEngine.Vector3 headLocalPosition)
-    // Offset: 0x10DF400
+    // Offset: 0x1F30414
     void HandleMultiplayerAvatarPoseControllerDidUpdatePose(UnityEngine::Vector3 headLocalPosition);
     // public System.Void .ctor()
-    // Offset: 0x10DF4D0
+    // Offset: 0x1F304E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

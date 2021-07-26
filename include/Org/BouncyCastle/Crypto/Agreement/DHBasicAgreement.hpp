@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IBasicAgreement
 #include "Org/BouncyCastle/Crypto/IBasicAgreement.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,16 +66,16 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set instance field: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams
     void _set_dhParams(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x19EA48C
+    // Offset: 0x16A1580
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0x19EA594
+    // Offset: 0x16A1688
     int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x19EA5DC
+    // Offset: 0x16A16D0
     Org::BouncyCastle::Math::BigInteger* CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
     // public System.Void .ctor()
-    // Offset: 0x19EA840
+    // Offset: 0x16A1934
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

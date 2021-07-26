@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IncDecColorController
 #include "GlobalNamespace/IncDecColorController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
     void _set__numberOfElements(int value);
     // protected System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     // Offset: 0xFFFFFFFF
-    bool GetInitValues(int& idx, int& numberOfElements);
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected System.Void ApplyValue(System.Int32 idx)
     // Offset: 0xFFFFFFFF
     void ApplyValue(int idx);
@@ -58,16 +59,16 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     UnityEngine::Color ColorForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x11B9E90
+    // Offset: 0x1FE88D4
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x11B9ED4
+    // Offset: 0x1FE8918
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x11B9F3C
+    // Offset: 0x1FE8980
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x11BA02C
+    // Offset: 0x1FE8A70
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -81,12 +82,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ListColorController*, creationType>()));
     }
     // protected override System.Void IncButtonPressed()
-    // Offset: 0x11B9F9C
+    // Offset: 0x1FE89E0
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::IncButtonPressed()
     void IncButtonPressed();
     // protected override System.Void DecButtonPressed()
-    // Offset: 0x11B9FE8
+    // Offset: 0x1FE8A2C
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::DecButtonPressed()
     void DecButtonPressed();
@@ -100,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListColorController*, "", "ListColorCont
 // Writing MetadataGetter for method: GlobalNamespace::ListColorController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ListColorController::*)(int&, int&)>(&GlobalNamespace::ListColorController::GetInitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ListColorController::*)(ByRef<int>, ByRef<int>)>(&GlobalNamespace::ListColorController::GetInitValues)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* numberOfElements = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

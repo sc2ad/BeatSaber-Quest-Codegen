@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Array
 #include "System/Array.hpp"
 // Including type: System.ICloneable
@@ -64,23 +65,23 @@ namespace System {
     // Set instance field: private System.Int32 _endIndex
     void _set__endIndex(int value);
     // public System.Object get_Current()
-    // Offset: 0x177D79C
+    // Offset: 0x147EE58
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Array array)
-    // Offset: 0x177CD7C
+    // Offset: 0x147E438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Array::ArrayEnumerator* New_ctor(System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::ArrayEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Array::ArrayEnumerator*, creationType>(array)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x177D760
+    // Offset: 0x147EE1C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x177D788
+    // Offset: 0x147EE44
     void Reset();
     // public System.Object Clone()
-    // Offset: 0x177D794
+    // Offset: 0x147EE50
     ::Il2CppObject* Clone();
   }; // System.Array/System.ArrayEnumerator
   #pragma pack(pop)

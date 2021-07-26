@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UIKeyboard
 #include "GlobalNamespace/UIKeyboard.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace GlobalNamespace {
     // Set instance field: public UIKeyboard <>4__this
     void _set_$$4__this(GlobalNamespace::UIKeyboard* value);
     // System.Void <Awake>b__4()
-    // Offset: 0x126FDC4
+    // Offset: 0x2063D44
     void $Awake$b__4();
     // public System.Void .ctor()
-    // Offset: 0x126FD04
+    // Offset: 0x2063C84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

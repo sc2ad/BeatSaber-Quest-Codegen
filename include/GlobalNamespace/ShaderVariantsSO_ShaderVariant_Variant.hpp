@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ShaderVariantsSO/ShaderVariant
 #include "GlobalNamespace/ShaderVariantsSO_ShaderVariant.hpp"
 // Including type: UnityEngine.Rendering.PassType
@@ -46,13 +47,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _keywords
     void _set__keywords(::Il2CppString* value);
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x2342BDC
+    // Offset: 0x1DC901C
     UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x2342BE4
+    // Offset: 0x1DC9024
     ::Il2CppString* get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x2342BEC
+    // Offset: 0x1DC902C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(UnityEngine::Rendering::PassType passType, ::Il2CppString* keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");

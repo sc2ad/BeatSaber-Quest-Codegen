@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameServerLobbyFlowCoordinator
 #include "GlobalNamespace/GameServerLobbyFlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.String userId
     void _set_userId(::Il2CppString* value);
     // System.Void <HandleServerPlayerListViewControllerKickPlayer>b__0(System.Int32 btnId)
-    // Offset: 0x10AAF08
+    // Offset: 0x1F17E78
     void $HandleServerPlayerListViewControllerKickPlayer$b__0(int btnId);
     // public System.Void .ctor()
-    // Offset: 0x10A9590
+    // Offset: 0x1F16500
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

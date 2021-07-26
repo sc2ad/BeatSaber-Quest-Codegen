@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectCallbackController
 #include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single spawningStartTime
     void _set_spawningStartTime(float value);
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, System.Single spawningStartTime)
-    // Offset: 0x1093638
+    // Offset: 0x1EEBAE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallbackController::InitData* New_ctor(GlobalNamespace::IReadonlyBeatmapData* beatmapData, float spawningStartTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackController::InitData::.ctor");

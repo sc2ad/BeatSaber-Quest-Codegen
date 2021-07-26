@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter
 #include "UnityEngine/TestTools/TestRunner/GUI/RuntimeTestRunnerFilter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,13 +56,13 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set instance field: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     void _set_builder(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* value);
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
-    // Offset: 0x14903DC
+    // Offset: 0x120143C
     NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::Il2CppString* v);
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__3(System.String v)
-    // Offset: 0x1490444
+    // Offset: 0x12014A4
     NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::Il2CppString* v);
     // public System.Void .ctor()
-    // Offset: 0x14900EC
+    // Offset: 0x120114C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

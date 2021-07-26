@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -136,49 +137,49 @@ namespace HMUI {
     // Set instance field: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _letterBtnTexts
     void _set__letterBtnTexts(System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A3850
+    // Offset: 0x1078F8C
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A38F4
+    // Offset: 0x1079030
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x1291660
+    // Offset: 0x1066D9C
     void add_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x1291990
+    // Offset: 0x10670CC
     void remove_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1291704
+    // Offset: 0x1066E40
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1291A34
+    // Offset: 0x1067170
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x12A3998
+    // Offset: 0x10790D4
     void Awake();
     // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x12A3C0C
+    // Offset: 0x1079348
     void HandleKeyPress(UnityEngine::KeyCode keyCode);
     // private System.Void HandleCapsLockPressed()
-    // Offset: 0x12A3D08
+    // Offset: 0x1079444
     void HandleCapsLockPressed();
     // private System.Void SetKeyboardCapitalization(System.Boolean capitalize)
-    // Offset: 0x12A3D20
+    // Offset: 0x107945C
     void SetKeyboardCapitalization(bool capitalize);
     // private System.Boolean HasFontStyle(TMPro.TextMeshProUGUI text, TMPro.FontStyles style)
-    // Offset: 0x12A3E50
+    // Offset: 0x107958C
     bool HasFontStyle(TMPro::TextMeshProUGUI* text, TMPro::FontStyles style);
     // private System.Void OnEnable()
-    // Offset: 0x12A3E70
+    // Offset: 0x10795AC
     void OnEnable();
     // private System.Void <Awake>b__13_0()
-    // Offset: 0x12A3EE4
+    // Offset: 0x1079620
     void $Awake$b__13_0();
     // private System.Void <Awake>b__13_1()
-    // Offset: 0x12A3EF8
+    // Offset: 0x1079634
     void $Awake$b__13_1();
     // public System.Void .ctor()
-    // Offset: 0x12A3E7C
+    // Offset: 0x10795B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

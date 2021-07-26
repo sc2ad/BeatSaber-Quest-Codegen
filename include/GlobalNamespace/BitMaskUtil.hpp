@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,17 +18,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BitMaskUtil
     BitMaskUtil() noexcept {}
     // static public System.UInt32 NumberOfSetBits(System.UInt64 i)
-    // Offset: 0x23B6BC0
+    // Offset: 0x23EED48
     static uint NumberOfSetBits(uint64_t i);
     // static public System.UInt32 NumberOfSetBits(System.UInt32 i)
-    // Offset: 0x23B6560
+    // Offset: 0x23EE6E8
     static uint NumberOfSetBits(uint i);
     // static public System.UInt64 ShiftLeft(in System.UInt64 value, in System.Int32 shift)
-    // Offset: 0x23B6C24
-    static uint64_t ShiftLeft(uint64_t& value, int& shift);
+    // Offset: 0x23EEDAC
+    static uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int> shift);
     // static public System.UInt64 ShiftRight(in System.UInt64 value, in System.Int32 shift)
-    // Offset: 0x23B6C78
-    static uint64_t ShiftRight(uint64_t& value, int& shift);
+    // Offset: 0x23EEE00
+    static uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int> shift);
   }; // BitMaskUtil
   #pragma pack(pop)
 }
@@ -55,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskUtil::ShiftLeft
 // Il2CppName: ShiftLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&GlobalNamespace::BitMaskUtil::ShiftLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(ByRef<uint64_t>, ByRef<int>)>(&GlobalNamespace::BitMaskUtil::ShiftLeft)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* shift = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskUtil::ShiftRight
 // Il2CppName: ShiftRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&GlobalNamespace::BitMaskUtil::ShiftRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(ByRef<uint64_t>, ByRef<int>)>(&GlobalNamespace::BitMaskUtil::ShiftRight)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* shift = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

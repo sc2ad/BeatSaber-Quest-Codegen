@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Dropdown
 #include "UnityEngine/UI/Dropdown.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace UnityEngine::UI {
     // Set instance field: public UnityEngine.UI.Dropdown <>4__this
     void _set_$$4__this(UnityEngine::UI::Dropdown* value);
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x18E56FC
+    // Offset: 0x15B6B00
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x18E56F4
+    // Offset: 0x15B6AF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -35,7 +36,7 @@ namespace RootMotion::FinalIK {
     class OffsetLimits;
     // Nested type: RootMotion::FinalIK::OffsetModifier::$Initiate$d__8
     class $Initiate$d__8;
-    // [TooltipAttribute] Offset: 0xDF58C8
+    // [TooltipAttribute] Offset: 0xEA24E4
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -44,7 +45,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDF5900
+    // [TooltipAttribute] Offset: 0xEA251C
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -74,28 +75,28 @@ namespace RootMotion::FinalIK {
     // Set instance field: protected System.Single lastTime
     void _set_lastTime(float value);
     // protected System.Single get_deltaTime()
-    // Offset: 0x1AB5DC8
+    // Offset: 0x172D618
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x1AB5DF4
+    // Offset: 0x172D644
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x1AB5E20
+    // Offset: 0x172D670
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x1AB5EBC
+    // Offset: 0x172D70C
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
-    // Offset: 0x1AB5FC8
+    // Offset: 0x172D818
     void ApplyLimits(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits);
     // protected System.Void OnDestroy()
-    // Offset: 0x1AB62E4
+    // Offset: 0x172DB34
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1AB63DC
+    // Offset: 0x172DC2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

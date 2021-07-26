@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -29,20 +30,20 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F5564
+    // Offset: 0x12F8B34
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetSkeleton2(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton2Internal skeleton)
-    // Offset: 0x15F5300
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton2(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, GlobalNamespace::OVRPlugin::Skeleton2Internal& skeleton);
+    // Offset: 0x12F88D0
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton2(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton2Internal> skeleton);
     // static public OVRPlugin/Result ovrp_PollEvent(ref OVRPlugin/EventDataBuffer eventDataBuffer)
-    // Offset: 0x15F5390
-    static GlobalNamespace::OVRPlugin::Result ovrp_PollEvent(GlobalNamespace::OVRPlugin::EventDataBuffer& eventDataBuffer);
+    // Offset: 0x12F8960
+    static GlobalNamespace::OVRPlugin::Result ovrp_PollEvent(ByRef<GlobalNamespace::OVRPlugin::EventDataBuffer> eventDataBuffer);
     // static public OVRPlugin/Result ovrp_GetNativeXrApiType(out OVRPlugin/XrApi xrApi)
-    // Offset: 0x15F5454
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetNativeXrApiType(GlobalNamespace::OVRPlugin::XrApi& xrApi);
+    // Offset: 0x12F8A24
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetNativeXrApiType(ByRef<GlobalNamespace::OVRPlugin::XrApi> xrApi);
     // static public OVRPlugin/Result ovrp_GetNativeOpenXRHandles(out System.UInt64 xrInstance, out System.UInt64 xrSession)
-    // Offset: 0x15F54D4
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetNativeOpenXRHandles(uint64_t& xrInstance, uint64_t& xrSession);
+    // Offset: 0x12F8AA4
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetNativeOpenXRHandles(ByRef<uint64_t> xrInstance, ByRef<uint64_t> xrSession);
   }; // OVRPlugin/OVRP_1_55_0
   #pragma pack(pop)
 }
@@ -60,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetSkeleton2
 // Il2CppName: ovrp_GetSkeleton2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::SkeletonType, GlobalNamespace::OVRPlugin::Skeleton2Internal&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetSkeleton2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::SkeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton2Internal>)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetSkeleton2)> {
   static const MethodInfo* get() {
     static auto* skeletonType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/SkeletonType")->byval_arg;
     static auto* skeleton = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Skeleton2Internal")->this_arg;
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_PollEvent
 // Il2CppName: ovrp_PollEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::EventDataBuffer&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_PollEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::EventDataBuffer>)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_PollEvent)> {
   static const MethodInfo* get() {
     static auto* eventDataBuffer = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/EventDataBuffer")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), "ovrp_PollEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventDataBuffer});
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeXrApiType
 // Il2CppName: ovrp_GetNativeXrApiType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::XrApi&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeXrApiType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::XrApi>)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeXrApiType)> {
   static const MethodInfo* get() {
     static auto* xrApi = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/XrApi")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), "ovrp_GetNativeXrApiType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xrApi});
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeOpenXRHandles
 // Il2CppName: ovrp_GetNativeOpenXRHandles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(uint64_t&, uint64_t&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeOpenXRHandles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<uint64_t>, ByRef<uint64_t>)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetNativeOpenXRHandles)> {
   static const MethodInfo* get() {
     static auto* xrInstance = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* xrSession = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;

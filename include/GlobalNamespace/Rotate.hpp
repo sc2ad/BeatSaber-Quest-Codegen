@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,14 +47,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomize and: randomMinMultiplier
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xDCFB50
+    // [DrawIfAttribute] Offset: 0xE7C76C
     // public UnityEngine.Vector3 _randomMinMultiplier
     // Size: 0xC
     // Offset: 0x2C
     UnityEngine::Vector3 randomMinMultiplier;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [DrawIfAttribute] Offset: 0xDCFBE8
+    // [DrawIfAttribute] Offset: 0xE7C804
     // public UnityEngine.Vector3 _randomMaxMultiplier
     // Size: 0xC
     // Offset: 0x38
@@ -117,22 +118,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector3 _randomizedMultiplier
     void _set__randomizedMultiplier(UnityEngine::Vector3 value);
     // protected System.Void Awake()
-    // Offset: 0x1221920
+    // Offset: 0x204E278
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x12219EC
+    // Offset: 0x204E344
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1221ABC
+    // Offset: 0x204E414
     void OnBecameInvisible();
     // protected System.Void Update()
-    // Offset: 0x1221AC8
+    // Offset: 0x204E420
     void Update();
     // protected System.Void Randomize()
-    // Offset: 0x1221A18
+    // Offset: 0x204E370
     void Randomize();
     // public System.Void .ctor()
-    // Offset: 0x1221C60
+    // Offset: 0x204E5B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

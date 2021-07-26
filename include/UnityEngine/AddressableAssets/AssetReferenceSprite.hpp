@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AssetReferenceT`1
 #include "UnityEngine/AddressableAssets/AssetReferenceT_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace UnityEngine::AddressableAssets {
     // Creating value type constructor for type: AssetReferenceSprite
     AssetReferenceSprite() noexcept {}
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x13C5208
+    // Offset: 0x116DE68
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)
@@ -38,7 +39,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceSprite*, creationType>(guid)));
     }
     // public override System.Boolean ValidateAsset(System.String path)
-    // Offset: 0x13C5268
+    // Offset: 0x116DEC8
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Boolean AssetReferenceT_1::ValidateAsset(System.String path)
     bool ValidateAsset(::Il2CppString* path);

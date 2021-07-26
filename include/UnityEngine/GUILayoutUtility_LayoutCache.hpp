@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.GUILayoutUtility
 #include "UnityEngine/GUILayoutUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,7 +66,7 @@ namespace UnityEngine {
     // Set instance field: UnityEngine.GUILayoutGroup windows
     void _set_windows(UnityEngine::GUILayoutGroup* value);
     // System.Void .ctor()
-    // Offset: 0x1AA89FC
+    // Offset: 0x172024C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

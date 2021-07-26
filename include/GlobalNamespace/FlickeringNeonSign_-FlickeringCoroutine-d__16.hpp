@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FlickeringNeonSign
 #include "GlobalNamespace/FlickeringNeonSign.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -61,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public FlickeringNeonSign <>4__this
     void _set_$$4__this(GlobalNamespace::FlickeringNeonSign* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1029814
+    // Offset: 0x1E942E8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x102987C
+    // Offset: 0x1E94350
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x102958C
+    // Offset: 0x1E94060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlickeringNeonSign::$FlickeringCoroutine$d__16* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign::$FlickeringCoroutine$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x10296E8
+    // Offset: 0x1E941BC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x10296EC
+    // Offset: 0x1E941C0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x102981C
+    // Offset: 0x1E942F0
     void System_Collections_IEnumerator_Reset();
   }; // FlickeringNeonSign/<FlickeringCoroutine>d__16
   #pragma pack(pop)

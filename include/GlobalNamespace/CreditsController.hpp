@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -90,7 +91,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* contentWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0C614
+    // [InjectAttribute] Offset: 0xEB9230
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x48
@@ -160,25 +161,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isPaused
     void _set__isPaused(bool value);
     // protected System.Void Start()
-    // Offset: 0x1082AE0
+    // Offset: 0x1F043DC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1082E04
+    // Offset: 0x1F04700
     void OnDestroy();
     // private System.Void Finish()
-    // Offset: 0x1082FB0
+    // Offset: 0x1F048AC
     void Finish();
     // private System.Collections.IEnumerator ScrollCoroutine()
-    // Offset: 0x1082D94
+    // Offset: 0x1F04690
     System::Collections::IEnumerator* ScrollCoroutine();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x1082D58
+    // Offset: 0x1F04654
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x10831F8
+    // Offset: 0x1F04AF4
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x1083230
+    // Offset: 0x1F04B2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

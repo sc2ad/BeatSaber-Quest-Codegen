@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AvatarTweenController
 #include "GlobalNamespace/AvatarTweenController.hpp"
 // Including type: UnityEngine.Vector3
@@ -52,10 +53,10 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Vector3 originalScale
     void _set_originalScale(UnityEngine::Vector3 value);
     // System.Void <CreatePopTween>b__0(System.Single val)
-    // Offset: 0x10E2BC4
+    // Offset: 0x1F33BD8
     void $CreatePopTween$b__0(float val);
     // public System.Void .ctor()
-    // Offset: 0x10E1DC8
+    // Offset: 0x1F32DDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

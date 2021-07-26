@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,13 +69,13 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshProUGUI _maxRankText
     void _set__maxRankText(TMPro::TextMeshProUGUI* value);
     // public System.Void Hide()
-    // Offset: 0x11B5C14
+    // Offset: 0x1FE4658
     void Hide();
     // public System.Void ShowStats(IDifficultyBeatmap difficultyBeatmap, PlayerData playerData)
-    // Offset: 0x11B5C3C
+    // Offset: 0x1FE4680
     void ShowStats(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::PlayerData* playerData);
     // public System.Void .ctor()
-    // Offset: 0x11B5FE0
+    // Offset: 0x1FE4A24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

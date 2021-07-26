@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Toggle
 #include "UnityEngine/UI/Toggle.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -108,16 +109,16 @@ namespace HMUI {
     // Set instance field: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     void _set_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public HMUI.ToggleWithCallbacks/HMUI.SelectionState get_selectionState()
-    // Offset: 0x129F4A4
+    // Offset: 0x1074BE0
     HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x129F13C
+    // Offset: 0x1074878
     void add_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x129F3F4
+    // Offset: 0x1074B30
     void remove_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x12A37BC
+    // Offset: 0x1078EF8
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -133,7 +134,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ToggleWithCallbacks*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x12A3730
+    // Offset: 0x1078E6C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);

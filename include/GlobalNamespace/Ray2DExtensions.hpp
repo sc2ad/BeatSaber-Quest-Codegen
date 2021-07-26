@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Ray2DExtensions
     Ray2DExtensions() noexcept {}
     // static public System.Int32 CircleIntersections(UnityEngine.Ray2D ray, UnityEngine.Vector2 circleCenter, System.Single radius, System.Single[] distances)
-    // Offset: 0x12213C8
+    // Offset: 0x204DD20
     static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::Array<float>* distances);
   }; // Ray2DExtensions
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetEaseManager
 #include "GlobalNamespace/NetEaseManager.hpp"
 // Including type: System.ValueType
@@ -72,10 +73,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.InitializeData> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFA88
+    // Offset: 0xF7B6CC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFA90
+    // Offset: 0xF7B6D4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseManager/<InitAsync>d__11
   // WARNING Not writing size check since size may be invalid!

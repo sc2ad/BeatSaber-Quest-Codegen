@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IBlockCipher
 #include "Org/BouncyCastle/Crypto/IBlockCipher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -85,32 +86,32 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Set instance field: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     void _set_cipher(Org::BouncyCastle::Crypto::IBlockCipher* value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x18C0500
+    // Offset: 0x1591904
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x18C05FC
+    // Offset: 0x1591A00
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 bitBlockSize)
-    // Offset: 0x18BCF90
+    // Offset: 0x158E394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacCFBBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, int bitBlockSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacCFBBlockCipher*, creationType>(cipher, bitBlockSize)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18BD200
+    // Offset: 0x158E604
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x18C0604
+    // Offset: 0x1591A08
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x18BD3E8
+    // Offset: 0x158E7EC
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x18BD9F0
+    // Offset: 0x158EDF4
     void Reset();
     // public System.Void GetMacBlock(System.Byte[] mac)
-    // Offset: 0x18BD91C
+    // Offset: 0x158ED20
     void GetMacBlock(::Array<uint8_t>* mac);
   }; // Org.BouncyCastle.Crypto.Macs.MacCFBBlockCipher
   #pragma pack(pop)

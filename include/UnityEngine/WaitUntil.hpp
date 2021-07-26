@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.CustomYieldInstruction
 #include "UnityEngine/CustomYieldInstruction.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,14 +45,14 @@ namespace UnityEngine {
     // Set instance field: private System.Func`1<System.Boolean> m_Predicate
     void _set_m_Predicate(System::Func_1<bool>* value);
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
-    // Offset: 0x230A290
+    // Offset: 0x1DA2D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitUntil* New_ctor(System::Func_1<bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitUntil::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitUntil*, creationType>(predicate)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x230A22C
+    // Offset: 0x1DA2D38
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

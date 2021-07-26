@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector4
@@ -69,22 +70,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highquality and: scale
     char __padding3[0x1] = {};
-    // [TooltipAttribute] Offset: 0xDC0FD0
+    // [TooltipAttribute] Offset: 0xE6DBEC
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x24
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDC1008
+    // [TooltipAttribute] Offset: 0xE6DC24
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x28
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDC1040
-    // [RangeAttribute] Offset: 0xDC1040
+    // [TooltipAttribute] Offset: 0xE6DC5C
+    // [RangeAttribute] Offset: 0xE6DC5C
     // public System.Single alpha
     // Size: 0x4
     // Offset: 0x2C
@@ -180,31 +181,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.UInt64 handle
     void _set_handle(uint64_t value);
     // static public SteamVR_Overlay get_instance()
-    // Offset: 0x13AC8A0
+    // Offset: 0x1154500
     static GlobalNamespace::SteamVR_Overlay* get_instance();
     // static private System.Void set_instance(SteamVR_Overlay value)
-    // Offset: 0x13AC8F0
+    // Offset: 0x1154550
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
-    // Offset: 0x13A90DC
+    // Offset: 0x1150D3C
     static ::Il2CppString* get_key();
     // private System.Void OnEnable()
-    // Offset: 0x13AC944
+    // Offset: 0x11545A4
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x13ACA94
+    // Offset: 0x11546F4
     void OnDisable();
     // public System.Void UpdateOverlay()
-    // Offset: 0x13ACB50
+    // Offset: 0x11547B0
     void UpdateOverlay();
     // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent)
-    // Offset: 0x13ACF8C
-    bool PollNextEvent(Valve::VR::VREvent_t& pEvent);
+    // Offset: 0x1154BEC
+    bool PollNextEvent(ByRef<Valve::VR::VREvent_t> pEvent);
     // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, ref SteamVR_Overlay/IntersectionResults results)
-    // Offset: 0x13AD098
-    bool ComputeIntersection(UnityEngine::Vector3 source, UnityEngine::Vector3 direction, GlobalNamespace::SteamVR_Overlay::IntersectionResults& results);
+    // Offset: 0x1154CF8
+    bool ComputeIntersection(UnityEngine::Vector3 source, UnityEngine::Vector3 direction, ByRef<GlobalNamespace::SteamVR_Overlay::IntersectionResults> results);
     // public System.Void .ctor()
-    // Offset: 0x13AD254
+    // Offset: 0x1154EB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::PollNextEvent
 // Il2CppName: PollNextEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Overlay::*)(Valve::VR::VREvent_t&)>(&GlobalNamespace::SteamVR_Overlay::PollNextEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Overlay::*)(ByRef<Valve::VR::VREvent_t>)>(&GlobalNamespace::SteamVR_Overlay::PollNextEvent)> {
   static const MethodInfo* get() {
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Overlay*), "PollNextEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pEvent});
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::ComputeIntersection
 // Il2CppName: ComputeIntersection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Overlay::*)(UnityEngine::Vector3, UnityEngine::Vector3, GlobalNamespace::SteamVR_Overlay::IntersectionResults&)>(&GlobalNamespace::SteamVR_Overlay::ComputeIntersection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Overlay::*)(UnityEngine::Vector3, UnityEngine::Vector3, ByRef<GlobalNamespace::SteamVR_Overlay::IntersectionResults>)>(&GlobalNamespace::SteamVR_Overlay::ComputeIntersection)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

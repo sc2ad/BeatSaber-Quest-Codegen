@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -55,13 +56,13 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x18FD8E8
+    // Offset: 0x15CECEC
     void Encode(::Array<uint8_t>* buffer, int index, int count);
     // System.Void Flush()
-    // Offset: 0x18FDC1C
+    // Offset: 0x15CF020
     void Flush();
     // System.Void .ctor()
-    // Offset: 0x18FD884
+    // Offset: 0x15CEC88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

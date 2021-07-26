@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -76,17 +77,17 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     void _set_m_Entries(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>* value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
-    // Offset: 0x1F33C3C
+    // Offset: 0x1A307A4
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
     // public System.Void .ctor(System.String log)
-    // Offset: 0x1F33CAC
+    // Offset: 0x1A30814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Changelog* New_ctor(::Il2CppString* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
-    // Offset: 0x1F33F20
+    // Offset: 0x1A30A88
     UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::Il2CppString* version, ::Il2CppString* contents);
   }; // UnityEngine.ProBuilder.Changelog
   #pragma pack(pop)

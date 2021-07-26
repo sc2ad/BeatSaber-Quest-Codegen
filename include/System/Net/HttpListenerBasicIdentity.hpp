@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Principal.GenericIdentity
 #include "System/Security/Principal/GenericIdentity.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace System::Net {
     // Set instance field: private System.String password
     void _set_password(::Il2CppString* value);
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x16349B4
+    // Offset: 0x1337070
     // Implemented from: System.Security.Principal.GenericIdentity
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

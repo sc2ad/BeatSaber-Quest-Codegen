@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.ServerCertificateRequest
 #include "MasterServer/ServerCertificateRequest.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -95,32 +96,32 @@ namespace MasterServer {
     // Set instance field: private System.Int32 <i>5__2
     void _set_$i$5__2(int value);
     // private System.Byte[] System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current()
-    // Offset: 0x12DC194
+    // Offset: 0x20966A4
     ::Array<uint8_t>* System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12DC1FC
+    // Offset: 0x209670C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x12DB6D0
+    // Offset: 0x2095BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertificateRequest::$get_certificateList$d__5* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ServerCertificateRequest::$get_certificateList$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest::$get_certificateList$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x12DC0E8
+    // Offset: 0x20965F8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x12DC0EC
+    // Offset: 0x20965FC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x12DC19C
+    // Offset: 0x20966AC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Byte[]> System.Collections.Generic.IEnumerable<System.Byte[]>.GetEnumerator()
-    // Offset: 0x12DC204
+    // Offset: 0x2096714
     System::Collections::Generic::IEnumerator_1<::Array<uint8_t>*>* System_Collections_Generic_IEnumerable$System_Byte$$$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x12DC2B0
+    // Offset: 0x20967C0
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // MasterServer.ServerCertificateRequest/MasterServer.<get_certificateList>d__5
   #pragma pack(pop)

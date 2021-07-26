@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,13 +56,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.RectTransform _rectTransform
     void _set__rectTransform(UnityEngine::RectTransform* value);
     // public System.Int32 get_minimumMissionsToUnlock()
-    // Offset: 0x1139E10
+    // Offset: 0x1F6A824
     int get_minimumMissionsToUnlock();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x1136BD8
+    // Offset: 0x1F675EC
     UnityEngine::Vector2 get_position();
     // public System.Void .ctor()
-    // Offset: 0x1139E18
+    // Offset: 0x1F6A82C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

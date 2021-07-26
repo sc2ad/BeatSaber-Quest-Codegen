@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: Zenject.IInitializable
@@ -50,21 +51,21 @@ namespace GlobalNamespace {
     class $$c__DisplayClass8_0;
     // Nested type: GlobalNamespace::MainMenuDestinationRequestController::$ProcessDestinationRequest$d__8
     struct $ProcessDestinationRequest$d__8;
-    // [InjectAttribute] Offset: 0xE00484
+    // [InjectAttribute] Offset: 0xEAD0A0
     // private readonly IDestinationRequestManager _destinationRequestManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IDestinationRequestManager* destinationRequestManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDestinationRequestManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE00494
+    // [InjectAttribute] Offset: 0xEAD0B0
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE004A4
+    // [InjectAttribute] Offset: 0xEAD0C0
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -104,22 +105,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
     void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
     // public System.Void Initialize()
-    // Offset: 0x117AF28
+    // Offset: 0x1FAA93C
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x117B1D8
+    // Offset: 0x1FAABEC
     void Dispose();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x117B370
+    // Offset: 0x1FAAD84
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleDestinationRequestManagerDidSendMenuDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x117B600
+    // Offset: 0x1FAB014
     void HandleDestinationRequestManagerDidSendMenuDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // private System.Void ProcessDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x117B110
+    // Offset: 0x1FAAB24
     void ProcessDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // public System.Void .ctor()
-    // Offset: 0x117B604
+    // Offset: 0x1FAB018
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

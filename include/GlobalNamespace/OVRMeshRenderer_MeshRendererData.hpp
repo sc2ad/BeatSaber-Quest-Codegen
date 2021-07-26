@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRMeshRenderer
 #include "GlobalNamespace/OVRMeshRenderer.hpp"
 // Including type: System.ValueType
@@ -54,22 +55,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     void _set_$ShouldUseSystemGestureMaterial$k__BackingField(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xED3D40
+    // Offset: 0xD69980
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xED3D48
+    // Offset: 0xD69988
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xED3D54
+    // Offset: 0xD69994
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xED3D5C
+    // Offset: 0xD6999C
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xED3D68
+    // Offset: 0xD699A8
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xED3D70
+    // Offset: 0xD699B0
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRMeshRenderer/MeshRendererData
   #pragma pack(pop)

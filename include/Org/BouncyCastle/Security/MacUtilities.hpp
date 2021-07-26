@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -32,10 +33,10 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary algorithms
     static void _set_algorithms(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x1353D34
+    // Offset: 0x10FA994
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.IMac GetMac(System.String algorithm)
-    // Offset: 0x1355798
+    // Offset: 0x10FC3F8
     static Org::BouncyCastle::Crypto::IMac* GetMac(::Il2CppString* algorithm);
   }; // Org.BouncyCastle.Security.MacUtilities
   #pragma pack(pop)

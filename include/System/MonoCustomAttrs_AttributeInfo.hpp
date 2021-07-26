@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MonoCustomAttrs
 #include "System/MonoCustomAttrs.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,13 +50,13 @@ namespace System {
     // Set instance field: private System.Int32 _inheritanceLevel
     void _set__inheritanceLevel(int value);
     // public System.AttributeUsageAttribute get_Usage()
-    // Offset: 0x17FF698
+    // Offset: 0x14CFA9C
     System::AttributeUsageAttribute* get_Usage();
     // public System.Int32 get_InheritanceLevel()
-    // Offset: 0x17FF6A0
+    // Offset: 0x14CFAA4
     int get_InheritanceLevel();
     // public System.Void .ctor(System.AttributeUsageAttribute usage, System.Int32 inheritanceLevel)
-    // Offset: 0x17FEA1C
+    // Offset: 0x14CEE20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoCustomAttrs::AttributeInfo* New_ctor(System::AttributeUsageAttribute* usage, int inheritanceLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MonoCustomAttrs::AttributeInfo::.ctor");

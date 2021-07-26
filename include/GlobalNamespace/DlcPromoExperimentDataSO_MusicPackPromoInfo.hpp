@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DlcPromoExperimentDataSO
 #include "GlobalNamespace/DlcPromoExperimentDataSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,13 +55,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Sprite _bannerImage
     void _set__bannerImage(UnityEngine::Sprite* value);
     // public PreviewBeatmapLevelPackSO get_previewBeatmapLevelPack()
-    // Offset: 0x108ADF0
+    // Offset: 0x1F0C6EC
     GlobalNamespace::PreviewBeatmapLevelPackSO* get_previewBeatmapLevelPack();
     // public UnityEngine.Sprite get_bannerImage()
-    // Offset: 0x108ADF8
+    // Offset: 0x1F0C6F4
     UnityEngine::Sprite* get_bannerImage();
     // public System.Void .ctor()
-    // Offset: 0x108AE00
+    // Offset: 0x1F0C6FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

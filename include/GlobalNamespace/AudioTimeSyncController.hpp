@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IAudioTimeSource
@@ -112,21 +113,21 @@ namespace GlobalNamespace {
     float stopSyncDeltaTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDFF034
+    // [SpaceAttribute] Offset: 0xEABC50
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFF06C
+    // [SpaceAttribute] Offset: 0xEABC88
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFF0A4
+    // [InjectAttribute] Offset: 0xEABCC0
     // private readonly AudioTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -316,67 +317,67 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isReady
     void _set__isReady(bool value);
     // public AudioTimeSyncController/State get_state()
-    // Offset: 0x10DC79C
+    // Offset: 0x1F2D7B0
     GlobalNamespace::AudioTimeSyncController::State get_state();
     // public System.Single get_songTime()
-    // Offset: 0x10DC7A4
+    // Offset: 0x1F2D7B8
     float get_songTime();
     // public System.Single get_songLength()
-    // Offset: 0x10DC7AC
+    // Offset: 0x1F2D7C0
     float get_songLength();
     // public System.Boolean get_isAudioLoaded()
-    // Offset: 0x10DC7D4
+    // Offset: 0x1F2D7E8
     bool get_isAudioLoaded();
     // public System.Single get_songEndTime()
-    // Offset: 0x10DC808
+    // Offset: 0x1F2D81C
     float get_songEndTime();
     // public System.Single get_timeScale()
-    // Offset: 0x10DC830
+    // Offset: 0x1F2D844
     float get_timeScale();
     // public System.Double get_dspTimeOffset()
-    // Offset: 0x10DC838
+    // Offset: 0x1F2D84C
     double get_dspTimeOffset();
     // public UnityEngine.WaitUntil get_waitUntilAudioIsLoaded()
-    // Offset: 0x10DC840
+    // Offset: 0x1F2D854
     UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
     // public System.Boolean get_isReady()
-    // Offset: 0x10DC8D8
+    // Offset: 0x1F2D8EC
     bool get_isReady();
     // public UnityEngine.AudioSource get_audioSource()
-    // Offset: 0x10DC8E0
+    // Offset: 0x1F2D8F4
     UnityEngine::AudioSource* get_audioSource();
     // private System.Single get_timeSinceStart()
-    // Offset: 0x10DCDCC
+    // Offset: 0x1F2DDE0
     float get_timeSinceStart();
     // protected System.Void Awake()
-    // Offset: 0x10DC8E8
+    // Offset: 0x1F2D8FC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10DC93C
+    // Offset: 0x1F2D950
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10DCA54
+    // Offset: 0x1F2DA68
     void Update();
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x10DCDF8
+    // Offset: 0x1F2DE0C
     void StartSong(float startTimeOffset);
     // public System.Void SeekTo(System.Single startTimeOffset)
-    // Offset: 0x10DCE04
+    // Offset: 0x1F2DE18
     void SeekTo(float startTimeOffset);
     // public System.Void StopSong()
-    // Offset: 0x10DCF94
+    // Offset: 0x1F2DFA8
     void StopSong();
     // public System.Void Pause()
-    // Offset: 0x10DCFCC
+    // Offset: 0x1F2DFE0
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x10DD014
+    // Offset: 0x1F2E028
     void Resume();
     // private System.Boolean <get_waitUntilAudioIsLoaded>b__25_0()
-    // Offset: 0x10DD05C
+    // Offset: 0x1F2E070
     bool $get_waitUntilAudioIsLoaded$b__25_0();
     // public System.Void .ctor()
-    // Offset: 0x10DD048
+    // Offset: 0x1F2E05C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

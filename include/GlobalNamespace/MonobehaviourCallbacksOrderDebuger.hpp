@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,16 +23,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MonobehaviourCallbacksOrderDebuger
     MonobehaviourCallbacksOrderDebuger() noexcept {}
     // protected System.Void Awake()
-    // Offset: 0x121BF20
+    // Offset: 0x2048878
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x121BFC8
+    // Offset: 0x2048920
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x121C070
+    // Offset: 0x20489C8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x121C118
+    // Offset: 0x2048A70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

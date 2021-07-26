@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -70,46 +71,46 @@ namespace LiteNetLib {
     // Set instance field: private System.Int64 _packetLoss
     void _set__packetLoss(int64_t value);
     // public System.Int64 get_PacketsSent()
-    // Offset: 0x1BBB598
+    // Offset: 0x17AE930
     int64_t get_PacketsSent();
     // public System.Int64 get_PacketsReceived()
-    // Offset: 0x1BBB5A4
+    // Offset: 0x17AE93C
     int64_t get_PacketsReceived();
     // public System.Int64 get_BytesSent()
-    // Offset: 0x1BBB5B0
+    // Offset: 0x17AE948
     int64_t get_BytesSent();
     // public System.Int64 get_BytesReceived()
-    // Offset: 0x1BBB5BC
+    // Offset: 0x17AE954
     int64_t get_BytesReceived();
     // public System.Int64 get_PacketLoss()
-    // Offset: 0x1BBB5C8
+    // Offset: 0x17AE960
     int64_t get_PacketLoss();
     // public System.Int64 get_PacketLossPercent()
-    // Offset: 0x1BBB5D4
+    // Offset: 0x17AE96C
     int64_t get_PacketLossPercent();
     // public System.Void Reset()
-    // Offset: 0x1BBB624
+    // Offset: 0x17AE9BC
     void Reset();
     // public System.Void IncrementPacketsSent()
-    // Offset: 0x1BB37E0
+    // Offset: 0x17A6B78
     void IncrementPacketsSent();
     // public System.Void IncrementPacketsReceived()
-    // Offset: 0x1BB585C
+    // Offset: 0x17A8BF4
     void IncrementPacketsReceived();
     // public System.Void AddBytesSent(System.Int64 bytesSent)
-    // Offset: 0x1BB37EC
+    // Offset: 0x17A6B84
     void AddBytesSent(int64_t bytesSent);
     // public System.Void AddBytesReceived(System.Int64 bytesReceived)
-    // Offset: 0x1BB5868
+    // Offset: 0x17A8C00
     void AddBytesReceived(int64_t bytesReceived);
     // public System.Void IncrementPacketLoss()
-    // Offset: 0x1BBB68C
+    // Offset: 0x17AEA24
     void IncrementPacketLoss();
     // public System.Void AddPacketLoss(System.Int64 packetLoss)
-    // Offset: 0x1BBB698
+    // Offset: 0x17AEA30
     void AddPacketLoss(int64_t packetLoss);
     // public System.Void .ctor()
-    // Offset: 0x1BB2E64
+    // Offset: 0x17A61FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,7 +119,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NetStatistics*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1BBB6A4
+    // Offset: 0x17AEA3C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

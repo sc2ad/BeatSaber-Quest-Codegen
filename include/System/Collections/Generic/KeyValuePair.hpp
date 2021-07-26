@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
@@ -16,7 +17,7 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: KeyValuePair
     KeyValuePair() noexcept {}
     // static System.String PairToString(System.Object key, System.Object value)
-    // Offset: 0x178CC58
+    // Offset: 0x148E314
     static ::Il2CppString* PairToString(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.Generic.KeyValuePair
   #pragma pack(pop)

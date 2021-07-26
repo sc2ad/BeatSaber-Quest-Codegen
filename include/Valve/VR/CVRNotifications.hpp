@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Valve.VR.IVRNotifications
 #include "Valve/VR/IVRNotifications.hpp"
 // Including type: System.IntPtr
@@ -51,17 +52,17 @@ namespace Valve::VR {
     // Set instance field: private Valve.VR.IVRNotifications FnTable
     void _set_FnTable(Valve::VR::IVRNotifications value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16BC784
+    // Offset: 0x13BEE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRNotifications* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRNotifications::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRNotifications*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
-    // Offset: 0x16BC884
-    Valve::VR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId);
+    // Offset: 0x13BEF40
+    Valve::VR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
     // public Valve.VR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)
-    // Offset: 0x16BC8A8
+    // Offset: 0x13BEF64
     Valve::VR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // Valve.VR.CVRNotifications
   #pragma pack(pop)
@@ -77,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRNotifications*, "Valve.VR", "CVRNotificatio
 // Writing MetadataGetter for method: Valve::VR::CVRNotifications::CreateNotification
 // Il2CppName: CreateNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::CVRNotifications::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, Valve::VR::NotificationBitmap_t&, uint&)>(&Valve::VR::CVRNotifications::CreateNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::CVRNotifications::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, ByRef<Valve::VR::NotificationBitmap_t>, ByRef<uint>)>(&Valve::VR::CVRNotifications::CreateNotification)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CreditsData
 #include "GlobalNamespace/CreditsData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,16 +65,16 @@ namespace GlobalNamespace {
     // Set instance field: public CreditsData/ChildCreditsItem[] creditsItems
     void _set_creditsItems(::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>* value);
     // public System.Boolean HasTitle()
-    // Offset: 0x1083650
+    // Offset: 0x1F04F4C
     bool HasTitle();
     // public System.Boolean HasText()
-    // Offset: 0x1083660
+    // Offset: 0x1F04F5C
     bool HasText();
     // public System.Boolean HasRowItems()
-    // Offset: 0x1083670
+    // Offset: 0x1F04F6C
     bool HasRowItems();
     // public System.Void .ctor()
-    // Offset: 0x1083690
+    // Offset: 0x1F04F8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

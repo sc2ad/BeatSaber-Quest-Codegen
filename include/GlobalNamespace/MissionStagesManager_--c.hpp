@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionStagesManager
 #include "GlobalNamespace/MissionStagesManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionStage,System.Int32> <>9__6_0
     static void _set_$$9__6_0(System::Func_2<GlobalNamespace::MissionStage*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x113A174
+    // Offset: 0x1F6AB88
     static void _cctor();
     // System.Int32 <InitStages>b__6_0(MissionStage stage)
-    // Offset: 0x113A1E0
+    // Offset: 0x1F6ABF4
     int $InitStages$b__6_0(GlobalNamespace::MissionStage* stage);
     // public System.Void .ctor()
-    // Offset: 0x113A1D8
+    // Offset: 0x1F6ABEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusPlatformAdditionalContentModel
 #include "GlobalNamespace/OculusPlatformAdditionalContentModel.hpp"
 // Including type: System.ValueType
@@ -84,10 +85,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/UpdateEntitlementsResult> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult> value);
     // private System.Void MoveNext()
-    // Offset: 0xECF6E4
+    // Offset: 0xF7B328
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECF6EC
+    // Offset: 0xF7B330
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__12
   // WARNING Not writing size check since size may be invalid!

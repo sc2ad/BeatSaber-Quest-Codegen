@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Math
@@ -28,10 +29,10 @@ namespace Mono::Math::Prime {
     // Creating value type constructor for type: PrimalityTests
     PrimalityTests() noexcept {}
     // static private System.Int32 GetSPPRounds(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1DD55C8
+    // Offset: 0x19481A8
     static int GetSPPRounds(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
     // static public System.Boolean RabinMillerTest(Mono.Math.BigInteger n, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1DD577C
+    // Offset: 0x194835C
     static bool RabinMillerTest(Mono::Math::BigInteger* n, Mono::Math::Prime::ConfidenceFactor confidence);
   }; // Mono.Math.Prime.PrimalityTests
   #pragma pack(pop)

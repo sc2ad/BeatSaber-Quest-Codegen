@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceManager
 #include "UnityEngine/ResourceManagement/ResourceManager.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1

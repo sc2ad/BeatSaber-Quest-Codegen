@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.InputFieldView
 #include "HMUI/InputFieldView.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -23,7 +24,7 @@ namespace HMUI {
     // Creating value type constructor for type: InputFieldChanged
     InputFieldChanged() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1291EC8
+    // Offset: 0x1067604
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

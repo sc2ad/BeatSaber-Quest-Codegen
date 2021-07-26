@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,7 +44,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.Models.UserList InvitedUsers
     void _set_InvitedUsers(Oculus::Platform::Models::UserList* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A2D68
+    // Offset: 0x20FEBDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchInvitePanelFlowResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchInvitePanelFlowResult::.ctor");

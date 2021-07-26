@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IDisposable
@@ -55,10 +56,10 @@ namespace Mono {
     // Set instance field: private System.IntPtr marshaled_string
     void _set_marshaled_string(System::IntPtr value);
     // public System.IntPtr get_Value()
-    // Offset: 0xEED144
+    // Offset: 0xD810FC
     System::IntPtr get_Value();
     // public System.Void .ctor(System.String str)
-    // Offset: 0xEED0F4
+    // Offset: 0xD810AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SafeStringMarshal(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::SafeStringMarshal::.ctor");
@@ -66,13 +67,13 @@ namespace Mono {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str);
     }
     // static public System.IntPtr StringToUtf8(System.String str)
-    // Offset: 0x1A21B60
+    // Offset: 0x16D8C54
     static System::IntPtr StringToUtf8(::Il2CppString* str);
     // static public System.Void GFree(System.IntPtr ptr)
-    // Offset: 0x1A21B64
+    // Offset: 0x16D8C58
     static void GFree(System::IntPtr ptr);
     // public System.Void Dispose()
-    // Offset: 0xEED14C
+    // Offset: 0xD81104
     void Dispose();
   }; // Mono.SafeStringMarshal
   #pragma pack(pop)

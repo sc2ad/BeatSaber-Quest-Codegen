@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -23,11 +24,11 @@ namespace UnityEngine::_Scripting::APIUpdating {
     // Creating value type constructor for type: APIUpdaterRuntimeHelpers
     APIUpdaterRuntimeHelpers() noexcept {}
     // static System.Boolean GetMovedFromAttributeDataForType(System.Type sourceType, out System.String assembly, out System.String nsp, out System.String klass)
-    // Offset: 0x230A2BC
-    static bool GetMovedFromAttributeDataForType(System::Type* sourceType, ::Il2CppString*& assembly, ::Il2CppString*& nsp, ::Il2CppString*& klass);
+    // Offset: 0x1DA2DC8
+    static bool GetMovedFromAttributeDataForType(System::Type* sourceType, ByRef<::Il2CppString*> assembly, ByRef<::Il2CppString*> nsp, ByRef<::Il2CppString*> klass);
     // static System.Boolean GetObsoleteTypeRedirection(System.Type sourceType, out System.String assemblyName, out System.String nsp, out System.String className)
-    // Offset: 0x230A3F0
-    static bool GetObsoleteTypeRedirection(System::Type* sourceType, ::Il2CppString*& assemblyName, ::Il2CppString*& nsp, ::Il2CppString*& className);
+    // Offset: 0x1DA2EFC
+    static bool GetObsoleteTypeRedirection(System::Type* sourceType, ByRef<::Il2CppString*> assemblyName, ByRef<::Il2CppString*> nsp, ByRef<::Il2CppString*> className);
   }; // UnityEngine._Scripting.APIUpdating.APIUpdaterRuntimeHelpers
   #pragma pack(pop)
 }
@@ -37,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHe
 // Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType
 // Il2CppName: GetMovedFromAttributeDataForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
   static const MethodInfo* get() {
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -49,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection
 // Il2CppName: GetObsoleteTypeRedirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
   static const MethodInfo* get() {
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

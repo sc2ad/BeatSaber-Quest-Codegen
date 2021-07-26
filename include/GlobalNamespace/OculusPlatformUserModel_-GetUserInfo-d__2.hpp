@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusPlatformUserModel
 #include "GlobalNamespace/OculusPlatformUserModel.hpp"
 // Including type: System.ValueType
@@ -99,10 +100,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__2
     void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*> value);
     // private System.Void MoveNext()
-    // Offset: 0xECF784
+    // Offset: 0xF7B3C8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECF78C
+    // Offset: 0xF7B3D0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformUserModel/<GetUserInfo>d__2
   // WARNING Not writing size check since size may be invalid!

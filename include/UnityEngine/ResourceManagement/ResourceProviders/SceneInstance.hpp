@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
@@ -56,24 +57,24 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: UnityEngine.AsyncOperation m_Operation
     void _set_m_Operation(UnityEngine::AsyncOperation* value);
     // public UnityEngine.SceneManagement.Scene get_Scene()
-    // Offset: 0xEEC364
+    // Offset: 0xD8031C
     UnityEngine::SceneManagement::Scene get_Scene();
     // System.Void set_Scene(UnityEngine.SceneManagement.Scene value)
-    // Offset: 0xEEC36C
+    // Offset: 0xD80324
     void set_Scene(UnityEngine::SceneManagement::Scene value);
     // public System.Void Activate()
-    // Offset: 0xEEC374
+    // Offset: 0xD8032C
     void Activate();
     // public UnityEngine.AsyncOperation ActivateAsync()
-    // Offset: 0xEEC37C
+    // Offset: 0xD80334
     UnityEngine::AsyncOperation* ActivateAsync();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEEC384
+    // Offset: 0xD8033C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEEC3B0
+    // Offset: 0xD80368
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

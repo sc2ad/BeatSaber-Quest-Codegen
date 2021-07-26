@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.IPAddressInformation
 #include "System/Net/NetworkInformation/IPAddressInformation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnicastIPAddressInformation
     UnicastIPAddressInformation() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x1461E94
+    // Offset: 0x11D2EF4
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Void IPAddressInformation::.ctor()
     // Base method: System.Void Object::.ctor()

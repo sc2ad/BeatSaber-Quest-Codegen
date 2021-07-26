@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Playables.PlayableAsset
 #include "UnityEngine/Playables/PlayableAsset.hpp"
 // Including type: UnityEngine.Timeline.ITimelineClipAsset
@@ -64,10 +65,10 @@ namespace GlobalNamespace {
     // Set instance field: public TubeLightBehaviour _template
     void _set__template(GlobalNamespace::TubeLightBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x10716A0
+    // Offset: 0x1EDD174
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1071748
+    // Offset: 0x1EDD21C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -79,7 +80,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightAsset*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x10716A8
+    // Offset: 0x1EDD17C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -82,34 +83,34 @@ namespace TMPro {
     // Set instance field: private System.Int32[] m_ClosingTagArray
     void _set_m_ClosingTagArray(::Array<int>* value);
     // public System.String get_name()
-    // Offset: 0x1115F20
+    // Offset: 0x1015BA0
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1115F28
+    // Offset: 0x1015BA8
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x1115F64
+    // Offset: 0x1015BE4
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0x1115F6C
+    // Offset: 0x1015BEC
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0x1115F80
+    // Offset: 0x1015C00
     ::Il2CppString* get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0x1115F88
+    // Offset: 0x1015C08
     ::Il2CppString* get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0x1115F90
+    // Offset: 0x1015C10
     ::Array<int>* get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0x1115F98
+    // Offset: 0x1015C18
     ::Array<int>* get_styleClosingTagArray();
     // public System.Void RefreshStyle()
-    // Offset: 0x1115FA0
+    // Offset: 0x1015C20
     void RefreshStyle();
     // public System.Void .ctor()
-    // Offset: 0x1116110
+    // Offset: 0x1015D90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

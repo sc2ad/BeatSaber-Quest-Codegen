@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.CookieCollection
 #include "System/Net/CookieCollection.hpp"
 // Including type: System.Collections.IEnumerator
@@ -68,20 +69,20 @@ namespace System::Net {
     // Set instance field: private System.Int32 m_version
     void _set_m_version(int value);
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16983CC
+    // Offset: 0x139AA88
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Net.CookieCollection cookies)
-    // Offset: 0x169836C
+    // Offset: 0x139AA28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieCollection::CookieCollectionEnumerator* New_ctor(System::Net::CookieCollection* cookies) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieCollection::CookieCollectionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieCollection::CookieCollectionEnumerator*, creationType>(cookies)));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1698498
+    // Offset: 0x139AB54
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x169855C
+    // Offset: 0x139AC18
     void System_Collections_IEnumerator_Reset();
   }; // System.Net.CookieCollection/System.Net.CookieCollectionEnumerator
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Cryptography.SymmetricTransform
 #include "Mono/Security/Cryptography/SymmetricTransform.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -93,17 +94,17 @@ namespace System::Security::Cryptography {
     // Set instance field: private System.Int32 j
     void _set_j(int value);
     // public System.Void .ctor(System.Security.Cryptography.RC2 rc2Algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1942294
+    // Offset: 0x1613698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2Transform* New_ctor(System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RC2Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Transform*, creationType>(rc2Algo, encryption, key, iv)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1943424
+    // Offset: 0x1614828
     static void _cctor();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1942AE8
+    // Offset: 0x1613EEC
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);

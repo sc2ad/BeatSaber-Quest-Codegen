@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,20 +59,20 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     // Set instance field: Org.BouncyCastle.Asn1.DerInteger g
     void _set_g(Org::BouncyCastle::Asn1::DerInteger* value);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x17603A0
+    // Offset: 0x1462A5C
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x17603BC
+    // Offset: 0x1462A78
     Org::BouncyCastle::Math::BigInteger* get_G();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17602A0
+    // Offset: 0x146295C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalParameter*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17603D8
+    // Offset: 0x1462A94
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

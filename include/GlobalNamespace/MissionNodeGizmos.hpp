@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0D86C
+    // [InjectAttribute] Offset: 0xEBA488
     // private CampaignProgressModel _missionProgressModel
     // Size: 0x8
     // Offset: 0x28
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
     // Set instance field: private CampaignProgressModel _missionProgressModel
     void _set__missionProgressModel(GlobalNamespace::CampaignProgressModel* value);
     // public System.Void .ctor()
-    // Offset: 0x1135118
+    // Offset: 0x1F65B2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

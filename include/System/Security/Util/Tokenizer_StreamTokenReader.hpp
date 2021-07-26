@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Util.Tokenizer
 #include "System/Security/Util/Tokenizer.hpp"
 // Including type: System.Security.Util.Tokenizer/System.Security.Util.ITokenReader
@@ -55,17 +56,17 @@ namespace System::Security::Util {
     // Set instance field: System.Int32 _numCharRead
     void _set__numCharRead(int value);
     // System.Int32 get_NumCharEncountered()
-    // Offset: 0x1BC3898
+    // Offset: 0x17B5C30
     int get_NumCharEncountered();
     // System.Void .ctor(System.IO.StreamReader input)
-    // Offset: 0x1BC253C
+    // Offset: 0x17B48D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer::StreamTokenReader* New_ctor(System::IO::StreamReader* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::StreamTokenReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StreamTokenReader*, creationType>(input)));
     }
     // public System.Int32 Read()
-    // Offset: 0x1BC3850
+    // Offset: 0x17B5BE8
     int Read();
   }; // System.Security.Util.Tokenizer/System.Security.Util.StreamTokenReader
   #pragma pack(pop)

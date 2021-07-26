@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Protocol.Ntlm.NtlmFlags
 #include "Mono/Security/Protocol/Ntlm/NtlmFlags.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,32 +47,32 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set instance field: private Mono.Security.Protocol.Ntlm.NtlmFlags _flags
     void _set__flags(Mono::Security::Protocol::Ntlm::NtlmFlags value);
     // public Mono.Security.Protocol.Ntlm.NtlmFlags get_Flags()
-    // Offset: 0x1DE1A8C
+    // Offset: 0x195466C
     Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
     // public System.Void set_Flags(Mono.Security.Protocol.Ntlm.NtlmFlags value)
-    // Offset: 0x1DE1A94
+    // Offset: 0x1954674
     void set_Flags(Mono::Security::Protocol::Ntlm::NtlmFlags value);
     // public System.Int32 get_Type()
-    // Offset: 0x1DE1A9C
+    // Offset: 0x195467C
     int get_Type();
     // protected System.Void .ctor(System.Int32 messageType)
-    // Offset: 0x1DE1A60
+    // Offset: 0x1954640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageBase* New_ctor(int messageType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::MessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageBase*, creationType>(messageType)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DE1E90
+    // Offset: 0x1954A70
     static void _cctor();
     // protected System.Byte[] PrepareMessage(System.Int32 messageSize)
-    // Offset: 0x1DE1AA4
+    // Offset: 0x1954684
     ::Array<uint8_t>* PrepareMessage(int messageSize);
     // protected System.Void Decode(System.Byte[] message)
-    // Offset: 0x1DE1BB0
+    // Offset: 0x1954790
     void Decode(::Array<uint8_t>* message);
     // protected System.Boolean CheckHeader(System.Byte[] message)
-    // Offset: 0x1DE1D54
+    // Offset: 0x1954934
     bool CheckHeader(::Array<uint8_t>* message);
     // public System.Byte[] GetBytes()
     // Offset: 0xFFFFFFFF

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Engines.VmpcEngine
 #include "Org/BouncyCastle/Crypto/Engines/VmpcEngine.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: VmpcKsa3Engine
     VmpcKsa3Engine() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x18B7170
+    // Offset: 0x1588574
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,7 +33,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<VmpcKsa3Engine*, creationType>()));
     }
     // protected override System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x18B6E8C
+    // Offset: 0x1588290
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
     void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);

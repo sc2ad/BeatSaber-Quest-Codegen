@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,14 +37,14 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFFE14
+    // [InjectAttribute] Offset: 0xEACA30
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xDFFE24
+    // [InjectOptionalAttribute] Offset: 0xEACA40
     // private IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x28
@@ -67,16 +68,16 @@ namespace GlobalNamespace {
     // Set instance field: private IConnectedPlayer _connectedPlayer
     void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x119AF6C
+    // Offset: 0x1FB29D8
     void set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // protected System.Void Start()
-    // Offset: 0x119AF74
+    // Offset: 0x1FB29E0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x119AF8C
+    // Offset: 0x1FB29F8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x119B344
+    // Offset: 0x1FB2DB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

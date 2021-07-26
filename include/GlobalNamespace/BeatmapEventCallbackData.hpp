@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 nextEventIndex
     void _set_nextEventIndex(int value);
     // public System.Void .ctor(BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x1194AFC
+    // Offset: 0x1FDAAFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventCallbackData* New_ctor(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventCallbackData::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameServerPlayerTableCell
 #include "GlobalNamespace/GameServerPlayerTableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,10 +53,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifiersList
     void _set_modifiersList(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* value);
     // System.Void <SetData>b__0(System.Int32 id, GameplayModifierInfoListItem listItem)
-    // Offset: 0x10AC428
+    // Offset: 0x1F19398
     void $SetData$b__0(int id, GlobalNamespace::GameplayModifierInfoListItem* listItem);
     // public System.Void .ctor()
-    // Offset: 0x10ABEF8
+    // Offset: 0x1F18E68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

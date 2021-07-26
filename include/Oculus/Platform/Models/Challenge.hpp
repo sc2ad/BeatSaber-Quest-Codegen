@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.ChallengeCreationType
 #include "Oculus/Platform/ChallengeCreationType.hpp"
 // Including type: System.DateTime
@@ -66,7 +67,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAD2C
+    // [ObsoleteAttribute] Offset: 0xE98948
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -85,7 +86,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* ParticipantsOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAD64
+    // [ObsoleteAttribute] Offset: 0xE98980
     // public readonly Oculus.Platform.Models.UserList Participants
     // Size: 0x8
     // Offset: 0x50
@@ -161,7 +162,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.ChallengeVisibility Visibility
     void _set_Visibility(Oculus::Platform::ChallengeVisibility value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A0AA0
+    // Offset: 0x20FC914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Challenge* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Challenge::.ctor");

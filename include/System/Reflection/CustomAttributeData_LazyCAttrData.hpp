@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.CustomAttributeData
 #include "System/Reflection/CustomAttributeData.hpp"
 // Including type: System.IntPtr
@@ -61,7 +62,7 @@ namespace System::Reflection {
     // Set instance field: System.UInt32 data_length
     void _set_data_length(uint value);
     // public System.Void .ctor()
-    // Offset: 0x1CA6AE4
+    // Offset: 0x1843884
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

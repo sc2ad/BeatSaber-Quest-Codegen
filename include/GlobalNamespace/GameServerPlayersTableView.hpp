@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.TableView/HMUI.IDataSource
@@ -111,14 +112,14 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* tableHeaderModifiersGo;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE11044
+    // [InjectAttribute] Offset: 0xEBDC60
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x48
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE11054
+    // [InjectAttribute] Offset: 0xEBDC70
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
@@ -296,58 +297,58 @@ namespace GlobalNamespace {
     // Set instance field: private ILobbyPlayersDataModel _lobbyPlayersDataModel
     void _set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel* value);
     // private System.String get_currentCellId()
-    // Offset: 0x10ACF44
+    // Offset: 0x1F19EB4
     ::Il2CppString* get_currentCellId();
     // public System.Void add_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x10ACB10
+    // Offset: 0x1F19A80
     void add_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x10ACBB4
+    // Offset: 0x1F19B24
     void remove_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x10ACC58
+    // Offset: 0x1F19BC8
     void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x10ACCFC
+    // Offset: 0x1F19C6C
     void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x10ACDA0
+    // Offset: 0x1F19D10
     void add_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x10ACE44
+    // Offset: 0x1F19DB4
     void remove_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Single CellSize()
-    // Offset: 0x10ACEE8
+    // Offset: 0x1F19E58
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x10ACEF4
+    // Offset: 0x1F19E64
     int NumberOfCells();
     // private GameServerPlayerTableCell GetCurrentPrefab()
-    // Offset: 0x10ACFB8
+    // Offset: 0x1F19F28
     GlobalNamespace::GameServerPlayerTableCell* GetCurrentPrefab();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x10AD050
+    // Offset: 0x1F19FC0
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerData playerData)
-    // Offset: 0x10AD4C4
-    bool TryGetLobbyPlayerData(int idx, GlobalNamespace::IConnectedPlayer*& player, GlobalNamespace::ILobbyPlayerData*& playerData);
+    // Offset: 0x1F1A434
+    bool TryGetLobbyPlayerData(int idx, ByRef<GlobalNamespace::IConnectedPlayer*> player, ByRef<GlobalNamespace::ILobbyPlayerData*> playerData);
     // private System.Void HandleCellUseBeatmap(System.Int32 idx)
-    // Offset: 0x10AD64C
+    // Offset: 0x1F1A5BC
     void HandleCellUseBeatmap(int idx);
     // private System.Void HandleCellUseModifiers(System.Int32 idx)
-    // Offset: 0x10AD9F8
+    // Offset: 0x1F1A968
     void HandleCellUseModifiers(int idx);
     // private System.Void HandleCellKickPlayer(System.Int32 idx)
-    // Offset: 0x10ADB88
+    // Offset: 0x1F1AAF8
     void HandleCellKickPlayer(int idx);
     // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Boolean showSongSelection, System.Boolean showModifierSelection, System.Boolean clearSelection)
-    // Offset: 0x10ADC9C
+    // Offset: 0x1F1AC0C
     void SetData(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* sortedPlayers, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
     // private System.Void Init()
-    // Offset: 0x10ADD60
+    // Offset: 0x1F1ACD0
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x10ADD98
+    // Offset: 0x1F1AD08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -465,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::TryGetLobbyPlayerData
 // Il2CppName: TryGetLobbyPlayerData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameServerPlayersTableView::*)(int, GlobalNamespace::IConnectedPlayer*&, GlobalNamespace::ILobbyPlayerData*&)>(&GlobalNamespace::GameServerPlayersTableView::TryGetLobbyPlayerData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameServerPlayersTableView::*)(int, ByRef<GlobalNamespace::IConnectedPlayer*>, ByRef<GlobalNamespace::ILobbyPlayerData*>)>(&GlobalNamespace::GameServerPlayersTableView::TryGetLobbyPlayerData)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* player = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->this_arg;

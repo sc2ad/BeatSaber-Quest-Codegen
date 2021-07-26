@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
@@ -38,14 +39,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE05B14
+    // [SpaceAttribute] Offset: 0xEB2730
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE05B4C
+    // [SpaceAttribute] Offset: 0xEB2768
     // private System.Single _minPositionStep
     // Size: 0x4
     // Offset: 0x24
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     float moveSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE05BA4
+    // [InjectAttribute] Offset: 0xEB27C0
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -110,16 +111,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _prevWasMinStep
     void _set__prevWasMinStep(bool value);
     // protected System.Void Start()
-    // Offset: 0x106FE34
+    // Offset: 0x1EDB908
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x106FF24
+    // Offset: 0x1EDB9F8
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1070024
+    // Offset: 0x1EDBAF8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x10700D0
+    // Offset: 0x1EDBBA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

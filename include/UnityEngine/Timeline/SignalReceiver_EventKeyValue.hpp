@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.SignalReceiver
 #include "UnityEngine/Timeline/SignalReceiver.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,7 +44,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* m_Signals;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>*) == 0x8);
-    // [CustomSignalEventDrawer] Offset: 0xDC4E10
+    // [CustomSignalEventDrawer] Offset: 0xE71A2C
     // private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
     // Size: 0x8
     // Offset: 0x18
@@ -61,25 +62,25 @@ namespace UnityEngine::Timeline {
     // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
     void _set_m_Events(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
-    // Offset: 0x17EC094
+    // Offset: 0x14BC498
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* get_signals();
     // public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> get_events()
-    // Offset: 0x17EC09C
+    // Offset: 0x14BC4A0
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* get_events();
     // public System.Boolean TryGetValue(UnityEngine.Timeline.SignalAsset key, out UnityEngine.Events.UnityEvent value)
-    // Offset: 0x17EB4B4
-    bool TryGetValue(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent*& value);
+    // Offset: 0x14BB8B8
+    bool TryGetValue(UnityEngine::Timeline::SignalAsset* key, ByRef<UnityEngine::Events::UnityEvent*> value);
     // public System.Void Append(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0x17EB694
+    // Offset: 0x14BBA98
     void Append(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent* value);
     // public System.Void Remove(System.Int32 idx)
-    // Offset: 0x17EBCBC
+    // Offset: 0x14BC0C0
     void Remove(int idx);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x17EB858
+    // Offset: 0x14BBC5C
     void Remove(UnityEngine::Timeline::SignalAsset* key);
     // public System.Void .ctor()
-    // Offset: 0x17EBFFC
+    // Offset: 0x14BC400
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -113,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::EventKeyValue::TryGetValue
 // Il2CppName: TryGetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)(UnityEngine::Timeline::SignalAsset*, UnityEngine::Events::UnityEvent*&)>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::TryGetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)(UnityEngine::Timeline::SignalAsset*, ByRef<UnityEngine::Events::UnityEvent*>)>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::TryGetValue)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEvent")->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -31,10 +32,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: LanguagePack
     LanguagePack() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> GetCurrent()
-    // Offset: 0x1498018
+    // Offset: 0x20F3E8C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* GetCurrent();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> SetCurrent(System.String tag)
-    // Offset: 0x1498124
+    // Offset: 0x20F3F98
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::Il2CppString* tag);
   }; // Oculus.Platform.LanguagePack
   #pragma pack(pop)

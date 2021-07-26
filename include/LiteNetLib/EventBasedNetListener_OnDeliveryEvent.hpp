@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.EventBasedNetListener
 #include "LiteNetLib/EventBasedNetListener.hpp"
 // Including type: System.MulticastDelegate
@@ -38,20 +39,20 @@ namespace LiteNetLib {
     // Creating value type constructor for type: OnDeliveryEvent
     OnDeliveryEvent() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BAF680
+    // Offset: 0x17A2A18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnDeliveryEvent* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnDeliveryEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnDeliveryEvent*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.NetPeer peer, System.Object userData)
-    // Offset: 0x1BAF250
+    // Offset: 0x17A25E8
     void Invoke(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.NetPeer peer, System.Object userData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BAF690
+    // Offset: 0x17A2A28
     System::IAsyncResult* BeginInvoke(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BAF6C0
+    // Offset: 0x17A2A58
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnDeliveryEvent
   #pragma pack(pop)

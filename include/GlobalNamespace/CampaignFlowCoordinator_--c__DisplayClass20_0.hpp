@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CampaignFlowCoordinator
 #include "GlobalNamespace/CampaignFlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace GlobalNamespace {
     // Set instance field: public MissionHelpViewController viewController
     void _set_viewController(GlobalNamespace::MissionHelpViewController* value);
     // System.Void <HandleMissionHelpViewControllerDidFinish>b__0()
-    // Offset: 0x1078758
+    // Offset: 0x1EFA054
     void $HandleMissionHelpViewControllerDidFinish$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1078750
+    // Offset: 0x1EFA04C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

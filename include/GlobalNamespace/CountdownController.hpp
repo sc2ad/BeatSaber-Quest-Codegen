@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,7 +52,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::CountdownElementController*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0DBA8
+    // [InjectAttribute] Offset: 0xEBA7C4
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -133,22 +134,22 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
     void _set__countdownElementControllerQueue(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1081FF8
+    // Offset: 0x1F038F4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1082010
+    // Offset: 0x1F0390C
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x107963C
+    // Offset: 0x1EFAF38
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x107982C
+    // Offset: 0x1EFB128
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x107973C
+    // Offset: 0x1EFB038
     void StopCountdown();
     // public System.Void .ctor()
-    // Offset: 0x1082230
+    // Offset: 0x1F03B2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,16 +50,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<UnityEngine.Camera> <>9__345_0
     static void _set_$$9__345_0(System::Comparison_1<UnityEngine::Camera*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12E0F54
+    // Offset: 0x10A2EC4
     static void _cctor();
     // System.String <InitOVRManager>b__337_0(System.Single f)
-    // Offset: 0x12E0FC0
+    // Offset: 0x10A2F30
     ::Il2CppString* $InitOVRManager$b__337_0(float f);
     // System.Int32 <FindMainCamera>b__345_0(UnityEngine.Camera c0, UnityEngine.Camera c1)
-    // Offset: 0x12E0FE8
+    // Offset: 0x10A2F58
     int $FindMainCamera$b__345_0(UnityEngine::Camera* c0, UnityEngine::Camera* c1);
     // public System.Void .ctor()
-    // Offset: 0x12E0FB8
+    // Offset: 0x10A2F28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

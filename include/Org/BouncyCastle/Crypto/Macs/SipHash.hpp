@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IMac
 #include "Org/BouncyCastle/Crypto/IMac.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -143,44 +144,44 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Set instance field: protected System.Int32 wordCount
     void _set_wordCount(int value);
     // public System.Void .ctor(System.Int32 c, System.Int32 d)
-    // Offset: 0x18C10DC
+    // Offset: 0x15924E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor(int c, int d) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>(c, d)));
     }
     // public System.Int32 GetMacSize()
-    // Offset: 0x18C1118
+    // Offset: 0x159251C
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18C1120
+    // Offset: 0x1592524
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x18C1264
+    // Offset: 0x1592668
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x18C12B4
+    // Offset: 0x15926B8
     void BlockUpdate(::Array<uint8_t>* input, int offset, int length);
     // public System.Int64 DoFinal()
-    // Offset: 0x18C1484
+    // Offset: 0x1592888
     int64_t DoFinal();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18C1524
+    // Offset: 0x1592928
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x18C156C
+    // Offset: 0x1592970
     void Reset();
     // protected System.Void ProcessMessageWord()
-    // Offset: 0x18C15D0
+    // Offset: 0x15929D4
     void ProcessMessageWord();
     // protected System.Void ApplySipRounds(System.Int32 n)
-    // Offset: 0x18C1628
+    // Offset: 0x1592A2C
     void ApplySipRounds(int n);
     // static protected System.Int64 RotateLeft(System.Int64 x, System.Int32 n)
-    // Offset: 0x18C1674
+    // Offset: 0x1592A78
     static int64_t RotateLeft(int64_t x, int n);
     // public System.Void .ctor()
-    // Offset: 0x18C10A8
+    // Offset: 0x15924AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

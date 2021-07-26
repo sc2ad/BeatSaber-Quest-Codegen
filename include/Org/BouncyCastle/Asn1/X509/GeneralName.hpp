@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1Choice
@@ -55,28 +56,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: readonly System.Int32 tag
     void _set_tag(int value);
     // public System.Int32 get_TagNo()
-    // Offset: 0x19DA474
+    // Offset: 0x1691568
     int get_TagNo();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Name()
-    // Offset: 0x19DA47C
+    // Offset: 0x1691570
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
     // public System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1Encodable name)
-    // Offset: 0x19D9FC8
+    // Offset: 0x16910BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralName* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1Encodable* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::GeneralName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralName*, creationType>(tag, name)));
     }
     // static public Org.BouncyCastle.Asn1.X509.GeneralName GetInstance(System.Object obj)
-    // Offset: 0x19DA004
+    // Offset: 0x16910F8
     static Org::BouncyCastle::Asn1::X509::GeneralName* GetInstance(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x19DA484
+    // Offset: 0x1691578
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19DA64C
+    // Offset: 0x1691740
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

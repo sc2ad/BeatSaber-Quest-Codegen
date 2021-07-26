@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -120,38 +121,38 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set instance field: private System.Collections.IEnumerator <enumerator>5__4
     void _set_$enumerator$5__4(System::Collections::IEnumerator* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x147EFA0
+    // Offset: 0x11F0000
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x147F008
+    // Offset: 0x11F0068
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x147E698
+    // Offset: 0x11EF6F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestWorkItem::$PerformWork$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::$PerformWork$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestWorkItem::$PerformWork$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x147E6D0
+    // Offset: 0x11EF730
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x147E844
+    // Offset: 0x11EF8A4
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x147E820
+    // Offset: 0x11EF880
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x147E754
+    // Offset: 0x11EF7B4
     void $$m__Finally2();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x147EFA8
+    // Offset: 0x11F0008
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0x147F010
+    // Offset: 0x11F0070
     System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x147F0BC
+    // Offset: 0x11F011C
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem/UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>d__2
   #pragma pack(pop)

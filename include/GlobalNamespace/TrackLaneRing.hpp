@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -133,31 +134,31 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform _transform
     void _set__transform(UnityEngine::Transform* value);
     // public System.Single get_destRotZ()
-    // Offset: 0x106F364
+    // Offset: 0x1EDAE38
     float get_destRotZ();
     // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
-    // Offset: 0x106F36C
+    // Offset: 0x1EDAE40
     void Init(UnityEngine::Vector3 position, UnityEngine::Vector3 positionOffset);
     // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
-    // Offset: 0x106F454
+    // Offset: 0x1EDAF28
     void FixedUpdateRing(float fixedDeltaTime);
     // public System.Void LateUpdateRing(System.Single interpolationFactor)
-    // Offset: 0x106F514
+    // Offset: 0x1EDAFE8
     void LateUpdateRing(float interpolationFactor);
     // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
-    // Offset: 0x106F5D4
+    // Offset: 0x1EDB0A8
     void SetDestRotation(float destRotZ, float rotateSpeed);
     // public System.Single GetRotation()
-    // Offset: 0x106F5DC
+    // Offset: 0x1EDB0B0
     float GetRotation();
     // public System.Single GetDestinationRotation()
-    // Offset: 0x106F5E4
+    // Offset: 0x1EDB0B8
     float GetDestinationRotation();
     // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
-    // Offset: 0x106F5EC
+    // Offset: 0x1EDB0C0
     void SetPosition(float destPosZ, float moveSpeed);
     // public System.Void .ctor()
-    // Offset: 0x106F5F4
+    // Offset: 0x1EDB0C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Specialized.ListDictionary
 #include "System/Collections/Specialized/ListDictionary.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,7 +53,7 @@ namespace System::Collections::Specialized {
     // Set instance field: public System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode next
     void _set_next(System::Collections::Specialized::ListDictionary::DictionaryNode* value);
     // public System.Void .ctor()
-    // Offset: 0x1843ED8
+    // Offset: 0x15152DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

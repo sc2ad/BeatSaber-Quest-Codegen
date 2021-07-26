@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServicesInfoViewController
 #include "GlobalNamespace/OnlineServicesInfoViewController.hpp"
 // Including type: System.ValueType
@@ -104,10 +105,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.LeaderboardEntriesResult> <>u__2
     void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFA0C
+    // Offset: 0xF7B650
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFA14
+    // Offset: 0xF7B658
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServicesInfoViewController/<GetServerStatus>d__8
   // WARNING Not writing size check since size may be invalid!

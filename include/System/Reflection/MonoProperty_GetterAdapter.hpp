@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.MonoProperty
 #include "System/Reflection/MonoProperty.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace System::Reflection {
     // Creating value type constructor for type: GetterAdapter
     GetterAdapter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CB331C
+    // Offset: 0x18500BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoProperty::GetterAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::GetterAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoProperty::GetterAdapter*, creationType>(object, method)));
     }
     // public System.Object Invoke(System.Object _this)
-    // Offset: 0x1CB332C
+    // Offset: 0x18500CC
     ::Il2CppObject* Invoke(::Il2CppObject* _this);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CB36C8
+    // Offset: 0x1850468
     System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CB36EC
+    // Offset: 0x185048C
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.MonoProperty/System.Reflection.GetterAdapter
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -102,13 +103,13 @@ namespace TMPro {
     // Set instance field: System.Char[] linkID
     void _set_linkID(::Array<::Il2CppChar>* value);
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xED1248
+    // Offset: 0xD67BD0
     void SetLinkID(::Array<::Il2CppChar>* text, int startIndex, int length);
     // public System.String GetLinkText()
-    // Offset: 0xED1250
+    // Offset: 0xD67BD8
     ::Il2CppString* GetLinkText();
     // public System.String GetLinkID()
-    // Offset: 0xED1258
+    // Offset: 0xD67BE0
     ::Il2CppString* GetLinkID();
   }; // TMPro.TMP_LinkInfo
   #pragma pack(pop)

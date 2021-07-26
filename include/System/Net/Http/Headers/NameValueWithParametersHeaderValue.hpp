@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.NameValueHeaderValue
 #include "System/Net/Http/Headers/NameValueHeaderValue.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,26 +55,26 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
     void _set_parameters(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* value);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x1569D18
+    // Offset: 0x126E2E8
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // protected System.Void .ctor(System.Net.Http.Headers.NameValueWithParametersHeaderValue source)
-    // Offset: 0x1569B84
+    // Offset: 0x126E154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueWithParametersHeaderValue* New_ctor(System::Net::Http::Headers::NameValueWithParametersHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::NameValueWithParametersHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueWithParametersHeaderValue*, creationType>(source)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1569D94
+    // Offset: 0x126E364
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueWithParametersHeaderValue> result)
-    // Offset: 0x1569FB4
-    static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueWithParametersHeaderValue*>*& result);
+    // Offset: 0x126E584
+    static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueWithParametersHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.NameValueWithParametersHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x156A054
-    static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::NameValueWithParametersHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
+    // Offset: 0x126E624
+    static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::NameValueWithParametersHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x1569D8C
+    // Offset: 0x126E35C
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.Void NameValueHeaderValue::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -83,17 +84,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<NameValueWithParametersHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1569DF4
+    // Offset: 0x126E3C4
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.Boolean NameValueHeaderValue::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1569EBC
+    // Offset: 0x126E48C
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.Int32 NameValueHeaderValue::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1569F24
+    // Offset: 0x126E4F4
     // Implemented from: System.Net.Http.Headers.NameValueHeaderValue
     // Base method: System.String NameValueHeaderValue::ToString()
     ::Il2CppString* ToString();
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueWithParametersHeaderValue*>*&)>(&System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueWithParametersHeaderValue*>*>)>(&System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* minimalCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::NameValueWithParametersHeaderValue*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryParseElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, ByRef<System::Net::Http::Headers::NameValueWithParametersHeaderValue*>, ByRef<System::Net::Http::Headers::Token>)>(&System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryParseElement)> {
   static const MethodInfo* get() {
     static auto* lexer = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Lexer")->byval_arg;
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "NameValueWithParametersHeaderValue")->this_arg;

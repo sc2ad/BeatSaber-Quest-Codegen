@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,13 +35,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _worldToPlayerSpaceRotation
     void _set__worldToPlayerSpaceRotation(UnityEngine::Quaternion value);
     // public UnityEngine.Quaternion get_worldToPlayerSpaceRotation()
-    // Offset: 0x1106C70
+    // Offset: 0x1F58C84
     UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
     // protected System.Void Start()
-    // Offset: 0x1106C7C
+    // Offset: 0x1F58C90
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1106D38
+    // Offset: 0x1F58D4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,14 +34,14 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class GregorianCalendarHelper : public ::Il2CppObject {
     public:
-    // [OptionalFieldAttribute] Offset: 0xD6F1C4
+    // [OptionalFieldAttribute] Offset: 0xE1BDE0
     // System.Int32 m_maxYear
     // Size: 0x4
     // Offset: 0x10
     int m_maxYear;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [OptionalFieldAttribute] Offset: 0xD6F1FC
+    // [OptionalFieldAttribute] Offset: 0xE1BE18
     // System.Int32 m_minYear
     // Size: 0x4
     // Offset: 0x14
@@ -53,21 +54,21 @@ namespace System::Globalization {
     System::Globalization::Calendar* m_Cal;
     // Field size check
     static_assert(sizeof(System::Globalization::Calendar*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xD6F234
+    // [OptionalFieldAttribute] Offset: 0xE1BE50
     // System.Globalization.EraInfo[] m_EraInfo
     // Size: 0x8
     // Offset: 0x20
     ::Array<System::Globalization::EraInfo*>* m_EraInfo;
     // Field size check
     static_assert(sizeof(::Array<System::Globalization::EraInfo*>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xD6F26C
+    // [OptionalFieldAttribute] Offset: 0xE1BE88
     // System.Int32[] m_eras
     // Size: 0x8
     // Offset: 0x28
     ::Array<int>* m_eras;
     // Field size check
     static_assert(sizeof(::Array<int>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xD6F2A4
+    // [OptionalFieldAttribute] Offset: 0xE1BEC0
     // System.DateTime m_minDate
     // Size: 0x8
     // Offset: 0x30
@@ -109,68 +110,68 @@ namespace System::Globalization {
     // Set instance field: System.DateTime m_minDate
     void _set_m_minDate(System::DateTime value);
     // System.Int32 get_MaxYear()
-    // Offset: 0x19C5DB8
+    // Offset: 0x167DEAC
     int get_MaxYear();
     // public System.Int32[] get_Eras()
-    // Offset: 0x19C6D68
+    // Offset: 0x167EE5C
     ::Array<int>* get_Eras();
     // System.Void .ctor(System.Globalization.Calendar cal, System.Globalization.EraInfo[] eraInfo)
-    // Offset: 0x19C5DC0
+    // Offset: 0x167DEB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::Array<System::Globalization::EraInfo*>* eraInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::GregorianCalendarHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GregorianCalendarHelper*, creationType>(cal, eraInfo)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19C7164
+    // Offset: 0x167F258
     static void _cctor();
     // System.Int32 GetGregorianYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x19C5E60
+    // Offset: 0x167DF54
     int GetGregorianYear(int year, int era);
     // System.Boolean IsValidYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x19C60C8
+    // Offset: 0x167E1BC
     bool IsValidYear(int year, int era);
     // System.Int32 GetDatePart(System.Int64 ticks, System.Int32 part)
-    // Offset: 0x19C6180
+    // Offset: 0x167E274
     int GetDatePart(int64_t ticks, int part);
     // static System.Int64 GetAbsoluteDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x19C659C
+    // Offset: 0x167E690
     static int64_t GetAbsoluteDate(int year, int month, int day);
     // static System.Int64 DateToTicks(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x19C6794
+    // Offset: 0x167E888
     static int64_t DateToTicks(int year, int month, int day);
     // static System.Int64 TimeToTicks(System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
-    // Offset: 0x19C6824
+    // Offset: 0x167E918
     static int64_t TimeToTicks(int hour, int minute, int second, int millisecond);
     // System.Void CheckTicksRange(System.Int64 ticks)
-    // Offset: 0x19C63CC
+    // Offset: 0x167E4C0
     void CheckTicksRange(int64_t ticks);
     // public System.Int32 GetDayOfMonth(System.DateTime time)
-    // Offset: 0x19C69EC
+    // Offset: 0x167EAE0
     int GetDayOfMonth(System::DateTime time);
     // public System.DayOfWeek GetDayOfWeek(System.DateTime time)
-    // Offset: 0x19C6A30
+    // Offset: 0x167EB24
     System::DayOfWeek GetDayOfWeek(System::DateTime time);
     // public System.Int32 GetDaysInMonth(System.Int32 year, System.Int32 month, System.Int32 era)
-    // Offset: 0x19C6AC0
+    // Offset: 0x167EBB4
     int GetDaysInMonth(int year, int month, int era);
     // public System.Int32 GetEra(System.DateTime time)
-    // Offset: 0x19C6C68
+    // Offset: 0x167ED5C
     int GetEra(System::DateTime time);
     // public System.Int32 GetMonth(System.DateTime time)
-    // Offset: 0x19C6E70
+    // Offset: 0x167EF64
     int GetMonth(System::DateTime time);
     // public System.Int32 GetMonthsInYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x19C6EB4
+    // Offset: 0x167EFA8
     int GetMonthsInYear(int year, int era);
     // public System.Int32 GetYear(System.DateTime time)
-    // Offset: 0x19C6ECC
+    // Offset: 0x167EFC0
     int GetYear(System::DateTime time);
     // public System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x19C6FEC
+    // Offset: 0x167F0E0
     bool IsLeapYear(int year, int era);
     // public System.DateTime ToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era)
-    // Offset: 0x19C7054
+    // Offset: 0x167F148
     System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
   }; // System.Globalization.GregorianCalendarHelper
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/IGcmMultiplier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,13 +47,13 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Set instance field: private System.UInt32[][][] M
     void _set_M(::Array<::Array<::Array<uint>*>*>* value);
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0x18CA8F8
+    // Offset: 0x159BCFC
     void Init(::Array<uint8_t>* H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x18CB184
+    // Offset: 0x159C588
     void MultiplyH(::Array<uint8_t>* x);
     // public System.Void .ctor()
-    // Offset: 0x18CB3A8
+    // Offset: 0x159C7AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

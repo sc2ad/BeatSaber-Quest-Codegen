@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ObservableVariableSO`1
 #include "GlobalNamespace/ObservableVariableSO_1.hpp"
 // Including type: UnityEngine.Vector2Int
@@ -23,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Vector2IntSO
     Vector2IntSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x235E0D8
+    // Offset: 0x1DE6518
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

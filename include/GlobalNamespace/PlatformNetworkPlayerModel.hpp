@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseNetworkPlayerModel
 #include "GlobalNamespace/BaseNetworkPlayerModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlatformNetworkPlayerModel
     PlatformNetworkPlayerModel() noexcept {}
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_friends()
-    // Offset: 0x10FEF94
+    // Offset: 0x1F50FA8
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_friends();
     // protected System.Void .ctor()
-    // Offset: 0x10FEFD0
+    // Offset: 0x1F50FE4
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
     // Base method: System.Void StandaloneMonobehavior::.ctor()
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformNetworkPlayerModel*, creationType>()));
     }
     // public override System.Void DestroyPartyConnection()
-    // Offset: 0x10FEFA4
+    // Offset: 0x1F50FB8
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::DestroyPartyConnection()
     void DestroyPartyConnection();

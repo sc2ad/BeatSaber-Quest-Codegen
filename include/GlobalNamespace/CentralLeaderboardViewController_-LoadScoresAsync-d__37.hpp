@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CentralLeaderboardViewController
 #include "GlobalNamespace/CentralLeaderboardViewController.hpp"
 // Including type: System.ValueType
@@ -106,10 +107,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.LeaderboardEntriesResult> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFC94
+    // Offset: 0xF7BD0C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFC9C
+    // Offset: 0xF7BD14
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // CentralLeaderboardViewController/<LoadScoresAsync>d__37
   // WARNING Not writing size check since size may be invalid!

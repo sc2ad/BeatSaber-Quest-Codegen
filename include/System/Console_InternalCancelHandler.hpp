@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Console
 #include "System/Console.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace System {
     // Creating value type constructor for type: InternalCancelHandler
     InternalCancelHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x194DD90
+    // Offset: 0x161F194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Console::InternalCancelHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Console::InternalCancelHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Console::InternalCancelHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x194F160
+    // Offset: 0x1620564
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x194F36C
+    // Offset: 0x1620770
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x194F398
+    // Offset: 0x162079C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Console/System.InternalCancelHandler
   #pragma pack(pop)

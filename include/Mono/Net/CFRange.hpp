@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
@@ -49,7 +50,7 @@ namespace Mono::Net {
     // Set instance field: public System.IntPtr Length
     void _set_Length(System::IntPtr value);
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
-    // Offset: 0xEDE920
+    // Offset: 0xD728D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CFRange(int loc, int len) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFRange::.ctor");

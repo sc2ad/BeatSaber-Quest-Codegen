@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandardLevelDetailViewController
 #include "GlobalNamespace/StandardLevelDetailViewController.hpp"
 // Including type: System.ValueType
@@ -92,10 +93,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__2
     void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFB00
+    // Offset: 0xF7B76C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFB08
+    // Offset: 0xF7B774
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<LoadBeatmapLevelAsync>d__55
   // WARNING Not writing size check since size may be invalid!

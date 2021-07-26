@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: InternetConnectionChecker
 #include "GlobalNamespace/InternetConnectionChecker.hpp"
 // Including type: System.ValueType
@@ -60,10 +61,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value);
     // private System.Void MoveNext()
-    // Offset: 0xF0DABC
+    // Offset: 0xD93650
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF0DAC4
+    // Offset: 0xD93658
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // InternetConnectionChecker/<IsConnectedToInternetAsync>d__0
   // WARNING Not writing size check since size may be invalid!

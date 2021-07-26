@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,13 +42,13 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Rigidbody2D _rigidbody2D
     void _set__rigidbody2D(UnityEngine::Rigidbody2D* value);
     // protected System.Void Awake()
-    // Offset: 0x235A404
+    // Offset: 0x1DE2844
     void Awake();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x235A408
+    // Offset: 0x1DE2848
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x235A424
+    // Offset: 0x1DE2864
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

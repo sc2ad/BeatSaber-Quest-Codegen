@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -47,24 +48,24 @@ namespace UnityEngine::Rendering {
     // Set instance field: private System.Int32 m_Id
     void _set_m_Id(int value);
     // System.Int32 get_id()
-    // Offset: 0xEF5C48
+    // Offset: 0xF84B38
     int get_id();
     // System.Void set_id(System.Int32 value)
-    // Offset: 0xEF5C50
+    // Offset: 0xF84B40
     void set_id(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1C7FF34
+    // Offset: 0x22BA53C
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Rendering.ShaderTagId other)
-    // Offset: 0xEF5C60
+    // Offset: 0xF84B50
     bool Equals(UnityEngine::Rendering::ShaderTagId other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEF5C58
+    // Offset: 0xF84B48
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEF5C70
+    // Offset: 0xF84B60
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

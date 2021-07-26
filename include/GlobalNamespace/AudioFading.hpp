@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,19 +74,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _targetVolume
     void _set__targetVolume(float value);
     // protected System.Void Start()
-    // Offset: 0x10DB900
+    // Offset: 0x1F2C914
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10DB99C
+    // Offset: 0x1F2C9B0
     void Update();
     // public System.Void FadeOut()
-    // Offset: 0x10DBADC
+    // Offset: 0x1F2CAF0
     void FadeOut();
     // public System.Void FadeIn()
-    // Offset: 0x10DB96C
+    // Offset: 0x1F2C980
     void FadeIn();
     // public System.Void .ctor()
-    // Offset: 0x10DBB08
+    // Offset: 0x1F2CB1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

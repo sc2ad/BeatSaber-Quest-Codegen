@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkCredential
 #include "System/Net/NetworkCredential.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,10 +27,10 @@ namespace System::Net {
     // Set static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static void _set_defaultCredential(System::Net::SystemNetworkCredential* value);
     // static private System.Void .cctor()
-    // Offset: 0x158D758
+    // Offset: 0x1290D28
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x158D6F4
+    // Offset: 0x1290CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

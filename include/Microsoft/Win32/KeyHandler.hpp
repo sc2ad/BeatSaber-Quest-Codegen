@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -117,90 +118,90 @@ namespace Microsoft::Win32 {
     // Set instance field: private System.Boolean dirty
     void _set_dirty(bool value);
     // public System.Boolean get_IsMarkedForDeletion()
-    // Offset: 0x1A0F6F4
+    // Offset: 0x16C67E8
     bool get_IsMarkedForDeletion();
     // static private System.String get_UserStore()
-    // Offset: 0x1A0E808
+    // Offset: 0x16C58FC
     static ::Il2CppString* get_UserStore();
     // static private System.String get_MachineStore()
-    // Offset: 0x1A0E914
+    // Offset: 0x16C5A08
     static ::Il2CppString* get_MachineStore();
     // static private System.Void .cctor()
-    // Offset: 0x1A0C514
+    // Offset: 0x16C3608
     static void _cctor();
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir)
-    // Offset: 0x1A0C830
+    // Offset: 0x16C3924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyHandler* New_ctor(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* basedir) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir)));
     }
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir, System.Boolean is_volatile)
-    // Offset: 0x1A0C838
+    // Offset: 0x16C392C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyHandler* New_ctor(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* basedir, bool is_volatile) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir, is_volatile)));
     }
     // public System.Void Load()
-    // Offset: 0x1A0CAC8
+    // Offset: 0x16C3BBC
     void Load();
     // private System.Void LoadKey(System.Security.SecurityElement se)
-    // Offset: 0x1A0D100
+    // Offset: 0x16C41F4
     void LoadKey(System::Security::SecurityElement* se);
     // public Microsoft.Win32.RegistryKey Ensure(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable, System.Boolean is_volatile)
-    // Offset: 0x1A0D778
+    // Offset: 0x16C486C
     Microsoft::Win32::RegistryKey* Ensure(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* extra, bool writable, bool is_volatile);
     // public Microsoft.Win32.RegistryKey Probe(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable)
-    // Offset: 0x1A0DB18
+    // Offset: 0x16C4C0C
     Microsoft::Win32::RegistryKey* Probe(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* extra, bool writable);
     // static private System.String CombineName(Microsoft.Win32.RegistryKey rkey, System.String extra)
-    // Offset: 0x1A0DA30
+    // Offset: 0x16C4B24
     static ::Il2CppString* CombineName(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* extra);
     // static private System.Int64 GetSystemBootTime()
-    // Offset: 0x1A0E0B0
+    // Offset: 0x16C51A4
     static int64_t GetSystemBootTime();
     // static private System.Int64 GetRegisteredBootTime(System.String path)
-    // Offset: 0x1A0E39C
+    // Offset: 0x16C5490
     static int64_t GetRegisteredBootTime(::Il2CppString* path);
     // static private System.Void SaveRegisteredBootTime(System.String path, System.Int64 btime)
-    // Offset: 0x1A0E63C
+    // Offset: 0x16C5730
     static void SaveRegisteredBootTime(::Il2CppString* path, int64_t btime);
     // static private System.Void CleanVolatileKeys()
-    // Offset: 0x1A0C610
+    // Offset: 0x16C3704
     static void CleanVolatileKeys();
     // static public System.Boolean VolatileKeyExists(System.String dir)
-    // Offset: 0x1A0DE9C
+    // Offset: 0x16C4F90
     static bool VolatileKeyExists(::Il2CppString* dir);
     // static public System.String GetVolatileDir(System.String dir)
-    // Offset: 0x1A0CA08
+    // Offset: 0x16C3AFC
     static ::Il2CppString* GetVolatileDir(::Il2CppString* dir);
     // static public Microsoft.Win32.KeyHandler Lookup(Microsoft.Win32.RegistryKey rkey, System.Boolean createNonExisting)
-    // Offset: 0x1A0EBF0
+    // Offset: 0x16C5CE4
     static Microsoft::Win32::KeyHandler* Lookup(Microsoft::Win32::RegistryKey* rkey, bool createNonExisting);
     // static private System.String GetRootFromDir(System.String dir)
-    // Offset: 0x1A0EAB0
+    // Offset: 0x16C5BA4
     static ::Il2CppString* GetRootFromDir(::Il2CppString* dir);
     // static public System.Void Drop(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A0F0F0
+    // Offset: 0x16C61E4
     static void Drop(Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(System.String name, Microsoft.Win32.RegistryValueOptions options)
-    // Offset: 0x1A0F57C
+    // Offset: 0x16C6670
     ::Il2CppObject* GetValue(::Il2CppString* name, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames()
-    // Offset: 0x1A0F784
+    // Offset: 0x16C6878
     ::Array<::Il2CppString*>* GetSubKeyNames();
     // public System.Void Flush()
-    // Offset: 0x1A0FBB0
+    // Offset: 0x16C6CA4
     void Flush();
     // public System.Boolean ValueExists(System.String name)
-    // Offset: 0x1A10690
+    // Offset: 0x16C7784
     bool ValueExists(::Il2CppString* name);
     // private System.Void Save()
-    // Offset: 0x1A0FCAC
+    // Offset: 0x16C6DA0
     void Save();
     // protected override System.Void Finalize()
-    // Offset: 0x1A10788
+    // Offset: 0x16C787C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

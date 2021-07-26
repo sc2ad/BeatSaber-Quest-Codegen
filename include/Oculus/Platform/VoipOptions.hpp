@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,16 +46,16 @@ namespace Oculus::Platform {
     // Set instance field: private System.IntPtr Handle
     void _set_Handle(System::IntPtr value);
     // public System.Void SetBitrateForNewConnections(Oculus.Platform.VoipBitrate value)
-    // Offset: 0x238B0F0
+    // Offset: 0x23ECAF4
     void SetBitrateForNewConnections(Oculus::Platform::VoipBitrate value);
     // public System.Void SetCreateNewConnectionUseDtx(Oculus.Platform.VoipDtxState value)
-    // Offset: 0x238B16C
+    // Offset: 0x23ECB70
     void SetCreateNewConnectionUseDtx(Oculus::Platform::VoipDtxState value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.VoipOptions options)
-    // Offset: 0x238A080
+    // Offset: 0x23EBA84
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x238B078
+    // Offset: 0x23ECA7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +64,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<VoipOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x238B1E8
+    // Offset: 0x23ECBEC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

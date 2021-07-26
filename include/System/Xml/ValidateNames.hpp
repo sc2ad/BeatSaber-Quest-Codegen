@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Xml.XmlCharType
 #include "System/Xml/XmlCharType.hpp"
 // Completed includes
@@ -22,14 +23,14 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(System::Xml::XmlCharType value);
     // static private System.Void .cctor()
-    // Offset: 0x1906794
+    // Offset: 0x15D7B98
     static void _cctor();
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
-    // Offset: 0x190654C
+    // Offset: 0x15D7950
     static int ParseNCName(::Il2CppString* s, int offset);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
-    // Offset: 0x1906698
-    static int ParseQName(::Il2CppString* s, int offset, int& colonOffset);
+    // Offset: 0x15D7A9C
+    static int ParseQName(::Il2CppString* s, int offset, ByRef<int> colonOffset);
   }; // System.Xml.ValidateNames
   #pragma pack(pop)
 }
@@ -57,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Xml::ValidateNames::ParseQName
 // Il2CppName: ParseQName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int&)>(&System::Xml::ValidateNames::ParseQName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, ByRef<int>)>(&System::Xml::ValidateNames::ParseQName)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

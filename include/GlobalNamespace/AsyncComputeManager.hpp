@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IAsyncComputeManager
 #include "GlobalNamespace/IAsyncComputeManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -83,10 +84,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _disposed
     void _set__disposed(bool value);
     // public System.Void Dispose()
-    // Offset: 0x12B8438
+    // Offset: 0x108DB74
     void Dispose();
     // public System.Void BeginOperation(AsyncComputeOperation operation)
-    // Offset: 0x12B84A8
+    // Offset: 0x108DBE4
     void BeginOperation(GlobalNamespace::AsyncComputeOperation* operation);
     // public System.Threading.Tasks.Task`1<T> BeginOperation(AsyncComputeOperation`1<T> operation)
     // Offset: 0xFFFFFFFF
@@ -98,10 +99,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, operation);
     }
     // private System.Void ComputeThreadRun()
-    // Offset: 0x12B8510
+    // Offset: 0x108DC4C
     void ComputeThreadRun();
     // public System.Void .ctor()
-    // Offset: 0x12B8334
+    // Offset: 0x108DA70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

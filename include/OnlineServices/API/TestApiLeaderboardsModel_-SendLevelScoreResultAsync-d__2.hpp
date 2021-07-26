@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.TestApiLeaderboardsModel
 #include "OnlineServices/API/TestApiLeaderboardsModel.hpp"
 // Including type: System.ValueType
@@ -62,10 +63,10 @@ namespace OnlineServices::API {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.Response> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response> value);
     // private System.Void MoveNext()
-    // Offset: 0xECF8BC
+    // Offset: 0xF7B500
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECF8C4
+    // Offset: 0xF7B508
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/OnlineServices.API.<SendLevelScoreResultAsync>d__2
   // WARNING Not writing size check since size may be invalid!

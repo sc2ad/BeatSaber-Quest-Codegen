@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.InteractionTrigger
 #include "RootMotion/FinalIK/InteractionTrigger.hpp"
 // Including type: UnityEngine.Vector2
@@ -30,7 +31,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::CharacterPosition : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF794C
+    // [TooltipAttribute] Offset: 0xEA4568
     // public System.Boolean use
     // Size: 0x1
     // Offset: 0x10
@@ -39,44 +40,44 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: use and: offset
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xDF7984
+    // [TooltipAttribute] Offset: 0xEA45A0
     // public UnityEngine.Vector2 offset
     // Size: 0x8
     // Offset: 0x14
     UnityEngine::Vector2 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF79BC
-    // [RangeAttribute] Offset: 0xDF79BC
+    // [TooltipAttribute] Offset: 0xEA45D8
+    // [RangeAttribute] Offset: 0xEA45D8
     // public System.Single angleOffset
     // Size: 0x4
     // Offset: 0x1C
     float angleOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF7A18
-    // [RangeAttribute] Offset: 0xDF7A18
+    // [TooltipAttribute] Offset: 0xEA4634
+    // [RangeAttribute] Offset: 0xEA4634
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x20
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF7A70
+    // [TooltipAttribute] Offset: 0xEA468C
     // public System.Single radius
     // Size: 0x4
     // Offset: 0x24
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF7AA8
+    // [TooltipAttribute] Offset: 0xEA46C4
     // public System.Boolean orbit
     // Size: 0x1
     // Offset: 0x28
     bool orbit;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDF7AE0
+    // [TooltipAttribute] Offset: 0xEA46FC
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x29
@@ -114,16 +115,16 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Boolean fixYAxis
     void _set_fixYAxis(bool value);
     // public UnityEngine.Vector3 get_offset3D()
-    // Offset: 0x1AB42B8
+    // Offset: 0x172BB08
     UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
-    // Offset: 0x1AB42F4
+    // Offset: 0x172BB44
     UnityEngine::Vector3 get_direction3D();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1AB43EC
-    bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* trigger, float& error);
+    // Offset: 0x172BC3C
+    bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* trigger, ByRef<float> error);
     // public System.Void .ctor()
-    // Offset: 0x1AB4A68
+    // Offset: 0x172C2B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -157,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::IsInRange
 // Il2CppName: IsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)(UnityEngine::Transform*, UnityEngine::Transform*, float&)>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::IsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)(UnityEngine::Transform*, UnityEngine::Transform*, ByRef<float>)>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::IsInRange)> {
   static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* trigger = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

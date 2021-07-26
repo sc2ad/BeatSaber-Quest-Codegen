@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -32,7 +33,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class DirectionalLight : public UnityEngine::MonoBehaviour {
     public:
-    // [ColorUsageAttribute] Offset: 0xDE0FF8
+    // [ColorUsageAttribute] Offset: 0xE8EC14
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x18
@@ -82,16 +83,16 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single radius
     void _set_radius(float value);
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x1DF0410
+    // Offset: 0x1962FF0
     static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* get_lights();
     // protected System.Void OnEnable()
-    // Offset: 0x1DF0478
+    // Offset: 0x1963058
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DF04FC
+    // Offset: 0x19630DC
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1DF0580
+    // Offset: 0x1963160
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DF0590
+    // Offset: 0x1963170
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameplayModifiersModelSO
 #include "GlobalNamespace/GameplayModifiersModelSO.hpp"
 // Including type: System.MulticastDelegate
@@ -38,20 +39,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayModifierBoolGetter
     GameplayModifierBoolGetter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10B3594
+    // Offset: 0x1F20504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersModelSO::GameplayModifierBoolGetter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersModelSO::GameplayModifierBoolGetter*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(GameplayModifiers gameplayModifiers)
-    // Offset: 0x10B3960
+    // Offset: 0x1F208D0
     bool Invoke(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.IAsyncResult BeginInvoke(GameplayModifiers gameplayModifiers, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10B4158
+    // Offset: 0x1F210C8
     System::IAsyncResult* BeginInvoke(GlobalNamespace::GameplayModifiers* gameplayModifiers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10B417C
+    // Offset: 0x1F210EC
     bool EndInvoke(System::IAsyncResult* result);
   }; // GameplayModifiersModelSO/GameplayModifierBoolGetter
   #pragma pack(pop)

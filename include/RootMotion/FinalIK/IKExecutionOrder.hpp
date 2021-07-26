@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,14 +32,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKExecutionOrder : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xDF3678
+    // [TooltipAttribute] Offset: 0xEA0294
     // public RootMotion.FinalIK.IK[] IKComponents
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::IK*>* IKComponents;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::IK*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF36B0
+    // [TooltipAttribute] Offset: 0xEA02CC
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x20
@@ -68,25 +69,25 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean fixedFrame
     void _set_fixedFrame(bool value);
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1C99758
+    // Offset: 0x18374F8
     bool get_animatePhysics();
     // private System.Void Start()
-    // Offset: 0x1C997F4
+    // Offset: 0x1837594
     void Start();
     // private System.Void Update()
-    // Offset: 0x1C99864
+    // Offset: 0x1837604
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x1C99920
+    // Offset: 0x18376C0
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1C9995C
+    // Offset: 0x18376FC
     void LateUpdate();
     // private System.Void FixTransforms()
-    // Offset: 0x1C99898
+    // Offset: 0x1837638
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1C999E8
+    // Offset: 0x1837788
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

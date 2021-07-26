@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LobbyDataModelInstaller
     LobbyDataModelInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11BA848
+    // Offset: 0x1FE928C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyDataModelInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11BA458
+    // Offset: 0x1FE8E9C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

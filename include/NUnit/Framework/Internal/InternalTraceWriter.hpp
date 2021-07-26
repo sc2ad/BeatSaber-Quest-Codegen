@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.TextWriter
 #include "System/IO/TextWriter.hpp"
 // Completed includes
@@ -35,7 +36,7 @@ namespace NUnit::Framework::Internal {
     // Set instance field: private System.IO.TextWriter writer
     void _set_writer(System::IO::TextWriter* value);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x223A4D8
+    // Offset: 0x1D0A34C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();

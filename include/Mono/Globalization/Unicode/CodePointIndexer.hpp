@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -85,7 +86,7 @@ namespace Mono::Globalization::Unicode {
       // Set instance field: public readonly System.Int32 IndexEnd
       void _set_IndexEnd(int value);
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
-      // Offset: 0xEECD4C
+      // Offset: 0xD80D04
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       TableRange(int start, int end, int indexStart) {
         static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::TableRange::.ctor");
@@ -139,14 +140,14 @@ namespace Mono::Globalization::Unicode {
     // Set instance field: private System.Int32 defaultCP
     void _set_defaultCP(int value);
     // public System.Void .ctor(System.Int32[] starts, System.Int32[] ends, System.Int32 defaultIndex, System.Int32 defaultCP)
-    // Offset: 0x1A134D4
+    // Offset: 0x16CA5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePointIndexer* New_ctor(::Array<int>* starts, ::Array<int>* ends, int defaultIndex, int defaultCP) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePointIndexer*, creationType>(starts, ends, defaultIndex, defaultCP)));
     }
     // public System.Int32 ToIndex(System.Int32 cp)
-    // Offset: 0x1A13660
+    // Offset: 0x16CA754
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
   #pragma pack(pop)

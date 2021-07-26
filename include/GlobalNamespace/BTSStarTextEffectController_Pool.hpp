@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BTSStarTextEffectController
 #include "GlobalNamespace/BTSStarTextEffectController.hpp"
 // Including type: Zenject.MonoMemoryPool`4
@@ -32,10 +33,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // protected System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform transform, System.Single desiredAnimationLength, BTSStarTextEffectController starTextEffectController)
-    // Offset: 0x10E6EE4
+    // Offset: 0x1F37EF8
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* transform, float desiredAnimationLength, GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
     // public System.Void .ctor()
-    // Offset: 0x10E6EFC
+    // Offset: 0x1F37F10
     // Implemented from: Zenject.MonoMemoryPool`4
     // Base method: System.Void MonoMemoryPool_4::.ctor()
     // Base method: System.Void MemoryPool_4::.ctor()

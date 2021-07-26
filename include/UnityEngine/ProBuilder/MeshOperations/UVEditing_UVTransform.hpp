@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
 #include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 // Including type: System.ValueType
@@ -57,7 +58,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public UnityEngine.Vector2 scale
     void _set_scale(UnityEngine::Vector2 value);
     // public override System.String ToString()
-    // Offset: 0xEE4928
+    // Offset: 0xD788E0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

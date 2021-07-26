@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -44,17 +45,17 @@ namespace GlobalNamespace {
     }
     // public TStateTable GetDelta(in TStateTable stateTable)
     // Offset: 0xFFFFFFFF
-    TStateTable GetDelta(TStateTable& stateTable) {
+    TStateTable GetDelta(ByRef<TStateTable> stateTable) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::GetDelta");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateTable)})));
-      return ::il2cpp_utils::RunMethodThrow<TStateTable, false>(this, ___internal__method, stateTable);
+      return ::il2cpp_utils::RunMethodThrow<TStateTable, false>(this, ___internal__method, byref(stateTable));
     }
     // public TStateTable ApplyDelta(in TStateTable delta)
     // Offset: 0xFFFFFFFF
-    TStateTable ApplyDelta(TStateTable& delta) {
+    TStateTable ApplyDelta(ByRef<TStateTable> delta) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::ApplyDelta");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ApplyDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(delta)})));
-      return ::il2cpp_utils::RunMethodThrow<TStateTable, false>(this, ___internal__method, delta);
+      return ::il2cpp_utils::RunMethodThrow<TStateTable, false>(this, ___internal__method, byref(delta));
     }
     // public System.Int32 GetSize()
     // Offset: 0xFFFFFFFF

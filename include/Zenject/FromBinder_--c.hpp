@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FromBinder
 #include "Zenject/FromBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,43 +101,43 @@ namespace Zenject {
     // Set static field: static public System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> <>9__64_0
     static void _set_$$9__64_0(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16203B8
+    // Offset: 0x1323988
     static void _cctor();
     // UnityEngine.GameObject <FromComponentsOnRoot>b__33_0(Zenject.InjectContext ctx)
-    // Offset: 0x1620424
+    // Offset: 0x13239F4
     UnityEngine::GameObject* $FromComponentsOnRoot$b__33_0(Zenject::InjectContext* ctx);
     // UnityEngine.GameObject <FromComponentOnRoot>b__34_0(Zenject.InjectContext ctx)
-    // Offset: 0x162048C
+    // Offset: 0x1323A5C
     UnityEngine::GameObject* $FromComponentOnRoot$b__34_0(Zenject::InjectContext* ctx);
     // UnityEngine.GameObject <FromNewComponentOnRoot>b__38_0(Zenject.InjectContext ctx)
-    // Offset: 0x16204F4
+    // Offset: 0x1323AC4
     UnityEngine::GameObject* $FromNewComponentOnRoot$b__38_0(Zenject::InjectContext* ctx);
     // Zenject.IProvider <FromNewComponentOnNewPrefabResource>b__40_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x162055C
+    // Offset: 0x1323B2C
     Zenject::IProvider* $FromNewComponentOnNewPrefabResource$b__40_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromNewComponentOnNewPrefab>b__42_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x16205CC
+    // Offset: 0x1323B9C
     Zenject::IProvider* $FromNewComponentOnNewPrefab$b__42_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentInNewPrefab>b__44_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x162063C
+    // Offset: 0x1323C0C
     Zenject::IProvider* $FromComponentInNewPrefab$b__44_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentsInNewPrefab>b__46_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x16206B4
+    // Offset: 0x1323C84
     Zenject::IProvider* $FromComponentsInNewPrefab$b__46_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentInNewPrefabResource>b__48_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x1620728
+    // Offset: 0x1323CF8
     Zenject::IProvider* $FromComponentInNewPrefabResource$b__48_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentsInNewPrefabResource>b__50_0(System.Type contractType, Zenject.IPrefabInstantiator instantiator)
-    // Offset: 0x16207A0
+    // Offset: 0x1323D70
     Zenject::IProvider* $FromComponentsInNewPrefabResource$b__50_0(System::Type* contractType, Zenject::IPrefabInstantiator* instantiator);
     // Zenject.IProvider <FromComponentSibling>b__63_0(Zenject.DiContainer container, System.Type concreteType)
-    // Offset: 0x1620814
+    // Offset: 0x1323DE4
     Zenject::IProvider* $FromComponentSibling$b__63_0(Zenject::DiContainer* container, System::Type* concreteType);
     // Zenject.IProvider <FromComponentsSibling>b__64_0(Zenject.DiContainer container, System.Type concreteType)
-    // Offset: 0x16208EC
+    // Offset: 0x1323EBC
     Zenject::IProvider* $FromComponentsSibling$b__64_0(Zenject::DiContainer* container, System::Type* concreteType);
     // public System.Void .ctor()
-    // Offset: 0x162041C
+    // Offset: 0x13239EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

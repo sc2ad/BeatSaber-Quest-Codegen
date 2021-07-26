@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -25,7 +26,7 @@ namespace System {
     // Creating value type constructor for type: TypeIdentifiers
     TypeIdentifiers() noexcept {}
     // static System.TypeIdentifier FromDisplay(System.String displayName)
-    // Offset: 0x22CD654
+    // Offset: 0x1D88B88
     static System::TypeIdentifier* FromDisplay(::Il2CppString* displayName);
   }; // System.TypeIdentifiers
   #pragma pack(pop)

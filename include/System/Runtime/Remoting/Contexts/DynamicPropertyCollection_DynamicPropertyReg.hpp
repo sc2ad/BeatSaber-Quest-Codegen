@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Contexts.DynamicPropertyCollection
 #include "System/Runtime/Remoting/Contexts/DynamicPropertyCollection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,7 +52,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Set instance field: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
     void _set_Sink(System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
     // public System.Void .ctor()
-    // Offset: 0x19F0218
+    // Offset: 0x16A730C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

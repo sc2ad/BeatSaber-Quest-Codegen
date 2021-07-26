@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.SegmentedControlCell
 #include "HMUI/SegmentedControlCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,7 +51,7 @@ namespace HMUI {
     HMUI::HoverHint* hoverHint;
     // Field size check
     static_assert(sizeof(HMUI::HoverHint*) == 0x8);
-    // [NullAllowed] Offset: 0xDE2F30
+    // [NullAllowed] Offset: 0xE90B4C
     // private UnityEngine.GameObject _backgroundGameObject
     // Size: 0x8
     // Offset: 0x58
@@ -72,22 +73,22 @@ namespace HMUI {
     // Set instance field: private UnityEngine.GameObject _backgroundGameObject
     void _set__backgroundGameObject(UnityEngine::GameObject* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x1311CE8
+    // Offset: 0x10D3C58
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x1311B28
+    // Offset: 0x10D3A98
     void set_sprite(UnityEngine::Sprite* value);
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x1311B44
+    // Offset: 0x10D3AB4
     void set_hintText(::Il2CppString* value);
     // public System.Void set_iconSize(System.Single value)
-    // Offset: 0x1311C0C
+    // Offset: 0x10D3B7C
     void set_iconSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x1311B60
+    // Offset: 0x10D3AD0
     void set_hideBackgroundImage(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1311D04
+    // Offset: 0x10D3C74
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

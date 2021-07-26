@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectReader
 #include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,14 +49,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: private System.Reflection.Assembly m_topLevelAssembly
     void _set_m_topLevelAssembly(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
-    // Offset: 0x15E246C
+    // Offset: 0x12E5A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectReader::TopLevelAssemblyTypeResolver* New_ctor(System::Reflection::Assembly* topLevelAssembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader::TopLevelAssemblyTypeResolver*, creationType>(topLevelAssembly)));
     }
     // public System.Type ResolveType(System.Reflection.Assembly assembly, System.String simpleTypeName, System.Boolean ignoreCase)
-    // Offset: 0x15E2498
+    // Offset: 0x12E5A68
     System::Type* ResolveType(System::Reflection::Assembly* assembly, ::Il2CppString* simpleTypeName, bool ignoreCase);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/System.Runtime.Serialization.Formatters.Binary.TopLevelAssemblyTypeResolver
   #pragma pack(pop)

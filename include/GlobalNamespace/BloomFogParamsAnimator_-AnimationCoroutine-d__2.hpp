@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomFogParamsAnimator
 #include "GlobalNamespace/BloomFogParamsAnimator.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -100,26 +101,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <elapsedTime>5__2
     void _set_$elapsedTime$5__2(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1DEADD0
+    // Offset: 0x195D9B0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1DEAE38
+    // Offset: 0x195DA18
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1DEAB88
+    // Offset: 0x195D768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogParamsAnimator::$AnimationCoroutine$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogParamsAnimator::$AnimationCoroutine$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1DEACE8
+    // Offset: 0x195D8C8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1DEACEC
+    // Offset: 0x195D8CC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1DEADD8
+    // Offset: 0x195D9B8
     void System_Collections_IEnumerator_Reset();
   }; // BloomFogParamsAnimator/<AnimationCoroutine>d__2
   #pragma pack(pop)

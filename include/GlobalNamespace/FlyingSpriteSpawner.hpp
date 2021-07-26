@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IFlyingObjectEffectDidFinishEvent
@@ -90,7 +91,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingSpriteEffectPool
     char __padding7[0x7] = {};
-    // [InjectAttribute] Offset: 0xE04240
+    // [InjectAttribute] Offset: 0xEB0E5C
     // private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     // Size: 0x8
     // Offset: 0x50
@@ -142,13 +143,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     void _set__flyingSpriteEffectPool(GlobalNamespace::FlyingSpriteEffect::Pool* value);
     // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
-    // Offset: 0x102B418
+    // Offset: 0x1E95EEC
     void SpawnFlyingSprite(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x102B684
+    // Offset: 0x1E96158
     void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0x102B7A0
+    // Offset: 0x1E96274
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

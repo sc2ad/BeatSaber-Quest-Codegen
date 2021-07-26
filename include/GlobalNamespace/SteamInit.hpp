@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,10 +23,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamInit
     SteamInit() noexcept {}
     // public System.Void Init()
-    // Offset: 0x1066EF8
+    // Offset: 0x1ED29CC
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1066EFC
+    // Offset: 0x1ED29D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

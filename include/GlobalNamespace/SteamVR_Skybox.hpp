@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -173,25 +174,25 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single StereoIpdMm
     void _set_StereoIpdMm(float value);
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0x13B34EC
+    // Offset: 0x115B14C
     void SetTextureByIndex(int i, UnityEngine::Texture* t);
     // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0x13B3540
+    // Offset: 0x115B1A0
     UnityEngine::Texture* GetTextureByIndex(int i);
     // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0x13A9FE8
+    // Offset: 0x1151C48
     static void SetOverride(UnityEngine::Texture* front, UnityEngine::Texture* back, UnityEngine::Texture* left, UnityEngine::Texture* right, UnityEngine::Texture* top, UnityEngine::Texture* bottom);
     // static public System.Void ClearOverride()
-    // Offset: 0x13AA414
+    // Offset: 0x1152074
     static void ClearOverride();
     // private System.Void OnEnable()
-    // Offset: 0x13B359C
+    // Offset: 0x115B1FC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x13B35B0
+    // Offset: 0x115B210
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x13B35B4
+    // Offset: 0x115B214
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.WingedEdge
 #include "UnityEngine/ProBuilder/WingedEdge.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,10 +46,10 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public System.Collections.Generic.HashSet`1<System.Int32> common
     void _set_common(System::Collections::Generic::HashSet_1<int>* value);
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x22B3B90
+    // Offset: 0x1D84A04
     bool $SortCommonIndexesByAdjacency$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x22B3994
+    // Offset: 0x1D84808
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

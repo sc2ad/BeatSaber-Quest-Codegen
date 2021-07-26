@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,14 +61,14 @@ namespace GlobalNamespace {
     // Set instance field: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
     void _set_mockNodePoseSyncStateSender(GlobalNamespace::MockNodePoseSyncStateSender* value);
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x238FF4C
+    // Offset: 0x1E07F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerLobbyPoseGenerator* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerLobbyPoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGenerator*, creationType>(multiplayerSessionManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x238FFC8
+    // Offset: 0x1E07FB0
     void Dispose();
     // public System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF

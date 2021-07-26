@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -52,25 +53,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: private System.Single m_SmoothingThreshold
     void _set_m_SmoothingThreshold(float value);
     // public System.Boolean get_quads()
-    // Offset: 0x16F143C
+    // Offset: 0x13F3AF8
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x16F1444
+    // Offset: 0x13F3B00
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x16F1450
+    // Offset: 0x13F3B0C
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x16F1458
+    // Offset: 0x13F3B14
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x16F1464
+    // Offset: 0x13F3B20
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x16F146C
+    // Offset: 0x13F3B28
     void set_smoothingAngle(float value);
     // public System.Void .ctor()
-    // Offset: 0x16F153C
+    // Offset: 0x13F3BF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,7 +80,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MeshImportSettings*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x16F1474
+    // Offset: 0x13F3B30
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

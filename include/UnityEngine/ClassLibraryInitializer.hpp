@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -16,7 +17,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ClassLibraryInitializer
     ClassLibraryInitializer() noexcept {}
     // static private System.Void Init()
-    // Offset: 0x1BE15AC
+    // Offset: 0x17D3944
     static void Init();
   }; // UnityEngine.ClassLibraryInitializer
   #pragma pack(pop)

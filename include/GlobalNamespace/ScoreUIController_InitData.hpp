@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ScoreUIController
 #include "GlobalNamespace/ScoreUIController.hpp"
 // Including type: ScoreUIController/ScoreDisplayType
@@ -38,7 +39,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
     void _set_scoreDisplayType(GlobalNamespace::ScoreUIController::ScoreDisplayType value);
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
-    // Offset: 0x1153EF8
+    // Offset: 0x1F8490C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreUIController::InitData* New_ctor(GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScoreUIController::InitData::.ctor");

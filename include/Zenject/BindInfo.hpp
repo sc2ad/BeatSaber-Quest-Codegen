@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: Zenject.BindingInheritanceMethods
@@ -250,16 +251,16 @@ namespace Zenject {
     // Set instance field: public System.Action`2<Zenject.InjectContext,System.Object> InstantiatedCallback
     void _set_InstantiatedCallback(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* value);
     // public System.Void Dispose()
-    // Offset: 0x13793D4
+    // Offset: 0x1120034
     void Dispose();
     // public System.Void SetContextInfo(System.String contextInfo)
-    // Offset: 0x137943C
+    // Offset: 0x112009C
     void SetContextInfo(::Il2CppString* contextInfo);
     // public System.Void Reset()
-    // Offset: 0x137931C
+    // Offset: 0x111FF7C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x137925C
+    // Offset: 0x111FEBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

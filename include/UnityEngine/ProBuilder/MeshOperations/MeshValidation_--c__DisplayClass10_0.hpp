@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MeshValidation
 #include "UnityEngine/ProBuilder/MeshOperations/MeshValidation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,10 +47,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     void _set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // System.Boolean <RebuildSelectionIndexes>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x16F5F84
+    // Offset: 0x13F8640
     bool $RebuildSelectionIndexes$b__0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x16F5D68
+    // Offset: 0x13F8424
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

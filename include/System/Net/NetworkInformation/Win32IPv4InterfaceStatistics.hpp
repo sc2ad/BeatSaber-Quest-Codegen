@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.IPv4InterfaceStatistics
 #include "System/Net/NetworkInformation/IPv4InterfaceStatistics.hpp"
 // Including type: System.Net.NetworkInformation.Win32_MIB_IFROW
@@ -38,7 +39,7 @@ namespace System::Net::NetworkInformation {
     // Set instance field: private System.Net.NetworkInformation.Win32_MIB_IFROW info
     void _set_info(System::Net::NetworkInformation::Win32_MIB_IFROW value);
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_MIB_IFROW info)
-    // Offset: 0x1465318
+    // Offset: 0x11D6378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPv4InterfaceStatistics* New_ctor(System::Net::NetworkInformation::Win32_MIB_IFROW info) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::.ctor");

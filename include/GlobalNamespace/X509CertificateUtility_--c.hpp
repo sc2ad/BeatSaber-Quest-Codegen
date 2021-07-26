@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: X509CertificateUtility
 #include "GlobalNamespace/X509CertificateUtility.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509ChainStatus
@@ -45,16 +46,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509ChainStatus,System.String> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2315428
+    // Offset: 0x23D65DC
     static void _cctor();
     // System.String <ValidateCertificateChainUnity>b__6_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
-    // Offset: 0x2315494
+    // Offset: 0x23D6648
     ::Il2CppString* $ValidateCertificateChainUnity$b__6_0(System::Security::Cryptography::X509Certificates::X509ChainStatus s);
     // System.String <ValidateCertificateChainDotNet>b__7_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
-    // Offset: 0x231551C
+    // Offset: 0x23D66D0
     ::Il2CppString* $ValidateCertificateChainDotNet$b__7_0(System::Security::Cryptography::X509Certificates::X509ChainStatus s);
     // public System.Void .ctor()
-    // Offset: 0x231548C
+    // Offset: 0x23D6640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

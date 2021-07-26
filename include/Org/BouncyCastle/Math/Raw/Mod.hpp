@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Security
@@ -27,20 +28,20 @@ namespace Org::BouncyCastle::Math::Raw {
     // Set static field: static private readonly Org.BouncyCastle.Security.SecureRandom RandomSource
     static void _set_RandomSource(Org::BouncyCastle::Security::SecureRandom* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DA0194
+    // Offset: 0x1911D74
     static void _cctor();
     // static public System.Void Invert(System.UInt32[] p, System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x1D9FA80
+    // Offset: 0x1911660
     static void Invert(::Array<uint>* p, ::Array<uint>* x, ::Array<uint>* z);
     // static public System.UInt32[] Random(System.UInt32[] p)
-    // Offset: 0x1DA0028
+    // Offset: 0x1911C08
     static ::Array<uint>* Random(::Array<uint>* p);
     // static private System.Void InversionResult(System.UInt32[] p, System.Int32 ac, System.UInt32[] a, System.UInt32[] z)
-    // Offset: 0x1D9FFE0
+    // Offset: 0x1911BC0
     static void InversionResult(::Array<uint>* p, int ac, ::Array<uint>* a, ::Array<uint>* z);
     // static private System.Void InversionStep(System.UInt32[] p, System.UInt32[] u, System.Int32 uLen, System.UInt32[] x, ref System.Int32 xc)
-    // Offset: 0x1D9FEAC
-    static void InversionStep(::Array<uint>* p, ::Array<uint>* u, int uLen, ::Array<uint>* x, int& xc);
+    // Offset: 0x1911A8C
+    static void InversionStep(::Array<uint>* p, ::Array<uint>* u, int uLen, ::Array<uint>* x, ByRef<int> xc);
   }; // Org.BouncyCastle.Math.Raw.Mod
   #pragma pack(pop)
 }
@@ -90,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Mod::InversionStep
 // Il2CppName: InversionStep
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, int, ::Array<uint>*, int&)>(&Org::BouncyCastle::Math::Raw::Mod::InversionStep)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, int, ::Array<uint>*, ByRef<int>)>(&Org::BouncyCastle::Math::Raw::Mod::InversionStep)> {
   static const MethodInfo* get() {
     static auto* p = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* u = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

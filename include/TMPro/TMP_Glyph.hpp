@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_TextElement_Legacy
 #include "TMPro/TMP_TextElement_Legacy.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,10 +23,10 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_Glyph
     TMP_Glyph() noexcept {}
     // static public TMPro.TMP_Glyph Clone(TMPro.TMP_Glyph source)
-    // Offset: 0x10C92E4
+    // Offset: 0x1000DE4
     static TMPro::TMP_Glyph* Clone(TMPro::TMP_Glyph* source);
     // public System.Void .ctor()
-    // Offset: 0x10C9398
+    // Offset: 0x1000E98
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()

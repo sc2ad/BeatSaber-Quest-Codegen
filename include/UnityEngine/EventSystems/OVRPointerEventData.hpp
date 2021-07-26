@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData
 #include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Including type: UnityEngine.Ray
@@ -51,7 +52,7 @@ namespace UnityEngine::EventSystems {
     // Set instance field: public UnityEngine.Vector2 swipeStart
     void _set_swipeStart(UnityEngine::Vector2 value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1EF4C90
+    // Offset: 0x1A0B930
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.Void PointerEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
@@ -61,7 +62,7 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()
-    // Offset: 0x1EF6DD0
+    // Offset: 0x1A0DA70
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.String PointerEventData::ToString()
     ::Il2CppString* ToString();

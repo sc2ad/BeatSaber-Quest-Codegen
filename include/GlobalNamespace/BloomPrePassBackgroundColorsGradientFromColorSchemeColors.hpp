@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColorsGradient*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE11B28
+    // [SpaceAttribute] Offset: 0xEBE744
     // private System.Single _skyColorIntensity
     // Size: 0x4
     // Offset: 0x20
@@ -47,7 +48,7 @@ namespace GlobalNamespace {
     float groundColorIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE11B70
+    // [InjectAttribute] Offset: 0xEBE78C
     // private readonly EnvironmentColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
@@ -75,10 +76,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly EnvironmentColorManager _colorManager
     void _set__colorManager(GlobalNamespace::EnvironmentColorManager* value);
     // protected System.Void Start()
-    // Offset: 0x109CF28
+    // Offset: 0x1EF53D0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x109D104
+    // Offset: 0x1EF55AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

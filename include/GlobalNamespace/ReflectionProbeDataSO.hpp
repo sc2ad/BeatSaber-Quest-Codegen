@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,19 +52,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Cubemap _reflectionProbeCubemap2
     void _set__reflectionProbeCubemap2(UnityEngine::Cubemap* value);
     // public UnityEngine.Cubemap get_reflectionProbeCubemap1()
-    // Offset: 0x1142B70
+    // Offset: 0x1F73584
     UnityEngine::Cubemap* get_reflectionProbeCubemap1();
     // public System.Void set_reflectionProbeCubemap1(UnityEngine.Cubemap value)
-    // Offset: 0x1142B78
+    // Offset: 0x1F7358C
     void set_reflectionProbeCubemap1(UnityEngine::Cubemap* value);
     // public UnityEngine.Cubemap get_reflectionProbeCubemap2()
-    // Offset: 0x1142B80
+    // Offset: 0x1F73594
     UnityEngine::Cubemap* get_reflectionProbeCubemap2();
     // public System.Void set_reflectionProbeCubemap2(UnityEngine.Cubemap value)
-    // Offset: 0x1142B88
+    // Offset: 0x1F7359C
     void set_reflectionProbeCubemap2(UnityEngine::Cubemap* value);
     // public System.Void .ctor()
-    // Offset: 0x1142B90
+    // Offset: 0x1F735A4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

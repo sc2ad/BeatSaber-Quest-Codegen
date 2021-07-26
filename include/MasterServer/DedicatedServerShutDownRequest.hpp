@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IDedicatedServerClientToServerMessage
 #include "MasterServer/IDedicatedServerClientToServerMessage.hpp"
 // Including type: MasterServer.IMasterServerUnreliableMessage
@@ -67,34 +68,34 @@ namespace MasterServer {
     // Set instance field: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     void _set_$dedicatedServerCreationTime$k__BackingField(int64_t value);
     // static public PacketPool`1<MasterServer.DedicatedServerShutDownRequest> get_pool()
-    // Offset: 0x12D2C18
+    // Offset: 0x208D128
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerShutDownRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x12D2C60
+    // Offset: 0x208D170
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x12D2C68
+    // Offset: 0x208D178
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x12D2C70
+    // Offset: 0x208D180
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x12D2C78
+    // Offset: 0x208D188
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerShutDownRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
-    // Offset: 0x12D2C80
+    // Offset: 0x208D190
     MasterServer::DedicatedServerShutDownRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D2C88
+    // Offset: 0x208D198
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D2CCC
+    // Offset: 0x208D1DC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x12D2D14
+    // Offset: 0x208D224
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x12D2D70
+    // Offset: 0x208D280
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

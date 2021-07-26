@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -49,36 +50,36 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public UnityEngine.Vector2 value
     void _set_value(UnityEngine::Vector2 value);
     // public System.Single get_x()
-    // Offset: 0xEEEC68
+    // Offset: 0xD81494
     float get_x();
     // public System.Single get_y()
-    // Offset: 0xEEEC70
+    // Offset: 0xD8149C
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector2 vector)
-    // Offset: 0xEEEC78
+    // Offset: 0xD814A4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IntVec2(UnityEngine::Vector2 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec2 p)
-    // Offset: 0xEEEC88
+    // Offset: 0xD814B4
     bool Equals(UnityEngine::ProBuilder::IntVec2 p);
     // public System.Boolean Equals(UnityEngine.Vector2 p)
-    // Offset: 0xEEEC90
+    // Offset: 0xD814BC
     bool Equals(UnityEngine::Vector2 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x1AE8EA8
+    // Offset: 0x174A830
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0xEEEC80
+    // Offset: 0xD814AC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0xEEEC98
+    // Offset: 0xD814C4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEEECA0
+    // Offset: 0xD814CC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -87,10 +88,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec2), 0 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_IntVec2SizeCheck;
   static_assert(sizeof(IntVec2) == 0x8);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
-  // Offset: 0x1AE8DD4
+  // Offset: 0x174A75C
   bool operator ==(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
-  // Offset: 0x1AE8E74
+  // Offset: 0x174A7FC
   bool operator !=(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");

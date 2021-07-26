@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AddressablesImpl
 #include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
     void _set_loc(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
     // System.Boolean <RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
-    // Offset: 0x13C3B0C
+    // Offset: 0x116C76C
     bool $RemoveResourceLocator$b__0(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
     // public System.Void .ctor()
-    // Offset: 0x13BDAB8
+    // Offset: 0x1166718
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

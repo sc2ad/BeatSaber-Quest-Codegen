@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.AsyncReadOrWriteRequest
 #include "Mono/Net/Security/AsyncReadOrWriteRequest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,7 +32,7 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: AsyncReadRequest
     AsyncReadRequest() noexcept {}
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15AAFF8
+    // Offset: 0x12AE5C8
     // Implemented from: Mono.Net.Security.AsyncReadOrWriteRequest
     // Base method: System.Void AsyncReadOrWriteRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +41,7 @@ namespace Mono::Net::Security {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncReadRequest*, creationType>(parent, sync, buffer, offset, size)));
     }
     // protected override Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x15AB000
+    // Offset: 0x12AE5D0
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus status)
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);

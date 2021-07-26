@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Valve.VR.IVRTrackedCamera
 #include "Valve/VR/IVRTrackedCamera.hpp"
 // Including type: System.IntPtr
@@ -55,47 +56,47 @@ namespace Valve::VR {
     // Set instance field: private Valve.VR.IVRTrackedCamera FnTable
     void _set_FnTable(Valve::VR::IVRTrackedCamera value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16C0110
+    // Offset: 0x13C27CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRTrackedCamera* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRTrackedCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRTrackedCamera*, creationType>(pInterface)));
     }
     // public System.String GetCameraErrorNameFromEnum(Valve.VR.EVRTrackedCameraError eCameraError)
-    // Offset: 0x16C0218
+    // Offset: 0x13C28D4
     ::Il2CppString* GetCameraErrorNameFromEnum(Valve::VR::EVRTrackedCameraError eCameraError);
     // public Valve.VR.EVRTrackedCameraError HasCamera(System.UInt32 nDeviceIndex, ref System.Boolean pHasCamera)
-    // Offset: 0x16AE2F0
-    Valve::VR::EVRTrackedCameraError HasCamera(uint nDeviceIndex, bool& pHasCamera);
+    // Offset: 0x13B09AC
+    Valve::VR::EVRTrackedCameraError HasCamera(uint nDeviceIndex, ByRef<bool> pHasCamera);
     // public Valve.VR.EVRTrackedCameraError GetCameraFrameSize(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, ref System.UInt32 pnFrameBufferSize)
-    // Offset: 0x16C02AC
-    Valve::VR::EVRTrackedCameraError GetCameraFrameSize(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, uint& pnWidth, uint& pnHeight, uint& pnFrameBufferSize);
+    // Offset: 0x13C2968
+    Valve::VR::EVRTrackedCameraError GetCameraFrameSize(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, ByRef<uint> pnWidth, ByRef<uint> pnHeight, ByRef<uint> pnFrameBufferSize);
     // public Valve.VR.EVRTrackedCameraError GetCameraIntrinsics(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref Valve.VR.HmdVector2_t pFocalLength, ref Valve.VR.HmdVector2_t pCenter)
-    // Offset: 0x16C02D4
-    Valve::VR::EVRTrackedCameraError GetCameraIntrinsics(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::HmdVector2_t& pFocalLength, Valve::VR::HmdVector2_t& pCenter);
+    // Offset: 0x13C2990
+    Valve::VR::EVRTrackedCameraError GetCameraIntrinsics(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, ByRef<Valve::VR::HmdVector2_t> pFocalLength, ByRef<Valve::VR::HmdVector2_t> pCenter);
     // public Valve.VR.EVRTrackedCameraError GetCameraProjection(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.Single flZNear, System.Single flZFar, ref Valve.VR.HmdMatrix44_t pProjection)
-    // Offset: 0x16C02F0
-    Valve::VR::EVRTrackedCameraError GetCameraProjection(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, float flZNear, float flZFar, Valve::VR::HmdMatrix44_t& pProjection);
+    // Offset: 0x13C29AC
+    Valve::VR::EVRTrackedCameraError GetCameraProjection(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, float flZNear, float flZFar, ByRef<Valve::VR::HmdMatrix44_t> pProjection);
     // public Valve.VR.EVRTrackedCameraError AcquireVideoStreamingService(System.UInt32 nDeviceIndex, ref System.UInt64 pHandle)
-    // Offset: 0x16AE3CC
-    Valve::VR::EVRTrackedCameraError AcquireVideoStreamingService(uint nDeviceIndex, uint64_t& pHandle);
+    // Offset: 0x13B0A88
+    Valve::VR::EVRTrackedCameraError AcquireVideoStreamingService(uint nDeviceIndex, ByRef<uint64_t> pHandle);
     // public Valve.VR.EVRTrackedCameraError ReleaseVideoStreamingService(System.UInt64 hTrackedCamera)
-    // Offset: 0x16AE49C
+    // Offset: 0x13B0B58
     Valve::VR::EVRTrackedCameraError ReleaseVideoStreamingService(uint64_t hTrackedCamera);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamFrameBuffer(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pFrameBuffer, System.UInt32 nFrameBufferSize, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x16C030C
-    Valve::VR::EVRTrackedCameraError GetVideoStreamFrameBuffer(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pFrameBuffer, uint nFrameBufferSize, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
+    // Offset: 0x13C29C8
+    Valve::VR::EVRTrackedCameraError GetVideoStreamFrameBuffer(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pFrameBuffer, uint nFrameBufferSize, ByRef<Valve::VR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint nFrameHeaderSize);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamTextureSize(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref Valve.VR.VRTextureBounds_t pTextureBounds, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x16AED4C
-    Valve::VR::EVRTrackedCameraError GetVideoStreamTextureSize(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::VRTextureBounds_t& pTextureBounds, uint& pnWidth, uint& pnHeight);
+    // Offset: 0x13B1408
+    Valve::VR::EVRTrackedCameraError GetVideoStreamTextureSize(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, ByRef<Valve::VR::VRTextureBounds_t> pTextureBounds, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamTextureD3D11(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x16AED30
-    Valve::VR::EVRTrackedCameraError GetVideoStreamTextureD3D11(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pD3D11DeviceOrResource, System::IntPtr& ppD3D11ShaderResourceView, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
+    // Offset: 0x13B13EC
+    Valve::VR::EVRTrackedCameraError GetVideoStreamTextureD3D11(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, System::IntPtr pD3D11DeviceOrResource, ByRef<System::IntPtr> ppD3D11ShaderResourceView, ByRef<Valve::VR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint nFrameHeaderSize);
     // public Valve.VR.EVRTrackedCameraError GetVideoStreamTextureGL(System.UInt64 hTrackedCamera, Valve.VR.EVRTrackedCameraFrameType eFrameType, ref System.UInt32 pglTextureId, ref Valve.VR.CameraVideoStreamFrameHeader_t pFrameHeader, System.UInt32 nFrameHeaderSize)
-    // Offset: 0x16AED10
-    Valve::VR::EVRTrackedCameraError GetVideoStreamTextureGL(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, uint& pglTextureId, Valve::VR::CameraVideoStreamFrameHeader_t& pFrameHeader, uint nFrameHeaderSize);
+    // Offset: 0x13B13CC
+    Valve::VR::EVRTrackedCameraError GetVideoStreamTextureGL(uint64_t hTrackedCamera, Valve::VR::EVRTrackedCameraFrameType eFrameType, ByRef<uint> pglTextureId, ByRef<Valve::VR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint nFrameHeaderSize);
     // public Valve.VR.EVRTrackedCameraError ReleaseVideoStreamTextureGL(System.UInt64 hTrackedCamera, System.UInt32 glTextureId)
-    // Offset: 0x16AECF4
+    // Offset: 0x13B13B0
     Valve::VR::EVRTrackedCameraError ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint glTextureId);
   }; // Valve.VR.CVRTrackedCamera
   #pragma pack(pop)
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::HasCamera
 // Il2CppName: HasCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, bool&)>(&Valve::VR::CVRTrackedCamera::HasCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, ByRef<bool>)>(&Valve::VR::CVRTrackedCamera::HasCamera)> {
   static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pHasCamera = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -130,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraFrameSize
 // Il2CppName: GetCameraFrameSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, uint&, uint&, uint&)>(&Valve::VR::CVRTrackedCamera::GetCameraFrameSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, ByRef<uint>, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVRTrackedCamera::GetCameraFrameSize)> {
   static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
@@ -143,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraIntrinsics
 // Il2CppName: GetCameraIntrinsics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, Valve::VR::HmdVector2_t&, Valve::VR::HmdVector2_t&)>(&Valve::VR::CVRTrackedCamera::GetCameraIntrinsics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, ByRef<Valve::VR::HmdVector2_t>, ByRef<Valve::VR::HmdVector2_t>)>(&Valve::VR::CVRTrackedCamera::GetCameraIntrinsics)> {
   static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraProjection
 // Il2CppName: GetCameraProjection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, float, float, Valve::VR::HmdMatrix44_t&)>(&Valve::VR::CVRTrackedCamera::GetCameraProjection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, float, float, ByRef<Valve::VR::HmdMatrix44_t>)>(&Valve::VR::CVRTrackedCamera::GetCameraProjection)> {
   static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
@@ -168,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::AcquireVideoStreamingService
 // Il2CppName: AcquireVideoStreamingService
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, uint64_t&)>(&Valve::VR::CVRTrackedCamera::AcquireVideoStreamingService)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, ByRef<uint64_t>)>(&Valve::VR::CVRTrackedCamera::AcquireVideoStreamingService)> {
   static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamFrameBuffer
 // Il2CppName: GetVideoStreamFrameBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, System::IntPtr, uint, Valve::VR::CameraVideoStreamFrameHeader_t&, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamFrameBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, System::IntPtr, uint, ByRef<Valve::VR::CameraVideoStreamFrameHeader_t>, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamFrameBuffer)> {
   static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
@@ -201,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamTextureSize
 // Il2CppName: GetVideoStreamTextureSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, Valve::VR::VRTextureBounds_t&, uint&, uint&)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint, Valve::VR::EVRTrackedCameraFrameType, ByRef<Valve::VR::VRTextureBounds_t>, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureSize)> {
   static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
@@ -214,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamTextureD3D11
 // Il2CppName: GetVideoStreamTextureD3D11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, System::IntPtr, System::IntPtr&, Valve::VR::CameraVideoStreamFrameHeader_t&, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureD3D11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, System::IntPtr, ByRef<System::IntPtr>, ByRef<Valve::VR::CameraVideoStreamFrameHeader_t>, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureD3D11)> {
   static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
@@ -228,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetVideoStreamTextureGL
 // Il2CppName: GetVideoStreamTextureGL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, uint&, Valve::VR::CameraVideoStreamFrameHeader_t&, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureGL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::CVRTrackedCamera::*)(uint64_t, Valve::VR::EVRTrackedCameraFrameType, ByRef<uint>, ByRef<Valve::VR::CameraVideoStreamFrameHeader_t>, uint)>(&Valve::VR::CVRTrackedCamera::GetVideoStreamTextureGL)> {
   static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Models.DeserializableList`1
 #include "Oculus/Platform/Models/DeserializableList_1.hpp"
 // Including type: System.IntPtr
@@ -44,7 +45,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.UInt64 TotalCount
     void _set_TotalCount(uint64_t value);
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x14A336C
+    // Offset: 0x20FF1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LeaderboardEntryList::.ctor");

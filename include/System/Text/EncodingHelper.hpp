@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -45,19 +46,19 @@ namespace System::Text {
     // Set static field: static private System.Boolean i18nDisabled
     static void _set_i18nDisabled(bool value);
     // static System.Text.Encoding get_UTF8Unmarked()
-    // Offset: 0x1D1AF44
+    // Offset: 0x189F6D8
     static System::Text::Encoding* get_UTF8Unmarked();
     // static private System.Void .cctor()
-    // Offset: 0x1D1B180
+    // Offset: 0x189F914
     static void _cctor();
     // static System.String InternalCodePage(ref System.Int32 code_page)
-    // Offset: 0x1D1B17C
-    static ::Il2CppString* InternalCodePage(int& code_page);
+    // Offset: 0x189F910
+    static ::Il2CppString* InternalCodePage(ByRef<int> code_page);
     // static System.Text.Encoding GetDefaultEncoding()
-    // Offset: 0x1D1969C
+    // Offset: 0x189DE30
     static System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
-    // Offset: 0x1D17BBC
+    // Offset: 0x189C350
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Text::EncodingHelper::InternalCodePage
 // Il2CppName: InternalCodePage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int&)>(&System::Text::EncodingHelper::InternalCodePage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(ByRef<int>)>(&System::Text::EncodingHelper::InternalCodePage)> {
   static const MethodInfo* get() {
     static auto* code_page = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "InternalCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code_page});

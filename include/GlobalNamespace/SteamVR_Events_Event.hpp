@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_Events
 #include "GlobalNamespace/SteamVR_Events.hpp"
 // Including type: UnityEngine.Events.UnityEvent
@@ -31,16 +32,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Event
     Event() noexcept {}
     // public System.Void Listen(UnityEngine.Events.UnityAction action)
-    // Offset: 0x13A34E0
+    // Offset: 0x114B140
     void Listen(UnityEngine::Events::UnityAction* action);
     // public System.Void Remove(UnityEngine.Events.UnityAction action)
-    // Offset: 0x13A35B4
+    // Offset: 0x114B214
     void Remove(UnityEngine::Events::UnityAction* action);
     // public System.Void Send()
-    // Offset: 0x13A4190
+    // Offset: 0x114BDF0
     void Send();
     // public System.Void .ctor()
-    // Offset: 0x13A4150
+    // Offset: 0x114BDB0
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

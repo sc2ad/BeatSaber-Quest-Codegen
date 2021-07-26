@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -24,29 +25,29 @@ namespace System {
     // Creating value type constructor for type: IPv6AddressHelper
     IPv6AddressHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, ref System.Boolean isLoopback, ref System.String scopeId)
-    // Offset: 0x18581BC
-    static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, bool& isLoopback, ::Il2CppString*& scopeId);
+    // Offset: 0x15295C0
+    static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, ByRef<bool> isLoopback, ByRef<::Il2CppString*> scopeId);
     // static System.String CreateCanonicalName(System.UInt16* numbers)
-    // Offset: 0x185876C
+    // Offset: 0x1529B70
     static ::Il2CppString* CreateCanonicalName(uint16_t* numbers);
     // static private System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> FindCompressionRange(System.UInt16* numbers)
-    // Offset: 0x1858D78
+    // Offset: 0x152A17C
     static System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
     // static private System.Boolean ShouldHaveIpv4Embedded(System.UInt16* numbers)
-    // Offset: 0x1858E50
+    // Offset: 0x152A254
     static bool ShouldHaveIpv4Embedded(uint16_t* numbers);
     // static private System.Boolean InternalIsValid(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean validateStrictAddress)
-    // Offset: 0x1858EE0
-    static bool InternalIsValid(::Il2CppChar* name, int start, int& end, bool validateStrictAddress);
+    // Offset: 0x152A2E4
+    static bool InternalIsValid(::Il2CppChar* name, int start, ByRef<int> end, bool validateStrictAddress);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0x18591B4
-    static bool IsValid(::Il2CppChar* name, int start, int& end);
+    // Offset: 0x152A5B8
+    static bool IsValid(::Il2CppChar* name, int start, ByRef<int> end);
     // static System.Boolean IsValidStrict(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0x18591BC
-    static bool IsValidStrict(::Il2CppChar* name, int start, int& end);
+    // Offset: 0x152A5C0
+    static bool IsValidStrict(::Il2CppChar* name, int start, ByRef<int> end);
     // static System.Boolean Parse(System.String address, System.UInt16* numbers, System.Int32 start, ref System.String scopeId)
-    // Offset: 0x1858280
-    static bool Parse(::Il2CppString* address, uint16_t* numbers, int start, ::Il2CppString*& scopeId);
+    // Offset: 0x1529684
+    static bool Parse(::Il2CppString* address, uint16_t* numbers, int start, ByRef<::Il2CppString*> scopeId);
   }; // System.IPv6AddressHelper
   #pragma pack(pop)
 }
@@ -56,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IPv6AddressHelper*, "System", "IPv6AddressHelper"
 // Writing MetadataGetter for method: System::IPv6AddressHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool&, ::Il2CppString*&)>(&System::IPv6AddressHelper::ParseCanonicalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, ByRef<bool>, ByRef<::Il2CppString*>)>(&System::IPv6AddressHelper::ParseCanonicalName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: System::IPv6AddressHelper::InternalIsValid
 // Il2CppName: InternalIsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&, bool)>(&System::IPv6AddressHelper::InternalIsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, ByRef<int>, bool)>(&System::IPv6AddressHelper::InternalIsValid)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IPv6AddressHelper::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&)>(&System::IPv6AddressHelper::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, ByRef<int>)>(&System::IPv6AddressHelper::IsValid)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IPv6AddressHelper::IsValidStrict
 // Il2CppName: IsValidStrict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&)>(&System::IPv6AddressHelper::IsValidStrict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, ByRef<int>)>(&System::IPv6AddressHelper::IsValidStrict)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -129,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IPv6AddressHelper::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, uint16_t*, int, ::Il2CppString*&)>(&System::IPv6AddressHelper::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, uint16_t*, int, ByRef<::Il2CppString*>)>(&System::IPv6AddressHelper::Parse)> {
   static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;

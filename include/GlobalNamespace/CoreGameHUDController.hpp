@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [InjectAttribute] Offset: 0xE05D90
+    // [InjectAttribute] Offset: 0xEB29AC
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -99,13 +100,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly CoreGameHUDController/InitData _initData
     void _set__initData(GlobalNamespace::CoreGameHUDController::InitData* value);
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1081ED8
+    // Offset: 0x1F037D4
     void set_alpha(float value);
     // protected System.Void Start()
-    // Offset: 0x1081EF4
+    // Offset: 0x1F037F0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1081FA0
+    // Offset: 0x1F0389C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

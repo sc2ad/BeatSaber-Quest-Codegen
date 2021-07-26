@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TextElementType
 #include "TMPro/TextElementType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -81,34 +82,34 @@ namespace TMPro {
     // Set instance field: private System.Single m_Scale
     void _set_m_Scale(float value);
     // public TMPro.TextElementType get_elementType()
-    // Offset: 0x13CF564
+    // Offset: 0x11781C4
     TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
-    // Offset: 0x13CF56C
+    // Offset: 0x11781CC
     uint get_unicode();
     // public System.Void set_unicode(System.UInt32 value)
-    // Offset: 0x13CF574
+    // Offset: 0x11781D4
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
-    // Offset: 0x13CF57C
+    // Offset: 0x11781DC
     UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
-    // Offset: 0x13CF584
+    // Offset: 0x11781E4
     void set_glyph(UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0x13CF58C
+    // Offset: 0x11781EC
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0x13CF594
+    // Offset: 0x11781F4
     void set_glyphIndex(uint value);
     // public System.Single get_scale()
-    // Offset: 0x13CF59C
+    // Offset: 0x11781FC
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0x13CF5A4
+    // Offset: 0x1178204
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0x13CF5AC
+    // Offset: 0x117820C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

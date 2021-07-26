@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Including type: LeaderboardsDTO.GameplayModifiersDto
@@ -96,7 +97,7 @@ namespace LeaderboardsDTO {
     // Set instance field: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     void _set_gameplayModifiers(::Array<LeaderboardsDTO::GameplayModifiersDto>* value);
     // public System.Void .ctor()
-    // Offset: 0x10F0794
+    // Offset: 0x1F427A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

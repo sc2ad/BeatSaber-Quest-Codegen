@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRControllersRecorder
 #include "GlobalNamespace/VRControllersRecorder.hpp"
 // Including type: System.Runtime.Serialization.SerializationBinder
@@ -31,7 +32,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TypeSerializationBinder
     TypeSerializationBinder() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12788B8
+    // Offset: 0x206C838
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Void SerializationBinder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +42,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder::TypeSerializationBinder*, creationType>()));
     }
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x1279478
+    // Offset: 0x206D3F8
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);

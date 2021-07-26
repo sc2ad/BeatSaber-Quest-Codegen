@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -52,31 +53,31 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.Object m_HostContext
     void _set_m_HostContext(::Il2CppObject* value);
     // private System.Collections.Hashtable get_Datastore()
-    // Offset: 0x19F9D60
+    // Offset: 0x16B0E54
     System::Collections::Hashtable* get_Datastore();
     // System.Object get_HostContext()
-    // Offset: 0x19F9DCC
+    // Offset: 0x16B0EC0
     ::Il2CppObject* get_HostContext();
     // System.Void set_HostContext(System.Object value)
-    // Offset: 0x19F9DD4
+    // Offset: 0x16B0EC8
     void set_HostContext(::Il2CppObject* value);
     // System.Boolean get_HasUserData()
-    // Offset: 0x19F9DDC
+    // Offset: 0x16B0ED0
     bool get_HasUserData();
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x19F6AF8
+    // Offset: 0x16ADBEC
     void FreeNamedDataSlot(::Il2CppString* name);
     // public System.Object GetData(System.String name)
-    // Offset: 0x19F9E0C
+    // Offset: 0x16B0F00
     ::Il2CppObject* GetData(::Il2CppString* name);
     // public System.Void SetData(System.String name, System.Object data)
-    // Offset: 0x19F6AB8
+    // Offset: 0x16ADBAC
     void SetData(::Il2CppString* name, ::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext CreateCopy()
-    // Offset: 0x19F9E44
+    // Offset: 0x16B0F38
     System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x19FA09C
+    // Offset: 0x16B1190
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

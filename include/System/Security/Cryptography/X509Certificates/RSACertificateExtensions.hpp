@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -29,7 +30,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: RSACertificateExtensions
     RSACertificateExtensions() noexcept {}
     // static public System.Security.Cryptography.RSA GetRSAPublicKey(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x2365BA0
+    // Offset: 0x1DECFE0
     static System::Security::Cryptography::RSA* GetRSAPublicKey(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
   }; // System.Security.Cryptography.X509Certificates.RSACertificateExtensions
   #pragma pack(pop)

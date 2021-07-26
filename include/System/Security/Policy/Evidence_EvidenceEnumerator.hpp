@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Policy.Evidence
 #include "System/Security/Policy/Evidence.hpp"
 // Including type: System.Collections.IEnumerator
@@ -58,20 +59,20 @@ namespace System::Security::Policy {
     // Set instance field: private System.Collections.IEnumerator assemblyEnum
     void _set_assemblyEnum(System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x1B08C38
+    // Offset: 0x176B5C0
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Collections.IEnumerator hostenum, System.Collections.IEnumerator assemblyenum)
-    // Offset: 0x1B08970
+    // Offset: 0x176B2F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence::EvidenceEnumerator* New_ctor(System::Collections::IEnumerator* hostenum, System::Collections::IEnumerator* assemblyenum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Policy::Evidence::EvidenceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence::EvidenceEnumerator*, creationType>(hostenum, assemblyenum)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1B089AC
+    // Offset: 0x176B334
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1B08AF8
+    // Offset: 0x176B480
     void Reset();
   }; // System.Security.Policy.Evidence/System.Security.Policy.EvidenceEnumerator
   #pragma pack(pop)

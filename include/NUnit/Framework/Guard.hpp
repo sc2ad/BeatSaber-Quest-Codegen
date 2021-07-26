@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {
@@ -16,13 +17,13 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: Guard
     Guard() noexcept {}
     // static public System.Void ArgumentNotNull(System.Object value, System.String name)
-    // Offset: 0x17209BC
+    // Offset: 0x1424078
     static void ArgumentNotNull(::Il2CppObject* value, ::Il2CppString* name);
     // static public System.Void ArgumentNotNullOrEmpty(System.String value, System.String name)
-    // Offset: 0x1720A70
+    // Offset: 0x142412C
     static void ArgumentNotNullOrEmpty(::Il2CppString* value, ::Il2CppString* name);
     // static public System.Void ArgumentValid(System.Boolean condition, System.String message, System.String paramName)
-    // Offset: 0x1720B50
+    // Offset: 0x142420C
     static void ArgumentValid(bool condition, ::Il2CppString* message, ::Il2CppString* paramName);
   }; // NUnit.Framework.Guard
   #pragma pack(pop)

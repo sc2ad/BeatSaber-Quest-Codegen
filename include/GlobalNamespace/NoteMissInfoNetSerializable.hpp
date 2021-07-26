@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: ColorType
@@ -85,51 +86,51 @@ namespace GlobalNamespace {
     // Set instance field: private NoteLineLayer <noteLineLayer>k__BackingField
     void _set_$noteLineLayer$k__BackingField(GlobalNamespace::NoteLineLayer value);
     // public ColorType get_colorType()
-    // Offset: 0x2328BA8
+    // Offset: 0x23DBF8C
     GlobalNamespace::ColorType get_colorType();
     // private System.Void set_colorType(ColorType value)
-    // Offset: 0x2328BB0
+    // Offset: 0x23DBF94
     void set_colorType(GlobalNamespace::ColorType value);
     // public System.Single get_noteTime()
-    // Offset: 0x2328BB8
+    // Offset: 0x23DBF9C
     float get_noteTime();
     // private System.Void set_noteTime(System.Single value)
-    // Offset: 0x2328BC0
+    // Offset: 0x23DBFA4
     void set_noteTime(float value);
     // public System.Int32 get_noteLineIndex()
-    // Offset: 0x2328BC8
+    // Offset: 0x23DBFAC
     int get_noteLineIndex();
     // private System.Void set_noteLineIndex(System.Int32 value)
-    // Offset: 0x2328BD0
+    // Offset: 0x23DBFB4
     void set_noteLineIndex(int value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x2328BD8
+    // Offset: 0x23DBFBC
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x2328BE0
+    // Offset: 0x23DBFC4
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Void .ctor(NoteData noteData)
-    // Offset: 0x2328D10
+    // Offset: 0x23DC0F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteMissInfoNetSerializable* New_ctor(GlobalNamespace::NoteData* noteData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteMissInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>(noteData)));
     }
     // public System.Void .ctor(ColorType colorType, NoteLineLayer noteLineLayer, System.Int32 noteLineIndex, System.Single noteTime)
-    // Offset: 0x2328D5C
+    // Offset: 0x23DC140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteMissInfoNetSerializable* New_ctor(GlobalNamespace::ColorType colorType, GlobalNamespace::NoteLineLayer noteLineLayer, int noteLineIndex, float noteTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteMissInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>(colorType, noteLineLayer, noteLineIndex, noteTime)));
     }
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2328BE8
+    // Offset: 0x23DBFCC
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2328C68
+    // Offset: 0x23DC04C
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void .ctor()
-    // Offset: 0x2328D08
+    // Offset: 0x23DC0EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

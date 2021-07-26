@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.CFNetwork
 #include "Mono/Net/CFNetwork.hpp"
 // Including type: System.IDisposable
@@ -87,10 +88,10 @@ namespace Mono::Net {
     // Set instance field: public System.Threading.ManualResetEvent evt
     void _set_evt(System::Threading::ManualResetEvent* value);
     // public System.Void Dispose()
-    // Offset: 0x15A8650
+    // Offset: 0x12ABC20
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x15A6488
+    // Offset: 0x12A9A58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.ComparisonConstraint
 #include "NUnit/Framework/Constraints/ComparisonConstraint.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: LessThanOrEqualConstraint
     LessThanOrEqualConstraint() noexcept {}
     // public System.Void .ctor(System.Object expected)
-    // Offset: 0x171904C
+    // Offset: 0x141C708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LessThanOrEqualConstraint* New_ctor(::Il2CppObject* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::LessThanOrEqualConstraint::.ctor");

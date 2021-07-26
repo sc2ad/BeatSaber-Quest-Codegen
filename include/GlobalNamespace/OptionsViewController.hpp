@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -105,7 +106,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* settingsButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xE10554
+    // [InjectAttribute] Offset: 0xEBD170
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
@@ -141,22 +142,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
     void _set_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void add_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0xFFB744
+    // Offset: 0x1E4ECF8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0xFFB7E8
+    // Offset: 0x1E4ED9C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xFFBA10
+    // Offset: 0x1E4EFC4
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0xFFBA74
+    // Offset: 0x1E4F028
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0xFFBAD8
+    // Offset: 0x1E4F08C
     void $DidActivate$b__8_2();
     // public System.Void .ctor()
-    // Offset: 0xFFBA08
+    // Offset: 0x1E4EFBC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -170,7 +171,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OptionsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFFB88C
+    // Offset: 0x1E4EE40
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

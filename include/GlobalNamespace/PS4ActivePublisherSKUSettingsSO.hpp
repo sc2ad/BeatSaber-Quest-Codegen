@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4ActivePublisherSKUSettingsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [NullAllowed] Offset: 0xE0268C
+    // [NullAllowed] Offset: 0xEAF2A8
     // public PS4PublisherSKUSettingsSO activePublisherSKUSettings
     // Size: 0x8
     // Offset: 0x18
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
     // Set instance field: public PS4PublisherSKUSettingsSO activePublisherSKUSettings
     void _set_activePublisherSKUSettings(GlobalNamespace::PS4PublisherSKUSettingsSO* value);
     // public System.Void .ctor()
-    // Offset: 0xFFC6D0
+    // Offset: 0x1E4FC84
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

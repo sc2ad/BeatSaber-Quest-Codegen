@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: System.Int32
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardsModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE10DC4
+    // [SpaceAttribute] Offset: 0xEBD9E0
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x20
@@ -135,25 +136,25 @@ namespace GlobalNamespace {
     // Set instance field: private HMUI.ButtonBinder _buttonBinder
     void _set__buttonBinder(HMUI::ButtonBinder* value);
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x10894C8
+    // Offset: 0x1F0ADC4
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // public System.Void remove_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x108956C
+    // Offset: 0x1F0AE68
     void remove_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // protected System.Void Start()
-    // Offset: 0x1089610
+    // Offset: 0x1F0AF0C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10896B0
+    // Offset: 0x1F0AFAC
     void OnDestroy();
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x10896C4
+    // Offset: 0x1F0AFC0
     void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void PlayButtonWasPressed()
-    // Offset: 0x1089900
+    // Offset: 0x1F0B1FC
     void PlayButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x1089964
+    // Offset: 0x1F0B260
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -53,13 +54,13 @@ namespace System::Text {
     // Set instance field: System.Boolean bIsMicrosoftBestFitFallback
     void _set_bIsMicrosoftBestFitFallback(bool value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x1BD571C
+    // Offset: 0x17C7AB4
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.DecoderFallback get_ReplacementFallback()
-    // Offset: 0x1BD2A7C
+    // Offset: 0x17C4E14
     static System::Text::DecoderFallback* get_ReplacementFallback();
     // static public System.Text.DecoderFallback get_ExceptionFallback()
-    // Offset: 0x1BD5800
+    // Offset: 0x17C7B98
     static System::Text::DecoderFallback* get_ExceptionFallback();
     // public System.Int32 get_MaxCharCount()
     // Offset: 0xFFFFFFFF
@@ -68,7 +69,7 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // protected System.Void .ctor()
-    // Offset: 0x1BD53B0
+    // Offset: 0x17C7748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

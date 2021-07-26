@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Queue
 #include "System/Collections/Queue.hpp"
 // Including type: System.ICloneable
@@ -74,23 +75,23 @@ namespace System::Collections {
     // Set instance field: private System.Object currentElement
     void _set_currentElement(::Il2CppObject* value);
     // public System.Object get_Current()
-    // Offset: 0x1949A9C
+    // Offset: 0x161AEA0
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x1949650
+    // Offset: 0x161AA54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue::QueueEnumerator* New_ctor(System::Collections::Queue* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::QueueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue::QueueEnumerator*, creationType>(q)));
     }
     // public System.Object Clone()
-    // Offset: 0x1949998
+    // Offset: 0x161AD9C
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x19499A0
+    // Offset: 0x161ADA4
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1949B5C
+    // Offset: 0x161AF60
     void Reset();
   }; // System.Collections.Queue/System.Collections.QueueEnumerator
   #pragma pack(pop)

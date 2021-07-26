@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -117,37 +118,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _didChangeSomeColorsThisFrame
     void _set__didChangeSomeColorsThisFrame(bool value);
     // public System.Nullable`1<UnityEngine.Color>[] get_colors()
-    // Offset: 0x1DF3518
+    // Offset: 0x19660F8
     ::Array<System::Nullable_1<UnityEngine::Color>>* get_colors();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1DF3288
+    // Offset: 0x1965E68
     void add_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1DF332C
+    // Offset: 0x1965F0C
     void remove_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void add_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1DF33D0
+    // Offset: 0x1965FB0
     void add_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // public System.Void remove_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1DF3474
+    // Offset: 0x1966054
     void remove_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // protected System.Void LateUpdate()
-    // Offset: 0x1DF3520
+    // Offset: 0x1966100
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1DF3710
+    // Offset: 0x19662F0
     void RegisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1DF3A80
+    // Offset: 0x1966660
     void UnregisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1DF3C64
+    // Offset: 0x1966844
     void SetColorForId(int lightId, UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId)
-    // Offset: 0x1DF3EC8
+    // Offset: 0x1966AA8
     UnityEngine::Color GetColorForId(int lightId);
     // public System.Void .ctor()
-    // Offset: 0x1DF3F78
+    // Offset: 0x1966B58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

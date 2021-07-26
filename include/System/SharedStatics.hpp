@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Util.Tokenizer
 #include "System/Security/Util/Tokenizer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,16 +41,16 @@ namespace System {
     // Set instance field: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     void _set__maker(System::Security::Util::Tokenizer::StringMaker* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BC4120
+    // Offset: 0x17B64B8
     static void _cctor();
     // static public System.Security.Util.Tokenizer/System.Security.Util.StringMaker GetSharedStringMaker()
-    // Offset: 0x1BC1F08
+    // Offset: 0x17B42A0
     static System::Security::Util::Tokenizer::StringMaker* GetSharedStringMaker();
     // static public System.Void ReleaseSharedStringMaker(ref System.Security.Util.Tokenizer/System.Security.Util.StringMaker maker)
-    // Offset: 0x1BC20E0
-    static void ReleaseSharedStringMaker(System::Security::Util::Tokenizer::StringMaker*& maker);
+    // Offset: 0x17B4478
+    static void ReleaseSharedStringMaker(ByRef<System::Security::Util::Tokenizer::StringMaker*> maker);
     // private System.Void .ctor()
-    // Offset: 0x1BC4118
+    // Offset: 0x17B64B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -83,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::SharedStatics::ReleaseSharedStringMaker
 // Il2CppName: ReleaseSharedStringMaker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Util::Tokenizer::StringMaker*&)>(&System::SharedStatics::ReleaseSharedStringMaker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::Security::Util::Tokenizer::StringMaker*>)>(&System::SharedStatics::ReleaseSharedStringMaker)> {
   static const MethodInfo* get() {
     static auto* maker = &::il2cpp_utils::GetClassFromName("System.Security.Util", "Tokenizer/StringMaker")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), "ReleaseSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maker});

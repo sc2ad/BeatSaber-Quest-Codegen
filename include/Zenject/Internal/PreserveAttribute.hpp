@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Zenject::Internal {
     // Creating value type constructor for type: PreserveAttribute
     PreserveAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x23B2954
+    // Offset: 0x1E2B93C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

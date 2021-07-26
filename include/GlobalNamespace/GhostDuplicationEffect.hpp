@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0xE04C34
+    // [InjectAttribute] Offset: 0xEB1850
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -84,40 +85,40 @@ namespace GlobalNamespace {
     // Set instance field: private readonly Tweening.TweeningManager _tweeningManager
     void _set__tweeningManager(Tweening::TweeningManager* value);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x10B5E90
+    // Offset: 0x1F22E00
     void set_hide(bool value);
     // private System.Single get_size()
-    // Offset: 0x10B5F8C
+    // Offset: 0x1F22EFC
     float get_size();
     // private System.Void set_size(System.Single value)
-    // Offset: 0x10B5EC8
+    // Offset: 0x1F22E38
     void set_size(float value);
     // private System.Single get_alpha()
-    // Offset: 0x10B5FE0
+    // Offset: 0x1F22F50
     float get_alpha();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0x10B5810
+    // Offset: 0x1F22780
     void set_alpha(float value);
     // protected System.Void OnDestroy()
-    // Offset: 0x10B56CC
+    // Offset: 0x1F2263C
     void OnDestroy();
     // protected System.Void Awake()
-    // Offset: 0x10B5764
+    // Offset: 0x1F226D4
     void Awake();
     // private System.Void Init()
-    // Offset: 0x10B5774
+    // Offset: 0x1F226E4
     void Init();
     // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0x10B58EC
+    // Offset: 0x1F2285C
     void Animate(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
     // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0x10B5C7C
+    // Offset: 0x1F22BEC
     System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
     // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0x10B5D28
+    // Offset: 0x1F22C98
     void SetDistances(float distance, UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x10B602C
+    // Offset: 0x1F22F9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

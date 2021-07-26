@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.Util.IInitializableObject
 #include "UnityEngine/ResourceManagement/Util/IInitializableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,16 +47,16 @@ namespace UnityEngine::AddressableAssets::Initialization {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
     }
     // static public System.String get_RootPath()
-    // Offset: 0x13C78DC
+    // Offset: 0x117053C
     static ::Il2CppString* get_RootPath();
     // public System.Boolean Initialize(System.String id, System.String dataStr)
-    // Offset: 0x13C7604
+    // Offset: 0x1170264
     bool Initialize(::Il2CppString* id, ::Il2CppString* dataStr);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
-    // Offset: 0x13C7758
+    // Offset: 0x11703B8
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(UnityEngine::ResourceManagement::ResourceManager* rm, ::Il2CppString* id, ::Il2CppString* data);
     // public System.Void .ctor()
-    // Offset: 0x13C7964
+    // Offset: 0x11705C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

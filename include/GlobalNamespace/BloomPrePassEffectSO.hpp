@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TextureEffectSO
 #include "GlobalNamespace/TextureEffectSO.hpp"
 // Including type: IBloomPrePassParams
@@ -79,25 +80,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _linesWidth
     void _set__linesWidth(float value);
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x1DED8B8
+    // Offset: 0x1960498
     GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x1DED8BC
+    // Offset: 0x196049C
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x1DED8C4
+    // Offset: 0x19604A4
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x1DED8CC
+    // Offset: 0x19604AC
     UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x1DED8D4
+    // Offset: 0x19604B4
     float get_linesWidth();
     // public ToneMapping get_toneMapping()
-    // Offset: 0x1DED8DC
+    // Offset: 0x19604BC
     GlobalNamespace::ToneMapping get_toneMapping();
     // protected System.Void .ctor()
-    // Offset: 0x1DED8E4
+    // Offset: 0x19604C4
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

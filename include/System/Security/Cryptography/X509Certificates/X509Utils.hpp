@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -23,10 +24,10 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509Utils
     X509Utils() noexcept {}
     // static System.String FindOidInfo(System.UInt32 keyType, System.String keyValue, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x18349C8
+    // Offset: 0x1505DCC
     static ::Il2CppString* FindOidInfo(uint keyType, ::Il2CppString* keyValue, System::Security::Cryptography::OidGroup oidGroup);
     // static System.String FindOidInfoWithFallback(System.UInt32 key, System.String value, System.Security.Cryptography.OidGroup group)
-    // Offset: 0x1824370
+    // Offset: 0x14F5774
     static ::Il2CppString* FindOidInfoWithFallback(uint key, ::Il2CppString* value, System::Security::Cryptography::OidGroup group);
   }; // System.Security.Cryptography.X509Certificates.X509Utils
   #pragma pack(pop)

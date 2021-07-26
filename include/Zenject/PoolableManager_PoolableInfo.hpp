@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolableManager
 #include "Zenject/PoolableManager.hpp"
 // Including type: System.ValueType
@@ -56,7 +57,7 @@ namespace Zenject {
     // Set instance field: public System.Int32 Priority
     void _set_Priority(int value);
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0xEE491C
+    // Offset: 0xD788D4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority)
   }; // Zenject.PoolableManager/Zenject.PoolableInfo

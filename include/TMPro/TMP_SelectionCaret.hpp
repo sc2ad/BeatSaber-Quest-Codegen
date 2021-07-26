@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.MaskableGraphic
 #include "UnityEngine/UI/MaskableGraphic.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_SelectionCaret
     TMP_SelectionCaret() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1112E14
+    // Offset: 0x1012A94
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -45,7 +46,7 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SelectionCaret*, creationType>()));
     }
     // public override System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x1112E10
+    // Offset: 0x1012A90
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     void Cull(UnityEngine::Rect clipRect, bool validRect);

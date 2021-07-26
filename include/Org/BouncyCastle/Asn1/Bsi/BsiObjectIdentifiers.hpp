@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -115,7 +116,7 @@ namespace Org::BouncyCastle::Asn1::Bsi {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ecka_eg_SessionKDF_AES256
     static void _set_ecka_eg_SessionKDF_AES256(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x16E24BC
+    // Offset: 0x13E4B78
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Bsi.BsiObjectIdentifiers
   #pragma pack(pop)

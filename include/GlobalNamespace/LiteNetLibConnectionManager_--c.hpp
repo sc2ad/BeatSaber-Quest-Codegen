@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLibConnectionManager
 #include "GlobalNamespace/LiteNetLibConnectionManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__71_0
     static void _set_$$9__71_0(System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12CA304
+    // Offset: 0x109FA40
     static void _cctor();
     // System.Boolean <get_hasConnectionOwner>b__71_0(LiteNetLibConnectionManager/NetPeerConnection c)
-    // Offset: 0x12CA370
+    // Offset: 0x109FAAC
     bool $get_hasConnectionOwner$b__71_0(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
     // public System.Void .ctor()
-    // Offset: 0x12CA368
+    // Offset: 0x109FAA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

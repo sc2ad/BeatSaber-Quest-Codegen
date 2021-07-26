@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BezierCurve
 #include "GlobalNamespace/BezierCurve.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -62,28 +63,28 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _sourceDataPoints
     void _set__sourceDataPoints(System::Collections::Generic::List_1<UnityEngine::Vector3>* value);
     // public System.Collections.Generic.List`1<BezierCurve> get_segments()
-    // Offset: 0x109AA98
+    // Offset: 0x1EF2F40
     System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* get_segments();
     // public System.Void AddPoint(System.Single distance, UnityEngine.Vector2 point)
-    // Offset: 0x10998B4
+    // Offset: 0x1EF1D5C
     void AddPoint(float distance, UnityEngine::Vector2 point);
     // public System.Void SortSourceData()
-    // Offset: 0x109AAA0
+    // Offset: 0x1EF2F48
     void SortSourceData();
     // public System.Void AddArtificialStartAndFinishPoint()
-    // Offset: 0x1099960
+    // Offset: 0x1EF1E08
     void AddArtificialStartAndFinishPoint();
     // public System.Void ComputeControlPoints()
-    // Offset: 0x1099B0C
+    // Offset: 0x1EF1FB4
     void ComputeControlPoints();
     // public System.Void Clear()
-    // Offset: 0x109B168
+    // Offset: 0x1EF3610
     void Clear();
     // private BezierSpline/ComputeControlPointsResults ComputeControlPoints(System.Collections.Generic.List`1<System.Single> k)
-    // Offset: 0x109AB98
+    // Offset: 0x1EF3040
     GlobalNamespace::BezierSpline::ComputeControlPointsResults ComputeControlPoints(System::Collections::Generic::List_1<float>* k);
     // public System.Void .ctor()
-    // Offset: 0x10994C4
+    // Offset: 0x1EF196C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

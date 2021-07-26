@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ExternalCamerasManager
 #include "GlobalNamespace/ExternalCamerasManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean enableOculusMRC
     void _set_enableOculusMRC(bool value);
     // public System.Void .ctor(System.Boolean enableOculusMRC)
-    // Offset: 0x233E114
+    // Offset: 0x1DC4554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExternalCamerasManager::InitData* New_ctor(bool enableOculusMRC) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExternalCamerasManager::InitData::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,14 +29,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalInactiveClient : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE079F8
+    // [InjectAttribute] Offset: 0xEB4614
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07A08
+    // [InjectAttribute] Offset: 0xEB4624
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -55,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     void _set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager* value);
     // protected System.Void LateUpdate()
-    // Offset: 0x23D6CAC
+    // Offset: 0x1E79770
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x23D7034
+    // Offset: 0x1E79AF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

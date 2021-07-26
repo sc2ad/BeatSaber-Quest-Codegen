@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NatPunchModule
 #include "LiteNetLib/NatPunchModule.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,19 +43,19 @@ namespace LiteNetLib {
     // Set instance field: private System.Boolean <IsExternal>k__BackingField
     void _set_$IsExternal$k__BackingField(bool value);
     // public System.String get_Token()
-    // Offset: 0x1BB17A4
+    // Offset: 0x17A4B3C
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1BB17AC
+    // Offset: 0x17A4B44
     void set_Token(::Il2CppString* value);
     // public System.Boolean get_IsExternal()
-    // Offset: 0x1BB17B4
+    // Offset: 0x17A4B4C
     bool get_IsExternal();
     // public System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x1BB17BC
+    // Offset: 0x17A4B54
     void set_IsExternal(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1BB1270
+    // Offset: 0x17A4608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

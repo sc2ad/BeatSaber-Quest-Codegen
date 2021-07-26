@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -107,22 +108,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Coroutine _restoringCoroutine
     void _set__restoringCoroutine(UnityEngine::Coroutine* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1220E60
+    // Offset: 0x204D7B8
     void OnEnable();
     // public System.Void Play()
-    // Offset: 0x1220EC8
+    // Offset: 0x204D820
     void Play();
     // public System.Void PlayDelayed(System.Single delay)
-    // Offset: 0x1221034
+    // Offset: 0x204D98C
     void PlayDelayed(float delay);
     // private System.Collections.IEnumerator PlayDelayedCoroutine(System.Single delay)
-    // Offset: 0x122107C
+    // Offset: 0x204D9D4
     System::Collections::IEnumerator* PlayDelayedCoroutine(float delay);
     // private System.Collections.IEnumerator RestorePitchWithDelay(System.Single delay)
-    // Offset: 0x1220FB4
+    // Offset: 0x204D90C
     System::Collections::IEnumerator* RestorePitchWithDelay(float delay);
     // public System.Void .ctor()
-    // Offset: 0x1221154
+    // Offset: 0x204DAAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

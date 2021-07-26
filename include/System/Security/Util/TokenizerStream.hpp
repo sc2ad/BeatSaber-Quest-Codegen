@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -113,37 +114,37 @@ namespace System::Security::Util {
     // Set instance field: private System.Int32 m_indexStrings
     void _set_m_indexStrings(int value);
     // System.Void AddToken(System.Int16 token)
-    // Offset: 0x1BC2D88
+    // Offset: 0x17B5120
     void AddToken(int16_t token);
     // System.Void AddString(System.String str)
-    // Offset: 0x1BC34C8
+    // Offset: 0x17B5860
     void AddString(::Il2CppString* str);
     // System.Void Reset()
-    // Offset: 0x1BC3BFC
+    // Offset: 0x17B5F94
     void Reset();
     // System.Int16 GetNextFullToken()
-    // Offset: 0x1BC3C18
+    // Offset: 0x17B5FB0
     int16_t GetNextFullToken();
     // System.Int16 GetNextToken()
-    // Offset: 0x1BC3C94
+    // Offset: 0x17B602C
     int16_t GetNextToken();
     // System.String GetNextString()
-    // Offset: 0x1BC3CAC
+    // Offset: 0x17B6044
     ::Il2CppString* GetNextString();
     // System.Void ThrowAwayNextString()
-    // Offset: 0x1BC3D24
+    // Offset: 0x17B60BC
     void ThrowAwayNextString();
     // System.Void TagLastToken(System.Int16 tag)
-    // Offset: 0x1BC3D28
+    // Offset: 0x17B60C0
     void TagLastToken(int16_t tag);
     // System.Int32 GetTokenCount()
-    // Offset: 0x1BC3DA8
+    // Offset: 0x17B6140
     int GetTokenCount();
     // System.Void GoToPosition(System.Int32 position)
-    // Offset: 0x1BC3DB0
+    // Offset: 0x17B6148
     void GoToPosition(int position);
     // System.Void .ctor()
-    // Offset: 0x1BC3B04
+    // Offset: 0x17B5E9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

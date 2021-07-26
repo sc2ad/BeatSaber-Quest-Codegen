@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Signers.IDsaKCalculator
 #include "Org/BouncyCastle/Crypto/Signers/IDsaKCalculator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,19 +59,19 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
     void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public System.Boolean get_IsDeterministic()
-    // Offset: 0x1236250
+    // Offset: 0x1040528
     bool get_IsDeterministic();
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x1236258
+    // Offset: 0x1040530
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
-    // Offset: 0x1236260
+    // Offset: 0x1040538
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::Array<uint8_t>* message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
-    // Offset: 0x12362CC
+    // Offset: 0x10405A4
     Org::BouncyCastle::Math::BigInteger* NextK();
     // public System.Void .ctor()
-    // Offset: 0x122F3B4
+    // Offset: 0x103968C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

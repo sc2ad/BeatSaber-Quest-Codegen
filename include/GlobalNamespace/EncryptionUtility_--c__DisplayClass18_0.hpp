@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EncryptionUtility
 #include "GlobalNamespace/EncryptionUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,10 +64,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean isClient
     void _set_isClient(bool value);
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()
-    // Offset: 0x12C3C60
+    // Offset: 0x109939C
     GlobalNamespace::EncryptionUtility::IEncryptionState* $CreateEncryptionStateAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x12C20F8
+    // Offset: 0x1097834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

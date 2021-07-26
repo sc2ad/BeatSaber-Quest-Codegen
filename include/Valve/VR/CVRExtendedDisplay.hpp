@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Valve.VR.IVRExtendedDisplay
 #include "Valve/VR/IVRExtendedDisplay.hpp"
 // Including type: System.IntPtr
@@ -45,21 +46,21 @@ namespace Valve::VR {
     // Set instance field: private Valve.VR.IVRExtendedDisplay FnTable
     void _set_FnTable(Valve::VR::IVRExtendedDisplay value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16BC600
+    // Offset: 0x13BECBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRExtendedDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRExtendedDisplay*, creationType>(pInterface)));
     }
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x16BC708
-    void GetWindowBounds(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight);
+    // Offset: 0x13BEDC4
+    void GetWindowBounds(ByRef<int> pnX, ByRef<int> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetEyeOutputViewport(Valve.VR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x16BC734
-    void GetEyeOutputViewport(Valve::VR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight);
+    // Offset: 0x13BEDF0
+    void GetEyeOutputViewport(Valve::VR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
-    // Offset: 0x16BC760
-    void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
+    // Offset: 0x13BEE1C
+    void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex, ByRef<int> pnAdapterOutputIndex);
   }; // Valve.VR.CVRExtendedDisplay
   #pragma pack(pop)
   static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay)> __Valve_VR_CVRExtendedDisplaySizeCheck;
@@ -74,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedD
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetWindowBounds
 // Il2CppName: GetWindowBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetWindowBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(ByRef<int>, ByRef<int>, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVRExtendedDisplay::GetWindowBounds)> {
   static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport
 // Il2CppName: GetEyeOutputViewport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(Valve::VR::EVREye, uint&, uint&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(Valve::VR::EVREye, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -99,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo
 // Il2CppName: GetDXGIOutputInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&)>(&Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(ByRef<int>, ByRef<int>)>(&Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
   static const MethodInfo* get() {
     static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnAdapterOutputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

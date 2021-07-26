@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVR.OpenVR.IVRIOBuffer
 #include "OVR/OpenVR/IVRIOBuffer.hpp"
 // Including type: System.IntPtr
@@ -47,26 +48,26 @@ namespace OVR::OpenVR {
     // Set instance field: private OVR.OpenVR.IVRIOBuffer FnTable
     void _set_FnTable(OVR::OpenVR::IVRIOBuffer value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x15821B4
+    // Offset: 0x1286784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRIOBuffer* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRIOBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRIOBuffer*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EIOBufferError Open(System.String pchPath, OVR.OpenVR.EIOBufferMode mode, System.UInt32 unElementSize, System.UInt32 unElements, ref System.UInt64 pulBuffer)
-    // Offset: 0x15822BC
-    OVR::OpenVR::EIOBufferError Open(::Il2CppString* pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, uint64_t& pulBuffer);
+    // Offset: 0x128688C
+    OVR::OpenVR::EIOBufferError Open(::Il2CppString* pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, ByRef<uint64_t> pulBuffer);
     // public OVR.OpenVR.EIOBufferError Close(System.UInt64 ulBuffer)
-    // Offset: 0x15822DC
+    // Offset: 0x12868AC
     OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer);
     // public OVR.OpenVR.EIOBufferError Read(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, ref System.UInt32 punRead)
-    // Offset: 0x15822F8
-    OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, uint& punRead);
+    // Offset: 0x12868C8
+    OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, ByRef<uint> punRead);
     // public OVR.OpenVR.EIOBufferError Write(System.UInt64 ulBuffer, System.IntPtr pSrc, System.UInt32 unBytes)
-    // Offset: 0x1582318
+    // Offset: 0x12868E8
     OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, System::IntPtr pSrc, uint unBytes);
     // public System.UInt64 PropertyContainer(System.UInt64 ulBuffer)
-    // Offset: 0x1582334
+    // Offset: 0x1286904
     uint64_t PropertyContainer(uint64_t ulBuffer);
   }; // OVR.OpenVR.CVRIOBuffer
   #pragma pack(pop)
@@ -82,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Open
 // Il2CppName: Open
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(::Il2CppString*, OVR::OpenVR::EIOBufferMode, uint, uint, uint64_t&)>(&OVR::OpenVR::CVRIOBuffer::Open)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(::Il2CppString*, OVR::OpenVR::EIOBufferMode, uint, uint, ByRef<uint64_t>)>(&OVR::OpenVR::CVRIOBuffer::Open)> {
   static const MethodInfo* get() {
     static auto* pchPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EIOBufferMode")->byval_arg;
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, System::IntPtr, uint, uint&)>(&OVR::OpenVR::CVRIOBuffer::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, System::IntPtr, uint, ByRef<uint>)>(&OVR::OpenVR::CVRIOBuffer::Read)> {
   static const MethodInfo* get() {
     static auto* ulBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pDst = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

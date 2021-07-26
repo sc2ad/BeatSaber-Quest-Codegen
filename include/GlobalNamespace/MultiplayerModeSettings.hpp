@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDifficultyMask
 #include "GlobalNamespace/BeatmapDifficultyMask.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean quickPlayEnableLevelSelection
     void _set_quickPlayEnableLevelSelection(bool value);
     // public System.Void .ctor()
-    // Offset: 0x23DCDC4
+    // Offset: 0x1E7F888
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

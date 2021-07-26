@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,13 +37,13 @@ namespace Oculus::Platform {
     // Set instance field: private System.IntPtr Handle
     void _set_Handle(System::IntPtr value);
     // public System.Void SetDeeplinkMessage(System.String value)
-    // Offset: 0x1C178E4
+    // Offset: 0x22888C4
     void SetDeeplinkMessage(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ApplicationOptions options)
-    // Offset: 0x1C17488
+    // Offset: 0x2288468
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1C177FC
+    // Offset: 0x22887DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +52,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<ApplicationOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1C17A08
+    // Offset: 0x22889E8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

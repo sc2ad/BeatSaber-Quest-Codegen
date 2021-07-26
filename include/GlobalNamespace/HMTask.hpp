@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -102,29 +103,29 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _finished
     void _set__finished(bool value);
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
-    // Offset: 0x12145AC
+    // Offset: 0x2040F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask* New_ctor(System::Action* job, System::Action* finishCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask*, creationType>(job, finishCallback)));
     }
     // public System.Void Run()
-    // Offset: 0x12146BC
+    // Offset: 0x2041014
     void Run();
     // public System.Collections.IEnumerator RunCoroutine()
-    // Offset: 0x121A204
+    // Offset: 0x2046B5C
     System::Collections::IEnumerator* RunCoroutine();
     // private System.Void RunJob()
-    // Offset: 0x121A2A0
+    // Offset: 0x2046BF8
     void RunJob();
     // public System.Void Cancel()
-    // Offset: 0x121A374
+    // Offset: 0x2046CCC
     void Cancel();
     // private System.Boolean <RunCoroutine>b__8_0()
-    // Offset: 0x121A380
+    // Offset: 0x2046CD8
     bool $RunCoroutine$b__8_0();
     // private System.Void <RunJob>b__9_0()
-    // Offset: 0x121A388
+    // Offset: 0x2046CE0
     void $RunJob$b__9_0();
   }; // HMTask
   #pragma pack(pop)

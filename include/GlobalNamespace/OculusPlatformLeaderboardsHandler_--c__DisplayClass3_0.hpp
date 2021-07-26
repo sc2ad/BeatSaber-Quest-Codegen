@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusPlatformLeaderboardsHandler
 #include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: public Oculus.Platform.Request oculusRequest
     void _set_oculusRequest(Oculus::Platform::Request* value);
     // System.Void <AddOculusRequest>b__0(HMAsyncRequest request)
-    // Offset: 0xFF1A74
+    // Offset: 0x1E45028
     void $AddOculusRequest$b__0(GlobalNamespace::HMAsyncRequest* request);
     // public System.Void .ctor()
-    // Offset: 0xFF16A0
+    // Offset: 0x1E44C54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

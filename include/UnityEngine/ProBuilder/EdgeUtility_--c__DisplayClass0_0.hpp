@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.EdgeUtility
 #include "UnityEngine/ProBuilder/EdgeUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,10 +47,10 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     void _set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1AE2550
+    // Offset: 0x1743ED8
     UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x1AE1C7C
+    // Offset: 0x1743604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.KeyCode
@@ -75,19 +76,19 @@ namespace HMUI {
     // Set instance field: private System.Boolean _canBeUppercase
     void _set__canBeUppercase(bool value);
     // public UnityEngine.KeyCode get_keyCode()
-    // Offset: 0x12A3F34
+    // Offset: 0x1079670
     UnityEngine::KeyCode get_keyCode();
     // public System.Boolean get_canBeUppercase()
-    // Offset: 0x12A3F3C
+    // Offset: 0x1079678
     bool get_canBeUppercase();
     // protected System.Void Awake()
-    // Offset: 0x12A3F44
+    // Offset: 0x1079680
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x12A4008
+    // Offset: 0x1079744
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x12A4104
+    // Offset: 0x1079840
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Microsoft.Win32.Win32Native
 #include "Microsoft/Win32/Win32Native.hpp"
 // Completed includes
@@ -18,10 +19,10 @@ namespace System::IO {
     // Creating value type constructor for type: FileSystemEnumerableHelpers
     FileSystemEnumerableHelpers() noexcept {}
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
-    // Offset: 0x1925ED0
+    // Offset: 0x15F72D4
     static bool IsDir(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
     // static System.Boolean IsFile(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
-    // Offset: 0x1925F6C
+    // Offset: 0x15F7370
     static bool IsFile(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
   }; // System.IO.FileSystemEnumerableHelpers
   #pragma pack(pop)

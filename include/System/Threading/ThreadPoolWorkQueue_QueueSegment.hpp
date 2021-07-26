@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.ThreadPoolWorkQueue
 #include "System/Threading/ThreadPoolWorkQueue.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,22 +62,22 @@ namespace System::Threading {
     // Set instance field: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
     void _set_Next(System::Threading::ThreadPoolWorkQueue::QueueSegment* value);
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
-    // Offset: 0x188D0A4
-    void GetIndexes(int& upper, int& lower);
+    // Offset: 0x155E4A8
+    void GetIndexes(ByRef<int> upper, ByRef<int> lower);
     // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
-    // Offset: 0x188D0E4
-    bool CompareExchangeIndexes(int& prevUpper, int newUpper, int& prevLower, int newLower);
+    // Offset: 0x155E4E8
+    bool CompareExchangeIndexes(ByRef<int> prevUpper, int newUpper, ByRef<int> prevLower, int newLower);
     // public System.Boolean IsUsedUp()
-    // Offset: 0x188CA48
+    // Offset: 0x155DE4C
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x188C148
+    // Offset: 0x155D54C
     bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x188C94C
-    bool TryDequeue(System::Threading::IThreadPoolWorkItem*& node);
+    // Offset: 0x155DD50
+    bool TryDequeue(ByRef<System::Threading::IThreadPoolWorkItem*> node);
     // public System.Void .ctor()
-    // Offset: 0x188BA1C
+    // Offset: 0x155CE20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -94,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "S
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes
 // Il2CppName: GetIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(int&, int&)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(ByRef<int>, ByRef<int>)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes)> {
   static const MethodInfo* get() {
     static auto* upper = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* lower = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes
 // Il2CppName: CompareExchangeIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(int&, int, int&, int)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(ByRef<int>, int, ByRef<int>, int)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes)> {
   static const MethodInfo* get() {
     static auto* prevUpper = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* newUpper = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -133,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue
 // Il2CppName: TryDequeue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*&)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(ByRef<System::Threading::IThreadPoolWorkItem*>)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});

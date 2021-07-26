@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Http.NtlmClient
 #include "Mono/Http/NtlmClient.hpp"
 // Including type: System.Runtime.CompilerServices.ConditionalWeakTable`2
@@ -45,13 +46,13 @@ namespace Mono::Http {
     // Set static field: static public System.Runtime.CompilerServices.ConditionalWeakTable`2/System.Runtime.CompilerServices.CreateValueCallback<System.Net.HttpWebRequest,Mono.Http.NtlmSession> <>9__1_0
     static void _set_$$9__1_0(typename System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Net::HttpWebRequest*, Mono::Http::NtlmSession*>::CreateValueCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x15A5538
+    // Offset: 0x12A8B08
     static void _cctor();
     // Mono.Http.NtlmSession <Authenticate>b__1_0(System.Net.HttpWebRequest x)
-    // Offset: 0x15A55A4
+    // Offset: 0x12A8B74
     Mono::Http::NtlmSession* $Authenticate$b__1_0(System::Net::HttpWebRequest* x);
     // public System.Void .ctor()
-    // Offset: 0x15A559C
+    // Offset: 0x12A8B6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

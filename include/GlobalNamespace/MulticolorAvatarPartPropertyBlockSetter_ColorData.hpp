@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MulticolorAvatarPartPropertyBlockSetter
 #include "GlobalNamespace/MulticolorAvatarPartPropertyBlockSetter.hpp"
 // Including type: UnityEngine.Color
@@ -54,16 +55,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _whiteBoost
     void _set__whiteBoost(float value);
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0x119AB80
+    // Offset: 0x1FB25EC
     UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0x119AB8C
+    // Offset: 0x1FB25F8
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0x119AB94
+    // Offset: 0x1FB2600
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0x119AB9C
+    // Offset: 0x1FB2608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

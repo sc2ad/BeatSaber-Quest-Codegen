@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LocalizedTextAsset
 #include "GlobalNamespace/LocalizedTextAsset.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LocalizedTextAsset/TextInfo,System.Boolean> <>9__6_0
     static void _set_$$9__6_0(System::Func_2<GlobalNamespace::LocalizedTextAsset::TextInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11789A4
+    // Offset: 0x1FA83B8
     static void _cctor();
     // System.Boolean <get_localizedText>b__6_0(LocalizedTextAsset/TextInfo t)
-    // Offset: 0x1178A10
+    // Offset: 0x1FA8424
     bool $get_localizedText$b__6_0(GlobalNamespace::LocalizedTextAsset::TextInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x1178A08
+    // Offset: 0x1FA841C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

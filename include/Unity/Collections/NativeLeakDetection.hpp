@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
@@ -20,7 +21,7 @@ namespace Unity::Collections {
     // Set static field: static private System.Int32 s_NativeLeakDetectionMode
     static void _set_s_NativeLeakDetectionMode(int value);
     // static private System.Void Initialize()
-    // Offset: 0x1BD9610
+    // Offset: 0x17CB9A8
     static void Initialize();
   }; // Unity.Collections.NativeLeakDetection
   #pragma pack(pop)

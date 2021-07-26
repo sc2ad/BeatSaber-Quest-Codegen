@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -24,25 +25,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorExtensions
     ColorExtensions() noexcept {}
     // static public UnityEngine.Color SaturatedColor(UnityEngine.Color color, System.Single saturation)
-    // Offset: 0x120F164
+    // Offset: 0x203BABC
     static UnityEngine::Color SaturatedColor(UnityEngine::Color color, float saturation);
     // static public UnityEngine.Color ColorWithAlpha(UnityEngine.Color color, System.Single alpha)
-    // Offset: 0x120F1BC
+    // Offset: 0x203BB14
     static UnityEngine::Color ColorWithAlpha(UnityEngine::Color color, float alpha);
     // static public UnityEngine.Color ColorWithR(UnityEngine.Color color, System.Single r)
-    // Offset: 0x120F1C4
+    // Offset: 0x203BB1C
     static UnityEngine::Color ColorWithR(UnityEngine::Color color, float r);
     // static public UnityEngine.Color ColorWithG(UnityEngine.Color color, System.Single g)
-    // Offset: 0x120F1CC
+    // Offset: 0x203BB24
     static UnityEngine::Color ColorWithG(UnityEngine::Color color, float g);
     // static public UnityEngine.Color ColorWithB(UnityEngine.Color color, System.Single b)
-    // Offset: 0x120F1D4
+    // Offset: 0x203BB2C
     static UnityEngine::Color ColorWithB(UnityEngine::Color color, float b);
     // static public UnityEngine.Color ColorWithValue(UnityEngine.Color color, System.Single value)
-    // Offset: 0x120F1DC
+    // Offset: 0x203BB34
     static UnityEngine::Color ColorWithValue(UnityEngine::Color color, float value);
     // static public UnityEngine.Color LerpRGBUnclamped(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
-    // Offset: 0x120F230
+    // Offset: 0x203BB88
     static UnityEngine::Color LerpRGBUnclamped(UnityEngine::Color a, UnityEngine::Color b, float t);
   }; // ColorExtensions
   #pragma pack(pop)

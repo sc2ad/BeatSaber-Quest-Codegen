@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -23,7 +24,7 @@ namespace Mono::Security::Interface {
     // Creating value type constructor for type: MonoTlsProviderFactory
     MonoTlsProviderFactory() noexcept {}
     // static public Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x1DDE958
+    // Offset: 0x1951538
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Security.Interface.MonoTlsProviderFactory
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIds
 #include "GlobalNamespace/LightWithIds.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,24 +74,24 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action`1<System.Single> globalIntensityDidChangeEvent
     void _set_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x1DF4884
+    // Offset: 0x1967464
     float get_maxTotalIntensity();
     // public System.Void set_maxTotalIntensity(System.Single value)
-    // Offset: 0x1DF488C
+    // Offset: 0x196746C
     void set_maxTotalIntensity(float value);
     // public System.Void add_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1DF4894
+    // Offset: 0x1967474
     void add_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1DF4938
+    // Offset: 0x1967518
     void remove_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> get_lightIntensityData()
-    // Offset: 0x1DF49DC
+    // Offset: 0x19675BC
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> LightWithIds::get_lightIntensityData()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // public System.Void .ctor()
-    // Offset: 0x1DF4D98
+    // Offset: 0x1967978
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds*, creationType>()));
     }
     // protected override System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1DF49E4
+    // Offset: 0x19675C4
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame()
     void HandleLightManagerDidChangeSomeColorsThisFrame();

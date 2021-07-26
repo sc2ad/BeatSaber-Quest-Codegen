@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,13 +48,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.Security.Principal.IPrincipal _principal
     void _set__principal(System::Security::Principal::IPrincipal* value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x19F6C68
+    // Offset: 0x16ADD5C
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x19F6C78
+    // Offset: 0x16ADD6C
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x19F6CE8
+    // Offset: 0x16ADDDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

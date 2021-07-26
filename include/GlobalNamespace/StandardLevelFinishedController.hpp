@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,14 +37,14 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06D28
+    // [InjectAttribute] Offset: 0xEB3944
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06D38
+    // [InjectAttribute] Offset: 0xEB3954
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x28
@@ -67,19 +68,19 @@ namespace GlobalNamespace {
     // Set instance field: private ILevelEndActions _gameplayManager
     void _set__gameplayManager(GlobalNamespace::ILevelEndActions* value);
     // protected System.Void Start()
-    // Offset: 0x1064C58
+    // Offset: 0x1ED072C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1064D44
+    // Offset: 0x1ED0818
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x1064E3C
+    // Offset: 0x1ED0910
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0x1064E40
+    // Offset: 0x1ED0914
     void StartLevelFinished();
     // public System.Void .ctor()
-    // Offset: 0x1064F00
+    // Offset: 0x1ED09D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

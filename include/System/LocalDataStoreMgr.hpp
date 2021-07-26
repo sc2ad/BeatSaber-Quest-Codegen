@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -112,34 +113,34 @@ namespace System {
     // Set instance field: private System.Int64 m_CookieGenerator
     void _set_m_CookieGenerator(int64_t value);
     // public System.LocalDataStoreHolder CreateLocalDataStore()
-    // Offset: 0x17FB7EC
+    // Offset: 0x14CBBF0
     System::LocalDataStoreHolder* CreateLocalDataStore();
     // public System.Void DeleteLocalDataStore(System.LocalDataStore store)
-    // Offset: 0x17FB070
+    // Offset: 0x14CB474
     void DeleteLocalDataStore(System::LocalDataStore* store);
     // public System.LocalDataStoreSlot AllocateDataSlot()
-    // Offset: 0x17FB90C
+    // Offset: 0x14CBD10
     System::LocalDataStoreSlot* AllocateDataSlot();
     // public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
-    // Offset: 0x17FBB50
+    // Offset: 0x14CBF54
     System::LocalDataStoreSlot* AllocateNamedDataSlot(::Il2CppString* name);
     // public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
-    // Offset: 0x17FBC3C
+    // Offset: 0x14CC040
     System::LocalDataStoreSlot* GetNamedDataSlot(::Il2CppString* name);
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x17FBD28
+    // Offset: 0x14CC12C
     void FreeNamedDataSlot(::Il2CppString* name);
     // System.Void FreeDataSlot(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x17FBDF8
+    // Offset: 0x14CC1FC
     void FreeDataSlot(int slot, int64_t cookie);
     // public System.Void ValidateSlot(System.LocalDataStoreSlot slot)
-    // Offset: 0x17FB248
+    // Offset: 0x14CB64C
     void ValidateSlot(System::LocalDataStoreSlot* slot);
     // System.Int32 GetSlotTableLength()
-    // Offset: 0x17FB6E8
+    // Offset: 0x14CBAEC
     int GetSlotTableLength();
     // public System.Void .ctor()
-    // Offset: 0x17FBF60
+    // Offset: 0x14CC364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

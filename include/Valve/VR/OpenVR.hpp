@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.UInt32
 #include "System/UInt32.hpp"
 // Including type: System.UInt64
@@ -1188,82 +1189,82 @@ namespace Valve::VR {
     // Set static field: static private Valve.VR.OpenVR/Valve.VR.COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(Valve::VR::OpenVR::COpenVRContext* value);
     // static private System.UInt32 get_VRToken()
-    // Offset: 0x1CD1B6C
+    // Offset: 0x186E90C
     static uint get_VRToken();
     // static private System.Void set_VRToken(System.UInt32 value)
-    // Offset: 0x1CD1BD4
+    // Offset: 0x186E974
     static void set_VRToken(uint value);
     // static private Valve.VR.OpenVR/Valve.VR.COpenVRContext get_OpenVRInternal_ModuleContext()
-    // Offset: 0x1CD1C40
+    // Offset: 0x186E9E0
     static Valve::VR::OpenVR::COpenVRContext* get_OpenVRInternal_ModuleContext();
     // static public Valve.VR.CVRSystem get_System()
-    // Offset: 0x1CD1D0C
+    // Offset: 0x186EAAC
     static Valve::VR::CVRSystem* get_System();
     // static public Valve.VR.CVRChaperone get_Chaperone()
-    // Offset: 0x1CD1D78
+    // Offset: 0x186EB18
     static Valve::VR::CVRChaperone* get_Chaperone();
     // static public Valve.VR.CVRChaperoneSetup get_ChaperoneSetup()
-    // Offset: 0x1CD1DE4
+    // Offset: 0x186EB84
     static Valve::VR::CVRChaperoneSetup* get_ChaperoneSetup();
     // static public Valve.VR.CVRCompositor get_Compositor()
-    // Offset: 0x1CD1E50
+    // Offset: 0x186EBF0
     static Valve::VR::CVRCompositor* get_Compositor();
     // static public Valve.VR.CVROverlay get_Overlay()
-    // Offset: 0x1CD1EBC
+    // Offset: 0x186EC5C
     static Valve::VR::CVROverlay* get_Overlay();
     // static public Valve.VR.CVRRenderModels get_RenderModels()
-    // Offset: 0x1CD1F28
+    // Offset: 0x186ECC8
     static Valve::VR::CVRRenderModels* get_RenderModels();
     // static public Valve.VR.CVRExtendedDisplay get_ExtendedDisplay()
-    // Offset: 0x1CD1F94
+    // Offset: 0x186ED34
     static Valve::VR::CVRExtendedDisplay* get_ExtendedDisplay();
     // static public Valve.VR.CVRSettings get_Settings()
-    // Offset: 0x1CD2000
+    // Offset: 0x186EDA0
     static Valve::VR::CVRSettings* get_Settings();
     // static public Valve.VR.CVRApplications get_Applications()
-    // Offset: 0x1CD206C
+    // Offset: 0x186EE0C
     static Valve::VR::CVRApplications* get_Applications();
     // static public Valve.VR.CVRScreenshots get_Screenshots()
-    // Offset: 0x1CD20D8
+    // Offset: 0x186EE78
     static Valve::VR::CVRScreenshots* get_Screenshots();
     // static public Valve.VR.CVRTrackedCamera get_TrackedCamera()
-    // Offset: 0x1CD2144
+    // Offset: 0x186EEE4
     static Valve::VR::CVRTrackedCamera* get_TrackedCamera();
     // static private System.Void .cctor()
-    // Offset: 0x1CD2380
+    // Offset: 0x186F120
     static void _cctor();
     // static public System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x1CD1AB8
-    static uint InitInternal(Valve::VR::EVRInitError& peError, Valve::VR::EVRApplicationType eApplicationType);
+    // Offset: 0x186E858
+    static uint InitInternal(ByRef<Valve::VR::EVRInitError> peError, Valve::VR::EVRApplicationType eApplicationType);
     // static public System.Void ShutdownInternal()
-    // Offset: 0x1CD1AC0
+    // Offset: 0x186E860
     static void ShutdownInternal();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0x1CD1AC8
+    // Offset: 0x186E868
     static bool IsHmdPresent();
     // static public System.Boolean IsRuntimeInstalled()
-    // Offset: 0x1CD1AD0
+    // Offset: 0x186E870
     static bool IsRuntimeInstalled();
     // static public System.String GetStringForHmdError(Valve.VR.EVRInitError error)
-    // Offset: 0x1CD1AD8
+    // Offset: 0x186E878
     static ::Il2CppString* GetStringForHmdError(Valve::VR::EVRInitError error);
     // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
-    // Offset: 0x1CD1B54
-    static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, Valve::VR::EVRInitError& peError);
+    // Offset: 0x186E8F4
+    static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, ByRef<Valve::VR::EVRInitError> peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0x1CD1B5C
+    // Offset: 0x186E8FC
     static bool IsInterfaceVersionValid(::Il2CppString* pchInterfaceVersion);
     // static public System.UInt32 GetInitToken()
-    // Offset: 0x1CD1B64
+    // Offset: 0x186E904
     static uint GetInitToken();
     // static public Valve.VR.CVRSystem Init(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x1CD21B0
-    static Valve::VR::CVRSystem* Init(Valve::VR::EVRInitError& peError, Valve::VR::EVRApplicationType eApplicationType);
+    // Offset: 0x186EF50
+    static Valve::VR::CVRSystem* Init(ByRef<Valve::VR::EVRInitError> peError, Valve::VR::EVRApplicationType eApplicationType);
     // static public System.Void Shutdown()
-    // Offset: 0x1CD2318
+    // Offset: 0x186F0B8
     static void Shutdown();
     // public System.Void .ctor()
-    // Offset: 0x1CD2378
+    // Offset: 0x186F118
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -1400,7 +1401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Valve::VR::OpenVR::InitInternal
 // Il2CppName: InitInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Valve::VR::EVRInitError&, Valve::VR::EVRApplicationType)>(&Valve::VR::OpenVR::InitInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ByRef<Valve::VR::EVRInitError>, Valve::VR::EVRApplicationType)>(&Valve::VR::OpenVR::InitInternal)> {
   static const MethodInfo* get() {
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRInitError")->this_arg;
     static auto* eApplicationType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationType")->byval_arg;
@@ -1443,7 +1444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Valve::VR::OpenVR::GetGenericInterface
 // Il2CppName: GetGenericInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, Valve::VR::EVRInitError&)>(&Valve::VR::OpenVR::GetGenericInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, ByRef<Valve::VR::EVRInitError>)>(&Valve::VR::OpenVR::GetGenericInterface)> {
   static const MethodInfo* get() {
     static auto* pchInterfaceVersion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRInitError")->this_arg;
@@ -1470,7 +1471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>
 // Writing MetadataGetter for method: Valve::VR::OpenVR::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRSystem* (*)(Valve::VR::EVRInitError&, Valve::VR::EVRApplicationType)>(&Valve::VR::OpenVR::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRSystem* (*)(ByRef<Valve::VR::EVRInitError>, Valve::VR::EVRApplicationType)>(&Valve::VR::OpenVR::Init)> {
   static const MethodInfo* get() {
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRInitError")->this_arg;
     static auto* eApplicationType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationType")->byval_arg;

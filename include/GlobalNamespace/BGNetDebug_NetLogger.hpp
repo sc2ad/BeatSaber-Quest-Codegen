@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BGNetDebug
 #include "GlobalNamespace/BGNetDebug.hpp"
 // Including type: LiteNetLib.INetLogger
@@ -29,7 +30,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::INetLogger*>(this);
     }
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x12B8DE8
+    // Offset: 0x108E524
     void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -39,7 +40,7 @@ namespace GlobalNamespace {
       WriteNet(level, str, {args...});
     }
     // public System.Void .ctor()
-    // Offset: 0x12B8B18
+    // Offset: 0x108E254
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

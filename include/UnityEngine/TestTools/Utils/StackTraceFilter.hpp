@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Utils
@@ -31,10 +32,10 @@ namespace UnityEngine::TestTools::Utils {
     // Set static field: static private readonly System.String[] s_LastMessages
     static void _set_s_LastMessages(::Array<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23B6154
+    // Offset: 0x1E2F13C
     static void _cctor();
     // static public System.String Filter(System.String inputStackTrace)
-    // Offset: 0x23B5188
+    // Offset: 0x1E2E170
     static ::Il2CppString* Filter(::Il2CppString* inputStackTrace);
   }; // UnityEngine.TestTools.Utils.StackTraceFilter
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ZenUtilInternal
 #include "Zenject/Internal/ZenUtilInternal.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
@@ -46,10 +47,10 @@ namespace Zenject::Internal {
     // Set instance field: public UnityEngine.SceneManagement.Scene scene
     void _set_scene(UnityEngine::SceneManagement::Scene value);
     // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)
-    // Offset: 0x16C4070
+    // Offset: 0x13C672C
     bool $GetRootGameObjects$b__1(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x16C3F14
+    // Offset: 0x13C65D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

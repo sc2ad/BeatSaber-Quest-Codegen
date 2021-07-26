@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapSaveData
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Including type: BeatmapSaveData/ITime
@@ -84,29 +85,29 @@ namespace GlobalNamespace {
     // Set instance field: private NoteCutDirection _cutDirection
     void _set__cutDirection(GlobalNamespace::NoteCutDirection value);
     // public System.Single get_time()
-    // Offset: 0x109A780
+    // Offset: 0x1EF2C28
     float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x109A788
+    // Offset: 0x1EF2C30
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x109A790
+    // Offset: 0x1EF2C38
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public BeatmapSaveData/NoteType get_type()
-    // Offset: 0x109A798
+    // Offset: 0x1EF2C40
     GlobalNamespace::BeatmapSaveData::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x109A7A0
+    // Offset: 0x1EF2C48
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, BeatmapSaveData/NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0x109A7A8
+    // Offset: 0x1EF2C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::BeatmapSaveData::NoteType type, GlobalNamespace::NoteCutDirection cutDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::NoteData*, creationType>(time, lineIndex, lineLayer, type, cutDirection)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x109A804
+    // Offset: 0x1EF2CAC
     void MoveTime(float offset);
   }; // BeatmapSaveData/NoteData
   #pragma pack(pop)

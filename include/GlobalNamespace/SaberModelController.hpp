@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,21 +62,21 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::SetSaberFakeGlowColor*>* setSaberFakeGlowColors;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::SetSaberFakeGlowColor*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE0980C
+    // [NullAllowed] Offset: 0xEB6428
     // private TubeBloomPrePassLight _saberLight
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::TubeBloomPrePassLight* saberLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE09844
+    // [InjectOptionalAttribute] Offset: 0xEB6460
     // private readonly SaberModelController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SaberModelController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberModelController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE09854
+    // [InjectAttribute] Offset: 0xEB6470
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -111,10 +112,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly ColorManager _colorManager
     void _set__colorManager(GlobalNamespace::ColorManager* value);
     // public System.Void Init(UnityEngine.Transform parent, Saber saber)
-    // Offset: 0x114BA30
+    // Offset: 0x1F7C444
     void Init(UnityEngine::Transform* parent, GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x114BD08
+    // Offset: 0x1F7C71C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

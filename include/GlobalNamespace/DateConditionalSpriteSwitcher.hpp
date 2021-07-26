@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
     int month;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0xE0A870
+    // [SpaceAttribute] Offset: 0xEB748C
     // private UnityEngine.Sprite _falseSprite
     // Size: 0x8
     // Offset: 0x20
@@ -56,7 +57,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* trueSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0A8B8
+    // [SpaceAttribute] Offset: 0xEB74D4
     // private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
     // Size: 0x8
     // Offset: 0x30
@@ -88,10 +89,10 @@ namespace GlobalNamespace {
     // Set instance field: private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
     void _set__conditionalSpriteSwitcher(GlobalNamespace::ConditionalSpriteSwitcher* value);
     // protected System.Void Awake()
-    // Offset: 0x10886F0
+    // Offset: 0x1F09FEC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x10887C8
+    // Offset: 0x1F0A0C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

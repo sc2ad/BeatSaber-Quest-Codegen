@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand
 #include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,14 +35,14 @@ namespace NUnit::Framework::Internal::Commands {
     // Set instance field: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     void _set_innerCommand(NUnit::Framework::Internal::Commands::TestCommand* value);
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x17278F8
+    // Offset: 0x142AFB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::DelegatingTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegatingTestCommand*, creationType>(innerCommand)));
     }
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x1727E80
+    // Offset: 0x142B53C
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
   #pragma pack(pop)

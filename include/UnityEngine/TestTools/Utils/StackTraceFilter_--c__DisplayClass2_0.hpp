@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.Utils.StackTraceFilter
 #include "UnityEngine/TestTools/Utils/StackTraceFilter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace UnityEngine::TestTools::Utils {
     // Set instance field: public System.String line
     void _set_line(::Il2CppString* value);
     // System.Boolean <Filter>b__0(System.String s)
-    // Offset: 0x23B6334
+    // Offset: 0x1E2F31C
     bool $Filter$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x23B614C
+    // Offset: 0x1E2F134
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

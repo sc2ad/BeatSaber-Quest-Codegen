@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Saber* rightSaber;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Saber*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0978C
+    // [InjectAttribute] Offset: 0xEB63A8
     // private readonly SaberManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -94,40 +95,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action`2<Saber,Saber> didUpdateSaberPositionsEvent
     void _set_didUpdateSaberPositionsEvent(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* value);
     // public Saber get_leftSaber()
-    // Offset: 0x114B570
+    // Offset: 0x1F7BF84
     GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0x114B578
+    // Offset: 0x1F7BF8C
     GlobalNamespace::Saber* get_rightSaber();
     // public System.Void set_disableSabers(System.Boolean value)
-    // Offset: 0x114B6C8
+    // Offset: 0x1F7C0DC
     void set_disableSabers(bool value);
     // public System.Void add_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x114B580
+    // Offset: 0x1F7BF94
     void add_didUpdateSaberPositionsEvent(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* value);
     // public System.Void remove_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x114B624
+    // Offset: 0x1F7C038
     void remove_didUpdateSaberPositionsEvent(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* value);
     // protected System.Void Start()
-    // Offset: 0x114B6D8
+    // Offset: 0x1F7C0EC
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x114B828
+    // Offset: 0x1F7C23C
     void OnDisable();
     // protected System.Void OnEnable()
-    // Offset: 0x114B82C
+    // Offset: 0x1F7C240
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0x114B83C
+    // Offset: 0x1F7C250
     void Update();
     // public Saber SaberForType(SaberType saberType)
-    // Offset: 0x114B904
+    // Offset: 0x1F7C318
     GlobalNamespace::Saber* SaberForType(GlobalNamespace::SaberType saberType);
     // private System.Void RefreshSabers()
-    // Offset: 0x114B700
+    // Offset: 0x1F7C114
     void RefreshSabers();
     // public System.Void .ctor()
-    // Offset: 0x114B95C
+    // Offset: 0x1F7C370
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

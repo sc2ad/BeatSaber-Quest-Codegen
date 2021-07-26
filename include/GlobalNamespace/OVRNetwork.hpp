@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.UInt32
@@ -53,7 +54,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt32 FrameHeaderMagicIdentifier
     static void _set_FrameHeaderMagicIdentifier(uint value);
     // public System.Void .ctor()
-    // Offset: 0x12E6F40
+    // Offset: 0x10A8EB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IFactory`5
 #include "Zenject/IFactory_5.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,7 +32,7 @@ namespace Zenject {
   template<typename P1, typename P2, typename P3, typename T>
   class PrefabFactory_4 : public ::Il2CppObject/*, public Zenject::IFactory_5<UnityEngine::Object*, P1, P2, P3, T>*/ {
     public:
-    // [InjectAttribute] Offset: 0xDCAF9C
+    // [InjectAttribute] Offset: 0xE77BB8
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

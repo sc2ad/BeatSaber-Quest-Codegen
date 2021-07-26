@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE88FC
+    // [DescriptionAttribute] Offset: 0xE96518
     // static field const value: static public Oculus.Platform.KeyValuePairType String
     static constexpr const int String = 0;
     // Get static field: static public Oculus.Platform.KeyValuePairType String
     static Oculus::Platform::KeyValuePairType _get_String();
     // Set static field: static public Oculus.Platform.KeyValuePairType String
     static void _set_String(Oculus::Platform::KeyValuePairType value);
-    // [DescriptionAttribute] Offset: 0xDE8934
+    // [DescriptionAttribute] Offset: 0xE96550
     // static field const value: static public Oculus.Platform.KeyValuePairType Int
     static constexpr const int Int = 1;
     // Get static field: static public Oculus.Platform.KeyValuePairType Int
     static Oculus::Platform::KeyValuePairType _get_Int();
     // Set static field: static public Oculus.Platform.KeyValuePairType Int
     static void _set_Int(Oculus::Platform::KeyValuePairType value);
-    // [DescriptionAttribute] Offset: 0xDE896C
+    // [DescriptionAttribute] Offset: 0xE96588
     // static field const value: static public Oculus.Platform.KeyValuePairType Double
     static constexpr const int Double = 2;
     // Get static field: static public Oculus.Platform.KeyValuePairType Double
     static Oculus::Platform::KeyValuePairType _get_Double();
     // Set static field: static public Oculus.Platform.KeyValuePairType Double
     static void _set_Double(Oculus::Platform::KeyValuePairType value);
-    // [DescriptionAttribute] Offset: 0xDE89A4
+    // [DescriptionAttribute] Offset: 0xE965C0
     // static field const value: static public Oculus.Platform.KeyValuePairType Unknown
     static constexpr const int Unknown = 3;
     // Get static field: static public Oculus.Platform.KeyValuePairType Unknown

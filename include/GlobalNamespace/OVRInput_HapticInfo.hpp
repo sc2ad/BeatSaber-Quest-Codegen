@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRInput
 #include "GlobalNamespace/OVRInput.hpp"
 // Including type: UnityEngine.XR.XRNode
@@ -76,7 +77,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.XR.XRNode node
     void _set_node(UnityEngine::XR::XRNode value);
     // public System.Void .ctor()
-    // Offset: 0x14EA738
+    // Offset: 0x122F1D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

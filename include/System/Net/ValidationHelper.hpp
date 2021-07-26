@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -28,16 +29,16 @@ namespace System::Net {
     // Set static field: static readonly System.Char[] InvalidParamChars
     static void _set_InvalidParamChars(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x158F6FC
+    // Offset: 0x1292CCC
     static void _cctor();
     // static public System.String MakeStringNull(System.String stringValue)
-    // Offset: 0x158F6CC
+    // Offset: 0x1292C9C
     static ::Il2CppString* MakeStringNull(::Il2CppString* stringValue);
     // static public System.Boolean IsBlankString(System.String stringValue)
-    // Offset: 0x158F6E0
+    // Offset: 0x1292CB0
     static bool IsBlankString(::Il2CppString* stringValue);
     // static public System.Boolean ValidateTcpPort(System.Int32 port)
-    // Offset: 0x158D260
+    // Offset: 0x1290830
     static bool ValidateTcpPort(int port);
   }; // System.Net.ValidationHelper
   #pragma pack(pop)

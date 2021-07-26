@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PacketEncryptionLayer/PendingEncryptionStateList
 #include "GlobalNamespace/PacketEncryptionLayer_PendingEncryptionStateList.hpp"
 // Including type: EncryptionUtility
@@ -47,10 +48,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 port
     void _set_port(int value);
     // System.Int32 <GetSortedEncryptionStates>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x153C364
+    // Offset: 0x21489C8
     int $GetSortedEncryptionStates$b__0(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x153C2A4
+    // Offset: 0x2148908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.MobileAuthenticatedStream
 #include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
 // Including type: System.ValueType
@@ -102,10 +103,10 @@ namespace Mono::Net::Security {
     // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Int32> <>u__1
     void _set_$$u__1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xEDE994
+    // Offset: 0xD7294C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEDE99C
+    // Offset: 0xD72954
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.<InnerRead>d__66
   // WARNING Not writing size check since size may be invalid!

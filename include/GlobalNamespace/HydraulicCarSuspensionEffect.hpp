@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
     ::Array<int>* contractEventValues;
     // Field size check
     static_assert(sizeof(::Array<int>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFE318
+    // [SpaceAttribute] Offset: 0xEAAF34
     // private BeatmapEventType _expandEvent
     // Size: 0x4
     // Offset: 0x28
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     ::Array<int>* expandEventValues;
     // Field size check
     static_assert(sizeof(::Array<int>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFE360
+    // [SpaceAttribute] Offset: 0xEAAF7C
     // private UnityEngine.SpringJoint _springJoint
     // Size: 0x8
     // Offset: 0x38
@@ -91,14 +92,14 @@ namespace GlobalNamespace {
     float expandDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDFE3B8
+    // [SpaceAttribute] Offset: 0xEAAFD4
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE3F0
+    // [InjectAttribute] Offset: 0xEAB00C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -166,16 +167,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _expandEventValuesHashSet
     void _set__expandEventValuesHashSet(System::Collections::Generic::HashSet_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x10EC584
+    // Offset: 0x1F3E598
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10EC6CC
+    // Offset: 0x1F3E6E0
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x10EC7CC
+    // Offset: 0x1F3E7E0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x10EC8E4
+    // Offset: 0x1F3E8F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

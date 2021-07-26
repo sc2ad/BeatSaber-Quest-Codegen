@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LocalNetworkDiscoveryManager
 #include "GlobalNamespace/LocalNetworkDiscoveryManager.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -57,13 +58,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.String userName
     void _set_userName(::Il2CppString* value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x11743D8
+    // Offset: 0x1FA3DEC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x117441C
+    // Offset: 0x1FA3E30
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x11715B4
+    // Offset: 0x1FA0FC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

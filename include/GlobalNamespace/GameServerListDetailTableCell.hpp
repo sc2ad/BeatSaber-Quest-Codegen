@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -69,16 +70,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
     void _set__buttonBinder(HMUI::ButtonBinder* value);
     // public System.Void add_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10A3FC8
+    // Offset: 0x1F10F38
     void add_joinServerButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10A406C
+    // Offset: 0x1F10FDC
     void remove_joinServerButtonWasPressedEvent(System::Action* value);
     // private System.Void <Start>b__5_0()
-    // Offset: 0x10A4218
+    // Offset: 0x1F11188
     void $Start$b__5_0();
     // public System.Void .ctor()
-    // Offset: 0x10A41B0
+    // Offset: 0x1F11120
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServerListDetailTableCell*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x10A4110
+    // Offset: 0x1F11080
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::Start()
     void Start();

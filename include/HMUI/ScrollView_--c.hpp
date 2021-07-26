@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ScrollView
 #include "HMUI/ScrollView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,16 +44,16 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Single,System.Single> <>9__38_3
     static void _set_$$9__38_3(System::Func_2<float, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x129958C
+    // Offset: 0x106ECC8
     static void _cctor();
     // System.Single <Awake>b__38_1(System.Single i)
-    // Offset: 0x12995F8
+    // Offset: 0x106ED34
     float $Awake$b__38_1(float i);
     // System.Single <Awake>b__38_3(System.Single i)
-    // Offset: 0x12995FC
+    // Offset: 0x106ED38
     float $Awake$b__38_3(float i);
     // public System.Void .ctor()
-    // Offset: 0x12995F0
+    // Offset: 0x106ED2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509Extension
 #include "System/Security/Cryptography/X509Certificates/X509Extension.hpp"
 // Including type: System.Security.Cryptography.AsnDecodeStatus
@@ -56,22 +57,22 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set instance field: private System.Security.Cryptography.AsnDecodeStatus _status
     void _set__status(System::Security::Cryptography::AsnDecodeStatus value);
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedEnhancedKeyUsages, System.Boolean critical)
-    // Offset: 0x1832174
+    // Offset: 0x1503578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509EnhancedKeyUsageExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509EnhancedKeyUsageExtension*, creationType>(encodedEnhancedKeyUsages, critical)));
     }
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1832238
+    // Offset: 0x150363C
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x18324A4
+    // Offset: 0x15038A8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1832648
+    // Offset: 0x1503A4C
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);

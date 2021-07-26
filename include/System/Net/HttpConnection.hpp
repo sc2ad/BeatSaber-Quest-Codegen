@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -440,74 +441,74 @@ namespace System::Net {
     // Set instance field: private System.Int32 position
     void _set_position(int value);
     // public System.Int32 get_Reuses()
-    // Offset: 0x162EC90
+    // Offset: 0x133134C
     int get_Reuses();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x162EC98
+    // Offset: 0x1331354
     System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Boolean get_IsSecure()
-    // Offset: 0x162ED34
+    // Offset: 0x13313F0
     bool get_IsSecure();
     // public System.Void set_Prefix(System.Net.ListenerPrefix value)
-    // Offset: 0x162ED3C
+    // Offset: 0x13313F8
     void set_Prefix(System::Net::ListenerPrefix* value);
     // public System.Void .ctor(System.Net.Sockets.Socket sock, System.Net.EndPointListener epl, System.Boolean secure, System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x162E7D0
+    // Offset: 0x1330E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpConnection* New_ctor(System::Net::Sockets::Socket* sock, System::Net::EndPointListener* epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpConnection*, creationType>(sock, epl, secure, cert)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1632004
+    // Offset: 0x13346C0
     static void _cctor();
     // private System.Void Init()
-    // Offset: 0x162EB54
+    // Offset: 0x1331210
     void Init();
     // private System.Void OnTimeout(System.Object unused)
-    // Offset: 0x162ED44
+    // Offset: 0x1331400
     void OnTimeout(::Il2CppObject* unused);
     // public System.Void BeginReadRequest()
-    // Offset: 0x162EEC8
+    // Offset: 0x1331584
     void BeginReadRequest();
     // public System.Net.RequestStream GetRequestStream(System.Boolean chunked, System.Int64 contentlength)
-    // Offset: 0x162F06C
+    // Offset: 0x1331728
     System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
     // public System.Net.ResponseStream GetResponseStream()
-    // Offset: 0x162F2B8
+    // Offset: 0x1331974
     System::Net::ResponseStream* GetResponseStream();
     // static private System.Void OnRead(System.IAsyncResult ares)
-    // Offset: 0x162F38C
+    // Offset: 0x1331A48
     static void OnRead(System::IAsyncResult* ares);
     // private System.Void OnReadInternal(System.IAsyncResult ares)
-    // Offset: 0x162F464
+    // Offset: 0x1331B20
     void OnReadInternal(System::IAsyncResult* ares);
     // private System.Void RemoveConnection()
-    // Offset: 0x163048C
+    // Offset: 0x1332B48
     void RemoveConnection();
     // private System.Boolean ProcessInput(System.IO.MemoryStream ms)
-    // Offset: 0x162FBB8
+    // Offset: 0x1332274
     bool ProcessInput(System::IO::MemoryStream* ms);
     // private System.String ReadLine(System.Byte[] buffer, System.Int32 offset, System.Int32 len, ref System.Int32 used)
-    // Offset: 0x1630830
-    ::Il2CppString* ReadLine(::Array<uint8_t>* buffer, int offset, int len, int& used);
+    // Offset: 0x1332EEC
+    ::Il2CppString* ReadLine(::Array<uint8_t>* buffer, int offset, int len, ByRef<int> used);
     // public System.Void SendError(System.String msg, System.Int32 status)
-    // Offset: 0x162F794
+    // Offset: 0x1331E50
     void SendError(::Il2CppString* msg, int status);
     // public System.Void SendError()
-    // Offset: 0x162FB98
+    // Offset: 0x1332254
     void SendError();
     // private System.Void Unbind()
-    // Offset: 0x162EE88
+    // Offset: 0x1331544
     void Unbind();
     // private System.Void CloseSocket()
-    // Offset: 0x162ED68
+    // Offset: 0x1331424
     void CloseSocket();
     // System.Void Close(System.Boolean force_close)
-    // Offset: 0x162F958
+    // Offset: 0x1332014
     void Close(bool force_close);
     // private System.Boolean <.ctor>b__24_0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
-    // Offset: 0x1632080
+    // Offset: 0x133473C
     bool $_ctor$b__24_0(::Il2CppObject* t, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, System::Net::Security::SslPolicyErrors e);
   }; // System.Net.HttpConnection
   #pragma pack(pop)
@@ -644,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpConnection::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpConnection::*)(::Array<uint8_t>*, int, int, int&)>(&System::Net::HttpConnection::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpConnection::*)(::Array<uint8_t>*, int, int, ByRef<int>)>(&System::Net::HttpConnection::ReadLine)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

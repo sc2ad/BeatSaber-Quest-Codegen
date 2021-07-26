@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SelectLevelCategoryViewController
 #include "GlobalNamespace/SelectLevelCategoryViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace GlobalNamespace {
     // Set instance field: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
     void _set_enabledLevelCategories(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
-    // Offset: 0x1155514
+    // Offset: 0x1F85F28
     bool $Setup$b__0(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
     // public System.Void .ctor()
-    // Offset: 0x1155098
+    // Offset: 0x1F85AAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

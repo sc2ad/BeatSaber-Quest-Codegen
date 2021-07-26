@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,16 +77,16 @@ namespace GlobalNamespace {
     // Set instance field: private HMUI.ImageView _image
     void _set__image(HMUI::ImageView* value);
     // public System.Void SetStartSprite()
-    // Offset: 0x1066CC4
+    // Offset: 0x1ED2798
     void SetStartSprite();
     // public System.Void SetMiddleSprite()
-    // Offset: 0x1066CE8
+    // Offset: 0x1ED27BC
     void SetMiddleSprite();
     // public System.Void SetEndSprite()
-    // Offset: 0x1066D0C
+    // Offset: 0x1ED27E0
     void SetEndSprite();
     // public System.Void .ctor()
-    // Offset: 0x1066D30
+    // Offset: 0x1ED2804
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

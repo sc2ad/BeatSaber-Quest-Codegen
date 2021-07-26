@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,22 +57,22 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Behaviour[] _components
     void _set__components(::Array<UnityEngine::Behaviour*>* value);
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1213294
+    // Offset: 0x203FBEC
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1213338
+    // Offset: 0x203FC90
     void remove_VisibilityChangedEvent(System::Action_1<bool>* value);
     // protected System.Void Awake()
-    // Offset: 0x12133DC
+    // Offset: 0x203FD34
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x121344C
+    // Offset: 0x203FDA4
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1213504
+    // Offset: 0x203FE5C
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x12135BC
+    // Offset: 0x203FF14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

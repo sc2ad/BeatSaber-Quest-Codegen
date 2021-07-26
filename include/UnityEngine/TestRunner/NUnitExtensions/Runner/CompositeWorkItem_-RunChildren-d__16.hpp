@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/CompositeWorkItem.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -125,35 +126,35 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set instance field: private System.Collections.IEnumerator <enumerable>5__5
     void _set_$enumerable$5__5(System::Collections::IEnumerator* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x147D060
+    // Offset: 0x11EE0C0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x147D0C8
+    // Offset: 0x11EE128
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x147A5C0
+    // Offset: 0x11EB620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem::$RunChildren$d__16* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem::$RunChildren$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x147C874
+    // Offset: 0x11ED8D4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x147C8E8
+    // Offset: 0x11ED948
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x147C890
+    // Offset: 0x11ED8F0
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x147D068
+    // Offset: 0x11EE0C8
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0x147D0D0
+    // Offset: 0x11EE130
     System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x147D17C
+    // Offset: 0x11EE1DC
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>d__16
   // WARNING Not writing size check since size may be invalid!

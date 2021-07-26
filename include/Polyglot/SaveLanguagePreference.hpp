@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Polyglot.ILocalize
@@ -40,13 +41,13 @@ namespace Polyglot {
     // Set instance field: private System.String preferenceKey
     void _set_preferenceKey(::Il2CppString* value);
     // public System.Void Start()
-    // Offset: 0x23314EC
+    // Offset: 0x1DB692C
     void Start();
     // public System.Void OnLocalize()
-    // Offset: 0x2331540
+    // Offset: 0x1DB6980
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x2331574
+    // Offset: 0x1DB69B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

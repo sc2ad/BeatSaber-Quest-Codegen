@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,7 +58,7 @@ namespace Zenject {
     // Set instance field: public System.Object Value
     void _set_Value(::Il2CppObject* value);
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0xF0D730
+    // Offset: 0xD932C4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value)
   }; // Zenject.TypeValuePair

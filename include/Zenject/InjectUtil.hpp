@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.TypeValuePair
 #include "Zenject/TypeValuePair.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,7 +45,7 @@ namespace Zenject {
     // Creating value type constructor for type: InjectUtil
     InjectUtil() noexcept {}
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgList(System.Collections.Generic.IEnumerable`1<System.Object> args)
-    // Offset: 0x16275BC
+    // Offset: 0x132AB8C
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateArgList(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* args);
     // static public Zenject.TypeValuePair CreateTypePair(T param)
     // Offset: 0xFFFFFFFF
@@ -110,8 +111,8 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<Zenject::TypeValuePair>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // static public System.Boolean PopValueWithType(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgMap, System.Type injectedFieldType, out System.Object value)
-    // Offset: 0x16276EC
-    static bool PopValueWithType(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgMap, System::Type* injectedFieldType, ::Il2CppObject*& value);
+    // Offset: 0x132ACBC
+    static bool PopValueWithType(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgMap, System::Type* injectedFieldType, ByRef<::Il2CppObject*> value);
   }; // Zenject.InjectUtil
   #pragma pack(pop)
 }
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Zenject::InjectUtil::PopValueWithType
 // Il2CppName: PopValueWithType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Type*, ::Il2CppObject*&)>(&Zenject::InjectUtil::PopValueWithType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Type*, ByRef<::Il2CppObject*>)>(&Zenject::InjectUtil::PopValueWithType)> {
   static const MethodInfo* get() {
     static auto* extraArgMap = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     static auto* injectedFieldType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

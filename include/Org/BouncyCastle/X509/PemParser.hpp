@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -72,17 +73,17 @@ namespace Org::BouncyCastle::X509 {
     // Set instance field: private readonly System.String _footer2
     void _set__footer2(::Il2CppString* value);
     // System.Void .ctor(System.String type)
-    // Offset: 0x1F7E284
+    // Offset: 0x1A64144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemParser* New_ctor(::Il2CppString* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::PemParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemParser*, creationType>(type)));
     }
     // private System.String ReadLine(System.IO.Stream inStream)
-    // Offset: 0x1F7E364
+    // Offset: 0x1A64224
     ::Il2CppString* ReadLine(System::IO::Stream* inStream);
     // Org.BouncyCastle.Asn1.Asn1Sequence ReadPemObject(System.IO.Stream inStream)
-    // Offset: 0x1F7E43C
+    // Offset: 0x1A642FC
     Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
   #pragma pack(pop)

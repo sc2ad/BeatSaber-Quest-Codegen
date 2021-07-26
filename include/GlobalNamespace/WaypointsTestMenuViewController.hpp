@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -87,7 +88,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* progressText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFE1B0
+    // [SpaceAttribute] Offset: 0xEAADCC
     // private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x30
@@ -106,14 +107,14 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* characteristics;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE208
+    // [InjectAttribute] Offset: 0xEAAE24
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE218
+    // [InjectAttribute] Offset: 0xEAAE34
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x50
@@ -187,28 +188,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _waitingForLevelFinish
     void _set__waitingForLevelFinish(bool value);
     // private System.Void Start()
-    // Offset: 0x127F1DC
+    // Offset: 0x207315C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x127F300
+    // Offset: 0x2073280
     void OnDestroy();
     // private System.Collections.IEnumerator CheckBeatmaps(System.Collections.Generic.List`1<BeatmapLevelSO> levels)
-    // Offset: 0x127F3EC
+    // Offset: 0x207336C
     System::Collections::IEnumerator* CheckBeatmaps(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* levels);
     // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO data, LevelCompletionResults results)
-    // Offset: 0x127F494
+    // Offset: 0x2073414
     void HandleMainGameSceneDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, GlobalNamespace::LevelCompletionResults* results);
     // private System.Void <Start>b__11_0()
-    // Offset: 0x127F538
+    // Offset: 0x20734B8
     void $Start$b__11_0();
     // private System.Void <Start>b__11_1()
-    // Offset: 0x127F5CC
+    // Offset: 0x207354C
     void $Start$b__11_1();
     // private System.Void <HandleMainGameSceneDidFinish>b__14_0(Zenject.DiContainer container)
-    // Offset: 0x127F61C
+    // Offset: 0x207359C
     void $HandleMainGameSceneDidFinish$b__14_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x127F530
+    // Offset: 0x20734B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

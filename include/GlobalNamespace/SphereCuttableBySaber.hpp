@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CuttableBySaber
 #include "GlobalNamespace/CuttableBySaber.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,25 +57,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _canBeCut
     void _set__canBeCut(bool value);
     // protected System.Void Awake()
-    // Offset: 0x105EE04
+    // Offset: 0x1EC98D8
     void Awake();
     // public override System.Single get_radius()
-    // Offset: 0x105EDA4
+    // Offset: 0x1EC9878
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Boolean get_canBeCut()
-    // Offset: 0x105EDFC
+    // Offset: 0x1EC98D0
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x105EDC0
+    // Offset: 0x1EC9894
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public System.Void .ctor()
-    // Offset: 0x105EE60
+    // Offset: 0x1EC9934
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -88,7 +89,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SphereCuttableBySaber*, creationType>()));
     }
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x105EE3C
+    // Offset: 0x1EC9910
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);

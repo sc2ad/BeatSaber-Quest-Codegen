@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IDifficultyBeatmapSet
 #include "GlobalNamespace/IDifficultyBeatmapSet.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,19 +56,19 @@ namespace GlobalNamespace {
     // Set instance field: private IDifficultyBeatmap[] <difficultyBeatmaps>k__BackingField
     void _set_$difficultyBeatmaps$k__BackingField(::Array<GlobalNamespace::IDifficultyBeatmap*>* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1089C54
+    // Offset: 0x1F0B550
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // private System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x1089C5C
+    // Offset: 0x1F0B558
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x1089C64
+    // Offset: 0x1F0B560
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
     // private System.Void set_difficultyBeatmaps(IDifficultyBeatmap[] value)
-    // Offset: 0x1089C6C
+    // Offset: 0x1F0B568
     void set_difficultyBeatmaps(::Array<GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x1089C74
+    // Offset: 0x1F0B570
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DifficultyBeatmapSet::.ctor");

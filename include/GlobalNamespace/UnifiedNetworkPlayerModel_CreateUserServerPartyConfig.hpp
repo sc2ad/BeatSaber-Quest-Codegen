@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnifiedNetworkPlayerModel
 #include "GlobalNamespace/UnifiedNetworkPlayerModel.hpp"
 // Including type: BaseNetworkPlayerModel/PartyConfig
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.String secret
     void _set_secret(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x127540C
+    // Offset: 0x206938C
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

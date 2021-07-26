@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MockPlayerLobbyPoseGenerator
 #include "GlobalNamespace/MockPlayerLobbyPoseGenerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,14 +53,14 @@ namespace GlobalNamespace {
     // Set instance field: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     void _set__nodePoseSyncStateManager(GlobalNamespace::NodePoseSyncStateManager* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, NodePoseSyncStateManager nodePoseSyncStateManager)
-    // Offset: 0x113D754
+    // Offset: 0x1F6E168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerLobbyPoseGeneratorMirror* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorMirror*, creationType>(multiplayerSessionManager, nodePoseSyncStateManager)));
     }
     // public override System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x113F12C
+    // Offset: 0x1F6FB40
     // Implemented from: MockPlayerLobbyPoseGenerator
     // Base method: System.Void MockPlayerLobbyPoseGenerator::SendPoses(System.Threading.CancellationToken cancellationToken)
     void SendPoses(System::Threading::CancellationToken cancellationToken);

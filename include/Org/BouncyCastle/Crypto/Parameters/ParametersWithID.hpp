@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -43,10 +44,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly System.Byte[] id
     void _set_id(::Array<uint8_t>* value);
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x122C91C
+    // Offset: 0x1036BF4
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Byte[] GetID()
-    // Offset: 0x122C914
+    // Offset: 0x1036BEC
     ::Array<uint8_t>* GetID();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
   #pragma pack(pop)

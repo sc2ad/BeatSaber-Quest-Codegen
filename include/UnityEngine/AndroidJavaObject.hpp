@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
@@ -66,42 +67,42 @@ namespace UnityEngine {
     // Set instance field: UnityEngine.GlobalJavaObjectRef m_jclass
     void _set_m_jclass(UnityEngine::GlobalJavaObjectRef* value);
     // public System.Void .ctor(System.String className, System.String[] args)
-    // Offset: 0x23520B4
+    // Offset: 0x1DD94F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<::Il2CppString*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaObject[] args)
-    // Offset: 0x2352328
+    // Offset: 0x1DD9768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaClass[] args)
-    // Offset: 0x23523EC
+    // Offset: 0x1DD982C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaClass*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaProxy[] args)
-    // Offset: 0x23524B0
+    // Offset: 0x1DD98F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaProxy*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaRunnable[] args)
-    // Offset: 0x2352574
+    // Offset: 0x1DD99B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaRunnable*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, params System.Object[] args)
-    // Offset: 0x2352638
+    // Offset: 0x1DD9A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<::Il2CppObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
@@ -118,17 +119,17 @@ namespace UnityEngine {
       return New_ctor<creationType>(className, {args...});
     }
     // System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x2352CD8
+    // Offset: 0x1DDA118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(System::IntPtr jobject) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(jobject)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2353028
+    // Offset: 0x1DDA468
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x2352678
+    // Offset: 0x1DD9AB8
     void Dispose();
     // public System.Void Call(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
@@ -140,7 +141,7 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, methodName, args);
     }
     // public System.Void Call(System.String methodName, params System.Object[] args)
-    // Offset: 0x23526F4
+    // Offset: 0x1DD9B34
     void Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Call(System.String methodName, params System.Object[] args)
     void Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
@@ -159,7 +160,7 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, methodName, args);
     }
     // public System.Void CallStatic(System.String methodName, params System.Object[] args)
-    // Offset: 0x235280C
+    // Offset: 0x1DD9C4C
     void CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void CallStatic(System.String methodName, params System.Object[] args)
     void CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
@@ -205,10 +206,10 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // public System.IntPtr GetRawObject()
-    // Offset: 0x2352924
+    // Offset: 0x1DD9D64
     System::IntPtr GetRawObject();
     // public System.IntPtr GetRawClass()
-    // Offset: 0x235295C
+    // Offset: 0x1DD9D9C
     System::IntPtr GetRawClass();
     // public ReturnType Call(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
@@ -267,13 +268,13 @@ namespace UnityEngine {
       return CallStatic<ReturnType>(methodName, {args...});
     }
     // protected System.Void DebugPrint(System.String msg)
-    // Offset: 0x2351E3C
+    // Offset: 0x1DD927C
     void DebugPrint(::Il2CppString* msg);
     // protected System.Void DebugPrint(System.String call, System.String methodName, System.String signature, System.Object[] args)
-    // Offset: 0x2352994
+    // Offset: 0x1DD9DD4
     void DebugPrint(::Il2CppString* call, ::Il2CppString* methodName, ::Il2CppString* signature, ::Array<::Il2CppObject*>* args);
     // private System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
-    // Offset: 0x2352178
+    // Offset: 0x1DD95B8
     void _AndroidJavaObject(::Il2CppString* className, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
     void _AndroidJavaObject(::Il2CppString* className, std::initializer_list<::Il2CppObject*> args);
@@ -283,10 +284,10 @@ namespace UnityEngine {
       _AndroidJavaObject(className, {args...});
     }
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x2352E48
+    // Offset: 0x1DDA288
     void Dispose(bool disposing);
     // protected System.Void _Call(System.String methodName, params System.Object[] args)
-    // Offset: 0x23526F8
+    // Offset: 0x1DD9B38
     void _Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void _Call(System.String methodName, params System.Object[] args)
     void _Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
@@ -333,7 +334,7 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // protected System.Void _CallStatic(System.String methodName, params System.Object[] args)
-    // Offset: 0x2352810
+    // Offset: 0x1DD9C50
     void _CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void _CallStatic(System.String methodName, params System.Object[] args)
     void _CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
@@ -380,19 +381,19 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // static UnityEngine.AndroidJavaObject AndroidJavaObjectDeleteLocalRef(System.IntPtr jobject)
-    // Offset: 0x2352EF8
+    // Offset: 0x1DDA338
     static UnityEngine::AndroidJavaObject* AndroidJavaObjectDeleteLocalRef(System::IntPtr jobject);
     // static UnityEngine.AndroidJavaClass AndroidJavaClassDeleteLocalRef(System.IntPtr jclass)
-    // Offset: 0x2352F90
+    // Offset: 0x1DDA3D0
     static UnityEngine::AndroidJavaClass* AndroidJavaClassDeleteLocalRef(System::IntPtr jclass);
     // protected System.IntPtr _GetRawObject()
-    // Offset: 0x2352940
+    // Offset: 0x1DD9D80
     System::IntPtr _GetRawObject();
     // protected System.IntPtr _GetRawClass()
-    // Offset: 0x2352978
+    // Offset: 0x1DD9DB8
     System::IntPtr _GetRawClass();
     // System.Void .ctor()
-    // Offset: 0x2351D68
+    // Offset: 0x1DD91A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -401,7 +402,7 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x2352DD4
+    // Offset: 0x1DDA214
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

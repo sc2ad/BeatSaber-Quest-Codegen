@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.Utils.IAssemblyWrapper
 #include "UnityEngine/TestTools/Utils/IAssemblyWrapper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,10 +56,10 @@ namespace UnityEngine::TestTools::Utils {
     // Set instance field: private readonly System.Reflection.AssemblyName <Name>k__BackingField
     void _set_$Name$k__BackingField(System::Reflection::AssemblyName* value);
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x23B568C
+    // Offset: 0x1E2E674
     System::Reflection::Assembly* get_Assembly();
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0x23B5638
+    // Offset: 0x1E2E620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");

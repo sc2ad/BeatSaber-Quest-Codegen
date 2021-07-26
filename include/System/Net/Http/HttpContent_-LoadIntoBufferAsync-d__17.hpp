@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.HttpContent
 #include "System/Net/Http/HttpContent.hpp"
 // Including type: System.ValueType
@@ -82,10 +83,10 @@ namespace System::Net::Http {
     // Set instance field: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xEDC560
+    // Offset: 0xD70518
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEDC568
+    // Offset: 0xD70520
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpContent/System.Net.Http.<LoadIntoBufferAsync>d__17
   // WARNING Not writing size check since size may be invalid!

@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -72,7 +73,7 @@ namespace TMPro {
     // Set instance field: public System.Int32 characterCount
     void _set_characterCount(int value);
     // public System.String GetWord()
-    // Offset: 0xED5A80
+    // Offset: 0xD6B6C0
     ::Il2CppString* GetWord();
   }; // TMPro.TMP_WordInfo
   #pragma pack(pop)

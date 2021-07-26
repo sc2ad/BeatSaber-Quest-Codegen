@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_TextElement_Legacy
 #include "TMPro/TMP_TextElement_Legacy.hpp"
 // Including type: UnityEngine.Vector2
@@ -83,7 +84,7 @@ namespace TMPro {
     // Set instance field: public UnityEngine.Sprite sprite
     void _set_sprite(UnityEngine::Sprite* value);
     // public System.Void .ctor()
-    // Offset: 0x111385C
+    // Offset: 0x10134DC
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()

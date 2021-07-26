@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ConventionFilterTypesBinder
 #include "Zenject/ConventionFilterTypesBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace Zenject {
     // Set instance field: public System.Type t
     void _set_t(System::Type* value);
     // System.Boolean <InNamespaces>b__1(System.String n)
-    // Offset: 0x13805AC
+    // Offset: 0x112720C
     bool $InNamespaces$b__1(::Il2CppString* n);
     // public System.Void .ctor()
-    // Offset: 0x13805A4
+    // Offset: 0x1127204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

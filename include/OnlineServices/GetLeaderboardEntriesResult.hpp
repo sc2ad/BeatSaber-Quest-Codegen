@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -70,10 +71,10 @@ namespace OnlineServices {
     // Set instance field: public readonly System.Int32 referencePlayerScoreIndex
     void _set_referencePlayerScoreIndex(int value);
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0xFF8A00
+    // Offset: 0x1E4BFB4
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0xECF908
+    // Offset: 0xF7B54C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex)
   }; // OnlineServices.GetLeaderboardEntriesResult

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Resources.ResourceReader
 #include "System/Resources/ResourceReader.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
@@ -77,32 +78,32 @@ namespace System::Resources {
     // Set instance field: private System.Int32 _dataPosition
     void _set__dataPosition(int value);
     // public System.Object get_Key()
-    // Offset: 0x13EC7F0
+    // Offset: 0x1195450
     ::Il2CppObject* get_Key();
     // public System.Object get_Current()
-    // Offset: 0x13EC8C8
+    // Offset: 0x1195528
     ::Il2CppObject* get_Current();
     // System.Int32 get_DataPosition()
-    // Offset: 0x13ECBD8
+    // Offset: 0x1195838
     int get_DataPosition();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x13EC934
+    // Offset: 0x1195594
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Value()
-    // Offset: 0x13ECBE0
+    // Offset: 0x1195840
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Resources.ResourceReader reader)
-    // Offset: 0x13E95E0
+    // Offset: 0x1192240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceReader::ResourceEnumerator* New_ctor(System::Resources::ResourceReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceReader::ResourceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceReader::ResourceEnumerator*, creationType>(reader)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x13EC794
+    // Offset: 0x11953F4
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x13ECCB4
+    // Offset: 0x1195914
     void Reset();
   }; // System.Resources.ResourceReader/System.Resources.ResourceEnumerator
   #pragma pack(pop)

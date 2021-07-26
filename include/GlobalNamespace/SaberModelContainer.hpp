@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,7 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberModelController* saberModelControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberModelController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE097CC
+    // [InjectAttribute] Offset: 0xEB63E8
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x28
@@ -69,10 +70,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly Zenject.DiContainer _container
     void _set__container(Zenject::DiContainer* value);
     // protected System.Void Start()
-    // Offset: 0x114B9A4
+    // Offset: 0x1F7C3B8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x114BCE0
+    // Offset: 0x1F7C6F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

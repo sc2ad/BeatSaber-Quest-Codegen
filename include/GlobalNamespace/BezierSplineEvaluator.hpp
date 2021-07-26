@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BezierCurve
 #include "GlobalNamespace/BezierCurve.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,41 +74,41 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _currentSegmentIndex
     void _set__currentSegmentIndex(int value);
     // public System.Void .ctor(BezierSpline spline)
-    // Offset: 0x109A024
+    // Offset: 0x1EF24CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSplineEvaluator* New_ctor(GlobalNamespace::BezierSpline* spline) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSplineEvaluator*, creationType>(spline)));
     }
     // public UnityEngine.Vector3 EvaluatePosition(System.Single time)
-    // Offset: 0x1090C78
+    // Offset: 0x1EE9120
     UnityEngine::Vector3 EvaluatePosition(float time);
     // private UnityEngine.Vector3 Evaluate(System.Single t)
-    // Offset: 0x109B3A8
+    // Offset: 0x1EF3850
     UnityEngine::Vector3 Evaluate(float t);
     // private UnityEngine.Vector3 EvaluateFirstDerivation(System.Single t)
-    // Offset: 0x109B5E4
+    // Offset: 0x1EF3A8C
     UnityEngine::Vector3 EvaluateFirstDerivation(float t);
     // private UnityEngine.Vector3 EvaluateSecondDerivation(System.Single t)
-    // Offset: 0x109B838
+    // Offset: 0x1EF3CE0
     UnityEngine::Vector3 EvaluateSecondDerivation(float t);
     // public System.Single OffsetSegmentAndGetT(System.Single time)
-    // Offset: 0x109B294
+    // Offset: 0x1EF373C
     float OffsetSegmentAndGetT(float time);
     // private System.Single GetTForSegment(System.Int32 segmentIndex, System.Single time)
-    // Offset: 0x109BBC0
+    // Offset: 0x1EF4068
     float GetTForSegment(int segmentIndex, float time);
     // public System.Void GetTimeValuesForSegment(System.Int32 segmentIndex, out System.Single t0Value, out System.Single t1Value)
-    // Offset: 0x109C1D0
-    void GetTimeValuesForSegment(int segmentIndex, float& t0Value, float& t1Value);
+    // Offset: 0x1EF4678
+    void GetTimeValuesForSegment(int segmentIndex, ByRef<float> t0Value, ByRef<float> t1Value);
     // private System.Void OffsetStartIndexToDistance(System.Single time)
-    // Offset: 0x109BA7C
+    // Offset: 0x1EF3F24
     void OffsetStartIndexToDistance(float time);
     // static private System.Single CubeRoot(System.Single x)
-    // Offset: 0x109C2AC
+    // Offset: 0x1EF4754
     static float CubeRoot(float x);
     // static private BezierSplineEvaluator/CubicSolveResult SolveCubic(System.Single a, System.Single b, System.Single c, System.Single d)
-    // Offset: 0x109BD30
+    // Offset: 0x1EF41D8
     static GlobalNamespace::BezierSplineEvaluator::CubicSolveResult SolveCubic(float a, float b, float c, float d);
   }; // BezierSplineEvaluator
   #pragma pack(pop)
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::GetTimeValuesForSegment
 // Il2CppName: GetTimeValuesForSegment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSplineEvaluator::*)(int, float&, float&)>(&GlobalNamespace::BezierSplineEvaluator::GetTimeValuesForSegment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSplineEvaluator::*)(int, ByRef<float>, ByRef<float>)>(&GlobalNamespace::BezierSplineEvaluator::GetTimeValuesForSegment)> {
   static const MethodInfo* get() {
     static auto* segmentIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* t0Value = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;

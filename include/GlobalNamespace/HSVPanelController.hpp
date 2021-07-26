@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -88,37 +89,37 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector3 _hsvColor
     void _set__hsvColor(UnityEngine::Vector3 value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x10E81F0
+    // Offset: 0x1F3A204
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10E8200
+    // Offset: 0x1F3A214
     void set_color(UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x10E80A8
+    // Offset: 0x1F3A0BC
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x10E814C
+    // Offset: 0x1F3A160
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // protected System.Void Awake()
-    // Offset: 0x10E82C8
+    // Offset: 0x1F3A2DC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E83A8
+    // Offset: 0x1F3A3BC
     void OnDestroy();
     // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x10E8500
+    // Offset: 0x1F3A514
     void HandleColorSaturationOrValueDidChange(GlobalNamespace::ColorSaturationValueSlider* slider, UnityEngine::Vector2 colorSaturationAndValue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x10E8598
+    // Offset: 0x1F3A5AC
     void HandleColorHueDidChange(GlobalNamespace::ColorHueSlider* slider, float hue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x10E8260
+    // Offset: 0x1F3A274
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x10E823C
+    // Offset: 0x1F3A250
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x10E8628
+    // Offset: 0x1F3A63C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: INoteDebrisDidFinishEvent
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     float moveSpeedMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE04438
+    // [InjectAttribute] Offset: 0xEB1054
     // private readonly NoteDebris/Pool _noteDebrisPool
     // Size: 0x8
     // Offset: 0x28
@@ -113,13 +114,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly NoteDebris/Pool _noteDebrisPool
     void _set__noteDebrisPool(GlobalNamespace::NoteDebris::Pool* value);
     // public System.Void SpawnDebris(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single saberSpeed, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, ColorType colorType, System.Single timeToNextColorNote, UnityEngine.Vector3 moveVec)
-    // Offset: 0x11E38B0
+    // Offset: 0x2012208
     void SpawnDebris(UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float saberSpeed, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 noteScale, GlobalNamespace::ColorType colorType, float timeToNextColorNote, UnityEngine::Vector3 moveVec);
     // public System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
-    // Offset: 0x11E4154
+    // Offset: 0x2012AAC
     void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);
     // public System.Void .ctor()
-    // Offset: 0x11E4238
+    // Offset: 0x2012B90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE
@@ -165,19 +166,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: private System.Boolean NIsealedStatusChecked
     void _set_NIsealedStatusChecked(bool value);
     // public System.Boolean get_IsSealed()
-    // Offset: 0x15DCEB4
+    // Offset: 0x12E0484
     bool get_IsSealed();
     // public System.String get_NIname()
-    // Offset: 0x15DCF0C
+    // Offset: 0x12E04DC
     ::Il2CppString* get_NIname();
     // public System.Void set_NIname(System.String value)
-    // Offset: 0x15DCF50
+    // Offset: 0x12E0520
     void set_NIname(::Il2CppString* value);
     // System.Void Init()
-    // Offset: 0x15DCE94
+    // Offset: 0x12E0464
     void Init();
     // System.Void .ctor()
-    // Offset: 0x15DCE8C
+    // Offset: 0x12E045C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

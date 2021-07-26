@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -39,14 +40,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerHeadAndObstacleInteraction : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xE093CC
+    // [InjectAttribute] Offset: 0xEB5FE8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE093DC
+    // [InjectAttribute] Offset: 0xEB5FF8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x18
@@ -86,13 +87,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.List`1<ObstacleController> _intersectingObstacles
     void _set__intersectingObstacles(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
-    // Offset: 0x11048AC
+    // Offset: 0x1F568C0
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
     // private System.Void GetObstaclesContainingPoint(UnityEngine.Vector3 worldPos, System.Collections.Generic.List`1<ObstacleController> obstacleControllers)
-    // Offset: 0x110491C
+    // Offset: 0x1F56930
     void GetObstaclesContainingPoint(UnityEngine::Vector3 worldPos, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* obstacleControllers);
     // public System.Void .ctor()
-    // Offset: 0x1104ADC
+    // Offset: 0x1F56AF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

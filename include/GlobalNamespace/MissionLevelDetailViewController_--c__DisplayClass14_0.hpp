@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionLevelDetailViewController
 #include "GlobalNamespace/MissionLevelDetailViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -62,13 +63,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     void _set_modifierParamsList(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* value);
     // System.Void <RefreshContent>b__0(System.Int32 idx, ObjectiveListItem objectiveListItem)
-    // Offset: 0x11316D8
+    // Offset: 0x1F620EC
     void $RefreshContent$b__0(int idx, GlobalNamespace::ObjectiveListItem* objectiveListItem);
     // System.Void <RefreshContent>b__1(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0x11318B4
+    // Offset: 0x1F622C8
     void $RefreshContent$b__1(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
-    // Offset: 0x1131664
+    // Offset: 0x1F62078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

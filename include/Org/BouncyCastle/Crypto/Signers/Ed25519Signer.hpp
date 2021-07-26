@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ISigner
 #include "Org/BouncyCastle/Crypto/ISigner.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -87,19 +88,19 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters publicKey
     void _set_publicKey(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1231684
+    // Offset: 0x103B95C
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x123173C
+    // Offset: 0x103BA14
     void BlockUpdate(::Array<uint8_t>* buf, int off, int len);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x1231760
+    // Offset: 0x103BA38
     ::Array<uint8_t>* GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x1231954
+    // Offset: 0x103BC2C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1231614
+    // Offset: 0x103B8EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -28,40 +29,40 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: Numerics
     Numerics() noexcept {}
     // static public System.Boolean IsNumericType(System.Object obj)
-    // Offset: 0x171C5BC
+    // Offset: 0x141FC78
     static bool IsNumericType(::Il2CppObject* obj);
     // static public System.Boolean IsFloatingPointNumeric(System.Object obj)
-    // Offset: 0x171ED94
+    // Offset: 0x1422450
     static bool IsFloatingPointNumeric(::Il2CppObject* obj);
     // static public System.Boolean IsFixedPointNumeric(System.Object obj)
-    // Offset: 0x171EE0C
+    // Offset: 0x14224C8
     static bool IsFixedPointNumeric(::Il2CppObject* obj);
     // static public System.Boolean AreEqual(System.Object expected, System.Object actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171DBC4
-    static bool AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual, NUnit::Framework::Constraints::Tolerance*& tolerance);
+    // Offset: 0x1421280
+    static bool AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual, ByRef<NUnit::Framework::Constraints::Tolerance*> tolerance);
     // static private System.Boolean AreEqual(System.Double expected, System.Double actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171EF24
-    static bool AreEqual(double expected, double actual, NUnit::Framework::Constraints::Tolerance*& tolerance);
+    // Offset: 0x14225E0
+    static bool AreEqual(double expected, double actual, ByRef<NUnit::Framework::Constraints::Tolerance*> tolerance);
     // static private System.Boolean AreEqual(System.Single expected, System.Single actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171F284
-    static bool AreEqual(float expected, float actual, NUnit::Framework::Constraints::Tolerance*& tolerance);
+    // Offset: 0x1422940
+    static bool AreEqual(float expected, float actual, ByRef<NUnit::Framework::Constraints::Tolerance*> tolerance);
     // static private System.Boolean AreEqual(System.Decimal expected, System.Decimal actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171F578
+    // Offset: 0x1422C34
     static bool AreEqual(System::Decimal expected, System::Decimal actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.UInt64 expected, System.UInt64 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171F880
+    // Offset: 0x1422F3C
     static bool AreEqual(uint64_t expected, uint64_t actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.Int64 expected, System.Int64 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171FA44
+    // Offset: 0x1423100
     static bool AreEqual(int64_t expected, int64_t actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.UInt32 expected, System.UInt32 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171FC0C
+    // Offset: 0x14232C8
     static bool AreEqual(uint expected, uint actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.Int32 expected, System.Int32 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x171FDD0
+    // Offset: 0x142348C
     static bool AreEqual(int expected, int actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // static public System.Int32 Compare(System.Object expected, System.Object actual)
-    // Offset: 0x171C5F4
+    // Offset: 0x141FCB0
     static int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);
   }; // NUnit.Framework.Constraints.Numerics
   #pragma pack(pop)
@@ -99,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, ByRef<NUnit::Framework::Constraints::Tolerance*>)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -110,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, ByRef<NUnit::Framework::Constraints::Tolerance*>)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -121,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(do
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, ByRef<NUnit::Framework::Constraints::Tolerance*>)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

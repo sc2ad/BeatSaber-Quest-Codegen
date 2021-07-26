@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SingleFixedSceneScenesTransitionSetupDataSO
 #include "GlobalNamespace/SingleFixedSceneScenesTransitionSetupDataSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,10 +30,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningScenesTransitionSetupDataSO
     HealthWarningScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init(HealthWarningSceneSetupData healthWarningSceneSetupData)
-    // Offset: 0x10EAC40
+    // Offset: 0x1F3CC54
     void Init(GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0x10EAFB0
+    // Offset: 0x1F3CFC4
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

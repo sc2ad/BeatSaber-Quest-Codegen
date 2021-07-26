@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDEA0B4
+    // [DescriptionAttribute] Offset: 0xE97CD0
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static Oculus::Platform::RoomMembershipLockStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Unknown
     static void _set_Unknown(Oculus::Platform::RoomMembershipLockStatus value);
-    // [DescriptionAttribute] Offset: 0xDEA0EC
+    // [DescriptionAttribute] Offset: 0xE97D08
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static constexpr const int Lock = 1;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static Oculus::Platform::RoomMembershipLockStatus _get_Lock();
     // Set static field: static public Oculus.Platform.RoomMembershipLockStatus Lock
     static void _set_Lock(Oculus::Platform::RoomMembershipLockStatus value);
-    // [DescriptionAttribute] Offset: 0xDEA124
+    // [DescriptionAttribute] Offset: 0xE97D40
     // static field const value: static public Oculus.Platform.RoomMembershipLockStatus Unlock
     static constexpr const int Unlock = 2;
     // Get static field: static public Oculus.Platform.RoomMembershipLockStatus Unlock

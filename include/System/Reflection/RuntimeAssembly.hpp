@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.Assembly
 #include "System/Reflection/Assembly.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,13 +46,13 @@ namespace System::Reflection {
     // Creating value type constructor for type: RuntimeAssembly
     RuntimeAssembly() noexcept {}
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1CB4D0C
-    static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
+    // Offset: 0x1851AAC
+    static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName an, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1CB4DA4
-    static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(System::Reflection::AssemblyName* an, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
+    // Offset: 0x1851B44
+    static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(System::Reflection::AssemblyName* an, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);
     // protected System.Void .ctor()
-    // Offset: 0x1CAF4EC
+    // Offset: 0x184C28C
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -61,12 +62,12 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeAssembly*, creationType>()));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1CB4C5C
+    // Offset: 0x18519FC
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.AssemblyName GetName(System.Boolean copiedName)
-    // Offset: 0x1CB4DD8
+    // Offset: 0x1851B78
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.AssemblyName Assembly::GetName(System.Boolean copiedName)
     System::Reflection::AssemblyName* GetName(bool copiedName);
@@ -78,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection"
 // Writing MetadataGetter for method: System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal
 // Il2CppName: LoadWithPartialNameInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (*)(::Il2CppString*, System::Security::Policy::Evidence*, System::Threading::StackCrawlMark&)>(&System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (*)(::Il2CppString*, System::Security::Policy::Evidence*, ByRef<System::Threading::StackCrawlMark>)>(&System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal)> {
   static const MethodInfo* get() {
     static auto* partialName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* securityEvidence = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal
 // Il2CppName: LoadWithPartialNameInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (*)(System::Reflection::AssemblyName*, System::Security::Policy::Evidence*, System::Threading::StackCrawlMark&)>(&System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (*)(System::Reflection::AssemblyName*, System::Security::Policy::Evidence*, ByRef<System::Threading::StackCrawlMark>)>(&System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal)> {
   static const MethodInfo* get() {
     static auto* an = &::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName")->byval_arg;
     static auto* securityEvidence = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;

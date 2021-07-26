@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
     ::Il2CppString* folder;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xDCFC90
+    // [NullAllowed] Offset: 0xE7C8AC
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -290,28 +291,28 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.RenderTexture _cameraRenderTexture
     void _set__cameraRenderTexture(UnityEngine::RenderTexture* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1222114
+    // Offset: 0x204EA6C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1222298
+    // Offset: 0x204EBF0
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x122236C
+    // Offset: 0x204ECC4
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x12224D0
+    // Offset: 0x204EE28
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x122243C
+    // Offset: 0x204ED94
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x122260C
+    // Offset: 0x204EF64
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x12224E8
+    // Offset: 0x204EE40
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x122271C
+    // Offset: 0x204F074
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

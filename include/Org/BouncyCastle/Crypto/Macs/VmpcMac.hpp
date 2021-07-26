@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IMac
 #include "Org/BouncyCastle/Crypto/IMac.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -147,28 +148,28 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Set instance field: private System.Byte x4
     void _set_x4(uint8_t value);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18C1680
+    // Offset: 0x1592A84
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Int32 GetMacSize()
-    // Offset: 0x18C1B00
+    // Offset: 0x1592F04
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18C1B08
+    // Offset: 0x1592F0C
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void initKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x18C1C94
+    // Offset: 0x1593098
     void initKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void Reset()
-    // Offset: 0x18C1EC0
+    // Offset: 0x15932C4
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x18C1F6C
+    // Offset: 0x1593370
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x18C21D8
+    // Offset: 0x15935DC
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Void .ctor()
-    // Offset: 0x18C2300
+    // Offset: 0x1593704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

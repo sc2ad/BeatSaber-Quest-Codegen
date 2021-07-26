@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.CustomYieldInstruction
 #include "UnityEngine/CustomYieldInstruction.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -19,7 +20,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class WaitForSecondsRealtime : public UnityEngine::CustomYieldInstruction {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xD813DC
+    // [DebuggerBrowsableAttribute] Offset: 0xE2DFF8
     // private System.Single <waitTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -43,20 +44,20 @@ namespace UnityEngine {
     // Set instance field: private System.Single m_WaitUntilTime
     void _set_m_WaitUntilTime(float value);
     // public System.Single get_waitTime()
-    // Offset: 0x230A150
+    // Offset: 0x1DA2C5C
     float get_waitTime();
     // public System.Void set_waitTime(System.Single value)
-    // Offset: 0x230A158
+    // Offset: 0x1DA2C64
     void set_waitTime(float value);
     // public System.Void .ctor(System.Single time)
-    // Offset: 0x230A1F0
+    // Offset: 0x1DA2CFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitForSecondsRealtime* New_ctor(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitForSecondsRealtime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitForSecondsRealtime*, creationType>(time)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x230A160
+    // Offset: 0x1DA2C6C
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

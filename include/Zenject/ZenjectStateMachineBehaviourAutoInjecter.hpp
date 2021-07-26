@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,13 +57,13 @@ namespace Zenject {
     // Set instance field: private UnityEngine.Animator _animator
     void _set__animator(UnityEngine::Animator* value);
     // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x2393538
+    // Offset: 0x1E0B520
     void Construct(Zenject::DiContainer* container);
     // public System.Void Start()
-    // Offset: 0x23935A4
+    // Offset: 0x1E0B58C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x2393698
+    // Offset: 0x1E0B680
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

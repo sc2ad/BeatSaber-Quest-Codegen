@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.HTTPLeaderboardsOathHelper
 #include "OnlineServices/API/HTTPLeaderboardsOathHelper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,10 +57,10 @@ namespace OnlineServices::API {
     // Set instance field: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1
     void _set_CS$$$8__locals1(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* value);
     // System.Void <SendWebRequestAsync>b__0(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0xFF67E0
+    // Offset: 0x1E49D94
     void $SendWebRequestAsync$b__0(UnityEngine::AsyncOperation* asyncOperation2);
     // public System.Void .ctor()
-    // Offset: 0xFF67D8
+    // Offset: 0x1E49D8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

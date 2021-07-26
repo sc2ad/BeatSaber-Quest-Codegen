@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ConnectedPlayerManager
 #include "GlobalNamespace/ConnectedPlayerManager.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -69,22 +70,22 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 sortIndex
     void _set_sortIndex(int value);
     // static public PacketPool`1<ConnectedPlayerManager/PlayerSortOrderPacket> get_pool()
-    // Offset: 0x12BD584
+    // Offset: 0x1092CC0
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12C08B4
+    // Offset: 0x1095FF0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12C08F8
+    // Offset: 0x1096034
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x12BFE44
+    // Offset: 0x1095580
     void Release();
     // public ConnectedPlayerManager/PlayerSortOrderPacket Init(System.String userId, System.Int32 sortIndex)
-    // Offset: 0x12C0388
+    // Offset: 0x1095AC4
     GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::Il2CppString* userId, int sortIndex);
     // public System.Void .ctor()
-    // Offset: 0x12C0940
+    // Offset: 0x109607C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

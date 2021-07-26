@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BGNetDebug/ILogger
 #include "GlobalNamespace/BGNetDebug_ILogger.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly Microsoft.Extensions.Logging.ILogger[] _loggers
     void _set__loggers(::Array<Microsoft::Extensions::Logging::ILogger*>* value);
     // public System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)
-    // Offset: 0x12B8F84
+    // Offset: 0x108E6C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BGNetLogger* New_ctor(::Array<Microsoft::Extensions::Logging::ILogger*>* loggers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BGNetLogger::.ctor");
@@ -65,13 +66,13 @@ namespace GlobalNamespace {
       return New_ctor<creationType>({loggers...});
     }
     // public System.Void LogError(System.String message)
-    // Offset: 0x12B8FB0
+    // Offset: 0x108E6EC
     void LogError(::Il2CppString* message);
     // public System.Void LogInfo(System.String message)
-    // Offset: 0x12B90B4
+    // Offset: 0x108E7F0
     void LogInfo(::Il2CppString* message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x12B91BC
+    // Offset: 0x108E8F8
     void LogWarning(::Il2CppString* message);
   }; // BGNetLogger
   #pragma pack(pop)

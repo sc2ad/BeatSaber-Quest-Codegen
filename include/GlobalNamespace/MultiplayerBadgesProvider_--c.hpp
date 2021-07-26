@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerBadgesProvider
 #include "GlobalNamespace/MultiplayerBadgesProvider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,16 +49,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Int32> <>9__7_1
     static void _set_$$9__7_1(System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x119E458
+    // Offset: 0x1FB5EC4
     static void _cctor();
     // System.Boolean <SelectBadgesAndPutThemIntoResults>b__7_0(MultiplayerPlayerResultsData result)
-    // Offset: 0x119E4C4
+    // Offset: 0x1FB5F30
     bool $SelectBadgesAndPutThemIntoResults$b__7_0(GlobalNamespace::MultiplayerPlayerResultsData* result);
     // System.Int32 <SelectBadgesAndPutThemIntoResults>b__7_1(MultiplayerPlayerResultsData p)
-    // Offset: 0x119E4E8
+    // Offset: 0x1FB5F54
     int $SelectBadgesAndPutThemIntoResults$b__7_1(GlobalNamespace::MultiplayerPlayerResultsData* p);
     // public System.Void .ctor()
-    // Offset: 0x119E4BC
+    // Offset: 0x1FB5F28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

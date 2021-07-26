@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,19 +54,19 @@ namespace GlobalNamespace {
     // Set instance field: private CutoutAnimateEffect _cutoutAnimateEffect
     void _set__cutoutAnimateEffect(GlobalNamespace::CutoutAnimateEffect* value);
     // protected System.Void Awake()
-    // Offset: 0x11EA1CC
+    // Offset: 0x2018B24
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11EA2A4
+    // Offset: 0x2018BFC
     void OnDestroy();
     // private System.Void HandleObstacleDidInitEvent(ObstacleControllerBase obstacleController)
-    // Offset: 0x11EA3C0
+    // Offset: 0x2018D18
     void HandleObstacleDidInitEvent(GlobalNamespace::ObstacleControllerBase* obstacleController);
     // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x11EA3DC
+    // Offset: 0x2018D34
     void HandleObcstacleDidStartDissolvingEvent(GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x11EA404
+    // Offset: 0x2018D5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

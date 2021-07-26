@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,13 +56,13 @@ namespace GlobalNamespace {
     // Set instance field: private LocalizedTextAsset/TextInfo _lastTextInfo
     void _set__lastTextInfo(GlobalNamespace::LocalizedTextAsset::TextInfo* value);
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x1178694
+    // Offset: 0x1FA80A8
     ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x117869C
+    // Offset: 0x1FA80B0
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x117899C
+    // Offset: 0x1FA83B0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

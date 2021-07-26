@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.CryptoException
 #include "Org/BouncyCastle/Crypto/CryptoException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: DataLengthException
     DataLengthException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1D02A68
+    // Offset: 0x18881FC
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -33,7 +34,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<DataLengthException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1D01B94
+    // Offset: 0x1887328
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

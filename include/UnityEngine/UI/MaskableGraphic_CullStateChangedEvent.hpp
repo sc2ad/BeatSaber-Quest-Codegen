@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.MaskableGraphic
 #include "UnityEngine/UI/MaskableGraphic.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -23,7 +24,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: CullStateChangedEvent
     CullStateChangedEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1982948
+    // Offset: 0x1654D4C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

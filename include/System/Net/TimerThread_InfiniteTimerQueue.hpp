@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.TimerThread
 #include "System/Net/TimerThread.hpp"
 // Including type: System.Net.TimerThread/System.Net.Queue
@@ -24,7 +25,7 @@ namespace System::Net {
     // Creating value type constructor for type: InfiniteTimerQueue
     InfiniteTimerQueue() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x158DBA4
+    // Offset: 0x1291174
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

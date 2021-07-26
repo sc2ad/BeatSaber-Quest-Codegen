@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride
 #include "GlobalNamespace/MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.Generic.List`1<System.String> packIds
     void _set_packIds(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.Void .ctor()
-    // Offset: 0x117F530
+    // Offset: 0x1FAEF44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

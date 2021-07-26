@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -42,14 +43,14 @@ namespace Zenject {
     // Set instance field: private Zenject.BindInfo _bindInfo
     void _set__bindInfo(Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x162545C
+    // Offset: 0x1328A2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IdBinder* New_ctor(Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IdBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IdBinder*, creationType>(bindInfo)));
     }
     // public System.Void WithId(System.Object identifier)
-    // Offset: 0x1625488
+    // Offset: 0x1328A58
     void WithId(::Il2CppObject* identifier);
   }; // Zenject.IdBinder
   #pragma pack(pop)

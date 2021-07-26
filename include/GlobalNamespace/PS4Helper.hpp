@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentSingleton`1
 #include "GlobalNamespace/PersistentSingleton_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,22 +61,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _backgroundExecution
     void _set__backgroundExecution(bool value);
     // public System.Void add_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0xFFD0A0
+    // Offset: 0x1E50654
     void add_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0xFFD144
+    // Offset: 0x1E506F8
     void remove_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void add_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0xFFD1E8
+    // Offset: 0x1E5079C
     void add_didGoToForegroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0xFFD28C
+    // Offset: 0x1E50840
     void remove_didGoToForegroundExecutionEvent(System::Action* value);
     // protected System.Void Update()
-    // Offset: 0xFFD330
+    // Offset: 0x1E508E4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xFFD354
+    // Offset: 0x1E50908
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

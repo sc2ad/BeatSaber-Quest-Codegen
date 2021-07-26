@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject
 #include "RootMotion/FinalIK/InteractionObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,14 +34,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::Message : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF7604
+    // [TooltipAttribute] Offset: 0xEA4220
     // public System.String function
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* function;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF763C
+    // [TooltipAttribute] Offset: 0xEA4258
     // public UnityEngine.GameObject recipient
     // Size: 0x8
     // Offset: 0x18
@@ -64,10 +65,10 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.GameObject recipient
     void _set_recipient(UnityEngine::GameObject* value);
     // public System.Void Send(UnityEngine.Transform t)
-    // Offset: 0x1E36AE4
+    // Offset: 0x1997D78
     void Send(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1E36BDC
+    // Offset: 0x1997E70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

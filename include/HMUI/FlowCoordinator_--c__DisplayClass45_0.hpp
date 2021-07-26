@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.FlowCoordinator
 #include "HMUI/FlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -77,10 +78,10 @@ namespace HMUI {
     // Set instance field: public HMUI.NavigationController navigationController
     void _set_navigationController(HMUI::NavigationController* value);
     // System.Void <PopViewControllerFromNavigationController>b__0()
-    // Offset: 0x130B574
+    // Offset: 0x10CD4E4
     void $PopViewControllerFromNavigationController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x130A974
+    // Offset: 0x10CC8E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

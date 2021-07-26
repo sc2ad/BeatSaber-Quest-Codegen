@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -32,35 +33,35 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyDataModelsManager : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xE01CBC
+    // [InjectAttribute] Offset: 0xEAE8D8
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE01CCC
+    // [InjectAttribute] Offset: 0xEAE8E8
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE01CDC
+    // [InjectAttribute] Offset: 0xEAE8F8
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE01CEC
+    // [InjectAttribute] Offset: 0xEAE908
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE01CFC
+    // [InjectAttribute] Offset: 0xEAE918
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x30
@@ -90,13 +91,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     void _set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel* value);
     // public System.Void Activate()
-    // Offset: 0x11BA850
+    // Offset: 0x1FE9294
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x11BAB60
+    // Offset: 0x1FE95A4
     void Deactivate();
     // public System.Void .ctor()
-    // Offset: 0x11BADFC
+    // Offset: 0x1FE9840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

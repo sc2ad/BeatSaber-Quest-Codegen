@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatLineManager* beatLineManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLineManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0AC28
+    // [SpaceAttribute] Offset: 0xEB7844
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x28
@@ -92,28 +93,28 @@ namespace GlobalNamespace {
     GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissedNoteEffectSpawner*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0ACB0
+    // [SpaceAttribute] Offset: 0xEB78CC
     // private EffectPoolsManualInstaller _effectPoolsManualInstaller
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0ACE8
+    // [SpaceAttribute] Offset: 0xEB7904
     // private BoolSO _screenDisplacementEffectsEnabled
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::BoolSO* screenDisplacementEffectsEnabled;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0AD20
+    // [InjectAttribute] Offset: 0xEB793C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0AD30
+    // [InjectAttribute] Offset: 0xEB794C
     // private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x70
@@ -167,7 +168,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     void _set__perceivedLoudnessPerLevelModel(DataModels::Levels::PerceivedLoudnessPerLevelModel* value);
     // public System.Void .ctor()
-    // Offset: 0x10B0B50
+    // Offset: 0x1F1DAC0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -182,7 +183,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x10AF438
+    // Offset: 0x1F1C3A8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

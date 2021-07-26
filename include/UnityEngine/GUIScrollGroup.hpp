@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.GUILayoutGroup
 #include "UnityEngine/GUILayoutGroup.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -151,7 +152,7 @@ namespace UnityEngine {
     // Set instance field: public UnityEngine.GUIStyle verticalScrollbar
     void _set_verticalScrollbar(UnityEngine::GUIStyle* value);
     // public System.Void .ctor()
-    // Offset: 0x1AA9CD0
+    // Offset: 0x1721520
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -161,22 +162,22 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUIScrollGroup*, creationType>()));
     }
     // public override System.Void CalcWidth()
-    // Offset: 0x1AA9CDC
+    // Offset: 0x172152C
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1AA9D6C
+    // Offset: 0x17215BC
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x1AA9E9C
+    // Offset: 0x17216EC
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1AA9FA4
+    // Offset: 0x17217F4
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);

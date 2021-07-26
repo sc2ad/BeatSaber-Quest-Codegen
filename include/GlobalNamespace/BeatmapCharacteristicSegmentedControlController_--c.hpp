@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapCharacteristicSegmentedControlController
 #include "GlobalNamespace/BeatmapCharacteristicSegmentedControlController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<IDifficultyBeatmapSet> <>9__10_0
     static void _set_$$9__10_0(System::Comparison_1<GlobalNamespace::IDifficultyBeatmapSet*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x118BA6C
+    // Offset: 0x1FD15A4
     static void _cctor();
     // System.Int32 <SetData>b__10_0(IDifficultyBeatmapSet a, IDifficultyBeatmapSet b)
-    // Offset: 0x118BAD8
+    // Offset: 0x1FD1610
     int $SetData$b__10_0(GlobalNamespace::IDifficultyBeatmapSet* a, GlobalNamespace::IDifficultyBeatmapSet* b);
     // public System.Void .ctor()
-    // Offset: 0x118BAD0
+    // Offset: 0x1FD1608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

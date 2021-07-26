@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,7 +42,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScalePart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE03E98
+    // [SpaceAttribute] Offset: 0xEB0AB4
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -71,22 +72,22 @@ namespace GlobalNamespace {
     // Set instance field: private ObstacleController _obstacleController
     void _set__obstacleController(GlobalNamespace::ObstacleController* value);
     // protected System.Void Awake()
-    // Offset: 0x11EBCAC
+    // Offset: 0x201A604
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11EBE90
+    // Offset: 0x201A7E8
     void OnDestroy();
     // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x11EBD48
+    // Offset: 0x201A6A0
     void UpdateScale(float progress);
     // private System.Void HandleObstacleControllerDidUpdateProgress(ObstacleController obstacleController, System.Single time)
-    // Offset: 0x11EBFB0
+    // Offset: 0x201A908
     void HandleObstacleControllerDidUpdateProgress(GlobalNamespace::ObstacleController* obstacleController, float time);
     // private System.Void HandleObstacleControllerDidInit(ObstacleControllerBase obstacleController)
-    // Offset: 0x11EC054
+    // Offset: 0x201A9AC
     void HandleObstacleControllerDidInit(GlobalNamespace::ObstacleControllerBase* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x11EC128
+    // Offset: 0x201AA80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

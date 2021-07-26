@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Activation.IActivator
 #include "System/Runtime/Remoting/Activation/IActivator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,17 +56,17 @@ namespace System::Runtime::Remoting::Activation {
     // Set instance field: private System.Runtime.Remoting.Activation.IActivator _next
     void _set__next(System::Runtime::Remoting::Activation::IActivator* value);
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x13F4948
+    // Offset: 0x119D5A8
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Void .ctor(System.String activationUrl, System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x13F4368
+    // Offset: 0x119CFC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppDomainLevelActivator* New_ctor(::Il2CppString* activationUrl, System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::AppDomainLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainLevelActivator*, creationType>(activationUrl, next)));
     }
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x13F4950
+    // Offset: 0x119D5B0
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.AppDomainLevelActivator
   #pragma pack(pop)

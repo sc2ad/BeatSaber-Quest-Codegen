@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,13 +50,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Diagnostics.Stopwatch _stopwatch
     void _set__stopwatch(System::Diagnostics::Stopwatch* value);
     // public System.Double get_elapsedTime()
-    // Offset: 0x12B87C8
+    // Offset: 0x108DF04
     double get_elapsedTime();
     // protected System.Boolean get_hasTimedOut()
-    // Offset: 0x12B885C
+    // Offset: 0x108DF98
     bool get_hasTimedOut();
     // protected System.Void .ctor(System.Int32 timeoutMs)
-    // Offset: 0x12B8898
+    // Offset: 0x108DFD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncComputeOperation* New_ctor(int timeoutMs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation::.ctor");

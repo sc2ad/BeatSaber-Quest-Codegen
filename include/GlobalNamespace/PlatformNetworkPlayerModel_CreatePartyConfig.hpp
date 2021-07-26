@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlatformNetworkPlayerModel
 #include "GlobalNamespace/PlatformNetworkPlayerModel.hpp"
 // Including type: BaseNetworkPlayerModel/PartyConfig
@@ -30,7 +31,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::PlatformNetworkPlayerModel*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x10FEFD8
+    // Offset: 0x1F50FEC
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

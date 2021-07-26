@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.Initialization.InitializationOperation
 #include "UnityEngine/AddressableAssets/Initialization/InitializationOperation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static public System.Func`2<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13CA344
+    // Offset: 0x1172FA4
     static void _cctor();
     // System.Boolean <Execute>b__13_0(UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider rp)
-    // Offset: 0x13CA3B0
+    // Offset: 0x1173010
     bool $Execute$b__13_0(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
     // public System.Void .ctor()
-    // Offset: 0x13CA3A8
+    // Offset: 0x1173008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

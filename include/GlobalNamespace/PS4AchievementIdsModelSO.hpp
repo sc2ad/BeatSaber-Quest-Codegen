@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -70,16 +71,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
     void _set__trophyIdToAchievementId(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
-    // Offset: 0xFFC344
+    // Offset: 0x1E4F8F8
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
     // public System.Boolean GetTrophyId(System.String achievementId, out System.Int32 trophyId)
-    // Offset: 0xFFC50C
-    bool GetTrophyId(::Il2CppString* achievementId, int& trophyId);
+    // Offset: 0x1E4FAC0
+    bool GetTrophyId(::Il2CppString* achievementId, ByRef<int> trophyId);
     // public System.Boolean GetAchievementId(System.Int32 trophyId, out System.String achievementId)
-    // Offset: 0xFFC580
-    bool GetAchievementId(int trophyId, ::Il2CppString*& achievementId);
+    // Offset: 0x1E4FB34
+    bool GetAchievementId(int trophyId, ByRef<::Il2CppString*> achievementId);
     // public System.Void .ctor()
-    // Offset: 0xFFC600
+    // Offset: 0x1E4FBB4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -91,7 +92,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4AchievementIdsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0xFFC34C
+    // Offset: 0x1E4F900
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -113,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId
 // Il2CppName: GetTrophyId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(::Il2CppString*, int&)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(::Il2CppString*, ByRef<int>)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId)> {
   static const MethodInfo* get() {
     static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* trophyId = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::GetAchievementId
 // Il2CppName: GetAchievementId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(int, ::Il2CppString*&)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetAchievementId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(int, ByRef<::Il2CppString*>)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetAchievementId)> {
   static const MethodInfo* get() {
     static auto* trophyId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

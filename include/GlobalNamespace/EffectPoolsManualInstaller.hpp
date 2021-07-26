@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingScoreEffect* flyingScoreEffectPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0AA80
+    // [SpaceAttribute] Offset: 0xEB769C
     // private BeatEffect _beatEffectPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatEffect* shortBeatEffectPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0AAC8
+    // [SpaceAttribute] Offset: 0xEB76E4
     // private NoteCutSoundEffect _noteCutSoundEffectPrefab
     // Size: 0x8
     // Offset: 0x38
@@ -89,7 +90,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteEffect* flyingSpriteEffectPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0AB20
+    // [SpaceAttribute] Offset: 0xEB773C
     // private BoolSO _noteDebrisHDConditionVariable
     // Size: 0x8
     // Offset: 0x50
@@ -153,10 +154,10 @@ namespace GlobalNamespace {
     // Set instance field: private NoteDebris _noteDebrisLWPrefab
     void _set__noteDebrisLWPrefab(GlobalNamespace::NoteDebris* value);
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
-    // Offset: 0x101F294
+    // Offset: 0x1E89D68
     void ManualInstallBindings(Zenject::DiContainer* container, bool shortBeatEffect);
     // public System.Void .ctor()
-    // Offset: 0x101F4CC
+    // Offset: 0x1E89FA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

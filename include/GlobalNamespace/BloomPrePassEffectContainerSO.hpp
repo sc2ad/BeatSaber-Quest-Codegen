@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,13 +42,13 @@ namespace GlobalNamespace {
     // Set instance field: private BloomPrePassEffectSO _bloomPrePassEffect
     void _set__bloomPrePassEffect(GlobalNamespace::BloomPrePassEffectSO* value);
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
-    // Offset: 0x1DED8A0
+    // Offset: 0x1960480
     GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();
     // public System.Void Init(BloomPrePassEffectSO bloomPrePassEffect)
-    // Offset: 0x1DED8A8
+    // Offset: 0x1960488
     void Init(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
     // public System.Void .ctor()
-    // Offset: 0x1DED8B0
+    // Offset: 0x1960490
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

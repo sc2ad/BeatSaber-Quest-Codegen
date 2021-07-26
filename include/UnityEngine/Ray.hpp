@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -49,26 +50,26 @@ namespace UnityEngine {
     // Set instance field: private UnityEngine.Vector3 m_Direction
     void _set_m_Direction(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_origin()
-    // Offset: 0xEF51C0
+    // Offset: 0xF840B0
     UnityEngine::Vector3 get_origin();
     // public System.Void set_origin(UnityEngine.Vector3 value)
-    // Offset: 0xEF51CC
+    // Offset: 0xF840BC
     void set_origin(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_direction()
-    // Offset: 0xEF51D8
+    // Offset: 0xF840C8
     UnityEngine::Vector3 get_direction();
     // public System.Void set_direction(UnityEngine.Vector3 value)
-    // Offset: 0xEF51E4
+    // Offset: 0xF840D4
     void set_direction(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0xEF51B8
+    // Offset: 0xF840A8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Ray(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction)
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
-    // Offset: 0xEF5224
+    // Offset: 0xF84114
     UnityEngine::Vector3 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0xEF522C
+    // Offset: 0xF8411C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

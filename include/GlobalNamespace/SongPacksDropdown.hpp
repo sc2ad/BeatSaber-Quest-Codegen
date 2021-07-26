@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(HMUI::SimpleTextDropdown*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0DE78
+    // [SpaceAttribute] Offset: 0xEBAA94
     // private SongPackMaskModelSO _songPackMaskModel
     // Size: 0x8
     // Offset: 0x20
@@ -107,37 +108,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
     void _set__songPackSerializedNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x105ADF0
+    // Offset: 0x1EC58C4
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x105AE94
+    // Offset: 0x1EC5968
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // private System.Void LazyInit()
-    // Offset: 0x105AF38
+    // Offset: 0x1EC5A0C
     void LazyInit();
     // protected System.Void Start()
-    // Offset: 0x105B094
+    // Offset: 0x1EC5B68
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x105B130
+    // Offset: 0x1EC5C04
     void OnDestroy();
     // public System.Void SetOverrideSongPacks(System.Collections.Generic.List`1<System.String> songPackSerializedNames)
-    // Offset: 0x105B20C
+    // Offset: 0x1EC5CE0
     void SetOverrideSongPacks(System::Collections::Generic::List_1<::Il2CppString*>* songPackSerializedNames);
     // public SongPackMask GetSelectedSongPackMask()
-    // Offset: 0x105B214
+    // Offset: 0x1EC5CE8
     GlobalNamespace::SongPackMask GetSelectedSongPackMask();
     // public System.Void SelectCellWithSongPackMask(SongPackMask songPackMask)
-    // Offset: 0x105B2A8
+    // Offset: 0x1EC5D7C
     void SelectCellWithSongPackMask(GlobalNamespace::SongPackMask songPackMask);
     // private System.Int32 GetIdxForSongPackMask(SongPackMask songPackMask)
-    // Offset: 0x105B368
+    // Offset: 0x1EC5E3C
     int GetIdxForSongPackMask(GlobalNamespace::SongPackMask songPackMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x105B430
+    // Offset: 0x1EC5F04
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x105B4A4
+    // Offset: 0x1EC5F78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

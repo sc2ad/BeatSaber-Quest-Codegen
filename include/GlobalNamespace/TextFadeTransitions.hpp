@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -87,7 +88,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* textLabel;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE09EA4
+    // [TooltipAttribute] Offset: 0xEB6AC0
     // private UnityEngine.CanvasGroup _canvasGroup
     // Size: 0x8
     // Offset: 0x20
@@ -147,22 +148,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _fade
     void _set__fade(float value);
     // protected System.Void Awake()
-    // Offset: 0x106EE6C
+    // Offset: 0x1EDA940
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x106EFD0
+    // Offset: 0x1EDAAA4
     void Update();
     // private System.Void RefreshState()
-    // Offset: 0x106EFD4
+    // Offset: 0x1EDAAA8
     void RefreshState();
     // private System.Void RefreshTextAlpha()
-    // Offset: 0x106EEE8
+    // Offset: 0x1EDA9BC
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
-    // Offset: 0x106F160
+    // Offset: 0x1EDAC34
     void ShowText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x106F1CC
+    // Offset: 0x1EDACA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

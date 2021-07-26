@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -78,16 +79,16 @@ namespace ModestTree {
     // Creating value type constructor for type: ReflectionUtil
     ReflectionUtil() noexcept {}
     // static public System.Array CreateArray(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x13730E4
+    // Offset: 0x1119D44
     static System::Array* CreateArray(System::Type* elementType, System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.Collections.IList CreateGenericList(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x1373354
+    // Offset: 0x1119FB4
     static System::Collections::IList* CreateGenericList(System::Type* elementType, System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.String ToDebugString(System.Reflection.MethodInfo method)
-    // Offset: 0x13736F4
+    // Offset: 0x111A354
     static ::Il2CppString* ToDebugString(System::Reflection::MethodInfo* method);
     // static public System.String ToDebugString(System.Action action)
-    // Offset: 0x137382C
+    // Offset: 0x111A48C
     static ::Il2CppString* ToDebugString(System::Action* action);
     // static public System.String ToDebugString(System.Action`1<TParam1> action)
     // Offset: 0xFFFFFFFF

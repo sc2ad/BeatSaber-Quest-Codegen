@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Resources.IResourceGroveler
 #include "System/Resources/IResourceGroveler.hpp"
 // Including type: System.Resources.ResourceManager
@@ -42,7 +43,7 @@ namespace System::Resources {
     // Set instance field: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     void _set__mediator(System::Resources::ResourceManager::ResourceManagerMediator* value);
     // public System.Void .ctor(System.Resources.ResourceManager/System.Resources.ResourceManagerMediator mediator)
-    // Offset: 0x13E8284
+    // Offset: 0x1190EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::FileBasedResourceGroveler::.ctor");

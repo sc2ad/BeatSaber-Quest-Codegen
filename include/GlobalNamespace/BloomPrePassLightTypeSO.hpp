@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,13 +54,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material _material
     void _set__material(UnityEngine::Material* value);
     // public System.Int32 get_renderingPriority()
-    // Offset: 0x1DEDE54
+    // Offset: 0x1960A34
     int get_renderingPriority();
     // public UnityEngine.Material get_material()
-    // Offset: 0x1DEDE5C
+    // Offset: 0x1960A3C
     UnityEngine::Material* get_material();
     // public System.Void .ctor()
-    // Offset: 0x1DEDE64
+    // Offset: 0x1960A44
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

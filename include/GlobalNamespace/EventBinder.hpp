@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -47,13 +48,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<System.Action> _unsubscribes
     void _set__unsubscribes(System::Collections::Generic::List_1<System::Action*>* value);
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x1213794
+    // Offset: 0x20400EC
     void Bind(System::Action* subscribe, System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0x1213810
+    // Offset: 0x2040168
     void ClearAllBindings();
     // public System.Void .ctor()
-    // Offset: 0x1213920
+    // Offset: 0x2040278
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

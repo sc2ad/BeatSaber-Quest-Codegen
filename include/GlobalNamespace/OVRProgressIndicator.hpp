@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -32,7 +33,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* progressImage;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [RangeAttribute] Offset: 0xDBD590
+    // [RangeAttribute] Offset: 0xE6A1AC
     // public System.Single currentProgress
     // Size: 0x4
     // Offset: 0x20
@@ -52,13 +53,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single currentProgress
     void _set_currentProgress(float value);
     // private System.Void Awake()
-    // Offset: 0x15F84AC
+    // Offset: 0x12FBA7C
     void Awake();
     // private System.Void Update()
-    // Offset: 0x15F84CC
+    // Offset: 0x12FBA9C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x15F8540
+    // Offset: 0x12FBB10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

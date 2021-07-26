@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: EditAvatarViewController/AvatarEditPart
@@ -99,7 +100,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshFilter* bodyMeshFilter;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshFilter*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFFC7C
+    // [SpaceAttribute] Offset: 0xEAC898
     // private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
     // Size: 0x8
     // Offset: 0x58
@@ -142,7 +143,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* rightHandPropertyBlockSetter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFFD14
+    // [InjectAttribute] Offset: 0xEAC930
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x90
@@ -258,31 +259,31 @@ namespace GlobalNamespace {
     // Set instance field: private AvatarVisualController/HighlighterDelegate _currentHighlighter
     void _set__currentHighlighter(GlobalNamespace::AvatarVisualController::HighlighterDelegate* value);
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x10E32AC
+    // Offset: 0x1F342C0
     UnityEngine::Color get_lightColor();
     // protected System.Void Awake()
-    // Offset: 0x10E32B8
+    // Offset: 0x1F342CC
     void Awake();
     // public System.Void UpdateAvatarVisual(AvatarData avatarData)
-    // Offset: 0x10E34F4
+    // Offset: 0x1F34508
     void UpdateAvatarVisual(GlobalNamespace::AvatarData* avatarData);
     // public System.Void SetLightColor(UnityEngine.Color color)
-    // Offset: 0x10DDD9C
+    // Offset: 0x1F2EDB0
     void SetLightColor(UnityEngine::Color color);
     // private System.Void UpdateAvatarColors()
-    // Offset: 0x10E3944
+    // Offset: 0x1F34958
     void UpdateAvatarColors();
     // public System.Void HighlightEditedPart(EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x10E3CB4
+    // Offset: 0x1F34CC8
     void HighlightEditedPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
     // public System.Void DisableEditedPartHighlight()
-    // Offset: 0x10E3FE0
+    // Offset: 0x1F34FF4
     void DisableEditedPartHighlight();
     // private System.Void SetHandsHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x10E4014
+    // Offset: 0x1F35028
     void SetHandsHighlight(bool highlighted, int uvSegment);
     // public System.Void .ctor()
-    // Offset: 0x10E4060
+    // Offset: 0x1F35074
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

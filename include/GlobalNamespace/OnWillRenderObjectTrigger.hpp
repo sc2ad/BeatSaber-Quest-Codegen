@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -35,7 +36,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class OnWillRenderObjectTrigger : public UnityEngine::MonoBehaviour {
     public:
-    // [NullAllowed] Offset: 0xDE1C58
+    // [NullAllowed] Offset: 0xE8F874
     // private UnityEngine.Shader _overrideShader
     // Size: 0x8
     // Offset: 0x18
@@ -103,13 +104,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.MeshRenderer _meshRenderer
     void _set__meshRenderer(UnityEngine::MeshRenderer* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1DF6428
+    // Offset: 0x1969008
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DF6824
+    // Offset: 0x1969404
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1DF6860
+    // Offset: 0x1969440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

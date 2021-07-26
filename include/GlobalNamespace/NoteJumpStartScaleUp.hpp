@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: INoteControllerDidInitEvent
@@ -45,7 +46,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScaleJumpPart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE03B80
+    // [SpaceAttribute] Offset: 0xEB079C
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -89,22 +90,22 @@ namespace GlobalNamespace {
     // Set instance field: private NoteJump _noteJump
     void _set__noteJump(GlobalNamespace::NoteJump* value);
     // protected System.Void Awake()
-    // Offset: 0x11E68A8
+    // Offset: 0x2015200
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11E6B10
+    // Offset: 0x2015468
     void OnDestroy();
     // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x11E697C
+    // Offset: 0x20152D4
     void UpdateScale(float progress);
     // private System.Void HandleNoteJumpDidUpdateProgress(System.Single progress)
-    // Offset: 0x11E6CA4
+    // Offset: 0x20155FC
     void HandleNoteJumpDidUpdateProgress(float progress);
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x11E6CA8
+    // Offset: 0x2015600
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void .ctor()
-    // Offset: 0x11E6D7C
+    // Offset: 0x20156D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

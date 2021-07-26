@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,17 +50,17 @@ namespace GlobalNamespace {
     // Set instance field: private readonly AudioManagerSO _audioManager
     void _set__audioManager(GlobalNamespace::AudioManagerSO* value);
     // public System.Void .ctor(GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, AudioManagerSO audioManager)
-    // Offset: 0x11431EC
+    // Offset: 0x1F73C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResetPitchOnGameplayFinished* New_ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO* audioManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ResetPitchOnGameplayFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResetPitchOnGameplayFinished*, creationType>(gameplayLevelSceneTransitionEvents, audioManager)));
     }
     // private System.Void HandleAnyGameplayLevelDidFinish()
-    // Offset: 0x1143368
+    // Offset: 0x1F73D7C
     void HandleAnyGameplayLevelDidFinish();
     // protected override System.Void Finalize()
-    // Offset: 0x114328C
+    // Offset: 0x1F73CA0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

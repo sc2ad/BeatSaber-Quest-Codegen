@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerAvailabilityModel
 #include "GlobalNamespace/MasterServerAvailabilityModel.hpp"
 // Including type: System.ValueType
@@ -77,10 +78,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> value);
     // private System.Void MoveNext()
-    // Offset: 0xED15DC
+    // Offset: 0xF7C978
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED15E4
+    // Offset: 0xF7C980
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServerAvailabilityModel/<GetAvailabilityAsyncInternal>d__10
   // WARNING Not writing size check since size may be invalid!

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SinglePlayerLevelSelectionFlowCoordinator
 #include "GlobalNamespace/SinglePlayerLevelSelectionFlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,13 +73,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action <>9__1
     void _set_$$9__1(System::Action* value);
     // System.Void <StartLevelOrShow360Prompt>b__0(System.Int32 buttonNumber)
-    // Offset: 0x10584F0
+    // Offset: 0x1EC2FC4
     void $StartLevelOrShow360Prompt$b__0(int buttonNumber);
     // System.Void <StartLevelOrShow360Prompt>b__1()
-    // Offset: 0x1058588
+    // Offset: 0x1EC305C
     void $StartLevelOrShow360Prompt$b__1();
     // public System.Void .ctor()
-    // Offset: 0x105835C
+    // Offset: 0x1EC2E30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

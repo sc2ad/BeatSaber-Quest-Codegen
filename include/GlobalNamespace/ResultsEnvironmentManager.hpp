@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,16 +56,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _currentShownKeyword
     void _set__currentShownKeyword(::Il2CppString* value);
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
-    // Offset: 0x1143510
+    // Offset: 0x1F73F24
     GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::Il2CppString* keyword);
     // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x11435E4
+    // Offset: 0x1F73FF8
     void ShowResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x1143694
+    // Offset: 0x1F740A8
     void HideResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void .ctor()
-    // Offset: 0x114373C
+    // Offset: 0x1F74150
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

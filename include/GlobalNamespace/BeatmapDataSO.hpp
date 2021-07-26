@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -105,22 +106,22 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapDataLoader _beatmapDataLoader
     void _set__beatmapDataLoader(GlobalNamespace::BeatmapDataLoader* value);
     // public BeatmapData get_beatmapData()
-    // Offset: 0x11924DC
+    // Offset: 0x1FD84E0
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void set_beatmapData(BeatmapData value)
-    // Offset: 0x1192550
+    // Offset: 0x1FD8554
     void set_beatmapData(GlobalNamespace::BeatmapData* value);
     // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0x1192558
+    // Offset: 0x1FD855C
     void SetJsonData(::Il2CppString* jsonData);
     // public System.Void SetRequiredDataForLoad(System.Single beatsPerMinute, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x1192560
+    // Offset: 0x1FD8564
     void SetRequiredDataForLoad(float beatsPerMinute, float shuffle, float shufflePeriod);
     // public System.Void Load()
-    // Offset: 0x119250C
+    // Offset: 0x1FD8510
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x1192574
+    // Offset: 0x1FD8578
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

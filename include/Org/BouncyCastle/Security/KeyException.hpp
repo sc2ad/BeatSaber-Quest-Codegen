@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Security.GeneralSecurityException
 #include "Org/BouncyCastle/Security/GeneralSecurityException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Org::BouncyCastle::Security {
     // Creating value type constructor for type: KeyException
     KeyException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1353D20
+    // Offset: 0x10FA980
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -33,7 +34,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<KeyException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1353D28
+    // Offset: 0x10FA988
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

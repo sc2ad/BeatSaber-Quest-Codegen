@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.UIItemsList`1
 #include "HMUI/UIItemsList_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ObjectiveListItemsList
     ObjectiveListItemsList() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11E8CD0
+    // Offset: 0x2017628
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

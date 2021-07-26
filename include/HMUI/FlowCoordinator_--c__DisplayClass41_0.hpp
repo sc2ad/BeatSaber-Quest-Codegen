@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.FlowCoordinator
 #include "HMUI/FlowCoordinator.hpp"
 // Including type: HMUI.ViewController/HMUI.AnimationType
@@ -78,10 +79,10 @@ namespace HMUI {
     // Set instance field: public HMUI.ViewController originalTopViewController
     void _set_originalTopViewController(HMUI::ViewController* value);
     // System.Void <ReplaceTopViewController>b__0()
-    // Offset: 0x130B464
+    // Offset: 0x10CD3D4
     void $ReplaceTopViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x130A6FC
+    // Offset: 0x10CC66C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

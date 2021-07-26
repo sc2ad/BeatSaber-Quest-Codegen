@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,21 +53,21 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnAnimationController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFD7D4
+    // [SpaceAttribute] Offset: 0xEAA3F0
     // private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFD80C
+    // [InjectAttribute] Offset: 0xEAA428
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFD81C
+    // [InjectAttribute] Offset: 0xEAA438
     // private readonly ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x30
@@ -138,37 +139,37 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Coroutine _despawnCharacterCoroutine
     void _set__despawnCharacterCoroutine(UnityEngine::Coroutine* value);
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x10E5198
+    // Offset: 0x1F361AC
     bool get_isCharacterVisible();
     // public System.Boolean get_isSpawned()
-    // Offset: 0x10E51B0
+    // Offset: 0x1F361C4
     bool get_isSpawned();
     // protected System.Void Start()
-    // Offset: 0x10E51B8
+    // Offset: 0x1F361CC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E5554
+    // Offset: 0x1F36568
     void OnDestroy();
     // private System.Void HandleStartCharacterAnimation(BTSCharacter btsCharacter)
-    // Offset: 0x10E5964
+    // Offset: 0x1F36978
     void HandleStartCharacterAnimation(GlobalNamespace::BTSCharacter* btsCharacter);
     // private System.Void HandleGamePauseDidPause()
-    // Offset: 0x10E5AAC
+    // Offset: 0x1F36AC0
     void HandleGamePauseDidPause();
     // private System.Void HandleGamePauseWillResume()
-    // Offset: 0x10E5AF8
+    // Offset: 0x1F36B0C
     void HandleGamePauseWillResume();
     // private System.Void HandleGamePauseDidResume()
-    // Offset: 0x10E5B4C
+    // Offset: 0x1F36B60
     void HandleGamePauseDidResume();
     // private System.Void HandleLevelEndActionsLevelFailed()
-    // Offset: 0x10E5B70
+    // Offset: 0x1F36B84
     void HandleLevelEndActionsLevelFailed();
     // private System.Collections.IEnumerator TimelineStoppedDelayed()
-    // Offset: 0x10E5A3C
+    // Offset: 0x1F36A50
     System::Collections::IEnumerator* TimelineStoppedDelayed();
     // public System.Void .ctor()
-    // Offset: 0x10E5BC0
+    // Offset: 0x1F36BD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

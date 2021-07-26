@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.RuntimeRemoteClassHandle
 #include "Mono/RuntimeRemoteClassHandle.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,25 +73,25 @@ namespace System::Runtime::Remoting::Proxies {
     // Set instance field: private System.Boolean _custom_type_info
     void _set__custom_type_info(bool value);
     // private System.Boolean get_IsContextBoundObject()
-    // Offset: 0x1A0673C
+    // Offset: 0x16BD830
     bool get_IsContextBoundObject();
     // private System.Runtime.Remoting.Contexts.Context get_TargetContext()
-    // Offset: 0x1A0675C
+    // Offset: 0x16BD850
     System::Runtime::Remoting::Contexts::Context* get_TargetContext();
     // System.RuntimeType GetProxyType()
-    // Offset: 0x1A06668
+    // Offset: 0x16BD75C
     System::RuntimeType* GetProxyType();
     // private System.Boolean InCurrentContext()
-    // Offset: 0x1A06778
+    // Offset: 0x16BD86C
     bool InCurrentContext();
     // System.Object LoadRemoteFieldNew(System.IntPtr classPtr, System.IntPtr fieldPtr)
-    // Offset: 0x1A067C4
+    // Offset: 0x16BD8B8
     ::Il2CppObject* LoadRemoteFieldNew(System::IntPtr classPtr, System::IntPtr fieldPtr);
     // System.Void StoreRemoteField(System.IntPtr classPtr, System.IntPtr fieldPtr, System.Object arg)
-    // Offset: 0x1A06A70
+    // Offset: 0x16BDB64
     void StoreRemoteField(System::IntPtr classPtr, System::IntPtr fieldPtr, ::Il2CppObject* arg);
     // public System.Void .ctor()
-    // Offset: 0x1A06D1C
+    // Offset: 0x16BDE10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

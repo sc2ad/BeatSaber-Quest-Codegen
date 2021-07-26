@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -34,7 +35,7 @@ namespace UnityEngineInternal {
     // Set static field: static public System.Boolean IsFlushToZeroEnabled
     static void _set_IsFlushToZeroEnabled(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x230A67C
+    // Offset: 0x1DA3188
     static void _cctor();
   }; // UnityEngineInternal.MathfInternal
   #pragma pack(pop)

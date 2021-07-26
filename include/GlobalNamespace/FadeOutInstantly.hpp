@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FadeOutInstantly : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDEB534
+    // [InjectAttribute] Offset: 0xE99150
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
@@ -42,10 +43,10 @@ namespace GlobalNamespace {
     // Set instance field: private FadeInOutController _fadeInOut
     void _set__fadeInOut(GlobalNamespace::FadeInOutController* value);
     // protected System.Void Start()
-    // Offset: 0x233E34C
+    // Offset: 0x1DC478C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x233E368
+    // Offset: 0x1DC47A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

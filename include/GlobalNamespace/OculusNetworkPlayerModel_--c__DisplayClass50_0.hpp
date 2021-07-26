@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusNetworkPlayerModel
 #include "GlobalNamespace/OculusNetworkPlayerModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -62,10 +63,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs
     void _set_tcs(System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>* value);
     // System.Void <GetUserNameAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
-    // Offset: 0x11F37EC
+    // Offset: 0x2022144
     void $GetUserNameAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>* result);
     // public System.Void .ctor()
-    // Offset: 0x11F2A68
+    // Offset: 0x20213C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

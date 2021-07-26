@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIdMonoBehaviour
 #include "GlobalNamespace/LightWithIdMonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
     ::Il2CppString* colorProperty;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xDE1404
+    // [DrawIfAttribute] Offset: 0xE8F020
     // private System.Single _alphaIntensity
     // Size: 0x4
     // Offset: 0x48
@@ -79,7 +80,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: multiplyColor and: colorMultiplier
     char __padding6[0x2] = {};
-    // [DrawIfAttribute] Offset: 0xDE14C8
+    // [DrawIfAttribute] Offset: 0xE8F0E4
     // private System.Single _colorMultiplier
     // Size: 0x4
     // Offset: 0x50
@@ -106,7 +107,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MaterialLightWithId
     MaterialLightWithId(UnityEngine::MeshRenderer* meshRenderer_ = {}, bool alphaIntoColor_ = {}, bool setColorOnly_ = {}, ::Il2CppString* colorProperty_ = {}, float alphaIntensity_ = {}, bool multiplyColorWithAlpha_ = {}, bool multiplyColor_ = {}, float colorMultiplier_ = {}, UnityEngine::Color color_ = {}, float alpha_ = {}, int propertyId_ = {}) noexcept : meshRenderer{meshRenderer_}, alphaIntoColor{alphaIntoColor_}, setColorOnly{setColorOnly_}, colorProperty{colorProperty_}, alphaIntensity{alphaIntensity_}, multiplyColorWithAlpha{multiplyColorWithAlpha_}, multiplyColor{multiplyColor_}, colorMultiplier{colorMultiplier_}, color{color_}, alpha{alpha_}, propertyId{propertyId_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE1570
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8F18C
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -156,13 +157,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _propertyId
     void _set__propertyId(int value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DF55D4
+    // Offset: 0x19681B4
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1DF55E0
+    // Offset: 0x19681C0
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1DF5820
+    // Offset: 0x1968400
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -176,12 +177,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialLightWithId*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DF588C
+    // Offset: 0x196846C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1DF563C
+    // Offset: 0x196821C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

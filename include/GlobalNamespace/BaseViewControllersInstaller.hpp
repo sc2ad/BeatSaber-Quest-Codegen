@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ScriptableObjectInstaller
 #include "Zenject/ScriptableObjectInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,7 +40,7 @@ namespace GlobalNamespace {
     // Set instance field: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
     void _set__simpleDialogPromptViewControllerPrefab(GlobalNamespace::SimpleDialogPromptViewController* value);
     // public System.Void .ctor()
-    // Offset: 0x1185634
+    // Offset: 0x1FCB16C
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: System.Void ScriptableObjectInstaller::.ctor()
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
@@ -52,7 +53,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BaseViewControllersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11855C0
+    // Offset: 0x1FCB0F8
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,13 +59,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _colorImage
     void _set__colorImage(UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x107D03C
+    // Offset: 0x1EFE938
     UnityEngine::UI::Button* get_button();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x107D044
+    // Offset: 0x1EFE940
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x107D06C
+    // Offset: 0x1EFE968
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -24,7 +25,7 @@ namespace NUnit::Compatibility {
     // Creating value type constructor for type: TypeExtensions
     TypeExtensions() noexcept {}
     // static public System.Type GetTypeInfo(System.Type type)
-    // Offset: 0x1710FF8
+    // Offset: 0x14146B4
     static System::Type* GetTypeInfo(System::Type* type);
   }; // NUnit.Compatibility.TypeExtensions
   #pragma pack(pop)

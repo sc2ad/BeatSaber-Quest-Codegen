@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapEventType
 #include "GlobalNamespace/BeatmapEventType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,7 +53,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Int32 value
     void _set_value(int value);
     // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value)
-    // Offset: 0x23B6798
+    // Offset: 0x23EE920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventData::.ctor");

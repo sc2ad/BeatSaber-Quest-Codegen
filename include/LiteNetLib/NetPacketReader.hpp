@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.NetDataReader
 #include "LiteNetLib/Utils/NetDataReader.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,20 +66,20 @@ namespace LiteNetLib {
     // Set instance field: private readonly LiteNetLib.NetEvent _evt
     void _set__evt(LiteNetLib::NetEvent* value);
     // System.Void .ctor(LiteNetLib.NetManager manager, LiteNetLib.NetEvent evt)
-    // Offset: 0x1BB2494
+    // Offset: 0x17A582C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketReader* New_ctor(LiteNetLib::NetManager* manager, LiteNetLib::NetEvent* evt) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPacketReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketReader*, creationType>(manager, evt)));
     }
     // System.Void SetSource(LiteNetLib.NetPacket packet)
-    // Offset: 0x1BB3B5C
+    // Offset: 0x17A6EF4
     void SetSource(LiteNetLib::NetPacket* packet);
     // System.Void RecycleInternal()
-    // Offset: 0x1BB41F8
+    // Offset: 0x17A7590
     void RecycleInternal();
     // public System.Void Recycle()
-    // Offset: 0x1BB8AEC
+    // Offset: 0x17ABE84
     void Recycle();
   }; // LiteNetLib.NetPacketReader
   #pragma pack(pop)

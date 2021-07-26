@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.X509.X509Extension
 #include "Mono/Security/X509/X509Extension.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,10 +37,10 @@ namespace Mono::Security::X509::Extensions {
     // Set instance field: private System.Byte[] aki
     void _set_aki(::Array<uint8_t>* value);
     // public System.Byte[] get_Identifier()
-    // Offset: 0x1DE36B0
+    // Offset: 0x1956290
     ::Array<uint8_t>* get_Identifier();
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x1DE3470
+    // Offset: 0x1956050
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::.ctor(Mono.Security.X509.X509Extension extension)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,17 +49,17 @@ namespace Mono::Security::X509::Extensions {
       return THROW_UNLESS((::il2cpp_utils::New<AuthorityKeyIdentifierExtension*, creationType>(extension)));
     }
     // protected override System.Void Decode()
-    // Offset: 0x1DE3478
+    // Offset: 0x1956058
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Decode()
     void Decode();
     // protected override System.Void Encode()
-    // Offset: 0x1DE3590
+    // Offset: 0x1956170
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Encode()
     void Encode();
     // public override System.String ToString()
-    // Offset: 0x1DE372C
+    // Offset: 0x195630C
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.String X509Extension::ToString()
     ::Il2CppString* ToString();

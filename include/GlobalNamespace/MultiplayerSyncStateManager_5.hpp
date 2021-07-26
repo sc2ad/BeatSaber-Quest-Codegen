@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: MultiplayerSessionManager/MessageType
@@ -137,7 +138,7 @@ namespace GlobalNamespace {
       }
     }; // MultiplayerSyncStateManager`5/<>c
     // Could not write size check! Type: MultiplayerSyncStateManager`5/<>c is generic, or has no fields that are valid for size checks!
-    // [InjectAttribute] Offset: 0xE022DC
+    // [InjectAttribute] Offset: 0xEAEEF8
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x0

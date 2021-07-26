@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0270C
+    // [InjectAttribute] Offset: 0xEAF328
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x28
@@ -66,16 +67,16 @@ namespace GlobalNamespace {
     // Set instance field: private PlayerDataModel _playerDataModel
     void _set__playerDataModel(GlobalNamespace::PlayerDataModel* value);
     // protected System.Void OnEnable()
-    // Offset: 0xFFDA28
+    // Offset: 0x1E50FDC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xFFDB10
+    // Offset: 0x1E510C4
     void OnDisable();
     // private System.Void HandlePS4HelperDidGoToBackgroundExecution()
-    // Offset: 0xFFDC08
+    // Offset: 0x1E511BC
     void HandlePS4HelperDidGoToBackgroundExecution();
     // public System.Void .ctor()
-    // Offset: 0xFFDC54
+    // Offset: 0x1E51208
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

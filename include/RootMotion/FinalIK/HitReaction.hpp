@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifier
 #include "RootMotion/FinalIK/OffsetModifier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,14 +39,14 @@ namespace RootMotion::FinalIK {
     class HitPointEffector;
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone
     class HitPointBone;
-    // [TooltipAttribute] Offset: 0xDF549C
+    // [TooltipAttribute] Offset: 0xEA20B8
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF54D4
+    // [TooltipAttribute] Offset: 0xEA20F0
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
@@ -63,13 +64,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     void _set_boneHitPoints(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* value);
     // public System.Boolean get_inProgress()
-    // Offset: 0x1C94198
+    // Offset: 0x1831F38
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1C94488
+    // Offset: 0x1832228
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x1C947F4
+    // Offset: 0x1832594
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -83,7 +84,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1C94268
+    // Offset: 0x1832008
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

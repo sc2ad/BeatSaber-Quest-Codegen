@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IMasterServerAvailabilityModel
 #include "GlobalNamespace/IMasterServerAvailabilityModel.hpp"
 // Including type: System.DateTime
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerAvailabilityModel::$GetAvailabilityAsyncInternal$d__10
     struct $GetAvailabilityAsyncInternal$d__10;
-    // [InjectAttribute] Offset: 0xE01AEC
+    // [InjectAttribute] Offset: 0xEAE708
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -110,22 +111,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.DateTime _lastRequestTime
     void _set__lastRequestTime(System::DateTime value);
     // private System.Void Init()
-    // Offset: 0x117ED90
+    // Offset: 0x1FAE7A4
     void Init();
     // public System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x117EE0C
+    // Offset: 0x1FAE820
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Boolean IsAvailabilityTaskValid()
-    // Offset: 0x117EE80
+    // Offset: 0x1FAE894
     bool IsAvailabilityTaskValid();
     // private System.Void StartRequest()
-    // Offset: 0x117ED94
+    // Offset: 0x1FAE7A8
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsyncInternal()
-    // Offset: 0x117EF8C
+    // Offset: 0x1FAE9A0
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsyncInternal();
     // public System.Void .ctor()
-    // Offset: 0x117F08C
+    // Offset: 0x1FAEAA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusPlatformLeaderboardsHandler
 #include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 // Including type: Oculus.Platform.Message`1
@@ -40,13 +41,13 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.LeaderboardEntryList> <>9__2_0
     static void _set_$$9__2_0(typename Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0xFF1A04
+    // Offset: 0x1E44FB8
     static void _cctor();
     // System.Void <.ctor>b__2_0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0xFF1A70
+    // Offset: 0x1E45024
     void $_ctor$b__2_0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
     // public System.Void .ctor()
-    // Offset: 0xFF1A68
+    // Offset: 0x1E4501C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

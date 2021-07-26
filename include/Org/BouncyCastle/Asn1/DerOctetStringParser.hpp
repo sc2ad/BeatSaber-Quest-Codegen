@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1OctetStringParser
 #include "Org/BouncyCastle/Asn1/Asn1OctetStringParser.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,17 +55,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream
     void _set_stream(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* value);
     // System.Void .ctor(Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream)
-    // Offset: 0x16DF30C
+    // Offset: 0x13E19C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerOctetStringParser* New_ctor(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerOctetStringParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerOctetStringParser*, creationType>(stream)));
     }
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x16EBB98
+    // Offset: 0x13EE254
     System::IO::Stream* GetOctetStream();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16EBBA0
+    // Offset: 0x13EE25C
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.DerOctetStringParser
   #pragma pack(pop)

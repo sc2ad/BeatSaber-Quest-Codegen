@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -52,20 +53,20 @@ namespace System::Net {
     // Set instance field: System.String ModuleAuthenticationType
     void _set_ModuleAuthenticationType(::Il2CppString* value);
     // public System.String get_Message()
-    // Offset: 0x1692F28
+    // Offset: 0x13955E4
     ::Il2CppString* get_Message();
     // public System.Boolean get_Complete()
-    // Offset: 0x1692F30
+    // Offset: 0x13955EC
     bool get_Complete();
     // public System.Void .ctor(System.String token)
-    // Offset: 0x1692E04
+    // Offset: 0x13954C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
-    // Offset: 0x1692E94
+    // Offset: 0x1395550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token, bool finished) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");

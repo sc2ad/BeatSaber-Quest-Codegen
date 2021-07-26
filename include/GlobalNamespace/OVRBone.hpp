@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSkeleton/BoneId
 #include "GlobalNamespace/OVRSkeleton_BoneId.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,32 +62,32 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform <Transform>k__BackingField
     void _set_$Transform$k__BackingField(UnityEngine::Transform* value);
     // public OVRSkeleton/BoneId get_Id()
-    // Offset: 0x124A73C
+    // Offset: 0x1054A14
     GlobalNamespace::OVRSkeleton::BoneId get_Id();
     // public System.Void set_Id(OVRSkeleton/BoneId value)
-    // Offset: 0x124A744
+    // Offset: 0x1054A1C
     void set_Id(GlobalNamespace::OVRSkeleton::BoneId value);
     // public System.Int16 get_ParentBoneIndex()
-    // Offset: 0x124A74C
+    // Offset: 0x1054A24
     int16_t get_ParentBoneIndex();
     // public System.Void set_ParentBoneIndex(System.Int16 value)
-    // Offset: 0x124A754
+    // Offset: 0x1054A2C
     void set_ParentBoneIndex(int16_t value);
     // public UnityEngine.Transform get_Transform()
-    // Offset: 0x124A75C
+    // Offset: 0x1054A34
     UnityEngine::Transform* get_Transform();
     // public System.Void set_Transform(UnityEngine.Transform value)
-    // Offset: 0x124A764
+    // Offset: 0x1054A3C
     void set_Transform(UnityEngine::Transform* value);
     // public System.Void .ctor(OVRSkeleton/BoneId id, System.Int16 parentBoneIndex, UnityEngine.Transform trans)
-    // Offset: 0x124A774
+    // Offset: 0x1054A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBone* New_ctor(GlobalNamespace::OVRSkeleton::BoneId id, int16_t parentBoneIndex, UnityEngine::Transform* trans) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBone*, creationType>(id, parentBoneIndex, trans)));
     }
     // public System.Void .ctor()
-    // Offset: 0x124A76C
+    // Offset: 0x1054A44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

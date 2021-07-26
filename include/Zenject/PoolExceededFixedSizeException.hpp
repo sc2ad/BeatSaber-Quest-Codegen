@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -23,7 +24,7 @@ namespace Zenject {
     // Creating value type constructor for type: PoolExceededFixedSizeException
     PoolExceededFixedSizeException() noexcept {}
     // public System.Void .ctor(System.String errorMessage)
-    // Offset: 0x16C5FD8
+    // Offset: 0x13C8694
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMessage)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

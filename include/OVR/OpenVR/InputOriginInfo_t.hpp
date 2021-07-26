@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -1326,7 +1327,7 @@ namespace OVR::OpenVR {
     // Set instance field: public System.Byte rchRenderModelComponentName127
     void _set_rchRenderModelComponentName127(uint8_t value);
     // public System.String get_rchRenderModelComponentName()
-    // Offset: 0xED1CCC
+    // Offset: 0xD68044
     ::Il2CppString* get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
   #pragma pack(pop)

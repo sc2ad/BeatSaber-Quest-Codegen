@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AudioPlayerBase
 #include "GlobalNamespace/AudioPlayerBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,21 +96,21 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _fadingIn
     void _set__fadingIn(bool value);
     // protected System.Void Start()
-    // Offset: 0x1054B0C
+    // Offset: 0x1EBF5E0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1054BE0
+    // Offset: 0x1EBF6B4
     void Update();
     // private System.Void FadeIn(System.Single duration)
-    // Offset: 0x1054B98
+    // Offset: 0x1EBF66C
     void FadeIn(float duration);
     // public override UnityEngine.AudioClip get_activeAudioClip()
-    // Offset: 0x1054B04
+    // Offset: 0x1EBF5D8
     // Implemented from: AudioPlayerBase
     // Base method: UnityEngine.AudioClip AudioPlayerBase::get_activeAudioClip()
     UnityEngine::AudioClip* get_activeAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x1054DBC
+    // Offset: 0x1EBF890
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -123,17 +124,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAudioPlayer*, creationType>()));
     }
     // public override System.Void FadeOut(System.Single duration)
-    // Offset: 0x1054D40
+    // Offset: 0x1EBF814
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::FadeOut(System.Single duration)
     void FadeOut(float duration);
     // public override System.Void PauseCurrentChannel()
-    // Offset: 0x1054D84
+    // Offset: 0x1EBF858
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::PauseCurrentChannel()
     void PauseCurrentChannel();
     // public override System.Void UnPauseCurrentChannel()
-    // Offset: 0x1054DA0
+    // Offset: 0x1EBF874
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::UnPauseCurrentChannel()
     void UnPauseCurrentChannel();

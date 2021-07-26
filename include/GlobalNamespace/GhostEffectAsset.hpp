@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Playables.PlayableAsset
 #include "UnityEngine/Playables/PlayableAsset.hpp"
 // Including type: UnityEngine.Timeline.ITimelineClipAsset
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
-    // [NullAllowed] Offset: 0xE12978
+    // [NullAllowed] Offset: 0xEBF594
     // public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
     // Size: 0xFFFFFFFF
     // Offset: 0x20
@@ -87,10 +88,10 @@ namespace GlobalNamespace {
     // Set instance field: public GhostEffectBehaviour template
     void _set_template(GlobalNamespace::GhostEffectBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x10B62C8
+    // Offset: 0x1F23238
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x10B6404
+    // Offset: 0x1F23374
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -102,7 +103,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GhostEffectAsset*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x10B62D0
+    // Offset: 0x1F23240
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);

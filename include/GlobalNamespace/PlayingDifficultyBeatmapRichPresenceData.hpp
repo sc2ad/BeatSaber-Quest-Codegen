@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IRichPresenceData
 #include "GlobalNamespace/IRichPresenceData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,26 +54,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.String <localizedDescription>k__BackingField
     void _set_$localizedDescription$k__BackingField(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0x1107EA4
+    // Offset: 0x1F59EB8
     ::Il2CppString* get_apiName();
     // private System.Void set_apiName(System.String value)
-    // Offset: 0x1107EAC
+    // Offset: 0x1F59EC0
     void set_apiName(::Il2CppString* value);
     // public System.String get_localizedDescription()
-    // Offset: 0x1107EB4
+    // Offset: 0x1F59EC8
     ::Il2CppString* get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1107EBC
+    // Offset: 0x1F59ED0
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1107EC4
+    // Offset: 0x1F59ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingDifficultyBeatmapRichPresenceData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayingDifficultyBeatmapRichPresenceData*, creationType>(difficultyBeatmap)));
     }
     // static public System.String GetDestinationLocalizedString(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1107F08
+    // Offset: 0x1F59F1C
     static ::Il2CppString* GetDestinationLocalizedString(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // PlayingDifficultyBeatmapRichPresenceData
   #pragma pack(pop)

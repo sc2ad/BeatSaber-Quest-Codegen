@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.NetworkInterface
 #include "System/Net/NetworkInformation/NetworkInterface.hpp"
 // Including type: System.Net.NetworkInformation.NetworkInterfaceType
@@ -92,25 +93,25 @@ namespace System::Net::NetworkInformation {
     // Set instance field: private System.Net.NetworkInformation.NetworkInterfaceType type
     void _set_type(System::Net::NetworkInformation::NetworkInterfaceType value);
     // System.Void .ctor(System.String name)
-    // Offset: 0x14618FC
+    // Offset: 0x11D295C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixNetworkInterface* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::UnixNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixNetworkInterface*, creationType>(name)));
     }
     // System.Void AddAddress(System.Net.IPAddress address)
-    // Offset: 0x1463440
+    // Offset: 0x11D44A0
     void AddAddress(System::Net::IPAddress* address);
     // System.Void SetLinkLayerInfo(System.Int32 index, System.Byte[] macAddress, System.Net.NetworkInformation.NetworkInterfaceType type)
-    // Offset: 0x14634A8
+    // Offset: 0x11D4508
     void SetLinkLayerInfo(int index, ::Array<uint8_t>* macAddress, System::Net::NetworkInformation::NetworkInterfaceType type);
     // public override System.String get_Name()
-    // Offset: 0x1464ABC
+    // Offset: 0x11D5B1C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x1464AC4
+    // Offset: 0x11D5B24
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();

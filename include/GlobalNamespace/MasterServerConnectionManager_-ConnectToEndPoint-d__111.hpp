@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerConnectionManager
 #include "GlobalNamespace/MasterServerConnectionManager.hpp"
 // Including type: System.ValueType
@@ -173,10 +174,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__2
     void _set_$$u__2(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> value);
     // private System.Void MoveNext()
-    // Offset: 0xEDA7A4
+    // Offset: 0xF7DBC8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEDA7AC
+    // Offset: 0xF7DBD0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServerConnectionManager/<ConnectToEndPoint>d__111
   // WARNING Not writing size check since size may be invalid!

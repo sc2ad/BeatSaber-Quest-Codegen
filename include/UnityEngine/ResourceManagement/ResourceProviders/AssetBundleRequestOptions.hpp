@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceLocations.ILocationSizeData
 #include "UnityEngine/ResourceManagement/ResourceLocations/ILocationSizeData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,28 +32,28 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetBundleRequestOptions : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6A74
+    // [FormerlySerializedAsAttribute] Offset: 0xE94690
     // private System.String m_Hash
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* m_Hash;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6AC0
+    // [FormerlySerializedAsAttribute] Offset: 0xE946DC
     // private System.UInt32 m_Crc
     // Size: 0x4
     // Offset: 0x18
     uint m_Crc;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6B0C
+    // [FormerlySerializedAsAttribute] Offset: 0xE94728
     // private System.Int32 m_Timeout
     // Size: 0x4
     // Offset: 0x1C
     int m_Timeout;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6B58
+    // [FormerlySerializedAsAttribute] Offset: 0xE94774
     // private System.Boolean m_ChunkedTransfer
     // Size: 0x1
     // Offset: 0x20
@@ -61,14 +62,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ChunkedTransfer and: m_RedirectLimit
     char __padding3[0x3] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6BA4
+    // [FormerlySerializedAsAttribute] Offset: 0xE947C0
     // private System.Int32 m_RedirectLimit
     // Size: 0x4
     // Offset: 0x24
     int m_RedirectLimit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6BF0
+    // [FormerlySerializedAsAttribute] Offset: 0xE9480C
     // private System.Int32 m_RetryCount
     // Size: 0x4
     // Offset: 0x28
@@ -148,70 +149,70 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private System.Boolean m_ClearOtherCachedVersionsWhenLoaded
     void _set_m_ClearOtherCachedVersionsWhenLoaded(bool value);
     // public System.String get_Hash()
-    // Offset: 0x19B5D58
+    // Offset: 0x166DE4C
     ::Il2CppString* get_Hash();
     // public System.Void set_Hash(System.String value)
-    // Offset: 0x19B5D60
+    // Offset: 0x166DE54
     void set_Hash(::Il2CppString* value);
     // public System.UInt32 get_Crc()
-    // Offset: 0x19B5D68
+    // Offset: 0x166DE5C
     uint get_Crc();
     // public System.Void set_Crc(System.UInt32 value)
-    // Offset: 0x19B5D70
+    // Offset: 0x166DE64
     void set_Crc(uint value);
     // public System.Int32 get_Timeout()
-    // Offset: 0x19B5D78
+    // Offset: 0x166DE6C
     int get_Timeout();
     // public System.Void set_Timeout(System.Int32 value)
-    // Offset: 0x19B5D80
+    // Offset: 0x166DE74
     void set_Timeout(int value);
     // public System.Boolean get_ChunkedTransfer()
-    // Offset: 0x19B5D88
+    // Offset: 0x166DE7C
     bool get_ChunkedTransfer();
     // public System.Void set_ChunkedTransfer(System.Boolean value)
-    // Offset: 0x19B5D90
+    // Offset: 0x166DE84
     void set_ChunkedTransfer(bool value);
     // public System.Int32 get_RedirectLimit()
-    // Offset: 0x19B5D9C
+    // Offset: 0x166DE90
     int get_RedirectLimit();
     // public System.Void set_RedirectLimit(System.Int32 value)
-    // Offset: 0x19B5DA4
+    // Offset: 0x166DE98
     void set_RedirectLimit(int value);
     // public System.Int32 get_RetryCount()
-    // Offset: 0x19B5DAC
+    // Offset: 0x166DEA0
     int get_RetryCount();
     // public System.Void set_RetryCount(System.Int32 value)
-    // Offset: 0x19B5DB4
+    // Offset: 0x166DEA8
     void set_RetryCount(int value);
     // public System.String get_BundleName()
-    // Offset: 0x19B5DBC
+    // Offset: 0x166DEB0
     ::Il2CppString* get_BundleName();
     // public System.Void set_BundleName(System.String value)
-    // Offset: 0x19B5DC4
+    // Offset: 0x166DEB8
     void set_BundleName(::Il2CppString* value);
     // public System.Int64 get_BundleSize()
-    // Offset: 0x19B5DCC
+    // Offset: 0x166DEC0
     int64_t get_BundleSize();
     // public System.Void set_BundleSize(System.Int64 value)
-    // Offset: 0x19B5DD4
+    // Offset: 0x166DEC8
     void set_BundleSize(int64_t value);
     // public System.Boolean get_UseCrcForCachedBundle()
-    // Offset: 0x19B5DDC
+    // Offset: 0x166DED0
     bool get_UseCrcForCachedBundle();
     // public System.Void set_UseCrcForCachedBundle(System.Boolean value)
-    // Offset: 0x19B5DE4
+    // Offset: 0x166DED8
     void set_UseCrcForCachedBundle(bool value);
     // public System.Boolean get_ClearOtherCachedVersionsWhenLoaded()
-    // Offset: 0x19B5DF0
+    // Offset: 0x166DEE4
     bool get_ClearOtherCachedVersionsWhenLoaded();
     // public System.Void set_ClearOtherCachedVersionsWhenLoaded(System.Boolean value)
-    // Offset: 0x19B5DF8
+    // Offset: 0x166DEEC
     void set_ClearOtherCachedVersionsWhenLoaded(bool value);
     // public System.Int64 ComputeSize(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceManager resourceManager)
-    // Offset: 0x19B5E04
+    // Offset: 0x166DEF8
     int64_t ComputeSize(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::ResourceManager* resourceManager);
     // public System.Void .ctor()
-    // Offset: 0x19B5FC4
+    // Offset: 0x166E0B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -103,52 +104,52 @@ namespace System::Net::Http {
     // Set instance field: private System.Net.Http.Headers.HttpContentHeaders headers
     void _set_headers(System::Net::Http::Headers::HttpContentHeaders* value);
     // public System.Net.Http.Headers.HttpContentHeaders get_Headers()
-    // Offset: 0x15713E8
+    // Offset: 0x12759B8
     System::Net::Http::Headers::HttpContentHeaders* get_Headers();
     // System.Nullable`1<System.Int64> get_LoadedBufferLength()
-    // Offset: 0x156461C
+    // Offset: 0x1268BEC
     System::Nullable_1<int64_t> get_LoadedBufferLength();
     // System.Void CopyTo(System.IO.Stream stream)
-    // Offset: 0x1572ADC
+    // Offset: 0x12770AC
     void CopyTo(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream)
-    // Offset: 0x15729F4
+    // Offset: 0x1276FC4
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x1572B00
+    // Offset: 0x12770D0
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
     // static private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream CreateFixedMemoryStream(System.Int64 maxBufferSize)
-    // Offset: 0x1572BC4
+    // Offset: 0x1277194
     static System::Net::Http::HttpContent::FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
     // public System.Void Dispose()
-    // Offset: 0x1572C54
+    // Offset: 0x1277224
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1572C64
+    // Offset: 0x1277234
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task LoadIntoBufferAsync()
-    // Offset: 0x1572C90
+    // Offset: 0x1277260
     System::Threading::Tasks::Task* LoadIntoBufferAsync();
     // public System.Threading.Tasks.Task LoadIntoBufferAsync(System.Int64 maxBufferSize)
-    // Offset: 0x1570838
+    // Offset: 0x1274E08
     System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
     // public System.Threading.Tasks.Task`1<System.String> ReadAsStringAsync()
-    // Offset: 0x15701C8
+    // Offset: 0x1274798
     System::Threading::Tasks::Task_1<::Il2CppString*>* ReadAsStringAsync();
     // static private System.Text.Encoding GetEncodingFromBuffer(System.Byte[] buffer, System.Int32 length, ref System.Int32 preambleLength)
-    // Offset: 0x1572C98
-    static System::Text::Encoding* GetEncodingFromBuffer(::Array<uint8_t>* buffer, int length, int& preambleLength);
+    // Offset: 0x1277268
+    static System::Text::Encoding* GetEncodingFromBuffer(::Array<uint8_t>* buffer, int length, ByRef<int> preambleLength);
     // static private System.Int32 StartsWith(System.Byte[] array, System.Int32 length, System.Byte[] value)
-    // Offset: 0x1572E28
+    // Offset: 0x12773F8
     static int StartsWith(::Array<uint8_t>* array, int length, ::Array<uint8_t>* value);
     // protected internal System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task* SerializeToStreamAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
     // protected internal System.Boolean TryComputeLength(out System.Int64 length)
     // Offset: 0xFFFFFFFF
-    bool TryComputeLength(int64_t& length);
+    bool TryComputeLength(ByRef<int64_t> length);
     // protected System.Void .ctor()
-    // Offset: 0x1572EA4
+    // Offset: 0x1277474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -261,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::GetEncodingFromBuffer
 // Il2CppName: GetEncodingFromBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Array<uint8_t>*, int, int&)>(&System::Net::Http::HttpContent::GetEncodingFromBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Array<uint8_t>*, int, ByRef<int>)>(&System::Net::Http::HttpContent::GetEncodingFromBuffer)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -293,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::TryComputeLength
 // Il2CppName: TryComputeLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::HttpContent::*)(int64_t&)>(&System::Net::Http::HttpContent::TryComputeLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::HttpContent::*)(ByRef<int64_t>)>(&System::Net::Http::HttpContent::TryComputeLength)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent*), "TryComputeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length});

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.SortedList
 #include "System/Collections/SortedList.hpp"
 // Including type: System.ICloneable
@@ -133,32 +134,32 @@ namespace System::Collections {
     // Set instance field: private System.Int32 getObjectRetType
     void _set_getObjectRetType(int value);
     // public System.Object get_Key()
-    // Offset: 0x194B974
+    // Offset: 0x161CD78
     ::Il2CppObject* get_Key();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x194BB60
+    // Offset: 0x161CF64
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x194BC40
+    // Offset: 0x161D044
     ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x194BD34
+    // Offset: 0x161D138
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Collections.SortedList sortedList, System.Int32 index, System.Int32 count, System.Int32 getObjRetType)
-    // Offset: 0x194AA4C
+    // Offset: 0x161BE50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList::SortedListEnumerator* New_ctor(System::Collections::SortedList* sortedList, int index, int count, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::SortedListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList::SortedListEnumerator*, creationType>(sortedList, index, count, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x194B96C
+    // Offset: 0x161CD70
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x194BA38
+    // Offset: 0x161CE3C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x194BDF8
+    // Offset: 0x161D1FC
     void Reset();
   }; // System.Collections.SortedList/System.Collections.SortedListEnumerator
   #pragma pack(pop)

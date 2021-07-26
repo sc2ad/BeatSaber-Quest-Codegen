@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
 #include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
 // Including type: UnityEngine.Vector3
@@ -418,68 +419,68 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean started
     void _set_started(bool value);
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
-    // Offset: 0x1E32150
+    // Offset: 0x19933E4
     RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
     // private System.Void set_effectorType(RootMotion.FinalIK.FullBodyBipedEffector value)
-    // Offset: 0x1E32158
+    // Offset: 0x19933EC
     void set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x1E32160
+    // Offset: 0x19933F4
     bool get_isPaused();
     // private System.Void set_isPaused(System.Boolean value)
-    // Offset: 0x1E32168
+    // Offset: 0x19933FC
     void set_isPaused(bool value);
     // public RootMotion.FinalIK.InteractionObject get_interactionObject()
-    // Offset: 0x1E32174
+    // Offset: 0x1993408
     RootMotion::FinalIK::InteractionObject* get_interactionObject();
     // private System.Void set_interactionObject(RootMotion.FinalIK.InteractionObject value)
-    // Offset: 0x1E3217C
+    // Offset: 0x1993410
     void set_interactionObject(RootMotion::FinalIK::InteractionObject* value);
     // public System.Boolean get_inInteraction()
-    // Offset: 0x1E32184
+    // Offset: 0x1993418
     bool get_inInteraction();
     // public System.Single get_progress()
-    // Offset: 0x1E34B44
+    // Offset: 0x1995DD8
     float get_progress();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x1E321F4
+    // Offset: 0x1993488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionEffector*, creationType>(effectorType)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x1E32278
+    // Offset: 0x199350C
     void Initiate(RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // private System.Void StoreDefaults()
-    // Offset: 0x1E3231C
+    // Offset: 0x19935B0
     void StoreDefaults();
     // public System.Boolean ResetToDefaults(System.Single speed)
-    // Offset: 0x1E32494
+    // Offset: 0x1993728
     bool ResetToDefaults(float speed);
     // public System.Boolean Pause()
-    // Offset: 0x1E32944
+    // Offset: 0x1993BD8
     bool Pause();
     // public System.Boolean Resume()
-    // Offset: 0x1E32D04
+    // Offset: 0x1993F98
     bool Resume();
     // public System.Boolean Start(RootMotion.FinalIK.InteractionObject interactionObject, System.String tag, System.Single fadeInTime, System.Boolean interrupt)
-    // Offset: 0x1E32D58
+    // Offset: 0x1993FEC
     bool Start(RootMotion::FinalIK::InteractionObject* interactionObject, ::Il2CppString* tag, float fadeInTime, bool interrupt);
     // public System.Void Update(UnityEngine.Transform root, System.Single speed)
-    // Offset: 0x1E338AC
+    // Offset: 0x1994B40
     void Update(UnityEngine::Transform* root, float speed);
     // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, out System.Boolean pickUp, out System.Boolean pause)
-    // Offset: 0x1E3438C
-    void TriggerUntriggeredEvents(bool checkTime, bool& pickUp, bool& pause);
+    // Offset: 0x1995620
+    void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
     // private System.Void PickUp(UnityEngine.Transform root)
-    // Offset: 0x1E345B4
+    // Offset: 0x1995848
     void PickUp(UnityEngine::Transform* root);
     // public System.Boolean Stop()
-    // Offset: 0x1E349F0
+    // Offset: 0x1995C84
     bool Stop();
     // public System.Void OnPostFBBIK()
-    // Offset: 0x1E3502C
+    // Offset: 0x19962C0
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
   #pragma pack(pop)
@@ -626,7 +627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::TriggerUntriggeredEvents
 // Il2CppName: TriggerUntriggeredEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(bool, bool&, bool&)>(&RootMotion::FinalIK::InteractionEffector::TriggerUntriggeredEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(bool, ByRef<bool>, ByRef<bool>)>(&RootMotion::FinalIK::InteractionEffector::TriggerUntriggeredEvents)> {
   static const MethodInfo* get() {
     static auto* checkTime = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* pickUp = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

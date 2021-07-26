@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
 #include "Org/BouncyCastle/Crypto/Generators/BaseKdfBytesGenerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Creating value type constructor for type: Kdf2BytesGenerator
     Kdf2BytesGenerator() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x18B8BBC
+    // Offset: 0x1589FC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Kdf2BytesGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::.ctor");

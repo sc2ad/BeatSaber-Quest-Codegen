@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionResultsViewController
 #include "GlobalNamespace/MissionResultsViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,10 +77,10 @@ namespace GlobalNamespace {
     // Set instance field: public MissionObjectiveResult[] missionObjectiveResults
     void _set_missionObjectiveResults(::Array<GlobalNamespace::MissionObjectiveResult*>* value);
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
-    // Offset: 0x1138D68
+    // Offset: 0x1F6977C
     void $SetDataToUI$b__0(int idx, GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
     // public System.Void .ctor()
-    // Offset: 0x1138C90
+    // Offset: 0x1F696A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.HttpContent
 #include "System/Net/Http/HttpContent.hpp"
 // Including type: System.IO.MemoryStream
@@ -34,22 +35,22 @@ namespace System::Net::Http {
     // Set instance field: private readonly System.Int64 maxSize
     void _set_maxSize(int64_t value);
     // public System.Void .ctor(System.Int64 maxSize)
-    // Offset: 0x1572C28
+    // Offset: 0x12771F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContent::FixedMemoryStream* New_ctor(int64_t maxSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpContent::FixedMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContent::FixedMemoryStream*, creationType>(maxSize)));
     }
     // private System.Void CheckOverflow(System.Int32 count)
-    // Offset: 0x15734CC
+    // Offset: 0x1277A9C
     void CheckOverflow(int count);
     // public override System.Void WriteByte(System.Byte value)
-    // Offset: 0x157361C
+    // Offset: 0x1277BEC
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1573650
+    // Offset: 0x1277C20
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);

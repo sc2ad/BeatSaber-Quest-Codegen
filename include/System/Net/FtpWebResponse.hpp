@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebResponse
 #include "System/Net/WebResponse.hpp"
 // Including type: System.Net.FtpStatusCode
@@ -173,67 +174,67 @@ namespace System::Net {
     // Set instance field: System.Int64 contentLength
     void _set_contentLength(int64_t value);
     // System.Void set_LastModified(System.DateTime value)
-    // Offset: 0x162C62C
+    // Offset: 0x132ECE8
     void set_LastModified(System::DateTime value);
     // System.Void set_BannerMessage(System.String value)
-    // Offset: 0x162C634
+    // Offset: 0x132ECF0
     void set_BannerMessage(::Il2CppString* value);
     // System.Void set_WelcomeMessage(System.String value)
-    // Offset: 0x162C63C
+    // Offset: 0x132ECF8
     void set_WelcomeMessage(::Il2CppString* value);
     // System.Void set_StatusCode(System.Net.FtpStatusCode value)
-    // Offset: 0x162C644
+    // Offset: 0x132ED00
     void set_StatusCode(System::Net::FtpStatusCode value);
     // System.Void set_Stream(System.IO.Stream value)
-    // Offset: 0x162C874
+    // Offset: 0x132EF30
     void set_Stream(System::IO::Stream* value);
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Boolean keepAlive)
-    // Offset: 0x162C3DC
+    // Offset: 0x132EA98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, bool keepAlive) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebResponse*, creationType>(request, uri, method, keepAlive)));
     }
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x162C4B8
+    // Offset: 0x132EB74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebResponse*, creationType>(request, uri, method, statusCode, statusDescription)));
     }
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Net.FtpStatus status)
-    // Offset: 0x162C5A8
+    // Offset: 0x132EC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, System::Net::FtpStatus* status) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebResponse*, creationType>(request, uri, method, status)));
     }
     // System.Void UpdateStatus(System.Net.FtpStatus status)
-    // Offset: 0x162C87C
+    // Offset: 0x132EF38
     void UpdateStatus(System::Net::FtpStatus* status);
     // private System.Void CheckDisposed()
-    // Offset: 0x162C7C8
+    // Offset: 0x132EE84
     void CheckDisposed();
     // System.Boolean IsFinal()
-    // Offset: 0x162C8A0
+    // Offset: 0x132EF5C
     bool IsFinal();
     // public override System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x162C5C8
+    // Offset: 0x132EC84
     // Implemented from: System.Net.WebResponse
     // Base method: System.Net.WebHeaderCollection WebResponse::get_Headers()
     System::Net::WebHeaderCollection* get_Headers();
     // public override System.Uri get_ResponseUri()
-    // Offset: 0x162C624
+    // Offset: 0x132ECE0
     // Implemented from: System.Net.WebResponse
     // Base method: System.Uri WebResponse::get_ResponseUri()
     System::Uri* get_ResponseUri();
     // public override System.Void Close()
-    // Offset: 0x162C64C
+    // Offset: 0x132ED08
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::Close()
     void Close();
     // public override System.IO.Stream GetResponseStream()
-    // Offset: 0x162C70C
+    // Offset: 0x132EDC8
     // Implemented from: System.Net.WebResponse
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     System::IO::Stream* GetResponseStream();

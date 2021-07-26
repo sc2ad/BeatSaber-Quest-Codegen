@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuDestination
 #include "GlobalNamespace/MenuDestination.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly IBeatmapLevelPack beatmapLevelPack
     void _set_beatmapLevelPack(GlobalNamespace::IBeatmapLevelPack* value);
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x11555D4
+    // Offset: 0x1F85FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelPackDestination* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectLevelPackDestination::.ctor");

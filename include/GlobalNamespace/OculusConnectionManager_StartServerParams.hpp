@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusConnectionManager
 #include "GlobalNamespace/OculusConnectionManager.hpp"
 // Including type: IConnectionInitParams`1
@@ -49,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public OculusNetworkPlayerModel oculusNetworkPlayerModel
     void _set_oculusNetworkPlayerModel(GlobalNamespace::OculusNetworkPlayerModel* value);
     // public System.Void .ctor()
-    // Offset: 0x11F0F4C
+    // Offset: 0x201F8A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

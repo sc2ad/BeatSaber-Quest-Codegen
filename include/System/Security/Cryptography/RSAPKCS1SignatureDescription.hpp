@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.SignatureDescription
 #include "System/Security/Cryptography/SignatureDescription.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace System::Security::Cryptography {
     // Set instance field: private System.String _hashAlgorithm
     void _set__hashAlgorithm(::Il2CppString* value);
     // protected System.Void .ctor(System.String hashAlgorithm, System.String digestAlgorithm)
-    // Offset: 0x1AFB268
+    // Offset: 0x175DBF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDescription* New_ctor(::Il2CppString* hashAlgorithm, ::Il2CppString* digestAlgorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SignatureDescription::.ctor");

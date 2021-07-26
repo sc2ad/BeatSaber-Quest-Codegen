@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NamedPresetsSO
 #include "GlobalNamespace/NamedPresetsSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,15 +44,15 @@ namespace GlobalNamespace {
     // Set instance field: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
     void _set__presets(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* value);
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
-    // Offset: 0x1181BBC
+    // Offset: 0x1FB15D0
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x1181BC4
+    // Offset: 0x1FB15D8
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x1181BCC
+    // Offset: 0x1FB15E0
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

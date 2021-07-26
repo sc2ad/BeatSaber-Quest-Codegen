@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Scrollbar
 #include "UnityEngine/UI/Scrollbar.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -90,26 +91,26 @@ namespace UnityEngine::UI {
     // Set instance field: public UnityEngine.Camera camera
     void _set_camera(UnityEngine::Camera* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x198DE20
+    // Offset: 0x1660224
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x198DE88
+    // Offset: 0x166028C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x198D194
+    // Offset: 0x165F598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Scrollbar::$ClickRepeat$d__58* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Scrollbar::$ClickRepeat$d__58*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x198DC78
+    // Offset: 0x166007C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x198DC7C
+    // Offset: 0x1660080
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x198DE28
+    // Offset: 0x166022C
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.Scrollbar/UnityEngine.UI.<ClickRepeat>d__58
   #pragma pack(pop)

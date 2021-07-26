@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseStateTransition
 #include "GlobalNamespace/BaseStateTransition.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -19,7 +20,7 @@ namespace GlobalNamespace {
   template<typename T>
   class BaseStateTransition_1 : public GlobalNamespace::BaseStateTransition {
     public:
-    // [SpaceAttribute] Offset: 0xE0BF14
+    // [SpaceAttribute] Offset: 0xEB8B30
     // protected T _component
     // Size: 0xFFFFFFFF
     // Offset: 0x0

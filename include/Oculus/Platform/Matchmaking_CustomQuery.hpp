@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Matchmaking
 #include "Oculus/Platform/Matchmaking.hpp"
 // Including type: System.ValueType
@@ -84,7 +85,7 @@ namespace Oculus::Platform {
       // Set instance field: public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
       void _set_parameters(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
-      // Offset: 0xEDA3A8
+      // Offset: 0xF7D7F0
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Matchmaking::CustomQuery::Criterion::.ctor");
@@ -118,10 +119,10 @@ namespace Oculus::Platform {
     // Set instance field: public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
     void _set_criteria(::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* value);
     // public System.IntPtr ToUnmanaged()
-    // Offset: 0x149970C
+    // Offset: 0x20F5580
     System::IntPtr ToUnmanaged();
     // public System.Void .ctor()
-    // Offset: 0x149ABE8
+    // Offset: 0x20F6A5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

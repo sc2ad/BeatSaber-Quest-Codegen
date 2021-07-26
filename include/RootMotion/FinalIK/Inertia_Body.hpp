@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Inertia
 #include "RootMotion/FinalIK/Inertia.hpp"
 // Including type: UnityEngine.Vector3
@@ -35,43 +36,43 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Inertia::Body::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xDF82E0
+    // [TooltipAttribute] Offset: 0xEA4EFC
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF8318
+    // [TooltipAttribute] Offset: 0xEA4F34
     // public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>* effectorLinks;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::Inertia::Body::EffectorLink*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF8350
+    // [TooltipAttribute] Offset: 0xEA4F6C
     // public System.Single speed
     // Size: 0x4
     // Offset: 0x20
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF8388
+    // [TooltipAttribute] Offset: 0xEA4FA4
     // public System.Single acceleration
     // Size: 0x4
     // Offset: 0x24
     float acceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF83C0
-    // [RangeAttribute] Offset: 0xDF83C0
+    // [TooltipAttribute] Offset: 0xEA4FDC
+    // [RangeAttribute] Offset: 0xEA4FDC
     // public System.Single matchVelocity
     // Size: 0x4
     // Offset: 0x28
     float matchVelocity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF8414
+    // [TooltipAttribute] Offset: 0xEA5030
     // public System.Single gravity
     // Size: 0x4
     // Offset: 0x2C
@@ -155,13 +156,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean firstUpdate
     void _set_firstUpdate(bool value);
     // public System.Void Reset()
-    // Offset: 0x1E31C14
+    // Offset: 0x1992EA8
     void Reset();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, System.Single deltaTime)
-    // Offset: 0x1E31DAC
+    // Offset: 0x1993040
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x1E3212C
+    // Offset: 0x19933C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

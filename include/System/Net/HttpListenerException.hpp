@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.Win32Exception
 #include "System/ComponentModel/Win32Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace System::Net {
     // Creating value type constructor for type: HttpListenerException
     HttpListenerException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1634E1C
+    // Offset: 0x13374D8
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor()
     // Base method: System.Void ExternalException::.ctor()
@@ -42,7 +43,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerException*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 errorCode, System.String message)
-    // Offset: 0x1634EB8
+    // Offset: 0x1337574
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +52,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerException*, creationType>(errorCode, message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1634F38
+    // Offset: 0x13375F4
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

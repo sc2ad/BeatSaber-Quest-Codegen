@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -227,14 +228,14 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFE894
+    // [SpaceAttribute] Offset: 0xEAB4B0
     // private AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFE8CC
+    // [SpaceAttribute] Offset: 0xEAB4E8
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x88
@@ -253,7 +254,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFE924
+    // [SpaceAttribute] Offset: 0xEAB540
     // private TimeHelper _timeHelperPrefab
     // Size: 0x8
     // Offset: 0xA0
@@ -338,21 +339,21 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassLightsUpdateSystem* lightsUpdateSystemPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassLightsUpdateSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEA2C
+    // [SpaceAttribute] Offset: 0xEAB648
     // private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x110
     GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEA64
+    // [SpaceAttribute] Offset: 0xEAB680
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x118
     GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AlwaysOwnedContentContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEA9C
+    // [SpaceAttribute] Offset: 0xEAB6B8
     // private PSVRHelper _psVRHelperPrefab
     // Size: 0x8
     // Offset: 0x120
@@ -377,7 +378,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DevicelessVRHelper*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEB04
+    // [SpaceAttribute] Offset: 0xEAB720
     // private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
     // Size: 0x8
     // Offset: 0x140
@@ -402,7 +403,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamPlatformAdditionalContentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEB6C
+    // [SpaceAttribute] Offset: 0xEAB788
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
     // Offset: 0x160
@@ -445,7 +446,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEC04
+    // [SpaceAttribute] Offset: 0xEAB820
     // private NetworkConfigSO _networkConfig
     // Size: 0x8
     // Offset: 0x198
@@ -470,14 +471,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PS4NetworkPlayerModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEC6C
+    // [SpaceAttribute] Offset: 0xEAB888
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x1B8
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFECA4
+    // [SpaceAttribute] Offset: 0xEAB8C0
     // private LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x1C0
@@ -735,28 +736,28 @@ namespace GlobalNamespace {
     // Set instance field: private MockPlayersModel _mockPlayersModel
     void _set__mockPlayersModel(GlobalNamespace::MockPlayersModel* value);
     // public System.Void Init()
-    // Offset: 0x117D844
+    // Offset: 0x1FAD258
     void Init();
     // public System.Void PreInstall(MockPlayersModel mockPlayersModel)
-    // Offset: 0x117DBFC
+    // Offset: 0x1FAD610
     void PreInstall(GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x117DC04
+    // Offset: 0x1FAD618
     void InstallBindings(Zenject::DiContainer* container);
     // private System.Void InstallRichPresence(Zenject.DiContainer container)
-    // Offset: 0x117EB6C
+    // Offset: 0x1FAE580
     void InstallRichPresence(Zenject::DiContainer* container);
     // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
-    // Offset: 0x117EA90
+    // Offset: 0x1FAE4A4
     void InstallOculusDestinationBindings(Zenject::DiContainer* container);
     // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
-    // Offset: 0x117EC2C
+    // Offset: 0x1FAE640
     void InstallPlatformLeaderboardsModel(Zenject::DiContainer* container);
     // private System.Boolean IsRunningFromNUnit()
-    // Offset: 0x117EA88
+    // Offset: 0x1FAE49C
     bool IsRunningFromNUnit();
     // public System.Void .ctor()
-    // Offset: 0x117ED70
+    // Offset: 0x1FAE784
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

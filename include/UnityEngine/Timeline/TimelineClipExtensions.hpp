@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -35,16 +36,16 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.String k_UndoSetParentTrackText
     static void _set_k_UndoSetParentTrackText(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x231949C
+    // Offset: 0x1DA7F7C
     static void _cctor();
     // static public System.Void MoveToTrack(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack)
-    // Offset: 0x23188B4
+    // Offset: 0x1DA7394
     static void MoveToTrack(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Timeline::TrackAsset* destinationTrack);
     // static public System.Boolean TryMoveToTrack(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack)
-    // Offset: 0x2318FC8
+    // Offset: 0x1DA7AA8
     static bool TryMoveToTrack(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Timeline::TrackAsset* destinationTrack);
     // static private System.Void MoveToTrack_Impl(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack, UnityEngine.Object asset, UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x2318E9C
+    // Offset: 0x1DA797C
     static void MoveToTrack_Impl(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Timeline::TrackAsset* destinationTrack, UnityEngine::Object* asset, UnityEngine::Timeline::TrackAsset* parentTrack);
   }; // UnityEngine.Timeline.TimelineClipExtensions
   #pragma pack(pop)

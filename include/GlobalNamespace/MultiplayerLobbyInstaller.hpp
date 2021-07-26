@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,7 +52,7 @@ namespace GlobalNamespace {
     // Set instance field: private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab
     void _set__multiplayerAvatarPlacePrefab(GlobalNamespace::MultiplayerLobbyAvatarPlace* value);
     // public System.Void .ctor()
-    // Offset: 0x23D1634
+    // Offset: 0x1E740F8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x23D1570
+    // Offset: 0x1E74034
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

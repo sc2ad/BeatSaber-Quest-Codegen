@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseTransitionSO
 #include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -154,43 +155,43 @@ namespace GlobalNamespace {
     // Set instance field: private ColorSO _selectedAndHighlightedColor2
     void _set__selectedAndHighlightedColor2(GlobalNamespace::ColorSO* value);
     // public UnityEngine.Color get_normalColor1()
-    // Offset: 0x10E7EEC
+    // Offset: 0x1F39F00
     UnityEngine::Color get_normalColor1();
     // public UnityEngine.Color get_normalColor2()
-    // Offset: 0x10E7EF8
+    // Offset: 0x1F39F0C
     UnityEngine::Color get_normalColor2();
     // public UnityEngine.Color get_highlightColor1()
-    // Offset: 0x10E7F04
+    // Offset: 0x1F39F18
     UnityEngine::Color get_highlightColor1();
     // public UnityEngine.Color get_highlightColor2()
-    // Offset: 0x10E7F10
+    // Offset: 0x1F39F24
     UnityEngine::Color get_highlightColor2();
     // public UnityEngine.Color get_pressedColor1()
-    // Offset: 0x10E7F1C
+    // Offset: 0x1F39F30
     UnityEngine::Color get_pressedColor1();
     // public UnityEngine.Color get_pressedColor2()
-    // Offset: 0x10E7F28
+    // Offset: 0x1F39F3C
     UnityEngine::Color get_pressedColor2();
     // public UnityEngine.Color get_disabledColor1()
-    // Offset: 0x10E7F34
+    // Offset: 0x1F39F48
     UnityEngine::Color get_disabledColor1();
     // public UnityEngine.Color get_disabledColor2()
-    // Offset: 0x10E7F40
+    // Offset: 0x1F39F54
     UnityEngine::Color get_disabledColor2();
     // public UnityEngine.Color get_selectedColor1()
-    // Offset: 0x10E7F4C
+    // Offset: 0x1F39F60
     UnityEngine::Color get_selectedColor1();
     // public UnityEngine.Color get_selectedColor2()
-    // Offset: 0x10E7F58
+    // Offset: 0x1F39F6C
     UnityEngine::Color get_selectedColor2();
     // public UnityEngine.Color get_selectedAndHighlightedColor1()
-    // Offset: 0x10E7F64
+    // Offset: 0x1F39F78
     UnityEngine::Color get_selectedAndHighlightedColor1();
     // public UnityEngine.Color get_selectedAndHighlightedColor2()
-    // Offset: 0x10E7F70
+    // Offset: 0x1F39F84
     UnityEngine::Color get_selectedAndHighlightedColor2();
     // public System.Void .ctor()
-    // Offset: 0x10E7F7C
+    // Offset: 0x1F39F90
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

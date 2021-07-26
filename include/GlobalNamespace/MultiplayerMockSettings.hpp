@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -105,37 +106,37 @@ namespace GlobalNamespace {
     // Set instance field: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
     void _set__masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
     // public MockServerSettings get_quickplayServer()
-    // Offset: 0x23D932C
+    // Offset: 0x1E7BDF0
     GlobalNamespace::MockServerSettings* get_quickplayServer();
     // public MockPlayerSettings get_localPlayer()
-    // Offset: 0x23D9334
+    // Offset: 0x1E7BDF8
     GlobalNamespace::MockPlayerSettings* get_localPlayer();
     // public MasterServerQuickPlaySetupData get_masterServerQuickPlaySetupData()
-    // Offset: 0x23D9400
+    // Offset: 0x1E7BEC4
     GlobalNamespace::MasterServerQuickPlaySetupData* get_masterServerQuickPlaySetupData();
     // public System.Void set_masterServerQuickPlaySetupData(MasterServerQuickPlaySetupData value)
-    // Offset: 0x23D9408
+    // Offset: 0x1E7BECC
     void set_masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
     // public MasterServerAvailabilityData get_masterServerAvailabilityData()
-    // Offset: 0x23D9410
+    // Offset: 0x1E7BED4
     GlobalNamespace::MasterServerAvailabilityData* get_masterServerAvailabilityData();
     // public System.Void set_masterServerAvailabilityData(MasterServerAvailabilityData value)
-    // Offset: 0x23D9418
+    // Offset: 0x1E7BEDC
     void set_masterServerAvailabilityData(GlobalNamespace::MasterServerAvailabilityData* value);
     // public System.Collections.Generic.List`1<MockPlayerSettings> get_otherPlayers()
-    // Offset: 0x23D9420
+    // Offset: 0x1E7BEE4
     System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x23D9428
+    // Offset: 0x1E7BEEC
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x23D9430
+    // Offset: 0x1E7BEF4
     void set_isEnabled(bool value);
     // static public MultiplayerMockSettings SharedSettings()
-    // Offset: 0x23D943C
+    // Offset: 0x1E7BF00
     static GlobalNamespace::MultiplayerMockSettings* SharedSettings();
     // public System.Void .ctor()
-    // Offset: 0x23D9444
+    // Offset: 0x1E7BF08
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

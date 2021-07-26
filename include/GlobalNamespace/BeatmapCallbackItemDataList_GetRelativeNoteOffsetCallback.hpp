@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapCallbackItemDataList
 #include "GlobalNamespace/BeatmapCallbackItemDataList.hpp"
 // Including type: System.MulticastDelegate
@@ -43,20 +44,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetRelativeNoteOffsetCallback
     GetRelativeNoteOffsetCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x118AA44
+    // Offset: 0x1FD057C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*, creationType>(object, method)));
     }
     // public UnityEngine.Vector2 Invoke(System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x118A3BC
+    // Offset: 0x1FCFEF4
     UnityEngine::Vector2 Invoke(int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.IAsyncResult BeginInvoke(System.Int32 lineIndex, NoteLineLayer noteLineLayer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x118AA54
+    // Offset: 0x1FD058C
     System::IAsyncResult* BeginInvoke(int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Vector2 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x118AAFC
+    // Offset: 0x1FD0634
     UnityEngine::Vector2 EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback
   #pragma pack(pop)

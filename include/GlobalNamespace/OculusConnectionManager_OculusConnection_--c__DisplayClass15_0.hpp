@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusConnectionManager/OculusConnection
 #include "GlobalNamespace/OculusConnectionManager_OculusConnection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -62,10 +63,10 @@ namespace GlobalNamespace {
     // Set instance field: public OculusConnectionManager/OculusConnection <>4__this
     void _set_$$4__this(GlobalNamespace::OculusConnectionManager::OculusConnection* value);
     // System.Void <Ping>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.PingResult> result)
-    // Offset: 0x11F0E80
+    // Offset: 0x201F7D8
     void $Ping$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>* result);
     // public System.Void .ctor()
-    // Offset: 0x11F0C7C
+    // Offset: 0x201F5D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

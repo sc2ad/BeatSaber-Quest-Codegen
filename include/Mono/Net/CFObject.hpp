@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
@@ -42,53 +43,53 @@ namespace Mono::Net {
     // Set instance field: private System.IntPtr <Handle>k__BackingField
     void _set_$Handle$k__BackingField(System::IntPtr value);
     // public System.IntPtr get_Handle()
-    // Offset: 0x15A896C
+    // Offset: 0x12ABF3C
     System::IntPtr get_Handle();
     // private System.Void set_Handle(System.IntPtr value)
-    // Offset: 0x15A8974
+    // Offset: 0x12ABF44
     void set_Handle(System::IntPtr value);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x15A5658
+    // Offset: 0x12A8C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFObject* New_ctor(System::IntPtr handle, bool own) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFObject*, creationType>(handle, own)));
     }
     // static public System.IntPtr dlopen(System.String path, System.Int32 mode)
-    // Offset: 0x15A5774
+    // Offset: 0x12A8D44
     static System::IntPtr dlopen(::Il2CppString* path, int mode);
     // static private System.IntPtr dlsym(System.IntPtr handle, System.String symbol)
-    // Offset: 0x15A879C
+    // Offset: 0x12ABD6C
     static System::IntPtr dlsym(System::IntPtr handle, ::Il2CppString* symbol);
     // static public System.Void dlclose(System.IntPtr handle)
-    // Offset: 0x15A5820
+    // Offset: 0x12A8DF0
     static void dlclose(System::IntPtr handle);
     // static public System.IntPtr GetIndirect(System.IntPtr handle, System.String symbol)
-    // Offset: 0x15A581C
+    // Offset: 0x12A8DEC
     static System::IntPtr GetIndirect(System::IntPtr handle, ::Il2CppString* symbol);
     // static public System.IntPtr GetCFObjectHandle(System.IntPtr handle, System.String symbol)
-    // Offset: 0x15A8848
+    // Offset: 0x12ABE18
     static System::IntPtr GetCFObjectHandle(System::IntPtr handle, ::Il2CppString* symbol);
     // static System.IntPtr CFRetain(System.IntPtr handle)
-    // Offset: 0x15A897C
+    // Offset: 0x12ABF4C
     static System::IntPtr CFRetain(System::IntPtr handle);
     // private System.Void Retain()
-    // Offset: 0x15A88F0
+    // Offset: 0x12ABEC0
     void Retain();
     // static System.Void CFRelease(System.IntPtr handle)
-    // Offset: 0x15A89F8
+    // Offset: 0x12ABFC8
     static void CFRelease(System::IntPtr handle);
     // private System.Void Release()
-    // Offset: 0x15A8A78
+    // Offset: 0x12AC048
     void Release();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15A8A80
+    // Offset: 0x12AC050
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x15A67E0
+    // Offset: 0x12A9DB0
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x15A88F8
+    // Offset: 0x12ABEC8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

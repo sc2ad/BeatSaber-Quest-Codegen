@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE05504
+    // [InjectAttribute] Offset: 0xEB2120
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
@@ -54,16 +55,16 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapObjectCallbackController _beatmapObjectCallbackController
     void _set__beatmapObjectCallbackController(GlobalNamespace::BeatmapObjectCallbackController* value);
     // protected System.Void Awake()
-    // Offset: 0x112FA98
+    // Offset: 0x1F604AC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x112FBC4
+    // Offset: 0x1F605D8
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveWasCleared()
-    // Offset: 0x112FCF0
+    // Offset: 0x1F60704
     void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
     // public System.Void .ctor()
-    // Offset: 0x112FD6C
+    // Offset: 0x1F60780
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

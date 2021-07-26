@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Ray
@@ -100,7 +101,7 @@ namespace VRUIControls {
       // Set instance field: public readonly System.Int32 layerMask
       void _set_layerMask(int value);
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-      // Offset: 0xF0D20C
+      // Offset: 0xD92DC8
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask)
     }; // VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast
@@ -130,10 +131,10 @@ namespace VRUIControls {
     // Set instance field: private System.Int32 _lastFrameCount
     void _set__lastFrameCount(int value);
     // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x23438FC
-    bool Raycast(UnityEngine::Ray ray, UnityEngine::RaycastHit& hitInfo, float maxDistance, int layerMask);
+    // Offset: 0x1DC9D3C
+    bool Raycast(UnityEngine::Ray ray, ByRef<UnityEngine::RaycastHit> hitInfo, float maxDistance, int layerMask);
     // public System.Void .ctor()
-    // Offset: 0x2343DA0
+    // Offset: 0x1DCA1E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -152,7 +153,7 @@ DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "
 // Writing MetadataGetter for method: VRUIControls::PhysicsRaycasterWithCache::Raycast
 // Il2CppName: Raycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::PhysicsRaycasterWithCache::*)(UnityEngine::Ray, UnityEngine::RaycastHit&, float, int)>(&VRUIControls::PhysicsRaycasterWithCache::Raycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::PhysicsRaycasterWithCache::*)(UnityEngine::Ray, ByRef<UnityEngine::RaycastHit>, float, int)>(&VRUIControls::PhysicsRaycasterWithCache::Raycast)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;

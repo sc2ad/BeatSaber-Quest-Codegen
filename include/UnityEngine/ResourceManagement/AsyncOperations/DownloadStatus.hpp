@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -53,7 +54,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Set instance field: public System.Boolean IsDone
     void _set_IsDone(bool value);
     // public System.Single get_Percent()
-    // Offset: 0xEEBF20
+    // Offset: 0xD7FED8
     float get_Percent();
   }; // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
   #pragma pack(pop)

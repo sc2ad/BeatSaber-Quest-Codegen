@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LeaderboardsModelLegacyWrapper
 #include "GlobalNamespace/LeaderboardsModelLegacyWrapper.hpp"
 // Including type: System.ValueType
@@ -108,10 +109,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.SendLeaderboardEntryResult> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult> value);
     // private System.Void MoveNext()
-    // Offset: 0xED0E0C
+    // Offset: 0xF7C3A8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED0E14
+    // Offset: 0xF7C3B0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LeaderboardsModelLegacyWrapper/<SendLevelScoreResutlAsync>d__5
   // WARNING Not writing size check since size may be invalid!

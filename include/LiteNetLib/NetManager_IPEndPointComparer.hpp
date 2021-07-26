@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NetManager
 #include "LiteNetLib/NetManager.hpp"
 // Including type: System.Collections.Generic.IEqualityComparer`1
@@ -35,13 +36,13 @@ namespace LiteNetLib {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<System::Net::IPEndPoint*>*>(this);
     }
     // public System.Boolean Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
-    // Offset: 0x1BB84EC
+    // Offset: 0x17AB884
     bool Equals(System::Net::IPEndPoint* x, System::Net::IPEndPoint* y);
     // public System.Int32 GetHashCode(System.Net.IPEndPoint obj)
-    // Offset: 0x1BB854C
+    // Offset: 0x17AB8E4
     int GetHashCode(System::Net::IPEndPoint* obj);
     // public System.Void .ctor()
-    // Offset: 0x1BB2E6C
+    // Offset: 0x17A6204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

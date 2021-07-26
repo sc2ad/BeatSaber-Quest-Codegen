@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,19 +42,19 @@ namespace GlobalNamespace {
     // Set instance field: private StepValuePicker _stepValuePicker
     void _set__stepValuePicker(GlobalNamespace::StepValuePicker* value);
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x10ECE98
+    // Offset: 0x1F3EEAC
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x10ECEB8
+    // Offset: 0x1F3EECC
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
-    // Offset: 0x10ECED8
+    // Offset: 0x1F3EEEC
     void set_text(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0x10ECEF4
+    // Offset: 0x1F3EF08
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10ECFB8
+    // Offset: 0x1F3EFCC
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFF
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0x10ED0C0
+    // Offset: 0x1F3F0D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

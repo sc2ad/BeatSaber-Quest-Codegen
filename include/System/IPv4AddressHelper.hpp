@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -16,25 +17,25 @@ namespace System {
     // Creating value type constructor for type: IPv4AddressHelper
     IPv4AddressHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean isLoopback)
-    // Offset: 0x185790C
-    static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, bool& isLoopback);
+    // Offset: 0x1528D10
+    static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> isLoopback);
     // static System.Int32 ParseHostNumber(System.String str, System.Int32 start, System.Int32 end)
-    // Offset: 0x1857C0C
+    // Offset: 0x1529010
     static int ParseHostNumber(::Il2CppString* str, int start, int end);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile, System.Boolean unknownScheme)
-    // Offset: 0x1857CFC
-    static bool IsValid(::Il2CppChar* name, int start, int& end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
+    // Offset: 0x1529100
+    static bool IsValid(::Il2CppChar* name, int start, ByRef<int> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
     // static System.Boolean IsValidCanonical(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile)
-    // Offset: 0x1857D30
-    static bool IsValidCanonical(::Il2CppChar* name, int start, int& end, bool allowIPv6, bool notImplicitFile);
+    // Offset: 0x1529134
+    static bool IsValidCanonical(::Il2CppChar* name, int start, ByRef<int> end, bool allowIPv6, bool notImplicitFile);
     // static System.Int64 ParseNonCanonical(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean notImplicitFile)
-    // Offset: 0x1857E70
-    static int64_t ParseNonCanonical(::Il2CppChar* name, int start, int& end, bool notImplicitFile);
+    // Offset: 0x1529274
+    static int64_t ParseNonCanonical(::Il2CppChar* name, int start, ByRef<int> end, bool notImplicitFile);
     // static private System.Boolean Parse(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0x1857B7C
+    // Offset: 0x1528F80
     static bool Parse(::Il2CppString* name, uint8_t* numbers, int start, int end);
     // static private System.Boolean ParseCanonical(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0x1857C40
+    // Offset: 0x1529044
     static bool ParseCanonical(::Il2CppString* name, uint8_t* numbers, int start, int end);
   }; // System.IPv4AddressHelper
   #pragma pack(pop)
@@ -45,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IPv4AddressHelper*, "System", "IPv4AddressHelper"
 // Writing MetadataGetter for method: System::IPv4AddressHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, bool&)>(&System::IPv4AddressHelper::ParseCanonicalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, ByRef<bool>)>(&System::IPv4AddressHelper::ParseCanonicalName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::IPv4AddressHelper::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&, bool, bool, bool)>(&System::IPv4AddressHelper::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, ByRef<int>, bool, bool, bool)>(&System::IPv4AddressHelper::IsValid)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -82,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IPv4AddressHelper::IsValidCanonical
 // Il2CppName: IsValidCanonical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&, bool, bool)>(&System::IPv4AddressHelper::IsValidCanonical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, ByRef<int>, bool, bool)>(&System::IPv4AddressHelper::IsValidCanonical)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IPv4AddressHelper::ParseNonCanonical
 // Il2CppName: ParseNonCanonical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppChar*, int, int&, bool)>(&System::IPv4AddressHelper::ParseNonCanonical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppChar*, int, ByRef<int>, bool)>(&System::IPv4AddressHelper::ParseNonCanonical)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.Tasks.Task`1
 #include "System/Threading/Tasks/Task_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,9 +52,9 @@ namespace System::Threading::Tasks {
     // public System.Void .ctor(System.Threading.Tasks.Task`1<TAntecedentResult> antecedent, System.Delegate function, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>* New_ctor(System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, System::Delegate* function, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark) {
+    static ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>* New_ctor(System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, System::Delegate* function, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, ByRef<System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ContinuationResultTaskFromResultTask_2::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*, creationType>(antecedent, function, state, creationOptions, internalOptions, stackMark)));
+      return THROW_UNLESS((::il2cpp_utils::New<ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*, creationType>(antecedent, function, state, creationOptions, internalOptions, byref(stackMark))));
     }
     // override System.Void InnerInvoke()
     // Offset: 0xFFFFFFFF

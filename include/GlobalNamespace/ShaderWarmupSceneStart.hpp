@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -35,14 +36,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2
     class $Start$d__2;
-    // [InjectAttribute] Offset: 0xE136E8
+    // [InjectAttribute] Offset: 0xEC0304
     // private readonly ShaderWarmupSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ShaderWarmupSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ShaderWarmupSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE136F8
+    // [InjectAttribute] Offset: 0xEC0314
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -62,10 +63,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly GameScenesManager _gameScenesManager
     void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x105347C
+    // Offset: 0x1EBDF50
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x1053518
+    // Offset: 0x1EBDFEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.StoreLocation
@@ -100,29 +101,29 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set instance field: private Mono.Security.X509.X509Store store
     void _set_store(Mono::Security::X509::X509Store* value);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
-    // Offset: 0x182F558
+    // Offset: 0x150095C
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
     // private Mono.Security.X509.X509Stores get_Factory()
-    // Offset: 0x1833B60
+    // Offset: 0x1504F64
     Mono::Security::X509::X509Stores* get_Factory();
     // Mono.Security.X509.X509Store get_Store()
-    // Offset: 0x1833B7C
+    // Offset: 0x1504F80
     Mono::Security::X509::X509Store* get_Store();
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation)
-    // Offset: 0x182F894
+    // Offset: 0x1500C98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(storeName, storeLocation)));
     }
     // public System.Void Close()
-    // Offset: 0x182F288
+    // Offset: 0x150068C
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x1833B84
+    // Offset: 0x1504F88
     void Dispose();
     // public System.Void Open(System.Security.Cryptography.X509Certificates.OpenFlags flags)
-    // Offset: 0x182F9D0
+    // Offset: 0x1500DD4
     void Open(System::Security::Cryptography::X509Certificates::OpenFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509Store
   #pragma pack(pop)

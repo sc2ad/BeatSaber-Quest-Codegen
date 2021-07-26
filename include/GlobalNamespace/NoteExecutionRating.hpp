@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectExecutionRating
 #include "GlobalNamespace/BeatmapObjectExecutionRating.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -128,37 +129,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <cutDirDeviation>k__BackingField
     void _set_$cutDirDeviation$k__BackingField(float value);
     // public NoteExecutionRating/Rating get_rating()
-    // Offset: 0x11E424C
+    // Offset: 0x2012BA4
     GlobalNamespace::NoteExecutionRating::Rating get_rating();
     // public System.Void set_rating(NoteExecutionRating/Rating value)
-    // Offset: 0x11E4254
+    // Offset: 0x2012BAC
     void set_rating(GlobalNamespace::NoteExecutionRating::Rating value);
     // public System.Int32 get_cutScore()
-    // Offset: 0x11E425C
+    // Offset: 0x2012BB4
     int get_cutScore();
     // public System.Void set_cutScore(System.Int32 value)
-    // Offset: 0x11E4264
+    // Offset: 0x2012BBC
     void set_cutScore(int value);
     // public System.Int32 get_cutDistanceScore()
-    // Offset: 0x11E426C
+    // Offset: 0x2012BC4
     int get_cutDistanceScore();
     // public System.Void set_cutDistanceScore(System.Int32 value)
-    // Offset: 0x11E4274
+    // Offset: 0x2012BCC
     void set_cutDistanceScore(int value);
     // public System.Single get_cutTimeDeviation()
-    // Offset: 0x11E427C
+    // Offset: 0x2012BD4
     float get_cutTimeDeviation();
     // public System.Void set_cutTimeDeviation(System.Single value)
-    // Offset: 0x11E4284
+    // Offset: 0x2012BDC
     void set_cutTimeDeviation(float value);
     // public System.Single get_cutDirDeviation()
-    // Offset: 0x11E428C
+    // Offset: 0x2012BE4
     float get_cutDirDeviation();
     // public System.Void set_cutDirDeviation(System.Single value)
-    // Offset: 0x11E4294
+    // Offset: 0x2012BEC
     void set_cutDirDeviation(float value);
     // public System.Void .ctor(System.Single time, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Int32 cutDistanceScore, System.Single cutTimeDeviation, System.Single cutDirDeviation)
-    // Offset: 0x11E429C
+    // Offset: 0x2012BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, int cutDistanceScore, float cutTimeDeviation, float cutDirDeviation) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteExecutionRating::.ctor");

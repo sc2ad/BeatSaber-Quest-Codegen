@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ArgumentException
 #include "System/ArgumentException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: InvalidTypeException
     InvalidTypeException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1BBDD80
+    // Offset: 0x17B1118
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

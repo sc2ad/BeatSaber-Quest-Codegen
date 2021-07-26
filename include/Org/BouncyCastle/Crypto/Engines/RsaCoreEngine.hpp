@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IRsa
 #include "Org/BouncyCastle/Crypto/IRsa.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,28 +76,28 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.Int32 bitSize
     void _set_bitSize(int value);
     // private System.Void CheckInitialised()
-    // Offset: 0x1E52D64
+    // Offset: 0x19B2FF8
     void CheckInitialised();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E52DE8
+    // Offset: 0x19B307C
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1E52F0C
+    // Offset: 0x19B31A0
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1E52F54
+    // Offset: 0x19B31E8
     int GetOutputBlockSize();
     // public Org.BouncyCastle.Math.BigInteger ConvertInput(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1E52F9C
+    // Offset: 0x19B3230
     Org::BouncyCastle::Math::BigInteger* ConvertInput(::Array<uint8_t>* inBuf, int inOff, int inLen);
     // public System.Byte[] ConvertOutput(Org.BouncyCastle.Math.BigInteger result)
-    // Offset: 0x1E530B0
+    // Offset: 0x19B3344
     ::Array<uint8_t>* ConvertOutput(Org::BouncyCastle::Math::BigInteger* result);
     // public Org.BouncyCastle.Math.BigInteger ProcessBlock(Org.BouncyCastle.Math.BigInteger input)
-    // Offset: 0x1E53184
+    // Offset: 0x19B3418
     Org::BouncyCastle::Math::BigInteger* ProcessBlock(Org::BouncyCastle::Math::BigInteger* input);
     // public System.Void .ctor()
-    // Offset: 0x1E5257C
+    // Offset: 0x19B2810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

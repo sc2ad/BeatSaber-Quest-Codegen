@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.Reflect
 #include "NUnit/Framework/Internal/Reflect.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,10 +61,10 @@ namespace NUnit::Framework::Internal {
     // Set instance field: public System.Object[] args
     void _set_args(::Array<::Il2CppObject*>* value);
     // System.Object <InvokeMethod>b__0()
-    // Offset: 0x223D3B8
+    // Offset: 0x1D0D22C
     ::Il2CppObject* $InvokeMethod$b__0();
     // public System.Void .ctor()
-    // Offset: 0x223D26C
+    // Offset: 0x1D0D0E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

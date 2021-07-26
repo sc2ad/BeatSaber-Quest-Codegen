@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.OSSpecificSynchronizationContext
 #include "System/Threading/OSSpecificSynchronizationContext.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace System::Threading {
     // Creating value type constructor for type: InvocationEntryDelegate
     InvocationEntryDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18A78AC
+    // Offset: 0x1578CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext::InvocationEntryDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext::InvocationEntryDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.IntPtr arg)
-    // Offset: 0x18A7DF0
+    // Offset: 0x15791F4
     void Invoke(System::IntPtr arg);
     // public System.IAsyncResult BeginInvoke(System.IntPtr arg, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x18A804C
+    // Offset: 0x1579450
     System::IAsyncResult* BeginInvoke(System::IntPtr arg, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x18A80D8
+    // Offset: 0x15794DC
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.OSSpecificSynchronizationContext/System.Threading.InvocationEntryDelegate
   #pragma pack(pop)

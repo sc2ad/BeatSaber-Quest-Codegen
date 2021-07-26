@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.IconSegmentedControl
 #include "HMUI/IconSegmentedControl.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,19 +50,19 @@ namespace HMUI {
     // Set instance field: private System.String <hintText>k__BackingField
     void _set_$hintText$k__BackingField(::Il2CppString* value);
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x1311C90
+    // Offset: 0x10D3C00
     UnityEngine::Sprite* get_icon();
     // private System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x1311C98
+    // Offset: 0x10D3C08
     void set_icon(UnityEngine::Sprite* value);
     // public System.String get_hintText()
-    // Offset: 0x1311CA0
+    // Offset: 0x10D3C10
     ::Il2CppString* get_hintText();
     // private System.Void set_hintText(System.String value)
-    // Offset: 0x1311CA8
+    // Offset: 0x10D3C18
     void set_hintText(::Il2CppString* value);
     // public System.Void .ctor(UnityEngine.Sprite icon, System.String hintText)
-    // Offset: 0x1311CB0
+    // Offset: 0x10D3C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IconSegmentedControl::DataItem* New_ctor(UnityEngine::Sprite* icon, ::Il2CppString* hintText) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::IconSegmentedControl::DataItem::.ctor");

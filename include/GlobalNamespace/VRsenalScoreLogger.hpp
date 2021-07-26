@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,21 +38,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VRsenalScoreLogger::$Start$d__3
     class $Start$d__3;
-    // [InjectAttribute] Offset: 0xDFE6B4
+    // [InjectAttribute] Offset: 0xEAB2D0
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE6C4
+    // [InjectAttribute] Offset: 0xEAB2E0
     // private IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE6D4
+    // [InjectAttribute] Offset: 0xEAB2F0
     // private ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x28
@@ -75,19 +76,19 @@ namespace GlobalNamespace {
     // Set instance field: private ILevelEndActions _levelEndActions
     void _set__levelEndActions(GlobalNamespace::ILevelEndActions* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x127C410
+    // Offset: 0x2070390
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x127C4AC
+    // Offset: 0x207042C
     void OnDestroy();
     // private System.Void HandleLevelFinishedEvent()
-    // Offset: 0x127C5A4
+    // Offset: 0x2070524
     void HandleLevelFinishedEvent();
     // private System.Void LogScore()
-    // Offset: 0x127C5A8
+    // Offset: 0x2070528
     void LogScore();
     // public System.Void .ctor()
-    // Offset: 0x127C6D0
+    // Offset: 0x2070650
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

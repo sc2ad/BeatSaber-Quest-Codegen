@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.EnumerableSetUpTearDownCommand
 #include "UnityEngine/TestTools/EnumerableSetUpTearDownCommand.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace UnityEngine::TestTools {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x148980C
+    // Offset: 0x11FA86C
     static void _cctor();
     // System.Boolean <GetMethodsWithAttributeFromFixture>b__1_0(System.Reflection.MethodInfo x)
-    // Offset: 0x1489878
+    // Offset: 0x11FA8D8
     bool $GetMethodsWithAttributeFromFixture$b__1_0(System::Reflection::MethodInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1489870
+    // Offset: 0x11FA8D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

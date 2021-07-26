@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,13 +50,13 @@ namespace System::Collections {
     // Set instance field: private System.Object _value
     void _set__value(::Il2CppObject* value);
     // public System.Object get_Key()
-    // Offset: 0xEE8890
+    // Offset: 0xD7C848
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0xEE8898
+    // Offset: 0xD7C850
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0xEE8888
+    // Offset: 0xD7C840
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value)
   }; // System.Collections.DictionaryEntry

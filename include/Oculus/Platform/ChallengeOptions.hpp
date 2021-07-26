@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,40 +51,40 @@ namespace Oculus::Platform {
     // Set instance field: private System.IntPtr Handle
     void _set_Handle(System::IntPtr value);
     // public System.Void SetDescription(System.String value)
-    // Offset: 0x14947D4
+    // Offset: 0x20F0648
     void SetDescription(::Il2CppString* value);
     // public System.Void SetEndDate(System.DateTime value)
-    // Offset: 0x1494850
+    // Offset: 0x20F06C4
     void SetEndDate(System::DateTime value);
     // public System.Void SetIncludeActiveChallenges(System.Boolean value)
-    // Offset: 0x14948CC
+    // Offset: 0x20F0740
     void SetIncludeActiveChallenges(bool value);
     // public System.Void SetIncludeFutureChallenges(System.Boolean value)
-    // Offset: 0x1494948
+    // Offset: 0x20F07BC
     void SetIncludeFutureChallenges(bool value);
     // public System.Void SetIncludePastChallenges(System.Boolean value)
-    // Offset: 0x14949C4
+    // Offset: 0x20F0838
     void SetIncludePastChallenges(bool value);
     // public System.Void SetLeaderboardName(System.String value)
-    // Offset: 0x1494A40
+    // Offset: 0x20F08B4
     void SetLeaderboardName(::Il2CppString* value);
     // public System.Void SetStartDate(System.DateTime value)
-    // Offset: 0x1494ABC
+    // Offset: 0x20F0930
     void SetStartDate(System::DateTime value);
     // public System.Void SetTitle(System.String value)
-    // Offset: 0x1494B38
+    // Offset: 0x20F09AC
     void SetTitle(::Il2CppString* value);
     // public System.Void SetViewerFilter(Oculus.Platform.ChallengeViewerFilter value)
-    // Offset: 0x1494BB4
+    // Offset: 0x20F0A28
     void SetViewerFilter(Oculus::Platform::ChallengeViewerFilter value);
     // public System.Void SetVisibility(Oculus.Platform.ChallengeVisibility value)
-    // Offset: 0x1494C30
+    // Offset: 0x20F0AA4
     void SetVisibility(Oculus::Platform::ChallengeVisibility value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ChallengeOptions options)
-    // Offset: 0x1494CAC
+    // Offset: 0x20F0B20
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x149475C
+    // Offset: 0x20F05D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -92,7 +93,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1494CFC
+    // Offset: 0x20F0B70
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

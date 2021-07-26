@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TestAnalyticsModel
 #include "GlobalNamespace/TestAnalyticsModel.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
@@ -41,13 +42,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppString*>, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x106B0D0
+    // Offset: 0x1ED6BA4
     static void _cctor();
     // System.String <LogEvent>b__3_0(System.Collections.Generic.KeyValuePair`2<System.String,System.String> kvp)
-    // Offset: 0x106B13C
+    // Offset: 0x1ED6C10
     ::Il2CppString* $LogEvent$b__3_0(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppString*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x106B134
+    // Offset: 0x1ED6C08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

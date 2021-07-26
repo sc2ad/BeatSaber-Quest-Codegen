@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -182,7 +183,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Color clothesDetailColor
     void _set_clothesDetailColor(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x10DE578
+    // Offset: 0x1F2F58C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

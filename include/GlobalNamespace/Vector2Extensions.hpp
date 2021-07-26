@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Vector2Extensions
     Vector2Extensions() noexcept {}
     // static public System.Single SignedAngleToLine(UnityEngine.Vector2 vec, UnityEngine.Vector2 line)
-    // Offset: 0x235DFDC
+    // Offset: 0x1DE641C
     static float SignedAngleToLine(UnityEngine::Vector2 vec, UnityEngine::Vector2 line);
   }; // Vector2Extensions
   #pragma pack(pop)

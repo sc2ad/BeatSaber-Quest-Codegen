@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -43,19 +44,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Int32 idRef
     void _set_idRef(int value);
     // System.Void Set(System.Int32 idRef)
-    // Offset: 0x15DCC0C
+    // Offset: 0x12E01DC
     void Set(int idRef);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x15DCC14
+    // Offset: 0x12E01E4
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x15DCC58
+    // Offset: 0x12E0228
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x15DCC98
+    // Offset: 0x12E0268
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15DCC04
+    // Offset: 0x12E01D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

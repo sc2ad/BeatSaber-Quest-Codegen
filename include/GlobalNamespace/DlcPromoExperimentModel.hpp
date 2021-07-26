@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DlcPromoExperimentDataSO
 #include "GlobalNamespace/DlcPromoExperimentDataSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,28 +50,28 @@ namespace GlobalNamespace {
     struct $InitAfterPlatformWasInitializedAsync$d__8;
     // Nested type: GlobalNamespace::DlcPromoExperimentModel::$UpdateNotOwnedPacksAsync$d__17
     struct $UpdateNotOwnedPacksAsync$d__17;
-    // [InjectAttribute] Offset: 0xE004E4
+    // [InjectAttribute] Offset: 0xEAD100
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE004F4
+    // [InjectAttribute] Offset: 0xEAD110
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IPlatformUserModel* platformUserModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPlatformUserModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE00504
+    // [InjectAttribute] Offset: 0xEAD120
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE00514
+    // [InjectAttribute] Offset: 0xEAD130
     // private DlcPromoExperimentDataSO _dlcPromoExperimentData
     // Size: 0x8
     // Offset: 0x28
@@ -138,40 +139,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Random _random
     void _set__random(System::Random* value);
     // public System.Void InitAfterPlatformWasInitializedAsync(System.Boolean force)
-    // Offset: 0x108AE08
+    // Offset: 0x1F0C704
     void InitAfterPlatformWasInitializedAsync(bool force);
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo GetPackDataForMainMenuPromoBanner(out System.Boolean probablyOwned)
-    // Offset: 0x108AED4
-    GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* GetPackDataForMainMenuPromoBanner(bool& probablyOwned);
+    // Offset: 0x1F0C7D0
+    GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* GetPackDataForMainMenuPromoBanner(ByRef<bool> probablyOwned);
     // public System.Void MainMenuDlcPromoBannerWasShown(IBeatmapLevelPack promoPack, System.String customText)
-    // Offset: 0x108B084
+    // Offset: 0x1F0C980
     void MainMenuDlcPromoBannerWasShown(GlobalNamespace::IBeatmapLevelPack* promoPack, ::Il2CppString* customText);
     // public System.Void MainMenuDlcPromoBannerWasPressed(IBeatmapLevelPack promoPack, System.String customText)
-    // Offset: 0x108B3C8
+    // Offset: 0x1F0CCC4
     void MainMenuDlcPromoBannerWasPressed(GlobalNamespace::IBeatmapLevelPack* promoPack, ::Il2CppString* customText);
     // public System.Void BuyLevelButtonWasPressed(IPreviewBeatmapLevel level, System.String page, System.String customText)
-    // Offset: 0x108B52C
+    // Offset: 0x1F0CE28
     void BuyLevelButtonWasPressed(GlobalNamespace::IPreviewBeatmapLevel* level, ::Il2CppString* page, ::Il2CppString* customText);
     // public System.Void BuyLevelButtonWasShown(IPreviewBeatmapLevel level, System.String page, System.String customText)
-    // Offset: 0x108B694
+    // Offset: 0x1F0CF90
     void BuyLevelButtonWasShown(GlobalNamespace::IPreviewBeatmapLevel* level, ::Il2CppString* page, ::Il2CppString* customText);
     // public System.Void BuyPackButtonWasPressed(IBeatmapLevelPack pack, System.String page, System.String customText)
-    // Offset: 0x108B7FC
+    // Offset: 0x1F0D0F8
     void BuyPackButtonWasPressed(GlobalNamespace::IBeatmapLevelPack* pack, ::Il2CppString* page, ::Il2CppString* customText);
     // public System.Void BuyPackButtonWasShown(IBeatmapLevelPack pack, System.String page, System.String customText)
-    // Offset: 0x108B964
+    // Offset: 0x1F0D260
     void BuyPackButtonWasShown(GlobalNamespace::IBeatmapLevelPack* pack, ::Il2CppString* page, ::Il2CppString* customText);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> GetExperimentEventData(System.String itemId, System.String page, System.String customText)
-    // Offset: 0x108B1E8
+    // Offset: 0x1F0CAE4
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetExperimentEventData(::Il2CppString* itemId, ::Il2CppString* page, ::Il2CppString* customText);
     // private System.Void UpdateNotOwnedPacksAsync()
-    // Offset: 0x108BACC
+    // Offset: 0x1F0D3C8
     void UpdateNotOwnedPacksAsync();
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x108BB84
+    // Offset: 0x1F0D480
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void .ctor()
-    // Offset: 0x108BB88
+    // Offset: 0x1F0D484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -198,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentModel::GetPackDataForMainMenuPromoBanner
 // Il2CppName: GetPackDataForMainMenuPromoBanner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* (GlobalNamespace::DlcPromoExperimentModel::*)(bool&)>(&GlobalNamespace::DlcPromoExperimentModel::GetPackDataForMainMenuPromoBanner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* (GlobalNamespace::DlcPromoExperimentModel::*)(ByRef<bool>)>(&GlobalNamespace::DlcPromoExperimentModel::GetPackDataForMainMenuPromoBanner)> {
   static const MethodInfo* get() {
     static auto* probablyOwned = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel*), "GetPackDataForMainMenuPromoBanner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{probablyOwned});

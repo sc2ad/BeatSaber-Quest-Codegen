@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IMultiplayerObservable
 #include "GlobalNamespace/IMultiplayerObservable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,13 +48,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IConnectedPlayer _connectedPlayer
     void _set__connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x11A4BAC
+    // Offset: 0x1FBC618
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x11A4C60
+    // Offset: 0x1FBC6CC
     bool get_isFailed();
     // public System.Void .ctor(IConnectedPlayer connectedPlayer)
-    // Offset: 0x11A4B80
+    // Offset: 0x1FBC5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObservable* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerObservable::.ctor");

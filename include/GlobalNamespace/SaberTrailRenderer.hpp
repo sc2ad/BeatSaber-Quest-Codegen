@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector2
@@ -117,7 +118,7 @@ namespace GlobalNamespace {
     SaberTrailRenderer(UnityEngine::MeshRenderer* meshRenderer_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Mesh* mesh_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<int>* indices_ = {}, ::Array<UnityEngine::Vector2>* uvs_ = {}, ::Array<UnityEngine::Color>* colors_ = {}, float trailWidth_ = {}, float trailDuration_ = {}, float segmentDuration_ = {}, int granularity_ = {}, float whiteSectionMaxDuration_ = {}) noexcept : meshRenderer{meshRenderer_}, meshFilter{meshFilter_}, mesh{mesh_}, vertices{vertices_}, indices{indices_}, uvs{uvs_}, colors{colors_}, trailWidth{trailWidth_}, trailDuration{trailDuration_}, segmentDuration{segmentDuration_}, granularity{granularity_}, whiteSectionMaxDuration{whiteSectionMaxDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE05088
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEB1CA4
     // Get static field: static private readonly UnityEngine.Bounds _bounds
     static UnityEngine::Bounds _get__bounds();
     // Set static field: static private readonly UnityEngine.Bounds _bounds
@@ -183,34 +184,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _whiteSectionMaxDuration
     void _set__whiteSectionMaxDuration(float value);
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0x114E5FC
+    // Offset: 0x1F7F010
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0x114E924
+    // Offset: 0x1F7F338
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0x114E930
+    // Offset: 0x1F7F344
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0x114EA10
+    // Offset: 0x1F7F424
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x114EAA4
+    // Offset: 0x1F7F4B8
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0x114EB38
+    // Offset: 0x1F7F54C
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x114E054
+    // Offset: 0x1F7EA68
     void UpdateMesh(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x114EB40
+    // Offset: 0x1F7F554
     void UpdateVertices(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0x114E73C
+    // Offset: 0x1F7F150
     void UpdateIndices();
     // public System.Void .ctor()
-    // Offset: 0x114F06C
+    // Offset: 0x1F7FA80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -223,7 +224,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrailRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x114F074
+    // Offset: 0x1F7FA88
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebExceptionStatus
 #include "System/Net/WebExceptionStatus.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -118,26 +119,26 @@ namespace Mono::Net::Security {
     // Set instance field: private System.Boolean <CertificateValidationFailed>k__BackingField
     void _set_$CertificateValidationFailed$k__BackingField(bool value);
     // System.Net.HttpWebRequest get_Request()
-    // Offset: 0x15B0A24
+    // Offset: 0x12B3FF4
     System::Net::HttpWebRequest* get_Request();
     // System.Net.WebExceptionStatus get_ExceptionStatus()
-    // Offset: 0x15B0A2C
+    // Offset: 0x12B3FFC
     System::Net::WebExceptionStatus get_ExceptionStatus();
     // System.Boolean get_CertificateValidationFailed()
-    // Offset: 0x15B0A34
+    // Offset: 0x12B4004
     bool get_CertificateValidationFailed();
     // System.Void set_CertificateValidationFailed(System.Boolean value)
-    // Offset: 0x15B0A3C
+    // Offset: 0x12B400C
     void set_CertificateValidationFailed(bool value);
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.Net.Sockets.NetworkStream networkStream)
-    // Offset: 0x15B0A48
+    // Offset: 0x12B4018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsStream* New_ctor(System::Net::HttpWebRequest* request, System::Net::Sockets::NetworkStream* networkStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MonoTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsStream*, creationType>(request, networkStream)));
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)
-    // Offset: 0x15B0AFC
+    // Offset: 0x12B40CC
     System::IO::Stream* CreateStream(::Array<uint8_t>* buffer);
   }; // Mono.Net.Security.MonoTlsStream
   #pragma pack(pop)

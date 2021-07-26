@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Polyglot
@@ -39,7 +40,7 @@ namespace Polyglot {
     // Creating value type constructor for type: GoogleDownload
     GoogleDownload() noexcept {}
     // static public System.Collections.IEnumerator DownloadSheet(System.String docsId, System.String sheetId, System.Action`1<System.String> done, Polyglot.GoogleDriveDownloadFormat format, System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x232D43C
+    // Offset: 0x1DB287C
     static System::Collections::IEnumerator* DownloadSheet(::Il2CppString* docsId, ::Il2CppString* sheetId, System::Action_1<::Il2CppString*>* done, Polyglot::GoogleDriveDownloadFormat format, System::Func_2<float, bool>* progressbar);
   }; // Polyglot.GoogleDownload
   #pragma pack(pop)

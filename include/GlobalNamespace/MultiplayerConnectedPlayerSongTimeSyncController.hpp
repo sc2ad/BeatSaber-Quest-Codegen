@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IAudioTimeSource
@@ -62,14 +63,14 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07618
+    // [InjectAttribute] Offset: 0xEB4234
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07628
+    // [InjectAttribute] Offset: 0xEB4244
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x38
@@ -163,34 +164,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isReady
     void _set__isReady(bool value);
     // public System.Single get_songTime()
-    // Offset: 0x11A5AC8
+    // Offset: 0x1FBD534
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x11A5AD0
+    // Offset: 0x1FBD53C
     void set_songTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x11A5AD8
+    // Offset: 0x1FBD544
     float get_songEndTime();
     // public System.Boolean get_isReady()
-    // Offset: 0x11A5AE4
+    // Offset: 0x1FBD550
     bool get_isReady();
     // protected System.Void Start()
-    // Offset: 0x11A5AEC
+    // Offset: 0x1FBD558
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11A5AF8
+    // Offset: 0x1FBD564
     void Update();
     // public System.Void StartSong(System.Single songStartSyncTime)
-    // Offset: 0x11A16AC
+    // Offset: 0x1FB9118
     void StartSong(float songStartSyncTime);
     // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
-    // Offset: 0x11A4948
+    // Offset: 0x1FBC3B4
     void SetConnectedPlayerSongTime(float syncTime, float songTime);
     // public System.Void StopSong()
-    // Offset: 0x11A1984
+    // Offset: 0x1FB93F0
     void StopSong();
     // public System.Void .ctor()
-    // Offset: 0x11A5C84
+    // Offset: 0x1FBD6F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

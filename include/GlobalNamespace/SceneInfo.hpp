@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _disabledRootObjects
     void _set__disabledRootObjects(bool value);
     // public System.String get_sceneName()
-    // Offset: 0x1221D8C
+    // Offset: 0x204E6E4
     ::Il2CppString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x1221D94
+    // Offset: 0x204E6EC
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x1221D9C
+    // Offset: 0x204E6F4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

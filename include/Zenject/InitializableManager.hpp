@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -70,20 +71,20 @@ namespace Zenject {
     // Set instance field: private System.Boolean _hasInitialized
     void _set__hasInitialized(bool value);
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IInitializable> initializables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1625524
+    // Offset: 0x1328AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable*>* initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager*, creationType>(initializables, priorities)));
     }
     // public System.Void Add(Zenject.IInitializable initializable)
-    // Offset: 0x1625810
+    // Offset: 0x1328DE0
     void Add(Zenject::IInitializable* initializable);
     // public System.Void Add(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1625818
+    // Offset: 0x1328DE8
     void Add(Zenject::IInitializable* initializable, int priority);
     // public System.Void Initialize()
-    // Offset: 0x16258C0
+    // Offset: 0x1328E90
     void Initialize();
   }; // Zenject.InitializableManager
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -29,20 +30,20 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: PseudoHDREncoding
     PseudoHDREncoding() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE121A0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEDBC
     // static field const value: static private System.String kPseudoHDREncodingShaderName
     static constexpr const char* kPseudoHDREncodingShaderName = "Hidden/PseudoHDREncoding";
     // Get static field: static private System.String kPseudoHDREncodingShaderName
     static ::Il2CppString* _get_kPseudoHDREncodingShaderName();
     // Set static field: static private System.String kPseudoHDREncodingShaderName
     static void _set_kPseudoHDREncodingShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE121B0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEDCC
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
     // static public UnityEngine.RenderTexture CreatePseudoHDREncodedTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x110B498
+    // Offset: 0x1F5D4AC
     static UnityEngine::RenderTexture* CreatePseudoHDREncodedTexture(UnityEngine::RenderTexture* src);
   }; // PseudoHDREncoding
   #pragma pack(pop)

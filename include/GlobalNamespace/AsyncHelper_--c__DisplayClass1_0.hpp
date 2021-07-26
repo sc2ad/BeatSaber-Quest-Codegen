@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AsyncHelper
 #include "GlobalNamespace/AsyncHelper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Func`1<System.Threading.Tasks.Task> asyncTask
     void _set_asyncTask(System::Func_1<System::Threading::Tasks::Task*>* value);
     // System.Threading.Tasks.Task <RunSync>b__0()
-    // Offset: 0x120E184
+    // Offset: 0x203AADC
     System::Threading::Tasks::Task* $RunSync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x120E17C
+    // Offset: 0x203AAD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

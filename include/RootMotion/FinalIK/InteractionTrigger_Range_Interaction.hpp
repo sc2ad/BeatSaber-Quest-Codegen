@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range
 #include "RootMotion/FinalIK/InteractionTrigger_Range.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -28,14 +29,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::Range::Interaction : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF8CD0
+    // [TooltipAttribute] Offset: 0xEA58EC
     // public RootMotion.FinalIK.InteractionObject interactionObject
     // Size: 0x8
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject* interactionObject;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF8D08
+    // [TooltipAttribute] Offset: 0xEA5924
     // public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     // Size: 0x8
     // Offset: 0x18
@@ -53,7 +54,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     void _set_effectors(::Array<RootMotion::FinalIK::FullBodyBipedEffector>* value);
     // public System.Void .ctor()
-    // Offset: 0x1AB4A8C
+    // Offset: 0x172C2DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

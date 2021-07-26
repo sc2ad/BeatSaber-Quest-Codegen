@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.SignatureDescription
 #include "System/Security/Cryptography/SignatureDescription.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: DSASignatureDescription
     DSASignatureDescription() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x193783C
+    // Offset: 0x1608C40
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()

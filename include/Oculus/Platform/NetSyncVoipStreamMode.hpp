@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE95F4
+    // [DescriptionAttribute] Offset: 0xE97210
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static Oculus::Platform::NetSyncVoipStreamMode _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static void _set_Unknown(Oculus::Platform::NetSyncVoipStreamMode value);
-    // [DescriptionAttribute] Offset: 0xDE962C
+    // [DescriptionAttribute] Offset: 0xE97248
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static constexpr const int Ambisonic = 1;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static Oculus::Platform::NetSyncVoipStreamMode _get_Ambisonic();
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static void _set_Ambisonic(Oculus::Platform::NetSyncVoipStreamMode value);
-    // [DescriptionAttribute] Offset: 0xDE9664
+    // [DescriptionAttribute] Offset: 0xE97280
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Mono
     static constexpr const int Mono = 2;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Mono

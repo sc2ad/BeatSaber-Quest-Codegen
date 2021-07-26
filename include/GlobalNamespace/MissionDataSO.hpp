@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: BeatmapDifficulty
@@ -68,8 +69,8 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE019BC
-    // [NullAllowed] Offset: 0xE019BC
+    // [SpaceAttribute] Offset: 0xEAE5D8
+    // [NullAllowed] Offset: 0xEAE5D8
     // private MissionHelpSO _missionHelp
     // Size: 0x8
     // Offset: 0x40
@@ -105,28 +106,28 @@ namespace GlobalNamespace {
     // Set instance field: private MissionHelpSO _missionHelp
     void _set__missionHelp(GlobalNamespace::MissionHelpSO* value);
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0x11305CC
+    // Offset: 0x1F60FE0
     ::Array<GlobalNamespace::MissionObjective*>* get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0x11305D4
+    // Offset: 0x1F60FE8
     GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x11305DC
+    // Offset: 0x1F60FF0
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x11305E4
+    // Offset: 0x1F60FF8
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x11305EC
+    // Offset: 0x1F61000
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0x11305F4
+    // Offset: 0x1F61008
     GlobalNamespace::MissionHelpSO* get_missionHelp();
     // private System.Void OnValidate()
-    // Offset: 0x11305FC
+    // Offset: 0x1F61010
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x11306A0
+    // Offset: 0x1F610B4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

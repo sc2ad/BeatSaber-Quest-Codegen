@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -57,16 +58,16 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Set instance field: private System.Byte[] content
     void _set_content(::Array<uint8_t>* value);
     // public System.String get_Type()
-    // Offset: 0x1F7CD1C
+    // Offset: 0x1A62BDC
     ::Il2CppString* get_Type();
     // public System.Collections.IList get_Headers()
-    // Offset: 0x1F7CD24
+    // Offset: 0x1A62BE4
     System::Collections::IList* get_Headers();
     // public System.Byte[] get_Content()
-    // Offset: 0x1F7CD2C
+    // Offset: 0x1A62BEC
     ::Array<uint8_t>* get_Content();
     // public System.Void .ctor(System.String type, System.Collections.IList headers, System.Byte[] content)
-    // Offset: 0x1F7CC20
+    // Offset: 0x1A62AE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemObject* New_ctor(::Il2CppString* type, System::Collections::IList* headers, ::Array<uint8_t>* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemObject::.ctor");

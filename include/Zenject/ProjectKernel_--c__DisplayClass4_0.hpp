@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ProjectKernel
 #include "Zenject/ProjectKernel.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
@@ -64,10 +65,10 @@ namespace Zenject {
     // Set instance field: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0
     void _set_$$9__0(System::Func_2<Zenject::SceneContext*, int>* value);
     // System.Int32 <ForceUnloadAllScenes>b__0(Zenject.SceneContext x)
-    // Offset: 0x16CABC4
+    // Offset: 0x13CD280
     int $ForceUnloadAllScenes$b__0(Zenject::SceneContext* x);
     // public System.Void .ctor()
-    // Offset: 0x16CAB5C
+    // Offset: 0x13CD218
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -143,58 +144,58 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _stopBlinkingCursor
     void _set__stopBlinkingCursor(bool value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x127A844
+    // Offset: 0x206E7C4
     void set_hideCancelButton(bool value);
     // public System.String get_text()
-    // Offset: 0x127A860
+    // Offset: 0x206E7E0
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x127A87C
+    // Offset: 0x206E7FC
     void set_text(::Il2CppString* value);
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x127A46C
+    // Offset: 0x206E3EC
     void add_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x127A510
+    // Offset: 0x206E490
     void remove_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x127A5B4
+    // Offset: 0x206E534
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x127A658
+    // Offset: 0x206E5D8
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x127A6FC
+    // Offset: 0x206E67C
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x127A7A0
+    // Offset: 0x206E720
     void remove_cancelButtonWasPressedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x127A940
+    // Offset: 0x206E8C0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x127AA90
+    // Offset: 0x206EA10
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x127AB30
+    // Offset: 0x206EAB0
     void OnDisable();
     // private System.Collections.IEnumerator BlinkCursor()
-    // Offset: 0x127AAC0
+    // Offset: 0x206EA40
     System::Collections::IEnumerator* BlinkCursor();
     // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
-    // Offset: 0x127AB68
+    // Offset: 0x206EAE8
     void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
     // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
-    // Offset: 0x127AC44
+    // Offset: 0x206EBC4
     void HandleUIKeyboardDeleteButtonWasPressed();
     // private System.Void <Awake>b__20_0()
-    // Offset: 0x127AD28
+    // Offset: 0x206ECA8
     void $Awake$b__20_0();
     // private System.Void <Awake>b__20_1()
-    // Offset: 0x127AD3C
+    // Offset: 0x206ECBC
     void $Awake$b__20_1();
     // public System.Void .ctor()
-    // Offset: 0x127AD18
+    // Offset: 0x206EC98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

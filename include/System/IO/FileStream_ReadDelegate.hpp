@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.FileStream
 #include "System/IO/FileStream.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace System::IO {
     // Creating value type constructor for type: ReadDelegate
     ReadDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x192379C
+    // Offset: 0x15F4BA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream::ReadDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::ReadDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream::ReadDelegate*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x19255A4
+    // Offset: 0x15F69A8
     int Invoke(::Array<uint8_t>* buffer, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19237AC
+    // Offset: 0x15F4BB0
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1923BA8
+    // Offset: 0x15F4FAC
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileStream/System.IO.ReadDelegate
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerConnectedPlayerFacade
 #include "GlobalNamespace/MultiplayerConnectedPlayerFacade.hpp"
 // Including type: Zenject.PlaceholderFactory`3
@@ -32,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Factory
     Factory() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11A1A94
+    // Offset: 0x1FB9500
     // Implemented from: Zenject.PlaceholderFactory`3
     // Base method: System.Void PlaceholderFactory_3::.ctor()
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()

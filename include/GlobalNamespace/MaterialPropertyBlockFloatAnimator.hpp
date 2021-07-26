@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyBlockAnimator
 #include "GlobalNamespace/MaterialPropertyBlockAnimator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
-    // [SpaceAttribute] Offset: 0xDE1B98
+    // [SpaceAttribute] Offset: 0xE8F7B4
     // private System.Single _value
     // Size: 0x4
     // Offset: 0x30
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _value
     void _set__value(float value);
     // public System.Void .ctor()
-    // Offset: 0x1DF5E40
+    // Offset: 0x1968A20
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockFloatAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1DF5E04
+    // Offset: 0x19689E4
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

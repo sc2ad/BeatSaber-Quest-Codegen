@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -42,30 +43,30 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberTrailRenderer* trailRendererPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberTrailRenderer*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE04E44
-    // [TooltipAttribute] Offset: 0xE04E44
+    // [HeaderAttribute] Offset: 0xEB1A60
+    // [TooltipAttribute] Offset: 0xEB1A60
     // private System.Single _trailDuration
     // Size: 0x4
     // Offset: 0x20
     float trailDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE04EB4
+    // [TooltipAttribute] Offset: 0xEB1AD0
     // private System.Int32 _samplingFrequency
     // Size: 0x4
     // Offset: 0x24
     int samplingFrequency;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xE04F00
+    // [TooltipAttribute] Offset: 0xEB1B1C
     // private System.Int32 _granularity
     // Size: 0x4
     // Offset: 0x28
     int granularity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0xE04F4C
-    // [TooltipAttribute] Offset: 0xE04F4C
+    // [RangeAttribute] Offset: 0xEB1B68
+    // [TooltipAttribute] Offset: 0xEB1B68
     // private System.Single _whiteSectionMaxDuration
     // Size: 0x4
     // Offset: 0x2C
@@ -80,7 +81,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: colorOverwrite and: forcedColor
     char __padding5[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE04FC0
+    // [DrawIfAttribute] Offset: 0xEB1BDC
     // private UnityEngine.Color _forcedColor
     // Size: 0x10
     // Offset: 0x34
@@ -242,37 +243,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _inited
     void _set__inited(bool value);
     // private System.Void Awake()
-    // Offset: 0x114D694
+    // Offset: 0x1F7E0A8
     void Awake();
     // public System.Void Setup(UnityEngine.Color color, IBladeMovementData movementData)
-    // Offset: 0x114BCE8
+    // Offset: 0x1F7C6FC
     void Setup(UnityEngine::Color color, GlobalNamespace::IBladeMovementData* movementData);
     // private System.Void Init()
-    // Offset: 0x114D7B8
+    // Offset: 0x1F7E1CC
     void Init();
     // private System.Void ResetTrailData()
-    // Offset: 0x114DAE8
+    // Offset: 0x1F7E4FC
     void ResetTrailData();
     // protected System.Void LateUpdate()
-    // Offset: 0x114DBD0
+    // Offset: 0x1F7E5E4
     void LateUpdate();
     // protected System.Void OnEnable()
-    // Offset: 0x114E1A0
+    // Offset: 0x1F7EBB4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x114E268
+    // Offset: 0x1F7EC7C
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x114E2FC
+    // Offset: 0x1F7ED10
     void OnDestroy();
     // private System.Single GetTrailWidth(BladeMovementDataElement lastAddedData)
-    // Offset: 0x114DA20
+    // Offset: 0x1F7E434
     float GetTrailWidth(GlobalNamespace::BladeMovementDataElement lastAddedData);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x114E3C8
+    // Offset: 0x1F7EDDC
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x114E5A4
+    // Offset: 0x1F7EFB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

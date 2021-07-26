@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ITickable
 #include "Zenject/ITickable.hpp"
 // Including type: IMenuButtonTrigger
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstantMenuButtonTrigger : public ::Il2CppObject/*, public Zenject::ITickable, public GlobalNamespace::IMenuButtonTrigger*/ {
     public:
-    // [InjectAttribute] Offset: 0xE06558
+    // [InjectAttribute] Offset: 0xEB3174
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x10
@@ -65,16 +66,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action menuButtonTriggeredEvent
     void _set_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x10ED2D8
+    // Offset: 0x1F3F2EC
     void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x10ED37C
+    // Offset: 0x1F3F390
     void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x10ED420
+    // Offset: 0x1F3F434
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x10ED46C
+    // Offset: 0x1F3F480
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

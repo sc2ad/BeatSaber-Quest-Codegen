@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ModestTree.TypeExtensions
 #include "ModestTree/TypeExtensions.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,10 +47,10 @@ namespace ModestTree {
     // Set instance field: public System.Attribute a
     void _set_a(System::Attribute* value);
     // System.Boolean <AllAttributes>b__1(System.Type x)
-    // Offset: 0x1374770
+    // Offset: 0x111B3D0
     bool $AllAttributes$b__1(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x1374768
+    // Offset: 0x111B3C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

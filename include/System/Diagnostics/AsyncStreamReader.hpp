@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -117,13 +118,13 @@ namespace System::Diagnostics {
     // Set instance field: private System.Object syncObject
     void _set_syncObject(::Il2CppObject* value);
     // public System.Void Close()
-    // Offset: 0x184A4F0
+    // Offset: 0x151B8F4
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x184A500
+    // Offset: 0x151B904
     void Dispose(bool disposing);
     // System.Void CancelOperation()
-    // Offset: 0x184A5E0
+    // Offset: 0x151B9E4
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
   #pragma pack(pop)

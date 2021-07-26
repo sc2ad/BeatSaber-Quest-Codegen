@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ISubContainerCreator
 #include "Zenject/ISubContainerCreator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,14 +57,14 @@ namespace Zenject {
     // Set instance field: private readonly Zenject.DiContainer _subcontainer
     void _set__subcontainer(Zenject::DiContainer* value);
     // public System.Void .ctor(Zenject.DiContainer subcontainer)
-    // Offset: 0x16D168C
+    // Offset: 0x13D3D48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstance* New_ctor(Zenject::DiContainer* subcontainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByInstance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstance*, creationType>(subcontainer)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x16D23F8
+    // Offset: 0x13D4AB4
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorByInstance
   #pragma pack(pop)

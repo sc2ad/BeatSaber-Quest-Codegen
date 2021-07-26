@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerSpectatingSpotManager
 #include "GlobalNamespace/MultiplayerSpectatingSpotManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IMultiplayerSpectatingSpot,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x100BB48
+    // Offset: 0x1E5F0FC
     static void _cctor();
     // System.Boolean <get_defaultSpot>b__3_0(IMultiplayerSpectatingSpot s)
-    // Offset: 0x100BBB4
+    // Offset: 0x1E5F168
     bool $get_defaultSpot$b__3_0(GlobalNamespace::IMultiplayerSpectatingSpot* s);
     // public System.Void .ctor()
-    // Offset: 0x100BBAC
+    // Offset: 0x1E5F160
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

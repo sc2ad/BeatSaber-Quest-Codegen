@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.UnixIPGlobalProperties
 #include "System/Net/NetworkInformation/UnixIPGlobalProperties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -86,14 +87,14 @@ namespace System::Net::NetworkInformation {
     // Set instance field: public readonly System.String Udp6File
     void _set_Udp6File(::Il2CppString* value);
     // public System.Void .ctor(System.String procDir)
-    // Offset: 0x1460F18
+    // Offset: 0x11D1F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MibIPGlobalProperties* New_ctor(::Il2CppString* procDir) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MibIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MibIPGlobalProperties*, creationType>(procDir)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14623A0
+    // Offset: 0x11D3400
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
   #pragma pack(pop)

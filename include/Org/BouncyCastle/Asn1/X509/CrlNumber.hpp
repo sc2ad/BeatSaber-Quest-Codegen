@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerInteger
 #include "Org/BouncyCastle/Asn1/DerInteger.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,10 +30,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: CrlNumber
     CrlNumber() noexcept {}
     // public Org.BouncyCastle.Math.BigInteger get_Number()
-    // Offset: 0x19D8B8C
+    // Offset: 0x168FC80
     Org::BouncyCastle::Math::BigInteger* get_Number();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger number)
-    // Offset: 0x19D8B84
+    // Offset: 0x168FC78
     // Implemented from: Org.BouncyCastle.Asn1.DerInteger
     // Base method: System.Void DerInteger::.ctor(Org.BouncyCastle.Math.BigInteger number)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -41,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<CrlNumber*, creationType>(number)));
     }
     // public override System.String ToString()
-    // Offset: 0x19D8B94
+    // Offset: 0x168FC88
     // Implemented from: Org.BouncyCastle.Asn1.DerInteger
     // Base method: System.String DerInteger::ToString()
     ::Il2CppString* ToString();

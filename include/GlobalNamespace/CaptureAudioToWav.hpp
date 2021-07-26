@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -83,25 +84,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.IO.FileStream _fileStream
     void _set__fileStream(System::IO::FileStream* value);
     // protected System.Void Awake()
-    // Offset: 0x120E7E4
+    // Offset: 0x203B13C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x120E81C
+    // Offset: 0x203B174
     void Update();
     // private System.Void StartWriting(System.String name)
-    // Offset: 0x120E8CC
+    // Offset: 0x203B224
     void StartWriting(::Il2CppString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x120ED6C
+    // Offset: 0x203B6C4
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0x120ED7C
+    // Offset: 0x203B6D4
     void ConvertAndWrite(::Array<float>* dataSource);
     // private System.Void WriteHeader()
-    // Offset: 0x120E988
+    // Offset: 0x203B2E0
     void WriteHeader();
     // public System.Void .ctor()
-    // Offset: 0x120EF18
+    // Offset: 0x203B870
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

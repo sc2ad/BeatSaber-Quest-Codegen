@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.SceneContext
 #include "Zenject/SceneContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace Zenject {
     // Set instance field: public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parents
     void _set_parents(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* value);
     // System.Boolean <Install>b__0(Zenject.DiContainer x)
-    // Offset: 0x16CE168
+    // Offset: 0x13D0824
     bool $Install$b__0(Zenject::DiContainer* x);
     // public System.Void .ctor()
-    // Offset: 0x16CD478
+    // Offset: 0x13CFB34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

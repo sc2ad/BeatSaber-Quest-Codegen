@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RankModel
 #include "GlobalNamespace/RankModel.hpp"
 // Completed includes
@@ -27,7 +28,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RankModelHelper
     RankModelHelper() noexcept {}
     // static public RankModel/Rank MaxRankForGameplayModifiers(GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
-    // Offset: 0x11425E0
+    // Offset: 0x1F72FF4
     static GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
   }; // RankModelHelper
   #pragma pack(pop)

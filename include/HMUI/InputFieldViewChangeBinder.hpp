@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -68,25 +69,25 @@ namespace HMUI {
     // Set instance field: private System.Boolean _enabled
     void _set__enabled(bool value);
     // private System.Void Init()
-    // Offset: 0x12920D8
+    // Offset: 0x1067814
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,System.Action`1<HMUI.InputFieldView>>> bindings)
-    // Offset: 0x1292140
+    // Offset: 0x106787C
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, System::Action_1<HMUI::InputFieldView*>*>*>* bindings);
     // public System.Void AddBinding(HMUI.InputFieldView inputField, System.Action`1<HMUI.InputFieldView> action)
-    // Offset: 0x1292248
+    // Offset: 0x1067984
     void AddBinding(HMUI::InputFieldView* inputField, System::Action_1<HMUI::InputFieldView*>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x1292308
+    // Offset: 0x1067A44
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x12924A0
+    // Offset: 0x1067BDC
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x1292628
+    // Offset: 0x1067D64
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x12920A8
+    // Offset: 0x10677E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

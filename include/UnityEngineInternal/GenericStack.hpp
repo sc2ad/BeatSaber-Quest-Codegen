@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Stack
 #include "System/Collections/Stack.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace UnityEngineInternal {
     // Creating value type constructor for type: GenericStack
     GenericStack() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x230A674
+    // Offset: 0x1DA3180
     // Implemented from: System.Collections.Stack
     // Base method: System.Void Stack::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AudioClip
 #include "UnityEngine/AudioClip.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: PCMSetPositionCallback
     PCMSetPositionCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23AA818
+    // Offset: 0x1E23800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClip::PCMSetPositionCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AudioClip::PCMSetPositionCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClip::PCMSetPositionCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 position)
-    // Offset: 0x23AA578
+    // Offset: 0x1E23560
     void Invoke(int position);
     // public System.IAsyncResult BeginInvoke(System.Int32 position, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23AA828
+    // Offset: 0x1E23810
     System::IAsyncResult* BeginInvoke(int position, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23AA8B4
+    // Offset: 0x1E2389C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback
   #pragma pack(pop)

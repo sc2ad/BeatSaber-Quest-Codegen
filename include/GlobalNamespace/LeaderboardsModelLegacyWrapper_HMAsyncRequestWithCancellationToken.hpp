@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LeaderboardsModelLegacyWrapper
 #include "GlobalNamespace/LeaderboardsModelLegacyWrapper.hpp"
 // Including type: HMAsyncRequest
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
     void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
-    // Offset: 0x10F145C
+    // Offset: 0x1F43470
     System::Threading::CancellationTokenSource* get_cancellationTokenSource();
     // public System.Void .ctor()
-    // Offset: 0x10F0900
+    // Offset: 0x1F42914
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::.ctor()
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, creationType>()));
     }
     // public override System.Void Cancel()
-    // Offset: 0x10F1464
+    // Offset: 0x1F43478
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::Cancel()
     void Cancel();

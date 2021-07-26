@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,7 +48,7 @@ namespace GlobalNamespace {
     // Set instance field: protected readonly GameplayServerFiniteStateMachine fsm
     void _set_fsm(GlobalNamespace::GameplayServerFiniteStateMachine* value);
     // public System.Void .ctor(GameplayServerFiniteStateMachine fsm)
-    // Offset: 0x12C41E0
+    // Offset: 0x109991C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameState* New_ctor(GlobalNamespace::GameplayServerFiniteStateMachine* fsm) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameState::.ctor");

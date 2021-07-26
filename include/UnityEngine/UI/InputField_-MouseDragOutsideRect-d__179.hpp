@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.InputField
 #include "UnityEngine/UI/InputField.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -78,26 +79,26 @@ namespace UnityEngine::UI {
     // Set instance field: public UnityEngine.UI.InputField <>4__this
     void _set_$$4__this(UnityEngine::UI::InputField* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x197B9D4
+    // Offset: 0x164DDD8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x197BA3C
+    // Offset: 0x164DE40
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x197B5B4
+    // Offset: 0x164D9B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputField::$MouseDragOutsideRect$d__179* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::InputField::$MouseDragOutsideRect$d__179::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputField::$MouseDragOutsideRect$d__179*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x197B5E0
+    // Offset: 0x164D9E4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x197B5E4
+    // Offset: 0x164D9E8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x197B9DC
+    // Offset: 0x164DDE0
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.InputField/UnityEngine.UI.<MouseDragOutsideRect>d__179
   #pragma pack(pop)

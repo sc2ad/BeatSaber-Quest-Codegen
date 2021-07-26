@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerEnvironmentResizeController
 #include "GlobalNamespace/MultiplayerEnvironmentResizeController.hpp"
 // Including type: MultiplayerEnvironmentResizeController/ResizeType
@@ -45,14 +46,14 @@ namespace GlobalNamespace {
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [NullAllowed] Offset: 0xE144E8
+    // [NullAllowed] Offset: 0xEC1104
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
     ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE14520
+    // [NullAllowed] Offset: 0xEC113C
     // private UnityEngine.Transform[] _otherTransforms
     // Size: 0x8
     // Offset: 0x20
@@ -78,19 +79,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform[] _otherTransforms
     void _set__otherTransforms(::Array<UnityEngine::Transform*>* value);
     // public MultiplayerEnvironmentResizeController/ResizeType get_resizeType()
-    // Offset: 0x11AB03C
+    // Offset: 0x1FC2AA8
     GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType get_resizeType();
     // public System.Single get_offset()
-    // Offset: 0x11AB044
+    // Offset: 0x1FC2AB0
     float get_offset();
     // public TubeBloomPrePassLight[] get_lights()
-    // Offset: 0x11AB04C
+    // Offset: 0x1FC2AB8
     ::Array<GlobalNamespace::TubeBloomPrePassLight*>* get_lights();
     // public UnityEngine.Transform[] get_otherTransforms()
-    // Offset: 0x11AB054
+    // Offset: 0x1FC2AC0
     ::Array<UnityEngine::Transform*>* get_otherTransforms();
     // public System.Void .ctor()
-    // Offset: 0x11AB05C
+    // Offset: 0x1FC2AC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

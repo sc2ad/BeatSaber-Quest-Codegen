@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: PlayerPrefsException
     PlayerPrefsException() noexcept {}
     // public System.Void .ctor(System.String error)
-    // Offset: 0x1C737C0
+    // Offset: 0x22ADDC8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String error)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

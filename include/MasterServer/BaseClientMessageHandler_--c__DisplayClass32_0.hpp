@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.BaseClientMessageHandler
 #include "MasterServer/BaseClientMessageHandler.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -83,10 +84,10 @@ namespace MasterServer {
     // Set instance field: public System.Byte[] signature
     void _set_signature(::Array<uint8_t>* value);
     // System.Boolean <VerifySignature>b__0()
-    // Offset: 0x12CC930
+    // Offset: 0x2086E40
     bool $VerifySignature$b__0();
     // public System.Void .ctor()
-    // Offset: 0x12CC928
+    // Offset: 0x2086E38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

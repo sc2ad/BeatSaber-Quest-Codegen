@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ProfanityFilter
 #include "GlobalNamespace/ProfanityFilter.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -93,32 +94,32 @@ namespace GlobalNamespace {
     // Set instance field: public System.Char <>3__c
     void _set_$$3__c(::Il2CppChar value);
     // private System.Char System.Collections.Generic.IEnumerator<System.Char>.get_Current()
-    // Offset: 0x230D9D8
+    // Offset: 0x23CEB8C
     ::Il2CppChar System_Collections_Generic_IEnumerator$System_Char$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x230DA40
+    // Offset: 0x23CEBF4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x230D894
+    // Offset: 0x23CEA48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter::$GetLookalikeLetters$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter::$GetLookalikeLetters$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x230D934
+    // Offset: 0x23CEAE8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x230D938
+    // Offset: 0x23CEAEC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x230D9E0
+    // Offset: 0x23CEB94
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Char> System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator()
-    // Offset: 0x230DAA4
+    // Offset: 0x23CEC58
     System::Collections::Generic::IEnumerator_1<::Il2CppChar>* System_Collections_Generic_IEnumerable$System_Char$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x230DB50
+    // Offset: 0x23CED04
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ProfanityFilter/<GetLookalikeLetters>d__4
   #pragma pack(pop)

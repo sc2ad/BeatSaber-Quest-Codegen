@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,25 +73,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isInitialized
     void _set__isInitialized(bool value);
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x1DF5890
+    // Offset: 0x1968470
     GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1DF5898
+    // Offset: 0x1968478
     void set_materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // protected System.Void SetProperty()
-    // Offset: 0x1DF5924
+    // Offset: 0x1968504
     void SetProperty();
     // protected System.Void Awake()
-    // Offset: 0x1DF5928
+    // Offset: 0x1968508
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1DF5A08
+    // Offset: 0x19685E8
     void Update();
     // private System.Void LazyInit()
-    // Offset: 0x1DF59C8
+    // Offset: 0x19685A8
     void LazyInit();
     // public System.Void .ctor()
-    // Offset: 0x1DF5B14
+    // Offset: 0x19686F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,10 +23,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ObjectiveValueFormatterSO
     ObjectiveValueFormatterSO() noexcept {}
     // public System.String FormatValue(System.Int32 value)
-    // Offset: 0x11E8D20
+    // Offset: 0x2017678
     ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x11E8D48
+    // Offset: 0x20176A0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

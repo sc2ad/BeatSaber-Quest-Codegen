@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.Initialization.CacheInitialization
 #include "UnityEngine/AddressableAssets/Initialization/CacheInitialization.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,10 +54,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set instance field: public System.String data
     void _set_data(::Il2CppString* value);
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x13C796C
+    // Offset: 0x11705CC
     bool $InitializeAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x13C787C
+    // Offset: 0x11704DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,14 +37,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: beatLineManager
     char __padding0[0x4] = {};
-    // [InjectOptionalAttribute] Offset: 0xE057EC
+    // [InjectOptionalAttribute] Offset: 0xEB2408
     // private readonly BeatLineManager _beatLineManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatLineManager* beatLineManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLineManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE057FC
+    // [InjectOptionalAttribute] Offset: 0xEB2418
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x28
@@ -87,16 +88,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _yAngle
     void _set__yAngle(float value);
     // protected System.Void Start()
-    // Offset: 0x1029ED0
+    // Offset: 0x1E949A4
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0x102A004
+    // Offset: 0x1E94AD8
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x102A1E4
+    // Offset: 0x1E94CB8
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x102A2F8
+    // Offset: 0x1E94DCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

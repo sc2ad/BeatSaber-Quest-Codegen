@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,10 +24,10 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Misc
     Misc() noexcept {}
     // static public System.Void Destroy(UnityEngine.Object obj)
-    // Offset: 0x19829A0
+    // Offset: 0x1654DA4
     static void Destroy(UnityEngine::Object* obj);
     // static public System.Void DestroyImmediate(UnityEngine.Object obj)
-    // Offset: 0x1982AB4
+    // Offset: 0x1654EB8
     static void DestroyImmediate(UnityEngine::Object* obj);
   }; // UnityEngine.UI.Misc
   #pragma pack(pop)

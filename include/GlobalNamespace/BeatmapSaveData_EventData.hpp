@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapSaveData
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Including type: BeatmapSaveData/ITime
@@ -60,23 +61,23 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _value
     void _set__value(int value);
     // public System.Single get_time()
-    // Offset: 0x109A710
+    // Offset: 0x1EF2BB8
     float get_time();
     // public BeatmapSaveData/BeatmapEventType get_type()
-    // Offset: 0x109A718
+    // Offset: 0x1EF2BC0
     GlobalNamespace::BeatmapSaveData::BeatmapEventType get_type();
     // public System.Int32 get_value()
-    // Offset: 0x109A720
+    // Offset: 0x1EF2BC8
     int get_value();
     // public System.Void .ctor(System.Single time, BeatmapSaveData/BeatmapEventType type, System.Int32 value)
-    // Offset: 0x109A728
+    // Offset: 0x1EF2BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventData* New_ctor(float time, GlobalNamespace::BeatmapSaveData::BeatmapEventType type, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::EventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::EventData*, creationType>(time, type, value)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x109A770
+    // Offset: 0x1EF2C18
     void MoveTime(float offset);
   }; // BeatmapSaveData/EventData
   #pragma pack(pop)

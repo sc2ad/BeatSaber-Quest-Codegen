@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 #include "Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.hpp"
 // Completed includes
@@ -32,10 +33,10 @@ namespace System::Runtime::InteropServices {
     // Set instance field: private System.Boolean inited
     void _set_inited(bool value);
     // public System.Void AcquirePointer(ref System.Byte* pointer)
-    // Offset: 0x13F2A20
-    void AcquirePointer(uint8_t*& pointer);
+    // Offset: 0x119B680
+    void AcquirePointer(ByRef<uint8_t*> pointer);
     // public System.Void ReleasePointer()
-    // Offset: 0x13F2BB4
+    // Offset: 0x119B814
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
   #pragma pack(pop)
@@ -48,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer*, "System.Ru
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeBuffer::AcquirePointer
 // Il2CppName: AcquirePointer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeBuffer::*)(uint8_t*&)>(&System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeBuffer::*)(ByRef<uint8_t*>)>(&System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
   static const MethodInfo* get() {
     static auto* pointer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeBuffer*), "AcquirePointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointer});

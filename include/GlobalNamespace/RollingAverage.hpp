@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int64
 #include "System/Int64.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -80,23 +81,23 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _length
     void _set__length(int value);
     // public System.Single get_currentAverage()
-    // Offset: 0x230DFD4
+    // Offset: 0x23CF188
     float get_currentAverage();
     // public System.Boolean get_hasValue()
-    // Offset: 0x230DFDC
+    // Offset: 0x23CF190
     bool get_hasValue();
     // public System.Void .ctor(System.Int32 window)
-    // Offset: 0x230DFEC
+    // Offset: 0x23CF1A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RollingAverage* New_ctor(int window) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RollingAverage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RollingAverage*, creationType>(window)));
     }
     // public System.Void Update(System.Single value)
-    // Offset: 0x230E05C
+    // Offset: 0x23CF210
     void Update(float value);
     // public System.Void Reset()
-    // Offset: 0x230E194
+    // Offset: 0x23CF348
     void Reset();
   }; // RollingAverage
   #pragma pack(pop)

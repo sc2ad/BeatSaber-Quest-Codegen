@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,14 +46,14 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MissionObjectiveChecker*>* missionObjectiveCheckers;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MissionObjectiveChecker*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06E58
+    // [InjectAttribute] Offset: 0xEB3A74
     // private MissionObjectiveCheckersManager/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MissionObjectiveCheckersManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06E68
+    // [InjectAttribute] Offset: 0xEB3A84
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x28
@@ -116,52 +117,52 @@ namespace GlobalNamespace {
     // Set instance field: private MissionObjectiveChecker[] _activeMissionObjectiveCheckers
     void _set__activeMissionObjectiveCheckers(::Array<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public MissionObjectiveChecker[] get_activeMissionObjectiveCheckers()
-    // Offset: 0x113732C
+    // Offset: 0x1F67D40
     ::Array<GlobalNamespace::MissionObjectiveChecker*>* get_activeMissionObjectiveCheckers();
     // public System.Void add_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x1132D14
+    // Offset: 0x1F63728
     void add_objectiveDidFailEvent(System::Action* value);
     // public System.Void remove_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x1132860
+    // Offset: 0x1F63274
     void remove_objectiveDidFailEvent(System::Action* value);
     // public System.Void add_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x112FB20
+    // Offset: 0x1F60534
     void add_objectiveWasClearedEvent(System::Action* value);
     // public System.Void remove_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x112FC4C
+    // Offset: 0x1F60660
     void remove_objectiveWasClearedEvent(System::Action* value);
     // public System.Void add_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x11371E4
+    // Offset: 0x1F67BF8
     void add_objectivesListDidChangeEvent(System::Action* value);
     // public System.Void remove_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x1137288
+    // Offset: 0x1F67C9C
     void remove_objectivesListDidChangeEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x1137334
+    // Offset: 0x1F67D48
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1137820
+    // Offset: 0x1F68234
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckerStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x11379BC
+    // Offset: 0x1F683D0
     void HandleMissionObjectiveCheckerStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // public MissionObjectiveChecker GetMissionObjectiveChecker(MissionObjectiveTypeSO missionObjectiveType)
-    // Offset: 0x11379FC
+    // Offset: 0x1F68410
     GlobalNamespace::MissionObjectiveChecker* GetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
     // public MissionObjectiveResult[] GetResults()
-    // Offset: 0x1131D6C
+    // Offset: 0x1F62780
     ::Array<GlobalNamespace::MissionObjectiveResult*>* GetResults();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1137B24
+    // Offset: 0x1F68538
     void HandleLevelFailed();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x1137C10
+    // Offset: 0x1F68624
     void HandleLevelFinished();
     // private System.Void StopChecking()
-    // Offset: 0x1137B28
+    // Offset: 0x1F6853C
     void StopChecking();
     // public System.Void .ctor()
-    // Offset: 0x1137C14
+    // Offset: 0x1F68628
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

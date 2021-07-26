@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRPlugin/MeshType
@@ -125,7 +126,7 @@ namespace GlobalNamespace {
     // Set instance field: public OVRPlugin/Vector4f[] BlendWeights
     void _set_BlendWeights(::Array<GlobalNamespace::OVRPlugin::Vector4f>* value);
     // public System.Void .ctor()
-    // Offset: 0x15EE92C
+    // Offset: 0x12F1EFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

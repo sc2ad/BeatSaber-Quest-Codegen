@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AppInit
 #include "GlobalNamespace/AppInit.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFEDBC
+    // [SpaceAttribute] Offset: 0xEAB9D8
     // private VRsenalLogger _vrsenalLoggerPrefab
     // Size: 0x8
     // Offset: 0x60
@@ -88,7 +89,7 @@ namespace GlobalNamespace {
     // Set instance field: private VRsenalLogger _vrsenalLoggerPrefab
     void _set__vrsenalLoggerPrefab(GlobalNamespace::VRsenalLogger* value);
     // public System.Void .ctor()
-    // Offset: 0xFFC33C
+    // Offset: 0x1E4F8F0
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -104,22 +105,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PCArcadeAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xFFC14C
+    // Offset: 0x1E4F700
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xFFC1B8
+    // Offset: 0x1E4F76C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xFFC204
+    // Offset: 0x1E4F7B8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xFFC240
+    // Offset: 0x1E4F7F4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.Bevel
 #include "UnityEngine/ProBuilder/MeshOperations/Bevel.hpp"
 // Including type: UnityEngine.ProBuilder.EdgeLookup
@@ -46,10 +47,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public UnityEngine.ProBuilder.EdgeLookup lup
     void _set_lup(UnityEngine::ProBuilder::EdgeLookup value);
     // System.Boolean <BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x15169FC
+    // Offset: 0x12402C4
     bool $BevelEdges$b__4(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x1515C34
+    // Offset: 0x123F4FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

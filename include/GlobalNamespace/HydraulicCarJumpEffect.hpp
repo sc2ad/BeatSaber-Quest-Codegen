@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     ::Array<int>* eventValues;
     // Field size check
     static_assert(sizeof(::Array<int>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFE248
+    // [SpaceAttribute] Offset: 0xEAAE64
     // private UnityEngine.Vector3 _impulse
     // Size: 0xC
     // Offset: 0x28
@@ -80,14 +81,14 @@ namespace GlobalNamespace {
     float minDelayBetweenEvents;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDFE2B0
+    // [SpaceAttribute] Offset: 0xEAAECC
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE2E8
+    // [InjectAttribute] Offset: 0xEAAF04
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -153,16 +154,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.HashSet`1<System.Int32> _eventValuesHashSet
     void _set__eventValuesHashSet(System::Collections::Generic::HashSet_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x10EC1C8
+    // Offset: 0x1F3E1DC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10EC2E8
+    // Offset: 0x1F3E2FC
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x10EC3E8
+    // Offset: 0x1F3E3FC
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x10EC568
+    // Offset: 0x1F3E57C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

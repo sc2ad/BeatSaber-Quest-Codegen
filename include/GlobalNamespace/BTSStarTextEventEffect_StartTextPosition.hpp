@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BTSStarTextEventEffect
 #include "GlobalNamespace/BTSStarTextEventEffect.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,13 +52,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform _transform
     void _set__transform(UnityEngine::Transform* value);
     // public System.Int32 get_id()
-    // Offset: 0x10E79BC
+    // Offset: 0x1F389D0
     int get_id();
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x10E79C4
+    // Offset: 0x1F389D8
     UnityEngine::Transform* get_transform();
     // public System.Void .ctor()
-    // Offset: 0x10E79CC
+    // Offset: 0x1F389E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

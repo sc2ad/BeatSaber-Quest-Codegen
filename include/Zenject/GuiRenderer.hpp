@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,13 +42,13 @@ namespace Zenject {
     // Set instance field: private Zenject.GuiRenderableManager _renderableManager
     void _set__renderableManager(Zenject::GuiRenderableManager* value);
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
-    // Offset: 0x1624CFC
+    // Offset: 0x13282CC
     void Construct(Zenject::GuiRenderableManager* renderableManager);
     // public System.Void OnGUI()
-    // Offset: 0x1624D04
+    // Offset: 0x13282D4
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x1624D1C
+    // Offset: 0x13282EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FireworkItemController
 #include "GlobalNamespace/FireworkItemController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     bool useMainColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xE1436C
+    // [DrawIfAttribute] Offset: 0xEC0F88
     // public System.Boolean _useOwnGradient
     // Size: 0x1
     // Offset: 0x1A
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOwnGradient and: particleColorGradient
     char __padding3[0x5] = {};
-    // [DrawIfAttribute] Offset: 0xE14400
+    // [DrawIfAttribute] Offset: 0xEC101C
     // public UnityEngine.Gradient _particleColorGradient
     // Size: 0x8
     // Offset: 0x20
@@ -95,7 +96,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean _randomizeSpeed
     void _set__randomizeSpeed(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1028678
+    // Offset: 0x1E9314C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

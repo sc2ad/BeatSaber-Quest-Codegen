@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRControllersRecorderSaveData
 #include "GlobalNamespace/VRControllersRecorderSaveData.hpp"
 // Including type: UnityEngine.XR.XRNode
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 nodeIdx
     void _set_nodeIdx(int value);
     // public System.Void .ctor()
-    // Offset: 0x127A384
+    // Offset: 0x206E304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

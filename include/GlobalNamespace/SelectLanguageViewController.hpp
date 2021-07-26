@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -79,25 +80,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action didPressContinueButtonEvent
     void _set_didPressContinueButtonEvent(System::Action* value);
     // public System.Void add_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x11547C0
+    // Offset: 0x1F851D4
     void add_didChangeLanguageEvent(System::Action* value);
     // public System.Void remove_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x1154864
+    // Offset: 0x1F85278
     void remove_didChangeLanguageEvent(System::Action* value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x1154908
+    // Offset: 0x1F8531C
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x11549AC
+    // Offset: 0x1F853C0
     void remove_didPressContinueButtonEvent(System::Action* value);
     // private System.Void HandleLanguageSettingsControllerOndropDownValueDidChange()
-    // Offset: 0x1154C18
+    // Offset: 0x1F8562C
     void HandleLanguageSettingsControllerOndropDownValueDidChange();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x1154C34
+    // Offset: 0x1F85648
     void $DidActivate$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x1154C2C
+    // Offset: 0x1F85640
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -111,12 +112,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SelectLanguageViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1154A50
+    // Offset: 0x1F85464
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1154B38
+    // Offset: 0x1F8554C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

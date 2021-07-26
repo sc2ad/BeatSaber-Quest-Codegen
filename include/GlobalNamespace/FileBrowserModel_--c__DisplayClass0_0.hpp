@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FileBrowserModel
 #include "GlobalNamespace/FileBrowserModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,13 +77,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action`1<FileBrowserItem[]> callback
     void _set_callback(System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* value);
     // System.Void <GetContentOfDirectory>b__0()
-    // Offset: 0x1025EE0
+    // Offset: 0x1E909B4
     void $GetContentOfDirectory$b__0();
     // System.Void <GetContentOfDirectory>b__1()
-    // Offset: 0x1025F0C
+    // Offset: 0x1E909E0
     void $GetContentOfDirectory$b__1();
     // public System.Void .ctor()
-    // Offset: 0x1025A48
+    // Offset: 0x1E9051C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

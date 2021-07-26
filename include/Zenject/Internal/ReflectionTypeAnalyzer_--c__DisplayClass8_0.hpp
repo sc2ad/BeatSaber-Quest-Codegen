@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ReflectionTypeAnalyzer
 #include "Zenject/Internal/ReflectionTypeAnalyzer.hpp"
 // Including type: Zenject.Internal.ReflectionTypeInfo
@@ -51,10 +52,10 @@ namespace Zenject::Internal {
     // Set instance field: public System.Type type
     void _set_type(System::Type* value);
     // Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo <GetConstructorInfo>b__0(System.Reflection.ParameterInfo x)
-    // Offset: 0x162AA98
+    // Offset: 0x132E068
     Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* $GetConstructorInfo$b__0(System::Reflection::ParameterInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x16298B0
+    // Offset: 0x132CE80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

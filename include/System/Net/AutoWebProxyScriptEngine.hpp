@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -29,11 +30,11 @@ namespace System::Net {
     // Creating value type constructor for type: AutoWebProxyScriptEngine
     AutoWebProxyScriptEngine() noexcept {}
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList)
-    // Offset: 0x1692F38
-    bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList);
+    // Offset: 0x13955F4
+    bool GetProxies(System::Uri* destination, ByRef<System::Collections::Generic::IList_1<::Il2CppString*>*> proxyList);
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList, ref System.Int32 syncStatus)
-    // Offset: 0x1692F44
-    bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList, int& syncStatus);
+    // Offset: 0x1395600
+    bool GetProxies(System::Uri* destination, ByRef<System::Collections::Generic::IList_1<::Il2CppString*>*> proxyList, ByRef<int> syncStatus);
   }; // System.Net.AutoWebProxyScriptEngine
   #pragma pack(pop)
 }
@@ -43,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::AutoWebProxyScriptEngine*, "System.Net", "Au
 // Writing MetadataGetter for method: System::Net::AutoWebProxyScriptEngine::GetProxies
 // Il2CppName: GetProxies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, ByRef<System::Collections::Generic::IList_1<::Il2CppString*>*>)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* proxyList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->this_arg;
@@ -53,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::AutoWebProxyScriptEngine::GetProxies
 // Il2CppName: GetProxies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&, int&)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, ByRef<System::Collections::Generic::IList_1<::Il2CppString*>*>, ByRef<int>)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* proxyList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->this_arg;

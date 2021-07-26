@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.IWebProxy
 #include "System/Net/IWebProxy.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
@@ -163,85 +164,85 @@ namespace System::Net {
     // Set instance field: private System.Net.AutoWebProxyScriptEngine m_ScriptEngine
     void _set_m_ScriptEngine(System::Net::AutoWebProxyScriptEngine* value);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x159CC14
+    // Offset: 0x12A01E4
     System::Net::ICredentials* get_Credentials();
     // public System.Boolean get_UseDefaultCredentials()
-    // Offset: 0x159CC1C
+    // Offset: 0x12A01EC
     bool get_UseDefaultCredentials();
     // public System.Void set_UseDefaultCredentials(System.Boolean value)
-    // Offset: 0x159CCA0
+    // Offset: 0x12A0270
     void set_UseDefaultCredentials(bool value);
     // System.Net.AutoWebProxyScriptEngine get_ScriptEngine()
-    // Offset: 0x159DB38
+    // Offset: 0x12A1108
     System::Net::AutoWebProxyScriptEngine* get_ScriptEngine();
     // public System.Void .ctor(System.Uri Address, System.Boolean BypassOnLocal, System.String[] BypassList, System.Net.ICredentials Credentials)
-    // Offset: 0x159C924
+    // Offset: 0x129FEF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::Array<::Il2CppString*>* BypassList, System::Net::ICredentials* Credentials) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(Address, BypassOnLocal, BypassList, Credentials)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x159D76C
+    // Offset: 0x12A0D3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(serializationInfo, streamingContext)));
     }
     // System.Void .ctor(System.Boolean enableAutoproxy)
-    // Offset: 0x159DBA8
+    // Offset: 0x12A1178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(bool enableAutoproxy) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(enableAutoproxy)));
     }
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x159CD28
+    // Offset: 0x12A02F8
     System::Uri* GetProxy(System::Uri* destination);
     // private System.Void UpdateRegExList(System.Boolean canThrow)
-    // Offset: 0x159C9DC
+    // Offset: 0x129FFAC
     void UpdateRegExList(bool canThrow);
     // private System.Boolean IsMatchInBypassList(System.Uri input)
-    // Offset: 0x159D148
+    // Offset: 0x12A0718
     bool IsMatchInBypassList(System::Uri* input);
     // private System.Boolean IsLocal(System.Uri host)
-    // Offset: 0x159D2E0
+    // Offset: 0x12A08B0
     bool IsLocal(System::Uri* host);
     // private System.Boolean IsLocalInProxyHash(System.Uri host)
-    // Offset: 0x159D450
+    // Offset: 0x12A0A20
     bool IsLocalInProxyHash(System::Uri* host);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x159D558
+    // Offset: 0x12A0B28
     bool IsBypassed(System::Uri* host);
     // private System.Boolean IsBypassedManual(System.Uri host)
-    // Offset: 0x159D064
+    // Offset: 0x12A0634
     bool IsBypassedManual(System::Uri* host);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x159DA30
+    // Offset: 0x12A1000
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x159DA3C
+    // Offset: 0x12A100C
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // static public System.Net.IWebProxy CreateDefaultProxy()
-    // Offset: 0x159DB40
+    // Offset: 0x12A1110
     static System::Net::IWebProxy* CreateDefaultProxy();
     // System.Void UnsafeUpdateFromRegistry()
-    // Offset: 0x159DA24
+    // Offset: 0x12A0FF4
     void UnsafeUpdateFromRegistry();
     // private System.Boolean GetProxyAuto(System.Uri destination, out System.Uri proxyUri)
-    // Offset: 0x159CEC8
-    bool GetProxyAuto(System::Uri* destination, System::Uri*& proxyUri);
+    // Offset: 0x12A0498
+    bool GetProxyAuto(System::Uri* destination, ByRef<System::Uri*> proxyUri);
     // private System.Boolean IsBypassedAuto(System.Uri destination, out System.Boolean isBypassed)
-    // Offset: 0x159D64C
-    bool IsBypassedAuto(System::Uri* destination, bool& isBypassed);
+    // Offset: 0x12A0C1C
+    bool IsBypassedAuto(System::Uri* destination, ByRef<bool> isBypassed);
     // static private System.Boolean AreAllBypassed(System.Collections.Generic.IEnumerable`1<System.String> proxies, System.Boolean checkFirstOnly)
-    // Offset: 0x159DBE0
+    // Offset: 0x12A11B0
     static bool AreAllBypassed(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* proxies, bool checkFirstOnly);
     // static private System.Uri ProxyUri(System.String proxyName)
-    // Offset: 0x159DE4C
+    // Offset: 0x12A141C
     static System::Uri* ProxyUri(::Il2CppString* proxyName);
     // public System.Void .ctor()
-    // Offset: 0x159C910
+    // Offset: 0x129FEE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -403,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebProxy::GetProxyAuto
 // Il2CppName: GetProxyAuto
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebProxy::*)(System::Uri*, System::Uri*&)>(&System::Net::WebProxy::GetProxyAuto)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebProxy::*)(System::Uri*, ByRef<System::Uri*>)>(&System::Net::WebProxy::GetProxyAuto)> {
   static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* proxyUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->this_arg;
@@ -413,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebProxy::IsBypassedAuto
 // Il2CppName: IsBypassedAuto
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebProxy::*)(System::Uri*, bool&)>(&System::Net::WebProxy::IsBypassedAuto)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebProxy::*)(System::Uri*, ByRef<bool>)>(&System::Net::WebProxy::IsBypassedAuto)> {
   static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* isBypassed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

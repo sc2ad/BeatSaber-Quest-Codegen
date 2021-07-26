@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,26 +54,26 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: private UnityEngine.ProBuilder.WingedEdge m_Current
     void _set_m_Current(UnityEngine::ProBuilder::WingedEdge* value);
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
-    // Offset: 0x22A79D4
+    // Offset: 0x1D78848
     UnityEngine::ProBuilder::WingedEdge* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x22B3C30
+    // Offset: 0x1D84AA4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(UnityEngine.ProBuilder.WingedEdge start)
-    // Offset: 0x22A79A8
+    // Offset: 0x1D7881C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::WingedEdgeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdgeEnumerator*, creationType>(start)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x22A7CB4
+    // Offset: 0x1D78B28
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x22B3C28
+    // Offset: 0x1D84A9C
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x22B3C74
+    // Offset: 0x1D84AE8
     void Dispose();
   }; // UnityEngine.ProBuilder.WingedEdgeEnumerator
   #pragma pack(pop)

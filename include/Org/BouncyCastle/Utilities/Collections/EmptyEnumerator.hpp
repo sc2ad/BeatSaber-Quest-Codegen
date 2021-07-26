@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,19 +31,19 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x136FEA8
+    // Offset: 0x1116B08
     ::Il2CppObject* get_Current();
     // static private System.Void .cctor()
-    // Offset: 0x136FF14
+    // Offset: 0x1116B74
     static void _cctor();
     // public System.Boolean MoveNext()
-    // Offset: 0x136FE9C
+    // Offset: 0x1116AFC
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x136FEA4
+    // Offset: 0x1116B04
     void Reset();
     // private System.Void .ctor()
-    // Offset: 0x136FE94
+    // Offset: 0x1116AF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -334,224 +335,224 @@ namespace System {
     // Set static field: static private System.DateTimeParse/System.DS[][] dateParsingStates
     static void _set_dateParsingStates(::Array<::Array<System::DateTimeParse::DS>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B181DC
+    // Offset: 0x177AB64
     static void _cctor();
     // static System.DateTime ParseExact(System.String s, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style)
-    // Offset: 0x1B0F8C4
+    // Offset: 0x177224C
     static System::DateTime ParseExact(::Il2CppString* s, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style);
     // static System.Boolean TryParseExact(System.String s, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style, ref System.DateTimeResult result)
-    // Offset: 0x1B0F9E4
-    static bool TryParseExact(::Il2CppString* s, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, System::DateTimeResult& result);
+    // Offset: 0x177236C
+    static bool TryParseExact(::Il2CppString* s, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTimeResult> result);
     // static System.Boolean TryParseExactMultiple(System.String s, System.String[] formats, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style, out System.DateTime result, out System.TimeSpan offset)
-    // Offset: 0x1B0F55C
-    static bool TryParseExactMultiple(::Il2CppString* s, ::Array<::Il2CppString*>* formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, System::DateTime& result, System::TimeSpan& offset);
+    // Offset: 0x1771EE4
+    static bool TryParseExactMultiple(::Il2CppString* s, ::Array<::Il2CppString*>* formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTime> result, ByRef<System::TimeSpan> offset);
     // static System.Boolean TryParseExactMultiple(System.String s, System.String[] formats, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style, ref System.DateTimeResult result)
-    // Offset: 0x1B102D4
-    static bool TryParseExactMultiple(::Il2CppString* s, ::Array<::Il2CppString*>* formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, System::DateTimeResult& result);
+    // Offset: 0x1772C5C
+    static bool TryParseExactMultiple(::Il2CppString* s, ::Array<::Il2CppString*>* formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTimeResult> result);
     // static private System.Boolean MatchWord(ref System.__DTString str, System.String target)
-    // Offset: 0x1B104B0
-    static bool MatchWord(System::__DTString& str, ::Il2CppString* target);
+    // Offset: 0x1772E38
+    static bool MatchWord(ByRef<System::__DTString> str, ::Il2CppString* target);
     // static private System.Boolean GetTimeZoneName(ref System.__DTString str)
-    // Offset: 0x1B105F8
-    static bool GetTimeZoneName(System::__DTString& str);
+    // Offset: 0x1772F80
+    static bool GetTimeZoneName(ByRef<System::__DTString> str);
     // static System.Boolean IsDigit(System.Char ch)
-    // Offset: 0x1B106A8
+    // Offset: 0x1773030
     static bool IsDigit(::Il2CppChar ch);
     // static private System.Boolean ParseFraction(ref System.__DTString str, out System.Double result)
-    // Offset: 0x1B106BC
-    static bool ParseFraction(System::__DTString& str, double& result);
+    // Offset: 0x1773044
+    static bool ParseFraction(ByRef<System::__DTString> str, ByRef<double> result);
     // static private System.Boolean ParseTimeZone(ref System.__DTString str, ref System.TimeSpan result)
-    // Offset: 0x1B107A0
-    static bool ParseTimeZone(System::__DTString& str, System::TimeSpan& result);
+    // Offset: 0x1773128
+    static bool ParseTimeZone(ByRef<System::__DTString> str, ByRef<System::TimeSpan> result);
     // static private System.Boolean HandleTimeZone(ref System.__DTString str, ref System.DateTimeResult result)
-    // Offset: 0x1B10A34
-    static bool HandleTimeZone(System::__DTString& str, System::DateTimeResult& result);
+    // Offset: 0x17733BC
+    static bool HandleTimeZone(ByRef<System::__DTString> str, ByRef<System::DateTimeResult> result);
     // static private System.Boolean Lex(System.DateTimeParse/System.DS dps, ref System.__DTString str, ref System.DateTimeToken dtok, ref System.DateTimeRawInfo raw, ref System.DateTimeResult result, ref System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x1B10BA8
-    static bool Lex(System::DateTimeParse::DS dps, System::__DTString& str, System::DateTimeToken& dtok, System::DateTimeRawInfo& raw, System::DateTimeResult& result, System::Globalization::DateTimeFormatInfo*& dtfi, System::Globalization::DateTimeStyles styles);
+    // Offset: 0x1773530
+    static bool Lex(System::DateTimeParse::DS dps, ByRef<System::__DTString> str, ByRef<System::DateTimeToken> dtok, ByRef<System::DateTimeRawInfo> raw, ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeFormatInfo*> dtfi, System::Globalization::DateTimeStyles styles);
     // static private System.Boolean VerifyValidPunctuation(ref System.__DTString str)
-    // Offset: 0x1B11C7C
-    static bool VerifyValidPunctuation(System::__DTString& str);
+    // Offset: 0x1774604
+    static bool VerifyValidPunctuation(ByRef<System::__DTString> str);
     // static private System.Boolean GetYearMonthDayOrder(System.String datePattern, System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 order)
-    // Offset: 0x1B11DF4
-    static bool GetYearMonthDayOrder(::Il2CppString* datePattern, System::Globalization::DateTimeFormatInfo* dtfi, int& order);
+    // Offset: 0x177477C
+    static bool GetYearMonthDayOrder(::Il2CppString* datePattern, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> order);
     // static private System.Boolean GetYearMonthOrder(System.String pattern, System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 order)
-    // Offset: 0x1B1209C
-    static bool GetYearMonthOrder(::Il2CppString* pattern, System::Globalization::DateTimeFormatInfo* dtfi, int& order);
+    // Offset: 0x1774A24
+    static bool GetYearMonthOrder(::Il2CppString* pattern, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> order);
     // static private System.Boolean GetMonthDayOrder(System.String pattern, System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 order)
-    // Offset: 0x1B12258
-    static bool GetMonthDayOrder(::Il2CppString* pattern, System::Globalization::DateTimeFormatInfo* dtfi, int& order);
+    // Offset: 0x1774BE0
+    static bool GetMonthDayOrder(::Il2CppString* pattern, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> order);
     // static private System.Boolean TryAdjustYear(ref System.DateTimeResult result, System.Int32 year, out System.Int32 adjustedYear)
-    // Offset: 0x1B1245C
-    static bool TryAdjustYear(System::DateTimeResult& result, int year, int& adjustedYear);
+    // Offset: 0x1774DE4
+    static bool TryAdjustYear(ByRef<System::DateTimeResult> result, int year, ByRef<int> adjustedYear);
     // static private System.Boolean SetDateYMD(ref System.DateTimeResult result, System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x1B1255C
-    static bool SetDateYMD(System::DateTimeResult& result, int year, int month, int day);
+    // Offset: 0x1774EE4
+    static bool SetDateYMD(ByRef<System::DateTimeResult> result, int year, int month, int day);
     // static private System.Boolean SetDateMDY(ref System.DateTimeResult result, System.Int32 month, System.Int32 day, System.Int32 year)
-    // Offset: 0x1B125D0
-    static bool SetDateMDY(System::DateTimeResult& result, int month, int day, int year);
+    // Offset: 0x1774F58
+    static bool SetDateMDY(ByRef<System::DateTimeResult> result, int month, int day, int year);
     // static private System.Boolean SetDateDMY(ref System.DateTimeResult result, System.Int32 day, System.Int32 month, System.Int32 year)
-    // Offset: 0x1B1265C
-    static bool SetDateDMY(System::DateTimeResult& result, int day, int month, int year);
+    // Offset: 0x1774FE4
+    static bool SetDateDMY(ByRef<System::DateTimeResult> result, int day, int month, int year);
     // static private System.Boolean SetDateYDM(ref System.DateTimeResult result, System.Int32 year, System.Int32 day, System.Int32 month)
-    // Offset: 0x1B126E8
-    static bool SetDateYDM(System::DateTimeResult& result, int year, int day, int month);
+    // Offset: 0x1775070
+    static bool SetDateYDM(ByRef<System::DateTimeResult> result, int year, int day, int month);
     // static private System.Void GetDefaultYear(ref System.DateTimeResult result, ref System.Globalization.DateTimeStyles styles)
-    // Offset: 0x1B12774
-    static void GetDefaultYear(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles);
+    // Offset: 0x17750FC
+    static void GetDefaultYear(ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeStyles> styles);
     // static private System.Boolean GetDayOfNN(ref System.DateTimeResult result, ref System.Globalization.DateTimeStyles styles, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B12940
-    static bool GetDayOfNN(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x17752C8
+    static bool GetDayOfNN(ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeStyles> styles, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfNNN(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B12AD4
-    static bool GetDayOfNNN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x177545C
+    static bool GetDayOfNNN(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfMN(ref System.DateTimeResult result, ref System.Globalization.DateTimeStyles styles, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B12DA4
-    static bool GetDayOfMN(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x177572C
+    static bool GetDayOfMN(ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeStyles> styles, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetHebrewDayOfNM(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B12FD0
-    static bool GetHebrewDayOfNM(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1775958
+    static bool GetHebrewDayOfNM(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfNM(ref System.DateTimeResult result, ref System.Globalization.DateTimeStyles styles, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B1311C
-    static bool GetDayOfNM(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1775AA4
+    static bool GetDayOfNM(ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeStyles> styles, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfMNN(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B13348
-    static bool GetDayOfMNN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1775CD0
+    static bool GetDayOfMNN(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYNN(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B13638
-    static bool GetDayOfYNN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1775FC0
+    static bool GetDayOfYNN(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfNNY(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B13794
-    static bool GetDayOfNNY(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x177611C
+    static bool GetDayOfNNY(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYMN(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B13918
-    static bool GetDayOfYMN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x17762A0
+    static bool GetDayOfYMN(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYN(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B139E0
-    static bool GetDayOfYN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1776368
+    static bool GetDayOfYN(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYM(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B13AA8
-    static bool GetDayOfYM(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1776430
+    static bool GetDayOfYM(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Void AdjustTimeMark(System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeRawInfo raw)
-    // Offset: 0x1B13B68
-    static void AdjustTimeMark(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeRawInfo& raw);
+    // Offset: 0x17764F0
+    static void AdjustTimeMark(System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeRawInfo> raw);
     // static private System.Boolean AdjustHour(ref System.Int32 hour, System.DateTimeParse/System.TM timeMark)
-    // Offset: 0x1B13BDC
-    static bool AdjustHour(int& hour, System::DateTimeParse::TM timeMark);
+    // Offset: 0x1776564
+    static bool AdjustHour(ByRef<int> hour, System::DateTimeParse::TM timeMark);
     // static private System.Boolean GetTimeOfN(System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeResult result, ref System.DateTimeRawInfo raw)
-    // Offset: 0x1B13C24
-    static bool GetTimeOfN(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result, System::DateTimeRawInfo& raw);
+    // Offset: 0x17765AC
+    static bool GetTimeOfN(System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw);
     // static private System.Boolean GetTimeOfNN(System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeResult result, ref System.DateTimeRawInfo raw)
-    // Offset: 0x1B13CBC
-    static bool GetTimeOfNN(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result, System::DateTimeRawInfo& raw);
+    // Offset: 0x1776644
+    static bool GetTimeOfNN(System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw);
     // static private System.Boolean GetTimeOfNNN(System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeResult result, ref System.DateTimeRawInfo raw)
-    // Offset: 0x1B13D54
-    static bool GetTimeOfNNN(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result, System::DateTimeRawInfo& raw);
+    // Offset: 0x17766DC
+    static bool GetTimeOfNNN(System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw);
     // static private System.Boolean GetDateOfDSN(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw)
-    // Offset: 0x1B13DF8
-    static bool GetDateOfDSN(System::DateTimeResult& result, System::DateTimeRawInfo& raw);
+    // Offset: 0x1776780
+    static bool GetDateOfDSN(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw);
     // static private System.Boolean GetDateOfNDS(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw)
-    // Offset: 0x1B13E8C
-    static bool GetDateOfNDS(System::DateTimeResult& result, System::DateTimeRawInfo& raw);
+    // Offset: 0x1776814
+    static bool GetDateOfNDS(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw);
     // static private System.Boolean GetDateOfNNDS(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B13F54
-    static bool GetDateOfNNDS(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x17768DC
+    static bool GetDateOfNNDS(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean ProcessDateTimeSuffix(ref System.DateTimeResult result, ref System.DateTimeRawInfo raw, ref System.DateTimeToken dtok)
-    // Offset: 0x1B141A4
-    static bool ProcessDateTimeSuffix(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::DateTimeToken& dtok);
+    // Offset: 0x1776B2C
+    static bool ProcessDateTimeSuffix(ByRef<System::DateTimeResult> result, ByRef<System::DateTimeRawInfo> raw, ByRef<System::DateTimeToken> dtok);
     // static System.Boolean ProcessHebrewTerminalState(System.DateTimeParse/System.DS dps, ref System.DateTimeResult result, ref System.Globalization.DateTimeStyles styles, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B1429C
-    static bool ProcessHebrewTerminalState(System::DateTimeParse::DS dps, System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1776C24
+    static bool ProcessHebrewTerminalState(System::DateTimeParse::DS dps, ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeStyles> styles, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Boolean ProcessTerminaltState(System.DateTimeParse/System.DS dps, ref System.DateTimeResult result, ref System.Globalization.DateTimeStyles styles, ref System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1B1187C
-    static bool ProcessTerminaltState(System::DateTimeParse::DS dps, System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
+    // Offset: 0x1774204
+    static bool ProcessTerminaltState(System::DateTimeParse::DS dps, ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeStyles> styles, ByRef<System::DateTimeRawInfo> raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.DateTime Parse(System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x1B14580
+    // Offset: 0x1776F08
     static System::DateTime Parse(::Il2CppString* s, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles styles);
     // static System.Boolean TryParse(System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles, out System.DateTime result)
-    // Offset: 0x1B14D5C
-    static bool TryParse(::Il2CppString* s, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles styles, System::DateTime& result);
+    // Offset: 0x17776E4
+    static bool TryParse(::Il2CppString* s, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles styles, ByRef<System::DateTime> result);
     // static System.Boolean TryParse(System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles, ref System.DateTimeResult result)
-    // Offset: 0x1B14670
-    static bool TryParse(::Il2CppString* s, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles styles, System::DateTimeResult& result);
+    // Offset: 0x1776FF8
+    static bool TryParse(::Il2CppString* s, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles styles, ByRef<System::DateTimeResult> result);
     // static private System.Boolean DetermineTimeZoneAdjustments(ref System.DateTimeResult result, System.Globalization.DateTimeStyles styles, System.Boolean bTimeOnly)
-    // Offset: 0x1B155F8
-    static bool DetermineTimeZoneAdjustments(System::DateTimeResult& result, System::Globalization::DateTimeStyles styles, bool bTimeOnly);
+    // Offset: 0x1777F80
+    static bool DetermineTimeZoneAdjustments(ByRef<System::DateTimeResult> result, System::Globalization::DateTimeStyles styles, bool bTimeOnly);
     // static private System.Boolean DateTimeOffsetTimeZonePostProcessing(ref System.DateTimeResult result, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x1B157C4
-    static bool DateTimeOffsetTimeZonePostProcessing(System::DateTimeResult& result, System::Globalization::DateTimeStyles styles);
+    // Offset: 0x177814C
+    static bool DateTimeOffsetTimeZonePostProcessing(ByRef<System::DateTimeResult> result, System::Globalization::DateTimeStyles styles);
     // static private System.Boolean AdjustTimeZoneToUniversal(ref System.DateTimeResult result)
-    // Offset: 0x1B159CC
-    static bool AdjustTimeZoneToUniversal(System::DateTimeResult& result);
+    // Offset: 0x1778354
+    static bool AdjustTimeZoneToUniversal(ByRef<System::DateTimeResult> result);
     // static private System.Boolean AdjustTimeZoneToLocal(ref System.DateTimeResult result, System.Boolean bTimeOnly)
-    // Offset: 0x1B15A9C
-    static bool AdjustTimeZoneToLocal(System::DateTimeResult& result, bool bTimeOnly);
+    // Offset: 0x1778424
+    static bool AdjustTimeZoneToLocal(ByRef<System::DateTimeResult> result, bool bTimeOnly);
     // static private System.Boolean ParseISO8601(ref System.DateTimeRawInfo raw, ref System.__DTString str, System.Globalization.DateTimeStyles styles, ref System.DateTimeResult result)
-    // Offset: 0x1B14E9C
-    static bool ParseISO8601(System::DateTimeRawInfo& raw, System::__DTString& str, System::Globalization::DateTimeStyles styles, System::DateTimeResult& result);
+    // Offset: 0x1777824
+    static bool ParseISO8601(ByRef<System::DateTimeRawInfo> raw, ByRef<System::__DTString> str, System::Globalization::DateTimeStyles styles, ByRef<System::DateTimeResult> result);
     // static System.Boolean MatchHebrewDigits(ref System.__DTString str, System.Int32 digitLen, out System.Int32 number)
-    // Offset: 0x1B15D40
-    static bool MatchHebrewDigits(System::__DTString& str, int digitLen, int& number);
+    // Offset: 0x17786C8
+    static bool MatchHebrewDigits(ByRef<System::__DTString> str, int digitLen, ByRef<int> number);
     // static System.Boolean ParseDigits(ref System.__DTString str, System.Int32 digitLen, out System.Int32 result)
-    // Offset: 0x1B15C98
-    static bool ParseDigits(System::__DTString& str, int digitLen, int& result);
+    // Offset: 0x1778620
+    static bool ParseDigits(ByRef<System::__DTString> str, int digitLen, ByRef<int> result);
     // static System.Boolean ParseDigits(ref System.__DTString str, System.Int32 minDigitLen, System.Int32 maxDigitLen, out System.Int32 result)
-    // Offset: 0x1B15E2C
-    static bool ParseDigits(System::__DTString& str, int minDigitLen, int maxDigitLen, int& result);
+    // Offset: 0x17787B4
+    static bool ParseDigits(ByRef<System::__DTString> str, int minDigitLen, int maxDigitLen, ByRef<int> result);
     // static private System.Boolean ParseFractionExact(ref System.__DTString str, System.Int32 maxDigitLen, ref System.Double result)
-    // Offset: 0x1B15EE8
-    static bool ParseFractionExact(System::__DTString& str, int maxDigitLen, double& result);
+    // Offset: 0x1778870
+    static bool ParseFractionExact(ByRef<System::__DTString> str, int maxDigitLen, ByRef<double> result);
     // static private System.Boolean ParseSign(ref System.__DTString str, ref System.Boolean result)
-    // Offset: 0x1B16018
-    static bool ParseSign(System::__DTString& str, bool& result);
+    // Offset: 0x17789A0
+    static bool ParseSign(ByRef<System::__DTString> str, ByRef<bool> result);
     // static private System.Boolean ParseTimeZoneOffset(ref System.__DTString str, System.Int32 len, ref System.TimeSpan result)
-    // Offset: 0x1B16080
-    static bool ParseTimeZoneOffset(System::__DTString& str, int len, System::TimeSpan& result);
+    // Offset: 0x1778A08
+    static bool ParseTimeZoneOffset(ByRef<System::__DTString> str, int len, ByRef<System::TimeSpan> result);
     // static private System.Boolean MatchAbbreviatedMonthName(ref System.__DTString str, System.Globalization.DateTimeFormatInfo dtfi, ref System.Int32 result)
-    // Offset: 0x1B1623C
-    static bool MatchAbbreviatedMonthName(System::__DTString& str, System::Globalization::DateTimeFormatInfo* dtfi, int& result);
+    // Offset: 0x1778BC4
+    static bool MatchAbbreviatedMonthName(ByRef<System::__DTString> str, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> result);
     // static private System.Boolean MatchMonthName(ref System.__DTString str, System.Globalization.DateTimeFormatInfo dtfi, ref System.Int32 result)
-    // Offset: 0x1B163B4
-    static bool MatchMonthName(System::__DTString& str, System::Globalization::DateTimeFormatInfo* dtfi, int& result);
+    // Offset: 0x1778D3C
+    static bool MatchMonthName(ByRef<System::__DTString> str, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> result);
     // static private System.Boolean MatchAbbreviatedDayName(ref System.__DTString str, System.Globalization.DateTimeFormatInfo dtfi, ref System.Int32 result)
-    // Offset: 0x1B16568
-    static bool MatchAbbreviatedDayName(System::__DTString& str, System::Globalization::DateTimeFormatInfo* dtfi, int& result);
+    // Offset: 0x1778EF0
+    static bool MatchAbbreviatedDayName(ByRef<System::__DTString> str, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> result);
     // static private System.Boolean MatchDayName(ref System.__DTString str, System.Globalization.DateTimeFormatInfo dtfi, ref System.Int32 result)
-    // Offset: 0x1B1667C
-    static bool MatchDayName(System::__DTString& str, System::Globalization::DateTimeFormatInfo* dtfi, int& result);
+    // Offset: 0x1779004
+    static bool MatchDayName(ByRef<System::__DTString> str, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> result);
     // static private System.Boolean MatchEraName(ref System.__DTString str, System.Globalization.DateTimeFormatInfo dtfi, ref System.Int32 result)
-    // Offset: 0x1B16790
-    static bool MatchEraName(System::__DTString& str, System::Globalization::DateTimeFormatInfo* dtfi, int& result);
+    // Offset: 0x1779118
+    static bool MatchEraName(ByRef<System::__DTString> str, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> result);
     // static private System.Boolean MatchTimeMark(ref System.__DTString str, System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeParse/System.TM result)
-    // Offset: 0x1B168D4
-    static bool MatchTimeMark(System::__DTString& str, System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeParse::TM& result);
+    // Offset: 0x177925C
+    static bool MatchTimeMark(ByRef<System::__DTString> str, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeParse::TM> result);
     // static private System.Boolean MatchAbbreviatedTimeMark(ref System.__DTString str, System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeParse/System.TM result)
-    // Offset: 0x1B169E0
-    static bool MatchAbbreviatedTimeMark(System::__DTString& str, System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeParse::TM& result);
+    // Offset: 0x1779368
+    static bool MatchAbbreviatedTimeMark(ByRef<System::__DTString> str, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeParse::TM> result);
     // static private System.Boolean CheckNewValue(ref System.Int32 currentValue, System.Int32 newValue, System.Char patternChar, ref System.DateTimeResult result)
-    // Offset: 0x1B16AA4
-    static bool CheckNewValue(int& currentValue, int newValue, ::Il2CppChar patternChar, System::DateTimeResult& result);
+    // Offset: 0x177942C
+    static bool CheckNewValue(ByRef<int> currentValue, int newValue, ::Il2CppChar patternChar, ByRef<System::DateTimeResult> result);
     // static private System.DateTime GetDateTimeNow(ref System.DateTimeResult result, ref System.Globalization.DateTimeStyles styles)
-    // Offset: 0x1B12820
-    static System::DateTime GetDateTimeNow(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles);
+    // Offset: 0x17751A8
+    static System::DateTime GetDateTimeNow(ByRef<System::DateTimeResult> result, ByRef<System::Globalization::DateTimeStyles> styles);
     // static private System.Boolean CheckDefaultDateTime(ref System.DateTimeResult result, ref System.Globalization.Calendar cal, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x1B15378
-    static bool CheckDefaultDateTime(System::DateTimeResult& result, System::Globalization::Calendar*& cal, System::Globalization::DateTimeStyles styles);
+    // Offset: 0x1777D00
+    static bool CheckDefaultDateTime(ByRef<System::DateTimeResult> result, ByRef<System::Globalization::Calendar*> cal, System::Globalization::DateTimeStyles styles);
     // static private System.String ExpandPredefinedFormat(System.String format, ref System.Globalization.DateTimeFormatInfo dtfi, ref System.ParsingInfo parseInfo, ref System.DateTimeResult result)
-    // Offset: 0x1B16B58
-    static ::Il2CppString* ExpandPredefinedFormat(::Il2CppString* format, System::Globalization::DateTimeFormatInfo*& dtfi, System::ParsingInfo& parseInfo, System::DateTimeResult& result);
+    // Offset: 0x17794E0
+    static ::Il2CppString* ExpandPredefinedFormat(::Il2CppString* format, ByRef<System::Globalization::DateTimeFormatInfo*> dtfi, ByRef<System::ParsingInfo> parseInfo, ByRef<System::DateTimeResult> result);
     // static private System.Boolean ParseByFormat(ref System.__DTString str, ref System.__DTString format, ref System.ParsingInfo parseInfo, System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeResult result)
-    // Offset: 0x1B16EFC
-    static bool ParseByFormat(System::__DTString& str, System::__DTString& format, System::ParsingInfo& parseInfo, System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result);
+    // Offset: 0x1779884
+    static bool ParseByFormat(ByRef<System::__DTString> str, ByRef<System::__DTString> format, ByRef<System::ParsingInfo> parseInfo, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeResult> result);
     // static System.Boolean TryParseQuoteString(System.String format, System.Int32 pos, System.Text.StringBuilder result, out System.Int32 returnValue)
-    // Offset: 0x1B180F0
-    static bool TryParseQuoteString(::Il2CppString* format, int pos, System::Text::StringBuilder* result, int& returnValue);
+    // Offset: 0x177AA78
+    static bool TryParseQuoteString(::Il2CppString* format, int pos, System::Text::StringBuilder* result, ByRef<int> returnValue);
     // static private System.Boolean DoStrictParse(System.String s, System.String formatParam, System.Globalization.DateTimeStyles styles, System.Globalization.DateTimeFormatInfo dtfi, ref System.DateTimeResult result)
-    // Offset: 0x1B0FCB0
-    static bool DoStrictParse(::Il2CppString* s, ::Il2CppString* formatParam, System::Globalization::DateTimeStyles styles, System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result);
+    // Offset: 0x1772638
+    static bool DoStrictParse(::Il2CppString* s, ::Il2CppString* formatParam, System::Globalization::DateTimeStyles styles, System::Globalization::DateTimeFormatInfo* dtfi, ByRef<System::DateTimeResult> result);
     // static private System.Exception GetDateTimeParseException(ref System.DateTimeResult result)
-    // Offset: 0x1B0FB0C
-    static System::Exception* GetDateTimeParseException(System::DateTimeResult& result);
+    // Offset: 0x1772494
+    static System::Exception* GetDateTimeParseException(ByRef<System::DateTimeResult> result);
   }; // System.DateTimeParse
   #pragma pack(pop)
 }
@@ -582,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::DateTimeParse::TryParseExact
 // Il2CppName: TryParseExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, System::DateTimeResult&)>(&System::DateTimeParse::TryParseExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::TryParseExact)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -595,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::TryParseExactMultiple
 // Il2CppName: TryParseExactMultiple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, System::DateTime&, System::TimeSpan&)>(&System::DateTimeParse::TryParseExactMultiple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTime>, ByRef<System::TimeSpan>)>(&System::DateTimeParse::TryParseExactMultiple)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -609,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::TryParseExactMultiple
 // Il2CppName: TryParseExactMultiple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, System::DateTimeResult&)>(&System::DateTimeParse::TryParseExactMultiple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::TryParseExactMultiple)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -622,7 +623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::MatchWord
 // Il2CppName: MatchWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, ::Il2CppString*)>(&System::DateTimeParse::MatchWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, ::Il2CppString*)>(&System::DateTimeParse::MatchWord)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -632,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetTimeZoneName
 // Il2CppName: GetTimeZoneName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&)>(&System::DateTimeParse::GetTimeZoneName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>)>(&System::DateTimeParse::GetTimeZoneName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTimeParse*), "GetTimeZoneName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -650,7 +651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::ParseFraction
 // Il2CppName: ParseFraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, double&)>(&System::DateTimeParse::ParseFraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, ByRef<double>)>(&System::DateTimeParse::ParseFraction)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
@@ -660,7 +661,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ParseTimeZone
 // Il2CppName: ParseTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::TimeSpan&)>(&System::DateTimeParse::ParseTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, ByRef<System::TimeSpan>)>(&System::DateTimeParse::ParseTimeZone)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->this_arg;
@@ -670,7 +671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::HandleTimeZone
 // Il2CppName: HandleTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::DateTimeResult&)>(&System::DateTimeParse::HandleTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::HandleTimeZone)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
@@ -680,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::Lex
 // Il2CppName: Lex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeParse::DS, System::__DTString&, System::DateTimeToken&, System::DateTimeRawInfo&, System::DateTimeResult&, System::Globalization::DateTimeFormatInfo*&, System::Globalization::DateTimeStyles)>(&System::DateTimeParse::Lex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeParse::DS, ByRef<System::__DTString>, ByRef<System::DateTimeToken>, ByRef<System::DateTimeRawInfo>, ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeFormatInfo*>, System::Globalization::DateTimeStyles)>(&System::DateTimeParse::Lex)> {
   static const MethodInfo* get() {
     static auto* dps = &::il2cpp_utils::GetClassFromName("System", "DateTimeParse/DS")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
@@ -695,7 +696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::VerifyValidPunctuation
 // Il2CppName: VerifyValidPunctuation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&)>(&System::DateTimeParse::VerifyValidPunctuation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>)>(&System::DateTimeParse::VerifyValidPunctuation)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTimeParse*), "VerifyValidPunctuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -704,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetYearMonthDayOrder
 // Il2CppName: GetYearMonthDayOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::GetYearMonthDayOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::GetYearMonthDayOrder)> {
   static const MethodInfo* get() {
     static auto* datePattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -715,7 +716,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::GetYearMonthOrder
 // Il2CppName: GetYearMonthOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::GetYearMonthOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::GetYearMonthOrder)> {
   static const MethodInfo* get() {
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -726,7 +727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::GetMonthDayOrder
 // Il2CppName: GetMonthDayOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::GetMonthDayOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::GetMonthDayOrder)> {
   static const MethodInfo* get() {
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -737,7 +738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::TryAdjustYear
 // Il2CppName: TryAdjustYear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, int, int&)>(&System::DateTimeParse::TryAdjustYear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, int, ByRef<int>)>(&System::DateTimeParse::TryAdjustYear)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -748,7 +749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::SetDateYMD
 // Il2CppName: SetDateYMD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, int, int, int)>(&System::DateTimeParse::SetDateYMD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, int, int, int)>(&System::DateTimeParse::SetDateYMD)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -760,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::SetDateMDY
 // Il2CppName: SetDateMDY
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, int, int, int)>(&System::DateTimeParse::SetDateMDY)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, int, int, int)>(&System::DateTimeParse::SetDateMDY)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -772,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::SetDateDMY
 // Il2CppName: SetDateDMY
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, int, int, int)>(&System::DateTimeParse::SetDateDMY)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, int, int, int)>(&System::DateTimeParse::SetDateDMY)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* day = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -784,7 +785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::SetDateYDM
 // Il2CppName: SetDateYDM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, int, int, int)>(&System::DateTimeParse::SetDateYDM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, int, int, int)>(&System::DateTimeParse::SetDateYDM)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -796,7 +797,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDefaultYear
 // Il2CppName: GetDefaultYear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTimeResult&, System::Globalization::DateTimeStyles&)>(&System::DateTimeParse::GetDefaultYear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeStyles>)>(&System::DateTimeParse::GetDefaultYear)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->this_arg;
@@ -806,7 +807,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfNN
 // Il2CppName: GetDayOfNN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::Globalization::DateTimeStyles&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeStyles>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->this_arg;
@@ -818,7 +819,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfNNN
 // Il2CppName: GetDayOfNNN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNNN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNNN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -829,7 +830,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfMN
 // Il2CppName: GetDayOfMN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::Globalization::DateTimeStyles&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfMN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeStyles>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfMN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->this_arg;
@@ -841,7 +842,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetHebrewDayOfNM
 // Il2CppName: GetHebrewDayOfNM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetHebrewDayOfNM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetHebrewDayOfNM)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -852,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfNM
 // Il2CppName: GetDayOfNM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::Globalization::DateTimeStyles&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeStyles>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNM)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->this_arg;
@@ -864,7 +865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfMNN
 // Il2CppName: GetDayOfMNN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfMNN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfMNN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -875,7 +876,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfYNN
 // Il2CppName: GetDayOfYNN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYNN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYNN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -886,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfNNY
 // Il2CppName: GetDayOfNNY
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNNY)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfNNY)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -897,7 +898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfYMN
 // Il2CppName: GetDayOfYMN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYMN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYMN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -908,7 +909,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfYN
 // Il2CppName: GetDayOfYN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -919,7 +920,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDayOfYM
 // Il2CppName: GetDayOfYM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDayOfYM)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -930,7 +931,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::AdjustTimeMark
 // Il2CppName: AdjustTimeMark
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::DateTimeFormatInfo*, System::DateTimeRawInfo&)>(&System::DateTimeParse::AdjustTimeMark)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeRawInfo>)>(&System::DateTimeParse::AdjustTimeMark)> {
   static const MethodInfo* get() {
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -940,7 +941,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::AdjustHour
 // Il2CppName: AdjustHour
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int&, System::DateTimeParse::TM)>(&System::DateTimeParse::AdjustHour)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<int>, System::DateTimeParse::TM)>(&System::DateTimeParse::AdjustHour)> {
   static const MethodInfo* get() {
     static auto* hour = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* timeMark = &::il2cpp_utils::GetClassFromName("System", "DateTimeParse/TM")->byval_arg;
@@ -950,7 +951,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: System::DateTimeParse::GetTimeOfN
 // Il2CppName: GetTimeOfN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::DateTimeFormatInfo*, System::DateTimeResult&, System::DateTimeRawInfo&)>(&System::DateTimeParse::GetTimeOfN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>)>(&System::DateTimeParse::GetTimeOfN)> {
   static const MethodInfo* get() {
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
@@ -961,7 +962,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetTimeOfNN
 // Il2CppName: GetTimeOfNN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::DateTimeFormatInfo*, System::DateTimeResult&, System::DateTimeRawInfo&)>(&System::DateTimeParse::GetTimeOfNN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>)>(&System::DateTimeParse::GetTimeOfNN)> {
   static const MethodInfo* get() {
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
@@ -972,7 +973,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetTimeOfNNN
 // Il2CppName: GetTimeOfNNN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::DateTimeFormatInfo*, System::DateTimeResult&, System::DateTimeRawInfo&)>(&System::DateTimeParse::GetTimeOfNNN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>)>(&System::DateTimeParse::GetTimeOfNNN)> {
   static const MethodInfo* get() {
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
@@ -983,7 +984,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDateOfDSN
 // Il2CppName: GetDateOfDSN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&)>(&System::DateTimeParse::GetDateOfDSN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>)>(&System::DateTimeParse::GetDateOfDSN)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -993,7 +994,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDateOfNDS
 // Il2CppName: GetDateOfNDS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&)>(&System::DateTimeParse::GetDateOfNDS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>)>(&System::DateTimeParse::GetDateOfNDS)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -1003,7 +1004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::GetDateOfNNDS
 // Il2CppName: GetDateOfNNDS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDateOfNNDS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::GetDateOfNNDS)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -1014,7 +1015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ProcessDateTimeSuffix
 // Il2CppName: ProcessDateTimeSuffix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::DateTimeRawInfo&, System::DateTimeToken&)>(&System::DateTimeParse::ProcessDateTimeSuffix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::DateTimeRawInfo>, ByRef<System::DateTimeToken>)>(&System::DateTimeParse::ProcessDateTimeSuffix)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
@@ -1025,7 +1026,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ProcessHebrewTerminalState
 // Il2CppName: ProcessHebrewTerminalState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeParse::DS, System::DateTimeResult&, System::Globalization::DateTimeStyles&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::ProcessHebrewTerminalState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeParse::DS, ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeStyles>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::ProcessHebrewTerminalState)> {
   static const MethodInfo* get() {
     static auto* dps = &::il2cpp_utils::GetClassFromName("System", "DateTimeParse/DS")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
@@ -1038,7 +1039,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ProcessTerminaltState
 // Il2CppName: ProcessTerminaltState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeParse::DS, System::DateTimeResult&, System::Globalization::DateTimeStyles&, System::DateTimeRawInfo&, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::ProcessTerminaltState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeParse::DS, ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeStyles>, ByRef<System::DateTimeRawInfo>, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeParse::ProcessTerminaltState)> {
   static const MethodInfo* get() {
     static auto* dps = &::il2cpp_utils::GetClassFromName("System", "DateTimeParse/DS")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
@@ -1062,7 +1063,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::DateTimeParse::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, System::DateTime&)>(&System::DateTimeParse::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTime>)>(&System::DateTimeParse::TryParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1074,7 +1075,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, System::DateTimeResult&)>(&System::DateTimeParse::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::TryParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1086,7 +1087,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::DetermineTimeZoneAdjustments
 // Il2CppName: DetermineTimeZoneAdjustments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::Globalization::DateTimeStyles, bool)>(&System::DateTimeParse::DetermineTimeZoneAdjustments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, System::Globalization::DateTimeStyles, bool)>(&System::DateTimeParse::DetermineTimeZoneAdjustments)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->byval_arg;
@@ -1097,7 +1098,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::DateTimeOffsetTimeZonePostProcessing
 // Il2CppName: DateTimeOffsetTimeZonePostProcessing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::Globalization::DateTimeStyles)>(&System::DateTimeParse::DateTimeOffsetTimeZonePostProcessing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, System::Globalization::DateTimeStyles)>(&System::DateTimeParse::DateTimeOffsetTimeZonePostProcessing)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->byval_arg;
@@ -1107,7 +1108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::AdjustTimeZoneToUniversal
 // Il2CppName: AdjustTimeZoneToUniversal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&)>(&System::DateTimeParse::AdjustTimeZoneToUniversal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>)>(&System::DateTimeParse::AdjustTimeZoneToUniversal)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTimeParse*), "AdjustTimeZoneToUniversal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -1116,7 +1117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::AdjustTimeZoneToLocal
 // Il2CppName: AdjustTimeZoneToLocal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, bool)>(&System::DateTimeParse::AdjustTimeZoneToLocal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, bool)>(&System::DateTimeParse::AdjustTimeZoneToLocal)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* bTimeOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1126,7 +1127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ParseISO8601
 // Il2CppName: ParseISO8601
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeRawInfo&, System::__DTString&, System::Globalization::DateTimeStyles, System::DateTimeResult&)>(&System::DateTimeParse::ParseISO8601)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeRawInfo>, ByRef<System::__DTString>, System::Globalization::DateTimeStyles, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::ParseISO8601)> {
   static const MethodInfo* get() {
     static auto* raw = &::il2cpp_utils::GetClassFromName("System", "DateTimeRawInfo")->this_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
@@ -1138,7 +1139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchHebrewDigits
 // Il2CppName: MatchHebrewDigits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, int, int&)>(&System::DateTimeParse::MatchHebrewDigits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, int, ByRef<int>)>(&System::DateTimeParse::MatchHebrewDigits)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* digitLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1149,7 +1150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ParseDigits
 // Il2CppName: ParseDigits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, int, int&)>(&System::DateTimeParse::ParseDigits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, int, ByRef<int>)>(&System::DateTimeParse::ParseDigits)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* digitLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1160,7 +1161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ParseDigits
 // Il2CppName: ParseDigits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, int, int, int&)>(&System::DateTimeParse::ParseDigits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, int, int, ByRef<int>)>(&System::DateTimeParse::ParseDigits)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* minDigitLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1172,7 +1173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ParseFractionExact
 // Il2CppName: ParseFractionExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, int, double&)>(&System::DateTimeParse::ParseFractionExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, int, ByRef<double>)>(&System::DateTimeParse::ParseFractionExact)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* maxDigitLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1183,7 +1184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ParseSign
 // Il2CppName: ParseSign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, bool&)>(&System::DateTimeParse::ParseSign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, ByRef<bool>)>(&System::DateTimeParse::ParseSign)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -1193,7 +1194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ParseTimeZoneOffset
 // Il2CppName: ParseTimeZoneOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, int, System::TimeSpan&)>(&System::DateTimeParse::ParseTimeZoneOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, int, ByRef<System::TimeSpan>)>(&System::DateTimeParse::ParseTimeZoneOffset)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1204,7 +1205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchAbbreviatedMonthName
 // Il2CppName: MatchAbbreviatedMonthName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::MatchAbbreviatedMonthName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::MatchAbbreviatedMonthName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1215,7 +1216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchMonthName
 // Il2CppName: MatchMonthName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::MatchMonthName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::MatchMonthName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1226,7 +1227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchAbbreviatedDayName
 // Il2CppName: MatchAbbreviatedDayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::MatchAbbreviatedDayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::MatchAbbreviatedDayName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1237,7 +1238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchDayName
 // Il2CppName: MatchDayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::MatchDayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::MatchDayName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1248,7 +1249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchEraName
 // Il2CppName: MatchEraName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::Globalization::DateTimeFormatInfo*, int&)>(&System::DateTimeParse::MatchEraName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, System::Globalization::DateTimeFormatInfo*, ByRef<int>)>(&System::DateTimeParse::MatchEraName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1259,7 +1260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchTimeMark
 // Il2CppName: MatchTimeMark
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::Globalization::DateTimeFormatInfo*, System::DateTimeParse::TM&)>(&System::DateTimeParse::MatchTimeMark)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeParse::TM>)>(&System::DateTimeParse::MatchTimeMark)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1270,7 +1271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::MatchAbbreviatedTimeMark
 // Il2CppName: MatchAbbreviatedTimeMark
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::Globalization::DateTimeFormatInfo*, System::DateTimeParse::TM&)>(&System::DateTimeParse::MatchAbbreviatedTimeMark)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeParse::TM>)>(&System::DateTimeParse::MatchAbbreviatedTimeMark)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -1281,7 +1282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::CheckNewValue
 // Il2CppName: CheckNewValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int&, int, ::Il2CppChar, System::DateTimeResult&)>(&System::DateTimeParse::CheckNewValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<int>, int, ::Il2CppChar, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::CheckNewValue)> {
   static const MethodInfo* get() {
     static auto* currentValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* newValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1293,7 +1294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: System::DateTimeParse::GetDateTimeNow
 // Il2CppName: GetDateTimeNow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTimeResult&, System::Globalization::DateTimeStyles&)>(&System::DateTimeParse::GetDateTimeNow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(ByRef<System::DateTimeResult>, ByRef<System::Globalization::DateTimeStyles>)>(&System::DateTimeParse::GetDateTimeNow)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->this_arg;
@@ -1303,7 +1304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::DateTimeParse::CheckDefaultDateTime
 // Il2CppName: CheckDefaultDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::DateTimeResult&, System::Globalization::Calendar*&, System::Globalization::DateTimeStyles)>(&System::DateTimeParse::CheckDefaultDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::DateTimeResult>, ByRef<System::Globalization::Calendar*>, System::Globalization::DateTimeStyles)>(&System::DateTimeParse::CheckDefaultDateTime)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     static auto* cal = &::il2cpp_utils::GetClassFromName("System.Globalization", "Calendar")->this_arg;
@@ -1314,7 +1315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::ExpandPredefinedFormat
 // Il2CppName: ExpandPredefinedFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*&, System::ParsingInfo&, System::DateTimeResult&)>(&System::DateTimeParse::ExpandPredefinedFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ByRef<System::Globalization::DateTimeFormatInfo*>, ByRef<System::ParsingInfo>, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::ExpandPredefinedFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->this_arg;
@@ -1326,7 +1327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::DateTimeParse::ParseByFormat
 // Il2CppName: ParseByFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, System::__DTString&, System::ParsingInfo&, System::Globalization::DateTimeFormatInfo*, System::DateTimeResult&)>(&System::DateTimeParse::ParseByFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::__DTString>, ByRef<System::__DTString>, ByRef<System::ParsingInfo>, System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::ParseByFormat)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
@@ -1339,7 +1340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeParse::TryParseQuoteString
 // Il2CppName: TryParseQuoteString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Text::StringBuilder*, int&)>(&System::DateTimeParse::TryParseQuoteString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Text::StringBuilder*, ByRef<int>)>(&System::DateTimeParse::TryParseQuoteString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1351,7 +1352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::DoStrictParse
 // Il2CppName: DoStrictParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, System::Globalization::DateTimeStyles, System::Globalization::DateTimeFormatInfo*, System::DateTimeResult&)>(&System::DateTimeParse::DoStrictParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, System::Globalization::DateTimeStyles, System::Globalization::DateTimeFormatInfo*, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::DoStrictParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formatParam = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1364,7 +1365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::GetDateTimeParseException
 // Il2CppName: GetDateTimeParseException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::DateTimeResult&)>(&System::DateTimeParse::GetDateTimeParseException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(ByRef<System::DateTimeResult>)>(&System::DateTimeParse::GetDateTimeParseException)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeResult")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTimeParse*), "GetDateTimeParseException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

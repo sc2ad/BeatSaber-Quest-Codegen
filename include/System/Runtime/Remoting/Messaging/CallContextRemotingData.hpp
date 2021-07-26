@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,19 +41,19 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.String _logicalCallID
     void _set__logicalCallID(::Il2CppString* value);
     // System.String get_LogicalCallID()
-    // Offset: 0x19F6BD0
+    // Offset: 0x16ADCC4
     ::Il2CppString* get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
-    // Offset: 0x19F6BD8
+    // Offset: 0x16ADCCC
     void set_LogicalCallID(::Il2CppString* value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x19F6BE0
+    // Offset: 0x16ADCD4
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x19F6BF0
+    // Offset: 0x16ADCE4
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x19F6C60
+    // Offset: 0x16ADD54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

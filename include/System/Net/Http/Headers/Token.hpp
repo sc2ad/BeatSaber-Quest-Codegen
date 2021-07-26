@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Enum
@@ -161,29 +162,29 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.Int32 <EndPosition>k__BackingField
     void _set_$EndPosition$k__BackingField(int value);
     // public System.Int32 get_StartPosition()
-    // Offset: 0xEDC500
+    // Offset: 0xD704B8
     int get_StartPosition();
     // private System.Void set_StartPosition(System.Int32 value)
-    // Offset: 0xEDC508
+    // Offset: 0xD704C0
     void set_StartPosition(int value);
     // public System.Int32 get_EndPosition()
-    // Offset: 0xEDC510
+    // Offset: 0xD704C8
     int get_EndPosition();
     // private System.Void set_EndPosition(System.Int32 value)
-    // Offset: 0xEDC518
+    // Offset: 0xD704D0
     void set_EndPosition(int value);
     // public System.Net.Http.Headers.Token/System.Net.Http.Headers.Type get_Kind()
-    // Offset: 0xEDC520
+    // Offset: 0xD704D8
     System::Net::Http::Headers::Token::Type get_Kind();
     // public System.Void .ctor(System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type, System.Int32 startPosition, System.Int32 endPosition)
-    // Offset: 0xEDC4F4
+    // Offset: 0xD704AC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition)
     // static private System.Void .cctor()
-    // Offset: 0x156D794
+    // Offset: 0x1271D64
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xEDC528
+    // Offset: 0xD704E0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

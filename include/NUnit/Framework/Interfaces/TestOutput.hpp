@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -17,21 +18,21 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestOutput : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF688
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D2A4
     // private System.String <Text>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF6C4
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D2E0
     // private System.String <Stream>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Stream;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF700
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D31C
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -53,29 +54,29 @@ namespace NUnit::Framework::Interfaces {
     // Set instance field: private System.String <TestName>k__BackingField
     void _set_$TestName$k__BackingField(::Il2CppString* value);
     // public System.String get_Text()
-    // Offset: 0x1722110
+    // Offset: 0x14257CC
     ::Il2CppString* get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x1722118
+    // Offset: 0x14257D4
     void set_Text(::Il2CppString* value);
     // public System.String get_Stream()
-    // Offset: 0x1722120
+    // Offset: 0x14257DC
     ::Il2CppString* get_Stream();
     // private System.Void set_Stream(System.String value)
-    // Offset: 0x1722128
+    // Offset: 0x14257E4
     void set_Stream(::Il2CppString* value);
     // private System.Void set_TestName(System.String value)
-    // Offset: 0x1722130
+    // Offset: 0x14257EC
     void set_TestName(::Il2CppString* value);
     // public System.Void .ctor(System.String text, System.String stream, System.String testName)
-    // Offset: 0x172207C
+    // Offset: 0x1425738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestOutput* New_ctor(::Il2CppString* text, ::Il2CppString* stream, ::Il2CppString* testName) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TestOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestOutput*, creationType>(text, stream, testName)));
     }
     // public override System.String ToString()
-    // Offset: 0x17220BC
+    // Offset: 0x1425778
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

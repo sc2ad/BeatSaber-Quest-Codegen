@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_Settings
 #include "TMPro/TMP_Settings.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,7 +51,7 @@ namespace TMPro {
     // Set instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
     void _set_followingCharacters(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* value);
     // public System.Void .ctor()
-    // Offset: 0x1113734
+    // Offset: 0x10133B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

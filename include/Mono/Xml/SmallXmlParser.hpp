@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -173,73 +174,73 @@ namespace Mono::Xml {
     // Set instance field: private System.Boolean resetColumn
     void _set_resetColumn(bool value);
     // private System.Exception Error(System.String msg)
-    // Offset: 0x1A53174
+    // Offset: 0x170A268
     System::Exception* Error(::Il2CppString* msg);
     // private System.Exception UnexpectedEndError()
-    // Offset: 0x1A532B4
+    // Offset: 0x170A3A8
     System::Exception* UnexpectedEndError();
     // private System.Boolean IsNameChar(System.Char c, System.Boolean start)
-    // Offset: 0x1A53384
+    // Offset: 0x170A478
     bool IsNameChar(::Il2CppChar c, bool start);
     // private System.Boolean IsWhitespace(System.Int32 c)
-    // Offset: 0x1A53498
+    // Offset: 0x170A58C
     bool IsWhitespace(int c);
     // public System.Void SkipWhitespaces()
-    // Offset: 0x1A534C8
+    // Offset: 0x170A5BC
     void SkipWhitespaces();
     // private System.Void HandleWhitespaces()
-    // Offset: 0x1A53594
+    // Offset: 0x170A688
     void HandleWhitespaces();
     // public System.Void SkipWhitespaces(System.Boolean expected)
-    // Offset: 0x1A534D0
+    // Offset: 0x170A5C4
     void SkipWhitespaces(bool expected);
     // private System.Int32 Peek()
-    // Offset: 0x1A536CC
+    // Offset: 0x170A7C0
     int Peek();
     // private System.Int32 Read()
-    // Offset: 0x1A53658
+    // Offset: 0x170A74C
     int Read();
     // public System.Void Expect(System.Int32 c)
-    // Offset: 0x1A536EC
+    // Offset: 0x170A7E0
     void Expect(int c);
     // private System.String ReadUntil(System.Char until, System.Boolean handleReferences)
-    // Offset: 0x1A537D0
+    // Offset: 0x170A8C4
     ::Il2CppString* ReadUntil(::Il2CppChar until, bool handleReferences);
     // public System.String ReadName()
-    // Offset: 0x1A53A5C
+    // Offset: 0x170AB50
     ::Il2CppString* ReadName();
     // public System.Void Parse(System.IO.TextReader input, Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler)
-    // Offset: 0x1A52B44
+    // Offset: 0x1709C38
     void Parse(System::IO::TextReader* input, Mono::Xml::SmallXmlParser::IContentHandler* handler);
     // private System.Void Cleanup()
-    // Offset: 0x1A54420
+    // Offset: 0x170B514
     void Cleanup();
     // public System.Void ReadContent()
-    // Offset: 0x1A53C00
+    // Offset: 0x170ACF4
     void ReadContent();
     // private System.Void HandleBufferedContent()
-    // Offset: 0x1A542D0
+    // Offset: 0x170B3C4
     void HandleBufferedContent();
     // private System.Void ReadCharacters()
-    // Offset: 0x1A5482C
+    // Offset: 0x170B920
     void ReadCharacters();
     // private System.Void ReadReference()
-    // Offset: 0x1A538CC
+    // Offset: 0x170A9C0
     void ReadReference();
     // private System.Int32 ReadCharacterReference()
-    // Offset: 0x1A548B8
+    // Offset: 0x170B9AC
     int ReadCharacterReference();
     // private System.Void ReadAttribute(Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl a)
-    // Offset: 0x1A546D0
+    // Offset: 0x170B7C4
     void ReadAttribute(Mono::Xml::SmallXmlParser::AttrListImpl* a);
     // private System.Void ReadCDATASection()
-    // Offset: 0x1A54508
+    // Offset: 0x170B5FC
     void ReadCDATASection();
     // private System.Void ReadComment()
-    // Offset: 0x1A54624
+    // Offset: 0x170B718
     void ReadComment();
     // public System.Void .ctor()
-    // Offset: 0x1A52A5C
+    // Offset: 0x1709B50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

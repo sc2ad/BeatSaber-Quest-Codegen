@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -25,7 +26,7 @@ namespace Org::BouncyCastle::X509::Extension {
     // Creating value type constructor for type: X509ExtensionUtilities
     X509ExtensionUtilities() noexcept {}
     // static public Org.BouncyCastle.Asn1.Asn1Object FromExtensionValue(Org.BouncyCastle.Asn1.Asn1OctetString extensionValue)
-    // Offset: 0x1F7E25C
+    // Offset: 0x1A6411C
     static Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);
   }; // Org.BouncyCastle.X509.Extension.X509ExtensionUtilities
   #pragma pack(pop)

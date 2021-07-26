@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,22 +42,22 @@ namespace GlobalNamespace {
     // Set instance field: private Mirror _mirror
     void _set__mirror(GlobalNamespace::Mirror* value);
     // public Mirror get_mirror()
-    // Offset: 0x108A640
+    // Offset: 0x1F0BF3C
     GlobalNamespace::Mirror* get_mirror();
     // public System.Void set_mirror(Mirror value)
-    // Offset: 0x108A648
+    // Offset: 0x1F0BF44
     void set_mirror(GlobalNamespace::Mirror* value);
     // protected System.Void Start()
-    // Offset: 0x108A650
+    // Offset: 0x1F0BF4C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x108A730
+    // Offset: 0x1F0C02C
     void OnDestroy();
     // private System.Void HandleMirrorDidChangeEnabledState(System.Boolean isEnabled)
-    // Offset: 0x108A6F8
+    // Offset: 0x1F0BFF4
     void HandleMirrorDidChangeEnabledState(bool isEnabled);
     // public System.Void .ctor()
-    // Offset: 0x108A80C
+    // Offset: 0x1F0C108
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

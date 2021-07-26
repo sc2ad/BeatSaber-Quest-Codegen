@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: Tweening.EaseType
@@ -46,13 +47,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _easeDuration
     void _set__easeDuration(float value);
     // public Tweening.EaseType get_easeType()
-    // Offset: 0x1071688
+    // Offset: 0x1EDD15C
     Tweening::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x1071690
+    // Offset: 0x1EDD164
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x1071698
+    // Offset: 0x1EDD16C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

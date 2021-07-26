@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -24,10 +25,10 @@ namespace System::Threading {
     // Set static field: static private System.Int32 s_lastProcessorCountRefreshTicks
     static void _set_s_lastProcessorCountRefreshTicks(int value);
     // static System.Int32 get_ProcessorCount()
-    // Offset: 0x18A3E60
+    // Offset: 0x1575264
     static int get_ProcessorCount();
     // static System.Boolean get_IsSingleProcessor()
-    // Offset: 0x18A64B0
+    // Offset: 0x15778B4
     static bool get_IsSingleProcessor();
   }; // System.Threading.PlatformHelper
   #pragma pack(pop)

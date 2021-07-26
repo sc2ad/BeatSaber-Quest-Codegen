@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TransformExtensions
     TransformExtensions() noexcept {}
     // static public UnityEngine.Quaternion InverseTransformRotation(UnityEngine.Transform trans, UnityEngine.Quaternion worldRotation)
-    // Offset: 0x235BDA8
+    // Offset: 0x1DE41E8
     static UnityEngine::Quaternion InverseTransformRotation(UnityEngine::Transform* trans, UnityEngine::Quaternion worldRotation);
   }; // TransformExtensions
   #pragma pack(pop)

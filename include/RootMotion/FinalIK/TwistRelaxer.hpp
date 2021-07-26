@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,38 +38,38 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF4404
+    // [TooltipAttribute] Offset: 0xEA1020
     // public UnityEngine.Transform parent
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* parent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF443C
+    // [TooltipAttribute] Offset: 0xEA1058
     // public UnityEngine.Transform child
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* child;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF4474
-    // [RangeAttribute] Offset: 0xDF4474
+    // [TooltipAttribute] Offset: 0xEA1090
+    // [RangeAttribute] Offset: 0xEA1090
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x30
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF44C8
-    // [RangeAttribute] Offset: 0xDF44C8
+    // [TooltipAttribute] Offset: 0xEA10E4
+    // [RangeAttribute] Offset: 0xEA10E4
     // public System.Single parentChildCrossfade
     // Size: 0x4
     // Offset: 0x34
     float parentChildCrossfade;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF451C
-    // [RangeAttribute] Offset: 0xDF451C
+    // [TooltipAttribute] Offset: 0xEA1138
+    // [RangeAttribute] Offset: 0xEA1138
     // public System.Single twistAngleOffset
     // Size: 0x4
     // Offset: 0x38
@@ -144,22 +145,22 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Vector3 axisRelativeToChildDefault
     void _set_axisRelativeToChildDefault(UnityEngine::Vector3 value);
     // public System.Void Relax()
-    // Offset: 0x1ABE880
+    // Offset: 0x17360D0
     void Relax();
     // private System.Void Start()
-    // Offset: 0x1ABEC60
+    // Offset: 0x17364B0
     void Start();
     // private System.Void OnPostUpdate()
-    // Offset: 0x1ABF0D4
+    // Offset: 0x1736924
     void OnPostUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1ABF15C
+    // Offset: 0x17369AC
     void LateUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1ABF1E4
+    // Offset: 0x1736A34
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1ABF2E8
+    // Offset: 0x1736B38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -81,25 +82,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean fadeOverlay
     void _set_fadeOverlay(bool value);
     // static public System.Void Start(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x13A5F10
+    // Offset: 0x114DB70
     static void Start(UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // static public System.Void View(UnityEngine.Color newColor, System.Single duration)
-    // Offset: 0x13A5FD4
+    // Offset: 0x114DC34
     static void View(UnityEngine::Color newColor, float duration);
     // public System.Void OnStartFade(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x13A609C
+    // Offset: 0x114DCFC
     void OnStartFade(UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // private System.Void OnEnable()
-    // Offset: 0x13A6104
+    // Offset: 0x114DD64
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x13A62C4
+    // Offset: 0x114DF24
     void OnDisable();
     // private System.Void OnPostRender()
-    // Offset: 0x13A6388
+    // Offset: 0x114DFE8
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0x13A66B0
+    // Offset: 0x114E310
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,7 +113,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Fade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13A6758
+    // Offset: 0x114E3B8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

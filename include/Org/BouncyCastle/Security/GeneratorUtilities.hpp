@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -41,10 +42,10 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary defaultKeySizes
     static void _set_defaultKeySizes(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x135016C
+    // Offset: 0x10F6DCC
     static void _cctor();
     // static private System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
-    // Offset: 0x135366C
+    // Offset: 0x10FA2CC
     static void AddDefaultKeySizeEntries(int size, ::Array<::Il2CppString*>* algorithms);
     // Creating initializer_list -> params proxy for: System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
     static void AddDefaultKeySizeEntries(int size, std::initializer_list<::Il2CppString*> algorithms);
@@ -54,7 +55,7 @@ namespace Org::BouncyCastle::Security {
       AddDefaultKeySizeEntries(size, {algorithms...});
     }
     // static private System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x1352E58
+    // Offset: 0x10F9AB8
     static void AddKgAlgorithm(::Il2CppString* canonicalName, ::Array<::Il2CppObject*>* aliases);
     // Creating initializer_list -> params proxy for: System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     static void AddKgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
@@ -64,7 +65,7 @@ namespace Org::BouncyCastle::Security {
       AddKgAlgorithm(canonicalName, {aliases...});
     }
     // static private System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x135341C
+    // Offset: 0x10FA07C
     static void AddKpgAlgorithm(::Il2CppString* canonicalName, ::Array<::Il2CppObject*>* aliases);
     // Creating initializer_list -> params proxy for: System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     static void AddKpgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
@@ -74,7 +75,7 @@ namespace Org::BouncyCastle::Security {
       AddKpgAlgorithm(canonicalName, {aliases...});
     }
     // static private System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
-    // Offset: 0x13530A8
+    // Offset: 0x10F9D08
     static void AddHMacKeyGenerator(::Il2CppString* algorithm, ::Array<::Il2CppObject*>* aliases);
     // Creating initializer_list -> params proxy for: System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
     static void AddHMacKeyGenerator(::Il2CppString* algorithm, std::initializer_list<::Il2CppObject*> aliases);
@@ -84,16 +85,16 @@ namespace Org::BouncyCastle::Security {
       AddHMacKeyGenerator(algorithm, {aliases...});
     }
     // static System.String GetCanonicalKeyGeneratorAlgorithm(System.String algorithm)
-    // Offset: 0x13537D8
+    // Offset: 0x10FA438
     static ::Il2CppString* GetCanonicalKeyGeneratorAlgorithm(::Il2CppString* algorithm);
     // static System.Int32 GetDefaultKeySize(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x135390C
+    // Offset: 0x10FA56C
     static int GetDefaultKeySize(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static System.Int32 GetDefaultKeySize(System.String algorithm)
-    // Offset: 0x135397C
+    // Offset: 0x10FA5DC
     static int GetDefaultKeySize(::Il2CppString* algorithm);
     // static private System.Int32 FindDefaultKeySize(System.String canonicalName)
-    // Offset: 0x1353B68
+    // Offset: 0x10FA7C8
     static int FindDefaultKeySize(::Il2CppString* canonicalName);
   }; // Org.BouncyCastle.Security.GeneratorUtilities
   #pragma pack(pop)

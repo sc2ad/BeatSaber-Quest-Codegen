@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: private FileBrowserItem[] _bookmarksFolders
     void _set__bookmarksFolders(::Array<GlobalNamespace::FileBrowserItem*>* value);
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0x109E8BC
+    // Offset: 0x1EF6D64
     ::Array<GlobalNamespace::FileBrowserItem*>* get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0x109EC94
+    // Offset: 0x1EF713C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

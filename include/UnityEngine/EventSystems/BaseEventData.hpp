@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.AbstractEventData
 #include "UnityEngine/EventSystems/AbstractEventData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,16 +51,16 @@ namespace UnityEngine::EventSystems {
     // Set instance field: private readonly UnityEngine.EventSystems.EventSystem m_EventSystem
     void _set_m_EventSystem(UnityEngine::EventSystems::EventSystem* value);
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0x1400640
+    // Offset: 0x11A92A0
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_selectedObject()
-    // Offset: 0x140065C
+    // Offset: 0x11A92BC
     UnityEngine::GameObject* get_selectedObject();
     // public System.Void set_selectedObject(UnityEngine.GameObject value)
-    // Offset: 0x1400678
+    // Offset: 0x11A92D8
     void set_selectedObject(UnityEngine::GameObject* value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1400614
+    // Offset: 0x11A9274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::BaseEventData::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -158,49 +159,49 @@ namespace System::Text::RegularExpressions {
     // Set instance field: System.Collections.Hashtable _caps
     void _set__caps(System::Collections::Hashtable* value);
     // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x196C824
+    // Offset: 0x163DC28
     static System::Text::RegularExpressions::RegexCode* Write(System::Text::RegularExpressions::RegexTree* t);
     // System.Void PushInt(System.Int32 I)
-    // Offset: 0x196CCE4
+    // Offset: 0x163E0E8
     void PushInt(int I);
     // System.Boolean EmptyStack()
-    // Offset: 0x196CDC4
+    // Offset: 0x163E1C8
     bool EmptyStack();
     // System.Int32 PopInt()
-    // Offset: 0x196CDD4
+    // Offset: 0x163E1D8
     int PopInt();
     // System.Int32 CurPos()
-    // Offset: 0x196CE1C
+    // Offset: 0x163E220
     int CurPos();
     // System.Void PatchJump(System.Int32 Offset, System.Int32 jumpDest)
-    // Offset: 0x196CE24
+    // Offset: 0x163E228
     void PatchJump(int Offset, int jumpDest);
     // System.Void Emit(System.Int32 op)
-    // Offset: 0x196CE64
+    // Offset: 0x163E268
     void Emit(int op);
     // System.Void Emit(System.Int32 op, System.Int32 opd1)
-    // Offset: 0x196CEFC
+    // Offset: 0x163E300
     void Emit(int op, int opd1);
     // System.Void Emit(System.Int32 op, System.Int32 opd1, System.Int32 opd2)
-    // Offset: 0x196CFBC
+    // Offset: 0x163E3C0
     void Emit(int op, int opd1, int opd2);
     // System.Int32 StringCode(System.String str)
-    // Offset: 0x196D0A4
+    // Offset: 0x163E4A8
     int StringCode(::Il2CppString* str);
     // System.ArgumentException MakeException(System.String message)
-    // Offset: 0x196D1B0
+    // Offset: 0x163E5B4
     System::ArgumentException* MakeException(::Il2CppString* message);
     // System.Int32 MapCapnum(System.Int32 capnum)
-    // Offset: 0x196D214
+    // Offset: 0x163E618
     int MapCapnum(int capnum);
     // System.Text.RegularExpressions.RegexCode RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x196C950
+    // Offset: 0x163DD54
     System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(System::Text::RegularExpressions::RegexTree* tree);
     // System.Void EmitFragment(System.Int32 nodetype, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x196D2D0
+    // Offset: 0x163E6D4
     void EmitFragment(int nodetype, System::Text::RegularExpressions::RegexNode* node, int CurIndex);
     // private System.Void .ctor()
-    // Offset: 0x196C88C
+    // Offset: 0x163DC90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

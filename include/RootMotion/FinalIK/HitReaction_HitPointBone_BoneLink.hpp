@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone
 #include "RootMotion/FinalIK/HitReaction_HitPointBone.hpp"
 // Including type: UnityEngine.Quaternion
@@ -33,15 +34,15 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPointBone::BoneLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF8E20
+    // [TooltipAttribute] Offset: 0xEA5A3C
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* bone;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF8E58
-    // [RangeAttribute] Offset: 0xDF8E58
+    // [TooltipAttribute] Offset: 0xEA5A74
+    // [RangeAttribute] Offset: 0xEA5A74
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -79,13 +80,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Quaternion current
     void _set_current(UnityEngine::Quaternion value);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x1C94BD0
+    // Offset: 0x1832970
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1C94968
+    // Offset: 0x1832708
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1C94D40
+    // Offset: 0x1832AE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

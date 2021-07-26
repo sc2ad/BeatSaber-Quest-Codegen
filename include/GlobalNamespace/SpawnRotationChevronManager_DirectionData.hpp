@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SpawnRotationChevronManager
 #include "GlobalNamespace/SpawnRotationChevronManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single fadeInEndTime
     void _set_fadeInEndTime(float value);
     // public System.Void .ctor()
-    // Offset: 0x105E9B0
+    // Offset: 0x1EC9484
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

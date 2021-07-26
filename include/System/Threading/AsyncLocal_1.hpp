@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.AsyncLocalValueChangedArgs`1
 #include "System/Threading/AsyncLocalValueChangedArgs_1.hpp"
 // Completed includes

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,13 +54,13 @@ namespace GlobalNamespace {
     // Set instance field: private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
     void _set__animationClipsWithIds(::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* value);
     // public BTSCharacterDataModel/PrefabWithId[] get_prefabsWithIds()
-    // Offset: 0x10E48BC
+    // Offset: 0x1F358D0
     ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* get_prefabsWithIds();
     // public BTSCharacterDataModel/AnimationClipWithId[] get_animationClipsWithIds()
-    // Offset: 0x10E48C4
+    // Offset: 0x1F358D8
     ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* get_animationClipsWithIds();
     // public System.Void .ctor()
-    // Offset: 0x10E48CC
+    // Offset: 0x1F358E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

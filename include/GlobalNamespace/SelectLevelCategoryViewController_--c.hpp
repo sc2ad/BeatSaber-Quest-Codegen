@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SelectLevelCategoryViewController
 #include "GlobalNamespace/SelectLevelCategoryViewController.hpp"
 // Including type: HMUI.IconSegmentedControl
@@ -45,16 +46,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,SelectLevelCategoryViewController/LevelCategory> <>9__12_2
     static void _set_$$9__12_2(System::Func_2<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1155404
+    // Offset: 0x1F85E18
     static void _cctor();
     // HMUI.IconSegmentedControl/HMUI.DataItem <Setup>b__12_1(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x1155470
+    // Offset: 0x1F85E84
     HMUI::IconSegmentedControl::DataItem* $Setup$b__12_1(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // SelectLevelCategoryViewController/LevelCategory <Setup>b__12_2(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x11554FC
+    // Offset: 0x1F85F10
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory $Setup$b__12_2(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1155468
+    // Offset: 0x1F85E7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

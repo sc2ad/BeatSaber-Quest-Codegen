@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker
 #include "TMPro/SpriteAssetUtilities/TexturePacker.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData
@@ -46,7 +47,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Set instance field: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     void _set_frames(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* value);
     // public System.Void .ctor()
-    // Offset: 0x10BD6E4
+    // Offset: 0xFF51E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

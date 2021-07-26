@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IBlockCipher
 #include "Org/BouncyCastle/Crypto/IBlockCipher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -81,49 +82,49 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.Boolean forEncryption
     void _set_forEncryption(bool value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E0E01C
+    // Offset: 0x1981BFC
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1E0E064
+    // Offset: 0x1981C44
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1E0EBDC
+    // Offset: 0x19827BC
     static void _cctor();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E0E06C
+    // Offset: 0x1981C4C
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E0E0D8
+    // Offset: 0x1981CB8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E0E56C
+    // Offset: 0x198214C
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E0E910
+    // Offset: 0x19824F0
     void Reset();
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1E0E274
+    // Offset: 0x1981E54
     void SetKey(::Array<uint8_t>* key);
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E0E744
+    // Offset: 0x1982324
     int EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E0E57C
+    // Offset: 0x198215C
     int DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int64 RotateLeft(System.Int64 x, System.Int64 y)
-    // Offset: 0x1E0E914
+    // Offset: 0x19824F4
     int64_t RotateLeft(int64_t x, int64_t y);
     // private System.Int64 RotateRight(System.Int64 x, System.Int64 y)
-    // Offset: 0x1E0EB4C
+    // Offset: 0x198272C
     int64_t RotateRight(int64_t x, int64_t y);
     // private System.Int64 BytesToWord(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x1E0E9A4
+    // Offset: 0x1982584
     int64_t BytesToWord(::Array<uint8_t>* src, int srcOff);
     // private System.Void WordToBytes(System.Int64 word, System.Byte[] dst, System.Int32 dstOff)
-    // Offset: 0x1E0EA6C
+    // Offset: 0x198264C
     void WordToBytes(int64_t word, ::Array<uint8_t>* dst, int dstOff);
     // public System.Void .ctor()
-    // Offset: 0x1E0DFF0
+    // Offset: 0x1981BD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

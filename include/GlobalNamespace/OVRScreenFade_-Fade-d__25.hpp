@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRScreenFade
 #include "GlobalNamespace/OVRScreenFade.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -91,26 +92,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <elapsedTime>5__2
     void _set_$elapsedTime$5__2(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x15FCE30
+    // Offset: 0x1300400
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x15FCE98
+    // Offset: 0x1300468
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x15FCC4C
+    // Offset: 0x130021C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRScreenFade::$Fade$d__25* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRScreenFade::$Fade$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRScreenFade::$Fade$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x15FCCEC
+    // Offset: 0x13002BC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x15FCCF0
+    // Offset: 0x13002C0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x15FCE38
+    // Offset: 0x1300408
     void System_Collections_IEnumerator_Reset();
   }; // OVRScreenFade/<Fade>d__25
   #pragma pack(pop)

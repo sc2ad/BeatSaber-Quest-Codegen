@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLibConnectionManager
 #include "GlobalNamespace/LiteNetLibConnectionManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -78,26 +79,26 @@ namespace GlobalNamespace {
     // Set instance field: private readonly LiteNetLib.ConnectionRequest _request
     void _set__request(LiteNetLib::ConnectionRequest* value);
     // public System.String get_userId()
-    // Offset: 0x12CABF0
+    // Offset: 0x10A032C
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x12CABF8
+    // Offset: 0x10A0334
     ::Il2CppString* get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x12CAC00
+    // Offset: 0x10A033C
     bool get_isConnectionOwner();
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x12CAC08
+    // Offset: 0x10A0344
     System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x12C9ECC
+    // Offset: 0x109F608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnectionRequest* New_ctor(LiteNetLib::ConnectionRequest* request, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnectionRequest*, creationType>(request, userId, userName, isConnectionOwner)));
     }
     // public LiteNetLib.NetPeer Accept()
-    // Offset: 0x12C9EB0
+    // Offset: 0x109F5EC
     LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
   #pragma pack(pop)

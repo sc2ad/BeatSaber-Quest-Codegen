@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,22 +52,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _stackTrace
     void _set__stackTrace(::Il2CppString* value);
     // public System.String get_logString()
-    // Offset: 0x1082330
+    // Offset: 0x1F03C2C
     ::Il2CppString* get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x1082338
+    // Offset: 0x1F03C34
     ::Il2CppString* get_stackTrace();
     // public System.Void StartCatchingExceptions()
-    // Offset: 0x1082340
+    // Offset: 0x1F03C3C
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0x10823B4
+    // Offset: 0x1F03CB0
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x1082428
+    // Offset: 0x1F03D24
     void HandleLog(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0x10824CC
+    // Offset: 0x1F03DC8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

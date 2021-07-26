@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle
@@ -81,28 +82,28 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSCharacterDataModel* btsCharacterDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterDataModel*) == 0x8);
-    // [NullAllowed] Offset: 0xDFD84C
+    // [NullAllowed] Offset: 0xEAA468
     // private UnityEngine.Transform _characterWrapper
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* characterWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFD888
+    // [InjectAttribute] Offset: 0xEAA4A4
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFD898
+    // [InjectAttribute] Offset: 0xEAA4B4
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFD8A8
+    // [InjectAttribute] Offset: 0xEAA4C4
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x40
@@ -216,34 +217,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
     void _set__handles(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Boolean get_isInitialized()
-    // Offset: 0x10E5D08
+    // Offset: 0x1F36D1C
     bool get_isInitialized();
     // public System.Void add_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x10E54B0
+    // Offset: 0x1F364C4
     void add_startCharacterAnimationEvent(System::Action_1<GlobalNamespace::BTSCharacter*>* value);
     // public System.Void remove_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x10E58C0
+    // Offset: 0x1F368D4
     void remove_startCharacterAnimationEvent(System::Action_1<GlobalNamespace::BTSCharacter*>* value);
     // protected System.Void Start()
-    // Offset: 0x10E5D10
+    // Offset: 0x1F36D24
     void Start();
     // private System.Void LoadAddressables()
-    // Offset: 0x10E61E8
+    // Offset: 0x1F371FC
     void LoadAddressables();
     // private System.Void CleanupAddressables()
-    // Offset: 0x10E6928
+    // Offset: 0x1F3793C
     void CleanupAddressables();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E6A78
+    // Offset: 0x1F37A8C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x10E6B44
+    // Offset: 0x1F37B58
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // static private System.Tuple`2<BTSCharacter,UnityEngine.AnimationClip> GetCharacterWithAnimationClip(System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> charDictionary, System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AnimationClip> animDictionary, System.Int32 prefabId, System.Int32 animationId)
-    // Offset: 0x10E67D0
+    // Offset: 0x1F377E4
     static System::Tuple_2<GlobalNamespace::BTSCharacter*, UnityEngine::AnimationClip*>* GetCharacterWithAnimationClip(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>* charDictionary, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>* animDictionary, int prefabId, int animationId);
     // public System.Void .ctor()
-    // Offset: 0x10E6CC4
+    // Offset: 0x1F37CD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

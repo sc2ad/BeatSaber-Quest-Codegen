@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -23,31 +24,31 @@ namespace System {
     // Creating value type constructor for type: ParseNumbers
     ParseNumbers() noexcept {}
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags)
-    // Offset: 0x1CA2CD8
+    // Offset: 0x183FA78
     static int StringToInt(::Il2CppString* value, int fromBase, int flags);
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x1CA2CE0
+    // Offset: 0x183FA80
     static int StringToInt(::Il2CppString* value, int fromBase, int flags, int* parsePos);
     // static public System.String LongToString(System.Int64 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x1CA30FC
+    // Offset: 0x183FE9C
     static ::Il2CppString* LongToString(int64_t value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static public System.Int64 StringToLong(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x1CA36F8
+    // Offset: 0x1840498
     static int64_t StringToLong(::Il2CppString* value, int fromBase, int flags, int* parsePos);
     // static public System.String IntToString(System.Int32 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x1CA3B40
+    // Offset: 0x18408E0
     static ::Il2CppString* IntToString(int value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static private System.Void EndianSwap(ref System.Byte[] value)
-    // Offset: 0x1CA3D68
-    static void EndianSwap(::Array<uint8_t>*& value);
+    // Offset: 0x1840B08
+    static void EndianSwap(ByRef<::Array<uint8_t>*> value);
     // static private System.Text.StringBuilder ConvertToBase2(System.Byte[] value)
-    // Offset: 0x1CA3220
+    // Offset: 0x183FFC0
     static System::Text::StringBuilder* ConvertToBase2(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase8(System.Byte[] value)
-    // Offset: 0x1CA3364
+    // Offset: 0x1840104
     static System::Text::StringBuilder* ConvertToBase8(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase16(System.Byte[] value)
-    // Offset: 0x1CA353C
+    // Offset: 0x18402DC
     static System::Text::StringBuilder* ConvertToBase16(::Array<uint8_t>* value);
   }; // System.ParseNumbers
   #pragma pack(pop)
@@ -119,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::ParseNumbers::EndianSwap
 // Il2CppName: EndianSwap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*&)>(&System::ParseNumbers::EndianSwap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::Array<uint8_t>*>)>(&System::ParseNumbers::EndianSwap)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParseNumbers*), "EndianSwap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

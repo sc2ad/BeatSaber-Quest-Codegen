@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -38,53 +39,53 @@ namespace System::Threading {
     // Creating value type constructor for type: ThreadPool
     ThreadPool() noexcept {}
     // static private System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.UInt32 millisecondsTimeOutInterval, System.Boolean executeOnlyOnce, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
-    // Offset: 0x188B0E0
-    static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, System::Threading::StackCrawlMark& stackMark, bool compressStack);
+    // Offset: 0x155C4E4
+    static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, ByRef<System::Threading::StackCrawlMark> stackMark, bool compressStack);
     // static public System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
-    // Offset: 0x188B404
+    // Offset: 0x155C808
     static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, System::TimeSpan timeout, bool executeOnlyOnce);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
-    // Offset: 0x188B3A4
+    // Offset: 0x155C7A8
     static bool QueueUserWorkItem(System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack)
-    // Offset: 0x188B668
+    // Offset: 0x155CA6C
     static bool QueueUserWorkItem(System::Threading::WaitCallback* callBack);
     // static public System.Boolean UnsafeQueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
-    // Offset: 0x188B3D4
+    // Offset: 0x155C7D8
     static bool UnsafeQueueUserWorkItem(System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static private System.Boolean QueueUserWorkItemHelper(System.Threading.WaitCallback callBack, System.Object state, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
-    // Offset: 0x188B558
-    static bool QueueUserWorkItemHelper(System::Threading::WaitCallback* callBack, ::Il2CppObject* state, System::Threading::StackCrawlMark& stackMark, bool compressStack);
+    // Offset: 0x155C95C
+    static bool QueueUserWorkItemHelper(System::Threading::WaitCallback* callBack, ::Il2CppObject* state, ByRef<System::Threading::StackCrawlMark> stackMark, bool compressStack);
     // static System.Void UnsafeQueueCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem, System.Boolean forceGlobal)
-    // Offset: 0x1889750
+    // Offset: 0x155AB54
     static void UnsafeQueueCustomWorkItem(System::Threading::IThreadPoolWorkItem* workItem, bool forceGlobal);
     // static System.Boolean TryPopCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem)
-    // Offset: 0x188988C
+    // Offset: 0x155AC90
     static bool TryPopCustomWorkItem(System::Threading::IThreadPoolWorkItem* workItem);
     // static System.Boolean RequestWorkerThread()
-    // Offset: 0x188B8EC
+    // Offset: 0x155CCF0
     static bool RequestWorkerThread();
     // static private System.Void EnsureVMInitialized()
-    // Offset: 0x188B69C
+    // Offset: 0x155CAA0
     static void EnsureVMInitialized();
     // static System.Boolean NotifyWorkItemComplete()
-    // Offset: 0x188B8F4
+    // Offset: 0x155CCF8
     static bool NotifyWorkItemComplete();
     // static System.Void ReportThreadStatus(System.Boolean isWorking)
-    // Offset: 0x188B8F8
+    // Offset: 0x155CCFC
     static void ReportThreadStatus(bool isWorking);
     // static System.Void NotifyWorkItemProgress()
-    // Offset: 0x1889958
+    // Offset: 0x155AD5C
     static void NotifyWorkItemProgress();
     // static System.Void NotifyWorkItemProgressNative()
-    // Offset: 0x188B900
+    // Offset: 0x155CD04
     static void NotifyWorkItemProgressNative();
     // static System.Boolean IsThreadPoolHosted()
-    // Offset: 0x188B904
+    // Offset: 0x155CD08
     static bool IsThreadPoolHosted();
     // static private System.Void InitializeVMTp(ref System.Boolean enableWorkerTracking)
-    // Offset: 0x188B8F0
-    static void InitializeVMTp(bool& enableWorkerTracking);
+    // Offset: 0x155CCF4
+    static void InitializeVMTp(ByRef<bool> enableWorkerTracking);
   }; // System.Threading.ThreadPool
   #pragma pack(pop)
 }
@@ -94,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPool*, "System.Threading", "Thre
 // Writing MetadataGetter for method: System::Threading::ThreadPool::RegisterWaitForSingleObject
 // Il2CppName: RegisterWaitForSingleObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, uint, bool, System::Threading::StackCrawlMark&, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, uint, bool, ByRef<System::Threading::StackCrawlMark>, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
   static const MethodInfo* get() {
     static auto* waitObject = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitOrTimerCallback")->byval_arg;
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ThreadPool::QueueUserWorkItemHelper
 // Il2CppName: QueueUserWorkItemHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*, System::Threading::StackCrawlMark&, bool)>(&System::Threading::ThreadPool::QueueUserWorkItemHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*, ByRef<System::Threading::StackCrawlMark>, bool)>(&System::Threading::ThreadPool::QueueUserWorkItemHelper)> {
   static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -239,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Threading::ThreadPool::InitializeVMTp
 // Il2CppName: InitializeVMTp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool&)>(&System::Threading::ThreadPool::InitializeVMTp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<bool>)>(&System::Threading::ThreadPool::InitializeVMTp)> {
   static const MethodInfo* get() {
     static auto* enableWorkerTracking = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "InitializeVMTp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enableWorkerTracking});

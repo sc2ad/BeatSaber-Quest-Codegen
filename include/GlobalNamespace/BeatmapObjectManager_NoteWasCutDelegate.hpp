@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectManager
 #include "GlobalNamespace/BeatmapObjectManager.hpp"
 // Including type: System.MulticastDelegate
@@ -40,21 +41,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteWasCutDelegate
     NoteWasCutDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1096644
+    // Offset: 0x1EEEAEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectManager::NoteWasCutDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectManager::NoteWasCutDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x10960EC
-    void Invoke(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo);
+    // Offset: 0x1EEE594
+    void Invoke(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.IAsyncResult BeginInvoke(NoteController noteController, in NoteCutInfo noteCutInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1096654
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo& noteCutInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1EEEAFC
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in NoteCutInfo noteCutInfo, System.IAsyncResult result)
-    // Offset: 0x10966F0
-    void EndInvoke(GlobalNamespace::NoteCutInfo& noteCutInfo, System::IAsyncResult* result);
+    // Offset: 0x1EEEB98
+    void EndInvoke(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, System::IAsyncResult* result);
   }; // BeatmapObjectManager/NoteWasCutDelegate
   #pragma pack(pop)
 }
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteController*, ByRef<GlobalNamespace::NoteCutInfo>)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::Invoke)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteController*, ByRef<GlobalNamespace::NoteCutInfo>, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteCutInfo&, System::IAsyncResult*)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(ByRef<GlobalNamespace::NoteCutInfo>, System::IAsyncResult*)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::EndInvoke)> {
   static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

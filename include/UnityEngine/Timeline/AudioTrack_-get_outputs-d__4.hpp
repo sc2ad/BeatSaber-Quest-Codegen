@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.AudioTrack
 #include "UnityEngine/Timeline/AudioTrack.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -87,32 +88,32 @@ namespace UnityEngine::Timeline {
     // Set instance field: public UnityEngine.Timeline.AudioTrack <>4__this
     void _set_$$4__this(UnityEngine::Timeline::AudioTrack* value);
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
-    // Offset: 0x17E1814
+    // Offset: 0x14B1C18
     UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x17E1884
+    // Offset: 0x14B1C88
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x17E15F8
+    // Offset: 0x14B19FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTrack::$get_outputs$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AudioTrack::$get_outputs$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioTrack::$get_outputs$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x17E1780
+    // Offset: 0x14B1B84
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x17E1784
+    // Offset: 0x14B1B88
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x17E1824
+    // Offset: 0x14B1C28
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator()
-    // Offset: 0x17E18EC
+    // Offset: 0x14B1CF0
     System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x17E1998
+    // Offset: 0x14B1D9C
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.AudioTrack/UnityEngine.Timeline.<get_outputs>d__4
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.SubContainerBinder
 #include "Zenject/SubContainerBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -70,10 +71,10 @@ namespace Zenject {
     // Set instance field: public System.Action`1<Zenject.DiContainer> installerMethod
     void _set_installerMethod(System::Action_1<Zenject::DiContainer*>* value);
     // Zenject.ISubContainerCreator <ByNewPrefabResourceMethod>b__0(Zenject.DiContainer container)
-    // Offset: 0x16D1338
+    // Offset: 0x13D39F4
     Zenject::ISubContainerCreator* $ByNewPrefabResourceMethod$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x16D0844
+    // Offset: 0x13D2F00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

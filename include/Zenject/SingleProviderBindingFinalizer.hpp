@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ProviderBindingFinalizer
 #include "Zenject/ProviderBindingFinalizer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,14 +55,14 @@ namespace Zenject {
     // Set instance field: private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory
     void _set__providerFactory(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFactory)
-    // Offset: 0x16CF8D4
+    // Offset: 0x13D1F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SingleProviderBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SingleProviderBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SingleProviderBindingFinalizer*, creationType>(bindInfo, providerFactory)));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x16CF90C
+    // Offset: 0x13D1FC8
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);

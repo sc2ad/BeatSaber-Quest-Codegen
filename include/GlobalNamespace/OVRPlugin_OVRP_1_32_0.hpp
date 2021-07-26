@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -29,10 +30,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F32D4
+    // Offset: 0x12F68A4
     static void _cctor();
     // static public OVRPlugin/Result ovrp_AddCustomMetadata(System.String name, System.String param)
-    // Offset: 0x15F3214
+    // Offset: 0x12F67E4
     static GlobalNamespace::OVRPlugin::Result ovrp_AddCustomMetadata(::Il2CppString* name, ::Il2CppString* param);
   }; // OVRPlugin/OVRP_1_32_0
   #pragma pack(pop)

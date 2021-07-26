@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -71,11 +72,11 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDifficultyUnknownSerializedName
     static void _set_kDifficultyUnknownSerializedName(::Il2CppString* value);
     // static public System.String SerializedName(BeatmapDifficulty difficulty)
-    // Offset: 0x23B65F8
+    // Offset: 0x23EE780
     static ::Il2CppString* SerializedName(GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Boolean BeatmapDifficultyFromSerializedName(System.String name, out BeatmapDifficulty difficulty)
-    // Offset: 0x23B6668
-    static bool BeatmapDifficultyFromSerializedName(::Il2CppString* name, GlobalNamespace::BeatmapDifficulty& difficulty);
+    // Offset: 0x23EE7F0
+    static bool BeatmapDifficultyFromSerializedName(::Il2CppString* name, ByRef<GlobalNamespace::BeatmapDifficulty> difficulty);
   }; // BeatmapDifficultySerializedMethods
   #pragma pack(pop)
 }
@@ -94,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficultyFromSerializedName
 // Il2CppName: BeatmapDifficultyFromSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, GlobalNamespace::BeatmapDifficulty&)>(&GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficultyFromSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<GlobalNamespace::BeatmapDifficulty>)>(&GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficultyFromSerializedName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE002BC
+    // [SpaceAttribute] Offset: 0xEACED8
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x20
@@ -66,16 +67,16 @@ namespace GlobalNamespace {
     // Set instance field: private AchievementSO _finishTutorialAchievement
     void _set__finishTutorialAchievement(GlobalNamespace::AchievementSO* value);
     // protected System.Void Start()
-    // Offset: 0x1027A24
+    // Offset: 0x1E924F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1027AB0
+    // Offset: 0x1E92584
     void OnDestroy();
     // private System.Void HandleTutorialFinished()
-    // Offset: 0x1027B3C
+    // Offset: 0x1E92610
     void HandleTutorialFinished();
     // public System.Void .ctor()
-    // Offset: 0x1027B60
+    // Offset: 0x1E92634
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.TableView/HMUI.IDataSource
@@ -137,40 +138,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _selectedColumn
     void _set__selectedColumn(int value);
     // public System.Void add_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x118C814
+    // Offset: 0x1FD234C
     void add_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x118C8B8
+    // Offset: 0x1FD23F0
     void remove_didSelectCharacteristic(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // private System.Void Init()
-    // Offset: 0x118C95C
+    // Offset: 0x1FD2494
     void Init();
     // public System.Void SetData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
-    // Offset: 0x118CA28
+    // Offset: 0x1FD2560
     void SetData(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
     // protected System.Void OnDestroy()
-    // Offset: 0x118CA80
+    // Offset: 0x1FD25B8
     void OnDestroy();
     // public System.Single CellSize()
-    // Offset: 0x118CB14
+    // Offset: 0x1FD264C
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x118CB1C
+    // Offset: 0x1FD2654
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x118CBB4
+    // Offset: 0x1FD26EC
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // private System.Void HandleDidSelectColumnEvent(HMUI.TableView tableView, System.Int32 column)
-    // Offset: 0x118CD10
+    // Offset: 0x1FD2848
     void HandleDidSelectColumnEvent(HMUI::TableView* tableView, int column);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x118CDB8
+    // Offset: 0x1FD28F0
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x118CE78
+    // Offset: 0x1FD29B0
     void SelectCellWithIdx(int idx);
     // public System.Void .ctor()
-    // Offset: 0x118CE98
+    // Offset: 0x1FD29D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

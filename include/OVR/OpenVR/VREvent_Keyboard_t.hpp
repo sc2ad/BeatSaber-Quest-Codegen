@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -116,7 +117,7 @@ namespace OVR::OpenVR {
     // Set instance field: public System.UInt64 uUserValue
     void _set_uUserValue(uint64_t value);
     // public System.String get_cNewInput()
-    // Offset: 0xED1D84
+    // Offset: 0xD680FC
     ::Il2CppString* get_cNewInput();
   }; // OVR.OpenVR.VREvent_Keyboard_t
   #pragma pack(pop)

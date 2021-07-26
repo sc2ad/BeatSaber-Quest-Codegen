@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1Convertible
 #include "Org/BouncyCastle/Asn1/IAsn1Convertible.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,19 +34,19 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // public System.Byte[] GetEncoded()
-    // Offset: 0x16D7C20
+    // Offset: 0x13DA2DC
     ::Array<uint8_t>* GetEncoded();
     // public System.Byte[] GetEncoded(System.String encoding)
-    // Offset: 0x16D7CE0
+    // Offset: 0x13DA39C
     ::Array<uint8_t>* GetEncoded(::Il2CppString* encoding);
     // public System.Byte[] GetDerEncoded()
-    // Offset: 0x16D7DD8
+    // Offset: 0x13DA494
     ::Array<uint8_t>* GetDerEncoded();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // protected System.Void .ctor()
-    // Offset: 0x16D8008
+    // Offset: 0x13DA6C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,12 +55,12 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Encodable*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16D7EA0
+    // Offset: 0x13DA55C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x16D7ED8
+    // Offset: 0x13DA594
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

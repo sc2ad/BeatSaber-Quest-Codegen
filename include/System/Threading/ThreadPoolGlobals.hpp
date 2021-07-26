@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -47,7 +48,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ThreadPoolWorkQueue workQueue
     static void _set_workQueue(System::Threading::ThreadPoolWorkQueue* value);
     // static private System.Void .cctor()
-    // Offset: 0x188B908
+    // Offset: 0x155CD0C
     static void _cctor();
   }; // System.Threading.ThreadPoolGlobals
   #pragma pack(pop)

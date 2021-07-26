@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.InvalidCastException
 #include "System/InvalidCastException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: MemoableResetException
     MemoableResetException() noexcept {}
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x1F7D9BC
+    // Offset: 0x1A6387C
     // Implemented from: System.InvalidCastException
     // Base method: System.Void InvalidCastException::.ctor(System.String msg)
     // Base method: System.Void SystemException::.ctor(System.String msg)

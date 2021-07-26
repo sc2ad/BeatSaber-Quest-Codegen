@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,13 +42,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     void _set__introPlayableDirector(UnityEngine::Playables::PlayableDirector* value);
     // public System.Void SetBeforeIntroValues()
-    // Offset: 0x23D6C3C
+    // Offset: 0x1E79700
     void SetBeforeIntroValues();
     // public System.Void SetAfterIntroValues()
-    // Offset: 0x23D6C58
+    // Offset: 0x1E7971C
     void SetAfterIntroValues();
     // public System.Void .ctor()
-    // Offset: 0x23D6CA4
+    // Offset: 0x1E79768
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

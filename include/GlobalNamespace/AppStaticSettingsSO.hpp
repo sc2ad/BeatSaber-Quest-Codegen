@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean disableMultiplayer
     void _set_disableMultiplayer(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10DA4D0
+    // Offset: 0x1F2B4E4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

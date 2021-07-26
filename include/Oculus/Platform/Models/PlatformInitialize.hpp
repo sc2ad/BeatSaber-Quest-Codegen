@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.PlatformInitializeResult
 #include "Oculus/Platform/PlatformInitializeResult.hpp"
 // Including type: System.IntPtr
@@ -38,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.PlatformInitializeResult Result
     void _set_Result(Oculus::Platform::PlatformInitializeResult value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A6B5C
+    // Offset: 0x21029D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformInitialize* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PlatformInitialize::.ctor");

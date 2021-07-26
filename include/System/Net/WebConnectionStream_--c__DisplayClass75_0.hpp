@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebConnectionStream
 #include "System/Net/WebConnectionStream.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace System::Net {
     // Set instance field: public System.Boolean setInternalLength
     void _set_setInternalLength(bool value);
     // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
-    // Offset: 0x1599E20
+    // Offset: 0x129D3F0
     bool $SetHeadersAsync$b__0(System::Net::SimpleAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x1599364
+    // Offset: 0x129C934
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

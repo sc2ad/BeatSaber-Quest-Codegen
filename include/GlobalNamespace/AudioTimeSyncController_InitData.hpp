@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AudioTimeSyncController
 #include "GlobalNamespace/AudioTimeSyncController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -69,7 +70,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single timeScale
     void _set_timeScale(float value);
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x10DD060
+    // Offset: 0x1F2E074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTimeSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioTimeSyncController::InitData::.ctor");

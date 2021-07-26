@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState
 #include "UnityEngine/EventSystems/PointerEventData_FramePressState.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,13 +51,13 @@ namespace VRUIControls {
     // Set instance field: public UnityEngine.EventSystems.PointerEventData buttonData
     void _set_buttonData(UnityEngine::EventSystems::PointerEventData* value);
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x2343574
+    // Offset: 0x1DC99B4
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x2343588
+    // Offset: 0x1DC99C8
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x234359C
+    // Offset: 0x1DC99DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

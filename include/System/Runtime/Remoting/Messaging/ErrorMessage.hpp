@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMethodCallMessage
 #include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,37 +58,37 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.String _uri
     void _set__uri(::Il2CppString* value);
     // public System.Int32 get_ArgCount()
-    // Offset: 0x19F98B4
+    // Offset: 0x16B09A8
     int get_ArgCount();
     // public System.Object[] get_Args()
-    // Offset: 0x19F98BC
+    // Offset: 0x16B09B0
     ::Array<::Il2CppObject*>* get_Args();
     // public System.Reflection.MethodBase get_MethodBase()
-    // Offset: 0x19F98C4
+    // Offset: 0x16B09B8
     System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
-    // Offset: 0x19F98CC
+    // Offset: 0x16B09C0
     ::Il2CppString* get_MethodName();
     // public System.Object get_MethodSignature()
-    // Offset: 0x19F9914
+    // Offset: 0x16B0A08
     ::Il2CppObject* get_MethodSignature();
     // public System.Collections.IDictionary get_Properties()
-    // Offset: 0x19F991C
+    // Offset: 0x16B0A10
     System::Collections::IDictionary* get_Properties();
     // public System.String get_TypeName()
-    // Offset: 0x19F9924
+    // Offset: 0x16B0A18
     ::Il2CppString* get_TypeName();
     // public System.String get_Uri()
-    // Offset: 0x19F996C
+    // Offset: 0x16B0A60
     ::Il2CppString* get_Uri();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
-    // Offset: 0x19F997C
+    // Offset: 0x16B0A70
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
     // public System.Object GetArg(System.Int32 arg_num)
-    // Offset: 0x19F9974
+    // Offset: 0x16B0A68
     ::Il2CppObject* GetArg(int arg_num);
     // public System.Void .ctor()
-    // Offset: 0x19F985C
+    // Offset: 0x16B0950
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

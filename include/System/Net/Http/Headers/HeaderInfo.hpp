@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.HttpHeaderKind
 #include "System/Net/Http/Headers/HttpHeaderKind.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,16 +96,16 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.Func`2<System.Object,System.String> <CustomToString>k__BackingField
     void _set_$CustomToString$k__BackingField(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // public System.Func`2<System.Object,System.String> get_CustomToString()
-    // Offset: 0x156440C
+    // Offset: 0x12689DC
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* get_CustomToString();
     // private System.Void set_CustomToString(System.Func`2<System.Object,System.String> value)
-    // Offset: 0x1564414
+    // Offset: 0x12689E4
     void set_CustomToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // public System.String get_Separator()
-    // Offset: 0x156441C
+    // Offset: 0x12689EC
     ::Il2CppString* get_Separator();
     // protected System.Void .ctor(System.String name, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x15643C0
+    // Offset: 0x1268990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfo* New_ctor(::Il2CppString* name, System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::.ctor");
@@ -129,7 +130,7 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HeaderInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, name, elementParser, headerKind, minimalCount, separator);
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
-    // Offset: 0x15643FC
+    // Offset: 0x12689CC
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers);
     // public System.Void AddToCollection(System.Object collection, System.Object value)
     // Offset: 0xFFFFFFFF
@@ -142,7 +143,7 @@ namespace System::Net::Http::Headers {
     System::Collections::Generic::List_1<::Il2CppString*>* ToStringCollection(::Il2CppObject* collection);
     // public System.Boolean TryParse(System.String value, out System.Object result)
     // Offset: 0xFFFFFFFF
-    bool TryParse(::Il2CppString* value, ::Il2CppObject*& result);
+    bool TryParse(::Il2CppString* value, ByRef<::Il2CppObject*> result);
   }; // System.Net.Http.Headers.HeaderInfo
   #pragma pack(pop)
   static check_size<sizeof(HeaderInfo), 32 + sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*)> __System_Net_Http_Headers_HeaderInfoSizeCheck;
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Net::Http::Headers::HeaderInfo::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppString*, ::Il2CppObject*&)>(&System::Net::Http::Headers::HeaderInfo::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppString*, ByRef<::Il2CppObject*>)>(&System::Net::Http::Headers::HeaderInfo::TryParse)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;

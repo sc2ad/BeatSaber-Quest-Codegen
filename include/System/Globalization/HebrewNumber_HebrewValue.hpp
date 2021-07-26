@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Globalization.HebrewNumber
 #include "System/Globalization/HebrewNumber.hpp"
 // Including type: System.Globalization.HebrewNumber/System.Globalization.HebrewToken
@@ -44,7 +45,7 @@ namespace System::Globalization {
     // Set instance field: System.Int32 value
     void _set_value(int value);
     // System.Void .ctor(System.Globalization.HebrewNumber/System.Globalization.HebrewToken token, System.Int32 value)
-    // Offset: 0x19C84E4
+    // Offset: 0x16805D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HebrewNumber::HebrewValue* New_ctor(System::Globalization::HebrewNumber::HebrewToken token, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::HebrewNumber::HebrewValue::.ctor");

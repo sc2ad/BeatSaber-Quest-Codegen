@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -140,47 +141,47 @@ namespace LiteNetLib {
     // Set instance field: public System.Boolean IsRunning
     void _set_IsRunning(bool value);
     // public System.Int32 get_LocalPort()
-    // Offset: 0x1BBA8E8
+    // Offset: 0x17ADC80
     int get_LocalPort();
     // private System.Void set_LocalPort(System.Int32 value)
-    // Offset: 0x1BBA8F0
+    // Offset: 0x17ADC88
     void set_LocalPort(int value);
     // public System.Int16 get_Ttl()
-    // Offset: 0x1BBA8F8
+    // Offset: 0x17ADC90
     int16_t get_Ttl();
     // public System.Void set_Ttl(System.Int16 value)
-    // Offset: 0x1BB1278
+    // Offset: 0x17A4610
     void set_Ttl(int16_t value);
     // static private System.Void .cctor()
-    // Offset: 0x1BBA914
+    // Offset: 0x17ADCAC
     static void _cctor();
     // public System.Void .ctor(LiteNetLib.INetSocketListener listener)
-    // Offset: 0x1BB2DB4
+    // Offset: 0x17A614C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSocket* New_ctor(LiteNetLib::INetSocketListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetSocket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSocket*, creationType>(listener)));
     }
     // private System.Boolean IsActive()
-    // Offset: 0x1BBA9D0
+    // Offset: 0x17ADD68
     bool IsActive();
     // private System.Void ReceiveLogic(System.Object state)
-    // Offset: 0x1BBA9F4
+    // Offset: 0x17ADD8C
     void ReceiveLogic(::Il2CppObject* state);
     // public System.Boolean Bind(System.Net.IPAddress addressIPv4, System.Net.IPAddress addressIPv6, System.Int32 port, System.Boolean reuseAddress, System.Boolean ipv6, System.Threading.ThreadPriority priority)
-    // Offset: 0x1BB68F4
+    // Offset: 0x17A9C8C
     bool Bind(System::Net::IPAddress* addressIPv4, System::Net::IPAddress* addressIPv6, int port, bool reuseAddress, bool ipv6, System::Threading::ThreadPriority priority);
     // private System.Boolean BindSocket(System.Net.Sockets.Socket socket, System.Net.IPEndPoint ep, System.Boolean reuseAddress)
-    // Offset: 0x1BBAF5C
+    // Offset: 0x17AE2F4
     bool BindSocket(System::Net::Sockets::Socket* socket, System::Net::IPEndPoint* ep, bool reuseAddress);
     // public System.Boolean SendBroadcast(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Int32 port)
-    // Offset: 0x1BB72AC
+    // Offset: 0x17AA644
     bool SendBroadcast(::Array<uint8_t>* data, int offset, int size, int port);
     // public System.Int32 SendTo(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Net.IPEndPoint remoteEndPoint, ref System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x1BB1294
-    int SendTo(::Array<uint8_t>* data, int offset, int size, System::Net::IPEndPoint* remoteEndPoint, System::Net::Sockets::SocketError& errorCode);
+    // Offset: 0x17A462C
+    int SendTo(::Array<uint8_t>* data, int offset, int size, System::Net::IPEndPoint* remoteEndPoint, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.Void Close(System.Boolean suspend)
-    // Offset: 0x1BB80EC
+    // Offset: 0x17AB484
     void Close(bool suspend);
   }; // LiteNetLib.NetSocket
   #pragma pack(pop)
@@ -292,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetSocket::SendTo
 // Il2CppName: SendTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetSocket::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*, System::Net::Sockets::SocketError&)>(&LiteNetLib::NetSocket::SendTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetSocket::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*, ByRef<System::Net::Sockets::SocketError>)>(&LiteNetLib::NetSocket::SendTo)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

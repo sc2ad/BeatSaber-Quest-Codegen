@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMMainThreadDispatcher
 #include "GlobalNamespace/HMMainThreadDispatcher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Collections.IEnumerator action
     void _set_action(System::Collections::IEnumerator* value);
     // System.Void <Enqueue>b__0()
-    // Offset: 0x121A108
+    // Offset: 0x2046A60
     void $Enqueue$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1219F58
+    // Offset: 0x20468B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

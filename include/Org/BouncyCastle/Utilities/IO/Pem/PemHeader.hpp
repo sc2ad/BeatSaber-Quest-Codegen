@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -40,28 +41,28 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Set instance field: private System.String val
     void _set_val(::Il2CppString* value);
     // public System.String get_Name()
-    // Offset: 0x1F7CAD4
+    // Offset: 0x1A62994
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0x1F7CADC
+    // Offset: 0x1A6299C
     ::Il2CppString* get_Value();
     // public System.Void .ctor(System.String name, System.String val)
-    // Offset: 0x1F7CA9C
+    // Offset: 0x1A6295C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemHeader* New_ctor(::Il2CppString* name, ::Il2CppString* val) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemHeader*, creationType>(name, val)));
     }
     // private System.Int32 GetHashCode(System.String s)
-    // Offset: 0x1F7CB40
+    // Offset: 0x1A62A00
     int GetHashCode(::Il2CppString* s);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F7CAE4
+    // Offset: 0x1A629A4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1F7CB58
+    // Offset: 0x1A62A18
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

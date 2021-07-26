@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -23,7 +24,7 @@ namespace UnityEngine::Scripting {
     // Creating value type constructor for type: GeneratedByOldBindingsGeneratorAttribute
     GeneratedByOldBindingsGeneratorAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x23C22A0
+    // Offset: 0x1E39898
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

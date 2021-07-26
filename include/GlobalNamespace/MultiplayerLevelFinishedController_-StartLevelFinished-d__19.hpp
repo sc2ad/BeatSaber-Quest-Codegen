@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerLevelFinishedController
 #include "GlobalNamespace/MultiplayerLevelFinishedController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -110,26 +111,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <resultsTimeoutLength>5__4
     void _set_$resultsTimeoutLength$5__4(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x23CB930
+    // Offset: 0x1E6E3F4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x23CB998
+    // Offset: 0x1E6E45C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x23CB458
+    // Offset: 0x1E6DF1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelFinishedController::$StartLevelFinished$d__19* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelFinishedController::$StartLevelFinished$d__19*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x23CB484
+    // Offset: 0x1E6DF48
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x23CB488
+    // Offset: 0x1E6DF4C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x23CB938
+    // Offset: 0x1E6E3FC
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerLevelFinishedController/<StartLevelFinished>d__19
   #pragma pack(pop)

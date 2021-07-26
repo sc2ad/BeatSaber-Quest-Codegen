@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 // Including type: UnityEngine.Timeline.IMarker
@@ -28,8 +29,8 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class Marker : public UnityEngine::ScriptableObject/*, public UnityEngine::Timeline::IMarker*/ {
     public:
-    // [TimeFieldAttribute] Offset: 0xDC4B84
-    // [TooltipAttribute] Offset: 0xDC4B84
+    // [TimeFieldAttribute] Offset: 0xE717A0
+    // [TooltipAttribute] Offset: 0xE717A0
     // private System.Double m_Time
     // Size: 0x8
     // Offset: 0x18
@@ -59,25 +60,25 @@ namespace UnityEngine::Timeline {
     // Set instance field: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
     void _set_$parent$k__BackingField(UnityEngine::Timeline::TrackAsset* value);
     // public UnityEngine.Timeline.TrackAsset get_parent()
-    // Offset: 0x17E7CCC
+    // Offset: 0x14B80D0
     UnityEngine::Timeline::TrackAsset* get_parent();
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x17E7CD4
+    // Offset: 0x14B80D8
     void set_parent(UnityEngine::Timeline::TrackAsset* value);
     // public System.Double get_time()
-    // Offset: 0x17E7CDC
+    // Offset: 0x14B80E0
     double get_time();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x17E7CE4
+    // Offset: 0x14B80E8
     void set_time(double value);
     // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x17E7D64
+    // Offset: 0x14B8168
     void UnityEngine_Timeline_IMarker_Initialize(UnityEngine::Timeline::TrackAsset* parentTrack);
     // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
-    // Offset: 0x17E7EC8
+    // Offset: 0x14B82CC
     void OnInitialize(UnityEngine::Timeline::TrackAsset* aPent);
     // protected System.Void .ctor()
-    // Offset: 0x17E7ECC
+    // Offset: 0x14B82D0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

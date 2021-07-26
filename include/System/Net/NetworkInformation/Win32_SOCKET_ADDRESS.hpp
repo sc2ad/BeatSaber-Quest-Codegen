@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
@@ -52,7 +53,7 @@ namespace System::Net::NetworkInformation {
     // Set instance field: public System.Int32 SockaddrLength
     void _set_SockaddrLength(int value);
     // public System.Net.IPAddress GetIPAddress()
-    // Offset: 0xED9C34
+    // Offset: 0xD6E874
     System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IBeatmapObjectSpawnController
 #include "GlobalNamespace/IBeatmapObjectSpawnController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -145,52 +146,52 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action didInitEvent
     void _set_didInitEvent(System::Action* value);
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x113BD2C
+    // Offset: 0x1F6C740
     float get_jumpOffsetY();
     // public System.Void set_jumpOffsetY(System.Single value)
-    // Offset: 0x113BD34
+    // Offset: 0x1F6C748
     void set_jumpOffsetY(float value);
     // public System.Single get_currentBpm()
-    // Offset: 0x113BD3C
+    // Offset: 0x1F6C750
     float get_currentBpm();
     // public System.Single get_moveDuration()
-    // Offset: 0x113BD44
+    // Offset: 0x1F6C758
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x113BD4C
+    // Offset: 0x1F6C760
     float get_jumpDuration();
     // public System.Single get_jumpDistance()
-    // Offset: 0x113BD54
+    // Offset: 0x1F6C768
     float get_jumpDistance();
     // public System.Single get_verticalLayerDistance()
-    // Offset: 0x113BD5C
+    // Offset: 0x1F6C770
     float get_verticalLayerDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x113BD64
+    // Offset: 0x1F6C778
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x113BD6C
+    // Offset: 0x1F6C780
     float get_noteLinesDistance();
     // public BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData()
-    // Offset: 0x113BD74
+    // Offset: 0x1F6C788
     GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x113BD7C
+    // Offset: 0x1F6C790
     bool get_isInitialized();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x113BD84
+    // Offset: 0x1F6C798
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x113BE28
+    // Offset: 0x1F6C83C
     void remove_didInitEvent(System::Action* value);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x113BECC
+    // Offset: 0x1F6C8E0
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x113BF2C
+    // Offset: 0x1F6C940
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
     // public System.Void .ctor()
-    // Offset: 0x113BF34
+    // Offset: 0x1F6C948
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

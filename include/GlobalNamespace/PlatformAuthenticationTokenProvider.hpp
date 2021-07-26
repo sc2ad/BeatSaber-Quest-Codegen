@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IAuthenticationTokenProvider
 #include "GlobalNamespace/IAuthenticationTokenProvider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,20 +96,20 @@ namespace GlobalNamespace {
     // Set instance field: private readonly AuthenticationToken/Platform _platform
     void _set__platform(GlobalNamespace::AuthenticationToken::Platform value);
     // public System.String get_hashedUserId()
-    // Offset: 0x10FC600
+    // Offset: 0x1F4E614
     ::Il2CppString* get_hashedUserId();
     // public System.String get_userName()
-    // Offset: 0x10FC608
+    // Offset: 0x1F4E61C
     ::Il2CppString* get_userName();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0x10FC610
+    // Offset: 0x1F4E624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(GlobalNamespace::IPlatformUserModel* platformUserModel, GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0x10FC6D4
+    // Offset: 0x1F4E6E8
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)

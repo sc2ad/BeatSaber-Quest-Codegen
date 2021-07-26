@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EnterPlayerGuestNameViewController
 #include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,10 +57,10 @@ namespace GlobalNamespace {
     // Set instance field: public EnterPlayerGuestNameViewController <>4__this
     void _set_$$4__this(GlobalNamespace::EnterPlayerGuestNameViewController* value);
     // System.Void <DidActivate>b__0(System.Int32 idx, GuestNameButtonsListItem item)
-    // Offset: 0x102050C
+    // Offset: 0x1E8AFE0
     void $DidActivate$b__0(int idx, GlobalNamespace::GuestNameButtonsListItem* item);
     // public System.Void .ctor()
-    // Offset: 0x101FF94
+    // Offset: 0x1E8AA68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

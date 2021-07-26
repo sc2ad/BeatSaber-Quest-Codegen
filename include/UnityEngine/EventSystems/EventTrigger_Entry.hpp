@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.EventTrigger
 #include "UnityEngine/EventSystems/EventTrigger.hpp"
 // Including type: UnityEngine.EventSystems.EventTriggerType
@@ -46,7 +47,7 @@ namespace UnityEngine::EventSystems {
     // Set instance field: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
     void _set_callback(UnityEngine::EventSystems::EventTrigger::TriggerEvent* value);
     // public System.Void .ctor()
-    // Offset: 0x1403280
+    // Offset: 0x11ABEE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

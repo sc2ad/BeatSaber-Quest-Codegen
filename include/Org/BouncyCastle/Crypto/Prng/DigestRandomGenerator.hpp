@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Prng.IRandomGenerator
 #include "Org/BouncyCastle/Crypto/Prng/IRandomGenerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -83,38 +84,38 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Set instance field: private System.Byte[] seed
     void _set_seed(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x122E294
+    // Offset: 0x103856C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestRandomGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestRandomGenerator*, creationType>(digest)));
     }
     // public System.Void AddSeedMaterial(System.Byte[] inSeed)
-    // Offset: 0x122E408
+    // Offset: 0x10386E0
     void AddSeedMaterial(::Array<uint8_t>* inSeed);
     // public System.Void AddSeedMaterial(System.Int64 rSeed)
-    // Offset: 0x122E640
+    // Offset: 0x1038918
     void AddSeedMaterial(int64_t rSeed);
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x122E7E4
+    // Offset: 0x1038ABC
     void NextBytes(::Array<uint8_t>* bytes);
     // public System.Void NextBytes(System.Byte[] bytes, System.Int32 start, System.Int32 len)
-    // Offset: 0x122E800
+    // Offset: 0x1038AD8
     void NextBytes(::Array<uint8_t>* bytes, int start, int len);
     // private System.Void CycleSeed()
-    // Offset: 0x122E9E0
+    // Offset: 0x1038CB8
     void CycleSeed();
     // private System.Void GenerateState()
-    // Offset: 0x122E95C
+    // Offset: 0x1038C34
     void GenerateState();
     // private System.Void DigestAddCounter(System.Int64 seedVal)
-    // Offset: 0x122E6DC
+    // Offset: 0x10389B4
     void DigestAddCounter(int64_t seedVal);
     // private System.Void DigestUpdate(System.Byte[] inSeed)
-    // Offset: 0x122E4A4
+    // Offset: 0x103877C
     void DigestUpdate(::Array<uint8_t>* inSeed);
     // private System.Void DigestDoFinal(System.Byte[] result)
-    // Offset: 0x122E578
+    // Offset: 0x1038850
     void DigestDoFinal(::Array<uint8_t>* result);
   }; // Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator
   #pragma pack(pop)

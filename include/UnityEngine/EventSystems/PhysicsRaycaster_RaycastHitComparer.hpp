@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.PhysicsRaycaster
 #include "UnityEngine/EventSystems/PhysicsRaycaster.hpp"
 // Including type: System.Collections.Generic.IComparer`1
@@ -34,13 +35,13 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer instance
     static void _set_instance(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1406050
+    // Offset: 0x11AECB0
     static void _cctor();
     // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
-    // Offset: 0x1406004
+    // Offset: 0x11AEC64
     int Compare(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y);
     // public System.Void .ctor()
-    // Offset: 0x1406048
+    // Offset: 0x11AECA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

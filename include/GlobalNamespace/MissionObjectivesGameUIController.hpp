@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,7 +53,7 @@ namespace GlobalNamespace {
     float elementWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE05FC8
+    // [InjectAttribute] Offset: 0xEB2BE4
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x28
@@ -90,19 +91,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
     void _set__missionObjectiveGameUIViews(System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* value);
     // protected System.Void Start()
-    // Offset: 0x113808C
+    // Offset: 0x1F68AA0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1138458
+    // Offset: 0x1F68E6C
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0x1138528
+    // Offset: 0x1F68F3C
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0x113811C
+    // Offset: 0x1F68B30
     void CreateUIElements();
     // public System.Void .ctor()
-    // Offset: 0x113852C
+    // Offset: 0x1F68F40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

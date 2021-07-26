@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -23,10 +24,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RankModel
     RankModel() noexcept {}
     // static public System.String GetRankName(RankModel/Rank rank)
-    // Offset: 0x232A6A4
+    // Offset: 0x23DDA88
     static ::Il2CppString* GetRankName(GlobalNamespace::RankModel::Rank rank);
     // static public RankModel/Rank GetRankForScore(System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxRawScore, System.Int32 maxModifiedScore)
-    // Offset: 0x232A708
+    // Offset: 0x23DDAEC
     static GlobalNamespace::RankModel::Rank GetRankForScore(int rawScore, int modifiedScore, int maxRawScore, int maxModifiedScore);
   }; // RankModel
   #pragma pack(pop)

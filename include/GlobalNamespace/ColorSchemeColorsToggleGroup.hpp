@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -136,49 +137,49 @@ namespace GlobalNamespace {
     // Set instance field: private ColorScheme _colorScheme
     void _set__colorScheme(GlobalNamespace::ColorScheme* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x107D768
+    // Offset: 0x1EFF064
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x107D780
+    // Offset: 0x1EFF07C
     void set_color(UnityEngine::Color value);
     // public System.Void add_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x107D620
+    // Offset: 0x1EFEF1C
     void add_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x107D6C4
+    // Offset: 0x1EFEFC0
     void remove_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x107D798
+    // Offset: 0x1EFF094
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Awake()
-    // Offset: 0x107D888
+    // Offset: 0x1EFF184
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x107DAA0
+    // Offset: 0x1EFF39C
     void OnDestroy();
     // private System.Void HandleToggleWasSelected(ColorSchemeColorToggleController toggleController, System.Boolean isOn)
-    // Offset: 0x107DABC
+    // Offset: 0x1EFF3B8
     void HandleToggleWasSelected(GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
     // public ColorScheme CreateColorSchemeFromEditedColors()
-    // Offset: 0x107DB4C
+    // Offset: 0x1EFF448
     GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
     // private System.Void <Awake>b__15_0(System.Boolean isOn)
-    // Offset: 0x107DD34
+    // Offset: 0x1EFF630
     void $Awake$b__15_0(bool isOn);
     // private System.Void <Awake>b__15_1(System.Boolean isOn)
-    // Offset: 0x107DD44
+    // Offset: 0x1EFF640
     void $Awake$b__15_1(bool isOn);
     // private System.Void <Awake>b__15_2(System.Boolean isOn)
-    // Offset: 0x107DD54
+    // Offset: 0x1EFF650
     void $Awake$b__15_2(bool isOn);
     // private System.Void <Awake>b__15_3(System.Boolean isOn)
-    // Offset: 0x107DD64
+    // Offset: 0x1EFF660
     void $Awake$b__15_3(bool isOn);
     // private System.Void <Awake>b__15_4(System.Boolean isOn)
-    // Offset: 0x107DD74
+    // Offset: 0x1EFF670
     void $Awake$b__15_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x107DD2C
+    // Offset: 0x1EFF628
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

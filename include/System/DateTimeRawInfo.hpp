@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.DateTimeParse/System.TM
@@ -125,13 +126,13 @@ namespace System {
     // Set instance field: System.Boolean timeZone
     void _set_timeZone(bool value);
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0xEEF158
+    // Offset: 0xD81984
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0xEEF17C
+    // Offset: 0xD819A8
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0xEEF194
+    // Offset: 0xD819C0
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
   #pragma pack(pop)

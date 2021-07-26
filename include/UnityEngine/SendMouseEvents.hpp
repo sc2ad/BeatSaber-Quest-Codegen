@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -61,10 +62,10 @@ namespace UnityEngine {
       // Set instance field: public UnityEngine.Camera camera
       void _set_camera(UnityEngine::Camera* value);
       // public System.Void SendMessage(System.String name)
-      // Offset: 0xF0FD8C
+      // Offset: 0xD95920
       void SendMessage(::Il2CppString* name);
       // static public System.Boolean Compare(UnityEngine.SendMouseEvents/UnityEngine.HitInfo lhs, UnityEngine.SendMouseEvents/UnityEngine.HitInfo rhs)
-      // Offset: 0x23C4BFC
+      // Offset: 0x1E3C1F4
       static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);
     }; // UnityEngine.SendMouseEvents/UnityEngine.HitInfo
     #pragma pack(pop)
@@ -93,16 +94,16 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Camera[] m_Cameras
     static void _set_m_Cameras(::Array<UnityEngine::Camera*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23C4CC8
+    // Offset: 0x1E3C2C0
     static void _cctor();
     // static private System.Void SetMouseMoved()
-    // Offset: 0x23C3C04
+    // Offset: 0x1E3B1FC
     static void SetMouseMoved();
     // static private System.Void DoSendMouseEvents(System.Int32 skipRTCameras)
-    // Offset: 0x23C3C70
+    // Offset: 0x1E3B268
     static void DoSendMouseEvents(int skipRTCameras);
     // static private System.Void SendEvents(System.Int32 i, UnityEngine.SendMouseEvents/UnityEngine.HitInfo hit)
-    // Offset: 0x23C466C
+    // Offset: 0x1E3BC64
     static void SendEvents(int i, UnityEngine::SendMouseEvents::HitInfo hit);
   }; // UnityEngine.SendMouseEvents
   #pragma pack(pop)

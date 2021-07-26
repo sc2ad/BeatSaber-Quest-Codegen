@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PauseMenuManager
 #include "GlobalNamespace/PauseMenuManager.hpp"
 // Including type: BeatmapDifficulty
@@ -95,7 +96,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean showLevelBar
     void _set_showLevelBar(bool value);
     // public System.Void .ctor(System.String backButtonText, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showRestartButton, System.Boolean showLevelBar)
-    // Offset: 0x10FBD44
+    // Offset: 0x1F4DD58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseMenuManager::InitData* New_ctor(::Il2CppString* backButtonText, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showRestartButton, bool showLevelBar) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PauseMenuManager::InitData::.ctor");

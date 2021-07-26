@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: QuickPlaySongPacksDropdown
 #include "GlobalNamespace/QuickPlaySongPacksDropdown.hpp"
 // Including type: SongPackMask
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
     // Set instance field: public SongPackMask songPackMask
     void _set_songPackMask(GlobalNamespace::SongPackMask value);
     // public System.Void .ctor()
-    // Offset: 0x1141BDC
+    // Offset: 0x1F725F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

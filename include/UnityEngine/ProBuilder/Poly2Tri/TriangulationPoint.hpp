@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -73,26 +74,26 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set instance field: public System.Int32 Index
     void _set_Index(int value);
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> get_Edges()
-    // Offset: 0x236F260
+    // Offset: 0x1DF66A0
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
     // private System.Void set_Edges(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> value)
-    // Offset: 0x236F268
+    // Offset: 0x1DF66A8
     void set_Edges(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
     // public System.Boolean get_HasEdges()
-    // Offset: 0x2369758
+    // Offset: 0x1DF0B98
     bool get_HasEdges();
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x236D9E8
+    // Offset: 0x1DF4E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationPoint* New_ctor(double x, double y, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationPoint*, creationType>(x, y, index)));
     }
     // public System.Void AddEdge(UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint e)
-    // Offset: 0x236D270
+    // Offset: 0x1DF46B0
     void AddEdge(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
     // public override System.String ToString()
-    // Offset: 0x236F270
+    // Offset: 0x1DF66B0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

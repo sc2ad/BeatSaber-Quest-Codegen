@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebResponse
 #include "System/Net/WebResponse.hpp"
 // Including type: System.Net.ICloseEx
@@ -122,33 +123,33 @@ namespace System::Net {
     // Set instance field: private System.Uri m_uri
     void _set_m_uri(System::Uri* value);
     // System.Void .ctor(System.Net.FileWebRequest request, System.Uri uri, System.IO.FileAccess access, System.Boolean asyncHint)
-    // Offset: 0x16A483C
+    // Offset: 0x13A6EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileWebResponse* New_ctor(System::Net::FileWebRequest* request, System::Uri* uri, System::IO::FileAccess access, bool asyncHint) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FileWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebResponse*, creationType>(request, uri, access, asyncHint)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x16A5304
+    // Offset: 0x13A79C0
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void CheckDisposed()
-    // Offset: 0x16A54A0
+    // Offset: 0x13A7B5C
     void CheckDisposed();
     // private System.Void System.Net.ICloseEx.CloseEx(System.Net.CloseExState closeState)
-    // Offset: 0x16A5618
+    // Offset: 0x13A7CD4
     void System_Net_ICloseEx_CloseEx(System::Net::CloseExState closeState);
     // public override System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x16A547C
+    // Offset: 0x13A7B38
     // Implemented from: System.Net.WebResponse
     // Base method: System.Net.WebHeaderCollection WebResponse::get_Headers()
     System::Net::WebHeaderCollection* get_Headers();
     // public override System.Uri get_ResponseUri()
-    // Offset: 0x16A554C
+    // Offset: 0x13A7C08
     // Implemented from: System.Net.WebResponse
     // Base method: System.Uri WebResponse::get_ResponseUri()
     System::Uri* get_ResponseUri();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x16A5150
+    // Offset: 0x13A780C
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -157,17 +158,17 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<FileWebResponse*, creationType>(serializationInfo, streamingContext)));
     }
     // protected override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x16A5310
+    // Offset: 0x13A79CC
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Void Close()
-    // Offset: 0x16A5570
+    // Offset: 0x13A7C2C
     // Implemented from: System.Net.WebResponse
     // Base method: System.Void WebResponse::Close()
     void Close();
     // public override System.IO.Stream GetResponseStream()
-    // Offset: 0x16A5790
+    // Offset: 0x13A7E4C
     // Implemented from: System.Net.WebResponse
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     System::IO::Stream* GetResponseStream();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,21 +39,21 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteWasCutDelegate
     NoteWasCutDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11E8768
+    // Offset: 0x20170C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteWasCutDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteWasCutDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteWasCutDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteData noteData, in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x11E8778
-    void Invoke(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier);
+    // Offset: 0x20170D0
+    void Invoke(GlobalNamespace::NoteData* noteData, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, int multiplier);
     // public System.IAsyncResult BeginInvoke(NoteData noteData, in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11E8B88
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x20174E0
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteData* noteData, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, int multiplier, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in NoteCutInfo noteCutInfo, System.IAsyncResult result)
-    // Offset: 0x11E8C44
-    void EndInvoke(GlobalNamespace::NoteCutInfo& noteCutInfo, System::IAsyncResult* result);
+    // Offset: 0x201759C
+    void EndInvoke(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, System::IAsyncResult* result);
   }; // NoteWasCutDelegate
   #pragma pack(pop)
 }
@@ -65,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteWasCutDelegate*, "", "NoteWasCutDele
 // Writing MetadataGetter for method: GlobalNamespace::NoteWasCutDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int)>(&GlobalNamespace::NoteWasCutDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteData*, ByRef<GlobalNamespace::NoteCutInfo>, int)>(&GlobalNamespace::NoteWasCutDelegate::Invoke)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
@@ -76,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NoteWasCutDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::NoteWasCutDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteData*, ByRef<GlobalNamespace::NoteCutInfo>, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::NoteWasCutDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: GlobalNamespace::NoteWasCutDelegate::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteCutInfo&, System::IAsyncResult*)>(&GlobalNamespace::NoteWasCutDelegate::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteWasCutDelegate::*)(ByRef<GlobalNamespace::NoteCutInfo>, System::IAsyncResult*)>(&GlobalNamespace::NoteWasCutDelegate::EndInvoke)> {
   static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

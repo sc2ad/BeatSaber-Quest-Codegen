@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE85B4
+    // [DescriptionAttribute] Offset: 0xE961D0
     // static field const value: static public Oculus.Platform.ChallengeVisibility Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static Oculus::Platform::ChallengeVisibility _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static void _set_Unknown(Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0xDE85EC
+    // [DescriptionAttribute] Offset: 0xE96208
     // static field const value: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static constexpr const int InviteOnly = 1;
     // Get static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static Oculus::Platform::ChallengeVisibility _get_InviteOnly();
     // Set static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static void _set_InviteOnly(Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0xDE8624
+    // [DescriptionAttribute] Offset: 0xE96240
     // static field const value: static public Oculus.Platform.ChallengeVisibility Public
     static constexpr const int Public = 2;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Public
     static Oculus::Platform::ChallengeVisibility _get_Public();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Public
     static void _set_Public(Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0xDE865C
+    // [DescriptionAttribute] Offset: 0xE96278
     // static field const value: static public Oculus.Platform.ChallengeVisibility Private
     static constexpr const int Private = 3;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Private

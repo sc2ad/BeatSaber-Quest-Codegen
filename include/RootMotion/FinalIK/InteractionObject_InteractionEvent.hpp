@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject
 #include "RootMotion/FinalIK/InteractionObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,21 +32,21 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::InteractionEvent : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF74B4
+    // [TooltipAttribute] Offset: 0xEA40D0
     // public System.Single time
     // Size: 0x4
     // Offset: 0x10
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF74EC
+    // [TooltipAttribute] Offset: 0xEA4108
     // public System.Boolean pause
     // Size: 0x1
     // Offset: 0x14
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDF7524
+    // [TooltipAttribute] Offset: 0xEA4140
     // public System.Boolean pickUp
     // Size: 0x1
     // Offset: 0x15
@@ -54,21 +55,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUp and: animations
     char __padding2[0x2] = {};
-    // [TooltipAttribute] Offset: 0xDF755C
+    // [TooltipAttribute] Offset: 0xEA4178
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
     // Size: 0x8
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>* animations;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF7594
+    // [TooltipAttribute] Offset: 0xEA41B0
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
     // Size: 0x8
     // Offset: 0x20
     ::Array<RootMotion::FinalIK::InteractionObject::Message*>* messages;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::Message*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF75CC
+    // [TooltipAttribute] Offset: 0xEA41E8
     // public UnityEngine.Events.UnityEvent unityEvent
     // Size: 0x8
     // Offset: 0x28
@@ -102,10 +103,10 @@ namespace RootMotion::FinalIK {
     // Set instance field: public UnityEngine.Events.UnityEvent unityEvent
     void _set_unityEvent(UnityEngine::Events::UnityEvent* value);
     // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x1E34B80
+    // Offset: 0x1995E14
     void Activate(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1E36BD4
+    // Offset: 0x1997E68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

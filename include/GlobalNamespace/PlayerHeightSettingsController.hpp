@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,7 +68,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0E338
+    // [InjectAttribute] Offset: 0xEBAF54
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x30
@@ -125,28 +126,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _value
     void _set__value(float value);
     // public System.Single get_value()
-    // Offset: 0x110539C
+    // Offset: 0x1F573B0
     float get_value();
     // public System.Void add_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1105254
+    // Offset: 0x1F57268
     void add_valueDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11052F8
+    // Offset: 0x1F5730C
     void remove_valueDidChangeEvent(System::Action_1<float>* value);
     // protected System.Void Awake()
-    // Offset: 0x11053A4
+    // Offset: 0x1F573B8
     void Awake();
     // public System.Void Init(System.Single playerHeight)
-    // Offset: 0x1105454
+    // Offset: 0x1F57468
     void Init(float playerHeight);
     // private System.Void AutoSetHeight()
-    // Offset: 0x11054F8
+    // Offset: 0x1F5750C
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0x110545C
+    // Offset: 0x1F57470
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0x110561C
+    // Offset: 0x1F57630
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

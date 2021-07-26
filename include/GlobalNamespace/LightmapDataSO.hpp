@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,19 +52,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Texture2D _lightmap2
     void _set__lightmap2(UnityEngine::Texture2D* value);
     // public UnityEngine.Texture2D get_lightmap1()
-    // Offset: 0x11B8CF0
+    // Offset: 0x1FE7734
     UnityEngine::Texture2D* get_lightmap1();
     // public System.Void set_lightmap1(UnityEngine.Texture2D value)
-    // Offset: 0x11B8CF8
+    // Offset: 0x1FE773C
     void set_lightmap1(UnityEngine::Texture2D* value);
     // public UnityEngine.Texture2D get_lightmap2()
-    // Offset: 0x11B8D00
+    // Offset: 0x1FE7744
     UnityEngine::Texture2D* get_lightmap2();
     // public System.Void set_lightmap2(UnityEngine.Texture2D value)
-    // Offset: 0x11B8D08
+    // Offset: 0x1FE774C
     void set_lightmap2(UnityEngine::Texture2D* value);
     // public System.Void .ctor()
-    // Offset: 0x11B8D10
+    // Offset: 0x1FE7754
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

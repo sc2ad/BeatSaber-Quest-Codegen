@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/Controller
@@ -197,13 +198,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean m_prevControllerConnectedCached
     void _set_m_prevControllerConnectedCached(bool value);
     // private System.Void Start()
-    // Offset: 0x124E78C
+    // Offset: 0x1058A64
     void Start();
     // private System.Void Update()
-    // Offset: 0x124E9AC
+    // Offset: 0x1058C84
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x124EF10
+    // Offset: 0x10591E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

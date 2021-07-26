@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IBeatmapLevelPack
 #include "GlobalNamespace/IBeatmapLevelPack.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -90,28 +91,28 @@ namespace GlobalNamespace {
     // Set instance field: private CustomBeatmapLevelCollection _customBeatmapLevelCollection
     void _set__customBeatmapLevelCollection(GlobalNamespace::CustomBeatmapLevelCollection* value);
     // public System.String get_packID()
-    // Offset: 0x1084D30
+    // Offset: 0x1F0662C
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x1084D38
+    // Offset: 0x1F06634
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1084D40
+    // Offset: 0x1F0663C
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1084D48
+    // Offset: 0x1F06644
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1084D50
+    // Offset: 0x1F0664C
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1084D58
+    // Offset: 0x1F06654
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Boolean get_isPackAlwaysOwned()
-    // Offset: 0x1084D60
+    // Offset: 0x1F0665C
     bool get_isPackAlwaysOwned();
     // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, CustomBeatmapLevelCollection customBeatmapLevelCollection)
-    // Offset: 0x1084D68
+    // Offset: 0x1F06664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelPack* New_ctor(::Il2CppString* packID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelPack::.ctor");

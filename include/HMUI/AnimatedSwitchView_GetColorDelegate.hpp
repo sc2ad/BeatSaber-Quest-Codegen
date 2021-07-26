@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.AnimatedSwitchView
 #include "HMUI/AnimatedSwitchView.hpp"
 // Including type: System.MulticastDelegate
@@ -38,20 +39,20 @@ namespace HMUI {
     // Creating value type constructor for type: GetColorDelegate
     GetColorDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1302D18
+    // Offset: 0x10C4C88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedSwitchView::GetColorDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::AnimatedSwitchView::GetColorDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView::GetColorDelegate*, creationType>(object, method)));
     }
     // public UnityEngine.Color Invoke(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
-    // Offset: 0x1302EF4
+    // Offset: 0x10C4E64
     UnityEngine::Color Invoke(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // public System.IAsyncResult BeginInvoke(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1303578
+    // Offset: 0x10C54E8
     System::IAsyncResult* BeginInvoke(HMUI::AnimatedSwitchView::ColorBlock* colorBlock, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Color EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130359C
+    // Offset: 0x10C550C
     UnityEngine::Color EndInvoke(System::IAsyncResult* result);
   }; // HMUI.AnimatedSwitchView/HMUI.GetColorDelegate
   #pragma pack(pop)

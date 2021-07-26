@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.SegmentedControlCell
 #include "HMUI/SegmentedControlCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -54,25 +55,25 @@ namespace HMUI {
     // Set instance field: private UnityEngine.GameObject _backgroundGameObject
     void _set__backgroundGameObject(UnityEngine::GameObject* value);
     // public System.String get_text()
-    // Offset: 0x12A1C38
+    // Offset: 0x1077374
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x12A1BC4
+    // Offset: 0x1077300
     void set_text(::Il2CppString* value);
     // public System.Single get_fontSize()
-    // Offset: 0x12A1C54
+    // Offset: 0x1077390
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x12A1BA8
+    // Offset: 0x10772E4
     void set_fontSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x12A1BE0
+    // Offset: 0x107731C
     void set_hideBackgroundImage(bool value);
     // public System.Single get_preferredWidth()
-    // Offset: 0x12A1C04
+    // Offset: 0x1077340
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x12A1C70
+    // Offset: 0x10773AC
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

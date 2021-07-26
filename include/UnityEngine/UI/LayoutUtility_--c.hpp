@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.LayoutUtility
 #include "UnityEngine/UI/LayoutUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,34 +73,34 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<UnityEngine::UI::ILayoutElement*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x197FB68
+    // Offset: 0x1651F6C
     static void _cctor();
     // System.Single <GetMinWidth>b__3_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x197FBD4
+    // Offset: 0x1651FD8
     float $GetMinWidth$b__3_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x197FC84
+    // Offset: 0x1652088
     float $GetPreferredWidth$b__4_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x197FD34
+    // Offset: 0x1652138
     float $GetPreferredWidth$b__4_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleWidth>b__5_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x197FDE4
+    // Offset: 0x16521E8
     float $GetFlexibleWidth$b__5_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetMinHeight>b__6_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x197FE94
+    // Offset: 0x1652298
     float $GetMinHeight$b__6_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x197FF44
+    // Offset: 0x1652348
     float $GetPreferredHeight$b__7_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x197FFF4
+    // Offset: 0x16523F8
     float $GetPreferredHeight$b__7_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleHeight>b__8_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x19800A4
+    // Offset: 0x16524A8
     float $GetFlexibleHeight$b__8_0(UnityEngine::UI::ILayoutElement* e);
     // public System.Void .ctor()
-    // Offset: 0x197FBCC
+    // Offset: 0x1651FD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

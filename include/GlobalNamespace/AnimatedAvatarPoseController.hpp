@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatedAvatarPoseController : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDFF600
+    // [InjectAttribute] Offset: 0xEAC21C
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
@@ -42,10 +43,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly AvatarPoseController _avatarPoseController
     void _set__avatarPoseController(GlobalNamespace::AvatarPoseController* value);
     // protected System.Void LateUpdate()
-    // Offset: 0x10D7090
+    // Offset: 0x1F280A4
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x10D729C
+    // Offset: 0x1F282B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

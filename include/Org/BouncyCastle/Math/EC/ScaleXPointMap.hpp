@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.ECPointMap
 #include "Org/BouncyCastle/Math/EC/ECPointMap.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,14 +50,14 @@ namespace Org::BouncyCastle::Math::EC {
     // Set instance field: protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
     void _set_scale(Org::BouncyCastle::Math::EC::ECFieldElement* value);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x1D9EDC8
+    // Offset: 0x19109A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScaleXPointMap* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ScaleXPointMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScaleXPointMap*, creationType>(scale)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1D9EDF4
+    // Offset: 0x19109D4
     Org::BouncyCastle::Math::EC::ECPoint* Map(Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ScaleXPointMap
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -23,10 +24,10 @@ namespace System::Net {
     // Creating value type constructor for type: NetRes
     NetRes() noexcept {}
     // static public System.String GetWebStatusString(System.String Res, System.Net.WebExceptionStatus Status)
-    // Offset: 0x16443C0
+    // Offset: 0x1346A7C
     static ::Il2CppString* GetWebStatusString(::Il2CppString* Res, System::Net::WebExceptionStatus Status);
     // static public System.String GetWebStatusString(System.Net.WebExceptionStatus Status)
-    // Offset: 0x164448C
+    // Offset: 0x1346B48
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus Status);
   }; // System.Net.NetRes
   #pragma pack(pop)

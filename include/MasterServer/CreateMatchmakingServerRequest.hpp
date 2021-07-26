@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableRequest
 #include "GlobalNamespace/BaseMasterServerReliableRequest.hpp"
 // Including type: MasterServer.IDedicatedServerServerToClientMessage
@@ -143,16 +144,16 @@ namespace MasterServer {
     // Set instance field: public GameplayServerConfiguration configuration
     void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public IVersionedPacketPool`1<MasterServer.CreateMatchmakingServerRequest> get_pool()
-    // Offset: 0x12D0ED8
+    // Offset: 0x208B3E8
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::CreateMatchmakingServerRequest*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x12D0F20
+    // Offset: 0x208B430
     uint get_version();
     // public MasterServer.CreateMatchmakingServerRequest Init(System.String secret, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String userId, System.String userName, System.Net.IPEndPoint userEndPoint, System.Byte[] userRandom, System.Byte[] userPublicKey)
-    // Offset: 0x12D1264
+    // Offset: 0x208B774
     MasterServer::CreateMatchmakingServerRequest* Init(::Il2CppString* secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* userEndPoint, ::Array<uint8_t>* userRandom, ::Array<uint8_t>* userPublicKey);
     // public System.Void .ctor()
-    // Offset: 0x12D12DC
+    // Offset: 0x208B7EC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -162,17 +163,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<CreateMatchmakingServerRequest*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x12D0F28
+    // Offset: 0x208B438
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D1004
+    // Offset: 0x208B514
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D1124
+    // Offset: 0x208B634
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

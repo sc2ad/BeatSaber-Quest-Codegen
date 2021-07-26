@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
     // Creating value type constructor for type: NodeList
     NodeList() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1720D14
+    // Offset: 0x14243D0
     // Implemented from: System.Collections.Generic.List`1
     // Base method: System.Void List_1::.ctor()
     // Base method: System.Void Object::.ctor()

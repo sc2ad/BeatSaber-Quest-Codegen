@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Unity
@@ -72,13 +73,13 @@ namespace Mono::Unity {
     // Set static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
     static void _set_marshalledInterface(Mono::Unity::UnityTls::unitytls_interface_struct* value);
     // static public System.Boolean get_IsSupported()
-    // Offset: 0x15B08E4
+    // Offset: 0x12B3EB4
     static bool get_IsSupported();
     // static public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct get_NativeInterface()
-    // Offset: 0x15B1824
+    // Offset: 0x12B4DF4
     static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
     // static private System.IntPtr GetUnityTlsInterface()
-    // Offset: 0x15B24D0
+    // Offset: 0x12B5AA0
     static System::IntPtr GetUnityTlsInterface();
   }; // Mono.Unity.UnityTls
   #pragma pack(pop)

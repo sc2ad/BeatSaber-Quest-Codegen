@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IDigest
 #include "Org/BouncyCastle/Crypto/IDigest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -156,50 +157,50 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set instance field: private System.UInt64 f0
     void _set_f0(uint64_t value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1D03CAC
+    // Offset: 0x1889440
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor(System.Int32 digestSize)
-    // Offset: 0x1D02A6C
+    // Offset: 0x1888200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Blake2bDigest* New_ctor(int digestSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Blake2bDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Blake2bDigest*, creationType>(digestSize)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D03D04
+    // Offset: 0x1889498
     static void _cctor();
     // private System.Void Init()
-    // Offset: 0x1D02B74
+    // Offset: 0x1888308
     void Init();
     // private System.Void InitializeInternalState()
-    // Offset: 0x1D02EEC
+    // Offset: 0x1888680
     void InitializeInternalState();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1D030A0
+    // Offset: 0x1888834
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] message, System.Int32 offset, System.Int32 len)
-    // Offset: 0x1D036F0
+    // Offset: 0x1888E84
     void BlockUpdate(::Array<uint8_t>* message, int offset, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOffset)
-    // Offset: 0x1D03834
+    // Offset: 0x1888FC8
     int DoFinal(::Array<uint8_t>* output, int outOffset);
     // public System.Void Reset()
-    // Offset: 0x1D03994
+    // Offset: 0x1889128
     void Reset();
     // private System.Void Compress(System.Byte[] message, System.Int32 messagePos)
-    // Offset: 0x1D03164
+    // Offset: 0x18888F8
     void Compress(::Array<uint8_t>* message, int messagePos);
     // private System.Void G(System.UInt64 m1, System.UInt64 m2, System.Int32 posA, System.Int32 posB, System.Int32 posC, System.Int32 posD)
-    // Offset: 0x1D03A04
+    // Offset: 0x1889198
     void G(uint64_t m1, uint64_t m2, int posA, int posB, int posC, int posD);
     // static private System.UInt64 Rotr64(System.UInt64 x, System.Int32 rot)
-    // Offset: 0x1D03CA4
+    // Offset: 0x1889438
     static uint64_t Rotr64(uint64_t x, int rot);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1D03CF4
+    // Offset: 0x1889488
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1D03CFC
+    // Offset: 0x1889490
     int GetByteLength();
   }; // Org.BouncyCastle.Crypto.Digests.Blake2bDigest
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IRefreshable
@@ -95,7 +96,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* editColorSchemeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0B2D0
+    // [SpaceAttribute] Offset: 0xEB7EEC
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x48
@@ -108,7 +109,7 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0B318
+    // [InjectAttribute] Offset: 0xEB7F34
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x58
@@ -192,40 +193,40 @@ namespace GlobalNamespace {
     // Set instance field: private HMUI.ButtonBinder _buttonBinder
     void _set__buttonBinder(HMUI::ButtonBinder* value);
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x107FB54
+    // Offset: 0x1F01450
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0x107FB5C
+    // Offset: 0x1F01458
     void SetData(GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x107FD60
+    // Offset: 0x1F0165C
     void OnDestroy();
     // protected System.Void OnDisable()
-    // Offset: 0x107FF58
+    // Offset: 0x1F01854
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x107FF7C
+    // Offset: 0x1F01878
     void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1080100
+    // Offset: 0x1F019FC
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x108025C
+    // Offset: 0x1F01B58
     void HandleOverrideColorsToggleValueChanged(bool isOn);
     // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0x1080440
+    // Offset: 0x1F01D3C
     void HandleEditColorSchemeButtonWasPressed();
     // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0x10804BC
+    // Offset: 0x1F01DB8
     void HandleEditColorSchemeControllerDidFinish();
     // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0x1080518
+    // Offset: 0x1F01E14
     void HandleEditColorSchemeControllerDidChangeColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // private System.Void <HandleOverrideColorsToggleValueChanged>b__19_0()
-    // Offset: 0x1080538
+    // Offset: 0x1F01E34
     void $HandleOverrideColorsToggleValueChanged$b__19_0();
     // public System.Void .ctor()
-    // Offset: 0x1080530
+    // Offset: 0x1F01E2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

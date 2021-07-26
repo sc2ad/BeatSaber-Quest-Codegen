@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerBitString
 #include "Org/BouncyCastle/Asn1/DerBitString.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: BerBitString
     BerBitString() noexcept {}
     // public System.Void .ctor(System.Byte[] data, System.Int32 padBits)
-    // Offset: 0x16E00D4
+    // Offset: 0x13E2790
     // Implemented from: Org.BouncyCastle.Asn1.DerBitString
     // Base method: System.Void DerBitString::.ctor(System.Byte[] data, System.Int32 padBits)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,7 +39,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<BerBitString*, creationType>(data, padBits)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16E0298
+    // Offset: 0x13E2954
     // Implemented from: Org.BouncyCastle.Asn1.DerBitString
     // Base method: System.Void DerBitString::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassBackgroundNonLightRendererCore
 #include "GlobalNamespace/BloomPrePassBackgroundNonLightRendererCore.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,12 +41,12 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Renderer _renderer
     void _set__renderer(UnityEngine::Renderer* value);
     // protected override UnityEngine.Renderer get_renderer()
-    // Offset: 0x1DECF64
+    // Offset: 0x195FB44
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: UnityEngine.Renderer BloomPrePassBackgroundNonLightRendererCore::get_renderer()
     UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x1DECF6C
+    // Offset: 0x195FB4C
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()

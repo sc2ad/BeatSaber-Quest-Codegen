@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerConnectionManager
 #include "GlobalNamespace/MasterServerConnectionManager.hpp"
 // Including type: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
@@ -78,7 +79,7 @@ namespace GlobalNamespace {
     // Set instance field: public GameplayServerConfiguration configuration
     void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Void .ctor()
-    // Offset: 0x152E8FC
+    // Offset: 0x213AF60
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

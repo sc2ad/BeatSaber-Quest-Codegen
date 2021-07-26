@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseTransitionSO
 #include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -94,25 +95,25 @@ namespace GlobalNamespace {
     // Set instance field: private ColorSO _selectedAndHighlightedColor
     void _set__selectedAndHighlightedColor(GlobalNamespace::ColorSO* value);
     // public UnityEngine.Color get_normalColor()
-    // Offset: 0x107BABC
+    // Offset: 0x1EFD3B8
     UnityEngine::Color get_normalColor();
     // public UnityEngine.Color get_highlightedColor()
-    // Offset: 0x107BD20
+    // Offset: 0x1EFD61C
     UnityEngine::Color get_highlightedColor();
     // public UnityEngine.Color get_pressedColor()
-    // Offset: 0x107BD64
+    // Offset: 0x1EFD660
     UnityEngine::Color get_pressedColor();
     // public UnityEngine.Color get_disabledColor()
-    // Offset: 0x107BDA8
+    // Offset: 0x1EFD6A4
     UnityEngine::Color get_disabledColor();
     // public UnityEngine.Color get_selectedColor()
-    // Offset: 0x107BDEC
+    // Offset: 0x1EFD6E8
     UnityEngine::Color get_selectedColor();
     // public UnityEngine.Color get_selectedAndHighlightedColor()
-    // Offset: 0x107BE30
+    // Offset: 0x1EFD72C
     UnityEngine::Color get_selectedAndHighlightedColor();
     // public System.Void .ctor()
-    // Offset: 0x107FB4C
+    // Offset: 0x1F01448
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

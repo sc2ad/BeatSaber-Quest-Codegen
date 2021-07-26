@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ShowTextOnGameEventController
 #include "GlobalNamespace/ShowTextOnGameEventController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Signal* signal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [TextAreaAttribute] Offset: 0xE14568
+    // [TextAreaAttribute] Offset: 0xEC1184
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
@@ -62,16 +63,16 @@ namespace GlobalNamespace {
     // Set instance field: private TextFadeTransitions _textFadeTransitions
     void _set__textFadeTransitions(GlobalNamespace::TextFadeTransitions* value);
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
-    // Offset: 0x1053A54
+    // Offset: 0x1EBE528
     void Init(GlobalNamespace::TextFadeTransitions* textFadeTransitions);
     // public System.Void Deinit()
-    // Offset: 0x1053B50
+    // Offset: 0x1EBE624
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x1053BE4
+    // Offset: 0x1EBE6B8
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0x1053C20
+    // Offset: 0x1EBE6F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

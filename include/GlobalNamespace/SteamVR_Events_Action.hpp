@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_Events
 #include "GlobalNamespace/SteamVR_Events.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,13 +23,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Action
     Action() noexcept {}
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x13A28C8
+    // Offset: 0x114A528
     void set_enabled(bool value);
     // public System.Void Enable(System.Boolean enabled)
     // Offset: 0xFFFFFFFF
     void Enable(bool enabled);
     // protected System.Void .ctor()
-    // Offset: 0x13A4158
+    // Offset: 0x114BDB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

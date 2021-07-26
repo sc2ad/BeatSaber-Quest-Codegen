@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusNetworkPlayerModel
 #include "GlobalNamespace/OculusNetworkPlayerModel.hpp"
 // Including type: System.ValueType
@@ -79,10 +80,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*> value);
     // private System.Void MoveNext()
-    // Offset: 0xED183C
+    // Offset: 0xF7CBD8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED1844
+    // Offset: 0xF7CBE0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusNetworkPlayerModel/<Start>d__42
   // WARNING Not writing size check since size may be invalid!

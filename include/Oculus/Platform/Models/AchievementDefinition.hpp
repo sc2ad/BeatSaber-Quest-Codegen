@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.AchievementType
 #include "Oculus/Platform/AchievementType.hpp"
 // Including type: System.IntPtr
@@ -68,7 +69,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.UInt64 Target
     void _set_Target(uint64_t value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A91B4
+    // Offset: 0x2105028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementDefinition* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementDefinition::.ctor");

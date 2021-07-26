@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: INoteControllerDidInitEvent
@@ -65,22 +66,22 @@ namespace GlobalNamespace {
     // Set instance field: private CutoutAnimateEffect _cutoutAnimateEffect
     void _set__cutoutAnimateEffect(GlobalNamespace::CutoutAnimateEffect* value);
     // protected System.Void Awake()
-    // Offset: 0x1184F88
+    // Offset: 0x1FCAAC0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11850D8
+    // Offset: 0x1FCAC10
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x1185270
+    // Offset: 0x1FCADA8
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x118528C
+    // Offset: 0x1FCADC4
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x118529C
+    // Offset: 0x1FCADD4
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x11852C4
+    // Offset: 0x1FCADFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Tls
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -16,10 +17,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Creating value type constructor for type: AlertDescription
     AlertDescription() noexcept {}
     // static public System.String GetName(System.Byte alertDescription)
-    // Offset: 0x123934C
+    // Offset: 0x1043624
     static ::Il2CppString* GetName(uint8_t alertDescription);
     // static public System.String GetText(System.Byte alertDescription)
-    // Offset: 0x12395CC
+    // Offset: 0x10438A4
     static ::Il2CppString* GetText(uint8_t alertDescription);
   }; // Org.BouncyCastle.Crypto.Tls.AlertDescription
   #pragma pack(pop)

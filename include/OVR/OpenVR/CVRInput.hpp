@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVR.OpenVR.IVRInput
 #include "OVR/OpenVR/IVRInput.hpp"
 // Including type: System.IntPtr
@@ -70,65 +71,65 @@ namespace OVR::OpenVR {
     // Set instance field: private OVR.OpenVR.IVRInput FnTable
     void _set_FnTable(OVR::OpenVR::IVRInput value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1582350
+    // Offset: 0x1286920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRInput* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRInput*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRInputError SetActionManifestPath(System.String pchActionManifestPath)
-    // Offset: 0x1582458
+    // Offset: 0x1286A28
     OVR::OpenVR::EVRInputError SetActionManifestPath(::Il2CppString* pchActionManifestPath);
     // public OVR.OpenVR.EVRInputError GetActionSetHandle(System.String pchActionSetName, ref System.UInt64 pHandle)
-    // Offset: 0x1582474
-    OVR::OpenVR::EVRInputError GetActionSetHandle(::Il2CppString* pchActionSetName, uint64_t& pHandle);
+    // Offset: 0x1286A44
+    OVR::OpenVR::EVRInputError GetActionSetHandle(::Il2CppString* pchActionSetName, ByRef<uint64_t> pHandle);
     // public OVR.OpenVR.EVRInputError GetActionHandle(System.String pchActionName, ref System.UInt64 pHandle)
-    // Offset: 0x1582494
-    OVR::OpenVR::EVRInputError GetActionHandle(::Il2CppString* pchActionName, uint64_t& pHandle);
+    // Offset: 0x1286A64
+    OVR::OpenVR::EVRInputError GetActionHandle(::Il2CppString* pchActionName, ByRef<uint64_t> pHandle);
     // public OVR.OpenVR.EVRInputError GetInputSourceHandle(System.String pchInputSourcePath, ref System.UInt64 pHandle)
-    // Offset: 0x15824B4
-    OVR::OpenVR::EVRInputError GetInputSourceHandle(::Il2CppString* pchInputSourcePath, uint64_t& pHandle);
+    // Offset: 0x1286A84
+    OVR::OpenVR::EVRInputError GetInputSourceHandle(::Il2CppString* pchInputSourcePath, ByRef<uint64_t> pHandle);
     // public OVR.OpenVR.EVRInputError UpdateActionState(OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t)
-    // Offset: 0x15824D4
+    // Offset: 0x1286AA4
     OVR::OpenVR::EVRInputError UpdateActionState(::Array<OVR::OpenVR::VRActiveActionSet_t>* pSets, uint unSizeOfVRSelectedActionSet_t);
     // public OVR.OpenVR.EVRInputError GetDigitalActionData(System.UInt64 action, ref OVR.OpenVR.InputDigitalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x15824FC
-    OVR::OpenVR::EVRInputError GetDigitalActionData(uint64_t action, OVR::OpenVR::InputDigitalActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
+    // Offset: 0x1286ACC
+    OVR::OpenVR::EVRInputError GetDigitalActionData(uint64_t action, ByRef<OVR::OpenVR::InputDigitalActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetAnalogActionData(System.UInt64 action, ref OVR.OpenVR.InputAnalogActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x1582518
-    OVR::OpenVR::EVRInputError GetAnalogActionData(uint64_t action, OVR::OpenVR::InputAnalogActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
+    // Offset: 0x1286AE8
+    OVR::OpenVR::EVRInputError GetAnalogActionData(uint64_t action, ByRef<OVR::OpenVR::InputAnalogActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetPoseActionData(System.UInt64 action, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsFromNow, ref OVR.OpenVR.InputPoseActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x1582534
-    OVR::OpenVR::EVRInputError GetPoseActionData(uint64_t action, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsFromNow, OVR::OpenVR::InputPoseActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
+    // Offset: 0x1286B04
+    OVR::OpenVR::EVRInputError GetPoseActionData(uint64_t action, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsFromNow, ByRef<OVR::OpenVR::InputPoseActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetSkeletalActionData(System.UInt64 action, ref OVR.OpenVR.InputSkeletalActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x1582550
-    OVR::OpenVR::EVRInputError GetSkeletalActionData(uint64_t action, OVR::OpenVR::InputSkeletalActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
+    // Offset: 0x1286B20
+    OVR::OpenVR::EVRInputError GetSkeletalActionData(uint64_t action, ByRef<OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetSkeletalBoneData(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x158256C
+    // Offset: 0x1286B3C
     OVR::OpenVR::EVRInputError GetSkeletalBoneData(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ::Array<OVR::OpenVR::VRBoneTransform_t>* pTransformArray, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetSkeletalBoneDataCompressed(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, System.IntPtr pvCompressedData, System.UInt32 unCompressedSize, ref System.UInt32 punRequiredCompressedSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x1582598
-    OVR::OpenVR::EVRInputError GetSkeletalBoneDataCompressed(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, System::IntPtr pvCompressedData, uint unCompressedSize, uint& punRequiredCompressedSize, uint64_t ulRestrictToDevice);
+    // Offset: 0x1286B68
+    OVR::OpenVR::EVRInputError GetSkeletalBoneDataCompressed(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, System::IntPtr pvCompressedData, uint unCompressedSize, ByRef<uint> punRequiredCompressedSize, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError DecompressSkeletalBoneData(System.IntPtr pvCompressedBuffer, System.UInt32 unCompressedBufferSize, ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, OVR.OpenVR.VRBoneTransform_t[] pTransformArray)
-    // Offset: 0x15825BC
-    OVR::OpenVR::EVRInputError DecompressSkeletalBoneData(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, OVR::OpenVR::EVRSkeletalTransformSpace& peTransformSpace, ::Array<OVR::OpenVR::VRBoneTransform_t>* pTransformArray);
+    // Offset: 0x1286B8C
+    OVR::OpenVR::EVRInputError DecompressSkeletalBoneData(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ::Array<OVR::OpenVR::VRBoneTransform_t>* pTransformArray);
     // public OVR.OpenVR.EVRInputError TriggerHapticVibrationAction(System.UInt64 action, System.Single fStartSecondsFromNow, System.Single fDurationSeconds, System.Single fFrequency, System.Single fAmplitude, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x15825E4
+    // Offset: 0x1286BB4
     OVR::OpenVR::EVRInputError TriggerHapticVibrationAction(uint64_t action, float fStartSecondsFromNow, float fDurationSeconds, float fFrequency, float fAmplitude, uint64_t ulRestrictToDevice);
     // public OVR.OpenVR.EVRInputError GetActionOrigins(System.UInt64 actionSetHandle, System.UInt64 digitalActionHandle, System.UInt64[] originsOut)
-    // Offset: 0x1582600
+    // Offset: 0x1286BD0
     OVR::OpenVR::EVRInputError GetActionOrigins(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::Array<uint64_t>* originsOut);
     // public OVR.OpenVR.EVRInputError GetOriginLocalizedName(System.UInt64 origin, System.Text.StringBuilder pchNameArray, System.UInt32 unNameArraySize)
-    // Offset: 0x1582628
+    // Offset: 0x1286BF8
     OVR::OpenVR::EVRInputError GetOriginLocalizedName(uint64_t origin, System::Text::StringBuilder* pchNameArray, uint unNameArraySize);
     // public OVR.OpenVR.EVRInputError GetOriginTrackedDeviceInfo(System.UInt64 origin, ref OVR.OpenVR.InputOriginInfo_t pOriginInfo, System.UInt32 unOriginInfoSize)
-    // Offset: 0x1582644
-    OVR::OpenVR::EVRInputError GetOriginTrackedDeviceInfo(uint64_t origin, OVR::OpenVR::InputOriginInfo_t& pOriginInfo, uint unOriginInfoSize);
+    // Offset: 0x1286C14
+    OVR::OpenVR::EVRInputError GetOriginTrackedDeviceInfo(uint64_t origin, ByRef<OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint unOriginInfoSize);
     // public OVR.OpenVR.EVRInputError ShowActionOrigins(System.UInt64 actionSetHandle, System.UInt64 ulActionHandle)
-    // Offset: 0x1582660
+    // Offset: 0x1286C30
     OVR::OpenVR::EVRInputError ShowActionOrigins(uint64_t actionSetHandle, uint64_t ulActionHandle);
     // public OVR.OpenVR.EVRInputError ShowBindingsForActionSet(OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t, System.UInt64 originToHighlight)
-    // Offset: 0x158267C
+    // Offset: 0x1286C4C
     OVR::OpenVR::EVRInputError ShowBindingsForActionSet(::Array<OVR::OpenVR::VRActiveActionSet_t>* pSets, uint unSizeOfVRSelectedActionSet_t, uint64_t originToHighlight);
   }; // OVR.OpenVR.CVRInput
   #pragma pack(pop)
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetActionSetHandle
 // Il2CppName: GetActionSetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVRInput::GetActionSetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, ByRef<uint64_t>)>(&OVR::OpenVR::CVRInput::GetActionSetHandle)> {
   static const MethodInfo* get() {
     static auto* pchActionSetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -163,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetActionHandle
 // Il2CppName: GetActionHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVRInput::GetActionHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, ByRef<uint64_t>)>(&OVR::OpenVR::CVRInput::GetActionHandle)> {
   static const MethodInfo* get() {
     static auto* pchActionName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetInputSourceHandle
 // Il2CppName: GetInputSourceHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVRInput::GetInputSourceHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, ByRef<uint64_t>)>(&OVR::OpenVR::CVRInput::GetInputSourceHandle)> {
   static const MethodInfo* get() {
     static auto* pchInputSourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetDigitalActionData
 // Il2CppName: GetDigitalActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputDigitalActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetDigitalActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, ByRef<OVR::OpenVR::InputDigitalActionData_t>, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetDigitalActionData)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pActionData = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "InputDigitalActionData_t")->this_arg;
@@ -205,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetAnalogActionData
 // Il2CppName: GetAnalogActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputAnalogActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetAnalogActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, ByRef<OVR::OpenVR::InputAnalogActionData_t>, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetAnalogActionData)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pActionData = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "InputAnalogActionData_t")->this_arg;
@@ -217,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetPoseActionData
 // Il2CppName: GetPoseActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, float, OVR::OpenVR::InputPoseActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetPoseActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, float, ByRef<OVR::OpenVR::InputPoseActionData_t>, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetPoseActionData)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
@@ -231,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetSkeletalActionData
 // Il2CppName: GetSkeletalActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputSkeletalActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetSkeletalActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, ByRef<OVR::OpenVR::InputSkeletalActionData_t>, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetSkeletalActionData)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pActionData = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "InputSkeletalActionData_t")->this_arg;
@@ -256,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetSkeletalBoneDataCompressed
 // Il2CppName: GetSkeletalBoneDataCompressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, System::IntPtr, uint, uint&, uint64_t)>(&OVR::OpenVR::CVRInput::GetSkeletalBoneDataCompressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, System::IntPtr, uint, ByRef<uint>, uint64_t)>(&OVR::OpenVR::CVRInput::GetSkeletalBoneDataCompressed)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->byval_arg;
@@ -271,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::DecompressSkeletalBoneData
 // Il2CppName: DecompressSkeletalBoneData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(System::IntPtr, uint, OVR::OpenVR::EVRSkeletalTransformSpace&, ::Array<OVR::OpenVR::VRBoneTransform_t>*)>(&OVR::OpenVR::CVRInput::DecompressSkeletalBoneData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(System::IntPtr, uint, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace>, ::Array<OVR::OpenVR::VRBoneTransform_t>*)>(&OVR::OpenVR::CVRInput::DecompressSkeletalBoneData)> {
   static const MethodInfo* get() {
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -319,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetOriginTrackedDeviceInfo
 // Il2CppName: GetOriginTrackedDeviceInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputOriginInfo_t&, uint)>(&OVR::OpenVR::CVRInput::GetOriginTrackedDeviceInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, ByRef<OVR::OpenVR::InputOriginInfo_t>, uint)>(&OVR::OpenVR::CVRInput::GetOriginTrackedDeviceInfo)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pOriginInfo = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "InputOriginInfo_t")->this_arg;

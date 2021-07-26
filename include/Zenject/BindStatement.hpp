@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -66,34 +67,34 @@ namespace Zenject {
     // Set instance field: private Zenject.IBindingFinalizer _bindingFinalizer
     void _set__bindingFinalizer(Zenject::IBindingFinalizer* value);
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x13795C8
+    // Offset: 0x1120228
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Boolean get_HasFinalizer()
-    // Offset: 0x13796E8
+    // Offset: 0x1120348
     bool get_HasFinalizer();
     // public System.Void SetFinalizer(Zenject.IBindingFinalizer bindingFinalizer)
-    // Offset: 0x13796F8
+    // Offset: 0x1120358
     void SetFinalizer(Zenject::IBindingFinalizer* bindingFinalizer);
     // private System.Void AssertHasFinalizer()
-    // Offset: 0x1379680
+    // Offset: 0x11202E0
     void AssertHasFinalizer();
     // public System.Void AddDisposable(System.IDisposable disposable)
-    // Offset: 0x1379700
+    // Offset: 0x1120360
     void AddDisposable(System::IDisposable* disposable);
     // public Zenject.BindInfo SpawnBindInfo()
-    // Offset: 0x1379768
+    // Offset: 0x11203C8
     Zenject::BindInfo* SpawnBindInfo();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x13797E4
+    // Offset: 0x1120444
     void FinalizeBinding(Zenject::DiContainer* container);
     // public System.Void Reset()
-    // Offset: 0x13794BC
+    // Offset: 0x112011C
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x13798B0
+    // Offset: 0x1120510
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1379444
+    // Offset: 0x11200A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

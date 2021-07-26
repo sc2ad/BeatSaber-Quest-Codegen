@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.ProviderData
 #include "System/Runtime/Remoting/ProviderData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Runtime::Remoting {
     // Creating value type constructor for type: FormatterData
     FormatterData() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19F0B88
+    // Offset: 0x16A7C7C
     // Implemented from: System.Runtime.Remoting.ProviderData
     // Base method: System.Void ProviderData::.ctor()
     // Base method: System.Void Object::.ctor()

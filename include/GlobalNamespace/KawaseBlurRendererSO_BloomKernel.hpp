@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: KawaseBlurRendererSO
 #include "GlobalNamespace/KawaseBlurRendererSO.hpp"
 // Including type: KawaseBlurRendererSO/KernelSize
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 sharedPartWithNext
     void _set_sharedPartWithNext(int value);
     // public System.Void .ctor()
-    // Offset: 0x1DF1270
+    // Offset: 0x1963E50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

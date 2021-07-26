@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusNetworkPlayerModel
 #include "GlobalNamespace/OculusNetworkPlayerModel.hpp"
 // Including type: Oculus.Platform.Message`1
@@ -64,13 +65,13 @@ namespace GlobalNamespace {
     // Set instance field: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserList> onGetInvitable
     void _set_onGetInvitable(typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* value);
     // System.Void <Refresh>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserAndRoomList> result)
-    // Offset: 0x11F39C8
+    // Offset: 0x2022320
     void $Refresh$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>* result);
     // System.Void <Refresh>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.UserList> result)
-    // Offset: 0x11F3E90
+    // Offset: 0x20227E8
     void $Refresh$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>* result);
     // public System.Void .ctor()
-    // Offset: 0x11F3218
+    // Offset: 0x2021B70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

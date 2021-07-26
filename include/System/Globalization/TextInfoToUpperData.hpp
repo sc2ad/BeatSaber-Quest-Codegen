@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -48,7 +49,7 @@ namespace System::Globalization {
     // Set static field: static public readonly System.Char[] range_a723_a78c
     static void _set_range_a723_a78c(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19CE58C
+    // Offset: 0x1686680
     static void _cctor();
   }; // System.Globalization.TextInfoToUpperData
   #pragma pack(pop)

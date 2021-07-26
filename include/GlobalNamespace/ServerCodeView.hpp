@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -91,22 +92,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _codeIsShown
     void _set__codeIsShown(bool value);
     // public System.Void SetCode(System.String serverCode)
-    // Offset: 0x1155EA4
+    // Offset: 0x1F868B8
     void SetCode(::Il2CppString* serverCode);
     // protected System.Void OnEnable()
-    // Offset: 0x1155F44
+    // Offset: 0x1F86958
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1155FD4
+    // Offset: 0x1F869E8
     void OnDisable();
     // private System.Void HandleShowServerCodeButtonPressed()
-    // Offset: 0x1155FF0
+    // Offset: 0x1F86A04
     void HandleShowServerCodeButtonPressed();
     // private System.Void RefreshText(System.Boolean showCode)
-    // Offset: 0x1155EB0
+    // Offset: 0x1F868C4
     void RefreshText(bool showCode);
     // public System.Void .ctor()
-    // Offset: 0x1156000
+    // Offset: 0x1F86A14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerOutputStream
 #include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: Asn1OutputStream
     Asn1OutputStream() noexcept {}
     // public System.Void .ctor(System.IO.Stream os)
-    // Offset: 0x16D7CD8
+    // Offset: 0x13DA394
     // Implemented from: Org.BouncyCastle.Asn1.DerOutputStream
     // Base method: System.Void DerOutputStream::.ctor(System.IO.Stream os)
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream os)

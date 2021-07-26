@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.ICollection`1
 #include "System/Collections/Generic/ICollection_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,38 +68,38 @@ namespace System::Net {
     // Set instance field: private System.Net.HttpListener listener
     void _set_listener(System::Net::HttpListener* value);
     // public System.Int32 get_Count()
-    // Offset: 0x16346D4
+    // Offset: 0x1336D90
     int get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1634FC8
+    // Offset: 0x1337684
     bool get_IsReadOnly();
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x1632918
+    // Offset: 0x1334FD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(System::Net::HttpListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x1634FD0
+    // Offset: 0x133768C
     void Add(::Il2CppString* uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x16353B0
+    // Offset: 0x1337A6C
     void Clear();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x163545C
+    // Offset: 0x1337B18
     bool Contains(::Il2CppString* uriPrefix);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x16354D0
+    // Offset: 0x1337B8C
     void CopyTo(::Array<::Il2CppString*>* array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x163554C
+    // Offset: 0x1337C08
     System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x16355D8
+    // Offset: 0x1337C94
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x1635664
+    // Offset: 0x1337D20
     bool Remove(::Il2CppString* uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
   #pragma pack(pop)

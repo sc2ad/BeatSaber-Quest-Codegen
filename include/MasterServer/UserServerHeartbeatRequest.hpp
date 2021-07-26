@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerUnreliableMessage
 #include "MasterServer/IMasterServerUnreliableMessage.hpp"
 // Including type: MasterServer.IUserClientToServerMessage
@@ -87,34 +88,34 @@ namespace MasterServer {
     // Set instance field: public System.Int32 currentPlayerCount
     void _set_currentPlayerCount(int value);
     // static public PacketPool`1<MasterServer.UserServerHeartbeatRequest> get_pool()
-    // Offset: 0x152B028
+    // Offset: 0x213768C
     static GlobalNamespace::PacketPool_1<MasterServer::UserServerHeartbeatRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x152B070
+    // Offset: 0x21376D4
     ::Il2CppString* get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x152B078
+    // Offset: 0x21376DC
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x152B080
+    // Offset: 0x21376E4
     ::Il2CppString* get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x152B088
+    // Offset: 0x21376EC
     void set_userName(::Il2CppString* value);
     // public MasterServer.UserServerHeartbeatRequest Init(System.String userId, System.String userName, System.String secret, System.Int32 currentPlayerCount)
-    // Offset: 0x152B090
+    // Offset: 0x21376F4
     MasterServer::UserServerHeartbeatRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, int currentPlayerCount);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152B0A0
+    // Offset: 0x2137704
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152B104
+    // Offset: 0x2137768
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x152B16C
+    // Offset: 0x21377D0
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x152B1C8
+    // Offset: 0x213782C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

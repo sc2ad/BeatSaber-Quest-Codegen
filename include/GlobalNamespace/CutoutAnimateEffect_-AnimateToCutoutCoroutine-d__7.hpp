@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CutoutAnimateEffect
 #include "GlobalNamespace/CutoutAnimateEffect.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -101,26 +102,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <elapsedTime>5__2
     void _set_$elapsedTime$5__2(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1086D68
+    // Offset: 0x1F08664
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1086DD0
+    // Offset: 0x1F086CC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1086A60
+    // Offset: 0x1F0835C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1086C24
+    // Offset: 0x1F08520
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1086C28
+    // Offset: 0x1F08524
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1086D70
+    // Offset: 0x1F0866C
     void System_Collections_IEnumerator_Reset();
   }; // CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7
   #pragma pack(pop)

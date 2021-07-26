@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.Single
@@ -42,21 +43,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerBadgesProvider::$$c
     class $$c;
-    // [InjectAttribute] Offset: 0xE07008
+    // [InjectAttribute] Offset: 0xEB3C24
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07018
+    // [InjectAttribute] Offset: 0xEB3C34
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07028
+    // [InjectAttribute] Offset: 0xEB3C44
     // private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     // Size: 0x8
     // Offset: 0x20
@@ -102,10 +103,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     void _set__multiplayerBadgesModel(GlobalNamespace::MultiplayerBadgesModelSO* value);
     // public System.Void SelectBadgesAndPutThemIntoResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> playerResults)
-    // Offset: 0x119D2BC
+    // Offset: 0x1FB4D28
     void SelectBadgesAndPutThemIntoResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
     // public System.Void .ctor()
-    // Offset: 0x119E450
+    // Offset: 0x1FB5EBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

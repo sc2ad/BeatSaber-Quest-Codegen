@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: MasterServer.MessageHandler/MasterServer.RequestWaiter
@@ -104,26 +105,26 @@ namespace MasterServer {
     // Set instance field: private System.Boolean _isDisposed
     void _set__isDisposed(bool value);
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12DACD0
+    // Offset: 0x20951E0
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x12DACF0
+    // Offset: 0x2095200
     ::Array<uint8_t>* get_data();
     // public System.Int32 get_length()
-    // Offset: 0x12DACF8
+    // Offset: 0x2095208
     int get_length();
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x12DA174
+    // Offset: 0x2094684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::MultipartMessageWaiter* New_ctor(GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(MasterServer.IMasterServerMultipartMessage packet)
-    // Offset: 0x12DA244
+    // Offset: 0x2094754
     void Append(MasterServer::IMasterServerMultipartMessage* packet);
     // public override System.Void Dispose()
-    // Offset: 0x12DA200
+    // Offset: 0x2094710
     // Implemented from: MasterServer.MessageHandler/MasterServer.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

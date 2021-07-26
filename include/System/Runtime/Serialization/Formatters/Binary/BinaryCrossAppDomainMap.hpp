@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -41,13 +42,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Int32 crossAppDomainArrayIndex
     void _set_crossAppDomainArrayIndex(int value);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x15D8A48
+    // Offset: 0x12DC018
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x15D8A88
+    // Offset: 0x12DC058
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15D8A40
+    // Offset: 0x12DC010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

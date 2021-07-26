@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
 #include "Org/BouncyCastle/Crypto/AsymmetricKeyParameter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,32 +59,32 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid
     void _set_algorithmOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()
-    // Offset: 0x12267BC
+    // Offset: 0x1030A94
     Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x12266F0
+    // Offset: 0x10309C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyParameters*, creationType>(isPrivate, parameters)));
     }
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters, Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid)
-    // Offset: 0x1226780
+    // Offset: 0x1030A58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyParameters*, creationType>(isPrivate, parameters, algorithmOid)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHKeyParameters other)
-    // Offset: 0x1226874
+    // Offset: 0x1030B4C
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x12267C4
+    // Offset: 0x1030A9C
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12268CC
+    // Offset: 0x1030BA4
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

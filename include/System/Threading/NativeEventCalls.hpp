@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,22 +29,22 @@ namespace System::Threading {
     // Creating value type constructor for type: NativeEventCalls
     NativeEventCalls() noexcept {}
     // static public System.IntPtr CreateEvent_internal(System.Boolean manual, System.Boolean initial, System.String name, out System.Int32 errorCode)
-    // Offset: 0x18A459C
-    static System::IntPtr CreateEvent_internal(bool manual, bool initial, ::Il2CppString* name, int& errorCode);
+    // Offset: 0x15759A0
+    static System::IntPtr CreateEvent_internal(bool manual, bool initial, ::Il2CppString* name, ByRef<int> errorCode);
     // static public System.Boolean SetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x18A46D4
+    // Offset: 0x1575AD8
     static bool SetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean SetEvent_internal(System.IntPtr handle)
-    // Offset: 0x18A73C0
+    // Offset: 0x15787C4
     static bool SetEvent_internal(System::IntPtr handle);
     // static public System.Boolean ResetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x18A4630
+    // Offset: 0x1575A34
     static bool ResetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean ResetEvent_internal(System.IntPtr handle)
-    // Offset: 0x18A73C4
+    // Offset: 0x15787C8
     static bool ResetEvent_internal(System::IntPtr handle);
     // static public System.Void CloseEvent_internal(System.IntPtr handle)
-    // Offset: 0x18A73C8
+    // Offset: 0x15787CC
     static void CloseEvent_internal(System::IntPtr handle);
   }; // System.Threading.NativeEventCalls
   #pragma pack(pop)
@@ -54,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeEventCalls*, "System.Threading",
 // Writing MetadataGetter for method: System::Threading::NativeEventCalls::CreateEvent_internal
 // Il2CppName: CreateEvent_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(bool, bool, ::Il2CppString*, int&)>(&System::Threading::NativeEventCalls::CreateEvent_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(bool, bool, ::Il2CppString*, ByRef<int>)>(&System::Threading::NativeEventCalls::CreateEvent_internal)> {
   static const MethodInfo* get() {
     static auto* manual = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* initial = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

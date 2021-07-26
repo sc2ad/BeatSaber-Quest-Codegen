@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: MasterServer.MessageHandler/MasterServer.RequestWaiter
@@ -63,26 +64,26 @@ namespace MasterServer {
     // Set instance field: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
     void _set__requestCancellationTokenRegistration(System::Threading::CancellationTokenRegistration value);
     // public System.Threading.Tasks.Task get_task()
-    // Offset: 0x12D971C
+    // Offset: 0x2093C2C
     System::Threading::Tasks::Task* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12D976C
+    // Offset: 0x2093C7C
     bool get_isWaiting();
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x12D9600
+    // Offset: 0x2093B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::SentRequestWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::SentRequestWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::SentRequestWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(System.Boolean handled)
-    // Offset: 0x12D6D00
+    // Offset: 0x2091210
     void Complete(bool handled);
     // public System.Void Cancel()
-    // Offset: 0x12D97DC
+    // Offset: 0x2093CEC
     void Cancel();
     // public override System.Void Dispose()
-    // Offset: 0x12DB18C
+    // Offset: 0x209569C
     // Implemented from: MasterServer.MessageHandler/MasterServer.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

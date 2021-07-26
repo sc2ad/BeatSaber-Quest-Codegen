@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -40,16 +41,16 @@ namespace System {
     // Set instance field: private System.Int64 m_cookie
     void _set_m_cookie(int64_t value);
     // public System.Object get_Value()
-    // Offset: 0x17FB730
+    // Offset: 0x14CBB34
     ::Il2CppObject* get_Value();
     // public System.Void set_Value(System.Object value)
-    // Offset: 0x17FB738
+    // Offset: 0x14CBB3C
     void set_Value(::Il2CppObject* value);
     // public System.Int64 get_Cookie()
-    // Offset: 0x17FB740
+    // Offset: 0x14CBB44
     int64_t get_Cookie();
     // public System.Void .ctor(System.Int64 cookie)
-    // Offset: 0x17FB704
+    // Offset: 0x14CBB08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreElement::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncMethodBuilderCore
 #include "System/Runtime/CompilerServices/AsyncMethodBuilderCore.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,14 +65,14 @@ namespace System::Runtime::CompilerServices {
     // Set instance field: readonly System.Threading.Tasks.Task m_innerTask
     void _set_m_innerTask(System::Threading::Tasks::Task* value);
     // System.Void .ctor(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
-    // Offset: 0x13EF054
+    // Offset: 0x1197CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::ContinuationWrapper* New_ctor(System::Action* continuation, System::Action* invokeAction, System::Threading::Tasks::Task* innerTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::ContinuationWrapper*, creationType>(continuation, invokeAction, innerTask)));
     }
     // System.Void Invoke()
-    // Offset: 0x13EF328
+    // Offset: 0x1197F88
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.ContinuationWrapper
   #pragma pack(pop)

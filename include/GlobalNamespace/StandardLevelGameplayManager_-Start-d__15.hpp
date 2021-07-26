@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandardLevelGameplayManager
 #include "GlobalNamespace/StandardLevelGameplayManager.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -61,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public StandardLevelGameplayManager <>4__this
     void _set_$$4__this(GlobalNamespace::StandardLevelGameplayManager* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1065870
+    // Offset: 0x1ED1344
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x10658D8
+    // Offset: 0x1ED13AC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1065210
+    // Offset: 0x1ED0CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelGameplayManager::$Start$d__15* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelGameplayManager::$Start$d__15::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelGameplayManager::$Start$d__15*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x10655F8
+    // Offset: 0x1ED10CC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x10655FC
+    // Offset: 0x1ED10D0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1065878
+    // Offset: 0x1ED134C
     void System_Collections_IEnumerator_Reset();
   }; // StandardLevelGameplayManager/<Start>d__15
   #pragma pack(pop)

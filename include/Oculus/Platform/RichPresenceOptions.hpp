@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,40 +49,40 @@ namespace Oculus::Platform {
     // Set instance field: private System.IntPtr Handle
     void _set_Handle(System::IntPtr value);
     // public System.Void SetApiName(System.String value)
-    // Offset: 0x238505C
+    // Offset: 0x23E6A60
     void SetApiName(::Il2CppString* value);
     // public System.Void SetCurrentCapacity(System.UInt32 value)
-    // Offset: 0x23850D8
+    // Offset: 0x23E6ADC
     void SetCurrentCapacity(uint value);
     // public System.Void SetDeeplinkMessageOverride(System.String value)
-    // Offset: 0x2385154
+    // Offset: 0x23E6B58
     void SetDeeplinkMessageOverride(::Il2CppString* value);
     // public System.Void SetEndTime(System.DateTime value)
-    // Offset: 0x23851D0
+    // Offset: 0x23E6BD4
     void SetEndTime(System::DateTime value);
     // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0x238524C
+    // Offset: 0x23E6C50
     void SetExtraContext(Oculus::Platform::RichPresenceExtraContext value);
     // public System.Void SetInstanceId(System.String value)
-    // Offset: 0x23852C8
+    // Offset: 0x23E6CCC
     void SetInstanceId(::Il2CppString* value);
     // public System.Void SetIsIdle(System.Boolean value)
-    // Offset: 0x2385344
+    // Offset: 0x23E6D48
     void SetIsIdle(bool value);
     // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x23853C0
+    // Offset: 0x23E6DC4
     void SetIsJoinable(bool value);
     // public System.Void SetMaxCapacity(System.UInt32 value)
-    // Offset: 0x238543C
+    // Offset: 0x23E6E40
     void SetMaxCapacity(uint value);
     // public System.Void SetStartTime(System.DateTime value)
-    // Offset: 0x23854B8
+    // Offset: 0x23E6EBC
     void SetStartTime(System::DateTime value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
-    // Offset: 0x2384E18
+    // Offset: 0x23E681C
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x2384FE4
+    // Offset: 0x23E69E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -90,7 +91,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x2385534
+    // Offset: 0x23E6F38
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

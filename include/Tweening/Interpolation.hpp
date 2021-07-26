@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Tweening
@@ -23,7 +24,7 @@ namespace Tweening {
     // Creating value type constructor for type: Interpolation
     Interpolation() noexcept {}
     // static public System.Single Interpolate(System.Single t, Tweening.EaseType easeType)
-    // Offset: 0x10771D8
+    // Offset: 0x1EE2CAC
     static float Interpolate(float t, Tweening::EaseType easeType);
   }; // Tweening.Interpolation
   #pragma pack(pop)

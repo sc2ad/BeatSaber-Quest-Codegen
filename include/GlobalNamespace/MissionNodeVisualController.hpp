@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -119,73 +120,73 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _interactable
     void _set__interactable(bool value);
     // public MissionNode get_missionNode()
-    // Offset: 0x11359BC
+    // Offset: 0x1F663D0
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Boolean get_selected()
-    // Offset: 0x11359C4
+    // Offset: 0x1F663D8
     bool get_selected();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x11359CC
+    // Offset: 0x1F663E0
     bool get_isInitialized();
     // public System.Boolean get_cleared()
-    // Offset: 0x11359D4
+    // Offset: 0x1F663E8
     bool get_cleared();
     // public System.Boolean get_interactable()
-    // Offset: 0x11359DC
+    // Offset: 0x1F663F0
     bool get_interactable();
     // public System.Void add_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1135464
+    // Offset: 0x1F65E78
     void add_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1135710
+    // Offset: 0x1F66124
     void remove_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void add_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1135508
+    // Offset: 0x1F65F1C
     void add_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x11357B4
+    // Offset: 0x1F661C8
     void remove_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void SetSelected(System.Boolean value)
-    // Offset: 0x1135300
+    // Offset: 0x1F65D14
     void SetSelected(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x11359F4
+    // Offset: 0x1F66408
     void OnEnable();
     // protected System.Void Awake()
-    // Offset: 0x1135A58
+    // Offset: 0x1F6646C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1135BAC
+    // Offset: 0x1F665C0
     void Start();
     // public System.Void Reset()
-    // Offset: 0x1135C08
+    // Offset: 0x1F6661C
     void Reset();
     // protected System.Void OnDestroy()
-    // Offset: 0x1135C10
+    // Offset: 0x1F66624
     void OnDestroy();
     // public System.Void Init()
-    // Offset: 0x1135BB0
+    // Offset: 0x1F665C4
     void Init();
     // public System.Void Setup(System.Boolean cleared, System.Boolean interactable)
-    // Offset: 0x1135E00
+    // Offset: 0x1F66814
     void Setup(bool cleared, bool interactable);
     // private System.Void SetupToggle()
-    // Offset: 0x1135DA4
+    // Offset: 0x1F667B8
     void SetupToggle();
     // public System.Void SetMissionCleared()
-    // Offset: 0x113416C
+    // Offset: 0x1F64B80
     void SetMissionCleared();
     // public System.Void SetInteractable()
-    // Offset: 0x113496C
+    // Offset: 0x1F65380
     void SetInteractable();
     // public System.Void ChangeNodeSelection(System.Boolean selected)
-    // Offset: 0x1135DDC
+    // Offset: 0x1F667F0
     void ChangeNodeSelection(bool selected);
     // private System.Void HandleMissionToggleSelectionDidChange(MissionToggle toggle)
-    // Offset: 0x1135ED8
+    // Offset: 0x1F668EC
     void HandleMissionToggleSelectionDidChange(GlobalNamespace::MissionToggle* toggle);
     // public System.Void .ctor()
-    // Offset: 0x1135F5C
+    // Offset: 0x1F66970
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

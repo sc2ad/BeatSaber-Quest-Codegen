@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ProviderBindingFinalizer
 #include "Zenject/ProviderBindingFinalizer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,16 +46,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Type*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16CB888
+    // Offset: 0x13CDF44
     static void _cctor();
     // System.String <GetScope>b__7_0(System.Type x)
-    // Offset: 0x16CB8F4
+    // Offset: 0x13CDFB0
     ::Il2CppString* $GetScope$b__7_0(System::Type* x);
     // System.String <FinalizeBinding>b__8_0(System.Type x)
-    // Offset: 0x16CB95C
+    // Offset: 0x13CE018
     ::Il2CppString* $FinalizeBinding$b__8_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x16CB8EC
+    // Offset: 0x13CDFA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

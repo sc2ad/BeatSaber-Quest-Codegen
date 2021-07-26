@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_CharacterInfo
 #include "TMPro/TMP_CharacterInfo.hpp"
 // Including type: TMPro.TMP_WordInfo
@@ -209,56 +210,56 @@ namespace TMPro {
     // Set instance field: private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
     void _set_m_CachedMeshInfo(::Array<TMPro::TMP_MeshInfo>* value);
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
-    // Offset: 0x13CF698
+    // Offset: 0x11782F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextInfo* New_ctor(TMPro::TMP_Text* textComponent) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextInfo*, creationType>(textComponent)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13CFFF4
+    // Offset: 0x1178C54
     static void _cctor();
     // public System.Void Clear()
-    // Offset: 0x13CF7C8
+    // Offset: 0x1178428
     void Clear();
     // public System.Void ClearMeshInfo(System.Boolean updateMesh)
-    // Offset: 0x13CF82C
+    // Offset: 0x117848C
     void ClearMeshInfo(bool updateMesh);
     // public System.Void ClearAllMeshInfo()
-    // Offset: 0x13CF8AC
+    // Offset: 0x117850C
     void ClearAllMeshInfo();
     // public System.Void ResetVertexLayout(System.Boolean isVolumetric)
-    // Offset: 0x13CF928
+    // Offset: 0x1178588
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
-    // Offset: 0x13CF9AC
+    // Offset: 0x117860C
     void ClearUnusedVertices(::Array<TMPro::MaterialReference>* materials);
     // public System.Void ClearLineInfo()
-    // Offset: 0x13CFA28
+    // Offset: 0x1178688
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
-    // Offset: 0x13CFC28
+    // Offset: 0x1178888
     ::Array<TMPro::TMP_MeshInfo>* CopyMeshInfoVertexData();
     // static public System.Void Resize(ref T[] array, System.Int32 size)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Resize(::Array<T>*& array, int size) {
+    static void Resize(ByRef<::Array<T>*> array, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::Resize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", "Resize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(size)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, size);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(array), size);
     }
     // static public System.Void Resize(ref T[] array, System.Int32 size, System.Boolean isBlockAllocated)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Resize(::Array<T>*& array, int size, bool isBlockAllocated) {
+    static void Resize(ByRef<::Array<T>*> array, int size, bool isBlockAllocated) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::Resize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", "Resize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(size), ::il2cpp_utils::ExtractType(isBlockAllocated)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, size, isBlockAllocated);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(array), size, isBlockAllocated);
     }
     // public System.Void .ctor()
-    // Offset: 0x13CF5BC
+    // Offset: 0x117821C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

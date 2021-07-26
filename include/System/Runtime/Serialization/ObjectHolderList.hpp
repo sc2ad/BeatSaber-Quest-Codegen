@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,29 +50,29 @@ namespace System::Runtime::Serialization {
     // Set instance field: System.Int32 m_count
     void _set_m_count(int value);
     // System.Int32 get_Version()
-    // Offset: 0x167D1CC
+    // Offset: 0x137F888
     int get_Version();
     // System.Int32 get_Count()
-    // Offset: 0x167D1D4
+    // Offset: 0x137F890
     int get_Count();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x167CF5C
+    // Offset: 0x137F618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.ObjectHolder value)
-    // Offset: 0x167CFD0
+    // Offset: 0x137F68C
     void Add(System::Runtime::Serialization::ObjectHolder* value);
     // System.Runtime.Serialization.ObjectHolderListEnumerator GetFixupEnumerator()
-    // Offset: 0x167D114
+    // Offset: 0x137F7D0
     System::Runtime::Serialization::ObjectHolderListEnumerator* GetFixupEnumerator();
     // private System.Void EnlargeArray()
-    // Offset: 0x167D084
+    // Offset: 0x137F740
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x167CF54
+    // Offset: 0x137F610
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

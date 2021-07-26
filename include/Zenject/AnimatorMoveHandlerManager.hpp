@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,13 +48,13 @@ namespace Zenject {
     // Set instance field: private System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> _handlers
     void _set__handlers(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* value);
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> handlers)
-    // Offset: 0x1378CFC
+    // Offset: 0x111F95C
     void Construct(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers);
     // public System.Void OnAnimatorMove()
-    // Offset: 0x1378D04
+    // Offset: 0x111F964
     void OnAnimatorMove();
     // public System.Void .ctor()
-    // Offset: 0x1378E64
+    // Offset: 0x111FAC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

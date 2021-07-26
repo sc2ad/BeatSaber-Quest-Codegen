@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -16,11 +17,11 @@ namespace System {
     // Creating value type constructor for type: UncNameHelper
     UncNameHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
-    // Offset: 0x196DA70
-    static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, bool& loopback);
+    // Offset: 0x163EE74
+    static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 start, ref System.Int32 returnedEnd, System.Boolean notImplicitFile)
-    // Offset: 0x196DA78
-    static bool IsValid(::Il2CppChar* name, uint16_t start, int& returnedEnd, bool notImplicitFile);
+    // Offset: 0x163EE7C
+    static bool IsValid(::Il2CppChar* name, uint16_t start, ByRef<int> returnedEnd, bool notImplicitFile);
   }; // System.UncNameHelper
   #pragma pack(pop)
 }
@@ -30,7 +31,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");
 // Writing MetadataGetter for method: System::UncNameHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, bool&)>(&System::UncNameHelper::ParseCanonicalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, ByRef<bool>)>(&System::UncNameHelper::ParseCanonicalName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -42,7 +43,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::UncNameHelper::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, int&, bool)>(&System::UncNameHelper::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, ByRef<int>, bool)>(&System::UncNameHelper::IsValid)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;

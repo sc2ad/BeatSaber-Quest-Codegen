@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,8 +46,8 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 IKPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xDF3F8C
-    // [RangeAttribute] Offset: 0xDF3F8C
+    // [TooltipAttribute] Offset: 0xEA0BA8
+    // [RangeAttribute] Offset: 0xEA0BA8
     // public System.Single IKPositionWeight
     // Size: 0x4
     // Offset: 0x1C
@@ -138,37 +139,37 @@ namespace RootMotion::FinalIK {
     // Set instance field: protected UnityEngine.Transform root
     void _set_root(UnityEngine::Transform* value);
     // public System.Boolean get_initiated()
-    // Offset: 0x1C9DD40
+    // Offset: 0x183BAE0
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1C9DD48
+    // Offset: 0x183BAE8
     void set_initiated(bool value);
     // public System.Boolean IsValid()
-    // Offset: 0x1C9DC18
+    // Offset: 0x183B9B8
     bool IsValid();
     // public System.Boolean IsValid(ref System.String message)
     // Offset: 0xFFFFFFFF
-    bool IsValid(::Il2CppString*& message);
+    bool IsValid(ByRef<::Il2CppString*> message);
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x1C96664
+    // Offset: 0x1834404
     void Initiate(UnityEngine::Transform* root);
     // public System.Void Update()
-    // Offset: 0x1C96584
+    // Offset: 0x1834324
     void Update();
     // public UnityEngine.Vector3 GetIKPosition()
-    // Offset: 0x1C9DC94
+    // Offset: 0x183BA34
     UnityEngine::Vector3 GetIKPosition();
     // public System.Void SetIKPosition(UnityEngine.Vector3 position)
-    // Offset: 0x1C9DCA0
+    // Offset: 0x183BA40
     void SetIKPosition(UnityEngine::Vector3 position);
     // public System.Single GetIKPositionWeight()
-    // Offset: 0x1C9DCAC
+    // Offset: 0x183BA4C
     float GetIKPositionWeight();
     // public System.Void SetIKPositionWeight(System.Single weight)
-    // Offset: 0x1C9DCB4
+    // Offset: 0x183BA54
     void SetIKPositionWeight(float weight);
     // public UnityEngine.Transform GetRoot()
-    // Offset: 0x1C9DD38
+    // Offset: 0x183BAD8
     UnityEngine::Transform* GetRoot();
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
     // Offset: 0xFFFFFFFF
@@ -189,19 +190,19 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnUpdate();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x1C9DD54
+    // Offset: 0x183BAF4
     void LogWarning(::Il2CppString* message);
     // static public UnityEngine.Transform ContainsDuplicateBone(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x1C9DD6C
+    // Offset: 0x183BB0C
     static UnityEngine::Transform* ContainsDuplicateBone(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
     // static public System.Boolean HierarchyIsValid(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x1C9DEA8
+    // Offset: 0x183BC48
     static bool HierarchyIsValid(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
     // static protected System.Single PreSolveBones(ref RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x1C9DF54
-    static float PreSolveBones(::Array<RootMotion::FinalIK::IKSolver::Bone*>*& bones);
+    // Offset: 0x183BCF4
+    static float PreSolveBones(ByRef<::Array<RootMotion::FinalIK::IKSolver::Bone*>*> bones);
     // protected System.Void .ctor()
-    // Offset: 0x1C9E2D8
+    // Offset: 0x183C078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolver::*)(::Il2CppString*&)>(&RootMotion::FinalIK::IKSolver::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolver::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::IKSolver::IsValid)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -388,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::PreSolveBones
 // Il2CppName: PreSolveBones
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<RootMotion::FinalIK::IKSolver::Bone*>*&)>(&RootMotion::FinalIK::IKSolver::PreSolveBones)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(ByRef<::Array<RootMotion::FinalIK::IKSolver::Bone*>*>)>(&RootMotion::FinalIK::IKSolver::PreSolveBones)> {
   static const MethodInfo* get() {
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "PreSolveBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});

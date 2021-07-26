@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.SetUpTearDownCommand
 #include "UnityEngine/TestTools/SetUpTearDownCommand.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -83,26 +84,26 @@ namespace UnityEngine::TestTools {
     // Set instance field: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context
     void _set_context(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x148CD74
+    // Offset: 0x11FDDD4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x148CDDC
+    // Offset: 0x11FDE3C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x148C98C
+    // Offset: 0x11FD9EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetUpTearDownCommand::$InvokeBefore$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetUpTearDownCommand::$InvokeBefore$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x148CCB0
+    // Offset: 0x11FDD10
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x148CCB4
+    // Offset: 0x11FDD14
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x148CD7C
+    // Offset: 0x11FDDDC
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.SetUpTearDownCommand/UnityEngine.TestTools.<InvokeBefore>d__2
   #pragma pack(pop)

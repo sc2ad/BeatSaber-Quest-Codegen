@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,7 +17,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Locale
     Locale() noexcept {}
     // static public System.String GetText(System.String msg)
-    // Offset: 0x1DD117C
+    // Offset: 0x1943D5C
     static ::Il2CppString* GetText(::Il2CppString* msg);
   }; // Locale
   #pragma pack(pop)

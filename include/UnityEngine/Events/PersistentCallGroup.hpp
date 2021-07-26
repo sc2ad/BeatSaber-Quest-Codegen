@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -34,7 +35,7 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentCallGroup : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xD81C7C
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E898
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
     // Offset: 0x10
@@ -52,10 +53,10 @@ namespace UnityEngine::Events {
     // Set instance field: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     void _set_m_Calls(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* value);
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
-    // Offset: 0x1BE7AA8
+    // Offset: 0x17D9E40
     void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);
     // public System.Void .ctor()
-    // Offset: 0x1BE7A34
+    // Offset: 0x17D9DCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

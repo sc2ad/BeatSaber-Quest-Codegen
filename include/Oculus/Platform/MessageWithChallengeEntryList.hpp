@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithChallengeEntryList
     MessageWithChallengeEntryList() noexcept {}
     // protected Oculus.Platform.Models.ChallengeEntryList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14A0CE0
+    // Offset: 0x20FCB54
     Oculus::Platform::Models::ChallengeEntryList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x149D6F8
+    // Offset: 0x20F956C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithChallengeEntryList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.ChallengeEntryList GetChallengeEntryList()
-    // Offset: 0x14A0C9C
+    // Offset: 0x20FCB10
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ChallengeEntryList Message::GetChallengeEntryList()
     Oculus::Platform::Models::ChallengeEntryList* GetChallengeEntryList();

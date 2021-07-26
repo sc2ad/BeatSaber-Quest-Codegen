@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -25,14 +26,14 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SerializedType/*, public System::ValueType*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDE68E8
+    // [FormerlySerializedAsAttribute] Offset: 0xE94504
     // private System.String m_AssemblyName
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* m_AssemblyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6934
+    // [FormerlySerializedAsAttribute] Offset: 0xE94550
     // private System.String m_ClassName
     // Size: 0x8
     // Offset: 0x8
@@ -74,25 +75,25 @@ namespace UnityEngine::ResourceManagement::Util {
     // Set instance field: private System.Boolean <ValueChanged>k__BackingField
     void _set_$ValueChanged$k__BackingField(bool value);
     // public System.String get_AssemblyName()
-    // Offset: 0xEEC544
+    // Offset: 0xD804FC
     ::Il2CppString* get_AssemblyName();
     // public System.String get_ClassName()
-    // Offset: 0xEEC54C
+    // Offset: 0xD80504
     ::Il2CppString* get_ClassName();
     // public System.Type get_Value()
-    // Offset: 0xEEC55C
+    // Offset: 0xD80514
     System::Type* get_Value();
     // public System.Void set_Value(System.Type value)
-    // Offset: 0xEEC564
+    // Offset: 0xD8051C
     void set_Value(System::Type* value);
     // public System.Boolean get_ValueChanged()
-    // Offset: 0xEEC56C
+    // Offset: 0xD80524
     bool get_ValueChanged();
     // public System.Void set_ValueChanged(System.Boolean value)
-    // Offset: 0xEEC574
+    // Offset: 0xD8052C
     void set_ValueChanged(bool value);
     // public override System.String ToString()
-    // Offset: 0xEEC554
+    // Offset: 0xD8050C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

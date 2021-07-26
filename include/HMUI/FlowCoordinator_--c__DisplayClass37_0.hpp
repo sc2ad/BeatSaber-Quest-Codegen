@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.FlowCoordinator
 #include "HMUI/FlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -70,10 +71,10 @@ namespace HMUI {
     // Set instance field: public HMUI.FlowCoordinator flowCoordinatorToReplace
     void _set_flowCoordinatorToReplace(HMUI::FlowCoordinator* value);
     // System.Void <ReplaceChildFlowCoordinator>b__0()
-    // Offset: 0x130B294
+    // Offset: 0x10CD204
     void $ReplaceChildFlowCoordinator$b__0();
     // public System.Void .ctor()
-    // Offset: 0x130A450
+    // Offset: 0x10CC3C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

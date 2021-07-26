@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -25,19 +26,19 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Creating value type constructor for type: Streams
     Streams() noexcept {}
     // static public System.Byte[] ReadAll(System.IO.Stream inStr)
-    // Offset: 0x1F7D614
+    // Offset: 0x1A634D4
     static ::Array<uint8_t>* ReadAll(System::IO::Stream* inStr);
     // static public System.Int32 ReadFully(System.IO.Stream inStr, System.Byte[] buf)
-    // Offset: 0x1F7D77C
+    // Offset: 0x1A6363C
     static int ReadFully(System::IO::Stream* inStr, ::Array<uint8_t>* buf);
     // static public System.Int32 ReadFully(System.IO.Stream inStr, System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1F7D798
+    // Offset: 0x1A63658
     static int ReadFully(System::IO::Stream* inStr, ::Array<uint8_t>* buf, int off, int len);
     // static public System.Void PipeAll(System.IO.Stream inStr, System.IO.Stream outStr)
-    // Offset: 0x1F7D694
+    // Offset: 0x1A63554
     static void PipeAll(System::IO::Stream* inStr, System::IO::Stream* outStr);
     // static public System.Int32 WriteBufTo(System.IO.MemoryStream buf, System.Byte[] output, System.Int32 offset)
-    // Offset: 0x1F7D824
+    // Offset: 0x1A636E4
     static int WriteBufTo(System::IO::MemoryStream* buf, ::Array<uint8_t>* output, int offset);
   }; // Org.BouncyCastle.Utilities.IO.Streams
   #pragma pack(pop)

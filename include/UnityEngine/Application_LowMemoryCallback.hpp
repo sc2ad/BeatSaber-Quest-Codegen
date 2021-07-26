@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Application
 #include "UnityEngine/Application.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: LowMemoryCallback
     LowMemoryCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BDBC38
+    // Offset: 0x17CDFD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Application::LowMemoryCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Application::LowMemoryCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Application::LowMemoryCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1BDA534
+    // Offset: 0x17CC8CC
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BDBC48
+    // Offset: 0x17CDFE0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BDBC74
+    // Offset: 0x17CE00C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Application/UnityEngine.LowMemoryCallback
   #pragma pack(pop)

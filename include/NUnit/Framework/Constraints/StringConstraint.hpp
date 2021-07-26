@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.Constraint
 #include "NUnit/Framework/Constraints/Constraint.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,7 +62,7 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: protected System.String descriptionText
     void _set_descriptionText(::Il2CppString* value);
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x1720060
+    // Offset: 0x142371C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringConstraint* New_ctor(::Il2CppString* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::StringConstraint::.ctor");
@@ -71,12 +72,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     bool Matches(::Il2CppString* actual);
     // public override System.String get_Description()
-    // Offset: 0x172062C
+    // Offset: 0x1423CE8
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x17206EC
+    // Offset: 0x1423DA8
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

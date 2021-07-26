@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameplayModifiersPanelController
 #include "GlobalNamespace/GameplayModifiersPanelController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace GlobalNamespace {
     // Set instance field: public GameplayModifiersPanelController <>4__this
     void _set_$$4__this(GlobalNamespace::GameplayModifiersPanelController* value);
     // System.Void <Awake>b__0(System.Boolean on)
-    // Offset: 0x10B48E0
+    // Offset: 0x1F21850
     void $Awake$b__0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x10B4464
+    // Offset: 0x1F213D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

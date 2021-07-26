@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.ExecutionContext
 #include "System/Threading/ExecutionContext.hpp"
 // Including type: System.Runtime.Remoting.Messaging.LogicalCallContext
@@ -52,35 +53,35 @@ namespace System::Threading {
     // Set instance field: private System.Threading.ExecutionContext m_ec
     void _set_m_ec(System::Threading::ExecutionContext* value);
     // public System.Boolean get_IsNull()
-    // Offset: 0xEEA67C
+    // Offset: 0xD7E634
     bool get_IsNull();
     // public System.Boolean get_IsFlowSuppressed()
-    // Offset: 0xEEA6A8
+    // Offset: 0xD7E660
     bool get_IsFlowSuppressed();
     // public System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0xEEA6C4
+    // Offset: 0xD7E67C
     System::Threading::SynchronizationContext* get_SynchronizationContext();
     // public System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0xEEA6DC
+    // Offset: 0xD7E694
     System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext/System.Runtime.Remoting.Messaging.Reader get_LogicalCallContext()
-    // Offset: 0xEEA6F4
+    // Offset: 0xD7E6AC
     System::Runtime::Remoting::Messaging::LogicalCallContext::Reader get_LogicalCallContext();
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext/System.Runtime.Remoting.Messaging.Reader get_IllogicalCallContext()
-    // Offset: 0xEEA710
+    // Offset: 0xD7E6C8
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
-    // Offset: 0xEEA66C
+    // Offset: 0xD7E624
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec)
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
-    // Offset: 0xEEA674
+    // Offset: 0xD7E62C
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
     // public System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0xEEA68C
+    // Offset: 0xD7E644
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
-    // Offset: 0xEEA72C
+    // Offset: 0xD7E6E4
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/System.Threading.Reader
   #pragma pack(pop)

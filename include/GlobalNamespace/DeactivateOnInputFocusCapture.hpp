@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeactivateOnInputFocusCapture : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDCF8A0
+    // [InjectAttribute] Offset: 0xE7C4BC
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x18
@@ -42,19 +43,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
     void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1210550
+    // Offset: 0x203CEA8
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1210770
+    // Offset: 0x203D0C8
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x121090C
+    // Offset: 0x203D264
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x1210B0C
+    // Offset: 0x203D464
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x1210C6C
+    // Offset: 0x203D5C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

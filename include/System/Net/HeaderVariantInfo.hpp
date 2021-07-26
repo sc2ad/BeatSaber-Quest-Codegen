@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Net.CookieVariant
@@ -49,13 +50,13 @@ namespace System::Net {
     // Set instance field: private System.Net.CookieVariant m_variant
     void _set_m_variant(System::Net::CookieVariant value);
     // System.String get_Name()
-    // Offset: 0xEE1E68
+    // Offset: 0xD75E20
     ::Il2CppString* get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0xEE1E70
+    // Offset: 0xD75E28
     System::Net::CookieVariant get_Variant();
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0xEE1E5C
+    // Offset: 0xD75E14
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant)
   }; // System.Net.HeaderVariantInfo

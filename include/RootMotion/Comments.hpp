@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -19,7 +20,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Comments : public UnityEngine::MonoBehaviour {
     public:
-    // [MultilineAttribute] Offset: 0xDF26F8
+    // [MultilineAttribute] Offset: 0xE9F314
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
@@ -35,7 +36,7 @@ namespace RootMotion {
     // Set instance field: public System.String text
     void _set_text(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1CDC66C
+    // Offset: 0x187940C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

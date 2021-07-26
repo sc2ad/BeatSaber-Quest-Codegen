@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.RSAPKCS1SignatureDescription
 #include "System/Security/Cryptography/RSAPKCS1SignatureDescription.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: RSAPKCS1SHA384SignatureDescription
     RSAPKCS1SHA384SignatureDescription() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1AFB350
+    // Offset: 0x175DCD8
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()

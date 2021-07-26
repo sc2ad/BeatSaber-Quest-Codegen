@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.SoapServices
 #include "System/Runtime/Remoting/SoapServices.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace System::Runtime::Remoting {
     // Set instance field: public System.Collections.Hashtable Elements
     void _set_Elements(System::Collections::Hashtable* value);
     // public System.Void .ctor()
-    // Offset: 0x15D3460
+    // Offset: 0x12D6A30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

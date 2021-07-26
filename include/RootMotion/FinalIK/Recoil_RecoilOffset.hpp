@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Recoil
 #include "RootMotion/FinalIK/Recoil.hpp"
 // Including type: UnityEngine.Vector3
@@ -35,22 +36,22 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xDF8858
+    // [TooltipAttribute] Offset: 0xEA5474
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xDF8890
-    // [RangeAttribute] Offset: 0xDF8890
+    // [TooltipAttribute] Offset: 0xEA54AC
+    // [RangeAttribute] Offset: 0xEA54AC
     // public System.Single additivity
     // Size: 0x4
     // Offset: 0x1C
     float additivity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF88E4
+    // [TooltipAttribute] Offset: 0xEA5500
     // public System.Single maxAdditiveOffsetMag
     // Size: 0x4
     // Offset: 0x20
@@ -59,7 +60,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxAdditiveOffsetMag and: effectorLinks
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDF891C
+    // [TooltipAttribute] Offset: 0xEA5538
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x28
@@ -105,13 +106,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Vector3 lastOffset
     void _set_lastOffset(UnityEngine::Vector3 value);
     // public System.Void Start()
-    // Offset: 0x1AB94F4
+    // Offset: 0x1730D44
     void Start();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
-    // Offset: 0x1ABA084
+    // Offset: 0x17318D4
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
     // public System.Void .ctor()
-    // Offset: 0x1ABA798
+    // Offset: 0x1731FE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

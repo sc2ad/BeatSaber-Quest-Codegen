@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.BipedReferences
 #include "RootMotion/BipedReferences.hpp"
 // Including type: System.ValueType
@@ -49,10 +50,10 @@ namespace RootMotion {
     // Set instance field: public System.Boolean includeEyes
     void _set_includeEyes(bool value);
     // static public RootMotion.BipedReferences/RootMotion.AutoDetectParams get_Default()
-    // Offset: 0x1CDC664
+    // Offset: 0x1879404
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
-    // Offset: 0xEF9110
+    // Offset: 0xD8727C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes)
   }; // RootMotion.BipedReferences/RootMotion.AutoDetectParams

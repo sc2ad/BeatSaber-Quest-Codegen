@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSkeletonRenderer
 #include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,14 +96,14 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material SystemGestureMaterial
     void _set_SystemGestureMaterial(UnityEngine::Material* value);
     // public System.Void .ctor(UnityEngine.GameObject rootGO, UnityEngine.Material renderMat, UnityEngine.Material systemGestureMat, System.Single scale, UnityEngine.Transform begin, UnityEngine.Transform end)
-    // Offset: 0x1EEEE94
+    // Offset: 0x1A05B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSkeletonRenderer::BoneVisualization* New_ctor(UnityEngine::GameObject* rootGO, UnityEngine::Material* renderMat, UnityEngine::Material* systemGestureMat, float scale, UnityEngine::Transform* begin, UnityEngine::Transform* end) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSkeletonRenderer::BoneVisualization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSkeletonRenderer::BoneVisualization*, creationType>(rootGO, renderMat, systemGestureMat, scale, begin, end)));
     }
     // public System.Void Update(System.Single scale, System.Boolean shouldRender, System.Boolean shouldUseSystemGestureMaterial, OVRSkeletonRenderer/ConfidenceBehavior confidenceBehavior, OVRSkeletonRenderer/SystemGestureBehavior systemGestureBehavior)
-    // Offset: 0x1EEF3E0
+    // Offset: 0x1A06080
     void Update(float scale, bool shouldRender, bool shouldUseSystemGestureMaterial, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior confidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior systemGestureBehavior);
   }; // OVRSkeletonRenderer/BoneVisualization
   #pragma pack(pop)

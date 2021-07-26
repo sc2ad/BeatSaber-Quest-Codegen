@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongPreviewPlayer
 #include "GlobalNamespace/SongPreviewPlayer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single ambientVolumeScale
     void _set_ambientVolumeScale(float value);
     // public System.Void .ctor(System.Single ambientVolumeScale)
-    // Offset: 0x105C424
+    // Offset: 0x1EC6EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::InitData* New_ctor(float ambientVolumeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::InitData::.ctor");

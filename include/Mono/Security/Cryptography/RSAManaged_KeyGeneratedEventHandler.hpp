@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Cryptography.RSAManaged
 #include "Mono/Security/Cryptography/RSAManaged.hpp"
 // Including type: System.MulticastDelegate
@@ -35,20 +36,20 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: KeyGeneratedEventHandler
     KeyGeneratedEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DDDC08
+    // Offset: 0x19507E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAManaged::KeyGeneratedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSAManaged::KeyGeneratedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.EventArgs e)
-    // Offset: 0x1DDCEE4
+    // Offset: 0x194FAC4
     void Invoke(::Il2CppObject* sender, System::EventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.EventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DDDC18
+    // Offset: 0x19507F8
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::EventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DDDC48
+    // Offset: 0x1950828
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IStreamCipher
 #include "Org/BouncyCastle/Crypto/IStreamCipher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -117,61 +118,61 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.Int32 idx
     void _set_idx(int value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E086B8
+    // Offset: 0x197C298
     ::Il2CppString* get_AlgorithmName();
     // static private System.UInt32 F1(System.UInt32 x)
-    // Offset: 0x1E080B8
+    // Offset: 0x197BC98
     static uint F1(uint x);
     // static private System.UInt32 F2(System.UInt32 x)
-    // Offset: 0x1E080D0
+    // Offset: 0x197BCB0
     static uint F2(uint x);
     // private System.UInt32 G1(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1E080E0
+    // Offset: 0x197BCC0
     uint G1(uint x, uint y, uint z);
     // private System.UInt32 G2(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1E080F4
+    // Offset: 0x197BCD4
     uint G2(uint x, uint y, uint z);
     // static private System.UInt32 RotateLeft(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1E08108
+    // Offset: 0x197BCE8
     static uint RotateLeft(uint x, int bits);
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1E080C8
+    // Offset: 0x197BCA8
     static uint RotateRight(uint x, int bits);
     // private System.UInt32 H1(System.UInt32 x)
-    // Offset: 0x1E08114
+    // Offset: 0x197BCF4
     uint H1(uint x);
     // private System.UInt32 H2(System.UInt32 x)
-    // Offset: 0x1E0816C
+    // Offset: 0x197BD4C
     uint H2(uint x);
     // static private System.UInt32 Mod1024(System.UInt32 x)
-    // Offset: 0x1E081C4
+    // Offset: 0x197BDA4
     static uint Mod1024(uint x);
     // static private System.UInt32 Mod512(System.UInt32 x)
-    // Offset: 0x1E081CC
+    // Offset: 0x197BDAC
     static uint Mod512(uint x);
     // static private System.UInt32 Dim(System.UInt32 x, System.UInt32 y)
-    // Offset: 0x1E081D4
+    // Offset: 0x197BDB4
     static uint Dim(uint x, uint y);
     // private System.UInt32 Step()
-    // Offset: 0x1E081E0
+    // Offset: 0x197BDC0
     uint Step();
     // private System.Void Init()
-    // Offset: 0x1E083AC
+    // Offset: 0x197BF8C
     void Init();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E08700
+    // Offset: 0x197C2E0
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Byte GetByte()
-    // Offset: 0x1E088D0
+    // Offset: 0x197C4B0
     uint8_t GetByte();
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E08950
+    // Offset: 0x197C530
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E08AF0
+    // Offset: 0x197C6D0
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1E08AF4
+    // Offset: 0x197C6D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

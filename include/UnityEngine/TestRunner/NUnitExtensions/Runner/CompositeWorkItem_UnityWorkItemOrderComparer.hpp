@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/CompositeWorkItem.hpp"
 // Including type: System.Collections.Generic.IComparer`1
@@ -35,10 +36,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>(this);
     }
     // public System.Int32 Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
-    // Offset: 0x147D180
+    // Offset: 0x11EE1E0
     int Compare(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* x, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* y);
     // public System.Void .ctor()
-    // Offset: 0x147AE04
+    // Offset: 0x11EBE64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

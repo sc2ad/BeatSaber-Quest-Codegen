@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameplayRpcManager
 #include "GlobalNamespace/GameplayRpcManager.hpp"
 // Including type: RemoteProcedureCall`2
@@ -30,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteCutRpc
     NoteCutRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12C6334
+    // Offset: 0x109BA70
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

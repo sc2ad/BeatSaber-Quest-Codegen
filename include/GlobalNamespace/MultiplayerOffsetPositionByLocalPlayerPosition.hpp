@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerOffsetPositionByLocalPlayerPosition : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE0861C
+    // [InjectAttribute] Offset: 0xEB5238
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x18
@@ -82,19 +83,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _lastParentRotation
     void _set__lastParentRotation(UnityEngine::Quaternion value);
     // protected System.Void Awake()
-    // Offset: 0x23DCF40
+    // Offset: 0x1E7FA04
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x23DCF94
+    // Offset: 0x1E7FA58
     void Update();
     // public System.Void SetEnabled(System.Boolean isEnabled)
-    // Offset: 0x23DD220
+    // Offset: 0x1E7FCE4
     void SetEnabled(bool isEnabled);
     // private System.Void UpdatePositionAndRotationIfNeeded()
-    // Offset: 0x23DCF98
+    // Offset: 0x1E7FA5C
     void UpdatePositionAndRotationIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x23DD2BC
+    // Offset: 0x1E7FD80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

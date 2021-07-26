@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_TextUtilities
 #include "TMPro/TMP_TextUtilities.hpp"
 // Including type: System.ValueType
@@ -51,7 +52,7 @@ namespace TMPro {
     // Set instance field: public UnityEngine.Vector3 Point2
     void _set_Point2(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0xED5A34
+    // Offset: 0xD6B674
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2)
   }; // TMPro.TMP_TextUtilities/TMPro.LineSegment

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -130,13 +131,13 @@ namespace TMPro {
     // Set instance field: public System.Byte smallcaps
     void _set_smallcaps(uint8_t value);
     // public System.Void Clear()
-    // Offset: 0xED0B7C
+    // Offset: 0xD67A18
     void Clear();
     // public System.Byte Add(TMPro.FontStyles style)
-    // Offset: 0xED0B88
+    // Offset: 0xD67A24
     uint8_t Add(TMPro::FontStyles style);
     // public System.Byte Remove(TMPro.FontStyles style)
-    // Offset: 0xED0B90
+    // Offset: 0xD67A2C
     uint8_t Remove(TMPro::FontStyles style);
   }; // TMPro.TMP_FontStyleStack
   #pragma pack(pop)

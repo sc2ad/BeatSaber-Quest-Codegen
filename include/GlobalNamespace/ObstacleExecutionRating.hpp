@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectExecutionRating
 #include "GlobalNamespace/BeatmapObjectExecutionRating.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -86,13 +87,13 @@ namespace GlobalNamespace {
     // Set instance field: private ObstacleExecutionRating/Rating <rating>k__BackingField
     void _set_$rating$k__BackingField(GlobalNamespace::ObstacleExecutionRating::Rating value);
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0x11EA40C
+    // Offset: 0x2018D64
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void set_rating(ObstacleExecutionRating/Rating value)
-    // Offset: 0x11EA414
+    // Offset: 0x2018D6C
     void set_rating(GlobalNamespace::ObstacleExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0x11EA41C
+    // Offset: 0x2018D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObstacleExecutionRating::.ctor");

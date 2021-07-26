@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IRefreshable
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>* elements;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0C684
+    // [SpaceAttribute] Offset: 0xEB92A0
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x30
@@ -84,14 +85,14 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0C6CC
+    // [SpaceAttribute] Offset: 0xEB92E8
     // private EnvironmentsListSO _allEnvironments
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::EnvironmentsListSO* allEnvironments;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentsListSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0C704
+    // [InjectAttribute] Offset: 0xEB9320
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x48
@@ -155,28 +156,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _initialized
     void _set__initialized(bool value);
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x1021720
+    // Offset: 0x1E8C1F4
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x1021728
+    // Offset: 0x1E8C1FC
     void SetData(GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x1021AB8
+    // Offset: 0x1E8C58C
     void OnDestroy();
     // public System.Void Refresh()
-    // Offset: 0x1021C40
+    // Offset: 0x1E8C714
     void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1021DA8
+    // Offset: 0x1E8C87C
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x102200C
+    // Offset: 0x1E8CAE0
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0x10221F8
+    // Offset: 0x1E8CCCC
     void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
     // public System.Void .ctor()
-    // Offset: 0x10221F0
+    // Offset: 0x1E8CCC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

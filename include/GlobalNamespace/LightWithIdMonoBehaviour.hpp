@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: ILightWithId
@@ -41,7 +42,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: _ID and: lightManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xDE1374
+    // [InjectAttribute] Offset: 0xE8EF90
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x20
@@ -75,37 +76,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isRegistered
     void _set__isRegistered(bool value);
     // public System.Int32 get_lightId()
-    // Offset: 0x1DF401C
+    // Offset: 0x1966BFC
     int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1DF4024
+    // Offset: 0x1966C04
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1DF402C
+    // Offset: 0x1966C0C
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1DF4038
+    // Offset: 0x1966C18
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFF
     void ColorWasSet(UnityEngine::Color color);
     // protected System.Void OnEnable()
-    // Offset: 0x1DF4040
+    // Offset: 0x1966C20
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1DF40D8
+    // Offset: 0x1966CB8
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1DF40DC
+    // Offset: 0x1966CBC
     void OnDisable();
     // private System.Void RegisterLight()
-    // Offset: 0x1DF4044
+    // Offset: 0x1966C24
     void RegisterLight();
     // public System.Void SetLightId(System.Int32 newLightId)
-    // Offset: 0x1DF4170
+    // Offset: 0x1966D50
     void SetLightId(int newLightId);
     // protected System.Void .ctor()
-    // Offset: 0x1DECE18
+    // Offset: 0x195F9F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

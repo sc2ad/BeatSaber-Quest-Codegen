@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.ColorTween
 #include "UnityEngine/UI/CoroutineTween/ColorTween.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -25,7 +26,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // Creating value type constructor for type: ColorTweenCallback
     ColorTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x140F53C
+    // Offset: 0x11B819C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

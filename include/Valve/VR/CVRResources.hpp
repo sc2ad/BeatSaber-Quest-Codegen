@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Valve.VR.IVRResources
 #include "Valve/VR/IVRResources.hpp"
 // Including type: System.IntPtr
@@ -45,17 +46,17 @@ namespace Valve::VR {
     // Set instance field: private Valve.VR.IVRResources FnTable
     void _set_FnTable(Valve::VR::IVRResources value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16BE30C
+    // Offset: 0x13C09C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRResources* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRResources*, creationType>(pInterface)));
     }
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x16BE40C
+    // Offset: 0x13C0AC8
     uint LoadSharedResource(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
     // public System.UInt32 GetResourceFullPath(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x16BE428
+    // Offset: 0x13C0AE4
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // Valve.VR.CVRResources
   #pragma pack(pop)

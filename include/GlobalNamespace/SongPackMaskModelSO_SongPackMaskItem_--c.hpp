@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongPackMaskModelSO/SongPackMaskItem
 #include "GlobalNamespace/SongPackMaskModelSO_SongPackMaskItem.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,25 +73,25 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapLevelPackCollectionSO,System.Collections.Generic.IEnumerable`1<System.String>> <>9__11_3
     static void _set_$$9__11_3(System::Func_2<GlobalNamespace::BeatmapLevelPackCollectionSO*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x105A990
+    // Offset: 0x1EC5464
     static void _cctor();
     // System.String <get_songPackMask>b__11_0(IBeatmapLevelPack pack)
-    // Offset: 0x105A9FC
+    // Offset: 0x1EC54D0
     ::Il2CppString* $get_songPackMask$b__11_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // System.String <get_songPackMask>b__11_1(BeatmapLevelPackSO pack)
-    // Offset: 0x105AAA8
+    // Offset: 0x1EC557C
     ::Il2CppString* $get_songPackMask$b__11_1(GlobalNamespace::BeatmapLevelPackSO* pack);
     // System.String <get_songPackMask>b__11_2(PreviewBeatmapLevelPackSO pack)
-    // Offset: 0x105AAC0
+    // Offset: 0x1EC5594
     ::Il2CppString* $get_songPackMask$b__11_2(GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
     // System.Collections.Generic.IEnumerable`1<System.String> <get_songPackMask>b__11_3(BeatmapLevelPackCollectionSO collection)
-    // Offset: 0x105AAD8
+    // Offset: 0x1EC55AC
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* $get_songPackMask$b__11_3(GlobalNamespace::BeatmapLevelPackCollectionSO* collection);
     // System.String <get_songPackMask>b__11_4(IBeatmapLevelPack pack)
-    // Offset: 0x105ABE4
+    // Offset: 0x1EC56B8
     ::Il2CppString* $get_songPackMask$b__11_4(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x105A9F4
+    // Offset: 0x1EC54C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

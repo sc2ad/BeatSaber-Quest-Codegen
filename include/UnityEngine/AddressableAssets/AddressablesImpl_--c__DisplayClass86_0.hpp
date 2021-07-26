@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AddressablesImpl
 #include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,10 +59,10 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: public System.Collections.IEnumerable keys
     void _set_keys(System::Collections::IEnumerable* value);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> <GetDownloadSizeWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x13C3C48
+    // Offset: 0x116C8A8
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> $GetDownloadSizeWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x13C0368
+    // Offset: 0x1168FC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

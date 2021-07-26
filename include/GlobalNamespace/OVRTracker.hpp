@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -29,34 +30,34 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRTracker
     OVRTracker() noexcept {}
     // public System.Boolean get_isPresent()
-    // Offset: 0x1EF0DC8
+    // Offset: 0x1A07A68
     bool get_isPresent();
     // public System.Boolean get_isPositionTracked()
-    // Offset: 0x1EF0E64
+    // Offset: 0x1A07B04
     bool get_isPositionTracked();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x1EF0EC4
+    // Offset: 0x1A07B64
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x1EF0F60
+    // Offset: 0x1A07C00
     void set_isEnabled(bool value);
     // public System.Int32 get_count()
-    // Offset: 0x1EF1000
+    // Offset: 0x1A07CA0
     int get_count();
     // public OVRTracker/Frustum GetFrustum(System.Int32 tracker)
-    // Offset: 0x1EF117C
+    // Offset: 0x1A07E1C
     GlobalNamespace::OVRTracker::Frustum GetFrustum(int tracker);
     // public OVRPose GetPose(System.Int32 tracker)
-    // Offset: 0x1EF122C
+    // Offset: 0x1A07ECC
     GlobalNamespace::OVRPose GetPose(int tracker);
     // public System.Boolean GetPoseValid(System.Int32 tracker)
-    // Offset: 0x1EF14C0
+    // Offset: 0x1A08160
     bool GetPoseValid(int tracker);
     // public System.Boolean GetPresent(System.Int32 tracker)
-    // Offset: 0x1EF1040
+    // Offset: 0x1A07CE0
     bool GetPresent(int tracker);
     // public System.Void .ctor()
-    // Offset: 0x1EF15FC
+    // Offset: 0x1A0829C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

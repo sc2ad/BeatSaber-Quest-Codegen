@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 #include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 // Including type: System.IDisposable
@@ -85,56 +86,56 @@ namespace System::Runtime::InteropServices {
     // Set instance field: private System.Boolean _fullyInitialized
     void _set__fullyInitialized(bool value);
     // public System.Boolean get_IsClosed()
-    // Offset: 0x13F2D68
+    // Offset: 0x119B9C8
     bool get_IsClosed();
     // public System.Boolean get_IsInvalid()
     // Offset: 0xFFFFFFFF
     bool get_IsInvalid();
     // protected System.Void .ctor(System.IntPtr invalidHandleValue, System.Boolean ownsHandle)
-    // Offset: 0x13F2C3C
+    // Offset: 0x119B89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeHandle* New_ctor(System::IntPtr invalidHandleValue, bool ownsHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::SafeHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeHandle*, creationType>(invalidHandleValue, ownsHandle)));
     }
     // protected System.Void SetHandle(System.IntPtr handle)
-    // Offset: 0x13F2D58
+    // Offset: 0x119B9B8
     void SetHandle(System::IntPtr handle);
     // public System.IntPtr DangerousGetHandle()
-    // Offset: 0x13F2D60
+    // Offset: 0x119B9C0
     System::IntPtr DangerousGetHandle();
     // public System.Void Close()
-    // Offset: 0x13F2D74
+    // Offset: 0x119B9D4
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x13F2D84
+    // Offset: 0x119B9E4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13F2D94
+    // Offset: 0x119B9F4
     void Dispose(bool disposing);
     // protected System.Boolean ReleaseHandle()
     // Offset: 0xFFFFFFFF
     bool ReleaseHandle();
     // public System.Void SetHandleAsInvalid()
-    // Offset: 0x13F2E70
+    // Offset: 0x119BAD0
     void SetHandleAsInvalid();
     // public System.Void DangerousAddRef(ref System.Boolean success)
-    // Offset: 0x13F2AD0
-    void DangerousAddRef(bool& success);
+    // Offset: 0x119B730
+    void DangerousAddRef(ByRef<bool> success);
     // public System.Void DangerousRelease()
-    // Offset: 0x13F2C34
+    // Offset: 0x119B894
     void DangerousRelease();
     // private System.Void InternalDispose()
-    // Offset: 0x13F2DB0
+    // Offset: 0x119BA10
     void InternalDispose();
     // private System.Void InternalFinalize()
-    // Offset: 0x13F2E5C
+    // Offset: 0x119BABC
     void InternalFinalize();
     // private System.Void DangerousReleaseInternal(System.Boolean dispose)
-    // Offset: 0x13F2F04
+    // Offset: 0x119BB64
     void DangerousReleaseInternal(bool dispose);
     // protected override System.Void Finalize()
-    // Offset: 0x13F2CE4
+    // Offset: 0x119B944
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::DangerousAddRef
 // Il2CppName: DangerousAddRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(bool&)>(&System::Runtime::InteropServices::SafeHandle::DangerousAddRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(ByRef<bool>)>(&System::Runtime::InteropServices::SafeHandle::DangerousAddRef)> {
   static const MethodInfo* get() {
     static auto* success = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "DangerousAddRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{success});

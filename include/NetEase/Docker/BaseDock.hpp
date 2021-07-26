@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetEase.Docker.IDock
 #include "NetEase/Docker/IDock.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,28 +35,28 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseDock : public ::Il2CppObject/*, public NetEase::Docker::IDock*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDEE108
+    // [DebuggerBrowsableAttribute] Offset: 0xE9BD24
     // private System.Action`1<NetEase.Docker.InitializeData> OnInitFinished
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<NetEase::Docker::InitializeData>* OnInitFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::InitializeData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEE144
+    // [DebuggerBrowsableAttribute] Offset: 0xE9BD60
     // private System.Action`1<NetEase.Docker.LoginData> OnLoginFinished
     // Size: 0x8
     // Offset: 0x18
     System::Action_1<NetEase::Docker::LoginData>* OnLoginFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::LoginData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEE180
+    // [DebuggerBrowsableAttribute] Offset: 0xE9BD9C
     // private System.Action`1<NetEase.Docker.LogoutData> OnLogoutFinished
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<NetEase::Docker::LogoutData>* OnLogoutFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::LogoutData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEE1BC
+    // [DebuggerBrowsableAttribute] Offset: 0xE9BDD8
     // private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
     // Size: 0x8
     // Offset: 0x28
@@ -85,40 +86,40 @@ namespace NetEase::Docker {
     // Set instance field: private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
     void _set_OnHighscoreReceived(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* value);
     // public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
-    // Offset: 0x23C23E8
+    // Offset: 0x1E399E0
     void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
     // public System.Void Initialize()
-    // Offset: 0x23C23F0
+    // Offset: 0x1E399E8
     void Initialize();
     // public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
-    // Offset: 0x23C2454
+    // Offset: 0x1E39A4C
     void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
     // public System.Void Login()
-    // Offset: 0x23C245C
+    // Offset: 0x1E39A54
     void Login();
     // public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
-    // Offset: 0x23C24CC
+    // Offset: 0x1E39AC4
     void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
     // public System.Void Logout()
-    // Offset: 0x23C24D4
+    // Offset: 0x1E39ACC
     void Logout();
     // public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x23C2538
+    // Offset: 0x1E39B30
     void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // public System.Boolean WillProvideHighscore()
-    // Offset: 0x23C253C
+    // Offset: 0x1E39B34
     bool WillProvideHighscore();
     // public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x23C2544
+    // Offset: 0x1E39B3C
     void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x23C254C
+    // Offset: 0x1E39B44
     void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // public System.Void UpdateLoop()
-    // Offset: 0x23C271C
+    // Offset: 0x1E39D14
     void UpdateLoop();
     // public System.Void .ctor()
-    // Offset: 0x23C2720
+    // Offset: 0x1E39D18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

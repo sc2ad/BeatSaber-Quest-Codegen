@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightPairRotationEventEffect
 #include "GlobalNamespace/LightPairRotationEventEffect.hpp"
 // Including type: UnityEngine.Quaternion
@@ -93,7 +94,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single rotationAngle
     void _set_rotationAngle(float value);
     // public System.Void .ctor()
-    // Offset: 0x11B6B54
+    // Offset: 0x1FE5598
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

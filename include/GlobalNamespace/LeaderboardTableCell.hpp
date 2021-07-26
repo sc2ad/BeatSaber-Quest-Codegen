@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 // Including type: UnityEngine.Color
@@ -106,25 +107,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _separatorImage
     void _set__separatorImage(UnityEngine::UI::Image* value);
     // public System.Void set_rank(System.Int32 value)
-    // Offset: 0x10F0194
+    // Offset: 0x1F421A8
     void set_rank(int value);
     // public System.Void set_playerName(System.String value)
-    // Offset: 0x10F01D8
+    // Offset: 0x1F421EC
     void set_playerName(::Il2CppString* value);
     // public System.Void set_score(System.Int32 value)
-    // Offset: 0x10F01F4
+    // Offset: 0x1F42208
     void set_score(int value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x10F0298
+    // Offset: 0x1F422AC
     void set_showSeparator(bool value);
     // public System.Void set_showFullCombo(System.Boolean value)
-    // Offset: 0x10F02B8
+    // Offset: 0x1F422CC
     void set_showFullCombo(bool value);
     // public System.Void set_specialScore(System.Boolean value)
-    // Offset: 0x10F02D8
+    // Offset: 0x1F422EC
     void set_specialScore(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10F03DC
+    // Offset: 0x1F423F0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

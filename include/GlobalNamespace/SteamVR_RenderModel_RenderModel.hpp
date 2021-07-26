@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_RenderModel
 #include "GlobalNamespace/SteamVR_RenderModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,19 +52,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material <material>k__BackingField
     void _set_$material$k__BackingField(UnityEngine::Material* value);
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x13B3454
+    // Offset: 0x115B0B4
     UnityEngine::Mesh* get_mesh();
     // private System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x13B345C
+    // Offset: 0x115B0BC
     void set_mesh(UnityEngine::Mesh* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0x13B3464
+    // Offset: 0x115B0C4
     UnityEngine::Material* get_material();
     // private System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x13B346C
+    // Offset: 0x115B0CC
     void set_material(UnityEngine::Material* value);
     // public System.Void .ctor(UnityEngine.Mesh mesh, UnityEngine.Material material)
-    // Offset: 0x13B2310
+    // Offset: 0x1159F70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::RenderModel* New_ctor(UnityEngine::Mesh* mesh, UnityEngine::Material* material) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_RenderModel::RenderModel::.ctor");

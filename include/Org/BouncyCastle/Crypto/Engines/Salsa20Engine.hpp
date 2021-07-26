@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IStreamCipher
 #include "Org/BouncyCastle/Crypto/IStreamCipher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -96,12 +97,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::Array<uint>* _get_TAU_SIGMA();
     // Set static field: static private readonly System.UInt32[] TAU_SIGMA
     static void _set_TAU_SIGMA(::Array<uint>* value);
-    // [ObsoleteAttribute] Offset: 0xDCE5EC
+    // [ObsoleteAttribute] Offset: 0xE7B208
     // Get static field: static protected readonly System.Byte[] sigma
     static ::Array<uint8_t>* _get_sigma();
     // Set static field: static protected readonly System.Byte[] sigma
     static void _set_sigma(::Array<uint8_t>* value);
-    // [ObsoleteAttribute] Offset: 0xDCE5FC
+    // [ObsoleteAttribute] Offset: 0xE7B218
     // Get static field: static protected readonly System.Byte[] tau
     static ::Array<uint8_t>* _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
@@ -143,56 +144,56 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.UInt32 cW2
     void _set_cW2(uint value);
     // protected System.Int32 get_NonceSize()
-    // Offset: 0x1E54764
+    // Offset: 0x19B49F8
     int get_NonceSize();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E5476C
+    // Offset: 0x19B4A00
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor(System.Int32 rounds)
-    // Offset: 0x1E54318
+    // Offset: 0x19B45AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Salsa20Engine* New_ctor(int rounds) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>(rounds)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E55520
+    // Offset: 0x19B57B4
     static void _cctor();
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
-    // Offset: 0x1E54114
+    // Offset: 0x19B43A8
     void PackTauOrSigma(int keyLength, ::Array<uint>* state, int stateOffset);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E54404
+    // Offset: 0x19B4698
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Void AdvanceCounter()
-    // Offset: 0x1E54840
+    // Offset: 0x19B4AD4
     void AdvanceCounter();
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E548A4
+    // Offset: 0x19B4B38
     void ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E54B44
+    // Offset: 0x19B4DD8
     void Reset();
     // protected System.Void ResetCounter()
-    // Offset: 0x1E54B6C
+    // Offset: 0x19B4E00
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1E54BA4
+    // Offset: 0x19B4E38
     void SetKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x1E54E0C
+    // Offset: 0x19B50A0
     void GenerateKeyStream(::Array<uint8_t>* output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x1E54EA8
+    // Offset: 0x19B513C
     static void SalsaCore(int rounds, ::Array<uint>* input, ::Array<uint>* x);
     // private System.Void ResetLimitCounter()
-    // Offset: 0x1E54B60
+    // Offset: 0x19B4DF4
     void ResetLimitCounter();
     // private System.Boolean LimitExceeded(System.UInt32 len)
-    // Offset: 0x1E54B08
+    // Offset: 0x19B4D9C
     bool LimitExceeded(uint len);
     // public System.Void .ctor()
-    // Offset: 0x1E542A8
+    // Offset: 0x19B453C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

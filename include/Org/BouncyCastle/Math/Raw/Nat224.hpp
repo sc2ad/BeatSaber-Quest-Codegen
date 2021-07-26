@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -23,67 +24,67 @@ namespace Org::BouncyCastle::Math::Raw {
     // Creating value type constructor for type: Nat224
     Nat224() noexcept {}
     // static public System.UInt32 Add(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x133A278
+    // Offset: 0x10E0ED8
     static uint Add(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
     // static public System.UInt32 AddBothTo(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x133A420
+    // Offset: 0x10E1080
     static uint AddBothTo(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
     // static public System.Void Copy(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x133A600
+    // Offset: 0x10E1260
     static void Copy(::Array<uint>* x, ::Array<uint>* z);
     // static public System.Void Copy(System.UInt32[] x, System.Int32 xOff, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x133A6E8
+    // Offset: 0x10E1348
     static void Copy(::Array<uint>* x, int xOff, ::Array<uint>* z, int zOff);
     // static public System.UInt32[] Create()
-    // Offset: 0x133A858
+    // Offset: 0x10E14B8
     static ::Array<uint>* Create();
     // static public System.UInt32[] CreateExt()
-    // Offset: 0x133A8A4
+    // Offset: 0x10E1504
     static ::Array<uint>* CreateExt();
     // static public System.Boolean Eq(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x133A8F0
+    // Offset: 0x10E1550
     static bool Eq(::Array<uint>* x, ::Array<uint>* y);
     // static public System.UInt32[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x133A960
+    // Offset: 0x10E15C0
     static ::Array<uint>* FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
     // static public System.UInt32 GetBit(System.UInt32[] x, System.Int32 bit)
-    // Offset: 0x133AA64
+    // Offset: 0x10E16C4
     static uint GetBit(::Array<uint>* x, int bit);
     // static public System.Boolean Gte(System.UInt32[] x, System.UInt32[] y)
-    // Offset: 0x133AADC
+    // Offset: 0x10E173C
     static bool Gte(::Array<uint>* x, ::Array<uint>* y);
     // static public System.Boolean IsOne(System.UInt32[] x)
-    // Offset: 0x133AB58
+    // Offset: 0x10E17B8
     static bool IsOne(::Array<uint>* x);
     // static public System.Boolean IsZero(System.UInt32[] x)
-    // Offset: 0x133ABC4
+    // Offset: 0x10E1824
     static bool IsZero(::Array<uint>* x);
     // static public System.Void Mul(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x133AC24
+    // Offset: 0x10E1884
     static void Mul(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* zz);
     // static public System.UInt32 MulAddTo(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x133AE44
+    // Offset: 0x10E1AA4
     static uint MulAddTo(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* zz);
     // static public System.UInt64 Mul33Add(System.UInt32 w, System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x133AFE4
+    // Offset: 0x10E1C44
     static uint64_t Mul33Add(uint w, ::Array<uint>* x, int xOff, ::Array<uint>* y, int yOff, ::Array<uint>* z, int zOff);
     // static public System.UInt32 Mul33DWordAdd(System.UInt32 x, System.UInt64 y, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x133B268
+    // Offset: 0x10E1EC8
     static uint Mul33DWordAdd(uint x, uint64_t y, ::Array<uint>* z, int zOff);
     // static public System.UInt32 Mul33WordAdd(System.UInt32 x, System.UInt32 y, System.UInt32[] z, System.Int32 zOff)
-    // Offset: 0x133B348
+    // Offset: 0x10E1FA8
     static uint Mul33WordAdd(uint x, uint y, ::Array<uint>* z, int zOff);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] zz)
-    // Offset: 0x133B3FC
+    // Offset: 0x10E205C
     static void Square(::Array<uint>* x, ::Array<uint>* zz);
     // static public System.Int32 Sub(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x133B750
+    // Offset: 0x10E23B0
     static int Sub(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
     // static public System.Int32 SubFrom(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x133B8F8
+    // Offset: 0x10E2558
     static int SubFrom(::Array<uint>* x, ::Array<uint>* z);
     // static public Org.BouncyCastle.Math.BigInteger ToBigInteger(System.UInt32[] x)
-    // Offset: 0x133BA4C
+    // Offset: 0x10E26AC
     static Org::BouncyCastle::Math::BigInteger* ToBigInteger(::Array<uint>* x);
   }; // Org.BouncyCastle.Math.Raw.Nat224
   #pragma pack(pop)

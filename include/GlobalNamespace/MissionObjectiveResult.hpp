@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -59,25 +60,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 <value>k__BackingField
     void _set_$value$k__BackingField(int value);
     // public MissionObjective get_missionObjective()
-    // Offset: 0x1138038
+    // Offset: 0x1F68A4C
     GlobalNamespace::MissionObjective* get_missionObjective();
     // private System.Void set_missionObjective(MissionObjective value)
-    // Offset: 0x1138040
+    // Offset: 0x1F68A54
     void set_missionObjective(GlobalNamespace::MissionObjective* value);
     // public System.Boolean get_cleared()
-    // Offset: 0x1138048
+    // Offset: 0x1F68A5C
     bool get_cleared();
     // private System.Void set_cleared(System.Boolean value)
-    // Offset: 0x1138050
+    // Offset: 0x1F68A64
     void set_cleared(bool value);
     // public System.Int32 get_value()
-    // Offset: 0x113805C
+    // Offset: 0x1F68A70
     int get_value();
     // private System.Void set_value(System.Int32 value)
-    // Offset: 0x1138064
+    // Offset: 0x1F68A78
     void set_value(int value);
     // public System.Void .ctor(MissionObjective missionObjective, System.Boolean cleared, System.Int32 value)
-    // Offset: 0x1137ADC
+    // Offset: 0x1F684F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveResult* New_ctor(GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveResult::.ctor");

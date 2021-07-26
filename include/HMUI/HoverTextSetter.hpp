@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IPointerEnterHandler
@@ -68,22 +69,22 @@ namespace HMUI {
     // Set instance field: private System.String _text
     void _set__text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x1311734
+    // Offset: 0x10D36A4
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x131173C
+    // Offset: 0x10D36AC
     void set_text(::Il2CppString* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1311744
+    // Offset: 0x10D36B4
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1311764
+    // Offset: 0x10D36D4
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x131177C
+    // Offset: 0x10D36EC
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1311794
+    // Offset: 0x10D3704
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

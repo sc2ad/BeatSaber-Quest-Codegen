@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,23 +53,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set instance field: private System.Collections.IEnumerator enumerator
     void _set_enumerator(System::Collections::IEnumerator* value);
     // public System.Security.Cryptography.X509Certificates.X509ChainElement get_Current()
-    // Offset: 0x182E4D4
+    // Offset: 0x14FF8D8
     System::Security::Cryptography::X509Certificates::X509ChainElement* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x182E5C8
+    // Offset: 0x14FF9CC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Collections.IEnumerable enumerable)
-    // Offset: 0x182E1E0
+    // Offset: 0x14FF5E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainElementEnumerator* New_ctor(System::Collections::IEnumerable* enumerable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainElementEnumerator*, creationType>(enumerable)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x182E67C
+    // Offset: 0x14FFA80
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x182E72C
+    // Offset: 0x14FFB30
     void Reset();
   }; // System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator
   #pragma pack(pop)

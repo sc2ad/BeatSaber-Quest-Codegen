@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,22 +35,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _startAudioListenerPauseState
     void _set__startAudioListenerPauseState(bool value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x10DC01C
+    // Offset: 0x1F2D030
     bool get_isPaused();
     // protected System.Void Awake()
-    // Offset: 0x10DC024
+    // Offset: 0x1F2D038
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10DC050
+    // Offset: 0x1F2D064
     void OnDestroy();
     // public System.Void Pause()
-    // Offset: 0x10DC05C
+    // Offset: 0x1F2D070
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x10DC068
+    // Offset: 0x1F2D07C
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x10DC074
+    // Offset: 0x1F2D088
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

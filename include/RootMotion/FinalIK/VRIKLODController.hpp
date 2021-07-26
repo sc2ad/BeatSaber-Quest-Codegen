@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -78,16 +79,16 @@ namespace RootMotion::FinalIK {
     // Set instance field: private RootMotion.FinalIK.VRIK ik
     void _set_ik(RootMotion::FinalIK::VRIK* value);
     // private System.Void Start()
-    // Offset: 0x1AC37D0
+    // Offset: 0x173B020
     void Start();
     // private System.Void Update()
-    // Offset: 0x1AC3828
+    // Offset: 0x173B078
     void Update();
     // private System.Int32 GetLODLevel()
-    // Offset: 0x1AC385C
+    // Offset: 0x173B0AC
     int GetLODLevel();
     // public System.Void .ctor()
-    // Offset: 0x1AC39E4
+    // Offset: 0x173B234
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

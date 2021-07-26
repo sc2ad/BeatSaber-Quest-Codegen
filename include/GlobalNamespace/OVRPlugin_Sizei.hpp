@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -49,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 h
     void _set_h(int value);
     // static private System.Void .cctor()
-    // Offset: 0x15F71EC
+    // Offset: 0x12FA7BC
     static void _cctor();
   }; // OVRPlugin/Sizei
   #pragma pack(pop)

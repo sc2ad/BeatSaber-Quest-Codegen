@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.SelectableCell
@@ -34,7 +35,7 @@ namespace HMUI {
     HMUI::SelectableCell* selectableCell;
     // Field size check
     static_assert(sizeof(HMUI::SelectableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDE42C0
+    // [SpaceAttribute] Offset: 0xE91EDC
     // private UnityEngine.AnimationClip _normalAnimationClip
     // Size: 0x8
     // Offset: 0x20
@@ -84,25 +85,25 @@ namespace HMUI {
     // Set instance field: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
     void _set__selectedAndHighlightedAnimationClip(UnityEngine::AnimationClip* value);
     // protected System.Void Awake()
-    // Offset: 0x129CAFC
+    // Offset: 0x1072238
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x129CBD4
+    // Offset: 0x1072310
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x129CC48
+    // Offset: 0x1072384
     void OnDestroy();
     // private System.Void HandleSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x129CD20
+    // Offset: 0x107245C
     void HandleSelectionDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // private System.Void HandleHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x129CD24
+    // Offset: 0x1072460
     void HandleHighlightDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void RefreshVisuals()
-    // Offset: 0x129CBD8
+    // Offset: 0x1072314
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x129CD28
+    // Offset: 0x1072464
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -289,14 +290,14 @@ namespace UnityEngine {
     static UnityEngine::TextureFormat _get_ASTC_12x12();
     // Set static field: static public UnityEngine.TextureFormat ASTC_12x12
     static void _set_ASTC_12x12(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xD80A7C
+    // [ObsoleteAttribute] Offset: 0xE2D698
     // static field const value: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static constexpr const int ETC_RGB4_3DS = 60;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static UnityEngine::TextureFormat _get_ETC_RGB4_3DS();
     // Set static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static void _set_ETC_RGB4_3DS(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xD80AB4
+    // [ObsoleteAttribute] Offset: 0xE2D6D0
     // static field const value: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
     static constexpr const int ETC_RGBA8_3DS = 61;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGBA8_3DS

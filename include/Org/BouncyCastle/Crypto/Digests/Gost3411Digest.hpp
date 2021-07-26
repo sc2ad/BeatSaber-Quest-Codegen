@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IDigest
 #include "Org/BouncyCastle/Crypto/IDigest.hpp"
 // Including type: Org.BouncyCastle.Utilities.IMemoable
@@ -225,74 +226,74 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set instance field: System.Byte[] W
     void _set_W(::Array<uint8_t>* value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1D072BC
+    // Offset: 0x188CA50
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411Digest t)
-    // Offset: 0x1D06E58
+    // Offset: 0x188C5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Gost3411Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411Digest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D07FB0
+    // Offset: 0x188D744
     static void _cctor();
     // static private System.Byte[][] MakeC()
-    // Offset: 0x1D069A8
+    // Offset: 0x188C13C
     static ::Array<::Array<uint8_t>*>* MakeC();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1D07304
+    // Offset: 0x188CA98
     int GetDigestSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1D0730C
+    // Offset: 0x188CAA0
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1D07760
+    // Offset: 0x188CEF4
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // private System.Byte[] P(System.Byte[] input)
-    // Offset: 0x1D078A8
+    // Offset: 0x188D03C
     ::Array<uint8_t>* P(::Array<uint8_t>* input);
     // private System.Byte[] A(System.Byte[] input)
-    // Offset: 0x1D079C8
+    // Offset: 0x188D15C
     ::Array<uint8_t>* A(::Array<uint8_t>* input);
     // private System.Void E(System.Byte[] key, System.Byte[] s, System.Int32 sOff, System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1D07A94
+    // Offset: 0x188D228
     void E(::Array<uint8_t>* key, ::Array<uint8_t>* s, int sOff, ::Array<uint8_t>* input, int inOff);
     // private System.Void fw(System.Byte[] input)
-    // Offset: 0x1D07C18
+    // Offset: 0x188D3AC
     void fw(::Array<uint8_t>* input);
     // private System.Void processBlock(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1D07424
+    // Offset: 0x188CBB8
     void processBlock(::Array<uint8_t>* input, int inOff);
     // private System.Void finish()
-    // Offset: 0x1D07E8C
+    // Offset: 0x188D620
     void finish();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1D07EF0
+    // Offset: 0x188D684
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1D06CE0
+    // Offset: 0x188C474
     void Reset();
     // private System.Void sumByteArray(System.Byte[] input)
-    // Offset: 0x1D073A0
+    // Offset: 0x188CB34
     void sumByteArray(::Array<uint8_t>* input);
     // static private System.Void cpyBytesToShort(System.Byte[] S, System.Int16[] wS)
-    // Offset: 0x1D07D40
+    // Offset: 0x188D4D4
     static void cpyBytesToShort(::Array<uint8_t>* S, ::Array<int16_t>* wS);
     // static private System.Void cpyShortToBytes(System.Int16[] wS, System.Byte[] S)
-    // Offset: 0x1D07DE4
+    // Offset: 0x188D578
     static void cpyShortToBytes(::Array<int16_t>* wS, ::Array<uint8_t>* S);
     // public System.Int32 GetByteLength()
-    // Offset: 0x1D07F48
+    // Offset: 0x188D6DC
     int GetByteLength();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1D07F50
+    // Offset: 0x188D6E4
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1D06FE0
+    // Offset: 0x188C774
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
     // public System.Void .ctor()
-    // Offset: 0x1D06A88
+    // Offset: 0x188C21C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

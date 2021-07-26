@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.TimelineClip
 #include "UnityEngine/Timeline/TimelineClip.hpp"
 // Completed includes
@@ -18,7 +19,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineClipUpgrade
     TimelineClipUpgrade() noexcept {}
     // static public System.Void UpgradeClipInFromGlobalToLocal(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x23161CC
+    // Offset: 0x1DA4CAC
     static void UpgradeClipInFromGlobalToLocal(UnityEngine::Timeline::TimelineClip* clip);
   }; // UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.TimelineClipUpgrade
   #pragma pack(pop)

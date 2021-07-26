@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPlayerBase* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPlayerBase*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFF5F0
+    // [InjectAttribute] Offset: 0xEAC20C
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -54,19 +55,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IVRPlatformHelper _vrPlatformHelper
     void _set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper* value);
     // protected System.Void Start()
-    // Offset: 0x105C458
+    // Offset: 0x1EC6F2C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x105C6BC
+    // Offset: 0x1EC7190
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x105C668
+    // Offset: 0x1EC713C
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x105C858
+    // Offset: 0x1EC732C
     void HandleInputFocusReleased();
     // public System.Void .ctor()
-    // Offset: 0x105C8AC
+    // Offset: 0x1EC7380
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

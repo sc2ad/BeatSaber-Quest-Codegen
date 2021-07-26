@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -36,8 +37,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestColor and: testColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xDE1AA8
-    // [ColorUsageAttribute] Offset: 0xDE1AA8
+    // [DrawIfAttribute] Offset: 0xE8F6C4
+    // [ColorUsageAttribute] Offset: 0xE8F6C4
     // private UnityEngine.Color _testColor
     // Size: 0x10
     // Offset: 0x1C
@@ -99,28 +100,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isInitialized
     void _set__isInitialized(bool value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DF5C14
+    // Offset: 0x19687F4
     UnityEngine::Color get_color();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x1DF5C4C
+    // Offset: 0x196882C
     GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1DF5C54
+    // Offset: 0x1968834
     void set_materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // protected System.Void Awake()
-    // Offset: 0x1DF5C5C
+    // Offset: 0x196883C
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1DF5C9C
+    // Offset: 0x196887C
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1DF5CDC
+    // Offset: 0x19688BC
     void SetColor(UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0x1DF5D70
+    // Offset: 0x1968950
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1DF5DC0
+    // Offset: 0x19689A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

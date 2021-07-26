@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LobbyGameStateController
 #include "GlobalNamespace/LobbyGameStateController.hpp"
 // Including type: MultiplayerGameState
@@ -70,16 +71,16 @@ namespace GlobalNamespace {
     // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
     void _set_getPlayerPermissionAsyncTcs(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
-    // Offset: 0x11BEDE8
+    // Offset: 0x1FED82C
     void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::Il2CppString* userId, GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x11BF040
+    // Offset: 0x1FEDA84
     void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::Il2CppString* userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
-    // Offset: 0x11BF224
+    // Offset: 0x1FEDC68
     bool $GetGameStateAndConfigurationAsync$b__2(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
     // public System.Void .ctor()
-    // Offset: 0x11BD5FC
+    // Offset: 0x1FEC040
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

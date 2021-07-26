@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Graphic
 #include "UnityEngine/UI/Graphic.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace HMUI {
     // Set instance field: private System.Single _skew
     void _set__skew(float value);
     // public System.Single get_skew()
-    // Offset: 0x12A37C4
+    // Offset: 0x1078F00
     float get_skew();
     // public System.Void .ctor()
-    // Offset: 0x12A37E8
+    // Offset: 0x1078F24
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -59,7 +60,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<Touchable*, creationType>()));
     }
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x12A37CC
+    // Offset: 0x1078F08
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);

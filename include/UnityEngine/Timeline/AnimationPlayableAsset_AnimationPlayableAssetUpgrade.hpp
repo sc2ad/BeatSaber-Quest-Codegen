@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.AnimationPlayableAsset
 #include "UnityEngine/Timeline/AnimationPlayableAsset.hpp"
 // Completed includes
@@ -18,7 +19,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: AnimationPlayableAssetUpgrade
     AnimationPlayableAssetUpgrade() noexcept {}
     // static public System.Void ConvertRotationToEuler(UnityEngine.Timeline.AnimationPlayableAsset asset)
-    // Offset: 0x17DC464
+    // Offset: 0x14AC868
     static void ConvertRotationToEuler(UnityEngine::Timeline::AnimationPlayableAsset* asset);
   }; // UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.AnimationPlayableAssetUpgrade
   #pragma pack(pop)

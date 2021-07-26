@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -34,13 +35,13 @@ namespace Org::BouncyCastle::X509 {
     // Set static field: static private readonly Org.BouncyCastle.Asn1.Asn1Null derNull
     static void _set_derNull(Org::BouncyCastle::Asn1::Asn1Null* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F8365C
+    // Offset: 0x1A6951C
     static void _cctor();
     // static System.String GetSignatureName(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId)
-    // Offset: 0x1F7EB40
+    // Offset: 0x1A64A00
     static ::Il2CppString* GetSignatureName(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
     // static private System.String GetDigestAlgName(Org.BouncyCastle.Asn1.DerObjectIdentifier digestAlgOID)
-    // Offset: 0x1F8333C
+    // Offset: 0x1A691FC
     static ::Il2CppString* GetDigestAlgName(Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
   }; // Org.BouncyCastle.X509.X509SignatureUtilities
   #pragma pack(pop)

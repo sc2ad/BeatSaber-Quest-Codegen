@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Utilities.IO.BaseInputStream
 #include "Org/BouncyCastle/Utilities/IO/BaseInputStream.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -69,22 +70,22 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private System.IO.Stream _currentStream
     void _set__currentStream(System::IO::Stream* value);
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x16E0E14
+    // Offset: 0x13E34D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructedOctetStream* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::ConstructedOctetStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructedOctetStream*, creationType>(parser)));
     }
     // private Org.BouncyCastle.Asn1.Asn1OctetStringParser GetNextParser()
-    // Offset: 0x16E2FF0
+    // Offset: 0x13E56AC
     Org::BouncyCastle::Asn1::Asn1OctetStringParser* GetNextParser();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x16E2E04
+    // Offset: 0x13E54C0
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x16E3108
+    // Offset: 0x13E57C4
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();

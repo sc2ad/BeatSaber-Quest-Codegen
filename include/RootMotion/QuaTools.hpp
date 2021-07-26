@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,43 +26,43 @@ namespace RootMotion {
     // Creating value type constructor for type: QuaTools
     QuaTools() noexcept {}
     // static public UnityEngine.Quaternion Lerp(UnityEngine.Quaternion fromRotation, UnityEngine.Quaternion toRotation, System.Single weight)
-    // Offset: 0x1AC7760
+    // Offset: 0x173EFB0
     static UnityEngine::Quaternion Lerp(UnityEngine::Quaternion fromRotation, UnityEngine::Quaternion toRotation, float weight);
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion fromRotation, UnityEngine.Quaternion toRotation, System.Single weight)
-    // Offset: 0x1AC78AC
+    // Offset: 0x173F0FC
     static UnityEngine::Quaternion Slerp(UnityEngine::Quaternion fromRotation, UnityEngine::Quaternion toRotation, float weight);
     // static public UnityEngine.Quaternion LinearBlend(UnityEngine.Quaternion q, System.Single weight)
-    // Offset: 0x1AC79F8
+    // Offset: 0x173F248
     static UnityEngine::Quaternion LinearBlend(UnityEngine::Quaternion q, float weight);
     // static public UnityEngine.Quaternion SphericalBlend(UnityEngine.Quaternion q, System.Single weight)
-    // Offset: 0x1AC7B0C
+    // Offset: 0x173F35C
     static UnityEngine::Quaternion SphericalBlend(UnityEngine::Quaternion q, float weight);
     // static public UnityEngine.Quaternion FromToAroundAxis(UnityEngine.Vector3 fromDirection, UnityEngine.Vector3 toDirection, UnityEngine.Vector3 axis)
-    // Offset: 0x1AC7C20
+    // Offset: 0x173F470
     static UnityEngine::Quaternion FromToAroundAxis(UnityEngine::Vector3 fromDirection, UnityEngine::Vector3 toDirection, UnityEngine::Vector3 axis);
     // static public UnityEngine.Quaternion RotationToLocalSpace(UnityEngine.Quaternion space, UnityEngine.Quaternion rotation)
-    // Offset: 0x1AC7DAC
+    // Offset: 0x173F5FC
     static UnityEngine::Quaternion RotationToLocalSpace(UnityEngine::Quaternion space, UnityEngine::Quaternion rotation);
     // static public UnityEngine.Quaternion FromToRotation(UnityEngine.Quaternion from, UnityEngine.Quaternion to)
-    // Offset: 0x1AB9178
+    // Offset: 0x17309C8
     static UnityEngine::Quaternion FromToRotation(UnityEngine::Quaternion from, UnityEngine::Quaternion to);
     // static public UnityEngine.Vector3 GetAxis(UnityEngine.Vector3 v)
-    // Offset: 0x1AC7E7C
+    // Offset: 0x173F6CC
     static UnityEngine::Vector3 GetAxis(UnityEngine::Vector3 v);
     // static public UnityEngine.Quaternion ClampRotation(UnityEngine.Quaternion rotation, System.Single clampWeight, System.Int32 clampSmoothing)
-    // Offset: 0x1AC8100
+    // Offset: 0x173F950
     static UnityEngine::Quaternion ClampRotation(UnityEngine::Quaternion rotation, float clampWeight, int clampSmoothing);
     // static public System.Single ClampAngle(System.Single angle, System.Single clampWeight, System.Int32 clampSmoothing)
-    // Offset: 0x1AC8314
+    // Offset: 0x173FB64
     static float ClampAngle(float angle, float clampWeight, int clampSmoothing);
     // static public UnityEngine.Quaternion MatchRotation(UnityEngine.Quaternion targetRotation, UnityEngine.Vector3 targetforwardAxis, UnityEngine.Vector3 targetUpAxis, UnityEngine.Vector3 forwardAxis, UnityEngine.Vector3 upAxis)
-    // Offset: 0x1AC1C30
+    // Offset: 0x1739480
     static UnityEngine::Quaternion MatchRotation(UnityEngine::Quaternion targetRotation, UnityEngine::Vector3 targetforwardAxis, UnityEngine::Vector3 targetUpAxis, UnityEngine::Vector3 forwardAxis, UnityEngine::Vector3 upAxis);
     // static public UnityEngine.Vector3 ToBiPolar(UnityEngine.Vector3 euler)
-    // Offset: 0x1AC8494
+    // Offset: 0x173FCE4
     static UnityEngine::Vector3 ToBiPolar(UnityEngine::Vector3 euler);
     // static public System.Single ToBiPolar(System.Single angle)
-    // Offset: 0x1AC85A4
+    // Offset: 0x173FDF4
     static float ToBiPolar(float angle);
   }; // RootMotion.QuaTools
   #pragma pack(pop)

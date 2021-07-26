@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,7 +42,7 @@ namespace GlobalNamespace {
     // Set instance field: public AppInitScenesTransitionSetupDataSO appInitScenesTransitionSetupData
     void _set_appInitScenesTransitionSetupData(GlobalNamespace::AppInitScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
-    // Offset: 0x10DA338
+    // Offset: 0x1F2B34C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

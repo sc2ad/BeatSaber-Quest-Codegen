@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities.Encoders
 namespace Org::BouncyCastle::Utilities::Encoders {
@@ -16,7 +17,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Creating value type constructor for type: Base64
     Base64() noexcept {}
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1F7B1DC
+    // Offset: 0x1A6109C
     static ::Array<uint8_t>* Decode(::Il2CppString* data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
   #pragma pack(pop)

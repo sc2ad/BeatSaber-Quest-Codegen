@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -35,10 +36,10 @@ namespace Mono::Security::Interface {
     // Set static field: static private readonly System.Boolean supportsTrustAnchors
     static void _set_supportsTrustAnchors(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1DDDDC0
+    // Offset: 0x19509A0
     static void _cctor();
     // static Mono.Security.Interface.ICertificateValidator2 GetInternalValidator(Mono.Security.Interface.MonoTlsSettings settings, Mono.Security.Interface.MonoTlsProvider provider)
-    // Offset: 0x1DDDE34
+    // Offset: 0x1950A14
     static Mono::Security::Interface::ICertificateValidator2* GetInternalValidator(Mono::Security::Interface::MonoTlsSettings* settings, Mono::Security::Interface::MonoTlsProvider* provider);
   }; // Mono.Security.Interface.CertificateValidationHelper
   #pragma pack(pop)

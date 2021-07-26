@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.WTauNafMultiplier
 #include "Org/BouncyCastle/Math/EC/Multiplier/WTauNafMultiplier.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
@@ -60,14 +61,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: private readonly System.SByte m_a
     void _set_m_a(int8_t value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
-    // Offset: 0x1D94B90
+    // Offset: 0x1906770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WTauNafMultiplier::WTauNafCallback* New_ctor(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WTauNafMultiplier::WTauNafCallback*, creationType>(p, a)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1D94C30
+    // Offset: 0x1906810
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WTauNafMultiplier/Org.BouncyCastle.Math.EC.Multiplier.WTauNafCallback
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.ConnectElements
 #include "UnityEngine/ProBuilder/MeshOperations/ConnectElements.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
@@ -120,52 +121,52 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__8_2
     static void _set_$$9__8_2(System::Func_2<int, System::Collections::Generic::List_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x151D994
+    // Offset: 0x124725C
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <Connect>b__0_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x151DA00
+    // Offset: 0x12472C8
     System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* $Connect$b__0_0(UnityEngine::ProBuilder::Face* x);
     // System.Int32 <Connect>b__2_1(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x151DA1C
+    // Offset: 0x12472E4
     int $Connect$b__2_1(UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.FaceRebuildData <Connect>b__2_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
-    // Offset: 0x151DA34
+    // Offset: 0x12472FC
     UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__2_2(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // System.Int32 <Connect>b__3_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x151DA4C
+    // Offset: 0x1247314
     int $Connect$b__3_0(UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.FaceRebuildData <Connect>b__3_1(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
-    // Offset: 0x151DA64
+    // Offset: 0x124732C
     UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__3_1(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <Connect>b__3_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
-    // Offset: 0x151DA7C
+    // Offset: 0x1247344
     System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* $Connect$b__3_2(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // UnityEngine.ProBuilder.Edge <Connect>b__3_4(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x151DAA8
+    // Offset: 0x1247370
     UnityEngine::ProBuilder::Edge $Connect$b__3_4(UnityEngine::ProBuilder::EdgeLookup x);
     // System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> <ConnectEdgesInFace>b__5_0(System.Int32 x)
-    // Offset: 0x151DAB0
+    // Offset: 0x1247378
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* $ConnectEdgesInFace$b__5_0(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectEdgesInFace>b__5_1(System.Int32 x)
-    // Offset: 0x151DB14
+    // Offset: 0x12473DC
     System::Collections::Generic::List_1<int>* $ConnectEdgesInFace$b__5_1(int x);
     // UnityEngine.ProBuilder.Edge <ConnectEdgesInFace>b__5_2(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x151DB78
+    // Offset: 0x1247440
     UnityEngine::ProBuilder::Edge $ConnectEdgesInFace$b__5_2(UnityEngine::ProBuilder::WingedEdge* x);
     // UnityEngine.ProBuilder.Edge <InsertVertices>b__6_0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x151DB90
+    // Offset: 0x1247458
     UnityEngine::ProBuilder::Edge $InsertVertices$b__6_0(UnityEngine::ProBuilder::WingedEdge* x);
     // System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> <ConnectIndexesPerFace>b__8_0(System.Int32 x)
-    // Offset: 0x151DBA8
+    // Offset: 0x1247470
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* $ConnectIndexesPerFace$b__8_0(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectIndexesPerFace>b__8_1(System.Int32 x)
-    // Offset: 0x151DC0C
+    // Offset: 0x12474D4
     System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_1(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectIndexesPerFace>b__8_2(System.Int32 x)
-    // Offset: 0x151DC70
+    // Offset: 0x1247538
     System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_2(int x);
     // public System.Void .ctor()
-    // Offset: 0x151D9F8
+    // Offset: 0x12472C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

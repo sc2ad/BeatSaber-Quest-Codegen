@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.AsyncProtocolRequest
 #include "Mono/Net/Security/AsyncProtocolRequest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,7 +32,7 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: AsyncHandshakeRequest
     AsyncHandshakeRequest() noexcept {}
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
-    // Offset: 0x15A9840
+    // Offset: 0x12ACE10
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: System.Void AsyncProtocolRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +41,7 @@ namespace Mono::Net::Security {
       return THROW_UNLESS((::il2cpp_utils::New<AsyncHandshakeRequest*, creationType>(parent, sync)));
     }
     // protected override Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x15A98D0
+    // Offset: 0x12ACEA0
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus status)
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);

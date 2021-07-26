@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.PreserveAttribute
 #include "Zenject/Internal/PreserveAttribute.hpp"
 // Including type: Zenject.InjectSources
@@ -56,25 +57,25 @@ namespace Zenject {
     // Set instance field: private Zenject.InjectSources <Source>k__BackingField
     void _set_$Source$k__BackingField(Zenject::InjectSources value);
     // public System.Boolean get_Optional()
-    // Offset: 0x23B2920
+    // Offset: 0x1E2B908
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x23B2928
+    // Offset: 0x1E2B910
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x23B2934
+    // Offset: 0x1E2B91C
     ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x23B293C
+    // Offset: 0x1E2B924
     void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x23B2944
+    // Offset: 0x1E2B92C
     Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x23B294C
+    // Offset: 0x1E2B934
     void set_Source(Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x23B2918
+    // Offset: 0x1E2B900
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

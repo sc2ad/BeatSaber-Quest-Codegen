@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ModestTree.Util.UnityUtil
 #include "ModestTree/Util/UnityUtil.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
@@ -70,28 +71,28 @@ namespace ModestTree::Util {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__23_0
     static void _set_$$9__23_0(System::Func_2<UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13763AC
+    // Offset: 0x111D00C
     static void _cctor();
     // System.Boolean <get_AllLoadedScenes>b__3_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1376418
+    // Offset: 0x111D078
     bool $get_AllLoadedScenes$b__3_0(UnityEngine::SceneManagement::Scene scene);
     // UnityEngine.GameObject <GetRootParentOrSelf>b__15_0(UnityEngine.Transform x)
-    // Offset: 0x1376444
+    // Offset: 0x111D0A4
     UnityEngine::GameObject* $GetRootParentOrSelf$b__15_0(UnityEngine::Transform* x);
     // System.Int32 <GetComponentsInChildrenTopDown>b__18_0(UnityEngine.Component x)
-    // Offset: 0x1376460
+    // Offset: 0x111D0C0
     int $GetComponentsInChildrenTopDown$b__18_0(UnityEngine::Component* x);
     // System.Int32 <GetComponentsInChildrenBottomUp>b__19_0(UnityEngine.Component x)
-    // Offset: 0x13764F8
+    // Offset: 0x111D158
     int $GetComponentsInChildrenBottomUp$b__19_0(UnityEngine::Component* x);
     // UnityEngine.GameObject <GetAllGameObjects>b__22_0(UnityEngine.Transform x)
-    // Offset: 0x1376590
+    // Offset: 0x111D1F0
     UnityEngine::GameObject* $GetAllGameObjects$b__22_0(UnityEngine::Transform* x);
     // System.Boolean <GetAllRootGameObjects>b__23_0(UnityEngine.GameObject x)
-    // Offset: 0x13765AC
+    // Offset: 0x111D20C
     bool $GetAllRootGameObjects$b__23_0(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x1376410
+    // Offset: 0x111D070
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

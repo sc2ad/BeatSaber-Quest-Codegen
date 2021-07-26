@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: IEquatableByReference`1
@@ -181,70 +182,70 @@ namespace GlobalNamespace {
     // Set instance field: public readonly SongPackMask songPackFilter
     void _set_songPackFilter(GlobalNamespace::SongPackMask value);
     // static public UserServerFilter get_defaultFilter()
-    // Offset: 0x2313494
+    // Offset: 0x23D4648
     static GlobalNamespace::UserServerFilter get_defaultFilter();
     // public System.Void .ctor(System.Boolean includePasswordProtected, System.Boolean includeEmpty, System.Boolean includeFull, System.Boolean filterNames, System.String nameFilter, System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter, System.Boolean filterModifiers, GameplayModifierMask modifierFilter, System.Boolean filterSongPacks, SongPackMask songPackFilter)
-    // Offset: 0xF0B8BC
+    // Offset: 0xF8C98C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  UserServerFilter(bool includePasswordProtected, bool includeEmpty, bool includeFull, bool filterNames, ::Il2CppString* nameFilter, bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter, bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter, bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter)
     // public System.Boolean Equals(in UserServerFilter other)
-    // Offset: 0xF0B900
-    bool Equals(GlobalNamespace::UserServerFilter& other);
+    // Offset: 0xF8C9D0
+    bool Equals(ByRef<GlobalNamespace::UserServerFilter> other);
     // public System.Boolean Equals(UserServerFilter other)
-    // Offset: 0xF0B908
+    // Offset: 0xF8C9D8
     bool Equals_(GlobalNamespace::UserServerFilter other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF0B950
+    // Offset: 0xF8CA20
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // static public UserServerFilter Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2313828
+    // Offset: 0x23D49DC
     static GlobalNamespace::UserServerFilter Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public UserServerFilter CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF0B958
+    // Offset: 0xF8CA28
     GlobalNamespace::UserServerFilter CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean IncludesServerName(System.String lowerInvariantName)
-    // Offset: 0xF0B960
+    // Offset: 0xF8CA30
     bool IncludesServerName(::Il2CppString* lowerInvariantName);
     // public System.Boolean IncludesPassword(System.String password)
-    // Offset: 0xF0B990
+    // Offset: 0xF8CA60
     bool IncludesPassword(::Il2CppString* password);
     // public System.Boolean IncludesPlayerCount(System.Int32 currentPlayerCount, System.Int32 maxPlayerCount)
-    // Offset: 0xF0B9AC
+    // Offset: 0xF8CA7C
     bool IncludesPlayerCount(int currentPlayerCount, int maxPlayerCount);
     // public System.Boolean IncludesSelectionMask(BeatmapLevelSelectionMask configuration)
-    // Offset: 0xF0B9E0
+    // Offset: 0xF8CAB0
     bool IncludesSelectionMask(GlobalNamespace::BeatmapLevelSelectionMask configuration);
     // public UserServerFilter WithIncludePasswordProtected(System.Boolean includePasswordProtected)
-    // Offset: 0xF0BA18
+    // Offset: 0xF8CAE8
     GlobalNamespace::UserServerFilter WithIncludePasswordProtected(bool includePasswordProtected);
     // public UserServerFilter WithIncludeEmpty(System.Boolean includeEmpty)
-    // Offset: 0xF0BA24
+    // Offset: 0xF8CAF4
     GlobalNamespace::UserServerFilter WithIncludeEmpty(bool includeEmpty);
     // public UserServerFilter WithIncludeFull(System.Boolean includeFull)
-    // Offset: 0xF0BA30
+    // Offset: 0xF8CB00
     GlobalNamespace::UserServerFilter WithIncludeFull(bool includeFull);
     // public UserServerFilter WithFilterNames(System.Boolean filterNames, System.String nameFilter)
-    // Offset: 0xF0BA3C
+    // Offset: 0xF8CB0C
     GlobalNamespace::UserServerFilter WithFilterNames(bool filterNames, ::Il2CppString* nameFilter);
     // public UserServerFilter WithFilterDifficulties(System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter)
-    // Offset: 0xF0BA48
+    // Offset: 0xF8CB18
     GlobalNamespace::UserServerFilter WithFilterDifficulties(bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter);
     // public UserServerFilter WithFilterModifiers(System.Boolean filterModifiers, GameplayModifierMask modifierFilter)
-    // Offset: 0xF0BA54
+    // Offset: 0xF8CB24
     GlobalNamespace::UserServerFilter WithFilterModifiers(bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter);
     // public UserServerFilter WithFilterSongPacks(System.Boolean filterSongPacks, SongPackMask songPackFilter)
-    // Offset: 0xF0BA60
+    // Offset: 0xF8CB30
     GlobalNamespace::UserServerFilter WithFilterSongPacks(bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter);
     // private System.Boolean IEquatableByReference<UserServerFilter>.Equals(in UserServerFilter other)
-    // Offset: 0xF0BA6C
-    bool IEquatableByReference$UserServerFilter$_Equals(GlobalNamespace::UserServerFilter& other);
+    // Offset: 0xF8CB3C
+    bool IEquatableByReference$UserServerFilter$_Equals(ByRef<GlobalNamespace::UserServerFilter> other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF0B940
+    // Offset: 0xF8CA10
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF0B948
+    // Offset: 0xF8CA18
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -270,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::UserServerFilter::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::UserServerFilter::*)(GlobalNamespace::UserServerFilter&)>(&GlobalNamespace::UserServerFilter::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::UserServerFilter::*)(ByRef<GlobalNamespace::UserServerFilter>)>(&GlobalNamespace::UserServerFilter::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("", "UserServerFilter")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserServerFilter), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -419,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::UserServerFilter::IEquatableByReference$UserServerFilter$_Equals
 // Il2CppName: IEquatableByReference<UserServerFilter>.Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::UserServerFilter::*)(GlobalNamespace::UserServerFilter&)>(&GlobalNamespace::UserServerFilter::IEquatableByReference$UserServerFilter$_Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::UserServerFilter::*)(ByRef<GlobalNamespace::UserServerFilter>)>(&GlobalNamespace::UserServerFilter::IEquatableByReference$UserServerFilter$_Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("", "UserServerFilter")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserServerFilter), "IEquatableByReference<UserServerFilter>.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

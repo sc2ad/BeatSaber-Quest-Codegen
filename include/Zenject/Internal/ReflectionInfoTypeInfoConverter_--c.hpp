@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ReflectionInfoTypeInfoConverter
 #include "Zenject/Internal/ReflectionInfoTypeInfoConverter.hpp"
 // Including type: Zenject.Internal.ReflectionTypeInfo
@@ -59,19 +60,19 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
     static void _set_$$9__8_1(System::Func_2<System::Reflection::FieldInfo*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1628910
+    // Offset: 0x132BEE0
     static void _cctor();
     // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x162897C
+    // Offset: 0x132BF4C
     Zenject::InjectableInfo* $ConvertMethod$b__0_1(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1628994
+    // Offset: 0x132BF64
     Zenject::InjectableInfo* $ConvertConstructor$b__1_0(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
-    // Offset: 0x16289AC
+    // Offset: 0x132BF7C
     ::Il2CppString* $GetOnlyPropertySetter$b__8_1(System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0x1628974
+    // Offset: 0x132BF44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

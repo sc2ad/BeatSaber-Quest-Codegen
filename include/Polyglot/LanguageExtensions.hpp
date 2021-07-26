@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Polyglot
@@ -24,13 +25,13 @@ namespace Polyglot {
     // Creating value type constructor for type: LanguageExtensions
     LanguageExtensions() noexcept {}
     // static public System.String ToSerializedName(Polyglot.Language lang)
-    // Offset: 0x232DEEC
+    // Offset: 0x1DB332C
     static ::Il2CppString* ToSerializedName(Polyglot::Language lang);
     // static public System.String ToCultureInfoName(Polyglot.Language lang)
-    // Offset: 0x232DF54
+    // Offset: 0x1DB3394
     static ::Il2CppString* ToCultureInfoName(Polyglot::Language lang);
     // static public Polyglot.Language ToLanguage(System.String serializedName)
-    // Offset: 0x232E004
+    // Offset: 0x1DB3444
     static Polyglot::Language ToLanguage(::Il2CppString* serializedName);
   }; // Polyglot.LanguageExtensions
   #pragma pack(pop)

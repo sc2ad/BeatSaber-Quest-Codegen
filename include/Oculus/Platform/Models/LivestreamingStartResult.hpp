@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.LivestreamingStartStatus
 #include "Oculus/Platform/LivestreamingStartStatus.hpp"
 // Including type: System.IntPtr
@@ -38,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
     void _set_StreamingResult(Oculus::Platform::LivestreamingStartStatus value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A3E88
+    // Offset: 0x20FFCFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStartResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStartResult::.ctor");

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.EdgeLookup
 #include "UnityEngine/ProBuilder/EdgeLookup.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     void _set_lookup(System::Collections::Generic::Dictionary_2<int, int>* value);
     // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1AE1B18
+    // Offset: 0x17434A0
     UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x1AE17FC
+    // Offset: 0x1743184
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

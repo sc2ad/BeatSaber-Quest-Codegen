@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -64,42 +65,42 @@ namespace System::Net {
     // Set instance field: private System.String[] values
     void _set_values(::Array<::Il2CppString*>* value);
     // public System.String get_Realm()
-    // Offset: 0x169E204
+    // Offset: 0x13A08C0
     ::Il2CppString* get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x169E238
+    // Offset: 0x13A08F4
     ::Il2CppString* get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x169E270
+    // Offset: 0x13A092C
     ::Il2CppString* get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x169E2A8
+    // Offset: 0x13A0964
     ::Il2CppString* get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x169E2E0
+    // Offset: 0x13A099C
     ::Il2CppString* get_QOP();
     // public System.Void .ctor(System.String header)
-    // Offset: 0x169E14C
+    // Offset: 0x13A0808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::Il2CppString* header) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x169E7BC
+    // Offset: 0x13A0E78
     static void _cctor();
     // public System.Boolean Parse()
-    // Offset: 0x169E318
+    // Offset: 0x13A09D4
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x169E69C
+    // Offset: 0x13A0D58
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x169E728
+    // Offset: 0x13A0DE4
     ::Il2CppString* GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x169E500
-    bool GetKeywordAndValue(::Il2CppString*& key, ::Il2CppString*& value);
+    // Offset: 0x13A0BBC
+    bool GetKeywordAndValue(ByRef<::Il2CppString*> key, ByRef<::Il2CppString*> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)
   static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Net_DigestHeaderParserSizeCheck;
@@ -186,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::GetKeywordAndValue
 // Il2CppName: GetKeywordAndValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::DigestHeaderParser::*)(::Il2CppString*&, ::Il2CppString*&)>(&System::Net::DigestHeaderParser::GetKeywordAndValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::DigestHeaderParser::*)(ByRef<::Il2CppString*>, ByRef<::Il2CppString*>)>(&System::Net::DigestHeaderParser::GetKeywordAndValue)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,13 +56,13 @@ namespace GlobalNamespace {
     // Set instance field: private MultiplayerAvatarPoseController _multiplayerAvatarPoseController
     void _set__multiplayerAvatarPoseController(GlobalNamespace::MultiplayerAvatarPoseController* value);
     // public System.Void SetScale(System.Single scale)
-    // Offset: 0x1004804
+    // Offset: 0x1E57DB8
     void SetScale(float scale);
     // public System.Void Setup(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1004878
+    // Offset: 0x1E57E2C
     void Setup(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Void .ctor()
-    // Offset: 0x10049C0
+    // Offset: 0x1E57F74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

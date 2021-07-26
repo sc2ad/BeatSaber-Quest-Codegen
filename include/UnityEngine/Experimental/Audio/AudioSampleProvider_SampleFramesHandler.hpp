@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Experimental.Audio.AudioSampleProvider
 #include "UnityEngine/Experimental/Audio/AudioSampleProvider.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace UnityEngine::Experimental::Audio {
     // Creating value type constructor for type: SampleFramesHandler
     SampleFramesHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23AC368
+    // Offset: 0x1E25350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioSampleProvider::SampleFramesHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioSampleProvider::SampleFramesHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount)
-    // Offset: 0x23ABF40
+    // Offset: 0x1E24F28
     void Invoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23AC378
+    // Offset: 0x1E25360
     System::IAsyncResult* BeginInvoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23AC414
+    // Offset: 0x1E253FC
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler
   #pragma pack(pop)

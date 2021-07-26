@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StateBuffer`3
 #include "GlobalNamespace/StateBuffer_3.hpp"
 // Including type: System.Int32
@@ -240,17 +241,17 @@ namespace GlobalNamespace {
     }
     // public System.Boolean TryGetSerializedState(out TStateTable state, out System.Single time, out SyncStateId id)
     // Offset: 0xFFFFFFFF
-    bool TryGetSerializedState(TStateTable& state, float& time, GlobalNamespace::SyncStateId& id) {
+    bool TryGetSerializedState(ByRef<TStateTable> state, ByRef<float> time, ByRef<GlobalNamespace::SyncStateId> id) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::TryGetSerializedState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, state, time, id);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(state), byref(time), byref(id));
     }
     // public System.Boolean TryGetSerializedStateDelta(out TStateTable delta, out System.Single timeOffset, out SyncStateId baseId)
     // Offset: 0xFFFFFFFF
-    bool TryGetSerializedStateDelta(TStateTable& delta, float& timeOffset, GlobalNamespace::SyncStateId& baseId) {
+    bool TryGetSerializedStateDelta(ByRef<TStateTable> delta, ByRef<float> timeOffset, ByRef<GlobalNamespace::SyncStateId> baseId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::TryGetSerializedStateDelta");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedStateDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TStateTable&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, delta, timeOffset, baseId);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(delta), byref(timeOffset), byref(baseId));
     }
     // public System.Void SetTime(System.Single time)
     // Offset: 0xFFFFFFFF

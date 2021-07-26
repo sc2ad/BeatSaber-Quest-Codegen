@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -58,19 +59,19 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Rendering.CommandBuffer commandBuffer
     void _set_commandBuffer(UnityEngine::Rendering::CommandBuffer* value);
     // public System.Int32 get_NumberOfOwners()
-    // Offset: 0x233D908
+    // Offset: 0x1DC3D48
     int get_NumberOfOwners();
     // public System.Void AddOwner(UnityEngine.Object owner)
-    // Offset: 0x233DB5C
+    // Offset: 0x1DC3F9C
     void AddOwner(UnityEngine::Object* owner);
     // public System.Void RemoveOwner(UnityEngine.Object owner)
-    // Offset: 0x233D894
+    // Offset: 0x1DC3CD4
     void RemoveOwner(UnityEngine::Object* owner);
     // public System.Boolean ContainsOwner(UnityEngine.Object owner)
-    // Offset: 0x233DAF4
+    // Offset: 0x1DC3F34
     bool ContainsOwner(UnityEngine::Object* owner);
     // public System.Void .ctor()
-    // Offset: 0x233DBF4
+    // Offset: 0x1DC4034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

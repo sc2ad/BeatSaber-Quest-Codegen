@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: System.IDisposable
@@ -176,43 +177,43 @@ namespace MasterServer {
     // Set instance field: private System.UInt32 _currentEpoch
     void _set__currentEpoch(uint value);
     // public System.Boolean get_isEncrypted()
-    // Offset: 0x12D8744
+    // Offset: 0x2092C54
     bool get_isEncrypted();
     // public System.UInt32 GetNextRequestId()
-    // Offset: 0x12D8534
+    // Offset: 0x2092A44
     uint GetNextRequestId();
     // public System.Void BeginSession()
-    // Offset: 0x12D843C
+    // Offset: 0x209294C
     void BeginSession();
     // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
-    // Offset: 0x12D8674
+    // Offset: 0x2092B84
     bool IsValidSessionStartRequestId(uint requestId);
     // public System.Void BeginSession(System.UInt32 requestId)
-    // Offset: 0x12D84FC
+    // Offset: 0x2092A0C
     void BeginSession(uint requestId);
     // private System.Void SetEpoch(System.UInt32 epoch)
-    // Offset: 0x12DA02C
+    // Offset: 0x209453C
     void SetEpoch(uint epoch);
     // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
-    // Offset: 0x12D6A44
+    // Offset: 0x2090F54
     bool CanAcceptRequest(uint requestId);
     // public System.Void SetEncryptionState(EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x12DA050
+    // Offset: 0x2094560
     void SetEncryptionState(GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x12DA058
+    // Offset: 0x2094568
     void SetIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x12DA06C
+    // Offset: 0x209457C
     bool VerifyIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Void Dispose()
-    // Offset: 0x12DA0DC
+    // Offset: 0x20945EC
     void Dispose();
     // static private System.Void LogD(System.String message)
-    // Offset: 0x12DA0EC
+    // Offset: 0x20945FC
     static void LogD(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x12D8550
+    // Offset: 0x2092A60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

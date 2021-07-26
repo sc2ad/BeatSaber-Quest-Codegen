@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NetPeer
 #include "LiteNetLib/NetPeer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -69,7 +70,7 @@ namespace LiteNetLib {
     // Set instance field: public System.Byte ChannelId
     void _set_ChannelId(uint8_t value);
     // public System.Void .ctor()
-    // Offset: 0x1BB9FB4
+    // Offset: 0x17AD34C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

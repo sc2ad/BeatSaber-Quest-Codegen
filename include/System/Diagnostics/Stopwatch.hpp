@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -65,34 +66,34 @@ namespace System::Diagnostics {
     // Set instance field: private System.Boolean is_running
     void _set_is_running(bool value);
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x184CC9C
+    // Offset: 0x151E0A0
     System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x184CE38
+    // Offset: 0x151E23C
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x184CDB8
+    // Offset: 0x151E1BC
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x184CF44
+    // Offset: 0x151E348
     bool get_IsRunning();
     // static private System.Void .cctor()
-    // Offset: 0x184D058
+    // Offset: 0x151E45C
     static void _cctor();
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x184CC90
+    // Offset: 0x151E094
     static int64_t GetTimestamp();
     // public System.Void Reset()
-    // Offset: 0x184CF4C
+    // Offset: 0x151E350
     void Reset();
     // public System.Void Start()
-    // Offset: 0x184CF58
+    // Offset: 0x151E35C
     void Start();
     // public System.Void Stop()
-    // Offset: 0x184CFD0
+    // Offset: 0x151E3D4
     void Stop();
     // public System.Void .ctor()
-    // Offset: 0x184CC94
+    // Offset: 0x151E098
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

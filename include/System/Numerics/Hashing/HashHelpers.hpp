@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Numerics.Hashing
 namespace System::Numerics::Hashing {
@@ -20,10 +21,10 @@ namespace System::Numerics::Hashing {
     // Set static field: static public readonly System.Int32 RandomSeed
     static void _set_RandomSeed(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1CA0544
+    // Offset: 0x183D2E4
     static void _cctor();
     // static public System.Int32 Combine(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x1CA0534
+    // Offset: 0x183D2D4
     static int Combine(int h1, int h2);
   }; // System.Numerics.Hashing.HashHelpers
   #pragma pack(pop)

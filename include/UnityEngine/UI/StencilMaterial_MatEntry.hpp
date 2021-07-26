@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.StencilMaterial
 #include "UnityEngine/UI/StencilMaterial.hpp"
 // Including type: UnityEngine.Rendering.StencilOp
@@ -137,7 +138,7 @@ namespace UnityEngine::UI {
     // Set instance field: public UnityEngine.Rendering.ColorWriteMask colorMask
     void _set_colorMask(UnityEngine::Rendering::ColorWriteMask value);
     // public System.Void .ctor()
-    // Offset: 0x2370F18
+    // Offset: 0x1DF8358
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

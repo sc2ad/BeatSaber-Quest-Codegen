@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -29,13 +30,13 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ComparisonAdapter
     ComparisonAdapter() noexcept {}
     // static public NUnit.Framework.Constraints.ComparisonAdapter get_Default()
-    // Offset: 0x1715B7C
+    // Offset: 0x1419238
     static NUnit::Framework::Constraints::ComparisonAdapter* get_Default();
     // public System.Int32 Compare(System.Object expected, System.Object actual)
     // Offset: 0xFFFFFFFF
     int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);
     // protected System.Void .ctor()
-    // Offset: 0x1715C1C
+    // Offset: 0x14192D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

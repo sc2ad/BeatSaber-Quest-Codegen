@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -51,17 +52,17 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet
     void _set__environmentKeywordsSet(System::Collections::Generic::HashSet_1<::Il2CppString*>* value);
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x10215A0
+    // Offset: 0x1E8C074
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.String> environmentKeywords)
-    // Offset: 0x10215A8
+    // Offset: 0x1E8C07C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentKeywords* New_ctor(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentKeywords::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentKeywords*, creationType>(environmentKeywords)));
     }
     // public System.Boolean HasKeyword(System.String keyword)
-    // Offset: 0x1021684
+    // Offset: 0x1E8C158
     bool HasKeyword(::Il2CppString* keyword);
   }; // EnvironmentKeywords
   #pragma pack(pop)

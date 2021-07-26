@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.X509.PKCS12
 #include "Mono/Security/X509/PKCS12.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,37 +77,37 @@ namespace Mono::Security::X509 {
     // Set instance field: private System.Byte[] _salt
     void _set__salt(::Array<uint8_t>* value);
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x237D010
+    // Offset: 0x1DFD5D4
     void set_HashName(::Il2CppString* value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x237D018
+    // Offset: 0x1DFD5DC
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x237D020
+    // Offset: 0x1DFD5E4
     void set_Password(::Array<uint8_t>* value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x237D0C0
+    // Offset: 0x1DFD684
     void set_Salt(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x237D808
+    // Offset: 0x1DFDDCC
     static void _cctor();
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x237D154
+    // Offset: 0x1DFD718
     void Adjust(::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x237D23C
+    // Offset: 0x1DFD800
     ::Array<uint8_t>* Derive(::Array<uint8_t>* diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x237D688
+    // Offset: 0x1DFDC4C
     ::Array<uint8_t>* DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x237D708
+    // Offset: 0x1DFDCCC
     ::Array<uint8_t>* DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x237D788
+    // Offset: 0x1DFDD4C
     ::Array<uint8_t>* DeriveMAC(int size);
     // public System.Void .ctor()
-    // Offset: 0x237D008
+    // Offset: 0x1DFD5CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

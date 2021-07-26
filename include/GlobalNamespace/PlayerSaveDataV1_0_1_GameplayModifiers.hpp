@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayerSaveDataV1_0_1
 #include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
 // Including type: System.Enum
@@ -270,7 +271,7 @@ namespace GlobalNamespace {
     // Set instance field: public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed songSpeed
     void _set_songSpeed(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed value);
     // public System.Void .ctor()
-    // Offset: 0x1105FA8
+    // Offset: 0x1F57FBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

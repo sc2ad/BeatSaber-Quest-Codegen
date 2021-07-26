@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,16 +62,16 @@ namespace HMUI {
     // Set instance field: private HMUI.HoverHint _hoverHint
     void _set__hoverHint(HMUI::HoverHint* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x1290D34
+    // Offset: 0x1066470
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x1290D18
+    // Offset: 0x1066454
     void set_sprite(UnityEngine::Sprite* value);
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x1290D50
+    // Offset: 0x106648C
     void set_hintText(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1290D6C
+    // Offset: 0x10664A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

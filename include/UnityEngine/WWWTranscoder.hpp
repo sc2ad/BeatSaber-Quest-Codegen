@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -53,31 +54,31 @@ namespace UnityEngine {
     // Set static field: static private System.Byte[] qpForbidden
     static void _set_qpForbidden(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23A1090
+    // Offset: 0x1E19078
     static void _cctor();
     // static private System.Byte Hex2Byte(System.Byte[] b, System.Int32 offset)
-    // Offset: 0x23A07C8
+    // Offset: 0x1E187B0
     static uint8_t Hex2Byte(::Array<uint8_t>* b, int offset);
     // static private System.Byte[] Byte2Hex(System.Byte b, System.Byte[] hexChars)
-    // Offset: 0x23A0888
+    // Offset: 0x1E18870
     static ::Array<uint8_t>* Byte2Hex(uint8_t b, ::Array<uint8_t>* hexChars);
     // static public System.Byte[] URLEncode(System.Byte[] toEncode)
-    // Offset: 0x23A055C
+    // Offset: 0x1E18544
     static ::Array<uint8_t>* URLEncode(::Array<uint8_t>* toEncode);
     // static public System.Byte[] Encode(System.Byte[] input, System.Byte escapeChar, System.Byte[] space, System.Byte[] forbidden, System.Boolean uppercase)
-    // Offset: 0x23A094C
+    // Offset: 0x1E18934
     static ::Array<uint8_t>* Encode(::Array<uint8_t>* input, uint8_t escapeChar, ::Array<uint8_t>* space, ::Array<uint8_t>* forbidden, bool uppercase);
     // static private System.Boolean ByteArrayContains(System.Byte[] array, System.Byte b)
-    // Offset: 0x23A0CA0
+    // Offset: 0x1E18C88
     static bool ByteArrayContains(::Array<uint8_t>* array, uint8_t b);
     // static public System.Byte[] URLDecode(System.Byte[] toEncode)
-    // Offset: 0x23A0CEC
+    // Offset: 0x1E18CD4
     static ::Array<uint8_t>* URLDecode(::Array<uint8_t>* toEncode);
     // static private System.Boolean ByteSubArrayEquals(System.Byte[] array, System.Int32 index, System.Byte[] comperand)
-    // Offset: 0x23A1008
+    // Offset: 0x1E18FF0
     static bool ByteSubArrayEquals(::Array<uint8_t>* array, int index, ::Array<uint8_t>* comperand);
     // static public System.Byte[] Decode(System.Byte[] input, System.Byte escapeChar, System.Byte[] space)
-    // Offset: 0x23A0D60
+    // Offset: 0x1E18D48
     static ::Array<uint8_t>* Decode(::Array<uint8_t>* input, uint8_t escapeChar, ::Array<uint8_t>* space);
   }; // UnityEngine.WWWTranscoder
   #pragma pack(pop)

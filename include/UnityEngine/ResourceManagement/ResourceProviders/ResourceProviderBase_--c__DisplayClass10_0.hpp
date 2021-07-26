@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 #include "UnityEngine/ResourceManagement/ResourceProviders/ResourceProviderBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,10 +54,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: public System.String data
     void _set_data(::Il2CppString* value);
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x19B9DA8
+    // Offset: 0x1671E9C
     bool $InitializeAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x19B9D48
+    // Offset: 0x1671E3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

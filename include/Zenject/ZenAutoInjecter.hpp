@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -102,25 +103,25 @@ namespace Zenject {
     // Set instance field: private System.Boolean _hasInjected
     void _set__hasInjected(bool value);
     // public Zenject.ZenAutoInjecter/Zenject.ContainerSources get_ContainerSource()
-    // Offset: 0x239249C
+    // Offset: 0x1E0A484
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/Zenject.ContainerSources value)
-    // Offset: 0x23924A4
+    // Offset: 0x1E0A48C
     void set_ContainerSource(Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void Construct()
-    // Offset: 0x23924AC
+    // Offset: 0x1E0A494
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x2392518
+    // Offset: 0x1E0A500
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x2392564
+    // Offset: 0x1E0A54C
     Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x23926B4
+    // Offset: 0x1E0A69C
     Zenject::DiContainer* GetContainerForCurrentScene();
     // public System.Void .ctor()
-    // Offset: 0x2392750
+    // Offset: 0x1E0A738
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

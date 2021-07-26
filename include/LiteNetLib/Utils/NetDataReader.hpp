@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -80,145 +81,145 @@ namespace LiteNetLib::Utils {
     // Set instance field: private System.Int32 _offset
     void _set__offset(int value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x1BBDD88
+    // Offset: 0x17B1120
     ::Array<uint8_t>* get_RawData();
     // public System.Int32 get_RawDataSize()
-    // Offset: 0x1BBDD90
+    // Offset: 0x17B1128
     int get_RawDataSize();
     // public System.Int32 get_UserDataOffset()
-    // Offset: 0x1BBDD98
+    // Offset: 0x17B1130
     int get_UserDataOffset();
     // public System.Int32 get_UserDataSize()
-    // Offset: 0x1BBDDA0
+    // Offset: 0x17B1138
     int get_UserDataSize();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1BB4104
+    // Offset: 0x17A749C
     bool get_IsNull();
     // public System.Int32 get_Position()
-    // Offset: 0x1BBDDAC
+    // Offset: 0x17B1144
     int get_Position();
     // public System.Boolean get_EndOfData()
-    // Offset: 0x1BBDDB4
+    // Offset: 0x17B114C
     bool get_EndOfData();
     // public System.Int32 get_AvailableBytes()
-    // Offset: 0x1BBDDC4
+    // Offset: 0x17B115C
     int get_AvailableBytes();
     // public System.Void .ctor(System.Byte[] source)
-    // Offset: 0x1BBDE5C
+    // Offset: 0x17B11F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::Array<uint8_t>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source)));
     }
     // public System.Void .ctor(System.Byte[] source, System.Int32 offset)
-    // Offset: 0x1BBDEA0
+    // Offset: 0x17B1238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::Array<uint8_t>* source, int offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source, offset)));
     }
     // public System.Void .ctor(System.Byte[] source, System.Int32 offset, System.Int32 maxSize)
-    // Offset: 0x1BB1D5C
+    // Offset: 0x17A50F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::Array<uint8_t>* source, int offset, int maxSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source, offset, maxSize)));
     }
     // public System.Void SkipBytes(System.Int32 count)
-    // Offset: 0x1BBDDD0
+    // Offset: 0x17B1168
     void SkipBytes(int count);
     // public System.Void SetSource(LiteNetLib.Utils.NetDataWriter dataWriter)
-    // Offset: 0x1BBDDE0
+    // Offset: 0x17B1178
     void SetSource(LiteNetLib::Utils::NetDataWriter* dataWriter);
     // public System.Void SetSource(System.Byte[] source)
-    // Offset: 0x1BBDE0C
+    // Offset: 0x17B11A4
     void SetSource(::Array<uint8_t>* source);
     // public System.Void SetSource(System.Byte[] source, System.Int32 offset)
-    // Offset: 0x1BBDE34
+    // Offset: 0x17B11CC
     void SetSource(::Array<uint8_t>* source, int offset);
     // public System.Void SetSource(System.Byte[] source, System.Int32 offset, System.Int32 maxSize)
-    // Offset: 0x1BB07E0
+    // Offset: 0x17A3B78
     void SetSource(::Array<uint8_t>* source, int offset, int maxSize);
     // public System.Net.IPEndPoint GetNetEndPoint()
-    // Offset: 0x1BBDEF0
+    // Offset: 0x17B1288
     System::Net::IPEndPoint* GetNetEndPoint();
     // public System.Byte GetByte()
-    // Offset: 0x1BBE0F0
+    // Offset: 0x17B1488
     uint8_t GetByte();
     // public System.SByte GetSByte()
-    // Offset: 0x1BBE13C
+    // Offset: 0x17B14D4
     int8_t GetSByte();
     // public System.Boolean[] GetBoolArray()
-    // Offset: 0x1BBE188
+    // Offset: 0x17B1520
     ::Array<bool>* GetBoolArray();
     // public System.UInt16[] GetUShortArray()
-    // Offset: 0x1BBE268
+    // Offset: 0x17B1600
     ::Array<uint16_t>* GetUShortArray();
     // public System.Int16[] GetShortArray()
-    // Offset: 0x1BBE344
+    // Offset: 0x17B16DC
     ::Array<int16_t>* GetShortArray();
     // public System.Int64[] GetLongArray()
-    // Offset: 0x1BBE420
+    // Offset: 0x17B17B8
     ::Array<int64_t>* GetLongArray();
     // public System.UInt64[] GetULongArray()
-    // Offset: 0x1BBE4FC
+    // Offset: 0x17B1894
     ::Array<uint64_t>* GetULongArray();
     // public System.Int32[] GetIntArray()
-    // Offset: 0x1BBE5D8
+    // Offset: 0x17B1970
     ::Array<int>* GetIntArray();
     // public System.UInt32[] GetUIntArray()
-    // Offset: 0x1BBE6B4
+    // Offset: 0x17B1A4C
     ::Array<uint>* GetUIntArray();
     // public System.Single[] GetFloatArray()
-    // Offset: 0x1BBE790
+    // Offset: 0x17B1B28
     ::Array<float>* GetFloatArray();
     // public System.Double[] GetDoubleArray()
-    // Offset: 0x1BBE86C
+    // Offset: 0x17B1C04
     ::Array<double>* GetDoubleArray();
     // public System.String[] GetStringArray()
-    // Offset: 0x1BBE948
+    // Offset: 0x17B1CE0
     ::Array<::Il2CppString*>* GetStringArray();
     // public System.String[] GetStringArray(System.Int32 maxStringLength)
-    // Offset: 0x1BBEA74
+    // Offset: 0x17B1E0C
     ::Array<::Il2CppString*>* GetStringArray(int maxStringLength);
     // public System.Boolean GetBool()
-    // Offset: 0x1BBEBB0
+    // Offset: 0x17B1F48
     bool GetBool();
     // public System.Char GetChar()
-    // Offset: 0x1BBEC04
+    // Offset: 0x17B1F9C
     ::Il2CppChar GetChar();
     // public System.UInt16 GetUShort()
-    // Offset: 0x1BBEC90
+    // Offset: 0x17B2028
     uint16_t GetUShort();
     // public System.Int16 GetShort()
-    // Offset: 0x1BBED1C
+    // Offset: 0x17B20B4
     int16_t GetShort();
     // public System.Int64 GetLong()
-    // Offset: 0x1BBEDA8
+    // Offset: 0x17B2140
     int64_t GetLong();
     // public System.UInt64 GetULong()
-    // Offset: 0x1BBEE34
+    // Offset: 0x17B21CC
     uint64_t GetULong();
     // public System.Int32 GetInt()
-    // Offset: 0x1BBE064
+    // Offset: 0x17B13FC
     int GetInt();
     // public System.UInt32 GetUInt()
-    // Offset: 0x1BBEEC0
+    // Offset: 0x17B2258
     uint GetUInt();
     // public System.Single GetFloat()
-    // Offset: 0x1BBEF4C
+    // Offset: 0x17B22E4
     float GetFloat();
     // public System.Double GetDouble()
-    // Offset: 0x1BBEFD8
+    // Offset: 0x17B2370
     double GetDouble();
     // public System.String GetString(System.Int32 maxLength)
-    // Offset: 0x1BBDF78
+    // Offset: 0x17B1310
     ::Il2CppString* GetString(int maxLength);
     // public System.String GetString()
-    // Offset: 0x1BAB908
+    // Offset: 0x179ECA0
     ::Il2CppString* GetString();
     // public System.ArraySegment`1<System.Byte> GetRemainingBytesSegment()
-    // Offset: 0x1BBF064
+    // Offset: 0x17B23FC
     System::ArraySegment_1<uint8_t> GetRemainingBytesSegment();
     // public T Get()
     // Offset: 0xFFFFFFFF
@@ -231,112 +232,112 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method);
     }
     // public System.Byte[] GetRemainingBytes()
-    // Offset: 0x1BBF0E8
+    // Offset: 0x17B2480
     ::Array<uint8_t>* GetRemainingBytes();
     // public System.Void GetBytes(System.Byte[] destination, System.Int32 start, System.Int32 count)
-    // Offset: 0x1BBF178
+    // Offset: 0x17B2510
     void GetBytes(::Array<uint8_t>* destination, int start, int count);
     // public System.Void GetBytes(System.Byte[] destination, System.Int32 count)
-    // Offset: 0x1BBF1C4
+    // Offset: 0x17B255C
     void GetBytes(::Array<uint8_t>* destination, int count);
     // public System.SByte[] GetSBytesWithLength()
-    // Offset: 0x1BBF210
+    // Offset: 0x17B25A8
     ::Array<int8_t>* GetSBytesWithLength();
     // public System.Byte[] GetBytesWithLength()
-    // Offset: 0x1BBF2B0
+    // Offset: 0x17B2648
     ::Array<uint8_t>* GetBytesWithLength();
     // public System.Byte PeekByte()
-    // Offset: 0x1BBF350
+    // Offset: 0x17B26E8
     uint8_t PeekByte();
     // public System.SByte PeekSByte()
-    // Offset: 0x1BBF390
+    // Offset: 0x17B2728
     int8_t PeekSByte();
     // public System.Boolean PeekBool()
-    // Offset: 0x1BBF3D0
+    // Offset: 0x17B2768
     bool PeekBool();
     // public System.Char PeekChar()
-    // Offset: 0x1BBF418
+    // Offset: 0x17B27B0
     ::Il2CppChar PeekChar();
     // public System.UInt16 PeekUShort()
-    // Offset: 0x1BBF48C
+    // Offset: 0x17B2824
     uint16_t PeekUShort();
     // public System.Int16 PeekShort()
-    // Offset: 0x1BBF500
+    // Offset: 0x17B2898
     int16_t PeekShort();
     // public System.Int64 PeekLong()
-    // Offset: 0x1BBF574
+    // Offset: 0x17B290C
     int64_t PeekLong();
     // public System.UInt64 PeekULong()
-    // Offset: 0x1BBF5E8
+    // Offset: 0x17B2980
     uint64_t PeekULong();
     // public System.Int32 PeekInt()
-    // Offset: 0x1BBF65C
+    // Offset: 0x17B29F4
     int PeekInt();
     // public System.UInt32 PeekUInt()
-    // Offset: 0x1BBF6D0
+    // Offset: 0x17B2A68
     uint PeekUInt();
     // public System.Single PeekFloat()
-    // Offset: 0x1BBF744
+    // Offset: 0x17B2ADC
     float PeekFloat();
     // public System.Double PeekDouble()
-    // Offset: 0x1BBF7B8
+    // Offset: 0x17B2B50
     double PeekDouble();
     // public System.String PeekString(System.Int32 maxLength)
-    // Offset: 0x1BBF82C
+    // Offset: 0x17B2BC4
     ::Il2CppString* PeekString(int maxLength);
     // public System.String PeekString()
-    // Offset: 0x1BBF94C
+    // Offset: 0x17B2CE4
     ::Il2CppString* PeekString();
     // public System.Boolean TryGetByte(out System.Byte result)
-    // Offset: 0x1BBFA28
-    bool TryGetByte(uint8_t& result);
+    // Offset: 0x17B2DC0
+    bool TryGetByte(ByRef<uint8_t> result);
     // public System.Boolean TryGetSByte(out System.SByte result)
-    // Offset: 0x1BBFA70
-    bool TryGetSByte(int8_t& result);
+    // Offset: 0x17B2E08
+    bool TryGetSByte(ByRef<int8_t> result);
     // public System.Boolean TryGetBool(out System.Boolean result)
-    // Offset: 0x1BBFAB8
-    bool TryGetBool(bool& result);
+    // Offset: 0x17B2E50
+    bool TryGetBool(ByRef<bool> result);
     // public System.Boolean TryGetChar(out System.Char result)
-    // Offset: 0x1BBFB00
-    bool TryGetChar(::Il2CppChar& result);
+    // Offset: 0x17B2E98
+    bool TryGetChar(ByRef<::Il2CppChar> result);
     // public System.Boolean TryGetShort(out System.Int16 result)
-    // Offset: 0x1BBFB48
-    bool TryGetShort(int16_t& result);
+    // Offset: 0x17B2EE0
+    bool TryGetShort(ByRef<int16_t> result);
     // public System.Boolean TryGetUShort(out System.UInt16 result)
-    // Offset: 0x1BBFB90
-    bool TryGetUShort(uint16_t& result);
+    // Offset: 0x17B2F28
+    bool TryGetUShort(ByRef<uint16_t> result);
     // public System.Boolean TryGetInt(out System.Int32 result)
-    // Offset: 0x1BBFBD8
-    bool TryGetInt(int& result);
+    // Offset: 0x17B2F70
+    bool TryGetInt(ByRef<int> result);
     // public System.Boolean TryGetUInt(out System.UInt32 result)
-    // Offset: 0x1BBFC20
-    bool TryGetUInt(uint& result);
+    // Offset: 0x17B2FB8
+    bool TryGetUInt(ByRef<uint> result);
     // public System.Boolean TryGetLong(out System.Int64 result)
-    // Offset: 0x1BBFC68
-    bool TryGetLong(int64_t& result);
+    // Offset: 0x17B3000
+    bool TryGetLong(ByRef<int64_t> result);
     // public System.Boolean TryGetULong(out System.UInt64 result)
-    // Offset: 0x1BBFCB0
-    bool TryGetULong(uint64_t& result);
+    // Offset: 0x17B3048
+    bool TryGetULong(ByRef<uint64_t> result);
     // public System.Boolean TryGetFloat(out System.Single result)
-    // Offset: 0x1BBFCF8
-    bool TryGetFloat(float& result);
+    // Offset: 0x17B3090
+    bool TryGetFloat(ByRef<float> result);
     // public System.Boolean TryGetDouble(out System.Double result)
-    // Offset: 0x1BBFD3C
-    bool TryGetDouble(double& result);
+    // Offset: 0x17B30D4
+    bool TryGetDouble(ByRef<double> result);
     // public System.Boolean TryGetString(out System.String result)
-    // Offset: 0x1BBFD80
-    bool TryGetString(::Il2CppString*& result);
+    // Offset: 0x17B3118
+    bool TryGetString(ByRef<::Il2CppString*> result);
     // public System.Boolean TryGetStringArray(out System.String[] result)
-    // Offset: 0x1BBFDE8
-    bool TryGetStringArray(::Array<::Il2CppString*>*& result);
+    // Offset: 0x17B3180
+    bool TryGetStringArray(ByRef<::Array<::Il2CppString*>*> result);
     // public System.Boolean TryGetBytesWithLength(out System.Byte[] result)
-    // Offset: 0x1BBFEE0
-    bool TryGetBytesWithLength(::Array<uint8_t>*& result);
+    // Offset: 0x17B3278
+    bool TryGetBytesWithLength(ByRef<::Array<uint8_t>*> result);
     // public System.Void Clear()
-    // Offset: 0x1BB8AE4
+    // Offset: 0x17ABE7C
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1BB06E8
+    // Offset: 0x17A3A80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -857,7 +858,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetByte
 // Il2CppName: TryGetByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(uint8_t&)>(&LiteNetLib::Utils::NetDataReader::TryGetByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<uint8_t>)>(&LiteNetLib::Utils::NetDataReader::TryGetByte)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Byte")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -866,7 +867,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetSByte
 // Il2CppName: TryGetSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(int8_t&)>(&LiteNetLib::Utils::NetDataReader::TryGetSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<int8_t>)>(&LiteNetLib::Utils::NetDataReader::TryGetSByte)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "SByte")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -875,7 +876,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetBool
 // Il2CppName: TryGetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(bool&)>(&LiteNetLib::Utils::NetDataReader::TryGetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<bool>)>(&LiteNetLib::Utils::NetDataReader::TryGetBool)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -884,7 +885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetChar
 // Il2CppName: TryGetChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(::Il2CppChar&)>(&LiteNetLib::Utils::NetDataReader::TryGetChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::Il2CppChar>)>(&LiteNetLib::Utils::NetDataReader::TryGetChar)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Char")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -893,7 +894,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetShort
 // Il2CppName: TryGetShort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(int16_t&)>(&LiteNetLib::Utils::NetDataReader::TryGetShort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<int16_t>)>(&LiteNetLib::Utils::NetDataReader::TryGetShort)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int16")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -902,7 +903,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetUShort
 // Il2CppName: TryGetUShort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(uint16_t&)>(&LiteNetLib::Utils::NetDataReader::TryGetUShort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<uint16_t>)>(&LiteNetLib::Utils::NetDataReader::TryGetUShort)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt16")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetUShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -911,7 +912,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetInt
 // Il2CppName: TryGetInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(int&)>(&LiteNetLib::Utils::NetDataReader::TryGetInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<int>)>(&LiteNetLib::Utils::NetDataReader::TryGetInt)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -920,7 +921,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetUInt
 // Il2CppName: TryGetUInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(uint&)>(&LiteNetLib::Utils::NetDataReader::TryGetUInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<uint>)>(&LiteNetLib::Utils::NetDataReader::TryGetUInt)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -929,7 +930,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetLong
 // Il2CppName: TryGetLong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(int64_t&)>(&LiteNetLib::Utils::NetDataReader::TryGetLong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<int64_t>)>(&LiteNetLib::Utils::NetDataReader::TryGetLong)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -938,7 +939,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetULong
 // Il2CppName: TryGetULong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(uint64_t&)>(&LiteNetLib::Utils::NetDataReader::TryGetULong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<uint64_t>)>(&LiteNetLib::Utils::NetDataReader::TryGetULong)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -947,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetFloat
 // Il2CppName: TryGetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(float&)>(&LiteNetLib::Utils::NetDataReader::TryGetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<float>)>(&LiteNetLib::Utils::NetDataReader::TryGetFloat)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -956,7 +957,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetDouble
 // Il2CppName: TryGetDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(double&)>(&LiteNetLib::Utils::NetDataReader::TryGetDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<double>)>(&LiteNetLib::Utils::NetDataReader::TryGetDouble)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -965,7 +966,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetString
 // Il2CppName: TryGetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(::Il2CppString*&)>(&LiteNetLib::Utils::NetDataReader::TryGetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::Il2CppString*>)>(&LiteNetLib::Utils::NetDataReader::TryGetString)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -974,7 +975,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetStringArray
 // Il2CppName: TryGetStringArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(::Array<::Il2CppString*>*&)>(&LiteNetLib::Utils::NetDataReader::TryGetStringArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::Array<::Il2CppString*>*>)>(&LiteNetLib::Utils::NetDataReader::TryGetStringArray)> {
   static const MethodInfo* get() {
     static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetStringArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -983,7 +984,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetBytesWithLength
 // Il2CppName: TryGetBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(::Array<uint8_t>*&)>(&LiteNetLib::Utils::NetDataReader::TryGetBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::Array<uint8_t>*>)>(&LiteNetLib::Utils::NetDataReader::TryGetBytesWithLength)> {
   static const MethodInfo* get() {
     static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

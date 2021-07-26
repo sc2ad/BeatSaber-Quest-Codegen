@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BoolSO
 #include "GlobalNamespace/BoolSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,7 +32,7 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _defaultValue
     void _set__defaultValue(bool value);
     // public System.Void .ctor()
-    // Offset: 0x120E774
+    // Offset: 0x203B0CC
     // Implemented from: BoolSO
     // Base method: System.Void BoolSO::.ctor()
     // Base method: System.Void ObservableVariableSO_1::.ctor()
@@ -45,7 +46,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BoolWithDefaultValueSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x120E6D4
+    // Offset: 0x203B02C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

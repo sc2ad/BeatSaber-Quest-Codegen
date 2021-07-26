@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -89,43 +90,43 @@ namespace GlobalNamespace {
     // Set instance field: private MockObstacleData[] <obstacles>k__BackingField
     void _set_$obstacles$k__BackingField(::Array<GlobalNamespace::MockObstacleData*>* value);
     // public System.Int32 get_numberOfLines()
-    // Offset: 0x238BC34
+    // Offset: 0x1E03C1C
     int get_numberOfLines();
     // public System.Void set_numberOfLines(System.Int32 value)
-    // Offset: 0x238BC3C
+    // Offset: 0x1E03C24
     void set_numberOfLines(int value);
     // public System.Single get_songEndTime()
-    // Offset: 0x238BC44
+    // Offset: 0x1E03C2C
     float get_songEndTime();
     // public System.Void set_songEndTime(System.Single value)
-    // Offset: 0x238BC4C
+    // Offset: 0x1E03C34
     void set_songEndTime(float value);
     // public MockNoteData[] get_leftNotes()
-    // Offset: 0x238BC54
+    // Offset: 0x1E03C3C
     ::Array<GlobalNamespace::MockNoteData*>* get_leftNotes();
     // public System.Void set_leftNotes(MockNoteData[] value)
-    // Offset: 0x238BC5C
+    // Offset: 0x1E03C44
     void set_leftNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockNoteData[] get_rightNotes()
-    // Offset: 0x238BC64
+    // Offset: 0x1E03C4C
     ::Array<GlobalNamespace::MockNoteData*>* get_rightNotes();
     // public System.Void set_rightNotes(MockNoteData[] value)
-    // Offset: 0x238BC6C
+    // Offset: 0x1E03C54
     void set_rightNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockNoteData[] get_bombNotes()
-    // Offset: 0x238BC74
+    // Offset: 0x1E03C5C
     ::Array<GlobalNamespace::MockNoteData*>* get_bombNotes();
     // public System.Void set_bombNotes(MockNoteData[] value)
-    // Offset: 0x238BC7C
+    // Offset: 0x1E03C64
     void set_bombNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockObstacleData[] get_obstacles()
-    // Offset: 0x238BC84
+    // Offset: 0x1E03C6C
     ::Array<GlobalNamespace::MockObstacleData*>* get_obstacles();
     // public System.Void set_obstacles(MockObstacleData[] value)
-    // Offset: 0x238BC8C
+    // Offset: 0x1E03C74
     void set_obstacles(::Array<GlobalNamespace::MockObstacleData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x238BC94
+    // Offset: 0x1E03C7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

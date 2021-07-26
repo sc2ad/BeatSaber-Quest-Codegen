@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -36,11 +37,11 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F344C
+    // Offset: 0x12F6A1C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_EnqueueSubmitLayer2(System.UInt32 flags, System.IntPtr textureLeft, System.IntPtr textureRight, System.Int32 layerId, System.Int32 frameIndex, ref OVRPlugin/Posef pose, ref OVRPlugin/Vector3f scale, System.Int32 layerIndex, OVRPlugin/Bool overrideTextureRectMatrix, ref OVRPlugin/TextureRectMatrixf textureRectMatrix, OVRPlugin/Bool overridePerLayerColorScaleAndOffset, ref UnityEngine.Vector4 colorScale, ref UnityEngine.Vector4 colorOffset)
-    // Offset: 0x15F334C
-    static GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSubmitLayer2(uint flags, System::IntPtr textureLeft, System::IntPtr textureRight, int layerId, int frameIndex, GlobalNamespace::OVRPlugin::Posef& pose, GlobalNamespace::OVRPlugin::Vector3f& scale, int layerIndex, GlobalNamespace::OVRPlugin::Bool overrideTextureRectMatrix, GlobalNamespace::OVRPlugin::TextureRectMatrixf& textureRectMatrix, GlobalNamespace::OVRPlugin::Bool overridePerLayerColorScaleAndOffset, UnityEngine::Vector4& colorScale, UnityEngine::Vector4& colorOffset);
+    // Offset: 0x12F691C
+    static GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSubmitLayer2(uint flags, System::IntPtr textureLeft, System::IntPtr textureRight, int layerId, int frameIndex, ByRef<GlobalNamespace::OVRPlugin::Posef> pose, ByRef<GlobalNamespace::OVRPlugin::Vector3f> scale, int layerIndex, GlobalNamespace::OVRPlugin::Bool overrideTextureRectMatrix, ByRef<GlobalNamespace::OVRPlugin::TextureRectMatrixf> textureRectMatrix, GlobalNamespace::OVRPlugin::Bool overridePerLayerColorScaleAndOffset, ByRef<UnityEngine::Vector4> colorScale, ByRef<UnityEngine::Vector4> colorOffset);
   }; // OVRPlugin/OVRP_1_34_0
   #pragma pack(pop)
 }
@@ -58,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_34_0::ovrp_EnqueueSubmitLayer2
 // Il2CppName: ovrp_EnqueueSubmitLayer2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(uint, System::IntPtr, System::IntPtr, int, int, GlobalNamespace::OVRPlugin::Posef&, GlobalNamespace::OVRPlugin::Vector3f&, int, GlobalNamespace::OVRPlugin::Bool, GlobalNamespace::OVRPlugin::TextureRectMatrixf&, GlobalNamespace::OVRPlugin::Bool, UnityEngine::Vector4&, UnityEngine::Vector4&)>(&GlobalNamespace::OVRPlugin::OVRP_1_34_0::ovrp_EnqueueSubmitLayer2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(uint, System::IntPtr, System::IntPtr, int, int, ByRef<GlobalNamespace::OVRPlugin::Posef>, ByRef<GlobalNamespace::OVRPlugin::Vector3f>, int, GlobalNamespace::OVRPlugin::Bool, ByRef<GlobalNamespace::OVRPlugin::TextureRectMatrixf>, GlobalNamespace::OVRPlugin::Bool, ByRef<UnityEngine::Vector4>, ByRef<UnityEngine::Vector4>)>(&GlobalNamespace::OVRPlugin::OVRP_1_34_0::ovrp_EnqueueSubmitLayer2)> {
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* textureLeft = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

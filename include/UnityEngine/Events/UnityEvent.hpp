@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Events.UnityEventBase
 #include "UnityEngine/Events/UnityEventBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,19 +53,19 @@ namespace UnityEngine::Events {
     // Set instance field: private System.Object[] m_InvokeArray
     void _set_m_InvokeArray(::Array<::Il2CppObject*>* value);
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x1BE7CC0
+    // Offset: 0x17DA058
     void AddListener(UnityEngine::Events::UnityAction* call);
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x1BE7D7C
+    // Offset: 0x17DA114
     void RemoveListener(UnityEngine::Events::UnityAction* call);
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction action)
-    // Offset: 0x1BE7CF8
+    // Offset: 0x17DA090
     static UnityEngine::Events::BaseInvokableCall* GetDelegate(UnityEngine::Events::UnityAction* action);
     // public System.Void Invoke()
-    // Offset: 0x1BE807C
+    // Offset: 0x17DA414
     void Invoke();
     // public System.Void .ctor()
-    // Offset: 0x1BE7C2C
+    // Offset: 0x17D9FC4
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -74,12 +75,12 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<UnityEvent*, creationType>()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
-    // Offset: 0x1BE7DDC
+    // Offset: 0x17DA174
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj);
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x1BE800C
+    // Offset: 0x17DA3A4
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);

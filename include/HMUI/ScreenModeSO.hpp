@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace HMUI {
     // Set instance field: private HMUI.ScreenModeData _data
     void _set__data(HMUI::ScreenModeData* value);
     // public HMUI.ScreenModeData get_data()
-    // Offset: 0x129710C
+    // Offset: 0x106C848
     HMUI::ScreenModeData* get_data();
     // public System.Void .ctor()
-    // Offset: 0x1297114
+    // Offset: 0x106C850
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

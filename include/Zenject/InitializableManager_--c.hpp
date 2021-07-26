@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.InitializableManager
 #include "Zenject/InitializableManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,16 +52,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.InitializableManager/Zenject.InitializableInfo,System.Int32> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<Zenject::InitializableManager::InitializableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1625C7C
+    // Offset: 0x132924C
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1625CE8
+    // Offset: 0x13292B8
     int $_ctor$b__2_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <Initialize>b__5_0(Zenject.InitializableManager/Zenject.InitializableInfo x)
-    // Offset: 0x1625D00
+    // Offset: 0x13292D0
     int $Initialize$b__5_0(Zenject::InitializableManager::InitializableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1625CE0
+    // Offset: 0x13292B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

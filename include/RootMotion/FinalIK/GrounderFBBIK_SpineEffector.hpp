@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.GrounderFBBIK
 #include "RootMotion/FinalIK/GrounderFBBIK.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -21,21 +22,21 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class GrounderFBBIK::SpineEffector : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF5CB8
+    // [TooltipAttribute] Offset: 0xEA28D4
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effectorType;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF5CF0
+    // [TooltipAttribute] Offset: 0xEA290C
     // public System.Single horizontalWeight
     // Size: 0x4
     // Offset: 0x14
     float horizontalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF5D28
+    // [TooltipAttribute] Offset: 0xEA2944
     // public System.Single verticalWeight
     // Size: 0x4
     // Offset: 0x18
@@ -57,14 +58,14 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single verticalWeight
     void _set_verticalWeight(float value);
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
-    // Offset: 0x1C8C5AC
+    // Offset: 0x182A34C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderFBBIK::SpineEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderFBBIK::SpineEffector*, creationType>(effectorType, horizontalWeight, verticalWeight)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1C8C59C
+    // Offset: 0x182A33C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

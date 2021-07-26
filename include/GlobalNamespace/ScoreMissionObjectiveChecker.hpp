@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SimpleValueMissionObjectiveChecker
 #include "GlobalNamespace/SimpleValueMissionObjectiveChecker.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xE06EA8
+    // [InjectAttribute] Offset: 0xEB3AC4
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -42,13 +43,13 @@ namespace GlobalNamespace {
     // Set instance field: private IScoreController _scoreController
     void _set__scoreController(GlobalNamespace::IScoreController* value);
     // protected System.Void OnDestroy()
-    // Offset: 0x1152BA8
+    // Offset: 0x1F835BC
     void OnDestroy();
     // private System.Void HandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x1152CA8
+    // Offset: 0x1F836BC
     void HandleScoreDidChange(int rawScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x1152E94
+    // Offset: 0x1F838A8
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScoreMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x1152CD4
+    // Offset: 0x1F836E8
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

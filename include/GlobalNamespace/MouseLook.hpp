@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -145,25 +146,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _cursorIsLocked
     void _set__cursorIsLocked(bool value);
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x113FB0C
+    // Offset: 0x1F70520
     void Init(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x113FBA4
+    // Offset: 0x1F705B8
     void LookRotation(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0x113FF54
+    // Offset: 0x1F70968
     void SetCursorLock(bool value);
     // public System.Void UpdateCursorLock()
-    // Offset: 0x113FF44
+    // Offset: 0x1F70958
     void UpdateCursorLock();
     // private System.Void InternalLockUpdate()
-    // Offset: 0x113FF88
+    // Offset: 0x1F7099C
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0x113FE7C
+    // Offset: 0x1F70890
     UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q);
     // public System.Void .ctor()
-    // Offset: 0x1140004
+    // Offset: 0x1F70A18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

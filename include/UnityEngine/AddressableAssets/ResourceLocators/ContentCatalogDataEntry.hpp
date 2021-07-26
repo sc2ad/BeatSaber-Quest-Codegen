@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -96,43 +97,43 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Set instance field: private System.Type <ResourceType>k__BackingField
     void _set_$ResourceType$k__BackingField(System::Type* value);
     // public System.String get_InternalId()
-    // Offset: 0x13CBB98
+    // Offset: 0x11747F8
     ::Il2CppString* get_InternalId();
     // public System.Void set_InternalId(System.String value)
-    // Offset: 0x13CBBA0
+    // Offset: 0x1174800
     void set_InternalId(::Il2CppString* value);
     // public System.String get_Provider()
-    // Offset: 0x13CBBA8
+    // Offset: 0x1174808
     ::Il2CppString* get_Provider();
     // private System.Void set_Provider(System.String value)
-    // Offset: 0x13CBBB0
+    // Offset: 0x1174810
     void set_Provider(::Il2CppString* value);
     // public System.Collections.Generic.List`1<System.Object> get_Keys()
-    // Offset: 0x13CBBB8
+    // Offset: 0x1174818
     System::Collections::Generic::List_1<::Il2CppObject*>* get_Keys();
     // private System.Void set_Keys(System.Collections.Generic.List`1<System.Object> value)
-    // Offset: 0x13CBBC0
+    // Offset: 0x1174820
     void set_Keys(System::Collections::Generic::List_1<::Il2CppObject*>* value);
     // public System.Collections.Generic.List`1<System.Object> get_Dependencies()
-    // Offset: 0x13CBBC8
+    // Offset: 0x1174828
     System::Collections::Generic::List_1<::Il2CppObject*>* get_Dependencies();
     // private System.Void set_Dependencies(System.Collections.Generic.List`1<System.Object> value)
-    // Offset: 0x13CBBD0
+    // Offset: 0x1174830
     void set_Dependencies(System::Collections::Generic::List_1<::Il2CppObject*>* value);
     // public System.Object get_Data()
-    // Offset: 0x13CBBD8
+    // Offset: 0x1174838
     ::Il2CppObject* get_Data();
     // public System.Void set_Data(System.Object value)
-    // Offset: 0x13CBBE0
+    // Offset: 0x1174840
     void set_Data(::Il2CppObject* value);
     // public System.Type get_ResourceType()
-    // Offset: 0x13CBBE8
+    // Offset: 0x1174848
     System::Type* get_ResourceType();
     // private System.Void set_ResourceType(System.Type value)
-    // Offset: 0x13CBBF0
+    // Offset: 0x1174850
     void set_ResourceType(System::Type* value);
     // public System.Void .ctor(System.Type type, System.String internalId, System.String provider, System.Collections.Generic.IEnumerable`1<System.Object> keys, System.Collections.Generic.IEnumerable`1<System.Object> dependencies, System.Object extraData)
-    // Offset: 0x13CBBF8
+    // Offset: 0x1174858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogDataEntry* New_ctor(System::Type* type, ::Il2CppString* internalId, ::Il2CppString* provider, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* keys, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* dependencies, ::Il2CppObject* extraData) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::.ctor");

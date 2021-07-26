@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TestLeaderboardsModel
 #include "GlobalNamespace/TestLeaderboardsModel.hpp"
 // Including type: System.ValueType
@@ -86,10 +87,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter value);
     // private System.Void MoveNext()
-    // Offset: 0xECFBF4
+    // Offset: 0xF7B860
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFBFC
+    // Offset: 0xF7B868
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestLeaderboardsModel/<SendLevelScoreResultAsync>d__5
   // WARNING Not writing size check since size may be invalid!

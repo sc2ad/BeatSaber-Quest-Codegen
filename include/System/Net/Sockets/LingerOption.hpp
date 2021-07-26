@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -42,13 +43,13 @@ namespace System::Net::Sockets {
     // Set instance field: private System.Int32 lingerTime
     void _set_lingerTime(int value);
     // public System.Void set_Enabled(System.Boolean value)
-    // Offset: 0x146DED0
+    // Offset: 0x11DEF30
     void set_Enabled(bool value);
     // public System.Void set_LingerTime(System.Int32 value)
-    // Offset: 0x146DEDC
+    // Offset: 0x11DEF3C
     void set_LingerTime(int value);
     // public System.Void .ctor(System.Boolean enable, System.Int32 seconds)
-    // Offset: 0x146DE90
+    // Offset: 0x11DEEF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LingerOption* New_ctor(bool enable, int seconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::LingerOption::.ctor");

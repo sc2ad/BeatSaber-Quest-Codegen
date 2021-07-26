@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassRendererSO
 #include "GlobalNamespace/BloomPrePassRendererSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 preallocateCount
     void _set_preallocateCount(int value);
     // public System.Void .ctor()
-    // Offset: 0x1DEF5BC
+    // Offset: 0x196219C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

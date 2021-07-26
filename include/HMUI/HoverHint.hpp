@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IPointerEnterHandler
@@ -46,7 +47,7 @@ namespace HMUI {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [InjectAttribute] Offset: 0xDE2C50
+    // [InjectAttribute] Offset: 0xE9086C
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
     // Offset: 0x20
@@ -84,28 +85,28 @@ namespace HMUI {
     // Set instance field: private readonly UnityEngine.Vector3[] _worldCornersTemp
     void _set__worldCornersTemp(::Array<UnityEngine::Vector3>* value);
     // public System.String get_text()
-    // Offset: 0x130FE90
+    // Offset: 0x10D1E00
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x130FE98
+    // Offset: 0x10D1E08
     void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x130FEA0
+    // Offset: 0x10D1E10
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x130FF38
+    // Offset: 0x10D1EA8
     UnityEngine::Vector3 get_worldCenter();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x13100C0
+    // Offset: 0x10D2030
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1310174
+    // Offset: 0x10D20E4
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x13102DC
+    // Offset: 0x10D224C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x131036C
+    // Offset: 0x10D22DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

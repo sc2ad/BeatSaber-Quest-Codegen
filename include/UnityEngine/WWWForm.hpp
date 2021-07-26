@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -23,7 +24,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: WWWForm
     WWWForm() noexcept {}
     // static System.Text.Encoding get_DefaultEncoding()
-    // Offset: 0x23A07C0
+    // Offset: 0x1E187A8
     static System::Text::Encoding* get_DefaultEncoding();
   }; // UnityEngine.WWWForm
   #pragma pack(pop)

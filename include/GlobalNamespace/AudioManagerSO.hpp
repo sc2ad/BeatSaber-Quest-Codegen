@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -148,31 +149,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _sfxEnabled
     void _set__sfxEnabled(bool value);
     // public System.Single get_sfxLatency()
-    // Offset: 0x10DC07C
+    // Offset: 0x1F2D090
     float get_sfxLatency();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0x10DC188
+    // Offset: 0x1F2D19C
     void set_mainVolume(float value);
     // public System.Void set_musicVolume(System.Single value)
-    // Offset: 0x10DC1F4
+    // Offset: 0x1F2D208
     void set_musicVolume(float value);
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0x10DC264
+    // Offset: 0x1F2D278
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0x10DC2F0
+    // Offset: 0x1F2D304
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0x10DC2F8
+    // Offset: 0x1F2D30C
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0x10DC318
+    // Offset: 0x1F2D32C
     void set_musicPitch(float value);
     // public System.Void Init()
-    // Offset: 0x10DC0E4
+    // Offset: 0x1F2D0F8
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x10DC3E8
+    // Offset: 0x1F2D3FC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

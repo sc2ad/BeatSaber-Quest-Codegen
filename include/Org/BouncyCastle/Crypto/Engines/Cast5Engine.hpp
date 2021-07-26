@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IBlockCipher
 #include "Org/BouncyCastle/Crypto/IBlockCipher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -125,58 +126,58 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.Int32 _rounds
     void _set__rounds(int value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1DFE8F0
+    // Offset: 0x19724D0
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1DFE938
+    // Offset: 0x1972518
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1E03054
+    // Offset: 0x1976C34
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1DFE760
+    // Offset: 0x1972340
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1DFE940
+    // Offset: 0x1972520
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1DFEA94
+    // Offset: 0x1972674
     void Reset();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1DFEA98
+    // Offset: 0x1972678
     int GetBlockSize();
     // System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1DFEAA0
+    // Offset: 0x1972680
     void SetKey(::Array<uint8_t>* key);
     // System.Int32 EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1E02620
+    // Offset: 0x1976200
     int EncryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
     // System.Int32 DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1E0297C
+    // Offset: 0x197655C
     int DecryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
     // static System.UInt32 F1(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1E02CF4
+    // Offset: 0x19768D4
     static uint F1(uint D, uint Kmi, int Kri);
     // static System.UInt32 F2(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1E02E14
+    // Offset: 0x19769F4
     static uint F2(uint D, uint Kmi, int Kri);
     // static System.UInt32 F3(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1E02F34
+    // Offset: 0x1976B14
     static uint F3(uint D, uint Kmi, int Kri);
     // System.Void CAST_Encipher(System.UInt32 L0, System.UInt32 R0, System.UInt32[] result)
-    // Offset: 0x1E0272C
+    // Offset: 0x197630C
     void CAST_Encipher(uint L0, uint R0, ::Array<uint>* result);
     // System.Void CAST_Decipher(System.UInt32 L16, System.UInt32 R16, System.UInt32[] result)
-    // Offset: 0x1E02A88
+    // Offset: 0x1976668
     void CAST_Decipher(uint L16, uint R16, ::Array<uint>* result);
     // static System.Void Bits32ToInts(System.UInt32 inData, System.Int32[] b, System.Int32 offset)
-    // Offset: 0x1E02590
+    // Offset: 0x1976170
     static void Bits32ToInts(uint inData, ::Array<int>* b, int offset);
     // static System.UInt32 IntsTo32bits(System.Int32[] b, System.Int32 i)
-    // Offset: 0x1E0250C
+    // Offset: 0x19760EC
     static uint IntsTo32bits(::Array<int>* b, int i);
     // public System.Void .ctor()
-    // Offset: 0x1DFE6B8
+    // Offset: 0x1972298
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

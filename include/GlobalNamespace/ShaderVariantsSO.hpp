@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ShaderVariantsSO::ShaderVariant
     class ShaderVariant;
-    // [ReorderableAttribute] Offset: 0xDEBB3C
+    // [ReorderableAttribute] Offset: 0xE99758
     // private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     // Size: 0x8
     // Offset: 0x18
@@ -42,13 +43,13 @@ namespace GlobalNamespace {
     // Set instance field: private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     void _set__shaderVariants(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* value);
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
-    // Offset: 0x2342B7C
+    // Offset: 0x1DC8FBC
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* get_shaderVariants();
     // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
-    // Offset: 0x2342B84
+    // Offset: 0x1DC8FC4
     void Init(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* shaderVariants);
     // public System.Void .ctor()
-    // Offset: 0x2342B8C
+    // Offset: 0x1DC8FCC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ParticleSystem/UnityEngine.EmissionModule
@@ -59,21 +60,21 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0564C
+    // [InjectAttribute] Offset: 0xEB2268
     // private SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0565C
+    // [InjectAttribute] Offset: 0xEB2278
     // private HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0566C
+    // [InjectAttribute] Offset: 0xEB2288
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -139,16 +140,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _sabersAreClashing
     void _set__sabersAreClashing(bool value);
     // protected System.Void Start()
-    // Offset: 0x114B290
+    // Offset: 0x1F7BCA4
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x114B454
+    // Offset: 0x1F7BE68
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x114B464
+    // Offset: 0x1F7BE78
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x114B568
+    // Offset: 0x1F7BF7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

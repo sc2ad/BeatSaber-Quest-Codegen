@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,14 +46,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuScenesTransitionSetupDataSO* arcadeMenuTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE644
+    // [InjectAttribute] Offset: 0xEAB260
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFE654
+    // [InjectAttribute] Offset: 0xEAB270
     // private NetEaseManager _netEaseManager
     // Size: 0x8
     // Offset: 0x28
@@ -76,13 +77,13 @@ namespace GlobalNamespace {
     // Set instance field: private NetEaseManager _netEaseManager
     void _set__netEaseManager(GlobalNamespace::NetEaseManager* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1010C5C
+    // Offset: 0x1E64210
     System::Collections::IEnumerator* Start();
     // private System.Void LoginAsync()
-    // Offset: 0x1010CF8
+    // Offset: 0x1E642AC
     void LoginAsync();
     // public System.Void .ctor()
-    // Offset: 0x1010DB8
+    // Offset: 0x1E6436C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

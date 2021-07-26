@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NamedIntListSettingsController
 #include "GlobalNamespace/NamedIntListSettingsController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,10 +43,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 value
     void _set_value(int value);
     // public System.String get_localizedText()
-    // Offset: 0x100E7CC
+    // Offset: 0x1E61D80
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x100E7E0
+    // Offset: 0x1E61D94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

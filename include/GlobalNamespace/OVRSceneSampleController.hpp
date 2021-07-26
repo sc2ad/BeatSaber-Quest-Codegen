@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.KeyCode
@@ -128,25 +129,25 @@ namespace GlobalNamespace {
     // Set instance field: private OVRGridCube gridCube
     void _set_gridCube(GlobalNamespace::OVRGridCube* value);
     // private System.Void Awake()
-    // Offset: 0x15FBAB0
+    // Offset: 0x12FF080
     void Awake();
     // private System.Void Start()
-    // Offset: 0x15FBC4C
+    // Offset: 0x12FF21C
     void Start();
     // private System.Void Update()
-    // Offset: 0x15FBD38
+    // Offset: 0x12FF308
     void Update();
     // private System.Void UpdateVisionMode()
-    // Offset: 0x15FBEE8
+    // Offset: 0x12FF4B8
     void UpdateVisionMode();
     // private System.Void UpdateSpeedAndRotationScaleMultiplier()
-    // Offset: 0x15FBFCC
+    // Offset: 0x12FF59C
     void UpdateSpeedAndRotationScaleMultiplier();
     // private System.Void UpdateRecenterPose()
-    // Offset: 0x15FBE1C
+    // Offset: 0x12FF3EC
     void UpdateRecenterPose();
     // public System.Void .ctor()
-    // Offset: 0x15FC0C0
+    // Offset: 0x12FF690
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

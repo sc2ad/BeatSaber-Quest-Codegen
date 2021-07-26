@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -50,29 +51,29 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Int32 top
     void _set_top(int value);
     // System.Void .ctor(System.String stackId)
-    // Offset: 0x15DE274
+    // Offset: 0x12E1844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerStack* New_ctor(::Il2CppString* stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }
     // System.Void Push(System.Object obj)
-    // Offset: 0x15DFD0C
+    // Offset: 0x12E32DC
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0x15DFDC4
+    // Offset: 0x12E3394
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0x15E5508
+    // Offset: 0x12E8AD8
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0x15E047C
+    // Offset: 0x12E3A4C
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0x15E5598
+    // Offset: 0x12E8B68
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0x15E4910
+    // Offset: 0x12E7EE0
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
   #pragma pack(pop)

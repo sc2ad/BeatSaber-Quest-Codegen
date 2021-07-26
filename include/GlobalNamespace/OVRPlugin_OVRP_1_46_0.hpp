@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -29,13 +30,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F4660
+    // Offset: 0x12F7C30
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTiledMultiResDynamic(out OVRPlugin/Bool isDynamic)
-    // Offset: 0x15F4560
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResDynamic(GlobalNamespace::OVRPlugin::Bool& isDynamic);
+    // Offset: 0x12F7B30
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResDynamic(ByRef<GlobalNamespace::OVRPlugin::Bool> isDynamic);
     // static public OVRPlugin/Result ovrp_SetTiledMultiResDynamic(OVRPlugin/Bool isDynamic)
-    // Offset: 0x15F45E0
+    // Offset: 0x12F7BB0
     static GlobalNamespace::OVRPlugin::Result ovrp_SetTiledMultiResDynamic(GlobalNamespace::OVRPlugin::Bool isDynamic);
   }; // OVRPlugin/OVRP_1_46_0
   #pragma pack(pop)
@@ -54,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_GetTiledMultiResDynamic
 // Il2CppName: ovrp_GetTiledMultiResDynamic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool&)>(&GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_GetTiledMultiResDynamic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_GetTiledMultiResDynamic)> {
   static const MethodInfo* get() {
     static auto* isDynamic = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_46_0*), "ovrp_GetTiledMultiResDynamic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isDynamic});

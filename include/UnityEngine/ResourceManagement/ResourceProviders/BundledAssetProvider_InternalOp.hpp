@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
 #include "UnityEngine/ResourceManagement/ResourceProviders/BundledAssetProvider.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
@@ -74,22 +75,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private System.String subObjectName
     void _set_subObjectName(::Il2CppString* value);
     // static UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource LoadBundleFromDependecies(System.Collections.Generic.IList`1<System.Object> results)
-    // Offset: 0x19B8044
+    // Offset: 0x1670138
     static UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(System::Collections::Generic::IList_1<::Il2CppObject*>* results);
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x19B7BF8
+    // Offset: 0x166FCEC
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x19B8788
+    // Offset: 0x167087C
     bool WaitForCompletionHandler();
     // private System.Void ActionComplete(UnityEngine.AsyncOperation obj)
-    // Offset: 0x19B840C
+    // Offset: 0x1670500
     void ActionComplete(UnityEngine::AsyncOperation* obj);
     // public System.Single ProgressCallback()
-    // Offset: 0x19B8BD8
+    // Offset: 0x1670CCC
     float ProgressCallback();
     // public System.Void .ctor()
-    // Offset: 0x19B7BF0
+    // Offset: 0x166FCE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

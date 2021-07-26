@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: platformWidth and: layoutProvider
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xE07E78
+    // [InjectAttribute] Offset: 0xEB4A94
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -94,34 +95,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <edgeDistanceFromCenter>k__BackingField
     void _set_$edgeDistanceFromCenter$k__BackingField(float value);
     // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
-    // Offset: 0x119EF0C
+    // Offset: 0x1FB6978
     bool get_isEdgeDistanceFromCenterCalculated();
     // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
-    // Offset: 0x119EF14
+    // Offset: 0x1FB6980
     void set_isEdgeDistanceFromCenterCalculated(bool value);
     // public System.Single get_edgeDistanceFromCenter()
-    // Offset: 0x119EF20
+    // Offset: 0x1FB698C
     float get_edgeDistanceFromCenter();
     // private System.Void set_edgeDistanceFromCenter(System.Single value)
-    // Offset: 0x119EF28
+    // Offset: 0x1FB6994
     void set_edgeDistanceFromCenter(float value);
     // public System.Void add_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x119EDC4
+    // Offset: 0x1FB6830
     void add_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Void remove_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x119EE68
+    // Offset: 0x1FB68D4
     void remove_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0x119EF30
+    // Offset: 0x1FB699C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x119F164
+    // Offset: 0x1FB6BD0
     void OnDestroy();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 numberOfPlayers)
-    // Offset: 0x119EFE0
+    // Offset: 0x1FB6A4C
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x119F2A4
+    // Offset: 0x1FB6D10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

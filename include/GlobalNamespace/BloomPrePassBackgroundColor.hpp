@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassNonLightPass
 #include "GlobalNamespace/BloomPrePassNonLightPass.hpp"
 // Including type: UnityEngine.Color
@@ -54,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: grayscaleFactor and: shader
     char __padding2[0x4] = {};
-    // [SpaceAttribute] Offset: 0xDE0738
+    // [SpaceAttribute] Offset: 0xE8E354
     // private UnityEngine.Shader _shader
     // Size: 0x8
     // Offset: 0x30
@@ -69,17 +70,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: BloomPrePassBackgroundColor
     BloomPrePassBackgroundColor(float intensity_ = {}, float minAlpha_ = {}, float grayscaleFactor_ = {}, UnityEngine::Shader* shader_ = {}, UnityEngine::Color color_ = {}) noexcept : intensity{intensity_}, minAlpha{minAlpha_}, grayscaleFactor{grayscaleFactor_}, shader{shader_}, color{color_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE0770
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8E38C
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE0780
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8E39C
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE0790
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8E3AC
     // Get static field: static private System.Boolean _initialized
     static bool _get__initialized();
     // Set static field: static private System.Boolean _initialized
@@ -105,19 +106,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DEC524
+    // Offset: 0x195F104
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1DEC530
+    // Offset: 0x195F110
     void set_color(UnityEngine::Color value);
     // private UnityEngine.Color get_bgColor()
-    // Offset: 0x1DEC53C
+    // Offset: 0x195F11C
     UnityEngine::Color get_bgColor();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1DEC5C8
+    // Offset: 0x195F1A8
     void InitIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x1DEC86C
+    // Offset: 0x195F44C
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -131,13 +132,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColor*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DEC8F0
+    // Offset: 0x195F4D0
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x1DEC784
+    // Offset: 0x195F364
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(UnityEngine::RenderTexture* dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix);

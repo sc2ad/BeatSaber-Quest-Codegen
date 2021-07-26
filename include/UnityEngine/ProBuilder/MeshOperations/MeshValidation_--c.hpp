@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MeshValidation
 #include "UnityEngine/ProBuilder/MeshOperations/MeshValidation.hpp"
 // Including type: UnityEngine.ProBuilder.Triangle
@@ -60,19 +61,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16F5EA4
+    // Offset: 0x13F8560
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <EnsureFacesAreComposedOfContiguousTriangles>b__4_0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x16F5F10
+    // Offset: 0x13F85CC
     System::Collections::Generic::IEnumerable_1<int>* $EnsureFacesAreComposedOfContiguousTriangles$b__4_0(UnityEngine::ProBuilder::Triangle x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <EnsureFacesAreComposedOfContiguousTriangles>b__4_1(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x16F5F3C
+    // Offset: 0x13F85F8
     System::Collections::Generic::IEnumerable_1<int>* $EnsureFacesAreComposedOfContiguousTriangles$b__4_1(UnityEngine::ProBuilder::Triangle x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <RemoveUnusedVertices>b__7_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x16F5F68
+    // Offset: 0x13F8624
     System::Collections::Generic::IEnumerable_1<int>* $RemoveUnusedVertices$b__7_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x16F5F08
+    // Offset: 0x13F85C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

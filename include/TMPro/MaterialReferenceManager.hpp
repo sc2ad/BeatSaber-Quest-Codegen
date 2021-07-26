@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -86,70 +87,70 @@ namespace TMPro {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_ColorGradient> m_ColorGradientReferenceLookup
     void _set_m_ColorGradientReferenceLookup(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>* value);
     // static public TMPro.MaterialReferenceManager get_instance()
-    // Offset: 0x10BA528
+    // Offset: 0xFF2028
     static TMPro::MaterialReferenceManager* get_instance();
     // static public System.Void AddFontAsset(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x10BA68C
+    // Offset: 0xFF218C
     static void AddFontAsset(TMPro::TMP_FontAsset* fontAsset);
     // private System.Void AddFontAssetInternal(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x10BA6B8
+    // Offset: 0xFF21B8
     void AddFontAssetInternal(TMPro::TMP_FontAsset* fontAsset);
     // static public System.Void AddSpriteAsset(TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0x10BA778
+    // Offset: 0xFF2278
     static void AddSpriteAsset(TMPro::TMP_SpriteAsset* spriteAsset);
     // private System.Void AddSpriteAssetInternal(TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0x10BA7A4
+    // Offset: 0xFF22A4
     void AddSpriteAssetInternal(TMPro::TMP_SpriteAsset* spriteAsset);
     // static public System.Void AddSpriteAsset(System.Int32 hashCode, TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0x10BA864
+    // Offset: 0xFF2364
     static void AddSpriteAsset(int hashCode, TMPro::TMP_SpriteAsset* spriteAsset);
     // private System.Void AddSpriteAssetInternal(System.Int32 hashCode, TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0x10BA898
+    // Offset: 0xFF2398
     void AddSpriteAssetInternal(int hashCode, TMPro::TMP_SpriteAsset* spriteAsset);
     // static public System.Void AddFontMaterial(System.Int32 hashCode, UnityEngine.Material material)
-    // Offset: 0x10BA95C
+    // Offset: 0xFF245C
     static void AddFontMaterial(int hashCode, UnityEngine::Material* material);
     // private System.Void AddFontMaterialInternal(System.Int32 hashCode, UnityEngine.Material material)
-    // Offset: 0x10BA990
+    // Offset: 0xFF2490
     void AddFontMaterialInternal(int hashCode, UnityEngine::Material* material);
     // static public System.Void AddColorGradientPreset(System.Int32 hashCode, TMPro.TMP_ColorGradient spriteAsset)
-    // Offset: 0x10BAA00
+    // Offset: 0xFF2500
     static void AddColorGradientPreset(int hashCode, TMPro::TMP_ColorGradient* spriteAsset);
     // private System.Void AddColorGradientPreset_Internal(System.Int32 hashCode, TMPro.TMP_ColorGradient spriteAsset)
-    // Offset: 0x10BAA34
+    // Offset: 0xFF2534
     void AddColorGradientPreset_Internal(int hashCode, TMPro::TMP_ColorGradient* spriteAsset);
     // public System.Boolean Contains(TMPro.TMP_FontAsset font)
-    // Offset: 0x10BAAD4
+    // Offset: 0xFF25D4
     bool Contains(TMPro::TMP_FontAsset* font);
     // public System.Boolean Contains(TMPro.TMP_SpriteAsset sprite)
-    // Offset: 0x10BAB40
+    // Offset: 0xFF2640
     bool Contains(TMPro::TMP_SpriteAsset* sprite);
     // static public System.Boolean TryGetFontAsset(System.Int32 hashCode, out TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x10BABAC
-    static bool TryGetFontAsset(int hashCode, TMPro::TMP_FontAsset*& fontAsset);
+    // Offset: 0xFF26AC
+    static bool TryGetFontAsset(int hashCode, ByRef<TMPro::TMP_FontAsset*> fontAsset);
     // private System.Boolean TryGetFontAssetInternal(System.Int32 hashCode, out TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x10BABE0
-    bool TryGetFontAssetInternal(int hashCode, TMPro::TMP_FontAsset*& fontAsset);
+    // Offset: 0xFF26E0
+    bool TryGetFontAssetInternal(int hashCode, ByRef<TMPro::TMP_FontAsset*> fontAsset);
     // static public System.Boolean TryGetSpriteAsset(System.Int32 hashCode, out TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0x10BAC54
-    static bool TryGetSpriteAsset(int hashCode, TMPro::TMP_SpriteAsset*& spriteAsset);
+    // Offset: 0xFF2754
+    static bool TryGetSpriteAsset(int hashCode, ByRef<TMPro::TMP_SpriteAsset*> spriteAsset);
     // private System.Boolean TryGetSpriteAssetInternal(System.Int32 hashCode, out TMPro.TMP_SpriteAsset spriteAsset)
-    // Offset: 0x10BAC88
-    bool TryGetSpriteAssetInternal(int hashCode, TMPro::TMP_SpriteAsset*& spriteAsset);
+    // Offset: 0xFF2788
+    bool TryGetSpriteAssetInternal(int hashCode, ByRef<TMPro::TMP_SpriteAsset*> spriteAsset);
     // static public System.Boolean TryGetColorGradientPreset(System.Int32 hashCode, out TMPro.TMP_ColorGradient gradientPreset)
-    // Offset: 0x10BACFC
-    static bool TryGetColorGradientPreset(int hashCode, TMPro::TMP_ColorGradient*& gradientPreset);
+    // Offset: 0xFF27FC
+    static bool TryGetColorGradientPreset(int hashCode, ByRef<TMPro::TMP_ColorGradient*> gradientPreset);
     // private System.Boolean TryGetColorGradientPresetInternal(System.Int32 hashCode, out TMPro.TMP_ColorGradient gradientPreset)
-    // Offset: 0x10BAD30
-    bool TryGetColorGradientPresetInternal(int hashCode, TMPro::TMP_ColorGradient*& gradientPreset);
+    // Offset: 0xFF2830
+    bool TryGetColorGradientPresetInternal(int hashCode, ByRef<TMPro::TMP_ColorGradient*> gradientPreset);
     // static public System.Boolean TryGetMaterial(System.Int32 hashCode, out UnityEngine.Material material)
-    // Offset: 0x10BADA4
-    static bool TryGetMaterial(int hashCode, UnityEngine::Material*& material);
+    // Offset: 0xFF28A4
+    static bool TryGetMaterial(int hashCode, ByRef<UnityEngine::Material*> material);
     // private System.Boolean TryGetMaterialInternal(System.Int32 hashCode, out UnityEngine.Material material)
-    // Offset: 0x10BADD8
-    bool TryGetMaterialInternal(int hashCode, UnityEngine::Material*& material);
+    // Offset: 0xFF28D8
+    bool TryGetMaterialInternal(int hashCode, ByRef<UnityEngine::Material*> material);
     // public System.Void .ctor()
-    // Offset: 0x10BA5A4
+    // Offset: 0xFF20A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -289,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetFontAsset
 // Il2CppName: TryGetFontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_FontAsset*&)>(&TMPro::MaterialReferenceManager::TryGetFontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<TMPro::TMP_FontAsset*>)>(&TMPro::MaterialReferenceManager::TryGetFontAsset)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->this_arg;
@@ -299,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetFontAssetInternal
 // Il2CppName: TryGetFontAssetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_FontAsset*&)>(&TMPro::MaterialReferenceManager::TryGetFontAssetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, ByRef<TMPro::TMP_FontAsset*>)>(&TMPro::MaterialReferenceManager::TryGetFontAssetInternal)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->this_arg;
@@ -309,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetSpriteAsset
 // Il2CppName: TryGetSpriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_SpriteAsset*&)>(&TMPro::MaterialReferenceManager::TryGetSpriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<TMPro::TMP_SpriteAsset*>)>(&TMPro::MaterialReferenceManager::TryGetSpriteAsset)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->this_arg;
@@ -319,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal
 // Il2CppName: TryGetSpriteAssetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_SpriteAsset*&)>(&TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, ByRef<TMPro::TMP_SpriteAsset*>)>(&TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->this_arg;
@@ -329,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetColorGradientPreset
 // Il2CppName: TryGetColorGradientPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_ColorGradient*&)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<TMPro::TMP_ColorGradient*>)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPreset)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* gradientPreset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_ColorGradient")->this_arg;
@@ -339,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal
 // Il2CppName: TryGetColorGradientPresetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_ColorGradient*&)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, ByRef<TMPro::TMP_ColorGradient*>)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* gradientPreset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_ColorGradient")->this_arg;
@@ -349,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetMaterial
 // Il2CppName: TryGetMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, UnityEngine::Material*&)>(&TMPro::MaterialReferenceManager::TryGetMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<UnityEngine::Material*>)>(&TMPro::MaterialReferenceManager::TryGetMaterial)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->this_arg;
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetMaterialInternal
 // Il2CppName: TryGetMaterialInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, UnityEngine::Material*&)>(&TMPro::MaterialReferenceManager::TryGetMaterialInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, ByRef<UnityEngine::Material*>)>(&TMPro::MaterialReferenceManager::TryGetMaterialInternal)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->this_arg;

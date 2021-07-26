@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Engines.ThreefishEngine
 #include "Org/BouncyCastle/Crypto/Engines/ThreefishEngine.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: protected readonly System.UInt64[] kw
     void _set_kw(::Array<uint64_t>* value);
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x1E5D5CC
+    // Offset: 0x19BD860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreefishEngine::ThreefishCipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::.ctor");

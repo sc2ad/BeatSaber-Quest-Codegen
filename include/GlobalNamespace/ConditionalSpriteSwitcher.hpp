@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -35,7 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalSpriteSwitcher : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE0A750
+    // [HeaderAttribute] Offset: 0xEB736C
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
     // Offset: 0x18
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE0A7AC
+    // [HeaderAttribute] Offset: 0xEB73C8
     // private UnityEngine.Sprite _sprite1
     // Size: 0x8
     // Offset: 0x28
@@ -61,7 +62,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0A808
+    // [SpaceAttribute] Offset: 0xEB7424
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x38
@@ -103,25 +104,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.SpriteRenderer _spriteRenderer
     void _set__spriteRenderer(UnityEngine::SpriteRenderer* value);
     // public UnityEngine.Sprite get_falseSprite()
-    // Offset: 0x10810A8
+    // Offset: 0x1F029A4
     UnityEngine::Sprite* get_falseSprite();
     // public System.Void set_falseSprite(UnityEngine.Sprite value)
-    // Offset: 0x10810B0
+    // Offset: 0x1F029AC
     void set_falseSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_trueSprite()
-    // Offset: 0x10810B8
+    // Offset: 0x1F029B4
     UnityEngine::Sprite* get_trueSprite();
     // public System.Void set_trueSprite(UnityEngine.Sprite value)
-    // Offset: 0x10810C0
+    // Offset: 0x1F029BC
     void set_trueSprite(UnityEngine::Sprite* value);
     // protected System.Void Awake()
-    // Offset: 0x10810C8
+    // Offset: 0x1F029C4
     void Awake();
     // public System.Void Apply()
-    // Offset: 0x10810CC
+    // Offset: 0x1F029C8
     void Apply();
     // public System.Void .ctor()
-    // Offset: 0x1081174
+    // Offset: 0x1F02A70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ObstacleType
 #include "GlobalNamespace/ObstacleType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,37 +73,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 <width>k__BackingField
     void _set_$width$k__BackingField(int value);
     // public System.Single get_time()
-    // Offset: 0x238C1BC
+    // Offset: 0x1E041A4
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x238C1C4
+    // Offset: 0x1E041AC
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x238C1CC
+    // Offset: 0x1E041B4
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x238C1D4
+    // Offset: 0x1E041BC
     void set_lineIndex(int value);
     // public ObstacleType get_obstacleType()
-    // Offset: 0x238C1DC
+    // Offset: 0x1E041C4
     GlobalNamespace::ObstacleType get_obstacleType();
     // public System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0x238C1E4
+    // Offset: 0x1E041CC
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0x238C1EC
+    // Offset: 0x1E041D4
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x238C1F4
+    // Offset: 0x1E041DC
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x238C1FC
+    // Offset: 0x1E041E4
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x238C204
+    // Offset: 0x1E041EC
     void set_width(int value);
     // public System.Void .ctor()
-    // Offset: 0x238C20C
+    // Offset: 0x1E041F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

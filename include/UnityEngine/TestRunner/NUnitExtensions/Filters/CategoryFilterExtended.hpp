@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.Filters.CategoryFilter
 #include "NUnit/Framework/Internal/Filters/CategoryFilter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,7 +34,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Set static field: static public System.String k_DefaultCategory
     static void _set_k_DefaultCategory(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x147948C
+    // Offset: 0x11EA4EC
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Void CategoryFilter::.ctor(System.String name)
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
@@ -43,12 +44,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<CategoryFilterExtended*, creationType>(name)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1479928
+    // Offset: 0x11EA988
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.cctor()
     static void _cctor();
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1479494
+    // Offset: 0x11EA4F4
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Boolean CategoryFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);

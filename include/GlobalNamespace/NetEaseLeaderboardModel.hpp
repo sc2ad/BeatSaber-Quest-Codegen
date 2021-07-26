@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,13 +23,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetEaseLeaderboardModel
     NetEaseLeaderboardModel() noexcept {}
     // private System.Void Start()
-    // Offset: 0x100FF88
+    // Offset: 0x1E6353C
     void Start();
     // private System.Void Update()
-    // Offset: 0x100FF8C
+    // Offset: 0x1E63540
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x100FF90
+    // Offset: 0x1E63544
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

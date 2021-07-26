@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -28,10 +29,10 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Clipping
     Clipping() noexcept {}
     // static private UnityEngine.ProBuilder.Clipping/UnityEngine.ProBuilder.OutCode ComputeOutCode(UnityEngine.Rect rect, System.Single x, System.Single y)
-    // Offset: 0x1F3411C
+    // Offset: 0x1A30C84
     static UnityEngine::ProBuilder::Clipping::OutCode ComputeOutCode(UnityEngine::Rect rect, float x, float y);
     // static System.Boolean RectContainsLineSegment(UnityEngine.Rect rect, System.Single x0, System.Single y0, System.Single x1, System.Single y1)
-    // Offset: 0x1F341C4
+    // Offset: 0x1A30D2C
     static bool RectContainsLineSegment(UnityEngine::Rect rect, float x0, float y0, float x1, float y1);
   }; // UnityEngine.ProBuilder.Clipping
   #pragma pack(pop)

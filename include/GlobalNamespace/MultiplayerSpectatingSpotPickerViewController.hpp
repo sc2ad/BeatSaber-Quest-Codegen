@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StepValuePicker* stepValuePicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StepValuePicker*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06930
+    // [InjectAttribute] Offset: 0xEB354C
     // private readonly MultiplayerSpectatorController _spectatorController
     // Size: 0x8
     // Offset: 0x20
@@ -56,25 +57,25 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerSpectatorController _spectatorController
     void _set__spectatorController(GlobalNamespace::MultiplayerSpectatorController* value);
     // protected System.Void Start()
-    // Offset: 0x100BC64
+    // Offset: 0x1E5F218
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x100BF20
+    // Offset: 0x1E5F4D4
     void OnDestroy();
     // private System.Void HandleSpectatingSpotDidChangeEvent(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x100C14C
+    // Offset: 0x1E5F700
     void HandleSpectatingSpotDidChangeEvent(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void RefreshSpectatingSpotName()
-    // Offset: 0x100BD7C
+    // Offset: 0x1E5F330
     void RefreshSpectatingSpotName();
     // private System.Void HandleIncButtonWasPressed()
-    // Offset: 0x100C150
+    // Offset: 0x1E5F704
     void HandleIncButtonWasPressed();
     // private System.Void HandleDecButtonWasPressed()
-    // Offset: 0x100C1B4
+    // Offset: 0x1E5F768
     void HandleDecButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x100C218
+    // Offset: 0x1E5F7CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

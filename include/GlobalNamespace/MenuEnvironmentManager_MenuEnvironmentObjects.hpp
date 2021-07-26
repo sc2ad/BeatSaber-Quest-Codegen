@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuEnvironmentManager
 #include "GlobalNamespace/MenuEnvironmentManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,13 +52,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.GameObject _wrapper
     void _set__wrapper(UnityEngine::GameObject* value);
     // public MenuEnvironmentManager/MenuEnvironmentType get_menuEnvironmentType()
-    // Offset: 0x117FF78
+    // Offset: 0x1FAF98C
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType get_menuEnvironmentType();
     // public UnityEngine.GameObject get_wrapper()
-    // Offset: 0x117FF80
+    // Offset: 0x1FAF994
     UnityEngine::GameObject* get_wrapper();
     // public System.Void .ctor()
-    // Offset: 0x117FF88
+    // Offset: 0x1FAF99C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

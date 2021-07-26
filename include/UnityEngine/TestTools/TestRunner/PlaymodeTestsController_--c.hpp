@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 #include "UnityEngine/TestTools/TestRunner/PlaymodeTestsController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,13 +50,13 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.Utils.IAssemblyWrapper,System.Reflection.Assembly> <>9__16_0
     static void _set_$$9__16_0(System::Func_2<UnityEngine::TestTools::Utils::IAssemblyWrapper*, System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1491638
+    // Offset: 0x1202698
     static void _cctor();
     // System.Reflection.Assembly <Run>b__16_0(UnityEngine.TestTools.Utils.IAssemblyWrapper a)
-    // Offset: 0x14916A4
+    // Offset: 0x1202704
     System::Reflection::Assembly* $Run$b__16_0(UnityEngine::TestTools::Utils::IAssemblyWrapper* a);
     // public System.Void .ctor()
-    // Offset: 0x149169C
+    // Offset: 0x12026FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

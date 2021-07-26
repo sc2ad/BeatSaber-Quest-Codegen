@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -36,13 +37,13 @@ namespace System::Threading {
     // Set instance field: private System.Int32 m_count
     void _set_m_count(int value);
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0xEEA884
+    // Offset: 0xD7E83C
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0xEEA8B4
+    // Offset: 0xD7E86C
     void SpinOnce();
     // public System.Void Reset()
-    // Offset: 0xEEA8BC
+    // Offset: 0xD7E874
     void Reset();
   }; // System.Threading.SpinWait
   #pragma pack(pop)

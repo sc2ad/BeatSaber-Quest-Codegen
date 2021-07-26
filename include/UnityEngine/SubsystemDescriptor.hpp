@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ISubsystemDescriptor
 #include "UnityEngine/ISubsystemDescriptor.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -19,7 +20,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SubsystemDescriptor : public ::Il2CppObject/*, public UnityEngine::ISubsystemDescriptor*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xD936C8
+    // [DebuggerBrowsableAttribute] Offset: 0xE402E4
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -41,10 +42,10 @@ namespace UnityEngine {
     // Set instance field: private System.String <id>k__BackingField
     void _set_$id$k__BackingField(::Il2CppString* value);
     // public System.String get_id()
-    // Offset: 0x23C59D4
+    // Offset: 0x1E3CFCC
     ::Il2CppString* get_id();
     // protected System.Void .ctor()
-    // Offset: 0x23C59DC
+    // Offset: 0x1E3CFD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

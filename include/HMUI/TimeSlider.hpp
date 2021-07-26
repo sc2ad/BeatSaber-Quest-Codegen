@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.RangeValuesTextSlider
 #include "HMUI/RangeValuesTextSlider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,7 +76,7 @@ namespace HMUI {
     // Set instance field: private HMUI.TimeSlider/HMUI.TimeType _timeType
     void _set__timeType(HMUI::TimeSlider::TimeType value);
     // public System.Void .ctor()
-    // Offset: 0x12A2FAC
+    // Offset: 0x10786E8
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -92,7 +93,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TimeSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x12A2DF4
+    // Offset: 0x1078530
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);

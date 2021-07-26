@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SimpleValueMissionObjectiveChecker
 #include "GlobalNamespace/SimpleValueMissionObjectiveChecker.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,7 +31,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xE06E08
+    // [InjectAttribute] Offset: 0xEB3A24
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly BeatmapObjectManager _beatmapObjectManager
     void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
     // protected System.Void OnDestroy()
-    // Offset: 0x112F574
+    // Offset: 0x1F5FF88
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x112F614
+    // Offset: 0x1F60028
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x112F700
+    // Offset: 0x1F60114
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -65,7 +66,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x112F3EC
+    // Offset: 0x1F5FE00
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

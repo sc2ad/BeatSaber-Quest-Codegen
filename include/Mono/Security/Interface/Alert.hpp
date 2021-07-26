@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Interface.AlertLevel
 #include "Mono/Security/Interface/AlertLevel.hpp"
 // Including type: Mono.Security.Interface.AlertDescription
@@ -44,23 +45,23 @@ namespace Mono::Security::Interface {
     // Set instance field: private Mono.Security.Interface.AlertDescription description
     void _set_description(Mono::Security::Interface::AlertDescription value);
     // public Mono.Security.Interface.AlertLevel get_Level()
-    // Offset: 0x1DDDC54
+    // Offset: 0x1950834
     Mono::Security::Interface::AlertLevel get_Level();
     // public Mono.Security.Interface.AlertDescription get_Description()
-    // Offset: 0x1DDDC5C
+    // Offset: 0x195083C
     Mono::Security::Interface::AlertDescription get_Description();
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description)
-    // Offset: 0x1DDDC64
+    // Offset: 0x1950844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Alert* New_ctor(Mono::Security::Interface::AlertDescription description) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::Alert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Alert*, creationType>(description)));
     }
     // private System.Void inferAlertLevel()
-    // Offset: 0x1DDDCDC
+    // Offset: 0x19508BC
     void inferAlertLevel();
     // public override System.String ToString()
-    // Offset: 0x1DDDD1C
+    // Offset: 0x19508FC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

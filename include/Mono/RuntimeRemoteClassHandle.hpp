@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
@@ -46,7 +47,7 @@ namespace Mono {
     // Set instance field: private Mono.RuntimeStructs/Mono.RemoteClass* value
     void _set_value(Mono::RuntimeStructs::RemoteClass* value);
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0xEECFD0
+    // Offset: 0xD80F88
     Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -62,7 +63,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::LanguagePackInfo* LanguageOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::LanguagePackInfo*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEACF4
+    // [ObsoleteAttribute] Offset: 0xE98910
     // public readonly Oculus.Platform.Models.LanguagePackInfo Language
     // Size: 0x8
     // Offset: 0x40
@@ -110,7 +111,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String Metadata
     void _set_Metadata(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x149F964
+    // Offset: 0x20FB7D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetDetails* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetDetails::.ctor");

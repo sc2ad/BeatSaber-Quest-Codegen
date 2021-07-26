@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
 // Completed includes
@@ -18,10 +19,10 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Token
     Token() noexcept {}
     // static public System.Void Check(System.String s)
-    // Offset: 0x156AAE4
+    // Offset: 0x126F0B4
     static void Check(::Il2CppString* s);
     // static public System.Boolean TryCheck(System.String s)
-    // Offset: 0x15669B4
+    // Offset: 0x126AF84
     static bool TryCheck(::Il2CppString* s);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Token
   #pragma pack(pop)

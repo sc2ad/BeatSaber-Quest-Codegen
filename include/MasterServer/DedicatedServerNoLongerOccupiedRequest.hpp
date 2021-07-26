@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableRequest
 #include "GlobalNamespace/BaseMasterServerReliableRequest.hpp"
 // Including type: MasterServer.IDedicatedServerClientToServerMessage
@@ -77,25 +78,25 @@ namespace MasterServer {
     // Set instance field: public System.String id
     void _set_id(::Il2CppString* value);
     // static public PacketPool`1<MasterServer.DedicatedServerNoLongerOccupiedRequest> get_pool()
-    // Offset: 0x12D2538
+    // Offset: 0x208CA48
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerNoLongerOccupiedRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x12D2580
+    // Offset: 0x208CA90
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x12D2588
+    // Offset: 0x208CA98
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x12D2590
+    // Offset: 0x208CAA0
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x12D2598
+    // Offset: 0x208CAA8
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerNoLongerOccupiedRequest Init(System.String dedicatedServerId, System.String id)
-    // Offset: 0x12D2698
+    // Offset: 0x208CBA8
     MasterServer::DedicatedServerNoLongerOccupiedRequest* Init(::Il2CppString* dedicatedServerId, ::Il2CppString* id);
     // public System.Void .ctor()
-    // Offset: 0x12D26A4
+    // Offset: 0x208CBB4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -105,17 +106,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerNoLongerOccupiedRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D25A0
+    // Offset: 0x208CAB0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D25EC
+    // Offset: 0x208CAFC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12D263C
+    // Offset: 0x208CB4C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

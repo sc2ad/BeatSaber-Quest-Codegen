@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
@@ -51,16 +52,16 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set instance field: private System.String info
     void _set_info(::Il2CppString* value);
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
-    // Offset: 0xEE9B64
+    // Offset: 0xD7DB1C
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
     // public System.Void set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0xEE9B6C
+    // Offset: 0xD7DB24
     void set_Status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // public System.Void set_StatusInformation(System.String value)
-    // Offset: 0xEE9B74
+    // Offset: 0xD7DB2C
     void set_StatusInformation(::Il2CppString* value);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0xEE9B38
+    // Offset: 0xD7DAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainStatus::.ctor");
@@ -68,7 +69,7 @@ namespace System::Security::Cryptography::X509Certificates {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, flag);
     }
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x182DC08
+    // Offset: 0x14FF00C
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
   #pragma pack(pop)

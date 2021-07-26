@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.KeyCode
@@ -241,19 +242,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.CursorLockMode previousCursorLockMode
     void _set_previousCursorLockMode(UnityEngine::CursorLockMode value);
     // private System.Void Start()
-    // Offset: 0x14E5CAC
+    // Offset: 0x122A748
     void Start();
     // private System.Void Update()
-    // Offset: 0x14E5CB0
+    // Offset: 0x122A74C
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0x14E6098
+    // Offset: 0x122AB34
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0x14E63B4
+    // Offset: 0x122AE50
     bool IsTweakingPitch();
     // public System.Void .ctor()
-    // Offset: 0x14E6444
+    // Offset: 0x122AEE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

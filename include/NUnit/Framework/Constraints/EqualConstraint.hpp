@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.Constraint
 #include "NUnit/Framework/Constraints/Constraint.hpp"
 // Including type: NUnit.Framework.Constraints.NUnitEqualityComparer
@@ -54,7 +55,7 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::NUnitEqualityComparer* comparer;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEF9D0
+    // [DebuggerBrowsableAttribute] Offset: 0xE9D5EC
     // private System.Boolean <ClipStrings>k__BackingField
     // Size: 0x1
     // Offset: 0x48
@@ -80,22 +81,22 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: private System.Boolean <ClipStrings>k__BackingField
     void _set_$ClipStrings$k__BackingField(bool value);
     // public NUnit.Framework.Constraints.Tolerance get_Tolerance()
-    // Offset: 0x1716D28
+    // Offset: 0x141A3E4
     NUnit::Framework::Constraints::Tolerance* get_Tolerance();
     // public System.Boolean get_CaseInsensitive()
-    // Offset: 0x1716D30
+    // Offset: 0x141A3EC
     bool get_CaseInsensitive();
     // public System.Boolean get_ClipStrings()
-    // Offset: 0x1716D54
+    // Offset: 0x141A410
     bool get_ClipStrings();
     // private System.Void set_ClipStrings(System.Boolean value)
-    // Offset: 0x1716D5C
+    // Offset: 0x141A418
     void set_ClipStrings(bool value);
     // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> get_FailurePoints()
-    // Offset: 0x1716D68
+    // Offset: 0x141A424
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // public System.Void .ctor(System.Object expected)
-    // Offset: 0x1716BB4
+    // Offset: 0x141A270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EqualConstraint* New_ctor(::Il2CppObject* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::EqualConstraint::.ctor");
@@ -104,19 +105,19 @@ namespace NUnit::Framework::Constraints {
     // private System.Void AdjustArgumentIfNeeded(ref T arg)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void AdjustArgumentIfNeeded(T& arg) {
+    void AdjustArgumentIfNeeded(ByRef<T> arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::EqualConstraint::AdjustArgumentIfNeeded");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AdjustArgumentIfNeeded", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, arg);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, byref(arg));
     }
     // public override System.String get_Description()
-    // Offset: 0x1716EF4
+    // Offset: 0x141A5B0
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x1716D8C
+    // Offset: 0x141A448
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

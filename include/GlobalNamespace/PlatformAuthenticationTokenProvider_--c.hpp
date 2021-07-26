@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlatformAuthenticationTokenProvider
 #include "GlobalNamespace/PlatformAuthenticationTokenProvider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.String,System.Byte> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<::Il2CppString*, uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10FC7D4
+    // Offset: 0x1F4E7E8
     static void _cctor();
     // System.Byte <GetAuthenticationToken>b__10_0(System.String s)
-    // Offset: 0x10FC840
+    // Offset: 0x1F4E854
     uint8_t $GetAuthenticationToken$b__10_0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x10FC838
+    // Offset: 0x1F4E84C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

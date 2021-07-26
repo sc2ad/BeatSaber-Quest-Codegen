@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.BaseConnectToServerRequest
 #include "MasterServer/BaseConnectToServerRequest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -77,13 +78,13 @@ namespace MasterServer {
     // Set instance field: public System.Boolean useRelay
     void _set_useRelay(bool value);
     // static public PacketPool`1<MasterServer.ConnectToUserServerRequest> get_pool()
-    // Offset: 0x12D0D38
+    // Offset: 0x208B248
     static GlobalNamespace::PacketPool_1<MasterServer::ConnectToUserServerRequest*>* get_pool();
     // public MasterServer.ConnectToUserServerRequest Init(System.String userId, System.String userName, System.String secret, System.String code, System.String password, System.Boolean useRelay)
-    // Offset: 0x12D0D80
+    // Offset: 0x208B290
     MasterServer::ConnectToUserServerRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* code, ::Il2CppString* password, bool useRelay);
     // public System.Void .ctor()
-    // Offset: 0x12D0ED4
+    // Offset: 0x208B3E4
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
@@ -94,17 +95,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToUserServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D0D98
+    // Offset: 0x208B2A8
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D0E00
+    // Offset: 0x208B310
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12D0E70
+    // Offset: 0x208B380
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Release()
     void Release();

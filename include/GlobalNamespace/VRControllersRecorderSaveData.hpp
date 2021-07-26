@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -51,7 +52,7 @@ namespace GlobalNamespace {
     // Set instance field: public VRControllersRecorderSaveData/Keyframe[] keyframes
     void _set_keyframes(::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>* value);
     // public System.Void .ctor()
-    // Offset: 0x127A37C
+    // Offset: 0x206E2FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

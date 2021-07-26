@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,7 +17,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioHelpers
     AudioHelpers() noexcept {}
     // static public System.Single NormalizedVolumeToDB(System.Single normalizedVolume)
-    // Offset: 0x120E420
+    // Offset: 0x203AD78
     static float NormalizedVolumeToDB(float normalizedVolume);
   }; // AudioHelpers
   #pragma pack(pop)

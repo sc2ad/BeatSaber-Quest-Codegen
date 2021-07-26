@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerIntroCountdown
 #include "GlobalNamespace/MultiplayerIntroCountdown.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -101,26 +102,26 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <soundDelayAfterText>5__2
     void _set_$soundDelayAfterText$5__2(float value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x11AD9EC
+    // Offset: 0x1FC5458
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x11ADA54
+    // Offset: 0x1FC54C0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x11AD198
+    // Offset: 0x1FC4C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$CountdownRoutine$d__23* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerIntroCountdown::$CountdownRoutine$d__23::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$CountdownRoutine$d__23*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x11AD6BC
+    // Offset: 0x1FC5128
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x11AD6C0
+    // Offset: 0x1FC512C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11AD9F4
+    // Offset: 0x1FC5460
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerIntroCountdown/<CountdownRoutine>d__23
   #pragma pack(pop)

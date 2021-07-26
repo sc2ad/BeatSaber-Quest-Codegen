@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -122,25 +123,25 @@ namespace GlobalNamespace {
     // Set instance field: private ExperimentDefinitionSO/Group _currentUserTreatmentGroup
     void _set__currentUserTreatmentGroup(GlobalNamespace::ExperimentDefinitionSO::Group value);
     // public System.Single get_controlGroupSize()
-    // Offset: 0x10244DC
+    // Offset: 0x1E8EFB0
     float get_controlGroupSize();
     // public System.String get_experimentName()
-    // Offset: 0x10244E4
+    // Offset: 0x1E8EFB8
     ::Il2CppString* get_experimentName();
     // public ExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0x10244EC
+    // Offset: 0x1E8EFC0
     GlobalNamespace::ExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0x10244F4
+    // Offset: 0x1E8EFC8
     void ComputeCurrentUserTreatment(::Il2CppString* userId);
     // public System.Void ForceSetTreatmentGroup(ExperimentDefinitionSO/Group group)
-    // Offset: 0x10246FC
+    // Offset: 0x1E8F1D0
     void ForceSetTreatmentGroup(GlobalNamespace::ExperimentDefinitionSO::Group group);
     // private ExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0x1024518
+    // Offset: 0x1E8EFEC
     GlobalNamespace::ExperimentDefinitionSO::Group AbSplit(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x1024704
+    // Offset: 0x1E8F1D8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

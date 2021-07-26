@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusBeatmapDataAssetFileModel
 #include "GlobalNamespace/OculusBeatmapDataAssetFileModel.hpp"
 // Including type: System.Threading.CancellationToken
@@ -84,10 +85,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
     void _set_taskSource(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
     // System.Void <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDeleteResult> msg)
-    // Offset: 0x11ECFE4
+    // Offset: 0x201B93C
     void $TryDeleteAssetBundleFileForPreviewLevelAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x11ECFDC
+    // Offset: 0x201B934
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

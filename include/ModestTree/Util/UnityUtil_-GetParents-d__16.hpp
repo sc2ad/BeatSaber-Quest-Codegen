@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ModestTree.Util.UnityUtil
 #include "ModestTree/Util/UnityUtil.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -110,35 +111,35 @@ namespace ModestTree::Util {
     // Set instance field: private System.Collections.Generic.IEnumerator`1<UnityEngine.Transform> <>7__wrap1
     void _set_$$7__wrap1(System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>* value);
     // private UnityEngine.Transform System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current()
-    // Offset: 0x13772D0
+    // Offset: 0x111DF30
     UnityEngine::Transform* System_Collections_Generic_IEnumerator$UnityEngine_Transform$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1377338
+    // Offset: 0x111DF98
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1375D68
+    // Offset: 0x111C9C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$GetParents$d__16* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::UnityUtil::$GetParents$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$GetParents$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1376F34
+    // Offset: 0x111DB94
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1377010
+    // Offset: 0x111DC70
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1376F50
+    // Offset: 0x111DBB0
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13772D8
+    // Offset: 0x111DF38
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Transform> System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator()
-    // Offset: 0x1377340
+    // Offset: 0x111DFA0
     System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>* System_Collections_Generic_IEnumerable$UnityEngine_Transform$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x13773EC
+    // Offset: 0x111E04C
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.Util.UnityUtil/ModestTree.Util.<GetParents>d__16
   #pragma pack(pop)

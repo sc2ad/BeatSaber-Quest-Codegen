@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDEA5BC
+    // [DescriptionAttribute] Offset: 0xE981D8
     // static field const value: static public Oculus.Platform.SystemVoipStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Unknown
     static Oculus::Platform::SystemVoipStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Unknown
     static void _set_Unknown(Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0xDEA5F4
+    // [DescriptionAttribute] Offset: 0xE98210
     // static field const value: static public Oculus.Platform.SystemVoipStatus Unavailable
     static constexpr const int Unavailable = 1;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Unavailable
     static Oculus::Platform::SystemVoipStatus _get_Unavailable();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Unavailable
     static void _set_Unavailable(Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0xDEA62C
+    // [DescriptionAttribute] Offset: 0xE98248
     // static field const value: static public Oculus.Platform.SystemVoipStatus Suppressed
     static constexpr const int Suppressed = 2;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Suppressed
     static Oculus::Platform::SystemVoipStatus _get_Suppressed();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Suppressed
     static void _set_Suppressed(Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0xDEA664
+    // [DescriptionAttribute] Offset: 0xE98280
     // static field const value: static public Oculus.Platform.SystemVoipStatus Active
     static constexpr const int Active = 3;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Active

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
@@ -20,10 +21,10 @@ namespace Org::BouncyCastle::Utilities {
     // Set static field: static private System.Int64 NanosecondsPerTick
     static void _set_NanosecondsPerTick(int64_t value);
     // static private System.Void .cctor()
-    // Offset: 0x1F7E208
+    // Offset: 0x1A640C8
     static void _cctor();
     // static public System.Int64 NanoTime()
-    // Offset: 0x1F7E150
+    // Offset: 0x1A64010
     static int64_t NanoTime();
   }; // Org.BouncyCastle.Utilities.Times
   #pragma pack(pop)

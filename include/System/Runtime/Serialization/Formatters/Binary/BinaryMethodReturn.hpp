@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.MessageEnum
 #include "System/Runtime/Serialization/Formatters/Binary/MessageEnum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -110,16 +111,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: private System.Type returnType
     void _set_returnType(System::Type* value);
     // static private System.Void .cctor()
-    // Offset: 0x15D9F0C
+    // Offset: 0x12DD4DC
     static void _cctor();
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x15D9FC4
+    // Offset: 0x12DD594
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Dump()
-    // Offset: 0x15DA104
+    // Offset: 0x12DD6D4
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15D9FB4
+    // Offset: 0x12DD584
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FlyingObjectEffect
 #include "GlobalNamespace/FlyingObjectEffect.hpp"
 // Including type: UnityEngine.Color
@@ -73,10 +74,10 @@ namespace GlobalNamespace {
     // Set instance field: protected UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
-    // Offset: 0x102B800
+    // Offset: 0x1E962D4
     void InitAndPresent(::Il2CppString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
     // public System.Void .ctor()
-    // Offset: 0x102B8F0
+    // Offset: 0x1E963C4
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -90,7 +91,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x102B874
+    // Offset: 0x1E96348
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

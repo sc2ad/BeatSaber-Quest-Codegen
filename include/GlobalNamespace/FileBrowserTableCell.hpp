@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,13 +65,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _highlightImage
     void _set__highlightImage(UnityEngine::UI::Image* value);
     // public System.String get_text()
-    // Offset: 0x1025F84
+    // Offset: 0x1E90A58
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1025F68
+    // Offset: 0x1E90A3C
     void set_text(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1026074
+    // Offset: 0x1E90B48
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -86,12 +87,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1025FA0
+    // Offset: 0x1E90A74
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1026038
+    // Offset: 0x1E90B0C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);

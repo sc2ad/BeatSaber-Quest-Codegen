@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,20 +32,20 @@ namespace Zenject {
     // Creating value type constructor for type: ZenMemberSetterMethod
     ZenMemberSetterMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23B34F0
+    // Offset: 0x1E2C4D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenMemberSetterMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenMemberSetterMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenMemberSetterMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object obj, System.Object value)
-    // Offset: 0x23B3500
+    // Offset: 0x1E2C4E8
     void Invoke(::Il2CppObject* obj, ::Il2CppObject* value);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.Object value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23B38E8
+    // Offset: 0x1E2C8D0
     System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, ::Il2CppObject* value, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23B3918
+    // Offset: 0x1E2C900
     void EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenMemberSetterMethod
   #pragma pack(pop)

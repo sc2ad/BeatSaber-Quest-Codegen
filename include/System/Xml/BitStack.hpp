@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -50,22 +51,22 @@ namespace System::Xml {
     // Set instance field: private System.UInt32 curr
     void _set_curr(uint value);
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x18FDFD0
+    // Offset: 0x15CF3D4
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x18FE100
+    // Offset: 0x15CF504
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x18FE184
+    // Offset: 0x15CF588
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x18FE00C
+    // Offset: 0x15CF410
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x18FE134
+    // Offset: 0x15CF538
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x18FDFA4
+    // Offset: 0x15CF3A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -52,14 +53,14 @@ namespace System {
     // Set instance field: public System.String Name
     void _set_Name(::Il2CppString* value);
     // public System.Void .ctor(System.Int32 offset, System.Boolean is_dst, System.String abbrev)
-    // Offset: 0x1891E10
+    // Offset: 0x1563214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeType* New_ctor(int offset, bool is_dst, ::Il2CppString* abbrev) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeType*, creationType>(offset, is_dst, abbrev)));
     }
     // public override System.String ToString()
-    // Offset: 0x1891E58
+    // Offset: 0x156325C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

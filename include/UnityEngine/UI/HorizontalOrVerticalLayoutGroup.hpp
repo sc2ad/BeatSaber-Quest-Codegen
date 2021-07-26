@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.LayoutGroup
 #include "UnityEngine/UI/LayoutGroup.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,58 +101,58 @@ namespace UnityEngine::UI {
     // Set instance field: protected System.Boolean m_ChildScaleHeight
     void _set_m_ChildScaleHeight(bool value);
     // public System.Single get_spacing()
-    // Offset: 0x18EC51C
+    // Offset: 0x15BD920
     float get_spacing();
     // public System.Void set_spacing(System.Single value)
-    // Offset: 0x18EC524
+    // Offset: 0x15BD928
     void set_spacing(float value);
     // public System.Boolean get_childForceExpandWidth()
-    // Offset: 0x18EC588
+    // Offset: 0x15BD98C
     bool get_childForceExpandWidth();
     // public System.Void set_childForceExpandWidth(System.Boolean value)
-    // Offset: 0x18EC590
+    // Offset: 0x15BD994
     void set_childForceExpandWidth(bool value);
     // public System.Boolean get_childForceExpandHeight()
-    // Offset: 0x18EC5F4
+    // Offset: 0x15BD9F8
     bool get_childForceExpandHeight();
     // public System.Void set_childForceExpandHeight(System.Boolean value)
-    // Offset: 0x18EC5FC
+    // Offset: 0x15BDA00
     void set_childForceExpandHeight(bool value);
     // public System.Boolean get_childControlWidth()
-    // Offset: 0x18EC660
+    // Offset: 0x15BDA64
     bool get_childControlWidth();
     // public System.Void set_childControlWidth(System.Boolean value)
-    // Offset: 0x18EC668
+    // Offset: 0x15BDA6C
     void set_childControlWidth(bool value);
     // public System.Boolean get_childControlHeight()
-    // Offset: 0x18EC6CC
+    // Offset: 0x15BDAD0
     bool get_childControlHeight();
     // public System.Void set_childControlHeight(System.Boolean value)
-    // Offset: 0x18EC6D4
+    // Offset: 0x15BDAD8
     void set_childControlHeight(bool value);
     // public System.Boolean get_childScaleWidth()
-    // Offset: 0x18EC738
+    // Offset: 0x15BDB3C
     bool get_childScaleWidth();
     // public System.Void set_childScaleWidth(System.Boolean value)
-    // Offset: 0x18EC740
+    // Offset: 0x15BDB44
     void set_childScaleWidth(bool value);
     // public System.Boolean get_childScaleHeight()
-    // Offset: 0x18EC7A4
+    // Offset: 0x15BDBA8
     bool get_childScaleHeight();
     // public System.Void set_childScaleHeight(System.Boolean value)
-    // Offset: 0x18EC7AC
+    // Offset: 0x15BDBB0
     void set_childScaleHeight(bool value);
     // protected System.Void CalcAlongAxis(System.Int32 axis, System.Boolean isVertical)
-    // Offset: 0x18EBC94
+    // Offset: 0x15BD098
     void CalcAlongAxis(int axis, bool isVertical);
     // protected System.Void SetChildrenAlongAxis(System.Int32 axis, System.Boolean isVertical)
-    // Offset: 0x18EBF44
+    // Offset: 0x15BD348
     void SetChildrenAlongAxis(int axis, bool isVertical);
     // private System.Void GetChildSizes(UnityEngine.RectTransform child, System.Int32 axis, System.Boolean controlSize, System.Boolean childForceExpand, out System.Single min, out System.Single preferred, out System.Single flexible)
-    // Offset: 0x18EC810
-    void GetChildSizes(UnityEngine::RectTransform* child, int axis, bool controlSize, bool childForceExpand, float& min, float& preferred, float& flexible);
+    // Offset: 0x15BDC14
+    void GetChildSizes(UnityEngine::RectTransform* child, int axis, bool controlSize, bool childForceExpand, ByRef<float> min, ByRef<float> preferred, ByRef<float> flexible);
     // protected System.Void .ctor()
-    // Offset: 0x18EBC54
+    // Offset: 0x15BD058
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -314,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::GetChildSizes
 // Il2CppName: GetChildSizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(UnityEngine::RectTransform*, int, bool, bool, float&, float&, float&)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::GetChildSizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(UnityEngine::RectTransform*, int, bool, bool, ByRef<float>, ByRef<float>, ByRef<float>)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::GetChildSizes)> {
   static const MethodInfo* get() {
     static auto* child = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

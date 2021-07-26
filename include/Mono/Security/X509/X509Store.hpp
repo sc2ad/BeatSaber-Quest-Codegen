@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -86,35 +87,35 @@ namespace Mono::Security::X509 {
     // Set instance field: private System.Boolean _newFormat
     void _set__newFormat(bool value);
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x23828E4
+    // Offset: 0x1E02EA8
     Mono::Security::X509::X509CertificateCollection* get_Certificates();
     // public System.Collections.ArrayList get_Crls()
-    // Offset: 0x2382AE8
+    // Offset: 0x1E030AC
     System::Collections::ArrayList* get_Crls();
     // System.Void .ctor(System.String path, System.Boolean crl, System.Boolean newFormat)
-    // Offset: 0x2382898
+    // Offset: 0x1E02E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(::Il2CppString* path, bool crl, bool newFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(path, crl, newFormat)));
     }
     // private System.Byte[] Load(System.String filename)
-    // Offset: 0x2382D40
+    // Offset: 0x1E03304
     ::Array<uint8_t>* Load(::Il2CppString* filename);
     // private Mono.Security.X509.X509Certificate LoadCertificate(System.String filename)
-    // Offset: 0x2382EB8
+    // Offset: 0x1E0347C
     Mono::Security::X509::X509Certificate* LoadCertificate(::Il2CppString* filename);
     // private Mono.Security.X509.X509Crl LoadCrl(System.String filename)
-    // Offset: 0x2382F28
+    // Offset: 0x1E034EC
     Mono::Security::X509::X509Crl* LoadCrl(::Il2CppString* filename);
     // private System.Boolean CheckStore(System.String path, System.Boolean throwException)
-    // Offset: 0x2382F98
+    // Offset: 0x1E0355C
     bool CheckStore(::Il2CppString* path, bool throwException);
     // private Mono.Security.X509.X509CertificateCollection BuildCertificatesCollection(System.String storeName)
-    // Offset: 0x2382918
+    // Offset: 0x1E02EDC
     Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::Il2CppString* storeName);
     // private System.Collections.ArrayList BuildCrlsCollection(System.String storeName)
-    // Offset: 0x2382B78
+    // Offset: 0x1E0313C
     System::Collections::ArrayList* BuildCrlsCollection(::Il2CppString* storeName);
   }; // Mono.Security.X509.X509Store
   #pragma pack(pop)

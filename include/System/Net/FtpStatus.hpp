@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.FtpStatusCode
 #include "System/Net/FtpStatusCode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace System::Net {
     // Set instance field: private readonly System.String statusDescription
     void _set_statusDescription(::Il2CppString* value);
     // public System.Net.FtpStatusCode get_StatusCode()
-    // Offset: 0x16A8148
+    // Offset: 0x13AA804
     System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x16A8150
+    // Offset: 0x13AA80C
     ::Il2CppString* get_StatusDescription();
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x16A810C
+    // Offset: 0x13AA7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpStatus::.ctor");

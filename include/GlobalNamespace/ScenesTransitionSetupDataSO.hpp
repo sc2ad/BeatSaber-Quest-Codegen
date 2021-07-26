@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,22 +59,22 @@ namespace GlobalNamespace {
     // Set instance field: private SceneSetupData[] <sceneSetupDataArray>k__BackingField
     void _set_$sceneSetupDataArray$k__BackingField(::Array<GlobalNamespace::SceneSetupData*>* value);
     // public SceneInfo[] get_scenes()
-    // Offset: 0x12220F4
+    // Offset: 0x204EA4C
     ::Array<GlobalNamespace::SceneInfo*>* get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
-    // Offset: 0x12220FC
+    // Offset: 0x204EA54
     void set_scenes(::Array<GlobalNamespace::SceneInfo*>* value);
     // public SceneSetupData[] get_sceneSetupDataArray()
-    // Offset: 0x1222104
+    // Offset: 0x204EA5C
     ::Array<GlobalNamespace::SceneSetupData*>* get_sceneSetupDataArray();
     // private System.Void set_sceneSetupDataArray(SceneSetupData[] value)
-    // Offset: 0x122210C
+    // Offset: 0x204EA64
     void set_sceneSetupDataArray(::Array<GlobalNamespace::SceneSetupData*>* value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
-    // Offset: 0x12155D0
+    // Offset: 0x2041F28
     void Init(::Array<GlobalNamespace::SceneInfo*>* scenes, ::Array<GlobalNamespace::SceneSetupData*>* sceneSetupData);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1217E40
+    // Offset: 0x2044798
     void InstallBindings(Zenject::DiContainer* container);
     // public T Get()
     // Offset: 0xFFFFFFFF
@@ -86,7 +87,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0x12155E0
+    // Offset: 0x2041F38
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

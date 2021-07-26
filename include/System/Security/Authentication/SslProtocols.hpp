@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -56,14 +57,14 @@ namespace System::Security::Authentication {
     static System::Security::Authentication::SslProtocols _get_Tls();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls
     static void _set_Tls(System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0xD76048
+    // [MonoTODOAttribute] Offset: 0xE22C64
     // static field const value: static public System.Security.Authentication.SslProtocols Tls11
     static constexpr const int Tls11 = 768;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls11
     static System::Security::Authentication::SslProtocols _get_Tls11();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls11
     static void _set_Tls11(System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0xD76080
+    // [MonoTODOAttribute] Offset: 0xE22C9C
     // static field const value: static public System.Security.Authentication.SslProtocols Tls12
     static constexpr const int Tls12 = 3072;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls12

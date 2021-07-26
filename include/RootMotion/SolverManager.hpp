@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,7 +31,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class SolverManager : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xDF2708
+    // [TooltipAttribute] Offset: 0xE9F324
     // public System.Boolean fixTransforms
     // Size: 0x1
     // Offset: 0x18
@@ -98,49 +99,49 @@ namespace RootMotion {
     // Set instance field: private System.Boolean skipSolverUpdate
     void _set_skipSolverUpdate(bool value);
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1AC8738
+    // Offset: 0x173FF88
     bool get_animatePhysics();
     // private System.Boolean get_isAnimated()
-    // Offset: 0x1AC8A34
+    // Offset: 0x1740284
     bool get_isAnimated();
     // public System.Void Disable()
-    // Offset: 0x1AC8600
+    // Offset: 0x173FE50
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x1AC8698
+    // Offset: 0x173FEE8
     void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x1AC869C
+    // Offset: 0x173FEEC
     void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x1AC86A0
+    // Offset: 0x173FEF0
     void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x1AC86A4
+    // Offset: 0x173FEF4
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x1AC8734
+    // Offset: 0x173FF84
     void Start();
     // private System.Void Initiate()
-    // Offset: 0x1AC86DC
+    // Offset: 0x173FF2C
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x1AC89E8
+    // Offset: 0x1740238
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x1AC8828
+    // Offset: 0x1740078
     void FindAnimatorRecursive(UnityEngine::Transform* t, bool findInChildren);
     // private System.Void FixedUpdate()
-    // Offset: 0x1AC8AF0
+    // Offset: 0x1740340
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1AC8B4C
+    // Offset: 0x174039C
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x1AC8BA8
+    // Offset: 0x17403F8
     void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x1AB7800
+    // Offset: 0x172F050
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

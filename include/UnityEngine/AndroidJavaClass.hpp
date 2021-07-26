@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AndroidJavaObject
 #include "UnityEngine/AndroidJavaObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,17 +23,17 @@ namespace UnityEngine {
     // Creating value type constructor for type: AndroidJavaClass
     AndroidJavaClass() noexcept {}
     // public System.Void .ctor(System.String className)
-    // Offset: 0x2351CE8
+    // Offset: 0x1DD9128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaClass* New_ctor(::Il2CppString* className) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaClass*, creationType>(className)));
     }
     // private System.Void _AndroidJavaClass(System.String className)
-    // Offset: 0x2351D70
+    // Offset: 0x1DD91B0
     void _AndroidJavaClass(::Il2CppString* className);
     // System.Void .ctor(System.IntPtr jclass)
-    // Offset: 0x2351F84
+    // Offset: 0x1DD93C4
     // Implemented from: UnityEngine.AndroidJavaObject
     // Base method: System.Void AndroidJavaObject::.ctor(System.IntPtr jclass)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

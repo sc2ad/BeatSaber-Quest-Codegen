@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -67,16 +68,16 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single intensity
     void _set_intensity(float value);
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
-    // Offset: 0x1DF816C
+    // Offset: 0x196AD4C
     static System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* get_lights();
     // protected System.Void OnEnable()
-    // Offset: 0x1DF81D4
+    // Offset: 0x196ADB4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DF8258
+    // Offset: 0x196AE38
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1DF82DC
+    // Offset: 0x196AEBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -89,7 +90,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PointLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DF82E4
+    // Offset: 0x196AEC4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

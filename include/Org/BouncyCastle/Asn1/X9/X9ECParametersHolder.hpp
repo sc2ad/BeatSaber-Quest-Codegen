@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -41,13 +42,13 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Set instance field: private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
     void _set_parameters(Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
-    // Offset: 0x19E488C
+    // Offset: 0x169B980
     Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
     // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
     // protected System.Void .ctor()
-    // Offset: 0x19E4928
+    // Offset: 0x169BA1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

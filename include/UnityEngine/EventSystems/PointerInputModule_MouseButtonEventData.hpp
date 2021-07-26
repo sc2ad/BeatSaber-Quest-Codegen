@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.PointerInputModule
 #include "UnityEngine/EventSystems/PointerInputModule.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState
@@ -52,13 +53,13 @@ namespace UnityEngine::EventSystems {
     // Set instance field: public UnityEngine.EventSystems.PointerEventData buttonData
     void _set_buttonData(UnityEngine::EventSystems::PointerEventData* value);
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x14080EC
+    // Offset: 0x11B0D4C
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x1408100
+    // Offset: 0x11B0D60
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x1408114
+    // Offset: 0x11B0D74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

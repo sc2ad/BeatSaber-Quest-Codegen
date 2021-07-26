@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,22 +35,22 @@ namespace Oculus::Platform {
     // Set instance field: public System.Boolean IsPersistantBetweenSceneLoads
     void _set_IsPersistantBetweenSceneLoads(bool value);
     // static private System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0x1494574
+    // Offset: 0x20F03E8
     static void ovr_UnityResetTestPlatform();
     // private System.Void Awake()
-    // Offset: 0x14945E4
+    // Offset: 0x20F0458
     void Awake();
     // private System.Void Update()
-    // Offset: 0x14946E0
+    // Offset: 0x20F0554
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x14946EC
+    // Offset: 0x20F0560
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0x14946F0
+    // Offset: 0x20F0564
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x149474C
+    // Offset: 0x20F05C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

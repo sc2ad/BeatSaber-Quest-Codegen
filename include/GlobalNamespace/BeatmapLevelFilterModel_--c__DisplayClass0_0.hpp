@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapLevelFilterModel
 #include "GlobalNamespace/BeatmapLevelFilterModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,10 +77,10 @@ namespace GlobalNamespace {
     // Set instance field: public PlayerDataModel playerDataModel
     void _set_playerDataModel(GlobalNamespace::PlayerDataModel* value);
     // System.Boolean <FilerBeatmapLevelPackCollectionAsync>b__0(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x11986EC
+    // Offset: 0x1EE422C
     bool $FilerBeatmapLevelPackCollectionAsync$b__0(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x11986E4
+    // Offset: 0x1EE4224
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

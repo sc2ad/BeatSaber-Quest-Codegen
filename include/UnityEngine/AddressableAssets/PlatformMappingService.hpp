@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.RuntimePlatform
 #include "UnityEngine/RuntimePlatform.hpp"
 // Including type: UnityEngine.AddressableAssets.AddressablesPlatform
@@ -36,22 +37,22 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping
     static void _set_s_RuntimeTargetMapping(System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform, UnityEngine::AddressableAssets::AddressablesPlatform>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13CAC74
+    // Offset: 0x11738D4
     static void _cctor();
     // static UnityEngine.AddressableAssets.AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x13CA9C8
+    // Offset: 0x1173628
     static UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine::RuntimePlatform platform);
     // static System.String GetAddressablesPlatformPathInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x13CAA9C
+    // Offset: 0x11736FC
     static ::Il2CppString* GetAddressablesPlatformPathInternal(UnityEngine::RuntimePlatform platform);
     // static public UnityEngine.AddressableAssets.AddressablesPlatform GetPlatform()
-    // Offset: 0x13CABFC
+    // Offset: 0x117385C
     static UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
     // static public System.String GetPlatformPathSubFolder()
-    // Offset: 0x13BD964
+    // Offset: 0x11665C4
     static ::Il2CppString* GetPlatformPathSubFolder();
     // public System.Void .ctor()
-    // Offset: 0x13CAC6C
+    // Offset: 0x11738CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

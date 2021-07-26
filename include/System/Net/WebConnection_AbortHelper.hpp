@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebConnection
 #include "System/Net/WebConnection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace System::Net {
     // Set instance field: public System.Net.WebConnection Connection
     void _set_Connection(System::Net::WebConnection* value);
     // public System.Void Abort(System.Object sender, System.EventArgs args)
-    // Offset: 0x1595E44
+    // Offset: 0x1299414
     void Abort(::Il2CppObject* sender, System::EventArgs* args);
     // public System.Void .ctor()
-    // Offset: 0x158FAA0
+    // Offset: 0x1293070
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

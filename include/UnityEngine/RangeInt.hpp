@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,10 +47,10 @@ namespace UnityEngine {
     // Set instance field: public System.Int32 length
     void _set_length(int value);
     // public System.Int32 get_end()
-    // Offset: 0xEF51A4
+    // Offset: 0xF84094
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
-    // Offset: 0xEF51B0
+    // Offset: 0xF840A0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RangeInt(int start, int length)
   }; // UnityEngine.RangeInt

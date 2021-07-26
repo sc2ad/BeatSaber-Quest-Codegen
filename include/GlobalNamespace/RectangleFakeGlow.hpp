@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector2
@@ -51,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: color and: materialPropertyBlockController
     char __padding2[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE058DC
+    // [SpaceAttribute] Offset: 0xEB24F8
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
@@ -62,12 +63,12 @@ namespace GlobalNamespace {
     RectangleFakeGlow(UnityEngine::Vector2 size_ = {}, float edgeSize_ = {}, UnityEngine::Color color_ = {}, GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}) noexcept : size{size_}, edgeSize{edgeSize_}, color{color_}, materialPropertyBlockController{materialPropertyBlockController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE05914
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEB2530
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE05924
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEB2540
     // Get static field: static private readonly System.Int32 _sizeParamsID
     static int _get__sizeParamsID();
     // Set static field: static private readonly System.Int32 _sizeParamsID
@@ -89,25 +90,25 @@ namespace GlobalNamespace {
     // Set instance field: private MaterialPropertyBlockController _materialPropertyBlockController
     void _set__materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1142730
+    // Offset: 0x1F73144
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1142654
+    // Offset: 0x1F73068
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x114273C
+    // Offset: 0x1F73150
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x11427B4
+    // Offset: 0x1F731C8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11429B4
+    // Offset: 0x1F733C8
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x1142834
+    // Offset: 0x1F73248
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1142A2C
+    // Offset: 0x1F73440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -120,7 +121,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlow*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1142A90
+    // Offset: 0x1F734A4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

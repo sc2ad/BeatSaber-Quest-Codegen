@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RuntimeLightWithIds
 #include "GlobalNamespace/RuntimeLightWithIds.hpp"
 // Including type: LightWithIds/LightData
@@ -46,13 +47,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _intensity
     void _set__intensity(float value);
     // public System.Single get_intensity()
-    // Offset: 0x1DF90F4
+    // Offset: 0x196BCD4
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1DF90FC
+    // Offset: 0x196BCDC
     void set_intensity(float value);
     // public System.Void .ctor()
-    // Offset: 0x1DF911C
+    // Offset: 0x196BCFC
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds::LightIntensitiesData*, creationType>()));
     }
     // protected override UnityEngine.Color ProcessColor(UnityEngine.Color newColor)
-    // Offset: 0x1DF9104
+    // Offset: 0x196BCE4
     // Implemented from: LightWithIds/LightData
     // Base method: UnityEngine.Color LightData::ProcessColor(UnityEngine.Color newColor)
     UnityEngine::Color ProcessColor(UnityEngine::Color newColor);

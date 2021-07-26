@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.TestApiLeaderboardsModel
 #include "OnlineServices/API/TestApiLeaderboardsModel.hpp"
 // Including type: System.ValueType
@@ -69,10 +70,10 @@ namespace OnlineServices::API {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> value);
     // private System.Void MoveNext()
-    // Offset: 0xECF898
+    // Offset: 0xF7B4DC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECF8A0
+    // Offset: 0xF7B4E4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/OnlineServices.API.<GetLeaderboardEntriesAsync>d__1
   // WARNING Not writing size check since size may be invalid!

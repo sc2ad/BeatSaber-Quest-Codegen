@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -30,23 +31,23 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeMarshal
     RuntimeMarshal() noexcept {}
     // static System.String PtrToUtf8String(System.IntPtr ptr)
-    // Offset: 0x1A216C4
+    // Offset: 0x16D87B8
     static ::Il2CppString* PtrToUtf8String(System::IntPtr ptr);
     // static Mono.SafeStringMarshal MarshalString(System.String str)
-    // Offset: 0x1A21794
+    // Offset: 0x16D8888
     static Mono::SafeStringMarshal MarshalString(::Il2CppString* str);
     // static private System.Int32 DecodeBlobSize(System.IntPtr in_ptr, out System.IntPtr out_ptr)
-    // Offset: 0x1A2182C
-    static int DecodeBlobSize(System::IntPtr in_ptr, System::IntPtr& out_ptr);
+    // Offset: 0x16D8920
+    static int DecodeBlobSize(System::IntPtr in_ptr, ByRef<System::IntPtr> out_ptr);
     // static System.Byte[] DecodeBlobArray(System.IntPtr ptr)
-    // Offset: 0x1A218B0
+    // Offset: 0x16D89A4
     static ::Array<uint8_t>* DecodeBlobArray(System::IntPtr ptr);
     // static System.Int32 AsciHexDigitValue(System.Int32 c)
-    // Offset: 0x1A2196C
+    // Offset: 0x16D8A60
     static int AsciHexDigitValue(int c);
     // static System.Void FreeAssemblyName(ref Mono.MonoAssemblyName name, System.Boolean freeStruct)
-    // Offset: 0x1A21998
-    static void FreeAssemblyName(Mono::MonoAssemblyName& name, bool freeStruct);
+    // Offset: 0x16D8A8C
+    static void FreeAssemblyName(ByRef<Mono::MonoAssemblyName> name, bool freeStruct);
   }; // Mono.RuntimeMarshal
   #pragma pack(pop)
 }
@@ -74,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::SafeS
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::DecodeBlobSize
 // Il2CppName: DecodeBlobSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::IntPtr&)>(&Mono::RuntimeMarshal::DecodeBlobSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ByRef<System::IntPtr>)>(&Mono::RuntimeMarshal::DecodeBlobSize)> {
   static const MethodInfo* get() {
     static auto* in_ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* out_ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -102,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::FreeAssemblyName
 // Il2CppName: FreeAssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::MonoAssemblyName&, bool)>(&Mono::RuntimeMarshal::FreeAssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<Mono::MonoAssemblyName>, bool)>(&Mono::RuntimeMarshal::FreeAssemblyName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("Mono", "MonoAssemblyName")->this_arg;
     static auto* freeStruct = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

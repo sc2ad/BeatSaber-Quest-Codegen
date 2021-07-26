@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.__Il2CppComObject
 #include "System/__Il2CppComObject.hpp"
 // Completed includes
@@ -18,7 +19,7 @@ namespace System {
     // Creating value type constructor for type: __Il2CppComDelegate
     __Il2CppComDelegate() noexcept {}
     // protected override System.Void Finalize()
-    // Offset: 0x22D8108
+    // Offset: 0x1D9363C
     // Implemented from: System.__Il2CppComObject
     // Base method: System.Void __Il2CppComObject::Finalize()
     void Finalize();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.ICollection
@@ -40,10 +41,10 @@ namespace System::Collections::Concurrent {
     }
     // public System.Boolean TryTake(out T item)
     // Offset: 0xFFFFFFFF
-    bool TryTake(T& item) {
+    bool TryTake(ByRef<T> item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::IProducerConsumerCollection_1::TryTake");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryTake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(item));
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF

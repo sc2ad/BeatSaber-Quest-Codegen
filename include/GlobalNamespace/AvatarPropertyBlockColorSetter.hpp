@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -91,7 +92,7 @@ namespace GlobalNamespace {
     AvatarPropertyBlockColorSetter(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}, bool editInPlayMode_ = {}, UnityEngine::Renderer* renderer_ = {}, UnityEngine::Color rimLightColor_ = {}, UnityEngine::Color mainColor_ = {}, UnityEngine::Color boostColor_ = {}, bool highlighted_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_}, editInPlayMode{editInPlayMode_}, renderer{renderer_}, rimLightColor{rimLightColor_}, mainColor{mainColor_}, boostColor{boostColor_}, highlighted{highlighted_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDFF888
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEAC4A4
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -133,25 +134,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _highlighted
     void _set__highlighted(bool value);
     // protected System.Void Awake()
-    // Offset: 0x10E1498
+    // Offset: 0x1F324AC
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x10E14D0
+    // Offset: 0x1F324E4
     void OnValidate();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x10E15A0
+    // Offset: 0x1F325B4
     void SetColor(UnityEngine::Color color);
     // private System.Void SetColors(UnityEngine.Color mainColor, UnityEngine.Color rimLightColor)
-    // Offset: 0x10E1640
+    // Offset: 0x1F32654
     void SetColors(UnityEngine::Color mainColor, UnityEngine::Color rimLightColor);
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x10E17B8
+    // Offset: 0x1F327CC
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x10E1654
+    // Offset: 0x1F32668
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0x10E17C4
+    // Offset: 0x1F327D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

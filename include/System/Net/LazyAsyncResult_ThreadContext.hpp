@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.LazyAsyncResult
 #include "System/Net/LazyAsyncResult.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace System::Net {
     // Set instance field: System.Int32 m_NestedIOCount
     void _set_m_NestedIOCount(int value);
     // public System.Void .ctor()
-    // Offset: 0x1641818
+    // Offset: 0x1343ED4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

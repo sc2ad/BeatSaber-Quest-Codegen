@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AssetReferenceT`1
 #include "UnityEngine/AddressableAssets/AssetReferenceT_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace UnityEngine::AddressableAssets {
     // Creating value type constructor for type: AssetReferenceGameObject
     AssetReferenceGameObject() noexcept {}
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x13C51A8
+    // Offset: 0x116DE08
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)

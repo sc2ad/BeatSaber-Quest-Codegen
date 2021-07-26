@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -28,10 +29,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: X9IntegerConverter
     X9IntegerConverter() noexcept {}
     // static public System.Int32 GetByteLength(Org.BouncyCastle.Math.EC.ECFieldElement fe)
-    // Offset: 0x19E9630
+    // Offset: 0x16A0724
     static int GetByteLength(Org::BouncyCastle::Math::EC::ECFieldElement* fe);
     // static public System.Byte[] IntegerToBytes(Org.BouncyCastle.Math.BigInteger s, System.Int32 qLength)
-    // Offset: 0x19E9668
+    // Offset: 0x16A075C
     static ::Array<uint8_t>* IntegerToBytes(Org::BouncyCastle::Math::BigInteger* s, int qLength);
   }; // Org.BouncyCastle.Asn1.X9.X9IntegerConverter
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ListSettingsController
 #include "GlobalNamespace/ListSettingsController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: limitNumberOfElements and: numberOfElementsLimit
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE0E200
+    // [DrawIfAttribute] Offset: 0xEBAE1C
     // private System.Int32 _numberOfElementsLimit
     // Size: 0x4
     // Offset: 0x3C
@@ -74,7 +75,7 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _numberOfElementsLimit
     void _set__numberOfElementsLimit(int value);
     // public System.Void .ctor()
-    // Offset: 0x1109ED4
+    // Offset: 0x1F5BEE8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -89,17 +90,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PresetsSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1109CDC
+    // Offset: 0x1F5BCF0
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    bool GetInitValues(int& idx, int& numberOfElements);
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1109E08
+    // Offset: 0x1F5BE1C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x1109E70
+    // Offset: 0x1F5BE84
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
@@ -117,7 +118,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresetsSettingsController*, "", "Presets
 // Writing MetadataGetter for method: GlobalNamespace::PresetsSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PresetsSettingsController::*)(int&, int&)>(&GlobalNamespace::PresetsSettingsController::GetInitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PresetsSettingsController::*)(ByRef<int>, ByRef<int>)>(&GlobalNamespace::PresetsSettingsController::GetInitValues)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* numberOfElements = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

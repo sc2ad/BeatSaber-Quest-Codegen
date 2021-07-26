@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableRequest
 #include "GlobalNamespace/BaseMasterServerReliableRequest.hpp"
 // Including type: MasterServer.IMasterServerMultipartMessage
@@ -105,37 +106,37 @@ namespace MasterServer {
     // Set instance field: private readonly System.Byte[] _data
     void _set__data(::Array<uint8_t>* value);
     // public System.UInt32 get_multipartMessageId()
-    // Offset: 0x12CFA04
+    // Offset: 0x2089F14
     uint get_multipartMessageId();
     // private System.Void set_multipartMessageId(System.UInt32 value)
-    // Offset: 0x12CFA0C
+    // Offset: 0x2089F1C
     void set_multipartMessageId(uint value);
     // public System.Int32 get_offset()
-    // Offset: 0x12CFA14
+    // Offset: 0x2089F24
     int get_offset();
     // private System.Void set_offset(System.Int32 value)
-    // Offset: 0x12CFA1C
+    // Offset: 0x2089F2C
     void set_offset(int value);
     // public System.Int32 get_length()
-    // Offset: 0x12CFA24
+    // Offset: 0x2089F34
     int get_length();
     // private System.Void set_length(System.Int32 value)
-    // Offset: 0x12CFA2C
+    // Offset: 0x2089F3C
     void set_length(int value);
     // public System.Int32 get_totalLength()
-    // Offset: 0x12CFA34
+    // Offset: 0x2089F44
     int get_totalLength();
     // private System.Void set_totalLength(System.Int32 value)
-    // Offset: 0x12CFA3C
+    // Offset: 0x2089F4C
     void set_totalLength(int value);
     // public System.Byte[] get_data()
-    // Offset: 0x12CFA44
+    // Offset: 0x2089F54
     ::Array<uint8_t>* get_data();
     // public MasterServer.BaseMasterServerMultipartMessage Init(System.UInt32 multipartMessageId, System.Byte[] data, System.Int32 offset, System.Int32 length, System.Int32 totalLength)
-    // Offset: 0x12CFA4C
+    // Offset: 0x2089F5C
     MasterServer::BaseMasterServerMultipartMessage* Init(uint multipartMessageId, ::Array<uint8_t>* data, int offset, int length, int totalLength);
     // protected System.Void .ctor()
-    // Offset: 0x12CFC94
+    // Offset: 0x208A1A4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -145,12 +146,12 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerMultipartMessage*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12CFAA8
+    // Offset: 0x2089FB8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12CFB2C
+    // Offset: 0x208A03C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

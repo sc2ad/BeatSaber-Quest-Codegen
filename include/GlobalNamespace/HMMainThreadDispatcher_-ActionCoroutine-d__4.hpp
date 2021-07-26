@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMMainThreadDispatcher
 #include "GlobalNamespace/HMMainThreadDispatcher.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -68,26 +69,26 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action action
     void _set_action(System::Action* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x121A194
+    // Offset: 0x2046AEC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x121A1FC
+    // Offset: 0x2046B54
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1219FF8
+    // Offset: 0x2046950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMMainThreadDispatcher::$ActionCoroutine$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMMainThreadDispatcher::$ActionCoroutine$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher::$ActionCoroutine$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x121A12C
+    // Offset: 0x2046A84
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x121A130
+    // Offset: 0x2046A88
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x121A19C
+    // Offset: 0x2046AF4
     void System_Collections_IEnumerator_Reset();
   }; // HMMainThreadDispatcher/<ActionCoroutine>d__4
   #pragma pack(pop)

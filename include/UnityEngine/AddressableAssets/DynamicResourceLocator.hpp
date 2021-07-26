@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator
 #include "UnityEngine/AddressableAssets/ResourceLocators/IResourceLocator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,26 +73,26 @@ namespace UnityEngine::AddressableAssets {
     // Set instance field: private System.String m_AtlasSpriteProviderId
     void _set_m_AtlasSpriteProviderId(::Il2CppString* value);
     // public System.String get_LocatorId()
-    // Offset: 0x13C5A44
+    // Offset: 0x116E6A4
     ::Il2CppString* get_LocatorId();
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x13C5A8C
+    // Offset: 0x116E6EC
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // private System.String get_AtlasSpriteProviderId()
-    // Offset: 0x13C5AD8
+    // Offset: 0x116E738
     ::Il2CppString* get_AtlasSpriteProviderId();
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl addr)
-    // Offset: 0x13C5EB0
+    // Offset: 0x116EB10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicResourceLocator* New_ctor(UnityEngine::AddressableAssets::AddressablesImpl* addr) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::DynamicResourceLocator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicResourceLocator*, creationType>(addr)));
     }
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x13C5EDC
-    bool Locate(::Il2CppObject* key, System::Type* type, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& locations);
+    // Offset: 0x116EB3C
+    bool Locate(::Il2CppObject* key, System::Type* type, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
     // System.Void CreateDynamicLocations(System.Type type, System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.String locName, System.String subKey, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation mainLoc)
-    // Offset: 0x13C6374
+    // Offset: 0x116EFD4
     void CreateDynamicLocations(System::Type* type, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::Il2CppString* locName, ::Il2CppString* subKey, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* mainLoc);
   }; // UnityEngine.AddressableAssets.DynamicResourceLocator
   #pragma pack(pop)
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::Locate
 // Il2CppName: Locate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::DynamicResourceLocator::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&UnityEngine::AddressableAssets::DynamicResourceLocator::Locate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::DynamicResourceLocator::*)(::Il2CppObject*, System::Type*, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>)>(&UnityEngine::AddressableAssets::DynamicResourceLocator::Locate)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

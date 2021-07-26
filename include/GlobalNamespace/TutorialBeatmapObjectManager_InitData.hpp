@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TutorialBeatmapObjectManager
 #include "GlobalNamespace/TutorialBeatmapObjectManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single cutAngleTolerance
     void _set_cutAngleTolerance(float value);
     // public System.Void .ctor(System.Single cutAngleTolerance)
-    // Offset: 0x1073500
+    // Offset: 0x1EDEFD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialBeatmapObjectManager::InitData* New_ctor(float cutAngleTolerance) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialBeatmapObjectManager::InitData::.ctor");

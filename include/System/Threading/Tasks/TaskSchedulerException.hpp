@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,14 +30,14 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: TaskSchedulerException
     TaskSchedulerException() noexcept {}
     // public System.Void .ctor(System.Exception innerException)
-    // Offset: 0x18866E0
+    // Offset: 0x1557AE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskSchedulerException* New_ctor(System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>(innerException)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1888F10
+    // Offset: 0x155A314
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -46,7 +47,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1888F98
+    // Offset: 0x155A39C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

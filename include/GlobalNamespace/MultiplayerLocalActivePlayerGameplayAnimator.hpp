@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerGameplayAnimator
 #include "GlobalNamespace/MultiplayerGameplayAnimator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
-    // [SpaceAttribute] Offset: 0xE078E0
+    // [SpaceAttribute] Offset: 0xEB44FC
     // private CoreGameHUDController _coreGameHUDController
     // Size: 0x8
     // Offset: 0x68
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPositionHUDController* multiplayerPositionHUDController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPositionHUDController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07928
+    // [InjectAttribute] Offset: 0xEB4544
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x78
@@ -92,19 +93,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _initialized
     void _set__initialized(bool value);
     // private System.Void InitializeIfNeeded()
-    // Offset: 0x23D3D60
+    // Offset: 0x1E76824
     void InitializeIfNeeded();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x23D3FEC
+    // Offset: 0x1E76AB0
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x23D420C
+    // Offset: 0x1E76CD0
     void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // private System.Void <InitializeIfNeeded>b__6_0(System.Single f)
-    // Offset: 0x23D4258
+    // Offset: 0x1E76D1C
     void $InitializeIfNeeded$b__6_0(float f);
     // public System.Void .ctor()
-    // Offset: 0x23D4250
+    // Offset: 0x1E76D14
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -118,17 +119,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerGameplayAnimator*, creationType>()));
     }
     // protected override System.Void OnDestroy()
-    // Offset: 0x23D3C54
+    // Offset: 0x1E76718
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x23D3E24
+    // Offset: 0x1E768E8
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x23D4114
+    // Offset: 0x1E76BD8
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509Helper2
 #include "System/Security/Cryptography/X509Certificates/X509Helper2.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.INativeCertificateHelper
@@ -37,10 +38,10 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
     }
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x1833068
+    // Offset: 0x150446C
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
     // public System.Void .ctor()
-    // Offset: 0x1832FD0
+    // Offset: 0x15043D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

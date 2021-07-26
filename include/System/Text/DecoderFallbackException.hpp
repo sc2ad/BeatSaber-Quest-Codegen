@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ArgumentException
 #include "System/ArgumentException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,14 +52,14 @@ namespace System::Text {
     // Set instance field: private System.Int32 index
     void _set_index(int value);
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1BD56D8
+    // Offset: 0x17C7A70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoderFallbackException* New_ctor(::Il2CppString* message, ::Array<uint8_t>* bytesUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>(message, bytesUnknown, index)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1BD5EF8
+    // Offset: 0x17C8290
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -70,7 +71,7 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>()));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1BD5F6C
+    // Offset: 0x17C8304
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

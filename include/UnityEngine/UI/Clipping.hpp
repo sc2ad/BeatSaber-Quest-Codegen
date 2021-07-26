@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -34,8 +35,8 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Clipping
     Clipping() noexcept {}
     // static public UnityEngine.Rect FindCullAndClipWorldRect(System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> rectMaskParents, out System.Boolean validRect)
-    // Offset: 0x140E864
-    static UnityEngine::Rect FindCullAndClipWorldRect(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* rectMaskParents, bool& validRect);
+    // Offset: 0x11B74C4
+    static UnityEngine::Rect FindCullAndClipWorldRect(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* rectMaskParents, ByRef<bool> validRect);
   }; // UnityEngine.UI.Clipping
   #pragma pack(pop)
 }
@@ -45,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Clipping*, "UnityEngine.UI", "Clipping")
 // Writing MetadataGetter for method: UnityEngine::UI::Clipping::FindCullAndClipWorldRect
 // Il2CppName: FindCullAndClipWorldRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*, bool&)>(&UnityEngine::UI::Clipping::FindCullAndClipWorldRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*, ByRef<bool>)>(&UnityEngine::UI::Clipping::FindCullAndClipWorldRect)> {
   static const MethodInfo* get() {
     static auto* rectMaskParents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.UI", "RectMask2D")})->byval_arg;
     static auto* validRect = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

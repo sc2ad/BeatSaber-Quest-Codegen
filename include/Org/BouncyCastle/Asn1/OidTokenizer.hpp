@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -40,17 +41,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private System.Int32 index
     void _set_index(int value);
     // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x1760200
+    // Offset: 0x14628BC
     bool get_HasMoreTokens();
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x17601D4
+    // Offset: 0x1462890
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
     // public System.String NextToken()
-    // Offset: 0x1760210
+    // Offset: 0x14628CC
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
   #pragma pack(pop)

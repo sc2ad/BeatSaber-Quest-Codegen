@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SelectableStateController`1
 #include "GlobalNamespace/SelectableStateController_1.hpp"
 // Including type: HMUI.NoTransitionsButton
@@ -23,16 +24,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoTransitionButtonSelectableStateController
     NoTransitionButtonSelectableStateController() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x1015B98
+    // Offset: 0x1E6914C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1015C2C
+    // Offset: 0x1E691E0
     void OnDisable();
     // private System.Void HandleNoTransitionButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x1015CC0
+    // Offset: 0x1E69274
     void HandleNoTransitionButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x1015CE4
+    // Offset: 0x1E69298
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()

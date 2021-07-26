@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Nullable`1
@@ -43,39 +44,39 @@ namespace System::Net::Http::Headers {
     // Set instance field: private System.Nullable`1<System.Int64> <To>k__BackingField
     void _set_$To$k__BackingField(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x156C78C
+    // Offset: 0x1270D5C
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x156C798
+    // Offset: 0x1270D68
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x156C7A0
+    // Offset: 0x1270D70
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x156C7AC
+    // Offset: 0x1270D7C
     void set_To(System::Nullable_1<int64_t> value);
     // public System.Void .ctor(System.Nullable`1<System.Int64> from, System.Nullable`1<System.Int64> to)
-    // Offset: 0x156C4E0
+    // Offset: 0x1270AB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeItemHeaderValue* New_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RangeItemHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeItemHeaderValue*, creationType>(from, to)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x156C7B4
+    // Offset: 0x1270D84
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x156C7BC
+    // Offset: 0x1270D8C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x156C8B0
+    // Offset: 0x1270E80
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x156C938
+    // Offset: 0x1270F08
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

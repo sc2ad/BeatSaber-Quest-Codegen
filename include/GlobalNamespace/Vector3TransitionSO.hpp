@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseTransitionSO
 #include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -82,25 +83,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector3 _selectedAndHighlightedState
     void _set__selectedAndHighlightedState(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normalState()
-    // Offset: 0x127CE2C
+    // Offset: 0x2070DAC
     UnityEngine::Vector3 get_normalState();
     // public UnityEngine.Vector3 get_highlightedState()
-    // Offset: 0x127CE38
+    // Offset: 0x2070DB8
     UnityEngine::Vector3 get_highlightedState();
     // public UnityEngine.Vector3 get_pressedState()
-    // Offset: 0x127CE44
+    // Offset: 0x2070DC4
     UnityEngine::Vector3 get_pressedState();
     // public UnityEngine.Vector3 get_disabledState()
-    // Offset: 0x127CE50
+    // Offset: 0x2070DD0
     UnityEngine::Vector3 get_disabledState();
     // public UnityEngine.Vector3 get_selectedState()
-    // Offset: 0x127CE5C
+    // Offset: 0x2070DDC
     UnityEngine::Vector3 get_selectedState();
     // public UnityEngine.Vector3 get_selectedAndHighlightedState()
-    // Offset: 0x127CE68
+    // Offset: 0x2070DE8
     UnityEngine::Vector3 get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x127CE74
+    // Offset: 0x2070DF4
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

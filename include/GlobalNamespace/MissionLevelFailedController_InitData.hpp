@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionLevelFailedController
 #include "GlobalNamespace/MissionLevelFailedController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean autoRestart
     void _set_autoRestart(bool value);
     // public System.Void .ctor(System.Boolean autoRestart)
-    // Offset: 0x11309B8
+    // Offset: 0x1F613CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFailedController::InitData* New_ctor(bool autoRestart) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelFailedController::InitData::.ctor");

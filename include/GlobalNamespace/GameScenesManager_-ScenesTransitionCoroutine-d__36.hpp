@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameScenesManager
 #include "GlobalNamespace/GameScenesManager.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -231,32 +232,32 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap6
     void _set_$$7__wrap6(typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x12191E8
+    // Offset: 0x2045B40
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1219250
+    // Offset: 0x2045BA8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x12172F4
+    // Offset: 0x2043C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$ScenesTransitionCoroutine$d__36* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameScenesManager::$ScenesTransitionCoroutine$d__36::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$ScenesTransitionCoroutine$d__36*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x12185D8
+    // Offset: 0x2044F30
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x12186C0
+    // Offset: 0x2045018
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1218610
+    // Offset: 0x2044F68
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x1218668
+    // Offset: 0x2044FC0
     void $$m__Finally2();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x12191F0
+    // Offset: 0x2045B48
     void System_Collections_IEnumerator_Reset();
   }; // GameScenesManager/<ScenesTransitionCoroutine>d__36
   // WARNING Not writing size check since size may be invalid!

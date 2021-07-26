@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerReliableRequest
 #include "MasterServer/IMasterServerReliableRequest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,25 +50,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.UInt32 <requestId>k__BackingField
     void _set_$requestId$k__BackingField(uint value);
     // public System.UInt32 get_requestId()
-    // Offset: 0x12B9444
+    // Offset: 0x108EB80
     uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x12B944C
+    // Offset: 0x108EB88
     void set_requestId(uint value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12B9454
+    // Offset: 0x108EB90
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12B9478
+    // Offset: 0x108EBB4
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();
     // private MasterServer.IMasterServerReliableRequest MasterServer.IMasterServerReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x12B94AC
+    // Offset: 0x108EBE8
     MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
     // protected System.Void .ctor()
-    // Offset: 0x12B94B4
+    // Offset: 0x108EBF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

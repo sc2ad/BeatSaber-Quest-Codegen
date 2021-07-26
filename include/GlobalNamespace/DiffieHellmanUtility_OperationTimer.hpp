@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DiffieHellmanUtility
 #include "GlobalNamespace/DiffieHellmanUtility.hpp"
 // Including type: System.IDisposable
@@ -55,17 +56,17 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.String _operationName
     void _set__operationName(::Il2CppString* value);
     // private System.Void .ctor(System.String operationName)
-    // Offset: 0x12C1B10
+    // Offset: 0x109724C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::OperationTimer* New_ctor(::Il2CppString* operationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::OperationTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::OperationTimer*, creationType>(operationName)));
     }
     // public System.Void Dispose()
-    // Offset: 0x12C1B9C
+    // Offset: 0x10972D8
     void Dispose();
     // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
-    // Offset: 0x12C1208
+    // Offset: 0x1096944
     static GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::Il2CppString* operation);
   }; // DiffieHellmanUtility/OperationTimer
   #pragma pack(pop)

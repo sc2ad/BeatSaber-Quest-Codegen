@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,25 +66,25 @@ namespace GlobalNamespace {
     // Set instance field: private MissionStage _firstLockedMissionStage
     void _set__firstLockedMissionStage(GlobalNamespace::MissionStage* value);
     // public MissionStage get_firstLockedMissionStage()
-    // Offset: 0x113A03C
+    // Offset: 0x1F6AA50
     GlobalNamespace::MissionStage* get_firstLockedMissionStage();
     // public System.Void UpdateFirtsLockedMissionStage(System.Int32 numberOfClearedMissions)
-    // Offset: 0x1136920
+    // Offset: 0x1F67334
     void UpdateFirtsLockedMissionStage(int numberOfClearedMissions);
     // public System.Void InitStages()
-    // Offset: 0x113A044
+    // Offset: 0x1F6AA58
     void InitStages();
     // public System.Void UpdateStageLockPosition()
-    // Offset: 0x1136BCC
+    // Offset: 0x1F675E0
     void UpdateStageLockPosition();
     // public System.Void UpdateStageLockPositionAnimated(System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x1134B78
+    // Offset: 0x1F6558C
     void UpdateStageLockPositionAnimated(bool animated, float animationDuration);
     // public System.Void UpdateStageLockText(System.Int32 numberOfClearedMissions)
-    // Offset: 0x11369B8
+    // Offset: 0x1F673CC
     void UpdateStageLockText(int numberOfClearedMissions);
     // public System.Void .ctor()
-    // Offset: 0x113A16C
+    // Offset: 0x1F6AB80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

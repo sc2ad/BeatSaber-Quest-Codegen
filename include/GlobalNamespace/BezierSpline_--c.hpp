@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BezierSpline
 #include "GlobalNamespace/BezierSpline.hpp"
 // Including type: UnityEngine.Vector3
@@ -56,22 +57,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_2
     static void _set_$$9__8_2(System::Func_2<UnityEngine::Vector3, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x109B1E0
+    // Offset: 0x1EF3688
     static void _cctor();
     // System.Int32 <SortSourceData>b__6_0(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2)
-    // Offset: 0x109B24C
+    // Offset: 0x1EF36F4
     int $SortSourceData$b__6_0(UnityEngine::Vector3 point1, UnityEngine::Vector3 point2);
     // System.Single <ComputeControlPoints>b__8_0(UnityEngine.Vector3 p)
-    // Offset: 0x109B280
+    // Offset: 0x1EF3728
     float $ComputeControlPoints$b__8_0(UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_1(UnityEngine.Vector3 p)
-    // Offset: 0x109B284
+    // Offset: 0x1EF372C
     float $ComputeControlPoints$b__8_1(UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_2(UnityEngine.Vector3 p)
-    // Offset: 0x109B28C
+    // Offset: 0x1EF3734
     float $ComputeControlPoints$b__8_2(UnityEngine::Vector3 p);
     // public System.Void .ctor()
-    // Offset: 0x109B244
+    // Offset: 0x1EF36EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

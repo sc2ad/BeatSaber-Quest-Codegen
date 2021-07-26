@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRHaptics/OVRHapticsOutput
 #include "GlobalNamespace/OVRHaptics_OVRHapticsOutput.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,19 +52,19 @@ namespace GlobalNamespace {
     // Set instance field: private OVRHapticsClip <Clip>k__BackingField
     void _set_$Clip$k__BackingField(GlobalNamespace::OVRHapticsClip* value);
     // public System.Int32 get_ReadCount()
-    // Offset: 0x14E555C
+    // Offset: 0x1229FF8
     int get_ReadCount();
     // public System.Void set_ReadCount(System.Int32 value)
-    // Offset: 0x14E5564
+    // Offset: 0x122A000
     void set_ReadCount(int value);
     // public OVRHapticsClip get_Clip()
-    // Offset: 0x14E556C
+    // Offset: 0x122A008
     GlobalNamespace::OVRHapticsClip* get_Clip();
     // public System.Void set_Clip(OVRHapticsClip value)
-    // Offset: 0x14E5574
+    // Offset: 0x122A010
     void set_Clip(GlobalNamespace::OVRHapticsClip* value);
     // public System.Void .ctor(OVRHapticsClip clip)
-    // Offset: 0x14E52E0
+    // Offset: 0x1229D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker* New_ctor(GlobalNamespace::OVRHapticsClip* clip) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::.ctor");

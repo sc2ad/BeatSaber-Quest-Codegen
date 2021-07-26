@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
 // Completed includes
@@ -50,16 +51,16 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: SelectionPicker
     SelectionPicker() noexcept {}
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<System.Int32>> PickVerticesInRect(UnityEngine.Camera cam, UnityEngine.Rect rect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selectable, UnityEngine.ProBuilder.PickerOptions options, System.Single pixelsPerPoint)
-    // Offset: 0x14BAED8
+    // Offset: 0x1212428
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<int>*>* PickVerticesInRect(UnityEngine::Camera* cam, UnityEngine::Rect rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selectable, UnityEngine::ProBuilder::PickerOptions options, float pixelsPerPoint);
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> PickFacesInRect(UnityEngine.Camera cam, UnityEngine.Rect rect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selectable, UnityEngine.ProBuilder.PickerOptions options, System.Single pixelsPerPoint)
-    // Offset: 0x14BBBD8
+    // Offset: 0x1213128
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*>* PickFacesInRect(UnityEngine::Camera* cam, UnityEngine::Rect rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selectable, UnityEngine::ProBuilder::PickerOptions options, float pixelsPerPoint);
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Edge>> PickEdgesInRect(UnityEngine.Camera cam, UnityEngine.Rect rect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selectable, UnityEngine.ProBuilder.PickerOptions options, System.Single pixelsPerPoint)
-    // Offset: 0x14BD12C
+    // Offset: 0x121467C
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Edge>*>* PickEdgesInRect(UnityEngine::Camera* cam, UnityEngine::Rect rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selectable, UnityEngine::ProBuilder::PickerOptions options, float pixelsPerPoint);
     // static public UnityEngine.ProBuilder.Face PickFace(UnityEngine.Camera camera, UnityEngine.Vector3 mousePosition, UnityEngine.ProBuilder.ProBuilderMesh pickable)
-    // Offset: 0x14BDE70
+    // Offset: 0x12153C0
     static UnityEngine::ProBuilder::Face* PickFace(UnityEngine::Camera* camera, UnityEngine::Vector3 mousePosition, UnityEngine::ProBuilder::ProBuilderMesh* pickable);
   }; // UnityEngine.ProBuilder.SelectionPicker
   #pragma pack(pop)

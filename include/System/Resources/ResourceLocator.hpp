@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,16 +57,16 @@ namespace System::Resources {
     // Set instance field: System.Int32 _dataPos
     void _set__dataPos(int value);
     // System.Int32 get_DataPosition()
-    // Offset: 0xED5BF0
+    // Offset: 0xD6B830
     int get_DataPosition();
     // System.Object get_Value()
-    // Offset: 0xED5BF8
+    // Offset: 0xD6B838
     ::Il2CppObject* get_Value();
     // System.Void set_Value(System.Object value)
-    // Offset: 0xED5C00
+    // Offset: 0xD6B840
     void set_Value(::Il2CppObject* value);
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
-    // Offset: 0xED5BE4
+    // Offset: 0xD6B824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ResourceLocator(int dataPos, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceLocator::.ctor");
@@ -73,7 +74,7 @@ namespace System::Resources {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dataPos, value);
     }
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
-    // Offset: 0x13E87D8
+    // Offset: 0x1191438
     static bool CanCache(System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceLocator
   #pragma pack(pop)

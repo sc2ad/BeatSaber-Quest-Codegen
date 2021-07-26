@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectSpawnCenter
 #include "GlobalNamespace/BeatmapObjectSpawnCenter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,13 +43,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _distance
     void _set__distance(float value);
     // public System.Int32 get_playerCount()
-    // Offset: 0x1096A10
+    // Offset: 0x1EEEEB8
     int get_playerCount();
     // public System.Single get_distance()
-    // Offset: 0x1096A18
+    // Offset: 0x1EEEEC0
     float get_distance();
     // public System.Void .ctor()
-    // Offset: 0x1096A20
+    // Offset: 0x1EEEEC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PacketEncryptionLayer
 #include "GlobalNamespace/PacketEncryptionLayer.hpp"
 // Including type: System.ValueType
@@ -129,10 +130,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> value);
     // private System.Void MoveNext()
-    // Offset: 0xEDA8C4
+    // Offset: 0xF7DCE8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEDA8CC
+    // Offset: 0xF7DCF0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PacketEncryptionLayer/<AddPendingEncryptedEndpointAsync>d__26
   // WARNING Not writing size check since size may be invalid!

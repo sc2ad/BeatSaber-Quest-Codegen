@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Sockets.Socket
 #include "System/Net/Sockets/Socket.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,10 +45,10 @@ namespace System::Net::Sockets {
     // Set instance field: public System.Int32 sent_so_far
     void _set_sent_so_far(int value);
     // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
-    // Offset: 0x158BF84
+    // Offset: 0x128F554
     void $BeginSendCallback$b__0(System::IOAsyncResult* s);
     // public System.Void .ctor()
-    // Offset: 0x158BF7C
+    // Offset: 0x128F54C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

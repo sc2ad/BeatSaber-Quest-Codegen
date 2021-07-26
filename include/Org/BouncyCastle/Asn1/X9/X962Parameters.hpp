@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1Choice
@@ -49,26 +50,26 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Object _params
     void _set__params(Org::BouncyCastle::Asn1::Asn1Object* value);
     // public System.Boolean get_IsNamedCurve()
-    // Offset: 0x19E7BEC
+    // Offset: 0x169ECE0
     bool get_IsNamedCurve();
     // public System.Boolean get_IsImplicitlyCA()
-    // Offset: 0x19E7C70
+    // Offset: 0x169ED64
     bool get_IsImplicitlyCA();
     // public Org.BouncyCastle.Asn1.Asn1Object get_Parameters()
-    // Offset: 0x19E7CF4
+    // Offset: 0x169EDE8
     Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object obj)
-    // Offset: 0x19E7BC0
+    // Offset: 0x169ECB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X962Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Object* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X962Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X962Parameters*, creationType>(obj)));
     }
     // static public Org.BouncyCastle.Asn1.X9.X962Parameters GetInstance(System.Object obj)
-    // Offset: 0x19E7944
+    // Offset: 0x169EA38
     static Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19E7CFC
+    // Offset: 0x169EDF0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/IGcmExponentiator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,16 +48,16 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Set instance field: private System.Collections.IList lookupPowX2
     void _set_lookupPowX2(System::Collections::IList* value);
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x18CA2B4
+    // Offset: 0x159B6B8
     void Init(::Array<uint8_t>* x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x18CA4C8
+    // Offset: 0x159B8CC
     void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
     // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x18CA688
+    // Offset: 0x159BA8C
     void EnsureAvailable(int bit);
     // public System.Void .ctor()
-    // Offset: 0x18CA8F0
+    // Offset: 0x159BCF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

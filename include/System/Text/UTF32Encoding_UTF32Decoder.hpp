@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Text.UTF32Encoding
 #include "System/Text/UTF32Encoding.hpp"
 // Including type: System.Text.DecoderNLS
@@ -44,19 +45,19 @@ namespace System::Text {
     // Set instance field: System.Int32 readByteCount
     void _set_readByteCount(int value);
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x1D2593C
+    // Offset: 0x18AA0D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF32Encoding::UTF32Decoder* New_ctor(System::Text::UTF32Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF32Encoding::UTF32Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF32Encoding::UTF32Decoder*, creationType>(encoding)));
     }
     // override System.Boolean get_HasState()
-    // Offset: 0x1D25E50
+    // Offset: 0x18AA5E4
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
     // public override System.Void Reset()
-    // Offset: 0x1D25E30
+    // Offset: 0x18AA5C4
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();

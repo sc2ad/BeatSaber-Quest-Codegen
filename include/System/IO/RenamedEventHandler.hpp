@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,20 +37,20 @@ namespace System::IO {
     // Creating value type constructor for type: RenamedEventHandler
     RenamedEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1856A04
+    // Offset: 0x1527E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::RenamedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenamedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.IO.RenamedEventArgs e)
-    // Offset: 0x1856A14
+    // Offset: 0x1527E18
     void Invoke(::Il2CppObject* sender, System::IO::RenamedEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.RenamedEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1856690
+    // Offset: 0x1527A94
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::IO::RenamedEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1856DFC
+    // Offset: 0x1528200
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.RenamedEventHandler
   #pragma pack(pop)

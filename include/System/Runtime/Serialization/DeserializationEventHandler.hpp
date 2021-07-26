@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,20 +32,20 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: DeserializationEventHandler
     DeserializationEventHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15D3C2C
+    // Offset: 0x12D71FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeserializationEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::DeserializationEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeserializationEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender)
-    // Offset: 0x15D3C3C
+    // Offset: 0x12D720C
     void Invoke(::Il2CppObject* sender);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15D3FD0
+    // Offset: 0x12D75A0
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15D3FF4
+    // Offset: 0x12D75C4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Serialization.DeserializationEventHandler
   #pragma pack(pop)

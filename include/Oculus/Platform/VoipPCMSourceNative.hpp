@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.IVoipPCMSource
 #include "Oculus/Platform/IVoipPCMSource.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,19 +41,19 @@ namespace Oculus::Platform {
     // Set instance field: private System.UInt64 senderID
     void _set_senderID(uint64_t value);
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x238B2A0
+    // Offset: 0x23ECCA4
     int GetPCM(::Array<float>* dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x238B360
+    // Offset: 0x23ECD64
     void SetSenderID(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x238B368
+    // Offset: 0x23ECD6C
     int PeekSizeElements();
     // public System.Void Update()
-    // Offset: 0x238B408
+    // Offset: 0x23ECE0C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x238A77C
+    // Offset: 0x23EC180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

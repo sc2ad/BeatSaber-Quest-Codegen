@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* compoundSins;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDFE548
+    // [HeaderAttribute] Offset: 0xEAB164
     // private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
     // Size: 0x8
     // Offset: 0x30
@@ -149,22 +150,22 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Cloth _cloth
     void _set__cloth(UnityEngine::Cloth* value);
     // protected System.Void Start()
-    // Offset: 0x101ACB8
+    // Offset: 0x1E8578C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x101ACF4
+    // Offset: 0x1E857C8
     void Update();
     // private UnityEngine.Vector3 GetNoiseVec3(System.Single time)
-    // Offset: 0x101AEA8
+    // Offset: 0x1E8597C
     UnityEngine::Vector3 GetNoiseVec3(float time);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x101B1EC
+    // Offset: 0x1E85CC0
     float GetNoise(float time, float offset);
     // private System.Void UpdateTiltTransform()
-    // Offset: 0x101AF54
+    // Offset: 0x1E85A28
     void UpdateTiltTransform();
     // public System.Void .ctor()
-    // Offset: 0x101B328
+    // Offset: 0x1E85DFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

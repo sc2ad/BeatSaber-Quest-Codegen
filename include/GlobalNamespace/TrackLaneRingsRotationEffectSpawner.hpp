@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
@@ -88,14 +89,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsRotationEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE05C50
+    // [SpaceAttribute] Offset: 0xEB286C
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE05C88
+    // [SpaceAttribute] Offset: 0xEB28A4
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x24
@@ -126,7 +127,7 @@ namespace GlobalNamespace {
     float rotationFlexySpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE05D00
+    // [InjectAttribute] Offset: 0xEB291C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x38
@@ -170,16 +171,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     void _set__beatmapObjectCallbackController(GlobalNamespace::IBeatmapObjectCallbackController* value);
     // protected System.Void Start()
-    // Offset: 0x1070638
+    // Offset: 0x1EDC10C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1070728
+    // Offset: 0x1EDC1FC
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1070828
+    // Offset: 0x1EDC2FC
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1070924
+    // Offset: 0x1EDC3F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

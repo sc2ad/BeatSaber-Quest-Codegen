@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: IPoolablePacket
@@ -87,37 +88,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <time>k__BackingField
     void _set_$time$k__BackingField(float value);
     // static public PacketPool`1<StandardScoreSyncStateNetSerializable> get_pool()
-    // Offset: 0x2312C24
+    // Offset: 0x23D3DD8
     static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x2312C6C
+    // Offset: 0x23D3E20
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x2312C74
+    // Offset: 0x23D3E28
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x2312C7C
+    // Offset: 0x23D3E30
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2312C84
+    // Offset: 0x23D3E38
     void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x2312C8C
+    // Offset: 0x23D3E40
     GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x2312CA0
+    // Offset: 0x23D3E54
     void set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2312CB4
+    // Offset: 0x23D3E68
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2312D28
+    // Offset: 0x23D3EDC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2312D9C
+    // Offset: 0x23D3F50
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x2312DF8
+    // Offset: 0x23D3FAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

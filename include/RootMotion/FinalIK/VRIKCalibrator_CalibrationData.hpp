@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.VRIKCalibrator
 #include "RootMotion/FinalIK/VRIKCalibrator.hpp"
 // Including type: UnityEngine.Vector3
@@ -153,7 +154,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single pelvisRotationWeight
     void _set_pelvisRotationWeight(float value);
     // public System.Void .ctor()
-    // Offset: 0x1AC1C28
+    // Offset: 0x1739478
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

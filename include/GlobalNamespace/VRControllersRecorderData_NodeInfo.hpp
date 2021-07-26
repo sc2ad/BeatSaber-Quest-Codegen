@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRControllersRecorderData
 #include "GlobalNamespace/VRControllersRecorderData.hpp"
 // Including type: UnityEngine.XR.XRNode
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Int32 nodeIdx
     void _set_nodeIdx(int value);
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x1279A5C
+    // Offset: 0x206D9DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::NodeInfo::.ctor");

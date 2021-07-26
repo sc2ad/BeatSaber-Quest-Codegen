@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     // Set instance field: private TabBarViewController _tabBarViewControllerPrefab
     void _set__tabBarViewControllerPrefab(GlobalNamespace::TabBarViewController* value);
     // public System.Void .ctor()
-    // Offset: 0x117C9EC
+    // Offset: 0x1FAC400
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -96,7 +97,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsMenuViewControllersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x117C948
+    // Offset: 0x1FAC35C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

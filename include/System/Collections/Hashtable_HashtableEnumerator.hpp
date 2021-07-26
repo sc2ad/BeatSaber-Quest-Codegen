@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Hashtable
 #include "System/Collections/Hashtable.hpp"
 // Including type: System.ICloneable
@@ -113,32 +114,32 @@ namespace System::Collections {
     // Set instance field: private System.Object currentValue
     void _set_currentValue(::Il2CppObject* value);
     // public System.Object get_Key()
-    // Offset: 0x194615C
+    // Offset: 0x1617560
     ::Il2CppObject* get_Key();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1946340
+    // Offset: 0x1617744
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x19463F8
+    // Offset: 0x16177FC
     ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x19464EC
+    // Offset: 0x16178F0
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Collections.Hashtable hashtable, System.Int32 getObjRetType)
-    // Offset: 0x19460F0
+    // Offset: 0x16174F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::HashtableEnumerator* New_ctor(System::Collections::Hashtable* hashtable, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::HashtableEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::HashtableEnumerator*, creationType>(hashtable, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x1946154
+    // Offset: 0x1617558
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x19461F8
+    // Offset: 0x16175FC
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1946588
+    // Offset: 0x161798C
     void Reset();
   }; // System.Collections.Hashtable/System.Collections.HashtableEnumerator
   #pragma pack(pop)

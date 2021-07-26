@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -41,28 +42,28 @@ namespace Oculus::Platform {
     // Set static field: static public System.Boolean LogMessages
     static void _set_LogMessages(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x14974D8
+    // Offset: 0x20F334C
     static void _cctor();
     // static public System.Boolean IsInitialized()
-    // Offset: 0x1496CC0
+    // Offset: 0x20F2B34
     static bool IsInitialized();
     // static System.Void ForceInitialized()
-    // Offset: 0x1496D28
+    // Offset: 0x20F2B9C
     static void ForceInitialized();
     // static private System.String getAppID(System.String appId)
-    // Offset: 0x1496D94
+    // Offset: 0x20F2C08
     static ::Il2CppString* getAppID(::Il2CppString* appId);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x1496F5C
+    // Offset: 0x20F2DD0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::Il2CppString* appId);
     // static public System.Void Initialize(System.String appId)
-    // Offset: 0x14971F4
+    // Offset: 0x20F3068
     static void Initialize(::Il2CppString* appId);
     // static private System.String GetAppIDFromConfig()
-    // Offset: 0x1496F2C
+    // Offset: 0x20F2DA0
     static ::Il2CppString* GetAppIDFromConfig();
     // public System.Void .ctor()
-    // Offset: 0x14974D0
+    // Offset: 0x20F3344
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

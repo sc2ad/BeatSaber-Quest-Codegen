@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -31,7 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalOnUIButtonClick : public UnityEngine::MonoBehaviour {
     public:
-    // [SignalSenderAttribute] Offset: 0xDD00B8
+    // [SignalSenderAttribute] Offset: 0xE7CCD4
     // private Signal _buttonClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -57,16 +58,16 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Button _button
     void _set__button(UnityEngine::UI::Button* value);
     // private System.Void OnReset()
-    // Offset: 0x2359920
+    // Offset: 0x1DE1D60
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0x2359978
+    // Offset: 0x1DE1DB8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2359A10
+    // Offset: 0x1DE1E50
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x2359AEC
+    // Offset: 0x1DE1F2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

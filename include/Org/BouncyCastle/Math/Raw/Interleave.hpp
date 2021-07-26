@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Math.Raw
 namespace Org::BouncyCastle::Math::Raw {
@@ -16,19 +17,19 @@ namespace Org::BouncyCastle::Math::Raw {
     // Creating value type constructor for type: Interleave
     Interleave() noexcept {}
     // static System.UInt32 Expand8to16(System.UInt32 x)
-    // Offset: 0x1D9F8F8
+    // Offset: 0x19114D8
     static uint Expand8to16(uint x);
     // static System.UInt64 Expand32to64(System.UInt32 x)
-    // Offset: 0x1D9F918
+    // Offset: 0x19114F8
     static uint64_t Expand32to64(uint x);
     // static System.Void Expand64To128(System.UInt64 x, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x1D9F970
+    // Offset: 0x1911550
     static void Expand64To128(uint64_t x, ::Array<uint64_t>* z, int zOff);
     // static System.UInt32 Shuffle2(System.UInt32 x)
-    // Offset: 0x1D9B68C
+    // Offset: 0x190D26C
     static uint Shuffle2(uint x);
     // static System.UInt64 Unshuffle(System.UInt64 x)
-    // Offset: 0x1D9FA24
+    // Offset: 0x1911604
     static uint64_t Unshuffle(uint64_t x);
   }; // Org.BouncyCastle.Math.Raw.Interleave
   #pragma pack(pop)

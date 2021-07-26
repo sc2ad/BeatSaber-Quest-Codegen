@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDataLoader
 #include "GlobalNamespace/BeatmapDataLoader.hpp"
 // Including type: BeatmapSaveData
@@ -49,19 +50,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<BeatmapSaveData/ObstacleData> <>9__2_2
     static void _set_$$9__2_2(System::Comparison_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1190624
+    // Offset: 0x1FD615C
     static void _cctor();
     // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_0(BeatmapSaveData/NoteData x, BeatmapSaveData/NoteData y)
-    // Offset: 0x1190690
+    // Offset: 0x1FD61C8
     int $GetBeatmapDataFromBeatmapSaveData$b__2_0(GlobalNamespace::BeatmapSaveData::NoteData* x, GlobalNamespace::BeatmapSaveData::NoteData* y);
     // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_1(BeatmapSaveData/WaypointData x, BeatmapSaveData/WaypointData y)
-    // Offset: 0x11906C0
+    // Offset: 0x1FD61F8
     int $GetBeatmapDataFromBeatmapSaveData$b__2_1(GlobalNamespace::BeatmapSaveData::WaypointData* x, GlobalNamespace::BeatmapSaveData::WaypointData* y);
     // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_2(BeatmapSaveData/ObstacleData x, BeatmapSaveData/ObstacleData y)
-    // Offset: 0x11906F0
+    // Offset: 0x1FD6228
     int $GetBeatmapDataFromBeatmapSaveData$b__2_2(GlobalNamespace::BeatmapSaveData::ObstacleData* x, GlobalNamespace::BeatmapSaveData::ObstacleData* y);
     // public System.Void .ctor()
-    // Offset: 0x1190688
+    // Offset: 0x1FD61C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

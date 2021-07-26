@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,16 +74,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showDifficultyAndCharacteristic and: difficultyText
     char __padding3[0x7] = {};
-    // [DrawIfAttribute] Offset: 0xE11174
-    // [NullAllowed] Offset: 0xE11174
+    // [DrawIfAttribute] Offset: 0xEBDD90
+    // [NullAllowed] Offset: 0xEBDD90
     // private TMPro.TextMeshProUGUI _difficultyText
     // Size: 0x8
     // Offset: 0x38
     TMPro::TextMeshProUGUI* difficultyText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xE1126C
-    // [NullAllowed] Offset: 0xE1126C
+    // [DrawIfAttribute] Offset: 0xEBDE88
+    // [NullAllowed] Offset: 0xEBDE88
     // private HMUI.ImageView _characteristicIconImageView
     // Size: 0x8
     // Offset: 0x40
@@ -97,8 +98,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useArtworkBackground and: artworkBackgroundImage
     char __padding6[0x7] = {};
-    // [DrawIfAttribute] Offset: 0xE11374
-    // [NullAllowed] Offset: 0xE11374
+    // [DrawIfAttribute] Offset: 0xEBDF90
+    // [NullAllowed] Offset: 0xEBDF90
     // private HMUI.ImageView _artworkBackgroundImage
     // Size: 0x8
     // Offset: 0x50
@@ -152,19 +153,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Threading.CancellationTokenSource _cancellationTokenSource
     void _set__cancellationTokenSource(System::Threading::CancellationTokenSource* value);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x10F14A0
+    // Offset: 0x1F434B4
     void set_hide(bool value);
     // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x10F14D8
+    // Offset: 0x1F434EC
     void Setup(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x10F14E4
+    // Offset: 0x1F434F8
     void Setup(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // protected System.Void OnDestroy()
-    // Offset: 0x10F15C0
+    // Offset: 0x1F435D4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10F15D4
+    // Offset: 0x1F435E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

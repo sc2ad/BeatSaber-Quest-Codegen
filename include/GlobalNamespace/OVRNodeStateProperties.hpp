@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.XR.XRNodeState
 #include "UnityEngine/XR/XRNodeState.hpp"
 // Including type: OVRPlugin
@@ -46,26 +47,26 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStateList
     static void _set_nodeStateList(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12EA9E8
+    // Offset: 0x10AC958
     static void _cctor();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0x12E93D8
+    // Offset: 0x10AB348
     static bool IsHmdPresent();
     // static public System.Boolean GetNodeStatePropertyVector3(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, OVRPlugin/Node ovrpNodeType, OVRPlugin/Step stepType, out UnityEngine.Vector3 retVec)
-    // Offset: 0x12E955C
-    static bool GetNodeStatePropertyVector3(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, GlobalNamespace::OVRPlugin::Node ovrpNodeType, GlobalNamespace::OVRPlugin::Step stepType, UnityEngine::Vector3& retVec);
+    // Offset: 0x10AB4CC
+    static bool GetNodeStatePropertyVector3(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, GlobalNamespace::OVRPlugin::Node ovrpNodeType, GlobalNamespace::OVRPlugin::Step stepType, ByRef<UnityEngine::Vector3> retVec);
     // static public System.Boolean GetNodeStatePropertyQuaternion(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, OVRPlugin/Node ovrpNodeType, OVRPlugin/Step stepType, out UnityEngine.Quaternion retQuat)
-    // Offset: 0x12EA548
-    static bool GetNodeStatePropertyQuaternion(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, GlobalNamespace::OVRPlugin::Node ovrpNodeType, GlobalNamespace::OVRPlugin::Step stepType, UnityEngine::Quaternion& retQuat);
+    // Offset: 0x10AC4B8
+    static bool GetNodeStatePropertyQuaternion(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, GlobalNamespace::OVRPlugin::Node ovrpNodeType, GlobalNamespace::OVRPlugin::Step stepType, ByRef<UnityEngine::Quaternion> retQuat);
     // static private System.Boolean ValidateProperty(UnityEngine.XR.XRNode nodeType, ref UnityEngine.XR.XRNodeState requestedNodeState)
-    // Offset: 0x12EA7B8
-    static bool ValidateProperty(UnityEngine::XR::XRNode nodeType, UnityEngine::XR::XRNodeState& requestedNodeState);
+    // Offset: 0x10AC728
+    static bool ValidateProperty(UnityEngine::XR::XRNode nodeType, ByRef<UnityEngine::XR::XRNodeState> requestedNodeState);
     // static private System.Boolean GetUnityXRNodeStateVector3(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, out UnityEngine.Vector3 retVec)
-    // Offset: 0x12E9BB8
-    static bool GetUnityXRNodeStateVector3(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, UnityEngine::Vector3& retVec);
+    // Offset: 0x10ABB28
+    static bool GetUnityXRNodeStateVector3(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, ByRef<UnityEngine::Vector3> retVec);
     // static private System.Boolean GetUnityXRNodeStateQuaternion(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, out UnityEngine.Quaternion retQuat)
-    // Offset: 0x12EA6B8
-    static bool GetUnityXRNodeStateQuaternion(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, UnityEngine::Quaternion& retQuat);
+    // Offset: 0x10AC628
+    static bool GetUnityXRNodeStateQuaternion(UnityEngine::XR::XRNode nodeType, GlobalNamespace::NodeStatePropertyType propertyType, ByRef<UnityEngine::Quaternion> retQuat);
   }; // OVRNodeStateProperties
   #pragma pack(pop)
 }
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyVector3
 // Il2CppName: GetNodeStatePropertyVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, UnityEngine::Vector3&)>(&GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, ByRef<UnityEngine::Vector3>)>(&GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyVector3)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* propertyType = &::il2cpp_utils::GetClassFromName("", "NodeStatePropertyType")->byval_arg;
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyQuaternion
 // Il2CppName: GetNodeStatePropertyQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, UnityEngine::Quaternion&)>(&GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, ByRef<UnityEngine::Quaternion>)>(&GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyQuaternion)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* propertyType = &::il2cpp_utils::GetClassFromName("", "NodeStatePropertyType")->byval_arg;
@@ -117,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::ValidateProperty
 // Il2CppName: ValidateProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, UnityEngine::XR::XRNodeState&)>(&GlobalNamespace::OVRNodeStateProperties::ValidateProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, ByRef<UnityEngine::XR::XRNodeState>)>(&GlobalNamespace::OVRNodeStateProperties::ValidateProperty)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* requestedNodeState = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNodeState")->this_arg;
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateVector3
 // Il2CppName: GetUnityXRNodeStateVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, UnityEngine::Vector3&)>(&GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, ByRef<UnityEngine::Vector3>)>(&GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateVector3)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* propertyType = &::il2cpp_utils::GetClassFromName("", "NodeStatePropertyType")->byval_arg;
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaternion
 // Il2CppName: GetUnityXRNodeStateQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, UnityEngine::Quaternion&)>(&GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, ByRef<UnityEngine::Quaternion>)>(&GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaternion)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* propertyType = &::il2cpp_utils::GetClassFromName("", "NodeStatePropertyType")->byval_arg;

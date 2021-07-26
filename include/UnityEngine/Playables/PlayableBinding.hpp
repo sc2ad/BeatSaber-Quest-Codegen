@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -96,19 +97,19 @@ namespace UnityEngine::Playables {
     // Set instance field: private UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod m_CreateOutputMethod
     void _set_m_CreateOutputMethod(UnityEngine::Playables::PlayableBinding::CreateOutputMethod* value);
     // public System.String get_streamName()
-    // Offset: 0xEF9438
+    // Offset: 0xF8528C
     ::Il2CppString* get_streamName();
     // public UnityEngine.Object get_sourceObject()
-    // Offset: 0xEF9440
+    // Offset: 0xF85294
     UnityEngine::Object* get_sourceObject();
     // static private System.Void .cctor()
-    // Offset: 0x1CFDD4C
+    // Offset: 0x22D7FE0
     static void _cctor();
     // UnityEngine.Playables.PlayableOutput CreateOutput(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0xEF9448
+    // Offset: 0xF8529C
     UnityEngine::Playables::PlayableOutput CreateOutput(UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod createFunction)
-    // Offset: 0x1CFDD40
+    // Offset: 0x22D7FD4
     static UnityEngine::Playables::PlayableBinding CreateInternal(::Il2CppString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
   }; // UnityEngine.Playables.PlayableBinding
   #pragma pack(pop)

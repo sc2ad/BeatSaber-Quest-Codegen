@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,29 +73,29 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart
     void _set__activePlayersAtGameStart(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_activePlayersAtGameStart()
-    // Offset: 0x230B028
+    // Offset: 0x23CC1DC
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_activePlayersAtGameStart();
     // public System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> get_activePlayerSpecificSettingsAtGameStart()
-    // Offset: 0x230B218
+    // Offset: 0x23CC3CC
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* get_activePlayerSpecificSettingsAtGameStart();
     // private System.Void set_activePlayerSpecificSettingsAtGameStart(System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> value)
-    // Offset: 0x230B220
+    // Offset: 0x23CC3D4
     void set_activePlayerSpecificSettingsAtGameStart(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart)
-    // Offset: 0x230B230
+    // Offset: 0x23CC3E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettingsAtStartNetSerializable* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* activePlayerSpecificSettingsAtGameStart) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettingsAtStartNetSerializable*, creationType>(activePlayerSpecificSettingsAtGameStart)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x230B25C
+    // Offset: 0x23CC410
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x230B5D8
+    // Offset: 0x23CC78C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x230B228
+    // Offset: 0x23CC3DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.VoipAudioSourceHiLevel
 #include "Oculus/Platform/VoipAudioSourceHiLevel.hpp"
 // Including type: UnityEngine.MonoBehaviour
@@ -46,13 +47,13 @@ namespace Oculus::Platform {
     // Set instance field: private System.Single[] scratchBuffer
     void _set_scratchBuffer(::Array<float>* value);
     // private System.Void Awake()
-    // Offset: 0x238AAF0
+    // Offset: 0x23EC4F4
     void Awake();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x238ABA8
+    // Offset: 0x23EC5AC
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x238B070
+    // Offset: 0x23ECA74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

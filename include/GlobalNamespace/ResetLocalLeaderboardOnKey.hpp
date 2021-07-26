@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.KeyCode
@@ -53,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.KeyCode _keyCode
     void _set__keyCode(UnityEngine::KeyCode value);
     // private System.Void Update()
-    // Offset: 0x1143190
+    // Offset: 0x1F73BA4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11431DC
+    // Offset: 0x1F73BF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

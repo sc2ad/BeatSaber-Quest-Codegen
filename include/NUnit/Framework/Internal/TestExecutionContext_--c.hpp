@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.TestExecutionContext
 #include "NUnit/Framework/Internal/TestExecutionContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -38,13 +39,13 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public NUnit.Framework.Constraints.ValueFormatter <>9__9_0
     static void _set_$$9__9_0(NUnit::Framework::Constraints::ValueFormatter* value);
     // static private System.Void .cctor()
-    // Offset: 0x223F18C
+    // Offset: 0x1D0F000
     static void _cctor();
     // System.String <.ctor>b__9_0(System.Object val)
-    // Offset: 0x223F1F8
+    // Offset: 0x1D0F06C
     ::Il2CppString* $_ctor$b__9_0(::Il2CppObject* val);
     // public System.Void .ctor()
-    // Offset: 0x223F1F0
+    // Offset: 0x1D0F064
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.MobileAuthenticatedStream
 #include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
 // Including type: System.Enum

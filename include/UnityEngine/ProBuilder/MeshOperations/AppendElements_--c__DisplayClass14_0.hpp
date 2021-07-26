@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.AppendElements
 #include "UnityEngine/ProBuilder/MeshOperations/AppendElements.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,10 +47,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Int32 delCount
     void _set_delCount(int value);
     // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x1513980
+    // Offset: 0x123D248
     UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(UnityEngine::ProBuilder::EdgeLookup x);
     // public System.Void .ctor()
-    // Offset: 0x1513978
+    // Offset: 0x123D240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

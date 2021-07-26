@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.NumberFormatter
 #include "System/NumberFormatter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -180,16 +181,16 @@ namespace System {
     // Set instance field: public System.Int32 Permilles
     void _set_Permilles(int value);
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1806210
-    static void GetActiveSection(::Il2CppString* format, bool& positive, bool zero, int& offset, int& length);
+    // Offset: 0x14D6614
+    static void GetActiveSection(::Il2CppString* format, ByRef<bool> positive, bool zero, ByRef<int> offset, ByRef<int> length);
     // static public System.NumberFormatter/System.CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x18064FC
+    // Offset: 0x14D6900
     static System::NumberFormatter::CustomInfo* Parse(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x1806D20
+    // Offset: 0x14D7124
     ::Il2CppString* Format(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x18076D8
+    // Offset: 0x14D7ADC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -207,7 +208,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFo
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::GetActiveSection
 // Il2CppName: GetActiveSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool&, bool, int&, int&)>(&System::NumberFormatter::CustomInfo::GetActiveSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ByRef<bool>, bool, ByRef<int>, ByRef<int>)>(&System::NumberFormatter::CustomInfo::GetActiveSection)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* positive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSystemPerfMetrics
 #include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
 // Including type: UnityEngine.MonoBehaviour
@@ -52,19 +53,19 @@ namespace GlobalNamespace {
     // Set instance field: public System.Int32 listeningPort
     void _set_listeningPort(int value);
     // private System.Void OnEnable()
-    // Offset: 0x1EEFB88
+    // Offset: 0x1A06828
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x1EEFCC4
+    // Offset: 0x1A06964
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x1EEFD74
+    // Offset: 0x1A06A14
     void Update();
     // private OVRSystemPerfMetrics/PerfMetrics GatherPerfMetrics()
-    // Offset: 0x1EEFDFC
+    // Offset: 0x1A06A9C
     GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* GatherPerfMetrics();
     // public System.Void .ctor()
-    // Offset: 0x1EF046C
+    // Offset: 0x1A0710C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,7 +78,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EF04DC
+    // Offset: 0x1A0717C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

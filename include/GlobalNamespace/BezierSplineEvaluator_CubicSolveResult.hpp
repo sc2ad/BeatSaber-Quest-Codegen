@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BezierSplineEvaluator
 #include "GlobalNamespace/BezierSplineEvaluator.hpp"
 // Including type: System.ValueType
@@ -69,7 +70,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single solution3
     void _set_solution3(float value);
     // public System.Void .ctor(System.Single solution1)
-    // Offset: 0xED0348
+    // Offset: 0xF7BCBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
@@ -77,7 +78,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1);
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2)
-    // Offset: 0xED035C
+    // Offset: 0xF7BCD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2);
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2, System.Single solution3)
-    // Offset: 0xED0370
+    // Offset: 0xF7BCE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2, float solution3) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");

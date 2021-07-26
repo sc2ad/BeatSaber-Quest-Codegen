@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRResources
 #include "GlobalNamespace/OVRResources.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.String path
     void _set_path(::Il2CppString* value);
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0x15FA198
+    // Offset: 0x12FD768
     bool $Load$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x15FA0D0
+    // Offset: 0x12FD6A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

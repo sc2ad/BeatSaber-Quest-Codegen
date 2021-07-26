@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelCompletionResults
 #include "GlobalNamespace/LevelCompletionResults.hpp"
 // Completed includes
@@ -37,10 +38,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelCompletionResultsHelper
     LevelCompletionResultsHelper() noexcept {}
     // static public LevelCompletionResults Create(System.Int32 levelNotesCount, BeatmapObjectExecutionRating[] beatmapObjectExecutionRatings, GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxCombo, System.Single[] saberActivityValues, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single[] handActivityValues, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Single songTime)
-    // Offset: 0x10F688C
+    // Offset: 0x1F488A0
     static GlobalNamespace::LevelCompletionResults* Create(int levelNotesCount, ::Array<GlobalNamespace::BeatmapObjectExecutionRating*>* beatmapObjectExecutionRatings, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int rawScore, int modifiedScore, int maxCombo, ::Array<float>* saberActivityValues, float leftSaberMovementDistance, float rightSaberMovementDistance, ::Array<float>* handActivityValues, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, float songTime);
     // static public System.Void ProcessScore(PlayerData playerData, PlayerLevelStatsData playerLevelStats, LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, PlatformLeaderboardsModel platformLeaderboardsModel)
-    // Offset: 0x10F6D4C
+    // Offset: 0x1F48D60
     static void ProcessScore(GlobalNamespace::PlayerData* playerData, GlobalNamespace::PlayerLevelStatsData* playerLevelStats, GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
   }; // LevelCompletionResultsHelper
   #pragma pack(pop)

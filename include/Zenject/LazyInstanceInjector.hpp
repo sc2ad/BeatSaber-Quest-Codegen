@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -57,26 +58,26 @@ namespace Zenject {
     // Set instance field: private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject
     void _set__instancesToInject(System::Collections::Generic::HashSet_1<::Il2CppObject*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Instances()
-    // Offset: 0x16C4B18
+    // Offset: 0x13C71D4
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Instances();
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0x16C4A94
+    // Offset: 0x13C7150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyInstanceInjector* New_ctor(Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInstanceInjector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyInstanceInjector*, creationType>(container)));
     }
     // public System.Void AddInstance(System.Object instance)
-    // Offset: 0x16C4B20
+    // Offset: 0x13C71DC
     void AddInstance(::Il2CppObject* instance);
     // public System.Void AddInstances(System.Collections.Generic.IEnumerable`1<System.Object> instances)
-    // Offset: 0x16C4B88
+    // Offset: 0x13C7244
     void AddInstances(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* instances);
     // public System.Void LazyInject(System.Object instance)
-    // Offset: 0x16C4BF0
+    // Offset: 0x13C72AC
     void LazyInject(::Il2CppObject* instance);
     // public System.Void LazyInjectAll()
-    // Offset: 0x16C4C80
+    // Offset: 0x13C733C
     void LazyInjectAll();
   }; // Zenject.LazyInstanceInjector
   #pragma pack(pop)

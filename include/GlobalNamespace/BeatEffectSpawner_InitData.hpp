@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatEffectSpawner
 #include "GlobalNamespace/BeatEffectSpawner.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean hideNoteSpawnEffect
     void _set_hideNoteSpawnEffect(bool value);
     // public System.Void .ctor(System.Boolean hideNoteSpawnEffect)
-    // Offset: 0x11879B8
+    // Offset: 0x1FCD4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatEffectSpawner::InitData::.ctor");

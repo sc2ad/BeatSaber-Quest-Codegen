@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -52,19 +53,19 @@ namespace System {
     // Set instance field: private System.Collections.Hashtable starts
     void _set_starts(System::Collections::Hashtable* value);
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
-    // Offset: 0x1784C14
+    // Offset: 0x14862D0
     void AddMapping(System::TermInfoStrings key, ::Array<uint8_t>* val);
     // public System.Void Sort()
-    // Offset: 0x1784D2C
+    // Offset: 0x14863E8
     void Sort();
     // public System.Boolean StartsWith(System.Int32 c)
-    // Offset: 0x1784D30
+    // Offset: 0x14863EC
     bool StartsWith(int c);
     // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, out System.Int32 used)
-    // Offset: 0x1784DC0
-    System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, int& used);
+    // Offset: 0x148647C
+    System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, ByRef<int> used);
     // public System.Void .ctor()
-    // Offset: 0x17851E8
+    // Offset: 0x14868A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ByteMatcher::Match
 // Il2CppName: Match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TermInfoStrings (System::ByteMatcher::*)(::Array<::Il2CppChar>*, int, int, int&)>(&System::ByteMatcher::Match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TermInfoStrings (System::ByteMatcher::*)(::Array<::Il2CppChar>*, int, int, ByRef<int>)>(&System::ByteMatcher::Match)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

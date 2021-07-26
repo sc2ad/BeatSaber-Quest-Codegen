@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.IRemotingTypeInfo
 #include "System/Runtime/Remoting/IRemotingTypeInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,17 +64,17 @@ namespace System::Runtime::Remoting {
     // Set instance field: private System.String[] interfacesImplemented
     void _set_interfacesImplemented(::Array<::Il2CppString*>* value);
     // public System.String get_TypeName()
-    // Offset: 0x15D3584
+    // Offset: 0x12D6B54
     ::Il2CppString* get_TypeName();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x15D0DE0
+    // Offset: 0x12D43B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInfo* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::TypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInfo*, creationType>(type)));
     }
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
-    // Offset: 0x15D358C
+    // Offset: 0x12D6B5C
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
   #pragma pack(pop)

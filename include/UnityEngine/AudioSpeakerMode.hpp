@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,7 +32,7 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [ObsoleteAttribute] Offset: 0xDA9CC8
+    // [ObsoleteAttribute] Offset: 0xE568E4
     // static field const value: static public UnityEngine.AudioSpeakerMode Raw
     static constexpr const int Raw = 0;
     // Get static field: static public UnityEngine.AudioSpeakerMode Raw

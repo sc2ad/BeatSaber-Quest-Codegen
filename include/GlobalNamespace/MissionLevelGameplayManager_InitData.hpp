@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionLevelGameplayManager
 #include "GlobalNamespace/MissionLevelGameplayManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean failOn0Energy
     void _set_failOn0Energy(bool value);
     // public System.Void .ctor(System.Boolean failOn0Energy)
-    // Offset: 0x11309E8
+    // Offset: 0x1F613FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelGameplayManager::InitData* New_ctor(bool failOn0Energy) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelGameplayManager::InitData::.ctor");

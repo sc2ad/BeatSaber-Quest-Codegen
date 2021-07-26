@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -43,7 +44,7 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::PlayState _get_Playing();
     // Set static field: static public UnityEngine.Playables.PlayState Playing
     static void _set_Playing(UnityEngine::Playables::PlayState value);
-    // [ObsoleteAttribute] Offset: 0xD82810
+    // [ObsoleteAttribute] Offset: 0xE2F42C
     // static field const value: static public UnityEngine.Playables.PlayState Delayed
     static constexpr const int Delayed = 2;
     // Get static field: static public UnityEngine.Playables.PlayState Delayed

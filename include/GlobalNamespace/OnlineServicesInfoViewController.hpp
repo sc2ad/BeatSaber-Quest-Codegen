@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -76,14 +77,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* refreshButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1048C
+    // [InjectAttribute] Offset: 0xEBD0A8
     // private readonly OnlineServices.ServerManager _serverManager
     // Size: 0x8
     // Offset: 0x90
     OnlineServices::ServerManager* serverManager;
     // Field size check
     static_assert(sizeof(OnlineServices::ServerManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1049C
+    // [InjectAttribute] Offset: 0xEBD0B8
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x98
@@ -127,13 +128,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Text.StringBuilder _sb
     void _set__sb(System::Text::StringBuilder* value);
     // private System.Void GetServerStatus()
-    // Offset: 0xFFAC2C
+    // Offset: 0x1E4E1E0
     void GetServerStatus();
     // private System.Void AppendLine(System.String line)
-    // Offset: 0xFFACE4
+    // Offset: 0x1E4E298
     void AppendLine(::Il2CppString* line);
     // public System.Void .ctor()
-    // Offset: 0xFFAD3C
+    // Offset: 0x1E4E2F0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -147,7 +148,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0xFFAB78
+    // Offset: 0x1E4E12C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

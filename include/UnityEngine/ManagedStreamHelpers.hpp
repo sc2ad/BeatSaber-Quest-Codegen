@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -28,16 +29,16 @@ namespace UnityEngine {
     // Creating value type constructor for type: ManagedStreamHelpers
     ManagedStreamHelpers() noexcept {}
     // static System.Void ValidateLoadFromStream(System.IO.Stream stream)
-    // Offset: 0x1CEA268
+    // Offset: 0x22C44FC
     static void ValidateLoadFromStream(System::IO::Stream* stream);
     // static System.Void ManagedStreamRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1CEA370
+    // Offset: 0x22C4604
     static void ManagedStreamRead(::Array<uint8_t>* buffer, int offset, int count, System::IO::Stream* stream, System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamSeek(System.Int64 offset, System.UInt32 origin, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1CEA470
+    // Offset: 0x22C4704
     static void ManagedStreamSeek(int64_t offset, uint origin, System::IO::Stream* stream, System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamLength(System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1CEA568
+    // Offset: 0x22C47FC
     static void ManagedStreamLength(System::IO::Stream* stream, System::IntPtr returnValueAddress);
   }; // UnityEngine.ManagedStreamHelpers
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton
 #include "UnityEngine/EventSystems/PointerEventData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,25 +62,25 @@ namespace VRUIControls {
     // Set instance field: private System.Single _pressedValue
     void _set__pressedValue(float value);
     // public VRUIControls.MouseButtonEventData get_eventData()
-    // Offset: 0x234353C
+    // Offset: 0x1DC997C
     VRUIControls::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(VRUIControls.MouseButtonEventData value)
-    // Offset: 0x2343544
+    // Offset: 0x1DC9984
     void set_eventData(VRUIControls::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton get_button()
-    // Offset: 0x234354C
+    // Offset: 0x1DC998C
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton value)
-    // Offset: 0x2343554
+    // Offset: 0x1DC9994
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Single get_pressedValue()
-    // Offset: 0x234355C
+    // Offset: 0x1DC999C
     float get_pressedValue();
     // public System.Void set_pressedValue(System.Single value)
-    // Offset: 0x2343564
+    // Offset: 0x1DC99A4
     void set_pressedValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x234356C
+    // Offset: 0x1DC99AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

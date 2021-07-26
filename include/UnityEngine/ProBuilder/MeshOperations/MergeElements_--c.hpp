@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MergeElements
 #include "UnityEngine/ProBuilder/MeshOperations/MergeElements.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,13 +51,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16F1344
+    // Offset: 0x13F3A00
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <Merge>b__1_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x16F13B0
+    // Offset: 0x13F3A6C
     System::Collections::Generic::IEnumerable_1<int>* $Merge$b__1_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x16F13A8
+    // Offset: 0x13F3A64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

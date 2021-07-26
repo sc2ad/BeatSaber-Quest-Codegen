@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.Tasks.AwaitTaskContinuation
 #include "System/Threading/Tasks/AwaitTaskContinuation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,14 +53,14 @@ namespace System::Threading::Tasks {
     // Set instance field: private readonly System.Threading.Tasks.TaskScheduler m_scheduler
     void _set_m_scheduler(System::Threading::Tasks::TaskScheduler* value);
     // System.Void .ctor(System.Threading.Tasks.TaskScheduler scheduler, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1888A8C
+    // Offset: 0x1559E90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TaskSchedulerAwaitTaskContinuation* New_ctor(System::Threading::Tasks::TaskScheduler* scheduler, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark) {
+    static TaskSchedulerAwaitTaskContinuation* New_ctor(System::Threading::Tasks::TaskScheduler* scheduler, System::Action* action, bool flowExecutionContext, ByRef<System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerAwaitTaskContinuation*, creationType>(scheduler, action, flowExecutionContext, stackMark)));
+      return THROW_UNLESS((::il2cpp_utils::New<TaskSchedulerAwaitTaskContinuation*, creationType>(scheduler, action, flowExecutionContext, byref(stackMark))));
     }
     // override System.Void Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)
-    // Offset: 0x1888AC8
+    // Offset: 0x1559ECC
     // Implemented from: System.Threading.Tasks.AwaitTaskContinuation
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -65,17 +66,17 @@ namespace LiteNetLib {
     // Set instance field: public readonly System.Boolean IsReusedPeer
     void _set_IsReusedPeer(bool value);
     // private System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, System.Boolean isReusedPeer)
-    // Offset: 0x1BB17C8
+    // Offset: 0x17A4B60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectAcceptPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectAcceptPacket*, creationType>(connectionId, connectionNumber, isReusedPeer)));
     }
     // static public LiteNetLib.NetConnectAcceptPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x1BB1810
+    // Offset: 0x17A4BA8
     static LiteNetLib::NetConnectAcceptPacket* FromData(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(System.Int64 connectId, System.Byte connectNum, System.Boolean reusedPeer)
-    // Offset: 0x1BB1920
+    // Offset: 0x17A4CB8
     static LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
   }; // LiteNetLib.NetConnectAcceptPacket
   #pragma pack(pop)

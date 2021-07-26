@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IComparer
 #include "System/Collections/IComparer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,13 +27,13 @@ namespace NUnit::Framework::Constraints {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // static public NUnit.Framework.Constraints.NUnitComparer get_Default()
-    // Offset: 0x1715D18
+    // Offset: 0x14193D4
     static NUnit::Framework::Constraints::NUnitComparer* get_Default();
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x171C0BC
+    // Offset: 0x141F778
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x171C0B4
+    // Offset: 0x141F770
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

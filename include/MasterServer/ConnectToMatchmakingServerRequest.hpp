@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.BaseConnectToServerRequest
 #include "MasterServer/BaseConnectToServerRequest.hpp"
 // Including type: BeatmapLevelSelectionMask
@@ -86,16 +87,16 @@ namespace MasterServer {
     // Set instance field: public GameplayServerConfiguration configuration
     void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // static public IVersionedPacketPool`1<MasterServer.ConnectToMatchmakingServerRequest> get_pool()
-    // Offset: 0x12D0238
+    // Offset: 0x208A748
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::ConnectToMatchmakingServerRequest*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x12D0280
+    // Offset: 0x208A790
     uint get_version();
     // public MasterServer.ConnectToMatchmakingServerRequest Init(System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
-    // Offset: 0x12D0288
+    // Offset: 0x208A798
     MasterServer::ConnectToMatchmakingServerRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, ::Il2CppString* code);
     // public System.Void .ctor()
-    // Offset: 0x12D0510
+    // Offset: 0x208AA20
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
@@ -106,17 +107,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToMatchmakingServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D02B4
+    // Offset: 0x208A7C4
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D035C
+    // Offset: 0x208A86C
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12D044C
+    // Offset: 0x208A95C
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Release()
     void Release();

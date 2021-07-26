@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.ConstraintBuilder
 #include "NUnit/Framework/Constraints/ConstraintBuilder.hpp"
 // Completed includes
@@ -45,10 +46,10 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
     void _set_stack(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* value);
     // public System.Boolean get_Empty()
-    // Offset: 0x1716914
+    // Offset: 0x1419FD0
     bool get_Empty();
     // public NUnit.Framework.Constraints.ConstraintOperator Pop()
-    // Offset: 0x17168BC
+    // Offset: 0x1419F78
     NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack
   #pragma pack(pop)

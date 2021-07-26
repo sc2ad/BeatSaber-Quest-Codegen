@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewControllerTransitionHelpers
 #include "HMUI/ViewControllerTransitionHelpers.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,10 +73,10 @@ namespace HMUI {
     // Set instance field: public System.Single baseCanvasGroupAlpha
     void _set_baseCanvasGroupAlpha(float value);
     // System.Void <DoHorizontalTransition>b__0(System.Single t)
-    // Offset: 0x2357880
+    // Offset: 0x1DDFCC0
     void $DoHorizontalTransition$b__0(float t);
     // public System.Void .ctor()
-    // Offset: 0x2357878
+    // Offset: 0x1DDFCB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

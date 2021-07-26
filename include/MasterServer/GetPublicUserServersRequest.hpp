@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseMasterServerReliableRequest
 #include "GlobalNamespace/BaseMasterServerReliableRequest.hpp"
 // Including type: MasterServer.IUserClientToServerMessage
@@ -99,25 +100,25 @@ namespace MasterServer {
     // Set instance field: public UserServerFilter filter
     void _set_filter(GlobalNamespace::UserServerFilter value);
     // static public PacketPool`1<MasterServer.GetPublicUserServersRequest> get_pool()
-    // Offset: 0x12D2D78
+    // Offset: 0x208D288
     static GlobalNamespace::PacketPool_1<MasterServer::GetPublicUserServersRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x12D2DC0
+    // Offset: 0x208D2D0
     ::Il2CppString* get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x12D2DC8
+    // Offset: 0x208D2D8
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x12D2DD0
+    // Offset: 0x208D2E0
     ::Il2CppString* get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x12D2DD8
+    // Offset: 0x208D2E8
     void set_userName(::Il2CppString* value);
     // public MasterServer.GetPublicUserServersRequest Init(System.String userId, System.String userName, System.Int32 offset, System.Int32 count, UserServerFilter filter)
-    // Offset: 0x12D2DE0
+    // Offset: 0x208D2F0
     MasterServer::GetPublicUserServersRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, int offset, int count, GlobalNamespace::UserServerFilter filter);
     // public System.Void .ctor()
-    // Offset: 0x12D2F7C
+    // Offset: 0x208D48C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -127,17 +128,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicUserServersRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D2DFC
+    // Offset: 0x208D30C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D2E78
+    // Offset: 0x208D388
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12D2F14
+    // Offset: 0x208D424
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

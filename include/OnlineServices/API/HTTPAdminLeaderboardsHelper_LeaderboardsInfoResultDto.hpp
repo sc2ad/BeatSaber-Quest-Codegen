@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper
 #include "OnlineServices/API/HTTPAdminLeaderboardsHelper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace OnlineServices::API {
     // Set instance field: public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
     void _set_leaderboardsInfos(::Array<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>* value);
     // public System.Void .ctor()
-    // Offset: 0xFF5558
+    // Offset: 0x1E48B0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

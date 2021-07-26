@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IBeatmapLevelPackCollection
@@ -71,13 +72,13 @@ namespace GlobalNamespace {
     // Set instance field: private IBeatmapLevelPack[] _allBeatmapLevelPacks
     void _set__allBeatmapLevelPacks(::Array<GlobalNamespace::IBeatmapLevelPack*>* value);
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x108D764
+    // Offset: 0x1EE5C0C
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
     // private System.Void LoadAllBeatmapLevelPacks()
-    // Offset: 0x108D794
+    // Offset: 0x1EE5C3C
     void LoadAllBeatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x108D8E8
+    // Offset: 0x1EE5D90
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetEaseArcadeFlowCoordinator
 #include "GlobalNamespace/NetEaseArcadeFlowCoordinator.hpp"
 // Including type: System.ValueType
@@ -74,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.LogoutData> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFA4C
+    // Offset: 0xF7B690
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFA54
+    // Offset: 0xF7B698
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseArcadeFlowCoordinator/<LogoutAsync>d__22
   // WARNING Not writing size check since size may be invalid!

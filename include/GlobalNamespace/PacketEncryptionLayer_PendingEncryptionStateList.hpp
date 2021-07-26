@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PacketEncryptionLayer
 #include "GlobalNamespace/PacketEncryptionLayer.hpp"
 // Including type: System.IDisposable
@@ -61,28 +62,28 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Collections.Generic.Dictionary`2<System.Int32,EncryptionUtility/IEncryptionState> _pendingStatesByPort
     void _set__pendingStatesByPort(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>* value);
     // public System.Boolean get_isEmpty()
-    // Offset: 0x153A954
+    // Offset: 0x2146FB8
     bool get_isEmpty();
     // public System.Void Dispose()
-    // Offset: 0x153C118
+    // Offset: 0x214877C
     void Dispose();
     // public EncryptionUtility/IEncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x153B190
+    // Offset: 0x21477F4
     ::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>* GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x153AEE0
-    bool TryGetEncryptionState(int port, GlobalNamespace::EncryptionUtility::IEncryptionState*& encryptionState);
+    // Offset: 0x2147544
+    bool TryGetEncryptionState(int port, ByRef<GlobalNamespace::EncryptionUtility::IEncryptionState*> encryptionState);
     // public System.Void Add(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x153BF3C
+    // Offset: 0x21485A0
     void Add(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x153A8EC
+    // Offset: 0x2146F50
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x153B56C
+    // Offset: 0x2147BD0
     bool Remove(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void .ctor()
-    // Offset: 0x153BECC
+    // Offset: 0x2148530
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::TryGetEncryptionState
 // Il2CppName: TryGetEncryptionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int, GlobalNamespace::EncryptionUtility::IEncryptionState*&)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::TryGetEncryptionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int, ByRef<GlobalNamespace::EncryptionUtility::IEncryptionState*>)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::TryGetEncryptionState)> {
   static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* encryptionState = &::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState")->this_arg;

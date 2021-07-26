@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -50,28 +51,28 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_CachedValues
     static void _set_s_CachedValues(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13C7528
+    // Offset: 0x1170188
     static void _cctor();
     // static private System.Reflection.Assembly[] GetAssemblies()
-    // Offset: 0x13C6A48
+    // Offset: 0x116F6A8
     static ::Array<System::Reflection::Assembly*>* GetAssemblies();
     // static System.Int32 GetCachedValueCount()
-    // Offset: 0x13C6A6C
+    // Offset: 0x116F6CC
     static int GetCachedValueCount();
     // static public System.Void SetPropertyValue(System.String name, System.String val)
-    // Offset: 0x13C6AE8
+    // Offset: 0x116F748
     static void SetPropertyValue(::Il2CppString* name, ::Il2CppString* val);
     // static public System.Void ClearCachedPropertyValues()
-    // Offset: 0x13C6B7C
+    // Offset: 0x116F7DC
     static void ClearCachedPropertyValues();
     // static public System.String EvaluateProperty(System.String name)
-    // Offset: 0x13C6BF8
+    // Offset: 0x116F858
     static ::Il2CppString* EvaluateProperty(::Il2CppString* name);
     // static public System.String EvaluateString(System.String input)
-    // Offset: 0x13BD9D4
+    // Offset: 0x1166634
     static ::Il2CppString* EvaluateString(::Il2CppString* input);
     // static public System.String EvaluateString(System.String inputString, System.Char startDelimiter, System.Char endDelimiter, System.Func`2<System.String,System.String> varFunc)
-    // Offset: 0x13C7034
+    // Offset: 0x116FC94
     static ::Il2CppString* EvaluateString(::Il2CppString* inputString, ::Il2CppChar startDelimiter, ::Il2CppChar endDelimiter, System::Func_2<::Il2CppString*, ::Il2CppString*>* varFunc);
   }; // UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties
   #pragma pack(pop)

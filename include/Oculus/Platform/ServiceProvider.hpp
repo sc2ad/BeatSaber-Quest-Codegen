@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,42 +32,42 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDEA3C4
+    // [DescriptionAttribute] Offset: 0xE97FE0
     // static field const value: static public Oculus.Platform.ServiceProvider Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ServiceProvider Unknown
     static Oculus::Platform::ServiceProvider _get_Unknown();
     // Set static field: static public Oculus.Platform.ServiceProvider Unknown
     static void _set_Unknown(Oculus::Platform::ServiceProvider value);
-    // [DescriptionAttribute] Offset: 0xDEA3FC
+    // [DescriptionAttribute] Offset: 0xE98018
     // static field const value: static public Oculus.Platform.ServiceProvider Dropbox
     static constexpr const int Dropbox = 1;
     // Get static field: static public Oculus.Platform.ServiceProvider Dropbox
     static Oculus::Platform::ServiceProvider _get_Dropbox();
     // Set static field: static public Oculus.Platform.ServiceProvider Dropbox
     static void _set_Dropbox(Oculus::Platform::ServiceProvider value);
-    // [DescriptionAttribute] Offset: 0xDEA434
+    // [DescriptionAttribute] Offset: 0xE98050
     // static field const value: static public Oculus.Platform.ServiceProvider Facebook
     static constexpr const int Facebook = 2;
     // Get static field: static public Oculus.Platform.ServiceProvider Facebook
     static Oculus::Platform::ServiceProvider _get_Facebook();
     // Set static field: static public Oculus.Platform.ServiceProvider Facebook
     static void _set_Facebook(Oculus::Platform::ServiceProvider value);
-    // [DescriptionAttribute] Offset: 0xDEA46C
+    // [DescriptionAttribute] Offset: 0xE98088
     // static field const value: static public Oculus.Platform.ServiceProvider Google
     static constexpr const int Google = 3;
     // Get static field: static public Oculus.Platform.ServiceProvider Google
     static Oculus::Platform::ServiceProvider _get_Google();
     // Set static field: static public Oculus.Platform.ServiceProvider Google
     static void _set_Google(Oculus::Platform::ServiceProvider value);
-    // [DescriptionAttribute] Offset: 0xDEA4A4
+    // [DescriptionAttribute] Offset: 0xE980C0
     // static field const value: static public Oculus.Platform.ServiceProvider Instagram
     static constexpr const int Instagram = 4;
     // Get static field: static public Oculus.Platform.ServiceProvider Instagram
     static Oculus::Platform::ServiceProvider _get_Instagram();
     // Set static field: static public Oculus.Platform.ServiceProvider Instagram
     static void _set_Instagram(Oculus::Platform::ServiceProvider value);
-    // [DescriptionAttribute] Offset: 0xDEA4DC
+    // [DescriptionAttribute] Offset: 0xE980F8
     // static field const value: static public Oculus.Platform.ServiceProvider RemoteMedia
     static constexpr const int RemoteMedia = 5;
     // Get static field: static public Oculus.Platform.ServiceProvider RemoteMedia

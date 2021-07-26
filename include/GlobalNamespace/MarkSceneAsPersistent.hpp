@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MarkSceneAsPersistent : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDCFFC0
+    // [InjectAttribute] Offset: 0xE7CBDC
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x18
@@ -42,10 +43,10 @@ namespace GlobalNamespace {
     // Set instance field: private GameScenesManager _gameScenesManager
     void _set__gameScenesManager(GlobalNamespace::GameScenesManager* value);
     // protected System.Void Awake()
-    // Offset: 0x121BD80
+    // Offset: 0x20486D8
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x121BDD8
+    // Offset: 0x2048730
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

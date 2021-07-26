@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,13 +61,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
     void _set__leaderboardIdToPs4Id(System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* value);
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0xFFD3C4
+    // Offset: 0x1E50978
     System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, out System.UInt32 ps4LeaderboardId)
-    // Offset: 0xFFD510
-    bool GetPS4LeaderboardId(::Il2CppString* leaderboardId, uint& ps4LeaderboardId);
+    // Offset: 0x1E50AC4
+    bool GetPS4LeaderboardId(::Il2CppString* leaderboardId, ByRef<uint> ps4LeaderboardId);
     // public System.Void .ctor()
-    // Offset: 0xFFD584
+    // Offset: 0x1E50B38
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -78,7 +79,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0xFFD3CC
+    // Offset: 0x1E50980
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -100,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::GetPS4LeaderboardId
 // Il2CppName: GetPS4LeaderboardId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4LeaderboardIdsModelSO::*)(::Il2CppString*, uint&)>(&GlobalNamespace::PS4LeaderboardIdsModelSO::GetPS4LeaderboardId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4LeaderboardIdsModelSO::*)(::Il2CppString*, ByRef<uint>)>(&GlobalNamespace::PS4LeaderboardIdsModelSO::GetPS4LeaderboardId)> {
   static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ps4LeaderboardId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

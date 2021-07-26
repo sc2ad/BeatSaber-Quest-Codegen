@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
 #include "Org/BouncyCastle/Crypto/AsymmetricKeyParameter.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Rfc8032.Ed448
@@ -63,20 +64,20 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters cachedPublicKey
     void _set_cachedPublicKey(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x122B384
+    // Offset: 0x103565C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed448PrivateKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed448PrivateKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x122B8F8
+    // Offset: 0x1035BD0
     static void _cctor();
     // public Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters GeneratePublicKey()
-    // Offset: 0x122B444
+    // Offset: 0x103571C
     Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* GeneratePublicKey();
     // public System.Void Sign(Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm algorithm, System.Byte[] ctx, System.Byte[] msg, System.Int32 msgOff, System.Int32 msgLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x122B634
+    // Offset: 0x103590C
     void Sign(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm algorithm, ::Array<uint8_t>* ctx, ::Array<uint8_t>* msg, int msgOff, int msgLen, ::Array<uint8_t>* sig, int sigOff);
   }; // Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters
   #pragma pack(pop)

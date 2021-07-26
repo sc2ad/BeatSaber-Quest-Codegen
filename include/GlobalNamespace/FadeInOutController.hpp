@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -108,37 +109,37 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _defaultFadeInDuration
     void _set__defaultFadeInDuration(float value);
     // public System.Void FadeOutInstant()
-    // Offset: 0x1213FB8
+    // Offset: 0x2040910
     void FadeOutInstant();
     // public System.Void FadeIn()
-    // Offset: 0x121408C
+    // Offset: 0x20409E4
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x1214168
+    // Offset: 0x2040AC0
     void FadeOut();
     // public System.Void FadeIn(System.Single duration)
-    // Offset: 0x1214174
+    // Offset: 0x2040ACC
     void FadeIn(float duration);
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0x121417C
+    // Offset: 0x2040AD4
     void FadeOut(float duration);
     // public System.Void FadeIn(System.Action fadeInCallback)
-    // Offset: 0x1214184
+    // Offset: 0x2040ADC
     void FadeIn(System::Action* fadeInCallback);
     // public System.Void FadeOut(System.Action fadeOutCallback)
-    // Offset: 0x121418C
+    // Offset: 0x2040AE4
     void FadeOut(System::Action* fadeOutCallback);
     // public System.Void FadeIn(System.Single duration, System.Action fadeInFinishedCallback)
-    // Offset: 0x1214098
+    // Offset: 0x20409F0
     void FadeIn(float duration, System::Action* fadeInFinishedCallback);
     // public System.Void FadeOut(System.Single duration, System.Action fadeOutFinishedCallback)
-    // Offset: 0x1213FC4
+    // Offset: 0x204091C
     void FadeOut(float duration, System::Action* fadeOutFinishedCallback);
     // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve, System.Action fadeFinishedCallback)
-    // Offset: 0x1214194
+    // Offset: 0x2040AEC
     System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, UnityEngine::AnimationCurve* curve, System::Action* fadeFinishedCallback);
     // public System.Void .ctor()
-    // Offset: 0x1214274
+    // Offset: 0x2040BCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

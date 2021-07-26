@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -40,16 +41,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _cleared
     void _set__cleared(bool value);
     // public System.String get_missionId()
-    // Offset: 0x1105750
+    // Offset: 0x1F57764
     ::Il2CppString* get_missionId();
     // public System.Boolean get_cleared()
-    // Offset: 0x1105758
+    // Offset: 0x1F5776C
     bool get_cleared();
     // public System.Void set_cleared(System.Boolean value)
-    // Offset: 0x1105760
+    // Offset: 0x1F57774
     void set_cleared(bool value);
     // public System.Void .ctor(System.String missionId, System.Boolean cleared)
-    // Offset: 0x1100E70
+    // Offset: 0x1F52E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerMissionStatsData::.ctor");

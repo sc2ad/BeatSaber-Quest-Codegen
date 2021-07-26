@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC::Multiplier
@@ -36,13 +37,13 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static public readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D912E4
+    // Offset: 0x1902EC4
     static void _cctor();
     // static public System.Int32 GetCombSize(Org.BouncyCastle.Math.EC.ECCurve c)
-    // Offset: 0x1D910FC
+    // Offset: 0x1902CDC
     static int GetCombSize(Org::BouncyCastle::Math::EC::ECCurve* c);
     // static public Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo Precompute(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1D91158
+    // Offset: 0x1902D38
     static Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* Precompute(Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities
   #pragma pack(pop)

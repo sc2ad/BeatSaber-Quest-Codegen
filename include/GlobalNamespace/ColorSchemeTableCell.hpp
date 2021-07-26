@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -74,19 +75,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _editIcon
     void _set__editIcon(UnityEngine::UI::Image* value);
     // public System.String get_text()
-    // Offset: 0x107EA34
+    // Offset: 0x1F00330
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x107E5FC
+    // Offset: 0x1EFFEF8
     void set_text(::Il2CppString* value);
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0x107E5DC
+    // Offset: 0x1EFFED8
     void set_showEditIcon(bool value);
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x107E618
+    // Offset: 0x1EFFF14
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // public System.Void .ctor()
-    // Offset: 0x107EA50
+    // Offset: 0x1F0034C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

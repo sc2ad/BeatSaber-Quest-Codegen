@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
@@ -208,114 +209,114 @@ namespace System::Threading {
     // Set instance field: private System.Collections.Generic.List`1<System.Threading.IAsyncLocal> _localChangeNotifications
     void _set__localChangeNotifications(System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>* value);
     // System.Boolean get_isNewCapture()
-    // Offset: 0x18A4778
+    // Offset: 0x1575B7C
     bool get_isNewCapture();
     // System.Void set_isNewCapture(System.Boolean value)
-    // Offset: 0x18A478C
+    // Offset: 0x1575B90
     void set_isNewCapture(bool value);
     // System.Boolean get_isFlowSuppressed()
-    // Offset: 0x18A47A8
+    // Offset: 0x1575BAC
     bool get_isFlowSuppressed();
     // System.Void set_isFlowSuppressed(System.Boolean value)
-    // Offset: 0x18A47B4
+    // Offset: 0x1575BB8
     void set_isFlowSuppressed(bool value);
     // static System.Threading.ExecutionContext get_PreAllocatedDefault()
-    // Offset: 0x18A47D0
+    // Offset: 0x1575BD4
     static System::Threading::ExecutionContext* get_PreAllocatedDefault();
     // System.Boolean get_IsPreAllocatedDefault()
-    // Offset: 0x18A4838
+    // Offset: 0x1575C3C
     bool get_IsPreAllocatedDefault();
     // System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
-    // Offset: 0x18A4CC8
+    // Offset: 0x15760CC
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
     // System.Void set_LogicalCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext value)
-    // Offset: 0x18A4D34
+    // Offset: 0x1576138
     void set_LogicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
     // System.Runtime.Remoting.Messaging.IllogicalCallContext get_IllogicalCallContext()
-    // Offset: 0x18A4D3C
+    // Offset: 0x1576140
     System::Runtime::Remoting::Messaging::IllogicalCallContext* get_IllogicalCallContext();
     // System.Void set_IllogicalCallContext(System.Runtime.Remoting.Messaging.IllogicalCallContext value)
-    // Offset: 0x18A4DA8
+    // Offset: 0x15761AC
     void set_IllogicalCallContext(System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
     // System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0x18A4DB0
+    // Offset: 0x15761B4
     System::Threading::SynchronizationContext* get_SynchronizationContext();
     // System.Void set_SynchronizationContext(System.Threading.SynchronizationContext value)
-    // Offset: 0x18A4DB8
+    // Offset: 0x15761BC
     void set_SynchronizationContext(System::Threading::SynchronizationContext* value);
     // System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0x18A4DC0
+    // Offset: 0x15761C4
     System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // System.Void set_SynchronizationContextNoFlow(System.Threading.SynchronizationContext value)
-    // Offset: 0x18A4DC8
+    // Offset: 0x15761CC
     void set_SynchronizationContextNoFlow(System::Threading::SynchronizationContext* value);
     // System.Void .ctor(System.Boolean isPreAllocatedDefault)
-    // Offset: 0x18A484C
+    // Offset: 0x1575C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionContext* New_ctor(bool isPreAllocatedDefault) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionContext*, creationType>(isPreAllocatedDefault)));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18A597C
+    // Offset: 0x1576D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionContext* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionContext*, creationType>(info, context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18A5A64
+    // Offset: 0x1576E68
     static void _cctor();
     // static System.Void OnAsyncLocalContextChanged(System.Threading.ExecutionContext previous, System.Threading.ExecutionContext current)
-    // Offset: 0x18A4880
+    // Offset: 0x1575C84
     static void OnAsyncLocalContextChanged(System::Threading::ExecutionContext* previous, System::Threading::ExecutionContext* current);
     // public System.Void Dispose()
-    // Offset: 0x18A4DD0
+    // Offset: 0x15761D4
     void Dispose();
     // static public System.Void Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state)
-    // Offset: 0x18A1818
+    // Offset: 0x1572C1C
     static void Run(System::Threading::ExecutionContext* executionContext, System::Threading::ContextCallback* callback, ::Il2CppObject* state);
     // static System.Void Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx)
-    // Offset: 0x18A4DD4
+    // Offset: 0x15761D8
     static void Run(System::Threading::ExecutionContext* executionContext, System::Threading::ContextCallback* callback, ::Il2CppObject* state, bool preserveSyncCtx);
     // static System.Void RunInternal(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx)
-    // Offset: 0x18A4E60
+    // Offset: 0x1576264
     static void RunInternal(System::Threading::ExecutionContext* executionContext, System::Threading::ContextCallback* callback, ::Il2CppObject* state, bool preserveSyncCtx);
     // static System.Void EstablishCopyOnWriteScope(ref System.Threading.ExecutionContextSwitcher ecsw)
-    // Offset: 0x18A53C8
-    static void EstablishCopyOnWriteScope(System::Threading::ExecutionContextSwitcher& ecsw);
+    // Offset: 0x15767CC
+    static void EstablishCopyOnWriteScope(ByRef<System::Threading::ExecutionContextSwitcher> ecsw);
     // static private System.Void EstablishCopyOnWriteScope(System.Threading.Thread currentThread, System.Boolean knownNullWindowsIdentity, ref System.Threading.ExecutionContextSwitcher ecsw)
-    // Offset: 0x18A5104
-    static void EstablishCopyOnWriteScope(System::Threading::Thread* currentThread, bool knownNullWindowsIdentity, System::Threading::ExecutionContextSwitcher& ecsw);
+    // Offset: 0x1576508
+    static void EstablishCopyOnWriteScope(System::Threading::Thread* currentThread, bool knownNullWindowsIdentity, ByRef<System::Threading::ExecutionContextSwitcher> ecsw);
     // static System.Threading.ExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext executionContext, System.Boolean preserveSyncCtx)
-    // Offset: 0x18A5160
+    // Offset: 0x1576564
     static System::Threading::ExecutionContextSwitcher SetExecutionContext(System::Threading::ExecutionContext* executionContext, bool preserveSyncCtx);
     // public System.Threading.ExecutionContext CreateCopy()
-    // Offset: 0x18A5534
+    // Offset: 0x1576938
     System::Threading::ExecutionContext* CreateCopy();
     // System.Threading.ExecutionContext CreateMutableCopy()
-    // Offset: 0x18A5670
+    // Offset: 0x1576A74
     System::Threading::ExecutionContext* CreateMutableCopy();
     // static public System.Boolean IsFlowSuppressed()
-    // Offset: 0x18A5774
+    // Offset: 0x1576B78
     static bool IsFlowSuppressed();
     // static public System.Threading.ExecutionContext Capture()
-    // Offset: 0x18A57A8
+    // Offset: 0x1576BAC
     static System::Threading::ExecutionContext* Capture();
     // static System.Threading.ExecutionContext FastCapture()
-    // Offset: 0x18A5808
+    // Offset: 0x1576C0C
     static System::Threading::ExecutionContext* FastCapture();
     // static System.Threading.ExecutionContext Capture(ref System.Threading.StackCrawlMark stackMark, System.Threading.ExecutionContext/System.Threading.CaptureOptions options)
-    // Offset: 0x18A1E0C
-    static System::Threading::ExecutionContext* Capture(System::Threading::StackCrawlMark& stackMark, System::Threading::ExecutionContext::CaptureOptions options);
+    // Offset: 0x1573210
+    static System::Threading::ExecutionContext* Capture(ByRef<System::Threading::StackCrawlMark> stackMark, System::Threading::ExecutionContext::CaptureOptions options);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18A5884
+    // Offset: 0x1576C88
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0x18A5080
+    // Offset: 0x1576484
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // System.Void .ctor()
-    // Offset: 0x18A4844
+    // Offset: 0x1575C48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -521,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::EstablishCopyOnWriteScope
 // Il2CppName: EstablishCopyOnWriteScope
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::ExecutionContextSwitcher&)>(&System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::Threading::ExecutionContextSwitcher>)>(&System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
   static const MethodInfo* get() {
     static auto* ecsw = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContextSwitcher")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "EstablishCopyOnWriteScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecsw});
@@ -530,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::EstablishCopyOnWriteScope
 // Il2CppName: EstablishCopyOnWriteScope
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*, bool, System::Threading::ExecutionContextSwitcher&)>(&System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*, bool, ByRef<System::Threading::ExecutionContextSwitcher>)>(&System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
   static const MethodInfo* get() {
     static auto* currentThread = &::il2cpp_utils::GetClassFromName("System.Threading", "Thread")->byval_arg;
     static auto* knownNullWindowsIdentity = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -591,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Capture
 // Il2CppName: Capture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (*)(System::Threading::StackCrawlMark&, System::Threading::ExecutionContext::CaptureOptions)>(&System::Threading::ExecutionContext::Capture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (*)(ByRef<System::Threading::StackCrawlMark>, System::Threading::ExecutionContext::CaptureOptions)>(&System::Threading::ExecutionContext::Capture)> {
   static const MethodInfo* get() {
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext/CaptureOptions")->byval_arg;

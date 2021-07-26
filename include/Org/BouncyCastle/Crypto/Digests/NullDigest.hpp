@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IDigest
 #include "Org/BouncyCastle/Crypto/IDigest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,28 +48,28 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set instance field: private readonly System.IO.MemoryStream bOut
     void _set_bOut(System::IO::MemoryStream* value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1D0EF20
+    // Offset: 0x18946B4
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1D0EF68
+    // Offset: 0x18946FC
     int GetByteLength();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1D0EF70
+    // Offset: 0x1894704
     int GetDigestSize();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1D0EF98
+    // Offset: 0x189472C
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1D0EFBC
+    // Offset: 0x1894750
     void BlockUpdate(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1D0EFE0
+    // Offset: 0x1894774
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1D0F06C
+    // Offset: 0x1894800
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1D0F094
+    // Offset: 0x1894828
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

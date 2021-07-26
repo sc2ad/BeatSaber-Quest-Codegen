@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: BeatmapLevelSelectionMask
@@ -103,14 +104,14 @@ namespace GlobalNamespace {
     // Set instance field: public readonly GameplayServerConfiguration configuration
     void _set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Void .ctor(System.String serverName, System.String code, System.Int32 currentPlayerCount, System.Boolean hasPassword, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0xF0B428
+    // Offset: 0xF8C4F8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* serverName, ::Il2CppString* code, int currentPlayerCount, bool hasPassword, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 version)
-    // Offset: 0xF0B480
+    // Offset: 0xF8C550
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer, uint version);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader, System.UInt32 version)
-    // Offset: 0x230DC4C
+    // Offset: 0x23CEE00
     static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader, uint version);
   }; // PublicServerInfo
   #pragma pack(pop)

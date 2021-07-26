@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.AnimationPlayableAsset
 #include "UnityEngine/Timeline/AnimationPlayableAsset.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -87,32 +88,32 @@ namespace UnityEngine::Timeline {
     // Set instance field: public UnityEngine.Timeline.AnimationPlayableAsset <>4__this
     void _set_$$4__this(UnityEngine::Timeline::AnimationPlayableAsset* value);
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
-    // Offset: 0x17DC67C
+    // Offset: 0x14ACA80
     UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x17DC6EC
+    // Offset: 0x14ACAF0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x17DBB68
+    // Offset: 0x14ABF6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationPlayableAsset::$get_outputs$d__45* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationPlayableAsset::$get_outputs$d__45::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationPlayableAsset::$get_outputs$d__45*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x17DC5E8
+    // Offset: 0x14AC9EC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x17DC5EC
+    // Offset: 0x14AC9F0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x17DC68C
+    // Offset: 0x14ACA90
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator()
-    // Offset: 0x17DC754
+    // Offset: 0x14ACB58
     System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x17DC800
+    // Offset: 0x14ACC04
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.<get_outputs>d__45
   #pragma pack(pop)

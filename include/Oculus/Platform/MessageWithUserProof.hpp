@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithUserProof
     MessageWithUserProof() noexcept {}
     // protected Oculus.Platform.Models.UserProof GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14A8EB4
+    // Offset: 0x2104D28
     Oculus::Platform::Models::UserProof* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x149E778
+    // Offset: 0x20FA5EC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserProof*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserProof GetUserProof()
-    // Offset: 0x14A8E70
+    // Offset: 0x2104CE4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserProof Message::GetUserProof()
     Oculus::Platform::Models::UserProof* GetUserProof();

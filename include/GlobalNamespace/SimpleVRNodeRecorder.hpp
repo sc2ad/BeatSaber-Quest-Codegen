@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.XR.XRNode
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
       // Set instance field: public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
       void _set_keyframes(::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* value);
       // public System.Void .ctor()
-      // Offset: 0x1057624
+      // Offset: 0x1EC20F8
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -172,7 +173,7 @@ namespace GlobalNamespace {
     float forwardOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE12398
+    // [InjectAttribute] Offset: 0xEBEFB4
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x40
@@ -256,25 +257,25 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _prevRot
     void _set__prevRot(UnityEngine::Quaternion value);
     // protected System.Void Awake()
-    // Offset: 0x10569F4
+    // Offset: 0x1EC14C8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1056D94
+    // Offset: 0x1EC1868
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0x1056ED8
+    // Offset: 0x1EC19AC
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0x10570A4
+    // Offset: 0x1EC1B78
     void Update();
     // private System.Void Save()
-    // Offset: 0x1056DA4
+    // Offset: 0x1EC1878
     void Save();
     // private System.Void Load()
-    // Offset: 0x1056AE4
+    // Offset: 0x1EC15B8
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x105762C
+    // Offset: 0x1EC2100
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

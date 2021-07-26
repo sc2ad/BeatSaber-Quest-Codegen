@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,10 +62,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Image _iconImage
     void _set__iconImage(UnityEngine::UI::Image* value);
     // public System.Void SetModifier(GameplayModifierParamsSO modifierParam, System.Boolean showName)
-    // Offset: 0x10AC4B0
+    // Offset: 0x1F19420
     void SetModifier(GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
     // public System.Void .ctor()
-    // Offset: 0x10B1640
+    // Offset: 0x1F1E5B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

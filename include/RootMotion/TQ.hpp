@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -44,7 +45,7 @@ namespace RootMotion {
     // Set instance field: public UnityEngine.Quaternion q
     void _set_q(UnityEngine::Quaternion value);
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
-    // Offset: 0x1AC8BF0
+    // Offset: 0x1740440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TQ* New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::TQ::.ctor");

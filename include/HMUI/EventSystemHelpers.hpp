@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {
@@ -16,7 +17,7 @@ namespace HMUI {
     // Creating value type constructor for type: EventSystemHelpers
     EventSystemHelpers() noexcept {}
     // static public System.Boolean IsInputFieldSelected()
-    // Offset: 0x1308868
+    // Offset: 0x10CA7D8
     static bool IsInputFieldSelected();
   }; // HMUI.EventSystemHelpers
   #pragma pack(pop)

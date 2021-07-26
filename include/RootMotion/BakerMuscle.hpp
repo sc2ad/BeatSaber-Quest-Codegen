@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -61,29 +62,29 @@ namespace RootMotion {
     // Set instance field: private System.String propertyName
     void _set_propertyName(::Il2CppString* value);
     // public System.Void .ctor(System.Int32 muscleIndex)
-    // Offset: 0x1CD469C
+    // Offset: 0x187143C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerMuscle* New_ctor(int muscleIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerMuscle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerMuscle*, creationType>(muscleIndex)));
     }
     // private System.String MuscleNameToPropertyName(System.String n)
-    // Offset: 0x1CD470C
+    // Offset: 0x18714AC
     ::Il2CppString* MuscleNameToPropertyName(::Il2CppString* n);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x1CD4DF4
+    // Offset: 0x1871B94
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x1CD4EA8
-    void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
+    // Offset: 0x1871C48
+    void SetCurves(ByRef<UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
     // public System.Void Reset()
-    // Offset: 0x1CD4D94
+    // Offset: 0x1871B34
     void Reset();
     // public System.Void SetKeyframe(System.Single time, System.Single[] muscles)
-    // Offset: 0x1CD4F8C
+    // Offset: 0x1871D2C
     void SetKeyframe(float time, ::Array<float>* muscles);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x1CD4FD4
+    // Offset: 0x1871D74
     void SetLoopFrame(float time);
   }; // RootMotion.BakerMuscle
   #pragma pack(pop)
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::SetCurves
 // Il2CppName: SetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(UnityEngine::AnimationClip*&, float, float)>(&RootMotion::BakerMuscle::SetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(ByRef<UnityEngine::AnimationClip*>, float, float)>(&RootMotion::BakerMuscle::SetCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -184,22 +185,22 @@ namespace GlobalNamespace {
     // Set instance field: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     void _set__sparksAudioClipPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1029428
+    // Offset: 0x1E93EFC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10294A8
+    // Offset: 0x1E93F7C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x10294F0
+    // Offset: 0x1E93FC4
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x102951C
+    // Offset: 0x1E93FF0
     System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x10295B8
+    // Offset: 0x1E9408C
     void SetOn(bool on);
     // public System.Void .ctor()
-    // Offset: 0x10296D4
+    // Offset: 0x1E941A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

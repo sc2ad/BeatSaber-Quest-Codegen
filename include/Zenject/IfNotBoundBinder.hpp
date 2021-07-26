@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -42,20 +43,20 @@ namespace Zenject {
     // Set instance field: private Zenject.BindInfo <BindInfo>k__BackingField
     void _set_$BindInfo$k__BackingField(Zenject::BindInfo* value);
     // public Zenject.BindInfo get_BindInfo()
-    // Offset: 0x16254F4
+    // Offset: 0x1328AC4
     Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x16254FC
+    // Offset: 0x1328ACC
     void set_BindInfo(Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x16254C8
+    // Offset: 0x1328A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IfNotBoundBinder* New_ctor(Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IfNotBoundBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IfNotBoundBinder*, creationType>(bindInfo)));
     }
     // public System.Void IfNotBound()
-    // Offset: 0x1625504
+    // Offset: 0x1328AD4
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
   #pragma pack(pop)

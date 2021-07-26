@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.DiContainer
 #include "Zenject/DiContainer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace Zenject {
     // Set instance field: public Zenject.InjectContext context
     void _set_context(Zenject::InjectContext* value);
     // System.Type <ResolveTypeAll>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x1619234
+    // Offset: 0x131C804
     System::Type* $ResolveTypeAll$b__0(Zenject::DiContainer::ProviderInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x161922C
+    // Offset: 0x131C7FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

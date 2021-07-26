@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,7 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFD6BC
+    // [SpaceAttribute] Offset: 0xEAA2D8
     // private UnityEngine.GameObject _collidersGameObject
     // Size: 0x8
     // Offset: 0x30
@@ -81,13 +82,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.GameObject _collidersGameObject
     void _set__collidersGameObject(UnityEngine::GameObject* value);
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x10E49A8
+    // Offset: 0x1F359BC
     void SetCharacter(GlobalNamespace::BTSCharacter* btsCharacter);
     // public System.Void StopAnimation()
-    // Offset: 0x10E4A18
+    // Offset: 0x1F35A2C
     void StopAnimation();
     // public System.Void .ctor()
-    // Offset: 0x10E4A38
+    // Offset: 0x1F35A4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -114,28 +115,28 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _graphicsColor
     void _set__graphicsColor(UnityEngine::Color value);
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x110A960
+    // Offset: 0x1F5C974
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x110AA04
+    // Offset: 0x1F5CA18
     void remove_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0x110AAA8
+    // Offset: 0x1F5CABC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x110AB58
+    // Offset: 0x1F5CB6C
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x110AB74
+    // Offset: 0x1F5CB88
     void AddColor(UnityEngine::Color color);
     // public System.Void DiscardUpcomingColor()
-    // Offset: 0x110AC2C
+    // Offset: 0x1F5CC40
     void DiscardUpcomingColor();
     // private System.Void <Awake>b__9_0()
-    // Offset: 0x110AC7C
+    // Offset: 0x1F5CC90
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x110AC38
+    // Offset: 0x1F5CC4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

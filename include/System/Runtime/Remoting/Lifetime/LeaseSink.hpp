@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMessageSink
 #include "System/Runtime/Remoting/Messaging/IMessageSink.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,20 +50,20 @@ namespace System::Runtime::Remoting::Lifetime {
     // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink _nextSink
     void _set__nextSink(System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
-    // Offset: 0x19F2674
+    // Offset: 0x16A9768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaseSink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* nextSink) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Lifetime::LeaseSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaseSink*, creationType>(nextSink)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x19F26A0
+    // Offset: 0x16A9794
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x19F2A08
+    // Offset: 0x16A9AFC
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // private System.Void RenewLease(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x19F2768
+    // Offset: 0x16A985C
     void RenewLease(System::Runtime::Remoting::Messaging::IMessage* msg);
   }; // System.Runtime.Remoting.Lifetime.LeaseSink
   #pragma pack(pop)

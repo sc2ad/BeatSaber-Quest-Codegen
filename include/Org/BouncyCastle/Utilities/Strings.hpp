@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
@@ -17,7 +18,7 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: Strings
     Strings() noexcept {}
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    // Offset: 0x1F7DD90
+    // Offset: 0x1A63C50
     static bool IsOneOf(::Il2CppString* s, ::Array<::Il2CppString*>* candidates);
     // Creating initializer_list -> params proxy for: System.Boolean IsOneOf(System.String s, params System.String[] candidates)
     static bool IsOneOf(::Il2CppString* s, std::initializer_list<::Il2CppString*> candidates);
@@ -27,19 +28,19 @@ namespace Org::BouncyCastle::Utilities {
       return IsOneOf(s, {candidates...});
     }
     // static public System.String FromByteArray(System.Byte[] bs)
-    // Offset: 0x1F7DE1C
+    // Offset: 0x1A63CDC
     static ::Il2CppString* FromByteArray(::Array<uint8_t>* bs);
     // static public System.Byte[] ToByteArray(System.Char[] cs)
-    // Offset: 0x1F7DF20
+    // Offset: 0x1A63DE0
     static ::Array<uint8_t>* ToByteArray(::Array<::Il2CppChar>* cs);
     // static public System.Byte[] ToByteArray(System.String s)
-    // Offset: 0x1F7E01C
+    // Offset: 0x1A63EDC
     static ::Array<uint8_t>* ToByteArray(::Il2CppString* s);
     // static public System.String FromAsciiByteArray(System.Byte[] bytes)
-    // Offset: 0x1F7B40C
+    // Offset: 0x1A612CC
     static ::Il2CppString* FromAsciiByteArray(::Array<uint8_t>* bytes);
     // static public System.Byte[] ToAsciiByteArray(System.String s)
-    // Offset: 0x1F7E114
+    // Offset: 0x1A63FD4
     static ::Array<uint8_t>* ToAsciiByteArray(::Il2CppString* s);
   }; // Org.BouncyCastle.Utilities.Strings
   #pragma pack(pop)

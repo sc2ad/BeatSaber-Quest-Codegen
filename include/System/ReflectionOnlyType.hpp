@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.RuntimeType
 #include "System/RuntimeType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,12 +29,12 @@ namespace System {
     // Creating value type constructor for type: ReflectionOnlyType
     ReflectionOnlyType() noexcept {}
     // public override System.RuntimeTypeHandle get_TypeHandle()
-    // Offset: 0x13E7790
+    // Offset: 0x11903F0
     // Implemented from: System.RuntimeType
     // Base method: System.RuntimeTypeHandle RuntimeType::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();
     // private System.Void .ctor()
-    // Offset: 0x13E7728
+    // Offset: 0x1190388
     // Implemented from: System.RuntimeType
     // Base method: System.Void RuntimeType::.ctor()
     // Base method: System.Void TypeInfo::.ctor()

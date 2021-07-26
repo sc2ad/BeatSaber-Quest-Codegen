@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: MultiplayerScoreProvider
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerVerticalPlayerMovementManager : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xE08FA8
+    // [TooltipAttribute] Offset: 0xEB5BC4
     // private System.Single _movementRange
     // Size: 0x4
     // Offset: 0x18
@@ -80,28 +81,28 @@ namespace GlobalNamespace {
     float minScoreDifference;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE09044
+    // [InjectAttribute] Offset: 0xEB5C60
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE09054
+    // [InjectAttribute] Offset: 0xEB5C70
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE09064
+    // [InjectAttribute] Offset: 0xEB5C80
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE09074
+    // [InjectAttribute] Offset: 0xEB5C90
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x48
@@ -183,19 +184,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _lastFrameBaseScore
     void _set__lastFrameBaseScore(float value);
     // protected System.Void Start()
-    // Offset: 0x100D038
+    // Offset: 0x1E605EC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x100D0FC
+    // Offset: 0x1E606B0
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x100D1D8
+    // Offset: 0x1E6078C
     void Update();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x100D0EC
+    // Offset: 0x1E606A0
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x100DA80
+    // Offset: 0x1E61034
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

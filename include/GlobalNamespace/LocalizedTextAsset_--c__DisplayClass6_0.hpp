@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LocalizedTextAsset
 #include "GlobalNamespace/LocalizedTextAsset.hpp"
 // Including type: Polyglot.Language
@@ -39,10 +40,10 @@ namespace GlobalNamespace {
     // Set instance field: public Polyglot.Language language
     void _set_language(Polyglot::Language value);
     // System.Boolean <get_localizedText>b__1(LocalizedTextAsset/TextInfo t)
-    // Offset: 0x1178A30
+    // Offset: 0x1FA8444
     bool $get_localizedText$b__1(GlobalNamespace::LocalizedTextAsset::TextInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x1178994
+    // Offset: 0x1FA83A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

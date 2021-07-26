@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,16 +64,16 @@ namespace GlobalNamespace {
     // Set instance field: private ExperimentDefinitionSO _abTestExperimentDefinition
     void _set__abTestExperimentDefinition(GlobalNamespace::ExperimentDefinitionSO* value);
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x108ADD0
+    // Offset: 0x1F0C6CC
     ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* get_musicPackPromoInfos();
     // public ExperimentDefinitionSO get_aaTestExperimentDefinition()
-    // Offset: 0x108ADD8
+    // Offset: 0x1F0C6D4
     GlobalNamespace::ExperimentDefinitionSO* get_aaTestExperimentDefinition();
     // public ExperimentDefinitionSO get_abTestExperimentDefinition()
-    // Offset: 0x108ADE0
+    // Offset: 0x1F0C6DC
     GlobalNamespace::ExperimentDefinitionSO* get_abTestExperimentDefinition();
     // public System.Void .ctor()
-    // Offset: 0x108ADE8
+    // Offset: 0x1F0C6E4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

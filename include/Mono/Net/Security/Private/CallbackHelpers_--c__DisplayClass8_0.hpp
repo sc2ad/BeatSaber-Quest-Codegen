@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.Private.CallbackHelpers
 #include "Mono/Net/Security/Private/CallbackHelpers.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,10 +52,10 @@ namespace Mono::Net::Security::Private {
     // Set instance field: public Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback
     void _set_callback(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
     // System.Security.Cryptography.X509Certificates.X509Certificate <MonoToInternal>b__0(System.String t, System.Security.Cryptography.X509Certificates.X509CertificateCollection lc, System.Security.Cryptography.X509Certificates.X509Certificate rc, System.String[] ai)
-    // Offset: 0x15B1284
+    // Offset: 0x12B4854
     System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::Il2CppString* t, System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::Array<::Il2CppString*>* ai);
     // public System.Void .ctor()
-    // Offset: 0x15B1240
+    // Offset: 0x12B4810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

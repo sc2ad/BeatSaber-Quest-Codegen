@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SimpleRetailDemoFlowCoordinator
 #include "GlobalNamespace/SimpleRetailDemoFlowCoordinator.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -61,26 +62,26 @@ namespace GlobalNamespace {
     // Set instance field: public SimpleRetailDemoFlowCoordinator <>4__this
     void _set_$$4__this(GlobalNamespace::SimpleRetailDemoFlowCoordinator* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1056150
+    // Offset: 0x1EC0C24
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x10561B8
+    // Offset: 0x1EC0C8C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1055DE8
+    // Offset: 0x1EC08BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1056084
+    // Offset: 0x1EC0B58
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1056088
+    // Offset: 0x1EC0B5C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1056158
+    // Offset: 0x1EC0C2C
     void System_Collections_IEnumerator_Reset();
   }; // SimpleRetailDemoFlowCoordinator/<QuitApplicationCoroutine>d__22
   #pragma pack(pop)

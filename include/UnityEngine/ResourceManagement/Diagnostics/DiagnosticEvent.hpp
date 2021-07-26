@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -104,28 +105,28 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set instance field: private System.Int32 m_Value
     void _set_m_Value(int value);
     // public System.String get_Graph()
-    // Offset: 0xEEC0A0
+    // Offset: 0xD80058
     ::Il2CppString* get_Graph();
     // public System.Int32 get_ObjectId()
-    // Offset: 0xEEC0A8
+    // Offset: 0xD80060
     int get_ObjectId();
     // public System.String get_DisplayName()
-    // Offset: 0xEEC0B0
+    // Offset: 0xD80068
     ::Il2CppString* get_DisplayName();
     // public System.Int32[] get_Dependencies()
-    // Offset: 0xEEC0B8
+    // Offset: 0xD80070
     ::Array<int>* get_Dependencies();
     // public System.Int32 get_Stream()
-    // Offset: 0xEEC0C0
+    // Offset: 0xD80078
     int get_Stream();
     // public System.Int32 get_Frame()
-    // Offset: 0xEEC0C8
+    // Offset: 0xD80080
     int get_Frame();
     // public System.Int32 get_Value()
-    // Offset: 0xEEC0D0
+    // Offset: 0xD80088
     int get_Value();
     // public System.Void .ctor(System.String graph, System.String name, System.Int32 id, System.Int32 stream, System.Int32 frame, System.Int32 value, System.Int32[] deps)
-    // Offset: 0xEEC0D8
+    // Offset: 0xD80090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     DiagnosticEvent(::Il2CppString* graph, ::Il2CppString* name, int id, int stream, int frame, int value, ::Array<int>* deps) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::.ctor");
@@ -133,10 +134,10 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, graph, name, id, stream, frame, value, deps);
     }
     // System.Byte[] Serialize()
-    // Offset: 0xEEC0F0
+    // Offset: 0xD800A8
     ::Array<uint8_t>* Serialize();
     // static public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent Deserialize(System.Byte[] data)
-    // Offset: 0x19AFD50
+    // Offset: 0x1667E44
     static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent Deserialize(::Array<uint8_t>* data);
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -34,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F319C
+    // Offset: 0x12F676C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTimeInSeconds(out System.Double value)
-    // Offset: 0x15F303C
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetTimeInSeconds(double& value);
+    // Offset: 0x12F660C
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetTimeInSeconds(ByRef<double> value);
     // static public OVRPlugin/Result ovrp_SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, OVRPlugin/Bool applyToAllLayers)
-    // Offset: 0x15F30BC
+    // Offset: 0x12F668C
     static GlobalNamespace::OVRPlugin::Result ovrp_SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, GlobalNamespace::OVRPlugin::Bool applyToAllLayers);
   }; // OVRPlugin/OVRP_1_31_0
   #pragma pack(pop)
@@ -59,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds
 // Il2CppName: ovrp_GetTimeInSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(double&)>(&GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<double>)>(&GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_31_0*), "ovrp_GetTimeInSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

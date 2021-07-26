@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview
 #include "GlobalNamespace/BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview.hpp"
 // Including type: System.ValueType
@@ -89,10 +90,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.AudioClip> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*> value);
     // private System.Void MoveNext()
-    // Offset: 0xED16A4
+    // Offset: 0xF7CAD0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED16AC
+    // Offset: 0xF7CAD8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/<GetPreviewAudioClipAsync>d__33
   // WARNING Not writing size check since size may be invalid!

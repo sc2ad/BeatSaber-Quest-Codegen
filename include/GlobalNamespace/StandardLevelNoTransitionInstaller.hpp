@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.NoTransitionInstaller
 #include "Zenject/NoTransitionInstaller.hpp"
 // Including type: INoTransitionColorSchemeProvider
@@ -113,7 +114,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: scenesTransitionSetupData
     char __padding9[0x7] = {};
-    // [SpaceAttribute] Offset: 0xE13298
+    // [SpaceAttribute] Offset: 0xEBFEB4
     // private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x68
@@ -173,13 +174,13 @@ namespace GlobalNamespace {
     // Set instance field: private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     void _set__scenesTransitionSetupData(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1066388
+    // Offset: 0x1ED1E5C
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x1066390
+    // Offset: 0x1ED1E64
     void set_colorScheme(GlobalNamespace::ColorSchemeSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1066A54
+    // Offset: 0x1ED2528
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -193,7 +194,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1066398
+    // Offset: 0x1ED1E6C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

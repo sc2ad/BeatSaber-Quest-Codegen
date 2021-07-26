@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,22 +76,22 @@ namespace GlobalNamespace {
     // Set instance field: private PlatformAchievementsHandler _platformAchievementsHandler
     void _set__platformAchievementsHandler(GlobalNamespace::PlatformAchievementsHandler* value);
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
-    // Offset: 0x10FBE10
+    // Offset: 0x1F4DE24
     GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();
     // public System.Void Initialize()
-    // Offset: 0x10FBEB8
+    // Offset: 0x1F4DECC
     void Initialize();
     // private System.Void CreatePlatformAchievementsHandler()
-    // Offset: 0x10FBE40
+    // Offset: 0x1F4DE54
     void CreatePlatformAchievementsHandler();
     // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x10FBEBC
+    // Offset: 0x1F4DED0
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::Il2CppString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x10FC1A4
+    // Offset: 0x1F4E1B8
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0x10FC49C
+    // Offset: 0x1F4E4B0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MemoryPoolBase`1
 #include "Zenject/MemoryPoolBase_1.hpp"
 // Including type: Zenject.IFactory`2

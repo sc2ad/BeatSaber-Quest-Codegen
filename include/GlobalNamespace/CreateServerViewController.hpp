@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 // Including type: CreateServerFormData
@@ -94,28 +95,28 @@ namespace GlobalNamespace {
     // Set instance field: private MultiplayerModeSettings _multiplayerModeSettings
     void _set__multiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x1082760
+    // Offset: 0x1F0405C
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,CreateServerFormData> value)
-    // Offset: 0x1082618
+    // Offset: 0x1F03F14
     void add_didFinishEvent(System::Action_2<bool, GlobalNamespace::CreateServerFormData>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,CreateServerFormData> value)
-    // Offset: 0x10826BC
+    // Offset: 0x1F03FB8
     void remove_didFinishEvent(System::Action_2<bool, GlobalNamespace::CreateServerFormData>* value);
     // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x1082768
+    // Offset: 0x1F04064
     void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private CreateServerFormData ApplyAndGetData()
-    // Offset: 0x10828B0
+    // Offset: 0x1F041AC
     GlobalNamespace::CreateServerFormData ApplyAndGetData();
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0x1082954
+    // Offset: 0x1F04250
     void $DidActivate$b__10_0();
     // private System.Void <DidActivate>b__10_1()
-    // Offset: 0x10829DC
+    // Offset: 0x1F042D8
     void $DidActivate$b__10_1();
     // public System.Void .ctor()
-    // Offset: 0x108294C
+    // Offset: 0x1F04248
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -129,7 +130,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CreateServerViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10827B4
+    // Offset: 0x1F040B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

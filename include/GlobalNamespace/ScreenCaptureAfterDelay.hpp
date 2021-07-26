@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,21 +45,21 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6
     class $Start$d__6;
-    // [InjectAttribute] Offset: 0xDEBB0C
+    // [InjectAttribute] Offset: 0xE99728
     // private MainEffectController _mainEffectController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MainEffectController* mainEffectController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainEffectController*) == 0x8);
-    // [InjectAttribute] Offset: 0xDEBB1C
+    // [InjectAttribute] Offset: 0xE99738
     // private ScreenCaptureCache _screenCaptureCache
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::ScreenCaptureCache* screenCaptureCache;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScreenCaptureCache*) == 0x8);
-    // [InjectAttribute] Offset: 0xDEBB2C
+    // [InjectAttribute] Offset: 0xE99748
     // private ScreenCaptureAfterDelay/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -102,16 +103,16 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.RenderTexture _captureRenderTexture
     void _set__captureRenderTexture(UnityEngine::RenderTexture* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x2342384
+    // Offset: 0x1DC87C4
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2342420
+    // Offset: 0x1DC8860
     void OnDestroy();
     // private System.Void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2342504
+    // Offset: 0x1DC8944
     void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x23427FC
+    // Offset: 0x1DC8C3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

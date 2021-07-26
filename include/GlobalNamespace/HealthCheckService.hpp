@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IHealthCheckService
 #include "GlobalNamespace/IHealthCheckService.hpp"
 // Including type: System.Int32
@@ -102,20 +103,20 @@ namespace GlobalNamespace {
     // Set instance field: private System.Net.HttpListener _listener
     void _set__listener(System::Net::HttpListener* value);
     // public System.Void .ctor(System.Int32 port)
-    // Offset: 0x12C6B64
+    // Offset: 0x109C2A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthCheckService* New_ctor(int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthCheckService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthCheckService*, creationType>(port)));
     }
     // public System.Void Dispose()
-    // Offset: 0x12C6C44
+    // Offset: 0x109C380
     void Dispose();
     // public System.Void PollUpdate()
-    // Offset: 0x12C6D1C
+    // Offset: 0x109C458
     void PollUpdate();
     // private System.Void Run()
-    // Offset: 0x12C6DE4
+    // Offset: 0x109C520
     void Run();
   }; // HealthCheckService
   #pragma pack(pop)

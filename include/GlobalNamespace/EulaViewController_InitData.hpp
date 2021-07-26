@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EulaViewController
 #include "GlobalNamespace/EulaViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean showDoNotAgreeButton
     void _set_showDoNotAgreeButton(bool value);
     // public System.Void .ctor(System.Boolean showDoNotAgreeButton)
-    // Offset: 0x10235A8
+    // Offset: 0x1E8E07C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaViewController::InitData* New_ctor(bool showDoNotAgreeButton) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EulaViewController::InitData::.ctor");

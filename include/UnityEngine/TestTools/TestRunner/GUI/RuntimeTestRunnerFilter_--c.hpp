@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter
 #include "UnityEngine/TestTools/TestRunner/GUI/RuntimeTestRunnerFilter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,28 +65,28 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__6_2
     static void _set_$$9__6_2(System::Func_2<::Il2CppString*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14900FC
+    // Offset: 0x120115C
     static void _cctor();
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_0(System.String s)
-    // Offset: 0x1490168
+    // Offset: 0x12011C8
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_0(::Il2CppString* s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_1(System.String s)
-    // Offset: 0x14901CC
+    // Offset: 0x120122C
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_1(::Il2CppString* s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_2(System.String s)
-    // Offset: 0x1490240
+    // Offset: 0x12012A0
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_2(::Il2CppString* s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_3(System.String s)
-    // Offset: 0x14902A4
+    // Offset: 0x1201304
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_3(::Il2CppString* s);
     // System.Boolean <AddFilters>b__6_0(System.String v)
-    // Offset: 0x1490318
+    // Offset: 0x1201378
     bool $AddFilters$b__6_0(::Il2CppString* v);
     // System.Boolean <AddFilters>b__6_2(System.String v)
-    // Offset: 0x1490380
+    // Offset: 0x12013E0
     bool $AddFilters$b__6_2(::Il2CppString* v);
     // public System.Void .ctor()
-    // Offset: 0x1490160
+    // Offset: 0x12011C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

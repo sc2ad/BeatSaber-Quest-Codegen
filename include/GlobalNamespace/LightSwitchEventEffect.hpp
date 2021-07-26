@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
@@ -118,14 +119,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: colorBoostEvent and: lightManager
     char __padding12[0x4] = {};
-    // [InjectAttribute] Offset: 0xE054D4
+    // [InjectAttribute] Offset: 0xEB20F0
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::LightWithIdManager* lightManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LightWithIdManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE054E4
+    // [InjectAttribute] Offset: 0xEB2100
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x78
@@ -287,34 +288,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _prevLightSwitchBeatmapEventDataValue
     void _set__prevLightSwitchBeatmapEventDataValue(int value);
     // public System.Int32 get_lightsId()
-    // Offset: 0x11B85F8
+    // Offset: 0x1FE703C
     int get_lightsId();
     // protected System.Void Start()
-    // Offset: 0x11B8600
+    // Offset: 0x1FE7044
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x11B86F0
+    // Offset: 0x1FE7134
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x11B87F0
+    // Offset: 0x1FE7234
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x11B898C
+    // Offset: 0x1FE73D0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void ProcessLightSwitchEvent(System.Int32 beatmapEventDataValue, System.Boolean updateColorsOnly)
-    // Offset: 0x11B8A14
+    // Offset: 0x1FE7458
     void ProcessLightSwitchEvent(int beatmapEventDataValue, bool updateColorsOnly);
     // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue)
-    // Offset: 0x11B8BE0
+    // Offset: 0x1FE7624
     UnityEngine::Color GetNormalColor(int beatmapEventValue);
     // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue)
-    // Offset: 0x11B8C3C
+    // Offset: 0x1FE7680
     UnityEngine::Color GetHighlightColor(int beatmapEventValue);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x11B8968
+    // Offset: 0x1FE73AC
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x11B8C98
+    // Offset: 0x1FE76DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

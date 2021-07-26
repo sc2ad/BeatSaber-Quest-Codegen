@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -57,10 +58,10 @@ namespace NUnit::Framework::Constraints {
     // Set instance field: private System.Object lastPushed
     void _set_lastPushed(::Il2CppObject* value);
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x1716804
+    // Offset: 0x1419EC0
     bool get_IsResolvable();
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x1716658
+    // Offset: 0x1419D14
     NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)

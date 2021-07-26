@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: Polyglot.Language
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* customSongPackMaskItems;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0211C
+    // [SpaceAttribute] Offset: 0xEAED38
     // private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
     // Size: 0x8
     // Offset: 0x28
@@ -78,7 +79,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(Polyglot::Language) == 0x4);
     // Padding between fields: currentLocalizedLanguage and: songPackSerializedNameToLocalizedNameDict
     char __padding4[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0xE02164
+    // [TupleElementNamesAttribute] Offset: 0xEAED80
     // private System.Collections.Generic.Dictionary`2<System.String,System.ValueTuple`2<System.String,System.Boolean>> _songPackSerializedNameToLocalizedNameDict
     // Size: 0x8
     // Offset: 0x40
@@ -134,40 +135,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.Dictionary`2<SongPackMask,System.String> _songPackMaskToSerializedNameDict
     void _set__songPackMaskToSerializedNameDict(System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* value);
     // public System.Collections.Generic.List`1<System.String> get_defaultSongPackMaskItems()
-    // Offset: 0x1059C00
+    // Offset: 0x1EC46D4
     System::Collections::Generic::List_1<::Il2CppString*>* get_defaultSongPackMaskItems();
     // public SongPackMaskModelSO/SongPackMaskItem[] get_customSongPackMaskItems()
-    // Offset: 0x1059C08
+    // Offset: 0x1EC46DC
     ::Array<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>* get_customSongPackMaskItems();
     // public BeatmapLevelPackCollectionSO get_ostAndExtrasCollection()
-    // Offset: 0x1059C10
+    // Offset: 0x1EC46E4
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasCollection();
     // public BeatmapLevelPackCollectionSO get_dlcCollection()
-    // Offset: 0x1059C18
+    // Offset: 0x1EC46EC
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_dlcCollection();
     // public System.String ToLocalizedName(System.String serializedName)
-    // Offset: 0x1059C20
+    // Offset: 0x1EC46F4
     ::Il2CppString* ToLocalizedName(::Il2CppString* serializedName);
     // public System.String ToLocalizedName(System.String serializedName, out System.Boolean plural)
-    // Offset: 0x1059C44
-    ::Il2CppString* ToLocalizedName(::Il2CppString* serializedName, bool& plural);
+    // Offset: 0x1EC4718
+    ::Il2CppString* ToLocalizedName(::Il2CppString* serializedName, ByRef<bool> plural);
     // public System.Boolean ToSongPackMask(System.String serializedName, out SongPackMask songPackMask)
-    // Offset: 0x105A3E4
-    bool ToSongPackMask(::Il2CppString* serializedName, GlobalNamespace::SongPackMask& songPackMask);
+    // Offset: 0x1EC4EB8
+    bool ToSongPackMask(::Il2CppString* serializedName, ByRef<GlobalNamespace::SongPackMask> songPackMask);
     // public SongPackMask ToSongPackMask(System.String serializedName)
-    // Offset: 0x105A45C
+    // Offset: 0x1EC4F30
     GlobalNamespace::SongPackMask ToSongPackMask(::Il2CppString* serializedName);
     // public System.Boolean ToSerializedName(SongPackMask songPackMask, out System.String serializedName)
-    // Offset: 0x105A494
-    bool ToSerializedName(GlobalNamespace::SongPackMask songPackMask, ::Il2CppString*& serializedName);
+    // Offset: 0x1EC4F68
+    bool ToSerializedName(GlobalNamespace::SongPackMask songPackMask, ByRef<::Il2CppString*> serializedName);
     // public System.String ToSerializedName(SongPackMask songPackMask)
-    // Offset: 0x105A51C
+    // Offset: 0x1EC4FF0
     ::Il2CppString* ToSerializedName(GlobalNamespace::SongPackMask songPackMask);
     // private System.Void LazyInit()
-    // Offset: 0x1059D00
+    // Offset: 0x1EC47D4
     void LazyInit();
     // public System.Void .ctor()
-    // Offset: 0x105A980
+    // Offset: 0x1EC5454
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -229,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToLocalizedName
 // Il2CppName: ToLocalizedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::*)(::Il2CppString*, bool&)>(&GlobalNamespace::SongPackMaskModelSO::ToLocalizedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::*)(::Il2CppString*, ByRef<bool>)>(&GlobalNamespace::SongPackMaskModelSO::ToLocalizedName)> {
   static const MethodInfo* get() {
     static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* plural = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -239,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToSongPackMask
 // Il2CppName: ToSongPackMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongPackMaskModelSO::*)(::Il2CppString*, GlobalNamespace::SongPackMask&)>(&GlobalNamespace::SongPackMaskModelSO::ToSongPackMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongPackMaskModelSO::*)(::Il2CppString*, ByRef<GlobalNamespace::SongPackMask>)>(&GlobalNamespace::SongPackMaskModelSO::ToSongPackMask)> {
   static const MethodInfo* get() {
     static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->this_arg;
@@ -258,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToSerializedName
 // Il2CppName: ToSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongPackMaskModelSO::*)(GlobalNamespace::SongPackMask, ::Il2CppString*&)>(&GlobalNamespace::SongPackMaskModelSO::ToSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongPackMaskModelSO::*)(GlobalNamespace::SongPackMask, ByRef<::Il2CppString*>)>(&GlobalNamespace::SongPackMaskModelSO::ToSerializedName)> {
   static const MethodInfo* get() {
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
     static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

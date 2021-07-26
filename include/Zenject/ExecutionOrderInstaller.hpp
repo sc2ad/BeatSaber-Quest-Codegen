@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Installer`2
 #include "Zenject/Installer_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,14 +47,14 @@ namespace Zenject {
     // Set instance field: private System.Collections.Generic.List`1<System.Type> _typeOrder
     void _set__typeOrder(System::Collections::Generic::List_1<System::Type*>* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Type> typeOrder)
-    // Offset: 0x161B218
+    // Offset: 0x131E7E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionOrderInstaller* New_ctor(System::Collections::Generic::List_1<System::Type*>* typeOrder) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ExecutionOrderInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionOrderInstaller*, creationType>(typeOrder)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x161B27C
+    // Offset: 0x131E84C
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

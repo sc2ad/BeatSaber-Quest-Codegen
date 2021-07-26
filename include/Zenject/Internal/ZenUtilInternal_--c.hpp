@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ZenUtilInternal
 #include "Zenject/Internal/ZenUtilInternal.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,16 +60,16 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16C3F1C
+    // Offset: 0x13C65D8
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetAllSceneContexts>b__3_0(UnityEngine.GameObject root)
-    // Offset: 0x16C3F88
+    // Offset: 0x13C6644
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* $GetAllSceneContexts$b__3_0(UnityEngine::GameObject* root);
     // System.Boolean <GetRootGameObjects>b__10_0(UnityEngine.GameObject x)
-    // Offset: 0x16C3FE0
+    // Offset: 0x13C669C
     bool $GetRootGameObjects$b__10_0(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x16C3F80
+    // Offset: 0x13C663C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

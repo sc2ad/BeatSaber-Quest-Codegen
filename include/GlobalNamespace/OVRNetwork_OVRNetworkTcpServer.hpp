@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRNetwork
 #include "GlobalNamespace/OVRNetwork.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -72,25 +73,25 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Collections.Generic.List`1<System.Net.Sockets.TcpClient> clients
     void _set_clients(System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* value);
     // public System.Void StartListening(System.Int32 listeningPort)
-    // Offset: 0x12E8070
+    // Offset: 0x10A9FE0
     void StartListening(int listeningPort);
     // public System.Void StopListening()
-    // Offset: 0x12E8558
+    // Offset: 0x10AA4C8
     void StopListening();
     // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
-    // Offset: 0x12E86AC
+    // Offset: 0x10AA61C
     void DoAcceptTcpClientCallback(System::IAsyncResult* ar);
     // public System.Boolean HasConnectedClient()
-    // Offset: 0x12E8B60
+    // Offset: 0x10AAAD0
     bool HasConnectedClient();
     // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
-    // Offset: 0x12E8D4C
+    // Offset: 0x10AACBC
     void Broadcast(int payloadType, ::Array<uint8_t>* payload);
     // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
-    // Offset: 0x12E9250
+    // Offset: 0x10AB1C0
     void DoWriteDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x12E9348
+    // Offset: 0x10AB2B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

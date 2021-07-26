@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IRichPresenceData
 #include "GlobalNamespace/IRichPresenceData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
     constexpr operator ::Il2CppString*() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0xE02F1C
+    // [LocalizationKeyAttribute] Offset: 0xEAFB38
     // static field const value: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static constexpr const char* kPlayingCampaignRichPresenceLocalizationKey = "PLAYING_CAMPAIGN_PRESENCE";
     // Get static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
@@ -54,16 +55,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.String <localizedDescription>k__BackingField
     void _set_$localizedDescription$k__BackingField(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0x1107DE8
+    // Offset: 0x1F59DFC
     ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x1107E30
+    // Offset: 0x1F59E44
     ::Il2CppString* get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1107E38
+    // Offset: 0x1F59E4C
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1107E40
+    // Offset: 0x1F59E54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder
 #include "UnityEngine/TestTools/NUnitExtensions/UnityTestAssemblyBuilder.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -136,26 +137,26 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Set instance field: private System.Int32 <index>5__3
     void _set_$index$5__3(int value);
     // private NUnit.Framework.Interfaces.ITest System.Collections.Generic.IEnumerator<NUnit.Framework.Interfaces.ITest>.get_Current()
-    // Offset: 0x148C494
+    // Offset: 0x11FD4F4
     NUnit::Framework::Interfaces::ITest* System_Collections_Generic_IEnumerator$NUnit_Framework_Interfaces_ITest$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x148C4FC
+    // Offset: 0x11FD55C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x148C0D8
+    // Offset: 0x11FD138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyBuilder::$BuildAsync$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyBuilder::$BuildAsync$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x148C1D4
+    // Offset: 0x11FD234
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x148C1D8
+    // Offset: 0x11FD238
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x148C49C
+    // Offset: 0x11FD4FC
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder/UnityEngine.TestTools.NUnitExtensions.<BuildAsync>d__3
   #pragma pack(pop)

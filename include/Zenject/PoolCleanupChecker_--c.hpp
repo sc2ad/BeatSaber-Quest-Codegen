@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolCleanupChecker
 #include "Zenject/PoolCleanupChecker.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,13 +42,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__2_0
     static void _set_$$9__2_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16C5EFC
+    // Offset: 0x13C85B8
     static void _cctor();
     // System.Boolean <.ctor>b__2_0(System.Type x)
-    // Offset: 0x16C5F68
+    // Offset: 0x13C8624
     bool $_ctor$b__2_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x16C5F60
+    // Offset: 0x13C861C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

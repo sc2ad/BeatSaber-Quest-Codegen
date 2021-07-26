@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassBackgroundTextureGradient
 #include "GlobalNamespace/BloomPrePassBackgroundTextureGradient.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,13 +51,13 @@ namespace GlobalNamespace {
     // Set instance field: private BloomPrePassBackgroundColorsGradient/Element[] _elements
     void _set__elements(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* value);
     // public BloomPrePassBackgroundColorsGradient/Element[] get_elements()
-    // Offset: 0x1DEC954
+    // Offset: 0x195F534
     ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>* get_elements();
     // private UnityEngine.Color EvaluateColor(System.Single t)
-    // Offset: 0x1DEC9C8
+    // Offset: 0x195F5A8
     UnityEngine::Color EvaluateColor(float t);
     // public System.Void .ctor()
-    // Offset: 0x1DECB50
+    // Offset: 0x195F730
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradient*, creationType>()));
     }
     // protected override System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
-    // Offset: 0x1DEC95C
+    // Offset: 0x195F53C
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int numberOfPixels);

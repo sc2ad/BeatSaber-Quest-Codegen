@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,13 +32,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SaberTypeExtensions
     SaberTypeExtensions() noexcept {}
     // static public System.Boolean MatchesColorType(SaberType saberType, ColorType colorType)
-    // Offset: 0x232827C
+    // Offset: 0x23DB660
     static bool MatchesColorType(GlobalNamespace::SaberType saberType, GlobalNamespace::ColorType colorType);
     // static public UnityEngine.XR.XRNode Node(SaberType saberType)
-    // Offset: 0x232A84C
+    // Offset: 0x23DDC30
     static UnityEngine::XR::XRNode Node(GlobalNamespace::SaberType saberType);
     // static public SaberType MainSaber(System.Boolean leftHanded)
-    // Offset: 0x232A85C
+    // Offset: 0x23DDC40
     static GlobalNamespace::SaberType MainSaber(bool leftHanded);
   }; // SaberTypeExtensions
   #pragma pack(pop)

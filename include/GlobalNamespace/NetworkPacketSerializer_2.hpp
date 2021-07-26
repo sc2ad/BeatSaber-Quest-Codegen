@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: INetworkPacketSerializer`1
 #include "GlobalNamespace/INetworkPacketSerializer_1.hpp"
 // Including type: INetworkPacketSubSerializer`1
@@ -688,10 +689,10 @@ namespace GlobalNamespace {
     }
     // private System.Boolean TryGetPacketType(System.Type type, out System.Byte packetType, out INetworkPacketSubSerializer`1<TData> subSerializer)
     // Offset: 0xFFFFFFFF
-    bool TryGetPacketType(System::Type* type, uint8_t& packetType, GlobalNamespace::INetworkPacketSubSerializer_1<TData>*& subSerializer) {
+    bool TryGetPacketType(System::Type* type, ByRef<uint8_t> packetType, ByRef<GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> subSerializer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::TryGetPacketType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetPacketType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractIndependentType<uint8_t&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<TData>*&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, type, packetType, subSerializer);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, type, byref(packetType), byref(subSerializer));
     }
     // public System.Boolean HandlesType(System.Type type)
     // Offset: 0xFFFFFFFF

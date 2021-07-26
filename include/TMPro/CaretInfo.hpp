@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: TMPro.CaretPosition
@@ -49,7 +50,7 @@ namespace TMPro {
     // Set instance field: public TMPro.CaretPosition position
     void _set_position(TMPro::CaretPosition value);
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
-    // Offset: 0xED05D0
+    // Offset: 0xD6746C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position)
   }; // TMPro.CaretInfo

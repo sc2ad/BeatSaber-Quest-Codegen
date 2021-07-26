@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,13 +58,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _isLoading
     void _set__isLoading(bool value);
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x10DB198
+    // Offset: 0x1F2C1AC
     void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x10DB258
+    // Offset: 0x1F2C26C
     System::Collections::IEnumerator* LoadAudioFileCoroutine(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Void .ctor()
-    // Offset: 0x10DB308
+    // Offset: 0x1F2C31C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipLoaderSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x10DB170
+    // Offset: 0x1F2C184
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

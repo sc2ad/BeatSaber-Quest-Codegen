@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.ScrollRect
 #include "UnityEngine/UI/ScrollRect.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
@@ -25,7 +26,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: ScrollRectEvent
     ScrollRectEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1987FD0
+    // Offset: 0x165A3D4
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

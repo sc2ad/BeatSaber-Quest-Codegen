@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BezierSpline
 #include "GlobalNamespace/BezierSpline.hpp"
 // Including type: System.ValueType
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single[] p2
     void _set_p2(::Array<float>* value);
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
-    // Offset: 0xED0340
+    // Offset: 0xF7BCB4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ComputeControlPointsResults(::Array<float>* p1, ::Array<float>* p2)
   }; // BezierSpline/ComputeControlPointsResults

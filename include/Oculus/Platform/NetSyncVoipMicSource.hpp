@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE954C
+    // [DescriptionAttribute] Offset: 0xE97168
     // static field const value: static public Oculus.Platform.NetSyncVoipMicSource Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncVoipMicSource Unknown
     static Oculus::Platform::NetSyncVoipMicSource _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncVoipMicSource Unknown
     static void _set_Unknown(Oculus::Platform::NetSyncVoipMicSource value);
-    // [DescriptionAttribute] Offset: 0xDE9584
+    // [DescriptionAttribute] Offset: 0xE971A0
     // static field const value: static public Oculus.Platform.NetSyncVoipMicSource None
     static constexpr const int None = 1;
     // Get static field: static public Oculus.Platform.NetSyncVoipMicSource None
     static Oculus::Platform::NetSyncVoipMicSource _get_None();
     // Set static field: static public Oculus.Platform.NetSyncVoipMicSource None
     static void _set_None(Oculus::Platform::NetSyncVoipMicSource value);
-    // [DescriptionAttribute] Offset: 0xDE95BC
+    // [DescriptionAttribute] Offset: 0xE971D8
     // static field const value: static public Oculus.Platform.NetSyncVoipMicSource Internal
     static constexpr const int Internal = 2;
     // Get static field: static public Oculus.Platform.NetSyncVoipMicSource Internal

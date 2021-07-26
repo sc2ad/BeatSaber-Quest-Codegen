@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.Util.IAllocationStrategy
 #include "UnityEngine/ResourceManagement/Util/IAllocationStrategy.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,13 +34,13 @@ namespace UnityEngine::ResourceManagement::Util {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x19BBF74
+    // Offset: 0x1674068
     ::Il2CppObject* New(System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x19BBF80
+    // Offset: 0x1674074
     void Release(int typeHash, ::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x19BBF84
+    // Offset: 0x1674078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

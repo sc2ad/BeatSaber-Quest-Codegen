@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
 // Completed includes
@@ -18,8 +19,8 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Host
     Host() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.String result)
-    // Offset: 0x156A598
-    static bool TryParse(::Il2CppString* input, ::Il2CppString*& result);
+    // Offset: 0x126EB68
+    static bool TryParse(::Il2CppString* input, ByRef<::Il2CppString*> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Host
   #pragma pack(pop)
 }
@@ -29,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Host*, "System.Net.Ht
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::Host::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&)>(&System::Net::Http::Headers::Parser::Host::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::Il2CppString*>)>(&System::Net::Http::Headers::Parser::Host::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

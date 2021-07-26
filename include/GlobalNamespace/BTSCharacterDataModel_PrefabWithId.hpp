@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BTSCharacterDataModel
 #include "GlobalNamespace/BTSCharacterDataModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,13 +52,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
     void _set__prefabAssetReference(UnityEngine::AddressableAssets::AssetReference* value);
     // public System.Int32 get_id()
-    // Offset: 0x10E48EC
+    // Offset: 0x1F35900
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_prefabAssetReference()
-    // Offset: 0x10E48F4
+    // Offset: 0x1F35908
     UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x10E48FC
+    // Offset: 0x1F35910
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

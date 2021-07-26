@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.SearchPattern2
 #include "System/IO/SearchPattern2.hpp"
 // Including type: System.IO.SearchPattern2/System.IO.OpCode
@@ -56,7 +57,7 @@ namespace System::IO {
     // Set instance field: public System.IO.SearchPattern2/System.IO.Op Next
     void _set_Next(System::IO::SearchPattern2::Op* value);
     // public System.Void .ctor(System.IO.SearchPattern2/System.IO.OpCode code)
-    // Offset: 0x185713C
+    // Offset: 0x1528540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::Op::.ctor");

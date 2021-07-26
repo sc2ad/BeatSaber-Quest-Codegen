@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MarshalByRefObject
 #include "System/MarshalByRefObject.hpp"
 // Including type: System.Runtime.Remoting.Lifetime.ILease
@@ -134,34 +135,34 @@ namespace System::Runtime::Remoting::Lifetime {
     // Set instance field: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
     void _set__renewalDelegate(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate* value);
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x19F1504
+    // Offset: 0x16A85F8
     System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x19F157C
+    // Offset: 0x16A8670
     System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x19F1590
+    // Offset: 0x16A8684
     System::TimeSpan get_RenewOnCallTime();
     // public System.Void Activate()
-    // Offset: 0x19F1584
+    // Offset: 0x16A8678
     void Activate();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x19F1598
+    // Offset: 0x16A868C
     System::TimeSpan Renew(System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x19F1634
+    // Offset: 0x16A8728
     void Unregister(System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x19F1744
+    // Offset: 0x16A8838
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x19F1890
+    // Offset: 0x16A8984
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x19F1AF4
+    // Offset: 0x16A8BE8
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x19F136C
+    // Offset: 0x16A8460
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

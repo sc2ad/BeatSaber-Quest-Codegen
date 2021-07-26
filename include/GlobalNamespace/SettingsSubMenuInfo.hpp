@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -30,7 +31,7 @@ namespace GlobalNamespace {
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE0F770
+    // [LocalizationKeyAttribute] Offset: 0xEBC38C
     // private System.String _menuName
     // Size: 0x8
     // Offset: 0x18
@@ -48,13 +49,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _menuName
     void _set__menuName(::Il2CppString* value);
     // public HMUI.ViewController get_viewController()
-    // Offset: 0x1053374
+    // Offset: 0x1EBDE48
     HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
-    // Offset: 0x105337C
+    // Offset: 0x1EBDE50
     ::Il2CppString* get_localizedMenuName();
     // public System.Void .ctor()
-    // Offset: 0x1053388
+    // Offset: 0x1EBDE5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDataLoader
 #include "GlobalNamespace/BeatmapDataLoader.hpp"
 // Including type: System.ValueType
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Single bpm
     void _set_bpm(float value);
     // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBpmTime, System.Single bpm)
-    // Offset: 0xED1610
+    // Offset: 0xF7CA3C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm)
   }; // BeatmapDataLoader/BpmChangeData

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: ILevelEndActions
@@ -121,35 +122,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06268
+    // [InjectAttribute] Offset: 0xEB2E84
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06278
+    // [InjectAttribute] Offset: 0xEB2E94
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06288
+    // [InjectAttribute] Offset: 0xEB2EA4
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06298
+    // [InjectAttribute] Offset: 0xEB2EB4
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE062A8
+    // [InjectAttribute] Offset: 0xEB2EC4
     // private readonly MissionLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -219,46 +220,46 @@ namespace GlobalNamespace {
     // Set instance field: private MissionLevelGameplayManager/GameState _gameState
     void _set__gameState(GlobalNamespace::MissionLevelGameplayManager::GameState value);
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x1132278
+    // Offset: 0x1F62C8C
     void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x113231C
+    // Offset: 0x1F62D30
     void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x11323C0
+    // Offset: 0x1F62DD4
     void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x1132464
+    // Offset: 0x1F62E78
     void remove_levelFinishedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x1132508
+    // Offset: 0x1F62F1C
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1132510
+    // Offset: 0x1F62F24
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11325AC
+    // Offset: 0x1F62FC0
     void OnDestroy();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x1132904
+    // Offset: 0x1F63318
     void HandleGameEnergyDidReach0();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
-    // Offset: 0x1132950
+    // Offset: 0x1F63364
     void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x1132980
+    // Offset: 0x1F63394
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x11329B0
+    // Offset: 0x1F633C4
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x1132A2C
+    // Offset: 0x1F63440
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x1132A44
+    // Offset: 0x1F63458
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x1132A5C
+    // Offset: 0x1F63470
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

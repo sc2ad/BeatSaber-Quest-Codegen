@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector2
@@ -218,40 +219,40 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean savedCursorVisible
     void _set_savedCursorVisible(bool value);
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x13AA4FC
+    // Offset: 0x115215C
     UnityEngine::RenderTexture* get_texture();
     // public System.Single get_scale()
-    // Offset: 0x13AA5C8
+    // Offset: 0x1152228
     float get_scale();
     // private System.Void set_scale(System.Single value)
-    // Offset: 0x13AA5D0
+    // Offset: 0x1152230
     void set_scale(float value);
     // private System.Void Awake()
-    // Offset: 0x13AA5D8
+    // Offset: 0x1152238
     void Awake();
     // private System.Void OnGUI()
-    // Offset: 0x13AA740
+    // Offset: 0x11523A0
     void OnGUI();
     // public System.Void ShowMenu()
-    // Offset: 0x13AC2C4
+    // Offset: 0x1153F24
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x13AC1C0
+    // Offset: 0x1153E20
     void HideMenu();
     // private System.Void Update()
-    // Offset: 0x13AC67C
+    // Offset: 0x11542DC
     void Update();
     // private System.Void SetScale(System.Single scale)
-    // Offset: 0x13AC0D4
+    // Offset: 0x1153D34
     void SetScale(float scale);
     // private System.Void SaveCursorState()
-    // Offset: 0x13AC614
+    // Offset: 0x1154274
     void SaveCursorState();
     // private System.Void RestoreCursorState()
-    // Offset: 0x13AC64C
+    // Offset: 0x11542AC
     void RestoreCursorState();
     // public System.Void .ctor()
-    // Offset: 0x13AC84C
+    // Offset: 0x11544AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

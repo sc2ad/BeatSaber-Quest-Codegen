@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,7 +43,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAED4
+    // [ObsoleteAttribute] Offset: 0xE98AF0
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x20
@@ -55,7 +56,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* LeaderOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAF0C
+    // [ObsoleteAttribute] Offset: 0xE98B28
     // public readonly Oculus.Platform.Models.User Leader
     // Size: 0x8
     // Offset: 0x30
@@ -68,7 +69,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAF44
+    // [ObsoleteAttribute] Offset: 0xE98B60
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x40
@@ -81,7 +82,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAF7C
+    // [ObsoleteAttribute] Offset: 0xE98B98
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x50
@@ -127,7 +128,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.Models.UserList Users
     void _set_Users(Oculus::Platform::Models::UserList* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A5F8C
+    // Offset: 0x2101E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Party* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Party::.ctor");

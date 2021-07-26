@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -23,25 +24,25 @@ namespace Mono {
     // Creating value type constructor for type: Runtime
     Runtime() noexcept {}
     // static private System.Void mono_runtime_install_handlers()
-    // Offset: 0x1A210A4
+    // Offset: 0x16D8198
     static void mono_runtime_install_handlers();
     // static public System.Void InstallSignalHandlers()
-    // Offset: 0x1A210A8
+    // Offset: 0x16D819C
     static void InstallSignalHandlers();
     // static private System.Void mono_runtime_cleanup_handlers()
-    // Offset: 0x1A210AC
+    // Offset: 0x16D81A0
     static void mono_runtime_cleanup_handlers();
     // static public System.Void RemoveSignalHandlers()
-    // Offset: 0x1A210E0
+    // Offset: 0x16D81D4
     static void RemoveSignalHandlers();
     // static public System.String GetDisplayName()
-    // Offset: 0x1A21114
+    // Offset: 0x16D8208
     static ::Il2CppString* GetDisplayName();
     // static private System.String GetNativeStackTrace(System.Exception exception)
-    // Offset: 0x1A21118
+    // Offset: 0x16D820C
     static ::Il2CppString* GetNativeStackTrace(System::Exception* exception);
     // static public System.Boolean SetGCAllowSynchronousMajor(System.Boolean flag)
-    // Offset: 0x1A2111C
+    // Offset: 0x16D8210
     static bool SetGCAllowSynchronousMajor(bool flag);
   }; // Mono.Runtime
   #pragma pack(pop)

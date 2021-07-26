@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector2
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* shadowTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [NullAllowed] Offset: 0xDFFF04
+    // [NullAllowed] Offset: 0xEACB20
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -49,7 +50,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* shadowSpriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDFFF4C
+    // [SpaceAttribute] Offset: 0xEACB68
     // private UnityEngine.Vector2 _shadowHeightRange
     // Size: 0x8
     // Offset: 0x30
@@ -97,13 +98,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Vector2 _shadowAlphaRange
     void _set__shadowAlphaRange(UnityEngine::Vector2 value);
     // public System.Void SetTargetTransform(UnityEngine.Transform target)
-    // Offset: 0x105363C
+    // Offset: 0x1EBE110
     void SetTargetTransform(UnityEngine::Transform* target);
     // protected System.Void Update()
-    // Offset: 0x1053644
+    // Offset: 0x1EBE118
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10537E0
+    // Offset: 0x1EBE2B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

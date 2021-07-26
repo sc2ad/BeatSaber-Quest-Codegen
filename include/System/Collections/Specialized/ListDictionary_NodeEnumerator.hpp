@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Specialized.ListDictionary
 #include "System/Collections/Specialized/ListDictionary.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
@@ -75,29 +76,29 @@ namespace System::Collections::Specialized {
     // Set instance field: private System.Boolean start
     void _set_start(bool value);
     // public System.Object get_Current()
-    // Offset: 0x1843FD0
+    // Offset: 0x15153D4
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x184403C
+    // Offset: 0x1515440
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x18440E4
+    // Offset: 0x15154E8
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1844170
+    // Offset: 0x1515574
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list)
-    // Offset: 0x1843F28
+    // Offset: 0x151532C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeEnumerator* New_ctor(System::Collections::Specialized::ListDictionary* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeEnumerator*, creationType>(list)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x18441FC
+    // Offset: 0x1515600
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x18442C4
+    // Offset: 0x15156C8
     void Reset();
   }; // System.Collections.Specialized.ListDictionary/System.Collections.Specialized.NodeEnumerator
   #pragma pack(pop)

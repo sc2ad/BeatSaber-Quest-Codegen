@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.WebRequest
 #include "System/Net/WebRequest.hpp"
 // Including type: System.Net.IWebProxy
@@ -52,13 +53,13 @@ namespace System::Net {
     // Set instance field: protected readonly System.Net.WebProxy webProxy
     void _set_webProxy(System::Net::WebProxy* value);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x159FE6C
+    // Offset: 0x12A343C
     System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x159FE3C
+    // Offset: 0x12A340C
     System::Uri* GetProxy(System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x159FE54
+    // Offset: 0x12A3424
     bool IsBypassed(System::Uri* host);
   }; // System.Net.WebRequest/System.Net.WebProxyWrapperOpaque
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -90,43 +91,43 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <succeeded>k__BackingField
     void _set_$succeeded$k__BackingField(bool value);
     // public System.String get_playerId()
-    // Offset: 0x10EF168
+    // Offset: 0x1F4117C
     ::Il2CppString* get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x10EF170
+    // Offset: 0x1F41184
     void set_playerId(::Il2CppString* value);
     // public System.String get_playerName()
-    // Offset: 0x10EF178
+    // Offset: 0x1F4118C
     ::Il2CppString* get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0x10EF180
+    // Offset: 0x1F41194
     void set_playerName(::Il2CppString* value);
     // public System.String get_playerKey()
-    // Offset: 0x10EF188
+    // Offset: 0x1F4119C
     ::Il2CppString* get_playerKey();
     // private System.Void set_playerKey(System.String value)
-    // Offset: 0x10EF190
+    // Offset: 0x1F411A4
     void set_playerKey(::Il2CppString* value);
     // public System.String get_authType()
-    // Offset: 0x10EF198
+    // Offset: 0x1F411AC
     ::Il2CppString* get_authType();
     // private System.Void set_authType(System.String value)
-    // Offset: 0x10EF1A0
+    // Offset: 0x1F411B4
     void set_authType(::Il2CppString* value);
     // public System.String get_playerFriends()
-    // Offset: 0x10EF1A8
+    // Offset: 0x1F411BC
     ::Il2CppString* get_playerFriends();
     // private System.Void set_playerFriends(System.String value)
-    // Offset: 0x10EF1B0
+    // Offset: 0x1F411C4
     void set_playerFriends(::Il2CppString* value);
     // public System.Boolean get_succeeded()
-    // Offset: 0x10EF1B8
+    // Offset: 0x1F411CC
     bool get_succeeded();
     // private System.Void set_succeeded(System.Boolean value)
-    // Offset: 0x10EF1C0
+    // Offset: 0x1F411D4
     void set_succeeded(bool value);
     // public System.Void .ctor(System.Boolean succeeded, System.String playerId, System.String playerName, System.String playerKey, System.String authType, System.String playerFriends)
-    // Offset: 0x10EF1CC
+    // Offset: 0x1F411E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardPlayerInfo* New_ctor(bool succeeded, ::Il2CppString* playerId, ::Il2CppString* playerName, ::Il2CppString* playerKey, ::Il2CppString* authType, ::Il2CppString* playerFriends) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardPlayerInfo::.ctor");

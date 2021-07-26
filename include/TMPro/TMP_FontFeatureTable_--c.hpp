@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_FontFeatureTable
 #include "TMPro/TMP_FontFeatureTable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,16 +49,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_GlyphPairAdjustmentRecord,System.UInt32> <>9__6_1
     static void _set_$$9__6_1(System::Func_2<TMPro::TMP_GlyphPairAdjustmentRecord*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10C8CB0
+    // Offset: 0x10007B0
     static void _cctor();
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_0(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x10C8D1C
+    // Offset: 0x100081C
     uint $SortGlyphPairAdjustmentRecords$b__6_0(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_1(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x10C8D34
+    // Offset: 0x1000834
     uint $SortGlyphPairAdjustmentRecords$b__6_1(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // public System.Void .ctor()
-    // Offset: 0x10C8D14
+    // Offset: 0x1000814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

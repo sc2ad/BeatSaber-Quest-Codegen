@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SoloFreePlayFlowCoordinator
 #include "GlobalNamespace/SoloFreePlayFlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace GlobalNamespace {
     // Set instance field: public ResultsViewController resultsViewController
     void _set_resultsViewController(GlobalNamespace::ResultsViewController* value);
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
-    // Offset: 0x10596D4
+    // Offset: 0x1EC41A8
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10596C4
+    // Offset: 0x1EC4198
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

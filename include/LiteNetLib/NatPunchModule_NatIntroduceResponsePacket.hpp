@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NatPunchModule
 #include "LiteNetLib/NatPunchModule.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,25 +60,25 @@ namespace LiteNetLib {
     // Set instance field: private System.String <Token>k__BackingField
     void _set_$Token$k__BackingField(::Il2CppString* value);
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x1BB1774
+    // Offset: 0x17A4B0C
     System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x1BB177C
+    // Offset: 0x17A4B14
     void set_Internal(System::Net::IPEndPoint* value);
     // public System.Net.IPEndPoint get_External()
-    // Offset: 0x1BB1784
+    // Offset: 0x17A4B1C
     System::Net::IPEndPoint* get_External();
     // public System.Void set_External(System.Net.IPEndPoint value)
-    // Offset: 0x1BB178C
+    // Offset: 0x17A4B24
     void set_External(System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x1BB1794
+    // Offset: 0x17A4B2C
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1BB179C
+    // Offset: 0x17A4B34
     void set_Token(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1BB08C0
+    // Offset: 0x17A3C58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

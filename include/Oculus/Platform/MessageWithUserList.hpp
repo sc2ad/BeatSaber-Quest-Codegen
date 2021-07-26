@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithUserList
     MessageWithUserList() noexcept {}
     // protected Oculus.Platform.Models.UserList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14A8BD4
+    // Offset: 0x2104A48
     Oculus::Platform::Models::UserList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x149E6B8
+    // Offset: 0x20FA52C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserList GetUserList()
-    // Offset: 0x14A8B90
+    // Offset: 0x2104A04
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserList Message::GetUserList()
     Oculus::Platform::Models::UserList* GetUserList();

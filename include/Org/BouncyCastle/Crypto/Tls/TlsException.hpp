@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.IOException
 #include "System/IO/IOException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Creating value type constructor for type: TlsException
     TlsException() noexcept {}
     // public System.Void .ctor(System.String message, System.Exception cause)
-    // Offset: 0x123AE54
+    // Offset: 0x104512C
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message, System.Exception cause)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception cause)

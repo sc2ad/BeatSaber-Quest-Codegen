@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AvatarPartSO`1
 #include "GlobalNamespace/AvatarPartSO_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,10 +29,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AvatarMeshPartSO
     AvatarMeshPartSO() noexcept {}
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x10DF530
+    // Offset: 0x1F30544
     UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor()
-    // Offset: 0x10DF574
+    // Offset: 0x1F30588
     // Implemented from: AvatarPartSO`1
     // Base method: System.Void AvatarPartSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

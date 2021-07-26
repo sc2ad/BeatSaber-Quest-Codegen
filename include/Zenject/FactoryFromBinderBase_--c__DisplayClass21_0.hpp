@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FactoryFromBinderBase
 #include "Zenject/FactoryFromBinderBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,10 +53,10 @@ namespace Zenject {
     // Set instance field: public System.Object subIdentifier
     void _set_subIdentifier(::Il2CppObject* value);
     // Zenject.IProvider <FromResolve>b__0(Zenject.DiContainer container)
-    // Offset: 0x161C500
+    // Offset: 0x131FAD0
     Zenject::IProvider* $FromResolve$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x161B7EC
+    // Offset: 0x131EDBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

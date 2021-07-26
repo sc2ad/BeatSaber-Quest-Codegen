@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LobbyPlayersDataModel
 #include "GlobalNamespace/LobbyPlayersDataModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__51_0
     static void _set_$$9__51_0(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11C4494
+    // Offset: 0x1FF2ED8
     static void _cctor();
     // System.String <SetOwnedSongPacks>b__51_0(IBeatmapLevelPack pack)
-    // Offset: 0x11C4500
+    // Offset: 0x1FF2F44
     ::Il2CppString* $SetOwnedSongPacks$b__51_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x11C44F8
+    // Offset: 0x1FF2F3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

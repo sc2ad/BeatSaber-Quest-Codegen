@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -32,7 +33,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xDEAE44
+    // [ObsoleteAttribute] Offset: 0xE98A60
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
     // Size: 0x8
     // Offset: 0x18
@@ -114,7 +115,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String RequestHash
     void _set_RequestHash(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A4748
+    // Offset: 0x21005BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueueResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueueResult::.ctor");

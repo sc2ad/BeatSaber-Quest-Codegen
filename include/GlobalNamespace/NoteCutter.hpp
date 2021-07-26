@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -74,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     void _set__comparer(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* value);
     // public System.Void Cut(Saber saber)
-    // Offset: 0x11E1DD0
+    // Offset: 0x2010728
     void Cut(GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x11E1C98
+    // Offset: 0x20105F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

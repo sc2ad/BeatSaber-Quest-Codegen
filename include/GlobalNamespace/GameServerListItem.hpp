@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     // Set instance field: public readonly System.Boolean password
     void _set_password(bool value);
     // public System.Void .ctor(System.String serverName, System.Int32 capacity, System.Int32 occupied, System.Boolean password)
-    // Offset: 0x10A422C
+    // Offset: 0x1F1119C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerListItem* New_ctor(::Il2CppString* serverName, int capacity, int occupied, bool password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerListItem::.ctor");

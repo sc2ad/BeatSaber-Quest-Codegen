@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.ECPoint
 #include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
@@ -65,14 +66,14 @@ namespace Org::BouncyCastle::Math::EC {
     // Set instance field: private readonly System.Boolean m_checkOrder
     void _set_m_checkOrder(bool value);
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint outer, System.Boolean decompressed, System.Boolean checkOrder)
-    // Offset: 0x20E8F88
+    // Offset: 0x1BB8DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPoint::ValidityCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPoint::ValidityCallback*, creationType>(outer, decompressed, checkOrder)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x20E9854
+    // Offset: 0x1BB96C8
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.ECPoint/Org.BouncyCastle.Math.EC.ValidityCallback
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.ControlPlayableAsset
 #include "UnityEngine/Timeline/ControlPlayableAsset.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace GlobalNamespace {
     // Set instance field: public AvatarColorBehaviour _template
     void _set__template(GlobalNamespace::AvatarColorBehaviour* value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1084DBC
+    // Offset: 0x1F066B8
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1084DC4
+    // Offset: 0x1F066C0
     // Implemented from: UnityEngine.Timeline.ControlPlayableAsset
     // Base method: System.Void ControlPlayableAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

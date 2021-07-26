@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
@@ -61,7 +62,7 @@ namespace OVR::OpenVR {
     // Set instance field: public System.IntPtr rubTextureMapData
     void _set_rubTextureMapData(System::IntPtr value);
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xED1CD4
+    // Offset: 0xD6804C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_TextureMap_t_Packed(OVR::OpenVR::RenderModel_TextureMap_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::RenderModel_TextureMap_t_Packed::.ctor");
@@ -69,8 +70,8 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xED1CE8
-    void Unpack(OVR::OpenVR::RenderModel_TextureMap_t& unpacked);
+    // Offset: 0xD68060
+    void Unpack(ByRef<OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 4 + sizeof(System::IntPtr)> __OVR_OpenVR_RenderModel_TextureMap_t_PackedSizeCheck;
@@ -85,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::RenderModel_TextureMap_t_Packed::Unpack
 // Il2CppName: Unpack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::RenderModel_TextureMap_t_Packed::*)(OVR::OpenVR::RenderModel_TextureMap_t&)>(&OVR::OpenVR::RenderModel_TextureMap_t_Packed::Unpack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::RenderModel_TextureMap_t_Packed::*)(ByRef<OVR::OpenVR::RenderModel_TextureMap_t>)>(&OVR::OpenVR::RenderModel_TextureMap_t_Packed::Unpack)> {
   static const MethodInfo* get() {
     static auto* unpacked = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "RenderModel_TextureMap_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::RenderModel_TextureMap_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unpacked});

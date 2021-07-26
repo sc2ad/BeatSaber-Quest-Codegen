@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,31 +30,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRProfile
     OVRProfile() noexcept {}
     // public System.String get_id()
-    // Offset: 0x15F8150
+    // Offset: 0x12FB720
     ::Il2CppString* get_id();
     // public System.String get_userName()
-    // Offset: 0x15F8198
+    // Offset: 0x12FB768
     ::Il2CppString* get_userName();
     // public System.String get_locale()
-    // Offset: 0x15F81E0
+    // Offset: 0x12FB7B0
     ::Il2CppString* get_locale();
     // public System.Single get_ipd()
-    // Offset: 0x15F8228
+    // Offset: 0x12FB7F8
     float get_ipd();
     // public System.Single get_eyeHeight()
-    // Offset: 0x15F835C
+    // Offset: 0x12FB92C
     float get_eyeHeight();
     // public System.Single get_eyeDepth()
-    // Offset: 0x15F83BC
+    // Offset: 0x12FB98C
     float get_eyeDepth();
     // public System.Single get_neckHeight()
-    // Offset: 0x15F841C
+    // Offset: 0x12FB9EC
     float get_neckHeight();
     // public OVRProfile/State get_state()
-    // Offset: 0x15F843C
+    // Offset: 0x12FBA0C
     GlobalNamespace::OVRProfile::State get_state();
     // public System.Void .ctor()
-    // Offset: 0x15F8444
+    // Offset: 0x12FBA14
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine/EventSystems/UIBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace HMUI {
     float noInteractionAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDE2BE8
+    // [SpaceAttribute] Offset: 0xE90804
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20
@@ -83,7 +84,7 @@ namespace HMUI {
     // Set instance field: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> _canvasGroupCache
     void _set__canvasGroupCache(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1292C38
+    // Offset: 0x1068374
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -97,7 +98,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<InteractableTextMeshPro*, creationType>()));
     }
     // protected override System.Void OnCanvasGroupChanged()
-    // Offset: 0x1292AA0
+    // Offset: 0x10681DC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
     void OnCanvasGroupChanged();

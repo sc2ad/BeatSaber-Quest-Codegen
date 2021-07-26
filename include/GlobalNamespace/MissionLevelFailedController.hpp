@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,35 +74,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06B58
+    // [InjectAttribute] Offset: 0xEB3774
     // private MissionLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MissionLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06B68
+    // [InjectAttribute] Offset: 0xEB3784
     // private BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06B78
+    // [InjectAttribute] Offset: 0xEB3794
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06B88
+    // [InjectAttribute] Offset: 0xEB37A4
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06B98
+    // [InjectAttribute] Offset: 0xEB37B4
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -149,19 +150,19 @@ namespace GlobalNamespace {
     // Set instance field: private BeatmapObjectManager _beatmapObjectManager
     void _set__beatmapObjectManager(GlobalNamespace::BeatmapObjectManager* value);
     // protected System.Void Start()
-    // Offset: 0x1131940
+    // Offset: 0x1F62354
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1131A28
+    // Offset: 0x1F6243C
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1131B20
+    // Offset: 0x1F62534
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x1131B4C
+    // Offset: 0x1F62560
     System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1131BE8
+    // Offset: 0x1F625FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

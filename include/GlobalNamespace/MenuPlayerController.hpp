@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,19 +69,19 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Transform _headTransform
     void _set__headTransform(UnityEngine::Transform* value);
     // public VRController get_leftController()
-    // Offset: 0x11806B8
+    // Offset: 0x1FB00CC
     GlobalNamespace::VRController* get_leftController();
     // public VRController get_rightController()
-    // Offset: 0x11806C0
+    // Offset: 0x1FB00D4
     GlobalNamespace::VRController* get_rightController();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0x11806C8
+    // Offset: 0x1FB00DC
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0x11806E4
+    // Offset: 0x1FB00F8
     UnityEngine::Quaternion get_headRot();
     // public System.Void .ctor()
-    // Offset: 0x1180700
+    // Offset: 0x1FB0114
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

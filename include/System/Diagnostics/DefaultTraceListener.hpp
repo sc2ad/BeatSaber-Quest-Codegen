@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Diagnostics.TraceListener
 #include "System/Diagnostics/TraceListener.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,34 +45,34 @@ namespace System::Diagnostics {
     // Set instance field: private System.String logFileName
     void _set_logFileName(::Il2CppString* value);
     // public System.String get_LogFileName()
-    // Offset: 0x184A93C
+    // Offset: 0x151BD40
     ::Il2CppString* get_LogFileName();
     // static private System.Void .cctor()
-    // Offset: 0x184A6D8
+    // Offset: 0x151BADC
     static void _cctor();
     // static private System.String GetPrefix(System.String var, System.String target)
-    // Offset: 0x184A804
+    // Offset: 0x151BC08
     static ::Il2CppString* GetPrefix(::Il2CppString* var, ::Il2CppString* target);
     // static private System.Void WriteWindowsDebugString(System.String message)
-    // Offset: 0x184AB10
+    // Offset: 0x151BF14
     static void WriteWindowsDebugString(::Il2CppString* message);
     // private System.Void WriteDebugString(System.String message)
-    // Offset: 0x184AB14
+    // Offset: 0x151BF18
     void WriteDebugString(::Il2CppString* message);
     // private System.Void WriteMonoTrace(System.String message)
-    // Offset: 0x184ABC0
+    // Offset: 0x151BFC4
     void WriteMonoTrace(::Il2CppString* message);
     // private System.Void WritePrefix()
-    // Offset: 0x184AF9C
+    // Offset: 0x151C3A0
     void WritePrefix();
     // private System.Void WriteImpl(System.String message)
-    // Offset: 0x184B03C
+    // Offset: 0x151C440
     void WriteImpl(::Il2CppString* message);
     // private System.Void WriteLogFile(System.String message, System.String logFile)
-    // Offset: 0x184AD90
+    // Offset: 0x151C194
     void WriteLogFile(::Il2CppString* message, ::Il2CppString* logFile);
     // public System.Void .ctor()
-    // Offset: 0x184A894
+    // Offset: 0x151BC98
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -81,22 +82,22 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTraceListener*, creationType>()));
     }
     // public override System.Void Fail(System.String message)
-    // Offset: 0x184A944
+    // Offset: 0x151BD48
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message)
     void Fail(::Il2CppString* message);
     // public override System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x184A964
+    // Offset: 0x151BD68
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message, System.String detailMessage)
     void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public override System.Void Write(System.String message)
-    // Offset: 0x184B11C
+    // Offset: 0x151C520
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Write(System.String message)
     void Write(::Il2CppString* message);
     // public override System.Void WriteLine(System.String message)
-    // Offset: 0x184B120
+    // Offset: 0x151C524
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::WriteLine(System.String message)
     void WriteLine(::Il2CppString* message);

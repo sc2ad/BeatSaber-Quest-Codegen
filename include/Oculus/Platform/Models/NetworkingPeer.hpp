@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.PeerConnectionState
 #include "Oculus/Platform/PeerConnectionState.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,19 +43,19 @@ namespace Oculus::Platform::Models {
     // Set instance field: private Oculus.Platform.PeerConnectionState <State>k__BackingField
     void _set_$State$k__BackingField(Oculus::Platform::PeerConnectionState value);
     // public System.UInt64 get_ID()
-    // Offset: 0x14AA290
+    // Offset: 0x2106104
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x14AA298
+    // Offset: 0x210610C
     void set_ID(uint64_t value);
     // public Oculus.Platform.PeerConnectionState get_State()
-    // Offset: 0x14AA2A0
+    // Offset: 0x2106114
     Oculus::Platform::PeerConnectionState get_State();
     // private System.Void set_State(Oculus.Platform.PeerConnectionState value)
-    // Offset: 0x14AA2A8
+    // Offset: 0x210611C
     void set_State(Oculus::Platform::PeerConnectionState value);
     // public System.Void .ctor(System.UInt64 id, Oculus.Platform.PeerConnectionState state)
-    // Offset: 0x14A5CA8
+    // Offset: 0x2101B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkingPeer* New_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetworkingPeer::.ctor");

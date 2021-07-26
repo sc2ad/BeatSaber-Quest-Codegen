@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -92,22 +93,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private System.Boolean m_SetPositionRotation
     void _set_m_SetPositionRotation(bool value);
     // public UnityEngine.Vector3 get_Position()
-    // Offset: 0xEEC1E0
+    // Offset: 0xD80198
     UnityEngine::Vector3 get_Position();
     // public UnityEngine.Quaternion get_Rotation()
-    // Offset: 0xEEC1EC
+    // Offset: 0xD801A4
     UnityEngine::Quaternion get_Rotation();
     // public UnityEngine.Transform get_Parent()
-    // Offset: 0xEEC1F8
+    // Offset: 0xD801B0
     UnityEngine::Transform* get_Parent();
     // public System.Boolean get_InstantiateInWorldPosition()
-    // Offset: 0xEEC200
+    // Offset: 0xD801B8
     bool get_InstantiateInWorldPosition();
     // public System.Boolean get_SetPositionRotation()
-    // Offset: 0xEEC208
+    // Offset: 0xD801C0
     bool get_SetPositionRotation();
     // public System.Void .ctor(UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
-    // Offset: 0xEEC210
+    // Offset: 0xD801C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     InstantiationParameters(UnityEngine::Transform* parent, bool instantiateInWorldSpace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::.ctor");
@@ -115,7 +116,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, parent, instantiateInWorldSpace);
     }
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0xEEC21C
+    // Offset: 0xD801D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     InstantiationParameters(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::.ctor");

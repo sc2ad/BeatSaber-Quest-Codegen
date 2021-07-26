@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IRemoteProcedureCall
 #include "GlobalNamespace/IRemoteProcedureCall.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,31 +56,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <syncTime>k__BackingField
     void _set_$syncTime$k__BackingField(float value);
     // public System.Single get_syncTime()
-    // Offset: 0x230DDFC
+    // Offset: 0x23CEFB0
     float get_syncTime();
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x230DE04
+    // Offset: 0x23CEFB8
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x230DE0C
+    // Offset: 0x23CEFC0
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x230DE10
+    // Offset: 0x23CEFC4
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x230DE14
+    // Offset: 0x23CEFC8
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x230DE5C
+    // Offset: 0x23CF010
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x230DEA4
+    // Offset: 0x23CF058
     void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x230DFC4
+    // Offset: 0x23CF178
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x230DFCC
+    // Offset: 0x23CF180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

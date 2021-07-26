@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,23 +101,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.Asn1Set signerInfos
     void _set_signerInfos(Org::BouncyCastle::Asn1::Asn1Set* value);
     // public Org.BouncyCastle.Asn1.Asn1Set get_Certificates()
-    // Offset: 0x1766EF4
+    // Offset: 0x14695B0
     Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
     // public Org.BouncyCastle.Asn1.Asn1Set get_Crls()
-    // Offset: 0x1766EFC
+    // Offset: 0x14695B8
     Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1766968
+    // Offset: 0x1469024
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignedData* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::SignedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignedData*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.SignedData GetInstance(System.Object obj)
-    // Offset: 0x17668C4
+    // Offset: 0x1468F80
     static Org::BouncyCastle::Asn1::Pkcs::SignedData* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1766F04
+    // Offset: 0x14695C0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

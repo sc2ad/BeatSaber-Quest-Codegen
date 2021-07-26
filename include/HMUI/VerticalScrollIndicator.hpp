@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -93,28 +94,28 @@ namespace HMUI {
     // Set instance field: private System.Single _normalizedPageHeight
     void _set__normalizedPageHeight(float value);
     // public System.Single get_progress()
-    // Offset: 0x12A4234
+    // Offset: 0x1079970
     float get_progress();
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x129884C
+    // Offset: 0x106DF88
     void set_progress(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x12A423C
+    // Offset: 0x1079978
     float get_normalizedPageHeight();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x1298498
+    // Offset: 0x106DBD4
     void set_normalizedPageHeight(float value);
     // public System.Void set_disabled(System.Boolean value)
-    // Offset: 0x12A4244
+    // Offset: 0x1079980
     void set_disabled(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x12A4290
+    // Offset: 0x10799CC
     void OnEnable();
     // private System.Void RefreshHandle()
-    // Offset: 0x12A410C
+    // Offset: 0x1079848
     void RefreshHandle();
     // public System.Void .ctor()
-    // Offset: 0x12A4294
+    // Offset: 0x10799D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

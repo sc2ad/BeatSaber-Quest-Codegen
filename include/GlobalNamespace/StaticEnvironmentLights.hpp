@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -53,10 +54,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Material[] _materials
     void _set__materials(::Array<UnityEngine::Material*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1066E48
+    // Offset: 0x1ED291C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1066EF0
+    // Offset: 0x1ED29C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

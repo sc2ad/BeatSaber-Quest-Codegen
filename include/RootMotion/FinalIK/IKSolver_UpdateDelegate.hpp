@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolver
 #include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: UpdateDelegate
     UpdateDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C5AAAC
+    // Offset: 0x180DB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::UpdateDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::UpdateDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::UpdateDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1C5AABC
+    // Offset: 0x180DB38
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C5ACC8
+    // Offset: 0x180DD44
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C5ACF4
+    // Offset: 0x180DD70
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate
   #pragma pack(pop)

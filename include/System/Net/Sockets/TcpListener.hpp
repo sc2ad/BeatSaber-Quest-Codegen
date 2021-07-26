@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -85,29 +86,29 @@ namespace System::Net::Sockets {
     // Set instance field: private System.Boolean m_ExclusiveAddressUse
     void _set_m_ExclusiveAddressUse(bool value);
     // public System.Net.EndPoint get_LocalEndpoint()
-    // Offset: 0x158D26C
+    // Offset: 0x129083C
     System::Net::EndPoint* get_LocalEndpoint();
     // public System.Void .ctor(System.Net.IPAddress localaddr, System.Int32 port)
-    // Offset: 0x158D0FC
+    // Offset: 0x12906CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpListener* New_ctor(System::Net::IPAddress* localaddr, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpListener*, creationType>(localaddr, port)));
     }
     // public System.Void Start()
-    // Offset: 0x158D298
+    // Offset: 0x1290868
     void Start();
     // public System.Void Start(System.Int32 backlog)
-    // Offset: 0x158D2A0
+    // Offset: 0x1290870
     void Start(int backlog);
     // public System.Void Stop()
-    // Offset: 0x158D430
+    // Offset: 0x1290A00
     void Stop();
     // public System.IAsyncResult BeginAcceptTcpClient(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x158D504
+    // Offset: 0x1290AD4
     System::IAsyncResult* BeginAcceptTcpClient(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.Sockets.TcpClient EndAcceptTcpClient(System.IAsyncResult asyncResult)
-    // Offset: 0x158D5C4
+    // Offset: 0x1290B94
     System::Net::Sockets::TcpClient* EndAcceptTcpClient(System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
   #pragma pack(pop)

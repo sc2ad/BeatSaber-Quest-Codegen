@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -104,10 +105,10 @@ namespace HMUI {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, bindingData);
     }
     // public System.Void ClearBindings()
-    // Offset: 0x1290DE8
+    // Offset: 0x1066524
     void ClearBindings();
     // public System.Void .ctor()
-    // Offset: 0x1290D74
+    // Offset: 0x10664B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

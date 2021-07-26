@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Compatibility.AdditionalTypeExtensions
 #include "NUnit/Compatibility/AdditionalTypeExtensions.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace NUnit::Compatibility {
     // Set instance field: public System.Type to
     void _set_to(System::Type* value);
     // System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
-    // Offset: 0x1711A1C
+    // Offset: 0x14150D8
     bool $IsCastableFrom$b__0(System::Reflection::MethodInfo* m);
     // public System.Void .ctor()
-    // Offset: 0x1710FF0
+    // Offset: 0x14146AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

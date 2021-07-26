@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.ConnectElements
 #include "UnityEngine/ProBuilder/MeshOperations/ConnectElements.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Collections.Generic.HashSet`1<System.Int32> appended
     void _set_appended(System::Collections::Generic::HashSet_1<int>* value);
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x151DD8C
+    // Offset: 0x1247654
     bool $Connect$b__3(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x151D954
+    // Offset: 0x124721C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

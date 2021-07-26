@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -73,23 +74,23 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _prevBasicNotesTimeRowTime
     void _set__prevBasicNotesTimeRowTime(float value);
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x23B73A0
+    // Offset: 0x23EF528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NotesInTimeRowProcessor* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NotesInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NotesInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)
-    // Offset: 0x23B7514
+    // Offset: 0x23EF69C
     void ProcessNote(GlobalNamespace::NoteData* noteData);
     // public System.Void ProcessAllRemainingData()
-    // Offset: 0x23B79F0
+    // Offset: 0x23EFB78
     void ProcessAllRemainingData();
     // private System.Void ProcessColorNotesInTimeRow(System.Collections.Generic.List`1<NoteData> colorNotesData, System.Single nextBasicNoteTimeRowTime)
-    // Offset: 0x23B78D4
+    // Offset: 0x23EFA5C
     void ProcessColorNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* colorNotesData, float nextBasicNoteTimeRowTime);
     // private System.Void ProcessAllNotesInTimeRow(System.Collections.Generic.List`1<NoteData> notes)
-    // Offset: 0x23B76B4
+    // Offset: 0x23EF83C
     void ProcessAllNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notes);
   }; // NotesInTimeRowProcessor
   #pragma pack(pop)

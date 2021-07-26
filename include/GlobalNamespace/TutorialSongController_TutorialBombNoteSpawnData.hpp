@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TutorialSongController
 #include "GlobalNamespace/TutorialSongController.hpp"
 // Including type: TutorialSongController/TutorialJumpingNoteSpawnData
@@ -31,7 +32,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialBombNoteSpawnData
     TutorialBombNoteSpawnData() noexcept {}
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1076114
+    // Offset: 0x1EE1BE8
     // Implemented from: TutorialSongController/TutorialJumpingNoteSpawnData
     // Base method: System.Void TutorialJumpingNoteSpawnData::.ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

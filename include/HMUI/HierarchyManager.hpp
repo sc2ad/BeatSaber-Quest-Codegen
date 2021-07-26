@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -46,7 +47,7 @@ namespace HMUI {
     HMUI::ScreenSystem* screenSystem;
     // Field size check
     static_assert(sizeof(HMUI::ScreenSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xDE3508
+    // [InjectAttribute] Offset: 0xE91124
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -76,22 +77,22 @@ namespace HMUI {
     // Set instance field: private HMUI.FlowCoordinator _rootFlowCoordinator
     void _set__rootFlowCoordinator(HMUI::FlowCoordinator* value);
     // protected System.Void Start()
-    // Offset: 0x130FB14
+    // Offset: 0x10D1A84
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x130FCD0
+    // Offset: 0x10D1C40
     void OnDestroy();
     // private System.Void HandleSceneTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x130FC14
+    // Offset: 0x10D1B84
     void HandleSceneTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x130FDA8
+    // Offset: 0x10D1D18
     void HandleBeforeDismissingScenes();
     // public System.Void StartWithFlowCoordinator(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x130FE64
+    // Offset: 0x10D1DD4
     void StartWithFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator);
     // public System.Void .ctor()
-    // Offset: 0x130FE88
+    // Offset: 0x10D1DF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

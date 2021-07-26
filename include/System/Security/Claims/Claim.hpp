@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -131,49 +132,49 @@ namespace System::Security::Claims {
     // Set instance field: private System.Security.Claims.ClaimsIdentity m_subject
     void _set_m_subject(System::Security::Claims::ClaimsIdentity* value);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
-    // Offset: 0x16908C0
+    // Offset: 0x1392F7C
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Properties();
     // public System.Security.Claims.ClaimsIdentity get_Subject()
-    // Offset: 0x1690C6C
+    // Offset: 0x1393328
     System::Security::Claims::ClaimsIdentity* get_Subject();
     // System.Void set_Subject(System.Security.Claims.ClaimsIdentity value)
-    // Offset: 0x1690C74
+    // Offset: 0x1393330
     void set_Subject(System::Security::Claims::ClaimsIdentity* value);
     // public System.String get_Type()
-    // Offset: 0x1690C7C
+    // Offset: 0x1393338
     ::Il2CppString* get_Type();
     // public System.String get_Value()
-    // Offset: 0x1690C84
+    // Offset: 0x1393340
     ::Il2CppString* get_Value();
     // public System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1690674
+    // Offset: 0x1392D30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject)));
     }
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
-    // Offset: 0x1690698
+    // Offset: 0x1392D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject, ::Il2CppString* propertyKey, ::Il2CppString* propertyValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue)));
     }
     // protected System.Void .ctor(System.Security.Claims.Claim other, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x16909B8
+    // Offset: 0x1393074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(System::Security::Claims::Claim* other, System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(other, subject)));
     }
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1690C0C
+    // Offset: 0x13932C8
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
     // public System.Security.Claims.Claim Clone(System.Security.Claims.ClaimsIdentity identity)
-    // Offset: 0x1690C8C
+    // Offset: 0x1393348
     System::Security::Claims::Claim* Clone(System::Security::Claims::ClaimsIdentity* identity);
     // public override System.String ToString()
-    // Offset: 0x1690CFC
+    // Offset: 0x13933B8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

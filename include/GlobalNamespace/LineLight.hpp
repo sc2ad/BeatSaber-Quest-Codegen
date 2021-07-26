@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -69,28 +70,28 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _color
     void _set__color(UnityEngine::Color value);
     // public UnityEngine.Vector3 get_p0()
-    // Offset: 0x1DF4DD4
+    // Offset: 0x19679B4
     UnityEngine::Vector3 get_p0();
     // public UnityEngine.Vector3 get_p1()
-    // Offset: 0x1DF4DE0
+    // Offset: 0x19679C0
     UnityEngine::Vector3 get_p1();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DF4DEC
+    // Offset: 0x19679CC
     UnityEngine::Color get_color();
     // static public System.Collections.Generic.List`1<LineLight> get_lineLights()
-    // Offset: 0x1DF4DF8
+    // Offset: 0x19679D8
     static System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* get_lineLights();
     // protected System.Void OnEnable()
-    // Offset: 0x1DF4E60
+    // Offset: 0x1967A40
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DF4EE4
+    // Offset: 0x1967AC4
     void OnDisable();
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1DF4F68
+    // Offset: 0x1967B48
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x1DF4FFC
+    // Offset: 0x1967BDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,7 +104,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LineLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DF5004
+    // Offset: 0x1967BE4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

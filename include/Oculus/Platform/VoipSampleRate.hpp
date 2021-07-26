@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDEAC14
+    // [DescriptionAttribute] Offset: 0xE98830
     // static field const value: static public Oculus.Platform.VoipSampleRate Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipSampleRate Unknown
     static Oculus::Platform::VoipSampleRate _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipSampleRate Unknown
     static void _set_Unknown(Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0xDEAC4C
+    // [DescriptionAttribute] Offset: 0xE98868
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ24000
     static constexpr const int HZ24000 = 1;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static Oculus::Platform::VoipSampleRate _get_HZ24000();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static void _set_HZ24000(Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0xDEAC84
+    // [DescriptionAttribute] Offset: 0xE988A0
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ44100
     static constexpr const int HZ44100 = 2;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static Oculus::Platform::VoipSampleRate _get_HZ44100();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static void _set_HZ44100(Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0xDEACBC
+    // [DescriptionAttribute] Offset: 0xE988D8
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ48000
     static constexpr const int HZ48000 = 3;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ48000

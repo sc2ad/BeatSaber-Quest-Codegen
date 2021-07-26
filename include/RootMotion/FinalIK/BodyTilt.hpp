@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifier
 #include "RootMotion/FinalIK/OffsetModifier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,14 +27,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class BodyTilt : public RootMotion::FinalIK::OffsetModifier {
     public:
-    // [TooltipAttribute] Offset: 0xDF53BC
+    // [TooltipAttribute] Offset: 0xEA1FD8
     // public System.Single tiltSpeed
     // Size: 0x4
     // Offset: 0x2C
     float tiltSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF53F4
+    // [TooltipAttribute] Offset: 0xEA2010
     // public System.Single tiltSensitivity
     // Size: 0x4
     // Offset: 0x30
@@ -42,14 +43,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: tiltSensitivity and: poseLeft
     char __padding1[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDF542C
+    // [TooltipAttribute] Offset: 0xEA2048
     // public RootMotion.FinalIK.OffsetPose poseLeft
     // Size: 0x8
     // Offset: 0x38
     RootMotion::FinalIK::OffsetPose* poseLeft;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::OffsetPose*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF5464
+    // [TooltipAttribute] Offset: 0xEA2080
     // public RootMotion.FinalIK.OffsetPose poseRight
     // Size: 0x8
     // Offset: 0x40
@@ -95,7 +96,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Vector3 lastForward
     void _set_lastForward(UnityEngine::Vector3 value);
     // public System.Void .ctor()
-    // Offset: 0x1CE073C
+    // Offset: 0x187D4DC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -109,12 +110,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<BodyTilt*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x1CE04C4
+    // Offset: 0x187D264
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::Start()
     void Start();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1CE050C
+    // Offset: 0x187D2AC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

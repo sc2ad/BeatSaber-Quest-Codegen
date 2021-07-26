@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LocalizedTextAsset
 #include "GlobalNamespace/LocalizedTextAsset.hpp"
 // Including type: Polyglot.Language
@@ -53,7 +54,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.TextAsset localizedText
     void _set_localizedText(UnityEngine::TextAsset* value);
     // public System.Void .ctor()
-    // Offset: 0x1178A54
+    // Offset: 0x1FA8468
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -67,17 +68,17 @@ namespace NUnit::Framework::Internal::Execution {
     // Set instance field: private System.Threading.ManualResetEvent _event
     void _set__event(System::Threading::ManualResetEvent* value);
     // public System.Int32 get_CurrentCount()
-    // Offset: 0x172B178
+    // Offset: 0x142E834
     int get_CurrentCount();
     // public System.Void .ctor(System.Int32 initialCount)
-    // Offset: 0x172B0D8
+    // Offset: 0x142E794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownEvent* New_ctor(int initialCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::CountdownEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownEvent*, creationType>(initialCount)));
     }
     // public System.Void Signal()
-    // Offset: 0x172B180
+    // Offset: 0x142E83C
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
   #pragma pack(pop)

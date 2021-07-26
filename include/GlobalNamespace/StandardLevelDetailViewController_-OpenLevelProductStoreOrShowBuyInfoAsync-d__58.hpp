@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandardLevelDetailViewController
 #include "GlobalNamespace/StandardLevelDetailViewController.hpp"
 // Including type: System.ValueType
@@ -74,10 +75,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFB3C
+    // Offset: 0xF7B7A8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFB44
+    // Offset: 0xF7B7B0
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<OpenLevelProductStoreOrShowBuyInfoAsync>d__58
   // WARNING Not writing size check since size may be invalid!

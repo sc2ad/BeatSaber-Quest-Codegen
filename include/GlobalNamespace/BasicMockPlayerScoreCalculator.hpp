@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IMockPlayerScoreCalculator
 #include "GlobalNamespace/IMockPlayerScoreCalculator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -80,14 +81,14 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Random _random
     void _set__random(System::Random* value);
     // public System.Void .ctor(System.Single hitFrequency, System.Int32 minScore, System.Int32 maxScore)
-    // Offset: 0x238BAD4
+    // Offset: 0x1E03ABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicMockPlayerScoreCalculator* New_ctor(float hitFrequency, int minScore, int maxScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicMockPlayerScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicMockPlayerScoreCalculator*, creationType>(hitFrequency, minScore, maxScore)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x238BBBC
+    // Offset: 0x1E03BA4
     int GetScoreForNote(GlobalNamespace::MockNoteData* noteData);
   }; // BasicMockPlayerScoreCalculator
   #pragma pack(pop)

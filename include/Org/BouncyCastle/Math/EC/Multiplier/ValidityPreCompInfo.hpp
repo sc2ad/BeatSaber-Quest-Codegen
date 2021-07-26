@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo
 #include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -60,28 +61,28 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set instance field: private System.Boolean orderPassed
     void _set_orderPassed(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1D91C04
+    // Offset: 0x19037E4
     static void _cctor();
     // System.Boolean HasFailed()
-    // Offset: 0x1D91BC8
+    // Offset: 0x19037A8
     bool HasFailed();
     // System.Void ReportFailed()
-    // Offset: 0x1D91BD0
+    // Offset: 0x19037B0
     void ReportFailed();
     // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x1D91BDC
+    // Offset: 0x19037BC
     bool HasCurveEquationPassed();
     // System.Void ReportCurveEquationPassed()
-    // Offset: 0x1D91BE4
+    // Offset: 0x19037C4
     void ReportCurveEquationPassed();
     // System.Boolean HasOrderPassed()
-    // Offset: 0x1D91BF0
+    // Offset: 0x19037D0
     bool HasOrderPassed();
     // System.Void ReportOrderPassed()
-    // Offset: 0x1D91BF8
+    // Offset: 0x19037D8
     void ReportOrderPassed();
     // public System.Void .ctor()
-    // Offset: 0x1D91C60
+    // Offset: 0x1903840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

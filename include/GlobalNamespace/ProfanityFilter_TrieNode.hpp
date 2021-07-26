@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ProfanityFilter
 #include "GlobalNamespace/ProfanityFilter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,13 +51,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _shortestWord
     void _set__shortestWord(int value);
     // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x230D238
+    // Offset: 0x23CE3EC
     void AddWord(::Il2CppString* word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x230D694
+    // Offset: 0x23CE848
     bool IsMatch(::Il2CppString* word, int index);
     // public System.Void .ctor()
-    // Offset: 0x230D228
+    // Offset: 0x23CE3DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

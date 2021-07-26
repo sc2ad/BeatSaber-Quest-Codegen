@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,32 +53,32 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <ElementSingleLine>k__BackingField
     void _set_$ElementSingleLine$k__BackingField(bool value);
     // public System.String get_ElementHeader()
-    // Offset: 0x12217F8
+    // Offset: 0x204E150
     ::Il2CppString* get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
-    // Offset: 0x1221800
+    // Offset: 0x204E158
     void set_ElementHeader(::Il2CppString* value);
     // public System.Boolean get_HeaderZeroIndex()
-    // Offset: 0x1221808
+    // Offset: 0x204E160
     bool get_HeaderZeroIndex();
     // protected System.Void set_HeaderZeroIndex(System.Boolean value)
-    // Offset: 0x1221810
+    // Offset: 0x204E168
     void set_HeaderZeroIndex(bool value);
     // public System.Boolean get_ElementSingleLine()
-    // Offset: 0x122181C
+    // Offset: 0x204E174
     bool get_ElementSingleLine();
     // protected System.Void set_ElementSingleLine(System.Boolean value)
-    // Offset: 0x1221824
+    // Offset: 0x204E17C
     void set_ElementSingleLine(bool value);
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
-    // Offset: 0x1221898
+    // Offset: 0x204E1F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReorderableAttribute* New_ctor(::Il2CppString* headerString, bool isZeroIndex, bool isSingleLine) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ReorderableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>(headerString, isZeroIndex, isSingleLine)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1221830
+    // Offset: 0x204E188
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

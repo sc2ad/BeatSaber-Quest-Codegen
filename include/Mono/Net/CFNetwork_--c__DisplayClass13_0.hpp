@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.CFNetwork
 #include "Mono/Net/CFNetwork.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,10 +58,10 @@ namespace Mono::Net {
     // Set instance field: public Mono.Net.CFRunLoop runLoop
     void _set_runLoop(Mono::Net::CFRunLoop* value);
     // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x15A7454
+    // Offset: 0x12AAA24
     void $ExecuteProxyAutoConfigurationURL$b__0(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error);
     // public System.Void .ctor()
-    // Offset: 0x15A6BF8
+    // Offset: 0x12AA1C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

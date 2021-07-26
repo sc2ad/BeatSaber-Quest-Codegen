@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelCollectionNavigationController
 #include "GlobalNamespace/LevelCollectionNavigationController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace GlobalNamespace {
     // Set instance field: public HMUI.ViewController viewController
     void _set_viewController(HMUI::ViewController* value);
     // System.Void <PresentDetailViewController>b__0()
-    // Offset: 0x10F3C84
+    // Offset: 0x1F45C98
     void $PresentDetailViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10F39E8
+    // Offset: 0x1F459FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

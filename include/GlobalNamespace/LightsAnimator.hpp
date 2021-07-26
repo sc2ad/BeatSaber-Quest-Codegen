@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,7 +62,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07720
+    // [InjectAttribute] Offset: 0xEB433C
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -95,31 +96,31 @@ namespace GlobalNamespace {
     // Set instance field: private Tweening.ColorTween _tween
     void _set__tween(Tweening::ColorTween* value);
     // protected System.Void Awake()
-    // Offset: 0x11B9760
+    // Offset: 0x1FE81A4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B9884
+    // Offset: 0x1FE82C8
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x11B991C
+    // Offset: 0x1FE8360
     void AnimateToColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x11B9A2C
+    // Offset: 0x1FE8470
     void SetColor(UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x11B9A90
+    // Offset: 0x1FE84D4
     void SetLightsColor(UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x11B9B98
+    // Offset: 0x1FE85DC
     void SetLightsWidth(float width);
     // public System.Void DisableDirectionalLights(System.Single delay)
-    // Offset: 0x11B9C14
+    // Offset: 0x1FE8658
     void DisableDirectionalLights(float delay);
     // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
-    // Offset: 0x11B9C54
+    // Offset: 0x1FE8698
     System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x11B9D00
+    // Offset: 0x1FE8744
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

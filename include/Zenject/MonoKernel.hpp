@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,21 +31,21 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoKernel : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectLocalAttribute] Offset: 0xDCB76C
+    // [InjectLocalAttribute] Offset: 0xE78388
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xDCB77C
+    // [InjectLocalAttribute] Offset: 0xE78398
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x20
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xDCB78C
+    // [InjectLocalAttribute] Offset: 0xE783A8
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x28
@@ -88,28 +89,28 @@ namespace Zenject {
     // Set instance field: private System.Boolean _isDestroyed
     void _set__isDestroyed(bool value);
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0x16C573C
+    // Offset: 0x13C7DF8
     bool get_IsDestroyed();
     // public System.Void Start()
-    // Offset: 0x16C5744
+    // Offset: 0x13C7E00
     void Start();
     // public System.Void Initialize()
-    // Offset: 0x16C5748
+    // Offset: 0x13C7E04
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x16C577C
+    // Offset: 0x13C7E38
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x16C578C
+    // Offset: 0x13C7E48
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x16C579C
+    // Offset: 0x13C7E58
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0x16C57AC
+    // Offset: 0x13C7E68
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x16C5818
+    // Offset: 0x13C7ED4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

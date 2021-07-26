@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.EventBasedNetListener
 #include "LiteNetLib/EventBasedNetListener.hpp"
 // Including type: System.MulticastDelegate
@@ -43,20 +44,20 @@ namespace LiteNetLib {
     // Creating value type constructor for type: OnNetworkError
     OnNetworkError() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BAF6CC
+    // Offset: 0x17A2A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnNetworkError* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::EventBasedNetListener::OnNetworkError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnNetworkError*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
-    // Offset: 0x1BADE34
+    // Offset: 0x17A11CC
     void Invoke(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BAF6DC
+    // Offset: 0x17A2A74
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BAF778
+    // Offset: 0x17A2B10
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkError
   #pragma pack(pop)

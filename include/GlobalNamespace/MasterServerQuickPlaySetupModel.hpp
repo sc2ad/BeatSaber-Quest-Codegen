@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IMasterServerQuickPlaySetupModel
 #include "GlobalNamespace/IMasterServerQuickPlaySetupModel.hpp"
 // Including type: System.DateTime
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10
     struct $GetQuickPlaySetupInternal$d__10;
-    // [InjectAttribute] Offset: 0xE01AFC
+    // [InjectAttribute] Offset: 0xEAE718
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -121,25 +122,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.DateTime _lastRequestTime
     void _set__lastRequestTime(System::DateTime value);
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x117F5B4
+    // Offset: 0x1FAEFC8
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Void Init()
-    // Offset: 0x117F7AC
+    // Offset: 0x1FAF1C0
     void Init();
     // private System.Void StartRequest()
-    // Offset: 0x117F734
+    // Offset: 0x1FAF148
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x117F7B0
+    // Offset: 0x1FAF1C4
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupInternal();
     // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x117F628
+    // Offset: 0x1FAF03C
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x117F8B0
+    // Offset: 0x1FAF2C4
     bool IsUrlValid(::Il2CppString* url);
     // public System.Void .ctor()
-    // Offset: 0x117F91C
+    // Offset: 0x1FAF330
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

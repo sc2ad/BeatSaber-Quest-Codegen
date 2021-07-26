@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
@@ -104,10 +105,10 @@ namespace System {
     }
     // public System.Boolean TryGetTarget(out T target)
     // Offset: 0xFFFFFFFF
-    bool TryGetTarget(T& target) {
+    bool TryGetTarget(ByRef<T> target) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::WeakReference_1::TryGetTarget");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetTarget", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, target);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(target));
     }
     // protected override System.Void Finalize()
     // Offset: 0xFFFFFFFF

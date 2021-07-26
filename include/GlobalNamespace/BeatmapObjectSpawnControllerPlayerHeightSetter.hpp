@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,14 +29,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectSpawnControllerPlayerHeightSetter : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE0950C
+    // [InjectAttribute] Offset: 0xEB6128
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0951C
+    // [InjectAttribute] Offset: 0xEB6138
     // private readonly PlayerHeightDetector _playerHeightDetector
     // Size: 0x8
     // Offset: 0x20
@@ -55,19 +56,19 @@ namespace GlobalNamespace {
     // Set instance field: private readonly PlayerHeightDetector _playerHeightDetector
     void _set__playerHeightDetector(GlobalNamespace::PlayerHeightDetector* value);
     // protected System.Void Start()
-    // Offset: 0x1098214
+    // Offset: 0x1EF06BC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10982F4
+    // Offset: 0x1EF079C
     void OnDestroy();
     // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0x10982C8
+    // Offset: 0x1EF0770
     void HandlePlayerHeightDidChange(float playerHeight);
     // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0x10983D0
+    // Offset: 0x1EF0878
     static float JumpOffsetYForPlayerHeight(float playerHeight);
     // public System.Void .ctor()
-    // Offset: 0x1098460
+    // Offset: 0x1EF0908
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

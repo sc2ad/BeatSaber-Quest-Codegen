@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.CloudStorageDataStatus
 #include "Oculus/Platform/CloudStorageDataStatus.hpp"
 // Including type: System.IntPtr
@@ -108,7 +109,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly System.String VersionHandle
     void _set_VersionHandle(::Il2CppString* value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A19B4
+    // Offset: 0x20FD828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageMetadata* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageMetadata::.ctor");

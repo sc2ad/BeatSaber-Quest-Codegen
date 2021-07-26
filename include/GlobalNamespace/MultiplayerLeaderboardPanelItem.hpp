@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -172,13 +173,13 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _prevNumberOfPlayers
     void _set__prevNumberOfPlayers(int value);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x11AE84C
+    // Offset: 0x1FC62B8
     void set_hide(bool value);
     // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
-    // Offset: 0x11AEB04
+    // Offset: 0x1FC6570
     void SetData(int position, ::Il2CppString* playerName, int score, bool failed, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x11AEE20
+    // Offset: 0x1FC688C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

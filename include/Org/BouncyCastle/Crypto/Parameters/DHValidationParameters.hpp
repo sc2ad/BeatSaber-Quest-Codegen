@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -40,22 +41,22 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set instance field: private readonly System.Int32 counter
     void _set_counter(int value);
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
-    // Offset: 0x1227F30
+    // Offset: 0x1032208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParameters* New_ctor(::Array<uint8_t>* seed, int counter) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParameters*, creationType>(seed, counter)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters other)
-    // Offset: 0x12280BC
+    // Offset: 0x1032394
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x122800C
+    // Offset: 0x10322E4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1228168
+    // Offset: 0x1032440
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 // Including type: System.Security.Cryptography.RSASignaturePaddingMode
@@ -50,33 +51,33 @@ namespace System::Security::Cryptography {
     // Set instance field: private readonly System.Security.Cryptography.RSASignaturePaddingMode _mode
     void _set__mode(System::Security::Cryptography::RSASignaturePaddingMode value);
     // static public System.Security.Cryptography.RSASignaturePadding get_Pkcs1()
-    // Offset: 0x1AFB730
+    // Offset: 0x175E0B8
     static System::Security::Cryptography::RSASignaturePadding* get_Pkcs1();
     // private System.Void .ctor(System.Security.Cryptography.RSASignaturePaddingMode mode)
-    // Offset: 0x1AFB704
+    // Offset: 0x175E08C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSASignaturePadding* New_ctor(System::Security::Cryptography::RSASignaturePaddingMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSASignaturePadding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSASignaturePadding*, creationType>(mode)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AFB960
+    // Offset: 0x175E2E8
     static void _cctor();
     // public System.Boolean Equals(System.Security.Cryptography.RSASignaturePadding other)
-    // Offset: 0x1AFB838
+    // Offset: 0x175E1C0
     bool Equals(System::Security::Cryptography::RSASignaturePadding* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AFB798
+    // Offset: 0x175E120
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1AFB7C4
+    // Offset: 0x175E14C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1AFB8D4
+    // Offset: 0x175E25C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -85,10 +86,10 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RSASignaturePadding), 16 + sizeof(System::Security::Cryptography::RSASignaturePaddingMode)> __System_Security_Cryptography_RSASignaturePaddingSizeCheck;
   static_assert(sizeof(RSASignaturePadding) == 0x14);
   // static public System.Boolean op_Equality(System.Security.Cryptography.RSASignaturePadding left, System.Security.Cryptography.RSASignaturePadding right)
-  // Offset: 0x1AF975C
+  // Offset: 0x175C0E4
   bool operator ==(System::Security::Cryptography::RSASignaturePadding* left, System::Security::Cryptography::RSASignaturePadding& right);
   // static public System.Boolean op_Inequality(System.Security.Cryptography.RSASignaturePadding left, System.Security.Cryptography.RSASignaturePadding right)
-  // Offset: 0x1AFA6E0
+  // Offset: 0x175D068
   bool operator !=(System::Security::Cryptography::RSASignaturePadding* left, System::Security::Cryptography::RSASignaturePadding& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSASignaturePadding*, "System.Security.Cryptography", "RSASignaturePadding");

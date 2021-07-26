@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -29,40 +30,40 @@ namespace System {
     // Set static field: static private readonly System.Char[] HexUpperChars
     static void _set_HexUpperChars(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23988BC
+    // Offset: 0x1E108A4
     static void _cctor();
     // static System.Char[] EscapeString(System.String input, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPos, System.Boolean isUriString, System.Char force1, System.Char force2, System.Char rsvd)
-    // Offset: 0x2396D14
-    static ::Array<::Il2CppChar>* EscapeString(::Il2CppString* input, int start, int end, ::Array<::Il2CppChar>* dest, int& destPos, bool isUriString, ::Il2CppChar force1, ::Il2CppChar force2, ::Il2CppChar rsvd);
+    // Offset: 0x1E0ECFC
+    static ::Array<::Il2CppChar>* EscapeString(::Il2CppString* input, int start, int end, ::Array<::Il2CppChar>* dest, ByRef<int> destPos, bool isUriString, ::Il2CppChar force1, ::Il2CppChar force2, ::Il2CppChar rsvd);
     // static private System.Char[] EnsureDestinationSize(System.Char* pStr, System.Char[] dest, System.Int32 currentInputPos, System.Int16 charsToAdd, System.Int16 minReallocateChars, ref System.Int32 destPos, System.Int32 prevInputPos)
-    // Offset: 0x2397288
-    static ::Array<::Il2CppChar>* EnsureDestinationSize(::Il2CppChar* pStr, ::Array<::Il2CppChar>* dest, int currentInputPos, int16_t charsToAdd, int16_t minReallocateChars, int& destPos, int prevInputPos);
+    // Offset: 0x1E0F270
+    static ::Array<::Il2CppChar>* EnsureDestinationSize(::Il2CppChar* pStr, ::Array<::Il2CppChar>* dest, int currentInputPos, int16_t charsToAdd, int16_t minReallocateChars, ByRef<int> destPos, int prevInputPos);
     // static System.Char[] UnescapeString(System.String input, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
-    // Offset: 0x2397788
-    static ::Array<::Il2CppChar>* UnescapeString(::Il2CppString* input, int start, int end, ::Array<::Il2CppChar>* dest, int& destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
+    // Offset: 0x1E0F770
+    static ::Array<::Il2CppChar>* UnescapeString(::Il2CppString* input, int start, int end, ::Array<::Il2CppChar>* dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
     // static System.Char[] UnescapeString(System.Char* pStr, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
-    // Offset: 0x2397870
-    static ::Array<::Il2CppChar>* UnescapeString(::Il2CppChar* pStr, int start, int end, ::Array<::Il2CppChar>* dest, int& destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
+    // Offset: 0x1E0F858
+    static ::Array<::Il2CppChar>* UnescapeString(::Il2CppChar* pStr, int start, int end, ::Array<::Il2CppChar>* dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
     // static System.Void MatchUTF8Sequence(System.Char* pDest, System.Char[] dest, ref System.Int32 destOffset, System.Char[] unescapedChars, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteCount, System.Boolean isQuery, System.Boolean iriParsing)
-    // Offset: 0x23982D0
-    static void MatchUTF8Sequence(::Il2CppChar* pDest, ::Array<::Il2CppChar>* dest, int& destOffset, ::Array<::Il2CppChar>* unescapedChars, int charCount, ::Array<uint8_t>* bytes, int byteCount, bool isQuery, bool iriParsing);
+    // Offset: 0x1E102B8
+    static void MatchUTF8Sequence(::Il2CppChar* pDest, ::Array<::Il2CppChar>* dest, ByRef<int> destOffset, ::Array<::Il2CppChar>* unescapedChars, int charCount, ::Array<uint8_t>* bytes, int byteCount, bool isQuery, bool iriParsing);
     // static System.Void EscapeAsciiChar(System.Char ch, System.Char[] to, ref System.Int32 pos)
-    // Offset: 0x23973B4
-    static void EscapeAsciiChar(::Il2CppChar ch, ::Array<::Il2CppChar>* to, int& pos);
+    // Offset: 0x1E0F39C
+    static void EscapeAsciiChar(::Il2CppChar ch, ::Array<::Il2CppChar>* to, ByRef<int> pos);
     // static System.Char EscapedAscii(System.Char digit, System.Char next)
-    // Offset: 0x23974F8
+    // Offset: 0x1E0F4E0
     static ::Il2CppChar EscapedAscii(::Il2CppChar digit, ::Il2CppChar next);
     // static System.Boolean IsNotSafeForUnescape(System.Char ch)
-    // Offset: 0x2398244
+    // Offset: 0x1E1022C
     static bool IsNotSafeForUnescape(::Il2CppChar ch);
     // static private System.Boolean IsReservedUnreservedOrHash(System.Char c)
-    // Offset: 0x239768C
+    // Offset: 0x1E0F674
     static bool IsReservedUnreservedOrHash(::Il2CppChar c);
     // static System.Boolean IsUnreserved(System.Char c)
-    // Offset: 0x23975B8
+    // Offset: 0x1E0F5A0
     static bool IsUnreserved(::Il2CppChar c);
     // static System.Boolean Is3986Unreserved(System.Char c)
-    // Offset: 0x239881C
+    // Offset: 0x1E10804
     static bool Is3986Unreserved(::Il2CppChar c);
   }; // System.UriHelper
   #pragma pack(pop)
@@ -81,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::UriHelper::EscapeString
 // Il2CppName: EscapeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, int&, bool, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar)>(&System::UriHelper::EscapeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, ByRef<int>, bool, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar)>(&System::UriHelper::EscapeString)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::UriHelper::EnsureDestinationSize
 // Il2CppName: EnsureDestinationSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int, int16_t, int16_t, int&, int)>(&System::UriHelper::EnsureDestinationSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int, int16_t, int16_t, ByRef<int>, int)>(&System::UriHelper::EnsureDestinationSize)> {
   static const MethodInfo* get() {
     static auto* pStr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
@@ -113,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::UriHelper::UnescapeString
 // Il2CppName: UnescapeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, ByRef<int>, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::UriHelper::UnescapeString
 // Il2CppName: UnescapeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, int, int, ::Array<::Il2CppChar>*, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, int, int, ::Array<::Il2CppChar>*, ByRef<int>, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
   static const MethodInfo* get() {
     static auto* pStr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::UriHelper::MatchUTF8Sequence
 // Il2CppName: MatchUTF8Sequence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int&, ::Array<::Il2CppChar>*, int, ::Array<uint8_t>*, int, bool, bool)>(&System::UriHelper::MatchUTF8Sequence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, ByRef<int>, ::Array<::Il2CppChar>*, int, ::Array<uint8_t>*, int, bool, bool)>(&System::UriHelper::MatchUTF8Sequence)> {
   static const MethodInfo* get() {
     static auto* pDest = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
@@ -168,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::UriHelper::EscapeAsciiChar
 // Il2CppName: EscapeAsciiChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar, ::Array<::Il2CppChar>*, int&)>(&System::UriHelper::EscapeAsciiChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar, ::Array<::Il2CppChar>*, ByRef<int>)>(&System::UriHelper::EscapeAsciiChar)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* to = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;

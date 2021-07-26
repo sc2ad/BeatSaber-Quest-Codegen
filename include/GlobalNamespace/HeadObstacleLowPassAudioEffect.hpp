@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,14 +29,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HeadObstacleLowPassAudioEffect : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE05178
+    // [InjectAttribute] Offset: 0xEB1D94
     // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0xE05188
+    // [InjectAttribute] Offset: 0xEB1DA4
     // private MainAudioEffects _mainAudioEffects
     // Size: 0x8
     // Offset: 0x20
@@ -65,10 +66,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _headWasInObstacle
     void _set__headWasInObstacle(bool value);
     // protected System.Void Update()
-    // Offset: 0x10E9DEC
+    // Offset: 0x1F3BE00
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10E9E94
+    // Offset: 0x1F3BEA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEnumerable
 #include "System/Collections/IEnumerable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,14 +48,14 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set instance field: private readonly System.Collections.IEnumerable inner
     void _set_inner(System::Collections::IEnumerable* value);
     // public System.Void .ctor(System.Collections.IEnumerable inner)
-    // Offset: 0x136FF78
+    // Offset: 0x1116BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableProxy* New_ctor(System::Collections::IEnumerable* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Collections::EnumerableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableProxy*, creationType>(inner)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1370014
+    // Offset: 0x1116C74
     System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EnumerableProxy
   #pragma pack(pop)

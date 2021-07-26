@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandaloneMonobehavior
 #include "GlobalNamespace/StandaloneMonobehavior.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -91,26 +92,26 @@ namespace GlobalNamespace {
     // Set instance field: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs
     void _set_tcs(System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2312574
+    // Offset: 0x23D3728
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x23125DC
+    // Offset: 0x23D3790
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x231232C
+    // Offset: 0x23D34E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandaloneMonobehavior::$RunAsyncCoroutine$d__21* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandaloneMonobehavior::$RunAsyncCoroutine$d__21*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2312490
+    // Offset: 0x23D3644
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2312494
+    // Offset: 0x23D3648
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x231257C
+    // Offset: 0x23D3730
     void System_Collections_IEnumerator_Reset();
   }; // StandaloneMonobehavior/<RunAsyncCoroutine>d__21
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,20 +37,20 @@ namespace System::Net {
     // Creating value type constructor for type: SimpleAsyncCallback
     SimpleAsyncCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146C3E8
+    // Offset: 0x11DD448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.SimpleAsyncResult result)
-    // Offset: 0x146C3F8
+    // Offset: 0x11DD458
     void Invoke(System::Net::SimpleAsyncResult* result);
     // public System.IAsyncResult BeginInvoke(System.Net.SimpleAsyncResult result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146C78C
+    // Offset: 0x11DD7EC
     System::IAsyncResult* BeginInvoke(System::Net::SimpleAsyncResult* result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x146C7B0
+    // Offset: 0x11DD810
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.SimpleAsyncCallback
   #pragma pack(pop)

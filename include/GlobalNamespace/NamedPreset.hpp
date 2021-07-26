@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -17,7 +18,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedPreset : public ::Il2CppObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xE018C4
+    // [LocalizationKeyAttribute] Offset: 0xEAE4E0
     // private System.String _presetNameLocalizationKey
     // Size: 0x8
     // Offset: 0x10
@@ -35,10 +36,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _presetNameLocalizationKey
     void _set__presetNameLocalizationKey(::Il2CppString* value);
     // public System.String get_presetNameLocalizationKey()
-    // Offset: 0x100E7E8
+    // Offset: 0x1E61D9C
     ::Il2CppString* get_presetNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x100E7F0
+    // Offset: 0x1E61DA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

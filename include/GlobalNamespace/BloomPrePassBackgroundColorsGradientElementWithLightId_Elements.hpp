@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassBackgroundColorsGradientElementWithLightId
 #include "GlobalNamespace/BloomPrePassBackgroundColorsGradientElementWithLightId.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,7 +53,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single minIntensity
     void _set_minIntensity(float value);
     // public System.Void .ctor()
-    // Offset: 0x1DECE28
+    // Offset: 0x195FA08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

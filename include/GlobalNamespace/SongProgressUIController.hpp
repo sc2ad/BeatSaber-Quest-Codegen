@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -84,7 +85,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* progressSecondsText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06228
+    // [InjectAttribute] Offset: 0xEB2E44
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
@@ -164,13 +165,13 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.RectTransform _progressImageRectTransform
     void _set__progressImageRectTransform(UnityEngine::RectTransform* value);
     // protected System.Void Start()
-    // Offset: 0x105C8B4
+    // Offset: 0x1EC7388
     void Start();
     // protected System.Void Update()
-    // Offset: 0x105C9CC
+    // Offset: 0x1EC74A0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x105CBB0
+    // Offset: 0x1EC7684
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

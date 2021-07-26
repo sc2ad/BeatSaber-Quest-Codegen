@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.SegmentedControl
 #include "HMUI/SegmentedControl.hpp"
 // Including type: HMUI.SegmentedControl/HMUI.IDataSource
@@ -55,7 +56,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideCellSize and: padding
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xDE2DE0
+    // [DrawIfAttribute] Offset: 0xE909FC
     // private System.Single _padding
     // Size: 0x4
     // Offset: 0x60
@@ -70,7 +71,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideCellBackground and: firstCellPrefab
     char __padding3[0x3] = {};
-    // [SpaceAttribute] Offset: 0xDE2E98
+    // [SpaceAttribute] Offset: 0xE90AB4
     // private HMUI.IconSegmentedControlCell _firstCellPrefab
     // Size: 0x8
     // Offset: 0x68
@@ -95,7 +96,7 @@ namespace HMUI {
     HMUI::IconSegmentedControlCell* singleCellPrefab;
     // Field size check
     static_assert(sizeof(HMUI::IconSegmentedControlCell*) == 0x8);
-    // [InjectAttribute] Offset: 0xDE2F00
+    // [InjectAttribute] Offset: 0xE90B1C
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -165,22 +166,22 @@ namespace HMUI {
     // Set instance field: private System.Boolean _isInitialized
     void _set__isInitialized(bool value);
     // protected System.Void Init()
-    // Offset: 0x131179C
+    // Offset: 0x10D370C
     void Init();
     // public System.Void SetData(HMUI.IconSegmentedControl/HMUI.DataItem[] dataItems)
-    // Offset: 0x13117BC
+    // Offset: 0x10D372C
     void SetData(::Array<HMUI::IconSegmentedControl::DataItem*>* dataItems);
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1311808
+    // Offset: 0x10D3778
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0x1311820
+    // Offset: 0x10D3790
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // private HMUI.IconSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0x13119CC
+    // Offset: 0x10D393C
     HMUI::IconSegmentedControlCell* InstantiateCell(UnityEngine::Object* prefab);
     // public System.Void .ctor()
-    // Offset: 0x1311C7C
+    // Offset: 0x10D3BEC
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

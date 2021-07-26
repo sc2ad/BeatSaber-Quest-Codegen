@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking
@@ -28,13 +29,13 @@ namespace UnityEngine::Networking {
     // Creating value type constructor for type: UnityWebRequestAssetBundle
     UnityWebRequestAssetBundle() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri)
-    // Offset: 0x23C8F8C
+    // Offset: 0x1E40584
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, System.UInt32 crc)
-    // Offset: 0x23C8F94
+    // Offset: 0x1E4058C
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri, uint crc);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, UnityEngine.CachedAssetBundle cachedAssetBundle, System.UInt32 crc)
-    // Offset: 0x23C9038
+    // Offset: 0x1E40630
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri, UnityEngine::CachedAssetBundle cachedAssetBundle, uint crc);
   }; // UnityEngine.Networking.UnityWebRequestAssetBundle
   #pragma pack(pop)

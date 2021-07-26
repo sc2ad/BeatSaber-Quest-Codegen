@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -16,7 +17,7 @@ namespace System::Threading {
     // Creating value type constructor for type: _ThreadPoolWaitCallback
     _ThreadPoolWaitCallback() noexcept {}
     // static System.Boolean PerformWaitCallback()
-    // Offset: 0x1890970
+    // Offset: 0x1561D74
     static bool PerformWaitCallback();
   }; // System.Threading._ThreadPoolWaitCallback
   #pragma pack(pop)

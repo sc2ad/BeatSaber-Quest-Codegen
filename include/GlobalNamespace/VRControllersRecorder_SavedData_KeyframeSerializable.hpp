@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRControllersRecorder/SavedData
 #include "GlobalNamespace/VRControllersRecorder_SavedData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -242,7 +243,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single _time
     void _set__time(float value);
     // public System.Void .ctor()
-    // Offset: 0x12788C8
+    // Offset: 0x206C848
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

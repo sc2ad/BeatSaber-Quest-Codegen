@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FlyingObjectEffect
 #include "GlobalNamespace/FlyingObjectEffect.hpp"
 // Including type: ISaberSwingRatingCounterDidChangeReceiver
@@ -143,22 +144,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _registeredToCallbacks
     void _set__registeredToCallbacks(bool value);
     // public System.Void InitAndPresent(in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0x102A850
-    void InitAndPresent(GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
+    // Offset: 0x1E95324
+    void InitAndPresent(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0x102AB7C
+    // Offset: 0x1E95650
     void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0x102AAA8
+    // Offset: 0x1E9557C
     ::Il2CppString* GetScoreText(int score);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0x102AC1C
+    // Offset: 0x1E956F0
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0x102AC20
+    // Offset: 0x1E956F4
     void UnregisterCallbacksIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x102AD6C
+    // Offset: 0x1E95840
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -172,7 +173,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x102AAD0
+    // Offset: 0x1E955A4
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
@@ -186,7 +187,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffe
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)(GlobalNamespace::NoteCutInfo&, int, float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Color)>(&GlobalNamespace::FlyingScoreEffect::InitAndPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)(ByRef<GlobalNamespace::NoteCutInfo>, int, float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Color)>(&GlobalNamespace::FlyingScoreEffect::InitAndPresent)> {
   static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

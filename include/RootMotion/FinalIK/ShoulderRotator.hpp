@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: RootMotion.FinalIK.IKMapping
@@ -30,14 +31,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShoulderRotator : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xDF5C38
+    // [TooltipAttribute] Offset: 0xEA2854
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF5C70
+    // [TooltipAttribute] Offset: 0xEA288C
     // public System.Single offset
     // Size: 0x4
     // Offset: 0x1C
@@ -77,22 +78,22 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean skip
     void _set_skip(bool value);
     // private System.Void Start()
-    // Offset: 0x1ABDF94
+    // Offset: 0x17357E4
     void Start();
     // private System.Void RotateShoulders()
-    // Offset: 0x1ABE068
+    // Offset: 0x17358B8
     void RotateShoulders();
     // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
-    // Offset: 0x1ABE154
+    // Offset: 0x17359A4
     void RotateShoulder(RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
     // private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x1ABE59C
+    // Offset: 0x1735DEC
     RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(RootMotion::FinalIK::FullBodyBipedChain chain);
     // private System.Void OnDestroy()
-    // Offset: 0x1ABE5D4
+    // Offset: 0x1735E24
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1ABE6CC
+    // Offset: 0x1735F1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

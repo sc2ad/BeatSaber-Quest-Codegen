@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Graphic
 #include "UnityEngine/UI/Graphic.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace HMUI {
     // Set instance field: private System.Single _depth
     void _set__depth(float value);
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x130858C
+    // Offset: 0x10CA4FC
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x13087F8
+    // Offset: 0x10CA768
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -59,7 +60,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBoxGraphic*, creationType>()));
     }
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x13081CC
+    // Offset: 0x10CA13C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);

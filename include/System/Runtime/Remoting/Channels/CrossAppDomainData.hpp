@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -52,13 +53,13 @@ namespace System::Runtime::Remoting::Channels {
     // Set instance field: private System.String _processGuid
     void _set__processGuid(::Il2CppString* value);
     // System.Int32 get_DomainID()
-    // Offset: 0x13F9D4C
+    // Offset: 0x11A29AC
     int get_DomainID();
     // System.String get_ProcessID()
-    // Offset: 0x13F9D54
+    // Offset: 0x11A29B4
     ::Il2CppString* get_ProcessID();
     // System.Void .ctor(System.Int32 domainId)
-    // Offset: 0x13F9850
+    // Offset: 0x11A24B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainData* New_ctor(int domainId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::CrossAppDomainData::.ctor");

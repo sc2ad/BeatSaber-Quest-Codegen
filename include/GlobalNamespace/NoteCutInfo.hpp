@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -181,16 +182,16 @@ namespace GlobalNamespace {
     // Set instance field: public readonly ISaberSwingRatingCounter swingRatingCounter
     void _set_swingRatingCounter(GlobalNamespace::ISaberSwingRatingCounter* value);
     // public System.Boolean get_allIsOK()
-    // Offset: 0xF0C000
+    // Offset: 0xF8D08C
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0xF0C030
+    // Offset: 0xF8D0BC
     bool get_allExceptSaberTypeIsOK();
     // public NoteCutInfo/FailReason get_failReason()
-    // Offset: 0xF0C058
+    // Offset: 0xF8D0E4
     GlobalNamespace::NoteCutInfo::FailReason get_failReason();
     // public System.Void .ctor(System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xF0C09C
+    // Offset: 0xF8D128
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  NoteCutInfo(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter)
   }; // NoteCutInfo

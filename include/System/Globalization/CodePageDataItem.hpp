@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -64,20 +65,20 @@ namespace System::Globalization {
     // Set instance field: System.UInt32 m_flags
     void _set_m_flags(uint value);
     // public System.String get_WebName()
-    // Offset: 0x17CCB60
+    // Offset: 0x149DF64
     ::Il2CppString* get_WebName();
     // System.Void .ctor(System.Int32 dataIndex)
-    // Offset: 0x17CC9B0
+    // Offset: 0x149DDB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePageDataItem* New_ctor(int dataIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CodePageDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePageDataItem*, creationType>(dataIndex)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17CCC30
+    // Offset: 0x149E034
     static void _cctor();
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
-    // Offset: 0x17CCA8C
+    // Offset: 0x149DE90
     static ::Il2CppString* CreateString(::Il2CppString* pStrings, uint index);
   }; // System.Globalization.CodePageDataItem
   #pragma pack(pop)

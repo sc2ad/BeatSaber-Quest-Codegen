@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Button
 #include "UnityEngine/UI/Button.hpp"
 // Including type: UnityEngine.Events.UnityEvent
@@ -24,7 +25,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: ButtonClickedEvent
     ButtonClickedEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x140C1BC
+    // Offset: 0x11B4E1C
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

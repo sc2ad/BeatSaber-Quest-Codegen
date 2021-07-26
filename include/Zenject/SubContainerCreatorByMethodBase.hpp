@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ISubContainerCreator
 #include "Zenject/ISubContainerCreator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -64,7 +65,7 @@ namespace Zenject {
     // Set instance field: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
     void _set__containerBindInfo(Zenject::SubContainerCreatorBindInfo* value);
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo)
-    // Offset: 0x16D24F4
+    // Offset: 0x13D4BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByMethodBase* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByMethodBase::.ctor");
@@ -74,7 +75,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
     // protected Zenject.DiContainer CreateEmptySubContainer()
-    // Offset: 0x16D25D0
+    // Offset: 0x13D4C8C
     Zenject::DiContainer* CreateEmptySubContainer();
   }; // Zenject.SubContainerCreatorByMethodBase
   #pragma pack(pop)

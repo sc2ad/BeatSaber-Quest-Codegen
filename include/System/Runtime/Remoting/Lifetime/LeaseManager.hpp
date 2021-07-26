@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -62,22 +63,22 @@ namespace System::Runtime::Remoting::Lifetime {
     // Set instance field: private System.Threading.Timer _timer
     void _set__timer(System::Threading::Timer* value);
     // public System.Void SetPollTime(System.TimeSpan timeSpan)
-    // Offset: 0x19F2098
+    // Offset: 0x16A918C
     void SetPollTime(System::TimeSpan timeSpan);
     // public System.Void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
-    // Offset: 0x19F215C
+    // Offset: 0x16A9250
     void TrackLifetime(System::Runtime::Remoting::ServerIdentity* identity);
     // public System.Void StartManager()
-    // Offset: 0x19F2258
+    // Offset: 0x16A934C
     void StartManager();
     // public System.Void StopManager()
-    // Offset: 0x19F23BC
+    // Offset: 0x16A94B0
     void StopManager();
     // public System.Void ManageLeases(System.Object state)
-    // Offset: 0x19F23D8
+    // Offset: 0x16A94CC
     void ManageLeases(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x19F260C
+    // Offset: 0x16A9700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

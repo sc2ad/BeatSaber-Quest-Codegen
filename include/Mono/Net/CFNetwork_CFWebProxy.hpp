@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.CFNetwork
 #include "Mono/Net/CFNetwork.hpp"
 // Including type: System.Net.IWebProxy
@@ -69,28 +70,28 @@ namespace Mono::Net {
     // Set instance field: private System.Boolean userSpecified
     void _set_userSpecified(bool value);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x15A7954
+    // Offset: 0x12AAF24
     System::Net::ICredentials* get_Credentials();
     // static private System.Uri GetProxyUri(Mono.Net.CFProxy proxy, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15A795C
-    static System::Uri* GetProxyUri(Mono::Net::CFProxy* proxy, System::Net::NetworkCredential*& credentials);
+    // Offset: 0x12AAF2C
+    static System::Uri* GetProxyUri(Mono::Net::CFProxy* proxy, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri GetProxyUriFromScript(System.IntPtr script, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15A7EC8
-    static System::Uri* GetProxyUriFromScript(System::IntPtr script, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
+    // Offset: 0x12AB498
+    static System::Uri* GetProxyUriFromScript(System::IntPtr script, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri ExecuteProxyAutoConfigurationURL(System.IntPtr proxyAutoConfigURL, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15A8014
-    static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
+    // Offset: 0x12AB5E4
+    static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri SelectProxy(Mono.Net.CFProxy[] proxies, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15A7F4C
-    static System::Uri* SelectProxy(::Array<Mono::Net::CFProxy*>* proxies, System::Uri* targetUri, System::Net::NetworkCredential*& credentials);
+    // Offset: 0x12AB51C
+    static System::Uri* SelectProxy(::Array<Mono::Net::CFProxy*>* proxies, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // public System.Uri GetProxy(System.Uri targetUri)
-    // Offset: 0x15A8098
+    // Offset: 0x12AB668
     System::Uri* GetProxy(System::Uri* targetUri);
     // public System.Boolean IsBypassed(System.Uri targetUri)
-    // Offset: 0x15A855C
+    // Offset: 0x12ABB2C
     bool IsBypassed(System::Uri* targetUri);
     // public System.Void .ctor()
-    // Offset: 0x15A73E0
+    // Offset: 0x12AA9B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -116,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::GetProxyUri
 // Il2CppName: GetProxyUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(Mono::Net::CFProxy*, System::Net::NetworkCredential*&)>(&Mono::Net::CFNetwork::CFWebProxy::GetProxyUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(Mono::Net::CFProxy*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::GetProxyUri)> {
   static const MethodInfo* get() {
     static auto* proxy = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxy")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "NetworkCredential")->this_arg;
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::GetProxyUriFromScript
 // Il2CppName: GetProxyUriFromScript
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(System::IntPtr, System::Uri*, System::Net::NetworkCredential*&)>(&Mono::Net::CFNetwork::CFWebProxy::GetProxyUriFromScript)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(System::IntPtr, System::Uri*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::GetProxyUriFromScript)> {
   static const MethodInfo* get() {
     static auto* script = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
@@ -137,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::ExecuteProxyAutoConfigurationURL
 // Il2CppName: ExecuteProxyAutoConfigurationURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(System::IntPtr, System::Uri*, System::Net::NetworkCredential*&)>(&Mono::Net::CFNetwork::CFWebProxy::ExecuteProxyAutoConfigurationURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(System::IntPtr, System::Uri*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::ExecuteProxyAutoConfigurationURL)> {
   static const MethodInfo* get() {
     static auto* proxyAutoConfigURL = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::SelectProxy
 // Il2CppName: SelectProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Array<Mono::Net::CFProxy*>*, System::Uri*, System::Net::NetworkCredential*&)>(&Mono::Net::CFNetwork::CFWebProxy::SelectProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Array<Mono::Net::CFProxy*>*, System::Uri*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::SelectProxy)> {
   static const MethodInfo* get() {
     static auto* proxies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxy"), 1)->byval_arg;
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Rfc8032.Ed25519
 #include "Org/BouncyCastle/Math/EC/Rfc8032/Ed25519.hpp"
 // Including type: System.Enum

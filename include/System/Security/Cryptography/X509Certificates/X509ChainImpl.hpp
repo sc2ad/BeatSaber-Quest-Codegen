@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509ChainStatus
@@ -60,13 +61,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x182D9D8
+    // Offset: 0x14FEDDC
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x182E7E0
+    // Offset: 0x14FFBE4
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x182E858
+    // Offset: 0x14FFC5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,7 +76,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainImpl*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x182E7E4
+    // Offset: 0x14FFBE8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

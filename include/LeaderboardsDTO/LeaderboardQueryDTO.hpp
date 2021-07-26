@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -128,7 +129,7 @@ namespace LeaderboardsDTO {
     // Set instance field: public System.Boolean includedScoreWithModifiers
     void _set_includedScoreWithModifiers(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10F079C
+    // Offset: 0x1F427B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

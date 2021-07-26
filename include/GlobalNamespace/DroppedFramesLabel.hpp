@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -111,16 +112,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _frameCountInInterval
     void _set__frameCountInInterval(int value);
     // protected System.Void Start()
-    // Offset: 0x1211C4C
+    // Offset: 0x203E5A4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1211CC0
+    // Offset: 0x203E618
     void Update();
     // private System.Void RefreshText()
-    // Offset: 0x1211DAC
+    // Offset: 0x203E704
     void RefreshText();
     // public System.Void .ctor()
-    // Offset: 0x1211ED0
+    // Offset: 0x203E828
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

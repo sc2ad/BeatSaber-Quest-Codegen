@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IDsaExt
 #include "Org/BouncyCastle/Crypto/IDsaExt.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,16 +69,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set instance field: private Org.BouncyCastle.Security.SecureRandom random
     void _set_random(Org::BouncyCastle::Security::SecureRandom* value);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x12336E0
+    // Offset: 0x103D9B8
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1233554
+    // Offset: 0x103D82C
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x1233708
+    // Offset: 0x103D9E0
     ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
     // public System.Void .ctor()
-    // Offset: 0x1233940
+    // Offset: 0x103DC18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

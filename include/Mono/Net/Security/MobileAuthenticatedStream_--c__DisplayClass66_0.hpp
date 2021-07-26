@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.MobileAuthenticatedStream
 #include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,10 +44,10 @@ namespace Mono::Net::Security {
     // Set instance field: public System.Int32 len
     void _set_len(int value);
     // System.Int32 <InnerRead>b__0()
-    // Offset: 0x15ADF24
+    // Offset: 0x12B14F4
     int $InnerRead$b__0();
     // public System.Void .ctor()
-    // Offset: 0x15ADF1C
+    // Offset: 0x12B14EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

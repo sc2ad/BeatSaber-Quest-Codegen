@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuLightsPresetSO
 #include "GlobalNamespace/MenuLightsPresetSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,7 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* baseColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [RangeAttribute] Offset: 0xE14054
+    // [RangeAttribute] Offset: 0xEC0C70
     // public System.Single intensity
     // Size: 0x4
     // Offset: 0x20
@@ -67,10 +68,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single intensity
     void _set_intensity(float value);
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x1180340
+    // Offset: 0x1FAFD54
     UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
-    // Offset: 0x1180684
+    // Offset: 0x1FB0098
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

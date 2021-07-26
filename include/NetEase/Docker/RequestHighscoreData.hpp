@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -18,14 +19,14 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RequestHighscoreData/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDEDE74
+    // [DebuggerBrowsableAttribute] Offset: 0xE9BA90
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xDEDEB0
+    // [DebuggerBrowsableAttribute] Offset: 0xE9BACC
     // private System.String <HighscoreType>k__BackingField
     // Size: 0x8
     // Offset: 0x8
@@ -47,13 +48,13 @@ namespace NetEase::Docker {
     // Set instance field: private System.String <HighscoreType>k__BackingField
     void _set_$HighscoreType$k__BackingField(::Il2CppString* value);
     // public System.String get_Track()
-    // Offset: 0xF0FB58
+    // Offset: 0xD956EC
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0xF0FB60
+    // Offset: 0xD956F4
     void set_Track(::Il2CppString* value);
     // public System.Void set_HighscoreType(System.String value)
-    // Offset: 0xF0FB68
+    // Offset: 0xD956FC
     void set_HighscoreType(::Il2CppString* value);
   }; // NetEase.Docker.RequestHighscoreData
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -41,39 +42,39 @@ namespace System::Security {
     // Set instance field: System.Byte[] m_data
     void _set_m_data(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Int32 numData)
-    // Offset: 0x1B0A240
+    // Offset: 0x176CBC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityDocument* New_ctor(int numData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityDocument*, creationType>(numData)));
     }
     // public System.Void GuaranteeSize(System.Int32 size)
-    // Offset: 0x1B0A2B0
+    // Offset: 0x176CC38
     void GuaranteeSize(int size);
     // public System.Void AddString(System.String str, ref System.Int32 position)
-    // Offset: 0x1B0A364
-    void AddString(::Il2CppString* str, int& position);
+    // Offset: 0x176CCEC
+    void AddString(::Il2CppString* str, ByRef<int> position);
     // public System.Void AppendString(System.String str, ref System.Int32 position)
-    // Offset: 0x1B0A4C4
-    void AppendString(::Il2CppString* str, int& position);
+    // Offset: 0x176CE4C
+    void AppendString(::Il2CppString* str, ByRef<int> position);
     // static public System.Int32 EncodedStringSize(System.String str)
-    // Offset: 0x1B0A5A8
+    // Offset: 0x176CF30
     static int EncodedStringSize(::Il2CppString* str);
     // public System.String GetString(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1B0A5C8
-    ::Il2CppString* GetString(int& position, bool bCreate);
+    // Offset: 0x176CF50
+    ::Il2CppString* GetString(ByRef<int> position, bool bCreate);
     // public System.Void AddToken(System.Byte b, ref System.Int32 position)
-    // Offset: 0x1B0A8F0
-    void AddToken(uint8_t b, int& position);
+    // Offset: 0x176D278
+    void AddToken(uint8_t b, ByRef<int> position);
     // public System.Security.SecurityElement GetRootElement()
-    // Offset: 0x1B0A960
+    // Offset: 0x176D2E8
     System::Security::SecurityElement* GetRootElement();
     // public System.Security.SecurityElement GetElement(System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1B0A988
+    // Offset: 0x176D310
     System::Security::SecurityElement* GetElement(int position, bool bCreate);
     // System.Security.SecurityElement InternalGetElement(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1B0A9B0
-    System::Security::SecurityElement* InternalGetElement(int& position, bool bCreate);
+    // Offset: 0x176D338
+    System::Security::SecurityElement* InternalGetElement(ByRef<int> position, bool bCreate);
   }; // System.Security.SecurityDocument
   #pragma pack(pop)
   static check_size<sizeof(SecurityDocument), 16 + sizeof(::Array<uint8_t>*)> __System_Security_SecurityDocumentSizeCheck;
@@ -97,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::SecurityDocument::AddString
 // Il2CppName: AddString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(::Il2CppString*, int&)>(&System::Security::SecurityDocument::AddString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(::Il2CppString*, ByRef<int>)>(&System::Security::SecurityDocument::AddString)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::SecurityDocument::AppendString
 // Il2CppName: AppendString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(::Il2CppString*, int&)>(&System::Security::SecurityDocument::AppendString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(::Il2CppString*, ByRef<int>)>(&System::Security::SecurityDocument::AppendString)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Security::SecurityDocument::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::SecurityDocument::*)(int&, bool)>(&System::Security::SecurityDocument::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::SecurityDocument::*)(ByRef<int>, bool)>(&System::Security::SecurityDocument::GetString)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* bCreate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -136,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::SecurityDocument::AddToken
 // Il2CppName: AddToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(uint8_t, int&)>(&System::Security::SecurityDocument::AddToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(uint8_t, ByRef<int>)>(&System::Security::SecurityDocument::AddToken)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::SecurityDocument::InternalGetElement
 // Il2CppName: InternalGetElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)(int&, bool)>(&System::Security::SecurityDocument::InternalGetElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)(ByRef<int>, bool)>(&System::Security::SecurityDocument::InternalGetElement)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* bCreate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

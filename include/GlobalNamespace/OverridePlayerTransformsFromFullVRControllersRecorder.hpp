@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,21 +41,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FullVRControllersRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xE122D8
+    // [InjectAttribute] Offset: 0xEBEEF4
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE122E8
+    // [InjectAttribute] Offset: 0xEBEF04
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE122F8
+    // [InjectAttribute] Offset: 0xEBEF14
     // private readonly PlayerVRControllersManager _playerVRControllersManager
     // Size: 0x8
     // Offset: 0x30
@@ -82,16 +83,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly PlayerVRControllersManager _playerVRControllersManager
     void _set__playerVRControllersManager(GlobalNamespace::PlayerVRControllersManager* value);
     // protected System.Void Start()
-    // Offset: 0xFFBC9C
+    // Offset: 0x1E4F250
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xFFBD40
+    // Offset: 0x1E4F2F4
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0xFFBE1C
+    // Offset: 0x1E4F3D0
     void HandleFullVRControllersRecorderDidSetControllerTransform(GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0xFFBF34
+    // Offset: 0x1E4F4E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

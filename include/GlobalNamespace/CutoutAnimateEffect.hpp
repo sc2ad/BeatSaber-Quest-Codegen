@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,28 +74,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <animating>k__BackingField
     void _set_$animating$k__BackingField(bool value);
     // public System.Boolean get_animating()
-    // Offset: 0x1086938
+    // Offset: 0x1F08234
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0x1086940
+    // Offset: 0x1F0823C
     void set_animating(bool value);
     // protected System.Void Start()
-    // Offset: 0x108694C
+    // Offset: 0x1F08248
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x10869CC
+    // Offset: 0x1F082C8
     System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0x1086954
+    // Offset: 0x1F08250
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0x1086B54
+    // Offset: 0x1F08450
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x1086B84
+    // Offset: 0x1F08480
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x1086BE4
+    // Offset: 0x1F084E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

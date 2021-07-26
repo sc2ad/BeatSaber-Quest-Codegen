@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_TrackedCamera
 #include "GlobalNamespace/SteamVR_TrackedCamera.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -66,29 +67,29 @@ namespace GlobalNamespace {
     // Set instance field: private System.UInt64 refCount
     void _set_refCount(uint64_t value);
     // public System.UInt32 get_deviceIndex()
-    // Offset: 0x16AE310
+    // Offset: 0x13B09CC
     uint get_deviceIndex();
     // private System.Void set_deviceIndex(System.UInt32 value)
-    // Offset: 0x16AE318
+    // Offset: 0x13B09D4
     void set_deviceIndex(uint value);
     // public System.UInt64 get_handle()
-    // Offset: 0x16AE320
+    // Offset: 0x13B09DC
     uint64_t get_handle();
     // public System.Boolean get_hasCamera()
-    // Offset: 0x16AE328
+    // Offset: 0x13B09E4
     bool get_hasCamera();
     // public System.Void .ctor(System.UInt32 deviceIndex)
-    // Offset: 0x16AE248
+    // Offset: 0x13B0904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera::VideoStream* New_ctor(uint deviceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::VideoStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera::VideoStream*, creationType>(deviceIndex)));
     }
     // public System.UInt64 Acquire()
-    // Offset: 0x16AE330
+    // Offset: 0x13B09EC
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x16AE3EC
+    // Offset: 0x13B0AA8
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
   #pragma pack(pop)

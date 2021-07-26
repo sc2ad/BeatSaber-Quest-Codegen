@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLibConnectionManager
 #include "GlobalNamespace/LiteNetLibConnectionManager.hpp"
 // Including type: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
@@ -73,7 +74,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean serverIsConnectionOwner
     void _set_serverIsConnectionOwner(bool value);
     // public System.Void .ctor()
-    // Offset: 0x12CAA2C
+    // Offset: 0x10A0168
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

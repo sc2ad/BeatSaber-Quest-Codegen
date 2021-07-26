@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: MultiplayerPlayerLayout
@@ -84,7 +85,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayerLayout layout;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
-    // [InjectAttribute] Offset: 0xE07F30
+    // [InjectAttribute] Offset: 0xEB4B4C
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -108,13 +109,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerLayoutProvider _layoutProvider
     void _set__layoutProvider(GlobalNamespace::MultiplayerLayoutProvider* value);
     // private System.Void Start()
-    // Offset: 0x119FBE0
+    // Offset: 0x1FB764C
     void Start();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 playersCount)
-    // Offset: 0x119FC8C
+    // Offset: 0x1FB76F8
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int playersCount);
     // public System.Void .ctor()
-    // Offset: 0x119FCF0
+    // Offset: 0x1FB775C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

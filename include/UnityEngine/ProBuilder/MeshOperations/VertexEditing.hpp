@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
 #include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
 // Completed includes
@@ -51,22 +52,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: VertexEditing
     VertexEditing() noexcept {}
     // static public System.Int32 MergeVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, System.Boolean collapseToFirst)
-    // Offset: 0x16FDF70
+    // Offset: 0x140062C
     static int MergeVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes, bool collapseToFirst);
     // static public System.Void SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x16FE280
+    // Offset: 0x140093C
     static void SplitVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // static public System.Void SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x16FE318
+    // Offset: 0x14009D4
     static void SplitVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* vertices);
     // static public System.Int32[] WeldVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, System.Single neighborRadius)
-    // Offset: 0x16FE660
+    // Offset: 0x1400D1C
     static ::Array<int>* WeldVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, float neighborRadius);
     // static UnityEngine.ProBuilder.FaceRebuildData ExplodeVertex(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.WingedEdge,System.Int32>> edgeAndCommonIndex, System.Single distance, out System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> appendedVertices)
-    // Offset: 0x16FF204
-    static UnityEngine::ProBuilder::FaceRebuildData* ExplodeVertex(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>* edgeAndCommonIndex, float distance, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*& appendedVertices);
+    // Offset: 0x14018C0
+    static UnityEngine::ProBuilder::FaceRebuildData* ExplodeVertex(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>* edgeAndCommonIndex, float distance, ByRef<System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*> appendedVertices);
     // static private UnityEngine.ProBuilder.Edge AlignEdgeWithDirection(UnityEngine.ProBuilder.EdgeLookup edge, System.Int32 commonIndex)
-    // Offset: 0x16FFBE8
+    // Offset: 0x14022A4
     static UnityEngine::ProBuilder::Edge AlignEdgeWithDirection(UnityEngine::ProBuilder::EdgeLookup edge, int commonIndex);
   }; // UnityEngine.ProBuilder.MeshOperations.VertexEditing
   #pragma pack(pop)
@@ -119,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::VertexEditing::ExplodeVertex
 // Il2CppName: ExplodeVertex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>*, float, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*&)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::ExplodeVertex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>*, float, ByRef<System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*>)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::ExplodeVertex)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")})->byval_arg;
     static auto* edgeAndCommonIndex = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge"), ::il2cpp_utils::GetClassFromName("System", "Int32")})})->byval_arg;

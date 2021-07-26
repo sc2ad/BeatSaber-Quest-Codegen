@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.BaseMasterServerMultipartMessage
 #include "MasterServer/BaseMasterServerMultipartMessage.hpp"
 // Including type: MasterServer.IUserMessage
@@ -36,10 +37,10 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.UserMultipartMessage> get_pool()
-    // Offset: 0x152AF7C
+    // Offset: 0x21375E0
     static GlobalNamespace::PacketPool_1<MasterServer::UserMultipartMessage*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x152B020
+    // Offset: 0x2137684
     // Implemented from: MasterServer.BaseMasterServerMultipartMessage
     // Base method: System.Void BaseMasterServerMultipartMessage::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
@@ -50,7 +51,7 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserMultipartMessage*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x152AFC4
+    // Offset: 0x2137628
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();

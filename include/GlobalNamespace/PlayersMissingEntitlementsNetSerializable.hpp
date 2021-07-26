@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,23 +56,23 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
     void _set__playersWithoutEntitlements(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.Collections.Generic.List`1<System.String> get_playersWithoutEntitlements()
-    // Offset: 0x23291A4
+    // Offset: 0x23DC588
     System::Collections::Generic::List_1<::Il2CppString*>* get_playersWithoutEntitlements();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> playersWithoutEntitlements)
-    // Offset: 0x23291B4
+    // Offset: 0x23DC598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersMissingEntitlementsNetSerializable* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* playersWithoutEntitlements) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>(playersWithoutEntitlements)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x23291E0
+    // Offset: 0x23DC5C4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x23292F8
+    // Offset: 0x23DC6DC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x23291AC
+    // Offset: 0x23DC590
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

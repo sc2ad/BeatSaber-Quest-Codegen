@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IScoreSyncStateManager`5
 #include "GlobalNamespace/IScoreSyncStateManager_5.hpp"
 // Including type: StandardScoreSyncState

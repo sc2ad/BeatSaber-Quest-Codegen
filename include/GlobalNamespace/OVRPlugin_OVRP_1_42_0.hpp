@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -29,11 +30,11 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F3C9C
+    // Offset: 0x12F726C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetAdaptiveGpuPerformanceScale2(ref System.Single adaptiveGpuPerformanceScale)
-    // Offset: 0x15F3C1C
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetAdaptiveGpuPerformanceScale2(float& adaptiveGpuPerformanceScale);
+    // Offset: 0x12F71EC
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetAdaptiveGpuPerformanceScale2(ByRef<float> adaptiveGpuPerformanceScale);
   }; // OVRPlugin/OVRP_1_42_0
   #pragma pack(pop)
 }
@@ -51,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2
 // Il2CppName: ovrp_GetAdaptiveGpuPerformanceScale2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(float&)>(&GlobalNamespace::OVRPlugin::OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<float>)>(&GlobalNamespace::OVRPlugin::OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2)> {
   static const MethodInfo* get() {
     static auto* adaptiveGpuPerformanceScale = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_42_0*), "ovrp_GetAdaptiveGpuPerformanceScale2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{adaptiveGpuPerformanceScale});

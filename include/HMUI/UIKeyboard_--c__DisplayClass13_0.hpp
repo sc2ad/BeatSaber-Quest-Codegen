@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.UIKeyboard
 #include "HMUI/UIKeyboard.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace HMUI {
     // Set instance field: public HMUI.UIKeyboard <>4__this
     void _set_$$4__this(HMUI::UIKeyboard* value);
     // System.Void <Awake>b__2()
-    // Offset: 0x12A3F0C
+    // Offset: 0x1079648
     void $Awake$b__2();
     // public System.Void .ctor()
-    // Offset: 0x12A3C04
+    // Offset: 0x1079340
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

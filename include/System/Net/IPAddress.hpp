@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Sockets.AddressFamily
 #include "System/Net/Sockets/AddressFamily.hpp"
 // Including type: System.Int64
@@ -140,85 +141,85 @@ namespace System::Net {
     // Set instance field: private System.Int32 m_HashCode
     void _set_m_HashCode(int value);
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x163FF50
+    // Offset: 0x134260C
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Int64 get_ScopeId()
-    // Offset: 0x163FF58
+    // Offset: 0x1342614
     int64_t get_ScopeId();
     // public System.Boolean get_IsIPv6Multicast()
-    // Offset: 0x164059C
+    // Offset: 0x1342C58
     bool get_IsIPv6Multicast();
     // public System.Void .ctor(System.Int64 newAddress)
-    // Offset: 0x163F4C8
+    // Offset: 0x1341B84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(int64_t newAddress) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(newAddress)));
     }
     // public System.Void .ctor(System.Byte[] address, System.Int64 scopeid)
-    // Offset: 0x163F588
+    // Offset: 0x1341C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(::Array<uint8_t>* address, int64_t scopeid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(address, scopeid)));
     }
     // private System.Void .ctor(System.UInt16[] address, System.UInt32 scopeid)
-    // Offset: 0x163F760
+    // Offset: 0x1341E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(::Array<uint16_t>* address, uint scopeid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(address, scopeid)));
     }
     // public System.Void .ctor(System.Byte[] address)
-    // Offset: 0x163F7EC
+    // Offset: 0x1341EA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(::Array<uint8_t>* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(address)));
     }
     // System.Void .ctor(System.Int32 newAddress)
-    // Offset: 0x163F9CC
+    // Offset: 0x1342088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddress* New_ctor(int newAddress) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddress*, creationType>(newAddress)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1640914
+    // Offset: 0x1342FD0
     static void _cctor();
     // static public System.Boolean TryParse(System.String ipString, out System.Net.IPAddress address)
-    // Offset: 0x1639EAC
-    static bool TryParse(::Il2CppString* ipString, System::Net::IPAddress*& address);
+    // Offset: 0x133C568
+    static bool TryParse(::Il2CppString* ipString, ByRef<System::Net::IPAddress*> address);
     // static public System.Net.IPAddress Parse(System.String ipString)
-    // Offset: 0x163FDA0
+    // Offset: 0x134245C
     static System::Net::IPAddress* Parse(::Il2CppString* ipString);
     // static private System.Net.IPAddress InternalParse(System.String ipString, System.Boolean tryParse)
-    // Offset: 0x163FA4C
+    // Offset: 0x1342108
     static System::Net::IPAddress* InternalParse(::Il2CppString* ipString, bool tryParse);
     // public System.Byte[] GetAddressBytes()
-    // Offset: 0x163FE08
+    // Offset: 0x13424C4
     ::Array<uint8_t>* GetAddressBytes();
     // static public System.Boolean IsLoopback(System.Net.IPAddress address)
-    // Offset: 0x164048C
+    // Offset: 0x1342B48
     static bool IsLoopback(System::Net::IPAddress* address);
     // System.Boolean Equals(System.Object comparandObj, System.Boolean compareScopeId)
-    // Offset: 0x16405EC
+    // Offset: 0x1342CA8
     bool Equals(::Il2CppObject* comparandObj, bool compareScopeId);
     // public System.Net.IPAddress MapToIPv6()
-    // Offset: 0x1640830
+    // Offset: 0x1342EEC
     System::Net::IPAddress* MapToIPv6();
     // public override System.String ToString()
-    // Offset: 0x163FFDC
+    // Offset: 0x1342698
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x164072C
+    // Offset: 0x1342DE8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1640734
+    // Offset: 0x1342DF0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::IPAddress::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::IPAddress*&)>(&System::Net::IPAddress::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Net::IPAddress*>)>(&System::Net::IPAddress::TryParse)> {
   static const MethodInfo* get() {
     static auto* ipString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->this_arg;

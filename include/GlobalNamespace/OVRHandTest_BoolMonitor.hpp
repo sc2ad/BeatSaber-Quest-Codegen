@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRHandTest
 #include "GlobalNamespace/OVRHandTest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -106,18 +107,18 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single m_displayTimer
     void _set_m_displayTimer(float value);
     // public System.Void .ctor(System.String name, OVRHandTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
-    // Offset: 0x14E21C0
+    // Offset: 0x1226C5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest::BoolMonitor* New_ctor(::Il2CppString* name, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* generator, float displayTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHandTest::BoolMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest::BoolMonitor*, creationType>(name, generator, displayTimeout)));
     }
     // public System.Void Update()
-    // Offset: 0x14E2CE4
+    // Offset: 0x1227780
     void Update();
     // public System.Void AppendToStringBuilder(ref System.Text.StringBuilder sb)
-    // Offset: 0x14E2D88
-    void AppendToStringBuilder(System::Text::StringBuilder*& sb);
+    // Offset: 0x1227824
+    void AppendToStringBuilder(ByRef<System::Text::StringBuilder*> sb);
   }; // OVRHandTest/BoolMonitor
   #pragma pack(pop)
   static check_size<sizeof(OVRHandTest::BoolMonitor), 40 + sizeof(float)> __GlobalNamespace_OVRHandTest_BoolMonitorSizeCheck;
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::AppendToStringBuilder
 // Il2CppName: AppendToStringBuilder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::BoolMonitor::*)(System::Text::StringBuilder*&)>(&GlobalNamespace::OVRHandTest::BoolMonitor::AppendToStringBuilder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::BoolMonitor::*)(ByRef<System::Text::StringBuilder*>)>(&GlobalNamespace::OVRHandTest::BoolMonitor::AppendToStringBuilder)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});

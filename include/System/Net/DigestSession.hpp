@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,49 +101,49 @@ namespace System::Net {
     // Set instance field: private System.String _cnonce
     void _set__cnonce(::Il2CppString* value);
     // public System.String get_Algorithm()
-    // Offset: 0x169E99C
+    // Offset: 0x13A1058
     ::Il2CppString* get_Algorithm();
     // public System.String get_Realm()
-    // Offset: 0x169E9B4
+    // Offset: 0x13A1070
     ::Il2CppString* get_Realm();
     // public System.String get_Nonce()
-    // Offset: 0x169DA30
+    // Offset: 0x13A00EC
     ::Il2CppString* get_Nonce();
     // public System.String get_Opaque()
-    // Offset: 0x169E9CC
+    // Offset: 0x13A1088
     ::Il2CppString* get_Opaque();
     // public System.String get_QOP()
-    // Offset: 0x169E9E4
+    // Offset: 0x13A10A0
     ::Il2CppString* get_QOP();
     // public System.String get_CNonce()
-    // Offset: 0x169E9FC
+    // Offset: 0x13A10B8
     ::Il2CppString* get_CNonce();
     // public System.DateTime get_LastUse()
-    // Offset: 0x169EF94
+    // Offset: 0x13A1650
     System::DateTime get_LastUse();
     // static private System.Void .cctor()
-    // Offset: 0x169E944
+    // Offset: 0x13A1000
     static void _cctor();
     // public System.Boolean Parse(System.String challenge)
-    // Offset: 0x169D954
+    // Offset: 0x13A0010
     bool Parse(::Il2CppString* challenge);
     // private System.String HashToHexString(System.String toBeHashed)
-    // Offset: 0x169EAF8
+    // Offset: 0x13A11B4
     ::Il2CppString* HashToHexString(::Il2CppString* toBeHashed);
     // private System.String HA1(System.String username, System.String password)
-    // Offset: 0x169EC50
+    // Offset: 0x13A130C
     ::Il2CppString* HA1(::Il2CppString* username, ::Il2CppString* password);
     // private System.String HA2(System.Net.HttpWebRequest webRequest)
-    // Offset: 0x169ED70
+    // Offset: 0x13A142C
     ::Il2CppString* HA2(System::Net::HttpWebRequest* webRequest);
     // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
-    // Offset: 0x169EE44
+    // Offset: 0x13A1500
     ::Il2CppString* Response(::Il2CppString* username, ::Il2CppString* password, System::Net::HttpWebRequest* webRequest);
     // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x169DA48
+    // Offset: 0x13A0104
     System::Net::Authorization* Authenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x169D8D4
+    // Offset: 0x139FF90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

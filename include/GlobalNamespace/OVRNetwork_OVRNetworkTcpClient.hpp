@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRNetwork
 #include "GlobalNamespace/OVRNetwork.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -119,28 +120,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Threading.ManualResetEvent readyReceiveDataEvent
     void _set_readyReceiveDataEvent(System::Threading::ManualResetEvent* value);
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0x12E7178
+    // Offset: 0x10A90E8
     GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0x12E71A4
+    // Offset: 0x10A9114
     bool get_Connected();
     // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0x12E71B8
+    // Offset: 0x10A9128
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0x12E730C
+    // Offset: 0x10A927C
     void ConnectCallback(System::IAsyncResult* ar);
     // public System.Void Disconnect()
-    // Offset: 0x12E760C
+    // Offset: 0x10A957C
     void Disconnect();
     // public System.Void Tick()
-    // Offset: 0x12E7860
+    // Offset: 0x10A97D0
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0x12E7A64
+    // Offset: 0x10A99D4
     void OnReadDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x12E7F48
+    // Offset: 0x10A9EB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

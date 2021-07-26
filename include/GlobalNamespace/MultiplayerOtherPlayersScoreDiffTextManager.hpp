@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: CoreGameHUDController
@@ -38,42 +39,42 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c
     class $$c;
-    // [InjectAttribute] Offset: 0xE0862C
+    // [InjectAttribute] Offset: 0xEB5248
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0863C
+    // [InjectAttribute] Offset: 0xEB5258
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0864C
+    // [InjectAttribute] Offset: 0xEB5268
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0865C
+    // [InjectAttribute] Offset: 0xEB5278
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0866C
+    // [InjectAttribute] Offset: 0xEB5288
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0867C
+    // [InjectAttribute] Offset: 0xEB5298
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -125,25 +126,25 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _timeToNextUpdate
     void _set__timeToNextUpdate(float value);
     // protected System.Void Start()
-    // Offset: 0x23DD2C4
+    // Offset: 0x1E7FD88
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x23DD38C
+    // Offset: 0x1E7FE50
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x23DD468
+    // Offset: 0x1E7FF2C
     void Update();
     // private System.Void InitLeftRightPositions()
-    // Offset: 0x23DDBF0
+    // Offset: 0x1E806B4
     void InitLeftRightPositions();
     // private System.Void HideAll()
-    // Offset: 0x23DD840
+    // Offset: 0x1E80304
     void HideAll();
     // private System.Void HandleStateChanged(MultiplayerController/State newState)
-    // Offset: 0x23DE0F4
+    // Offset: 0x1E80BB8
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State newState);
     // public System.Void .ctor()
-    // Offset: 0x23DE214
+    // Offset: 0x1E80CD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

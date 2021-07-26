@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.StringWriter
 #include "System/IO/StringWriter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,7 +41,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     int get_MaxLineLength();
     // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    // Offset: 0x1717F70
+    // Offset: 0x141B62C
     void WriteMessageLine(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.String message, params System.Object[] args)
     void WriteMessageLine(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -81,7 +82,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     void WriteCollectionElements(System::Collections::IEnumerable* collection, int64_t start, int max);
     // protected System.Void .ctor()
-    // Offset: 0x17190B8
+    // Offset: 0x141C774
     // Implemented from: System.IO.StringWriter
     // Base method: System.Void StringWriter::.ctor()
     // Base method: System.Void TextWriter::.ctor()

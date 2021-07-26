@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.UnixIPInterfaceProperties
 #include "System/Net/NetworkInformation/UnixIPInterfaceProperties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,17 +45,17 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: LinuxIPInterfaceProperties
     LinuxIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.LinuxNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1461064
+    // Offset: 0x11D20C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::LinuxNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)
-    // Offset: 0x146111C
+    // Offset: 0x11D217C
     System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::Il2CppString* iface);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x14615A4
+    // Offset: 0x11D2604
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();

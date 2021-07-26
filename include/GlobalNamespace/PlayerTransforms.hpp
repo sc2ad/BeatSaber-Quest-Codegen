@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -193,52 +194,52 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _useOriginParentTransformForPseudoLocalCalculations
     void _set__useOriginParentTransformForPseudoLocalCalculations(bool value);
     // public UnityEngine.Vector3 get_headWorldPos()
-    // Offset: 0x11078EC
+    // Offset: 0x1F59900
     UnityEngine::Vector3 get_headWorldPos();
     // public UnityEngine.Quaternion get_headWorldRot()
-    // Offset: 0x11078F8
+    // Offset: 0x1F5990C
     UnityEngine::Quaternion get_headWorldRot();
     // public UnityEngine.Vector3 get_headPseudoLocalPos()
-    // Offset: 0x1107904
+    // Offset: 0x1F59918
     UnityEngine::Vector3 get_headPseudoLocalPos();
     // public UnityEngine.Quaternion get_headPseudoLocalRot()
-    // Offset: 0x1107910
+    // Offset: 0x1F59924
     UnityEngine::Quaternion get_headPseudoLocalRot();
     // public UnityEngine.Vector3 get_leftHandPseudoLocalPos()
-    // Offset: 0x110791C
+    // Offset: 0x1F59930
     UnityEngine::Vector3 get_leftHandPseudoLocalPos();
     // public UnityEngine.Quaternion get_leftHandPseudoLocalRot()
-    // Offset: 0x1107928
+    // Offset: 0x1F5993C
     UnityEngine::Quaternion get_leftHandPseudoLocalRot();
     // public UnityEngine.Vector3 get_rightHandPseudoLocalPos()
-    // Offset: 0x1107934
+    // Offset: 0x1F59948
     UnityEngine::Vector3 get_rightHandPseudoLocalPos();
     // public UnityEngine.Quaternion get_rightHandPseudoLocalRot()
-    // Offset: 0x1107940
+    // Offset: 0x1F59954
     UnityEngine::Quaternion get_rightHandPseudoLocalRot();
     // protected System.Void Awake()
-    // Offset: 0x110794C
+    // Offset: 0x1F59960
     void Awake();
     // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
-    // Offset: 0x11079E0
+    // Offset: 0x1F599F4
     void OverrideHeadPos(UnityEngine::Vector3 pos);
     // protected System.Void Update()
-    // Offset: 0x11079FC
+    // Offset: 0x1F59A10
     void Update();
     // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
-    // Offset: 0x1107BD8
+    // Offset: 0x1F59BEC
     float MoveTowardsHead(float start, float end, UnityEngine::Quaternion noteInverseWorldRotation, float t);
     // public System.Single GetZPosOffsetByHeadPosAtTime(System.Single start, System.Single end, System.Single t)
-    // Offset: 0x1107D88
+    // Offset: 0x1F59D9C
     float GetZPosOffsetByHeadPosAtTime(float start, float end, float t);
     // private System.Single GetZPos(System.Single start, System.Single end, System.Single headOffsetZ, System.Single t)
-    // Offset: 0x1107CE8
+    // Offset: 0x1F59CFC
     float GetZPos(float start, float end, float headOffsetZ, float t);
     // public System.Single HeadOffsetZ(UnityEngine.Quaternion noteInverseWorldRotation)
-    // Offset: 0x1107C28
+    // Offset: 0x1F59C3C
     float HeadOffsetZ(UnityEngine::Quaternion noteInverseWorldRotation);
     // public System.Void .ctor()
-    // Offset: 0x1107D94
+    // Offset: 0x1F59DA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

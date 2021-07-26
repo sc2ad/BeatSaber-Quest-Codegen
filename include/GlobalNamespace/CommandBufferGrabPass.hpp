@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CommandBufferGOCore
 #include "GlobalNamespace/CommandBufferGOCore.hpp"
 // Including type: UnityEngine.Rendering.CameraEvent
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Rendering.CameraEvent _cameraEvent
     void _set__cameraEvent(UnityEngine::Rendering::CameraEvent value);
     // public System.Void .ctor()
-    // Offset: 0x233DE48
+    // Offset: 0x1DC4288
     // Implemented from: CommandBufferGOCore
     // Base method: System.Void CommandBufferGOCore::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -86,22 +87,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferGrabPass*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x233DEA8
+    // Offset: 0x1DC42E8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override UnityEngine.Rendering.CommandBuffer CreateCommandBuffer(UnityEngine.Camera camera)
-    // Offset: 0x233DBFC
+    // Offset: 0x1DC403C
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CommandBuffer CommandBufferGOCore::CreateCommandBuffer(UnityEngine.Camera camera)
     UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(UnityEngine::Camera* camera);
     // protected override System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CamerasDict()
-    // Offset: 0x233DDD8
+    // Offset: 0x1DC4218
     // Implemented from: CommandBufferGOCore
     // Base method: System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CommandBufferGOCore::CamerasDict()
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected override UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
-    // Offset: 0x233DE40
+    // Offset: 0x1DC4280
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CameraEvent CommandBufferGOCore::CommandBufferCameraEvent()
     UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,10 +62,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Button _button
     void _set__button(UnityEngine::UI::Button* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x120EF78
+    // Offset: 0x203B8D0
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x120F014
+    // Offset: 0x203B96C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

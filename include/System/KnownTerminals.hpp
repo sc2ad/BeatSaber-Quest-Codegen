@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -16,13 +17,13 @@ namespace System {
     // Creating value type constructor for type: KnownTerminals
     KnownTerminals() noexcept {}
     // static public System.Byte[] get_linux()
-    // Offset: 0x17FAE2C
+    // Offset: 0x14CB230
     static ::Array<uint8_t>* get_linux();
     // static public System.Byte[] get_xterm()
-    // Offset: 0x17FAE98
+    // Offset: 0x14CB29C
     static ::Array<uint8_t>* get_xterm();
     // static public System.Byte[] get_ansi()
-    // Offset: 0x17FAF04
+    // Offset: 0x14CB308
     static ::Array<uint8_t>* get_ansi();
   }; // System.KnownTerminals
   #pragma pack(pop)

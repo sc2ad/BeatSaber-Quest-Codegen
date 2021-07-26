@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -53,10 +54,10 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Set static field: static private readonly Org.BouncyCastle.Asn1.CryptoPro.Gost3410ParamSetParameters cryptoProXchA
     static void _set_cryptoProXchA(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
     // static private System.Void .cctor()
-    // Offset: 0x16E56D8
+    // Offset: 0x13E7D94
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410ParamSetParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x16E5D7C
+    // Offset: 0x13E8438
     static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Asn1.CryptoPro.Gost3410NamedParameters
   #pragma pack(pop)

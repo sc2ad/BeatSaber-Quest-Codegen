@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,16 +59,16 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.UI.Toggle _toggle
     void _set__toggle(UnityEngine::UI::Toggle* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x107D528
+    // Offset: 0x1EFEE24
     UnityEngine::UI::Toggle* get_toggle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x107D530
+    // Offset: 0x1EFEE2C
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x107D574
+    // Offset: 0x1EFEE70
     void set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x107D618
+    // Offset: 0x1EFEF14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

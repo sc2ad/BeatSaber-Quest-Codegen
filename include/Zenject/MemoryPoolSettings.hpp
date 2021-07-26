@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolExpandMethods
 #include "Zenject/PoolExpandMethods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,17 +57,17 @@ namespace Zenject {
     // Set instance field: public Zenject.PoolExpandMethods ExpandMethod
     void _set_ExpandMethod(Zenject::PoolExpandMethods value);
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 maxSize, Zenject.PoolExpandMethods expandMethod)
-    // Offset: 0x16C4EC4
+    // Offset: 0x13C7580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolSettings* New_ctor(int initialSize, int maxSize, Zenject::PoolExpandMethods expandMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>(initialSize, maxSize, expandMethod)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16C4F04
+    // Offset: 0x13C75C0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x16C4E90
+    // Offset: 0x13C754C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Zenject.IInstaller
@@ -48,22 +49,22 @@ namespace Zenject {
     // Set instance field: private Zenject.DiContainer <Container>k__BackingField
     void _set_$Container$k__BackingField(Zenject::DiContainer* value);
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x16C56C0
+    // Offset: 0x13C7D7C
     Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x16C56C8
+    // Offset: 0x13C7D84
     void set_Container(Zenject::DiContainer* value);
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x16C56D0
+    // Offset: 0x13C7D8C
     bool get_IsEnabled();
     // public System.Void Start()
-    // Offset: 0x16C56D8
+    // Offset: 0x13C7D94
     void Start();
     // public System.Void InstallBindings()
-    // Offset: 0x16C56DC
+    // Offset: 0x13C7D98
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x16C56B8
+    // Offset: 0x13C7D74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

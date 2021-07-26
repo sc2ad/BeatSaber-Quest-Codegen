@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FileCompressionHelper
 #include "GlobalNamespace/FileCompressionHelper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -73,13 +74,13 @@ namespace GlobalNamespace {
     // Set instance field: public System.Action`1<System.Boolean> finishCallback
     void _set_finishCallback(System::Action_1<bool>* value);
     // System.Void <CreateZipFromDirectoryAsync>b__0()
-    // Offset: 0x12149CC
+    // Offset: 0x2041324
     void $CreateZipFromDirectoryAsync$b__0();
     // System.Void <CreateZipFromDirectoryAsync>b__1()
-    // Offset: 0x12149D8
+    // Offset: 0x2041330
     void $CreateZipFromDirectoryAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x12145A4
+    // Offset: 0x2040EFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

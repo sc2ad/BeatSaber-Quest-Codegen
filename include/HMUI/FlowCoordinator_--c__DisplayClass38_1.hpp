@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.FlowCoordinator
 #include "HMUI/FlowCoordinator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,10 +51,10 @@ namespace HMUI {
     // Set instance field: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1
     void _set_CS$$$8__locals1(HMUI::FlowCoordinator::$$c__DisplayClass38_0* value);
     // System.Void <PresentViewController>b__0()
-    // Offset: 0x130B33C
+    // Offset: 0x10CD2AC
     void $PresentViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x130A460
+    // Offset: 0x10CC3D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

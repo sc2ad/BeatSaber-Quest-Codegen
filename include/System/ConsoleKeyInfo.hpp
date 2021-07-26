@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.ConsoleKey
@@ -63,13 +64,13 @@ namespace System {
     // Set instance field: private System.ConsoleModifiers _mods
     void _set__mods(System::ConsoleModifiers value);
     // public System.Char get_KeyChar()
-    // Offset: 0xEEB3C0
+    // Offset: 0xD7F378
     ::Il2CppChar get_KeyChar();
     // public System.ConsoleKey get_Key()
-    // Offset: 0xEEB3C8
+    // Offset: 0xD7F380
     System::ConsoleKey get_Key();
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
-    // Offset: 0xEEB3AC
+    // Offset: 0xD7F364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleKeyInfo::.ctor");
@@ -77,15 +78,15 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, keyChar, key, shift, alt, control);
     }
     // public System.Boolean Equals(System.ConsoleKeyInfo obj)
-    // Offset: 0xEEB3D8
+    // Offset: 0xD7F390
     bool Equals(System::ConsoleKeyInfo obj);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0xEEB3D0
+    // Offset: 0xD7F388
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEEB40C
+    // Offset: 0xD7F3C4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

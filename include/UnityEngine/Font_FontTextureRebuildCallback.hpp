@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Font
 #include "UnityEngine/Font.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: FontTextureRebuildCallback
     FontTextureRebuildCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23BCD3C
+    // Offset: 0x1E34334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Font::FontTextureRebuildCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Font::FontTextureRebuildCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Font::FontTextureRebuildCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x23BCA90
+    // Offset: 0x1E34088
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23BCD4C
+    // Offset: 0x1E34344
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23BCD78
+    // Offset: 0x1E34370
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Font/UnityEngine.FontTextureRebuildCallback
   #pragma pack(pop)

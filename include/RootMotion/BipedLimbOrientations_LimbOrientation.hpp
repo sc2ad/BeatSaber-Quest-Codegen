@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.BipedLimbOrientations
 #include "RootMotion/BipedLimbOrientations.hpp"
 // Including type: UnityEngine.Vector3
@@ -54,7 +55,7 @@ namespace RootMotion {
     // Set instance field: public UnityEngine.Vector3 lastBoneLeftAxis
     void _set_lastBoneLeftAxis(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 upperBoneForwardAxis, UnityEngine.Vector3 lowerBoneForwardAxis, UnityEngine.Vector3 lastBoneLeftAxis)
-    // Offset: 0x1CD61CC
+    // Offset: 0x1872F6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations::LimbOrientation* New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::LimbOrientation::.ctor");

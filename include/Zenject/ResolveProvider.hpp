@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IProvider
 #include "Zenject/IProvider.hpp"
 // Including type: Zenject.InjectSources
@@ -113,26 +114,26 @@ namespace Zenject {
     // Set instance field: private readonly System.Boolean _matchAll
     void _set__matchAll(bool value);
     // public System.Boolean get_IsCached()
-    // Offset: 0x16CBB08
+    // Offset: 0x13CE1C4
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x16CBB10
+    // Offset: 0x13CE1CC
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type contractType, Zenject.DiContainer container, System.Object identifier, System.Boolean isOptional, Zenject.InjectSources source, System.Boolean matchAll)
-    // Offset: 0x16CBA98
+    // Offset: 0x13CE154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResolveProvider* New_ctor(System::Type* contractType, Zenject::DiContainer* container, ::Il2CppObject* identifier, bool isOptional, Zenject::InjectSources source, bool matchAll) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ResolveProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveProvider*, creationType>(contractType, container, identifier, isOptional, source, matchAll)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x16CBB18
+    // Offset: 0x13CE1D4
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x16CBB20
-    void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
+    // Offset: 0x13CE1DC
+    void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private Zenject.InjectContext GetSubContext(Zenject.InjectContext parent)
-    // Offset: 0x16CBC60
+    // Offset: 0x13CE31C
     Zenject::InjectContext* GetSubContext(Zenject::InjectContext* parent);
   }; // Zenject.ResolveProvider
   #pragma pack(pop)
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Zenject::ResolveProvider::GetAllInstancesWithInjectSplit
 // Il2CppName: GetAllInstancesWithInjectSplit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ResolveProvider::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::ResolveProvider::GetAllInstancesWithInjectSplit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ResolveProvider::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, ByRef<System::Action*>, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::ResolveProvider::GetAllInstancesWithInjectSplit)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;

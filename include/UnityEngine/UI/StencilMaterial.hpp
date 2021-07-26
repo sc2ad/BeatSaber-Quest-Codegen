@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -47,22 +48,22 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/UnityEngine.UI.MatEntry> m_List
     static void _set_m_List(System::Collections::Generic::List_1<UnityEngine::UI::StencilMaterial::MatEntry*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23711F8
+    // Offset: 0x1DF8638
     static void _cctor();
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID)
-    // Offset: 0x2370650
+    // Offset: 0x1DF7A90
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x2370658
+    // Offset: 0x1DF7A98
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask, System.Int32 readMask, System.Int32 writeMask)
-    // Offset: 0x23706F4
+    // Offset: 0x1DF7B34
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask, int readMask, int writeMask);
     // static public System.Void Remove(UnityEngine.Material customMat)
-    // Offset: 0x2370F28
+    // Offset: 0x1DF8368
     static void Remove(UnityEngine::Material* customMat);
     // static public System.Void ClearAll()
-    // Offset: 0x23710E0
+    // Offset: 0x1DF8520
     static void ClearAll();
   }; // UnityEngine.UI.StencilMaterial
   #pragma pack(pop)

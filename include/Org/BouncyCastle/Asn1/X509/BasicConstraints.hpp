@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,25 +56,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.DerInteger pathLenConstraint
     void _set_pathLenConstraint(Org::BouncyCastle::Asn1::DerInteger* value);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19D77FC
+    // Offset: 0x168E8F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicConstraints* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::BasicConstraints::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicConstraints*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.BasicConstraints GetInstance(System.Object obj)
-    // Offset: 0x19D75E4
+    // Offset: 0x168E6D8
     static Org::BouncyCastle::Asn1::X509::BasicConstraints* GetInstance(::Il2CppObject* obj);
     // public System.Boolean IsCA()
-    // Offset: 0x19D79B0
+    // Offset: 0x168EAA4
     bool IsCA();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19D79C4
+    // Offset: 0x168EAB8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x19D7AF0
+    // Offset: 0x168EBE4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

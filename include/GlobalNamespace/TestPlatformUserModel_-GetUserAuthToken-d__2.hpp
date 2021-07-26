@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TestPlatformUserModel
 #include "GlobalNamespace/TestPlatformUserModel.hpp"
 // Including type: System.ValueType
@@ -67,10 +68,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<PlatformUserAuthTokenData> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserAuthTokenData*> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFC54
+    // Offset: 0xF7B8C0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFC5C
+    // Offset: 0xF7B8C8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformUserModel/<GetUserAuthToken>d__2
   // WARNING Not writing size check since size may be invalid!

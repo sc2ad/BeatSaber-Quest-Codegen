@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BtsResultsEnvironmentController
 #include "GlobalNamespace/BtsResultsEnvironmentController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -103,16 +104,16 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.AddressableAssets.AssetReference _btsCharacterAssetReference
     void _set__btsCharacterAssetReference(UnityEngine::AddressableAssets::AssetReference* value);
     // public System.String get_name()
-    // Offset: 0x109FDDC
+    // Offset: 0x1EF8284
     ::Il2CppString* get_name();
     // public System.Void Clean()
-    // Offset: 0x109FB2C
+    // Offset: 0x1EF7FD4
     void Clean();
     // public System.Void SetCharacter(UnityEngine.AddressableAssets.AssetReference assetReference, BTSCharacter btsCharacter, System.Boolean alternativeMaterial)
-    // Offset: 0x109F6A8
+    // Offset: 0x1EF7B50
     void SetCharacter(UnityEngine::AddressableAssets::AssetReference* assetReference, GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
     // public System.Void .ctor()
-    // Offset: 0x109FDE4
+    // Offset: 0x1EF828C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,21 +44,21 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kBakedLightTexturePackingShaderName();
     // Set static field: static private System.String kBakedLightTexturePackingShaderName
     static void _set_kBakedLightTexturePackingShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE11DE4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEA00
     // Get static field: static private readonly System.Int32[] _texPropertyIds
     static ::Array<int>* _get__texPropertyIds();
     // Set static field: static private readonly System.Int32[] _texPropertyIds
     static void _set__texPropertyIds(::Array<int>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE11DF4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEBEA10
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
     // static private System.Void .cctor()
-    // Offset: 0x11831EC
+    // Offset: 0x1FC8D24
     static void _cctor();
     // static public UnityEngine.RenderTexture PackTextures(System.Collections.Generic.IReadOnlyList`1<UnityEngine.RenderTexture> textures, UnityEngine.RenderTextureDescriptor descriptor)
-    // Offset: 0x1182E88
+    // Offset: 0x1FC89C0
     static UnityEngine::RenderTexture* PackTextures(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>* textures, UnityEngine::RenderTextureDescriptor descriptor);
   }; // BakedLightTexturePacking
   #pragma pack(pop)

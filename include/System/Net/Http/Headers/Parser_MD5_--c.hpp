@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5
 #include "System/Net/Http/Headers/Parser_MD5.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -27,13 +28,13 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c <>9
     static void _set_$$9(System::Net::Http::Headers::Parser::MD5::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x156A910
+    // Offset: 0x126EEE0
     static void _cctor();
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x156A97C
+    // Offset: 0x126EF4C
     ::Il2CppString* $_cctor$b__2_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x156A974
+    // Offset: 0x126EF44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

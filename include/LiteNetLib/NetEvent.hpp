@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Sockets.SocketError
 #include "System/Net/Sockets/SocketError.hpp"
 // Including type: LiteNetLib.DisconnectReason
@@ -236,7 +237,7 @@ namespace LiteNetLib {
     // Set instance field: public readonly LiteNetLib.NetPacketReader DataReader
     void _set_DataReader(LiteNetLib::NetPacketReader* value);
     // public System.Void .ctor(LiteNetLib.NetManager manager)
-    // Offset: 0x1BB2418
+    // Offset: 0x17A57B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEvent* New_ctor(LiteNetLib::NetManager* manager) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetEvent::.ctor");

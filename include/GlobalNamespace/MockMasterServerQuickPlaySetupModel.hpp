@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IMasterServerQuickPlaySetupModel
 #include "GlobalNamespace/IMasterServerQuickPlaySetupModel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockMasterServerQuickPlaySetupModel : public ::Il2CppObject/*, public GlobalNamespace::IMasterServerQuickPlaySetupModel*/ {
     public:
-    // [InjectAttribute] Offset: 0xE07B70
+    // [InjectAttribute] Offset: 0xEB478C
     // private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
     // Size: 0x8
     // Offset: 0x10
@@ -59,10 +60,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
     void _set__masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x113C2DC
+    // Offset: 0x1F6CCF0
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x113C350
+    // Offset: 0x1F6CD64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

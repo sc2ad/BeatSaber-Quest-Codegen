@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Version
 #include "System/Version.hpp"
 // Including type: System.ValueType
@@ -86,16 +87,16 @@ namespace System {
     // Set instance field: System.Boolean m_canThrow
     void _set_m_canThrow(bool value);
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0xF040EC
+    // Offset: 0xD91A78
     void Init(::Il2CppString* argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure)
-    // Offset: 0xF040FC
+    // Offset: 0xD91A88
     void SetFailure(System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure, System.String argument)
-    // Offset: 0xF04104
+    // Offset: 0xD91A90
     void SetFailure(System::Version::ParseFailureKind failure, ::Il2CppString* argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0xF0410C
+    // Offset: 0xD91A98
     System::Exception* GetVersionParseException();
   }; // System.Version/System.VersionResult
   #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,14 +40,14 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07A88
+    // [InjectAttribute] Offset: 0xEB46A4
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07A98
+    // [InjectAttribute] Offset: 0xEB46B4
     // private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
     // Size: 0x8
     // Offset: 0x30
@@ -68,7 +69,7 @@ namespace GlobalNamespace {
     // Set instance field: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
     void _set__beatmapLoudnessModel(DataModels::Levels::PerceivedLoudnessPerLevelModel* value);
     // public System.Void .ctor()
-    // Offset: 0x23D8150
+    // Offset: 0x1E7AC14
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x23D7C30
+    // Offset: 0x1E7A6F4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

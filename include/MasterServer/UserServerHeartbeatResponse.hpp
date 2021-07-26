@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerUnreliableMessage
 #include "MasterServer/IMasterServerUnreliableMessage.hpp"
 // Including type: MasterServer.IUserServerToClientMessage
@@ -117,22 +118,22 @@ namespace MasterServer {
     // Set instance field: public MasterServer.UserServerHeartbeatResponse/MasterServer.Result result
     void _set_result(MasterServer::UserServerHeartbeatResponse::Result value);
     // static public PacketPool`1<MasterServer.UserServerHeartbeatResponse> get_pool()
-    // Offset: 0x152B1D0
+    // Offset: 0x2137834
     static GlobalNamespace::PacketPool_1<MasterServer::UserServerHeartbeatResponse*>* get_pool();
     // public MasterServer.UserServerHeartbeatResponse Init(MasterServer.UserServerHeartbeatResponse/MasterServer.Result result)
-    // Offset: 0x152B218
+    // Offset: 0x213787C
     MasterServer::UserServerHeartbeatResponse* Init(MasterServer::UserServerHeartbeatResponse::Result result);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152B220
+    // Offset: 0x2137884
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152B244
+    // Offset: 0x21378A8
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x152B27C
+    // Offset: 0x21378E0
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x152B2D8
+    // Offset: 0x213793C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

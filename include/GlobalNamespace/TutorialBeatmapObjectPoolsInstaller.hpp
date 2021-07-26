@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
     // Set instance field: private NoteLineConnectionController _noteLineConnectionControllerPrefab
     void _set__noteLineConnectionControllerPrefab(GlobalNamespace::NoteLineConnectionController* value);
     // public System.Void .ctor()
-    // Offset: 0x1073674
+    // Offset: 0x1EDF148
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -90,7 +91,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialBeatmapObjectPoolsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1073534
+    // Offset: 0x1EDF008
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

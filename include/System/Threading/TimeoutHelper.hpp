@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -16,10 +17,10 @@ namespace System::Threading {
     // Creating value type constructor for type: TimeoutHelper
     TimeoutHelper() noexcept {}
     // static public System.UInt32 GetTime()
-    // Offset: 0x188D71C
+    // Offset: 0x155EB20
     static uint GetTime();
     // static public System.Int32 UpdateTimeOut(System.UInt32 startTime, System.Int32 originalWaitMillisecondsTimeout)
-    // Offset: 0x188D724
+    // Offset: 0x155EB28
     static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout);
   }; // System.Threading.TimeoutHelper
   #pragma pack(pop)

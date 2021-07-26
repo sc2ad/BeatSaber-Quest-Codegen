@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.BindingId
 #include "Zenject/BindingId.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -50,14 +51,14 @@ namespace Zenject::Internal {
     // Set instance field: public Zenject.BindingId BindingId
     void _set_BindingId(Zenject::BindingId value);
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingId bindingId)
-    // Offset: 0x1627BF0
+    // Offset: 0x132B1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookupId* New_ctor(Zenject::IProvider* provider, Zenject::BindingId bindingId) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>(provider, bindingId)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1627BE8
+    // Offset: 0x132B1B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,7 +67,7 @@ namespace Zenject::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1627C94
+    // Offset: 0x132B264
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

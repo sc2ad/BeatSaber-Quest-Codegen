@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
 // Including type: BeatmapDifficulty
@@ -77,7 +78,7 @@ namespace GlobalNamespace {
     // Set instance field: private ColorSchemeSO _colorScheme
     void _set__colorScheme(GlobalNamespace::ColorSchemeSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1024304
+    // Offset: 0x1E8EDD8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -92,7 +93,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1023C48
+    // Offset: 0x1E8E71C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

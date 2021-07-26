@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
 #include "UnityEngine/ISerializationCallbackReceiver.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,35 +27,35 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArgumentCache : public ::Il2CppObject/*, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xD81824
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E440
     // private UnityEngine.Object m_ObjectArgument
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Object* m_ObjectArgument;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD81870
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E48C
     // private System.String m_ObjectArgumentAssemblyTypeName
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_ObjectArgumentAssemblyTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xD818BC
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E4D8
     // private System.Int32 m_IntArgument
     // Size: 0x4
     // Offset: 0x20
     int m_IntArgument;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD81908
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E524
     // private System.Single m_FloatArgument
     // Size: 0x4
     // Offset: 0x24
     float m_FloatArgument;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xD81954
+    // [FormerlySerializedAsAttribute] Offset: 0xE2E570
     // private System.String m_StringArgument
     // Size: 0x8
     // Offset: 0x28
@@ -98,34 +99,34 @@ namespace UnityEngine::Events {
     // Set instance field: private System.Boolean m_BoolArgument
     void _set_m_BoolArgument(bool value);
     // public UnityEngine.Object get_unityObjectArgument()
-    // Offset: 0x1BE6684
+    // Offset: 0x17D8A1C
     UnityEngine::Object* get_unityObjectArgument();
     // public System.String get_unityObjectArgumentAssemblyTypeName()
-    // Offset: 0x1BE668C
+    // Offset: 0x17D8A24
     ::Il2CppString* get_unityObjectArgumentAssemblyTypeName();
     // public System.Int32 get_intArgument()
-    // Offset: 0x1BE6694
+    // Offset: 0x17D8A2C
     int get_intArgument();
     // public System.Single get_floatArgument()
-    // Offset: 0x1BE669C
+    // Offset: 0x17D8A34
     float get_floatArgument();
     // public System.String get_stringArgument()
-    // Offset: 0x1BE66A4
+    // Offset: 0x17D8A3C
     ::Il2CppString* get_stringArgument();
     // public System.Boolean get_boolArgument()
-    // Offset: 0x1BE66AC
+    // Offset: 0x17D8A44
     bool get_boolArgument();
     // private System.Void TidyAssemblyTypeName()
-    // Offset: 0x1BE66B4
+    // Offset: 0x17D8A4C
     void TidyAssemblyTypeName();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x1BE68C8
+    // Offset: 0x17D8C60
     void OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x1BE68CC
+    // Offset: 0x17D8C64
     void OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x1BE68D0
+    // Offset: 0x17D8C68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

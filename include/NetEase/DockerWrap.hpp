@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetEase.Docker.InitializeData
 #include "NetEase/Docker/InitializeData.hpp"
 // Including type: NetEase.Docker.LoginData
@@ -39,37 +40,37 @@ namespace NetEase {
     // Creating value type constructor for type: DockerWrap
     DockerWrap() noexcept {}
     // static public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callback)
-    // Offset: 0x100E800
+    // Offset: 0x1E61DB4
     static void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callback);
     // static public System.Void Initialize()
-    // Offset: 0x100E868
+    // Offset: 0x1E61E1C
     static void Initialize();
     // static public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callback)
-    // Offset: 0x100E8C8
+    // Offset: 0x1E61E7C
     static void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callback);
     // static public System.Void Login()
-    // Offset: 0x100E930
+    // Offset: 0x1E61EE4
     static void Login();
     // static public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callback)
-    // Offset: 0x100E990
+    // Offset: 0x1E61F44
     static void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callback);
     // static public System.Void Logout()
-    // Offset: 0x100E9F8
+    // Offset: 0x1E61FAC
     static void Logout();
     // static public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x100EA58
+    // Offset: 0x1E6200C
     static void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // static public System.Boolean WillProvideHighscore()
-    // Offset: 0x100EAEC
+    // Offset: 0x1E620A0
     static bool WillProvideHighscore();
     // static public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x100EB4C
+    // Offset: 0x1E62100
     static void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // static public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x100EBB4
+    // Offset: 0x1E62168
     static void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // static public System.Void UpdateLoop()
-    // Offset: 0x100EC2C
+    // Offset: 0x1E621E0
     static void UpdateLoop();
   }; // NetEase.DockerWrap
   #pragma pack(pop)

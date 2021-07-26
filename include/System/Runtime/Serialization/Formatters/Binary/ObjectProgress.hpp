@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE
@@ -240,19 +241,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
     void _set_pr(System::Runtime::Serialization::Formatters::Binary::ParseRecord* value);
     // static private System.Void .cctor()
-    // Offset: 0x15DE1AC
+    // Offset: 0x12E177C
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x15DDF7C
+    // Offset: 0x12E154C
     void Init();
     // System.Void ArrayCountIncrement(System.Int32 value)
-    // Offset: 0x15DE078
+    // Offset: 0x12E1648
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out System.Object outTypeInformation)
-    // Offset: 0x15DE088
-    bool GetNext(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& outBinaryTypeEnum, ::Il2CppObject*& outTypeInformation);
+    // Offset: 0x12E1658
+    bool GetNext(ByRef<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::Il2CppObject*> outTypeInformation);
     // System.Void .ctor()
-    // Offset: 0x15DDF04
+    // Offset: 0x12E14D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -295,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext
 // Il2CppName: GetNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum&, ::Il2CppObject*&)>(&System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(ByRef<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ByRef<::Il2CppObject*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
   static const MethodInfo* get() {
     static auto* outBinaryTypeEnum = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum")->this_arg;
     static auto* outTypeInformation = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;

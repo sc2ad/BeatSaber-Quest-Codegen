@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE83F4
+    // [DescriptionAttribute] Offset: 0xE96010
     // static field const value: static public Oculus.Platform.ChallengeCreationType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static Oculus::Platform::ChallengeCreationType _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static void _set_Unknown(Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0xDE842C
+    // [DescriptionAttribute] Offset: 0xE96048
     // static field const value: static public Oculus.Platform.ChallengeCreationType UserCreated
     static constexpr const int UserCreated = 1;
     // Get static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static Oculus::Platform::ChallengeCreationType _get_UserCreated();
     // Set static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static void _set_UserCreated(Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0xDE8464
+    // [DescriptionAttribute] Offset: 0xE96080
     // static field const value: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
     static constexpr const int DeveloperCreated = 2;
     // Get static field: static public Oculus.Platform.ChallengeCreationType DeveloperCreated

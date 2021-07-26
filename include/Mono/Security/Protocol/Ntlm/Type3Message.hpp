@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Protocol.Ntlm.MessageBase
 #include "Mono/Security/Protocol/Ntlm/MessageBase.hpp"
 // Including type: Mono.Security.Protocol.Ntlm.NtlmAuthLevel
@@ -123,39 +124,39 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set instance field: private System.Byte[] _nt
     void _set__nt(::Array<uint8_t>* value);
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x1DE2B00
+    // Offset: 0x19556E0
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1DE2B88
+    // Offset: 0x1955768
     void set_Password(::Il2CppString* value);
     // public System.Void set_Username(System.String value)
-    // Offset: 0x1DE2B90
+    // Offset: 0x1955770
     void set_Username(::Il2CppString* value);
     // public System.Void .ctor(Mono.Security.Protocol.Ntlm.Type2Message type2)
-    // Offset: 0x1DE2844
+    // Offset: 0x1955424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type3Message* New_ctor(Mono::Security::Protocol::Ntlm::Type2Message* type2) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type3Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type3Message*, creationType>(type2)));
     }
     // private System.String DecodeString(System.Byte[] buffer, System.Int32 offset, System.Int32 len)
-    // Offset: 0x1DE2DC0
+    // Offset: 0x19559A0
     ::Il2CppString* DecodeString(::Array<uint8_t>* buffer, int offset, int len);
     // private System.Byte[] EncodeString(System.String text)
-    // Offset: 0x1DE2E24
+    // Offset: 0x1955A04
     ::Array<uint8_t>* EncodeString(::Il2CppString* text);
     // protected override System.Void Finalize()
-    // Offset: 0x1DE2A4C
+    // Offset: 0x195562C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1DE2B98
+    // Offset: 0x1955778
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1DE2EC8
+    // Offset: 0x1955AA8
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

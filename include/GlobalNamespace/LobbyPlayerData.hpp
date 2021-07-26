@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelGameplaySetupData
 #include "GlobalNamespace/LevelGameplaySetupData.hpp"
 // Including type: ILobbyPlayerData
@@ -68,31 +69,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <isInLobby>k__BackingField
     void _set_$isInLobby$k__BackingField(bool value);
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x11BF64C
+    // Offset: 0x1FEE090
     bool get_isPartyOwner();
     // public System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x11BF654
+    // Offset: 0x1FEE098
     void set_isPartyOwner(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x11BF660
+    // Offset: 0x1FEE0A4
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x11BF668
+    // Offset: 0x1FEE0AC
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x11BF674
+    // Offset: 0x1FEE0B8
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x11BF67C
+    // Offset: 0x1FEE0C0
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x11BF688
+    // Offset: 0x1FEE0CC
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x11BF690
+    // Offset: 0x1FEE0D4
     void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x11BF69C
+    // Offset: 0x1FEE0E0
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
     // Base method: System.Void Object::.ctor()

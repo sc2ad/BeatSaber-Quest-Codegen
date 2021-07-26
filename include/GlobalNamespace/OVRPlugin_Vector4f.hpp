@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -69,10 +70,10 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single w
     void _set_w(float value);
     // static private System.Void .cctor()
-    // Offset: 0x15F785C
+    // Offset: 0x12FAE2C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xEE13C4
+    // Offset: 0xD7537C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

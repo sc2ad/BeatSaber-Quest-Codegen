@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetImmutableSerializable`1
@@ -71,45 +72,45 @@ namespace GlobalNamespace {
     // Set instance field: private readonly System.Byte _id
     void _set__id(uint8_t value);
     // private System.Void .ctor(System.Byte id)
-    // Offset: 0xF0B5D8
+    // Offset: 0xF8C6A8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SyncStateId(uint8_t id)
     // public System.Boolean Equals(SyncStateId other)
-    // Offset: 0xF0B5E0
+    // Offset: 0xF8C6B0
     bool Equals(GlobalNamespace::SyncStateId other);
     // public SyncStateId Increment()
-    // Offset: 0xF0B650
+    // Offset: 0xF8C720
     GlobalNamespace::SyncStateId Increment();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF0B660
+    // Offset: 0xF8C730
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void SerializeWithFlag(LiteNetLib.Utils.NetDataWriter writer, System.Boolean flag)
-    // Offset: 0xF0B684
+    // Offset: 0xF8C754
     void SerializeWithFlag(LiteNetLib::Utils::NetDataWriter* writer, bool flag);
     // static public SyncStateId Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2312D78
+    // Offset: 0x23D3F2C
     static GlobalNamespace::SyncStateId Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // static public SyncStateId DeserializeWithFlag(LiteNetLib.Utils.NetDataReader reader, out System.Boolean flag)
-    // Offset: 0x2312AEC
-    static GlobalNamespace::SyncStateId DeserializeWithFlag(LiteNetLib::Utils::NetDataReader* reader, bool& flag);
+    // Offset: 0x23D3CA0
+    static GlobalNamespace::SyncStateId DeserializeWithFlag(LiteNetLib::Utils::NetDataReader* reader, ByRef<bool> flag);
     // public SyncStateId CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF0B690
+    // Offset: 0xF8C760
     GlobalNamespace::SyncStateId CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public System.Boolean WithinRange(SyncStateId a, SyncStateId b, System.Int32 range)
-    // Offset: 0x2312F50
+    // Offset: 0x23D4104
     static bool WithinRange(GlobalNamespace::SyncStateId a, GlobalNamespace::SyncStateId b, int range);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF0B5F0
+    // Offset: 0xF8C6C0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF0B5F8
+    // Offset: 0xF8C6C8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xF0B624
+    // Offset: 0xF8C6F4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -118,10 +119,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(SyncStateId), 0 + sizeof(uint8_t)> __GlobalNamespace_SyncStateIdSizeCheck;
   static_assert(sizeof(SyncStateId) == 0x1);
   // static public System.Boolean op_Equality(SyncStateId a, SyncStateId b)
-  // Offset: 0x2312EF8
+  // Offset: 0x23D40AC
   bool operator ==(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
   // static public System.Boolean op_Inequality(SyncStateId a, SyncStateId b)
-  // Offset: 0x2312F08
+  // Offset: 0x23D40BC
   bool operator !=(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SyncStateId::DeserializeWithFlag
 // Il2CppName: DeserializeWithFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (*)(LiteNetLib::Utils::NetDataReader*, bool&)>(&GlobalNamespace::SyncStateId::DeserializeWithFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (*)(LiteNetLib::Utils::NetDataReader*, ByRef<bool>)>(&GlobalNamespace::SyncStateId::DeserializeWithFlag)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* flag = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

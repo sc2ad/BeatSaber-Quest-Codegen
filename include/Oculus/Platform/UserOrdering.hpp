@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDEA7EC
+    // [DescriptionAttribute] Offset: 0xE98408
     // static field const value: static public Oculus.Platform.UserOrdering Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserOrdering Unknown
     static Oculus::Platform::UserOrdering _get_Unknown();
     // Set static field: static public Oculus.Platform.UserOrdering Unknown
     static void _set_Unknown(Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0xDEA824
+    // [DescriptionAttribute] Offset: 0xE98440
     // static field const value: static public Oculus.Platform.UserOrdering None
     static constexpr const int None = 1;
     // Get static field: static public Oculus.Platform.UserOrdering None
     static Oculus::Platform::UserOrdering _get_None();
     // Set static field: static public Oculus.Platform.UserOrdering None
     static void _set_None(Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0xDEA85C
+    // [DescriptionAttribute] Offset: 0xE98478
     // static field const value: static public Oculus.Platform.UserOrdering PresenceAlphabetical
     static constexpr const int PresenceAlphabetical = 2;
     // Get static field: static public Oculus.Platform.UserOrdering PresenceAlphabetical

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Color
@@ -69,7 +70,7 @@ namespace TMPro {
     // Set instance field: public UnityEngine.Color bottomRight
     void _set_bottomRight(UnityEngine::Color value);
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0xEF4E64
+    // Offset: 0xD83170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VertexGradient(UnityEngine::Color color) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::VertexGradient::.ctor");
@@ -77,7 +78,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
     }
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0xEF4E88
+    // Offset: 0xD83194
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)
   }; // TMPro.VertexGradient

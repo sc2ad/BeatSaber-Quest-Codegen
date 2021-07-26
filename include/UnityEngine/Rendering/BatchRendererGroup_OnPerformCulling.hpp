@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Rendering.BatchRendererGroup
 #include "UnityEngine/Rendering/BatchRendererGroup.hpp"
 // Including type: System.MulticastDelegate
@@ -43,20 +44,20 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: OnPerformCulling
     OnPerformCulling() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C7C55C
+    // Offset: 0x22B6B64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BatchRendererGroup::OnPerformCulling* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BatchRendererGroup::OnPerformCulling*, creationType>(object, method)));
     }
     // public Unity.Jobs.JobHandle Invoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext)
-    // Offset: 0x1C7BFD4
+    // Offset: 0x22B65DC
     Unity::Jobs::JobHandle Invoke(UnityEngine::Rendering::BatchRendererGroup* rendererGroup, UnityEngine::Rendering::BatchCullingContext cullingContext);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C7C56C
+    // Offset: 0x22B6B74
     System::IAsyncResult* BeginInvoke(UnityEngine::Rendering::BatchRendererGroup* rendererGroup, UnityEngine::Rendering::BatchCullingContext cullingContext, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Unity.Jobs.JobHandle EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C7C608
+    // Offset: 0x22B6C10
     Unity::Jobs::JobHandle EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling
   #pragma pack(pop)

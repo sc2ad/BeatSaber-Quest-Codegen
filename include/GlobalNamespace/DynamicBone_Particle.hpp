@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DynamicBone
 #include "GlobalNamespace/DynamicBone.hpp"
 // Including type: UnityEngine.Vector3
@@ -163,7 +164,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Quaternion m_InitLocalRotation
     void _set_m_InitLocalRotation(UnityEngine::Quaternion value);
     // public System.Void .ctor()
-    // Offset: 0x23A4118
+    // Offset: 0x1E1C100
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

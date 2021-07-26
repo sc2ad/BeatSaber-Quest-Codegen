@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.DateTimeParse/System.TM
@@ -124,7 +125,7 @@ namespace System {
     // Set instance field: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
     void _set_parseNumberDelegate(System::DateTimeParse::MatchNumberDelegate* value);
     // System.Void Init()
-    // Offset: 0xEF62C4
+    // Offset: 0xD83430
     void Init();
   }; // System.ParsingInfo
   #pragma pack(pop)

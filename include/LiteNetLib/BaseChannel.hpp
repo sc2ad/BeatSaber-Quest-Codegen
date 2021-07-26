@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -65,17 +66,17 @@ namespace LiteNetLib {
     // Set instance field: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
     void _set_OutgoingQueue(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* value);
     // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x1BAB500
+    // Offset: 0x179E898
     int get_PacketsInQueue();
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1BAB478
+    // Offset: 0x179E810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x1BAB550
+    // Offset: 0x179E8E8
     void AddToQueue(LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF

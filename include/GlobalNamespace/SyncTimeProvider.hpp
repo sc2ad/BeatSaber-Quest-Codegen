@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ITimeProvider
 #include "GlobalNamespace/ITimeProvider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SyncTimeProvider : public ::Il2CppObject/*, public GlobalNamespace::ITimeProvider*/ {
     public:
-    // [InjectAttribute] Offset: 0xE0A9C0
+    // [InjectAttribute] Offset: 0xEB75DC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -48,10 +49,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     void _set__multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.Single get_time()
-    // Offset: 0x106A838
+    // Offset: 0x1ED630C
     float get_time();
     // public System.Void .ctor()
-    // Offset: 0x106A8EC
+    // Offset: 0x1ED63C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.PermissionGrantStatus
 #include "Oculus/Platform/PermissionGrantStatus.hpp"
 // Including type: System.IntPtr
@@ -46,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Set instance field: public readonly Oculus.Platform.PermissionGrantStatus PermissionGrantStatus
     void _set_PermissionGrantStatus(Oculus::Platform::PermissionGrantStatus value);
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14A8338
+    // Offset: 0x21041AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemPermission* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SystemPermission::.ctor");

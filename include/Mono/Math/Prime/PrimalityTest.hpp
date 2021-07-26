@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,20 +42,20 @@ namespace Mono::Math::Prime {
     // Creating value type constructor for type: PrimalityTest
     PrimalityTest() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DD4D30
+    // Offset: 0x1947910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimalityTest* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::Prime::PrimalityTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimalityTest*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1DD50E0
+    // Offset: 0x1947CC0
     bool Invoke(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
     // public System.IAsyncResult BeginInvoke(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DD5500
+    // Offset: 0x19480E0
     System::IAsyncResult* BeginInvoke(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DD559C
+    // Offset: 0x194817C
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Math.Prime.PrimalityTest
   #pragma pack(pop)

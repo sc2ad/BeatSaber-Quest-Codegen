@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE9894
+    // [DescriptionAttribute] Offset: 0xE974B0
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Unknown
     static Oculus::Platform::PermissionGrantStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Unknown
     static void _set_Unknown(Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0xDE98CC
+    // [DescriptionAttribute] Offset: 0xE974E8
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Granted
     static constexpr const int Granted = 1;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Granted
     static Oculus::Platform::PermissionGrantStatus _get_Granted();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Granted
     static void _set_Granted(Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0xDE9904
+    // [DescriptionAttribute] Offset: 0xE97520
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Denied
     static constexpr const int Denied = 2;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Denied
     static Oculus::Platform::PermissionGrantStatus _get_Denied();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Denied
     static void _set_Denied(Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0xDE993C
+    // [DescriptionAttribute] Offset: 0xE97558
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Blocked
     static constexpr const int Blocked = 3;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Blocked

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDEA274
+    // [DescriptionAttribute] Offset: 0xE97E90
     // static field const value: static public Oculus.Platform.SdkAccountType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.SdkAccountType Unknown
     static Oculus::Platform::SdkAccountType _get_Unknown();
     // Set static field: static public Oculus.Platform.SdkAccountType Unknown
     static void _set_Unknown(Oculus::Platform::SdkAccountType value);
-    // [DescriptionAttribute] Offset: 0xDEA2AC
+    // [DescriptionAttribute] Offset: 0xE97EC8
     // static field const value: static public Oculus.Platform.SdkAccountType Oculus
     static constexpr const int Oculus = 1;
     // Get static field: static public Oculus.Platform.SdkAccountType Oculus
     static Oculus::Platform::SdkAccountType _get_Oculus();
     // Set static field: static public Oculus.Platform.SdkAccountType Oculus
     static void _set_Oculus(Oculus::Platform::SdkAccountType value);
-    // [DescriptionAttribute] Offset: 0xDEA2E4
+    // [DescriptionAttribute] Offset: 0xE97F00
     // static field const value: static public Oculus.Platform.SdkAccountType FacebookGameroom
     static constexpr const int FacebookGameroom = 2;
     // Get static field: static public Oculus.Platform.SdkAccountType FacebookGameroom

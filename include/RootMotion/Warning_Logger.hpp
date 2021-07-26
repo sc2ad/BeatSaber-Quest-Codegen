@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.Warning
 #include "RootMotion/Warning.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace RootMotion {
     // Creating value type constructor for type: Logger
     Logger() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1ACA3BC
+    // Offset: 0x1741C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Warning::Logger* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Warning::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Warning::Logger*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String message)
-    // Offset: 0x1ACA028
+    // Offset: 0x1741878
     void Invoke(::Il2CppString* message);
     // public System.IAsyncResult BeginInvoke(System.String message, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1ACA3CC
+    // Offset: 0x1741C1C
     System::IAsyncResult* BeginInvoke(::Il2CppString* message, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1ACA3F0
+    // Offset: 0x1741C40
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.Warning/RootMotion.Logger
   #pragma pack(pop)

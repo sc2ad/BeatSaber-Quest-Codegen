@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.ArrayUtility
 #include "UnityEngine/ProBuilder/ArrayUtility.hpp"
 // Including type: System.ValueType
@@ -49,17 +50,17 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public System.Int32 end
     void _set_end(int value);
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
-    // Offset: 0xEFD008
+    // Offset: 0xD8B994
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end)
     // public System.Boolean Valid()
-    // Offset: 0xEFD010
+    // Offset: 0xD8B99C
     bool Valid();
     // public System.Int32 Center()
-    // Offset: 0xEFD024
+    // Offset: 0xD8B9B0
     int Center();
     // public override System.String ToString()
-    // Offset: 0xEFD03C
+    // Offset: 0xD8B9C8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

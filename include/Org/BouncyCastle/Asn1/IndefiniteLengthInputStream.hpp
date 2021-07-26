@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.LimitedInputStream
 #include "Org/BouncyCastle/Asn1/LimitedInputStream.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,16 +49,16 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private System.Boolean _eofOn00
     void _set__eofOn00(bool value);
     // System.Void SetEofOn00(System.Boolean eofOn00)
-    // Offset: 0x175D58C
+    // Offset: 0x145FC48
     void SetEofOn00(bool eofOn00);
     // private System.Boolean CheckForEof()
-    // Offset: 0x175D4CC
+    // Offset: 0x145FB88
     bool CheckForEof();
     // private System.Int32 RequireByte()
-    // Offset: 0x175D43C
+    // Offset: 0x145FAF8
     int RequireByte();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x175D3AC
+    // Offset: 0x145FA68
     // Implemented from: Org.BouncyCastle.Asn1.LimitedInputStream
     // Base method: System.Void LimitedInputStream::.ctor(System.IO.Stream inStream, System.Int32 limit)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,12 +67,12 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<IndefiniteLengthInputStream*, creationType>(inStream, limit)));
     }
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x175D5A0
+    // Offset: 0x145FC5C
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x175D6E0
+    // Offset: 0x145FD9C
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();

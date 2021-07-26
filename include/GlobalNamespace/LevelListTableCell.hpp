@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 // Including type: UnityEngine.Color
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0BA6C
+    // [SpaceAttribute] Offset: 0xEB8688
     // private UnityEngine.UI.Image _coverImage
     // Size: 0x8
     // Offset: 0x60
@@ -103,7 +104,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* songBpmText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0BAF4
+    // [SpaceAttribute] Offset: 0xEB8710
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x90
@@ -233,19 +234,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.String _settingDataFromLevelId
     void _set__settingDataFromLevelId(::Il2CppString* value);
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
-    // Offset: 0x10F4884
+    // Offset: 0x1F46898
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
     // private System.Void RefreshVisuals()
-    // Offset: 0x10F9900
+    // Offset: 0x1F4B914
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
-    // Offset: 0x10F4958
+    // Offset: 0x1F4696C
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::Il2CppString* levelID);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x10F4EC4
+    // Offset: 0x1F46ED8
     void CancelAsyncOperations();
     // public System.Void .ctor()
-    // Offset: 0x10F99D8
+    // Offset: 0x1F4B9EC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -261,17 +262,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelListTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x10F98FC
+    // Offset: 0x1F4B910
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x10F99D0
+    // Offset: 0x1F4B9E4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x10F99D4
+    // Offset: 0x1F4B9E8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IReturnToMenuController
@@ -47,10 +48,10 @@ namespace GlobalNamespace {
     // Set instance field: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
     void _set__tutorialSceneSetupData(GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
     // public System.Void ReturnToMenu()
-    // Offset: 0x1075A18
+    // Offset: 0x1EE14EC
     void ReturnToMenu();
     // public System.Void .ctor()
-    // Offset: 0x1075A34
+    // Offset: 0x1EE1508
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRUIControls.VRGraphicRaycaster
 #include "VRUIControls/VRGraphicRaycaster.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace VRUIControls {
     // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> <>9__12_0
     static void _set_$$9__12_0(System::Comparison_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2345160
+    // Offset: 0x1DCB5A0
     static void _cctor();
     // System.Int32 <RaycastCanvas>b__12_0(VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g2)
-    // Offset: 0x23451CC
+    // Offset: 0x1DCB60C
     int $RaycastCanvas$b__12_0(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
     // public System.Void .ctor()
-    // Offset: 0x23451C4
+    // Offset: 0x1DCB604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

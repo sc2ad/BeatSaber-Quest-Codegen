@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IComparable
 #include "System/IComparable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -102,29 +103,29 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerBadgeDataSO _badgeData
     void _set__badgeData(GlobalNamespace::MultiplayerBadgeDataSO* value);
     // public IConnectedPlayer get_awardedPlayer()
-    // Offset: 0x119B454
+    // Offset: 0x1FB2EC0
     GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x119B45C
+    // Offset: 0x1FB2EC8
     ::Il2CppString* get_titleLocalizationKey();
     // public System.String get_title()
-    // Offset: 0x119B478
+    // Offset: 0x1FB2EE4
     ::Il2CppString* get_title();
     // public System.String get_subtitle()
-    // Offset: 0x119B480
+    // Offset: 0x1FB2EEC
     ::Il2CppString* get_subtitle();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x119B488
+    // Offset: 0x1FB2EF4
     UnityEngine::Sprite* get_icon();
     // public System.Void .ctor(IConnectedPlayer awardedPlayer, System.Single weight, System.String title, System.String subtitle, MultiplayerBadgeDataSO badgeData)
-    // Offset: 0x119B490
+    // Offset: 0x1FB2EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgeAwardData* New_ctor(GlobalNamespace::IConnectedPlayer* awardedPlayer, float weight, ::Il2CppString* title, ::Il2CppString* subtitle, GlobalNamespace::MultiplayerBadgeDataSO* badgeData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgeAwardData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeAwardData*, creationType>(awardedPlayer, weight, title, subtitle, badgeData)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x119B4FC
+    // Offset: 0x1FB2F68
     int CompareTo(::Il2CppObject* obj);
   }; // MultiplayerBadgeAwardData
   #pragma pack(pop)

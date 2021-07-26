@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.NetSerializer
 #include "LiteNetLib/Utils/NetSerializer.hpp"
 // Including type: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecificAuto`2
@@ -34,17 +35,17 @@ namespace LiteNetLib::Utils {
     CharSerializer_1() noexcept {}
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref System.Char prop)
     // Offset: 0xFFFFFFFF
-    void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, ::Il2CppChar& prop) {
+    void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, ByRef<::Il2CppChar> prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementWrite");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementWrite", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(w), ::il2cpp_utils::ExtractType(prop)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, w, prop);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, w, byref(prop));
     }
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out System.Char prop)
     // Offset: 0xFFFFFFFF
-    void ElementRead(LiteNetLib::Utils::NetDataReader* r, ::Il2CppChar& prop) {
+    void ElementRead(LiteNetLib::Utils::NetDataReader* r, ByRef<::Il2CppChar> prop) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CharSerializer_1::ElementRead");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ElementRead", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar&>()})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, r, prop);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, r, byref(prop));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

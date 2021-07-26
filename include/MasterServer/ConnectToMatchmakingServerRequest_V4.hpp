@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.ConnectToMatchmakingServerRequest
 #include "MasterServer/ConnectToMatchmakingServerRequest.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,12 +31,12 @@ namespace MasterServer {
     // Creating value type constructor for type: V4
     V4() noexcept {}
     // protected override System.UInt32 get_version()
-    // Offset: 0x12D0514
+    // Offset: 0x208AA24
     // Implemented from: MasterServer.ConnectToMatchmakingServerRequest
     // Base method: System.UInt32 ConnectToMatchmakingServerRequest::get_version()
     uint get_version();
     // public System.Void .ctor()
-    // Offset: 0x12D0598
+    // Offset: 0x208AAA8
     // Implemented from: MasterServer.ConnectToMatchmakingServerRequest
     // Base method: System.Void ConnectToMatchmakingServerRequest::.ctor()
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
@@ -47,12 +48,12 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToMatchmakingServerRequest::V4*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12D051C
+    // Offset: 0x208AA2C
     // Implemented from: MasterServer.ConnectToMatchmakingServerRequest
     // Base method: System.Void ConnectToMatchmakingServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12D054C
+    // Offset: 0x208AA5C
     // Implemented from: MasterServer.ConnectToMatchmakingServerRequest
     // Base method: System.Void ConnectToMatchmakingServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);

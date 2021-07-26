@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: System.Enum
@@ -87,7 +88,7 @@ namespace RootMotion::Demos {
     #pragma pack(pop)
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
     static_assert(sizeof(Navigator::State) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF2740
+    // [TooltipAttribute] Offset: 0xE9F35C
     // public System.Boolean activeTargetSeeking
     // Size: 0x1
     // Offset: 0x10
@@ -96,28 +97,28 @@ namespace RootMotion::Demos {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: activeTargetSeeking and: cornerRadius
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xDF2778
+    // [TooltipAttribute] Offset: 0xE9F394
     // public System.Single cornerRadius
     // Size: 0x4
     // Offset: 0x14
     float cornerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF27B0
+    // [TooltipAttribute] Offset: 0xE9F3CC
     // public System.Single recalculateOnPathDistance
     // Size: 0x4
     // Offset: 0x18
     float recalculateOnPathDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF27E8
+    // [TooltipAttribute] Offset: 0xE9F404
     // public System.Single maxSampleDistance
     // Size: 0x4
     // Offset: 0x1C
     float maxSampleDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF2820
+    // [TooltipAttribute] Offset: 0xE9F43C
     // public System.Single nextPathInterval
     // Size: 0x4
     // Offset: 0x20
@@ -243,40 +244,40 @@ namespace RootMotion::Demos {
     // Set instance field: private System.Single nextPathTime
     void _set_nextPathTime(float value);
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x1CDC7E8
+    // Offset: 0x1879588
     UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1CDC7F4
+    // Offset: 0x1879594
     void set_normalizedDeltaPosition(UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/RootMotion.Demos.State get_state()
-    // Offset: 0x1CDC800
+    // Offset: 0x18795A0
     RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/RootMotion.Demos.State value)
-    // Offset: 0x1CDC808
+    // Offset: 0x18795A8
     void set_state(RootMotion::Demos::Navigator::State value);
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1CDC810
+    // Offset: 0x18795B0
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1CDC8E4
+    // Offset: 0x1879684
     void Update(UnityEngine::Vector3 targetPosition);
     // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1CDCE28
+    // Offset: 0x1879BC8
     void CalculatePath(UnityEngine::Vector3 targetPosition);
     // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1CDCE98
+    // Offset: 0x1879C38
     bool Find(UnityEngine::Vector3 targetPosition);
     // private System.Void Stop()
-    // Offset: 0x1CDCCF0
+    // Offset: 0x1879A90
     void Stop();
     // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x1CDCD64
+    // Offset: 0x1879B04
     float HorDistance(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void Visualize()
-    // Offset: 0x1CDCFE0
+    // Offset: 0x1879D80
     void Visualize();
     // public System.Void .ctor()
-    // Offset: 0x1CDD190
+    // Offset: 0x1879F30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
 #include "System/Diagnostics/Tracing/EventSource.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,10 +27,10 @@ namespace System::Collections::Concurrent {
     // Set static field: static public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log
     static void _set_Log(System::Collections::Concurrent::CDSCollectionETWBCLProvider* value);
     // public System.Void ConcurrentDictionary_AcquiringAllLocks(System.Int32 numOfBuckets)
-    // Offset: 0x178BCE8
+    // Offset: 0x148D3A4
     void ConcurrentDictionary_AcquiringAllLocks(int numOfBuckets);
     // private System.Void .ctor()
-    // Offset: 0x178BC80
+    // Offset: 0x148D33C
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -39,7 +40,7 @@ namespace System::Collections::Concurrent {
       return THROW_UNLESS((::il2cpp_utils::New<CDSCollectionETWBCLProvider*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x178BD54
+    // Offset: 0x148D410
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();

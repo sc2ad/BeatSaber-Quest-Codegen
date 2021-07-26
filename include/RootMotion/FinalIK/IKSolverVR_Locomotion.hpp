@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR
 #include "RootMotion/FinalIK/IKSolverVR.hpp"
 // Including type: RootMotion.InterpolationMode
@@ -39,115 +40,115 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverVR::Locomotion : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF6938
-    // [RangeAttribute] Offset: 0xDF6938
+    // [TooltipAttribute] Offset: 0xEA3554
+    // [RangeAttribute] Offset: 0xEA3554
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x10
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF698C
+    // [TooltipAttribute] Offset: 0xEA35A8
     // public System.Single footDistance
     // Size: 0x4
     // Offset: 0x14
     float footDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF69C4
+    // [TooltipAttribute] Offset: 0xEA35E0
     // public System.Single stepThreshold
     // Size: 0x4
     // Offset: 0x18
     float stepThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF69FC
+    // [TooltipAttribute] Offset: 0xEA3618
     // public System.Single angleThreshold
     // Size: 0x4
     // Offset: 0x1C
     float angleThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6A34
+    // [TooltipAttribute] Offset: 0xEA3650
     // public System.Single comAngleMlp
     // Size: 0x4
     // Offset: 0x20
     float comAngleMlp;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6A6C
+    // [TooltipAttribute] Offset: 0xEA3688
     // public System.Single maxVelocity
     // Size: 0x4
     // Offset: 0x24
     float maxVelocity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6AA4
+    // [TooltipAttribute] Offset: 0xEA36C0
     // public System.Single velocityFactor
     // Size: 0x4
     // Offset: 0x28
     float velocityFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6ADC
-    // [RangeAttribute] Offset: 0xDF6ADC
+    // [TooltipAttribute] Offset: 0xEA36F8
+    // [RangeAttribute] Offset: 0xEA36F8
     // public System.Single maxLegStretch
     // Size: 0x4
     // Offset: 0x2C
     float maxLegStretch;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6B34
+    // [TooltipAttribute] Offset: 0xEA3750
     // public System.Single rootSpeed
     // Size: 0x4
     // Offset: 0x30
     float rootSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6B6C
+    // [TooltipAttribute] Offset: 0xEA3788
     // public System.Single stepSpeed
     // Size: 0x4
     // Offset: 0x34
     float stepSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6BA4
+    // [TooltipAttribute] Offset: 0xEA37C0
     // public UnityEngine.AnimationCurve stepHeight
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::AnimationCurve* stepHeight;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF6BDC
+    // [TooltipAttribute] Offset: 0xEA37F8
     // public UnityEngine.AnimationCurve heelHeight
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::AnimationCurve* heelHeight;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF6C14
-    // [RangeAttribute] Offset: 0xDF6C14
+    // [TooltipAttribute] Offset: 0xEA3830
+    // [RangeAttribute] Offset: 0xEA3830
     // public System.Single relaxLegTwistMinAngle
     // Size: 0x4
     // Offset: 0x48
     float relaxLegTwistMinAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6C6C
+    // [TooltipAttribute] Offset: 0xEA3888
     // public System.Single relaxLegTwistSpeed
     // Size: 0x4
     // Offset: 0x4C
     float relaxLegTwistSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6CA4
+    // [TooltipAttribute] Offset: 0xEA38C0
     // public RootMotion.InterpolationMode stepInterpolation
     // Size: 0x4
     // Offset: 0x50
     RootMotion::InterpolationMode stepInterpolation;
     // Field size check
     static_assert(sizeof(RootMotion::InterpolationMode) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6CDC
+    // [TooltipAttribute] Offset: 0xEA38F8
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x54
@@ -180,14 +181,14 @@ namespace RootMotion::FinalIK {
     float raycastHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF6D54
+    // [TooltipAttribute] Offset: 0xEA3970
     // public UnityEngine.Events.UnityEvent onLeftFootstep
     // Size: 0x8
     // Offset: 0x70
     UnityEngine::Events::UnityEvent* onLeftFootstep;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityEvent*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF6D8C
+    // [TooltipAttribute] Offset: 0xEA39A8
     // public UnityEngine.Events.UnityEvent onRightFootstep
     // Size: 0x8
     // Offset: 0x78
@@ -347,49 +348,49 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Int32 rightFootIndex
     void _set_rightFootIndex(int value);
     // public UnityEngine.Vector3 get_centerOfMass()
-    // Offset: 0x1E2AD74
+    // Offset: 0x198C008
     UnityEngine::Vector3 get_centerOfMass();
     // private System.Void set_centerOfMass(UnityEngine.Vector3 value)
-    // Offset: 0x1E2AD80
+    // Offset: 0x198C014
     void set_centerOfMass(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_leftFootstepPosition()
-    // Offset: 0x1E2D25C
+    // Offset: 0x198E4F0
     UnityEngine::Vector3 get_leftFootstepPosition();
     // public UnityEngine.Vector3 get_rightFootstepPosition()
-    // Offset: 0x1E2D29C
+    // Offset: 0x198E530
     UnityEngine::Vector3 get_rightFootstepPosition();
     // public UnityEngine.Quaternion get_leftFootstepRotation()
-    // Offset: 0x1E2D2E0
+    // Offset: 0x198E574
     UnityEngine::Quaternion get_leftFootstepRotation();
     // public UnityEngine.Quaternion get_rightFootstepRotation()
-    // Offset: 0x1E2D320
+    // Offset: 0x198E5B4
     UnityEngine::Quaternion get_rightFootstepRotation();
     // public System.Void Initiate(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasToes)
-    // Offset: 0x1E2AD8C
+    // Offset: 0x198C020
     void Initiate(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations, bool hasToes);
     // public System.Void Reset(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations)
-    // Offset: 0x1E2B084
+    // Offset: 0x198C318
     void Reset(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations);
     // public System.Void AddDeltaRotation(UnityEngine.Quaternion delta, UnityEngine.Vector3 pivot)
-    // Offset: 0x1E2B2F8
+    // Offset: 0x198C58C
     void AddDeltaRotation(UnityEngine::Quaternion delta, UnityEngine::Vector3 pivot);
     // public System.Void AddDeltaPosition(UnityEngine.Vector3 delta)
-    // Offset: 0x1E2B6D0
+    // Offset: 0x198C964
     void AddDeltaPosition(UnityEngine::Vector3 delta);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone rootBone, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Spine spine, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leftLeg, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg rightLeg, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm leftArm, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm rightArm, System.Int32 supportLegIndex, out UnityEngine.Vector3 leftFootPosition, out UnityEngine.Vector3 rightFootPosition, out UnityEngine.Quaternion leftFootRotation, out UnityEngine.Quaternion rightFootRotation, out System.Single leftFootOffset, out System.Single rightFootOffset, out System.Single leftHeelOffset, out System.Single rightHeelOffset)
-    // Offset: 0x1E2B880
-    void Solve(RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone, RootMotion::FinalIK::IKSolverVR::Spine* spine, RootMotion::FinalIK::IKSolverVR::Leg* leftLeg, RootMotion::FinalIK::IKSolverVR::Leg* rightLeg, RootMotion::FinalIK::IKSolverVR::Arm* leftArm, RootMotion::FinalIK::IKSolverVR::Arm* rightArm, int supportLegIndex, UnityEngine::Vector3& leftFootPosition, UnityEngine::Vector3& rightFootPosition, UnityEngine::Quaternion& leftFootRotation, UnityEngine::Quaternion& rightFootRotation, float& leftFootOffset, float& rightFootOffset, float& leftHeelOffset, float& rightHeelOffset);
+    // Offset: 0x198CB14
+    void Solve(RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone, RootMotion::FinalIK::IKSolverVR::Spine* spine, RootMotion::FinalIK::IKSolverVR::Leg* leftLeg, RootMotion::FinalIK::IKSolverVR::Leg* rightLeg, RootMotion::FinalIK::IKSolverVR::Arm* leftArm, RootMotion::FinalIK::IKSolverVR::Arm* rightArm, int supportLegIndex, ByRef<UnityEngine::Vector3> leftFootPosition, ByRef<UnityEngine::Vector3> rightFootPosition, ByRef<UnityEngine::Quaternion> leftFootRotation, ByRef<UnityEngine::Quaternion> rightFootRotation, ByRef<float> leftFootOffset, ByRef<float> rightFootOffset, ByRef<float> leftHeelOffset, ByRef<float> rightHeelOffset);
     // private System.Boolean StepBlocked(UnityEngine.Vector3 fromPosition, UnityEngine.Vector3 toPosition, UnityEngine.Vector3 rootPosition)
-    // Offset: 0x1E2CE68
+    // Offset: 0x198E0FC
     bool StepBlocked(UnityEngine::Vector3 fromPosition, UnityEngine::Vector3 toPosition, UnityEngine::Vector3 rootPosition);
     // private System.Boolean CanStep()
-    // Offset: 0x1E2D00C
+    // Offset: 0x198E2A0
     bool CanStep();
     // static private System.Boolean GetLineSphereCollision(UnityEngine.Vector3 lineStart, UnityEngine.Vector3 lineEnd, UnityEngine.Vector3 sphereCenter, System.Single sphereRadius)
-    // Offset: 0x1E2D090
+    // Offset: 0x198E324
     static bool GetLineSphereCollision(UnityEngine::Vector3 lineStart, UnityEngine::Vector3 lineEnd, UnityEngine::Vector3 sphereCenter, float sphereRadius);
     // public System.Void .ctor()
-    // Offset: 0x1E2D364
+    // Offset: 0x198E5F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -496,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Locomotion::Solve
 // Il2CppName: Solve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, RootMotion::FinalIK::IKSolverVR::Spine*, RootMotion::FinalIK::IKSolverVR::Leg*, RootMotion::FinalIK::IKSolverVR::Leg*, RootMotion::FinalIK::IKSolverVR::Arm*, RootMotion::FinalIK::IKSolverVR::Arm*, int, UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::Quaternion&, UnityEngine::Quaternion&, float&, float&, float&, float&)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Solve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, RootMotion::FinalIK::IKSolverVR::Spine*, RootMotion::FinalIK::IKSolverVR::Leg*, RootMotion::FinalIK::IKSolverVR::Leg*, RootMotion::FinalIK::IKSolverVR::Arm*, RootMotion::FinalIK::IKSolverVR::Arm*, int, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Quaternion>, ByRef<float>, ByRef<float>, ByRef<float>, ByRef<float>)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Solve)> {
   static const MethodInfo* get() {
     static auto* rootBone = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverVR/VirtualBone")->byval_arg;
     static auto* spine = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverVR/Spine")->byval_arg;

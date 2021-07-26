@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionResultsViewController
 #include "GlobalNamespace/MissionResultsViewController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -73,26 +74,26 @@ namespace GlobalNamespace {
     // Set instance field: public MissionResultsViewController <>4__this
     void _set_$$4__this(GlobalNamespace::MissionResultsViewController* value);
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x113921C
+    // Offset: 0x1F69C30
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1139284
+    // Offset: 0x1F69C98
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1138C64
+    // Offset: 0x1F69678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionResultsViewController::$StartFireworksAfterDelay$d__28* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController::$StartFireworksAfterDelay$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1139158
+    // Offset: 0x1F69B6C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x113915C
+    // Offset: 0x1F69B70
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1139224
+    // Offset: 0x1F69C38
     void System_Collections_IEnumerator_Reset();
   }; // MissionResultsViewController/<StartFireworksAfterDelay>d__28
   #pragma pack(pop)

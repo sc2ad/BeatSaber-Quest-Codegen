@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LeaderboardsDTO.GameplayModifiersDto
 #include "LeaderboardsDTO/GameplayModifiersDto.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -166,7 +167,7 @@ namespace LeaderboardsDTO {
     // Set instance field: public System.String extraDataBase64
     void _set_extraDataBase64(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x10F07A4
+    // Offset: 0x1F427B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

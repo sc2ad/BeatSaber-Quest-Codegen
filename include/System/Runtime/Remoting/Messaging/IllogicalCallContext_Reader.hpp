@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IllogicalCallContext
 #include "System/Runtime/Remoting/Messaging/IllogicalCallContext.hpp"
 // Including type: System.ValueType
@@ -43,14 +44,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Set instance field: private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
     void _set_m_ctx(System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
     // public System.Boolean get_IsNull()
-    // Offset: 0xEECBFC
+    // Offset: 0xD80BB4
     bool get_IsNull();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0xEECBF4
+    // Offset: 0xD80BAC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx)
     // public System.Object GetData(System.String name)
-    // Offset: 0xEECC0C
+    // Offset: 0xD80BC4
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

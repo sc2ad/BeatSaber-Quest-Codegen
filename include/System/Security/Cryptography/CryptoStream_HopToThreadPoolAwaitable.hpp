@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.CryptoStream
 #include "System/Security/Cryptography/CryptoStream.hpp"
 // Including type: System.ValueType
@@ -38,16 +39,16 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::Runtime::CompilerServices::INotifyCompletion*>(this);
     }
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xEEAE48
+    // Offset: 0xD7EE00
     bool get_IsCompleted();
     // public System.Security.Cryptography.CryptoStream/System.Security.Cryptography.HopToThreadPoolAwaitable GetAwaiter()
-    // Offset: 0xEEAE40
+    // Offset: 0xD7EDF8
     System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable GetAwaiter();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xEEAE50
+    // Offset: 0xD7EE08
     void OnCompleted(System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0xEEAE54
+    // Offset: 0xD7EE0C
     void GetResult();
   }; // System.Security.Cryptography.CryptoStream/System.Security.Cryptography.HopToThreadPoolAwaitable
   #pragma pack(pop)

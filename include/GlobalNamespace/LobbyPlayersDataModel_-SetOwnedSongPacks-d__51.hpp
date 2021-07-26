@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LobbyPlayersDataModel
 #include "GlobalNamespace/LobbyPlayersDataModel.hpp"
 // Including type: System.ValueType
@@ -123,10 +124,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> value);
     // private System.Void MoveNext()
-    // Offset: 0xED17B4
+    // Offset: 0xF7CB50
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xED17BC
+    // Offset: 0xF7CB58
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LobbyPlayersDataModel/<SetOwnedSongPacks>d__51
   // WARNING Not writing size check since size may be invalid!

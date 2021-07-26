@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestRunner.Utils.TestRunCallbackListener
 #include "UnityEngine/TestRunner/Utils/TestRunCallbackListener.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace UnityEngine::TestRunner::Utils {
     // Set instance field: public NUnit.Framework.Interfaces.ITest test
     void _set_test(NUnit::Framework::Interfaces::ITest* value);
     // System.Void <TestStarted>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
-    // Offset: 0x148797C
+    // Offset: 0x11F89DC
     void $TestStarted$b__0(UnityEngine::TestRunner::ITestRunCallback* callback);
     // public System.Void .ctor()
-    // Offset: 0x1487498
+    // Offset: 0x11F84F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

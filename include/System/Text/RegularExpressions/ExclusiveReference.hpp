@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -57,13 +58,13 @@ namespace System::Text::RegularExpressions {
     // Set instance field: private System.Int32 _locked
     void _set__locked(int value);
     // System.Object Get()
-    // Offset: 0x1834C38
+    // Offset: 0x150603C
     ::Il2CppObject* Get();
     // System.Void Release(System.Object obj)
-    // Offset: 0x1834C88
+    // Offset: 0x150608C
     void Release(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1834D94
+    // Offset: 0x1506198
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

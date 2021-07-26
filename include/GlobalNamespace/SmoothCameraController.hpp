@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,22 +69,22 @@ namespace GlobalNamespace {
     // Set instance field: private LIV.SDK.Unity.LIV _liv
     void _set__liv(LIV::SDK::Unity::LIV* value);
     // protected System.Void Start()
-    // Offset: 0x1058BF0
+    // Offset: 0x1EC36C4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1058D80
+    // Offset: 0x1EC3854
     void OnDestroy();
     // private System.Void HandleLIVDidActivate()
-    // Offset: 0x1058D84
+    // Offset: 0x1EC3858
     void HandleLIVDidActivate();
     // private System.Void HandleLIVDidDeactivate()
-    // Offset: 0x1058DD4
+    // Offset: 0x1EC38A8
     void HandleLIVDidDeactivate();
     // private System.Void ActivateSmoothCameraIfNeeded()
-    // Offset: 0x1058BF4
+    // Offset: 0x1EC36C8
     void ActivateSmoothCameraIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x1058DD8
+    // Offset: 0x1EC38AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

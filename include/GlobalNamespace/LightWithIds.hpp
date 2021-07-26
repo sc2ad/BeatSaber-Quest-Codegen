@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LightWithIds::LightData
     class LightData;
-    // [InjectAttribute] Offset: 0xDE1384
+    // [InjectAttribute] Offset: 0xE8EFA0
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x18
@@ -63,22 +64,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // protected System.Void Start()
-    // Offset: 0x1DF4228
+    // Offset: 0x1966E08
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1DF4524
+    // Offset: 0x1967104
     void OnEnable();
     // private System.Void RegisterForColorChanges()
-    // Offset: 0x1DF422C
+    // Offset: 0x1966E0C
     void RegisterForColorChanges();
     // protected System.Void OnDisable()
-    // Offset: 0x1DF4528
+    // Offset: 0x1967108
     void OnDisable();
     // protected System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
     // Offset: 0xFFFFFFFF
     void HandleLightManagerDidChangeSomeColorsThisFrame();
     // protected System.Void .ctor()
-    // Offset: 0x1DF4814
+    // Offset: 0x19673F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

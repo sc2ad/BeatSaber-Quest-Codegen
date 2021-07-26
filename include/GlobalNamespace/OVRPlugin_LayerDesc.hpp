@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -177,7 +178,7 @@ namespace GlobalNamespace {
     // Set instance field: public OVRPlugin/Sizei MotionVectorTextureSize
     void _set_MotionVectorTextureSize(GlobalNamespace::OVRPlugin::Sizei value);
     // public override System.String ToString()
-    // Offset: 0xEE08B0
+    // Offset: 0xD74868
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

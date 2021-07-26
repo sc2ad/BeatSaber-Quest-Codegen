@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,13 +38,13 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Material material
     static void _set_material(UnityEngine::Material* value);
     // public System.Void Set(UnityEngine.Vector3 N, System.Single phi0, System.Single phi1, System.Single theta0, System.Single theta1, UnityEngine.Vector3 uAxis, UnityEngine.Vector3 uOrigin, System.Single uScale, UnityEngine.Vector3 vAxis, UnityEngine.Vector3 vOrigin, System.Single vScale)
-    // Offset: 0x13B35C8
+    // Offset: 0x115B228
     void Set(UnityEngine::Vector3 N, float phi0, float phi1, float theta0, float theta1, UnityEngine::Vector3 uAxis, UnityEngine::Vector3 uOrigin, float uScale, UnityEngine::Vector3 vAxis, UnityEngine::Vector3 vOrigin, float vScale);
     // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x13B3968
+    // Offset: 0x115B5C8
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x13B39F8
+    // Offset: 0x115B658
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

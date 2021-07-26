@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ColorType
 #include "GlobalNamespace/ColorType.hpp"
 // Including type: NoteCutDirection
@@ -86,46 +87,46 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single <duration>k__BackingField
     void _set_$duration$k__BackingField(float value);
     // public System.Single get_time()
-    // Offset: 0x238C0FC
+    // Offset: 0x1E040E4
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x238C104
+    // Offset: 0x1E040EC
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x238C10C
+    // Offset: 0x1E040F4
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x238C114
+    // Offset: 0x1E040FC
     void set_lineIndex(int value);
     // public ColorType get_colorType()
-    // Offset: 0x238C11C
+    // Offset: 0x1E04104
     GlobalNamespace::ColorType get_colorType();
     // public System.Void set_colorType(ColorType value)
-    // Offset: 0x238C124
+    // Offset: 0x1E0410C
     void set_colorType(GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x238C12C
+    // Offset: 0x1E04114
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x238C134
+    // Offset: 0x1E0411C
     void set_cutDirection(GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x238C13C
+    // Offset: 0x1E04124
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // public System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x238C144
+    // Offset: 0x1E0412C
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x238C14C
+    // Offset: 0x1E04134
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x238C154
+    // Offset: 0x1E0413C
     void set_duration(float value);
     // public System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x238C15C
+    // Offset: 0x1E04144
     void Mirror(int lineCount);
     // public System.Void .ctor()
-    // Offset: 0x238C1B4
+    // Offset: 0x1E0419C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

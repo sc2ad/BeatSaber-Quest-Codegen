@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MirrorRendererGraphicsSettingsPresets
 #include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
 // Including type: NamedPreset
@@ -160,7 +161,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Boolean enableBloomPrePassFog
     void _set_enableBloomPrePassFog(bool value);
     // public System.Void .ctor()
-    // Offset: 0x112DDFC
+    // Offset: 0x1F5E810
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

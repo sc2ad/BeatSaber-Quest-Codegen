@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,12 +41,12 @@ namespace GlobalNamespace {
     MultiplayerConnectedPlayerObstacleClippingController(::Array<GlobalNamespace::MaterialPropertyBlockController*>* materialPropertyBlockControllers_ = {}) noexcept : materialPropertyBlockControllers{materialPropertyBlockControllers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE076D0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEB42EC
     // Get static field: static private readonly System.Int32 _clippingPlanePositionID
     static int _get__clippingPlanePositionID();
     // Set static field: static private readonly System.Int32 _clippingPlanePositionID
     static void _set__clippingPlanePositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE076E0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEB42FC
     // Get static field: static private readonly System.Int32 _clippingPlaneNormalID
     static int _get__clippingPlaneNormalID();
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
@@ -55,10 +56,10 @@ namespace GlobalNamespace {
     // Set instance field: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     void _set__materialPropertyBlockControllers(::Array<GlobalNamespace::MaterialPropertyBlockController*>* value);
     // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
-    // Offset: 0x11A4C6C
+    // Offset: 0x1FBC6D8
     void SetClippingParams(UnityEngine::Vector3 position, UnityEngine::Vector3 normal);
     // public System.Void .ctor()
-    // Offset: 0x11A4E18
+    // Offset: 0x1FBC884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleClippingController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11A4E20
+    // Offset: 0x1FBC88C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

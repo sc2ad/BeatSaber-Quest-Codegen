@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SteamVR_TrackedObject/EIndex
@@ -85,35 +86,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: modelOverride
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDC10C4
+    // [TooltipAttribute] Offset: 0xE6DCE0
     // public System.String modelOverride
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* modelOverride;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDC10FC
+    // [TooltipAttribute] Offset: 0xE6DD18
     // public UnityEngine.Shader shader
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Shader* shader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDC1134
+    // [TooltipAttribute] Offset: 0xE6DD50
     // public System.Boolean verbose
     // Size: 0x1
     // Offset: 0x30
     bool verbose;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDC116C
+    // [TooltipAttribute] Offset: 0xE6DD88
     // public System.Boolean createComponents
     // Size: 0x1
     // Offset: 0x31
     bool createComponents;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDC11A4
+    // [TooltipAttribute] Offset: 0xE6DDC0
     // public System.Boolean updateDynamically
     // Size: 0x1
     // Offset: 0x32
@@ -231,70 +232,70 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
     void _set_nameCache(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
     // public System.String get_renderModelName()
-    // Offset: 0x13AFD3C
+    // Offset: 0x115799C
     ::Il2CppString* get_renderModelName();
     // private System.Void set_renderModelName(System.String value)
-    // Offset: 0x13AFD44
+    // Offset: 0x11579A4
     void set_renderModelName(::Il2CppString* value);
     // private System.Void OnModelSkinSettingsHaveChanged(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x13AFD4C
+    // Offset: 0x11579AC
     void OnModelSkinSettingsHaveChanged(Valve::VR::VREvent_t vrEvent);
     // private System.Void OnHideRenderModels(System.Boolean hidden)
-    // Offset: 0x13AFF70
+    // Offset: 0x1157BD0
     void OnHideRenderModels(bool hidden);
     // private System.Void OnDeviceConnected(System.Int32 i, System.Boolean connected)
-    // Offset: 0x13B00A4
+    // Offset: 0x1157D04
     void OnDeviceConnected(int i, bool connected);
     // public System.Void UpdateModel()
-    // Offset: 0x13AFDBC
+    // Offset: 0x1157A1C
     void UpdateModel();
     // private System.Collections.IEnumerator SetModelAsync(System.String renderModelName)
-    // Offset: 0x13B00BC
+    // Offset: 0x1157D1C
     System::Collections::IEnumerator* SetModelAsync(::Il2CppString* renderModelName);
     // private System.Boolean SetModel(System.String renderModelName)
-    // Offset: 0x13B0164
+    // Offset: 0x1157DC4
     bool SetModel(::Il2CppString* renderModelName);
     // private SteamVR_RenderModel/RenderModel LoadRenderModel(Valve.VR.CVRRenderModels renderModels, System.String renderModelName, System.String baseName)
-    // Offset: 0x13B13B8
+    // Offset: 0x1159018
     GlobalNamespace::SteamVR_RenderModel::RenderModel* LoadRenderModel(Valve::VR::CVRRenderModels* renderModels, ::Il2CppString* renderModelName, ::Il2CppString* baseName);
     // private System.Collections.IEnumerator FreeRenderModel(System.IntPtr pRenderModel)
-    // Offset: 0x13B22A0
+    // Offset: 0x1159F00
     System::Collections::IEnumerator* FreeRenderModel(System::IntPtr pRenderModel);
     // public UnityEngine.Transform FindComponent(System.String componentName)
-    // Offset: 0x13B2374
+    // Offset: 0x1159FD4
     UnityEngine::Transform* FindComponent(::Il2CppString* componentName);
     // private System.Void StripMesh(UnityEngine.GameObject go)
-    // Offset: 0x13B061C
+    // Offset: 0x115827C
     void StripMesh(UnityEngine::GameObject* go);
     // private System.Boolean LoadComponents(SteamVR_RenderModel/RenderModelInterfaceHolder holder, System.String renderModelName)
-    // Offset: 0x13B0760
+    // Offset: 0x11583C0
     bool LoadComponents(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* holder, ::Il2CppString* renderModelName);
     // private System.Void OnEnable()
-    // Offset: 0x13B2550
+    // Offset: 0x115A1B0
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x13B2678
+    // Offset: 0x115A2D8
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x13B26DC
+    // Offset: 0x115A33C
     void Update();
     // public System.Void UpdateComponents(Valve.VR.CVRRenderModels renderModels)
-    // Offset: 0x13B0F74
+    // Offset: 0x1158BD4
     void UpdateComponents(Valve::VR::CVRRenderModels* renderModels);
     // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0x13B2760
+    // Offset: 0x115A3C0
     void SetDeviceIndex(int index);
     // static private System.Void Sleep()
-    // Offset: 0x13B1E9C
+    // Offset: 0x1159AFC
     static void Sleep();
     // private Valve.VR.RenderModel_t MarshalRenderModel(System.IntPtr pRenderModel)
-    // Offset: 0x13B1EA8
+    // Offset: 0x1159B08
     Valve::VR::RenderModel_t MarshalRenderModel(System::IntPtr pRenderModel);
     // private Valve.VR.RenderModel_TextureMap_t MarshalRenderModel_TextureMap(System.IntPtr pRenderModel)
-    // Offset: 0x13B20B0
+    // Offset: 0x1159D10
     Valve::VR::RenderModel_TextureMap_t MarshalRenderModel_TextureMap(System::IntPtr pRenderModel);
     // private System.Void .ctor()
-    // Offset: 0x13B2410
+    // Offset: 0x115A070
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -307,7 +308,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13B27E4
+    // Offset: 0x115A444
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

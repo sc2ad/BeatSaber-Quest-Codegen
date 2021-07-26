@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: IEquatableByReference`1
@@ -169,17 +170,17 @@ namespace GlobalNamespace {
       }
       // public System.Boolean Equals(in StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> other)
       // Offset: 0xFFFFFFFF
-      bool Equals(typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable& other) {
+      bool Equals(ByRef<typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable> other) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::Equals");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, byref(other));
       }
       // private System.Boolean IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals(in StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> other)
       // Offset: 0xFFFFFFFF
-      bool IEquatableByReference$StateBuffer$TStateTable_TType_TState$_TimestampedStateTable$_Equals(typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable& other) {
+      bool IEquatableByReference$StateBuffer$TStateTable_TType_TState$_TimestampedStateTable$_Equals(ByRef<typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable> other) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, byref(other));
       }
     }; // StateBuffer`3/TimestampedStateTable
     // Could not write size check! Type: StateBuffer`3/TimestampedStateTable is generic, or has no fields that are valid for size checks!
@@ -359,10 +360,10 @@ namespace GlobalNamespace {
     }
     // protected System.Void InsertState(in TStateTable state, System.Single time)
     // Offset: 0xFFFFFFFF
-    void InsertState(TStateTable& state, float time) {
+    void InsertState(ByRef<TStateTable> state, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::InsertState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InsertState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(state), ::il2cpp_utils::ExtractType(time)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, state, time);
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, byref(state), time);
     }
     // public TState GetState(TType type, System.Single time)
     // Offset: 0xFFFFFFFF

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.IEnvoyInfo
 #include "System/Runtime/Remoting/IEnvoyInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -47,10 +48,10 @@ namespace System::Runtime::Remoting {
     // Set instance field: private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
     void _set_envoySinks(System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
-    // Offset: 0x19F0B80
+    // Offset: 0x16A7C74
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)
-    // Offset: 0x19F0B54
+    // Offset: 0x16A7C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvoyInfo* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* sinks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::EnvoyInfo::.ctor");

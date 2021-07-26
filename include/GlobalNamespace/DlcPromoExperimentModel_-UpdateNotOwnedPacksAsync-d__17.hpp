@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DlcPromoExperimentModel
 #include "GlobalNamespace/DlcPromoExperimentModel.hpp"
 // Including type: System.ValueType
@@ -124,10 +125,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFAEC
+    // Offset: 0xF7B758
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFAF4
+    // Offset: 0xF7B760
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // DlcPromoExperimentModel/<UpdateNotOwnedPacksAsync>d__17
   // WARNING Not writing size check since size may be invalid!

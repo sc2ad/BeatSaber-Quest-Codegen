@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.IFileWatcher
 #include "System/IO/IFileWatcher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,16 +38,16 @@ namespace System::IO {
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(System::IO::IFileWatcher* value);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x18569F4
+    // Offset: 0x1527DF8
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x18569F8
+    // Offset: 0x1527DFC
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x1856008
-    static bool GetInstance(System::IO::IFileWatcher*& watcher);
+    // Offset: 0x152740C
+    static bool GetInstance(ByRef<System::IO::IFileWatcher*> watcher);
     // public System.Void .ctor()
-    // Offset: 0x18569FC
+    // Offset: 0x1527E00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::NullFileWatcher::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::IFileWatcher*&)>(&System::IO::NullFileWatcher::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::IO::IFileWatcher*>)>(&System::IO::NullFileWatcher::GetInstance)> {
   static const MethodInfo* get() {
     static auto* watcher = &::il2cpp_utils::GetClassFromName("System.IO", "IFileWatcher")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{watcher});

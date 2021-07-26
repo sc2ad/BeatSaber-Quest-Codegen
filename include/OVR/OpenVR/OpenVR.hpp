@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.UInt32
 #include "System/UInt32.hpp"
 // Including type: System.UInt64
@@ -1396,91 +1397,91 @@ namespace OVR::OpenVR {
     // Set static field: static private OVR.OpenVR.OpenVR/OVR.OpenVR.COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(OVR::OpenVR::OpenVR::COpenVRContext* value);
     // static private System.UInt32 get_VRToken()
-    // Offset: 0x1248BC4
+    // Offset: 0x1052E9C
     static uint get_VRToken();
     // static private System.Void set_VRToken(System.UInt32 value)
-    // Offset: 0x1248C2C
+    // Offset: 0x1052F04
     static void set_VRToken(uint value);
     // static private OVR.OpenVR.OpenVR/OVR.OpenVR.COpenVRContext get_OpenVRInternal_ModuleContext()
-    // Offset: 0x1248C98
+    // Offset: 0x1052F70
     static OVR::OpenVR::OpenVR::COpenVRContext* get_OpenVRInternal_ModuleContext();
     // static public OVR.OpenVR.CVRSystem get_System()
-    // Offset: 0x1248DA4
+    // Offset: 0x105307C
     static OVR::OpenVR::CVRSystem* get_System();
     // static public OVR.OpenVR.CVRChaperone get_Chaperone()
-    // Offset: 0x1248ECC
+    // Offset: 0x10531A4
     static OVR::OpenVR::CVRChaperone* get_Chaperone();
     // static public OVR.OpenVR.CVRChaperoneSetup get_ChaperoneSetup()
-    // Offset: 0x1248FF4
+    // Offset: 0x10532CC
     static OVR::OpenVR::CVRChaperoneSetup* get_ChaperoneSetup();
     // static public OVR.OpenVR.CVRCompositor get_Compositor()
-    // Offset: 0x124911C
+    // Offset: 0x10533F4
     static OVR::OpenVR::CVRCompositor* get_Compositor();
     // static public OVR.OpenVR.CVROverlay get_Overlay()
-    // Offset: 0x1249244
+    // Offset: 0x105351C
     static OVR::OpenVR::CVROverlay* get_Overlay();
     // static public OVR.OpenVR.CVRRenderModels get_RenderModels()
-    // Offset: 0x124936C
+    // Offset: 0x1053644
     static OVR::OpenVR::CVRRenderModels* get_RenderModels();
     // static public OVR.OpenVR.CVRExtendedDisplay get_ExtendedDisplay()
-    // Offset: 0x1249494
+    // Offset: 0x105376C
     static OVR::OpenVR::CVRExtendedDisplay* get_ExtendedDisplay();
     // static public OVR.OpenVR.CVRSettings get_Settings()
-    // Offset: 0x12495BC
+    // Offset: 0x1053894
     static OVR::OpenVR::CVRSettings* get_Settings();
     // static public OVR.OpenVR.CVRApplications get_Applications()
-    // Offset: 0x12496E4
+    // Offset: 0x10539BC
     static OVR::OpenVR::CVRApplications* get_Applications();
     // static public OVR.OpenVR.CVRScreenshots get_Screenshots()
-    // Offset: 0x124980C
+    // Offset: 0x1053AE4
     static OVR::OpenVR::CVRScreenshots* get_Screenshots();
     // static public OVR.OpenVR.CVRTrackedCamera get_TrackedCamera()
-    // Offset: 0x1249934
+    // Offset: 0x1053C0C
     static OVR::OpenVR::CVRTrackedCamera* get_TrackedCamera();
     // static public OVR.OpenVR.CVRInput get_Input()
-    // Offset: 0x1249A5C
+    // Offset: 0x1053D34
     static OVR::OpenVR::CVRInput* get_Input();
     // static public OVR.OpenVR.CVRSpatialAnchors get_SpatialAnchors()
-    // Offset: 0x1249B84
+    // Offset: 0x1053E5C
     static OVR::OpenVR::CVRSpatialAnchors* get_SpatialAnchors();
     // static private System.Void .cctor()
-    // Offset: 0x1249F98
+    // Offset: 0x1054270
     static void _cctor();
     // static public System.UInt32 InitInternal(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType)
-    // Offset: 0x1248648
-    static uint InitInternal(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType);
+    // Offset: 0x1052920
+    static uint InitInternal(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType);
     // static public System.UInt32 InitInternal2(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0x12486DC
-    static uint InitInternal2(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::Il2CppString* pchStartupInfo);
+    // Offset: 0x10529B4
+    static uint InitInternal2(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::Il2CppString* pchStartupInfo);
     // static public System.Void ShutdownInternal()
-    // Offset: 0x1248794
+    // Offset: 0x1052A6C
     static void ShutdownInternal();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0x1248808
+    // Offset: 0x1052AE0
     static bool IsHmdPresent();
     // static public System.Boolean IsRuntimeInstalled()
-    // Offset: 0x1248888
+    // Offset: 0x1052B60
     static bool IsRuntimeInstalled();
     // static public System.String GetStringForHmdError(OVR.OpenVR.EVRInitError error)
-    // Offset: 0x1248908
+    // Offset: 0x1052BE0
     static ::Il2CppString* GetStringForHmdError(OVR::OpenVR::EVRInitError error);
     // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref OVR.OpenVR.EVRInitError peError)
-    // Offset: 0x1248A00
-    static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, OVR::OpenVR::EVRInitError& peError);
+    // Offset: 0x1052CD8
+    static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, ByRef<OVR::OpenVR::EVRInitError> peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0x1248AAC
+    // Offset: 0x1052D84
     static bool IsInterfaceVersionValid(::Il2CppString* pchInterfaceVersion);
     // static public System.UInt32 GetInitToken()
-    // Offset: 0x1248B4C
+    // Offset: 0x1052E24
     static uint GetInitToken();
     // static public OVR.OpenVR.CVRSystem Init(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0x1249CAC
-    static OVR::OpenVR::CVRSystem* Init(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::Il2CppString* pchStartupInfo);
+    // Offset: 0x1053F84
+    static OVR::OpenVR::CVRSystem* Init(ByRef<OVR::OpenVR::EVRInitError> peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::Il2CppString* pchStartupInfo);
     // static public System.Void Shutdown()
-    // Offset: 0x1249F34
+    // Offset: 0x105420C
     static void Shutdown();
     // public System.Void .ctor()
-    // Offset: 0x1249F90
+    // Offset: 0x1054268
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -1633,7 +1634,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::InitInternal
 // Il2CppName: InitInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(OVR::OpenVR::EVRInitError&, OVR::OpenVR::EVRApplicationType)>(&OVR::OpenVR::OpenVR::InitInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ByRef<OVR::OpenVR::EVRInitError>, OVR::OpenVR::EVRApplicationType)>(&OVR::OpenVR::OpenVR::InitInternal)> {
   static const MethodInfo* get() {
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRInitError")->this_arg;
     static auto* eApplicationType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationType")->byval_arg;
@@ -1643,7 +1644,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(OV
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::InitInternal2
 // Il2CppName: InitInternal2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(OVR::OpenVR::EVRInitError&, OVR::OpenVR::EVRApplicationType, ::Il2CppString*)>(&OVR::OpenVR::OpenVR::InitInternal2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ByRef<OVR::OpenVR::EVRInitError>, OVR::OpenVR::EVRApplicationType, ::Il2CppString*)>(&OVR::OpenVR::OpenVR::InitInternal2)> {
   static const MethodInfo* get() {
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRInitError")->this_arg;
     static auto* eApplicationType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationType")->byval_arg;
@@ -1687,7 +1688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::GetGenericInterface
 // Il2CppName: GetGenericInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, OVR::OpenVR::EVRInitError&)>(&OVR::OpenVR::OpenVR::GetGenericInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, ByRef<OVR::OpenVR::EVRInitError>)>(&OVR::OpenVR::OpenVR::GetGenericInterface)> {
   static const MethodInfo* get() {
     static auto* pchInterfaceVersion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRInitError")->this_arg;
@@ -1714,7 +1715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSystem* (*)(OVR::OpenVR::EVRInitError&, OVR::OpenVR::EVRApplicationType, ::Il2CppString*)>(&OVR::OpenVR::OpenVR::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSystem* (*)(ByRef<OVR::OpenVR::EVRInitError>, OVR::OpenVR::EVRApplicationType, ::Il2CppString*)>(&OVR::OpenVR::OpenVR::Init)> {
   static const MethodInfo* get() {
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRInitError")->this_arg;
     static auto* eApplicationType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationType")->byval_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -54,13 +55,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kAfterCutAngleFor1Rating
     static void _set_kAfterCutAngleFor1Rating(float value);
     // static private System.Single NormalRating(System.Single normalDiff)
-    // Offset: 0x114C8E4
+    // Offset: 0x1F7D2F8
     static float NormalRating(float normalDiff);
     // static public System.Single BeforeCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0x114C63C
+    // Offset: 0x1F7D050
     static float BeforeCutStepRating(float angleDiff, float normalDiff);
     // static public System.Single AfterCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0x114C978
+    // Offset: 0x1F7D38C
     static float AfterCutStepRating(float angleDiff, float normalDiff);
   }; // SaberSwingRating
   #pragma pack(pop)

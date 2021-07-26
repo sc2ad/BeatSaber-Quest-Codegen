@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,10 +37,10 @@ namespace Oculus::Platform {
     // Set instance field: private System.IntPtr Handle
     void _set_Handle(System::IntPtr value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
-    // Offset: 0x1497F10
+    // Offset: 0x20F3D84
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1497E98
+    // Offset: 0x20F3D0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,7 +49,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<InviteOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1497F60
+    // Offset: 0x20F3DD4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

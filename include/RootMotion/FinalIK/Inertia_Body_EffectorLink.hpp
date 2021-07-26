@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body
 #include "RootMotion/FinalIK/Inertia_Body.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -21,14 +22,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Inertia::Body::EffectorLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF8FA8
+    // [TooltipAttribute] Offset: 0xEA5BC4
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF8FE0
+    // [TooltipAttribute] Offset: 0xEA5BFC
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -46,7 +47,7 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single weight
     void _set_weight(float value);
     // public System.Void .ctor()
-    // Offset: 0x1E32148
+    // Offset: 0x19933DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

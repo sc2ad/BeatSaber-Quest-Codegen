@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -52,17 +53,17 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: public UnityEngine.Vector2 scale
     void _set_scale(UnityEngine::Vector2 value);
     // public System.Void .ctor(UnityEngine.Vector2 position, System.Single rotation, UnityEngine.Vector2 scale)
-    // Offset: 0x22AA4C0
+    // Offset: 0x1D7B334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform2D* New_ctor(UnityEngine::Vector2 position, float rotation, UnityEngine::Vector2 scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Transform2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform2D*, creationType>(position, rotation, scale)));
     }
     // public UnityEngine.Vector2 TransformPoint(UnityEngine.Vector2 p)
-    // Offset: 0x22AA51C
+    // Offset: 0x1D7B390
     UnityEngine::Vector2 TransformPoint(UnityEngine::Vector2 p);
     // public override System.String ToString()
-    // Offset: 0x22AA5F0
+    // Offset: 0x1D7B464
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

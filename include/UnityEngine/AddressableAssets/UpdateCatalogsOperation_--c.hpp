@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.UpdateCatalogsOperation
 #include "UnityEngine/AddressableAssets/UpdateCatalogsOperation.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static public System.Func`2<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider,System.Boolean> <>9__4_0
     static void _set_$$9__4_0(System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23936A0
+    // Offset: 0x1E0B688
     static void _cctor();
     // System.Boolean <Start>b__4_0(UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider rp)
-    // Offset: 0x239370C
+    // Offset: 0x1E0B6F4
     bool $Start$b__4_0(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
     // public System.Void .ctor()
-    // Offset: 0x2393704
+    // Offset: 0x1E0B6EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

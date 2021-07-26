@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.ReadState
 #include "System/Net/ReadState.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -133,26 +134,26 @@ namespace System::Net {
     // Set instance field: private System.Net.ReadState _readState
     void _set__readState(System::Net::ReadState value);
     // public System.Net.HttpWebRequest get_request()
-    // Offset: 0x1595EE8
+    // Offset: 0x12994B8
     System::Net::HttpWebRequest* get_request();
     // public System.Void set_request(System.Net.HttpWebRequest value)
-    // Offset: 0x1595EF0
+    // Offset: 0x12994C0
     void set_request(System::Net::HttpWebRequest* value);
     // public System.Net.ReadState get_ReadState()
-    // Offset: 0x1595EF8
+    // Offset: 0x12994C8
     System::Net::ReadState get_ReadState();
     // public System.Void set_ReadState(System.Net.ReadState value)
-    // Offset: 0x1592B04
+    // Offset: 0x12960D4
     void set_ReadState(System::Net::ReadState value);
     // public System.Void .ctor(System.Net.HttpWebRequest request)
-    // Offset: 0x1593720
+    // Offset: 0x1296CF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionData* New_ctor(System::Net::HttpWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>(request)));
     }
     // public System.Void .ctor()
-    // Offset: 0x158FA78
+    // Offset: 0x1293048
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

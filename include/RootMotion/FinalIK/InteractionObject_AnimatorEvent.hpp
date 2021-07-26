@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject
 #include "RootMotion/FinalIK/InteractionObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -33,42 +34,42 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::AnimatorEvent : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xDF7674
+    // [TooltipAttribute] Offset: 0xEA4290
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF76AC
+    // [TooltipAttribute] Offset: 0xEA42C8
     // public UnityEngine.Animation animation
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Animation* animation;
     // Field size check
     static_assert(sizeof(UnityEngine::Animation*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF76E4
+    // [TooltipAttribute] Offset: 0xEA4300
     // public System.String animationState
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* animationState;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDF771C
+    // [TooltipAttribute] Offset: 0xEA4338
     // public System.Single crossfadeTime
     // Size: 0x4
     // Offset: 0x28
     float crossfadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF7754
+    // [TooltipAttribute] Offset: 0xEA4370
     // public System.Int32 layer
     // Size: 0x4
     // Offset: 0x2C
     int layer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF778C
+    // [TooltipAttribute] Offset: 0xEA43A8
     // public System.Boolean resetNormalizedTime
     // Size: 0x1
     // Offset: 0x30
@@ -108,16 +109,16 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Boolean resetNormalizedTime
     void _set_resetNormalizedTime(bool value);
     // public System.Void Activate(System.Boolean pickUp)
-    // Offset: 0x1E36844
+    // Offset: 0x1997AD8
     void Activate(bool pickUp);
     // private System.Void Activate(UnityEngine.Animator animator)
-    // Offset: 0x1E36938
+    // Offset: 0x1997BCC
     void Activate(UnityEngine::Animator* animator);
     // private System.Void Activate(UnityEngine.Animation animation)
-    // Offset: 0x1E369F0
+    // Offset: 0x1997C84
     void Activate(UnityEngine::Animation* animation);
     // public System.Void .ctor()
-    // Offset: 0x1E36AD0
+    // Offset: 0x1997D64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

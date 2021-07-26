@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MainMenuDestinationRequestController
 #include "GlobalNamespace/MainMenuDestinationRequestController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace GlobalNamespace {
     // Set instance field: public MenuDestination menuDestination
     void _set_menuDestination(GlobalNamespace::MenuDestination* value);
     // System.Void <ProcessDestinationRequest>b__0(Zenject.DiContainer container)
-    // Offset: 0x117B614
+    // Offset: 0x1FAB028
     void $ProcessDestinationRequest$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x117B60C
+    // Offset: 0x1FAB020
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

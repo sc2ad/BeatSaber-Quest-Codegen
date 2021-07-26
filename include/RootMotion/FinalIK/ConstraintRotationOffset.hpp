@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Constraint
 #include "RootMotion/FinalIK/Constraint.hpp"
 // Including type: UnityEngine.Quaternion
@@ -91,17 +92,17 @@ namespace RootMotion::FinalIK {
     // Set instance field: private System.Boolean initiated
     void _set_initiated(bool value);
     // private System.Boolean get_rotationChanged()
-    // Offset: 0x1CE1030
+    // Offset: 0x187DDD0
     bool get_rotationChanged();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1CE1108
+    // Offset: 0x187DEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintRotationOffset* New_ctor(UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintRotationOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotationOffset*, creationType>(transform)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1CE1100
+    // Offset: 0x187DEA0
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -111,7 +112,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotationOffset*, creationType>()));
     }
     // public override System.Void UpdateConstraint()
-    // Offset: 0x1CE0E90
+    // Offset: 0x187DC30
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();

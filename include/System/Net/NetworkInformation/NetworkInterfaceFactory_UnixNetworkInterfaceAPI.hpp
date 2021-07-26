@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.NetworkInterfaceFactory
 #include "System/Net/NetworkInformation/NetworkInterfaceFactory.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,13 +30,13 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixNetworkInterfaceAPI
     UnixNetworkInterfaceAPI() noexcept {}
     // static protected System.Int32 getifaddrs(out System.IntPtr ifap)
-    // Offset: 0x1462A88
-    static int getifaddrs(System::IntPtr& ifap);
+    // Offset: 0x11D3AE8
+    static int getifaddrs(ByRef<System::IntPtr> ifap);
     // static protected System.Void freeifaddrs(System.IntPtr ifap)
-    // Offset: 0x1462A04
+    // Offset: 0x11D3A64
     static void freeifaddrs(System::IntPtr ifap);
     // protected System.Void .ctor()
-    // Offset: 0x14634B4
+    // Offset: 0x11D4514
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -52,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory:
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs
 // Il2CppName: getifaddrs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr&)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<System::IntPtr>)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs)> {
   static const MethodInfo* get() {
     static auto* ifap = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), "getifaddrs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ifap});

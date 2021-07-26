@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,34 +40,34 @@ namespace System {
     // Set static field: static private System.Boolean called_isatty
     static void _set_called_isatty(bool value);
     // static public System.Boolean get_IsConsole()
-    // Offset: 0x194E1F8
+    // Offset: 0x161F5FC
     static bool get_IsConsole();
     // static private System.Void .cctor()
-    // Offset: 0x194F94C
+    // Offset: 0x1620D50
     static void _cctor();
     // static private System.IConsoleDriver CreateNullConsoleDriver()
-    // Offset: 0x194FA0C
+    // Offset: 0x1620E10
     static System::IConsoleDriver* CreateNullConsoleDriver();
     // static private System.IConsoleDriver CreateWindowsConsoleDriver()
-    // Offset: 0x194FA68
+    // Offset: 0x1620E6C
     static System::IConsoleDriver* CreateWindowsConsoleDriver();
     // static private System.IConsoleDriver CreateTermInfoDriver(System.String term)
-    // Offset: 0x194FAC4
+    // Offset: 0x1620EC8
     static System::IConsoleDriver* CreateTermInfoDriver(::Il2CppString* term);
     // static public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x194EA14
+    // Offset: 0x161FE18
     static System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean Isatty(System.IntPtr handle)
-    // Offset: 0x194FB28
+    // Offset: 0x1620F2C
     static bool Isatty(System::IntPtr handle);
     // static System.Int32 InternalKeyAvailable(System.Int32 ms_timeout)
-    // Offset: 0x194FB2C
+    // Offset: 0x1620F30
     static int InternalKeyAvailable(int ms_timeout);
     // static System.Boolean TtySetup(System.String keypadXmit, System.String teardown, out System.Byte[] control_characters, out System.Int32* address)
-    // Offset: 0x194FB30
-    static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ::Array<uint8_t>*& control_characters, int*& address);
+    // Offset: 0x1620F34
+    static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ByRef<::Array<uint8_t>*> control_characters, ByRef<int*> address);
     // static System.Boolean SetEcho(System.Boolean wantEcho)
-    // Offset: 0x194FB34
+    // Offset: 0x1620F38
     static bool SetEcho(bool wantEcho);
   }; // System.ConsoleDriver
   #pragma pack(pop)
@@ -145,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::ConsoleDriver::TtySetup
 // Il2CppName: TtySetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*&, int*&)>(&System::ConsoleDriver::TtySetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ByRef<::Array<uint8_t>*>, ByRef<int*>)>(&System::ConsoleDriver::TtySetup)> {
   static const MethodInfo* get() {
     static auto* keypadXmit = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* teardown = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

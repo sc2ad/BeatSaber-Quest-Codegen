@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -106,38 +107,38 @@ namespace UnityEngine::ProBuilder {
     // Set instance field: private System.String <notification>k__BackingField
     void _set_$notification$k__BackingField(::Il2CppString* value);
     // public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status get_status()
-    // Offset: 0x1F2DC88
+    // Offset: 0x1A2A7F0
     UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status value)
-    // Offset: 0x1F2DC90
+    // Offset: 0x1A2A7F8
     void set_status(UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x1F2DC98
+    // Offset: 0x1A2A800
     ::Il2CppString* get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x1F2DCA0
+    // Offset: 0x1A2A808
     void set_notification(::Il2CppString* value);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x1F2DDA4
+    // Offset: 0x1A2A90C
     static UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x1F2DE14
+    // Offset: 0x1A2A97C
     static UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x1F2DE88
+    // Offset: 0x1A2A9F0
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status status, System.String notification)
-    // Offset: 0x1F2DCA8
+    // Offset: 0x1A2A810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(UnityEngine::ProBuilder::ActionResult::Status status, ::Il2CppString* notification) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()
-    // Offset: 0x1F2DCF8
+    // Offset: 0x1A2A860
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x1F2DD08
+    // Offset: 0x1A2A870
     static bool FromBool(bool success);
   }; // UnityEngine.ProBuilder.ActionResult
   #pragma pack(pop)

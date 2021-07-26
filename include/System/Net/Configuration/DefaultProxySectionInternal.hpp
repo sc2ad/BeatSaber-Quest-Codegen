@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -45,22 +46,22 @@ namespace System::Net::Configuration {
     // Set instance field: private System.Net.IWebProxy webProxy
     void _set_webProxy(System::Net::IWebProxy* value);
     // static System.Object get_ClassSyncObject()
-    // Offset: 0x1694C7C
+    // Offset: 0x1397338
     static ::Il2CppObject* get_ClassSyncObject();
     // System.Net.IWebProxy get_WebProxy()
-    // Offset: 0x1694DF8
+    // Offset: 0x13974B4
     System::Net::IWebProxy* get_WebProxy();
     // static private System.Net.IWebProxy GetDefaultProxy_UsingOldMonoCode()
-    // Offset: 0x1694C6C
+    // Offset: 0x1397328
     static System::Net::IWebProxy* GetDefaultProxy_UsingOldMonoCode();
     // static private System.Net.IWebProxy GetSystemWebProxy()
-    // Offset: 0x1694C74
+    // Offset: 0x1397330
     static System::Net::IWebProxy* GetSystemWebProxy();
     // static System.Net.Configuration.DefaultProxySectionInternal GetSection()
-    // Offset: 0x1694D10
+    // Offset: 0x13973CC
     static System::Net::Configuration::DefaultProxySectionInternal* GetSection();
     // public System.Void .ctor()
-    // Offset: 0x1694DF0
+    // Offset: 0x13974AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

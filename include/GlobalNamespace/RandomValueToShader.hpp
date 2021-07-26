@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,7 +30,7 @@ namespace GlobalNamespace {
     RandomValueToShader(int lastFrameNum_ = {}) noexcept : lastFrameNum{lastFrameNum_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE0FE8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE8EC04
     // Get static field: static private readonly System.Int32 _randomValueID
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID
@@ -39,10 +40,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _lastFrameNum
     void _set__lastFrameNum(int value);
     // public System.Void SetRandomValueToShaders()
-    // Offset: 0x1DEF9C0
+    // Offset: 0x19625A0
     void SetRandomValueToShaders();
     // public System.Void .ctor()
-    // Offset: 0x1DF8EAC
+    // Offset: 0x196BA8C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -54,7 +55,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RandomValueToShader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DF8EBC
+    // Offset: 0x196BA9C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

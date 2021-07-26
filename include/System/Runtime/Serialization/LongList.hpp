@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -60,35 +61,35 @@ namespace System::Runtime::Serialization {
     // Set instance field: private System.Int32 m_currentItem
     void _set_m_currentItem(int value);
     // System.Int32 get_Count()
-    // Offset: 0x167BA80
+    // Offset: 0x137E13C
     int get_Count();
     // System.Int64 get_Current()
-    // Offset: 0x167BAFC
+    // Offset: 0x137E1B8
     int64_t get_Current();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x167B8F0
+    // Offset: 0x137DFAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::LongList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Int64 value)
-    // Offset: 0x167B964
+    // Offset: 0x137E020
     void Add(int64_t value);
     // System.Void StartEnumeration()
-    // Offset: 0x167BA88
+    // Offset: 0x137E144
     void StartEnumeration();
     // System.Boolean MoveNext()
-    // Offset: 0x167BA94
+    // Offset: 0x137E150
     bool MoveNext();
     // System.Boolean RemoveElement(System.Int64 value)
-    // Offset: 0x167BB3C
+    // Offset: 0x137E1F8
     bool RemoveElement(int64_t value);
     // private System.Void EnlargeArray()
-    // Offset: 0x167B9F0
+    // Offset: 0x137E0AC
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x167B8E8
+    // Offset: 0x137DFA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

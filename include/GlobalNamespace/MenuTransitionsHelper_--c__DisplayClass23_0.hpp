@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuTransitionsHelper
 #include "GlobalNamespace/MenuTransitionsHelper.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -67,10 +68,10 @@ namespace GlobalNamespace {
     // Set instance field: public LevelCompletionResults levelCompletionResults
     void _set_levelCompletionResults(GlobalNamespace::LevelCompletionResults* value);
     // System.Void <HandleMainGameSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x11819D0
+    // Offset: 0x1FB13E4
     void $HandleMainGameSceneDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x11811D8
+    // Offset: 0x1FB0BEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

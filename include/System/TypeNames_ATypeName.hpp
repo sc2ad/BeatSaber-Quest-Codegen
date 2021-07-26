@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TypeNames
 #include "System/TypeNames.hpp"
 // Including type: System.TypeName
@@ -31,10 +32,10 @@ namespace System {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_DisplayName();
     // public System.Boolean Equals(System.TypeName other)
-    // Offset: 0x22CE8D0
+    // Offset: 0x1D89E04
     bool Equals(System::TypeName* other);
     // protected System.Void .ctor()
-    // Offset: 0x22CD6E4
+    // Offset: 0x1D88C18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -43,12 +44,12 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<TypeNames::ATypeName*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22CE9BC
+    // Offset: 0x1D89EF0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x22CE9E8
+    // Offset: 0x1D89F1C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);

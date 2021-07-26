@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,22 +42,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action _event
     void _set__event(System::Action* value);
     // private System.Void add__event(System.Action value)
-    // Offset: 0x2359624
+    // Offset: 0x1DE1A64
     void add__event(System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0x23596C8
+    // Offset: 0x1DE1B08
     void remove__event(System::Action* value);
     // public System.Void Raise()
-    // Offset: 0x235976C
+    // Offset: 0x1DE1BAC
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0x2359780
+    // Offset: 0x1DE1BC0
     void Subscribe(System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0x23597AC
+    // Offset: 0x1DE1BEC
     void Unsubscribe(System::Action* foo);
     // public System.Void .ctor()
-    // Offset: 0x23597B0
+    // Offset: 0x1DE1BF0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

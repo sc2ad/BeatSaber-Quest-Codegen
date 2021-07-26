@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.ParticleSystem _particleSystem
     void _set__particleSystem(UnityEngine::ParticleSystem* value);
     // public System.Void Emit(System.Int32 count)
-    // Offset: 0x101F4D4
+    // Offset: 0x1E89FA8
     void Emit(int count);
     // public System.Void .ctor()
-    // Offset: 0x101F4F0
+    // Offset: 0x1E89FC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuRpcManager
 #include "GlobalNamespace/MenuRpcManager.hpp"
 // Including type: RemoteProcedureCall`2
@@ -23,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SetIsEntitledToLevelRpc
     SetIsEntitledToLevelRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x153544C
+    // Offset: 0x2141AB0
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

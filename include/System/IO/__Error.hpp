@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -16,43 +17,43 @@ namespace System::IO {
     // Creating value type constructor for type: __Error
     __Error() noexcept {}
     // static System.Void EndOfFile()
-    // Offset: 0x17F75E0
+    // Offset: 0x14C79E4
     static void EndOfFile();
     // static System.Void FileNotOpen()
-    // Offset: 0x17F7660
+    // Offset: 0x14C7A64
     static void FileNotOpen();
     // static System.Void StreamIsClosed()
-    // Offset: 0x17F5E64
+    // Offset: 0x14C6268
     static void StreamIsClosed();
     // static System.Void MemoryStreamNotExpandable()
-    // Offset: 0x17F76E4
+    // Offset: 0x14C7AE8
     static void MemoryStreamNotExpandable();
     // static System.Void ReaderClosed()
-    // Offset: 0x17F21C0
+    // Offset: 0x14C25C4
     static void ReaderClosed();
     // static System.Void ReadNotSupported()
-    // Offset: 0x17F6470
+    // Offset: 0x14C6874
     static void ReadNotSupported();
     // static System.Void WrongAsyncResult()
-    // Offset: 0x17F7760
+    // Offset: 0x14C7B64
     static void WrongAsyncResult();
     // static System.Void EndReadCalledTwice()
-    // Offset: 0x17F77E0
+    // Offset: 0x14C7BE4
     static void EndReadCalledTwice();
     // static System.Void EndWriteCalledTwice()
-    // Offset: 0x17F7860
+    // Offset: 0x14C7C64
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
-    // Offset: 0x17F78E0
+    // Offset: 0x14C7CE4
     static ::Il2CppString* GetDisplayablePath(::Il2CppString* path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
-    // Offset: 0x17F7A18
+    // Offset: 0x14C7E1C
     static void WinIOError(int errorCode, ::Il2CppString* maybeFullPath);
     // static System.Void WriteNotSupported()
-    // Offset: 0x17F6C8C
+    // Offset: 0x14C7090
     static void WriteNotSupported();
     // static System.Void WriterClosed()
-    // Offset: 0x17F2AB4
+    // Offset: 0x14C2EB8
     static void WriterClosed();
   }; // System.IO.__Error
   #pragma pack(pop)

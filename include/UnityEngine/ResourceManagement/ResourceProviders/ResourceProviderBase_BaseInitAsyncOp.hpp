@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 #include "UnityEngine/ResourceManagement/ResourceProviders/ResourceProviderBase.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
@@ -45,10 +46,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Set instance field: private System.Func`1<System.Boolean> m_CallBack
     void _set_m_CallBack(System::Func_1<bool>* value);
     // public System.Void Init(System.Func`1<System.Boolean> callback)
-    // Offset: 0x19B9DD4
+    // Offset: 0x1671EC8
     void Init(System::Func_1<bool>* callback);
     // public System.Void .ctor()
-    // Offset: 0x19B9D50
+    // Offset: 0x1671E44
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -58,12 +59,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase::BaseInitAsyncOp*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x19B9DDC
+    // Offset: 0x1671ED0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x19B9E54
+    // Offset: 0x1671F48
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelFilteringNavigationController
 #include "GlobalNamespace/LevelFilteringNavigationController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set instance field: public IBeatmapLevelPack levelPack
     void _set_levelPack(GlobalNamespace::IBeatmapLevelPack* value);
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
-    // Offset: 0x10F923C
+    // Offset: 0x1F4B250
     bool $SelectAnnotatedBeatmapLevelCollection$b__1(::Il2CppString* packID);
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__3(System.String packID)
-    // Offset: 0x10F9308
+    // Offset: 0x1F4B31C
     bool $SelectAnnotatedBeatmapLevelCollection$b__3(::Il2CppString* packID);
     // public System.Void .ctor()
-    // Offset: 0x10F8DFC
+    // Offset: 0x1F4AE10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

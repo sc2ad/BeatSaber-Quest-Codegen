@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
@@ -60,35 +61,35 @@ namespace GlobalNamespace {
     // Set instance field: private System.IntPtr m_ptr
     void _set_m_ptr(System::IntPtr value);
     // public System.Void .ctor(System.Int32 numBytes)
-    // Offset: 0x12E6BE4
+    // Offset: 0x10A8B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNativeBuffer* New_ctor(int numBytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRNativeBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNativeBuffer*, creationType>(numBytes)));
     }
     // public System.Void Reset(System.Int32 numBytes)
-    // Offset: 0x12E6D94
+    // Offset: 0x10A8D04
     void Reset(int numBytes);
     // public System.Int32 GetCapacity()
-    // Offset: 0x12E6D98
+    // Offset: 0x10A8D08
     int GetCapacity();
     // public System.IntPtr GetPointer(System.Int32 byteOffset)
-    // Offset: 0x12E6DA0
+    // Offset: 0x10A8D10
     System::IntPtr GetPointer(int byteOffset);
     // public System.Void Dispose()
-    // Offset: 0x12E6E34
+    // Offset: 0x10A8DA4
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x12E6D60
+    // Offset: 0x10A8CD0
     void Dispose(bool disposing);
     // private System.Void Reallocate(System.Int32 numBytes)
-    // Offset: 0x12E6C48
+    // Offset: 0x10A8BB8
     void Reallocate(int numBytes);
     // private System.Void Release()
-    // Offset: 0x12E6EB4
+    // Offset: 0x10A8E24
     void Release();
     // protected override System.Void Finalize()
-    // Offset: 0x12E6CE4
+    // Offset: 0x10A8C54
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

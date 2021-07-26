@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: ILevelRestartController
@@ -36,7 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE06D58
+    // [InjectAttribute] Offset: 0xEB3974
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
@@ -60,10 +61,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     void _set__prepareLevelCompletionResults(GlobalNamespace::PrepareLevelCompletionResults* value);
     // public System.Void RestartLevel()
-    // Offset: 0x1066A5C
+    // Offset: 0x1ED2530
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0x1066AA4
+    // Offset: 0x1ED2578
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

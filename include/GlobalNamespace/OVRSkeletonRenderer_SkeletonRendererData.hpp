@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSkeletonRenderer
 #include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 // Including type: System.ValueType
@@ -64,28 +65,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     void _set_$ShouldUseSystemGestureMaterial$k__BackingField(bool value);
     // public System.Single get_RootScale()
-    // Offset: 0xEFAB5C
+    // Offset: 0xD884E8
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0xEFAB64
+    // Offset: 0xD884F0
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xEFAB6C
+    // Offset: 0xD884F8
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xEFAB74
+    // Offset: 0xD88500
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xEFAB80
+    // Offset: 0xD8850C
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xEFAB88
+    // Offset: 0xD88514
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xEFAB94
+    // Offset: 0xD88520
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xEFAB9C
+    // Offset: 0xD88528
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
   #pragma pack(pop)

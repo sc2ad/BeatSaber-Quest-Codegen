@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GenericSignal`1
 #include "GlobalNamespace/GenericSignal_1.hpp"
 // Including type: UnityEngine.Color
@@ -23,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSignal
     ColorSignal() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x120F288
+    // Offset: 0x203BBE0
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

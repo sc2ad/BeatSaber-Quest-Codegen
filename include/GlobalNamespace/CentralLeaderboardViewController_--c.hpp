@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CentralLeaderboardViewController
 #include "GlobalNamespace/CentralLeaderboardViewController.hpp"
 // Including type: HMUI.IconSegmentedControl
@@ -54,19 +55,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
     static void _set_$$9__37_0(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x107ACF0
+    // Offset: 0x1EFC5EC
     static void _cctor();
     // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0x107AD5C
+    // Offset: 0x1EFC658
     ::Il2CppString* $DidActivate$b__26_1(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/HMUI.DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0x107AD74
+    // Offset: 0x1EFC670
     HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
-    // Offset: 0x107ADF0
+    // Offset: 0x1EFC6EC
     ::Il2CppString* $LoadScoresAsync$b__37_0(GlobalNamespace::GameplayModifierParamsSO* m);
     // public System.Void .ctor()
-    // Offset: 0x107AD54
+    // Offset: 0x1EFC650
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

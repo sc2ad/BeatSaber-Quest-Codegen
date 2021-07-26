@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -206,63 +207,63 @@ namespace System::Net {
     // Set instance field: private System.Collections.ArrayList chunks
     void _set_chunks(System::Collections::ArrayList* value);
     // public System.Boolean get_WantMore()
-    // Offset: 0x1643C00
+    // Offset: 0x13462BC
     bool get_WantMore();
     // public System.Boolean get_DataAvailable()
-    // Offset: 0x1643C28
+    // Offset: 0x13462E4
     bool get_DataAvailable();
     // public System.Int32 get_ChunkLeft()
-    // Offset: 0x1643D30
+    // Offset: 0x13463EC
     int get_ChunkLeft();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.WebHeaderCollection headers)
-    // Offset: 0x1642DD0
+    // Offset: 0x134548C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream* New_ctor(::Array<uint8_t>* buffer, int offset, int size, System::Net::WebHeaderCollection* headers) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream*, creationType>(buffer, offset, size, headers)));
     }
     // public System.Void .ctor(System.Net.WebHeaderCollection headers)
-    // Offset: 0x1642E30
+    // Offset: 0x13454EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream* New_ctor(System::Net::WebHeaderCollection* headers) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream*, creationType>(headers)));
     }
     // public System.Void ResetBuffer()
-    // Offset: 0x1642F04
+    // Offset: 0x13455C0
     void ResetBuffer();
     // public System.Void WriteAndReadBack(System.Byte[] buffer, System.Int32 offset, System.Int32 size, ref System.Int32 read)
-    // Offset: 0x1642F38
-    void WriteAndReadBack(::Array<uint8_t>* buffer, int offset, int size, int& read);
+    // Offset: 0x13455F4
+    void WriteAndReadBack(::Array<uint8_t>* buffer, int offset, int size, ByRef<int> read);
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1642FB8
+    // Offset: 0x1345674
     int Read(::Array<uint8_t>* buffer, int offset, int size);
     // private System.Int32 ReadFromChunks(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1642FBC
+    // Offset: 0x1345678
     int ReadFromChunks(::Array<uint8_t>* buffer, int offset, int size);
     // public System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1642ED8
+    // Offset: 0x1345594
     void Write(::Array<uint8_t>* buffer, int offset, int size);
     // private System.Void InternalWrite(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x1643284
-    void InternalWrite(::Array<uint8_t>* buffer, int& offset, int size);
+    // Offset: 0x1345940
+    void InternalWrite(::Array<uint8_t>* buffer, ByRef<int> offset, int size);
     // private System.Net.MonoChunkStream/System.Net.State ReadBody(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x16436BC
-    System::Net::MonoChunkStream::State ReadBody(::Array<uint8_t>* buffer, int& offset, int size);
+    // Offset: 0x1345D78
+    System::Net::MonoChunkStream::State ReadBody(::Array<uint8_t>* buffer, ByRef<int> offset, int size);
     // private System.Net.MonoChunkStream/System.Net.State GetChunkSize(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x16433C4
-    System::Net::MonoChunkStream::State GetChunkSize(::Array<uint8_t>* buffer, int& offset, int size);
+    // Offset: 0x1345A80
+    System::Net::MonoChunkStream::State GetChunkSize(::Array<uint8_t>* buffer, ByRef<int> offset, int size);
     // static private System.String RemoveChunkExtension(System.String input)
-    // Offset: 0x1643DDC
+    // Offset: 0x1346498
     static ::Il2CppString* RemoveChunkExtension(::Il2CppString* input);
     // private System.Net.MonoChunkStream/System.Net.State ReadCRLF(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x16437EC
-    System::Net::MonoChunkStream::State ReadCRLF(::Array<uint8_t>* buffer, int& offset, int size);
+    // Offset: 0x1345EA8
+    System::Net::MonoChunkStream::State ReadCRLF(::Array<uint8_t>* buffer, ByRef<int> offset, int size);
     // private System.Net.MonoChunkStream/System.Net.State ReadTrailer(System.Byte[] buffer, ref System.Int32 offset, System.Int32 size)
-    // Offset: 0x16438FC
-    System::Net::MonoChunkStream::State ReadTrailer(::Array<uint8_t>* buffer, int& offset, int size);
+    // Offset: 0x1345FB8
+    System::Net::MonoChunkStream::State ReadTrailer(::Array<uint8_t>* buffer, ByRef<int> offset, int size);
     // static private System.Void ThrowProtocolViolation(System.String message)
-    // Offset: 0x1643D68
+    // Offset: 0x1346424
     static void ThrowProtocolViolation(::Il2CppString* message);
   }; // System.Net.MonoChunkStream
   #pragma pack(pop)
@@ -315,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::WriteAndReadBack
 // Il2CppName: WriteAndReadBack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, int, int, int&)>(&System::Net::MonoChunkStream::WriteAndReadBack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, int, int, ByRef<int>)>(&System::Net::MonoChunkStream::WriteAndReadBack)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::InternalWrite
 // Il2CppName: InternalWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, int&, int)>(&System::Net::MonoChunkStream::InternalWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, ByRef<int>, int)>(&System::Net::MonoChunkStream::InternalWrite)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -371,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::ReadBody
 // Il2CppName: ReadBody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, int&, int)>(&System::Net::MonoChunkStream::ReadBody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, ByRef<int>, int)>(&System::Net::MonoChunkStream::ReadBody)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -382,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::GetChunkSize
 // Il2CppName: GetChunkSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, int&, int)>(&System::Net::MonoChunkStream::GetChunkSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, ByRef<int>, int)>(&System::Net::MonoChunkStream::GetChunkSize)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -402,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::ReadCRLF
 // Il2CppName: ReadCRLF
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, int&, int)>(&System::Net::MonoChunkStream::ReadCRLF)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, ByRef<int>, int)>(&System::Net::MonoChunkStream::ReadCRLF)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -413,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::ReadTrailer
 // Il2CppName: ReadTrailer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, int&, int)>(&System::Net::MonoChunkStream::ReadTrailer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::MonoChunkStream::State (System::Net::MonoChunkStream::*)(::Array<uint8_t>*, ByRef<int>, int)>(&System::Net::MonoChunkStream::ReadTrailer)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

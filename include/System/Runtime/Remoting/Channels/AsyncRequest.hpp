@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -49,7 +50,7 @@ namespace System::Runtime::Remoting::Channels {
     // Set instance field: System.Runtime.Remoting.Messaging.IMessage MsgRequest
     void _set_MsgRequest(System::Runtime::Remoting::Messaging::IMessage* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessage msgRequest, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x13F6AEC
+    // Offset: 0x119F74C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncRequest* New_ctor(System::Runtime::Remoting::Messaging::IMessage* msgRequest, System::Runtime::Remoting::Messaging::IMessageSink* replySink) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::AsyncRequest::.ctor");

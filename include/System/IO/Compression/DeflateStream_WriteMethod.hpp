@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.Compression.DeflateStream
 #include "System/IO/Compression/DeflateStream.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace System::IO::Compression {
     // Creating value type constructor for type: WriteMethod
     WriteMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1850968
+    // Offset: 0x1521D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStream::WriteMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::DeflateStream::WriteMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStream::WriteMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1851338
+    // Offset: 0x152273C
     void Invoke(::Array<uint8_t>* array, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1850978
+    // Offset: 0x1521D7C
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1850C94
+    // Offset: 0x1522098
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/System.IO.Compression.WriteMethod
   #pragma pack(pop)

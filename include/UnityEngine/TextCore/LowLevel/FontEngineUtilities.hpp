@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -22,7 +23,7 @@ namespace UnityEngine::TextCore::LowLevel {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static System.Int32 MaxValue(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x23A7CA4
+    // Offset: 0x1E20C8C
     static int MaxValue(int a, int b, int c);
   }; // UnityEngine.TextCore.LowLevel.FontEngineUtilities
   #pragma pack(pop)

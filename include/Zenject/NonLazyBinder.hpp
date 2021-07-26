@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IfNotBoundBinder
 #include "Zenject/IfNotBoundBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -30,13 +31,13 @@ namespace Zenject {
     // Creating value type constructor for type: NonLazyBinder
     NonLazyBinder() noexcept {}
     // public Zenject.IfNotBoundBinder NonLazy()
-    // Offset: 0x16C5A34
+    // Offset: 0x13C80F0
     Zenject::IfNotBoundBinder* NonLazy();
     // public Zenject.IfNotBoundBinder Lazy()
-    // Offset: 0x16C5A54
+    // Offset: 0x13C8110
     Zenject::IfNotBoundBinder* Lazy();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x16C5A2C
+    // Offset: 0x13C80E8
     // Implemented from: Zenject.IfNotBoundBinder
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

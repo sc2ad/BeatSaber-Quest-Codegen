@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.SceneManagement.LoadSceneMode
@@ -51,10 +52,10 @@ namespace UnityEngine::SceneManagement {
     // Set instance field: private UnityEngine.SceneManagement.LocalPhysicsMode m_LocalPhysicsMode
     void _set_m_LocalPhysicsMode(UnityEngine::SceneManagement::LocalPhysicsMode value);
     // public System.Void set_loadSceneMode(UnityEngine.SceneManagement.LoadSceneMode value)
-    // Offset: 0xEF5DD4
+    // Offset: 0xF84CC4
     void set_loadSceneMode(UnityEngine::SceneManagement::LoadSceneMode value);
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0xEF5DDC
+    // Offset: 0xF84CCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SceneManagement::LoadSceneParameters::.ctor");

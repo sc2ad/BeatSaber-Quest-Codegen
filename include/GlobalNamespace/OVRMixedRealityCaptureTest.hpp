@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRPlugin/Fovf
@@ -125,19 +126,19 @@ namespace GlobalNamespace {
     // Set instance field: private OVRPlugin/Fovf defaultFov
     void _set_defaultFov(GlobalNamespace::OVRPlugin::Fovf value);
     // private System.Void Start()
-    // Offset: 0x12E4DC8
+    // Offset: 0x10A6D38
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x12E4E78
+    // Offset: 0x10A6DE8
     void Initialize();
     // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0x12E52A8
+    // Offset: 0x10A7218
     void UpdateDefaultExternalCamera();
     // private System.Void Update()
-    // Offset: 0x12E5B18
+    // Offset: 0x10A7A88
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12E674C
+    // Offset: 0x10A86BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SimpleValueMissionObjectiveChecker
 #include "GlobalNamespace/SimpleValueMissionObjectiveChecker.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -28,7 +29,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xE06DF8
+    // [InjectAttribute] Offset: 0xEB3A14
     // private SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x48
@@ -42,13 +43,13 @@ namespace GlobalNamespace {
     // Set instance field: private SaberActivityCounter _saberActivityCounter
     void _set__saberActivityCounter(GlobalNamespace::SaberActivityCounter* value);
     // protected System.Void OnDestroy()
-    // Offset: 0x10E9B90
+    // Offset: 0x1F3BBA4
     void OnDestroy();
     // private System.Void HandleTotalDistanceDidChange(System.Single distance)
-    // Offset: 0x10E9C6C
+    // Offset: 0x1F3BC80
     void HandleTotalDistanceDidChange(float distance);
     // public System.Void .ctor()
-    // Offset: 0x10E9D60
+    // Offset: 0x1F3BD74
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HandsMovementMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x10E9C9C
+    // Offset: 0x1F3BCB0
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

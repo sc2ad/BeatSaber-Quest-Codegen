@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassGraphicsSettingsPresetsSO
 #include "GlobalNamespace/BloomPrePassGraphicsSettingsPresetsSO.hpp"
 // Including type: NamedPreset
@@ -43,7 +44,7 @@ namespace GlobalNamespace {
     // Set instance field: public BloomPrePassEffectSO bloomPrePassEffect
     void _set_bloomPrePassEffect(GlobalNamespace::BloomPrePassEffectSO* value);
     // public System.Void .ctor()
-    // Offset: 0x109D134
+    // Offset: 0x1EF55DC
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

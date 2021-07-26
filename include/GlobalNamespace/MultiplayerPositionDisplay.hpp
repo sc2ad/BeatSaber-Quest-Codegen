@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -79,14 +80,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fadeOutDuration and: scoreProvider
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0xE08AD4
+    // [InjectAttribute] Offset: 0xEB56F0
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE08AE4
+    // [InjectAttribute] Offset: 0xEB5700
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x68
@@ -206,31 +207,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _colorAnimationStartDuration
     void _set__colorAnimationStartDuration(float value);
     // protected System.Void Start()
-    // Offset: 0x1003BF8
+    // Offset: 0x1E571AC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1003DC8
+    // Offset: 0x1E5737C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1003FDC
+    // Offset: 0x1E57590
     void Update();
     // private System.Void UpdateColors()
-    // Offset: 0x1004038
+    // Offset: 0x1E575EC
     void UpdateColors();
     // private System.Void UpdatePosition()
-    // Offset: 0x10040D8
+    // Offset: 0x1E5768C
     void UpdatePosition();
     // private System.Void HandlePlayerFailed()
-    // Offset: 0x1004250
+    // Offset: 0x1E57804
     void HandlePlayerFailed();
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer obj)
-    // Offset: 0x1004334
+    // Offset: 0x1E578E8
     void HandleFirstPlayerDidChange(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* obj);
     // private System.Void ChangeColor(UnityEngine.Color toColor, System.Single duration)
-    // Offset: 0x1003F54
+    // Offset: 0x1E57508
     void ChangeColor(UnityEngine::Color toColor, float duration);
     // public System.Void .ctor()
-    // Offset: 0x10043E8
+    // Offset: 0x1E5799C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

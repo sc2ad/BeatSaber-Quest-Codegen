@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.KeyCode
@@ -152,22 +153,22 @@ namespace GlobalNamespace {
     // Set instance field: private OVRCameraRig CameraController
     void _set_CameraController(GlobalNamespace::OVRCameraRig* value);
     // private System.Void Update()
-    // Offset: 0x14E0FB0
+    // Offset: 0x1225A4C
     void Update();
     // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
-    // Offset: 0x14E1218
-    void SetOVRCameraController(GlobalNamespace::OVRCameraRig*& cameraController);
+    // Offset: 0x1225CB4
+    void SetOVRCameraController(ByRef<GlobalNamespace::OVRCameraRig*> cameraController);
     // private System.Void UpdateCubeGrid()
-    // Offset: 0x14E0FB4
+    // Offset: 0x1225A50
     void UpdateCubeGrid();
     // private System.Void CreateCubeGrid()
-    // Offset: 0x14E1224
+    // Offset: 0x1225CC0
     void CreateCubeGrid();
     // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
-    // Offset: 0x14E15D0
+    // Offset: 0x122606C
     void CubeGridSwitchColor(bool CubeSwitchColor);
     // public System.Void .ctor()
-    // Offset: 0x14E1974
+    // Offset: 0x1226410
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -197,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::SetOVRCameraController
 // Il2CppName: SetOVRCameraController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)(GlobalNamespace::OVRCameraRig*&)>(&GlobalNamespace::OVRGridCube::SetOVRCameraController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)(ByRef<GlobalNamespace::OVRCameraRig*>)>(&GlobalNamespace::OVRGridCube::SetOVRCameraController)> {
   static const MethodInfo* get() {
     static auto* cameraController = &::il2cpp_utils::GetClassFromName("", "OVRCameraRig")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "SetOVRCameraController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraController});

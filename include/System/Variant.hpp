@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
@@ -230,7 +231,7 @@ namespace System {
     // Set instance field: public System.BRECORD bRecord
     void _set_bRecord(System::BRECORD value);
     // public System.Void Clear()
-    // Offset: 0xF040A8
+    // Offset: 0xD91A34
     void Clear();
   }; // System.Variant
   #pragma pack(pop)

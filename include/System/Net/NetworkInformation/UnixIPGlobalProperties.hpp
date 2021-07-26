@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
 #include "System/Net/NetworkInformation/CommonUnixIPGlobalProperties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixIPGlobalProperties
     UnixIPGlobalProperties() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1461038
+    // Offset: 0x11D2098
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()
     // Base method: System.Void IPGlobalProperties::.ctor()

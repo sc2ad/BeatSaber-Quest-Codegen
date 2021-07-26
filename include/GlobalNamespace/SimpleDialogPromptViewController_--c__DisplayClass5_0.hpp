@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SimpleDialogPromptViewController
 #include "GlobalNamespace/SimpleDialogPromptViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -45,10 +46,10 @@ namespace GlobalNamespace {
     // Set instance field: public SimpleDialogPromptViewController <>4__this
     void _set_$$4__this(GlobalNamespace::SimpleDialogPromptViewController* value);
     // System.Void <DidActivate>b__0()
-    // Offset: 0x10550F0
+    // Offset: 0x1EBFBC4
     void $DidActivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1054EF4
+    // Offset: 0x1EBF9C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

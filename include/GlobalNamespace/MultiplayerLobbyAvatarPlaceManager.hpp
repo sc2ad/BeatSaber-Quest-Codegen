@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: MultiplayerLobbyAvatarPlace
@@ -34,14 +35,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLobbyAvatarPlaceManager : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xDFFED4
+    // [InjectAttribute] Offset: 0xEACAF0
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xDFFEE4
+    // [InjectAttribute] Offset: 0xEACB00
     // private readonly MultiplayerLobbyAvatarPlace/Pool _avatarPlacesPool
     // Size: 0x8
     // Offset: 0x20
@@ -91,22 +92,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _minOuterCircleRadius
     void _set__minOuterCircleRadius(float value);
     // public System.Void Activate(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x23CEAD4
+    // Offset: 0x1E71598
     void Activate(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void Deactivate()
-    // Offset: 0x23CEF50
+    // Offset: 0x1E71A14
     void Deactivate();
     // private System.Void OnDestroy()
-    // Offset: 0x23CF07C
+    // Offset: 0x1E71B40
     void OnDestroy();
     // private System.Void SpawnAllPlaces()
-    // Offset: 0x23CEADC
+    // Offset: 0x1E715A0
     void SpawnAllPlaces();
     // private System.Void DespawnAllPlaces()
-    // Offset: 0x23CEF54
+    // Offset: 0x1E71A18
     void DespawnAllPlaces();
     // public System.Void .ctor()
-    // Offset: 0x23CF080
+    // Offset: 0x1E71B44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

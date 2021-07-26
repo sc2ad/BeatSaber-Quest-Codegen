@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ISubContainerCreator
 #include "Zenject/ISubContainerCreator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,24 +64,24 @@ namespace Zenject {
     // Set instance field: private readonly Zenject.DiContainer _container
     void _set__container(Zenject::DiContainer* value);
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x16D37E8
+    // Offset: 0x13D5EA4
     Zenject::DiContainer* get_Container();
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0x16D2650
+    // Offset: 0x13D4D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorDynamicContext* New_ctor(Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorDynamicContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorDynamicContext*, creationType>(container)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
-    // Offset: 0x16D37F0
+    // Offset: 0x13D5EAC
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* parentContext);
     // protected System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context);
     // protected UnityEngine.GameObject CreateGameObject(out System.Boolean shouldMakeActive)
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);
+    UnityEngine::GameObject* CreateGameObject(ByRef<bool> shouldMakeActive);
   }; // Zenject.SubContainerCreatorDynamicContext
   #pragma pack(pop)
   static check_size<sizeof(SubContainerCreatorDynamicContext), 16 + sizeof(Zenject::DiContainer*)> __Zenject_SubContainerCreatorDynamicContextSizeCheck;
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorDynamicContext::CreateGameObject
 // Il2CppName: CreateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::SubContainerCreatorDynamicContext::*)(bool&)>(&Zenject::SubContainerCreatorDynamicContext::CreateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::SubContainerCreatorDynamicContext::*)(ByRef<bool>)>(&Zenject::SubContainerCreatorDynamicContext::CreateGameObject)> {
   static const MethodInfo* get() {
     static auto* shouldMakeActive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shouldMakeActive});

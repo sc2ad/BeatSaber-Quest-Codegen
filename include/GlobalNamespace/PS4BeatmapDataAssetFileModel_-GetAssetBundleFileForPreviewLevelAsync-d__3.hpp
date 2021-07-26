@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PS4BeatmapDataAssetFileModel
 #include "GlobalNamespace/PS4BeatmapDataAssetFileModel.hpp"
 // Including type: System.ValueType
@@ -62,10 +63,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
     void _set_$$u__1(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> value);
     // private System.Void MoveNext()
-    // Offset: 0xECFA20
+    // Offset: 0xF7B664
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xECFA28
+    // Offset: 0xF7B66C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PS4BeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__3
   // WARNING Not writing size check since size may be invalid!

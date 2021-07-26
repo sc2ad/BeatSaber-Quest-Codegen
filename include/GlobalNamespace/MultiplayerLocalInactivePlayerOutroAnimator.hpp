@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* outroPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07AB8
+    // [InjectAttribute] Offset: 0xEB46D4
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
@@ -57,10 +58,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly MultiplayerController _multiplayerController
     void _set__multiplayerController(GlobalNamespace::MultiplayerController* value);
     // protected System.Void Start()
-    // Offset: 0x23D8158
+    // Offset: 0x1E7AC1C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x23D8198
+    // Offset: 0x1E7AC5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

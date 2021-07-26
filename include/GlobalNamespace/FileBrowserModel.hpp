@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,13 +32,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FileBrowserModel
     FileBrowserModel() noexcept {}
     // static public System.Void GetContentOfDirectory(System.String direcotryPath, System.String[] extensions, System.Action`1<FileBrowserItem[]> callback)
-    // Offset: 0x102594C
+    // Offset: 0x1E90420
     static void GetContentOfDirectory(::Il2CppString* direcotryPath, ::Array<::Il2CppString*>* extensions, System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* callback);
     // static private FileBrowserItem[] GetContentOfDirectory(System.String directoryPath, System.String[] extensions)
-    // Offset: 0x1025A50
+    // Offset: 0x1E90524
     static ::Array<GlobalNamespace::FileBrowserItem*>* GetContentOfDirectory(::Il2CppString* directoryPath, ::Array<::Il2CppString*>* extensions);
     // static private System.Boolean CanOpenDirectory(System.String path)
-    // Offset: 0x1025E1C
+    // Offset: 0x1E908F0
     static bool CanOpenDirectory(::Il2CppString* path);
   }; // FileBrowserModel
   #pragma pack(pop)

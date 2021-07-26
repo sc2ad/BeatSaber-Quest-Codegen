@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -29,13 +30,13 @@ namespace Zenject {
     // Creating value type constructor for type: NoTransitionInstaller
     NoTransitionInstaller() noexcept {}
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x16C5A1C
+    // Offset: 0x13C80D8
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void PostInstall(Zenject.DiContainer container)
-    // Offset: 0x16C5A20
+    // Offset: 0x13C80DC
     void PostInstall(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x16C5A24
+    // Offset: 0x13C80E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

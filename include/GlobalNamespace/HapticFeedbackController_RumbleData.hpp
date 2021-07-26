@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HapticFeedbackController
 #include "GlobalNamespace/HapticFeedbackController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -74,7 +75,7 @@ namespace GlobalNamespace {
     // Set instance field: public System.Single frequency
     void _set_frequency(float value);
     // public System.Void .ctor()
-    // Offset: 0x121ABD8
+    // Offset: 0x2047530
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

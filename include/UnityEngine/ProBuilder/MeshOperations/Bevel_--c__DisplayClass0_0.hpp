@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.Bevel
 #include "UnityEngine/ProBuilder/MeshOperations/Bevel.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -87,13 +88,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set instance field: public System.Func`2<System.Int32,System.Int32> <>9__8
     void _set_$$9__8(System::Func_2<int, int>* value);
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
-    // Offset: 0x151696C
+    // Offset: 0x1240234
     int $BevelEdges$b__7(int x);
     // System.Int32 <BevelEdges>b__8(System.Int32 x)
-    // Offset: 0x15169B4
+    // Offset: 0x124027C
     int $BevelEdges$b__8(int x);
     // public System.Void .ctor()
-    // Offset: 0x1515C2C
+    // Offset: 0x123F4F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

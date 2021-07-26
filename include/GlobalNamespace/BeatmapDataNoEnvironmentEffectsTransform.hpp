@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,7 +26,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapDataNoEnvironmentEffectsTransform
     BeatmapDataNoEnvironmentEffectsTransform() noexcept {}
     // static public BeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x119144C
+    // Offset: 0x1FD6F84
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoEnvironmentEffectsTransform
   #pragma pack(pop)

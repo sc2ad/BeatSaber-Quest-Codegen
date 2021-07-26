@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,19 +64,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _markedTriggerId
     void _set__markedTriggerId(int value);
     // public System.Boolean get_marked()
-    // Offset: 0x121BDE0
+    // Offset: 0x2048738
     bool get_marked();
     // public System.Void set_marked(System.Boolean value)
-    // Offset: 0x121BDE8
+    // Offset: 0x2048740
     void set_marked(bool value);
     // protected System.Void Awake()
-    // Offset: 0x121BE14
+    // Offset: 0x204876C
     void Awake();
     // public System.Void ToggleMarked()
-    // Offset: 0x121BE6C
+    // Offset: 0x20487C4
     void ToggleMarked();
     // public System.Void .ctor()
-    // Offset: 0x121BE7C
+    // Offset: 0x20487D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

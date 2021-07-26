@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -142,40 +143,40 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Quaternion _handleRot
     void _set__handleRot(UnityEngine::Quaternion value);
     // public SaberType get_saberType()
-    // Offset: 0x1147640
+    // Offset: 0x1F78054
     GlobalNamespace::SaberType get_saberType();
     // public UnityEngine.Vector3 get_saberBladeTopPos()
-    // Offset: 0x114765C
+    // Offset: 0x1F78070
     UnityEngine::Vector3 get_saberBladeTopPos();
     // public UnityEngine.Vector3 get_saberBladeBottomPos()
-    // Offset: 0x1147668
+    // Offset: 0x1F7807C
     UnityEngine::Vector3 get_saberBladeBottomPos();
     // public UnityEngine.Vector3 get_handlePos()
-    // Offset: 0x1147674
+    // Offset: 0x1F78088
     UnityEngine::Vector3 get_handlePos();
     // public UnityEngine.Quaternion get_handleRot()
-    // Offset: 0x1147680
+    // Offset: 0x1F78094
     UnityEngine::Quaternion get_handleRot();
     // public System.Single get_bladeSpeed()
-    // Offset: 0x114768C
+    // Offset: 0x1F780A0
     float get_bladeSpeed();
     // public SaberMovementData get_movementData()
-    // Offset: 0x11476A8
+    // Offset: 0x1F780BC
     GlobalNamespace::SaberMovementData* get_movementData();
     // public System.Boolean get_disableCutting()
-    // Offset: 0x11476B0
+    // Offset: 0x1F780C4
     bool get_disableCutting();
     // public System.Void set_disableCutting(System.Boolean value)
-    // Offset: 0x11476B8
+    // Offset: 0x1F780CC
     void set_disableCutting(bool value);
     // public System.Void ManualUpdate()
-    // Offset: 0x11476C4
+    // Offset: 0x1F780D8
     void ManualUpdate();
     // public System.Void OverridePositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1147D00
+    // Offset: 0x1F78714
     void OverridePositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void .ctor()
-    // Offset: 0x1147D7C
+    // Offset: 0x1F78790
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.InteropServices.SafeHandle
 #include "System/Runtime/InteropServices/SafeHandle.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,14 +23,14 @@ namespace Microsoft::Win32::SafeHandles {
     // Creating value type constructor for type: SafeHandleZeroOrMinusOneIsInvalid
     SafeHandleZeroOrMinusOneIsInvalid() noexcept {}
     // protected System.Void .ctor(System.Boolean ownsHandle)
-    // Offset: 0x1A119B0
+    // Offset: 0x16C8AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeHandleZeroOrMinusOneIsInvalid*, creationType>(ownsHandle)));
     }
     // public override System.Boolean get_IsInvalid()
-    // Offset: 0x1A11B30
+    // Offset: 0x16C8C24
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::get_IsInvalid()
     bool get_IsInvalid();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Globalization.InternalEncodingDataItem
 #include "System/Globalization/InternalEncodingDataItem.hpp"
 // Including type: System.Globalization.InternalCodePageDataItem
@@ -52,25 +53,25 @@ namespace System::Globalization {
     // Set static field: static private System.Collections.Hashtable hashByCodePage
     static void _set_hashByCodePage(System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x19C0324
+    // Offset: 0x1678418
     static void _cctor();
     // static private System.Int32 GetNumEncodingItems()
-    // Offset: 0x19C0294
+    // Offset: 0x1678388
     static int GetNumEncodingItems();
     // static private System.Globalization.InternalEncodingDataItem ENC(System.String name, System.UInt16 cp)
-    // Offset: 0x19C0308
+    // Offset: 0x16783FC
     static System::Globalization::InternalEncodingDataItem ENC(::Il2CppString* name, uint16_t cp);
     // static private System.Globalization.InternalCodePageDataItem MapCodePageDataItem(System.UInt16 cp, System.UInt16 fcp, System.String names, System.UInt32 flags)
-    // Offset: 0x19C0310
+    // Offset: 0x1678404
     static System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::Il2CppString* names, uint flags);
     // static private System.Int32 internalGetCodePageFromName(System.String name)
-    // Offset: 0x19C43D4
+    // Offset: 0x167C4C8
     static int internalGetCodePageFromName(::Il2CppString* name);
     // static System.Int32 GetCodePageFromName(System.String name)
-    // Offset: 0x19C4670
+    // Offset: 0x167C764
     static int GetCodePageFromName(::Il2CppString* name);
     // static System.Globalization.CodePageDataItem GetCodePageDataItem(System.Int32 codepage)
-    // Offset: 0x19C47E4
+    // Offset: 0x167C8D8
     static System::Globalization::CodePageDataItem* GetCodePageDataItem(int codepage);
   }; // System.Globalization.EncodingTable
   #pragma pack(pop)

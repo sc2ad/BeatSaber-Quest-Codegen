@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.ResourceManagement.Util.SerializedType
@@ -36,14 +37,14 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ObjectInitializationData/*, public System::ValueType*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6990
+    // [FormerlySerializedAsAttribute] Offset: 0xE945AC
     // private System.String m_Id
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* m_Id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDE69DC
+    // [FormerlySerializedAsAttribute] Offset: 0xE945F8
     // private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
     // Size: 0x19
     // Offset: 0x8
@@ -52,7 +53,7 @@ namespace UnityEngine::ResourceManagement::Util {
     static_assert(sizeof(UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
     // Padding between fields: m_ObjectType and: m_Data
     char __padding1[0x7] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xDE6A28
+    // [FormerlySerializedAsAttribute] Offset: 0xE94644
     // private System.String m_Data
     // Size: 0x8
     // Offset: 0x28
@@ -78,13 +79,13 @@ namespace UnityEngine::ResourceManagement::Util {
     // Set instance field: private System.String m_Data
     void _set_m_Data(::Il2CppString* value);
     // public System.String get_Id()
-    // Offset: 0xEEC4D8
+    // Offset: 0xD80490
     ::Il2CppString* get_Id();
     // public UnityEngine.ResourceManagement.Util.SerializedType get_ObjectType()
-    // Offset: 0xEEC4E0
+    // Offset: 0xD80498
     UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
     // public System.String get_Data()
-    // Offset: 0xEEC4F0
+    // Offset: 0xD804A8
     ::Il2CppString* get_Data();
     // public TObject CreateInstance(System.String idOverride)
     // Offset: 0xFFFFFFFF
@@ -96,10 +97,10 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodThrow<TObject, false>(*this, ___generic__method, idOverride);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle GetAsyncInitHandle(UnityEngine.ResourceManagement.ResourceManager rm, System.String idOverride)
-    // Offset: 0xEEC500
+    // Offset: 0xD804B8
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(UnityEngine::ResourceManagement::ResourceManager* rm, ::Il2CppString* idOverride);
     // public override System.String ToString()
-    // Offset: 0xEEC4F8
+    // Offset: 0xD804B0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

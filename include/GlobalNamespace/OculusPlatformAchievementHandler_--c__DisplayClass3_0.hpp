@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusPlatformAchievementHandler
 #include "GlobalNamespace/OculusPlatformAchievementHandler.hpp"
 // Including type: PlatformAchievementsModelSO
@@ -58,10 +59,10 @@ namespace GlobalNamespace {
     // Set instance field: public OculusPlatformAchievementHandler <>4__this
     void _set_$$4__this(GlobalNamespace::OculusPlatformAchievementHandler* value);
     // System.Void <GetUnlockedAchievements>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementProgressList> message)
-    // Offset: 0x11F5938
+    // Offset: 0x2024290
     void $GetUnlockedAchievements$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList*>* message);
     // public System.Void .ctor()
-    // Offset: 0x11F58DC
+    // Offset: 0x2024234
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

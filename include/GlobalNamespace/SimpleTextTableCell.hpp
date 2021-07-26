@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshProUGUI _text
     void _set__text(TMPro::TextMeshProUGUI* value);
     // public System.String get_text()
-    // Offset: 0x2358540
+    // Offset: 0x1DE0980
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x2358524
+    // Offset: 0x1DE0964
     void set_text(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x235855C
+    // Offset: 0x1DE099C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

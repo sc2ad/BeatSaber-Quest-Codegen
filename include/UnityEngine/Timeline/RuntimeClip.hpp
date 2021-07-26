@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.RuntimeClipBase
 #include "UnityEngine/Timeline/RuntimeClipBase.hpp"
 // Including type: UnityEngine.Playables.Playable
@@ -72,52 +73,52 @@ namespace UnityEngine::Timeline {
     // Set instance field: private UnityEngine.Playables.Playable m_ParentMixer
     void _set_m_ParentMixer(UnityEngine::Playables::Playable value);
     // public UnityEngine.Timeline.TimelineClip get_clip()
-    // Offset: 0x17EA478
+    // Offset: 0x14BA87C
     UnityEngine::Timeline::TimelineClip* get_clip();
     // public UnityEngine.Playables.Playable get_mixer()
-    // Offset: 0x17EA480
+    // Offset: 0x14BA884
     UnityEngine::Playables::Playable get_mixer();
     // public UnityEngine.Playables.Playable get_playable()
-    // Offset: 0x17EA48C
+    // Offset: 0x14BA890
     UnityEngine::Playables::Playable get_playable();
     // public System.Void .ctor(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x17DDAE0
+    // Offset: 0x14ADEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeClip* New_ctor(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::RuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeClip*, creationType>(clip, clipPlayable, parentMixer)));
     }
     // private System.Void Create(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x17EA3EC
+    // Offset: 0x14BA7F0
     void Create(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer);
     // public System.Void SetTime(System.Double time)
-    // Offset: 0x17EA5AC
+    // Offset: 0x14BA9B0
     void SetTime(double time);
     // public System.Void SetDuration(System.Double duration)
-    // Offset: 0x17EA60C
+    // Offset: 0x14BAA10
     void SetDuration(double duration);
     // public override System.Double get_start()
-    // Offset: 0x17EA3AC
+    // Offset: 0x14BA7B0
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_start()
     double get_start();
     // public override System.Double get_duration()
-    // Offset: 0x17EA3C8
+    // Offset: 0x14BA7CC
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_duration()
     double get_duration();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x17EA498
+    // Offset: 0x14BA89C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x17EA66C
+    // Offset: 0x14BAA70
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
     // public override System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x17EA86C
+    // Offset: 0x14BAC70
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
     void DisableAt(double localTime, double rootDuration, UnityEngine::Playables::FrameData frameData);

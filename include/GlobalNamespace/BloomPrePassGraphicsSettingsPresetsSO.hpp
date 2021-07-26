@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NamedPresetsSO
 #include "GlobalNamespace/NamedPresetsSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,15 +44,15 @@ namespace GlobalNamespace {
     // Set instance field: private BloomPrePassGraphicsSettingsPresetsSO/Preset[] _presets
     void _set__presets(::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* value);
     // public BloomPrePassGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0x109D11C
+    // Offset: 0x1EF55C4
     ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x109D124
+    // Offset: 0x1EF55CC
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x109D12C
+    // Offset: 0x1EF55D4
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

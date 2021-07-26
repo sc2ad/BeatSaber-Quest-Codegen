@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BookmarksFoldersModel
 #include "GlobalNamespace/BookmarksFoldersModel.hpp"
 // Including type: System.Environment/System.SpecialFolder
@@ -41,13 +42,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Environment/System.SpecialFolder,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<System::Environment::SpecialFolder, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x109EC9C
+    // Offset: 0x1EF7144
     static void _cctor();
     // System.String <get_bookmarksFolders>b__3_0(System.Environment/System.SpecialFolder specialFolder)
-    // Offset: 0x109ED08
+    // Offset: 0x1EF71B0
     ::Il2CppString* $get_bookmarksFolders$b__3_0(System::Environment::SpecialFolder specialFolder);
     // public System.Void .ctor()
-    // Offset: 0x109ED00
+    // Offset: 0x1EF71A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

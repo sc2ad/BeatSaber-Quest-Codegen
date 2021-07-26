@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,19 +96,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _showAnimatorParam
     void _set__showAnimatorParam(int value);
     // public System.Boolean get_Show()
-    // Offset: 0x23593AC
+    // Offset: 0x1DE17EC
     bool get_Show();
     // public System.Void set_Show(System.Boolean value)
-    // Offset: 0x235924C
+    // Offset: 0x1DE168C
     void set_Show(bool value);
     // protected System.Void Awake()
-    // Offset: 0x23593B4
+    // Offset: 0x1DE17F4
     void Awake();
     // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
-    // Offset: 0x2359430
+    // Offset: 0x1DE1870
     System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x23594DC
+    // Offset: 0x1DE191C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

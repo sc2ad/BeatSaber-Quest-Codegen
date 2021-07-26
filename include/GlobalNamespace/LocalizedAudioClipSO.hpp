@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,10 +59,10 @@ namespace GlobalNamespace {
     // Set instance field: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
     void _set__lastLocalizedAudioClipInfo(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* value);
     // public UnityEngine.AudioClip get_localizedAudioClip()
-    // Offset: 0x11784FC
+    // Offset: 0x1FA7F10
     UnityEngine::AudioClip* get_localizedAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x11785F4
+    // Offset: 0x1FA8008
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

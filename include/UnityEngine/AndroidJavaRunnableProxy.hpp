@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AndroidJavaProxy
 #include "UnityEngine/AndroidJavaProxy.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,14 +44,14 @@ namespace UnityEngine {
     // Set instance field: private UnityEngine.AndroidJavaRunnable mRunnable
     void _set_mRunnable(UnityEngine::AndroidJavaRunnable* value);
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)
-    // Offset: 0x2354FF4
+    // Offset: 0x1DDC434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaRunnableProxy* New_ctor(UnityEngine::AndroidJavaRunnable* runnable) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaRunnableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaRunnableProxy*, creationType>(runnable)));
     }
     // public System.Void run()
-    // Offset: 0x2355078
+    // Offset: 0x1DDC4B8
     void run();
   }; // UnityEngine.AndroidJavaRunnableProxy
   #pragma pack(pop)

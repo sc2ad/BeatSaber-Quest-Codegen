@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectReader
 #include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,7 +50,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set instance field: public System.String assemblyName
     void _set_assemblyName(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x15E2464
+    // Offset: 0x12E5A34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

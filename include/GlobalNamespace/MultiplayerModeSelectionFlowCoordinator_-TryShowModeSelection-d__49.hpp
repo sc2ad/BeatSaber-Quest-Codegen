@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerModeSelectionFlowCoordinator
 #include "GlobalNamespace/MultiplayerModeSelectionFlowCoordinator.hpp"
 // Including type: System.ValueType
@@ -122,10 +123,10 @@ namespace GlobalNamespace {
     // Set instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServerQuickPlaySetupData> <>u__3
     void _set_$$u__3(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerQuickPlaySetupData*> value);
     // private System.Void MoveNext()
-    // Offset: 0xF8E4D4
+    // Offset: 0xF7B744
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xF8E4DC
+    // Offset: 0xF7B74C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__49
   // WARNING Not writing size check since size may be invalid!

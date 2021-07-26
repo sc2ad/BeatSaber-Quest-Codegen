@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ConditionCopyNonLazyBinder
 #include "Zenject/ConditionCopyNonLazyBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,10 +50,10 @@ namespace Zenject {
     // Set instance field: public Zenject.InjectContext r
     void _set_r(Zenject::InjectContext* value);
     // System.Boolean <WhenInjectedInto>b__1(System.Type x)
-    // Offset: 0x137D5D8
+    // Offset: 0x1124238
     bool $WhenInjectedInto$b__1(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x137D5D0
+    // Offset: 0x1124230
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

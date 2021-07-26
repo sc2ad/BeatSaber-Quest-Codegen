@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Configuration.ConfigurationSectionGroup
 #include "System/Configuration/ConfigurationSectionGroup.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: NetSectionGroup
     NetSectionGroup() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1694F00
+    // Offset: 0x13975BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -15,7 +16,7 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LogoutData/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDEDC94
+    // [DebuggerBrowsableAttribute] Offset: 0xE9B8B0
     // private System.Int32 <LogoutCode>k__BackingField
     // Size: 0x4
     // Offset: 0x0
@@ -37,7 +38,7 @@ namespace NetEase::Docker {
     // Set instance field: private System.Int32 <LogoutCode>k__BackingField
     void _set_$LogoutCode$k__BackingField(int value);
     // public System.Void set_LogoutCode(System.Int32 value)
-    // Offset: 0xF0FA34
+    // Offset: 0xD955C8
     void set_LogoutCode(int value);
   }; // NetEase.Docker.LogoutData
   #pragma pack(pop)

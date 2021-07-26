@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.UnsafeNclNativeMethods/System.Net.HttpApi
 #include "System/Net/UnsafeNclNativeMethods_HttpApi.hpp"
 // Completed includes
@@ -22,10 +23,10 @@ namespace System::Net {
     // Set static field: static private System.String[] m_Strings
     static void _set_m_Strings(::Array<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x158EC0C
+    // Offset: 0x12921DC
     static void _cctor();
     // static System.String ToString(System.Int32 position)
-    // Offset: 0x158EB78
+    // Offset: 0x1292148
     static ::Il2CppString* ToString(int position);
   }; // System.Net.UnsafeNclNativeMethods/System.Net.HttpApi/System.Net.HTTP_REQUEST_HEADER_ID
   #pragma pack(pop)

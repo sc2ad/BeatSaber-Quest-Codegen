@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.SurfaceTopology
 #include "UnityEngine/ProBuilder/MeshOperations/SurfaceTopology.hpp"
 // Including type: UnityEngine.Vector3
@@ -54,16 +55,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16F7A28
+    // Offset: 0x13FA0E4
     static void _cctor();
     // UnityEngine.ProBuilder.Face <ToTriangles>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x16F7A94
+    // Offset: 0x13FA150
     UnityEngine::ProBuilder::Face* $ToTriangles$b__0_0(UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.Vector3 <GetWindingOrder>b__3_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x16F7AAC
+    // Offset: 0x13FA168
     UnityEngine::Vector3 $GetWindingOrder$b__3_0(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x16F7A8C
+    // Offset: 0x13FA148
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Layers.PacketLayerBase
 #include "LiteNetLib/Layers/PacketLayerBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -43,27 +44,27 @@ namespace LiteNetLib::Layers {
     // Set instance field: private System.Byte[] _byteKey
     void _set__byteKey(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1BB0250
+    // Offset: 0x17A35E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XorEncryptLayer* New_ctor(::Array<uint8_t>* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>(key)));
     }
     // public System.Void .ctor(System.String key)
-    // Offset: 0x1BB0328
+    // Offset: 0x17A36C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XorEncryptLayer* New_ctor(::Il2CppString* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>(key)));
     }
     // public System.Void SetKey(System.String key)
-    // Offset: 0x1BB035C
+    // Offset: 0x17A36F4
     void SetKey(::Il2CppString* key);
     // public System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1BB0284
+    // Offset: 0x17A361C
     void SetKey(::Array<uint8_t>* key);
     // public System.Void .ctor()
-    // Offset: 0x1BB0228
+    // Offset: 0x17A35C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,15 +73,15 @@ namespace LiteNetLib::Layers {
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>()));
     }
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1BB03A4
+    // Offset: 0x17A373C
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
+    void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::Array<uint8_t>*> data, ByRef<int> offset, ByRef<int> length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1BB0440
+    // Offset: 0x17A37D8
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
+    void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::Array<uint8_t>*> data, ByRef<int> offset, ByRef<int> length);
   }; // LiteNetLib.Layers.XorEncryptLayer
   #pragma pack(pop)
   static check_size<sizeof(XorEncryptLayer), 24 + sizeof(::Array<uint8_t>*)> __LiteNetLib_Layers_XorEncryptLayerSizeCheck;
@@ -121,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::ProcessInboundPacket
 // Il2CppName: ProcessInboundPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&LiteNetLib::Layers::XorEncryptLayer::ProcessInboundPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(System::Net::IPEndPoint*, ByRef<::Array<uint8_t>*>, ByRef<int>, ByRef<int>)>(&LiteNetLib::Layers::XorEncryptLayer::ProcessInboundPacket)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -133,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket
 // Il2CppName: ProcessOutBoundPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(System::Net::IPEndPoint*, ByRef<::Array<uint8_t>*>, ByRef<int>, ByRef<int>)>(&LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableView
 #include "HMUI/TableView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -55,13 +56,13 @@ namespace HMUI {
     // Set instance field: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
     void _set__cells(System::Collections::Generic::List_1<HMUI::TableCell*>* value);
     // public System.String get_reuseIdentifier()
-    // Offset: 0x12A161C
+    // Offset: 0x1076D58
     ::Il2CppString* get_reuseIdentifier();
     // public System.Collections.Generic.List`1<HMUI.TableCell> get_cells()
-    // Offset: 0x12A1624
+    // Offset: 0x1076D60
     System::Collections::Generic::List_1<HMUI::TableCell*>* get_cells();
     // public System.Void .ctor()
-    // Offset: 0x12A162C
+    // Offset: 0x1076D68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

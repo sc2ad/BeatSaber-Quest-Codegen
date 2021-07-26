@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ScrollView
 #include "HMUI/ScrollView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -37,10 +38,10 @@ namespace HMUI {
     // Set instance field: public System.Single threshold
     void _set_threshold(float value);
     // System.Boolean <PageUpButtonPressed>b__0(System.Single pos)
-    // Offset: 0x1299600
+    // Offset: 0x106ED3C
     bool $PageUpButtonPressed$b__0(float pos);
     // public System.Void .ctor()
-    // Offset: 0x1298AB8
+    // Offset: 0x106E1F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

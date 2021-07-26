@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Resources.ResourceManager
 #include "System/Resources/ResourceManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Resources {
     // Creating value type constructor for type: CultureNameResourceSetPair
     CultureNameResourceSetPair() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13E8928
+    // Offset: 0x1191588
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.NetworkInterfaceFactory
 #include "System/Net/NetworkInformation/NetworkInterfaceFactory.hpp"
 // Including type: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
@@ -35,13 +36,13 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32NetworkInterfaceAPI
     Win32NetworkInterfaceAPI() noexcept {}
     // static private System.Int32 GetAdaptersAddresses(System.UInt32 family, System.UInt32 flags, System.IntPtr reserved, System.IntPtr info, ref System.Int32 size)
-    // Offset: 0x1463D8C
-    static int GetAdaptersAddresses(uint family, uint flags, System::IntPtr reserved, System::IntPtr info, int& size);
+    // Offset: 0x11D4DEC
+    static int GetAdaptersAddresses(uint family, uint flags, System::IntPtr reserved, System::IntPtr info, ByRef<int> size);
     // static private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES[] GetAdaptersAddresses()
-    // Offset: 0x1463E48
+    // Offset: 0x11D4EA8
     static ::Array<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>* GetAdaptersAddresses();
     // public System.Void .ctor()
-    // Offset: 0x14629F0
+    // Offset: 0x11D3A50
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -51,7 +52,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::Win32NetworkInterfaceAPI*, creationType>()));
     }
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x14640CC
+    // Offset: 0x11D512C
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
@@ -63,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory:
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses
 // Il2CppName: GetAdaptersAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint, uint, System::IntPtr, System::IntPtr, int&)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint, uint, System::IntPtr, System::IntPtr, ByRef<int>)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses)> {
   static const MethodInfo* get() {
     static auto* family = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

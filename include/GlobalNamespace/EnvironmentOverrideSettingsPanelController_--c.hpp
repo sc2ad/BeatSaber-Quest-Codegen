@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EnvironmentOverrideSettingsPanelController
 #include "GlobalNamespace/EnvironmentOverrideSettingsPanelController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<EnvironmentInfoSO,System.String> <>9__12_0
     static void _set_$$9__12_0(System::Func_2<GlobalNamespace::EnvironmentInfoSO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1022218
+    // Offset: 0x1E8CCEC
     static void _cctor();
     // System.String <SetData>b__12_0(EnvironmentInfoSO x)
-    // Offset: 0x1022284
+    // Offset: 0x1E8CD58
     ::Il2CppString* $SetData$b__12_0(GlobalNamespace::EnvironmentInfoSO* x);
     // public System.Void .ctor()
-    // Offset: 0x102227C
+    // Offset: 0x1E8CD50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

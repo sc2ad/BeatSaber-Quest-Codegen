@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -34,17 +35,17 @@ namespace Microsoft::Win32 {
     // Set instance field: private System.String value
     void _set_value(::Il2CppString* value);
     // public System.Void .ctor(System.String s)
-    // Offset: 0x1A0C340
+    // Offset: 0x16C3434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandString* New_ctor(::Il2CppString* s) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::ExpandString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandString*, creationType>(s)));
     }
     // public System.String Expand()
-    // Offset: 0x1A0C374
+    // Offset: 0x16C3468
     ::Il2CppString* Expand();
     // public override System.String ToString()
-    // Offset: 0x1A0C36C
+    // Offset: 0x16C3460
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

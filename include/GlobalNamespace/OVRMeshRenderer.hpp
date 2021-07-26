@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -252,46 +253,46 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     void _set_$ShouldUseSystemGestureMaterial$k__BackingField(bool value);
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x12E1D48
+    // Offset: 0x10A3CB8
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x12E1D50
+    // Offset: 0x10A3CC0
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x12E1D5C
+    // Offset: 0x10A3CCC
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x12E1D64
+    // Offset: 0x10A3CD4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x12E1D70
+    // Offset: 0x10A3CE0
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x12E1D78
+    // Offset: 0x10A3CE8
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x12E1D84
+    // Offset: 0x10A3CF4
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x12E1D8C
+    // Offset: 0x10A3CFC
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x12E1D98
+    // Offset: 0x10A3D08
     void Awake();
     // private System.Void Start()
-    // Offset: 0x12E1E98
+    // Offset: 0x10A3E08
     void Start();
     // private System.Boolean ShouldInitialize()
-    // Offset: 0x12E1F44
+    // Offset: 0x10A3EB4
     bool ShouldInitialize();
     // private System.Void Initialize()
-    // Offset: 0x12E205C
+    // Offset: 0x10A3FCC
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x12E24F8
+    // Offset: 0x10A4468
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12E27D4
+    // Offset: 0x10A4744
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

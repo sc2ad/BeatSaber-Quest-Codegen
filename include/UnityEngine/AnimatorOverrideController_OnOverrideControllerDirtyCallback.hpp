@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AnimatorOverrideController
 #include "UnityEngine/AnimatorOverrideController.hpp"
 // Including type: System.MulticastDelegate
@@ -33,20 +34,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: OnOverrideControllerDirtyCallback
     OnOverrideControllerDirtyCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x233B954
+    // Offset: 0x1DC1D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorOverrideController::OnOverrideControllerDirtyCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorOverrideController::OnOverrideControllerDirtyCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x233B748
+    // Offset: 0x1DC1B88
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x233B964
+    // Offset: 0x1DC1DA4
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x233B990
+    // Offset: 0x1DC1DD0
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback
   #pragma pack(pop)

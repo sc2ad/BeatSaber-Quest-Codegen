@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightmapLightWithIds
 #include "GlobalNamespace/LightmapLightWithIds.hpp"
 // Including type: LightWithIds/LightData
@@ -82,22 +83,22 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _initializedPropertyIds
     void _set__initializedPropertyIds(bool value);
     // public System.Single get_intensity()
-    // Offset: 0x1DF4DA8
+    // Offset: 0x1967988
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1DF4DB0
+    // Offset: 0x1967990
     void set_intensity(float value);
     // public System.Single get_weight()
-    // Offset: 0x1DF4DB8
+    // Offset: 0x1967998
     float get_weight();
     // public System.Void set_weight(System.Single value)
-    // Offset: 0x1DF4DC0
+    // Offset: 0x19679A0
     void set_weight(float value);
     // public System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1DF4C34
+    // Offset: 0x1967814
     void SetDataToShaders(UnityEngine::Color lightmapColor, UnityEngine::Color probeColor);
     // public System.Void .ctor()
-    // Offset: 0x1DF4DCC
+    // Offset: 0x19679AC
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -107,7 +108,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds::LightIntensitiesData*, creationType>()));
     }
     // protected override UnityEngine.Color ProcessColor(UnityEngine.Color newColor)
-    // Offset: 0x1DF4DC8
+    // Offset: 0x19679A8
     // Implemented from: LightWithIds/LightData
     // Base method: UnityEngine.Color LightData::ProcessColor(UnityEngine.Color newColor)
     UnityEngine::Color ProcessColor(UnityEngine::Color newColor);

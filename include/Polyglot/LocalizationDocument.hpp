@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Polyglot.GoogleDriveDownloadFormat
 #include "Polyglot/GoogleDriveDownloadFormat.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -81,37 +82,37 @@ namespace Polyglot {
     // Set instance field: private System.Boolean downloadOnStart
     void _set_downloadOnStart(bool value);
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x232F78C
+    // Offset: 0x1DB4BCC
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x232F794
+    // Offset: 0x1DB4BD4
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public System.String get_DocsId()
-    // Offset: 0x232F79C
+    // Offset: 0x1DB4BDC
     ::Il2CppString* get_DocsId();
     // public System.Void set_DocsId(System.String value)
-    // Offset: 0x232F7A4
+    // Offset: 0x1DB4BE4
     void set_DocsId(::Il2CppString* value);
     // public System.String get_SheetId()
-    // Offset: 0x232F7AC
+    // Offset: 0x1DB4BEC
     ::Il2CppString* get_SheetId();
     // public System.Void set_SheetId(System.String value)
-    // Offset: 0x232F7B4
+    // Offset: 0x1DB4BF4
     void set_SheetId(::Il2CppString* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x232F7BC
+    // Offset: 0x1DB4BFC
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x232F7C4
+    // Offset: 0x1DB4C04
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Boolean get_DownloadOnStart()
-    // Offset: 0x232F7CC
+    // Offset: 0x1DB4C0C
     bool get_DownloadOnStart();
     // public System.Void set_DownloadOnStart(System.Boolean value)
-    // Offset: 0x232F7D4
+    // Offset: 0x1DB4C14
     void set_DownloadOnStart(bool value);
     // public System.Void .ctor()
-    // Offset: 0x232F7E0
+    // Offset: 0x1DB4C20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

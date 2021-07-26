@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -31,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDE8F1C
+    // [DescriptionAttribute] Offset: 0xE96B38
     // static field const value: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
     static Oculus::Platform::LivestreamingMicrophoneStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.LivestreamingMicrophoneStatus Unknown
     static void _set_Unknown(Oculus::Platform::LivestreamingMicrophoneStatus value);
-    // [DescriptionAttribute] Offset: 0xDE8F54
+    // [DescriptionAttribute] Offset: 0xE96B70
     // static field const value: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOn
     static constexpr const int MicrophoneOn = 1;
     // Get static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOn
     static Oculus::Platform::LivestreamingMicrophoneStatus _get_MicrophoneOn();
     // Set static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOn
     static void _set_MicrophoneOn(Oculus::Platform::LivestreamingMicrophoneStatus value);
-    // [DescriptionAttribute] Offset: 0xDE8F8C
+    // [DescriptionAttribute] Offset: 0xE96BA8
     // static field const value: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOff
     static constexpr const int MicrophoneOff = 2;
     // Get static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOff

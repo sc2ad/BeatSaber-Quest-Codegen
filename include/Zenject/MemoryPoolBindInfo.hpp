@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolExpandMethods
 #include "Zenject/PoolExpandMethods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -53,25 +54,25 @@ namespace Zenject {
     // Set instance field: private System.Int32 <MaxSize>k__BackingField
     void _set_$MaxSize$k__BackingField(int value);
     // public Zenject.PoolExpandMethods get_ExpandMethod()
-    // Offset: 0x16C4E60
+    // Offset: 0x13C751C
     Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
-    // Offset: 0x16C4E68
+    // Offset: 0x13C7524
     void set_ExpandMethod(Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
-    // Offset: 0x16C4E70
+    // Offset: 0x13C752C
     int get_InitialSize();
     // public System.Void set_InitialSize(System.Int32 value)
-    // Offset: 0x16C4E78
+    // Offset: 0x13C7534
     void set_InitialSize(int value);
     // public System.Int32 get_MaxSize()
-    // Offset: 0x16C4E80
+    // Offset: 0x13C753C
     int get_MaxSize();
     // public System.Void set_MaxSize(System.Int32 value)
-    // Offset: 0x16C4E88
+    // Offset: 0x13C7544
     void set_MaxSize(int value);
     // public System.Void .ctor()
-    // Offset: 0x16C4E30
+    // Offset: 0x13C74EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

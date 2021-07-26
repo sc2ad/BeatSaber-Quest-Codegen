@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -84,19 +85,19 @@ namespace HMUI {
     // Set instance field: private System.Boolean _hasCachedData
     void _set__hasCachedData(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x13074F4
+    // Offset: 0x10C9464
     static void _cctor();
     // public System.Void Reset()
-    // Offset: 0x130719C
+    // Offset: 0x10C910C
     void Reset();
     // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
-    // Offset: 0x13071B0
+    // Offset: 0x10C9120
     HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(UnityEngine::Canvas* canvas);
     // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x13073D8
+    // Offset: 0x10C9348
     static HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(UnityEngine::Canvas* canvas);
     // public System.Void .ctor()
-    // Offset: 0x13074EC
+    // Offset: 0x10C945C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

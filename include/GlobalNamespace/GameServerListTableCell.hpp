@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,7 +69,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* passwordProtected;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE0B730
+    // [InjectAttribute] Offset: 0xEB834C
     // private readonly SongPackMasksModel _songPackMasksModel
     // Size: 0x8
     // Offset: 0x78
@@ -102,10 +103,10 @@ namespace GlobalNamespace {
     // Set instance field: private readonly SongPackMasksModel _songPackMasksModel
     void _set__songPackMasksModel(GlobalNamespace::SongPackMasksModel* value);
     // public System.Void SetData(INetworkPlayer player)
-    // Offset: 0x10A4280
+    // Offset: 0x1F111F0
     void SetData(GlobalNamespace::INetworkPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x10A4600
+    // Offset: 0x1F11570
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerStringBase
 #include "Org/BouncyCastle/Asn1/DerStringBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,39 +45,39 @@ namespace Org::BouncyCastle::Asn1 {
     // Set instance field: private readonly System.String str
     void _set_str(::Il2CppString* value);
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x16DC228
+    // Offset: 0x13DE8E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerVisibleString* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerVisibleString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerVisibleString*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
-    // Offset: 0x16ED1F4
+    // Offset: 0x13EF8B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerVisibleString* New_ctor(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerVisibleString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerVisibleString*, creationType>(str)));
     }
     // public System.Byte[] GetOctets()
-    // Offset: 0x16ED298
+    // Offset: 0x13EF954
     ::Array<uint8_t>* GetOctets();
     // public override System.String GetString()
-    // Offset: 0x16ED290
+    // Offset: 0x13EF94C
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16ED2A4
+    // Offset: 0x13EF960
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16ED2E0
+    // Offset: 0x13EF99C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x16ED394
+    // Offset: 0x13EFA50
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();

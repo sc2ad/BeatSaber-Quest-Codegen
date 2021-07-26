@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IBeatmapLevelData
 #include "GlobalNamespace/IBeatmapLevelData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,13 +59,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     void _set_$difficultyBeatmapSets$k__BackingField(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* value);
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x101F6AC
+    // Offset: 0x1E8A180
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x101F6B4
+    // Offset: 0x1E8A188
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x101F6A4
+    // Offset: 0x1E8A178
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

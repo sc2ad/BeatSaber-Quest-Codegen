@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Security.Certificates.CertificateException
 #include "Org/BouncyCastle/Security/Certificates/CertificateException.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Creating value type constructor for type: CertificateParsingException
     CertificateParsingException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13478DC
+    // Offset: 0x10EE53C
     // Implemented from: Org.BouncyCastle.Security.Certificates.CertificateException
     // Base method: System.Void CertificateException::.ctor()
     // Base method: System.Void GeneralSecurityException::.ctor()
@@ -34,7 +35,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CertificateParsingException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x13478E4
+    // Offset: 0x10EE544
     // Implemented from: Org.BouncyCastle.Security.Certificates.CertificateException
     // Base method: System.Void CertificateException::.ctor(System.String message)
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)

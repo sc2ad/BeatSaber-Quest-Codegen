@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnifiedNetworkPlayerModel
 #include "GlobalNamespace/UnifiedNetworkPlayerModel.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -105,41 +106,41 @@ namespace GlobalNamespace {
     // Set instance field: private System.Collections.Generic.IEnumerator`1<INetworkPlayer> <>7__wrap2
     void _set_$$7__wrap2(System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* value);
     // private INetworkPlayer System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current()
-    // Offset: 0x1274054
+    // Offset: 0x2067FD4
     GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12740BC
+    // Offset: 0x206803C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1271E24
+    // Offset: 0x2065DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnifiedNetworkPlayerModel::$GetOtherPlayers$d__90* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__90::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel::$GetOtherPlayers$d__90*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x127394C
+    // Offset: 0x20678CC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1273B78
+    // Offset: 0x2067AF8
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x12739A0
+    // Offset: 0x2067920
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x12739F8
+    // Offset: 0x2067978
     void $$m__Finally2();
     // private System.Void <>m__Finally3()
-    // Offset: 0x1273AB8
+    // Offset: 0x2067A38
     void $$m__Finally3();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x127405C
+    // Offset: 0x2067FDC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<INetworkPlayer> System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator()
-    // Offset: 0x12740C4
+    // Offset: 0x2068044
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable$INetworkPlayer$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1274170
+    // Offset: 0x20680F0
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnifiedNetworkPlayerModel/<GetOtherPlayers>d__90
   // WARNING Not writing size check since size may be invalid!

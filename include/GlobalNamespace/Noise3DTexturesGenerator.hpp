@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color32
@@ -132,13 +133,13 @@ namespace GlobalNamespace {
     // Set instance field: private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
     void _set__data(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>* value);
     // protected System.Void Awake()
-    // Offset: 0x2341698
+    // Offset: 0x1DC7AD8
     void Awake();
     // static private UnityEngine.Color32[] CreateNoisePixels(System.Int32 width, System.Int32 height, System.Int32 depth, System.Single scale, System.Int32 repeat, System.Single contrast)
-    // Offset: 0x2341914
+    // Offset: 0x1DC7D54
     static ::Array<UnityEngine::Color32>* CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
     // public System.Void .ctor()
-    // Offset: 0x2341BA0
+    // Offset: 0x1DC7FE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -151,7 +152,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Noise3DTexturesGenerator*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2341BA8
+    // Offset: 0x1DC7FE8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

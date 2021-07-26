@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_Dropdown
 #include "TMPro/TMP_Dropdown.hpp"
 // Including type: UnityEngine.MonoBehaviour
@@ -104,37 +105,37 @@ namespace TMPro {
     // Set instance field: private UnityEngine.UI.Toggle m_Toggle
     void _set_m_Toggle(UnityEngine::UI::Toggle* value);
     // public TMPro.TMP_Text get_text()
-    // Offset: 0x10C27C4
+    // Offset: 0xFFA2C4
     TMPro::TMP_Text* get_text();
     // public System.Void set_text(TMPro.TMP_Text value)
-    // Offset: 0x10C27CC
+    // Offset: 0xFFA2CC
     void set_text(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x10C27D4
+    // Offset: 0xFFA2D4
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x10C27DC
+    // Offset: 0xFFA2DC
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x10C27E4
+    // Offset: 0xFFA2E4
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0x10C27EC
+    // Offset: 0xFFA2EC
     void set_rectTransform(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x10C27F4
+    // Offset: 0xFFA2F4
     UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0x10C27FC
+    // Offset: 0xFFA2FC
     void set_toggle(UnityEngine::UI::Toggle* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10C2804
+    // Offset: 0xFFA304
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x10C2890
+    // Offset: 0xFFA390
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x10C2934
+    // Offset: 0xFFA434
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.HttpHeaders
 #include "System/Net/Http/Headers/HttpHeaders.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -51,13 +52,13 @@ namespace System::Net::Http::Headers {
     // Set instance field: private readonly System.Net.Http.HttpContent content
     void _set_content(System::Net::Http::HttpContent* value);
     // public System.Nullable`1<System.Int64> get_ContentLength()
-    // Offset: 0x1564524
+    // Offset: 0x1268AF4
     System::Nullable_1<int64_t> get_ContentLength();
     // public System.Net.Http.Headers.MediaTypeHeaderValue get_ContentType()
-    // Offset: 0x15646A0
+    // Offset: 0x1268C70
     System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
     // System.Void .ctor(System.Net.Http.HttpContent content)
-    // Offset: 0x156447C
+    // Offset: 0x1268A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContentHeaders* New_ctor(System::Net::Http::HttpContent* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpContentHeaders::.ctor");

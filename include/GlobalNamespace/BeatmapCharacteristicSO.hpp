@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -32,14 +33,14 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE0096C
+    // [LocalizationKeyAttribute] Offset: 0xEAD588
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* descriptionLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE009A4
+    // [LocalizationKeyAttribute] Offset: 0xEAD5C0
     // private System.String _characteristicNameLocalizationKey
     // Size: 0x8
     // Offset: 0x28
@@ -125,34 +126,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Int32 _numberOfColors
     void _set__numberOfColors(int value);
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x118B2DC
+    // Offset: 0x1FD0E14
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x118B2E4
+    // Offset: 0x1FD0E1C
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0x118B2EC
+    // Offset: 0x1FD0E24
     ::Il2CppString* get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0x118B2F4
+    // Offset: 0x1FD0E2C
     ::Il2CppString* get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0x118B2FC
+    // Offset: 0x1FD0E34
     ::Il2CppString* get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x118B304
+    // Offset: 0x1FD0E3C
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0x118B30C
+    // Offset: 0x1FD0E44
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0x118B314
+    // Offset: 0x1FD0E4C
     bool get_requires360Movement();
     // public System.Int32 get_numberOfColors()
-    // Offset: 0x118B31C
+    // Offset: 0x1FD0E54
     int get_numberOfColors();
     // public System.Void .ctor()
-    // Offset: 0x118B324
+    // Offset: 0x1FD0E5C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

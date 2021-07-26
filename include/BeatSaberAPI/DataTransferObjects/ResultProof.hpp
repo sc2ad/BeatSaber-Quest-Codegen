@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -34,13 +35,13 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set instance field: private System.String <proof>k__BackingField
     void _set_$proof$k__BackingField(::Il2CppString* value);
     // public System.String get_proof()
-    // Offset: 0x1188620
+    // Offset: 0x1FCE158
     ::Il2CppString* get_proof();
     // public System.Void set_proof(System.String value)
-    // Offset: 0x1188628
+    // Offset: 0x1FCE160
     void set_proof(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1188630
+    // Offset: 0x1FCE168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

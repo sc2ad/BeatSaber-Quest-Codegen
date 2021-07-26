@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 // Completed includes
@@ -18,7 +19,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Vrcamera
     Vrcamera() noexcept {}
     // static public System.Void SetGetSurfaceUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x238B40C
+    // Offset: 0x23ECE10
     static void SetGetSurfaceUpdateNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
   }; // Oculus.Platform.Vrcamera
   #pragma pack(pop)

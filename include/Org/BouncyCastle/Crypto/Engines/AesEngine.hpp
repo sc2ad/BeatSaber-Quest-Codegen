@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IBlockCipher
 #include "Org/BouncyCastle/Crypto/IBlockCipher.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -137,58 +138,58 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set instance field: private System.Byte[] s
     void _set_s(::Array<uint8_t>* value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x18E30D4
+    // Offset: 0x15B44D8
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x18E311C
+    // Offset: 0x15B4520
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x18E45A8
+    // Offset: 0x15B59AC
     static void _cctor();
     // static private System.UInt32 Shift(System.UInt32 r, System.Int32 shift)
-    // Offset: 0x18E1ECC
+    // Offset: 0x15B32D0
     static uint Shift(uint r, int shift);
     // static private System.UInt32 FFmulX(System.UInt32 x)
-    // Offset: 0x18E1ED4
+    // Offset: 0x15B32D8
     static uint FFmulX(uint x);
     // static private System.UInt32 FFmulX2(System.UInt32 x)
-    // Offset: 0x18E1EF4
+    // Offset: 0x15B32F8
     static uint FFmulX2(uint x);
     // static private System.UInt32 Inv_Mcol(System.UInt32 x)
-    // Offset: 0x18E1F10
+    // Offset: 0x15B3314
     static uint Inv_Mcol(uint x);
     // static private System.UInt32 SubWord(System.UInt32 x)
-    // Offset: 0x18E1FB8
+    // Offset: 0x15B33BC
     static uint SubWord(uint x);
     // private System.UInt32[][] GenerateWorkingKey(System.Byte[] key, System.Boolean forEncryption)
-    // Offset: 0x18E2094
+    // Offset: 0x15B3498
     ::Array<::Array<uint>*>* GenerateWorkingKey(::Array<uint8_t>* key, bool forEncryption);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18E2F20
+    // Offset: 0x15B4324
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x18E3124
+    // Offset: 0x15B4528
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18E312C
+    // Offset: 0x15B4530
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x18E45A4
+    // Offset: 0x15B59A8
     void Reset();
     // private System.Void UnPackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x18E3250
+    // Offset: 0x15B4654
     void UnPackBlock(::Array<uint8_t>* bytes, int off);
     // private System.Void PackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x18E4534
+    // Offset: 0x15B5938
     void PackBlock(::Array<uint8_t>* bytes, int off);
     // private System.Void EncryptBlock(System.UInt32[][] KW)
-    // Offset: 0x18E32CC
+    // Offset: 0x15B46D0
     void EncryptBlock(::Array<::Array<uint>*>* KW);
     // private System.Void DecryptBlock(System.UInt32[][] KW)
-    // Offset: 0x18E3BF4
+    // Offset: 0x15B4FF8
     void DecryptBlock(::Array<::Array<uint>*>* KW);
     // public System.Void .ctor()
-    // Offset: 0x18E2F18
+    // Offset: 0x15B431C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

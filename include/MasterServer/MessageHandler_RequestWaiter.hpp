@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: System.IDisposable
@@ -31,7 +32,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x12DA1F8
+    // Offset: 0x2094708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

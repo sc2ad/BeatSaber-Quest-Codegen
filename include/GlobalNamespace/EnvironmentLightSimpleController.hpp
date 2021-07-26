@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: colorId and: lightManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0xE04C74
+    // [InjectAttribute] Offset: 0xEB1890
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x30
@@ -66,10 +67,10 @@ namespace GlobalNamespace {
     // Set instance field: private LightWithIdManager _lightManager
     void _set__lightManager(GlobalNamespace::LightWithIdManager* value);
     // protected System.Void LateUpdate()
-    // Offset: 0x10216EC
+    // Offset: 0x1E8C1C0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1021718
+    // Offset: 0x1E8C1EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

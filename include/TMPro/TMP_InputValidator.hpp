@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -23,9 +24,9 @@ namespace TMPro {
     TMP_InputValidator() noexcept {}
     // public System.Char Validate(ref System.String text, ref System.Int32 pos, System.Char ch)
     // Offset: 0xFFFFFFFF
-    ::Il2CppChar Validate(::Il2CppString*& text, int& pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(ByRef<::Il2CppString*> text, ByRef<int> pos, ::Il2CppChar ch);
     // protected System.Void .ctor()
-    // Offset: 0x110D370
+    // Offset: 0x100CFF0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator"
 // Writing MetadataGetter for method: TMPro::TMP_InputValidator::Validate
 // Il2CppName: Validate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (TMPro::TMP_InputValidator::*)(::Il2CppString*&, int&, ::Il2CppChar)>(&TMPro::TMP_InputValidator::Validate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (TMPro::TMP_InputValidator::*)(ByRef<::Il2CppString*>, ByRef<int>, ::Il2CppChar)>(&TMPro::TMP_InputValidator::Validate)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

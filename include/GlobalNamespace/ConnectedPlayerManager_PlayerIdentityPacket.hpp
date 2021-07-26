@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ConnectedPlayerManager
 #include "GlobalNamespace/ConnectedPlayerManager.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -73,22 +74,22 @@ namespace GlobalNamespace {
     // Set instance field: public MultiplayerAvatarData playerAvatar
     void _set_playerAvatar(GlobalNamespace::MultiplayerAvatarData value);
     // static public PacketPool`1<ConnectedPlayerManager/PlayerIdentityPacket> get_pool()
-    // Offset: 0x12BD4AC
+    // Offset: 0x1092BE8
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12C0764
+    // Offset: 0x1095EA0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12C079C
+    // Offset: 0x1095ED8
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x12C07F4
+    // Offset: 0x1095F30
     void Release();
     // public ConnectedPlayerManager/PlayerIdentityPacket Init(PlayerStateHash states, MultiplayerAvatarData avatar)
-    // Offset: 0x12C0320
+    // Offset: 0x1095A5C
     GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* Init(GlobalNamespace::PlayerStateHash states, GlobalNamespace::MultiplayerAvatarData avatar);
     // public System.Void .ctor()
-    // Offset: 0x12C0850
+    // Offset: 0x1095F8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

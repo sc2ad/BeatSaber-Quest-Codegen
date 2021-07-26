@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -87,34 +88,34 @@ namespace Org::BouncyCastle::X509 {
     // Set instance field: private System.IO.Stream currentStream
     void _set_currentStream(System::IO::Stream* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F80670
+    // Offset: 0x1A66530
     static void _cctor();
     // private Org.BouncyCastle.X509.X509Certificate ReadDerCertificate(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x1F7FDB4
+    // Offset: 0x1A65C74
     Org::BouncyCastle::X509::X509Certificate* ReadDerCertificate(Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Certificate GetCertificate()
-    // Offset: 0x1F7FFB8
+    // Offset: 0x1A65E78
     Org::BouncyCastle::X509::X509Certificate* GetCertificate();
     // private Org.BouncyCastle.X509.X509Certificate ReadPemCertificate(System.IO.Stream inStream)
-    // Offset: 0x1F800B0
+    // Offset: 0x1A65F70
     Org::BouncyCastle::X509::X509Certificate* ReadPemCertificate(System::IO::Stream* inStream);
     // protected Org.BouncyCastle.X509.X509Certificate CreateX509Certificate(Org.BouncyCastle.Asn1.X509.X509CertificateStructure c)
-    // Offset: 0x1F80164
+    // Offset: 0x1A66024
     Org::BouncyCastle::X509::X509Certificate* CreateX509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.Byte[] input)
-    // Offset: 0x1F801C4
+    // Offset: 0x1A66084
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::Array<uint8_t>* input);
     // public System.Collections.ICollection ReadCertificates(System.Byte[] input)
-    // Offset: 0x1F804D8
+    // Offset: 0x1A66398
     System::Collections::ICollection* ReadCertificates(::Array<uint8_t>* input);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.IO.Stream inStream)
-    // Offset: 0x1F8023C
+    // Offset: 0x1A660FC
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(System::IO::Stream* inStream);
     // public System.Collections.ICollection ReadCertificates(System.IO.Stream inStream)
-    // Offset: 0x1F80550
+    // Offset: 0x1A66410
     System::Collections::ICollection* ReadCertificates(System::IO::Stream* inStream);
     // public System.Void .ctor()
-    // Offset: 0x1F806E4
+    // Offset: 0x1A665A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

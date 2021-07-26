@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
 #include "UnityEngine/ProBuilder/KdTree/Math/TypeMath_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,37 +22,37 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     // Creating value type constructor for type: FloatMath
     FloatMath() noexcept {}
     // public System.Single get_MinValue()
-    // Offset: 0x23CAE10
+    // Offset: 0x1E42408
     float get_MinValue();
     // public System.Single get_Zero()
-    // Offset: 0x23CAE1C
+    // Offset: 0x1E42414
     float get_Zero();
     // public System.Single get_NegativeInfinity()
-    // Offset: 0x23CAE24
+    // Offset: 0x1E4241C
     float get_NegativeInfinity();
     // public System.Single get_PositiveInfinity()
-    // Offset: 0x23CAE30
+    // Offset: 0x1E42428
     float get_PositiveInfinity();
     // public System.Int32 Compare(System.Single a, System.Single b)
-    // Offset: 0x23CADD8
+    // Offset: 0x1E423D0
     int Compare(float a, float b);
     // public System.Boolean AreEqual(System.Single a, System.Single b)
-    // Offset: 0x23CAE04
+    // Offset: 0x1E423FC
     bool AreEqual(float a, float b);
     // public System.Single Add(System.Single a, System.Single b)
-    // Offset: 0x23CAE3C
+    // Offset: 0x1E42434
     float Add(float a, float b);
     // public System.Single Subtract(System.Single a, System.Single b)
-    // Offset: 0x23CAE44
+    // Offset: 0x1E4243C
     float Subtract(float a, float b);
     // public System.Single Multiply(System.Single a, System.Single b)
-    // Offset: 0x23CAE4C
+    // Offset: 0x1E42444
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
-    // Offset: 0x23CAE54
+    // Offset: 0x1E4244C
     float DistanceSquaredBetweenPoints(::Array<float>* a, ::Array<float>* b);
     // public System.Void .ctor()
-    // Offset: 0x23CAF68
+    // Offset: 0x1E42560
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
     // Base method: System.Void TypeMath_1::.ctor()
     // Base method: System.Void Object::.ctor()

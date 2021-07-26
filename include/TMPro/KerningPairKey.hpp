@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -56,7 +57,7 @@ namespace TMPro {
     // Set instance field: public System.UInt32 key
     void _set_key(uint value);
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
-    // Offset: 0xED099C
+    // Offset: 0xD67838
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     KerningPairKey(uint ascii_left, uint ascii_right) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPairKey::.ctor");

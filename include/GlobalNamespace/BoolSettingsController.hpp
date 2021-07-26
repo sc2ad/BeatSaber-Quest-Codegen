@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SwitchSettingsController
 #include "GlobalNamespace/SwitchSettingsController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,7 +42,7 @@ namespace GlobalNamespace {
     // Set instance field: private BoolSO _settingsValue
     void _set__settingsValue(GlobalNamespace::BoolSO* value);
     // public System.Void .ctor()
-    // Offset: 0x109EDCC
+    // Offset: 0x1EF7274
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -55,12 +56,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BoolSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValue()
-    // Offset: 0x109ED14
+    // Offset: 0x1EF71BC
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0x109ED64
+    // Offset: 0x1EF720C
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);

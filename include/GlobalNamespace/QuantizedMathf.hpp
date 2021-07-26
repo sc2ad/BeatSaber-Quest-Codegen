@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.Single
@@ -61,22 +62,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kVectorSerializableEpsilon
     static void _set_kVectorSerializableEpsilon(float value);
     // static public System.Boolean Approximately(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
-    // Offset: 0x2329B88
+    // Offset: 0x23DCF6C
     static bool Approximately(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
     // static public System.Boolean Approximately(System.Single a, System.Single b, System.Single epsilon)
-    // Offset: 0x2329D40
+    // Offset: 0x23DD124
     static bool Approximately(float a, float b, float epsilon);
     // static public System.Boolean Approximately(System.Int32 a, System.Int32 b, System.Int32 epsilon)
-    // Offset: 0x2329DC4
+    // Offset: 0x23DD1A8
     static bool Approximately(int a, int b, int epsilon);
     // static public System.Boolean Approximately(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x2329E48
+    // Offset: 0x23DD22C
     static bool Approximately(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // static public System.Boolean Approximately(UnityEngine.Pose a, UnityEngine.Pose b)
-    // Offset: 0x2329ED0
+    // Offset: 0x23DD2B4
     static bool Approximately(UnityEngine::Pose a, UnityEngine::Pose b);
     // static public System.String QuantizedVectorComponentToString(System.Int32 v)
-    // Offset: 0x2329F28
+    // Offset: 0x23DD30C
     static ::Il2CppString* QuantizedVectorComponentToString(int v);
   }; // QuantizedMathf
   #pragma pack(pop)

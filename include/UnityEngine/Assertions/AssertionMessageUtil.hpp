@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Assertions
 namespace UnityEngine::Assertions {
@@ -16,13 +17,13 @@ namespace UnityEngine::Assertions {
     // Creating value type constructor for type: AssertionMessageUtil
     AssertionMessageUtil() noexcept {}
     // static public System.String GetMessage(System.String failureMessage)
-    // Offset: 0x1BDC2E8
+    // Offset: 0x17CE680
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage);
     // static public System.String GetMessage(System.String failureMessage, System.String expected)
-    // Offset: 0x1BDC3D4
+    // Offset: 0x17CE76C
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage, ::Il2CppString* expected);
     // static public System.String GetEqualityMessage(System.Object actual, System.Object expected, System.Boolean expectEqual)
-    // Offset: 0x1BDBFC4
+    // Offset: 0x17CE35C
     static ::Il2CppString* GetEqualityMessage(::Il2CppObject* actual, ::Il2CppObject* expected, bool expectEqual);
   }; // UnityEngine.Assertions.AssertionMessageUtil
   #pragma pack(pop)

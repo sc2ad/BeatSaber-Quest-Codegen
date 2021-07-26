@@ -3,6 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.GetPublicUserServersResponse
 #include "MasterServer/GetPublicUserServersResponse.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,12 +22,12 @@ namespace MasterServer {
     // Creating value type constructor for type: V4
     V4() noexcept {}
     // protected override System.UInt32 get_version()
-    // Offset: 0x12D3578
+    // Offset: 0x208DA88
     // Implemented from: MasterServer.GetPublicUserServersResponse
     // Base method: System.UInt32 GetPublicUserServersResponse::get_version()
     uint get_version();
     // public System.Void .ctor()
-    // Offset: 0x12D3580
+    // Offset: 0x208DA90
     // Implemented from: MasterServer.GetPublicUserServersResponse
     // Base method: System.Void GetPublicUserServersResponse::.ctor()
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings
 #include "UnityEngine/TestTools/TestRunner/PlaymodeTestsControllerSettings.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -49,13 +50,13 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter,NUnit.Framework.Interfaces.ITestFilter> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*, NUnit::Framework::Interfaces::ITestFilter*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1492058
+    // Offset: 0x12030B8
     static void _cctor();
     // NUnit.Framework.Interfaces.ITestFilter <BuildNUnitFilter>b__5_0(UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter f)
-    // Offset: 0x14920C4
+    // Offset: 0x1203124
     NUnit::Framework::Interfaces::ITestFilter* $BuildNUnitFilter$b__5_0(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter* f);
     // public System.Void .ctor()
-    // Offset: 0x14920BC
+    // Offset: 0x120311C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

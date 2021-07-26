@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TextMeshProUGUI
 #include "TMPro/TextMeshProUGUI.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,7 +41,7 @@ namespace HMUI {
     // Set instance field: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     void _set__curvedCanvasSettingsHelper(HMUI::CurvedCanvasSettingsHelper* value);
     // public System.Void .ctor()
-    // Offset: 0x13078B0
+    // Offset: 0x10C9820
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::.ctor()
     // Base method: System.Void TMP_Text::.ctor()
@@ -58,12 +59,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CurvedTextMeshPro*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1307568
+    // Offset: 0x10C94D8
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::OnEnable()
     void OnEnable();
     // protected override System.Void GenerateTextMesh()
-    // Offset: 0x13075A8
+    // Offset: 0x10C9518
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::GenerateTextMesh()
     void GenerateTextMesh();

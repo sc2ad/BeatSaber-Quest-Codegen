@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,14 +37,14 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Set instance field: private readonly System.DateTime dt
     void _set_dt(System::DateTime value);
     // public System.Void .ctor(System.DateTime dt)
-    // Offset: 0x1F7AF44
+    // Offset: 0x1A60E04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeObject* New_ctor(System::DateTime dt) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Date::DateTimeObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeObject*, creationType>(dt)));
     }
     // public override System.String ToString()
-    // Offset: 0x1F7AF70
+    // Offset: 0x1A60E30
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

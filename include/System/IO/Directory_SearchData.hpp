@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.Directory
 #include "System/IO/Directory.hpp"
 // Including type: System.IO.SearchOption
@@ -54,7 +55,7 @@ namespace System::IO {
     // Set instance field: public readonly System.IO.SearchOption searchOption
     void _set_searchOption(System::IO::SearchOption value);
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
-    // Offset: 0x191CA6C
+    // Offset: 0x15EDE70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Directory::SearchData* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, System::IO::SearchOption searchOption) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Directory::SearchData::.ctor");

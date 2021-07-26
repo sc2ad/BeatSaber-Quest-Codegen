@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TypeIdentifiers
 #include "System/TypeIdentifiers.hpp"
 // Including type: System.TypeNames/System.ATypeName
@@ -50,20 +51,20 @@ namespace System {
     // Set instance field: private System.String internal_name
     void _set_internal_name(::Il2CppString* value);
     // public System.String get_InternalName()
-    // Offset: 0x22CD6F4
+    // Offset: 0x1D88C28
     ::Il2CppString* get_InternalName();
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x22CD6B8
+    // Offset: 0x1D88BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // private System.String GetInternalName()
-    // Offset: 0x22CD724
+    // Offset: 0x1D88C58
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x22CD6EC
+    // Offset: 0x1D88C20
     // Implemented from: System.TypeNames/System.ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();

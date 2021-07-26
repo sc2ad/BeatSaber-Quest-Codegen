@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -60,25 +61,25 @@ namespace Zenject {
     // Set instance field: private System.Type <KernelType>k__BackingField
     void _set_$KernelType$k__BackingField(System::Type* value);
     // public System.String get_DefaultParentName()
-    // Offset: 0x16D1E8C
+    // Offset: 0x13D4548
     ::Il2CppString* get_DefaultParentName();
     // public System.Void set_DefaultParentName(System.String value)
-    // Offset: 0x16D1E94
+    // Offset: 0x13D4550
     void set_DefaultParentName(::Il2CppString* value);
     // public System.Boolean get_CreateKernel()
-    // Offset: 0x16D1E9C
+    // Offset: 0x13D4558
     bool get_CreateKernel();
     // public System.Void set_CreateKernel(System.Boolean value)
-    // Offset: 0x16D1EA4
+    // Offset: 0x13D4560
     void set_CreateKernel(bool value);
     // public System.Type get_KernelType()
-    // Offset: 0x16D1EB0
+    // Offset: 0x13D456C
     System::Type* get_KernelType();
     // public System.Void set_KernelType(System.Type value)
-    // Offset: 0x16D1EB8
+    // Offset: 0x13D4574
     void set_KernelType(System::Type* value);
     // public System.Void .ctor()
-    // Offset: 0x16CFF40
+    // Offset: 0x13D25FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

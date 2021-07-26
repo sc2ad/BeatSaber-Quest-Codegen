@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -47,13 +48,13 @@ namespace RootMotion::FinalIK {
     // Set instance field: public System.Single weight
     void _set_weight(float value);
     // public System.Boolean get_isValid()
-    // Offset: 0x1CE08F0
+    // Offset: 0x187D690
     bool get_isValid();
     // public System.Void UpdateConstraint()
     // Offset: 0xFFFFFFFF
     void UpdateConstraint();
     // protected System.Void .ctor()
-    // Offset: 0x1CE0960
+    // Offset: 0x187D700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

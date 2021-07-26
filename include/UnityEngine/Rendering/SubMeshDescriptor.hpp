@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Bounds
@@ -20,49 +21,49 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SubMeshDescriptor/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xD82054
+    // [DebuggerBrowsableAttribute] Offset: 0xE2EC70
     // private UnityEngine.Bounds <bounds>k__BackingField
     // Size: 0x18
     // Offset: 0x0
     UnityEngine::Bounds bounds;
     // Field size check
     static_assert(sizeof(UnityEngine::Bounds) == 0x18);
-    // [DebuggerBrowsableAttribute] Offset: 0xD82090
+    // [DebuggerBrowsableAttribute] Offset: 0xE2ECAC
     // private UnityEngine.MeshTopology <topology>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     UnityEngine::MeshTopology topology;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshTopology) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD820CC
+    // [DebuggerBrowsableAttribute] Offset: 0xE2ECE8
     // private System.Int32 <indexStart>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int indexStart;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD82108
+    // [DebuggerBrowsableAttribute] Offset: 0xE2ED24
     // private System.Int32 <indexCount>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     int indexCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD82144
+    // [DebuggerBrowsableAttribute] Offset: 0xE2ED60
     // private System.Int32 <baseVertex>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     int baseVertex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD82180
+    // [DebuggerBrowsableAttribute] Offset: 0xE2ED9C
     // private System.Int32 <firstVertex>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     int firstVertex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD821BC
+    // [DebuggerBrowsableAttribute] Offset: 0xE2EDD8
     // private System.Int32 <vertexCount>k__BackingField
     // Size: 0x4
     // Offset: 0x2C
@@ -104,28 +105,28 @@ namespace UnityEngine::Rendering {
     // Set instance field: private System.Int32 <vertexCount>k__BackingField
     void _set_$vertexCount$k__BackingField(int value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0xEF5C98
+    // Offset: 0xF84B88
     UnityEngine::Bounds get_bounds();
     // public UnityEngine.MeshTopology get_topology()
-    // Offset: 0xEF5CAC
+    // Offset: 0xF84B9C
     UnityEngine::MeshTopology get_topology();
     // public System.Int32 get_indexStart()
-    // Offset: 0xEF5CB4
+    // Offset: 0xF84BA4
     int get_indexStart();
     // public System.Int32 get_indexCount()
-    // Offset: 0xEF5CBC
+    // Offset: 0xF84BAC
     int get_indexCount();
     // public System.Int32 get_baseVertex()
-    // Offset: 0xEF5CC4
+    // Offset: 0xF84BB4
     int get_baseVertex();
     // public System.Int32 get_firstVertex()
-    // Offset: 0xEF5CCC
+    // Offset: 0xF84BBC
     int get_firstVertex();
     // public System.Int32 get_vertexCount()
-    // Offset: 0xEF5CD4
+    // Offset: 0xF84BC4
     int get_vertexCount();
     // public override System.String ToString()
-    // Offset: 0xEF5CDC
+    // Offset: 0xF84BCC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,10 +17,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SR
     SR() noexcept {}
     // static System.String Format(System.String resourceFormat, System.Object p1)
-    // Offset: 0x1A54D38
+    // Offset: 0x170BE2C
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1);
     // static System.String Format(System.String resourceFormat, System.Object p1, System.Object p2)
-    // Offset: 0x1A54DB8
+    // Offset: 0x170BEAC
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1, ::Il2CppObject* p2);
   }; // SR
   #pragma pack(pop)

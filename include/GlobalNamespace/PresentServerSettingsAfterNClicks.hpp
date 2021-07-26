@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfClicksRequired and: settingsFlowCoordinator
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0xE0E388
+    // [InjectAttribute] Offset: 0xEBAFA4
     // private readonly SettingsFlowCoordinator _settingsFlowCoordinator
     // Size: 0x8
     // Offset: 0x30
@@ -108,16 +109,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly HMUI.ButtonBinder _buttonBinder
     void _set__buttonBinder(HMUI::ButtonBinder* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1109B78
+    // Offset: 0x1F5BB8C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1109C0C
+    // Offset: 0x1F5BC20
     void OnDisable();
     // private System.Void <OnEnable>b__6_0()
-    // Offset: 0x1109C98
+    // Offset: 0x1F5BCAC
     void $OnEnable$b__6_0();
     // public System.Void .ctor()
-    // Offset: 0x1109C28
+    // Offset: 0x1F5BC3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

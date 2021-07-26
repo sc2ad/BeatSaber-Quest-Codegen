@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator
 #include "UnityEngine/AddressableAssets/ResourceLocators/IResourceLocator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,42 +76,42 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Set instance field: private System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <Locations>k__BackingField
     void _set_$Locations$k__BackingField(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
     // public System.String get_LocatorId()
-    // Offset: 0x13CC1DC
+    // Offset: 0x1174E3C
     ::Il2CppString* get_LocatorId();
     // private System.Void set_LocatorId(System.String value)
-    // Offset: 0x13CC1E4
+    // Offset: 0x1174E44
     void set_LocatorId(::Il2CppString* value);
     // public System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> get_Locations()
-    // Offset: 0x13CC334
+    // Offset: 0x1174F94
     System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* get_Locations();
     // private System.Void set_Locations(System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> value)
-    // Offset: 0x13CC33C
+    // Offset: 0x1174F9C
     void set_Locations(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x13CC344
+    // Offset: 0x1174FA4
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // public System.Void .ctor(System.String id, System.Int32 capacity)
-    // Offset: 0x13CB6A4
+    // Offset: 0x1174304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationMap* New_ctor(::Il2CppString* id, int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationMap*, creationType>(id, capacity)));
     }
     // public System.Void .ctor(System.String id, System.Collections.Generic.IList`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> locations)
-    // Offset: 0x13C8614
+    // Offset: 0x1171274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationMap* New_ctor(::Il2CppString* id, System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationMap*, creationType>(id, locations)));
     }
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x13C8EA0
-    bool Locate(::Il2CppObject* key, System::Type* type, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& locations);
+    // Offset: 0x1171B00
+    bool Locate(::Il2CppObject* key, System::Type* type, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
     // public System.Void Add(System.Object key, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x13CC1EC
+    // Offset: 0x1174E4C
     void Add(::Il2CppObject* key, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void Add(System.Object key, System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x13CB958
+    // Offset: 0x11745B8
     void Add(::Il2CppObject* key, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
   }; // UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap
   #pragma pack(pop)
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::Locate
 // Il2CppName: Locate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::Locate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::*)(::Il2CppObject*, System::Type*, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>)>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::Locate)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

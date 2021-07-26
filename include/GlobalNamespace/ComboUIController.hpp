@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE05D30
+    // [InjectAttribute] Offset: 0xEB294C
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
@@ -92,28 +93,28 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean _comboLost
     void _set__comboLost(bool value);
     // protected System.Void Start()
-    // Offset: 0x108085C
+    // Offset: 0x1F02158
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1080BA8
+    // Offset: 0x1F024A4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1080BAC
+    // Offset: 0x1F024A8
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x10808D8
+    // Offset: 0x1F021D4
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x1080BB0
+    // Offset: 0x1F024AC
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x1080D50
+    // Offset: 0x1F0264C
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x1080D94
+    // Offset: 0x1F02690
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x1080DCC
+    // Offset: 0x1F026C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

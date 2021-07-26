@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,28 +42,28 @@ namespace GlobalNamespace {
     // Set instance field: private TMPro.TextMeshPro[] _texts
     void _set__texts(::Array<TMPro::TextMeshPro*>* value);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x11ACF28
+    // Offset: 0x1FC4994
     void set_hide(bool value);
     // public System.Single get_fontSize()
-    // Offset: 0x11ACF60
+    // Offset: 0x1FC49CC
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x11AD3EC
+    // Offset: 0x1FC4E58
     void set_fontSize(float value);
     // public System.Single get_alpha()
-    // Offset: 0x11ACFA4
+    // Offset: 0x1FC4A10
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x11AD480
+    // Offset: 0x1FC4EEC
     void set_alpha(float value);
     // public System.Void SetText(System.String text)
-    // Offset: 0x11ADF80
+    // Offset: 0x1FC59EC
     void SetText(::Il2CppString* text);
     // public System.Void SetDistances(System.Single distance)
-    // Offset: 0x11AD5DC
+    // Offset: 0x1FC5048
     void SetDistances(float distance);
     // public System.Void .ctor()
-    // Offset: 0x11AE1A8
+    // Offset: 0x1FC5C14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

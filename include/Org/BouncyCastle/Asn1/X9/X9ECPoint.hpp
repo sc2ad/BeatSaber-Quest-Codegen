@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -68,31 +69,31 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Set instance field: private Org.BouncyCastle.Math.EC.ECPoint p
     void _set_p(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Point()
-    // Offset: 0x19E3C5C
+    // Offset: 0x169AD50
     Org::BouncyCastle::Math::EC::ECPoint* get_Point();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Boolean compressed)
-    // Offset: 0x19E94B0
+    // Offset: 0x16A05A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(p, compressed)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, System.Byte[] encoding)
-    // Offset: 0x19E3BA4
+    // Offset: 0x169AC98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, ::Array<uint8_t>* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(c, encoding)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Asn1.Asn1OctetString s)
-    // Offset: 0x19E8D18
+    // Offset: 0x169FE0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Asn1::Asn1OctetString* s) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(c, s)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19E9570
+    // Offset: 0x16A0664
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

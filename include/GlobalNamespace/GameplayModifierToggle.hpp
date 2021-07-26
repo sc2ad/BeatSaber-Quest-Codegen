@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* toggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0D55C
+    // [SpaceAttribute] Offset: 0xEBA178
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x48
@@ -121,16 +122,16 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.Color _positiveColor
     void _set__positiveColor(UnityEngine::Color value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x10B16E8
+    // Offset: 0x1F1E658
     UnityEngine::UI::Toggle* get_toggle();
     // public GameplayModifierParamsSO get_gameplayModifier()
-    // Offset: 0x10B16F0
+    // Offset: 0x1F1E660
     GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
     // protected System.Void Start()
-    // Offset: 0x10B16F8
+    // Offset: 0x1F1E668
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10B1A54
+    // Offset: 0x1F1E9C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

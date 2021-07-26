@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Tweening.Tween`1
 #include "Tweening/Tween_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,33 +40,33 @@ namespace Tweening {
     public:
     // Creating value type constructor for type: FloatTween
     FloatTween() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE13820
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC043C
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<System.Single,System.Single,System.Action`1<System.Single>,System.Single,Tweening.EaseType,System.Single,Tweening.FloatTween> Pool
     static Zenject::StaticMemoryPool_7<float, float, System::Action_1<float>*, float, Tweening::EaseType, float, Tweening::FloatTween*>* _get_Pool();
     // Set static field: static public readonly Zenject.StaticMemoryPool`7<System.Single,System.Single,System.Action`1<System.Single>,System.Single,Tweening.EaseType,System.Single,Tweening.FloatTween> Pool
     static void _set_Pool(Zenject::StaticMemoryPool_7<float, float, System::Action_1<float>*, float, Tweening::EaseType, float, Tweening::FloatTween*>* value);
     // public System.Void .ctor(System.Single fromValue, System.Single toValue, System.Action`1<System.Single> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0x1076FCC
+    // Offset: 0x1EE2AA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatTween* New_ctor(float fromValue, float toValue, System::Action_1<float>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::FloatTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloatTween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(System.Single fromValue, System.Single toValue, System.Action`1<System.Single> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0x1077064
+    // Offset: 0x1EE2B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatTween* New_ctor(float fromValue, float toValue, System::Action_1<float>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::FloatTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloatTween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1077128
+    // Offset: 0x1EE2BFC
     static void _cctor();
     // public System.Single GetValue(System.Single t)
-    // Offset: 0x10770FC
+    // Offset: 0x1EE2BD0
     float GetValue(float t);
     // public System.Void .ctor()
-    // Offset: 0x1076F7C
+    // Offset: 0x1EE2A50
     // Implemented from: Tweening.Tween`1
     // Base method: System.Void Tween_1::.ctor()
     // Base method: System.Void Tween::.ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OffsetByBeatmapObjectSpawnCenter : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE0315C
+    // [InjectAttribute] Offset: 0xEAFD78
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x18
@@ -42,13 +43,13 @@ namespace GlobalNamespace {
     // Set instance field: private readonly BeatmapObjectSpawnCenter _spawnCenter
     void _set__spawnCenter(GlobalNamespace::BeatmapObjectSpawnCenter* value);
     // protected System.Void Start()
-    // Offset: 0xFF3B6C
+    // Offset: 0x1E47120
     void Start();
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0xFF3C20
+    // Offset: 0x1E471D4
     void HandleSpawnCenterDistanceWasFound(float distance);
     // public System.Void .ctor()
-    // Offset: 0xFF3D20
+    // Offset: 0x1E472D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

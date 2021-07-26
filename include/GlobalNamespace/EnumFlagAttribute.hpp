@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,14 +37,14 @@ namespace GlobalNamespace {
     // Set instance field: public System.String enumName
     void _set_enumName(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x12135CC
+    // Offset: 0x203FF24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumFlagAttribute* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumFlagAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumFlagAttribute*, creationType>(name)));
     }
     // public System.Void .ctor()
-    // Offset: 0x12135C4
+    // Offset: 0x203FF1C
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

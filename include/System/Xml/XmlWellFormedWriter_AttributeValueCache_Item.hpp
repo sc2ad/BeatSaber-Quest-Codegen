@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType
@@ -46,10 +47,10 @@ namespace System::Xml {
     // Set instance field: System.Object data
     void _set_data(::Il2CppObject* value);
     // System.Void Set(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
-    // Offset: 0x239A9E8
+    // Offset: 0x1E129D0
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // System.Void .ctor()
-    // Offset: 0x239A9E0
+    // Offset: 0x1E129C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

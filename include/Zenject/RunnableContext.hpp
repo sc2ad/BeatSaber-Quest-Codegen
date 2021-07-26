@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Context
 #include "Zenject/Context.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -26,7 +27,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class RunnableContext : public Zenject::Context {
     public:
-    // [TooltipAttribute] Offset: 0xDCB228
+    // [TooltipAttribute] Offset: 0xE77E44
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
@@ -54,16 +55,16 @@ namespace Zenject {
     // Set instance field: private System.Boolean <Initialized>k__BackingField
     void _set_$Initialized$k__BackingField(bool value);
     // public System.Boolean get_Initialized()
-    // Offset: 0x16CBE70
+    // Offset: 0x13CE52C
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x16CBE78
+    // Offset: 0x13CE534
     void set_Initialized(bool value);
     // protected System.Void Initialize()
-    // Offset: 0x16CBE84
+    // Offset: 0x13CE540
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x16CBF30
+    // Offset: 0x13CE5EC
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFF
@@ -79,7 +80,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x16CBFA8
+    // Offset: 0x13CE664
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -93,7 +94,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16CBFB8
+    // Offset: 0x13CE674
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

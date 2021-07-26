@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.EqualityComparer`1
 #include "System/Collections/Generic/EqualityComparer_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -21,16 +22,16 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: InternalStringComparer
     InternalStringComparer() noexcept {}
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x178CAA0
+    // Offset: 0x148E15C
     int GetHashCode(::Il2CppString* obj);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x178CAC0
+    // Offset: 0x148E17C
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // System.Int32 IndexOf(System.String[] array, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x178CAF0
+    // Offset: 0x148E1AC
     int IndexOf(::Array<::Il2CppString*>* array, ::Il2CppString* value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x178CB58
+    // Offset: 0x148E214
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()

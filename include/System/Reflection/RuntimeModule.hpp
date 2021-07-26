@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.Module
 #include "System/Reflection/Module.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: RuntimeModule
     RuntimeModule() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x13E695C
+    // Offset: 0x118F5BC
     // Implemented from: System.Reflection.Module
     // Base method: System.Void Module::.ctor()
     // Base method: System.Void Object::.ctor()

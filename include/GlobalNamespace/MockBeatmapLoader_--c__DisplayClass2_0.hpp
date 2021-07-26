@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MockBeatmapLoader
 #include "GlobalNamespace/MockBeatmapLoader.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -48,13 +49,13 @@ namespace GlobalNamespace {
     // Set instance field: public BeatmapIdentifierNetSerializable beatmap
     void _set_beatmap(GlobalNamespace::BeatmapIdentifierNetSerializable* value);
     // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
-    // Offset: 0x113B608
+    // Offset: 0x1F6C01C
     bool $GetBeatmapData$b__0(GlobalNamespace::IDifficultyBeatmapSet* bds);
     // System.Boolean <GetBeatmapData>b__2(IDifficultyBeatmap dbm)
-    // Offset: 0x113B6DC
+    // Offset: 0x1F6C0F0
     bool $GetBeatmapData$b__2(GlobalNamespace::IDifficultyBeatmap* dbm);
     // public System.Void .ctor()
-    // Offset: 0x113B600
+    // Offset: 0x1F6C014
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

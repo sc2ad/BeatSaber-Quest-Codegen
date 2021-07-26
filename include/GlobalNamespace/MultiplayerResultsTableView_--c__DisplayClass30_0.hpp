@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerResultsTableView
 #include "GlobalNamespace/MultiplayerResultsTableView.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -57,13 +58,13 @@ namespace GlobalNamespace {
     // Set instance field: public MultiplayerResultsTableCell cell
     void _set_cell(GlobalNamespace::MultiplayerResultsTableCell* value);
     // System.Void <StartAnimation>b__0(UnityEngine.Vector2 val)
-    // Offset: 0x1007A88
+    // Offset: 0x1E5B03C
     void $StartAnimation$b__0(UnityEngine::Vector2 val);
     // System.Void <StartAnimation>b__2(System.Single val)
-    // Offset: 0x1007AA4
+    // Offset: 0x1E5B058
     void $StartAnimation$b__2(float val);
     // public System.Void .ctor()
-    // Offset: 0x1007884
+    // Offset: 0x1E5AE38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

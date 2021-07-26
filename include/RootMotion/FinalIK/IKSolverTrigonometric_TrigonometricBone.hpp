@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolverTrigonometric
 #include "RootMotion/FinalIK/IKSolverTrigonometric.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
@@ -46,16 +47,16 @@ namespace RootMotion::FinalIK {
     // Set instance field: private UnityEngine.Vector3 defaultLocalBendNormal
     void _set_defaultLocalBendNormal(UnityEngine::Vector3 value);
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1C6D7DC
+    // Offset: 0x1820858
     void Initiate(UnityEngine::Vector3 childPosition, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Quaternion GetRotation(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1C6E394
+    // Offset: 0x1821410
     UnityEngine::Quaternion GetRotation(UnityEngine::Vector3 direction, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Vector3 GetBendNormalFromCurrentRotation()
-    // Offset: 0x1C68390
+    // Offset: 0x181B40C
     UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
     // public System.Void .ctor()
-    // Offset: 0x1C6E45C
+    // Offset: 0x18214D8
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()

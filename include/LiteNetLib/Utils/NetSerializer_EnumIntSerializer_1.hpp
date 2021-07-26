@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.NetSerializer
 #include "LiteNetLib/Utils/NetSerializer.hpp"
 // Including type: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.EnumByteSerializer`1

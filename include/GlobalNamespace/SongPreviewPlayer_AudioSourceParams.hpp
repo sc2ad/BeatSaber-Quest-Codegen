@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongPreviewPlayer
 #include "GlobalNamespace/SongPreviewPlayer.hpp"
 // Including type: UnityEngine.Vector3
@@ -27,21 +28,21 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xE13BFC
+    // [RangeAttribute] Offset: 0xEC0818
     // private System.Single _reverbZoneMix
     // Size: 0x4
     // Offset: 0x1C
     float reverbZoneMix;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE13C40
+    // [RangeAttribute] Offset: 0xEC085C
     // private System.Single _spatialBlend
     // Size: 0x4
     // Offset: 0x20
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE13C80
+    // [RangeAttribute] Offset: 0xEC089C
     // private System.Single _spread
     // Size: 0x4
     // Offset: 0x24
@@ -67,19 +68,19 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _spread
     void _set__spread(float value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x105C3E0
+    // Offset: 0x1EC6EB4
     UnityEngine::Vector3 get_position();
     // public System.Single get_reverbZoneMix()
-    // Offset: 0x105C3EC
+    // Offset: 0x1EC6EC0
     float get_reverbZoneMix();
     // public System.Single get_spatialBlend()
-    // Offset: 0x105C3F4
+    // Offset: 0x1EC6EC8
     float get_spatialBlend();
     // public System.Single get_spread()
-    // Offset: 0x105C3FC
+    // Offset: 0x1EC6ED0
     float get_spread();
     // public System.Void .ctor()
-    // Offset: 0x105C404
+    // Offset: 0x1EC6ED8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

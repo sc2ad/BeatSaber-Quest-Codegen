@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ModestTree.TypeStringFormatter
 #include "ModestTree/TypeStringFormatter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -41,13 +42,13 @@ namespace ModestTree {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__2_0
     static void _set_$$9__2_0(System::Func_2<System::Type*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x137571C
+    // Offset: 0x111C37C
     static void _cctor();
     // System.String <PrettyNameInternal>b__2_0(System.Type t)
-    // Offset: 0x1375788
+    // Offset: 0x111C3E8
     ::Il2CppString* $PrettyNameInternal$b__2_0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0x1375780
+    // Offset: 0x111C3E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

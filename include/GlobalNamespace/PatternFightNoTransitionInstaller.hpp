@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.NoTransitionInstaller
 #include "Zenject/NoTransitionInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -39,7 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSpecificSettings*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE131C0
+    // [SpaceAttribute] Offset: 0xEBFDDC
     // private PatternFightScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     // Set instance field: private PatternFightScenesTransitionSetupDataSO _scenesTransitionSetupData
     void _set__scenesTransitionSetupData(GlobalNamespace::PatternFightScenesTransitionSetupDataSO* value);
     // public System.Void .ctor()
-    // Offset: 0xFFF2E4
+    // Offset: 0x1E52898
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -73,7 +74,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xFFF060
+    // Offset: 0x1E52614
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Encodable
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -58,23 +59,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set instance field: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme
     void _set_scheme(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
     // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()
-    // Offset: 0x1762BDC
+    // Offset: 0x1465298
     Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
     // public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme get_EncryptionScheme()
-    // Offset: 0x1762BE4
+    // Offset: 0x14652A0
     Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17627E8
+    // Offset: 0x1464EA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeS2Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeS2Parameters*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.PbeS2Parameters GetInstance(System.Object obj)
-    // Offset: 0x1762744
+    // Offset: 0x1464E00
     static Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1762BEC
+    // Offset: 0x14652A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

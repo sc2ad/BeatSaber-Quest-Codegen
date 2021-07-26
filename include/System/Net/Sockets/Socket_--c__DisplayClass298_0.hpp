@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Sockets.Socket
 #include "System/Net/Sockets/Socket.hpp"
 // Including type: System.IntPtr
@@ -67,10 +68,10 @@ namespace System::Net::Sockets {
     // Set instance field: public System.IntPtr handle
     void _set_handle(System::IntPtr value);
     // System.Void <QueueIOSelectorJob>b__0(System.Threading.Tasks.Task t)
-    // Offset: 0x158C034
+    // Offset: 0x128F604
     void $QueueIOSelectorJob$b__0(System::Threading::Tasks::Task* t);
     // public System.Void .ctor()
-    // Offset: 0x158C02C
+    // Offset: 0x128F5FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

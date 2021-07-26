@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -148,10 +149,10 @@ namespace GlobalNamespace {
     // Set instance field: public DynamicBoneColliderBase/Bound m_Bound
     void _set_m_Bound(GlobalNamespace::DynamicBoneColliderBase::Bound value);
     // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x23A54E0
-    void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);
+    // Offset: 0x1E1D4C8
+    void Collide(ByRef<UnityEngine::Vector3> particlePosition, float particleRadius);
     // public System.Void .ctor()
-    // Offset: 0x23A5460
+    // Offset: 0x1E1D448
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -175,7 +176,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "Dyn
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBoneColliderBase::Collide
 // Il2CppName: Collide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DynamicBoneColliderBase::*)(UnityEngine::Vector3&, float)>(&GlobalNamespace::DynamicBoneColliderBase::Collide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DynamicBoneColliderBase::*)(ByRef<UnityEngine::Vector3>, float)>(&GlobalNamespace::DynamicBoneColliderBase::Collide)> {
   static const MethodInfo* get() {
     static auto* particlePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* particleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

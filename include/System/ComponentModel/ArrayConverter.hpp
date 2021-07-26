@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.CollectionConverter
 #include "System/ComponentModel/CollectionConverter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -22,7 +23,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: ArrayConverter
     ArrayConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x18473DC
+    // Offset: 0x15187E0
     // Implemented from: System.ComponentModel.CollectionConverter
     // Base method: System.Void CollectionConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

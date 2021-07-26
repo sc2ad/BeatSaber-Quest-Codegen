@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -79,27 +80,27 @@ namespace System::IO {
     // Set instance field: private System.String pattern
     void _set_pattern(::Il2CppString* value);
     // public System.Boolean get_HasWildcard()
-    // Offset: 0x1857134
+    // Offset: 0x1528538
     bool get_HasWildcard();
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x18560A8
+    // Offset: 0x15274AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::Il2CppString* pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern)));
     }
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
-    // Offset: 0x1856E08
+    // Offset: 0x152820C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::Il2CppString* pattern, bool ignore) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern, ignore)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x185716C
+    // Offset: 0x1528570
     static void _cctor();
     // private System.Void Compile(System.String pattern)
-    // Offset: 0x1856E50
+    // Offset: 0x1528254
     void Compile(::Il2CppString* pattern);
   }; // System.IO.SearchPattern2
   #pragma pack(pop)

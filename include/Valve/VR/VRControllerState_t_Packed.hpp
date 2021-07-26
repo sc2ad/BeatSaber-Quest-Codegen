@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.VRControllerAxis_t
@@ -111,7 +112,7 @@ namespace Valve::VR {
     // Set instance field: public Valve.VR.VRControllerAxis_t rAxis4
     void _set_rAxis4(Valve::VR::VRControllerAxis_t value);
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0xF0D5F8
+    // Offset: 0xD931B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VRControllerState_t_Packed(Valve::VR::VRControllerState_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VRControllerState_t_Packed::.ctor");
@@ -119,8 +120,8 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0xF0D624
-    void Unpack(Valve::VR::VRControllerState_t& unpacked);
+    // Offset: 0xD931E0
+    void Unpack(ByRef<Valve::VR::VRControllerState_t> unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
   #pragma pack(pop)
   static check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(Valve::VR::VRControllerAxis_t)> __Valve_VR_VRControllerState_t_PackedSizeCheck;
@@ -135,7 +136,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t_Packed, "Valve.VR", "VRCon
 // Writing MetadataGetter for method: Valve::VR::VRControllerState_t_Packed::Unpack
 // Il2CppName: Unpack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::VRControllerState_t_Packed::*)(Valve::VR::VRControllerState_t&)>(&Valve::VR::VRControllerState_t_Packed::Unpack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::VRControllerState_t_Packed::*)(ByRef<Valve::VR::VRControllerState_t>)>(&Valve::VR::VRControllerState_t_Packed::Unpack)> {
   static const MethodInfo* get() {
     static auto* unpacked = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::VRControllerState_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unpacked});

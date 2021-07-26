@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -313,58 +314,58 @@ namespace GlobalNamespace {
     // Set instance field: private System.Boolean showVRVars
     void _set_showVRVars(bool value);
     // private System.Void Awake()
-    // Offset: 0x1253D00
+    // Offset: 0x105DFD8
     void Awake();
     // private System.Void Update()
-    // Offset: 0x1253F08
+    // Offset: 0x105E1E0
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x125464C
+    // Offset: 0x105E924
     void OnDestroy();
     // private System.Void InitUIComponents()
-    // Offset: 0x1253FD0
+    // Offset: 0x105E2A8
     void InitUIComponents();
     // private System.Void UpdateVariable()
-    // Offset: 0x12543A4
+    // Offset: 0x105E67C
     void UpdateVariable();
     // private System.Void UpdateStrings()
-    // Offset: 0x12543E8
+    // Offset: 0x105E6C0
     void UpdateStrings();
     // private System.Void RiftPresentGUI(UnityEngine.GameObject guiMainOBj)
-    // Offset: 0x1254E40
+    // Offset: 0x105F118
     void RiftPresentGUI(UnityEngine::GameObject* guiMainOBj);
     // private System.Void UpdateDeviceDetection()
-    // Offset: 0x1254364
+    // Offset: 0x105E63C
     void UpdateDeviceDetection();
     // private UnityEngine.GameObject VariableObjectManager(UnityEngine.GameObject gameObject, System.String name, System.Single posY, System.String str, System.Int32 fontSize)
-    // Offset: 0x1254654
+    // Offset: 0x105E92C
     UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::Il2CppString* name, float posY, ::Il2CppString* str, int fontSize);
     // private UnityEngine.GameObject ComponentComposition(UnityEngine.GameObject GO)
-    // Offset: 0x1254FF4
+    // Offset: 0x105F2CC
     UnityEngine::GameObject* ComponentComposition(UnityEngine::GameObject* GO);
     // private System.Void UpdateIPD()
-    // Offset: 0x1254834
+    // Offset: 0x105EB0C
     void UpdateIPD();
     // private System.Void UpdateEyeHeightOffset()
-    // Offset: 0x12548F8
+    // Offset: 0x105EBD0
     void UpdateEyeHeightOffset();
     // private System.Void UpdateEyeDepthOffset()
-    // Offset: 0x12549B0
+    // Offset: 0x105EC88
     void UpdateEyeDepthOffset();
     // private System.Void UpdateFOV()
-    // Offset: 0x1254A68
+    // Offset: 0x105ED40
     void UpdateFOV();
     // private System.Void UpdateResolutionEyeTexture()
-    // Offset: 0x1254B70
+    // Offset: 0x105EE48
     void UpdateResolutionEyeTexture();
     // private System.Void UpdateLatencyValues()
-    // Offset: 0x1254D58
+    // Offset: 0x105F030
     void UpdateLatencyValues();
     // private System.Void UpdateFPS()
-    // Offset: 0x1254D5C
+    // Offset: 0x105F034
     void UpdateFPS();
     // public System.Void .ctor()
-    // Offset: 0x1255360
+    // Offset: 0x105F638
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

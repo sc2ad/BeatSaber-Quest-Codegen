@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Priority_Queue.FastPriorityQueueNode
 #include "Priority_Queue/FastPriorityQueueNode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -36,13 +37,13 @@ namespace Priority_Queue {
     // Set instance field: private System.Int64 <InsertionIndex>k__BackingField
     void _set_$InsertionIndex$k__BackingField(int64_t value);
     // public System.Int64 get_InsertionIndex()
-    // Offset: 0x110AD0C
+    // Offset: 0x1F5CD20
     int64_t get_InsertionIndex();
     // System.Void set_InsertionIndex(System.Int64 value)
-    // Offset: 0x110AD14
+    // Offset: 0x1F5CD28
     void set_InsertionIndex(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x110AD1C
+    // Offset: 0x1F5CD30
     // Implemented from: Priority_Queue.FastPriorityQueueNode
     // Base method: System.Void FastPriorityQueueNode::.ctor()
     // Base method: System.Void Object::.ctor()

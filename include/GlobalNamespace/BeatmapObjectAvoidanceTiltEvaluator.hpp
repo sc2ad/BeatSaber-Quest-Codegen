@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -87,14 +88,14 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _currentAcceleration
     void _set__currentAcceleration(float value);
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, BezierSplineEvaluator bezierSplineEvaluator, UnityEngine.Vector2 gravity)
-    // Offset: 0x1090C9C
+    // Offset: 0x1EE9144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceTiltEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, UnityEngine::Vector2 gravity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceTiltEvaluator*, creationType>(audioTimeSource, bezierSplineEvaluator, gravity)));
     }
     // public System.Single GetTiltAngle()
-    // Offset: 0x1090D00
+    // Offset: 0x1EE91A8
     float GetTiltAngle();
   }; // BeatmapObjectAvoidanceTiltEvaluator
   #pragma pack(pop)

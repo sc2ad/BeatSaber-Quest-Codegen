@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
@@ -46,10 +47,10 @@ namespace RootMotion {
     // Set instance field: public UnityEngine.Color color
     void _set_color(UnityEngine::Color value);
     // private System.Void OnGUI()
-    // Offset: 0x1CDC674
+    // Offset: 0x1879414
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x1CDC7B4
+    // Offset: 0x1879554
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

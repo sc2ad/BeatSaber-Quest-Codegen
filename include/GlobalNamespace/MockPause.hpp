@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IGamePause
 #include "GlobalNamespace/IGamePause.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -63,34 +64,34 @@ namespace GlobalNamespace {
     // Set instance field: private System.Action didResumeEvent
     void _set_didResumeEvent(System::Action* value);
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x113C358
+    // Offset: 0x1F6CD6C
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x113C3FC
+    // Offset: 0x1F6CE10
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x113C4A0
+    // Offset: 0x1F6CEB4
     void add_willResumeEvent(System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x113C544
+    // Offset: 0x1F6CF58
     void remove_willResumeEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x113C5E8
+    // Offset: 0x1F6CFFC
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x113C68C
+    // Offset: 0x1F6D0A0
     void remove_didResumeEvent(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x113C730
+    // Offset: 0x1F6D144
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x113C790
+    // Offset: 0x1F6D1A4
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x113C7F0
+    // Offset: 0x1F6D204
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x113C850
+    // Offset: 0x1F6D264
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

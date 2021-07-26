@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.AddToCurrentGameObjectComponentProvider
 #include "Zenject/AddToCurrentGameObjectComponentProvider.hpp"
 // Including type: Zenject.TypeValuePair
@@ -78,10 +79,10 @@ namespace Zenject {
     // Set instance field: public Zenject.InjectContext context
     void _set_context(Zenject::InjectContext* value);
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x1377F7C
+    // Offset: 0x111EBDC
     void $GetAllInstancesWithInjectSplit$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1377F74
+    // Offset: 0x111EBD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

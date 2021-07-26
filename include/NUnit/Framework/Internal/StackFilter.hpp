@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -27,10 +28,10 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.Text.RegularExpressions.Regex assertOrAssumeRegex
     static void _set_assertOrAssumeRegex(System::Text::RegularExpressions::Regex* value);
     // static private System.Void .cctor()
-    // Offset: 0x223D67C
+    // Offset: 0x1D0D4F0
     static void _cctor();
     // static public System.String Filter(System.String rawTrace)
-    // Offset: 0x223D464
+    // Offset: 0x1D0D2D8
     static ::Il2CppString* Filter(::Il2CppString* rawTrace);
   }; // NUnit.Framework.Internal.StackFilter
   #pragma pack(pop)

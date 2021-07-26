@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -88,14 +89,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: titleHeight and: contentRoot
     char __padding8[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE0C534
+    // [SpaceAttribute] Offset: 0xEB9150
     // private UnityEngine.Transform _contentRoot
     // Size: 0x8
     // Offset: 0x58
     UnityEngine::Transform* contentRoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE0C56C
+    // [SpaceAttribute] Offset: 0xEB9188
     // private UnityEngine.RectTransform _rootRectTransform
     // Size: 0x8
     // Offset: 0x60
@@ -161,43 +162,43 @@ namespace GlobalNamespace {
     // Set instance field: private UnityEngine.TextAsset _creditsContentTextAsset
     void _set__creditsContentTextAsset(UnityEngine::TextAsset* value);
     // public UnityEngine.GameObject get_normalTextPrefab()
-    // Offset: 0x1082A64
+    // Offset: 0x1F04360
     UnityEngine::GameObject* get_normalTextPrefab();
     // public UnityEngine.GameObject get_normalLocalizedTextPrefab()
-    // Offset: 0x1082A6C
+    // Offset: 0x1F04368
     UnityEngine::GameObject* get_normalLocalizedTextPrefab();
     // public UnityEngine.GameObject get_titleTextPrefab()
-    // Offset: 0x1082A74
+    // Offset: 0x1F04370
     UnityEngine::GameObject* get_titleTextPrefab();
     // public UnityEngine.GameObject get_titleLocalizedTextPrefab()
-    // Offset: 0x1082A7C
+    // Offset: 0x1F04378
     UnityEngine::GameObject* get_titleLocalizedTextPrefab();
     // public UnityEngine.GameObject get_headerTextPrefab()
-    // Offset: 0x1082A84
+    // Offset: 0x1F04380
     UnityEngine::GameObject* get_headerTextPrefab();
     // public UnityEngine.GameObject get_headerLocalizedTextPrefab()
-    // Offset: 0x1082A8C
+    // Offset: 0x1F04388
     UnityEngine::GameObject* get_headerLocalizedTextPrefab();
     // public System.Int32 get_columnCount()
-    // Offset: 0x1082A94
+    // Offset: 0x1F04390
     int get_columnCount();
     // public System.Single get_spaceHeight()
-    // Offset: 0x1082A9C
+    // Offset: 0x1F04398
     float get_spaceHeight();
     // public System.Single get_titleHeight()
-    // Offset: 0x1082AA4
+    // Offset: 0x1F043A0
     float get_titleHeight();
     // public UnityEngine.Transform get_contentRoot()
-    // Offset: 0x1082AAC
+    // Offset: 0x1F043A8
     UnityEngine::Transform* get_contentRoot();
     // public UnityEngine.RectTransform get_rootRectTransform()
-    // Offset: 0x1082AB4
+    // Offset: 0x1F043B0
     UnityEngine::RectTransform* get_rootRectTransform();
     // public UnityEngine.TextAsset get_creditsContentTextAsset()
-    // Offset: 0x1082ABC
+    // Offset: 0x1F043B8
     UnityEngine::TextAsset* get_creditsContentTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x1082AC4
+    // Offset: 0x1F043C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

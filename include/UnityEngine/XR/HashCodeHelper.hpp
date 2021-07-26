@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
@@ -16,7 +17,7 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: HashCodeHelper
     HashCodeHelper() noexcept {}
     // static public System.Int32 Combine(System.Int32 hash1, System.Int32 hash2)
-    // Offset: 0x23B3C8C
+    // Offset: 0x1E2CC74
     static int Combine(int hash1, int hash2);
   }; // UnityEngine.XR.HashCodeHelper
   #pragma pack(pop)

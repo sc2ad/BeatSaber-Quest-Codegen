@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -57,16 +58,16 @@ namespace System::Runtime::Serialization {
     // Set instance field: private System.Int32[] m_parentIndex
     void _set_m_parentIndex(::Array<int>* value);
     // public System.Int64 get_ContainerID()
-    // Offset: 0x1684FF8
+    // Offset: 0x13876B4
     int64_t get_ContainerID();
     // public System.Reflection.FieldInfo get_ParentField()
-    // Offset: 0x1685000
+    // Offset: 0x13876BC
     System::Reflection::FieldInfo* get_ParentField();
     // public System.Int32[] get_ParentIndex()
-    // Offset: 0x1685008
+    // Offset: 0x13876C4
     ::Array<int>* get_ParentIndex();
     // public System.Void .ctor(System.Int64 containerID, System.Reflection.FieldInfo member, System.Int32[] parentIndex)
-    // Offset: 0x167BFC0
+    // Offset: 0x137E67C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueTypeFixupInfo* New_ctor(int64_t containerID, System::Reflection::FieldInfo* member, ::Array<int>* parentIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ValueTypeFixupInfo::.ctor");

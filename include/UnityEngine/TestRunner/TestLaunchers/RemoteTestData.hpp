@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.RunState
 #include "NUnit/Framework/Interfaces/RunState.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -220,7 +221,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set instance field: public System.String ParentFullName
     void _set_ParentFullName(::Il2CppString* value);
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1485244
+    // Offset: 0x11F62A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData* New_ctor(NUnit::Framework::Interfaces::ITest* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");

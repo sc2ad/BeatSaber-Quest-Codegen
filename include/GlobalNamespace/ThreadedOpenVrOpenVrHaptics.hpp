@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IOpenVRHaptics
 #include "GlobalNamespace/IOpenVRHaptics.hpp"
 // Including type: System.ValueType
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
       // Set instance field: public readonly System.Single strength
       void _set_strength(float value);
       // public System.Void .ctor(System.Single endTime, System.Single strength)
-      // Offset: 0xF0D394
+      // Offset: 0xD92F50
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength)
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
@@ -126,19 +127,19 @@ namespace GlobalNamespace {
     // Set instance field: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
     void _set__rightHandHaptics(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData value);
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x235ADF4
+    // Offset: 0x1DE3234
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // private System.Void UpdateHaptics()
-    // Offset: 0x235AE28
+    // Offset: 0x1DE3268
     void UpdateHaptics();
     // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x235AEF0
+    // Offset: 0x1DE3330
     void UpdateHandHaptics(UnityEngine::XR::XRNode node);
     // public System.Void Destroy()
-    // Offset: 0x235B034
+    // Offset: 0x1DE3474
     void Destroy();
     // public System.Void .ctor()
-    // Offset: 0x235AD34
+    // Offset: 0x1DE3174
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Installer`2
 #include "Zenject/Installer_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -40,14 +41,14 @@ namespace Zenject {
     // Set instance field: private readonly UnityEngine.Animator _animator
     void _set__animator(UnityEngine::Animator* value);
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0x1378BD0
+    // Offset: 0x111F830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AnimatorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorInstaller*, creationType>(animator)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1378C34
+    // Offset: 0x111F894
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

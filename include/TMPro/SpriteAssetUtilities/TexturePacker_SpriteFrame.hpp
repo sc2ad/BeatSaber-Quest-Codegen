@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker
 #include "TMPro/SpriteAssetUtilities/TexturePacker.hpp"
 // Including type: System.ValueType
@@ -65,7 +66,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Set instance field: public System.Single h
     void _set_h(float value);
     // public override System.String ToString()
-    // Offset: 0xED0AF4
+    // Offset: 0xD67990
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

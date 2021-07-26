@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -64,49 +65,49 @@ namespace Mono::Security::X509 {
     // Set instance field: protected Mono.Security.ASN1 extnValue
     void _set_extnValue(Mono::Security::ASN1* value);
     // public System.String get_Oid()
-    // Offset: 0x23821B4
+    // Offset: 0x1E02778
     ::Il2CppString* get_Oid();
     // public System.Boolean get_Critical()
-    // Offset: 0x23821BC
+    // Offset: 0x1E02780
     bool get_Critical();
     // public Mono.Security.ASN1 get_Value()
-    // Offset: 0x2382174
+    // Offset: 0x1E02738
     Mono::Security::ASN1* get_Value();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x2381D54
+    // Offset: 0x1E02318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(asn1)));
     }
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x2382014
+    // Offset: 0x1E025D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::X509::X509Extension* extension) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(extension)));
     }
     // protected System.Void Decode()
-    // Offset: 0x23821AC
+    // Offset: 0x1E02770
     void Decode();
     // protected System.Void Encode()
-    // Offset: 0x23821B0
+    // Offset: 0x1E02774
     void Encode();
     // private System.Void WriteLine(System.Text.StringBuilder sb, System.Int32 n, System.Int32 pos)
-    // Offset: 0x2382344
+    // Offset: 0x1E02908
     void WriteLine(System::Text::StringBuilder* sb, int n, int pos);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x23821C4
+    // Offset: 0x1E02788
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2382324
+    // Offset: 0x1E028E8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2382550
+    // Offset: 0x1E02B14
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

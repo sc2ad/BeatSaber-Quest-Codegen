@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVR.OpenVR.IVRNotifications
 #include "OVR/OpenVR/IVRNotifications.hpp"
 // Including type: System.IntPtr
@@ -51,17 +52,17 @@ namespace OVR::OpenVR {
     // Set instance field: private OVR.OpenVR.IVRNotifications FnTable
     void _set_FnTable(OVR::OpenVR::IVRNotifications value);
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x15826A8
+    // Offset: 0x1286C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRNotifications* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRNotifications::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRNotifications*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, ref OVR.OpenVR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
-    // Offset: 0x15827A8
-    OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, OVR::OpenVR::EVRNotificationType type, ::Il2CppString* pchText, OVR::OpenVR::EVRNotificationStyle style, OVR::OpenVR::NotificationBitmap_t& pImage, uint& pNotificationId);
+    // Offset: 0x1286D78
+    OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, OVR::OpenVR::EVRNotificationType type, ::Il2CppString* pchText, OVR::OpenVR::EVRNotificationStyle style, ByRef<OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
     // public OVR.OpenVR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)
-    // Offset: 0x15827CC
+    // Offset: 0x1286D9C
     OVR::OpenVR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // OVR.OpenVR.CVRNotifications
   #pragma pack(pop)
@@ -77,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRNotifications*, "OVR.OpenVR", "CVRNotific
 // Writing MetadataGetter for method: OVR::OpenVR::CVRNotifications::CreateNotification
 // Il2CppName: CreateNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::CVRNotifications::*)(uint64_t, uint64_t, OVR::OpenVR::EVRNotificationType, ::Il2CppString*, OVR::OpenVR::EVRNotificationStyle, OVR::OpenVR::NotificationBitmap_t&, uint&)>(&OVR::OpenVR::CVRNotifications::CreateNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::CVRNotifications::*)(uint64_t, uint64_t, OVR::OpenVR::EVRNotificationType, ::Il2CppString*, OVR::OpenVR::EVRNotificationStyle, ByRef<OVR::OpenVR::NotificationBitmap_t>, ByRef<uint>)>(&OVR::OpenVR::CVRNotifications::CreateNotification)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;

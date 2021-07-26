@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyValuesSetter
 #include "GlobalNamespace/MaterialPropertyValuesSetter.hpp"
 // Including type: MaterialPropertyValuesSetter/PropertyValuePairBase
@@ -40,7 +41,7 @@ namespace GlobalNamespace {
     // Set instance field: public UnityEngine.Color color
     void _set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1DF6314
+    // Offset: 0x1968EF4
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()

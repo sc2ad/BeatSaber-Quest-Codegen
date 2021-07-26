@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_Events
 #include "GlobalNamespace/SteamVR_Events.hpp"
 // Including type: UnityEngine.Events.UnityEvent`2

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BTSStarTextEventEffect
 #include "GlobalNamespace/BTSStarTextEventEffect.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -61,16 +62,16 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _animationLength
     void _set__animationLength(float value);
     // public System.Int32 get_id()
-    // Offset: 0x10E799C
+    // Offset: 0x1F389B0
     int get_id();
     // public UnityEngine.Sprite get_starTextSprite()
-    // Offset: 0x10E79A4
+    // Offset: 0x1F389B8
     UnityEngine::Sprite* get_starTextSprite();
     // public System.Single get_animationLength()
-    // Offset: 0x10E79AC
+    // Offset: 0x1F389C0
     float get_animationLength();
     // public System.Void .ctor()
-    // Offset: 0x10E79B4
+    // Offset: 0x1F389C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

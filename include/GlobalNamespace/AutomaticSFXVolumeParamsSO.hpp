@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -104,31 +105,31 @@ namespace GlobalNamespace {
     // Set instance field: private System.Single _volumeSmooth
     void _set__volumeSmooth(float value);
     // public System.Single get_musicVolumeMultiplier()
-    // Offset: 0x10DDA30
+    // Offset: 0x1F2EA44
     float get_musicVolumeMultiplier();
     // public System.Single get_threshold()
-    // Offset: 0x10DDA38
+    // Offset: 0x1F2EA4C
     float get_threshold();
     // public System.Single get_impact()
-    // Offset: 0x10DDA40
+    // Offset: 0x1F2EA54
     float get_impact();
     // public System.Single get_attackTime()
-    // Offset: 0x10DDA48
+    // Offset: 0x1F2EA5C
     float get_attackTime();
     // public System.Single get_releaseTime()
-    // Offset: 0x10DDA50
+    // Offset: 0x1F2EA64
     float get_releaseTime();
     // public System.Single get_minVolume()
-    // Offset: 0x10DDA58
+    // Offset: 0x1F2EA6C
     float get_minVolume();
     // public System.Single get_maxVolume()
-    // Offset: 0x10DDA60
+    // Offset: 0x1F2EA74
     float get_maxVolume();
     // public System.Single get_volumeSmooth()
-    // Offset: 0x10DDA68
+    // Offset: 0x1F2EA7C
     float get_volumeSmooth();
     // public System.Void .ctor()
-    // Offset: 0x10DDA70
+    // Offset: 0x1F2EA84
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

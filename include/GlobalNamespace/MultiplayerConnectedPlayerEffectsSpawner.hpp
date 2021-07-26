@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE07164
+    // [InjectAttribute] Offset: 0xEB3D80
     // private readonly IConnectedPlayerNoteEventManager _noteEventManager
     // Size: 0x8
     // Offset: 0x28
@@ -68,16 +69,16 @@ namespace GlobalNamespace {
     // Set instance field: private readonly IConnectedPlayerNoteEventManager _noteEventManager
     void _set__noteEventManager(GlobalNamespace::IConnectedPlayerNoteEventManager* value);
     // protected System.Void Start()
-    // Offset: 0x11A1288
+    // Offset: 0x1FB8CF4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11A1378
+    // Offset: 0x1FB8DE4
     void OnDestroy();
     // private System.Void HandleNoteEventManagerConnectedPlayerNoteWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x11A1478
+    // Offset: 0x1FB8EE4
     void HandleNoteEventManagerConnectedPlayerNoteWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x11A1674
+    // Offset: 0x1FB90E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

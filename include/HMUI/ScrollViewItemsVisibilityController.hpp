@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -156,19 +157,19 @@ namespace HMUI {
     // Set instance field: private System.Single _contentMinY
     void _set__contentMinY(float value);
     // protected System.Void Start()
-    // Offset: 0x12996B8
+    // Offset: 0x106EDF4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1299D48
+    // Offset: 0x106F484
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x1299B90
+    // Offset: 0x106F2CC
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x1299E38
+    // Offset: 0x106F574
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
     // public System.Void .ctor()
-    // Offset: 0x1299FDC
+    // Offset: 0x106F718
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

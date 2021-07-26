@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ParameterizedStrings
 #include "System/ParameterizedStrings.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -42,16 +43,16 @@ namespace System {
     // Set instance field: private System.Int32 _count
     void _set__count(int value);
     // public System.ParameterizedStrings/System.FormatParam Pop()
-    // Offset: 0x1CA2120
+    // Offset: 0x183EEC0
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/System.FormatParam item)
-    // Offset: 0x1CA24BC
+    // Offset: 0x183F25C
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x1CA1844
+    // Offset: 0x183E5E4
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1CA17EC
+    // Offset: 0x183E58C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
