@@ -35,12 +35,12 @@ include $(PREBUILT_SHARED_LIBRARY)
 
 # Writing single library: il2cpp_codegen
 include $(CLEAR_VARS)
-LOCAL_MODULE := il2cpp_codegen
+LOCAL_MODULE := codegen_0_12_0
 LOCAL_SRC_FILES := $(call rwildcard,./src,*.cpp)
 LOCAL_SHARED_LIBRARIES += beatsaber-hook_2_2_0
 LOCAL_SHARED_LIBRARIES += modloader
 LOCAL_LDLIBS += -llog
-LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.7.0"' -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -isystem'./extern' -Wall -Wextra -Werror -Wno-unused-private-field -Wno-unused-function -isystem'extern/libil2cpp/il2cpp/libil2cpp' -Os -O3
+LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.12.0"' -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -isystem'./extern' -Wall -Wextra -Werror -Wno-unused-private-field -Wno-unused-function -isystem'extern/libil2cpp/il2cpp/libil2cpp' -Os -O3
 LOCAL_C_INCLUDES += ./include ./extern
 LOCAL_CPP_FEATURES += exceptions
 include $(BUILD_SHARED_LIBRARY)
