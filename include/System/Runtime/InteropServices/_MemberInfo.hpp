@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
@@ -16,7 +15,7 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E18A64
   // [InterfaceTypeAttribute] Offset: E18A64
   // [GuidAttribute] Offset: E18A64
-  class _MemberInfo : public ::Il2CppObject {
+  class _MemberInfo {
     public:
     // Creating value type constructor for type: _MemberInfo
     _MemberInfo() noexcept {}

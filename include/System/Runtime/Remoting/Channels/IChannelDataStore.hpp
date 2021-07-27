@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Channels
@@ -14,7 +13,7 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: E17718
   // [DefaultMemberAttribute] Offset: E17718
-  class IChannelDataStore : public ::Il2CppObject {
+  class IChannelDataStore {
     public:
     // Creating value type constructor for type: IChannelDataStore
     IChannelDataStore() noexcept {}

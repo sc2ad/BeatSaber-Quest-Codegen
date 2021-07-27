@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
@@ -21,7 +20,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: E1A174
   // [GuidAttribute] Offset: E1A174
-  class IEnumerable : public ::Il2CppObject {
+  class IEnumerable {
     public:
     // Creating value type constructor for type: IEnumerable
     IEnumerable() noexcept {}

@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.CryptoStream
 #include "System/Security/Cryptography/CryptoStream.hpp"
@@ -27,6 +27,10 @@ namespace System::Threading {
   class SemaphoreSlim;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // WARNING Size may be invalid!

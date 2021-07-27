@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.UserMessageHandler
 #include "MasterServer/UserMessageHandler.hpp"
@@ -28,6 +28,10 @@ namespace GlobalNamespace {
   class IDiffieHellmanKeyPair;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: MasterServer
 namespace MasterServer {
   // WARNING Size may be invalid!

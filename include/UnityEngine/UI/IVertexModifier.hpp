@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   // [EditorBrowsableAttribute] Offset: E5FB6C
   // [ObsoleteAttribute] Offset: E5FB6C
-  class IVertexModifier : public ::Il2CppObject {
+  class IVertexModifier {
     public:
     // Creating value type constructor for type: IVertexModifier
     IVertexModifier() noexcept {}

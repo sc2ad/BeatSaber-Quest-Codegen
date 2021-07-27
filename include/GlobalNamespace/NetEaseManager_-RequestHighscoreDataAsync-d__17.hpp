@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetEaseManager
 #include "GlobalNamespace/NetEaseManager.hpp"
@@ -18,6 +17,9 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!

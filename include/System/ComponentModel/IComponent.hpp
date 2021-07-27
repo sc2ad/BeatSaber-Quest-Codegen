@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
@@ -19,7 +18,7 @@ namespace System::ComponentModel {
   // [ComVisibleAttribute] Offset: E21D14
   // [DesignerAttribute] Offset: E21D14
   // [RootDesignerSerializerAttribute] Offset: E21D14
-  class IComponent : public ::Il2CppObject/*, public System::IDisposable*/ {
+  class IComponent/*, public System::IDisposable*/ {
     public:
     // Creating value type constructor for type: IComponent
     IComponent() noexcept {}

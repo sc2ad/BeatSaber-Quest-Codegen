@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.ICollection`1
 #include "System/Collections/Generic/ICollection_1.hpp"
@@ -21,7 +20,7 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: E1ABA4
   template<typename TKey, typename TValue>
-  class IDictionary_2 : public ::Il2CppObject/*, public System::Collections::Generic::ICollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
+  class IDictionary_2/*, public System::Collections::Generic::ICollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
     public:
     // Creating value type constructor for type: IDictionary_2
     IDictionary_2() noexcept {}

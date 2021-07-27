@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
@@ -13,6 +13,10 @@ namespace System {
   class Type;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -21,7 +25,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: E17034
   // [CLSCompliantAttribute] Offset: E17034
-  class IFormatterConverter : public ::Il2CppObject {
+  class IFormatterConverter {
     public:
     // Creating value type constructor for type: IFormatterConverter
     IFormatterConverter() noexcept {}

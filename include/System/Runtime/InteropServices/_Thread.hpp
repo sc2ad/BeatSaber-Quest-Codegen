@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
@@ -16,7 +15,7 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E18D34
   // [GuidAttribute] Offset: E18D34
   // [InterfaceTypeAttribute] Offset: E18D34
-  class _Thread : public ::Il2CppObject {
+  class _Thread {
     public:
     // Creating value type constructor for type: _Thread
     _Thread() noexcept {}

@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
@@ -21,7 +20,7 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   // [EditorBrowsableAttribute] Offset: E5F16C
   // [ObsoleteAttribute] Offset: E5F16C
-  class IMask : public ::Il2CppObject {
+  class IMask {
     public:
     // Creating value type constructor for type: IMask
     IMask() noexcept {}

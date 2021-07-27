@@ -3,9 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -14,7 +16,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ObsoleteAttribute] Offset: E1A228
   // [ComVisibleAttribute] Offset: E1A228
-  class IHashCodeProvider : public ::Il2CppObject {
+  class IHashCodeProvider {
     public:
     // Creating value type constructor for type: IHashCodeProvider
     IHashCodeProvider() noexcept {}

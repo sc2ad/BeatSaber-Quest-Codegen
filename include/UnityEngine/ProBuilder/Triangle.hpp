@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -27,6 +26,9 @@ namespace UnityEngine::ProBuilder {
   struct Edge;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0xC

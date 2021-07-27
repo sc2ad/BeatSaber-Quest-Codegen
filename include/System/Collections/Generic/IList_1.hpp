@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.ICollection`1
 #include "System/Collections/Generic/ICollection_1.hpp"
@@ -20,7 +19,7 @@ namespace System::Collections::Generic {
   // [DefaultMemberAttribute] Offset: E1AC14
   // [TypeDependencyAttribute] Offset: E1AC14
   template<typename T>
-  class IList_1 : public ::Il2CppObject/*, public System::Collections::Generic::ICollection_1<T>*/ {
+  class IList_1/*, public System::Collections::Generic::ICollection_1<T>*/ {
     public:
     // Creating value type constructor for type: IList_1
     IList_1() noexcept {}

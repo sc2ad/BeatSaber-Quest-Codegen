@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IReadOnlyCollection`1
 #include "System/Collections/Generic/IReadOnlyCollection_1.hpp"
@@ -21,7 +20,7 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: E1ACAC
   template<typename TKey, typename TValue>
-  class IReadOnlyDictionary_2 : public ::Il2CppObject/*, public System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
+  class IReadOnlyDictionary_2/*, public System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
     public:
     // Creating value type constructor for type: IReadOnlyDictionary_2
     IReadOnlyDictionary_2() noexcept {}

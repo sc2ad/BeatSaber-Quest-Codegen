@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
@@ -19,7 +18,7 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   // [TypeDependencyAttribute] Offset: E1AC74
   template<typename T>
-  class IReadOnlyCollection_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<T>*/ {
+  class IReadOnlyCollection_1/*, public System::Collections::Generic::IEnumerable_1<T>*/ {
     public:
     // Creating value type constructor for type: IReadOnlyCollection_1
     IReadOnlyCollection_1() noexcept {}

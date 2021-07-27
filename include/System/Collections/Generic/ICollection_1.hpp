@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
@@ -12,6 +11,10 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -19,7 +22,7 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   // [TypeDependencyAttribute] Offset: E1AB6C
   template<typename T>
-  class ICollection_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<T>*/ {
+  class ICollection_1/*, public System::Collections::Generic::IEnumerable_1<T>*/ {
     public:
     // Creating value type constructor for type: ICollection_1
     ICollection_1() noexcept {}

@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
@@ -16,7 +15,7 @@ namespace System::Runtime::InteropServices {
   // [GuidAttribute] Offset: E1871C
   // [CLSCompliantAttribute] Offset: E1871C
   // [ComVisibleAttribute] Offset: E1871C
-  class _Activator : public ::Il2CppObject {
+  class _Activator {
     public:
     // Creating value type constructor for type: _Activator
     _Activator() noexcept {}

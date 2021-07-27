@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -28,6 +27,11 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
   // WARNING Size may be invalid!

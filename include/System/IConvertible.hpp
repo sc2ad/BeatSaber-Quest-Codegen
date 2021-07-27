@@ -29,7 +29,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: E13B90
   // [CLSCompliantAttribute] Offset: E13B90
-  class IConvertible : public ::Il2CppObject {
+  class IConvertible {
     public:
     // Creating value type constructor for type: IConvertible
     IConvertible() noexcept {}

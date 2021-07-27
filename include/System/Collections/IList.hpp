@@ -3,11 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.ICollection
 #include "System/Collections/ICollection.hpp"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -16,7 +18,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: E1A278
   // [DefaultMemberAttribute] Offset: E1A278
-  class IList : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
+  class IList/*, public System::Collections::ICollection*/ {
     public:
     // Creating value type constructor for type: IList
     IList() noexcept {}

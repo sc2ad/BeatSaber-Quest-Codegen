@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.Stream
 #include "System/IO/Stream.hpp"
@@ -20,6 +20,10 @@
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 // Completed includes
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.IO
 namespace System::IO {
   // WARNING Size may be invalid!
