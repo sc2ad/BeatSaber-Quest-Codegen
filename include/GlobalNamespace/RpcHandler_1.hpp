@@ -130,6 +130,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass13_0`1";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`1<System.String> callback
       // Size: 0x8
       // Offset: 0x0
@@ -185,6 +186,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass14_0`2";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`2<System.String,T0> callback
       // Size: 0x8
       // Offset: 0x0
@@ -240,6 +242,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass15_0`3";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`3<System.String,T0,T1> callback
       // Size: 0x8
       // Offset: 0x0
@@ -295,6 +298,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass16_0`4";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`4<System.String,T0,T1,T2> callback
       // Size: 0x8
       // Offset: 0x0
@@ -350,6 +354,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass17_0`5";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`5<System.String,T0,T1,T2,T3> callback
       // Size: 0x8
       // Offset: 0x0
@@ -405,6 +410,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass18_0`1";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`2<System.String,System.Single> callback
       // Size: 0x8
       // Offset: 0x0
@@ -460,6 +466,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass19_0`2";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`3<System.String,System.Single,T0> callback
       // Size: 0x8
       // Offset: 0x0
@@ -515,6 +522,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass20_0`3";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`4<System.String,System.Single,T0,T1> callback
       // Size: 0x8
       // Offset: 0x0
@@ -570,6 +578,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass21_0`4";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`5<System.String,System.Single,T0,T1,T2> callback
       // Size: 0x8
       // Offset: 0x0
@@ -625,6 +634,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass22_0`5";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Action`6<System.String,System.Single,T0,T1,T2,T3> callback
       // Size: 0x8
       // Offset: 0x0
@@ -680,6 +690,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass23_0`1";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public RpcHandler`1<TType> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -753,6 +764,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass23_1`1";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public IConnectedPlayer player
       // Size: 0x8
       // Offset: 0x0

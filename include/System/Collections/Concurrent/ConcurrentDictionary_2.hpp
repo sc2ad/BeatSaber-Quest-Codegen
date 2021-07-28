@@ -84,6 +84,7 @@ namespace System::Collections::Concurrent {
       public:
       using declaring_type = ConcurrentDictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Tables";
+      static constexpr bool IS_VALUE_TYPE = false;
       // readonly System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.Node<TKey,TValue>[] _buckets
       // Size: 0x8
       // Offset: 0x0
@@ -168,6 +169,7 @@ namespace System::Collections::Concurrent {
       public:
       using declaring_type = ConcurrentDictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Node";
+      static constexpr bool IS_VALUE_TYPE = false;
       // readonly TKey _key
       // Size: 0xFFFFFFFF
       // Offset: 0x0
@@ -270,6 +272,7 @@ namespace System::Collections::Concurrent {
       public:
       using declaring_type = ConcurrentDictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "DictionaryEnumerator";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> _enumerator
       // Size: 0x8
       // Offset: 0x0
@@ -361,6 +364,7 @@ namespace System::Collections::Concurrent {
       public:
       using declaring_type = ConcurrentDictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__32";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

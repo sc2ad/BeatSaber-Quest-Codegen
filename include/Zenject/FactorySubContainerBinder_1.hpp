@@ -79,6 +79,7 @@ namespace Zenject {
       public:
       using declaring_type = FactorySubContainerBinder_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass1_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.FactorySubContainerBinder`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -173,6 +174,7 @@ namespace Zenject {
       public:
       using declaring_type = FactorySubContainerBinder_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass2_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.FactorySubContainerBinder`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -267,6 +269,7 @@ namespace Zenject {
       public:
       using declaring_type = FactorySubContainerBinder_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass3_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.FactorySubContainerBinder`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -383,6 +386,7 @@ namespace Zenject {
       public:
       using declaring_type = FactorySubContainerBinder_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass4_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.FactorySubContainerBinder`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -499,6 +503,7 @@ namespace Zenject {
       public:
       using declaring_type = FactorySubContainerBinder_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass6_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.FactorySubContainerBinder`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -593,6 +598,7 @@ namespace Zenject {
       public:
       using declaring_type = FactorySubContainerBinder_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass8_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.FactorySubContainerBinder`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0

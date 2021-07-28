@@ -55,6 +55,7 @@ namespace Zenject {
       public:
       using declaring_type = SubContainerCreatorByNewGameObjectMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass2_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.SubContainerCreatorByNewGameObjectMethod`6<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> <>4__this
       // Size: 0x8
       // Offset: 0x0

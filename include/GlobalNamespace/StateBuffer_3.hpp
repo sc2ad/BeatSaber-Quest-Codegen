@@ -64,6 +64,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = StateBuffer_3<TStateTable, TType, TState>*;
       static constexpr std::string_view NESTED_NAME = "TimestampedStateTable";
+      static constexpr bool IS_VALUE_TYPE = true;
       // public System.Boolean isValid
       // Size: 0x1
       // Offset: 0x0
@@ -199,6 +200,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = StateBuffer_3<TStateTable, TType, TState>*;
       static constexpr std::string_view NESTED_NAME = "InterpolationDelegate";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Creating value type constructor for type: InterpolationDelegate
       InterpolationDelegate() noexcept {}
       // public System.Void .ctor(System.Object object, System.IntPtr method)
@@ -238,6 +240,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = StateBuffer_3<TStateTable, TType, TState>*;
       static constexpr std::string_view NESTED_NAME = "SmoothingDelegate";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Creating value type constructor for type: SmoothingDelegate
       SmoothingDelegate() noexcept {}
       // public System.Void .ctor(System.Object object, System.IntPtr method)

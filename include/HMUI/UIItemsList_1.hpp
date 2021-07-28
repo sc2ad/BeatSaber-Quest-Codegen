@@ -63,6 +63,7 @@ namespace HMUI {
       public:
       using declaring_type = UIItemsList_1<T>*;
       static constexpr std::string_view NESTED_NAME = "DataCallback";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Creating value type constructor for type: DataCallback
       DataCallback() noexcept {}
       // public System.Void .ctor(System.Object object, System.IntPtr method)

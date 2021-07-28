@@ -50,6 +50,7 @@ namespace System {
       public:
       using declaring_type = ArraySegment_1<T>;
       static constexpr std::string_view NESTED_NAME = "ArraySegmentEnumerator";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private T[] _array
       // Size: 0x8
       // Offset: 0x0

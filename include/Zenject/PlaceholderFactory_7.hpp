@@ -51,6 +51,7 @@ namespace Zenject {
       public:
       using declaring_type = PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<get_ParamTypes>d__2";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

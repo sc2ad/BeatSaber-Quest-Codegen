@@ -64,6 +64,7 @@ namespace Zenject {
       public:
       using declaring_type = ConcreteBinderGeneric_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass5_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Type concreteType
       // Size: 0x8
       // Offset: 0x0

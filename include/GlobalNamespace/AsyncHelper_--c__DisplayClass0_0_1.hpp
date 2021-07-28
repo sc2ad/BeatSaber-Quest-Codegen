@@ -58,6 +58,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = AsyncHelper::$$c__DisplayClass0_0_1<T>*;
       static constexpr std::string_view NESTED_NAME = "<<RunSync>b__0>d";
+      static constexpr bool IS_VALUE_TYPE = true;
       // public System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

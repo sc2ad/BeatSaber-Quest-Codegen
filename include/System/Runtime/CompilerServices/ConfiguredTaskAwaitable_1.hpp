@@ -49,6 +49,7 @@ namespace System::Runtime::CompilerServices {
       public:
       using declaring_type = ConfiguredTaskAwaitable_1<TResult>;
       static constexpr std::string_view NESTED_NAME = "ConfiguredTaskAwaiter";
+      static constexpr bool IS_VALUE_TYPE = true;
       // private readonly System.Threading.Tasks.Task`1<TResult> m_task
       // Size: 0x8
       // Offset: 0x0

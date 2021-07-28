@@ -60,6 +60,7 @@ namespace System::Linq {
       public:
       using declaring_type = OrderedEnumerable_1<TElement>*;
       static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__1";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

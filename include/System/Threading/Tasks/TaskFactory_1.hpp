@@ -77,6 +77,7 @@ namespace System::Threading::Tasks {
       public:
       using declaring_type = TaskFactory_1<TResult>*;
       static constexpr std::string_view NESTED_NAME = "FromAsyncTrimPromise`1";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private TInstance m_thisRef
       // Size: 0xFFFFFFFF
       // Offset: 0x0
@@ -174,6 +175,7 @@ namespace System::Threading::Tasks {
       public:
       using declaring_type = TaskFactory_1<TResult>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass35_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Func`2<System.IAsyncResult,TResult> endFunction
       // Size: 0x8
       // Offset: 0x0
@@ -268,6 +270,7 @@ namespace System::Threading::Tasks {
       public:
       using declaring_type = TaskFactory_1<TResult>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass35_1";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Threading.AtomicBoolean invoked
       // Size: 0x8
       // Offset: 0x0

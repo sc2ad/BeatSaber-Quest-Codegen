@@ -44,6 +44,7 @@ namespace Oculus::Platform {
       public:
       using declaring_type = Message_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Callback";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Creating value type constructor for type: Callback
       Callback() noexcept {}
       // public System.Void .ctor(System.Object object, System.IntPtr method)

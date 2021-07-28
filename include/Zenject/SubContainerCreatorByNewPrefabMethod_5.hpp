@@ -57,6 +57,7 @@ namespace Zenject {
       public:
       using declaring_type = SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass2_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public Zenject.SubContainerCreatorByNewPrefabMethod`5<TParam1,TParam2,TParam3,TParam4,TParam5> <>4__this
       // Size: 0x8
       // Offset: 0x0

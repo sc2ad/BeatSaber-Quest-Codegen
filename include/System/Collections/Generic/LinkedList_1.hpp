@@ -69,6 +69,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = LinkedList_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
+      static constexpr bool IS_VALUE_TYPE = true;
       // private System.Collections.Generic.LinkedList`1<T> _list
       // Size: 0x8
       // Offset: 0x0

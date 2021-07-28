@@ -56,6 +56,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = AsyncCache_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass4_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public TKey toAdd
       // Size: 0xFFFFFFFF
       // Offset: 0x0

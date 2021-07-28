@@ -71,6 +71,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = HashSet_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Slot";
+      static constexpr bool IS_VALUE_TYPE = true;
       // System.Int32 hashCode
       // Size: 0x4
       // Offset: 0x0
@@ -151,6 +152,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = HashSet_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
+      static constexpr bool IS_VALUE_TYPE = true;
       // private System.Collections.Generic.HashSet`1<T> _set
       // Size: 0x8
       // Offset: 0x0

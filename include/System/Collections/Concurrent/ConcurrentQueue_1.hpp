@@ -56,6 +56,7 @@ namespace System::Collections::Concurrent {
       public:
       using declaring_type = ConcurrentQueue_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Segment";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Nested type: System::Collections::Concurrent::ConcurrentQueue_1::Segment::Slot<T>
       struct Slot;
       // WARNING Size may be invalid!
@@ -66,6 +67,7 @@ namespace System::Collections::Concurrent {
         public:
         using declaring_type = typename ConcurrentQueue_1<T>::Segment*;
         static constexpr std::string_view NESTED_NAME = "Slot";
+        static constexpr bool IS_VALUE_TYPE = true;
         // public T Item
         // Size: 0xFFFFFFFF
         // Offset: 0x0
@@ -302,6 +304,7 @@ namespace System::Collections::Concurrent {
       public:
       using declaring_type = ConcurrentQueue_1<T>*;
       static constexpr std::string_view NESTED_NAME = "<Enumerate>d__27";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

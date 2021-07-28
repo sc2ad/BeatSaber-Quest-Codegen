@@ -44,6 +44,7 @@ namespace Priority_Queue {
       public:
       using declaring_type = FastPriorityQueue_1<T>*;
       static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__22";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

@@ -48,6 +48,7 @@ namespace UnityEngine::Timeline {
       public:
       using declaring_type = IntervalTree_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Entry";
+      static constexpr bool IS_VALUE_TYPE = true;
       // public System.Int64 intervalStart
       // Size: 0x8
       // Offset: 0x0

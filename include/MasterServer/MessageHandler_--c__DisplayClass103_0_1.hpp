@@ -67,6 +67,7 @@ namespace MasterServer {
       public:
       using declaring_type = MessageHandler::$$c__DisplayClass103_0_1<T>*;
       static constexpr std::string_view NESTED_NAME = "<<WrapOnSendFailedAwaitResponse>b__0>d";
+      static constexpr bool IS_VALUE_TYPE = true;
       // public System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

@@ -42,6 +42,7 @@ namespace System::Linq {
       public:
       using declaring_type = Set_1<TElement>*;
       static constexpr std::string_view NESTED_NAME = "Slot";
+      static constexpr bool IS_VALUE_TYPE = true;
       // System.Int32 hashCode
       // Size: 0x4
       // Offset: 0x0

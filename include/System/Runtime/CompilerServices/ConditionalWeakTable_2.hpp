@@ -48,6 +48,7 @@ namespace System::Runtime::CompilerServices {
       public:
       using declaring_type = ConditionalWeakTable_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "CreateValueCallback";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Creating value type constructor for type: CreateValueCallback
       CreateValueCallback() noexcept {}
       // public System.Void .ctor(System.Object object, System.IntPtr method)

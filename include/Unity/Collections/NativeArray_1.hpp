@@ -59,6 +59,7 @@ namespace Unity::Collections {
       public:
       using declaring_type = NativeArray_1<T>;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
+      static constexpr bool IS_VALUE_TYPE = true;
       // private Unity.Collections.NativeArray`1<T> m_Array
       // Size: 0xFFFFFFFF
       // Offset: 0x0

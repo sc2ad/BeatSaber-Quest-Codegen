@@ -61,6 +61,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = OrderedSet_1<T>*;
       static constexpr std::string_view NESTED_NAME = "ProcessOrder";
+      static constexpr bool IS_VALUE_TYPE = true;
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0xFFFFFFF0
@@ -138,6 +139,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = OrderedSet_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Node";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public readonly T value
       // Size: 0xFFFFFFFF
       // Offset: 0x0
@@ -265,6 +267,7 @@ namespace GlobalNamespace {
       public:
       using declaring_type = OrderedSet_1<T>*;
       static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__23";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

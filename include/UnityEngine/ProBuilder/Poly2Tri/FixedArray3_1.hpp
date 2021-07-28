@@ -45,6 +45,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       public:
       using declaring_type = FixedArray3_1<T>;
       static constexpr std::string_view NESTED_NAME = "<Enumerate>d__10";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

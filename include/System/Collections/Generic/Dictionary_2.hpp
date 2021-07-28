@@ -85,6 +85,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Entry";
+      static constexpr bool IS_VALUE_TYPE = true;
       // public System.Int32 hashCode
       // Size: 0x4
       // Offset: 0x0
@@ -185,6 +186,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
+      static constexpr bool IS_VALUE_TYPE = true;
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
       // Offset: 0x0
@@ -382,6 +384,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "KeyCollection";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Nested type: System::Collections::Generic::Dictionary_2::KeyCollection::Enumerator<TKey, TValue>
       struct Enumerator;
       // WARNING Size may be invalid!
@@ -392,6 +395,7 @@ namespace System::Collections::Generic {
         public:
         using declaring_type = typename Dictionary_2<TKey, TValue>::KeyCollection*;
         static constexpr std::string_view NESTED_NAME = "Enumerator";
+        static constexpr bool IS_VALUE_TYPE = true;
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
         // Offset: 0x0
@@ -668,6 +672,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "ValueCollection";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Nested type: System::Collections::Generic::Dictionary_2::ValueCollection::Enumerator<TKey, TValue>
       struct Enumerator;
       // WARNING Size may be invalid!
@@ -678,6 +683,7 @@ namespace System::Collections::Generic {
         public:
         using declaring_type = typename Dictionary_2<TKey, TValue>::ValueCollection*;
         static constexpr std::string_view NESTED_NAME = "Enumerator";
+        static constexpr bool IS_VALUE_TYPE = true;
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
         // Offset: 0x0

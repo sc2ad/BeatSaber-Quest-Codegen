@@ -75,6 +75,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       public:
       using declaring_type = KdTree_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass33_0";
+      static constexpr bool IS_VALUE_TYPE = false;
       // public System.Collections.Generic.Stack`1<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>> left
       // Size: 0x8
       // Offset: 0x0
@@ -154,6 +155,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       public:
       using declaring_type = KdTree_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__33";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

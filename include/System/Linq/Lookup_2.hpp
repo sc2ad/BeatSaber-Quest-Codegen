@@ -61,6 +61,7 @@ namespace System::Linq {
       public:
       using declaring_type = Lookup_2<TKey, TElement>*;
       static constexpr std::string_view NESTED_NAME = "Grouping";
+      static constexpr bool IS_VALUE_TYPE = false;
       // Nested type: System::Linq::Lookup_2::Grouping::$GetEnumerator$d__7<TKey, TElement>
       class $GetEnumerator$d__7;
       // WARNING Size may be invalid!
@@ -71,6 +72,7 @@ namespace System::Linq {
         public:
         using declaring_type = typename Lookup_2<TKey, TElement>::Grouping*;
         static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__7";
+        static constexpr bool IS_VALUE_TYPE = false;
         // private System.Int32 <>1__state
         // Size: 0x4
         // Offset: 0x0
@@ -478,6 +480,7 @@ namespace System::Linq {
       public:
       using declaring_type = Lookup_2<TKey, TElement>*;
       static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__12";
+      static constexpr bool IS_VALUE_TYPE = false;
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

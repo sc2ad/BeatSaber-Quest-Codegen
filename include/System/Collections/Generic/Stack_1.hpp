@@ -53,6 +53,7 @@ namespace System::Collections::Generic {
       public:
       using declaring_type = Stack_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
+      static constexpr bool IS_VALUE_TYPE = true;
       // private readonly System.Collections.Generic.Stack`1<T> _stack
       // Size: 0x8
       // Offset: 0x0
