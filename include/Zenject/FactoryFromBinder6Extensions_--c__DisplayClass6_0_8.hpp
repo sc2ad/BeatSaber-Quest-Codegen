@@ -73,7 +73,8 @@ namespace Zenject {
     Zenject::IProvider* $FromPoolableMemoryPool$b__0(Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::$$c__DisplayClass6_0_8::<FromPoolableMemoryPool>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromPoolableMemoryPool>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::IProvider*, false>(this, ___internal__method, container);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::IProvider*, false>(___instance_arg, ___internal__method, container);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

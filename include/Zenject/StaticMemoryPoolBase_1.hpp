@@ -47,7 +47,8 @@ namespace Zenject {
     TValue Alloc() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPoolBase_1::Alloc");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Alloc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method);
     }
   }; // Zenject.StaticMemoryPoolBase`1
   // Could not write size check! Type: Zenject.StaticMemoryPoolBase`1 is generic, or has no fields that are valid for size checks!

@@ -94,14 +94,16 @@ namespace Zenject {
     ::Array<T>* Spawn() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ArrayPool_1::Spawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(___instance_arg, ___internal__method);
     }
     // protected T[] Alloc()
     // Offset: 0xFFFFFFFF
     ::Array<T>* Alloc() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ArrayPool_1::Alloc");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Alloc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(___instance_arg, ___internal__method);
     }
     // static public Zenject.ArrayPool`1<T> GetPool(System.Int32 length)
     // Offset: 0xFFFFFFFF

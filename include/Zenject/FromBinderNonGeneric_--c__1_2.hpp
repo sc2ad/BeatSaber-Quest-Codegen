@@ -76,7 +76,8 @@ namespace Zenject {
     void $FromFactory$b__1_0(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>*>* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FromBinderNonGeneric::$$c__1_2::<FromFactory>b__1_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromFactory>b__1_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, x);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

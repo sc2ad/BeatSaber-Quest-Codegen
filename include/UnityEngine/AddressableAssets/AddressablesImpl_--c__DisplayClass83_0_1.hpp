@@ -72,7 +72,8 @@ namespace UnityEngine::AddressableAssets {
     void $Release$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass83_0_1::<Release>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Release>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, s);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, s);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

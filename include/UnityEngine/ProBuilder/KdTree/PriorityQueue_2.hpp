@@ -123,7 +123,8 @@ namespace UnityEngine::ProBuilder::KdTree {
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::get_Count");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor(System.Int32 capacity, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TPriority> priorityMath)
     // Offset: 0xFFFFFFFF
@@ -137,35 +138,40 @@ namespace UnityEngine::ProBuilder::KdTree {
     void ExpandCapacity() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::ExpandCapacity");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandCapacity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // public System.Void Enqueue(TItem item, TPriority priority)
     // Offset: 0xFFFFFFFF
     void Enqueue(TItem item, TPriority priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Enqueue");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(priority)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item, priority);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item, priority);
     }
     // public TItem Dequeue()
     // Offset: 0xFFFFFFFF
     TItem Dequeue() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Dequeue");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dequeue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TItem, false>(___instance_arg, ___internal__method);
     }
     // private System.Void ReorderItem(System.Int32 index, System.Int32 direction)
     // Offset: 0xFFFFFFFF
     void ReorderItem(int index, int direction) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::ReorderItem");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReorderItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(direction)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, index, direction);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, index, direction);
     }
     // public TPriority GetHighestPriority()
     // Offset: 0xFFFFFFFF
     TPriority GetHighestPriority() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::GetHighestPriority");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHighestPriority", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TPriority, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TPriority, false>(___instance_arg, ___internal__method);
     }
   }; // UnityEngine.ProBuilder.KdTree.PriorityQueue`2
   // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.PriorityQueue`2 is generic, or has no fields that are valid for size checks!

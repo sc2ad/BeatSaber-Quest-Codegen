@@ -62,7 +62,8 @@ namespace MasterServer {
     T $ObtainVersioned$b__0(MasterServer::MessageHandler::MessageOrigin origin) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass73_0_1::<ObtainVersioned>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ObtainVersioned>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(origin)})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, origin);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, origin);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -75,7 +75,8 @@ namespace HMUI {
     ::Il2CppString* $AddStringBindings$b__3_0(::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::$$c__3_1::<AddStringBindings>b__3_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddStringBindings>b__3_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method, value);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method, value);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

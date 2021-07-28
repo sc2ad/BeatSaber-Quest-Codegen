@@ -62,28 +62,32 @@ namespace Zenject {
     void OnCreated(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_2::OnCreated");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnCreated", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
     }
     // protected System.Void OnDestroyed(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDestroyed(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_2::OnDestroyed");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroyed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
     }
     // protected System.Void OnSpawned(TValue item)
     // Offset: 0xFFFFFFFF
     void OnSpawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_2::OnSpawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
     }
     // protected System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDespawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoMemoryPool_2::OnDespawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

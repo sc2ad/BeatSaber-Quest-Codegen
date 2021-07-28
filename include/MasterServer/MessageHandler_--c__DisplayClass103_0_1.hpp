@@ -339,7 +339,8 @@ namespace MasterServer {
     System::Threading::Tasks::Task* $WrapOnSendFailedAwaitResponse$b__0(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass103_0_1::<WrapOnSendFailedAwaitResponse>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WrapOnSendFailedAwaitResponse>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(cancellationToken)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(this, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(___instance_arg, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

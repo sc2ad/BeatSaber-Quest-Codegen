@@ -41,7 +41,8 @@ namespace Zenject {
     Zenject::MemoryPoolExpandBinder_1<TContract>* WithMaxSize(int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolMaxSizeBinder_1::WithMaxSize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithMaxSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(size)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolExpandBinder_1<TContract>*, false>(this, ___internal__method, size);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolExpandBinder_1<TContract>*, false>(___instance_arg, ___internal__method, size);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Offset: 0xFFFFFFFF

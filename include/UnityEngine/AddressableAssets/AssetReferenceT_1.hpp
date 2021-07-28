@@ -34,7 +34,8 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReferenceT_1::LoadAssetAsync");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAssetAsync", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor(System.String guid)
     // Offset: 0xFFFFFFFF
@@ -52,7 +53,8 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAsset() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReferenceT_1::LoadAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAsset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(___instance_arg, ___internal__method);
     }
     // public override System.Boolean ValidateAsset(UnityEngine.Object obj)
     // Offset: 0xFFFFFFFF
@@ -61,7 +63,8 @@ namespace UnityEngine::AddressableAssets {
     bool ValidateAsset(UnityEngine::Object* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReferenceT_1::ValidateAsset");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ValidateAsset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, obj);
     }
     // public override System.Boolean ValidateAsset(System.String mainAssetPath)
     // Offset: 0xFFFFFFFF
@@ -70,7 +73,8 @@ namespace UnityEngine::AddressableAssets {
     bool ValidateAsset(::Il2CppString* mainAssetPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReferenceT_1::ValidateAsset");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ValidateAsset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mainAssetPath)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, mainAssetPath);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, mainAssetPath);
     }
   }; // UnityEngine.AddressableAssets.AssetReferenceT`1
   // Could not write size check! Type: UnityEngine.AddressableAssets.AssetReferenceT`1 is generic, or has no fields that are valid for size checks!

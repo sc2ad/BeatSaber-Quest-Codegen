@@ -133,7 +133,8 @@ namespace GlobalNamespace {
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DelegateList_1::get_Count");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor(System.Func`2<System.Action`1<T>,System.Collections.Generic.LinkedListNode`1<System.Action`1<T>>> acquireFunc, System.Action`1<System.Collections.Generic.LinkedListNode`1<System.Action`1<T>>> releaseFunc)
     // Offset: 0xFFFFFFFF
@@ -147,28 +148,32 @@ namespace GlobalNamespace {
     void Add(System::Action_1<T>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DelegateList_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, action);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, action);
     }
     // public System.Void Remove(System.Action`1<T> action)
     // Offset: 0xFFFFFFFF
     void Remove(System::Action_1<T>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DelegateList_1::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, action);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, action);
     }
     // public System.Void Invoke(T res)
     // Offset: 0xFFFFFFFF
     void Invoke(T res) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DelegateList_1::Invoke");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(res)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, res);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, res);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DelegateList_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // static public DelegateList`1<T> CreateWithGlobalCache()
     // Offset: 0xFFFFFFFF

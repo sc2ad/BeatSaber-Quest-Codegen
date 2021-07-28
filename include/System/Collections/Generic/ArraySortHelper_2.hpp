@@ -59,7 +59,8 @@ namespace System::Collections::Generic {
     void Sort(::Array<TKey>* keys, ::Array<TValue>* values, int index, int length, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(comparer)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, keys, values, index, length, comparer);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, keys, values, index, length, comparer);
     }
     // static private System.Void SwapIfGreaterWithItems(TKey[] keys, TValue[] values, System.Collections.Generic.IComparer`1<TKey> comparer, System.Int32 a, System.Int32 b)
     // Offset: 0xFFFFFFFF

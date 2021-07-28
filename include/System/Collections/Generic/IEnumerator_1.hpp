@@ -36,7 +36,8 @@ namespace System::Collections::Generic {
     T get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEnumerator_1::get_Current");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
     }
   }; // System.Collections.Generic.IEnumerator`1
   // Could not write size check! Type: System.Collections.Generic.IEnumerator`1 is generic, or has no fields that are valid for size checks!

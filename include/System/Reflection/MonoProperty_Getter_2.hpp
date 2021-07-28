@@ -45,21 +45,24 @@ namespace System::Reflection {
     R Invoke(T _this) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(_this)})));
-      return ::il2cpp_utils::RunMethodThrow<R, false>(this, ___internal__method, _this);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<R, false>(___instance_arg, ___internal__method, _this);
     }
     // public System.IAsyncResult BeginInvoke(T _this, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T _this, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(_this), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, _this, callback, object);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, _this, callback, object);
     }
     // public R EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     R EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::Getter_2::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      return ::il2cpp_utils::RunMethodThrow<R, false>(this, ___internal__method, result);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<R, false>(___instance_arg, ___internal__method, result);
     }
   }; // System.Reflection.MonoProperty/System.Reflection.Getter`2
   // Could not write size check! Type: System.Reflection.MonoProperty/System.Reflection.Getter`2 is generic, or has no fields that are valid for size checks!

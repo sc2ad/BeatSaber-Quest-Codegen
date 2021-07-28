@@ -61,7 +61,8 @@ namespace Oculus::Platform {
     Oculus::Platform::Request_1<T>* OnComplete(typename Oculus::Platform::Message_1<T>::Callback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request_1::OnComplete");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnComplete", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(callback)})));
-      return ::il2cpp_utils::RunMethodThrow<Oculus::Platform::Request_1<T>*, false>(this, ___internal__method, callback);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Oculus::Platform::Request_1<T>*, false>(___instance_arg, ___internal__method, callback);
     }
     // public System.Void .ctor(System.UInt64 requestID)
     // Offset: 0xFFFFFFFF
@@ -79,7 +80,8 @@ namespace Oculus::Platform {
     void HandleMessage(Oculus::Platform::Message* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request_1::HandleMessage");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleMessage", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(msg)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, msg);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, msg);
     }
   }; // Oculus.Platform.Request`1
   // Could not write size check! Type: Oculus.Platform.Request`1 is generic, or has no fields that are valid for size checks!

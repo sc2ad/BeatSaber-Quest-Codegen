@@ -63,35 +63,40 @@ namespace GlobalNamespace {
     float get_syncTime() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_syncTime");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_syncTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<float, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<float, false>(___instance_arg, ___internal__method);
     }
     // public System.Int32 get_connectedPlayerCount()
     // Offset: 0xFFFFFFFF
     int get_connectedPlayerCount() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_connectedPlayerCount");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_connectedPlayerCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
     // public LocalMultiplayerSyncState`3<TStateTable,TType,TState> get_localState()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::get_localState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*, false>(___instance_arg, ___internal__method);
     }
     // public MultiplayerSyncState`3<TStateTable,TType,TState> GetSyncStateForPlayer(IConnectedPlayer player)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::GetSyncStateForPlayer");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSyncStateForPlayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player)})));
-      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, player);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(___instance_arg, ___internal__method, player);
     }
     // public MultiplayerSyncState`3<TStateTable,TType,TState> GetSyncState(System.Int32 i)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState(int i) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IScoreSyncStateManager_5::GetSyncState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSyncState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(i)})));
-      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, i);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(___instance_arg, ___internal__method, i);
     }
   }; // IScoreSyncStateManager`5
   // Could not write size check! Type: IScoreSyncStateManager`5 is generic, or has no fields that are valid for size checks!

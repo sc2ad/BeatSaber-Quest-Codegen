@@ -31,7 +31,8 @@ namespace System::Collections::Generic {
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyCollection_1::get_Count");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
   }; // System.Collections.Generic.IReadOnlyCollection`1
   // Could not write size check! Type: System.Collections.Generic.IReadOnlyCollection`1 is generic, or has no fields that are valid for size checks!

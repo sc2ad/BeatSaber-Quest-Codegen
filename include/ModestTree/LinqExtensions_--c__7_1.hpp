@@ -97,21 +97,24 @@ namespace ModestTree {
     T $GetDuplicates$b__7_0(T x) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::LinqExtensions::$$c__7_1::<GetDuplicates>b__7_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetDuplicates>b__7_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, x);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, x);
     }
     // System.Boolean <GetDuplicates>b__7_1(System.Linq.IGrouping`2<T,T> x)
     // Offset: 0xFFFFFFFF
     bool $GetDuplicates$b__7_1(System::Linq::IGrouping_2<T, T>* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::LinqExtensions::$$c__7_1::<GetDuplicates>b__7_1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetDuplicates>b__7_1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, x);
     }
     // T <GetDuplicates>b__7_2(System.Linq.IGrouping`2<T,T> x)
     // Offset: 0xFFFFFFFF
     T $GetDuplicates$b__7_2(System::Linq::IGrouping_2<T, T>* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::LinqExtensions::$$c__7_1::<GetDuplicates>b__7_2");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetDuplicates>b__7_2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, x);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

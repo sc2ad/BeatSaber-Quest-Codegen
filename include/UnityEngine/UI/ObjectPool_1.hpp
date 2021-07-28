@@ -127,28 +127,32 @@ namespace UnityEngine::UI {
     int get_countAll() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::get_countAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_countAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
     // private System.Void set_countAll(System.Int32 value)
     // Offset: 0xFFFFFFFF
     void set_countAll(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::set_countAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_countAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
     }
     // public System.Int32 get_countActive()
     // Offset: 0xFFFFFFFF
     int get_countActive() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::get_countActive");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_countActive", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
     // public System.Int32 get_countInactive()
     // Offset: 0xFFFFFFFF
     int get_countInactive() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::get_countInactive");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_countInactive", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor(UnityEngine.Events.UnityAction`1<T> actionOnGet, UnityEngine.Events.UnityAction`1<T> actionOnRelease)
     // Offset: 0xFFFFFFFF
@@ -162,14 +166,16 @@ namespace UnityEngine::UI {
     T Get() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::Get");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
     }
     // public System.Void Release(T element)
     // Offset: 0xFFFFFFFF
     void Release(T element) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, element);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, element);
     }
   }; // UnityEngine.UI.ObjectPool`1
   // Could not write size check! Type: UnityEngine.UI.ObjectPool`1 is generic, or has no fields that are valid for size checks!

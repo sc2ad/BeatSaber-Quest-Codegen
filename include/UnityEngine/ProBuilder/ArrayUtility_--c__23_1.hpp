@@ -67,7 +67,8 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* $ToString$b__23_0(T x) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::$$c__23_1::<ToString>b__23_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToString>b__23_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method, x);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

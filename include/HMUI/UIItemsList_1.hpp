@@ -78,21 +78,24 @@ namespace HMUI {
       void Invoke(int idx, T item) {
         static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(idx), ::il2cpp_utils::ExtractType(item)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, idx, item);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, idx, item);
       }
       // public System.IAsyncResult BeginInvoke(System.Int32 idx, T item, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(int idx, T item, System::AsyncCallback* callback, ::Il2CppObject* object) {
         static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::BeginInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(idx), ::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-        return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, idx, item, callback, object);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, idx, item, callback, object);
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
       void EndInvoke(System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, result);
       }
     }; // HMUI.UIItemsList`1/HMUI.DataCallback
     // Could not write size check! Type: HMUI.UIItemsList`1/HMUI.DataCallback is generic, or has no fields that are valid for size checks!
@@ -214,14 +217,16 @@ namespace HMUI {
     System::Collections::Generic::IEnumerable_1<T>* get_items() {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::get_items");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_items", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(___instance_arg, ___internal__method);
     }
     // public System.Void SetData(System.Int32 numberOfElements, HMUI.UIItemsList`1/HMUI.DataCallback<T> dataCallback)
     // Offset: 0xFFFFFFFF
     void SetData(int numberOfElements, typename HMUI::UIItemsList_1<T>::DataCallback* dataCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::SetData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(numberOfElements), ::il2cpp_utils::ExtractType(dataCallback)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, numberOfElements, dataCallback);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, numberOfElements, dataCallback);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

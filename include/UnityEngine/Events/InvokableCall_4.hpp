@@ -78,7 +78,8 @@ namespace UnityEngine::Events {
     void Invoke(::Array<::Il2CppObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall_4::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, args);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, args);
     }
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFF
@@ -87,7 +88,8 @@ namespace UnityEngine::Events {
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall_4::Find");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Find", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(targetObj), ::il2cpp_utils::ExtractType(method)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, targetObj, method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, targetObj, method);
     }
   }; // UnityEngine.Events.InvokableCall`4
   // Could not write size check! Type: UnityEngine.Events.InvokableCall`4 is generic, or has no fields that are valid for size checks!

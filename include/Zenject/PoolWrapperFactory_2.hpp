@@ -77,7 +77,8 @@ namespace Zenject {
     TValue Create(TParam1 arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolWrapperFactory_2::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg)})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, arg);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method, arg);
     }
   }; // Zenject.PoolWrapperFactory`2
   // Could not write size check! Type: Zenject.PoolWrapperFactory`2 is generic, or has no fields that are valid for size checks!

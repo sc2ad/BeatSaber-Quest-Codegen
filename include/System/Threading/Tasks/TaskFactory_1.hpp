@@ -153,7 +153,8 @@ namespace System::Threading::Tasks {
       void Complete(TInstance thisRef, System::Func_3<TInstance, System::IAsyncResult*, TResult>* endMethod, System::IAsyncResult* asyncResult, bool requiresSynchronization) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::FromAsyncTrimPromise_1::Complete");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Complete", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(thisRef), ::il2cpp_utils::ExtractType(endMethod), ::il2cpp_utils::ExtractType(asyncResult), ::il2cpp_utils::ExtractType(requiresSynchronization)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, thisRef, endMethod, asyncResult, requiresSynchronization);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, thisRef, endMethod, asyncResult, requiresSynchronization);
       }
       // static private System.Void .cctor()
       // Offset: 0xFFFFFFFF
@@ -249,7 +250,8 @@ namespace System::Threading::Tasks {
       void $FromAsyncImpl$b__0(System::IAsyncResult* iar) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::$$c__DisplayClass35_0::<FromAsyncImpl>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromAsyncImpl>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(iar)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, iar);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, iar);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -322,7 +324,8 @@ namespace System::Threading::Tasks {
       void $FromAsyncImpl$b__1(System::IAsyncResult* iar) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::$$c__DisplayClass35_1::<FromAsyncImpl>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromAsyncImpl>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(iar)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, iar);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, iar);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -437,7 +440,8 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task_1<TResult>* StartNew(System::Func_1<TResult>* function, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskScheduler* scheduler) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::StartNew");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StartNew", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(function), ::il2cpp_utils::ExtractType(cancellationToken), ::il2cpp_utils::ExtractType(creationOptions), ::il2cpp_utils::ExtractType(scheduler)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal__method, function, cancellationToken, creationOptions, scheduler);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(___instance_arg, ___internal__method, function, cancellationToken, creationOptions, scheduler);
     }
     // static private System.Void FromAsyncCoreLogic(System.IAsyncResult iar, System.Func`2<System.IAsyncResult,TResult> endFunction, System.Action`1<System.IAsyncResult> endAction, System.Threading.Tasks.Task`1<TResult> promise, System.Boolean requiresSynchronization)
     // Offset: 0xFFFFFFFF
@@ -451,7 +455,8 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task_1<TResult>* FromAsync(System::Func_3<System::AsyncCallback*, ::Il2CppObject*, System::IAsyncResult*>* beginMethod, System::Func_2<System::IAsyncResult*, TResult>* endMethod, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::FromAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromAsync", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(beginMethod), ::il2cpp_utils::ExtractType(endMethod), ::il2cpp_utils::ExtractType(state)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal__method, beginMethod, endMethod, state);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(___instance_arg, ___internal__method, beginMethod, endMethod, state);
     }
     // static System.Threading.Tasks.Task`1<TResult> FromAsyncImpl(System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult> beginMethod, System.Func`2<System.IAsyncResult,TResult> endFunction, System.Action`1<System.IAsyncResult> endAction, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions)
     // Offset: 0xFFFFFFFF

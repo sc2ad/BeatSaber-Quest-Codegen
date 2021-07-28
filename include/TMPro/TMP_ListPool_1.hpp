@@ -70,7 +70,8 @@ namespace TMPro {
       void $_cctor$b__3_0(System::Collections::Generic::List_1<T>* l) {
         static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ListPool_1::$$c::<.cctor>b__3_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.cctor>b__3_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(l)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, l);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, l);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF

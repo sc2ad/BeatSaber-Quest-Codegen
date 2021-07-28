@@ -80,7 +80,8 @@ namespace System::Linq {
     bool $CombinePredicates$b__0(TSource x) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::$$c__DisplayClass6_0_1::<CombinePredicates>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CombinePredicates>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

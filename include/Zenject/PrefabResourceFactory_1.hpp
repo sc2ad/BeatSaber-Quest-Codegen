@@ -65,14 +65,16 @@ namespace Zenject {
     Zenject::DiContainer* get_Container() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::get_Container");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Container", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(___instance_arg, ___internal__method);
     }
     // public T Create(System.String prefabResourceName)
     // Offset: 0xFFFFFFFF
     T Create(::Il2CppString* prefabResourceName) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceFactory_1::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(prefabResourceName)})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefabResourceName);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method, prefabResourceName);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

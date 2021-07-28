@@ -150,14 +150,16 @@ namespace System {
       T get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySegment_1::ArraySegmentEnumerator::get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
       // Offset: 0xFFFFFFFF
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySegment_1::ArraySegmentEnumerator::System.Collections.IEnumerator.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(___instance_arg, ___internal__method);
       }
       // System.Void .ctor(System.ArraySegment`1<T> arraySegment)
       // Offset: 0xFFFFFFFF
@@ -171,21 +173,24 @@ namespace System {
       bool MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySegment_1::ArraySegmentEnumerator::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySegment_1::ArraySegmentEnumerator::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF
       void Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ArraySegment_1::ArraySegmentEnumerator::Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
       }
     }; // System.ArraySegment`1/System.ArraySegmentEnumerator
     // Could not write size check! Type: System.ArraySegment`1/System.ArraySegmentEnumerator is generic, or has no fields that are valid for size checks!

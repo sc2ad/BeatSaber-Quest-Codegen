@@ -99,42 +99,48 @@ namespace Zenject {
     bool get_IsCached() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::get_IsCached");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
     }
     // protected System.Guid get_FactoryId()
     // Offset: 0xFFFFFFFF
     System::Guid get_FactoryId() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::get_FactoryId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_FactoryId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Guid, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Guid, false>(___instance_arg, ___internal__method);
     }
     // private System.Void set_FactoryId(System.Guid value)
     // Offset: 0xFFFFFFFF
     void set_FactoryId(System::Guid value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::set_FactoryId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_FactoryId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
     }
     // protected Zenject.DiContainer get_Container()
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* get_Container() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::get_Container");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Container", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(___instance_arg, ___internal__method);
     }
     // private System.Void set_Container(Zenject.DiContainer value)
     // Offset: 0xFFFFFFFF
     void set_Container(Zenject::DiContainer* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::set_Container");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Container", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
     }
     // public System.Boolean get_TypeVariesBasedOnMemberType()
     // Offset: 0xFFFFFFFF
     bool get_TypeVariesBasedOnMemberType() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::get_TypeVariesBasedOnMemberType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid factoryId)
     // Offset: 0xFFFFFFFF
@@ -148,14 +154,16 @@ namespace Zenject {
     System::Type* GetInstanceType(Zenject::InjectContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::GetInstanceType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(this, ___internal__method, context);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(___instance_arg, ___internal__method, context);
     }
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactoryProviderBase_1::GetAllInstancesWithInjectSplit");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, context, args, byref(injectAction), buffer);
     }
   }; // Zenject.IFactoryProviderBase`1
   // Could not write size check! Type: Zenject.IFactoryProviderBase`1 is generic, or has no fields that are valid for size checks!

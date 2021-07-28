@@ -142,14 +142,16 @@ namespace LiteNetLib::Utils {
     ::Array<TProperty>* ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallSpecific_2::ReadArrayHelper");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReadArrayHelper", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(r)})));
-      return ::il2cpp_utils::RunMethodThrow<::Array<TProperty>*, false>(this, ___internal__method, inf, r);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Array<TProperty>*, false>(___instance_arg, ___internal__method, inf, r);
     }
     // protected TProperty[] WriteArrayHelper(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
     ::Array<TProperty>* WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter* w) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallSpecific_2::WriteArrayHelper");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteArrayHelper", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(w)})));
-      return ::il2cpp_utils::RunMethodThrow<::Array<TProperty>*, false>(this, ___internal__method, inf, w);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Array<TProperty>*, false>(___instance_arg, ___internal__method, inf, w);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -168,7 +170,8 @@ namespace LiteNetLib::Utils {
     void Init(System::Reflection::MethodInfo* getMethod, System::Reflection::MethodInfo* setMethod, bool isArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallSpecific_2::Init");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(getMethod), ::il2cpp_utils::ExtractType(setMethod), ::il2cpp_utils::ExtractType(isArray)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, getMethod, setMethod, isArray);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, getMethod, setMethod, isArray);
     }
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecific`2
   // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecific`2 is generic, or has no fields that are valid for size checks!

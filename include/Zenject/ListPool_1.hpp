@@ -61,7 +61,8 @@ namespace Zenject {
     void OnDespawned(System::Collections::Generic::List_1<T>* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ListPool_1::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, list);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, list);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -40,7 +40,8 @@ namespace Zenject {
     TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(param1), ::il2cpp_utils::ExtractType(param2), ::il2cpp_utils::ExtractType(param3), ::il2cpp_utils::ExtractType(param4)})));
-      return ::il2cpp_utils::RunMethodThrow<TBase, false>(this, ___internal__method, key, param1, param2, param3, param4);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TBase, false>(___instance_arg, ___internal__method, key, param1, param2, param3, param4);
     }
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ProvidedTypes()
     // Offset: 0xFFFFFFFF
@@ -49,7 +50,8 @@ namespace Zenject {
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::get_ProvidedTypes");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

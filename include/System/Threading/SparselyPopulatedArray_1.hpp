@@ -61,7 +61,8 @@ namespace System::Threading {
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Tail() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArray_1::get_Tail");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Tail", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(___instance_arg, ___internal__method);
     }
     // System.Void .ctor(System.Int32 initialSize)
     // Offset: 0xFFFFFFFF
@@ -75,7 +76,8 @@ namespace System::Threading {
     System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SparselyPopulatedArray_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayAddInfo_1<T>, false>(this, ___internal__method, element);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayAddInfo_1<T>, false>(___instance_arg, ___internal__method, element);
     }
   }; // System.Threading.SparselyPopulatedArray`1
   // Could not write size check! Type: System.Threading.SparselyPopulatedArray`1 is generic, or has no fields that are valid for size checks!

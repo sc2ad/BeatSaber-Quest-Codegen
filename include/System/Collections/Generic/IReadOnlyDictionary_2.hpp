@@ -33,7 +33,8 @@ namespace System::Collections::Generic {
     bool TryGetValue(TKey key, ByRef<TValue> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyDictionary_2::TryGetValue");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, byref(value));
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, key, byref(value));
     }
   }; // System.Collections.Generic.IReadOnlyDictionary`2
   // Could not write size check! Type: System.Collections.Generic.IReadOnlyDictionary`2 is generic, or has no fields that are valid for size checks!

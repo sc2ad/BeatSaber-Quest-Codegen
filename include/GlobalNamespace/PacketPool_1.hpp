@@ -118,28 +118,32 @@ namespace GlobalNamespace {
     T Obtain() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Obtain");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Obtain", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
     }
     // public System.Void Release(T t)
     // Offset: 0xFFFFFFFF
     void Release(T t) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, t);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, t);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // private System.Void IPacketPool.Release(System.Object o)
     // Offset: 0xFFFFFFFF
     void IPacketPool_Release(::Il2CppObject* o) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::IPacketPool.Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IPacketPool.Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, o);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, o);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -157,7 +161,8 @@ namespace GlobalNamespace {
     int GetHashCode() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
   }; // PacketPool`1
   // Could not write size check! Type: PacketPool`1 is generic, or has no fields that are valid for size checks!

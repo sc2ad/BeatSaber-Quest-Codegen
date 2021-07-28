@@ -218,7 +218,8 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task* $RunSync$b__0() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1::<RunSync>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RunSync>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

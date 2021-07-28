@@ -93,7 +93,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::GetDependency");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDependency", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDepObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDepObject>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TDepObject, false>(this, ___generic__method, index);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TDepObject, false>(___instance_arg, ___generic__method, index);
     }
     // public System.Void SetProgressCallback(System.Func`1<System.Single> callback)
     // Offset: 0xFFFFFFFF
@@ -105,7 +106,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::ProviderCompleted");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProviderCompleted", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(status), ::il2cpp_utils::ExtractType(e)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, result, status, e);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, result, status, e);
     }
     // public System.Void SetDownloadProgressCallback(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus> callback)
     // Offset: 0xFFFFFFFF

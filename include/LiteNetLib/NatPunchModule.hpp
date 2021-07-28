@@ -257,7 +257,8 @@ namespace LiteNetLib {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NatPunchModule::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(target)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, packet, target);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, packet, target);
     }
     // public System.Void NatIntroduce(System.Net.IPEndPoint hostInternal, System.Net.IPEndPoint hostExternal, System.Net.IPEndPoint clientInternal, System.Net.IPEndPoint clientExternal, System.String additionalInfo)
     // Offset: 0x17A3B90

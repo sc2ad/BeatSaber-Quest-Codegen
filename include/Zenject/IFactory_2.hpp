@@ -30,7 +30,8 @@ namespace Zenject {
     TValue Create(TParam1 param) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IFactory_2::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(param)})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, param);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method, param);
     }
   }; // Zenject.IFactory`2
   // Could not write size check! Type: Zenject.IFactory`2 is generic, or has no fields that are valid for size checks!

@@ -61,7 +61,8 @@ namespace UnityEngine::ResourceManagement::Util {
     ::Il2CppString* GetGameObjectName() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ComponentSingleton_1::GetGameObjectName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetGameObjectName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
     }
     // static private T CreateNewSingleton()
     // Offset: 0xFFFFFFFF
@@ -75,7 +76,8 @@ namespace UnityEngine::ResourceManagement::Util {
     void Awake() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ComponentSingleton_1::Awake");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // static public System.Void DestroySingleton()
     // Offset: 0xFFFFFFFF

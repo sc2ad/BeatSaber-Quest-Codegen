@@ -68,7 +68,8 @@ namespace Zenject {
     bool $WhenInjectedInto$b__4_0(Zenject::InjectContext* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::$$c__4_1::<WhenInjectedInto>b__4_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WhenInjectedInto>b__4_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, r);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, r);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

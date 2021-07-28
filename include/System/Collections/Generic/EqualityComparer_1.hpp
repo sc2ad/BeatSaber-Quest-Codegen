@@ -64,42 +64,48 @@ namespace System::Collections::Generic {
     bool Equals(T x, T y) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::EqualityComparer_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x, y);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, x, y);
     }
     // public System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     int GetHashCode(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::EqualityComparer_1::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, obj);
     }
     // System.Int32 IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     int IndexOf(::Array<T>* array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::EqualityComparer_1::IndexOf");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IndexOf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, array, value, startIndex, count);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, array, value, startIndex, count);
     }
     // System.Int32 LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     int LastIndexOf(::Array<T>* array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::EqualityComparer_1::LastIndexOf");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LastIndexOf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, array, value, startIndex, count);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, array, value, startIndex, count);
     }
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
     // Offset: 0xFFFFFFFF
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::EqualityComparer_1::System.Collections.IEqualityComparer.GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEqualityComparer.GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, obj);
     }
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::EqualityComparer_1::System.Collections.IEqualityComparer.Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEqualityComparer.Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x, y);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, x, y);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

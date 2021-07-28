@@ -149,7 +149,8 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::GetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, name);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, name);
     }
     // System.Net.Http.Headers.HttpHeaderValueCollection`1<T> GetValues(System.String name)
     // Offset: 0xFFFFFFFF
@@ -158,7 +159,8 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::GetValues");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetValues", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HttpHeaderValueCollection_1<T>*, false>(this, ___generic__method, name);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HttpHeaderValueCollection_1<T>*, false>(___instance_arg, ___generic__method, name);
     }
     // System.Void SetValue(System.String name, T value, System.Func`2<System.Object,System.String> toStringConverter)
     // Offset: 0xFFFFFFFF
@@ -167,7 +169,8 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::SetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetValue", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(toStringConverter)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, name, value, toStringConverter);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, name, value, toStringConverter);
     }
     // protected System.Void .ctor()
     // Offset: 0x126A738

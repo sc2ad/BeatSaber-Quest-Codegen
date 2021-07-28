@@ -40,21 +40,24 @@ namespace System::Collections::Concurrent {
     bool TryAdd(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::IProducerConsumerCollection_1::TryAdd");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryAdd", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, item);
     }
     // public System.Boolean TryTake(out T item)
     // Offset: 0xFFFFFFFF
     bool TryTake(ByRef<T> item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::IProducerConsumerCollection_1::TryTake");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryTake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(item));
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, byref(item));
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF
     ::Array<T>* ToArray() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::IProducerConsumerCollection_1::ToArray");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(___instance_arg, ___internal__method);
     }
   }; // System.Collections.Concurrent.IProducerConsumerCollection`1
   // Could not write size check! Type: System.Collections.Concurrent.IProducerConsumerCollection`1 is generic, or has no fields that are valid for size checks!
